@@ -160,3 +160,73 @@ n'est vrai que pour un score jamais inscrit, et un score écrit reste écrit.
 
 **Leçon** : ne jamais déployer un datapack non testé sur un serveur en
 production.
+
+---
+
+## La v60 — 20 septembre
+
+### Six mods ajoutés
+
+Quatre venaient du vote, dans le fil « ✅ Suggestions acceptées » :
+
+```
+Iron's Spells 'n Spellbooks   3.16.3
+Hazen 'N Stuff                1.1.2 watered down edition
+CC: Tweaked                   1.120.2
+```
+
+Deux sont des choix d'administration, sans vote :
+
+```
+Pipez                1.2.26    tuyaux simples pour l'automatisation
+Cinematic Respawn    1.3.0     purement visuel, à la mort
+Immersive Portals    3.0.7     portails traversés sans écran de chargement
+```
+
+Trois dépendances ont suivi automatiquement : **Iron's Lib 2.1.0**,
+**playerAnimator** et **GTBC's SpellLib 2.2.0**. GeckoLib et Curios
+étaient déjà présents et n'ont pas été réinstallés — deux versions
+chargées cassent le démarrage.
+
+### Identity Mask refusé
+
+Le vote l'a écarté. Il entre en **réserve** : le vainqueur d'un raid
+pourra le repêcher avec `!mods repecher`.
+
+C'était le mod le moins éprouvé du lot — publié le 28 août 2026, une
+seule version marquée bêta, licence « tous droits réservés » qui
+aurait posé un problème de redistribution dans le pack.
+
+### CC: Tweaked a fait tomber le serveur
+
+Le premier démarrage a échoué :
+
+```
+NoClassDefFoundError:
+com/simibubi/create/content/contraptions/BlockMovementChecks$AttachedCheck
+  at dan200.computercraft.shared.integration.CreateIntegration.setup
+```
+
+**CC: Tweaked 1.113.1 — la dernière version listée sur CurseForge —
+n'est pas compatible avec Create 6.0.8.** L'intégration Create du mod
+cherche une classe que Create a déplacée dans sa version 6.
+
+La 1.120.2, publiée en août 2026, corrige le problème. Elle n'existe
+que **sur Modrinth** : la page CurseForge du mod n'est plus mise à
+jour pour 1.20.1.
+
+⚠️ **Leçon** : chercher un mod sur les deux plateformes avant de
+conclure qu'une version est la plus récente. CurseForge peut être
+figé là où Modrinth continue.
+
+### Open Parties and Claims a disparu de lui-même
+
+Le jar n'était plus dans `/mods` : la mise à jour du pack du
+20 septembre l'avait déjà retiré. Ses fichiers de configuration
+restent dans `/world/serverconfig`, sans effet.
+
+### Le redémarrage s'est bloqué
+
+Le serveur est resté en « stopping » — le bug de chargement aléatoire
+de Quark. `kill` puis `start` l'a débloqué, comme prévu au mémo staff.
+Un `restart` seul ne suffit jamais dans ce cas.

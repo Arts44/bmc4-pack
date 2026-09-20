@@ -7,6 +7,33 @@ Le raisonnement derrière chaque choix est dans [`decisions.md`](../decisions.md
 
 ---
 
+## Les mods ajoutés par le serveur — v60
+
+Ils ne font pas partie du pack Better MC d'origine. Un export du pack
+client doit les contenir, sinon Forge refuse la connexion.
+
+```
+irons_spellbooks-1.20.1-3.16.3.jar
+irons_lib-1.20.1-2.1.0.jar                  dépendance
+player-animation-lib-forge-1.0.2-rc1+1.20.jar   dépendance
+hazennstuff-watered-down-edition-1.1.2.jar
+gtbcs_spell_lib-2.2.0-1.20.1.jar            dépendance
+cc-tweaked-1.20.1-forge-1.120.2.jar
+pipez-forge-1.20.1-1.2.26.jar
+cinematic_respawn-1.20.1-forge-1.3.0.jar
+immersive-portals-3.0.7-all.jar
+```
+
+⚠️ **CC: Tweaked doit venir de Modrinth**, pas de CurseForge. La
+dernière version publiée sur CurseForge pour 1.20.1 est la 1.113.1,
+incompatible avec Create 6.0.8 — elle fait planter le serveur au
+chargement. La 1.120.2 de Modrinth corrige le problème.
+
+⚠️ **Ne pas réinstaller GeckoLib ni Curios** : ils sont déjà dans le
+pack, et deux versions chargées cassent le démarrage.
+
+---
+
 ## `server.properties`
 
 ```properties
@@ -84,8 +111,10 @@ Teams garde ses données en mémoire et réécrit le fichier en sauvegardant.
     enabled = false      # défaut true
 ```
 
-Le mod reste chargé mais inerte. À retirer du pack — **des deux côtés**,
-serveur et client, sinon Forge refuse les connexions.
+✅ **Le mod a été retiré du pack** lors de la mise à jour du
+20 septembre — son jar n'est plus dans `/mods`. Ces fichiers de
+configuration subsistent dans le monde, sans effet. Les laisser ne
+coûte rien ; les supprimer serait sans conséquence non plus.
 
 ---
 
