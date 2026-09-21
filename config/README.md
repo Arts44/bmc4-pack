@@ -158,3 +158,75 @@ Create, en fusion et en cuisson.
 
 Exile Pylon désactivé. ⚠️ **À refaire si le monde est réinitialisé** : ce
 fichier vit dans le monde, pas dans la configuration globale.
+
+## `config/Discord-Integration.toml`
+
+```toml
+[webhook]
+  enable = false       # défaut true après une mise à jour du pack
+```
+
+⚠️ **À remettre à `false` après chaque mise à jour du pack.**
+
+En mode webhook, Discord Integration poste sous le pseudo et le skin de
+chaque joueur au lieu du bot. Le rendu est plus lisible, mais le
+traducteur `journal-fr.js` ne reconnaît que les messages **du bot** : ceux
+d'un webhook ont un autre auteur, et passent sans être traduits.
+
+C'est ce qui s'est produit le 21 septembre — « Server Stopped! » et
+« Server Started! » en anglais dans `#journal-serveur`, la mise à jour du
+20 ayant réactivé le webhook.
+
+S'applique à chaud, sans redémarrage :
+
+```
+discord reload
+```
+
+## `config/alexsmobs.toml` — section `[spawning]`
+
+Dix-sept poids divisés par deux, le 21 septembre. Seuls ceux de 20 et
+plus, parmi les créatures terrestres de l'Overworld — celles qui
+occupent la place des animaux vanilla dans leurs biomes.
+
+```toml
+gazelleSpawnWeight = 20                 # 40
+rockyRollerSpawnWeight = 30             # 60
+elephantSpawnWeight = 15                # 30
+tigerSpawnWeight = 15                   # 30
+caimanSpawnWeight = 14                  # 29
+capuchinMonkeySpawnWeight = 14          # 28
+mudskipperSpawnWeight = 14              # 28
+gorillaSpawnWeight = 12                 # 25
+kangarooSpawnWeight = 12                # 25
+rhinocerosSpawnWeight = 12              # 24
+toucanSpawnWeight = 11                  # 23
+seagullSpawnWeight = 10                 # 21
+crocodileSpawnWeight = 10               # 20
+alligatorSnappingTurtleSpawnWeight = 10 # 20
+emuSpawnWeight = 10                     # 20
+platypusSpawnWeight = 10                # 20
+froststalkerSpawnWeight = 10            # 20
+```
+
+⚠️ **Prend effet au redémarrage**, pas au `reload`.
+
+Pour comparer, en plaine vanilla : mouton 12, cochon 10, poule 10,
+vache 8. Les créatures d'Alex's Mobs puisent dans le même quota que
+les animaux vanilla ; avec des poids de 40 ou 60, elles les
+évinçaient de leurs biomes.
+
+## Datapack — repeuplement des animaux vanilla
+
+`data/bmc4/functions/animaux/` : toutes les trois minutes, en plein
+jour, pour chaque joueur de l'Overworld entouré de moins de huit
+animaux vanilla dans 64 blocs, une paire apparaît sur l'herbe entre
+24 et 48 blocs de lui — mouton, vache, cochon ou poule, une chance
+sur quatre chacun.
+
+**Pourquoi** : Minecraft ne fait naître les animaux qu'à la génération
+d'un chunk. Autour d'une base habitée, ils disparaissent et ne
+reviennent pas — y compris en vanilla. Ce cycle compense sans
+surpeupler : au-dessus de huit animaux, il ne fait rien, donc un
+élevage ne déclenche pas de nouvelles apparitions.
+
