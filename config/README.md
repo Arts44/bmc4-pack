@@ -37,6 +37,7 @@ pack, et deux versions chargées cassent le démarrage.
 ## `server.properties`
 
 ```properties
+motd=§7§oBMC4\n§8§kArts_Vio & HelXo14§f§a§i§r§x§a§e§r§o
 difficulty=normal
 simulation-distance=6
 max-tick-time=300000
@@ -238,4 +239,23 @@ d'un chunk. Autour d'une base habitée, ils disparaissent et ne
 reviennent pas — y compris en vanilla. Ce cycle compense sans
 surpeupler : au-dessus de huit animaux, il ne fait rien, donc un
 élevage ne déclenche pas de nouvelles apparitions.
+
+## Mode fair-play de Xaero's Minimap
+
+Le code `§f§a§i§r§x§a§e§r§o`, en fin de `motd`, active le **mode
+fair-play** de Xaero : le radar d'entités et le mode grotte sont
+coupés sur toutes les minimaps. La carte, les waypoints et
+l'exploration restent intacts.
+
+Les codes de couleur ne s'affichent pas dans la liste des serveurs :
+le message reste identique à l'œil. Xaero les lit à la connexion.
+
+**Pourquoi** : le radar montrait chaque joueur dans un rayon d'une
+soixantaine de blocs, à travers les murs et **même invisible** — la
+cape d'invisibilité ne servait à rien. Sur un serveur en factions, il
+rendait aussi toute approche surprise impossible avant un raid.
+
+⚠️ **Prend effet au redémarrage du serveur**, puis à la reconnexion
+de chaque joueur. Le serveur ne peut pas masquer seulement les
+joueurs invisibles : c'est tout le radar ou rien.
 
