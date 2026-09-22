@@ -163,25 +163,34 @@ fichier vit dans le monde, pas dans la configuration globale.
 
 ```toml
 [webhook]
-  enable = false       # défaut true après une mise à jour du pack
+  enable = true
 ```
 
-⚠️ **À remettre à `false` après chaque mise à jour du pack.**
+Le mode webhook poste chaque message **sous le pseudo et la tête de
+skin du joueur**, au lieu du bot. Beaucoup plus lisible dans
+`#chat-ingame`, où l'on voit qui parle d'un coup d'œil.
 
-En mode webhook, Discord Integration poste sous le pseudo et le skin de
-chaque joueur au lieu du bot. Le rendu est plus lisible, mais le
-traducteur `journal-fr.js` ne reconnaît que les messages **du bot** : ceux
-d'un webhook ont un autre auteur, et passent sans être traduits.
+⚠️ **Correction du 22 septembre** : je l'avais désactivé la veille en
+croyant qu'il empêchait la traduction de `#journal-serveur`. C'était
+faux — `journal-fr.js` accepte les messages de webhook depuis le
+début. Les messages anglais de cette nuit-là venaient de **Railway à
+l'arrêt** à la fin de l'essai, et de l'absence de règle pour
+« Server Started! », ajoutée depuis.
 
-C'est ce qui s'est produit le 21 septembre — « Server Stopped! » et
-« Server Started! » en anglais dans `#journal-serveur`, la mise à jour du
-20 ayant réactivé le webhook.
+S'applique à chaud : `discord reload`
 
-S'applique à chaud, sans redémarrage :
+## Planning de 5 h — annonces en `tellraw`, pas en `say`
 
-```
-discord reload
-```
+Discord Integration relaie **tout `say`** dans `#chat-ingame` comme un
+message de chat. Les trois annonces du redémarrage couvraient chaque
+matin les conversations, et donnaient l'impression d'un salon mort.
+
+`tellraw @a` affiche le même texte en jeu sans passer par le chat :
+rien n'est relayé.
+
+⚠️ **Toute annonce automatique doit utiliser `tellraw`.** Un `say`
+ajouté plus tard dans un planning ou une fonction réapparaîtra dans
+le salon.
 
 ## `config/alexsmobs.toml` — section `[spawning]`
 
