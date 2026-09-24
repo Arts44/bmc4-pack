@@ -62,9 +62,20 @@ nether_in_bastion_treasure_chance   = 0.45   # défaut 0.35
 water_in_buried_treasure_chance     = 0.3    # défaut 0.175
 
 dragon_wander_range = 8                      # défaut 30
+global_breath_damage = 3.0                   # défaut 6.0
 ```
 
 ⚠️ Section marquée « requires restart ».
+
+**Le souffle fait 1,5 cœur au lieu de 3**, depuis le 24 septembre. Il
+touche les dragons entre eux autant que les joueurs : avec treize
+dragons entassés près de la base, la valeur d'origine en tuait.
+
+**Reproduction** : chaque dragon ne peut se reproduire que deux fois
+(`[reproduction_limits]`, toutes races à 2). Les œufs changent de race
+selon l'environnement où on les pose (`update_habitats = true`) —
+c'est le vrai moyen de choisir la race obtenue, plus que le choix des
+parents.
 
 ---
 
