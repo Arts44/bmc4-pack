@@ -3,8 +3,8 @@
 # Absents du pack (0 identifiant) : Chef's Delight, Autochef's Delight,
 # Hearths — pas de quête pour eux.
 # « Rend un cœur » : balise mediumcore:restores_max_health du serveur,
-# corrigée le 5 octobre pour pointer #farmersdelight:meals (30 repas en
-# bol) et la Pierre de Soin.
+# corrigée le 5 octobre pour pointer #farmersdelight:meals (37 plats servis
+# en bol ou en assiette) et la Pierre de Soin.
 
 [chapitre]
 titre = "&6Cuisine"
@@ -24,7 +24,7 @@ recompenses = ["item minecraft:bowl 8", "item farmersdelight:cabbage_seeds 4", "
 description = """
 &6Farmer's Delight&r remplace le steak-et-pain par une cuisine : des légumes nouveaux, une planche à découper, une poêle, une marmite, et des plats qui nourrissent longtemps et donnent des effets.
 
-Sur ce serveur, un &lrepas en bol&r a une autre vertu : il rend un &ccœur de vie maximale&r perdu en raid. Les bols et graines offerts sont le début de la cuisine.
+Sur ce serveur, un &lrepas de Farmer's Delight&r (bol ou assiette) a une autre vertu : il rend un &ccœur de vie maximale&r perdu en raid. Les bols et graines offerts sont le début de la cuisine.
 """
 
 [[quete]]
@@ -106,7 +106,7 @@ taille = 1.3
 taches = ["item farmersdelight:beef_stew"]
 recompenses = ["xp 8"]
 description = """
-Bœuf, carotte, pomme de terre, dans la marmite, et un bol. Les plats de la marmite portent des effets, affichés dans leur infobulle : &bConfort&r régénère quelle que soit la faim, &bNourriture&r empêche la faim de baisser. Et le &6ragoût de bœuf&r est un repas en bol : il rend un cœur perdu en raid.
+Bœuf, carotte, pomme de terre, dans la marmite, et un bol. Les plats de la marmite portent des effets, affichés dans leur infobulle : &bConfort&r régénère quelle que soit la faim, &bNourriture&r empêche la faim de baisser. Et le &6ragoût de bœuf&r est un repas : il rend un cœur perdu en raid.
 """
 
 [[quete]]
@@ -126,7 +126,7 @@ deps = ["marmite", "legumes"]
 taches = ["item farmersdelight:mixed_salad", "item farmersdelight:fried_rice"]
 recompenses = ["xp 5"]
 description = """
-Pas tout passe par la marmite : la &asalade composée&r se fait à la table. Le &6riz sauté&r, lui, vient de la marmite. Les deux sont des repas en bol.
+Pas tout passe par la marmite : la &asalade composée&r se fait à la table. Le &6riz sauté&r, lui, vient de la marmite. Les deux sont des repas : ils rendent un cœur perdu en raid.
 """
 
 [[quete]]
