@@ -1,0 +1,279 @@
+# Chapitre « Faune » — cahier des charges §5.16
+# Sources (5 octobre 2026) : recettes et textes des jars (alexsmobs-1.22.9
+# : item.*.desc ; friendsandfoes 3.0.9 : progrès et infobulle des totems ;
+# pet_cemetery 2.0.0 : PCEvents lâche le collier à la mort d'un animal de
+# la balise drops_pet_collar, progrès respawn_pet ; incubation : recette du
+# nid ; revampedwolf 6.1.0 : recettes d'armures ; justenoughbreeding :
+# catégories JEI) ; configs du serveur (guardvillagers-common.toml : 6
+# gardes par village, réputation 15 pour leur inventaire, ils ne suivent
+# qu'un Héros du village ; revampedwolf-common.toml : armures activées ;
+# friendsandfoes.json : golem de cuivre, piège du cheval zombie, glare,
+# moobloom activés). Les rencontres elles-mêmes sont au Bestiaire.
+
+[chapitre]
+titre = "&aFaune"
+fichier = "faune"
+groupe = "mods"
+icone = "alexsmobs:animal_dictionary"
+ordre = 16
+
+[[quete]]
+cle = "intro"
+titre = "&aLes bêtes du pack"
+sous_titre = "Guide dans #faune sur le Discord."
+taille = 1.5
+icone = "alexsmobs:spawn_egg_grizzly_bear"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:wheat 16", "item minecraft:lead 2"]
+description = """
+Près de cent créatures d'&bAlex's Mobs&r, les candidats des votes de &bFriends & Foes&r, les gardes de &bGuard Villagers&r, les loups de &bRevampedWolf&r, les nids d'&bIncubation&r et les animaux ranimés de &bPet Cemetery&r. Ce chapitre s'intéresse à ce qu'on en tire : objets, équipement, élevage. Les rencontres sont au &7Bestiaire&r de l'Encyclopédie.
+
+Le blé et les laisses offerts servent à ramener les premières bêtes à la base.
+"""
+
+[[quete]]
+cle = "dictionnaire"
+titre = "Le Dictionnaire animal"
+deps = ["intro"]
+taille = 1.3
+taches = ["item alexsmobs:animal_dictionary"]
+recompenses = ["xp 3"]
+description = """
+« Par le professeur Alex Khaan » : le &aDictionnaire animal&r décrit chaque créature d'Alex's Mobs, ses biomes, ce qu'elle mange, ce qu'elle lâche. Il se fabrique dès le début et remplace le wiki.
+"""
+
+[[quete]]
+cle = "jeb"
+titre = "Just Enough Breeding"
+deps = ["intro"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 2"]
+description = """
+Rien à fabriquer : &bJust Enough Breeding&r ajoute à JEI les onglets &lÉlevage&r, &lApprivoisement&r, &lTempérament&r, &lConfiance&r et &lTransformation&r. Pour savoir ce que mange un animal — du pack ou d'un mod — c'est là qu'on regarde.
+"""
+
+# ---- Alex's Mobs : l'équipement
+[[quete]]
+cle = "geocoucou"
+titre = "Des Bottes de géocoucou"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:roadrunner_boots"]
+recompenses = ["xp 3"]
+description = """
+Plumes de géocoucou : +0,1 de vitesse sur le sable. Le géocoucou court dans les déserts.
+"""
+
+[[quete]]
+cle = "millepattes"
+titre = "Des Jambières en mille-pattes"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:centipede_leggings"]
+recompenses = ["xp 5"]
+description = """
+Pattes de mille-pattes des cavernes : les jambières permettent de &lgrimper aux murs&r. Pour un raid, c'est une entrée que les défenseurs n'ont pas prévue.
+"""
+
+[[quete]]
+cle = "frontier"
+titre = "Une Casquette de trappeur"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:frontier_cap"]
+recompenses = ["xp 3"]
+description = """
+Queue de raton laveur : +0,1 de vitesse en étant accroupi.
+"""
+
+[[quete]]
+cle = "emeu"
+titre = "Des Jambières d'émeu"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:emu_leggings"]
+recompenses = ["xp 5"]
+description = """
+Une chance d'esquiver les projectiles, comme l'émeu. Contre un archer en raid, ça compte.
+"""
+
+[[quete]]
+cle = "rocheux"
+titre = "Un Plastron en carapace rocheuse"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:rocky_chestplate"]
+recompenses = ["xp 5"]
+description = """
+Carapace de rouleau rocheux : sprinter fait &lrouler&r. Le rouleau vit dans les grottes.
+"""
+
+[[quete]]
+cle = "poisson_volant"
+titre = "Des Bottes de poisson volant"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:flying_fish_boots"]
+recompenses = ["xp 3"]
+description = """
+Sauter hors de l'eau fait &lplaner&r.
+"""
+
+[[quete]]
+cle = "grappin"
+titre = "Un grappin de calmar"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:squid_grapple"]
+recompenses = ["xp 5"]
+description = """
+Un tentacule de calmar géant qui s'accroche ; accroupi pour le détacher.
+"""
+
+[[quete]]
+cle = "colibri"
+titre = "Une Mangeoire à colibris"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:hummingbird_feeder"]
+recompenses = ["xp 2"]
+description = """
+Du sucre dans l'eau : la mangeoire garde les colibris près de chez soi, dit le progrès du mod.
+"""
+
+[[quete]]
+cle = "transmutation"
+titre = "Une Table de transmutation"
+deps = ["dictionnaire"]
+optionnel = true
+taches = ["item alexsmobs:transmutation_table"]
+recompenses = ["xp 5"]
+description = """
+La &dTable de transmutation&r d'Alex's Mobs échange un objet contre un autre, contre de l'expérience (« Coût en expérience » dans son interface).
+"""
+
+# ---- Friends & Foes
+[[quete]]
+cle = "golem_cuivre"
+titre = "Invoquer un golem de cuivre"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement friendsandfoes:adventure/summon_copper_golem"]
+recompenses = ["xp 5"]
+description = """
+Un bloc de cuivre et un paratonnerre : le &6golem de cuivre&r. Il appuie sur les &lboutons de cuivre&r du mod, et s'oxyde avec le temps ; de la cire l'arrête. Le progrès du mod valide la quête.
+"""
+
+[[quete]]
+cle = "ruches"
+titre = "Une ruche dans chaque bois"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement friendsandfoes:husbandry/beehive"]
+recompenses = ["xp 3"]
+description = """
+Friends & Foes fabrique la ruche dans chaque bois du jeu. Le progrès « toutes les ruches » demande les dix.
+"""
+
+[[quete]]
+cle = "glare"
+titre = "Apprivoiser un glare"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement friendsandfoes:husbandry/tame_a_glare"]
+recompenses = ["xp 5"]
+description = """
+Le &2glare&r vit dans les cavernes luxuriantes. Apprivoisé, il suit son maître ; le progrès du mod valide la quête.
+"""
+
+[[quete]]
+cle = "moobloom"
+titre = "Tondre un moobloom"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement friendsandfoes:husbandry/shear_a_moobloom"]
+recompenses = ["xp 3"]
+description = """
+Le &emoobloom&r, la vache à boutons d'or des prairies. Les cisailles le tondent, et le progrès le note.
+"""
+
+[[quete]]
+cle = "totem"
+titre = "Un totem de gel ou d'illusion"
+deps = ["intro"]
+optionnel = true
+taches = ["item friendsandfoes:totem_of_illusion"]
+recompenses = ["xp 5"]
+description = """
+Les mages illageois de Friends & Foes lâchent des totems. Celui d'&dillusion&r se déclenche quand on prend des dégâts sous la moitié de sa vie maximale (infobulle du mod). À garder en main secondaire pour un raid.
+"""
+
+[[quete]]
+cle = "cheval_zombie"
+titre = "Un piège de cheval zombie"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement friendsandfoes:adventure/activate_zombie_horse_trap"]
+recompenses = ["xp 3"]
+description = """
+Friends & Foes ajoute le pendant du piège de cheval squelette ; il est activé sur ce serveur. Le progrès se valide en le déclenchant.
+"""
+
+# ---- Guard Villagers
+[[quete]]
+cle = "gardes"
+titre = "Les gardes des villages"
+deps = ["intro"]
+taches = ["observation entity guardvillagers:guard"]
+recompenses = ["xp 3"]
+description = """
+Chaque village a &lsix gardes&r (config du serveur). Ils défendent les villageois et les golems qu'on attaque (liste de protection de la config). Leur inventaire s'ouvre à partir de 15 de réputation, et ils ne suivent qu'un Héros du village.
+"""
+
+# ---- RevampedWolf
+[[quete]]
+cle = "loup"
+titre = "Une armure de loup"
+deps = ["intro"]
+optionnel = true
+taches = ["item revampedwolf:iron_wolf_armor"]
+recompenses = ["xp 3"]
+description = """
+&bRevampedWolf&r : des armures de loup en cuir, fer, or, diamant, et nétherite à la table de forge. Activées sur ce serveur.
+"""
+
+# ---- Incubation
+[[quete]]
+cle = "nid"
+titre = "Un nid"
+deps = ["intro"]
+optionnel = true
+taches = ["item incubation:hay_nest", "item incubation:chicken_egg_crate"]
+recompenses = ["xp 2"]
+description = """
+&bIncubation&r : cinq blés font un &lnid de foin&r ; les œufs s'y couvent au lieu de se jeter. Une caisse à œufs les stocke, et le mod ajoute l'œuf au plat et les œufs brouillés.
+"""
+
+# ---- Pet Cemetery
+[[quete]]
+cle = "collier"
+titre = "Ranimer un animal"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement pet_cemetery:nether/respawn_pet"]
+recompenses = ["xp 5"]
+description = """
+Quand un animal apprivoisé meurt, il laisse son &lcollier&r. Posé sur une &5ancre de réapparition&r, le collier le ramène en version zombie ; ranimé une seconde fois, il revient squelette. Un zombie se soigne comme un villageois : affaibli, puis guéri.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&aUne ménagerie"
+deps = ["dictionnaire", "gardes"]
+taille = 1.3
+icone = "minecraft:lead"
+taches = ["checkmark Mes bêtes sont à l'abri"]
+recompenses = ["xp 5"]
+description = """
+Des bêtes dans l'enclos, un loup en armure, un chat ranimé. Le &7Bestiaire&r de l'Encyclopédie attend les rencontres.
+"""

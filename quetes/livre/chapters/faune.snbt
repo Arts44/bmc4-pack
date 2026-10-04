@@ -1,0 +1,513 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "faune"
+	group: "14858825A29975B1"
+	icon: "alexsmobs:animal_dictionary"
+	id: "19E1585390DED88D"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Près de cent créatures d'&bAlex's Mobs&r, les candidats des votes de &bFriends & Foes&r, les gardes de &bGuard Villagers&r, les loups de &bRevampedWolf&r, les nids d'&bIncubation&r et les animaux ranimés de &bPet Cemetery&r. Ce chapitre s'intéresse à ce qu'on en tire : objets, équipement, élevage. Les rencontres sont au &7Bestiaire&r de l'Encyclopédie."
+				""
+				"Le blé et les laisses offerts servent à ramener les premières bêtes à la base."
+			]
+			icon: "alexsmobs:spawn_egg_grizzly_bear"
+			id: "2EBB9E3B3EEC9AA5"
+			rewards: [
+				{
+					count: 16
+					id: "43493662D0686ABF"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C64CBB7A1B9C32F"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #faune sur le Discord."
+			tasks: [{
+				id: "5D3B1813B700EB71"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&aLes bêtes du pack"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["« Par le professeur Alex Khaan » : le &aDictionnaire animal&r décrit chaque créature d'Alex's Mobs, ses biomes, ce qu'elle mange, ce qu'elle lâche. Il se fabrique dès le début et remplace le wiki."]
+			icon: "alexsmobs:animal_dictionary"
+			id: "62D1909DB6E7EB50"
+			rewards: [{
+				id: "5751CC2DA206E3A9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "39643C2E44E008AA"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "Le Dictionnaire animal"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Rien à fabriquer : &bJust Enough Breeding&r ajoute à JEI les onglets &lÉlevage&r, &lApprivoisement&r, &lTempérament&r, &lConfiance&r et &lTransformation&r. Pour savoir ce que mange un animal — du pack ou d'un mod — c'est là qu'on regarde."]
+			id: "341E780CE49A3D38"
+			rewards: [{
+				id: "2FD85010E24235F3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "32852A3CAF8442A1"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Just Enough Breeding"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["Plumes de géocoucou : +0,1 de vitesse sur le sable. Le géocoucou court dans les déserts."]
+			icon: "alexsmobs:roadrunner_boots"
+			id: "01619BAE6C06E363"
+			optional: true
+			rewards: [{
+				id: "5D01ACA787179808"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "003D14D2CCEBE1B7"
+				item: "alexsmobs:roadrunner_boots"
+				type: "item"
+			}]
+			title: "Des Bottes de géocoucou"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["Pattes de mille-pattes des cavernes : les jambières permettent de &lgrimper aux murs&r. Pour un raid, c'est une entrée que les défenseurs n'ont pas prévue."]
+			icon: "alexsmobs:centipede_leggings"
+			id: "4D3056B7F683A775"
+			optional: true
+			rewards: [{
+				id: "3CB6DE23123EEEFF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C734E87055AEF27"
+				item: "alexsmobs:centipede_leggings"
+				type: "item"
+			}]
+			title: "Des Jambières en mille-pattes"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["Queue de raton laveur : +0,1 de vitesse en étant accroupi."]
+			icon: "alexsmobs:frontier_cap"
+			id: "7566F0EFEC92C38B"
+			optional: true
+			rewards: [{
+				id: "0F1A892E2DCEA77F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5351AAA54244E7EE"
+				item: "alexsmobs:frontier_cap"
+				type: "item"
+			}]
+			title: "Une Casquette de trappeur"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["Une chance d'esquiver les projectiles, comme l'émeu. Contre un archer en raid, ça compte."]
+			icon: "alexsmobs:emu_leggings"
+			id: "40CC5F60F0216F6B"
+			optional: true
+			rewards: [{
+				id: "41C2931829785D2E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7269024D8A4E7497"
+				item: "alexsmobs:emu_leggings"
+				type: "item"
+			}]
+			title: "Des Jambières d'émeu"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["Carapace de rouleau rocheux : sprinter fait &lrouler&r. Le rouleau vit dans les grottes."]
+			icon: "alexsmobs:rocky_chestplate"
+			id: "13AD128AEB1F8041"
+			optional: true
+			rewards: [{
+				id: "0D949598BA290306"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CFEA5008262F79B"
+				item: "alexsmobs:rocky_chestplate"
+				type: "item"
+			}]
+			title: "Un Plastron en carapace rocheuse"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["Sauter hors de l'eau fait &lplaner&r."]
+			icon: "alexsmobs:flying_fish_boots"
+			id: "6B7E49CFD7CFFC0E"
+			optional: true
+			rewards: [{
+				id: "521639D8AD279AAA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EC316533C9AAB8F"
+				item: "alexsmobs:flying_fish_boots"
+				type: "item"
+			}]
+			title: "Des Bottes de poisson volant"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["Un tentacule de calmar géant qui s'accroche ; accroupi pour le détacher."]
+			icon: "alexsmobs:squid_grapple"
+			id: "01C150760ABEAD62"
+			optional: true
+			rewards: [{
+				id: "6D2937A00A0E1251"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56CD59C1B6687492"
+				item: "alexsmobs:squid_grapple"
+				type: "item"
+			}]
+			title: "Un grappin de calmar"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["Du sucre dans l'eau : la mangeoire garde les colibris près de chez soi, dit le progrès du mod."]
+			icon: "alexsmobs:hummingbird_feeder"
+			id: "3B72C34636B9C15A"
+			optional: true
+			rewards: [{
+				id: "2244EB905C152443"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E731B1F2FE8BEC2"
+				item: "alexsmobs:hummingbird_feeder"
+				type: "item"
+			}]
+			title: "Une Mangeoire à colibris"
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["62D1909DB6E7EB50"]
+			description: ["La &dTable de transmutation&r d'Alex's Mobs échange un objet contre un autre, contre de l'expérience (« Coût en expérience » dans son interface)."]
+			icon: "alexsmobs:transmutation_table"
+			id: "300F48AE27C7C4AC"
+			optional: true
+			rewards: [{
+				id: "75BDFC243949ADF7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62E4BBF899E6E606"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			title: "Une Table de transmutation"
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Un bloc de cuivre et un paratonnerre : le &6golem de cuivre&r. Il appuie sur les &lboutons de cuivre&r du mod, et s'oxyde avec le temps ; de la cire l'arrête. Le progrès du mod valide la quête."]
+			id: "7E256F28700302F8"
+			optional: true
+			rewards: [{
+				id: "04A0AC0B7EF7B1C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/summon_copper_golem"
+				criterion: ""
+				id: "00E1FA5829874F0F"
+				type: "advancement"
+			}]
+			title: "Invoquer un golem de cuivre"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Friends & Foes fabrique la ruche dans chaque bois du jeu. Le progrès « toutes les ruches » demande les dix."]
+			id: "3BB7A088AF3D6B4D"
+			optional: true
+			rewards: [{
+				id: "01ED5EF3EEDF1181"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "friendsandfoes:husbandry/beehive"
+				criterion: ""
+				id: "6673F61CB166AE1D"
+				type: "advancement"
+			}]
+			title: "Une ruche dans chaque bois"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Le &2glare&r vit dans les cavernes luxuriantes. Apprivoisé, il suit son maître ; le progrès du mod valide la quête."]
+			id: "5685E9D28A81CC0C"
+			optional: true
+			rewards: [{
+				id: "382ED6A68170F690"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "friendsandfoes:husbandry/tame_a_glare"
+				criterion: ""
+				id: "3DFFDCB047E6999F"
+				type: "advancement"
+			}]
+			title: "Apprivoiser un glare"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Le &emoobloom&r, la vache à boutons d'or des prairies. Les cisailles le tondent, et le progrès le note."]
+			id: "45CEA1D95C686842"
+			optional: true
+			rewards: [{
+				id: "246958E0F0FA865C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "friendsandfoes:husbandry/shear_a_moobloom"
+				criterion: ""
+				id: "2B9F722FFB72150C"
+				type: "advancement"
+			}]
+			title: "Tondre un moobloom"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Les mages illageois de Friends & Foes lâchent des totems. Celui d'&dillusion&r se déclenche quand on prend des dégâts sous la moitié de sa vie maximale (infobulle du mod). À garder en main secondaire pour un raid."]
+			icon: "friendsandfoes:totem_of_illusion"
+			id: "3B4B9253481E4F08"
+			optional: true
+			rewards: [{
+				id: "644CC0EAE6FF68FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "388BFC0EBBA1C95D"
+				item: "friendsandfoes:totem_of_illusion"
+				type: "item"
+			}]
+			title: "Un totem de gel ou d'illusion"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Friends & Foes ajoute le pendant du piège de cheval squelette ; il est activé sur ce serveur. Le progrès se valide en le déclenchant."]
+			id: "4DF88045BBF2BE9E"
+			optional: true
+			rewards: [{
+				id: "7B0BAC825A1961BD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/activate_zombie_horse_trap"
+				criterion: ""
+				id: "6124C1968C8063BE"
+				type: "advancement"
+			}]
+			title: "Un piège de cheval zombie"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Chaque village a &lsix gardes&r (config du serveur). Ils défendent les villageois et les golems qu'on attaque (liste de protection de la config). Leur inventaire s'ouvre à partir de 15 de réputation, et ils ne suivent qu'un Héros du village."]
+			icon: "guardvillagers:guard_spawn_egg"
+			id: "38137F60A0FF14F0"
+			rewards: [{
+				id: "76BE97326CD9F87C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "79E05906DA95170A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "guardvillagers:guard"
+				type: "observation"
+			}]
+			title: "Les gardes des villages"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["&bRevampedWolf&r : des armures de loup en cuir, fer, or, diamant, et nétherite à la table de forge. Activées sur ce serveur."]
+			icon: "revampedwolf:iron_wolf_armor"
+			id: "4C04D007948EAF44"
+			optional: true
+			rewards: [{
+				id: "155440400EF3D480"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5950C1EDB256835B"
+				item: "revampedwolf:iron_wolf_armor"
+				type: "item"
+			}]
+			title: "Une armure de loup"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["&bIncubation&r : cinq blés font un &lnid de foin&r ; les œufs s'y couvent au lieu de se jeter. Une caisse à œufs les stocke, et le mod ajoute l'œuf au plat et les œufs brouillés."]
+			icon: "incubation:hay_nest"
+			id: "09A4C3000E3AE0D8"
+			optional: true
+			rewards: [{
+				id: "7A2AE9E19BAB4F02"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3C08AF9F2E1BA968"
+					item: "incubation:hay_nest"
+					type: "item"
+				}
+				{
+					id: "71106BFF57FE4B68"
+					item: "incubation:chicken_egg_crate"
+					type: "item"
+				}
+			]
+			title: "Un nid"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2EBB9E3B3EEC9AA5"]
+			description: ["Quand un animal apprivoisé meurt, il laisse son &lcollier&r. Posé sur une &5ancre de réapparition&r, le collier le ramène en version zombie ; ranimé une seconde fois, il revient squelette. Un zombie se soigne comme un villageois : affaibli, puis guéri."]
+			id: "319B37E2FB3C8CB7"
+			optional: true
+			rewards: [{
+				id: "0274C9EE7D70D21B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "pet_cemetery:nether/respawn_pet"
+				criterion: ""
+				id: "2DF4F22EF14CE131"
+				type: "advancement"
+			}]
+			title: "Ranimer un animal"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"62D1909DB6E7EB50"
+				"38137F60A0FF14F0"
+			]
+			description: ["Des bêtes dans l'enclos, un loup en armure, un chat ranimé. Le &7Bestiaire&r de l'Encyclopédie attend les rencontres."]
+			icon: "minecraft:lead"
+			id: "6F45238DB640D4D4"
+			rewards: [{
+				id: "07C6FD57AC2B8288"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "741FC691F60B1F3D"
+				title: "Mes bêtes sont à l'abri"
+				type: "checkmark"
+			}]
+			title: "&aUne ménagerie"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "&aFaune"
+}
