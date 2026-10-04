@@ -230,3 +230,51 @@ restent dans `/world/serverconfig`, sans effet.
 Le serveur est resté en « stopping » — le bug de chargement aléatoire
 de Quark. `kill` puis `start` l'a débloqué, comme prévu au mémo staff.
 Un `restart` seul ne suffit jamais dans ce cas.
+
+---
+
+## La v61 — 4 octobre
+
+### Open Parties and Claims était encore chargé
+
+`decisions.md` disait, à la v60, que le jar avait « disparu de lui-même ».
+C'était faux : `open-parties-and-claims-forge-1.20.1-0.27.5.jar` était
+dans `/mods` et le log du 4 octobre au matin le chargeait (« Loading
+Open Parties and Claims! »). Retiré ce jour, des deux côtés. Ses données
+restent dans `/world/data/openpartiesandclaims` pour pouvoir revenir en
+arrière.
+
+### Simple Voice Chat : le port avant tout
+
+Le mod a besoin d'un port UDP à lui. MineStrator attribue le numéro
+(49846 ici), on ne le choisit pas. Il va dans
+`config/voicechat/voicechat-server.properties`, pas dans
+`server.properties`, et pas dans le `voicechat-server.toml` que décrit
+le tutoriel MineStrator — c'est l'ancien emplacement, d'avant la 2.4.0.
+
+Version retenue : 2.6.22, la dernière marquée « release ». Les 2.6.23
+et 2.6.24 sont des bêtas.
+
+### Lootr et les coffres déjà pillés
+
+La FAQ de l'auteur est nette : un coffre de butin jamais ouvert est
+converti au chargement, un coffre déjà ouvert ne l'est pas, parce que le
+jeu efface sa table de butin à la première ouverture. Il faut le dire
+aux joueurs avant qu'ils retournent dans les donjons de septembre.
+
+Lootr ne touche à aucune table de butin : Loot Integrations continue de
+faire son travail. Réserve : par défaut Lootr ne convertit que les
+coffres vanilla ; les coffres propres à un mod demandent des tags.
+
+### Le jar dragonmounts a survécu
+
+Rien ne l'a touché : 3 136 837 octets, modifié le 29 septembre, la
+taille du patch v2. Mesuré avant et après, par la liste des fichiers.
+Une empreinte SHA demanderait SFTP ; la taille distingue déjà les trois
+versions connues (original 3 136 744, patch v1 3 123 256, v2 3 136 837).
+
+### Publication retenue
+
+La release v61 est en brouillon sur GitHub. Le test de connexion réel
+avec l'instance d'Arthur n'a pas été fait — personne d'autre ne peut
+lancer son client. Tant qu'il n'est pas passé, ni release ni annonce.

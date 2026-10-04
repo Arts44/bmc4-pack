@@ -34,6 +34,28 @@ pack, et deux versions chargées cassent le démarrage.
 
 ---
 
+## Les mods ajoutés ou retirés — v61 (4 octobre)
+
+```
+voicechat-forge-1.20.1-2.6.22.jar      vocal de proximité
+lootr-forge-1.20-0.7.35.94.jar         coffres par joueur
+amendments-1.20-2.2.6.jar              remplace la 2.2.5
+open-parties-and-claims-forge-…        RETIRÉ, des deux côtés
+```
+
+Simple Voice Chat écoute sur le port UDP **49846**, attribué par
+MineStrator (onglet Accès, description « Simple Voice Chat (UDP) »).
+Il est inscrit dans `config/voicechat/voicechat-server.properties` :
+
+```properties
+port=49846
+```
+
+⚠️ Sans ce port, les joueurs se connectent et le vocal reste muet, sans
+aucune erreur. C'est la première chose à vérifier.
+
+---
+
 ## `server.properties`
 
 ```properties
