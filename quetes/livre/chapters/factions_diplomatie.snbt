@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "factions_diplomatie"
+	group: "261CC511CD09A07E"
+	icon: "minecraft:writable_book"
+	id: "12FA662DF0D4F455"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Un raid prend deux chunks. Un traité peut en garantir dix. Ce chapitre est celui des diplomates, des marchands et de ceux qui savent qu'une trêve bien écrite vaut une muraille."]
+			icon: "minecraft:writable_book"
+			id: "028B2E8CF0AC3062"
+			rewards: [{
+				id: "2F449AA3F83C7ECB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "26EBAB4B662862C8"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cGagner sans se battre"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["028B2E8CF0AC3062"]
+			description: [
+				"Le diplomate propose, dans &9#diplomatie&r, et le bot enregistre ce que les deux factions signent. &b!help alliance&r dans le salon stratégie dit comment."
+				""
+				"Seul le diplomate engage sa faction. Ce qui est signé dans &9#diplomatie&r est contraignant ; ce qui est dit en vocal ne l'est pas."
+			]
+			id: "3FAC2D0F2E63FA6C"
+			rewards: [{
+				id: "5CC80B75F0274168"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "107A32516791B8DC"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Proposer une alliance"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3FAC2D0F2E63FA6C"]
+			description: ["&9#table-des-négociations&r est réservé aux diplomates. Ce qui s'y écrit engage les deux factions : trêve, partage d'un territoire, prix d'une paix. C'est là qu'on négocie avant de signer."]
+			id: "25FE08A985A84416"
+			rewards: [{
+				id: "539861A69C872742"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "481C095AFD23940C"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "La Table des négociations"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["25FE08A985A84416"]
+			description: [
+				"Trahir un accord est un acte de jeu légitime : le règlement le dit. Mais le staff n'arbitre que l'écrit. Un traité rompu se juge sur ce qui était signé dans &9#diplomatie&r, pas sur ce qui avait été promis ailleurs."
+				""
+				"Trahir de l'intérieur de sa propre faction, en revanche, est sanctionné sans avertissement."
+			]
+			id: "484807E62DA225CD"
+			rewards: [{
+				id: "1FF9767A1B07C93F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "10D2BB0839292E7F"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "La parole donnée"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["028B2E8CF0AC3062"]
+			description: ["Le forum &9#commerce&r reçoit les offres : ce qu'on vend, ce qu'on cherche, à quel prix. Un fil par offre. Du blé contre du fer, une escorte contre un service, tout se négocie."]
+			id: "72454957C31988D6"
+			rewards: [{
+				id: "0D00165D61F1F721"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5F93943148D1C1C9"
+				title: "Offre publiée"
+				type: "checkmark"
+			}]
+			title: "Ouvrir une offre"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["72454957C31988D6"]
+			description: ["Les échanges se concluent au &6Marché Flottant&r, en zone neutre, par les barils des pavillons ou de la main à la main. Personne n'y attaque personne : la zone neutre est la règle, et le staff la fait respecter."]
+			id: "3F6D8997CF22CDFD"
+			rewards: [{
+				id: "3FA6651B1FA47268"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1AB34B5906354B7E"
+				title: "Échange fait"
+				type: "checkmark"
+			}]
+			title: "Conclure un échange au Marché"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3F6D8997CF22CDFD"]
+			description: [
+				"Le Marché et ses abords sont neutres : PvP interdit, par le règlement. &cAucune protection technique&r ne t'empêchera de frapper ; la trêve ne tient que sur la règle, et la sanction tombe après."
+				""
+				"Trois minutes et cent blocs de répit après une mort, partout : pas de spawn-kill."
+			]
+			id: "060697AF2A723C80"
+			rewards: [{
+				id: "42519600614E2135"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2B055C8E02B3E385"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Respecter la zone neutre"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"484807E62DA225CD"
+				"060697AF2A723C80"
+			]
+			description: ["Une alliance signée, une offre conclue, une trêve tenue. Le reste de l'histoire du serveur s'écrit dans &9#diplomatie&r."]
+			icon: "minecraft:emerald"
+			id: "473FD0EBBA8A9CE1"
+			rewards: [{
+				id: "5AAF198574F2BBB7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "79954F38ADE1D9FE"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cDiplomate accompli"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&cDiplomatie et commerce"
+}

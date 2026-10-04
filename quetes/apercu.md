@@ -450,6 +450,89 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout le chapitre** — tâches : checkmark Chapitre complet — récompense : xp 20
   > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
 
+## Bâtir sa faction  (`factions_batir`, 11 quêtes)
+
+- **Une faction, c'est quoi** — tâches : checkmark Lu — récompense : xp 2
+  > Une faction, c'est une équipe FTB : un territoire claim en commun, des salons privés sur le Discord, un diplomate qui parle en son nom, un trophée à défendre. On est dans une faction à la fois, ou indépendant.
+  >   > Ce chapitre ne demande rien en jeu : il te fait faire le tour des outils, et tu coches quand c'est fait. Les récompenses sont symboliques, c'est voulu.
+- **Rejoindre ou fonder** — tâches : checkmark Je suis dans une faction — récompense : xp 3 — après : intro
+  > Pour rejoindre Apex ou Farmer's, demande à l'un de leurs membres : c'est l'équipe FTB qui t'invite (menu FTB Teams en haut à gauche de l'inventaire). Pour en fonder une, la demande se fait dans #diplomatie : le staff crée l'équipe, les salons et les rôles.
+  >   > Une faction à la fois. En changer, c'est repartir sans ses claims.
+- **Poser la base** — tâches : checkmark Base claim — récompense : xp 3 — après : rejoindre
+  > Touche M, puis le bouton de claim. Une faction dispose de 40 chunks, quel que soit son nombre de membres. Le règlement dit : claim ce qu'on occupe réellement, une seule base par faction, pas de réserve foncière, pas d'encerclement.
+  >   > Dans un claim, les autres ne cassent rien, ne posent rien, et les explosions sont bloquées. Le combat, lui, reste possible.
+- **Étendre le territoire** — tâches : checkmark Compris — récompense : xp 3 — après : claim_base
+  > Les 40 chunks sont un plafond, pas un acquis. Un raid gagné donne deux chunks à choisir sur le territoire adverse, et relève le plafond pendant quatorze jours. Un raid perdu en coûte deux, jamais en dessous de cinq.
+  >   > Une faction qui ne se connecte plus pendant un mois voit ses claims libérés, après annonce.
+- **Sécuriser ses waystones** — tâches : checkmark Compris — récompense : xp 3 — après : claim_base
+  > Une waystone activée reste ouverte à vie à quiconque l'a visitée une fois, ennemi compris, et une téléportation arrive quel que soit le claim. Une waystone à l'intérieur de la base est une porte sans serrure.
+  >   > Les factions la posent hors des murs, ou dans une pièce qu'on peut fermer.
+- **Le salon stratégie** — tâches : checkmark Salon trouvé — récompense : xp 2 — après : rejoindre
+  > Chaque faction a son #stratégie sur le Discord : c'est là que se tapent les commandes de faction, et que rien ne sort. Les coordonnées vont dans #coordonnées, une par message ; les stocks dans #ressources.
+  >   > Le règlement est clair : les coordonnées d'une faction ne se partagent pas, même après l'avoir quittée.
+- **!help faction** — tâches : checkmark Commandes lues — récompense : xp 2 — après : strategie
+  > Dans ton salon stratégie, !help faction liste tout ce que le bot sait faire pour ton équipe. Les deux outils du quotidien sont les tâches et les lieux, juste après.
+- **Le tableau des tâches** — tâches : checkmark Une tâche créée — récompense : xp 3 — après : aide
+  > !tache ajouter <titre> crée une tâche pour la faction. Ensuite, par son numéro : !tache 12 encours, !tache 12 fait, !tache 12 bloque <raison>, !tache 12 qui @quelqu'un pour l'attribuer, !tache 12 priorite urgente. Le tableau se republie avec !tache tableau.
+  >   > C'est la mémoire de la faction entre deux soirées.
+- **Les lieux partagés** — tâches : checkmark Un lieu enregistré — récompense : xp 3 — après : aide
+  > !lieu ajouter <nom> <x> <y> <z> [dimension] enregistre un point pour toute la faction ; !lieu les liste par dimension. Une mine, un portail, un donjon repéré : ça ne se perd plus dans le chat.
+- **Le diplomate** — tâches : checkmark Compris — récompense : xp 3 — après : rejoindre
+  > Seul le 🕊️ diplomate engage sa faction : déclarer un raid, signer une alliance, poser le trophée. Ce qu'il écrit dans #diplomatie est contraignant ; le vocal et les messages privés ne font pas foi.
+  >   > Trahir est un acte de jeu légitime. Mais le staff n'arbitre que l'écrit.
+- **La faction est en place** — tâches : checkmark Prêts — récompense : xp 5 — après : taches, lieux, waystones, diplomate
+  > Un territoire, un salon, des tâches, des lieux, un diplomate. Le chapitre suivant, Le trophée et les raids, est celui où ça se joue.
+
+## Diplomatie et commerce  (`factions_diplomatie`, 8 quêtes)
+
+- **Gagner sans se battre** — tâches : checkmark Lu — récompense : xp 2
+  > Un raid prend deux chunks. Un traité peut en garantir dix. Ce chapitre est celui des diplomates, des marchands et de ceux qui savent qu'une trêve bien écrite vaut une muraille.
+- **Proposer une alliance** — tâches : checkmark Compris — récompense : xp 3 — après : intro
+  > Le diplomate propose, dans #diplomatie, et le bot enregistre ce que les deux factions signent. !help alliance dans le salon stratégie dit comment.
+  >   > Seul le diplomate engage sa faction. Ce qui est signé dans #diplomatie est contraignant ; ce qui est dit en vocal ne l'est pas.
+- **La Table des négociations** — tâches : checkmark Compris — récompense : xp 3 — après : alliance
+  > #table-des-négociations est réservé aux diplomates. Ce qui s'y écrit engage les deux factions : trêve, partage d'un territoire, prix d'une paix. C'est là qu'on négocie avant de signer.
+- **La parole donnée** — tâches : checkmark Compris — récompense : xp 2 — après : table
+  > Trahir un accord est un acte de jeu légitime : le règlement le dit. Mais le staff n'arbitre que l'écrit. Un traité rompu se juge sur ce qui était signé dans #diplomatie, pas sur ce qui avait été promis ailleurs.
+  >   > Trahir de l'intérieur de sa propre faction, en revanche, est sanctionné sans avertissement.
+- **Ouvrir une offre** — tâches : checkmark Offre publiée — récompense : xp 3 — après : intro
+  > Le forum #commerce reçoit les offres : ce qu'on vend, ce qu'on cherche, à quel prix. Un fil par offre. Du blé contre du fer, une escorte contre un service, tout se négocie.
+- **Conclure un échange au Marché** — tâches : checkmark Échange fait — récompense : xp 3 — après : offre
+  > Les échanges se concluent au Marché Flottant, en zone neutre, par les barils des pavillons ou de la main à la main. Personne n'y attaque personne : la zone neutre est la règle, et le staff la fait respecter.
+- **Respecter la zone neutre** — tâches : checkmark Compris — récompense : xp 3 — après : echange
+  > Le Marché et ses abords sont neutres : PvP interdit, par le règlement. Aucune protection technique ne t'empêchera de frapper ; la trêve ne tient que sur la règle, et la sanction tombe après.
+  >   > Trois minutes et cent blocs de répit après une mort, partout : pas de spawn-kill.
+- **Diplomate accompli** — tâches : checkmark Lu — récompense : xp 5 — après : trahir, neutre
+  > Une alliance signée, une offre conclue, une trêve tenue. Le reste de l'histoire du serveur s'écrit dans #diplomatie.
+
+## Le trophée et les raids  (`factions_raids`, 9 quêtes)
+
+- **Le principe du trophée** — tâches : checkmark Lu — récompense : xp 2
+  > Une base claim est inviolable : personne ne perd des semaines de travail en une soirée. Mais chaque faction expose un trophée hors claim, et celui-là se prend.
+  >   > Le trophée est une tête au nom de la faction, remise par le staff. Sans aucune fonction : tout est dans ce qu'on construit autour.
+- **Lire les règles de raid** — tâches : checkmark Lues — récompense : xp 3 — après : intro
+  > Les chiffres qui comptent : 40 chunks de plafond, 5 de plancher, 7 jours entre deux raids d'une même faction, 24 h d'immunité pour le défenseur après un raid, 1 h de possession maximum du trophée adverse, en ligne seulement.
+  >   > Placement tricheur, trophée inatteignable, déconnexion pour éviter la défaite : raid annulé en faveur de l'autre camp.
+- **Déclarer son trophée** — tâches : checkmark Trophée déclaré — récompense : xp 3 — après : regles
+  > Le diplomate tape !trophee poser <x> <y> <z> dans le salon stratégie. Le bot vérifie le placement : hors claim, à moins de 50 blocs du bord du claim, atteignable sans rien casser ni déplacer, et aucun lit ni ancre de réapparition à moins de 50 blocs.
+  >   > Rendre son trophée inatteignable ne coûte pas moins cher que de perdre : le raid est compté perdu.
+- **Bâtir le donjon du trophée** — tâches : checkmark Défense construite — récompense : xp 5 — après : poser
+  > La défense se construit, elle ne se campe pas : labyrinthe, chutes, eau, créatures, portes à séquence. Le chapitre SecurityCraft donne les outils — portes à clavier, lasers, pièges — et c'est exactement là qu'ils servent, puisque le trophée est hors claim.
+  >   > La seule contrainte : qu'un attaquant puisse arriver au trophée sans casser ni déplacer un bloc.
+- **Déclarer un raid** — tâches : checkmark Compris — récompense : xp 3 — après : regles
+  > !raid declarer <faction>, par le diplomate, depuis le salon stratégie, avec 24 heures de préavis et un créneau annoncé d'une heure. Si le défenseur ne se présente pas, le raid a lieu quand même.
+  >   > Une déclaration par faction et par semaine, victoire ou échec.
+- **Participer à un raid** — tâches : checkmark J'ai combattu — récompense : xp 5 — après : declarer, donjon
+  > Pendant le créneau, PvP libre entre les deux factions, partout. Le bot inscrit les combattants dans une équipe et le serveur arbitre tout seul : chaque mort coûte cinq minutes en spectateur, attaquant comme défenseur. Personne ne gagne par usure.
+- **Mourir en raid coûte un cœur** — tâches : checkmark Compris — récompense : xp 3 — après : participer
+  > Pendant le créneau, le serveur passe en mediumcore : chaque mort retire aussi un cœur de vie maximale, jusqu'à un plancher de trois. Les cinq minutes punissent pendant, le cœur perdu punit ensuite — la perte survit au raid.
+  >   > Elle se récupère en mangeant un plat mijoté de Farmer's Delight ou une Pierre de Soin de l'Aether.
+- **Gagner un raid** — tâches : checkmark Raid gagné — récompense : xp 10 — après : participer
+  > Prendre le trophée adverse, c'est : deux chunks à choisir sur son territoire, le rôle 🏆 Vainqueur pendant sept jours, le plafond de chunks relevé pendant quatorze jours, et !raid butin pour choisir un tome ancien et une race d'œuf de dragon.
+  >   > Le trophée pris revient chez lui après 24 h.
+- **Une faction qui tient** — tâches : checkmark Lu — récompense : xp 5 — après : mediumcore, gagner
+  > Un trophée déclaré, un donjon, un raid vécu. Le dernier chapitre de l'arc, Diplomatie et commerce, est celui où l'on gagne sans se battre.
+
 ## Create — les bases  (`create_bases`, 24 quêtes)
 
 - **Create : la force de rotation** — tâches : checkmark Lu — récompense : item minecraft:andesite 32, item minecraft:iron_nugget 32

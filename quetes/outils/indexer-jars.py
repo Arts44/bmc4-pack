@@ -43,7 +43,17 @@ for jar in sorted(glob.glob(os.path.join(mods,'*.jar'))):
             elif kind=='worldgen' and len(p)>=5 and p[3]=='structure': idx['structures'].setdefault(f"{mod}:{'/'.join(p[4:])[:-5]}",None)
             elif kind=='worldgen' and len(p)>=5 and p[3]=='biome': idx['biomes'].setdefault(f"{mod}:{'/'.join(p[4:])[:-5]}",None)
             elif kind=='dimension' : idx['dimensions'].setdefault(key,None)
-            elif kind=='recipes': idx['recipes'][key]=1
+            elif kind=='recipes':
+                idx['recipes'][key]=1
+                try: rj=json.loads(z.read(n).decode('utf-8','replace'))
+                except Exception: rj={}
+                res=rj.get('result'); outs=[]
+                if isinstance(res,dict): outs.append(res.get('item') or res.get('id'))
+                elif isinstance(res,str): outs.append(res)
+                for r in rj.get('results',[]) if isinstance(rj.get('results'),list) else []:
+                    if isinstance(r,dict): outs.append(r.get('item'))
+                for o in outs:
+                    if isinstance(o,str) and ':' in o and o not in idx['items']: idx['items'][o]=None
             elif kind=='tags' and len(p)>=5:
                 tk={'items':'tags_items','blocks':'tags_blocks','entity_types':'tags_entities'}.get(p[3])
                 if tk:

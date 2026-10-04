@@ -1,0 +1,142 @@
+# Chapitre « Bâtir sa faction » — cahier des charges §6.1
+# Récompenses S seulement (XP). Cases à cocher : ces actions vivent dans le
+# bot Discord. Chaque affirmation vient de reglements/regles.md, de
+# reglements/raids.md, de ftbchunks-world.snbt (serveur) ou des textes du
+# bot (discord-factions/factions.js, raids.js), lus le 5 octobre 2026.
+
+[chapitre]
+titre = "&cBâtir sa faction"
+fichier = "factions_batir"
+groupe = "factions"
+icone = "minecraft:white_banner"
+ordre = 0
+
+[[quete]]
+cle = "intro"
+titre = "&cUne faction, c'est quoi"
+sous_titre = "Tout se passe dans #diplomatie et dans le salon de ta faction."
+taille = 1.5
+icone = "minecraft:white_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une faction, c'est une &léquipe FTB&r : un territoire claim en commun, des salons privés sur le Discord, un diplomate qui parle en son nom, un trophée à défendre. On est dans une faction à la fois, ou &7indépendant&r.
+
+Ce chapitre ne demande rien en jeu : il te fait faire le tour des outils, et tu coches quand c'est fait. Les récompenses sont symboliques, c'est voulu.
+"""
+
+[[quete]]
+cle = "rejoindre"
+titre = "Rejoindre ou fonder"
+deps = ["intro"]
+taches = ["checkmark Je suis dans une faction"]
+recompenses = ["xp 3"]
+description = """
+Pour rejoindre Apex ou Farmer's, demande à l'un de leurs membres : c'est l'équipe FTB qui t'invite (menu FTB Teams en haut à gauche de l'inventaire). Pour en fonder une, la demande se fait dans &9#diplomatie&r : le staff crée l'équipe, les salons et les rôles.
+
+Une faction à la fois. En changer, c'est repartir sans ses claims.
+"""
+
+[[quete]]
+cle = "claim_base"
+titre = "Poser la base"
+deps = ["rejoindre"]
+taches = ["checkmark Base claim"]
+recompenses = ["xp 3"]
+description = """
+Touche &bM&r, puis le bouton de claim. Une faction dispose de &l40 chunks&r, quel que soit son nombre de membres. Le règlement dit : claim ce qu'on occupe réellement, une seule base par faction, pas de réserve foncière, pas d'encerclement.
+
+Dans un claim, les autres ne cassent rien, ne posent rien, et les explosions sont bloquées. Le combat, lui, reste possible.
+"""
+
+[[quete]]
+cle = "etendre"
+titre = "Étendre le territoire"
+deps = ["claim_base"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 3"]
+description = """
+Les 40 chunks sont un plafond, pas un acquis. Un raid gagné donne &ldeux chunks&r à choisir sur le territoire adverse, et relève le plafond pendant quatorze jours. Un raid perdu en coûte deux, jamais en dessous de cinq.
+
+Une faction qui ne se connecte plus pendant un mois voit ses claims libérés, après annonce.
+"""
+
+[[quete]]
+cle = "waystones"
+titre = "Sécuriser ses waystones"
+deps = ["claim_base"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 3"]
+description = """
+Une waystone activée reste ouverte &là vie&r à quiconque l'a visitée une fois, ennemi compris, et une téléportation arrive quel que soit le claim. Une waystone à l'intérieur de la base est une porte sans serrure.
+
+Les factions la posent hors des murs, ou dans une pièce qu'on peut fermer.
+"""
+
+[[quete]]
+cle = "strategie"
+titre = "Le salon stratégie"
+deps = ["rejoindre"]
+taches = ["checkmark Salon trouvé"]
+recompenses = ["xp 2"]
+description = """
+Chaque faction a son &9#stratégie&r sur le Discord : c'est là que se tapent les commandes de faction, et que rien ne sort. Les coordonnées vont dans &9#coordonnées&r, une par message ; les stocks dans &9#ressources&r.
+
+Le règlement est clair : les coordonnées d'une faction ne se partagent pas, même après l'avoir quittée.
+"""
+
+[[quete]]
+cle = "aide"
+titre = "!help faction"
+deps = ["strategie"]
+taches = ["checkmark Commandes lues"]
+recompenses = ["xp 2"]
+description = """
+Dans ton salon stratégie, &b!help faction&r liste tout ce que le bot sait faire pour ton équipe. Les deux outils du quotidien sont les tâches et les lieux, juste après.
+"""
+
+[[quete]]
+cle = "taches"
+titre = "Le tableau des tâches"
+deps = ["aide"]
+taches = ["checkmark Une tâche créée"]
+recompenses = ["xp 3"]
+description = """
+&b!tache ajouter <titre>&r crée une tâche pour la faction. Ensuite, par son numéro : &b!tache 12 encours&r, &b!tache 12 fait&r, &b!tache 12 bloque <raison>&r, &b!tache 12 qui @quelqu'un&r pour l'attribuer, &b!tache 12 priorite urgente&r. Le tableau se republie avec &b!tache tableau&r.
+
+C'est la mémoire de la faction entre deux soirées.
+"""
+
+[[quete]]
+cle = "lieux"
+titre = "Les lieux partagés"
+deps = ["aide"]
+taches = ["checkmark Un lieu enregistré"]
+recompenses = ["xp 3"]
+description = """
+&b!lieu ajouter <nom> <x> <y> <z> [dimension]&r enregistre un point pour toute la faction ; &b!lieu&r les liste par dimension. Une mine, un portail, un donjon repéré : ça ne se perd plus dans le chat.
+"""
+
+[[quete]]
+cle = "diplomate"
+titre = "Le diplomate"
+deps = ["rejoindre"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 3"]
+description = """
+Seul le &b🕊️ diplomate&r engage sa faction : déclarer un raid, signer une alliance, poser le trophée. Ce qu'il écrit dans &9#diplomatie&r est contraignant ; le vocal et les messages privés ne font pas foi.
+
+Trahir est un acte de jeu légitime. Mais le staff n'arbitre que l'écrit.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&cLa faction est en place"
+deps = ["taches", "lieux", "waystones", "diplomate"]
+taille = 1.5
+icone = "minecraft:red_banner"
+taches = ["checkmark Prêts"]
+recompenses = ["xp 5"]
+description = """
+Un territoire, un salon, des tâches, des lieux, un diplomate. Le chapitre suivant, &cLe trophée et les raids&r, est celui où ça se joue.
+"""

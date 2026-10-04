@@ -1,0 +1,128 @@
+# Chapitre « Le trophée et les raids » — cahier des charges §6.2
+# Récompenses S seulement. Sources : reglements/raids.md, le datapack
+# bmc4-fixes (raid_tick.mcfunction : cinq minutes en spectateur ;
+# mediumcore/tags/items/restores_max_health.json) et raids.js du bot
+# (gamerule mediumcoreMode pendant le créneau, plancher trois cœurs,
+# lots du vainqueur), lus sur le serveur le 5 octobre 2026.
+
+[chapitre]
+titre = "&cLe trophée et les raids"
+fichier = "factions_raids"
+groupe = "factions"
+icone = "minecraft:player_head"
+ordre = 1
+
+[[quete]]
+cle = "intro"
+titre = "&cLe principe du trophée"
+sous_titre = "Règles complètes dans #diplomatie."
+taille = 1.5
+icone = "minecraft:player_head"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une base claim est &linviolable&r : personne ne perd des semaines de travail en une soirée. Mais chaque faction expose un &6trophée&r hors claim, et celui-là se prend.
+
+Le trophée est une tête au nom de la faction, remise par le staff. Sans aucune fonction : tout est dans ce qu'on construit autour.
+"""
+
+[[quete]]
+cle = "regles"
+titre = "Lire les règles de raid"
+deps = ["intro"]
+taches = ["checkmark Lues"]
+recompenses = ["xp 3"]
+description = """
+Les chiffres qui comptent : &b40&r chunks de plafond, &b5&r de plancher, &b7 jours&r entre deux raids d'une même faction, &b24 h&r d'immunité pour le défenseur après un raid, &b1 h&r de possession maximum du trophée adverse, en ligne seulement.
+
+Placement tricheur, trophée inatteignable, déconnexion pour éviter la défaite : raid annulé en faveur de l'autre camp.
+"""
+
+[[quete]]
+cle = "poser"
+titre = "Déclarer son trophée"
+deps = ["regles"]
+taches = ["checkmark Trophée déclaré"]
+recompenses = ["xp 3"]
+description = """
+Le diplomate tape &b!trophee poser <x> <y> <z>&r dans le salon stratégie. Le bot vérifie le placement : &lhors claim&r, à moins de &b50 blocs&r du bord du claim, atteignable sans rien casser ni déplacer, et &caucun lit ni ancre&r de réapparition à moins de 50 blocs.
+
+Rendre son trophée inatteignable ne coûte pas moins cher que de perdre : le raid est compté perdu.
+"""
+
+[[quete]]
+cle = "donjon"
+titre = "Bâtir le donjon du trophée"
+deps = ["poser"]
+taches = ["checkmark Défense construite"]
+recompenses = ["xp 5"]
+description = """
+La défense se construit, elle ne se campe pas : labyrinthe, chutes, eau, créatures, portes à séquence. Le chapitre &bSecurityCraft&r donne les outils — portes à clavier, lasers, pièges — et c'est exactement là qu'ils servent, puisque le trophée est hors claim.
+
+La seule contrainte : qu'un attaquant puisse arriver au trophée sans casser ni déplacer un bloc.
+"""
+
+[[quete]]
+cle = "declarer"
+titre = "Déclarer un raid"
+deps = ["regles"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 3"]
+description = """
+&b!raid declarer <faction>&r, par le diplomate, depuis le salon stratégie, avec &l24 heures&r de préavis et un créneau annoncé d'une heure. Si le défenseur ne se présente pas, le raid a lieu quand même.
+
+Une déclaration par faction et par semaine, victoire ou échec.
+"""
+
+[[quete]]
+cle = "participer"
+titre = "Participer à un raid"
+deps = ["declarer", "donjon"]
+exigence = "une"
+taches = ["checkmark J'ai combattu"]
+recompenses = ["xp 5"]
+description = """
+Pendant le créneau, PvP libre entre les deux factions, partout. Le bot inscrit les combattants dans une équipe et le serveur arbitre tout seul : chaque mort coûte &lcinq minutes en spectateur&r, attaquant comme défenseur. Personne ne gagne par usure.
+"""
+
+[[quete]]
+cle = "mediumcore"
+titre = "Mourir en raid coûte un cœur"
+deps = ["participer"]
+taille = 1.3
+icone = "farmersdelight:beef_stew"
+taches = ["checkmark Compris"]
+recompenses = ["xp 3"]
+description = """
+Pendant le créneau, le serveur passe en &cmediumcore&r : chaque mort retire aussi &lun cœur de vie maximale&r, jusqu'à un plancher de trois. Les cinq minutes punissent pendant, le cœur perdu punit ensuite — la perte survit au raid.
+
+Elle se récupère en mangeant un &6plat mijoté de Farmer's Delight&r ou une &bPierre de Soin&r de l'Aether.
+"""
+
+[[quete]]
+cle = "gagner"
+titre = "Gagner un raid"
+deps = ["participer"]
+boss = true
+forme = "diamond"
+icone = "minecraft:golden_apple"
+taches = ["checkmark Raid gagné"]
+recompenses = ["xp 10"]
+description = """
+Prendre le trophée adverse, c'est : &ldeux chunks&r à choisir sur son territoire, le rôle &6🏆 Vainqueur&r pendant sept jours, le plafond de chunks relevé pendant quatorze jours, et &b!raid butin&r pour choisir un tome ancien et une race d'œuf de dragon.
+
+Le trophée pris revient chez lui après 24 h.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&cUne faction qui tient"
+deps = ["mediumcore", "gagner"]
+exigence = "une"
+taille = 1.5
+icone = "minecraft:shield"
+taches = ["checkmark Lu"]
+recompenses = ["xp 5"]
+description = """
+Un trophée déclaré, un donjon, un raid vécu. Le dernier chapitre de l'arc, &cDiplomatie et commerce&r, est celui où l'on gagne sans se battre.
+"""

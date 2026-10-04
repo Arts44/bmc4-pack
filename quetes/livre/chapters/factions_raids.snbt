@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "factions_raids"
+	group: "261CC511CD09A07E"
+	icon: "minecraft:player_head"
+	id: "57CEEF253F61495B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Une base claim est &linviolable&r : personne ne perd des semaines de travail en une soirée. Mais chaque faction expose un &6trophée&r hors claim, et celui-là se prend."
+				""
+				"Le trophée est une tête au nom de la faction, remise par le staff. Sans aucune fonction : tout est dans ce qu'on construit autour."
+			]
+			icon: "minecraft:player_head"
+			id: "38DF41B05FAC40BE"
+			rewards: [{
+				id: "1E6D0102F8591BA0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Règles complètes dans #diplomatie."
+			tasks: [{
+				id: "5FCE2C08A465DEF3"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cLe principe du trophée"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38DF41B05FAC40BE"]
+			description: [
+				"Les chiffres qui comptent : &b40&r chunks de plafond, &b5&r de plancher, &b7 jours&r entre deux raids d'une même faction, &b24 h&r d'immunité pour le défenseur après un raid, &b1 h&r de possession maximum du trophée adverse, en ligne seulement."
+				""
+				"Placement tricheur, trophée inatteignable, déconnexion pour éviter la défaite : raid annulé en faveur de l'autre camp."
+			]
+			id: "4AE27C18349DCCD8"
+			rewards: [{
+				id: "0594240709B2140A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "45C46C9AB2C051F6"
+				title: "Lues"
+				type: "checkmark"
+			}]
+			title: "Lire les règles de raid"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AE27C18349DCCD8"]
+			description: [
+				"Le diplomate tape &b!trophee poser <x> <y> <z>&r dans le salon stratégie. Le bot vérifie le placement : &lhors claim&r, à moins de &b50 blocs&r du bord du claim, atteignable sans rien casser ni déplacer, et &caucun lit ni ancre&r de réapparition à moins de 50 blocs."
+				""
+				"Rendre son trophée inatteignable ne coûte pas moins cher que de perdre : le raid est compté perdu."
+			]
+			id: "56BB53C2ED99A998"
+			rewards: [{
+				id: "7323826117221670"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "651BD454CC69F8FD"
+				title: "Trophée déclaré"
+				type: "checkmark"
+			}]
+			title: "Déclarer son trophée"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["56BB53C2ED99A998"]
+			description: [
+				"La défense se construit, elle ne se campe pas : labyrinthe, chutes, eau, créatures, portes à séquence. Le chapitre &bSecurityCraft&r donne les outils — portes à clavier, lasers, pièges — et c'est exactement là qu'ils servent, puisque le trophée est hors claim."
+				""
+				"La seule contrainte : qu'un attaquant puisse arriver au trophée sans casser ni déplacer un bloc."
+			]
+			id: "4AF66AEFD0B1B68E"
+			rewards: [{
+				id: "0D2AA9253438116B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1E0024DF533D0C33"
+				title: "Défense construite"
+				type: "checkmark"
+			}]
+			title: "Bâtir le donjon du trophée"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AE27C18349DCCD8"]
+			description: [
+				"&b!raid declarer <faction>&r, par le diplomate, depuis le salon stratégie, avec &l24 heures&r de préavis et un créneau annoncé d'une heure. Si le défenseur ne se présente pas, le raid a lieu quand même."
+				""
+				"Une déclaration par faction et par semaine, victoire ou échec."
+			]
+			id: "4A016BD2CEAF38E9"
+			rewards: [{
+				id: "60BEC1548D8EC182"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3D8D2D1F6856D4B6"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Déclarer un raid"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"4A016BD2CEAF38E9"
+				"4AF66AEFD0B1B68E"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Pendant le créneau, PvP libre entre les deux factions, partout. Le bot inscrit les combattants dans une équipe et le serveur arbitre tout seul : chaque mort coûte &lcinq minutes en spectateur&r, attaquant comme défenseur. Personne ne gagne par usure."]
+			id: "72FEAC0A4F0B53BD"
+			rewards: [{
+				id: "37B69AFB4CEC9CDA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "49DDD8AF5965126D"
+				title: "J'ai combattu"
+				type: "checkmark"
+			}]
+			title: "Participer à un raid"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72FEAC0A4F0B53BD"]
+			description: [
+				"Pendant le créneau, le serveur passe en &cmediumcore&r : chaque mort retire aussi &lun cœur de vie maximale&r, jusqu'à un plancher de trois. Les cinq minutes punissent pendant, le cœur perdu punit ensuite — la perte survit au raid."
+				""
+				"Elle se récupère en mangeant un &6plat mijoté de Farmer's Delight&r ou une &bPierre de Soin&r de l'Aether."
+			]
+			icon: "farmersdelight:beef_stew"
+			id: "1B870377B4F8A65A"
+			rewards: [{
+				id: "2BBF7B9CB52CD2FD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "62603A9E2D9C1901"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Mourir en raid coûte un cœur"
+			x: 10.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["72FEAC0A4F0B53BD"]
+			description: [
+				"Prendre le trophée adverse, c'est : &ldeux chunks&r à choisir sur son territoire, le rôle &6🏆 Vainqueur&r pendant sept jours, le plafond de chunks relevé pendant quatorze jours, et &b!raid butin&r pour choisir un tome ancien et une race d'œuf de dragon."
+				""
+				"Le trophée pris revient chez lui après 24 h."
+			]
+			icon: "minecraft:golden_apple"
+			id: "23D24AE9D74612D5"
+			rewards: [{
+				id: "090399EF87A0B918"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0F1CFD847753A664"
+				title: "Raid gagné"
+				type: "checkmark"
+			}]
+			title: "Gagner un raid"
+			x: 10.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"1B870377B4F8A65A"
+				"23D24AE9D74612D5"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Un trophée déclaré, un donjon, un raid vécu. Le dernier chapitre de l'arc, &cDiplomatie et commerce&r, est celui où l'on gagne sans se battre."]
+			icon: "minecraft:shield"
+			id: "458E2D67F9C42C73"
+			rewards: [{
+				id: "665AB2BA907B1393"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7DC11E75CB231A4C"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cUne faction qui tient"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "&cLe trophée et les raids"
+}

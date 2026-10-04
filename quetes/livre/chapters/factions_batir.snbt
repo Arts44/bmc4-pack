@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "factions_batir"
+	group: "261CC511CD09A07E"
+	icon: "minecraft:white_banner"
+	id: "7F44E5E99A250C04"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Une faction, c'est une &léquipe FTB&r : un territoire claim en commun, des salons privés sur le Discord, un diplomate qui parle en son nom, un trophée à défendre. On est dans une faction à la fois, ou &7indépendant&r."
+				""
+				"Ce chapitre ne demande rien en jeu : il te fait faire le tour des outils, et tu coches quand c'est fait. Les récompenses sont symboliques, c'est voulu."
+			]
+			icon: "minecraft:white_banner"
+			id: "22C871CAB6EBF04E"
+			rewards: [{
+				id: "59BA2BF444F0822A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Tout se passe dans #diplomatie et dans le salon de ta faction."
+			tasks: [{
+				id: "5342AF50771FEA39"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cUne faction, c'est quoi"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22C871CAB6EBF04E"]
+			description: [
+				"Pour rejoindre Apex ou Farmer's, demande à l'un de leurs membres : c'est l'équipe FTB qui t'invite (menu FTB Teams en haut à gauche de l'inventaire). Pour en fonder une, la demande se fait dans &9#diplomatie&r : le staff crée l'équipe, les salons et les rôles."
+				""
+				"Une faction à la fois. En changer, c'est repartir sans ses claims."
+			]
+			id: "414C16A8615130D2"
+			rewards: [{
+				id: "6F23B57CBB768EE4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "76C5CCEE37D63113"
+				title: "Je suis dans une faction"
+				type: "checkmark"
+			}]
+			title: "Rejoindre ou fonder"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["414C16A8615130D2"]
+			description: [
+				"Touche &bM&r, puis le bouton de claim. Une faction dispose de &l40 chunks&r, quel que soit son nombre de membres. Le règlement dit : claim ce qu'on occupe réellement, une seule base par faction, pas de réserve foncière, pas d'encerclement."
+				""
+				"Dans un claim, les autres ne cassent rien, ne posent rien, et les explosions sont bloquées. Le combat, lui, reste possible."
+			]
+			id: "0FD94DF572D7D7F9"
+			rewards: [{
+				id: "5E380A367FB82258"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "45634AD995499BAB"
+				title: "Base claim"
+				type: "checkmark"
+			}]
+			title: "Poser la base"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FD94DF572D7D7F9"]
+			description: [
+				"Les 40 chunks sont un plafond, pas un acquis. Un raid gagné donne &ldeux chunks&r à choisir sur le territoire adverse, et relève le plafond pendant quatorze jours. Un raid perdu en coûte deux, jamais en dessous de cinq."
+				""
+				"Une faction qui ne se connecte plus pendant un mois voit ses claims libérés, après annonce."
+			]
+			id: "264AC0CAE5615EA7"
+			rewards: [{
+				id: "1602D213658DDBB7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "777591CEF9581609"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Étendre le territoire"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FD94DF572D7D7F9"]
+			description: [
+				"Une waystone activée reste ouverte &là vie&r à quiconque l'a visitée une fois, ennemi compris, et une téléportation arrive quel que soit le claim. Une waystone à l'intérieur de la base est une porte sans serrure."
+				""
+				"Les factions la posent hors des murs, ou dans une pièce qu'on peut fermer."
+			]
+			id: "2EA8F1359FAEB4AF"
+			rewards: [{
+				id: "507C7D5C5AC34BB9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "02AD146BF9267CE2"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Sécuriser ses waystones"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["414C16A8615130D2"]
+			description: [
+				"Chaque faction a son &9#stratégie&r sur le Discord : c'est là que se tapent les commandes de faction, et que rien ne sort. Les coordonnées vont dans &9#coordonnées&r, une par message ; les stocks dans &9#ressources&r."
+				""
+				"Le règlement est clair : les coordonnées d'une faction ne se partagent pas, même après l'avoir quittée."
+			]
+			id: "705A31B9527AC6AC"
+			rewards: [{
+				id: "25465A1F0C904B7A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3405986D85AD42E2"
+				title: "Salon trouvé"
+				type: "checkmark"
+			}]
+			title: "Le salon stratégie"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["705A31B9527AC6AC"]
+			description: ["Dans ton salon stratégie, &b!help faction&r liste tout ce que le bot sait faire pour ton équipe. Les deux outils du quotidien sont les tâches et les lieux, juste après."]
+			id: "182D32FE7AA82209"
+			rewards: [{
+				id: "5DA770E17EE49A8C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "79BD2C980D7C0468"
+				title: "Commandes lues"
+				type: "checkmark"
+			}]
+			title: "!help faction"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["182D32FE7AA82209"]
+			description: [
+				"&b!tache ajouter <titre>&r crée une tâche pour la faction. Ensuite, par son numéro : &b!tache 12 encours&r, &b!tache 12 fait&r, &b!tache 12 bloque <raison>&r, &b!tache 12 qui @quelqu'un&r pour l'attribuer, &b!tache 12 priorite urgente&r. Le tableau se republie avec &b!tache tableau&r."
+				""
+				"C'est la mémoire de la faction entre deux soirées."
+			]
+			id: "669FA1BEFA851424"
+			rewards: [{
+				id: "68047B049657F14F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1989C9B00A5D34AE"
+				title: "Une tâche créée"
+				type: "checkmark"
+			}]
+			title: "Le tableau des tâches"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["182D32FE7AA82209"]
+			description: ["&b!lieu ajouter <nom> <x> <y> <z> [dimension]&r enregistre un point pour toute la faction ; &b!lieu&r les liste par dimension. Une mine, un portail, un donjon repéré : ça ne se perd plus dans le chat."]
+			id: "4ADF24BEB01424FE"
+			rewards: [{
+				id: "18FD8517E659F88F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3A36C540622C8606"
+				title: "Un lieu enregistré"
+				type: "checkmark"
+			}]
+			title: "Les lieux partagés"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["414C16A8615130D2"]
+			description: [
+				"Seul le &b🕊️ diplomate&r engage sa faction : déclarer un raid, signer une alliance, poser le trophée. Ce qu'il écrit dans &9#diplomatie&r est contraignant ; le vocal et les messages privés ne font pas foi."
+				""
+				"Trahir est un acte de jeu légitime. Mais le staff n'arbitre que l'écrit."
+			]
+			id: "0093EAA88161F075"
+			rewards: [{
+				id: "3058014E524BBEFB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "406295C0B7BC1E56"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Le diplomate"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"669FA1BEFA851424"
+				"4ADF24BEB01424FE"
+				"2EA8F1359FAEB4AF"
+				"0093EAA88161F075"
+			]
+			description: ["Un territoire, un salon, des tâches, des lieux, un diplomate. Le chapitre suivant, &cLe trophée et les raids&r, est celui où ça se joue."]
+			icon: "minecraft:red_banner"
+			id: "4D80D25B46372ACC"
+			rewards: [{
+				id: "1FA1DBF36CE4273C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "55D7FBC476448C7C"
+				title: "Prêts"
+				type: "checkmark"
+			}]
+			title: "&cLa faction est en place"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "&cBâtir sa faction"
+}

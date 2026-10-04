@@ -1,0 +1,100 @@
+# Chapitre « Diplomatie et commerce » — cahier des charges §6.3
+# Récompenses S seulement. Sources : reglements/regles.md (parole donnée,
+# zones neutres), les salons du Discord (table-des-négociations, commerce,
+# diplomatie) et le bot.
+
+[chapitre]
+titre = "&cDiplomatie et commerce"
+fichier = "factions_diplomatie"
+groupe = "factions"
+icone = "minecraft:writable_book"
+ordre = 2
+
+[[quete]]
+cle = "intro"
+titre = "&cGagner sans se battre"
+taille = 1.5
+icone = "minecraft:writable_book"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Un raid prend deux chunks. Un traité peut en garantir dix. Ce chapitre est celui des diplomates, des marchands et de ceux qui savent qu'une trêve bien écrite vaut une muraille.
+"""
+
+[[quete]]
+cle = "alliance"
+titre = "Proposer une alliance"
+deps = ["intro"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 3"]
+description = """
+Le diplomate propose, dans &9#diplomatie&r, et le bot enregistre ce que les deux factions signent. &b!help alliance&r dans le salon stratégie dit comment.
+
+Seul le diplomate engage sa faction. Ce qui est signé dans &9#diplomatie&r est contraignant ; ce qui est dit en vocal ne l'est pas.
+"""
+
+[[quete]]
+cle = "table"
+titre = "La Table des négociations"
+deps = ["alliance"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 3"]
+description = """
+&9#table-des-négociations&r est réservé aux diplomates. Ce qui s'y écrit engage les deux factions : trêve, partage d'un territoire, prix d'une paix. C'est là qu'on négocie avant de signer.
+"""
+
+[[quete]]
+cle = "trahir"
+titre = "La parole donnée"
+deps = ["table"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 2"]
+description = """
+Trahir un accord est un acte de jeu légitime : le règlement le dit. Mais le staff n'arbitre que l'écrit. Un traité rompu se juge sur ce qui était signé dans &9#diplomatie&r, pas sur ce qui avait été promis ailleurs.
+
+Trahir de l'intérieur de sa propre faction, en revanche, est sanctionné sans avertissement.
+"""
+
+[[quete]]
+cle = "offre"
+titre = "Ouvrir une offre"
+deps = ["intro"]
+taches = ["checkmark Offre publiée"]
+recompenses = ["xp 3"]
+description = """
+Le forum &9#commerce&r reçoit les offres : ce qu'on vend, ce qu'on cherche, à quel prix. Un fil par offre. Du blé contre du fer, une escorte contre un service, tout se négocie.
+"""
+
+[[quete]]
+cle = "echange"
+titre = "Conclure un échange au Marché"
+deps = ["offre"]
+taches = ["checkmark Échange fait"]
+recompenses = ["xp 3"]
+description = """
+Les échanges se concluent au &6Marché Flottant&r, en zone neutre, par les barils des pavillons ou de la main à la main. Personne n'y attaque personne : la zone neutre est la règle, et le staff la fait respecter.
+"""
+
+[[quete]]
+cle = "neutre"
+titre = "Respecter la zone neutre"
+deps = ["echange"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 3"]
+description = """
+Le Marché et ses abords sont neutres : PvP interdit, par le règlement. &cAucune protection technique&r ne t'empêchera de frapper ; la trêve ne tient que sur la règle, et la sanction tombe après.
+
+Trois minutes et cent blocs de répit après une mort, partout : pas de spawn-kill.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&cDiplomate accompli"
+deps = ["trahir", "neutre"]
+taille = 1.5
+icone = "minecraft:emerald"
+taches = ["checkmark Lu"]
+recompenses = ["xp 5"]
+description = """
+Une alliance signée, une offre conclue, une trêve tenue. Le reste de l'histoire du serveur s'écrit dans &9#diplomatie&r.
+"""
