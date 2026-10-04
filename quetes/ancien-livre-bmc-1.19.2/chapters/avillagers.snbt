@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "avillagers"
+	group: "5EC606153AA8CA77"
+	icon: "minecraft:emerald"
+	id: "66DA5C77693FD3E4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"There are many changes to &2villager&r behavior present in &eBetter Minecraft:"
+				""
+				"- They will follow you if you have an &a&lEmerald Block&r in hand."
+				""
+				""
+				"- They will breed with other &2villagers&r when given any food item, including modded foods, as long as there are available beds in the &bvillage&r."
+				""
+				""
+				"- &6Farmer villagers&r are much more intelligent when replanting crops, and will take into account what it just farmed and what crops are nearby. "
+				"They will also farm modded crops."
+				""
+				""
+				"- Each villager has a unique name, shown above its head."
+				""
+				""
+				"Due to these changes in &2villager&r behavior, many automatic farms involving villagers will not work properly."
+				""
+				""
+				"&bVillages&r have also received some changes:"
+				""
+				"- They no longer spawn on hillsides or other uneven terrain. This means you are much more likely to find &bvillages&r on flat terrain."
+				""
+				""
+				"- They can now spawn in Swamps, Jungles, and &e&lThe Aether&r dimension."
+				""
+				""
+				"- &4Raids&r now have many new enemies. If you are unable to find the last enemy during a raid, you can ring a bell to highlight it."
+			]
+			id: "668F895111A5E4C6"
+			rewards: [{
+				count: 8
+				id: "04FCD493A6133815"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Read my description!"
+			tasks: [{
+				icon: "minecraft:villager_spawn_egg"
+				id: "2713029FBE2C093D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			title: "Observe a &2Villager"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["668F895111A5E4C6"]
+			id: "6280E25813EA2805"
+			rewards: [{
+				count: 3
+				id: "020B040C4D079A06"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &dOccultist"
+			tasks: [{
+				id: "3594A94ECDBC14FB"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			title: "Craft an &dEnchanted Basin"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["668F895111A5E4C6"]
+			id: "6BE73663E724CDAA"
+			rewards: [{
+				count: 3
+				id: "24179F46CA94393E"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &3Oceanographer"
+			tasks: [{
+				id: "4C0E5C8767021665"
+				item: "villagersplus:oceanographer_table"
+				type: "item"
+			}]
+			title: "Craft an &3Aquarium"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["668F895111A5E4C6"]
+			id: "4989913FFC0D56C1"
+			rewards: [{
+				count: 3
+				id: "6947757EA23254ED"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Allows you to see &etrades&r with nearby &2villagers&r"
+			tasks: [{
+				id: "482F110C2981A7F7"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			title: "Craft a &aTrading Post"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["668F895111A5E4C6"]
+			id: "32C4134E67E71063"
+			rewards: [{
+				count: 3
+				id: "7DD343C14E49B4ED"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into a &5Alchemist"
+			tasks: [{
+				id: "72527896BB77CECD"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "Craft an &5Alchemist Table"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["668F895111A5E4C6"]
+			id: "0A4C2604A1650AB7"
+			rewards: [{
+				count: 3
+				id: "3ABEF10476EDD01B"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into a &6Horticulturist"
+			tasks: [{
+				id: "273D4938577F721F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(mod(villagersplus))not(item(villagersplus:alchemist_table))not(item(villagersplus:occultist_table))not(item(villagersplus:oceanographer_table))"
+					}
+				}
+				title: "Any Flower Tub"
+				type: "item"
+			}]
+			title: "Craft a &6Flower Tub"
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: " &aVillagers"
+}

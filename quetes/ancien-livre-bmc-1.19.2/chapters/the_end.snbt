@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:end_portal_frame"
+	id: "50EEC609E833AB5F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D36AAFE17F5CD9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F2C1C227A8CC557"
+				table_id: 6935663685294125539L
+				type: "choice"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "&5&lThe End&r is accessed the same way as normal Minecraft - by finding the Stronghold via &1Eyes of Ender&r"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "444AC080F3243355"
+				title: "Enter The End Dimension"
+				type: "dimension"
+			}]
+			title: "Enter &5&lThe End"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			dependency_requirement: "all_started"
+			icon: "minecraft:dragon_head"
+			id: "2A51F2BA00FCA9DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D6F471031B53771"
+				table_id: 327386274853989853L
+				type: "random"
+			}]
+			subtitle: "Respawned the same way as normal - placing an end crystal on all four cardinal directions on the exit portal's outer rim."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "412B85684482E982"
+				title: "Kill The Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8&lEnder Dragon"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4D36AAFE17F5CD9C"
+				"36B77024E67E279C"
+			]
+			icon: "alexsmobs:void_worm_eye"
+			id: "43E0AD91C15669D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13042EF8F7FB55AD"
+				table_id: 327386274853989853L
+				type: "choice"
+			}]
+			subtitle: "Put a &c&lCrimson Mosquito Larva&r into a &5Capsid&r, then throw the Mysterious Larva into the void of &5&lThe End&r."
+			tasks: [{
+				id: "3520F59E9119D54F"
+				item: "alexsmobs:void_worm_eye"
+				type: "item"
+			}]
+			title: "Summon and Defeat the &9Void Worm"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "66E7CB465F845A15"
+			rewards: [{
+				count: 5
+				id: "27F944F6EE72DEB0"
+				item: "stalwart_dungeons:chorundum"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Found in the &8&lRuined Citadel&r, which can be located using an &5Eye of the Void"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "02B05099ED164F8C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &dEnder Golem"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66E7CB465F845A15"]
+			id: "355ABBA15B609961"
+			rewards: [{
+				count: 4
+				id: "003AE033A223DE8D"
+				item: "minecraft:tnt"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Found at the bottom of the &8&lRuined Citadel"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "214C6BC2D73A0DC5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &3Ender Guardian"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "36B77024E67E279C"
+			rewards: [
+				{
+					id: "608A75E04FED4206"
+					item: "alexsmobs:capsid"
+					type: "item"
+				}
+				{
+					id: "25D8FBF0CF5434F3"
+					item: "alexsmobs:mosquito_larva"
+					type: "item"
+				}
+			]
+			subtitle: "Can only be damaged using explosions. Place &cTNT&r inside the slots around the &0&lobsidian&r pillars&r, or use the cannons near the boss with &cTNT&r in your main hand."
+			tasks: [{
+				id: "1EE956382FE6CB90"
+				item: "stalwart_dungeons:void_crystal"
+				type: "item"
+			}]
+			title: "Obtain a &3Void Crystal&r by defeating &dThe Shelterer"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: " &5&lThe End"
+}
