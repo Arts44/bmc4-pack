@@ -1,0 +1,537 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bienvenue"
+	group: "7643AAECC244AABB"
+	icon: "minecraft:book"
+	id: "34896E415E6BED8C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Tu es au &6Marché Flottant&r, le centre neutre du serveur. BMC4 est un serveur en &cfactions&r : deux camps, Apex et Farmer's, des indépendants, des raids déclarés à l'avance et un trophée à défendre."
+				""
+				"Ce livre te guide : d'abord les premiers pas ici, puis le monde, les mods, la vie de faction. Tout ce qui ne se passe pas en jeu vit sur le &9Discord&r du serveur."
+				""
+				"Chaque quête se valide dans l'onglet &9Tâches&r, puis on réclame la &6Récompense&r."
+			]
+			icon: "ftbquests:book"
+			id: "5F06BDBA9B3BC06D"
+			rewards: [{
+				id: "6C6F5385EF6C561F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Clique sur la quête, lis, coche."
+			tasks: [{
+				id: "7806758E3C7A6B72"
+				title: "Lu !"
+				type: "checkmark"
+			}]
+			title: "&eBienvenue sur BMC4"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F06BDBA9B3BC06D"]
+			description: [
+				"Regarde la &bwaystone&r du Marché pour l'activer. Une waystone activée reste accessible &là vie&r : d'où que tu sois, tu pourras revenir ici."
+				""
+				"Le parchemin de retour offert te ramène à la dernière waystone activée, une fois. Garde-le pour une mauvaise surprise loin de chez toi."
+			]
+			id: "29D4C91B218B2DDA"
+			rewards: [{
+				id: "4F0D276004AD2BBF"
+				item: "waystones:return_scroll"
+				type: "item"
+			}]
+			subtitle: "Elle est au centre du Marché Flottant."
+			tasks: [{
+				id: "1DC4C05E41E4F5D2"
+				observe_type: 0
+				timer: 0L
+				to_observe: "waystones:waystone"
+				type: "observation"
+			}]
+			title: "Activer la waystone du Marché"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F06BDBA9B3BC06D"]
+			description: [
+				"Le règlement complet est dans &9#règles&r sur le Discord. L'essentiel : pas de griefing hors raid déclaré, pas de triche, et deux &azones neutres&r où l'on ne se bat pas, le Marché Flottant et ses 50 blocs autour."
+				""
+				"La trêve du Marché ne tient que sur la règle : aucune protection technique ne t'empêchera de frapper, c'est le staff qui sanctionne."
+			]
+			id: "2A91210CEB418B24"
+			rewards: [{
+				id: "18FBEF7BCA9C33BC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "04213F16F8FC3FFE"
+				title: "Lu et compris"
+				type: "checkmark"
+			}]
+			title: "Lire le règlement"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F06BDBA9B3BC06D"]
+			description: [
+				"Tape &b/discord link&r en jeu : tu reçois un code à envoyer au bot sur le Discord. Une fois lié, ton pseudo apparaît dans &9#chat-ingame&r, tes faits d'armes sont publiés à ton nom et les commandes de faction te reconnaissent."
+				""
+				"Sans ce lien, le bot ne sait pas qui tu es."
+			]
+			icon: "minecraft:writable_book"
+			id: "35B4029C6D31F992"
+			rewards: [{
+				id: "0811AD6A36BACB4B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2F4245BB23D94719"
+				title: "Compte lié"
+				type: "checkmark"
+			}]
+			title: "Lier son compte Discord"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F06BDBA9B3BC06D"]
+			description: [
+				"Le serveur a un vocal de proximité : on s'entend jusqu'à &b48 blocs&r, 24 en chuchotant. La touche &bV&r ouvre son menu : choix du micro, de la sortie son, et de la touche pour parler."
+				""
+				"Par défaut on parle en maintenant une touche. Si l'icône en bas à gauche montre une prise barrée, le vocal n'est pas connecté : dis-le dans &9#général&r."
+			]
+			icon: "minecraft:note_block"
+			id: "4E5D503C021D1B3B"
+			rewards: [{
+				id: "42655CDB0B4EE5E0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4422EE67E379EFBA"
+				title: "Micro réglé"
+				type: "checkmark"
+			}]
+			title: "Régler le vocal de proximité"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F06BDBA9B3BC06D"]
+			description: [
+				"Tu arrives avec un &asac élimé&r (Inmis). Il s'ouvre d'un clic droit et se porte dans la main ou dans l'inventaire."
+				""
+				"Les sacs ont des paliers : élimé, plaqué, doré, orné de gemmes, ardent, flétri, puis sans fin. Chaque palier ajoute des cases. Le suivant, le &asac plaqué&r, est une quête plus loin."
+			]
+			icon: "inmis:frayed_backpack"
+			id: "5090842DF6D6F968"
+			rewards: [{
+				id: "7B48EE0CFDB3EC53"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Le sac élimé est dans ton inventaire."
+			tasks: [{
+				id: "2F2C77F54298EBD9"
+				item: "inmis:frayed_backpack"
+				type: "item"
+			}]
+			title: "Le kit de départ"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A91210CEB418B24"]
+			description: [
+				"Trois chemins : rejoindre &cApex&r, rejoindre &aFarmer's&r, ou rester &7indépendant&r. On peut aussi fonder sa propre faction en le demandant dans &9#diplomatie&r."
+				""
+				"Une faction partage ses claims, son salon privé, sa stratégie et ses quêtes. Un indépendant joue seul, mais le Marché et les zones neutres sont à lui autant qu'aux autres."
+			]
+			icon: "minecraft:white_banner"
+			id: "37824A4BE1FE38DF"
+			rewards: [{
+				id: "576B3660A960A117"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "52176E5A21CAF58B"
+				title: "Camp choisi"
+				type: "checkmark"
+			}]
+			title: "Choisir son camp"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5090842DF6D6F968"]
+			description: [
+				"Seize bûches, de n'importe quel arbre. Sur ce serveur, casser une bûche avec une hache abat &ltout l'arbre&r (accroupi pour ne casser qu'un bloc)."
+				""
+				"Il y a bien plus d'essences que dans le jeu de base : chaque bois donne ses planches, ses portes, ses meubles."
+			]
+			id: "437BE18B2958FC9C"
+			rewards: [{
+				count: 8
+				id: "17E47CE181655DB9"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "09853502E778FDAD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "N'importe quelle bûche"
+				type: "item"
+			}]
+			title: "Du bois"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5090842DF6D6F968"]
+			description: ["Cuis de la pierre, taille-la en briques. La pierre taillée résiste mieux aux explosions que les planches, et c'est le premier mur qu'un raid testera."]
+			icon: "minecraft:stone_bricks"
+			id: "315DA571F46A0E61"
+			rewards: [{
+				count: 8
+				id: "5BE98F751A2EA361"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "60C57A8E3DB47BE2"
+				item: "minecraft:stone_bricks"
+				type: "item"
+			}]
+			title: "De la pierre taillée"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5090842DF6D6F968"]
+			description: ["Le fer ouvre les outils, le seau, le bouclier. Les minerais sont plus variés qu'en vanilla : garde les minerais bruts, le mod &bCreate&r saura les concasser pour en tirer davantage."]
+			icon: "minecraft:iron_ingot"
+			id: "713E439523FC1021"
+			rewards: [{
+				id: "7A1D48E75C8F7EC2"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27428CF1659C3768"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Un premier lingot de fer"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"437BE18B2958FC9C"
+				"315DA571F46A0E61"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Un lit fixe ton point de réapparition. Attention en raid : un lit à moins de 50 blocs d'un trophée est interdit par le règlement."
+				""
+				"Pose-le dans un endroit fermé : les nuits sont peuplées, et pas seulement de zombies."
+			]
+			id: "0A0189FE2B8465C9"
+			rewards: [{
+				id: "1A658A116544CC14"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0BB143D7AE98ACE3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Un lit"
+				type: "item"
+			}]
+			title: "Un premier abri"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A0189FE2B8465C9"]
+			description: [
+				"Touche &bM&r : la carte. En haut, le bouton de claim de &bFTB Chunks&r. Clique sur les chunks à protéger : &l40 chunks par équipe&r au départ."
+				""
+				"Un claim empêche les autres de casser, poser et ouvrir chez toi. Il &cn'arrête pas les explosions&r : TNT, creepers et Wither passent à travers. Les coffres SecurityCraft, eux, tiennent."
+			]
+			icon: "minecraft:filled_map"
+			id: "310B16527B78BE71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A75A932C256B25D"
+				table_id: 3535549766887619792L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B697043ECC5D5AE"
+				title: "Claim posé"
+				type: "checkmark"
+			}]
+			title: "Poser son claim"
+			x: 8.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0A0189FE2B8465C9"]
+			description: [
+				"Fabrique une &bwaystone&r et pose-la chez toi : tu pourras y revenir depuis n'importe quelle autre waystone."
+				""
+				"Prudence : quiconque l'a activée une fois peut y revenir &là vie&r, même ennemi. Une waystone dans une base est une porte d'entrée. Les factions les mettent hors des murs."
+			]
+			icon: "waystones:waystone"
+			id: "2FF1D49D4EC8FA6D"
+			rewards: [{
+				id: "024B8D2EABDFFBF7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "02535A734C2AC572"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Une waystone à soi"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["713E439523FC1021"]
+			description: ["La boussole pointe vers le point d'apparition du monde, c'est-à-dire le Marché. La carte de &bXaero&r (touche &bM&r) montre tout ce que tu as exploré et accepte des points de passage, partageables avec ta faction."]
+			icon: "minecraft:compass"
+			id: "279CFDD22C866FC3"
+			rewards: [{
+				id: "5C0AB4F6B131A806"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "415CF7A9D06D5B8B"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					id: "72BE5AD4D8986D14"
+					title: "Carte ouverte (touche M)"
+					type: "checkmark"
+				}
+			]
+			title: "Ne plus se perdre"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["279CFDD22C866FC3"]
+			description: ["La &aboussole de la nature&r cherche n'importe quel biome et t'indique sa direction et sa distance. Avec Biomes O' Plenty et les dimensions, le serveur en compte plusieurs centaines : c'est l'outil de l'explorateur."]
+			icon: "naturescompass:naturescompass"
+			id: "0C27B2F9671195AA"
+			rewards: [{
+				id: "65FC929AD9E51D48"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "43FD911ECCF20114"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			title: "Trouver un biome"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0A0189FE2B8465C9"]
+			description: ["Cinq zombies. Les nuits de BMC4 ont des variantes et des visiteurs que le jeu de base ne connaît pas ; le chapitre &7Bestiaire&r de l'Encyclopédie les recense."]
+			icon: "minecraft:zombie_spawn_egg"
+			id: "707CF43FC0CBFD50"
+			rewards: [{
+				id: "40742942A44D8546"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "543C7ED6586E05E1"
+				type: "kill"
+				value: 5L
+			}]
+			title: "La première nuit"
+			x: 8.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["713E439523FC1021"]
+			description: ["Sous Y 16, et plus encore vers le fond. Le diamant ouvre l'enchantement et le passage vers la nétherite. Il &lne se donne pas&r en récompense de quête sur ce serveur : ce que tu as, tu l'as creusé."]
+			icon: "minecraft:diamond"
+			id: "730727F3CBD5C4B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "456ECF5896F36291"
+				table_id: 3535549766887619792L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EBB7D3290BC775C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamants"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5090842DF6D6F968"
+				"713E439523FC1021"
+			]
+			description: ["Le &asac plaqué&r se fabrique à partir du sac élimé et de fer. Chaque palier suivant demande le précédent : rien ne se perd."]
+			icon: "inmis:plated_backpack"
+			id: "2EF3CFF1B950ABEC"
+			rewards: [{
+				id: "7AC4C4D9DE3DDD88"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "51FE938745ED98E4"
+				item: "inmis:plated_backpack"
+				type: "item"
+			}]
+			title: "Un sac plus grand"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707CF43FC0CBFD50"]
+			description: [
+				"Quand tu meurs, tes affaires ne tombent pas au sol : une &7tombe&r se dresse à l'endroit de la mort, à ton nom. Retourne la casser pour tout récupérer. Elle tient tant que tu ne reviens pas."
+				""
+				"Pendant une heure de raid, mourir coûte en plus un &ccœur&r : c'est la règle mediumcore, expliquée dans l'arc Factions."
+			]
+			icon: "yigd:grave"
+			id: "7B684D42978BE0BF"
+			rewards: [{
+				id: "44F73D678498C942"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7E2F2DD7BAC2DD9E"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Les tombes"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C27B2F9671195AA"]
+			description: [
+				"Les coffres de structure sont &lpar joueur&r : le premier passage ne vide pas le donjon pour les suivants, chacun génère son propre butin dans le même coffre. Un coffre déjà ouvert par toi change d'apparence."
+				""
+				"Les coffres propres à certains mods restent partagés. Et ce qui a été pillé avant le 4 octobre reste pillé."
+			]
+			id: "10461A3BF439C860"
+			rewards: [{
+				id: "62936A8F59EB04CF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "301843EBF52D8238"
+				observe_type: 0
+				timer: 0L
+				to_observe: "lootr:lootr_chest"
+				type: "observation"
+			}]
+			title: "Les coffres par joueur"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37824A4BE1FE38DF"]
+			description: [
+				"Les échanges entre joueurs passent par le Marché Flottant : les &6barils des pavillons&r, et les offres publiées dans le forum &9#commerce&r du Discord. On y vend aussi bien du blé qu'un service."
+				""
+				"Les quêtes ne donnent presque rien de revendable : la richesse d'une faction vient du jeu, pas du livre."
+			]
+			icon: "minecraft:emerald"
+			id: "760ACF189A704255"
+			rewards: [{
+				id: "721FC179C7B2480A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5B01454A084C5ADB"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Commercer"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"310B16527B78BE71"
+				"2FF1D49D4EC8FA6D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Tu as vu l'essentiel. Le livre continue en sept groupes, dans l'ordre conseillé : &aLes bases du jeu&r (le vanilla que personne n'explique), &5Le monde&r (les dimensions et leurs boss), &bLes mods&r (Create, Mystical Agriculture, Iron's Spells, Powah, le stockage, SecurityCraft…), &cLes factions&r, &6Chaque semaine&r (les contrats répétables), &dDéfis&r."
+				""
+				"Le dernier groupe, l'&7Encyclopédie&r, est un catalogue facultatif : une quête par créature, biome, structure, plat ou sort. À remplir au fil du jeu, jamais à suivre."
+			]
+			icon: "ftbquests:book"
+			id: "1F1E528D594AA56A"
+			rewards: [{
+				id: "2D630D1281C329BD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "71ECFEADA9E7F984"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "Le livre des quêtes"
+			x: 10.0d
+			y: 1.5d
+		}
+	]
+	title: "&eBienvenue sur BMC4"
+}

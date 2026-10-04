@@ -1,0 +1,4474 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_bestiaire_overworld"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:zombie_head"
+	id: "6378BF52EB7B3349"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en &lregardant&r la créature : il suffit de l'avoir devant soi."
+				""
+				"Ce chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet."
+			]
+			icon: "minecraft:zombie_head"
+			id: "004C6F95812AB49A"
+			rewards: [{
+				id: "1C8BFD65B3BBD285"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "374FC0013A820920"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Bestiaire — Overworld"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_alligator_snapping_turtle"
+			id: "7323E1C57F41BA4D"
+			optional: true
+			rewards: [{
+				id: "6F55CD765EB9E47E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tortue alligator — alexsmobs"
+			tasks: [{
+				id: "01877A5324698168"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:alligator_snapping_turtle"
+				type: "observation"
+			}]
+			title: "Rencontrer Tortue alligator"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_anaconda"
+			id: "2AAABA030A3A591C"
+			optional: true
+			rewards: [{
+				id: "4B2640E885051E55"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Anaconda — alexsmobs"
+			tasks: [{
+				id: "5A9045A26BF6C24E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:anaconda"
+				type: "observation"
+			}]
+			title: "Rencontrer Anaconda"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_anteater"
+			id: "458F67002EC7E395"
+			optional: true
+			rewards: [{
+				id: "6355B14130A227B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Fourmilier — alexsmobs"
+			tasks: [{
+				id: "7D55FEF0D4BA3F69"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:anteater"
+				type: "observation"
+			}]
+			title: "Rencontrer Fourmilier"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_bald_eagle"
+			id: "4C656275CBBB17FA"
+			optional: true
+			rewards: [{
+				id: "260AE5885918F6F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Pygargue à tête blanche — alexsmobs"
+			tasks: [{
+				id: "168B46789D5F46A8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bald_eagle"
+				type: "observation"
+			}]
+			title: "Rencontrer Pygargue à tête blanche"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_banana_slug"
+			id: "32090BA1E882D2FA"
+			optional: true
+			rewards: [{
+				id: "3D8E8609FFC3AB6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Limace banane — alexsmobs"
+			tasks: [{
+				id: "3B8DBE8120BE7813"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:banana_slug"
+				type: "observation"
+			}]
+			title: "Rencontrer Limace banane"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_bison"
+			id: "263C919BC3222CDD"
+			optional: true
+			rewards: [{
+				id: "6B59B763C61E1C70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bison — alexsmobs"
+			tasks: [{
+				id: "444C5BA7417B4849"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bison"
+				type: "observation"
+			}]
+			title: "Rencontrer Bison"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_blobfish"
+			id: "655C5FC6460ACF4C"
+			optional: true
+			rewards: [{
+				id: "07ACF44D7CF4FF49"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blobfish — alexsmobs"
+			tasks: [{
+				id: "338618D20A771203"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:blobfish"
+				type: "observation"
+			}]
+			title: "Rencontrer Blobfish"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_blue_jay"
+			id: "7F4A6773CD1EF19C"
+			optional: true
+			rewards: [{
+				id: "3D8F97533D297CD7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Geai bleu — alexsmobs"
+			tasks: [{
+				id: "3DFFD16FA02CE26F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:blue_jay"
+				type: "observation"
+			}]
+			title: "Rencontrer Geai bleu"
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_bunfungus"
+			id: "576CC2561588CAEE"
+			optional: true
+			rewards: [{
+				id: "468C6EBC43A45F79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Champilièvre — alexsmobs"
+			tasks: [{
+				id: "030EFE5370CA1CC5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bunfungus"
+				type: "observation"
+			}]
+			title: "Rencontrer Champilièvre"
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_cachalot_whale"
+			id: "72D1D022DFBAF1DE"
+			optional: true
+			rewards: [{
+				id: "18DE3E622BC6A152"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Grand cachalot — alexsmobs"
+			tasks: [{
+				id: "4EFADE44C5438E54"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cachalot_whale"
+				type: "observation"
+			}]
+			title: "Rencontrer Grand cachalot"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_caiman"
+			id: "0587CFA0E1E4F0D3"
+			optional: true
+			rewards: [{
+				id: "7A32C2D5EC789453"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Caïman — alexsmobs"
+			tasks: [{
+				id: "0F91CD4F094292F7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:caiman"
+				type: "observation"
+			}]
+			title: "Rencontrer Caïman"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_capuchin_monkey"
+			id: "3A77F38FD5CEDC66"
+			optional: true
+			rewards: [{
+				id: "47D15F01A0237E48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Capucin — alexsmobs"
+			tasks: [{
+				id: "09EE0EAB1AF8A8B3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:capuchin_monkey"
+				type: "observation"
+			}]
+			title: "Rencontrer Capucin"
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_catfish"
+			id: "148DF634940C7F94"
+			optional: true
+			rewards: [{
+				id: "40A675F9DCD02678"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson-chat — alexsmobs"
+			tasks: [{
+				id: "7642C39799C6A271"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:catfish"
+				type: "observation"
+			}]
+			title: "Rencontrer Poisson-chat"
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_cockroach"
+			id: "36979E1CDB692941"
+			optional: true
+			rewards: [{
+				id: "575BD5E91F135E0F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cafard — alexsmobs"
+			tasks: [{
+				id: "39B00EA21A003A2D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cockroach"
+				type: "observation"
+			}]
+			title: "Rencontrer Cafard"
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_comb_jelly"
+			id: "68CA0CFFE7AB99C8"
+			optional: true
+			rewards: [{
+				id: "16D09AE3AEFB83AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Méduse de peigne — alexsmobs"
+			tasks: [{
+				id: "01AFB40B73A50131"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:comb_jelly"
+				type: "observation"
+			}]
+			title: "Rencontrer Méduse de peigne"
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_crocodile"
+			id: "64A875134599CA6B"
+			optional: true
+			rewards: [{
+				id: "484FAB01BD9189F3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crocodile — alexsmobs"
+			tasks: [{
+				id: "4C2FF93F688636B9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crocodile"
+				type: "observation"
+			}]
+			title: "Rencontrer Crocodile"
+			x: 0.0d
+			y: 25.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_crow"
+			id: "0B32FFE623CCC13C"
+			optional: true
+			rewards: [{
+				id: "7812E19DE9E4D585"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Corbeau — alexsmobs"
+			tasks: [{
+				id: "47E8E6298863965D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crow"
+				type: "observation"
+			}]
+			title: "Rencontrer Corbeau"
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_devils_hole_pupfish"
+			id: "03BC00CE7FB9A848"
+			optional: true
+			rewards: [{
+				id: "01C223D239E8C031"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Devil's Hole Pupfish — alexsmobs"
+			tasks: [{
+				id: "34855251CCEBAD79"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:devils_hole_pupfish"
+				type: "observation"
+			}]
+			title: "Rencontrer Devil's Hole Pupfish"
+			x: 0.0d
+			y: 28.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_dropbear"
+			id: "3A01091F4BCE389F"
+			optional: true
+			rewards: [{
+				id: "34099A246C257407"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Dropbear — alexsmobs"
+			tasks: [{
+				id: "170AC6EFC1193C61"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:dropbear"
+				type: "observation"
+			}]
+			title: "Rencontrer Dropbear"
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_elephant"
+			id: "694A97733E38557C"
+			optional: true
+			rewards: [{
+				id: "39D154532213B167"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Éléphant — alexsmobs"
+			tasks: [{
+				id: "36CCE05835AC082D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:elephant"
+				type: "observation"
+			}]
+			title: "Rencontrer Éléphant"
+			x: 0.0d
+			y: 31.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_emu"
+			id: "25B2B003F9D9CD78"
+			optional: true
+			rewards: [{
+				id: "4D7D472B261A17CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Émeu — alexsmobs"
+			tasks: [{
+				id: "764E0260331B81AE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:emu"
+				type: "observation"
+			}]
+			title: "Rencontrer Émeu"
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_farseer"
+			id: "7E9F8AF274AFF400"
+			optional: true
+			rewards: [{
+				id: "1024F49D37B00DE5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Voyant éloigné — alexsmobs"
+			tasks: [{
+				id: "207CC889CA112500"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:farseer"
+				type: "observation"
+			}]
+			title: "Rencontrer Voyant éloigné"
+			x: 0.0d
+			y: 34.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_flutter"
+			id: "38D49E305A9C9590"
+			optional: true
+			rewards: [{
+				id: "09B5FBA2C3F5BAC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Papilloneur — alexsmobs"
+			tasks: [{
+				id: "53A8B8DCB95AD9CC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:flutter"
+				type: "observation"
+			}]
+			title: "Rencontrer Papilloneur"
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_fly"
+			id: "2EF6C0938FC2293A"
+			optional: true
+			rewards: [{
+				id: "1F8443C5FE556CC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mouche — alexsmobs"
+			tasks: [{
+				id: "72B0D512D0575D8E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:fly"
+				type: "observation"
+			}]
+			title: "Rencontrer Mouche"
+			x: 0.0d
+			y: 37.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_flying_fish"
+			id: "3BAB670DE16858D5"
+			optional: true
+			rewards: [{
+				id: "1698F3028D77BA05"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson volant — alexsmobs"
+			tasks: [{
+				id: "573BC22FADBBC268"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:flying_fish"
+				type: "observation"
+			}]
+			title: "Rencontrer Poisson volant"
+			x: 0.0d
+			y: 39.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_frilled_shark"
+			id: "2ECB65B9E8A39A01"
+			optional: true
+			rewards: [{
+				id: "5652B2A79DE9524A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Requin frangé — alexsmobs"
+			tasks: [{
+				id: "4AA5A1743A3DDE05"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:frilled_shark"
+				type: "observation"
+			}]
+			title: "Rencontrer Requin frangé"
+			x: 0.0d
+			y: 40.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_froststalker"
+			id: "3ACE9651F6F7B499"
+			optional: true
+			rewards: [{
+				id: "5B3EBB95C867C217"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Traqueur givrant — alexsmobs"
+			tasks: [{
+				id: "76FA890EBD988B11"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:froststalker"
+				type: "observation"
+			}]
+			title: "Rencontrer Traqueur givrant"
+			x: 0.0d
+			y: 42.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_gazelle"
+			id: "6F2B6DB7D4EE922B"
+			optional: true
+			rewards: [{
+				id: "19E9EAAD13138BF8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Gazelle — alexsmobs"
+			tasks: [{
+				id: "11E4E46CEF6D746C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:gazelle"
+				type: "observation"
+			}]
+			title: "Rencontrer Gazelle"
+			x: 0.0d
+			y: 43.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_gelada_monkey"
+			id: "1B0C579483E4B3C0"
+			optional: true
+			rewards: [{
+				id: "7215608C93FB28EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Singe-gélada — alexsmobs"
+			tasks: [{
+				id: "46A50883E4CF2B0C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:gelada_monkey"
+				type: "observation"
+			}]
+			title: "Rencontrer Singe-gélada"
+			x: 0.0d
+			y: 45.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_giant_squid"
+			id: "28ACF8FB1C976869"
+			optional: true
+			rewards: [{
+				id: "0236965F1FAAEC09"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Calmar géant — alexsmobs"
+			tasks: [{
+				id: "7B3BC14654FE3AC6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:giant_squid"
+				type: "observation"
+			}]
+			title: "Rencontrer Calmar géant"
+			x: 0.0d
+			y: 46.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_gorilla"
+			id: "545FAD84D65694F6"
+			optional: true
+			rewards: [{
+				id: "547C083460EFC57D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Gorille — alexsmobs"
+			tasks: [{
+				id: "28E91ECE2FFD1DAF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:gorilla"
+				type: "observation"
+			}]
+			title: "Rencontrer Gorille"
+			x: 0.0d
+			y: 48.0d
+		}
+		{
+			description: ["Neutre, dans les forêts et les montagnes. Il attaque si on s'approche de ses petits, et il monte aux arbres aussi vite que toi."]
+			icon: "alexsmobs:spawn_egg_grizzly_bear"
+			id: "60A59961629ED455"
+			optional: true
+			rewards: [{
+				id: "3C291C8C7A88A30A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Grizzli — alexsmobs"
+			tasks: [{
+				id: "7BE0CCBF476E17E9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:grizzly_bear"
+				type: "observation"
+			}]
+			title: "Rencontrer le Grizzly"
+			x: 0.0d
+			y: 49.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_guster"
+			id: "7A9DE7698B1C49F8"
+			optional: true
+			rewards: [{
+				id: "0B65C0F52B469461"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Rafalleur — alexsmobs"
+			tasks: [{
+				id: "7555B0461B8C1E22"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:guster"
+				type: "observation"
+			}]
+			title: "Rencontrer Rafalleur"
+			x: 0.0d
+			y: 51.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_hammerhead_shark"
+			id: "3C6A8BF6CC43AC42"
+			optional: true
+			rewards: [{
+				id: "75055B97E954449D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Requin-marteau — alexsmobs"
+			tasks: [{
+				id: "6C8850AAE2F44DB3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:hammerhead_shark"
+				type: "observation"
+			}]
+			title: "Rencontrer Requin-marteau"
+			x: 0.0d
+			y: 52.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_hummingbird"
+			id: "7A950024E86C7E28"
+			optional: true
+			rewards: [{
+				id: "69D5E5787E70DB07"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Colibri — alexsmobs"
+			tasks: [{
+				id: "6FC8C8E9735F2B20"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:hummingbird"
+				type: "observation"
+			}]
+			title: "Rencontrer Colibri"
+			x: 0.0d
+			y: 54.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_jerboa"
+			id: "448A85E805F28332"
+			optional: true
+			rewards: [{
+				id: "61399916298E52A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Gerboise — alexsmobs"
+			tasks: [{
+				id: "7909D139A34ADAC6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:jerboa"
+				type: "observation"
+			}]
+			title: "Rencontrer Gerboise"
+			x: 0.0d
+			y: 55.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_kangaroo"
+			id: "406CDF552EEC715B"
+			optional: true
+			rewards: [{
+				id: "465922F8DF22CE4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Kangourou — alexsmobs"
+			tasks: [{
+				id: "41D07527D5C968EB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:kangaroo"
+				type: "observation"
+			}]
+			title: "Rencontrer Kangourou"
+			x: 0.0d
+			y: 57.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_komodo_dragon"
+			id: "4CD10259EA26AC63"
+			optional: true
+			rewards: [{
+				id: "29C2FBF53834F4DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Dragon de Komodo — alexsmobs"
+			tasks: [{
+				id: "1944C26041901E70"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:komodo_dragon"
+				type: "observation"
+			}]
+			title: "Rencontrer Dragon de Komodo"
+			x: 0.0d
+			y: 58.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_leafcutter_ant"
+			id: "219A62A1B0157369"
+			optional: true
+			rewards: [{
+				id: "2515B350E41534DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Fourmi coupe-feuilles — alexsmobs"
+			tasks: [{
+				id: "3E9FC21BCAD19D48"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:leafcutter_ant"
+				type: "observation"
+			}]
+			title: "Rencontrer Fourmi coupe-feuilles"
+			x: 0.0d
+			y: 60.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_lobster"
+			id: "2A13B963EC96CA0F"
+			optional: true
+			rewards: [{
+				id: "56307C1957F5F6A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Homard — alexsmobs"
+			tasks: [{
+				id: "4E1C3296C5CDDA33"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:lobster"
+				type: "observation"
+			}]
+			title: "Rencontrer Homard"
+			x: 0.0d
+			y: 61.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_maned_wolf"
+			id: "6F5FB25EC952F97B"
+			optional: true
+			rewards: [{
+				id: "3C3DB86ED2700EEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Loup à crinière — alexsmobs"
+			tasks: [{
+				id: "5333EA6740C4CB93"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:maned_wolf"
+				type: "observation"
+			}]
+			title: "Rencontrer Loup à crinière"
+			x: 0.0d
+			y: 63.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_mantis_shrimp"
+			id: "680195BDC71538FD"
+			optional: true
+			rewards: [{
+				id: "0AEF8CC7EE50616E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crevette mante — alexsmobs"
+			tasks: [{
+				id: "5A1996935B5BBA8A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mantis_shrimp"
+				type: "observation"
+			}]
+			title: "Rencontrer Crevette mante"
+			x: 0.0d
+			y: 64.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_mimic_octopus"
+			id: "032B1FF599DB25E3"
+			optional: true
+			rewards: [{
+				id: "5B1CDED2D3EBDB6A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poulpe imitant — alexsmobs"
+			tasks: [{
+				id: "722009BAF44ED6B0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mimic_octopus"
+				type: "observation"
+			}]
+			title: "Rencontrer Poulpe imitant"
+			x: 0.0d
+			y: 66.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_moose"
+			id: "3EBA1AA55C4FAA47"
+			optional: true
+			rewards: [{
+				id: "10135B8203301495"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Élan — alexsmobs"
+			tasks: [{
+				id: "4FDC7DBA1852E4AB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:moose"
+				type: "observation"
+			}]
+			title: "Rencontrer Élan"
+			x: 0.0d
+			y: 67.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_mudskipper"
+			id: "57389952D538D1D7"
+			optional: true
+			rewards: [{
+				id: "0D909C5304BBF980"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Gobie — alexsmobs"
+			tasks: [{
+				id: "32C250F3F4B62800"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mudskipper"
+				type: "observation"
+			}]
+			title: "Rencontrer Gobie"
+			x: 0.0d
+			y: 69.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_mungus"
+			id: "7D831882EBBFCE09"
+			optional: true
+			rewards: [{
+				id: "02BB2EFD78E80E1A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mongus — alexsmobs"
+			tasks: [{
+				id: "033ACD8A994DF2E3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mungus"
+				type: "observation"
+			}]
+			title: "Rencontrer Mongus"
+			x: 0.0d
+			y: 70.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_murmur"
+			id: "3FC1CAF6FD1F46E8"
+			optional: true
+			rewards: [{
+				id: "39AB9C199CB61F90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Murmure — alexsmobs"
+			tasks: [{
+				id: "08DD21D45547AC72"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:murmur"
+				type: "observation"
+			}]
+			title: "Rencontrer Murmure"
+			x: 0.0d
+			y: 72.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_orca"
+			id: "01BC52C4232D7BFA"
+			optional: true
+			rewards: [{
+				id: "47A04A3B4C99AC0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Orque — alexsmobs"
+			tasks: [{
+				id: "110BE393C23A4F39"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:orca"
+				type: "observation"
+			}]
+			title: "Rencontrer Orque"
+			x: 0.0d
+			y: 73.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_platypus"
+			id: "791611254E828FDA"
+			optional: true
+			rewards: [{
+				id: "26E1A68C7DF68F8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ornithorynque — alexsmobs"
+			tasks: [{
+				id: "40FC941E0F36C4EA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:platypus"
+				type: "observation"
+			}]
+			title: "Rencontrer Ornithorynque"
+			x: 0.0d
+			y: 75.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_potoo"
+			id: "24FC0E5BBECAEDDD"
+			optional: true
+			rewards: [{
+				id: "469B315E9BD83C03"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ibijau — alexsmobs"
+			tasks: [{
+				id: "37633A5D4846E535"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:potoo"
+				type: "observation"
+			}]
+			title: "Rencontrer Ibijau"
+			x: 0.0d
+			y: 76.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_raccoon"
+			id: "658E4C2DE4A06974"
+			optional: true
+			rewards: [{
+				id: "661C6AFA7DB8C8AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Raton laveur — alexsmobs"
+			tasks: [{
+				id: "06F86984BA844D42"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:raccoon"
+				type: "observation"
+			}]
+			title: "Rencontrer Raton laveur"
+			x: 0.0d
+			y: 78.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_rain_frog"
+			id: "6350981D1BB12195"
+			optional: true
+			rewards: [{
+				id: "08354087F0185822"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Grenouille de pluie — alexsmobs"
+			tasks: [{
+				id: "4438B199C47D63A3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rain_frog"
+				type: "observation"
+			}]
+			title: "Rencontrer Grenouille de pluie"
+			x: 0.0d
+			y: 79.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_rattlesnake"
+			id: "3D89F8F400249FF0"
+			optional: true
+			rewards: [{
+				id: "32D071285A99E06F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crotale — alexsmobs"
+			tasks: [{
+				id: "0922CCB5E81AF75A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rattlesnake"
+				type: "observation"
+			}]
+			title: "Rencontrer Crotale"
+			x: 0.0d
+			y: 81.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_rhinoceros"
+			id: "18FEFD4E1034B5B5"
+			optional: true
+			rewards: [{
+				id: "53B9E223D177183C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Rhinocéros — alexsmobs"
+			tasks: [{
+				id: "3372FD70187F18A1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rhinoceros"
+				type: "observation"
+			}]
+			title: "Rencontrer Rhinocéros"
+			x: 0.0d
+			y: 82.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_roadrunner"
+			id: "26C7AA50F37A6460"
+			optional: true
+			rewards: [{
+				id: "15B9EBA3E143DCFD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Géocoucou — alexsmobs"
+			tasks: [{
+				id: "57F299F8B5C5BB81"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:roadrunner"
+				type: "observation"
+			}]
+			title: "Rencontrer Géocoucou"
+			x: 0.0d
+			y: 84.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_rocky_roller"
+			id: "36749D86D0E5E0D4"
+			optional: true
+			rewards: [{
+				id: "6A11219CFAA6196D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Rouleau rocheux — alexsmobs"
+			tasks: [{
+				id: "50074ABB131235E5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rocky_roller"
+				type: "observation"
+			}]
+			title: "Rencontrer Rouleau rocheux"
+			x: 0.0d
+			y: 85.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_seagull"
+			id: "24D83D361D5BA790"
+			optional: true
+			rewards: [{
+				id: "4B0FC2C5AC4822B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mouette — alexsmobs"
+			tasks: [{
+				id: "104BC152DEB7F1A1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:seagull"
+				type: "observation"
+			}]
+			title: "Rencontrer Mouette"
+			x: 0.0d
+			y: 87.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_seal"
+			id: "6E46216B2E35B409"
+			optional: true
+			rewards: [{
+				id: "4B15E0D31CC95BA6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Phoque — alexsmobs"
+			tasks: [{
+				id: "4AAE0DA862AC9BD8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:seal"
+				type: "observation"
+			}]
+			title: "Rencontrer Phoque"
+			x: 0.0d
+			y: 88.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_shoebill"
+			id: "317F11B49F07C8F2"
+			optional: true
+			rewards: [{
+				id: "67DE005783D9DAB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bec-en-sabot du Nil — alexsmobs"
+			tasks: [{
+				id: "1176A2B91A15E584"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:shoebill"
+				type: "observation"
+			}]
+			title: "Rencontrer Bec-en-sabot du Nil"
+			x: 0.0d
+			y: 90.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_skelewag"
+			id: "5A3395E511DA50B8"
+			optional: true
+			rewards: [{
+				id: "784714B81283E98C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Squeladon — alexsmobs"
+			tasks: [{
+				id: "5E5535D4197768CD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:skelewag"
+				type: "observation"
+			}]
+			title: "Rencontrer Squeladon"
+			x: 0.0d
+			y: 91.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_skreecher"
+			id: "374039BEBFCAA257"
+			optional: true
+			rewards: [{
+				id: "38E7CC17D68934A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Skreecher — alexsmobs"
+			tasks: [{
+				id: "2AFFBFB2BE70C34E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:skreecher"
+				type: "observation"
+			}]
+			title: "Rencontrer Skreecher"
+			x: 0.0d
+			y: 93.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_skunk"
+			id: "361D452A0A22D4A4"
+			optional: true
+			rewards: [{
+				id: "39B1337C4C1BAC78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moufette — alexsmobs"
+			tasks: [{
+				id: "543A2491F576DA40"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:skunk"
+				type: "observation"
+			}]
+			title: "Rencontrer Moufette"
+			x: 0.0d
+			y: 94.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_snow_leopard"
+			id: "2E95CADCD2FC61B5"
+			optional: true
+			rewards: [{
+				id: "20A15E4343BABE9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Léopard de neige — alexsmobs"
+			tasks: [{
+				id: "06C0707703A53E1C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:snow_leopard"
+				type: "observation"
+			}]
+			title: "Rencontrer Léopard de neige"
+			x: 0.0d
+			y: 96.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_spectre"
+			id: "16D5C1CDD8D02A07"
+			optional: true
+			rewards: [{
+				id: "06A161F95CF56C19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Spectre — alexsmobs"
+			tasks: [{
+				id: "2A8DCE55DBDBD958"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:spectre"
+				type: "observation"
+			}]
+			title: "Rencontrer Spectre"
+			x: 0.0d
+			y: 97.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_sugar_glider"
+			id: "13CDBAD4B1D92305"
+			optional: true
+			rewards: [{
+				id: "26070A738072AA83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Phalanger volant — alexsmobs"
+			tasks: [{
+				id: "1D077AD95D27E8D7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:sugar_glider"
+				type: "observation"
+			}]
+			title: "Rencontrer Phalanger volant"
+			x: 0.0d
+			y: 99.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_sunbird"
+			id: "4C71BB99654A23B3"
+			optional: true
+			rewards: [{
+				id: "6831E5E6266AD3A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Oiseau de soleil — alexsmobs"
+			tasks: [{
+				id: "6DFC655413EC5D0F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:sunbird"
+				type: "observation"
+			}]
+			title: "Rencontrer Oiseau de soleil"
+			x: 0.0d
+			y: 100.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_tarantula_hawk"
+			id: "32283E7354266ECA"
+			optional: true
+			rewards: [{
+				id: "17023225AE62BB44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Faucon tarentule — alexsmobs"
+			tasks: [{
+				id: "4028098B15D44236"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tarantula_hawk"
+				type: "observation"
+			}]
+			title: "Rencontrer Faucon tarentule"
+			x: 0.0d
+			y: 102.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_tasmanian_devil"
+			id: "67FB653C6414EDDC"
+			optional: true
+			rewards: [{
+				id: "644194D86DFDC93D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Diable de Tasmanie — alexsmobs"
+			tasks: [{
+				id: "6B75F60B6F2B624D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tasmanian_devil"
+				type: "observation"
+			}]
+			title: "Rencontrer Diable de Tasmanie"
+			x: 0.0d
+			y: 103.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_terrapin"
+			id: "5A4E984595968423"
+			optional: true
+			rewards: [{
+				id: "45D39D8E32267BB1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tortue de rivière — alexsmobs"
+			tasks: [{
+				id: "66D4CEA3F4ABBAD3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:terrapin"
+				type: "observation"
+			}]
+			title: "Rencontrer Tortue de rivière"
+			x: 0.0d
+			y: 105.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_tiger"
+			id: "76921261F3FC5F75"
+			optional: true
+			rewards: [{
+				id: "5047F75A4517D1C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tigre — alexsmobs"
+			tasks: [{
+				id: "4676F94390AD937D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tiger"
+				type: "observation"
+			}]
+			title: "Rencontrer Tigre"
+			x: 0.0d
+			y: 106.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_toucan"
+			id: "79D1965DA6029779"
+			optional: true
+			rewards: [{
+				id: "3F87642EE11DF1AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Toucan — alexsmobs"
+			tasks: [{
+				id: "3D5C52494F39C154"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:toucan"
+				type: "observation"
+			}]
+			title: "Rencontrer Toucan"
+			x: 0.0d
+			y: 108.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_triops"
+			id: "39A207AE7E2AD035"
+			optional: true
+			rewards: [{
+				id: "10D78714091A5924"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Triops — alexsmobs"
+			tasks: [{
+				id: "4B137682459B1E07"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:triops"
+				type: "observation"
+			}]
+			title: "Rencontrer Triops"
+			x: 0.0d
+			y: 109.5d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_tusklin"
+			id: "1D86B4B9EAB9D42C"
+			optional: true
+			rewards: [{
+				id: "74E6914C3604801E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tusklin — alexsmobs"
+			tasks: [{
+				id: "46C72C99849B4C32"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tusklin"
+				type: "observation"
+			}]
+			title: "Rencontrer Tusklin"
+			x: 0.0d
+			y: 111.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack."]
+			icon: "alexsmobs:spawn_egg_underminer"
+			id: "5F058185FCE6946F"
+			optional: true
+			rewards: [{
+				id: "4D134F460C9AC6E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Sous-mineur — alexsmobs"
+			tasks: [{
+				id: "2F7D571D4136BC53"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:underminer"
+				type: "observation"
+			}]
+			title: "Rencontrer Sous-mineur"
+			x: 0.0d
+			y: 112.5d
+		}
+		{
+			description: ["Il tient un théâtre dans les forêts de chênes noirs. Illusions, lapins explosifs, cartes : un spectacle qu'on finit à l'épée."]
+			icon: "conjurer_illager:conjurer_spawn_egg"
+			id: "343E97277F19B675"
+			optional: true
+			rewards: [{
+				id: "23D08CB10952EA00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Chapeau de Magicien — conjurer_illager"
+			tasks: [{
+				id: "74D2E588D910DDC7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "conjurer_illager:conjurer"
+				type: "observation"
+			}]
+			title: "Rencontrer le Conjurateur"
+			x: 0.0d
+			y: 114.0d
+		}
+		{
+			description: ["Un golem qu'on fabrique : bloc de cuivre et paratonnerre. Il appuie sur les boutons de cuivre, et il s'oxyde avec le temps. Du miel le fige."]
+			icon: "friendsandfoes:copper_golem_spawn_egg"
+			id: "7B5442530FC8174D"
+			optional: true
+			rewards: [{
+				id: "1F8B343E8B02833D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Golem de cuivre — friendsandfoes"
+			tasks: [{
+				id: "091A24DD6210940A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:copper_golem"
+				type: "observation"
+			}]
+			title: "Rencontrer le golem de cuivre"
+			x: 0.0d
+			y: 115.5d
+		}
+		{
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			icon: "friendsandfoes:crab_spawn_egg"
+			id: "78D1A0B2A0209735"
+			optional: true
+			rewards: [{
+				id: "4A0BCA1E6F3893AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crabe — friendsandfoes"
+			tasks: [{
+				id: "32DAAB18EE0ECB34"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:crab"
+				type: "observation"
+			}]
+			title: "Rencontrer Crabe"
+			x: 0.0d
+			y: 117.0d
+		}
+		{
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			icon: "friendsandfoes:glare_spawn_egg"
+			id: "08723A8E30D1FC56"
+			optional: true
+			rewards: [{
+				id: "45FB085FC2543C8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Glare — friendsandfoes"
+			tasks: [{
+				id: "06FE755B992F3D52"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:glare"
+				type: "observation"
+			}]
+			title: "Rencontrer Glare"
+			x: 0.0d
+			y: 118.5d
+		}
+		{
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			icon: "friendsandfoes:mauler_spawn_egg"
+			id: "20B77CC91296CCBC"
+			optional: true
+			rewards: [{
+				id: "3891E9B6DB02FD26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mauler — friendsandfoes"
+			tasks: [{
+				id: "06C55B346B535901"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:mauler"
+				type: "observation"
+			}]
+			title: "Rencontrer Mauler"
+			x: 0.0d
+			y: 120.0d
+		}
+		{
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			icon: "friendsandfoes:moobloom_spawn_egg"
+			id: "42C0A78A9BA3A42D"
+			optional: true
+			rewards: [{
+				id: "265A5323BF96CEE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moobloom — friendsandfoes"
+			tasks: [{
+				id: "5077E026DE27830C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:moobloom"
+				type: "observation"
+			}]
+			title: "Rencontrer Moobloom"
+			x: 0.0d
+			y: 121.5d
+		}
+		{
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			icon: "friendsandfoes:rascal_spawn_egg"
+			id: "4736513B7072D5A9"
+			optional: true
+			rewards: [{
+				id: "1C23607F38912F53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Rascal — friendsandfoes"
+			tasks: [{
+				id: "56607B4928BA8506"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:rascal"
+				type: "observation"
+			}]
+			title: "Rencontrer Rascal"
+			x: 0.0d
+			y: 123.0d
+		}
+		{
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			icon: "friendsandfoes:tuff_golem_spawn_egg"
+			id: "4AC79DAB7F943170"
+			optional: true
+			rewards: [{
+				id: "5C98311E7436CFEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Golem de Tuf — friendsandfoes"
+			tasks: [{
+				id: "44A45DB1702D345A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:tuff_golem"
+				type: "observation"
+			}]
+			title: "Rencontrer Golem de Tuf"
+			x: 0.0d
+			y: 124.5d
+		}
+		{
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			icon: "friendsandfoes:wildfire_spawn_egg"
+			id: "28EEE3031EF8E14D"
+			optional: true
+			rewards: [{
+				id: "35D9E27916DB4A5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Wildfire — friendsandfoes"
+			tasks: [{
+				id: "5EFBE1D28516C531"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:wildfire"
+				type: "observation"
+			}]
+			title: "Rencontrer Wildfire"
+			x: 0.0d
+			y: 126.0d
+		}
+		{
+			description: ["Dans les grottes, un petit marchand qui vend des enchantements et des potions rares contre de l'émeraude et quelques objets. Son cousin des veines vit plus profond."]
+			icon: "goblintraders:goblin_trader_spawn_egg"
+			id: "0CD6B53438F920C5"
+			optional: true
+			rewards: [{
+				id: "16DEA84BD6277F2B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Goblin Trader — goblintraders"
+			tasks: [{
+				id: "0B97F64A08C9EE1B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			title: "Rencontrer le marchand gobelin"
+			x: 0.0d
+			y: 127.5d
+		}
+		{
+			description: ["Marchand de &bGoblin Traders&r : il vend des objets rares contre de l'émeraude et plus."]
+			icon: "goblintraders:vein_goblin_trader_spawn_egg"
+			id: "1A8D0B91ADE3CEA7"
+			optional: true
+			rewards: [{
+				id: "4AB0CCEB8CFB6091"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Vein Goblin Trader — goblintraders"
+			tasks: [{
+				id: "026E2B872CBAA6D7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:vein_goblin_trader"
+				type: "observation"
+			}]
+			title: "Rencontrer Vein Goblin Trader"
+			x: 0.0d
+			y: 129.0d
+		}
+		{
+			description: ["Les villages ont des gardes armés. Ils défendent les villageois contre les pillards, et contre toi si tu frappes un villageois sous leurs yeux."]
+			icon: "guardvillagers:guard_spawn_egg"
+			id: "3C87EEAE5D6994D6"
+			optional: true
+			rewards: [{
+				id: "2188DE71501CAC35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Gardien — guardvillagers"
+			tasks: [{
+				id: "40C72FC955261662"
+				observe_type: 5
+				timer: 0L
+				to_observe: "guardvillagers:guard"
+				type: "observation"
+			}]
+			title: "Rencontrer un garde villageois"
+			x: 0.0d
+			y: 130.5d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:alchemist_spawn_egg"
+			id: "13607B73B93FFD2B"
+			optional: true
+			rewards: [{
+				id: "2F0A6F331C4847BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Alchemist — illagerinvasion"
+			tasks: [{
+				id: "1B0F6E4AB79632AA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:alchemist"
+				type: "observation"
+			}]
+			title: "Rencontrer Alchemist"
+			x: 0.0d
+			y: 132.0d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:archivist_spawn_egg"
+			id: "565CDFD16E7065EF"
+			optional: true
+			rewards: [{
+				id: "3C3988018230CF2B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Archivist — illagerinvasion"
+			tasks: [{
+				id: "2840D0EEBB9A71AD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:archivist"
+				type: "observation"
+			}]
+			title: "Rencontrer Archivist"
+			x: 0.0d
+			y: 133.5d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:basher_spawn_egg"
+			id: "7EA84719F22FA877"
+			optional: true
+			rewards: [{
+				id: "20800750C044B95C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Basher — illagerinvasion"
+			tasks: [{
+				id: "786A7F180F454246"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:basher"
+				type: "observation"
+			}]
+			title: "Rencontrer Basher"
+			x: 0.0d
+			y: 135.0d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:firecaller_spawn_egg"
+			id: "669EF42C34407DF8"
+			optional: true
+			rewards: [{
+				id: "04D61CEB4B266E4F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Firecaller — illagerinvasion"
+			tasks: [{
+				id: "6C72AD431B63B6FE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:firecaller"
+				type: "observation"
+			}]
+			title: "Rencontrer Firecaller"
+			x: 0.0d
+			y: 136.5d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:inquisitor_spawn_egg"
+			id: "1D7DEA6EDF138EE2"
+			optional: true
+			rewards: [{
+				id: "4CEE280720E21AC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Inquisitor — illagerinvasion"
+			tasks: [{
+				id: "3605D19365F27761"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:inquisitor"
+				type: "observation"
+			}]
+			title: "Rencontrer Inquisitor"
+			x: 0.0d
+			y: 138.0d
+		}
+		{
+			description: ["Le maître des illageois, au sommet des tours d'Illager Invasion. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss."]
+			icon: "illagerinvasion:invoker_spawn_egg"
+			id: "793CF6B4C5D93F5C"
+			optional: true
+			rewards: [{
+				id: "2122BA57D4621892"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Invoker — illagerinvasion"
+			tasks: [{
+				id: "25103E1CA6B50417"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:invoker"
+				type: "observation"
+			}]
+			title: "Rencontrer l'Invoker"
+			x: 0.0d
+			y: 139.5d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:marauder_spawn_egg"
+			id: "5BB2F4761C963A98"
+			optional: true
+			rewards: [{
+				id: "447F04088E91EDDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Marauder — illagerinvasion"
+			tasks: [{
+				id: "221E81BDC40B162D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:marauder"
+				type: "observation"
+			}]
+			title: "Rencontrer Marauder"
+			x: 0.0d
+			y: 141.0d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:necromancer_spawn_egg"
+			id: "6B567E6344BDB50C"
+			optional: true
+			rewards: [{
+				id: "7394C403E6CF2E36"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Necromancer — illagerinvasion"
+			tasks: [{
+				id: "3D57AF34C13A9119"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:necromancer"
+				type: "observation"
+			}]
+			title: "Rencontrer Necromancer"
+			x: 0.0d
+			y: 142.5d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:provoker_spawn_egg"
+			id: "4657B650ABAFF27C"
+			optional: true
+			rewards: [{
+				id: "215537EF68648A52"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Provoker — illagerinvasion"
+			tasks: [{
+				id: "6593205B10CEA036"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:provoker"
+				type: "observation"
+			}]
+			title: "Rencontrer Provoker"
+			x: 0.0d
+			y: 144.0d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:sorcerer_spawn_egg"
+			id: "442AE93471182BD1"
+			optional: true
+			rewards: [{
+				id: "4369EB7986180B06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Sorcerer — illagerinvasion"
+			tasks: [{
+				id: "78D6773F101A8E38"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:sorcerer"
+				type: "observation"
+			}]
+			title: "Rencontrer Sorcerer"
+			x: 0.0d
+			y: 145.5d
+		}
+		{
+			description: ["Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages."]
+			icon: "illagerinvasion:surrendered_spawn_egg"
+			id: "7040C19F8A4A0034"
+			optional: true
+			rewards: [{
+				id: "1E913D271EB02047"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Surrendered — illagerinvasion"
+			tasks: [{
+				id: "19D0370AE32EAEDD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "illagerinvasion:surrendered"
+				type: "observation"
+			}]
+			title: "Rencontrer Surrendered"
+			x: 0.0d
+			y: 147.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:allay_spawn_egg"
+			id: "1F58602DF509AC94"
+			optional: true
+			rewards: [{
+				id: "576DCA884B8A949F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Allay — minecraft"
+			tasks: [{
+				id: "2ED76B34CAE4B930"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:allay"
+				type: "observation"
+			}]
+			title: "Rencontrer Allay"
+			x: 0.0d
+			y: 148.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:armadillo_spawn_egg"
+			id: "1B1FC0751A720A05"
+			optional: true
+			rewards: [{
+				id: "36F0E45CE99991AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tatou — minecraft"
+			tasks: [{
+				id: "6BAD28D460979318"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:armadillo"
+				type: "observation"
+			}]
+			title: "Rencontrer Tatou"
+			x: 0.0d
+			y: 150.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:axolotl_spawn_egg"
+			id: "01983BFAD429BE34"
+			optional: true
+			rewards: [{
+				id: "3EE375981187A635"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Axolotl — minecraft"
+			tasks: [{
+				id: "083BD365C72B0679"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:axolotl"
+				type: "observation"
+			}]
+			title: "Rencontrer Axolotl"
+			x: 0.0d
+			y: 151.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:bat_spawn_egg"
+			id: "49BB4161AFB6F3CB"
+			optional: true
+			rewards: [{
+				id: "652D71CC5DA05B15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Chauve-souris — minecraft"
+			tasks: [{
+				id: "5045DE1F3956B3E2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:bat"
+				type: "observation"
+			}]
+			title: "Rencontrer Chauve-souris"
+			x: 0.0d
+			y: 153.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:bee_spawn_egg"
+			id: "2B0F74C5E2065685"
+			optional: true
+			rewards: [{
+				id: "2BE87EC633CA6FCA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Abeille — minecraft"
+			tasks: [{
+				id: "1D29BA3287FB174B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:bee"
+				type: "observation"
+			}]
+			title: "Rencontrer Abeille"
+			x: 0.0d
+			y: 154.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:camel_spawn_egg"
+			id: "3CCCD0DDC98209DB"
+			optional: true
+			rewards: [{
+				id: "44F36A19F34AF917"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Dromadaire — minecraft"
+			tasks: [{
+				id: "5AB6D57D13F5A185"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:camel"
+				type: "observation"
+			}]
+			title: "Rencontrer Dromadaire"
+			x: 0.0d
+			y: 156.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:cat_spawn_egg"
+			id: "015F94CCFA79D30C"
+			optional: true
+			rewards: [{
+				id: "3604AD3DFFA9ACE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Chat — minecraft"
+			tasks: [{
+				id: "7917B44DCBC64E28"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cat"
+				type: "observation"
+			}]
+			title: "Rencontrer Chat"
+			x: 0.0d
+			y: 157.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:cave_spider_spawn_egg"
+			id: "36C11D6D5BDF48C9"
+			optional: true
+			rewards: [{
+				id: "743728FB9BD9C3E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Araignée venimeuse — minecraft"
+			tasks: [{
+				id: "100C204754B4FB36"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cave_spider"
+				type: "observation"
+			}]
+			title: "Rencontrer Araignée venimeuse"
+			x: 0.0d
+			y: 159.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:chicken_spawn_egg"
+			id: "14F149D73EB66E69"
+			optional: true
+			rewards: [{
+				id: "6E759D9173247965"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poulet cru — minecraft"
+			tasks: [{
+				id: "26DE48B4298BF353"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			title: "Rencontrer Poulet cru"
+			x: 0.0d
+			y: 160.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:cod_spawn_egg"
+			id: "6ECA9ADE95C68E79"
+			optional: true
+			rewards: [{
+				id: "47F50BB778017E7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Morue crue — minecraft"
+			tasks: [{
+				id: "08E43D699C4E35F0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cod"
+				type: "observation"
+			}]
+			title: "Rencontrer Morue crue"
+			x: 0.0d
+			y: 162.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:cow_spawn_egg"
+			id: "2FDD73A2C75C7DD0"
+			optional: true
+			rewards: [{
+				id: "463603298D3F5973"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Vache — minecraft"
+			tasks: [{
+				id: "6581690F5A4C6204"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			title: "Rencontrer Vache"
+			x: 0.0d
+			y: 163.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:creaking_spawn_egg"
+			id: "05AEBBC0AABBCD5C"
+			optional: true
+			rewards: [{
+				id: "041EB36E50C3FF7D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Grinceur — minecraft"
+			tasks: [{
+				id: "394AB06432D12993"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:creaking"
+				type: "observation"
+			}]
+			title: "Rencontrer Grinceur"
+			x: 0.0d
+			y: 165.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:creeper_spawn_egg"
+			id: "3481FC249515DE8C"
+			optional: true
+			rewards: [{
+				id: "49DF61563933D6E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Creeper — minecraft"
+			tasks: [{
+				id: "7483798A399D929D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:creeper"
+				type: "observation"
+			}]
+			title: "Rencontrer Creeper"
+			x: 0.0d
+			y: 166.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:dolphin_spawn_egg"
+			id: "44833CC3BD243B3C"
+			optional: true
+			rewards: [{
+				id: "76D26D14181B3285"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Dauphin — minecraft"
+			tasks: [{
+				id: "3BD56D2FB31E5989"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:dolphin"
+				type: "observation"
+			}]
+			title: "Rencontrer Dauphin"
+			x: 0.0d
+			y: 168.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:donkey_spawn_egg"
+			id: "425EE25F52D0B7DB"
+			optional: true
+			rewards: [{
+				id: "29C5F898E445AB95"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Âne — minecraft"
+			tasks: [{
+				id: "5F8766984600489C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:donkey"
+				type: "observation"
+			}]
+			title: "Rencontrer Âne"
+			x: 0.0d
+			y: 169.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:drowned_spawn_egg"
+			id: "698DC0216122757F"
+			optional: true
+			rewards: [{
+				id: "07B66E5136EDEAB1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Noyé — minecraft"
+			tasks: [{
+				id: "34B5C4F5EB01177C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:drowned"
+				type: "observation"
+			}]
+			title: "Rencontrer Noyé"
+			x: 0.0d
+			y: 171.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "7AA438F59F793675"
+			optional: true
+			rewards: [{
+				id: "377DD504739FB7FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Grand gardien — minecraft"
+			tasks: [{
+				id: "4B56A697F6D502A3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:elder_guardian"
+				type: "observation"
+			}]
+			title: "Rencontrer Grand gardien"
+			x: 0.0d
+			y: 172.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:enderman_spawn_egg"
+			id: "6D0C6240D6312B56"
+			optional: true
+			rewards: [{
+				id: "2ADA689B30CBE397"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Enderman — minecraft"
+			tasks: [{
+				id: "49D561EBF63091C5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:enderman"
+				type: "observation"
+			}]
+			title: "Rencontrer Enderman"
+			x: 0.0d
+			y: 174.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:evoker_spawn_egg"
+			id: "13B86FCD8CC751AE"
+			optional: true
+			rewards: [{
+				id: "6F0FB712123DD70D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Évocateur — minecraft"
+			tasks: [{
+				id: "0FD11BAF201DC63E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:evoker"
+				type: "observation"
+			}]
+			title: "Rencontrer Évocateur"
+			x: 0.0d
+			y: 175.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:fox_spawn_egg"
+			id: "045AC5B0885C5DF2"
+			optional: true
+			rewards: [{
+				id: "55D44B72E0DBB6AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Renard — minecraft"
+			tasks: [{
+				id: "27F818EADBCD4A9E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:fox"
+				type: "observation"
+			}]
+			title: "Rencontrer Renard"
+			x: 0.0d
+			y: 177.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:frog_spawn_egg"
+			id: "53D302F8A8F34641"
+			optional: true
+			rewards: [{
+				id: "11F9D8079540CF82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Grenouille — minecraft"
+			tasks: [{
+				id: "79A09A32BF808A64"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:frog"
+				type: "observation"
+			}]
+			title: "Rencontrer Grenouille"
+			x: 0.0d
+			y: 178.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:glow_squid_spawn_egg"
+			id: "3E26539078EF6A2B"
+			optional: true
+			rewards: [{
+				id: "4D64B2808BB787CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poulpe luisant — minecraft"
+			tasks: [{
+				id: "0FB7F0FC790EF844"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:glow_squid"
+				type: "observation"
+			}]
+			title: "Rencontrer Poulpe luisant"
+			x: 0.0d
+			y: 180.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:goat_spawn_egg"
+			id: "1484044832795C37"
+			optional: true
+			rewards: [{
+				id: "21C4EADF67D29164"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Chèvre — minecraft"
+			tasks: [{
+				id: "684E45C01623F7D2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:goat"
+				type: "observation"
+			}]
+			title: "Rencontrer Chèvre"
+			x: 0.0d
+			y: 181.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:guardian_spawn_egg"
+			id: "05498FADAFF778B4"
+			optional: true
+			rewards: [{
+				id: "3D11FDCE9C80DAD4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Gardien — minecraft"
+			tasks: [{
+				id: "0A9CF420C4129262"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:guardian"
+				type: "observation"
+			}]
+			title: "Rencontrer Gardien"
+			x: 0.0d
+			y: 183.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:horse_spawn_egg"
+			id: "3B8DA1396457AFAD"
+			optional: true
+			rewards: [{
+				id: "4A115FBB3844CFB1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cheval — minecraft"
+			tasks: [{
+				id: "702C412023E1BD56"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:horse"
+				type: "observation"
+			}]
+			title: "Rencontrer Cheval"
+			x: 0.0d
+			y: 184.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:husk_spawn_egg"
+			id: "122D6496E45EB7BA"
+			optional: true
+			rewards: [{
+				id: "7AAA4ACB5597F195"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Momifié — minecraft"
+			tasks: [{
+				id: "7178B79398A0A184"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:husk"
+				type: "observation"
+			}]
+			title: "Rencontrer Momifié"
+			x: 0.0d
+			y: 186.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:iron_golem_spawn_egg"
+			id: "274BEDFBF0F7BD0F"
+			optional: true
+			rewards: [{
+				id: "330EEA4E619304A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Golem de fer — minecraft"
+			tasks: [{
+				id: "4893BE480DB8B12F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:iron_golem"
+				type: "observation"
+			}]
+			title: "Rencontrer Golem de fer"
+			x: 0.0d
+			y: 187.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:llama_spawn_egg"
+			id: "57E7BE5A96142F72"
+			optional: true
+			rewards: [{
+				id: "0C8D8788608B85C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Lama — minecraft"
+			tasks: [{
+				id: "614DFB5807BD969B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:llama"
+				type: "observation"
+			}]
+			title: "Rencontrer Lama"
+			x: 0.0d
+			y: 189.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:mooshroom_spawn_egg"
+			id: "1968944A56707DC6"
+			optional: true
+			rewards: [{
+				id: "4581F36A938EC605"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mooshroom — minecraft"
+			tasks: [{
+				id: "606474FBE16F5BDB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:mooshroom"
+				type: "observation"
+			}]
+			title: "Rencontrer Mooshroom"
+			x: 0.0d
+			y: 190.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:mule_spawn_egg"
+			id: "39A4E0F58950A861"
+			optional: true
+			rewards: [{
+				id: "3BFDC3F6F3FA54D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mule — minecraft"
+			tasks: [{
+				id: "44D3EC0E1C6BCE36"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:mule"
+				type: "observation"
+			}]
+			title: "Rencontrer Mule"
+			x: 0.0d
+			y: 192.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:ocelot_spawn_egg"
+			id: "0D1EE7AC558DDA8F"
+			optional: true
+			rewards: [{
+				id: "768D07DA83757EBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ocelot — minecraft"
+			tasks: [{
+				id: "567031A9D52D5AAB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:ocelot"
+				type: "observation"
+			}]
+			title: "Rencontrer Ocelot"
+			x: 0.0d
+			y: 193.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:panda_spawn_egg"
+			id: "14E168554550CE5C"
+			optional: true
+			rewards: [{
+				id: "4D67932ACFCDC67D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Panda — minecraft"
+			tasks: [{
+				id: "30AF7FACA562C272"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:panda"
+				type: "observation"
+			}]
+			title: "Rencontrer Panda"
+			x: 0.0d
+			y: 195.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:parrot_spawn_egg"
+			id: "604CA2081588FD58"
+			optional: true
+			rewards: [{
+				id: "2C28D017F51DB8D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Perroquet — minecraft"
+			tasks: [{
+				id: "4C76008A6A27E58D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:parrot"
+				type: "observation"
+			}]
+			title: "Rencontrer Perroquet"
+			x: 0.0d
+			y: 196.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:phantom_spawn_egg"
+			id: "797F2FB67B416D8B"
+			optional: true
+			rewards: [{
+				id: "2ACE6FD576E24175"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Phantom — minecraft"
+			tasks: [{
+				id: "57F9E33F6452D0A0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:phantom"
+				type: "observation"
+			}]
+			title: "Rencontrer Phantom"
+			x: 0.0d
+			y: 198.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:pig_spawn_egg"
+			id: "3C6148877925F003"
+			optional: true
+			rewards: [{
+				id: "25547C9613B3785A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cochon — minecraft"
+			tasks: [{
+				id: "4B318E2CA56AF686"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			title: "Rencontrer Cochon"
+			x: 0.0d
+			y: 199.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:pillager_spawn_egg"
+			id: "6D1373832E1567C6"
+			optional: true
+			rewards: [{
+				id: "084666F328C1941B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Pillard — minecraft"
+			tasks: [{
+				id: "4ECF3DC786F04D66"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pillager"
+				type: "observation"
+			}]
+			title: "Rencontrer Pillard"
+			x: 0.0d
+			y: 201.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:polar_bear_spawn_egg"
+			id: "597C41B7677866C0"
+			optional: true
+			rewards: [{
+				id: "5B85EDD081BA8CC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ours blanc — minecraft"
+			tasks: [{
+				id: "1B1D5FFDAE785EBC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:polar_bear"
+				type: "observation"
+			}]
+			title: "Rencontrer Ours blanc"
+			x: 0.0d
+			y: 202.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:pufferfish_spawn_egg"
+			id: "058E300B71E05E8E"
+			optional: true
+			rewards: [{
+				id: "18E0AC39DBC180B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson-globe — minecraft"
+			tasks: [{
+				id: "72154ADDE766C7A1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pufferfish"
+				type: "observation"
+			}]
+			title: "Rencontrer Poisson-globe"
+			x: 0.0d
+			y: 204.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:rabbit_spawn_egg"
+			id: "5A9455D83202F866"
+			optional: true
+			rewards: [{
+				id: "5B8026FA3958B68D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Lapin cru — minecraft"
+			tasks: [{
+				id: "4D01A8F0A8381ACE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:rabbit"
+				type: "observation"
+			}]
+			title: "Rencontrer Lapin cru"
+			x: 0.0d
+			y: 205.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:ravager_spawn_egg"
+			id: "5584DD37D4A07A1B"
+			optional: true
+			rewards: [{
+				id: "16B4389458D3AA64"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ravageur — minecraft"
+			tasks: [{
+				id: "775C73110FFB4011"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:ravager"
+				type: "observation"
+			}]
+			title: "Rencontrer Ravageur"
+			x: 0.0d
+			y: 207.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:salmon_spawn_egg"
+			id: "48C529D43AF95DB3"
+			optional: true
+			rewards: [{
+				id: "7A74578725063344"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Saumon cru — minecraft"
+			tasks: [{
+				id: "7EB8C728752DAE87"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:salmon"
+				type: "observation"
+			}]
+			title: "Rencontrer Saumon cru"
+			x: 0.0d
+			y: 208.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:sheep_spawn_egg"
+			id: "7AB22290DC3D3CEB"
+			optional: true
+			rewards: [{
+				id: "2328FD08E6FC2F33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mouton — minecraft"
+			tasks: [{
+				id: "2E3C07C4F1B3CA02"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sheep"
+				type: "observation"
+			}]
+			title: "Rencontrer Mouton"
+			x: 0.0d
+			y: 210.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:silverfish_spawn_egg"
+			id: "34E27BCF37CBAA1F"
+			optional: true
+			rewards: [{
+				id: "4CF56F63C1EE0EC0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson d'argent — minecraft"
+			tasks: [{
+				id: "6FFBEC48FAC792C5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:silverfish"
+				type: "observation"
+			}]
+			title: "Rencontrer Poisson d'argent"
+			x: 0.0d
+			y: 211.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:skeleton_spawn_egg"
+			id: "732A825D25EEC49F"
+			optional: true
+			rewards: [{
+				id: "024C06A247457344"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Squelette — minecraft"
+			tasks: [{
+				id: "10D0A5F439E5AF8C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:skeleton"
+				type: "observation"
+			}]
+			title: "Rencontrer Squelette"
+			x: 0.0d
+			y: 213.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:skeleton_horse_spawn_egg"
+			id: "19BA1B7D5DC0AF33"
+			optional: true
+			rewards: [{
+				id: "7CF52D7DA5517CAF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cheval-squelette — minecraft"
+			tasks: [{
+				id: "6E5F8E5FCFD56859"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:skeleton_horse"
+				type: "observation"
+			}]
+			title: "Rencontrer Cheval-squelette"
+			x: 0.0d
+			y: 214.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:slime_spawn_egg"
+			id: "0418AD4AD14B1388"
+			optional: true
+			rewards: [{
+				id: "0951CC8A8025581A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Slime — minecraft"
+			tasks: [{
+				id: "7D26CF4BFF9DCDE1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:slime"
+				type: "observation"
+			}]
+			title: "Rencontrer Slime"
+			x: 0.0d
+			y: 216.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:sniffer_spawn_egg"
+			id: "28AC205338AFCDA3"
+			optional: true
+			rewards: [{
+				id: "2478D3B9FDFF8724"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Renifleur — minecraft"
+			tasks: [{
+				id: "1A34A56ED0DF559F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sniffer"
+				type: "observation"
+			}]
+			title: "Rencontrer Renifleur"
+			x: 0.0d
+			y: 217.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:snow_golem_spawn_egg"
+			id: "0B299D2DD2CEA943"
+			optional: true
+			rewards: [{
+				id: "096CE1BC921AD16F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Golem de neige — minecraft"
+			tasks: [{
+				id: "3930FE4D065B9556"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:snow_golem"
+				type: "observation"
+			}]
+			title: "Rencontrer Golem de neige"
+			x: 0.0d
+			y: 219.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:spider_spawn_egg"
+			id: "7AE1940FA3ECEF15"
+			optional: true
+			rewards: [{
+				id: "0CE4B744A1A9EFC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Araignée — minecraft"
+			tasks: [{
+				id: "1327016B420688FD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:spider"
+				type: "observation"
+			}]
+			title: "Rencontrer Araignée"
+			x: 0.0d
+			y: 220.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:squid_spawn_egg"
+			id: "0AFA64A1EFB55AFF"
+			optional: true
+			rewards: [{
+				id: "366B1439F79227F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poulpe — minecraft"
+			tasks: [{
+				id: "7B528A07DB7D6217"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:squid"
+				type: "observation"
+			}]
+			title: "Rencontrer Poulpe"
+			x: 0.0d
+			y: 222.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:stray_spawn_egg"
+			id: "7C3F89E09AA68BD7"
+			optional: true
+			rewards: [{
+				id: "53A0AC2981A073B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Vagabond — minecraft"
+			tasks: [{
+				id: "6FD1E03818498CF3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:stray"
+				type: "observation"
+			}]
+			title: "Rencontrer Vagabond"
+			x: 0.0d
+			y: 223.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:tadpole_spawn_egg"
+			id: "46DCFA19A5962E32"
+			optional: true
+			rewards: [{
+				id: "21A6188A1BBEA9C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Têtard — minecraft"
+			tasks: [{
+				id: "66DBF3515182C494"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:tadpole"
+				type: "observation"
+			}]
+			title: "Rencontrer Têtard"
+			x: 0.0d
+			y: 225.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:trader_llama_spawn_egg"
+			id: "4B6F2B9B00FA08C8"
+			optional: true
+			rewards: [{
+				id: "1BE0E41FF2B542EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Lama de marchand — minecraft"
+			tasks: [{
+				id: "05737C69AD5B02DA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:trader_llama"
+				type: "observation"
+			}]
+			title: "Rencontrer Lama de marchand"
+			x: 0.0d
+			y: 226.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:tropical_fish_spawn_egg"
+			id: "5F2639790D7CDB5F"
+			optional: true
+			rewards: [{
+				id: "7EDDADBD8D403367"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson tropical — minecraft"
+			tasks: [{
+				id: "70332B1403B9BA97"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:tropical_fish"
+				type: "observation"
+			}]
+			title: "Rencontrer Poisson tropical"
+			x: 0.0d
+			y: 228.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:turtle_spawn_egg"
+			id: "1E1E48CAF4B2B525"
+			optional: true
+			rewards: [{
+				id: "56F0CDD76119124F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tortue — minecraft"
+			tasks: [{
+				id: "7CB34CCCA159DEE7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:turtle"
+				type: "observation"
+			}]
+			title: "Rencontrer Tortue"
+			x: 0.0d
+			y: 229.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:vex_spawn_egg"
+			id: "0C3A5CB683822E4B"
+			optional: true
+			rewards: [{
+				id: "441BFA52CEAD71FE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Vex — minecraft"
+			tasks: [{
+				id: "67EDC816EB456053"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:vex"
+				type: "observation"
+			}]
+			title: "Rencontrer Vex"
+			x: 0.0d
+			y: 231.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:villager_spawn_egg"
+			id: "4B28BA4E53211241"
+			optional: true
+			rewards: [{
+				id: "3A399866FD6B1EFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Villageois — minecraft"
+			tasks: [{
+				id: "77CD9CB54D16B18D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			title: "Rencontrer Villageois"
+			x: 0.0d
+			y: 232.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:vindicator_spawn_egg"
+			id: "38098F465301529B"
+			optional: true
+			rewards: [{
+				id: "49347254E263E34A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Vindicateur — minecraft"
+			tasks: [{
+				id: "4E212F71598452ED"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:vindicator"
+				type: "observation"
+			}]
+			title: "Rencontrer Vindicateur"
+			x: 0.0d
+			y: 234.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:wandering_trader_spawn_egg"
+			id: "50EAD01EC9B845F8"
+			optional: true
+			rewards: [{
+				id: "341DB30D4C4198D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Marchand ambulant — minecraft"
+			tasks: [{
+				id: "7340A4404D3F2C2B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wandering_trader"
+				type: "observation"
+			}]
+			title: "Rencontrer Marchand ambulant"
+			x: 0.0d
+			y: 235.5d
+		}
+		{
+			description: ["Aveugle, dans les cités anciennes des profondeurs. Il entend tout ; marcher accroupi et poser de la laine est la seule façon de passer. Le fuir vaut mieux que l'affronter."]
+			icon: "minecraft:warden_spawn_egg"
+			id: "5D42F3736D8D8599"
+			optional: true
+			rewards: [{
+				id: "3EEDA82BC73156A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Warden — minecraft"
+			tasks: [{
+				id: "0C13FF5CD0383FC4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:warden"
+				type: "observation"
+			}]
+			title: "Rencontrer le Warden"
+			x: 0.0d
+			y: 237.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:witch_spawn_egg"
+			id: "7DDDBA8976688EAA"
+			optional: true
+			rewards: [{
+				id: "42AEDE4252FCF374"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Sorcière — minecraft"
+			tasks: [{
+				id: "6FDCA4863F955EB2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:witch"
+				type: "observation"
+			}]
+			title: "Rencontrer Sorcière"
+			x: 0.0d
+			y: 238.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:wolf_spawn_egg"
+			id: "5939FD2A0C982F52"
+			optional: true
+			rewards: [{
+				id: "6956A2F25940A8E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Loup — minecraft"
+			tasks: [{
+				id: "205BF566459F3EBB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wolf"
+				type: "observation"
+			}]
+			title: "Rencontrer Loup"
+			x: 0.0d
+			y: 240.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:zombie_spawn_egg"
+			id: "787A6D2382166D88"
+			optional: true
+			rewards: [{
+				id: "3DBB3EA898732B65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Zombie — minecraft"
+			tasks: [{
+				id: "1B88C8E07BE669B8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:zombie"
+				type: "observation"
+			}]
+			title: "Rencontrer Zombie"
+			x: 0.0d
+			y: 241.5d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:zombie_horse_spawn_egg"
+			id: "42B1B67C1E27AE50"
+			optional: true
+			rewards: [{
+				id: "49BD97089312137B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cheval-zombie — minecraft"
+			tasks: [{
+				id: "34860EF42C3C8FAC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:zombie_horse"
+				type: "observation"
+			}]
+			title: "Rencontrer Cheval-zombie"
+			x: 0.0d
+			y: 243.0d
+		}
+		{
+			description: ["Créature du jeu de base."]
+			icon: "minecraft:zombie_villager_spawn_egg"
+			id: "7BFFD100ED15EEEA"
+			optional: true
+			rewards: [{
+				id: "2ABD529D2B3993A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Zombie-villageois — minecraft"
+			tasks: [{
+				id: "3720345FCE98F281"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:zombie_villager"
+				type: "observation"
+			}]
+			title: "Rencontrer Zombie-villageois"
+			x: 0.0d
+			y: 244.5d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu."]
+			icon: "mowziesmobs:bluff_spawn_egg"
+			id: "61CD2954CCEA4A6B"
+			optional: true
+			rewards: [{
+				id: "669F9F535F76A113"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bluff — mowziesmobs"
+			tasks: [{
+				id: "10C5EA6E7FA6A041"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:bluff"
+				type: "observation"
+			}]
+			title: "Rencontrer Bluff"
+			x: 0.0d
+			y: 246.0d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu."]
+			icon: "mowziesmobs:elokosa_howler_spawn_egg"
+			id: "3650954155ABECFE"
+			optional: true
+			rewards: [{
+				id: "7AEB54DC61CD4631"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Elokosa Howler — mowziesmobs"
+			tasks: [{
+				id: "48855D9FDD1B1275"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:elokosa_howler"
+				type: "observation"
+			}]
+			title: "Rencontrer Elokosa Howler"
+			x: 0.0d
+			y: 247.5d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu."]
+			icon: "mowziesmobs:foliaath_spawn_egg"
+			id: "33873BC4C8825738"
+			optional: true
+			rewards: [{
+				id: "581A11C03F3466CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Foliaath — mowziesmobs"
+			tasks: [{
+				id: "2F4BD7110629621E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:foliaath"
+				type: "observation"
+			}]
+			title: "Rencontrer Foliaath"
+			x: 0.0d
+			y: 249.0d
+		}
+		{
+			description: ["Un colosse endormi dans les biomes enneigés. Le réveiller sans préparation est une erreur : c'est un boss, et sa quête de combat est au chapitre Mowzie's Mobs."]
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "7B106C6E9CE67F09"
+			optional: true
+			rewards: [{
+				id: "05BB3DA7BEE97C48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Frostmaw — mowziesmobs"
+			tasks: [{
+				id: "0CD453EED132334D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:frostmaw"
+				type: "observation"
+			}]
+			title: "Rencontrer le Frostmaw"
+			x: 0.0d
+			y: 250.5d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu."]
+			icon: "mowziesmobs:grottol_spawn_egg"
+			id: "76F65CB2F747BA2D"
+			optional: true
+			rewards: [{
+				id: "5D0C5F17441E1E35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Grottol — mowziesmobs"
+			tasks: [{
+				id: "47E7EAE87B9E3CCA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:grottol"
+				type: "observation"
+			}]
+			title: "Rencontrer Grottol"
+			x: 0.0d
+			y: 252.0d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu."]
+			icon: "mowziesmobs:lantern_spawn_egg"
+			id: "7E247B3C27306FBE"
+			optional: true
+			rewards: [{
+				id: "05ECA18A0D67ABDD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Lanterne — mowziesmobs"
+			tasks: [{
+				id: "7F05D787AAF13655"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:lantern"
+				type: "observation"
+			}]
+			title: "Rencontrer Lanterne"
+			x: 0.0d
+			y: 253.5d
+		}
+		{
+			description: ["Un serpent volant des falaises côtières. Rien à voir avec la Naga de la Twilight Forest : celle-ci n'est pas un boss, et les faits d'armes ne l'annoncent pas."]
+			icon: "mowziesmobs:naga_spawn_egg"
+			id: "2C4C2630DA29FC1E"
+			optional: true
+			rewards: [{
+				id: "38C852641444D278"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Naga — mowziesmobs"
+			tasks: [{
+				id: "0C4969C94A47A877"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:naga"
+				type: "observation"
+			}]
+			title: "Rencontrer la Naga de Mowzie"
+			x: 0.0d
+			y: 255.0d
+		}
+		{
+			description: ["Tongbi, dans un monastère des pics gelés. Il propose une épreuve d'escalade plutôt qu'un combat."]
+			icon: "mowziesmobs:sculptor_spawn_egg"
+			id: "4B6727E9DF169770"
+			optional: true
+			rewards: [{
+				id: "38013BBB74567487"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tongbi, the Sculptor — mowziesmobs"
+			tasks: [{
+				id: "103F7E50F25D2F46"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:sculptor"
+				type: "observation"
+			}]
+			title: "Rencontrer le Sculpteur"
+			x: 0.0d
+			y: 256.5d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu."]
+			icon: "mowziesmobs:umvuthana_spawn_egg"
+			id: "6FD963A642B9E806"
+			optional: true
+			rewards: [{
+				id: "7D251EF46B0C0A9E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Umvuthana — mowziesmobs"
+			tasks: [{
+				id: "63ED0EA205D2955D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:umvuthana"
+				type: "observation"
+			}]
+			title: "Rencontrer Umvuthana"
+			x: 0.0d
+			y: 258.0d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu."]
+			icon: "mowziesmobs:umvuthana_crane_spawn_egg"
+			id: "23F7C88180E20B3F"
+			optional: true
+			rewards: [{
+				id: "35AADA23B94F80B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Umvuthana Crane — mowziesmobs"
+			tasks: [{
+				id: "7428B0A563EAD974"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:umvuthana_crane"
+				type: "observation"
+			}]
+			title: "Rencontrer Umvuthana Crane"
+			x: 0.0d
+			y: 259.5d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu."]
+			icon: "mowziesmobs:umvuthana_raptor_spawn_egg"
+			id: "44CFFF5E178738A1"
+			optional: true
+			rewards: [{
+				id: "6A258A461A7DABB7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Umvuthana Raptor — mowziesmobs"
+			tasks: [{
+				id: "2184144A5D17EF1D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:umvuthana_raptor"
+				type: "observation"
+			}]
+			title: "Rencontrer Umvuthana Raptor"
+			x: 0.0d
+			y: 261.0d
+		}
+		{
+			description: ["L'oiseau-soleil, sur son trône au cœur d'un village Umvuthana dans la savane. On peut lui parler avant de le combattre : ses fidèles vendent des masques."]
+			icon: "mowziesmobs:umvuthi_spawn_egg"
+			id: "0A0D392CD6F3D855"
+			optional: true
+			rewards: [{
+				id: "4B85395B3024562B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Umvuthi, the Sunbird — mowziesmobs"
+			tasks: [{
+				id: "0E18327536756807"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:umvuthi"
+				type: "observation"
+			}]
+			title: "Rencontrer Umvuthi"
+			x: 0.0d
+			y: 262.5d
+		}
+		{
+			description: ["Créature de &bQuark&r."]
+			icon: "quark:crab_spawn_egg"
+			id: "64A80C2B07129B4E"
+			optional: true
+			rewards: [{
+				id: "11C70DFD84C867B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crabe — quark"
+			tasks: [{
+				id: "127FA4F99A084EF8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:crab"
+				type: "observation"
+			}]
+			title: "Rencontrer Crabe"
+			x: 0.0d
+			y: 264.0d
+		}
+		{
+			description: ["Créature de &bQuark&r."]
+			icon: "quark:forgotten_spawn_egg"
+			id: "0B4DE42B93900D98"
+			optional: true
+			rewards: [{
+				id: "593FEB9A7089303C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Oublié — quark"
+			tasks: [{
+				id: "54F10A50C5D61FE4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:forgotten"
+				type: "observation"
+			}]
+			title: "Rencontrer Oublié"
+			x: 0.0d
+			y: 265.5d
+		}
+		{
+			description: ["Créature de &bQuark&r."]
+			icon: "quark:foxhound_spawn_egg"
+			id: "65C4E6D3A60DC498"
+			optional: true
+			rewards: [{
+				id: "4262C6BD4466F60A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Renard de feu — quark"
+			tasks: [{
+				id: "140ABD91E8E0CA30"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:foxhound"
+				type: "observation"
+			}]
+			title: "Rencontrer Renard de feu"
+			x: 0.0d
+			y: 267.0d
+		}
+		{
+			description: ["Créature de &bQuark&r."]
+			icon: "quark:shiba_spawn_egg"
+			id: "43B8CD690F775576"
+			optional: true
+			rewards: [{
+				id: "4579507309EFB0DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Shiba — quark"
+			tasks: [{
+				id: "61B8E7EE9DB3E9E3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:shiba"
+				type: "observation"
+			}]
+			title: "Rencontrer Shiba"
+			x: 0.0d
+			y: 268.5d
+		}
+		{
+			description: ["Créature de &bQuark&r."]
+			icon: "quark:stoneling_spawn_egg"
+			id: "4623C5C10B76F897"
+			optional: true
+			rewards: [{
+				id: "7B7A7549F4091C14"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Stoneling — quark"
+			tasks: [{
+				id: "13FA7AC8CCC38EBB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:stoneling"
+				type: "observation"
+			}]
+			title: "Rencontrer Stoneling"
+			x: 0.0d
+			y: 270.0d
+		}
+		{
+			description: ["Créature de &bQuark&r."]
+			icon: "quark:toretoise_spawn_egg"
+			id: "1BE32E78EA379064"
+			optional: true
+			rewards: [{
+				id: "20991D0A6775D4E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tortue — quark"
+			tasks: [{
+				id: "3498E2E0C980A5D0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:toretoise"
+				type: "observation"
+			}]
+			title: "Rencontrer Tortue"
+			x: 0.0d
+			y: 271.5d
+		}
+		{
+			description: ["Créature de &bQuark&r."]
+			icon: "quark:wraith_spawn_egg"
+			id: "610DB38ADEB72765"
+			optional: true
+			rewards: [{
+				id: "7F267AFBB3DB2495"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Spectre — quark"
+			tasks: [{
+				id: "7002A76DC4FF2AFB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:wraith"
+				type: "observation"
+			}]
+			title: "Rencontrer Spectre"
+			x: 0.0d
+			y: 273.0d
+		}
+		{
+			description: ["Illageois de &bTakes a Pillage&r."]
+			icon: "takesapillage:archer_spawn_egg"
+			id: "006D7577AE9B3ECA"
+			optional: true
+			rewards: [{
+				id: "6BD2D1D559BB6B7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Archer — takesapillage"
+			tasks: [{
+				id: "602B8853228F8E62"
+				observe_type: 5
+				timer: 0L
+				to_observe: "takesapillage:archer"
+				type: "observation"
+			}]
+			title: "Rencontrer Archer"
+			x: 0.0d
+			y: 274.5d
+		}
+		{
+			description: ["Illageois de &bTakes a Pillage&r."]
+			icon: "takesapillage:legioner_spawn_egg"
+			id: "6F83EC368250FA0E"
+			optional: true
+			rewards: [{
+				id: "29B82EFB60F81858"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Legioner — takesapillage"
+			tasks: [{
+				id: "2E44E70BEBB91148"
+				observe_type: 5
+				timer: 0L
+				to_observe: "takesapillage:legioner"
+				type: "observation"
+			}]
+			title: "Rencontrer Legioner"
+			x: 0.0d
+			y: 276.0d
+		}
+		{
+			description: ["Illageois de &bTakes a Pillage&r."]
+			icon: "takesapillage:skirmisher_spawn_egg"
+			id: "030315A26E297E0D"
+			optional: true
+			rewards: [{
+				id: "1874D276B49DA300"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Skirmisher — takesapillage"
+			tasks: [{
+				id: "6222CB87E226132C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "takesapillage:skirmisher"
+				type: "observation"
+			}]
+			title: "Rencontrer Skirmisher"
+			x: 0.0d
+			y: 277.5d
+		}
+		{
+			dependencies: [
+				"7323E1C57F41BA4D"
+				"2AAABA030A3A591C"
+				"458F67002EC7E395"
+				"4C656275CBBB17FA"
+				"32090BA1E882D2FA"
+				"263C919BC3222CDD"
+				"655C5FC6460ACF4C"
+				"7F4A6773CD1EF19C"
+				"576CC2561588CAEE"
+				"72D1D022DFBAF1DE"
+				"0587CFA0E1E4F0D3"
+				"3A77F38FD5CEDC66"
+				"148DF634940C7F94"
+				"36979E1CDB692941"
+				"68CA0CFFE7AB99C8"
+				"64A875134599CA6B"
+				"0B32FFE623CCC13C"
+				"03BC00CE7FB9A848"
+				"3A01091F4BCE389F"
+				"694A97733E38557C"
+				"25B2B003F9D9CD78"
+				"7E9F8AF274AFF400"
+				"38D49E305A9C9590"
+				"2EF6C0938FC2293A"
+				"3BAB670DE16858D5"
+				"2ECB65B9E8A39A01"
+				"3ACE9651F6F7B499"
+				"6F2B6DB7D4EE922B"
+				"1B0C579483E4B3C0"
+				"28ACF8FB1C976869"
+				"545FAD84D65694F6"
+				"60A59961629ED455"
+				"7A9DE7698B1C49F8"
+				"3C6A8BF6CC43AC42"
+				"7A950024E86C7E28"
+				"448A85E805F28332"
+				"406CDF552EEC715B"
+				"4CD10259EA26AC63"
+				"219A62A1B0157369"
+				"2A13B963EC96CA0F"
+				"6F5FB25EC952F97B"
+				"680195BDC71538FD"
+				"032B1FF599DB25E3"
+				"3EBA1AA55C4FAA47"
+				"57389952D538D1D7"
+				"7D831882EBBFCE09"
+				"3FC1CAF6FD1F46E8"
+				"01BC52C4232D7BFA"
+				"791611254E828FDA"
+				"24FC0E5BBECAEDDD"
+				"658E4C2DE4A06974"
+				"6350981D1BB12195"
+				"3D89F8F400249FF0"
+				"18FEFD4E1034B5B5"
+				"26C7AA50F37A6460"
+				"36749D86D0E5E0D4"
+				"24D83D361D5BA790"
+				"6E46216B2E35B409"
+				"317F11B49F07C8F2"
+				"5A3395E511DA50B8"
+				"374039BEBFCAA257"
+				"361D452A0A22D4A4"
+				"2E95CADCD2FC61B5"
+				"16D5C1CDD8D02A07"
+				"13CDBAD4B1D92305"
+				"4C71BB99654A23B3"
+				"32283E7354266ECA"
+				"67FB653C6414EDDC"
+				"5A4E984595968423"
+				"76921261F3FC5F75"
+				"79D1965DA6029779"
+				"39A207AE7E2AD035"
+				"1D86B4B9EAB9D42C"
+				"5F058185FCE6946F"
+				"343E97277F19B675"
+				"7B5442530FC8174D"
+				"78D1A0B2A0209735"
+				"08723A8E30D1FC56"
+				"20B77CC91296CCBC"
+				"42C0A78A9BA3A42D"
+				"4736513B7072D5A9"
+				"4AC79DAB7F943170"
+				"28EEE3031EF8E14D"
+				"0CD6B53438F920C5"
+				"1A8D0B91ADE3CEA7"
+				"3C87EEAE5D6994D6"
+				"13607B73B93FFD2B"
+				"565CDFD16E7065EF"
+				"7EA84719F22FA877"
+				"669EF42C34407DF8"
+				"1D7DEA6EDF138EE2"
+				"793CF6B4C5D93F5C"
+				"5BB2F4761C963A98"
+				"6B567E6344BDB50C"
+				"4657B650ABAFF27C"
+				"442AE93471182BD1"
+				"7040C19F8A4A0034"
+				"1F58602DF509AC94"
+				"1B1FC0751A720A05"
+				"01983BFAD429BE34"
+				"49BB4161AFB6F3CB"
+				"2B0F74C5E2065685"
+				"3CCCD0DDC98209DB"
+				"015F94CCFA79D30C"
+				"36C11D6D5BDF48C9"
+				"14F149D73EB66E69"
+				"6ECA9ADE95C68E79"
+				"2FDD73A2C75C7DD0"
+				"05AEBBC0AABBCD5C"
+				"3481FC249515DE8C"
+				"44833CC3BD243B3C"
+				"425EE25F52D0B7DB"
+				"698DC0216122757F"
+				"7AA438F59F793675"
+				"6D0C6240D6312B56"
+				"13B86FCD8CC751AE"
+				"045AC5B0885C5DF2"
+				"53D302F8A8F34641"
+				"3E26539078EF6A2B"
+				"1484044832795C37"
+				"05498FADAFF778B4"
+				"3B8DA1396457AFAD"
+				"122D6496E45EB7BA"
+				"274BEDFBF0F7BD0F"
+				"57E7BE5A96142F72"
+				"1968944A56707DC6"
+				"39A4E0F58950A861"
+				"0D1EE7AC558DDA8F"
+				"14E168554550CE5C"
+				"604CA2081588FD58"
+				"797F2FB67B416D8B"
+				"3C6148877925F003"
+				"6D1373832E1567C6"
+				"597C41B7677866C0"
+				"058E300B71E05E8E"
+				"5A9455D83202F866"
+				"5584DD37D4A07A1B"
+				"48C529D43AF95DB3"
+				"7AB22290DC3D3CEB"
+				"34E27BCF37CBAA1F"
+				"732A825D25EEC49F"
+				"19BA1B7D5DC0AF33"
+				"0418AD4AD14B1388"
+				"28AC205338AFCDA3"
+				"0B299D2DD2CEA943"
+				"7AE1940FA3ECEF15"
+				"0AFA64A1EFB55AFF"
+				"7C3F89E09AA68BD7"
+				"46DCFA19A5962E32"
+				"4B6F2B9B00FA08C8"
+				"5F2639790D7CDB5F"
+				"1E1E48CAF4B2B525"
+				"0C3A5CB683822E4B"
+				"4B28BA4E53211241"
+				"38098F465301529B"
+				"50EAD01EC9B845F8"
+				"5D42F3736D8D8599"
+				"7DDDBA8976688EAA"
+				"5939FD2A0C982F52"
+				"787A6D2382166D88"
+				"42B1B67C1E27AE50"
+				"7BFFD100ED15EEEA"
+				"61CD2954CCEA4A6B"
+				"3650954155ABECFE"
+				"33873BC4C8825738"
+				"7B106C6E9CE67F09"
+				"76F65CB2F747BA2D"
+				"7E247B3C27306FBE"
+				"2C4C2630DA29FC1E"
+				"4B6727E9DF169770"
+				"6FD963A642B9E806"
+				"23F7C88180E20B3F"
+				"44CFFF5E178738A1"
+				"0A0D392CD6F3D855"
+				"64A80C2B07129B4E"
+				"0B4DE42B93900D98"
+				"65C4E6D3A60DC498"
+				"43B8CD690F775576"
+				"4623C5C10B76F897"
+				"1BE32E78EA379064"
+				"610DB38ADEB72765"
+				"006D7577AE9B3ECA"
+				"6F83EC368250FA0E"
+				"030315A26E297E0D"
+			]
+			description: ["Toutes les créatures de l'Overworld rencontrées. La récompense est symbolique : c'est la quête qui compte."]
+			icon: "minecraft:creeper_head"
+			id: "469904B021135114"
+			rewards: [{
+				id: "372EE8A00DD20F21"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6470C89DF9267967"
+				title: "Bestiaire complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le bestiaire de l'Overworld"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "&7Bestiaire — Overworld"
+}

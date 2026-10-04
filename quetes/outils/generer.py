@@ -378,7 +378,7 @@ def main(argv):
         if os.path.basename(racine) == 'notes':
             continue
         for f in sorted(fichiers):
-            if f.endswith('.toml') and f not in ('tables.toml', 'groupes.toml', 'livre.toml'):
+            if f.endswith('.toml') and f not in ('tables.toml', 'groupes.toml', 'livre.toml', 'exclusions.toml'):
                 chapitres.append(os.path.join(racine, f))
     if cibles:
         chapitres = [c for c in chapitres if os.path.splitext(os.path.basename(c))[0] in cibles]

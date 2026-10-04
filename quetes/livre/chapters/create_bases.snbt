@@ -1,0 +1,584 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_bases"
+	group: "14858825A29975B1"
+	icon: "create:cogwheel"
+	id: "51F9BEE056A6AD86"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bCreate&r remplace l'électricité par la &lrotation&r : une roue tourne, un arbre transmet, une machine travaille. Tout se voit, tout s'entend, et tout se construit avec de l'andésite et du cuivre."
+				""
+				"Deux réflexes à prendre : la touche &bW&r en survolant un bloc Create ouvre &lPonder&r, une animation qui montre comment il s'utilise ; et la &6clé&r (wrench) tourne ou démonte n'importe quel composant."
+				""
+				"Les seize alliages d'andésite offerts suffisent aux premiers arbres et engrenages."
+			]
+			icon: "create:cogwheel"
+			id: "77577F8D93529C42"
+			rewards: [{
+				count: 16
+				id: "6431555BF0DC1126"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide complet dans #create sur le Discord."
+			tasks: [{
+				id: "178FFA20A8282CB1"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bCreate : la force de rotation"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77577F8D93529C42"]
+			description: ["Le &7zinc&r est le minerai propre à Create. Il se trouve dans la pierre comme le fer, souvent en veines près de la surface. Avec le cuivre, il donne le laiton ; seul, il entre dans l'alliage d'andésite."]
+			icon: "create:raw_zinc"
+			id: "69AB137697EFC3A4"
+			rewards: [{
+				id: "6741E0083B4FA5CD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "2DD96B7EA31A1C8D"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			title: "Du zinc brut"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69AB137697EFC3A4"]
+			description: [
+				"L'&7alliage d'andésite&r se fabrique à la table : andésite et pépites de fer ou de zinc. C'est la matière première de presque tout le début de Create : arbres, engrenages, boîtiers, courroies."
+				""
+				"Plus tard, un mélangeur le produira en quantité ; pour l'instant, la table suffit."
+			]
+			icon: "create:andesite_alloy"
+			id: "041FB6D57859FC5B"
+			rewards: [{
+				id: "6D34582503E7DC06"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 16L
+				id: "5E204188B442843A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Fabriquer de l'alliage d'andésite"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["041FB6D57859FC5B"]
+			description: ["L'&7arbre&r transmet la rotation en ligne droite, sans changer ni la vitesse ni le sens. Huit alliages en donnent huit. C'est le bloc le plus posé de tout Create."]
+			icon: "create:shaft"
+			id: "677600E1EAED774E"
+			rewards: [{
+				id: "5BDC39AFB17F2BF2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "5229640F30E5EA79"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Des arbres de transmission"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["677600E1EAED774E"]
+			description: ["Deux &7engrenages&r côte à côte tournent en sens inverse. Un petit contre un grand change la vitesse : &lpetit vers grand&r divise par deux, grand vers petit double. C'est la seule boîte de vitesses des débuts."]
+			icon: "create:cogwheel"
+			id: "446B4BDCEFAD7B62"
+			rewards: [{
+				id: "03F822A38D4077D1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "65914EF015B9777E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6C31636B1BA6062E"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Des engrenages"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["677600E1EAED774E"]
+			description: ["La &7manivelle&r se tourne à la main (clic droit maintenu) et donne un peu de rotation, le temps de tester une machine ou de dépanner. Elle creuse la faim : ce n'est pas une source d'énergie, c'est un outil."]
+			icon: "create:hand_crank"
+			id: "664C4F8E5351980F"
+			rewards: [{
+				id: "2EE0F1717602EE52"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7B914BE340E88D3E"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Une manivelle"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["446B4BDCEFAD7B62"]
+			description: [
+				"La &broue hydraulique&r est la première vraie source : un courant d'eau qui la frôle la fait tourner. Plus d'eau sur ses pales, plus de force. La &lgrande roue&r (large water wheel) fait mieux, pour trois fois le bois."
+				""
+				"Un seau d'eau au-dessus d'une roue de 1 bloc suffit à lancer un moulin ou une presse."
+			]
+			icon: "create:water_wheel"
+			id: "07EE8A00542E0E88"
+			rewards: [{
+				id: "0ED5BC81EF10A4E1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "59CDFF4751513121"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Une roue hydraulique"
+			x: 10.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["446B4BDCEFAD7B62"]
+			description: [
+				"Le &bpalier de moulin&r assemble les blocs posés dessus en une roue de voiles. Au moins huit &fvoiles&r, et il tourne tout seul, sans eau. Plus de voiles, plus de force : c'est la source gratuite des grandes bases, à condition d'avoir le ciel."
+				""
+				"La laine fait aussi des voiles, dans n'importe quelle couleur."
+			]
+			icon: "create:windmill_bearing"
+			id: "4E76D78B815BCE0C"
+			rewards: [{
+				id: "222322EFF4058646"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "70252FD11A6C9925"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7DB9132FCDE5A787"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Un moulin à vent"
+			x: 10.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["446B4BDCEFAD7B62"]
+			description: ["La &7boîte de vitesses&r sort la rotation sur quatre faces. L'&7embrayage&r la coupe sur un signal redstone, l'&7inverseur&r la retourne. Avec ces trois blocs, on pilote une machine depuis un levier."]
+			icon: "create:gearbox"
+			id: "338C537B21FEEC62"
+			rewards: [{
+				id: "7B80328083DC8A3C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "66B4E877404BD0BD"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "5990531D117EFC13"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					id: "2AB5F834DD556946"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			title: "Boîte de vitesses, embrayage, inverseur"
+			x: 10.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["677600E1EAED774E"]
+			description: [
+				"Une &7courroie&r relie deux arbres distants et transporte des objets dessus. Clic droit avec la courroie sur le premier arbre, puis sur le second, jusqu'à vingt blocs."
+				""
+				"Sans courroie, il n'y a pas de chaîne de production."
+			]
+			icon: "create:belt"
+			id: "636C2748D2B6A997"
+			rewards: [{
+				id: "49516C410D52F786"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "020F1141C5381EEF"
+				item: "create:belt"
+				type: "item"
+			}]
+			title: "Une courroie"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["041FB6D57859FC5B"]
+			description: [
+				"La &6clé&r démonte un composant Create d'un clic et le tourne d'un clic accroupi. Les &6lunettes&r, portées, affichent la vitesse et la contrainte d'un réseau quand on le regarde."
+				""
+				"La &ccontrainte&r est la notion à comprendre : chaque machine consomme de la force, chaque source en fournit une quantité limitée. Trop de machines sur une roue, et tout s'arrête."
+			]
+			icon: "create:wrench"
+			id: "550D681995264D46"
+			rewards: [{
+				id: "4F4B721FDEA72815"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "133C347C1E9749B8"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "3B00F99A5B0293E9"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "La clé et les lunettes"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07EE8A00542E0E88"
+				"4E76D78B815BCE0C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"La &bpresse mécanique&r écrase ce qui passe dessous : un lingot devient une &7plaque&r, et au-dessus d'un bassin elle compacte (neuf lingots en un bloc, ou de la pâte en briques). C'est la première machine qui transforme vraiment."
+				""
+				"Elle se pose au-dessus d'un dépôt ou d'une courroie, alimentée par un engrenage sur le côté."
+			]
+			icon: "create:mechanical_press"
+			id: "7860B5E09501EEF6"
+			rewards: [{
+				id: "3C68F4CB3B19B235"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "3BFAB1F1A5066062"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Fabriquer une presse mécanique"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7860B5E09501EEF6"]
+			description: ["Le &bmélangeur&r, posé au-dessus d'un &7bassin&r, combine des objets et des liquides : alliage d'andésite en série, laiton, pâte, et bien d'autres recettes qui n'existent que là. Il demande plus de vitesse qu'une presse."]
+			icon: "create:mechanical_mixer"
+			id: "6F2CB044F32D0D6B"
+			rewards: [{
+				id: "49D5D6957FF55C5D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "0C4923C50C2230A0"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			title: "Fabriquer un mélangeur"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7860B5E09501EEF6"]
+			description: ["Le &7bassin&r reçoit objets et liquides pour la presse et le mélangeur, et vide son résultat sur le côté vers une courroie ou un dépôt. Le &7dépôt&r, lui, est un simple plateau : une courroie y dépose, une machine y travaille."]
+			icon: "create:basin"
+			id: "67C4A22BB63DEE36"
+			rewards: [{
+				id: "79FA61932AD62852"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "17E4F2E8849B7D2D"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "5A901E653ABB1BC0"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "Un bassin et un dépôt"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["446B4BDCEFAD7B62"]
+			description: [
+				"La &bmeule&r moud lentement : blé en farine, os en poudre, gravier en silex. On y verse à la main ou par entonnoir, et un entonnoir en dessous récupère."
+				""
+				"C'est la machine la plus simple de Create, et une manivelle suffit à la lancer."
+			]
+			icon: "create:millstone"
+			id: "3DE8E6C740E24CE0"
+			rewards: [{
+				id: "7C4E64410A17597C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0F353FFAAD973128"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Fabriquer une meule"
+			x: 10.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7860B5E09501EEF6"]
+			description: [
+				"Deux &broues de broyage&r face à face, tournant l'une vers l'autre, broient ce qu'on jette entre elles. Un minerai brut donne du &7minerai concassé&r, et le concassé lavé donne &lplus de lingots&r que la cuisson directe."
+				""
+				"C'est ici que Create rentabilise la mine. Les deux roues doivent tourner en sens opposé : vérifie avec les lunettes."
+			]
+			icon: "create:crushing_wheel"
+			id: "24201345002DA676"
+			rewards: [{
+				id: "3082D14FB07E0D45"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				count: 2L
+				id: "7740F82BDE111F14"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Des roues de broyage"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["446B4BDCEFAD7B62"]
+			description: ["Le &7ventilateur encastré&r souffle de l'air à travers le bloc qu'il a devant lui. Ce que l'air traverse décide de l'effet : de l'eau lave, du feu cuit, de la lave fond, de la flamme d'âme hante. Trois quêtes suivent, une par effet."]
+			icon: "create:encased_fan"
+			id: "42EFCEBE28FB79E2"
+			rewards: [{
+				id: "5EC7076A2C182E0A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5A7AB6D17A4EFC79"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Un ventilateur encastré"
+			x: 10.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["42EFCEBE28FB79E2"]
+			description: ["Un ventilateur qui souffle à travers de l'&beau&r lave ce qui est posé devant. Du sable devient de l'argile, du gravier du silex, et le &7minerai concassé&r devient des pépites, avec un bonus. Quatre boules d'argile prouvent le montage."]
+			icon: "minecraft:clay_ball"
+			id: "380A3313B8FD6C2A"
+			rewards: [{
+				id: "74D3D08EE127CB52"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "7066ADCAD69FA7DF"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "Laver au ventilateur"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42EFCEBE28FB79E2"]
+			description: ["À travers du &6feu&r ou un feu de camp, l'air cuit la nourriture, en continu et sans combustible. Une courroie qui passe devant, et la viande ressort cuite."]
+			icon: "minecraft:cooked_beef"
+			id: "3F85203B9D870B80"
+			rewards: [{
+				id: "487ABF0C008F25FB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "62A50021160B24F3"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			title: "Fumer au ventilateur"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42EFCEBE28FB79E2"]
+			description: ["À travers un &3feu d'âme&r, l'air hante : le sable des âmes devient de la terre des âmes, et quelques objets changent de nature. Le feu d'âme se fait avec du sable des âmes sous la flamme, ramené du Nether."]
+			icon: "minecraft:soul_soil"
+			id: "0E9DE9392259B53D"
+			rewards: [{
+				id: "7B997422758F3483"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "33D19EBBC6BD0620"
+				item: "minecraft:soul_soil"
+				type: "item"
+			}]
+			title: "Hanter au ventilateur"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["636C2748D2B6A997"]
+			description: ["L'&7entonnoir&r fait entrer ou sortir des objets d'une courroie, d'un dépôt ou d'un coffre. Le &7tunnel&r couvre une courroie et permet de brancher des entonnoirs sur les côtés. Avec eux, une chaîne ne demande plus de main."]
+			icon: "create:andesite_funnel"
+			id: "3ED55B5357CAF201"
+			rewards: [{
+				id: "61D08DC4B43D0BAC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "2D25F6EF86D27269"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "30D74FBF1BCDA62E"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+			]
+			title: "Entonnoir et tunnel en andésite"
+			x: 10.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3ED55B5357CAF201"]
+			description: ["La &7goulotte&r fait descendre les objets d'un bloc à l'autre à la verticale, sans courroie. Sous une meule ou un concasseur, elle amène tout dans un coffre."]
+			icon: "create:chute"
+			id: "185C416130E625F6"
+			rewards: [{
+				id: "686CD32CB07F9863"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "046F08232CF9D8A0"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Une goulotte"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["041FB6D57859FC5B"]
+			description: ["Le &7boîtier d'andésite&r se fait en frappant une bûche écorcée avec de l'alliage. Il encase les arbres et les engrenages, et entre dans la plupart des machines de ce chapitre."]
+			icon: "create:andesite_casing"
+			id: "5737C9C421A4D50F"
+			rewards: [{
+				id: "0512785DD7DF0F74"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "76E5E70DDCBE1F71"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Des boîtiers d'andésite"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"24201345002DA676"
+				"380A3313B8FD6C2A"
+				"3ED55B5357CAF201"
+			]
+			description: [
+				"Un concasseur, un lavage, des entonnoirs et une courroie : la mine rend davantage sans que personne ne touche à rien. C'est le cœur de Create, et le reste n'est que des machines en plus."
+				""
+				"La suite, &bCreate — fabrication avancée&r : le laiton, le mécanisme de précision, le bras mécanique, le moteur à vapeur."
+			]
+			icon: "create:mechanical_press"
+			id: "1B825DCF01D09A91"
+			rewards: [{
+				id: "5687E61D7B8981F9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "64C9AE3C218F13D4"
+				title: "Ma chaîne tourne"
+				type: "checkmark"
+			}]
+			title: "&bPremière chaîne de production"
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+	title: "&bCreate — les bases"
+}
