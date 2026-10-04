@@ -1,0 +1,567 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_fabrication"
+	group: "14858825A29975B1"
+	icon: "create:precision_mechanism"
+	id: "24A407690416C225"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Les bases tournaient à l'andésite. La suite tourne au &6laiton&r : un alliage de cuivre et de zinc qui ne se fait qu'au mélangeur chauffé, et qui ouvre les machines qui pensent un peu — le bras mécanique, le déployeur, les établis mécaniques."
+				""
+				"Le zinc et le cuivre offerts font les premiers lingots de laiton. Le brûleur à Blaze, lui, demandera un voyage au Nether."
+			]
+			icon: "create:brass_ingot"
+			id: "6D5CCFAB7E6EF69C"
+			rewards: [
+				{
+					count: 8
+					id: "78EA6D62463163F7"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "099B41C868463CC4"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Après les bases : #create sur le Discord."
+			tasks: [{
+				id: "69AC8AB39BE7E9E7"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bCreate : le laiton et la précision"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D5CCFAB7E6EF69C"]
+			description: ["Quatre plaques de fer autour d'un bloc de netherrack. Vide, il ne chauffe rien : il faut lui donner un &cBlaze&r. Clic droit sur un Blaze vivant avec le brûleur vide, dans une forteresse du Nether, et le Blaze y reste."]
+			icon: "create:empty_blaze_burner"
+			id: "3E745CD13FBB0280"
+			rewards: [{
+				id: "008652273B074CF0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "13162EFA12533611"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "Un brûleur à Blaze vide"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3E745CD13FBB0280"]
+			description: ["Un &cbrûleur à Blaze&r habité chauffe le bassin posé dessus : c'est lui qui rend possible le laiton, et plus tard le moteur à vapeur. Il se nourrit de combustible ordinaire ; nourri d'un gâteau de Blaze, il surchauffe, et certaines recettes l'exigent."]
+			icon: "create:blaze_burner"
+			id: "21D067244E8FF425"
+			rewards: [{
+				id: "18CDF72A44887C4A"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "4CF6DAB1D50910AE"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Capturer un Blaze"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["21D067244E8FF425"]
+			description: [
+				"Dans un bassin chauffé par un brûleur, le mélangeur combine un lingot de cuivre et un lingot de zinc en &6deux lingots de laiton&r. Pas de laiton sans chaleur : le mélangeur seul ne suffit pas."
+				""
+				"Le laiton fait les plaques, les boîtiers et les mains de laiton de tout ce chapitre."
+			]
+			icon: "create:brass_ingot"
+			id: "5A9FF5550F6FAF3F"
+			rewards: [{
+				id: "31D599DF111A60AB"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				count: 8L
+				id: "0CB8339AD076DB72"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Fondre du laiton"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A9FF5550F6FAF3F"]
+			description: ["Comme le boîtier d'andésite, mais au laiton : frapper une bûche écorcée avec un lingot de laiton. Le régulateur de vitesse, le bras et les établis mécaniques en demandent."]
+			icon: "create:brass_casing"
+			id: "40AC84CB42D37D77"
+			rewards: [{
+				id: "1E4DDD005EF22FE8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "4DA0759EC2EC62BE"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Des boîtiers de laiton"
+			x: 8.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6D5CCFAB7E6EF69C"]
+			description: ["Le &dquartz rose&r se fabrique avec un quartz et huit poudres de redstone, puis se polit au &7papier de verre&r (clic droit maintenu, ou un déployeur qui tient le papier). C'est le cœur du tube électronique."]
+			icon: "create:polished_rose_quartz"
+			id: "720C842E3EA107D2"
+			rewards: [{
+				id: "1E8E5D573B21B4EE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "2582470DB395D187"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "Du quartz rose poli"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["720C842E3EA107D2"]
+			description: ["Un quartz rose poli sur une plaque de fer : un &btube électronique&r. Le déployeur, les établis mécaniques et la liaison redstone en ont besoin."]
+			icon: "create:electron_tube"
+			id: "7463586C7BBC36AD"
+			rewards: [{
+				id: "77E163065F563C2A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "65FCB890CA45CC6F"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Des tubes électroniques"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"7463586C7BBC36AD"
+				"5A9FF5550F6FAF3F"
+			]
+			description: ["Tube électronique, boîtier d'andésite et main de laiton. Le &bdéployeur&r fait un clic droit à ta place, en boucle, avec l'objet qu'on lui donne : il plante, récolte, polit le quartz, et c'est lui qui assemble le mécanisme de précision."]
+			icon: "create:deployer"
+			id: "67166E08215B7EC0"
+			rewards: [{
+				id: "78891C2117D3AFB0"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "664B6612A7E49959"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Fabriquer un déployeur"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["67166E08215B7EC0"]
+			description: [
+				"Le premier &lassemblage séquencé&r. Une plaque d'or part sur une courroie, et &l5 fois&r de suite elle passe sous un déployeur qui pose un engrenage, puis un grand engrenage, puis une pépite de fer. Au bout, un &bmécanisme de précision&r — ou, parfois, un rebut : plaque d'or, alliage, engrenage, pépite. La recette l'assume."
+				""
+				"Ce mécanisme ouvre le régulateur de vitesse, le bras mécanique et les trains."
+			]
+			icon: "create:precision_mechanism"
+			id: "41788443C4AA1BC0"
+			rewards: [{
+				id: "6D2A1E2B9A28CD00"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2D1B094481CE1D39"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Assembler un mécanisme de précision"
+			x: 10.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"41788443C4AA1BC0"
+				"40AC84CB42D37D77"
+			]
+			description: ["Mécanisme de précision sur boîtier de laiton. Posé sous un grand engrenage, le &brégulateur&r fixe la vitesse de sortie au chiffre qu'on lui donne, quelle que soit l'entrée. Fini les montages d'engrenages pour trouver la bonne vitesse."]
+			icon: "create:rotation_speed_controller"
+			id: "2B184676D082B58D"
+			rewards: [{
+				id: "17071269FB036103"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7E6DE3084C83FEAB"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Un régulateur de vitesse"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5A9FF5550F6FAF3F"]
+			description: ["Le &7compteur de vitesse&r affiche la rotation d'un réseau, le &7stressomètre&r la part de contrainte utilisée. Avec les lunettes, on lit les deux en les regardant. Un réseau à plus de 100 % s'arrête net : le stressomètre le dit avant."]
+			icon: "create:speedometer"
+			id: "0F11AE9B7017E9DD"
+			rewards: [{
+				id: "71ADCD39BB512094"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "25CD7A95FE3BC90F"
+					item: "create:speedometer"
+					type: "item"
+				}
+				{
+					id: "6CC07A9ED25082B2"
+					item: "create:stressometer"
+					type: "item"
+				}
+			]
+			title: "Mesurer vitesse et contrainte"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"41788443C4AA1BC0"
+				"40AC84CB42D37D77"
+			]
+			description: ["Plaques de laiton, alliage, mécanisme de précision, boîtier de laiton. Le &bbras mécanique&r prend des objets à des points d'entrée et les dépose à des points de sortie qu'on lui désigne avec le bras en main avant de le poser : dépôts, courroies, bassins, brûleurs. C'est le premier bloc qui remplace un entonnoir et une courroie à la fois."]
+			icon: "create:mechanical_arm"
+			id: "5F40B748B212C67C"
+			rewards: [{
+				id: "456111DCF500CB10"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "582D3B9B27E029C0"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Fabriquer un bras mécanique"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"7463586C7BBC36AD"
+				"40AC84CB42D37D77"
+			]
+			description: ["Tube électronique, boîtier de laiton, table d'artisanat : trois &bétablis mécaniques&r par recette. Posés en grille et reliés par des engrenages, ils fabriquent une recette à la fois, chaque case étant alimentée par un entonnoir ou un bras. Neuf établis font une grille complète."]
+			icon: "create:mechanical_crafter"
+			id: "64978632D2219675"
+			rewards: [{
+				id: "572B157AC013FD74"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 9L
+				id: "381AF10CBAD68CCC"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Des établis mécaniques"
+			x: 10.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6D5CCFAB7E6EF69C"]
+			description: ["Plaques de fer, lingot de fer, boîtier d'andésite. Posée à l'horizontale, la &bscie&r coupe les bûches qui passent devant elle en planches, et débite les arbres entiers quand on la monte sur une contraption. À la verticale, elle abat ce qui pousse devant elle."]
+			icon: "create:mechanical_saw"
+			id: "22114C7AF7F45511"
+			rewards: [{
+				id: "40FBC6ECC7CAC2B6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5F141D57ED57EE30"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Une scie mécanique"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D5CCFAB7E6EF69C"]
+			description: ["Alliage, lingot de fer, boîtier d'andésite. La &bforeuse&r casse le bloc devant elle, en continu. Sur un piston ou un portique, elle creuse un tunnel ; sur un roulement, elle creuse un puits."]
+			icon: "create:mechanical_drill"
+			id: "483D4DF60760D72B"
+			rewards: [{
+				id: "247BBB66D2ED5744"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "29065AB09A288B62"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Une foreuse mécanique"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D5CCFAB7E6EF69C"]
+			description: ["Dalle de bois, boîtier d'andésite, tige d'extension. Le &bpiston mécanique&r pousse une &lcontraption&r — un ensemble de blocs collés — aussi loin qu'il a de tiges derrière lui. Avec une foreuse devant, c'est une machine à tunnel."]
+			icon: "create:mechanical_piston"
+			id: "12EA9566B6898E0E"
+			rewards: [{
+				id: "2C109C8D06EDDEF7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "35B05248E7571A22"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B28A0F14718B2BA"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+			]
+			title: "Un piston mécanique"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D5CCFAB7E6EF69C"]
+			description: ["Dalle de bois, boîtier d'andésite, arbre. Le &broulement&r fait tourner la contraption posée dessus : une porte qui pivote, une moissonneuse circulaire, un moulin décoratif."]
+			icon: "create:mechanical_bearing"
+			id: "74EEC07055B2D8AF"
+			rewards: [{
+				id: "53419B7685DC0C50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1EB1341210B9BEF9"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Un roulement mécanique"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12EA9566B6898E0E"]
+			description: ["Les &7arbres de portique&r (alliage, redstone, alliage : huit d'un coup) forment un rail ; le &7chariot de portique&r roule dessus et emporte sa contraption. Plus long qu'un piston, et sans tiges à empiler."]
+			icon: "create:gantry_shaft"
+			id: "185A2BFECDD0BD21"
+			rewards: [{
+				id: "5B3BFEF28F40BC50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "1D77C8203A7A50E1"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+				{
+					id: "3C6A0E69A9604FBA"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+			]
+			title: "Un portique"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["12EA9566B6898E0E"]
+			dependency_requirement: "one_completed"
+			description: ["La &esuper colle&r définit ce qu'une contraption emporte : clic sur deux coins, tout le volume entre les deux est collé. Sans elle, un piston ne pousse que les blocs directement attachés."]
+			icon: "create:super_glue"
+			id: "4093DBB73A8E27A1"
+			rewards: [{
+				id: "6D646C3169C257EF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "31DE9A7B9E31C863"
+				item: "create:super_glue"
+				type: "item"
+			}]
+			title: "De la super colle"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6D5CCFAB7E6EF69C"]
+			description: ["La &bpompe&r (un engrenage et un tuyau) pousse les liquides dans les &7tuyaux&r ; la &7cuve&r (deux plaques de cuivre autour d'un tonneau) les stocke, et plusieurs cuves côte à côte n'en font qu'une. C'est la plomberie dont la vapeur aura besoin."]
+			icon: "create:mechanical_pump"
+			id: "0354142EDB38C0B5"
+			rewards: [{
+				id: "045AD7E73E79A838"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "790910205DA8DBA7"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "64588EA4326742E6"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "49F06F8865F5B2B2"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Pompe, tuyaux et cuve"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"21D067244E8FF425"
+				"0354142EDB38C0B5"
+			]
+			description: ["Plaque d'or, alliage, bloc de cuivre. Le &bmoteur à vapeur&r se monte sur une cuve remplie d'eau et chauffée par des brûleurs à Blaze : la cuve devient une chaudière, et chaque moteur sort une rotation forte. C'est la source d'énergie des grandes usines, bien au-delà de la roue et du moulin."]
+			icon: "create:steam_engine"
+			id: "39CE5DA1787E2CD6"
+			rewards: [{
+				id: "7FD74B70ABCF8381"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4330814A0091E81D"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Un moteur à vapeur"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21D067244E8FF425"]
+			description: ["Œuf, sucre et farine de cendre compactés dans un bassin donnent la base du gâteau ; remplie de lave, elle devient un &6gâteau de Blaze&r. Donné à un brûleur, il le fait &lsurchauffer&r le temps d'une recette qui l'exige."]
+			icon: "create:blaze_cake"
+			id: "42CB0A634283F592"
+			rewards: [{
+				id: "689381C338A4731C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2C4917EF8FD1D837"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "Un gâteau de Blaze"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A9FF5550F6FAF3F"]
+			description: ["La &7table à schémas&r charge un plan de construction ; le &7Schematicannon&r le bâtit bloc par bloc, à partir de ce qu'on met dans l'inventaire à côté de lui. On copie une base, on la reconstruit ailleurs."]
+			icon: "create:schematic_table"
+			id: "3955B9807C0D8B93"
+			rewards: [{
+				id: "4F17A34B5076D3B7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "075B57236A7C0D03"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "20EA0C93338296F7"
+					item: "create:schematicannon"
+					type: "item"
+				}
+			]
+			title: "Table à schémas et Schematicannon"
+			x: 8.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"5F40B748B212C67C"
+				"39CE5DA1787E2CD6"
+			]
+			description: ["Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, &bCreate — logistique et trains&r, fait circuler ce que l'usine produit."]
+			icon: "create:mechanical_arm"
+			id: "39DB4CFE5663DF08"
+			rewards: [{
+				id: "3F768E1E1F313A65"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "234C946AEF953EE2"
+				title: "Mon usine tourne à la vapeur"
+				type: "checkmark"
+			}]
+			title: "&bL'usine tourne"
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	title: "&bCreate — fabrication avancée"
+}

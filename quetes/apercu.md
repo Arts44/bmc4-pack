@@ -511,3 +511,57 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Première chaîne de production** — tâches : checkmark Ma chaîne tourne — récompense : xp 10 — après : concasseur, lavage, entonnoir
   > Un concasseur, un lavage, des entonnoirs et une courroie : la mine rend davantage sans que personne ne touche à rien. C'est le cœur de Create, et le reste n'est que des machines en plus.
   >   > La suite, Create — fabrication avancée : le laiton, le mécanisme de précision, le bras mécanique, le moteur à vapeur.
+
+## Create — fabrication avancée  (`create_fabrication`, 24 quêtes)
+
+- **Create : le laiton et la précision** — tâches : checkmark Lu — récompense : item create:zinc_ingot 8, item minecraft:copper_ingot 8
+  > Les bases tournaient à l'andésite. La suite tourne au laiton : un alliage de cuivre et de zinc qui ne se fait qu'au mélangeur chauffé, et qui ouvre les machines qui pensent un peu — le bras mécanique, le déployeur, les établis mécaniques.
+  >   > Le zinc et le cuivre offerts font les premiers lingots de laiton. Le brûleur à Blaze, lui, demandera un voyage au Nether.
+- **Un brûleur à Blaze vide** — tâches : item create:empty_blaze_burner — récompense : xp 3 — après : intro
+  > Quatre plaques de fer autour d'un bloc de netherrack. Vide, il ne chauffe rien : il faut lui donner un Blaze. Clic droit sur un Blaze vivant avec le brûleur vide, dans une forteresse du Nether, et le Blaze y reste.
+- **Capturer un Blaze** — tâches : item create:blaze_burner — récompense : xp 8 — après : bruleur_vide
+  > Un brûleur à Blaze habité chauffe le bassin posé dessus : c'est lui qui rend possible le laiton, et plus tard le moteur à vapeur. Il se nourrit de combustible ordinaire ; nourri d'un gâteau de Blaze, il surchauffe, et certaines recettes l'exigent.
+- **Fondre du laiton** — tâches : item create:brass_ingot 8 — récompense : xp 8 — après : bruleur
+  > Dans un bassin chauffé par un brûleur, le mélangeur combine un lingot de cuivre et un lingot de zinc en deux lingots de laiton. Pas de laiton sans chaleur : le mélangeur seul ne suffit pas.
+  >   > Le laiton fait les plaques, les boîtiers et les mains de laiton de tout ce chapitre.
+- **Des boîtiers de laiton** — tâches : item create:brass_casing 4 — récompense : xp 3 — après : laiton
+  > Comme le boîtier d'andésite, mais au laiton : frapper une bûche écorcée avec un lingot de laiton. Le régulateur de vitesse, le bras et les établis mécaniques en demandent.
+- **Du quartz rose poli** — tâches : item create:polished_rose_quartz 4 — récompense : xp 3 — après : intro
+  > Le quartz rose se fabrique avec un quartz et huit poudres de redstone, puis se polit au papier de verre (clic droit maintenu, ou un déployeur qui tient le papier). C'est le cœur du tube électronique.
+- **Des tubes électroniques** — tâches : item create:electron_tube 4 — récompense : xp 3 — après : quartz_rose
+  > Un quartz rose poli sur une plaque de fer : un tube électronique. Le déployeur, les établis mécaniques et la liaison redstone en ont besoin.
+- **Fabriquer un déployeur** — tâches : item create:deployer — récompense : xp 8 — après : tube, laiton
+  > Tube électronique, boîtier d'andésite et main de laiton. Le déployeur fait un clic droit à ta place, en boucle, avec l'objet qu'on lui donne : il plante, récolte, polit le quartz, et c'est lui qui assemble le mécanisme de précision.
+- **Assembler un mécanisme de précision** — tâches : item create:precision_mechanism — récompense : xp 10 — après : deployeur
+  > Le premier assemblage séquencé. Une plaque d'or part sur une courroie, et 5 fois de suite elle passe sous un déployeur qui pose un engrenage, puis un grand engrenage, puis une pépite de fer. Au bout, un mécanisme de précision — ou, parfois, un rebut : plaque d'or, alliage, engrenage, pépite. La recette l'assume.
+  >   > Ce mécanisme ouvre le régulateur de vitesse, le bras mécanique et les trains.
+- **Un régulateur de vitesse** — tâches : item create:rotation_speed_controller — récompense : xp 5 — après : precision, boitier_laiton
+  > Mécanisme de précision sur boîtier de laiton. Posé sous un grand engrenage, le régulateur fixe la vitesse de sortie au chiffre qu'on lui donne, quelle que soit l'entrée. Fini les montages d'engrenages pour trouver la bonne vitesse.
+- **Mesurer vitesse et contrainte** — tâches : item create:speedometer, item create:stressometer — récompense : xp 3 — après : laiton
+  > Le compteur de vitesse affiche la rotation d'un réseau, le stressomètre la part de contrainte utilisée. Avec les lunettes, on lit les deux en les regardant. Un réseau à plus de 100 % s'arrête net : le stressomètre le dit avant.
+- **Fabriquer un bras mécanique** — tâches : item create:mechanical_arm — récompense : xp 8 — après : precision, boitier_laiton
+  > Plaques de laiton, alliage, mécanisme de précision, boîtier de laiton. Le bras mécanique prend des objets à des points d'entrée et les dépose à des points de sortie qu'on lui désigne avec le bras en main avant de le poser : dépôts, courroies, bassins, brûleurs. C'est le premier bloc qui remplace un entonnoir et une courroie à la fois.
+- **Des établis mécaniques** — tâches : item create:mechanical_crafter 9 — récompense : xp 5 — après : tube, boitier_laiton
+  > Tube électronique, boîtier de laiton, table d'artisanat : trois établis mécaniques par recette. Posés en grille et reliés par des engrenages, ils fabriquent une recette à la fois, chaque case étant alimentée par un entonnoir ou un bras. Neuf établis font une grille complète.
+- **Une scie mécanique** — tâches : item create:mechanical_saw — récompense : xp 5 — après : intro
+  > Plaques de fer, lingot de fer, boîtier d'andésite. Posée à l'horizontale, la scie coupe les bûches qui passent devant elle en planches, et débite les arbres entiers quand on la monte sur une contraption. À la verticale, elle abat ce qui pousse devant elle.
+- **Une foreuse mécanique** — tâches : item create:mechanical_drill — récompense : xp 5 — après : intro
+  > Alliage, lingot de fer, boîtier d'andésite. La foreuse casse le bloc devant elle, en continu. Sur un piston ou un portique, elle creuse un tunnel ; sur un roulement, elle creuse un puits.
+- **Un piston mécanique** — tâches : item create:mechanical_piston, item create:piston_extension_pole 4 — récompense : xp 5 — après : intro
+  > Dalle de bois, boîtier d'andésite, tige d'extension. Le piston mécanique pousse une contraption — un ensemble de blocs collés — aussi loin qu'il a de tiges derrière lui. Avec une foreuse devant, c'est une machine à tunnel.
+- **Un roulement mécanique** — tâches : item create:mechanical_bearing — récompense : xp 5 — après : intro
+  > Dalle de bois, boîtier d'andésite, arbre. Le roulement fait tourner la contraption posée dessus : une porte qui pivote, une moissonneuse circulaire, un moulin décoratif.
+- **Un portique** — tâches : item create:gantry_shaft 8, item create:gantry_carriage — récompense : xp 5 — après : piston
+  > Les arbres de portique (alliage, redstone, alliage : huit d'un coup) forment un rail ; le chariot de portique roule dessus et emporte sa contraption. Plus long qu'un piston, et sans tiges à empiler.
+- **De la super colle** — tâches : item create:super_glue — récompense : xp 3 — après : piston
+  > La super colle définit ce qu'une contraption emporte : clic sur deux coins, tout le volume entre les deux est collé. Sans elle, un piston ne pousse que les blocs directement attachés.
+- **Pompe, tuyaux et cuve** — tâches : item create:mechanical_pump, item create:fluid_pipe 8, item create:fluid_tank — récompense : xp 5 — après : intro
+  > La pompe (un engrenage et un tuyau) pousse les liquides dans les tuyaux ; la cuve (deux plaques de cuivre autour d'un tonneau) les stocke, et plusieurs cuves côte à côte n'en font qu'une. C'est la plomberie dont la vapeur aura besoin.
+- **Un moteur à vapeur** — tâches : item create:steam_engine — récompense : xp 10 — après : bruleur, pompe
+  > Plaque d'or, alliage, bloc de cuivre. Le moteur à vapeur se monte sur une cuve remplie d'eau et chauffée par des brûleurs à Blaze : la cuve devient une chaudière, et chaque moteur sort une rotation forte. C'est la source d'énergie des grandes usines, bien au-delà de la roue et du moulin.
+- **Un gâteau de Blaze** — tâches : item create:blaze_cake — récompense : xp 3 — après : bruleur
+  > Œuf, sucre et farine de cendre compactés dans un bassin donnent la base du gâteau ; remplie de lave, elle devient un gâteau de Blaze. Donné à un brûleur, il le fait surchauffer le temps d'une recette qui l'exige.
+- **Table à schémas et Schematicannon** — tâches : item create:schematic_table, item create:schematicannon — récompense : xp 5 — après : laiton
+  > La table à schémas charge un plan de construction ; le Schematicannon le bâtit bloc par bloc, à partir de ce qu'on met dans l'inventaire à côté de lui. On copie une base, on la reconstruit ailleurs.
+- **L'usine tourne** — tâches : checkmark Mon usine tourne à la vapeur — récompense : xp 10 — après : bras, vapeur
+  > Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, Create — logistique et trains, fait circuler ce que l'usine produit.
