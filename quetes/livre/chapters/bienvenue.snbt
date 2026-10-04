@@ -172,12 +172,12 @@
 			}]
 			title: "Choisir son camp"
 			x: 4.0d
-			y: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5090842DF6D6F968"]
 			description: [
-				"Seize bûches, de n'importe quel arbre. Sur ce serveur, casser une bûche avec une hache abat &ltout l'arbre&r (accroupi pour ne casser qu'un bloc)."
+				"Seize bûches, de n'importe quel arbre. Sur ce serveur, casser une bûche abat &ltout l'arbre&r d'un coup, avec n'importe quel outil. Accroupi, on ne casse qu'un bloc."
 				""
 				"Il y a bien plus d'essences que dans le jeu de base : chaque bois donne ses planches, ses portes, ses meubles."
 			]
@@ -203,7 +203,7 @@
 			}]
 			title: "Du bois"
 			x: 4.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5090842DF6D6F968"]
@@ -224,7 +224,7 @@
 			}]
 			title: "De la pierre taillée"
 			x: 4.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5090842DF6D6F968"]
@@ -243,7 +243,7 @@
 			}]
 			title: "Un premier lingot de fer"
 			x: 4.0d
-			y: 2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -281,9 +281,9 @@
 		{
 			dependencies: ["0A0189FE2B8465C9"]
 			description: [
-				"Touche &bM&r : la carte. En haut, le bouton de claim de &bFTB Chunks&r. Clique sur les chunks à protéger : &l40 chunks par équipe&r au départ."
+				"Touche &bM&r : la carte. En haut, le bouton de claim de &bFTB Chunks&r. Clique sur les chunks à protéger : &l40 chunks par équipe&r, quel que soit le nombre de membres."
 				""
-				"Un claim empêche les autres de casser, poser et ouvrir chez toi. Il &cn'arrête pas les explosions&r : TNT, creepers et Wither passent à travers. Les coffres SecurityCraft, eux, tiennent."
+				"Un claim empêche les autres de casser et de poser chez toi, et il &aarrête les explosions&r et les dégâts des créatures, tant que ton équipe ne l'autorise pas dans ses réglages. Il &cn'empêche pas le combat&r : le PvP reste possible dans un claim."
 			]
 			icon: "minecraft:filled_map"
 			id: "310B16527B78BE71"
@@ -291,7 +291,6 @@
 				exclude_from_claim_all: true
 				id: "7A75A932C256B25D"
 				table_id: 3535549766887619792L
-				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -327,8 +326,8 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["713E439523FC1021"]
-			description: ["La boussole pointe vers le point d'apparition du monde, c'est-à-dire le Marché. La carte de &bXaero&r (touche &bM&r) montre tout ce que tu as exploré et accepte des points de passage, partageables avec ta faction."]
+			dependencies: ["5090842DF6D6F968"]
+			description: ["La boussole du kit pointe vers le point d'apparition du monde, c'est-à-dire le Marché. La carte de &bXaero&r (touche &bM&r) montre tout ce que tu as exploré et accepte des points de passage, partageables avec ta faction."]
 			icon: "minecraft:compass"
 			id: "279CFDD22C866FC3"
 			rewards: [{
@@ -336,24 +335,20 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			tasks: [
-				{
-					id: "415CF7A9D06D5B8B"
-					item: "minecraft:compass"
-					type: "item"
-				}
-				{
-					id: "72BE5AD4D8986D14"
-					title: "Carte ouverte (touche M)"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "63080128AA54C932"
+				title: "Carte ouverte (touche M)"
+				type: "checkmark"
+			}]
 			title: "Ne plus se perdre"
-			x: 6.0d
-			y: -1.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["279CFDD22C866FC3"]
+			dependencies: [
+				"279CFDD22C866FC3"
+				"713E439523FC1021"
+			]
 			description: ["La &aboussole de la nature&r cherche n'importe quel biome et t'indique sa direction et sa distance. Avec Biomes O' Plenty et les dimensions, le serveur en compte plusieurs centaines : c'est l'outil de l'explorateur."]
 			icon: "naturescompass:naturescompass"
 			id: "0C27B2F9671195AA"
@@ -368,8 +363,8 @@
 				type: "item"
 			}]
 			title: "Trouver un biome"
-			x: 8.0d
-			y: 0.75d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0A0189FE2B8465C9"]
@@ -389,7 +384,7 @@
 			}]
 			title: "La première nuit"
 			x: 8.0d
-			y: 2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["713E439523FC1021"]
@@ -400,7 +395,6 @@
 				exclude_from_claim_all: true
 				id: "456ECF5896F36291"
 				table_id: 3535549766887619792L
-				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -437,7 +431,9 @@
 		{
 			dependencies: ["707CF43FC0CBFD50"]
 			description: [
-				"Quand tu meurs, tes affaires ne tombent pas au sol : une &7tombe&r se dresse à l'endroit de la mort, à ton nom. Retourne la casser pour tout récupérer. Elle tient tant que tu ne reviens pas."
+				"Quand tu meurs, tes affaires et ton expérience ne tombent pas au sol : une &7tombe&r se dresse à l'endroit de la mort, à ton nom, et le jeu t'en donne les coordonnées. Un &lclic droit&r dessus rend tout dans l'inventaire. Elle n'expire pas."
+				""
+				"Mais au bout d'&cune heure&r, n'importe qui peut la piller, et tu seras prévenu de qui l'a fait."
 				""
 				"Pendant une heure de raid, mourir coûte en plus un &ccœur&r : c'est la règle mediumcore, expliquée dans l'arc Factions."
 			]
@@ -455,7 +451,7 @@
 			}]
 			title: "Les tombes"
 			x: 10.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0C27B2F9671195AA"]
@@ -478,8 +474,8 @@
 				type: "observation"
 			}]
 			title: "Les coffres par joueur"
-			x: 10.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["37824A4BE1FE38DF"]
@@ -530,7 +526,7 @@
 			}]
 			title: "Le livre des quêtes"
 			x: 10.0d
-			y: 1.5d
+			y: 0.75d
 		}
 	]
 	title: "&eBienvenue sur BMC4"

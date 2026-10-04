@@ -37,6 +37,13 @@ INDEX = [os.environ.get('QUETES_INDEX', os.path.join(ICI, '..', 'index', 'index.
 
 # ---------------------------------------------------------------- index
 
+# Le kit de départ du serveur (bmc4:kit_depart, lu le 4 octobre 2026). Une
+# quête qui demande un de ces objets se valide à l'arrivée : refusée, sauf
+# si l'entrée porte `kit_voulu = true`.
+KIT_DEPART = {'minecraft:stone_pickaxe', 'minecraft:stone_axe', 'minecraft:stone_shovel', 'minecraft:stone_sword',
+              'minecraft:cooked_beef', 'minecraft:torch', 'minecraft:oak_planks', 'minecraft:compass',
+              'inmis:frayed_backpack'}
+
 def charger_index():
     ix = {}
     for chemin in INDEX:
@@ -340,6 +347,7 @@ def construire_chapitre(toml_path, verif, tables, ix):
         if qd.get('cache_avant'):
             qs['hide_until_deps_visible'] = True
         sortie.append(qs)
+    controler_recompenses(quetes, fichier, verif, tables, ix)
     chapitre = {
         'default_hide_dependency_lines': bool(ch.get('lignes_cachees', False)),
         'default_quest_shape': ch.get('forme_defaut', ''),
@@ -359,6 +367,61 @@ def construire_chapitre(toml_path, verif, tables, ix):
     if ch.get('icone'):
         verif.item(ch['icone'], fichier)
     return ch, chapitre
+
+# ---------------------------------------------------------------- contrôles
+
+def objets_demandes(qd, ix):
+    """Les objets qu'une tâche `item` ou `tag` de la quête peut compter."""
+    out = set()
+    for t in qd.get('taches', []):
+        m = t.split()
+        if m[0] == 'item':
+            out.add(m[1])
+        elif m[0] == 'tag':
+            out.update(ix.get('tag_membres', {}).get(m[1], []))
+            out.add('#' + m[1])
+    return out
+
+
+def objets_donnes(qd, tables):
+    out = set()
+    for r in qd.get('recompenses', []):
+        m = r.split()
+        if m[0] == 'item':
+            out.add(m[1])
+        elif m[0] == 'table':
+            for o in tables.get(m[1], {}).get('objets', []):
+                out.add(o.split()[0])
+    return out
+
+
+def controler_recompenses(quetes, fichier, verif, tables, ix):
+    """Règle n° 2 du cahier : une récompense ne fournit jamais un objet
+    qu'une quête en aval demande. Et aucune quête ne demande un objet du
+    kit de départ sans le dire."""
+    aval = {c: set() for c in quetes}
+    for c, qd in quetes.items():
+        for d in qd.get('deps', []):
+            aval[d].add(c)
+
+    def descendants(c, vus=None):
+        vus = set() if vus is None else vus
+        for e in aval[c]:
+            if e not in vus:
+                vus.add(e); descendants(e, vus)
+        return vus
+
+    for c, qd in quetes.items():
+        donnes = objets_donnes(qd, tables)
+        if donnes:
+            for e in descendants(c):
+                commun = donnes & objets_demandes(quetes[e], ix)
+                if commun:
+                    verif.erreurs.append(f"{fichier}/{c} : la récompense donne {sorted(commun)} que la quête en aval « {e} » demande")
+        if not qd.get('kit_voulu'):
+            commun = KIT_DEPART & objets_demandes(qd, ix)
+            if commun:
+                verif.erreurs.append(f"{fichier}/{c} : demande {sorted(commun)}, qui est dans le kit de départ (mettre kit_voulu = true si c'est voulu)")
 
 # ---------------------------------------------------------------- livre
 

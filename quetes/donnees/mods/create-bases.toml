@@ -14,13 +14,13 @@ sous_titre = "Guide complet dans #create sur le Discord."
 taille = 1.5
 icone = "create:cogwheel"
 taches = ["checkmark Lu"]
-recompenses = ["item create:andesite_alloy 16"]
+recompenses = ["item minecraft:andesite 32", "item minecraft:iron_nugget 32"]
 description = """
 &bCreate&r remplace l'électricité par la &lrotation&r : une roue tourne, un arbre transmet, une machine travaille. Tout se voit, tout s'entend, et tout se construit avec de l'andésite et du cuivre.
 
 Deux réflexes à prendre : la touche &bW&r en survolant un bloc Create ouvre &lPonder&r, une animation qui montre comment il s'utilise ; et la &6clé&r (wrench) tourne ou démonte n'importe quel composant.
 
-Les seize alliages d'andésite offerts suffisent aux premiers arbres et engrenages.
+L'andésite et les pépites de fer offertes font seize alliages : de quoi fabriquer les premiers arbres et engrenages.
 """
 
 [[quete]]
@@ -40,7 +40,7 @@ deps = ["zinc"]
 taches = ["item create:andesite_alloy 16"]
 recompenses = ["xp 3"]
 description = """
-L'&7alliage d'andésite&r se fabrique à la table : andésite et pépites de fer ou de zinc. C'est la matière première de presque tout le début de Create : arbres, engrenages, boîtiers, courroies.
+L'&7alliage d'andésite&r se fabrique à la table : deux andésites et deux pépites de fer, en diagonale, pour un alliage. C'est la matière première de presque tout le début de Create : arbres, engrenages, boîtiers, courroies.
 
 Plus tard, un mélangeur le produira en quantité ; pour l'instant, la table suffit.
 """
@@ -52,7 +52,7 @@ deps = ["alliage"]
 taches = ["item create:shaft 8"]
 recompenses = ["xp 2"]
 description = """
-L'&7arbre&r transmet la rotation en ligne droite, sans changer ni la vitesse ni le sens. Huit alliages en donnent huit. C'est le bloc le plus posé de tout Create.
+L'&7arbre&r transmet la rotation en ligne droite, sans changer ni la vitesse ni le sens. Deux alliages l'un sur l'autre en donnent huit. C'est le bloc le plus posé de tout Create.
 """
 
 [[quete]]
@@ -82,7 +82,7 @@ deps = ["engrenage"]
 taches = ["item create:water_wheel"]
 recompenses = ["xp 5"]
 description = """
-La &broue hydraulique&r est la première vraie source : un courant d'eau qui la frôle la fait tourner. Plus d'eau sur ses pales, plus de force. La &lgrande roue&r (large water wheel) fait mieux, pour trois fois le bois.
+La &broue hydraulique&r est la première vraie source : un courant d'eau qui la frôle la fait tourner. Plus d'eau sur ses pales, plus de force. La &lgrande roue&r (large water wheel) se fabrique à partir d'une petite roue entourée de huit planches.
 
 Un seau d'eau au-dessus d'une roue de 1 bloc suffit à lancer un moulin ou une presse.
 """
@@ -199,7 +199,7 @@ deps = ["engrenage"]
 taches = ["item create:encased_fan"]
 recompenses = ["xp 3"]
 description = """
-Le &7ventilateur encastré&r souffle de l'air à travers le bloc qu'il a devant lui. Ce que l'air traverse décide de l'effet : de l'eau lave, du feu cuit, de la lave fond, de la flamme d'âme hante. Trois quêtes suivent, une par effet.
+Le &7ventilateur encastré&r souffle de l'air à travers le bloc qu'il a devant lui. Ce que l'air traverse décide de l'effet : de l'eau lave, du feu cuit, la flamme d'âme hante. Trois quêtes suivent, une par effet.
 """
 
 [[quete]]
@@ -216,7 +216,7 @@ Un ventilateur qui souffle à travers de l'&beau&r lave ce qui est posé devant.
 cle = "fumage"
 titre = "Fumer au ventilateur"
 deps = ["ventilateur"]
-taches = ["item minecraft:cooked_beef 4"]
+taches = ["item minecraft:cooked_chicken 4"]
 recompenses = ["xp 3"]
 description = """
 À travers du &6feu&r ou un feu de camp, l'air cuit la nourriture, en continu et sans combustible. Une courroie qui passe devant, et la viande ressort cuite.
@@ -226,10 +226,10 @@ description = """
 cle = "hantise"
 titre = "Hanter au ventilateur"
 deps = ["ventilateur"]
-taches = ["item minecraft:soul_soil 4"]
+taches = ["item minecraft:soul_sand 4"]
 recompenses = ["xp 3"]
 description = """
-À travers un &3feu d'âme&r, l'air hante : le sable des âmes devient de la terre des âmes, et quelques objets changent de nature. Le feu d'âme se fait avec du sable des âmes sous la flamme, ramené du Nether.
+À travers un &3feu d'âme&r, l'air hante : du sable ordinaire devient du &3sable des âmes&r, et quelques objets changent de nature. Le feu d'âme se fait avec du sable des âmes sous la flamme, ramené du Nether une première fois ; ensuite, le ventilateur en produit.
 """
 
 [[quete]]

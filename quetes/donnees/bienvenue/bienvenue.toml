@@ -89,6 +89,7 @@ cle = "kit"
 titre = "Le kit de départ"
 sous_titre = "Le sac élimé est dans ton inventaire."
 deps = ["bienvenue"]
+kit_voulu = true
 taches = ["item inmis:frayed_backpack"]
 recompenses = ["xp 2"]
 description = """
@@ -117,7 +118,7 @@ deps = ["kit"]
 taches = ["tag minecraft:logs 16 N'importe quelle bûche"]
 recompenses = ["item minecraft:torch 8"]
 description = """
-Seize bûches, de n'importe quel arbre. Sur ce serveur, casser une bûche avec une hache abat &ltout l'arbre&r (accroupi pour ne casser qu'un bloc).
+Seize bûches, de n'importe quel arbre. Sur ce serveur, casser une bûche abat &ltout l'arbre&r d'un coup, avec n'importe quel outil. Accroupi, on ne casse qu'un bloc.
 
 Il y a bien plus d'essences que dans le jeu de base : chaque bois donne ses planches, ses portes, ses meubles.
 """
@@ -162,11 +163,10 @@ deps = ["abri"]
 icone = "minecraft:filled_map"
 taches = ["checkmark Claim posé"]
 recompenses = ["table debutant"]
-equipe = true
 description = """
-Touche &bM&r : la carte. En haut, le bouton de claim de &bFTB Chunks&r. Clique sur les chunks à protéger : &l40 chunks par équipe&r au départ.
+Touche &bM&r : la carte. En haut, le bouton de claim de &bFTB Chunks&r. Clique sur les chunks à protéger : &l40 chunks par équipe&r, quel que soit le nombre de membres.
 
-Un claim empêche les autres de casser, poser et ouvrir chez toi. Il &cn'arrête pas les explosions&r : TNT, creepers et Wither passent à travers. Les coffres SecurityCraft, eux, tiennent.
+Un claim empêche les autres de casser et de poser chez toi, et il &aarrête les explosions&r et les dégâts des créatures, tant que ton équipe ne l'autorise pas dans ses réglages. Il &cn'empêche pas le combat&r : le PvP reste possible dans un claim.
 """
 
 [[quete]]
@@ -184,17 +184,18 @@ Prudence : quiconque l'a activée une fois peut y revenir &là vie&r, même enne
 [[quete]]
 cle = "boussole"
 titre = "Ne plus se perdre"
-deps = ["fer"]
-taches = ["item minecraft:compass", "checkmark Carte ouverte (touche M)"]
+deps = ["kit"]
+icone = "minecraft:compass"
+taches = ["checkmark Carte ouverte (touche M)"]
 recompenses = ["xp 3"]
 description = """
-La boussole pointe vers le point d'apparition du monde, c'est-à-dire le Marché. La carte de &bXaero&r (touche &bM&r) montre tout ce que tu as exploré et accepte des points de passage, partageables avec ta faction.
+La boussole du kit pointe vers le point d'apparition du monde, c'est-à-dire le Marché. La carte de &bXaero&r (touche &bM&r) montre tout ce que tu as exploré et accepte des points de passage, partageables avec ta faction.
 """
 
 [[quete]]
 cle = "natures_compass"
 titre = "Trouver un biome"
-deps = ["boussole"]
+deps = ["boussole", "fer"]
 taches = ["item naturescompass:naturescompass"]
 recompenses = ["xp 5"]
 description = """
@@ -217,7 +218,6 @@ titre = "Diamants"
 deps = ["fer"]
 taches = ["item minecraft:diamond"]
 recompenses = ["table debutant"]
-equipe = true
 description = """
 Sous Y 16, et plus encore vers le fond. Le diamant ouvre l'enchantement et le passage vers la nétherite. Il &lne se donne pas&r en récompense de quête sur ce serveur : ce que tu as, tu l'as creusé.
 """
@@ -240,7 +240,9 @@ icone = "yigd:grave"
 taches = ["checkmark Compris"]
 recompenses = ["xp 2"]
 description = """
-Quand tu meurs, tes affaires ne tombent pas au sol : une &7tombe&r se dresse à l'endroit de la mort, à ton nom. Retourne la casser pour tout récupérer. Elle tient tant que tu ne reviens pas.
+Quand tu meurs, tes affaires et ton expérience ne tombent pas au sol : une &7tombe&r se dresse à l'endroit de la mort, à ton nom, et le jeu t'en donne les coordonnées. Un &lclic droit&r dessus rend tout dans l'inventaire. Elle n'expire pas.
+
+Mais au bout d'&cune heure&r, n'importe qui peut la piller, et tu seras prévenu de qui l'a fait.
 
 Pendant une heure de raid, mourir coûte en plus un &ccœur&r : c'est la règle mediumcore, expliquée dans l'arc Factions.
 """

@@ -47,7 +47,7 @@ Règles dures :
 4. **Les quêtes de l'arc Factions ne donnent que du S**.
 5. Utiliser les **tables de récompense** de FTB Quests (`reward_tables/`) pour R2 : quatre tables, « Débutant », « Explorateur », « Artisan », « Aventurier », au contenu modéré et sans objet de fin de partie.
 
-⚠️ **Progression par équipe.** FTB Quests suit la progression **par équipe FTB Teams** — et les factions sont des équipes FTB. Une faction de quatre complète donc ses quêtes ensemble. Vérifier le réglage de récompense par joueur ou par équipe (`team_reward`) : par défaut chaque membre réclame la sienne, ce qui multiplie par quatre les R1/R2 d'une faction face à un indépendant seul. **Décision proposée : `team_reward: true` sur toutes les R2**, une seule récompense pour l'équipe.
+⚠️ **Progression par équipe.** FTB Quests suit la progression **par équipe FTB Teams** — et les factions sont des équipes FTB. Une faction de quatre complète donc ses quêtes ensemble. **Décidé le 4 octobre : une récompense par joueur**, pas de `team_reward`, R2 comprises. Chaque membre réclame la sienne. Conséquence assumée : une faction nombreuse touche plus qu'un indépendant seul, d'où l'importance des règles d'équilibre ci-dessous — rien de revendable en quantité, rien de fin de partie dans les tables.
 
 ### Mise en page
 

@@ -14,16 +14,24 @@
 				""
 				"Deux réflexes à prendre : la touche &bW&r en survolant un bloc Create ouvre &lPonder&r, une animation qui montre comment il s'utilise ; et la &6clé&r (wrench) tourne ou démonte n'importe quel composant."
 				""
-				"Les seize alliages d'andésite offerts suffisent aux premiers arbres et engrenages."
+				"L'andésite et les pépites de fer offertes font seize alliages : de quoi fabriquer les premiers arbres et engrenages."
 			]
 			icon: "create:cogwheel"
 			id: "77577F8D93529C42"
-			rewards: [{
-				count: 16
-				id: "6431555BF0DC1126"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "698E3F45A802696F"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "61F7C23CA0F665FB"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Guide complet dans #create sur le Discord."
 			tasks: [{
@@ -58,7 +66,7 @@
 		{
 			dependencies: ["69AB137697EFC3A4"]
 			description: [
-				"L'&7alliage d'andésite&r se fabrique à la table : andésite et pépites de fer ou de zinc. C'est la matière première de presque tout le début de Create : arbres, engrenages, boîtiers, courroies."
+				"L'&7alliage d'andésite&r se fabrique à la table : deux andésites et deux pépites de fer, en diagonale, pour un alliage. C'est la matière première de presque tout le début de Create : arbres, engrenages, boîtiers, courroies."
 				""
 				"Plus tard, un mélangeur le produira en quantité ; pour l'instant, la table suffit."
 			]
@@ -81,7 +89,7 @@
 		}
 		{
 			dependencies: ["041FB6D57859FC5B"]
-			description: ["L'&7arbre&r transmet la rotation en ligne droite, sans changer ni la vitesse ni le sens. Huit alliages en donnent huit. C'est le bloc le plus posé de tout Create."]
+			description: ["L'&7arbre&r transmet la rotation en ligne droite, sans changer ni la vitesse ni le sens. Deux alliages l'un sur l'autre en donnent huit. C'est le bloc le plus posé de tout Create."]
 			icon: "create:shaft"
 			id: "677600E1EAED774E"
 			rewards: [{
@@ -149,7 +157,7 @@
 		{
 			dependencies: ["446B4BDCEFAD7B62"]
 			description: [
-				"La &broue hydraulique&r est la première vraie source : un courant d'eau qui la frôle la fait tourner. Plus d'eau sur ses pales, plus de force. La &lgrande roue&r (large water wheel) fait mieux, pour trois fois le bois."
+				"La &broue hydraulique&r est la première vraie source : un courant d'eau qui la frôle la fait tourner. Plus d'eau sur ses pales, plus de force. La &lgrande roue&r (large water wheel) se fabrique à partir d'une petite roue entourée de huit planches."
 				""
 				"Un seau d'eau au-dessus d'une roue de 1 bloc suffit à lancer un moulin ou une presse."
 			]
@@ -408,7 +416,7 @@
 		}
 		{
 			dependencies: ["446B4BDCEFAD7B62"]
-			description: ["Le &7ventilateur encastré&r souffle de l'air à travers le bloc qu'il a devant lui. Ce que l'air traverse décide de l'effet : de l'eau lave, du feu cuit, de la lave fond, de la flamme d'âme hante. Trois quêtes suivent, une par effet."]
+			description: ["Le &7ventilateur encastré&r souffle de l'air à travers le bloc qu'il a devant lui. Ce que l'air traverse décide de l'effet : de l'eau lave, du feu cuit, la flamme d'âme hante. Trois quêtes suivent, une par effet."]
 			icon: "create:encased_fan"
 			id: "42EFCEBE28FB79E2"
 			rewards: [{
@@ -448,7 +456,7 @@
 		{
 			dependencies: ["42EFCEBE28FB79E2"]
 			description: ["À travers du &6feu&r ou un feu de camp, l'air cuit la nourriture, en continu et sans combustible. Une courroie qui passe devant, et la viande ressort cuite."]
-			icon: "minecraft:cooked_beef"
+			icon: "minecraft:cooked_chicken"
 			id: "3F85203B9D870B80"
 			rewards: [{
 				id: "487ABF0C008F25FB"
@@ -457,8 +465,8 @@
 			}]
 			tasks: [{
 				count: 4L
-				id: "62A50021160B24F3"
-				item: "minecraft:cooked_beef"
+				id: "3DAE906530C5E81F"
+				item: "minecraft:cooked_chicken"
 				type: "item"
 			}]
 			title: "Fumer au ventilateur"
@@ -467,8 +475,8 @@
 		}
 		{
 			dependencies: ["42EFCEBE28FB79E2"]
-			description: ["À travers un &3feu d'âme&r, l'air hante : le sable des âmes devient de la terre des âmes, et quelques objets changent de nature. Le feu d'âme se fait avec du sable des âmes sous la flamme, ramené du Nether."]
-			icon: "minecraft:soul_soil"
+			description: ["À travers un &3feu d'âme&r, l'air hante : du sable ordinaire devient du &3sable des âmes&r, et quelques objets changent de nature. Le feu d'âme se fait avec du sable des âmes sous la flamme, ramené du Nether une première fois ; ensuite, le ventilateur en produit."]
+			icon: "minecraft:soul_sand"
 			id: "0E9DE9392259B53D"
 			rewards: [{
 				id: "7B997422758F3483"
@@ -477,8 +485,8 @@
 			}]
 			tasks: [{
 				count: 4L
-				id: "33D19EBBC6BD0620"
-				item: "minecraft:soul_soil"
+				id: "71F8A73D1A103074"
+				item: "minecraft:soul_sand"
 				type: "item"
 			}]
 			title: "Hanter au ventilateur"
