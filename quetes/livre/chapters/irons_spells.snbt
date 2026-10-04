@@ -1,0 +1,876 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells"
+	group: "14858825A29975B1"
+	icon: "irons_spellbooks:gold_spell_book"
+	id: "643AF29CA25C5B66"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&5Iron's Spells 'n Spellbooks&r ajoute la magie : des &dparchemins&r trouvés dans le monde, des &dgrimoires&r où les inscrire, dix &décoles&r (feu, glace, foudre, sacré, End, sang, évocation, nature, vide, indicible), des mages dans leurs tours, deux boss. Le mana se régénère seul ; chaque sort a un coût et un temps de recharge."
+				""
+				"Sur ce serveur, les sorts &lne détruisent pas le terrain&r (spellGriefing désactivé) : une boule de feu dans un claim adverse ne casse rien. Le papier offert fait les premiers grimoires."
+			]
+			icon: "irons_spellbooks:inscription_table"
+			id: "31E061BF96F2149B"
+			rewards: [
+				{
+					count: 16
+					id: "69756183A960D639"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "23D1E6C817EFF9C0"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #irons-spells sur le Discord."
+			tasks: [{
+				id: "7D8D2FB11C7D4D5D"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&5Devenir mage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E061BF96F2149B"]
+			description: ["Les &dparchemins&r se trouvent dans les coffres, sur les mages tués, chez le marchand ambulant. Chacun porte un sort et un niveau. On peut le &lconsommer&r pour lancer le sort une fois, sans mana ni recharge — mais mieux vaut le garder pour l'inscrire dans un grimoire, où il servira sans fin."]
+			icon: "irons_spellbooks:scroll"
+			id: "5424CD0F4F017837"
+			rewards: [{
+				id: "3B436ABA6E4141C7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0A7EC776C7B92DCC"
+				item: "irons_spellbooks:scroll"
+				type: "item"
+			}]
+			title: "Un premier parchemin"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5424CD0F4F017837"]
+			description: ["Le premier grimoire : du &6cuivre&r, du papier, de la ficelle. Peu d'emplacements, mais c'est lui qui transforme un parchemin à usage unique en sort permanent. Chaque palier de grimoire ajoute des emplacements et souvent un bonus."]
+			icon: "irons_spellbooks:copper_spell_book"
+			id: "1D99B9C7EA3B1CF1"
+			rewards: [{
+				id: "4BF25DC256DB89D2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6C1608C895E6D364"
+				item: "irons_spellbooks:copper_spell_book"
+				type: "item"
+			}]
+			title: "Un Journal fragile"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D99B9C7EA3B1CF1"]
+			description: ["Un livre, trois dalles de bois, deux barrières : la &5Table d'inscription&r. On y pose un grimoire et un parchemin, et le sort passe dans le livre. Le parchemin se récupère en retirant le sort. C'est le geste de base de toute la magie du mod."]
+			icon: "irons_spellbooks:inscription_table"
+			id: "52AE6B5D33770767"
+			rewards: [{
+				id: "1CF7E894D4C413F1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "19AACB8B0307DE16"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Une Table d'inscription"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["52AE6B5D33770767"]
+			description: ["De l'&dessence arcanique&r autour d'une armure de cuir : la tenue du &5Magicien errant&r. Le guide du mod la recommande comme première source de mana maximum. L'essence ne se fabrique pas : elle se pille dans les structures magiques et sur les mages."]
+			icon: "irons_spellbooks:wandering_magician_chestplate"
+			id: "1E665CB5451BDA45"
+			rewards: [{
+				id: "37F6260363E4B89C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0D4C07F4401F67E4"
+				item: "irons_spellbooks:wandering_magician_chestplate"
+				type: "item"
+			}]
+			title: "La robe du Magicien errant"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D99B9C7EA3B1CF1"]
+			description: ["Chaînes, cuir, papier : le &7Tome ferré&r, deuxième palier de grimoire, encore sans matière magique. Plus d'emplacements que le journal."]
+			icon: "irons_spellbooks:iron_spell_book"
+			id: "3138971AFBB2BCF4"
+			rewards: [{
+				id: "43E6CCC9B6B28ABB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1803D9CFAEBA11E6"
+				item: "irons_spellbooks:iron_spell_book"
+				type: "item"
+			}]
+			title: "Un Tome ferré"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["52AE6B5D33770767"]
+			description: ["Ardoise polie et obsidienne pleurante : la &5Forge à parchemins&r. Elle fabrique un parchemin avec du papier, une &dencre&r et un &dfoyer&r : l'encre fixe la rareté (donc le niveau), le foyer fixe l'école. C'est le moment où l'on cesse de dépendre du hasard des coffres."]
+			icon: "irons_spellbooks:scroll_forge"
+			id: "4072F0E6AF3C03A6"
+			rewards: [{
+				id: "6AF1B40D8BFB0396"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "29F3F7D304521B1E"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Une Forge à parchemins"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4072F0E6AF3C03A6"]
+			description: ["Cinq encres, de la &fcommune&r à la &6légendaire&r, qui ne se fabriquent pas : coffres des structures magiques, mages tués, marchand ambulant (activé sur ce serveur). Une encre ne fait que les sorts dont le premier niveau est de sa rareté ou moins. Les niveaux se répartissent ainsi : 30 % communs, 25 % peu communs, 20 % rares, 15 % épiques, 10 % légendaires."]
+			icon: "irons_spellbooks:common_ink"
+			id: "3D3C52776DCD6F9D"
+			rewards: [{
+				id: "5F9ED07CE2E6DC81"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "4B1C3E4A7EA12902"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "555B02F94DF025E0"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+			]
+			title: "De l'encre"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3138971AFBB2BCF4"]
+			description: ["Or, essence arcanique et &cpeau de hoglin&r : le premier grimoire qui demande le Nether. Les hoglins lâchent la peau."]
+			icon: "irons_spellbooks:gold_spell_book"
+			id: "7A974BD4B06C7E73"
+			rewards: [{
+				id: "7DE8158B40E12AF2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6E5D0F6812B7F7BE"
+				item: "irons_spellbooks:gold_spell_book"
+				type: "item"
+			}]
+			title: "Le Grimoire de l'apprenti"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E665CB5451BDA45"]
+			description: ["Huit essences autour d'un bloc de laine : un &dTissu arcanique&r. Il entre dans les grimoires avancés, les robes de sorcier et l'amélioration d'emplacements. Pour en avoir beaucoup, il faut piller les structures magiques."]
+			icon: "irons_spellbooks:magic_cloth"
+			id: "2BDEC2B93D38D9A6"
+			rewards: [{
+				id: "4B6B25EE788892C9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "028AE406469D3E82"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			title: "Du Tissu arcanique"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BDEC2B93D38D9A6"]
+			description: ["Du tissu arcanique seul, en armure : la tenue du &5Sorcier&r. C'est la base de toutes les armures d'école : chaque robe d'école se fait à partir d'une pièce de sorcier."]
+			icon: "irons_spellbooks:wizard_chestplate"
+			id: "0BC893FE39B5D400"
+			rewards: [{
+				id: "2AF46DACDED83F59"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C975C73787F655E"
+				item: "irons_spellbooks:wizard_chestplate"
+				type: "item"
+			}]
+			title: "Les Robes du sorcier"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4072F0E6AF3C03A6"]
+			description: [
+				"Chaque école a un &dfoyer&r, l'objet qui la représente à la forge et dans les recettes : bâton de blaze pour le &cfeu&r, os gelé pour la &bglace&r, bouteille d'éclair pour la &efoudre&r, perle divine pour le &fsacré&r, perle de l'End pour l'&5End&r, fiole de sang pour le &4sang&r, émeraude pour l'&aévocation&r, pomme de terre empoisonnée pour la &2nature&r, éclat d'écho pour l'&8indicible&r."
+				""
+				"Une &dpierre runique vierge&r entourée de huit foyers fait la &lrune&r de l'école. La pierre vierge ne se fabrique pas : elle se trouve dans les structures magiques, et chaque mage d'école lâche sa rune."
+			]
+			icon: "irons_spellbooks:blank_rune"
+			id: "3F704D926A78932C"
+			rewards: [{
+				id: "6330FA7B52C37F8C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "39D231185717C022"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			title: "&dLes écoles et leurs foyers"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["Huit &cbâtons de blaze&r autour d'une pierre vierge. L'école du feu : dégâts directs et brûlures."]
+			icon: "irons_spellbooks:fire_rune"
+			id: "3CF2F252F6FD31E9"
+			optional: true
+			rewards: [{
+				id: "4A9011F602B7E6A3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06F237B8DDFE016E"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			title: "Rune de Feu"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["Huit &bos gelés&r, lâchés par les vagabonds (strays). L'école de la glace : dégâts et contrôle."]
+			icon: "irons_spellbooks:ice_rune"
+			id: "60CE3D0858F1F63C"
+			optional: true
+			rewards: [{
+				id: "1924D3D6E54C884B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3203B0C831AA0B6D"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			title: "Rune de Glace"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["Huit &ebouteilles d'éclair&r : une bouteille vide sur un creeper chargé. L'école de la foudre : des dégâts concentrés."]
+			icon: "irons_spellbooks:lightning_rune"
+			id: "404356AB1248E27D"
+			optional: true
+			rewards: [{
+				id: "18072A9C6609636C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24BB7EC64518C97E"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			title: "Rune de Foudre"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["Huit &fperles divines&r (un lingot d'or et une améthyste chacune). L'école sacrée : soins, soutien, renforts pour les alliés — l'école d'une faction."]
+			icon: "irons_spellbooks:holy_rune"
+			id: "63EB3CB92BBD7B70"
+			optional: true
+			rewards: [{
+				id: "4D9AE1663254AC4A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4547A5C11AE4437A"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "Rune Sacrée"
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["Huit &5perles de l'End&r. L'école de l'End : de l'arcane et du mystique, entre dégâts, utilité et déplacement."]
+			icon: "irons_spellbooks:ender_rune"
+			id: "77FFDDE262ED5796"
+			optional: true
+			rewards: [{
+				id: "4D454364D8672D5D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "306AE37F3A877184"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			title: "Rune de l'End"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["Huit &4fioles de sang&r : des créatures dans un chaudron chauffé par un feu de camp, ou dans le chaudron d'alchimiste. L'école du sang : nécromancie, flétrissement, dégâts qui renforcent le lanceur."]
+			icon: "irons_spellbooks:blood_rune"
+			id: "45914493128DC3C8"
+			optional: true
+			rewards: [{
+				id: "662B3B785868BD5A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B3E141FA950F042"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			title: "Rune de Sang"
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["Huit &aémeraudes&r. L'école de l'évocation : illusions et conjurations, la plus large palette d'attaque, de défense et d'utilité."]
+			icon: "irons_spellbooks:evocation_rune"
+			id: "3C8440486CD5D5BA"
+			optional: true
+			rewards: [{
+				id: "1D70606DA96DC025"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "035D653AC16E6BA4"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			title: "Rune d'Évocation"
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["Huit &2pommes de terre empoisonnées&r. L'école de la nature : affaiblir l'ennemi, puis l'achever."]
+			icon: "irons_spellbooks:nature_rune"
+			id: "1E420B11A016D786"
+			optional: true
+			rewards: [{
+				id: "58027FA3E79632B3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58A70930269D06B5"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			title: "Rune de Nature"
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3F704D926A78932C"]
+			description: ["L'école &8indicible&r ne se lance ni ne se forge sans l'avoir apprise. Huit &dfragments de savoir ancien&r, trouvés dans le monde, autour d'un éclat d'écho reconstituent un &8Manuscrit indicible&r ; le consommer apprend &lun&r sort indicible. Ensuite, l'éclat d'écho sert de foyer."]
+			icon: "irons_spellbooks:eldritch_manuscript"
+			id: "6E3BC0237AFAC026"
+			optional: true
+			rewards: [{
+				id: "639150C335A1D973"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "323C4280C008A1AE"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			title: "Un Manuscrit indicible"
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0BC893FE39B5D400"
+				"3CF2F252F6FD31E9"
+			]
+			description: ["Une pièce de sorcier, la rune de l'école et une essence arcanique : la robe de l'école, ici celle du &cPyromancien&r. Même modèle pour le Cryomancien, l'Électromancien, le Prêtre, le Marchombre, le Cultiste, le Manteau pesteux et l'Archévocateur, chacun avec sa rune. L'armure d'école renforce les sorts de son école."]
+			icon: "irons_spellbooks:pyromancer_chestplate"
+			id: "1D25D3F3BB348035"
+			rewards: [{
+				id: "1040D9288F2B5D6D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "1930FCCF0F611982"
+				item: "irons_spellbooks:pyromancer_chestplate"
+				type: "item"
+			}]
+			title: "Une robe d'école"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7A974BD4B06C7E73"
+				"2BDEC2B93D38D9A6"
+			]
+			description: ["Diamants, peau de hoglin, tissu arcanique et un livre enchanté : le &bGrimoire enchanté&r, l'avant-dernier des grimoires fabricables."]
+			icon: "irons_spellbooks:diamond_spell_book"
+			id: "085B1B1D1EAB17A8"
+			rewards: [{
+				id: "7B93E40548F89632"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "3EB8F8241113C4C6"
+				item: "irons_spellbooks:diamond_spell_book"
+				type: "item"
+			}]
+			title: "Le Grimoire enchanté"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["085B1B1D1EAB17A8"]
+			description: ["Trois blocs d'améthyste, un diamant, une enclume entre deux ardoises polies : l'&5Enclume arcanique&r, l'atelier de la fin de partie. Elle monte un parchemin d'un niveau avec l'encre de la rareté suivante, améliore armures et grimoires avec des orbes (&ltrois améliorations&r au plus par pièce sur ce serveur), et &limprègne&r une arme d'un sort — l'arme consomme alors du mana, avec une recharge réduite de moitié."]
+			icon: "irons_spellbooks:arcane_anvil"
+			id: "50BE7B98F4556FAD"
+			rewards: [{
+				id: "2AA58436DD14FF41"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "11D51CFEEC7AFB63"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Une Enclume arcanique"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50BE7B98F4556FAD"]
+			description: ["Le &bmithril&r est un minerai rare de l'Overworld ; le guide du mod le place sous Y −38, dans la roche non exposée à l'air. Le minerai brut se cuit en ferraille au haut-fourneau, quatre ferrailles font un lingot. Il entre dans les orbes, les cadres de portail, les anneaux."]
+			icon: "irons_spellbooks:mithril_ingot"
+			id: "099D9AC686FCA584"
+			rewards: [{
+				id: "5FCDC5B04F1B98B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6BF9A239A0818224"
+				item: "irons_spellbooks:mithril_ingot"
+				type: "item"
+			}]
+			title: "Du Mithril"
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50BE7B98F4556FAD"]
+			description: ["Les &cChevaliers anciens&r la lâchent. Ils dorment dans les &7tas d'armure&r du Nether : casser le tas réveille le chevalier. L'essence de braise entre dans les orbes, le chaudron d'alchimiste et l'appel qui réveille Tyros."]
+			icon: "irons_spellbooks:cinder_essence"
+			id: "07EE9D4E8544943A"
+			rewards: [{
+				id: "2F8D1DF6699D0313"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "0661BE4FB48A3863"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			title: "De l'Essence de braise"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"099D9AC686FCA584"
+				"07EE9D4E8544943A"
+			]
+			description: ["Quatre lingots arcaniques (huit essences autour d'un lingot de fer, de cuivre ou d'or), quatre essences de braise, un lingot de mithril : l'&dorbe vide&r. Seul, il ne sert à rien ; entouré de huit runes, il devient l'orbe d'un attribut."]
+			icon: "irons_spellbooks:upgrade_orb"
+			id: "2E672E935920AF5F"
+			rewards: [{
+				id: "01151813B3AFD9A8"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "7AE80EE21F88256B"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			title: "Un Orbe d'amélioration vide"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2E672E935920AF5F"
+				"3CF2F252F6FD31E9"
+			]
+			description: ["Huit runes autour d'un orbe vide : ici l'&cOrbe d'amélioration de feu&r. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut. Les orbes de mana, de récupération et de protection suivent la même recette avec leur rune."]
+			icon: "irons_spellbooks:fire_upgrade_orb"
+			id: "4C7F7EA397066D22"
+			rewards: [{
+				id: "6CCAFD9D9E701EFF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "253D9C6AA24AD7DD"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			title: "Un orbe d'école"
+			x: 20.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["085B1B1D1EAB17A8"]
+			description: ["Un lingot de nétherite, un &7Livre en ruine&r des cités anciennes, du tissu arcanique, une fiole de sang et une bouteille d'éclair : le &5Codex ancien&r, le meilleur grimoire que l'on fabrique. Les autres grands grimoires ne se fabriquent pas : le Necronomicon se prend au Roi Mort, le Grimoire d'évocation aux évocateurs, le Manuel du Blaze aux blazes, le Grimoire en peau de dragon demande la peau de l'Ender Dragon."]
+			icon: "irons_spellbooks:netherite_spell_book"
+			id: "3CDEE4F8C129E627"
+			rewards: [{
+				id: "5DAC2C9534552359"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "136DF455DCCB15FC"
+				item: "irons_spellbooks:netherite_spell_book"
+				type: "item"
+			}]
+			title: "Le Codex ancien"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BC893FE39B5D400"]
+			description: ["À la table de forge : une pièce de sorcier, un modèle d'amélioration en nétherite, un lingot de nétherite. Les robes du &8Mage de guerre&r, la version blindée de la tenue de sorcier."]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "0B680460616865E5"
+			optional: true
+			rewards: [{
+				id: "1D0FF8ECE1AE548D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6299BE620712C85F"
+				item: "irons_spellbooks:netherite_mage_chestplate"
+				type: "item"
+			}]
+			title: "Les robes du Mage de guerre"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07EE9D4E8544943A"]
+			description: ["Un chaudron, du fer, une essence arcanique et une essence de braise. Le &5Chaudron d'alchimiste&r recycle les parchemins inutiles (une chance sur deux sur ce serveur), tire le sang des créatures, et peut aussi brasser des potions (autorisé ici)."]
+			icon: "irons_spellbooks:alchemist_cauldron"
+			id: "22A761A9DF1CA351"
+			optional: true
+			rewards: [{
+				id: "6AE403E19BA089C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D4AFDD76E213A7E"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "Un Chaudron d'alchimiste"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["099D9AC686FCA584"]
+			description: ["Mithril, lingots arcaniques, perle de l'End : deux &5Cadres de portail&r par recette, que le sort Portail relie entre eux. Sur ce serveur, seul le propriétaire d'un cadre peut le teindre ; n'importe qui peut le casser — à poser dans le claim."]
+			icon: "irons_spellbooks:portal_frame"
+			id: "1C68CFB5351FC08A"
+			optional: true
+			rewards: [{
+				id: "32956EFA7B8FD5D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "35BBD296C9EDED60"
+				item: "irons_spellbooks:portal_frame"
+				type: "item"
+			}]
+			title: "Des Cadres de portail"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07EE9D4E8544943A"]
+			description: ["Les &dcartes enroulées&r mènent à une structure donnée ; on les trouve, on les échange, ou on les fabrique. Celle de la &7Citadelle&r : du papier, deux essences de braise, deux fragments de savoir ancien. La citadelle est le repaire des Chevaliers anciens."]
+			icon: "irons_spellbooks:furled_map_citadel"
+			id: "26C0CE8BF365FD23"
+			optional: true
+			rewards: [{
+				id: "32BE2A39C8D4036B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "021A496F38FA8446"
+				item: "irons_spellbooks:furled_map_citadel"
+				type: "item"
+			}]
+			title: "Une carte enroulée"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5424CD0F4F017837"]
+			description: ["Chaque structure magique abrite un mage qui ne te laissera pas faire : la tour du &cPyromancien&r, la tour de montagne, la hutte des mangroves, la tanière des araignées de glace, le fort de l'Archévocateur. C'est là que sont l'essence, les encres, les runes et les parchemins."]
+			id: "23FBB5D3DE45ECD8"
+			optional: true
+			rewards: [{
+				id: "505C63BDC2112CF6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "708863E163EA4558"
+				structure: "irons_spellbooks:pyromancer_tower"
+				type: "structure"
+			}]
+			title: "Une tour de mage"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23FBB5D3DE45ECD8"]
+			description: ["L'&aArchévocateur&r tient un fort avec des villageois captifs. Les libérer vaut la reconnaissance des villages — et, selon le guide du mod, finit par mettre une &fBible du villageois&r entre tes mains, un grimoire sacré qui ne se fabrique pas."]
+			id: "76F8360DEE536C48"
+			optional: true
+			rewards: [{
+				id: "4C23715C9CD58191"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "43E32BEFC004E82E"
+				structure: "irons_spellbooks:evoker_fort"
+				type: "structure"
+			}]
+			title: "Le fort de l'Archévocateur"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50BE7B98F4556FAD"]
+			description: ["Un labyrinthe souterrain de zombies, de pièges et de coffres fermés à clé — les &7clés d'os&r ouvrent ses chambres fortes. Au fond repose le corps du &4Roi Mort&r."]
+			id: "74716CCF47DE7839"
+			rewards: [{
+				id: "7D854F8C6AC45961"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "5FE44E4997DE7621"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			title: "Les Catacombes"
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74716CCF47DE7839"]
+			description: ["Un clic droit sur le corps le relève. Le &4Roi Mort&r est le mage du sang : nécromancie, barrages, deux phases. Il lâche le &5Necronomicon&r et son &4Bâton de sang&r, le sceptre d'invocation que le guide du mod qualifie d'inégalé. Sa mort est annoncée dans #faits-d-armes."]
+			id: "0E4E9FD2F907073F"
+			rewards: [{
+				id: "37DB8BB6C7211EAE"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "5F1E0B403D27F276"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4Vaincre le Roi Mort"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07EE9D4E8544943A"]
+			description: ["Quatre essences de braise, quatre fragments de nétherite, un éclat d'écho. L'&cInvocateur d'âme de braise&r appelle l'&cÉcho de Tyros&r ; utilisé au mauvais endroit, il répond « rien ne fait écho »."]
+			icon: "irons_spellbooks:cinderous_soulcaller"
+			id: "0FF4FA0072AB70EB"
+			rewards: [{
+				id: "0C9897458E94BEDE"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "25C061822A62B07E"
+				item: "irons_spellbooks:cinderous_soulcaller"
+				type: "item"
+			}]
+			title: "Un Invocateur d'âme de braise"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FF4FA0072AB70EB"]
+			description: ["Le &cPremier Porteur de flamme&r, mage de feu et combattant. Sa mort est annoncée dans #faits-d-armes. Le staff n'a pas touché à ses points de vie ni à sa puissance (config du serveur à zéro)."]
+			id: "7F89BB37F0895AA1"
+			rewards: [{
+				id: "0AFEB31F1D083CD9"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "6B75B64C85D54C4A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cVaincre l'Écho de Tyros"
+			x: 20.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2E672E935920AF5F"]
+			description: ["&dHazen 'n Stuff&r prolonge Iron's Spells : des runes et des orbes d'attributs nouveaux (radiance, ombre, mêlée, archerie, santé, et une &8rune indicible&r), des armures de mage (Séraphin, Blazeborne, Souverain cryogénique, Rôdeur du tonnerre, Alchimiste suprême…) et des armes qui résonnent avec la forge à parchemins. Les recettes sont dans JEI."]
+			icon: "hazennstuff:eldritch_rune"
+			id: "55A5A4EC57EA4C4E"
+			optional: true
+			rewards: [{
+				id: "5E5F2DCEF7138E38"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E29FD34FAE70506"
+				item: "hazennstuff:eldritch_rune"
+				type: "item"
+			}]
+			title: "Hazen 'n Stuff"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3CDEE4F8C129E627"
+				"4C7F7EA397066D22"
+				"0E4E9FD2F907073F"
+			]
+			description: ["Un Codex ancien plein, des robes d'école améliorées, deux boss au tableau. Le chapitre &7Grimoire&r de l'Encyclopédie liste chaque sort du pack ; l'&7Armurerie&r, chaque robe."]
+			icon: "irons_spellbooks:netherite_spell_book"
+			id: "5E0D3EBB02D05B83"
+			rewards: [{
+				id: "15AB1F0A7E3190B6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4801F24E4A0131AF"
+				title: "Mon grimoire est plein"
+				type: "checkmark"
+			}]
+			title: "&5Archimage"
+			x: 22.0d
+			y: 0.0d
+		}
+	]
+	title: "&5Iron's Spells"
+}
