@@ -1,0 +1,110 @@
+# Chapitre « Magie : enchantement » — cahier des charges §5.14
+# Sources : lang d'Enchanting Infuser, de XP Tome et d'Aether: Treasure
+# Reforging ; easyanvils-server.toml, easymagic-server.toml et
+# easydisenchanting-common.toml de l'instance v61. Soulbound est retiré
+# (BMC-82) : aucune quête n'en parle.
+
+[chapitre]
+titre = "&dEnchantement"
+fichier = "enchantement"
+groupe = "mods"
+icone = "enchantinginfuser:enchanting_infuser"
+ordre = 12
+
+[[quete]]
+cle = "intro"
+titre = "&dEnchanter autrement"
+sous_titre = "Guide dans #enchanting-infuser sur le Discord."
+taille = 1.5
+icone = "minecraft:enchanting_table"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:lapis_lazuli 16", "item minecraft:book 4"]
+description = """
+Le pack change l'enchantement en profondeur : la table vanilla montre ses enchantements et se relance, l'enclume ne punit plus les travaux répétés, un &dinfuseur&r laisse choisir ses enchantements, et un &dtome&r stocke l'expérience.
+
+Le lapis et les livres offerts sont pour la table, en attendant l'infuseur.
+"""
+
+[[quete]]
+cle = "table"
+titre = "La table, version Easy Magic"
+deps = ["intro"]
+taches = ["item minecraft:enchanting_table"]
+recompenses = ["xp 3"]
+description = """
+Avec &bEasy Magic&r, la table affiche un indice de l'enchantement proposé, et un bouton relance les trois propositions pour &b5 points&r d'expérience et un lapis. Les étagères comptent même avec un bloc entre elles. Jusqu'à 15 de puissance.
+"""
+
+[[quete]]
+cle = "enclume"
+titre = "L'enclume, version Easy Anvils"
+deps = ["intro"]
+taches = ["item minecraft:anvil"]
+recompenses = ["xp 3"]
+description = """
+Avec &bEasy Anvils&r, la pénalité de travaux antérieurs est &lfixe&r (4), plus de « trop cher », les livres coûtent moitié moins, renommer est gratuit, et l'enclume ne casse qu'une fois sur vingt. Réparer et renommer ne comptent pas comme travaux.
+"""
+
+[[quete]]
+cle = "infuseur"
+titre = "Un infuseur d'enchantement"
+deps = ["table"]
+taille = 1.3
+taches = ["item enchantinginfuser:enchanting_infuser"]
+recompenses = ["xp 8"]
+description = """
+L'&dinfuseur&r laisse &lchoisir&r les enchantements de l'objet, et leur niveau, contre de l'expérience. Sa puissance vient des étagères posées en carré autour de lui, sur deux hauteurs : plus d'étagères, plus d'enchantements accessibles.
+"""
+
+[[quete]]
+cle = "infuseur_avance"
+titre = "L'infuseur avancé"
+deps = ["infuseur"]
+taches = ["item enchantinginfuser:advanced_enchanting_infuser"]
+recompenses = ["xp 8"]
+description = """
+L'&dinfuseur avancé&r choisit, modifie &let retire&r les enchantements, et &lrépare&r l'objet contre des niveaux. La fin de l'enclume pour les outils de valeur.
+"""
+
+[[quete]]
+cle = "desenchanter"
+titre = "Désenchanter"
+deps = ["intro"]
+taches = ["checkmark Compris"]
+recompenses = ["xp 2"]
+description = """
+&bEasy Disenchanting&r permet de retirer un enchantement d'un objet pour le récupérer sur un livre, à la meule. Le coût en expérience est fixé par la config du serveur, un enchantement rendu par opération.
+"""
+
+[[quete]]
+cle = "tome"
+titre = "Un tome d'expérience"
+deps = ["intro"]
+taches = ["item xpbook:xp_tome"]
+recompenses = ["xp 5"]
+description = """
+Le &5tome d'XP&r : accroupi, clic droit pour y verser toute l'expérience possible ; clic droit pour la reprendre. On ne meurt plus avec ses niveaux sur soi — ni en raid, ni ailleurs.
+"""
+
+[[quete]]
+cle = "reforge"
+titre = "Les modèles de forge de l'Aether"
+deps = ["intro"]
+optionnel = true
+taches = ["item aether_treasure_reforging:neptune_upgrade_smithing_template"]
+recompenses = ["xp 5"]
+description = """
+&bAether: Treasure Reforging&r ajoute trois modèles de forge : &bNeptune&r (armure de zanite + maille de Neptune), &6Phénix&r (armure de gravitite + lingot pyral), &fValkyrie&r (équipement de gravitite + lingot de valkyrum). Les trésors des donjons de l'Aether, refondus en équipement.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&dL'équipement est enchanté"
+deps = ["infuseur", "tome"]
+taille = 1.3
+icone = "minecraft:enchanted_book"
+taches = ["checkmark Mon équipement est prêt"]
+recompenses = ["xp 5"]
+description = """
+Un infuseur, un tome, une enclume qui ne punit plus. Ce qu'il manque encore se trouve chez les marchands, dans les donjons, et dans les coffres par joueur.
+"""

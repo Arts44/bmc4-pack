@@ -1,0 +1,489 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cuisine"
+	group: "14858825A29975B1"
+	icon: "farmersdelight:cooking_pot"
+	id: "34F6774771196639"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Farmer's Delight&r remplace le steak-et-pain par une cuisine : des légumes nouveaux, une planche à découper, une poêle, une marmite, et des plats qui nourrissent longtemps et donnent des effets."
+				""
+				"Sur ce serveur, un &lrepas en bol&r a une autre vertu : il rend un &ccœur de vie maximale&r perdu en raid. Les bols et graines offerts sont le début de la cuisine."
+			]
+			icon: "farmersdelight:skillet"
+			id: "678176FB7936539B"
+			rewards: [
+				{
+					count: 8
+					id: "764B9E15B349EB40"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35645BE675CFAF85"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C451C92EF947348"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #farmers-delight sur le Discord."
+			tasks: [{
+				id: "7180923D3BEB9D74"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Farmer's Delight : cuisiner pour de vrai"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["678176FB7936539B"]
+			description: ["Le &7couteau&r se fait en silex, puis en fer, en or, en diamant, en nétherite. Sur la planche, il découpe ; en main, il récolte plus de viande et de cuir."]
+			icon: "farmersdelight:flint_knife"
+			id: "1A130310904C2A41"
+			rewards: [{
+				id: "6D9F43FCB799BDD7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2AA7FADFEF7062CC"
+				item: "farmersdelight:flint_knife"
+				type: "item"
+			}]
+			title: "Un couteau"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A130310904C2A41"]
+			description: ["Pose un ingrédient sur la &7planche&r, frappe-le avec le couteau — ou une hache, une pioche selon la recette. Un chou devient des feuilles, une viande des tranches, un cactus un fruit."]
+			icon: "farmersdelight:cutting_board"
+			id: "01A6896BBEC77631"
+			rewards: [{
+				id: "5A5D1F77FD1E38E8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "360BCBCE77E83DC1"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Une planche à découper"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["678176FB7936539B"]
+			description: ["Le &6fourneau&r cuit ce qu'on pose dessus, à la main, et chauffe la marmite et la poêle posées sur lui. Il brûle du combustible comme un four."]
+			icon: "farmersdelight:stove"
+			id: "144789BF076634AF"
+			rewards: [{
+				id: "74CC35B01CC26DD5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4E6433E57AE74CE2"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Un fourneau"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["144789BF076634AF"]
+			description: ["La &7poêle&r cuit la viande et les œufs sur le fourneau ou un feu de camp, et se porte en main pour cuire en marchant. Elle fait aussi une arme, lourde."]
+			icon: "farmersdelight:skillet"
+			id: "36E6CEBA3AAD9D58"
+			rewards: [{
+				id: "0207119C0812EDC7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5B04386D9227F74E"
+				item: "farmersdelight:skillet"
+				type: "item"
+			}]
+			title: "Une poêle"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["144789BF076634AF"]
+			description: ["La &6marmite&r, sur une source de chaleur, combine jusqu'à six ingrédients en un plat : soupe, ragoût, riz, curry. Elle sert dans un bol ou une assiette posée dans sa case. C'est le cœur de tout ce chapitre."]
+			icon: "farmersdelight:cooking_pot"
+			id: "59AA569134B40C26"
+			rewards: [{
+				id: "3139657A3EC7A507"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "1F48B3673F854CEB"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Une marmite"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["678176FB7936539B"]
+			description: ["Quatre cultures nouvelles. Les versions sauvages poussent dans les biomes ; le riz se plante dans l'eau, la tomate grimpe sur une corde. Les graines des pavillons du Marché sont une autre source."]
+			icon: "farmersdelight:cabbage"
+			id: "695D9659C003D7ED"
+			rewards: [{
+				id: "3CAC18B7D89B713C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "3B83F20ABA7C20C7"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					id: "7F2D60AC76A92E5C"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "72EB0B39EB37AAF2"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "294E8AC225CC21D1"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "Chou, tomate, oignon, riz"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["695D9659C003D7ED"]
+			description: ["Le &7compost organique&r se fait avec des restes de cuisine et finit par devenir de la &6terre riche&r, qui fait pousser plus vite et plus fort que la terre labourée."]
+			icon: "farmersdelight:rich_soil"
+			id: "246BFA71548DAA5C"
+			rewards: [{
+				id: "70D45C97301C7536"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "5F2388C61EB701BC"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "De la terre riche"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"59AA569134B40C26"
+				"695D9659C003D7ED"
+			]
+			description: ["Bœuf, carotte, pomme de terre, dans la marmite, et un bol. Les plats de la marmite portent des effets, affichés dans leur infobulle : &bConfort&r régénère quelle que soit la faim, &bNourriture&r empêche la faim de baisser. Et le &6ragoût de bœuf&r est un repas en bol : il rend un cœur perdu en raid."]
+			icon: "farmersdelight:beef_stew"
+			id: "2DDDFAA1B247FA21"
+			rewards: [{
+				id: "56B8B8A8996C4028"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2E71E6E1F515CA79"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			title: "Un premier ragoût"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2DDDFAA1B247FA21"]
+			description: ["La marmite fait toutes les soupes : légumes, poulet, poisson, citrouille, nouilles, oignon. Les trois demandées suffisent à prouver qu'on sait s'en servir ; l'Encyclopédie, chapitre &7Gastronomie&r, les compte toutes."]
+			icon: "farmersdelight:vegetable_soup"
+			id: "18735BB018B2EED0"
+			rewards: [{
+				id: "70C866D7BC8640A8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "7EB85D08E7E0B054"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "530A6AF141E49B7A"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+				{
+					id: "4CA352AB1D64BBE1"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+			]
+			title: "Soupes et bouillons"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"59AA569134B40C26"
+				"695D9659C003D7ED"
+			]
+			description: ["Pas tout passe par la marmite : la &asalade composée&r se fait à la table. Le &6riz sauté&r, lui, vient de la marmite. Les deux sont des repas en bol."]
+			icon: "farmersdelight:mixed_salad"
+			id: "27825504113225A9"
+			rewards: [{
+				id: "40871E93CD03C19D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "1B2D44A061FA26D5"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "0B94FBA110C1BC53"
+					item: "farmersdelight:fried_rice"
+					type: "item"
+				}
+			]
+			title: "Une salade et du riz sauté"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2DDDFAA1B247FA21"]
+			description: ["Un &6festin&r se pose comme un bloc et se sert en parts : hachis parmentier, poulet rôti, citrouille farcie, jambon glacé au miel. Le repas d'une faction après un raid."]
+			icon: "farmersdelight:shepherds_pie_block"
+			id: "1CE87D93CDE8408B"
+			rewards: [{
+				id: "1E7CAD4820F39258"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "74E7371B8B87E46F"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			title: "Un festin"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["695D9659C003D7ED"]
+			description: ["La &7corde&r sert de tuteur aux tomates et de liane à descendre. Le &7panier&r posé sous un arbre ramasse ce qui en tombe."]
+			icon: "farmersdelight:rope"
+			id: "23666175CC44C93A"
+			rewards: [{
+				id: "702F4499839DF018"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "1BA0B3C526CA5273"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+				{
+					id: "629A6FDF868ED27B"
+					item: "farmersdelight:wooden_basket"
+					type: "item"
+				}
+			]
+			title: "Corde et panier"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59AA569134B40C26"]
+			description: ["&bOcean's Delight&r cuisine ce que l'océan donne : tentacules, gardiens, concombres de mer. La &bsoupe de gardien&r se fait à la marmite."]
+			icon: "oceansdelight:guardian_soup"
+			id: "62B439CFB59061D0"
+			optional: true
+			rewards: [{
+				id: "2723E08441CE60D7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41CF1076624D56AF"
+				item: "oceansdelight:guardian_soup"
+				type: "item"
+			}]
+			title: "Ocean's Delight"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59AA569134B40C26"]
+			description: ["&bCrabber's Delight&r : un &7casier à crabes&r posé dans l'eau attrape crabes, crevettes et palourdes, et la marmite en fait une &6bisque&r."]
+			icon: "crabbersdelight:crab_trap"
+			id: "0B02110E3144B9AE"
+			optional: true
+			rewards: [{
+				id: "0A293DDA64AF88E6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "63CCD49FF455CC57"
+					item: "crabbersdelight:crab_trap"
+					type: "item"
+				}
+				{
+					id: "74F4586A08FFC59B"
+					item: "crabbersdelight:bisque"
+					type: "item"
+				}
+			]
+			title: "Crabber's Delight"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["59AA569134B40C26"]
+			description: ["&cMy Nether's Delight&r : un fourneau du Nether, des cannes poudreuses, du piment, et des plats de hoglin et de strider. La cuisine continue de l'autre côté du portail."]
+			icon: "mynethersdelight:nether_stove"
+			id: "4D8A1D0FDFA44FC9"
+			optional: true
+			rewards: [{
+				id: "42F648AF8CBED8F1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37E48E5DC9A9363B"
+				item: "mynethersdelight:nether_stove"
+				type: "item"
+			}]
+			title: "My Nether's Delight"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59AA569134B40C26"]
+			description: ["&dEnder's Delight&r : le chorus se cuisine, le shulker aussi. Le &dragoût de chorus&r se fait à la marmite, avec ce que l'End donne."]
+			icon: "endersdelight:chorus_stew"
+			id: "13B60358BDB680A2"
+			optional: true
+			rewards: [{
+				id: "41027636912528BD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54D857B3404F86C0"
+				item: "endersdelight:chorus_stew"
+				type: "item"
+			}]
+			title: "Ender's Delight"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59AA569134B40C26"]
+			description: ["&5Twilight's Flavor & Delight&r : une &cmarmite ardente&r pour les ingrédients de la Twilight Forest, des gâteaux d'aurore, des tartes de baies de torche."]
+			icon: "twilightdelight:fiery_cooking_pot"
+			id: "14E8391AAC5909F2"
+			optional: true
+			rewards: [{
+				id: "1E016CC069D9FF8E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F64162A580FC177"
+				item: "twilightdelight:fiery_cooking_pot"
+				type: "item"
+			}]
+			title: "Twilight's Flavor & Delight"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["59AA569134B40C26"]
+			description: ["&aDelightful&r relie Farmer's Delight aux autres mods du pack : baies, fruits, soupes et tartes faites avec ce que les biomes des autres mods produisent. La &asoupe de cactus&r est l'une des plus simples."]
+			icon: "delightful:cactus_soup"
+			id: "009EB35E6ABDAA5E"
+			optional: true
+			rewards: [{
+				id: "5F5598D27BC14DC5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C034B15AE210672"
+				item: "delightful:cactus_soup"
+				type: "item"
+			}]
+			title: "Delightful"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2DDDFAA1B247FA21"
+				"1CE87D93CDE8408B"
+			]
+			description: ["Une marmite qui tourne, des ragoûts en réserve pour l'après-raid, un festin pour la victoire. Le chapitre &7Gastronomie&r de l'Encyclopédie liste chaque plat du pack."]
+			icon: "farmersdelight:shepherds_pie"
+			id: "7FF26B99481110EE"
+			rewards: [{
+				id: "04C5B116565ADCCB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2C7AE1642FFAA1C1"
+				title: "Ma faction mange chaud"
+				type: "checkmark"
+			}]
+			title: "&6La table est mise"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "&6Cuisine"
+}

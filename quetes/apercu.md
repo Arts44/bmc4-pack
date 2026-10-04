@@ -713,6 +713,72 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **La poste et le chemin de fer** — tâches : checkmark Colis livrés, train parti — récompense : xp 10 — après : guichet, train
   > Un guichet qui commande, des colis qui arrivent, un train qui relie. C'est tout Create 6. Le reste du mod se découvre dans l'Encyclopédie, chapitre Atelier Create.
 
+## Cuisine  (`cuisine`, 20 quêtes)
+
+- **Farmer's Delight : cuisiner pour de vrai** — tâches : checkmark Lu — récompense : item minecraft:bowl 8, item farmersdelight:cabbage_seeds 4, item farmersdelight:tomato_seeds 4
+  > Farmer's Delight remplace le steak-et-pain par une cuisine : des légumes nouveaux, une planche à découper, une poêle, une marmite, et des plats qui nourrissent longtemps et donnent des effets.
+  >   > Sur ce serveur, un repas en bol a une autre vertu : il rend un cœur de vie maximale perdu en raid. Les bols et graines offerts sont le début de la cuisine.
+- **Un couteau** — tâches : item farmersdelight:flint_knife — récompense : xp 2 — après : intro
+  > Le couteau se fait en silex, puis en fer, en or, en diamant, en nétherite. Sur la planche, il découpe ; en main, il récolte plus de viande et de cuir.
+- **Une planche à découper** — tâches : item farmersdelight:cutting_board — récompense : xp 3 — après : couteau
+  > Pose un ingrédient sur la planche, frappe-le avec le couteau — ou une hache, une pioche selon la recette. Un chou devient des feuilles, une viande des tranches, un cactus un fruit.
+- **Un fourneau** — tâches : item farmersdelight:stove — récompense : xp 3 — après : intro
+  > Le fourneau cuit ce qu'on pose dessus, à la main, et chauffe la marmite et la poêle posées sur lui. Il brûle du combustible comme un four.
+- **Une poêle** — tâches : item farmersdelight:skillet — récompense : xp 3 — après : fourneau
+  > La poêle cuit la viande et les œufs sur le fourneau ou un feu de camp, et se porte en main pour cuire en marchant. Elle fait aussi une arme, lourde.
+- **Une marmite** — tâches : item farmersdelight:cooking_pot — récompense : xp 8 — après : fourneau
+  > La marmite, sur une source de chaleur, combine jusqu'à six ingrédients en un plat : soupe, ragoût, riz, curry. Elle sert dans un bol ou une assiette posée dans sa case. C'est le cœur de tout ce chapitre.
+- **Chou, tomate, oignon, riz** — tâches : item farmersdelight:cabbage, item farmersdelight:tomato, item farmersdelight:onion, item farmersdelight:rice — récompense : xp 5 — après : intro
+  > Quatre cultures nouvelles. Les versions sauvages poussent dans les biomes ; le riz se plante dans l'eau, la tomate grimpe sur une corde. Les graines des pavillons du Marché sont une autre source.
+- **De la terre riche** — tâches : item farmersdelight:rich_soil 8 — récompense : xp 3 — après : legumes
+  > Le compost organique se fait avec des restes de cuisine et finit par devenir de la terre riche, qui fait pousser plus vite et plus fort que la terre labourée.
+- **Un premier ragoût** — tâches : item farmersdelight:beef_stew — récompense : xp 8 — après : marmite, legumes
+  > Bœuf, carotte, pomme de terre, dans la marmite, et un bol. Les plats de la marmite portent des effets, affichés dans leur infobulle : Confort régénère quelle que soit la faim, Nourriture empêche la faim de baisser. Et le ragoût de bœuf est un repas en bol : il rend un cœur perdu en raid.
+- **Soupes et bouillons** — tâches : item farmersdelight:vegetable_soup, item farmersdelight:chicken_soup, item farmersdelight:fish_stew — récompense : xp 5 — après : ragout
+  > La marmite fait toutes les soupes : légumes, poulet, poisson, citrouille, nouilles, oignon. Les trois demandées suffisent à prouver qu'on sait s'en servir ; l'Encyclopédie, chapitre Gastronomie, les compte toutes.
+- **Une salade et du riz sauté** — tâches : item farmersdelight:mixed_salad, item farmersdelight:fried_rice — récompense : xp 5 — après : marmite, legumes
+  > Pas tout passe par la marmite : la salade composée se fait à la table. Le riz sauté, lui, vient de la marmite. Les deux sont des repas en bol.
+- **Un festin** — tâches : item farmersdelight:shepherds_pie_block — récompense : xp 5 — après : ragout
+  > Un festin se pose comme un bloc et se sert en parts : hachis parmentier, poulet rôti, citrouille farcie, jambon glacé au miel. Le repas d'une faction après un raid.
+- **Corde et panier** — tâches : item farmersdelight:rope 8, item farmersdelight:wooden_basket — récompense : xp 2 — après : legumes
+  > La corde sert de tuteur aux tomates et de liane à descendre. Le panier posé sous un arbre ramasse ce qui en tombe.
+- **Ocean's Delight** *(optionnelle)* — tâches : item oceansdelight:guardian_soup — récompense : xp 5 — après : marmite
+  > Ocean's Delight cuisine ce que l'océan donne : tentacules, gardiens, concombres de mer. La soupe de gardien se fait à la marmite.
+- **Crabber's Delight** *(optionnelle)* — tâches : item crabbersdelight:crab_trap, item crabbersdelight:bisque — récompense : xp 5 — après : marmite
+  > Crabber's Delight : un casier à crabes posé dans l'eau attrape crabes, crevettes et palourdes, et la marmite en fait une bisque.
+- **My Nether's Delight** *(optionnelle)* — tâches : item mynethersdelight:nether_stove — récompense : xp 5 — après : marmite
+  > My Nether's Delight : un fourneau du Nether, des cannes poudreuses, du piment, et des plats de hoglin et de strider. La cuisine continue de l'autre côté du portail.
+- **Ender's Delight** *(optionnelle)* — tâches : item endersdelight:chorus_stew — récompense : xp 5 — après : marmite
+  > Ender's Delight : le chorus se cuisine, le shulker aussi. Le ragoût de chorus se fait à la marmite, avec ce que l'End donne.
+- **Twilight's Flavor Delight** *(optionnelle)* — tâches : item twilightdelight:fiery_cooking_pot — récompense : xp 5 — après : marmite
+  > Twilight's Flavor Delight : une marmite ardente pour les ingrédients de la Twilight Forest, des gâteaux d'aurore, des tartes de baies de torche.
+- **Delightful** *(optionnelle)* — tâches : item delightful:cactus_soup — récompense : xp 5 — après : marmite
+  > Delightful relie Farmer's Delight aux autres mods du pack : baies, fruits, soupes et tartes faites avec ce que les biomes des autres mods produisent. La soupe de cactus est l'une des plus simples.
+- **La table est mise** — tâches : checkmark Ma faction mange chaud — récompense : xp 10 — après : ragout, festin
+  > Une marmite qui tourne, des ragoûts en réserve pour l'après-raid, un festin pour la victoire. Le chapitre Gastronomie de l'Encyclopédie liste chaque plat du pack.
+
+## Enchantement  (`enchantement`, 9 quêtes)
+
+- **Enchanter autrement** — tâches : checkmark Lu — récompense : item minecraft:lapis_lazuli 16, item minecraft:book 4
+  > Le pack change l'enchantement en profondeur : la table vanilla montre ses enchantements et se relance, l'enclume ne punit plus les travaux répétés, un infuseur laisse choisir ses enchantements, et un tome stocke l'expérience.
+  >   > Le lapis et les livres offerts sont pour la table, en attendant l'infuseur.
+- **La table, version Easy Magic** — tâches : item minecraft:enchanting_table — récompense : xp 3 — après : intro
+  > Avec Easy Magic, la table affiche un indice de l'enchantement proposé, et un bouton relance les trois propositions pour 5 points d'expérience et un lapis. Les étagères comptent même avec un bloc entre elles. Jusqu'à 15 de puissance.
+- **L'enclume, version Easy Anvils** — tâches : item minecraft:anvil — récompense : xp 3 — après : intro
+  > Avec Easy Anvils, la pénalité de travaux antérieurs est fixe (4), plus de « trop cher », les livres coûtent moitié moins, renommer est gratuit, et l'enclume ne casse qu'une fois sur vingt. Réparer et renommer ne comptent pas comme travaux.
+- **Un infuseur d'enchantement** — tâches : item enchantinginfuser:enchanting_infuser — récompense : xp 8 — après : table
+  > L'infuseur laisse choisir les enchantements de l'objet, et leur niveau, contre de l'expérience. Sa puissance vient des étagères posées en carré autour de lui, sur deux hauteurs : plus d'étagères, plus d'enchantements accessibles.
+- **L'infuseur avancé** — tâches : item enchantinginfuser:advanced_enchanting_infuser — récompense : xp 8 — après : infuseur
+  > L'infuseur avancé choisit, modifie et retire les enchantements, et répare l'objet contre des niveaux. La fin de l'enclume pour les outils de valeur.
+- **Désenchanter** — tâches : checkmark Compris — récompense : xp 2 — après : intro
+  > Easy Disenchanting permet de retirer un enchantement d'un objet pour le récupérer sur un livre, à la meule. Le coût en expérience est fixé par la config du serveur, un enchantement rendu par opération.
+- **Un tome d'expérience** — tâches : item xpbook:xp_tome — récompense : xp 5 — après : intro
+  > Le tome d'XP : accroupi, clic droit pour y verser toute l'expérience possible ; clic droit pour la reprendre. On ne meurt plus avec ses niveaux sur soi — ni en raid, ni ailleurs.
+- **Les modèles de forge de l'Aether** *(optionnelle)* — tâches : item aether_treasure_reforging:neptune_upgrade_smithing_template — récompense : xp 5 — après : intro
+  > Aether: Treasure Reforging ajoute trois modèles de forge : Neptune (armure de zanite + maille de Neptune), Phénix (armure de gravitite + lingot pyral), Valkyrie (équipement de gravitite + lingot de valkyrum). Les trésors des donjons de l'Aether, refondus en équipement.
+- **L'équipement est enchanté** — tâches : checkmark Mon équipement est prêt — récompense : xp 5 — après : infuseur, tome
+  > Un infuseur, un tome, une enclume qui ne punit plus. Ce qu'il manque encore se trouve chez les marchands, dans les donjons, et dans les coffres par joueur.
+
 ## Iron Jetpacks  (`iron_jetpacks`, 7 quêtes)
 
 - **Voler, à l'énergie** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8

@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchantement"
+	group: "14858825A29975B1"
+	icon: "enchantinginfuser:enchanting_infuser"
+	id: "7EA91DB9EEF06126"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Le pack change l'enchantement en profondeur : la table vanilla montre ses enchantements et se relance, l'enclume ne punit plus les travaux répétés, un &dinfuseur&r laisse choisir ses enchantements, et un &dtome&r stocke l'expérience."
+				""
+				"Le lapis et les livres offerts sont pour la table, en attendant l'infuseur."
+			]
+			icon: "minecraft:enchanting_table"
+			id: "076B18B95D2ED04B"
+			rewards: [
+				{
+					count: 16
+					id: "39A96A8AEDF36CA0"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5ADF9B130AD72DD5"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #enchanting-infuser sur le Discord."
+			tasks: [{
+				id: "7393A914EDDA4FEA"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&dEnchanter autrement"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076B18B95D2ED04B"]
+			description: ["Avec &bEasy Magic&r, la table affiche un indice de l'enchantement proposé, et un bouton relance les trois propositions pour &b5 points&r d'expérience et un lapis. Les étagères comptent même avec un bloc entre elles. Jusqu'à 15 de puissance."]
+			icon: "minecraft:enchanting_table"
+			id: "35C37D4049A8C144"
+			rewards: [{
+				id: "63D1C90DD3B067C3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "09366EE6500EAFCE"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "La table, version Easy Magic"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["076B18B95D2ED04B"]
+			description: ["Avec &bEasy Anvils&r, la pénalité de travaux antérieurs est &lfixe&r (4), plus de « trop cher », les livres coûtent moitié moins, renommer est gratuit, et l'enclume ne casse qu'une fois sur vingt. Réparer et renommer ne comptent pas comme travaux."]
+			icon: "minecraft:anvil"
+			id: "0230900F9D8B163C"
+			rewards: [{
+				id: "5D01AC91D88865DA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "34184BD9A343E9C4"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "L'enclume, version Easy Anvils"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["35C37D4049A8C144"]
+			description: ["L'&dinfuseur&r laisse &lchoisir&r les enchantements de l'objet, et leur niveau, contre de l'expérience. Sa puissance vient des étagères posées en carré autour de lui, sur deux hauteurs : plus d'étagères, plus d'enchantements accessibles."]
+			icon: "enchantinginfuser:enchanting_infuser"
+			id: "6E97165F3E7D865E"
+			rewards: [{
+				id: "053B6EDC7212A07D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "45E7F8F63E4BE9E4"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			title: "Un infuseur d'enchantement"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E97165F3E7D865E"]
+			description: ["L'&dinfuseur avancé&r choisit, modifie &let retire&r les enchantements, et &lrépare&r l'objet contre des niveaux. La fin de l'enclume pour les outils de valeur."]
+			icon: "enchantinginfuser:advanced_enchanting_infuser"
+			id: "6AEBECC7CA80D342"
+			rewards: [{
+				id: "100473A90E1C62C5"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "4A809AA857DD865A"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			title: "L'infuseur avancé"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["076B18B95D2ED04B"]
+			description: ["&bEasy Disenchanting&r permet de retirer un enchantement d'un objet pour le récupérer sur un livre, à la meule. Le coût en expérience est fixé par la config du serveur, un enchantement rendu par opération."]
+			id: "46C32D1A51DB0CEB"
+			rewards: [{
+				id: "261713FCDD026D1C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "45084923A095F87C"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Désenchanter"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["076B18B95D2ED04B"]
+			description: ["Le &5tome d'XP&r : accroupi, clic droit pour y verser toute l'expérience possible ; clic droit pour la reprendre. On ne meurt plus avec ses niveaux sur soi — ni en raid, ni ailleurs."]
+			icon: "xpbook:xp_tome"
+			id: "6627CABC93264599"
+			rewards: [{
+				id: "0BD1CA9DA3FA5863"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0AFF872D6E7C1F5E"
+				item: "xpbook:xp_tome"
+				type: "item"
+			}]
+			title: "Un tome d'expérience"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["076B18B95D2ED04B"]
+			description: ["&bAether: Treasure Reforging&r ajoute trois modèles de forge : &bNeptune&r (armure de zanite + maille de Neptune), &6Phénix&r (armure de gravitite + lingot pyral), &fValkyrie&r (équipement de gravitite + lingot de valkyrum). Les trésors des donjons de l'Aether, refondus en équipement."]
+			icon: "aether_treasure_reforging:neptune_upgrade_smithing_template"
+			id: "686FD69B454B5448"
+			optional: true
+			rewards: [{
+				id: "01FDF6DC48A287C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "172E964BDD1AF585"
+				item: "aether_treasure_reforging:neptune_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Les modèles de forge de l'Aether"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6E97165F3E7D865E"
+				"6627CABC93264599"
+			]
+			description: ["Un infuseur, un tome, une enclume qui ne punit plus. Ce qu'il manque encore se trouve chez les marchands, dans les donjons, et dans les coffres par joueur."]
+			icon: "minecraft:enchanted_book"
+			id: "2063D76D7E875F70"
+			rewards: [{
+				id: "0DF54DC11C9B8369"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "4FC052CC9DECB972"
+				title: "Mon équipement est prêt"
+				type: "checkmark"
+			}]
+			title: "&dL'équipement est enchanté"
+			x: 6.0d
+			y: 0.75d
+		}
+	]
+	title: "&dEnchantement"
+}
