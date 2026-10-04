@@ -690,3 +690,57 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Tube électronique entre deux alliages : deux panneaux. Avec un lien d'affichage, ils montrent le contenu d'un coffre, l'heure, les trains attendus en gare, ou le stock d'un guichet.
 - **La poste et le chemin de fer** — tâches : checkmark Colis livrés, train parti — récompense : xp 10 — après : guichet, train
   > Un guichet qui commande, des colis qui arrivent, un train qui relie. C'est tout Create 6. Le reste du mod se découvre dans l'Encyclopédie, chapitre Atelier Create.
+
+## Mystical Agriculture  (`mystical_agriculture`, 25 quêtes)
+
+- **Cultiver des ressources** — tâches : checkmark Lu — récompense : item mysticalagriculture:mystical_fertilizer 4, item minecraft:bone_meal 16
+  > Mystical Agriculture fait pousser le fer, le diamant, la nétherite : une graine par ressource, et des champs qui remplacent la mine. Tout part de deux minerais, la prospérité et l'inferium, et de cinq paliers d'essence qui se fabriquent les uns à partir des autres.
+  >   > L'engrais mystique offert fait pousser n'importe quelle culture d'un coup. Garde-le pour les premières graines d'essence.
+- **Des éclats de prospérité** — tâches : item mysticalagriculture:prosperity_shard 16 — récompense : xp 3 — après : intro
+  > Le minerai de prospérité se mine dans la pierre et donne des éclats. Ils entrent dans la base de graine, le cristal d'infusion et les lingots de prospérité : c'est la monnaie du mod.
+- **De l'essence d'inferium** — tâches : item mysticalagriculture:inferium_essence 16 — récompense : xp 3 — après : intro
+  > Le minerai d'inferium se mine comme le charbon. Son essence est le premier palier : tout ce qui suit en consomme, et les champs d'inferium en produiront bien plus que la mine.
+- **Des graines d'inferium** — tâches : item mysticalagriculture:inferium_seeds 4 — récompense : xp 5 — après : inferium
+  > Huit essences d'inferium autour de graines de blé. Plantées, elles donnent de l'inferium à chaque récolte et se replantent : c'est la première culture qui rapporte, et la seule qui se fabrique sans autel.
+- **De la terre d'essence** — tâches : item mysticalagriculture:inferium_farmland 8 — récompense : xp 3 — après : graines_inferium
+  > Une essence d'inferium et une terre labourée, à la table ou d'un clic droit sur le champ. La terre d'inferium fait pousser plus vite ; chaque palier d'essence a la sienne, plus rapide encore.
+- **Un cristal d'infusion** — tâches : item mysticalagriculture:infusion_crystal — récompense : xp 5 — après : prosperite, inferium
+  > Un diamant au centre, quatre éclats de prospérité et quatre essences d'inferium. Le cristal d'infusion est l'outil qui fait monter l'essence de palier ; il s'use, et le cristal maître, en supremium, ne s'use plus.
+- **Du prudentium** — tâches : item mysticalagriculture:prudentium_essence 8 — récompense : xp 5 — après : cristal
+  > Quatre essences d'inferium autour du cristal d'infusion : une essence de prudentium. C'est la règle de tous les paliers : quatre du palier d'avant, et le cristal.
+- **Du tertium** — tâches : item mysticalagriculture:tertium_essence 8 — récompense : xp 5 — après : prudentium
+  > Quatre prudentium et le cristal. Le tertium ouvre les cultures du milieu : or, redstone, et les premiers outils sérieux.
+- **De l'imperium** — tâches : item mysticalagriculture:imperium_essence 8 — récompense : xp 5 — après : tertium
+  > Quatre tertium et le cristal. L'imperium, c'est le diamant et l'émeraude en culture.
+- **Du supremium** — tâches : item mysticalagriculture:supremium_essence 8 — récompense : xp 8 — après : imperium
+  > Quatre imperium et le cristal. Le supremium est le dernier palier ordinaire : nétherite, outils et armure de supremium, cristal maître. Au-delà, il y a l'éveil.
+- **L'autel d'infusion** — tâches : item mysticalagriculture:infusion_altar, item mysticalagriculture:infusion_pedestal 8 — récompense : xp 8 — après : prosperite
+  > Lingots d'or, laine rouge et pierre : un autel et huit piédestaux, de la même recette moins une pierre. Posés en cercle autour de l'autel, ils reçoivent les ingrédients ; un clic sur l'autel lance l'infusion. C'est là que naissent toutes les graines de ressources.
+- **Des bases de graine** — tâches : item mysticalagriculture:prosperity_seed_base 4 — récompense : xp 3 — après : prosperite
+  > Quatre éclats de prospérité autour de graines de blé. La base de graine va au centre de l'autel : les piédestaux autour reçoivent l'essence du palier et le matériau à cultiver, en alternance.
+- **Cultiver du bois** — tâches : item mysticalagriculture:wood_seeds — récompense : xp 5 — après : autel, base, graines_inferium
+  > Première infusion : la base de graine, de l'essence d'inferium et du bois sur les piédestaux. Les graines de bois sont du premier palier, comme la terre et la pierre.
+- **Cultiver de la pierre** — tâches : item mysticalagriculture:stone_seeds — récompense : xp 3 — après : bois
+  > Même infusion, avec de la pierre. Les cultures de premier palier ne demandent que de l'inferium.
+- **Cultiver du fer** — tâches : item mysticalagriculture:iron_seeds — récompense : xp 5 — après : bois, prudentium
+  > Le fer est du deuxième palier : essence de prudentium et lingots de fer sur les piédestaux. Un champ de fer est la fin de la mine de fer.
+- **Cultiver de l'or** — tâches : item mysticalagriculture:gold_seeds — récompense : xp 5 — après : fer, tertium
+  > Troisième palier : tertium et lingots d'or.
+- **Cultiver du diamant** — tâches : item mysticalagriculture:diamond_seeds — récompense : xp 8 — après : or, imperium
+  > Quatrième palier : imperium et diamants. Le champ paiera les diamants mis à l'infusion, puis tous les suivants.
+- **Cultiver de la nétherite** — tâches : item mysticalagriculture:netherite_seeds — récompense : xp 10 — après : diamant, supremium
+  > Cinquième palier : supremium et lingots de nétherite, en alternance sur les piédestaux. Ce que le Nether rendait au compte-gouttes pousse dans un champ. La nétherite ne se donne pas en quête sur ce serveur ; ici, elle se cultive.
+- **Des accélérateurs de croissance** — tâches : item mysticalagriculture:inferium_growth_accelerator 3 — récompense : xp 3 — après : graines_inferium
+  > Quatre essences d'inferium, quatre pierres, une gemme d'inferium au centre : trois accélérateurs. Posés sous la terre d'essence, ils font pousser plus vite ; empilés, ils s'additionnent. Chaque palier a le sien.
+- **Une moissonneuse** — tâches : item mysticalagriculture:harvester — récompense : xp 5 — après : fer
+  > Lingots de fer, lingots de soulium, deux faux en diamant et un châssis de machine. La moissonneuse récolte et replante devant elle, en continu, avec un peu d'énergie. Le chapitre Powah dit d'où vient l'énergie.
+- **Les quatre éléments** — tâches : item mysticalagriculture:air_seeds, item mysticalagriculture:earth_seeds, item mysticalagriculture:water_seeds, item mysticalagriculture:fire_seeds — récompense : xp 5 — après : autel
+  > Air, terre, eau, feu : quatre cultures à part, infusées avec des agglomérats (une bouteille, du gravier, de la terre, de l'argile pour l'air). Leur essence ne sert qu'à une chose : l'éveil du supremium.
+- **L'autel d'éveil** — tâches : item mysticalagriculture:awakening_altar, item mysticalagriculture:awakening_pedestal 8 — récompense : xp 8 — après : supremium, elements
+  > Comme l'autel d'infusion, mais en pierre d'âme et laine orange. À l'autel d'éveil, un bloc de supremium et dix essences de chaque élément deviennent un bloc de supremium éveillé.
+- **Du supremium éveillé** — tâches : item mysticalagriculture:awakened_supremium_essence 9 — récompense : xp 10 — après : eveil
+  > Un bloc éveillé se défait en neuf essences de supremium éveillé. C'est le sommet du mod : outils, armure, et la houe éveillée qui ne s'use pas — celle que demande le pylône de récolte.
+- **La poussière cognizante** *(optionnelle)* — tâches : item mysticalagriculture:cognizant_dust — récompense : xp 10 — après : eveil
+  > Le Wither et l'Ender Dragon lâchent de la poussière cognizante quand ils sont tués avec une arme d'essence enchantée Mystical Enlightenment. Les deux sont activés sur le serveur. Elle sert aux éveils les plus avancés.
+- **La ferme remplace la mine** — tâches : checkmark Mes champs tournent — récompense : xp 10 — après : netherite, eveille
+  > Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre Pylons ajoute la récolte automatique sans énergie, à une condition près.

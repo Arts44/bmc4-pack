@@ -1,0 +1,583 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture"
+	group: "14858825A29975B1"
+	icon: "mysticalagriculture:inferium_essence"
+	id: "08C45A1D5C9D8038"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&aMystical Agriculture&r fait pousser le fer, le diamant, la nétherite : une graine par ressource, et des champs qui remplacent la mine. Tout part de deux minerais, la &dprospérité&r et l'&ainferium&r, et de cinq paliers d'essence qui se fabriquent les uns à partir des autres."
+				""
+				"L'engrais mystique offert fait pousser n'importe quelle culture d'un coup. Garde-le pour les premières graines d'essence."
+			]
+			icon: "mysticalagriculture:inferium_seeds"
+			id: "7C91CA1C26D3F240"
+			rewards: [
+				{
+					count: 4
+					id: "79C2C9B526EEE914"
+					item: "mysticalagriculture:mystical_fertilizer"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "59E6761768013108"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #mystical-agriculture sur le Discord."
+			tasks: [{
+				id: "2F33E116BB1BD5AE"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&aCultiver des ressources"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C91CA1C26D3F240"]
+			description: ["Le &dminerai de prospérité&r se mine dans la pierre et donne des éclats. Ils entrent dans la base de graine, le cristal d'infusion et les lingots de prospérité : c'est la monnaie du mod."]
+			icon: "mysticalagriculture:prosperity_shard"
+			id: "77BE14D0C241B4E1"
+			rewards: [{
+				id: "368F630F02FDD20B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 16L
+				id: "54D0E5A67266CD61"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			title: "Des éclats de prospérité"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7C91CA1C26D3F240"]
+			description: ["Le &aminerai d'inferium&r se mine comme le charbon. Son essence est le premier palier : tout ce qui suit en consomme, et les champs d'inferium en produiront bien plus que la mine."]
+			icon: "mysticalagriculture:inferium_essence"
+			id: "7CB09F48F66E9245"
+			rewards: [{
+				id: "5BEA66A5353CBA84"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 16L
+				id: "2D51CB9910647B7E"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			title: "De l'essence d'inferium"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7CB09F48F66E9245"]
+			description: ["Huit essences d'inferium autour de graines de blé. Plantées, elles donnent de l'inferium à chaque récolte et se replantent : c'est la première culture qui rapporte, et la seule qui se fabrique sans autel."]
+			icon: "mysticalagriculture:inferium_seeds"
+			id: "637C9006D52C690A"
+			rewards: [{
+				id: "20A8E8A4A4E2516A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "4E5DE5AE97DB8546"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			title: "Des graines d'inferium"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["637C9006D52C690A"]
+			description: ["Une essence d'inferium et une terre labourée, à la table ou d'un clic droit sur le champ. La &aterre d'inferium&r fait pousser plus vite ; chaque palier d'essence a la sienne, plus rapide encore."]
+			icon: "mysticalagriculture:inferium_farmland"
+			id: "78EE19DFD1BC4998"
+			rewards: [{
+				id: "752CE43D2998E0E2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "6B58F34DA4556107"
+				item: "mysticalagriculture:inferium_farmland"
+				type: "item"
+			}]
+			title: "De la terre d'essence"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"77BE14D0C241B4E1"
+				"7CB09F48F66E9245"
+			]
+			description: ["Un diamant au centre, quatre éclats de prospérité et quatre essences d'inferium. Le &bcristal d'infusion&r est l'outil qui fait monter l'essence de palier ; il s'use, et le cristal maître, en supremium, ne s'use plus."]
+			icon: "mysticalagriculture:infusion_crystal"
+			id: "31A5BCF4CC6FE1B5"
+			rewards: [{
+				id: "6FB89FF0F36FD2B0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3B7DD148216B498C"
+				item: "mysticalagriculture:infusion_crystal"
+				type: "item"
+			}]
+			title: "Un cristal d'infusion"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["31A5BCF4CC6FE1B5"]
+			description: ["Quatre essences d'inferium autour du cristal d'infusion : une essence de &2prudentium&r. C'est la règle de tous les paliers : quatre du palier d'avant, et le cristal."]
+			icon: "mysticalagriculture:prudentium_essence"
+			id: "1E0AAEDF3F6656A4"
+			rewards: [{
+				id: "479C499044B7F9C6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 8L
+				id: "37C0182FA797E486"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			title: "Du prudentium"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E0AAEDF3F6656A4"]
+			description: ["Quatre prudentium et le cristal. Le &6tertium&r ouvre les cultures du milieu : or, redstone, et les premiers outils sérieux."]
+			icon: "mysticalagriculture:tertium_essence"
+			id: "2D93EBED9447D1C9"
+			rewards: [{
+				id: "718F1F3873C82998"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 8L
+				id: "154E79739B668750"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			title: "Du tertium"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D93EBED9447D1C9"]
+			description: ["Quatre tertium et le cristal. L'&bimperium&r, c'est le diamant et l'émeraude en culture."]
+			icon: "mysticalagriculture:imperium_essence"
+			id: "0B7651ABDF440D26"
+			rewards: [{
+				id: "4404EAD5242459EC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 8L
+				id: "2929EE294118DF4F"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			title: "De l'imperium"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B7651ABDF440D26"]
+			description: ["Quatre imperium et le cristal. Le &csupremium&r est le dernier palier ordinaire : nétherite, outils et armure de supremium, cristal maître. Au-delà, il y a l'éveil."]
+			icon: "mysticalagriculture:supremium_essence"
+			id: "3D0886FD0A32E223"
+			rewards: [{
+				id: "5414A6CC16F0F0CB"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				count: 8L
+				id: "5312B13455E30BDC"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			title: "Du supremium"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["77BE14D0C241B4E1"]
+			description: ["Lingots d'or, laine rouge et pierre : un &bautel&r et huit &bpiédestaux&r, de la même recette moins une pierre. Posés en cercle autour de l'autel, ils reçoivent les ingrédients ; un clic sur l'autel lance l'infusion. C'est là que naissent toutes les graines de ressources."]
+			icon: "mysticalagriculture:infusion_altar"
+			id: "6D013E5955FA73C7"
+			rewards: [{
+				id: "1AE2EF11F37CC8FC"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [
+				{
+					id: "0C651A7921550390"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "292C0035FF6A8255"
+					item: "mysticalagriculture:infusion_pedestal"
+					type: "item"
+				}
+			]
+			title: "L'autel d'infusion"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["77BE14D0C241B4E1"]
+			description: ["Quatre éclats de prospérité autour de graines de blé. La &dbase de graine&r va au centre de l'autel : les piédestaux autour reçoivent l'essence du palier et le matériau à cultiver, en alternance."]
+			icon: "mysticalagriculture:prosperity_seed_base"
+			id: "6011A73A6BD91848"
+			rewards: [{
+				id: "62B3334A84520769"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "2F414D61680C3818"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			title: "Des bases de graine"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"6D013E5955FA73C7"
+				"6011A73A6BD91848"
+				"637C9006D52C690A"
+			]
+			description: ["Première infusion : la base de graine, de l'essence d'inferium et du bois sur les piédestaux. Les &agraines de bois&r sont du premier palier, comme la terre et la pierre."]
+			icon: "mysticalagriculture:wood_seeds"
+			id: "5750460258630297"
+			rewards: [{
+				id: "2799AB0F7D5C4826"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "01B1AD66E2288EBF"
+				item: "mysticalagriculture:wood_seeds"
+				type: "item"
+			}]
+			title: "Cultiver du bois"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5750460258630297"]
+			description: ["Même infusion, avec de la pierre. Les cultures de premier palier ne demandent que de l'inferium."]
+			icon: "mysticalagriculture:stone_seeds"
+			id: "0E301480DAE7175F"
+			rewards: [{
+				id: "748C033B14C82098"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0A7C66A994CC2E1E"
+				item: "mysticalagriculture:stone_seeds"
+				type: "item"
+			}]
+			title: "Cultiver de la pierre"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5750460258630297"
+				"1E0AAEDF3F6656A4"
+			]
+			description: ["Le fer est du deuxième palier : essence de &2prudentium&r et lingots de fer sur les piédestaux. Un champ de fer est la fin de la mine de fer."]
+			icon: "mysticalagriculture:iron_seeds"
+			id: "36A1D7F93D0AD9D6"
+			rewards: [{
+				id: "59AD00B5FE8682C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0EB0BB4B2053CB1E"
+				item: "mysticalagriculture:iron_seeds"
+				type: "item"
+			}]
+			title: "Cultiver du fer"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"36A1D7F93D0AD9D6"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Troisième palier : &6tertium&r et lingots d'or."]
+			icon: "mysticalagriculture:gold_seeds"
+			id: "461D48BF80F6F4B0"
+			rewards: [{
+				id: "46134F2186E532EE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5A4D3C52E5AFFE61"
+				item: "mysticalagriculture:gold_seeds"
+				type: "item"
+			}]
+			title: "Cultiver de l'or"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"461D48BF80F6F4B0"
+				"0B7651ABDF440D26"
+			]
+			description: ["Quatrième palier : &bimperium&r et diamants. Le champ paiera les diamants mis à l'infusion, puis tous les suivants."]
+			icon: "mysticalagriculture:diamond_seeds"
+			id: "16F31CD278685279"
+			rewards: [{
+				id: "3E311C2AE4BD3F31"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "5E559C905DC869FC"
+				item: "mysticalagriculture:diamond_seeds"
+				type: "item"
+			}]
+			title: "Cultiver du diamant"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"16F31CD278685279"
+				"3D0886FD0A32E223"
+			]
+			description: ["Cinquième palier : &csupremium&r et lingots de nétherite, en alternance sur les piédestaux. Ce que le Nether rendait au compte-gouttes pousse dans un champ. La nétherite ne se donne pas en quête sur ce serveur ; ici, elle se cultive."]
+			icon: "mysticalagriculture:netherite_seeds"
+			id: "2C0609280F3438ED"
+			rewards: [{
+				id: "794CFBEA477D4D07"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "33DCD59FB2DF9DB0"
+				item: "mysticalagriculture:netherite_seeds"
+				type: "item"
+			}]
+			title: "Cultiver de la nétherite"
+			x: 14.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["637C9006D52C690A"]
+			description: ["Quatre essences d'inferium, quatre pierres, une gemme d'inferium au centre : trois &aaccélérateurs&r. Posés sous la terre d'essence, ils font pousser plus vite ; empilés, ils s'additionnent. Chaque palier a le sien."]
+			icon: "mysticalagriculture:inferium_growth_accelerator"
+			id: "14E17823F9CE4A00"
+			rewards: [{
+				id: "5ABB81A6F9088FA9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 3L
+				id: "4D811466587E8F25"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+				type: "item"
+			}]
+			title: "Des accélérateurs de croissance"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36A1D7F93D0AD9D6"]
+			description: ["Lingots de fer, lingots de soulium, deux faux en diamant et un châssis de machine. La &bmoissonneuse&r récolte et replante devant elle, en continu, avec un peu d'énergie. Le chapitre &bPowah&r dit d'où vient l'énergie."]
+			icon: "mysticalagriculture:harvester"
+			id: "7F9D5F0B980ABB39"
+			rewards: [{
+				id: "522CF0476561F37D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "11DB0B562EF24634"
+				item: "mysticalagriculture:harvester"
+				type: "item"
+			}]
+			title: "Une moissonneuse"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D013E5955FA73C7"]
+			description: ["Air, terre, eau, feu : quatre cultures à part, infusées avec des &dagglomérats&r (une bouteille, du gravier, de la terre, de l'argile pour l'air). Leur essence ne sert qu'à une chose : l'éveil du supremium."]
+			icon: "mysticalagriculture:air_seeds"
+			id: "321E311275023388"
+			rewards: [{
+				id: "4DD12651CA16D447"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "3DD4C3AB4A309CBC"
+					item: "mysticalagriculture:air_seeds"
+					type: "item"
+				}
+				{
+					id: "3D1352E84D178340"
+					item: "mysticalagriculture:earth_seeds"
+					type: "item"
+				}
+				{
+					id: "12F1C017400C83AE"
+					item: "mysticalagriculture:water_seeds"
+					type: "item"
+				}
+				{
+					id: "5B874CAB40D07B39"
+					item: "mysticalagriculture:fire_seeds"
+					type: "item"
+				}
+			]
+			title: "Les quatre éléments"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3D0886FD0A32E223"
+				"321E311275023388"
+			]
+			description: ["Comme l'autel d'infusion, mais en pierre d'âme et laine orange. À l'&cautel d'éveil&r, un bloc de supremium et dix essences de chaque élément deviennent un &lbloc de supremium éveillé&r."]
+			icon: "mysticalagriculture:awakening_altar"
+			id: "423073EB7FA89769"
+			rewards: [{
+				id: "7F4FEBF238E4D6A7"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [
+				{
+					id: "03C7234E490F52F9"
+					item: "mysticalagriculture:awakening_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E92D42513E1718A"
+					item: "mysticalagriculture:awakening_pedestal"
+					type: "item"
+				}
+			]
+			title: "L'autel d'éveil"
+			x: 14.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["423073EB7FA89769"]
+			description: ["Un bloc éveillé se défait en neuf essences de &csupremium éveillé&r. C'est le sommet du mod : outils, armure, et la &lhoue éveillée&r qui ne s'use pas — celle que demande le pylône de récolte."]
+			icon: "mysticalagriculture:awakened_supremium_essence"
+			id: "2B940EC1E5203B3A"
+			rewards: [{
+				id: "6BAD72D7488F923F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 9L
+				id: "71906AC16FDA6D21"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			title: "Du supremium éveillé"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["423073EB7FA89769"]
+			description: ["Le &5Wither&r et l'&5Ender Dragon&r lâchent de la &dpoussière cognizante&r quand ils sont tués avec une arme d'essence enchantée &bMystical Enlightenment&r. Les deux sont activés sur le serveur. Elle sert aux éveils les plus avancés."]
+			icon: "mysticalagriculture:cognizant_dust"
+			id: "31BF0B261D94CF7E"
+			optional: true
+			rewards: [{
+				id: "115F97A4F8C6FCB9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0786E01D40A61C18"
+				item: "mysticalagriculture:cognizant_dust"
+				type: "item"
+			}]
+			title: "La poussière cognizante"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2C0609280F3438ED"
+				"2B940EC1E5203B3A"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre &aPylons&r ajoute la récolte automatique sans énergie, à une condition près."]
+			icon: "mysticalagriculture:awakened_supremium_essence"
+			id: "4742C02AB878F93A"
+			rewards: [{
+				id: "58FC8D1AE161605E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "34B4EEAE56C27F13"
+				title: "Mes champs tournent"
+				type: "checkmark"
+			}]
+			title: "&aLa ferme remplace la mine"
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+	title: "&aMystical Agriculture"
+}
