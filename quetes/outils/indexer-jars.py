@@ -1,6 +1,6 @@
 import zipfile,json,os,sys,re,glob
 mods=sys.argv[1]; out=sys.argv[2]
-idx={'items':{}, 'entities':{}, 'biomes':{}, 'structures':{}, 'advancements':{}, 'dimensions':{}, 'tags_items':{}, 'tags_blocks':{}, 'tags_entities':{}, 'lang':{}, 'recipes':{}, 'mods':{}}
+idx={'items':{}, 'entities':{}, 'biomes':{}, 'structures':{}, 'advancements':{}, 'dimensions':{}, 'tags_items':{}, 'tags_blocks':{}, 'tags_entities':{}, 'lang':{}, 'recipes':{}, 'mods':{}, 'fr':{}}
 for jar in sorted(glob.glob(os.path.join(mods,'*.jar'))):
     try: z=zipfile.ZipFile(jar)
     except Exception as e: print('ERR',jar,e); continue
@@ -13,6 +13,12 @@ for jar in sorted(glob.glob(os.path.join(mods,'*.jar'))):
         idx['mods'][modid or os.path.basename(jar)]={'jar':os.path.basename(jar),'version':v.group(1) if v else None}
     for n in names:
         p=n.split('/')
+        if n.startswith('assets/') and len(p)>=4 and p[2]=='lang' and p[3]=='fr_fr.json':
+            try: d=json.loads(z.read(n).decode('utf-8','replace'))
+            except Exception: continue
+            for k,val in d.items():
+                mm=re.match(r'^(item|block|entity|biome)\.([a-z0-9_.-]+)\.([a-z0-9_./-]+)$',k)
+                if mm and isinstance(val,str): idx['fr'][f'{mm.group(2)}:{mm.group(3)}']=val
         if n.startswith('assets/') and len(p)>=4 and p[2]=='lang' and p[3]=='en_us.json':
             try:
                 d=json.loads(z.read(n).decode('utf-8','replace'))

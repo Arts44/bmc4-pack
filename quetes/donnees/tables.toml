@@ -1,0 +1,70 @@
+# Les tables de récompense R2 (cahier §1). Contenu modéré, rien de fin de
+# partie, rien de revendable en quantité. Un tirage par réclamation.
+# Syntaxe d'un objet : "<id> [nombre] [x<poids>]"
+
+[table.debutant]
+titre = "Débutant"
+icone = "minecraft:bread"
+tirages = 1
+objets = [
+  "minecraft:bread 8 x3",
+  "minecraft:torch 32 x3",
+  "minecraft:coal 16 x2",
+  "minecraft:iron_ingot 4 x2",
+  "minecraft:leather 6",
+  "minecraft:cooked_beef 6 x2",
+  "minecraft:arrow 32",
+  "minecraft:oak_sapling 4",
+]
+
+[table.explorateur]
+titre = "Explorateur"
+icone = "minecraft:map"
+tirages = 1
+objets = [
+  "minecraft:ender_pearl 2 x2",
+  "minecraft:map 1",
+  "waystones:warp_scroll 1",
+  "minecraft:cooked_cod 8 x2",
+  "minecraft:torch 32 x2",
+  "minecraft:lantern 4",
+  "minecraft:saddle 1",
+]
+
+[table.artisan]
+titre = "Artisan"
+icone = "minecraft:anvil"
+tirages = 1
+objets = [
+  "minecraft:iron_ingot 6 x3",
+  "minecraft:copper_ingot 12 x3",
+  "minecraft:redstone 16 x2",
+  "minecraft:gold_ingot 3",
+  "minecraft:lapis_lazuli 12 x2",
+  "minecraft:experience_bottle 4",
+]
+
+[table.aventurier]
+titre = "Aventurier"
+icone = "minecraft:iron_sword"
+tirages = 1
+objets = [
+  "minecraft:golden_apple 1 x2",
+  "minecraft:experience_bottle 6 x2",
+  "minecraft:arrow 32 x2",
+  "minecraft:cooked_beef 12 x2",
+  "minecraft:shield 1",
+  "minecraft:ender_pearl 2",
+]
+
+[table.contrat]
+titre = "Contrat"
+icone = "minecraft:paper"
+tirages = 1
+objets = [
+  "minecraft:bread 6 x3",
+  "minecraft:torch 16 x3",
+  "minecraft:bone_meal 8 x2",
+  "minecraft:cooked_chicken 6 x2",
+  "minecraft:arrow 16",
+]

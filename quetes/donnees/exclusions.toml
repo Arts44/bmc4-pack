@@ -1,0 +1,21 @@
+# Garde-fou de l'Encyclopédie (cahier §9.2) : ce qui est dans les jars
+# mais n'apparaît pas réellement sur le serveur. Une entrée = un
+# identifiant, avec la raison mesurée. Ces entrées ne deviennent jamais
+# des quêtes.
+
+[exclusion]
+# Bad Mobs, config serveur du 4 octobre : allowNormalSpawning = false.
+"friendsandfoes:iceologer" = "Bad Mobs : apparition naturelle désactivée (badmobs-common.toml, [friendsandfoes.iceologer])"
+# alexsmobs.toml serveur : voidWormSpawnWeight = 0 (et c'est une créature de l'End de toute façon).
+"alexsmobs:void_worm" = "alexsmobs.toml : poids d'apparition 0"
+# Entités d'exemple de GeckoLib : jamais présentes en jeu.
+"geckolib:mutant_zombie" = "entité d'exemple de GeckoLib"
+# Animaux de Pet Cemetery : n'apparaissent que par conversion d'un animal apprivoisé mort, pas de rencontre possible.
+"pet_cemetery:zombie_cat" = "Pet Cemetery : conversion seulement"
+"pet_cemetery:zombie_wolf" = "Pet Cemetery : conversion seulement"
+"pet_cemetery:zombie_parrot" = "Pet Cemetery : conversion seulement"
+"pet_cemetery:skeleton_cat" = "Pet Cemetery : conversion seulement"
+"pet_cemetery:skeleton_wolf" = "Pet Cemetery : conversion seulement"
+"pet_cemetery:skeleton_parrot" = "Pet Cemetery : conversion seulement"
+# Namespace minecraft mais pas une créature du jeu de base : ajoutée par un mod de rétroportage, présence sur le serveur non vérifiée.
+"minecraft:sulfur_cube" = "entité « minecraft: » venue d'un mod (Cube de soufre), présence non vérifiée"

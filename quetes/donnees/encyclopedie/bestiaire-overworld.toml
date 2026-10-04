@@ -1,0 +1,2243 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer : notes/bestiaire-overworld.toml pour les textes.
+
+[chapitre]
+titre = "&7Bestiaire — Overworld"
+fichier = "enc_bestiaire_overworld"
+groupe = "encyclopedie"
+icone = "minecraft:zombie_head"
+ordre = 0
+lignes_cachees = true
+
+[[quete]]
+cle = "intro"
+titre = "&7Bestiaire — Overworld"
+taille = 1.5
+icone = "minecraft:zombie_head"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en &lregardant&r la créature : il suffit de l'avoir devant soi.
+
+Ce chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet.
+"""
+
+[[quete]]
+cle = "alexsmobs_alligator_snapping_turtle"
+titre = "Rencontrer Tortue alligator"
+sous_titre = "Tortue alligator — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_alligator_snapping_turtle"
+taches = ["observation entity alexsmobs:alligator_snapping_turtle"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_anaconda"
+titre = "Rencontrer Anaconda"
+sous_titre = "Anaconda — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_anaconda"
+taches = ["observation entity alexsmobs:anaconda"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_anteater"
+titre = "Rencontrer Fourmilier"
+sous_titre = "Fourmilier — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_anteater"
+taches = ["observation entity alexsmobs:anteater"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_bald_eagle"
+titre = "Rencontrer Pygargue à tête blanche"
+sous_titre = "Pygargue à tête blanche — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_bald_eagle"
+taches = ["observation entity alexsmobs:bald_eagle"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_banana_slug"
+titre = "Rencontrer Limace banane"
+sous_titre = "Limace banane — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_banana_slug"
+taches = ["observation entity alexsmobs:banana_slug"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_bison"
+titre = "Rencontrer Bison"
+sous_titre = "Bison — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_bison"
+taches = ["observation entity alexsmobs:bison"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_blobfish"
+titre = "Rencontrer Blobfish"
+sous_titre = "Blobfish — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_blobfish"
+taches = ["observation entity alexsmobs:blobfish"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_blue_jay"
+titre = "Rencontrer Geai bleu"
+sous_titre = "Geai bleu — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_blue_jay"
+taches = ["observation entity alexsmobs:blue_jay"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_bunfungus"
+titre = "Rencontrer Champilièvre"
+sous_titre = "Champilièvre — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_bunfungus"
+taches = ["observation entity alexsmobs:bunfungus"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_cachalot_whale"
+titre = "Rencontrer Grand cachalot"
+sous_titre = "Grand cachalot — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_cachalot_whale"
+taches = ["observation entity alexsmobs:cachalot_whale"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_caiman"
+titre = "Rencontrer Caïman"
+sous_titre = "Caïman — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_caiman"
+taches = ["observation entity alexsmobs:caiman"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_capuchin_monkey"
+titre = "Rencontrer Capucin"
+sous_titre = "Capucin — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_capuchin_monkey"
+taches = ["observation entity alexsmobs:capuchin_monkey"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_catfish"
+titre = "Rencontrer Poisson-chat"
+sous_titre = "Poisson-chat — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_catfish"
+taches = ["observation entity alexsmobs:catfish"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_cockroach"
+titre = "Rencontrer Cafard"
+sous_titre = "Cafard — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_cockroach"
+taches = ["observation entity alexsmobs:cockroach"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_comb_jelly"
+titre = "Rencontrer Méduse de peigne"
+sous_titre = "Méduse de peigne — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_comb_jelly"
+taches = ["observation entity alexsmobs:comb_jelly"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_crocodile"
+titre = "Rencontrer Crocodile"
+sous_titre = "Crocodile — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_crocodile"
+taches = ["observation entity alexsmobs:crocodile"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_crow"
+titre = "Rencontrer Corbeau"
+sous_titre = "Corbeau — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_crow"
+taches = ["observation entity alexsmobs:crow"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_devils_hole_pupfish"
+titre = "Rencontrer Devil's Hole Pupfish"
+sous_titre = "Devil's Hole Pupfish — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_devils_hole_pupfish"
+taches = ["observation entity alexsmobs:devils_hole_pupfish"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_dropbear"
+titre = "Rencontrer Dropbear"
+sous_titre = "Dropbear — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_dropbear"
+taches = ["observation entity alexsmobs:dropbear"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_elephant"
+titre = "Rencontrer Éléphant"
+sous_titre = "Éléphant — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_elephant"
+taches = ["observation entity alexsmobs:elephant"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_emu"
+titre = "Rencontrer Émeu"
+sous_titre = "Émeu — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_emu"
+taches = ["observation entity alexsmobs:emu"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_farseer"
+titre = "Rencontrer Voyant éloigné"
+sous_titre = "Voyant éloigné — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_farseer"
+taches = ["observation entity alexsmobs:farseer"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_flutter"
+titre = "Rencontrer Papilloneur"
+sous_titre = "Papilloneur — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_flutter"
+taches = ["observation entity alexsmobs:flutter"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_fly"
+titre = "Rencontrer Mouche"
+sous_titre = "Mouche — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_fly"
+taches = ["observation entity alexsmobs:fly"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_flying_fish"
+titre = "Rencontrer Poisson volant"
+sous_titre = "Poisson volant — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_flying_fish"
+taches = ["observation entity alexsmobs:flying_fish"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_frilled_shark"
+titre = "Rencontrer Requin frangé"
+sous_titre = "Requin frangé — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_frilled_shark"
+taches = ["observation entity alexsmobs:frilled_shark"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_froststalker"
+titre = "Rencontrer Traqueur givrant"
+sous_titre = "Traqueur givrant — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_froststalker"
+taches = ["observation entity alexsmobs:froststalker"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_gazelle"
+titre = "Rencontrer Gazelle"
+sous_titre = "Gazelle — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_gazelle"
+taches = ["observation entity alexsmobs:gazelle"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_gelada_monkey"
+titre = "Rencontrer Singe-gélada"
+sous_titre = "Singe-gélada — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_gelada_monkey"
+taches = ["observation entity alexsmobs:gelada_monkey"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_giant_squid"
+titre = "Rencontrer Calmar géant"
+sous_titre = "Calmar géant — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_giant_squid"
+taches = ["observation entity alexsmobs:giant_squid"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_gorilla"
+titre = "Rencontrer Gorille"
+sous_titre = "Gorille — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_gorilla"
+taches = ["observation entity alexsmobs:gorilla"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_grizzly_bear"
+titre = "Rencontrer le Grizzly"
+sous_titre = "Grizzli — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_grizzly_bear"
+taches = ["observation entity alexsmobs:grizzly_bear"]
+recompenses = ["xp 1"]
+description = """
+Neutre, dans les forêts et les montagnes. Il attaque si on s'approche de ses petits, et il monte aux arbres aussi vite que toi.
+"""
+
+[[quete]]
+cle = "alexsmobs_guster"
+titre = "Rencontrer Rafalleur"
+sous_titre = "Rafalleur — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_guster"
+taches = ["observation entity alexsmobs:guster"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_hammerhead_shark"
+titre = "Rencontrer Requin-marteau"
+sous_titre = "Requin-marteau — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_hammerhead_shark"
+taches = ["observation entity alexsmobs:hammerhead_shark"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_hummingbird"
+titre = "Rencontrer Colibri"
+sous_titre = "Colibri — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_hummingbird"
+taches = ["observation entity alexsmobs:hummingbird"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_jerboa"
+titre = "Rencontrer Gerboise"
+sous_titre = "Gerboise — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_jerboa"
+taches = ["observation entity alexsmobs:jerboa"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_kangaroo"
+titre = "Rencontrer Kangourou"
+sous_titre = "Kangourou — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_kangaroo"
+taches = ["observation entity alexsmobs:kangaroo"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_komodo_dragon"
+titre = "Rencontrer Dragon de Komodo"
+sous_titre = "Dragon de Komodo — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_komodo_dragon"
+taches = ["observation entity alexsmobs:komodo_dragon"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_leafcutter_ant"
+titre = "Rencontrer Fourmi coupe-feuilles"
+sous_titre = "Fourmi coupe-feuilles — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_leafcutter_ant"
+taches = ["observation entity alexsmobs:leafcutter_ant"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_lobster"
+titre = "Rencontrer Homard"
+sous_titre = "Homard — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_lobster"
+taches = ["observation entity alexsmobs:lobster"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_maned_wolf"
+titre = "Rencontrer Loup à crinière"
+sous_titre = "Loup à crinière — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_maned_wolf"
+taches = ["observation entity alexsmobs:maned_wolf"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_mantis_shrimp"
+titre = "Rencontrer Crevette mante"
+sous_titre = "Crevette mante — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_mantis_shrimp"
+taches = ["observation entity alexsmobs:mantis_shrimp"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_mimic_octopus"
+titre = "Rencontrer Poulpe imitant"
+sous_titre = "Poulpe imitant — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_mimic_octopus"
+taches = ["observation entity alexsmobs:mimic_octopus"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_moose"
+titre = "Rencontrer Élan"
+sous_titre = "Élan — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_moose"
+taches = ["observation entity alexsmobs:moose"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_mudskipper"
+titre = "Rencontrer Gobie"
+sous_titre = "Gobie — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_mudskipper"
+taches = ["observation entity alexsmobs:mudskipper"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_mungus"
+titre = "Rencontrer Mongus"
+sous_titre = "Mongus — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_mungus"
+taches = ["observation entity alexsmobs:mungus"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_murmur"
+titre = "Rencontrer Murmure"
+sous_titre = "Murmure — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_murmur"
+taches = ["observation entity alexsmobs:murmur"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_orca"
+titre = "Rencontrer Orque"
+sous_titre = "Orque — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_orca"
+taches = ["observation entity alexsmobs:orca"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_platypus"
+titre = "Rencontrer Ornithorynque"
+sous_titre = "Ornithorynque — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_platypus"
+taches = ["observation entity alexsmobs:platypus"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_potoo"
+titre = "Rencontrer Ibijau"
+sous_titre = "Ibijau — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_potoo"
+taches = ["observation entity alexsmobs:potoo"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_raccoon"
+titre = "Rencontrer Raton laveur"
+sous_titre = "Raton laveur — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_raccoon"
+taches = ["observation entity alexsmobs:raccoon"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_rain_frog"
+titre = "Rencontrer Grenouille de pluie"
+sous_titre = "Grenouille de pluie — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_rain_frog"
+taches = ["observation entity alexsmobs:rain_frog"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_rattlesnake"
+titre = "Rencontrer Crotale"
+sous_titre = "Crotale — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_rattlesnake"
+taches = ["observation entity alexsmobs:rattlesnake"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_rhinoceros"
+titre = "Rencontrer Rhinocéros"
+sous_titre = "Rhinocéros — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_rhinoceros"
+taches = ["observation entity alexsmobs:rhinoceros"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_roadrunner"
+titre = "Rencontrer Géocoucou"
+sous_titre = "Géocoucou — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_roadrunner"
+taches = ["observation entity alexsmobs:roadrunner"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_rocky_roller"
+titre = "Rencontrer Rouleau rocheux"
+sous_titre = "Rouleau rocheux — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_rocky_roller"
+taches = ["observation entity alexsmobs:rocky_roller"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_seagull"
+titre = "Rencontrer Mouette"
+sous_titre = "Mouette — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_seagull"
+taches = ["observation entity alexsmobs:seagull"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_seal"
+titre = "Rencontrer Phoque"
+sous_titre = "Phoque — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_seal"
+taches = ["observation entity alexsmobs:seal"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_shoebill"
+titre = "Rencontrer Bec-en-sabot du Nil"
+sous_titre = "Bec-en-sabot du Nil — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_shoebill"
+taches = ["observation entity alexsmobs:shoebill"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_skelewag"
+titre = "Rencontrer Squeladon"
+sous_titre = "Squeladon — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_skelewag"
+taches = ["observation entity alexsmobs:skelewag"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_skreecher"
+titre = "Rencontrer Skreecher"
+sous_titre = "Skreecher — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_skreecher"
+taches = ["observation entity alexsmobs:skreecher"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_skunk"
+titre = "Rencontrer Moufette"
+sous_titre = "Moufette — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_skunk"
+taches = ["observation entity alexsmobs:skunk"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_snow_leopard"
+titre = "Rencontrer Léopard de neige"
+sous_titre = "Léopard de neige — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_snow_leopard"
+taches = ["observation entity alexsmobs:snow_leopard"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_spectre"
+titre = "Rencontrer Spectre"
+sous_titre = "Spectre — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_spectre"
+taches = ["observation entity alexsmobs:spectre"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_sugar_glider"
+titre = "Rencontrer Phalanger volant"
+sous_titre = "Phalanger volant — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_sugar_glider"
+taches = ["observation entity alexsmobs:sugar_glider"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_sunbird"
+titre = "Rencontrer Oiseau de soleil"
+sous_titre = "Oiseau de soleil — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_sunbird"
+taches = ["observation entity alexsmobs:sunbird"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_tarantula_hawk"
+titre = "Rencontrer Faucon tarentule"
+sous_titre = "Faucon tarentule — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_tarantula_hawk"
+taches = ["observation entity alexsmobs:tarantula_hawk"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_tasmanian_devil"
+titre = "Rencontrer Diable de Tasmanie"
+sous_titre = "Diable de Tasmanie — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_tasmanian_devil"
+taches = ["observation entity alexsmobs:tasmanian_devil"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_terrapin"
+titre = "Rencontrer Tortue de rivière"
+sous_titre = "Tortue de rivière — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_terrapin"
+taches = ["observation entity alexsmobs:terrapin"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_tiger"
+titre = "Rencontrer Tigre"
+sous_titre = "Tigre — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_tiger"
+taches = ["observation entity alexsmobs:tiger"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_toucan"
+titre = "Rencontrer Toucan"
+sous_titre = "Toucan — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_toucan"
+taches = ["observation entity alexsmobs:toucan"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_triops"
+titre = "Rencontrer Triops"
+sous_titre = "Triops — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_triops"
+taches = ["observation entity alexsmobs:triops"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_tusklin"
+titre = "Rencontrer Tusklin"
+sous_titre = "Tusklin — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_tusklin"
+taches = ["observation entity alexsmobs:tusklin"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "alexsmobs_underminer"
+titre = "Rencontrer Sous-mineur"
+sous_titre = "Sous-mineur — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_underminer"
+taches = ["observation entity alexsmobs:underminer"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r, l'un des mods de faune du pack.
+"""
+
+[[quete]]
+cle = "conjurer_illager_conjurer"
+titre = "Rencontrer le Conjurateur"
+sous_titre = "Chapeau de Magicien — conjurer_illager"
+optionnel = true
+icone = "conjurer_illager:conjurer_spawn_egg"
+taches = ["observation entity conjurer_illager:conjurer"]
+recompenses = ["xp 1"]
+description = """
+Il tient un théâtre dans les forêts de chênes noirs. Illusions, lapins explosifs, cartes : un spectacle qu'on finit à l'épée.
+"""
+
+[[quete]]
+cle = "friendsandfoes_copper_golem"
+titre = "Rencontrer le golem de cuivre"
+sous_titre = "Golem de cuivre — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:copper_golem_spawn_egg"
+taches = ["observation entity friendsandfoes:copper_golem"]
+recompenses = ["xp 1"]
+description = """
+Un golem qu'on fabrique : bloc de cuivre et paratonnerre. Il appuie sur les boutons de cuivre, et il s'oxyde avec le temps. Du miel le fige.
+"""
+
+[[quete]]
+cle = "friendsandfoes_crab"
+titre = "Rencontrer Crabe"
+sous_titre = "Crabe — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:crab_spawn_egg"
+taches = ["observation entity friendsandfoes:crab"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+"""
+
+[[quete]]
+cle = "friendsandfoes_glare"
+titre = "Rencontrer Glare"
+sous_titre = "Glare — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:glare_spawn_egg"
+taches = ["observation entity friendsandfoes:glare"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+"""
+
+[[quete]]
+cle = "friendsandfoes_mauler"
+titre = "Rencontrer Mauler"
+sous_titre = "Mauler — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:mauler_spawn_egg"
+taches = ["observation entity friendsandfoes:mauler"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+"""
+
+[[quete]]
+cle = "friendsandfoes_moobloom"
+titre = "Rencontrer Moobloom"
+sous_titre = "Moobloom — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:moobloom_spawn_egg"
+taches = ["observation entity friendsandfoes:moobloom"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+"""
+
+[[quete]]
+cle = "friendsandfoes_rascal"
+titre = "Rencontrer Rascal"
+sous_titre = "Rascal — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:rascal_spawn_egg"
+taches = ["observation entity friendsandfoes:rascal"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+"""
+
+[[quete]]
+cle = "friendsandfoes_tuff_golem"
+titre = "Rencontrer Golem de Tuf"
+sous_titre = "Golem de Tuf — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:tuff_golem_spawn_egg"
+taches = ["observation entity friendsandfoes:tuff_golem"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+"""
+
+[[quete]]
+cle = "friendsandfoes_wildfire"
+titre = "Rencontrer Wildfire"
+sous_titre = "Wildfire — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:wildfire_spawn_egg"
+taches = ["observation entity friendsandfoes:wildfire"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+"""
+
+[[quete]]
+cle = "goblintraders_goblin_trader"
+titre = "Rencontrer le marchand gobelin"
+sous_titre = "Goblin Trader — goblintraders"
+optionnel = true
+icone = "goblintraders:goblin_trader_spawn_egg"
+taches = ["observation entity goblintraders:goblin_trader"]
+recompenses = ["xp 1"]
+description = """
+Dans les grottes, un petit marchand qui vend des enchantements et des potions rares contre de l'émeraude et quelques objets. Son cousin des veines vit plus profond.
+"""
+
+[[quete]]
+cle = "goblintraders_vein_goblin_trader"
+titre = "Rencontrer Vein Goblin Trader"
+sous_titre = "Vein Goblin Trader — goblintraders"
+optionnel = true
+icone = "goblintraders:vein_goblin_trader_spawn_egg"
+taches = ["observation entity goblintraders:vein_goblin_trader"]
+recompenses = ["xp 1"]
+description = """
+Marchand de &bGoblin Traders&r : il vend des objets rares contre de l'émeraude et plus.
+"""
+
+[[quete]]
+cle = "guardvillagers_guard"
+titre = "Rencontrer un garde villageois"
+sous_titre = "Gardien — guardvillagers"
+optionnel = true
+icone = "guardvillagers:guard_spawn_egg"
+taches = ["observation entity guardvillagers:guard"]
+recompenses = ["xp 1"]
+description = """
+Les villages ont des gardes armés. Ils défendent les villageois contre les pillards, et contre toi si tu frappes un villageois sous leurs yeux.
+"""
+
+[[quete]]
+cle = "illagerinvasion_alchemist"
+titre = "Rencontrer Alchemist"
+sous_titre = "Alchemist — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:alchemist_spawn_egg"
+taches = ["observation entity illagerinvasion:alchemist"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_archivist"
+titre = "Rencontrer Archivist"
+sous_titre = "Archivist — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:archivist_spawn_egg"
+taches = ["observation entity illagerinvasion:archivist"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_basher"
+titre = "Rencontrer Basher"
+sous_titre = "Basher — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:basher_spawn_egg"
+taches = ["observation entity illagerinvasion:basher"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_firecaller"
+titre = "Rencontrer Firecaller"
+sous_titre = "Firecaller — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:firecaller_spawn_egg"
+taches = ["observation entity illagerinvasion:firecaller"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_inquisitor"
+titre = "Rencontrer Inquisitor"
+sous_titre = "Inquisitor — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:inquisitor_spawn_egg"
+taches = ["observation entity illagerinvasion:inquisitor"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_invoker"
+titre = "Rencontrer l'Invoker"
+sous_titre = "Invoker — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:invoker_spawn_egg"
+taches = ["observation entity illagerinvasion:invoker"]
+recompenses = ["xp 1"]
+description = """
+Le maître des illageois, au sommet des tours d'Illager Invasion. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss.
+"""
+
+[[quete]]
+cle = "illagerinvasion_marauder"
+titre = "Rencontrer Marauder"
+sous_titre = "Marauder — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:marauder_spawn_egg"
+taches = ["observation entity illagerinvasion:marauder"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_necromancer"
+titre = "Rencontrer Necromancer"
+sous_titre = "Necromancer — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:necromancer_spawn_egg"
+taches = ["observation entity illagerinvasion:necromancer"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_provoker"
+titre = "Rencontrer Provoker"
+sous_titre = "Provoker — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:provoker_spawn_egg"
+taches = ["observation entity illagerinvasion:provoker"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_sorcerer"
+titre = "Rencontrer Sorcerer"
+sous_titre = "Sorcerer — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:sorcerer_spawn_egg"
+taches = ["observation entity illagerinvasion:sorcerer"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "illagerinvasion_surrendered"
+titre = "Rencontrer Surrendered"
+sous_titre = "Surrendered — illagerinvasion"
+optionnel = true
+icone = "illagerinvasion:surrendered_spawn_egg"
+taches = ["observation entity illagerinvasion:surrendered"]
+recompenses = ["xp 1"]
+description = """
+Illageois d'&bIllager Invasion&r : les raids et les avant-postes ont de nouveaux visages.
+"""
+
+[[quete]]
+cle = "minecraft_allay"
+titre = "Rencontrer Allay"
+sous_titre = "Allay — minecraft"
+optionnel = true
+icone = "minecraft:allay_spawn_egg"
+taches = ["observation entity minecraft:allay"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_armadillo"
+titre = "Rencontrer Tatou"
+sous_titre = "Tatou — minecraft"
+optionnel = true
+icone = "minecraft:armadillo_spawn_egg"
+taches = ["observation entity minecraft:armadillo"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_axolotl"
+titre = "Rencontrer Axolotl"
+sous_titre = "Axolotl — minecraft"
+optionnel = true
+icone = "minecraft:axolotl_spawn_egg"
+taches = ["observation entity minecraft:axolotl"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_bat"
+titre = "Rencontrer Chauve-souris"
+sous_titre = "Chauve-souris — minecraft"
+optionnel = true
+icone = "minecraft:bat_spawn_egg"
+taches = ["observation entity minecraft:bat"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_bee"
+titre = "Rencontrer Abeille"
+sous_titre = "Abeille — minecraft"
+optionnel = true
+icone = "minecraft:bee_spawn_egg"
+taches = ["observation entity minecraft:bee"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_camel"
+titre = "Rencontrer Dromadaire"
+sous_titre = "Dromadaire — minecraft"
+optionnel = true
+icone = "minecraft:camel_spawn_egg"
+taches = ["observation entity minecraft:camel"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_cat"
+titre = "Rencontrer Chat"
+sous_titre = "Chat — minecraft"
+optionnel = true
+icone = "minecraft:cat_spawn_egg"
+taches = ["observation entity minecraft:cat"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_cave_spider"
+titre = "Rencontrer Araignée venimeuse"
+sous_titre = "Araignée venimeuse — minecraft"
+optionnel = true
+icone = "minecraft:cave_spider_spawn_egg"
+taches = ["observation entity minecraft:cave_spider"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_chicken"
+titre = "Rencontrer Poulet cru"
+sous_titre = "Poulet cru — minecraft"
+optionnel = true
+icone = "minecraft:chicken_spawn_egg"
+taches = ["observation entity minecraft:chicken"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_cod"
+titre = "Rencontrer Morue crue"
+sous_titre = "Morue crue — minecraft"
+optionnel = true
+icone = "minecraft:cod_spawn_egg"
+taches = ["observation entity minecraft:cod"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_cow"
+titre = "Rencontrer Vache"
+sous_titre = "Vache — minecraft"
+optionnel = true
+icone = "minecraft:cow_spawn_egg"
+taches = ["observation entity minecraft:cow"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_creaking"
+titre = "Rencontrer Grinceur"
+sous_titre = "Grinceur — minecraft"
+optionnel = true
+icone = "minecraft:creaking_spawn_egg"
+taches = ["observation entity minecraft:creaking"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_creeper"
+titre = "Rencontrer Creeper"
+sous_titre = "Creeper — minecraft"
+optionnel = true
+icone = "minecraft:creeper_spawn_egg"
+taches = ["observation entity minecraft:creeper"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_dolphin"
+titre = "Rencontrer Dauphin"
+sous_titre = "Dauphin — minecraft"
+optionnel = true
+icone = "minecraft:dolphin_spawn_egg"
+taches = ["observation entity minecraft:dolphin"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_donkey"
+titre = "Rencontrer Âne"
+sous_titre = "Âne — minecraft"
+optionnel = true
+icone = "minecraft:donkey_spawn_egg"
+taches = ["observation entity minecraft:donkey"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_drowned"
+titre = "Rencontrer Noyé"
+sous_titre = "Noyé — minecraft"
+optionnel = true
+icone = "minecraft:drowned_spawn_egg"
+taches = ["observation entity minecraft:drowned"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_elder_guardian"
+titre = "Rencontrer Grand gardien"
+sous_titre = "Grand gardien — minecraft"
+optionnel = true
+icone = "minecraft:elder_guardian_spawn_egg"
+taches = ["observation entity minecraft:elder_guardian"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_enderman"
+titre = "Rencontrer Enderman"
+sous_titre = "Enderman — minecraft"
+optionnel = true
+icone = "minecraft:enderman_spawn_egg"
+taches = ["observation entity minecraft:enderman"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_evoker"
+titre = "Rencontrer Évocateur"
+sous_titre = "Évocateur — minecraft"
+optionnel = true
+icone = "minecraft:evoker_spawn_egg"
+taches = ["observation entity minecraft:evoker"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_fox"
+titre = "Rencontrer Renard"
+sous_titre = "Renard — minecraft"
+optionnel = true
+icone = "minecraft:fox_spawn_egg"
+taches = ["observation entity minecraft:fox"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_frog"
+titre = "Rencontrer Grenouille"
+sous_titre = "Grenouille — minecraft"
+optionnel = true
+icone = "minecraft:frog_spawn_egg"
+taches = ["observation entity minecraft:frog"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_glow_squid"
+titre = "Rencontrer Poulpe luisant"
+sous_titre = "Poulpe luisant — minecraft"
+optionnel = true
+icone = "minecraft:glow_squid_spawn_egg"
+taches = ["observation entity minecraft:glow_squid"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_goat"
+titre = "Rencontrer Chèvre"
+sous_titre = "Chèvre — minecraft"
+optionnel = true
+icone = "minecraft:goat_spawn_egg"
+taches = ["observation entity minecraft:goat"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_guardian"
+titre = "Rencontrer Gardien"
+sous_titre = "Gardien — minecraft"
+optionnel = true
+icone = "minecraft:guardian_spawn_egg"
+taches = ["observation entity minecraft:guardian"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_horse"
+titre = "Rencontrer Cheval"
+sous_titre = "Cheval — minecraft"
+optionnel = true
+icone = "minecraft:horse_spawn_egg"
+taches = ["observation entity minecraft:horse"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_husk"
+titre = "Rencontrer Momifié"
+sous_titre = "Momifié — minecraft"
+optionnel = true
+icone = "minecraft:husk_spawn_egg"
+taches = ["observation entity minecraft:husk"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_iron_golem"
+titre = "Rencontrer Golem de fer"
+sous_titre = "Golem de fer — minecraft"
+optionnel = true
+icone = "minecraft:iron_golem_spawn_egg"
+taches = ["observation entity minecraft:iron_golem"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_llama"
+titre = "Rencontrer Lama"
+sous_titre = "Lama — minecraft"
+optionnel = true
+icone = "minecraft:llama_spawn_egg"
+taches = ["observation entity minecraft:llama"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_mooshroom"
+titre = "Rencontrer Mooshroom"
+sous_titre = "Mooshroom — minecraft"
+optionnel = true
+icone = "minecraft:mooshroom_spawn_egg"
+taches = ["observation entity minecraft:mooshroom"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_mule"
+titre = "Rencontrer Mule"
+sous_titre = "Mule — minecraft"
+optionnel = true
+icone = "minecraft:mule_spawn_egg"
+taches = ["observation entity minecraft:mule"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_ocelot"
+titre = "Rencontrer Ocelot"
+sous_titre = "Ocelot — minecraft"
+optionnel = true
+icone = "minecraft:ocelot_spawn_egg"
+taches = ["observation entity minecraft:ocelot"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_panda"
+titre = "Rencontrer Panda"
+sous_titre = "Panda — minecraft"
+optionnel = true
+icone = "minecraft:panda_spawn_egg"
+taches = ["observation entity minecraft:panda"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_parrot"
+titre = "Rencontrer Perroquet"
+sous_titre = "Perroquet — minecraft"
+optionnel = true
+icone = "minecraft:parrot_spawn_egg"
+taches = ["observation entity minecraft:parrot"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_phantom"
+titre = "Rencontrer Phantom"
+sous_titre = "Phantom — minecraft"
+optionnel = true
+icone = "minecraft:phantom_spawn_egg"
+taches = ["observation entity minecraft:phantom"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_pig"
+titre = "Rencontrer Cochon"
+sous_titre = "Cochon — minecraft"
+optionnel = true
+icone = "minecraft:pig_spawn_egg"
+taches = ["observation entity minecraft:pig"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_pillager"
+titre = "Rencontrer Pillard"
+sous_titre = "Pillard — minecraft"
+optionnel = true
+icone = "minecraft:pillager_spawn_egg"
+taches = ["observation entity minecraft:pillager"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_polar_bear"
+titre = "Rencontrer Ours blanc"
+sous_titre = "Ours blanc — minecraft"
+optionnel = true
+icone = "minecraft:polar_bear_spawn_egg"
+taches = ["observation entity minecraft:polar_bear"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_pufferfish"
+titre = "Rencontrer Poisson-globe"
+sous_titre = "Poisson-globe — minecraft"
+optionnel = true
+icone = "minecraft:pufferfish_spawn_egg"
+taches = ["observation entity minecraft:pufferfish"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_rabbit"
+titre = "Rencontrer Lapin cru"
+sous_titre = "Lapin cru — minecraft"
+optionnel = true
+icone = "minecraft:rabbit_spawn_egg"
+taches = ["observation entity minecraft:rabbit"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_ravager"
+titre = "Rencontrer Ravageur"
+sous_titre = "Ravageur — minecraft"
+optionnel = true
+icone = "minecraft:ravager_spawn_egg"
+taches = ["observation entity minecraft:ravager"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_salmon"
+titre = "Rencontrer Saumon cru"
+sous_titre = "Saumon cru — minecraft"
+optionnel = true
+icone = "minecraft:salmon_spawn_egg"
+taches = ["observation entity minecraft:salmon"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_sheep"
+titre = "Rencontrer Mouton"
+sous_titre = "Mouton — minecraft"
+optionnel = true
+icone = "minecraft:sheep_spawn_egg"
+taches = ["observation entity minecraft:sheep"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_silverfish"
+titre = "Rencontrer Poisson d'argent"
+sous_titre = "Poisson d'argent — minecraft"
+optionnel = true
+icone = "minecraft:silverfish_spawn_egg"
+taches = ["observation entity minecraft:silverfish"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_skeleton"
+titre = "Rencontrer Squelette"
+sous_titre = "Squelette — minecraft"
+optionnel = true
+icone = "minecraft:skeleton_spawn_egg"
+taches = ["observation entity minecraft:skeleton"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_skeleton_horse"
+titre = "Rencontrer Cheval-squelette"
+sous_titre = "Cheval-squelette — minecraft"
+optionnel = true
+icone = "minecraft:skeleton_horse_spawn_egg"
+taches = ["observation entity minecraft:skeleton_horse"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_slime"
+titre = "Rencontrer Slime"
+sous_titre = "Slime — minecraft"
+optionnel = true
+icone = "minecraft:slime_spawn_egg"
+taches = ["observation entity minecraft:slime"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_sniffer"
+titre = "Rencontrer Renifleur"
+sous_titre = "Renifleur — minecraft"
+optionnel = true
+icone = "minecraft:sniffer_spawn_egg"
+taches = ["observation entity minecraft:sniffer"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_snow_golem"
+titre = "Rencontrer Golem de neige"
+sous_titre = "Golem de neige — minecraft"
+optionnel = true
+icone = "minecraft:snow_golem_spawn_egg"
+taches = ["observation entity minecraft:snow_golem"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_spider"
+titre = "Rencontrer Araignée"
+sous_titre = "Araignée — minecraft"
+optionnel = true
+icone = "minecraft:spider_spawn_egg"
+taches = ["observation entity minecraft:spider"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_squid"
+titre = "Rencontrer Poulpe"
+sous_titre = "Poulpe — minecraft"
+optionnel = true
+icone = "minecraft:squid_spawn_egg"
+taches = ["observation entity minecraft:squid"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_stray"
+titre = "Rencontrer Vagabond"
+sous_titre = "Vagabond — minecraft"
+optionnel = true
+icone = "minecraft:stray_spawn_egg"
+taches = ["observation entity minecraft:stray"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_tadpole"
+titre = "Rencontrer Têtard"
+sous_titre = "Têtard — minecraft"
+optionnel = true
+icone = "minecraft:tadpole_spawn_egg"
+taches = ["observation entity minecraft:tadpole"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_trader_llama"
+titre = "Rencontrer Lama de marchand"
+sous_titre = "Lama de marchand — minecraft"
+optionnel = true
+icone = "minecraft:trader_llama_spawn_egg"
+taches = ["observation entity minecraft:trader_llama"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_tropical_fish"
+titre = "Rencontrer Poisson tropical"
+sous_titre = "Poisson tropical — minecraft"
+optionnel = true
+icone = "minecraft:tropical_fish_spawn_egg"
+taches = ["observation entity minecraft:tropical_fish"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_turtle"
+titre = "Rencontrer Tortue"
+sous_titre = "Tortue — minecraft"
+optionnel = true
+icone = "minecraft:turtle_spawn_egg"
+taches = ["observation entity minecraft:turtle"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_vex"
+titre = "Rencontrer Vex"
+sous_titre = "Vex — minecraft"
+optionnel = true
+icone = "minecraft:vex_spawn_egg"
+taches = ["observation entity minecraft:vex"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_villager"
+titre = "Rencontrer Villageois"
+sous_titre = "Villageois — minecraft"
+optionnel = true
+icone = "minecraft:villager_spawn_egg"
+taches = ["observation entity minecraft:villager"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_vindicator"
+titre = "Rencontrer Vindicateur"
+sous_titre = "Vindicateur — minecraft"
+optionnel = true
+icone = "minecraft:vindicator_spawn_egg"
+taches = ["observation entity minecraft:vindicator"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_wandering_trader"
+titre = "Rencontrer Marchand ambulant"
+sous_titre = "Marchand ambulant — minecraft"
+optionnel = true
+icone = "minecraft:wandering_trader_spawn_egg"
+taches = ["observation entity minecraft:wandering_trader"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_warden"
+titre = "Rencontrer le Warden"
+sous_titre = "Warden — minecraft"
+optionnel = true
+icone = "minecraft:warden_spawn_egg"
+taches = ["observation entity minecraft:warden"]
+recompenses = ["xp 1"]
+description = """
+Aveugle, dans les cités anciennes des profondeurs. Il entend tout ; marcher accroupi et poser de la laine est la seule façon de passer. Le fuir vaut mieux que l'affronter.
+"""
+
+[[quete]]
+cle = "minecraft_witch"
+titre = "Rencontrer Sorcière"
+sous_titre = "Sorcière — minecraft"
+optionnel = true
+icone = "minecraft:witch_spawn_egg"
+taches = ["observation entity minecraft:witch"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_wolf"
+titre = "Rencontrer Loup"
+sous_titre = "Loup — minecraft"
+optionnel = true
+icone = "minecraft:wolf_spawn_egg"
+taches = ["observation entity minecraft:wolf"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_zombie"
+titre = "Rencontrer Zombie"
+sous_titre = "Zombie — minecraft"
+optionnel = true
+icone = "minecraft:zombie_spawn_egg"
+taches = ["observation entity minecraft:zombie"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_zombie_horse"
+titre = "Rencontrer Cheval-zombie"
+sous_titre = "Cheval-zombie — minecraft"
+optionnel = true
+icone = "minecraft:zombie_horse_spawn_egg"
+taches = ["observation entity minecraft:zombie_horse"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "minecraft_zombie_villager"
+titre = "Rencontrer Zombie-villageois"
+sous_titre = "Zombie-villageois — minecraft"
+optionnel = true
+icone = "minecraft:zombie_villager_spawn_egg"
+taches = ["observation entity minecraft:zombie_villager"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base.
+"""
+
+[[quete]]
+cle = "mowziesmobs_bluff"
+titre = "Rencontrer Bluff"
+sous_titre = "Bluff — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:bluff_spawn_egg"
+taches = ["observation entity mowziesmobs:bluff"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu.
+"""
+
+[[quete]]
+cle = "mowziesmobs_elokosa_howler"
+titre = "Rencontrer Elokosa Howler"
+sous_titre = "Elokosa Howler — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:elokosa_howler_spawn_egg"
+taches = ["observation entity mowziesmobs:elokosa_howler"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu.
+"""
+
+[[quete]]
+cle = "mowziesmobs_foliaath"
+titre = "Rencontrer Foliaath"
+sous_titre = "Foliaath — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:foliaath_spawn_egg"
+taches = ["observation entity mowziesmobs:foliaath"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu.
+"""
+
+[[quete]]
+cle = "mowziesmobs_frostmaw"
+titre = "Rencontrer le Frostmaw"
+sous_titre = "Frostmaw — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:frostmaw_spawn_egg"
+taches = ["observation entity mowziesmobs:frostmaw"]
+recompenses = ["xp 1"]
+description = """
+Un colosse endormi dans les biomes enneigés. Le réveiller sans préparation est une erreur : c'est un boss, et sa quête de combat est au chapitre Mowzie's Mobs.
+"""
+
+[[quete]]
+cle = "mowziesmobs_grottol"
+titre = "Rencontrer Grottol"
+sous_titre = "Grottol — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:grottol_spawn_egg"
+taches = ["observation entity mowziesmobs:grottol"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu.
+"""
+
+[[quete]]
+cle = "mowziesmobs_lantern"
+titre = "Rencontrer Lanterne"
+sous_titre = "Lanterne — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:lantern_spawn_egg"
+taches = ["observation entity mowziesmobs:lantern"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu.
+"""
+
+[[quete]]
+cle = "mowziesmobs_naga"
+titre = "Rencontrer la Naga de Mowzie"
+sous_titre = "Naga — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:naga_spawn_egg"
+taches = ["observation entity mowziesmobs:naga"]
+recompenses = ["xp 1"]
+description = """
+Un serpent volant des falaises côtières. Rien à voir avec la Naga de la Twilight Forest : celle-ci n'est pas un boss, et les faits d'armes ne l'annoncent pas.
+"""
+
+[[quete]]
+cle = "mowziesmobs_sculptor"
+titre = "Rencontrer le Sculpteur"
+sous_titre = "Tongbi, the Sculptor — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:sculptor_spawn_egg"
+taches = ["observation entity mowziesmobs:sculptor"]
+recompenses = ["xp 1"]
+description = """
+Tongbi, dans un monastère des pics gelés. Il propose une épreuve d'escalade plutôt qu'un combat.
+"""
+
+[[quete]]
+cle = "mowziesmobs_umvuthana"
+titre = "Rencontrer Umvuthana"
+sous_titre = "Umvuthana — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:umvuthana_spawn_egg"
+taches = ["observation entity mowziesmobs:umvuthana"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu.
+"""
+
+[[quete]]
+cle = "mowziesmobs_umvuthana_crane"
+titre = "Rencontrer Umvuthana Crane"
+sous_titre = "Umvuthana Crane — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:umvuthana_crane_spawn_egg"
+taches = ["observation entity mowziesmobs:umvuthana_crane"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu.
+"""
+
+[[quete]]
+cle = "mowziesmobs_umvuthana_raptor"
+titre = "Rencontrer Umvuthana Raptor"
+sous_titre = "Umvuthana Raptor — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:umvuthana_raptor_spawn_egg"
+taches = ["observation entity mowziesmobs:umvuthana_raptor"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r : des monstres rares et dangereux, souvent gardiens d'un lieu.
+"""
+
+[[quete]]
+cle = "mowziesmobs_umvuthi"
+titre = "Rencontrer Umvuthi"
+sous_titre = "Umvuthi, the Sunbird — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:umvuthi_spawn_egg"
+taches = ["observation entity mowziesmobs:umvuthi"]
+recompenses = ["xp 1"]
+description = """
+L'oiseau-soleil, sur son trône au cœur d'un village Umvuthana dans la savane. On peut lui parler avant de le combattre : ses fidèles vendent des masques.
+"""
+
+[[quete]]
+cle = "quark_crab"
+titre = "Rencontrer Crabe"
+sous_titre = "Crabe — quark"
+optionnel = true
+icone = "quark:crab_spawn_egg"
+taches = ["observation entity quark:crab"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r.
+"""
+
+[[quete]]
+cle = "quark_forgotten"
+titre = "Rencontrer Oublié"
+sous_titre = "Oublié — quark"
+optionnel = true
+icone = "quark:forgotten_spawn_egg"
+taches = ["observation entity quark:forgotten"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r.
+"""
+
+[[quete]]
+cle = "quark_foxhound"
+titre = "Rencontrer Renard de feu"
+sous_titre = "Renard de feu — quark"
+optionnel = true
+icone = "quark:foxhound_spawn_egg"
+taches = ["observation entity quark:foxhound"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r.
+"""
+
+[[quete]]
+cle = "quark_shiba"
+titre = "Rencontrer Shiba"
+sous_titre = "Shiba — quark"
+optionnel = true
+icone = "quark:shiba_spawn_egg"
+taches = ["observation entity quark:shiba"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r.
+"""
+
+[[quete]]
+cle = "quark_stoneling"
+titre = "Rencontrer Stoneling"
+sous_titre = "Stoneling — quark"
+optionnel = true
+icone = "quark:stoneling_spawn_egg"
+taches = ["observation entity quark:stoneling"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r.
+"""
+
+[[quete]]
+cle = "quark_toretoise"
+titre = "Rencontrer Tortue"
+sous_titre = "Tortue — quark"
+optionnel = true
+icone = "quark:toretoise_spawn_egg"
+taches = ["observation entity quark:toretoise"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r.
+"""
+
+[[quete]]
+cle = "quark_wraith"
+titre = "Rencontrer Spectre"
+sous_titre = "Spectre — quark"
+optionnel = true
+icone = "quark:wraith_spawn_egg"
+taches = ["observation entity quark:wraith"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r.
+"""
+
+[[quete]]
+cle = "takesapillage_archer"
+titre = "Rencontrer Archer"
+sous_titre = "Archer — takesapillage"
+optionnel = true
+icone = "takesapillage:archer_spawn_egg"
+taches = ["observation entity takesapillage:archer"]
+recompenses = ["xp 1"]
+description = """
+Illageois de &bTakes a Pillage&r.
+"""
+
+[[quete]]
+cle = "takesapillage_legioner"
+titre = "Rencontrer Legioner"
+sous_titre = "Legioner — takesapillage"
+optionnel = true
+icone = "takesapillage:legioner_spawn_egg"
+taches = ["observation entity takesapillage:legioner"]
+recompenses = ["xp 1"]
+description = """
+Illageois de &bTakes a Pillage&r.
+"""
+
+[[quete]]
+cle = "takesapillage_skirmisher"
+titre = "Rencontrer Skirmisher"
+sous_titre = "Skirmisher — takesapillage"
+optionnel = true
+icone = "takesapillage:skirmisher_spawn_egg"
+taches = ["observation entity takesapillage:skirmisher"]
+recompenses = ["xp 1"]
+description = """
+Illageois de &bTakes a Pillage&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le bestiaire de l'Overworld"
+taille = 1.5
+icone = "minecraft:creeper_head"
+forme = "gear"
+taches = ["checkmark Bestiaire complet"]
+recompenses = ["xp 20"]
+deps = ["alexsmobs_alligator_snapping_turtle", "alexsmobs_anaconda", "alexsmobs_anteater", "alexsmobs_bald_eagle", "alexsmobs_banana_slug", "alexsmobs_bison", "alexsmobs_blobfish", "alexsmobs_blue_jay", "alexsmobs_bunfungus", "alexsmobs_cachalot_whale", "alexsmobs_caiman", "alexsmobs_capuchin_monkey", "alexsmobs_catfish", "alexsmobs_cockroach", "alexsmobs_comb_jelly", "alexsmobs_crocodile", "alexsmobs_crow", "alexsmobs_devils_hole_pupfish", "alexsmobs_dropbear", "alexsmobs_elephant", "alexsmobs_emu", "alexsmobs_farseer", "alexsmobs_flutter", "alexsmobs_fly", "alexsmobs_flying_fish", "alexsmobs_frilled_shark", "alexsmobs_froststalker", "alexsmobs_gazelle", "alexsmobs_gelada_monkey", "alexsmobs_giant_squid", "alexsmobs_gorilla", "alexsmobs_grizzly_bear", "alexsmobs_guster", "alexsmobs_hammerhead_shark", "alexsmobs_hummingbird", "alexsmobs_jerboa", "alexsmobs_kangaroo", "alexsmobs_komodo_dragon", "alexsmobs_leafcutter_ant", "alexsmobs_lobster", "alexsmobs_maned_wolf", "alexsmobs_mantis_shrimp", "alexsmobs_mimic_octopus", "alexsmobs_moose", "alexsmobs_mudskipper", "alexsmobs_mungus", "alexsmobs_murmur", "alexsmobs_orca", "alexsmobs_platypus", "alexsmobs_potoo", "alexsmobs_raccoon", "alexsmobs_rain_frog", "alexsmobs_rattlesnake", "alexsmobs_rhinoceros", "alexsmobs_roadrunner", "alexsmobs_rocky_roller", "alexsmobs_seagull", "alexsmobs_seal", "alexsmobs_shoebill", "alexsmobs_skelewag", "alexsmobs_skreecher", "alexsmobs_skunk", "alexsmobs_snow_leopard", "alexsmobs_spectre", "alexsmobs_sugar_glider", "alexsmobs_sunbird", "alexsmobs_tarantula_hawk", "alexsmobs_tasmanian_devil", "alexsmobs_terrapin", "alexsmobs_tiger", "alexsmobs_toucan", "alexsmobs_triops", "alexsmobs_tusklin", "alexsmobs_underminer", "conjurer_illager_conjurer", "friendsandfoes_copper_golem", "friendsandfoes_crab", "friendsandfoes_glare", "friendsandfoes_mauler", "friendsandfoes_moobloom", "friendsandfoes_rascal", "friendsandfoes_tuff_golem", "friendsandfoes_wildfire", "goblintraders_goblin_trader", "goblintraders_vein_goblin_trader", "guardvillagers_guard", "illagerinvasion_alchemist", "illagerinvasion_archivist", "illagerinvasion_basher", "illagerinvasion_firecaller", "illagerinvasion_inquisitor", "illagerinvasion_invoker", "illagerinvasion_marauder", "illagerinvasion_necromancer", "illagerinvasion_provoker", "illagerinvasion_sorcerer", "illagerinvasion_surrendered", "minecraft_allay", "minecraft_armadillo", "minecraft_axolotl", "minecraft_bat", "minecraft_bee", "minecraft_camel", "minecraft_cat", "minecraft_cave_spider", "minecraft_chicken", "minecraft_cod", "minecraft_cow", "minecraft_creaking", "minecraft_creeper", "minecraft_dolphin", "minecraft_donkey", "minecraft_drowned", "minecraft_elder_guardian", "minecraft_enderman", "minecraft_evoker", "minecraft_fox", "minecraft_frog", "minecraft_glow_squid", "minecraft_goat", "minecraft_guardian", "minecraft_horse", "minecraft_husk", "minecraft_iron_golem", "minecraft_llama", "minecraft_mooshroom", "minecraft_mule", "minecraft_ocelot", "minecraft_panda", "minecraft_parrot", "minecraft_phantom", "minecraft_pig", "minecraft_pillager", "minecraft_polar_bear", "minecraft_pufferfish", "minecraft_rabbit", "minecraft_ravager", "minecraft_salmon", "minecraft_sheep", "minecraft_silverfish", "minecraft_skeleton", "minecraft_skeleton_horse", "minecraft_slime", "minecraft_sniffer", "minecraft_snow_golem", "minecraft_spider", "minecraft_squid", "minecraft_stray", "minecraft_tadpole", "minecraft_trader_llama", "minecraft_tropical_fish", "minecraft_turtle", "minecraft_vex", "minecraft_villager", "minecraft_vindicator", "minecraft_wandering_trader", "minecraft_warden", "minecraft_witch", "minecraft_wolf", "minecraft_zombie", "minecraft_zombie_horse", "minecraft_zombie_villager", "mowziesmobs_bluff", "mowziesmobs_elokosa_howler", "mowziesmobs_foliaath", "mowziesmobs_frostmaw", "mowziesmobs_grottol", "mowziesmobs_lantern", "mowziesmobs_naga", "mowziesmobs_sculptor", "mowziesmobs_umvuthana", "mowziesmobs_umvuthana_crane", "mowziesmobs_umvuthana_raptor", "mowziesmobs_umvuthi", "quark_crab", "quark_forgotten", "quark_foxhound", "quark_shiba", "quark_stoneling", "quark_toretoise", "quark_wraith", "takesapillage_archer", "takesapillage_legioner", "takesapillage_skirmisher"]
+description = """
+Toutes les créatures de l'Overworld rencontrées. La récompense est symbolique : c'est la quête qui compte.
+"""
