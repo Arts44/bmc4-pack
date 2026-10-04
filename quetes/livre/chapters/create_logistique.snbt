@@ -1,0 +1,413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_logistique"
+	group: "14858825A29975B1"
+	icon: "create:stock_ticker"
+	id: "2E733997A1424A93"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Create 6 ajoute une poste : des &6colis&r en carton qui circulent sur les courroies, des emballeurs qui les font, des liens de stock qui savent ce que contient chaque coffre, et un guichet pour commander. Puis les &btrains&r, pour relier deux bases."
+				""
+				"Le papier offert devient de la pâte, puis du carton : c'est le premier maillon."
+			]
+			icon: "create:cardboard_block"
+			id: "58F388181E4FAC65"
+			rewards: [{
+				count: 16
+				id: "4DCD68BF78114C24"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Après la fabrication avancée."
+			tasks: [{
+				id: "339702AE2192CEFB"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bCreate 6 : des colis et des rails"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58F388181E4FAC65"]
+			description: ["La presse écrase la &7pâte à papier&r en &7carton&r. Quatre cartons font un bloc de carton, et le bloc de carton est le cœur de l'emballeur."]
+			icon: "create:cardboard"
+			id: "25A6A9FD7FFC9272"
+			rewards: [{
+				id: "18940437D660F847"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "6E43CEF56DA66F2E"
+				item: "create:cardboard"
+				type: "item"
+			}]
+			title: "Du carton"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25A6A9FD7FFC9272"]
+			description: ["Bloc de carton, quatre lingots de fer, deux redstone. Collé à un coffre ou à une cuve d'objets, l'&bemballeur&r en sort des &6colis&r sur un signal redstone, et déballe les colis qu'on lui apporte. Un colis se promène sur une courroie comme n'importe quel objet, mais il porte une adresse."]
+			icon: "create:packager"
+			id: "34AC7B6690A922EC"
+			rewards: [{
+				id: "308B73ADB2BE165C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "174834932C0A8235"
+				item: "create:packager"
+				type: "item"
+			}]
+			title: "Un emballeur"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58F388181E4FAC65"]
+			description: ["Émetteur sur cuve d'objets. Posé sur un emballeur, le &blien de stock&r déclare à un réseau ce que l'inventaire derrière contient. Tous les liens à la même fréquence forment un seul stock."]
+			icon: "create:stock_link"
+			id: "01DAB161743BAC6F"
+			rewards: [{
+				id: "7376D6E433586439"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2DEC1C40EA600054"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			title: "Un lien de stock"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"01DAB161743BAC6F"
+				"34AC7B6690A922EC"
+			]
+			description: ["Verre, lien de stock, lingot d'or. Le &bguichet&r affiche tout ce que les liens de son réseau connaissent, et on y &lcommande&r : les emballeurs concernés préparent les colis, les courroies les apportent. Un villageois ou un bras posé devant tient la caisse."]
+			icon: "create:stock_ticker"
+			id: "2EB0AC178E0B19FB"
+			rewards: [{
+				id: "3EE7AD745B540FEF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "4343D5CE694E1153"
+				item: "create:stock_ticker"
+				type: "item"
+			}]
+			title: "Un guichet de stock"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["01DAB161743BAC6F"]
+			description: ["Lien de stock et mécanisme de précision : deux &bjauges&r. Chaque jauge surveille un objet et un seuil ; en dessous, elle commande elle-même ce qu'il faut aux emballeurs pour le fabriquer. Enchaînées, elles font une usine qui se réapprovisionne seule."]
+			icon: "create:factory_gauge"
+			id: "3F55B8C292C796E4"
+			rewards: [{
+				id: "47E771A983340190"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 2L
+				id: "107C11896F30A63D"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			title: "Des jauges d'usine"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34AC7B6690A922EC"]
+			description: ["Boule de slime, cuve d'objets, alliage. Le &bport à colis&r avale les colis à son adresse depuis une chaîne de convoyeur, et les rend à l'emballeur qui déballe. Sa langue dit où il regarde."]
+			icon: "create:package_frogport"
+			id: "33E59ADA233300A1"
+			rewards: [{
+				id: "3E12D6F4C5A451CF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5720B286C2E60761"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			title: "Un port à colis"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["33E59ADA233300A1"]
+			description: ["Grand engrenage dans quatre boîtiers d'andésite : deux &bconvoyeurs à chaîne&r. Reliés par une chaîne, ils font voyager les colis dans les airs sur de longues distances, d'un port à l'autre."]
+			icon: "create:chain_conveyor"
+			id: "5BF122DEB978FAB6"
+			rewards: [{
+				id: "2455395992EBA5CE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 2L
+				id: "197261908A29E882"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			title: "Une chaîne de convoyeur"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["01DAB161743BAC6F"]
+			description: ["Redstone, lien de stock, fer. Le &bdemandeur&r passe une commande fixe quand il reçoit un signal : un bouton, et les objets arrivent."]
+			icon: "create:redstone_requester"
+			id: "5E81B60140189C9E"
+			rewards: [{
+				id: "26CAEFC7081B1F85"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "767D81835F6FA191"
+				item: "create:redstone_requester"
+				type: "item"
+			}]
+			title: "Un demandeur redstone"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58F388181E4FAC65"]
+			description: ["Tube électronique, boîtier de laiton, comparateur. L'&7interrupteur de stock&r émet un signal selon le remplissage de l'inventaire devant lui, entre deux seuils qu'on règle. C'est lui qui arrête une machine quand le coffre est plein."]
+			icon: "create:stockpile_switch"
+			id: "0A724CA23E824EAC"
+			rewards: [{
+				id: "39B3B361B3C88FDA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "258DBD20D498676B"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			title: "Un interrupteur de stock"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58F388181E4FAC65"]
+			description: ["Un boîtier de laiton frappé avec une plaque d'obsidienne. Tout le matériel de train part de là : station, commandes, portes, signaux."]
+			icon: "create:railway_casing"
+			id: "2DF8431B8CB875EB"
+			rewards: [{
+				id: "4748C54C159269F0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "3C7EC598AD41AB9F"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "Des boîtiers ferroviaires"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DF8431B8CB875EB"]
+			description: ["Les &bvoies&r se font par assemblage séquencé : une voie incomplète passe sous des déployeurs qui posent des pépites de fer ou de zinc. Elles se posent en courbes, en pentes et en diagonales, et se raccordent d'elles-mêmes."]
+			icon: "create:track"
+			id: "171D6E62030584A4"
+			rewards: [{
+				id: "3C3AFD071FF95220"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				count: 32L
+				id: "44DDA8E2CC04302F"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "Poser des voies"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["171D6E62030584A4"]
+			description: ["Boîtier ferroviaire et boussole : deux &bstations&r. Posée au bord d'une voie, c'est là qu'on assemble un train, qu'il s'arrête et que l'horaire lui dit où aller."]
+			icon: "create:track_station"
+			id: "4A88E4FA4D55BEF0"
+			rewards: [{
+				id: "679BF0F2BB30B248"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6F503AF3845A17A7"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Une station"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4A88E4FA4D55BEF0"]
+			description: ["Levier, boîtier ferroviaire, mécanisme de précision. Les &bcommandes&r se posent sur le train assemblé : on monte, on conduit. Sans elles, le train ne part qu'avec un horaire."]
+			icon: "create:controls"
+			id: "12E15CC1924FDDD3"
+			rewards: [{
+				id: "67DEDAB2A279522A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1AC70472324BFE73"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "Des commandes de train"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["12E15CC1924FDDD3"]
+			description: ["Un bogie sur la voie à la station, des blocs collés dessus, des commandes, et le bouton d'assemblage de la station. Le train existe. Il avance avec les commandes ou avec un &7horaire&r (plaque d'obsidienne et papier) glissé dans les commandes."]
+			id: "3F96B8313940C433"
+			rewards: [{
+				id: "2C044D43F4C7240D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "072DE8C2A2652FE8"
+				title: "Mon train roule"
+				type: "checkmark"
+			}]
+			title: "Assembler un train"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["171D6E62030584A4"]
+			description: ["Boîtier ferroviaire et tube électronique : quatre &7signaux&r. Ils découpent la voie en sections et empêchent deux trains d'y entrer ensemble. L'&7observateur de voie&r, lui, émet un signal redstone au passage d'un train."]
+			icon: "create:track_signal"
+			id: "39FF612C1F3665C4"
+			rewards: [{
+				id: "779C50179FAEF73A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "671ABDBCEAF44CBB"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "42E512658A7C769E"
+					item: "create:track_observer"
+					type: "item"
+				}
+			]
+			title: "Des signaux"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2DF8431B8CB875EB"]
+			description: ["Une porte en bois et un boîtier ferroviaire. Elle s'ouvre toute seule quand le train est à quai, et reste fermée en route."]
+			icon: "create:train_door"
+			id: "46C6EF8D2901AD90"
+			rewards: [{
+				id: "564073B6C758DC10"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3354C058B3030863"
+				item: "create:train_door"
+				type: "item"
+			}]
+			title: "Une porte de train"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58F388181E4FAC65"]
+			description: ["Tube électronique entre deux alliages : deux &7panneaux&r. Avec un &7lien d'affichage&r, ils montrent le contenu d'un coffre, l'heure, les trains attendus en gare, ou le stock d'un guichet."]
+			icon: "create:display_board"
+			id: "0DF06D78E18EEEFF"
+			rewards: [{
+				id: "2A53AFE6EA388686"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "1BAC28CAAFCF228C"
+					item: "create:display_board"
+					type: "item"
+				}
+				{
+					id: "76E22BC0F26C6A4F"
+					item: "create:display_link"
+					type: "item"
+				}
+			]
+			title: "Un panneau d'affichage"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2EB0AC178E0B19FB"
+				"3F96B8313940C433"
+			]
+			description: ["Un guichet qui commande, des colis qui arrivent, un train qui relie. C'est tout Create 6. Le reste du mod se découvre dans l'Encyclopédie, chapitre &7Atelier Create&r."]
+			icon: "create:track_station"
+			id: "0AA8FE2B6027091B"
+			rewards: [{
+				id: "13D0ABC0FA39D5A0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "43DD66205AB43050"
+				title: "Colis livrés, train parti"
+				type: "checkmark"
+			}]
+			title: "&bLa poste et le chemin de fer"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "&bCreate — logistique et trains"
+}

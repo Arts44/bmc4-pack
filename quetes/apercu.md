@@ -1,6 +1,6 @@
 # Aperçu des chapitres générés
 
-Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis quetes/donnees/.
+Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis quetes/donnees/ par outils/apercu.py.
 
 
 ## Bienvenue sur BMC4  (`bienvenue`, 22 quêtes)
@@ -565,3 +565,45 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > La table à schémas charge un plan de construction ; le Schematicannon le bâtit bloc par bloc, à partir de ce qu'on met dans l'inventaire à côté de lui. On copie une base, on la reconstruit ailleurs.
 - **L'usine tourne** — tâches : checkmark Mon usine tourne à la vapeur — récompense : xp 10 — après : bras, vapeur
   > Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, Create — logistique et trains, fait circuler ce que l'usine produit.
+
+## Create — logistique et trains  (`create_logistique`, 19 quêtes)
+
+- **Create 6 : des colis et des rails** — tâches : checkmark Lu — récompense : item minecraft:paper 16
+  > Create 6 ajoute une poste : des colis en carton qui circulent sur les courroies, des emballeurs qui les font, des liens de stock qui savent ce que contient chaque coffre, et un guichet pour commander. Puis les trains, pour relier deux bases.
+  >   > Le papier offert devient de la pâte, puis du carton : c'est le premier maillon.
+- **Du carton** — tâches : item create:cardboard 8 — récompense : xp 3 — après : intro
+  > La presse écrase la pâte à papier en carton. Quatre cartons font un bloc de carton, et le bloc de carton est le cœur de l'emballeur.
+- **Un emballeur** — tâches : item create:packager — récompense : xp 5 — après : carton
+  > Bloc de carton, quatre lingots de fer, deux redstone. Collé à un coffre ou à une cuve d'objets, l'emballeur en sort des colis sur un signal redstone, et déballe les colis qu'on lui apporte. Un colis se promène sur une courroie comme n'importe quel objet, mais il porte une adresse.
+- **Un lien de stock** — tâches : item create:stock_link — récompense : xp 3 — après : intro
+  > Émetteur sur cuve d'objets. Posé sur un emballeur, le lien de stock déclare à un réseau ce que l'inventaire derrière contient. Tous les liens à la même fréquence forment un seul stock.
+- **Un guichet de stock** — tâches : item create:stock_ticker — récompense : xp 8 — après : lien, emballeur
+  > Verre, lien de stock, lingot d'or. Le guichet affiche tout ce que les liens de son réseau connaissent, et on y commande : les emballeurs concernés préparent les colis, les courroies les apportent. Un villageois ou un bras posé devant tient la caisse.
+- **Des jauges d'usine** — tâches : item create:factory_gauge 2 — récompense : xp 5 — après : lien
+  > Lien de stock et mécanisme de précision : deux jauges. Chaque jauge surveille un objet et un seuil ; en dessous, elle commande elle-même ce qu'il faut aux emballeurs pour le fabriquer. Enchaînées, elles font une usine qui se réapprovisionne seule.
+- **Un port à colis** — tâches : item create:package_frogport — récompense : xp 3 — après : emballeur
+  > Boule de slime, cuve d'objets, alliage. Le port à colis avale les colis à son adresse depuis une chaîne de convoyeur, et les rend à l'emballeur qui déballe. Sa langue dit où il regarde.
+- **Une chaîne de convoyeur** — tâches : item create:chain_conveyor 2 — récompense : xp 5 — après : grenouille
+  > Grand engrenage dans quatre boîtiers d'andésite : deux convoyeurs à chaîne. Reliés par une chaîne, ils font voyager les colis dans les airs sur de longues distances, d'un port à l'autre.
+- **Un demandeur redstone** — tâches : item create:redstone_requester — récompense : xp 3 — après : lien
+  > Redstone, lien de stock, fer. Le demandeur passe une commande fixe quand il reçoit un signal : un bouton, et les objets arrivent.
+- **Un interrupteur de stock** — tâches : item create:stockpile_switch — récompense : xp 3 — après : intro
+  > Tube électronique, boîtier de laiton, comparateur. L'interrupteur de stock émet un signal selon le remplissage de l'inventaire devant lui, entre deux seuils qu'on règle. C'est lui qui arrête une machine quand le coffre est plein.
+- **Des boîtiers ferroviaires** — tâches : item create:railway_casing 4 — récompense : xp 3 — après : intro
+  > Un boîtier de laiton frappé avec une plaque d'obsidienne. Tout le matériel de train part de là : station, commandes, portes, signaux.
+- **Poser des voies** — tâches : item create:track 32 — récompense : xp 8 — après : boitier_rail
+  > Les voies se font par assemblage séquencé : une voie incomplète passe sous des déployeurs qui posent des pépites de fer ou de zinc. Elles se posent en courbes, en pentes et en diagonales, et se raccordent d'elles-mêmes.
+- **Une station** — tâches : item create:track_station — récompense : xp 5 — après : voie
+  > Boîtier ferroviaire et boussole : deux stations. Posée au bord d'une voie, c'est là qu'on assemble un train, qu'il s'arrête et que l'horaire lui dit où aller.
+- **Des commandes de train** — tâches : item create:controls — récompense : xp 5 — après : station
+  > Levier, boîtier ferroviaire, mécanisme de précision. Les commandes se posent sur le train assemblé : on monte, on conduit. Sans elles, le train ne part qu'avec un horaire.
+- **Assembler un train** — tâches : checkmark Mon train roule — récompense : xp 10 — après : commandes
+  > Un bogie sur la voie à la station, des blocs collés dessus, des commandes, et le bouton d'assemblage de la station. Le train existe. Il avance avec les commandes ou avec un horaire (plaque d'obsidienne et papier) glissé dans les commandes.
+- **Des signaux** — tâches : item create:track_signal 4, item create:track_observer 2 — récompense : xp 5 — après : voie
+  > Boîtier ferroviaire et tube électronique : quatre signaux. Ils découpent la voie en sections et empêchent deux trains d'y entrer ensemble. L'observateur de voie, lui, émet un signal redstone au passage d'un train.
+- **Une porte de train** — tâches : item create:train_door — récompense : xp 3 — après : boitier_rail
+  > Une porte en bois et un boîtier ferroviaire. Elle s'ouvre toute seule quand le train est à quai, et reste fermée en route.
+- **Un panneau d'affichage** — tâches : item create:display_board 2, item create:display_link — récompense : xp 3 — après : intro
+  > Tube électronique entre deux alliages : deux panneaux. Avec un lien d'affichage, ils montrent le contenu d'un coffre, l'heure, les trains attendus en gare, ou le stock d'un guichet.
+- **La poste et le chemin de fer** — tâches : checkmark Colis livrés, train parti — récompense : xp 10 — après : guichet, train
+  > Un guichet qui commande, des colis qui arrivent, un train qui relie. C'est tout Create 6. Le reste du mod se découvre dans l'Encyclopédie, chapitre Atelier Create.

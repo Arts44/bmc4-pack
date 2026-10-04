@@ -1,0 +1,210 @@
+# Chapitre « Create — logistique et trains » — cahier des charges §5.3
+# Recettes lues dans create-1.20.1-6.0.8.jar (data/create/recipes).
+
+[chapitre]
+titre = "&bCreate — logistique et trains"
+fichier = "create_logistique"
+groupe = "mods"
+icone = "create:stock_ticker"
+ordre = 2
+
+[[quete]]
+cle = "intro"
+titre = "&bCreate 6 : des colis et des rails"
+sous_titre = "Après la fabrication avancée."
+taille = 1.5
+icone = "create:cardboard_block"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:paper 16"]
+description = """
+Create 6 ajoute une poste : des &6colis&r en carton qui circulent sur les courroies, des emballeurs qui les font, des liens de stock qui savent ce que contient chaque coffre, et un guichet pour commander. Puis les &btrains&r, pour relier deux bases.
+
+Le papier offert devient de la pâte, puis du carton : c'est le premier maillon.
+"""
+
+[[quete]]
+cle = "carton"
+titre = "Du carton"
+deps = ["intro"]
+taches = ["item create:cardboard 8"]
+recompenses = ["xp 3"]
+description = """
+La presse écrase la &7pâte à papier&r en &7carton&r. Quatre cartons font un bloc de carton, et le bloc de carton est le cœur de l'emballeur.
+"""
+
+[[quete]]
+cle = "emballeur"
+titre = "Un emballeur"
+deps = ["carton"]
+taille = 1.3
+taches = ["item create:packager"]
+recompenses = ["xp 5"]
+description = """
+Bloc de carton, quatre lingots de fer, deux redstone. Collé à un coffre ou à une cuve d'objets, l'&bemballeur&r en sort des &6colis&r sur un signal redstone, et déballe les colis qu'on lui apporte. Un colis se promène sur une courroie comme n'importe quel objet, mais il porte une adresse.
+"""
+
+[[quete]]
+cle = "lien"
+titre = "Un lien de stock"
+deps = ["intro"]
+taches = ["item create:stock_link"]
+recompenses = ["xp 3"]
+description = """
+Émetteur sur cuve d'objets. Posé sur un emballeur, le &blien de stock&r déclare à un réseau ce que l'inventaire derrière contient. Tous les liens à la même fréquence forment un seul stock.
+"""
+
+[[quete]]
+cle = "guichet"
+titre = "Un guichet de stock"
+deps = ["lien", "emballeur"]
+taille = 1.3
+taches = ["item create:stock_ticker"]
+recompenses = ["xp 8"]
+description = """
+Verre, lien de stock, lingot d'or. Le &bguichet&r affiche tout ce que les liens de son réseau connaissent, et on y &lcommande&r : les emballeurs concernés préparent les colis, les courroies les apportent. Un villageois ou un bras posé devant tient la caisse.
+"""
+
+[[quete]]
+cle = "jauge"
+titre = "Des jauges d'usine"
+deps = ["lien"]
+taches = ["item create:factory_gauge 2"]
+recompenses = ["xp 5"]
+description = """
+Lien de stock et mécanisme de précision : deux &bjauges&r. Chaque jauge surveille un objet et un seuil ; en dessous, elle commande elle-même ce qu'il faut aux emballeurs pour le fabriquer. Enchaînées, elles font une usine qui se réapprovisionne seule.
+"""
+
+[[quete]]
+cle = "grenouille"
+titre = "Un port à colis"
+deps = ["emballeur"]
+taches = ["item create:package_frogport"]
+recompenses = ["xp 3"]
+description = """
+Boule de slime, cuve d'objets, alliage. Le &bport à colis&r avale les colis à son adresse depuis une chaîne de convoyeur, et les rend à l'emballeur qui déballe. Sa langue dit où il regarde.
+"""
+
+[[quete]]
+cle = "chaine"
+titre = "Une chaîne de convoyeur"
+deps = ["grenouille"]
+taches = ["item create:chain_conveyor 2"]
+recompenses = ["xp 5"]
+description = """
+Grand engrenage dans quatre boîtiers d'andésite : deux &bconvoyeurs à chaîne&r. Reliés par une chaîne, ils font voyager les colis dans les airs sur de longues distances, d'un port à l'autre.
+"""
+
+[[quete]]
+cle = "demandeur"
+titre = "Un demandeur redstone"
+deps = ["lien"]
+taches = ["item create:redstone_requester"]
+recompenses = ["xp 3"]
+description = """
+Redstone, lien de stock, fer. Le &bdemandeur&r passe une commande fixe quand il reçoit un signal : un bouton, et les objets arrivent.
+"""
+
+[[quete]]
+cle = "interrupteur"
+titre = "Un interrupteur de stock"
+deps = ["intro"]
+taches = ["item create:stockpile_switch"]
+recompenses = ["xp 3"]
+description = """
+Tube électronique, boîtier de laiton, comparateur. L'&7interrupteur de stock&r émet un signal selon le remplissage de l'inventaire devant lui, entre deux seuils qu'on règle. C'est lui qui arrête une machine quand le coffre est plein.
+"""
+
+[[quete]]
+cle = "boitier_rail"
+titre = "Des boîtiers ferroviaires"
+deps = ["intro"]
+taches = ["item create:railway_casing 4"]
+recompenses = ["xp 3"]
+description = """
+Un boîtier de laiton frappé avec une plaque d'obsidienne. Tout le matériel de train part de là : station, commandes, portes, signaux.
+"""
+
+[[quete]]
+cle = "voie"
+titre = "Poser des voies"
+deps = ["boitier_rail"]
+taille = 1.3
+taches = ["item create:track 32"]
+recompenses = ["xp 8"]
+description = """
+Les &bvoies&r se font par assemblage séquencé : une voie incomplète passe sous des déployeurs qui posent des pépites de fer ou de zinc. Elles se posent en courbes, en pentes et en diagonales, et se raccordent d'elles-mêmes.
+"""
+
+[[quete]]
+cle = "station"
+titre = "Une station"
+deps = ["voie"]
+taches = ["item create:track_station"]
+recompenses = ["xp 5"]
+description = """
+Boîtier ferroviaire et boussole : deux &bstations&r. Posée au bord d'une voie, c'est là qu'on assemble un train, qu'il s'arrête et que l'horaire lui dit où aller.
+"""
+
+[[quete]]
+cle = "commandes"
+titre = "Des commandes de train"
+deps = ["station"]
+taches = ["item create:controls"]
+recompenses = ["xp 5"]
+description = """
+Levier, boîtier ferroviaire, mécanisme de précision. Les &bcommandes&r se posent sur le train assemblé : on monte, on conduit. Sans elles, le train ne part qu'avec un horaire.
+"""
+
+[[quete]]
+cle = "train"
+titre = "Assembler un train"
+deps = ["commandes"]
+boss = true
+forme = "diamond"
+taches = ["checkmark Mon train roule"]
+recompenses = ["xp 10"]
+description = """
+Un bogie sur la voie à la station, des blocs collés dessus, des commandes, et le bouton d'assemblage de la station. Le train existe. Il avance avec les commandes ou avec un &7horaire&r (plaque d'obsidienne et papier) glissé dans les commandes.
+"""
+
+[[quete]]
+cle = "signal"
+titre = "Des signaux"
+deps = ["voie"]
+taches = ["item create:track_signal 4", "item create:track_observer 2"]
+recompenses = ["xp 5"]
+description = """
+Boîtier ferroviaire et tube électronique : quatre &7signaux&r. Ils découpent la voie en sections et empêchent deux trains d'y entrer ensemble. L'&7observateur de voie&r, lui, émet un signal redstone au passage d'un train.
+"""
+
+[[quete]]
+cle = "porte"
+titre = "Une porte de train"
+deps = ["boitier_rail"]
+taches = ["item create:train_door"]
+recompenses = ["xp 3"]
+description = """
+Une porte en bois et un boîtier ferroviaire. Elle s'ouvre toute seule quand le train est à quai, et reste fermée en route.
+"""
+
+[[quete]]
+cle = "affichage"
+titre = "Un panneau d'affichage"
+deps = ["intro"]
+taches = ["item create:display_board 2", "item create:display_link"]
+recompenses = ["xp 3"]
+description = """
+Tube électronique entre deux alliages : deux &7panneaux&r. Avec un &7lien d'affichage&r, ils montrent le contenu d'un coffre, l'heure, les trains attendus en gare, ou le stock d'un guichet.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&bLa poste et le chemin de fer"
+deps = ["guichet", "train"]
+taille = 1.5
+icone = "create:track_station"
+taches = ["checkmark Colis livrés, train parti"]
+recompenses = ["xp 10"]
+description = """
+Un guichet qui commande, des colis qui arrivent, un train qui relie. C'est tout Create 6. Le reste du mod se découvre dans l'Encyclopédie, chapitre &7Atelier Create&r.
+"""
