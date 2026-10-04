@@ -12,7 +12,7 @@
 			description: [
 				"Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en &lregardant&r la créature : il suffit de l'avoir devant soi."
 				""
-				"Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin. Rien de plus."
+				"Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin — et, quand la créature ne vient pas d'un biome, la voie qui la fait apparaître. Rien de plus."
 				""
 				"Ce chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet."
 			]
@@ -517,29 +517,6 @@
 			y: -6.75d
 		}
 		{
-			description: ["Créature d'&bAlex's Mobs&r. Butin : Bras de voyant éloigné."]
-			icon: "alexsmobs:spawn_egg_farseer"
-			id: "7E9F8AF274AFF400"
-			optional: true
-			rewards: [{
-				id: "1024F49D37B00DE5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			subtitle: "Voyant éloigné — alexsmobs"
-			tasks: [{
-				id: "207CC889CA112500"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:farseer"
-				type: "observation"
-			}]
-			title: "Rencontre : Voyant éloigné"
-			x: 7.5d
-			y: -6.75d
-		}
-		{
 			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Cavernes luxuriantes. Butin : Fleur sporifère."]
 			icon: "alexsmobs:spawn_egg_flutter"
 			id: "38D49E305A9C9590"
@@ -559,7 +536,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Papilloneur"
-			x: 9.0d
+			x: 7.5d
 			y: -6.75d
 		}
 		{
@@ -582,7 +559,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mouche"
-			x: 10.5d
+			x: 9.0d
 			y: -6.75d
 		}
 		{
@@ -605,7 +582,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poisson volant"
-			x: 12.0d
+			x: 10.5d
 			y: -6.75d
 		}
 		{
@@ -628,7 +605,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Requin frangé"
-			x: 13.5d
+			x: 12.0d
 			y: -6.75d
 		}
 		{
@@ -651,7 +628,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Traqueur givrant"
-			x: 15.0d
+			x: 13.5d
 			y: -6.75d
 		}
 		{
@@ -674,7 +651,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gazelle"
-			x: 16.5d
+			x: 15.0d
 			y: -6.75d
 		}
 		{
@@ -697,7 +674,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Singe-gélada"
-			x: 18.0d
+			x: 16.5d
 			y: -6.75d
 		}
 		{
@@ -720,7 +697,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Calmar géant"
-			x: 19.5d
+			x: 18.0d
 			y: -6.75d
 		}
 		{
@@ -743,7 +720,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gorille"
-			x: 21.0d
+			x: 19.5d
 			y: -6.75d
 		}
 		{
@@ -770,7 +747,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grizzly"
-			x: 22.5d
+			x: 21.0d
 			y: -6.75d
 		}
 		{
@@ -793,8 +770,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Rafalleur"
-			x: 0.0d
-			y: -5.25d
+			x: 22.5d
+			y: -6.75d
 		}
 		{
 			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : océans et hot/overworld."]
@@ -816,7 +793,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Requin-marteau"
-			x: 1.5d
+			x: 0.0d
 			y: -5.25d
 		}
 		{
@@ -839,7 +816,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Colibri"
-			x: 3.0d
+			x: 1.5d
 			y: -5.25d
 		}
 		{
@@ -862,7 +839,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gerboise"
-			x: 4.5d
+			x: 3.0d
 			y: -5.25d
 		}
 		{
@@ -885,7 +862,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Kangourou"
-			x: 6.0d
+			x: 4.5d
 			y: -5.25d
 		}
 		{
@@ -908,11 +885,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Dragon de Komodo"
-			x: 7.5d
+			x: 6.0d
 			y: -5.25d
 		}
 		{
-			description: ["Créature d'&bAlex's Mobs&r."]
+			description: ["Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et jungles (sauf Jungle de bambous). Apparaît : autour d'une fourmilière de jungle, une par 200 chunks environ."]
 			icon: "alexsmobs:spawn_egg_leafcutter_ant"
 			id: "219A62A1B0157369"
 			optional: true
@@ -931,7 +908,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Fourmi coupe-feuilles"
-			x: 9.0d
+			x: 7.5d
 			y: -5.25d
 		}
 		{
@@ -954,7 +931,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Homard"
-			x: 10.5d
+			x: 9.0d
 			y: -5.25d
 		}
 		{
@@ -977,7 +954,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Loup à crinière"
-			x: 12.0d
+			x: 10.5d
 			y: -5.25d
 		}
 		{
@@ -1000,7 +977,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Crevette mante"
-			x: 13.5d
+			x: 12.0d
 			y: -5.25d
 		}
 		{
@@ -1023,7 +1000,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poulpe imitant"
-			x: 15.0d
+			x: 13.5d
 			y: -5.25d
 		}
 		{
@@ -1046,7 +1023,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Élan"
-			x: 16.5d
+			x: 15.0d
 			y: -5.25d
 		}
 		{
@@ -1069,7 +1046,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gobie"
-			x: 18.0d
+			x: 16.5d
 			y: -5.25d
 		}
 		{
@@ -1092,11 +1069,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mongus"
-			x: 19.5d
+			x: 18.0d
 			y: -5.25d
 		}
 		{
-			description: ["Créature d'&bAlex's Mobs&r. Butin : Kimono troublant, Laine rouge, Tendon elastique."]
+			description: ["Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Apparaît : sous Y −30 seulement. Butin : Kimono troublant, Laine rouge, Tendon elastique."]
 			icon: "alexsmobs:spawn_egg_murmur"
 			id: "3FC1CAF6FD1F46E8"
 			optional: true
@@ -1115,7 +1092,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Murmure"
-			x: 21.0d
+			x: 19.5d
 			y: -5.25d
 		}
 		{
@@ -1138,7 +1115,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Orque"
-			x: 22.5d
+			x: 21.0d
 			y: -5.25d
 		}
 		{
@@ -1161,8 +1138,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ornithorynque"
-			x: 0.0d
-			y: -3.75d
+			x: 22.5d
+			y: -5.25d
 		}
 		{
 			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Forêt sombre. Butin : Plume."]
@@ -1184,7 +1161,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ibijau"
-			x: 1.5d
+			x: 0.0d
 			y: -3.75d
 		}
 		{
@@ -1207,7 +1184,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Raton laveur"
-			x: 3.0d
+			x: 1.5d
 			y: -3.75d
 		}
 		{
@@ -1230,7 +1207,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grenouille de pluie"
-			x: 4.5d
+			x: 3.0d
 			y: -3.75d
 		}
 		{
@@ -1253,7 +1230,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Crotale"
-			x: 6.0d
+			x: 4.5d
 			y: -3.75d
 		}
 		{
@@ -1276,7 +1253,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Rhinocéros"
-			x: 7.5d
+			x: 6.0d
 			y: -3.75d
 		}
 		{
@@ -1299,7 +1276,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Géocoucou"
-			x: 9.0d
+			x: 7.5d
 			y: -3.75d
 		}
 		{
@@ -1322,7 +1299,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Rouleau rocheux"
-			x: 10.5d
+			x: 9.0d
 			y: -3.75d
 		}
 		{
@@ -1345,7 +1322,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mouette"
-			x: 12.0d
+			x: 10.5d
 			y: -3.75d
 		}
 		{
@@ -1368,7 +1345,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Phoque"
-			x: 13.5d
+			x: 12.0d
 			y: -3.75d
 		}
 		{
@@ -1391,7 +1368,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Bec-en-sabot du Nil"
-			x: 15.0d
+			x: 13.5d
 			y: -3.75d
 		}
 		{
@@ -1414,11 +1391,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Squeladon"
-			x: 16.5d
+			x: 15.0d
 			y: -3.75d
 		}
 		{
-			description: ["Créature d'&bAlex's Mobs&r. Butin : Âme de Skreecher."]
+			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : skreechers can spawn wardens. Butin : Âme de Skreecher."]
 			icon: "alexsmobs:spawn_egg_skreecher"
 			id: "374039BEBFCAA257"
 			optional: true
@@ -1437,7 +1414,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Skreecher"
-			x: 18.0d
+			x: 16.5d
 			y: -3.75d
 		}
 		{
@@ -1460,7 +1437,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Moufette"
-			x: 19.5d
+			x: 18.0d
 			y: -3.75d
 		}
 		{
@@ -1483,7 +1460,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Léopard de neige"
-			x: 21.0d
+			x: 19.5d
 			y: -3.75d
 		}
 		{
@@ -1506,7 +1483,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Spectre"
-			x: 22.5d
+			x: 21.0d
 			y: -3.75d
 		}
 		{
@@ -1529,8 +1506,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Phalanger volant"
-			x: 0.0d
-			y: -2.25d
+			x: 22.5d
+			y: -3.75d
 		}
 		{
 			description: ["Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et montagnes ; Pentes enneigées ; Pics gelés ; Pics dentelés."]
@@ -1552,7 +1529,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Oiseau de soleil"
-			x: 1.5d
+			x: 0.0d
 			y: -2.25d
 		}
 		{
@@ -1575,7 +1552,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Faucon tarentule"
-			x: 3.0d
+			x: 1.5d
 			y: -2.25d
 		}
 		{
@@ -1598,7 +1575,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Diable de Tasmanie"
-			x: 4.5d
+			x: 3.0d
 			y: -2.25d
 		}
 		{
@@ -1621,7 +1598,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tortue de rivière"
-			x: 6.0d
+			x: 4.5d
 			y: -2.25d
 		}
 		{
@@ -1644,7 +1621,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tigre"
-			x: 7.5d
+			x: 6.0d
 			y: -2.25d
 		}
 		{
@@ -1667,7 +1644,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Toucan"
-			x: 9.0d
+			x: 7.5d
 			y: -2.25d
 		}
 		{
@@ -1690,7 +1667,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Triops"
-			x: 10.5d
+			x: 9.0d
 			y: -2.25d
 		}
 		{
@@ -1713,11 +1690,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tusklin"
-			x: 12.0d
+			x: 10.5d
 			y: -2.25d
 		}
 		{
-			description: ["Créature d'&bAlex's Mobs&r."]
+			description: ["Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Apparaît : dans les mines abandonnées seulement ; il disparaît quand on approche à 8 blocs."]
 			icon: "alexsmobs:spawn_egg_underminer"
 			id: "5F058185FCE6946F"
 			optional: true
@@ -1736,12 +1713,12 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Sous-mineur"
-			x: 13.5d
+			x: 12.0d
 			y: -2.25d
 		}
 		{
 			description: [
-				"Créature de &bThe Conjurer&r. Butin : Émeraude, Chapeau de Magicien, throwable ball, Carte à jeter, music disc delve deeper."
+				"Créature de &bThe Conjurer&r. Apparaît : sur la scène de son théâtre. Butin : Émeraude, Chapeau de Magicien, throwable ball, Carte à jeter, music disc delve deeper."
 				""
 				"Il tient un théâtre dans les forêts de chênes noirs. Illusions, lapins explosifs, cartes : un spectacle qu'on finit à l'épée."
 			]
@@ -1763,12 +1740,12 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Conjurateur"
-			x: 15.0d
+			x: 13.5d
 			y: -2.25d
 		}
 		{
 			description: [
-				"Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Lingot de cuivre."
+				"Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparaît : dans les villages et les cités anciennes, ou construit : bloc de cuivre et paratonnerre. Butin : Lingot de cuivre."
 				""
 				"Un golem qu'on fabrique : bloc de cuivre et paratonnerre. Il appuie sur les boutons de cuivre, et il s'oxyde avec le temps. Du miel le fige."
 			]
@@ -1790,11 +1767,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : golem de cuivre"
-			x: 16.5d
+			x: 15.0d
 			y: -2.25d
 		}
 		{
-			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Pince de crabe."]
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Marais à mangroves ; Plage. Butin : Pince de crabe."]
 			icon: "friendsandfoes:crab_spawn_egg"
 			id: "78D1A0B2A0209735"
 			optional: true
@@ -1813,11 +1790,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Crabe"
-			x: 18.0d
+			x: 16.5d
 			y: -2.25d
 		}
 		{
-			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Baies lumineuses."]
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Cavernes luxuriantes. Butin : Baies lumineuses."]
 			icon: "friendsandfoes:glare_spawn_egg"
 			id: "08723A8E30D1FC56"
 			optional: true
@@ -1836,11 +1813,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Glare"
-			x: 19.5d
+			x: 18.0d
 			y: -2.25d
 		}
 		{
-			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Désert ; déserts ; badlands ; savanes ; et d'autres."]
 			icon: "friendsandfoes:mauler_spawn_egg"
 			id: "20B77CC91296CCBC"
 			optional: true
@@ -1859,11 +1836,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mauler"
-			x: 21.0d
+			x: 19.5d
 			y: -2.25d
 		}
 		{
-			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Cuir, Boeuf cru."]
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Forêt fleurie ; Bosquet de cerisiers ; Prairie ; Plaines de tournesols. Butin : Cuir, Boeuf cru."]
 			icon: "friendsandfoes:moobloom_spawn_egg"
 			id: "42C0A78A9BA3A42D"
 			optional: true
@@ -1882,11 +1859,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Moobloom"
-			x: 22.5d
+			x: 21.0d
 			y: -2.25d
 		}
 		{
-			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft."]
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : has structure/mineshaft ; has structure/mineshaft mesa."]
 			icon: "friendsandfoes:rascal_spawn_egg"
 			id: "4736513B7072D5A9"
 			optional: true
@@ -1905,11 +1882,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Rascal"
-			x: 0.0d
-			y: -0.75d
+			x: 22.5d
+			y: -2.25d
 		}
 		{
-			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Tuf."]
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparaît : dans les forteresses de l'End, ou construit. Butin : Tuf."]
 			icon: "friendsandfoes:tuff_golem_spawn_egg"
 			id: "4AC79DAB7F943170"
 			optional: true
@@ -1928,35 +1905,12 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Golem de Tuf"
-			x: 1.5d
-			y: -0.75d
-		}
-		{
-			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Fragment de Couronne du Wildfire."]
-			icon: "friendsandfoes:wildfire_spawn_egg"
-			id: "28EEE3031EF8E14D"
-			optional: true
-			rewards: [{
-				id: "35D9E27916DB4A5F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			subtitle: "Wildfire — friendsandfoes"
-			tasks: [{
-				id: "5EFBE1D28516C531"
-				observe_type: 5
-				timer: 0L
-				to_observe: "friendsandfoes:wildfire"
-				type: "observation"
-			}]
-			title: "Rencontre : Wildfire"
-			x: 3.0d
+			x: 0.0d
 			y: -0.75d
 		}
 		{
 			description: [
-				"Marchand de &bGoblin Traders&r. Butin : Pomme."
+				"Marchand de &bGoblin Traders&r. Apparaît : près des joueurs, sous Y 50, une chance sur quatre toutes les dix minutes ; il repart au bout d'un jour. Butin : Pomme."
 				""
 				"Dans les grottes, un petit marchand qui vend des enchantements et des potions rares contre de l'émeraude et quelques objets. Son cousin des veines vit plus profond."
 			]
@@ -1978,35 +1932,12 @@
 				type: "observation"
 			}]
 			title: "Rencontre : marchand gobelin"
-			x: 4.5d
-			y: -0.75d
-		}
-		{
-			description: ["Marchand de &bGoblin Traders&r. Butin : Carotte."]
-			icon: "goblintraders:vein_goblin_trader_spawn_egg"
-			id: "1A8D0B91ADE3CEA7"
-			optional: true
-			rewards: [{
-				id: "4AB0CCEB8CFB6091"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			subtitle: "Vein Goblin Trader — goblintraders"
-			tasks: [{
-				id: "026E2B872CBAA6D7"
-				observe_type: 5
-				timer: 0L
-				to_observe: "goblintraders:vein_goblin_trader"
-				type: "observation"
-			}]
-			title: "Rencontre : Vein Goblin Trader"
-			x: 6.0d
+			x: 1.5d
 			y: -0.75d
 		}
 		{
 			description: [
-				"Créature de &bGuard Villagers&r."
+				"Créature de &bGuard Villagers&r. Apparaît : dans les villages, six par village."
 				""
 				"Les villages ont des gardes armés. Ils défendent les villageois contre les pillards, et contre toi si tu frappes un villageois sous leurs yeux."
 			]
@@ -2028,11 +1959,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : garde villageois"
-			x: 7.5d
+			x: 3.0d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude, Poudre à canon, Fiole."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Poudre à canon, Fiole."]
 			icon: "illagerinvasion:alchemist_spawn_egg"
 			id: "13607B73B93FFD2B"
 			optional: true
@@ -2051,11 +1982,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Alchemist"
-			x: 9.0d
+			x: 4.5d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude, Livre, Papier."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Livre, Papier."]
 			icon: "illagerinvasion:archivist_spawn_egg"
 			id: "565CDFD16E7065EF"
 			optional: true
@@ -2074,11 +2005,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Archivist"
-			x: 10.5d
+			x: 6.0d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude, Pépite de fer."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Pépite de fer."]
 			icon: "illagerinvasion:basher_spawn_egg"
 			id: "7EA84719F22FA877"
 			optional: true
@@ -2097,11 +2028,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Basher"
-			x: 12.0d
+			x: 7.5d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude, Charge de feu."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Charge de feu."]
 			icon: "illagerinvasion:firecaller_spawn_egg"
 			id: "669EF42C34407DF8"
 			optional: true
@@ -2120,11 +2051,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Firecaller"
-			x: 13.5d
+			x: 9.0d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude, Lingot de fer, Cuir, Platinum Chunk."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Lingot de fer, Cuir, Platinum Chunk."]
 			icon: "illagerinvasion:inquisitor_spawn_egg"
 			id: "1D7DEA6EDF138EE2"
 			optional: true
@@ -2143,14 +2074,14 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Inquisitor"
-			x: 15.0d
+			x: 10.5d
 			y: -0.75d
 		}
 		{
 			description: [
-				"Illageois d'&bIllager Invasion&r. Butin : Émeraude, Primal Essence."
+				"Illageois d'&bIllager Invasion&r. Apparaît : dans les raids de village, en dernière vague. Butin : Émeraude, Primal Essence."
 				""
-				"Le maître des illageois, au sommet des tours d'Illager Invasion. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss."
+				"Le maître des illageois, dernière vague des raids de village. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss."
 			]
 			icon: "illagerinvasion:invoker_spawn_egg"
 			id: "793CF6B4C5D93F5C"
@@ -2170,11 +2101,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Invoker"
-			x: 16.5d
+			x: 12.0d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude."]
 			icon: "illagerinvasion:marauder_spawn_egg"
 			id: "5BB2F4761C963A98"
 			optional: true
@@ -2193,11 +2124,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Marauder"
-			x: 18.0d
+			x: 13.5d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude, Crâne de squelette, Tête de zombie."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Crâne de squelette, Tête de zombie."]
 			icon: "illagerinvasion:necromancer_spawn_egg"
 			id: "6B567E6344BDB50C"
 			optional: true
@@ -2216,11 +2147,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Necromancer"
-			x: 19.5d
+			x: 15.0d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude, Flèche."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Flèche."]
 			icon: "illagerinvasion:provoker_spawn_egg"
 			id: "4657B650ABAFF27C"
 			optional: true
@@ -2239,11 +2170,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Provoker"
-			x: 21.0d
+			x: 16.5d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r. Butin : Émeraude, Livre, Unusual Dust."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Livre, Unusual Dust."]
 			icon: "illagerinvasion:sorcerer_spawn_egg"
 			id: "442AE93471182BD1"
 			optional: true
@@ -2262,11 +2193,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Sorcerer"
-			x: 22.5d
+			x: 18.0d
 			y: -0.75d
 		}
 		{
-			description: ["Illageois d'&bIllager Invasion&r."]
+			description: ["Illageois d'&bIllager Invasion&r. Apparaît : invoqué par l'Invoker."]
 			icon: "illagerinvasion:surrendered_spawn_egg"
 			id: "7040C19F8A4A0034"
 			optional: true
@@ -2285,8 +2216,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Surrendered"
-			x: 0.0d
-			y: 0.75d
+			x: 19.5d
+			y: -0.75d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Bosquet mystique."]
@@ -2308,11 +2239,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Allay"
-			x: 1.5d
-			y: 0.75d
+			x: 21.0d
+			y: -0.75d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparition (config du serveur) : savanes ; badlands."]
 			icon: "minecraft:armadillo_spawn_egg"
 			id: "1B1FC0751A720A05"
 			optional: true
@@ -2331,8 +2262,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tatou"
-			x: 3.0d
-			y: 0.75d
+			x: 22.5d
+			y: -0.75d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : axolotl. Monde : Overworld. Biomes : Cavernes luxuriantes."]
@@ -2354,7 +2285,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Axolotl"
-			x: 4.5d
+			x: 0.0d
 			y: 0.75d
 		}
 		{
@@ -2377,11 +2308,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Chauve-souris"
-			x: 6.0d
+			x: 1.5d
 			y: 0.75d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparaît : dans les nids d'abeilles que portent certains arbres des plaines, forêts de fleurs, prairies et bosquets de cerisiers."]
 			icon: "minecraft:bee_spawn_egg"
 			id: "2B0F74C5E2065685"
 			optional: true
@@ -2400,11 +2331,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Abeille"
-			x: 7.5d
+			x: 3.0d
 			y: 0.75d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparition (config du serveur) : déserts. Apparaît : dans les villages du désert, et dans les déserts."]
 			icon: "minecraft:camel_spawn_egg"
 			id: "3CCCD0DDC98209DB"
 			optional: true
@@ -2423,11 +2354,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Dromadaire"
-			x: 9.0d
+			x: 4.5d
 			y: 0.75d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Ficelle."]
+			description: ["Créature du jeu de base. Apparaît : dans les villages (chats errants, apprivoisables) et les cabanes de sorcière. Butin : Ficelle."]
 			icon: "minecraft:cat_spawn_egg"
 			id: "015F94CCFA79D30C"
 			optional: true
@@ -2446,7 +2377,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Chat"
-			x: 10.5d
+			x: 6.0d
 			y: 0.75d
 		}
 		{
@@ -2469,7 +2400,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Araignée venimeuse"
-			x: 12.0d
+			x: 7.5d
 			y: 0.75d
 		}
 		{
@@ -2492,7 +2423,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poulet cru"
-			x: 13.5d
+			x: 9.0d
 			y: 0.75d
 		}
 		{
@@ -2515,7 +2446,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Morue crue"
-			x: 15.0d
+			x: 10.5d
 			y: 0.75d
 		}
 		{
@@ -2538,11 +2469,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Vache"
-			x: 16.5d
+			x: 12.0d
 			y: 0.75d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparaît : la nuit, près d'un cœur de Creaking dans les arbres du Jardin pâle."]
 			icon: "minecraft:creaking_spawn_egg"
 			id: "05AEBBC0AABBCD5C"
 			optional: true
@@ -2561,7 +2492,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grinceur"
-			x: 18.0d
+			x: 13.5d
 			y: 0.75d
 		}
 		{
@@ -2584,7 +2515,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Creeper"
-			x: 19.5d
+			x: 15.0d
 			y: 0.75d
 		}
 		{
@@ -2607,7 +2538,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Dauphin"
-			x: 21.0d
+			x: 16.5d
 			y: 0.75d
 		}
 		{
@@ -2630,7 +2561,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Âne"
-			x: 22.5d
+			x: 18.0d
 			y: 0.75d
 		}
 		{
@@ -2653,11 +2584,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Noyé"
-			x: 0.0d
-			y: 2.25d
+			x: 19.5d
+			y: 0.75d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine, Éponge mouillée, Modèle de forge."]
+			description: ["Créature du jeu de base. Apparaît : dans les monuments océaniques, trois par monument. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine, Éponge mouillée, Modèle de forge."]
 			icon: "minecraft:elder_guardian_spawn_egg"
 			id: "7AA438F59F793675"
 			optional: true
@@ -2676,8 +2607,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grand gardien"
-			x: 1.5d
-			y: 2.25d
+			x: 21.0d
+			y: 0.75d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Overworld, End, Nether. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Perle de l'Ender."]
@@ -2699,11 +2630,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Enderman"
-			x: 3.0d
-			y: 2.25d
+			x: 22.5d
+			y: 0.75d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Totem d'immortalité, Émeraude."]
+			description: ["Créature du jeu de base. Apparaît : dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures. Butin : Totem d'immortalité, Émeraude."]
 			icon: "minecraft:evoker_spawn_egg"
 			id: "13B86FCD8CC751AE"
 			optional: true
@@ -2722,7 +2653,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Évocateur"
-			x: 4.5d
+			x: 0.0d
 			y: 2.25d
 		}
 		{
@@ -2745,7 +2676,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Renard"
-			x: 6.0d
+			x: 1.5d
 			y: 2.25d
 		}
 		{
@@ -2768,7 +2699,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grenouille"
-			x: 7.5d
+			x: 3.0d
 			y: 2.25d
 		}
 		{
@@ -2791,7 +2722,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poulpe luisant"
-			x: 9.0d
+			x: 4.5d
 			y: 2.25d
 		}
 		{
@@ -2814,11 +2745,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Chèvre"
-			x: 10.5d
+			x: 6.0d
 			y: 2.25d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine."]
+			description: ["Créature du jeu de base. Apparaît : autour des monuments océaniques, en continu. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine."]
 			icon: "minecraft:guardian_spawn_egg"
 			id: "05498FADAFF778B4"
 			optional: true
@@ -2837,7 +2768,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gardien"
-			x: 12.0d
+			x: 7.5d
 			y: 2.25d
 		}
 		{
@@ -2860,7 +2791,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cheval"
-			x: 13.5d
+			x: 9.0d
 			y: 2.25d
 		}
 		{
@@ -2883,11 +2814,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Momifié"
-			x: 15.0d
+			x: 10.5d
 			y: 2.25d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Coquelicot, Lingot de fer."]
+			description: ["Créature du jeu de base. Apparaît : dans les villages, ou construit : quatre blocs de fer et une citrouille sculptée. Butin : Coquelicot, Lingot de fer."]
 			icon: "minecraft:iron_golem_spawn_egg"
 			id: "274BEDFBF0F7BD0F"
 			optional: true
@@ -2906,7 +2837,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Golem de fer"
-			x: 16.5d
+			x: 12.0d
 			y: 2.25d
 		}
 		{
@@ -2929,7 +2860,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Lama"
-			x: 18.0d
+			x: 13.5d
 			y: 2.25d
 		}
 		{
@@ -2952,11 +2883,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mooshroom"
-			x: 19.5d
+			x: 15.0d
 			y: 2.25d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Cuir."]
+			description: ["Créature du jeu de base. Apparaît : en faisant se reproduire un cheval et un âne ; jamais sauvage. Butin : Cuir."]
 			icon: "minecraft:mule_spawn_egg"
 			id: "39A4E0F58950A861"
 			optional: true
@@ -2975,7 +2906,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mule"
-			x: 21.0d
+			x: 16.5d
 			y: 2.25d
 		}
 		{
@@ -2998,7 +2929,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ocelot"
-			x: 22.5d
+			x: 18.0d
 			y: 2.25d
 		}
 		{
@@ -3021,8 +2952,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Panda"
-			x: 0.0d
-			y: 3.75d
+			x: 19.5d
+			y: 2.25d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Jungle. Butin : Plume."]
@@ -3044,8 +2975,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Perroquet"
-			x: 1.5d
-			y: 3.75d
+			x: 21.0d
+			y: 2.25d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : monstre. Monde : End, Otherside. Biomes : Shadow Forest, Deeplands. Butin : Membrane de Phantom."]
@@ -3067,8 +2998,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Phantom"
-			x: 3.0d
-			y: 3.75d
+			x: 22.5d
+			y: 2.25d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Bosquet de cerisiers, Forêt sombre, Forêt fleurie, Forêt et d'autres. Butin : Côtelette de porc crue."]
@@ -3090,11 +3021,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cochon"
-			x: 4.5d
+			x: 0.0d
 			y: 3.75d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparaît : dans les avant-postes de pillards, en patrouilles la nuit, et dans les raids."]
 			icon: "minecraft:pillager_spawn_egg"
 			id: "6D1373832E1567C6"
 			optional: true
@@ -3113,7 +3044,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Pillard"
-			x: 6.0d
+			x: 1.5d
 			y: 3.75d
 		}
 		{
@@ -3136,7 +3067,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ours blanc"
-			x: 7.5d
+			x: 3.0d
 			y: 3.75d
 		}
 		{
@@ -3159,7 +3090,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poisson-globe"
-			x: 9.0d
+			x: 4.5d
 			y: 3.75d
 		}
 		{
@@ -3182,11 +3113,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Lapin cru"
-			x: 10.5d
+			x: 6.0d
 			y: 3.75d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Ravager Horn."]
+			description: ["Créature du jeu de base. Apparaît : dans les raids de village, à partir de la troisième vague. Butin : Selle."]
 			icon: "minecraft:ravager_spawn_egg"
 			id: "5584DD37D4A07A1B"
 			optional: true
@@ -3205,7 +3136,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ravageur"
-			x: 12.0d
+			x: 7.5d
 			y: 3.75d
 		}
 		{
@@ -3228,7 +3159,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Saumon cru"
-			x: 13.5d
+			x: 9.0d
 			y: 3.75d
 		}
 		{
@@ -3251,11 +3182,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mouton"
-			x: 15.0d
+			x: 10.5d
 			y: 3.75d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparaît : dans les forteresses de l'End (générateurs) et en cassant un bloc infesté."]
 			icon: "minecraft:silverfish_spawn_egg"
 			id: "34E27BCF37CBAA1F"
 			optional: true
@@ -3274,7 +3205,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poisson d'argent"
-			x: 16.5d
+			x: 12.0d
 			y: 3.75d
 		}
 		{
@@ -3297,11 +3228,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Squelette"
-			x: 18.0d
+			x: 13.5d
 			y: 3.75d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Os."]
+			description: ["Créature du jeu de base. Apparaît : piège du cheval squelette : un éclair sous l'orage, puis quatre cavaliers. Butin : Os."]
 			icon: "minecraft:skeleton_horse_spawn_egg"
 			id: "19BA1B7D5DC0AF33"
 			optional: true
@@ -3320,7 +3251,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cheval-squelette"
-			x: 19.5d
+			x: 15.0d
 			y: 3.75d
 		}
 		{
@@ -3343,11 +3274,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Slime"
-			x: 21.0d
+			x: 16.5d
 			y: 3.75d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparaît : éclos d'un œuf de Sniffer, brossé dans le gravier suspect des ruines océaniques chaudes."]
 			icon: "minecraft:sniffer_spawn_egg"
 			id: "28AC205338AFCDA3"
 			optional: true
@@ -3366,11 +3297,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Renifleur"
-			x: 22.5d
+			x: 18.0d
 			y: 3.75d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Boule de neige."]
+			description: ["Créature du jeu de base. Apparaît : construit : deux blocs de neige et une citrouille sculptée. Butin : Boule de neige."]
 			icon: "minecraft:snow_golem_spawn_egg"
 			id: "0B299D2DD2CEA943"
 			optional: true
@@ -3389,8 +3320,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Golem de neige"
-			x: 0.0d
-			y: 5.25d
+			x: 19.5d
+			y: 3.75d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Ficelle, Oeil d'araignée."]
@@ -3412,8 +3343,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Araignée"
-			x: 1.5d
-			y: 5.25d
+			x: 21.0d
+			y: 3.75d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : créature aquatique. Monde : Overworld. Biomes : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond, Océan gelé et d'autres. Butin : Poche d'encre."]
@@ -3435,8 +3366,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poulpe"
-			x: 3.0d
-			y: 5.25d
+			x: 22.5d
+			y: 3.75d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Stalagmites de glace, Plaines enneigées. Butin : Flèche, Os, Flèche à effet."]
@@ -3458,11 +3389,34 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Vagabond"
-			x: 4.5d
+			x: 0.0d
 			y: 5.25d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparition (config du serveur) : Cavernes de soufre."]
+			icon: "minecraft:sulfur_cube_spawn_egg"
+			id: "029693B49E21B177"
+			optional: true
+			rewards: [{
+				id: "59A9A75A0CE2863E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cube de soufre — minecraft"
+			tasks: [{
+				id: "233EA913A3E44499"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sulfur_cube"
+				type: "observation"
+			}]
+			title: "Rencontre : Cube de soufre"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			description: ["Créature du jeu de base. Apparaît : éclos du frai que pondent les grenouilles."]
 			icon: "minecraft:tadpole_spawn_egg"
 			id: "46DCFA19A5962E32"
 			optional: true
@@ -3481,11 +3435,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Têtard"
-			x: 6.0d
+			x: 3.0d
 			y: 5.25d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Cuir."]
+			description: ["Créature du jeu de base. Apparaît : avec le marchand ambulant, par deux. Butin : Cuir."]
 			icon: "minecraft:trader_llama_spawn_egg"
 			id: "4B6F2B9B00FA08C8"
 			optional: true
@@ -3504,7 +3458,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Lama de marchand"
-			x: 7.5d
+			x: 4.5d
 			y: 5.25d
 		}
 		{
@@ -3527,7 +3481,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poisson tropical"
-			x: 9.0d
+			x: 6.0d
 			y: 5.25d
 		}
 		{
@@ -3550,11 +3504,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tortue"
-			x: 10.5d
+			x: 7.5d
 			y: 5.25d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparaît : invoqué par l'Évocateur, par trois."]
 			icon: "minecraft:vex_spawn_egg"
 			id: "0C3A5CB683822E4B"
 			optional: true
@@ -3573,11 +3527,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Vex"
-			x: 12.0d
+			x: 9.0d
 			y: 5.25d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparaît : dans les villages."]
 			icon: "minecraft:villager_spawn_egg"
 			id: "4B28BA4E53211241"
 			optional: true
@@ -3596,11 +3550,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Villageois"
-			x: 13.5d
+			x: 10.5d
 			y: 5.25d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Émeraude."]
+			description: ["Créature du jeu de base. Apparaît : dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures. Butin : Émeraude."]
 			icon: "minecraft:vindicator_spawn_egg"
 			id: "38098F465301529B"
 			optional: true
@@ -3619,11 +3573,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Vindicateur"
-			x: 15.0d
+			x: 12.0d
 			y: 5.25d
 		}
 		{
-			description: ["Créature du jeu de base."]
+			description: ["Créature du jeu de base. Apparaît : près des joueurs, de temps en temps, avec ses deux lamas ; il repart au bout de deux jours."]
 			icon: "minecraft:wandering_trader_spawn_egg"
 			id: "50EAD01EC9B845F8"
 			optional: true
@@ -3642,12 +3596,12 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Marchand ambulant"
-			x: 16.5d
+			x: 13.5d
 			y: 5.25d
 		}
 		{
 			description: [
-				"Créature du jeu de base. Butin : Catalyseur de sculk."
+				"Créature du jeu de base. Apparaît : dans les cités anciennes, appelé par un hurleur de sculk déclenché trois fois. Butin : Catalyseur de sculk."
 				""
 				"Aveugle, dans les cités anciennes des profondeurs. Il entend tout ; marcher accroupi et poser de la laine est la seule façon de passer. Le fuir vaut mieux que l'affronter."
 			]
@@ -3669,7 +3623,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Warden"
-			x: 18.0d
+			x: 15.0d
 			y: 5.25d
 		}
 		{
@@ -3692,7 +3646,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Sorcière"
-			x: 19.5d
+			x: 16.5d
 			y: 5.25d
 		}
 		{
@@ -3715,7 +3669,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Loup"
-			x: 21.0d
+			x: 18.0d
 			y: 5.25d
 		}
 		{
@@ -3738,11 +3692,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Zombie"
-			x: 22.5d
+			x: 19.5d
 			y: 5.25d
 		}
 		{
-			description: ["Créature du jeu de base. Butin : Chair putréfiée."]
+			description: ["Créature du jeu de base. Apparaît : piège du cheval zombie ajouté par Friends & Foes, le pendant du cheval squelette. Butin : Chair putréfiée."]
 			icon: "minecraft:zombie_horse_spawn_egg"
 			id: "42B1B67C1E27AE50"
 			optional: true
@@ -3761,8 +3715,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cheval-zombie"
-			x: 0.0d
-			y: 6.75d
+			x: 21.0d
+			y: 5.25d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Chair putréfiée, Lingot de fer, Carotte, Pomme de terre."]
@@ -3784,11 +3738,34 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Zombie-villageois"
-			x: 1.5d
+			x: 22.5d
+			y: 5.25d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r. Apparition naturelle : aucune (config du serveur). Apparaît : dans le monastère du Sculpteur, où deux générateurs le font sortir. Butin : Bluff Rod."]
+			icon: "mowziesmobs:bluff_spawn_egg"
+			id: "61CD2954CCEA4A6B"
+			optional: true
+			rewards: [{
+				id: "669F9F535F76A113"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bluff — mowziesmobs"
+			tasks: [{
+				id: "10C5EA6E7FA6A041"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:bluff"
+				type: "observation"
+			}]
+			title: "Rencontre : Bluff"
+			x: 0.0d
 			y: 6.75d
 		}
 		{
-			description: ["Créature de &bMowzie's Mobs&r."]
+			description: ["Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : jungles."]
 			icon: "mowziesmobs:elokosa_howler_spawn_egg"
 			id: "3650954155ABECFE"
 			optional: true
@@ -3807,7 +3784,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Elokosa Howler"
-			x: 3.0d
+			x: 1.5d
 			y: 6.75d
 		}
 		{
@@ -3830,7 +3807,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Foliaath"
-			x: 4.5d
+			x: 3.0d
 			y: 6.75d
 		}
 		{
@@ -3857,7 +3834,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Frostmaw"
-			x: 6.0d
+			x: 4.5d
 			y: 6.75d
 		}
 		{
@@ -3880,7 +3857,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grottol"
-			x: 7.5d
+			x: 6.0d
 			y: 6.75d
 		}
 		{
@@ -3903,6 +3880,29 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Lanterne"
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			description: ["Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : Côte rocheuse. Butin : Dent de Naga."]
+			icon: "mowziesmobs:naga_spawn_egg"
+			id: "2C4C2630DA29FC1E"
+			optional: true
+			rewards: [{
+				id: "38C852641444D278"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Naga — mowziesmobs"
+			tasks: [{
+				id: "0C4969C94A47A877"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mowziesmobs:naga"
+				type: "observation"
+			}]
+			title: "Rencontre : Naga"
 			x: 9.0d
 			y: 6.75d
 		}
@@ -3934,7 +3934,7 @@
 			y: 6.75d
 		}
 		{
-			description: ["Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : savanes."]
+			description: ["Créature de &bMowzie's Mobs&r. Apparaît : dans le bosquet des Umvuthana, autour du feu, et invoqué par Umvuthi."]
 			icon: "mowziesmobs:umvuthana_spawn_egg"
 			id: "6FD963A642B9E806"
 			optional: true
@@ -3957,7 +3957,7 @@
 			y: 6.75d
 		}
 		{
-			description: ["Créature de &bMowzie's Mobs&r."]
+			description: ["Créature de &bMowzie's Mobs&r. Apparaît : invoqué par Umvuthi pendant son combat, dans le bosquet des Umvuthana."]
 			icon: "mowziesmobs:umvuthana_crane_spawn_egg"
 			id: "23F7C88180E20B3F"
 			optional: true
@@ -3980,7 +3980,7 @@
 			y: 6.75d
 		}
 		{
-			description: ["Créature de &bMowzie's Mobs&r."]
+			description: ["Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : savanes."]
 			icon: "mowziesmobs:umvuthana_raptor_spawn_egg"
 			id: "44CFFF5E178738A1"
 			optional: true
@@ -4030,7 +4030,145 @@
 			y: 6.75d
 		}
 		{
-			description: ["Créature de &bQuark&r. Butin : Carapace de crabe, Patte de crabe crue."]
+			description: ["Créature de &bPet Cemetery&r. Apparaît : en ranimant une seconde fois un animal déjà zombie."]
+			icon: "pet_cemetery:skeleton_cat_spawn_egg"
+			id: "3CF79FA98DA0D7F7"
+			optional: true
+			rewards: [{
+				id: "65E121BBB4CF1A5A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Skeleton Cat — pet_cemetery"
+			tasks: [{
+				id: "2D4730EFE3E6D4AC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "pet_cemetery:skeleton_cat"
+				type: "observation"
+			}]
+			title: "Rencontre : Skeleton Cat"
+			x: 18.0d
+			y: 6.75d
+		}
+		{
+			description: ["Créature de &bPet Cemetery&r. Apparaît : en ranimant une seconde fois un animal déjà zombie."]
+			icon: "pet_cemetery:skeleton_parrot_spawn_egg"
+			id: "6116D140F5838120"
+			optional: true
+			rewards: [{
+				id: "798FC2CC5AF8DE56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Skeleton Parrot — pet_cemetery"
+			tasks: [{
+				id: "1C072CC52616FB71"
+				observe_type: 5
+				timer: 0L
+				to_observe: "pet_cemetery:skeleton_parrot"
+				type: "observation"
+			}]
+			title: "Rencontre : Skeleton Parrot"
+			x: 19.5d
+			y: 6.75d
+		}
+		{
+			description: ["Créature de &bPet Cemetery&r. Apparaît : en ranimant une seconde fois un animal déjà zombie."]
+			icon: "pet_cemetery:skeleton_wolf_spawn_egg"
+			id: "6F3C82DC0C898B1D"
+			optional: true
+			rewards: [{
+				id: "6FB446615C221D09"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Skeleton Wolf — pet_cemetery"
+			tasks: [{
+				id: "2B26B36ED7C26B59"
+				observe_type: 5
+				timer: 0L
+				to_observe: "pet_cemetery:skeleton_wolf"
+				type: "observation"
+			}]
+			title: "Rencontre : Skeleton Wolf"
+			x: 21.0d
+			y: 6.75d
+		}
+		{
+			description: ["Créature de &bPet Cemetery&r. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition."]
+			icon: "pet_cemetery:zombie_cat_spawn_egg"
+			id: "02B57738A8E41A5A"
+			optional: true
+			rewards: [{
+				id: "2439D95DA6C26D7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Zombie Cat — pet_cemetery"
+			tasks: [{
+				id: "4D51FED02446CE43"
+				observe_type: 5
+				timer: 0L
+				to_observe: "pet_cemetery:zombie_cat"
+				type: "observation"
+			}]
+			title: "Rencontre : Zombie Cat"
+			x: 22.5d
+			y: 6.75d
+		}
+		{
+			description: ["Créature de &bPet Cemetery&r. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition."]
+			icon: "pet_cemetery:zombie_parrot_spawn_egg"
+			id: "0C134988CCA1887E"
+			optional: true
+			rewards: [{
+				id: "42C513EB3077ED41"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Zombie Parrot — pet_cemetery"
+			tasks: [{
+				id: "5D32EC0B75288DAD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "pet_cemetery:zombie_parrot"
+				type: "observation"
+			}]
+			title: "Rencontre : Zombie Parrot"
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			description: ["Créature de &bPet Cemetery&r. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition."]
+			icon: "pet_cemetery:zombie_wolf_spawn_egg"
+			id: "79C096E275D3D66D"
+			optional: true
+			rewards: [{
+				id: "73560C3CDB55990D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Zombie Wolf — pet_cemetery"
+			tasks: [{
+				id: "5FB7F83CB93CBE21"
+				observe_type: 5
+				timer: 0L
+				to_observe: "pet_cemetery:zombie_wolf"
+				type: "observation"
+			}]
+			title: "Rencontre : Zombie Wolf"
+			x: 1.5d
+			y: 8.25d
+		}
+		{
+			description: ["Créature de &bQuark&r. Apparition (config du serveur) : plages. Butin : Carapace de crabe, Patte de crabe crue."]
 			icon: "quark:crab_spawn_egg"
 			id: "64A80C2B07129B4E"
 			optional: true
@@ -4049,11 +4187,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Crabe"
-			x: 18.0d
-			y: 6.75d
+			x: 3.0d
+			y: 8.25d
 		}
 		{
-			description: ["Créature de &bQuark&r. Butin : Flèche, Os, Chapeau d'Oublié."]
+			description: ["Créature de &bQuark&r. Apparaît : à la place d'un squelette sur vingt sous Y 0. Butin : Flèche, Os, Chapeau d'Oublié."]
 			icon: "quark:forgotten_spawn_egg"
 			id: "0B4DE42B93900D98"
 			optional: true
@@ -4072,34 +4210,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Oublié"
-			x: 19.5d
-			y: 6.75d
+			x: 4.5d
+			y: 8.25d
 		}
 		{
-			description: ["Créature de &bQuark&r. Butin : Cuir, Charbon."]
-			icon: "quark:foxhound_spawn_egg"
-			id: "65C4E6D3A60DC498"
-			optional: true
-			rewards: [{
-				id: "4262C6BD4466F60A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			subtitle: "Renard de feu — quark"
-			tasks: [{
-				id: "140ABD91E8E0CA30"
-				observe_type: 5
-				timer: 0L
-				to_observe: "quark:foxhound"
-				type: "observation"
-			}]
-			title: "Rencontre : Renard de feu"
-			x: 21.0d
-			y: 6.75d
-		}
-		{
-			description: ["Créature de &bQuark&r."]
+			description: ["Créature de &bQuark&r. Apparition (config du serveur) : montagnes."]
 			icon: "quark:shiba_spawn_egg"
 			id: "43B8CD690F775576"
 			optional: true
@@ -4118,8 +4233,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Shiba"
-			x: 22.5d
-			y: 6.75d
+			x: 6.0d
+			y: 8.25d
 		}
 		{
 			description: ["Créature de &bQuark&r. Catégorie : animal. Biomes : Forêt lumineuse. Butin : Coeur de diamant, Pathfinder's Quill."]
@@ -4141,11 +4256,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Stoneling"
-			x: 0.0d
+			x: 7.5d
 			y: 8.25d
 		}
 		{
-			description: ["Créature de &bQuark&r."]
+			description: ["Créature de &bQuark&r. Apparition (config du serveur) : partout (sauf le Vide, tout le Nether, tout l'End). Apparaît : dans les grottes sous Y 0."]
 			icon: "quark:toretoise_spawn_egg"
 			id: "1BE32E78EA379064"
 			optional: true
@@ -4164,34 +4279,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tortue"
-			x: 1.5d
+			x: 9.0d
 			y: 8.25d
 		}
 		{
-			description: ["Créature de &bQuark&r. Butin : Perle d'âme."]
-			icon: "quark:wraith_spawn_egg"
-			id: "610DB38ADEB72765"
-			optional: true
-			rewards: [{
-				id: "7F267AFBB3DB2495"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			subtitle: "Spectre — quark"
-			tasks: [{
-				id: "7002A76DC4FF2AFB"
-				observe_type: 5
-				timer: 0L
-				to_observe: "quark:wraith"
-				type: "observation"
-			}]
-			title: "Rencontre : Spectre"
-			x: 3.0d
-			y: 8.25d
-		}
-		{
-			description: ["Illageois de &bTakes a Pillage&r. Butin : Flèche, Émeraude."]
+			description: ["Illageois de &bTakes a Pillage&r. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Flèche, Émeraude."]
 			icon: "takesapillage:archer_spawn_egg"
 			id: "006D7577AE9B3ECA"
 			optional: true
@@ -4210,11 +4302,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Archer"
-			x: 4.5d
+			x: 10.5d
 			y: 8.25d
 		}
 		{
-			description: ["Illageois de &bTakes a Pillage&r. Butin : Émeraude."]
+			description: ["Illageois de &bTakes a Pillage&r. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude."]
 			icon: "takesapillage:legioner_spawn_egg"
 			id: "6F83EC368250FA0E"
 			optional: true
@@ -4233,11 +4325,11 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Legioner"
-			x: 6.0d
+			x: 12.0d
 			y: 8.25d
 		}
 		{
-			description: ["Illageois de &bTakes a Pillage&r. Butin : Émeraude."]
+			description: ["Illageois de &bTakes a Pillage&r. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude."]
 			icon: "takesapillage:skirmisher_spawn_egg"
 			id: "030315A26E297E0D"
 			optional: true
@@ -4256,7 +4348,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Skirmisher"
-			x: 7.5d
+			x: 13.5d
 			y: 8.25d
 		}
 		{
@@ -4282,7 +4374,6 @@
 				"3A01091F4BCE389F"
 				"694A97733E38557C"
 				"25B2B003F9D9CD78"
-				"7E9F8AF274AFF400"
 				"38D49E305A9C9590"
 				"2EF6C0938FC2293A"
 				"3BAB670DE16858D5"
@@ -4343,9 +4434,7 @@
 				"42C0A78A9BA3A42D"
 				"4736513B7072D5A9"
 				"4AC79DAB7F943170"
-				"28EEE3031EF8E14D"
 				"0CD6B53438F920C5"
-				"1A8D0B91ADE3CEA7"
 				"3C87EEAE5D6994D6"
 				"13607B73B93FFD2B"
 				"565CDFD16E7065EF"
@@ -4409,6 +4498,7 @@
 				"7AE1940FA3ECEF15"
 				"0AFA64A1EFB55AFF"
 				"7C3F89E09AA68BD7"
+				"029693B49E21B177"
 				"46DCFA19A5962E32"
 				"4B6F2B9B00FA08C8"
 				"5F2639790D7CDB5F"
@@ -4423,23 +4513,29 @@
 				"787A6D2382166D88"
 				"42B1B67C1E27AE50"
 				"7BFFD100ED15EEEA"
+				"61CD2954CCEA4A6B"
 				"3650954155ABECFE"
 				"33873BC4C8825738"
 				"7B106C6E9CE67F09"
 				"76F65CB2F747BA2D"
 				"7E247B3C27306FBE"
+				"2C4C2630DA29FC1E"
 				"4B6727E9DF169770"
 				"6FD963A642B9E806"
 				"23F7C88180E20B3F"
 				"44CFFF5E178738A1"
 				"0A0D392CD6F3D855"
+				"3CF79FA98DA0D7F7"
+				"6116D140F5838120"
+				"6F3C82DC0C898B1D"
+				"02B57738A8E41A5A"
+				"0C134988CCA1887E"
+				"79C096E275D3D66D"
 				"64A80C2B07129B4E"
 				"0B4DE42B93900D98"
-				"65C4E6D3A60DC498"
 				"43B8CD690F775576"
 				"4623C5C10B76F897"
 				"1BE32E78EA379064"
-				"610DB38ADEB72765"
 				"006D7577AE9B3ECA"
 				"6F83EC368250FA0E"
 				"030315A26E297E0D"

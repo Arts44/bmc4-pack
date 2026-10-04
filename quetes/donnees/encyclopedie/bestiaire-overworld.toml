@@ -19,7 +19,7 @@ recompenses = ["xp 2"]
 description = """
 Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en &lregardant&r la créature : il suffit de l'avoir devant soi.
 
-Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin. Rien de plus.
+Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin — et, quand la créature ne vient pas d'un biome, la voie qui la fait apparaître. Rien de plus.
 
 Ce chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet.
 """
@@ -277,18 +277,6 @@ Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) :
 """
 
 [[quete]]
-cle = "alexsmobs_farseer"
-titre = "Rencontre : Voyant éloigné"
-sous_titre = "Voyant éloigné — alexsmobs"
-optionnel = true
-icone = "alexsmobs:spawn_egg_farseer"
-taches = ["observation entity alexsmobs:farseer"]
-recompenses = ["xp 1"]
-description = """
-Créature d'&bAlex's Mobs&r. Butin : Bras de voyant éloigné.
-"""
-
-[[quete]]
 cle = "alexsmobs_flutter"
 titre = "Rencontre : Papilloneur"
 sous_titre = "Papilloneur — alexsmobs"
@@ -491,7 +479,7 @@ icone = "alexsmobs:spawn_egg_leafcutter_ant"
 taches = ["observation entity alexsmobs:leafcutter_ant"]
 recompenses = ["xp 1"]
 description = """
-Créature d'&bAlex's Mobs&r.
+Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et jungles (sauf Jungle de bambous). Apparaît : autour d'une fourmilière de jungle, une par 200 chunks environ.
 """
 
 [[quete]]
@@ -587,7 +575,7 @@ icone = "alexsmobs:spawn_egg_murmur"
 taches = ["observation entity alexsmobs:murmur"]
 recompenses = ["xp 1"]
 description = """
-Créature d'&bAlex's Mobs&r. Butin : Kimono troublant, Laine rouge, Tendon elastique.
+Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Apparaît : sous Y −30 seulement. Butin : Kimono troublant, Laine rouge, Tendon elastique.
 """
 
 [[quete]]
@@ -755,7 +743,7 @@ icone = "alexsmobs:spawn_egg_skreecher"
 taches = ["observation entity alexsmobs:skreecher"]
 recompenses = ["xp 1"]
 description = """
-Créature d'&bAlex's Mobs&r. Butin : Âme de Skreecher.
+Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : skreechers can spawn wardens. Butin : Âme de Skreecher.
 """
 
 [[quete]]
@@ -911,7 +899,7 @@ icone = "alexsmobs:spawn_egg_underminer"
 taches = ["observation entity alexsmobs:underminer"]
 recompenses = ["xp 1"]
 description = """
-Créature d'&bAlex's Mobs&r.
+Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Apparaît : dans les mines abandonnées seulement ; il disparaît quand on approche à 8 blocs.
 """
 
 [[quete]]
@@ -923,7 +911,7 @@ icone = "conjurer_illager:conjurer_spawn_egg"
 taches = ["observation entity conjurer_illager:conjurer"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bThe Conjurer&r. Butin : Émeraude, Chapeau de Magicien, throwable ball, Carte à jeter, music disc delve deeper.
+Créature de &bThe Conjurer&r. Apparaît : sur la scène de son théâtre. Butin : Émeraude, Chapeau de Magicien, throwable ball, Carte à jeter, music disc delve deeper.
 
 Il tient un théâtre dans les forêts de chênes noirs. Illusions, lapins explosifs, cartes : un spectacle qu'on finit à l'épée.
 """
@@ -937,7 +925,7 @@ icone = "friendsandfoes:copper_golem_spawn_egg"
 taches = ["observation entity friendsandfoes:copper_golem"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Lingot de cuivre.
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparaît : dans les villages et les cités anciennes, ou construit : bloc de cuivre et paratonnerre. Butin : Lingot de cuivre.
 
 Un golem qu'on fabrique : bloc de cuivre et paratonnerre. Il appuie sur les boutons de cuivre, et il s'oxyde avec le temps. Du miel le fige.
 """
@@ -951,7 +939,7 @@ icone = "friendsandfoes:crab_spawn_egg"
 taches = ["observation entity friendsandfoes:crab"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Pince de crabe.
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Marais à mangroves ; Plage. Butin : Pince de crabe.
 """
 
 [[quete]]
@@ -963,7 +951,7 @@ icone = "friendsandfoes:glare_spawn_egg"
 taches = ["observation entity friendsandfoes:glare"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Baies lumineuses.
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Cavernes luxuriantes. Butin : Baies lumineuses.
 """
 
 [[quete]]
@@ -975,7 +963,7 @@ icone = "friendsandfoes:mauler_spawn_egg"
 taches = ["observation entity friendsandfoes:mauler"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Désert ; déserts ; badlands ; savanes ; et d'autres.
 """
 
 [[quete]]
@@ -987,7 +975,7 @@ icone = "friendsandfoes:moobloom_spawn_egg"
 taches = ["observation entity friendsandfoes:moobloom"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Cuir, Boeuf cru.
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Forêt fleurie ; Bosquet de cerisiers ; Prairie ; Plaines de tournesols. Butin : Cuir, Boeuf cru.
 """
 
 [[quete]]
@@ -999,7 +987,7 @@ icone = "friendsandfoes:rascal_spawn_egg"
 taches = ["observation entity friendsandfoes:rascal"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft.
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparition (config du serveur) : has structure/mineshaft ; has structure/mineshaft mesa.
 """
 
 [[quete]]
@@ -1011,19 +999,7 @@ icone = "friendsandfoes:tuff_golem_spawn_egg"
 taches = ["observation entity friendsandfoes:tuff_golem"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Tuf.
-"""
-
-[[quete]]
-cle = "friendsandfoes_wildfire"
-titre = "Rencontre : Wildfire"
-sous_titre = "Wildfire — friendsandfoes"
-optionnel = true
-icone = "friendsandfoes:wildfire_spawn_egg"
-taches = ["observation entity friendsandfoes:wildfire"]
-recompenses = ["xp 1"]
-description = """
-Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Butin : Fragment de Couronne du Wildfire.
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparaît : dans les forteresses de l'End, ou construit. Butin : Tuf.
 """
 
 [[quete]]
@@ -1035,21 +1011,9 @@ icone = "goblintraders:goblin_trader_spawn_egg"
 taches = ["observation entity goblintraders:goblin_trader"]
 recompenses = ["xp 1"]
 description = """
-Marchand de &bGoblin Traders&r. Butin : Pomme.
+Marchand de &bGoblin Traders&r. Apparaît : près des joueurs, sous Y 50, une chance sur quatre toutes les dix minutes ; il repart au bout d'un jour. Butin : Pomme.
 
 Dans les grottes, un petit marchand qui vend des enchantements et des potions rares contre de l'émeraude et quelques objets. Son cousin des veines vit plus profond.
-"""
-
-[[quete]]
-cle = "goblintraders_vein_goblin_trader"
-titre = "Rencontre : Vein Goblin Trader"
-sous_titre = "Vein Goblin Trader — goblintraders"
-optionnel = true
-icone = "goblintraders:vein_goblin_trader_spawn_egg"
-taches = ["observation entity goblintraders:vein_goblin_trader"]
-recompenses = ["xp 1"]
-description = """
-Marchand de &bGoblin Traders&r. Butin : Carotte.
 """
 
 [[quete]]
@@ -1061,7 +1025,7 @@ icone = "guardvillagers:guard_spawn_egg"
 taches = ["observation entity guardvillagers:guard"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bGuard Villagers&r.
+Créature de &bGuard Villagers&r. Apparaît : dans les villages, six par village.
 
 Les villages ont des gardes armés. Ils défendent les villageois contre les pillards, et contre toi si tu frappes un villageois sous leurs yeux.
 """
@@ -1075,7 +1039,7 @@ icone = "illagerinvasion:alchemist_spawn_egg"
 taches = ["observation entity illagerinvasion:alchemist"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Poudre à canon, Fiole.
+Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Poudre à canon, Fiole.
 """
 
 [[quete]]
@@ -1087,7 +1051,7 @@ icone = "illagerinvasion:archivist_spawn_egg"
 taches = ["observation entity illagerinvasion:archivist"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Livre, Papier.
+Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Livre, Papier.
 """
 
 [[quete]]
@@ -1099,7 +1063,7 @@ icone = "illagerinvasion:basher_spawn_egg"
 taches = ["observation entity illagerinvasion:basher"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Pépite de fer.
+Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Pépite de fer.
 """
 
 [[quete]]
@@ -1111,7 +1075,7 @@ icone = "illagerinvasion:firecaller_spawn_egg"
 taches = ["observation entity illagerinvasion:firecaller"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Charge de feu.
+Illageois d'&bIllager Invasion&r. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Charge de feu.
 """
 
 [[quete]]
@@ -1123,7 +1087,7 @@ icone = "illagerinvasion:inquisitor_spawn_egg"
 taches = ["observation entity illagerinvasion:inquisitor"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Lingot de fer, Cuir, Platinum Chunk.
+Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Lingot de fer, Cuir, Platinum Chunk.
 """
 
 [[quete]]
@@ -1135,9 +1099,9 @@ icone = "illagerinvasion:invoker_spawn_egg"
 taches = ["observation entity illagerinvasion:invoker"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Primal Essence.
+Illageois d'&bIllager Invasion&r. Apparaît : dans les raids de village, en dernière vague. Butin : Émeraude, Primal Essence.
 
-Le maître des illageois, au sommet des tours d'Illager Invasion. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss.
+Le maître des illageois, dernière vague des raids de village. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss.
 """
 
 [[quete]]
@@ -1149,7 +1113,7 @@ icone = "illagerinvasion:marauder_spawn_egg"
 taches = ["observation entity illagerinvasion:marauder"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude.
+Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude.
 """
 
 [[quete]]
@@ -1161,7 +1125,7 @@ icone = "illagerinvasion:necromancer_spawn_egg"
 taches = ["observation entity illagerinvasion:necromancer"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Crâne de squelette, Tête de zombie.
+Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Crâne de squelette, Tête de zombie.
 """
 
 [[quete]]
@@ -1173,7 +1137,7 @@ icone = "illagerinvasion:provoker_spawn_egg"
 taches = ["observation entity illagerinvasion:provoker"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Flèche.
+Illageois d'&bIllager Invasion&r. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Flèche.
 """
 
 [[quete]]
@@ -1185,7 +1149,7 @@ icone = "illagerinvasion:sorcerer_spawn_egg"
 taches = ["observation entity illagerinvasion:sorcerer"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r. Butin : Émeraude, Livre, Unusual Dust.
+Illageois d'&bIllager Invasion&r. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Livre, Unusual Dust.
 """
 
 [[quete]]
@@ -1197,7 +1161,7 @@ icone = "illagerinvasion:surrendered_spawn_egg"
 taches = ["observation entity illagerinvasion:surrendered"]
 recompenses = ["xp 1"]
 description = """
-Illageois d'&bIllager Invasion&r.
+Illageois d'&bIllager Invasion&r. Apparaît : invoqué par l'Invoker.
 """
 
 [[quete]]
@@ -1221,7 +1185,7 @@ icone = "minecraft:armadillo_spawn_egg"
 taches = ["observation entity minecraft:armadillo"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparition (config du serveur) : savanes ; badlands.
 """
 
 [[quete]]
@@ -1257,7 +1221,7 @@ icone = "minecraft:bee_spawn_egg"
 taches = ["observation entity minecraft:bee"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : dans les nids d'abeilles que portent certains arbres des plaines, forêts de fleurs, prairies et bosquets de cerisiers.
 """
 
 [[quete]]
@@ -1269,7 +1233,7 @@ icone = "minecraft:camel_spawn_egg"
 taches = ["observation entity minecraft:camel"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparition (config du serveur) : déserts. Apparaît : dans les villages du désert, et dans les déserts.
 """
 
 [[quete]]
@@ -1281,7 +1245,7 @@ icone = "minecraft:cat_spawn_egg"
 taches = ["observation entity minecraft:cat"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Ficelle.
+Créature du jeu de base. Apparaît : dans les villages (chats errants, apprivoisables) et les cabanes de sorcière. Butin : Ficelle.
 """
 
 [[quete]]
@@ -1341,7 +1305,7 @@ icone = "minecraft:creaking_spawn_egg"
 taches = ["observation entity minecraft:creaking"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : la nuit, près d'un cœur de Creaking dans les arbres du Jardin pâle.
 """
 
 [[quete]]
@@ -1401,7 +1365,7 @@ icone = "minecraft:elder_guardian_spawn_egg"
 taches = ["observation entity minecraft:elder_guardian"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine, Éponge mouillée, Modèle de forge.
+Créature du jeu de base. Apparaît : dans les monuments océaniques, trois par monument. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine, Éponge mouillée, Modèle de forge.
 """
 
 [[quete]]
@@ -1425,7 +1389,7 @@ icone = "minecraft:evoker_spawn_egg"
 taches = ["observation entity minecraft:evoker"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Totem d'immortalité, Émeraude.
+Créature du jeu de base. Apparaît : dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures. Butin : Totem d'immortalité, Émeraude.
 """
 
 [[quete]]
@@ -1485,7 +1449,7 @@ icone = "minecraft:guardian_spawn_egg"
 taches = ["observation entity minecraft:guardian"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine.
+Créature du jeu de base. Apparaît : autour des monuments océaniques, en continu. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine.
 """
 
 [[quete]]
@@ -1521,7 +1485,7 @@ icone = "minecraft:iron_golem_spawn_egg"
 taches = ["observation entity minecraft:iron_golem"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Coquelicot, Lingot de fer.
+Créature du jeu de base. Apparaît : dans les villages, ou construit : quatre blocs de fer et une citrouille sculptée. Butin : Coquelicot, Lingot de fer.
 """
 
 [[quete]]
@@ -1557,7 +1521,7 @@ icone = "minecraft:mule_spawn_egg"
 taches = ["observation entity minecraft:mule"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Cuir.
+Créature du jeu de base. Apparaît : en faisant se reproduire un cheval et un âne ; jamais sauvage. Butin : Cuir.
 """
 
 [[quete]]
@@ -1629,7 +1593,7 @@ icone = "minecraft:pillager_spawn_egg"
 taches = ["observation entity minecraft:pillager"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : dans les avant-postes de pillards, en patrouilles la nuit, et dans les raids.
 """
 
 [[quete]]
@@ -1677,7 +1641,7 @@ icone = "minecraft:ravager_spawn_egg"
 taches = ["observation entity minecraft:ravager"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Ravager Horn.
+Créature du jeu de base. Apparaît : dans les raids de village, à partir de la troisième vague. Butin : Selle.
 """
 
 [[quete]]
@@ -1713,7 +1677,7 @@ icone = "minecraft:silverfish_spawn_egg"
 taches = ["observation entity minecraft:silverfish"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : dans les forteresses de l'End (générateurs) et en cassant un bloc infesté.
 """
 
 [[quete]]
@@ -1737,7 +1701,7 @@ icone = "minecraft:skeleton_horse_spawn_egg"
 taches = ["observation entity minecraft:skeleton_horse"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Os.
+Créature du jeu de base. Apparaît : piège du cheval squelette : un éclair sous l'orage, puis quatre cavaliers. Butin : Os.
 """
 
 [[quete]]
@@ -1761,7 +1725,7 @@ icone = "minecraft:sniffer_spawn_egg"
 taches = ["observation entity minecraft:sniffer"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : éclos d'un œuf de Sniffer, brossé dans le gravier suspect des ruines océaniques chaudes.
 """
 
 [[quete]]
@@ -1773,7 +1737,7 @@ icone = "minecraft:snow_golem_spawn_egg"
 taches = ["observation entity minecraft:snow_golem"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Boule de neige.
+Créature du jeu de base. Apparaît : construit : deux blocs de neige et une citrouille sculptée. Butin : Boule de neige.
 """
 
 [[quete]]
@@ -1813,6 +1777,18 @@ Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Stal
 """
 
 [[quete]]
+cle = "minecraft_sulfur_cube"
+titre = "Rencontre : Cube de soufre"
+sous_titre = "Cube de soufre — minecraft"
+optionnel = true
+icone = "minecraft:sulfur_cube_spawn_egg"
+taches = ["observation entity minecraft:sulfur_cube"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Apparition (config du serveur) : Cavernes de soufre.
+"""
+
+[[quete]]
 cle = "minecraft_tadpole"
 titre = "Rencontre : Têtard"
 sous_titre = "Têtard — minecraft"
@@ -1821,7 +1797,7 @@ icone = "minecraft:tadpole_spawn_egg"
 taches = ["observation entity minecraft:tadpole"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : éclos du frai que pondent les grenouilles.
 """
 
 [[quete]]
@@ -1833,7 +1809,7 @@ icone = "minecraft:trader_llama_spawn_egg"
 taches = ["observation entity minecraft:trader_llama"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Cuir.
+Créature du jeu de base. Apparaît : avec le marchand ambulant, par deux. Butin : Cuir.
 """
 
 [[quete]]
@@ -1869,7 +1845,7 @@ icone = "minecraft:vex_spawn_egg"
 taches = ["observation entity minecraft:vex"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : invoqué par l'Évocateur, par trois.
 """
 
 [[quete]]
@@ -1881,7 +1857,7 @@ icone = "minecraft:villager_spawn_egg"
 taches = ["observation entity minecraft:villager"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : dans les villages.
 """
 
 [[quete]]
@@ -1893,7 +1869,7 @@ icone = "minecraft:vindicator_spawn_egg"
 taches = ["observation entity minecraft:vindicator"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Émeraude.
+Créature du jeu de base. Apparaît : dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures. Butin : Émeraude.
 """
 
 [[quete]]
@@ -1905,7 +1881,7 @@ icone = "minecraft:wandering_trader_spawn_egg"
 taches = ["observation entity minecraft:wandering_trader"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base.
+Créature du jeu de base. Apparaît : près des joueurs, de temps en temps, avec ses deux lamas ; il repart au bout de deux jours.
 """
 
 [[quete]]
@@ -1917,7 +1893,7 @@ icone = "minecraft:warden_spawn_egg"
 taches = ["observation entity minecraft:warden"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Catalyseur de sculk.
+Créature du jeu de base. Apparaît : dans les cités anciennes, appelé par un hurleur de sculk déclenché trois fois. Butin : Catalyseur de sculk.
 
 Aveugle, dans les cités anciennes des profondeurs. Il entend tout ; marcher accroupi et poser de la laine est la seule façon de passer. Le fuir vaut mieux que l'affronter.
 """
@@ -1967,7 +1943,7 @@ icone = "minecraft:zombie_horse_spawn_egg"
 taches = ["observation entity minecraft:zombie_horse"]
 recompenses = ["xp 1"]
 description = """
-Créature du jeu de base. Butin : Chair putréfiée.
+Créature du jeu de base. Apparaît : piège du cheval zombie ajouté par Friends & Foes, le pendant du cheval squelette. Butin : Chair putréfiée.
 """
 
 [[quete]]
@@ -1983,6 +1959,18 @@ Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badl
 """
 
 [[quete]]
+cle = "mowziesmobs_bluff"
+titre = "Rencontre : Bluff"
+sous_titre = "Bluff — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:bluff_spawn_egg"
+taches = ["observation entity mowziesmobs:bluff"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r. Apparition naturelle : aucune (config du serveur). Apparaît : dans le monastère du Sculpteur, où deux générateurs le font sortir. Butin : Bluff Rod.
+"""
+
+[[quete]]
 cle = "mowziesmobs_elokosa_howler"
 titre = "Rencontre : Elokosa Howler"
 sous_titre = "Elokosa Howler — mowziesmobs"
@@ -1991,7 +1979,7 @@ icone = "mowziesmobs:elokosa_howler_spawn_egg"
 taches = ["observation entity mowziesmobs:elokosa_howler"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bMowzie's Mobs&r.
+Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : jungles.
 """
 
 [[quete]]
@@ -2045,6 +2033,18 @@ Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : forêts et biom
 """
 
 [[quete]]
+cle = "mowziesmobs_naga"
+titre = "Rencontre : Naga"
+sous_titre = "Naga — mowziesmobs"
+optionnel = true
+icone = "mowziesmobs:naga_spawn_egg"
+taches = ["observation entity mowziesmobs:naga"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : Côte rocheuse. Butin : Dent de Naga.
+"""
+
+[[quete]]
 cle = "mowziesmobs_sculptor"
 titre = "Rencontre : Sculpteur"
 sous_titre = "Tongbi, the Sculptor — mowziesmobs"
@@ -2067,7 +2067,7 @@ icone = "mowziesmobs:umvuthana_spawn_egg"
 taches = ["observation entity mowziesmobs:umvuthana"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : savanes.
+Créature de &bMowzie's Mobs&r. Apparaît : dans le bosquet des Umvuthana, autour du feu, et invoqué par Umvuthi.
 """
 
 [[quete]]
@@ -2079,7 +2079,7 @@ icone = "mowziesmobs:umvuthana_crane_spawn_egg"
 taches = ["observation entity mowziesmobs:umvuthana_crane"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bMowzie's Mobs&r.
+Créature de &bMowzie's Mobs&r. Apparaît : invoqué par Umvuthi pendant son combat, dans le bosquet des Umvuthana.
 """
 
 [[quete]]
@@ -2091,7 +2091,7 @@ icone = "mowziesmobs:umvuthana_raptor_spawn_egg"
 taches = ["observation entity mowziesmobs:umvuthana_raptor"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bMowzie's Mobs&r.
+Créature de &bMowzie's Mobs&r. Apparition (config du serveur) : savanes.
 """
 
 [[quete]]
@@ -2109,6 +2109,78 @@ L'oiseau-soleil, sur son trône au cœur d'un village Umvuthana dans la savane. 
 """
 
 [[quete]]
+cle = "pet_cemetery_skeleton_cat"
+titre = "Rencontre : Skeleton Cat"
+sous_titre = "Skeleton Cat — pet_cemetery"
+optionnel = true
+icone = "pet_cemetery:skeleton_cat_spawn_egg"
+taches = ["observation entity pet_cemetery:skeleton_cat"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bPet Cemetery&r. Apparaît : en ranimant une seconde fois un animal déjà zombie.
+"""
+
+[[quete]]
+cle = "pet_cemetery_skeleton_parrot"
+titre = "Rencontre : Skeleton Parrot"
+sous_titre = "Skeleton Parrot — pet_cemetery"
+optionnel = true
+icone = "pet_cemetery:skeleton_parrot_spawn_egg"
+taches = ["observation entity pet_cemetery:skeleton_parrot"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bPet Cemetery&r. Apparaît : en ranimant une seconde fois un animal déjà zombie.
+"""
+
+[[quete]]
+cle = "pet_cemetery_skeleton_wolf"
+titre = "Rencontre : Skeleton Wolf"
+sous_titre = "Skeleton Wolf — pet_cemetery"
+optionnel = true
+icone = "pet_cemetery:skeleton_wolf_spawn_egg"
+taches = ["observation entity pet_cemetery:skeleton_wolf"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bPet Cemetery&r. Apparaît : en ranimant une seconde fois un animal déjà zombie.
+"""
+
+[[quete]]
+cle = "pet_cemetery_zombie_cat"
+titre = "Rencontre : Zombie Cat"
+sous_titre = "Zombie Cat — pet_cemetery"
+optionnel = true
+icone = "pet_cemetery:zombie_cat_spawn_egg"
+taches = ["observation entity pet_cemetery:zombie_cat"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bPet Cemetery&r. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
+"""
+
+[[quete]]
+cle = "pet_cemetery_zombie_parrot"
+titre = "Rencontre : Zombie Parrot"
+sous_titre = "Zombie Parrot — pet_cemetery"
+optionnel = true
+icone = "pet_cemetery:zombie_parrot_spawn_egg"
+taches = ["observation entity pet_cemetery:zombie_parrot"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bPet Cemetery&r. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
+"""
+
+[[quete]]
+cle = "pet_cemetery_zombie_wolf"
+titre = "Rencontre : Zombie Wolf"
+sous_titre = "Zombie Wolf — pet_cemetery"
+optionnel = true
+icone = "pet_cemetery:zombie_wolf_spawn_egg"
+taches = ["observation entity pet_cemetery:zombie_wolf"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bPet Cemetery&r. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
+"""
+
+[[quete]]
 cle = "quark_crab"
 titre = "Rencontre : Crabe"
 sous_titre = "Crabe — quark"
@@ -2117,7 +2189,7 @@ icone = "quark:crab_spawn_egg"
 taches = ["observation entity quark:crab"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bQuark&r. Butin : Carapace de crabe, Patte de crabe crue.
+Créature de &bQuark&r. Apparition (config du serveur) : plages. Butin : Carapace de crabe, Patte de crabe crue.
 """
 
 [[quete]]
@@ -2129,19 +2201,7 @@ icone = "quark:forgotten_spawn_egg"
 taches = ["observation entity quark:forgotten"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bQuark&r. Butin : Flèche, Os, Chapeau d'Oublié.
-"""
-
-[[quete]]
-cle = "quark_foxhound"
-titre = "Rencontre : Renard de feu"
-sous_titre = "Renard de feu — quark"
-optionnel = true
-icone = "quark:foxhound_spawn_egg"
-taches = ["observation entity quark:foxhound"]
-recompenses = ["xp 1"]
-description = """
-Créature de &bQuark&r. Butin : Cuir, Charbon.
+Créature de &bQuark&r. Apparaît : à la place d'un squelette sur vingt sous Y 0. Butin : Flèche, Os, Chapeau d'Oublié.
 """
 
 [[quete]]
@@ -2153,7 +2213,7 @@ icone = "quark:shiba_spawn_egg"
 taches = ["observation entity quark:shiba"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bQuark&r.
+Créature de &bQuark&r. Apparition (config du serveur) : montagnes.
 """
 
 [[quete]]
@@ -2177,19 +2237,7 @@ icone = "quark:toretoise_spawn_egg"
 taches = ["observation entity quark:toretoise"]
 recompenses = ["xp 1"]
 description = """
-Créature de &bQuark&r.
-"""
-
-[[quete]]
-cle = "quark_wraith"
-titre = "Rencontre : Spectre"
-sous_titre = "Spectre — quark"
-optionnel = true
-icone = "quark:wraith_spawn_egg"
-taches = ["observation entity quark:wraith"]
-recompenses = ["xp 1"]
-description = """
-Créature de &bQuark&r. Butin : Perle d'âme.
+Créature de &bQuark&r. Apparition (config du serveur) : partout (sauf le Vide, tout le Nether, tout l'End). Apparaît : dans les grottes sous Y 0.
 """
 
 [[quete]]
@@ -2201,7 +2249,7 @@ icone = "takesapillage:archer_spawn_egg"
 taches = ["observation entity takesapillage:archer"]
 recompenses = ["xp 1"]
 description = """
-Illageois de &bTakes a Pillage&r. Butin : Flèche, Émeraude.
+Illageois de &bTakes a Pillage&r. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Flèche, Émeraude.
 """
 
 [[quete]]
@@ -2213,7 +2261,7 @@ icone = "takesapillage:legioner_spawn_egg"
 taches = ["observation entity takesapillage:legioner"]
 recompenses = ["xp 1"]
 description = """
-Illageois de &bTakes a Pillage&r. Butin : Émeraude.
+Illageois de &bTakes a Pillage&r. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
 """
 
 [[quete]]
@@ -2225,7 +2273,7 @@ icone = "takesapillage:skirmisher_spawn_egg"
 taches = ["observation entity takesapillage:skirmisher"]
 recompenses = ["xp 1"]
 description = """
-Illageois de &bTakes a Pillage&r. Butin : Émeraude.
+Illageois de &bTakes a Pillage&r. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
 """
 
 [[quete]]
@@ -2236,7 +2284,7 @@ icone = "minecraft:creeper_head"
 forme = "gear"
 taches = ["checkmark Chapitre complet"]
 recompenses = ["xp 20"]
-deps = ["alexsmobs_alligator_snapping_turtle", "alexsmobs_anaconda", "alexsmobs_anteater", "alexsmobs_bald_eagle", "alexsmobs_banana_slug", "alexsmobs_bison", "alexsmobs_blobfish", "alexsmobs_blue_jay", "alexsmobs_bunfungus", "alexsmobs_cachalot_whale", "alexsmobs_caiman", "alexsmobs_capuchin_monkey", "alexsmobs_catfish", "alexsmobs_cockroach", "alexsmobs_comb_jelly", "alexsmobs_crocodile", "alexsmobs_crow", "alexsmobs_devils_hole_pupfish", "alexsmobs_dropbear", "alexsmobs_elephant", "alexsmobs_emu", "alexsmobs_farseer", "alexsmobs_flutter", "alexsmobs_fly", "alexsmobs_flying_fish", "alexsmobs_frilled_shark", "alexsmobs_froststalker", "alexsmobs_gazelle", "alexsmobs_gelada_monkey", "alexsmobs_giant_squid", "alexsmobs_gorilla", "alexsmobs_grizzly_bear", "alexsmobs_guster", "alexsmobs_hammerhead_shark", "alexsmobs_hummingbird", "alexsmobs_jerboa", "alexsmobs_kangaroo", "alexsmobs_komodo_dragon", "alexsmobs_leafcutter_ant", "alexsmobs_lobster", "alexsmobs_maned_wolf", "alexsmobs_mantis_shrimp", "alexsmobs_mimic_octopus", "alexsmobs_moose", "alexsmobs_mudskipper", "alexsmobs_mungus", "alexsmobs_murmur", "alexsmobs_orca", "alexsmobs_platypus", "alexsmobs_potoo", "alexsmobs_raccoon", "alexsmobs_rain_frog", "alexsmobs_rattlesnake", "alexsmobs_rhinoceros", "alexsmobs_roadrunner", "alexsmobs_rocky_roller", "alexsmobs_seagull", "alexsmobs_seal", "alexsmobs_shoebill", "alexsmobs_skelewag", "alexsmobs_skreecher", "alexsmobs_skunk", "alexsmobs_snow_leopard", "alexsmobs_spectre", "alexsmobs_sugar_glider", "alexsmobs_sunbird", "alexsmobs_tarantula_hawk", "alexsmobs_tasmanian_devil", "alexsmobs_terrapin", "alexsmobs_tiger", "alexsmobs_toucan", "alexsmobs_triops", "alexsmobs_tusklin", "alexsmobs_underminer", "conjurer_illager_conjurer", "friendsandfoes_copper_golem", "friendsandfoes_crab", "friendsandfoes_glare", "friendsandfoes_mauler", "friendsandfoes_moobloom", "friendsandfoes_rascal", "friendsandfoes_tuff_golem", "friendsandfoes_wildfire", "goblintraders_goblin_trader", "goblintraders_vein_goblin_trader", "guardvillagers_guard", "illagerinvasion_alchemist", "illagerinvasion_archivist", "illagerinvasion_basher", "illagerinvasion_firecaller", "illagerinvasion_inquisitor", "illagerinvasion_invoker", "illagerinvasion_marauder", "illagerinvasion_necromancer", "illagerinvasion_provoker", "illagerinvasion_sorcerer", "illagerinvasion_surrendered", "minecraft_allay", "minecraft_armadillo", "minecraft_axolotl", "minecraft_bat", "minecraft_bee", "minecraft_camel", "minecraft_cat", "minecraft_cave_spider", "minecraft_chicken", "minecraft_cod", "minecraft_cow", "minecraft_creaking", "minecraft_creeper", "minecraft_dolphin", "minecraft_donkey", "minecraft_drowned", "minecraft_elder_guardian", "minecraft_enderman", "minecraft_evoker", "minecraft_fox", "minecraft_frog", "minecraft_glow_squid", "minecraft_goat", "minecraft_guardian", "minecraft_horse", "minecraft_husk", "minecraft_iron_golem", "minecraft_llama", "minecraft_mooshroom", "minecraft_mule", "minecraft_ocelot", "minecraft_panda", "minecraft_parrot", "minecraft_phantom", "minecraft_pig", "minecraft_pillager", "minecraft_polar_bear", "minecraft_pufferfish", "minecraft_rabbit", "minecraft_ravager", "minecraft_salmon", "minecraft_sheep", "minecraft_silverfish", "minecraft_skeleton", "minecraft_skeleton_horse", "minecraft_slime", "minecraft_sniffer", "minecraft_snow_golem", "minecraft_spider", "minecraft_squid", "minecraft_stray", "minecraft_tadpole", "minecraft_trader_llama", "minecraft_tropical_fish", "minecraft_turtle", "minecraft_vex", "minecraft_villager", "minecraft_vindicator", "minecraft_wandering_trader", "minecraft_warden", "minecraft_witch", "minecraft_wolf", "minecraft_zombie", "minecraft_zombie_horse", "minecraft_zombie_villager", "mowziesmobs_elokosa_howler", "mowziesmobs_foliaath", "mowziesmobs_frostmaw", "mowziesmobs_grottol", "mowziesmobs_lantern", "mowziesmobs_sculptor", "mowziesmobs_umvuthana", "mowziesmobs_umvuthana_crane", "mowziesmobs_umvuthana_raptor", "mowziesmobs_umvuthi", "quark_crab", "quark_forgotten", "quark_foxhound", "quark_shiba", "quark_stoneling", "quark_toretoise", "quark_wraith", "takesapillage_archer", "takesapillage_legioner", "takesapillage_skirmisher"]
+deps = ["alexsmobs_alligator_snapping_turtle", "alexsmobs_anaconda", "alexsmobs_anteater", "alexsmobs_bald_eagle", "alexsmobs_banana_slug", "alexsmobs_bison", "alexsmobs_blobfish", "alexsmobs_blue_jay", "alexsmobs_bunfungus", "alexsmobs_cachalot_whale", "alexsmobs_caiman", "alexsmobs_capuchin_monkey", "alexsmobs_catfish", "alexsmobs_cockroach", "alexsmobs_comb_jelly", "alexsmobs_crocodile", "alexsmobs_crow", "alexsmobs_devils_hole_pupfish", "alexsmobs_dropbear", "alexsmobs_elephant", "alexsmobs_emu", "alexsmobs_flutter", "alexsmobs_fly", "alexsmobs_flying_fish", "alexsmobs_frilled_shark", "alexsmobs_froststalker", "alexsmobs_gazelle", "alexsmobs_gelada_monkey", "alexsmobs_giant_squid", "alexsmobs_gorilla", "alexsmobs_grizzly_bear", "alexsmobs_guster", "alexsmobs_hammerhead_shark", "alexsmobs_hummingbird", "alexsmobs_jerboa", "alexsmobs_kangaroo", "alexsmobs_komodo_dragon", "alexsmobs_leafcutter_ant", "alexsmobs_lobster", "alexsmobs_maned_wolf", "alexsmobs_mantis_shrimp", "alexsmobs_mimic_octopus", "alexsmobs_moose", "alexsmobs_mudskipper", "alexsmobs_mungus", "alexsmobs_murmur", "alexsmobs_orca", "alexsmobs_platypus", "alexsmobs_potoo", "alexsmobs_raccoon", "alexsmobs_rain_frog", "alexsmobs_rattlesnake", "alexsmobs_rhinoceros", "alexsmobs_roadrunner", "alexsmobs_rocky_roller", "alexsmobs_seagull", "alexsmobs_seal", "alexsmobs_shoebill", "alexsmobs_skelewag", "alexsmobs_skreecher", "alexsmobs_skunk", "alexsmobs_snow_leopard", "alexsmobs_spectre", "alexsmobs_sugar_glider", "alexsmobs_sunbird", "alexsmobs_tarantula_hawk", "alexsmobs_tasmanian_devil", "alexsmobs_terrapin", "alexsmobs_tiger", "alexsmobs_toucan", "alexsmobs_triops", "alexsmobs_tusklin", "alexsmobs_underminer", "conjurer_illager_conjurer", "friendsandfoes_copper_golem", "friendsandfoes_crab", "friendsandfoes_glare", "friendsandfoes_mauler", "friendsandfoes_moobloom", "friendsandfoes_rascal", "friendsandfoes_tuff_golem", "goblintraders_goblin_trader", "guardvillagers_guard", "illagerinvasion_alchemist", "illagerinvasion_archivist", "illagerinvasion_basher", "illagerinvasion_firecaller", "illagerinvasion_inquisitor", "illagerinvasion_invoker", "illagerinvasion_marauder", "illagerinvasion_necromancer", "illagerinvasion_provoker", "illagerinvasion_sorcerer", "illagerinvasion_surrendered", "minecraft_allay", "minecraft_armadillo", "minecraft_axolotl", "minecraft_bat", "minecraft_bee", "minecraft_camel", "minecraft_cat", "minecraft_cave_spider", "minecraft_chicken", "minecraft_cod", "minecraft_cow", "minecraft_creaking", "minecraft_creeper", "minecraft_dolphin", "minecraft_donkey", "minecraft_drowned", "minecraft_elder_guardian", "minecraft_enderman", "minecraft_evoker", "minecraft_fox", "minecraft_frog", "minecraft_glow_squid", "minecraft_goat", "minecraft_guardian", "minecraft_horse", "minecraft_husk", "minecraft_iron_golem", "minecraft_llama", "minecraft_mooshroom", "minecraft_mule", "minecraft_ocelot", "minecraft_panda", "minecraft_parrot", "minecraft_phantom", "minecraft_pig", "minecraft_pillager", "minecraft_polar_bear", "minecraft_pufferfish", "minecraft_rabbit", "minecraft_ravager", "minecraft_salmon", "minecraft_sheep", "minecraft_silverfish", "minecraft_skeleton", "minecraft_skeleton_horse", "minecraft_slime", "minecraft_sniffer", "minecraft_snow_golem", "minecraft_spider", "minecraft_squid", "minecraft_stray", "minecraft_sulfur_cube", "minecraft_tadpole", "minecraft_trader_llama", "minecraft_tropical_fish", "minecraft_turtle", "minecraft_vex", "minecraft_villager", "minecraft_vindicator", "minecraft_wandering_trader", "minecraft_warden", "minecraft_witch", "minecraft_wolf", "minecraft_zombie", "minecraft_zombie_horse", "minecraft_zombie_villager", "mowziesmobs_bluff", "mowziesmobs_elokosa_howler", "mowziesmobs_foliaath", "mowziesmobs_frostmaw", "mowziesmobs_grottol", "mowziesmobs_lantern", "mowziesmobs_naga", "mowziesmobs_sculptor", "mowziesmobs_umvuthana", "mowziesmobs_umvuthana_crane", "mowziesmobs_umvuthana_raptor", "mowziesmobs_umvuthi", "pet_cemetery_skeleton_cat", "pet_cemetery_skeleton_parrot", "pet_cemetery_skeleton_wolf", "pet_cemetery_zombie_cat", "pet_cemetery_zombie_parrot", "pet_cemetery_zombie_wolf", "quark_crab", "quark_forgotten", "quark_shiba", "quark_stoneling", "quark_toretoise", "takesapillage_archer", "takesapillage_legioner", "takesapillage_skirmisher"]
 description = """
 Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
 """

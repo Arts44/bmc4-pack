@@ -1,24 +1,41 @@
 # Garde-fou de l'Encyclopédie (cahier §9.2) : ce qui est dans les jars
-# mais n'apparaît pas réellement sur le serveur. Une entrée = un
-# identifiant, avec la raison mesurée. Ces entrées ne deviennent jamais
-# des quêtes.
+# mais n'apparaît pas sur le serveur. Une entrée = un identifiant, avec la
+# raison mesurée. Ces entrées ne deviennent jamais des quêtes.
+#
+# Critère (correction de méthode du 5 octobre 2026) : une créature n'est
+# exclue que si AUCUNE voie ne la fait apparaître — ni biome, ni bloc
+# d'invocation ou générateur dans une structure (scan des pièces NBT de
+# tous les jars : outils/scan-structures, 5 octobre), ni objet, autel ou
+# rituel, ni événement. Les œufs d'apparition ne comptent pas. Ce qui a
+# une voie reste dans le chapitre et sa fiche la dit (« Apparaît : … »).
+#
+# Rétablies le 5 octobre, exclues à tort auparavant :
+#   mowziesmobs:naga     — biome_whitelist = ["minecraft:stony_shore"] dans
+#                          mowziesmobs-common.toml du serveur (j'avais lu
+#                          biome_tags = [] sans la liste blanche) ;
+#   mowziesmobs:bluff    — générateurs mowziesmobs:bluff dans deux pièces du
+#                          monastère (monastery/interior/monastery_bluff.nbt,
+#                          monastery/monastery_stairs_end_spawner.nbt) ;
+#   minecraft:sulfur_cube — Vanilla Backport l'ajoute aux Grottes de soufre
+#                          (ChaosCubedFeatureManager ; has_sulfur_cubes = true
+#                          sur le serveur) ;
+#   pet_cemetery:*       — ranimés avec le collier sur une ancre de
+#                          réapparition (PCEvents, progrès du mod).
 
 [exclusion]
-# Bad Mobs, config serveur du 4 octobre : allowNormalSpawning = false.
-"friendsandfoes:iceologer" = "Bad Mobs : apparition naturelle désactivée (badmobs-common.toml, [friendsandfoes.iceologer])"
-# alexsmobs.toml serveur : voidWormSpawnWeight = 0 (et c'est une créature de l'End de toute façon).
-"alexsmobs:void_worm" = "alexsmobs.toml : poids d'apparition 0"
-# Entités d'exemple de GeckoLib : jamais présentes en jeu.
+# Friends & Foes, friendsandfoes.json du serveur : enableIceologer = false,
+# enableIceologerSpawn = false, enableIceologerInRaids = false,
+# generateIceologerCabinStructure = false. La seule structure qui le pose
+# (iceologer_cabin/entity/iceologer.nbt) est donc désactivée ; Bad Mobs
+# (badmobs-common.toml) coupe aussi son apparition naturelle.
+"friendsandfoes:iceologer" = "Friends & Foes : créature, apparition, raids et cabane désactivés dans friendsandfoes.json du serveur"
+# alexsmobs.toml serveur : voidWormSpawnWeight = 0 ; aucune structure ne le
+# pose (scan NBT) ; seul l'objet « ver mystérieux » l'invoque, et
+# voidWormSpawnDimensions = ["minecraft:the_end"] : à revoir au chapitre de l'End.
+"alexsmobs:void_worm" = "alexsmobs.toml : poids d'apparition 0 ; invocation réservée à l'End"
+# alexsmobs.toml serveur : restrictFarseerSpawns = true, à 100 blocs au plus
+# de la bordure du monde ; « worldborder get » le 5 octobre : 59 999 968 blocs
+# de large, soit une bordure à 30 millions de blocs. Hors d'atteinte.
+"alexsmobs:farseer" = "alexsmobs.toml : n'apparaît qu'à 100 blocs de la bordure du monde, qui est à 30 millions de blocs"
+# Entité d'exemple de GeckoLib : aucune donnée d'apparition, aucune structure, aucun objet.
 "geckolib:mutant_zombie" = "entité d'exemple de GeckoLib"
-# Animaux de Pet Cemetery : n'apparaissent que par conversion d'un animal apprivoisé mort, pas de rencontre possible.
-"pet_cemetery:zombie_cat" = "Pet Cemetery : conversion seulement"
-"pet_cemetery:zombie_wolf" = "Pet Cemetery : conversion seulement"
-"pet_cemetery:zombie_parrot" = "Pet Cemetery : conversion seulement"
-"pet_cemetery:skeleton_cat" = "Pet Cemetery : conversion seulement"
-"pet_cemetery:skeleton_wolf" = "Pet Cemetery : conversion seulement"
-"pet_cemetery:skeleton_parrot" = "Pet Cemetery : conversion seulement"
-# Namespace minecraft mais pas une créature du jeu de base : ajoutée par un mod de rétroportage, présence sur le serveur non vérifiée.
-"minecraft:sulfur_cube" = "entité « minecraft: » venue d'un mod (Cube de soufre), présence non vérifiée"
-# Mowzie's Mobs, mowziesmobs-common.toml du serveur (5 octobre) : biome_tags = [] → aucune apparition naturelle.
-"mowziesmobs:naga" = "Mowzie's Mobs : biome_tags vide dans la config serveur, aucune apparition naturelle"
-"mowziesmobs:bluff" = "Mowzie's Mobs : biome_tags vide dans la config serveur, aucune apparition naturelle"

@@ -25,23 +25,178 @@ description = "Tongbi, dans un monastère des pics gelés. Il propose une épreu
 [note."conjurer_illager:conjurer"]
 titre = "Rencontre : Conjurateur"
 description = "Il tient un théâtre dans les forêts de chênes noirs. Illusions, lapins explosifs, cartes : un spectacle qu'on finit à l'épée."
+apparition = "sur la scène de son théâtre"
 
 [note."illagerinvasion:invoker"]
 titre = "Rencontre : Invoker"
-description = "Le maître des illageois, au sommet des tours d'Illager Invasion. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss."
+description = "Le maître des illageois, dernière vague des raids de village. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss."
+apparition = "dans les raids de village, en dernière vague"
 
 [note."minecraft:warden"]
 titre = "Rencontre : Warden"
 description = "Aveugle, dans les cités anciennes des profondeurs. Il entend tout ; marcher accroupi et poser de la laine est la seule façon de passer. Le fuir vaut mieux que l'affronter."
+apparition = "dans les cités anciennes, appelé par un hurleur de sculk déclenché trois fois"
 
 [note."goblintraders:goblin_trader"]
 titre = "Rencontre : marchand gobelin"
 description = "Dans les grottes, un petit marchand qui vend des enchantements et des potions rares contre de l'émeraude et quelques objets. Son cousin des veines vit plus profond."
+apparition = "près des joueurs, sous Y 50, une chance sur quatre toutes les dix minutes ; il repart au bout d'un jour"
 
 [note."friendsandfoes:copper_golem"]
 titre = "Rencontre : golem de cuivre"
 description = "Un golem qu'on fabrique : bloc de cuivre et paratonnerre. Il appuie sur les boutons de cuivre, et il s'oxyde avec le temps. Du miel le fige."
+apparition = "dans les villages et les cités anciennes, ou construit : bloc de cuivre et paratonnerre"
 
 [note."guardvillagers:guard"]
 titre = "Rencontre : garde villageois"
 description = "Les villages ont des gardes armés. Ils défendent les villageois contre les pillards, et contre toi si tu frappes un villageois sous leurs yeux."
+
+# ---------------------------------------------------------------------------
+# Voies d'apparition (5 octobre 2026). Clé `apparition` : imprimée « Apparaît :
+# … » dans la fiche. Chaque ligne cite sa pièce : fichier d'un jar, config du
+# serveur (lue le 5 octobre), ou classe du jar vanilla 1.20.1 (jar « srg »
+# de Forge, noms de classes lisibles). Rien ici n'est tiré d'un wiki.
+
+# --- jeu de base
+# pièce : data/minecraft/worldgen/configured_feature/*_bees_*.json (jar 1.20.1)
+apparition = "dans les villages, six par village"
+
+[note."minecraft:bee"]
+apparition = "dans les nids d'abeilles que portent certains arbres des plaines, forêts de fleurs, prairies et bosquets de cerisiers"
+# pièce : data/minecraft/structures/village/*/ (chats posés) ; worldgen/structure/swamp_hut.json (spawn_overrides creature : cat)
+[note."minecraft:cat"]
+apparition = "dans les villages (chats errants, apprivoisables) et les cabanes de sorcière"
+# pièce : YUNG's Better Ocean Monuments remplace le monument vanilla ; ses pièces NBT posent 2 gardiens anciens (scan)
+[note."minecraft:elder_guardian"]
+apparition = "dans les monuments océaniques, trois par monument"
+# pièce : data/minecraft/worldgen/structure/monument.json (spawn_overrides monster : guardian)
+[note."minecraft:guardian"]
+apparition = "autour des monuments océaniques, en continu"
+# pièce : WoodlandMansionPieces (jar vanilla) ; Raid (jar vanilla) ; posé aussi dans des pièces d'autres mods (scan : dungeons_arise, structory, irons_spellbooks…)
+[note."minecraft:evoker"]
+apparition = "dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures"
+[note."minecraft:vindicator"]
+apparition = "dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures"
+# pièce : Evoker$EvokerSummonSpellGoal (jar vanilla)
+[note."minecraft:vex"]
+apparition = "invoqué par l'Évocateur, par trois"
+# pièce : data/minecraft/structures/village/*/ (golems posés) ; CarvedPumpkinBlock (jar vanilla)
+[note."minecraft:iron_golem"]
+apparition = "dans les villages, ou construit : quatre blocs de fer et une citrouille sculptée"
+# pièce : CarvedPumpkinBlock (jar vanilla)
+[note."minecraft:snow_golem"]
+apparition = "construit : deux blocs de neige et une citrouille sculptée"
+# pièce : AbstractHorse / Mule (jar vanilla) : issu du croisement
+[note."minecraft:mule"]
+apparition = "en faisant se reproduire un cheval et un âne ; jamais sauvage"
+# pièce : worldgen/structure/pillager_outpost.json (spawn_overrides) ; PatrolSpawner ; Raid (jar vanilla)
+[note."minecraft:pillager"]
+apparition = "dans les avant-postes de pillards, en patrouilles la nuit, et dans les raids"
+# pièce : Raid (jar vanilla) ; posé dans des pièces d'Iron's Spells (scan)
+[note."minecraft:ravager"]
+apparition = "dans les raids de village, à partir de la troisième vague"
+# pièce : générateurs des forteresses de YUNG's Better Strongholds (scan : silverfish ×2) ; blocs infestés
+[note."minecraft:silverfish"]
+apparition = "dans les forteresses de l'End (générateurs) et en cassant un bloc infesté"
+# pièce : SkeletonTrapGoal (jar vanilla)
+[note."minecraft:skeleton_horse"]
+apparition = "piège du cheval squelette : un éclair sous l'orage, puis quatre cavaliers"
+# pièce : friendsandfoes.json du serveur : enableZombieHorseTrap = true
+[note."minecraft:zombie_horse"]
+apparition = "piège du cheval zombie ajouté par Friends & Foes, le pendant du cheval squelette"
+# pièce : data/minecraft/loot_tables/archaeology/ocean_ruin_warm.json (sniffer_egg)
+[note."minecraft:sniffer"]
+apparition = "éclos d'un œuf de Sniffer, brossé dans le gravier suspect des ruines océaniques chaudes"
+# pièce : FrogspawnBlock (jar vanilla)
+[note."minecraft:tadpole"]
+apparition = "éclos du frai que pondent les grenouilles"
+# pièce : WanderingTraderSpawner (jar vanilla)
+[note."minecraft:wandering_trader"]
+apparition = "près des joueurs, de temps en temps, avec ses deux lamas ; il repart au bout de deux jours"
+[note."minecraft:trader_llama"]
+apparition = "avec le marchand ambulant, par deux"
+# pièce : data/minecraft/structures/village/*/ (scan : 16 villageois posés)
+[note."minecraft:villager"]
+apparition = "dans les villages"
+[note."minecraft:creaking"]
+apparition = "la nuit, près d'un cœur de Creaking dans les arbres du Jardin pâle"
+# pièce : data/minecraft/structures/village/desert/ (chameau posé) ; SpringToLife (Vanilla Backport), camel_spawns = true
+[note."minecraft:camel"]
+apparition = "dans les villages du désert, et dans les déserts"
+
+# --- Alex's Mobs (alexsmobs.toml du serveur)
+# pièce : leafcutterAnthillSpawnChance = 0.005 ; FeatureLeafcutterAnthill
+[note."alexsmobs:leafcutter_ant"]
+apparition = "autour d'une fourmilière de jungle, une par 200 chunks environ"
+# pièce : murmurSpawnHeight = -30
+[note."alexsmobs:murmur"]
+apparition = "sous Y −30 seulement"
+# pièce : restrictUnderminerSpawns = true
+[note."alexsmobs:underminer"]
+apparition = "dans les mines abandonnées seulement ; il disparaît quand on approche à 8 blocs"
+
+[note."friendsandfoes:tuff_golem"]
+apparition = "dans les forteresses de l'End, ou construit"
+
+[note."illagerinvasion:alchemist"]
+apparition = "dans les structures d'Illager Invasion et dans les raids"
+[note."illagerinvasion:archivist"]
+apparition = "dans les structures d'Illager Invasion et dans les raids"
+[note."illagerinvasion:basher"]
+apparition = "dans les structures d'Illager Invasion et dans les raids"
+[note."illagerinvasion:firecaller"]
+apparition = "dans sa hutte et dans les raids"
+[note."illagerinvasion:inquisitor"]
+apparition = "dans les structures d'Illager Invasion et dans les raids"
+[note."illagerinvasion:marauder"]
+apparition = "dans les structures d'Illager Invasion et dans les raids"
+[note."illagerinvasion:necromancer"]
+apparition = "dans les structures d'Illager Invasion et dans les raids"
+[note."illagerinvasion:provoker"]
+apparition = "dans les structures d'Illager Invasion et dans les raids"
+[note."illagerinvasion:sorcerer"]
+apparition = "dans sa hutte et dans les raids"
+[note."illagerinvasion:surrendered"]
+apparition = "invoqué par l'Invoker"
+
+# --- It Takes a Pillage : data/minecraft/tags/entity_types/raiders.json ;
+# takesapillage-common.toml du serveur : "Enable Pillage Sieges" = true ; ModFeatures (camps, bastilles)
+[note."takesapillage:archer"]
+apparition = "dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles"
+[note."takesapillage:legioner"]
+apparition = "dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles"
+[note."takesapillage:skirmisher"]
+apparition = "dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles"
+
+# --- Mowzie's Mobs
+# pièce : EntityUmvuthi$SpawnFollowersAbility (jar) ; aucune apparition naturelle
+[note."mowziesmobs:umvuthana_crane"]
+apparition = "invoqué par Umvuthi pendant son combat, dans le bosquet des Umvuthana"
+# pièce : générateurs mowziesmobs:bluff dans monastery/interior/monastery_bluff.nbt et monastery/monastery_stairs_end_spawner.nbt
+[note."mowziesmobs:bluff"]
+titre = "Rencontre : Bluff"
+apparition = "dans le monastère du Sculpteur, où deux générateurs le font sortir"
+
+# --- Quark (quark-common.toml du serveur : "Forgotten Spawn Rate" = 0.05, "Max Height For Spawn" = 0)
+[note."quark:forgotten"]
+apparition = "à la place d'un squelette sur vingt sous Y 0"
+
+# --- Pet Cemetery (PCEvents : RespawnAnchorBlock, PetID/OwnerID ; progrès respawn_pet, respawn_zombie_pet)
+[note."pet_cemetery:zombie_cat"]
+apparition = "en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition"
+[note."pet_cemetery:zombie_wolf"]
+apparition = "en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition"
+[note."pet_cemetery:zombie_parrot"]
+apparition = "en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition"
+[note."pet_cemetery:skeleton_cat"]
+apparition = "en ranimant une seconde fois un animal déjà zombie"
+[note."pet_cemetery:skeleton_wolf"]
+apparition = "en ranimant une seconde fois un animal déjà zombie"
+[note."pet_cemetery:skeleton_parrot"]
+apparition = "en ranimant une seconde fois un animal déjà zombie"
+# pièce : UmvuthanaGrovePieces$FirepitPiece pose EntityHandler.UMVUTHANA_MINION (= « umvuthana ») ; EntityUmvuthi$SpawnFollowersAbility
+[note."mowziesmobs:umvuthana"]
+apparition = "dans le bosquet des Umvuthana, autour du feu, et invoqué par Umvuthi"
+# pièce : quark-common.toml du serveur, mobs.toretoise "Max Y Level" = 0
+[note."quark:toretoise"]
+apparition = "dans les grottes sous Y 0"

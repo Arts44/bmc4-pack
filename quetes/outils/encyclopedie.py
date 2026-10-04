@@ -16,8 +16,14 @@ biomes JSON), monde et biomes (biomes JSON, modificateurs Forge, configs
 d'apparition d'Alex's Mobs et de Mowzie's Mobs), butin (tables de butin
 de l'entité). Une information absente des données est omise.
 
-Garde-fou : ce qui n'apparaît pas sur le serveur est dans
-exclusions.toml, avec la raison, et ne devient pas une quête.
+Voie d'apparition (correction de méthode du 5 octobre) : une créature
+sans biome dans les données doit avoir une voie vérifiée sur pièce —
+structure, générateur, bloc, objet, rituel, invocation, événement — notée
+dans notes/<chapitre>.toml (clé `apparition`, avec la pièce en commentaire)
+et imprimée « Apparaît : ... ». Sans voie, le générateur s'arrête et la
+nomme : elle va alors dans exclusions.toml, avec la raison mesurée. Une
+créature n'est exclue que si AUCUNE voie ne la fait apparaître ; les œufs
+d'apparition ne comptent pas.
 """
 import json
 import os
@@ -102,7 +108,7 @@ TAG_FR = {
     'forge:is_lush': 'biomes luxuriants', 'forge:is_coniferous': 'forêts de conifères', 'forge:is_water': "plans d'eau",
     'forge:is_mountain': 'montagnes', 'forge:is_slope': 'pentes', 'forge:is_plateau': 'plateaux',
     'minecraft:is_overworld': "tout l'Overworld", 'minecraft:is_nether': 'tout le Nether', 'minecraft:is_end': "tout l'End",
-    'mowziesmobs:is_magical': 'biomes magiques',
+    'mowziesmobs:is_magical': 'biomes magiques', 'forge:is_void': 'le Vide',
 }
 
 
@@ -153,9 +159,12 @@ CAT_FR = {'monster': 'monstre', 'creature': 'animal', 'ambient': "créature d'am
           'aether_sky_monster': "monstre du ciel de l'Aether", 'aether_aerwhale': 'aérobaleine'}
 
 
-def fiche(ent, ix):
-    """Ce que les données disent de la créature. Rien d'inventé."""
+def fiche(ent, ix, note=None):
+    """Ce que les données disent de la créature. Rien d'inventé.
+    Renvoie (lignes, a_une_voie)."""
+    note = note or {}
     lignes = []
+    voie = False
     sp = ix.get('spawns', {}).get(ent)
     cfg = ix['apparitions']['biomes_config'].get(ent)
     cats = sp['cat'] if sp else []
@@ -180,14 +189,19 @@ def fiche(ent, ix):
         vus = list(dict.fromkeys(biomes))
         suite = " et d'autres" if len(vus) > 6 else ''
         lignes.append('Biomes : ' + ', '.join(vus[:6]) + suite + '.')
-    elif cfg:
+        voie = True
+    elif cfg and regles_fr(cfg, ix):
         lignes.append('Apparition (config du serveur) : ' + regles_fr(cfg, ix) + '.')
-    elif cfg == []:
-        lignes.append("Apparition (config du serveur) : aucun biome, n'apparaît pas naturellement.")
+        voie = True
+    elif cfg is not None:
+        lignes.append("Apparition naturelle : aucune (config du serveur).")
+    if note.get('apparition'):
+        lignes.append('Apparaît : ' + note['apparition'] + '.')
+        voie = True
     butin = [b for b in ix['apparitions']['butin'].get(ent, []) if not b.startswith('#')]
     if butin:
         lignes.append('Butin : ' + ', '.join(dict.fromkeys(nom_fr(ix, b) for b in butin)) + '.')
-    return lignes
+    return lignes, voie
 
 
 MODELES = {
@@ -201,6 +215,7 @@ MODELES = {
     'takesapillage': "Illageois de &bTakes a Pillage&r.",
     'goblintraders': "Marchand de &bGoblin Traders&r.",
     'quark': "Créature de &bQuark&r.",
+    'pet_cemetery': "Créature de &bPet Cemetery&r.",
 }
 
 # Créatures vanilla qui ne vivent pas dans l'Overworld (Bestiaire Nether/End).
@@ -214,6 +229,12 @@ VANILLA_HORS_OVERWORLD = {
     'alexsmobs:straddler', 'alexsmobs:stradpole', 'alexsmobs:soul_vulture', 'alexsmobs:mimicube',
     'alexsmobs:laviathan', 'alexsmobs:cosmaw', 'alexsmobs:enderiophage', 'alexsmobs:endergrade',
     'alexsmobs:cosmic_cod', 'alexsmobs:void_worm',
+    # Friends & Foes : la citadelle (has_structure/citadel = #minecraft:is_nether)
+    'friendsandfoes:wildfire',
+    # Goblin Traders : le gobelin des veines a son compteur dans world/DIM-1 (Nether)
+    'goblintraders:vein_goblin_trader',
+    # Quark, quark-common.toml du serveur : foxhound (nether_wastes, basalt_deltas, soul_sand_valley), wraith (soul_sand_valley)
+    'quark:foxhound', 'quark:wraith',
 }
 
 
@@ -223,7 +244,7 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
                   f'icone = "{icone}"\nordre = 0\nlignes_cachees = true\ngrille = 16\n')
     lignes.append(f'[[quete]]\ncle = "intro"\ntitre = "{t(titre)}"\ntaille = 1.5\nicone = "{icone}"\ntaches = ["checkmark Lu"]\n'
                   f'recompenses = ["xp 2"]\ndescription = """\n{t(intro)}\n"""\n')
-    exclues, cles = [], []
+    exclues, cles, sans_voie = [], [], []
     for ent, oeuf in mobs_avec_oeuf(ix, mods):
         if ent in hors:
             continue
@@ -235,12 +256,18 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
         cle = ent.replace(':', '_')
         cles.append(cle)
         note = notes.get(ent, {})
-        desc = ' '.join([MODELES.get(mod, '')] + fiche(ent, ix))
+        lignes_fiche, voie = fiche(ent, ix, note)
+        if not voie:
+            sans_voie.append(ent)
+        desc = ' '.join([MODELES.get(mod, '')] + lignes_fiche)
         if note.get('description'):
             desc += '\n\n' + note['description']
         titre_q = note.get('titre') or f"Rencontre : {nom}"
         lignes.append(f'[[quete]]\ncle = "{cle}"\ntitre = "{t(titre_q)}"\nsous_titre = "{t(nom)} — {mod}"\noptionnel = true\n'
                       f'icone = "{oeuf}"\ntaches = ["observation entity {ent}"]\nrecompenses = ["xp 1"]\ndescription = """\n{t(desc)}\n"""\n')
+    if sans_voie:
+        raise SystemExit(f"{fichier} : {len(sans_voie)} créature(s) sans voie d'apparition vérifiée — à documenter "
+                         f"(notes, clé apparition) ou à exclure (exclusions.toml) :\n  " + '\n  '.join(sans_voie))
     deps = ', '.join(f'"{c}"' for c in cles)
     lignes.append(f'[[quete]]\ncle = "complet"\ntitre = "&7Tout le chapitre"\ntaille = 1.5\nicone = "{icone_fin}"\nforme = "gear"\n'
                   f'taches = ["checkmark Chapitre complet"]\nrecompenses = ["xp 20"]\ndeps = [{deps}]\ndescription = """\n'
@@ -250,9 +277,9 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
 
 def bestiaire_overworld(ix, exclusions, notes):
     mods = ['minecraft', 'alexsmobs', 'friendsandfoes', 'mowziesmobs', 'guardvillagers', 'conjurer_illager',
-            'illagerinvasion', 'takesapillage', 'goblintraders', 'quark']
+            'illagerinvasion', 'takesapillage', 'goblintraders', 'quark', 'pet_cemetery']
     intro = ("Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en &lregardant&r la créature : il suffit de l'avoir devant soi.\n\n"
-             "Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin. Rien de plus.\n\n"
+             "Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin — et, quand la créature ne vient pas d'un biome, la voie qui la fait apparaître. Rien de plus.\n\n"
              "Ce chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet.")
     return chapitre_bestiaire(ix, exclusions, notes, mods, VANILLA_HORS_OVERWORLD, 'bestiaire-overworld',
                               '&7Bestiaire — Overworld', 'minecraft:zombie_head', 'minecraft:creeper_head', intro)
