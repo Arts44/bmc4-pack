@@ -119,9 +119,9 @@ def monde_de_biome(b, ix):
     return MONDE_PAR_MOD.get(b.split(':')[0])
 
 
-def est_tag(c, ix):
-    """Dans les configs d'Alex's/Mowzie's, un identifiant est un tag s'il n'est pas un biome connu."""
-    return c not in ix['biomes']
+def connu(c, ix):
+    """Un biome nommé dans une config n'est retenu que s'il existe dans le pack."""
+    return c.startswith('#') or c in ix['biomes']
 
 
 def biome_fr(b, ix):
@@ -135,12 +135,16 @@ def regles_fr(regles, ix):
     morceaux = []
     for groupe in regles:
         pos = [c for c in groupe if c and not c.startswith('!')]
-        neg = [c[1:] for c in groupe if c.startswith('!')]
-        txt = ' et '.join(biome_fr('#' + c if est_tag(c, ix) else c, ix) for c in pos) if pos else 'partout'
+        neg = [c[1:] for c in groupe if c.startswith('!') and connu(c[1:], ix)]
+        if any(not connu(c, ix) for c in pos):
+            continue  # cite un biome absent du pack (Terralith…) : la règle est sans effet ici
+        txt = ' et '.join(biome_fr(c, ix) for c in pos) if pos else 'partout'
         if neg:
-            txt += ' (sauf ' + ', '.join(biome_fr('#' + c if est_tag(c, ix) else c, ix) for c in neg) + ')'
+            txt += ' (sauf ' + ', '.join(biome_fr(c, ix) for c in neg) + ')'
         morceaux.append(txt)
-    return ' ; '.join(dict.fromkeys(morceaux))
+    morceaux = list(dict.fromkeys(morceaux))
+    suite = " ; et d'autres" if len(morceaux) > 4 else ''
+    return ' ; '.join(morceaux[:4]) + suite
 
 
 CAT_FR = {'monster': 'monstre', 'creature': 'animal', 'ambient': "créature d'ambiance", 'water_creature': 'créature aquatique',
@@ -167,7 +171,7 @@ def fiche(ent, ix):
     if cfg:
         for groupe in cfg:
             for c in groupe:
-                m = TAG_MONDE.get(c.lstrip('!'))
+                m = TAG_MONDE.get(c.lstrip('!').lstrip('#'))
                 if m and not c.startswith('!') and m not in mondes:
                     mondes.append(m)
     if mondes:

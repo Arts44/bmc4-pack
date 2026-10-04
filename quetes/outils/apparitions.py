@@ -37,7 +37,7 @@ for f in glob.glob(os.path.join(cfg, 'alexsmobs', '*_spawns.json')):
     except Exception: continue
     regles = []
     for groupe in d.get('biomes', []):
-        regles.append([('!' if c.get('negate') else '') + c.get('value', '') for c in groupe])
+        regles.append([('!' if c.get('negate') else '') + ('#' if c.get('type') == 'BIOME_TAG' else '') + c.get('value', '') for c in groupe])
     out['biomes_config'][f'alexsmobs:{nom}'] = regles
 # Mowzie's Mobs, mowziesmobs-common.toml du serveur, 5 octobre 2026
 MOWZIE = {'frostmaw': ["forge:is_snowy,!minecraft:is_ocean,!minecraft:is_river,!minecraft:is_beach,!minecraft:is_forest,!minecraft:is_taiga"],
@@ -45,6 +45,6 @@ MOWZIE = {'frostmaw': ["forge:is_snowy,!minecraft:is_ocean,!minecraft:is_river,!
           'grottol': ["!forge:is_mushroom"], 'lantern': ["minecraft:is_forest,mowziesmobs:is_magical,!forge:is_snowy"],
           'umvuthana': ["minecraft:is_savanna"], 'naga': [], 'foliaath': ["minecraft:is_jungle"], 'bluff': [], 'elokosa': ["minecraft:is_jungle"]}
 for k, v in MOWZIE.items():
-    out['biomes_config'][f'mowziesmobs:{k}'] = [e.split(',') for e in v]
+    out['biomes_config'][f'mowziesmobs:{k}'] = [[('!#' + x[1:]) if x.startswith('!') else ('#' + x) for x in e.split(',')] for e in v]
 json.dump(out, open(os.path.join(ICI, '..', 'index', 'apparitions.json'), 'w'), ensure_ascii=False)
 print('butin', len(out['butin']), 'biomes_config', len(out['biomes_config']))

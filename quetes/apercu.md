@@ -67,54 +67,54 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Tu as vu l'essentiel. Le livre continue en sept groupes, dans l'ordre conseillé : Les bases du jeu (le vanilla que personne n'explique), Le monde (les dimensions et leurs boss), Les mods (Create, Mystical Agriculture, Iron's Spells, Powah, le stockage, SecurityCraft…), Les factions, Chaque semaine (les contrats répétables), Défis.
   >   > Le dernier groupe, l'Encyclopédie, est un catalogue facultatif : une quête par créature, biome, structure, plat ou sort. À remplir au fil du jeu, jamais à suivre.
 
-## Bestiaire — Overworld  (`enc_bestiaire_overworld`, 186 quêtes)
+## Bestiaire — Overworld  (`enc_bestiaire_overworld`, 184 quêtes)
 
 - **Bestiaire — Overworld** — tâches : checkmark Lu — récompense : xp 2
   > Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en regardant la créature : il suffit de l'avoir devant soi.
   >   > Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin. Rien de plus.
   >   > Ce chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet.
 - **Rencontre : Tortue alligator** *(optionnelle)* — tâches : observation entity alexsmobs:alligator_snapping_turtle — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais (sauf Marais à mangroves) ; tundra bog ; ice marsh ; orchid swamp.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais (sauf Marais à mangroves).
 - **Rencontre : Anaconda** *(optionnelle)* — tâches : observation entity alexsmobs:anaconda — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais ; Marais à mangroves ; ice marsh ; orchid swamp ; amethyst rainforest ; tropical jungle ; skylands summer.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais ; Marais à mangroves.
 - **Rencontre : Fourmilier** *(optionnelle)* — tâches : observation entity alexsmobs:anteater — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et jungles (sauf Jungle de bambous) ; amethyst canyon ; amethyst rainforest ; jungle mountains ; rocky jungle ; tropical jungle ; skylands summer.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et jungles (sauf Jungle de bambous).
 - **Rencontre : Pygargue à tête blanche** *(optionnelle)* — tâches : observation entity alexsmobs:bald_eagle — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et collines et forêts de conifères ; Bosquet ; Forêt venteuse ; blooming plateau ; blooming valley ; bryce canyon ; skylands autumn ; skylands spring ; skylands winter ; lavender forest ; lavender valley ; moonlight valley ; moonlight grove ; sakura grove ; sakura valley ; haze mountain ; temperate highlands ; alpine grove. Butin : Plume.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et collines et forêts de conifères ; Bosquet ; Forêt venteuse. Butin : Plume.
 - **Rencontre : Limace banane** *(optionnelle)* — tâches : observation entity alexsmobs:banana_slug — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : Taïga ancienne de pins ; Taïga ancienne de sapins ; taïgas et dense/overworld et rare ; forested highlands ; shield ; skylands autumn ; yosemite lowlands ; Forêt de séquoias ; Forêt de conifères ; Clairière de pins ; maple forest. Butin : Slime de limace banane.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Taïga ancienne de pins ; Taïga ancienne de sapins ; taïgas et dense/overworld et rare ; Forêt de séquoias ; et d'autres. Butin : Slime de limace banane.
 - **Rencontre : Bison** *(optionnelle)* — tâches : observation entity alexsmobs:bison — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plaines (sauf savanes, hot/overworld) ; Prairie ; Champ ; Champ forestier ; Prairies ; Pâturage ; cold shrubland ; rocky shrubland ; steppe ; valley clearing. Butin : Boeuf cru, Bison Fur.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plaines (sauf savanes, hot/overworld) ; Prairie ; Champ ; Champ forestier ; et d'autres. Butin : Boeuf cru, Bison Fur.
 - **Rencontre : Blobfish** *(optionnelle)* — tâches : observation entity alexsmobs:blobfish — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : océans profonds. Butin : Blobfish, Poudre d'os.
 - **Rencontre : Geai bleu** *(optionnelle)* — tâches : observation entity alexsmobs:blue_jay — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf Jungle clairsemée) ; tout l'Overworld et taïgas ; alpine grove ; blooming valley ; lavender forest ; lavender valley ; moonlight grove ; moonlight valley ; sakura grove ; sakura valley ; highlands ; shield clearing ; valley clearing ; alpine highlands ; cloud forest ; forested highlands ; lush valley ; shield ; snowy maple forest ; snowy shield ; temperate highlands ; wintry forest ; yosemite lowlands ; bryce canyon ; skylands autumn ; Forêt de séquoias ; Bosquet de cerisiers. Butin : Plume.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf Jungle clairsemée) ; tout l'Overworld et taïgas ; Forêt de séquoias ; Bosquet de cerisiers. Butin : Plume.
 - **Rencontre : Champilièvre** *(optionnelle)* — tâches : observation entity alexsmobs:bunfungus — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et champs de champignons et rare ; mirage isles. Butin : Champignon rouge.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et champs de champignons et rare. Butin : Champignon rouge.
 - **Rencontre : Grand cachalot** *(optionnelle)* — tâches : observation entity alexsmobs:cachalot_whale — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et océans et cold/overworld ; Océan tiède ; Océan profond ; Océan tiède profond.
 - **Rencontre : Caïman** *(optionnelle)* — tâches : observation entity alexsmobs:caiman — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : Marais à mangroves ; cave/underground jungle.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Marais à mangroves.
 - **Rencontre : Capucin** *(optionnelle)* — tâches : observation entity alexsmobs:capuchin_monkey — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : jungles (sauf Jungle de bambous) ; Marais à mangroves ; amethyst canyon ; amethyst rainforest ; jungle mountains ; rocky jungle ; tropical jungle ; skylands summer.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : jungles (sauf Jungle de bambous) ; Marais à mangroves.
 - **Rencontre : Poisson-chat** *(optionnelle)* — tâches : observation entity alexsmobs:catfish — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais (sauf Marais à mangroves) ; tout l'Overworld et rivières (sauf cold/overworld) ; orchid swamp ; ice marsh ; warm river. Butin : Poisson-chat cru.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais (sauf Marais à mangroves) ; tout l'Overworld et rivières (sauf cold/overworld). Butin : Poisson-chat cru.
 - **Rencontre : Cafard** *(optionnelle)* — tâches : observation entity alexsmobs:cockroach — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes) ; cave/andesite caves ; cave/desert caves ; cave/diorite caves ; cave/granite caves ; cave/ice caves ; cave/infested caves ; cave/thermal caves ; cave/crystal caves ; cave/frostfire caves ; cave/mantle caves ; cave/deep caves ; cave/tuff caves. Butin : Fragment d'aile de cafard.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Butin : Fragment d'aile de cafard.
 - **Rencontre : Méduse de peigne** *(optionnelle)* — tâches : observation entity alexsmobs:comb_jelly — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : Océan gelé ; Océan gelé profond. Butin : Gelée d'arc-en-ciel.
 - **Rencontre : Crocodile** *(optionnelle)* — tâches : observation entity alexsmobs:crocodile — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : marais ; Marais à mangroves ; rivières (sauf biomes froids) ; tropic beach ; orchid swamp ; red oasis ; warm river. Butin : Écaille de crocodile, Œuf de crocodile.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : marais ; Marais à mangroves ; rivières (sauf biomes froids). Butin : Écaille de crocodile, Œuf de crocodile.
 - **Rencontre : Corbeau** *(optionnelle)* — tâches : observation entity alexsmobs:crow — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plaines (sauf savanes) ; tout l'Overworld et forêts ; tout l'Overworld et taïgas ; cold shrubland ; highlands ; hot shrubland ; rocky shrubland ; shield clearing ; steppe ; valley clearing ; alpine grove ; birch taiga ; blooming valley ; lavender forest ; lavender valley ; moonlight grove ; moonlight valley ; sakura grove ; sakura valley ; alpine highlands ; forested highlands ; lush valley ; shield ; snowy maple forest ; temperate highlands ; wintry forest ; yosemite lowlands ; skylands autumn ; skylands spring ; skylands winter ; mirage isles ; cloud forest ; Bosquet de cerisiers. Butin : Plume.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plaines (sauf savanes) ; tout l'Overworld et forêts ; tout l'Overworld et taïgas ; Bosquet de cerisiers. Butin : Plume.
 - **Rencontre : Devil's Hole Pupfish** *(optionnelle)* — tâches : observation entity alexsmobs:devils_hole_pupfish — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld.
 - **Rencontre : Dropbear** *(optionnelle)* — tâches : observation entity alexsmobs:dropbear — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : Terres désolées du Nether ; Gouffre crystallin. Butin : Griffe de Dropbear.
 - **Rencontre : Éléphant** *(optionnelle)* — tâches : observation entity alexsmobs:elephant — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et savanes ; arid highlands ; brushland ; fractured savanna ; savanna badlands ; savanna slopes ; shrubland ; red oasis.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et savanes.
 - **Rencontre : Émeu** *(optionnelle)* — tâches : observation entity alexsmobs:emu — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et badlands ; tout l'Overworld et savanes ; arid highlands ; brushland ; fractured savanna ; savanna badlands ; savanna slopes ; warped mesa ; white mesa ; red oasis ; Désert luxuriant. Butin : Plume d'émeu, Plume.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et badlands ; tout l'Overworld et savanes ; Désert luxuriant. Butin : Plume d'émeu, Plume.
 - **Rencontre : Voyant éloigné** *(optionnelle)* — tâches : observation entity alexsmobs:farseer — récompense : xp 1
   > Créature d'Alex's Mobs. Butin : Bras de voyant éloigné.
 - **Rencontre : Papilloneur** *(optionnelle)* — tâches : observation entity alexsmobs:flutter — récompense : xp 1
@@ -126,100 +126,100 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Requin frangé** *(optionnelle)* — tâches : observation entity alexsmobs:frilled_shark — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : océans profonds.
 - **Rencontre : Traqueur givrant** *(optionnelle)* — tâches : observation entity alexsmobs:froststalker — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : Stalagmites de glace ; Pics gelés ; cave/frostfire caves ; frozen cliffs ; glacial chasm ; snowy badlands ; gravel desert. Butin : Corne de traqueur givrant.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Stalagmites de glace ; Pics gelés. Butin : Corne de traqueur givrant.
 - **Rencontre : Gazelle** *(optionnelle)* — tâches : observation entity alexsmobs:gazelle — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : savanes ; arid highlands ; brushland ; fractured savanna ; savanna badlands ; savanna slopes ; shrubland ; red oasis. Butin : Mouton cru, Corne de gazelle.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : savanes. Butin : Mouton cru, Corne de gazelle.
 - **Rencontre : Singe-gélada** *(optionnelle)* — tâches : observation entity alexsmobs:gelada_monkey — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plaines et plateaux ; highlands ; hot shrubland ; rocky shrubland ; steppe ; valley clearing.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plaines et plateaux.
 - **Rencontre : Calmar géant** *(optionnelle)* — tâches : observation entity alexsmobs:giant_squid — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : océans profonds. Butin : Poche d'encre.
 - **Rencontre : Gorille** *(optionnelle)* — tâches : observation entity alexsmobs:gorilla — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : jungles (sauf Jungle de bambous) ; amethyst canyon ; amethyst rainforest ; jungle mountains ; rocky jungle ; tropical jungle ; skylands summer.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : jungles (sauf Jungle de bambous).
 - **Rencontre : Grizzly** *(optionnelle)* — tâches : observation entity alexsmobs:grizzly_bear — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf Jungle clairsemée) ; tout l'Overworld et taïgas ; alpine grove ; blooming valley ; lavender forest ; lavender valley ; moonlight grove ; moonlight valley ; sakura grove ; sakura valley ; highlands ; shield clearing ; valley clearing ; alpine highlands ; cloud forest ; forested highlands ; lush valley ; shield ; snowy maple forest ; snowy shield ; temperate highlands ; wintry forest ; yosemite lowlands ; bryce canyon ; skylands autumn ; Forêt de séquoias ; Bosquet de cerisiers. Butin : Fourrure d'ours, Poussière d'ours.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf Jungle clairsemée) ; tout l'Overworld et taïgas ; Forêt de séquoias ; Bosquet de cerisiers. Butin : Fourrure d'ours, Poussière d'ours.
   >   > Neutre, dans les forêts et les montagnes. Il attaque si on s'approche de ses petits, et il monte aux arbres aussi vite que toi.
 - **Rencontre : Rafalleur** *(optionnelle)* — tâches : observation entity alexsmobs:guster — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : hot/overworld et dry/overworld et biomes sableux ; ancient sands ; desert canyon ; desert spires ; ashen savanna ; cave/desert caves. Butin : Œil de rafalleur, Sable.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : hot/overworld et dry/overworld et biomes sableux. Butin : Œil de rafalleur, Sable.
 - **Rencontre : Requin-marteau** *(optionnelle)* — tâches : observation entity alexsmobs:hammerhead_shark — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : océans et hot/overworld.
 - **Rencontre : Colibri** *(optionnelle)* — tâches : observation entity alexsmobs:hummingbird — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : Forêt fleurie ; Plaines de tournesols ; jungles ; Prairie ; blooming valley ; lavender forest ; lavender valley ; moonlight grove ; moonlight valley ; sakura grove ; sakura valley ; amethyst canyon ; amethyst rainforest ; jungle mountains ; rocky jungle ; tropical jungle ; blooming plateau ; valley clearing ; orchid swamp ; skylands autumn ; skylands spring ; skylands summer ; Bosquet de cerisiers.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Forêt fleurie ; Plaines de tournesols ; jungles ; Prairie ; et d'autres.
 - **Rencontre : Gerboise** *(optionnelle)* — tâches : observation entity alexsmobs:jerboa — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : dry/overworld et hot/overworld et biomes sableux (sauf badlands) ; ancient sands ; desert canyon ; desert oasis ; desert spires ; sandstone valley ; red oasis.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : dry/overworld et hot/overworld et biomes sableux (sauf badlands).
 - **Rencontre : Kangourou** *(optionnelle)* — tâches : observation entity alexsmobs:kangaroo — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et badlands ; tout l'Overworld et savanes ; arid highlands ; brushland ; fractured savanna ; savanna badlands ; savanna slopes ; warped mesa ; white mesa ; red oasis ; Désert luxuriant. Butin : Peau de kangourou, Viande de kangourou.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et badlands ; tout l'Overworld et savanes ; Désert luxuriant. Butin : Peau de kangourou, Viande de kangourou.
 - **Rencontre : Dragon de Komodo** *(optionnelle)* — tâches : observation entity alexsmobs:komodo_dragon — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : jungles (sauf dense/overworld) ; sandstone valley ; red oasis ; skylands summer ; Tropiques.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : jungles (sauf dense/overworld) ; Tropiques.
 - **Rencontre : Fourmi coupe-feuilles** *(optionnelle)* — tâches : observation entity alexsmobs:leafcutter_ant — récompense : xp 1
   > Créature d'Alex's Mobs.
 - **Rencontre : Homard** *(optionnelle)* — tâches : observation entity alexsmobs:lobster — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : plages ; gravel beach ; Côte rocheuse. Butin : Queue de homard.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : plages ; Côte rocheuse. Butin : Queue de homard.
 - **Rencontre : Loup à crinière** *(optionnelle)* — tâches : observation entity alexsmobs:maned_wolf — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et savanes ; arid highlands ; brushland ; fractured savanna ; savanna badlands ; savanna slopes ; shrubland.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et savanes.
 - **Rencontre : Crevette mante** *(optionnelle)* — tâches : observation entity alexsmobs:mantis_shrimp — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : océans et hot/overworld ; Marais à mangroves.
 - **Rencontre : Poulpe imitant** *(optionnelle)* — tâches : observation entity alexsmobs:mimic_octopus — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : hot/overworld et océans (sauf deep warm ocean). Butin : Poche d'encre.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : hot/overworld et océans. Butin : Poche d'encre.
 - **Rencontre : Élan** *(optionnelle)* — tâches : observation entity alexsmobs:moose — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et biomes enneigés et wasteland ; tout l'Overworld et biomes enneigés et taïgas ; Forêt de connifères enneigée ; Clairière de pins ; snowy maple woods ; alpine grove ; snowy badlands ; snowy maple forest ; snowy shield ; wintry forest ; wintry lowlands ; gravel desert ; skylands winter. Butin : Côtes d'élan.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et biomes enneigés et wasteland ; tout l'Overworld et biomes enneigés et taïgas ; Forêt de connifères enneigée ; Clairière de pins. Butin : Côtes d'élan.
 - **Rencontre : Gobie** *(optionnelle)* — tâches : observation entity alexsmobs:mudskipper — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : Marais à mangroves ; cave/underground jungle. Butin : Poisson tropical.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Marais à mangroves. Butin : Poisson tropical.
 - **Rencontre : Mongus** *(optionnelle)* — tâches : observation entity alexsmobs:mungus — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et champs de champignons et rare ; mirage isles.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et champs de champignons et rare.
 - **Rencontre : Murmure** *(optionnelle)* — tâches : observation entity alexsmobs:murmur — récompense : xp 1
   > Créature d'Alex's Mobs. Butin : Kimono troublant, Laine rouge, Tendon elastique.
 - **Rencontre : Orque** *(optionnelle)* — tâches : observation entity alexsmobs:orca — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : océans et cold/overworld.
 - **Rencontre : Ornithorynque** *(optionnelle)* — tâches : observation entity alexsmobs:platypus — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et rivières (sauf cold/overworld) ; tundra bog ; warm river.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et rivières (sauf cold/overworld).
 - **Rencontre : Ibijau** *(optionnelle)* — tâches : observation entity alexsmobs:potoo — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : Forêt sombre. Butin : Plume.
 - **Rencontre : Raton laveur** *(optionnelle)* — tâches : observation entity alexsmobs:raccoon — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts ; tout l'Overworld et plaines (sauf savanes) ; tout l'Overworld et taïgas ; alpine grove ; birch taiga ; blooming valley ; lavender forest ; lavender valley ; moonlight grove ; moonlight valley ; sakura grove ; sakura valley ; cold shrubland ; highlands ; hot shrubland ; rocky shrubland ; shield clearing ; steppe ; valley clearing ; temperate highlands ; skylands autumn ; mirage isles ; Forêt de séquoias ; Bosquet de cerisiers. Butin : Queue de raton laveur.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts ; tout l'Overworld et plaines (sauf savanes) ; tout l'Overworld et taïgas ; Forêt de séquoias ; et d'autres. Butin : Queue de raton laveur.
 - **Rencontre : Grenouille de pluie** *(optionnelle)* — tâches : observation entity alexsmobs:rain_frog — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : dry/overworld et hot/overworld et biomes sableux (sauf badlands) ; ancient sands ; desert canyon ; desert oasis ; desert spires ; sandstone valley ; red oasis.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : dry/overworld et hot/overworld et biomes sableux (sauf badlands).
 - **Rencontre : Crotale** *(optionnelle)* — tâches : observation entity alexsmobs:rattlesnake — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : badlands ; dry/overworld et hot/overworld et biomes sableux ; ancient sands ; desert canyon ; desert oasis ; desert spires ; red oasis ; sandstone valley ; warped mesa ; white mesa. Butin : Hochet de crotale.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : badlands ; dry/overworld et hot/overworld et biomes sableux. Butin : Hochet de crotale.
 - **Rencontre : Rhinocéros** *(optionnelle)* — tâches : observation entity alexsmobs:rhinoceros — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : savanes ; arid highlands ; brushland ; fractured savanna ; savanna badlands ; savanna slopes ; shrubland ; red oasis.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : savanes.
 - **Rencontre : Géocoucou** *(optionnelle)* — tâches : observation entity alexsmobs:roadrunner — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : badlands ; dry/overworld et hot/overworld et biomes sableux ; ancient sands ; desert canyon ; desert oasis ; desert spires ; red oasis ; sandstone valley ; warped mesa ; white mesa. Butin : Plume de géocoucou, Plume.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : badlands ; dry/overworld et hot/overworld et biomes sableux. Butin : Plume de géocoucou, Plume.
 - **Rencontre : Rouleau rocheux** *(optionnelle)* — tâches : observation entity alexsmobs:rocky_roller — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : Cavernes de spéléothèmes ; cave/andesite caves ; cave/diorite caves ; cave/granite caves. Butin : Carapace rocheuse, Tuf, Spéléothème pointu.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Cavernes de spéléothèmes. Butin : Carapace rocheuse, Tuf, Spéléothème pointu.
 - **Rencontre : Mouette** *(optionnelle)* — tâches : observation entity alexsmobs:seagull — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plages ; basalt cliffs ; granite cliffs ; gravel beach ; white cliffs ; skylands autumn ; skylands spring ; Plage de dunes ; Côte rocheuse. Butin : Plume.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plages ; Plage de dunes ; Côte rocheuse. Butin : Plume.
 - **Rencontre : Phoque** *(optionnelle)* — tâches : observation entity alexsmobs:seal — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : plages ; tout l'Overworld et océans et cold/overworld ; gravel beach ; Plage de dunes ; Côte rocheuse.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : plages ; tout l'Overworld et océans et cold/overworld ; Plage de dunes ; Côte rocheuse.
 - **Rencontre : Bec-en-sabot du Nil** *(optionnelle)* — tâches : observation entity alexsmobs:shoebill — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais (sauf Marais à mangroves) ; orchid swamp ; red oasis. Butin : Plume.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais (sauf Marais à mangroves). Butin : Plume.
 - **Rencontre : Squeladon** *(optionnelle)* — tâches : observation entity alexsmobs:skelewag — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et océans profonds. Butin : Crâne de squeladon, Chapeau de fantaisie, Os de poisson, Os.
 - **Rencontre : Skreecher** *(optionnelle)* — tâches : observation entity alexsmobs:skreecher — récompense : xp 1
   > Créature d'Alex's Mobs. Butin : Âme de Skreecher.
 - **Rencontre : Moufette** *(optionnelle)* — tâches : observation entity alexsmobs:skunk — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf savanes, cold/overworld, Jungle clairsemée) ; birch taiga ; blooming valley ; mirage isles ; lavender valley ; lavender forest ; moonlight grove ; moonlight valley ; sakura grove ; sakura valley ; temperate highlands ; Bosquet de cerisiers.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf savanes, cold/overworld, Jungle clairsemée) ; Bosquet de cerisiers.
 - **Rencontre : Léopard de neige** *(optionnelle)* — tâches : observation entity alexsmobs:snow_leopard — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et biomes enneigés ; Pentes enneigées ; Pics gelés ; Pics dentelés ; frozen cliffs ; glacial chasm ; snowy badlands et snowy maple forest ; emerald peaks ; rocky mountains ; scarlet mountains ; snowy shield ; skylands winter.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et biomes enneigés ; Pentes enneigées ; Pics gelés ; Pics dentelés.
 - **Rencontre : Spectre** *(optionnelle)* — tâches : observation entity alexsmobs:spectre — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End).
 - **Rencontre : Phalanger volant** *(optionnelle)* — tâches : observation entity alexsmobs:sugar_glider — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : Forêt de bouleaux ; Forêt ancienne de bouleaux ; white cliffs.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Forêt de bouleaux ; Forêt ancienne de bouleaux.
 - **Rencontre : Oiseau de soleil** *(optionnelle)* — tâches : observation entity alexsmobs:sunbird — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et montagnes ; Pentes enneigées ; Pics gelés ; Pics dentelés ; blooming valley ; emerald peaks ; painted mountains ; rocky mountains ; scarlet mountains ; stony spires ; volcanic crater ; volcanic peaks ; skylands autumn ; skylands spring ; skylands summer ; skylands winter ; savanna badlands ; savanna slopes ; yellowstone ; yosemite cliffs ; bryce canyon ; jungle mountains ; haze mountain ; windswept spires ; desert spires ; desert canyon ; basalt cliffs ; granite cliffs ; white cliffs.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et montagnes ; Pentes enneigées ; Pics gelés ; Pics dentelés.
 - **Rencontre : Faucon tarentule** *(optionnelle)* — tâches : observation entity alexsmobs:tarantula_hawk — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : dry/overworld et hot/overworld et biomes sableux (sauf badlands) ; ancient sands ; desert canyon ; desert oasis ; desert spires ; sandstone valley ; red oasis. Butin : Fragment d'aile de faucon de mygale.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : dry/overworld et hot/overworld et biomes sableux (sauf badlands). Butin : Fragment d'aile de faucon de mygale.
 - **Rencontre : Diable de Tasmanie** *(optionnelle)* — tâches : observation entity alexsmobs:tasmanian_devil — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf savanes, cold/overworld, Jungle clairsemée) ; birch taiga ; blooming valley ; mirage isles ; lavender valley ; lavender forest ; moonlight grove ; moonlight valley ; sakura grove ; sakura valley ; temperate highlands.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf savanes, cold/overworld, Jungle clairsemée).
 - **Rencontre : Tortue de rivière** *(optionnelle)* — tâches : observation entity alexsmobs:terrapin — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et rivières (sauf cold/overworld) ; tundra bog ; warm river.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et rivières (sauf cold/overworld).
 - **Rencontre : Tigre** *(optionnelle)* — tâches : observation entity alexsmobs:tiger — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : Jungle de bambous ; bamboo grove ; Bosquet de cerisiers ; sakura grove ; sakura valley ; amethyst canyon ; amethyst rainforest ; skylands spring.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Jungle de bambous ; Bosquet de cerisiers.
 - **Rencontre : Toucan** *(optionnelle)* — tâches : observation entity alexsmobs:toucan — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et jungles (sauf Jungle de bambous) ; amethyst canyon ; amethyst rainforest ; jungle mountains ; rocky jungle ; tropical jungle ; skylands summer. Butin : Plume.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et jungles (sauf Jungle de bambous). Butin : Plume.
 - **Rencontre : Triops** *(optionnelle)* — tâches : observation entity alexsmobs:triops — récompense : xp 1
-  > Créature d'Alex's Mobs. Apparition (config du serveur) : dry/overworld et hot/overworld et biomes sableux (sauf badlands) ; ancient sands ; desert canyon ; desert oasis ; desert spires ; sandstone valley ; red oasis.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : dry/overworld et hot/overworld et biomes sableux (sauf badlands).
 - **Rencontre : Tusklin** *(optionnelle)* — tâches : observation entity alexsmobs:tusklin — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : Stalagmites de glace ; tout l'Overworld et biomes enneigés et plaines ; snowy badlands ; gravel desert. Butin : Côtelette de porc crue, Boule de neige.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : Stalagmites de glace ; tout l'Overworld et biomes enneigés et plaines. Butin : Côtelette de porc crue, Boule de neige.
 - **Rencontre : Sous-mineur** *(optionnelle)* — tâches : observation entity alexsmobs:underminer — récompense : xp 1
   > Créature d'Alex's Mobs.
 - **Rencontre : Conjurateur** *(optionnelle)* — tâches : observation entity conjurer_illager:conjurer — récompense : xp 1
@@ -404,8 +404,6 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature du jeu de base. Butin : Chair putréfiée.
 - **Rencontre : Zombie-villageois** *(optionnelle)* — tâches : observation entity minecraft:zombie_villager — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Chair putréfiée, Lingot de fer, Carotte, Pomme de terre.
-- **Rencontre : Bluff** *(optionnelle)* — tâches : observation entity mowziesmobs:bluff — récompense : xp 1
-  > Créature de Mowzie's Mobs. Apparition (config du serveur) : aucun biome, n'apparaît pas naturellement. Butin : Bluff Rod.
 - **Rencontre : Elokosa Howler** *(optionnelle)* — tâches : observation entity mowziesmobs:elokosa_howler — récompense : xp 1
   > Créature de Mowzie's Mobs.
 - **Rencontre : Foliaath** *(optionnelle)* — tâches : observation entity mowziesmobs:foliaath — récompense : xp 1
@@ -417,9 +415,6 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : partout (sauf champs de champignons). Butin : Diamant.
 - **Rencontre : Lanterne** *(optionnelle)* — tâches : observation entity mowziesmobs:lantern — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : forêts et biomes magiques (sauf biomes enneigés). Butin : Gelée Lumineuse.
-- **Rencontre : Naga de Mowzie** *(optionnelle)* — tâches : observation entity mowziesmobs:naga — récompense : xp 1
-  > Créature de Mowzie's Mobs. Apparition (config du serveur) : aucun biome, n'apparaît pas naturellement. Butin : Dent de Naga.
-  >   > Un serpent volant des falaises côtières. Rien à voir avec la Naga de la Twilight Forest : celle-ci n'est pas un boss, et les faits d'armes ne l'annoncent pas.
 - **Rencontre : Sculpteur** *(optionnelle)* — tâches : observation entity mowziesmobs:sculptor — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : pics. Butin : Geomancer Staff, Geomancer Beads, Geomancer Robe, Geomancer Belt, Geomancer Sandals.
   >   > Tongbi, dans un monastère des pics gelés. Il propose une épreuve d'escalade plutôt qu'un combat.
