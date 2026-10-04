@@ -1,0 +1,450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "14858825A29975B1"
+	icon: "powah:energizing_orb"
+	id: "5D463923416559C2"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&ePowah&r produit, stocke et transporte de l'énergie (FE), celle que demandent la moissonneuse de Mystical Agriculture, Refined Storage ou les jetpacks. Sept paliers, du &7Starter&r au &cNitro&r, chacun avec ses générateurs, ses cellules et ses câbles."
+				""
+				"Tout commence par une pâte diélectrique : charbon, argile et un seau de lave. L'argile et la lave sont offertes."
+			]
+			icon: "powah:energy_cell_starter"
+			id: "3002E1FD9E74E936"
+			rewards: [
+				{
+					count: 8
+					id: "76CF8739BDA7EAE0"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "376424ADA04715E9"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #powah sur le Discord."
+			tasks: [{
+				id: "6C0B3D14F1FCAE81"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&ePowah : produire et stocker"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3002E1FD9E74E936"]
+			description: ["Trois charbons, deux argiles, un seau de lave : &l24 pâtes&r. Elle entre dans presque tout — tiges, boîtiers, panneaux, générateurs."]
+			icon: "powah:dielectric_paste"
+			id: "2F9A04263BDECF74"
+			rewards: [{
+				id: "436B3D379E1CEA37"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 24L
+				id: "447B54434DF95D7C"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "De la pâte diélectrique"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2F9A04263BDECF74"]
+			description: ["Pâte et barreaux de fer en colonnes : huit &7tiges&r. Deux tiges verticales, deux horizontales et quatre lingots de fer : un &7boîtier&r. Chaque machine de Powah a un boîtier au centre."]
+			icon: "powah:dielectric_rod"
+			id: "35EC0164A8B4187B"
+			rewards: [{
+				id: "4556B1E47FC2BE31"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "3E6897F1E57ED411"
+					item: "powah:dielectric_rod"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "09CF3AEEED3306EA"
+					item: "powah:dielectric_casing"
+					type: "item"
+				}
+			]
+			title: "Tiges et boîtiers diélectriques"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2F9A04263BDECF74"]
+			description: ["Les &7condensateurs&r sont les composants de palier. Le minuscule sert au palier Starter ; les suivants demandent les cristaux énergisés de chaque palier."]
+			icon: "powah:capacitor_basic_tiny"
+			id: "1D0116FCA0DE5185"
+			rewards: [{
+				id: "4E3536FB8558D362"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "58AAA675D0629BBC"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
+			title: "Des condensateurs"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"35EC0164A8B4187B"
+				"1D0116FCA0DE5185"
+			]
+			description: ["Un four au centre, un boîtier, deux condensateurs, de la pâte. Le &6Furnator&r brûle n'importe quel combustible et en fait de l'énergie : c'est le générateur de départ, le plus simple à nourrir."]
+			icon: "powah:furnator_starter"
+			id: "1055A62F75434466"
+			rewards: [{
+				id: "6A58485DA84918AE"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "44C7E036AFBDDDA8"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			title: "Un Furnator"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"35EC0164A8B4187B"
+				"1D0116FCA0DE5185"
+			]
+			description: ["Fer, condensateurs, boîtier. La &bcellule&r stocke ce que le générateur produit, et le rend aux machines branchées. Sans cellule, l'énergie produite sans consommateur est perdue."]
+			icon: "powah:energy_cell_starter"
+			id: "66CC127941885908"
+			rewards: [{
+				id: "2FA4374530816E23"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6ABBFCC683F70B7A"
+				item: "powah:energy_cell_starter"
+				type: "item"
+			}]
+			title: "Une cellule d'énergie"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["66CC127941885908"]
+			description: ["Les &7câbles&r relient générateur, cellule et machines. Chaque palier a les siens, avec un débit plus grand. Pipez fait aussi des tuyaux d'énergie, moins chers mais moins rapides."]
+			icon: "powah:energy_cable_starter"
+			id: "113C9994E6E483FB"
+			rewards: [{
+				id: "267C183A8634704A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 16L
+				id: "154ECFA83767EE28"
+				item: "powah:energy_cable_starter"
+				type: "item"
+			}]
+			title: "Des câbles"
+			x: 8.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1055A62F75434466"]
+			description: ["Trois &7panneaux photoélectriques&r (lapis, pâte, vitre) sur le boîtier. Le &esolaire&r produit tant qu'il voit le ciel et qu'il fait jour. Peu, mais gratuit."]
+			icon: "powah:solar_panel_starter"
+			id: "213A3F84E7BB57F9"
+			rewards: [{
+				id: "4C4311446C240296"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0FD5999BCE319317"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			title: "Un panneau solaire"
+			x: 8.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1055A62F75434466"]
+			description: ["Trois &7plaques thermoélectriques&r (poudre de Blaze, redstone, condensateur) sur le boîtier. Posé avec une source de chaleur en dessous — de la lave — et il produit en continu, sans combustible."]
+			icon: "powah:thermo_generator_starter"
+			id: "4A752680F9A82B58"
+			rewards: [{
+				id: "14D0EFDE10522A34"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3E0E3F8F75458580"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			title: "Un générateur thermoélectrique"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1055A62F75434466"]
+			description: ["Un seau au centre. Le &cMagmator&r brûle de la lave qu'on lui apporte par tuyau : avec une source de lave au Nether et un tuyau de fluide Pipez, c'est l'énergie des grandes bases avant le réacteur."]
+			icon: "powah:magmator_starter"
+			id: "4A0A4602E1D67FA6"
+			rewards: [{
+				id: "7C4622EAF9AFAA5F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "42AFCB0455086B37"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			title: "Un Magmator"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["35EC0164A8B4187B"]
+			description: ["Verre, boîtier, tiges horizontales : l'&dorbe&r. Autour d'elle, des &dtiges d'énergisation&r (quartz, condensateurs, boîtier, tige) lui envoient de l'énergie, et l'orbe transforme ce qu'on met dedans : c'est la machine qui fabrique les composants des paliers suivants."]
+			icon: "powah:energizing_orb"
+			id: "0BD072A26E03CBB1"
+			rewards: [{
+				id: "7433D8140EC22B6E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [
+				{
+					id: "696BE71F1286D660"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "37138C3539CC0D6C"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+			]
+			title: "L'orbe d'énergisation"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0BD072A26E03CBB1"]
+			description: ["Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : &l2 aciers énergisés&r. Premier produit de l'orbe, et matière du palier Basic."]
+			icon: "powah:steel_energized"
+			id: "42D400E140CD9FA9"
+			rewards: [{
+				id: "5E282F59498A6B99"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 8L
+				id: "1CE014C6C7E508B4"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			title: "De l'acier énergisé"
+			x: 8.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["42D400E140CD9FA9"]
+			description: ["Quatre poudres de Blaze dans l'orbe, 120 000 FE. Le &6cristal Blazing&r ouvre le quatrième palier : la vraie puissance commence là, et il faut déjà un stock d'énergie pour le fabriquer."]
+			icon: "powah:crystal_blazing"
+			id: "181A1C80D41146D6"
+			rewards: [{
+				id: "27A4C90F873D18BA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "286E9BA8B32E4B1A"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			title: "Un cristal Blazing"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["181A1C80D41146D6"]
+			description: ["Un diamant dans l'orbe, 300 000 FE. Le &bNiotic&r, cinquième palier."]
+			icon: "powah:crystal_niotic"
+			id: "2EDA49758A060F05"
+			rewards: [{
+				id: "5F77BDB090C038D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "63805156241C1FB8"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			title: "Un cristal Niotic"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2EDA49758A060F05"]
+			description: ["Une émeraude dans l'orbe, un million de FE. Le &aSpirited&r, sixième palier. À ce stade, l'orbe doit être alimentée par plus qu'un Furnator."]
+			icon: "powah:crystal_spirited"
+			id: "6259524E587B52F1"
+			rewards: [{
+				id: "34044E8666A19888"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3EBBF78AFDF66845"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			title: "Un cristal Spirited"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6259524E587B52F1"]
+			description: ["Une étoile du Nether, deux blocs de redstone et un bloc de cristal Blazing dans l'orbe, &l20 millions de FE&r : seize cristaux &cNitro&r. Le dernier palier. L'étoile vient du Wither : c'est une quête du chapitre Nether."]
+			icon: "powah:crystal_nitro"
+			id: "79CCDC404D921F4F"
+			rewards: [{
+				id: "792EE48477D50EE9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "2010A7A358F06BF8"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			title: "Des cristaux Nitro"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3002E1FD9E74E936"]
+			description: ["Le &2minerai d'uraninite&r se mine en profondeur, en veines pauvres, normales ou denses. Neuf uraninites pour un bloc, un bloc pour neuf : c'est le combustible du réacteur."]
+			icon: "powah:uraninite"
+			id: "7F8DCC6141992D6C"
+			rewards: [{
+				id: "57E76FCC51AED6CC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 9L
+				id: "5145665129473855"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			title: "De l'uraninite"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"7F8DCC6141992D6C"
+				"1D0116FCA0DE5185"
+			]
+			description: ["Uraninite, condensateurs, boîtier : quatre blocs de &2réacteur&r par recette, et il en faut plusieurs pour assembler la structure complète (le livre du mod, &ePowah Book&r, montre le plan). Il brûle l'uraninite, se refroidit à l'eau ou mieux, et produit plus que tout le reste réuni."]
+			icon: "powah:reactor_starter"
+			id: "38D0ED540B824946"
+			rewards: [{
+				id: "498D573A40AA18C3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "18152D155A27A13C"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			title: "Un réacteur"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["66CC127941885908"]
+			description: ["Obsidienne, pépites de fer, et un &5cœur d'Ender&r au centre. La &5cellule d'Ender&r partage son énergie avec toutes les cellules d'Ender du même canal, où qu'elles soient : la base principale alimente l'avant-poste sans un câble."]
+			icon: "powah:ender_cell_starter"
+			id: "207F23951E196AE6"
+			rewards: [{
+				id: "579C769117C2AD76"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6ABB5850DF9955DC"
+				item: "powah:ender_cell_starter"
+				type: "item"
+			}]
+			title: "Une cellule d'Ender"
+			x: 8.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"181A1C80D41146D6"
+				"38D0ED540B824946"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack."]
+			icon: "powah:reactor_starter"
+			id: "508149CE6CEF0CD3"
+			rewards: [{
+				id: "54CA9E065BCEE1BB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2A8027C83C3F45EA"
+				title: "Ma base a du courant"
+				type: "checkmark"
+			}]
+			title: "&eLa base est alimentée"
+			x: 12.0d
+			y: 0.75d
+		}
+	]
+	title: "&ePowah — l'énergie"
+}

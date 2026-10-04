@@ -1,0 +1,222 @@
+# Chapitre « Énergie : Powah » — cahier des charges §5.7
+# Recettes lues dans Powah-5.0.11.jar (data/powah/recipes).
+
+[chapitre]
+titre = "&ePowah — l'énergie"
+fichier = "powah"
+groupe = "mods"
+icone = "powah:energizing_orb"
+ordre = 5
+
+[[quete]]
+cle = "intro"
+titre = "&ePowah : produire et stocker"
+sous_titre = "Guide dans #powah sur le Discord."
+taille = 1.5
+icone = "powah:energy_cell_starter"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:clay_ball 8", "item minecraft:lava_bucket 1"]
+description = """
+&ePowah&r produit, stocke et transporte de l'énergie (FE), celle que demandent la moissonneuse de Mystical Agriculture, Refined Storage ou les jetpacks. Sept paliers, du &7Starter&r au &cNitro&r, chacun avec ses générateurs, ses cellules et ses câbles.
+
+Tout commence par une pâte diélectrique : charbon, argile et un seau de lave. L'argile et la lave sont offertes.
+"""
+
+[[quete]]
+cle = "pate"
+titre = "De la pâte diélectrique"
+deps = ["intro"]
+taches = ["item powah:dielectric_paste 24"]
+recompenses = ["xp 3"]
+description = """
+Trois charbons, deux argiles, un seau de lave : &l24 pâtes&r. Elle entre dans presque tout — tiges, boîtiers, panneaux, générateurs.
+"""
+
+[[quete]]
+cle = "tige"
+titre = "Tiges et boîtiers diélectriques"
+deps = ["pate"]
+taches = ["item powah:dielectric_rod 8", "item powah:dielectric_casing 2"]
+recompenses = ["xp 3"]
+description = """
+Pâte et barreaux de fer en colonnes : huit &7tiges&r. Deux tiges verticales, deux horizontales et quatre lingots de fer : un &7boîtier&r. Chaque machine de Powah a un boîtier au centre.
+"""
+
+[[quete]]
+cle = "condensateur"
+titre = "Des condensateurs"
+deps = ["pate"]
+taches = ["item powah:capacitor_basic_tiny 8"]
+recompenses = ["xp 3"]
+description = """
+Les &7condensateurs&r sont les composants de palier. Le minuscule sert au palier Starter ; les suivants demandent les cristaux énergisés de chaque palier.
+"""
+
+[[quete]]
+cle = "furnator"
+titre = "Un Furnator"
+deps = ["tige", "condensateur"]
+taille = 1.3
+taches = ["item powah:furnator_starter"]
+recompenses = ["xp 8"]
+description = """
+Un four au centre, un boîtier, deux condensateurs, de la pâte. Le &6Furnator&r brûle n'importe quel combustible et en fait de l'énergie : c'est le générateur de départ, le plus simple à nourrir.
+"""
+
+[[quete]]
+cle = "cellule"
+titre = "Une cellule d'énergie"
+deps = ["tige", "condensateur"]
+taches = ["item powah:energy_cell_starter"]
+recompenses = ["xp 5"]
+description = """
+Fer, condensateurs, boîtier. La &bcellule&r stocke ce que le générateur produit, et le rend aux machines branchées. Sans cellule, l'énergie produite sans consommateur est perdue.
+"""
+
+[[quete]]
+cle = "cable"
+titre = "Des câbles"
+deps = ["cellule"]
+taches = ["item powah:energy_cable_starter 16"]
+recompenses = ["xp 3"]
+description = """
+Les &7câbles&r relient générateur, cellule et machines. Chaque palier a les siens, avec un débit plus grand. Pipez fait aussi des tuyaux d'énergie, moins chers mais moins rapides.
+"""
+
+[[quete]]
+cle = "solaire"
+titre = "Un panneau solaire"
+deps = ["furnator"]
+taches = ["item powah:solar_panel_starter"]
+recompenses = ["xp 5"]
+description = """
+Trois &7panneaux photoélectriques&r (lapis, pâte, vitre) sur le boîtier. Le &esolaire&r produit tant qu'il voit le ciel et qu'il fait jour. Peu, mais gratuit.
+"""
+
+[[quete]]
+cle = "thermo"
+titre = "Un générateur thermoélectrique"
+deps = ["furnator"]
+taches = ["item powah:thermo_generator_starter"]
+recompenses = ["xp 5"]
+description = """
+Trois &7plaques thermoélectriques&r (poudre de Blaze, redstone, condensateur) sur le boîtier. Posé avec une source de chaleur en dessous — de la lave — et il produit en continu, sans combustible.
+"""
+
+[[quete]]
+cle = "magmator"
+titre = "Un Magmator"
+deps = ["furnator"]
+taches = ["item powah:magmator_starter"]
+recompenses = ["xp 5"]
+description = """
+Un seau au centre. Le &cMagmator&r brûle de la lave qu'on lui apporte par tuyau : avec une source de lave au Nether et un tuyau de fluide Pipez, c'est l'énergie des grandes bases avant le réacteur.
+"""
+
+[[quete]]
+cle = "orbe"
+titre = "L'orbe d'énergisation"
+deps = ["tige"]
+taille = 1.3
+taches = ["item powah:energizing_orb", "item powah:energizing_rod_starter 2"]
+recompenses = ["xp 8"]
+description = """
+Verre, boîtier, tiges horizontales : l'&dorbe&r. Autour d'elle, des &dtiges d'énergisation&r (quartz, condensateurs, boîtier, tige) lui envoient de l'énergie, et l'orbe transforme ce qu'on met dedans : c'est la machine qui fabrique les composants des paliers suivants.
+"""
+
+[[quete]]
+cle = "acier"
+titre = "De l'acier énergisé"
+deps = ["orbe"]
+taches = ["item powah:steel_energized 8"]
+recompenses = ["xp 5"]
+description = """
+Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : &l2 aciers énergisés&r. Premier produit de l'orbe, et matière du palier Basic.
+"""
+
+[[quete]]
+cle = "blazing"
+titre = "Un cristal Blazing"
+deps = ["acier"]
+taches = ["item powah:crystal_blazing"]
+recompenses = ["xp 5"]
+description = """
+Quatre poudres de Blaze dans l'orbe, 120 000 FE. Le &6cristal Blazing&r ouvre le quatrième palier : la vraie puissance commence là, et il faut déjà un stock d'énergie pour le fabriquer.
+"""
+
+[[quete]]
+cle = "niotic"
+titre = "Un cristal Niotic"
+deps = ["blazing"]
+taches = ["item powah:crystal_niotic"]
+recompenses = ["xp 5"]
+description = """
+Un diamant dans l'orbe, 300 000 FE. Le &bNiotic&r, cinquième palier.
+"""
+
+[[quete]]
+cle = "spirited"
+titre = "Un cristal Spirited"
+deps = ["niotic"]
+taches = ["item powah:crystal_spirited"]
+recompenses = ["xp 5"]
+description = """
+Une émeraude dans l'orbe, un million de FE. Le &aSpirited&r, sixième palier. À ce stade, l'orbe doit être alimentée par plus qu'un Furnator.
+"""
+
+[[quete]]
+cle = "nitro"
+titre = "Des cristaux Nitro"
+deps = ["spirited"]
+boss = true
+forme = "diamond"
+taches = ["item powah:crystal_nitro 4"]
+recompenses = ["xp 10"]
+description = """
+Une étoile du Nether, deux blocs de redstone et un bloc de cristal Blazing dans l'orbe, &l20 millions de FE&r : seize cristaux &cNitro&r. Le dernier palier. L'étoile vient du Wither : c'est une quête du chapitre Nether.
+"""
+
+[[quete]]
+cle = "uraninite"
+titre = "De l'uraninite"
+deps = ["intro"]
+taches = ["item powah:uraninite 9"]
+recompenses = ["xp 3"]
+description = """
+Le &2minerai d'uraninite&r se mine en profondeur, en veines pauvres, normales ou denses. Neuf uraninites pour un bloc, un bloc pour neuf : c'est le combustible du réacteur.
+"""
+
+[[quete]]
+cle = "reacteur"
+titre = "Un réacteur"
+deps = ["uraninite", "condensateur"]
+boss = true
+forme = "diamond"
+taches = ["item powah:reactor_starter 4"]
+recompenses = ["xp 10"]
+description = """
+Uraninite, condensateurs, boîtier : quatre blocs de &2réacteur&r par recette, et il en faut plusieurs pour assembler la structure complète (le livre du mod, &ePowah Book&r, montre le plan). Il brûle l'uraninite, se refroidit à l'eau ou mieux, et produit plus que tout le reste réuni.
+"""
+
+[[quete]]
+cle = "ender"
+titre = "Une cellule d'Ender"
+deps = ["cellule"]
+taches = ["item powah:ender_cell_starter"]
+recompenses = ["xp 5"]
+description = """
+Obsidienne, pépites de fer, et un &5cœur d'Ender&r au centre. La &5cellule d'Ender&r partage son énergie avec toutes les cellules d'Ender du même canal, où qu'elles soient : la base principale alimente l'avant-poste sans un câble.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&eLa base est alimentée"
+deps = ["blazing", "reacteur"]
+exigence = "une"
+taille = 1.5
+icone = "powah:reactor_starter"
+taches = ["checkmark Ma base a du courant"]
+recompenses = ["xp 10"]
+description = """
+Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack.
+"""

@@ -1,0 +1,80 @@
+# Chapitre « Pylons » — cahier des charges §5.5
+# Recettes et infobulles lues dans pylons-1.20.1-4.3.0.jar. Le mod n'a
+# pas de fichier de config dans l'instance : rien n'est affirmé au-delà
+# de ses propres textes.
+
+[chapitre]
+titre = "&aPylons"
+fichier = "pylons"
+groupe = "mods"
+icone = "pylons:harvester_pylon"
+ordre = 4
+
+[[quete]]
+cle = "intro"
+titre = "&aLes pylônes"
+sous_titre = "Quatre blocs, quatre effets de zone."
+taille = 1.5
+icone = "pylons:harvester_pylon"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:quartz_slab 6", "item minecraft:iron_bars 4"]
+description = """
+&aPylons&r ajoute quatre pylônes qui agissent dans un rayon autour d'eux : récolter, repousser les joueurs, empêcher les apparitions, appliquer un effet de potion. Même recette pour les quatre — dalles de quartz, barreaux de fer, pierre noire polie — et un bloc au centre qui change tout.
+
+Le plus utile sur ce serveur est le pylône de récolte, et il a une condition.
+"""
+
+[[quete]]
+cle = "recolte"
+titre = "Un pylône de récolte"
+deps = ["intro"]
+taille = 1.3
+taches = ["item pylons:harvester_pylon"]
+recompenses = ["xp 8"]
+description = """
+Un bloc de foin au centre. Le &apylône de récolte&r moissonne les cultures dans un rayon autour de lui ; il se pose dans ou au-dessus du bloc d'eau du champ.
+
+Sa condition : il lui faut une &lhoue&r à l'intérieur, sinon il affiche « Hoe required for operation » et ne fait rien. C'est le lien avec Mystical Agriculture : la houe de supremium éveillé est celle qu'on y met pour ne plus y penser.
+"""
+
+[[quete]]
+cle = "expulsion"
+titre = "Un pylône d'expulsion"
+deps = ["intro"]
+taches = ["item pylons:expulsion_pylon"]
+recompenses = ["xp 5"]
+description = """
+Un bloc de diamant au centre. Il &cexpulse les autres joueurs&r des chunks autour de lui, sur une portée réglable. Dans un claim, c'est une double sécurité ; hors claim, c'est une arme de territoire. Un filtre de joueur (clic droit sur quelqu'un) fait des exceptions.
+"""
+
+[[quete]]
+cle = "interdiction"
+titre = "Un pylône d'interdiction"
+deps = ["intro"]
+taches = ["item pylons:interdiction_pylon"]
+recompenses = ["xp 5"]
+description = """
+Un bloc de nétherite au centre. Il &lempêche les apparitions&r de créatures dans un rayon autour de lui, celles que son filtre de créature désigne. Une base sans torches, un champ sans phantoms.
+"""
+
+[[quete]]
+cle = "infusion"
+titre = "Un pylône d'infusion"
+deps = ["intro"]
+taches = ["item pylons:infusion_pylon"]
+recompenses = ["xp 5"]
+description = """
+Un bloc d'émeraude au centre. Il applique, à n'importe quelle distance, l'effet de potion inscrit sur son filtre de potion : clic droit avec l'effet actif pour l'inscrire, et encore pour allonger sa durée.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&aLe champ se récolte seul"
+deps = ["recolte"]
+taille = 1.3
+icone = "minecraft:hay_block"
+taches = ["checkmark Houe en place"]
+recompenses = ["xp 5"]
+description = """
+Un pylône de récolte, sa houe, et les champs de Mystical Agriculture se vident tout seuls dans un coffre. Il reste à sortir ce qui pousse : c'est le chapitre &bPipez&r.
+"""

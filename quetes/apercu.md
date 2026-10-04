@@ -744,3 +744,64 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le Wither et l'Ender Dragon lâchent de la poussière cognizante quand ils sont tués avec une arme d'essence enchantée Mystical Enlightenment. Les deux sont activés sur le serveur. Elle sert aux éveils les plus avancés.
 - **La ferme remplace la mine** — tâches : checkmark Mes champs tournent — récompense : xp 10 — après : netherite, eveille
   > Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre Pylons ajoute la récolte automatique sans énergie, à une condition près.
+
+## Powah — l'énergie  (`powah`, 20 quêtes)
+
+- **Powah : produire et stocker** — tâches : checkmark Lu — récompense : item minecraft:clay_ball 8, item minecraft:lava_bucket 1
+  > Powah produit, stocke et transporte de l'énergie (FE), celle que demandent la moissonneuse de Mystical Agriculture, Refined Storage ou les jetpacks. Sept paliers, du Starter au Nitro, chacun avec ses générateurs, ses cellules et ses câbles.
+  >   > Tout commence par une pâte diélectrique : charbon, argile et un seau de lave. L'argile et la lave sont offertes.
+- **De la pâte diélectrique** — tâches : item powah:dielectric_paste 24 — récompense : xp 3 — après : intro
+  > Trois charbons, deux argiles, un seau de lave : 24 pâtes. Elle entre dans presque tout — tiges, boîtiers, panneaux, générateurs.
+- **Tiges et boîtiers diélectriques** — tâches : item powah:dielectric_rod 8, item powah:dielectric_casing 2 — récompense : xp 3 — après : pate
+  > Pâte et barreaux de fer en colonnes : huit tiges. Deux tiges verticales, deux horizontales et quatre lingots de fer : un boîtier. Chaque machine de Powah a un boîtier au centre.
+- **Des condensateurs** — tâches : item powah:capacitor_basic_tiny 8 — récompense : xp 3 — après : pate
+  > Les condensateurs sont les composants de palier. Le minuscule sert au palier Starter ; les suivants demandent les cristaux énergisés de chaque palier.
+- **Un Furnator** — tâches : item powah:furnator_starter — récompense : xp 8 — après : tige, condensateur
+  > Un four au centre, un boîtier, deux condensateurs, de la pâte. Le Furnator brûle n'importe quel combustible et en fait de l'énergie : c'est le générateur de départ, le plus simple à nourrir.
+- **Une cellule d'énergie** — tâches : item powah:energy_cell_starter — récompense : xp 5 — après : tige, condensateur
+  > Fer, condensateurs, boîtier. La cellule stocke ce que le générateur produit, et le rend aux machines branchées. Sans cellule, l'énergie produite sans consommateur est perdue.
+- **Des câbles** — tâches : item powah:energy_cable_starter 16 — récompense : xp 3 — après : cellule
+  > Les câbles relient générateur, cellule et machines. Chaque palier a les siens, avec un débit plus grand. Pipez fait aussi des tuyaux d'énergie, moins chers mais moins rapides.
+- **Un panneau solaire** — tâches : item powah:solar_panel_starter — récompense : xp 5 — après : furnator
+  > Trois panneaux photoélectriques (lapis, pâte, vitre) sur le boîtier. Le solaire produit tant qu'il voit le ciel et qu'il fait jour. Peu, mais gratuit.
+- **Un générateur thermoélectrique** — tâches : item powah:thermo_generator_starter — récompense : xp 5 — après : furnator
+  > Trois plaques thermoélectriques (poudre de Blaze, redstone, condensateur) sur le boîtier. Posé avec une source de chaleur en dessous — de la lave — et il produit en continu, sans combustible.
+- **Un Magmator** — tâches : item powah:magmator_starter — récompense : xp 5 — après : furnator
+  > Un seau au centre. Le Magmator brûle de la lave qu'on lui apporte par tuyau : avec une source de lave au Nether et un tuyau de fluide Pipez, c'est l'énergie des grandes bases avant le réacteur.
+- **L'orbe d'énergisation** — tâches : item powah:energizing_orb, item powah:energizing_rod_starter 2 — récompense : xp 8 — après : tige
+  > Verre, boîtier, tiges horizontales : l'orbe. Autour d'elle, des tiges d'énergisation (quartz, condensateurs, boîtier, tige) lui envoient de l'énergie, et l'orbe transforme ce qu'on met dedans : c'est la machine qui fabrique les composants des paliers suivants.
+- **De l'acier énergisé** — tâches : item powah:steel_energized 8 — récompense : xp 5 — après : orbe
+  > Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : 2 aciers énergisés. Premier produit de l'orbe, et matière du palier Basic.
+- **Un cristal Blazing** — tâches : item powah:crystal_blazing — récompense : xp 5 — après : acier
+  > Quatre poudres de Blaze dans l'orbe, 120 000 FE. Le cristal Blazing ouvre le quatrième palier : la vraie puissance commence là, et il faut déjà un stock d'énergie pour le fabriquer.
+- **Un cristal Niotic** — tâches : item powah:crystal_niotic — récompense : xp 5 — après : blazing
+  > Un diamant dans l'orbe, 300 000 FE. Le Niotic, cinquième palier.
+- **Un cristal Spirited** — tâches : item powah:crystal_spirited — récompense : xp 5 — après : niotic
+  > Une émeraude dans l'orbe, un million de FE. Le Spirited, sixième palier. À ce stade, l'orbe doit être alimentée par plus qu'un Furnator.
+- **Des cristaux Nitro** — tâches : item powah:crystal_nitro 4 — récompense : xp 10 — après : spirited
+  > Une étoile du Nether, deux blocs de redstone et un bloc de cristal Blazing dans l'orbe, 20 millions de FE : seize cristaux Nitro. Le dernier palier. L'étoile vient du Wither : c'est une quête du chapitre Nether.
+- **De l'uraninite** — tâches : item powah:uraninite 9 — récompense : xp 3 — après : intro
+  > Le minerai d'uraninite se mine en profondeur, en veines pauvres, normales ou denses. Neuf uraninites pour un bloc, un bloc pour neuf : c'est le combustible du réacteur.
+- **Un réacteur** — tâches : item powah:reactor_starter 4 — récompense : xp 10 — après : uraninite, condensateur
+  > Uraninite, condensateurs, boîtier : quatre blocs de réacteur par recette, et il en faut plusieurs pour assembler la structure complète (le livre du mod, Powah Book, montre le plan). Il brûle l'uraninite, se refroidit à l'eau ou mieux, et produit plus que tout le reste réuni.
+- **Une cellule d'Ender** — tâches : item powah:ender_cell_starter — récompense : xp 5 — après : cellule
+  > Obsidienne, pépites de fer, et un cœur d'Ender au centre. La cellule d'Ender partage son énergie avec toutes les cellules d'Ender du même canal, où qu'elles soient : la base principale alimente l'avant-poste sans un câble.
+- **La base est alimentée** — tâches : checkmark Ma base a du courant — récompense : xp 10 — après : blazing, reacteur
+  > Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack.
+
+## Pylons  (`pylons`, 6 quêtes)
+
+- **Les pylônes** — tâches : checkmark Lu — récompense : item minecraft:quartz_slab 6, item minecraft:iron_bars 4
+  > Pylons ajoute quatre pylônes qui agissent dans un rayon autour d'eux : récolter, repousser les joueurs, empêcher les apparitions, appliquer un effet de potion. Même recette pour les quatre — dalles de quartz, barreaux de fer, pierre noire polie — et un bloc au centre qui change tout.
+  >   > Le plus utile sur ce serveur est le pylône de récolte, et il a une condition.
+- **Un pylône de récolte** — tâches : item pylons:harvester_pylon — récompense : xp 8 — après : intro
+  > Un bloc de foin au centre. Le pylône de récolte moissonne les cultures dans un rayon autour de lui ; il se pose dans ou au-dessus du bloc d'eau du champ.
+  >   > Sa condition : il lui faut une houe à l'intérieur, sinon il affiche « Hoe required for operation » et ne fait rien. C'est le lien avec Mystical Agriculture : la houe de supremium éveillé est celle qu'on y met pour ne plus y penser.
+- **Un pylône d'expulsion** — tâches : item pylons:expulsion_pylon — récompense : xp 5 — après : intro
+  > Un bloc de diamant au centre. Il expulse les autres joueurs des chunks autour de lui, sur une portée réglable. Dans un claim, c'est une double sécurité ; hors claim, c'est une arme de territoire. Un filtre de joueur (clic droit sur quelqu'un) fait des exceptions.
+- **Un pylône d'interdiction** — tâches : item pylons:interdiction_pylon — récompense : xp 5 — après : intro
+  > Un bloc de nétherite au centre. Il empêche les apparitions de créatures dans un rayon autour de lui, celles que son filtre de créature désigne. Une base sans torches, un champ sans phantoms.
+- **Un pylône d'infusion** — tâches : item pylons:infusion_pylon — récompense : xp 5 — après : intro
+  > Un bloc d'émeraude au centre. Il applique, à n'importe quelle distance, l'effet de potion inscrit sur son filtre de potion : clic droit avec l'effet actif pour l'inscrire, et encore pour allonger sa durée.
+- **Le champ se récolte seul** — tâches : checkmark Houe en place — récompense : xp 5 — après : recolte
+  > Un pylône de récolte, sa houe, et les champs de Mystical Agriculture se vident tout seuls dans un coffre. Il reste à sortir ce qui pousse : c'est le chapitre Pipez.
