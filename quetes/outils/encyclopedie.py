@@ -92,7 +92,7 @@ def bestiaire_overworld(ix, exclusions, notes):
             'illagerinvasion', 'takesapillage', 'goblintraders', 'quark']
     lignes = []
     lignes.append('# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer : notes/bestiaire-overworld.toml pour les textes.\n')
-    lignes.append('[chapitre]\ntitre = "&7Bestiaire — Overworld"\nfichier = "enc_bestiaire_overworld"\ngroupe = "encyclopedie"\nicone = "minecraft:zombie_head"\nordre = 0\nlignes_cachees = true\n')
+    lignes.append('[chapitre]\ntitre = "&7Bestiaire — Overworld"\nfichier = "enc_bestiaire_overworld"\ngroupe = "encyclopedie"\nicone = "minecraft:zombie_head"\nordre = 0\nlignes_cachees = true\ngrille = 16\n')
     lignes.append('[[quete]]\ncle = "intro"\ntitre = "&7Bestiaire — Overworld"\ntaille = 1.5\nicone = "minecraft:zombie_head"\ntaches = ["checkmark Lu"]\nrecompenses = ["xp 2"]\ndescription = """\nChaque créature de l\'Overworld, du jeu de base et des mods de faune. Une quête se valide en &lregardant&r la créature : il suffit de l\'avoir devant soi.\n\nCe chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet.\n"""\n')
     exclues = []
     cles = []

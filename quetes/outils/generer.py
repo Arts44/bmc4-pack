@@ -264,6 +264,23 @@ def disposer(quetes, cle_rang):
             pos[c] = tuple(quetes[c]['pos'])
     return pos
 
+def disposer_grille(quetes, colonnes):
+    """Catalogue : la première quête à gauche, la dernière à droite, le
+    reste en grille de `colonnes` par rangée, lu de gauche à droite."""
+    cles = list(quetes)
+    premiere, derniere, milieu = cles[0], cles[-1], cles[1:-1]
+    rangees = max(1, -(-len(milieu) // colonnes))
+    pos = {}
+    for i, c in enumerate(milieu):
+        r, col = divmod(i, colonnes)
+        pos[c] = (col * 1.5, (r - (rangees - 1) / 2) * 1.5)
+    pos[premiere] = (-3.0, 0.0)
+    pos[derniere] = (colonnes * 1.5 + 1.5, 0.0)
+    for c in quetes:
+        if 'pos' in quetes[c]:
+            pos[c] = tuple(quetes[c]['pos'])
+    return pos
+
 # ---------------------------------------------------------------- chapitre
 
 def construire_chapitre(toml_path, verif, tables, ix):
@@ -277,7 +294,10 @@ def construire_chapitre(toml_path, verif, tables, ix):
         for dep in qd.get('deps', []):
             if dep not in quetes:
                 raise SystemExit(f"{fichier}/{c} : dépendance inconnue « {dep} »")
-    pos = disposer(quetes, fichier)
+    if ch.get('grille'):
+        pos = disposer_grille(quetes, int(ch['grille']))
+    else:
+        pos = disposer(quetes, fichier)
     chap_id = hid('chapitre', fichier)
     sortie = []
     for c, qd in quetes.items():
