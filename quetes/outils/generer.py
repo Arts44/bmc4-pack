@@ -375,6 +375,8 @@ def main(argv):
     groupes = tomllib.load(open(os.path.join(DONNEES, 'groupes.toml'), 'rb'))['groupe']
     chapitres = []
     for racine, _, fichiers in os.walk(DONNEES):
+        if os.path.basename(racine) == 'notes':
+            continue
         for f in sorted(fichiers):
             if f.endswith('.toml') and f not in ('tables.toml', 'groupes.toml', 'livre.toml'):
                 chapitres.append(os.path.join(racine, f))
