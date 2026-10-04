@@ -1,0 +1,655 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "construction"
+	group: "14858825A29975B1"
+	icon: "chipped:carpenters_table"
+	id: "2CC9D7FFDB61FA76"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Le pack empile une vingtaine de mods de blocs et de meubles. Ce chapitre en fait le tour, un mod par quête, chacune facultative : une seule pièce fabriquée suffit à savoir que le mod existe et où regarder dans JEI."
+				""
+				"&bEvery Compat&r est le mod invisible de la liste : c'est lui qui décline les meubles, coffres et dalles des autres mods dans tous les bois du pack, ceux des autres mods compris."
+			]
+			icon: "minecraft:bricks"
+			id: "1E5E629C0D7203EF"
+			rewards: [
+				{
+					count: 16
+					id: "03B89FD76F37D34D"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "31AFD8CA99A944F1"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #construction sur le Discord."
+			tasks: [{
+				id: "79C7E0407BC3301F"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Bâtir avec vingt mods"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Chipped&r ne s'affiche pas dans JEI bloc par bloc : il passe par sept &létablis&r — table du charpentier, table du maçon, souffleur de verre, métier à tisser, établi du botaniste, table d'alchimie, table de bricolage. Chaque établi transforme un bloc de base en ses dizaines de variantes, et retour. Près de 7 000 blocs dans le pack viennent de lui."]
+			icon: "chipped:carpenters_table"
+			id: "040E08F990FE7566"
+			optional: true
+			rewards: [{
+				id: "2FE1453CAA6A037A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1817F6CC930E6F4D"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "6783AB8B22433A74"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+			]
+			title: "Chipped : les établis"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Dawn of Time&r est le mod des architectures du monde : colombages, chaume de bambou, tuiles d'argile, chemins de pas japonais, planches calcinées, portes de papier. Le &lcolombage en chêne ciré&r se fabrique déjà par centaines sur le serveur."]
+			icon: "dawnoftimebuilder:waxed_oak_timber_frame"
+			id: "5AD4C2F84590E5A0"
+			optional: true
+			rewards: [{
+				id: "54BF04D4C9999354"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "7B9A493501BB0E35"
+					item: "dawnoftimebuilder:waxed_oak_timber_frame"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "670BF89A3E5982E0"
+					item: "dawnoftimebuilder:thatch_bamboo"
+					type: "item"
+				}
+			]
+			title: "Dawn of Time : colombages et toits"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Handcrafted&r : chaises, tables, bancs, canapés, comptoirs, bureaux, étagères, lits à baldaquin dans chaque bois, plus la vaisselle, les coussins, les pots vernis et les trophées. Le &lmarteau&r du mod agit sur les meubles posés (blocs « hammerable » du jar)."]
+			icon: "handcrafted:hammer"
+			id: "503F1F81EFC06069"
+			optional: true
+			rewards: [{
+				id: "40CF15D3F3C0FC6B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "008A43F50AB2C763"
+					item: "handcrafted:hammer"
+					type: "item"
+				}
+				{
+					id: "4E5F67E2E35F99CD"
+					item: "handcrafted:oak_chair"
+					type: "item"
+				}
+				{
+					id: "524256101D9CA5E9"
+					item: "handcrafted:oak_table"
+					type: "item"
+				}
+			]
+			title: "Handcrafted : du mobilier"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Another Furniture&r ajoute ce qui manque aux autres : volets, jardinières de fenêtre, rideaux, sofas, tabourets, tiroirs, étagères, dans chaque bois et chaque couleur, avec son propre &lmarteau&r qui agit sur les blocs posés."]
+			icon: "another_furniture:furniture_hammer"
+			id: "678D1CCE4A52ED55"
+			optional: true
+			rewards: [{
+				id: "55212A374630F7A4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0C1EE57682A85AFE"
+					item: "another_furniture:furniture_hammer"
+					type: "item"
+				}
+				{
+					id: "776D9163BDE8D0C0"
+					item: "another_furniture:oak_shelf"
+					type: "item"
+				}
+				{
+					id: "502C8A2D4B41CD91"
+					item: "another_furniture:oak_shutter"
+					type: "item"
+				}
+			]
+			title: "Another Furniture : volets et étagères"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Paladin's Furniture&r se fabrique sur son propre &létabli à meubles&r : cuisinières, plaques de cuisson, éviers, réfrigérateurs, micro-ondes, douches, toilettes, fauteuils, lampes. Les recettes ne sont que là, pas sur la table d'artisanat."]
+			icon: "pfm:working_table"
+			id: "2F9349C401B7AE6F"
+			optional: true
+			rewards: [{
+				id: "233905772BBC2857"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D7150117CBB9C9E"
+				item: "pfm:working_table"
+				type: "item"
+			}]
+			title: "Paladin's Furniture : la cuisine"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Decorative Blocks&r : poutres, palissades, soutiens et sièges dans chaque bois, grandes chaînes, brasiers, chandeliers, treillis, piliers de pierre, terre rocailleuse. Le mod des charpentes apparentes et des remparts."]
+			icon: "decorative_blocks:oak_beam"
+			id: "30F8F92DB5DE7329"
+			optional: true
+			rewards: [{
+				id: "76702D81607F5D1E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "3C2C0558801854EF"
+					item: "decorative_blocks:oak_beam"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7CCB3CB62AEDE7FA"
+					item: "decorative_blocks:oak_palisade"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4651DDE119DD99AD"
+					item: "decorative_blocks:chain"
+					type: "item"
+				}
+			]
+			title: "Decorative Blocks : poutres et palissades"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Supplementaries&r est le plus gros des mods de décoration utile. Pour commencer : un &ltableau noir&r où dessiner, un &ltableau d'affichage&r qui expose un livre ou une carte, des &létagères&r qui montrent un objet. Trois quêtes lui sont consacrées."]
+			icon: "supplementaries:blackboard"
+			id: "06F0708D8D28A305"
+			optional: true
+			rewards: [{
+				id: "3E021B98CBB894F0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2528DC74846F0769"
+					item: "supplementaries:blackboard"
+					type: "item"
+				}
+				{
+					id: "09DDF751FF9A827C"
+					item: "supplementaries:notice_board"
+					type: "item"
+				}
+				{
+					id: "770912E98745FDAE"
+					item: "supplementaries:item_shelf"
+					type: "item"
+				}
+			]
+			title: "Supplementaries : l'atelier"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["06F0708D8D28A305"]
+			description: ["Un &lsac&r se porte et se pose, un &lpot&r expose ce qu'on y met, une &lcage&r enferme un animal. Le mod a aussi un coffre-fort à clé, un bloc de serrure et des portes en or ou en nétherite."]
+			icon: "supplementaries:sack"
+			id: "5EAE0CC5DA56AF8B"
+			optional: true
+			rewards: [{
+				id: "7EEBC70314151021"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "21BC277BFD4E8F93"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+				{
+					id: "58834104005B6F4D"
+					item: "supplementaries:jar"
+					type: "item"
+				}
+				{
+					id: "27FD8278F3FCE75C"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+			]
+			title: "Supplementaries : sacs, pots, cages"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06F0708D8D28A305"]
+			description: ["Le &lsoufflet&r, la &lmanivelle&r, la &ltable tournante&r, le lanceur à ressorts, le bloc d'horloge, le relayeur, l'illuminateur à redstone, la girouette, le sablier : la redstone de Supplementaries, à retrouver dans JEI."]
+			icon: "supplementaries:bellows"
+			id: "47991E14DF88F6B3"
+			optional: true
+			rewards: [{
+				id: "69EBA470E36AEADE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31242259CDDE1532"
+					item: "supplementaries:bellows"
+					type: "item"
+				}
+				{
+					id: "5B7842A1DE99F8F2"
+					item: "supplementaries:crank"
+					type: "item"
+				}
+				{
+					id: "2BEC253B33F593EB"
+					item: "supplementaries:turn_table"
+					type: "item"
+				}
+			]
+			title: "Supplementaries : la mécanique"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06F0708D8D28A305"]
+			description: ["&6Amendments&r retouche le jeu de base : une lanterne se pose &lau mur&r, un tapis sur un escalier ou une dalle, un pot de fleurs se suspend, le chaudron prend des teintures. Rien à fabriquer : pose une lanterne contre un mur et regarde-la."]
+			id: "562CC4F158E91DA6"
+			optional: true
+			rewards: [{
+				id: "7CA39C73E3F4E166"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "340686835F6D8493"
+				observe_type: 0
+				timer: 0L
+				to_observe: "amendments:wall_lantern"
+				type: "observation"
+			}]
+			title: "Amendments : lanternes murales"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["Les modules de construction de &6Quark&r sont tous activés sur le serveur : dalles &lverticales&r, poteaux, bûches creuses, échelles, bibliothèques, coffres et fours de chaque bois, haies, chaume, cordage. Les dalles verticales se fabriquent aussi au tailleur de pierre."]
+			icon: "quark:oak_vertical_slab"
+			id: "78F2A30B15C6C247"
+			optional: true
+			rewards: [{
+				id: "2CD38184113FAE2B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "691AF2A3425EBB31"
+					item: "quark:oak_vertical_slab"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "753EE4EE87AE15D0"
+					item: "quark:oak_post"
+					type: "item"
+				}
+				{
+					id: "7D4B86D430E3DC48"
+					item: "quark:hollow_oak_log"
+					type: "item"
+				}
+			]
+			title: "Quark : les blocs de bois"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["78F2A30B15C6C247"]
+			description: ["&lVerrière&r, &ltuiles&r de toit, purpur sombre, midori, grès des âmes, grilles et barreaux d'or, blindages de métal, blocs compressés, calcaire, jaspe, shale, myalite et permafrost dans le monde. La &ltruelle&r est l'outil de pose du mod."]
+			icon: "quark:framed_glass"
+			id: "77754ADC7E3468A6"
+			optional: true
+			rewards: [{
+				id: "0AA5B4301182E2E7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "745DD52477660E8A"
+					item: "quark:framed_glass"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1E17CAEE44926E59"
+					item: "quark:shingles"
+					type: "item"
+				}
+				{
+					id: "66493281278528FC"
+					item: "quark:trowel"
+					type: "item"
+				}
+			]
+			title: "Quark : les blocs de pierre"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Twigs&r : lanternes de papier, lampes, tables, colonnes, briques de basalte, de gravier et de pierre lisse, chaume de bambou, et trois roches nouvelles dans le monde (rhyolite, schiste, pierre de sang). Brindilles et galets n'ont pas de recette : ils se trouvent dans le monde."]
+			icon: "twigs:paper_lantern"
+			id: "387EFFF77A6B5406"
+			optional: true
+			rewards: [{
+				id: "5C7C08C0DF0A6144"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "787870370BB9FFF6"
+					item: "twigs:paper_lantern"
+					type: "item"
+				}
+				{
+					id: "0E00BB0EFB60367D"
+					item: "twigs:oak_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "07ABF6600335AD53"
+					item: "twigs:smooth_basalt_bricks"
+					type: "item"
+				}
+			]
+			title: "Twigs : lanternes de papier"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Stoneworks&r décline chaque pierre du jeu en briques, pavés, piliers, plaques et tuiles, avec dalles, escaliers et murets. Près de 600 blocs."]
+			icon: "stoneworks:andesite_bricks"
+			id: "0391F9D005AA25CD"
+			optional: true
+			rewards: [{
+				id: "3117F31B273EAAF7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "370EC18C83602E1D"
+					item: "stoneworks:andesite_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2BC3B249B71DB876"
+					item: "stoneworks:andesite_pavers"
+					type: "item"
+				}
+			]
+			title: "Stoneworks : chaque pierre, chaque forme"
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Hearth & Home&r : parquet, lattis et bois poncé dans chaque essence, tuiles et bardeaux de toit colorés, verre à barreaux, lanternes de papier, chaume, cheminées. Le mod des intérieurs."]
+			icon: "hearth_and_home:oak_parquet"
+			id: "004DBF205DF0C836"
+			optional: true
+			rewards: [{
+				id: "2AB1217F0C3B0A56"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "3B6EB9E7F553C942"
+					item: "hearth_and_home:oak_parquet"
+					type: "item"
+				}
+				{
+					id: "4FC30089EA69E8B9"
+					item: "hearth_and_home:polished_blackstone_chimney"
+					type: "item"
+				}
+			]
+			title: "Hearth & Home : parquet et cheminées"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Universal Sawmill&r ajoute une &lscie&r : un tailleur de pierre pour le bois : bûches et planches y deviennent les blocs de bois du pack. Elle donne aussi un métier de villageois, le charpentier."]
+			icon: "sawmill:sawmill"
+			id: "14BBC85ADEC3A7EE"
+			optional: true
+			rewards: [{
+				id: "21C4BF3F1208F188"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B55B5DB0FE978B1"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			title: "La scie"
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Elevator Mod&r : deux blocs &lascenseur&r l'un au-dessus de l'autre, et on se téléporte de l'un à l'autre. Clic droit pour les options : direction d'arrivée, flèche cachée, camouflage dans n'importe quel bloc."]
+			icon: "elevatorid:elevator_white"
+			id: "5F2AB83C1DE5550C"
+			optional: true
+			rewards: [{
+				id: "0E2B20AE70C1EB6B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "639EA0BFACF69A0F"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			title: "Un ascenseur"
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["&6Gallery&r ajoute vingt tableaux signés et un sélecteur pour choisir celui qu'on accroche, au lieu du hasard. &6Fast Paintings&r allège leur affichage. Le &lcadre en verre&r de Quark montre l'objet sans le cadre."]
+			icon: "minecraft:painting"
+			id: "305287923334411A"
+			optional: true
+			rewards: [{
+				id: "5F00C0D85E336DF8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "70A014C1A157598C"
+					item: "minecraft:painting"
+					type: "item"
+				}
+				{
+					id: "6DB1C48CFAFE5A0F"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+			]
+			title: "Tableaux et cadres"
+			x: 2.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["06F0708D8D28A305"]
+			description: ["Les &lbougeoirs&r de Supplementaries et ceux en or de Supplementaries Squared, les lampes de pierre, les lanternes de cuivre et de laiton. &6Immersive Lanterns&r, lui, ne fabrique rien : il affiche la lanterne qu'on tient à la main, qui se balance en marchant."]
+			icon: "supplementaries:candle_holder"
+			id: "6B2733800C2B35F6"
+			optional: true
+			rewards: [{
+				id: "55A6F6EE3EC99887"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "110253493B56A6E8"
+					item: "supplementaries:candle_holder"
+					type: "item"
+				}
+				{
+					id: "365EE3A1E00AE2CA"
+					item: "suppsquared:gold_candle_holder"
+					type: "item"
+				}
+			]
+			title: "Lanternes et bougeoirs"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E5E629C0D7203EF"]
+			description: ["Trois mods discrets : &6Diagonal Fences&r et &6Diagonal Walls&r relient barrières et murets en diagonale ; &6KleeSlabs&r ne retire qu'une moitié quand on casse une double dalle, verticales de Quark comprises. Rien à fabriquer."]
+			id: "54CB09409B3B4D8B"
+			optional: true
+			rewards: [{
+				id: "02886392221FFEFD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48D6698678047BC5"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Barrières en diagonale, demi-dalles"
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"040E08F990FE7566"
+				"06F0708D8D28A305"
+				"78F2A30B15C6C247"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Un seul des mods suffit pour fermer le chapitre ; les autres attendent dans JEI. Le chapitre &7Blocs&r de l'Encyclopédie listera chaque bloc du pack."]
+			icon: "decorative_blocks:chandelier"
+			id: "35D7F9C8442B5494"
+			rewards: [{
+				id: "51BC43F14B1038CE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "6A13E80F330A1490"
+				title: "Ma base est décorée"
+				type: "checkmark"
+			}]
+			title: "&6Une base qui a de l'allure"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "&6Construction et décoration"
+}

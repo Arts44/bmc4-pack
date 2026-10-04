@@ -1,0 +1,263 @@
+# Chapitre « Construction et décoration » — cahier des charges §5.15
+# R0, une collection facultative par mod. Identifiants et recettes vérifiés
+# dans l'index des jars de l'instance v61 (5 octobre 2026) ; textes des
+# mods lus dans leurs en_us.json (Sawmill : « Saw », catégorie « Sawing »,
+# villageois charpentier ; Elevator : téléportation, camouflage, direction ;
+# Gallery : 22 tableaux nommés ; Immersive Lanterns : options d'affichage
+# des lanternes portées ; KleeSlabs : BlockBreakHandler + convertisseurs
+# de dalles). Quark : modules [building] de quark-common.toml du serveur,
+# tous à true. Pas de chiffre ni de mécanique non lue dans les fichiers.
+
+[chapitre]
+titre = "&6Construction et décoration"
+fichier = "construction"
+groupe = "mods"
+icone = "chipped:carpenters_table"
+ordre = 15
+
+[[quete]]
+cle = "intro"
+titre = "&6Bâtir avec vingt mods"
+sous_titre = "Guide dans #construction sur le Discord."
+taille = 1.5
+icone = "minecraft:bricks"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:oak_log 16", "item minecraft:stone_bricks 32"]
+description = """
+Le pack empile une vingtaine de mods de blocs et de meubles. Ce chapitre en fait le tour, un mod par quête, chacune facultative : une seule pièce fabriquée suffit à savoir que le mod existe et où regarder dans JEI.
+
+&bEvery Compat&r est le mod invisible de la liste : c'est lui qui décline les meubles, coffres et dalles des autres mods dans tous les bois du pack, ceux des autres mods compris.
+"""
+
+[[quete]]
+cle = "chipped"
+titre = "Chipped : les établis"
+deps = ["intro"]
+optionnel = true
+taches = ["item chipped:carpenters_table", "item chipped:mason_table"]
+recompenses = ["xp 3"]
+description = """
+&6Chipped&r ne s'affiche pas dans JEI bloc par bloc : il passe par sept &létablis&r — table du charpentier, table du maçon, souffleur de verre, métier à tisser, établi du botaniste, table d'alchimie, table de bricolage. Chaque établi transforme un bloc de base en ses dizaines de variantes, et retour. Près de 7 000 blocs dans le pack viennent de lui.
+"""
+
+[[quete]]
+cle = "dawn"
+titre = "Dawn of Time : colombages et toits"
+deps = ["intro"]
+optionnel = true
+taches = ["item dawnoftimebuilder:waxed_oak_timber_frame 8", "item dawnoftimebuilder:thatch_bamboo 8"]
+recompenses = ["xp 3"]
+description = """
+&6Dawn of Time&r est le mod des architectures du monde : colombages, chaume de bambou, tuiles d'argile, chemins de pas japonais, planches calcinées, portes de papier. Le &lcolombage en chêne ciré&r se fabrique déjà par centaines sur le serveur.
+"""
+
+[[quete]]
+cle = "handcrafted"
+titre = "Handcrafted : du mobilier"
+deps = ["intro"]
+optionnel = true
+taches = ["item handcrafted:hammer", "item handcrafted:oak_chair", "item handcrafted:oak_table"]
+recompenses = ["xp 3"]
+description = """
+&6Handcrafted&r : chaises, tables, bancs, canapés, comptoirs, bureaux, étagères, lits à baldaquin dans chaque bois, plus la vaisselle, les coussins, les pots vernis et les trophées. Le &lmarteau&r du mod agit sur les meubles posés (blocs « hammerable » du jar).
+"""
+
+[[quete]]
+cle = "another"
+titre = "Another Furniture : volets et étagères"
+deps = ["intro"]
+optionnel = true
+taches = ["item another_furniture:furniture_hammer", "item another_furniture:oak_shelf", "item another_furniture:oak_shutter"]
+recompenses = ["xp 3"]
+description = """
+&6Another Furniture&r ajoute ce qui manque aux autres : volets, jardinières de fenêtre, rideaux, sofas, tabourets, tiroirs, étagères, dans chaque bois et chaque couleur, avec son propre &lmarteau&r qui agit sur les blocs posés.
+"""
+
+[[quete]]
+cle = "pfm"
+titre = "Paladin's Furniture : la cuisine"
+deps = ["intro"]
+optionnel = true
+taches = ["item pfm:working_table"]
+recompenses = ["xp 3"]
+description = """
+&6Paladin's Furniture&r se fabrique sur son propre &létabli à meubles&r : cuisinières, plaques de cuisson, éviers, réfrigérateurs, micro-ondes, douches, toilettes, fauteuils, lampes. Les recettes ne sont que là, pas sur la table d'artisanat.
+"""
+
+[[quete]]
+cle = "decorative"
+titre = "Decorative Blocks : poutres et palissades"
+deps = ["intro"]
+optionnel = true
+taches = ["item decorative_blocks:oak_beam 4", "item decorative_blocks:oak_palisade 4", "item decorative_blocks:chain 4"]
+recompenses = ["xp 3"]
+description = """
+&6Decorative Blocks&r : poutres, palissades, soutiens et sièges dans chaque bois, grandes chaînes, brasiers, chandeliers, treillis, piliers de pierre, terre rocailleuse. Le mod des charpentes apparentes et des remparts.
+"""
+
+[[quete]]
+cle = "supp_atelier"
+titre = "Supplementaries : l'atelier"
+deps = ["intro"]
+optionnel = true
+taches = ["item supplementaries:blackboard", "item supplementaries:notice_board", "item supplementaries:item_shelf"]
+recompenses = ["xp 3"]
+description = """
+&6Supplementaries&r est le plus gros des mods de décoration utile. Pour commencer : un &ltableau noir&r où dessiner, un &ltableau d'affichage&r qui expose un livre ou une carte, des &létagères&r qui montrent un objet. Trois quêtes lui sont consacrées.
+"""
+
+[[quete]]
+cle = "supp_rangement"
+titre = "Supplementaries : sacs, pots, cages"
+deps = ["supp_atelier"]
+optionnel = true
+taches = ["item supplementaries:sack", "item supplementaries:jar", "item supplementaries:cage"]
+recompenses = ["xp 3"]
+description = """
+Un &lsac&r se porte et se pose, un &lpot&r expose ce qu'on y met, une &lcage&r enferme un animal. Le mod a aussi un coffre-fort à clé, un bloc de serrure et des portes en or ou en nétherite.
+"""
+
+[[quete]]
+cle = "supp_mecanique"
+titre = "Supplementaries : la mécanique"
+deps = ["supp_atelier"]
+optionnel = true
+taches = ["item supplementaries:bellows", "item supplementaries:crank", "item supplementaries:turn_table"]
+recompenses = ["xp 3"]
+description = """
+Le &lsoufflet&r, la &lmanivelle&r, la &ltable tournante&r, le lanceur à ressorts, le bloc d'horloge, le relayeur, l'illuminateur à redstone, la girouette, le sablier : la redstone de Supplementaries, à retrouver dans JEI.
+"""
+
+[[quete]]
+cle = "amendments"
+titre = "Amendments : lanternes murales"
+deps = ["supp_atelier"]
+optionnel = true
+taches = ["observation block amendments:wall_lantern"]
+recompenses = ["xp 2"]
+description = """
+&6Amendments&r retouche le jeu de base : une lanterne se pose &lau mur&r, un tapis sur un escalier ou une dalle, un pot de fleurs se suspend, le chaudron prend des teintures. Rien à fabriquer : pose une lanterne contre un mur et regarde-la.
+"""
+
+[[quete]]
+cle = "quark_bois"
+titre = "Quark : les blocs de bois"
+deps = ["intro"]
+optionnel = true
+taches = ["item quark:oak_vertical_slab 4", "item quark:oak_post 4", "item quark:hollow_oak_log"]
+recompenses = ["xp 3"]
+description = """
+Les modules de construction de &6Quark&r sont tous activés sur le serveur : dalles &lverticales&r, poteaux, bûches creuses, échelles, bibliothèques, coffres et fours de chaque bois, haies, chaume, cordage. Les dalles verticales se fabriquent aussi au tailleur de pierre.
+"""
+
+[[quete]]
+cle = "quark_pierre"
+titre = "Quark : les blocs de pierre"
+deps = ["quark_bois"]
+optionnel = true
+taches = ["item quark:framed_glass 4", "item quark:shingles 4", "item quark:trowel"]
+recompenses = ["xp 3"]
+description = """
+&lVerrière&r, &ltuiles&r de toit, purpur sombre, midori, grès des âmes, grilles et barreaux d'or, blindages de métal, blocs compressés, calcaire, jaspe, shale, myalite et permafrost dans le monde. La &ltruelle&r est l'outil de pose du mod.
+"""
+
+[[quete]]
+cle = "twigs"
+titre = "Twigs : lanternes de papier"
+deps = ["intro"]
+optionnel = true
+taches = ["item twigs:paper_lantern", "item twigs:oak_table", "item twigs:smooth_basalt_bricks 4"]
+recompenses = ["xp 3"]
+description = """
+&6Twigs&r : lanternes de papier, lampes, tables, colonnes, briques de basalte, de gravier et de pierre lisse, chaume de bambou, et trois roches nouvelles dans le monde (rhyolite, schiste, pierre de sang). Brindilles et galets n'ont pas de recette : ils se trouvent dans le monde.
+"""
+
+[[quete]]
+cle = "stoneworks"
+titre = "Stoneworks : chaque pierre, chaque forme"
+deps = ["intro"]
+optionnel = true
+taches = ["item stoneworks:andesite_bricks 8", "item stoneworks:andesite_pavers 8"]
+recompenses = ["xp 3"]
+description = """
+&6Stoneworks&r décline chaque pierre du jeu en briques, pavés, piliers, plaques et tuiles, avec dalles, escaliers et murets. Près de 600 blocs.
+"""
+
+[[quete]]
+cle = "hearth"
+titre = "Hearth & Home : parquet et cheminées"
+deps = ["intro"]
+optionnel = true
+taches = ["item hearth_and_home:oak_parquet 8", "item hearth_and_home:polished_blackstone_chimney"]
+recompenses = ["xp 3"]
+description = """
+&6Hearth & Home&r : parquet, lattis et bois poncé dans chaque essence, tuiles et bardeaux de toit colorés, verre à barreaux, lanternes de papier, chaume, cheminées. Le mod des intérieurs.
+"""
+
+[[quete]]
+cle = "sawmill"
+titre = "La scie"
+deps = ["intro"]
+optionnel = true
+taches = ["item sawmill:sawmill"]
+recompenses = ["xp 3"]
+description = """
+&6Universal Sawmill&r ajoute une &lscie&r : un tailleur de pierre pour le bois : bûches et planches y deviennent les blocs de bois du pack. Elle donne aussi un métier de villageois, le charpentier.
+"""
+
+[[quete]]
+cle = "elevator"
+titre = "Un ascenseur"
+deps = ["intro"]
+optionnel = true
+taches = ["item elevatorid:elevator_white 2"]
+recompenses = ["xp 3"]
+description = """
+&6Elevator Mod&r : deux blocs &lascenseur&r l'un au-dessus de l'autre, et on se téléporte de l'un à l'autre. Clic droit pour les options : direction d'arrivée, flèche cachée, camouflage dans n'importe quel bloc.
+"""
+
+[[quete]]
+cle = "galerie"
+titre = "Tableaux et cadres"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:painting", "item quark:glass_item_frame"]
+recompenses = ["xp 2"]
+description = """
+&6Gallery&r ajoute vingt tableaux signés et un sélecteur pour choisir celui qu'on accroche, au lieu du hasard. &6Fast Paintings&r allège leur affichage. Le &lcadre en verre&r de Quark montre l'objet sans le cadre.
+"""
+
+[[quete]]
+cle = "lanternes"
+titre = "Lanternes et bougeoirs"
+deps = ["supp_atelier"]
+optionnel = true
+taches = ["item supplementaries:candle_holder", "item suppsquared:gold_candle_holder"]
+recompenses = ["xp 2"]
+description = """
+Les &lbougeoirs&r de Supplementaries et ceux en or de Supplementaries Squared, les lampes de pierre, les lanternes de cuivre et de laiton. &6Immersive Lanterns&r, lui, ne fabrique rien : il affiche la lanterne qu'on tient à la main, qui se balance en marchant.
+"""
+
+[[quete]]
+cle = "diagonales"
+titre = "Barrières en diagonale, demi-dalles"
+deps = ["intro"]
+optionnel = true
+taches = ["checkmark Compris"]
+recompenses = ["xp 2"]
+description = """
+Trois mods discrets : &6Diagonal Fences&r et &6Diagonal Walls&r relient barrières et murets en diagonale ; &6KleeSlabs&r ne retire qu'une moitié quand on casse une double dalle, verticales de Quark comprises. Rien à fabriquer.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&6Une base qui a de l'allure"
+deps = ["chipped", "supp_atelier", "quark_bois"]
+exigence = "une"
+taille = 1.3
+icone = "decorative_blocks:chandelier"
+taches = ["checkmark Ma base est décorée"]
+recompenses = ["xp 5"]
+description = """
+Un seul des mods suffit pour fermer le chapitre ; les autres attendent dans JEI. Le chapitre &7Blocs&r de l'Encyclopédie listera chaque bloc du pack.
+"""
