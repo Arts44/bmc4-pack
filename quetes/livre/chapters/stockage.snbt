@@ -1,0 +1,408 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stockage"
+	group: "14858825A29975B1"
+	icon: "refinedstorage:grid"
+	id: "35E51457BA00B9A0"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Trois mods de stockage, trois philosophies. &6Storage Drawers&r : des tiroirs qui montrent ce qu'ils contiennent, parfaits pour les ressources en masse. &aSimple Storage Network&r : un maître, des câbles, une table de requête, et tous les coffres existants deviennent un seul inventaire. &bRefined Storage&r : des disques, une grille, de la fabrication automatique, et de l'énergie."
+				""
+				"&lN'en choisis qu'un par base&r : ils ne se parlent pas bien entre eux, et une base qui mélange les trois ne retrouve plus rien."
+			]
+			icon: "minecraft:chest"
+			id: "0DC26A01D5547512"
+			rewards: [{
+				count: 4
+				id: "14628F1700AF81C5"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Choisis-en une par base."
+			tasks: [{
+				id: "0847C3DA0DE2EE7A"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Trois façons de ranger"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DC26A01D5547512"]
+			description: ["Un &6tiroir&r à une case stocke un seul type d'objet, en grande quantité, et l'affiche sur sa face. Clic droit pour déposer, clic gauche pour prendre. Il existe en 1, 2 ou 4 cases, et dans chaque bois."]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "17FD9B5F111987DE"
+			rewards: [{
+				id: "4C0A0801B08B3516"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "63CCEC59E7D553BD"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "Un premier tiroir"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17FD9B5F111987DE"]
+			description: ["Le &6tiroir de compactage&r range un même matériau sous ses trois formes à la fois — pépite, lingot, bloc — et convertit tout seul. Du fer entre, du fer sort dans la forme demandée."]
+			icon: "storagedrawers:compacting_drawers_3"
+			id: "6054CFC02D62E12A"
+			rewards: [{
+				id: "246C15CFD8FD6047"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4335409AD5EB7BA4"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			title: "Un tiroir de compactage"
+			x: 4.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["17FD9B5F111987DE"]
+			description: ["Le &6contrôleur&r voit tous les tiroirs qui lui sont reliés par contact. Clic droit dessus avec un objet, et il va dans le bon tiroir ; clic avec les mains vides, et il range tout l'inventaire d'un coup. C'est aussi par lui qu'un tuyau ou un réseau accède à la banque de tiroirs."]
+			icon: "storagedrawers:controller"
+			id: "759E41067194CD2B"
+			rewards: [{
+				id: "507F6FA0E7B78A77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0B00835D0AEA10AF"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			title: "Un contrôleur de tiroirs"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["17FD9B5F111987DE"]
+			description: ["Les &7améliorations de stockage&r (fer, or, obsidienne, diamant, émeraude, nétherite) multiplient la capacité ; la &7clé de tiroir&r verrouille le contenu sur son type, même vide. Il y a aussi le vide (ce qui déborde disparaît) et la lumière."]
+			icon: "storagedrawers:iron_storage_upgrade"
+			id: "1D0E73A7C35E2E69"
+			rewards: [{
+				id: "48EAEB90FA84869D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "21543B8E5D35278F"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "597158597C43B936"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+			]
+			title: "Améliorer un tiroir"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0DC26A01D5547512"]
+			description: ["Le &amaître&r est le cœur d'un réseau Simple Storage Network. Un seul par réseau, sans énergie. Tout ce qui lui est relié par câble fait partie du même inventaire."]
+			icon: "storagenetwork:master"
+			id: "220C05B365FFA855"
+			rewards: [{
+				id: "1BE39DAC60DE0C75"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6B95CDD1AB3062D4"
+				item: "storagenetwork:master"
+				type: "item"
+			}]
+			title: "Un maître de réseau"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["220C05B365FFA855"]
+			description: ["Le &7câble&r relie ; le &acâble de stockage&r, posé contre un coffre, un tonneau ou un contrôleur de tiroirs, met son contenu dans le réseau. Les coffres que tu as déjà deviennent le stockage."]
+			icon: "storagenetwork:storage_kabel"
+			id: "43CB60FE2C8860CD"
+			rewards: [{
+				id: "3018676414D7383B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "55FDA4EF9692EB8A"
+					item: "storagenetwork:storage_kabel"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0DCFFE0AA0CB7D54"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+			]
+			title: "Des câbles de stockage"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["43CB60FE2C8860CD"]
+			description: ["La &atable de requête&r montre tout ce que le réseau contient, avec une recherche, et fabrique à partir de ce stock. Un seul bloc pour tous les coffres de la base."]
+			icon: "storagenetwork:request"
+			id: "6B3F6338CDD4015E"
+			rewards: [{
+				id: "0C1F43F60D1072D9"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "0BA69431452739E1"
+				item: "storagenetwork:request"
+				type: "item"
+			}]
+			title: "Une table de requête"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43CB60FE2C8860CD"]
+			description: ["Le &7câble d'import&r aspire ce qui arrive dans un coffre vers le réseau — la sortie d'une ferme, par exemple ; le &7câble d'export&r pousse un objet choisi vers une machine. Les filtres se règlent dans le câble."]
+			icon: "storagenetwork:import_kabel"
+			id: "2B7A85C26A972B5E"
+			rewards: [{
+				id: "466FA682474A3AD9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "51DC366A4734DE19"
+					item: "storagenetwork:import_kabel"
+					type: "item"
+				}
+				{
+					id: "3E81C1F2F746F902"
+					item: "storagenetwork:export_kabel"
+					type: "item"
+				}
+			]
+			title: "Câbles d'import et d'export"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DC26A01D5547512"]
+			description: ["Le &bcontrôleur&r alimente le réseau Refined Storage en énergie — il lui en faut, voir le chapitre Powah — et compte ce que chaque bloc consomme. Un seul par réseau."]
+			icon: "refinedstorage:controller"
+			id: "409451D8AC394F87"
+			rewards: [{
+				id: "5E6A262CABF51BB2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "631DF874DD5F6019"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Un contrôleur Refined Storage"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["409451D8AC394F87"]
+			description: ["Le &blecteur de disques&r reçoit jusqu'à huit &bdisques&r, et les disques stockent : 1k, 4k, 16k, 64k objets. Tout le stockage d'une base dans un bloc."]
+			icon: "refinedstorage:disk_drive"
+			id: "6F1ED0766DB16596"
+			rewards: [{
+				id: "673903841D9D407C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "40B132474219D862"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "123C450DBC178330"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+			]
+			title: "Lecteur et disques"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6F1ED0766DB16596"]
+			description: ["La &bgrille&r est l'écran du réseau : tout ce qui est stocké, avec recherche et tri. La &bgrille de fabrication&r y ajoute une table d'artisanat branchée sur le stock."]
+			icon: "refinedstorage:grid"
+			id: "6AE2953716FBBFA5"
+			rewards: [{
+				id: "745E01A2ED8F86A5"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "62B109E974EE8ADE"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "Une grille"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AE2953716FBBFA5"]
+			description: ["La &bgrille de patrons&r enregistre une recette sur un &bpatron&r. Mis dans un fabricateur, le patron permet au réseau de fabriquer l'objet à la demande, en allant chercher les ingrédients tout seul."]
+			icon: "refinedstorage:crafting_grid"
+			id: "1AAB7882E350F11C"
+			rewards: [{
+				id: "1B09098965B15F57"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "21F9E9111137AB88"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+				{
+					id: "0D8B363710AD511D"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "47C53FCE8D8BCD9A"
+					item: "refinedstorage:pattern"
+					type: "item"
+				}
+			]
+			title: "Grille de fabrication et de patrons"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1AAB7882E350F11C"]
+			description: ["Le &bfabricateur&r exécute les patrons : demande 64 pistons à la grille, et il fabrique la chaîne entière à partir du stock. Posé contre une machine, il lui envoie les ingrédients d'un patron de traitement."]
+			icon: "refinedstorage:crafter"
+			id: "5C39CC5E8A354E85"
+			rewards: [{
+				id: "5130F228B23E130E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "4DFF025C7E1080FD"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			title: "Un fabricateur"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["409451D8AC394F87"]
+			description: ["L'&bimporteur&r tire ce qui arrive dans un bloc vers le réseau, l'&bexportateur&r pousse un objet filtré vers un bloc. Les deux côtés de toute automatisation."]
+			icon: "refinedstorage:importer"
+			id: "1886A360AA06D4C2"
+			rewards: [{
+				id: "1AC480F0C773E916"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "67C53793DA7C435E"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "7141AF090FCDAB1B"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+			]
+			title: "Importeur et exportateur"
+			x: 4.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6AE2953716FBBFA5"]
+			description: ["L'&bémetteur sans fil&r donne une portée au réseau, et la &bgrille sans fil&r l'ouvre depuis la main, n'importe où dans cette portée. La base entière dans la poche."]
+			icon: "refinedstorage:wireless_grid"
+			id: "2CABE318DD02D390"
+			rewards: [{
+				id: "50443EBC9D4ACB47"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "71371E57CBE07584"
+					item: "refinedstorage:wireless_grid"
+					type: "item"
+				}
+				{
+					id: "218B71E1FC5911F8"
+					item: "refinedstorage:wireless_transmitter"
+					type: "item"
+				}
+			]
+			title: "Une grille sans fil"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"759E41067194CD2B"
+				"6B3F6338CDD4015E"
+				"5C39CC5E8A354E85"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre &bPipez&r relie tout ça aux machines."]
+			icon: "storagedrawers:controller"
+			id: "03EE80A53F1E130A"
+			rewards: [{
+				id: "2E745CD8FBDB53DC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "089992C2D6DF4F41"
+				title: "Ma base est rangée"
+				type: "checkmark"
+			}]
+			title: "&6Tout est rangé"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "&6Stockage"
+}

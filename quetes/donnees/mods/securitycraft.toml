@@ -1,0 +1,149 @@
+# Chapitre « SecurityCraft » — cahier des charges §5.11
+# Identifiants vérifiés dans SecurityCraft v1.10.2.1 ; les descriptions
+# reprennent le manuel du mod (help.securitycraft.*.info de en_us.json).
+
+[chapitre]
+titre = "&cSecurityCraft"
+fichier = "securitycraft"
+groupe = "mods"
+icone = "securitycraft:keypad"
+ordre = 9
+
+[[quete]]
+cle = "intro"
+titre = "&cProtéger ce qui est hors claim"
+sous_titre = "Guide dans #security-craft sur le Discord."
+taille = 1.5
+icone = "securitycraft:keypad_door"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:iron_ingot 8", "item minecraft:redstone 8"]
+description = """
+Un claim protège l'intérieur de la base. &cSecurityCraft&r protège ce qui est &lhors claim&r : le donjon du trophée, un avant-poste, un coffre caché. Portes à code, lasers, caméras, mines, pièges — et des blocs renforcés que personne d'autre que leur propriétaire ne casse.
+
+C'est le chapitre qui compte le plus pour un raid, dans les deux sens.
+"""
+
+[[quete]]
+cle = "clavier"
+titre = "Un clavier à code"
+deps = ["intro"]
+taches = ["item securitycraft:keypad"]
+recompenses = ["xp 5"]
+description = """
+Le &cclavier&r émet un signal redstone quand on tape le bon code : clic droit après la pose pour fixer un code numérique, clic droit ensuite pour le taper. Posé contre une porte de fer, c'est une porte à code.
+"""
+
+[[quete]]
+cle = "porte"
+titre = "Une porte à clavier"
+deps = ["clavier"]
+taches = ["item securitycraft:keypad_door"]
+recompenses = ["xp 5"]
+description = """
+La &cporte à clavier&r réunit un clavier et une porte de fer renforcée : il faut le code pour l'ouvrir. Ou un casseur de code, avec de la chance.
+"""
+
+[[quete]]
+cle = "renforce"
+titre = "Des blocs renforcés"
+deps = ["intro"]
+taille = 1.3
+taches = ["item securitycraft:universal_block_reinforcer_lvl1", "item securitycraft:reinforced_stone 16"]
+recompenses = ["xp 8"]
+description = """
+Le &lrenforceur universel&r convertit les blocs vanilla en blocs renforcés : clic droit, le bloc dans la case du haut, ou bien casser un bloc en le tenant. Un &cbloc renforcé&r appartient à qui l'a posé. Un donjon de trophée en pierre renforcée n'a qu'une entrée : celle que tu as laissée, puisque le règlement exige un chemin atteignable sans rien casser.
+"""
+
+[[quete]]
+cle = "laser"
+titre = "Des blocs laser"
+deps = ["intro"]
+taches = ["item securitycraft:laser_block 2"]
+recompenses = ["xp 5"]
+description = """
+Deux &cblocs laser&r à cinq blocs au plus l'un de l'autre tendent un rayon. Quand un joueur qui n'est ni le propriétaire ni sur sa liste le traverse, les modules installés dans les blocs décident de la suite : alarme, dégâts, signal redstone.
+"""
+
+[[quete]]
+cle = "camera"
+titre = "Caméra et moniteur"
+deps = ["intro"]
+taches = ["item securitycraft:security_camera", "item securitycraft:portable_radar"]
+recompenses = ["xp 5"]
+description = """
+La &ccaméra&r se regarde à distance : clic droit dessus avec un moniteur de caméras pour la lier. Le &cradar portable&r envoie un message au propriétaire dès qu'un joueur entre dans son rayon, 25 blocs par défaut. Savoir qu'on vient, avant qu'on arrive.
+"""
+
+[[quete]]
+cle = "scanner"
+titre = "Scanner d'inventaire et scanner rétinien"
+deps = ["clavier"]
+taches = ["item securitycraft:inventory_scanner", "item securitycraft:retinal_scanner"]
+recompenses = ["xp 5"]
+description = """
+Deux &cscanners d'inventaire&r face à face, à deux blocs au plus, tendent un champ : on y inscrit les objets interdits, et les modules décident de ce qui arrive à qui les porte. Le &cscanner rétinien&r émet un signal quand son propriétaire le regarde.
+"""
+
+[[quete]]
+cle = "mines"
+titre = "Des mines"
+deps = ["intro"]
+taches = ["item securitycraft:mine 4"]
+recompenses = ["xp 5"]
+description = """
+Une &cmine&r explose sous &ln'importe quelle entité&r qui marche dessus, toi compris : retiens où tu les as posées. Une pince coupante la désamorce, un briquet la réarme. Posée hors claim, c'est le piège le plus simple d'un donjon de trophée.
+"""
+
+[[quete]]
+cle = "sentinelle"
+titre = "Une sentinelle"
+deps = ["camera"]
+taches = ["item securitycraft:sentry"]
+recompenses = ["xp 5"]
+description = """
+La &csentinelle&r tire sur les intrus, avec des munitions illimitées, ou avec les projectiles d'un coffre à code posé dessous. Trois modes au clic droit — inactive, camouflée, agressive — et trois types de cibles. Un gardien qui ne dort pas.
+"""
+
+[[quete]]
+cle = "detecteur"
+titre = "Un détecteur de changement de bloc"
+deps = ["intro"]
+taches = ["item securitycraft:block_change_detector"]
+recompenses = ["xp 3"]
+description = """
+Le &cdétecteur&r enregistre les blocs posés ou cassés à cinq blocs autour de lui, par défaut. Clic droit : la liste des changements. Après un raid, c'est lui qui dit ce qui a été touché.
+"""
+
+[[quete]]
+cle = "piege"
+titre = "Un piège à cage"
+deps = ["intro"]
+optionnel = true
+taches = ["item securitycraft:cage_trap"]
+recompenses = ["xp 5"]
+description = """
+Le &cpiège à cage&r fait apparaître une cage autour de tout joueur qui le touche, sauf son propriétaire.
+"""
+
+[[quete]]
+cle = "casseur"
+titre = "Un casseur de code"
+deps = ["porte"]
+optionnel = true
+taches = ["item securitycraft:codebreaker"]
+recompenses = ["xp 5"]
+description = """
+Le &ccasseur de code&r tente d'ouvrir un clavier, un lecteur de carte ou un coffre à code qui n'est pas à toi. Cinq utilisations, &lune chance sur trois&r à chaque fois. C'est l'outil de l'attaquant.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&cLe donjon est prêt"
+deps = ["renforce", "porte", "mines"]
+taille = 1.5
+icone = "securitycraft:sentry"
+taches = ["checkmark Mon trophée est gardé"]
+recompenses = ["xp 10"]
+description = """
+Une porte à code, des blocs renforcés, des pièges, et un chemin qui reste atteignable sans rien casser. Le trophée attend son premier raid.
+"""

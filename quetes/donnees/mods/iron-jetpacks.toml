@@ -1,0 +1,90 @@
+# Chapitre « Iron Jetpacks » — cahier des charges §5.12
+# Identifiants vérifiés dans IronJetpacks-1.20.1-7.0.9 : le jetpack est
+# un seul objet, dont le palier est porté par ses données (NBT). Les
+# quêtes demandent donc les composants, et le jetpack sans distinction
+# de palier.
+
+[chapitre]
+titre = "&bIron Jetpacks"
+fichier = "iron_jetpacks"
+groupe = "mods"
+icone = "ironjetpacks:jetpack"
+ordre = 10
+
+[[quete]]
+cle = "intro"
+titre = "&bVoler, à l'énergie"
+sous_titre = "Guide dans #iron-jetpacks sur le Discord."
+taille = 1.5
+icone = "ironjetpacks:thruster"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:iron_ingot 8"]
+description = """
+&bIron Jetpacks&r : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Chaque palier — fer, or, diamant, émeraude, nétherite — a plus d'autonomie et de vitesse, et se fabrique avec les composants du palier.
+
+Il lui faut de l'énergie : le chapitre &ePowah&r en fournit.
+"""
+
+[[quete]]
+cle = "cellule"
+titre = "Une cellule"
+deps = ["intro"]
+taches = ["item ironjetpacks:cell"]
+recompenses = ["xp 3"]
+description = """
+La &bcellule&r stocke l'énergie du jetpack. Elle entre dans chaque palier.
+"""
+
+[[quete]]
+cle = "propulseur"
+titre = "Un propulseur et une sangle"
+deps = ["intro"]
+taches = ["item ironjetpacks:thruster", "item ironjetpacks:strap"]
+recompenses = ["xp 3"]
+description = """
+Le &bpropulseur&r pousse, la &bsangle&r tient. Avec la cellule et le condensateur, c'est tout ce qu'un jetpack demande, dans le matériau du palier.
+"""
+
+[[quete]]
+cle = "condensateur"
+titre = "Un condensateur"
+deps = ["intro"]
+taches = ["item ironjetpacks:capacitor"]
+recompenses = ["xp 3"]
+description = """
+Le &bcondensateur&r accumule l'énergie entre deux coups de propulseur.
+"""
+
+[[quete]]
+cle = "bobine"
+titre = "Des bobines"
+deps = ["cellule"]
+taches = ["item ironjetpacks:basic_coil"]
+recompenses = ["xp 3"]
+description = """
+Les &bbobines&r — basique, avancée, élite, ultime — font les paliers supérieurs. La première se contente de fer et de redstone.
+"""
+
+[[quete]]
+cle = "jetpack"
+titre = "Fabriquer un jetpack"
+deps = ["propulseur", "condensateur", "bobine"]
+boss = true
+forme = "diamond"
+taches = ["item ironjetpacks:jetpack"]
+recompenses = ["xp 10"]
+description = """
+Cellule, condensateur, propulseur, sangle et bobine, dans le matériau du palier : un &bjetpack&r. Charge-le dans une cellule d'énergie, enfile-le, et saute. Le mode planeur et le vol stationnaire se règlent à la touche du mod.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&bLes pieds ne touchent plus terre"
+deps = ["jetpack"]
+taille = 1.3
+icone = "ironjetpacks:ultimate_coil"
+taches = ["checkmark J'ai volé"]
+recompenses = ["xp 5"]
+description = """
+Un jetpack chargé vaut des élytres sans piste de décollage. Les paliers suivants s'obtiennent en refaisant la recette avec le matériau au-dessus.
+"""

@@ -1,0 +1,110 @@
+# Chapitre « CC: Tweaked » — cahier des charges §5.10
+# Identifiants vérifiés dans cc-tweaked-1.20.1-forge-1.120.2. La tortue
+# minière est une tortue ordinaire équipée d'une pioche (NBT) : pas
+# d'identifiant propre, donc pas de tâche d'objet pour elle.
+
+[chapitre]
+titre = "&dCC: Tweaked"
+fichier = "cc_tweaked"
+groupe = "mods"
+icone = "computercraft:computer_normal"
+ordre = 8
+
+[[quete]]
+cle = "intro"
+titre = "&dÉcrire ses propres règles"
+sous_titre = "Guide dans #cc-tweaked sur le Discord."
+taille = 1.5
+icone = "computercraft:computer_advanced"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:redstone 16", "item minecraft:glass_pane 8"]
+description = """
+&dCC: Tweaked&r met des ordinateurs dans le jeu, programmables en &bLua&r. Une alarme quand quelqu'un passe la porte, une porte à code, un écran qui affiche les stocks, une tortue qui creuse pendant que tu fais autre chose : rien d'autre dans le pack ne permet d'écrire ses propres règles.
+
+Redstone et vitres offertes : c'est le prix d'un premier ordinateur.
+"""
+
+[[quete]]
+cle = "ordinateur"
+titre = "Un ordinateur"
+deps = ["intro"]
+taches = ["item computercraft:computer_normal"]
+recompenses = ["xp 5"]
+description = """
+L'&dordinateur&r s'ouvre d'un clic droit sur un terminal. Tape &bedit bonjour&r, écris &bprint("Bonjour BMC4")&r, sauvegarde, puis &bbonjour&r. Tu viens de programmer. Les faces de l'ordinateur lisent et émettent de la redstone.
+"""
+
+[[quete]]
+cle = "avance"
+titre = "Un ordinateur avancé"
+deps = ["ordinateur"]
+taches = ["item computercraft:computer_advanced"]
+recompenses = ["xp 5"]
+description = """
+L'&6ordinateur avancé&r a la couleur, la souris et plus de mémoire. Pour un écran de contrôle de base, c'est lui.
+"""
+
+[[quete]]
+cle = "moniteur"
+titre = "Un moniteur"
+deps = ["ordinateur"]
+taches = ["item computercraft:monitor_normal 4"]
+recompenses = ["xp 3"]
+description = """
+Les &dmoniteurs&r s'assemblent en mur d'écrans collés les uns aux autres. Un ordinateur à côté écrit dessus : l'heure, un compteur, l'état d'une porte, le stock d'un coffre.
+"""
+
+[[quete]]
+cle = "modem"
+titre = "Des modems"
+deps = ["ordinateur"]
+taches = ["item computercraft:wireless_modem_normal", "item computercraft:wired_modem"]
+recompenses = ["xp 3"]
+description = """
+Le &dmodem sans fil&r fait parler deux ordinateurs à distance ; le &dmodem filaire&r et son câble relient des périphériques — moniteurs, coffres, lecteurs — à un ordinateur qui n'est pas collé contre eux.
+"""
+
+[[quete]]
+cle = "tortue"
+titre = "Une tortue"
+deps = ["ordinateur"]
+taille = 1.3
+taches = ["item computercraft:turtle_normal"]
+recompenses = ["xp 8"]
+description = """
+La &dtortue&r est un ordinateur qui bouge, avec un inventaire. Elle avance, tourne, pose et prend des blocs, et exécute ton programme. Il lui faut du combustible.
+"""
+
+[[quete]]
+cle = "miniere"
+titre = "Une tortue minière"
+deps = ["tortue"]
+taches = ["checkmark Ma tortue a creusé"]
+recompenses = ["xp 8"]
+description = """
+Une tortue avec une &lpioche&r en diamant sur le côté creuse. Le programme &bexcavate 8&r, livré avec le mod, lui fait vider un carré de 8 sur 8 jusqu'au fond et revenir. La mine se fait sans toi.
+"""
+
+[[quete]]
+cle = "haut_parleur"
+titre = "Haut-parleur et imprimante"
+deps = ["ordinateur"]
+optionnel = true
+taches = ["item computercraft:speaker", "item computercraft:printer"]
+recompenses = ["xp 3"]
+description = """
+Le &dhaut-parleur&r joue des sons et des notes depuis un programme — une alarme, une mélodie. L'&dimprimante&r sort des pages écrites, qui se relient en livre.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&dUn programme qui tourne"
+deps = ["moniteur", "modem", "tortue"]
+exigence = "une"
+taille = 1.5
+icone = "computercraft:turtle_advanced"
+taches = ["checkmark Mon programme sert à quelque chose"]
+recompenses = ["xp 10"]
+description = """
+Une porte à code, une alarme, un écran de stock, une tortue au travail : à toi de dire laquelle. Le salon &9#cc-tweaked&r reçoit les programmes à partager.
+"""

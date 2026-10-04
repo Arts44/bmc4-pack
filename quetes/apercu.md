@@ -533,6 +533,28 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Une faction qui tient** — tâches : checkmark Lu — récompense : xp 5 — après : mediumcore, gagner
   > Un trophée déclaré, un donjon, un raid vécu. Le dernier chapitre de l'arc, Diplomatie et commerce, est celui où l'on gagne sans se battre.
 
+## CC: Tweaked  (`cc_tweaked`, 9 quêtes)
+
+- **Écrire ses propres règles** — tâches : checkmark Lu — récompense : item minecraft:redstone 16, item minecraft:glass_pane 8
+  > CC: Tweaked met des ordinateurs dans le jeu, programmables en Lua. Une alarme quand quelqu'un passe la porte, une porte à code, un écran qui affiche les stocks, une tortue qui creuse pendant que tu fais autre chose : rien d'autre dans le pack ne permet d'écrire ses propres règles.
+  >   > Redstone et vitres offertes : c'est le prix d'un premier ordinateur.
+- **Un ordinateur** — tâches : item computercraft:computer_normal — récompense : xp 5 — après : intro
+  > L'ordinateur s'ouvre d'un clic droit sur un terminal. Tape edit bonjour, écris print("Bonjour BMC4"), sauvegarde, puis bonjour. Tu viens de programmer. Les faces de l'ordinateur lisent et émettent de la redstone.
+- **Un ordinateur avancé** — tâches : item computercraft:computer_advanced — récompense : xp 5 — après : ordinateur
+  > L'ordinateur avancé a la couleur, la souris et plus de mémoire. Pour un écran de contrôle de base, c'est lui.
+- **Un moniteur** — tâches : item computercraft:monitor_normal 4 — récompense : xp 3 — après : ordinateur
+  > Les moniteurs s'assemblent en mur d'écrans collés les uns aux autres. Un ordinateur à côté écrit dessus : l'heure, un compteur, l'état d'une porte, le stock d'un coffre.
+- **Des modems** — tâches : item computercraft:wireless_modem_normal, item computercraft:wired_modem — récompense : xp 3 — après : ordinateur
+  > Le modem sans fil fait parler deux ordinateurs à distance ; le modem filaire et son câble relient des périphériques — moniteurs, coffres, lecteurs — à un ordinateur qui n'est pas collé contre eux.
+- **Une tortue** — tâches : item computercraft:turtle_normal — récompense : xp 8 — après : ordinateur
+  > La tortue est un ordinateur qui bouge, avec un inventaire. Elle avance, tourne, pose et prend des blocs, et exécute ton programme. Il lui faut du combustible.
+- **Une tortue minière** — tâches : checkmark Ma tortue a creusé — récompense : xp 8 — après : tortue
+  > Une tortue avec une pioche en diamant sur le côté creuse. Le programme excavate 8, livré avec le mod, lui fait vider un carré de 8 sur 8 jusqu'au fond et revenir. La mine se fait sans toi.
+- **Haut-parleur et imprimante** *(optionnelle)* — tâches : item computercraft:speaker, item computercraft:printer — récompense : xp 3 — après : ordinateur
+  > Le haut-parleur joue des sons et des notes depuis un programme — une alarme, une mélodie. L'imprimante sort des pages écrites, qui se relient en livre.
+- **Un programme qui tourne** — tâches : checkmark Mon programme sert à quelque chose — récompense : xp 10 — après : moniteur, modem, tortue
+  > Une porte à code, une alarme, un écran de stock, une tortue au travail : à toi de dire laquelle. Le salon #cc-tweaked reçoit les programmes à partager.
+
 ## Create — les bases  (`create_bases`, 24 quêtes)
 
 - **Create : la force de rotation** — tâches : checkmark Lu — récompense : item minecraft:andesite 32, item minecraft:iron_nugget 32
@@ -691,6 +713,24 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **La poste et le chemin de fer** — tâches : checkmark Colis livrés, train parti — récompense : xp 10 — après : guichet, train
   > Un guichet qui commande, des colis qui arrivent, un train qui relie. C'est tout Create 6. Le reste du mod se découvre dans l'Encyclopédie, chapitre Atelier Create.
 
+## Iron Jetpacks  (`iron_jetpacks`, 7 quêtes)
+
+- **Voler, à l'énergie** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8
+  > Iron Jetpacks : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Chaque palier — fer, or, diamant, émeraude, nétherite — a plus d'autonomie et de vitesse, et se fabrique avec les composants du palier.
+  >   > Il lui faut de l'énergie : le chapitre Powah en fournit.
+- **Une cellule** — tâches : item ironjetpacks:cell — récompense : xp 3 — après : intro
+  > La cellule stocke l'énergie du jetpack. Elle entre dans chaque palier.
+- **Un propulseur et une sangle** — tâches : item ironjetpacks:thruster, item ironjetpacks:strap — récompense : xp 3 — après : intro
+  > Le propulseur pousse, la sangle tient. Avec la cellule et le condensateur, c'est tout ce qu'un jetpack demande, dans le matériau du palier.
+- **Un condensateur** — tâches : item ironjetpacks:capacitor — récompense : xp 3 — après : intro
+  > Le condensateur accumule l'énergie entre deux coups de propulseur.
+- **Des bobines** — tâches : item ironjetpacks:basic_coil — récompense : xp 3 — après : cellule
+  > Les bobines — basique, avancée, élite, ultime — font les paliers supérieurs. La première se contente de fer et de redstone.
+- **Fabriquer un jetpack** — tâches : item ironjetpacks:jetpack — récompense : xp 10 — après : propulseur, condensateur, bobine
+  > Cellule, condensateur, propulseur, sangle et bobine, dans le matériau du palier : un jetpack. Charge-le dans une cellule d'énergie, enfile-le, et saute. Le mode planeur et le vol stationnaire se règlent à la touche du mod.
+- **Les pieds ne touchent plus terre** — tâches : checkmark J'ai volé — récompense : xp 5 — après : jetpack
+  > Un jetpack chargé vaut des élytres sans piste de décollage. Les paliers suivants s'obtiennent en refaisant la recette avec le matériau au-dessus.
+
 ## Mystical Agriculture  (`mystical_agriculture`, 25 quêtes)
 
 - **Cultiver des ressources** — tâches : checkmark Lu — récompense : item mysticalagriculture:mystical_fertilizer 4, item minecraft:bone_meal 16
@@ -744,6 +784,26 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le Wither et l'Ender Dragon lâchent de la poussière cognizante quand ils sont tués avec une arme d'essence enchantée Mystical Enlightenment. Les deux sont activés sur le serveur. Elle sert aux éveils les plus avancés.
 - **La ferme remplace la mine** — tâches : checkmark Mes champs tournent — récompense : xp 10 — après : netherite, eveille
   > Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre Pylons ajoute la récolte automatique sans énergie, à une condition près.
+
+## Pipez  (`pipez`, 8 quêtes)
+
+- **Pipez : des tuyaux simples** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 6, item minecraft:glass 8
+  > Pipez fait une chose et la fait bien : déplacer. Un tuyau d'objets sort d'un coffre et entre dans un autre ; un tuyau de fluide vide une cuve ; un tuyau d'énergie relie une cellule à une machine. Clic droit avec la clé sur l'extrémité d'un tuyau pour dire s'il aspire ou s'il pousse.
+  >   > Le fer et le verre offerts font les premiers tuyaux.
+- **Des tuyaux d'objets** — tâches : item pipez:item_pipe 16 — récompense : xp 3 — après : intro
+  > Le tuyau d'objets relie des inventaires. Son extrémité se règle en extraction : il tire d'un coffre et pousse dans tout ce qui est relié. Sans amélioration il est lent, et sans filtre.
+- **Des tuyaux de fluides** — tâches : item pipez:fluid_pipe 8 — récompense : xp 3 — après : intro
+  > Même logique pour les liquides : une cuve, une source de lave, un bassin Create. C'est lui qui nourrit le Magmator de Powah.
+- **Des tuyaux d'énergie** — tâches : item pipez:energy_pipe 8 — récompense : xp 3 — après : intro
+  > Le tuyau d'énergie remplace les câbles de Powah entre une cellule et une machine. Moins cher, moins rapide ; les améliorations règlent ça.
+- **Un tuyau universel** — tâches : item pipez:universal_pipe 4 — récompense : xp 5 — après : objets, fluides, energie
+  > Le tuyau universel transporte les trois à la fois, chaque face réglée indépendamment. Pratique quand une machine reçoit des objets, un fluide et de l'énergie par le même mur.
+- **Des améliorations** — tâches : item pipez:basic_upgrade, item pipez:improved_upgrade — récompense : xp 5 — après : objets
+  > Une amélioration se glisse dans l'extrémité d'un tuyau : un débit plus grand, un filtre (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime, infinie.
+- **La clé de Pipez** — tâches : item pipez:wrench — récompense : xp 2 — après : intro
+  > La clé ouvre le menu d'une extrémité : mode (extraire ou pousser), filtres, redstone. Accroupi, elle détache un tuyau.
+- **Tout circule** — tâches : checkmark Ma base est reliée — récompense : xp 5 — après : universel, ameliorations
+  > Fermes, machines et stockage reliés par des tuyaux. Les filtres de FTB Filter System et d'Item Filters se glissent dans les améliorations pour trier plus finement.
 
 ## Powah — l'énergie  (`powah`, 20 quêtes)
 
@@ -805,3 +865,71 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un bloc d'émeraude au centre. Il applique, à n'importe quelle distance, l'effet de potion inscrit sur son filtre de potion : clic droit avec l'effet actif pour l'inscrire, et encore pour allonger sa durée.
 - **Le champ se récolte seul** — tâches : checkmark Houe en place — récompense : xp 5 — après : recolte
   > Un pylône de récolte, sa houe, et les champs de Mystical Agriculture se vident tout seuls dans un coffre. Il reste à sortir ce qui pousse : c'est le chapitre Pipez.
+
+## SecurityCraft  (`securitycraft`, 13 quêtes)
+
+- **Protéger ce qui est hors claim** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8, item minecraft:redstone 8
+  > Un claim protège l'intérieur de la base. SecurityCraft protège ce qui est hors claim : le donjon du trophée, un avant-poste, un coffre caché. Portes à code, lasers, caméras, mines, pièges — et des blocs renforcés que personne d'autre que leur propriétaire ne casse.
+  >   > C'est le chapitre qui compte le plus pour un raid, dans les deux sens.
+- **Un clavier à code** — tâches : item securitycraft:keypad — récompense : xp 5 — après : intro
+  > Le clavier émet un signal redstone quand on tape le bon code : clic droit après la pose pour fixer un code numérique, clic droit ensuite pour le taper. Posé contre une porte de fer, c'est une porte à code.
+- **Une porte à clavier** — tâches : item securitycraft:keypad_door — récompense : xp 5 — après : clavier
+  > La porte à clavier réunit un clavier et une porte de fer renforcée : il faut le code pour l'ouvrir. Ou un casseur de code, avec de la chance.
+- **Des blocs renforcés** — tâches : item securitycraft:universal_block_reinforcer_lvl1, item securitycraft:reinforced_stone 16 — récompense : xp 8 — après : intro
+  > Le renforceur universel convertit les blocs vanilla en blocs renforcés : clic droit, le bloc dans la case du haut, ou bien casser un bloc en le tenant. Un bloc renforcé appartient à qui l'a posé. Un donjon de trophée en pierre renforcée n'a qu'une entrée : celle que tu as laissée, puisque le règlement exige un chemin atteignable sans rien casser.
+- **Des blocs laser** — tâches : item securitycraft:laser_block 2 — récompense : xp 5 — après : intro
+  > Deux blocs laser à cinq blocs au plus l'un de l'autre tendent un rayon. Quand un joueur qui n'est ni le propriétaire ni sur sa liste le traverse, les modules installés dans les blocs décident de la suite : alarme, dégâts, signal redstone.
+- **Caméra et moniteur** — tâches : item securitycraft:security_camera, item securitycraft:portable_radar — récompense : xp 5 — après : intro
+  > La caméra se regarde à distance : clic droit dessus avec un moniteur de caméras pour la lier. Le radar portable envoie un message au propriétaire dès qu'un joueur entre dans son rayon, 25 blocs par défaut. Savoir qu'on vient, avant qu'on arrive.
+- **Scanner d'inventaire et scanner rétinien** — tâches : item securitycraft:inventory_scanner, item securitycraft:retinal_scanner — récompense : xp 5 — après : clavier
+  > Deux scanners d'inventaire face à face, à deux blocs au plus, tendent un champ : on y inscrit les objets interdits, et les modules décident de ce qui arrive à qui les porte. Le scanner rétinien émet un signal quand son propriétaire le regarde.
+- **Des mines** — tâches : item securitycraft:mine 4 — récompense : xp 5 — après : intro
+  > Une mine explose sous n'importe quelle entité qui marche dessus, toi compris : retiens où tu les as posées. Une pince coupante la désamorce, un briquet la réarme. Posée hors claim, c'est le piège le plus simple d'un donjon de trophée.
+- **Une sentinelle** — tâches : item securitycraft:sentry — récompense : xp 5 — après : camera
+  > La sentinelle tire sur les intrus, avec des munitions illimitées, ou avec les projectiles d'un coffre à code posé dessous. Trois modes au clic droit — inactive, camouflée, agressive — et trois types de cibles. Un gardien qui ne dort pas.
+- **Un détecteur de changement de bloc** — tâches : item securitycraft:block_change_detector — récompense : xp 3 — après : intro
+  > Le détecteur enregistre les blocs posés ou cassés à cinq blocs autour de lui, par défaut. Clic droit : la liste des changements. Après un raid, c'est lui qui dit ce qui a été touché.
+- **Un piège à cage** *(optionnelle)* — tâches : item securitycraft:cage_trap — récompense : xp 5 — après : intro
+  > Le piège à cage fait apparaître une cage autour de tout joueur qui le touche, sauf son propriétaire.
+- **Un casseur de code** *(optionnelle)* — tâches : item securitycraft:codebreaker — récompense : xp 5 — après : porte
+  > Le casseur de code tente d'ouvrir un clavier, un lecteur de carte ou un coffre à code qui n'est pas à toi. Cinq utilisations, une chance sur trois à chaque fois. C'est l'outil de l'attaquant.
+- **Le donjon est prêt** — tâches : checkmark Mon trophée est gardé — récompense : xp 10 — après : renforce, porte, mines
+  > Une porte à code, des blocs renforcés, des pièges, et un chemin qui reste atteignable sans rien casser. Le trophée attend son premier raid.
+
+## Stockage  (`stockage`, 17 quêtes)
+
+- **Trois façons de ranger** — tâches : checkmark Lu — récompense : item minecraft:chest 4
+  > Trois mods de stockage, trois philosophies. Storage Drawers : des tiroirs qui montrent ce qu'ils contiennent, parfaits pour les ressources en masse. Simple Storage Network : un maître, des câbles, une table de requête, et tous les coffres existants deviennent un seul inventaire. Refined Storage : des disques, une grille, de la fabrication automatique, et de l'énergie.
+  >   > N'en choisis qu'un par base : ils ne se parlent pas bien entre eux, et une base qui mélange les trois ne retrouve plus rien.
+- **Un premier tiroir** — tâches : item storagedrawers:oak_full_drawers_1 — récompense : xp 3 — après : intro
+  > Un tiroir à une case stocke un seul type d'objet, en grande quantité, et l'affiche sur sa face. Clic droit pour déposer, clic gauche pour prendre. Il existe en 1, 2 ou 4 cases, et dans chaque bois.
+- **Un tiroir de compactage** — tâches : item storagedrawers:compacting_drawers_3 — récompense : xp 5 — après : tiroir
+  > Le tiroir de compactage range un même matériau sous ses trois formes à la fois — pépite, lingot, bloc — et convertit tout seul. Du fer entre, du fer sort dans la forme demandée.
+- **Un contrôleur de tiroirs** — tâches : item storagedrawers:controller — récompense : xp 5 — après : tiroir
+  > Le contrôleur voit tous les tiroirs qui lui sont reliés par contact. Clic droit dessus avec un objet, et il va dans le bon tiroir ; clic avec les mains vides, et il range tout l'inventaire d'un coup. C'est aussi par lui qu'un tuyau ou un réseau accède à la banque de tiroirs.
+- **Améliorer un tiroir** — tâches : item storagedrawers:iron_storage_upgrade, item storagedrawers:drawer_key — récompense : xp 3 — après : tiroir
+  > Les améliorations de stockage (fer, or, obsidienne, diamant, émeraude, nétherite) multiplient la capacité ; la clé de tiroir verrouille le contenu sur son type, même vide. Il y a aussi le vide (ce qui déborde disparaît) et la lumière.
+- **Un maître de réseau** — tâches : item storagenetwork:master — récompense : xp 5 — après : intro
+  > Le maître est le cœur d'un réseau Simple Storage Network. Un seul par réseau, sans énergie. Tout ce qui lui est relié par câble fait partie du même inventaire.
+- **Des câbles de stockage** — tâches : item storagenetwork:storage_kabel 8, item storagenetwork:kabel 16 — récompense : xp 3 — après : maitre
+  > Le câble relie ; le câble de stockage, posé contre un coffre, un tonneau ou un contrôleur de tiroirs, met son contenu dans le réseau. Les coffres que tu as déjà deviennent le stockage.
+- **Une table de requête** — tâches : item storagenetwork:request — récompense : xp 8 — après : cables
+  > La table de requête montre tout ce que le réseau contient, avec une recherche, et fabrique à partir de ce stock. Un seul bloc pour tous les coffres de la base.
+- **Câbles d'import et d'export** — tâches : item storagenetwork:import_kabel, item storagenetwork:export_kabel — récompense : xp 3 — après : cables
+  > Le câble d'import aspire ce qui arrive dans un coffre vers le réseau — la sortie d'une ferme, par exemple ; le câble d'export pousse un objet choisi vers une machine. Les filtres se règlent dans le câble.
+- **Un contrôleur Refined Storage** — tâches : item refinedstorage:controller — récompense : xp 5 — après : intro
+  > Le contrôleur alimente le réseau Refined Storage en énergie — il lui en faut, voir le chapitre Powah — et compte ce que chaque bloc consomme. Un seul par réseau.
+- **Lecteur et disques** — tâches : item refinedstorage:disk_drive, item refinedstorage:1k_storage_disk — récompense : xp 5 — après : rs_controleur
+  > Le lecteur de disques reçoit jusqu'à huit disques, et les disques stockent : 1k, 4k, 16k, 64k objets. Tout le stockage d'une base dans un bloc.
+- **Une grille** — tâches : item refinedstorage:grid — récompense : xp 8 — après : disques
+  > La grille est l'écran du réseau : tout ce qui est stocké, avec recherche et tri. La grille de fabrication y ajoute une table d'artisanat branchée sur le stock.
+- **Grille de fabrication et de patrons** — tâches : item refinedstorage:crafting_grid, item refinedstorage:pattern_grid, item refinedstorage:pattern 4 — récompense : xp 5 — après : grille
+  > La grille de patrons enregistre une recette sur un patron. Mis dans un fabricateur, le patron permet au réseau de fabriquer l'objet à la demande, en allant chercher les ingrédients tout seul.
+- **Un fabricateur** — tâches : item refinedstorage:crafter — récompense : xp 8 — après : fabrication
+  > Le fabricateur exécute les patrons : demande 64 pistons à la grille, et il fabrique la chaîne entière à partir du stock. Posé contre une machine, il lui envoie les ingrédients d'un patron de traitement.
+- **Importeur et exportateur** — tâches : item refinedstorage:importer, item refinedstorage:exporter — récompense : xp 3 — après : rs_controleur
+  > L'importeur tire ce qui arrive dans un bloc vers le réseau, l'exportateur pousse un objet filtré vers un bloc. Les deux côtés de toute automatisation.
+- **Une grille sans fil** — tâches : item refinedstorage:wireless_grid, item refinedstorage:wireless_transmitter — récompense : xp 5 — après : grille
+  > L'émetteur sans fil donne une portée au réseau, et la grille sans fil l'ouvre depuis la main, n'importe où dans cette portée. La base entière dans la poche.
+- **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10 — après : controleur, requete, fabricateur
+  > Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre Pipez relie tout ça aux machines.

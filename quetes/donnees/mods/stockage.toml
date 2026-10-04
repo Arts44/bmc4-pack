@@ -1,0 +1,193 @@
+# Chapitre « Stockage » — cahier des charges §5.8 : trois sous-arbres,
+# un seul par base. Identifiants vérifiés dans storagedrawers-12.14.3,
+# SimpleStorageNetwork-1.13.1 et refinedstorage-1.12.4.
+
+[chapitre]
+titre = "&6Stockage"
+fichier = "stockage"
+groupe = "mods"
+icone = "refinedstorage:grid"
+ordre = 6
+
+[[quete]]
+cle = "intro"
+titre = "&6Trois façons de ranger"
+sous_titre = "Choisis-en une par base."
+taille = 1.5
+icone = "minecraft:chest"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:chest 4"]
+description = """
+Trois mods de stockage, trois philosophies. &6Storage Drawers&r : des tiroirs qui montrent ce qu'ils contiennent, parfaits pour les ressources en masse. &aSimple Storage Network&r : un maître, des câbles, une table de requête, et tous les coffres existants deviennent un seul inventaire. &bRefined Storage&r : des disques, une grille, de la fabrication automatique, et de l'énergie.
+
+&lN'en choisis qu'un par base&r : ils ne se parlent pas bien entre eux, et une base qui mélange les trois ne retrouve plus rien.
+"""
+
+# ---- Storage Drawers
+[[quete]]
+cle = "tiroir"
+titre = "Un premier tiroir"
+deps = ["intro"]
+taches = ["item storagedrawers:oak_full_drawers_1"]
+recompenses = ["xp 3"]
+description = """
+Un &6tiroir&r à une case stocke un seul type d'objet, en grande quantité, et l'affiche sur sa face. Clic droit pour déposer, clic gauche pour prendre. Il existe en 1, 2 ou 4 cases, et dans chaque bois.
+"""
+
+[[quete]]
+cle = "compactage"
+titre = "Un tiroir de compactage"
+deps = ["tiroir"]
+taches = ["item storagedrawers:compacting_drawers_3"]
+recompenses = ["xp 5"]
+description = """
+Le &6tiroir de compactage&r range un même matériau sous ses trois formes à la fois — pépite, lingot, bloc — et convertit tout seul. Du fer entre, du fer sort dans la forme demandée.
+"""
+
+[[quete]]
+cle = "controleur"
+titre = "Un contrôleur de tiroirs"
+deps = ["tiroir"]
+taches = ["item storagedrawers:controller"]
+recompenses = ["xp 5"]
+description = """
+Le &6contrôleur&r voit tous les tiroirs qui lui sont reliés par contact. Clic droit dessus avec un objet, et il va dans le bon tiroir ; clic avec les mains vides, et il range tout l'inventaire d'un coup. C'est aussi par lui qu'un tuyau ou un réseau accède à la banque de tiroirs.
+"""
+
+[[quete]]
+cle = "ameliorations"
+titre = "Améliorer un tiroir"
+deps = ["tiroir"]
+taches = ["item storagedrawers:iron_storage_upgrade", "item storagedrawers:drawer_key"]
+recompenses = ["xp 3"]
+description = """
+Les &7améliorations de stockage&r (fer, or, obsidienne, diamant, émeraude, nétherite) multiplient la capacité ; la &7clé de tiroir&r verrouille le contenu sur son type, même vide. Il y a aussi le vide (ce qui déborde disparaît) et la lumière.
+"""
+
+# ---- Simple Storage Network
+[[quete]]
+cle = "maitre"
+titre = "Un maître de réseau"
+deps = ["intro"]
+taches = ["item storagenetwork:master"]
+recompenses = ["xp 5"]
+description = """
+Le &amaître&r est le cœur d'un réseau Simple Storage Network. Un seul par réseau, sans énergie. Tout ce qui lui est relié par câble fait partie du même inventaire.
+"""
+
+[[quete]]
+cle = "cables"
+titre = "Des câbles de stockage"
+deps = ["maitre"]
+taches = ["item storagenetwork:storage_kabel 8", "item storagenetwork:kabel 16"]
+recompenses = ["xp 3"]
+description = """
+Le &7câble&r relie ; le &acâble de stockage&r, posé contre un coffre, un tonneau ou un contrôleur de tiroirs, met son contenu dans le réseau. Les coffres que tu as déjà deviennent le stockage.
+"""
+
+[[quete]]
+cle = "requete"
+titre = "Une table de requête"
+deps = ["cables"]
+taille = 1.3
+taches = ["item storagenetwork:request"]
+recompenses = ["xp 8"]
+description = """
+La &atable de requête&r montre tout ce que le réseau contient, avec une recherche, et fabrique à partir de ce stock. Un seul bloc pour tous les coffres de la base.
+"""
+
+[[quete]]
+cle = "import"
+titre = "Câbles d'import et d'export"
+deps = ["cables"]
+taches = ["item storagenetwork:import_kabel", "item storagenetwork:export_kabel"]
+recompenses = ["xp 3"]
+description = """
+Le &7câble d'import&r aspire ce qui arrive dans un coffre vers le réseau — la sortie d'une ferme, par exemple ; le &7câble d'export&r pousse un objet choisi vers une machine. Les filtres se règlent dans le câble.
+"""
+
+# ---- Refined Storage
+[[quete]]
+cle = "rs_controleur"
+titre = "Un contrôleur Refined Storage"
+deps = ["intro"]
+taches = ["item refinedstorage:controller"]
+recompenses = ["xp 5"]
+description = """
+Le &bcontrôleur&r alimente le réseau Refined Storage en énergie — il lui en faut, voir le chapitre Powah — et compte ce que chaque bloc consomme. Un seul par réseau.
+"""
+
+[[quete]]
+cle = "disques"
+titre = "Lecteur et disques"
+deps = ["rs_controleur"]
+taches = ["item refinedstorage:disk_drive", "item refinedstorage:1k_storage_disk"]
+recompenses = ["xp 5"]
+description = """
+Le &blecteur de disques&r reçoit jusqu'à huit &bdisques&r, et les disques stockent : 1k, 4k, 16k, 64k objets. Tout le stockage d'une base dans un bloc.
+"""
+
+[[quete]]
+cle = "grille"
+titre = "Une grille"
+deps = ["disques"]
+taille = 1.3
+taches = ["item refinedstorage:grid"]
+recompenses = ["xp 8"]
+description = """
+La &bgrille&r est l'écran du réseau : tout ce qui est stocké, avec recherche et tri. La &bgrille de fabrication&r y ajoute une table d'artisanat branchée sur le stock.
+"""
+
+[[quete]]
+cle = "fabrication"
+titre = "Grille de fabrication et de patrons"
+deps = ["grille"]
+taches = ["item refinedstorage:crafting_grid", "item refinedstorage:pattern_grid", "item refinedstorage:pattern 4"]
+recompenses = ["xp 5"]
+description = """
+La &bgrille de patrons&r enregistre une recette sur un &bpatron&r. Mis dans un fabricateur, le patron permet au réseau de fabriquer l'objet à la demande, en allant chercher les ingrédients tout seul.
+"""
+
+[[quete]]
+cle = "fabricateur"
+titre = "Un fabricateur"
+deps = ["fabrication"]
+taille = 1.3
+taches = ["item refinedstorage:crafter"]
+recompenses = ["xp 8"]
+description = """
+Le &bfabricateur&r exécute les patrons : demande 64 pistons à la grille, et il fabrique la chaîne entière à partir du stock. Posé contre une machine, il lui envoie les ingrédients d'un patron de traitement.
+"""
+
+[[quete]]
+cle = "importeur"
+titre = "Importeur et exportateur"
+deps = ["rs_controleur"]
+taches = ["item refinedstorage:importer", "item refinedstorage:exporter"]
+recompenses = ["xp 3"]
+description = """
+L'&bimporteur&r tire ce qui arrive dans un bloc vers le réseau, l'&bexportateur&r pousse un objet filtré vers un bloc. Les deux côtés de toute automatisation.
+"""
+
+[[quete]]
+cle = "sans_fil"
+titre = "Une grille sans fil"
+deps = ["grille"]
+taches = ["item refinedstorage:wireless_grid", "item refinedstorage:wireless_transmitter"]
+recompenses = ["xp 5"]
+description = """
+L'&bémetteur sans fil&r donne une portée au réseau, et la &bgrille sans fil&r l'ouvre depuis la main, n'importe où dans cette portée. La base entière dans la poche.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&6Tout est rangé"
+deps = ["controleur", "requete", "fabricateur"]
+exigence = "une"
+taille = 1.5
+icone = "storagedrawers:controller"
+taches = ["checkmark Ma base est rangée"]
+recompenses = ["xp 10"]
+description = """
+Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre &bPipez&r relie tout ça aux machines.
+"""

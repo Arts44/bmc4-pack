@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_jetpacks"
+	group: "14858825A29975B1"
+	icon: "ironjetpacks:jetpack"
+	id: "376E4B6A7B0FA5A8"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bIron Jetpacks&r : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Chaque palier — fer, or, diamant, émeraude, nétherite — a plus d'autonomie et de vitesse, et se fabrique avec les composants du palier."
+				""
+				"Il lui faut de l'énergie : le chapitre &ePowah&r en fournit."
+			]
+			icon: "ironjetpacks:thruster"
+			id: "73E4D2EEE4A3D909"
+			rewards: [{
+				count: 8
+				id: "42505D5D27C7E64F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #iron-jetpacks sur le Discord."
+			tasks: [{
+				id: "3774FD71F84CB534"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bVoler, à l'énergie"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73E4D2EEE4A3D909"]
+			description: ["La &bcellule&r stocke l'énergie du jetpack. Elle entre dans chaque palier."]
+			icon: "ironjetpacks:cell"
+			id: "3E7FE59AA9E7581B"
+			rewards: [{
+				id: "7131A21CF273ED81"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0458105037687766"
+				item: "ironjetpacks:cell"
+				type: "item"
+			}]
+			title: "Une cellule"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73E4D2EEE4A3D909"]
+			description: ["Le &bpropulseur&r pousse, la &bsangle&r tient. Avec la cellule et le condensateur, c'est tout ce qu'un jetpack demande, dans le matériau du palier."]
+			icon: "ironjetpacks:thruster"
+			id: "1590F657B848485B"
+			rewards: [{
+				id: "0F398A5BB558330B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "50D5BF189BDE7FCC"
+					item: "ironjetpacks:thruster"
+					type: "item"
+				}
+				{
+					id: "4D2163EDCC0D6047"
+					item: "ironjetpacks:strap"
+					type: "item"
+				}
+			]
+			title: "Un propulseur et une sangle"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73E4D2EEE4A3D909"]
+			description: ["Le &bcondensateur&r accumule l'énergie entre deux coups de propulseur."]
+			icon: "ironjetpacks:capacitor"
+			id: "617CD9449300E850"
+			rewards: [{
+				id: "6C1A2883C8DB2A13"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "22F2D391174851B8"
+				item: "ironjetpacks:capacitor"
+				type: "item"
+			}]
+			title: "Un condensateur"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E7FE59AA9E7581B"]
+			description: ["Les &bbobines&r — basique, avancée, élite, ultime — font les paliers supérieurs. La première se contente de fer et de redstone."]
+			icon: "ironjetpacks:basic_coil"
+			id: "611A627B8A46B4FD"
+			rewards: [{
+				id: "2B2A5BB10BF45854"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5B84D0FE8EAFBDB2"
+				item: "ironjetpacks:basic_coil"
+				type: "item"
+			}]
+			title: "Des bobines"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1590F657B848485B"
+				"617CD9449300E850"
+				"611A627B8A46B4FD"
+			]
+			description: ["Cellule, condensateur, propulseur, sangle et bobine, dans le matériau du palier : un &bjetpack&r. Charge-le dans une cellule d'énergie, enfile-le, et saute. Le mode planeur et le vol stationnaire se règlent à la touche du mod."]
+			icon: "ironjetpacks:jetpack"
+			id: "5899593238427A0F"
+			rewards: [{
+				id: "40327375D78DBD08"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "65A289F0CEAFB848"
+				item: "ironjetpacks:jetpack"
+				type: "item"
+			}]
+			title: "Fabriquer un jetpack"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5899593238427A0F"]
+			description: ["Un jetpack chargé vaut des élytres sans piste de décollage. Les paliers suivants s'obtiennent en refaisant la recette avec le matériau au-dessus."]
+			icon: "ironjetpacks:ultimate_coil"
+			id: "68E6CC219B25F2E9"
+			rewards: [{
+				id: "431F7090DE33E938"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "4FA4DD2AE690F27E"
+				title: "J'ai volé"
+				type: "checkmark"
+			}]
+			title: "&bLes pieds ne touchent plus terre"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&bIron Jetpacks"
+}

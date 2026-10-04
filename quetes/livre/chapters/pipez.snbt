@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pipez"
+	group: "14858825A29975B1"
+	icon: "pipez:item_pipe"
+	id: "3FF9A38F0CFCEA36"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7Pipez&r fait une chose et la fait bien : déplacer. Un tuyau d'objets sort d'un coffre et entre dans un autre ; un tuyau de fluide vide une cuve ; un tuyau d'énergie relie une cellule à une machine. Clic droit avec la clé sur l'extrémité d'un tuyau pour dire s'il aspire ou s'il pousse."
+				""
+				"Le fer et le verre offerts font les premiers tuyaux."
+			]
+			icon: "pipez:universal_pipe"
+			id: "11C1074C5F54EB4D"
+			rewards: [
+				{
+					count: 6
+					id: "7D26F7065DCA910A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3DBC5874EC32308D"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Objets, fluides, énergie, en un bloc."
+			tasks: [{
+				id: "080E811F37F44CD9"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Pipez : des tuyaux simples"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11C1074C5F54EB4D"]
+			description: ["Le &7tuyau d'objets&r relie des inventaires. Son extrémité se règle en extraction : il tire d'un coffre et pousse dans tout ce qui est relié. Sans amélioration il est lent, et sans filtre."]
+			icon: "pipez:item_pipe"
+			id: "7F445F93973327E7"
+			rewards: [{
+				id: "435DFA18E0AC2546"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 16L
+				id: "255F84B8D77D833E"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			title: "Des tuyaux d'objets"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["11C1074C5F54EB4D"]
+			description: ["Même logique pour les liquides : une cuve, une source de lave, un bassin Create. C'est lui qui nourrit le Magmator de Powah."]
+			icon: "pipez:fluid_pipe"
+			id: "3D2A9E4BF823648C"
+			rewards: [{
+				id: "49D9380765A7E362"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "347D83F029275662"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			title: "Des tuyaux de fluides"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["11C1074C5F54EB4D"]
+			description: ["Le &7tuyau d'énergie&r remplace les câbles de Powah entre une cellule et une machine. Moins cher, moins rapide ; les améliorations règlent ça."]
+			icon: "pipez:energy_pipe"
+			id: "2F353A6FBFFF07F1"
+			rewards: [{
+				id: "431681D50801584B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "5333DEC0BDCB9A6F"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			title: "Des tuyaux d'énergie"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"7F445F93973327E7"
+				"3D2A9E4BF823648C"
+				"2F353A6FBFFF07F1"
+			]
+			description: ["Le &7tuyau universel&r transporte les trois à la fois, chaque face réglée indépendamment. Pratique quand une machine reçoit des objets, un fluide et de l'énergie par le même mur."]
+			icon: "pipez:universal_pipe"
+			id: "4068729D91A15B87"
+			rewards: [{
+				id: "7590AF71AB9103AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "529A6CCA51B3B70A"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			title: "Un tuyau universel"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7F445F93973327E7"]
+			description: ["Une &7amélioration&r se glisse dans l'extrémité d'un tuyau : un débit plus grand, un &lfiltre&r (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime, infinie."]
+			icon: "pipez:basic_upgrade"
+			id: "0CB45D78CC24C20B"
+			rewards: [{
+				id: "70AC56554E1B27E6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "3C5AFABD60228508"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "763CC81ED3D585A5"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+			]
+			title: "Des améliorations"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["11C1074C5F54EB4D"]
+			description: ["La &7clé&r ouvre le menu d'une extrémité : mode (extraire ou pousser), filtres, redstone. Accroupi, elle détache un tuyau."]
+			icon: "pipez:wrench"
+			id: "14859BA418FC41E7"
+			rewards: [{
+				id: "56B43DC597C31629"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "37E54EE7D5932D84"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			title: "La clé de Pipez"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"4068729D91A15B87"
+				"0CB45D78CC24C20B"
+			]
+			description: ["Fermes, machines et stockage reliés par des tuyaux. Les filtres de &bFTB Filter System&r et d'&bItem Filters&r se glissent dans les améliorations pour trier plus finement."]
+			icon: "pipez:ultimate_upgrade"
+			id: "20B32E95A9D9A0EC"
+			rewards: [{
+				id: "72A8784BF0303F5F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "3625735E7AD03BAD"
+				title: "Ma base est reliée"
+				type: "checkmark"
+			}]
+			title: "&7Tout circule"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&7Pipez"
+}

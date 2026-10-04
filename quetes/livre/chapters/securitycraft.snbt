@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "securitycraft"
+	group: "14858825A29975B1"
+	icon: "securitycraft:keypad"
+	id: "5287713EAF92444E"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Un claim protège l'intérieur de la base. &cSecurityCraft&r protège ce qui est &lhors claim&r : le donjon du trophée, un avant-poste, un coffre caché. Portes à code, lasers, caméras, mines, pièges — et des blocs renforcés que personne d'autre que leur propriétaire ne casse."
+				""
+				"C'est le chapitre qui compte le plus pour un raid, dans les deux sens."
+			]
+			icon: "securitycraft:keypad_door"
+			id: "48AAB8914728A8BD"
+			rewards: [
+				{
+					count: 8
+					id: "7BE393806FA46374"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6F3F9D5713EE8E06"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #security-craft sur le Discord."
+			tasks: [{
+				id: "5FAE7B33A5BA4D27"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cProtéger ce qui est hors claim"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Le &cclavier&r émet un signal redstone quand on tape le bon code : clic droit après la pose pour fixer un code numérique, clic droit ensuite pour le taper. Posé contre une porte de fer, c'est une porte à code."]
+			icon: "securitycraft:keypad"
+			id: "2787E3FE3C264209"
+			rewards: [{
+				id: "0690D065705B9738"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1EE73F124EC4E527"
+				item: "securitycraft:keypad"
+				type: "item"
+			}]
+			title: "Un clavier à code"
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2787E3FE3C264209"]
+			description: ["La &cporte à clavier&r réunit un clavier et une porte de fer renforcée : il faut le code pour l'ouvrir. Ou un casseur de code, avec de la chance."]
+			icon: "securitycraft:keypad_door"
+			id: "360F498284C0866F"
+			rewards: [{
+				id: "5F2F5B1C892990D3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6C4D590876C0ED30"
+				item: "securitycraft:keypad_door"
+				type: "item"
+			}]
+			title: "Une porte à clavier"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Le &lrenforceur universel&r convertit les blocs vanilla en blocs renforcés : clic droit, le bloc dans la case du haut, ou bien casser un bloc en le tenant. Un &cbloc renforcé&r appartient à qui l'a posé. Un donjon de trophée en pierre renforcée n'a qu'une entrée : celle que tu as laissée, puisque le règlement exige un chemin atteignable sans rien casser."]
+			icon: "securitycraft:universal_block_reinforcer_lvl1"
+			id: "03B1014F45B0E7AF"
+			rewards: [{
+				id: "799EC62FBD441887"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [
+				{
+					id: "67A031E7DA05EE81"
+					item: "securitycraft:universal_block_reinforcer_lvl1"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5B02E479B0CEC754"
+					item: "securitycraft:reinforced_stone"
+					type: "item"
+				}
+			]
+			title: "Des blocs renforcés"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Deux &cblocs laser&r à cinq blocs au plus l'un de l'autre tendent un rayon. Quand un joueur qui n'est ni le propriétaire ni sur sa liste le traverse, les modules installés dans les blocs décident de la suite : alarme, dégâts, signal redstone."]
+			icon: "securitycraft:laser_block"
+			id: "61FCF090082E733A"
+			rewards: [{
+				id: "432F3C1F30614E80"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 2L
+				id: "0BA046C163EC272E"
+				item: "securitycraft:laser_block"
+				type: "item"
+			}]
+			title: "Des blocs laser"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["La &ccaméra&r se regarde à distance : clic droit dessus avec un moniteur de caméras pour la lier. Le &cradar portable&r envoie un message au propriétaire dès qu'un joueur entre dans son rayon, 25 blocs par défaut. Savoir qu'on vient, avant qu'on arrive."]
+			icon: "securitycraft:security_camera"
+			id: "3FAFD6D766E2FB68"
+			rewards: [{
+				id: "7DFBDB1809AB1CD5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "3E1DB857FC5C1BE7"
+					item: "securitycraft:security_camera"
+					type: "item"
+				}
+				{
+					id: "57EF5483B51A598B"
+					item: "securitycraft:portable_radar"
+					type: "item"
+				}
+			]
+			title: "Caméra et moniteur"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2787E3FE3C264209"]
+			description: ["Deux &cscanners d'inventaire&r face à face, à deux blocs au plus, tendent un champ : on y inscrit les objets interdits, et les modules décident de ce qui arrive à qui les porte. Le &cscanner rétinien&r émet un signal quand son propriétaire le regarde."]
+			icon: "securitycraft:inventory_scanner"
+			id: "7FC8EA4261B4C4E4"
+			rewards: [{
+				id: "567E37FA144A5B33"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "16DA0A88AD450A48"
+					item: "securitycraft:inventory_scanner"
+					type: "item"
+				}
+				{
+					id: "6B60452ECDED0680"
+					item: "securitycraft:retinal_scanner"
+					type: "item"
+				}
+			]
+			title: "Scanner d'inventaire et scanner rétinien"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Une &cmine&r explose sous &ln'importe quelle entité&r qui marche dessus, toi compris : retiens où tu les as posées. Une pince coupante la désamorce, un briquet la réarme. Posée hors claim, c'est le piège le plus simple d'un donjon de trophée."]
+			icon: "securitycraft:mine"
+			id: "6C00E7FB130D81A5"
+			rewards: [{
+				id: "127546E10F079F2D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "65B419C43EC5D802"
+				item: "securitycraft:mine"
+				type: "item"
+			}]
+			title: "Des mines"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3FAFD6D766E2FB68"]
+			description: ["La &csentinelle&r tire sur les intrus, avec des munitions illimitées, ou avec les projectiles d'un coffre à code posé dessous. Trois modes au clic droit — inactive, camouflée, agressive — et trois types de cibles. Un gardien qui ne dort pas."]
+			icon: "securitycraft:sentry"
+			id: "51B9AA507C069047"
+			rewards: [{
+				id: "111DE341D0C1687E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "43423505AD462AB6"
+				item: "securitycraft:sentry"
+				type: "item"
+			}]
+			title: "Une sentinelle"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Le &cdétecteur&r enregistre les blocs posés ou cassés à cinq blocs autour de lui, par défaut. Clic droit : la liste des changements. Après un raid, c'est lui qui dit ce qui a été touché."]
+			icon: "securitycraft:block_change_detector"
+			id: "3ECA0DED5659A468"
+			rewards: [{
+				id: "240E47F38AD1C388"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "059FAA5034B4A646"
+				item: "securitycraft:block_change_detector"
+				type: "item"
+			}]
+			title: "Un détecteur de changement de bloc"
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Le &cpiège à cage&r fait apparaître une cage autour de tout joueur qui le touche, sauf son propriétaire."]
+			icon: "securitycraft:cage_trap"
+			id: "024167045FBAA532"
+			optional: true
+			rewards: [{
+				id: "068D89B6BFFEEC69"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C5298202839D382"
+				item: "securitycraft:cage_trap"
+				type: "item"
+			}]
+			title: "Un piège à cage"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["360F498284C0866F"]
+			description: ["Le &ccasseur de code&r tente d'ouvrir un clavier, un lecteur de carte ou un coffre à code qui n'est pas à toi. Cinq utilisations, &lune chance sur trois&r à chaque fois. C'est l'outil de l'attaquant."]
+			icon: "securitycraft:codebreaker"
+			id: "0EEA6C8A22BD704A"
+			optional: true
+			rewards: [{
+				id: "7BB11968D59C8D01"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3AE6EDEE98E157D5"
+				item: "securitycraft:codebreaker"
+				type: "item"
+			}]
+			title: "Un casseur de code"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"03B1014F45B0E7AF"
+				"360F498284C0866F"
+				"6C00E7FB130D81A5"
+			]
+			description: ["Une porte à code, des blocs renforcés, des pièges, et un chemin qui reste atteignable sans rien casser. Le trophée attend son premier raid."]
+			icon: "securitycraft:sentry"
+			id: "7AC62283E0DA7E3C"
+			rewards: [{
+				id: "5FC92BCDFC27A8E4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "060CAD794729C8F9"
+				title: "Mon trophée est gardé"
+				type: "checkmark"
+			}]
+			title: "&cLe donjon est prêt"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&cSecurityCraft"
+}
