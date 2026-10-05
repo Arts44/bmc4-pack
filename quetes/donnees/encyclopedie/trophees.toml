@@ -1,0 +1,596 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Trophées et têtes"
+fichier = "enc_trophees"
+groupe = "encyclopedie"
+icone = "twilightforest:naga_trophy"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Trophées et têtes"
+taille = 1.5
+icone = "twilightforest:naga_trophy"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Les trophées des boss, les têtes de créatures et les trophées de décoration. Une quête se valide en ayant l'objet dans l'inventaire.
+"""
+
+[[quete]]
+cle = "blue_skies_alchemist_trophy"
+titre = "Obtenir : Trophée de l'Alchimiste"
+optionnel = true
+icone = "blue_skies:alchemist_trophy"
+taches = ["item blue_skies:alchemist_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_arachnarch_trophy"
+titre = "Obtenir : Trophée de l'Arachnarque"
+optionnel = true
+icone = "blue_skies:arachnarch_trophy"
+taches = ["item blue_skies:arachnarch_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_crusher_trophy"
+titre = "Obtenir : Trophée du Déstructeur des Étoiles"
+optionnel = true
+icone = "blue_skies:starlit_crusher_trophy"
+taches = ["item blue_skies:starlit_crusher_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_summoner_trophy"
+titre = "Obtenir : Trophée du Summonateur"
+optionnel = true
+icone = "blue_skies:summoner_trophy"
+taches = ["item blue_skies:summoner_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "cataclysm_aptrgangr_head"
+titre = "Obtenir : « Aptrgangr Head »"
+optionnel = true
+icone = "cataclysm:aptrgangr_head"
+taches = ["item cataclysm:aptrgangr_head"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_draugr_head"
+titre = "Obtenir : « Draugr Head »"
+optionnel = true
+icone = "cataclysm:draugr_head"
+taches = ["item cataclysm:draugr_head"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_kobolediator_skull"
+titre = "Obtenir : « Kobolediator Skull »"
+optionnel = true
+icone = "cataclysm:kobolediator_skull"
+taches = ["item cataclysm:kobolediator_skull"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_remnant_skull"
+titre = "Obtenir : « Remnant's Skull »"
+optionnel = true
+icone = "cataclysm:remnant_skull"
+taches = ["item cataclysm:remnant_skull"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_unbreakable_skull"
+titre = "Obtenir : « Unbreakable Skull »"
+optionnel = true
+icone = "cataclysm:unbreakable_skull"
+taches = ["item cataclysm:unbreakable_skull"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "handcrafted_bear_trophy"
+titre = "Obtenir : « Bear Trophy »"
+optionnel = true
+icone = "handcrafted:bear_trophy"
+taches = ["item handcrafted:bear_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_blaze_trophy"
+titre = "Obtenir : « Blaze Trophy »"
+optionnel = true
+icone = "handcrafted:blaze_trophy"
+taches = ["item handcrafted:blaze_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_creeper_trophy"
+titre = "Obtenir : « Creeper Trophy »"
+optionnel = true
+icone = "handcrafted:creeper_trophy"
+taches = ["item handcrafted:creeper_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_evoker_trophy"
+titre = "Obtenir : « Evoker Trophy »"
+optionnel = true
+icone = "handcrafted:evoker_trophy"
+taches = ["item handcrafted:evoker_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_fox_trophy"
+titre = "Obtenir : « Fox Trophy »"
+optionnel = true
+icone = "handcrafted:fox_trophy"
+taches = ["item handcrafted:fox_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_goat_trophy"
+titre = "Obtenir : « Goat Trophy »"
+optionnel = true
+icone = "handcrafted:goat_trophy"
+taches = ["item handcrafted:goat_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_phantom_trophy"
+titre = "Obtenir : « Phantom Trophy »"
+optionnel = true
+icone = "handcrafted:phantom_trophy"
+taches = ["item handcrafted:phantom_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_pillager_trophy"
+titre = "Obtenir : « Pillager Trophy »"
+optionnel = true
+icone = "handcrafted:pillager_trophy"
+taches = ["item handcrafted:pillager_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_pufferfish_trophy"
+titre = "Obtenir : « Pufferfish Trophy »"
+optionnel = true
+icone = "handcrafted:pufferfish_trophy"
+taches = ["item handcrafted:pufferfish_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_salmon_trophy"
+titre = "Obtenir : « Salmon Trophy »"
+optionnel = true
+icone = "handcrafted:salmon_trophy"
+taches = ["item handcrafted:salmon_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_silverfish_trophy"
+titre = "Obtenir : « Silverfish Trophy »"
+optionnel = true
+icone = "handcrafted:silverfish_trophy"
+taches = ["item handcrafted:silverfish_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_skeleton_horse_trophy"
+titre = "Obtenir : « Skeleton Horse Trophy »"
+optionnel = true
+icone = "handcrafted:skeleton_horse_trophy"
+taches = ["item handcrafted:skeleton_horse_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_skeleton_trophy"
+titre = "Obtenir : « Skeleton Trophy »"
+optionnel = true
+icone = "handcrafted:skeleton_trophy"
+taches = ["item handcrafted:skeleton_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_spider_trophy"
+titre = "Obtenir : « Spider Trophy »"
+optionnel = true
+icone = "handcrafted:spider_trophy"
+taches = ["item handcrafted:spider_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_tropical_fish_trophy"
+titre = "Obtenir : « Tropical Fish Trophy »"
+optionnel = true
+icone = "handcrafted:tropical_fish_trophy"
+taches = ["item handcrafted:tropical_fish_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_vindicator_trophy"
+titre = "Obtenir : « Vindicator Trophy »"
+optionnel = true
+icone = "handcrafted:vindicator_trophy"
+taches = ["item handcrafted:vindicator_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_witch_trophy"
+titre = "Obtenir : « Witch Trophy »"
+optionnel = true
+icone = "handcrafted:witch_trophy"
+taches = ["item handcrafted:witch_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_wither_skeleton_trophy"
+titre = "Obtenir : « Wither Skeleton Trophy »"
+optionnel = true
+icone = "handcrafted:wither_skeleton_trophy"
+taches = ["item handcrafted:wither_skeleton_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "handcrafted_wolf_trophy"
+titre = "Obtenir : « Wolf Trophy »"
+optionnel = true
+icone = "handcrafted:wolf_trophy"
+taches = ["item handcrafted:wolf_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhandcrafted&r.
+"""
+
+[[quete]]
+cle = "minecraft_creeper_head"
+titre = "Obtenir : Tête de Creeper"
+optionnel = true
+icone = "minecraft:creeper_head"
+taches = ["item minecraft:creeper_head"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_dragon_head"
+titre = "Obtenir : Tête de dragon"
+optionnel = true
+icone = "minecraft:dragon_head"
+taches = ["item minecraft:dragon_head"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_piglin_head"
+titre = "Obtenir : Tête de Piglin"
+optionnel = true
+icone = "minecraft:piglin_head"
+taches = ["item minecraft:piglin_head"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_skeleton_skull"
+titre = "Obtenir : Crâne de squelette"
+optionnel = true
+icone = "minecraft:skeleton_skull"
+taches = ["item minecraft:skeleton_skull"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_wither_skeleton_skull"
+titre = "Obtenir : Crâne de Wither squelette"
+optionnel = true
+icone = "minecraft:wither_skeleton_skull"
+taches = ["item minecraft:wither_skeleton_skull"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_zombie_head"
+titre = "Obtenir : Tête de zombie"
+optionnel = true
+icone = "minecraft:zombie_head"
+taches = ["item minecraft:zombie_head"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "mynethersdelight_hoglin_trophy"
+titre = "Obtenir : « Hoglin Trophy »"
+optionnel = true
+icone = "mynethersdelight:hoglin_trophy"
+taches = ["item mynethersdelight:hoglin_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmynethersdelight&r.
+"""
+
+[[quete]]
+cle = "mynethersdelight_skoglin_trophy"
+titre = "Obtenir : « Skoglin Trophy »"
+optionnel = true
+icone = "mynethersdelight:skoglin_trophy"
+taches = ["item mynethersdelight:skoglin_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmynethersdelight&r.
+"""
+
+[[quete]]
+cle = "mynethersdelight_waxed_hoglin_trophy"
+titre = "Obtenir : « Waxed Hoglin Trophy »"
+optionnel = true
+icone = "mynethersdelight:waxed_hoglin_trophy"
+taches = ["item mynethersdelight:waxed_hoglin_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmynethersdelight&r.
+"""
+
+[[quete]]
+cle = "mynethersdelight_zoglin_trophy"
+titre = "Obtenir : « Zoglin Trophy »"
+optionnel = true
+icone = "mynethersdelight:zoglin_trophy"
+taches = ["item mynethersdelight:zoglin_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmynethersdelight&r.
+"""
+
+[[quete]]
+cle = "supplementaries_enderman_head"
+titre = "Obtenir : Tête d'enderman"
+optionnel = true
+icone = "supplementaries:enderman_head"
+taches = ["item supplementaries:enderman_head"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bsupplementaries&r.
+"""
+
+[[quete]]
+cle = "twilightforest_alpha_yeti_trophy"
+titre = "Obtenir : « Alpha Yeti Trophy »"
+optionnel = true
+icone = "twilightforest:alpha_yeti_trophy"
+taches = ["item twilightforest:alpha_yeti_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_hydra_trophy"
+titre = "Obtenir : Trophée d'Hydre"
+optionnel = true
+icone = "twilightforest:hydra_trophy"
+taches = ["item twilightforest:hydra_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_knight_phantom_trophy"
+titre = "Obtenir : « Knight Phantom Trophy »"
+optionnel = true
+icone = "twilightforest:knight_phantom_trophy"
+taches = ["item twilightforest:knight_phantom_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_lich_trophy"
+titre = "Obtenir : Trophée de Liche"
+optionnel = true
+icone = "twilightforest:lich_trophy"
+taches = ["item twilightforest:lich_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_minoshroom_trophy"
+titre = "Obtenir : « Minoshroom Trophy »"
+optionnel = true
+icone = "twilightforest:minoshroom_trophy"
+taches = ["item twilightforest:minoshroom_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_naga_trophy"
+titre = "Obtenir : Trophée de Nâga"
+optionnel = true
+icone = "twilightforest:naga_trophy"
+taches = ["item twilightforest:naga_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_quest_ram_trophy"
+titre = "Obtenir : « Quest Ram Trophy »"
+optionnel = true
+icone = "twilightforest:quest_ram_trophy"
+taches = ["item twilightforest:quest_ram_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_snow_queen_trophy"
+titre = "Obtenir : Trophée de la Reine des Neiges"
+optionnel = true
+icone = "twilightforest:snow_queen_trophy"
+taches = ["item twilightforest:snow_queen_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_ur_ghast_trophy"
+titre = "Obtenir : Trophée d'Ur-Ghast"
+optionnel = true
+icone = "twilightforest:ur_ghast_trophy"
+taches = ["item twilightforest:ur_ghast_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "umbral_skies_slider_trophy"
+titre = "Obtenir : « Slider Trophy »"
+optionnel = true
+icone = "umbral_skies:slider_trophy"
+taches = ["item umbral_skies:slider_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bumbral_skies&r.
+"""
+
+[[quete]]
+cle = "umbral_skies_sun_spirit_trophy"
+titre = "Obtenir : « Sun Spirit Trophy »"
+optionnel = true
+icone = "umbral_skies:sun_spirit_trophy"
+taches = ["item umbral_skies:sun_spirit_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bumbral_skies&r.
+"""
+
+[[quete]]
+cle = "umbral_skies_valkyrie_queen_trophy"
+titre = "Obtenir : « Valkyrie Queen Trophy »"
+optionnel = true
+icone = "umbral_skies:valkyrie_queen_trophy"
+taches = ["item umbral_skies:valkyrie_queen_trophy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bumbral_skies&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:dragon_head"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["blue_skies_alchemist_trophy", "blue_skies_arachnarch_trophy", "blue_skies_starlit_crusher_trophy", "blue_skies_summoner_trophy", "cataclysm_aptrgangr_head", "cataclysm_draugr_head", "cataclysm_kobolediator_skull", "cataclysm_remnant_skull", "cataclysm_unbreakable_skull", "handcrafted_bear_trophy", "handcrafted_blaze_trophy", "handcrafted_creeper_trophy", "handcrafted_evoker_trophy", "handcrafted_fox_trophy", "handcrafted_goat_trophy", "handcrafted_phantom_trophy", "handcrafted_pillager_trophy", "handcrafted_pufferfish_trophy", "handcrafted_salmon_trophy", "handcrafted_silverfish_trophy", "handcrafted_skeleton_horse_trophy", "handcrafted_skeleton_trophy", "handcrafted_spider_trophy", "handcrafted_tropical_fish_trophy", "handcrafted_vindicator_trophy", "handcrafted_witch_trophy", "handcrafted_wither_skeleton_trophy", "handcrafted_wolf_trophy", "minecraft_creeper_head", "minecraft_dragon_head", "minecraft_piglin_head", "minecraft_skeleton_skull", "minecraft_wither_skeleton_skull", "minecraft_zombie_head", "mynethersdelight_hoglin_trophy", "mynethersdelight_skoglin_trophy", "mynethersdelight_waxed_hoglin_trophy", "mynethersdelight_zoglin_trophy", "supplementaries_enderman_head", "twilightforest_alpha_yeti_trophy", "twilightforest_hydra_trophy", "twilightforest_knight_phantom_trophy", "twilightforest_lich_trophy", "twilightforest_minoshroom_trophy", "twilightforest_naga_trophy", "twilightforest_quest_ram_trophy", "twilightforest_snow_queen_trophy", "twilightforest_ur_ghast_trophy", "umbral_skies_slider_trophy", "umbral_skies_sun_spirit_trophy", "umbral_skies_valkyrie_queen_trophy"]
+description = """
+Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+"""

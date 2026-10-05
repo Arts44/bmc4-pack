@@ -1,0 +1,1126 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_trophees"
+	group: "34D36ACF0DABCCEC"
+	icon: "twilightforest:naga_trophy"
+	id: "62EBFB2325331F6F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Les trophées des boss, les têtes de créatures et les trophées de décoration. Une quête se valide en ayant l'objet dans l'inventaire."]
+			icon: "twilightforest:naga_trophy"
+			id: "1FA57BC96E40EFD2"
+			rewards: [{
+				id: "4EC059A7E2F24EB2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1E8D0606D64282EE"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Trophées et têtes"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:alchemist_trophy"
+			id: "223086B185C478CA"
+			optional: true
+			rewards: [{
+				id: "5BDC6F5B0D8CB829"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C0F8A9AE47AEAEE"
+				item: "blue_skies:alchemist_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée de l'Alchimiste"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:arachnarch_trophy"
+			id: "3AA0C2967ECCB8CD"
+			optional: true
+			rewards: [{
+				id: "59683C87C952FA60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AC2CA04BF207E3A"
+				item: "blue_skies:arachnarch_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée de l'Arachnarque"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:starlit_crusher_trophy"
+			id: "7A856BB212F7CDC9"
+			optional: true
+			rewards: [{
+				id: "4989638C652823B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B62F92B887E33C3"
+				item: "blue_skies:starlit_crusher_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée du Déstructeur des Étoiles"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:summoner_trophy"
+			id: "68FCC8F7600F0094"
+			optional: true
+			rewards: [{
+				id: "6C253DB94D06A0EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27CAE8D576CE289F"
+				item: "blue_skies:summoner_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée du Summonateur"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:aptrgangr_head"
+			id: "61A7BCA2446827A7"
+			optional: true
+			rewards: [{
+				id: "0F13598035D68540"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D5EBC347C3ED8D1"
+				item: "cataclysm:aptrgangr_head"
+				type: "item"
+			}]
+			title: "Obtenir : « Aptrgangr Head »"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:draugr_head"
+			id: "473FC2CC8D62C757"
+			optional: true
+			rewards: [{
+				id: "41CD16FD4CC3B166"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26D9E13778C41264"
+				item: "cataclysm:draugr_head"
+				type: "item"
+			}]
+			title: "Obtenir : « Draugr Head »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:kobolediator_skull"
+			id: "19A93EBA6F50C038"
+			optional: true
+			rewards: [{
+				id: "1B65DC747ACCDD10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0CE721C6F9CD57B5"
+				item: "cataclysm:kobolediator_skull"
+				type: "item"
+			}]
+			title: "Obtenir : « Kobolediator Skull »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:remnant_skull"
+			id: "0936E7F834950413"
+			optional: true
+			rewards: [{
+				id: "2650787C06896278"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C7E73994A54C935"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			title: "Obtenir : « Remnant's Skull »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:unbreakable_skull"
+			id: "2B8F1795642DDB5E"
+			optional: true
+			rewards: [{
+				id: "39B8C393AE09F57D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57EBD13283F90836"
+				item: "cataclysm:unbreakable_skull"
+				type: "item"
+			}]
+			title: "Obtenir : « Unbreakable Skull »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:bear_trophy"
+			id: "18EDEAE98FA49881"
+			optional: true
+			rewards: [{
+				id: "0443263EB21B849D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0857A214B720DF8C"
+				item: "handcrafted:bear_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Bear Trophy »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:blaze_trophy"
+			id: "285379CDE759DEB0"
+			optional: true
+			rewards: [{
+				id: "44F205E201123B21"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "152C76AA5F690959"
+				item: "handcrafted:blaze_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Blaze Trophy »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:creeper_trophy"
+			id: "703D8DCAB40B7B0A"
+			optional: true
+			rewards: [{
+				id: "11B571AC947FA81C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C44D7D11EBDB8B4"
+				item: "handcrafted:creeper_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Creeper Trophy »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:evoker_trophy"
+			id: "0DECF10440155F52"
+			optional: true
+			rewards: [{
+				id: "310BB6E5F7CE9518"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16402E7DBB20DB76"
+				item: "handcrafted:evoker_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Evoker Trophy »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:fox_trophy"
+			id: "7810AD976A74E297"
+			optional: true
+			rewards: [{
+				id: "7EEE1CA51E4B70FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DD11FA92625B7B7"
+				item: "handcrafted:fox_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Fox Trophy »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:goat_trophy"
+			id: "1241A04AC35FD175"
+			optional: true
+			rewards: [{
+				id: "77F56F7B9F3BC24D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4913897E5AACFCC0"
+				item: "handcrafted:goat_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Goat Trophy »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:phantom_trophy"
+			id: "621C8F2B9853DD32"
+			optional: true
+			rewards: [{
+				id: "156435BF0271117C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BD370E6964995AE"
+				item: "handcrafted:phantom_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Phantom Trophy »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:pillager_trophy"
+			id: "5D93CF220CAE4105"
+			optional: true
+			rewards: [{
+				id: "26D59FE0AF1F0A4F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B79D704A83125C8"
+				item: "handcrafted:pillager_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Pillager Trophy »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:pufferfish_trophy"
+			id: "6AB5078831B7F3FD"
+			optional: true
+			rewards: [{
+				id: "33B8363372F01A43"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "701C1258ABF4D0C8"
+				item: "handcrafted:pufferfish_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Pufferfish Trophy »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:salmon_trophy"
+			id: "189D4426F5158E1D"
+			optional: true
+			rewards: [{
+				id: "5B057C1AFF684FBA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "53A4C905D7B559B6"
+				item: "handcrafted:salmon_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Salmon Trophy »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:silverfish_trophy"
+			id: "54494A59F4CD7406"
+			optional: true
+			rewards: [{
+				id: "568BD14B3BE2AEFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C92F9BE62113C53"
+				item: "handcrafted:silverfish_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Silverfish Trophy »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:skeleton_horse_trophy"
+			id: "39E447B9E6ABC154"
+			optional: true
+			rewards: [{
+				id: "7B037D5C6AD1C04B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "105849CCF0608B29"
+				item: "handcrafted:skeleton_horse_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Skeleton Horse Trophy »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:skeleton_trophy"
+			id: "5EB81B1D6FF90728"
+			optional: true
+			rewards: [{
+				id: "6D9EDAE942F8D29E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7507B753855891E1"
+				item: "handcrafted:skeleton_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Skeleton Trophy »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:spider_trophy"
+			id: "3D7C7B9A548A04C6"
+			optional: true
+			rewards: [{
+				id: "70E32EAEC062DE57"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "426ED40C539E3F97"
+				item: "handcrafted:spider_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Spider Trophy »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:tropical_fish_trophy"
+			id: "78B4F1E05C35BA9B"
+			optional: true
+			rewards: [{
+				id: "1BE063FEE4522E84"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60A3DCBEEF7BD6D0"
+				item: "handcrafted:tropical_fish_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Tropical Fish Trophy »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:vindicator_trophy"
+			id: "64BECF9F6A9F534A"
+			optional: true
+			rewards: [{
+				id: "1C17673F0DBF3197"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6740E1BE994CF468"
+				item: "handcrafted:vindicator_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Vindicator Trophy »"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:witch_trophy"
+			id: "23A0FFBEFCD07954"
+			optional: true
+			rewards: [{
+				id: "3EBB459143C378BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "581359A6A54A310C"
+				item: "handcrafted:witch_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Witch Trophy »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:wither_skeleton_trophy"
+			id: "431FB4C7E371D37F"
+			optional: true
+			rewards: [{
+				id: "63FEA88041B41F44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "270C4BDFF8622428"
+				item: "handcrafted:wither_skeleton_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Wither Skeleton Trophy »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bhandcrafted&r."]
+			icon: "handcrafted:wolf_trophy"
+			id: "6BF8A4B97FCB66BB"
+			optional: true
+			rewards: [{
+				id: "26F24E5F3FA79CFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D4C9874BC5B2766"
+				item: "handcrafted:wolf_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Wolf Trophy »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:creeper_head"
+			id: "117031B8443638AB"
+			optional: true
+			rewards: [{
+				id: "7A5F93C183D88D6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69471FCC7B13642D"
+				item: "minecraft:creeper_head"
+				type: "item"
+			}]
+			title: "Obtenir : Tête de Creeper"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:dragon_head"
+			id: "59AEBE47552758BF"
+			optional: true
+			rewards: [{
+				id: "513F01E82292E299"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1782BDD983F83A87"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "Obtenir : Tête de dragon"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:piglin_head"
+			id: "71DBD98B1BEEA279"
+			optional: true
+			rewards: [{
+				id: "38A4BD26397141AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B675525CBBD341A"
+				item: "minecraft:piglin_head"
+				type: "item"
+			}]
+			title: "Obtenir : Tête de Piglin"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:skeleton_skull"
+			id: "43D8B17AC6A9350E"
+			optional: true
+			rewards: [{
+				id: "24FEAF9F66E0FFC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58873E3AD809C76C"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			title: "Obtenir : Crâne de squelette"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "52FF5A5F283530F5"
+			optional: true
+			rewards: [{
+				id: "61413668FCD5830F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "571326E29CE08267"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "Obtenir : Crâne de Wither squelette"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:zombie_head"
+			id: "50AE350F7EA58E9A"
+			optional: true
+			rewards: [{
+				id: "49F12D20F070AD9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19A0AF3608D9441E"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			title: "Obtenir : Tête de zombie"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bmynethersdelight&r."]
+			icon: "mynethersdelight:hoglin_trophy"
+			id: "37921672A6FDBB25"
+			optional: true
+			rewards: [{
+				id: "0394ABDD0810FC2A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "511B17F5E9E26AA7"
+				item: "mynethersdelight:hoglin_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Hoglin Trophy »"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bmynethersdelight&r."]
+			icon: "mynethersdelight:skoglin_trophy"
+			id: "4805696ECACA045B"
+			optional: true
+			rewards: [{
+				id: "4D705BA72494A2FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47A67C9CEA6E1059"
+				item: "mynethersdelight:skoglin_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Skoglin Trophy »"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bmynethersdelight&r."]
+			icon: "mynethersdelight:waxed_hoglin_trophy"
+			id: "74076B4FE6B70439"
+			optional: true
+			rewards: [{
+				id: "131337E3E911624B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40FD7381BF69D3CA"
+				item: "mynethersdelight:waxed_hoglin_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Waxed Hoglin Trophy »"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bmynethersdelight&r."]
+			icon: "mynethersdelight:zoglin_trophy"
+			id: "602102AA3614705F"
+			optional: true
+			rewards: [{
+				id: "3522DF1E224FE076"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20CC64D9785DA0D3"
+				item: "mynethersdelight:zoglin_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Zoglin Trophy »"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsupplementaries&r."]
+			icon: "supplementaries:enderman_head"
+			id: "5750DBC7DA930E14"
+			optional: true
+			rewards: [{
+				id: "4686B083BFC2DBF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28F844C4CB0C86EE"
+				item: "supplementaries:enderman_head"
+				type: "item"
+			}]
+			title: "Obtenir : Tête d'enderman"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "09CD52F93E27FB9A"
+			optional: true
+			rewards: [{
+				id: "6D5564DE25D50352"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "310C24C48E870846"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Alpha Yeti Trophy »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:hydra_trophy"
+			id: "535FD8A2C48E8515"
+			optional: true
+			rewards: [{
+				id: "02247DE5361E924F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3658A22A2CE792FB"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée d'Hydre"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "3B8D411F4E864BAB"
+			optional: true
+			rewards: [{
+				id: "1742CEA542AAF52D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "43C8CCEBBC91993C"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Knight Phantom Trophy »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:lich_trophy"
+			id: "789AE79EB9CFC979"
+			optional: true
+			rewards: [{
+				id: "1955D590DA9DD211"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4832FEC1870AFDFB"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée de Liche"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "0A65DCE5AD32C616"
+			optional: true
+			rewards: [{
+				id: "2094D0E4E9E3B91C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F0879F1433D5179"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Minoshroom Trophy »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:naga_trophy"
+			id: "37F741E76408D34D"
+			optional: true
+			rewards: [{
+				id: "6C11A3CC715E5612"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15F5663DB7D2768A"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée de Nâga"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:quest_ram_trophy"
+			id: "6D5BB7CAD2752717"
+			optional: true
+			rewards: [{
+				id: "68E67DF1343F6896"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "471E9E32B5044A5A"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Quest Ram Trophy »"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "4B8D0D4F8F1C7322"
+			optional: true
+			rewards: [{
+				id: "0A249B9F43E3F293"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7208FF7D7AD68E7C"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée de la Reine des Neiges"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "25C71EAAD18C1B84"
+			optional: true
+			rewards: [{
+				id: "60E0CE9115601A87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "067C1C6C5E7DC7CD"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : Trophée d'Ur-Ghast"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bumbral_skies&r."]
+			icon: "umbral_skies:slider_trophy"
+			id: "2EF3E57837AAD613"
+			optional: true
+			rewards: [{
+				id: "5190A73B9861D1D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F1B42DC62BD91BA"
+				item: "umbral_skies:slider_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Slider Trophy »"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bumbral_skies&r."]
+			icon: "umbral_skies:sun_spirit_trophy"
+			id: "3C60D2D6BF2B50A3"
+			optional: true
+			rewards: [{
+				id: "2F01470DC93D5891"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26C1443EBD442B58"
+				item: "umbral_skies:sun_spirit_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Sun Spirit Trophy »"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bumbral_skies&r."]
+			icon: "umbral_skies:valkyrie_queen_trophy"
+			id: "121CEBE269020CCA"
+			optional: true
+			rewards: [{
+				id: "01746C4B0C88263D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DB8D661805510CE"
+				item: "umbral_skies:valkyrie_queen_trophy"
+				type: "item"
+			}]
+			title: "Obtenir : « Valkyrie Queen Trophy »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"223086B185C478CA"
+				"3AA0C2967ECCB8CD"
+				"7A856BB212F7CDC9"
+				"68FCC8F7600F0094"
+				"61A7BCA2446827A7"
+				"473FC2CC8D62C757"
+				"19A93EBA6F50C038"
+				"0936E7F834950413"
+				"2B8F1795642DDB5E"
+				"18EDEAE98FA49881"
+				"285379CDE759DEB0"
+				"703D8DCAB40B7B0A"
+				"0DECF10440155F52"
+				"7810AD976A74E297"
+				"1241A04AC35FD175"
+				"621C8F2B9853DD32"
+				"5D93CF220CAE4105"
+				"6AB5078831B7F3FD"
+				"189D4426F5158E1D"
+				"54494A59F4CD7406"
+				"39E447B9E6ABC154"
+				"5EB81B1D6FF90728"
+				"3D7C7B9A548A04C6"
+				"78B4F1E05C35BA9B"
+				"64BECF9F6A9F534A"
+				"23A0FFBEFCD07954"
+				"431FB4C7E371D37F"
+				"6BF8A4B97FCB66BB"
+				"117031B8443638AB"
+				"59AEBE47552758BF"
+				"71DBD98B1BEEA279"
+				"43D8B17AC6A9350E"
+				"52FF5A5F283530F5"
+				"50AE350F7EA58E9A"
+				"37921672A6FDBB25"
+				"4805696ECACA045B"
+				"74076B4FE6B70439"
+				"602102AA3614705F"
+				"5750DBC7DA930E14"
+				"09CD52F93E27FB9A"
+				"535FD8A2C48E8515"
+				"3B8D411F4E864BAB"
+				"789AE79EB9CFC979"
+				"0A65DCE5AD32C616"
+				"37F741E76408D34D"
+				"6D5BB7CAD2752717"
+				"4B8D0D4F8F1C7322"
+				"25C71EAAD18C1B84"
+				"2EF3E57837AAD613"
+				"3C60D2D6BF2B50A3"
+				"121CEBE269020CCA"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "minecraft:dragon_head"
+			id: "2E381C072BDBE186"
+			optional: true
+			rewards: [{
+				id: "28866A922B12FBE5"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "57E44A344BCF402B"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Trophées et têtes"
+}
