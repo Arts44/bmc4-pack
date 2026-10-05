@@ -1,0 +1,811 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_minerais"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_ingot"
+	id: "6F9803E8B52103EB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque lingot et chaque gemme du pack, d'après les balises de lingots et de gemmes. Une quête se valide en ayant l'objet dans l'inventaire."]
+			icon: "minecraft:iron_ingot"
+			id: "1BF8FD00AF33655E"
+			rewards: [{
+				id: "50C4B0EB16969AC7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "38C245A30461D822"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Minerais et lingots"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:zanite_gemstone"
+			id: "6C306B1E61EDF7E9"
+			optional: true
+			rewards: [{
+				id: "2346E3CAD197E32F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "087F496CEF8AE977"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : « Zanite Gemstone »"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bAether Redux&r."]
+			icon: "aether_redux:gravitite_ingot"
+			id: "28D4E8C9FEE3AD18"
+			optional: true
+			rewards: [{
+				id: "61A09AE7368F915F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C6673ADDC914943"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : « Gravitite Ingot »"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bAether Redux&r."]
+			icon: "aether_redux:veridium_ingot"
+			id: "705735DE3D71B234"
+			optional: true
+			rewards: [{
+				id: "7E71A44C18C249EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F8372E1522E6EE6"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : « Veridium Ingot »"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:rose_quartz_chunk"
+			id: "5235FEADAA9AE49C"
+			optional: true
+			rewards: [{
+				id: "72A7ABB7C6362DEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11EC77147061BA69"
+				item: "biomesoplenty:rose_quartz_chunk"
+				type: "item"
+			}]
+			title: "Obtenir : « Rose Quartz Chunk »"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:brass_ingot"
+			id: "674B61288949AC13"
+			optional: true
+			rewards: [{
+				id: "2F148CD354A91C0E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B32EA4022F0A7D0"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de laiton"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:rose_quartz"
+			id: "75AAB4AA4B5DAF3B"
+			optional: true
+			rewards: [{
+				id: "5B3BCF35DBF7EA81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "142B5B9CB3C6C0A2"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			title: "Obtenir : Quartz rose"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:zinc_ingot"
+			id: "330A1AFC293197D7"
+			optional: true
+			rewards: [{
+				id: "5D57A6745CFC2E6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B606B5BB0E46DB7"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de zinc"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:skyjade"
+			id: "565D538B9AF87B07"
+			optional: true
+			rewards: [{
+				id: "369FF0D4AEEA2EAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61DABBE0490284EF"
+				item: "deep_aether:skyjade"
+				type: "item"
+			}]
+			title: "Obtenir : « Skyjade Gemstone »"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:stratus_ingot"
+			id: "38F21D275C9B2AA5"
+			optional: true
+			rewards: [{
+				id: "764D836158A59A37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E8ABAD498641439"
+				item: "deep_aether:stratus_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : « Stratus Ingot »"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bGalosphere&r."]
+			icon: "galosphere:palladium_ingot"
+			id: "77508BEBE8A3FB57"
+			optional: true
+			rewards: [{
+				id: "29A2C000BB747BEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2546761C7C546D39"
+				item: "galosphere:palladium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : « Palladium Ingot »"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bhazennstuff&r."]
+			icon: "hazennstuff:steel_ingot"
+			id: "38927C09BACB4786"
+			optional: true
+			rewards: [{
+				id: "1E291E9A1293033A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5BB77AB54C5BA53E"
+				item: "hazennstuff:steel_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : « Steel Ingot »"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:mithril_ingot"
+			id: "051020DFC5E41374"
+			optional: true
+			rewards: [{
+				id: "1774E9883F7E0B0E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "776ADE5B1506D712"
+				item: "irons_spellbooks:mithril_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de Mithril"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:pyrium_ingot"
+			id: "4EFD40888EC46D50"
+			optional: true
+			rewards: [{
+				id: "39E70C8934E97689"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "170CD9CF10FD9854"
+				item: "irons_spellbooks:pyrium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de Pyrium"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:copper_ingot"
+			id: "2D0EB0E1E041DCE3"
+			optional: true
+			rewards: [{
+				id: "29FE0AFC7250DD1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "518C933F994016BB"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de cuivre"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:awakened_supremium_gemstone"
+			id: "009B34F01C557851"
+			optional: true
+			rewards: [{
+				id: "2408D226141BF63B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0943EC3C54E49849"
+				item: "mysticalagriculture:awakened_supremium_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : Gemme de Supremium Éveillé"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:awakened_supremium_ingot"
+			id: "4129B10455B9BDCA"
+			optional: true
+			rewards: [{
+				id: "612DF1A27BF6302D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "509A654127840074"
+				item: "mysticalagriculture:awakened_supremium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de Supremium Éveillé"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:imperium_gemstone"
+			id: "5EC7732A6AADF1EF"
+			optional: true
+			rewards: [{
+				id: "60A015DB2582CA60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BDE52DBE5AC1493"
+				item: "mysticalagriculture:imperium_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : Gemme d'Imperium"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:imperium_ingot"
+			id: "1E65E93BA7D96F52"
+			optional: true
+			rewards: [{
+				id: "696ACAE91086A961"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23790EA71E54A8C0"
+				item: "mysticalagriculture:imperium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot d'Imperium"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:inferium_gemstone"
+			id: "437AA7884A7BA7E7"
+			optional: true
+			rewards: [{
+				id: "2260830F61FA318C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F083E0B06B64490"
+				item: "mysticalagriculture:inferium_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : Gemme d'Inferium"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:inferium_ingot"
+			id: "7D9DBB34D0C7E7AD"
+			optional: true
+			rewards: [{
+				id: "6416858964BBCA65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1477DAC4326F7C12"
+				item: "mysticalagriculture:inferium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot d'Inferium"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:prosperity_gemstone"
+			id: "0EE4AE5C6678C43B"
+			optional: true
+			rewards: [{
+				id: "638742884CC261C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7083CDEAF3600755"
+				item: "mysticalagriculture:prosperity_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : Gemme de prospérité"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:prosperity_ingot"
+			id: "1C10EF009AA2C279"
+			optional: true
+			rewards: [{
+				id: "59CEEC5788F73BFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38EF51B36840A1EE"
+				item: "mysticalagriculture:prosperity_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de prospérité"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:prudentium_gemstone"
+			id: "54AABEE279A491A8"
+			optional: true
+			rewards: [{
+				id: "4B4F89FBFFAD30BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03B7EB351787362E"
+				item: "mysticalagriculture:prudentium_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : Gemme de Prudentium"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:prudentium_ingot"
+			id: "579212B59D89AB60"
+			optional: true
+			rewards: [{
+				id: "01B2CB25B58B4045"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FC8D1192907BA96"
+				item: "mysticalagriculture:prudentium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de Prudentium"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:soulium_gemstone"
+			id: "51C1E29965F87B80"
+			optional: true
+			rewards: [{
+				id: "7B274463F7134CB5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F864911CBA35800"
+				item: "mysticalagriculture:soulium_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : Gemme de Soulium"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:soulium_ingot"
+			id: "0556A9F3D48BF9FB"
+			optional: true
+			rewards: [{
+				id: "695324CBC37A4AD9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46E3B3905280B90A"
+				item: "mysticalagriculture:soulium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de Soulium"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:supremium_gemstone"
+			id: "464AC7BBCC9144F6"
+			optional: true
+			rewards: [{
+				id: "76EB43BC31980AF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41F573B335A3033C"
+				item: "mysticalagriculture:supremium_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : Gemme de Supremium"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:supremium_ingot"
+			id: "23A6D73EE4C1982C"
+			optional: true
+			rewards: [{
+				id: "06BF53683BFE0B33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F5352BDD32E424D"
+				item: "mysticalagriculture:supremium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de Supremium"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:tertium_gemstone"
+			id: "45D1379770FC4AC0"
+			optional: true
+			rewards: [{
+				id: "4414FE0F289318DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21C961E8DF5E0B8A"
+				item: "mysticalagriculture:tertium_gemstone"
+				type: "item"
+			}]
+			title: "Obtenir : Gemme de Tertium"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bmysticalagriculture&r."]
+			icon: "mysticalagriculture:tertium_ingot"
+			id: "435AB253E7725A5D"
+			optional: true
+			rewards: [{
+				id: "60E673DF10031CA6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A5DCE1E93908A14"
+				item: "mysticalagriculture:tertium_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de Tertium"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bsupplementaries&r."]
+			icon: "supplementaries:ash_brick"
+			id: "664038AB15D42AB1"
+			optional: true
+			rewards: [{
+				id: "12855524D0ED7733"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A6ECB41D93FFD1C"
+				item: "supplementaries:ash_brick"
+				type: "item"
+			}]
+			title: "Obtenir : Brique en cendres"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:carminite"
+			id: "42E4D2E7AD1ECB65"
+			optional: true
+			rewards: [{
+				id: "40FF9BCBEF2AD3D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F51302049C5AF78"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			title: "Obtenir : « Carminite »"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:fiery_ingot"
+			id: "09C03351376438FD"
+			optional: true
+			rewards: [{
+				id: "36DBF476C3725B56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49F24E542C0AE507"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot ardent"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:ironwood_ingot"
+			id: "3A10AF27E312EBE4"
+			optional: true
+			rewards: [{
+				id: "1B8B79DC6E932CD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65082781971B8C30"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot en bois de fer"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:knightmetal_ingot"
+			id: "1B37B1FA684083F5"
+			optional: true
+			rewards: [{
+				id: "0077642686FAE492"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "256A671E6AFFC256"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : Lingot de métal de chevalier"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:steeleaf_ingot"
+			id: "11C1272591E64A63"
+			optional: true
+			rewards: [{
+				id: "7ACE70CDFCD52102"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BF5C64404C985BE"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			title: "Obtenir : « Steeleaf »"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6C306B1E61EDF7E9"
+				"28D4E8C9FEE3AD18"
+				"705735DE3D71B234"
+				"5235FEADAA9AE49C"
+				"674B61288949AC13"
+				"75AAB4AA4B5DAF3B"
+				"330A1AFC293197D7"
+				"565D538B9AF87B07"
+				"38F21D275C9B2AA5"
+				"77508BEBE8A3FB57"
+				"38927C09BACB4786"
+				"051020DFC5E41374"
+				"4EFD40888EC46D50"
+				"2D0EB0E1E041DCE3"
+				"009B34F01C557851"
+				"4129B10455B9BDCA"
+				"5EC7732A6AADF1EF"
+				"1E65E93BA7D96F52"
+				"437AA7884A7BA7E7"
+				"7D9DBB34D0C7E7AD"
+				"0EE4AE5C6678C43B"
+				"1C10EF009AA2C279"
+				"54AABEE279A491A8"
+				"579212B59D89AB60"
+				"51C1E29965F87B80"
+				"0556A9F3D48BF9FB"
+				"464AC7BBCC9144F6"
+				"23A6D73EE4C1982C"
+				"45D1379770FC4AC0"
+				"435AB253E7725A5D"
+				"664038AB15D42AB1"
+				"42E4D2E7AD1ECB65"
+				"09C03351376438FD"
+				"3A10AF27E312EBE4"
+				"1B37B1FA684083F5"
+				"11C1272591E64A63"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "minecraft:diamond"
+			id: "4B045DBE8B8C8E50"
+			optional: true
+			rewards: [{
+				id: "0EA5F2915249545B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5D403BB2BD51404D"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&7Minerais et lingots"
+}

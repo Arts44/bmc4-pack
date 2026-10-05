@@ -1,0 +1,431 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&7Minerais et lingots"
+fichier = "enc_minerais"
+groupe = "encyclopedie"
+icone = "minecraft:iron_ingot"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&7Minerais et lingots"
+taille = 1.5
+icone = "minecraft:iron_ingot"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque lingot et chaque gemme du pack, d'après les balises de lingots et de gemmes. Une quête se valide en ayant l'objet dans l'inventaire.
+"""
+
+[[quete]]
+cle = "aether_zanite_gemstone"
+titre = "Obtenir : « Zanite Gemstone »"
+optionnel = true
+icone = "aether:zanite_gemstone"
+taches = ["item aether:zanite_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_redux_gravitite_ingot"
+titre = "Obtenir : « Gravitite Ingot »"
+optionnel = true
+icone = "aether_redux:gravitite_ingot"
+taches = ["item aether_redux:gravitite_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether Redux&r.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_ingot"
+titre = "Obtenir : « Veridium Ingot »"
+optionnel = true
+icone = "aether_redux:veridium_ingot"
+taches = ["item aether_redux:veridium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether Redux&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_rose_quartz_chunk"
+titre = "Obtenir : « Rose Quartz Chunk »"
+optionnel = true
+icone = "biomesoplenty:rose_quartz_chunk"
+taches = ["item biomesoplenty:rose_quartz_chunk"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "create_brass_ingot"
+titre = "Obtenir : Lingot de laiton"
+optionnel = true
+icone = "create:brass_ingot"
+taches = ["item create:brass_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_rose_quartz"
+titre = "Obtenir : Quartz rose"
+optionnel = true
+icone = "create:rose_quartz"
+taches = ["item create:rose_quartz"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_zinc_ingot"
+titre = "Obtenir : Lingot de zinc"
+optionnel = true
+icone = "create:zinc_ingot"
+taches = ["item create:zinc_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade"
+titre = "Obtenir : « Skyjade Gemstone »"
+optionnel = true
+icone = "deep_aether:skyjade"
+taches = ["item deep_aether:skyjade"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_ingot"
+titre = "Obtenir : « Stratus Ingot »"
+optionnel = true
+icone = "deep_aether:stratus_ingot"
+taches = ["item deep_aether:stratus_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "galosphere_palladium_ingot"
+titre = "Obtenir : « Palladium Ingot »"
+optionnel = true
+icone = "galosphere:palladium_ingot"
+taches = ["item galosphere:palladium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bGalosphere&r.
+"""
+
+[[quete]]
+cle = "hazennstuff_steel_ingot"
+titre = "Obtenir : « Steel Ingot »"
+optionnel = true
+icone = "hazennstuff:steel_ingot"
+taches = ["item hazennstuff:steel_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bhazennstuff&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_mithril_ingot"
+titre = "Obtenir : Lingot de Mithril"
+optionnel = true
+icone = "irons_spellbooks:mithril_ingot"
+taches = ["item irons_spellbooks:mithril_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pyrium_ingot"
+titre = "Obtenir : Lingot de Pyrium"
+optionnel = true
+icone = "irons_spellbooks:pyrium_ingot"
+taches = ["item irons_spellbooks:pyrium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "minecraft_copper_ingot"
+titre = "Obtenir : Lingot de cuivre"
+optionnel = true
+icone = "minecraft:copper_ingot"
+taches = ["item minecraft:copper_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_gemstone"
+titre = "Obtenir : Gemme de Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_gemstone"
+taches = ["item mysticalagriculture:awakened_supremium_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_ingot"
+titre = "Obtenir : Lingot de Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_ingot"
+taches = ["item mysticalagriculture:awakened_supremium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_gemstone"
+titre = "Obtenir : Gemme d'Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_gemstone"
+taches = ["item mysticalagriculture:imperium_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_ingot"
+titre = "Obtenir : Lingot d'Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_ingot"
+taches = ["item mysticalagriculture:imperium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_gemstone"
+titre = "Obtenir : Gemme d'Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_gemstone"
+taches = ["item mysticalagriculture:inferium_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_ingot"
+titre = "Obtenir : Lingot d'Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_ingot"
+taches = ["item mysticalagriculture:inferium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prosperity_gemstone"
+titre = "Obtenir : Gemme de prospérité"
+optionnel = true
+icone = "mysticalagriculture:prosperity_gemstone"
+taches = ["item mysticalagriculture:prosperity_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prosperity_ingot"
+titre = "Obtenir : Lingot de prospérité"
+optionnel = true
+icone = "mysticalagriculture:prosperity_ingot"
+taches = ["item mysticalagriculture:prosperity_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_gemstone"
+titre = "Obtenir : Gemme de Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_gemstone"
+taches = ["item mysticalagriculture:prudentium_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_ingot"
+titre = "Obtenir : Lingot de Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_ingot"
+taches = ["item mysticalagriculture:prudentium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_soulium_gemstone"
+titre = "Obtenir : Gemme de Soulium"
+optionnel = true
+icone = "mysticalagriculture:soulium_gemstone"
+taches = ["item mysticalagriculture:soulium_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_soulium_ingot"
+titre = "Obtenir : Lingot de Soulium"
+optionnel = true
+icone = "mysticalagriculture:soulium_ingot"
+taches = ["item mysticalagriculture:soulium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_gemstone"
+titre = "Obtenir : Gemme de Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_gemstone"
+taches = ["item mysticalagriculture:supremium_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_ingot"
+titre = "Obtenir : Lingot de Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_ingot"
+taches = ["item mysticalagriculture:supremium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_gemstone"
+titre = "Obtenir : Gemme de Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_gemstone"
+taches = ["item mysticalagriculture:tertium_gemstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_ingot"
+titre = "Obtenir : Lingot de Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_ingot"
+taches = ["item mysticalagriculture:tertium_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bmysticalagriculture&r.
+"""
+
+[[quete]]
+cle = "supplementaries_ash_brick"
+titre = "Obtenir : Brique en cendres"
+optionnel = true
+icone = "supplementaries:ash_brick"
+taches = ["item supplementaries:ash_brick"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bsupplementaries&r.
+"""
+
+[[quete]]
+cle = "twilightforest_carminite"
+titre = "Obtenir : « Carminite »"
+optionnel = true
+icone = "twilightforest:carminite"
+taches = ["item twilightforest:carminite"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_ingot"
+titre = "Obtenir : Lingot ardent"
+optionnel = true
+icone = "twilightforest:fiery_ingot"
+taches = ["item twilightforest:fiery_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_ingot"
+titre = "Obtenir : Lingot en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_ingot"
+taches = ["item twilightforest:ironwood_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_ingot"
+titre = "Obtenir : Lingot de métal de chevalier"
+optionnel = true
+icone = "twilightforest:knightmetal_ingot"
+taches = ["item twilightforest:knightmetal_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_ingot"
+titre = "Obtenir : « Steeleaf »"
+optionnel = true
+icone = "twilightforest:steeleaf_ingot"
+taches = ["item twilightforest:steeleaf_ingot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:diamond"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["aether_zanite_gemstone", "aether_redux_gravitite_ingot", "aether_redux_veridium_ingot", "biomesoplenty_rose_quartz_chunk", "create_brass_ingot", "create_rose_quartz", "create_zinc_ingot", "deep_aether_skyjade", "deep_aether_stratus_ingot", "galosphere_palladium_ingot", "hazennstuff_steel_ingot", "irons_spellbooks_mithril_ingot", "irons_spellbooks_pyrium_ingot", "minecraft_copper_ingot", "mysticalagriculture_awakened_supremium_gemstone", "mysticalagriculture_awakened_supremium_ingot", "mysticalagriculture_imperium_gemstone", "mysticalagriculture_imperium_ingot", "mysticalagriculture_inferium_gemstone", "mysticalagriculture_inferium_ingot", "mysticalagriculture_prosperity_gemstone", "mysticalagriculture_prosperity_ingot", "mysticalagriculture_prudentium_gemstone", "mysticalagriculture_prudentium_ingot", "mysticalagriculture_soulium_gemstone", "mysticalagriculture_soulium_ingot", "mysticalagriculture_supremium_gemstone", "mysticalagriculture_supremium_ingot", "mysticalagriculture_tertium_gemstone", "mysticalagriculture_tertium_ingot", "supplementaries_ash_brick", "twilightforest_carminite", "twilightforest_fiery_ingot", "twilightforest_ironwood_ingot", "twilightforest_knightmetal_ingot", "twilightforest_steeleaf_ingot"]
+description = """
+Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+"""
