@@ -67,6 +67,9 @@ def charger_index():
     g = os.path.join(os.path.dirname(INDEX[0]), 'generation.json')
     if os.path.exists(g):
         ix['_generation'] = json.load(open(g, encoding='utf-8'))
+    m = os.path.join(os.path.dirname(INDEX[0]), 'mods_charges.json')
+    if os.path.exists(m):
+        ix['_mods'] = set(json.load(open(m, encoding='utf-8')))
     return ix
 
 
@@ -78,6 +81,13 @@ class Verif:
     def _ok(self, cat, ident, ou):
         if ident not in self.ix.get(cat, {}):
             self.erreurs.append(f"{ou} : {cat} inconnu « {ident} »")
+            return False
+        # l'index lit aussi les fichiers de compatibilité que des mods embarquent
+        # pour d'autres mods : l'espace de noms doit être un mod chargé
+        # (index/mods_charges.json, outils/mods-charges.py)
+        mods = self.ix.get('_mods')
+        if mods and cat in ('items', 'entities', 'biomes', 'structures') and ident.split(':')[0] not in mods:
+            self.erreurs.append(f"{ou} : « {ident} » vient de « {ident.split(':')[0]} », mod absent du pack")
             return False
         return True
 
@@ -120,6 +130,14 @@ class Verif:
         'dragonloot:dragon_crossbow': "recette générée par le code de DragonLoot (arbalète + écaille)",
         'dragonloot:dragon_trident': "recette générée par le code de DragonLoot (trident + écaille)",
         'dragonloot:dragon_horse_armor': "recette générée par le code de DragonLoot (armure de cheval en diamant + écaille)",
+        'spawnersplus:zombie_soul': "Spawners+ : ModLootTableModifiers (javap) ajoute l'âme au butin de la créature tuée avec une arme Soul Stealing ; soul_drop_rates.json du serveur : 0.04",
+        'spawnersplus:skeleton_soul': "Spawners+ : ModLootTableModifiers (javap) ajoute l'âme au butin de la créature tuée avec une arme Soul Stealing ; soul_drop_rates.json du serveur : 0.04",
+        'spawnersplus:spider_soul': "Spawners+ : ModLootTableModifiers (javap) ajoute l'âme au butin de la créature tuée avec une arme Soul Stealing ; soul_drop_rates.json du serveur : 0.04",
+        'spawnersplus:cave_spider_soul': "Spawners+ : ModLootTableModifiers (javap) ajoute l'âme au butin de la créature tuée avec une arme Soul Stealing ; soul_drop_rates.json du serveur : 0.07",
+        'spawnersplus:blaze_soul': "Spawners+ : ModLootTableModifiers (javap) ajoute l'âme au butin de la créature tuée avec une arme Soul Stealing ; soul_drop_rates.json du serveur : 0.05",
+        'spawnersplus:magma_cube_soul': "Spawners+ : ModLootTableModifiers (javap) ajoute l'âme au butin de la créature tuée avec une arme Soul Stealing ; soul_drop_rates.json du serveur : 0.02",
+        'spawnersplus:creeper_soul': "Spawners+ : ModLootTableModifiers (javap) ajoute l'âme au butin de la créature tuée avec une arme Soul Stealing ; soul_drop_rates.json du serveur : 0.05",
+        'spawnersplus:husk_soul': "Spawners+ : ModLootTableModifiers (javap) ajoute l'âme au butin de la créature tuée avec une arme Soul Stealing ; soul_drop_rates.json du serveur : 0.04",
         'dragonloot:upgraded_dragon_chestplate': "recette générée par le code de DragonLoot (plastron de dragon + élytres)",
     }
 

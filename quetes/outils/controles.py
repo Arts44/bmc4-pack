@@ -249,6 +249,9 @@ COUVERTURE_IGNORES = {
     'extra_compat': "seaux en skyroot pour les poissons d'autres mods : variantes sans mécanique propre",
     'snowrealmagic': "neige posée sur les clôtures, dalles et murs : états de blocs, aucun objet obtenable",
     'glow_up': "modèle d'ornement lumineux inobtenable ; pâte et torche lumineuses sans mécanique lisible",
+    'irons_patreon_lib': "bibliothèque d'Iron's Spells (objets internes)",
+    'abridged': "structure de pont qui ne se génère pas sur ce serveur (outils/generation.py)",
+    'ivp': "petits villages qui ne se génèrent pas sur ce serveur (outils/generation.py)",
 }
 
 
@@ -257,7 +260,7 @@ def rapport_couverture(chapitres, ix, ignores=None):
     et qu'aucune tâche, icône ou récompense du livre ne cite."""
     ignores = COUVERTURE_IGNORES if ignores is None else ignores
     contenu = {}
-    charges = set(ix.get('mods', {}))   # seuls les mods du pack : l'index cite aussi des mods absents (compat)
+    charges = ix.get('_mods') or set(ix.get('mods', {}))   # mods chargés (index/mods_charges.json)
     for cat in ('items', 'entities', 'biomes', 'structures'):
         for i in ix.get(cat, {}):
             ns = i.split(':')[0]
