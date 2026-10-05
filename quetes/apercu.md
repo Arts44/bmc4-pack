@@ -519,7 +519,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Azélufo** *(optionnelle)* — tâches : observation entity blue_skies:azulfo — récompense : xp 1
   > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Hautes-terres polaires, Terres détrempées, Pins neigeux. Butin : Caraboeuf cru, Corne d'azélufo.
 - **Rencontre : Poisson moki** *(optionnelle)* — tâches : observation entity blue_skies:charscale_moki — récompense : xp 1
-  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson moki, Poudre d'os.
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson moki cru, Poudre d'os.
 - **Rencontre : Renard Cosmique** *(optionnelle)* — tâches : observation entity blue_skies:cosmic_fox — récompense : xp 1
   > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Verger de crofruits, Prairie brûlante, Bosquets de l'ombre, Forêt d'érables, Vallée pas très orthodoxe. Butin : Fourrure de renard cosmique, Saumon cru.
 - **Rencontre : Crogre** *(optionnelle)* — tâches : observation entity blue_skies:crogre — récompense : xp 1
@@ -529,7 +529,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Chameau de cristal** *(optionnelle)* — tâches : observation entity blue_skies:crystal_camel — récompense : xp 1
   > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal. Butin : Pierre de lune vitreuse, Os.
 - **Rencontre : Rôdeur diophyde** *(optionnelle)* — tâches : observation entity blue_skies:diophyde_prowler — récompense : xp 1
-  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Forêt oubligelée, Lisière de forêt oubligelée, Hautes-terres polaires et d'autres. Butin : Cuir, Poisson marosien.
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Forêt oubligelée, Lisière de forêt oubligelée, Hautes-terres polaires et d'autres. Butin : Cuir, Poisson marosien cru.
 - **Rencontre : Rétourbeur** *(optionnelle)* — tâches : observation entity blue_skies:emberback — récompense : xp 1
   > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Prairie brûlante, Forêt d'érables, Vallée pas très orthodoxe. Butin : Intestins d'instectes.
 - **Rencontre : Luciole** *(optionnelle)* — tâches : observation entity blue_skies:firefly — récompense : xp 1
@@ -537,15 +537,15 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Gardien du portail** *(optionnelle)* — tâches : observation entity blue_skies:gatekeeper — récompense : xp 1
   > Créature de Blue Skies. Apparaît : dans sa maison, dans l'Overworld.
 - **Rencontre : Poisson plat** *(optionnelle)* — tâches : observation entity blue_skies:grittle_flatfish — récompense : xp 1
-  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson plat, Poudre d'os.
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson plat cru, Poudre d'os.
 - **Rencontre : Poisson tunide** *(optionnelle)* — tâches : observation entity blue_skies:horizofin_tunid — récompense : xp 1
-  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson tunide, Poudre d'os.
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson tunide cru, Poudre d'os.
 - **Rencontre : Piqueur infecté** *(optionnelle)* — tâches : observation entity blue_skies:infested_swarmer — récompense : xp 1
   > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Verger de crofruits, Lac de verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire et d'autres. Butin : Intestins d'instectes.
 - **Rencontre : Dériveur gélatineux** *(optionnelle)* — tâches : observation entity blue_skies:jelly_drifter — récompense : xp 1
   > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant.
 - **Rencontre : Poisson marosien** *(optionnelle)* — tâches : observation entity blue_skies:municipal_monkfish — récompense : xp 1
-  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson marosien, Poudre d'os.
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson marosien cru, Poudre d'os.
 - **Rencontre : Nycto-insecte** *(optionnelle)* — tâches : observation entity blue_skies:nyctofly — récompense : xp 1
   > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Bassin lunaire, Bosquets de l'ombre. Butin : Intestins d'instectes, Boule de slime.
 - **Rencontre : Polirours** *(optionnelle)* — tâches : observation entity blue_skies:polargeist — récompense : xp 1
@@ -948,7 +948,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Sous-mineur** *(optionnelle)* — tâches : observation entity alexsmobs:underminer — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Apparaît : dans les mines abandonnées seulement ; il disparaît quand on approche à 8 blocs.
 - **Rencontre : Conjurateur** *(optionnelle)* — tâches : observation entity conjurer_illager:conjurer — récompense : xp 1
-  > Créature de The Conjurer. Apparaît : sur la scène de son théâtre. Butin : Émeraude, Chapeau de Magicien, Carte à jeter.
+  > Créature de The Conjurer. Apparaît : sur la scène de son théâtre. Butin : Émeraude, Chapeau de Magicien.
   >   > Il tient un théâtre dans les forêts de chênes noirs. Illusions, lapins explosifs, cartes : un spectacle qu'on finit à l'épée.
 - **Rencontre : golem de cuivre** *(optionnelle)* — tâches : observation entity friendsandfoes:copper_golem — récompense : xp 1
   > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparaît : dans les villages et les cités anciennes, ou construit : bloc de cuivre et paratonnerre. Butin : Lingot de cuivre.
@@ -1010,9 +1010,9 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature du jeu de base. Apparaît : dans les villages (chats errants, apprivoisables) et les cabanes de sorcière. Butin : Ficelle.
 - **Rencontre : Araignée venimeuse** *(optionnelle)* — tâches : observation entity minecraft:cave_spider — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Nid d'araignée, Cavernes de soufre. Butin : Ficelle, Oeil d'araignée.
-- **Rencontre : Poulet cru** *(optionnelle)* — tâches : observation entity minecraft:chicken — récompense : xp 1
+- **Rencontre : Poule** *(optionnelle)* — tâches : observation entity minecraft:chicken — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt, Bosquet et d'autres. Butin : Plume, Poulet cru.
-- **Rencontre : Morue crue** *(optionnelle)* — tâches : observation entity minecraft:cod — récompense : xp 1
+- **Rencontre : Morue** *(optionnelle)* — tâches : observation entity minecraft:cod — récompense : xp 1
   > Créature du jeu de base. Catégorie : poisson. Monde : Overworld. Biomes : Océan froid, Océan froid profond, Océan tiède profond, Océan profond, Océan tiède, Océan. Butin : Morue crue, Poudre d'os.
 - **Rencontre : Vache** *(optionnelle)* — tâches : observation entity minecraft:cow — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt, Bosquet et d'autres. Butin : Cuir, Boeuf cru.
@@ -1070,11 +1070,11 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Océan gelé profond, Océan gelé, Stalagmites de glace, Plaines enneigées. Butin : Morue crue, Saumon cru.
 - **Rencontre : Poisson-globe** *(optionnelle)* — tâches : observation entity minecraft:pufferfish — récompense : xp 1
   > Créature du jeu de base. Catégorie : poisson. Monde : Overworld. Biomes : Océan tiède profond, Océan tiède, Océan chaud. Butin : Poisson-globe, Poudre d'os.
-- **Rencontre : Lapin cru** *(optionnelle)* — tâches : observation entity minecraft:rabbit — récompense : xp 1
+- **Rencontre : Lapin** *(optionnelle)* — tâches : observation entity minecraft:rabbit — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Bosquet de cerisiers, Désert, Forêt fleurie, Bosquet, Stalagmites de glace, Prairie et d'autres. Butin : Peau de lapin, Lapin cru, Patte de lapin.
 - **Rencontre : Ravageur** *(optionnelle)* — tâches : observation entity minecraft:ravager — récompense : xp 1
   > Créature du jeu de base. Apparaît : dans les raids de village, à partir de la troisième vague. Butin : Selle.
-- **Rencontre : Saumon cru** *(optionnelle)* — tâches : observation entity minecraft:salmon — récompense : xp 1
+- **Rencontre : Saumon** *(optionnelle)* — tâches : observation entity minecraft:salmon — récompense : xp 1
   > Créature du jeu de base. Catégorie : poisson. Monde : Overworld. Biomes : Océan froid, Océan froid profond, Océan gelé profond, Océan gelé, Rivière gelée, Rivière. Butin : Saumon cru, Poudre d'os.
 - **Rencontre : Mouton** *(optionnelle)* — tâches : observation entity minecraft:sheep — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Bosquet de cerisiers, Forêt sombre, Forêt fleurie, Forêt et d'autres. Butin : Mouton cru.
@@ -1184,6 +1184,586 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
+
+## Biomes — dimensions  (`enc_biomes_dimensions`, 74 quêtes)
+
+- **Biomes — dimensions** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque biome de l'Aether, de la Twilight Forest, de l'Everbright, de l'Everdawn et de l'Otherside que le serveur génère. Une quête se valide en entrant dans le biome.
+- **Découvrir : Forêt de skyroot** *(optionnelle)* — tâches : biome aether:skyroot_forest — récompense : xp 1
+  > Biome de l'Aether, dans l'Aether.
+- **Découvrir : Bosquet de skyroot** *(optionnelle)* — tâches : biome aether:skyroot_grove — récompense : xp 1
+  > Biome de l'Aether, dans l'Aether.
+- **Découvrir : Prairie de skyroot** *(optionnelle)* — tâches : biome aether:skyroot_meadow — récompense : xp 1
+  > Biome de l'Aether, dans l'Aether.
+- **Découvrir : Bois de skyroot** *(optionnelle)* — tâches : biome aether:skyroot_woodland — récompense : xp 1
+  > Biome de l'Aether, dans l'Aether.
+- **Découvrir : « Cloudcaps »** *(optionnelle)* — tâches : biome aether_redux:cloudcaps — récompense : xp 1
+  > Biome d'Aether Redux, dans l'Aether.
+- **Découvrir : « Frosted Forests »** *(optionnelle)* — tâches : biome aether_redux:frosted_forests — récompense : xp 1
+  > Biome d'Aether Redux, dans l'Aether.
+- **Découvrir : « Gilded Grasslands »** *(optionnelle)* — tâches : biome aether_redux:gilded_grasslands — récompense : xp 1
+  > Biome d'Aether Redux, dans l'Aether.
+- **Découvrir : « Gilded Groves »** *(optionnelle)* — tâches : biome aether_redux:gilded_groves — récompense : xp 1
+  > Biome d'Aether Redux, dans l'Aether.
+- **Découvrir : « Glacial Tundra »** *(optionnelle)* — tâches : biome aether_redux:glacial_tundra — récompense : xp 1
+  > Biome d'Aether Redux, dans l'Aether.
+- **Découvrir : « Skyfields »** *(optionnelle)* — tâches : biome aether_redux:skyfields — récompense : xp 1
+  > Biome d'Aether Redux, dans l'Aether.
+- **Découvrir : « Skyroot Shrublands »** *(optionnelle)* — tâches : biome aether_redux:skyroot_shrublands — récompense : xp 1
+  > Biome d'Aether Redux, dans l'Aether.
+- **Découvrir : « The Blight »** *(optionnelle)* — tâches : biome aether_redux:the_blight — récompense : xp 1
+  > Biome d'Aether Redux, dans l'Aether.
+- **Découvrir : Landes brillantes** *(optionnelle)* — tâches : biome blue_skies:brightlands — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Renne, Azélufo, Esprit gelé renforcé, Crynocère, Polirours et d'autres (données du pack).
+- **Découvrir : Prairie brisegelée** *(optionnelle)* — tâches : biome blue_skies:brisk_meadow — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack).
+- **Découvrir : Récif de brimble** *(optionnelle)* — tâches : biome blue_skies:brumble_forest — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack).
+- **Découvrir : Cieux calmes** *(optionnelle)* — tâches : biome blue_skies:calming_skies — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack).
+- **Découvrir : Verger de crofruits** *(optionnelle)* — tâches : biome blue_skies:crescent_orchard — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté (données du pack).
+- **Découvrir : Lac de verger de crofruits** *(optionnelle)* — tâches : biome blue_skies:crescent_orchard_lake — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Araignée pérenne, Piqueur infecté, Poisson moki, Poisson tunide (données du pack).
+- **Découvrir : Dunes cristallisées** *(optionnelle)* — tâches : biome blue_skies:crystal_dunes — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack).
+- **Découvrir : Pics des dunes cristallisées** *(optionnelle)* — tâches : biome blue_skies:crystal_dunes_spikes — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack).
+- **Découvrir : Buttes de cristal** *(optionnelle)* — tâches : biome blue_skies:crystal_roughs — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack).
+- **Découvrir : Océan brillant profond** *(optionnelle)* — tâches : biome blue_skies:deep_peeking_ocean — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack).
+- **Découvrir : Forêt oubligelée** *(optionnelle)* — tâches : biome blue_skies:frostbitten_forest — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Polirours, Rôdeur diophyde, Chouette des neiges (données du pack).
+- **Découvrir : Lisière de forêt oubligelée** *(optionnelle)* — tâches : biome blue_skies:frostbitten_forest_clearing — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Polirours, Rôdeur diophyde, Chouette des neiges (données du pack).
+- **Découvrir : Plages de demi-journée** *(optionnelle)* — tâches : biome blue_skies:midday_shore — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Dobcrabe (données du pack).
+- **Découvrir : Bassin lunaire** *(optionnelle)* — tâches : biome blue_skies:moonlit_reservoir — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Poisson moki, Poisson tunide, Crogre et d'autres (données du pack).
+- **Découvrir : Océan brillant** *(optionnelle)* — tâches : biome blue_skies:peeking_ocean — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack).
+- **Découvrir : Hautes-terres polaires** *(optionnelle)* — tâches : biome blue_skies:polar_highland — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack).
+- **Découvrir : Crête du crépuscule** *(optionnelle)* — tâches : biome blue_skies:rising_creek — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Piqueur infecté, Poisson moki, Poisson tunide (données du pack).
+- **Découvrir : Prairie brûlante** *(optionnelle)* — tâches : biome blue_skies:searing_grassland — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur, Silve (données du pack).
+- **Découvrir : Bosquets de l'ombre** *(optionnelle)* — tâches : biome blue_skies:shaded_woodlands — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Nycto-insecte, Luciole (données du pack).
+- **Découvrir : Terres détrempées** *(optionnelle)* — tâches : biome blue_skies:slushlands — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Champistrêle (données du pack).
+- **Découvrir : Pins neigeux** *(optionnelle)* — tâches : biome blue_skies:snow_covered_pines — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Renne, Azélufo, Esprit gelé renforcé, Crynocère, Polirours et d'autres (données du pack).
+- **Découvrir : Forêt d'érables** *(optionnelle)* — tâches : biome blue_skies:sunset_maple_forest — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur, Silve (données du pack).
+- **Découvrir : Vallée pas très orthodoxe** *(optionnelle)* — tâches : biome blue_skies:unorthodox_valley — récompense : xp 1
+  > Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur (données du pack).
+- **Découvrir : « Aerglow Forest »** *(optionnelle)* — tâches : biome deep_aether:aerglow_forest — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Aerlavender Fields »** *(optionnelle)* — tâches : biome deep_aether:aerlavender_fields — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Blue Aerglow Forest »** *(optionnelle)* — tâches : biome deep_aether:blue_aerglow_forest — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Cloud »** *(optionnelle)* — tâches : biome deep_aether:cloud — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Golden grove »** *(optionnelle)* — tâches : biome deep_aether:golden_grove — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Golden Heights »** *(optionnelle)* — tâches : biome deep_aether:golden_grow — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Golden Heights »** *(optionnelle)* — tâches : biome deep_aether:golden_heights — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Luminescent Forest »** *(optionnelle)* — tâches : biome deep_aether:luminescent_forest — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Mystic Aerglow Forest »** *(optionnelle)* — tâches : biome deep_aether:mystic_aerglow_forest — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Overgrown Cloud »** *(optionnelle)* — tâches : biome deep_aether:overgrown_cloud — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Storm Cloud »** *(optionnelle)* — tâches : biome deep_aether:storm_cloud — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Yagroot Swamp »** *(optionnelle)* — tâches : biome deep_aether:yagroot_swamp — récompense : xp 1
+  > Biome de Deep Aether, dans l'Aether.
+- **Découvrir : « Blooming Caverns »** *(optionnelle)* — tâches : biome deeperdarker:blooming_caverns — récompense : xp 1
+  > Biome de Deeper and Darker, dans l'Otherside. On y croise : Mordeur de sculk (données du pack).
+- **Découvrir : « Deeplands »** *(optionnelle)* — tâches : biome deeperdarker:deeplands — récompense : xp 1
+  > Biome de Deeper and Darker, dans l'Otherside. On y croise : Phantom, Mordeur de sculk, Mille-pattes de sculk, Shattered (données du pack).
+- **Découvrir : « Echoing Forest »** *(optionnelle)* — tâches : biome deeperdarker:echoing_forest — récompense : xp 1
+  > Biome de Deeper and Darker, dans l'Otherside. On y croise : Mordeur de sculk, Shattered (données du pack).
+- **Découvrir : « Overcast Columns »** *(optionnelle)* — tâches : biome deeperdarker:overcast_columns — récompense : xp 1
+  > Biome de Deeper and Darker, dans l'Otherside.
+- **Découvrir : Clairière du Crépuscule** *(optionnelle)* — tâches : biome twilightforest:clearing — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Forêt Sombre** *(optionnelle)* — tâches : biome twilightforest:dark_forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Loup de la brume, Squelette de druide, Reine des araignées (données du pack).
+- **Découvrir : Centre de la Forêt Sombre** *(optionnelle)* — tâches : biome twilightforest:dark_forest_center — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest.
+- **Découvrir : Forêt dense** *(optionnelle)* — tâches : biome twilightforest:dense_forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Forêt de Champignons Dense** *(optionnelle)* — tâches : biome twilightforest:dense_mushroom_forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Forêt Enchantée** *(optionnelle)* — tâches : biome twilightforest:enchanted_forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Plateau Final** *(optionnelle)* — tâches : biome twilightforest:final_plateau — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest.
+- **Découvrir : Marécage de Feu** *(optionnelle)* — tâches : biome twilightforest:fire_swamp — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest.
+- **Découvrir : Forêt des Lucioles** *(optionnelle)* — tâches : biome twilightforest:firefly_forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Forêt du Crépuscule** *(optionnelle)* — tâches : biome twilightforest:forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Glacier du Crépuscule** *(optionnelle)* — tâches : biome twilightforest:glacier — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Manchot (données du pack).
+- **Découvrir : Hauts plateaux du crépuscule** *(optionnelle)* — tâches : biome twilightforest:highlands — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Lac du Crépuscule** *(optionnelle)* — tâches : biome twilightforest:lake — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Forêt de Champignons** *(optionnelle)* — tâches : biome twilightforest:mushroom_forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Savane de chêne** *(optionnelle)* — tâches : biome twilightforest:oak_savannah — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Forêt Enneigé** *(optionnelle)* — tâches : biome twilightforest:snowy_forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Loup d'hiver, Yéti (données du pack).
+- **Découvrir : Forêt effrayante** *(optionnelle)* — tâches : biome twilightforest:spooky_forest — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Squelette de druide (données du pack).
+- **Découvrir : Rivière du Crépuscule** *(optionnelle)* — tâches : biome twilightforest:stream — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+- **Découvrir : Marécage du Crépuscule** *(optionnelle)* — tâches : biome twilightforest:swamp — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Essaim de moustiques (données du pack).
+- **Découvrir : Terres épineuses** *(optionnelle)* — tâches : biome twilightforest:thornlands — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest.
+- **Découvrir : Souterrain** *(optionnelle)* — tâches : biome twilightforest:underground — récompense : xp 1
+  > Biome de la Twilight Forest, dans la Twilight Forest.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.
+
+## Biomes — Nether et End  (`enc_biomes_nether_end`, 80 quêtes)
+
+- **Biomes — Nether et End** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque biome du Nether et de l'End que le serveur génère : le jeu de base, Biomes O' Plenty, Better Nether, Gardens of the Dead, Jaden's Nether Expansion, Soulful Nether, Better End. Une quête se valide en entrant dans le biome.
+- **Découvrir : Deltas de basalte** *(optionnelle)* — tâches : biome minecraft:basalt_deltas — récompense : xp 1
+  > Biome du jeu de base, dans le Nether. On y croise : Arpenteur, Ghast, Cube de magma (données du pack).
+- **Découvrir : Forêt carmin** *(optionnelle)* — tâches : biome minecraft:crimson_forest — récompense : xp 1
+  > Biome du jeu de base, dans le Nether. On y croise : Arpenteur, Piglin zombifié, Piglin, Hoglin (données du pack).
+- **Découvrir : Terres stériles de l'End** *(optionnelle)* — tâches : biome minecraft:end_barrens — récompense : xp 1
+  > Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+- **Découvrir : Hautes terres de l'End** *(optionnelle)* — tâches : biome minecraft:end_highlands — récompense : xp 1
+  > Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+- **Découvrir : Terres moyennes de l'End** *(optionnelle)* — tâches : biome minecraft:end_midlands — récompense : xp 1
+  > Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+- **Découvrir : Terres désolées du Nether** *(optionnelle)* — tâches : biome minecraft:nether_wastes — récompense : xp 1
+  > Biome du jeu de base, dans le Nether. On y croise : Enderman, Arpenteur, Ghast, Cube de magma, Piglin zombifié, Piglin (données du pack).
+- **Découvrir : Petites îles de l'End** *(optionnelle)* — tâches : biome minecraft:small_end_islands — récompense : xp 1
+  > Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+- **Découvrir : Vallée des âmes** *(optionnelle)* — tâches : biome minecraft:soul_sand_valley — récompense : xp 1
+  > Biome du jeu de base, dans le Nether. On y croise : Squelette, Enderman, Arpenteur, Ghast (données du pack).
+- **Découvrir : L'End** *(optionnelle)* — tâches : biome minecraft:the_end — récompense : xp 1
+  > Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+- **Découvrir : Forêt biscornue** *(optionnelle)* — tâches : biome minecraft:warped_forest — récompense : xp 1
+  > Biome du jeu de base, dans le Nether. On y croise : Enderman, Arpenteur (données du pack).
+- **Découvrir : « Amber Land »** *(optionnelle)* — tâches : biome betterend:amber_land — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Blossoming Spires »** *(optionnelle)* — tâches : biome betterend:blossoming_spires — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Chorus Forest »** *(optionnelle)* — tâches : biome betterend:chorus_forest — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Crystal Mountains »** *(optionnelle)* — tâches : biome betterend:crystal_mountains — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Dragon Graveyards »** *(optionnelle)* — tâches : biome betterend:dragon_graveyards — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Dry Shrubland »** *(optionnelle)* — tâches : biome betterend:dry_shrubland — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Dust Wastelands »** *(optionnelle)* — tâches : biome betterend:dust_wastelands — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Empty Aurora Cave »** *(optionnelle)* — tâches : biome betterend:empty_aurora_cave — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Empty End Cave »** *(optionnelle)* — tâches : biome betterend:empty_end_cave — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Empty Smaragdant Cave »** *(optionnelle)* — tâches : biome betterend:empty_smaragdant_cave — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Eterial Grove »** *(optionnelle)* — tâches : biome betterend:eterial_grove — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Foggy Mushroomland »** *(optionnelle)* — tâches : biome betterend:foggy_mushroomland — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Glowing Grasslands »** *(optionnelle)* — tâches : biome betterend:glowing_grasslands — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Ice Starfield »** *(optionnelle)* — tâches : biome betterend:ice_starfield — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Jade Cave »** *(optionnelle)* — tâches : biome betterend:jade_cave — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Lantern Woods »** *(optionnelle)* — tâches : biome betterend:lantern_woods — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Lush Aurora Cave »** *(optionnelle)* — tâches : biome betterend:lush_aurora_cave — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Lush Smaragdant Cave »** *(optionnelle)* — tâches : biome betterend:lush_smaragdant_cave — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Megalake »** *(optionnelle)* — tâches : biome betterend:megalake — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Megalake Grove »** *(optionnelle)* — tâches : biome betterend:megalake_grove — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Neon Oasis »** *(optionnelle)* — tâches : biome betterend:neon_oasis — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Nightshade Redwoods »** *(optionnelle)* — tâches : biome betterend:nightshade_redwoods — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Old Bulbis Gardens »** *(optionnelle)* — tâches : biome betterend:old_bulbis_gardens — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Painted Mountains »** *(optionnelle)* — tâches : biome betterend:painted_mountains — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Shadow Forest »** *(optionnelle)* — tâches : biome betterend:shadow_forest — récompense : xp 1
+  > Biome de Better End, dans l'End. On y croise : Phantom (données du pack).
+- **Découvrir : « Sulfur Springs »** *(optionnelle)* — tâches : biome betterend:sulphur_springs — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Umbra Valley »** *(optionnelle)* — tâches : biome betterend:umbra_valley — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : « Umbrella Jungle »** *(optionnelle)* — tâches : biome betterend:umbrella_jungle — récompense : xp 1
+  > Biome de Better End, dans l'End.
+- **Découvrir : Bone Reef** *(optionnelle)* — tâches : biome betternether:bone_reef — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Crimson Glowing Woods** *(optionnelle)* — tâches : biome betternether:crimson_glowing_woods — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Crimson Pinewood** *(optionnelle)* — tâches : biome betternether:crimson_pinewood — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : « Flooded Deltas »** *(optionnelle)* — tâches : biome betternether:flooded_deltas — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Gravel Desert** *(optionnelle)* — tâches : biome betternether:gravel_desert — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Magma Land** *(optionnelle)* — tâches : biome betternether:magma_land — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Nether Grasslands** *(optionnelle)* — tâches : biome betternether:nether_grasslands — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Nether Jungle** *(optionnelle)* — tâches : biome betternether:nether_jungle — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Nether Mushroom Forest** *(optionnelle)* — tâches : biome betternether:nether_mushroom_forest — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Nether Mushroom Forest Edge** *(optionnelle)* — tâches : biome betternether:nether_mushroom_forest_edge — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Nether Swampland** *(optionnelle)* — tâches : biome betternether:nether_swampland — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Nether Swampland Terraces** *(optionnelle)* — tâches : biome betternether:nether_swampland_terraces — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Old Fungiwoods** *(optionnelle)* — tâches : biome betternether:old_fungiwoods — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Old Swampland** *(optionnelle)* — tâches : biome betternether:old_swampland — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Old Warped Woods** *(optionnelle)* — tâches : biome betternether:old_warped_woods — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Poor Grasslands** *(optionnelle)* — tâches : biome betternether:poor_grasslands — récompense : xp 1
+  > Biome de Better Nether, dans le Nether.
+- **Découvrir : Poor Nether Grasslands** *(optionnelle)* — tâches : biome betternether:poor_nether_grasslands — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Soul Plain** *(optionnelle)* — tâches : biome betternether:soul_plain — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Sulfuric Bone Reef** *(optionnelle)* — tâches : biome betternether:sulfuric_bone_reef — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Upside Down Forest** *(optionnelle)* — tâches : biome betternether:upside_down_forest — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : « Dead Upside Down Forest »** *(optionnelle)* — tâches : biome betternether:upside_down_forest_cleared — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Wart Forest** *(optionnelle)* — tâches : biome betternether:wart_forest — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Wart Forest Edge** *(optionnelle)* — tâches : biome betternether:wart_forest_edge — récompense : xp 1
+  > Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+- **Découvrir : Gouffre crystallin** *(optionnelle)* — tâches : biome biomesoplenty:crystalline_chasm — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans le Nether.
+- **Découvrir : Brasier en éruption** *(optionnelle)* — tâches : biome biomesoplenty:erupting_inferno — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans le Nether.
+- **Découvrir : Sous-bois** *(optionnelle)* — tâches : biome biomesoplenty:undergrowth — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans le Nether.
+- **Découvrir : Tas de viscères** *(optionnelle)* — tâches : biome biomesoplenty:visceral_heap — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans le Nether.
+- **Découvrir : Abîme flétri** *(optionnelle)* — tâches : biome biomesoplenty:withered_abyss — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans le Nether. On y croise : Wither squelette (données du pack).
+- **Découvrir : « Soulblight Forest »** *(optionnelle)* — tâches : biome gardens_of_the_dead:soulblight_forest — récompense : xp 1
+  > Biome de Gardens of the Dead, dans le Nether.
+- **Découvrir : « Whistling Woods »** *(optionnelle)* — tâches : biome gardens_of_the_dead:whistling_woods — récompense : xp 1
+  > Biome de Gardens of the Dead, dans le Nether.
+- **Découvrir : « Black Ice Glaciers »** *(optionnelle)* — tâches : biome netherexp:black_ice_glaciers — récompense : xp 1
+  > Biome de Jaden's Nether Expansion, dans le Nether.
+- **Découvrir : « Exhaust Mire »** *(optionnelle)* — tâches : biome netherexp:exhaust_mire — récompense : xp 1
+  > Biome de Jaden's Nether Expansion, dans le Nether.
+- **Découvrir : « Grieving Grove »** *(optionnelle)* — tâches : biome netherexp:grieving_grove — récompense : xp 1
+  > Biome de Jaden's Nether Expansion, dans le Nether.
+- **Découvrir : « Plume Bowels »** *(optionnelle)* — tâches : biome netherexp:plume_bowels — récompense : xp 1
+  > Biome de Jaden's Nether Expansion, dans le Nether.
+- **Découvrir : « Quartz Chasm »** *(optionnelle)* — tâches : biome netherexp:quartz_chasm — récompense : xp 1
+  > Biome de Jaden's Nether Expansion, dans le Nether.
+- **Découvrir : « Sorrowsquash Pasture »** *(optionnelle)* — tâches : biome netherexp:sorrowsquash_pasture — récompense : xp 1
+  > Biome de Jaden's Nether Expansion, dans le Nether.
+- **Découvrir : « Sorrowsquash pastures »** *(optionnelle)* — tâches : biome netherexp:sorrowsquash_pastures — récompense : xp 1
+  > Biome de Jaden's Nether Expansion, dans le Nether.
+- **Découvrir : « Ashen Deltas »** *(optionnelle)* — tâches : biome soulfulnether:ashen_deltas — récompense : xp 1
+  > Biome de Soulful Nether, dans le Nether.
+- **Découvrir : « Fright Forest »** *(optionnelle)* — tâches : biome soulfulnether:fright_forest — récompense : xp 1
+  > Biome de Soulful Nether, dans le Nether.
+- **Découvrir : « Gloomy glades »** *(optionnelle)* — tâches : biome soulfulnether:gloomy_glades — récompense : xp 1
+  > Biome de Soulful Nether, dans le Nether.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.
+
+## Biomes — Overworld  (`enc_biomes_overworld`, 131 quêtes)
+
+- **Biomes — Overworld** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque biome de l'Overworld que le serveur génère : le jeu de base, Biomes O' Plenty, les grottes de YUNG's et de Galosphere, les rivières de Climate Rivers, le Glimmering Weald de Quark. Une quête se valide en entrant dans le biome.
+  >   > Seuls les biomes que les configs du serveur laissent générer sont là (outils/generation.py).
+- **Découvrir : Badlands** *(optionnelle)* — tâches : biome minecraft:badlands — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Jungle de bambous** *(optionnelle)* — tâches : biome minecraft:bamboo_jungle — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Plage** *(optionnelle)* — tâches : biome minecraft:beach — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Forêt de bouleaux** *(optionnelle)* — tâches : biome minecraft:birch_forest — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Bosquet de cerisiers** *(optionnelle)* — tâches : biome minecraft:cherry_grove — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Araignée, Zombie, Zombie-villageois et d'autres (données du pack).
+- **Découvrir : Océan froid** *(optionnelle)* — tâches : biome minecraft:cold_ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Forêt sombre** *(optionnelle)* — tâches : biome minecraft:dark_forest — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Océan froid profond** *(optionnelle)* — tâches : biome minecraft:deep_cold_ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Abîmes** *(optionnelle)* — tâches : biome minecraft:deep_dark — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld.
+- **Découvrir : Océan gelé profond** *(optionnelle)* — tâches : biome minecraft:deep_frozen_ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Océan tiède profond** *(optionnelle)* — tâches : biome minecraft:deep_lukewarm_ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Océan profond** *(optionnelle)* — tâches : biome minecraft:deep_ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Désert** *(optionnelle)* — tâches : biome minecraft:desert — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Cavernes de spéléothèmes** *(optionnelle)* — tâches : biome minecraft:dripstone_caves — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Badlands érodées** *(optionnelle)* — tâches : biome minecraft:eroded_badlands — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Forêt fleurie** *(optionnelle)* — tâches : biome minecraft:flower_forest — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Forêt** *(optionnelle)* — tâches : biome minecraft:forest — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+- **Découvrir : Océan gelé** *(optionnelle)* — tâches : biome minecraft:frozen_ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Pics gelés** *(optionnelle)* — tâches : biome minecraft:frozen_peaks — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Rivière gelée** *(optionnelle)* — tâches : biome minecraft:frozen_river — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Bosquet** *(optionnelle)* — tâches : biome minecraft:grove — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+- **Découvrir : Stalagmites de glace** *(optionnelle)* — tâches : biome minecraft:ice_spikes — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Pics dentelés** *(optionnelle)* — tâches : biome minecraft:jagged_peaks — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Jungle** *(optionnelle)* — tâches : biome minecraft:jungle — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Océan tiède** *(optionnelle)* — tâches : biome minecraft:lukewarm_ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Cavernes luxuriantes** *(optionnelle)* — tâches : biome minecraft:lush_caves — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Marais à mangroves** *(optionnelle)* — tâches : biome minecraft:mangrove_swamp — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Prairie** *(optionnelle)* — tâches : biome minecraft:meadow — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Araignée, Zombie, Zombie-villageois, Squelette et d'autres (données du pack).
+- **Découvrir : Champs de champignons** *(optionnelle)* — tâches : biome minecraft:mushroom_fields — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Poulpe luisant, Mooshroom (données du pack).
+- **Découvrir : Océan** *(optionnelle)* — tâches : biome minecraft:ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Forêt ancienne de bouleaux** *(optionnelle)* — tâches : biome minecraft:old_growth_birch_forest — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Taïga ancienne de pins** *(optionnelle)* — tâches : biome minecraft:old_growth_pine_taiga — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+- **Découvrir : Taïga ancienne de sapins** *(optionnelle)* — tâches : biome minecraft:old_growth_spruce_taiga — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+- **Découvrir : Jardin pâle** *(optionnelle)* — tâches : biome minecraft:pale_garden — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld.
+- **Découvrir : Plaines** *(optionnelle)* — tâches : biome minecraft:plains — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Rivière** *(optionnelle)* — tâches : biome minecraft:river — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Savane** *(optionnelle)* — tâches : biome minecraft:savanna — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Plateau de savane** *(optionnelle)* — tâches : biome minecraft:savanna_plateau — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Plage enneigée** *(optionnelle)* — tâches : biome minecraft:snowy_beach — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Plaines enneigées** *(optionnelle)* — tâches : biome minecraft:snowy_plains — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Pentes enneigées** *(optionnelle)* — tâches : biome minecraft:snowy_slopes — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Taïga enneigée** *(optionnelle)* — tâches : biome minecraft:snowy_taiga — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+- **Découvrir : Jungle clairsemée** *(optionnelle)* — tâches : biome minecraft:sparse_jungle — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Pics rocheux** *(optionnelle)* — tâches : biome minecraft:stony_peaks — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Côte rocheuse** *(optionnelle)* — tâches : biome minecraft:stony_shore — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Cavernes de soufre** *(optionnelle)* — tâches : biome minecraft:sulfur_caves — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Araignée venimeuse (données du pack).
+- **Découvrir : Plaines de tournesols** *(optionnelle)* — tâches : biome minecraft:sunflower_plains — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Marais** *(optionnelle)* — tâches : biome minecraft:swamp — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Taïga** *(optionnelle)* — tâches : biome minecraft:taiga — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+- **Découvrir : Océan chaud** *(optionnelle)* — tâches : biome minecraft:warm_ocean — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : Forêt venteuse** *(optionnelle)* — tâches : biome minecraft:windswept_forest — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Collines graveleuses venteuses** *(optionnelle)* — tâches : biome minecraft:windswept_gravelly_hills — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Collines venteuses** *(optionnelle)* — tâches : biome minecraft:windswept_hills — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Savane venteuse** *(optionnelle)* — tâches : biome minecraft:windswept_savanna — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+- **Découvrir : Badlands boisées** *(optionnelle)* — tâches : biome minecraft:wooded_badlands — récompense : xp 1
+  > Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+- **Découvrir : « Aspen Glade »** *(optionnelle)* — tâches : biome biomesoplenty:aspen_glade — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Jardin auroral** *(optionnelle)* — tâches : biome biomesoplenty:auroral_garden — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Bayou** *(optionnelle)* — tâches : biome biomesoplenty:bayou — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Tourbière** *(optionnelle)* — tâches : biome biomesoplenty:bog — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Désert froid** *(optionnelle)* — tâches : biome biomesoplenty:cold_desert — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt de conifères** *(optionnelle)* — tâches : biome biomesoplenty:coniferous_forest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Escarpée** *(optionnelle)* — tâches : biome biomesoplenty:crag — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt morte** *(optionnelle)* — tâches : biome biomesoplenty:dead_forest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Terre sèche** *(optionnelle)* — tâches : biome biomesoplenty:dryland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Plage de dunes** *(optionnelle)* — tâches : biome biomesoplenty:dune_beach — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « End corruption »** *(optionnelle)* — tâches : biome biomesoplenty:end_corruption — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « End reef »** *(optionnelle)* — tâches : biome biomesoplenty:end_reef — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « End wilds »** *(optionnelle)* — tâches : biome biomesoplenty:end_wilds — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Champ** *(optionnelle)* — tâches : biome biomesoplenty:field — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Clairière de pins** *(optionnelle)* — tâches : biome biomesoplenty:fir_clearing — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Plaine inondable** *(optionnelle)* — tâches : biome biomesoplenty:floodplain — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Champ forestier** *(optionnelle)* — tâches : biome biomesoplenty:forested_field — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Jungle fongique** *(optionnelle)* — tâches : biome biomesoplenty:fungal_jungle — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Grotte lumineuse** *(optionnelle)* — tâches : biome biomesoplenty:glowing_grotto — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Prairies** *(optionnelle)* — tâches : biome biomesoplenty:grassland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « Gravel Beach »** *(optionnelle)* — tâches : biome biomesoplenty:gravel_beach — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Hauts plateaux** *(optionnelle)* — tâches : biome biomesoplenty:highland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « Hot Springs »** *(optionnelle)* — tâches : biome biomesoplenty:hot_springs — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « Jacaranda Glade »** *(optionnelle)* — tâches : biome biomesoplenty:jacaranda_glade — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Falaises de jade** *(optionnelle)* — tâches : biome biomesoplenty:jade_cliffs — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Champ de lavande** *(optionnelle)* — tâches : biome biomesoplenty:lavender_field — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Désert luxuriant** *(optionnelle)* — tâches : biome biomesoplenty:lush_desert — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Savane luxuriante** *(optionnelle)* — tâches : biome biomesoplenty:lush_savanna — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Bois d'érables** *(optionnelle)* — tâches : biome biomesoplenty:maple_woods — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Marais** *(optionnelle)* — tâches : biome biomesoplenty:marsh — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt méditerranéenne** *(optionnelle)* — tâches : biome biomesoplenty:mediterranean_forest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « Moor »** *(optionnelle)* — tâches : biome biomesoplenty:moor — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Fondrière** *(optionnelle)* — tâches : biome biomesoplenty:muskeg — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Bosquet mystique** *(optionnelle)* — tâches : biome biomesoplenty:mystic_grove — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Allay (données du pack).
+- **Découvrir : Forêt morte ancienne** *(optionnelle)* — tâches : biome biomesoplenty:old_growth_dead_forest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt ancienne** *(optionnelle)* — tâches : biome biomesoplenty:old_growth_woodland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Bois sinistres** *(optionnelle)* — tâches : biome biomesoplenty:ominous_woods — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Illusionniste (données du pack).
+- **Découvrir : Verger** *(optionnelle)* — tâches : biome biomesoplenty:orchard — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Vallée originelle** *(optionnelle)* — tâches : biome biomesoplenty:origin_valley — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « Overgrown Greens »** *(optionnelle)* — tâches : biome biomesoplenty:overgrown_greens — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Pâturage** *(optionnelle)* — tâches : biome biomesoplenty:pasture — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Prairie** *(optionnelle)* — tâches : biome biomesoplenty:prairie — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Parcelle de citrouilles** *(optionnelle)* — tâches : biome biomesoplenty:pumpkin_patch — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt tropicale** *(optionnelle)* — tâches : biome biomesoplenty:rainforest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt de séquoias** *(optionnelle)* — tâches : biome biomesoplenty:redwood_forest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt tropicale rocailleuse** *(optionnelle)* — tâches : biome biomesoplenty:rocky_rainforest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Fruticée rocailleuse** *(optionnelle)* — tâches : biome biomesoplenty:rocky_shrubland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Brousse** *(optionnelle)* — tâches : biome biomesoplenty:scrubland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt saisonnière** *(optionnelle)* — tâches : biome biomesoplenty:seasonal_forest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Fruticée** *(optionnelle)* — tâches : biome biomesoplenty:shrubland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « Snowblossom Grove »** *(optionnelle)* — tâches : biome biomesoplenty:snowblossom_grove — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt de connifères enneigée** *(optionnelle)* — tâches : biome biomesoplenty:snowy_coniferous_forest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Clairière de pins** *(optionnelle)* — tâches : biome biomesoplenty:snowy_fir_clearing — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Forêt d'érables enneigée** *(optionnelle)* — tâches : biome biomesoplenty:snowy_maple_woods — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Nid d'araignée** *(optionnelle)* — tâches : biome biomesoplenty:spider_nest — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Araignée venimeuse (données du pack).
+- **Découvrir : Tropiques** *(optionnelle)* — tâches : biome biomesoplenty:tropics — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Toundra** *(optionnelle)* — tâches : biome biomesoplenty:tundra — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Plaines volcaniques** *(optionnelle)* — tâches : biome biomesoplenty:volcanic_plains — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Volcan** *(optionnelle)* — tâches : biome biomesoplenty:volcano — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Terres désolées** *(optionnelle)* — tâches : biome biomesoplenty:wasteland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Steppe des terres désolées** *(optionnelle)* — tâches : biome biomesoplenty:wasteland_steppe — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Marécages** *(optionnelle)* — tâches : biome biomesoplenty:wetland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « Wintry Origin Valley »** *(optionnelle)* — tâches : biome biomesoplenty:wintry_origin_valley — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : Bois** *(optionnelle)* — tâches : biome biomesoplenty:woodland — récompense : xp 1
+  > Biome de Biomes O' Plenty, dans l'Overworld.
+- **Découvrir : « Cold river »** *(optionnelle)* — tâches : biome climaterivers:cold_river — récompense : xp 1
+  > Biome de Climate Rivers, dans l'Overworld.
+- **Découvrir : « Lukewarm river »** *(optionnelle)* — tâches : biome climaterivers:lukewarm_river — récompense : xp 1
+  > Biome de Climate Rivers, dans l'Overworld.
+- **Découvrir : « Warm river »** *(optionnelle)* — tâches : biome climaterivers:warm_river — récompense : xp 1
+  > Biome de Climate Rivers, dans l'Overworld.
+- **Découvrir : « Crystal Canyons »** *(optionnelle)* — tâches : biome galosphere:crystal_canyons — récompense : xp 1
+  > Biome de Galosphere, dans l'Overworld.
+- **Découvrir : « Lichen Caves »** *(optionnelle)* — tâches : biome galosphere:lichen_caves — récompense : xp 1
+  > Biome de Galosphere, dans l'Overworld.
+- **Découvrir : « Pink Salt Caves »** *(optionnelle)* — tâches : biome galosphere:pink_salt_caves — récompense : xp 1
+  > Biome de Galosphere, dans l'Overworld.
+- **Découvrir : Forêt lumineuse** *(optionnelle)* — tâches : biome quark:glimmering_weald — récompense : xp 1
+  > Biome de Quark, dans l'Overworld. On y croise : Stoneling (données du pack).
+- **Découvrir : « Frosted Caves »** *(optionnelle)* — tâches : biome yungscavebiomes:frosted_caves — récompense : xp 1
+  > Biome de YUNG's Cave Biomes, dans l'Overworld.
+- **Découvrir : « Lost Caves »** *(optionnelle)* — tâches : biome yungscavebiomes:lost_caves — récompense : xp 1
+  > Biome de YUNG's Cave Biomes, dans l'Overworld.
+- **Découvrir : « Marble Caves »** *(optionnelle)* — tâches : biome yungscavebiomes:marble_caves — récompense : xp 1
+  > Biome de YUNG's Cave Biomes, dans l'Overworld.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.
 
 ## Bâtir sa faction  (`factions_batir`, 11 quêtes)
 
