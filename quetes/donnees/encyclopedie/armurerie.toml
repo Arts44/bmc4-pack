@@ -1,0 +1,2268 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&cArmurerie"
+fichier = "enc_armurerie"
+groupe = "encyclopedie"
+icone = "minecraft:netherite_chestplate"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&cArmurerie"
+taille = 1.5
+icone = "minecraft:netherite_chestplate"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque armure (son casque la représente) et chaque arme des mods d'aventure du pack : Aether, Twilight Forest, Blue Skies, Cataclysm, Iron's Spells, Advanced Netherite, Deeper and Darker, et les autres. Une quête se valide en ayant l'objet dans l'inventaire.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_axe"
+titre = "Obtenir : « Netherite-Diamond Axe »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_axe"
+taches = ["item advancednetherite:netherite_diamond_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_helmet"
+titre = "Obtenir : « Netherite-Diamond Helmet »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_helmet"
+taches = ["item advancednetherite:netherite_diamond_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_sword"
+titre = "Obtenir : « Netherite-Diamond Sword »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_sword"
+taches = ["item advancednetherite:netherite_diamond_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_axe"
+titre = "Obtenir : « Netherite-Emerald Axe »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_axe"
+taches = ["item advancednetherite:netherite_emerald_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_helmet"
+titre = "Obtenir : « Netherite-Emerald Helmet »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_helmet"
+taches = ["item advancednetherite:netherite_emerald_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_sword"
+titre = "Obtenir : « Netherite-Emerald Sword »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_sword"
+taches = ["item advancednetherite:netherite_emerald_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_axe"
+titre = "Obtenir : « Netherite-Gold Axe »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_axe"
+taches = ["item advancednetherite:netherite_gold_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_helmet"
+titre = "Obtenir : « Netherite-Gold Helmet »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_helmet"
+taches = ["item advancednetherite:netherite_gold_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_sword"
+titre = "Obtenir : « Netherite-Gold Sword »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_sword"
+taches = ["item advancednetherite:netherite_gold_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_iron_axe"
+titre = "Obtenir : « Netherite-Iron Axe »"
+optionnel = true
+icone = "advancednetherite:netherite_iron_axe"
+taches = ["item advancednetherite:netherite_iron_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_iron_helmet"
+titre = "Obtenir : « Netherite-Iron Helmet »"
+optionnel = true
+icone = "advancednetherite:netherite_iron_helmet"
+taches = ["item advancednetherite:netherite_iron_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_iron_sword"
+titre = "Obtenir : « Netherite-Iron Sword »"
+optionnel = true
+icone = "advancednetherite:netherite_iron_sword"
+taches = ["item advancednetherite:netherite_iron_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &badvancednetherite&r.
+"""
+
+[[quete]]
+cle = "aether_candy_cane_sword"
+titre = "Obtenir : « Candy Cane Sword »"
+optionnel = true
+icone = "aether:candy_cane_sword"
+taches = ["item aether:candy_cane_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_cloud_staff"
+titre = "Obtenir : « Cloud Staff »"
+optionnel = true
+icone = "aether:cloud_staff"
+taches = ["item aether:cloud_staff"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_flaming_sword"
+titre = "Obtenir : « Flaming Sword »"
+optionnel = true
+icone = "aether:flaming_sword"
+taches = ["item aether:flaming_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_gravitite_axe"
+titre = "Obtenir : « Gravitite Axe »"
+optionnel = true
+icone = "aether:gravitite_axe"
+taches = ["item aether:gravitite_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_gravitite_helmet"
+titre = "Obtenir : « Gravitite Helmet »"
+optionnel = true
+icone = "aether:gravitite_helmet"
+taches = ["item aether:gravitite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_gravitite_sword"
+titre = "Obtenir : « Gravitite Sword »"
+optionnel = true
+icone = "aether:gravitite_sword"
+taches = ["item aether:gravitite_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_holy_sword"
+titre = "Obtenir : « Holy Sword »"
+optionnel = true
+icone = "aether:holy_sword"
+taches = ["item aether:holy_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_holystone_axe"
+titre = "Obtenir : « Holystone Axe »"
+optionnel = true
+icone = "aether:holystone_axe"
+taches = ["item aether:holystone_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_holystone_sword"
+titre = "Obtenir : « Holystone Sword »"
+optionnel = true
+icone = "aether:holystone_sword"
+taches = ["item aether:holystone_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_lightning_sword"
+titre = "Obtenir : « Lightning Sword »"
+optionnel = true
+icone = "aether:lightning_sword"
+taches = ["item aether:lightning_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_nature_staff"
+titre = "Obtenir : « Nature Staff »"
+optionnel = true
+icone = "aether:nature_staff"
+taches = ["item aether:nature_staff"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_neptune_helmet"
+titre = "Obtenir : « Neptune Helmet »"
+optionnel = true
+icone = "aether:neptune_helmet"
+taches = ["item aether:neptune_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_phoenix_bow"
+titre = "Obtenir : « Phoenix Bow »"
+optionnel = true
+icone = "aether:phoenix_bow"
+taches = ["item aether:phoenix_bow"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_phoenix_helmet"
+titre = "Obtenir : « Phoenix Helmet »"
+optionnel = true
+icone = "aether:phoenix_helmet"
+taches = ["item aether:phoenix_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_skyroot_axe"
+titre = "Obtenir : « Skyroot Axe »"
+optionnel = true
+icone = "aether:skyroot_axe"
+taches = ["item aether:skyroot_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_skyroot_sword"
+titre = "Obtenir : « Skyroot Sword »"
+optionnel = true
+icone = "aether:skyroot_sword"
+taches = ["item aether:skyroot_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_axe"
+titre = "Obtenir : « Valkyrie Axe »"
+optionnel = true
+icone = "aether:valkyrie_axe"
+taches = ["item aether:valkyrie_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_helmet"
+titre = "Obtenir : « Valkyrie Helmet »"
+optionnel = true
+icone = "aether:valkyrie_helmet"
+taches = ["item aether:valkyrie_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_lance"
+titre = "Obtenir : « Valkyrie Lance »"
+optionnel = true
+icone = "aether:valkyrie_lance"
+taches = ["item aether:valkyrie_lance"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_zanite_axe"
+titre = "Obtenir : « Zanite Axe »"
+optionnel = true
+icone = "aether:zanite_axe"
+taches = ["item aether:zanite_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_zanite_helmet"
+titre = "Obtenir : « Zanite Helmet »"
+optionnel = true
+icone = "aether:zanite_helmet"
+taches = ["item aether:zanite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_zanite_sword"
+titre = "Obtenir : « Zanite Sword »"
+optionnel = true
+icone = "aether:zanite_sword"
+taches = ["item aether:zanite_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_redux_infused_veridium_axe"
+titre = "Obtenir : « Infused Veridium Axe »"
+optionnel = true
+icone = "aether_redux:infused_veridium_axe"
+taches = ["item aether_redux:infused_veridium_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether Redux&r.
+"""
+
+[[quete]]
+cle = "aether_redux_infused_veridium_sword"
+titre = "Obtenir : « Infused Veridium Sword »"
+optionnel = true
+icone = "aether_redux:infused_veridium_sword"
+taches = ["item aether_redux:infused_veridium_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether Redux&r.
+"""
+
+[[quete]]
+cle = "aether_redux_snailshell_shield"
+titre = "Obtenir : « Snailshell Shield »"
+optionnel = true
+icone = "aether_redux:snailshell_shield"
+taches = ["item aether_redux:snailshell_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether Redux&r.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_axe"
+titre = "Obtenir : « Veridium Axe »"
+optionnel = true
+icone = "aether_redux:veridium_axe"
+taches = ["item aether_redux:veridium_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether Redux&r.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_sword"
+titre = "Obtenir : « Veridium Sword »"
+optionnel = true
+icone = "aether_redux:veridium_sword"
+taches = ["item aether_redux:veridium_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether Redux&r.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_axe"
+titre = "Obtenir : « Aeternium Axe »"
+optionnel = true
+icone = "betterend:aeternium_axe"
+taches = ["item betterend:aeternium_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_hammer"
+titre = "Obtenir : « Aeternium Smith Hammer »"
+optionnel = true
+icone = "betterend:aeternium_hammer"
+taches = ["item betterend:aeternium_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_helmet"
+titre = "Obtenir : « Aeternium Helmet »"
+optionnel = true
+icone = "betterend:aeternium_helmet"
+taches = ["item betterend:aeternium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_sword"
+titre = "Obtenir : « Aeternium Sword »"
+optionnel = true
+icone = "betterend:aeternium_sword"
+taches = ["item betterend:aeternium_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_crystalite_helmet"
+titre = "Obtenir : « Crystalite Helmet »"
+optionnel = true
+icone = "betterend:crystalite_helmet"
+taches = ["item betterend:crystalite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_diamond_hammer"
+titre = "Obtenir : « Diamond Smith Hammer »"
+optionnel = true
+icone = "betterend:diamond_hammer"
+taches = ["item betterend:diamond_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_golden_hammer"
+titre = "Obtenir : « Golden Smith Hammer »"
+optionnel = true
+icone = "betterend:golden_hammer"
+taches = ["item betterend:golden_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_iron_hammer"
+titre = "Obtenir : « Iron Smith Hammer »"
+optionnel = true
+icone = "betterend:iron_hammer"
+taches = ["item betterend:iron_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_netherite_hammer"
+titre = "Obtenir : « Netherite Smith Hammer »"
+optionnel = true
+icone = "betterend:netherite_hammer"
+taches = ["item betterend:netherite_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_terminite_axe"
+titre = "Obtenir : « Terminite Axe »"
+optionnel = true
+icone = "betterend:terminite_axe"
+taches = ["item betterend:terminite_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_terminite_hammer"
+titre = "Obtenir : « Terminite Smith Hammer »"
+optionnel = true
+icone = "betterend:terminite_hammer"
+taches = ["item betterend:terminite_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_terminite_helmet"
+titre = "Obtenir : « Terminite Helmet »"
+optionnel = true
+icone = "betterend:terminite_helmet"
+taches = ["item betterend:terminite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_terminite_sword"
+titre = "Obtenir : « Terminite Sword »"
+optionnel = true
+icone = "betterend:terminite_sword"
+taches = ["item betterend:terminite_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_axe"
+titre = "Obtenir : « Thallasium Axe »"
+optionnel = true
+icone = "betterend:thallasium_axe"
+taches = ["item betterend:thallasium_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_hammer"
+titre = "Obtenir : « Thallasium Hammer »"
+optionnel = true
+icone = "betterend:thallasium_hammer"
+taches = ["item betterend:thallasium_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_helmet"
+titre = "Obtenir : « Thallasium Helmet »"
+optionnel = true
+icone = "betterend:thallasium_helmet"
+taches = ["item betterend:thallasium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_sword"
+titre = "Obtenir : « Thallasium Sword »"
+optionnel = true
+icone = "betterend:thallasium_sword"
+taches = ["item betterend:thallasium_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_axe"
+titre = "Obtenir : Hache en Cincinnasite"
+optionnel = true
+icone = "betternether:cincinnasite_axe"
+taches = ["item betternether:cincinnasite_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_helmet"
+titre = "Obtenir : Cincinnasite Helmet"
+optionnel = true
+icone = "betternether:cincinnasite_helmet"
+taches = ["item betternether:cincinnasite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_sword"
+titre = "Obtenir : Cincinnasite Sword"
+optionnel = true
+icone = "betternether:cincinnasite_sword"
+taches = ["item betternether:cincinnasite_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_axe"
+titre = "Obtenir : « Fireruby Axe »"
+optionnel = true
+icone = "betternether:flaming_ruby_axe"
+taches = ["item betternether:flaming_ruby_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_helmet"
+titre = "Obtenir : « Fireruby Helmet »"
+optionnel = true
+icone = "betternether:flaming_ruby_helmet"
+taches = ["item betternether:flaming_ruby_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_sword"
+titre = "Obtenir : « Fireruby Sword »"
+optionnel = true
+icone = "betternether:flaming_ruby_sword"
+taches = ["item betternether:flaming_ruby_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_axe"
+titre = "Obtenir : Nether Ruby Axe"
+optionnel = true
+icone = "betternether:nether_ruby_axe"
+taches = ["item betternether:nether_ruby_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_helmet"
+titre = "Obtenir : Nether Ruby Helmet"
+optionnel = true
+icone = "betternether:nether_ruby_helmet"
+taches = ["item betternether:nether_ruby_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_sword"
+titre = "Obtenir : Nether Ruby Sword"
+optionnel = true
+icone = "betternether:nether_ruby_sword"
+taches = ["item betternether:nether_ruby_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_axe"
+titre = "Obtenir : Hache en aquite"
+optionnel = true
+icone = "blue_skies:aquite_axe"
+taches = ["item blue_skies:aquite_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_helmet"
+titre = "Obtenir : Casque en aquite"
+optionnel = true
+icone = "blue_skies:aquite_helmet"
+taches = ["item blue_skies:aquite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_sword"
+titre = "Obtenir : Épée en aquite"
+optionnel = true
+icone = "blue_skies:aquite_sword"
+taches = ["item blue_skies:aquite_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_axe"
+titre = "Obtenir : Hache en bois de lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_axe"
+taches = ["item blue_skies:bluebright_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_spear"
+titre = "Obtenir : Lance en lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_spear"
+taches = ["item blue_skies:bluebright_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_sword"
+titre = "Obtenir : Épée en bois lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_sword"
+taches = ["item blue_skies:bluebright_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_axe"
+titre = "Obtenir : Hache en charoite"
+optionnel = true
+icone = "blue_skies:charoite_axe"
+taches = ["item blue_skies:charoite_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_helmet"
+titre = "Obtenir : Casque en charoite"
+optionnel = true
+icone = "blue_skies:charoite_helmet"
+taches = ["item blue_skies:charoite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_sword"
+titre = "Obtenir : Épée en charoite"
+optionnel = true
+icone = "blue_skies:charoite_sword"
+taches = ["item blue_skies:charoite_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_axe"
+titre = "Obtenir : « Comet Wood Axe »"
+optionnel = true
+icone = "blue_skies:comet_axe"
+taches = ["item blue_skies:comet_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_spear"
+titre = "Obtenir : « Comet Spear »"
+optionnel = true
+icone = "blue_skies:comet_spear"
+taches = ["item blue_skies:comet_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_sword"
+titre = "Obtenir : « Comet Wood Sword »"
+optionnel = true
+icone = "blue_skies:comet_sword"
+taches = ["item blue_skies:comet_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_crushing_hammer"
+titre = "Obtenir : Marteau écraseur"
+optionnel = true
+icone = "blue_skies:crushing_hammer"
+taches = ["item blue_skies:crushing_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_different_sword"
+titre = "Obtenir : Épée différente"
+optionnel = true
+icone = "blue_skies:different_sword"
+taches = ["item blue_skies:different_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_axe"
+titre = "Obtenir : Hache en diopside"
+optionnel = true
+icone = "blue_skies:diopside_axe"
+taches = ["item blue_skies:diopside_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_helmet"
+titre = "Obtenir : Casque en diopside"
+optionnel = true
+icone = "blue_skies:diopside_helmet"
+taches = ["item blue_skies:diopside_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_sword"
+titre = "Obtenir : Épée en diopside"
+optionnel = true
+icone = "blue_skies:diopside_sword"
+taches = ["item blue_skies:diopside_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_axe"
+titre = "Obtenir : Hache en crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_axe"
+taches = ["item blue_skies:dusk_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_spear"
+titre = "Obtenir : Lance en crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_spear"
+taches = ["item blue_skies:dusk_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_sword"
+titre = "Obtenir : Épée en crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_sword"
+taches = ["item blue_skies:dusk_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_axe"
+titre = "Obtenir : Hache en bois de nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_axe"
+taches = ["item blue_skies:frostbright_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_spear"
+titre = "Obtenir : lance en nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_spear"
+taches = ["item blue_skies:frostbright_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_sword"
+titre = "Obtenir : Épée en bois de nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_sword"
+taches = ["item blue_skies:frostbright_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_axe"
+titre = "Obtenir : Hache en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_axe"
+taches = ["item blue_skies:horizonite_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_helmet"
+titre = "Obtenir : Casque en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_helmet"
+taches = ["item blue_skies:horizonite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_sword"
+titre = "Obtenir : Épée en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_sword"
+taches = ["item blue_skies:horizonite_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_axe"
+titre = "Obtenir : Hache lunaire"
+optionnel = true
+icone = "blue_skies:lunar_axe"
+taches = ["item blue_skies:lunar_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_spear"
+titre = "Obtenir : Lance lunaire"
+optionnel = true
+icone = "blue_skies:lunar_spear"
+taches = ["item blue_skies:lunar_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_stone_axe"
+titre = "Obtenir : Hache en pierre lunaire"
+optionnel = true
+icone = "blue_skies:lunar_stone_axe"
+taches = ["item blue_skies:lunar_stone_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_stone_sword"
+titre = "Obtenir : Épée en pierre lunaire"
+optionnel = true
+icone = "blue_skies:lunar_stone_sword"
+taches = ["item blue_skies:lunar_stone_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_sword"
+titre = "Obtenir : Épée lunaire"
+optionnel = true
+icone = "blue_skies:lunar_sword"
+taches = ["item blue_skies:lunar_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_axe"
+titre = "Obtenir : Hache en bois d'érable"
+optionnel = true
+icone = "blue_skies:maple_axe"
+taches = ["item blue_skies:maple_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_spear"
+titre = "Obtenir : Lance en érable"
+optionnel = true
+icone = "blue_skies:maple_spear"
+taches = ["item blue_skies:maple_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_sword"
+titre = "Obtenir : Épée en bois d'érable"
+optionnel = true
+icone = "blue_skies:maple_sword"
+taches = ["item blue_skies:maple_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_moonstone_shield"
+titre = "Obtenir : Bouclier en pierre de lune"
+optionnel = true
+icone = "blue_skies:moonstone_shield"
+taches = ["item blue_skies:moonstone_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_axe"
+titre = "Obtenir : Hache en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_axe"
+taches = ["item blue_skies:pyrope_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_helmet"
+titre = "Obtenir : Casque en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_helmet"
+taches = ["item blue_skies:pyrope_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_sword"
+titre = "Obtenir : Épée en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_sword"
+taches = ["item blue_skies:pyrope_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_soulbound_spear"
+titre = "Obtenir : Lance de garde"
+optionnel = true
+icone = "blue_skies:soulbound_spear"
+taches = ["item blue_skies:soulbound_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_spike_shield"
+titre = "Obtenir : Bouclier spéléothème"
+optionnel = true
+icone = "blue_skies:spike_shield"
+taches = ["item blue_skies:spike_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_axe"
+titre = "Obtenir : Hache en étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_axe"
+taches = ["item blue_skies:starlit_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_spear"
+titre = "Obtenir : Lance en étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_spear"
+taches = ["item blue_skies:starlit_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_sword"
+titre = "Obtenir : Épée en étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_sword"
+taches = ["item blue_skies:starlit_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_turquoise_stone_axe"
+titre = "Obtenir : Hache en pierre turquoise"
+optionnel = true
+icone = "blue_skies:turquoise_stone_axe"
+taches = ["item blue_skies:turquoise_stone_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_turquoise_stone_sword"
+titre = "Obtenir : Épée en pierre turquoise"
+optionnel = true
+icone = "blue_skies:turquoise_stone_sword"
+taches = ["item blue_skies:turquoise_stone_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "cataclysm_ancient_spear"
+titre = "Obtenir : « Ancient Spear »"
+optionnel = true
+icone = "cataclysm:ancient_spear"
+taches = ["item cataclysm:ancient_spear"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_azure_sea_shield"
+titre = "Obtenir : « Azure Sea Shield »"
+optionnel = true
+icone = "cataclysm:azure_sea_shield"
+taches = ["item cataclysm:azure_sea_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_black_steel_axe"
+titre = "Obtenir : « Black Steel Axe »"
+optionnel = true
+icone = "cataclysm:black_steel_axe"
+taches = ["item cataclysm:black_steel_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_black_steel_sword"
+titre = "Obtenir : « Black Steel Sword »"
+optionnel = true
+icone = "cataclysm:black_steel_sword"
+taches = ["item cataclysm:black_steel_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_bone_reptile_helmet"
+titre = "Obtenir : « Bone Reptile Helmet »"
+optionnel = true
+icone = "cataclysm:bone_reptile_helmet"
+taches = ["item cataclysm:bone_reptile_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_cursed_bow"
+titre = "Obtenir : « Cursed Bow »"
+optionnel = true
+icone = "cataclysm:cursed_bow"
+taches = ["item cataclysm:cursed_bow"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_cursium_helmet"
+titre = "Obtenir : « Cursium Helmet »"
+optionnel = true
+icone = "cataclysm:cursium_helmet"
+taches = ["item cataclysm:cursium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_ignitium_helmet"
+titre = "Obtenir : « Ignitium Helmet »"
+optionnel = true
+icone = "cataclysm:ignitium_helmet"
+taches = ["item cataclysm:ignitium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_axe"
+titre = "Obtenir : « Skyjade Axe »"
+optionnel = true
+icone = "deep_aether:skyjade_axe"
+taches = ["item deep_aether:skyjade_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_helmet"
+titre = "Obtenir : « Skyjade Helmet »"
+optionnel = true
+icone = "deep_aether:skyjade_helmet"
+taches = ["item deep_aether:skyjade_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_sword"
+titre = "Obtenir : « Skyjade Sword »"
+optionnel = true
+icone = "deep_aether:skyjade_sword"
+taches = ["item deep_aether:skyjade_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_storm_bow"
+titre = "Obtenir : « Storm Bow »"
+optionnel = true
+icone = "deep_aether:storm_bow"
+taches = ["item deep_aether:storm_bow"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_storm_sword"
+titre = "Obtenir : « Storm Sword »"
+optionnel = true
+icone = "deep_aether:storm_sword"
+taches = ["item deep_aether:storm_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_stormforged_helmet"
+titre = "Obtenir : « Stormforged Helmet »"
+optionnel = true
+icone = "deep_aether:stormforged_helmet"
+taches = ["item deep_aether:stormforged_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_axe"
+titre = "Obtenir : « Stratus Axe »"
+optionnel = true
+icone = "deep_aether:stratus_axe"
+taches = ["item deep_aether:stratus_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_helmet"
+titre = "Obtenir : « Stratus Helmet »"
+optionnel = true
+icone = "deep_aether:stratus_helmet"
+taches = ["item deep_aether:stratus_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_sword"
+titre = "Obtenir : « Stratus Sword »"
+optionnel = true
+icone = "deep_aether:stratus_sword"
+taches = ["item deep_aether:stratus_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_wind_shield"
+titre = "Obtenir : « Wind Shield »"
+optionnel = true
+icone = "deep_aether:wind_shield"
+taches = ["item deep_aether:wind_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deeperdarker_resonarium_axe"
+titre = "Obtenir : « Resonarium Axe »"
+optionnel = true
+icone = "deeperdarker:resonarium_axe"
+taches = ["item deeperdarker:resonarium_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeeper and Darker&r.
+"""
+
+[[quete]]
+cle = "deeperdarker_resonarium_helmet"
+titre = "Obtenir : « Resonarium Helmet »"
+optionnel = true
+icone = "deeperdarker:resonarium_helmet"
+taches = ["item deeperdarker:resonarium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeeper and Darker&r.
+"""
+
+[[quete]]
+cle = "deeperdarker_resonarium_sword"
+titre = "Obtenir : « Resonarium Sword »"
+optionnel = true
+icone = "deeperdarker:resonarium_sword"
+taches = ["item deeperdarker:resonarium_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeeper and Darker&r.
+"""
+
+[[quete]]
+cle = "deeperdarker_sonorous_staff"
+titre = "Obtenir : « Sonorous Staff »"
+optionnel = true
+icone = "deeperdarker:sonorous_staff"
+taches = ["item deeperdarker:sonorous_staff"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeeper and Darker&r.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_axe"
+titre = "Obtenir : Hache du Warden"
+optionnel = true
+icone = "deeperdarker:warden_axe"
+taches = ["item deeperdarker:warden_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeeper and Darker&r.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_helmet"
+titre = "Obtenir : Casque du Warden"
+optionnel = true
+icone = "deeperdarker:warden_helmet"
+taches = ["item deeperdarker:warden_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeeper and Darker&r.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_sword"
+titre = "Obtenir : Épée du Warden"
+optionnel = true
+icone = "deeperdarker:warden_sword"
+taches = ["item deeperdarker:warden_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeeper and Darker&r.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_axe"
+titre = "Obtenir : « Dragon Axe »"
+optionnel = true
+icone = "dragonloot:dragon_axe"
+taches = ["item dragonloot:dragon_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bdragonloot&r.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_helmet"
+titre = "Obtenir : « Dragon Scale Helmet »"
+optionnel = true
+icone = "dragonloot:dragon_helmet"
+taches = ["item dragonloot:dragon_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bdragonloot&r.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_sword"
+titre = "Obtenir : « Dragon Sword »"
+optionnel = true
+icone = "dragonloot:dragon_sword"
+taches = ["item dragonloot:dragon_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bdragonloot&r.
+"""
+
+[[quete]]
+cle = "galosphere_sterling_helmet"
+titre = "Obtenir : « Sterling Helmet »"
+optionnel = true
+icone = "galosphere:sterling_helmet"
+taches = ["item galosphere:sterling_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bGalosphere&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_archevoker_helmet"
+titre = "Obtenir : Chapeau de l'Archévocateur"
+optionnel = true
+icone = "irons_spellbooks:archevoker_helmet"
+taches = ["item irons_spellbooks:archevoker_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_autoloader_crossbow"
+titre = "Obtenir : Arbalète à Chargement Automatique"
+optionnel = true
+icone = "irons_spellbooks:autoloader_crossbow"
+taches = ["item irons_spellbooks:autoloader_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_blood_staff"
+titre = "Obtenir : Le Bâton de Sang"
+optionnel = true
+icone = "irons_spellbooks:blood_staff"
+taches = ["item irons_spellbooks:blood_staff"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cryomancer_helmet"
+titre = "Obtenir : Capuche du Cryomancien"
+optionnel = true
+icone = "irons_spellbooks:cryomancer_helmet"
+taches = ["item irons_spellbooks:cryomancer_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cultist_helmet"
+titre = "Obtenir : Capuche du Cultiste"
+optionnel = true
+icone = "irons_spellbooks:cultist_helmet"
+taches = ["item irons_spellbooks:cultist_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_decrepit_scythe"
+titre = "Obtenir : Faux Décrépite"
+optionnel = true
+icone = "irons_spellbooks:decrepit_scythe"
+taches = ["item irons_spellbooks:decrepit_scythe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_electromancer_helmet"
+titre = "Obtenir : Chapeau de l'Électromancien"
+optionnel = true
+icone = "irons_spellbooks:electromancer_helmet"
+taches = ["item irons_spellbooks:electromancer_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_graybeard_staff"
+titre = "Obtenir : Bâton de Barbe-Grise"
+optionnel = true
+icone = "irons_spellbooks:graybeard_staff"
+taches = ["item irons_spellbooks:graybeard_staff"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ice_staff"
+titre = "Obtenir : Bâton de Glace"
+optionnel = true
+icone = "irons_spellbooks:ice_staff"
+taches = ["item irons_spellbooks:ice_staff"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_netherite_mage_helmet"
+titre = "Obtenir : Chapeau du Mage de Guerre en Nétherite"
+optionnel = true
+icone = "irons_spellbooks:netherite_mage_helmet"
+taches = ["item irons_spellbooks:netherite_mage_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_plagued_helmet"
+titre = "Obtenir : Masque Pesteux"
+optionnel = true
+icone = "irons_spellbooks:plagued_helmet"
+taches = ["item irons_spellbooks:plagued_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_priest_helmet"
+titre = "Obtenir : Masque du Prêtre"
+optionnel = true
+icone = "irons_spellbooks:priest_helmet"
+taches = ["item irons_spellbooks:priest_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pumpkin_helmet"
+titre = "Obtenir : Chapeau d'Épouvantail"
+optionnel = true
+icone = "irons_spellbooks:pumpkin_helmet"
+taches = ["item irons_spellbooks:pumpkin_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pyrium_staff"
+titre = "Obtenir : Bâton de Pyrium"
+optionnel = true
+icone = "irons_spellbooks:pyrium_staff"
+taches = ["item irons_spellbooks:pyrium_staff"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pyromancer_helmet"
+titre = "Obtenir : Chapeau du Pyromancien"
+optionnel = true
+icone = "irons_spellbooks:pyromancer_helmet"
+taches = ["item irons_spellbooks:pyromancer_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_shadowwalker_helmet"
+titre = "Obtenir : Masque du Marchombre"
+optionnel = true
+icone = "irons_spellbooks:shadowwalker_helmet"
+taches = ["item irons_spellbooks:shadowwalker_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wandering_magician_helmet"
+titre = "Obtenir : Capuche du Magicien Errant"
+optionnel = true
+icone = "irons_spellbooks:wandering_magician_helmet"
+taches = ["item irons_spellbooks:wandering_magician_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wizard_helmet"
+titre = "Obtenir : Casque du Sorcier"
+optionnel = true
+icone = "irons_spellbooks:wizard_helmet"
+taches = ["item irons_spellbooks:wizard_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "mowziesmobs_naga_fang_dagger"
+titre = "Obtenir : Dague en dent de naga"
+optionnel = true
+icone = "mowziesmobs:naga_fang_dagger"
+taches = ["item mowziesmobs:naga_fang_dagger"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bMowzie's Mobs&r.
+"""
+
+[[quete]]
+cle = "mowziesmobs_sculptor_staff"
+titre = "Obtenir : « Geomancer Staff »"
+optionnel = true
+icone = "mowziesmobs:sculptor_staff"
+taches = ["item mowziesmobs:sculptor_staff"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bMowzie's Mobs&r.
+"""
+
+[[quete]]
+cle = "mowziesmobs_wrought_axe"
+titre = "Obtenir : Hache des milles métaux"
+optionnel = true
+icone = "mowziesmobs:wrought_axe"
+taches = ["item mowziesmobs:wrought_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bMowzie's Mobs&r.
+"""
+
+[[quete]]
+cle = "mowziesmobs_wrought_helmet"
+titre = "Obtenir : Casque de Chevalier Forgé"
+optionnel = true
+icone = "mowziesmobs:wrought_helmet"
+taches = ["item mowziesmobs:wrought_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bMowzie's Mobs&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_awful_dagger"
+titre = "Obtenir : « §cAwful Dagger »"
+optionnel = true
+icone = "stalwart_dungeons:awful_dagger"
+taches = ["item stalwart_dungeons:awful_dagger"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_armor_helmet"
+titre = "Obtenir : « §eChorundum Helmet »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_armor_helmet"
+taches = ["item stalwart_dungeons:chorundum_armor_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_axe"
+titre = "Obtenir : « §eChorundum Axe »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_axe"
+taches = ["item stalwart_dungeons:chorundum_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_shield"
+titre = "Obtenir : « §eChorundum Shield »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_shield"
+taches = ["item stalwart_dungeons:chorundum_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_sword"
+titre = "Obtenir : « §eChorundum Sword »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_sword"
+taches = ["item stalwart_dungeons:chorundum_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_diamond_hammer"
+titre = "Obtenir : « Diamond Hammer »"
+optionnel = true
+icone = "stalwart_dungeons:diamond_hammer"
+taches = ["item stalwart_dungeons:diamond_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_golden_hammer"
+titre = "Obtenir : « Golden Hammer »"
+optionnel = true
+icone = "stalwart_dungeons:golden_hammer"
+taches = ["item stalwart_dungeons:golden_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_iron_hammer"
+titre = "Obtenir : « Iron Hammer »"
+optionnel = true
+icone = "stalwart_dungeons:iron_hammer"
+taches = ["item stalwart_dungeons:iron_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_nether_hammer"
+titre = "Obtenir : « §cNether Hammer »"
+optionnel = true
+icone = "stalwart_dungeons:nether_hammer"
+taches = ["item stalwart_dungeons:nether_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_netherite_hammer"
+titre = "Obtenir : « Netherite Hammer »"
+optionnel = true
+icone = "stalwart_dungeons:netherite_hammer"
+taches = ["item stalwart_dungeons:netherite_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_stone_hammer"
+titre = "Obtenir : « Stone Hammer »"
+optionnel = true
+icone = "stalwart_dungeons:stone_hammer"
+taches = ["item stalwart_dungeons:stone_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_axe"
+titre = "Obtenir : « §eTungsten Axe »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_axe"
+taches = ["item stalwart_dungeons:tungsten_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_hammer"
+titre = "Obtenir : « §eTungsten Hammer »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_hammer"
+taches = ["item stalwart_dungeons:tungsten_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_helmet"
+titre = "Obtenir : « §eTungsten Helmet »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_helmet"
+taches = ["item stalwart_dungeons:tungsten_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_shield"
+titre = "Obtenir : « §eTungsten Shield »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_shield"
+taches = ["item stalwart_dungeons:tungsten_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_sword"
+titre = "Obtenir : « §eTungsten Sword »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_sword"
+taches = ["item stalwart_dungeons:tungsten_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_warted_tungsten_helmet"
+titre = "Obtenir : « §eWarted Helmet »"
+optionnel = true
+icone = "stalwart_dungeons:warted_tungsten_helmet"
+taches = ["item stalwart_dungeons:warted_tungsten_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_warted_tungsten_shield"
+titre = "Obtenir : « §eWarted Shield »"
+optionnel = true
+icone = "stalwart_dungeons:warted_tungsten_shield"
+taches = ["item stalwart_dungeons:warted_tungsten_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_wooden_hammer"
+titre = "Obtenir : « Wooden Hammer »"
+optionnel = true
+icone = "stalwart_dungeons:wooden_hammer"
+taches = ["item stalwart_dungeons:wooden_hammer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bStalwart Dungeons&r.
+"""
+
+[[quete]]
+cle = "twilightforest_arctic_helmet"
+titre = "Obtenir : Capuche arctique"
+optionnel = true
+icone = "twilightforest:arctic_helmet"
+taches = ["item twilightforest:arctic_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_diamond_minotaur_axe"
+titre = "Obtenir : Hache en diamant du Minotaure"
+optionnel = true
+icone = "twilightforest:diamond_minotaur_axe"
+taches = ["item twilightforest:diamond_minotaur_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_ender_bow"
+titre = "Obtenir : Arc de l'Ender"
+optionnel = true
+icone = "twilightforest:ender_bow"
+taches = ["item twilightforest:ender_bow"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_helmet"
+titre = "Obtenir : Casque ardent"
+optionnel = true
+icone = "twilightforest:fiery_helmet"
+taches = ["item twilightforest:fiery_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_sword"
+titre = "Obtenir : Épée ardente"
+optionnel = true
+icone = "twilightforest:fiery_sword"
+taches = ["item twilightforest:fiery_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_giant_sword"
+titre = "Obtenir : Épée de géant"
+optionnel = true
+icone = "twilightforest:giant_sword"
+taches = ["item twilightforest:giant_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_glass_sword"
+titre = "Obtenir : Épée en verre"
+optionnel = true
+icone = "twilightforest:glass_sword"
+taches = ["item twilightforest:glass_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_ice_bow"
+titre = "Obtenir : Arc gelé"
+optionnel = true
+icone = "twilightforest:ice_bow"
+taches = ["item twilightforest:ice_bow"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_ice_sword"
+titre = "Obtenir : Épée gelée"
+optionnel = true
+icone = "twilightforest:ice_sword"
+taches = ["item twilightforest:ice_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_axe"
+titre = "Obtenir : Hache en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_axe"
+taches = ["item twilightforest:ironwood_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_helmet"
+titre = "Obtenir : Casque en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_helmet"
+taches = ["item twilightforest:ironwood_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_sword"
+titre = "Obtenir : Épée en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_sword"
+taches = ["item twilightforest:ironwood_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_axe"
+titre = "Obtenir : Hache chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_axe"
+taches = ["item twilightforest:knightmetal_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_helmet"
+titre = "Obtenir : Casque chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_helmet"
+taches = ["item twilightforest:knightmetal_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_shield"
+titre = "Obtenir : Bouclier chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_shield"
+taches = ["item twilightforest:knightmetal_shield"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_sword"
+titre = "Obtenir : Épée chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_sword"
+taches = ["item twilightforest:knightmetal_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_phantom_helmet"
+titre = "Obtenir : Casque de fantôme"
+optionnel = true
+icone = "twilightforest:phantom_helmet"
+taches = ["item twilightforest:phantom_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_seeker_bow"
+titre = "Obtenir : Arc du chercheur"
+optionnel = true
+icone = "twilightforest:seeker_bow"
+taches = ["item twilightforest:seeker_bow"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_axe"
+titre = "Obtenir : Hache en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_axe"
+taches = ["item twilightforest:steeleaf_axe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_helmet"
+titre = "Obtenir : Casque en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_helmet"
+taches = ["item twilightforest:steeleaf_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_sword"
+titre = "Obtenir : Épée en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_sword"
+taches = ["item twilightforest:steeleaf_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_triple_bow"
+titre = "Obtenir : « Tri-Bow »"
+optionnel = true
+icone = "twilightforest:triple_bow"
+taches = ["item twilightforest:triple_bow"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_yeti_helmet"
+titre = "Obtenir : Casque orné de Yéti"
+optionnel = true
+icone = "twilightforest:yeti_helmet"
+taches = ["item twilightforest:yeti_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "cataclysm:ignitium_helmet"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["advancednetherite_netherite_diamond_axe", "advancednetherite_netherite_diamond_helmet", "advancednetherite_netherite_diamond_sword", "advancednetherite_netherite_emerald_axe", "advancednetherite_netherite_emerald_helmet", "advancednetherite_netherite_emerald_sword", "advancednetherite_netherite_gold_axe", "advancednetherite_netherite_gold_helmet", "advancednetherite_netherite_gold_sword", "advancednetherite_netherite_iron_axe", "advancednetherite_netherite_iron_helmet", "advancednetherite_netherite_iron_sword", "aether_candy_cane_sword", "aether_cloud_staff", "aether_flaming_sword", "aether_gravitite_axe", "aether_gravitite_helmet", "aether_gravitite_sword", "aether_holy_sword", "aether_holystone_axe", "aether_holystone_sword", "aether_lightning_sword", "aether_nature_staff", "aether_neptune_helmet", "aether_phoenix_bow", "aether_phoenix_helmet", "aether_skyroot_axe", "aether_skyroot_sword", "aether_valkyrie_axe", "aether_valkyrie_helmet", "aether_valkyrie_lance", "aether_zanite_axe", "aether_zanite_helmet", "aether_zanite_sword", "aether_redux_infused_veridium_axe", "aether_redux_infused_veridium_sword", "aether_redux_snailshell_shield", "aether_redux_veridium_axe", "aether_redux_veridium_sword", "betterend_aeternium_axe", "betterend_aeternium_hammer", "betterend_aeternium_helmet", "betterend_aeternium_sword", "betterend_crystalite_helmet", "betterend_diamond_hammer", "betterend_golden_hammer", "betterend_iron_hammer", "betterend_netherite_hammer", "betterend_terminite_axe", "betterend_terminite_hammer", "betterend_terminite_helmet", "betterend_terminite_sword", "betterend_thallasium_axe", "betterend_thallasium_hammer", "betterend_thallasium_helmet", "betterend_thallasium_sword", "betternether_cincinnasite_axe", "betternether_cincinnasite_helmet", "betternether_cincinnasite_sword", "betternether_flaming_ruby_axe", "betternether_flaming_ruby_helmet", "betternether_flaming_ruby_sword", "betternether_nether_ruby_axe", "betternether_nether_ruby_helmet", "betternether_nether_ruby_sword", "blue_skies_aquite_axe", "blue_skies_aquite_helmet", "blue_skies_aquite_sword", "blue_skies_bluebright_axe", "blue_skies_bluebright_spear", "blue_skies_bluebright_sword", "blue_skies_charoite_axe", "blue_skies_charoite_helmet", "blue_skies_charoite_sword", "blue_skies_comet_axe", "blue_skies_comet_spear", "blue_skies_comet_sword", "blue_skies_crushing_hammer", "blue_skies_different_sword", "blue_skies_diopside_axe", "blue_skies_diopside_helmet", "blue_skies_diopside_sword", "blue_skies_dusk_axe", "blue_skies_dusk_spear", "blue_skies_dusk_sword", "blue_skies_frostbright_axe", "blue_skies_frostbright_spear", "blue_skies_frostbright_sword", "blue_skies_horizonite_axe", "blue_skies_horizonite_helmet", "blue_skies_horizonite_sword", "blue_skies_lunar_axe", "blue_skies_lunar_spear", "blue_skies_lunar_stone_axe", "blue_skies_lunar_stone_sword", "blue_skies_lunar_sword", "blue_skies_maple_axe", "blue_skies_maple_spear", "blue_skies_maple_sword", "blue_skies_moonstone_shield", "blue_skies_pyrope_axe", "blue_skies_pyrope_helmet", "blue_skies_pyrope_sword", "blue_skies_soulbound_spear", "blue_skies_spike_shield", "blue_skies_starlit_axe", "blue_skies_starlit_spear", "blue_skies_starlit_sword", "blue_skies_turquoise_stone_axe", "blue_skies_turquoise_stone_sword", "cataclysm_ancient_spear", "cataclysm_azure_sea_shield", "cataclysm_black_steel_axe", "cataclysm_black_steel_sword", "cataclysm_bone_reptile_helmet", "cataclysm_cursed_bow", "cataclysm_cursium_helmet", "cataclysm_ignitium_helmet", "deep_aether_skyjade_axe", "deep_aether_skyjade_helmet", "deep_aether_skyjade_sword", "deep_aether_storm_bow", "deep_aether_storm_sword", "deep_aether_stormforged_helmet", "deep_aether_stratus_axe", "deep_aether_stratus_helmet", "deep_aether_stratus_sword", "deep_aether_wind_shield", "deeperdarker_resonarium_axe", "deeperdarker_resonarium_helmet", "deeperdarker_resonarium_sword", "deeperdarker_sonorous_staff", "deeperdarker_warden_axe", "deeperdarker_warden_helmet", "deeperdarker_warden_sword", "dragonloot_dragon_axe", "dragonloot_dragon_helmet", "dragonloot_dragon_sword", "galosphere_sterling_helmet", "irons_spellbooks_archevoker_helmet", "irons_spellbooks_autoloader_crossbow", "irons_spellbooks_blood_staff", "irons_spellbooks_cryomancer_helmet", "irons_spellbooks_cultist_helmet", "irons_spellbooks_decrepit_scythe", "irons_spellbooks_electromancer_helmet", "irons_spellbooks_graybeard_staff", "irons_spellbooks_ice_staff", "irons_spellbooks_netherite_mage_helmet", "irons_spellbooks_plagued_helmet", "irons_spellbooks_priest_helmet", "irons_spellbooks_pumpkin_helmet", "irons_spellbooks_pyrium_staff", "irons_spellbooks_pyromancer_helmet", "irons_spellbooks_shadowwalker_helmet", "irons_spellbooks_wandering_magician_helmet", "irons_spellbooks_wizard_helmet", "mowziesmobs_naga_fang_dagger", "mowziesmobs_sculptor_staff", "mowziesmobs_wrought_axe", "mowziesmobs_wrought_helmet", "stalwart_dungeons_awful_dagger", "stalwart_dungeons_chorundum_armor_helmet", "stalwart_dungeons_chorundum_axe", "stalwart_dungeons_chorundum_shield", "stalwart_dungeons_chorundum_sword", "stalwart_dungeons_diamond_hammer", "stalwart_dungeons_golden_hammer", "stalwart_dungeons_iron_hammer", "stalwart_dungeons_nether_hammer", "stalwart_dungeons_netherite_hammer", "stalwart_dungeons_stone_hammer", "stalwart_dungeons_tungsten_axe", "stalwart_dungeons_tungsten_hammer", "stalwart_dungeons_tungsten_helmet", "stalwart_dungeons_tungsten_shield", "stalwart_dungeons_tungsten_sword", "stalwart_dungeons_warted_tungsten_helmet", "stalwart_dungeons_warted_tungsten_shield", "stalwart_dungeons_wooden_hammer", "twilightforest_arctic_helmet", "twilightforest_diamond_minotaur_axe", "twilightforest_ender_bow", "twilightforest_fiery_helmet", "twilightforest_fiery_sword", "twilightforest_giant_sword", "twilightforest_glass_sword", "twilightforest_ice_bow", "twilightforest_ice_sword", "twilightforest_ironwood_axe", "twilightforest_ironwood_helmet", "twilightforest_ironwood_sword", "twilightforest_knightmetal_axe", "twilightforest_knightmetal_helmet", "twilightforest_knightmetal_shield", "twilightforest_knightmetal_sword", "twilightforest_phantom_helmet", "twilightforest_seeker_bow", "twilightforest_steeleaf_axe", "twilightforest_steeleaf_helmet", "twilightforest_steeleaf_sword", "twilightforest_triple_bow", "twilightforest_yeti_helmet"]
+description = """
+Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+"""

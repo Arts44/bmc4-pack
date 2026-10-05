@@ -1,0 +1,4318 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_armurerie"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:netherite_chestplate"
+	id: "142B72A23EC11828"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque armure (son casque la représente) et chaque arme des mods d'aventure du pack : Aether, Twilight Forest, Blue Skies, Cataclysm, Iron's Spells, Advanced Netherite, Deeper and Darker, et les autres. Une quête se valide en ayant l'objet dans l'inventaire."]
+			icon: "minecraft:netherite_chestplate"
+			id: "3E08EC55570066EB"
+			rewards: [{
+				id: "7C0DD9022BC283EE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "611E042AEB32A783"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cArmurerie"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_diamond_axe"
+			id: "3BC822C96919DA37"
+			optional: true
+			rewards: [{
+				id: "5AE4AB2BF5B44E1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71D5378ECDE300BA"
+				item: "advancednetherite:netherite_diamond_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Diamond Axe »"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_diamond_helmet"
+			id: "77946A73203188E9"
+			optional: true
+			rewards: [{
+				id: "2DCEF9144DB39BBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71F71CA2378946F6"
+				item: "advancednetherite:netherite_diamond_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Diamond Helmet »"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_diamond_sword"
+			id: "065109BEE4182D5F"
+			optional: true
+			rewards: [{
+				id: "2BD9454B9BB2C796"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DACB9C5486342FB"
+				item: "advancednetherite:netherite_diamond_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Diamond Sword »"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_emerald_axe"
+			id: "6D50AD0BD9134B2B"
+			optional: true
+			rewards: [{
+				id: "5A56A84E3A76FA06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36B9B45FD99E5219"
+				item: "advancednetherite:netherite_emerald_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Emerald Axe »"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_emerald_helmet"
+			id: "6AE17366EC48738A"
+			optional: true
+			rewards: [{
+				id: "32C9ED6C12B12CB3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0BC48532C94F80FA"
+				item: "advancednetherite:netherite_emerald_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Emerald Helmet »"
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_emerald_sword"
+			id: "36D05C30D6E46934"
+			optional: true
+			rewards: [{
+				id: "2307E7B9AE96FBEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E408FC499DFA9FE"
+				item: "advancednetherite:netherite_emerald_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Emerald Sword »"
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_gold_axe"
+			id: "30F15AA9EAC77FCE"
+			optional: true
+			rewards: [{
+				id: "68200BB0CAB23074"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DDFDC2CC519ED54"
+				item: "advancednetherite:netherite_gold_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Gold Axe »"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_gold_helmet"
+			id: "1F5C3A7ABD00DDA0"
+			optional: true
+			rewards: [{
+				id: "1B812119D0939E23"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "737B0F79BC54C508"
+				item: "advancednetherite:netherite_gold_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Gold Helmet »"
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_gold_sword"
+			id: "315699CA61356B2F"
+			optional: true
+			rewards: [{
+				id: "5BC8CCF5A3D223F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E2516BDC98B0656"
+				item: "advancednetherite:netherite_gold_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Gold Sword »"
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_iron_axe"
+			id: "11268F6C32B32050"
+			optional: true
+			rewards: [{
+				id: "4B8BD77D526920FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "375441DB38BE8F3A"
+				item: "advancednetherite:netherite_iron_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Iron Axe »"
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_iron_helmet"
+			id: "707151415BF2A75A"
+			optional: true
+			rewards: [{
+				id: "3E50422BA612FAF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "266EA432D957FBC1"
+				item: "advancednetherite:netherite_iron_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Iron Helmet »"
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &badvancednetherite&r."]
+			icon: "advancednetherite:netherite_iron_sword"
+			id: "59DD22CC99131415"
+			optional: true
+			rewards: [{
+				id: "729D948A6D05672C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07CBF30E60B3A47F"
+				item: "advancednetherite:netherite_iron_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite-Iron Sword »"
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:candy_cane_sword"
+			id: "02E3F250E9BA0B87"
+			optional: true
+			rewards: [{
+				id: "451714ECA98A7953"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0083FC790E71880C"
+				item: "aether:candy_cane_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Candy Cane Sword »"
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:cloud_staff"
+			id: "0A1E70C2E50D7370"
+			optional: true
+			rewards: [{
+				id: "4BCC829F0406B4A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1110B71C1CCEFE8C"
+				item: "aether:cloud_staff"
+				type: "item"
+			}]
+			title: "Obtenir : « Cloud Staff »"
+			x: 19.5d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:flaming_sword"
+			id: "07E02B751A38E24D"
+			optional: true
+			rewards: [{
+				id: "477A4172345BA47B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45865EBB3D6E444F"
+				item: "aether:flaming_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Flaming Sword »"
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:gravitite_axe"
+			id: "3CBFCB042AC0EF3F"
+			optional: true
+			rewards: [{
+				id: "09D99CEF232050E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C225D5B1CF76C99"
+				item: "aether:gravitite_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Gravitite Axe »"
+			x: 22.5d
+			y: -9.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:gravitite_helmet"
+			id: "19CC9E4804CF6065"
+			optional: true
+			rewards: [{
+				id: "3DA8C37DAC7259FC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "550DE6BFD2BF7EF6"
+				item: "aether:gravitite_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Gravitite Helmet »"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:gravitite_sword"
+			id: "0EF171D3315FF54C"
+			optional: true
+			rewards: [{
+				id: "2056F9CCC1B2F16F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A11DB10B3C36784"
+				item: "aether:gravitite_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Gravitite Sword »"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:holy_sword"
+			id: "68A18C497EAC6881"
+			optional: true
+			rewards: [{
+				id: "1408C9A50A3D94B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F223581FC92A312"
+				item: "aether:holy_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Holy Sword »"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:holystone_axe"
+			id: "3C572162FE20DC7A"
+			optional: true
+			rewards: [{
+				id: "4F25D97A9E8C0F56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31A729F6E54A70A2"
+				item: "aether:holystone_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Holystone Axe »"
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:holystone_sword"
+			id: "05277F6F1D4EB663"
+			optional: true
+			rewards: [{
+				id: "0FE8D213AFDC5241"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2765BCF948D776C9"
+				item: "aether:holystone_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Holystone Sword »"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:lightning_sword"
+			id: "5627CBB6771383B2"
+			optional: true
+			rewards: [{
+				id: "17FD709B33A612BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24EE5D68E977BDB5"
+				item: "aether:lightning_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Lightning Sword »"
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:nature_staff"
+			id: "3C34A46E79AFAB78"
+			optional: true
+			rewards: [{
+				id: "4A8B9F878BC0924A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C7D54F166069F92"
+				item: "aether:nature_staff"
+				type: "item"
+			}]
+			title: "Obtenir : « Nature Staff »"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:neptune_helmet"
+			id: "36DF12258B71B8E6"
+			optional: true
+			rewards: [{
+				id: "106C2078A8B8F776"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20D363E23CB2164C"
+				item: "aether:neptune_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Neptune Helmet »"
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:phoenix_bow"
+			id: "33A1B6B7766FD629"
+			optional: true
+			rewards: [{
+				id: "0C49FE97DC15D605"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "092747C84F4DB4BB"
+				item: "aether:phoenix_bow"
+				type: "item"
+			}]
+			title: "Obtenir : « Phoenix Bow »"
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:phoenix_helmet"
+			id: "40457C812059EDD8"
+			optional: true
+			rewards: [{
+				id: "2C8F63F7FC55E9BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12BAB6A79A556333"
+				item: "aether:phoenix_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Phoenix Helmet »"
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:skyroot_axe"
+			id: "00EC1F306F44C0EA"
+			optional: true
+			rewards: [{
+				id: "2C629A67246384DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34ACE33311C3A573"
+				item: "aether:skyroot_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Skyroot Axe »"
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:skyroot_sword"
+			id: "1C046485889305DA"
+			optional: true
+			rewards: [{
+				id: "5E2CB26EEBE21D37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11500B8552B708BE"
+				item: "aether:skyroot_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Skyroot Sword »"
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:valkyrie_axe"
+			id: "57094F61AC240F0D"
+			optional: true
+			rewards: [{
+				id: "07CD414FBE8B1222"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "504BF1225B269742"
+				item: "aether:valkyrie_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Valkyrie Axe »"
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:valkyrie_helmet"
+			id: "5C487D0FCCACCFE4"
+			optional: true
+			rewards: [{
+				id: "0494B49C071F8803"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B2D9BCD53A62290"
+				item: "aether:valkyrie_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Valkyrie Helmet »"
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:valkyrie_lance"
+			id: "7975FBC2BE6D6F5A"
+			optional: true
+			rewards: [{
+				id: "09A5781928F1D672"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "035859B4FE8E5BA8"
+				item: "aether:valkyrie_lance"
+				type: "item"
+			}]
+			title: "Obtenir : « Valkyrie Lance »"
+			x: 21.0d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:zanite_axe"
+			id: "4D581251E184479A"
+			optional: true
+			rewards: [{
+				id: "5BAFF8D2CEDD9324"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "53A9F8538A5C938A"
+				item: "aether:zanite_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Zanite Axe »"
+			x: 22.5d
+			y: -7.5d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:zanite_helmet"
+			id: "777920ED0E0A3035"
+			optional: true
+			rewards: [{
+				id: "2CE160A31EAC657B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "244B99E5DE66B62D"
+				item: "aether:zanite_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Zanite Helmet »"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:zanite_sword"
+			id: "10ECB15AE144304F"
+			optional: true
+			rewards: [{
+				id: "503E5E4FCC195E2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21B6952725BD39D1"
+				item: "aether:zanite_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Zanite Sword »"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bAether Redux&r."]
+			icon: "aether_redux:infused_veridium_axe"
+			id: "7B989360A6F75D2D"
+			optional: true
+			rewards: [{
+				id: "79F6A78F19189DAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77C0E6E4F3C0852E"
+				item: "aether_redux:infused_veridium_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Infused Veridium Axe »"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bAether Redux&r."]
+			icon: "aether_redux:infused_veridium_sword"
+			id: "1E9C038A2CF12E6D"
+			optional: true
+			rewards: [{
+				id: "153CA8B2C4862855"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "265922B1C4A617D7"
+				item: "aether_redux:infused_veridium_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Infused Veridium Sword »"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bAether Redux&r."]
+			icon: "aether_redux:snailshell_shield"
+			id: "001CD20516D488E6"
+			optional: true
+			rewards: [{
+				id: "4F56589959DA9597"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CD79DBD595BBC35"
+				item: "aether_redux:snailshell_shield"
+				type: "item"
+			}]
+			title: "Obtenir : « Snailshell Shield »"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bAether Redux&r."]
+			icon: "aether_redux:veridium_axe"
+			id: "45594CF1FD798073"
+			optional: true
+			rewards: [{
+				id: "7BB21C6D0C78C968"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4425F6C0A467FBD4"
+				item: "aether_redux:veridium_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Veridium Axe »"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bAether Redux&r."]
+			icon: "aether_redux:veridium_sword"
+			id: "50FA401C613847EB"
+			optional: true
+			rewards: [{
+				id: "219824D3ECCEEABF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "190877E7AA141CF7"
+				item: "aether_redux:veridium_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Veridium Sword »"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:aeternium_axe"
+			id: "6CC4CB74B16C8203"
+			optional: true
+			rewards: [{
+				id: "25CE10C6EE64C659"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "703D9418B6AE5489"
+				item: "betterend:aeternium_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Aeternium Axe »"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:aeternium_hammer"
+			id: "536FC32DACFACCEB"
+			optional: true
+			rewards: [{
+				id: "4E83A716E8CF1F1F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3518CAC347389E1B"
+				item: "betterend:aeternium_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Aeternium Smith Hammer »"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:aeternium_helmet"
+			id: "4C2BEEE9A8D43E45"
+			optional: true
+			rewards: [{
+				id: "592933E533639E6C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79BB9AB568F99EE2"
+				item: "betterend:aeternium_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Aeternium Helmet »"
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:aeternium_sword"
+			id: "4BB4CD308607CBC3"
+			optional: true
+			rewards: [{
+				id: "6DB59CB11433AC2E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0759630281870A1E"
+				item: "betterend:aeternium_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Aeternium Sword »"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:crystalite_helmet"
+			id: "6773E437AE0FD44F"
+			optional: true
+			rewards: [{
+				id: "681582C575AE4C83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "170652AFE33C8033"
+				item: "betterend:crystalite_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Crystalite Helmet »"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:diamond_hammer"
+			id: "75A9BF320B2E1365"
+			optional: true
+			rewards: [{
+				id: "7101879A54FCCE2E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4ACDB02514249B60"
+				item: "betterend:diamond_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Diamond Smith Hammer »"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:golden_hammer"
+			id: "06B31F9F32D78E71"
+			optional: true
+			rewards: [{
+				id: "7D0309BFBA1A7FC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E11D6DD9488FE51"
+				item: "betterend:golden_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Golden Smith Hammer »"
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:iron_hammer"
+			id: "57D5E45151121A9E"
+			optional: true
+			rewards: [{
+				id: "1BB03A959F4C57D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "340AB63DCFB4C543"
+				item: "betterend:iron_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Iron Smith Hammer »"
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:netherite_hammer"
+			id: "0C066725FFBF1CD4"
+			optional: true
+			rewards: [{
+				id: "7552CB123C65B89A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C3D2226EC37A84D"
+				item: "betterend:netherite_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite Smith Hammer »"
+			x: 22.5d
+			y: -6.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:terminite_axe"
+			id: "4C819DE38235756C"
+			optional: true
+			rewards: [{
+				id: "3561BBFC4608F340"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C935748BD8A4181"
+				item: "betterend:terminite_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Terminite Axe »"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:terminite_hammer"
+			id: "50966C08D9637B3C"
+			optional: true
+			rewards: [{
+				id: "4AD32F077329F329"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35EE295ACF6CE2E9"
+				item: "betterend:terminite_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Terminite Smith Hammer »"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:terminite_helmet"
+			id: "314D3F4E297ED99C"
+			optional: true
+			rewards: [{
+				id: "5C1AC399EF18F5A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F6B24CD0A88C227"
+				item: "betterend:terminite_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Terminite Helmet »"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:terminite_sword"
+			id: "755C49D6F5B54E15"
+			optional: true
+			rewards: [{
+				id: "5E689033A0698DF8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B533418966829DE"
+				item: "betterend:terminite_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Terminite Sword »"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:thallasium_axe"
+			id: "2F1E1E36470A78A1"
+			optional: true
+			rewards: [{
+				id: "4B4FC978E88ACFF8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C1C99955CED2E09"
+				item: "betterend:thallasium_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Thallasium Axe »"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:thallasium_hammer"
+			id: "63CAF82619BD70B7"
+			optional: true
+			rewards: [{
+				id: "56637E180827EA55"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E264B4B9296C2DF"
+				item: "betterend:thallasium_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Thallasium Hammer »"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:thallasium_helmet"
+			id: "1B6AF97CEA4B69D1"
+			optional: true
+			rewards: [{
+				id: "63D4ECD0DEA65CA6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "776FFA2D94103EA1"
+				item: "betterend:thallasium_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Thallasium Helmet »"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:thallasium_sword"
+			id: "1588C6F4BCC529E3"
+			optional: true
+			rewards: [{
+				id: "5A764D68B1032B34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "647EDF85CD7E2D2B"
+				item: "betterend:thallasium_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Thallasium Sword »"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:cincinnasite_axe"
+			id: "64FB87C569947B1D"
+			optional: true
+			rewards: [{
+				id: "1A86EA8F16D9398E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CBEDB5E3061F6A9"
+				item: "betternether:cincinnasite_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en Cincinnasite"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:cincinnasite_helmet"
+			id: "1FCFBAE2AA04B649"
+			optional: true
+			rewards: [{
+				id: "7D7FBE0324C01139"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6956CA022569CB5B"
+				item: "betternether:cincinnasite_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Cincinnasite Helmet"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:cincinnasite_sword"
+			id: "0897AB9014A9C175"
+			optional: true
+			rewards: [{
+				id: "7B8C9F05F1948BA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0587A67A7F4CEEBD"
+				item: "betternether:cincinnasite_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Cincinnasite Sword"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:flaming_ruby_axe"
+			id: "7C045F0E9B482952"
+			optional: true
+			rewards: [{
+				id: "31EB34B157B4032D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09801C91EFC561BF"
+				item: "betternether:flaming_ruby_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Fireruby Axe »"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:flaming_ruby_helmet"
+			id: "699A143ACB0B734F"
+			optional: true
+			rewards: [{
+				id: "653CDEA3A483C96D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BD52BE032D86730"
+				item: "betternether:flaming_ruby_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Fireruby Helmet »"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:flaming_ruby_sword"
+			id: "1CB2AE19FDA4EF77"
+			optional: true
+			rewards: [{
+				id: "75E5DCAC91C22961"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B061B37173D1E28"
+				item: "betternether:flaming_ruby_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Fireruby Sword »"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:nether_ruby_axe"
+			id: "3EEA2AA3FB9C7915"
+			optional: true
+			rewards: [{
+				id: "3854AE4D0516F7E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39FEF37E376787A9"
+				item: "betternether:nether_ruby_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Nether Ruby Axe"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:nether_ruby_helmet"
+			id: "5A62232CF7F30940"
+			optional: true
+			rewards: [{
+				id: "4369A7DDE92CC24E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "003EF227D9EFB9F9"
+				item: "betternether:nether_ruby_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Nether Ruby Helmet"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:nether_ruby_sword"
+			id: "139776CD9EF51924"
+			optional: true
+			rewards: [{
+				id: "3E1B75F8584E03E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26008DD71B572566"
+				item: "betternether:nether_ruby_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Nether Ruby Sword"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:aquite_axe"
+			id: "74C03FCED9AC244B"
+			optional: true
+			rewards: [{
+				id: "1A9BBF2704E1B930"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F2D4D773A94245D"
+				item: "blue_skies:aquite_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en aquite"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:aquite_helmet"
+			id: "7DFC1F093F1EC655"
+			optional: true
+			rewards: [{
+				id: "6E86E8ADE7649308"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "165F61AD2164C02A"
+				item: "blue_skies:aquite_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque en aquite"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:aquite_sword"
+			id: "420054CE04EA9FA5"
+			optional: true
+			rewards: [{
+				id: "4932433AE81EBFAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69CF3D05442B773A"
+				item: "blue_skies:aquite_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en aquite"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:bluebright_axe"
+			id: "2BEE7E63CCEC0A01"
+			optional: true
+			rewards: [{
+				id: "0375F2137E8C9811"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A7AE2F689B571CA"
+				item: "blue_skies:bluebright_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en bois de lumibleu"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:bluebright_spear"
+			id: "05A025D40503F05D"
+			optional: true
+			rewards: [{
+				id: "3F8CF26AD4F45FE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A20D6E008295246"
+				item: "blue_skies:bluebright_spear"
+				type: "item"
+			}]
+			title: "Obtenir : Lance en lumibleu"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:bluebright_sword"
+			id: "4C5BD8C0859053CA"
+			optional: true
+			rewards: [{
+				id: "467061E56F8EC6E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "449A964F2130EABC"
+				item: "blue_skies:bluebright_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en bois lumibleu"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:charoite_axe"
+			id: "1C4B3D4D47423DD6"
+			optional: true
+			rewards: [{
+				id: "5D99B34E008AE4D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A7604734501C49C"
+				item: "blue_skies:charoite_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en charoite"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:charoite_helmet"
+			id: "62CAF72333F150B5"
+			optional: true
+			rewards: [{
+				id: "7ABAE444C26B21E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "366EA6D55DA50515"
+				item: "blue_skies:charoite_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque en charoite"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:charoite_sword"
+			id: "4CBB56BBB3E751D5"
+			optional: true
+			rewards: [{
+				id: "140E99522612BA6A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58A24E1A4AA5F8BC"
+				item: "blue_skies:charoite_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en charoite"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:comet_axe"
+			id: "60DA88A3AD88544D"
+			optional: true
+			rewards: [{
+				id: "4F6C19FD0ED8FDFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17D1DCE3983D3CD8"
+				item: "blue_skies:comet_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Comet Wood Axe »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:comet_spear"
+			id: "5409F05CF06E1045"
+			optional: true
+			rewards: [{
+				id: "1BE59ACA2BB3CAB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EC7D4F0748EE4F4"
+				item: "blue_skies:comet_spear"
+				type: "item"
+			}]
+			title: "Obtenir : « Comet Spear »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:comet_sword"
+			id: "6D1B9B183CB01B89"
+			optional: true
+			rewards: [{
+				id: "191AC22F3DB91FCC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60746BD0A2984456"
+				item: "blue_skies:comet_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Comet Wood Sword »"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:crushing_hammer"
+			id: "4D30677B3612E2FA"
+			optional: true
+			rewards: [{
+				id: "4FDD28115C890D8B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E417C7F52D35174"
+				item: "blue_skies:crushing_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : Marteau écraseur"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:different_sword"
+			id: "14E318EB8CF3E2D9"
+			optional: true
+			rewards: [{
+				id: "281A23222C9A381D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6ED3CAD7469BE046"
+				item: "blue_skies:different_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée différente"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:diopside_axe"
+			id: "1FF5084D17B27E83"
+			optional: true
+			rewards: [{
+				id: "665FC4CA9305EBDF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61B40FC0F6FF107B"
+				item: "blue_skies:diopside_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en diopside"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:diopside_helmet"
+			id: "399F74651B1037A6"
+			optional: true
+			rewards: [{
+				id: "5CF10A8356A03E87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "18D027EAD0044903"
+				item: "blue_skies:diopside_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque en diopside"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:diopside_sword"
+			id: "1904CEDDA81D763B"
+			optional: true
+			rewards: [{
+				id: "67F781B060B4ED10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61AC0EFD3D309D5A"
+				item: "blue_skies:diopside_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en diopside"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:dusk_axe"
+			id: "04042AF090BE8E7E"
+			optional: true
+			rewards: [{
+				id: "1B9FCFA128A2A73D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F274511D6944AD4"
+				item: "blue_skies:dusk_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en crépuscubois"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:dusk_spear"
+			id: "5D60A39CDA9E52D5"
+			optional: true
+			rewards: [{
+				id: "5D784EBAE2A40679"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "505B1015C825B1E9"
+				item: "blue_skies:dusk_spear"
+				type: "item"
+			}]
+			title: "Obtenir : Lance en crépuscubois"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:dusk_sword"
+			id: "44F977F74D36E2C5"
+			optional: true
+			rewards: [{
+				id: "073265DCF31181EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EB0E1A7A534CE43"
+				item: "blue_skies:dusk_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en crépuscubois"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:frostbright_axe"
+			id: "2A036B3685DCB3E6"
+			optional: true
+			rewards: [{
+				id: "00889E57BA31B9E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6401FEE443222286"
+				item: "blue_skies:frostbright_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en bois de nifrisque"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:frostbright_spear"
+			id: "31AA91DE85B24917"
+			optional: true
+			rewards: [{
+				id: "4004FC76F61628AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DF31E2B3CC1CC67"
+				item: "blue_skies:frostbright_spear"
+				type: "item"
+			}]
+			title: "Obtenir : lance en nifrisque"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:frostbright_sword"
+			id: "0E736BFC0B5C1C57"
+			optional: true
+			rewards: [{
+				id: "7AEFA832D07FA7F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "364E0733B7557829"
+				item: "blue_skies:frostbright_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en bois de nifrisque"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:horizonite_axe"
+			id: "76CFE905422F2151"
+			optional: true
+			rewards: [{
+				id: "731F42D4CE394C73"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "29712ADA1C7DAB82"
+				item: "blue_skies:horizonite_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en horizonite"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:horizonite_helmet"
+			id: "02FEFCB3542F13D2"
+			optional: true
+			rewards: [{
+				id: "593D945BB56DDB78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F413452F020ADE2"
+				item: "blue_skies:horizonite_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque en horizonite"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:horizonite_sword"
+			id: "27CC1A64D5A47D85"
+			optional: true
+			rewards: [{
+				id: "6134B0566ECD583F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F901AF86D28DBF4"
+				item: "blue_skies:horizonite_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en horizonite"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:lunar_axe"
+			id: "274DA9BC1CBFDE31"
+			optional: true
+			rewards: [{
+				id: "61775769A38A2CC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09C6B39CF9C2BF0B"
+				item: "blue_skies:lunar_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache lunaire"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:lunar_spear"
+			id: "7CC6E437F5077665"
+			optional: true
+			rewards: [{
+				id: "3F8C853B46D6ED19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CB8B63A398ABF4A"
+				item: "blue_skies:lunar_spear"
+				type: "item"
+			}]
+			title: "Obtenir : Lance lunaire"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:lunar_stone_axe"
+			id: "3395AB1A1B8C42F3"
+			optional: true
+			rewards: [{
+				id: "3FB4D7A733736794"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "084B8B4D26BF1900"
+				item: "blue_skies:lunar_stone_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en pierre lunaire"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:lunar_stone_sword"
+			id: "284314AF396ADEA8"
+			optional: true
+			rewards: [{
+				id: "5BC4CDE5650B6375"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F0CD39DCB78B702"
+				item: "blue_skies:lunar_stone_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en pierre lunaire"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:lunar_sword"
+			id: "43A4B5CBD53C66E3"
+			optional: true
+			rewards: [{
+				id: "51E229F622B28232"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52A7717D4F97E0D5"
+				item: "blue_skies:lunar_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée lunaire"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:maple_axe"
+			id: "509AD68397E3B327"
+			optional: true
+			rewards: [{
+				id: "1760FE3FA961594F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C0B7A59329A5E06"
+				item: "blue_skies:maple_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en bois d'érable"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:maple_spear"
+			id: "04F57BB0D8938107"
+			optional: true
+			rewards: [{
+				id: "09A9154DA9CBC9C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2375C5EFFF39F6C1"
+				item: "blue_skies:maple_spear"
+				type: "item"
+			}]
+			title: "Obtenir : Lance en érable"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:maple_sword"
+			id: "4D318AF16B404C81"
+			optional: true
+			rewards: [{
+				id: "1B6DAE902B94BE39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "418463E3FFAFEFF6"
+				item: "blue_skies:maple_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en bois d'érable"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:moonstone_shield"
+			id: "6F06D5D8B1176B4F"
+			optional: true
+			rewards: [{
+				id: "34FCC2A8601A5E91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "109FD1BB21545E04"
+				item: "blue_skies:moonstone_shield"
+				type: "item"
+			}]
+			title: "Obtenir : Bouclier en pierre de lune"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:pyrope_axe"
+			id: "513742911D7C0B28"
+			optional: true
+			rewards: [{
+				id: "7BA172E840DAF806"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57365F79064A2C3A"
+				item: "blue_skies:pyrope_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en pyrope"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:pyrope_helmet"
+			id: "38A193444AD1F615"
+			optional: true
+			rewards: [{
+				id: "5FB2C22FA9193687"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A9EA5CC0825735C"
+				item: "blue_skies:pyrope_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque en pyrope"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:pyrope_sword"
+			id: "257ED2FEDEFCBAAF"
+			optional: true
+			rewards: [{
+				id: "02E521CA6D0F27FC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5422900189CAB585"
+				item: "blue_skies:pyrope_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en pyrope"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:soulbound_spear"
+			id: "30D82E40FC9077D5"
+			optional: true
+			rewards: [{
+				id: "1CBE7E35DA435DDD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10F3623AA4625BA2"
+				item: "blue_skies:soulbound_spear"
+				type: "item"
+			}]
+			title: "Obtenir : Lance de garde"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:spike_shield"
+			id: "76CD914E24376479"
+			optional: true
+			rewards: [{
+				id: "43A96F56AD99486D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "29835080460B59F4"
+				item: "blue_skies:spike_shield"
+				type: "item"
+			}]
+			title: "Obtenir : Bouclier spéléothème"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:starlit_axe"
+			id: "4C24BB98CE6493A9"
+			optional: true
+			rewards: [{
+				id: "7DC133C400B49D30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EF85E3DE17350BC"
+				item: "blue_skies:starlit_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en étoilibois"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:starlit_spear"
+			id: "171577F844BDDA81"
+			optional: true
+			rewards: [{
+				id: "5151C90C776BC13A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D19CDD8DFA53BDE"
+				item: "blue_skies:starlit_spear"
+				type: "item"
+			}]
+			title: "Obtenir : Lance en étoilibois"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:starlit_sword"
+			id: "4BE8B007BD509CBB"
+			optional: true
+			rewards: [{
+				id: "52E6898866998CDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5130BDDA8842100F"
+				item: "blue_skies:starlit_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en étoilibois"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:turquoise_stone_axe"
+			id: "16CDB4C4262D53DB"
+			optional: true
+			rewards: [{
+				id: "1036AA7A18B2A238"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "197F9B2EB8F7C476"
+				item: "blue_skies:turquoise_stone_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en pierre turquoise"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:turquoise_stone_sword"
+			id: "1619593FA5BF3EF9"
+			optional: true
+			rewards: [{
+				id: "5DFFB41DC565D475"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51B9FAE027E0483C"
+				item: "blue_skies:turquoise_stone_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en pierre turquoise"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:ancient_spear"
+			id: "46BCFB4803C0B669"
+			optional: true
+			rewards: [{
+				id: "34CB65F200C89867"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48AB77B203D14B40"
+				item: "cataclysm:ancient_spear"
+				type: "item"
+			}]
+			title: "Obtenir : « Ancient Spear »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:azure_sea_shield"
+			id: "44A44D677DAF9D96"
+			optional: true
+			rewards: [{
+				id: "664821B309FA3F9D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17A867F84F9AE412"
+				item: "cataclysm:azure_sea_shield"
+				type: "item"
+			}]
+			title: "Obtenir : « Azure Sea Shield »"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:black_steel_axe"
+			id: "32B15AE2A5FE31F0"
+			optional: true
+			rewards: [{
+				id: "195A3C8D52C065D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19375B6F789FCE1E"
+				item: "cataclysm:black_steel_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Black Steel Axe »"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:black_steel_sword"
+			id: "31941DE9739D16BA"
+			optional: true
+			rewards: [{
+				id: "72FAFBDE7FEFED05"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E22234B2511111A"
+				item: "cataclysm:black_steel_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Black Steel Sword »"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:bone_reptile_helmet"
+			id: "1C45F8CD7889D76E"
+			optional: true
+			rewards: [{
+				id: "02DA8D92D5569D0D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "30C6B27AF85F7988"
+				item: "cataclysm:bone_reptile_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Bone Reptile Helmet »"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:cursed_bow"
+			id: "311DC702E7A2712F"
+			optional: true
+			rewards: [{
+				id: "6F33C9250A460D09"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C8DA0CB7A75E1FF"
+				item: "cataclysm:cursed_bow"
+				type: "item"
+			}]
+			title: "Obtenir : « Cursed Bow »"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:cursium_helmet"
+			id: "44B09B9BE613954F"
+			optional: true
+			rewards: [{
+				id: "79F67E6134E81DD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74B33F0026A68CC3"
+				item: "cataclysm:cursium_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Cursium Helmet »"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:ignitium_helmet"
+			id: "157E5F4608575B82"
+			optional: true
+			rewards: [{
+				id: "4C8842DA76322016"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "43DDF09CD844B54C"
+				item: "cataclysm:ignitium_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Ignitium Helmet »"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:skyjade_axe"
+			id: "6AA37C5D55FE8381"
+			optional: true
+			rewards: [{
+				id: "6DB7426868DEA300"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3880C84785C9F619"
+				item: "deep_aether:skyjade_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Skyjade Axe »"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:skyjade_helmet"
+			id: "0240F53FC2645AD5"
+			optional: true
+			rewards: [{
+				id: "2B7DD93985EF8B4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E457BE23775DAE6"
+				item: "deep_aether:skyjade_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Skyjade Helmet »"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:skyjade_sword"
+			id: "4EA33525A8B4BAA9"
+			optional: true
+			rewards: [{
+				id: "7F445A62314E76DD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A4A26FD37D9114A"
+				item: "deep_aether:skyjade_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Skyjade Sword »"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:storm_bow"
+			id: "0853394EC788F15A"
+			optional: true
+			rewards: [{
+				id: "7BEF3ADA6914774B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E661EE1C472C88B"
+				item: "deep_aether:storm_bow"
+				type: "item"
+			}]
+			title: "Obtenir : « Storm Bow »"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:storm_sword"
+			id: "09F784566DC79CB6"
+			optional: true
+			rewards: [{
+				id: "55725F5A7F5EB143"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23E30EDEF7EC9DD5"
+				item: "deep_aether:storm_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Storm Sword »"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:stormforged_helmet"
+			id: "1816FF222CF98BFC"
+			optional: true
+			rewards: [{
+				id: "70983883E6256164"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "779CD30FBC077535"
+				item: "deep_aether:stormforged_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Stormforged Helmet »"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:stratus_axe"
+			id: "7C89B0B1721CDF47"
+			optional: true
+			rewards: [{
+				id: "1EAC68F4EC146465"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62B49C3F1FD61352"
+				item: "deep_aether:stratus_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Stratus Axe »"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:stratus_helmet"
+			id: "540B937401F7B395"
+			optional: true
+			rewards: [{
+				id: "54919756E3C6C30C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20D95214235B4DD3"
+				item: "deep_aether:stratus_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Stratus Helmet »"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:stratus_sword"
+			id: "58C601FFBE4B57C3"
+			optional: true
+			rewards: [{
+				id: "19DF9D913BF60068"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36A9DBCB2D733FD4"
+				item: "deep_aether:stratus_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Stratus Sword »"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:wind_shield"
+			id: "389B5FF425041809"
+			optional: true
+			rewards: [{
+				id: "1E742D837DAD7347"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "604D0DB0C3ABCD30"
+				item: "deep_aether:wind_shield"
+				type: "item"
+			}]
+			title: "Obtenir : « Wind Shield »"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bDeeper and Darker&r."]
+			icon: "deeperdarker:resonarium_axe"
+			id: "029458A4E6D2C781"
+			optional: true
+			rewards: [{
+				id: "556F143A29A71834"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7334008AC756AC62"
+				item: "deeperdarker:resonarium_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Resonarium Axe »"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bDeeper and Darker&r."]
+			icon: "deeperdarker:resonarium_helmet"
+			id: "2F5EFC08C70A8599"
+			optional: true
+			rewards: [{
+				id: "7B57826B7A531D8C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "486BE163EB4C42D1"
+				item: "deeperdarker:resonarium_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Resonarium Helmet »"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bDeeper and Darker&r."]
+			icon: "deeperdarker:resonarium_sword"
+			id: "79997593925CE828"
+			optional: true
+			rewards: [{
+				id: "71A1F2C9C802CF81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "547D64F346D069CC"
+				item: "deeperdarker:resonarium_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Resonarium Sword »"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bDeeper and Darker&r."]
+			icon: "deeperdarker:sonorous_staff"
+			id: "1C20FAF3829327BC"
+			optional: true
+			rewards: [{
+				id: "69D13A2F335E2D56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7774A342975C6205"
+				item: "deeperdarker:sonorous_staff"
+				type: "item"
+			}]
+			title: "Obtenir : « Sonorous Staff »"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bDeeper and Darker&r."]
+			icon: "deeperdarker:warden_axe"
+			id: "487AEDA311FD3C08"
+			optional: true
+			rewards: [{
+				id: "5835EEF105678768"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "218A3F8B2066EBD2"
+				item: "deeperdarker:warden_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache du Warden"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bDeeper and Darker&r."]
+			icon: "deeperdarker:warden_helmet"
+			id: "0C5E93BA5EA62970"
+			optional: true
+			rewards: [{
+				id: "36D90134424AC6C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36151EB9F58F3A3B"
+				item: "deeperdarker:warden_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque du Warden"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bDeeper and Darker&r."]
+			icon: "deeperdarker:warden_sword"
+			id: "01796A14359EB516"
+			optional: true
+			rewards: [{
+				id: "4B413FE2B6EA558C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DD1D12D436C5509"
+				item: "deeperdarker:warden_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée du Warden"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bdragonloot&r."]
+			icon: "dragonloot:dragon_axe"
+			id: "31239C5C6660FFF7"
+			optional: true
+			rewards: [{
+				id: "3884C691171A4CF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DF840407C9E8CDD"
+				item: "dragonloot:dragon_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « Dragon Axe »"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bdragonloot&r."]
+			icon: "dragonloot:dragon_helmet"
+			id: "14B42DCF7D005C73"
+			optional: true
+			rewards: [{
+				id: "2814A13296D6B0E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38A5574244871A48"
+				item: "dragonloot:dragon_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Dragon Scale Helmet »"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bdragonloot&r."]
+			icon: "dragonloot:dragon_sword"
+			id: "244931FDF602D0F4"
+			optional: true
+			rewards: [{
+				id: "38385FDE1E0C765F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4146239B68CE2D30"
+				item: "dragonloot:dragon_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « Dragon Sword »"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bGalosphere&r."]
+			icon: "galosphere:sterling_helmet"
+			id: "6E1DBAE880A10F7F"
+			optional: true
+			rewards: [{
+				id: "1DA25D7C7E64F1B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "684C57992280F122"
+				item: "galosphere:sterling_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « Sterling Helmet »"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:archevoker_helmet"
+			id: "559B84B62F1839C0"
+			optional: true
+			rewards: [{
+				id: "53A64F62B15E63BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37F7E51FA8BC3AE0"
+				item: "irons_spellbooks:archevoker_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Chapeau de l'Archévocateur"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:autoloader_crossbow"
+			id: "4238317D9F6A7538"
+			optional: true
+			rewards: [{
+				id: "5788CC38D58968D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2773A5DABA2452CB"
+				item: "irons_spellbooks:autoloader_crossbow"
+				type: "item"
+			}]
+			title: "Obtenir : Arbalète à Chargement Automatique"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:blood_staff"
+			id: "6D750FAEAB2ACE61"
+			optional: true
+			rewards: [{
+				id: "1DDAF890AC8DC7A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FB1712F06F560B6"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			title: "Obtenir : Le Bâton de Sang"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:cryomancer_helmet"
+			id: "75DC7FF2485D09A5"
+			optional: true
+			rewards: [{
+				id: "229B7DABA8E3B0B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2714C4C1D02B71C5"
+				item: "irons_spellbooks:cryomancer_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Capuche du Cryomancien"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:cultist_helmet"
+			id: "6C1DF5A25DAADF98"
+			optional: true
+			rewards: [{
+				id: "08AAACCE17DC2025"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "550DA86AFE298B42"
+				item: "irons_spellbooks:cultist_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Capuche du Cultiste"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:decrepit_scythe"
+			id: "74C843ABCAA64A71"
+			optional: true
+			rewards: [{
+				id: "2C69F6B7E735D8DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47A0150E77308A3D"
+				item: "irons_spellbooks:decrepit_scythe"
+				type: "item"
+			}]
+			title: "Obtenir : Faux Décrépite"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:electromancer_helmet"
+			id: "3BC7B72232766CF1"
+			optional: true
+			rewards: [{
+				id: "7897E759E34BB1F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DD0DF5C6F48BAFA"
+				item: "irons_spellbooks:electromancer_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Chapeau de l'Électromancien"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:graybeard_staff"
+			id: "5B6E15E137980294"
+			optional: true
+			rewards: [{
+				id: "3E6B56E802B61D4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7870FAF4C83405F5"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			title: "Obtenir : Bâton de Barbe-Grise"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:ice_staff"
+			id: "183823868598AE16"
+			optional: true
+			rewards: [{
+				id: "0F1BCE4351D08ED3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3AAC44D42811E533"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			title: "Obtenir : Bâton de Glace"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:netherite_mage_helmet"
+			id: "43E3D117BADB577F"
+			optional: true
+			rewards: [{
+				id: "42CF5A49450D5A02"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D10B90556F1984B"
+				item: "irons_spellbooks:netherite_mage_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Chapeau du Mage de Guerre en Nétherite"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:plagued_helmet"
+			id: "28C23438521CA63D"
+			optional: true
+			rewards: [{
+				id: "1E6AC3AC251CD35C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27B1E5C2B6E51AA0"
+				item: "irons_spellbooks:plagued_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Masque Pesteux"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:priest_helmet"
+			id: "7640F5038B637AA0"
+			optional: true
+			rewards: [{
+				id: "27FDB65F753F7D4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78622C93AB4631AE"
+				item: "irons_spellbooks:priest_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Masque du Prêtre"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:pumpkin_helmet"
+			id: "262AA732CC56088F"
+			optional: true
+			rewards: [{
+				id: "011B78C5800BB255"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26D657236F70B898"
+				item: "irons_spellbooks:pumpkin_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Chapeau d'Épouvantail"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:pyrium_staff"
+			id: "7CE3FA81F5ACF239"
+			optional: true
+			rewards: [{
+				id: "37AE1EB87D3725BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A901D274D8F67E8"
+				item: "irons_spellbooks:pyrium_staff"
+				type: "item"
+			}]
+			title: "Obtenir : Bâton de Pyrium"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:pyromancer_helmet"
+			id: "5883EAD3C68F3267"
+			optional: true
+			rewards: [{
+				id: "52904E0F1109C4E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52B50D937769D0B4"
+				item: "irons_spellbooks:pyromancer_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Chapeau du Pyromancien"
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:shadowwalker_helmet"
+			id: "24ACEA6289F0811B"
+			optional: true
+			rewards: [{
+				id: "2371C4C7081AA4CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5941E51824CE02DE"
+				item: "irons_spellbooks:shadowwalker_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Masque du Marchombre"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:wandering_magician_helmet"
+			id: "38A530C72360C44E"
+			optional: true
+			rewards: [{
+				id: "4C820BFB54542A50"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A39F4E1398E0A22"
+				item: "irons_spellbooks:wandering_magician_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Capuche du Magicien Errant"
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:wizard_helmet"
+			id: "3C97333FD2ABDF1D"
+			optional: true
+			rewards: [{
+				id: "1DEDF46091DE5893"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "320C4EDC0345C682"
+				item: "irons_spellbooks:wizard_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque du Sorcier"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bMowzie's Mobs&r."]
+			icon: "mowziesmobs:naga_fang_dagger"
+			id: "1AD88ADB61BC62A4"
+			optional: true
+			rewards: [{
+				id: "0C84DCB87D077690"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75E4DA715B771CA4"
+				item: "mowziesmobs:naga_fang_dagger"
+				type: "item"
+			}]
+			title: "Obtenir : Dague en dent de naga"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bMowzie's Mobs&r."]
+			icon: "mowziesmobs:sculptor_staff"
+			id: "045F1FDE3F4E96CE"
+			optional: true
+			rewards: [{
+				id: "4AF369E5252C5CBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69B62599828FB6B2"
+				item: "mowziesmobs:sculptor_staff"
+				type: "item"
+			}]
+			title: "Obtenir : « Geomancer Staff »"
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bMowzie's Mobs&r."]
+			icon: "mowziesmobs:wrought_axe"
+			id: "7E988AD1E496A5CA"
+			optional: true
+			rewards: [{
+				id: "0A3173EEEA55FA8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CDE92636AC7F3F1"
+				item: "mowziesmobs:wrought_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache des milles métaux"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			description: ["Objet de &bMowzie's Mobs&r."]
+			icon: "mowziesmobs:wrought_helmet"
+			id: "16AF7FE4CDD3D476"
+			optional: true
+			rewards: [{
+				id: "4488F74BB69C316F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63F701274B3FEAD9"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque de Chevalier Forgé"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:awful_dagger"
+			id: "25C3697ACE938B11"
+			optional: true
+			rewards: [{
+				id: "18C48156046CB306"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20EA54B656D9D69F"
+				item: "stalwart_dungeons:awful_dagger"
+				type: "item"
+			}]
+			title: "Obtenir : « §cAwful Dagger »"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:chorundum_armor_helmet"
+			id: "3AC171F323D196EA"
+			optional: true
+			rewards: [{
+				id: "2137635D49337324"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3282A182FDEAF3CB"
+				item: "stalwart_dungeons:chorundum_armor_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « §eChorundum Helmet »"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:chorundum_axe"
+			id: "59CFC7C4F497DA6E"
+			optional: true
+			rewards: [{
+				id: "75EF56625F338AD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B67FCFC6B32F82B"
+				item: "stalwart_dungeons:chorundum_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « §eChorundum Axe »"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:chorundum_shield"
+			id: "2E519CEEE70EE1F1"
+			optional: true
+			rewards: [{
+				id: "108C05C79E364C0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "024DC073033A73FD"
+				item: "stalwart_dungeons:chorundum_shield"
+				type: "item"
+			}]
+			title: "Obtenir : « §eChorundum Shield »"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:chorundum_sword"
+			id: "01B26700FE8CC3CE"
+			optional: true
+			rewards: [{
+				id: "38999E747D645338"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "153E731655D0F5D0"
+				item: "stalwart_dungeons:chorundum_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « §eChorundum Sword »"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:diamond_hammer"
+			id: "4DD1D6366C23B32A"
+			optional: true
+			rewards: [{
+				id: "733CF6128E362418"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2903900FEE961694"
+				item: "stalwart_dungeons:diamond_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Diamond Hammer »"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:golden_hammer"
+			id: "482FA61858882477"
+			optional: true
+			rewards: [{
+				id: "6D83EDB68C2C60BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A07A81AC01EF9F8"
+				item: "stalwart_dungeons:golden_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Golden Hammer »"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:iron_hammer"
+			id: "493A691DBFB0F93C"
+			optional: true
+			rewards: [{
+				id: "63D6E69D4CA79EFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FA35AF552A69BDA"
+				item: "stalwart_dungeons:iron_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Iron Hammer »"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:nether_hammer"
+			id: "0F89019A39DB5556"
+			optional: true
+			rewards: [{
+				id: "0DB3606B112810F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "681BA04A2356CCF0"
+				item: "stalwart_dungeons:nether_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « §cNether Hammer »"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:netherite_hammer"
+			id: "345A037EFBE5751D"
+			optional: true
+			rewards: [{
+				id: "7ACDB641532D56D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17FC97A9A2A4C9A2"
+				item: "stalwart_dungeons:netherite_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Netherite Hammer »"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:stone_hammer"
+			id: "049A1FCA8CD456F4"
+			optional: true
+			rewards: [{
+				id: "49DB6F60FF155AC4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D7E46CF3190E1C4"
+				item: "stalwart_dungeons:stone_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Stone Hammer »"
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:tungsten_axe"
+			id: "710C5DB7283AC7C3"
+			optional: true
+			rewards: [{
+				id: "23582D35C4CB970C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08FF914EDD291CA3"
+				item: "stalwart_dungeons:tungsten_axe"
+				type: "item"
+			}]
+			title: "Obtenir : « §eTungsten Axe »"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:tungsten_hammer"
+			id: "21761D0872C65380"
+			optional: true
+			rewards: [{
+				id: "0853A8D0C9590261"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24DDB8E9BE838578"
+				item: "stalwart_dungeons:tungsten_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « §eTungsten Hammer »"
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:tungsten_helmet"
+			id: "159D6ED55C7F1DA0"
+			optional: true
+			rewards: [{
+				id: "23EE09B70211E1BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5488B32D70E37E57"
+				item: "stalwart_dungeons:tungsten_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « §eTungsten Helmet »"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:tungsten_shield"
+			id: "4E29A1D9D93CFBDB"
+			optional: true
+			rewards: [{
+				id: "5DDF5F6A98ABE64B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EA47B9692C6A665"
+				item: "stalwart_dungeons:tungsten_shield"
+				type: "item"
+			}]
+			title: "Obtenir : « §eTungsten Shield »"
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:tungsten_sword"
+			id: "3A56BDFD2BED19A6"
+			optional: true
+			rewards: [{
+				id: "605749B8F3D45D29"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C65EAA20A79F817"
+				item: "stalwart_dungeons:tungsten_sword"
+				type: "item"
+			}]
+			title: "Obtenir : « §eTungsten Sword »"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:warted_tungsten_helmet"
+			id: "7CF26A5F83F3D45E"
+			optional: true
+			rewards: [{
+				id: "6705B09742771695"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "641C4B345B126D98"
+				item: "stalwart_dungeons:warted_tungsten_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : « §eWarted Helmet »"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:warted_tungsten_shield"
+			id: "4BA7B1C6A548715A"
+			optional: true
+			rewards: [{
+				id: "221007EAD9735F01"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "18C60B7BAB6782A3"
+				item: "stalwart_dungeons:warted_tungsten_shield"
+				type: "item"
+			}]
+			title: "Obtenir : « §eWarted Shield »"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bStalwart Dungeons&r."]
+			icon: "stalwart_dungeons:wooden_hammer"
+			id: "44BC261492FDBCD6"
+			optional: true
+			rewards: [{
+				id: "1EC50B0EBDD40293"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F5A44FC903EA928"
+				item: "stalwart_dungeons:wooden_hammer"
+				type: "item"
+			}]
+			title: "Obtenir : « Wooden Hammer »"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:arctic_helmet"
+			id: "5A37AC636DD9C010"
+			optional: true
+			rewards: [{
+				id: "7FE6890655FDEE97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "133E387938B3AE5B"
+				item: "twilightforest:arctic_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Capuche arctique"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:diamond_minotaur_axe"
+			id: "48E676911831EDF9"
+			optional: true
+			rewards: [{
+				id: "1F2B63DA7836E38B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B359A70FEE94B0D"
+				item: "twilightforest:diamond_minotaur_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en diamant du Minotaure"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:ender_bow"
+			id: "01DD14BD5104F956"
+			optional: true
+			rewards: [{
+				id: "337DC90752BE2047"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77FE6BD066AD746C"
+				item: "twilightforest:ender_bow"
+				type: "item"
+			}]
+			title: "Obtenir : Arc de l'Ender"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:fiery_helmet"
+			id: "3DB2E3EB57BA56B1"
+			optional: true
+			rewards: [{
+				id: "047F502418B31142"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "469E6751C8D90788"
+				item: "twilightforest:fiery_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque ardent"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:fiery_sword"
+			id: "01C0F4BE4D3D10AD"
+			optional: true
+			rewards: [{
+				id: "5C04D7C586AC39C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B44EF48F88B1B89"
+				item: "twilightforest:fiery_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée ardente"
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:giant_sword"
+			id: "710718B68EBD6D48"
+			optional: true
+			rewards: [{
+				id: "25E313A416CA8E2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24A906AE99F5777D"
+				item: "twilightforest:giant_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée de géant"
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:glass_sword"
+			id: "662B2AA3FBA9645A"
+			optional: true
+			rewards: [{
+				id: "747A0872943A0740"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2209F5E40F93FC79"
+				item: "twilightforest:glass_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en verre"
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:ice_bow"
+			id: "15E98BEBF76071C7"
+			optional: true
+			rewards: [{
+				id: "32F734DDF9BA5F46"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "408EE85D05A07E67"
+				item: "twilightforest:ice_bow"
+				type: "item"
+			}]
+			title: "Obtenir : Arc gelé"
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:ice_sword"
+			id: "273719FBE27B9888"
+			optional: true
+			rewards: [{
+				id: "1F05F2E681AF5543"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E0059E972902F2F"
+				item: "twilightforest:ice_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée gelée"
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:ironwood_axe"
+			id: "73B6FFD73C36905B"
+			optional: true
+			rewards: [{
+				id: "47C07D88B791E505"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "444B33C5CD99EB28"
+				item: "twilightforest:ironwood_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en bois de fer"
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:ironwood_helmet"
+			id: "1DE647C484A47FB6"
+			optional: true
+			rewards: [{
+				id: "22A3B956FC48ED58"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AC7C80FC97847E7"
+				item: "twilightforest:ironwood_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque en bois de fer"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:ironwood_sword"
+			id: "47FB8C161C5AA20E"
+			optional: true
+			rewards: [{
+				id: "4BE4AB554403CC86"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34528BEF9C662C9C"
+				item: "twilightforest:ironwood_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en bois de fer"
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:knightmetal_axe"
+			id: "144B113D4EA2ABD4"
+			optional: true
+			rewards: [{
+				id: "754F9BA80528D7C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07EC01E8434D56AD"
+				item: "twilightforest:knightmetal_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache chevaleresque"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:knightmetal_helmet"
+			id: "4DAC62FCD50D333C"
+			optional: true
+			rewards: [{
+				id: "1211F2A19D1E8E75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "234646E91D859948"
+				item: "twilightforest:knightmetal_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque chevaleresque"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:knightmetal_shield"
+			id: "16E6A0B427D35F1C"
+			optional: true
+			rewards: [{
+				id: "7446D752C98B42F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "719C253A871F1352"
+				item: "twilightforest:knightmetal_shield"
+				type: "item"
+			}]
+			title: "Obtenir : Bouclier chevaleresque"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:knightmetal_sword"
+			id: "6CF0982F9FEEA14E"
+			optional: true
+			rewards: [{
+				id: "6FA64F9A9D74F247"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5764342E08976BF6"
+				item: "twilightforest:knightmetal_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée chevaleresque"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:phantom_helmet"
+			id: "607681329AD5BBBF"
+			optional: true
+			rewards: [{
+				id: "7C23BF65A4D64B96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "261CF1F9E5E42404"
+				item: "twilightforest:phantom_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque de fantôme"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:seeker_bow"
+			id: "364A4F38AB164477"
+			optional: true
+			rewards: [{
+				id: "567946EF1E26860C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CF596DB2F3BFFFC"
+				item: "twilightforest:seeker_bow"
+				type: "item"
+			}]
+			title: "Obtenir : Arc du chercheur"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:steeleaf_axe"
+			id: "1AF5AA9FFED09DD1"
+			optional: true
+			rewards: [{
+				id: "6450808E3CD761B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74D1F5FAEB731E5A"
+				item: "twilightforest:steeleaf_axe"
+				type: "item"
+			}]
+			title: "Obtenir : Hache en Stealeaf"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:steeleaf_helmet"
+			id: "707658FC1284891C"
+			optional: true
+			rewards: [{
+				id: "478FD6E874383DF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13F64FA0D4FDAC77"
+				item: "twilightforest:steeleaf_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque en Stealeaf"
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:steeleaf_sword"
+			id: "6D7BC2D71A352B21"
+			optional: true
+			rewards: [{
+				id: "1DFC324AC15E734C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1103F081656DE5CE"
+				item: "twilightforest:steeleaf_sword"
+				type: "item"
+			}]
+			title: "Obtenir : Épée en Stealeaf"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:triple_bow"
+			id: "453EC9022F7AA416"
+			optional: true
+			rewards: [{
+				id: "57A2933419377C0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FD88A43C21E639C"
+				item: "twilightforest:triple_bow"
+				type: "item"
+			}]
+			title: "Obtenir : « Tri-Bow »"
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:yeti_helmet"
+			id: "710F7D8A0C6C43A9"
+			optional: true
+			rewards: [{
+				id: "50A5D901A8AF9AA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "287D736744F704D9"
+				item: "twilightforest:yeti_helmet"
+				type: "item"
+			}]
+			title: "Obtenir : Casque orné de Yéti"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3BC822C96919DA37"
+				"77946A73203188E9"
+				"065109BEE4182D5F"
+				"6D50AD0BD9134B2B"
+				"6AE17366EC48738A"
+				"36D05C30D6E46934"
+				"30F15AA9EAC77FCE"
+				"1F5C3A7ABD00DDA0"
+				"315699CA61356B2F"
+				"11268F6C32B32050"
+				"707151415BF2A75A"
+				"59DD22CC99131415"
+				"02E3F250E9BA0B87"
+				"0A1E70C2E50D7370"
+				"07E02B751A38E24D"
+				"3CBFCB042AC0EF3F"
+				"19CC9E4804CF6065"
+				"0EF171D3315FF54C"
+				"68A18C497EAC6881"
+				"3C572162FE20DC7A"
+				"05277F6F1D4EB663"
+				"5627CBB6771383B2"
+				"3C34A46E79AFAB78"
+				"36DF12258B71B8E6"
+				"33A1B6B7766FD629"
+				"40457C812059EDD8"
+				"00EC1F306F44C0EA"
+				"1C046485889305DA"
+				"57094F61AC240F0D"
+				"5C487D0FCCACCFE4"
+				"7975FBC2BE6D6F5A"
+				"4D581251E184479A"
+				"777920ED0E0A3035"
+				"10ECB15AE144304F"
+				"7B989360A6F75D2D"
+				"1E9C038A2CF12E6D"
+				"001CD20516D488E6"
+				"45594CF1FD798073"
+				"50FA401C613847EB"
+				"6CC4CB74B16C8203"
+				"536FC32DACFACCEB"
+				"4C2BEEE9A8D43E45"
+				"4BB4CD308607CBC3"
+				"6773E437AE0FD44F"
+				"75A9BF320B2E1365"
+				"06B31F9F32D78E71"
+				"57D5E45151121A9E"
+				"0C066725FFBF1CD4"
+				"4C819DE38235756C"
+				"50966C08D9637B3C"
+				"314D3F4E297ED99C"
+				"755C49D6F5B54E15"
+				"2F1E1E36470A78A1"
+				"63CAF82619BD70B7"
+				"1B6AF97CEA4B69D1"
+				"1588C6F4BCC529E3"
+				"64FB87C569947B1D"
+				"1FCFBAE2AA04B649"
+				"0897AB9014A9C175"
+				"7C045F0E9B482952"
+				"699A143ACB0B734F"
+				"1CB2AE19FDA4EF77"
+				"3EEA2AA3FB9C7915"
+				"5A62232CF7F30940"
+				"139776CD9EF51924"
+				"74C03FCED9AC244B"
+				"7DFC1F093F1EC655"
+				"420054CE04EA9FA5"
+				"2BEE7E63CCEC0A01"
+				"05A025D40503F05D"
+				"4C5BD8C0859053CA"
+				"1C4B3D4D47423DD6"
+				"62CAF72333F150B5"
+				"4CBB56BBB3E751D5"
+				"60DA88A3AD88544D"
+				"5409F05CF06E1045"
+				"6D1B9B183CB01B89"
+				"4D30677B3612E2FA"
+				"14E318EB8CF3E2D9"
+				"1FF5084D17B27E83"
+				"399F74651B1037A6"
+				"1904CEDDA81D763B"
+				"04042AF090BE8E7E"
+				"5D60A39CDA9E52D5"
+				"44F977F74D36E2C5"
+				"2A036B3685DCB3E6"
+				"31AA91DE85B24917"
+				"0E736BFC0B5C1C57"
+				"76CFE905422F2151"
+				"02FEFCB3542F13D2"
+				"27CC1A64D5A47D85"
+				"274DA9BC1CBFDE31"
+				"7CC6E437F5077665"
+				"3395AB1A1B8C42F3"
+				"284314AF396ADEA8"
+				"43A4B5CBD53C66E3"
+				"509AD68397E3B327"
+				"04F57BB0D8938107"
+				"4D318AF16B404C81"
+				"6F06D5D8B1176B4F"
+				"513742911D7C0B28"
+				"38A193444AD1F615"
+				"257ED2FEDEFCBAAF"
+				"30D82E40FC9077D5"
+				"76CD914E24376479"
+				"4C24BB98CE6493A9"
+				"171577F844BDDA81"
+				"4BE8B007BD509CBB"
+				"16CDB4C4262D53DB"
+				"1619593FA5BF3EF9"
+				"46BCFB4803C0B669"
+				"44A44D677DAF9D96"
+				"32B15AE2A5FE31F0"
+				"31941DE9739D16BA"
+				"1C45F8CD7889D76E"
+				"311DC702E7A2712F"
+				"44B09B9BE613954F"
+				"157E5F4608575B82"
+				"6AA37C5D55FE8381"
+				"0240F53FC2645AD5"
+				"4EA33525A8B4BAA9"
+				"0853394EC788F15A"
+				"09F784566DC79CB6"
+				"1816FF222CF98BFC"
+				"7C89B0B1721CDF47"
+				"540B937401F7B395"
+				"58C601FFBE4B57C3"
+				"389B5FF425041809"
+				"029458A4E6D2C781"
+				"2F5EFC08C70A8599"
+				"79997593925CE828"
+				"1C20FAF3829327BC"
+				"487AEDA311FD3C08"
+				"0C5E93BA5EA62970"
+				"01796A14359EB516"
+				"31239C5C6660FFF7"
+				"14B42DCF7D005C73"
+				"244931FDF602D0F4"
+				"6E1DBAE880A10F7F"
+				"559B84B62F1839C0"
+				"4238317D9F6A7538"
+				"6D750FAEAB2ACE61"
+				"75DC7FF2485D09A5"
+				"6C1DF5A25DAADF98"
+				"74C843ABCAA64A71"
+				"3BC7B72232766CF1"
+				"5B6E15E137980294"
+				"183823868598AE16"
+				"43E3D117BADB577F"
+				"28C23438521CA63D"
+				"7640F5038B637AA0"
+				"262AA732CC56088F"
+				"7CE3FA81F5ACF239"
+				"5883EAD3C68F3267"
+				"24ACEA6289F0811B"
+				"38A530C72360C44E"
+				"3C97333FD2ABDF1D"
+				"1AD88ADB61BC62A4"
+				"045F1FDE3F4E96CE"
+				"7E988AD1E496A5CA"
+				"16AF7FE4CDD3D476"
+				"25C3697ACE938B11"
+				"3AC171F323D196EA"
+				"59CFC7C4F497DA6E"
+				"2E519CEEE70EE1F1"
+				"01B26700FE8CC3CE"
+				"4DD1D6366C23B32A"
+				"482FA61858882477"
+				"493A691DBFB0F93C"
+				"0F89019A39DB5556"
+				"345A037EFBE5751D"
+				"049A1FCA8CD456F4"
+				"710C5DB7283AC7C3"
+				"21761D0872C65380"
+				"159D6ED55C7F1DA0"
+				"4E29A1D9D93CFBDB"
+				"3A56BDFD2BED19A6"
+				"7CF26A5F83F3D45E"
+				"4BA7B1C6A548715A"
+				"44BC261492FDBCD6"
+				"5A37AC636DD9C010"
+				"48E676911831EDF9"
+				"01DD14BD5104F956"
+				"3DB2E3EB57BA56B1"
+				"01C0F4BE4D3D10AD"
+				"710718B68EBD6D48"
+				"662B2AA3FBA9645A"
+				"15E98BEBF76071C7"
+				"273719FBE27B9888"
+				"73B6FFD73C36905B"
+				"1DE647C484A47FB6"
+				"47FB8C161C5AA20E"
+				"144B113D4EA2ABD4"
+				"4DAC62FCD50D333C"
+				"16E6A0B427D35F1C"
+				"6CF0982F9FEEA14E"
+				"607681329AD5BBBF"
+				"364A4F38AB164477"
+				"1AF5AA9FFED09DD1"
+				"707658FC1284891C"
+				"6D7BC2D71A352B21"
+				"453EC9022F7AA416"
+				"710F7D8A0C6C43A9"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "cataclysm:ignitium_helmet"
+			id: "67F00C606E1CE41F"
+			optional: true
+			rewards: [{
+				id: "1EC9E84E1AF1D3D6"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "182645FE823358A1"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&cArmurerie"
+}
