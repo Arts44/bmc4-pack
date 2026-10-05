@@ -1196,6 +1196,75 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10 — après : controleur, requete, fabricateur
   > Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre Pipez relie tout ça aux machines.
 
+## L'Aether  (`monde_aether`, 33 quêtes)
+
+- **Un portail de glowstone** — tâches : item minecraft:glowstone 10 — récompense : item minecraft:water_bucket
+  > Un cadre de glowstone, comme un portail du Nether, allumé avec un seau d'eau. L'Aether est un ciel d'îles flottantes : sans parachute, la chute ramène dans l'Overworld.
+- **Entrer dans l'Aether** — tâches : dimension aether:the_aether — récompense : xp 10 — après : portail
+  > À l'arrivée, le serveur offre un Livre de savoir et des parachutes dorés (config du serveur). Le livre explique les objets du mod ; les parachutes sauvent d'une chute.
+- **Du bois de Skyroot** — tâches : item aether:skyroot_planks 16 — récompense : xp 2 — après : entrer
+  > Le bois de l'Aether. Un seau de skyroot ne garde pas la lave, mais il fait des outils et un lit.
+- **Une pioche en holystone** — tâches : item aether:holystone_pickaxe — récompense : xp 3 — après : skyroot
+  > La holystone est la pierre de l'Aether ; ses outils valent la pierre. Il en faut pour les minerais : ambrosium, zanite, gravitite.
+- **Des éclats d'ambrosium** — tâches : item aether:ambrosium_shard 8 — récompense : xp 3 — après : holystone
+  > L'ambrosium se mange, fait des torches, et infuse les outils de veridium d'Aether Redux (clic droit avec un éclat).
+- **Une gemme de zanite** — tâches : advancement aether:zanite — récompense : xp 5 — après : holystone
+  > La zanite fait des outils qui minent plus vite à mesure qu'ils s'usent, et une armure. Le progrès du mod valide la quête.
+- **Un autel** — tâches : advancement aether:craft_altar — récompense : xp 5 — après : zanite
+  > L'autel de l'Aether enchante avec de l'ambrosium : c'est lui qui transforme le minerai de gravitite en gravitite enchantée, et qui fait les lingots de gravitite d'Aether Redux.
+- **De la gravitite enchantée** — tâches : advancement aether:enchanted_gravitite — récompense : xp 8 — après : autel
+  > Le métal du haut de l'Aether. Ses outils font léviter les blocs minés, son armure donne un saut plus haut.
+- **L'armure de gravitite** *(optionnelle)* — tâches : advancement aether:gravitite_armor — récompense : xp 10 — après : gravitite
+  > Les quatre pièces dans l'inventaire (progrès du mod).
+- **Un œuf de Moa** — tâches : advancement aether:obtain_egg — récompense : xp 3 — après : entrer
+  > Les Moas pondent ; bleu, blanc, noir, et orange ou marron avec Lost Aether Content. L'œuf se couve dans un incubateur.
+- **Couver un Moa** — tâches : item aether:incubator, advancement aether:incubate_moa — récompense : xp 8 — après : oeuf_moa
+  > L'incubateur marche aux torches d'ambrosium. Le Moa éclos s'apprivoise, grandit, et vole : plus de sauts pour le noir que pour le bleu. Protect Your Moa lui fait des armures, du cuir à la gravitite.
+- **Voler sur un Phyg** *(optionnelle)* — tâches : advancement aether:mount_phyg — récompense : xp 3 — après : entrer
+  > Le cochon ailé de l'Aether, sellé, vole — mal, mais il vole (progrès du mod).
+- **Une Pierre de Soin** — tâches : item aether:healing_stone — récompense : xp 5 — après : entrer
+  > La Pierre de Soin se mange et soigne. Sur ce serveur elle a une autre vertu : elle rend un cœur de vie maximale perdu en raid, un cœur par pierre, à tout moment. C'est l'autre voie avec les repas de Farmer's Delight.
+- **Icestone et congélateur** *(optionnelle)* — tâches : advancement aether:icestone, item aether:freezer — récompense : xp 5 — après : entrer
+  > L'icestone gèle l'eau et la lave autour d'elle. Le congélateur en fait de la glace, et gèle un accessoire (anneau, pendentif de glace).
+- **Rebondir sur un aérnuage** *(optionnelle)* — tâches : advancement aether:blue_aercloud — récompense : xp 2 — après : entrer
+  > Le bleu fait rebondir, le froid amortit, le doré — sur ce serveur — projette vers le bas (Aether Redux). Un parachute doré se fabrique avec de l'aérnuage doré.
+- **Le donjon de bronze** — tâches : structure aether:bronze_dungeon — récompense : xp 5 — après : entrer
+  > Dans une île de pierre sculptée : des sentinelles, des mimics (plus petits sur ce serveur, Aether Redux), des coffres en skyroot. Le Slider attend derrière la porte verrouillée ; on ne le blesse qu'à la pioche.
+- **Vaincre le Slider** — tâches : advancement aether:bronze_dungeon — récompense : xp 15 — après : bronze
+  > Un cube de pierre qui charge. Sa mort ouvre le trésor du donjon : le Marteau de Kingbdogz, la Lance de Valkyrie qui mène au donjon d'argent, la Cape aérienne d'Aether Redux (double saut). Vaincu sans prendre un coup, il laisse l'Œil du Slider (Deep Aether, config du serveur).
+- **Le donjon d'argent** — tâches : structure aether:silver_dungeon — récompense : xp 5 — après : slider
+  > Un temple sur une île haute. Les Valkyries le gardent ; la Reine ne combat que si on lui montre dix médaillons de victoire pris sur ses sœurs.
+- **Vaincre la Reine des Valkyries** — tâches : advancement aether:silver_dungeon — récompense : xp 20 — après : argent
+  > Son trésor : l'équipement de Valkyrie, la Pierre de régénération qui mène au donjon d'or, et la Grande Médaille de victoire d'Aether Redux. Sans faute : la Médaille d'honneur (Deep Aether).
+- **Le donjon d'or** — tâches : structure aether:gold_dungeon — récompense : xp 5 — après : reine
+  > Une île de pierre infernale. L'Esprit du Soleil y attend, et son dialogue se rejoue à chaque visite (config du serveur). Il ne se bat que si on l'y pousse.
+- **Vaincre l'Esprit du Soleil** — tâches : advancement aether:gold_dungeon — récompense : xp 25 — après : or
+  > Le dernier boss de l'Aether de base. Son trésor : l'armure du Phénix, l'Emblème solaire et l'Arbalète subzéro d'Aether Redux. Sans faute : le Cœur de soleil (Deep Aether). Sa mort est annoncée dans #faits-d-armes.
+- **Les biomes de Deep Aether** *(optionnelle)* — tâches : biome deep_aether:aerlavender_fields, biome deep_aether:golden_heights, biome deep_aether:yagroot_swamp — récompense : xp 5 — après : entrer
+  > Deep Aether ajoute les champs d'aérlavande, les hauteurs dorées, le marais de yagroot (ses sables mouvants virulents sont un piège), les forêts aérluisantes, les nuages d'orage. Tous activés sur le serveur.
+- **Une gemme de skyjade** *(optionnelle)* — tâches : item deep_aether:skyjade — récompense : xp 5 — après : deep_biomes
+  > La skyjade de Deep Aether fait des outils et une armure. Sur ce serveur, ses outils ne s'enchantent pas (config).
+- **Le donjon de laiton** *(optionnelle)* — tâches : structure deep_aether:brass_dungeon — récompense : xp 5 — après : esprit
+  > Le quatrième donjon, de Deep Aether, dans les nuages d'orage : l'Œil de la Tempête y règne.
+- **Vaincre l'Œil de la Tempête** *(optionnelle)* — tâches : advancement deep_aether:brass_dungeon — récompense : xp 20 — après : laiton
+  > Le boss de laiton (progrès « Defeat the brass boss »). Sans faute : l'écharpe flottante. Le modèle de forge Stratus et l'armure Stratus (progrès du mod) sont la fin de Deep Aether.
+- **Les biomes d'Aether Redux** *(optionnelle)* — tâches : biome aether_redux:gilded_groves, biome aether_redux:the_blight — récompense : xp 5 — après : entrer
+  > Aether Redux : bosquets dorés, forêts givrées, champs du ciel, cloudcaps, et le Fléau, zone de plantes et de bêtes dangereuses où la Plume de garde protège. Tous activés sur le serveur.
+- **Du veridium infusé** *(optionnelle)* — tâches : advancement aether_redux:infuse_veridium — récompense : xp 5 — après : redux_biomes
+  > Le veridium d'Aether Redux fait des outils qu'on infuse d'un clic droit avec un éclat d'ambrosium (progrès du mod).
+- **Un double saut** *(optionnelle)* — tâches : advancement aether_redux:double_jump — récompense : xp 5 — après : slider
+  > La Cape aérienne du donjon de bronze donne le double saut (progrès du mod).
+- **Le donjon de platine** *(optionnelle)* — tâches : structure lost_aether_content:platinum_dungeon — récompense : xp 5 — après : esprit
+  > Lost Aether Content ajoute un donjon de pierre de Gale et son boss, le Roi des aérobaleines. Sans faute : une selle d'aérobaleine (Deep Aether).
+- **Vaincre le Roi des aérobaleines** *(optionnelle)* — tâches : advancement lost_aether_content:platinum_dungeon — récompense : xp 20 — après : platine
+  > Le boss de platine (progrès « Defeat the Platinum Dungeon boss »). Lost Aether Content ajoute aussi les boucliers de zanite et de gravitite, et l'équipement du Phénix.
+- **La citadelle olympique** *(optionnelle)* — tâches : structure aether_villages:olympic_citadel — récompense : xp 5 — après : entrer
+  > Aether Villages pose des villages dans l'Aether, dont la citadelle olympique.
+- **Un lingot pyral** *(optionnelle)* — tâches : item aether_treasure_reforging:pyral_ingot — récompense : xp 5 — après : esprit
+  > Aether: Treasure Reforging refond les trésors des donjons en modèles de forge : Neptune, Phénix (lingot pyral), Valkyrie (lingot de valkyrum). Le détail est au chapitre Enchantement.
+- **Maître du ciel** — tâches : checkmark Les trois donjons sont tombés — récompense : xp 10 — après : esprit, incuber
+  > Bronze, argent, or ; un Moa à soi ; des Pierres de Soin en réserve pour les raids. Le progrès « Aether Champion » de Deep Aether récompense les quatre boss vaincus sans un coup reçu.
+
 ## L'End  (`monde_end`, 23 quêtes)
 
 - **Des yeux de l'Ender** — tâches : item minecraft:ender_eye 12 — récompense : item minecraft:ender_pearl 4

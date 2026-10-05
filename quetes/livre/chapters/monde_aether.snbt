@@ -1,0 +1,714 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_aether"
+	group: "17185D2694D86048"
+	icon: "aether:aether_portal_frame"
+	id: "100F73C168A02278"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Un cadre de glowstone, comme un portail du Nether, allumé avec un &bseau d'eau&r. L'Aether est un ciel d'îles flottantes : sans parachute, la chute ramène dans l'Overworld."]
+			icon: "minecraft:glowstone"
+			id: "7167E414173092AB"
+			rewards: [{
+				id: "468FA6853A52C1C2"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #aether sur le Discord."
+			tasks: [{
+				count: 10L
+				id: "752F38CA31B9FE21"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			title: "&bUn portail de glowstone"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7167E414173092AB"]
+			description: ["À l'arrivée, le serveur offre un &eLivre de savoir&r et des &6parachutes dorés&r (config du serveur). Le livre explique les objets du mod ; les parachutes sauvent d'une chute."]
+			id: "406A5A915661BC0F"
+			rewards: [{
+				id: "356F16A791052DBC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "766573BD402D3C37"
+				type: "dimension"
+			}]
+			title: "Entrer dans l'Aether"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["Le bois de l'Aether. Un seau de skyroot ne garde pas la lave, mais il fait des outils et un lit."]
+			icon: "aether:skyroot_planks"
+			id: "6D0336C0967F3F70"
+			rewards: [{
+				id: "30A6EE1474F14804"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 16L
+				id: "22A3A7818E2A01BF"
+				item: "aether:skyroot_planks"
+				type: "item"
+			}]
+			title: "Du bois de Skyroot"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6D0336C0967F3F70"]
+			description: ["La &fholystone&r est la pierre de l'Aether ; ses outils valent la pierre. Il en faut pour les minerais : ambrosium, zanite, gravitite."]
+			icon: "aether:holystone_pickaxe"
+			id: "56653C558BB84C3F"
+			rewards: [{
+				id: "0C7EE2D6CE82768F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2CA97B647FA282DC"
+				item: "aether:holystone_pickaxe"
+				type: "item"
+			}]
+			title: "Une pioche en holystone"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56653C558BB84C3F"]
+			description: ["L'&eambrosium&r se mange, fait des torches, et infuse les outils de veridium d'Aether Redux (clic droit avec un éclat)."]
+			icon: "aether:ambrosium_shard"
+			id: "2F8701973F49BB72"
+			rewards: [{
+				id: "2A0E027CD9B726C8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "2125AAA7DD24BFDF"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			title: "Des éclats d'ambrosium"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56653C558BB84C3F"]
+			description: ["La &9zanite&r fait des outils qui &lminent plus vite à mesure qu'ils s'usent&r, et une armure. Le progrès du mod valide la quête."]
+			id: "525ADAF11B2EA2D9"
+			rewards: [{
+				id: "693101D1409B951A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "aether:zanite"
+				criterion: ""
+				id: "2FE58B271ECB49E3"
+				type: "advancement"
+			}]
+			title: "Une gemme de zanite"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["525ADAF11B2EA2D9"]
+			description: ["L'&eautel&r de l'Aether enchante avec de l'ambrosium : c'est lui qui transforme le minerai de gravitite en &dgravitite enchantée&r, et qui fait les lingots de gravitite d'Aether Redux."]
+			id: "52411BB3EB984E4F"
+			rewards: [{
+				id: "51386DD88CC32BAB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "aether:craft_altar"
+				criterion: ""
+				id: "2FB82BCA62925571"
+				type: "advancement"
+			}]
+			title: "Un autel"
+			x: 10.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["52411BB3EB984E4F"]
+			description: ["Le métal du haut de l'Aether. Ses outils font &lléviter&r les blocs minés, son armure donne un saut plus haut."]
+			id: "7F0EAB88C43B5608"
+			rewards: [{
+				id: "224C87C5BBA4F599"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "aether:enchanted_gravitite"
+				criterion: ""
+				id: "288CF257E9F6E51F"
+				type: "advancement"
+			}]
+			title: "De la gravitite enchantée"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7F0EAB88C43B5608"]
+			description: ["Les quatre pièces dans l'inventaire (progrès du mod)."]
+			id: "3C4B8A97CAD497F6"
+			optional: true
+			rewards: [{
+				id: "4CBFC99BF2144D41"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aether:gravitite_armor"
+				criterion: ""
+				id: "13887AF4E255BB82"
+				type: "advancement"
+			}]
+			title: "L'armure de gravitite"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["Les &bMoas&r pondent ; bleu, blanc, noir, et orange ou marron avec Lost Aether Content. L'œuf se couve dans un incubateur."]
+			id: "27E8C8DD42AAFA44"
+			rewards: [{
+				id: "2A946E2F2CCF57B9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "aether:obtain_egg"
+				criterion: ""
+				id: "2C0B2C403544BC14"
+				type: "advancement"
+			}]
+			title: "Un œuf de Moa"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["27E8C8DD42AAFA44"]
+			description: ["L'&eincubateur&r marche aux torches d'ambrosium. Le Moa éclos s'apprivoise, grandit, et vole : plus de sauts pour le noir que pour le bleu. &bProtect Your Moa&r lui fait des armures, du cuir à la gravitite."]
+			icon: "aether:incubator"
+			id: "47F5A95BCF84280A"
+			rewards: [{
+				id: "0AB005E66E0ED429"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [
+				{
+					id: "5D3E50C97BD0D905"
+					item: "aether:incubator"
+					type: "item"
+				}
+				{
+					advancement: "aether:incubate_moa"
+					criterion: ""
+					id: "255A2A6FE5920886"
+					type: "advancement"
+				}
+			]
+			title: "Couver un Moa"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["Le cochon ailé de l'Aether, sellé, vole — mal, mais il vole (progrès du mod)."]
+			id: "59B59518FF27EC9D"
+			optional: true
+			rewards: [{
+				id: "79A1B892B4EF062B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aether:mount_phyg"
+				criterion: ""
+				id: "5121388E9599323A"
+				type: "advancement"
+			}]
+			title: "Voler sur un Phyg"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["La &bPierre de Soin&r se mange et soigne. Sur ce serveur elle a une autre vertu : &lelle rend un cœur de vie maximale&r perdu en raid, un cœur par pierre, à tout moment. C'est l'autre voie avec les repas de Farmer's Delight."]
+			icon: "aether:healing_stone"
+			id: "0D2A5207ECD5C921"
+			rewards: [{
+				id: "5AEB31236A9119CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "43C2AEF58E6CFAA5"
+				item: "aether:healing_stone"
+				type: "item"
+			}]
+			title: "Une Pierre de Soin"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["L'&bicestone&r gèle l'eau et la lave autour d'elle. Le &bcongélateur&r en fait de la glace, et gèle un accessoire (anneau, pendentif de glace)."]
+			icon: "aether:freezer"
+			id: "32B65E047CDC606A"
+			optional: true
+			rewards: [{
+				id: "5BFBC1EA09FB31C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "aether:icestone"
+					criterion: ""
+					id: "50CC70FC3F8F3628"
+					type: "advancement"
+				}
+				{
+					id: "36EF3519E2435CEC"
+					item: "aether:freezer"
+					type: "item"
+				}
+			]
+			title: "Icestone et congélateur"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["Le bleu fait rebondir, le froid amortit, le doré — sur ce serveur — &lprojette vers le bas&r (Aether Redux). Un parachute doré se fabrique avec de l'aérnuage doré."]
+			id: "7CCDBE4F7254498F"
+			optional: true
+			rewards: [{
+				id: "654073DFB6EA2109"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aether:blue_aercloud"
+				criterion: ""
+				id: "6A9755F3FD19D371"
+				type: "advancement"
+			}]
+			title: "Rebondir sur un aérnuage"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["Dans une île de pierre sculptée : des sentinelles, des mimics (plus petits sur ce serveur, Aether Redux), des coffres en skyroot. Le &7Slider&r attend derrière la porte verrouillée ; on ne le blesse qu'à la &lpioche&r."]
+			id: "35B31DB2947D64E7"
+			rewards: [{
+				id: "0C8E75ECFB10E5B3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "60DA7A3D97650B00"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon de bronze"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["35B31DB2947D64E7"]
+			description: ["Un cube de pierre qui charge. Sa mort ouvre le trésor du donjon : le Marteau de Kingbdogz, la Lance de Valkyrie qui mène au donjon d'argent, la Cape aérienne d'Aether Redux (double saut). Vaincu &lsans prendre un coup&r, il laisse l'Œil du Slider (Deep Aether, config du serveur)."]
+			id: "681600F1993ADCBA"
+			rewards: [{
+				id: "6AA96457A65131F2"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				id: "0DF968ABE0B46BC8"
+				type: "advancement"
+			}]
+			title: "&7Vaincre le Slider"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["681600F1993ADCBA"]
+			description: ["Un temple sur une île haute. Les &fValkyries&r le gardent ; la &lReine&r ne combat que si on lui montre dix médaillons de victoire pris sur ses sœurs."]
+			id: "04054885B32944AD"
+			rewards: [{
+				id: "3C6C91224B9CD19C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5C815C34CC4A1B07"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon d'argent"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04054885B32944AD"]
+			description: ["Son trésor : l'équipement de Valkyrie, la Pierre de régénération qui mène au donjon d'or, et la Grande Médaille de victoire d'Aether Redux. Sans faute : la Médaille d'honneur (Deep Aether)."]
+			id: "2983ACD62DE616FC"
+			rewards: [{
+				id: "5F55E63FC6277514"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				id: "26BC4AEACB399A54"
+				type: "advancement"
+			}]
+			title: "&fVaincre la Reine des Valkyries"
+			x: 10.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2983ACD62DE616FC"]
+			description: ["Une île de pierre infernale. L'&6Esprit du Soleil&r y attend, et son dialogue se rejoue à chaque visite (config du serveur). Il ne se bat que si on l'y pousse."]
+			id: "5CB484CE7CE977B8"
+			rewards: [{
+				id: "7D1077D77F1B786F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "59B04F80A191F47D"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon d'or"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5CB484CE7CE977B8"]
+			description: ["Le dernier boss de l'Aether de base. Son trésor : l'armure du Phénix, l'Emblème solaire et l'Arbalète subzéro d'Aether Redux. Sans faute : le Cœur de soleil (Deep Aether). Sa mort est annoncée dans #faits-d-armes."]
+			id: "315F402411B0E10E"
+			rewards: [{
+				id: "284D90E220B34767"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				id: "1E72AAA12CE8C9AD"
+				type: "advancement"
+			}]
+			title: "&6Vaincre l'Esprit du Soleil"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["&bDeep Aether&r ajoute les champs d'aérlavande, les hauteurs dorées, le marais de yagroot (ses sables mouvants virulents sont un piège), les forêts aérluisantes, les nuages d'orage. Tous activés sur le serveur."]
+			id: "1ACE5DA561A4CED7"
+			optional: true
+			rewards: [{
+				id: "094BF19AED4106A6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "deep_aether:aerlavender_fields"
+					id: "7E044B1083711EBC"
+					type: "biome"
+				}
+				{
+					biome: "deep_aether:golden_heights"
+					id: "35D64294758004C4"
+					type: "biome"
+				}
+				{
+					biome: "deep_aether:yagroot_swamp"
+					id: "5A366BD8160C1F0F"
+					type: "biome"
+				}
+			]
+			title: "Les biomes de Deep Aether"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1ACE5DA561A4CED7"]
+			description: ["La &askyjade&r de Deep Aether fait des outils et une armure. Sur ce serveur, ses outils &lne s'enchantent pas&r (config)."]
+			icon: "deep_aether:skyjade"
+			id: "4A459A24508C136C"
+			optional: true
+			rewards: [{
+				id: "3E5991F7BCABF5C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B4F5C4A729E2FFA"
+				item: "deep_aether:skyjade"
+				type: "item"
+			}]
+			title: "Une gemme de skyjade"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["315F402411B0E10E"]
+			description: ["Le quatrième donjon, de Deep Aether, dans les nuages d'orage : l'&bŒil de la Tempête&r y règne."]
+			id: "39CD70686F059C0D"
+			optional: true
+			rewards: [{
+				id: "5996F5679D6ACBC7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "112947BBDF4786EE"
+				structure: "deep_aether:brass_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon de laiton"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39CD70686F059C0D"]
+			description: ["Le boss de laiton (progrès « Defeat the brass boss »). Sans faute : l'écharpe flottante. Le modèle de forge Stratus et l'armure Stratus (progrès du mod) sont la fin de Deep Aether."]
+			id: "5705FD52C185205B"
+			optional: true
+			rewards: [{
+				id: "563A71C1C1BAFBB2"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "deep_aether:brass_dungeon"
+				criterion: ""
+				id: "25D56EBCFD4A8C78"
+				type: "advancement"
+			}]
+			title: "&bVaincre l'Œil de la Tempête"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["&6Aether Redux&r : bosquets dorés, forêts givrées, champs du ciel, cloudcaps, et le &5Fléau&r, zone de plantes et de bêtes dangereuses où la Plume de garde protège. Tous activés sur le serveur."]
+			id: "670D9095992A6113"
+			optional: true
+			rewards: [{
+				id: "297E635F64E34C0C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "aether_redux:gilded_groves"
+					id: "098A1F7E53176063"
+					type: "biome"
+				}
+				{
+					biome: "aether_redux:the_blight"
+					id: "731C4517141A2EB4"
+					type: "biome"
+				}
+			]
+			title: "Les biomes d'Aether Redux"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["670D9095992A6113"]
+			description: ["Le &averidium&r d'Aether Redux fait des outils qu'on &linfuse&r d'un clic droit avec un éclat d'ambrosium (progrès du mod)."]
+			id: "05D1A7DF6EFC682F"
+			optional: true
+			rewards: [{
+				id: "20B1246F1F149032"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aether_redux:infuse_veridium"
+				criterion: ""
+				id: "596EAEB0E540CC9E"
+				type: "advancement"
+			}]
+			title: "Du veridium infusé"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["681600F1993ADCBA"]
+			description: ["La &bCape aérienne&r du donjon de bronze donne le double saut (progrès du mod)."]
+			id: "4772657F7895C8B7"
+			optional: true
+			rewards: [{
+				id: "384B3E5BBB07018C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aether_redux:double_jump"
+				criterion: ""
+				id: "325D6831914D1EE7"
+				type: "advancement"
+			}]
+			title: "Un double saut"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["315F402411B0E10E"]
+			description: ["&bLost Aether Content&r ajoute un donjon de pierre de Gale et son boss, le &bRoi des aérobaleines&r. Sans faute : une selle d'aérobaleine (Deep Aether)."]
+			id: "680B74BE25E2ED7E"
+			optional: true
+			rewards: [{
+				id: "1F6DCD34A08F2FB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63C174D0AA0202B6"
+				structure: "lost_aether_content:platinum_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon de platine"
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["680B74BE25E2ED7E"]
+			description: ["Le boss de platine (progrès « Defeat the Platinum Dungeon boss »). Lost Aether Content ajoute aussi les boucliers de zanite et de gravitite, et l'équipement du Phénix."]
+			id: "3E05408D8718E269"
+			optional: true
+			rewards: [{
+				id: "637937618023DF54"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "lost_aether_content:platinum_dungeon"
+				criterion: ""
+				id: "00FD4B7654469A9B"
+				type: "advancement"
+			}]
+			title: "&bVaincre le Roi des aérobaleines"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["&bAether Villages&r pose des villages dans l'Aether, dont la citadelle olympique."]
+			id: "00BD26B1873AFADD"
+			optional: true
+			rewards: [{
+				id: "5456FED3F9F54C17"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C0F8F11A25C10AC"
+				structure: "aether_villages:olympic_citadel"
+				type: "structure"
+			}]
+			title: "La citadelle olympique"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["315F402411B0E10E"]
+			description: ["&bAether: Treasure Reforging&r refond les trésors des donjons en modèles de forge : Neptune, Phénix (lingot pyral), Valkyrie (lingot de valkyrum). Le détail est au chapitre &7Enchantement&r."]
+			icon: "aether_treasure_reforging:pyral_ingot"
+			id: "492E3225F19993C7"
+			optional: true
+			rewards: [{
+				id: "235E374DEE16C31C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CACE0FE30E59ED5"
+				item: "aether_treasure_reforging:pyral_ingot"
+				type: "item"
+			}]
+			title: "Un lingot pyral"
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"315F402411B0E10E"
+				"47F5A95BCF84280A"
+			]
+			description: ["Bronze, argent, or ; un Moa à soi ; des Pierres de Soin en réserve pour les raids. Le progrès « Aether Champion » de Deep Aether récompense les quatre boss vaincus sans un coup reçu."]
+			icon: "aether:golden_parachute"
+			id: "44554D31225152C2"
+			rewards: [{
+				id: "319246E3107DEE04"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "42CAA5D2BBB8C19C"
+				title: "Les trois donjons sont tombés"
+				type: "checkmark"
+			}]
+			title: "&bMaître du ciel"
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+	title: "&bL'Aether"
+}

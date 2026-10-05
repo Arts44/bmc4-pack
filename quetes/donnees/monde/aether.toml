@@ -1,0 +1,385 @@
+# Chapitre « L'Aether » — cahier des charges §4.5
+# Sources (5 octobre 2026) : index des jars (aether-1.20.1-1.5.2, deep_aether
+# 1.1.7, aether-redux 2.0.19, lost_aether_content 1.2.3, aether_villages,
+# aether_treasure_reforging, aether_protect_your_moa : objets, recettes,
+# structures, progrès), descriptions de progrès des jars, configs du serveur
+# (aether-common : livre de savoir et parachutes offerts à l'entrée, noms de
+# boss aléatoires ; deep_aether-common : butin « sans faute » des boss —
+# œil du Slider, médaille d'honneur, cœur de soleil, selle d'aérobaleine,
+# écharpe flottante ; aether_redux-common : cockatrices qui poursuivent,
+# swets affaiblis mais fabricables, aérnuages dorés qui projettent vers le
+# bas, Fléau et biomes dorés activés). Umbral Skies : absent du pack.
+
+[chapitre]
+titre = "&bL'Aether"
+fichier = "monde_aether"
+groupe = "monde"
+icone = "aether:aether_portal_frame"
+ordre = 5
+
+[[quete]]
+cle = "portail"
+titre = "&bUn portail de glowstone"
+sous_titre = "Guide dans #aether sur le Discord."
+taille = 1.5
+icone = "minecraft:glowstone"
+taches = ["item minecraft:glowstone 10"]
+recompenses = ["item minecraft:water_bucket"]
+description = """
+Un cadre de glowstone, comme un portail du Nether, allumé avec un &bseau d'eau&r. L'Aether est un ciel d'îles flottantes : sans parachute, la chute ramène dans l'Overworld.
+"""
+
+[[quete]]
+cle = "entrer"
+titre = "Entrer dans l'Aether"
+deps = ["portail"]
+taille = 1.3
+taches = ["dimension aether:the_aether"]
+recompenses = ["xp 10"]
+description = """
+À l'arrivée, le serveur offre un &eLivre de savoir&r et des &6parachutes dorés&r (config du serveur). Le livre explique les objets du mod ; les parachutes sauvent d'une chute.
+"""
+
+[[quete]]
+cle = "skyroot"
+titre = "Du bois de Skyroot"
+deps = ["entrer"]
+taches = ["item aether:skyroot_planks 16"]
+recompenses = ["xp 2"]
+description = """
+Le bois de l'Aether. Un seau de skyroot ne garde pas la lave, mais il fait des outils et un lit.
+"""
+
+[[quete]]
+cle = "holystone"
+titre = "Une pioche en holystone"
+deps = ["skyroot"]
+taches = ["item aether:holystone_pickaxe"]
+recompenses = ["xp 3"]
+description = """
+La &fholystone&r est la pierre de l'Aether ; ses outils valent la pierre. Il en faut pour les minerais : ambrosium, zanite, gravitite.
+"""
+
+[[quete]]
+cle = "ambrosium"
+titre = "Des éclats d'ambrosium"
+deps = ["holystone"]
+taches = ["item aether:ambrosium_shard 8"]
+recompenses = ["xp 3"]
+description = """
+L'&eambrosium&r se mange, fait des torches, et infuse les outils de veridium d'Aether Redux (clic droit avec un éclat).
+"""
+
+[[quete]]
+cle = "zanite"
+titre = "Une gemme de zanite"
+deps = ["holystone"]
+taches = ["advancement aether:zanite"]
+recompenses = ["xp 5"]
+description = """
+La &9zanite&r fait des outils qui &lminent plus vite à mesure qu'ils s'usent&r, et une armure. Le progrès du mod valide la quête.
+"""
+
+[[quete]]
+cle = "autel"
+titre = "Un autel"
+deps = ["zanite"]
+taches = ["advancement aether:craft_altar"]
+recompenses = ["xp 5"]
+description = """
+L'&eautel&r de l'Aether enchante avec de l'ambrosium : c'est lui qui transforme le minerai de gravitite en &dgravitite enchantée&r, et qui fait les lingots de gravitite d'Aether Redux.
+"""
+
+[[quete]]
+cle = "gravitite"
+titre = "De la gravitite enchantée"
+deps = ["autel"]
+taches = ["advancement aether:enchanted_gravitite"]
+recompenses = ["xp 8"]
+description = """
+Le métal du haut de l'Aether. Ses outils font &lléviter&r les blocs minés, son armure donne un saut plus haut.
+"""
+
+[[quete]]
+cle = "armure_gravitite"
+titre = "L'armure de gravitite"
+deps = ["gravitite"]
+optionnel = true
+taches = ["advancement aether:gravitite_armor"]
+recompenses = ["xp 10"]
+description = """
+Les quatre pièces dans l'inventaire (progrès du mod).
+"""
+
+# ---- faune
+[[quete]]
+cle = "oeuf_moa"
+titre = "Un œuf de Moa"
+deps = ["entrer"]
+taches = ["advancement aether:obtain_egg"]
+recompenses = ["xp 3"]
+description = """
+Les &bMoas&r pondent ; bleu, blanc, noir, et orange ou marron avec Lost Aether Content. L'œuf se couve dans un incubateur.
+"""
+
+[[quete]]
+cle = "incuber"
+titre = "Couver un Moa"
+deps = ["oeuf_moa"]
+taches = ["item aether:incubator", "advancement aether:incubate_moa"]
+recompenses = ["xp 8"]
+description = """
+L'&eincubateur&r marche aux torches d'ambrosium. Le Moa éclos s'apprivoise, grandit, et vole : plus de sauts pour le noir que pour le bleu. &bProtect Your Moa&r lui fait des armures, du cuir à la gravitite.
+"""
+
+[[quete]]
+cle = "phyg"
+titre = "Voler sur un Phyg"
+deps = ["entrer"]
+optionnel = true
+taches = ["advancement aether:mount_phyg"]
+recompenses = ["xp 3"]
+description = """
+Le cochon ailé de l'Aether, sellé, vole — mal, mais il vole (progrès du mod).
+"""
+
+[[quete]]
+cle = "pierre_soin"
+titre = "Une Pierre de Soin"
+deps = ["entrer"]
+taille = 1.3
+taches = ["item aether:healing_stone"]
+recompenses = ["xp 5"]
+description = """
+La &bPierre de Soin&r se mange et soigne. Sur ce serveur elle a une autre vertu : &lelle rend un cœur de vie maximale&r perdu en raid, un cœur par pierre, à tout moment. C'est l'autre voie avec les repas de Farmer's Delight.
+"""
+
+[[quete]]
+cle = "glace"
+titre = "Icestone et congélateur"
+deps = ["entrer"]
+optionnel = true
+taches = ["advancement aether:icestone", "item aether:freezer"]
+recompenses = ["xp 5"]
+description = """
+L'&bicestone&r gèle l'eau et la lave autour d'elle. Le &bcongélateur&r en fait de la glace, et gèle un accessoire (anneau, pendentif de glace).
+"""
+
+[[quete]]
+cle = "aercloud"
+titre = "Rebondir sur un aérnuage"
+deps = ["entrer"]
+optionnel = true
+taches = ["advancement aether:blue_aercloud"]
+recompenses = ["xp 2"]
+description = """
+Le bleu fait rebondir, le froid amortit, le doré — sur ce serveur — &lprojette vers le bas&r (Aether Redux). Un parachute doré se fabrique avec de l'aérnuage doré.
+"""
+
+# ---- donjons
+[[quete]]
+cle = "bronze"
+titre = "Le donjon de bronze"
+deps = ["entrer"]
+taches = ["structure aether:bronze_dungeon"]
+recompenses = ["xp 5"]
+description = """
+Dans une île de pierre sculptée : des sentinelles, des mimics (plus petits sur ce serveur, Aether Redux), des coffres en skyroot. Le &7Slider&r attend derrière la porte verrouillée ; on ne le blesse qu'à la &lpioche&r.
+"""
+
+[[quete]]
+cle = "slider"
+titre = "&7Vaincre le Slider"
+deps = ["bronze"]
+boss = true
+forme = "diamond"
+taches = ["advancement aether:bronze_dungeon"]
+recompenses = ["xp 15"]
+description = """
+Un cube de pierre qui charge. Sa mort ouvre le trésor du donjon : le Marteau de Kingbdogz, la Lance de Valkyrie qui mène au donjon d'argent, la Cape aérienne d'Aether Redux (double saut). Vaincu &lsans prendre un coup&r, il laisse l'Œil du Slider (Deep Aether, config du serveur).
+"""
+
+[[quete]]
+cle = "argent"
+titre = "Le donjon d'argent"
+deps = ["slider"]
+taches = ["structure aether:silver_dungeon"]
+recompenses = ["xp 5"]
+description = """
+Un temple sur une île haute. Les &fValkyries&r le gardent ; la &lReine&r ne combat que si on lui montre dix médaillons de victoire pris sur ses sœurs.
+"""
+
+[[quete]]
+cle = "reine"
+titre = "&fVaincre la Reine des Valkyries"
+deps = ["argent"]
+boss = true
+forme = "diamond"
+taches = ["advancement aether:silver_dungeon"]
+recompenses = ["xp 20"]
+description = """
+Son trésor : l'équipement de Valkyrie, la Pierre de régénération qui mène au donjon d'or, et la Grande Médaille de victoire d'Aether Redux. Sans faute : la Médaille d'honneur (Deep Aether).
+"""
+
+[[quete]]
+cle = "or"
+titre = "Le donjon d'or"
+deps = ["reine"]
+taches = ["structure aether:gold_dungeon"]
+recompenses = ["xp 5"]
+description = """
+Une île de pierre infernale. L'&6Esprit du Soleil&r y attend, et son dialogue se rejoue à chaque visite (config du serveur). Il ne se bat que si on l'y pousse.
+"""
+
+[[quete]]
+cle = "esprit"
+titre = "&6Vaincre l'Esprit du Soleil"
+deps = ["or"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement aether:gold_dungeon"]
+recompenses = ["xp 25"]
+description = """
+Le dernier boss de l'Aether de base. Son trésor : l'armure du Phénix, l'Emblème solaire et l'Arbalète subzéro d'Aether Redux. Sans faute : le Cœur de soleil (Deep Aether). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Deep Aether
+[[quete]]
+cle = "deep_biomes"
+titre = "Les biomes de Deep Aether"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome deep_aether:aerlavender_fields", "biome deep_aether:golden_heights", "biome deep_aether:yagroot_swamp"]
+recompenses = ["xp 5"]
+description = """
+&bDeep Aether&r ajoute les champs d'aérlavande, les hauteurs dorées, le marais de yagroot (ses sables mouvants virulents sont un piège), les forêts aérluisantes, les nuages d'orage. Tous activés sur le serveur.
+"""
+
+[[quete]]
+cle = "skyjade"
+titre = "Une gemme de skyjade"
+deps = ["deep_biomes"]
+optionnel = true
+taches = ["item deep_aether:skyjade"]
+recompenses = ["xp 5"]
+description = """
+La &askyjade&r de Deep Aether fait des outils et une armure. Sur ce serveur, ses outils &lne s'enchantent pas&r (config).
+"""
+
+[[quete]]
+cle = "laiton"
+titre = "Le donjon de laiton"
+deps = ["esprit"]
+optionnel = true
+taches = ["structure deep_aether:brass_dungeon"]
+recompenses = ["xp 5"]
+description = """
+Le quatrième donjon, de Deep Aether, dans les nuages d'orage : l'&bŒil de la Tempête&r y règne.
+"""
+
+[[quete]]
+cle = "oeil_tempete"
+titre = "&bVaincre l'Œil de la Tempête"
+deps = ["laiton"]
+boss = true
+forme = "diamond"
+optionnel = true
+taches = ["advancement deep_aether:brass_dungeon"]
+recompenses = ["xp 20"]
+description = """
+Le boss de laiton (progrès « Defeat the brass boss »). Sans faute : l'écharpe flottante. Le modèle de forge Stratus et l'armure Stratus (progrès du mod) sont la fin de Deep Aether.
+"""
+
+# ---- Aether Redux
+[[quete]]
+cle = "redux_biomes"
+titre = "Les biomes d'Aether Redux"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome aether_redux:gilded_groves", "biome aether_redux:the_blight"]
+recompenses = ["xp 5"]
+description = """
+&6Aether Redux&r : bosquets dorés, forêts givrées, champs du ciel, cloudcaps, et le &5Fléau&r, zone de plantes et de bêtes dangereuses où la Plume de garde protège. Tous activés sur le serveur.
+"""
+
+[[quete]]
+cle = "veridium"
+titre = "Du veridium infusé"
+deps = ["redux_biomes"]
+optionnel = true
+taches = ["advancement aether_redux:infuse_veridium"]
+recompenses = ["xp 5"]
+description = """
+Le &averidium&r d'Aether Redux fait des outils qu'on &linfuse&r d'un clic droit avec un éclat d'ambrosium (progrès du mod).
+"""
+
+[[quete]]
+cle = "double_saut"
+titre = "Un double saut"
+deps = ["slider"]
+optionnel = true
+taches = ["advancement aether_redux:double_jump"]
+recompenses = ["xp 5"]
+description = """
+La &bCape aérienne&r du donjon de bronze donne le double saut (progrès du mod).
+"""
+
+# ---- Lost Aether Content, villages, forge
+[[quete]]
+cle = "platine"
+titre = "Le donjon de platine"
+deps = ["esprit"]
+optionnel = true
+taches = ["structure lost_aether_content:platinum_dungeon"]
+recompenses = ["xp 5"]
+description = """
+&bLost Aether Content&r ajoute un donjon de pierre de Gale et son boss, le &bRoi des aérobaleines&r. Sans faute : une selle d'aérobaleine (Deep Aether).
+"""
+
+[[quete]]
+cle = "roi_aerobaleine"
+titre = "&bVaincre le Roi des aérobaleines"
+deps = ["platine"]
+boss = true
+forme = "diamond"
+optionnel = true
+taches = ["advancement lost_aether_content:platinum_dungeon"]
+recompenses = ["xp 20"]
+description = """
+Le boss de platine (progrès « Defeat the Platinum Dungeon boss »). Lost Aether Content ajoute aussi les boucliers de zanite et de gravitite, et l'équipement du Phénix.
+"""
+
+[[quete]]
+cle = "citadelle"
+titre = "La citadelle olympique"
+deps = ["entrer"]
+optionnel = true
+taches = ["structure aether_villages:olympic_citadel"]
+recompenses = ["xp 5"]
+description = """
+&bAether Villages&r pose des villages dans l'Aether, dont la citadelle olympique.
+"""
+
+[[quete]]
+cle = "pyral"
+titre = "Un lingot pyral"
+deps = ["esprit"]
+optionnel = true
+taches = ["item aether_treasure_reforging:pyral_ingot"]
+recompenses = ["xp 5"]
+description = """
+&bAether: Treasure Reforging&r refond les trésors des donjons en modèles de forge : Neptune, Phénix (lingot pyral), Valkyrie (lingot de valkyrum). Le détail est au chapitre &7Enchantement&r.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&bMaître du ciel"
+deps = ["esprit", "incuber"]
+taille = 1.5
+icone = "aether:golden_parachute"
+taches = ["checkmark Les trois donjons sont tombés"]
+recompenses = ["xp 10"]
+description = """
+Bronze, argent, or ; un Moa à soi ; des Pierres de Soin en réserve pour les raids. Le progrès « Aether Champion » de Deep Aether récompense les quatre boss vaincus sans un coup reçu.
+"""
