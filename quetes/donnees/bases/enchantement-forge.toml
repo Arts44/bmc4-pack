@@ -252,9 +252,51 @@ Les huit modèles qui ne se trouvent qu'une fois par structure, tous posés (pro
 """
 
 [[quete]]
+cle = "enchanter"
+titre = "Un premier enchantement"
+deps = ["table"]
+taches = ["advancement minecraft:story/enchant_item"]
+recompenses = ["xp 3"]
+description = """
+Un objet enchanté à la table (progrès du jeu).
+"""
+
+[[quete]]
+cle = "armure_fer"
+titre = "Une pièce de fer"
+deps = ["intro"]
+taches = ["advancement minecraft:story/obtain_armor"]
+recompenses = ["xp 3"]
+description = """
+Une pièce d'armure en fer (progrès du jeu).
+"""
+
+[[quete]]
+cle = "armure_diamant"
+titre = "Une pièce de diamant"
+deps = ["armure_fer"]
+taches = ["advancement minecraft:story/shiny_gear"]
+recompenses = ["xp 5"]
+description = """
+Une pièce d'armure en diamant (progrès du jeu).
+"""
+
+[[quete]]
+cle = "armure_netherite"
+titre = "&8L'armure de nétherite complète"
+deps = ["armure_diamant", "netherite"]
+taille = 1.5
+forme = "diamond"
+taches = ["advancement minecraft:nether/netherite_armor"]
+recompenses = ["xp 10"]
+description = """
+Les quatre pièces en nétherite (progrès du jeu), chacune forgée sur la pièce de diamant avec un lingot et un modèle. Au-delà, les paliers d'Advanced Netherite sont au chapitre &8Équipement de fin de partie&r.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&dForgeron"
-deps = ["enclume", "netherite", "ornement"]
+deps = ["enclume", "enchanter", "armure_netherite", "ornement"]
 taille = 1.3
 icone = "minecraft:netherite_chestplate"
 taches = ["checkmark Forgeron"]
