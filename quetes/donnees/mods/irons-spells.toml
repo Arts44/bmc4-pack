@@ -104,7 +104,7 @@ deps = ["forge"]
 taches = ["item irons_spellbooks:common_ink", "item irons_spellbooks:uncommon_ink"]
 recompenses = ["xp 5"]
 description = """
-Cinq encres, de la &fcommune&r à la &6légendaire&r, qui ne se fabriquent pas : coffres des structures magiques, mages tués, marchand ambulant (activé sur ce serveur). Une encre ne fait que les sorts dont le premier niveau est de sa rareté ou moins. Les niveaux se répartissent ainsi : 30 % communs, 25 % peu communs, 20 % rares, 15 % épiques, 10 % légendaires.
+Cinq encres, de la &fcommune&r à la &6légendaire&r. On les trouve dans les coffres des structures magiques, sur les mages et chez le marchand ambulant (activé sur ce serveur), et chaque encre se brasse à partir de la précédente au Chaudron d'alchimiste. Une encre ne fait que les sorts dont le premier niveau est de sa rareté ou moins. Les niveaux se répartissent ainsi : 30 % communs, 25 % peu communs, 20 % rares, 15 % épiques, 10 % légendaires.
 """
 
 [[quete]]
@@ -581,6 +581,369 @@ taches = ["item hazennstuff:legionnaire_ruler_helmet", "item hazennstuff:legionn
 recompenses = ["xp 8"]
 description = """
 Une pépite de pyrium sert de modèle à la table de forge, sur un « Pyrium Helmet ». Avec du Tissu Arcanique, on obtient le « Legionnaire Ruler Crown ». Avec du Tissu de Mithril, c'est le « Legionnaire Commander Helmet ».
+"""
+
+# ---- Paliers complets (BMC-89, 5 octobre 2026). Recettes du jar Iron's
+# Spells 3.16.3 : encres brassées au chaudron (alchemist_cauldron/brew_*_ink :
+# un litre d'encre et un lingot de cuivre, de fer, d'or ou une améthyste
+# donnent un quart de litre de l'encre suivante ; allowCauldronBrewing = true
+# sur le serveur), robes d'école (pièce de sorcier + rune + essence), orbes
+# (huit runes autour d'un orbe vide), grimoires (progrès spell_book_* ; tables
+# de butin additional_blaze_loot, additional_evoker_loot, dead_king).
+[[quete]]
+cle = "encre_rare"
+titre = "Une encre rare"
+deps = ["encre", "chaudron"]
+optionnel = true
+taches = ["item irons_spellbooks:rare_ink"]
+recompenses = ["xp 5"]
+description = """
+Au Chaudron d'alchimiste : un litre d'encre peu commune et un lingot de fer donnent de l'encre &9rare&r, à recueillir en flacon.
+"""
+
+[[quete]]
+cle = "encre_epique"
+titre = "Une encre épique"
+deps = ["encre_rare"]
+optionnel = true
+taches = ["item irons_spellbooks:epic_ink"]
+recompenses = ["xp 7"]
+description = """
+Un litre d'encre rare et un lingot d'or : de l'encre &5épique&r.
+"""
+
+[[quete]]
+cle = "encre_legendaire"
+titre = "&6Une encre légendaire"
+deps = ["encre_epique"]
+optionnel = true
+forme = "diamond"
+taille = 1.3
+taches = ["item irons_spellbooks:legendary_ink"]
+recompenses = ["xp 12"]
+description = """
+Un litre d'encre épique et une améthyste : de l'encre &6légendaire&r, celle des parchemins au plus haut niveau à la forge à parchemins.
+"""
+
+[[quete]]
+cle = "robes_feu"
+titre = "Les robes : Pyromancien"
+deps = ["robe_ecole"]
+optionnel = true
+taches = ["item irons_spellbooks:pyromancer_helmet", "item irons_spellbooks:pyromancer_chestplate", "item irons_spellbooks:pyromancer_leggings", "item irons_spellbooks:pyromancer_boots"]
+recompenses = ["xp 5"]
+description = """
+Les quatre pièces de l'école (Pyromancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+"""
+
+[[quete]]
+cle = "robes_glace"
+titre = "Les robes : Cryomancien"
+deps = ["sorcier", "rune_glace"]
+optionnel = true
+taches = ["item irons_spellbooks:cryomancer_helmet", "item irons_spellbooks:cryomancer_chestplate", "item irons_spellbooks:cryomancer_leggings", "item irons_spellbooks:cryomancer_boots"]
+recompenses = ["xp 5"]
+description = """
+Les quatre pièces de l'école (Cryomancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+"""
+
+[[quete]]
+cle = "orbe_glace"
+titre = "L'orbe : Cryomancien"
+deps = ["orbe", "rune_glace"]
+optionnel = true
+taches = ["item irons_spellbooks:ice_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+"""
+
+[[quete]]
+cle = "robes_foudre"
+titre = "Les robes : Électromancien"
+deps = ["sorcier", "rune_foudre"]
+optionnel = true
+taches = ["item irons_spellbooks:electromancer_helmet", "item irons_spellbooks:electromancer_chestplate", "item irons_spellbooks:electromancer_leggings", "item irons_spellbooks:electromancer_boots"]
+recompenses = ["xp 5"]
+description = """
+Les quatre pièces de l'école (Électromancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+"""
+
+[[quete]]
+cle = "orbe_foudre"
+titre = "L'orbe : Électromancien"
+deps = ["orbe", "rune_foudre"]
+optionnel = true
+taches = ["item irons_spellbooks:lightning_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+"""
+
+[[quete]]
+cle = "robes_sacre"
+titre = "Les robes : Prêtre"
+deps = ["sorcier", "rune_sacre"]
+optionnel = true
+taches = ["item irons_spellbooks:priest_helmet", "item irons_spellbooks:priest_chestplate", "item irons_spellbooks:priest_leggings", "item irons_spellbooks:priest_boots"]
+recompenses = ["xp 5"]
+description = """
+Les quatre pièces de l'école (Prêtre), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+"""
+
+[[quete]]
+cle = "orbe_sacre"
+titre = "L'orbe : Prêtre"
+deps = ["orbe", "rune_sacre"]
+optionnel = true
+taches = ["item irons_spellbooks:holy_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+"""
+
+[[quete]]
+cle = "robes_end"
+titre = "Les robes : Marchombre"
+deps = ["sorcier", "rune_end"]
+optionnel = true
+taches = ["item irons_spellbooks:shadowwalker_helmet", "item irons_spellbooks:shadowwalker_chestplate", "item irons_spellbooks:shadowwalker_leggings", "item irons_spellbooks:shadowwalker_boots"]
+recompenses = ["xp 5"]
+description = """
+Les quatre pièces de l'école (Marchombre), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+"""
+
+[[quete]]
+cle = "orbe_end"
+titre = "L'orbe : Marchombre"
+deps = ["orbe", "rune_end"]
+optionnel = true
+taches = ["item irons_spellbooks:ender_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+"""
+
+[[quete]]
+cle = "robes_sang"
+titre = "Les robes : Cultiste"
+deps = ["sorcier", "rune_sang"]
+optionnel = true
+taches = ["item irons_spellbooks:cultist_helmet", "item irons_spellbooks:cultist_chestplate", "item irons_spellbooks:cultist_leggings", "item irons_spellbooks:cultist_boots"]
+recompenses = ["xp 5"]
+description = """
+Les quatre pièces de l'école (Cultiste), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+"""
+
+[[quete]]
+cle = "orbe_sang"
+titre = "L'orbe : Cultiste"
+deps = ["orbe", "rune_sang"]
+optionnel = true
+taches = ["item irons_spellbooks:blood_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+"""
+
+[[quete]]
+cle = "robes_evocation"
+titre = "Les robes : Archévocateur"
+deps = ["sorcier", "rune_evocation"]
+optionnel = true
+taches = ["item irons_spellbooks:archevoker_helmet", "item irons_spellbooks:archevoker_chestplate", "item irons_spellbooks:archevoker_leggings", "item irons_spellbooks:archevoker_boots"]
+recompenses = ["xp 5"]
+description = """
+Les quatre pièces de l'école (Archévocateur), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+"""
+
+[[quete]]
+cle = "orbe_evocation"
+titre = "L'orbe : Archévocateur"
+deps = ["orbe", "rune_evocation"]
+optionnel = true
+taches = ["item irons_spellbooks:evocation_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+"""
+
+[[quete]]
+cle = "robes_nature"
+titre = "Les robes : Manteau pesteux"
+deps = ["sorcier", "rune_nature"]
+optionnel = true
+taches = ["item irons_spellbooks:plagued_helmet", "item irons_spellbooks:plagued_chestplate", "item irons_spellbooks:plagued_leggings", "item irons_spellbooks:plagued_boots"]
+recompenses = ["xp 5"]
+description = """
+Les quatre pièces de l'école (Manteau pesteux), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+"""
+
+[[quete]]
+cle = "orbe_nature"
+titre = "L'orbe : nature"
+deps = ["orbe", "rune_nature"]
+optionnel = true
+taches = ["item irons_spellbooks:nature_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+"""
+
+[[quete]]
+cle = "orbe_mana"
+titre = "L'orbe de mana"
+deps = ["orbe"]
+optionnel = true
+taches = ["item irons_spellbooks:mana_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes (arcaniques) autour d'un orbe vide.
+"""
+
+[[quete]]
+cle = "orbe_recuperation"
+titre = "L'orbe de récupération"
+deps = ["orbe"]
+optionnel = true
+taches = ["item irons_spellbooks:cooldown_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes (de récupération) autour d'un orbe vide.
+"""
+
+[[quete]]
+cle = "orbe_protection"
+titre = "L'orbe de protection"
+deps = ["orbe"]
+optionnel = true
+taches = ["item irons_spellbooks:protection_upgrade_orb"]
+recompenses = ["xp 4"]
+description = """
+Huit runes (de protection) autour d'un orbe vide.
+"""
+
+[[quete]]
+cle = "robes_toutes"
+titre = "&dToutes les robes d'école"
+deps = ["robes_feu", "robes_glace", "robes_foudre", "robes_sacre", "robes_end", "robes_sang", "robes_evocation", "robes_nature"]
+optionnel = true
+forme = "diamond"
+taches = ["item irons_spellbooks:pyromancer_chestplate", "item irons_spellbooks:cryomancer_chestplate", "item irons_spellbooks:electromancer_chestplate", "item irons_spellbooks:priest_chestplate", "item irons_spellbooks:shadowwalker_chestplate", "item irons_spellbooks:cultist_chestplate", "item irons_spellbooks:archevoker_chestplate", "item irons_spellbooks:plagued_chestplate"]
+recompenses = ["xp 15"]
+description = """
+Un plastron de chaque école, les huit ensemble.
+"""
+
+[[quete]]
+cle = "orbes_tous"
+titre = "&dTous les orbes"
+deps = ["orbe_ecole", "orbe_glace", "orbe_foudre", "orbe_sacre", "orbe_end", "orbe_sang", "orbe_evocation", "orbe_nature", "orbe_mana", "orbe_recuperation", "orbe_protection"]
+optionnel = true
+forme = "diamond"
+taches = ["item irons_spellbooks:fire_upgrade_orb", "item irons_spellbooks:ice_upgrade_orb", "item irons_spellbooks:lightning_upgrade_orb", "item irons_spellbooks:holy_upgrade_orb", "item irons_spellbooks:ender_upgrade_orb", "item irons_spellbooks:blood_upgrade_orb", "item irons_spellbooks:evocation_upgrade_orb", "item irons_spellbooks:nature_upgrade_orb", "item irons_spellbooks:mana_upgrade_orb", "item irons_spellbooks:cooldown_upgrade_orb", "item irons_spellbooks:protection_upgrade_orb"]
+recompenses = ["xp 15"]
+description = """
+Les onze orbes d'amélioration réunis.
+"""
+
+[[quete]]
+cle = "livre_blaze"
+titre = "Le Manuel du Blaze"
+deps = ["braise"]
+optionnel = true
+taches = ["item irons_spellbooks:blaze_spell_book"]
+recompenses = ["xp 6"]
+description = """
+Les blazes peuvent le lâcher (table de butin ajoutée par le mod).
+"""
+
+[[quete]]
+cle = "livre_evocateur"
+titre = "Le Grimoire d'évocation"
+deps = ["rune_evocation"]
+optionnel = true
+taches = ["item irons_spellbooks:evoker_spell_book"]
+recompenses = ["xp 6"]
+description = """
+Les évocateurs peuvent le lâcher.
+"""
+
+[[quete]]
+cle = "livre_necronomicon"
+titre = "&4Le Necronomicon"
+deps = ["roi_mort"]
+optionnel = true
+taches = ["item irons_spellbooks:necronomicon_spell_book"]
+recompenses = ["xp 6"]
+description = """
+Le Roi Mort le lâche.
+"""
+
+[[quete]]
+cle = "livre_dragon"
+titre = "Le Grimoire en peau de dragon"
+deps = ["enchante"]
+optionnel = true
+taches = ["item irons_spellbooks:dragonskin_spell_book"]
+recompenses = ["xp 6"]
+description = """
+Il se fabrique avec la peau de l'Ender Dragon.
+"""
+
+[[quete]]
+cle = "livre_druidique"
+titre = "Le Grimoire druidique"
+deps = ["rune_nature"]
+optionnel = true
+taches = ["item irons_spellbooks:druidic_spell_book"]
+recompenses = ["xp 6"]
+description = """
+Il se fabrique (recette du mod).
+"""
+
+[[quete]]
+cle = "livre_glace"
+titre = "Le Grimoire de givre"
+deps = ["rune_glace"]
+optionnel = true
+taches = ["item irons_spellbooks:ice_spell_book"]
+recompenses = ["xp 6"]
+description = """
+Il se fabrique (recette du mod).
+"""
+
+[[quete]]
+cle = "livre_pourri"
+titre = "Le Grimoire pourri"
+deps = ["catacombes"]
+optionnel = true
+taches = ["item irons_spellbooks:rotten_spell_book"]
+recompenses = ["xp 6"]
+description = """
+Dans les coffres, et les cercueils des catacombes.
+"""
+
+[[quete]]
+cle = "bijoux"
+titre = "Les anneaux et amulettes"
+deps = ["enchante"]
+optionnel = true
+taches = ["item irons_spellbooks:silver_ring", "item irons_spellbooks:mana_ring", "item irons_spellbooks:cooldown_ring", "item irons_spellbooks:cast_time_ring", "item irons_spellbooks:fireward_ring", "item irons_spellbooks:frostward_ring", "item irons_spellbooks:poisonward_ring", "item irons_spellbooks:emerald_stoneplate_ring", "item irons_spellbooks:invisibility_ring", "item irons_spellbooks:visibility_ring", "item irons_spellbooks:affinity_ring", "item irons_spellbooks:wicked_bone_ring", "item irons_spellbooks:concentration_amulet", "item irons_spellbooks:heavy_chain_necklace", "item irons_spellbooks:teleportation_amulet", "item irons_spellbooks:amethyst_resonance_charm"]
+recompenses = ["xp 12"]
+description = """
+Les bijoux d'Iron's Spells se portent dans les emplacements Curios : anneaux de mana, de récupération, de lancement, de protection contre le feu, le gel et le poison, et le reste. Seize en tout.
+"""
+
+[[quete]]
+cle = "batons"
+titre = "Les bâtons de mage"
+deps = ["enchante"]
+optionnel = true
+taches = ["item irons_spellbooks:graybeard_staff", "item irons_spellbooks:ice_staff", "item irons_spellbooks:pyrium_staff", "item irons_spellbooks:blood_staff", "item irons_spellbooks:artificer_cane"]
+recompenses = ["xp 12"]
+description = """
+Le bâton du Barbe-Grise, celui de glace, celui de pyrium, le bâton de sang du Roi Mort et la canne de l'artificier.
 """
 
 [[quete]]
