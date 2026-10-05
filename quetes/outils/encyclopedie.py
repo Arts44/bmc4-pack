@@ -168,7 +168,7 @@ def connu(c, ix):
 def biome_fr(b, ix):
     if b.startswith('#'):
         return TAG_FR.get(b[1:], b[1:].split(':')[-1].replace('is_', '').replace('_', ' '))
-    return nom_fr(ix, b, 'biome')
+    return libelle(ix, b, 'biome')
 
 
 def regles_fr(regles, ix):
@@ -318,7 +318,7 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
             exclues.append((ent, exclusions[ent]))
             continue
         mod = ent.split(':')[0]
-        nom = nom_fr(ix, ent)
+        nom = libelle(ix, ent, 'entite')
         cle = ent.replace(':', '_')
         note = notes.get(ent, {})
         if not note.get('defi'):
@@ -445,6 +445,76 @@ def biomes_dimensions(ix, exclusions, notes):
                            "Chaque biome de l'Aether, de la Twilight Forest, de l'Everbright, de l'Everdawn et de l'Otherside que le serveur génère. Une quête se valide en &lentrant&r dans le biome.")
 
 
+NOM_MOD_STRUCT = {**MOD_FR, 'bettermineshafts': "YUNG's Better Mineshafts", 'betterwitchhuts': "YUNG's Better Witch Huts",
+                  'betterfortresses': "YUNG's Better Nether Fortresses", 'betterjungletemples': "YUNG's Better Jungle Temples",
+                  'betteroceanmonuments': "YUNG's Better Ocean Monuments", 'betterstrongholds': "YUNG's Better Strongholds",
+                  'mmv': "Moog's Missing Villages", 'hearths': 'Hearths', 'friendsandfoes': 'Friends & Foes', 'mowziesmobs': "Mowzie's Mobs",
+                  'takesapillage': 'Takes a Pillage', 'aether_villages': 'Aether Villages', 'conjurer_illager': 'The Conjurer',
+                  'endersdelight': "Ender's Delight", 'joshie': 'Blossom Blade', 'twigs': 'Twigs', 'villagesandpillages': 'Villages & Pillages',
+                  'lost_aether_content': 'Lost Aether Content', 'deep_aether': 'Deep Aether'}
+
+
+def chapitre_structures(ix, fichier, titre, icone, icone_fin, mods, intro):
+    gen = _generation()['structures']
+    entrees, exclues = [], []
+    for st in sorted(gen):
+        mod = st.split(':')[0]
+        if mod not in mods:
+            continue
+        e = gen[st]
+        if not e['generee']:
+            exclues.append((st, e['raison']))
+            continue
+        bs = [libelle(ix, b, 'biome') for b in e.get('biomes', [])]
+        desc = f"Structure de &b{NOM_MOD_STRUCT.get(mod, mod)}&r."
+        if bs:
+            vus = list(dict.fromkeys(bs))
+            desc += ' Se génère dans : ' + ', '.join(vus[:5]) + (" et d'autres" if len(vus) > 5 else '') + ' (données du serveur).'
+        nom = st.split(':', 1)[1].split('/')[-1].replace('_', ' ').strip().capitalize()
+        entrees.append({'cle': st.replace(':', '_').replace('/', '_'), 'titre': f"Visiter : «{chr(160)}{nom}{chr(160)}»",
+                        'sous_titre': NOM_MOD_STRUCT.get(mod, mod), 'tache': f"structure {st}", 'description': desc})
+    texte, n, _ = chapitre_catalogue(fichier, titre, icone, icone_fin, intro, entrees,
+                                     "Toutes les structures de ce chapitre visitées. La récompense est symbolique.")
+    return texte, n, exclues
+
+
+INTRO_STRUCT = ("Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). "
+                "Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.")
+
+
+def structures_vanilla(ix, e, n):
+    return chapitre_structures(ix, 'structures-vanilla', '&6Structures — jeu de base et YUNG', 'minecraft:mossy_cobblestone', 'minecraft:filled_map',
+                               {'minecraft', 'bettermineshafts', 'betterwitchhuts', 'betterfortresses', 'betterjungletemples', 'betteroceanmonuments',
+                                'betterstrongholds', 'betterdungeons', 'twigs', 'villagesandpillages', 'hearths', 'mmv', 'takesapillage', 'friendsandfoes',
+                                'conjurer_illager', 'illagerinvasion', 'joshie', 'galosphere', 'mowziesmobs'}, INTRO_STRUCT)
+
+
+def structures_repurposed(ix, e, n):
+    return chapitre_structures(ix, 'structures-repurposed', '&6Structures — Repurposed Structures', 'minecraft:cracked_stone_bricks', 'minecraft:filled_map',
+                               {'repurposed_structures'}, INTRO_STRUCT)
+
+
+def structures_moogs(ix, e, n):
+    return chapitre_structures(ix, 'structures-moogs', "&6Structures — Moog's", 'minecraft:oak_log', 'minecraft:filled_map',
+                               {'mvs', 'mns', 'mes'}, INTRO_STRUCT)
+
+
+def structures_villages(ix, e, n):
+    return chapitre_structures(ix, 'structures-donjons-villages', '&6Structures — donjons, villes et tours', 'minecraft:bell', 'minecraft:filled_map',
+                               {'dungeons_arise', 'towns_and_towers', 'structory', 'structory_towers'}, INTRO_STRUCT)
+
+
+def structures_ruines(ix, e, n):
+    return chapitre_structures(ix, 'structures-ruines', '&6Structures — ruines et petites choses', 'minecraft:chiseled_stone_bricks', 'minecraft:filled_map',
+                               {'adorabuild_structures', 'formationsoverworld', 'formationsnether', 'philipsruins', 'explorations', 'farmers_structures'}, INTRO_STRUCT)
+
+
+def structures_mondes(ix, e, n):
+    return chapitre_structures(ix, 'structures-mondes', '&6Structures — autres mondes', 'minecraft:ender_eye', 'minecraft:filled_map',
+                               {'aether', 'aether_villages', 'deep_aether', 'lost_aether_content', 'twilightforest', 'blue_skies', 'deeperdarker',
+                                'cataclysm', 'irons_spellbooks', 'betternether', 'betterend', 'netherexp', 'bygonenether', 'endersdelight'}, INTRO_STRUCT)
+
+
 MODS_NETHER_END = ['betternether', 'bygonenether', 'netherexp', 'soulfulnether', 'betterend']
 MODS_DIMENSIONS = ['aether', 'deep_aether', 'aether_redux', 'lost_aether_content', 'twilightforest', 'blue_skies', 'deeperdarker']
 
@@ -476,7 +546,10 @@ BOSS = {'minecraft:ender_dragon', 'minecraft:wither', 'twilightforest:naga', 'tw
 CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end': bestiaire_nether_end,
              'bestiaire-dimensions': bestiaire_dimensions,
              'biomes-overworld': biomes_overworld, 'biomes-nether-end': biomes_nether_end,
-             'biomes-dimensions': biomes_dimensions}
+             'biomes-dimensions': biomes_dimensions,
+             'structures-vanilla': structures_vanilla, 'structures-repurposed': structures_repurposed,
+             'structures-moogs': structures_moogs, 'structures-donjons-villages': structures_villages,
+             'structures-ruines': structures_ruines, 'structures-mondes': structures_mondes}
 
 
 def main(argv):
