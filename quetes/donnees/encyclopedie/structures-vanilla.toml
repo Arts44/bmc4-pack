@@ -1,0 +1,959 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Structures — jeu de base et YUNG"
+fichier = "enc_structures_vanilla"
+groupe = "encyclopedie"
+icone = "minecraft:mossy_cobblestone"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Structures — jeu de base et YUNG"
+taille = 1.5
+icone = "minecraft:mossy_cobblestone"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+"""
+
+[[quete]]
+cle = "betterdungeons_skeleton_dungeon"
+titre = "Visiter : « Skeleton dungeon »"
+sous_titre = "YUNG's Better Dungeons"
+optionnel = true
+taches = ["structure betterdungeons:skeleton_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Dungeons&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterdungeons_small_dungeon"
+titre = "Visiter : « Small dungeon »"
+sous_titre = "YUNG's Better Dungeons"
+optionnel = true
+taches = ["structure betterdungeons:small_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Dungeons&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterdungeons_small_nether_dungeon"
+titre = "Visiter : « Small nether dungeon »"
+sous_titre = "YUNG's Better Dungeons"
+optionnel = true
+taches = ["structure betterdungeons:small_nether_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Dungeons&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterdungeons_spider_dungeon"
+titre = "Visiter : « Spider dungeon »"
+sous_titre = "YUNG's Better Dungeons"
+optionnel = true
+taches = ["structure betterdungeons:spider_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Dungeons&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterdungeons_zombie_dungeon"
+titre = "Visiter : « Zombie dungeon »"
+sous_titre = "YUNG's Better Dungeons"
+optionnel = true
+taches = ["structure betterdungeons:zombie_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Dungeons&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterfortresses_fortress"
+titre = "Visiter : « Fortress »"
+sous_titre = "YUNG's Better Nether Fortresses"
+optionnel = true
+taches = ["structure betterfortresses:fortress"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Nether Fortresses&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterjungletemples_jungle_temple"
+titre = "Visiter : « Jungle temple »"
+sous_titre = "YUNG's Better Jungle Temples"
+optionnel = true
+taches = ["structure betterjungletemples:jungle_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Jungle Temples&r. Se génère dans : Plaine inondable, Forêt tropicale, Jungle de bambous, Jungle (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_acacia"
+titre = "Visiter : « Mineshaft acacia »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_acacia"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Savane, Plateau de savane (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_desert"
+titre = "Visiter : « Mineshaft desert »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_dripstone"
+titre = "Visiter : « Mineshaft dripstone »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_dripstone"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Cavernes de spéléothèmes (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_ice"
+titre = "Visiter : « Mineshaft ice »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_ice"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_jungle"
+titre = "Visiter : « Mineshaft jungle »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_lush"
+titre = "Visiter : « Mineshaft lush »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_lush"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Cavernes luxuriantes (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_mesa"
+titre = "Visiter : « Mineshaft mesa »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_mesa"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_mushroom"
+titre = "Visiter : « Mineshaft mushroom »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_mushroom"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_oak"
+titre = "Visiter : « Mineshaft oak »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_oak"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Prairie, Plaines, Plaines de tournesols, Marais (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_overgrown"
+titre = "Visiter : « Mineshaft overgrown »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_overgrown"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_red_desert"
+titre = "Visiter : « Mineshaft red desert »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_red_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_spruce"
+titre = "Visiter : « Mineshaft spruce »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_spruce"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "bettermineshafts_mineshaft_spruce_snowy"
+titre = "Visiter : « Mineshaft spruce snowy »"
+sous_titre = "YUNG's Better Mineshafts"
+optionnel = true
+taches = ["structure bettermineshafts:mineshaft_spruce_snowy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Pics dentelés, Plaines enneigées, Pentes enneigées, Taïga enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "betteroceanmonuments_ocean_monument"
+titre = "Visiter : « Ocean monument »"
+sous_titre = "YUNG's Better Ocean Monuments"
+optionnel = true
+taches = ["structure betteroceanmonuments:ocean_monument"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Ocean Monuments&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "betterstrongholds_stronghold"
+titre = "Visiter : « Stronghold »"
+sous_titre = "YUNG's Better Strongholds"
+optionnel = true
+taches = ["structure betterstrongholds:stronghold"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Strongholds&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterwitchhuts_witch_circle"
+titre = "Visiter : « Witch circle »"
+sous_titre = "YUNG's Better Witch Huts"
+optionnel = true
+taches = ["structure betterwitchhuts:witch_circle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Witch Huts&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterwitchhuts_witch_hut"
+titre = "Visiter : « Witch hut »"
+sous_titre = "YUNG's Better Witch Huts"
+optionnel = true
+taches = ["structure betterwitchhuts:witch_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bYUNG's Better Witch Huts&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "conjurer_illager_theatre"
+titre = "Visiter : « Theatre »"
+sous_titre = "The Conjurer"
+optionnel = true
+taches = ["structure conjurer_illager:theatre"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bThe Conjurer&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "friendsandfoes_citadel"
+titre = "Visiter : « Citadel »"
+sous_titre = "Friends & Foes"
+optionnel = true
+taches = ["structure friendsandfoes:citadel"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFriends & Foes&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "friendsandfoes_iceologer_cabin"
+titre = "Visiter : « Iceologer cabin »"
+sous_titre = "Friends & Foes"
+optionnel = true
+taches = ["structure friendsandfoes:iceologer_cabin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFriends & Foes&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "friendsandfoes_illusioner_shack"
+titre = "Visiter : « Illusioner shack »"
+sous_titre = "Friends & Foes"
+optionnel = true
+taches = ["structure friendsandfoes:illusioner_shack"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFriends & Foes&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "friendsandfoes_illusioner_training_grounds"
+titre = "Visiter : « Illusioner training grounds »"
+sous_titre = "Friends & Foes"
+optionnel = true
+taches = ["structure friendsandfoes:illusioner_training_grounds"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFriends & Foes&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "galosphere_forgotten_ruins"
+titre = "Visiter : « Forgotten ruins »"
+sous_titre = "Galosphere"
+optionnel = true
+taches = ["structure galosphere:forgotten_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bGalosphere&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "galosphere_pink_salt_shrine"
+titre = "Visiter : « Pink salt shrine »"
+sous_titre = "Galosphere"
+optionnel = true
+taches = ["structure galosphere:pink_salt_shrine"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bGalosphere&r. Se génère dans : « Pink Salt Caves » (données du serveur).
+"""
+
+[[quete]]
+cle = "hearths_crimson_tower"
+titre = "Visiter : « Crimson tower »"
+sous_titre = "Hearths"
+optionnel = true
+taches = ["structure hearths:crimson_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bHearths&r. Se génère dans : Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "hearths_netherrack_spiral"
+titre = "Visiter : « Netherrack spiral »"
+sous_titre = "Hearths"
+optionnel = true
+taches = ["structure hearths:netherrack_spiral"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bHearths&r. Se génère dans : Terres désolées du Nether (données du serveur).
+"""
+
+[[quete]]
+cle = "hearths_warped_tower"
+titre = "Visiter : « Warped tower »"
+sous_titre = "Hearths"
+optionnel = true
+taches = ["structure hearths:warped_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bHearths&r. Se génère dans : Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "illagerinvasion_firecaller_hut"
+titre = "Visiter : « Firecaller hut »"
+sous_titre = "Illager Invasion"
+optionnel = true
+taches = ["structure illagerinvasion:firecaller_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIllager Invasion&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "illagerinvasion_illager_fort"
+titre = "Visiter : « Illager fort »"
+sous_titre = "Illager Invasion"
+optionnel = true
+taches = ["structure illagerinvasion:illager_fort"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIllager Invasion&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "illagerinvasion_illusioner_tower"
+titre = "Visiter : « Illusioner tower »"
+sous_titre = "Illager Invasion"
+optionnel = true
+taches = ["structure illagerinvasion:illusioner_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIllager Invasion&r. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins, Marais, Taïga (données du serveur).
+"""
+
+[[quete]]
+cle = "illagerinvasion_labyrinth"
+titre = "Visiter : « Labyrinth »"
+sous_titre = "Illager Invasion"
+optionnel = true
+taches = ["structure illagerinvasion:labyrinth"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIllager Invasion&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "illagerinvasion_sorcerer_hut"
+titre = "Visiter : « Sorcerer hut »"
+sous_titre = "Illager Invasion"
+optionnel = true
+taches = ["structure illagerinvasion:sorcerer_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIllager Invasion&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "joshie_blossom_blade"
+titre = "Visiter : « Blossom blade »"
+sous_titre = "Blossom Blade"
+optionnel = true
+taches = ["structure joshie:blossom_blade"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlossom Blade&r. Se génère dans : Bosquet de cerisiers (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ancient_city"
+titre = "Visiter : « Ancient city »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ancient_city"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Abîmes (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_bastion_remnant"
+titre = "Visiter : « Bastion remnant »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:bastion_remnant"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_buried_treasure"
+titre = "Visiter : « Buried treasure »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:buried_treasure"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_desert_pyramid"
+titre = "Visiter : « Desert pyramid »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:desert_pyramid"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_end_city"
+titre = "Visiter : « End city »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:end_city"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : « Amber Land », « Chorus Forest », « Dry Shrubland », « Foggy Mushroomland », « Glowing Grasslands » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_fortress"
+titre = "Visiter : « Fortress »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:fortress"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_igloo"
+titre = "Visiter : « Igloo »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:igloo"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Désert froid, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Plaines enneigées et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_jungle_pyramid"
+titre = "Visiter : « Jungle pyramid »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:jungle_pyramid"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Plaine inondable, Forêt tropicale, Jungle de bambous, Jungle (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_mansion"
+titre = "Visiter : « Mansion »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:mansion"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Forêt morte, Bois sinistres, Bois, Forêt sombre, Jardin pâle (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_mineshaft"
+titre = "Visiter : « Mineshaft »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:mineshaft"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : « Aspen Glade », Tourbière, Désert froid, Forêt de conifères, Escarpée et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_mineshaft_mesa"
+titre = "Visiter : « Mineshaft mesa »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:mineshaft_mesa"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_monument"
+titre = "Visiter : « Monument »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:monument"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_nether_fossil"
+titre = "Visiter : « Nether fossil »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:nether_fossil"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Soul Plain, Upside Down Forest, Terre sèche, « Soulblight Forest », Vallée des âmes et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ocean_ruin_cold"
+titre = "Visiter : « Ocean ruin cold »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ocean_ruin_cold"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan profond, Océan gelé et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ocean_ruin_warm"
+titre = "Visiter : « Ocean ruin warm »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ocean_ruin_warm"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Océan tiède profond, Océan tiède, Océan chaud (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_pillager_outpost"
+titre = "Visiter : « Pillager outpost »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:pillager_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Plaines (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ruined_portal"
+titre = "Visiter : « Ruined portal »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ruined_portal"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : « Aspen Glade », Jardin auroral, Tourbière, Forêt de conifères, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ruined_portal_desert"
+titre = "Visiter : « Ruined portal desert »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ruined_portal_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Désert froid, Terre sèche, Désert luxuriant, Savane luxuriante, Plaines volcaniques et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ruined_portal_jungle"
+titre = "Visiter : « Ruined portal jungle »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ruined_portal_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ruined_portal_mountain"
+titre = "Visiter : « Ruined portal mountain »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ruined_portal_mountain"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Escarpée, Hauts plateaux, Falaises de jade, Badlands, Bosquet de cerisiers et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ruined_portal_nether"
+titre = "Visiter : « Ruined portal nether »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ruined_portal_nether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ruined_portal_ocean"
+titre = "Visiter : « Ruined portal ocean »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ruined_portal_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_ruined_portal_swamp"
+titre = "Visiter : « Ruined portal swamp »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:ruined_portal_swamp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Bayou, Tourbière, Marais, Marécages, Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_shipwreck"
+titre = "Visiter : « Shipwreck »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:shipwreck"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_shipwreck_beached"
+titre = "Visiter : « Shipwreck beached »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:shipwreck_beached"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_stronghold"
+titre = "Visiter : « Stronghold »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:stronghold"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_swamp_hut"
+titre = "Visiter : « Swamp hut »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:swamp_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Bayou, Tourbière, Marais, Marécages (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_trail_ruins"
+titre = "Visiter : « Trail ruins »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:trail_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Terre sèche, « Hot Springs », Forêt méditerranéenne, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_village_desert"
+titre = "Visiter : « Village desert »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:village_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_village_plains"
+titre = "Visiter : « Village plains »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:village_plains"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Prairies, Prairie, Plaines (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_village_savanna"
+titre = "Visiter : « Village savanna »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:village_savanna"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Terre sèche, Savane (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_village_snowy"
+titre = "Visiter : « Village snowy »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:village_snowy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Désert froid, Forêt de connifères enneigée, Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "minecraft_village_taiga"
+titre = "Visiter : « Village taiga »"
+sous_titre = "jeu de base"
+optionnel = true
+taches = ["structure minecraft:village_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bjeu de base&r. Se génère dans : Forêt de conifères, Forêt morte, Bois d'érables, Taïga (données du serveur).
+"""
+
+[[quete]]
+cle = "mmv_village_dark_forest"
+titre = "Visiter : « Village dark forest »"
+sous_titre = "Moog's Missing Villages"
+optionnel = true
+taches = ["structure mmv:village_dark_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Missing Villages&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "mmv_village_jungle"
+titre = "Visiter : « Village jungle »"
+sous_titre = "Moog's Missing Villages"
+optionnel = true
+taches = ["structure mmv:village_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Missing Villages&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mmv_village_swamp"
+titre = "Visiter : « Village swamp »"
+sous_titre = "Moog's Missing Villages"
+optionnel = true
+taches = ["structure mmv:village_swamp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Missing Villages&r. Se génère dans : Marais (données du serveur).
+"""
+
+[[quete]]
+cle = "mowziesmobs_frostmaw_spawn"
+titre = "Visiter : « Frostmaw spawn »"
+sous_titre = "Mowzie's Mobs"
+optionnel = true
+taches = ["structure mowziesmobs:frostmaw_spawn"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMowzie's Mobs&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mowziesmobs_monastery"
+titre = "Visiter : « Monastery »"
+sous_titre = "Mowzie's Mobs"
+optionnel = true
+taches = ["structure mowziesmobs:monastery"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMowzie's Mobs&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mowziesmobs_umvuthana_grove"
+titre = "Visiter : « Umvuthana grove »"
+sous_titre = "Mowzie's Mobs"
+optionnel = true
+taches = ["structure mowziesmobs:umvuthana_grove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMowzie's Mobs&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mowziesmobs_wrought_chamber"
+titre = "Visiter : « Wrought chamber »"
+sous_titre = "Mowzie's Mobs"
+optionnel = true
+taches = ["structure mowziesmobs:wrought_chamber"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMowzie's Mobs&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "takesapillage_bastille"
+titre = "Visiter : « Bastille »"
+sous_titre = "Takes a Pillage"
+optionnel = true
+taches = ["structure takesapillage:bastille"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTakes a Pillage&r. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "takesapillage_pillager_camp"
+titre = "Visiter : « Pillager camp »"
+sous_titre = "Takes a Pillage"
+optionnel = true
+taches = ["structure takesapillage:pillager_camp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTakes a Pillage&r. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "twigs_bloodstone_obelisk"
+titre = "Visiter : « Bloodstone obelisk »"
+sous_titre = "Twigs"
+optionnel = true
+taches = ["structure twigs:bloodstone_obelisk"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwigs&r. Se génère dans : Forêt carmin, Terres désolées du Nether (données du serveur).
+"""
+
+[[quete]]
+cle = "villagesandpillages_village_witch"
+titre = "Visiter : « Village witch »"
+sous_titre = "Villages & Pillages"
+optionnel = true
+taches = ["structure villagesandpillages:village_witch"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bVillages & Pillages&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:filled_map"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["betterdungeons_skeleton_dungeon", "betterdungeons_small_dungeon", "betterdungeons_small_nether_dungeon", "betterdungeons_spider_dungeon", "betterdungeons_zombie_dungeon", "betterfortresses_fortress", "betterjungletemples_jungle_temple", "bettermineshafts_mineshaft_acacia", "bettermineshafts_mineshaft_desert", "bettermineshafts_mineshaft_dripstone", "bettermineshafts_mineshaft_ice", "bettermineshafts_mineshaft_jungle", "bettermineshafts_mineshaft_lush", "bettermineshafts_mineshaft_mesa", "bettermineshafts_mineshaft_mushroom", "bettermineshafts_mineshaft_oak", "bettermineshafts_mineshaft_overgrown", "bettermineshafts_mineshaft_red_desert", "bettermineshafts_mineshaft_spruce", "bettermineshafts_mineshaft_spruce_snowy", "betteroceanmonuments_ocean_monument", "betterstrongholds_stronghold", "betterwitchhuts_witch_circle", "betterwitchhuts_witch_hut", "conjurer_illager_theatre", "friendsandfoes_citadel", "friendsandfoes_iceologer_cabin", "friendsandfoes_illusioner_shack", "friendsandfoes_illusioner_training_grounds", "galosphere_forgotten_ruins", "galosphere_pink_salt_shrine", "hearths_crimson_tower", "hearths_netherrack_spiral", "hearths_warped_tower", "illagerinvasion_firecaller_hut", "illagerinvasion_illager_fort", "illagerinvasion_illusioner_tower", "illagerinvasion_labyrinth", "illagerinvasion_sorcerer_hut", "joshie_blossom_blade", "minecraft_ancient_city", "minecraft_bastion_remnant", "minecraft_buried_treasure", "minecraft_desert_pyramid", "minecraft_end_city", "minecraft_fortress", "minecraft_igloo", "minecraft_jungle_pyramid", "minecraft_mansion", "minecraft_mineshaft", "minecraft_mineshaft_mesa", "minecraft_monument", "minecraft_nether_fossil", "minecraft_ocean_ruin_cold", "minecraft_ocean_ruin_warm", "minecraft_pillager_outpost", "minecraft_ruined_portal", "minecraft_ruined_portal_desert", "minecraft_ruined_portal_jungle", "minecraft_ruined_portal_mountain", "minecraft_ruined_portal_nether", "minecraft_ruined_portal_ocean", "minecraft_ruined_portal_swamp", "minecraft_shipwreck", "minecraft_shipwreck_beached", "minecraft_stronghold", "minecraft_swamp_hut", "minecraft_trail_ruins", "minecraft_village_desert", "minecraft_village_plains", "minecraft_village_savanna", "minecraft_village_snowy", "minecraft_village_taiga", "mmv_village_dark_forest", "mmv_village_jungle", "mmv_village_swamp", "mowziesmobs_frostmaw_spawn", "mowziesmobs_monastery", "mowziesmobs_umvuthana_grove", "mowziesmobs_wrought_chamber", "takesapillage_bastille", "takesapillage_pillager_camp", "twigs_bloodstone_obelisk", "villagesandpillages_village_witch"]
+description = """
+Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+"""

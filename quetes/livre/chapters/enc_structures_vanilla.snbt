@@ -1,0 +1,1819 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_structures_vanilla"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:mossy_cobblestone"
+	id: "2F68ED6D08890948"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			icon: "minecraft:mossy_cobblestone"
+			id: "74DB4C2AB0AF9895"
+			rewards: [{
+				id: "5E318F505F0D29F4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7DF7B994ACA63AFD"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Structures — jeu de base et YUNG"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Dungeons&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "5FF244C526723780"
+			optional: true
+			rewards: [{
+				id: "38168129292B05A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Dungeons"
+			tasks: [{
+				id: "481852811BCB813F"
+				structure: "betterdungeons:skeleton_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Skeleton dungeon »"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Dungeons&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "47D78E05AEF67BBE"
+			optional: true
+			rewards: [{
+				id: "51119EECBD1FAD90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Dungeons"
+			tasks: [{
+				id: "26C6EC69B4472AB0"
+				structure: "betterdungeons:small_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Small dungeon »"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Dungeons&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "30C3420A01AF84D9"
+			optional: true
+			rewards: [{
+				id: "710D361EA3F9446A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Dungeons"
+			tasks: [{
+				id: "7CB55CBD830CF9CF"
+				structure: "betterdungeons:small_nether_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Small nether dungeon »"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Dungeons&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "7969D946362489DB"
+			optional: true
+			rewards: [{
+				id: "521CA1209E26A5ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Dungeons"
+			tasks: [{
+				id: "018274D30618097D"
+				structure: "betterdungeons:spider_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Spider dungeon »"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Dungeons&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "0FBB81003AF95DD2"
+			optional: true
+			rewards: [{
+				id: "4D7B935464AA641E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Dungeons"
+			tasks: [{
+				id: "5B38DCE41AA1912B"
+				structure: "betterdungeons:zombie_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Zombie dungeon »"
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Nether Fortresses&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "017077AA068200B7"
+			optional: true
+			rewards: [{
+				id: "36918AF2B0310AD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Nether Fortresses"
+			tasks: [{
+				id: "3A8EDD647E1DA410"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Visiter : « Fortress »"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Jungle Temples&r. Se génère dans : Plaine inondable, Forêt tropicale, Jungle de bambous, Jungle (données du serveur)."]
+			id: "624A867FD3BB7E72"
+			optional: true
+			rewards: [{
+				id: "10939FC9675C1D37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Jungle Temples"
+			tasks: [{
+				id: "229A2E56D2B8F357"
+				structure: "betterjungletemples:jungle_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle temple »"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Savane, Plateau de savane (données du serveur)."]
+			id: "05325F86E4F844C1"
+			optional: true
+			rewards: [{
+				id: "7F30C7EAA8576FAF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "48286E69F11446E5"
+				structure: "bettermineshafts:mineshaft_acacia"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft acacia »"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "49D5F4C9742C968F"
+			optional: true
+			rewards: [{
+				id: "536D078A24ED1456"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "7C1C906A08498AF7"
+				structure: "bettermineshafts:mineshaft_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft desert »"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Cavernes de spéléothèmes (données du serveur)."]
+			id: "328DF7B9B3AB3E98"
+			optional: true
+			rewards: [{
+				id: "3932B683390E8A97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "6DA0057981B63F47"
+				structure: "bettermineshafts:mineshaft_dripstone"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft dripstone »"
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur)."]
+			id: "57EA74CE85C6AAB5"
+			optional: true
+			rewards: [{
+				id: "5338782E725D74C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "00CA64AB6A7310B1"
+				structure: "bettermineshafts:mineshaft_ice"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft ice »"
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "5D76D61558679715"
+			optional: true
+			rewards: [{
+				id: "1310D8C4F098C9C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "74588D4AC7DCF373"
+				structure: "bettermineshafts:mineshaft_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft jungle »"
+			x: 16.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Cavernes luxuriantes (données du serveur)."]
+			id: "54AF97D35F532AA2"
+			optional: true
+			rewards: [{
+				id: "179F198C397065C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "2535D84E64CC86D2"
+				structure: "bettermineshafts:mineshaft_lush"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft lush »"
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "270B08877B8FC5CA"
+			optional: true
+			rewards: [{
+				id: "366DC045DAC0F8C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "27C9D4F4024F7F09"
+				structure: "bettermineshafts:mineshaft_mesa"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft mesa »"
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur)."]
+			id: "659129D6B5CA686B"
+			optional: true
+			rewards: [{
+				id: "4D942AFFAEFEA48C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "5288ACAA36EC166A"
+				structure: "bettermineshafts:mineshaft_mushroom"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft mushroom »"
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Prairie, Plaines, Plaines de tournesols, Marais (données du serveur)."]
+			id: "795BB357A65D33FC"
+			optional: true
+			rewards: [{
+				id: "54FBEC71E756109A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "40DC61D4B3BB78C3"
+				structure: "bettermineshafts:mineshaft_oak"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft oak »"
+			x: 22.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Forêt ancienne et d'autres (données du serveur)."]
+			id: "730D45E1E023DB2E"
+			optional: true
+			rewards: [{
+				id: "4D2F0B7E30C25FE8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "6D23A03596AD7A69"
+				structure: "bettermineshafts:mineshaft_overgrown"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft overgrown »"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "797B635FFD32F468"
+			optional: true
+			rewards: [{
+				id: "01C4B8D187BECFBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "6D65F5184DDC2493"
+				structure: "bettermineshafts:mineshaft_red_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft red desert »"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "31CCAA1B1CE46B6D"
+			optional: true
+			rewards: [{
+				id: "46C7380FD9B4435D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "18D7E80D5F75E82B"
+				structure: "bettermineshafts:mineshaft_spruce"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft spruce »"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Mineshafts&r. Se génère dans : Pics dentelés, Plaines enneigées, Pentes enneigées, Taïga enneigée (données du serveur)."]
+			id: "1EA05505D86034DD"
+			optional: true
+			rewards: [{
+				id: "06BF97E9F57CA149"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Mineshafts"
+			tasks: [{
+				id: "382239BF79004776"
+				structure: "bettermineshafts:mineshaft_spruce_snowy"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft spruce snowy »"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Ocean Monuments&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "7B6148590F0653A0"
+			optional: true
+			rewards: [{
+				id: "029978E73280C9E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Ocean Monuments"
+			tasks: [{
+				id: "50794FB140E2170E"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean monument »"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Strongholds&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "6B42111944990EC8"
+			optional: true
+			rewards: [{
+				id: "7C13B939887F64AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Strongholds"
+			tasks: [{
+				id: "7DCF7D1FACB9D400"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "Visiter : « Stronghold »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Witch Huts&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "25A719C0955B77F5"
+			optional: true
+			rewards: [{
+				id: "2EF9C57FE8104366"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Witch Huts"
+			tasks: [{
+				id: "0D8F005F53345B53"
+				structure: "betterwitchhuts:witch_circle"
+				type: "structure"
+			}]
+			title: "Visiter : « Witch circle »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bYUNG's Better Witch Huts&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "0E913088312F491B"
+			optional: true
+			rewards: [{
+				id: "2071781CE26655BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "YUNG's Better Witch Huts"
+			tasks: [{
+				id: "2E7DB684179C7CBF"
+				structure: "betterwitchhuts:witch_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Witch hut »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bThe Conjurer&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "37DF931431B0E483"
+			optional: true
+			rewards: [{
+				id: "68CC772CCEC90D40"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "The Conjurer"
+			tasks: [{
+				id: "7E0B58BB5C872D0D"
+				structure: "conjurer_illager:theatre"
+				type: "structure"
+			}]
+			title: "Visiter : « Theatre »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bFriends & Foes&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "66E1AC0B4CD4D09F"
+			optional: true
+			rewards: [{
+				id: "26FEE885B2CEBD7E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Friends & Foes"
+			tasks: [{
+				id: "7A92FDF7855B1975"
+				structure: "friendsandfoes:citadel"
+				type: "structure"
+			}]
+			title: "Visiter : « Citadel »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bFriends & Foes&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur)."]
+			id: "7AD35658C7C711FE"
+			optional: true
+			rewards: [{
+				id: "05B8BC7F7659EEC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Friends & Foes"
+			tasks: [{
+				id: "082630FDE18E79AF"
+				structure: "friendsandfoes:iceologer_cabin"
+				type: "structure"
+			}]
+			title: "Visiter : « Iceologer cabin »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bFriends & Foes&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "2195BD00F2BB712D"
+			optional: true
+			rewards: [{
+				id: "6EB72FFA008E620C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Friends & Foes"
+			tasks: [{
+				id: "13F5BA9A22DB4310"
+				structure: "friendsandfoes:illusioner_shack"
+				type: "structure"
+			}]
+			title: "Visiter : « Illusioner shack »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bFriends & Foes&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "2D80328FDF3E7197"
+			optional: true
+			rewards: [{
+				id: "1B63F888A9315243"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Friends & Foes"
+			tasks: [{
+				id: "5559791646386CB5"
+				structure: "friendsandfoes:illusioner_training_grounds"
+				type: "structure"
+			}]
+			title: "Visiter : « Illusioner training grounds »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bGalosphere&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "5ACA2B27ECFF33B3"
+			optional: true
+			rewards: [{
+				id: "197CFFA8024917DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Galosphere"
+			tasks: [{
+				id: "7777E89A6FA47119"
+				structure: "galosphere:forgotten_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Forgotten ruins »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bGalosphere&r. Se génère dans : « Pink Salt Caves » (données du serveur)."]
+			id: "561A43BF695ACE6E"
+			optional: true
+			rewards: [{
+				id: "054019E72660A122"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Galosphere"
+			tasks: [{
+				id: "08297FCB0B2C9AE6"
+				structure: "galosphere:pink_salt_shrine"
+				type: "structure"
+			}]
+			title: "Visiter : « Pink salt shrine »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bHearths&r. Se génère dans : Forêt carmin (données du serveur)."]
+			id: "6EF5DD7DE6C8EC12"
+			optional: true
+			rewards: [{
+				id: "036B27A159B49362"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Hearths"
+			tasks: [{
+				id: "344C4BB4849E0A7B"
+				structure: "hearths:crimson_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Crimson tower »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bHearths&r. Se génère dans : Terres désolées du Nether (données du serveur)."]
+			id: "5EFF0FF8704C6334"
+			optional: true
+			rewards: [{
+				id: "05C2AF1B2972D6C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Hearths"
+			tasks: [{
+				id: "69851BDE51DB4E4F"
+				structure: "hearths:netherrack_spiral"
+				type: "structure"
+			}]
+			title: "Visiter : « Netherrack spiral »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bHearths&r. Se génère dans : Forêt biscornue (données du serveur)."]
+			id: "7EB21CD1B1F23591"
+			optional: true
+			rewards: [{
+				id: "2490620AF88B6534"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Hearths"
+			tasks: [{
+				id: "2D717F9696263671"
+				structure: "hearths:warped_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Warped tower »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bIllager Invasion&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "6064C7927EB4B443"
+			optional: true
+			rewards: [{
+				id: "5016D81709131901"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Illager Invasion"
+			tasks: [{
+				id: "300D2CD89FCD9102"
+				structure: "illagerinvasion:firecaller_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Firecaller hut »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bIllager Invasion&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "1FA14358BB80E995"
+			optional: true
+			rewards: [{
+				id: "3196B7C13BF662A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Illager Invasion"
+			tasks: [{
+				id: "716C51E1EEF13B37"
+				structure: "illagerinvasion:illager_fort"
+				type: "structure"
+			}]
+			title: "Visiter : « Illager fort »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bIllager Invasion&r. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins, Marais, Taïga (données du serveur)."]
+			id: "6FE12E5EA5BEBECB"
+			optional: true
+			rewards: [{
+				id: "229E4233FA0906CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Illager Invasion"
+			tasks: [{
+				id: "62C98BD688625392"
+				structure: "illagerinvasion:illusioner_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Illusioner tower »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bIllager Invasion&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "212ABC8DF881EE55"
+			optional: true
+			rewards: [{
+				id: "770CB0A3F8E71E24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Illager Invasion"
+			tasks: [{
+				id: "759D6BA8EBDE0B0A"
+				structure: "illagerinvasion:labyrinth"
+				type: "structure"
+			}]
+			title: "Visiter : « Labyrinth »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bIllager Invasion&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "04B82F4B1A541DBD"
+			optional: true
+			rewards: [{
+				id: "0CD69F0A15A387B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Illager Invasion"
+			tasks: [{
+				id: "0E4CB4818281D201"
+				structure: "illagerinvasion:sorcerer_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Sorcerer hut »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bBlossom Blade&r. Se génère dans : Bosquet de cerisiers (données du serveur)."]
+			id: "40653E2EB7E48BB1"
+			optional: true
+			rewards: [{
+				id: "3E2C49C93781B7E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blossom Blade"
+			tasks: [{
+				id: "7C21B7FA3347E268"
+				structure: "joshie:blossom_blade"
+				type: "structure"
+			}]
+			title: "Visiter : « Blossom blade »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Abîmes (données du serveur)."]
+			id: "3BB44FA2C996EF2B"
+			optional: true
+			rewards: [{
+				id: "4E06EABBAAAB42F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "4AC021C0074415D7"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient city »"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur)."]
+			id: "6B0A07C51E79AAE4"
+			optional: true
+			rewards: [{
+				id: "547C550437512C8B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "2C779C5DCCE48EEA"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "Visiter : « Bastion remnant »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur)."]
+			id: "012833172E70F956"
+			optional: true
+			rewards: [{
+				id: "35702F6748A43854"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "016B7BC00E687ACC"
+				structure: "minecraft:buried_treasure"
+				type: "structure"
+			}]
+			title: "Visiter : « Buried treasure »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Désert (données du serveur)."]
+			id: "3CD8A45F81D855B3"
+			optional: true
+			rewards: [{
+				id: "6F50E15A40F30DD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "676CF2EF7F0CC072"
+				structure: "minecraft:desert_pyramid"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert pyramid »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : « Amber Land », « Chorus Forest », « Dry Shrubland », « Foggy Mushroomland », « Glowing Grasslands » et d'autres (données du serveur)."]
+			id: "43C8C429B4B054EE"
+			optional: true
+			rewards: [{
+				id: "4EA4A06DEC742FB7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "35984423FBE96F38"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "Visiter : « End city »"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "14D1EDAF037F69E9"
+			optional: true
+			rewards: [{
+				id: "0772F3B3053DF569"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "4869A6D32EBCF270"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			title: "Visiter : « Fortress »"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Désert froid, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Plaines enneigées et d'autres (données du serveur)."]
+			id: "6FE626786457C1E1"
+			optional: true
+			rewards: [{
+				id: "2955842A9F950062"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "3E72FA66DBC9ABA7"
+				structure: "minecraft:igloo"
+				type: "structure"
+			}]
+			title: "Visiter : « Igloo »"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Plaine inondable, Forêt tropicale, Jungle de bambous, Jungle (données du serveur)."]
+			id: "6E0FD115C6C98A3C"
+			optional: true
+			rewards: [{
+				id: "63097049DDBFA44A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "431EF4EB0E6B12CF"
+				structure: "minecraft:jungle_pyramid"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle pyramid »"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Forêt morte, Bois sinistres, Bois, Forêt sombre, Jardin pâle (données du serveur)."]
+			id: "77AA4CF9F0474147"
+			optional: true
+			rewards: [{
+				id: "487BEAAC9B4EF1FC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "45E4DFEE3ADFE261"
+				structure: "minecraft:mansion"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion »"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : « Aspen Glade », Tourbière, Désert froid, Forêt de conifères, Escarpée et d'autres (données du serveur)."]
+			id: "0079F06A0287110E"
+			optional: true
+			rewards: [{
+				id: "5335D27CDDDD791F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "3200CCF14EBD18F4"
+				structure: "minecraft:mineshaft"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft »"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "38A353D39455FED2"
+			optional: true
+			rewards: [{
+				id: "1B439E32F1C9E172"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "5AFB7F5441282EF6"
+				structure: "minecraft:mineshaft_mesa"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft mesa »"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "5592EDB73C946DB9"
+			optional: true
+			rewards: [{
+				id: "13481004509344A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "282CB1032E0693E3"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			title: "Visiter : « Monument »"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Soul Plain, Upside Down Forest, Terre sèche, « Soulblight Forest », Vallée des âmes et d'autres (données du serveur)."]
+			id: "416438E9D9625B18"
+			optional: true
+			rewards: [{
+				id: "10B32D88F61D9479"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "6FC7E1E05AE9EABB"
+				structure: "minecraft:nether_fossil"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether fossil »"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan profond, Océan gelé et d'autres (données du serveur)."]
+			id: "741963F0405C2998"
+			optional: true
+			rewards: [{
+				id: "7B2F656391830500"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "121FE65D70E90DC6"
+				structure: "minecraft:ocean_ruin_cold"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean ruin cold »"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Océan tiède profond, Océan tiède, Océan chaud (données du serveur)."]
+			id: "51FEA0BAED4AA8A3"
+			optional: true
+			rewards: [{
+				id: "089B3B36EE19FA7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "7D7E897CAC6694E4"
+				structure: "minecraft:ocean_ruin_warm"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean ruin warm »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Plaines (données du serveur)."]
+			id: "49B31B1D39715571"
+			optional: true
+			rewards: [{
+				id: "575E9D9927406738"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "1155E4F8FEBFFBA6"
+				structure: "minecraft:pillager_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : « Aspen Glade », Jardin auroral, Tourbière, Forêt de conifères, Forêt morte et d'autres (données du serveur)."]
+			id: "5494E173128AFAC9"
+			optional: true
+			rewards: [{
+				id: "39B18990ABA53E40"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "5EBFA684FCAEAB31"
+				structure: "minecraft:ruined_portal"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Désert froid, Terre sèche, Désert luxuriant, Savane luxuriante, Plaines volcaniques et d'autres (données du serveur)."]
+			id: "026C0F4B3FEE5B2F"
+			optional: true
+			rewards: [{
+				id: "5D7728C2CFB5E4BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "2B3262F3A1D1F002"
+				structure: "minecraft:ruined_portal_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal desert »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "0B7325FFF17E45DE"
+			optional: true
+			rewards: [{
+				id: "2FE2751A07669157"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "508DB83448DCFB38"
+				structure: "minecraft:ruined_portal_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal jungle »"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Escarpée, Hauts plateaux, Falaises de jade, Badlands, Bosquet de cerisiers et d'autres (données du serveur)."]
+			id: "6C45A7D819CA0E3D"
+			optional: true
+			rewards: [{
+				id: "7442BC0D94299A40"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "0391CE38D57E23CD"
+				structure: "minecraft:ruined_portal_mountain"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal mountain »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "5B0D65ECDCEE45BB"
+			optional: true
+			rewards: [{
+				id: "1835380A4CBC4367"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "5742C8E27D73376A"
+				structure: "minecraft:ruined_portal_nether"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal nether »"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "226FBF0347500892"
+			optional: true
+			rewards: [{
+				id: "6E880326C47D78AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "1E2A6974082CF9AF"
+				structure: "minecraft:ruined_portal_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal ocean »"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Bayou, Tourbière, Marais, Marécages, Marais à mangroves (données du serveur)."]
+			id: "6118F8C4536C37B2"
+			optional: true
+			rewards: [{
+				id: "38A08B39595C7F27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "0C2BF0B5FC348377"
+				structure: "minecraft:ruined_portal_swamp"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal swamp »"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "7FC0039F154893DE"
+			optional: true
+			rewards: [{
+				id: "2139A09FD732920D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "5DAED8A4A69B3BC5"
+				structure: "minecraft:shipwreck"
+				type: "structure"
+			}]
+			title: "Visiter : « Shipwreck »"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur)."]
+			id: "342E32139AD363AA"
+			optional: true
+			rewards: [{
+				id: "51EC657D46C09A46"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "42C5F2C2E335CD9B"
+				structure: "minecraft:shipwreck_beached"
+				type: "structure"
+			}]
+			title: "Visiter : « Shipwreck beached »"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "5555EEEC873ADCB1"
+			optional: true
+			rewards: [{
+				id: "155A8544033FA182"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "14351C4943450025"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			title: "Visiter : « Stronghold »"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Bayou, Tourbière, Marais, Marécages (données du serveur)."]
+			id: "6F40FE2DF0C27E70"
+			optional: true
+			rewards: [{
+				id: "3C2BE982BA76525D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "2E35ACA9B9E2C17B"
+				structure: "minecraft:swamp_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Swamp hut »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Terre sèche, « Hot Springs », Forêt méditerranéenne, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "34A99E733780EC81"
+			optional: true
+			rewards: [{
+				id: "625855EA9F5A1DA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "1761949009ABE6A0"
+				structure: "minecraft:trail_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Trail ruins »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Désert luxuriant, Désert (données du serveur)."]
+			id: "4E28C6EAD561B202"
+			optional: true
+			rewards: [{
+				id: "0FDB180711A7954E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "450D8E4507C93BA7"
+				structure: "minecraft:village_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Village desert »"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Prairies, Prairie, Plaines (données du serveur)."]
+			id: "7A7E1DFB52F6FAC3"
+			optional: true
+			rewards: [{
+				id: "05972E1FB116D8A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "36D577FE55DA7595"
+				structure: "minecraft:village_plains"
+				type: "structure"
+			}]
+			title: "Visiter : « Village plains »"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Terre sèche, Savane (données du serveur)."]
+			id: "53CFC84645FB5895"
+			optional: true
+			rewards: [{
+				id: "1BE541BBBF39073B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "620684E373702549"
+				structure: "minecraft:village_savanna"
+				type: "structure"
+			}]
+			title: "Visiter : « Village savanna »"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Désert froid, Forêt de connifères enneigée, Plaines enneigées (données du serveur)."]
+			id: "4312FE2FC0058ABD"
+			optional: true
+			rewards: [{
+				id: "0CE45C8D75683DEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "0CCDEB3335D993A9"
+				structure: "minecraft:village_snowy"
+				type: "structure"
+			}]
+			title: "Visiter : « Village snowy »"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bjeu de base&r. Se génère dans : Forêt de conifères, Forêt morte, Bois d'érables, Taïga (données du serveur)."]
+			id: "314483529E9D5BF0"
+			optional: true
+			rewards: [{
+				id: "7F9830ED99CB8CF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "jeu de base"
+			tasks: [{
+				id: "277231056E5E4ECA"
+				structure: "minecraft:village_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Village taiga »"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bMoog's Missing Villages&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "57A81364CFD02CBF"
+			optional: true
+			rewards: [{
+				id: "147DCB865A0CF9F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Missing Villages"
+			tasks: [{
+				id: "108715FA96487720"
+				structure: "mmv:village_dark_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Village dark forest »"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bMoog's Missing Villages&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "5C4E7F417156492F"
+			optional: true
+			rewards: [{
+				id: "25CD17DB17941805"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Missing Villages"
+			tasks: [{
+				id: "770F07833CE950A7"
+				structure: "mmv:village_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Village jungle »"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bMoog's Missing Villages&r. Se génère dans : Marais (données du serveur)."]
+			id: "283BFAFE46DD8FED"
+			optional: true
+			rewards: [{
+				id: "65E62461F6CC1CF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Missing Villages"
+			tasks: [{
+				id: "55801E11E2BB257D"
+				structure: "mmv:village_swamp"
+				type: "structure"
+			}]
+			title: "Visiter : « Village swamp »"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bMowzie's Mobs&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "3D096CB6EFE5DF49"
+			optional: true
+			rewards: [{
+				id: "018031998054053A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mowzie's Mobs"
+			tasks: [{
+				id: "7B45E57DA360EABD"
+				structure: "mowziesmobs:frostmaw_spawn"
+				type: "structure"
+			}]
+			title: "Visiter : « Frostmaw spawn »"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bMowzie's Mobs&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "2D23E2F1B6525AB1"
+			optional: true
+			rewards: [{
+				id: "726DF0097805C602"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mowzie's Mobs"
+			tasks: [{
+				id: "7D7A89397D789F8C"
+				structure: "mowziesmobs:monastery"
+				type: "structure"
+			}]
+			title: "Visiter : « Monastery »"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bMowzie's Mobs&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "0CEF5C2B7F4F5F31"
+			optional: true
+			rewards: [{
+				id: "5EC88598534B3EF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mowzie's Mobs"
+			tasks: [{
+				id: "2BB15B949E8219ED"
+				structure: "mowziesmobs:umvuthana_grove"
+				type: "structure"
+			}]
+			title: "Visiter : « Umvuthana grove »"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bMowzie's Mobs&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "1D2983F4AFD6D4E7"
+			optional: true
+			rewards: [{
+				id: "203344F0C2EBC080"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mowzie's Mobs"
+			tasks: [{
+				id: "05596CC72C5B5932"
+				structure: "mowziesmobs:wrought_chamber"
+				type: "structure"
+			}]
+			title: "Visiter : « Wrought chamber »"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTakes a Pillage&r. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur)."]
+			id: "188A61A0E571120F"
+			optional: true
+			rewards: [{
+				id: "41A1D99214399955"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Takes a Pillage"
+			tasks: [{
+				id: "03D25AD58CAED7D9"
+				structure: "takesapillage:bastille"
+				type: "structure"
+			}]
+			title: "Visiter : « Bastille »"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTakes a Pillage&r. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur)."]
+			id: "42AFA2506F03BEC8"
+			optional: true
+			rewards: [{
+				id: "6C8D0DF904D5E673"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Takes a Pillage"
+			tasks: [{
+				id: "15CA8E75D1893C1F"
+				structure: "takesapillage:pillager_camp"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager camp »"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTwigs&r. Se génère dans : Forêt carmin, Terres désolées du Nether (données du serveur)."]
+			id: "01D19ED9DA4C19FA"
+			optional: true
+			rewards: [{
+				id: "46C15656E645A4D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twigs"
+			tasks: [{
+				id: "0E227FC13D6A6DC8"
+				structure: "twigs:bloodstone_obelisk"
+				type: "structure"
+			}]
+			title: "Visiter : « Bloodstone obelisk »"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bVillages & Pillages&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "1DA9C9CFADD99AB8"
+			optional: true
+			rewards: [{
+				id: "3AA7BC0B1632FDDD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Villages & Pillages"
+			tasks: [{
+				id: "3ED4596884ACDB8A"
+				structure: "villagesandpillages:village_witch"
+				type: "structure"
+			}]
+			title: "Visiter : « Village witch »"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"5FF244C526723780"
+				"47D78E05AEF67BBE"
+				"30C3420A01AF84D9"
+				"7969D946362489DB"
+				"0FBB81003AF95DD2"
+				"017077AA068200B7"
+				"624A867FD3BB7E72"
+				"05325F86E4F844C1"
+				"49D5F4C9742C968F"
+				"328DF7B9B3AB3E98"
+				"57EA74CE85C6AAB5"
+				"5D76D61558679715"
+				"54AF97D35F532AA2"
+				"270B08877B8FC5CA"
+				"659129D6B5CA686B"
+				"795BB357A65D33FC"
+				"730D45E1E023DB2E"
+				"797B635FFD32F468"
+				"31CCAA1B1CE46B6D"
+				"1EA05505D86034DD"
+				"7B6148590F0653A0"
+				"6B42111944990EC8"
+				"25A719C0955B77F5"
+				"0E913088312F491B"
+				"37DF931431B0E483"
+				"66E1AC0B4CD4D09F"
+				"7AD35658C7C711FE"
+				"2195BD00F2BB712D"
+				"2D80328FDF3E7197"
+				"5ACA2B27ECFF33B3"
+				"561A43BF695ACE6E"
+				"6EF5DD7DE6C8EC12"
+				"5EFF0FF8704C6334"
+				"7EB21CD1B1F23591"
+				"6064C7927EB4B443"
+				"1FA14358BB80E995"
+				"6FE12E5EA5BEBECB"
+				"212ABC8DF881EE55"
+				"04B82F4B1A541DBD"
+				"40653E2EB7E48BB1"
+				"3BB44FA2C996EF2B"
+				"6B0A07C51E79AAE4"
+				"012833172E70F956"
+				"3CD8A45F81D855B3"
+				"43C8C429B4B054EE"
+				"14D1EDAF037F69E9"
+				"6FE626786457C1E1"
+				"6E0FD115C6C98A3C"
+				"77AA4CF9F0474147"
+				"0079F06A0287110E"
+				"38A353D39455FED2"
+				"5592EDB73C946DB9"
+				"416438E9D9625B18"
+				"741963F0405C2998"
+				"51FEA0BAED4AA8A3"
+				"49B31B1D39715571"
+				"5494E173128AFAC9"
+				"026C0F4B3FEE5B2F"
+				"0B7325FFF17E45DE"
+				"6C45A7D819CA0E3D"
+				"5B0D65ECDCEE45BB"
+				"226FBF0347500892"
+				"6118F8C4536C37B2"
+				"7FC0039F154893DE"
+				"342E32139AD363AA"
+				"5555EEEC873ADCB1"
+				"6F40FE2DF0C27E70"
+				"34A99E733780EC81"
+				"4E28C6EAD561B202"
+				"7A7E1DFB52F6FAC3"
+				"53CFC84645FB5895"
+				"4312FE2FC0058ABD"
+				"314483529E9D5BF0"
+				"57A81364CFD02CBF"
+				"5C4E7F417156492F"
+				"283BFAFE46DD8FED"
+				"3D096CB6EFE5DF49"
+				"2D23E2F1B6525AB1"
+				"0CEF5C2B7F4F5F31"
+				"1D2983F4AFD6D4E7"
+				"188A61A0E571120F"
+				"42AFA2506F03BEC8"
+				"01D19ED9DA4C19FA"
+				"1DA9C9CFADD99AB8"
+			]
+			description: ["Toutes les structures de ce chapitre visitées. La récompense est symbolique."]
+			icon: "minecraft:filled_map"
+			id: "62D535DAF8B4005F"
+			optional: true
+			rewards: [{
+				id: "33449A39B905BF5D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3195EA5D526447FF"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Structures — jeu de base et YUNG"
+}
