@@ -1,0 +1,276 @@
+# Chapitre « L'End » — cahier des charges §4.4
+# Sources (5 octobre 2026) : index des jars (structures betterstrongholds:
+# stronghold, minecraft:end_city, betterend:end_village, mes:* ; biomes
+# betterend:* ; progrès minecraft:end/*, betterend:*), textes de
+# better-end-4.0.11 (descriptions de progrès), recettes (eternal_crystal,
+# infusion_pedestal, terminite_ingot, aeternium_ingot, respawn_obelisk,
+# end_stone_smelter, voidtotem:totem_of_void_undying, inmis:ender_pouch et
+# endless_backpack), configs du serveur (betterendisland : le dragon
+# ré-invoqué ne laisse pas d'œuf, plate-forme refaite ; voidtotem : totem
+# ajouté aux trésors des cités de l'End, totem obligatoire, pas depuis
+# l'inventaire ; mysticalagriculture : dragonDropsCognizant = true).
+# betterend-crashed-ships est un correctif de la génération des vaisseaux
+# échoués de Better End (une seule classe), pas une structure à part.
+
+[chapitre]
+titre = "&5L'End"
+fichier = "monde_end"
+groupe = "monde"
+icone = "minecraft:end_stone"
+ordre = 4
+
+[[quete]]
+cle = "oeil"
+titre = "&5Des yeux de l'Ender"
+sous_titre = "Guide dans #end sur le Discord."
+taille = 1.5
+icone = "minecraft:ender_eye"
+taches = ["item minecraft:ender_eye 12"]
+recompenses = ["item minecraft:ender_pearl 4"]
+description = """
+Perle de l'End et poudre de blaze. Douze pour le portail, quelques-uns pour chercher la forteresse. L'End du pack est celui de &dBetter End&r : vingt-huit biomes, des villages, des métaux, et les structures de &bMoog's&r.
+"""
+
+[[quete]]
+cle = "forteresse"
+titre = "La forteresse"
+deps = ["oeil"]
+taches = ["structure betterstrongholds:stronghold"]
+recompenses = ["table aventurier"]
+description = """
+Refaite par &bYUNG's Better Strongholds&r : bibliothèques, armureries, prisons, générateurs, coffres par joueur, et des golems de tuff de Friends & Foes. Le portail est au fond ; l'œil lancé pointe vers elle.
+"""
+
+[[quete]]
+cle = "entrer"
+titre = "Entrer dans l'End"
+deps = ["forteresse"]
+taille = 1.3
+taches = ["dimension minecraft:the_end"]
+recompenses = ["xp 10"]
+description = """
+L'île centrale est refaite par &bYUNG's Better End Island&r, et la plate-forme d'arrivée aussi (config du serveur). Le dragon attend.
+"""
+
+[[quete]]
+cle = "dragon"
+titre = "&5Vaincre l'Ender Dragon"
+deps = ["entrer"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["kill minecraft:ender_dragon"]
+recompenses = ["xp 30"]
+description = """
+Les cristaux d'abord, le dragon ensuite. Sa mort est annoncée dans #faits-d-armes. Tué avec une arme d'essence enchantée Illumination mystique, il lâche de la &dpoussière cognizante&r de Mystical Agriculture (config du serveur) ; sa peau sert au grimoire en peau de dragon d'Iron's Spells. Un dragon ré-invoqué avec quatre cristaux &lne laisse pas d'œuf&r sur ce serveur.
+"""
+
+[[quete]]
+cle = "cite"
+titre = "Une cité de l'End"
+deps = ["dragon"]
+taches = ["structure minecraft:end_city"]
+recompenses = ["xp 5"]
+description = """
+Par le portail de retour, puis les îles extérieures. Shulkers, coffres par joueur, et dans les trésors de ce serveur le &5Totem du vide&r.
+"""
+
+[[quete]]
+cle = "elytres"
+titre = "Des élytres"
+deps = ["cite"]
+taille = 1.3
+taches = ["advancement minecraft:end/elytra"]
+recompenses = ["xp 10"]
+description = """
+Dans le vaisseau d'une cité. &bElytra Slot&r leur donne une case à part : on vole sans retirer son plastron. Better End ajoute des élytres blindées et de cristalite.
+"""
+
+[[quete]]
+cle = "shulker"
+titre = "Des coquilles de shulker"
+deps = ["cite"]
+taches = ["item minecraft:shulker_shell 2", "item minecraft:shulker_box"]
+recompenses = ["xp 5"]
+description = """
+Deux coquilles et un coffre font une boîte de shulker. Pour un sac, Inmis propose la &5bourse de l'Ender&r (cuir et coffre de l'Ender) et, tout en haut, le &5sac sans fin&r : un sac flétri, de la pierre de l'End et une tête de dragon.
+"""
+
+[[quete]]
+cle = "totem_vide"
+titre = "Un Totem du vide"
+deps = ["cite"]
+taches = ["item voidtotem:totem_of_void_undying"]
+recompenses = ["xp 5"]
+description = """
+Un totem d'immortalité, deux yeux de l'Ender, deux fruits de chorus, du lapis. Tomber dans le vide avec le totem &len main&r te remonte sur la terre ferme (pas depuis l'inventaire, config du serveur). Il est aussi dans les trésors des cités.
+"""
+
+# ---- Better End
+[[quete]]
+cle = "be_cristal"
+titre = "Les Montagnes de cristal"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome betterend:crystal_mountains"]
+recompenses = ["xp 3"]
+description = """
+&dBetter End&r : vingt-huit biomes. Les Montagnes de cristal, avec leurs cristaux d'aurore. Le progrès du mod en demande tous.
+"""
+
+[[quete]]
+cle = "be_brume"
+titre = "Les Champignons brumeux"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome betterend:foggy_mushroomland"]
+recompenses = ["xp 3"]
+description = """
+Un biome de champignons géants dans la brume, et ses villages de l'End.
+"""
+
+[[quete]]
+cle = "be_lanternes"
+titre = "Les Bois de lanternes"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome betterend:lantern_woods"]
+recompenses = ["xp 3"]
+description = """
+Des arbres-lanternes sur un lac, de la lumière partout.
+"""
+
+[[quete]]
+cle = "be_ombre"
+titre = "La Forêt d'ombre"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome betterend:shadow_forest"]
+recompenses = ["xp 3"]
+description = """
+Sombre, et habitée par le &8Marcheur d'ombre&r. Les baies d'ombre y poussent.
+"""
+
+[[quete]]
+cle = "be_ambre"
+titre = "Les Terres d'ambre"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome betterend:amber_land"]
+recompenses = ["xp 3"]
+description = """
+Ambre, herbe d'ambre, et le minerai d'ambre.
+"""
+
+[[quete]]
+cle = "village_end"
+titre = "Un village de l'End"
+deps = ["be_brume"]
+optionnel = true
+taches = ["structure betterend:end_village"]
+recompenses = ["xp 5"]
+description = """
+Better End pose des villages dans l'End (progrès « Enter a village in the End »).
+"""
+
+[[quete]]
+cle = "fondeuse"
+titre = "Une fondeuse de pierre de l'End"
+deps = ["entrer"]
+optionnel = true
+taches = ["item betterend:end_stone_smelter"]
+recompenses = ["xp 5"]
+description = """
+Le four de Better End, qui fond ses métaux : le &bthallasium&r d'abord, depuis le thallasium brut de son minerai.
+"""
+
+[[quete]]
+cle = "thallasium"
+titre = "Un lingot de thallasium"
+deps = ["fondeuse"]
+optionnel = true
+taches = ["item betterend:thallasium_ingot"]
+recompenses = ["xp 5"]
+description = """
+Premier métal de l'End. Avec un marteau de forge, il se plie en plaques sur une enclume, puis en têtes d'outils et en pièces d'armure (progrès du mod : plaque, tête, outil, armure, enclume).
+"""
+
+[[quete]]
+cle = "terminite"
+titre = "Un lingot de terminite"
+deps = ["thallasium"]
+optionnel = true
+taches = ["item betterend:terminite_ingot"]
+recompenses = ["xp 8"]
+description = """
+Deuxième métal : la &bterminite&r, qui se fabrique (recette dans JEI). Même chaîne : plaque, têtes, outils, enclume.
+"""
+
+[[quete]]
+cle = "aeternium"
+titre = "Un lingot d'aeternium"
+deps = ["terminite"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["item betterend:aeternium_ingot"]
+recompenses = ["xp 15"]
+description = """
+Le sommet de Better End : l'&daeternium&r, au-dessus de la nétherite. Son marteau, son enclume et ses outils demandent les plaques forgées.
+"""
+
+[[quete]]
+cle = "infusion"
+titre = "Un socle d'infusion"
+deps = ["entrer"]
+optionnel = true
+taches = ["item betterend:infusion_pedestal"]
+recompenses = ["xp 5"]
+description = """
+Le &dsocle d'infusion&r, entouré de huit socles, fait les rituels d'infusion de Better End, dont le cristal éternel (progrès « Be close to an Infusion Ritual when it is finished »).
+"""
+
+[[quete]]
+cle = "portail_eternel"
+titre = "Un cristal éternel"
+deps = ["infusion"]
+optionnel = true
+taches = ["item betterend:eternal_crystal"]
+recompenses = ["xp 8"]
+description = """
+Le &dcristal éternel&r allume un &lportail éternel&r, les portails perdus que Better End dissémine entre l'Overworld et l'End (progrès « Discover a portal lost for eternity », « Light an eternal Portal », « Travel on ancient paths »). Une porte d'End sans forteresse, pour une faction qui s'y installe.
+"""
+
+[[quete]]
+cle = "obelisque"
+titre = "Un obélisque de réapparition"
+deps = ["entrer"]
+optionnel = true
+taches = ["item betterend:respawn_obelisk"]
+recompenses = ["xp 5"]
+description = """
+L'&dobélisque de réapparition&r de Better End : un point de réapparition dans l'End, où le lit explose.
+"""
+
+[[quete]]
+cle = "moogs_end"
+titre = "Les structures de Moog's End"
+deps = ["cite"]
+optionnel = true
+taches = ["structure mes:enderwatch_tower"]
+recompenses = ["xp 5"]
+description = """
+&bMoog's End Structures&r : vaisseaux géants, citadelle fantôme, tour de guet de l'Ender, jardin mythique, repaire astral, monolithe. La tour de guet valide la quête.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&5Le vide est franchi"
+deps = ["elytres", "totem_vide"]
+taille = 1.5
+icone = "minecraft:elytra"
+taches = ["checkmark Je vole"]
+recompenses = ["xp 10"]
+description = """
+Des élytres, un totem du vide, un dragon au tableau. Les mondes des mods — Aether, Blue Skies, Twilight Forest, Otherside — ont chacun leur chapitre.
+"""

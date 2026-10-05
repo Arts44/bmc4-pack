@@ -1196,6 +1196,55 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10 — après : controleur, requete, fabricateur
   > Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre Pipez relie tout ça aux machines.
 
+## L'End  (`monde_end`, 23 quêtes)
+
+- **Des yeux de l'Ender** — tâches : item minecraft:ender_eye 12 — récompense : item minecraft:ender_pearl 4
+  > Perle de l'End et poudre de blaze. Douze pour le portail, quelques-uns pour chercher la forteresse. L'End du pack est celui de Better End : vingt-huit biomes, des villages, des métaux, et les structures de Moog's.
+- **La forteresse** — tâches : structure betterstrongholds:stronghold — récompense : table aventurier — après : oeil
+  > Refaite par YUNG's Better Strongholds : bibliothèques, armureries, prisons, générateurs, coffres par joueur, et des golems de tuff de Friends Foes. Le portail est au fond ; l'œil lancé pointe vers elle.
+- **Entrer dans l'End** — tâches : dimension minecraft:the_end — récompense : xp 10 — après : forteresse
+  > L'île centrale est refaite par YUNG's Better End Island, et la plate-forme d'arrivée aussi (config du serveur). Le dragon attend.
+- **Vaincre l'Ender Dragon** — tâches : kill minecraft:ender_dragon — récompense : xp 30 — après : entrer
+  > Les cristaux d'abord, le dragon ensuite. Sa mort est annoncée dans #faits-d-armes. Tué avec une arme d'essence enchantée Illumination mystique, il lâche de la poussière cognizante de Mystical Agriculture (config du serveur) ; sa peau sert au grimoire en peau de dragon d'Iron's Spells. Un dragon ré-invoqué avec quatre cristaux ne laisse pas d'œuf sur ce serveur.
+- **Une cité de l'End** — tâches : structure minecraft:end_city — récompense : xp 5 — après : dragon
+  > Par le portail de retour, puis les îles extérieures. Shulkers, coffres par joueur, et dans les trésors de ce serveur le Totem du vide.
+- **Des élytres** — tâches : advancement minecraft:end/elytra — récompense : xp 10 — après : cite
+  > Dans le vaisseau d'une cité. Elytra Slot leur donne une case à part : on vole sans retirer son plastron. Better End ajoute des élytres blindées et de cristalite.
+- **Des coquilles de shulker** — tâches : item minecraft:shulker_shell 2, item minecraft:shulker_box — récompense : xp 5 — après : cite
+  > Deux coquilles et un coffre font une boîte de shulker. Pour un sac, Inmis propose la bourse de l'Ender (cuir et coffre de l'Ender) et, tout en haut, le sac sans fin : un sac flétri, de la pierre de l'End et une tête de dragon.
+- **Un Totem du vide** — tâches : item voidtotem:totem_of_void_undying — récompense : xp 5 — après : cite
+  > Un totem d'immortalité, deux yeux de l'Ender, deux fruits de chorus, du lapis. Tomber dans le vide avec le totem en main te remonte sur la terre ferme (pas depuis l'inventaire, config du serveur). Il est aussi dans les trésors des cités.
+- **Les Montagnes de cristal** *(optionnelle)* — tâches : biome betterend:crystal_mountains — récompense : xp 3 — après : entrer
+  > Better End : vingt-huit biomes. Les Montagnes de cristal, avec leurs cristaux d'aurore. Le progrès du mod en demande tous.
+- **Les Champignons brumeux** *(optionnelle)* — tâches : biome betterend:foggy_mushroomland — récompense : xp 3 — après : entrer
+  > Un biome de champignons géants dans la brume, et ses villages de l'End.
+- **Les Bois de lanternes** *(optionnelle)* — tâches : biome betterend:lantern_woods — récompense : xp 3 — après : entrer
+  > Des arbres-lanternes sur un lac, de la lumière partout.
+- **La Forêt d'ombre** *(optionnelle)* — tâches : biome betterend:shadow_forest — récompense : xp 3 — après : entrer
+  > Sombre, et habitée par le Marcheur d'ombre. Les baies d'ombre y poussent.
+- **Les Terres d'ambre** *(optionnelle)* — tâches : biome betterend:amber_land — récompense : xp 3 — après : entrer
+  > Ambre, herbe d'ambre, et le minerai d'ambre.
+- **Un village de l'End** *(optionnelle)* — tâches : structure betterend:end_village — récompense : xp 5 — après : be_brume
+  > Better End pose des villages dans l'End (progrès « Enter a village in the End »).
+- **Une fondeuse de pierre de l'End** *(optionnelle)* — tâches : item betterend:end_stone_smelter — récompense : xp 5 — après : entrer
+  > Le four de Better End, qui fond ses métaux : le thallasium d'abord, depuis le thallasium brut de son minerai.
+- **Un lingot de thallasium** *(optionnelle)* — tâches : item betterend:thallasium_ingot — récompense : xp 5 — après : fondeuse
+  > Premier métal de l'End. Avec un marteau de forge, il se plie en plaques sur une enclume, puis en têtes d'outils et en pièces d'armure (progrès du mod : plaque, tête, outil, armure, enclume).
+- **Un lingot de terminite** *(optionnelle)* — tâches : item betterend:terminite_ingot — récompense : xp 8 — après : thallasium
+  > Deuxième métal : la terminite, qui se fabrique (recette dans JEI). Même chaîne : plaque, têtes, outils, enclume.
+- **Un lingot d'aeternium** *(optionnelle)* — tâches : item betterend:aeternium_ingot — récompense : xp 15 — après : terminite
+  > Le sommet de Better End : l'aeternium, au-dessus de la nétherite. Son marteau, son enclume et ses outils demandent les plaques forgées.
+- **Un socle d'infusion** *(optionnelle)* — tâches : item betterend:infusion_pedestal — récompense : xp 5 — après : entrer
+  > Le socle d'infusion, entouré de huit socles, fait les rituels d'infusion de Better End, dont le cristal éternel (progrès « Be close to an Infusion Ritual when it is finished »).
+- **Un cristal éternel** *(optionnelle)* — tâches : item betterend:eternal_crystal — récompense : xp 8 — après : infusion
+  > Le cristal éternel allume un portail éternel, les portails perdus que Better End dissémine entre l'Overworld et l'End (progrès « Discover a portal lost for eternity », « Light an eternal Portal », « Travel on ancient paths »). Une porte d'End sans forteresse, pour une faction qui s'y installe.
+- **Un obélisque de réapparition** *(optionnelle)* — tâches : item betterend:respawn_obelisk — récompense : xp 5 — après : entrer
+  > L'obélisque de réapparition de Better End : un point de réapparition dans l'End, où le lit explose.
+- **Les structures de Moog's End** *(optionnelle)* — tâches : structure mes:enderwatch_tower — récompense : xp 5 — après : cite
+  > Moog's End Structures : vaisseaux géants, citadelle fantôme, tour de guet de l'Ender, jardin mythique, repaire astral, monolithe. La tour de guet valide la quête.
+- **Le vide est franchi** — tâches : checkmark Je vole — récompense : xp 10 — après : elytres, totem_vide
+  > Des élytres, un totem du vide, un dragon au tableau. Les mondes des mods — Aether, Blue Skies, Twilight Forest, Otherside — ont chacun leur chapitre.
+
 ## Le Nether  (`monde_nether`, 25 quêtes)
 
 - **Entrer dans le Nether** — tâches : dimension minecraft:the_nether — récompense : item minecraft:gold_ingot 4, item minecraft:cooked_porkchop 8

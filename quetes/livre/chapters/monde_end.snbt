@@ -1,0 +1,490 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_end"
+	group: "17185D2694D86048"
+	icon: "minecraft:end_stone"
+	id: "514E771E5A194129"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Perle de l'End et poudre de blaze. Douze pour le portail, quelques-uns pour chercher la forteresse. L'End du pack est celui de &dBetter End&r : vingt-huit biomes, des villages, des métaux, et les structures de &bMoog's&r."]
+			icon: "minecraft:ender_eye"
+			id: "76BD5657051C3288"
+			rewards: [{
+				count: 4
+				id: "1101F6B5467237EF"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #end sur le Discord."
+			tasks: [{
+				count: 12L
+				id: "489983CF0B069FAA"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&5Des yeux de l'Ender"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76BD5657051C3288"]
+			description: ["Refaite par &bYUNG's Better Strongholds&r : bibliothèques, armureries, prisons, générateurs, coffres par joueur, et des golems de tuff de Friends & Foes. Le portail est au fond ; l'œil lancé pointe vers elle."]
+			id: "1DB1A732D88B2DD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "774E95C257BA6BEF"
+				table_id: 3316722983613651948L
+				type: "random"
+			}]
+			tasks: [{
+				id: "367C62D492B1FCD1"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "La forteresse"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DB1A732D88B2DD2"]
+			description: ["L'île centrale est refaite par &bYUNG's Better End Island&r, et la plate-forme d'arrivée aussi (config du serveur). Le dragon attend."]
+			id: "059B81E40A250C72"
+			rewards: [{
+				id: "03541057687EFD39"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4CC22BFAFC758E0F"
+				type: "dimension"
+			}]
+			title: "Entrer dans l'End"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["Les cristaux d'abord, le dragon ensuite. Sa mort est annoncée dans #faits-d-armes. Tué avec une arme d'essence enchantée Illumination mystique, il lâche de la &dpoussière cognizante&r de Mystical Agriculture (config du serveur) ; sa peau sert au grimoire en peau de dragon d'Iron's Spells. Un dragon ré-invoqué avec quatre cristaux &lne laisse pas d'œuf&r sur ce serveur."]
+			icon: "minecraft:ender_dragon_spawn_egg"
+			id: "2029658849E78612"
+			rewards: [{
+				id: "405F6D0B10540BE2"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "171DD955D17F6BCF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Vaincre l'Ender Dragon"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2029658849E78612"]
+			description: ["Par le portail de retour, puis les îles extérieures. Shulkers, coffres par joueur, et dans les trésors de ce serveur le &5Totem du vide&r."]
+			id: "0E8DD8045A0B4845"
+			rewards: [{
+				id: "18BACC6DA92DF804"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0ED950A88CD45DE1"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "Une cité de l'End"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E8DD8045A0B4845"]
+			description: ["Dans le vaisseau d'une cité. &bElytra Slot&r leur donne une case à part : on vole sans retirer son plastron. Better End ajoute des élytres blindées et de cristalite."]
+			id: "18B2E6E5992D3111"
+			rewards: [{
+				id: "019B640E622001F4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "2914BB221E56CC08"
+				type: "advancement"
+			}]
+			title: "Des élytres"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E8DD8045A0B4845"]
+			description: ["Deux coquilles et un coffre font une boîte de shulker. Pour un sac, Inmis propose la &5bourse de l'Ender&r (cuir et coffre de l'Ender) et, tout en haut, le &5sac sans fin&r : un sac flétri, de la pierre de l'End et une tête de dragon."]
+			icon: "minecraft:shulker_shell"
+			id: "3591B73433758ED4"
+			rewards: [{
+				id: "2D89DDB42204B3DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "35F3BC0662D259F1"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "4016FF985FED53FF"
+					item: "minecraft:shulker_box"
+					type: "item"
+				}
+			]
+			title: "Des coquilles de shulker"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E8DD8045A0B4845"]
+			description: ["Un totem d'immortalité, deux yeux de l'Ender, deux fruits de chorus, du lapis. Tomber dans le vide avec le totem &len main&r te remonte sur la terre ferme (pas depuis l'inventaire, config du serveur). Il est aussi dans les trésors des cités."]
+			icon: "voidtotem:totem_of_void_undying"
+			id: "2C127BA0A1A79C96"
+			rewards: [{
+				id: "2468B6CD3B79AD80"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2069C431EEA029BE"
+				item: "voidtotem:totem_of_void_undying"
+				type: "item"
+			}]
+			title: "Un Totem du vide"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["&dBetter End&r : vingt-huit biomes. Les Montagnes de cristal, avec leurs cristaux d'aurore. Le progrès du mod en demande tous."]
+			id: "27B8CA17105CD9A9"
+			optional: true
+			rewards: [{
+				id: "3F2564F9F771D767"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:crystal_mountains"
+				id: "0762200510924012"
+				type: "biome"
+			}]
+			title: "Les Montagnes de cristal"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["Un biome de champignons géants dans la brume, et ses villages de l'End."]
+			id: "07A8C6AA88849AC5"
+			optional: true
+			rewards: [{
+				id: "7FE10DF70129A614"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:foggy_mushroomland"
+				id: "1F7F042185D37B48"
+				type: "biome"
+			}]
+			title: "Les Champignons brumeux"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["Des arbres-lanternes sur un lac, de la lumière partout."]
+			id: "4AC6C75E1F6A3D03"
+			optional: true
+			rewards: [{
+				id: "0FE7C16C4B25BDAA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:lantern_woods"
+				id: "367987BA164953AF"
+				type: "biome"
+			}]
+			title: "Les Bois de lanternes"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["Sombre, et habitée par le &8Marcheur d'ombre&r. Les baies d'ombre y poussent."]
+			id: "60720684CFB94983"
+			optional: true
+			rewards: [{
+				id: "68624064D2445C9B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:shadow_forest"
+				id: "6FF30321AE7473B9"
+				type: "biome"
+			}]
+			title: "La Forêt d'ombre"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["Ambre, herbe d'ambre, et le minerai d'ambre."]
+			id: "3505C76181555791"
+			optional: true
+			rewards: [{
+				id: "17B541741CE2CB9D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:amber_land"
+				id: "6F3FABCE3360B808"
+				type: "biome"
+			}]
+			title: "Les Terres d'ambre"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["07A8C6AA88849AC5"]
+			description: ["Better End pose des villages dans l'End (progrès « Enter a village in the End »)."]
+			id: "3D2E9D7D8136B5E3"
+			optional: true
+			rewards: [{
+				id: "4AE90FA13BB077C9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A5FE8B6EE995756"
+				structure: "betterend:end_village"
+				type: "structure"
+			}]
+			title: "Un village de l'End"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["Le four de Better End, qui fond ses métaux : le &bthallasium&r d'abord, depuis le thallasium brut de son minerai."]
+			icon: "betterend:end_stone_smelter"
+			id: "5C1D798396CD04EF"
+			optional: true
+			rewards: [{
+				id: "3ACEC372CF579FA3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10597E8604C149CE"
+				item: "betterend:end_stone_smelter"
+				type: "item"
+			}]
+			title: "Une fondeuse de pierre de l'End"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5C1D798396CD04EF"]
+			description: ["Premier métal de l'End. Avec un marteau de forge, il se plie en plaques sur une enclume, puis en têtes d'outils et en pièces d'armure (progrès du mod : plaque, tête, outil, armure, enclume)."]
+			icon: "betterend:thallasium_ingot"
+			id: "3945B4EB5B61FF66"
+			optional: true
+			rewards: [{
+				id: "68CD04CF31917803"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "146E49CC47E06B8D"
+				item: "betterend:thallasium_ingot"
+				type: "item"
+			}]
+			title: "Un lingot de thallasium"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3945B4EB5B61FF66"]
+			description: ["Deuxième métal : la &bterminite&r, qui se fabrique (recette dans JEI). Même chaîne : plaque, têtes, outils, enclume."]
+			icon: "betterend:terminite_ingot"
+			id: "135018B43FDC9597"
+			optional: true
+			rewards: [{
+				id: "501DE806870B4FD8"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2853F9163B7352A1"
+				item: "betterend:terminite_ingot"
+				type: "item"
+			}]
+			title: "Un lingot de terminite"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["135018B43FDC9597"]
+			description: ["Le sommet de Better End : l'&daeternium&r, au-dessus de la nétherite. Son marteau, son enclume et ses outils demandent les plaques forgées."]
+			icon: "betterend:aeternium_ingot"
+			id: "4BE595D1AD949132"
+			optional: true
+			rewards: [{
+				id: "6375FB18AB247A7A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "076A16BFFAFD5D2B"
+				item: "betterend:aeternium_ingot"
+				type: "item"
+			}]
+			title: "Un lingot d'aeternium"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["Le &dsocle d'infusion&r, entouré de huit socles, fait les rituels d'infusion de Better End, dont le cristal éternel (progrès « Be close to an Infusion Ritual when it is finished »)."]
+			icon: "betterend:infusion_pedestal"
+			id: "089D44E3AFE0A5B1"
+			optional: true
+			rewards: [{
+				id: "247637E15DDAE29E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A19DF9C9B2793A9"
+				item: "betterend:infusion_pedestal"
+				type: "item"
+			}]
+			title: "Un socle d'infusion"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["089D44E3AFE0A5B1"]
+			description: ["Le &dcristal éternel&r allume un &lportail éternel&r, les portails perdus que Better End dissémine entre l'Overworld et l'End (progrès « Discover a portal lost for eternity », « Light an eternal Portal », « Travel on ancient paths »). Une porte d'End sans forteresse, pour une faction qui s'y installe."]
+			icon: "betterend:eternal_crystal"
+			id: "29F247C7FDEE424F"
+			optional: true
+			rewards: [{
+				id: "00EFD85172BDD79B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57E462D676615131"
+				item: "betterend:eternal_crystal"
+				type: "item"
+			}]
+			title: "Un cristal éternel"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["059B81E40A250C72"]
+			description: ["L'&dobélisque de réapparition&r de Better End : un point de réapparition dans l'End, où le lit explose."]
+			icon: "betterend:respawn_obelisk"
+			id: "7310405E3CC30277"
+			optional: true
+			rewards: [{
+				id: "67F0F2592D07C835"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5BA3732BC0DE5F37"
+				item: "betterend:respawn_obelisk"
+				type: "item"
+			}]
+			title: "Un obélisque de réapparition"
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0E8DD8045A0B4845"]
+			description: ["&bMoog's End Structures&r : vaisseaux géants, citadelle fantôme, tour de guet de l'Ender, jardin mythique, repaire astral, monolithe. La tour de guet valide la quête."]
+			id: "4BC37B716C64D7BB"
+			optional: true
+			rewards: [{
+				id: "617339F82AB8B8A1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0CC9714F1E534DDC"
+				structure: "mes:enderwatch_tower"
+				type: "structure"
+			}]
+			title: "Les structures de Moog's End"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"18B2E6E5992D3111"
+				"2C127BA0A1A79C96"
+			]
+			description: ["Des élytres, un totem du vide, un dragon au tableau. Les mondes des mods — Aether, Blue Skies, Twilight Forest, Otherside — ont chacun leur chapitre."]
+			icon: "minecraft:elytra"
+			id: "1EEDCE6CFD6E3CB5"
+			rewards: [{
+				id: "1D570B9AB66247E3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "05D541E9332B5085"
+				title: "Je vole"
+				type: "checkmark"
+			}]
+			title: "&5Le vide est franchi"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "&5L'End"
+}
