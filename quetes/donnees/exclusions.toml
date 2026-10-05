@@ -21,6 +21,9 @@
 #                          sur le serveur) ;
 #   pet_cemetery:*       — ranimés avec le collier sur une ancre de
 #                          réapparition (PCEvents, progrès du mod) ;
+#   netherexp:stampede, ecto_slab, wisp — possession des statues de
+#                          gargouille par une apparition, config du serveur
+#                          (notes/bestiaire-nether-end.toml) ;
 #   alexsmobs:farseer    — décision d'Arthur du 5 octobre : gardé en défi
 #                          (bordure du monde à 30 millions de blocs).
 
@@ -43,10 +46,7 @@
 # et les classes qui les citent n'ont pas permis d'établir une voie sûre.
 # Ce n'est PAS une preuve qu'elles n'apparaissent pas : à rétablir dès
 # qu'une voie est prouvée (« un oubli est honnête, un faux positif ne l'est pas »).
-"netherexp:ecto_slab" = "VOIE NON ÉTABLIE — cité par Apparition et SwirlsBlock (Jaden's Nether Expansion), mécanisme non lu"
-"netherexp:stampede" = "VOIE NON ÉTABLIE — cité par Apparition (possession d'une statue de gargouille ?), mécanisme non lu"
 "netherexp:warphopper" = "VOIE NON ÉTABLIE — aucune référence hors du registre dans le jar"
-"netherexp:wisp" = "VOIE NON ÉTABLIE — cité par EctoSoulSandBlock et plusieurs entités, mécanisme non lu"
 "bygonenether:piglin_prisoner" = "VOIE NON ÉTABLIE — cité par NetheriteBellBlockEntity et ModFeatures, mécanisme non lu"
 "bygonenether:wither_skeleton_horse" = "VOIE NON ÉTABLIE — cité par ModFeatures seulement"
 "twilightforest:adherent" = "VOIE NON ÉTABLIE — aucune référence hors des générateurs de noms, de langue et de butin (château final inachevé ?)"

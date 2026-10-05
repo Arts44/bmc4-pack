@@ -364,6 +364,17 @@ Un plat de &bDelightful&r.
 """
 
 [[quete]]
+cle = "delightful_raw_goat"
+titre = "Goûter : « Raw Chevon »"
+optionnel = true
+icone = "delightful:raw_goat"
+taches = ["item delightful:raw_goat"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
 cle = "delightful_roasted_acorn"
 titre = "Goûter : « Roasted Acorn »"
 optionnel = true
@@ -1277,6 +1288,28 @@ Un plat de &bMy Nether's Delight&r.
 """
 
 [[quete]]
+cle = "mynethersdelight_strider_slice"
+titre = "Goûter : « Strider Slice »"
+optionnel = true
+icone = "mynethersdelight:strider_slice"
+taches = ["item mynethersdelight:strider_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bMy Nether's Delight&r.
+"""
+
+[[quete]]
+cle = "oceansdelight_tentacles"
+titre = "Goûter : « Tentacles »"
+optionnel = true
+icone = "oceansdelight:tentacles"
+taches = ["item oceansdelight:tentacles"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bOcean's Delight&r.
+"""
+
+[[quete]]
 cle = "twilightdelight_aurora_cake_slice"
 titre = "Goûter : « Aurora Cake Slice »"
 optionnel = true
@@ -1549,7 +1582,7 @@ icone = "farmersdelight:beef_stew"
 forme = "gear"
 taches = ["checkmark Chapitre complet"]
 recompenses = ["xp 20"]
-deps = ["crabbersdelight_cooked_crab", "crabbersdelight_cooked_pufferfish_slice", "crabbersdelight_cooked_tropical_fish", "crabbersdelight_cooked_tropical_fish_slice", "crabbersdelight_crab", "crabbersdelight_crab_legs", "crabbersdelight_pufferfish_slice", "crabbersdelight_tropical_fish_slice", "delightful_azalea_tea", "delightful_baklava_slice", "delightful_berry_matcha_latte", "delightful_cactus_chili", "delightful_cactus_soup", "delightful_cantaloupe_bread", "delightful_cantaloupe_popsicle", "delightful_cheeseburger", "delightful_coconut_curry", "delightful_cooked_goat", "delightful_cooked_marshmallow_stick", "delightful_cooked_venison_chops", "delightful_crab_rangoon", "delightful_deluxe_cheeseburger", "delightful_ender_nectar", "delightful_field_salad", "delightful_glow_jam_cookie", "delightful_honey_glazed_walnut", "delightful_lavender_tea", "delightful_marshmallow_stick", "delightful_matcha_latte", "delightful_nut_butter_and_jam_sandwich", "delightful_prickly_pear_juice", "delightful_roasted_acorn", "delightful_rock_candy", "delightful_salmonberry_pie_slice", "delightful_sinigang", "delightful_smore", "delightful_source_berry_cookie", "delightful_stuffed_cantaloupe_block", "delightful_venison_stew", "delightful_wrapped_cantaloupe", "farmersdelight_apple_cider", "farmersdelight_apple_pie", "farmersdelight_apple_pie_slice", "farmersdelight_bacon", "farmersdelight_bacon_and_eggs", "farmersdelight_bacon_sandwich", "farmersdelight_baked_cod_stew", "farmersdelight_barbecue_stick", "farmersdelight_beef_patty", "farmersdelight_beef_stew", "farmersdelight_bone_broth", "farmersdelight_cabbage_rolls", "farmersdelight_cake_slice", "farmersdelight_chicken_cuts", "farmersdelight_chicken_sandwich", "farmersdelight_chicken_soup", "farmersdelight_chocolate_pie", "farmersdelight_chocolate_pie_slice", "farmersdelight_cod_roll", "farmersdelight_cod_slice", "farmersdelight_cooked_bacon", "farmersdelight_cooked_chicken_cuts", "farmersdelight_cooked_cod_slice", "farmersdelight_cooked_mutton_chops", "farmersdelight_cooked_rice", "farmersdelight_cooked_salmon_slice", "farmersdelight_dumplings", "farmersdelight_egg_sandwich", "farmersdelight_fish_stew", "farmersdelight_fried_rice", "farmersdelight_fruit_salad", "farmersdelight_gleaming_salad_block", "farmersdelight_glow_berry_custard", "farmersdelight_grilled_salmon", "farmersdelight_hamburger", "farmersdelight_honey_cookie", "farmersdelight_honey_glazed_ham_block", "farmersdelight_hot_cocoa", "farmersdelight_kelp_roll", "farmersdelight_kelp_roll_slice", "farmersdelight_melon_juice", "farmersdelight_melon_popsicle", "farmersdelight_milk_bottle", "farmersdelight_minced_beef", "farmersdelight_mixed_salad", "farmersdelight_mushroom_rice", "farmersdelight_mutton_chops", "farmersdelight_mutton_wrap", "farmersdelight_noodle_soup", "farmersdelight_onion_soup", "farmersdelight_pasta_with_meatballs", "farmersdelight_pasta_with_mutton_chop", "farmersdelight_pumpkin_pie_slice", "farmersdelight_pumpkin_soup", "farmersdelight_ratatouille", "farmersdelight_rice_roll_medley_block", "farmersdelight_roast_chicken_block", "farmersdelight_roasted_mutton_chops", "farmersdelight_salmon_roll", "farmersdelight_salmon_slice", "farmersdelight_shepherds_pie_block", "farmersdelight_squid_ink_pasta", "farmersdelight_steak_and_potatoes", "farmersdelight_stuffed_potato", "farmersdelight_stuffed_pumpkin_block", "farmersdelight_sweet_berry_cheesecake", "farmersdelight_sweet_berry_cheesecake_slice", "farmersdelight_sweet_berry_cookie", "farmersdelight_vegetable_noodles", "farmersdelight_vegetable_soup", "mynethersdelight_cooked_loin", "mynethersdelight_hoglin_loin", "mynethersdelight_hoglin_sausage", "mynethersdelight_roasted_sausage", "twilightdelight_aurora_cake_slice", "twilightdelight_aurora_ice_cream", "twilightdelight_aurora_milkshake", "twilightdelight_aurora_pie", "twilightdelight_aurora_pie_slice", "twilightdelight_chocolate_wafer", "twilightdelight_cooked_venison_rib", "twilightdelight_glacier_cake_slice", "twilightdelight_glacier_ice_cream", "twilightdelight_glacier_milkshake", "twilightdelight_naga_chip", "twilightdelight_phytochemical_cake_slice", "twilightdelight_phytochemical_ice_cream", "twilightdelight_phytochemical_milkshake", "twilightdelight_rainbow_ice_cream", "twilightdelight_raw_venison_rib", "twilightdelight_refreshing_ice_cream", "twilightdelight_torchberry_cake_slice", "twilightdelight_torchberry_cookie", "twilightdelight_torchberry_ice_cream", "twilightdelight_torchberry_milkshake", "twilightdelight_torchberry_pie", "twilightdelight_torchberry_pie_slice", "twilightdelight_twilight_ice_cream"]
+deps = ["crabbersdelight_cooked_crab", "crabbersdelight_cooked_pufferfish_slice", "crabbersdelight_cooked_tropical_fish", "crabbersdelight_cooked_tropical_fish_slice", "crabbersdelight_crab", "crabbersdelight_crab_legs", "crabbersdelight_pufferfish_slice", "crabbersdelight_tropical_fish_slice", "delightful_azalea_tea", "delightful_baklava_slice", "delightful_berry_matcha_latte", "delightful_cactus_chili", "delightful_cactus_soup", "delightful_cantaloupe_bread", "delightful_cantaloupe_popsicle", "delightful_cheeseburger", "delightful_coconut_curry", "delightful_cooked_goat", "delightful_cooked_marshmallow_stick", "delightful_cooked_venison_chops", "delightful_crab_rangoon", "delightful_deluxe_cheeseburger", "delightful_ender_nectar", "delightful_field_salad", "delightful_glow_jam_cookie", "delightful_honey_glazed_walnut", "delightful_lavender_tea", "delightful_marshmallow_stick", "delightful_matcha_latte", "delightful_nut_butter_and_jam_sandwich", "delightful_prickly_pear_juice", "delightful_raw_goat", "delightful_roasted_acorn", "delightful_rock_candy", "delightful_salmonberry_pie_slice", "delightful_sinigang", "delightful_smore", "delightful_source_berry_cookie", "delightful_stuffed_cantaloupe_block", "delightful_venison_stew", "delightful_wrapped_cantaloupe", "farmersdelight_apple_cider", "farmersdelight_apple_pie", "farmersdelight_apple_pie_slice", "farmersdelight_bacon", "farmersdelight_bacon_and_eggs", "farmersdelight_bacon_sandwich", "farmersdelight_baked_cod_stew", "farmersdelight_barbecue_stick", "farmersdelight_beef_patty", "farmersdelight_beef_stew", "farmersdelight_bone_broth", "farmersdelight_cabbage_rolls", "farmersdelight_cake_slice", "farmersdelight_chicken_cuts", "farmersdelight_chicken_sandwich", "farmersdelight_chicken_soup", "farmersdelight_chocolate_pie", "farmersdelight_chocolate_pie_slice", "farmersdelight_cod_roll", "farmersdelight_cod_slice", "farmersdelight_cooked_bacon", "farmersdelight_cooked_chicken_cuts", "farmersdelight_cooked_cod_slice", "farmersdelight_cooked_mutton_chops", "farmersdelight_cooked_rice", "farmersdelight_cooked_salmon_slice", "farmersdelight_dumplings", "farmersdelight_egg_sandwich", "farmersdelight_fish_stew", "farmersdelight_fried_rice", "farmersdelight_fruit_salad", "farmersdelight_gleaming_salad_block", "farmersdelight_glow_berry_custard", "farmersdelight_grilled_salmon", "farmersdelight_hamburger", "farmersdelight_honey_cookie", "farmersdelight_honey_glazed_ham_block", "farmersdelight_hot_cocoa", "farmersdelight_kelp_roll", "farmersdelight_kelp_roll_slice", "farmersdelight_melon_juice", "farmersdelight_melon_popsicle", "farmersdelight_milk_bottle", "farmersdelight_minced_beef", "farmersdelight_mixed_salad", "farmersdelight_mushroom_rice", "farmersdelight_mutton_chops", "farmersdelight_mutton_wrap", "farmersdelight_noodle_soup", "farmersdelight_onion_soup", "farmersdelight_pasta_with_meatballs", "farmersdelight_pasta_with_mutton_chop", "farmersdelight_pumpkin_pie_slice", "farmersdelight_pumpkin_soup", "farmersdelight_ratatouille", "farmersdelight_rice_roll_medley_block", "farmersdelight_roast_chicken_block", "farmersdelight_roasted_mutton_chops", "farmersdelight_salmon_roll", "farmersdelight_salmon_slice", "farmersdelight_shepherds_pie_block", "farmersdelight_squid_ink_pasta", "farmersdelight_steak_and_potatoes", "farmersdelight_stuffed_potato", "farmersdelight_stuffed_pumpkin_block", "farmersdelight_sweet_berry_cheesecake", "farmersdelight_sweet_berry_cheesecake_slice", "farmersdelight_sweet_berry_cookie", "farmersdelight_vegetable_noodles", "farmersdelight_vegetable_soup", "mynethersdelight_cooked_loin", "mynethersdelight_hoglin_loin", "mynethersdelight_hoglin_sausage", "mynethersdelight_roasted_sausage", "mynethersdelight_strider_slice", "oceansdelight_tentacles", "twilightdelight_aurora_cake_slice", "twilightdelight_aurora_ice_cream", "twilightdelight_aurora_milkshake", "twilightdelight_aurora_pie", "twilightdelight_aurora_pie_slice", "twilightdelight_chocolate_wafer", "twilightdelight_cooked_venison_rib", "twilightdelight_glacier_cake_slice", "twilightdelight_glacier_ice_cream", "twilightdelight_glacier_milkshake", "twilightdelight_naga_chip", "twilightdelight_phytochemical_cake_slice", "twilightdelight_phytochemical_ice_cream", "twilightdelight_phytochemical_milkshake", "twilightdelight_rainbow_ice_cream", "twilightdelight_raw_venison_rib", "twilightdelight_refreshing_ice_cream", "twilightdelight_torchberry_cake_slice", "twilightdelight_torchberry_cookie", "twilightdelight_torchberry_ice_cream", "twilightdelight_torchberry_milkshake", "twilightdelight_torchberry_pie", "twilightdelight_torchberry_pie_slice", "twilightdelight_twilight_ice_cream"]
 description = """
 Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 """

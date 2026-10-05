@@ -611,6 +611,30 @@ Créature de &bJaden's Nether Expansion&r. Apparaît : dans des structures de J
 """
 
 [[quete]]
+cle = "netherexp_ecto_slab"
+titre = "Rencontre : « Ecto Slab »"
+sous_titre = "« Ecto Slab » — netherexp"
+optionnel = true
+icone = "netherexp:ecto_slab_spawn_egg"
+taches = ["observation entity netherexp:ecto_slab"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bJaden's Nether Expansion&r. Apparaît : d'un tourbillon d'âmes traversé sous Vitesse débridée, ou quand une apparition possède une statue « Phase ».
+"""
+
+[[quete]]
+cle = "netherexp_stampede"
+titre = "Rencontre : « Stampede »"
+sous_titre = "« Stampede » — netherexp"
+optionnel = true
+icone = "netherexp:stampede_spawn_egg"
+taches = ["observation entity netherexp:stampede"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bJaden's Nether Expansion&r. Apparaît : quand une apparition possède une statue de gargouille « Trample ».
+"""
+
+[[quete]]
 cle = "netherexp_vessel"
 titre = "Rencontre : « Vessel »"
 sous_titre = "« Vessel » — netherexp"
@@ -620,6 +644,18 @@ taches = ["observation entity netherexp:vessel"]
 recompenses = ["xp 1"]
 description = """
 Créature de &bJaden's Nether Expansion&r. Monde : Nether. Biomes : « Black Ice Glaciers », Vallée des âmes. Butin : Os.
+"""
+
+[[quete]]
+cle = "netherexp_wisp"
+titre = "Rencontre : « Wisp »"
+sous_titre = "« Wisp » — netherexp"
+optionnel = true
+icone = "netherexp:wisp_spawn_egg"
+taches = ["observation entity netherexp:wisp"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bJaden's Nether Expansion&r. Apparaît : du sable des âmes ectoplasmique de la vallée des âmes.
 """
 
 [[quete]]
@@ -667,7 +703,7 @@ icone = "minecraft:dragon_head"
 forme = "gear"
 taches = ["checkmark Chapitre complet"]
 recompenses = ["xp 20"]
-deps = ["alexsmobs_bone_serpent", "alexsmobs_cosmaw", "alexsmobs_cosmic_cod", "alexsmobs_crimson_mosquito", "alexsmobs_endergrade", "alexsmobs_enderiophage", "alexsmobs_laviathan", "alexsmobs_mimicube", "alexsmobs_soul_vulture", "alexsmobs_straddler", "alexsmobs_stradpole", "alexsmobs_warped_mosco", "alexsmobs_warped_toad", "betterend_cubozoa", "betterend_dragonfly", "betterend_end_fish", "betterend_end_slime", "betterend_shadow_walker", "betterend_silk_moth", "betternether_firefly", "betternether_flying_pig", "betternether_hydrogen_jellyfish", "betternether_jungle_skeleton", "betternether_naga", "betternether_skull", "bygonenether_corpor", "bygonenether_piglin_hunter", "bygonenether_warped_enderman", "bygonenether_wex", "bygonenether_wither_skeleton_knight", "bygonenether_wraither", "friendsandfoes_wildfire", "goblintraders_vein_goblin_trader", "minecraft_blaze", "minecraft_endermite", "minecraft_ghast", "minecraft_happy_ghast", "minecraft_hoglin", "minecraft_magma_cube", "minecraft_piglin", "minecraft_piglin_brute", "minecraft_shulker", "minecraft_strider", "minecraft_wither_skeleton", "minecraft_zoglin", "minecraft_zombified_piglin", "netherexp_apparition", "netherexp_banshee", "netherexp_carcass", "netherexp_vessel", "quark_foxhound", "quark_wraith", "soulfulnether_bone_wyrm"]
+deps = ["alexsmobs_bone_serpent", "alexsmobs_cosmaw", "alexsmobs_cosmic_cod", "alexsmobs_crimson_mosquito", "alexsmobs_endergrade", "alexsmobs_enderiophage", "alexsmobs_laviathan", "alexsmobs_mimicube", "alexsmobs_soul_vulture", "alexsmobs_straddler", "alexsmobs_stradpole", "alexsmobs_warped_mosco", "alexsmobs_warped_toad", "betterend_cubozoa", "betterend_dragonfly", "betterend_end_fish", "betterend_end_slime", "betterend_shadow_walker", "betterend_silk_moth", "betternether_firefly", "betternether_flying_pig", "betternether_hydrogen_jellyfish", "betternether_jungle_skeleton", "betternether_naga", "betternether_skull", "bygonenether_corpor", "bygonenether_piglin_hunter", "bygonenether_warped_enderman", "bygonenether_wex", "bygonenether_wither_skeleton_knight", "bygonenether_wraither", "friendsandfoes_wildfire", "goblintraders_vein_goblin_trader", "minecraft_blaze", "minecraft_endermite", "minecraft_ghast", "minecraft_happy_ghast", "minecraft_hoglin", "minecraft_magma_cube", "minecraft_piglin", "minecraft_piglin_brute", "minecraft_shulker", "minecraft_strider", "minecraft_wither_skeleton", "minecraft_zoglin", "minecraft_zombified_piglin", "netherexp_apparition", "netherexp_banshee", "netherexp_carcass", "netherexp_ecto_slab", "netherexp_stampede", "netherexp_vessel", "netherexp_wisp", "quark_foxhound", "quark_wraith", "soulfulnether_bone_wyrm"]
 description = """
 Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
 """

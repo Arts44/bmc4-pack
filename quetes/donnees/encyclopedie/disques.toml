@@ -87,6 +87,17 @@ Objet de &bAether&r.
 """
 
 [[quete]]
+cle = "aether_redux_ancient_sentrite_music_disc"
+titre = "Trouver : « Ancient Sentrite Music Disc »"
+optionnel = true
+icone = "aether_redux:ancient_sentrite_music_disc"
+taches = ["item aether_redux:ancient_sentrite_music_disc"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether Redux&r.
+"""
+
+[[quete]]
 cle = "alexsmobs_music_disc_thime"
 titre = "Trouver : Disque de musique"
 optionnel = true
@@ -656,7 +667,7 @@ icone = "minecraft:music_disc_pigstep"
 forme = "gear"
 taches = ["checkmark Chapitre complet"]
 recompenses = ["xp 20"]
-deps = ["aether_music_disc_aether_tune", "aether_music_disc_ascending_dawn", "aether_music_disc_chinchilla", "aether_music_disc_high", "aether_music_disc_klepto", "aether_music_disc_sliders_wrath", "alexsmobs_music_disc_thime", "betterend_music_disc_endseeker", "betterend_music_disc_eo_dracona", "betterend_music_disc_grasping_at_stars", "betterend_music_disc_strange_and_alien", "biomesoplenty_music_disc_wanderer", "bygonenether_wither_waltz_music_disc", "cataclysm_music_disc_ancient_remnant", "cataclysm_music_disc_ender_guardian", "cataclysm_music_disc_ignis", "cataclysm_music_disc_maledictus", "cataclysm_music_disc_netherite_monstrosity", "cataclysm_music_disc_scylla", "cataclysm_music_disc_the_harbinger", "cataclysm_music_disc_the_leviathan", "deep_aether_music_disc_a_morning_wish", "deep_aether_music_disc_cyclone", "deep_aether_music_disc_nabooru", "irons_spellbooks_music_disc_dead_king_lullaby", "irons_spellbooks_music_disc_flame_still_burns", "lost_aether_content_music_disc_legacy", "lost_aether_content_music_disc_sovereign_of_the_skies", "minecraft_music_disc_11", "minecraft_music_disc_13", "minecraft_music_disc_5", "minecraft_music_disc_blocks", "minecraft_music_disc_cat", "minecraft_music_disc_chirp", "minecraft_music_disc_far", "minecraft_music_disc_mall", "minecraft_music_disc_mellohi", "minecraft_music_disc_otherside", "minecraft_music_disc_pigstep", "minecraft_music_disc_relic", "minecraft_music_disc_stal", "minecraft_music_disc_strad", "minecraft_music_disc_wait", "minecraft_music_disc_ward", "mowziesmobs_music_disc_petiole", "netherexp_music_disc_buckshot_wonderland", "supplementaries_pancake", "takesapillage_bastille_blues_music_disc", "twilightforest_music_disc_findings", "twilightforest_music_disc_home", "twilightforest_music_disc_maker", "twilightforest_music_disc_motion", "twilightforest_music_disc_radiance", "twilightforest_music_disc_steps", "twilightforest_music_disc_superstitious", "twilightforest_music_disc_thread", "twilightforest_music_disc_wayfarer"]
+deps = ["aether_music_disc_aether_tune", "aether_music_disc_ascending_dawn", "aether_music_disc_chinchilla", "aether_music_disc_high", "aether_music_disc_klepto", "aether_music_disc_sliders_wrath", "aether_redux_ancient_sentrite_music_disc", "alexsmobs_music_disc_thime", "betterend_music_disc_endseeker", "betterend_music_disc_eo_dracona", "betterend_music_disc_grasping_at_stars", "betterend_music_disc_strange_and_alien", "biomesoplenty_music_disc_wanderer", "bygonenether_wither_waltz_music_disc", "cataclysm_music_disc_ancient_remnant", "cataclysm_music_disc_ender_guardian", "cataclysm_music_disc_ignis", "cataclysm_music_disc_maledictus", "cataclysm_music_disc_netherite_monstrosity", "cataclysm_music_disc_scylla", "cataclysm_music_disc_the_harbinger", "cataclysm_music_disc_the_leviathan", "deep_aether_music_disc_a_morning_wish", "deep_aether_music_disc_cyclone", "deep_aether_music_disc_nabooru", "irons_spellbooks_music_disc_dead_king_lullaby", "irons_spellbooks_music_disc_flame_still_burns", "lost_aether_content_music_disc_legacy", "lost_aether_content_music_disc_sovereign_of_the_skies", "minecraft_music_disc_11", "minecraft_music_disc_13", "minecraft_music_disc_5", "minecraft_music_disc_blocks", "minecraft_music_disc_cat", "minecraft_music_disc_chirp", "minecraft_music_disc_far", "minecraft_music_disc_mall", "minecraft_music_disc_mellohi", "minecraft_music_disc_otherside", "minecraft_music_disc_pigstep", "minecraft_music_disc_relic", "minecraft_music_disc_stal", "minecraft_music_disc_strad", "minecraft_music_disc_wait", "minecraft_music_disc_ward", "mowziesmobs_music_disc_petiole", "netherexp_music_disc_buckshot_wonderland", "supplementaries_pancake", "takesapillage_bastille_blues_music_disc", "twilightforest_music_disc_findings", "twilightforest_music_disc_home", "twilightforest_music_disc_maker", "twilightforest_music_disc_motion", "twilightforest_music_disc_radiance", "twilightforest_music_disc_steps", "twilightforest_music_disc_superstitious", "twilightforest_music_disc_thread", "twilightforest_music_disc_wayfarer"]
 description = """
 Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 """

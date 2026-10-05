@@ -38,3 +38,18 @@ apparition = "d'un bloc de ghast desséché remis dans l'eau (Vanilla Backport)"
 # (EndCityPieces) ; Moog's End Structures en ajoute par spawn_overrides.
 [note."minecraft:shulker"]
 apparition = "dans les cités de l'End, et dans des structures de Moog's End Structures"
+
+# Jaden's Nether Expansion 2.3.5, rétablis le 5 octobre (exclus auparavant,
+# « voie non établie ») : Apparition$PossessGargoyleStatueGoal (javap) —
+# une apparition (biome_modifier soul_sand_valley/apparition) possède une
+# statue de gargouille non salée : trample → stampede, phase → ecto slab,
+# ghoul → banshee, ossified → vessel. netherexp-common.toml du serveur :
+# wisp_emerging_chance = 50 (feux follets sortant du sable des âmes
+# ectoplasmique, généré par soul_sand_valley/ecto_soul_sand) ;
+# ecto_slab_emerging_behavior = UNBOUNDED_SPEED_ONLY, 1 chance sur 5.
+[note."netherexp:stampede"]
+apparition = "quand une apparition possède une statue de gargouille « Trample »"
+[note."netherexp:ecto_slab"]
+apparition = "d'un tourbillon d'âmes traversé sous Vitesse débridée, ou quand une apparition possède une statue « Phase »"
+[note."netherexp:wisp"]
+apparition = "du sable des âmes ectoplasmique de la vallée des âmes"
