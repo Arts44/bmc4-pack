@@ -1,0 +1,298 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bases_peche"
+	group: "00400F52F527AA36"
+	icon: "minecraft:fishing_rod"
+	id: "2949EED742AC41BC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["La canne, les trésors qui mordent, les bêtes de l'eau, et deux mods de cuisine marine. Sous la pluie, ça mord plus vite."]
+			icon: "minecraft:cod"
+			id: "6BEF8DEDDF7A9C1C"
+			rewards: [{
+				id: "6F22A4D417198A0D"
+				item: "minecraft:fishing_rod"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1FDF16CCE195E4B6"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bAu bord de l'eau"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BEF8DEDDF7A9C1C"]
+			description: ["Attraper un poisson à la canne (progrès vanilla). Morue, saumon, poisson tropical, poisson-globe."]
+			id: "5ACBCF8954C614A1"
+			rewards: [{
+				id: "75DD9CFBAA0BA45E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				id: "2E398CABAD6D07D3"
+				type: "advancement"
+			}]
+			title: "Premier poisson"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ACBCF8954C614A1"]
+			description: ["Le poisson-globe empoisonne cru ; il sert à la potion de respiration aquatique."]
+			icon: "minecraft:cod"
+			id: "391A43A18F9C0F23"
+			rewards: [{
+				id: "2F53D494228FB7AF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "62EECFC2331DFE5F"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "634BB9C9397FC0F8"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					id: "54A5CB935FCE54D0"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "727F311424004516"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			title: "Les quatre poissons"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ACBCF8954C614A1"]
+			description: ["Les trésors de la canne : livres enchantés, selles, arcs, étiquettes, et la &lcoquille de nautile&r. Les enchantements Chance de la mer et Appât changent les probabilités."]
+			icon: "minecraft:nautilus_shell"
+			id: "3E6680EF7591A278"
+			optional: true
+			rewards: [{
+				id: "146975AA77CBC42D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B5F9CB5A6B11F52"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
+			title: "Un trésor de pêche"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ACBCF8954C614A1"]
+			description: ["Un poisson vivant dans un seau (progrès vanilla)."]
+			id: "6C2F6A5137AE7D97"
+			optional: true
+			rewards: [{
+				id: "068D9A3FFCB61A12"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/tactical_fishing"
+				criterion: ""
+				id: "7EE95C96FCDAC87F"
+				type: "advancement"
+			}]
+			title: "Pêche tactique"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C2F6A5137AE7D97"]
+			description: ["Dans les grottes luxuriantes. En seau, il te suit ; au combat, il te soigne quand il gagne (progrès « The Healing Power of Friendship »)."]
+			id: "1FEF789CDD0A7852"
+			optional: true
+			rewards: [{
+				id: "796015D8DC2D5F3D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/axolotl_in_a_bucket"
+				criterion: ""
+				id: "09912BE7FB378FEC"
+				type: "advancement"
+			}]
+			title: "Un axolotl"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BEF8DEDDF7A9C1C"]
+			description: ["Les œufs éclosent sur leur plage natale ; le bébé perd une écaille en grandissant. Cinq écailles font le casque de tortue."]
+			icon: "minecraft:scute"
+			id: "5A03BB499A8F3901"
+			optional: true
+			rewards: [{
+				id: "5067CCB5ADA885AC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 5L
+				id: "6C79E17AB736463A"
+				item: "minecraft:scute"
+				type: "item"
+			}]
+			title: "Les tortues"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BEF8DEDDF7A9C1C"]
+			description: ["Nager près d'eux donne leur grâce ; nourris de poisson, ils mènent au trésor le plus proche."]
+			id: "313FAE9F8F83DC44"
+			optional: true
+			rewards: [{
+				id: "5D6AB86A562A946E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54503D30461170D8"
+				title: "Grâce du dauphin reçue"
+				type: "checkmark"
+			}]
+			title: "Les dauphins"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6BEF8DEDDF7A9C1C"]
+			description: ["Gardiens, trois gardiens anciens, éponges et prismarine. YUNG's Better Ocean Monuments le remanie."]
+			id: "3D14F006F84856E2"
+			optional: true
+			rewards: [{
+				id: "6F7A45F2728CCF95"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48E384AF0B7D0B4F"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			title: "Le monument sous-marin"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3D14F006F84856E2"
+				"3E6680EF7591A278"
+			]
+			description: ["Un cœur de la mer et huit coquilles de nautile. Entouré de prismarine, il donne respiration, vision et vitesse de minage sous l'eau, et attaque les hostiles."]
+			icon: "minecraft:conduit"
+			id: "13FC2146D3DBA6D3"
+			optional: true
+			rewards: [{
+				id: "6D4A371DB5661098"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "34C8D2953AC1144D"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Un conduit"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6BEF8DEDDF7A9C1C"]
+			description: ["&bCrabber's Delight&r : corde, dalles, bâtons (progrès du mod). Posé dans l'eau, il attrape crabes, crevettes, palourdes. Une palourde sur la planche à découper peut donner une &lperle&r (progrès du mod)."]
+			icon: "crabbersdelight:crab_trap"
+			id: "488DCF3A3FDA4878"
+			optional: true
+			rewards: [{
+				id: "5FC8573A2106704A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "487614AFE4AF3DD9"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			title: "Un casier à crabes"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D14F006F84856E2"]
+			description: ["&bOcean's Delight&r cuisine les gardiens, les tentacules et les concombres de mer. Le détail au chapitre &7Cuisine&r."]
+			icon: "oceansdelight:guardian_soup"
+			id: "175EED81A334D96A"
+			optional: true
+			rewards: [{
+				id: "5FCC5D3CF3BA1C3B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E462F5A92A2E7C0"
+				item: "oceansdelight:guardian_soup"
+				type: "item"
+			}]
+			title: "Une soupe de gardien"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["391A43A18F9C0F23"]
+			icon: "minecraft:heart_of_the_sea"
+			id: "59DE0D282C265865"
+			rewards: [{
+				id: "25BA43593AAE50C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "5EF88DEB942F1249"
+				title: "Marin"
+				type: "checkmark"
+			}]
+			title: "&bMarin"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&bPêche et océan"
+}
