@@ -1,0 +1,673 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer : notes/bestiaire-nether-end.toml pour les textes.
+
+[chapitre]
+titre = "&7Bestiaire — Nether et End"
+fichier = "enc_bestiaire_nether_end"
+groupe = "encyclopedie"
+icone = "minecraft:wither_skeleton_skull"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&7Bestiaire — Nether et End"
+taille = 1.5
+icone = "minecraft:wither_skeleton_skull"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Les créatures du Nether et de l'End : le jeu de base, Better Nether, Bygone Nether, Soulful Nether, Jaden's Nether Expansion, Better End, et celles des mods de faune qui y vivent. Une quête se valide en &lregardant&r la créature.
+
+Chaque fiche dit ce que les données du pack disent : biomes, structure ou voie qui la fait apparaître, butin. Les boss sont comptés au défi &cChasseur de boss&r, pas ici.
+"""
+
+[[quete]]
+cle = "alexsmobs_bone_serpent"
+titre = "Rencontre : Serpent d'os"
+sous_titre = "Serpent d'os — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_bone_serpent"
+taches = ["observation entity alexsmobs:bone_serpent"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Monde : Nether. Apparition (config du serveur) : tout le Nether. Butin : Dent de serpent d'os, Os, Bloc d'os.
+"""
+
+[[quete]]
+cle = "alexsmobs_cosmaw"
+titre = "Rencontre : Cosmaw"
+sous_titre = "Cosmaw — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_cosmaw"
+taches = ["observation entity alexsmobs:cosmaw"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End, Petites îles de l'End). Butin : Chorus.
+"""
+
+[[quete]]
+cle = "alexsmobs_cosmic_cod"
+titre = "Rencontre : Morue cosmique"
+sous_titre = "Morue cosmique — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_cosmic_cod"
+taches = ["observation entity alexsmobs:cosmic_cod"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End. Butin : Morue cosmique, Poudre d'os.
+"""
+
+[[quete]]
+cle = "alexsmobs_crimson_mosquito"
+titre = "Rencontre : Moustique cramoisi"
+sous_titre = "Moustique cramoisi — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_crimson_mosquito"
+taches = ["observation entity alexsmobs:crimson_mosquito"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Forêt carmin ; Tas de viscères. Butin : Proboscis de moustique cramoisi.
+"""
+
+[[quete]]
+cle = "alexsmobs_endergrade"
+titre = "Rencontre : Endergrade"
+sous_titre = "Endergrade — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_endergrade"
+taches = ["observation entity alexsmobs:endergrade"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End).
+"""
+
+[[quete]]
+cle = "alexsmobs_enderiophage"
+titre = "Rencontre : Enderiophage"
+sous_titre = "Enderiophage — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_enderiophage"
+taches = ["observation entity alexsmobs:enderiophage"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End, Terres stériles de l'End, Hautes terres de l'End, Petites îles de l'End). Butin : Capside.
+"""
+
+[[quete]]
+cle = "alexsmobs_laviathan"
+titre = "Rencontre : Laviethan"
+sous_titre = "Laviethan — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_laviathan"
+taches = ["observation entity alexsmobs:laviathan"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Monde : Nether. Apparition (config du serveur) : tout le Nether. Butin : Bloc de magma, Roche noire.
+"""
+
+[[quete]]
+cle = "alexsmobs_mimicube"
+titre = "Rencontre : Imicube"
+sous_titre = "Imicube — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_mimicube"
+taches = ["observation entity alexsmobs:mimicube"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End). Butin : Imicrème.
+"""
+
+[[quete]]
+cle = "alexsmobs_soul_vulture"
+titre = "Rencontre : Vautour des âmes"
+sous_titre = "Vautour des âmes — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_soul_vulture"
+taches = ["observation entity alexsmobs:soul_vulture"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Vallée des âmes. Butin : Os, Charbon.
+"""
+
+[[quete]]
+cle = "alexsmobs_straddler"
+titre = "Rencontre : Straddler"
+sous_titre = "Straddler — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_straddler"
+taches = ["observation entity alexsmobs:straddler"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Deltas de basalte ; Abîme flétri. Butin : Straddlite, Basalte.
+"""
+
+[[quete]]
+cle = "alexsmobs_stradpole"
+titre = "Rencontre : Stradpole"
+sous_titre = "Stradpole — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_stradpole"
+taches = ["observation entity alexsmobs:stradpole"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Deltas de basalte ; Abîme flétri.
+"""
+
+[[quete]]
+cle = "alexsmobs_warped_mosco"
+titre = "Rencontre : Mosco biscornu"
+sous_titre = "Mosco biscornu — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_warped_mosco"
+taches = ["observation entity alexsmobs:warped_mosco"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Apparition naturelle : aucune (config du serveur). Apparaît : un moustique cramoisi qui attaque un Mungus se transforme (config du serveur). Butin : Muscle déformé, Sac à hémolymphe.
+"""
+
+[[quete]]
+cle = "alexsmobs_warped_toad"
+titre = "Rencontre : Crapaud biscornu"
+sous_titre = "Crapaud biscornu — alexsmobs"
+optionnel = true
+icone = "alexsmobs:spawn_egg_warped_toad"
+taches = ["observation entity alexsmobs:warped_toad"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Forêt biscornue. Butin : Champilampe, Verrues du Nether.
+"""
+
+[[quete]]
+cle = "betterend_cubozoa"
+titre = "Rencontre : Cubozoa"
+sous_titre = "Cubozoa — betterend"
+optionnel = true
+icone = "betterend:spawn_egg_cubozoa"
+taches = ["observation entity betterend:cubozoa"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter End&r. Catégorie : poisson. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove, Sulfur Springs.
+"""
+
+[[quete]]
+cle = "betterend_dragonfly"
+titre = "Rencontre : Dragonfly"
+sous_titre = "Dragonfly — betterend"
+optionnel = true
+icone = "betterend:spawn_egg_dragonfly"
+taches = ["observation entity betterend:dragonfly"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter End&r. Catégorie : créature d'ambiance. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove.
+"""
+
+[[quete]]
+cle = "betterend_end_fish"
+titre = "Rencontre : End Fish"
+sous_titre = "End Fish — betterend"
+optionnel = true
+icone = "betterend:spawn_egg_end_fish"
+taches = ["observation entity betterend:end_fish"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter End&r. Catégorie : poisson. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove, Sulfur Springs.
+"""
+
+[[quete]]
+cle = "betterend_end_slime"
+titre = "Rencontre : End Slime"
+sous_titre = "End Slime — betterend"
+optionnel = true
+icone = "betterend:spawn_egg_end_slime"
+taches = ["observation entity betterend:end_slime"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter End&r. Catégorie : monstre. Monde : End. Biomes : Amber Land, Chorus Forest, Foggy Mushroomland, Megalake, Megalake Grove.
+"""
+
+[[quete]]
+cle = "betterend_shadow_walker"
+titre = "Rencontre : Shadow Walker"
+sous_titre = "Shadow Walker — betterend"
+optionnel = true
+icone = "betterend:spawn_egg_shadow_walker"
+taches = ["observation entity betterend:shadow_walker"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter End&r. Catégorie : monstre. Monde : End. Biomes : Shadow Forest.
+"""
+
+[[quete]]
+cle = "betterend_silk_moth"
+titre = "Rencontre : Silk Moth"
+sous_titre = "Silk Moth — betterend"
+optionnel = true
+icone = "betterend:spawn_egg_silk_moth"
+taches = ["observation entity betterend:silk_moth"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter End&r. Catégorie : créature d'ambiance. Monde : End. Biomes : Blossoming Spires.
+"""
+
+[[quete]]
+cle = "betternether_firefly"
+titre = "Rencontre : Luciole"
+sous_titre = "Luciole — betternether"
+optionnel = true
+icone = "betternether:spawn_egg_firefly"
+taches = ["observation entity betternether:firefly"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter Nether&r. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Poudre lumineuse.
+"""
+
+[[quete]]
+cle = "betternether_flying_pig"
+titre = "Rencontre : Cochon volant"
+sous_titre = "Cochon volant — betternether"
+optionnel = true
+icone = "betternether:spawn_egg_flying_pig"
+taches = ["observation entity betternether:flying_pig"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter Nether&r. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Côtelette de porc crue.
+"""
+
+[[quete]]
+cle = "betternether_hydrogen_jellyfish"
+titre = "Rencontre : Méduse à hydrogène"
+sous_titre = "Méduse à hydrogène — betternether"
+optionnel = true
+icone = "betternether:spawn_egg_hydrogen_jellyfish"
+taches = ["observation entity betternether:hydrogen_jellyfish"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter Nether&r. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres.
+"""
+
+[[quete]]
+cle = "betternether_jungle_skeleton"
+titre = "Rencontre : Squelette de la jungle"
+sous_titre = "Squelette de la jungle — betternether"
+optionnel = true
+icone = "betternether:spawn_egg_jungle_skeleton"
+taches = ["observation entity betternether:jungle_skeleton"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter Nether&r. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Flèche, Os.
+"""
+
+[[quete]]
+cle = "betternether_naga"
+titre = "Rencontre : Naga"
+sous_titre = "Naga — betternether"
+optionnel = true
+icone = "betternether:spawn_egg_naga"
+taches = ["observation entity betternether:naga"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter Nether&r. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette.
+"""
+
+[[quete]]
+cle = "betternether_skull"
+titre = "Rencontre : Crâne"
+sous_titre = "Crâne — betternether"
+optionnel = true
+icone = "betternether:spawn_egg_skull"
+taches = ["observation entity betternether:skull"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBetter Nether&r. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette.
+"""
+
+[[quete]]
+cle = "bygonenether_corpor"
+titre = "Rencontre : Corpor"
+sous_titre = "Corpor — bygonenether"
+optionnel = true
+icone = "bygonenether:corpor_spawn_egg"
+taches = ["observation entity bygonenether:corpor"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBygone Nether&r. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
+"""
+
+[[quete]]
+cle = "bygonenether_piglin_hunter"
+titre = "Rencontre : Piglin Hunter"
+sous_titre = "Piglin Hunter — bygonenether"
+optionnel = true
+icone = "bygonenether:piglin_hunter_spawn_egg"
+taches = ["observation entity bygonenether:piglin_hunter"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBygone Nether&r. Apparaît : dans des structures de Bygone Nether.
+"""
+
+[[quete]]
+cle = "bygonenether_warped_enderman"
+titre = "Rencontre : Warped Enderman"
+sous_titre = "Warped Enderman — bygonenether"
+optionnel = true
+icone = "bygonenether:warped_enderman_spawn_egg"
+taches = ["observation entity bygonenether:warped_enderman"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBygone Nether&r. Apparaît : dans des structures de Bygone Nether.
+"""
+
+[[quete]]
+cle = "bygonenether_wex"
+titre = "Rencontre : Wex"
+sous_titre = "Wex — bygonenether"
+optionnel = true
+icone = "bygonenether:wex_spawn_egg"
+taches = ["observation entity bygonenether:wex"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBygone Nether&r. Apparaît : invoqué par le Wraither, dans les catacombes.
+"""
+
+[[quete]]
+cle = "bygonenether_wither_skeleton_knight"
+titre = "Rencontre : Wither Skeleton Knight"
+sous_titre = "Wither Skeleton Knight — bygonenether"
+optionnel = true
+icone = "bygonenether:wither_skeleton_knight_spawn_egg"
+taches = ["observation entity bygonenether:wither_skeleton_knight"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBygone Nether&r. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
+"""
+
+[[quete]]
+cle = "bygonenether_wraither"
+titre = "Rencontre : Wraither"
+sous_titre = "Wraither — bygonenether"
+optionnel = true
+icone = "bygonenether:wraither_spawn_egg"
+taches = ["observation entity bygonenether:wraither"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBygone Nether&r. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
+"""
+
+[[quete]]
+cle = "friendsandfoes_wildfire"
+titre = "Rencontre : Wildfire"
+sous_titre = "Wildfire — friendsandfoes"
+optionnel = true
+icone = "friendsandfoes:wildfire_spawn_egg"
+taches = ["observation entity friendsandfoes:wildfire"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparaît : dans des structures de friendsandfoes. Butin : Fragment de Couronne du Wildfire.
+"""
+
+[[quete]]
+cle = "goblintraders_vein_goblin_trader"
+titre = "Rencontre : Vein Goblin Trader"
+sous_titre = "Vein Goblin Trader — goblintraders"
+optionnel = true
+icone = "goblintraders:vein_goblin_trader_spawn_egg"
+taches = ["observation entity goblintraders:vein_goblin_trader"]
+recompenses = ["xp 1"]
+description = """
+Marchand de &bGoblin Traders&r. Apparaît : dans le Nether, entre Y 0 et 128 (config du serveur). Butin : Carotte.
+"""
+
+[[quete]]
+cle = "minecraft_blaze"
+titre = "Rencontre : Blaze"
+sous_titre = "Blaze — minecraft"
+optionnel = true
+icone = "minecraft:blaze_spawn_egg"
+taches = ["observation entity minecraft:blaze"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Apparaît : dans des structures de hearths, betterfortresses, AdoraBuild, friendsandfoes et d'autres. Butin : Bâton de Blaze.
+"""
+
+[[quete]]
+cle = "minecraft_endermite"
+titre = "Rencontre : Endermite"
+sous_titre = "Endermite — minecraft"
+optionnel = true
+icone = "minecraft:endermite_spawn_egg"
+taches = ["observation entity minecraft:endermite"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Apparaît : dans des structures de Repurposed Structures, Philip's Ruins, Formations Nether.
+"""
+
+[[quete]]
+cle = "minecraft_ghast"
+titre = "Rencontre : Ghast"
+sous_titre = "Ghast — minecraft"
+optionnel = true
+icone = "minecraft:ghast_spawn_egg"
+taches = ["observation entity minecraft:ghast"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Deltas de basalte, Terres désolées du Nether, Vallée des âmes. Butin : Larme de Ghast, Poudre à canon.
+"""
+
+[[quete]]
+cle = "minecraft_happy_ghast"
+titre = "Rencontre : Ghast joyeux"
+sous_titre = "Ghast joyeux — minecraft"
+optionnel = true
+icone = "minecraft:happy_ghast_spawn_egg"
+taches = ["observation entity minecraft:happy_ghast"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Apparaît : d'un bloc de ghast desséché remis dans l'eau (Vanilla Backport).
+"""
+
+[[quete]]
+cle = "minecraft_hoglin"
+titre = "Rencontre : Hoglin"
+sous_titre = "Hoglin — minecraft"
+optionnel = true
+icone = "minecraft:hoglin_spawn_egg"
+taches = ["observation entity minecraft:hoglin"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin. Butin : Côtelette de porc crue, Cuir.
+"""
+
+[[quete]]
+cle = "minecraft_magma_cube"
+titre = "Rencontre : Cube de magma"
+sous_titre = "Cube de magma — minecraft"
+optionnel = true
+icone = "minecraft:magma_cube_spawn_egg"
+taches = ["observation entity minecraft:magma_cube"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Deltas de basalte, Terres désolées du Nether. Butin : Crème de magma, Grelampe nacrée, Grelampe verdoyante, Grelampe ocrée.
+"""
+
+[[quete]]
+cle = "minecraft_piglin"
+titre = "Rencontre : Piglin"
+sous_titre = "Piglin — minecraft"
+optionnel = true
+icone = "minecraft:piglin_spawn_egg"
+taches = ["observation entity minecraft:piglin"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin, Terres désolées du Nether.
+"""
+
+[[quete]]
+cle = "minecraft_piglin_brute"
+titre = "Rencontre : Piglin barbare"
+sous_titre = "Piglin barbare — minecraft"
+optionnel = true
+icone = "minecraft:piglin_brute_spawn_egg"
+taches = ["observation entity minecraft:piglin_brute"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres.
+"""
+
+[[quete]]
+cle = "minecraft_shulker"
+titre = "Rencontre : Shulker"
+sous_titre = "Shulker — minecraft"
+optionnel = true
+icone = "minecraft:shulker_spawn_egg"
+taches = ["observation entity minecraft:shulker"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Apparaît : dans les cités de l'End, et dans des structures de Moog's End Structures. Butin : Carapace de Shulker.
+"""
+
+[[quete]]
+cle = "minecraft_strider"
+titre = "Rencontre : Arpenteur"
+sous_titre = "Arpenteur — minecraft"
+optionnel = true
+icone = "minecraft:strider_spawn_egg"
+taches = ["observation entity minecraft:strider"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Catégorie : animal. Monde : Nether. Biomes : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue. Butin : Ficelle.
+"""
+
+[[quete]]
+cle = "minecraft_wither_skeleton"
+titre = "Rencontre : Wither squelette"
+sous_titre = "Wither squelette — minecraft"
+optionnel = true
+icone = "minecraft:wither_skeleton_spawn_egg"
+taches = ["observation entity minecraft:wither_skeleton"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Abîme flétri. Butin : Charbon, Os, Crâne de Wither squelette.
+"""
+
+[[quete]]
+cle = "minecraft_zoglin"
+titre = "Rencontre : Zoglin"
+sous_titre = "Zoglin — minecraft"
+optionnel = true
+icone = "minecraft:zoglin_spawn_egg"
+taches = ["observation entity minecraft:zoglin"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Apparaît : dans des structures de Philip's Ruins, Repurposed Structures. Butin : Chair putréfiée.
+"""
+
+[[quete]]
+cle = "minecraft_zombified_piglin"
+titre = "Rencontre : Piglin zombifié"
+sous_titre = "Piglin zombifié — minecraft"
+optionnel = true
+icone = "minecraft:zombified_piglin_spawn_egg"
+taches = ["observation entity minecraft:zombified_piglin"]
+recompenses = ["xp 1"]
+description = """
+Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin, Terres désolées du Nether. Butin : Chair putréfiée, Pépite d'or, Lingot d'or.
+"""
+
+[[quete]]
+cle = "netherexp_apparition"
+titre = "Rencontre : Apparition"
+sous_titre = "Apparition — netherexp"
+optionnel = true
+icone = "netherexp:apparition_spawn_egg"
+taches = ["observation entity netherexp:apparition"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bJaden's Nether Expansion&r. Monde : Nether. Biomes : Vallée des âmes, Black Ice Glaciers. Butin : Chaîne.
+"""
+
+[[quete]]
+cle = "netherexp_banshee"
+titre = "Rencontre : Banshee"
+sous_titre = "Banshee — netherexp"
+optionnel = true
+icone = "netherexp:banshee_spawn_egg"
+taches = ["observation entity netherexp:banshee"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bJaden's Nether Expansion&r. Apparaît : dans des structures de Jaden's Nether Expansion.
+"""
+
+[[quete]]
+cle = "netherexp_carcass"
+titre = "Rencontre : Carcass"
+sous_titre = "Carcass — netherexp"
+optionnel = true
+icone = "netherexp:carcass_spawn_egg"
+taches = ["observation entity netherexp:carcass"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bJaden's Nether Expansion&r. Apparaît : dans des structures de Jaden's Nether Expansion.
+"""
+
+[[quete]]
+cle = "netherexp_vessel"
+titre = "Rencontre : Vessel"
+sous_titre = "Vessel — netherexp"
+optionnel = true
+icone = "netherexp:vessel_spawn_egg"
+taches = ["observation entity netherexp:vessel"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bJaden's Nether Expansion&r. Monde : Nether. Biomes : Black Ice Glaciers, Vallée des âmes. Butin : Os.
+"""
+
+[[quete]]
+cle = "quark_foxhound"
+titre = "Rencontre : Renard de feu"
+sous_titre = "Renard de feu — quark"
+optionnel = true
+icone = "quark:foxhound_spawn_egg"
+taches = ["observation entity quark:foxhound"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r. Apparition (config du serveur) : Terres désolées du Nether ; Deltas de basalte ; Vallée des âmes. Butin : Cuir, Charbon.
+"""
+
+[[quete]]
+cle = "quark_wraith"
+titre = "Rencontre : Spectre"
+sous_titre = "Spectre — quark"
+optionnel = true
+icone = "quark:wraith_spawn_egg"
+taches = ["observation entity quark:wraith"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bQuark&r. Apparition (config du serveur) : Vallée des âmes. Butin : Perle d'âme.
+"""
+
+[[quete]]
+cle = "soulfulnether_bone_wyrm"
+titre = "Rencontre : Bone Wyrm"
+sous_titre = "Bone Wyrm — soulfulnether"
+optionnel = true
+icone = "soulfulnether:bone_wyrm_spawn_egg"
+taches = ["observation entity soulfulnether:bone_wyrm"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bSoulful Nether&r. Apparaît : d'un nid de wyrm d'os, dans les vallées des âmes.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:dragon_head"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["alexsmobs_bone_serpent", "alexsmobs_cosmaw", "alexsmobs_cosmic_cod", "alexsmobs_crimson_mosquito", "alexsmobs_endergrade", "alexsmobs_enderiophage", "alexsmobs_laviathan", "alexsmobs_mimicube", "alexsmobs_soul_vulture", "alexsmobs_straddler", "alexsmobs_stradpole", "alexsmobs_warped_mosco", "alexsmobs_warped_toad", "betterend_cubozoa", "betterend_dragonfly", "betterend_end_fish", "betterend_end_slime", "betterend_shadow_walker", "betterend_silk_moth", "betternether_firefly", "betternether_flying_pig", "betternether_hydrogen_jellyfish", "betternether_jungle_skeleton", "betternether_naga", "betternether_skull", "bygonenether_corpor", "bygonenether_piglin_hunter", "bygonenether_warped_enderman", "bygonenether_wex", "bygonenether_wither_skeleton_knight", "bygonenether_wraither", "friendsandfoes_wildfire", "goblintraders_vein_goblin_trader", "minecraft_blaze", "minecraft_endermite", "minecraft_ghast", "minecraft_happy_ghast", "minecraft_hoglin", "minecraft_magma_cube", "minecraft_piglin", "minecraft_piglin_brute", "minecraft_shulker", "minecraft_strider", "minecraft_wither_skeleton", "minecraft_zoglin", "minecraft_zombified_piglin", "netherexp_apparition", "netherexp_banshee", "netherexp_carcass", "netherexp_vessel", "quark_foxhound", "quark_wraith", "soulfulnether_bone_wyrm"]
+description = """
+Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
+"""

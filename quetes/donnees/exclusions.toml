@@ -37,3 +37,24 @@
 "alexsmobs:void_worm" = "alexsmobs.toml : poids d'apparition 0 ; invocation réservée à l'End"
 # Entité d'exemple de GeckoLib : aucune donnée d'apparition, aucune structure, aucun objet.
 "geckolib:mutant_zombie" = "entité d'exemple de GeckoLib"
+
+# ---- 5 octobre 2026, bestiaires Nether-End et dimensions. Ces créatures
+# n'ont ni biome, ni modificateur de biome, ni structure dans les données,
+# et les classes qui les citent n'ont pas permis d'établir une voie sûre.
+# Ce n'est PAS une preuve qu'elles n'apparaissent pas : à rétablir dès
+# qu'une voie est prouvée (« un oubli est honnête, un faux positif ne l'est pas »).
+"netherexp:ecto_slab" = "VOIE NON ÉTABLIE — cité par Apparition et SwirlsBlock (Jaden's Nether Expansion), mécanisme non lu"
+"netherexp:stampede" = "VOIE NON ÉTABLIE — cité par Apparition (possession d'une statue de gargouille ?), mécanisme non lu"
+"netherexp:warphopper" = "VOIE NON ÉTABLIE — aucune référence hors du registre dans le jar"
+"netherexp:wisp" = "VOIE NON ÉTABLIE — cité par EctoSoulSandBlock et plusieurs entités, mécanisme non lu"
+"bygonenether:piglin_prisoner" = "VOIE NON ÉTABLIE — cité par NetheriteBellBlockEntity et ModFeatures, mécanisme non lu"
+"bygonenether:wither_skeleton_horse" = "VOIE NON ÉTABLIE — cité par ModFeatures seulement"
+"twilightforest:adherent" = "VOIE NON ÉTABLIE — aucune référence hors des générateurs de noms, de langue et de butin (château final inachevé ?)"
+"twilightforest:harbinger_cube" = "VOIE NON ÉTABLIE — aucune référence hors des générateurs de noms, de langue et de butin"
+"twilightforest:ice_crystal" = "VOIE NON ÉTABLIE — aucune référence hors de sa propre classe et du registre"
+"aether_redux:vanilla_swet" = "VOIE NON ÉTABLIE — cité par ReduxBiomeModifiers (code), biomes non lus"
+"blue_skies:artificial_golem" = "VOIE NON ÉTABLIE — classe summons/ArtificialGolemEntity, invocateur non lu"
+"blue_skies:frost_spirit" = "VOIE NON ÉTABLIE — cité par ArmoredFrostSpiritEntity seulement"
+"blue_skies:nested_spider" = "VOIE NON ÉTABLIE — cité par l'attaque de l'Arachnarque (ScreechAttackGoal), mécanisme non lu"
+"deep_aether:baby_zephyr" = "VOIE NON ÉTABLIE — cité par DABlocks, mécanisme non lu"
+"deep_aether:gentle_wind" = "VOIE NON ÉTABLIE — aucune référence hors de sa propre classe et du registre"

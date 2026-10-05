@@ -1,0 +1,40 @@
+# Notes du Bestiaire — Nether et End (5 octobre 2026). Une voie par
+# créature sans biome dans les données, avec sa pièce en commentaire.
+
+# Bygone Nether : ModLists.CATACOMB_MOBS (javap) = corpor, chevalier
+# squelette du Wither, wraither ; ils peuplent les catacombes.
+[note."bygonenether:corpor"]
+apparition = "dans les catacombes de Bygone Nether"
+[note."bygonenether:wither_skeleton_knight"]
+apparition = "dans les catacombes de Bygone Nether"
+[note."bygonenether:wraither"]
+apparition = "dans les catacombes de Bygone Nether"
+# Classe Wraither : invoque des wex.
+[note."bygonenether:wex"]
+apparition = "invoqué par le Wraither, dans les catacombes"
+
+# soulfulnether : biome_modifier soul_sand_valley/bone_wyrm_nests et
+# BoneWyrmNestBlock (le nid fait apparaître le wyrm).
+[note."soulfulnether:bone_wyrm"]
+apparition = "d'un nid de wyrm d'os, dans les vallées des âmes"
+
+# goblintraders-entities.toml du serveur : veinGoblinTrader, Y 0 à 128 ;
+# son compteur d'apparition est tenu dans world/DIM-1 (le Nether).
+[note."goblintraders:vein_goblin_trader"]
+apparition = "dans le Nether, entre Y 0 et 128 (config du serveur)"
+
+# alexsmobs.toml du serveur : warpedMoscoTransformation = true ;
+# EntityCrimsonMosquito : un moustique cramoisi qui attaque un Mungus
+# (isWarpedMoscoReady) devient un Warped Mosco.
+[note."alexsmobs:warped_mosco"]
+apparition = "un moustique cramoisi qui attaque un Mungus se transforme (config du serveur)"
+
+# Vanilla Backport : DriedGhastBlock -> HappyGhast ; options à true dans
+# vanillabackport-common.toml du serveur.
+[note."minecraft:happy_ghast"]
+apparition = "d'un bloc de ghast desséché remis dans l'eau (Vanilla Backport)"
+
+# Vanilla : les shulkers sont posés par le code des cités de l'End
+# (EndCityPieces) ; Moog's End Structures en ajoute par spawn_overrides.
+[note."minecraft:shulker"]
+apparition = "dans les cités de l'End, et dans des structures de Moog's End Structures"

@@ -1,0 +1,1331 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_bestiaire_nether_end"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:wither_skeleton_skull"
+	id: "6D6001196265C8EF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Les créatures du Nether et de l'End : le jeu de base, Better Nether, Bygone Nether, Soulful Nether, Jaden's Nether Expansion, Better End, et celles des mods de faune qui y vivent. Une quête se valide en &lregardant&r la créature."
+				""
+				"Chaque fiche dit ce que les données du pack disent : biomes, structure ou voie qui la fait apparaître, butin. Les boss sont comptés au défi &cChasseur de boss&r, pas ici."
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "7AC05F8EAFF37110"
+			rewards: [{
+				id: "18FEEF034C4B9B02"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "69F0080892CDE426"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Bestiaire — Nether et End"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Monde : Nether. Apparition (config du serveur) : tout le Nether. Butin : Dent de serpent d'os, Os, Bloc d'os."]
+			icon: "alexsmobs:spawn_egg_bone_serpent"
+			id: "076BB2121D058137"
+			optional: true
+			rewards: [{
+				id: "29F702E47F95CB5D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Serpent d'os — alexsmobs"
+			tasks: [{
+				id: "17767ABA2B322568"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:bone_serpent"
+				type: "observation"
+			}]
+			title: "Rencontre : Serpent d'os"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End, Petites îles de l'End). Butin : Chorus."]
+			icon: "alexsmobs:spawn_egg_cosmaw"
+			id: "21371B037DE5C937"
+			optional: true
+			rewards: [{
+				id: "0A0727582E6AB0BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cosmaw — alexsmobs"
+			tasks: [{
+				id: "172BCD5EA15940DE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cosmaw"
+				type: "observation"
+			}]
+			title: "Rencontre : Cosmaw"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End. Butin : Morue cosmique, Poudre d'os."]
+			icon: "alexsmobs:spawn_egg_cosmic_cod"
+			id: "0E0F54A42066AFC2"
+			optional: true
+			rewards: [{
+				id: "545D97CBC6C8A3EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Morue cosmique — alexsmobs"
+			tasks: [{
+				id: "0489584E397B4FE2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cosmic_cod"
+				type: "observation"
+			}]
+			title: "Rencontre : Morue cosmique"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Forêt carmin ; Tas de viscères. Butin : Proboscis de moustique cramoisi."]
+			icon: "alexsmobs:spawn_egg_crimson_mosquito"
+			id: "619AC832BE875E30"
+			optional: true
+			rewards: [{
+				id: "5761160903C34F54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moustique cramoisi — alexsmobs"
+			tasks: [{
+				id: "7534862C5CA23CB5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crimson_mosquito"
+				type: "observation"
+			}]
+			title: "Rencontre : Moustique cramoisi"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End)."]
+			icon: "alexsmobs:spawn_egg_endergrade"
+			id: "1E4345C351C061E6"
+			optional: true
+			rewards: [{
+				id: "797EBDF85D69519F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Endergrade — alexsmobs"
+			tasks: [{
+				id: "062B969BCC21D32D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:endergrade"
+				type: "observation"
+			}]
+			title: "Rencontre : Endergrade"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End, Terres stériles de l'End, Hautes terres de l'End, Petites îles de l'End). Butin : Capside."]
+			icon: "alexsmobs:spawn_egg_enderiophage"
+			id: "2B9766854390BE2A"
+			optional: true
+			rewards: [{
+				id: "241A2E5001A87ECE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Enderiophage — alexsmobs"
+			tasks: [{
+				id: "1810629D72DF31D2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:enderiophage"
+				type: "observation"
+			}]
+			title: "Rencontre : Enderiophage"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Monde : Nether. Apparition (config du serveur) : tout le Nether. Butin : Bloc de magma, Roche noire."]
+			icon: "alexsmobs:spawn_egg_laviathan"
+			id: "4FB48CEA5D593FA2"
+			optional: true
+			rewards: [{
+				id: "1F0882F2BDF57CDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Laviethan — alexsmobs"
+			tasks: [{
+				id: "758196AADBB6A241"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:laviathan"
+				type: "observation"
+			}]
+			title: "Rencontre : Laviethan"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End). Butin : Imicrème."]
+			icon: "alexsmobs:spawn_egg_mimicube"
+			id: "0BACDBF0BC603B92"
+			optional: true
+			rewards: [{
+				id: "601D5D0A55909764"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Imicube — alexsmobs"
+			tasks: [{
+				id: "2FB995CB480D444B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mimicube"
+				type: "observation"
+			}]
+			title: "Rencontre : Imicube"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Vallée des âmes. Butin : Os, Charbon."]
+			icon: "alexsmobs:spawn_egg_soul_vulture"
+			id: "38BC9D26EB4EB00D"
+			optional: true
+			rewards: [{
+				id: "142BC57F7BD6BA22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Vautour des âmes — alexsmobs"
+			tasks: [{
+				id: "110E283879546299"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:soul_vulture"
+				type: "observation"
+			}]
+			title: "Rencontre : Vautour des âmes"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Deltas de basalte ; Abîme flétri. Butin : Straddlite, Basalte."]
+			icon: "alexsmobs:spawn_egg_straddler"
+			id: "34FFB6C3136C4FC2"
+			optional: true
+			rewards: [{
+				id: "03583B5CBFEA4F77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Straddler — alexsmobs"
+			tasks: [{
+				id: "0A32611AF1B762CB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:straddler"
+				type: "observation"
+			}]
+			title: "Rencontre : Straddler"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Deltas de basalte ; Abîme flétri."]
+			icon: "alexsmobs:spawn_egg_stradpole"
+			id: "5197690288090E2E"
+			optional: true
+			rewards: [{
+				id: "00D1213FFBC23F63"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Stradpole — alexsmobs"
+			tasks: [{
+				id: "780C17AC0E2ABD00"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:stradpole"
+				type: "observation"
+			}]
+			title: "Rencontre : Stradpole"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Apparition naturelle : aucune (config du serveur). Apparaît : un moustique cramoisi qui attaque un Mungus se transforme (config du serveur). Butin : Muscle déformé, Sac à hémolymphe."]
+			icon: "alexsmobs:spawn_egg_warped_mosco"
+			id: "15536D4981745C35"
+			optional: true
+			rewards: [{
+				id: "76FF072A42E4CFF9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mosco biscornu — alexsmobs"
+			tasks: [{
+				id: "0F3DB0251ACE9011"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:warped_mosco"
+				type: "observation"
+			}]
+			title: "Rencontre : Mosco biscornu"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Forêt biscornue. Butin : Champilampe, Verrues du Nether."]
+			icon: "alexsmobs:spawn_egg_warped_toad"
+			id: "19BE88ED0036EE62"
+			optional: true
+			rewards: [{
+				id: "429BBD66AF605356"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crapaud biscornu — alexsmobs"
+			tasks: [{
+				id: "0BB25CAF0217DAAD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:warped_toad"
+				type: "observation"
+			}]
+			title: "Rencontre : Crapaud biscornu"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Créature de &bBetter End&r. Catégorie : poisson. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove, Sulfur Springs."]
+			icon: "betterend:spawn_egg_cubozoa"
+			id: "6DE651E004088DC4"
+			optional: true
+			rewards: [{
+				id: "2CA9603328E67CA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cubozoa — betterend"
+			tasks: [{
+				id: "707495E4E355971F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betterend:cubozoa"
+				type: "observation"
+			}]
+			title: "Rencontre : Cubozoa"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Créature de &bBetter End&r. Catégorie : créature d'ambiance. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove."]
+			icon: "betterend:spawn_egg_dragonfly"
+			id: "13A28D05D6434DCB"
+			optional: true
+			rewards: [{
+				id: "4A71CCF61D152EAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Dragonfly — betterend"
+			tasks: [{
+				id: "1B41628131A97030"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betterend:dragonfly"
+				type: "observation"
+			}]
+			title: "Rencontre : Dragonfly"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Créature de &bBetter End&r. Catégorie : poisson. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove, Sulfur Springs."]
+			icon: "betterend:spawn_egg_end_fish"
+			id: "696EDA1810B8970E"
+			optional: true
+			rewards: [{
+				id: "52091D928D5D7F4A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "End Fish — betterend"
+			tasks: [{
+				id: "4CF3A2B182C7C275"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betterend:end_fish"
+				type: "observation"
+			}]
+			title: "Rencontre : End Fish"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Créature de &bBetter End&r. Catégorie : monstre. Monde : End. Biomes : Amber Land, Chorus Forest, Foggy Mushroomland, Megalake, Megalake Grove."]
+			icon: "betterend:spawn_egg_end_slime"
+			id: "3371F1436BD561E7"
+			optional: true
+			rewards: [{
+				id: "23E692D0B5301ACC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "End Slime — betterend"
+			tasks: [{
+				id: "51D8555F9F58D1BA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betterend:end_slime"
+				type: "observation"
+			}]
+			title: "Rencontre : End Slime"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBetter End&r. Catégorie : monstre. Monde : End. Biomes : Shadow Forest."]
+			icon: "betterend:spawn_egg_shadow_walker"
+			id: "3EBDA0D779A3C998"
+			optional: true
+			rewards: [{
+				id: "700C3DC282FD0DF8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Shadow Walker — betterend"
+			tasks: [{
+				id: "15A51BD2D5354BED"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betterend:shadow_walker"
+				type: "observation"
+			}]
+			title: "Rencontre : Shadow Walker"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBetter End&r. Catégorie : créature d'ambiance. Monde : End. Biomes : Blossoming Spires."]
+			icon: "betterend:spawn_egg_silk_moth"
+			id: "38023F8CEFA75B91"
+			optional: true
+			rewards: [{
+				id: "7445BF848DFE5165"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Silk Moth — betterend"
+			tasks: [{
+				id: "1E28971F7CB5D304"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betterend:silk_moth"
+				type: "observation"
+			}]
+			title: "Rencontre : Silk Moth"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBetter Nether&r. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Poudre lumineuse."]
+			icon: "betternether:spawn_egg_firefly"
+			id: "49EA2D77A5EE6D10"
+			optional: true
+			rewards: [{
+				id: "6EADF1D933FF2E56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Luciole — betternether"
+			tasks: [{
+				id: "08DB2D3E732F835E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betternether:firefly"
+				type: "observation"
+			}]
+			title: "Rencontre : Luciole"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBetter Nether&r. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Côtelette de porc crue."]
+			icon: "betternether:spawn_egg_flying_pig"
+			id: "33AFB4AC1793B775"
+			optional: true
+			rewards: [{
+				id: "0F9150720F0EA7A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cochon volant — betternether"
+			tasks: [{
+				id: "25720BD6F673688E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betternether:flying_pig"
+				type: "observation"
+			}]
+			title: "Rencontre : Cochon volant"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBetter Nether&r. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres."]
+			icon: "betternether:spawn_egg_hydrogen_jellyfish"
+			id: "2E35219C12988E9B"
+			optional: true
+			rewards: [{
+				id: "4F25CCB5D81F8A19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Méduse à hydrogène — betternether"
+			tasks: [{
+				id: "1D78FB99B4AB556F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betternether:hydrogen_jellyfish"
+				type: "observation"
+			}]
+			title: "Rencontre : Méduse à hydrogène"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBetter Nether&r. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Flèche, Os."]
+			icon: "betternether:spawn_egg_jungle_skeleton"
+			id: "78D9555496676E3D"
+			optional: true
+			rewards: [{
+				id: "297FB2016FD3937C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Squelette de la jungle — betternether"
+			tasks: [{
+				id: "589F1BD85AB1C9A4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betternether:jungle_skeleton"
+				type: "observation"
+			}]
+			title: "Rencontre : Squelette de la jungle"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBetter Nether&r. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette."]
+			icon: "betternether:spawn_egg_naga"
+			id: "45F51C0F58317772"
+			optional: true
+			rewards: [{
+				id: "4A97F84FD61FA0A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Naga — betternether"
+			tasks: [{
+				id: "3036CB68DBC161FE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betternether:naga"
+				type: "observation"
+			}]
+			title: "Rencontre : Naga"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBetter Nether&r. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette."]
+			icon: "betternether:spawn_egg_skull"
+			id: "1DAFC608F97CE98C"
+			optional: true
+			rewards: [{
+				id: "6D9A24B89E51F7A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crâne — betternether"
+			tasks: [{
+				id: "0FE67BF6D75622E0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "betternether:skull"
+				type: "observation"
+			}]
+			title: "Rencontre : Crâne"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBygone Nether&r. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette."]
+			icon: "bygonenether:corpor_spawn_egg"
+			id: "79809250EE01D586"
+			optional: true
+			rewards: [{
+				id: "738423E364B71F55"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Corpor — bygonenether"
+			tasks: [{
+				id: "7EF50E5D56791DE7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bygonenether:corpor"
+				type: "observation"
+			}]
+			title: "Rencontre : Corpor"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBygone Nether&r. Apparaît : dans des structures de Bygone Nether."]
+			icon: "bygonenether:piglin_hunter_spawn_egg"
+			id: "4E3A7E098017FDD6"
+			optional: true
+			rewards: [{
+				id: "7639AB78F056E3B2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Piglin Hunter — bygonenether"
+			tasks: [{
+				id: "63D96886E0BB0BAC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bygonenether:piglin_hunter"
+				type: "observation"
+			}]
+			title: "Rencontre : Piglin Hunter"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBygone Nether&r. Apparaît : dans des structures de Bygone Nether."]
+			icon: "bygonenether:warped_enderman_spawn_egg"
+			id: "5281BE3C2647A203"
+			optional: true
+			rewards: [{
+				id: "00AD67BF1A2ED2E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Warped Enderman — bygonenether"
+			tasks: [{
+				id: "5B776309A1DA2ABC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bygonenether:warped_enderman"
+				type: "observation"
+			}]
+			title: "Rencontre : Warped Enderman"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBygone Nether&r. Apparaît : invoqué par le Wraither, dans les catacombes."]
+			icon: "bygonenether:wex_spawn_egg"
+			id: "1F593B996C2EE311"
+			optional: true
+			rewards: [{
+				id: "4267AE6A7C3456E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Wex — bygonenether"
+			tasks: [{
+				id: "749DE813F6F36AF0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bygonenether:wex"
+				type: "observation"
+			}]
+			title: "Rencontre : Wex"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBygone Nether&r. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette."]
+			icon: "bygonenether:wither_skeleton_knight_spawn_egg"
+			id: "695F88490ED09D8F"
+			optional: true
+			rewards: [{
+				id: "37D02D53CB935377"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Wither Skeleton Knight — bygonenether"
+			tasks: [{
+				id: "23C3B76AFDCAD0D2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bygonenether:wither_skeleton_knight"
+				type: "observation"
+			}]
+			title: "Rencontre : Wither Skeleton Knight"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bBygone Nether&r. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette."]
+			icon: "bygonenether:wraither_spawn_egg"
+			id: "15EF96CC6F05ED4E"
+			optional: true
+			rewards: [{
+				id: "0E4E600B9831B966"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Wraither — bygonenether"
+			tasks: [{
+				id: "6EC1D8273730AF5F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bygonenether:wraither"
+				type: "observation"
+			}]
+			title: "Rencontre : Wraither"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparaît : dans des structures de friendsandfoes. Butin : Fragment de Couronne du Wildfire."]
+			icon: "friendsandfoes:wildfire_spawn_egg"
+			id: "0D5CA7F603E4F1BC"
+			optional: true
+			rewards: [{
+				id: "50BFA31DA0A49701"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Wildfire — friendsandfoes"
+			tasks: [{
+				id: "55B7A4E8DF9DD9C3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:wildfire"
+				type: "observation"
+			}]
+			title: "Rencontre : Wildfire"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Marchand de &bGoblin Traders&r. Apparaît : dans le Nether, entre Y 0 et 128 (config du serveur). Butin : Carotte."]
+			icon: "goblintraders:vein_goblin_trader_spawn_egg"
+			id: "0605FF59BE654843"
+			optional: true
+			rewards: [{
+				id: "205F67D6554C9082"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Vein Goblin Trader — goblintraders"
+			tasks: [{
+				id: "01CDC7DA0C23DF63"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:vein_goblin_trader"
+				type: "observation"
+			}]
+			title: "Rencontre : Vein Goblin Trader"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Apparaît : dans des structures de hearths, betterfortresses, AdoraBuild, friendsandfoes et d'autres. Butin : Bâton de Blaze."]
+			icon: "minecraft:blaze_spawn_egg"
+			id: "24B36A3F575ACD15"
+			optional: true
+			rewards: [{
+				id: "5C4917BC2207A122"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blaze — minecraft"
+			tasks: [{
+				id: "169D5B8427015BB9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:blaze"
+				type: "observation"
+			}]
+			title: "Rencontre : Blaze"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Apparaît : dans des structures de Repurposed Structures, Philip's Ruins, Formations Nether."]
+			icon: "minecraft:endermite_spawn_egg"
+			id: "3DE62D223EC00615"
+			optional: true
+			rewards: [{
+				id: "048E79A236406EBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Endermite — minecraft"
+			tasks: [{
+				id: "61F89415C79C7DE9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:endermite"
+				type: "observation"
+			}]
+			title: "Rencontre : Endermite"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Deltas de basalte, Terres désolées du Nether, Vallée des âmes. Butin : Larme de Ghast, Poudre à canon."]
+			icon: "minecraft:ghast_spawn_egg"
+			id: "185BE87B428199F4"
+			optional: true
+			rewards: [{
+				id: "349E87B0D4EFF1DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ghast — minecraft"
+			tasks: [{
+				id: "58AF9F976F84F9B7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:ghast"
+				type: "observation"
+			}]
+			title: "Rencontre : Ghast"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Apparaît : d'un bloc de ghast desséché remis dans l'eau (Vanilla Backport)."]
+			icon: "minecraft:happy_ghast_spawn_egg"
+			id: "60E7BB299E81750D"
+			optional: true
+			rewards: [{
+				id: "2EA70B9FBB8F0F3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ghast joyeux — minecraft"
+			tasks: [{
+				id: "4EE5462785DDDF45"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:happy_ghast"
+				type: "observation"
+			}]
+			title: "Rencontre : Ghast joyeux"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin. Butin : Côtelette de porc crue, Cuir."]
+			icon: "minecraft:hoglin_spawn_egg"
+			id: "1C875AA21DBC87E2"
+			optional: true
+			rewards: [{
+				id: "25DD163B7CCE6455"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Hoglin — minecraft"
+			tasks: [{
+				id: "06006A14EAD84BDF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:hoglin"
+				type: "observation"
+			}]
+			title: "Rencontre : Hoglin"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Deltas de basalte, Terres désolées du Nether. Butin : Crème de magma, Grelampe nacrée, Grelampe verdoyante, Grelampe ocrée."]
+			icon: "minecraft:magma_cube_spawn_egg"
+			id: "7C76BF1A3AD93489"
+			optional: true
+			rewards: [{
+				id: "577251D3B7B42FD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cube de magma — minecraft"
+			tasks: [{
+				id: "2E38E6B68241415A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:magma_cube"
+				type: "observation"
+			}]
+			title: "Rencontre : Cube de magma"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin, Terres désolées du Nether."]
+			icon: "minecraft:piglin_spawn_egg"
+			id: "3214AB75B8271C45"
+			optional: true
+			rewards: [{
+				id: "365BC677C54A0399"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Piglin — minecraft"
+			tasks: [{
+				id: "61CE3BEBEF29E610"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:piglin"
+				type: "observation"
+			}]
+			title: "Rencontre : Piglin"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres."]
+			icon: "minecraft:piglin_brute_spawn_egg"
+			id: "7EB161A9BA969615"
+			optional: true
+			rewards: [{
+				id: "30CE2508E993AB70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Piglin barbare — minecraft"
+			tasks: [{
+				id: "23CEFB5E4E319785"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:piglin_brute"
+				type: "observation"
+			}]
+			title: "Rencontre : Piglin barbare"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Apparaît : dans les cités de l'End, et dans des structures de Moog's End Structures. Butin : Carapace de Shulker."]
+			icon: "minecraft:shulker_spawn_egg"
+			id: "0C63B66B34D1F5F7"
+			optional: true
+			rewards: [{
+				id: "6734D45CF62CB0D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Shulker — minecraft"
+			tasks: [{
+				id: "16323B7554F2D829"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:shulker"
+				type: "observation"
+			}]
+			title: "Rencontre : Shulker"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Catégorie : animal. Monde : Nether. Biomes : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue. Butin : Ficelle."]
+			icon: "minecraft:strider_spawn_egg"
+			id: "631A62ADFBA70DC6"
+			optional: true
+			rewards: [{
+				id: "47E3787469F5EF75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Arpenteur — minecraft"
+			tasks: [{
+				id: "7FB524286788BD5D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:strider"
+				type: "observation"
+			}]
+			title: "Rencontre : Arpenteur"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Abîme flétri. Butin : Charbon, Os, Crâne de Wither squelette."]
+			icon: "minecraft:wither_skeleton_spawn_egg"
+			id: "08634DC5F93C18ED"
+			optional: true
+			rewards: [{
+				id: "122D230144F5C9A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Wither squelette — minecraft"
+			tasks: [{
+				id: "25184BCA11DF9FEA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wither_skeleton"
+				type: "observation"
+			}]
+			title: "Rencontre : Wither squelette"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Apparaît : dans des structures de Philip's Ruins, Repurposed Structures. Butin : Chair putréfiée."]
+			icon: "minecraft:zoglin_spawn_egg"
+			id: "4FD6EC34B29DDFB9"
+			optional: true
+			rewards: [{
+				id: "1CA637D25E9895BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Zoglin — minecraft"
+			tasks: [{
+				id: "385A0F5D28D710DD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:zoglin"
+				type: "observation"
+			}]
+			title: "Rencontre : Zoglin"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin, Terres désolées du Nether. Butin : Chair putréfiée, Pépite d'or, Lingot d'or."]
+			icon: "minecraft:zombified_piglin_spawn_egg"
+			id: "017930FABD0A8778"
+			optional: true
+			rewards: [{
+				id: "2ACEC2FD9EF62AE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Piglin zombifié — minecraft"
+			tasks: [{
+				id: "0C8BB030B2C47883"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:zombified_piglin"
+				type: "observation"
+			}]
+			title: "Rencontre : Piglin zombifié"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Créature de &bJaden's Nether Expansion&r. Monde : Nether. Biomes : Vallée des âmes, Black Ice Glaciers. Butin : Chaîne."]
+			icon: "netherexp:apparition_spawn_egg"
+			id: "3ACE4361B671688B"
+			optional: true
+			rewards: [{
+				id: "7BCC67AD218DB9B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Apparition — netherexp"
+			tasks: [{
+				id: "6A884C00360210E8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "netherexp:apparition"
+				type: "observation"
+			}]
+			title: "Rencontre : Apparition"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Créature de &bJaden's Nether Expansion&r. Apparaît : dans des structures de Jaden's Nether Expansion."]
+			icon: "netherexp:banshee_spawn_egg"
+			id: "39ED425C60BE1CE4"
+			optional: true
+			rewards: [{
+				id: "0923745CA3CFE37B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Banshee — netherexp"
+			tasks: [{
+				id: "54A6A7A78DC7BA8D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "netherexp:banshee"
+				type: "observation"
+			}]
+			title: "Rencontre : Banshee"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Créature de &bJaden's Nether Expansion&r. Apparaît : dans des structures de Jaden's Nether Expansion."]
+			icon: "netherexp:carcass_spawn_egg"
+			id: "2660B7C1EB0C6094"
+			optional: true
+			rewards: [{
+				id: "71E99DCF99D6653F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Carcass — netherexp"
+			tasks: [{
+				id: "258600826FF61CB0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "netherexp:carcass"
+				type: "observation"
+			}]
+			title: "Rencontre : Carcass"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Créature de &bJaden's Nether Expansion&r. Monde : Nether. Biomes : Black Ice Glaciers, Vallée des âmes. Butin : Os."]
+			icon: "netherexp:vessel_spawn_egg"
+			id: "58A9107DD7571A3D"
+			optional: true
+			rewards: [{
+				id: "419F4F12EB67D026"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Vessel — netherexp"
+			tasks: [{
+				id: "51556B462EC92618"
+				observe_type: 5
+				timer: 0L
+				to_observe: "netherexp:vessel"
+				type: "observation"
+			}]
+			title: "Rencontre : Vessel"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Créature de &bQuark&r. Apparition (config du serveur) : Terres désolées du Nether ; Deltas de basalte ; Vallée des âmes. Butin : Cuir, Charbon."]
+			icon: "quark:foxhound_spawn_egg"
+			id: "67BC52711528E375"
+			optional: true
+			rewards: [{
+				id: "5FDD0A77F1986EFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Renard de feu — quark"
+			tasks: [{
+				id: "5749657BD4ABBA82"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:foxhound"
+				type: "observation"
+			}]
+			title: "Rencontre : Renard de feu"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Créature de &bQuark&r. Apparition (config du serveur) : Vallée des âmes. Butin : Perle d'âme."]
+			icon: "quark:wraith_spawn_egg"
+			id: "3A35457AC832506F"
+			optional: true
+			rewards: [{
+				id: "2707E13E7E33BE65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Spectre — quark"
+			tasks: [{
+				id: "6ADBF43D66D8569F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:wraith"
+				type: "observation"
+			}]
+			title: "Rencontre : Spectre"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Créature de &bSoulful Nether&r. Apparaît : d'un nid de wyrm d'os, dans les vallées des âmes."]
+			icon: "soulfulnether:bone_wyrm_spawn_egg"
+			id: "6984341941FA7233"
+			optional: true
+			rewards: [{
+				id: "19DD4AA71ACDE907"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bone Wyrm — soulfulnether"
+			tasks: [{
+				id: "12D8AFDC93EDD501"
+				observe_type: 5
+				timer: 0L
+				to_observe: "soulfulnether:bone_wyrm"
+				type: "observation"
+			}]
+			title: "Rencontre : Bone Wyrm"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"076BB2121D058137"
+				"21371B037DE5C937"
+				"0E0F54A42066AFC2"
+				"619AC832BE875E30"
+				"1E4345C351C061E6"
+				"2B9766854390BE2A"
+				"4FB48CEA5D593FA2"
+				"0BACDBF0BC603B92"
+				"38BC9D26EB4EB00D"
+				"34FFB6C3136C4FC2"
+				"5197690288090E2E"
+				"15536D4981745C35"
+				"19BE88ED0036EE62"
+				"6DE651E004088DC4"
+				"13A28D05D6434DCB"
+				"696EDA1810B8970E"
+				"3371F1436BD561E7"
+				"3EBDA0D779A3C998"
+				"38023F8CEFA75B91"
+				"49EA2D77A5EE6D10"
+				"33AFB4AC1793B775"
+				"2E35219C12988E9B"
+				"78D9555496676E3D"
+				"45F51C0F58317772"
+				"1DAFC608F97CE98C"
+				"79809250EE01D586"
+				"4E3A7E098017FDD6"
+				"5281BE3C2647A203"
+				"1F593B996C2EE311"
+				"695F88490ED09D8F"
+				"15EF96CC6F05ED4E"
+				"0D5CA7F603E4F1BC"
+				"0605FF59BE654843"
+				"24B36A3F575ACD15"
+				"3DE62D223EC00615"
+				"185BE87B428199F4"
+				"60E7BB299E81750D"
+				"1C875AA21DBC87E2"
+				"7C76BF1A3AD93489"
+				"3214AB75B8271C45"
+				"7EB161A9BA969615"
+				"0C63B66B34D1F5F7"
+				"631A62ADFBA70DC6"
+				"08634DC5F93C18ED"
+				"4FD6EC34B29DDFB9"
+				"017930FABD0A8778"
+				"3ACE4361B671688B"
+				"39ED425C60BE1CE4"
+				"2660B7C1EB0C6094"
+				"58A9107DD7571A3D"
+				"67BC52711528E375"
+				"3A35457AC832506F"
+				"6984341941FA7233"
+			]
+			description: ["Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte."]
+			icon: "minecraft:dragon_head"
+			id: "12F744C8B02E407B"
+			optional: true
+			rewards: [{
+				id: "59844F8BCDFCE691"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2158C7E5D16869C4"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&7Bestiaire — Nether et End"
+}
