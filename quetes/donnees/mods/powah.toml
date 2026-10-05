@@ -131,7 +131,7 @@ deps = ["orbe"]
 taches = ["item powah:steel_energized 8"]
 recompenses = ["xp 5"]
 description = """
-Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : &l2 aciers énergisés&r. Premier produit de l'orbe, et matière du palier Basic.
+Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : &l2 aciers énergisés&r. Premier produit de l'orbe, et matière du palier renforcé.
 """
 
 [[quete]]
@@ -221,69 +221,277 @@ description = """
 Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack.
 """
 
-# ---- §9.4 : branche latérale des paliers (5 octobre 2026). Recettes lues
-# dans le jar : chaque palier d'une cellule demande la cellule du palier
-# précédent, le condensateur et le matériau du palier (cellule basique :
-# fer ; renforcée : acier énergisé ; nitro : cristal nitro).
+# ---- Paliers complets (BMC-89, 5 octobre 2026). Recettes du jar Powah 5.0.11
+# (data/powah/recipes/crafting) : chaque appareil d'un palier se fabrique avec
+# le même appareil du palier d'avant, le condensateur du palier, le matériau
+# du palier (basique : fer ; renforcé : acier énergisé ; puis les cristaux)
+# et un boîtier diélectrique. Quatre familles par palier : condensateur,
+# générateurs, stockage, réseau. /config/powah.json5 : rien de désactivé.
 [[quete]]
-cle = "palier_basique"
-titre = "Une cellule basique"
-deps = ["cellule"]
+cle = "condensateur_basique"
+titre = "Un condensateur basique"
+deps = ["condensateur"]
 optionnel = true
-taches = ["item powah:energy_cell_basic"]
+taches = ["item powah:capacitor_basic"]
 recompenses = ["xp 3"]
 description = """
-Chaque appareil de Powah existe en sept paliers : départ, basique, renforcé, ardent, niotique, spirituel, nitro. On monte d'un palier en fabriquant l'appareil avec celui du palier d'avant, un condensateur et le matériau du palier.
+Le condensateur du palier basique, avec du fer. Il entre dans chaque appareil de ce palier.
+"""
+
+[[quete]]
+cle = "generateurs_basique"
+titre = "Les générateurs basiques"
+deps = ["furnator", "magmator", "thermo", "solaire", "reacteur", "condensateur_basique"]
+optionnel = true
+taches = ["item powah:furnator_basic", "item powah:magmator_basic", "item powah:thermo_generator_basic", "item powah:solar_panel_basic", "item powah:reactor_basic"]
+recompenses = ["xp 5"]
+description = """
+Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier basique : chacun à partir du même générateur du palier d'avant.
+"""
+
+[[quete]]
+cle = "palier_basique"
+titre = "Le stockage basique"
+deps = ["cellule", "cable", "batterie", "condensateur_basique"]
+optionnel = true
+taches = ["item powah:energy_cell_basic", "item powah:battery_basic", "item powah:energy_cable_basic 8"]
+recompenses = ["xp 4"]
+description = """
+Cellule d'énergie, batterie et câbles du palier basique.
+"""
+
+[[quete]]
+cle = "reseau_basique"
+titre = "Le réseau basique"
+deps = ["orbe", "entonnoir", "dechargeur", "transmetteur", "ender", "condensateur_basique"]
+optionnel = true
+taches = ["item powah:energizing_rod_basic", "item powah:energy_hopper_basic", "item powah:energy_discharger_basic", "item powah:player_transmitter_basic", "item powah:ender_cell_basic", "item powah:ender_gate_basic 4"]
+recompenses = ["xp 4"]
+description = """
+Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier basique.
+"""
+
+[[quete]]
+cle = "condensateur_renforce"
+titre = "Un condensateur renforcé"
+deps = ["condensateur_basique", "acier"]
+optionnel = true
+taches = ["item powah:capacitor_hardened"]
+recompenses = ["xp 4"]
+description = """
+Le condensateur du palier renforcé, avec de l'acier énergisé. Il entre dans chaque appareil de ce palier.
+"""
+
+[[quete]]
+cle = "generateurs_renforce"
+titre = "Les générateurs renforcés"
+deps = ["generateurs_basique", "condensateur_renforce"]
+optionnel = true
+taches = ["item powah:furnator_hardened", "item powah:magmator_hardened", "item powah:thermo_generator_hardened", "item powah:solar_panel_hardened", "item powah:reactor_hardened"]
+recompenses = ["xp 7"]
+description = """
+Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier renforcé : chacun à partir du même générateur du palier d'avant.
 """
 
 [[quete]]
 cle = "palier_renforce"
-titre = "Une cellule renforcée"
-deps = ["palier_basique", "acier"]
+titre = "Le stockage renforcé"
+deps = ["palier_basique", "condensateur_renforce"]
 optionnel = true
-taches = ["item powah:energy_cell_hardened"]
-recompenses = ["xp 4"]
+taches = ["item powah:energy_cell_hardened", "item powah:battery_hardened", "item powah:energy_cable_hardened 8"]
+recompenses = ["xp 6"]
+description = """
+Cellule d'énergie, batterie et câbles du palier renforcé.
+"""
+
+[[quete]]
+cle = "reseau_renforce"
+titre = "Le réseau renforcé"
+deps = ["reseau_basique", "condensateur_renforce"]
+optionnel = true
+taches = ["item powah:energizing_rod_hardened", "item powah:energy_hopper_hardened", "item powah:energy_discharger_hardened", "item powah:player_transmitter_hardened", "item powah:ender_cell_hardened", "item powah:ender_gate_hardened 4"]
+recompenses = ["xp 6"]
+description = """
+Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier renforcé.
+"""
+
+[[quete]]
+cle = "condensateur_ardent"
+titre = "Un condensateur ardent"
+deps = ["condensateur_renforce", "blazing"]
+optionnel = true
+taches = ["item powah:capacitor_blazing"]
+recompenses = ["xp 5"]
+description = """
+Le condensateur du palier ardent, avec des cristaux Blazing. Il entre dans chaque appareil de ce palier.
+"""
+
+[[quete]]
+cle = "generateurs_ardent"
+titre = "Les générateurs ardents"
+deps = ["generateurs_renforce", "condensateur_ardent"]
+optionnel = true
+taches = ["item powah:furnator_blazing", "item powah:magmator_blazing", "item powah:thermo_generator_blazing", "item powah:solar_panel_blazing", "item powah:reactor_blazing"]
+recompenses = ["xp 9"]
+description = """
+Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier ardent : chacun à partir du même générateur du palier d'avant.
+"""
 
 [[quete]]
 cle = "palier_ardent"
-titre = "Une cellule ardente"
-deps = ["palier_renforce", "blazing"]
+titre = "Le stockage ardent"
+deps = ["palier_renforce", "condensateur_ardent"]
 optionnel = true
-taches = ["item powah:energy_cell_blazing"]
-recompenses = ["xp 5"]
+taches = ["item powah:energy_cell_blazing", "item powah:battery_blazing", "item powah:energy_cable_blazing 8"]
+recompenses = ["xp 8"]
+description = """
+Cellule d'énergie, batterie et câbles du palier ardent.
+"""
+
+[[quete]]
+cle = "reseau_ardent"
+titre = "Le réseau ardent"
+deps = ["reseau_renforce", "condensateur_ardent"]
+optionnel = true
+taches = ["item powah:energizing_rod_blazing", "item powah:energy_hopper_blazing", "item powah:energy_discharger_blazing", "item powah:player_transmitter_blazing", "item powah:ender_cell_blazing", "item powah:ender_gate_blazing 4"]
+recompenses = ["xp 8"]
+description = """
+Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier ardent.
+"""
+
+[[quete]]
+cle = "condensateur_niotique"
+titre = "Un condensateur niotique"
+deps = ["condensateur_ardent", "niotic"]
+optionnel = true
+taches = ["item powah:capacitor_niotic"]
+recompenses = ["xp 6"]
+description = """
+Le condensateur du palier niotique, avec des cristaux niotiques. Il entre dans chaque appareil de ce palier.
+"""
+
+[[quete]]
+cle = "generateurs_niotique"
+titre = "Les générateurs niotiques"
+deps = ["generateurs_ardent", "condensateur_niotique"]
+optionnel = true
+taches = ["item powah:furnator_niotic", "item powah:magmator_niotic", "item powah:thermo_generator_niotic", "item powah:solar_panel_niotic", "item powah:reactor_niotic"]
+recompenses = ["xp 11"]
+description = """
+Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier niotique : chacun à partir du même générateur du palier d'avant.
+"""
 
 [[quete]]
 cle = "palier_niotique"
-titre = "Une cellule niotique"
-deps = ["palier_ardent", "niotic"]
+titre = "Le stockage niotique"
+deps = ["palier_ardent", "condensateur_niotique"]
 optionnel = true
-taches = ["item powah:energy_cell_niotic"]
-recompenses = ["xp 6"]
+taches = ["item powah:energy_cell_niotic", "item powah:battery_niotic", "item powah:energy_cable_niotic 8"]
+recompenses = ["xp 10"]
+description = """
+Cellule d'énergie, batterie et câbles du palier niotique.
+"""
+
+[[quete]]
+cle = "reseau_niotique"
+titre = "Le réseau niotique"
+deps = ["reseau_ardent", "condensateur_niotique"]
+optionnel = true
+taches = ["item powah:energizing_rod_niotic", "item powah:energy_hopper_niotic", "item powah:energy_discharger_niotic", "item powah:player_transmitter_niotic", "item powah:ender_cell_niotic", "item powah:ender_gate_niotic 4"]
+recompenses = ["xp 10"]
+description = """
+Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier niotique.
+"""
+
+[[quete]]
+cle = "condensateur_spirituel"
+titre = "Un condensateur spirituel"
+deps = ["condensateur_niotique", "spirited"]
+optionnel = true
+taches = ["item powah:capacitor_spirited"]
+recompenses = ["xp 7"]
+description = """
+Le condensateur du palier spirituel, avec des cristaux spirituels. Il entre dans chaque appareil de ce palier.
+"""
+
+[[quete]]
+cle = "generateurs_spirituel"
+titre = "Les générateurs spirituels"
+deps = ["generateurs_niotique", "condensateur_spirituel"]
+optionnel = true
+taches = ["item powah:furnator_spirited", "item powah:magmator_spirited", "item powah:thermo_generator_spirited", "item powah:solar_panel_spirited", "item powah:reactor_spirited"]
+recompenses = ["xp 13"]
+description = """
+Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier spirituel : chacun à partir du même générateur du palier d'avant.
+"""
 
 [[quete]]
 cle = "palier_spirituel"
-titre = "Une cellule spirituelle"
-deps = ["palier_niotique", "spirited"]
+titre = "Le stockage spirituel"
+deps = ["palier_niotique", "condensateur_spirituel"]
 optionnel = true
-taches = ["item powah:energy_cell_spirited"]
+taches = ["item powah:energy_cell_spirited", "item powah:battery_spirited", "item powah:energy_cable_spirited 8"]
+recompenses = ["xp 12"]
+description = """
+Cellule d'énergie, batterie et câbles du palier spirituel.
+"""
+
+[[quete]]
+cle = "reseau_spirituel"
+titre = "Le réseau spirituel"
+deps = ["reseau_niotique", "condensateur_spirituel"]
+optionnel = true
+taches = ["item powah:energizing_rod_spirited", "item powah:energy_hopper_spirited", "item powah:energy_discharger_spirited", "item powah:player_transmitter_spirited", "item powah:ender_cell_spirited", "item powah:ender_gate_spirited 4"]
+recompenses = ["xp 12"]
+description = """
+Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier spirituel.
+"""
+
+[[quete]]
+cle = "condensateur_nitro"
+titre = "Un condensateur nitro"
+deps = ["condensateur_spirituel", "nitro"]
+optionnel = true
+taches = ["item powah:capacitor_nitro"]
 recompenses = ["xp 8"]
+description = """
+Le condensateur du palier nitro, avec des cristaux nitro. Il entre dans chaque appareil de ce palier.
+"""
+
+[[quete]]
+cle = "generateurs_nitro"
+titre = "&eLes générateurs nitro"
+deps = ["generateurs_spirituel", "condensateur_nitro"]
+optionnel = true
+forme = "diamond"
+taille = 1.5
+taches = ["item powah:furnator_nitro", "item powah:magmator_nitro", "item powah:thermo_generator_nitro", "item powah:solar_panel_nitro", "item powah:reactor_nitro"]
+recompenses = ["xp 15"]
+description = """
+Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier nitro : chacun à partir du même générateur du palier d'avant. C'est le sommet de Powah : le réacteur nitro est le plus puissant du mod.
+"""
 
 [[quete]]
 cle = "palier_nitro"
-titre = "Une cellule nitro"
-deps = ["palier_spirituel", "nitro"]
+titre = "Le stockage nitro"
+deps = ["palier_spirituel", "condensateur_nitro"]
 optionnel = true
-taille = 1.3
-taches = ["item powah:energy_cell_nitro"]
-recompenses = ["xp 15"]
+taches = ["item powah:energy_cell_nitro", "item powah:battery_nitro", "item powah:energy_cable_nitro 8"]
+recompenses = ["xp 14"]
+description = """
+Cellule d'énergie, batterie et câbles du palier nitro.
+"""
 
 [[quete]]
-cle = "cables_nitro"
-titre = "Des câbles nitro"
-deps = ["palier_nitro", "cable"]
+cle = "reseau_nitro"
+titre = "Le réseau nitro"
+deps = ["reseau_spirituel", "condensateur_nitro"]
 optionnel = true
-taches = ["item powah:energy_cable_nitro 8"]
-recompenses = ["xp 5"]
+taches = ["item powah:energizing_rod_nitro", "item powah:energy_hopper_nitro", "item powah:energy_discharger_nitro", "item powah:player_transmitter_nitro", "item powah:ender_cell_nitro", "item powah:ender_gate_nitro 4"]
+recompenses = ["xp 14"]
+description = """
+Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier nitro.
+"""
 
 [[quete]]
 cle = "transmetteur"
