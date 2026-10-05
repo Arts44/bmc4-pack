@@ -29,7 +29,11 @@
 			y: 0.0d
 		}
 		{
-			description: ["Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts)."]
+			description: [
+				"Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts)."
+				""
+				"Tu as déjà un dragon et plus d'œuf ? &lRegarde ton dragon&r : la quête accepte l'œuf &lou&r la vue d'un dragon, et le reste du chapitre s'ouvre."
+			]
 			icon: {
 				Count: 1
 				id: "dragonmounts:dragon_egg"
@@ -179,6 +183,14 @@
 					item: "minecraft:dragon_egg"
 					optional_task: true
 					type: "item"
+				}
+				{
+					id: "7A386437246B665C"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					to_observe: "dragonmounts:dragon"
+					type: "observation"
 				}
 			]
 			title: "Un œuf de dragon"
@@ -3019,7 +3031,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2BB89154F5D63BFD"]
 			description: ["À la table de forge : un modèle d'amélioration en nétherite, une pièce en nétherite-diamant d'Advanced Netherite et une écaille, pour chaque pièce. Les quatre pièces : progrès « Des écailles de la bête »."]
 			id: "18943C690DB8E5C2"
 			optional: true
@@ -3036,8 +3047,8 @@
 				type: "advancement"
 			}]
 			title: "L'armure de dragon"
-			x: 4.0d
-			y: 15.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2BB89154F5D63BFD"]
@@ -3080,7 +3091,7 @@
 			]
 			title: "Les outils de dragon"
 			x: 4.0d
-			y: 16.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2BB89154F5D63BFD"]
@@ -3113,7 +3124,7 @@
 			]
 			title: "Arc, arbalète et trident de dragon"
 			x: 4.0d
-			y: 18.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2BB89154F5D63BFD"]
@@ -3134,7 +3145,7 @@
 			}]
 			title: "L'armure de cheval de dragon"
 			x: 4.0d
-			y: 19.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["2BB89154F5D63BFD"]
@@ -3155,7 +3166,7 @@
 			}]
 			title: "L'enclume de dragon"
 			x: 4.0d
-			y: 21.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["18943C690DB8E5C2"]
@@ -3175,8 +3186,8 @@
 				type: "item"
 			}]
 			title: "&5Le plastron ailé"
-			x: 6.0d
-			y: 7.5d
+			x: 4.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["6DCDC72E69E3EB5D"]
@@ -3196,7 +3207,7 @@
 			}]
 			title: "Un hangar"
 			x: 6.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["797E47855840E5A8"]

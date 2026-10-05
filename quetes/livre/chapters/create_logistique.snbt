@@ -50,7 +50,7 @@
 			}]
 			title: "Du carton"
 			x: 2.0d
-			y: -3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["25A6A9FD7FFC9272"]
@@ -88,7 +88,7 @@
 			}]
 			title: "Un lien de stock"
 			x: 2.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -170,7 +170,7 @@
 			}]
 			title: "Une chaîne de convoyeur"
 			x: 8.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["01DAB161743BAC6F"]
@@ -207,7 +207,7 @@
 			}]
 			title: "Un interrupteur de stock"
 			x: 2.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			description: ["Un boîtier de laiton frappé avec une plaque d'obsidienne. Tout le matériel de train part de là : station, commandes, portes, signaux."]
@@ -226,7 +226,7 @@
 			}]
 			title: "Des boîtiers ferroviaires"
 			x: 2.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2DF8431B8CB875EB"]
@@ -285,10 +285,9 @@
 			}]
 			title: "Des commandes de train"
 			x: 8.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
-			dependencies: ["12E15CC1924FDDD3"]
 			description: ["Un bogie sur la voie à la station, des blocs collés dessus, des commandes, et le bouton d'assemblage de la station. Le train existe. Il avance avec les commandes ou avec un &7horaire&r (plaque d'obsidienne et papier) glissé dans les commandes."]
 			id: "3F96B8313940C433"
 			rewards: [{
@@ -305,8 +304,8 @@
 				type: "advancement"
 			}]
 			title: "Assembler un train"
-			x: 10.0d
-			y: 0.0d
+			x: 2.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["171D6E62030584A4"]
@@ -379,7 +378,7 @@
 			]
 			title: "Un panneau d'affichage"
 			x: 2.0d
-			y: 3.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3F96B8313940C433"]
@@ -399,14 +398,11 @@
 				type: "advancement"
 			}]
 			title: "Un horaire de train"
-			x: 12.0d
-			y: 5.0d
+			x: 4.0d
+			y: 5.75d
 		}
 		{
-			dependencies: [
-				"0DF06D78E18EEEFF"
-				"63EC7B91D203A2CB"
-			]
+			dependencies: ["63EC7B91D203A2CB"]
 			description: ["Annoncer l'arrivée d'un train sur un tableau d'affichage, avec un lien d'affichage (progrès « Dynamic Timetables »)."]
 			id: "493D7630FACAE2C5"
 			optional: true
@@ -423,8 +419,8 @@
 				type: "advancement"
 			}]
 			title: "Un tableau des arrivées"
-			x: 14.0d
-			y: 5.0d
+			x: 6.0d
+			y: 5.75d
 		}
 		{
 			dependencies: ["3F96B8313940C433"]
@@ -444,8 +440,8 @@
 				type: "advancement"
 			}]
 			title: "Un sifflet de train"
-			x: 12.0d
-			y: 6.5d
+			x: 4.0d
+			y: 7.25d
 		}
 		{
 			dependencies: ["3F96B8313940C433"]
@@ -465,8 +461,8 @@
 				type: "advancement"
 			}]
 			title: "Un train à travers un portail"
-			x: 12.0d
-			y: 8.0d
+			x: 4.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["63EC7B91D203A2CB"]
@@ -486,14 +482,11 @@
 				type: "advancement"
 			}]
 			title: "&6Un train de six wagons"
-			x: 14.0d
-			y: 6.5d
+			x: 6.0d
+			y: 7.25d
 		}
 		{
-			dependencies: [
-				"5B5EE584A4DB2FA8"
-				"39FF612C1F3665C4"
-			]
+			dependencies: ["5B5EE584A4DB2FA8"]
 			description: ["Quitter un siège de train à plus de 5 000 blocs du point de départ (progrès « Field Trip ») : un vrai réseau ferré, signalisé, le sommet de la logistique avec Create."]
 			id: "45CAE8A6C560D70D"
 			optional: true
@@ -511,11 +504,10 @@
 				type: "advancement"
 			}]
 			title: "&6&lUn réseau de 5 000 blocs"
-			x: 16.0d
-			y: 5.0d
+			x: 8.0d
+			y: 5.75d
 		}
 		{
-			dependencies: ["3F55B8C292C796E4"]
 			description: ["Déclencher une commande de colis automatique avec des jauges d'usine (progrès « High Logistics »)."]
 			id: "6A6AC8E9F0157592"
 			optional: true
@@ -532,14 +524,10 @@
 				type: "advancement"
 			}]
 			title: "Une commande automatique"
-			x: 6.0d
-			y: 5.0d
+			x: 2.0d
+			y: 5.75d
 		}
 		{
-			dependencies: [
-				"33E59ADA233300A1"
-				"5BF122DEB978FAB6"
-			]
 			description: ["Une grenouille portuaire attrape un colis sur un convoyeur à chaîne (progrès « Hungry hoppers »)."]
 			id: "54DE5BA897DC6978"
 			optional: true
@@ -556,11 +544,10 @@
 				type: "advancement"
 			}]
 			title: "La grenouille attrape un colis"
-			x: 10.0d
-			y: 5.0d
+			x: 2.0d
+			y: 7.25d
 		}
 		{
-			dependencies: ["2EB0AC178E0B19FB"]
 			description: ["Placer une créature au guichet de stock et passer les premières commandes (progrès « Order Up ! »)."]
 			id: "115108D9B8F4AED5"
 			optional: true
@@ -577,11 +564,10 @@
 				type: "advancement"
 			}]
 			title: "Un employé au guichet"
-			x: 8.0d
-			y: 5.0d
+			x: 2.0d
+			y: 8.75d
 		}
 		{
-			dependencies: ["25A6A9FD7FFC9272"]
 			description: ["Mettre des objets en vente sur une nappe (progrès « Open for business »)."]
 			id: "1BCB10D080798666"
 			optional: true
@@ -598,8 +584,8 @@
 				type: "advancement"
 			}]
 			title: "Une boutique sur nappe"
-			x: 4.0d
-			y: 5.0d
+			x: 2.0d
+			y: 10.25d
 		}
 		{
 			dependencies: [
@@ -621,8 +607,8 @@
 				type: "checkmark"
 			}]
 			title: "&bLa poste et le chemin de fer"
-			x: 12.0d
-			y: 0.0d
+			x: 8.0d
+			y: 1.5d
 		}
 	]
 	title: "&bCreate — logistique et trains"

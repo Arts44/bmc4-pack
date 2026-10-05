@@ -60,7 +60,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Fabriquer l'alambic** — tâches : item minecraft:brewing_stand, item minecraft:blaze_powder 4 — récompense : xp 2
 - **La potion étrange** — tâches : potion awkward normale 3 — récompense : xp 2 — après : alambic
   > Verrue du Nether sur eau. La base de tout. Première potion : progrès « Local Brewery ».
-- **Brasserie locale** — tâches : advancement minecraft:nether/brew_potion — récompense : xp 2 — après : etrange
+- **Brasserie locale** — tâches : advancement minecraft:nether/brew_potion — récompense : xp 2
 - **Soin** — tâches : potion healing, potion strong_healing — récompense : xp 3 — après : etrange
   > Melon scintillant. Renforcée : II, à la poudre lumineuse. Jetable, elle soigne tout le monde autour, et blesse les morts-vivants.
 - **Régénération** — tâches : potion regeneration, potion long_regeneration, potion strong_regeneration — récompense : xp 4 — après : etrange
@@ -101,7 +101,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Banale (sucre, melon, etc. sur l'eau), épaisse (poudre lumineuse sur l'eau), étrange. Seule l'étrange mène quelque part.
 - **Chance** *(optionnelle)* — tâches : potion luck — récompense : xp 5
   > Pas de recette vanilla : elle se trouve, ou se vend. Elle améliore le butin de pêche.
-- **Toutes les potions** *(optionnelle)* — tâches : advancement minecraft:nether/all_potions — récompense : xp 25 — après : regeneration, force, rapidite, saut, feu, eau, nuit, invisibilite, chute, tortue
+- **Toutes les potions** *(optionnelle)* — tâches : advancement minecraft:nether/all_potions — récompense : xp 25
   > Tous les effets de potion en même temps (progrès « A Furious Cocktail »).
 - **Comment est-on arrivé là ?** *(optionnelle)* — tâches : advancement minecraft:nether/all_effects — récompense : xp 40 — après : toutes
   > Tous les effets du jeu à la fois, les bons et les mauvais (progrès vanilla).
@@ -113,11 +113,11 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un pinceau, du sable suspect, et des tessons qui racontent. Le renifleur dort dans un œuf sous les ruines.
 - **Un pinceau** — tâches : item minecraft:brush, item minecraft:suspicious_sand — récompense : xp 2
   > Plume, lingot de cuivre, bâton. Le sable suspect est dans les temples du désert, les puits du désert et les ruines océaniques chaudes ; le gravier suspect dans les ruines de sentier et les ruines océaniques froides. Il tombe comme du sable : on le brosse par le haut ou de côté.
-- **Un premier tesson** — tâches : advancement minecraft:adventure/salvage_sherd — récompense : xp 3 — après : pinceau
+- **Un premier tesson** — tâches : advancement minecraft:adventure/salvage_sherd — récompense : xp 3
   > Brosser un bloc suspect jusqu'au bout (progrès vanilla). Le sable peut aussi donner des émeraudes, des diamants, des modèles d'ornement.
 - **Un pot décoré** — tâches : item minecraft:decorated_pot — récompense : xp 2 — après : tesson
   > Quatre briques, ou quatre tessons, ou un mélange. Le progrès « Careful Restoration » veut quatre tessons.
-- **Restauration soignée** *(optionnelle)* — tâches : advancement minecraft:adventure/craft_decorated_pot_using_only_sherds — récompense : xp 5 — après : pot
+- **Restauration soignée** *(optionnelle)* — tâches : advancement minecraft:adventure/craft_decorated_pot_using_only_sherds — récompense : xp 5 — après : tesson
 - **Les ruines de sentier** — tâches : structure minecraft:trail_ruins — récompense : xp 5 — après : intro
   > Déjà au chapitre Overworld — exploration. Enfouies dans les taïgas, les forêts de bouleaux et les clairières de cerisiers : du gravier suspect, et des tessons qu'on ne trouve que là.
 - **Un œuf de renifleur** — tâches : advancement minecraft:husbandry/obtain_sniffer_egg — récompense : xp 8
@@ -170,7 +170,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un modèle, une pièce, un matériau : c'est là qu'on passe à la nétherite et qu'on pose un ornement.
 - **Le modèle de nétherite** — tâches : item minecraft:netherite_upgrade_smithing_template — récompense : xp 5 — après : forgeron
   > Dans les bastions. Il se recopie : sept diamants et un bloc de roche du Nether autour du modèle.
-- **Un premier ornement** — tâches : advancement minecraft:adventure/trim_with_any_armor_pattern — récompense : xp 3 — après : forgeron
+- **Un premier ornement** — tâches : advancement minecraft:adventure/trim_with_any_armor_pattern — récompense : xp 3
   > Un modèle d'ornement, une pièce d'armure, un matériau (progrès vanilla). Seuls les matériaux présents dans le pack s'affichent sur l'armure.
 - **Sentinelle** *(optionnelle)* — tâches : item minecraft:sentry_armor_trim_smithing_template — récompense : xp 3 — après : ornement
   > Avant-poste de pillards.
@@ -200,13 +200,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Guide, Façonneur, Éleveur, Hôte : au pinceau, dans le gravier suspect.
 - **Les ornements exclusifs** *(optionnelle)* — tâches : advancement minecraft:adventure/trim_with_all_exclusive_armor_patterns — récompense : xp 30 — après : ornement
   > Les huit modèles qui ne se trouvent qu'une fois par structure, tous posés (progrès « Smithing with Style »).
-- **Un premier enchantement** — tâches : advancement minecraft:story/enchant_item — récompense : xp 3 — après : table
+- **Un premier enchantement** — tâches : advancement minecraft:story/enchant_item — récompense : xp 3
   > Un objet enchanté à la table (progrès du jeu).
 - **Une pièce de fer** — tâches : advancement minecraft:story/obtain_armor — récompense : xp 3
   > Une pièce d'armure en fer (progrès du jeu).
 - **Une pièce de diamant** — tâches : advancement minecraft:story/shiny_gear — récompense : xp 5 — après : armure_fer
   > Une pièce d'armure en diamant (progrès du jeu).
-- **L'armure de nétherite complète** — tâches : advancement minecraft:nether/netherite_armor — récompense : xp 10 — après : armure_diamant, netherite
+- **L'armure de nétherite complète** — tâches : advancement minecraft:nether/netherite_armor — récompense : xp 10 — après : armure_diamant
   > Les quatre pièces en nétherite (progrès du jeu), chacune forgée sur la pièce de diamant avec un lingot et un modèle. Au-delà, les paliers d'Advanced Netherite sont au chapitre Équipement de fin de partie.
 - **Forgeron** — tâches : checkmark Forgeron — récompense : xp 5 — après : enclume, enchanter, armure_netherite, ornement
 
@@ -230,7 +230,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Neuf fragments des cités anciennes, assemblés.
 - **Relic** *(optionnelle)* — tâches : item minecraft:music_disc_relic — récompense : xp 5 — après : jukebox
   > Au pinceau, dans le gravier des ruines de sentier.
-- **Sons de l'été** *(optionnelle)* — tâches : advancement minecraft:adventure/play_jukebox_in_meadows — récompense : xp 3 — après : jukebox
+- **Sons de l'été** *(optionnelle)* — tâches : advancement minecraft:adventure/play_jukebox_in_meadows — récompense : xp 3
   > Un disque joué dans une prairie d'altitude (progrès vanilla).
 - **Un bloc de note** *(optionnelle)* — tâches : item minecraft:note_block 4 — récompense : xp 2
   > Le bloc dessous choisit l'instrument ; une tête dessus choisit le cri de la créature. Sa redstone est au chapitre Redstone.
@@ -274,7 +274,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Crabber's Delight : corde, dalles, bâtons (progrès du mod). Posé dans l'eau, il attrape crabes, crevettes, palourdes. Une palourde sur la planche à découper peut donner une perle (progrès du mod).
 - **Une soupe de gardien** *(optionnelle)* — tâches : item oceansdelight:guardian_soup — récompense : xp 5
   > Ocean's Delight cuisine les gardiens, les tentacules et les concombres de mer. Le détail au chapitre Cuisine.
-- **Cent poissons** — tâches : stat minecraft:fish_caught 100 — récompense : xp 10 — après : quatre
+- **Cent poissons** — tâches : stat minecraft:fish_caught 100 — récompense : xp 10 — après : pecher
   > Cent prises au total (statistique du jeu). Les trésors, livres enchantés et coquilles de nautile sortent de la même canne.
 - **Marin** — tâches : checkmark Marin — récompense : xp 5 — après : cent
 
@@ -7223,13 +7223,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > La goulotte fait descendre les objets d'un bloc à l'autre à la verticale, sans courroie. Sous une meule ou un concasseur, elle amène tout dans un coffre.
 - **Des boîtiers d'andésite** — tâches : item create:andesite_casing 8 — récompense : xp 3 — après : alliage
   > Le boîtier d'andésite se fait en frappant une bûche écorcée avec de l'alliage. Il encase les arbres et les engrenages, et entre dans la plupart des machines de ce chapitre.
-- **Compacter à la presse** *(optionnelle)* — tâches : advancement create:compacting — récompense : xp 4 — après : presse, bassin
+- **Compacter à la presse** *(optionnelle)* — tâches : advancement create:compacting — récompense : xp 4
   > Une presse au-dessus d'un bassin réduit beaucoup d'objets en peu (progrès « Compactification »).
-- **Traiter au ventilateur** *(optionnelle)* — tâches : advancement create:fan_processing — récompense : xp 4 — après : ventilateur
+- **Traiter au ventilateur** *(optionnelle)* — tâches : advancement create:fan_processing — récompense : xp 4
   > Lavage, fumage, hantise, fonte : le ventilateur traite les objets qui passent dans son flux (progrès « Processing by Particle »).
-- **Des roues de concassage à pleine vitesse** *(optionnelle)* — tâches : advancement create:crusher_maxed_0000 — récompense : xp 10 — après : concasseur
+- **Des roues de concassage à pleine vitesse** *(optionnelle)* — tâches : advancement create:crusher_maxed_0000 — récompense : xp 10
   > Une paire de roues de concassage à la vitesse maximale (progrès « Crushing It »). Il faut une source de rotation à la hauteur.
-- **Un moulin à vent au maximum** *(optionnelle)* — tâches : advancement create:windmill_maxed — récompense : xp 10 — après : moulin
+- **Un moulin à vent au maximum** *(optionnelle)* — tâches : advancement create:windmill_maxed — récompense : xp 10
   > Un moulin à vent à la force maximale (progrès « A strong Breeze ») : autant de voiles que le roulement en accepte.
 - **Première chaîne de production** — tâches : checkmark Ma chaîne tourne — récompense : xp 10 — après : concasseur, lavage, entonnoir
   > Un concasseur, un lavage, des entonnoirs et une courroie : la mine rend davantage sans que personne ne touche à rien. C'est le cœur de Create, et le reste n'est que des machines en plus.
@@ -7286,35 +7286,35 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Œuf, sucre et farine de cendre compactés dans un bassin donnent la base du gâteau ; remplie de lave, elle devient un gâteau de Blaze. Donné à un brûleur, il le fait surchauffer le temps d'une recette qui l'exige.
 - **Table à schémas et Schematicannon** — tâches : item create:schematic_table, item create:schematicannon — récompense : xp 5 — après : laiton
   > La table à schémas charge un plan de construction ; le Schematicannon le bâtit bloc par bloc, à partir de ce qu'on met dans l'inventaire à côté de lui. On copie une base, on la reconstruit ailleurs.
-- **L'usine tourne** — tâches : advancement create:steam_engine — récompense : xp 10 — après : bras, vapeur
+- **L'usine tourne** — tâches : advancement create:steam_engine — récompense : xp 10
   > Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, Create — logistique et trains, fait circuler ce que l'usine produit.
-- **Une tôle robuste** *(optionnelle)* — tâches : advancement create:sturdy_sheet — récompense : xp 6 — après : deployeur
+- **Une tôle robuste** *(optionnelle)* — tâches : advancement create:sturdy_sheet — récompense : xp 6
   > De l'obsidienne en poudre, raffinée en tôle robuste : la matière des boîtiers ferroviaires (progrès « The Sturdiest Rocks »).
-- **Un bras à dix sorties** *(optionnelle)* — tâches : advancement create:arm_many_targets — récompense : xp 8 — après : bras
+- **Un bras à dix sorties** *(optionnelle)* — tâches : advancement create:arm_many_targets — récompense : xp 8
   > Un bras mécanique programmé avec dix emplacements de sortie ou plus (progrès « Organize-o-Tron »).
-- **Un bras qui nourrit le brûleur** *(optionnelle)* — tâches : advancement create:arm_blaze_burner — récompense : xp 5 — après : bras, bruleur
+- **Un bras qui nourrit le brûleur** *(optionnelle)* — tâches : advancement create:arm_blaze_burner — récompense : xp 5
   > Le bras mécanique alimente le brûleur à blaze (progrès « Combust-o-Tron »).
-- **Un bec verseur** *(optionnelle)* — tâches : advancement create:spout — récompense : xp 4 — après : pompe
+- **Un bec verseur** *(optionnelle)* — tâches : advancement create:spout — récompense : xp 4
   > Remplir un objet de fluide sous un bec verseur (progrès « Sploosh »).
-- **Un égouttoir** *(optionnelle)* — tâches : advancement create:drain — récompense : xp 4 — après : pompe
+- **Un égouttoir** *(optionnelle)* — tâches : advancement create:drain — récompense : xp 4
   > Vider un objet de son fluide dans un égouttoir (progrès « Tumble Draining »).
-- **Pomper une mer de lave** *(optionnelle)* — tâches : advancement create:hose_pulley_lava — récompense : xp 10 — après : pompe
+- **Pomper une mer de lave** *(optionnelle)* — tâches : advancement create:hose_pulley_lava — récompense : xp 10
   > Une poulie à tuyau dans une étendue de lave assez grande pour compter comme infinie (progrès « Tapping the Mantle ») : du combustible sans fin.
-- **Une contraption qui travaille** *(optionnelle)* — tâches : advancement create:contraption_actors — récompense : xp 5 — après : chassis
+- **Une contraption qui travaille** *(optionnelle)* — tâches : advancement create:contraption_actors — récompense : xp 5
   > Une contraption avec foreuses, scies ou moissonneuses à bord (progrès « Moving with Purpose »).
-- **Une contraption de 200 blocs** *(optionnelle)* — tâches : advancement create:cart_pickup — récompense : xp 12 — après : chariot
+- **Une contraption de 200 blocs** *(optionnelle)* — tâches : advancement create:cart_pickup — récompense : xp 12
   > Ramasser une contraption sur wagonnet d'au moins 200 blocs (progrès « Strong Arms »).
-- **Un wagonnet qui pose ses rails** *(optionnelle)* — tâches : advancement create:self_deploying — récompense : xp 10 — après : chariot
+- **Un wagonnet qui pose ses rails** *(optionnelle)* — tâches : advancement create:self_deploying — récompense : xp 10
   > Une contraption sur wagonnet qui pose les rails devant elle (progrès « Self-Driving Cart »).
-- **Une poulie de 200 blocs** *(optionnelle)* — tâches : advancement create:pulley_maxed — récompense : xp 8 — après : ascenseur
+- **Une poulie de 200 blocs** *(optionnelle)* — tâches : advancement create:pulley_maxed — récompense : xp 8
   > Une poulie à corde déroulée sur plus de 200 blocs de profondeur (progrès « Rope to Nowhere »).
-- **La vapeur à pleine puissance** *(optionnelle)* — tâches : advancement create:steam_engine_maxed — récompense : xp 15 — après : vapeur
+- **La vapeur à pleine puissance** *(optionnelle)* — tâches : advancement create:steam_engine_maxed — récompense : xp 15
   > Une chaudière au niveau de puissance maximal (progrès « Full Steam ») : le moteur d'une vraie usine.
 - **Une usine à mille rails** *(optionnelle)* — tâches : advancement create:track_crafting_factory — récompense : xp 25 — après : vapeur_max, tole_robuste
   > Plus de mille rails sortis de la même presse mécanique (progrès « Track Factory ») : une chaîne de production à grande échelle, le sommet de la fabrication avec Create.
-- **Un scaphandre en nétherite** *(optionnelle)* — tâches : advancement create:diving_suit_lava — récompense : xp 10 — après : scaphandre
+- **Un scaphandre en nétherite** *(optionnelle)* — tâches : advancement create:diving_suit_lava — récompense : xp 10
   > Le scaphandre en nétherite permet de tenter la plongée dans la lave (progrès « Swimming with the Striders »).
-- **Une victoire au canon à patates** *(optionnelle)* — tâches : advancement create:potato_cannon — récompense : xp 4 — après : canon
+- **Une victoire au canon à patates** *(optionnelle)* — tâches : advancement create:potato_cannon — récompense : xp 4
   > Vaincre un ennemi au canon à patates (progrès « Fwoomp ! »).
 - **Une télécommande liée** *(optionnelle)* — tâches : advancement create:linked_controller — récompense : xp 4
   > Activer un lien de redstone avec une manette liée (progrès « Remote Activation »).
@@ -7366,7 +7366,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Boîtier ferroviaire et boussole : deux stations. Posée au bord d'une voie, c'est là qu'on assemble un train, qu'il s'arrête et que l'horaire lui dit où aller.
 - **Des commandes de train** — tâches : item create:controls — récompense : xp 5 — après : station
   > Levier, boîtier ferroviaire, mécanisme de précision. Les commandes se posent sur le train assemblé : on monte, on conduit. Sans elles, le train ne part qu'avec un horaire.
-- **Assembler un train** — tâches : advancement create:train — récompense : xp 10 — après : commandes
+- **Assembler un train** — tâches : advancement create:train — récompense : xp 10
   > Un bogie sur la voie à la station, des blocs collés dessus, des commandes, et le bouton d'assemblage de la station. Le train existe. Il avance avec les commandes ou avec un horaire (plaque d'obsidienne et papier) glissé dans les commandes.
 - **Des signaux** — tâches : item create:track_signal 4, item create:track_observer 2 — récompense : xp 5 — après : voie
   > Boîtier ferroviaire et tube électronique : quatre signaux. Ils découpent la voie en sections et empêchent deux trains d'y entrer ensemble. L'observateur de voie, lui, émet un signal redstone au passage d'un train.
@@ -7376,7 +7376,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Tube électronique entre deux alliages : deux panneaux. Avec un lien d'affichage, ils montrent le contenu d'un coffre, l'heure, les trains attendus en gare, ou le stock d'un guichet.
 - **Un horaire de train** *(optionnelle)* — tâches : advancement create:conductor — récompense : xp 6 — après : train
   > Donner un horaire à un conducteur de train (progrès « Conductor Instructor ») : le train circule seul entre les gares.
-- **Un tableau des arrivées** *(optionnelle)* — tâches : advancement create:display_board_0 — récompense : xp 6 — après : affichage, horaire
+- **Un tableau des arrivées** *(optionnelle)* — tâches : advancement create:display_board_0 — récompense : xp 6 — après : horaire
   > Annoncer l'arrivée d'un train sur un tableau d'affichage, avec un lien d'affichage (progrès « Dynamic Timetables »).
 - **Un sifflet de train** *(optionnelle)* — tâches : advancement create:train_whistle — récompense : xp 4 — après : train
   > Un sifflet à vapeur monté sur le train, actionné en roulant (progrès « Choo Choo ! »).
@@ -7384,15 +7384,15 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Passer un portail à bord d'un train (progrès « Dimensional Commuter ») : les lignes peuvent relier le Nether.
 - **Un train de six wagons** *(optionnelle)* — tâches : advancement create:long_train — récompense : xp 12 — après : horaire
   > Un train d'au moins six wagons (progrès « Ambitious Endeavours »).
-- **Un réseau de 5 000 blocs** *(optionnelle)* — tâches : advancement create:long_travel — récompense : xp 25 — après : train_long, signal
+- **Un réseau de 5 000 blocs** *(optionnelle)* — tâches : advancement create:long_travel — récompense : xp 25 — après : train_long
   > Quitter un siège de train à plus de 5 000 blocs du point de départ (progrès « Field Trip ») : un vrai réseau ferré, signalisé, le sommet de la logistique avec Create.
-- **Une commande automatique** *(optionnelle)* — tâches : advancement create:factory_gauge — récompense : xp 8 — après : jauge
+- **Une commande automatique** *(optionnelle)* — tâches : advancement create:factory_gauge — récompense : xp 8
   > Déclencher une commande de colis automatique avec des jauges d'usine (progrès « High Logistics »).
-- **La grenouille attrape un colis** *(optionnelle)* — tâches : advancement create:frogport — récompense : xp 5 — après : grenouille, chaine
+- **La grenouille attrape un colis** *(optionnelle)* — tâches : advancement create:frogport — récompense : xp 5
   > Une grenouille portuaire attrape un colis sur un convoyeur à chaîne (progrès « Hungry hoppers »).
-- **Un employé au guichet** *(optionnelle)* — tâches : advancement create:stock_ticker — récompense : xp 5 — après : guichet
+- **Un employé au guichet** *(optionnelle)* — tâches : advancement create:stock_ticker — récompense : xp 5
   > Placer une créature au guichet de stock et passer les premières commandes (progrès « Order Up ! »).
-- **Une boutique sur nappe** *(optionnelle)* — tâches : advancement create:table_cloth_shop — récompense : xp 4 — après : carton
+- **Une boutique sur nappe** *(optionnelle)* — tâches : advancement create:table_cloth_shop — récompense : xp 4
   > Mettre des objets en vente sur une nappe (progrès « Open for business »).
 - **La poste et le chemin de fer** — tâches : checkmark Colis livrés, train parti — récompense : xp 10 — après : guichet, train
   > Un guichet qui commande, des colis qui arrivent, un train qui relie. C'est tout Create 6. Le reste du mod se découvre dans l'Encyclopédie, chapitre Atelier Create.
@@ -7542,7 +7542,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un éclat accordé se fabrique dans la plaque elle-même : un silex et quatre poussières de téléportation. Une plaque sans éclat lié n'a pas de destination (message du mod) ; deux plaques accordées font une liaison fixe entre deux bases.
 - **Une pierre de départ** *(optionnelle)* — tâches : item waystones:portstone — récompense : xp 3 — après : pierre
   > La portstone se fait autour d'une pierre de téléportation. On en part, mais on ne peut pas s'y téléporter (infobulle).
-- **Un kilomètre en élytres** *(optionnelle)* — tâches : stat minecraft:aviate_one_cm 100000 — récompense : xp 5 — après : elytres
+- **Un kilomètre en élytres** *(optionnelle)* — tâches : stat minecraft:aviate_one_cm 100000 — récompense : xp 5
   > Mille mètres en vol plané, au total (statistique du jeu). Les cent kilomètres sont au chapitre des Défis.
 - **Partout en un instant** — tâches : checkmark Mon réseau est en place — récompense : xp 5 — après : plaques_liees, porter
 
@@ -7556,7 +7556,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Quinze étagères** — tâches : item minecraft:bookshelf 15 — récompense : xp 3 — après : table
   > 15 étagères, c'est la puissance maximale partout dans le pack : la table d'Easy Magic plafonne à 15, et les deux infuseurs demandent 15 étagères pour leurs niveaux maximaux. Posées autour du bloc avec un espace d'un bloc, sur deux hauteurs ; les coins comptent.
   >   > Les étagères ciselées comptent aussi, une par trois livres, à condition de faire face à la table.
-- **Dix enchantements à la table** — tâches : stat minecraft:enchant_item 10 — récompense : item minecraft:lapis_lazuli 16 — après : etageres
+- **Dix enchantements à la table** — tâches : stat minecraft:enchant_item 10 — récompense : item minecraft:lapis_lazuli 16
   > Dix objets enchantés à la table. Si les trois propositions ne conviennent pas, le bouton de relance les retire contre 5 points d'expérience et un lapis.
 - **L'enclume, version Easy Anvils** — tâches : item minecraft:anvil — récompense : xp 3
   > Avec Easy Anvils, la pénalité de travaux antérieurs est fixe (4), plus de « trop cher », les livres coûtent moitié moins, renommer est gratuit, et l'enclume ne casse qu'une fois sur vingt. Réparer et renommer ne comptent pas comme travaux.
@@ -7590,30 +7590,30 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Épée, pioche, hache, pelle et houe de nétherite-fer, forgées sur les outils de nétherite.
 - **Nétherite-or** — tâches : item advancednetherite:netherite_gold_ingot — récompense : xp 8 — après : fer
   > Un lingot de nétherite-fer et quatre d'or. L'armure complète rend les piglins neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle).
-- **Armure de nétherite-or** — tâches : advancement advancednetherite:nether/netherite_gold_armor — récompense : xp 12 — après : or, fer_armure
+- **Armure de nétherite-or** — tâches : advancement advancednetherite:nether/netherite_gold_armor — récompense : xp 12 — après : fer, fer_armure
   > Les quatre pièces de nétherite-or, forgées sur l'armure du palier d'avant (progrès du mod).
 - **Outils de nétherite-or** — tâches : item advancednetherite:netherite_gold_sword, item advancednetherite:netherite_gold_pickaxe, item advancednetherite:netherite_gold_axe, item advancednetherite:netherite_gold_shovel, item advancednetherite:netherite_gold_hoe — récompense : xp 12 — après : or, fer_outils
   > Épée, pioche, hache, pelle et houe de nétherite-or, forgées sur ceux du palier d'avant.
 - **Nétherite-émeraude** — tâches : item advancednetherite:netherite_emerald_ingot — récompense : xp 10 — après : or
   > Un lingot de nétherite-or et quatre émeraudes. L'armure complète rend les endermen neutres (config). L'épée donne une chance de perle en plus (infobulle).
-- **Armure de nétherite-émeraude** — tâches : advancement advancednetherite:nether/netherite_emerald_armor — récompense : xp 15 — après : emeraude, or_armure
+- **Armure de nétherite-émeraude** — tâches : advancement advancednetherite:nether/netherite_emerald_armor — récompense : xp 15 — après : fer, or_armure
   > Les quatre pièces de nétherite-émeraude, forgées sur l'armure du palier d'avant (progrès du mod).
 - **Outils de nétherite-émeraude** — tâches : item advancednetherite:netherite_emerald_sword, item advancednetherite:netherite_emerald_pickaxe, item advancednetherite:netherite_emerald_axe, item advancednetherite:netherite_emerald_shovel, item advancednetherite:netherite_emerald_hoe — récompense : xp 15 — après : emeraude, or_outils
   > Épée, pioche, hache, pelle et houe de nétherite-émeraude, forgées sur ceux du palier d'avant.
 - **Nétherite-diamant** — tâches : item advancednetherite:netherite_diamond_ingot — récompense : xp 15 — après : emeraude
   > Le dernier palier : un lingot de nétherite-émeraude et quatre diamants. Phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur).
-- **Couvert de nétherite-diamant** — tâches : advancement advancednetherite:nether/netherite_diamond_armor — récompense : xp 25 — après : diamant, emeraude_armure
+- **Couvert de nétherite-diamant** — tâches : advancement advancednetherite:nether/netherite_diamond_armor — récompense : xp 25 — après : fer, emeraude_armure
   > L'armure complète de nétherite-diamant (progrès du mod), forgée pièce par pièce sur l'armure de nétherite-émeraude. Le sommet du chapitre : les trois neutralités à la fois.
   >   > Chaque pièce, une par une, est à l'Armurerie de l'Encyclopédie.
 - **Outils de nétherite-diamant** — tâches : item advancednetherite:netherite_diamond_sword, item advancednetherite:netherite_diamond_pickaxe, item advancednetherite:netherite_diamond_axe, item advancednetherite:netherite_diamond_shovel, item advancednetherite:netherite_diamond_hoe — récompense : xp 20 — après : diamant, emeraude_outils
   > Épée, pioche, hache, pelle et houe de nétherite-diamant, forgées sur ceux du palier d'avant. Chaque outil, un par un, est à l'Arsenal de l'Encyclopédie.
-- **Un bloc très cher** *(optionnelle)* — tâches : advancement advancednetherite:nether/obtain_netherite_diamond_block — récompense : xp 10 — après : diamant
+- **Un bloc très cher** *(optionnelle)* — tâches : advancement advancednetherite:nether/obtain_netherite_diamond_block — récompense : xp 10 — après : fer
   > Neuf lingots de nétherite-diamant (progrès « A very expensive block »).
 - **Un bouclier de bois** *(optionnelle)* — tâches : item shieldexp:wooden_shield — récompense : xp 3
   > Le premier bouclier de Shield Expansion : huit planches et un bâton. Puis fer, diamant et nétherite ; l'or est à part (huit lingots). Tous sont à la collection Boucliers de l'Encyclopédie.
 - **Un bouclier de fer** *(optionnelle)* — tâches : item shieldexp:iron_shield — récompense : xp 5 — après : bouclier_bois
   > Shield Expansion : des boucliers de bois, fer, or, diamant et nétherite, avec une parade au bon moment et une endurance de blocage (options du mod).
-- **Un bouclier de diamant** *(optionnelle)* — tâches : advancement shieldexp:get_diamond_shield — récompense : xp 8 — après : bouclier
+- **Un bouclier de diamant** *(optionnelle)* — tâches : advancement shieldexp:get_diamond_shield — récompense : xp 8
 - **Un bouclier de nétherite** *(optionnelle)* — tâches : advancement shieldexp:get_netherite_shield — récompense : xp 12 — après : bouclier_diamant
 - **Un totem porté** *(optionnelle)* — tâches : item minecraft:totem_of_undying — récompense : xp 5
   > Charm of Undying : le totem d'immortalité se porte dans l'emplacement charme des Curios, et agit depuis là. Le Totem du vide (Void Totem) sauve d'une chute dans le vide, en main ou en charme (infobulle).
@@ -8633,9 +8633,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Repousser toutes les vagues d'un raid. Sur ce serveur, en difficulté normale, un raid compte cinq vagues, plus une vague bonus quand le présage est renforcé.
 - **Les illageois de Raided** *(optionnelle)* — tâches : kill raided:electromancer, kill raided:necromancer, kill raided:inquisitor, kill raided:savager, kill raided:incinerator — récompense : xp 15 — après : heros
   > Raided ajoute cinq illageois aux raids, activés sur ce serveur. L'électromancien arrive dès la première vague, le nécromancien à la deuxième, l'inquisiteur et le « Savager » à la troisième, l'incinérateur à la quatrième. Il faut donc tenir au moins quatre vagues pour les croiser tous.
-- **Cinquante échanges** — tâches : stat minecraft:traded_with_villager 50 — récompense : xp 5 — après : bibliothecaire
+- **Cinquante échanges** — tâches : stat minecraft:traded_with_villager 50 — récompense : xp 5 — après : echange
   > Cinquante échanges avec les villageois (statistique du jeu). Un villageois qui échange monte en niveau : novice, apprenti, compagnon, expert, maître.
-- **Deux cent cinquante échanges** — tâches : stat minecraft:traded_with_villager 250 — récompense : xp 10 — après : echanges_50, comptoir
+- **Deux cent cinquante échanges** — tâches : stat minecraft:traded_with_villager 250 — récompense : xp 10 — après : echanges_50, echange
   > Assez pour amener plusieurs villageois jusqu'au rang de maître. Le comptoir de Trading Post rassemble les offres des marchands proches.
 - **Cinq raids gagnés** *(optionnelle)* — tâches : stat minecraft:raid_win 5 — récompense : xp 15 — après : heros
   > Cinq raids repoussés (statistique du jeu). Les vagues comptent les illageois des mods du serveur.
@@ -8772,7 +8772,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Blue Skies, ce sont deux mondes : l'Everbright, froid et bleu, l'Everdawn, chaud et doré. Les deux s'ouvrent dans la maison du Gatekeeper, dans l'Overworld : le portail y est déjà construit, et le Gatekeeper vend le Journal bleu — le guide du mod — et le briquet zèle, huit émeraudes sur ce serveur. Les émeraudes offertes sont pour lui.
 - **Un briquet zèle** — tâches : item blue_skies:zeal_lighter — récompense : xp 3
   > Il allume les portails de l'Everbright (pierre taillée turquoise) et de l'Everdawn (pierre taillée lunaire). Les blocs des portails se prennent chez le Gatekeeper si on veut en construire un chez soi.
-- **Entrer dans l'Everbright** — tâches : advancement blue_skies:everbright/enter — récompense : xp 10 — après : briquet
+- **Entrer dans l'Everbright** — tâches : advancement blue_skies:everbright/enter — récompense : xp 10
   > Un monde de neige, de lacs et de forêts bleues. Les outils de l'Overworld y mordent mal : le mod le dit lui-même (« ce outil ne marche pas aussi bien ici »), il faut ses bois et ses pierres.
 - **Du bois de l'Everbright** — tâches : advancement blue_skies:everbright/get_wood — récompense : xp 2 — après : entrer
   > Lumibleu, étoilibois, nifrisque : des bûches à frapper (progrès du mod). Chaque bâton de ces bois a un usage à la boîte à outils.
@@ -8937,7 +8937,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Progrès « Plainte pour tapage ». Le bâton se fabrique (recette du mod).
 - **Les élytres d'âme** *(optionnelle)* — tâches : item deeperdarker:soul_elytra — récompense : xp 15 — après : eclat
   > Des élytres renforcées par l'éclat d'écho (recette du mod). Les ailes de l'Aether et les jetpacks sont les autres façons de voler.
-- **L'armure du Warden** — tâches : advancement deeperdarker:main/warden_armor — récompense : xp 25 — après : eclat, modele, resonarium_armure
+- **L'armure du Warden** — tâches : advancement deeperdarker:main/warden_armor — récompense : xp 25 — après : eclat, cite, portail
   > Le modèle de forge du Warden s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Chaque pièce, une par une, est à l'Armurerie de l'Encyclopédie.
 - **Du résonarium** — tâches : item deeperdarker:resonarium — récompense : xp 5 — après : portail
   > Le résonarium tombe des Sludges de l'Otherside (table de butin du jar).
@@ -9023,8 +9023,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Dragon Mounts: Legacy** — tâches : checkmark Lu — récompense : xp 2
   > Trente-six races de dragons dans le pack : les huit de base — feu, eau, forêt, glace, fantôme, Nether, End, Aether — et vingt-huit de l'extension : orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, jade, sang, ombre, lumière… Un dragon se monte, vole, et souffle (3 de dégâts sur 40 blocs, config du serveur). En patrouille, il reste à 8 blocs de son poste.
-- **Un œuf de dragon** — tâches : oeuf_dragon fire, oeuf_dragon forest, oeuf_dragon ghost, oeuf_dragon ice, oeuf_dragon nether, oeuf_dragon water, oeuf_dragon aether, oeuf_dragon end, item minecraft:dragon_egg — récompense : xp 5
+- **Un œuf de dragon** — tâches : oeuf_dragon fire, oeuf_dragon forest, oeuf_dragon ghost, oeuf_dragon ice, oeuf_dragon nether, oeuf_dragon water, oeuf_dragon aether, oeuf_dragon end, item minecraft:dragon_egg, observation entity dragonmounts:dragon — récompense : xp 5
   > Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts).
+  >   > Tu as déjà un dragon et plus d'œuf ? Regarde ton dragon : la quête accepte l'œuf ou la vue d'un dragon, et le reste du chapitre s'ouvre.
 - **Faire éclore** — tâches : observation entity dragonmounts:dragon — récompense : xp 8 — après : oeuf
   > Posé, l'œuf couve et l'infobulle compte les secondes. Il change de race selon son milieu (config : les habitats sont actifs). La quête se valide en regardant un dragon.
   >   > Autre voie : dans #dragons, poste !dragon <x> <y> <z> <race> (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée.
@@ -9124,7 +9125,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un œuf de chacune des trente-six races, ensemble dans l'inventaire : les huit de base et les vingt-huit hybrides. C'est le sommet du chapitre.
 - **Des écailles de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_scale 3 — récompense : xp 5
   > DragonLoot : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font l'armure, les outils et l'enclume de dragon, sans plafond de niveaux sur ce serveur.
-- **L'armure de dragon** *(optionnelle)* — tâches : advancement dragonloot:dragon_armor — récompense : xp 15 — après : ecailles
+- **L'armure de dragon** *(optionnelle)* — tâches : advancement dragonloot:dragon_armor — récompense : xp 15
   > À la table de forge : un modèle d'amélioration en nétherite, une pièce en nétherite-diamant d'Advanced Netherite et une écaille, pour chaque pièce. Les quatre pièces : progrès « Des écailles de la bête ».
 - **Les outils de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_sword, item dragonloot:dragon_pickaxe, item dragonloot:dragon_axe, item dragonloot:dragon_shovel, item dragonloot:dragon_hoe — récompense : xp 10 — après : ecailles
   > Même recette pour l'épée, la pioche, la hache, la pelle et la houe : modèle en nétherite, outil en nétherite-diamant d'Advanced Netherite, écaille.
@@ -9147,7 +9148,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Perle de l'End et poudre de blaze. Douze pour le portail, quelques-uns pour chercher la forteresse. L'End du pack est celui de Better End : vingt-huit biomes, des villages, des métaux, et les structures de Moog's.
 - **La forteresse** — tâches : structure betterstrongholds:stronghold — récompense : table aventurier — après : oeil
   > Refaite par YUNG's Better Strongholds : bibliothèques, armureries, prisons, générateurs, coffres par joueur, et des golems de tuff de Friends Foes. Le portail est au fond ; l'œil lancé pointe vers elle.
-- **Entrer dans l'End** — tâches : advancement minecraft:story/enter_the_end — récompense : xp 10 — après : oeil
+- **Entrer dans l'End** — tâches : advancement minecraft:story/enter_the_end — récompense : xp 10
   > L'île centrale est refaite par YUNG's Better End Island, et la plate-forme d'arrivée aussi (config du serveur). Le dragon attend.
 - **Vaincre l'Ender Dragon** — tâches : advancement minecraft:end/kill_dragon — récompense : xp 30 — après : entrer
   > Les cristaux d'abord, le dragon ensuite. Sa mort est annoncée dans #faits-d-armes. Tué avec une arme d'essence enchantée Illumination mystique, il lâche de la poussière cognizante de Mystical Agriculture (config du serveur) ; sa peau sert au grimoire en peau de dragon d'Iron's Spells. Un dragon ré-invoqué avec quatre cristaux ne laisse pas d'œuf sur ce serveur.
@@ -9244,7 +9245,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un autre Frostmaw, ailleurs dans le froid. Seul un combat mené après cette quête compte.
 - **Un masque d'Umvuthana** — tâches : item mowziesmobs:umvuthana_mask_fury, item mowziesmobs:umvuthana_mask_fear, item mowziesmobs:umvuthana_mask_rage, item mowziesmobs:umvuthana_mask_bliss, item mowziesmobs:umvuthana_mask_misery, item mowziesmobs:umvuthana_mask_faith — récompense : xp 5
   > Six masques, sur les Umvuthana ou dans les coffres du bosquet.
-- **Déguisé dans le bosquet** *(optionnelle)* — tâches : advancement mowziesmobs:sneak_grove — récompense : xp 5 — après : masque
+- **Déguisé dans le bosquet** *(optionnelle)* — tâches : advancement mowziesmobs:sneak_grove — récompense : xp 5
   > Entrer dans un bosquet d'Umvuthana déguisé (progrès du mod).
 - **Le Raptor** — tâches : advancement mowziesmobs:kill_umvuthana_raptor — récompense : xp 8
   > Le chef des Umvuthana d'un bosquet (progrès du mod).
@@ -9319,7 +9320,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Les coffres-braseros du sanctum ne s'ouvrent qu'avec une flamme perfide. Ils gardent du débris antique, des diamants, des tessons de poterie, le noyau de fusil et le modèle d'amélioration « Pump-Charge ». Sur ce serveur, un coffre ouvert se remplit de nouveau au bout d'une heure.
 - **Un poing-fusil** *(optionnelle)* — tâches : item netherexp:shotgun_fist — récompense : xp 10 — après : jaden_brasero
   > Le noyau de fusil (« Shotgun Core ») des coffres-braseros, deux lingots de nétherite et un crâne de squelette font le « Shotgun-Fist ». Sur ce serveur, il tire 25 plombs.
-- **Le fusil à pompe** *(optionnelle)* — tâches : advancement netherexp:nether/the_nether_is_full — récompense : xp 15 — après : jaden_fusil
+- **Le fusil à pompe** *(optionnelle)* — tâches : advancement netherexp:nether/the_nether_is_full — récompense : xp 15 — après : jaden_brasero
   > À la table de forge : le modèle « Pump-Charge » sur le poing-fusil, avec une flamme perfide. Le « Pump-Charge Shotgun » est le sommet de l'arsenal de Jaden's. Le modèle se recopie avec une flamme perfide et sept blocs d'os.
 - **Toutes les statues de gargouille** *(optionnelle)* — tâches : item netherexp:ossified_gargoyle_statue, item netherexp:trample_gargoyle_statue, item netherexp:phase_gargoyle_statue, item netherexp:ghoul_gargoyle_statue, item netherexp:wretched_gargoyle_statue, item netherexp:sealed_gargoyle_statue, item netherexp:occult_gargoyle_statue, item netherexp:treacherous_gargoyle_statue, item netherexp:cirripedia_gargoyle_statue, item netherexp:obfuscated_gargoyle_statue — récompense : xp 15 — après : sanctum
   > Les dix statues de gargouille du sanctum, à garder dans l'inventaire (progrès « Lorekeeper »). Quatre d'entre elles attirent les apparitions, qui les changent en créatures : « Trample » en stampede, « Phase » en ecto slab, « Ghoul » en banshee, « Ossified » en vessel. Une statue salée ne se laisse plus posséder.
@@ -9507,7 +9508,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Le casque et le plastron fantômes ne se fabriquent pas : ils sont dans le coffre que laissent les chevaliers fantômes de la forteresse.
 - **Les arbres magiques** *(optionnelle)* — tâches : item twilightforest:transformation_sapling, item twilightforest:time_sapling, item twilightforest:mining_sapling, item twilightforest:sorting_sapling — récompense : xp 10
   > Quatre arbres dont le cœur agit à seize blocs (config du serveur) : Transformation change les biomes, Temps accélère les ticks, Minage tire les minerais, Tri range les coffres. Leurs pousses se trouvent dans les coffres de la forêt.
-- **Arboriste** *(optionnelle)* — tâches : advancement twilightforest:arborist — récompense : xp 15 — après : arbres
+- **Arboriste** *(optionnelle)* — tâches : advancement twilightforest:arborist — récompense : xp 15
   > Tout ce qui vient des arbres de la forêt : chaque dalle, pousse, feuille, bateau, rampe. Le progrès du mod le dit en majuscules.
 - **La forêt n'a plus de secret** — tâches : checkmark Exploré — récompense : xp 5 — après : colline3, belier
   > Une grande colline ou le Bélier suffisent. La cuisine de la forêt est au chapitre Cuisine (Twilight's Flavor Delight).

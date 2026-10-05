@@ -57,7 +57,7 @@
 			}]
 			title: "Un premier parchemin"
 			x: 2.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["5424CD0F4F017837"]
@@ -76,7 +76,7 @@
 			}]
 			title: "Un Journal fragile"
 			x: 4.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["1D99B9C7EA3B1CF1"]
@@ -532,7 +532,7 @@
 			}]
 			title: "Du Mithril"
 			x: 16.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["50BE7B98F4556FAD"]
@@ -552,7 +552,7 @@
 			}]
 			title: "De l'Essence de braise"
 			x: 16.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -574,7 +574,7 @@
 			}]
 			title: "Un Orbe d'amélioration vide"
 			x: 18.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -745,7 +745,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["50BE7B98F4556FAD"]
 			description: ["Un labyrinthe souterrain de zombies, de pièges et de coffres fermés à clé — les &7clés d'os&r ouvrent ses chambres fortes. Au fond repose le corps du &4Roi Mort&r."]
 			id: "74716CCF47DE7839"
 			rewards: [{
@@ -760,8 +759,8 @@
 				type: "advancement"
 			}]
 			title: "Les Catacombes"
-			x: 16.0d
-			y: 1.5d
+			x: 2.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["74716CCF47DE7839"]
@@ -781,8 +780,8 @@
 				value: 1L
 			}]
 			title: "&4Vaincre le Roi Mort"
-			x: 18.0d
-			y: 0.0d
+			x: 4.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["07EE9D4E8544943A"]
@@ -801,7 +800,7 @@
 			}]
 			title: "Un Invocateur d'âme de braise"
 			x: 18.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["0FF4FA0072AB70EB"]
@@ -2022,8 +2021,8 @@
 				type: "item"
 			}]
 			title: "&4Le Necronomicon"
-			x: 18.0d
-			y: 12.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["085B1B1D1EAB17A8"]
@@ -2106,8 +2105,8 @@
 				type: "item"
 			}]
 			title: "Le Grimoire pourri"
-			x: 18.0d
-			y: 14.0d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["085B1B1D1EAB17A8"]

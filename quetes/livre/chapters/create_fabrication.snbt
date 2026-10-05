@@ -57,7 +57,7 @@
 			}]
 			title: "Un brûleur à Blaze vide"
 			x: 2.0d
-			y: -4.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["3E745CD13FBB0280"]
@@ -141,7 +141,7 @@
 			}]
 			title: "Du quartz rose poli"
 			x: 2.0d
-			y: -3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["720C842E3EA107D2"]
@@ -321,7 +321,7 @@
 			}]
 			title: "Une scie mécanique"
 			x: 2.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			description: ["Alliage, lingot de fer, boîtier d'andésite. La &bforeuse&r casse le bloc devant elle, en continu. Sur un piston ou un portique, elle creuse un tunnel ; sur un roulement, elle creuse un puits."]
@@ -339,7 +339,7 @@
 			}]
 			title: "Une foreuse mécanique"
 			x: 2.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			description: ["Dalle de bois, boîtier d'andésite, tige d'extension. Le &bpiston mécanique&r pousse une &lcontraption&r — un ensemble de blocs collés — aussi loin qu'il a de tiges derrière lui. Avec une foreuse devant, c'est une machine à tunnel."]
@@ -365,7 +365,7 @@
 			]
 			title: "Un piston mécanique"
 			x: 2.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			description: ["Dalle de bois, boîtier d'andésite, arbre. Le &broulement&r fait tourner la contraption posée dessus : une porte qui pivote, une moissonneuse circulaire, un moulin décoratif."]
@@ -383,7 +383,7 @@
 			}]
 			title: "Un roulement mécanique"
 			x: 2.0d
-			y: 3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["12EA9566B6898E0E"]
@@ -460,7 +460,7 @@
 			]
 			title: "Pompe, tuyaux et cuve"
 			x: 2.0d
-			y: 4.5d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -532,10 +532,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"5F40B748B212C67C"
-				"39CE5DA1787E2CD6"
-			]
 			description: ["Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, &bCreate — logistique et trains&r, fait circuler ce que l'usine produit."]
 			icon: "create:mechanical_arm"
 			id: "39DB4CFE5663DF08"
@@ -552,11 +548,10 @@
 				type: "advancement"
 			}]
 			title: "&bL'usine tourne"
-			x: 14.0d
-			y: 0.0d
+			x: 2.0d
+			y: 5.25d
 		}
 		{
-			dependencies: ["67166E08215B7EC0"]
 			description: ["De l'obsidienne en poudre, raffinée en tôle robuste : la matière des boîtiers ferroviaires (progrès « The Sturdiest Rocks »)."]
 			id: "5A0CE847215BDFE1"
 			optional: true
@@ -573,11 +568,10 @@
 				type: "advancement"
 			}]
 			title: "Une tôle robuste"
-			x: 10.0d
-			y: 6.5d
+			x: 2.0d
+			y: 7.25d
 		}
 		{
-			dependencies: ["5F40B748B212C67C"]
 			description: ["Un bras mécanique programmé avec dix emplacements de sortie ou plus (progrès « Organize-o-Tron »)."]
 			id: "7B795C17665E6E65"
 			optional: true
@@ -594,14 +588,10 @@
 				type: "advancement"
 			}]
 			title: "Un bras à dix sorties"
-			x: 14.0d
-			y: 6.5d
+			x: 2.0d
+			y: 8.75d
 		}
 		{
-			dependencies: [
-				"5F40B748B212C67C"
-				"21D067244E8FF425"
-			]
 			description: ["Le bras mécanique alimente le brûleur à blaze (progrès « Combust-o-Tron »)."]
 			id: "6F068E4A7D263D23"
 			optional: true
@@ -618,11 +608,10 @@
 				type: "advancement"
 			}]
 			title: "Un bras qui nourrit le brûleur"
-			x: 14.0d
-			y: 8.0d
+			x: 2.0d
+			y: 10.25d
 		}
 		{
-			dependencies: ["0354142EDB38C0B5"]
 			description: ["Remplir un objet de fluide sous un bec verseur (progrès « Sploosh »)."]
 			id: "0948F23B76051AD3"
 			optional: true
@@ -639,11 +628,10 @@
 				type: "advancement"
 			}]
 			title: "Un bec verseur"
-			x: 4.0d
-			y: 6.5d
+			x: 2.0d
+			y: 11.75d
 		}
 		{
-			dependencies: ["0354142EDB38C0B5"]
 			description: ["Vider un objet de son fluide dans un égouttoir (progrès « Tumble Draining »)."]
 			id: "615A63759639E21E"
 			optional: true
@@ -660,11 +648,10 @@
 				type: "advancement"
 			}]
 			title: "Un égouttoir"
-			x: 4.0d
-			y: 8.0d
+			x: 2.0d
+			y: 13.25d
 		}
 		{
-			dependencies: ["0354142EDB38C0B5"]
 			description: ["Une poulie à tuyau dans une étendue de lave assez grande pour compter comme infinie (progrès « Tapping the Mantle ») : du combustible sans fin."]
 			id: "0555DF0109AB8F46"
 			optional: true
@@ -681,11 +668,10 @@
 				type: "advancement"
 			}]
 			title: "Pomper une mer de lave"
-			x: 4.0d
-			y: 9.5d
+			x: 2.0d
+			y: 14.75d
 		}
 		{
-			dependencies: ["59B4A259DBF1792B"]
 			description: ["Une contraption avec foreuses, scies ou moissonneuses à bord (progrès « Moving with Purpose »)."]
 			id: "54700F80B59A0F43"
 			optional: true
@@ -702,11 +688,10 @@
 				type: "advancement"
 			}]
 			title: "Une contraption qui travaille"
-			x: 6.0d
-			y: 6.5d
+			x: 2.0d
+			y: 16.25d
 		}
 		{
-			dependencies: ["39DFA1D30FF613A4"]
 			description: ["Ramasser une contraption sur wagonnet d'au moins 200 blocs (progrès « Strong Arms »)."]
 			id: "68478B73B84FD5DB"
 			optional: true
@@ -723,11 +708,10 @@
 				type: "advancement"
 			}]
 			title: "&6Une contraption de 200 blocs"
-			x: 8.0d
-			y: 6.5d
+			x: 2.0d
+			y: 17.75d
 		}
 		{
-			dependencies: ["39DFA1D30FF613A4"]
 			description: ["Une contraption sur wagonnet qui pose les rails devant elle (progrès « Self-Driving Cart »)."]
 			id: "5307AB2325ED24EE"
 			optional: true
@@ -744,11 +728,10 @@
 				type: "advancement"
 			}]
 			title: "Un wagonnet qui pose ses rails"
-			x: 8.0d
-			y: 8.0d
+			x: 2.0d
+			y: 19.25d
 		}
 		{
-			dependencies: ["38E444B220D0680C"]
 			description: ["Une poulie à corde déroulée sur plus de 200 blocs de profondeur (progrès « Rope to Nowhere »)."]
 			id: "595F81A198DCF3E1"
 			optional: true
@@ -765,11 +748,10 @@
 				type: "advancement"
 			}]
 			title: "Une poulie de 200 blocs"
-			x: 8.0d
-			y: 9.5d
+			x: 2.0d
+			y: 20.75d
 		}
 		{
-			dependencies: ["39CE5DA1787E2CD6"]
 			description: ["Une chaudière au niveau de puissance maximal (progrès « Full Steam ») : le moteur d'une vraie usine."]
 			id: "53B1FF38A0001625"
 			optional: true
@@ -787,8 +769,8 @@
 				type: "advancement"
 			}]
 			title: "&6La vapeur à pleine puissance"
-			x: 8.0d
-			y: 11.0d
+			x: 2.0d
+			y: 22.25d
 		}
 		{
 			dependencies: [
@@ -812,11 +794,10 @@
 				type: "advancement"
 			}]
 			title: "&6&lUne usine à mille rails"
-			x: 12.0d
-			y: 6.5d
+			x: 4.0d
+			y: 7.25d
 		}
 		{
-			dependencies: ["29CF0239B691AB2D"]
 			description: ["Le scaphandre en nétherite permet de tenter la plongée dans la lave (progrès « Swimming with the Striders »)."]
 			id: "6A7C4DBF078B7CAF"
 			optional: true
@@ -833,11 +814,10 @@
 				type: "advancement"
 			}]
 			title: "Un scaphandre en nétherite"
-			x: 4.0d
-			y: 11.0d
+			x: 2.0d
+			y: 23.75d
 		}
 		{
-			dependencies: ["708DB848275EF06A"]
 			description: ["Vaincre un ennemi au canon à patates (progrès « Fwoomp ! »)."]
 			id: "3B900A609C3A4AD2"
 			optional: true
@@ -854,8 +834,8 @@
 				type: "advancement"
 			}]
 			title: "Une victoire au canon à patates"
-			x: 6.0d
-			y: 8.0d
+			x: 2.0d
+			y: 25.25d
 		}
 		{
 			description: ["Activer un lien de redstone avec une manette liée (progrès « Remote Activation »)."]
@@ -875,7 +855,7 @@
 			}]
 			title: "Une télécommande liée"
 			x: 2.0d
-			y: 6.5d
+			y: 26.75d
 		}
 		{
 			dependencies: ["74EEC07055B2D8AF"]
@@ -904,7 +884,7 @@
 			]
 			title: "Des châssis"
 			x: 4.0d
-			y: 12.5d
+			y: 8.75d
 		}
 		{
 			dependencies: [
@@ -929,7 +909,7 @@
 			}]
 			title: "Une foreuse mobile"
 			x: 6.0d
-			y: 9.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["59B4A259DBF1792B"]
@@ -956,7 +936,7 @@
 			]
 			title: "Moissonneuse et charrue"
 			x: 6.0d
-			y: 11.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["59B4A259DBF1792B"]
@@ -977,7 +957,7 @@
 			}]
 			title: "Un rouleau mécanique"
 			x: 6.0d
-			y: 12.5d
+			y: 10.25d
 		}
 		{
 			dependencies: ["59B4A259DBF1792B"]
@@ -1005,7 +985,7 @@
 			]
 			title: "Un ascenseur"
 			x: 6.0d
-			y: 14.0d
+			y: 11.75d
 		}
 		{
 			dependencies: ["59B4A259DBF1792B"]
@@ -1025,7 +1005,7 @@
 			}]
 			title: "Un chariot assembleur"
 			x: 6.0d
-			y: 15.5d
+			y: 13.25d
 		}
 		{
 			dependencies: ["74EEC07055B2D8AF"]
@@ -1046,7 +1026,7 @@
 			}]
 			title: "Un roulement d'horloge"
 			x: 4.0d
-			y: 14.0d
+			y: 10.25d
 		}
 		{
 			description: ["La bouteille d'air se remplit sur un arbre en rotation ; le casque respire sous l'eau, les bottes font marcher au fond."]
@@ -1078,7 +1058,7 @@
 			]
 			title: "Un scaphandre de cuivre"
 			x: 2.0d
-			y: 8.0d
+			y: 28.25d
 		}
 		{
 			dependencies: ["29CF0239B691AB2D"]
@@ -1099,7 +1079,7 @@
 			}]
 			title: "Un canon à patates"
 			x: 4.0d
-			y: 15.5d
+			y: 11.75d
 		}
 	]
 	title: "&bCreate — fabrication avancée"

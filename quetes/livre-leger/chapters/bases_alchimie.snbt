@@ -51,7 +51,7 @@
 			]
 			title: "Fabriquer l'alambic"
 			x: 2.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["28600AE146356172"]
@@ -81,7 +81,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5C16F41EA88E6871"]
 			id: "3BBB35FE52DE3EFA"
 			rewards: [{
 				id: "6E3C33A21CB085A0"
@@ -95,8 +94,8 @@
 				type: "advancement"
 			}]
 			title: "Brasserie locale"
-			x: 6.0d
-			y: -7.5d
+			x: 2.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -136,7 +135,7 @@
 			]
 			title: "Soin"
 			x: 6.0d
-			y: -6.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -188,7 +187,7 @@
 			]
 			title: "Régénération"
 			x: 6.0d
-			y: -4.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -240,7 +239,7 @@
 			]
 			title: "Force"
 			x: 6.0d
-			y: -3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -292,7 +291,7 @@
 			]
 			title: "Rapidité"
 			x: 6.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -344,7 +343,7 @@
 			]
 			title: "Saut"
 			x: 6.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -384,7 +383,7 @@
 			]
 			title: "Résistance au feu"
 			x: 6.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -424,7 +423,7 @@
 			]
 			title: "Respiration aquatique"
 			x: 6.0d
-			y: 3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -464,7 +463,7 @@
 			]
 			title: "Vision nocturne"
 			x: 6.0d
-			y: 4.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["68F300ACE58CFB5B"]
@@ -544,7 +543,7 @@
 			]
 			title: "Chute lente"
 			x: 6.0d
-			y: 6.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -596,7 +595,7 @@
 			]
 			title: "Maître des tortues"
 			x: 6.0d
-			y: 7.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["5C16F41EA88E6871"]
@@ -650,7 +649,7 @@
 			]
 			title: "Poison"
 			x: 6.0d
-			y: 9.5d
+			y: 8.75d
 		}
 		{
 			dependencies: ["645961E801BEA279"]
@@ -692,7 +691,7 @@
 			]
 			title: "Dégâts"
 			x: 8.0d
-			y: 9.5d
+			y: 8.75d
 		}
 		{
 			dependencies: ["459D42D0E4A90473"]
@@ -746,7 +745,7 @@
 			]
 			title: "Lenteur"
 			x: 8.0d
-			y: 11.0d
+			y: 10.25d
 		}
 		{
 			description: ["Œil fermenté directement sur l'eau. Jetée sur un villageois zombie avec une pomme dorée, elle le guérit."]
@@ -787,7 +786,7 @@
 			]
 			title: "Faiblesse"
 			x: 2.0d
-			y: 9.5d
+			y: 8.75d
 		}
 		{
 			dependencies: ["645961E801BEA279"]
@@ -920,7 +919,7 @@
 			]
 			title: "Les trois potions sans effet"
 			x: 4.0d
-			y: 9.5d
+			y: 8.75d
 		}
 		{
 			description: ["Pas de recette vanilla : elle se trouve, ou se vend. Elle améliore le butin de pêche."]
@@ -947,21 +946,9 @@
 			}]
 			title: "Chance"
 			x: 2.0d
-			y: 11.0d
+			y: 10.25d
 		}
 		{
-			dependencies: [
-				"075C489FCC356644"
-				"3649DA38D987A684"
-				"459D42D0E4A90473"
-				"5E599F9D9C682010"
-				"095A6E983429C5FC"
-				"4694FA5E373FDF80"
-				"68F300ACE58CFB5B"
-				"7F1FFF69DF157D87"
-				"2A122869B919038C"
-				"71FA3580A27A4DEC"
-			]
 			description: ["Tous les effets de potion en même temps (progrès « A Furious Cocktail »)."]
 			id: "3BC6D032AFD7E1EB"
 			optional: true
@@ -979,8 +966,8 @@
 				type: "advancement"
 			}]
 			title: "&5Toutes les potions"
-			x: 10.0d
-			y: 9.5d
+			x: 2.0d
+			y: 11.75d
 		}
 		{
 			dependencies: ["3BC6D032AFD7E1EB"]
@@ -1001,8 +988,8 @@
 				type: "advancement"
 			}]
 			title: "&5Comment est-on arrivé là ?"
-			x: 12.0d
-			y: 9.5d
+			x: 4.0d
+			y: 10.25d
 		}
 		{
 			dependencies: [

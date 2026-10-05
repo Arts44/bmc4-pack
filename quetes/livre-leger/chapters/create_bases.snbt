@@ -559,10 +559,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"7860B5E09501EEF6"
-				"67C4A22BB63DEE36"
-			]
 			description: ["Une presse au-dessus d'un bassin réduit beaucoup d'objets en peu (progrès « Compactification »)."]
 			id: "67D57AFC5B9A5D6A"
 			optional: true
@@ -579,11 +575,10 @@
 				type: "advancement"
 			}]
 			title: "Compacter à la presse"
-			x: 16.0d
+			x: 2.0d
 			y: 5.75d
 		}
 		{
-			dependencies: ["42EFCEBE28FB79E2"]
 			description: ["Lavage, fumage, hantise, fonte : le ventilateur traite les objets qui passent dans son flux (progrès « Processing by Particle »)."]
 			id: "642A378207D3896D"
 			optional: true
@@ -600,11 +595,10 @@
 				type: "advancement"
 			}]
 			title: "Traiter au ventilateur"
-			x: 12.0d
-			y: 5.75d
+			x: 2.0d
+			y: 7.25d
 		}
 		{
-			dependencies: ["24201345002DA676"]
 			description: ["Une paire de roues de concassage à la vitesse maximale (progrès « Crushing It »). Il faut une source de rotation à la hauteur."]
 			id: "7A6AEF0CC9B92C51"
 			optional: true
@@ -621,11 +615,10 @@
 				type: "advancement"
 			}]
 			title: "&6Des roues de concassage à pleine vitesse"
-			x: 16.0d
-			y: 7.25d
+			x: 2.0d
+			y: 8.75d
 		}
 		{
-			dependencies: ["4E76D78B815BCE0C"]
 			description: ["Un moulin à vent à la force maximale (progrès « A strong Breeze ») : autant de voiles que le roulement en accepte."]
 			id: "12A2DBFA97F40F9A"
 			optional: true
@@ -642,8 +635,8 @@
 				type: "advancement"
 			}]
 			title: "&6Un moulin à vent au maximum"
-			x: 12.0d
-			y: 7.25d
+			x: 2.0d
+			y: 10.25d
 		}
 		{
 			dependencies: [

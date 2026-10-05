@@ -51,10 +51,9 @@
 			]
 			title: "Un pinceau"
 			x: 2.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
-			dependencies: ["772A14A653325A6D"]
 			description: ["Brosser un bloc suspect jusqu'au bout (progrès vanilla). Le sable peut aussi donner des émeraudes, des diamants, des modèles d'ornement."]
 			id: "0376387E73476D08"
 			rewards: [{
@@ -69,7 +68,7 @@
 				type: "advancement"
 			}]
 			title: "Un premier tesson"
-			x: 4.0d
+			x: 2.0d
 			y: -0.75d
 		}
 		{
@@ -88,11 +87,11 @@
 				type: "item"
 			}]
 			title: "Un pot décoré"
-			x: 6.0d
+			x: 4.0d
 			y: -0.75d
 		}
 		{
-			dependencies: ["18CE461E3ED2F939"]
+			dependencies: ["0376387E73476D08"]
 			id: "08FBD8AE96C80569"
 			optional: true
 			rewards: [{
@@ -108,8 +107,8 @@
 				type: "advancement"
 			}]
 			title: "Restauration soignée"
-			x: 8.0d
-			y: 3.5d
+			x: 4.0d
+			y: 4.25d
 		}
 		{
 			dependencies: ["4C3B062E56A66A7D"]
@@ -127,7 +126,7 @@
 			}]
 			title: "Les ruines de sentier"
 			x: 2.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			description: ["Dans le sable suspect des &lruines océaniques chaudes&r (progrès vanilla). Il éclôt plus vite sur de la mousse."]
@@ -145,7 +144,7 @@
 			}]
 			title: "Un œuf de renifleur"
 			x: 2.0d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["37C515B906C2FE50"]
@@ -183,7 +182,7 @@
 			}]
 			title: "Planter ce qu'il déterre"
 			x: 6.0d
-			y: 0.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0376387E73476D08"]
@@ -251,8 +250,8 @@
 				}
 			]
 			title: "Dix tessons"
-			x: 6.0d
-			y: 3.5d
+			x: 4.0d
+			y: 5.75d
 		}
 		{
 			dependencies: [
@@ -274,8 +273,8 @@
 				type: "checkmark"
 			}]
 			title: "&6Archéologue"
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 0.75d
 		}
 	]
 	title: "&6Archéologie"
