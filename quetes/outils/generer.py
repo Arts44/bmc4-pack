@@ -407,6 +407,9 @@ def disposer_grille(quetes, colonnes):
 
 # ---------------------------------------------------------------- chapitre
 
+DEPS_EXTERNES = []   # (quête, « fichier/clé ») à vérifier une fois tous les chapitres lus
+
+
 def construire_chapitre(toml_path, verif, tables, ix):
     d = tomllib.load(open(toml_path, 'rb'))
     ch = d['chapitre']
@@ -441,8 +444,11 @@ def construire_chapitre(toml_path, verif, tables, ix):
         desc = qd.get('description', '').strip('\n')
         if desc:
             qs['description'] = desc.split('\n')
-        if qd.get('deps'):
-            qs['dependencies'] = [hid(fichier, dp) for dp in qd['deps']]
+        if qd.get('deps') or qd.get('deps_externes'):
+            qs['dependencies'] = [hid(fichier, dp) for dp in qd.get('deps', [])] + \
+                                 [hid(*x.split('/', 1)) for x in qd.get('deps_externes', [])]
+            for x in qd.get('deps_externes', []):
+                DEPS_EXTERNES.append((ou, x))
         if qd.get('exigence') == 'une':
             qs['dependency_requirement'] = 'one_completed'
         if qd.get('optionnel'):
@@ -611,6 +617,11 @@ def main(argv):
         if ch.get('groupe') and ch['groupe'] not in [g['cle'] for g in groupes]:
             raise SystemExit(f"{c} : groupe inconnu « {ch['groupe']} »")
         produits.append((ch, snbt_ch))
+    connues = {f"{ch['fichier']}/{q}" for c in chapitres for ch in [tomllib.load(open(c, 'rb'))['chapitre']]
+               for q in [qq['cle'] for qq in tomllib.load(open(c, 'rb')).get('quete', [])]}
+    for ou, x in DEPS_EXTERNES:
+        if x not in connues:
+            verif.erreurs.append(f"{ou} : dépendance vers une quête d'un autre chapitre inconnue « {x} »")
     tables_snbt = construire_tables(tables, verif)
     if verif.erreurs:
         print('\n'.join(verif.erreurs))

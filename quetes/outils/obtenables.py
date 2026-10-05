@@ -82,13 +82,17 @@ def main(mods, vanilla, paxi):
             d = json_tolerant(z.read(nom))
         except Exception:
             continue
-        if '/recipes/' in n:
+        if '/recipes/' in n and '/advancements/' not in n:
             if isinstance(d, dict) and d.get('type') in (None, '') and not d:
                 continue
             resultats(d, rec)
+            # Blue Skies : {"type": "blue_skies:bluebright_sword"} — un type de
+            # recette au nom de l'objet, le contenu de la recette est dans le code.
+            if isinstance(d, dict) and set(d) == {'type'} and isinstance(d['type'], str):
+                rec.add(d['type'])
         elif '/loot_tables/' in n:
             butin(d, but)
-        else:
+        elif '/worldgen/configured_feature/' in n:
             for m in re.findall(r'"([a-z0-9_]+:[a-z0-9_/]+)"', json.dumps(d)):
                 monde.add(m)
     out = {'recette': sorted(rec), 'butin': sorted(but), 'monde': sorted(monde)}

@@ -27,6 +27,7 @@ d'apparition ne comptent pas.
 """
 import json
 import os
+import re
 import sys
 import tomllib
 import importlib.util as _ilu
@@ -44,7 +45,11 @@ def charger_index():
     for f in ('index.json', 'index_vanilla.json'):
         d = json.load(open(os.path.join(INDEX, f), encoding='utf-8'))
         for k, v in d.items():
-            if isinstance(v, dict):
+            if k == 'tag_membres':   # les mods ajoutent aux balises vanilla : fusionner, jamais écraser
+                tm = ix.setdefault(k, {})
+                for t, membres_ in v.items():
+                    tm[t] = list(dict.fromkeys(tm.get(t, []) + list(membres_)))
+            elif isinstance(v, dict):
                 ix.setdefault(k, {}).update(v)
     p = os.path.join(INDEX, 'apparitions.json')
     ix['apparitions'] = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {'butin': {}, 'biomes_config': {}}
@@ -515,6 +520,160 @@ def structures_mondes(ix, e, n):
                                 'cataclysm', 'irons_spellbooks', 'betternether', 'betterend', 'netherexp', 'bygonenether', 'endersdelight'}, INTRO_STRUCT)
 
 
+# ------------------------------------------------------------- catalogues d'objets
+
+def _obtenables():
+    d = json.load(open(os.path.join(INDEX, 'obtenables.json'), encoding='utf-8'))
+    return set(d['recette']) | set(d['butin']) | set(d['monde'])
+
+
+def membres(ix, tag, vus=None):
+    """Membres d'une balise d'objets, sous-balises résolues."""
+    vus = vus or set()
+    if tag in vus:
+        return set()
+    vus.add(tag)
+    out = set()
+    for v in ix['tag_membres'].get(tag, []):
+        v = v['id'] if isinstance(v, dict) else v
+        out |= membres(ix, v[1:], vus) if v.startswith('#') else {v}
+    return out
+
+
+def chapitre_objets(ix, fichier, titre, icone, icone_fin, intro, objets, verbe='Obtenir', texte=None):
+    """objets : identifiants ; seuls les objets obtenables entrent (outils/obtenables.py)."""
+    ob = _obtenables()
+    entrees, exclues = [], []
+    for i in sorted(set(objets)):
+        if i not in ix['items']:
+            continue
+        if i not in ob:
+            exclues.append((i, "ne sort d'aucune recette, table de butin ni génération"))
+            continue
+        mod = i.split(':')[0]
+        desc = texte(i) if texte else f"Objet de &b{NOM_MOD_STRUCT.get(mod, MOD_FR.get(mod, mod))}&r."
+        entrees.append({'cle': i.replace(':', '_').replace('/', '_'), 'titre': f"{verbe} : {libelle(ix, i, 'objet')}",
+                        'tache': f"item {i}", 'icone': i, 'description': desc})
+    texte_, n, _ = chapitre_catalogue(fichier, titre, icone, icone_fin, intro, entrees,
+                                      "Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.")
+    return texte_, n, exclues
+
+
+MODS_CUISINE = {'farmersdelight': "Farmer's Delight", 'delightful': 'Delightful', 'twilightdelight': "Twilight's Flavor & Delight",
+                'crabbersdelight': "Crabber's Delight", 'mynethersdelight': "My Nether's Delight", 'oceansdelight': "Ocean's Delight",
+                'endersdelight': "Ender's Delight", 'chefsdelight': "Chef's Delight", 'aetherdelight': 'Aether Delight',
+                'quarkdelight': 'Quark Delight'}
+
+
+def gastronomie(ix, e, n):
+    tags = [t for t in ix['tag_membres'] if t in ('c:foods', 'forge:foods') or t.startswith(('c:foods/', 'forge:foods/'))
+            or t in ('farmersdelight:meals', 'farmersdelight:drinks', 'farmersdelight:sweets', 'farmersdelight:pies',
+                     'farmersdelight:feasts', 'farmersdelight:snacks')]
+    objets = set()
+    for t in tags:
+        objets |= {i for i in membres(ix, t) if i.split(':')[0] in MODS_CUISINE}
+    return chapitre_objets(ix, 'gastronomie', '&6Gastronomie', 'farmersdelight:cooking_pot', 'farmersdelight:beef_stew',
+                           "Chaque plat, boisson et douceur de Farmer's Delight et de ses extensions présentes dans le pack. Une quête se valide en ayant le plat dans l'inventaire.\n\n"
+                           "La liste est celle des balises d'aliments du pack ; seuls les plats qu'une recette ou un butin donne vraiment y sont.",
+                           objets, 'Goûter', lambda i: f"Un plat de &b{MODS_CUISINE[i.split(':')[0]]}&r.")
+
+
+def disques(ix, e, n):
+    return chapitre_objets(ix, 'disques', '&dDisques et musiques', 'minecraft:jukebox', 'minecraft:music_disc_pigstep',
+                           "Tous les disques que le pack permet d'obtenir, de tous les mods. Une quête se valide en ayant le disque dans l'inventaire.",
+                           membres(ix, 'minecraft:music_discs'), 'Trouver')
+
+
+def trophees(ix, e, n):
+    objets = [i for i in ix['items'] if (i.endswith('_trophy') or i.endswith('_skull') or (i.endswith('_head') and ':' in i))
+              and 'wall' not in i and 'piston' not in i and i != 'minecraft:player_head'
+              and not re.search(r'_(axe|hoe|pickaxe|shovel|hammer|sword)_head$', i) and i not in ('twilightforest:nagastone_head', 'mysticalagriculture:blank_skull')]
+    return chapitre_objets(ix, 'trophees', '&6Trophées et têtes', 'twilightforest:naga_trophy', 'minecraft:dragon_head',
+                           "Les trophées des boss, les têtes de créatures et les trophées de décoration. Une quête se valide en ayant l'objet dans l'inventaire.",
+                           objets)
+
+
+def minerais(ix, e, n):
+    objets = set()
+    for t in ix['tag_membres']:
+        if t.startswith(('forge:ingots/', 'forge:gems/')):
+            objets |= membres(ix, t)
+    return chapitre_objets(ix, 'minerais', '&7Minerais et lingots', 'minecraft:iron_ingot', 'minecraft:diamond',
+                           "Chaque lingot et chaque gemme du pack, d'après les balises de lingots et de gemmes. Une quête se valide en ayant l'objet dans l'inventaire.",
+                           objets)
+
+
+def bois(ix, e, n):
+    objets = {i for i in membres(ix, 'minecraft:logs') if 'stripped' not in i and re.search(r'(log|stem|stalk)$', i)}
+    return chapitre_objets(ix, 'bois', '&2Bois', 'minecraft:oak_log', 'minecraft:oak_sapling',
+                           "Chaque bûche et chaque tige d'arbre du pack. Une quête se valide en ayant la bûche dans l'inventaire.",
+                           objets, 'Récolter')
+
+
+ARMES = re.compile(r'_(helmet|chestplate|leggings|boots|sword|axe|bow|crossbow|shield|spear|lance|hammer|scythe|dagger|katana|staff|wand)$')
+
+
+def armurerie(ix, e, n):
+    mods = {'aether', 'deep_aether', 'aether_redux', 'twilightforest', 'blue_skies', 'cataclysm', 'irons_spellbooks',
+            'advancednetherite', 'deeperdarker', 'dragonloot', 'mowziesmobs', 'stalwart_dungeons', 'galosphere', 'betterend', 'betternether'}
+    # une quête par ensemble d'armure (le casque le représente) et une par arme
+    objets = [i for i in ix['items'] if i.split(':')[0] in mods and ARMES.search(i)
+              and not re.search(r'_(chestplate|leggings|boots)$', i)]
+    return chapitre_objets(ix, 'armurerie', '&cArmurerie', 'minecraft:netherite_chestplate', 'cataclysm:ignitium_helmet',
+                           "Chaque armure (son casque la représente) et chaque arme des mods d'aventure du pack : Aether, Twilight Forest, Blue Skies, Cataclysm, Iron's Spells, Advanced Netherite, Deeper and Darker, et les autres. Une quête se valide en ayant l'objet dans l'inventaire.",
+                           objets)
+
+
+def arsenal(ix, e, n):
+    objets = [i for i in ix['items'] if i.startswith('securitycraft:')
+              and not re.search(r'reinforced|secret_|_mine$|fake|block_pocket_wall|_item$|scanner_field|creative|admin|sentry_disguise', i)]
+    objets += [i for i in ix['items'] if i in ('securitycraft:keypad_door_item', 'securitycraft:scanner_door_item', 'securitycraft:mine')]
+    return chapitre_objets(ix, 'arsenal', '&cArsenal de défense', 'securitycraft:keypad', 'securitycraft:sentry',
+                           "Chaque bloc et chaque outil de SecurityCraft, hors blocs renforcés et variantes déguisées. Une quête se valide en ayant l'objet dans l'inventaire.",
+                           objets)
+
+
+COULEURS = ('white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black')
+
+
+def atelier_create(ix, e, n):
+    deco = re.compile(r'(cut_|polished_|layered_|_pillar|_slab|_stairs|_wall$|_bricks?$|_tiles?$|small_|^create:(asurine|crimsite|ochrum|veridium|scorchia|scoria|limestone|tuff|andesite|granite|diorite|calcite|dripstone|deepslate)|window|pane|_door$|trapdoor|glass|scaffolding|ladder|bars|seat|toolbox|valve_handle|postbox|table_cloth|_sign$|crate|catwalk|framed|cardboard_block|sheet|nugget|_ingot$|crushed_|raw_|_dust$|powder|dough|cake|sweet|bar_of|honey|chocolate|builders_tea|apple|berries|sandpaper|shard|tube|incomplete|experience|zinc_block|brass_block|andesite_alloy_block|copper_)')
+    objets = [i for i in ix['items'] if i.startswith('create:') and not deco.search(i)
+              and not any(i.endswith('_' + c) or (':' + c + '_') in i for c in COULEURS)]
+    return chapitre_objets(ix, 'atelier-create', '&6Atelier Create', 'create:cogwheel', 'create:mechanical_crafter',
+                           "Chaque machine et chaque composant de Create, hors blocs de décoration, couleurs et matériaux. Une quête se valide en ayant l'objet dans l'inventaire.",
+                           objets, 'Fabriquer')
+
+
+def herbier(ix, e, n):
+    """Mystical Agriculture : une graine par culture dont le matériau existe
+    dans le pack — la règle même du mod (CropHasMaterialCondition) mesurée
+    sur les balises du pack : lingot, gemme, poussière ou objet du même nom,
+    ou créature du même nom pour les cultures de créatures. Les cultures de
+    base (paliers, éléments) sont toujours présentes."""
+    base = {'inferium', 'prudentium', 'tertium', 'imperium', 'supremium', 'air', 'earth', 'water', 'fire', 'nature', 'dye',
+            'nether', 'end', 'experience', 'mystical_flower', 'dirt', 'stone', 'wood', 'ice', 'coal', 'iron', 'gold', 'copper',
+            'diamond', 'emerald', 'lapis_lazuli', 'redstone', 'glowstone', 'nether_quartz', 'netherite', 'amethyst', 'deepslate',
+            'basalt', 'coral', 'honey', 'obsidian', 'prismarine', 'slime', 'soulium', 'soul_sand', 'nature', 'marble', 'limestone', 'fish'}
+    objets, ecartes = [], []
+    for i in ix['items']:
+        if not (i.startswith('mysticalagriculture:') and i.endswith('_seeds')):
+            continue
+        nom = i.split(':')[1][:-6]
+        if nom in ('', 'inferium') and nom != 'inferium':
+            continue
+        materiau = (nom in base or membres(ix, f'forge:ingots/{nom}') or membres(ix, f'forge:gems/{nom}')
+                    or membres(ix, f'forge:dusts/{nom}') or f'minecraft:{nom}' in ix['entities'] or f'minecraft:{nom}' in ix['items'])
+        if materiau:
+            objets.append(i)
+        else:
+            ecartes.append((i, 'matériau absent du pack (CropHasMaterialCondition)'))
+    texte, k, exclues = chapitre_objets(ix, 'herbier', '&aHerbier', 'mysticalagriculture:inferium_seeds', 'mysticalagriculture:supremium_essence',
+                                        "Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion.",
+                                        objets, 'Cultiver', lambda i: "Graine de &aMystical Agriculture&r.")
+    return texte, k, exclues + ecartes
+
+
 MODS_NETHER_END = ['betternether', 'bygonenether', 'netherexp', 'soulfulnether', 'betterend']
 MODS_DIMENSIONS = ['aether', 'deep_aether', 'aether_redux', 'lost_aether_content', 'twilightforest', 'blue_skies', 'deeperdarker']
 
@@ -549,7 +708,9 @@ CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end':
              'biomes-dimensions': biomes_dimensions,
              'structures-vanilla': structures_vanilla, 'structures-repurposed': structures_repurposed,
              'structures-moogs': structures_moogs, 'structures-donjons-villages': structures_villages,
-             'structures-ruines': structures_ruines, 'structures-mondes': structures_mondes}
+             'structures-ruines': structures_ruines, 'structures-mondes': structures_mondes,
+             'gastronomie': gastronomie, 'disques': disques, 'trophees': trophees, 'minerais': minerais, 'bois': bois,
+             'armurerie': armurerie, 'arsenal': arsenal, 'atelier-create': atelier_create, 'herbier': herbier}
 
 
 def main(argv):
