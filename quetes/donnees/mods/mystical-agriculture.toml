@@ -215,7 +215,7 @@ deps = ["fer"]
 taches = ["item mysticalagriculture:harvester"]
 recompenses = ["xp 5"]
 description = """
-Lingots de fer, lingots de soulium, deux faux en diamant et un châssis de machine. La &bmoissonneuse&r récolte et replante devant elle, en continu, avec un peu d'énergie. Le chapitre &bPowah&r dit d'où vient l'énergie.
+Lingots de fer, lingots de soulium, deux faux en diamant et un châssis de machine. La &bmoissonneuse&r récolte et replante devant elle, en continu. Elle brûle du combustible solide, garde une réserve d'énergie interne et accepte les améliorations de machine. Un signal de redstone l'arrête.
 """
 
 [[quete]]
@@ -233,33 +233,32 @@ cle = "eveil"
 titre = "L'autel d'éveil"
 deps = ["supremium", "elements"]
 taille = 1.3
-taches = ["item mysticalagriculture:awakening_altar", "item mysticalagriculture:awakening_pedestal 8"]
+taches = ["item mysticalagriculture:awakening_altar", "item mysticalagriculture:awakening_pedestal 4", "item mysticalagriculture:essence_vessel 4"]
 recompenses = ["xp 8"]
 description = """
-Comme l'autel d'infusion, mais en pierre d'âme et laine orange. À l'&cautel d'éveil&r, un bloc de supremium et dix essences de chaque élément deviennent un &lbloc de supremium éveillé&r.
+Autel et piédestaux en pierre d'âme, laine orange et or, plus quatre &brécipients d'essence&r (or, verre, pierre d'âme) qui tiennent chacun quarante essences d'un élément. L'autel montre où poser le reste, et un signal de redstone le lance. Un bloc de supremium, quatre poussières cognizantes et dix essences de chaque élément deviennent un &lbloc de supremium éveillé&r.
 """
 
 [[quete]]
 cle = "eveille"
 titre = "Du supremium éveillé"
-deps = ["eveil"]
+deps = ["eveil", "cognizant"]
 boss = true
 forme = "diamond"
 taches = ["item mysticalagriculture:awakened_supremium_essence 9"]
 recompenses = ["xp 10"]
 description = """
-Un bloc éveillé se défait en neuf essences de &csupremium éveillé&r. C'est le sommet du mod : outils, armure, et la &lhoue éveillée&r qui ne s'use pas — celle que demande le pylône de récolte.
+Un bloc éveillé se défait en neuf essences de &csupremium éveillé&r ; un lingot de prospérité et deux essences font un lingot éveillé. Le reste du chapitre éveille chaque pièce, jusqu'à la &lhoue éveillée&r qui ne s'use pas — celle que demande le pylône de récolte.
 """
 
 [[quete]]
 cle = "cognizant"
 titre = "La poussière cognizante"
 deps = ["eveil"]
-optionnel = true
 taches = ["item mysticalagriculture:cognizant_dust"]
 recompenses = ["xp 10"]
 description = """
-Le &5Wither&r et l'&5Ender Dragon&r lâchent de la &dpoussière cognizante&r quand ils sont tués avec une arme d'essence enchantée &bMystical Enlightenment&r. Les deux sont activés sur le serveur. Elle sert aux éveils les plus avancés.
+Le &5Wither&r et l'&5Ender Dragon&r lâchent de la &dpoussière cognizante&r quand ils sont tués avec une arme d'essence enchantée &bMystical Enlightenment&r. Les deux sont activés sur le serveur. Il en faut quatre pour chaque bloc de supremium éveillé.
 """
 
 [[quete]]
@@ -272,71 +271,1318 @@ icone = "mysticalagriculture:awakened_supremium_essence"
 taches = ["checkmark Mes champs tournent"]
 recompenses = ["xp 10"]
 description = """
-Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre &aPylons&r ajoute la récolte automatique sans énergie, à une condition près.
+Du fer à la nétherite en graines, un autel, des accélérateurs. Chaque graine du pack a sa quête à l'&7Herbier&r de l'Encyclopédie ; ici, ce sont les paliers. Le chapitre &aPylons&r ajoute la récolte automatique sans énergie, à une condition près.
 """
 
-# ---- §9.4 : une rangée par palier, outils et armure (5 octobre 2026).
-# Identifiants de l'index : épée, pioche, casque, plastron, arrosoir par
-# palier ; dague de soulium, extracteur d'âme, bocal d'âme.
+# ---- Paliers complets (BMC-89, 5 octobre 2026) : armure, outils, arrosoir,
+# four, accélérateur, terre et amélioration de machine à chaque palier, puis
+# chaque pièce éveillée (une quête par objet) ; les 55 augments (palier et
+# type lus dans ModAugments et les classes d'augment, javap ; recettes
+# augment/*.json ; activés par défaut, aucune config ne les coupe) ; les
+# machines. Échelles et preuves : donnees/paliers/mystical-agriculture.toml.
+# Les graines, une par culture, sont à l'Herbier de l'Encyclopédie.
 [[quete]]
-cle = "outils_inferium"
-titre = "Des outils d'inferium"
+cle = "armure_inferium"
+titre = "L'armure d'inferium"
 deps = ["inferium"]
 optionnel = true
-taches = ["item mysticalagriculture:inferium_pickaxe", "item mysticalagriculture:inferium_sword"]
+taches = ["item mysticalagriculture:inferium_helmet", "item mysticalagriculture:inferium_chestplate", "item mysticalagriculture:inferium_leggings", "item mysticalagriculture:inferium_boots"]
 recompenses = ["xp 3"]
 description = """
-Chaque palier d'essence fait ses outils et son armure, plus solides de palier en palier. Les arrosoirs font pousser ce qu'ils arrosent.
+Chaque pièce d'armure d'essence part de la pièce du palier d'avant (les pièces en diamant pour l'inferium), avec deux lingots et deux gemmes d'inferium. Un lingot : un lingot de prospérité et deux essences ; une gemme : une gemme de prospérité et deux essences. Les quatre pièces, à garder. Chaque pièce porte un augment de palier Inferium au plus.
+"""
+
+[[quete]]
+cle = "outils_inferium"
+titre = "Les outils d'inferium"
+deps = ["inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:inferium_sword", "item mysticalagriculture:inferium_pickaxe", "item mysticalagriculture:inferium_axe", "item mysticalagriculture:inferium_shovel", "item mysticalagriculture:inferium_hoe", "item mysticalagriculture:inferium_sickle", "item mysticalagriculture:inferium_scythe", "item mysticalagriculture:inferium_bow", "item mysticalagriculture:inferium_crossbow", "item mysticalagriculture:inferium_shears", "item mysticalagriculture:inferium_fishing_rod"]
+recompenses = ["xp 3"]
+description = """
+Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Au premier palier, on part des outils en diamant, d'un arc, d'une arbalète, de cisailles, d'une canne à pêche, et de la faux et de la faucille en diamant du mod. La faucille fauche les plantes sur une zone, la faux récolte sans arracher et frappe large ; plus le palier monte, plus la zone grandit. Chaque outil porte un augment de palier Inferium au plus.
 """
 
 [[quete]]
 cle = "arrosoir"
 titre = "Un arrosoir d'inferium"
-deps = ["inferium"]
+deps = ["inferium", "arrosoir_simple"]
 optionnel = true
 taches = ["item mysticalagriculture:inferium_watering_can"]
 recompenses = ["xp 3"]
+description = """
+L'arrosoir du palier d'avant, quatre lingots d'inferium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+"""
+
+[[quete]]
+cle = "four_inferium"
+titre = "Un four d'inferium"
+deps = ["inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:inferium_furnace"]
+recompenses = ["xp 3"]
+description = """
+Le four d'avant (un four ordinaire), deux lingots, une essence et un bloc d'inferium. Chaque palier cuit plus vite et use moins de combustible.
+"""
+
+[[quete]]
+cle = "amelioration_inferium"
+titre = "L'amélioration d'inferium"
+deps = ["inferium", "base_amelioration"]
+optionnel = true
+taches = ["item mysticalagriculture:inferium_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Quatre essences et quatre lingots d'inferium autour de l'amélioration d'avant (la base d'amélioration). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+"""
 
 [[quete]]
 cle = "armure_prudentium"
-titre = "Une armure de prudentium"
-deps = ["prudentium"]
+titre = "L'armure de prudentium"
+deps = ["prudentium", "armure_inferium"]
 optionnel = true
-taches = ["item mysticalagriculture:prudentium_helmet", "item mysticalagriculture:prudentium_chestplate"]
-recompenses = ["xp 4"]
+taches = ["item mysticalagriculture:prudentium_helmet", "item mysticalagriculture:prudentium_chestplate", "item mysticalagriculture:prudentium_leggings", "item mysticalagriculture:prudentium_boots"]
+recompenses = ["xp 5"]
+description = """
+Casque, plastron, jambières, bottes : chaque pièce d'inferium, deux lingots et deux gemmes de prudentium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Prudentium au plus.
+"""
+
+[[quete]]
+cle = "outils_prudentium"
+titre = "Les outils de prudentium"
+deps = ["prudentium", "outils_inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:prudentium_sword", "item mysticalagriculture:prudentium_pickaxe", "item mysticalagriculture:prudentium_axe", "item mysticalagriculture:prudentium_shovel", "item mysticalagriculture:prudentium_hoe", "item mysticalagriculture:prudentium_sickle", "item mysticalagriculture:prudentium_scythe", "item mysticalagriculture:prudentium_bow", "item mysticalagriculture:prudentium_crossbow", "item mysticalagriculture:prudentium_shears", "item mysticalagriculture:prudentium_fishing_rod"]
+recompenses = ["xp 5"]
+description = """
+Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Prudentium au plus.
+"""
+
+[[quete]]
+cle = "arrosoir_prudentium"
+titre = "Un arrosoir de prudentium"
+deps = ["prudentium", "arrosoir"]
+optionnel = true
+taches = ["item mysticalagriculture:prudentium_watering_can"]
+recompenses = ["xp 5"]
+description = """
+L'arrosoir du palier d'avant, quatre lingots de prudentium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+"""
+
+[[quete]]
+cle = "four_prudentium"
+titre = "Un four de prudentium"
+deps = ["prudentium", "four_inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:prudentium_furnace"]
+recompenses = ["xp 5"]
+description = """
+Le four d'avant (celui d'inferium), deux lingots, une essence et un bloc de prudentium. Chaque palier cuit plus vite et use moins de combustible.
+"""
+
+[[quete]]
+cle = "accelerateur_prudentium"
+titre = "Un accélérateur de prudentium"
+deps = ["prudentium", "accelerateur"]
+optionnel = true
+taches = ["item mysticalagriculture:prudentium_growth_accelerator"]
+recompenses = ["xp 5"]
+description = """
+Quatre essences de prudentium, quatre pierres et une gemme de prudentium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers.
+"""
+
+[[quete]]
+cle = "terre_prudentium"
+titre = "De la terre de prudentium"
+deps = ["prudentium", "terre"]
+optionnel = true
+taches = ["item mysticalagriculture:prudentium_farmland 8"]
+recompenses = ["xp 5"]
+description = """
+Un clic droit avec une essence de prudentium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine.
+"""
+
+[[quete]]
+cle = "amelioration_prudentium"
+titre = "L'amélioration de prudentium"
+deps = ["prudentium", "amelioration_inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:prudentium_upgrade"]
+recompenses = ["xp 5"]
+description = """
+Quatre essences et quatre lingots de prudentium autour de l'amélioration d'avant (celle d'inferium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+"""
+
+[[quete]]
+cle = "armure_tertium"
+titre = "L'armure de tertium"
+deps = ["tertium", "armure_prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:tertium_helmet", "item mysticalagriculture:tertium_chestplate", "item mysticalagriculture:tertium_leggings", "item mysticalagriculture:tertium_boots"]
+recompenses = ["xp 7"]
+description = """
+Casque, plastron, jambières, bottes : chaque pièce de prudentium, deux lingots et deux gemmes de tertium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Tertium au plus.
+"""
 
 [[quete]]
 cle = "outils_tertium"
-titre = "Des outils de tertium"
-deps = ["tertium"]
+titre = "Les outils de tertium"
+deps = ["tertium", "outils_prudentium"]
 optionnel = true
-taches = ["item mysticalagriculture:tertium_pickaxe", "item mysticalagriculture:tertium_sword"]
-recompenses = ["xp 5"]
+taches = ["item mysticalagriculture:tertium_sword", "item mysticalagriculture:tertium_pickaxe", "item mysticalagriculture:tertium_axe", "item mysticalagriculture:tertium_shovel", "item mysticalagriculture:tertium_hoe", "item mysticalagriculture:tertium_sickle", "item mysticalagriculture:tertium_scythe", "item mysticalagriculture:tertium_bow", "item mysticalagriculture:tertium_crossbow", "item mysticalagriculture:tertium_shears", "item mysticalagriculture:tertium_fishing_rod"]
+recompenses = ["xp 7"]
+description = """
+Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Tertium au plus.
+"""
+
+[[quete]]
+cle = "arrosoir_tertium"
+titre = "Un arrosoir de tertium"
+deps = ["tertium", "arrosoir_prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:tertium_watering_can"]
+recompenses = ["xp 7"]
+description = """
+L'arrosoir du palier d'avant, quatre lingots de tertium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+"""
+
+[[quete]]
+cle = "four_tertium"
+titre = "Un four de tertium"
+deps = ["tertium", "four_prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:tertium_furnace"]
+recompenses = ["xp 7"]
+description = """
+Le four d'avant (celui de prudentium), deux lingots, une essence et un bloc de tertium. Chaque palier cuit plus vite et use moins de combustible.
+"""
+
+[[quete]]
+cle = "accelerateur_tertium"
+titre = "Un accélérateur de tertium"
+deps = ["tertium", "accelerateur_prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:tertium_growth_accelerator"]
+recompenses = ["xp 7"]
+description = """
+Quatre essences de tertium, quatre pierres et une gemme de tertium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers.
+"""
+
+[[quete]]
+cle = "terre_tertium"
+titre = "De la terre de tertium"
+deps = ["tertium", "terre_prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:tertium_farmland 8"]
+recompenses = ["xp 7"]
+description = """
+Un clic droit avec une essence de tertium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine.
+"""
+
+[[quete]]
+cle = "amelioration_tertium"
+titre = "L'amélioration de tertium"
+deps = ["tertium", "amelioration_prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:tertium_upgrade"]
+recompenses = ["xp 7"]
+description = """
+Quatre essences et quatre lingots de tertium autour de l'amélioration d'avant (celle de prudentium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+"""
 
 [[quete]]
 cle = "armure_imperium"
-titre = "Une armure d'imperium"
-deps = ["imperium"]
+titre = "L'armure d'imperium"
+deps = ["imperium", "armure_tertium"]
 optionnel = true
-taches = ["item mysticalagriculture:imperium_helmet", "item mysticalagriculture:imperium_chestplate"]
-recompenses = ["xp 6"]
+taches = ["item mysticalagriculture:imperium_helmet", "item mysticalagriculture:imperium_chestplate", "item mysticalagriculture:imperium_leggings", "item mysticalagriculture:imperium_boots"]
+recompenses = ["xp 9"]
+description = """
+Casque, plastron, jambières, bottes : chaque pièce de tertium, deux lingots et deux gemmes d'imperium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Imperium au plus.
+"""
+
+[[quete]]
+cle = "outils_imperium"
+titre = "Les outils d'imperium"
+deps = ["imperium", "outils_tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:imperium_sword", "item mysticalagriculture:imperium_pickaxe", "item mysticalagriculture:imperium_axe", "item mysticalagriculture:imperium_shovel", "item mysticalagriculture:imperium_hoe", "item mysticalagriculture:imperium_sickle", "item mysticalagriculture:imperium_scythe", "item mysticalagriculture:imperium_bow", "item mysticalagriculture:imperium_crossbow", "item mysticalagriculture:imperium_shears", "item mysticalagriculture:imperium_fishing_rod"]
+recompenses = ["xp 9"]
+description = """
+Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Imperium au plus.
+"""
+
+[[quete]]
+cle = "arrosoir_imperium"
+titre = "Un arrosoir d'imperium"
+deps = ["imperium", "arrosoir_tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:imperium_watering_can"]
+recompenses = ["xp 9"]
+description = """
+L'arrosoir du palier d'avant, quatre lingots d'imperium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+"""
+
+[[quete]]
+cle = "four_imperium"
+titre = "Un four d'imperium"
+deps = ["imperium", "four_tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:imperium_furnace"]
+recompenses = ["xp 9"]
+description = """
+Le four d'avant (celui de tertium), deux lingots, une essence et un bloc d'imperium. Chaque palier cuit plus vite et use moins de combustible.
+"""
+
+[[quete]]
+cle = "accelerateur_imperium"
+titre = "Un accélérateur d'imperium"
+deps = ["imperium", "accelerateur_tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:imperium_growth_accelerator"]
+recompenses = ["xp 9"]
+description = """
+Quatre essences d'imperium, quatre pierres et une gemme d'imperium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers.
+"""
+
+[[quete]]
+cle = "terre_imperium"
+titre = "De la terre d'imperium"
+deps = ["imperium", "terre_tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:imperium_farmland 8"]
+recompenses = ["xp 9"]
+description = """
+Un clic droit avec une essence d'imperium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine.
+"""
+
+[[quete]]
+cle = "amelioration_imperium"
+titre = "L'amélioration d'imperium"
+deps = ["imperium", "amelioration_tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:imperium_upgrade"]
+recompenses = ["xp 9"]
+description = """
+Quatre essences et quatre lingots d'imperium autour de l'amélioration d'avant (celle de tertium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+"""
+
+[[quete]]
+cle = "armure_supremium"
+titre = "L'armure de supremium"
+deps = ["supremium", "armure_imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:supremium_helmet", "item mysticalagriculture:supremium_chestplate", "item mysticalagriculture:supremium_leggings", "item mysticalagriculture:supremium_boots"]
+recompenses = ["xp 11"]
+description = """
+Casque, plastron, jambières, bottes : chaque pièce d'imperium, deux lingots et deux gemmes de supremium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Supremium au plus.
+"""
 
 [[quete]]
 cle = "outils_supremium"
-titre = "Des outils de supremium"
-deps = ["supremium"]
+titre = "Les outils de supremium"
+deps = ["supremium", "outils_imperium"]
 optionnel = true
-taches = ["item mysticalagriculture:supremium_pickaxe", "item mysticalagriculture:supremium_sword"]
-recompenses = ["xp 8"]
+taches = ["item mysticalagriculture:supremium_sword", "item mysticalagriculture:supremium_pickaxe", "item mysticalagriculture:supremium_axe", "item mysticalagriculture:supremium_shovel", "item mysticalagriculture:supremium_hoe", "item mysticalagriculture:supremium_sickle", "item mysticalagriculture:supremium_scythe", "item mysticalagriculture:supremium_bow", "item mysticalagriculture:supremium_crossbow", "item mysticalagriculture:supremium_shears", "item mysticalagriculture:supremium_fishing_rod"]
+recompenses = ["xp 11"]
+description = """
+Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Supremium au plus.
+"""
+
+[[quete]]
+cle = "arrosoir_supremium"
+titre = "Un arrosoir de supremium"
+deps = ["supremium", "arrosoir_imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:supremium_watering_can"]
+recompenses = ["xp 11"]
+description = """
+L'arrosoir du palier d'avant, quatre lingots de supremium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+"""
+
+[[quete]]
+cle = "four_supremium"
+titre = "Un four de supremium"
+deps = ["supremium", "four_imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:supremium_furnace"]
+recompenses = ["xp 11"]
+description = """
+Le four d'avant (celui d'imperium), deux lingots, une essence et un bloc de supremium. Chaque palier cuit plus vite et use moins de combustible.
+"""
+
+[[quete]]
+cle = "accelerateur_supremium"
+titre = "Un accélérateur de supremium"
+deps = ["supremium", "accelerateur_imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:supremium_growth_accelerator"]
+recompenses = ["xp 11"]
+description = """
+Quatre essences de supremium, quatre pierres et une gemme de supremium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers.
+"""
+
+[[quete]]
+cle = "terre_supremium"
+titre = "De la terre de supremium"
+deps = ["supremium", "terre_imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:supremium_farmland 8"]
+recompenses = ["xp 11"]
+description = """
+Un clic droit avec une essence de supremium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine.
+"""
+
+[[quete]]
+cle = "amelioration_supremium"
+titre = "L'amélioration de supremium"
+deps = ["supremium", "amelioration_imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:supremium_upgrade"]
+recompenses = ["xp 11"]
+description = """
+Quatre essences et quatre lingots de supremium autour de l'amélioration d'avant (celle d'imperium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+"""
+
+[[quete]]
+cle = "eveille_helmet"
+titre = "Le casque éveillé"
+deps = ["eveille", "armure_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_helmet"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_chestplate"
+titre = "Le plastron éveillé"
+deps = ["eveille", "armure_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_chestplate"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_leggings"
+titre = "Les jambières éveillées"
+deps = ["eveille", "armure_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_leggings"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_boots"
+titre = "Les bottes éveillées"
+deps = ["eveille", "armure_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_boots"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_sword"
+titre = "La épée éveillée"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_sword"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
 
 [[quete]]
 cle = "eveille_outils"
-titre = "Des outils de supremium éveillé"
-deps = ["eveille"]
+titre = "La pioche éveillée"
+deps = ["eveille", "outils_supremium"]
 optionnel = true
-taille = 1.3
-taches = ["item mysticalagriculture:awakened_supremium_pickaxe", "item mysticalagriculture:awakened_supremium_sword"]
+taches = ["item mysticalagriculture:awakened_supremium_pickaxe"]
 recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_axe"
+titre = "La hache éveillée"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_axe"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_shovel"
+titre = "La pelle éveillée"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_shovel"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_hoe"
+titre = "La houe éveillée"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_hoe"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_sickle"
+titre = "La faucille éveillée"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_sickle"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_scythe"
+titre = "La faux éveillée"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_scythe"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_bow"
+titre = "Le arc éveillé"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_bow"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_crossbow"
+titre = "La arbalète éveillée"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_crossbow"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_shears"
+titre = "Les cisailles éveillées"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_shears"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_fishing_rod"
+titre = "La canne à pêche éveillée"
+deps = ["eveille", "outils_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_fishing_rod"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_watering_can"
+titre = "L'arrosoir éveillé"
+deps = ["eveille", "arrosoir_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_watering_can"]
+recompenses = ["xp 15"]
+description = """
+À l'autel d'éveil : la pièce en supremium au centre, quatre lingots de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+"""
+
+[[quete]]
+cle = "eveille_four"
+titre = "Le four éveillé"
+deps = ["eveille", "four_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_furnace"]
+recompenses = ["xp 12"]
+description = """
+Le four de supremium, deux lingots et deux gemmes de supremium éveillé, quarante essences de chaque élément : le dernier four du mod.
+"""
+
+[[quete]]
+cle = "eveille_amelioration"
+titre = "L'amélioration éveillée"
+deps = ["eveille", "amelioration_supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:awakened_supremium_upgrade"]
+recompenses = ["xp 12"]
+description = """
+L'amélioration de supremium, quatre lingots de supremium éveillé et vingt essences de chaque élément : la dernière amélioration de machine.
+"""
+
+[[quete]]
+cle = "eveille_tout"
+titre = "&c&lTout en supremium éveillé"
+deps = ["eveille_helmet", "eveille_chestplate", "eveille_leggings", "eveille_boots", "eveille_sword", "eveille_outils", "eveille_axe", "eveille_shovel", "eveille_hoe", "eveille_sickle", "eveille_scythe", "eveille_bow", "eveille_crossbow", "eveille_shears", "eveille_fishing_rod", "eveille_watering_can"]
+optionnel = true
+forme = "diamond"
+taille = 1.8
+icone = "mysticalagriculture:awakened_supremium_chestplate"
+taches = ["item mysticalagriculture:awakened_supremium_helmet", "item mysticalagriculture:awakened_supremium_chestplate", "item mysticalagriculture:awakened_supremium_leggings", "item mysticalagriculture:awakened_supremium_boots", "item mysticalagriculture:awakened_supremium_sword", "item mysticalagriculture:awakened_supremium_pickaxe", "item mysticalagriculture:awakened_supremium_axe", "item mysticalagriculture:awakened_supremium_shovel", "item mysticalagriculture:awakened_supremium_hoe", "item mysticalagriculture:awakened_supremium_sickle", "item mysticalagriculture:awakened_supremium_scythe", "item mysticalagriculture:awakened_supremium_bow", "item mysticalagriculture:awakened_supremium_crossbow", "item mysticalagriculture:awakened_supremium_shears", "item mysticalagriculture:awakened_supremium_fishing_rod", "item mysticalagriculture:awakened_supremium_watering_can"]
+recompenses = ["xp 30"]
+description = """
+Les quatre pièces d'armure, les onze outils et l'arrosoir, tous éveillés, ensemble dans l'inventaire. L'armure complète portée donne, sur ce serveur, le bonus d'ensemble : elle fait pousser les cultures autour de soi. C'est le sommet de Mystical Agriculture.
+"""
+
+[[quete]]
+cle = "table_bricolage"
+titre = "Une table de bricolage"
+deps = ["soulium"]
+optionnel = true
+taches = ["item mysticalagriculture:tinkering_table"]
+recompenses = ["xp 5"]
+description = """
+Sept pierres et deux poussières de soulium. La &btable de bricolage&r pose les augments sur l'armure et les outils d'essence : un emplacement par pièce. Chaque augment a un palier : il ne se pose que sur une pièce de ce palier ou plus haut.
+"""
+
+[[quete]]
+cle = "augment_vierge"
+titre = "Une amélioration vierge"
+deps = ["prosperite"]
+optionnel = true
+taches = ["item mysticalagriculture:unattuned_augment"]
+recompenses = ["xp 3"]
+description = """
+Six éclats de prospérité et trois lingots de fer : l'augment non accordé (« amélioration vierge »). C'est le cœur de chaque augment : il s'infuse à l'autel d'infusion, entouré de ses ingrédients.
+"""
+
+[[quete]]
+cle = "aug_absorption_i"
+titre = "Augment : Absorption I"
+deps = ["table_bricolage", "augment_vierge", "autel", "inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:absorption_i_augment"]
+recompenses = ["xp 4"]
+description = """
+Donne 2 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+"""
+
+[[quete]]
+cle = "aug_absorption_ii"
+titre = "Augment : Absorption II"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium", "aug_absorption_i"]
+optionnel = true
+taches = ["item mysticalagriculture:absorption_ii_augment"]
+recompenses = ["xp 6"]
+description = """
+Donne 4 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_absorption_iii"
+titre = "Augment : Absorption III"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium", "aug_absorption_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:absorption_iii_augment"]
+recompenses = ["xp 8"]
+description = """
+Donne 6 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_absorption_iv"
+titre = "Augment : Absorption IV"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_absorption_iii"]
+optionnel = true
+taches = ["item mysticalagriculture:absorption_iv_augment"]
+recompenses = ["xp 10"]
+description = """
+Donne 8 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_absorption_v"
+titre = "Augment : Absorption V"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium", "aug_absorption_iv"]
+optionnel = true
+taches = ["item mysticalagriculture:absorption_v_augment"]
+recompenses = ["xp 12"]
+description = """
+Donne 10 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_attack_aoe_i"
+titre = "Augment : Attaque de zone I"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:attack_aoe_i_augment"]
+recompenses = ["xp 8"]
+description = """
+Frappe sur 3×3, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_attack_aoe_ii"
+titre = "Augment : Attaque de zone II"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_attack_aoe_i"]
+optionnel = true
+taches = ["item mysticalagriculture:attack_aoe_ii_augment"]
+recompenses = ["xp 10"]
+description = """
+Frappe sur 5×5, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en fer (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_attack_aoe_iii"
+titre = "Augment : Attaque de zone III"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium", "aug_attack_aoe_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:attack_aoe_iii_augment"]
+recompenses = ["xp 12"]
+description = """
+Frappe sur 7×7, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_blindness_resistance"
+titre = "Augment : Résistance à la cécité"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:blindness_resistance_augment"]
+recompenses = ["xp 6"]
+description = """
+Empêche l'effet Cécité, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Torche (×2), Pierre lumineuse (×2), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_fire_resistance"
+titre = "Augment : Résistance au feu"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:fire_resistance_augment"]
+recompenses = ["xp 8"]
+description = """
+Donne Résistance au feu, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Crème de magma (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_flight"
+titre = "Augment : Vol"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:flight_augment"]
+recompenses = ["xp 12"]
+description = """
+Donne le vol comme en créatif, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Étoile du Nether (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_haste_i"
+titre = "Augment : Célérité I"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:haste_i_augment"]
+recompenses = ["xp 8"]
+description = """
+Donne Célérité I, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_haste_ii"
+titre = "Augment : Célérité II"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_haste_i"]
+optionnel = true
+taches = ["item mysticalagriculture:haste_ii_augment"]
+recompenses = ["xp 10"]
+description = """
+Donne Célérité II, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_haste_iii"
+titre = "Augment : Célérité III"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium", "aug_haste_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:haste_iii_augment"]
+recompenses = ["xp 12"]
+description = """
+Donne Célérité III, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_health_boost_i"
+titre = "Augment : Bonus de vie I"
+deps = ["table_bricolage", "augment_vierge", "autel", "inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:health_boost_i_augment"]
+recompenses = ["xp 4"]
+description = """
+Ajoute 2 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+"""
+
+[[quete]]
+cle = "aug_health_boost_ii"
+titre = "Augment : Bonus de vie II"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium", "aug_health_boost_i"]
+optionnel = true
+taches = ["item mysticalagriculture:health_boost_ii_augment"]
+recompenses = ["xp 6"]
+description = """
+Ajoute 4 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_health_boost_iii"
+titre = "Augment : Bonus de vie III"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium", "aug_health_boost_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:health_boost_iii_augment"]
+recompenses = ["xp 8"]
+description = """
+Ajoute 6 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_health_boost_iv"
+titre = "Augment : Bonus de vie IV"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_health_boost_iii"]
+optionnel = true
+taches = ["item mysticalagriculture:health_boost_iv_augment"]
+recompenses = ["xp 10"]
+description = """
+Ajoute 8 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_health_boost_v"
+titre = "Augment : Bonus de vie V"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium", "aug_health_boost_iv"]
+optionnel = true
+taches = ["item mysticalagriculture:health_boost_v_augment"]
+recompenses = ["xp 12"]
+description = """
+Ajoute 10 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_hunger_resistance"
+titre = "Augment : Résistance à la faim"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:hunger_resistance_augment"]
+recompenses = ["xp 10"]
+description = """
+Empêche l'effet Faim, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Tarte à la citrouille (×2), Soupe de champignons (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_jump_boost_i"
+titre = "Augment : Saut amélioré I"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:jump_boost_i_augment"]
+recompenses = ["xp 6"]
+description = """
+Donne Saut amélioré I, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_jump_boost_ii"
+titre = "Augment : Saut amélioré II"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium", "aug_jump_boost_i"]
+optionnel = true
+taches = ["item mysticalagriculture:jump_boost_ii_augment"]
+recompenses = ["xp 8"]
+description = """
+Donne Saut amélioré II, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_jump_boost_iii"
+titre = "Augment : Saut amélioré III"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_jump_boost_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:jump_boost_iii_augment"]
+recompenses = ["xp 10"]
+description = """
+Donne Saut amélioré III, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_luck_i"
+titre = "Augment : Chance I"
+deps = ["table_bricolage", "augment_vierge", "autel", "inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:luck_i_augment"]
+recompenses = ["xp 4"]
+description = """
+Donne Chance I, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+"""
+
+[[quete]]
+cle = "aug_luck_ii"
+titre = "Augment : Chance II"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium", "aug_luck_i"]
+optionnel = true
+taches = ["item mysticalagriculture:luck_ii_augment"]
+recompenses = ["xp 8"]
+description = """
+Donne Chance II, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_luck_iii"
+titre = "Augment : Chance III"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium", "aug_luck_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:luck_iii_augment"]
+recompenses = ["xp 12"]
+description = """
+Donne Chance III, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_mining_aoe_i"
+titre = "Augment : Zone de minage I"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:mining_aoe_i_augment"]
+recompenses = ["xp 6"]
+description = """
+Mine sur 3×3, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_mining_aoe_ii"
+titre = "Augment : Zone de minage II"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium", "aug_mining_aoe_i"]
+optionnel = true
+taches = ["item mysticalagriculture:mining_aoe_ii_augment"]
+recompenses = ["xp 8"]
+description = """
+Mine sur 5×5, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_mining_aoe_iii"
+titre = "Augment : Zone de minage III"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_mining_aoe_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:mining_aoe_iii_augment"]
+recompenses = ["xp 10"]
+description = """
+Mine sur 7×7, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_mining_aoe_iv"
+titre = "Augment : Zone de minage IV"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium", "aug_mining_aoe_iii"]
+optionnel = true
+taches = ["item mysticalagriculture:mining_aoe_iv_augment"]
+recompenses = ["xp 12"]
+description = """
+Mine sur 9×9, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_mining_fatigue_resistance"
+titre = "Augment : Résistance à la fatigue de minage"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:mining_fatigue_resistance_augment"]
+recompenses = ["xp 10"]
+description = """
+Empêche l'effet Fatigue de minage, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×2), Pioche en or (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_nausea_resistance"
+titre = "Augment : Résistance à la nausée"
+deps = ["table_bricolage", "augment_vierge", "autel", "inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:nausea_resistance_augment"]
+recompenses = ["xp 4"]
+description = """
+Empêche l'effet Nausée, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Cuir (×2), Seau de lait (×2), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+"""
+
+[[quete]]
+cle = "aug_night_vision"
+titre = "Augment : Vision nocturne"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:night_vision_augment"]
+recompenses = ["xp 6"]
+description = """
+Donne Vision nocturne, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Carotte dorée (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_no_fall_damage"
+titre = "Augment : Sans dégâts de chute"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:no_fall_damage_augment"]
+recompenses = ["xp 8"]
+description = """
+Annule tous les dégâts de chute, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Diamant (×2), laine (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_pathing_aoe_i"
+titre = "Augment : Zone de chemin I"
+deps = ["table_bricolage", "augment_vierge", "autel", "inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:pathing_aoe_i_augment"]
+recompenses = ["xp 4"]
+description = """
+Trace des chemins sur 3×3 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en fer (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+"""
+
+[[quete]]
+cle = "aug_pathing_aoe_ii"
+titre = "Augment : Zone de chemin II"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium", "aug_pathing_aoe_i"]
+optionnel = true
+taches = ["item mysticalagriculture:pathing_aoe_ii_augment"]
+recompenses = ["xp 6"]
+description = """
+Trace des chemins sur 5×5 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_pathing_aoe_iii"
+titre = "Augment : Zone de chemin III"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium", "aug_pathing_aoe_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:pathing_aoe_iii_augment"]
+recompenses = ["xp 8"]
+description = """
+Trace des chemins sur 7×7 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en diamant (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_pathing_aoe_iv"
+titre = "Augment : Zone de chemin IV"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_pathing_aoe_iii"]
+optionnel = true
+taches = ["item mysticalagriculture:pathing_aoe_iv_augment"]
+recompenses = ["xp 10"]
+description = """
+Trace des chemins sur 9×9 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_poison_resistance"
+titre = "Augment : Résistance au poison"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:poison_resistance_augment"]
+recompenses = ["xp 10"]
+description = """
+Empêche l'effet Poison, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Seau de lait (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_slow_falling"
+titre = "Augment : Chute lente"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:slow_falling_augment"]
+recompenses = ["xp 8"]
+description = """
+Donne Chute lente, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Membrane de Phantom (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_slowness_resistance"
+titre = "Augment : Résistance à la lenteur"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:slowness_resistance_augment"]
+recompenses = ["xp 8"]
+description = """
+Empêche l'effet Lenteur, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×2), Sucre (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_speed_i"
+titre = "Augment : Vitesse I"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:speed_i_augment"]
+recompenses = ["xp 6"]
+description = """
+Donne Vitesse I, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_speed_ii"
+titre = "Augment : Vitesse II"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium", "aug_speed_i"]
+optionnel = true
+taches = ["item mysticalagriculture:speed_ii_augment"]
+recompenses = ["xp 8"]
+description = """
+Donne Vitesse II, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_speed_iii"
+titre = "Augment : Vitesse III"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_speed_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:speed_iii_augment"]
+recompenses = ["xp 10"]
+description = """
+Donne Vitesse III, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_step_assist"
+titre = "Augment : Assistance à la montée"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:step_assist_augment"]
+recompenses = ["xp 8"]
+description = """
+Fait monter les marches d'un bloc sans sauter, posé sur des jambières ou des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Escalier (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_strength_i"
+titre = "Augment : Force I"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:strength_i_augment"]
+recompenses = ["xp 8"]
+description = """
+Donne Force I, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en fer (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_strength_ii"
+titre = "Augment : Force II"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_strength_i"]
+optionnel = true
+taches = ["item mysticalagriculture:strength_ii_augment"]
+recompenses = ["xp 10"]
+description = """
+Donne Force II, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en fer (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_strength_iii"
+titre = "Augment : Force III"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium", "aug_strength_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:strength_iii_augment"]
+recompenses = ["xp 12"]
+description = """
+Donne Force III, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en diamant (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_tilling_aoe_i"
+titre = "Augment : Zone de labour I"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:tilling_aoe_i_augment"]
+recompenses = ["xp 6"]
+description = """
+Laboure sur 3×3 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_tilling_aoe_ii"
+titre = "Augment : Zone de labour II"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium", "aug_tilling_aoe_i"]
+optionnel = true
+taches = ["item mysticalagriculture:tilling_aoe_ii_augment"]
+recompenses = ["xp 8"]
+description = """
+Laboure sur 5×5 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_tilling_aoe_iii"
+titre = "Augment : Zone de labour III"
+deps = ["table_bricolage", "augment_vierge", "autel", "imperium", "aug_tilling_aoe_ii"]
+optionnel = true
+taches = ["item mysticalagriculture:tilling_aoe_iii_augment"]
+recompenses = ["xp 10"]
+description = """
+Laboure sur 7×7 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+"""
+
+[[quete]]
+cle = "aug_tilling_aoe_iv"
+titre = "Augment : Zone de labour IV"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium", "aug_tilling_aoe_iii"]
+optionnel = true
+taches = ["item mysticalagriculture:tilling_aoe_iv_augment"]
+recompenses = ["xp 12"]
+description = """
+Laboure sur 9×9 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "aug_water_breathing"
+titre = "Augment : Respiration aquatique"
+deps = ["table_bricolage", "augment_vierge", "autel", "prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:water_breathing_augment"]
+recompenses = ["xp 6"]
+description = """
+Donne Respiration aquatique, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Poisson-globe (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+"""
+
+[[quete]]
+cle = "aug_weakness_resistance"
+titre = "Augment : Résistance à la faiblesse"
+deps = ["table_bricolage", "augment_vierge", "autel", "tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:weakness_resistance_augment"]
+recompenses = ["xp 8"]
+description = """
+Empêche l'effet Faiblesse, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Hache en fer (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+"""
+
+[[quete]]
+cle = "aug_wither_resistance"
+titre = "Augment : Résistance au Wither"
+deps = ["table_bricolage", "augment_vierge", "autel", "supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:wither_resistance_augment"]
+recompenses = ["xp 12"]
+description = """
+Empêche l'effet Wither, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Crâne de Wither squelette (×2), Étoile du Nether (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+"""
+
+[[quete]]
+cle = "augments_tous"
+titre = "&dTous les augments"
+deps = ["aug_absorption_i", "aug_absorption_ii", "aug_absorption_iii", "aug_absorption_iv", "aug_absorption_v", "aug_attack_aoe_i", "aug_attack_aoe_ii", "aug_attack_aoe_iii", "aug_blindness_resistance", "aug_fire_resistance", "aug_flight", "aug_haste_i", "aug_haste_ii", "aug_haste_iii", "aug_health_boost_i", "aug_health_boost_ii", "aug_health_boost_iii", "aug_health_boost_iv", "aug_health_boost_v", "aug_hunger_resistance", "aug_jump_boost_i", "aug_jump_boost_ii", "aug_jump_boost_iii", "aug_luck_i", "aug_luck_ii", "aug_luck_iii", "aug_mining_aoe_i", "aug_mining_aoe_ii", "aug_mining_aoe_iii", "aug_mining_aoe_iv", "aug_mining_fatigue_resistance", "aug_nausea_resistance", "aug_night_vision", "aug_no_fall_damage", "aug_pathing_aoe_i", "aug_pathing_aoe_ii", "aug_pathing_aoe_iii", "aug_pathing_aoe_iv", "aug_poison_resistance", "aug_slow_falling", "aug_slowness_resistance", "aug_speed_i", "aug_speed_ii", "aug_speed_iii", "aug_step_assist", "aug_strength_i", "aug_strength_ii", "aug_strength_iii", "aug_tilling_aoe_i", "aug_tilling_aoe_ii", "aug_tilling_aoe_iii", "aug_tilling_aoe_iv", "aug_water_breathing", "aug_weakness_resistance", "aug_wither_resistance"]
+optionnel = true
+forme = "diamond"
+taille = 1.5
+taches = ["item mysticalagriculture:absorption_i_augment", "item mysticalagriculture:absorption_ii_augment", "item mysticalagriculture:absorption_iii_augment", "item mysticalagriculture:absorption_iv_augment", "item mysticalagriculture:absorption_v_augment", "item mysticalagriculture:attack_aoe_i_augment", "item mysticalagriculture:attack_aoe_ii_augment", "item mysticalagriculture:attack_aoe_iii_augment", "item mysticalagriculture:blindness_resistance_augment", "item mysticalagriculture:fire_resistance_augment", "item mysticalagriculture:flight_augment", "item mysticalagriculture:haste_i_augment", "item mysticalagriculture:haste_ii_augment", "item mysticalagriculture:haste_iii_augment", "item mysticalagriculture:health_boost_i_augment", "item mysticalagriculture:health_boost_ii_augment", "item mysticalagriculture:health_boost_iii_augment", "item mysticalagriculture:health_boost_iv_augment", "item mysticalagriculture:health_boost_v_augment", "item mysticalagriculture:hunger_resistance_augment", "item mysticalagriculture:jump_boost_i_augment", "item mysticalagriculture:jump_boost_ii_augment", "item mysticalagriculture:jump_boost_iii_augment", "item mysticalagriculture:luck_i_augment", "item mysticalagriculture:luck_ii_augment", "item mysticalagriculture:luck_iii_augment", "item mysticalagriculture:mining_aoe_i_augment", "item mysticalagriculture:mining_aoe_ii_augment", "item mysticalagriculture:mining_aoe_iii_augment", "item mysticalagriculture:mining_aoe_iv_augment", "item mysticalagriculture:mining_fatigue_resistance_augment", "item mysticalagriculture:nausea_resistance_augment", "item mysticalagriculture:night_vision_augment", "item mysticalagriculture:no_fall_damage_augment", "item mysticalagriculture:pathing_aoe_i_augment", "item mysticalagriculture:pathing_aoe_ii_augment", "item mysticalagriculture:pathing_aoe_iii_augment", "item mysticalagriculture:pathing_aoe_iv_augment", "item mysticalagriculture:poison_resistance_augment", "item mysticalagriculture:slow_falling_augment", "item mysticalagriculture:slowness_resistance_augment", "item mysticalagriculture:speed_i_augment", "item mysticalagriculture:speed_ii_augment", "item mysticalagriculture:speed_iii_augment", "item mysticalagriculture:step_assist_augment", "item mysticalagriculture:strength_i_augment", "item mysticalagriculture:strength_ii_augment", "item mysticalagriculture:strength_iii_augment", "item mysticalagriculture:tilling_aoe_i_augment", "item mysticalagriculture:tilling_aoe_ii_augment", "item mysticalagriculture:tilling_aoe_iii_augment", "item mysticalagriculture:tilling_aoe_iv_augment", "item mysticalagriculture:water_breathing_augment", "item mysticalagriculture:weakness_resistance_augment", "item mysticalagriculture:wither_resistance_augment"]
+recompenses = ["xp 25"]
+description = """
+Les cinquante-cinq augments du mod, à garder. Il n'y a qu'un emplacement par pièce : le choix se fait ensuite, pièce par pièce.
+"""
+
+[[quete]]
+cle = "base_amelioration"
+titre = "Une base d'amélioration"
+deps = ["prosperite"]
+optionnel = true
+taches = ["item mysticalagriculture:upgrade_base"]
+recompenses = ["xp 3"]
+description = """
+Quatre éclats et quatre lingots de prospérité autour d'un diamant : la base de toutes les améliorations de machine.
+"""
+
+[[quete]]
+cle = "arrosoir_simple"
+titre = "Un arrosoir"
+deps = ["intro"]
+optionnel = true
+taches = ["item mysticalagriculture:watering_can"]
+recompenses = ["xp 2"]
+description = """
+Quatre lingots de fer, un bol, une poudre d'os. Rempli à une source d'eau, l'&barrosoir&r fait pousser ce qu'il arrose, à la main. Chaque palier d'essence l'améliore.
+"""
+
+[[quete]]
+cle = "chassis"
+titre = "Un châssis de machine"
+deps = ["prosperite"]
+optionnel = true
+taches = ["item mysticalagriculture:machine_frame"]
+recompenses = ["xp 3"]
+description = """
+Quatre lingots de fer, quatre poudres de redstone, une pierre. La base de la moissonneuse, de l'extracteur d'âme, du retransformateur et du générateur de soulium.
+"""
+
+[[quete]]
+cle = "retransformateur"
+titre = "Un retransformateur de graines"
+deps = ["chassis", "soulium"]
+optionnel = true
+taches = ["item mysticalagriculture:seed_reprocessor"]
+recompenses = ["xp 5"]
+description = """
+Lingots de fer, de soulium, deux houes en fer et un châssis. Il change les graines en trop en leur essence. Il brûle du combustible solide et accepte les améliorations.
+"""
+
+[[quete]]
+cle = "generateur_soulium"
+titre = "Un générateur de soulium"
+deps = ["chassis", "soulium"]
+optionnel = true
+taches = ["item mysticalagriculture:soulium_spawner"]
+recompenses = ["xp 8"]
+description = """
+Lingots de fer et de soulium, deux crânes de wither squelette, un châssis. Il fait apparaître des créatures, hostiles ou passives, à partir d'essences, dans un rayon de trois blocs. Combustible solide, améliorations acceptées, coupé par un signal de redstone.
+"""
+
+[[quete]]
+cle = "enchanteur"
+titre = "Un enchanteur"
+deps = ["soulium"]
+optionnel = true
+taches = ["item mysticalagriculture:enchanter"]
+recompenses = ["xp 6"]
+description = """
+Une table d'enchantement, trois pierres d'âme, un lingot de soulium. Il enchante livres, outils et armures avec des matériaux et de l'essence d'expérience, comme une enclume.
+"""
+
+[[quete]]
+cle = "capsule"
+titre = "Une capsule d'expérience"
+deps = ["soulium"]
+optionnel = true
+taches = ["item mysticalagriculture:experience_capsule"]
+recompenses = ["xp 4"]
+description = """
+Deux lingots de soulium et deux verres d'âme. Dans l'inventaire, elle recueille les orbes d'expérience ramassés : c'est ce qu'il faut pour les graines d'expérience.
+"""
+
+[[quete]]
+cle = "cristal_maitre"
+titre = "Le cristal d'infusion maître"
+deps = ["supremium", "cristal"]
+optionnel = true
+taches = ["item mysticalagriculture:master_infusion_crystal"]
+recompenses = ["xp 10"]
+description = """
+Quatre éclats de prospérité, quatre essences et une gemme de supremium : un cristal d'infusion qui ne s'use jamais. Sur ce serveur, le cristal simple tient mille usages.
+"""
 
 [[quete]]
 cle = "soulium"

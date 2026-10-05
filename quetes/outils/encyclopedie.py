@@ -670,7 +670,7 @@ def herbier(ix, e, n):
         else:
             ecartes.append((i, 'matériau absent du pack (CropHasMaterialCondition)'))
     texte, k, exclues = chapitre_objets(ix, 'herbier', '&aHerbier', 'mysticalagriculture:inferium_seeds', 'mysticalagriculture:supremium_essence',
-                                        "Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion.",
+                                        "Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion. Les paliers d'essence, d'équipement et d'augments sont au chapitre Mystical Agriculture.",
                                         objets, 'Cultiver', lambda i: "Graine de &aMystical Agriculture&r.")
     return texte, k, exclues + ecartes
 

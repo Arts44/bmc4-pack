@@ -1,0 +1,928 @@
+# Échelle des paliers — Mystical Agriculture (BMC-89, 5 octobre 2026).
+# Source du chapitre et preuve de chaque marche : jar
+# MysticalAgriculture-1.20.1-7.0.24 (recettes, ModAugments et classes
+# d'augment lus en javap), mysticalagriculture-common.toml du serveur.
+# Contrôlé par generer.py (controler_paliers) : chaque palier a sa quête,
+# chaque palier dépend du précédent de son échelle, le sommet est le dernier.
+chapitre = "mystical_agriculture"
+sommet = "eveille_tout"
+
+[[palier]]
+echelle = "essences"
+cle = "inferium"
+preuve = "minerai d'inferium (génération, config generateInferiumOre = true)"
+
+[[palier]]
+echelle = "essences"
+cle = "cristal"
+preuve = "recette infusion_crystal"
+
+[[palier]]
+echelle = "essences"
+cle = "prudentium"
+preuve = "recette essence/prudentium (infusion)"
+
+[[palier]]
+echelle = "essences"
+cle = "tertium"
+preuve = "recette essence/tertium"
+
+[[palier]]
+echelle = "essences"
+cle = "imperium"
+preuve = "recette essence/imperium"
+
+[[palier]]
+echelle = "essences"
+cle = "supremium"
+preuve = "recette essence/supremium"
+
+[[palier]]
+echelle = "essences"
+cle = "eveil"
+preuve = "recettes awakening_altar, awakening_pedestal, essence_vessel"
+
+[[palier]]
+echelle = "essences"
+cle = "cognizant"
+preuve = "config witherDropsCognizant / dragonDropsCognizant = true"
+
+[[palier]]
+echelle = "essences"
+cle = "eveille"
+preuve = "recette awakened_supremium_block_awakening"
+
+[[palier]]
+echelle = "essences"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "graines"
+cle = "graines_inferium"
+preuve = "recettes seed/infusion/* (palier de culture)"
+
+[[palier]]
+echelle = "graines"
+cle = "bois"
+preuve = "recettes seed/infusion/* (palier de culture)"
+
+[[palier]]
+echelle = "graines"
+cle = "fer"
+preuve = "recettes seed/infusion/* (palier de culture)"
+
+[[palier]]
+echelle = "graines"
+cle = "or"
+preuve = "recettes seed/infusion/* (palier de culture)"
+
+[[palier]]
+echelle = "graines"
+cle = "diamant"
+preuve = "recettes seed/infusion/* (palier de culture)"
+
+[[palier]]
+echelle = "graines"
+cle = "netherite"
+preuve = "recettes seed/infusion/* (palier de culture)"
+
+[[palier]]
+echelle = "armure"
+cle = "armure_inferium"
+preuve = "recettes gear/inferium_helmet, chestplate, leggings, boots"
+
+[[palier]]
+echelle = "armure"
+cle = "armure_prudentium"
+preuve = "recettes gear/prudentium_helmet, chestplate, leggings, boots"
+
+[[palier]]
+echelle = "armure"
+cle = "armure_tertium"
+preuve = "recettes gear/tertium_helmet, chestplate, leggings, boots"
+
+[[palier]]
+echelle = "armure"
+cle = "armure_imperium"
+preuve = "recettes gear/imperium_helmet, chestplate, leggings, boots"
+
+[[palier]]
+echelle = "armure"
+cle = "armure_supremium"
+preuve = "recettes gear/supremium_helmet, chestplate, leggings, boots"
+
+[[palier]]
+echelle = "armure"
+cle = "eveille_helmet"
+preuve = "recette gear/awakened_supremium_helmet"
+
+[[palier]]
+echelle = "armure"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "outils"
+cle = "outils_inferium"
+preuve = "recettes gear/inferium_* (onze outils)"
+
+[[palier]]
+echelle = "outils"
+cle = "outils_prudentium"
+preuve = "recettes gear/prudentium_* (onze outils)"
+
+[[palier]]
+echelle = "outils"
+cle = "outils_tertium"
+preuve = "recettes gear/tertium_* (onze outils)"
+
+[[palier]]
+echelle = "outils"
+cle = "outils_imperium"
+preuve = "recettes gear/imperium_* (onze outils)"
+
+[[palier]]
+echelle = "outils"
+cle = "outils_supremium"
+preuve = "recettes gear/supremium_* (onze outils)"
+
+[[palier]]
+echelle = "outils"
+cle = "eveille_outils"
+preuve = "recette gear/awakened_supremium_pickaxe"
+
+[[palier]]
+echelle = "outils"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_chestplate"
+cle = "armure_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_chestplate"
+cle = "eveille_chestplate"
+preuve = "recette gear/awakened_supremium_chestplate"
+
+[[palier]]
+echelle = "eveil_chestplate"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_leggings"
+cle = "armure_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_leggings"
+cle = "eveille_leggings"
+preuve = "recette gear/awakened_supremium_leggings"
+
+[[palier]]
+echelle = "eveil_leggings"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_boots"
+cle = "armure_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_boots"
+cle = "eveille_boots"
+preuve = "recette gear/awakened_supremium_boots"
+
+[[palier]]
+echelle = "eveil_boots"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_sword"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_sword"
+cle = "eveille_sword"
+preuve = "recette gear/awakened_supremium_sword"
+
+[[palier]]
+echelle = "eveil_sword"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_axe"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_axe"
+cle = "eveille_axe"
+preuve = "recette gear/awakened_supremium_axe"
+
+[[palier]]
+echelle = "eveil_axe"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_shovel"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_shovel"
+cle = "eveille_shovel"
+preuve = "recette gear/awakened_supremium_shovel"
+
+[[palier]]
+echelle = "eveil_shovel"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_hoe"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_hoe"
+cle = "eveille_hoe"
+preuve = "recette gear/awakened_supremium_hoe"
+
+[[palier]]
+echelle = "eveil_hoe"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_sickle"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_sickle"
+cle = "eveille_sickle"
+preuve = "recette gear/awakened_supremium_sickle"
+
+[[palier]]
+echelle = "eveil_sickle"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_scythe"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_scythe"
+cle = "eveille_scythe"
+preuve = "recette gear/awakened_supremium_scythe"
+
+[[palier]]
+echelle = "eveil_scythe"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_bow"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_bow"
+cle = "eveille_bow"
+preuve = "recette gear/awakened_supremium_bow"
+
+[[palier]]
+echelle = "eveil_bow"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_crossbow"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_crossbow"
+cle = "eveille_crossbow"
+preuve = "recette gear/awakened_supremium_crossbow"
+
+[[palier]]
+echelle = "eveil_crossbow"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_shears"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_shears"
+cle = "eveille_shears"
+preuve = "recette gear/awakened_supremium_shears"
+
+[[palier]]
+echelle = "eveil_shears"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "eveil_fishing_rod"
+cle = "outils_supremium"
+preuve = "palier supremium"
+
+[[palier]]
+echelle = "eveil_fishing_rod"
+cle = "eveille_fishing_rod"
+preuve = "recette gear/awakened_supremium_fishing_rod"
+
+[[palier]]
+echelle = "eveil_fishing_rod"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "arrosoirs"
+cle = "arrosoir_simple"
+preuve = "recette watering_can"
+
+[[palier]]
+echelle = "arrosoirs"
+cle = "arrosoir"
+preuve = "recette gear/inferium_watering_can"
+
+[[palier]]
+echelle = "arrosoirs"
+cle = "arrosoir_prudentium"
+preuve = "recette gear/prudentium_watering_can"
+
+[[palier]]
+echelle = "arrosoirs"
+cle = "arrosoir_tertium"
+preuve = "recette gear/tertium_watering_can"
+
+[[palier]]
+echelle = "arrosoirs"
+cle = "arrosoir_imperium"
+preuve = "recette gear/imperium_watering_can"
+
+[[palier]]
+echelle = "arrosoirs"
+cle = "arrosoir_supremium"
+preuve = "recette gear/supremium_watering_can"
+
+[[palier]]
+echelle = "arrosoirs"
+cle = "eveille_watering_can"
+preuve = "recette gear/awakened_supremium_watering_can"
+
+[[palier]]
+echelle = "arrosoirs"
+cle = "eveille_tout"
+preuve = "les seize pièces éveillées"
+
+[[palier]]
+echelle = "fours"
+cle = "four_inferium"
+preuve = "recette inferium_furnace"
+
+[[palier]]
+echelle = "fours"
+cle = "four_prudentium"
+preuve = "recette prudentium_furnace"
+
+[[palier]]
+echelle = "fours"
+cle = "four_tertium"
+preuve = "recette tertium_furnace"
+
+[[palier]]
+echelle = "fours"
+cle = "four_imperium"
+preuve = "recette imperium_furnace"
+
+[[palier]]
+echelle = "fours"
+cle = "four_supremium"
+preuve = "recette supremium_furnace"
+
+[[palier]]
+echelle = "fours"
+cle = "eveille_four"
+preuve = "recette awakened_supremium_furnace"
+
+[[palier]]
+echelle = "accelerateurs"
+cle = "accelerateur"
+preuve = "recette inferium_growth_accelerator"
+
+[[palier]]
+echelle = "accelerateurs"
+cle = "accelerateur_prudentium"
+preuve = "recette prudentium_growth_accelerator"
+
+[[palier]]
+echelle = "accelerateurs"
+cle = "accelerateur_tertium"
+preuve = "recette tertium_growth_accelerator"
+
+[[palier]]
+echelle = "accelerateurs"
+cle = "accelerateur_imperium"
+preuve = "recette imperium_growth_accelerator"
+
+[[palier]]
+echelle = "accelerateurs"
+cle = "accelerateur_supremium"
+preuve = "recette supremium_growth_accelerator"
+
+[[palier]]
+echelle = "terres"
+cle = "terre"
+preuve = "recette inferium_farmland"
+
+[[palier]]
+echelle = "terres"
+cle = "terre_prudentium"
+preuve = "recette prudentium_farmland"
+
+[[palier]]
+echelle = "terres"
+cle = "terre_tertium"
+preuve = "recette tertium_farmland"
+
+[[palier]]
+echelle = "terres"
+cle = "terre_imperium"
+preuve = "recette imperium_farmland"
+
+[[palier]]
+echelle = "terres"
+cle = "terre_supremium"
+preuve = "recette supremium_farmland"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "base_amelioration"
+preuve = "recette upgrade_base"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "amelioration_inferium"
+preuve = "recette inferium_upgrade"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "amelioration_prudentium"
+preuve = "recette prudentium_upgrade"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "amelioration_tertium"
+preuve = "recette tertium_upgrade"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "amelioration_imperium"
+preuve = "recette imperium_upgrade"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "amelioration_supremium"
+preuve = "recette supremium_upgrade"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "eveille_amelioration"
+preuve = "recette awakened_supremium_upgrade"
+
+[[palier]]
+echelle = "augment_absorption"
+cle = "aug_absorption_i"
+preuve = "recette augment/absorption_i.json, palier 1 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_absorption"
+cle = "aug_absorption_ii"
+preuve = "recette augment/absorption_ii.json, palier 2 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_absorption"
+cle = "aug_absorption_iii"
+preuve = "recette augment/absorption_iii.json, palier 3 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_absorption"
+cle = "aug_absorption_iv"
+preuve = "recette augment/absorption_iv.json, palier 4 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_absorption"
+cle = "aug_absorption_v"
+preuve = "recette augment/absorption_v.json, palier 5 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_attack_aoe"
+cle = "aug_attack_aoe_i"
+preuve = "recette augment/attack_aoe_i.json, palier 3 (ModAugments), type SWORD"
+
+[[palier]]
+echelle = "augment_attack_aoe"
+cle = "aug_attack_aoe_ii"
+preuve = "recette augment/attack_aoe_ii.json, palier 4 (ModAugments), type SWORD"
+
+[[palier]]
+echelle = "augment_attack_aoe"
+cle = "aug_attack_aoe_iii"
+preuve = "recette augment/attack_aoe_iii.json, palier 5 (ModAugments), type SWORD"
+
+[[palier]]
+echelle = "augment_blindness_resistance"
+cle = "aug_blindness_resistance"
+preuve = "recette augment/blindness_resistance.json, palier 2 (ModAugments), type HELMET"
+
+[[palier]]
+echelle = "augment_fire_resistance"
+cle = "aug_fire_resistance"
+preuve = "recette augment/fire_resistance.json, palier 3 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_flight"
+cle = "aug_flight"
+preuve = "recette augment/flight.json, palier 5 (ModAugments), type CHESTPLATE"
+
+[[palier]]
+echelle = "augment_haste"
+cle = "aug_haste_i"
+preuve = "recette augment/haste_i.json, palier 3 (ModAugments), type CHESTPLATE"
+
+[[palier]]
+echelle = "augment_haste"
+cle = "aug_haste_ii"
+preuve = "recette augment/haste_ii.json, palier 4 (ModAugments), type CHESTPLATE"
+
+[[palier]]
+echelle = "augment_haste"
+cle = "aug_haste_iii"
+preuve = "recette augment/haste_iii.json, palier 5 (ModAugments), type CHESTPLATE"
+
+[[palier]]
+echelle = "augment_health_boost"
+cle = "aug_health_boost_i"
+preuve = "recette augment/health_boost_i.json, palier 1 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_health_boost"
+cle = "aug_health_boost_ii"
+preuve = "recette augment/health_boost_ii.json, palier 2 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_health_boost"
+cle = "aug_health_boost_iii"
+preuve = "recette augment/health_boost_iii.json, palier 3 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_health_boost"
+cle = "aug_health_boost_iv"
+preuve = "recette augment/health_boost_iv.json, palier 4 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_health_boost"
+cle = "aug_health_boost_v"
+preuve = "recette augment/health_boost_v.json, palier 5 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_hunger_resistance"
+cle = "aug_hunger_resistance"
+preuve = "recette augment/hunger_resistance.json, palier 4 (ModAugments), type HELMET"
+
+[[palier]]
+echelle = "augment_jump_boost"
+cle = "aug_jump_boost_i"
+preuve = "recette augment/jump_boost_i.json, palier 2 (ModAugments), type BOOTS"
+
+[[palier]]
+echelle = "augment_jump_boost"
+cle = "aug_jump_boost_ii"
+preuve = "recette augment/jump_boost_ii.json, palier 3 (ModAugments), type BOOTS"
+
+[[palier]]
+echelle = "augment_jump_boost"
+cle = "aug_jump_boost_iii"
+preuve = "recette augment/jump_boost_iii.json, palier 4 (ModAugments), type BOOTS"
+
+[[palier]]
+echelle = "augment_luck"
+cle = "aug_luck_i"
+preuve = "recette augment/luck_i.json, palier 1 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_luck"
+cle = "aug_luck_ii"
+preuve = "recette augment/luck_ii.json, palier 3 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_luck"
+cle = "aug_luck_iii"
+preuve = "recette augment/luck_iii.json, palier 5 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_mining_aoe"
+cle = "aug_mining_aoe_i"
+preuve = "recette augment/mining_aoe_i.json, palier 2 (ModAugments), type PICKAXE AXE SHOVEL"
+
+[[palier]]
+echelle = "augment_mining_aoe"
+cle = "aug_mining_aoe_ii"
+preuve = "recette augment/mining_aoe_ii.json, palier 3 (ModAugments), type PICKAXE AXE SHOVEL"
+
+[[palier]]
+echelle = "augment_mining_aoe"
+cle = "aug_mining_aoe_iii"
+preuve = "recette augment/mining_aoe_iii.json, palier 4 (ModAugments), type PICKAXE AXE SHOVEL"
+
+[[palier]]
+echelle = "augment_mining_aoe"
+cle = "aug_mining_aoe_iv"
+preuve = "recette augment/mining_aoe_iv.json, palier 5 (ModAugments), type PICKAXE AXE SHOVEL"
+
+[[palier]]
+echelle = "augment_mining_fatigue_resistance"
+cle = "aug_mining_fatigue_resistance"
+preuve = "recette augment/mining_fatigue_resistance.json, palier 4 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_nausea_resistance"
+cle = "aug_nausea_resistance"
+preuve = "recette augment/nausea_resistance.json, palier 1 (ModAugments), type HELMET"
+
+[[palier]]
+echelle = "augment_night_vision"
+cle = "aug_night_vision"
+preuve = "recette augment/night_vision.json, palier 2 (ModAugments), type HELMET"
+
+[[palier]]
+echelle = "augment_no_fall_damage"
+cle = "aug_no_fall_damage"
+preuve = "recette augment/no_fall_damage.json, palier 3 (ModAugments), type BOOTS"
+
+[[palier]]
+echelle = "augment_pathing_aoe"
+cle = "aug_pathing_aoe_i"
+preuve = "recette augment/pathing_aoe_i.json, palier 1 (ModAugments), type SHOVEL"
+
+[[palier]]
+echelle = "augment_pathing_aoe"
+cle = "aug_pathing_aoe_ii"
+preuve = "recette augment/pathing_aoe_ii.json, palier 2 (ModAugments), type SHOVEL"
+
+[[palier]]
+echelle = "augment_pathing_aoe"
+cle = "aug_pathing_aoe_iii"
+preuve = "recette augment/pathing_aoe_iii.json, palier 3 (ModAugments), type SHOVEL"
+
+[[palier]]
+echelle = "augment_pathing_aoe"
+cle = "aug_pathing_aoe_iv"
+preuve = "recette augment/pathing_aoe_iv.json, palier 4 (ModAugments), type SHOVEL"
+
+[[palier]]
+echelle = "augment_poison_resistance"
+cle = "aug_poison_resistance"
+preuve = "recette augment/poison_resistance.json, palier 4 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_slow_falling"
+cle = "aug_slow_falling"
+preuve = "recette augment/slow_falling.json, palier 3 (ModAugments), type BOOTS"
+
+[[palier]]
+echelle = "augment_slowness_resistance"
+cle = "aug_slowness_resistance"
+preuve = "recette augment/slowness_resistance.json, palier 3 (ModAugments), type LEGGINGS"
+
+[[palier]]
+echelle = "augment_speed"
+cle = "aug_speed_i"
+preuve = "recette augment/speed_i.json, palier 2 (ModAugments), type LEGGINGS"
+
+[[palier]]
+echelle = "augment_speed"
+cle = "aug_speed_ii"
+preuve = "recette augment/speed_ii.json, palier 3 (ModAugments), type LEGGINGS"
+
+[[palier]]
+echelle = "augment_speed"
+cle = "aug_speed_iii"
+preuve = "recette augment/speed_iii.json, palier 4 (ModAugments), type LEGGINGS"
+
+[[palier]]
+echelle = "augment_step_assist"
+cle = "aug_step_assist"
+preuve = "recette augment/step_assist.json, palier 3 (ModAugments), type LEGGINGS BOOTS"
+
+[[palier]]
+echelle = "augment_strength"
+cle = "aug_strength_i"
+preuve = "recette augment/strength_i.json, palier 3 (ModAugments), type SWORD"
+
+[[palier]]
+echelle = "augment_strength"
+cle = "aug_strength_ii"
+preuve = "recette augment/strength_ii.json, palier 4 (ModAugments), type SWORD"
+
+[[palier]]
+echelle = "augment_strength"
+cle = "aug_strength_iii"
+preuve = "recette augment/strength_iii.json, palier 5 (ModAugments), type SWORD"
+
+[[palier]]
+echelle = "augment_tilling_aoe"
+cle = "aug_tilling_aoe_i"
+preuve = "recette augment/tilling_aoe_i.json, palier 2 (ModAugments), type HOE"
+
+[[palier]]
+echelle = "augment_tilling_aoe"
+cle = "aug_tilling_aoe_ii"
+preuve = "recette augment/tilling_aoe_ii.json, palier 3 (ModAugments), type HOE"
+
+[[palier]]
+echelle = "augment_tilling_aoe"
+cle = "aug_tilling_aoe_iii"
+preuve = "recette augment/tilling_aoe_iii.json, palier 4 (ModAugments), type HOE"
+
+[[palier]]
+echelle = "augment_tilling_aoe"
+cle = "aug_tilling_aoe_iv"
+preuve = "recette augment/tilling_aoe_iv.json, palier 5 (ModAugments), type HOE"
+
+[[palier]]
+echelle = "augment_water_breathing"
+cle = "aug_water_breathing"
+preuve = "recette augment/water_breathing.json, palier 2 (ModAugments), type HELMET"
+
+[[palier]]
+echelle = "augment_weakness_resistance"
+cle = "aug_weakness_resistance"
+preuve = "recette augment/weakness_resistance.json, palier 3 (ModAugments), type CHESTPLATE"
+
+[[palier]]
+echelle = "augment_wither_resistance"
+cle = "aug_wither_resistance"
+preuve = "recette augment/wither_resistance.json, palier 5 (ModAugments), type ARMOR"
+
+[[palier]]
+echelle = "augment_absorption"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_attack_aoe"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_blindness_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_fire_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_flight"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_haste"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_health_boost"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_hunger_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_jump_boost"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_luck"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_mining_aoe"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_mining_fatigue_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_nausea_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_night_vision"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_no_fall_damage"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_pathing_aoe"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_poison_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_slow_falling"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_slowness_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_speed"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_step_assist"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_strength"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_tilling_aoe"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_water_breathing"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_weakness_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+[[palier]]
+echelle = "augment_wither_resistance"
+cle = "augments_tous"
+preuve = "les 55 augments"
+
+
+# Paliers sautés
+[[saute]]
+objet = "mysticalagriculture:inferium_staff … awakened_supremium_staff"
+raison = "bâtons d'essence : aucune recette dans le jar ni dans les datapacks, inobtenables"
+[[saute]]
+objet = "Insanium (Mystical Agradditions)"
+raison = "Mystical Agradditions absent du pack : le palier au-dessus du supremium éveillé n'existe pas"
+[[saute]]
+objet = "graines dont le matériau manque"
+raison = "CropHasMaterialCondition : listées et écartées à l'Herbier (encyclopedie.py)"
+[[saute]]
+objet = "recettes de graines à l'établi"
+raison = "seedCraftingRecipes = false sur le serveur : les graines s'infusent à l'autel"
