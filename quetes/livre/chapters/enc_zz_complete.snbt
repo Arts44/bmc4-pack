@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enc_zz_complete"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:enchanted_book"
+	id: "3FDC1AD1C2B7E532"
+	order_index: 99
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"67F00C606E1CE41F"
+			"04C8048CD9323388"
+			"08B4EFA99C814CD8"
+			"0AF877A62451C7C4"
+			"12F744C8B02E407B"
+			"469904B021135114"
+			"6DCCDE3C8CD34FA9"
+			"63E1EE881B934DFF"
+			"70A50ED6DCF6D564"
+			"553367C3E45A7813"
+			"63EBFC627F954E85"
+			"15ED78286AC69746"
+			"5428219A99D3A911"
+			"4B045DBE8B8C8E50"
+			"66F543522F1660E2"
+			"3A31EC273310CDD8"
+			"1CF6E52634C2A662"
+			"61442B9FF476BF9C"
+			"5E7CB49C4C0ABEB0"
+			"62D535DAF8B4005F"
+			"2E381C072BDBE186"
+		]
+		description: ["Chaque créature rencontrée, chaque biome visité, chaque structure, chaque plat, chaque disque, chaque trophée, chaque bûche, chaque arme. La récompense la plus rare du serveur, et elle ne vaut rien d'autre que l'avoir fait."]
+		icon: "minecraft:enchanted_book"
+		id: "46BF88199A354CF3"
+		optional: true
+		rewards: [{
+			id: "47114F2BBB70DFB3"
+			type: "xp_levels"
+			xp_levels: 100
+		}]
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "6D91F14A1436CD0A"
+			title: "Toute l'Encyclopédie"
+			type: "checkmark"
+		}]
+		title: "&7L'Encyclopédie complète"
+		x: 0.0d
+		y: 3.0d
+	}]
+	title: "&7L'Encyclopédie complète"
+}

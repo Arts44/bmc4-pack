@@ -1,0 +1,25 @@
+# « L'Encyclopédie complète » — cahier des charges §9.2 : la dernière
+# quête du groupe, qui attend le « Tout le chapitre » de chaque chapitre
+# généré (dépendances entre chapitres, vérifiées par generer.py).
+# Récompense purement cosmétique, comme le veut le cahier : de l'XP.
+
+[chapitre]
+titre = "&7L'Encyclopédie complète"
+fichier = "enc_zz_complete"
+groupe = "encyclopedie"
+icone = "minecraft:enchanted_book"
+ordre = 99
+
+[[quete]]
+cle = "complete"
+titre = "&7L'Encyclopédie complète"
+optionnel = true
+forme = "gear"
+taille = 2.0
+icone = "minecraft:enchanted_book"
+taches = ["checkmark Toute l'Encyclopédie"]
+recompenses = ["xp 100"]
+deps_externes = ["enc_armurerie/complet", "enc_arsenal/complet", "enc_atelier_create/complet", "enc_bestiaire_dimensions/complet", "enc_bestiaire_nether_end/complet", "enc_bestiaire_overworld/complet", "enc_biomes_dimensions/complet", "enc_biomes_nether_end/complet", "enc_biomes_overworld/complet", "enc_bois/complet", "enc_disques/complet", "enc_gastronomie/complet", "enc_herbier/complet", "enc_minerais/complet", "enc_structures_donjons_villages/complet", "enc_structures_mondes/complet", "enc_structures_moogs/complet", "enc_structures_repurposed/complet", "enc_structures_ruines/complet", "enc_structures_vanilla/complet", "enc_trophees/complet"]
+description = """
+Chaque créature rencontrée, chaque biome visité, chaque structure, chaque plat, chaque disque, chaque trophée, chaque bûche, chaque arme. La récompense la plus rare du serveur, et elle ne vaut rien d'autre que l'avoir fait.
+"""
