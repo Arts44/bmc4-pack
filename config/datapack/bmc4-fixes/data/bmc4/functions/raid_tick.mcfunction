@@ -9,8 +9,14 @@
 # deathCount s'incrémente seul. L'ordre compte : on pose le
 # décompte et le mode AVANT de remettre le compteur à zéro,
 # sinon la mort est oubliée avant d'être traitée.
-execute as @a[scores={bmc4_morts=1..}] run scoreboard players set @s bmc4_spec 6000
-execute as @a[scores={bmc4_morts=1..}] run gamemode spectator @s
+#
+# Périmètre (BMC-90, 5 octobre) : SEULE l'équipe bmc4_raid_actif, remplie
+# par le bot avec les membres des deux factions engagées. Avant, le
+# sélecteur visait @a : les cinq minutes frappaient aussi les joueurs
+# étrangers au raid. Le cœur perdu suit le même périmètre.
+execute as @a[team=bmc4_raid_actif,scores={bmc4_morts=1..}] run function bmc4:coeur_perte
+execute as @a[team=bmc4_raid_actif,scores={bmc4_morts=1..}] run scoreboard players set @s bmc4_spec 6000
+execute as @a[team=bmc4_raid_actif,scores={bmc4_morts=1..}] run gamemode spectator @s
 execute as @a[scores={bmc4_morts=1..}] run scoreboard players set @s bmc4_morts 0
 
 # --- Le décompte tourne ---

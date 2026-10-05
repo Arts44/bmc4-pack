@@ -12,3 +12,6 @@ execute as @a[gamemode=survival] unless score @s bmc4_kit matches 0.. run functi
 # Le sélecteur « team= » ne retient que ceux qui n'en ont aucune,
 # donc la commande ne fait rien une fois tout le monde inscrit.
 execute as @e[type=dragonmounts:dragon,team=] run team join bmc4_dragons @s
+
+# --- Le cœur perdu (BMC-90) : soins à tout moment, migration ---
+function bmc4:coeur_tick

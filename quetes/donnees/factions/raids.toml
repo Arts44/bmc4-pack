@@ -1,9 +1,8 @@
 # Chapitre « Le trophée et les raids » — cahier des charges §6.2
 # Récompenses S seulement. Sources : reglements/raids.md, le datapack
-# bmc4-fixes (raid_tick.mcfunction : cinq minutes en spectateur ;
-# mediumcore/tags/items/restores_max_health.json) et raids.js du bot
-# (gamerule mediumcoreMode pendant le créneau, plancher trois cœurs,
-# lots du vainqueur), lus sur le serveur le 5 octobre 2026.
+# bmc4-fixes (raid_tick.mcfunction : cinq minutes en spectateur et cœur
+# perdu pour l'équipe bmc4_raid_actif, fonctions bmc4:coeur_* — BMC-90,
+# 5 octobre 2026) et raids.js du bot (lots du vainqueur).
 
 [chapitre]
 titre = "&cLe trophée et les raids"
@@ -94,9 +93,9 @@ icone = "farmersdelight:beef_stew"
 taches = ["checkmark Compris"]
 recompenses = ["xp 3"]
 description = """
-Pendant le créneau, le serveur passe en &cmediumcore&r : chaque mort retire aussi &lun cœur de vie maximale&r, jusqu'à un plancher de trois. Les cinq minutes punissent pendant, le cœur perdu punit ensuite — la perte survit au raid.
+Pendant le créneau, pour les &lmembres des deux factions engagées&r et eux seuls, chaque mort retire aussi &cun cœur de vie maximale&r, jusqu'à un plancher de trois. Les cinq minutes punissent pendant, le cœur perdu punit ensuite — la perte survit au raid. Un joueur étranger au raid ne risque rien.
 
-Elle se récupère en mangeant un &6repas de Farmer's Delight&r — ragoût, soupe, riz, curry, salade, hachis : les plats servis en bol ou en assiette — ou une &bPierre de Soin&r de l'Aether, un cœur par objet. Un steak ou un pain ne rendent rien.
+Elle se récupère en mangeant un &6repas de Farmer's Delight&r — ragoût, soupe, riz, curry, salade, hachis : les plats servis en bol ou en assiette — ou une &bPierre de Soin&r de l'Aether, un cœur par objet, à tout moment. Un steak ou un pain ne rendent rien.
 """
 
 [[quete]]

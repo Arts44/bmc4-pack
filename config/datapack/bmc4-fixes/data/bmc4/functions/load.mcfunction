@@ -14,3 +14,6 @@ team add bmc4_dragons
 team modify bmc4_dragons friendlyFire false
 team modify bmc4_dragons seeFriendlyInvisibles true
 team modify bmc4_dragons displayName "Dragons"
+
+# Le cœur perdu (BMC-90)
+function bmc4:coeur_init

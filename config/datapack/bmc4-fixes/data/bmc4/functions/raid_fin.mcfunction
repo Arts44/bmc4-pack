@@ -5,6 +5,10 @@
 
 scoreboard players set #etat bmc4_raid 0
 
+# Une mort survenue entre le dernier tick d'arbitrage et la fermeture
+# compte quand même pour le cœur (BMC-90).
+execute as @a[team=bmc4_raid_actif,scores={bmc4_morts=1..}] run function bmc4:coeur_perte
+
 gamemode survival @a[gamemode=spectator]
 scoreboard players reset * bmc4_spec
 scoreboard players set @a bmc4_morts 0

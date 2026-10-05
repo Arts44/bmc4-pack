@@ -2,9 +2,10 @@
 # Farmer's Delight 1.3.2 et ses extensions présentes dans le pack.
 # Absents du pack (0 identifiant) : Chef's Delight, Autochef's Delight,
 # Hearths — pas de quête pour eux.
-# « Rend un cœur » : balise mediumcore:restores_max_health du serveur,
-# corrigée le 5 octobre pour pointer #farmersdelight:meals (37 plats servis
-# en bol ou en assiette) et la Pierre de Soin.
+# « Rend un cœur » : datapack bmc4-fixes, fonctions bmc4:coeur_* (BMC-90,
+# 5 octobre) : un compteur « objet consommé » par plat de la balise
+# #farmersdelight:meals (37 plats servis en bol ou en assiette) et pour la
+# Pierre de Soin ; un cœur par objet, à tout moment.
 
 [chapitre]
 titre = "&6Cuisine"

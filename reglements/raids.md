@@ -39,22 +39,22 @@ Une déclaration par faction et par semaine, victoire ou échec.
 PvP libre partout. Chaque mort coûte cinq minutes en spectateur, attaquant
 comme défenseur — personne ne gagne par usure.
 
-### Le cœur perdu (mediumcore)
+### Le cœur perdu
 
-Pendant le créneau, le bot passe le serveur en mode **mediumcore**. Ce mode
-est une règle de jeu globale : il concerne **tous les joueurs connectés
-pendant l'heure du raid**, combattants ou non — à la différence des cinq
-minutes en spectateur, réservées aux deux factions engagées.
+Pendant le créneau, les **membres des deux factions engagées**, et eux
+seuls, jouent avec un cœur en jeu — le même périmètre que les cinq
+minutes en spectateur. Un joueur étranger au raid ne risque rien.
 
 - Chaque mort retire **un cœur de vie maximale** (2 points de vie).
 - Le plancher est de **trois cœurs** : on ne descend jamais en dessous.
 - La perte **survit au raid** : elle ne revient pas quand le créneau se
-  termine.
-- Un cœur se récupère en **mangeant un repas de Farmer's Delight** (les
-  37 plats de sa balise `meals`, servis en bol ou en assiette : ragoûts,
-  soupes, riz, curry, salades, hachis parmentier…) **ou une Pierre de Soin
-  de l'Aether** : **un cœur par objet consommé**, jusqu'aux dix cœurs
-  d'origine. Un steak, un pain ou une potion ne rendent rien.
+  termine, ni en se déconnectant.
+- Un cœur se récupère **à tout moment**, en raid ou non, en **mangeant un
+  repas de Farmer's Delight** (les 37 plats de sa balise `meals`, servis en
+  bol ou en assiette : ragoûts, soupes, riz, curry, salades, hachis
+  parmentier…) **ou une Pierre de Soin de l'Aether** : **un cœur par objet
+  consommé**, jusqu'aux dix cœurs d'origine. Un steak, un pain ou une
+  potion ne rendent rien.
 
 ## Ce que ça rapporte
 
