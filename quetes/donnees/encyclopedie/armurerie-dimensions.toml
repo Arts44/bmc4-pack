@@ -1,0 +1,2037 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&cArmurerie — dimensions"
+fichier = "enc_armurerie_dimensions"
+groupe = "encyclopedie"
+icone = "minecraft:iron_chestplate"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&cArmurerie — dimensions"
+taille = 1.5
+icone = "minecraft:iron_chestplate"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque pièce d'armure des dimensions, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé.
+
+Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre.
+"""
+
+[[quete]]
+cle = "aether_chainmail_gloves"
+titre = "« Chainmail Gloves »"
+optionnel = true
+icone = "aether:chainmail_gloves"
+kit_voulu = true
+taches = ["item aether:chainmail_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_diamond_gloves"
+titre = "« Diamond Gloves »"
+optionnel = true
+icone = "aether:diamond_gloves"
+kit_voulu = true
+taches = ["item aether:diamond_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_golden_gloves"
+titre = "« Golden Gloves »"
+optionnel = true
+icone = "aether:golden_gloves"
+kit_voulu = true
+taches = ["item aether:golden_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_helmet"
+titre = "« Gravitite Helmet »"
+optionnel = true
+icone = "aether:gravitite_helmet"
+kit_voulu = true
+taches = ["item aether:gravitite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_chestplate"
+titre = "« Gravitite Chestplate »"
+optionnel = true
+icone = "aether:gravitite_chestplate"
+kit_voulu = true
+taches = ["item aether:gravitite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_leggings"
+titre = "« Gravitite Leggings »"
+optionnel = true
+icone = "aether:gravitite_leggings"
+kit_voulu = true
+taches = ["item aether:gravitite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_boots"
+titre = "« Gravitite Boots »"
+optionnel = true
+icone = "aether:gravitite_boots"
+kit_voulu = true
+taches = ["item aether:gravitite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_gloves"
+titre = "« Gravitite Gloves »"
+optionnel = true
+icone = "aether:gravitite_gloves"
+kit_voulu = true
+taches = ["item aether:gravitite_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_aether_gravitite"
+titre = "Ensemble « Gravitite »"
+optionnel = true
+deps = ["aether_gravitite_helmet", "aether_gravitite_chestplate", "aether_gravitite_leggings", "aether_gravitite_boots", "aether_gravitite_gloves"]
+forme = "hexagon"
+icone = "aether:gravitite_chestplate"
+kit_voulu = true
+taches = ["item aether:gravitite_helmet", "item aether:gravitite_chestplate", "item aether:gravitite_leggings", "item aether:gravitite_boots", "item aether:gravitite_gloves"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Gravitite » (5), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "aether_iron_gloves"
+titre = "« Iron Gloves »"
+optionnel = true
+icone = "aether:iron_gloves"
+kit_voulu = true
+taches = ["item aether:iron_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_leather_gloves"
+titre = "« Leather Gloves »"
+optionnel = true
+icone = "aether:leather_gloves"
+kit_voulu = true
+taches = ["item aether:leather_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_neptune_helmet"
+titre = "« Neptune Helmet »"
+optionnel = true
+icone = "aether:neptune_helmet"
+kit_voulu = true
+taches = ["item aether:neptune_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_neptune_chestplate"
+titre = "« Neptune Chestplate »"
+optionnel = true
+icone = "aether:neptune_chestplate"
+kit_voulu = true
+taches = ["item aether:neptune_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_neptune_leggings"
+titre = "« Neptune Leggings »"
+optionnel = true
+icone = "aether:neptune_leggings"
+kit_voulu = true
+taches = ["item aether:neptune_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_neptune_boots"
+titre = "« Neptune Boots »"
+optionnel = true
+icone = "aether:neptune_boots"
+kit_voulu = true
+taches = ["item aether:neptune_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_neptune_gloves"
+titre = "« Neptune Gloves »"
+optionnel = true
+icone = "aether:neptune_gloves"
+kit_voulu = true
+taches = ["item aether:neptune_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_aether_neptune"
+titre = "Ensemble « Neptune »"
+optionnel = true
+deps = ["aether_neptune_helmet", "aether_neptune_chestplate", "aether_neptune_leggings", "aether_neptune_boots", "aether_neptune_gloves"]
+forme = "hexagon"
+icone = "aether:neptune_chestplate"
+kit_voulu = true
+taches = ["item aether:neptune_helmet", "item aether:neptune_chestplate", "item aether:neptune_leggings", "item aether:neptune_boots", "item aether:neptune_gloves"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Neptune » (5), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "aether_netherite_gloves"
+titre = "« Netherite Gloves »"
+optionnel = true
+icone = "aether:netherite_gloves"
+kit_voulu = true
+taches = ["item aether:netherite_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_phoenix_helmet"
+titre = "« Phoenix Helmet »"
+optionnel = true
+icone = "aether:phoenix_helmet"
+kit_voulu = true
+taches = ["item aether:phoenix_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_phoenix_chestplate"
+titre = "« Phoenix Chestplate »"
+optionnel = true
+icone = "aether:phoenix_chestplate"
+kit_voulu = true
+taches = ["item aether:phoenix_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_phoenix_leggings"
+titre = "« Phoenix Leggings »"
+optionnel = true
+icone = "aether:phoenix_leggings"
+kit_voulu = true
+taches = ["item aether:phoenix_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_phoenix_boots"
+titre = "« Phoenix Boots »"
+optionnel = true
+icone = "aether:phoenix_boots"
+kit_voulu = true
+taches = ["item aether:phoenix_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_phoenix_gloves"
+titre = "« Phoenix Gloves »"
+optionnel = true
+icone = "aether:phoenix_gloves"
+kit_voulu = true
+taches = ["item aether:phoenix_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_aether_phoenix"
+titre = "Ensemble « Phoenix »"
+optionnel = true
+deps = ["aether_phoenix_helmet", "aether_phoenix_chestplate", "aether_phoenix_leggings", "aether_phoenix_boots", "aether_phoenix_gloves"]
+forme = "hexagon"
+icone = "aether:phoenix_chestplate"
+kit_voulu = true
+taches = ["item aether:phoenix_helmet", "item aether:phoenix_chestplate", "item aether:phoenix_leggings", "item aether:phoenix_boots", "item aether:phoenix_gloves"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Phoenix » (5), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "aether_sentry_boots"
+titre = "« Sentry Boots »"
+optionnel = true
+icone = "aether:sentry_boots"
+kit_voulu = true
+taches = ["item aether:sentry_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_helmet"
+titre = "« Valkyrie Helmet »"
+optionnel = true
+icone = "aether:valkyrie_helmet"
+kit_voulu = true
+taches = ["item aether:valkyrie_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_chestplate"
+titre = "« Valkyrie Chestplate »"
+optionnel = true
+icone = "aether:valkyrie_chestplate"
+kit_voulu = true
+taches = ["item aether:valkyrie_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_leggings"
+titre = "« Valkyrie Leggings »"
+optionnel = true
+icone = "aether:valkyrie_leggings"
+kit_voulu = true
+taches = ["item aether:valkyrie_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_boots"
+titre = "« Valkyrie Boots »"
+optionnel = true
+icone = "aether:valkyrie_boots"
+kit_voulu = true
+taches = ["item aether:valkyrie_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_gloves"
+titre = "« Valkyrie Gloves »"
+optionnel = true
+icone = "aether:valkyrie_gloves"
+kit_voulu = true
+taches = ["item aether:valkyrie_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_aether_valkyrie"
+titre = "Ensemble « Valkyrie »"
+optionnel = true
+deps = ["aether_valkyrie_helmet", "aether_valkyrie_chestplate", "aether_valkyrie_leggings", "aether_valkyrie_boots", "aether_valkyrie_gloves"]
+forme = "hexagon"
+icone = "aether:valkyrie_chestplate"
+kit_voulu = true
+taches = ["item aether:valkyrie_helmet", "item aether:valkyrie_chestplate", "item aether:valkyrie_leggings", "item aether:valkyrie_boots", "item aether:valkyrie_gloves"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Valkyrie » (5), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "aether_zanite_helmet"
+titre = "« Zanite Helmet »"
+optionnel = true
+icone = "aether:zanite_helmet"
+kit_voulu = true
+taches = ["item aether:zanite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_chestplate"
+titre = "« Zanite Chestplate »"
+optionnel = true
+icone = "aether:zanite_chestplate"
+kit_voulu = true
+taches = ["item aether:zanite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_leggings"
+titre = "« Zanite Leggings »"
+optionnel = true
+icone = "aether:zanite_leggings"
+kit_voulu = true
+taches = ["item aether:zanite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_boots"
+titre = "« Zanite Boots »"
+optionnel = true
+icone = "aether:zanite_boots"
+kit_voulu = true
+taches = ["item aether:zanite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_gloves"
+titre = "« Zanite Gloves »"
+optionnel = true
+icone = "aether:zanite_gloves"
+kit_voulu = true
+taches = ["item aether:zanite_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_aether_zanite"
+titre = "Ensemble « Zanite »"
+optionnel = true
+deps = ["aether_zanite_helmet", "aether_zanite_chestplate", "aether_zanite_leggings", "aether_zanite_boots", "aether_zanite_gloves"]
+forme = "hexagon"
+icone = "aether:zanite_chestplate"
+kit_voulu = true
+taches = ["item aether:zanite_helmet", "item aether:zanite_chestplate", "item aether:zanite_leggings", "item aether:zanite_boots", "item aether:zanite_gloves"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Zanite » (5), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_helmet"
+titre = "« Aeternium Helmet »"
+optionnel = true
+icone = "betterend:aeternium_helmet"
+kit_voulu = true
+taches = ["item betterend:aeternium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_chestplate"
+titre = "« Aeternium Chestplate »"
+optionnel = true
+icone = "betterend:aeternium_chestplate"
+kit_voulu = true
+taches = ["item betterend:aeternium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_leggings"
+titre = "« Aeternium Leggings »"
+optionnel = true
+icone = "betterend:aeternium_leggings"
+kit_voulu = true
+taches = ["item betterend:aeternium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_boots"
+titre = "« Aeternium Boots »"
+optionnel = true
+icone = "betterend:aeternium_boots"
+kit_voulu = true
+taches = ["item betterend:aeternium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_betterend_aeternium"
+titre = "Ensemble « Aeternium »"
+optionnel = true
+deps = ["betterend_aeternium_helmet", "betterend_aeternium_chestplate", "betterend_aeternium_leggings", "betterend_aeternium_boots"]
+forme = "hexagon"
+icone = "betterend:aeternium_chestplate"
+kit_voulu = true
+taches = ["item betterend:aeternium_helmet", "item betterend:aeternium_chestplate", "item betterend:aeternium_leggings", "item betterend:aeternium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Aeternium » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "betterend_crystalite_helmet"
+titre = "« Crystalite Helmet »"
+optionnel = true
+icone = "betterend:crystalite_helmet"
+kit_voulu = true
+taches = ["item betterend:crystalite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_crystalite_chestplate"
+titre = "« Crystalite Chestplate »"
+optionnel = true
+icone = "betterend:crystalite_chestplate"
+kit_voulu = true
+taches = ["item betterend:crystalite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_crystalite_leggings"
+titre = "« Crystalite Leggings »"
+optionnel = true
+icone = "betterend:crystalite_leggings"
+kit_voulu = true
+taches = ["item betterend:crystalite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_crystalite_boots"
+titre = "« Crystalite Boots »"
+optionnel = true
+icone = "betterend:crystalite_boots"
+kit_voulu = true
+taches = ["item betterend:crystalite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_betterend_crystalite"
+titre = "Ensemble « Crystalite »"
+optionnel = true
+deps = ["betterend_crystalite_helmet", "betterend_crystalite_chestplate", "betterend_crystalite_leggings", "betterend_crystalite_boots"]
+forme = "hexagon"
+icone = "betterend:crystalite_chestplate"
+kit_voulu = true
+taches = ["item betterend:crystalite_helmet", "item betterend:crystalite_chestplate", "item betterend:crystalite_leggings", "item betterend:crystalite_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Crystalite » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "betterend_terminite_helmet"
+titre = "« Terminite Helmet »"
+optionnel = true
+icone = "betterend:terminite_helmet"
+kit_voulu = true
+taches = ["item betterend:terminite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_chestplate"
+titre = "« Terminite Chestplate »"
+optionnel = true
+icone = "betterend:terminite_chestplate"
+kit_voulu = true
+taches = ["item betterend:terminite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_leggings"
+titre = "« Terminite Leggings »"
+optionnel = true
+icone = "betterend:terminite_leggings"
+kit_voulu = true
+taches = ["item betterend:terminite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_boots"
+titre = "« Terminite Boots »"
+optionnel = true
+icone = "betterend:terminite_boots"
+kit_voulu = true
+taches = ["item betterend:terminite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_betterend_terminite"
+titre = "Ensemble « Terminite »"
+optionnel = true
+deps = ["betterend_terminite_helmet", "betterend_terminite_chestplate", "betterend_terminite_leggings", "betterend_terminite_boots"]
+forme = "hexagon"
+icone = "betterend:terminite_chestplate"
+kit_voulu = true
+taches = ["item betterend:terminite_helmet", "item betterend:terminite_chestplate", "item betterend:terminite_leggings", "item betterend:terminite_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Terminite » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_helmet"
+titre = "« Thallasium Helmet »"
+optionnel = true
+icone = "betterend:thallasium_helmet"
+kit_voulu = true
+taches = ["item betterend:thallasium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_chestplate"
+titre = "« Thallasium Chestplate »"
+optionnel = true
+icone = "betterend:thallasium_chestplate"
+kit_voulu = true
+taches = ["item betterend:thallasium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_leggings"
+titre = "« Thallasium Leggings »"
+optionnel = true
+icone = "betterend:thallasium_leggings"
+kit_voulu = true
+taches = ["item betterend:thallasium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_boots"
+titre = "« Thallasium Boots »"
+optionnel = true
+icone = "betterend:thallasium_boots"
+kit_voulu = true
+taches = ["item betterend:thallasium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_betterend_thallasium"
+titre = "Ensemble « Thallasium »"
+optionnel = true
+deps = ["betterend_thallasium_helmet", "betterend_thallasium_chestplate", "betterend_thallasium_leggings", "betterend_thallasium_boots"]
+forme = "hexagon"
+icone = "betterend:thallasium_chestplate"
+kit_voulu = true
+taches = ["item betterend:thallasium_helmet", "item betterend:thallasium_chestplate", "item betterend:thallasium_leggings", "item betterend:thallasium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Thallasium » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_helmet"
+titre = "Cincinnasite Helmet"
+optionnel = true
+icone = "betternether:cincinnasite_helmet"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_chestplate"
+titre = "Cincinnasite Chestplate"
+optionnel = true
+icone = "betternether:cincinnasite_chestplate"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_leggings"
+titre = "Cincinnasite Leggings"
+optionnel = true
+icone = "betternether:cincinnasite_leggings"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_boots"
+titre = "Cincinnasite Boots"
+optionnel = true
+icone = "betternether:cincinnasite_boots"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_betternether_cincinnasite"
+titre = "Ensemble « Cincinnasite »"
+optionnel = true
+deps = ["betternether_cincinnasite_helmet", "betternether_cincinnasite_chestplate", "betternether_cincinnasite_leggings", "betternether_cincinnasite_boots"]
+forme = "hexagon"
+icone = "betternether:cincinnasite_chestplate"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_helmet", "item betternether:cincinnasite_chestplate", "item betternether:cincinnasite_leggings", "item betternether:cincinnasite_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Cincinnasite » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_helmet"
+titre = "« Fireruby Helmet »"
+optionnel = true
+icone = "betternether:flaming_ruby_helmet"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_chestplate"
+titre = "« Fireruby Chestplate »"
+optionnel = true
+icone = "betternether:flaming_ruby_chestplate"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_leggings"
+titre = "« Fireruby Leggings »"
+optionnel = true
+icone = "betternether:flaming_ruby_leggings"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_boots"
+titre = "« Fireruby Boots »"
+optionnel = true
+icone = "betternether:flaming_ruby_boots"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_betternether_flaming_ruby"
+titre = "Ensemble « Fireruby »"
+optionnel = true
+deps = ["betternether_flaming_ruby_helmet", "betternether_flaming_ruby_chestplate", "betternether_flaming_ruby_leggings", "betternether_flaming_ruby_boots"]
+forme = "hexagon"
+icone = "betternether:flaming_ruby_chestplate"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_helmet", "item betternether:flaming_ruby_chestplate", "item betternether:flaming_ruby_leggings", "item betternether:flaming_ruby_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Fireruby » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_helmet"
+titre = "Nether Ruby Helmet"
+optionnel = true
+icone = "betternether:nether_ruby_helmet"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_chestplate"
+titre = "Nether Ruby Chestplate"
+optionnel = true
+icone = "betternether:nether_ruby_chestplate"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_leggings"
+titre = "Nether Ruby Leggings"
+optionnel = true
+icone = "betternether:nether_ruby_leggings"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_boots"
+titre = "Nether Ruby Boots"
+optionnel = true
+icone = "betternether:nether_ruby_boots"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_betternether_nether_ruby"
+titre = "Ensemble « Nether Ruby »"
+optionnel = true
+deps = ["betternether_nether_ruby_helmet", "betternether_nether_ruby_chestplate", "betternether_nether_ruby_leggings", "betternether_nether_ruby_boots"]
+forme = "hexagon"
+icone = "betternether:nether_ruby_chestplate"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_helmet", "item betternether:nether_ruby_chestplate", "item betternether:nether_ruby_leggings", "item betternether:nether_ruby_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Nether Ruby » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_helmet"
+titre = "Casque en aquite"
+optionnel = true
+icone = "blue_skies:aquite_helmet"
+kit_voulu = true
+taches = ["item blue_skies:aquite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_chestplate"
+titre = "Plastron en aquite"
+optionnel = true
+icone = "blue_skies:aquite_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:aquite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_leggings"
+titre = "Jambières en aquite"
+optionnel = true
+icone = "blue_skies:aquite_leggings"
+kit_voulu = true
+taches = ["item blue_skies:aquite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_boots"
+titre = "Bottes en aquite"
+optionnel = true
+icone = "blue_skies:aquite_boots"
+kit_voulu = true
+taches = ["item blue_skies:aquite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_blue_skies_aquite"
+titre = "Ensemble en aquite"
+optionnel = true
+deps = ["blue_skies_aquite_helmet", "blue_skies_aquite_chestplate", "blue_skies_aquite_leggings", "blue_skies_aquite_boots"]
+forme = "hexagon"
+icone = "blue_skies:aquite_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:aquite_helmet", "item blue_skies:aquite_chestplate", "item blue_skies:aquite_leggings", "item blue_skies:aquite_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en aquite (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_helmet"
+titre = "Casque en charoite"
+optionnel = true
+icone = "blue_skies:charoite_helmet"
+kit_voulu = true
+taches = ["item blue_skies:charoite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_chestplate"
+titre = "Plastron en charoite"
+optionnel = true
+icone = "blue_skies:charoite_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:charoite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_leggings"
+titre = "Jambières en charoite"
+optionnel = true
+icone = "blue_skies:charoite_leggings"
+kit_voulu = true
+taches = ["item blue_skies:charoite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_boots"
+titre = "Bottes en charoite"
+optionnel = true
+icone = "blue_skies:charoite_boots"
+kit_voulu = true
+taches = ["item blue_skies:charoite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_blue_skies_charoite"
+titre = "Ensemble en charoite"
+optionnel = true
+deps = ["blue_skies_charoite_helmet", "blue_skies_charoite_chestplate", "blue_skies_charoite_leggings", "blue_skies_charoite_boots"]
+forme = "hexagon"
+icone = "blue_skies:charoite_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:charoite_helmet", "item blue_skies:charoite_chestplate", "item blue_skies:charoite_leggings", "item blue_skies:charoite_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en charoite (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_helmet"
+titre = "Casque en diopside"
+optionnel = true
+icone = "blue_skies:diopside_helmet"
+kit_voulu = true
+taches = ["item blue_skies:diopside_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_chestplate"
+titre = "Plastron en diopside"
+optionnel = true
+icone = "blue_skies:diopside_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:diopside_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_leggings"
+titre = "Jambières en diopside"
+optionnel = true
+icone = "blue_skies:diopside_leggings"
+kit_voulu = true
+taches = ["item blue_skies:diopside_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_boots"
+titre = "Bottes en diopside"
+optionnel = true
+icone = "blue_skies:diopside_boots"
+kit_voulu = true
+taches = ["item blue_skies:diopside_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_blue_skies_diopside"
+titre = "Ensemble en diopside"
+optionnel = true
+deps = ["blue_skies_diopside_helmet", "blue_skies_diopside_chestplate", "blue_skies_diopside_leggings", "blue_skies_diopside_boots"]
+forme = "hexagon"
+icone = "blue_skies:diopside_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:diopside_helmet", "item blue_skies:diopside_chestplate", "item blue_skies:diopside_leggings", "item blue_skies:diopside_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en diopside (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_helmet"
+titre = "Casque en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_helmet"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_chestplate"
+titre = "Plastron en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_leggings"
+titre = "Jambières en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_leggings"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_boots"
+titre = "Bottes en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_boots"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_blue_skies_horizonite"
+titre = "Ensemble en horizonite"
+optionnel = true
+deps = ["blue_skies_horizonite_helmet", "blue_skies_horizonite_chestplate", "blue_skies_horizonite_leggings", "blue_skies_horizonite_boots"]
+forme = "hexagon"
+icone = "blue_skies:horizonite_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_helmet", "item blue_skies:horizonite_chestplate", "item blue_skies:horizonite_leggings", "item blue_skies:horizonite_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en horizonite (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_helmet"
+titre = "Casque en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_helmet"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_chestplate"
+titre = "Plastron en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_leggings"
+titre = "Jambières en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_leggings"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_boots"
+titre = "Bottes en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_boots"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_blue_skies_pyrope"
+titre = "Ensemble en pyrope"
+optionnel = true
+deps = ["blue_skies_pyrope_helmet", "blue_skies_pyrope_chestplate", "blue_skies_pyrope_leggings", "blue_skies_pyrope_boots"]
+forme = "hexagon"
+icone = "blue_skies:pyrope_chestplate"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_helmet", "item blue_skies:pyrope_chestplate", "item blue_skies:pyrope_leggings", "item blue_skies:pyrope_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en pyrope (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_helmet"
+titre = "« Skyjade Helmet »"
+optionnel = true
+icone = "deep_aether:skyjade_helmet"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_chestplate"
+titre = "« Skyjade Chestplate »"
+optionnel = true
+icone = "deep_aether:skyjade_chestplate"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_leggings"
+titre = "« Skyjade Leggings »"
+optionnel = true
+icone = "deep_aether:skyjade_leggings"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_boots"
+titre = "« Skyjade Boots »"
+optionnel = true
+icone = "deep_aether:skyjade_boots"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_gloves"
+titre = "« Skyjade Gloves »"
+optionnel = true
+icone = "deep_aether:skyjade_gloves"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_deep_aether_skyjade"
+titre = "Ensemble « Skyjade »"
+optionnel = true
+deps = ["deep_aether_skyjade_helmet", "deep_aether_skyjade_chestplate", "deep_aether_skyjade_leggings", "deep_aether_skyjade_boots", "deep_aether_skyjade_gloves"]
+forme = "hexagon"
+icone = "deep_aether:skyjade_chestplate"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_helmet", "item deep_aether:skyjade_chestplate", "item deep_aether:skyjade_leggings", "item deep_aether:skyjade_boots", "item deep_aether:skyjade_gloves"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Skyjade » (5), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "deep_aether_stormforged_helmet"
+titre = "« Stormforged Helmet »"
+optionnel = true
+icone = "deep_aether:stormforged_helmet"
+kit_voulu = true
+taches = ["item deep_aether:stormforged_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stormforged_chestplate"
+titre = "« Stormforged Chestplate »"
+optionnel = true
+icone = "deep_aether:stormforged_chestplate"
+kit_voulu = true
+taches = ["item deep_aether:stormforged_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stormforged_leggings"
+titre = "« Stormforged Leggings »"
+optionnel = true
+icone = "deep_aether:stormforged_leggings"
+kit_voulu = true
+taches = ["item deep_aether:stormforged_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stormforged_boots"
+titre = "« Stormforged Boots »"
+optionnel = true
+icone = "deep_aether:stormforged_boots"
+kit_voulu = true
+taches = ["item deep_aether:stormforged_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stormforged_gloves"
+titre = "« Stormforged Gloves »"
+optionnel = true
+icone = "deep_aether:stormforged_gloves"
+kit_voulu = true
+taches = ["item deep_aether:stormforged_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_deep_aether_stormforged"
+titre = "Ensemble « Stormforged »"
+optionnel = true
+deps = ["deep_aether_stormforged_helmet", "deep_aether_stormforged_chestplate", "deep_aether_stormforged_leggings", "deep_aether_stormforged_boots", "deep_aether_stormforged_gloves"]
+forme = "hexagon"
+icone = "deep_aether:stormforged_chestplate"
+kit_voulu = true
+taches = ["item deep_aether:stormforged_helmet", "item deep_aether:stormforged_chestplate", "item deep_aether:stormforged_leggings", "item deep_aether:stormforged_boots", "item deep_aether:stormforged_gloves"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Stormforged » (5), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_helmet"
+titre = "« Stratus Helmet »"
+optionnel = true
+icone = "deep_aether:stratus_helmet"
+kit_voulu = true
+taches = ["item deep_aether:stratus_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_chestplate"
+titre = "« Stratus Chestplate »"
+optionnel = true
+icone = "deep_aether:stratus_chestplate"
+kit_voulu = true
+taches = ["item deep_aether:stratus_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_leggings"
+titre = "« Stratus Leggings »"
+optionnel = true
+icone = "deep_aether:stratus_leggings"
+kit_voulu = true
+taches = ["item deep_aether:stratus_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_boots"
+titre = "« Stratus Boots »"
+optionnel = true
+icone = "deep_aether:stratus_boots"
+kit_voulu = true
+taches = ["item deep_aether:stratus_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_gloves"
+titre = "« Stratus Gloves »"
+optionnel = true
+icone = "deep_aether:stratus_gloves"
+kit_voulu = true
+taches = ["item deep_aether:stratus_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_deep_aether_stratus"
+titre = "Ensemble « Stratus »"
+optionnel = true
+deps = ["deep_aether_stratus_helmet", "deep_aether_stratus_chestplate", "deep_aether_stratus_leggings", "deep_aether_stratus_boots", "deep_aether_stratus_gloves"]
+forme = "hexagon"
+icone = "deep_aether:stratus_chestplate"
+kit_voulu = true
+taches = ["item deep_aether:stratus_helmet", "item deep_aether:stratus_chestplate", "item deep_aether:stratus_leggings", "item deep_aether:stratus_boots", "item deep_aether:stratus_gloves"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Stratus » (5), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "lost_aether_content_agility_boots"
+titre = "Bottes d'Agilité"
+optionnel = true
+icone = "lost_aether_content:agility_boots"
+kit_voulu = true
+taches = ["item lost_aether_content:agility_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "lost_aether_content_power_gloves"
+titre = "Gants de Puissance"
+optionnel = true
+icone = "lost_aether_content:power_gloves"
+kit_voulu = true
+taches = ["item lost_aether_content:power_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "lost_aether_content_swetty_mask"
+titre = "Masque doux"
+optionnel = true
+icone = "lost_aether_content:swetty_mask"
+kit_voulu = true
+taches = ["item lost_aether_content:swetty_mask"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_arctic_helmet"
+titre = "Capuche arctique"
+optionnel = true
+icone = "twilightforest:arctic_helmet"
+kit_voulu = true
+taches = ["item twilightforest:arctic_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_arctic_chestplate"
+titre = "Manteau arctique"
+optionnel = true
+icone = "twilightforest:arctic_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:arctic_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_arctic_leggings"
+titre = "Jambières arctiques"
+optionnel = true
+icone = "twilightforest:arctic_leggings"
+kit_voulu = true
+taches = ["item twilightforest:arctic_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_arctic_boots"
+titre = "Bottes arctiques"
+optionnel = true
+icone = "twilightforest:arctic_boots"
+kit_voulu = true
+taches = ["item twilightforest:arctic_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_twilightforest_arctic"
+titre = "Ensemble arctique"
+optionnel = true
+deps = ["twilightforest_arctic_helmet", "twilightforest_arctic_chestplate", "twilightforest_arctic_leggings", "twilightforest_arctic_boots"]
+forme = "hexagon"
+icone = "twilightforest:arctic_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:arctic_helmet", "item twilightforest:arctic_chestplate", "item twilightforest:arctic_leggings", "item twilightforest:arctic_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble arctique (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_helmet"
+titre = "Casque ardent"
+optionnel = true
+icone = "twilightforest:fiery_helmet"
+kit_voulu = true
+taches = ["item twilightforest:fiery_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_chestplate"
+titre = "Plastron ardent"
+optionnel = true
+icone = "twilightforest:fiery_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:fiery_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_leggings"
+titre = "Jambières ardentes"
+optionnel = true
+icone = "twilightforest:fiery_leggings"
+kit_voulu = true
+taches = ["item twilightforest:fiery_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_boots"
+titre = "Bottes ardentes"
+optionnel = true
+icone = "twilightforest:fiery_boots"
+kit_voulu = true
+taches = ["item twilightforest:fiery_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_twilightforest_fiery"
+titre = "Ensemble ardent"
+optionnel = true
+deps = ["twilightforest_fiery_helmet", "twilightforest_fiery_chestplate", "twilightforest_fiery_leggings", "twilightforest_fiery_boots"]
+forme = "hexagon"
+icone = "twilightforest:fiery_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:fiery_helmet", "item twilightforest:fiery_chestplate", "item twilightforest:fiery_leggings", "item twilightforest:fiery_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble ardent (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_helmet"
+titre = "Casque en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_helmet"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_chestplate"
+titre = "Plastron en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_leggings"
+titre = "Jambières en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_leggings"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_boots"
+titre = "Bottes en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_boots"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_twilightforest_ironwood"
+titre = "Ensemble en bois de fer"
+optionnel = true
+deps = ["twilightforest_ironwood_helmet", "twilightforest_ironwood_chestplate", "twilightforest_ironwood_leggings", "twilightforest_ironwood_boots"]
+forme = "hexagon"
+icone = "twilightforest:ironwood_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_helmet", "item twilightforest:ironwood_chestplate", "item twilightforest:ironwood_leggings", "item twilightforest:ironwood_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en bois de fer (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_helmet"
+titre = "Casque chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_helmet"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_chestplate"
+titre = "Plastron chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_leggings"
+titre = "Jambières chevaleresques"
+optionnel = true
+icone = "twilightforest:knightmetal_leggings"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_boots"
+titre = "Bottes chevaleresques"
+optionnel = true
+icone = "twilightforest:knightmetal_boots"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_twilightforest_knightmetal"
+titre = "Ensemble chevaleresque"
+optionnel = true
+deps = ["twilightforest_knightmetal_helmet", "twilightforest_knightmetal_chestplate", "twilightforest_knightmetal_leggings", "twilightforest_knightmetal_boots"]
+forme = "hexagon"
+icone = "twilightforest:knightmetal_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_helmet", "item twilightforest:knightmetal_chestplate", "item twilightforest:knightmetal_leggings", "item twilightforest:knightmetal_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble chevaleresque (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "twilightforest_naga_chestplate"
+titre = "Plastron en écailles de Nâga"
+optionnel = true
+icone = "twilightforest:naga_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:naga_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en écailles de Nâga. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_naga_leggings"
+titre = "Jambières en écailles de Nâga"
+optionnel = true
+icone = "twilightforest:naga_leggings"
+kit_voulu = true
+taches = ["item twilightforest:naga_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en écailles de Nâga. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_twilightforest_naga"
+titre = "Ensemble en écailles de Nâga"
+optionnel = true
+deps = ["twilightforest_naga_chestplate", "twilightforest_naga_leggings"]
+forme = "hexagon"
+icone = "twilightforest:naga_leggings"
+kit_voulu = true
+taches = ["item twilightforest:naga_chestplate", "item twilightforest:naga_leggings"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en écailles de Nâga (2), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "twilightforest_phantom_helmet"
+titre = "Casque de fantôme"
+optionnel = true
+icone = "twilightforest:phantom_helmet"
+kit_voulu = true
+taches = ["item twilightforest:phantom_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de fantôme. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_phantom_chestplate"
+titre = "Plastron de fantôme"
+optionnel = true
+icone = "twilightforest:phantom_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:phantom_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de fantôme. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_twilightforest_phantom"
+titre = "Ensemble de fantôme"
+optionnel = true
+deps = ["twilightforest_phantom_helmet", "twilightforest_phantom_chestplate"]
+forme = "hexagon"
+icone = "twilightforest:phantom_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:phantom_helmet", "item twilightforest:phantom_chestplate"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble de fantôme (2), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_helmet"
+titre = "Casque en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_helmet"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_chestplate"
+titre = "Plastron en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_leggings"
+titre = "Jambières en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_leggings"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_boots"
+titre = "Bottes en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_boots"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_twilightforest_steeleaf"
+titre = "Ensemble en Stealeaf"
+optionnel = true
+deps = ["twilightforest_steeleaf_helmet", "twilightforest_steeleaf_chestplate", "twilightforest_steeleaf_leggings", "twilightforest_steeleaf_boots"]
+forme = "hexagon"
+icone = "twilightforest:steeleaf_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_helmet", "item twilightforest:steeleaf_chestplate", "item twilightforest:steeleaf_leggings", "item twilightforest:steeleaf_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en Stealeaf (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "twilightforest_yeti_helmet"
+titre = "Casque orné de Yéti"
+optionnel = true
+icone = "twilightforest:yeti_helmet"
+kit_voulu = true
+taches = ["item twilightforest:yeti_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_yeti_chestplate"
+titre = "Veste de Yéti"
+optionnel = true
+icone = "twilightforest:yeti_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:yeti_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_yeti_leggings"
+titre = "Jambières de Yéti"
+optionnel = true
+icone = "twilightforest:yeti_leggings"
+kit_voulu = true
+taches = ["item twilightforest:yeti_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_yeti_boots"
+titre = "Bottes de Yéti"
+optionnel = true
+icone = "twilightforest:yeti_boots"
+kit_voulu = true
+taches = ["item twilightforest:yeti_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_twilightforest_yeti"
+titre = "Ensemble de Yéti"
+optionnel = true
+deps = ["twilightforest_yeti_helmet", "twilightforest_yeti_chestplate", "twilightforest_yeti_leggings", "twilightforest_yeti_boots"]
+forme = "hexagon"
+icone = "twilightforest:yeti_chestplate"
+kit_voulu = true
+taches = ["item twilightforest:yeti_helmet", "item twilightforest:yeti_chestplate", "item twilightforest:yeti_leggings", "item twilightforest:yeti_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble de Yéti (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "umbral_skies_arctic_gloves"
+titre = "« Arctic Mittens »"
+optionnel = true
+icone = "umbral_skies:arctic_gloves"
+kit_voulu = true
+taches = ["item umbral_skies:arctic_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "umbral_skies_fiery_gloves"
+titre = "« Fiery Gloves »"
+optionnel = true
+icone = "umbral_skies:fiery_gloves"
+kit_voulu = true
+taches = ["item umbral_skies:fiery_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "umbral_skies_ironwood_gloves"
+titre = "« Ironwood Gloves »"
+optionnel = true
+icone = "umbral_skies:ironwood_gloves"
+kit_voulu = true
+taches = ["item umbral_skies:ironwood_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "umbral_skies_knightmetal_gloves"
+titre = "« Knightmetal Gauntlets »"
+optionnel = true
+icone = "umbral_skies:knightmetal_gloves"
+kit_voulu = true
+taches = ["item umbral_skies:knightmetal_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "umbral_skies_naga_gloves"
+titre = "« Naga Scale Gloves »"
+optionnel = true
+icone = "umbral_skies:naga_gloves"
+kit_voulu = true
+taches = ["item umbral_skies:naga_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "umbral_skies_phantom_gloves"
+titre = "« Phantom Gauntlets »"
+optionnel = true
+icone = "umbral_skies:phantom_gloves"
+kit_voulu = true
+taches = ["item umbral_skies:phantom_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "umbral_skies_steeleaf_gloves"
+titre = "« Steeleaf Gloves »"
+optionnel = true
+icone = "umbral_skies:steeleaf_gloves"
+kit_voulu = true
+taches = ["item umbral_skies:steeleaf_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "umbral_skies_yeti_gloves"
+titre = "« Yeti Gloves »"
+optionnel = true
+icone = "umbral_skies:yeti_gloves"
+kit_voulu = true
+taches = ["item umbral_skies:yeti_gloves"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:netherite_chestplate"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["aether_chainmail_gloves", "aether_diamond_gloves", "aether_golden_gloves", "aether_gravitite_helmet", "aether_gravitite_chestplate", "aether_gravitite_leggings", "aether_gravitite_boots", "aether_gravitite_gloves", "ensemble_aether_gravitite", "aether_iron_gloves", "aether_leather_gloves", "aether_neptune_helmet", "aether_neptune_chestplate", "aether_neptune_leggings", "aether_neptune_boots", "aether_neptune_gloves", "ensemble_aether_neptune", "aether_netherite_gloves", "aether_phoenix_helmet", "aether_phoenix_chestplate", "aether_phoenix_leggings", "aether_phoenix_boots", "aether_phoenix_gloves", "ensemble_aether_phoenix", "aether_sentry_boots", "aether_valkyrie_helmet", "aether_valkyrie_chestplate", "aether_valkyrie_leggings", "aether_valkyrie_boots", "aether_valkyrie_gloves", "ensemble_aether_valkyrie", "aether_zanite_helmet", "aether_zanite_chestplate", "aether_zanite_leggings", "aether_zanite_boots", "aether_zanite_gloves", "ensemble_aether_zanite", "betterend_aeternium_helmet", "betterend_aeternium_chestplate", "betterend_aeternium_leggings", "betterend_aeternium_boots", "ensemble_betterend_aeternium", "betterend_crystalite_helmet", "betterend_crystalite_chestplate", "betterend_crystalite_leggings", "betterend_crystalite_boots", "ensemble_betterend_crystalite", "betterend_terminite_helmet", "betterend_terminite_chestplate", "betterend_terminite_leggings", "betterend_terminite_boots", "ensemble_betterend_terminite", "betterend_thallasium_helmet", "betterend_thallasium_chestplate", "betterend_thallasium_leggings", "betterend_thallasium_boots", "ensemble_betterend_thallasium", "betternether_cincinnasite_helmet", "betternether_cincinnasite_chestplate", "betternether_cincinnasite_leggings", "betternether_cincinnasite_boots", "ensemble_betternether_cincinnasite", "betternether_flaming_ruby_helmet", "betternether_flaming_ruby_chestplate", "betternether_flaming_ruby_leggings", "betternether_flaming_ruby_boots", "ensemble_betternether_flaming_ruby", "betternether_nether_ruby_helmet", "betternether_nether_ruby_chestplate", "betternether_nether_ruby_leggings", "betternether_nether_ruby_boots", "ensemble_betternether_nether_ruby", "blue_skies_aquite_helmet", "blue_skies_aquite_chestplate", "blue_skies_aquite_leggings", "blue_skies_aquite_boots", "ensemble_blue_skies_aquite", "blue_skies_charoite_helmet", "blue_skies_charoite_chestplate", "blue_skies_charoite_leggings", "blue_skies_charoite_boots", "ensemble_blue_skies_charoite", "blue_skies_diopside_helmet", "blue_skies_diopside_chestplate", "blue_skies_diopside_leggings", "blue_skies_diopside_boots", "ensemble_blue_skies_diopside", "blue_skies_horizonite_helmet", "blue_skies_horizonite_chestplate", "blue_skies_horizonite_leggings", "blue_skies_horizonite_boots", "ensemble_blue_skies_horizonite", "blue_skies_pyrope_helmet", "blue_skies_pyrope_chestplate", "blue_skies_pyrope_leggings", "blue_skies_pyrope_boots", "ensemble_blue_skies_pyrope", "deep_aether_skyjade_helmet", "deep_aether_skyjade_chestplate", "deep_aether_skyjade_leggings", "deep_aether_skyjade_boots", "deep_aether_skyjade_gloves", "ensemble_deep_aether_skyjade", "deep_aether_stormforged_helmet", "deep_aether_stormforged_chestplate", "deep_aether_stormforged_leggings", "deep_aether_stormforged_boots", "deep_aether_stormforged_gloves", "ensemble_deep_aether_stormforged", "deep_aether_stratus_helmet", "deep_aether_stratus_chestplate", "deep_aether_stratus_leggings", "deep_aether_stratus_boots", "deep_aether_stratus_gloves", "ensemble_deep_aether_stratus", "lost_aether_content_agility_boots", "lost_aether_content_power_gloves", "lost_aether_content_swetty_mask", "twilightforest_arctic_helmet", "twilightforest_arctic_chestplate", "twilightforest_arctic_leggings", "twilightforest_arctic_boots", "ensemble_twilightforest_arctic", "twilightforest_fiery_helmet", "twilightforest_fiery_chestplate", "twilightforest_fiery_leggings", "twilightforest_fiery_boots", "ensemble_twilightforest_fiery", "twilightforest_ironwood_helmet", "twilightforest_ironwood_chestplate", "twilightforest_ironwood_leggings", "twilightforest_ironwood_boots", "ensemble_twilightforest_ironwood", "twilightforest_knightmetal_helmet", "twilightforest_knightmetal_chestplate", "twilightforest_knightmetal_leggings", "twilightforest_knightmetal_boots", "ensemble_twilightforest_knightmetal", "twilightforest_naga_chestplate", "twilightforest_naga_leggings", "ensemble_twilightforest_naga", "twilightforest_phantom_helmet", "twilightforest_phantom_chestplate", "ensemble_twilightforest_phantom", "twilightforest_steeleaf_helmet", "twilightforest_steeleaf_chestplate", "twilightforest_steeleaf_leggings", "twilightforest_steeleaf_boots", "ensemble_twilightforest_steeleaf", "twilightforest_yeti_helmet", "twilightforest_yeti_chestplate", "twilightforest_yeti_leggings", "twilightforest_yeti_boots", "ensemble_twilightforest_yeti", "umbral_skies_arctic_gloves", "umbral_skies_fiery_gloves", "umbral_skies_ironwood_gloves", "umbral_skies_knightmetal_gloves", "umbral_skies_naga_gloves", "umbral_skies_phantom_gloves", "umbral_skies_steeleaf_gloves", "umbral_skies_yeti_gloves"]
+description = """
+Toutes les pièces et tous les ensembles de ce chapitre.
+"""
