@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets."]
 			icon: "minecraft:ender_eye"
 			id: "62230CA0D060F420"
 			rewards: [{
@@ -139,9 +139,10 @@
 			shape: "hexagon"
 			subtitle: "Better End"
 			tasks: [{
-				id: "69F03F4617C3FC82"
-				structure: "betterend:end_village"
-				type: "structure"
+				advancement: "betterend:village"
+				criterion: ""
+				id: "41AEAFAA0B5F9434"
+				type: "advancement"
 			}]
 			title: "Visiter : « End village »"
 			x: 7.5d
@@ -159,9 +160,10 @@
 			shape: "hexagon"
 			subtitle: "Better End"
 			tasks: [{
-				id: "40CFED2FD531E70D"
-				structure: "betterend:eternal_portal"
-				type: "structure"
+				advancement: "betterend:portal"
+				criterion: ""
+				id: "5329B1C9BA6DB6E0"
+				type: "advancement"
 			}]
 			title: "Visiter : « Eternal portal »"
 			x: 9.0d
@@ -379,9 +381,10 @@
 			shape: "hexagon"
 			subtitle: "Better Nether"
 			tasks: [{
-				id: "1E4B4374EE4DBEB3"
-				structure: "betternether:nether_city"
-				type: "structure"
+				advancement: "betternether:city"
+				criterion: ""
+				id: "49E9CA52CBB73A53"
+				type: "advancement"
 			}]
 			title: "Visiter : « Nether city »"
 			x: 1.5d
@@ -619,9 +622,10 @@
 			shape: "hexagon"
 			subtitle: "Blue Skies"
 			tasks: [{
-				id: "4B6CB5071765F6DA"
-				structure: "blue_skies:nature_dungeon"
-				type: "structure"
+				advancement: "blue_skies:everbright/enter_nature_dungeon"
+				criterion: ""
+				id: "53EF3470D04C2E38"
+				type: "advancement"
 			}]
 			title: "Visiter : « Nature dungeon »"
 			x: 19.5d
@@ -639,9 +643,10 @@
 			shape: "hexagon"
 			subtitle: "Blue Skies"
 			tasks: [{
-				id: "07AFBEA1CEE9B366"
-				structure: "blue_skies:poison_dungeon"
-				type: "structure"
+				advancement: "blue_skies:everdawn/enter_poison_dungeon"
+				criterion: ""
+				id: "6E0D5AD301AFAB0E"
+				type: "advancement"
 			}]
 			title: "Visiter : « Poison dungeon »"
 			x: 21.0d
@@ -779,9 +784,10 @@
 			shape: "hexagon"
 			subtitle: "Bygone Nether"
 			tasks: [{
-				id: "34D35CD456331B82"
-				structure: "bygonenether:catacomb"
-				type: "structure"
+				advancement: "bygonenether:catacomb"
+				criterion: ""
+				id: "5FF621B55D5165DE"
+				type: "advancement"
 			}]
 			title: "Visiter : « Catacomb »"
 			x: 7.5d
@@ -799,9 +805,10 @@
 			shape: "hexagon"
 			subtitle: "Bygone Nether"
 			tasks: [{
-				id: "3AC0434C825BF251"
-				structure: "bygonenether:citadel"
-				type: "structure"
+				advancement: "bygonenether:citadel"
+				criterion: ""
+				id: "52A8CB593AFB088E"
+				type: "advancement"
 			}]
 			title: "Visiter : « Citadel »"
 			x: 9.0d
@@ -819,9 +826,10 @@
 			shape: "hexagon"
 			subtitle: "Bygone Nether"
 			tasks: [{
-				id: "2FC454FC39086239"
-				structure: "bygonenether:piglin_manor"
-				type: "structure"
+				advancement: "bygonenether:piglin_manor"
+				criterion: ""
+				id: "2A23D2B5F215D207"
+				type: "advancement"
 			}]
 			title: "Visiter : « Piglin manor »"
 			x: 10.5d
@@ -899,9 +907,10 @@
 			shape: "hexagon"
 			subtitle: "Cataclysm"
 			tasks: [{
-				id: "05FF839B6CF9FE62"
-				structure: "cataclysm:acropolis"
-				type: "structure"
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "6CE9B070B94691B9"
+				type: "advancement"
 			}]
 			title: "Visiter : « Acropolis »"
 			x: 16.5d
@@ -939,9 +948,10 @@
 			shape: "hexagon"
 			subtitle: "Cataclysm"
 			tasks: [{
-				id: "0F8E496DF5D251E1"
-				structure: "cataclysm:ancient_factory"
-				type: "structure"
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "419C7966D68D3574"
+				type: "advancement"
 			}]
 			title: "Visiter : « Ancient factory »"
 			x: 19.5d
@@ -959,9 +969,10 @@
 			shape: "hexagon"
 			subtitle: "Cataclysm"
 			tasks: [{
-				id: "16D806DE63666BA1"
-				structure: "cataclysm:burning_arena"
-				type: "structure"
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "15575B18EAAB235F"
+				type: "advancement"
 			}]
 			title: "Visiter : « Burning arena »"
 			x: 21.0d
@@ -979,9 +990,10 @@
 			shape: "hexagon"
 			subtitle: "Cataclysm"
 			tasks: [{
-				id: "3ACCBBE32E715847"
-				structure: "cataclysm:cursed_pyramid"
-				type: "structure"
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "3ED4E8F4CDF89F91"
+				type: "advancement"
 			}]
 			title: "Visiter : « Cursed pyramid »"
 			x: 22.5d
@@ -1039,9 +1051,10 @@
 			shape: "hexagon"
 			subtitle: "Cataclysm"
 			tasks: [{
-				id: "735F2FF16A5F46DD"
-				structure: "cataclysm:frosted_prison"
-				type: "structure"
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "405524A5EA3271F6"
+				type: "advancement"
 			}]
 			title: "Visiter : « Frosted prison »"
 			x: 3.0d
@@ -1059,9 +1072,10 @@
 			shape: "hexagon"
 			subtitle: "Cataclysm"
 			tasks: [{
-				id: "58B8CC3660736402"
-				structure: "cataclysm:ruined_citadel"
-				type: "structure"
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "52732C3D7BCE5D2C"
+				type: "advancement"
 			}]
 			title: "Visiter : « Ruined citadel »"
 			x: 4.5d
@@ -1079,9 +1093,10 @@
 			shape: "hexagon"
 			subtitle: "Cataclysm"
 			tasks: [{
-				id: "09E42DBADAB74A7A"
-				structure: "cataclysm:soul_black_smith"
-				type: "structure"
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "0094A2CEB9BE0B7D"
+				type: "advancement"
 			}]
 			title: "Visiter : « Soul black smith »"
 			x: 6.0d
@@ -1099,9 +1114,10 @@
 			shape: "hexagon"
 			subtitle: "Cataclysm"
 			tasks: [{
-				id: "5DA26C807266DCFE"
-				structure: "cataclysm:sunken_city"
-				type: "structure"
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "1A6E945F41284BEA"
+				type: "advancement"
 			}]
 			title: "Visiter : « Sunken city »"
 			x: 7.5d
@@ -1139,9 +1155,10 @@
 			shape: "hexagon"
 			subtitle: "Deeper and Darker"
 			tasks: [{
-				id: "61A39E0A383AE978"
-				structure: "deeperdarker:ancient_temple"
-				type: "structure"
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				id: "65FDD368B6D81D55"
+				type: "advancement"
 			}]
 			title: "Visiter : « Ancient temple »"
 			x: 10.5d
@@ -1199,9 +1216,10 @@
 			shape: "hexagon"
 			subtitle: "Iron's Spells"
 			tasks: [{
-				id: "1D1AC9EADA37D13E"
-				structure: "irons_spellbooks:catacombs"
-				type: "structure"
+				advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
+				criterion: ""
+				id: "42CE71E0E853FCC6"
+				type: "advancement"
 			}]
 			title: "Visiter : « Catacombs »"
 			x: 15.0d
@@ -1439,9 +1457,10 @@
 			shape: "hexagon"
 			subtitle: "Jaden's Nether Expansion"
 			tasks: [{
-				id: "3222D2C5AB2A9CDB"
-				structure: "netherexp:mega_fossil_campsite"
-				type: "structure"
+				advancement: "netherexp:nether/rattling_remnants"
+				criterion: ""
+				id: "4A4192E977787F4E"
+				type: "advancement"
 			}]
 			title: "Visiter : « Mega fossil campsite »"
 			x: 9.0d
@@ -1459,9 +1478,10 @@
 			shape: "hexagon"
 			subtitle: "Jaden's Nether Expansion"
 			tasks: [{
-				id: "0997531BB44B4C15"
-				structure: "netherexp:sanctum"
-				type: "structure"
+				advancement: "netherexp:nether/occult_manor"
+				criterion: ""
+				id: "1400418EA0B15916"
+				type: "advancement"
 			}]
 			title: "Visiter : « Sanctum »"
 			x: 10.5d

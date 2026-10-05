@@ -42,7 +42,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["31E061BF96F2149B"]
 			description: ["Les &dparchemins&r se trouvent dans les coffres, sur les mages tués, chez le marchand ambulant. Chacun porte un sort et un niveau. On peut le &lconsommer&r pour lancer le sort une fois, sans mana ni recharge — mais mieux vaut le garder pour l'inscrire dans un grimoire, où il servira sans fin."]
 			icon: "irons_spellbooks:scroll"
 			id: "5424CD0F4F017837"
@@ -755,9 +754,10 @@
 				xp_levels: 8
 			}]
 			tasks: [{
-				id: "5FE44E4997DE7621"
-				structure: "irons_spellbooks:catacombs"
-				type: "structure"
+				advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
+				criterion: ""
+				id: "589CBAAF7D4DCA48"
+				type: "advancement"
 			}]
 			title: "Les Catacombes"
 			x: 16.0d
@@ -894,7 +894,7 @@
 		{
 			dependencies: [
 				"2E71759085E56F89"
-				"31FAD0CBCAB93E86"
+				"118B7A900AB0A4D3"
 			]
 			description: ["Le mod le dit lui-même : ce minerai dort, et seule la chaleur d'une étoile le réveille. Une zénalite brute et une étoile du Nether donnent quatre « Starkissed Zenalite », que le four change chacune en lingot de zénalite. Un Wither vaincu, quatre lingots : toutes les pièces qui suivent en demandent."]
 			icon: "hazennstuff:zenalite_ingot"
@@ -919,7 +919,7 @@
 		{
 			dependencies: [
 				"2E71759085E56F89"
-				"7F89BB37F0895AA1"
+				"0FF4FA0072AB70EB"
 				"2029658849E78612"
 			]
 			description: ["Quatre zénalites brutes, une pierre runique vierge, un lingot de pyrium, deux peaux de dragon et un éclat d'âme divine donnent quatre « Divine Mold ». L'Ender Dragon lâche de six à dix peaux en plus de son butin. L'éclat tombe de l'Écho de Tyros, seulement s'il meurt de la main d'un joueur."]
@@ -938,7 +938,7 @@
 				type: "item"
 			}]
 			title: "Le Moule divin"
-			x: 22.0d
+			x: 20.0d
 			y: 3.5d
 		}
 		{
@@ -946,7 +946,6 @@
 				"0F754DACDDD103B9"
 				"1023C4EDE5D9D236"
 			]
-			dependency_requirement: "one_completed"
 			description: ["Chaque robe d'école d'Iron's a sa version divine. Pour le casque : le casque de l'école, deux runes de cette école, trois lingots de zénalite et un moule divin. Le Masque du Prêtre et deux runes sacrées donnent le « Seraph Visor » ; le Chapeau du Pyromancien et deux runes de feu, le « Blazeborne Helmet ». Les autres pièces suivent le même principe, avec plus de zénalite."]
 			icon: "hazennstuff:seraph_helmet"
 			id: "4E80349C8053FA78"
@@ -961,46 +960,52 @@
 				{
 					id: "40A9258AD346805C"
 					item: "hazennstuff:seraph_helmet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7E33E5C8ABE905E9"
 					item: "hazennstuff:blazeborne_helmet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7309FCD5B60D71D0"
 					item: "hazennstuff:cryogenic_ruler_helmet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "49D75271FD4535F8"
 					item: "hazennstuff:ender_dragon_helmet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3544095716CC1D17"
 					item: "hazennstuff:alchemist_supreme_helmet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0A2581EEBBFD7BAA"
 					item: "hazennstuff:creaking_sorcerer_helmet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7C3CC7557B0AE523"
 					item: "hazennstuff:flesh_mass_helmet"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Une armure d'école divine"
-			x: 24.0d
+			x: 22.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4E80349C8053FA78"]
-			dependency_requirement: "one_completed"
 			description: ["À la table de forge, un casque divin sert de modèle à un autre. Le « Creaking Sorcerer Mask » en modèle et un « Blazeborne Helmet » en base donnent la « Fireblossom Battlemage Crown » avec une Rune Arcanique, tournée vers la magie. Avec une Rune de Protection, c'est le « Fireblossom Battlemage Helmet », tourné vers l'épée. Sur un « Alchemist Supreme Hat » avec une pierre runique vierge, on obtient le « Atlas's Helmet »."]
 			icon: "hazennstuff:fireblossom_battlemage_crown"
 			id: "6EB16F19DACE6A5D"
@@ -1015,21 +1020,24 @@
 				{
 					id: "0BE62A614D745B41"
 					item: "hazennstuff:fireblossom_battlemage_crown"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "62246E1788A1AACB"
 					item: "hazennstuff:fireblossom_battlemage_helmet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6C45F28768757045"
 					item: "hazennstuff:atlas_helmet"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Deux armures en une"
-			x: 26.0d
+			x: 24.0d
 			y: 3.5d
 		}
 		{
@@ -1050,12 +1058,11 @@
 				type: "item"
 			}]
 			title: "La veste de Hazel"
-			x: 26.0d
+			x: 24.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1023C4EDE5D9D236"]
-			dependency_requirement: "one_completed"
 			description: ["Toutes les armes du mod demandent deux ou trois lingots de zénalite, des Pièces d'Arme et des runes d'école. La plupart partent d'une épée en nétherite : « Excalibur » avec une Perle Divine et deux runes sacrées, « Draconic Splitter » avec un bâton de blaze et deux runes de feu. « O' Fortuna » part d'une hache en nétherite, « Raven's Bane » du Tranchefer Infernal. Le reste est dans JEI."]
 			icon: "hazennstuff:excalibur"
 			id: "080AB907A2AD885F"
@@ -1070,46 +1077,55 @@
 				{
 					id: "428EBE53B52693D9"
 					item: "hazennstuff:excalibur"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7FA5306F00961580"
 					item: "hazennstuff:draconic_splitter"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "571B2FFFC5483006"
 					item: "hazennstuff:fireblossom_rapier"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5642AD930EB030DC"
 					item: "hazennstuff:ice_pike"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7283240892E9A86F"
 					item: "hazennstuff:umbranova"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5AC6741CD1167BCA"
 					item: "hazennstuff:the_devourer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "27FA1F1FAC012D0F"
 					item: "hazennstuff:provocation"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "34CCCD969E8E55E4"
 					item: "hazennstuff:o_fortuna"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7F8188A7C1F83E4B"
 					item: "hazennstuff:ravens_bane"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1139,11 +1155,10 @@
 			}]
 			title: "Le casque de pyrium"
 			x: 20.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5E8F30E9E163C42C"]
-			dependency_requirement: "one_completed"
 			description: ["Une pépite de pyrium sert de modèle à la table de forge, sur un « Pyrium Helmet ». Avec du Tissu Arcanique, on obtient le « Legionnaire Ruler Crown ». Avec du Tissu de Mithril, c'est le « Legionnaire Commander Helmet »."]
 			icon: "hazennstuff:legionnaire_ruler_helmet"
 			id: "71B4B2901A0892A8"
@@ -1158,11 +1173,13 @@
 				{
 					id: "1F29100F70F71A85"
 					item: "hazennstuff:legionnaire_ruler_helmet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4A74D495C8C6A42B"
 					item: "hazennstuff:legionnaire_commander_helmet"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1192,7 +1209,7 @@
 			}]
 			title: "Une encre rare"
 			x: 20.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2DAC6486D28D892E"]
@@ -1235,7 +1252,7 @@
 			}]
 			title: "&6Une encre légendaire"
 			x: 24.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1D25D3F3BB348035"]
@@ -1338,7 +1355,7 @@
 			}]
 			title: "L'orbe : Cryomancien"
 			x: 20.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1403,7 +1420,7 @@
 			}]
 			title: "L'orbe : Électromancien"
 			x: 20.0d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1468,7 +1485,7 @@
 			}]
 			title: "L'orbe : Prêtre"
 			x: 20.0d
-			y: 9.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1533,7 +1550,7 @@
 			}]
 			title: "L'orbe : Marchombre"
 			x: 20.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1598,7 +1615,7 @@
 			}]
 			title: "L'orbe : Cultiste"
 			x: 20.0d
-			y: 12.5d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -1663,7 +1680,7 @@
 			}]
 			title: "L'orbe : Archévocateur"
 			x: 20.0d
-			y: 14.0d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -1728,7 +1745,7 @@
 			}]
 			title: "L'orbe : nature"
 			x: 20.0d
-			y: 15.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2E672E935920AF5F"]
@@ -1749,7 +1766,7 @@
 			}]
 			title: "L'orbe de mana"
 			x: 20.0d
-			y: 17.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["2E672E935920AF5F"]
@@ -1770,7 +1787,7 @@
 			}]
 			title: "L'orbe de récupération"
 			x: 20.0d
-			y: 18.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["2E672E935920AF5F"]
@@ -1791,7 +1808,7 @@
 			}]
 			title: "L'orbe de protection"
 			x: 20.0d
-			y: 20.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -1988,7 +2005,7 @@
 			y: 18.5d
 		}
 		{
-			dependencies: ["0E4E9FD2F907073F"]
+			dependencies: ["74716CCF47DE7839"]
 			description: ["Le Roi Mort le lâche."]
 			icon: "irons_spellbooks:necronomicon_spell_book"
 			id: "326146006D206EBD"
@@ -2005,8 +2022,8 @@
 				type: "item"
 			}]
 			title: "&4Le Necronomicon"
-			x: 20.0d
-			y: 21.5d
+			x: 18.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["085B1B1D1EAB17A8"]
@@ -2090,7 +2107,7 @@
 			}]
 			title: "Le Grimoire pourri"
 			x: 18.0d
-			y: 12.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["085B1B1D1EAB17A8"]

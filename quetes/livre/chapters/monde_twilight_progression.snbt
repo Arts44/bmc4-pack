@@ -49,10 +49,10 @@
 			}]
 			title: "La cour de la Naga"
 			x: 2.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
-			dependencies: ["39B25C1E8EE1DFB1"]
+			dependencies: ["49F68B8AEB0F5E46"]
 			description: ["Un serpent géant qui charge ; les pilonnes de la cour le ralentissent. Sa mort lève la barrière magique de la tour de la Liche (texte du progrès). Ses écailles font un plastron et des jambières. Sa mort est annoncée dans #faits-d-armes."]
 			id: "4BE50667533C34E4"
 			rewards: [{
@@ -69,8 +69,8 @@
 				type: "advancement"
 			}]
 			title: "&2Vaincre la Naga"
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["4BE50667533C34E4"]
@@ -88,8 +88,8 @@
 				type: "item"
 			}]
 			title: "Le trophée de la Naga"
-			x: 6.0d
-			y: -0.75d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4BE50667533C34E4"]
@@ -106,11 +106,11 @@
 				type: "structure"
 			}]
 			title: "La tour de la Liche"
-			x: 6.0d
-			y: 0.75d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["2C8267741CCF0457"]
+			dependencies: ["4BE50667533C34E4"]
 			description: ["Une seule Liche est réelle ; les autres sont des clones d'ombre, invulnérables. Casse d'abord ses &lsix boucliers&r : chaque coup en retire un, une boule de neige suffit. Puis les sceptres : vie, zombie, fortification, Twilight. Le progrès du mod dit que sa mort chasse les moustiques du marais, la malédiction de la forêt sombre et le froid de la forêt enneigée."]
 			id: "40403E97C09902E0"
 			rewards: [{
@@ -127,8 +127,8 @@
 				type: "advancement"
 			}]
 			title: "&5Vaincre la Liche"
-			x: 8.0d
-			y: -0.75d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["40403E97C09902E0"]
@@ -146,8 +146,8 @@
 				type: "item"
 			}]
 			title: "Le trophée de la Liche"
-			x: 10.0d
-			y: -2.25d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["40403E97C09902E0"]
@@ -164,8 +164,8 @@
 				type: "structure"
 			}]
 			title: "Le labyrinthe du marais"
-			x: 10.0d
-			y: -0.75d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["64039C5240306C98"]
@@ -186,11 +186,11 @@
 				value: 1L
 			}]
 			title: "&cVaincre le Minoshroom"
-			x: 12.0d
-			y: -1.5d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["53090FD9DF6E3205"]
+			dependencies: ["40403E97C09902E0"]
 			description: ["Le progrès du mod : « manger le Stroganoff de Meef pour acclimater le corps à la chaleur du Marais du feu ». Sans lui, le marais brûle."]
 			id: "226E59C08320F06E"
 			rewards: [{
@@ -205,8 +205,8 @@
 				type: "advancement"
 			}]
 			title: "Manger le Stroganoff de Meef"
-			x: 14.0d
-			y: -2.25d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["226E59C08320F06E"]
@@ -223,11 +223,11 @@
 				type: "structure"
 			}]
 			title: "Le repaire de l'Hydre"
-			x: 16.0d
-			y: -3.75d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["3ACAA0E95785B149"]
+			dependencies: ["226E59C08320F06E"]
 			description: ["Frappe dans la gueule ouverte, esquive le feu et les mortiers. Son sang ardent fait les lingots ardents (épée, pioche, armure : progrès « fiery set »), et une tranche d'Hydre mangée affamé vaut un progrès. Sa mort est annoncée dans #faits-d-armes."]
 			id: "24285F86951D46F9"
 			rewards: [{
@@ -244,8 +244,8 @@
 				type: "advancement"
 			}]
 			title: "&cVaincre l'Hydre"
-			x: 18.0d
-			y: -2.25d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["24285F86951D46F9"]
@@ -263,8 +263,8 @@
 				type: "item"
 			}]
 			title: "Le trophée de l'Hydre"
-			x: 20.0d
-			y: -1.5d
+			x: 10.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["40403E97C09902E0"]
@@ -282,8 +282,8 @@
 				type: "advancement"
 			}]
 			title: "Un trophée sur le piédestal"
-			x: 10.0d
-			y: 0.75d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2DD5FE87ABE1BF7D"]
@@ -300,11 +300,11 @@
 				type: "structure"
 			}]
 			title: "Le bastion des Gobelins"
-			x: 12.0d
-			y: 0.0d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["1375E94CC9856941"]
+			dependencies: ["2DD5FE87ABE1BF7D"]
 			description: ["Tous les fantômes de la tombe, jusqu'au dernier (progrès « kill all phantoms »). Leur butin ne va pas dans un coffre, contrairement aux autres boss (config du serveur). Ensuite, les dispositifs de la tour de carminite t'obéissent."]
 			id: "0C51B66D576042E1"
 			rewards: [{
@@ -321,8 +321,8 @@
 				type: "advancement"
 			}]
 			title: "&7Vaincre les Chevaliers fantômes"
-			x: 14.0d
-			y: -0.75d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C51B66D576042E1"]
@@ -340,7 +340,7 @@
 				type: "item"
 			}]
 			title: "Le trophée des Chevaliers fantômes"
-			x: 16.0d
+			x: 10.0d
 			y: -2.25d
 		}
 		{
@@ -358,11 +358,11 @@
 				type: "structure"
 			}]
 			title: "La tour sombre"
-			x: 16.0d
+			x: 10.0d
 			y: -0.75d
 		}
 		{
-			dependencies: ["0BB2DAFA79C8A020"]
+			dependencies: ["0C51B66D576042E1"]
 			description: ["Tuer les ghastlings autour du piège, puis l'activer pour arracher l'&cUr-Ghast&r au ciel (texte du progrès)."]
 			id: "05120D47943F441C"
 			rewards: [{
@@ -377,8 +377,8 @@
 				type: "advancement"
 			}]
 			title: "Activer le piège à Ghast"
-			x: 18.0d
-			y: -0.75d
+			x: 10.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["05120D47943F441C"]
@@ -398,8 +398,8 @@
 				type: "advancement"
 			}]
 			title: "&cVaincre l'Ur-Ghast"
-			x: 20.0d
-			y: 0.0d
+			x: 12.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["171CC396EA14354E"]
@@ -417,8 +417,8 @@
 				type: "item"
 			}]
 			title: "Le trophée de l'Ur-Ghast"
-			x: 22.0d
-			y: -1.5d
+			x: 14.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["40403E97C09902E0"]
@@ -435,11 +435,11 @@
 				type: "structure"
 			}]
 			title: "La grotte du Yéti"
-			x: 10.0d
-			y: 2.25d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["315200A581F85F42"]
+			dependencies: ["40403E97C09902E0"]
 			description: ["Sa fourrure double les vêtements contre le froid du Glacier (texte du progrès) : l'armure de Yéti ouvre la suite."]
 			id: "6EE6F614A6792790"
 			rewards: [{
@@ -456,8 +456,8 @@
 				type: "advancement"
 			}]
 			title: "&fVaincre le Yéti Alpha"
-			x: 12.0d
-			y: 1.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6EE6F614A6792790"]
@@ -475,8 +475,8 @@
 				type: "item"
 			}]
 			title: "Le trophée du Yéti Alpha"
-			x: 14.0d
-			y: 0.75d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6EE6F614A6792790"]
@@ -493,11 +493,11 @@
 				type: "structure"
 			}]
 			title: "Le palais des aurores"
-			x: 14.0d
-			y: 2.25d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["18ADFF03D23A2F6F"]
+			dependencies: ["6EE6F614A6792790"]
 			description: ["Casse ses cœurs de glace quand elle se pose. Sa mort est annoncée dans #faits-d-armes."]
 			id: "083EC3B1654007F9"
 			rewards: [{
@@ -514,8 +514,8 @@
 				type: "advancement"
 			}]
 			title: "&bVaincre la Reine des Neiges"
-			x: 16.0d
-			y: 0.75d
+			x: 8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["083EC3B1654007F9"]
@@ -533,8 +533,8 @@
 				type: "item"
 			}]
 			title: "Le trophée de la Reine des Neiges"
-			x: 18.0d
-			y: 0.75d
+			x: 10.0d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -557,8 +557,8 @@
 				type: "advancement"
 			}]
 			title: "&6Les trois piliers"
-			x: 22.0d
-			y: 0.0d
+			x: 14.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2B5304413608F168"]
@@ -576,7 +576,7 @@
 				type: "advancement"
 			}]
 			title: "La grotte des trolls"
-			x: 24.0d
+			x: 16.0d
 			y: -0.75d
 		}
 		{
@@ -595,7 +595,7 @@
 				type: "advancement"
 			}]
 			title: "Les géants des nuages"
-			x: 26.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -614,7 +614,7 @@
 				type: "advancement"
 			}]
 			title: "La Lampe de cendres"
-			x: 28.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -635,7 +635,7 @@
 				type: "advancement"
 			}]
 			title: "&6Le Plateau final"
-			x: 30.0d
+			x: 22.0d
 			y: 0.0d
 		}
 		{
@@ -657,8 +657,8 @@
 				value: 1L
 			}]
 			title: "&2Une autre Naga"
-			x: 8.0d
-			y: 0.75d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["226E59C08320F06E"]
@@ -679,8 +679,8 @@
 				value: 1L
 			}]
 			title: "&2Un autre Minoshroom"
-			x: 16.0d
-			y: 2.25d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6B0EAD443978034B"]
@@ -701,8 +701,8 @@
 				value: 1L
 			}]
 			title: "&2Une autre Hydre"
-			x: 22.0d
-			y: 1.5d
+			x: 12.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["01CAB6108DB622D7"]
@@ -723,8 +723,8 @@
 				value: 6L
 			}]
 			title: "&2D'autres chevaliers fantômes"
-			x: 18.0d
-			y: 2.25d
+			x: 12.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["54F12401D56BF9E4"]
@@ -745,7 +745,7 @@
 				value: 1L
 			}]
 			title: "&2Un autre Ur-Ghast"
-			x: 24.0d
+			x: 16.0d
 			y: 0.75d
 		}
 		{
@@ -767,7 +767,7 @@
 				value: 1L
 			}]
 			title: "&2Un autre Yéti alpha"
-			x: 16.0d
+			x: 10.0d
 			y: 3.75d
 		}
 		{
@@ -789,8 +789,8 @@
 				value: 1L
 			}]
 			title: "&2Une autre Reine des neiges"
-			x: 20.0d
-			y: 1.5d
+			x: 12.0d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -819,7 +819,7 @@
 				type: "checkmark"
 			}]
 			title: "&2Seigneur de la forêt"
-			x: 32.0d
+			x: 24.0d
 			y: 0.0d
 		}
 	]

@@ -45,10 +45,9 @@
 			}]
 			title: "Trouver un village"
 			x: 2.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
-			dependencies: ["1D6AAD6617663193"]
 			description: ["Commercer avec un villageois (progrès vanilla). Chaque échange fait monter son niveau et débloque la ligne suivante."]
 			id: "7A3802057709F7D1"
 			rewards: [{
@@ -63,8 +62,8 @@
 				type: "advancement"
 			}]
 			title: "Premier échange"
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["7A3802057709F7D1"]
@@ -82,7 +81,7 @@
 				type: "item"
 			}]
 			title: "Un bibliothécaire"
-			x: 6.0d
+			x: 4.0d
 			y: -0.75d
 		}
 		{
@@ -103,7 +102,7 @@
 				type: "item"
 			}]
 			title: "Un armurier"
-			x: 6.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -124,7 +123,7 @@
 				type: "item"
 			}]
 			title: "Un forgeron d'armes"
-			x: 6.0d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -145,7 +144,7 @@
 				type: "item"
 			}]
 			title: "Un forgeron d'outils"
-			x: 6.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -166,7 +165,7 @@
 				type: "item"
 			}]
 			title: "Un cartographe"
-			x: 6.0d
+			x: 4.0d
 			y: 7.5d
 		}
 		{
@@ -187,7 +186,7 @@
 				type: "item"
 			}]
 			title: "Un clerc"
-			x: 6.0d
+			x: 4.0d
 			y: 9.0d
 		}
 		{
@@ -208,7 +207,7 @@
 				type: "item"
 			}]
 			title: "Un fermier"
-			x: 6.0d
+			x: 4.0d
 			y: 10.5d
 		}
 		{
@@ -228,7 +227,7 @@
 				type: "item"
 			}]
 			title: "Un pêcheur"
-			x: 6.0d
+			x: 4.0d
 			y: 12.0d
 		}
 		{
@@ -249,7 +248,7 @@
 				type: "item"
 			}]
 			title: "Un fléchier"
-			x: 6.0d
+			x: 4.0d
 			y: 13.5d
 		}
 		{
@@ -270,7 +269,7 @@
 				type: "item"
 			}]
 			title: "Un berger"
-			x: 6.0d
+			x: 4.0d
 			y: 15.0d
 		}
 		{
@@ -290,7 +289,7 @@
 				type: "item"
 			}]
 			title: "Un tailleur de pierre"
-			x: 6.0d
+			x: 4.0d
 			y: 16.5d
 		}
 		{
@@ -310,7 +309,7 @@
 				type: "item"
 			}]
 			title: "Un boucher"
-			x: 6.0d
+			x: 4.0d
 			y: 18.0d
 		}
 		{
@@ -331,7 +330,7 @@
 				type: "item"
 			}]
 			title: "Un tanneur"
-			x: 6.0d
+			x: 4.0d
 			y: 19.5d
 		}
 		{
@@ -352,7 +351,7 @@
 				type: "item"
 			}]
 			title: "Un alchimiste"
-			x: 6.0d
+			x: 4.0d
 			y: 21.0d
 		}
 		{
@@ -373,7 +372,7 @@
 				type: "item"
 			}]
 			title: "Un occultiste"
-			x: 6.0d
+			x: 4.0d
 			y: 22.5d
 		}
 		{
@@ -394,7 +393,7 @@
 				type: "item"
 			}]
 			title: "Un océanographe"
-			x: 6.0d
+			x: 4.0d
 			y: 24.0d
 		}
 		{
@@ -415,11 +414,10 @@
 				type: "item"
 			}]
 			title: "Un horticulteur"
-			x: 6.0d
+			x: 4.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["1D6AAD6617663193"]
 			description: ["&7Guard Villagers&r : donner une épée à un villageois sans emploi en fait un garde (progrès du mod)."]
 			id: "7DE9B7F5A31794C6"
 			optional: true
@@ -436,7 +434,7 @@
 				type: "advancement"
 			}]
 			title: "Recruter un garde"
-			x: 4.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -455,11 +453,10 @@
 				type: "item"
 			}]
 			title: "Un comptoir d'échange"
-			x: 6.0d
+			x: 4.0d
 			y: 0.75d
 		}
 		{
-			dependencies: ["11713A40534A2ED2"]
 			description: ["La &6Bartering Station&r troque l'or avec les piglins à ta place."]
 			icon: "barteringstation:bartering_station"
 			id: "20D79C4EF74FA22D"
@@ -477,7 +474,7 @@
 			}]
 			title: "Une station de troc"
 			x: 2.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["11713A40534A2ED2"]
@@ -500,7 +497,7 @@
 			}]
 			title: "Le gobelin marchand"
 			x: 2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["343FD1FF76A1CE96"]
@@ -523,10 +520,9 @@
 			}]
 			title: "Le gobelin des veines"
 			x: 4.0d
-			y: 4.5d
+			y: 27.0d
 		}
 		{
-			dependencies: ["1D6AAD6617663193"]
 			description: ["Le capitaine d'une patrouille ou d'un avant-poste porte une bannière. L'abattre donne le &cMauvais présage&r : la prochaine entrée dans un village déclenche un raid."]
 			id: "70D83BE4F74D2E21"
 			optional: true
@@ -543,8 +539,8 @@
 				type: "advancement"
 			}]
 			title: "Abattre un capitaine"
-			x: 4.0d
-			y: 6.0d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["70D83BE4F74D2E21"]
@@ -564,8 +560,8 @@
 				type: "advancement"
 			}]
 			title: "&cHéros du village"
-			x: 6.0d
-			y: 27.0d
+			x: 4.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["09CB3321C66F7428"]
@@ -612,7 +608,7 @@
 				}
 			]
 			title: "&cLes illageois de Raided"
-			x: 8.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -631,7 +627,7 @@
 				value: 50L
 			}]
 			title: "Cinquante échanges"
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -655,7 +651,7 @@
 				value: 250L
 			}]
 			title: "Deux cent cinquante échanges"
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -676,7 +672,7 @@
 				value: 5L
 			}]
 			title: "Cinq raids gagnés"
-			x: 8.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -695,7 +691,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Marchand"
-			x: 12.0d
+			x: 10.0d
 			y: 0.0d
 		}
 	]

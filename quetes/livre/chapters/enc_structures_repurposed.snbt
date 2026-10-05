@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets."]
 			icon: "minecraft:cracked_stone_bricks"
 			id: "4A13867C1F2294C9"
 			rewards: [{
@@ -99,9 +99,10 @@
 			shape: "hexagon"
 			subtitle: "Repurposed Structures"
 			tasks: [{
-				id: "1A3800C8B6CCF6DA"
-				structure: "repurposed_structures:bastion_underground"
-				type: "structure"
+				advancement: "repurposed_structures:bastion_underground"
+				criterion: ""
+				id: "2E4B05DD5A5DE9DD"
+				type: "advancement"
 			}]
 			title: "Visiter : « Bastion underground »"
 			x: 4.5d
@@ -119,9 +120,10 @@
 			shape: "hexagon"
 			subtitle: "Repurposed Structures"
 			tasks: [{
-				id: "13976AC84584BF29"
-				structure: "repurposed_structures:city_nether"
-				type: "structure"
+				advancement: "repurposed_structures:city_nether"
+				criterion: ""
+				id: "28FA35A857D5BAC3"
+				type: "advancement"
 			}]
 			title: "Visiter : « City nether »"
 			x: 6.0d
@@ -139,9 +141,10 @@
 			shape: "hexagon"
 			subtitle: "Repurposed Structures"
 			tasks: [{
-				id: "0C4CB935E94F15A1"
-				structure: "repurposed_structures:city_overworld"
-				type: "structure"
+				advancement: "repurposed_structures:city_overworld"
+				criterion: ""
+				id: "61A957A206B7C876"
+				type: "advancement"
 			}]
 			title: "Visiter : « City overworld »"
 			x: 7.5d
@@ -1259,9 +1262,10 @@
 			shape: "hexagon"
 			subtitle: "Repurposed Structures"
 			tasks: [{
-				id: "1C78F94EC0739276"
-				structure: "repurposed_structures:ruined_portal_end"
-				type: "structure"
+				advancement: "repurposed_structures:ruined_portal_end"
+				criterion: ""
+				id: "0DCB3F38F4F14542"
+				type: "advancement"
 			}]
 			title: "Visiter : « Ruined portal end »"
 			x: 19.5d

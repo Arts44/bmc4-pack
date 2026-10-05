@@ -42,7 +42,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["Quatre plaques de fer autour d'un bloc de netherrack. Vide, il ne chauffe rien : il faut lui donner un &cBlaze&r. Clic droit sur un Blaze vivant avec le brûleur vide, dans une forteresse du Nether, et le Blaze y reste."]
 			icon: "create:empty_blaze_burner"
 			id: "3E745CD13FBB0280"
@@ -126,7 +125,6 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["Le &dquartz rose&r se fabrique avec un quartz et huit poudres de redstone, puis se polit au &7papier de verre&r (clic droit maintenu, ou un déployeur qui tient le papier). C'est le cœur du tube électronique."]
 			icon: "create:polished_rose_quartz"
 			id: "720C842E3EA107D2"
@@ -308,7 +306,6 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["Plaques de fer, lingot de fer, boîtier d'andésite. Posée à l'horizontale, la &bscie&r coupe les bûches qui passent devant elle en planches, et débite les arbres entiers quand on la monte sur une contraption. À la verticale, elle abat ce qui pousse devant elle."]
 			icon: "create:mechanical_saw"
 			id: "22114C7AF7F45511"
@@ -327,7 +324,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["Alliage, lingot de fer, boîtier d'andésite. La &bforeuse&r casse le bloc devant elle, en continu. Sur un piston ou un portique, elle creuse un tunnel ; sur un roulement, elle creuse un puits."]
 			icon: "create:mechanical_drill"
 			id: "483D4DF60760D72B"
@@ -346,7 +342,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["Dalle de bois, boîtier d'andésite, tige d'extension. Le &bpiston mécanique&r pousse une &lcontraption&r — un ensemble de blocs collés — aussi loin qu'il a de tiges derrière lui. Avec une foreuse devant, c'est une machine à tunnel."]
 			icon: "create:mechanical_piston"
 			id: "12EA9566B6898E0E"
@@ -373,7 +368,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["Dalle de bois, boîtier d'andésite, arbre. Le &broulement&r fait tourner la contraption posée dessus : une porte qui pivote, une moissonneuse circulaire, un moulin décoratif."]
 			icon: "create:mechanical_bearing"
 			id: "74EEC07055B2D8AF"
@@ -420,7 +414,6 @@
 		}
 		{
 			dependencies: ["12EA9566B6898E0E"]
-			dependency_requirement: "one_completed"
 			description: ["La &esuper colle&r définit ce qu'une contraption emporte : clic sur deux coins, tout le volume entre les deux est collé. Sans elle, un piston ne pousse que les blocs directement attachés."]
 			icon: "create:super_glue"
 			id: "4093DBB73A8E27A1"
@@ -439,7 +432,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["La &bpompe&r (un engrenage et un tuyau) pousse les liquides dans les &7tuyaux&r ; la &7cuve&r (deux plaques de cuivre autour d'un tonneau) les stocke, et plusieurs cuves côte à côte n'en font qu'une. C'est la plomberie dont la vapeur aura besoin."]
 			icon: "create:mechanical_pump"
 			id: "0354142EDB38C0B5"
@@ -866,7 +858,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["Activer un lien de redstone avec une manette liée (progrès « Remote Activation »)."]
 			id: "391A9DC54BB94083"
 			optional: true
@@ -1058,7 +1049,6 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["6D5CCFAB7E6EF69C"]
 			description: ["La bouteille d'air se remplit sur un arbre en rotation ; le casque respire sous l'eau, les bottes font marcher au fond."]
 			icon: "create:copper_backtank"
 			id: "29CF0239B691AB2D"

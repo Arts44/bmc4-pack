@@ -20,9 +20,10 @@
 			size: 1.5d
 			subtitle: "Guide dans #blue-skies sur le Discord."
 			tasks: [{
-				dimension: "blue_skies:everdawn"
-				id: "003078D50A24EDBD"
-				type: "dimension"
+				advancement: "blue_skies:everdawn/enter"
+				criterion: ""
+				id: "4A98B243007638D5"
+				type: "advancement"
 			}]
 			title: "&6Entrer dans l'Everdawn"
 			x: 0.0d
@@ -45,7 +46,7 @@
 			}]
 			title: "Du bois de l'Everdawn"
 			x: 2.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2E032B78873BFE1F"]
@@ -104,7 +105,7 @@
 			}]
 			title: "De la charoite"
 			x: 4.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["526DABEE6B35A5BB"]
@@ -125,7 +126,7 @@
 			}]
 			title: "Les bêtes de l'Everdawn"
 			x: 2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["526DABEE6B35A5BB"]
@@ -146,7 +147,7 @@
 			}]
 			title: "Le champignon de l'exil"
 			x: 2.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["526DABEE6B35A5BB"]
@@ -165,10 +166,10 @@
 			}]
 			title: "Le donjon aveuglant de l'Everdawn"
 			x: 2.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
-			dependencies: ["64F40D1C37FC27B9"]
+			dependencies: ["526DABEE6B35A5BB"]
 			description: ["Lui se bat seul : gerbes de flèches (un bouclier les arrête), nuages de potion dans les coins, et des &cpics en décomposition&r qui percent l'armure. Il se téléporte, sauf quand il lance un sort. Il lâche l'&cArtéfact du crépuscule&r et, parfois, sa table d'alchimie. Sa mort est annoncée dans #faits-d-armes."]
 			id: "5C0C6F3414D97F8E"
 			rewards: [{
@@ -185,8 +186,8 @@
 				type: "advancement"
 			}]
 			title: "&cVaincre l'Alchimiste"
-			x: 4.0d
-			y: 0.75d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5C0C6F3414D97F8E"]
@@ -198,12 +199,13 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "5963EEFCEC86260C"
-				structure: "blue_skies:poison_dungeon"
-				type: "structure"
+				advancement: "blue_skies:everdawn/enter_poison_dungeon"
+				criterion: ""
+				id: "1741E4E730FA9051"
+				type: "advancement"
 			}]
 			title: "Le donjon du poison"
-			x: 6.0d
+			x: 4.0d
 			y: 0.75d
 		}
 		{
@@ -224,8 +226,8 @@
 				type: "advancement"
 			}]
 			title: "&2Vaincre l'Arachnarque"
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5C0C6F3414D97F8E"]
@@ -245,8 +247,8 @@
 				type: "advancement"
 			}]
 			title: "De l'or par alchimie"
-			x: 6.0d
-			y: 3.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1D548D675B32A827"]
@@ -284,8 +286,8 @@
 				}
 			]
 			title: "&dLes quatre artéfacts"
-			x: 10.0d
-			y: 3.0d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5C0C6F3414D97F8E"]
@@ -307,8 +309,8 @@
 				value: 1L
 			}]
 			title: "&6Ré-invoquer l'Alchimiste"
-			x: 6.0d
-			y: 4.5d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1D548D675B32A827"]
@@ -330,8 +332,8 @@
 				value: 1L
 			}]
 			title: "&6Ré-invoquer l'Arachnarque"
-			x: 10.0d
-			y: 4.5d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3D972A74C7F0D054"]
@@ -394,7 +396,7 @@
 			]
 			title: "L'équipement en horizonite"
 			x: 8.0d
-			y: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -460,7 +462,7 @@
 			]
 			title: "&6L'équipement en charoite"
 			x: 10.0d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1D548D675B32A827"]
@@ -479,7 +481,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Les deux cieux"
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 	]

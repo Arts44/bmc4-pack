@@ -30,7 +30,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["66980A0A39E081A1"]
 			description: ["L'&cŒil de flamme&r y mène. Des revenants et berserkers enflammés gardent l'arène ; &cIgnis&r attend à l'autel de feu."]
 			id: "1D0CBBA7C01EC2EA"
 			rewards: [{
@@ -39,9 +38,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "470F657FA2E72F8B"
-				structure: "cataclysm:burning_arena"
-				type: "structure"
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "3AE571CE1D144671"
+				type: "advancement"
 			}]
 			title: "L'Arène ardente"
 			x: 2.0d
@@ -88,7 +88,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["66980A0A39E081A1"]
 			description: ["L'&8Œil du monstrueux&r y mène, dans le Nether. La &8Monstruosité de nétherite&r dort dans la forge."]
 			id: "6B7FABCDB7B6181E"
 			rewards: [{
@@ -97,9 +96,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "42133CA3C1F1C233"
-				structure: "cataclysm:soul_black_smith"
-				type: "structure"
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "7A667ABE8EA2A690"
+				type: "advancement"
 			}]
 			title: "La forge des âmes"
 			x: 2.0d
@@ -127,7 +127,6 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["66980A0A39E081A1"]
 			description: ["L'&5Œil du vide&r y mène, dans l'End. Des golems de l'Ender et des endermapteras ; le &5Gardien de l'Ender&r au centre."]
 			id: "3E3019B1E6667A11"
 			rewards: [{
@@ -136,9 +135,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "1377EC77A3BCBBF7"
-				structure: "cataclysm:ruined_citadel"
-				type: "structure"
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "7214120B369B1AE0"
+				type: "advancement"
 			}]
 			title: "La citadelle en ruine"
 			x: 2.0d
@@ -166,7 +166,6 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["66980A0A39E081A1"]
 			description: ["L'&7Œil mécanique&r y mène. Des Rôdeurs mécaniques, des Veilleurs, et le &7Harbinger&r."]
 			id: "20C71F4E3FB1E969"
 			rewards: [{
@@ -175,9 +174,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "0AA7811B8758A2AB"
-				structure: "cataclysm:ancient_factory"
-				type: "structure"
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "042D6B02C1235FC6"
+				type: "advancement"
 			}]
 			title: "L'usine ancienne"
 			x: 2.0d
@@ -205,7 +205,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["66980A0A39E081A1"]
 			description: ["L'&3Œil de l'abîme&r y mène, sous l'océan. Deeplings, golems de corail, et le &3Léviathan&r au fond."]
 			id: "711D3A3F85598C0E"
 			rewards: [{
@@ -214,9 +213,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "4369419CFAE7B7E5"
-				structure: "cataclysm:sunken_city"
-				type: "structure"
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "7DD29BA0028C6ADC"
+				type: "advancement"
 			}]
 			title: "La cité engloutie"
 			x: 2.0d
@@ -244,7 +244,6 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["66980A0A39E081A1"]
 			description: ["L'&6Œil du désert&r y mène. Koboletons, Kobolédiateur, Wadjet, et le &6Vestige ancien&r."]
 			id: "703A7A087EB52E86"
 			rewards: [{
@@ -253,9 +252,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "30897764A4207CB5"
-				structure: "cataclysm:cursed_pyramid"
-				type: "structure"
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "4AD684FDA2DB7A71"
+				type: "advancement"
 			}]
 			title: "La pyramide maudite"
 			x: 2.0d
@@ -283,7 +283,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["66980A0A39E081A1"]
 			description: ["L'&bŒil de la malédiction&r y mène. Draugrs, draugrs royaux, Aptrgangr, et &bMaledictus&r."]
 			id: "3FC9C0F129213B85"
 			rewards: [{
@@ -292,9 +291,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "6646D9C8B644404E"
-				structure: "cataclysm:frosted_prison"
-				type: "structure"
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "5AD037616F220627"
+				type: "advancement"
 			}]
 			title: "La prison givrée"
 			x: 2.0d
@@ -341,7 +341,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["66980A0A39E081A1"]
 			description: ["L'&9Œil de la tempête&r y mène. Clawdian, Cindaria, Hippocamtus, Urchinkin, et &9Scylla&r, qui change le temps quand elle se bat (config du serveur)."]
 			id: "54CDD4F43E585B43"
 			rewards: [{
@@ -350,9 +349,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "1F8A8D56B0D783AC"
-				structure: "cataclysm:acropolis"
-				type: "structure"
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "2BB07256FA7F2D42"
+				type: "advancement"
 			}]
 			title: "L'acropole"
 			x: 2.0d

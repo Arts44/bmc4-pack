@@ -30,7 +30,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["&bWhen Dungeons Arise&r pose trente-neuf structures. Le fort des illageois est l'une des grandes : plusieurs étages, des générateurs, des coffres par joueur."]
 			id: "07DE5A18A6297E4D"
 			rewards: [{
@@ -49,7 +48,6 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["Les tours des bandits (progrès du mod)."]
 			id: "59672C45C92C874A"
 			optional: true
@@ -70,7 +68,6 @@
 			y: 7.25d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["L'asile de la peste (progrès du mod). &aJalon Aventurier.&r"]
 			id: "09664B98F4B2FAC9"
 			optional: true
@@ -92,7 +89,6 @@
 			y: 8.75d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["Le palais de Shiraz, dans le désert (progrès « Enter Sandman »)."]
 			id: "7DBF9554B99DF994"
 			optional: true
@@ -113,7 +109,6 @@
 			y: 10.25d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["Le donjon de Kayra (progrès du mod)."]
 			id: "47CE7152C23D517B"
 			optional: true
@@ -134,7 +129,6 @@
 			y: 11.75d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["En mer. Le mod a aussi des corsaires et galères illageoises, un phare, des bains, une tour de Typhon (liste des progrès)."]
 			id: "46B49DA2D6CDC5DD"
 			optional: true
@@ -155,7 +149,6 @@
 			y: 13.25d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["Un monastère (progrès « A Quiet Place »)."]
 			id: "627160293D731A21"
 			optional: true
@@ -264,7 +257,6 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["Il n'apparaît pas seul : un &5ver mystérieux&r, jeté &ldans l'End&r (seule dimension autorisée sur ce serveur), l'invoque. Le ver est fait de plusieurs entités : c'est son &lœil&r, qu'il lâche, qui valide la quête. Sa mort est annoncée dans #faits-d-armes."]
 			icon: "alexsmobs:void_worm_eye"
 			id: "143D386B926A3418"
@@ -308,7 +300,6 @@
 			y: 16.25d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["&bBountiful&r : un &ltableau de primes&r propose des contrats à délai. Un &ldécret&r posé dans le tableau oriente les primes (« Royal Mandate »). Trois primes prises, et la case se coche."]
 			icon: "bountiful:bountyboard"
 			id: "27119C534F335E81"
@@ -334,7 +325,6 @@
 			y: 3.75d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["Avec &aSpawners+&r, un générateur de monstres cassé à la pioche ne disparaît plus : il lâche des fragments de générateur, plus avec Fortune. Les donjons en sont pleins."]
 			icon: "spawnersplus:spawner_fragment"
 			id: "0130B24E5E753562"
@@ -378,7 +368,6 @@
 		}
 		{
 			dependencies: ["73264E7BC87CF953"]
-			dependency_requirement: "one_completed"
 			description: ["Une créature tuée avec une arme enchantée « Soul Stealing » peut lâcher son âme : quatre fois sur cent pour un zombie, un squelette, une araignée ou un zombie momifié, cinq pour un blaze ou un creeper, sept pour une araignée venimeuse, deux pour un cube de magma (config du serveur). L'âme utilisée sur un générateur inactif le réveille pour cette créature."]
 			icon: "spawnersplus:zombie_soul"
 			id: "688DA2E0B7F436AF"
@@ -393,41 +382,49 @@
 				{
 					id: "50CDD52422E60213"
 					item: "spawnersplus:zombie_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1E686FFB3892CE8F"
 					item: "spawnersplus:skeleton_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4DE47DD18B11BB5F"
 					item: "spawnersplus:spider_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7995B1BEB122F363"
 					item: "spawnersplus:cave_spider_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "019CE4799554FA41"
 					item: "spawnersplus:husk_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "738510C182649069"
 					item: "spawnersplus:creeper_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "74ADD9E07EA3B8A1"
 					item: "spawnersplus:blaze_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5FC06047727357A3"
 					item: "spawnersplus:magma_cube_soul"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -437,7 +434,6 @@
 		}
 		{
 			dependencies: ["688DA2E0B7F436AF"]
-			dependency_requirement: "one_completed"
 			description: ["Trois âmes ne tombent jamais sur ce serveur : elles se fabriquent. Une âme de squelette entourée de huit seaux de neige poudreuse donne celle du vagabond ; une âme de zombie et huit cœurs de la mer, celle du noyé ; une âme de squelette et huit étoiles du Nether, celle du wither squelette."]
 			icon: "spawnersplus:stray_soul"
 			id: "300F9239E42CF5DC"
@@ -452,16 +448,19 @@
 				{
 					id: "267A918A54110A50"
 					item: "spawnersplus:stray_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "515E0A41EDB738E1"
 					item: "spawnersplus:drowned_soul"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1EF8BC863D08BB0F"
 					item: "spawnersplus:wither_skeleton_soul"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -491,7 +490,6 @@
 			y: 8.75d
 		}
 		{
-			dependencies: ["0C43CBB0FAD54E4D"]
 			description: ["Le minerai de tungstène de &cStalwart Dungeons&r, fondu en lingots."]
 			icon: "stalwart_dungeons:tungsten_ingot"
 			id: "638942A63E3DDE2A"
@@ -587,10 +585,7 @@
 			y: -2.25d
 		}
 		{
-			dependencies: [
-				"6F3BEE2872452357"
-				"74438424EDCF1E53"
-			]
+			dependencies: ["74438424EDCF1E53"]
 			description: ["Le chorundum, et le &lcristal du vide&r que lâche le Shelterer (table de butin du jar) dans chaque pièce. Le dernier palier de Stalwart Dungeons ; chaque pièce est à l'Armurerie de l'Encyclopédie."]
 			icon: "stalwart_dungeons:chorundum_armor_helmet"
 			id: "272EFE567D8B79D5"

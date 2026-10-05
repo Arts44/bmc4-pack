@@ -32,7 +32,7 @@
 			}]
 			title: "&eBienvenue sur BMC4"
 			x: 0.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["5F06BDBA9B3BC06D"]
@@ -57,7 +57,7 @@
 			}]
 			title: "Activer la waystone du Marché"
 			x: 2.0d
-			y: -3.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["5F06BDBA9B3BC06D"]
@@ -79,7 +79,7 @@
 			}]
 			title: "Lire le règlement"
 			x: 2.0d
-			y: -1.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["5F06BDBA9B3BC06D"]
@@ -102,7 +102,7 @@
 			}]
 			title: "Lier son compte Discord"
 			x: 2.0d
-			y: 0.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["5F06BDBA9B3BC06D"]
@@ -125,10 +125,9 @@
 			}]
 			title: "Régler le vocal de proximité"
 			x: 2.0d
-			y: 1.5d
+			y: -0.75d
 		}
 		{
-			dependencies: ["5F06BDBA9B3BC06D"]
 			description: [
 				"Tu arrives avec un &asac élimé&r (Inmis). Il s'ouvre d'un clic droit et se porte dans la main ou dans l'inventaire."
 				""
@@ -148,8 +147,8 @@
 				type: "item"
 			}]
 			title: "Le kit de départ"
-			x: 2.0d
-			y: 3.0d
+			x: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2A91210CEB418B24"]
@@ -202,8 +201,8 @@
 				type: "item"
 			}]
 			title: "Du bois"
-			x: 4.0d
-			y: -1.5d
+			x: 2.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5090842DF6D6F968"]
@@ -223,8 +222,8 @@
 				type: "item"
 			}]
 			title: "De la pierre taillée"
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["5090842DF6D6F968"]
@@ -242,8 +241,8 @@
 				type: "item"
 			}]
 			title: "Un premier lingot de fer"
-			x: 4.0d
-			y: 1.5d
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -275,8 +274,8 @@
 				type: "item"
 			}]
 			title: "Un premier abri"
-			x: 6.0d
-			y: -3.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0A0189FE2B8465C9"]
@@ -299,8 +298,8 @@
 				type: "checkmark"
 			}]
 			title: "Poser son claim"
-			x: 8.0d
-			y: -2.25d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A0189FE2B8465C9"]
@@ -322,8 +321,8 @@
 				type: "item"
 			}]
 			title: "Une waystone à soi"
-			x: 8.0d
-			y: -0.75d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5090842DF6D6F968"]
@@ -341,12 +340,12 @@
 				type: "checkmark"
 			}]
 			title: "Ne plus se perdre"
-			x: 4.0d
-			y: 3.0d
+			x: 2.0d
+			y: 5.25d
 		}
 		{
 			dependencies: [
-				"279CFDD22C866FC3"
+				"5090842DF6D6F968"
 				"713E439523FC1021"
 			]
 			description: ["La &aboussole de la nature&r cherche n'importe quel biome et t'indique sa direction et sa distance. Avec Biomes O' Plenty et les dimensions, le serveur en compte plusieurs centaines : c'est l'outil de l'explorateur."]
@@ -363,8 +362,8 @@
 				type: "item"
 			}]
 			title: "Trouver un biome"
-			x: 6.0d
-			y: -1.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0A0189FE2B8465C9"]
@@ -383,8 +382,8 @@
 				value: 5L
 			}]
 			title: "La première nuit"
-			x: 8.0d
-			y: 0.75d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["713E439523FC1021"]
@@ -403,8 +402,8 @@
 				type: "item"
 			}]
 			title: "Diamants"
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -425,8 +424,8 @@
 				type: "item"
 			}]
 			title: "Un sac plus grand"
-			x: 6.0d
-			y: 1.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["707CF43FC0CBFD50"]
@@ -450,7 +449,7 @@
 				type: "checkmark"
 			}]
 			title: "Les tombes"
-			x: 10.0d
+			x: 8.0d
 			y: -0.75d
 		}
 		{
@@ -474,8 +473,8 @@
 				type: "observation"
 			}]
 			title: "Les coffres par joueur"
-			x: 8.0d
-			y: 2.25d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["37824A4BE1FE38DF"]
@@ -525,7 +524,7 @@
 				type: "checkmark"
 			}]
 			title: "Le livre des quêtes"
-			x: 10.0d
+			x: 8.0d
 			y: 0.75d
 		}
 	]

@@ -29,9 +29,10 @@
 			size: 1.5d
 			subtitle: "Guide dans #nether sur le Discord."
 			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "54374DB328C132B9"
-				type: "dimension"
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "5936D177053384AA"
+				type: "advancement"
 			}]
 			title: "&cEntrer dans le Nether"
 			x: 0.0d
@@ -53,10 +54,10 @@
 			}]
 			title: "Une forteresse"
 			x: 2.0d
-			y: -2.25d
+			y: -4.5d
 		}
 		{
-			dependencies: ["3BF0A2C3B0644816"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Les blazes gardent la forteresse. Leurs bâtons font la poudre des potions, les alambics, et le foyer de l'école du feu d'Iron's Spells."]
 			icon: "minecraft:blaze_rod"
 			id: "2EF4292DB843D21C"
@@ -72,8 +73,8 @@
 				type: "item"
 			}]
 			title: "Des bâtons de blaze"
-			x: 4.0d
-			y: -2.25d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5E405E389BC878E2"]
@@ -86,16 +87,17 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "4892DB56C3D0273B"
-				structure: "minecraft:bastion_remnant"
-				type: "structure"
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "69C229520FD6BA1F"
+				type: "advancement"
 			}]
 			title: "Un bastion"
 			x: 2.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
-			dependencies: ["3BF0A2C3B0644816"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Les squelettes du Wither des forteresses lâchent parfois leur tête. Trois têtes, quatre blocs de sable des âmes, et le Wither se lève. Bygone Nether ajoute des chevaliers squelettes et des chevaux squelettes du Wither."]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "118B7A900AB0A4D3"
@@ -112,8 +114,8 @@
 				type: "item"
 			}]
 			title: "Trois têtes de squelette du Wither"
-			x: 4.0d
-			y: -0.75d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["118B7A900AB0A4D3"]
@@ -134,8 +136,8 @@
 				value: 1L
 			}]
 			title: "&8Invoquer et vaincre le Wither"
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["5E405E389BC878E2"]
@@ -155,7 +157,7 @@
 			}]
 			title: "Des débris antiques"
 			x: 2.0d
-			y: 0.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["21A9358A228E46B4"]
@@ -205,10 +207,10 @@
 			]
 			title: "Les biomes de Better Nether"
 			x: 2.0d
-			y: 2.25d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4B01BD15EA6AB69C"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Le métal de Better Nether, dans son minerai du Nether. Il fait des outils, des lanternes, une enclume et une &lforge&r qui remplace le four."]
 			icon: "betternether:cincinnasite"
 			id: "5677A4079C8F5DE3"
@@ -224,8 +226,8 @@
 				type: "item"
 			}]
 			title: "De la cincinnasite"
-			x: 4.0d
-			y: 2.25d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5677A4079C8F5DE3"]
@@ -245,11 +247,11 @@
 				type: "item"
 			}]
 			title: "Une forge de cincinnasite"
-			x: 6.0d
-			y: 4.25d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["4B01BD15EA6AB69C"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Le &crubis du Nether&r sort du minerai de rubis. Il fait une armure et des outils, que le modèle « rubis flamboyant » améliore ensuite."]
 			icon: "betternether:nether_ruby"
 			id: "4BD354B63A1B19ED"
@@ -266,11 +268,11 @@
 				type: "item"
 			}]
 			title: "Un rubis du Nether"
-			x: 4.0d
-			y: 4.25d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["4B01BD15EA6AB69C"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Une ville entière de Better Nether, avec ses coffres par joueur. Le mod pose aussi des pyramides, des autels, des temples de jungle et des piliers."]
 			id: "51222C09BE67E3E1"
 			optional: true
@@ -282,13 +284,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "1D1369D65FD37E76"
-				structure: "betternether:nether_city"
-				type: "structure"
+				advancement: "betternether:city"
+				criterion: ""
+				id: "1603581D0AA23CD9"
+				type: "advancement"
 			}]
 			title: "La cité du Nether"
-			x: 4.0d
-			y: 5.75d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4B01BD15EA6AB69C"]
@@ -310,7 +313,7 @@
 			}]
 			title: "La Naga de Better Nether"
 			x: 4.0d
-			y: 7.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5E405E389BC878E2"]
@@ -324,13 +327,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4786CC10BF4104D8"
-				structure: "bygonenether:citadel"
-				type: "structure"
+				advancement: "bygonenether:citadel"
+				criterion: ""
+				id: "3E1AF5A7D37E4392"
+				type: "advancement"
 			}]
 			title: "La citadelle de Bygone Nether"
 			x: 2.0d
-			y: 4.25d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0248E5C9CDBCFC46"]
@@ -344,13 +348,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "30160BCBEE3B2823"
-				structure: "bygonenether:catacomb"
-				type: "structure"
+				advancement: "bygonenether:catacomb"
+				criterion: ""
+				id: "14C0715C56A17FF9"
+				type: "advancement"
 			}]
 			title: "La catacombe"
 			x: 4.0d
-			y: 8.75d
+			y: 9.5d
 		}
 		{
 			dependencies: ["5E405E389BC878E2"]
@@ -371,7 +376,7 @@
 			}]
 			title: "Une perle de l'End biscornue"
 			x: 2.0d
-			y: 5.75d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5E405E389BC878E2"]
@@ -398,7 +403,7 @@
 			]
 			title: "Les deltas de cendre"
 			x: 2.0d
-			y: 7.25d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5E405E389BC878E2"]
@@ -425,7 +430,7 @@
 			]
 			title: "Les sous-biomes de la vallée des âmes"
 			x: 2.0d
-			y: 8.75d
+			y: 14.0d
 		}
 		{
 			dependencies: ["175464071DA3D19D"]
@@ -445,10 +450,10 @@
 			}]
 			title: "Le campement du méga-fossile"
 			x: 4.0d
-			y: 10.25d
+			y: 11.0d
 		}
 		{
-			dependencies: ["175464071DA3D19D"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Le donjon de Jaden's : une bougie perfide à allumer et à défendre contre des vagues, des coffres-braseros ouverts par la flamme perfide, des statues de gargouilles à collectionner. Une boussole de sanctum y mène."]
 			id: "2058F9BFA5330DD7"
 			optional: true
@@ -460,16 +465,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "69B7C95F60052102"
-				structure: "netherexp:sanctum"
-				type: "structure"
+				advancement: "netherexp:nether/occult_manor"
+				criterion: ""
+				id: "6C7FF16AF54626B5"
+				type: "advancement"
 			}]
 			title: "Le Sanctum"
-			x: 4.0d
-			y: 11.75d
+			x: 2.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["175464071DA3D19D"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Une &7apparition&r possède une créature ; une bouteille d'eau l'en délivre. Le progrès du mod valide la quête."]
 			id: "584E8BB6508A0081"
 			optional: true
@@ -486,11 +492,11 @@
 				type: "advancement"
 			}]
 			title: "Exorciser une apparition"
-			x: 4.0d
-			y: 13.25d
+			x: 2.0d
+			y: 17.0d
 		}
 		{
-			dependencies: ["175464071DA3D19D"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Le &cstampede&r naît quand une &7apparition&r possède une statue de gargouille « Trample » : posée dans la vallée des âmes, non salée, elle attire les apparitions. Il se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »)."]
 			id: "45445BF9B1EF1BB9"
 			optional: true
@@ -507,11 +513,11 @@
 				type: "advancement"
 			}]
 			title: "Apprivoiser un stampede"
-			x: 4.0d
-			y: 14.75d
+			x: 2.0d
+			y: 18.5d
 		}
 		{
-			dependencies: ["175464071DA3D19D"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Le progrès « The Fright Before Xmas » demande de passer par chaque sous-biome de la vallée des âmes. Les glaciers de glace noire sont les plus rares."]
 			id: "3040118EF8992CC4"
 			optional: true
@@ -528,11 +534,11 @@
 				type: "advancement"
 			}]
 			title: "Tous les sous-biomes de la vallée"
-			x: 4.0d
-			y: 16.25d
+			x: 2.0d
+			y: 20.0d
 		}
 		{
-			dependencies: ["175464071DA3D19D"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["La « Sanctum Locator Compass » se trouve dans les coffres des chapelles de la vallée des âmes. Active-la et suis-la jusqu'au sanctum (progrès « EMF-Raider »)."]
 			id: "2BBDCD47098B42B9"
 			optional: true
@@ -549,8 +555,8 @@
 				type: "advancement"
 			}]
 			title: "La boussole du sanctum"
-			x: 4.0d
-			y: 17.75d
+			x: 2.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["2058F9BFA5330DD7"]
@@ -570,8 +576,8 @@
 				type: "advancement"
 			}]
 			title: "&cDéfendre la bougie perfide"
-			x: 6.0d
-			y: 5.75d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1D4BEAACDEE1D09B"]
@@ -591,8 +597,8 @@
 				type: "advancement"
 			}]
 			title: "Ouvrir un coffre-brasero"
-			x: 8.0d
-			y: 4.25d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["36EEDC2F0BBD326A"]
@@ -612,8 +618,8 @@
 				type: "item"
 			}]
 			title: "Un poing-fusil"
-			x: 10.0d
-			y: 4.25d
+			x: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["65BD687D6C8AD020"]
@@ -633,8 +639,8 @@
 				type: "advancement"
 			}]
 			title: "&cLe fusil à pompe"
-			x: 12.0d
-			y: 4.25d
+			x: 10.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2058F9BFA5330DD7"]
@@ -701,11 +707,11 @@
 				}
 			]
 			title: "&5Toutes les statues de gargouille"
-			x: 6.0d
-			y: 7.25d
+			x: 4.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["175464071DA3D19D"]
+			dependencies: ["5E405E389BC878E2"]
 			description: ["Les verrues biscornues (« Warped Wart ») brassent des &aantidotes&r, un par effet de potion : « Antidote for Poison », « Antidote for Weakness »… (progrès « The Caduceus »)."]
 			id: "493BED719528316A"
 			optional: true
@@ -722,8 +728,8 @@
 				type: "advancement"
 			}]
 			title: "Un antidote"
-			x: 4.0d
-			y: 19.25d
+			x: 2.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["493BED719528316A"]
@@ -743,8 +749,8 @@
 				type: "advancement"
 			}]
 			title: "Le médecin de peste"
-			x: 6.0d
-			y: 8.75d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["31FAD0CBCAB93E86"]
@@ -766,8 +772,8 @@
 				value: 1L
 			}]
 			title: "&8Invoquer le Wither une seconde fois"
-			x: 8.0d
-			y: 5.75d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5677A4079C8F5DE3"]
@@ -804,8 +810,8 @@
 				}
 			]
 			title: "L'armure de cincinnasite"
-			x: 6.0d
-			y: 10.25d
+			x: 4.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["5677A4079C8F5DE3"]
@@ -847,8 +853,8 @@
 				}
 			]
 			title: "Les outils de cincinnasite"
-			x: 6.0d
-			y: 11.75d
+			x: 4.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["6136D6DD8C0AC074"]
@@ -890,8 +896,8 @@
 				}
 			]
 			title: "Les outils de cincinnasite sertis de diamant"
-			x: 8.0d
-			y: 7.25d
+			x: 6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4BD354B63A1B19ED"]
@@ -928,8 +934,8 @@
 				}
 			]
 			title: "L'armure de rubis du Nether"
-			x: 6.0d
-			y: 13.25d
+			x: 4.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["4BD354B63A1B19ED"]
@@ -971,8 +977,8 @@
 				}
 			]
 			title: "Les outils de rubis du Nether"
-			x: 6.0d
-			y: 14.75d
+			x: 4.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -1038,8 +1044,8 @@
 				}
 			]
 			title: "&cTout en rubis flamboyant"
-			x: 8.0d
-			y: 8.75d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5E405E389BC878E2"]
@@ -1060,7 +1066,7 @@
 			}]
 			title: "Un trophée de hoglin"
 			x: 2.0d
-			y: 10.25d
+			y: 24.5d
 		}
 		{
 			dependencies: [
@@ -1082,7 +1088,7 @@
 				type: "checkmark"
 			}]
 			title: "&cLe Nether est dompté"
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 	]

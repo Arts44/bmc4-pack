@@ -27,10 +27,9 @@
 			}]
 			title: "&bLa maison du Gatekeeper"
 			x: 0.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
-			dependencies: ["5DB4410ED946496A"]
 			description: ["Il allume les portails de l'Everbright (pierre taillée turquoise) et de l'Everdawn (pierre taillée lunaire). Les blocs des portails se prennent chez le Gatekeeper si on veut en construire un chez soi."]
 			icon: "blue_skies:zeal_lighter"
 			id: "08D94C75AAD32FEC"
@@ -45,8 +44,8 @@
 				type: "item"
 			}]
 			title: "Un briquet zèle"
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["08D94C75AAD32FEC"]
@@ -59,12 +58,13 @@
 			}]
 			size: 1.3d
 			tasks: [{
-				dimension: "blue_skies:everbright"
-				id: "5D42480A8F0E3ECB"
-				type: "dimension"
+				advancement: "blue_skies:everbright/enter"
+				criterion: ""
+				id: "26A8518D7ADE59B8"
+				type: "advancement"
 			}]
 			title: "Entrer dans l'Everbright"
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -83,8 +83,8 @@
 				type: "advancement"
 			}]
 			title: "Du bois de l'Everbright"
-			x: 6.0d
-			y: -0.75d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6AAD23682688665F"]
@@ -116,7 +116,7 @@
 				}
 			]
 			title: "Les gemmes de Blue Skies"
-			x: 8.0d
+			x: 6.0d
 			y: -0.75d
 		}
 		{
@@ -143,7 +143,7 @@
 				}
 			]
 			title: "Falsite et ventium"
-			x: 10.0d
+			x: 8.0d
 			y: -0.75d
 		}
 		{
@@ -170,7 +170,7 @@
 				}
 			]
 			title: "Une boîte à outils"
-			x: 12.0d
+			x: 10.0d
 			y: -0.75d
 		}
 		{
@@ -191,8 +191,8 @@
 				type: "item"
 			}]
 			title: "Un four gelé"
-			x: 6.0d
-			y: 3.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1FDA402DA78D4B38"]
@@ -212,8 +212,8 @@
 				type: "advancement"
 			}]
 			title: "Une table de préparation"
-			x: 6.0d
-			y: 4.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1FDA402DA78D4B38"]
@@ -233,8 +233,8 @@
 				type: "advancement"
 			}]
 			title: "Des fragments de pierre de lune"
-			x: 6.0d
-			y: 6.0d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1FDA402DA78D4B38"]
@@ -254,8 +254,8 @@
 				type: "item"
 			}]
 			title: "Astrolabe et émetteur d'étoiles"
-			x: 6.0d
-			y: 7.5d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1FDA402DA78D4B38"]
@@ -273,11 +273,11 @@
 				type: "structure"
 			}]
 			title: "Le donjon aveuglant de l'Everbright"
-			x: 6.0d
-			y: 0.75d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["75DD7BFF70E14471"]
+			dependencies: ["1FDA402DA78D4B38"]
 			description: ["Il invoque des golems artificiels, à distance puis au corps à corps, et se téléporte — sauf pendant qu'il lance un sort : c'est là qu'on frappe. Il lâche son &5Artéfact éthéré&r et, parfois, la table d'invocation. Sa mort est annoncée dans #faits-d-armes."]
 			id: "04A6349A2ECEED79"
 			rewards: [{
@@ -294,8 +294,8 @@
 				type: "advancement"
 			}]
 			title: "&5Vaincre le Summonateur"
-			x: 8.0d
-			y: 0.75d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["04A6349A2ECEED79"]
@@ -307,12 +307,13 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "712DB381B19DD9BF"
-				structure: "blue_skies:nature_dungeon"
-				type: "structure"
+				advancement: "blue_skies:everbright/enter_nature_dungeon"
+				criterion: ""
+				id: "31A34B78BCEC51E6"
+				type: "advancement"
 			}]
 			title: "Le donjon de la nature"
-			x: 10.0d
+			x: 6.0d
 			y: 0.75d
 		}
 		{
@@ -333,7 +334,7 @@
 				type: "advancement"
 			}]
 			title: "&2Vaincre le Déstructeur des Étoiles"
-			x: 12.0d
+			x: 8.0d
 			y: 0.75d
 		}
 		{
@@ -354,8 +355,8 @@
 				type: "advancement"
 			}]
 			title: "Invoquer un golem artificiel"
-			x: 10.0d
-			y: 3.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["04A6349A2ECEED79"]
@@ -377,8 +378,8 @@
 				value: 1L
 			}]
 			title: "&5Ré-invoquer le Summonateur"
-			x: 10.0d
-			y: 4.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["29AE931FE68E3A67"]
@@ -400,8 +401,8 @@
 				value: 1L
 			}]
 			title: "&5Ré-invoquer le Starlit Crusher"
-			x: 14.0d
-			y: 3.0d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7022031C1C80246D"]
@@ -463,8 +464,8 @@
 				}
 			]
 			title: "L'équipement en pyrope"
-			x: 10.0d
-			y: 6.0d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["32811D71BF23A4CB"]
@@ -526,8 +527,8 @@
 				}
 			]
 			title: "L'équipement en aquite"
-			x: 12.0d
-			y: 3.0d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7A6E4902225A14A1"]
@@ -589,8 +590,8 @@
 				}
 			]
 			title: "&bL'équipement en diopside"
-			x: 14.0d
-			y: 4.5d
+			x: 12.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["29AE931FE68E3A67"]
@@ -609,8 +610,8 @@
 				type: "checkmark"
 			}]
 			title: "&bL'Everbright est vaincu"
-			x: 14.0d
-			y: 0.0d
+			x: 10.0d
+			y: 0.75d
 		}
 	]
 	title: "&bBlue Skies — Everbright"

@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets."]
 			icon: "minecraft:chiseled_stone_bricks"
 			id: "0C3C5909D75E2C5B"
 			rewards: [{
@@ -139,9 +139,10 @@
 			shape: "hexagon"
 			subtitle: "AdoraBuild"
 			tasks: [{
-				id: "2BDC9E0A761D2538"
-				structure: "adorabuild_structures:acacia_well_1"
-				type: "structure"
+				advancement: "adorabuild_structures:well_well"
+				criterion: ""
+				id: "664763474DF5A747"
+				type: "advancement"
 			}]
 			title: "Visiter : « Acacia well 1 »"
 			x: 7.5d
@@ -259,9 +260,10 @@
 			shape: "hexagon"
 			subtitle: "AdoraBuild"
 			tasks: [{
-				id: "272AFBEB56205CA4"
-				structure: "adorabuild_structures:basalt_chambers_large_1"
-				type: "structure"
+				advancement: "adorabuild_structures:trial_by_fire"
+				criterion: ""
+				id: "25D7D39DEDA9B81A"
+				type: "advancement"
 			}]
 			title: "Visiter : « Basalt chambers large 1 »"
 			x: 16.5d
@@ -719,9 +721,10 @@
 			shape: "hexagon"
 			subtitle: "AdoraBuild"
 			tasks: [{
-				id: "244EBB33CF33FA37"
-				structure: "adorabuild_structures:end_gateway_large_1"
-				type: "structure"
+				advancement: "adorabuild_structures:into_the_sky"
+				criterion: ""
+				id: "03177358A2DBB1DC"
+				type: "advancement"
 			}]
 			title: "Visiter : « End gateway large 1 »"
 			x: 3.0d
@@ -879,9 +882,10 @@
 			shape: "hexagon"
 			subtitle: "AdoraBuild"
 			tasks: [{
-				id: "72CC180A6458371C"
-				structure: "adorabuild_structures:end_temple_large_1"
-				type: "structure"
+				advancement: "adorabuild_structures:eyes_of_the_void"
+				criterion: ""
+				id: "2CE3321DC5A89E40"
+				type: "advancement"
 			}]
 			title: "Visiter : « End temple large 1 »"
 			x: 15.0d
@@ -1039,9 +1043,10 @@
 			shape: "hexagon"
 			subtitle: "AdoraBuild"
 			tasks: [{
-				id: "37B537F55AEC209F"
-				structure: "adorabuild_structures:library_large_1"
-				type: "structure"
+				advancement: "adorabuild_structures:the_power_of_knowledge"
+				criterion: ""
+				id: "139BE8CC80EFEAE0"
+				type: "advancement"
 			}]
 			title: "Visiter : « Library large 1 »"
 			x: 3.0d
@@ -1179,9 +1184,10 @@
 			shape: "hexagon"
 			subtitle: "AdoraBuild"
 			tasks: [{
-				id: "4D9FE86D7A157285"
-				structure: "adorabuild_structures:mushroom_large_1"
-				type: "structure"
+				advancement: "adorabuild_structures:fungal_detective"
+				criterion: ""
+				id: "65165CD8A65168A4"
+				type: "advancement"
 			}]
 			title: "Visiter : « Mushroom large 1 »"
 			x: 13.5d
@@ -1199,9 +1205,10 @@
 			shape: "hexagon"
 			subtitle: "AdoraBuild"
 			tasks: [{
-				id: "46FCFCCFA0687331"
-				structure: "adorabuild_structures:nether_fortress_large_1"
-				type: "structure"
+				advancement: "adorabuild_structures:the_lethal_towers"
+				criterion: ""
+				id: "0E79D46F8EB3E625"
+				type: "advancement"
 			}]
 			title: "Visiter : « Nether fortress large 1 »"
 			x: 15.0d
@@ -1739,9 +1746,10 @@
 			shape: "hexagon"
 			subtitle: "AdoraBuild"
 			tasks: [{
-				id: "425EAC47E55E0857"
-				structure: "adorabuild_structures:sand_castle_tiny_1"
-				type: "structure"
+				advancement: "adorabuild_structures:turtle_kingdom"
+				criterion: ""
+				id: "4A8B499301E19B88"
+				type: "advancement"
 			}]
 			title: "Visiter : « Sand castle tiny 1 »"
 			x: 7.5d

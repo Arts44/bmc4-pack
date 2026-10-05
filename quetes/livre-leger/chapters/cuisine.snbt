@@ -48,7 +48,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["678176FB7936539B"]
 			description: ["Le &7couteau&r se fait en silex, puis en fer, en or, en diamant, en nétherite. Sur la planche, il découpe ; en main, il récolte plus de viande et de cuir."]
 			icon: "farmersdelight:flint_knife"
 			id: "1A130310904C2A41"
@@ -164,7 +163,6 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["678176FB7936539B"]
 			description: ["Le &6fourneau&r cuit ce qu'on pose dessus, à la main, et chauffe la marmite et la poêle posées sur lui. Il brûle du combustible comme un four."]
 			icon: "farmersdelight:stove"
 			id: "144789BF076634AF"
@@ -222,7 +220,6 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["678176FB7936539B"]
 			description: ["Quatre cultures nouvelles. Les versions sauvages poussent dans les biomes ; le riz se plante dans l'eau, la tomate grimpe sur une corde. Les graines des pavillons du Marché sont une autre source."]
 			icon: "farmersdelight:cabbage"
 			id: "695D9659C003D7ED"
@@ -572,7 +569,6 @@
 		}
 		{
 			dependencies: ["0B02110E3144B9AE"]
-			dependency_requirement: "one_completed"
 			description: ["L'appât décide de la prise. Un seau d'appât à crabes (un seau, quatre morues, quatre poudres d'os) ne ramène que des crabes ; il en existe un pour les crevettes, les palourdes et les « Clawster ». Une morue en appât donne un mélange, avec parfois une coquille de nautile."]
 			icon: "crabbersdelight:bucket_of_crab_chum"
 			id: "60596ADD69A1DABE"
@@ -587,21 +583,25 @@
 				{
 					id: "0C8709EEDF10C3A9"
 					item: "crabbersdelight:bucket_of_crab_chum"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1A7790AE3B121483"
 					item: "crabbersdelight:bucket_of_shrimp_chum"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3F3B280DAFB9984C"
 					item: "crabbersdelight:bucket_of_clam_chum"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2378519670E11C47"
 					item: "crabbersdelight:bucket_of_clawster_chum"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -632,7 +632,6 @@
 			y: 7.25d
 		}
 		{
-			dependencies: ["678176FB7936539B"]
 			description: ["Les plages ont maintenant leurs &apalmiers&r, leurs coquillages et leurs crabes, qui vivent aussi dans les marais et les côtes rocheuses. Attention sous les palmiers : le jeu prévoit une mort « écrasé par une noix de coco ». Le lait de coco efface un effet."]
 			icon: "crabbersdelight:coconut"
 			id: "592B967F421C3C3A"
@@ -949,7 +948,6 @@
 				"1A130310904C2A41"
 				"49F68B8AEB0F5E46"
 			]
-			dependency_requirement: "one_completed"
 			description: ["Quatre couteaux de la Twilight Forest : en bois de fer, en feuille d'acier, en métal de chevalier et ardent. Celui de chevalier frappe plus fort les cibles en armure. L'ardent enflamme et cuit ce qu'il découpe."]
 			icon: "twilightdelight:ironwood_knife"
 			id: "7CC5E8B2BE22A12F"
@@ -964,21 +962,25 @@
 				{
 					id: "48608E20F6CA9BD8"
 					item: "twilightdelight:ironwood_knife"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4184327E9B6FD731"
 					item: "twilightdelight:steeleaf_knife"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "562D708A7D74ED33"
 					item: "twilightdelight:knightmetal_knife"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7638D16A782A0B86"
 					item: "twilightdelight:fiery_knife"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -989,7 +991,7 @@
 		{
 			dependencies: [
 				"144789BF076634AF"
-				"64039C5240306C98"
+				"40403E97C09902E0"
 			]
 			description: ["Trois lingots de métal de chevalier, quatre briques de labyrinthe, des baies-torches et un feu de camp : un fourneau qui cuit plus vite les plats du Crépuscule."]
 			icon: "twilightdelight:maze_stove"
@@ -1013,7 +1015,7 @@
 		{
 			dependencies: [
 				"7CC5E8B2BE22A12F"
-				"53090FD9DF6E3205"
+				"40403E97C09902E0"
 			]
 			description: ["La hache de minotaure en diamant découpe ce que les couteaux ne savent pas couper. Un Minoshroom qu'elle achève lâche toujours un steak tomahawk, un minotaure trois fois sur dix ; cuit s'il brûlait. Sur la planche, elle tranche aussi une écaille de naga en quatre chips."]
 			icon: "twilightdelight:raw_tomahawk_smeak"

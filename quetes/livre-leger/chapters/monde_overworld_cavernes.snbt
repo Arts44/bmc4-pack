@@ -38,7 +38,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6E5161095738E9F8"]
 			description: ["Les géodes du jeu, plus les cristaux de Galosphere qui poussent de la même façon. Sur ce serveur, l'améthyste bourgeonnante se &lmine plus lentement&r (config Galosphere) : on casse les grappes, pas le bloc."]
 			icon: "minecraft:amethyst_shard"
 			id: "24D5DBE661BC3CEA"
@@ -206,7 +205,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["7F25BE89D2838422"]
 			description: ["Le &bSpectre&r de Galosphere vole dans les canyons de cristal. Attrapé dans une bouteille, il sert de vigie : une &dfusée de spectre&r le libère pour voir à travers ses yeux, et on en trouve dans les coffres des cités anciennes sur ce serveur. Le progrès du mod valide la quête."]
 			id: "146F6A5F695F6EAC"
 			optional: true
@@ -223,11 +221,10 @@
 				type: "advancement"
 			}]
 			title: "Un spectre en bouteille"
-			x: 4.0d
-			y: 11.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["7F25BE89D2838422"]
 			description: ["Des éclats d'allurite en lampe. Le mod ajoute aussi la lampe de lumière, le lustre, le support de lumière, et le palladium : les pillards en lâchent des pépites sur ce serveur."]
 			icon: "galosphere:allurite_lamp"
 			id: "30FDEE8FFD79A5A2"
@@ -244,11 +241,10 @@
 				type: "item"
 			}]
 			title: "Une lampe d'allurite"
-			x: 4.0d
-			y: 12.5d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["6E5161095738E9F8"]
 			description: ["Refaite par &bDungeons and Taverns&r : plus grande, plus de salles, plus de coffres — par joueur. Marcher accroupi, poser de la laine sur les capteurs, ne pas déclencher trois fois un hurleur. Les cités donnent les éclats d'écho et les livres en ruine ; c'est de là que part le chemin vers l'&8Otherside&r."]
 			id: "3F24DA257655F529"
 			rewards: [{
@@ -259,9 +255,10 @@
 			}]
 			size: 1.3d
 			tasks: [{
-				id: "04B3C577CCCB321C"
-				structure: "minecraft:ancient_city"
-				type: "structure"
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "6D351EF14F3C44E5"
+				type: "advancement"
 			}]
 			title: "La cité ancienne"
 			x: 2.0d
@@ -270,7 +267,6 @@
 		{
 			dependencies: ["3F24DA257655F529"]
 			description: ["Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overworld : on ne le combat pas, on le piège ou on le fuit. Deeper and Darker lui fait lâcher le &8Cœur des profondeurs&r (progrès « Slay the Warden and take its heart »), et sa mort est annoncée dans #faits-d-armes."]
-			icon: "minecraft:warden_spawn_egg"
 			id: "60D79E7CB38AAF59"
 			rewards: [{
 				id: "409B3F3D66F97744"
@@ -280,17 +276,16 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				entity: "minecraft:warden"
-				id: "657C0F6ABE36D86E"
-				type: "kill"
-				value: 1L
+				advancement: "deeperdarker:main/kill_warden"
+				criterion: ""
+				id: "5883E4FAEA5C39E2"
+				type: "advancement"
 			}]
 			title: "&8Vaincre le Warden"
 			x: 4.0d
 			y: -0.75d
 		}
 		{
-			dependencies: ["6E5161095738E9F8"]
 			description: ["Le minerai de &lpalladium&r de Galosphere, sous terre. Les pillards en lâchent aussi des pépites (config du serveur)."]
 			icon: "galosphere:palladium_ingot"
 			id: "53DAABDB4DB96837"
@@ -345,10 +340,7 @@
 			y: 0.75d
 		}
 		{
-			dependencies: [
-				"53DAABDB4DB96837"
-				"386302B701C7FBAC"
-			]
+			dependencies: ["53DAABDB4DB96837"]
 			description: ["Quatre lingots de palladium autour d'un éclat de lumière (« Lumiere Shard »)."]
 			icon: "galosphere:monstrometer"
 			id: "5181B58410F58A6C"
@@ -366,7 +358,7 @@
 			}]
 			title: "Le monstromètre"
 			x: 4.0d
-			y: 14.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["53DAABDB4DB96837"]
@@ -387,7 +379,7 @@
 			}]
 			title: "Des bombes de palladium"
 			x: 4.0d
-			y: 15.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [

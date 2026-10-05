@@ -44,10 +44,9 @@
 			}]
 			title: "La chambre du Wroughtnaut"
 			x: 2.0d
-			y: -2.25d
+			y: -6.0d
 		}
 		{
-			dependencies: ["6D8AA12F965D32F5"]
 			description: ["Son armure ne cède que par derrière. Il lâche son casque et la Hache des mille métaux. Sa mort est annoncée dans #faits-d-armes."]
 			id: "3715DEAEFE686843"
 			rewards: [{
@@ -64,11 +63,10 @@
 				type: "advancement"
 			}]
 			title: "&7Vaincre le Wroughtnaut ferreux"
-			x: 4.0d
-			y: -3.75d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["220425544206A882"]
 			description: ["Un colosse endormi dans les biomes enneigés, hors océans, rivières, plages, forêts et taïgas (config du serveur). Il garde un &bcristal de glace&r : le lui voler sans le réveiller est un progrès du mod. Sa mort est annoncée dans #faits-d-armes."]
 			id: "6753EF5A06F8ACC5"
 			rewards: [{
@@ -86,7 +84,7 @@
 			}]
 			title: "&bVaincre le Frostmaw"
 			x: 2.0d
-			y: -0.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["220425544206A882"]
@@ -104,10 +102,9 @@
 			}]
 			title: "Le bosquet des Umvuthana"
 			x: 2.0d
-			y: 0.75d
+			y: -1.5d
 		}
 		{
-			dependencies: ["54E4A56D901F419E"]
 			description: ["Il appelle des soigneurs à chaque palier de vie perdu (config du serveur). Lui apporter &lsept blocs d'or&r vaut la Bénédiction du Soleil (config, progrès). Il lâche le Visage du Sol, qui invoque des Umvuthana à partir de masques (infobulle). Sa mort est annoncée dans #faits-d-armes."]
 			id: "0B9B2DDF557DBAE7"
 			rewards: [{
@@ -124,8 +121,8 @@
 				type: "advancement"
 			}]
 			title: "&6Vaincre Umvuthi"
-			x: 4.0d
-			y: -2.25d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["220425544206A882"]
@@ -143,10 +140,9 @@
 			}]
 			title: "Le monastère du Sculpteur"
 			x: 2.0d
-			y: 2.25d
+			y: 1.5d
 		}
 		{
-			dependencies: ["49E15BD8BDD5AEAD"]
 			description: ["Soixante blocs à grimper en moins de 400 secondes (config du serveur). Échouer vaut l'autre progrès, moins glorieux. Le Sculpteur disparaît une fois la récompense réclamée (config)."]
 			id: "13A1A40F39DEC61A"
 			rewards: [{
@@ -163,11 +159,10 @@
 				type: "advancement"
 			}]
 			title: "&7L'épreuve du Sculpteur"
-			x: 4.0d
-			y: -0.75d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["220425544206A882"]
 			description: ["Une plante carnivore des jungles. Sa graine se plante dans l'herbe ; le bébé a faim chaque demi-journée et grandit en deux jours (infobulle)."]
 			id: "29E8F06272A05E50"
 			optional: true
@@ -185,10 +180,9 @@
 			}]
 			title: "Un Foliaath"
 			x: 2.0d
-			y: 5.75d
+			y: 8.0d
 		}
 		{
-			dependencies: ["220425544206A882"]
 			description: ["Une créature de cristal des grottes, sous Y 16, qui fuit. À la pioche &lsoie&r, on le capture ; à la pioche &lfortune&r, il lâche plus (progrès du mod)."]
 			id: "7399F46C8E5D63B9"
 			optional: true
@@ -206,10 +200,9 @@
 			}]
 			title: "Un Grottol"
 			x: 2.0d
-			y: 7.25d
+			y: 9.5d
 		}
 		{
-			dependencies: ["220425544206A882"]
 			description: ["Sur les Côtes rocheuses seulement (liste blanche de la config du serveur). Sa dent fait une dague qui empoisonne et double les dégâts par derrière (infobulle)."]
 			id: "5B71EF6D06500EEA"
 			optional: true
@@ -227,11 +220,9 @@
 			}]
 			title: "La Naga des Côtes rocheuses"
 			x: 2.0d
-			y: 8.75d
+			y: 11.0d
 		}
 		{
-			dependencies: ["220425544206A882"]
-			dependency_requirement: "one_completed"
 			description: ["Un œil de l'Ender au centre d'une recette, et le lancer file vers un repaire de Mowzie's, comme les yeux de Cataclysm. L'« Eye of Wrought » mène à la chambre du Wroughtnaut, l'« Eye of Frost » au Frostmaw, l'« Eye of the Sunbird » au bosquet d'Umvuthana, l'« Eye of the Sculptor » au monastère."]
 			icon: "mowzies_cataclysm:wrought_eye"
 			id: "7759CFEF3EA66517"
@@ -246,27 +237,31 @@
 				{
 					id: "04DD79B0337AF243"
 					item: "mowzies_cataclysm:wrought_eye"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "754D8F19B6C77917"
 					item: "mowzies_cataclysm:frostmaw_eye"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4487E1DA576F307A"
 					item: "mowzies_cataclysm:sun_eye"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4A239DED4811BB02"
 					item: "mowzies_cataclysm:tongbi_eye"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Les yeux de Cataclysm"
 			x: 2.0d
-			y: 10.25d
+			y: 12.5d
 		}
 		{
 			dependencies: ["3715DEAEFE686843"]
@@ -291,7 +286,7 @@
 				}
 			]
 			title: "La hache et le casque"
-			x: 6.0d
+			x: 4.0d
 			y: -2.25d
 		}
 		{
@@ -312,8 +307,8 @@
 				value: 1L
 			}]
 			title: "&7Un autre Wroughtnaut"
-			x: 8.0d
-			y: -0.75d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6753EF5A06F8ACC5"]
@@ -332,7 +327,7 @@
 			}]
 			title: "Le cristal de glace"
 			x: 4.0d
-			y: 0.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["6753EF5A06F8ACC5"]
@@ -353,7 +348,7 @@
 			}]
 			title: "Voler le cristal"
 			x: 4.0d
-			y: 5.75d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0A7613B8FFCD6F9B"]
@@ -375,11 +370,9 @@
 			}]
 			title: "&bUn autre Frostmaw"
 			x: 6.0d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
-			dependencies: ["54E4A56D901F419E"]
-			dependency_requirement: "one_completed"
 			description: ["Six masques, sur les Umvuthana ou dans les coffres du bosquet."]
 			icon: "mowziesmobs:umvuthana_mask_fury"
 			id: "29CE83514D7C2392"
@@ -392,37 +385,43 @@
 				{
 					id: "66FBE5E02F961D81"
 					item: "mowziesmobs:umvuthana_mask_fury"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6A155F00CEFE43CB"
 					item: "mowziesmobs:umvuthana_mask_fear"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4A74BEBB4EA0EFE2"
 					item: "mowziesmobs:umvuthana_mask_rage"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "51262FC01CD012B2"
 					item: "mowziesmobs:umvuthana_mask_bliss"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "49EB5AC7FC08F21E"
 					item: "mowziesmobs:umvuthana_mask_misery"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4D9919E729D27802"
 					item: "mowziesmobs:umvuthana_mask_faith"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Un masque d'Umvuthana"
-			x: 4.0d
-			y: 2.25d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["29CE83514D7C2392"]
@@ -442,11 +441,10 @@
 				type: "advancement"
 			}]
 			title: "Déguisé dans le bosquet"
-			x: 6.0d
-			y: 5.75d
+			x: 4.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["54E4A56D901F419E"]
 			description: ["Le chef des Umvuthana d'un bosquet (progrès du mod)."]
 			id: "64288CA528AF3558"
 			rewards: [{
@@ -461,8 +459,8 @@
 				type: "advancement"
 			}]
 			title: "Le Raptor"
-			x: 4.0d
-			y: 3.75d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0B9B2DDF557DBAE7"]
@@ -480,7 +478,7 @@
 				type: "item"
 			}]
 			title: "Le Visage du Sol"
-			x: 6.0d
+			x: 4.0d
 			y: 0.75d
 		}
 		{
@@ -501,8 +499,8 @@
 				type: "advancement"
 			}]
 			title: "La Bénédiction du Soleil"
-			x: 6.0d
-			y: 7.25d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -526,8 +524,8 @@
 				value: 1L
 			}]
 			title: "&6Un autre Umvuthi"
-			x: 8.0d
-			y: 0.75d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["13A1A40F39DEC61A"]
@@ -545,11 +543,10 @@
 				type: "item"
 			}]
 			title: "Le Gantelet fendeur de terre"
-			x: 6.0d
+			x: 4.0d
 			y: 2.25d
 		}
 		{
-			dependencies: ["49E15BD8BDD5AEAD"]
 			description: ["Perles, robe, ceinture, sandales et bâton du Sculpteur : dans les coffres du monastère ou sur le Sculpteur lui-même."]
 			icon: "mowziesmobs:geomancer_beads"
 			id: "20745941566918EA"
@@ -588,8 +585,8 @@
 				}
 			]
 			title: "La tenue du géomancien"
-			x: 4.0d
-			y: 7.25d
+			x: 2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -614,7 +611,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Les quatre géants"
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 	]

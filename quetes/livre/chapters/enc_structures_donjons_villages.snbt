@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets."]
 			icon: "minecraft:bell"
 			id: "3DBD27B1C066ABE1"
 			rewards: [{
@@ -39,9 +39,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "6BACDC7AD0C850FA"
-				structure: "dungeons_arise:abandoned_temple"
-				type: "structure"
+				advancement: "dungeons_arise:find_abandoned_temple"
+				criterion: ""
+				id: "143861257F8E3CC1"
+				type: "advancement"
 			}]
 			title: "Visiter : « Abandoned temple »"
 			x: 0.0d
@@ -59,9 +60,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "6F50896182A2591F"
-				structure: "dungeons_arise:aviary"
-				type: "structure"
+				advancement: "dungeons_arise:find_aviary"
+				criterion: ""
+				id: "6BD1E28BFFD3405B"
+				type: "advancement"
 			}]
 			title: "Visiter : « Aviary »"
 			x: 1.5d
@@ -79,9 +81,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "647D356978160C31"
-				structure: "dungeons_arise:bandit_towers"
-				type: "structure"
+				advancement: "dungeons_arise:find_bandit_towers"
+				criterion: ""
+				id: "364CA1EE62FA00C3"
+				type: "advancement"
 			}]
 			title: "Visiter : « Bandit towers »"
 			x: 3.0d
@@ -99,9 +102,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "0212A58777194E3D"
-				structure: "dungeons_arise:bandit_village"
-				type: "structure"
+				advancement: "dungeons_arise:find_bandit_village"
+				criterion: ""
+				id: "7721B3531BAF29CB"
+				type: "advancement"
 			}]
 			title: "Visiter : « Bandit village »"
 			x: 4.5d
@@ -119,9 +123,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "6BD3AA5113D49098"
-				structure: "dungeons_arise:bathhouse"
-				type: "structure"
+				advancement: "dungeons_arise:find_bathhouse"
+				criterion: ""
+				id: "75CB5FF23B8B673F"
+				type: "advancement"
 			}]
 			title: "Visiter : « Bathhouse »"
 			x: 6.0d
@@ -139,9 +144,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "0F72F7371F48B05C"
-				structure: "dungeons_arise:ceryneian_hind"
-				type: "structure"
+				advancement: "dungeons_arise:find_ceryneian_hind"
+				criterion: ""
+				id: "2227E89C117A35C1"
+				type: "advancement"
 			}]
 			title: "Visiter : « Ceryneian hind »"
 			x: 7.5d
@@ -159,9 +165,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "7D45CA3173BD9B64"
-				structure: "dungeons_arise:coliseum"
-				type: "structure"
+				advancement: "dungeons_arise:find_coliseum"
+				criterion: ""
+				id: "56EE65DB13CDBAEA"
+				type: "advancement"
 			}]
 			title: "Visiter : « Coliseum »"
 			x: 9.0d
@@ -179,9 +186,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "1018676CD0146479"
-				structure: "dungeons_arise:fishing_hut"
-				type: "structure"
+				advancement: "dungeons_arise:find_fishing_hut"
+				criterion: ""
+				id: "06D2C1AFB2F3E8E4"
+				type: "advancement"
 			}]
 			title: "Visiter : « Fishing hut »"
 			x: 10.5d
@@ -199,9 +207,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "48A489D1C9D1B1F5"
-				structure: "dungeons_arise:giant_mushroom"
-				type: "structure"
+				advancement: "dungeons_arise:find_giant_mushroom"
+				criterion: ""
+				id: "7DAC593EDD91A642"
+				type: "advancement"
 			}]
 			title: "Visiter : « Giant mushroom »"
 			x: 12.0d
@@ -219,9 +228,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "0E5B8292FE965EB7"
-				structure: "dungeons_arise:greenwood_pub"
-				type: "structure"
+				advancement: "dungeons_arise:find_greenwood_pub"
+				criterion: ""
+				id: "31ECA330C6780383"
+				type: "advancement"
 			}]
 			title: "Visiter : « Greenwood pub »"
 			x: 13.5d
@@ -239,9 +249,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "1F0B8C236CBC2A72"
-				structure: "dungeons_arise:illager_campsite"
-				type: "structure"
+				advancement: "dungeons_arise:find_illager_campsite"
+				criterion: ""
+				id: "787147DB362588DF"
+				type: "advancement"
 			}]
 			title: "Visiter : « Illager campsite »"
 			x: 15.0d
@@ -279,9 +290,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "40F402AC33E7CABF"
-				structure: "dungeons_arise:illager_fort"
-				type: "structure"
+				advancement: "dungeons_arise:find_illager_fort"
+				criterion: ""
+				id: "6440834EF6940F8F"
+				type: "advancement"
 			}]
 			title: "Visiter : « Illager fort »"
 			x: 18.0d
@@ -319,9 +331,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "5F1D82C24FA249AF"
-				structure: "dungeons_arise:illager_windmill"
-				type: "structure"
+				advancement: "dungeons_arise:find_illager_windmill"
+				criterion: ""
+				id: "6E0C13EA5F4F6027"
+				type: "advancement"
 			}]
 			title: "Visiter : « Illager windmill »"
 			x: 21.0d
@@ -339,9 +352,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "109C2FB9A92763FA"
-				structure: "dungeons_arise:infested_temple"
-				type: "structure"
+				advancement: "dungeons_arise:find_infested_temple"
+				criterion: ""
+				id: "712571907A3B0E93"
+				type: "advancement"
 			}]
 			title: "Visiter : « Infested temple »"
 			x: 22.5d
@@ -379,9 +393,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "7F8F98AB0DA2CE7F"
-				structure: "dungeons_arise:keep_kayra"
-				type: "structure"
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "1E85B0156C057257"
+				type: "advancement"
 			}]
 			title: "Visiter : « Keep kayra »"
 			x: 1.5d
@@ -399,9 +414,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "428E09686232B6E3"
-				structure: "dungeons_arise:lighthouse"
-				type: "structure"
+				advancement: "dungeons_arise:find_lighthouse"
+				criterion: ""
+				id: "53570CE47040545E"
+				type: "advancement"
 			}]
 			title: "Visiter : « Lighthouse »"
 			x: 3.0d
@@ -419,9 +435,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "420D6FAF415DA633"
-				structure: "dungeons_arise:merchant_campsite"
-				type: "structure"
+				advancement: "dungeons_arise:find_merchant_campsite"
+				criterion: ""
+				id: "779DA8F7431D9AC0"
+				type: "advancement"
 			}]
 			title: "Visiter : « Merchant campsite »"
 			x: 4.5d
@@ -439,9 +456,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "1435FA52F84F5B99"
-				structure: "dungeons_arise:mining_system"
-				type: "structure"
+				advancement: "dungeons_arise:find_mining_system"
+				criterion: ""
+				id: "22CDBADE9BFB54DD"
+				type: "advancement"
 			}]
 			title: "Visiter : « Mining system »"
 			x: 6.0d
@@ -459,9 +477,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "304E57125E82D1DA"
-				structure: "dungeons_arise:monastery"
-				type: "structure"
+				advancement: "dungeons_arise:find_monasteries"
+				criterion: ""
+				id: "067FA951D708E905"
+				type: "advancement"
 			}]
 			title: "Visiter : « Monastery »"
 			x: 7.5d
@@ -479,9 +498,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "6D1CAFCDBCBE5AE2"
-				structure: "dungeons_arise:mushroom_house"
-				type: "structure"
+				advancement: "dungeons_arise:find_mushroom_house"
+				criterion: ""
+				id: "5C11FD80E276053B"
+				type: "advancement"
 			}]
 			title: "Visiter : « Mushroom house »"
 			x: 9.0d
@@ -499,9 +519,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "7710E153E1236B3D"
-				structure: "dungeons_arise:mushroom_mines"
-				type: "structure"
+				advancement: "dungeons_arise:find_mushroom_mines"
+				criterion: ""
+				id: "3A9D868A8349C568"
+				type: "advancement"
 			}]
 			title: "Visiter : « Mushroom mines »"
 			x: 10.5d
@@ -519,9 +540,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "4BA290F2339E4782"
-				structure: "dungeons_arise:mushroom_village"
-				type: "structure"
+				advancement: "dungeons_arise:find_mushroom_village"
+				criterion: ""
+				id: "4D9B00937F1B76F0"
+				type: "advancement"
 			}]
 			title: "Visiter : « Mushroom village »"
 			x: 12.0d
@@ -539,9 +561,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "2BC526354FB92424"
-				structure: "dungeons_arise:plague_asylum"
-				type: "structure"
+				advancement: "dungeons_arise:find_plague_asylum"
+				criterion: ""
+				id: "715891B279F8F611"
+				type: "advancement"
 			}]
 			title: "Visiter : « Plague asylum »"
 			x: 13.5d
@@ -559,9 +582,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "70A84901ABA6498B"
-				structure: "dungeons_arise:scorched_mines"
-				type: "structure"
+				advancement: "dungeons_arise:find_scorched_mines"
+				criterion: ""
+				id: "79ECDF11B1B1A610"
+				type: "advancement"
 			}]
 			title: "Visiter : « Scorched mines »"
 			x: 15.0d
@@ -579,9 +603,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "4C3522E5E41175C8"
-				structure: "dungeons_arise:shiraz_palace"
-				type: "structure"
+				advancement: "dungeons_arise:find_shiraz_palace"
+				criterion: ""
+				id: "214AC5EF855DF80A"
+				type: "advancement"
 			}]
 			title: "Visiter : « Shiraz palace »"
 			x: 16.5d
@@ -599,9 +624,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "2182FD11DDCC05F1"
-				structure: "dungeons_arise:thornborn_towers"
-				type: "structure"
+				advancement: "dungeons_arise:find_thornborn_towers"
+				criterion: ""
+				id: "26FF9793661E0E27"
+				type: "advancement"
 			}]
 			title: "Visiter : « Thornborn towers »"
 			x: 18.0d
@@ -619,9 +645,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "49F597CEE5861841"
-				structure: "dungeons_arise:typhon"
-				type: "structure"
+				advancement: "dungeons_arise:find_typhon"
+				criterion: ""
+				id: "294F9CF0EEBAB4C6"
+				type: "advancement"
 			}]
 			title: "Visiter : « Typhon »"
 			x: 19.5d
@@ -639,9 +666,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "2CD27F9DB1E26D02"
-				structure: "dungeons_arise:undead_pirate_ship"
-				type: "structure"
+				advancement: "dungeons_arise:find_undead_pirate_ship"
+				criterion: ""
+				id: "0AF9B95D8C25CC73"
+				type: "advancement"
 			}]
 			title: "Visiter : « Undead pirate ship »"
 			x: 21.0d
@@ -659,9 +687,10 @@
 			shape: "hexagon"
 			subtitle: "When Dungeons Arise"
 			tasks: [{
-				id: "72749FD13AC78696"
-				structure: "dungeons_arise:wishing_well"
-				type: "structure"
+				advancement: "dungeons_arise:find_wishing_well"
+				criterion: ""
+				id: "1617C9CE9C1887B2"
+				type: "advancement"
 			}]
 			title: "Visiter : « Wishing well »"
 			x: 22.5d

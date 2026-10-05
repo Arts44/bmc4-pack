@@ -9,7 +9,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Du champ à l'étable** — tâches : checkmark Lu — récompense : item minecraft:oak_sapling 4
   > Chaque culture, chaque bête, et les saisons qui décident de ce qui pousse. Le sol labouré à la houe reçoit les graines ; l'eau à quatre blocs le garde humide.
-- **Semer** — tâches : advancement minecraft:husbandry/plant_seed — récompense : xp 2 — après : intro
+- **Semer** — tâches : advancement minecraft:husbandry/plant_seed — récompense : xp 2
   > Planter une graine (progrès vanilla). Les graines de blé viennent des hautes herbes.
 - **Le blé** — tâches : item minecraft:wheat 16 — récompense : xp 2 — après : semer
   > Pain, gâteau, et de quoi attirer vaches, moutons et chèvres.
@@ -17,21 +17,21 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Dans les villages ou sur les zombies. La pomme de terre se cuit ; la betterave fait une soupe.
 - **Melons et citrouilles** *(optionnelle)* — tâches : item minecraft:melon_slice 9, item minecraft:pumpkin 2 — récompense : xp 2 — après : semer
   > La tige donne une courge à côté d'elle, et repousse.
-- **Canne à sucre et bambou** *(optionnelle)* — tâches : item minecraft:sugar_cane 16, item minecraft:bamboo 16 — récompense : xp 2 — après : intro
+- **Canne à sucre et bambou** *(optionnelle)* — tâches : item minecraft:sugar_cane 16, item minecraft:bamboo 16 — récompense : xp 2
   > La canne au bord de l'eau, sur sable ou terre ; le bambou pousse partout et vite.
-- **Du cacao** *(optionnelle)* — tâches : item minecraft:cocoa_beans 8 — récompense : xp 2 — après : intro
+- **Du cacao** *(optionnelle)* — tâches : item minecraft:cocoa_beans 8 — récompense : xp 2
   > Sur les troncs de la jungle. Pour les cookies et la teinture brune.
-- **Baies sucrées et baies lumineuses** *(optionnelle)* — tâches : item minecraft:sweet_berries 8, item minecraft:glow_berries 8 — récompense : xp 2 — après : intro
+- **Baies sucrées et baies lumineuses** *(optionnelle)* — tâches : item minecraft:sweet_berries 8, item minecraft:glow_berries 8 — récompense : xp 2
   > Les baies sucrées piquent, les baies lumineuses éclairent et pendent des plafonds des grottes luxuriantes.
-- **Champignons et verrues** *(optionnelle)* — tâches : item minecraft:red_mushroom 4, item minecraft:brown_mushroom 4, item minecraft:nether_wart 8 — récompense : xp 2 — après : intro
+- **Champignons et verrues** *(optionnelle)* — tâches : item minecraft:red_mushroom 4, item minecraft:brown_mushroom 4, item minecraft:nether_wart 8 — récompense : xp 2
   > Les champignons dans l'ombre ; la verrue du Nether sur du sable des âmes, forteresses et bastions.
-- **Torchfleur et plante-pichet** *(optionnelle)* — tâches : item minecraft:torchflower_seeds, item minecraft:pitcher_pod — récompense : xp 5 — après : intro
+- **Torchfleur et plante-pichet** *(optionnelle)* — tâches : item minecraft:torchflower_seeds, item minecraft:pitcher_pod — récompense : xp 5
   > Les graines que le renifleur déterre (chapitre Archéologie).
 - **Semer en saison** — tâches : checkmark Infobulle lue — récompense : xp 2 — après : semer
   > Chaque culture a ses saisons fertiles, dans son infobulle (Serene Seasons, config du serveur). Hors saison, elle pousse lentement. Sous Y 48, toute l'année.
-- **Le composteur** — tâches : item minecraft:composter, item minecraft:bone_meal 16 — récompense : xp 2 — après : intro
+- **Le composteur** — tâches : item minecraft:composter, item minecraft:bone_meal 16 — récompense : xp 2
   > Graines, feuilles, restes de récolte : sept couches font une poudre d'os. La poudre d'os fait pousser d'un coup.
-- **Première portée** — tâches : advancement minecraft:husbandry/breed_an_animal — récompense : xp 2 — après : intro
+- **Première portée** — tâches : advancement minecraft:husbandry/breed_an_animal — récompense : xp 2
   > Deux bêtes nourries de ce qu'elles aiment (progrès vanilla). L'onglet Reproduction de JEI (Just Enough Breeding) le dit pour chaque espèce, mods compris.
 - **Vaches et moutons** — tâches : item minecraft:milk_bucket, item minecraft:white_wool 8 — récompense : xp 2 — après : elever
   > Le lait au seau soigne les effets ; la laine à la cisaille repousse.
@@ -41,13 +41,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un cochon se monte avec une selle et se dirige à la carotte au bout d'un bâton. La chèvre perd sa corne en chargeant un bloc dur.
 - **Chevaux, ânes, mules** *(optionnelle)* — tâches : item minecraft:saddle, item minecraft:lead — récompense : xp 3 — après : elever
   > Apprivoiser en montant jusqu'à ce qu'il cède ; une selle, et la laisse pour le ramener. L'âne porte un coffre.
-- **Apprivoiser** *(optionnelle)* — tâches : advancement minecraft:husbandry/tame_an_animal — récompense : xp 2 — après : intro
+- **Apprivoiser** *(optionnelle)* — tâches : advancement minecraft:husbandry/tame_an_animal — récompense : xp 2
   > Loup à l'os, chat au poisson, perroquet aux graines (progrès vanilla). L'armure de loup est au chapitre Faune.
-- **Les abeilles** *(optionnelle)* — tâches : advancement minecraft:husbandry/safely_harvest_honey — récompense : xp 3 — après : intro
+- **Les abeilles** *(optionnelle)* — tâches : advancement minecraft:husbandry/safely_harvest_honey — récompense : xp 3
   > Un feu de camp sous la ruche, et le miel se récolte sans piqûre (progrès vanilla). Le rayon cire le cuivre (progrès « Wax On »).
 - **Déplacer un nid** *(optionnelle)* — tâches : advancement minecraft:husbandry/silk_touch_nest — récompense : xp 3 — après : abeilles
   > Un nid avec ses trois abeilles, à la soie (progrès vanilla).
-- **Régime équilibré** *(optionnelle)* — tâches : advancement minecraft:husbandry/balanced_diet — récompense : xp 10 — après : intro
+- **Régime équilibré** *(optionnelle)* — tâches : advancement minecraft:husbandry/balanced_diet — récompense : xp 10
   > Manger tout ce qui se mange en vanilla, même ce qui ne fait pas de bien (progrès vanilla).
 - **Deux par deux** *(optionnelle)* — tâches : advancement minecraft:husbandry/bred_all_animals — récompense : xp 20 — après : elever
   > Chaque espèce vanilla qui se reproduit (progrès vanilla).
@@ -57,7 +57,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **L'alambic** — tâches : checkmark Lu — récompense : item minecraft:glass_bottle 6
   > Un bâton de blaze sur trois pierres, de la poudre de blaze pour le chauffer, trois fioles d'eau, et la verrue du Nether d'abord : toute potion utile part de la potion étrange. Redstone prolonge, poudre lumineuse renforce, poudre à canon rend jetable, souffle de dragon rend persistante.
-- **Fabriquer l'alambic** — tâches : item minecraft:brewing_stand, item minecraft:blaze_powder 4 — récompense : xp 2 — après : intro
+- **Fabriquer l'alambic** — tâches : item minecraft:brewing_stand, item minecraft:blaze_powder 4 — récompense : xp 2
 - **La potion étrange** — tâches : potion awkward normale 3 — récompense : xp 2 — après : alambic
   > Verrue du Nether sur eau. La base de tout. Première potion : progrès « Local Brewery ».
 - **Brasserie locale** — tâches : advancement minecraft:nether/brew_potion — récompense : xp 2 — après : etrange
@@ -89,7 +89,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Œil fermenté sur le soin ou le poison. Jetable, elle blesse tout sauf les morts-vivants, qu'elle soigne.
 - **Lenteur** *(optionnelle)* — tâches : potion slowness, potion long_slowness, potion strong_slowness — récompense : xp 3 — après : rapidite
   > Œil fermenté sur la rapidité ou le saut.
-- **Faiblesse** *(optionnelle)* — tâches : potion weakness, potion long_weakness — récompense : xp 3 — après : intro
+- **Faiblesse** *(optionnelle)* — tâches : potion weakness, potion long_weakness — récompense : xp 3
   > Œil fermenté directement sur l'eau. Jetée sur un villageois zombie avec une pomme dorée, elle le guérit.
 - **Une potion jetable** — tâches : potion healing jetable — récompense : xp 2 — après : soin
   > Poudre à canon sur n'importe quelle potion.
@@ -99,7 +99,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Huit flèches autour d'une potion persistante. Le fléchier en vend aussi.
 - **Les trois potions sans effet** *(optionnelle)* — tâches : potion mundane, potion thick, potion awkward — récompense : xp 2 — après : alambic
   > Banale (sucre, melon, etc. sur l'eau), épaisse (poudre lumineuse sur l'eau), étrange. Seule l'étrange mène quelque part.
-- **Chance** *(optionnelle)* — tâches : potion luck — récompense : xp 5 — après : intro
+- **Chance** *(optionnelle)* — tâches : potion luck — récompense : xp 5
   > Pas de recette vanilla : elle se trouve, ou se vend. Elle améliore le butin de pêche.
 - **Toutes les potions** *(optionnelle)* — tâches : advancement minecraft:nether/all_potions — récompense : xp 25 — après : regeneration, force, rapidite, saut, feu, eau, nuit, invisibilite, chute, tortue
   > Tous les effets de potion en même temps (progrès « A Furious Cocktail »).
@@ -111,7 +111,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Ce que le sable cache** — tâches : checkmark Lu — récompense : item minecraft:copper_ingot 4
   > Un pinceau, du sable suspect, et des tessons qui racontent. Le renifleur dort dans un œuf sous les ruines.
-- **Un pinceau** — tâches : item minecraft:brush, item minecraft:suspicious_sand — récompense : xp 2 — après : intro
+- **Un pinceau** — tâches : item minecraft:brush, item minecraft:suspicious_sand — récompense : xp 2
   > Plume, lingot de cuivre, bâton. Le sable suspect est dans les temples du désert, les puits du désert et les ruines océaniques chaudes ; le gravier suspect dans les ruines de sentier et les ruines océaniques froides. Il tombe comme du sable : on le brosse par le haut ou de côté.
 - **Un premier tesson** — tâches : advancement minecraft:adventure/salvage_sherd — récompense : xp 3 — après : pinceau
   > Brosser un bloc suspect jusqu'au bout (progrès vanilla). Le sable peut aussi donner des émeraudes, des diamants, des modèles d'ornement.
@@ -120,7 +120,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Restauration soignée** *(optionnelle)* — tâches : advancement minecraft:adventure/craft_decorated_pot_using_only_sherds — récompense : xp 5 — après : pot
 - **Les ruines de sentier** — tâches : structure minecraft:trail_ruins — récompense : xp 5 — après : intro
   > Déjà au chapitre Overworld — exploration. Enfouies dans les taïgas, les forêts de bouleaux et les clairières de cerisiers : du gravier suspect, et des tessons qu'on ne trouve que là.
-- **Un œuf de renifleur** — tâches : advancement minecraft:husbandry/obtain_sniffer_egg — récompense : xp 8 — après : intro
+- **Un œuf de renifleur** — tâches : advancement minecraft:husbandry/obtain_sniffer_egg — récompense : xp 8
   > Dans le sable suspect des ruines océaniques chaudes (progrès vanilla). Il éclôt plus vite sur de la mousse.
 - **Nourrir un reniflet** — tâches : advancement minecraft:husbandry/feed_snifflet — récompense : xp 5 — après : oeuf
   > Des graines de torchfleur (progrès vanilla).
@@ -134,7 +134,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Savoir où l'on est** — tâches : checkmark Lu — récompense : item minecraft:paper 9
   > Les cartes du jeu, et la carte de Xaero qui fait presque tout à leur place. La boussole du kit pointe vers le Marché.
-- **Une carte** — tâches : item minecraft:map — récompense : xp 2 — après : intro
+- **Une carte** — tâches : item minecraft:map — récompense : xp 2
   > Huit papiers autour d'une boussole : une carte avec ton point dessus. Sans boussole, une carte vierge sans marqueur.
 - **Une carte remplie** — tâches : item minecraft:filled_map — récompense : xp 2 — après : carte
   > Tenue en main, elle se dessine autour de toi. Dans un cadre, elle devient un mur de cartes.
@@ -142,13 +142,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Papier pour agrandir (quatre fois), carte vierge pour copier, cadre de verre pour verrouiller.
 - **Un marqueur** *(optionnelle)* — tâches : item minecraft:white_banner — récompense : xp 2 — après : remplie
   > Une bannière nommée (chapitre Musique et décor), cliquée avec la carte, y apparaît avec son nom et sa couleur.
-- **Une carte au trésor** *(optionnelle)* — tâches : item minecraft:heart_of_the_sea — récompense : xp 8 — après : intro
+- **Une carte au trésor** *(optionnelle)* — tâches : item minecraft:heart_of_the_sea — récompense : xp 8
   > Dans les épaves et les ruines, une carte mène à un trésor enfoui : le cœur de la mer, pour le conduit. Les cartographes vendent les cartes vers les monuments et les manoirs.
-- **Une longue-vue** *(optionnelle)* — tâches : item minecraft:spyglass — récompense : xp 2 — après : intro
+- **Une longue-vue** *(optionnelle)* — tâches : item minecraft:spyglass — récompense : xp 2
   > Un éclat d'améthyste et deux lingots de cuivre. Regarder un perroquet, un ghast ou le dragon vaut un progrès chacun.
-- **Une magnétite** *(optionnelle)* — tâches : item minecraft:lodestone — récompense : xp 5 — après : intro
+- **Une magnétite** *(optionnelle)* — tâches : item minecraft:lodestone — récompense : xp 5
   > Une boussole cliquée dessus pointe vers elle, dans n'importe quelle dimension.
-- **Une boussole de récupération** *(optionnelle)* — tâches : item minecraft:recovery_compass — récompense : xp 5 — après : intro
+- **Une boussole de récupération** *(optionnelle)* — tâches : item minecraft:recovery_compass — récompense : xp 5
   > Huit éclats d'écho des cités anciennes : elle pointe vers ta dernière mort. Sur ce serveur, la tombe (You're in Grave Danger) garde tes affaires, et le jeu en donne les coordonnées à la mort.
 - **La carte de Xaero** — tâches : checkmark Un point de passage partagé — récompense : xp 3 — après : intro
   > Touche M : tout ce que tu as vu, les waystones, les claims. Un point de passage se pose d'un clic ; partagé dans le chat, il arrive chez les autres. La minicarte montre les joueurs proches.
@@ -158,15 +158,15 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **La table, l'enclume, la forge** — tâches : checkmark Lu — récompense : item minecraft:lapis_lazuli 16
   > Le vanilla, pas à pas. Ce que le pack y change (Easy Magic, Easy Anvils, l'infuseur) est au chapitre Enchantement des mods.
-- **La table d'enchantement** — tâches : item minecraft:enchanting_table, item minecraft:bookshelf 15 — récompense : xp 3 — après : intro
+- **La table d'enchantement** — tâches : item minecraft:enchanting_table, item minecraft:bookshelf 15 — récompense : xp 3
   > Obsidienne, diamants, un livre. Quinze bibliothèques à un bloc d'écart pour le niveau 30. Le lapis paie, les niveaux aussi.
 - **Un livre enchanté** — tâches : item minecraft:enchanted_book — récompense : xp 2 — après : table
   > Enchanter un livre garde l'enchantement pour plus tard. Les bibliothécaires en vendent.
 - **L'enclume** — tâches : item minecraft:anvil — récompense : xp 3 — après : livre
   > Trois blocs de fer et quatre lingots. Elle combine, répare, renomme, et s'use.
-- **La meule** — tâches : item minecraft:grindstone — récompense : xp 2 — après : intro
+- **La meule** — tâches : item minecraft:grindstone — récompense : xp 2
   > Elle retire les enchantements et rend un peu d'XP. Les malédictions restent.
-- **La table de forgeron** — tâches : item minecraft:smithing_table — récompense : xp 2 — après : intro
+- **La table de forgeron** — tâches : item minecraft:smithing_table — récompense : xp 2
   > Un modèle, une pièce, un matériau : c'est là qu'on passe à la nétherite et qu'on pose un ornement.
 - **Le modèle de nétherite** — tâches : item minecraft:netherite_upgrade_smithing_template — récompense : xp 5 — après : forgeron
   > Dans les bastions. Il se recopie : sept diamants et un bloc de roche du Nether autour du modèle.
@@ -202,7 +202,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Les huit modèles qui ne se trouvent qu'une fois par structure, tous posés (progrès « Smithing with Style »).
 - **Un premier enchantement** — tâches : advancement minecraft:story/enchant_item — récompense : xp 3 — après : table
   > Un objet enchanté à la table (progrès du jeu).
-- **Une pièce de fer** — tâches : advancement minecraft:story/obtain_armor — récompense : xp 3 — après : intro
+- **Une pièce de fer** — tâches : advancement minecraft:story/obtain_armor — récompense : xp 3
   > Une pièce d'armure en fer (progrès du jeu).
 - **Une pièce de diamant** — tâches : advancement minecraft:story/shiny_gear — récompense : xp 5 — après : armure_fer
   > Une pièce d'armure en diamant (progrès du jeu).
@@ -214,7 +214,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **De quoi habiller la base** — tâches : checkmark Lu — récompense : item minecraft:white_wool 8
   > Les disques et où ils se trouvent, les têtes, les bannières. Le chapitre Construction des mods a le reste.
-- **Un juke-box** — tâches : item minecraft:jukebox — récompense : xp 2 — après : intro
+- **Un juke-box** — tâches : item minecraft:jukebox — récompense : xp 2
   > Planches et un diamant. Il alimente un comparateur selon le disque.
 - **Cat et 13** — tâches : item minecraft:music_disc_cat, item minecraft:music_disc_13 — récompense : xp 3 — après : jukebox
   > Dans les coffres des donjons et des manoirs.
@@ -232,19 +232,19 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Au pinceau, dans le gravier des ruines de sentier.
 - **Sons de l'été** *(optionnelle)* — tâches : advancement minecraft:adventure/play_jukebox_in_meadows — récompense : xp 3 — après : jukebox
   > Un disque joué dans une prairie d'altitude (progrès vanilla).
-- **Un bloc de note** *(optionnelle)* — tâches : item minecraft:note_block 4 — récompense : xp 2 — après : intro
+- **Un bloc de note** *(optionnelle)* — tâches : item minecraft:note_block 4 — récompense : xp 2
   > Le bloc dessous choisit l'instrument ; une tête dessus choisit le cri de la créature. Sa redstone est au chapitre Redstone.
-- **Des têtes** *(optionnelle)* — tâches : item minecraft:zombie_head, item minecraft:skeleton_skull, item minecraft:creeper_head — récompense : xp 8 — après : intro
+- **Des têtes** *(optionnelle)* — tâches : item minecraft:zombie_head, item minecraft:skeleton_skull, item minecraft:creeper_head — récompense : xp 8
   > Un creeper chargé (foudre, ou paratonnerre et trident Canalisation) qui explose près d'un zombie, d'un squelette, d'un creeper ou d'un piglin laisse sa tête. Le squelette du Wither la lâche parfois seul ; le dragon en a une sur la proue des vaisseaux de l'End.
-- **Une bannière** — tâches : item minecraft:loom, item minecraft:white_banner — récompense : xp 2 — après : intro
+- **Une bannière** — tâches : item minecraft:loom, item minecraft:white_banner — récompense : xp 2
   > Six laines et un bâton. Le métier à tisser y pose jusqu'à six couches de motifs, teinture par teinture.
 - **Les motifs à objet** *(optionnelle)* — tâches : item minecraft:creeper_banner_pattern, item minecraft:skull_banner_pattern, item minecraft:flower_banner_pattern, item minecraft:mojang_banner_pattern — récompense : xp 5 — après : banniere
   > Creeper (tête de creeper), crâne (crâne de Wither), fleur (marguerite), Mojang (pomme dorée enchantée). Le globe vient du cartographe, le groin de piglin des bastions. La Twilight Forest ajoute un motif par boss.
 - **La bannière sinistre** *(optionnelle)* — tâches : checkmark Capitaine abattu — récompense : xp 3 — après : banniere
   > Sur le capitaine d'un avant-poste. La ramasser donne Mauvais présage : un raid au prochain village. Ne pas la rapporter au Marché.
-- **Une étagère sculptée** *(optionnelle)* — tâches : advancement minecraft:adventure/read_power_of_chiseled_bookshelf — récompense : xp 3 — après : intro
+- **Une étagère sculptée** *(optionnelle)* — tâches : advancement minecraft:adventure/read_power_of_chiseled_bookshelf — récompense : xp 3
   > Six livres rangés, et un comparateur qui lit le dernier (progrès vanilla).
-- **Un panneau lumineux** *(optionnelle)* — tâches : advancement minecraft:husbandry/make_a_sign_glow — récompense : xp 2 — après : intro
+- **Un panneau lumineux** *(optionnelle)* — tâches : advancement minecraft:husbandry/make_a_sign_glow — récompense : xp 2
   > Un sac d'encre lumineuse sur un panneau (progrès vanilla).
 - **Décorateur** — tâches : checkmark Décorateur — récompense : xp 5 — après : coffres, banniere
 
@@ -252,7 +252,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Au bord de l'eau** — tâches : checkmark Lu — récompense : item minecraft:fishing_rod
   > La canne, les trésors qui mordent, les bêtes de l'eau, et deux mods de cuisine marine. Sous la pluie, ça mord plus vite.
-- **Premier poisson** — tâches : advancement minecraft:husbandry/fishy_business — récompense : xp 2 — après : intro
+- **Premier poisson** — tâches : advancement minecraft:husbandry/fishy_business — récompense : xp 2
   > Attraper un poisson à la canne (progrès vanilla). Morue, saumon, poisson tropical, poisson-globe.
 - **Les quatre poissons** — tâches : item minecraft:cod, item minecraft:salmon, item minecraft:tropical_fish, item minecraft:pufferfish — récompense : xp 3 — après : pecher
   > Le poisson-globe empoisonne cru ; il sert à la potion de respiration aquatique.
@@ -262,17 +262,17 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un poisson vivant dans un seau (progrès vanilla).
 - **Un axolotl** *(optionnelle)* — tâches : advancement minecraft:husbandry/axolotl_in_a_bucket — récompense : xp 5 — après : seau
   > Dans les grottes luxuriantes. En seau, il te suit ; au combat, il te soigne quand il gagne (progrès « The Healing Power of Friendship »).
-- **Les tortues** *(optionnelle)* — tâches : item minecraft:scute 5 — récompense : xp 5 — après : intro
+- **Les tortues** *(optionnelle)* — tâches : item minecraft:scute 5 — récompense : xp 5
   > Les œufs éclosent sur leur plage natale ; le bébé perd une écaille en grandissant. Cinq écailles font le casque de tortue.
 - **Les dauphins** *(optionnelle)* — tâches : checkmark Grâce du dauphin reçue — récompense : xp 2 — après : intro
   > Nager près d'eux donne leur grâce ; nourris de poisson, ils mènent au trésor le plus proche.
 - **Le monument sous-marin** *(optionnelle)* — tâches : structure minecraft:monument — récompense : xp 5 — après : intro
   > Gardiens, trois gardiens anciens, éponges et prismarine. YUNG's Better Ocean Monuments le remanie.
-- **Un conduit** *(optionnelle)* — tâches : item minecraft:conduit — récompense : xp 15 — après : monument, tresor
+- **Un conduit** *(optionnelle)* — tâches : item minecraft:conduit — récompense : xp 15 — après : tresor
   > Un cœur de la mer et huit coquilles de nautile. Entouré de prismarine, il donne respiration, vision et vitesse de minage sous l'eau, et attaque les hostiles.
-- **Un casier à crabes** *(optionnelle)* — tâches : item crabbersdelight:crab_trap — récompense : xp 3 — après : intro
+- **Un casier à crabes** *(optionnelle)* — tâches : item crabbersdelight:crab_trap — récompense : xp 3
   > Crabber's Delight : corde, dalles, bâtons (progrès du mod). Posé dans l'eau, il attrape crabes, crevettes, palourdes. Une palourde sur la planche à découper peut donner une perle (progrès du mod).
-- **Une soupe de gardien** *(optionnelle)* — tâches : item oceansdelight:guardian_soup — récompense : xp 5 — après : monument
+- **Une soupe de gardien** *(optionnelle)* — tâches : item oceansdelight:guardian_soup — récompense : xp 5
   > Ocean's Delight cuisine les gardiens, les tentacules et les concombres de mer. Le détail au chapitre Cuisine.
 - **Cent poissons** — tâches : stat minecraft:fish_caught 100 — récompense : xp 10 — après : quatre
   > Cent prises au total (statistique du jeu). Les trésors, livres enchantés et coquilles de nautile sortent de la même canne.
@@ -282,7 +282,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **De la torche au comparateur** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 4
   > Un guide pas à pas. Sur ce serveur, Alternate Current calcule la poudre de redstone plus vite que le jeu de base : les grands circuits pèsent moins sur le tick. Les règles ne changent pas.
-- **Poudre et torche** — tâches : item minecraft:redstone 16, item minecraft:redstone_torch 2 — récompense : xp 2 — après : intro
+- **Poudre et torche** — tâches : item minecraft:redstone 16, item minecraft:redstone_torch 2 — récompense : xp 2
   > La poudre porte le signal sur quinze blocs. La torche est une source, et s'éteint si le bloc qui la porte est alimenté : c'est un inverseur.
 - **Levier, bouton, plaque** — tâches : item minecraft:lever, item minecraft:stone_button, item minecraft:stone_pressure_plate — récompense : xp 2 — après : poudre
   > Le levier tient ; le bouton lâche ; la plaque sent le poids. La plaque de fer ne réagit qu'aux objets, celle d'or aussi mais plus fort.
@@ -306,7 +306,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Il entend les vibrations ; le calibré n'écoute que la fréquence qu'on lui donne par le côté. La laine étouffe tout.
 - **Lampes et blocs de note** *(optionnelle)* — tâches : item minecraft:redstone_lamp 4, item minecraft:note_block — récompense : xp 2 — après : levier
   > La lampe s'allume au signal ; le bloc de note joue selon le bloc dessous.
-- **Un paratonnerre** *(optionnelle)* — tâches : item minecraft:lightning_rod — récompense : xp 3 — après : intro
+- **Un paratonnerre** *(optionnelle)* — tâches : item minecraft:lightning_rod — récompense : xp 3
   > Il attire la foudre dans un rayon de 128 blocs, protège les toits en bois et pulse quand elle tombe. Avec un trident Canalisation, c'est un creeper chargé à la demande.
 - **Une horloge** *(optionnelle)* — tâches : checkmark Mon horloge bat — récompense : xp 3 — après : repeteur, comparateur
   > Deux répéteurs en boucle, ou un comparateur en soustraction avec un objet dans un entonnoir : un signal qui bat tout seul.
@@ -333,7 +333,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Régler le vocal de proximité** — tâches : checkmark Micro réglé — récompense : xp 3 — après : bienvenue
   > Le serveur a un vocal de proximité : on s'entend jusqu'à 48 blocs, 24 en chuchotant. La touche V ouvre son menu : choix du micro, de la sortie son, et de la touche pour parler.
   >   > Par défaut on parle en maintenant une touche. Si l'icône en bas à gauche montre une prise barrée, le vocal n'est pas connecté : dis-le dans #général.
-- **Le kit de départ** — tâches : item inmis:frayed_backpack — récompense : xp 2 — après : bienvenue
+- **Le kit de départ** — tâches : item inmis:frayed_backpack — récompense : xp 2
   > Tu arrives avec un sac élimé (Inmis). Il s'ouvre d'un clic droit et se porte dans la main ou dans l'inventaire.
   >   > Les sacs ont des paliers : élimé, plaqué, doré, orné de gemmes, ardent, flétri, puis sans fin. Chaque palier ajoute des cases. Le suivant, le sac plaqué, est une quête plus loin.
 - **Choisir son camp** — tâches : checkmark Camp choisi — récompense : xp 2 — après : reglement
@@ -357,7 +357,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   >   > Prudence : quiconque l'a activée une fois peut y revenir à vie, même ennemi. Une waystone dans une base est une porte d'entrée. Les factions les mettent hors des murs.
 - **Ne plus se perdre** — tâches : checkmark Carte ouverte (touche M) — récompense : xp 3 — après : kit
   > La boussole du kit pointe vers le point d'apparition du monde, c'est-à-dire le Marché. La carte de Xaero (touche M) montre tout ce que tu as exploré et accepte des points de passage, partageables avec ta faction.
-- **Trouver un biome** — tâches : item naturescompass:naturescompass — récompense : xp 5 — après : boussole, fer
+- **Trouver un biome** — tâches : item naturescompass:naturescompass — récompense : xp 5 — après : kit, fer
   > La boussole de la nature cherche n'importe quel biome et t'indique sa direction et sa distance. Avec Biomes O' Plenty et les dimensions, le serveur en compte plusieurs centaines : c'est l'outil de l'explorateur.
 - **La première nuit** — tâches : kill minecraft:zombie 5 — récompense : xp 3 — après : abri
   > Cinq zombies. Les nuits de BMC4 ont des variantes et des visiteurs que le jeu de base ne connaît pas ; le chapitre Bestiaire de l'Encyclopédie les recense.
@@ -383,9 +383,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Le tableau de chasse** — tâches : checkmark Lu — récompense : xp 2
   > Un hexagone par boss du serveur, dans l'ordre du bot. Tout est optionnel et ne compte pas dans le pourcentage. Les quêtes de boss des chapitres du Monde restent le guide ; ici, c'est le compte.
-- **L'Ender Dragon** *(optionnelle)* — tâches : kill minecraft:ender_dragon — récompense : xp 20 — après : intro
+- **L'Ender Dragon** *(optionnelle)* — tâches : advancement minecraft:end/kill_dragon — récompense : xp 20
 - **Le Wither** *(optionnelle)* — tâches : kill minecraft:wither — récompense : xp 20 — après : intro
-- **Le Warden** *(optionnelle)* — tâches : kill minecraft:warden — récompense : xp 20 — après : intro
+- **Le Warden** *(optionnelle)* — tâches : advancement deeperdarker:main/kill_warden — récompense : xp 20
 - **Le Gardien ancien** *(optionnelle)* — tâches : kill minecraft:elder_guardian — récompense : xp 10 — après : intro
 - **La Naga** *(optionnelle)* — tâches : kill twilightforest:naga — récompense : xp 10 — après : intro
 - **La Liche** *(optionnelle)* — tâches : kill twilightforest:lich — récompense : xp 10 — après : intro
@@ -396,24 +396,24 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **L'Ur-Ghast** *(optionnelle)* — tâches : kill twilightforest:ur_ghast — récompense : xp 15 — après : intro
 - **Le Yéti Alpha** *(optionnelle)* — tâches : kill twilightforest:alpha_yeti — récompense : xp 15 — après : intro
 - **La Reine des Neiges** *(optionnelle)* — tâches : kill twilightforest:snow_queen — récompense : xp 15 — après : intro
-- **Le Slider** *(optionnelle)* — tâches : kill aether:slider — récompense : xp 10 — après : intro
-- **La Reine des Valkyries** *(optionnelle)* — tâches : kill aether:valkyrie_queen — récompense : xp 15 — après : intro
-- **L'Esprit du Soleil** *(optionnelle)* — tâches : kill aether:sun_spirit — récompense : xp 20 — après : intro
-- **Le Roi des aérobaleines** *(optionnelle)* — tâches : kill lost_aether_content:aerwhale_king — récompense : xp 15 — après : intro
-- **L'Œil de la Tempête** *(optionnelle)* — tâches : kill deep_aether:eots_controller — récompense : xp 15 — après : intro
+- **Le Slider** *(optionnelle)* — tâches : advancement aether:bronze_dungeon — récompense : xp 10
+- **La Reine des Valkyries** *(optionnelle)* — tâches : advancement aether:silver_dungeon — récompense : xp 15
+- **L'Esprit du Soleil** *(optionnelle)* — tâches : advancement aether:gold_dungeon — récompense : xp 20
+- **Le Roi des aérobaleines** *(optionnelle)* — tâches : advancement lost_aether_content:platinum_dungeon — récompense : xp 15
+- **L'Œil de la Tempête** *(optionnelle)* — tâches : advancement deep_aether:brass_dungeon — récompense : xp 15
   > Deep Aether. Pas dans la liste du bot : sa mort n'est pas annoncée.
-- **L'Invocateur** *(optionnelle)* — tâches : kill blue_skies:summoner — récompense : xp 15 — après : intro
-- **L'Alchimiste** *(optionnelle)* — tâches : kill blue_skies:alchemist — récompense : xp 15 — après : intro
-- **L'Arachnarque** *(optionnelle)* — tâches : kill blue_skies:arachnarch — récompense : xp 15 — après : intro
-- **Le Broyeur étoilé** *(optionnelle)* — tâches : kill blue_skies:starlit_crusher — récompense : xp 15 — après : intro
-- **Ignis** *(optionnelle)* — tâches : kill cataclysm:ignis — récompense : xp 20 — après : intro
-- **La Monstruosité de nétherite** *(optionnelle)* — tâches : kill cataclysm:netherite_monstrosity — récompense : xp 20 — après : intro
-- **Le Gardien de l'Ender** *(optionnelle)* — tâches : kill cataclysm:ender_guardian — récompense : xp 20 — après : intro
-- **Le Harbinger** *(optionnelle)* — tâches : kill cataclysm:the_harbinger — récompense : xp 20 — après : intro
-- **Le Léviathan** *(optionnelle)* — tâches : kill cataclysm:the_leviathan — récompense : xp 25 — après : intro
-- **Le Vestige ancien** *(optionnelle)* — tâches : kill cataclysm:ancient_remnant — récompense : xp 20 — après : intro
-- **Maledictus** *(optionnelle)* — tâches : kill cataclysm:maledictus — récompense : xp 25 — après : intro
-- **Scylla** *(optionnelle)* — tâches : kill cataclysm:scylla — récompense : xp 25 — après : intro
+- **L'Invocateur** *(optionnelle)* — tâches : advancement blue_skies:everbright/kill_summoner — récompense : xp 15
+- **L'Alchimiste** *(optionnelle)* — tâches : advancement blue_skies:everdawn/kill_alchemist — récompense : xp 15
+- **L'Arachnarque** *(optionnelle)* — tâches : advancement blue_skies:everdawn/kill_arachnarch — récompense : xp 15
+- **Le Broyeur étoilé** *(optionnelle)* — tâches : advancement blue_skies:everbright/kill_starlit_crusher — récompense : xp 15
+- **Ignis** *(optionnelle)* — tâches : advancement cataclysm:kill_ignis — récompense : xp 20
+- **La Monstruosité de nétherite** *(optionnelle)* — tâches : advancement cataclysm:kill_monstrosity — récompense : xp 20
+- **Le Gardien de l'Ender** *(optionnelle)* — tâches : advancement cataclysm:kill_ender_guardian — récompense : xp 20
+- **Le Harbinger** *(optionnelle)* — tâches : advancement cataclysm:kill_harbinger — récompense : xp 20
+- **Le Léviathan** *(optionnelle)* — tâches : advancement cataclysm:kill_leviathan — récompense : xp 25
+- **Le Vestige ancien** *(optionnelle)* — tâches : advancement cataclysm:kill_remnant — récompense : xp 20
+- **Maledictus** *(optionnelle)* — tâches : advancement cataclysm:kill_maledictus — récompense : xp 25
+- **Scylla** *(optionnelle)* — tâches : advancement cataclysm:kill_scylla — récompense : xp 25
 - **L'Invoker** *(optionnelle)* — tâches : kill illagerinvasion:invoker — récompense : xp 15 — après : intro
 - **Le Harceleur de l'Otherside** *(optionnelle)* — tâches : kill deeperdarker:stalker — récompense : xp 15 — après : intro
 - **Le Roi Mort** *(optionnelle)* — tâches : kill irons_spellbooks:dead_king — récompense : xp 20 — après : intro
@@ -422,12 +422,12 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Le Nether Keeper** *(optionnelle)* — tâches : kill stalwart_dungeons:nether_keeper — récompense : xp 15 — après : intro
 - **Le Shelterer** *(optionnelle)* — tâches : kill stalwart_dungeons:shelterer_without_armor — récompense : xp 15 — après : intro
   > Deux formes : c'est la seconde, sans armure, qui compte, comme pour le bot.
-- **Le Frostmaw** *(optionnelle)* — tâches : kill mowziesmobs:frostmaw — récompense : xp 15 — après : intro
-- **Le Wroughtnaut ferreux** *(optionnelle)* — tâches : kill mowziesmobs:ferrous_wroughtnaut — récompense : xp 15 — après : intro
-- **Umvuthi** *(optionnelle)* — tâches : kill mowziesmobs:umvuthi — récompense : xp 15 — après : intro
+- **Le Frostmaw** *(optionnelle)* — tâches : advancement mowziesmobs:kill_frostmaw — récompense : xp 15
+- **Le Wroughtnaut ferreux** *(optionnelle)* — tâches : advancement mowziesmobs:kill_ferrous_wroughtnaut — récompense : xp 15
+- **Umvuthi** *(optionnelle)* — tâches : advancement mowziesmobs:kill_umvuthi — récompense : xp 15
 - **Le Berserker** *(optionnelle)* — tâches : kill galosphere:berserker — récompense : xp 10 — après : intro
   > Galosphere. Pas dans la liste du bot.
-- **Le Ver du vide** *(optionnelle)* — tâches : item alexsmobs:void_worm_eye — récompense : xp 15 — après : intro
+- **Le Ver du vide** *(optionnelle)* — tâches : item alexsmobs:void_worm_eye — récompense : xp 15
   > Alex's Mobs. Fait de plusieurs entités : son œil, lâché à sa mort, valide. Pas dans la liste du bot.
 - **Tous les boss du serveur** *(optionnelle)* — tâches : checkmark Quarante et un — récompense : xp 100 — après : ender_dragon, wither, warden, elder_guardian, naga, lich, minoshroom, hydra, knight_phantom, ur_ghast, alpha_yeti, snow_queen, slider, valkyrie_queen, sun_spirit, aerwhale_king, oeil_tempete, summoner, alchemist, arachnarch, starlit_crusher, ignis, monstrosity, ender_guardian, harbinger, leviathan, remnant, maledictus, scylla, invoker, stalker, dead_king, tyros, awful_ghast, nether_keeper, shelterer, frostmaw, wroughtnaut, umvuthi, berserker, void_worm
   > Quarante et un boss. Personne ne l'a encore fait.
@@ -436,23 +436,23 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Tout avoir** — tâches : checkmark Lu — récompense : xp 2
   > Des séries complètes. Rien n'est consommé : montrer l'objet suffit. Tout est optionnel et hors pourcentage.
-- **Les six essences** *(optionnelle)* — tâches : item mysticalagriculture:inferium_essence, item mysticalagriculture:prudentium_essence, item mysticalagriculture:tertium_essence, item mysticalagriculture:imperium_essence, item mysticalagriculture:supremium_essence, item mysticalagriculture:awakened_supremium_essence — récompense : xp 30 — après : intro
+- **Les six essences** *(optionnelle)* — tâches : item mysticalagriculture:inferium_essence, item mysticalagriculture:prudentium_essence, item mysticalagriculture:tertium_essence, item mysticalagriculture:imperium_essence, item mysticalagriculture:supremium_essence, item mysticalagriculture:awakened_supremium_essence — récompense : xp 30
   > Inferium, prudentium, tertium, imperium, supremium, supremium éveillé.
-- **Les neuf trophées** *(optionnelle)* — tâches : item twilightforest:naga_trophy, item twilightforest:lich_trophy, item twilightforest:minoshroom_trophy, item twilightforest:hydra_trophy, item twilightforest:knight_phantom_trophy, item twilightforest:ur_ghast_trophy, item twilightforest:alpha_yeti_trophy, item twilightforest:snow_queen_trophy, item twilightforest:quest_ram_trophy — récompense : xp 40 — après : intro
+- **Les neuf trophées** *(optionnelle)* — tâches : item twilightforest:naga_trophy, item twilightforest:lich_trophy, item twilightforest:minoshroom_trophy, item twilightforest:hydra_trophy, item twilightforest:knight_phantom_trophy, item twilightforest:ur_ghast_trophy, item twilightforest:alpha_yeti_trophy, item twilightforest:snow_queen_trophy, item twilightforest:quest_ram_trophy — récompense : xp 40
   > Les huit boss de la Twilight Forest et le Bélier des quêtes.
 - **Toutes les races de dragons** *(optionnelle)* — tâches : checkmark Trente-six races vues chez moi — récompense : xp 40 — après : intro
   > Trente-six races (chapitre Les dragons). L'œuf porte sa race en NBT : le livre ne peut pas le compter, la case est sur l'honneur et le Bestiaire fait foi.
-- **Les seize disques vanilla** *(optionnelle)* — tâches : item minecraft:music_disc_13, item minecraft:music_disc_cat, item minecraft:music_disc_blocks, item minecraft:music_disc_chirp, item minecraft:music_disc_far, item minecraft:music_disc_mall, item minecraft:music_disc_mellohi, item minecraft:music_disc_stal, item minecraft:music_disc_strad, item minecraft:music_disc_ward, item minecraft:music_disc_11, item minecraft:music_disc_wait, item minecraft:music_disc_otherside, item minecraft:music_disc_5, item minecraft:music_disc_pigstep, item minecraft:music_disc_relic — récompense : xp 30 — après : intro
+- **Les seize disques vanilla** *(optionnelle)* — tâches : item minecraft:music_disc_13, item minecraft:music_disc_cat, item minecraft:music_disc_blocks, item minecraft:music_disc_chirp, item minecraft:music_disc_far, item minecraft:music_disc_mall, item minecraft:music_disc_mellohi, item minecraft:music_disc_stal, item minecraft:music_disc_strad, item minecraft:music_disc_ward, item minecraft:music_disc_11, item minecraft:music_disc_wait, item minecraft:music_disc_otherside, item minecraft:music_disc_5, item minecraft:music_disc_pigstep, item minecraft:music_disc_relic — récompense : xp 30
 - **Les disques de Cataclysm** *(optionnelle)* — tâches : item cataclysm:music_disc_ignis, item cataclysm:music_disc_netherite_monstrosity, item cataclysm:music_disc_ender_guardian, item cataclysm:music_disc_the_harbinger, item cataclysm:music_disc_the_leviathan, item cataclysm:music_disc_ancient_remnant, item cataclysm:music_disc_maledictus, item cataclysm:music_disc_scylla — récompense : xp 30 — après : disques_vanilla
   > Un par boss (tables de butin). Le disque « The Cataclysmfarer » n'est que l'icône d'un progrès : aucune source ne le donne.
 - **Les disques de la Twilight Forest** *(optionnelle)* — tâches : item twilightforest:music_disc_findings, item twilightforest:music_disc_home, item twilightforest:music_disc_maker, item twilightforest:music_disc_motion, item twilightforest:music_disc_radiance, item twilightforest:music_disc_steps, item twilightforest:music_disc_superstitious, item twilightforest:music_disc_thread, item twilightforest:music_disc_wayfarer — récompense : xp 25 — après : disques_vanilla
-- **Les seize ornements d'armure** *(optionnelle)* — tâches : item minecraft:coast_armor_trim_smithing_template, item minecraft:dune_armor_trim_smithing_template, item minecraft:eye_armor_trim_smithing_template, item minecraft:host_armor_trim_smithing_template, item minecraft:raiser_armor_trim_smithing_template, item minecraft:rib_armor_trim_smithing_template, item minecraft:sentry_armor_trim_smithing_template, item minecraft:shaper_armor_trim_smithing_template, item minecraft:silence_armor_trim_smithing_template, item minecraft:snout_armor_trim_smithing_template, item minecraft:spire_armor_trim_smithing_template, item minecraft:tide_armor_trim_smithing_template, item minecraft:vex_armor_trim_smithing_template, item minecraft:ward_armor_trim_smithing_template, item minecraft:wayfinder_armor_trim_smithing_template, item minecraft:wild_armor_trim_smithing_template — récompense : xp 40 — après : intro
+- **Les seize ornements d'armure** *(optionnelle)* — tâches : item minecraft:coast_armor_trim_smithing_template, item minecraft:dune_armor_trim_smithing_template, item minecraft:eye_armor_trim_smithing_template, item minecraft:host_armor_trim_smithing_template, item minecraft:raiser_armor_trim_smithing_template, item minecraft:rib_armor_trim_smithing_template, item minecraft:sentry_armor_trim_smithing_template, item minecraft:shaper_armor_trim_smithing_template, item minecraft:silence_armor_trim_smithing_template, item minecraft:snout_armor_trim_smithing_template, item minecraft:spire_armor_trim_smithing_template, item minecraft:tide_armor_trim_smithing_template, item minecraft:vex_armor_trim_smithing_template, item minecraft:ward_armor_trim_smithing_template, item minecraft:wayfinder_armor_trim_smithing_template, item minecraft:wild_armor_trim_smithing_template — récompense : xp 40
   > Les seize modèles vanilla, chacun dans sa structure (chapitre Enchantement et forge des bases).
-- **Les vingt tessons** *(optionnelle)* — tâches : item minecraft:angler_pottery_sherd, item minecraft:archer_pottery_sherd, item minecraft:arms_up_pottery_sherd, item minecraft:blade_pottery_sherd, item minecraft:brewer_pottery_sherd, item minecraft:burn_pottery_sherd, item minecraft:danger_pottery_sherd, item minecraft:explorer_pottery_sherd, item minecraft:friend_pottery_sherd, item minecraft:heart_pottery_sherd, item minecraft:heartbreak_pottery_sherd, item minecraft:howl_pottery_sherd, item minecraft:miner_pottery_sherd, item minecraft:mourner_pottery_sherd, item minecraft:plenty_pottery_sherd, item minecraft:prize_pottery_sherd, item minecraft:sheaf_pottery_sherd, item minecraft:shelter_pottery_sherd, item minecraft:skull_pottery_sherd, item minecraft:snort_pottery_sherd — récompense : xp 40 — après : intro
+- **Les vingt tessons** *(optionnelle)* — tâches : item minecraft:angler_pottery_sherd, item minecraft:archer_pottery_sherd, item minecraft:arms_up_pottery_sherd, item minecraft:blade_pottery_sherd, item minecraft:brewer_pottery_sherd, item minecraft:burn_pottery_sherd, item minecraft:danger_pottery_sherd, item minecraft:explorer_pottery_sherd, item minecraft:friend_pottery_sherd, item minecraft:heart_pottery_sherd, item minecraft:heartbreak_pottery_sherd, item minecraft:howl_pottery_sherd, item minecraft:miner_pottery_sherd, item minecraft:mourner_pottery_sherd, item minecraft:plenty_pottery_sherd, item minecraft:prize_pottery_sherd, item minecraft:sheaf_pottery_sherd, item minecraft:shelter_pottery_sherd, item minecraft:skull_pottery_sherd, item minecraft:snort_pottery_sherd — récompense : xp 40
   > Vingt motifs, au pinceau (chapitre Archéologie des bases).
-- **Les armures de boss** *(optionnelle)* — tâches : item cataclysm:ignitium_helmet, item cataclysm:cursium_helmet, item deeperdarker:warden_helmet, item dragonloot:dragon_helmet, item twilightforest:fiery_helmet, item twilightforest:knightmetal_helmet, item mowziesmobs:wrought_helmet, item stalwart_dungeons:chorundum_armor_helmet — récompense : xp 40 — après : intro
+- **Les armures de boss** *(optionnelle)* — tâches : item cataclysm:ignitium_helmet, item cataclysm:cursium_helmet, item deeperdarker:warden_helmet, item dragonloot:dragon_helmet, item twilightforest:fiery_helmet, item twilightforest:knightmetal_helmet, item mowziesmobs:wrought_helmet, item stalwart_dungeons:chorundum_armor_helmet — récompense : xp 40
   > Un casque de chacune : ignitium, cursium, Warden, dragon, ardent, métal de chevalier, Wroughtnaut, chorundum.
-- **Les têtes** *(optionnelle)* — tâches : item minecraft:zombie_head, item minecraft:skeleton_skull, item minecraft:creeper_head, item minecraft:wither_skeleton_skull, item minecraft:piglin_head, item minecraft:dragon_head — récompense : xp 20 — après : intro
+- **Les têtes** *(optionnelle)* — tâches : item minecraft:zombie_head, item minecraft:skeleton_skull, item minecraft:creeper_head, item minecraft:wither_skeleton_skull, item minecraft:piglin_head, item minecraft:dragon_head — récompense : xp 20
   > Zombie, squelette, creeper, squelette du Wither, piglin, dragon. Les quatre premières tombent d'un creeper chargé.
 - **Tout est là** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 80 — après : essences, trophees, disques_vanilla, ornements, tessons, armures
 
@@ -460,24 +460,24 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Voir le monde** — tâches : checkmark Lu — récompense : xp 2
   > Des défis de distance et de découverte. Tout est optionnel et hors pourcentage.
-- **Les huit dimensions** *(optionnelle)* — tâches : dimension minecraft:overworld, dimension minecraft:the_nether, dimension minecraft:the_end, dimension aether:the_aether, dimension blue_skies:everbright, dimension blue_skies:everdawn, dimension twilightforest:twilight_forest, dimension deeperdarker:otherside — récompense : xp 30 — après : intro
+- **Les huit dimensions** *(optionnelle)* — tâches : dimension minecraft:overworld, advancement minecraft:story/enter_the_nether, advancement minecraft:story/enter_the_end, advancement aether:enter_aether, advancement blue_skies:everbright/enter, advancement blue_skies:everdawn/enter, dimension twilightforest:twilight_forest, advancement deeperdarker:main/enter_otherside — récompense : xp 30
   > Overworld, Nether, End, Aether, Everbright, Everdawn, Twilight Forest, Otherside.
-- **Dix kilomètres à pied** *(optionnelle)* — tâches : stat minecraft:walk_one_cm 1000000 — récompense : xp 5 — après : intro
+- **Dix kilomètres à pied** *(optionnelle)* — tâches : stat minecraft:walk_one_cm 1000000 — récompense : xp 5
   > Statistique du jeu : un million de centimètres marchés. Le bateau, le cheval et le vol ne comptent pas.
 - **Cent kilomètres à pied** *(optionnelle)* — tâches : stat minecraft:walk_one_cm 10000000 — récompense : xp 25 — après : marche_10
-- **Cent kilomètres en élytres** *(optionnelle)* — tâches : stat minecraft:aviate_one_cm 10000000 — récompense : xp 25 — après : intro
-- **Cinquante kilomètres en bateau** *(optionnelle)* — tâches : stat minecraft:boat_one_cm 5000000 — récompense : xp 15 — après : intro
-- **Cinquante kilomètres à cheval** *(optionnelle)* — tâches : stat minecraft:horse_one_cm 5000000 — récompense : xp 15 — après : intro
-- **Toutes les collines creuses** *(optionnelle)* — tâches : advancement twilightforest:hill1, advancement twilightforest:hill2, advancement twilightforest:hill3 — récompense : xp 15 — après : intro
+- **Cent kilomètres en élytres** *(optionnelle)* — tâches : stat minecraft:aviate_one_cm 10000000 — récompense : xp 25
+- **Cinquante kilomètres en bateau** *(optionnelle)* — tâches : stat minecraft:boat_one_cm 5000000 — récompense : xp 15
+- **Cinquante kilomètres à cheval** *(optionnelle)* — tâches : stat minecraft:horse_one_cm 5000000 — récompense : xp 15
+- **Toutes les collines creuses** *(optionnelle)* — tâches : advancement twilightforest:hill1, advancement twilightforest:hill2, advancement twilightforest:hill3 — récompense : xp 15
   > Petite, moyenne, grande : un Redcap, un sapeur, un spectre tués dans chacune (progrès de la Twilight Forest).
 - **Les grands froids** *(optionnelle)* — tâches : biome minecraft:ice_spikes, biome minecraft:frozen_peaks, biome minecraft:deep_frozen_ocean, biome minecraft:snowy_slopes — récompense : xp 10 — après : intro
 - **Les grandes chaleurs** *(optionnelle)* — tâches : biome minecraft:badlands, biome minecraft:eroded_badlands, biome minecraft:desert, biome minecraft:savanna_plateau — récompense : xp 10 — après : intro
 - **Les biomes rares** *(optionnelle)* — tâches : biome minecraft:mushroom_fields, biome minecraft:cherry_grove, biome minecraft:deep_dark, biome minecraft:lush_caves — récompense : xp 15 — après : intro
-- **Un temps d'aventure** *(optionnelle)* — tâches : advancement minecraft:adventure/adventuring_time — récompense : xp 40 — après : intro
+- **Un temps d'aventure** *(optionnelle)* — tâches : advancement minecraft:adventure/adventuring_time — récompense : xp 40
   > Le progrès vanilla : tous les biomes de l'Overworld vanilla. Ceux de Biomes O' Plenty et des autres mods ne sont pas exigés.
 - **Les structures de la mer** *(optionnelle)* — tâches : structure #minecraft:ocean_ruin, structure #minecraft:shipwreck, structure minecraft:monument, structure minecraft:buried_treasure — récompense : xp 10 — après : intro
-- **Les structures de la terre** *(optionnelle)* — tâches : structure minecraft:mansion, structure minecraft:pillager_outpost, structure minecraft:ancient_city, structure minecraft:trail_ruins — récompense : xp 15 — après : intro
-- **Du sommet au fond** *(optionnelle)* — tâches : advancement minecraft:adventure/fall_from_world_height — récompense : xp 10 — après : intro
+- **Les structures de la terre** *(optionnelle)* — tâches : structure minecraft:mansion, structure minecraft:pillager_outpost, advancement deeperdarker:main/find_ancient_city, structure minecraft:trail_ruins — récompense : xp 15
+- **Du sommet au fond** *(optionnelle)* — tâches : advancement minecraft:adventure/fall_from_world_height — récompense : xp 10
   > Tomber du haut du monde jusqu'en bas et survivre (progrès vanilla).
 - **Le monde est petit** *(optionnelle)* — tâches : checkmark Fait — récompense : xp 50 — après : dimensions, marche_100, aventure
 
@@ -5160,70 +5160,70 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 ## Structures — donjons, villes et tours  (`enc_structures_donjons_villages`, 126 quêtes)
 
 - **Structures — donjons, villes et tours** — tâches : checkmark Lu — récompense : xp 2
-  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
-- **Visiter : « Abandoned temple »** *(optionnelle)* — tâches : structure dungeons_arise:abandoned_temple — récompense : xp 1
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
+- **Visiter : « Abandoned temple »** *(optionnelle)* — tâches : advancement dungeons_arise:find_abandoned_temple — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
-- **Visiter : « Aviary »** *(optionnelle)* — tâches : structure dungeons_arise:aviary — récompense : xp 1
+- **Visiter : « Aviary »** *(optionnelle)* — tâches : advancement dungeons_arise:find_aviary — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
-- **Visiter : « Bandit towers »** *(optionnelle)* — tâches : structure dungeons_arise:bandit_towers — récompense : xp 1
+- **Visiter : « Bandit towers »** *(optionnelle)* — tâches : advancement dungeons_arise:find_bandit_towers — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
-- **Visiter : « Bandit village »** *(optionnelle)* — tâches : structure dungeons_arise:bandit_village — récompense : xp 1
+- **Visiter : « Bandit village »** *(optionnelle)* — tâches : advancement dungeons_arise:find_bandit_village — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
-- **Visiter : « Bathhouse »** *(optionnelle)* — tâches : structure dungeons_arise:bathhouse — récompense : xp 1
+- **Visiter : « Bathhouse »** *(optionnelle)* — tâches : advancement dungeons_arise:find_bathhouse — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
-- **Visiter : « Ceryneian hind »** *(optionnelle)* — tâches : structure dungeons_arise:ceryneian_hind — récompense : xp 1
+- **Visiter : « Ceryneian hind »** *(optionnelle)* — tâches : advancement dungeons_arise:find_ceryneian_hind — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Désert (données du serveur).
-- **Visiter : « Coliseum »** *(optionnelle)* — tâches : structure dungeons_arise:coliseum — récompense : xp 1
+- **Visiter : « Coliseum »** *(optionnelle)* — tâches : advancement dungeons_arise:find_coliseum — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
-- **Visiter : « Fishing hut »** *(optionnelle)* — tâches : structure dungeons_arise:fishing_hut — récompense : xp 1
+- **Visiter : « Fishing hut »** *(optionnelle)* — tâches : advancement dungeons_arise:find_fishing_hut — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
-- **Visiter : « Giant mushroom »** *(optionnelle)* — tâches : structure dungeons_arise:giant_mushroom — récompense : xp 1
+- **Visiter : « Giant mushroom »** *(optionnelle)* — tâches : advancement dungeons_arise:find_giant_mushroom — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
-- **Visiter : « Greenwood pub »** *(optionnelle)* — tâches : structure dungeons_arise:greenwood_pub — récompense : xp 1
+- **Visiter : « Greenwood pub »** *(optionnelle)* — tâches : advancement dungeons_arise:find_greenwood_pub — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
-- **Visiter : « Illager campsite »** *(optionnelle)* — tâches : structure dungeons_arise:illager_campsite — récompense : xp 1
+- **Visiter : « Illager campsite »** *(optionnelle)* — tâches : advancement dungeons_arise:find_illager_campsite — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Hauts plateaux, Prairie, Plaines, Plaines de tournesols, Forêt venteuse et d'autres (données du serveur).
 - **Visiter : « Illager corsair »** *(optionnelle)* — tâches : structure dungeons_arise:illager_corsair — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
-- **Visiter : « Illager fort »** *(optionnelle)* — tâches : structure dungeons_arise:illager_fort — récompense : xp 1
+- **Visiter : « Illager fort »** *(optionnelle)* — tâches : advancement dungeons_arise:find_illager_fort — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
 - **Visiter : « Illager galley »** *(optionnelle)* — tâches : structure dungeons_arise:illager_galley — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
-- **Visiter : « Illager windmill »** *(optionnelle)* — tâches : structure dungeons_arise:illager_windmill — récompense : xp 1
+- **Visiter : « Illager windmill »** *(optionnelle)* — tâches : advancement dungeons_arise:find_illager_windmill — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
-- **Visiter : « Infested temple »** *(optionnelle)* — tâches : structure dungeons_arise:infested_temple — récompense : xp 1
+- **Visiter : « Infested temple »** *(optionnelle)* — tâches : advancement dungeons_arise:find_infested_temple — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
 - **Visiter : « Jungle tree house »** *(optionnelle)* — tâches : structure dungeons_arise:jungle_tree_house — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
-- **Visiter : « Keep kayra »** *(optionnelle)* — tâches : structure dungeons_arise:keep_kayra — récompense : xp 1
+- **Visiter : « Keep kayra »** *(optionnelle)* — tâches : advancement dungeons_arise:find_keep_kayra — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Marais à mangroves, Marais (données du serveur).
-- **Visiter : « Lighthouse »** *(optionnelle)* — tâches : structure dungeons_arise:lighthouse — récompense : xp 1
+- **Visiter : « Lighthouse »** *(optionnelle)* — tâches : advancement dungeons_arise:find_lighthouse — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plaines, Plage enneigée (données du serveur).
-- **Visiter : « Merchant campsite »** *(optionnelle)* — tâches : structure dungeons_arise:merchant_campsite — récompense : xp 1
+- **Visiter : « Merchant campsite »** *(optionnelle)* — tâches : advancement dungeons_arise:find_merchant_campsite — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
-- **Visiter : « Mining system »** *(optionnelle)* — tâches : structure dungeons_arise:mining_system — récompense : xp 1
+- **Visiter : « Mining system »** *(optionnelle)* — tâches : advancement dungeons_arise:find_mining_system — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
-- **Visiter : « Monastery »** *(optionnelle)* — tâches : structure dungeons_arise:monastery — récompense : xp 1
+- **Visiter : « Monastery »** *(optionnelle)* — tâches : advancement dungeons_arise:find_monasteries — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
-- **Visiter : « Mushroom house »** *(optionnelle)* — tâches : structure dungeons_arise:mushroom_house — récompense : xp 1
+- **Visiter : « Mushroom house »** *(optionnelle)* — tâches : advancement dungeons_arise:find_mushroom_house — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
-- **Visiter : « Mushroom mines »** *(optionnelle)* — tâches : structure dungeons_arise:mushroom_mines — récompense : xp 1
+- **Visiter : « Mushroom mines »** *(optionnelle)* — tâches : advancement dungeons_arise:find_mushroom_mines — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
-- **Visiter : « Mushroom village »** *(optionnelle)* — tâches : structure dungeons_arise:mushroom_village — récompense : xp 1
+- **Visiter : « Mushroom village »** *(optionnelle)* — tâches : advancement dungeons_arise:find_mushroom_village — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
-- **Visiter : « Plague asylum »** *(optionnelle)* — tâches : structure dungeons_arise:plague_asylum — récompense : xp 1
+- **Visiter : « Plague asylum »** *(optionnelle)* — tâches : advancement dungeons_arise:find_plague_asylum — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
-- **Visiter : « Scorched mines »** *(optionnelle)* — tâches : structure dungeons_arise:scorched_mines — récompense : xp 1
+- **Visiter : « Scorched mines »** *(optionnelle)* — tâches : advancement dungeons_arise:find_scorched_mines — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Désert (données du serveur).
-- **Visiter : « Shiraz palace »** *(optionnelle)* — tâches : structure dungeons_arise:shiraz_palace — récompense : xp 1
+- **Visiter : « Shiraz palace »** *(optionnelle)* — tâches : advancement dungeons_arise:find_shiraz_palace — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Désert (données du serveur).
-- **Visiter : « Thornborn towers »** *(optionnelle)* — tâches : structure dungeons_arise:thornborn_towers — récompense : xp 1
+- **Visiter : « Thornborn towers »** *(optionnelle)* — tâches : advancement dungeons_arise:find_thornborn_towers — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
-- **Visiter : « Typhon »** *(optionnelle)* — tâches : structure dungeons_arise:typhon — récompense : xp 1
+- **Visiter : « Typhon »** *(optionnelle)* — tâches : advancement dungeons_arise:find_typhon — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
-- **Visiter : « Undead pirate ship »** *(optionnelle)* — tâches : structure dungeons_arise:undead_pirate_ship — récompense : xp 1
+- **Visiter : « Undead pirate ship »** *(optionnelle)* — tâches : advancement dungeons_arise:find_undead_pirate_ship — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
-- **Visiter : « Wishing well »** *(optionnelle)* — tâches : structure dungeons_arise:wishing_well — récompense : xp 1
+- **Visiter : « Wishing well »** *(optionnelle)* — tâches : advancement dungeons_arise:find_wishing_well — récompense : xp 1
   > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
 - **Visiter : « Abandoned camp »** *(optionnelle)* — tâches : structure structory:abandoned_camp — récompense : xp 1
   > Structure de Structory. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur).
@@ -5415,7 +5415,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 ## Structures — autres mondes  (`enc_structures_mondes`, 90 quêtes)
 
 - **Structures — autres mondes** — tâches : checkmark Lu — récompense : xp 2
-  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 - **Visiter : « Bronze dungeon »** *(optionnelle)* — tâches : structure aether:bronze_dungeon — récompense : xp 1
   > Structure de Aether. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
 - **Visiter : « Gold dungeon »** *(optionnelle)* — tâches : structure aether:gold_dungeon — récompense : xp 1
@@ -5426,9 +5426,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Aether. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
 - **Visiter : « Olympic citadel »** *(optionnelle)* — tâches : structure aether_villages:olympic_citadel — récompense : xp 1
   > Structure de Aether Villages. Se génère dans : Forêt de skyroot, Prairie de skyroot, « Cloudcaps », « Frosted Forests », « Gilded Groves » et d'autres (données du serveur).
-- **Visiter : « End village »** *(optionnelle)* — tâches : structure betterend:end_village — récompense : xp 1
+- **Visiter : « End village »** *(optionnelle)* — tâches : advancement betterend:village — récompense : xp 1
   > Structure de Better End. Se génère dans : « Dust Wastelands », « Glowing Grasslands » (données du serveur).
-- **Visiter : « Eternal portal »** *(optionnelle)* — tâches : structure betterend:eternal_portal — récompense : xp 1
+- **Visiter : « Eternal portal »** *(optionnelle)* — tâches : advancement betterend:portal — récompense : xp 1
   > Structure de Better End. Se génère dans : « Chorus Forest », « Dragon Graveyards », « Dry Shrubland », « Dust Wastelands », « Foggy Mushroomland » et d'autres (données du serveur).
 - **Visiter : « Giant ice star »** *(optionnelle)* — tâches : structure betterend:giant_ice_star — récompense : xp 1
   > Structure de Better End. Se génère dans : « Ice Starfield » (données du serveur).
@@ -5450,7 +5450,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
 - **Visiter : « Jungle temples »** *(optionnelle)* — tâches : structure betternether:jungle_temples — récompense : xp 1
   > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
-- **Visiter : « Nether city »** *(optionnelle)* — tâches : structure betternether:nether_city — récompense : xp 1
+- **Visiter : « Nether city »** *(optionnelle)* — tâches : advancement betternether:city — récompense : xp 1
   > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
 - **Visiter : « Pillars »** *(optionnelle)* — tâches : structure betternether:pillars — récompense : xp 1
   > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
@@ -5474,9 +5474,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Blue Skies.
 - **Visiter : « Gatekeeper house snowy »** *(optionnelle)* — tâches : structure blue_skies:gatekeeper_house_snowy — récompense : xp 1
   > Structure de Blue Skies.
-- **Visiter : « Nature dungeon »** *(optionnelle)* — tâches : structure blue_skies:nature_dungeon — récompense : xp 1
+- **Visiter : « Nature dungeon »** *(optionnelle)* — tâches : advancement blue_skies:everbright/enter_nature_dungeon — récompense : xp 1
   > Structure de Blue Skies. Se génère dans : Pins neigeux (données du serveur).
-- **Visiter : « Poison dungeon »** *(optionnelle)* — tâches : structure blue_skies:poison_dungeon — récompense : xp 1
+- **Visiter : « Poison dungeon »** *(optionnelle)* — tâches : advancement blue_skies:everdawn/enter_poison_dungeon — récompense : xp 1
   > Structure de Blue Skies. Se génère dans : Forêt d'érables (données du serveur).
 - **Visiter : « Village brightlands »** *(optionnelle)* — tâches : structure blue_skies:village_brightlands — récompense : xp 1
   > Structure de Blue Skies. Se génère dans : Pins neigeux (données du serveur).
@@ -5490,11 +5490,11 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Blue Skies. Se génère dans : Terres détrempées (données du serveur).
 - **Visiter : « Village sunset maple forest »** *(optionnelle)* — tâches : structure blue_skies:village_sunset_maple_forest — récompense : xp 1
   > Structure de Blue Skies. Se génère dans : Forêt d'érables (données du serveur).
-- **Visiter : « Catacomb »** *(optionnelle)* — tâches : structure bygonenether:catacomb — récompense : xp 1
+- **Visiter : « Catacomb »** *(optionnelle)* — tâches : advancement bygonenether:catacomb — récompense : xp 1
   > Structure de Bygone Nether. Se génère dans : Abîme flétri, Vallée des âmes (données du serveur).
-- **Visiter : « Citadel »** *(optionnelle)* — tâches : structure bygonenether:citadel — récompense : xp 1
+- **Visiter : « Citadel »** *(optionnelle)* — tâches : advancement bygonenether:citadel — récompense : xp 1
   > Structure de Bygone Nether. Se génère dans : Forêt biscornue (données du serveur).
-- **Visiter : « Piglin manor »** *(optionnelle)* — tâches : structure bygonenether:piglin_manor — récompense : xp 1
+- **Visiter : « Piglin manor »** *(optionnelle)* — tâches : advancement bygonenether:piglin_manor — récompense : xp 1
   > Structure de Bygone Nether. Se génère dans : Forêt carmin (données du serveur).
 - **Visiter : « Abandoned spire »** *(optionnelle)* — tâches : structure cataclysm:abandoned_spire — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Plaines enneigées (données du serveur).
@@ -5502,37 +5502,37 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Cataclysm. Se génère dans : Plaines enneigées (données du serveur).
 - **Visiter : « Abandoned village »** *(optionnelle)* — tâches : structure cataclysm:abandoned_village — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Plaines enneigées (données du serveur).
-- **Visiter : « Acropolis »** *(optionnelle)* — tâches : structure cataclysm:acropolis — récompense : xp 1
+- **Visiter : « Acropolis »** *(optionnelle)* — tâches : advancement cataclysm:find_acropolis — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Océan chaud (données du serveur).
 - **Visiter : « Amethyst nest »** *(optionnelle)* — tâches : structure cataclysm:amethyst_nest — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Cavernes luxuriantes (données du serveur).
-- **Visiter : « Ancient factory »** *(optionnelle)* — tâches : structure cataclysm:ancient_factory — récompense : xp 1
+- **Visiter : « Ancient factory »** *(optionnelle)* — tâches : advancement cataclysm:find_ancient_factory — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Grotte lumineuse, Nid d'araignée, « Crystal Canyons », « Lichen Caves », « Pink Salt Caves » et d'autres (données du serveur).
-- **Visiter : « Burning arena »** *(optionnelle)* — tâches : structure cataclysm:burning_arena — récompense : xp 1
+- **Visiter : « Burning arena »** *(optionnelle)* — tâches : advancement cataclysm:find_burning_arena — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Terres désolées du Nether (données du serveur).
-- **Visiter : « Cursed pyramid »** *(optionnelle)* — tâches : structure cataclysm:cursed_pyramid — récompense : xp 1
+- **Visiter : « Cursed pyramid »** *(optionnelle)* — tâches : advancement cataclysm:find_cursed_pyramid — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Désert (données du serveur).
 - **Visiter : « Desert occupied village »** *(optionnelle)* — tâches : structure cataclysm:desert_occupied_village — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Désert (données du serveur).
 - **Visiter : « Desert site »** *(optionnelle)* — tâches : structure cataclysm:desert_site — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Désert (données du serveur).
-- **Visiter : « Frosted prison »** *(optionnelle)* — tâches : structure cataclysm:frosted_prison — récompense : xp 1
+- **Visiter : « Frosted prison »** *(optionnelle)* — tâches : advancement cataclysm:find_frosted_prison — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Plaines enneigées (données du serveur).
-- **Visiter : « Ruined citadel »** *(optionnelle)* — tâches : structure cataclysm:ruined_citadel — récompense : xp 1
+- **Visiter : « Ruined citadel »** *(optionnelle)* — tâches : advancement cataclysm:find_ruined_citadel — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
-- **Visiter : « Soul black smith »** *(optionnelle)* — tâches : structure cataclysm:soul_black_smith — récompense : xp 1
+- **Visiter : « Soul black smith »** *(optionnelle)* — tâches : advancement cataclysm:find_soul_black_smith — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
-- **Visiter : « Sunken city »** *(optionnelle)* — tâches : structure cataclysm:sunken_city — récompense : xp 1
+- **Visiter : « Sunken city »** *(optionnelle)* — tâches : advancement cataclysm:find_sunken_city — récompense : xp 1
   > Structure de Cataclysm. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
 - **Visiter : « Brass dungeon »** *(optionnelle)* — tâches : structure deep_aether:brass_dungeon — récompense : xp 1
   > Structure de Deep Aether. Se génère dans : « Cloud » (données du serveur).
-- **Visiter : « Ancient temple »** *(optionnelle)* — tâches : structure deeperdarker:ancient_temple — récompense : xp 1
+- **Visiter : « Ancient temple »** *(optionnelle)* — tâches : advancement deeperdarker:main/find_ancient_temple — récompense : xp 1
   > Structure de Deeper and Darker. Se génère dans : « Deeplands » (données du serveur).
 - **Visiter : « End house »** *(optionnelle)* — tâches : structure endersdelight:end_house — récompense : xp 1
   > Structure de Ender's Delight. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
 - **Visiter : « Ancient battleground »** *(optionnelle)* — tâches : structure irons_spellbooks:ancient_battleground — récompense : xp 1
   > Structure de Iron's Spells. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
-- **Visiter : « Catacombs »** *(optionnelle)* — tâches : structure irons_spellbooks:catacombs — récompense : xp 1
+- **Visiter : « Catacombs »** *(optionnelle)* — tâches : advancement irons_spellbooks:irons_spellbooks/enter_catacombs — récompense : xp 1
   > Structure de Iron's Spells. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
 - **Visiter : « Citadel »** *(optionnelle)* — tâches : structure irons_spellbooks:citadel — récompense : xp 1
   > Structure de Iron's Spells. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
@@ -5556,9 +5556,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Jaden's Nether Expansion. Se génère dans : Gouffre crystallin, Tas de viscères, Terres désolées du Nether (données du serveur).
 - **Visiter : « Mega fossil »** *(optionnelle)* — tâches : structure netherexp:mega_fossil — récompense : xp 1
   > Structure de Jaden's Nether Expansion. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur).
-- **Visiter : « Mega fossil campsite »** *(optionnelle)* — tâches : structure netherexp:mega_fossil_campsite — récompense : xp 1
+- **Visiter : « Mega fossil campsite »** *(optionnelle)* — tâches : advancement netherexp:nether/rattling_remnants — récompense : xp 1
   > Structure de Jaden's Nether Expansion. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur).
-- **Visiter : « Sanctum »** *(optionnelle)* — tâches : structure netherexp:sanctum — récompense : xp 1
+- **Visiter : « Sanctum »** *(optionnelle)* — tâches : advancement netherexp:nether/occult_manor — récompense : xp 1
   > Structure de Jaden's Nether Expansion. Se génère dans : « Soulblight Forest », Vallée des âmes, « Black Ice Glaciers », « Fright Forest » (données du serveur).
 - **Visiter : « Aurora palace »** *(optionnelle)* — tâches : structure twilightforest:aurora_palace — récompense : xp 1
   > Structure de Twilight Forest. Se génère dans : Glacier du Crépuscule (données du serveur).
@@ -5598,7 +5598,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 ## Structures — Moog's  (`enc_structures_moogs`, 200 quêtes)
 
 - **Structures — Moog's** — tâches : checkmark Lu — récompense : xp 2
-  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 - **Visiter : « Astral hideaway »** *(optionnelle)* — tâches : structure mes:astral_hideaway — récompense : xp 1
   > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
 - **Visiter : « Astral meteorite »** *(optionnelle)* — tâches : structure mes:astral_meteorite — récompense : xp 1
@@ -6001,18 +6001,18 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 ## Structures — Repurposed Structures  (`enc_structures_repurposed`, 102 quêtes)
 
 - **Structures — Repurposed Structures** — tâches : checkmark Lu — récompense : xp 2
-  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 - **Visiter : « Ancient city end »** *(optionnelle)* — tâches : structure repurposed_structures:ancient_city_end — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
 - **Visiter : « Ancient city nether »** *(optionnelle)* — tâches : structure repurposed_structures:ancient_city_nether — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
 - **Visiter : « Ancient city ocean »** *(optionnelle)* — tâches : structure repurposed_structures:ancient_city_ocean — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
-- **Visiter : « Bastion underground »** *(optionnelle)* — tâches : structure repurposed_structures:bastion_underground — récompense : xp 1
+- **Visiter : « Bastion underground »** *(optionnelle)* — tâches : advancement repurposed_structures:bastion_underground — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : « Aspen Glade », Bayou, Tourbière, Escarpée, Forêt morte et d'autres (données du serveur).
-- **Visiter : « City nether »** *(optionnelle)* — tâches : structure repurposed_structures:city_nether — récompense : xp 1
+- **Visiter : « City nether »** *(optionnelle)* — tâches : advancement repurposed_structures:city_nether — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
-- **Visiter : « City overworld »** *(optionnelle)* — tâches : structure repurposed_structures:city_overworld — récompense : xp 1
+- **Visiter : « City overworld »** *(optionnelle)* — tâches : advancement repurposed_structures:city_overworld — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : Forêt de conifères, Forêt de séquoias, Jungle de bambous, Jungle, Taïga ancienne de pins et d'autres (données du serveur).
 - **Visiter : « Igloo grassy »** *(optionnelle)* — tâches : structure repurposed_structures:igloo_grassy — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : Champ, Hauts plateaux, Forêt ancienne, Verger, Fruticée rocailleuse et d'autres (données du serveur).
@@ -6124,7 +6124,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Repurposed Structures. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
 - **Visiter : « Pyramid snowy »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_snowy — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur).
-- **Visiter : « Ruined portal end »** *(optionnelle)* — tâches : structure repurposed_structures:ruined_portal_end — récompense : xp 1
+- **Visiter : « Ruined portal end »** *(optionnelle)* — tâches : advancement repurposed_structures:ruined_portal_end — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
 - **Visiter : « Ruins land cold »** *(optionnelle)* — tâches : structure repurposed_structures:ruins_land_cold — récompense : xp 1
   > Structure de Repurposed Structures. Se génère dans : Forêt morte, Champ, Hauts plateaux, Falaises de jade, Forêt morte ancienne et d'autres (données du serveur).
@@ -6208,7 +6208,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 ## Structures — ruines et petites choses  (`enc_structures_ruines`, 204 quêtes)
 
 - **Structures — ruines et petites choses** — tâches : checkmark Lu — récompense : xp 2
-  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 - **Visiter : « Acacia house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_house_medium_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
 - **Visiter : « Acacia house medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_house_medium_2 — récompense : xp 1
@@ -6219,7 +6219,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
 - **Visiter : « Acacia house small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_house_small_2 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
-- **Visiter : « Acacia well 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_well_1 — récompense : xp 1
+- **Visiter : « Acacia well 1 »** *(optionnelle)* — tâches : advancement adorabuild_structures:well_well — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
 - **Visiter : « Ancient palace 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:ancient_palace_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
@@ -6231,7 +6231,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de AdoraBuild. Se génère dans : Jungle de bambous, Jungle (données du serveur).
 - **Visiter : « Bamboo raft 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:bamboo_raft_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
-- **Visiter : « Basalt chambers large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:basalt_chambers_large_1 — récompense : xp 1
+- **Visiter : « Basalt chambers large 1 »** *(optionnelle)* — tâches : advancement adorabuild_structures:trial_by_fire — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : « Flooded Deltas », Deltas de basalte (données du serveur).
 - **Visiter : « Birch beehive 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:birch_beehive_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
@@ -6277,7 +6277,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
 - **Visiter : « End bubble medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_bubble_medium_2 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
-- **Visiter : « End gateway large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_gateway_large_1 — récompense : xp 1
+- **Visiter : « End gateway large 1 »** *(optionnelle)* — tâches : advancement adorabuild_structures:into_the_sky — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
 - **Visiter : « End gateway small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_gateway_small_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
@@ -6293,7 +6293,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
 - **Visiter : « End ship small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_ship_small_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
-- **Visiter : « End temple large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_temple_large_1 — récompense : xp 1
+- **Visiter : « End temple large 1 »** *(optionnelle)* — tâches : advancement adorabuild_structures:eyes_of_the_void — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
 - **Visiter : « End temple small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_temple_small_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
@@ -6309,7 +6309,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de AdoraBuild. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur).
 - **Visiter : « Jungle tree house 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:jungle_tree_house_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur).
-- **Visiter : « Library large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:library_large_1 — récompense : xp 1
+- **Visiter : « Library large 1 »** *(optionnelle)* — tâches : advancement adorabuild_structures:the_power_of_knowledge — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
 - **Visiter : « Library small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:library_small_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
@@ -6323,9 +6323,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de AdoraBuild. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur).
 - **Visiter : « Mountain mine 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:mountain_mine_2 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur).
-- **Visiter : « Mushroom large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:mushroom_large_1 — récompense : xp 1
+- **Visiter : « Mushroom large 1 »** *(optionnelle)* — tâches : advancement adorabuild_structures:fungal_detective — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Champs de champignons (données du serveur).
-- **Visiter : « Nether fortress large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:nether_fortress_large_1 — récompense : xp 1
+- **Visiter : « Nether fortress large 1 »** *(optionnelle)* — tâches : advancement adorabuild_structures:the_lethal_towers — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
 - **Visiter : « Nether fortress large 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:nether_fortress_large_2 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
@@ -6379,7 +6379,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de AdoraBuild. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
 - **Visiter : « Sand castle small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_castle_small_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
-- **Visiter : « Sand castle tiny 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_castle_tiny_1 — récompense : xp 1
+- **Visiter : « Sand castle tiny 1 »** *(optionnelle)* — tâches : advancement adorabuild_structures:turtle_kingdom — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Plage (données du serveur).
 - **Visiter : « Sand house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_house_medium_1 — récompense : xp 1
   > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
@@ -6619,7 +6619,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 ## Structures — jeu de base et YUNG  (`enc_structures_vanilla`, 86 quêtes)
 
 - **Structures — jeu de base et YUNG** — tâches : checkmark Lu — récompense : xp 2
-  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 - **Visiter : « Skeleton dungeon »** *(optionnelle)* — tâches : structure betterdungeons:skeleton_dungeon — récompense : xp 1
   > Structure de YUNG's Better Dungeons. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
 - **Visiter : « Small dungeon »** *(optionnelle)* — tâches : structure betterdungeons:small_dungeon — récompense : xp 1
@@ -6668,9 +6668,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de YUNG's Better Witch Huts. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
 - **Visiter : « Witch hut »** *(optionnelle)* — tâches : structure betterwitchhuts:witch_hut — récompense : xp 1
   > Structure de YUNG's Better Witch Huts. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
-- **Visiter : « Theatre »** *(optionnelle)* — tâches : structure conjurer_illager:theatre — récompense : xp 1
+- **Visiter : « Theatre »** *(optionnelle)* — tâches : advancement conjurer_illager:find_theatre — récompense : xp 1
   > Structure de The Conjurer. Se génère dans : Forêt sombre (données du serveur).
-- **Visiter : « Citadel »** *(optionnelle)* — tâches : structure friendsandfoes:citadel — récompense : xp 1
+- **Visiter : « Citadel »** *(optionnelle)* — tâches : advancement friendsandfoes:nether/find_citadel — récompense : xp 1
   > Structure de Friends Foes. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
 - **Visiter : « Iceologer cabin »** *(optionnelle)* — tâches : structure friendsandfoes:iceologer_cabin — récompense : xp 1
   > Structure de Friends Foes. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur).
@@ -6700,17 +6700,17 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Illager Invasion. Se génère dans : Forêt sombre (données du serveur).
 - **Visiter : « Blossom blade »** *(optionnelle)* — tâches : structure joshie:blossom_blade — récompense : xp 1
   > Structure de Blossom Blade. Se génère dans : Bosquet de cerisiers (données du serveur).
-- **Visiter : « Ancient city »** *(optionnelle)* — tâches : structure minecraft:ancient_city — récompense : xp 1
+- **Visiter : « Ancient city »** *(optionnelle)* — tâches : advancement deeperdarker:main/find_ancient_city — récompense : xp 1
   > Structure de jeu de base. Se génère dans : Abîmes (données du serveur).
-- **Visiter : « Bastion remnant »** *(optionnelle)* — tâches : structure minecraft:bastion_remnant — récompense : xp 1
+- **Visiter : « Bastion remnant »** *(optionnelle)* — tâches : advancement minecraft:nether/find_bastion — récompense : xp 1
   > Structure de jeu de base. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
 - **Visiter : « Buried treasure »** *(optionnelle)* — tâches : structure minecraft:buried_treasure — récompense : xp 1
   > Structure de jeu de base. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
 - **Visiter : « Desert pyramid »** *(optionnelle)* — tâches : structure minecraft:desert_pyramid — récompense : xp 1
   > Structure de jeu de base. Se génère dans : Désert (données du serveur).
-- **Visiter : « End city »** *(optionnelle)* — tâches : structure minecraft:end_city — récompense : xp 1
+- **Visiter : « End city »** *(optionnelle)* — tâches : advancement minecraft:end/find_end_city — récompense : xp 1
   > Structure de jeu de base. Se génère dans : « Amber Land », « Chorus Forest », « Dry Shrubland », « Foggy Mushroomland », « Glowing Grasslands » et d'autres (données du serveur).
-- **Visiter : « Fortress »** *(optionnelle)* — tâches : structure minecraft:fortress — récompense : xp 1
+- **Visiter : « Fortress »** *(optionnelle)* — tâches : advancement minecraft:nether/find_fortress — récompense : xp 1
   > Structure de jeu de base. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
 - **Visiter : « Igloo »** *(optionnelle)* — tâches : structure minecraft:igloo — récompense : xp 1
   > Structure de jeu de base. Se génère dans : Désert froid, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Plaines enneigées et d'autres (données du serveur).
@@ -6750,7 +6750,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de jeu de base. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
 - **Visiter : « Shipwreck beached »** *(optionnelle)* — tâches : structure minecraft:shipwreck_beached — récompense : xp 1
   > Structure de jeu de base. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
-- **Visiter : « Stronghold »** *(optionnelle)* — tâches : structure minecraft:stronghold — récompense : xp 1
+- **Visiter : « Stronghold »** *(optionnelle)* — tâches : advancement minecraft:story/follow_ender_eye — récompense : xp 1
   > Structure de jeu de base. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
 - **Visiter : « Swamp hut »** *(optionnelle)* — tâches : structure minecraft:swamp_hut — récompense : xp 1
   > Structure de jeu de base. Se génère dans : Bayou, Tourbière, Marais, Marécages (données du serveur).
@@ -6780,9 +6780,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Structure de Mowzie's Mobs. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
 - **Visiter : « Wrought chamber »** *(optionnelle)* — tâches : structure mowziesmobs:wrought_chamber — récompense : xp 1
   > Structure de Mowzie's Mobs. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
-- **Visiter : « Bastille »** *(optionnelle)* — tâches : structure takesapillage:bastille — récompense : xp 1
+- **Visiter : « Bastille »** *(optionnelle)* — tâches : advancement takesapillage:bastille — récompense : xp 1
   > Structure de Takes a Pillage. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur).
-- **Visiter : « Pillager camp »** *(optionnelle)* — tâches : structure takesapillage:pillager_camp — récompense : xp 1
+- **Visiter : « Pillager camp »** *(optionnelle)* — tâches : advancement takesapillage:pillager_camp — récompense : xp 1
   > Structure de Takes a Pillage. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur).
 - **Visiter : « Bloodstone obelisk »** *(optionnelle)* — tâches : structure twigs:bloodstone_obelisk — récompense : xp 1
   > Structure de Twigs. Se génère dans : Forêt carmin, Terres désolées du Nether (données du serveur).
@@ -6932,7 +6932,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   >   > Trahir est un acte de jeu légitime. Mais le staff n'arbitre que l'écrit.
 - **La faction est en place** — tâches : checkmark Prêts — récompense : xp 5 — après : taches, lieux, waystones, diplomate
   > Un territoire, un salon, des tâches, des lieux, un diplomate. Le chapitre suivant, Le trophée et les raids, est celui où ça se joue.
-- **Le gant de voleur** *(optionnelle)* — tâches : item theft:glove — récompense : xp 3 — après : rejoindre
+- **Le gant de voleur** *(optionnelle)* — tâches : item theft:glove — récompense : xp 3
   > Huit cuirs en forme de gant (recette du mod). On en trouve aussi dans les coffres des épaves, des avant-postes de pillards et des puits de mine.
   >   > Accroupi, un clic droit dans le dos d'un joueur ouvre son inventaire. Le gant s'use à chaque vol.
 - **La règle du vol** *(optionnelle)* — tâches : checkmark Compris — récompense : xp 2 — après : gant
@@ -7044,7 +7044,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Écrire ses propres règles** — tâches : checkmark Lu — récompense : item minecraft:redstone 16, item minecraft:glass_pane 8
   > CC: Tweaked met des ordinateurs dans le jeu, programmables en Lua. Une alarme quand quelqu'un passe la porte, une porte à code, un écran qui affiche les stocks, une tortue qui creuse pendant que tu fais autre chose : rien d'autre dans le pack ne permet d'écrire ses propres règles.
   >   > Redstone et vitres offertes : c'est le prix d'un premier ordinateur.
-- **Un ordinateur** — tâches : item computercraft:computer_normal — récompense : xp 5 — après : intro
+- **Un ordinateur** — tâches : item computercraft:computer_normal — récompense : xp 5
   > L'ordinateur s'ouvre d'un clic droit sur un terminal. Tape edit bonjour, écris print("Bonjour BMC4"), sauvegarde, puis bonjour. Tu viens de programmer. Les faces de l'ordinateur lisent et émettent de la redstone.
 - **Un ordinateur avancé** — tâches : item computercraft:computer_advanced — récompense : xp 5 — après : ordinateur
   > L'ordinateur avancé a la couleur, la souris et plus de mémoire. Pour un écran de contrôle de base, c'est lui.
@@ -7073,7 +7073,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Les petits mods qui changent tout** — tâches : checkmark Lu — récompense : xp 2
   > Les sacs d'Inmis jusqu'au bout, dormir n'importe où, les touches qui font gagner du temps. Le sac élimé et le sac plaqué sont au chapitre Bienvenue.
-- **Le sac doré** — tâches : advancement inmis:gilded_backpack — récompense : xp 5 — après : intro
+- **Le sac doré** — tâches : advancement inmis:gilded_backpack — récompense : xp 5
   > Le sac plaqué entouré de huit lingots d'or : trois rangées de neuf cases (config du serveur). Chaque palier se fabrique autour du sac d'avant, qui garde son contenu. Sur ce serveur, une boîte de Shulker n'entre pas dans un sac.
 - **Le sac orné de gemmes** — tâches : advancement inmis:bejeweled_backpack — récompense : xp 8 — après : dore
   > Le sac doré, quatre diamants et quatre émeraudes : cinq rangées de neuf cases. De lui partent deux branches, le sac ardent et le sac flétri.
@@ -7083,11 +7083,11 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Le sac orné de gemmes, une étoile du Nether et sept sables des âmes : six rangées de onze cases.
 - **Le sac sans fin** — tâches : advancement inmis:endless_backpack — récompense : xp 20 — après : fletri
   > Le sac flétri, une tête de dragon et sept pierres de l'End : six rangées de quinze cases, le dernier palier d'Inmis. Chaque sac du pack, Inmis et Quark, est aussi à la collection Sacs de l'Encyclopédie.
-- **Une bourse de l'Ender** *(optionnelle)* — tâches : advancement inmis:ender_pouch — récompense : xp 5 — après : intro
+- **Une bourse de l'Ender** *(optionnelle)* — tâches : advancement inmis:ender_pouch — récompense : xp 5
   > La main dedans, et c'est ton coffre de l'Ender qui s'ouvre (texte du progrès).
-- **Un sac bébé** *(optionnelle)* — tâches : advancement inmis:baby_backpack — récompense : xp 2 — après : intro
+- **Un sac bébé** *(optionnelle)* — tâches : advancement inmis:baby_backpack — récompense : xp 2
   > Parfait pour un cadeau (texte du progrès).
-- **Un sac de couchage** — tâches : tag comforts:sleeping_bags 1 Un sac de couchage — récompense : xp 3 — après : intro
+- **Un sac de couchage** — tâches : tag comforts:sleeping_bags 1 Un sac de couchage — récompense : xp 3
   > Comforts : un sac de couchage se déroule n'importe où, la nuit, sans changer ton point de réapparition. Se poser dessus suffit (config du serveur). Il tient les phantoms à distance, et ne s'use pas.
 - **Un hamac** *(optionnelle)* — tâches : item comforts:rope_and_nail — récompense : xp 3 — après : sac_couchage
   > Corde et clou, une toile entre deux : le hamac se tend le jour et le fait passer (config).
@@ -7099,7 +7099,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Ping Wheel : une touche pose un marqueur visible par les autres joueurs du même canal. Règle le canal au nom de ta faction dans les options du mod, et le ping ne sort pas de la faction.
 - **Un point de passage** — tâches : checkmark Un point posé — récompense : xp 2 — après : intro
   > Carte Xaero (touche M) : un point de passage se pose d'un clic, se nomme, se colore. La minicarte en haut à gauche les montre.
-- **Une torche Magnum en diamant** *(optionnelle)* — tâches : item magnumtorch:diamond_magnum_torch — récompense : xp 8 — après : intro
+- **Une torche Magnum en diamant** *(optionnelle)* — tâches : item magnumtorch:diamond_magnum_torch — récompense : xp 8
   > Deux lingots d'or, une boule de feu, deux bûches et quatre diamants. Posée, la torche Magnum en diamant empêche les monstres d'apparaître d'eux-mêmes sur 64 blocs autour d'elle, et 32 en hauteur. Elle bloque aussi les patrouilles. Elle n'arrête ni les générateurs de monstres ni les raids : une base de faction reste attaquable.
 - **Les deux autres torches Magnum** *(optionnelle)* — tâches : item magnumtorch:emerald_magnum_torch, item magnumtorch:amethyst_magnum_torch — récompense : xp 5 — après : torche_magnum
   > Même recette, avec des émeraudes ou des éclats d'améthyste. Celle en émeraude empêche les animaux d'apparaître sur 128 blocs. Celle en améthyste empêche les poissons, calamars, axolotls et chauves-souris sur 64 blocs.
@@ -7110,19 +7110,19 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Bâtir avec vingt mods** — tâches : checkmark Lu — récompense : item minecraft:oak_log 16, item minecraft:stone_bricks 32
   > Le pack empile une vingtaine de mods de blocs et de meubles. Ce chapitre en fait le tour, un mod par quête, chacune facultative : une seule pièce fabriquée suffit à savoir que le mod existe et où regarder dans JEI.
   >   > Every Compat est le mod invisible de la liste : c'est lui qui décline les meubles, coffres et dalles des autres mods dans tous les bois du pack, ceux des autres mods compris.
-- **Chipped : les établis** *(optionnelle)* — tâches : item chipped:carpenters_table, item chipped:mason_table — récompense : xp 3 — après : intro
+- **Chipped : les établis** *(optionnelle)* — tâches : item chipped:carpenters_table, item chipped:mason_table — récompense : xp 3
   > Chipped ne s'affiche pas dans JEI bloc par bloc : il passe par sept établis — table du charpentier, table du maçon, souffleur de verre, métier à tisser, établi du botaniste, table d'alchimie, table de bricolage. Chaque établi transforme un bloc de base en ses dizaines de variantes, et retour. Près de 7 000 blocs dans le pack viennent de lui.
-- **Dawn of Time : colombages et toits** *(optionnelle)* — tâches : item dawnoftimebuilder:waxed_oak_timber_frame 8, item dawnoftimebuilder:thatch_bamboo 8 — récompense : xp 3 — après : intro
+- **Dawn of Time : colombages et toits** *(optionnelle)* — tâches : item dawnoftimebuilder:waxed_oak_timber_frame 8, item dawnoftimebuilder:thatch_bamboo 8 — récompense : xp 3
   > Dawn of Time est le mod des architectures du monde : colombages, chaume de bambou, tuiles d'argile, chemins de pas japonais, planches calcinées, portes de papier. Le colombage en chêne ciré se fabrique déjà par centaines sur le serveur.
-- **Handcrafted : du mobilier** *(optionnelle)* — tâches : item handcrafted:hammer, item handcrafted:oak_chair, item handcrafted:oak_table — récompense : xp 3 — après : intro
+- **Handcrafted : du mobilier** *(optionnelle)* — tâches : item handcrafted:hammer, item handcrafted:oak_chair, item handcrafted:oak_table — récompense : xp 3
   > Handcrafted : chaises, tables, bancs, canapés, comptoirs, bureaux, étagères, lits à baldaquin dans chaque bois, plus la vaisselle, les coussins, les pots vernis et les trophées. Le marteau du mod agit sur les meubles posés (blocs « hammerable » du jar).
-- **Another Furniture : volets et étagères** *(optionnelle)* — tâches : item another_furniture:furniture_hammer, item another_furniture:oak_shelf, item another_furniture:oak_shutter — récompense : xp 3 — après : intro
+- **Another Furniture : volets et étagères** *(optionnelle)* — tâches : item another_furniture:furniture_hammer, item another_furniture:oak_shelf, item another_furniture:oak_shutter — récompense : xp 3
   > Another Furniture ajoute ce qui manque aux autres : volets, jardinières de fenêtre, rideaux, sofas, tabourets, tiroirs, étagères, dans chaque bois et chaque couleur, avec son propre marteau qui agit sur les blocs posés.
-- **Paladin's Furniture : la cuisine** *(optionnelle)* — tâches : item pfm:working_table — récompense : xp 3 — après : intro
+- **Paladin's Furniture : la cuisine** *(optionnelle)* — tâches : item pfm:working_table — récompense : xp 3
   > Paladin's Furniture se fabrique sur son propre établi à meubles : cuisinières, plaques de cuisson, éviers, réfrigérateurs, micro-ondes, douches, toilettes, fauteuils, lampes. Les recettes ne sont que là, pas sur la table d'artisanat.
-- **Decorative Blocks : poutres et palissades** *(optionnelle)* — tâches : item decorative_blocks:oak_beam 4, item decorative_blocks:oak_palisade 4, item decorative_blocks:chain 4 — récompense : xp 3 — après : intro
+- **Decorative Blocks : poutres et palissades** *(optionnelle)* — tâches : item decorative_blocks:oak_beam 4, item decorative_blocks:oak_palisade 4, item decorative_blocks:chain 4 — récompense : xp 3
   > Decorative Blocks : poutres, palissades, soutiens et sièges dans chaque bois, grandes chaînes, brasiers, chandeliers, treillis, piliers de pierre, terre rocailleuse. Le mod des charpentes apparentes et des remparts.
-- **Supplementaries : l'atelier** *(optionnelle)* — tâches : item supplementaries:blackboard, item supplementaries:notice_board, item supplementaries:item_shelf — récompense : xp 3 — après : intro
+- **Supplementaries : l'atelier** *(optionnelle)* — tâches : item supplementaries:blackboard, item supplementaries:notice_board, item supplementaries:item_shelf — récompense : xp 3
   > Supplementaries est le plus gros des mods de décoration utile. Pour commencer : un tableau noir où dessiner, un tableau d'affichage qui expose un livre ou une carte, des étagères qui montrent un objet. Trois quêtes lui sont consacrées.
 - **Supplementaries : sacs, pots, cages** *(optionnelle)* — tâches : item supplementaries:sack, item supplementaries:jar, item supplementaries:cage — récompense : xp 3 — après : supp_atelier
   > Un sac se porte et se pose, un pot expose ce qu'on y met, une cage enferme un animal. Le mod a aussi un coffre-fort à clé, un bloc de serrure et des portes en or ou en nétherite.
@@ -7130,21 +7130,21 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Le soufflet, la manivelle, la table tournante, le lanceur à ressorts, le bloc d'horloge, le relayeur, l'illuminateur à redstone, la girouette, le sablier : la redstone de Supplementaries, à retrouver dans JEI.
 - **Amendments : lanternes murales** *(optionnelle)* — tâches : observation block amendments:wall_lantern — récompense : xp 2 — après : supp_atelier
   > Amendments retouche le jeu de base : une lanterne se pose au mur, un tapis sur un escalier ou une dalle, un pot de fleurs se suspend, le chaudron prend des teintures. Rien à fabriquer : pose une lanterne contre un mur et regarde-la.
-- **Quark : les blocs de bois** *(optionnelle)* — tâches : item quark:oak_vertical_slab 4, item quark:oak_post 4, item quark:hollow_oak_log — récompense : xp 3 — après : intro
+- **Quark : les blocs de bois** *(optionnelle)* — tâches : item quark:oak_vertical_slab 4, item quark:oak_post 4, item quark:hollow_oak_log — récompense : xp 3
   > Les modules de construction de Quark sont tous activés sur le serveur : dalles verticales, poteaux, bûches creuses, échelles, bibliothèques, coffres et fours de chaque bois, haies, chaume, cordage. Les dalles verticales se fabriquent aussi au tailleur de pierre.
 - **Quark : les blocs de pierre** *(optionnelle)* — tâches : item quark:framed_glass 4, item quark:shingles 4, item quark:trowel — récompense : xp 3 — après : quark_bois
   > Verrière, tuiles de toit, purpur sombre, midori, grès des âmes, grilles et barreaux d'or, blindages de métal, blocs compressés, calcaire, jaspe, shale, myalite et permafrost dans le monde. La truelle est l'outil de pose du mod.
-- **Twigs : lanternes de papier** *(optionnelle)* — tâches : item twigs:paper_lantern, item twigs:oak_table, item twigs:smooth_basalt_bricks 4 — récompense : xp 3 — après : intro
+- **Twigs : lanternes de papier** *(optionnelle)* — tâches : item twigs:paper_lantern, item twigs:oak_table, item twigs:smooth_basalt_bricks 4 — récompense : xp 3
   > Twigs : lanternes de papier, lampes, tables, colonnes, briques de basalte, de gravier et de pierre lisse, chaume de bambou, et trois roches nouvelles dans le monde (rhyolite, schiste, pierre de sang). Brindilles et galets n'ont pas de recette : ils se trouvent dans le monde.
-- **Stoneworks : chaque pierre, chaque forme** *(optionnelle)* — tâches : item stoneworks:andesite_bricks 8, item stoneworks:andesite_pavers 8 — récompense : xp 3 — après : intro
+- **Stoneworks : chaque pierre, chaque forme** *(optionnelle)* — tâches : item stoneworks:andesite_bricks 8, item stoneworks:andesite_pavers 8 — récompense : xp 3
   > Stoneworks décline chaque pierre du jeu en briques, pavés, piliers, plaques et tuiles, avec dalles, escaliers et murets. Près de 600 blocs.
-- **Hearth Home : parquet et cheminées** *(optionnelle)* — tâches : item hearth_and_home:oak_parquet 8, item hearth_and_home:polished_blackstone_chimney — récompense : xp 3 — après : intro
+- **Hearth Home : parquet et cheminées** *(optionnelle)* — tâches : item hearth_and_home:oak_parquet 8, item hearth_and_home:polished_blackstone_chimney — récompense : xp 3
   > Hearth Home : parquet, lattis et bois poncé dans chaque essence, tuiles et bardeaux de toit colorés, verre à barreaux, lanternes de papier, chaume, cheminées. Le mod des intérieurs.
-- **La scie** *(optionnelle)* — tâches : item sawmill:sawmill — récompense : xp 3 — après : intro
+- **La scie** *(optionnelle)* — tâches : item sawmill:sawmill — récompense : xp 3
   > Universal Sawmill ajoute une scie : un tailleur de pierre pour le bois : bûches et planches y deviennent les blocs de bois du pack. Elle donne aussi un métier de villageois, le charpentier.
-- **Un ascenseur** *(optionnelle)* — tâches : item elevatorid:elevator_white 2 — récompense : xp 3 — après : intro
+- **Un ascenseur** *(optionnelle)* — tâches : item elevatorid:elevator_white 2 — récompense : xp 3
   > Elevator Mod : deux blocs ascenseur l'un au-dessus de l'autre, et on se téléporte de l'un à l'autre. Clic droit pour les options : direction d'arrivée, flèche cachée, camouflage dans n'importe quel bloc.
-- **Tableaux et cadres** *(optionnelle)* — tâches : item minecraft:painting, item quark:glass_item_frame — récompense : xp 2 — après : intro
+- **Tableaux et cadres** *(optionnelle)* — tâches : item minecraft:painting, item quark:glass_item_frame — récompense : xp 2
   > Gallery ajoute vingt tableaux signés et un sélecteur pour choisir celui qu'on accroche, au lieu du hasard. Fast Paintings allège leur affichage. Le cadre en verre de Quark montre l'objet sans le cadre.
 - **Lanternes et bougeoirs** *(optionnelle)* — tâches : item supplementaries:candle_holder, item suppsquared:gold_candle_holder — récompense : xp 2 — après : supp_atelier
   > Les bougeoirs de Supplementaries et ceux en or de Supplementaries Squared, les lampes de pierre, les lanternes de cuivre et de laiton. Immersive Lanterns, lui, ne fabrique rien : il affiche la lanterne qu'on tient à la main, qui se balance en marchant.
@@ -7171,7 +7171,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Create remplace l'électricité par la rotation : une roue tourne, un arbre transmet, une machine travaille. Tout se voit, tout s'entend, et tout se construit avec de l'andésite et du cuivre.
   >   > Deux réflexes à prendre : la touche W en survolant un bloc Create ouvre Ponder, une animation qui montre comment il s'utilise ; et la clé (wrench) tourne ou démonte n'importe quel composant.
   >   > L'andésite et les pépites de fer offertes font seize alliages : de quoi fabriquer les premiers arbres et engrenages.
-- **Du zinc brut** — tâches : item create:raw_zinc 4 — récompense : xp 3 — après : intro
+- **Du zinc brut** — tâches : item create:raw_zinc 4 — récompense : xp 3
   > Le zinc est le minerai propre à Create. Il se trouve dans la pierre comme le fer, souvent en veines près de la surface. Avec le cuivre, il donne le laiton ; seul, il entre dans l'alliage d'andésite.
 - **Fabriquer de l'alliage d'andésite** — tâches : item create:andesite_alloy 16 — récompense : xp 3 — après : zinc
   > L'alliage d'andésite se fabrique à la table : deux andésites et deux pépites de fer, en diagonale, pour un alliage. C'est la matière première de presque tout le début de Create : arbres, engrenages, boîtiers, courroies.
@@ -7240,7 +7240,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Create : le laiton et la précision** — tâches : checkmark Lu — récompense : item create:zinc_ingot 8, item minecraft:copper_ingot 8
   > Les bases tournaient à l'andésite. La suite tourne au laiton : un alliage de cuivre et de zinc qui ne se fait qu'au mélangeur chauffé, et qui ouvre les machines qui pensent un peu — le bras mécanique, le déployeur, les établis mécaniques.
   >   > Le zinc et le cuivre offerts font les premiers lingots de laiton. Le brûleur à Blaze, lui, demandera un voyage au Nether.
-- **Un brûleur à Blaze vide** — tâches : item create:empty_blaze_burner — récompense : xp 3 — après : intro
+- **Un brûleur à Blaze vide** — tâches : item create:empty_blaze_burner — récompense : xp 3
   > Quatre plaques de fer autour d'un bloc de netherrack. Vide, il ne chauffe rien : il faut lui donner un Blaze. Clic droit sur un Blaze vivant avec le brûleur vide, dans une forteresse du Nether, et le Blaze y reste.
 - **Capturer un Blaze** — tâches : item create:blaze_burner — récompense : xp 8 — après : bruleur_vide
   > Un brûleur à Blaze habité chauffe le bassin posé dessus : c'est lui qui rend possible le laiton, et plus tard le moteur à vapeur. Il se nourrit de combustible ordinaire ; nourri d'un gâteau de Blaze, il surchauffe, et certaines recettes l'exigent.
@@ -7249,7 +7249,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   >   > Le laiton fait les plaques, les boîtiers et les mains de laiton de tout ce chapitre.
 - **Des boîtiers de laiton** — tâches : item create:brass_casing 4 — récompense : xp 3 — après : laiton
   > Comme le boîtier d'andésite, mais au laiton : frapper une bûche écorcée avec un lingot de laiton. Le régulateur de vitesse, le bras et les établis mécaniques en demandent.
-- **Du quartz rose poli** — tâches : item create:polished_rose_quartz 4 — récompense : xp 3 — après : intro
+- **Du quartz rose poli** — tâches : item create:polished_rose_quartz 4 — récompense : xp 3
   > Le quartz rose se fabrique avec un quartz et huit poudres de redstone, puis se polit au papier de verre (clic droit maintenu, ou un déployeur qui tient le papier). C'est le cœur du tube électronique.
 - **Des tubes électroniques** — tâches : item create:electron_tube 4 — récompense : xp 3 — après : quartz_rose
   > Un quartz rose poli sur une plaque de fer : un tube électronique. Le déployeur, les établis mécaniques et la liaison redstone en ont besoin.
@@ -7266,19 +7266,19 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Plaques de laiton, alliage, mécanisme de précision, boîtier de laiton. Le bras mécanique prend des objets à des points d'entrée et les dépose à des points de sortie qu'on lui désigne avec le bras en main avant de le poser : dépôts, courroies, bassins, brûleurs. C'est le premier bloc qui remplace un entonnoir et une courroie à la fois.
 - **Des établis mécaniques** — tâches : item create:mechanical_crafter 9 — récompense : xp 5 — après : tube, boitier_laiton
   > Tube électronique, boîtier de laiton, table d'artisanat : trois établis mécaniques par recette. Posés en grille et reliés par des engrenages, ils fabriquent une recette à la fois, chaque case étant alimentée par un entonnoir ou un bras. Neuf établis font une grille complète.
-- **Une scie mécanique** — tâches : item create:mechanical_saw — récompense : xp 5 — après : intro
+- **Une scie mécanique** — tâches : item create:mechanical_saw — récompense : xp 5
   > Plaques de fer, lingot de fer, boîtier d'andésite. Posée à l'horizontale, la scie coupe les bûches qui passent devant elle en planches, et débite les arbres entiers quand on la monte sur une contraption. À la verticale, elle abat ce qui pousse devant elle.
-- **Une foreuse mécanique** — tâches : item create:mechanical_drill — récompense : xp 5 — après : intro
+- **Une foreuse mécanique** — tâches : item create:mechanical_drill — récompense : xp 5
   > Alliage, lingot de fer, boîtier d'andésite. La foreuse casse le bloc devant elle, en continu. Sur un piston ou un portique, elle creuse un tunnel ; sur un roulement, elle creuse un puits.
-- **Un piston mécanique** — tâches : item create:mechanical_piston, item create:piston_extension_pole 4 — récompense : xp 5 — après : intro
+- **Un piston mécanique** — tâches : item create:mechanical_piston, item create:piston_extension_pole 4 — récompense : xp 5
   > Dalle de bois, boîtier d'andésite, tige d'extension. Le piston mécanique pousse une contraption — un ensemble de blocs collés — aussi loin qu'il a de tiges derrière lui. Avec une foreuse devant, c'est une machine à tunnel.
-- **Un roulement mécanique** — tâches : item create:mechanical_bearing — récompense : xp 5 — après : intro
+- **Un roulement mécanique** — tâches : item create:mechanical_bearing — récompense : xp 5
   > Dalle de bois, boîtier d'andésite, arbre. Le roulement fait tourner la contraption posée dessus : une porte qui pivote, une moissonneuse circulaire, un moulin décoratif.
 - **Un portique** — tâches : item create:gantry_shaft 8, item create:gantry_carriage — récompense : xp 5 — après : piston
   > Les arbres de portique (alliage, redstone, alliage : huit d'un coup) forment un rail ; le chariot de portique roule dessus et emporte sa contraption. Plus long qu'un piston, et sans tiges à empiler.
 - **De la super colle** — tâches : item create:super_glue — récompense : xp 3 — après : piston
   > La super colle définit ce qu'une contraption emporte : clic sur deux coins, tout le volume entre les deux est collé. Sans elle, un piston ne pousse que les blocs directement attachés.
-- **Pompe, tuyaux et cuve** — tâches : item create:mechanical_pump, item create:fluid_pipe 8, item create:fluid_tank — récompense : xp 5 — après : intro
+- **Pompe, tuyaux et cuve** — tâches : item create:mechanical_pump, item create:fluid_pipe 8, item create:fluid_tank — récompense : xp 5
   > La pompe (un engrenage et un tuyau) pousse les liquides dans les tuyaux ; la cuve (deux plaques de cuivre autour d'un tonneau) les stocke, et plusieurs cuves côte à côte n'en font qu'une. C'est la plomberie dont la vapeur aura besoin.
 - **Un moteur à vapeur** — tâches : item create:steam_engine — récompense : xp 10 — après : bruleur, pompe
   > Plaque d'or, alliage, bloc de cuivre. Le moteur à vapeur se monte sur une cuve remplie d'eau et chauffée par des brûleurs à Blaze : la cuve devient une chaudière, et chaque moteur sort une rotation forte. C'est la source d'énergie des grandes usines, bien au-delà de la roue et du moulin.
@@ -7316,7 +7316,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Le scaphandre en nétherite permet de tenter la plongée dans la lave (progrès « Swimming with the Striders »).
 - **Une victoire au canon à patates** *(optionnelle)* — tâches : advancement create:potato_cannon — récompense : xp 4 — après : canon
   > Vaincre un ennemi au canon à patates (progrès « Fwoomp ! »).
-- **Une télécommande liée** *(optionnelle)* — tâches : advancement create:linked_controller — récompense : xp 4 — après : intro
+- **Une télécommande liée** *(optionnelle)* — tâches : advancement create:linked_controller — récompense : xp 4
   > Activer un lien de redstone avec une manette liée (progrès « Remote Activation »).
 - **Des châssis** *(optionnelle)* — tâches : item create:linear_chassis 4, item create:sticker — récompense : xp 3 — après : roulement
   > Un roulement, un piston ou un portique ne déplacent que ce qui est collé à eux : châssis, colle extra-forte et collant décident de ce qui fait partie de la machine.
@@ -7330,7 +7330,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Un chariot assembleur** *(optionnelle)* — tâches : item create:cart_assembler — récompense : xp 4 — après : chassis
 - **Un roulement d'horloge** *(optionnelle)* — tâches : item create:clockwork_bearing — récompense : xp 4 — après : roulement
   > Ses aiguilles suivent l'heure du jeu.
-- **Un scaphandre de cuivre** *(optionnelle)* — tâches : item create:copper_backtank, item create:copper_diving_helmet, item create:copper_diving_boots — récompense : xp 5 — après : intro
+- **Un scaphandre de cuivre** *(optionnelle)* — tâches : item create:copper_backtank, item create:copper_diving_helmet, item create:copper_diving_boots — récompense : xp 5
   > La bouteille d'air se remplit sur un arbre en rotation ; le casque respire sous l'eau, les bottes font marcher au fond.
 - **Un canon à patates** *(optionnelle)* — tâches : item create:potato_cannon — récompense : xp 4 — après : scaphandre
   > Il tire ce qu'on lui donne à manger, nourri par la bouteille d'air.
@@ -7340,11 +7340,11 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Create 6 : des colis et des rails** — tâches : checkmark Lu — récompense : item minecraft:paper 16
   > Create 6 ajoute une poste : des colis en carton qui circulent sur les courroies, des emballeurs qui les font, des liens de stock qui savent ce que contient chaque coffre, et un guichet pour commander. Puis les trains, pour relier deux bases.
   >   > Le papier offert devient de la pâte, puis du carton : c'est le premier maillon.
-- **Du carton** — tâches : item create:cardboard 8 — récompense : xp 3 — après : intro
+- **Du carton** — tâches : item create:cardboard 8 — récompense : xp 3
   > La presse écrase la pâte à papier en carton. Quatre cartons font un bloc de carton, et le bloc de carton est le cœur de l'emballeur.
 - **Un emballeur** — tâches : item create:packager — récompense : xp 5 — après : carton
   > Bloc de carton, quatre lingots de fer, deux redstone. Collé à un coffre ou à une cuve d'objets, l'emballeur en sort des colis sur un signal redstone, et déballe les colis qu'on lui apporte. Un colis se promène sur une courroie comme n'importe quel objet, mais il porte une adresse.
-- **Un lien de stock** — tâches : item create:stock_link — récompense : xp 3 — après : intro
+- **Un lien de stock** — tâches : item create:stock_link — récompense : xp 3
   > Émetteur sur cuve d'objets. Posé sur un emballeur, le lien de stock déclare à un réseau ce que l'inventaire derrière contient. Tous les liens à la même fréquence forment un seul stock.
 - **Un guichet de stock** — tâches : item create:stock_ticker — récompense : xp 8 — après : lien, emballeur
   > Verre, lien de stock, lingot d'or. Le guichet affiche tout ce que les liens de son réseau connaissent, et on y commande : les emballeurs concernés préparent les colis, les courroies les apportent. Un villageois ou un bras posé devant tient la caisse.
@@ -7356,9 +7356,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Grand engrenage dans quatre boîtiers d'andésite : deux convoyeurs à chaîne. Reliés par une chaîne, ils font voyager les colis dans les airs sur de longues distances, d'un port à l'autre.
 - **Un demandeur redstone** — tâches : item create:redstone_requester — récompense : xp 3 — après : lien
   > Redstone, lien de stock, fer. Le demandeur passe une commande fixe quand il reçoit un signal : un bouton, et les objets arrivent.
-- **Un interrupteur de stock** — tâches : item create:stockpile_switch — récompense : xp 3 — après : intro
+- **Un interrupteur de stock** — tâches : item create:stockpile_switch — récompense : xp 3
   > Tube électronique, boîtier de laiton, comparateur. L'interrupteur de stock émet un signal selon le remplissage de l'inventaire devant lui, entre deux seuils qu'on règle. C'est lui qui arrête une machine quand le coffre est plein.
-- **Des boîtiers ferroviaires** — tâches : item create:railway_casing 4 — récompense : xp 3 — après : intro
+- **Des boîtiers ferroviaires** — tâches : item create:railway_casing 4 — récompense : xp 3
   > Un boîtier de laiton frappé avec une plaque d'obsidienne. Tout le matériel de train part de là : station, commandes, portes, signaux.
 - **Poser des voies** — tâches : item create:track 32 — récompense : xp 8 — après : boitier_rail
   > Les voies se font par assemblage séquencé : une voie incomplète passe sous des déployeurs qui posent des pépites de fer ou de zinc. Elles se posent en courbes, en pentes et en diagonales, et se raccordent d'elles-mêmes.
@@ -7372,7 +7372,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Boîtier ferroviaire et tube électronique : quatre signaux. Ils découpent la voie en sections et empêchent deux trains d'y entrer ensemble. L'observateur de voie, lui, émet un signal redstone au passage d'un train.
 - **Une porte de train** — tâches : item create:train_door — récompense : xp 3 — après : boitier_rail
   > Une porte en bois et un boîtier ferroviaire. Elle s'ouvre toute seule quand le train est à quai, et reste fermée en route.
-- **Un panneau d'affichage** — tâches : item create:display_board 2, item create:display_link — récompense : xp 3 — après : intro
+- **Un panneau d'affichage** — tâches : item create:display_board 2, item create:display_link — récompense : xp 3
   > Tube électronique entre deux alliages : deux panneaux. Avec un lien d'affichage, ils montrent le contenu d'un coffre, l'heure, les trains attendus en gare, ou le stock d'un guichet.
 - **Un horaire de train** *(optionnelle)* — tâches : advancement create:conductor — récompense : xp 6 — après : train
   > Donner un horaire à un conducteur de train (progrès « Conductor Instructor ») : le train circule seul entre les gares.
@@ -7402,7 +7402,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Farmer's Delight : cuisiner pour de vrai** — tâches : checkmark Lu — récompense : item minecraft:bowl 8, item farmersdelight:cabbage_seeds 4, item farmersdelight:tomato_seeds 4
   > Farmer's Delight remplace le steak-et-pain par une cuisine : des légumes nouveaux, une planche à découper, une poêle, une marmite, et des plats qui nourrissent longtemps et donnent des effets.
   >   > Sur ce serveur, un repas de Farmer's Delight (bol ou assiette) a une autre vertu : il rend un cœur de vie maximale perdu en raid. Les bols et graines offerts sont le début de la cuisine.
-- **Un couteau** — tâches : item farmersdelight:flint_knife — récompense : xp 2 — après : intro
+- **Un couteau** — tâches : item farmersdelight:flint_knife — récompense : xp 2
   > Le couteau se fait en silex, puis en fer, en or, en diamant, en nétherite. Sur la planche, il découpe ; en main, il récolte plus de viande et de cuir.
 - **Un couteau en fer** — tâches : item farmersdelight:iron_knife — récompense : xp 3 — après : couteau
   > Deux lingots de fer en moins qu'une épée, et une lame qui dure.
@@ -7414,13 +7414,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > À la table de forge : le couteau en diamant, un lingot de nétherite et un modèle d'amélioration. Le dernier couteau de Farmer's Delight ; les autres matériaux du pack sont à l'Arsenal de l'Encyclopédie.
 - **Une planche à découper** — tâches : item farmersdelight:cutting_board — récompense : xp 3 — après : couteau
   > Pose un ingrédient sur la planche, frappe-le avec le couteau — ou une hache, une pioche selon la recette. Un chou devient des feuilles, une viande des tranches, un cactus un fruit.
-- **Un fourneau** — tâches : item farmersdelight:stove — récompense : xp 3 — après : intro
+- **Un fourneau** — tâches : item farmersdelight:stove — récompense : xp 3
   > Le fourneau cuit ce qu'on pose dessus, à la main, et chauffe la marmite et la poêle posées sur lui. Il brûle du combustible comme un four.
 - **Une poêle** — tâches : item farmersdelight:skillet — récompense : xp 3 — après : fourneau
   > La poêle cuit la viande et les œufs sur le fourneau ou un feu de camp, et se porte en main pour cuire en marchant. Elle fait aussi une arme, lourde.
 - **Une marmite** — tâches : item farmersdelight:cooking_pot — récompense : xp 8 — après : fourneau
   > La marmite, sur une source de chaleur, combine jusqu'à six ingrédients en un plat : soupe, ragoût, riz, curry. Elle sert dans un bol ou une assiette posée dans sa case. C'est le cœur de tout ce chapitre.
-- **Chou, tomate, oignon, riz** — tâches : item farmersdelight:cabbage, item farmersdelight:tomato, item farmersdelight:onion, item farmersdelight:rice — récompense : xp 5 — après : intro
+- **Chou, tomate, oignon, riz** — tâches : item farmersdelight:cabbage, item farmersdelight:tomato, item farmersdelight:onion, item farmersdelight:rice — récompense : xp 5
   > Quatre cultures nouvelles. Les versions sauvages poussent dans les biomes ; le riz se plante dans l'eau, la tomate grimpe sur une corde. Les graines des pavillons du Marché sont une autre source.
 - **De la terre riche** — tâches : item farmersdelight:rich_soil 8 — récompense : xp 3 — après : legumes
   > Le compost organique se fait avec des restes de cuisine et finit par devenir de la terre riche, qui fait pousser plus vite et plus fort que la terre labourée.
@@ -7454,7 +7454,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > L'appât décide de la prise. Un seau d'appât à crabes (un seau, quatre morues, quatre poudres d'os) ne ramène que des crabes ; il en existe un pour les crevettes, les palourdes et les « Clawster ». Une morue en appât donne un mélange, avec parfois une coquille de nautile.
 - **Des perles** *(optionnelle)* — tâches : item crabbersdelight:pearl 4 — récompense : xp 5 — après : crabe
   > Une palourde passée au couteau sur la planche à découper donne sa chair, et une fois sur deux une perle. Les perles décorent les armures à la table de forge, font un collier, et sur ce serveur le marchand ambulant vend des objets contre des perles.
-- **Palmiers et noix de coco** *(optionnelle)* — tâches : item crabbersdelight:coconut, item crabbersdelight:palm_sapling — récompense : xp 3 — après : intro
+- **Palmiers et noix de coco** *(optionnelle)* — tâches : item crabbersdelight:coconut, item crabbersdelight:palm_sapling — récompense : xp 3
   > Les plages ont maintenant leurs palmiers, leurs coquillages et leurs crabes, qui vivent aussi dans les marais et les côtes rocheuses. Attention sous les palmiers : le jeu prévoit une mort « écrasé par une noix de coco ». Le lait de coco efface un effet.
 - **Une bisque** *(optionnelle)* — tâches : item crabbersdelight:bisque, item crabbersdelight:seafood_gumbo — récompense : xp 5 — après : crabe, marmite
   > La marmite fait le reste : une bisque de crabe et un gombo de la mer.
@@ -7517,7 +7517,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Aller vite, aller loin** — tâches : checkmark Lu — récompense : item minecraft:ender_pearl 4
   > Les waystones sont gratuites sur ce serveur : aucun coût en XP, quelle que soit la distance ou la dimension (config). Le reste : des bateaux plus grands, porter un coffre sur son dos, une boussole des biomes, les élytres dans leur propre emplacement.
-- **Un parchemin de téléportation** — tâches : item waystones:warp_scroll — récompense : xp 3 — après : intro
+- **Un parchemin de téléportation** — tâches : item waystones:warp_scroll — récompense : xp 3
   > À usage unique : il ouvre la liste des waystones activées. Le parchemin lié (bound scroll) se lie à une waystone précise ; le parchemin de retour ramène à la dernière activée.
 - **Une pierre de téléportation** — tâches : item waystones:warp_stone — récompense : xp 8 — après : parchemin
   > Réutilisable : 30 secondes de recharge, liée au joueur (config du serveur). Un peu plus d'une seconde à maintenir.
@@ -7527,16 +7527,16 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Une seconde debout dessus (config) et elle envoie vers la plaque à laquelle elle est liée par un éclat accordé.
 - **Voyager avec ses bêtes** *(optionnelle)* — tâches : item minecraft:lead — récompense : xp 3 — après : pierre
   > Un animal en laisse traverse avec toi, même entre dimensions (config). Sauf le Wither. La laisse elle-même est au chapitre Agriculture des bases.
-- **Un grand bateau** *(optionnelle)* — tâches : item boatload:large_oak_boat — récompense : xp 3 — après : intro
+- **Un grand bateau** *(optionnelle)* — tâches : item boatload:large_oak_boat — récompense : xp 3
   > Boatload : un grand bateau dans chaque bois, et des bateaux à four qui avancent seuls au charbon. Les bois carmin et biscornu ont enfin leur bateau.
 - **Un bateau à four** *(optionnelle)* — tâches : item boatload:oak_furnace_boat — récompense : xp 3 — après : grand_bateau
 - **Porter un coffre** — tâches : checkmark J'ai porté un bloc — récompense : xp 3 — après : intro
   > Carry On : accroupi, clic droit à mains nues sur un coffre, un four, un baril, et tu le portes avec son contenu. Ça ralentit. Interdits (config du serveur) : les lits, les portes, les chaudrons, tout ce qui vient de Create, de Refined Storage et des waystones.
 - **Porter une bête** *(optionnelle)* — tâches : checkmark J'ai porté un animal — récompense : xp 3 — après : porter
   > Même geste sur un animal. Pas les hostiles, pas les villageois, pas les gobelins, pas les joueurs (config). Deux bêtes empilées au plus.
-- **Une boussole de la nature** *(optionnelle)* — tâches : item naturescompass:naturescompass — récompense : xp 5 — après : intro
+- **Une boussole de la nature** *(optionnelle)* — tâches : item naturescompass:naturescompass — récompense : xp 5
   > Elle cherche un biome par son nom et pointe vers le plus proche. Les biomes des autres dimensions aussi, depuis là-bas. Déjà demandée au chapitre Bienvenue.
-- **Des élytres dans leur emplacement** *(optionnelle)* — tâches : item minecraft:elytra — récompense : xp 10 — après : intro
+- **Des élytres dans leur emplacement** *(optionnelle)* — tâches : item minecraft:elytra — récompense : xp 10
   > Elytra Slot : les élytres se portent dans un emplacement Curios à part, en plus du plastron. Les fusées restent le moteur. Voir aussi le jetpack (chapitre Iron Jetpacks) et les élytres d'âme (Deeper and Darker).
 - **Deux plaques liées** — tâches : item waystones:warp_plate 2, item waystones:attuned_shard 2 — récompense : xp 8 — après : plaque
   > Un éclat accordé se fabrique dans la plaque elle-même : un silex et quatre poussières de téléportation. Une plaque sans éclat lié n'a pas de destination (message du mod) ; deux plaques accordées font une liaison fixe entre deux bases.
@@ -7551,14 +7551,14 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Enchanter autrement** — tâches : checkmark Lu — récompense : item minecraft:lapis_lazuli 16, item minecraft:book 4
   > Le pack change l'enchantement en profondeur : la table vanilla montre ses enchantements et se relance, l'enclume ne punit plus les travaux répétés, un infuseur laisse choisir ses enchantements, et un tome stocke l'expérience.
   >   > Le lapis et les livres offerts sont pour la table, en attendant l'infuseur.
-- **La table, version Easy Magic** — tâches : item minecraft:enchanting_table — récompense : xp 3 — après : intro
+- **La table, version Easy Magic** — tâches : item minecraft:enchanting_table — récompense : xp 3
   > Avec Easy Magic, la table affiche un indice de l'enchantement proposé, et un bouton relance les trois propositions pour 5 points d'expérience et un lapis. Les étagères comptent même avec un bloc entre elles. Jusqu'à 15 de puissance.
 - **Quinze étagères** — tâches : item minecraft:bookshelf 15 — récompense : xp 3 — après : table
   > 15 étagères, c'est la puissance maximale partout dans le pack : la table d'Easy Magic plafonne à 15, et les deux infuseurs demandent 15 étagères pour leurs niveaux maximaux. Posées autour du bloc avec un espace d'un bloc, sur deux hauteurs ; les coins comptent.
   >   > Les étagères ciselées comptent aussi, une par trois livres, à condition de faire face à la table.
 - **Dix enchantements à la table** — tâches : stat minecraft:enchant_item 10 — récompense : item minecraft:lapis_lazuli 16 — après : etageres
   > Dix objets enchantés à la table. Si les trois propositions ne conviennent pas, le bouton de relance les retire contre 5 points d'expérience et un lapis.
-- **L'enclume, version Easy Anvils** — tâches : item minecraft:anvil — récompense : xp 3 — après : intro
+- **L'enclume, version Easy Anvils** — tâches : item minecraft:anvil — récompense : xp 3
   > Avec Easy Anvils, la pénalité de travaux antérieurs est fixe (4), plus de « trop cher », les livres coûtent moitié moins, renommer est gratuit, et l'enclume ne casse qu'une fois sur vingt. Réparer et renommer ne comptent pas comme travaux.
 - **Un infuseur d'enchantement** — tâches : item enchantinginfuser:enchanting_infuser — récompense : xp 8 — après : table
   > L'infuseur laisse choisir les enchantements de l'objet, et leur niveau, contre de l'expérience. Sa puissance vient des étagères posées en carré autour de lui, sur deux hauteurs : plus d'étagères, plus d'enchantements accessibles.
@@ -7570,9 +7570,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   >   > Ce que l'infuseur ne donne jamais ici : les enchantements de trésor (Raccommodage), les malédictions, et ceux qu'on ne trouve ni à la table ni chez les marchands (Agilité des âmes). Ceux-là viennent des coffres, des marchands et de la pêche.
 - **Désenchanter** — tâches : checkmark Compris — récompense : xp 2 — après : intro
   > Easy Disenchanting se fait à l'enclume : l'objet enchanté d'un côté, un livre de l'autre. Le livre repart avec tous les enchantements de l'objet, et l'objet est rendu, sans eux. Le coût en niveaux dépend des enchantements transférés.
-- **Un tome d'expérience** — tâches : item xpbook:xp_tome — récompense : xp 5 — après : intro
+- **Un tome d'expérience** — tâches : item xpbook:xp_tome — récompense : xp 5
   > Le tome d'XP : accroupi, clic droit pour y verser toute l'expérience possible ; clic droit pour la reprendre. On ne meurt plus avec ses niveaux sur soi — ni en raid, ni ailleurs.
-- **Les modèles de forge de l'Aether** *(optionnelle)* — tâches : item aether_treasure_reforging:neptune_upgrade_smithing_template — récompense : xp 5 — après : intro
+- **Les modèles de forge de l'Aether** *(optionnelle)* — tâches : item aether_treasure_reforging:neptune_upgrade_smithing_template — récompense : xp 5
   > Aether: Treasure Reforging ajoute trois modèles de forge : Neptune (armure de zanite + maille de Neptune), Phénix (armure de gravitite + lingot pyral), Valkyrie (équipement de gravitite + lingot de valkyrum). Les trésors des donjons de l'Aether, refondus en équipement.
 - **L'équipement est enchanté** — tâches : checkmark Mon équipement est prêt — récompense : xp 5 — après : infuseur_max, enchanter, tome
   > Un infuseur, un tome, une enclume qui ne punit plus. Ce qu'il manque encore se trouve chez les marchands, dans les donjons, et dans les coffres par joueur.
@@ -7581,7 +7581,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Au-delà de la nétherite** — tâches : checkmark Lu — récompense : item minecraft:experience_bottle 4
   > Quatre paliers au-dessus de la nétherite (Advanced Netherite), des boucliers qui parent, un totem porté, des marteaux, et l'enchantement de minage en veine. Rien ici ne se donne : tout se gagne.
-- **Nétherite-fer** — tâches : advancement advancednetherite:nether/obtain_netherite_iron_ingot — récompense : xp 8 — après : intro
+- **Nétherite-fer** — tâches : advancement advancednetherite:nether/obtain_netherite_iron_ingot — récompense : xp 8
   > Le premier palier : un lingot de nétherite et quatre de fer. L'armure complète rend les phantoms neutres (config du serveur).
   >   > Chaque palier s'applique à la table de forge, avec un modèle d'amélioration en nétherite, sur la pièce du palier d'en dessous : nétherite → fer → or → émeraude → diamant. Il faut donc un modèle par pièce et par palier.
 - **Armure de nétherite-fer** — tâches : advancement advancednetherite:nether/netherite_iron_armor — récompense : xp 10 — après : fer
@@ -7609,15 +7609,15 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Épée, pioche, hache, pelle et houe de nétherite-diamant, forgées sur ceux du palier d'avant. Chaque outil, un par un, est à l'Arsenal de l'Encyclopédie.
 - **Un bloc très cher** *(optionnelle)* — tâches : advancement advancednetherite:nether/obtain_netherite_diamond_block — récompense : xp 10 — après : diamant
   > Neuf lingots de nétherite-diamant (progrès « A very expensive block »).
-- **Un bouclier de bois** *(optionnelle)* — tâches : item shieldexp:wooden_shield — récompense : xp 3 — après : intro
+- **Un bouclier de bois** *(optionnelle)* — tâches : item shieldexp:wooden_shield — récompense : xp 3
   > Le premier bouclier de Shield Expansion : huit planches et un bâton. Puis fer, diamant et nétherite ; l'or est à part (huit lingots). Tous sont à la collection Boucliers de l'Encyclopédie.
 - **Un bouclier de fer** *(optionnelle)* — tâches : item shieldexp:iron_shield — récompense : xp 5 — après : bouclier_bois
   > Shield Expansion : des boucliers de bois, fer, or, diamant et nétherite, avec une parade au bon moment et une endurance de blocage (options du mod).
 - **Un bouclier de diamant** *(optionnelle)* — tâches : advancement shieldexp:get_diamond_shield — récompense : xp 8 — après : bouclier
 - **Un bouclier de nétherite** *(optionnelle)* — tâches : advancement shieldexp:get_netherite_shield — récompense : xp 12 — après : bouclier_diamant
-- **Un totem porté** *(optionnelle)* — tâches : item minecraft:totem_of_undying — récompense : xp 5 — après : intro
+- **Un totem porté** *(optionnelle)* — tâches : item minecraft:totem_of_undying — récompense : xp 5
   > Charm of Undying : le totem d'immortalité se porte dans l'emplacement charme des Curios, et agit depuis là. Le Totem du vide (Void Totem) sauve d'une chute dans le vide, en main ou en charme (infobulle).
-- **Un marteau de fer** *(optionnelle)* — tâches : item justhammers:iron_hammer — récompense : xp 5 — après : intro
+- **Un marteau de fer** *(optionnelle)* — tâches : item justhammers:iron_hammer — récompense : xp 5
   > Just Hammers : un marteau creuse une zone de 3×3. Pierre, fer, or, diamant, nétherite ; puis chaque cœur agrandit la zone. Les cœurs se fabriquent l'un dans l'autre, et le premier consomme un marteau de nétherite.
 - **Un marteau de nétherite** *(optionnelle)* — tâches : item justhammers:netherite_hammer — récompense : xp 5 — après : marteau
   > Trois lingots de nétherite. Il sert de matériau au cœur d'impact : redstone, un bloc de fer, un bloc d'or et ce marteau.
@@ -7641,7 +7641,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Les bêtes du pack** — tâches : checkmark Lu — récompense : item minecraft:wheat 16, item minecraft:lead 2
   > Près de cent créatures d'Alex's Mobs, les candidats des votes de Friends Foes, les gardes de Guard Villagers, les loups de RevampedWolf, les nids d'Incubation et les animaux ranimés de Pet Cemetery. Ce chapitre s'intéresse à ce qu'on en tire : objets, équipement, élevage. Les rencontres sont au Bestiaire de l'Encyclopédie.
   >   > Le blé et les laisses offerts servent à ramener les premières bêtes à la base.
-- **Le Dictionnaire animal** — tâches : item alexsmobs:animal_dictionary — récompense : xp 3 — après : intro
+- **Le Dictionnaire animal** — tâches : item alexsmobs:animal_dictionary — récompense : xp 3
   > « Par le professeur Alex Khaan » : le Dictionnaire animal décrit chaque créature d'Alex's Mobs, ses biomes, ce qu'elle mange, ce qu'elle lâche. Il se fabrique dès le début et remplace le wiki.
 - **Just Enough Breeding** — tâches : checkmark Compris — récompense : xp 2 — après : intro
   > Rien à fabriquer : Just Enough Breeding ajoute à JEI les onglets Élevage, Apprivoisement, Tempérament, Confiance et Transformation. Pour savoir ce que mange un animal — du pack ou d'un mod — c'est là qu'on regarde.
@@ -7663,21 +7663,21 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Du sucre dans l'eau : la mangeoire garde les colibris près de chez soi, dit le progrès du mod.
 - **Une Table de transmutation** *(optionnelle)* — tâches : item alexsmobs:transmutation_table — récompense : xp 5 — après : dictionnaire
   > La Table de transmutation d'Alex's Mobs échange un objet contre un autre, contre de l'expérience (« Coût en expérience » dans son interface).
-- **Invoquer un golem de cuivre** *(optionnelle)* — tâches : advancement friendsandfoes:adventure/summon_copper_golem — récompense : xp 5 — après : intro
+- **Invoquer un golem de cuivre** *(optionnelle)* — tâches : advancement friendsandfoes:adventure/summon_copper_golem — récompense : xp 5
   > Un bloc de cuivre et un paratonnerre : le golem de cuivre. Il appuie sur les boutons de cuivre du mod, et s'oxyde avec le temps ; de la cire l'arrête. Le progrès du mod valide la quête.
-- **Une ruche dans chaque bois** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/beehive — récompense : xp 3 — après : intro
+- **Une ruche dans chaque bois** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/beehive — récompense : xp 3
   > Friends Foes fabrique la ruche dans chaque bois du jeu. Le progrès « toutes les ruches » demande les dix.
-- **Apprivoiser un glare** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/tame_a_glare — récompense : xp 5 — après : intro
+- **Apprivoiser un glare** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/tame_a_glare — récompense : xp 5
   > Le glare vit dans les cavernes luxuriantes. Apprivoisé, il suit son maître ; le progrès du mod valide la quête.
-- **Tondre un moobloom** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/shear_a_moobloom — récompense : xp 3 — après : intro
+- **Tondre un moobloom** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/shear_a_moobloom — récompense : xp 3
   > Le moobloom, la vache à boutons d'or des prairies. Les cisailles le tondent, et le progrès le note.
-- **Un totem de gel ou d'illusion** *(optionnelle)* — tâches : item friendsandfoes:totem_of_illusion — récompense : xp 5 — après : intro
+- **Un totem de gel ou d'illusion** *(optionnelle)* — tâches : item friendsandfoes:totem_of_illusion — récompense : xp 5
   > Les mages illageois de Friends Foes lâchent des totems. Celui d'illusion se déclenche quand on prend des dégâts sous la moitié de sa vie maximale (infobulle du mod). À garder en main secondaire pour un raid.
-- **Un piège de cheval zombie** *(optionnelle)* — tâches : advancement friendsandfoes:adventure/activate_zombie_horse_trap — récompense : xp 3 — après : intro
+- **Un piège de cheval zombie** *(optionnelle)* — tâches : advancement friendsandfoes:adventure/activate_zombie_horse_trap — récompense : xp 3
   > Friends Foes ajoute le pendant du piège de cheval squelette ; il est activé sur ce serveur. Le progrès se valide en le déclenchant.
 - **Les gardes des villages** — tâches : observation entity guardvillagers:guard — récompense : xp 3 — après : intro
   > Chaque village a six gardes (config du serveur). Ils défendent les villageois et les golems qu'on attaque (liste de protection de la config). Leur inventaire s'ouvre à partir de 15 de réputation, et ils ne suivent qu'un Héros du village.
-- **Une armure de loup en cuir** *(optionnelle)* — tâches : item revampedwolf:leather_wolf_armor — récompense : xp 2 — après : intro
+- **Une armure de loup en cuir** *(optionnelle)* — tâches : item revampedwolf:leather_wolf_armor — récompense : xp 2
   > RevampedWolf : chaque armure de loup se fait avec une paire de bottes et quatre unités du même matériau. Cuir, fer, or, diamant, puis nétherite à la table de forge. Activées sur ce serveur.
 - **Une armure de loup en fer** *(optionnelle)* — tâches : item revampedwolf:iron_wolf_armor — récompense : xp 3 — après : loup_cuir
   > Des bottes de fer et quatre lingots. L'or est à côté de l'échelle : bottes d'or et quatre lingots d'or.
@@ -7686,9 +7686,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Des bottes de diamant et quatre diamants.
 - **Une armure de loup en nétherite** *(optionnelle)* — tâches : item revampedwolf:netherite_wolf_armor — récompense : xp 10 — après : loup_diamant
   > À la table de forge : l'armure de loup en diamant, un lingot de nétherite et un modèle d'amélioration. Le dernier palier ; chaque selle et chaque armure de monture est à la collection Montures et compagnons de l'Encyclopédie.
-- **Un nid** *(optionnelle)* — tâches : item incubation:hay_nest, item incubation:chicken_egg_crate — récompense : xp 2 — après : intro
+- **Un nid** *(optionnelle)* — tâches : item incubation:hay_nest, item incubation:chicken_egg_crate — récompense : xp 2
   > Incubation : cinq blés font un nid de foin ; les œufs s'y couvent au lieu de se jeter. Une caisse à œufs les stocke, et le mod ajoute l'œuf au plat et les œufs brouillés.
-- **Ranimer un animal** *(optionnelle)* — tâches : advancement pet_cemetery:nether/respawn_pet — récompense : xp 5 — après : intro
+- **Ranimer un animal** *(optionnelle)* — tâches : advancement pet_cemetery:nether/respawn_pet — récompense : xp 5
   > Quand un animal apprivoisé meurt, il laisse son collier. Posé sur une ancre de réapparition, le collier le ramène en version zombie ; ranimé une seconde fois, il revient squelette. Un zombie se soigne comme un villageois : affaibli, puis guéri.
 - **Une ménagerie** — tâches : checkmark Mes bêtes sont à l'abri — récompense : xp 5 — après : dictionnaire, gardes
   > Des bêtes dans l'enclos, un loup en armure, un chat ranimé. Le Bestiaire de l'Encyclopédie attend les rencontres.
@@ -7698,9 +7698,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Voler, à l'énergie** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8
   > Iron Jetpacks : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Huit paliers sur ce serveur : bois, pierre, cuivre, fer, or, acier, diamant, émeraude. Chacun a plus d'autonomie et de vitesse, et se fabrique à partir du jetpack d'en dessous.
   >   > Il lui faut de l'énergie : le chapitre Powah en fournit. Les jetpacks ne s'enchantent pas (config du serveur).
-- **Une bobine basique** — tâches : item ironjetpacks:basic_coil — récompense : xp 3 — après : intro
+- **Une bobine basique** — tâches : item ironjetpacks:basic_coil — récompense : xp 3
   > Quatre lingots de fer, deux poudres de redstone et un bâton : la bobine basique, celle des propulseurs en bois, en pierre et en cuivre.
-- **Une cellule en bois** — tâches : jetpack cell wood — récompense : xp 3 — après : intro
+- **Une cellule en bois** — tâches : jetpack cell wood — récompense : xp 3
   > La cellule stocke l'énergie. Chaque palier a la sienne, faite de redstone et du matériau du palier : on commence en bois.
 - **Un propulseur en bois et une sangle** — tâches : jetpack thruster wood, item ironjetpacks:strap — récompense : xp 3 — après : cellule, bobine
   > Le propulseur pousse : une cellule, une bobine et le matériau du palier. La sangle (trois cuirs, deux pépites de fer) tient le tout.
@@ -7805,7 +7805,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Chaque structure magique abrite un mage qui ne te laissera pas faire : la tour du Pyromancien, la tour de montagne, la hutte des mangroves, la tanière des araignées de glace, le fort de l'Archévocateur. C'est là que sont l'essence, les encres, les runes et les parchemins.
 - **Le fort de l'Archévocateur** *(optionnelle)* — tâches : structure irons_spellbooks:evoker_fort — récompense : xp 5
   > L'Archévocateur tient un fort avec des villageois captifs. Les libérer vaut la reconnaissance des villages — et, selon le guide du mod, finit par mettre une Bible du villageois entre tes mains, un grimoire sacré qui ne se fabrique pas.
-- **Les Catacombes** — tâches : structure irons_spellbooks:catacombs — récompense : xp 8
+- **Les Catacombes** — tâches : advancement irons_spellbooks:irons_spellbooks/enter_catacombs — récompense : xp 8
   > Un labyrinthe souterrain de zombies, de pièges et de coffres fermés à clé — les clés d'os ouvrent ses chambres fortes. Au fond repose le corps du Roi Mort.
 - **Vaincre le Roi Mort** — tâches : kill irons_spellbooks:dead_king — récompense : xp 20
   > Un clic droit sur le corps le relève. Le Roi Mort est le mage du sang : nécromancie, barrages, deux phases. Il lâche le Necronomicon et son Bâton de sang, le sceptre d'invocation que le guide du mod qualifie d'inégalé. Sa mort est annoncée dans #faits-d-armes.
@@ -8212,17 +8212,17 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Pipez : des tuyaux simples** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 6, item minecraft:glass 8
   > Pipez fait une chose et la fait bien : déplacer. Un tuyau d'objets sort d'un coffre et entre dans un autre ; un tuyau de fluide vide une cuve ; un tuyau d'énergie relie une cellule à une machine. Clic droit avec la clé sur l'extrémité d'un tuyau pour dire s'il aspire ou s'il pousse.
   >   > Le fer et le verre offerts font les premiers tuyaux.
-- **Des tuyaux d'objets** — tâches : item pipez:item_pipe 16 — récompense : xp 3 — après : intro
+- **Des tuyaux d'objets** — tâches : item pipez:item_pipe 16 — récompense : xp 3
   > Le tuyau d'objets relie des inventaires. Son extrémité se règle en extraction : il tire d'un coffre et pousse dans tout ce qui est relié. Sans amélioration il est lent, et sans filtre.
-- **Des tuyaux de fluides** — tâches : item pipez:fluid_pipe 8 — récompense : xp 3 — après : intro
+- **Des tuyaux de fluides** — tâches : item pipez:fluid_pipe 8 — récompense : xp 3
   > Même logique pour les liquides : une cuve, une source de lave, un bassin Create. C'est lui qui nourrit le Magmator de Powah.
-- **Des tuyaux d'énergie** — tâches : item pipez:energy_pipe 8 — récompense : xp 3 — après : intro
+- **Des tuyaux d'énergie** — tâches : item pipez:energy_pipe 8 — récompense : xp 3
   > Le tuyau d'énergie remplace les câbles de Powah entre une cellule et une machine. Moins cher, moins rapide ; les améliorations règlent ça.
 - **Un tuyau universel** — tâches : item pipez:universal_pipe 4 — récompense : xp 5 — après : objets, fluides, energie
   > Le tuyau universel transporte les trois à la fois, chaque face réglée indépendamment. Pratique quand une machine reçoit des objets, un fluide et de l'énergie par le même mur.
 - **Des améliorations** — tâches : item pipez:basic_upgrade, item pipez:improved_upgrade — récompense : xp 5 — après : objets
   > Une amélioration se glisse dans l'extrémité d'un tuyau : un débit plus grand, un filtre (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime : chacune se fabrique autour de la précédente. L'infinie existe dans le mod mais ne se fabrique pas ici.
-- **La clé de Pipez** — tâches : item pipez:wrench — récompense : xp 2 — après : intro
+- **La clé de Pipez** — tâches : item pipez:wrench — récompense : xp 2
   > La clé ouvre le menu d'une extrémité : mode (extraire ou pousser), filtres, redstone. Accroupi, elle détache un tuyau.
 - **Une amélioration avancée** — tâches : item pipez:advanced_upgrade — récompense : xp 5 — après : ameliorations
   > L'amélioration améliorée, entourée de diamants et de blocs de redstone.
@@ -8236,7 +8236,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Powah : produire et stocker** — tâches : checkmark Lu — récompense : item minecraft:clay_ball 8, item minecraft:lava_bucket 1
   > Powah produit, stocke et transporte de l'énergie (FE), celle que demandent la moissonneuse de Mystical Agriculture, Refined Storage ou les jetpacks. Sept paliers, du Starter au Nitro, chacun avec ses générateurs, ses cellules et ses câbles.
   >   > Tout commence par une pâte diélectrique : charbon, argile et un seau de lave. L'argile et la lave sont offertes.
-- **De la pâte diélectrique** — tâches : item powah:dielectric_paste 24 — récompense : xp 3 — après : intro
+- **De la pâte diélectrique** — tâches : item powah:dielectric_paste 24 — récompense : xp 3
   > Trois charbons, deux argiles, un seau de lave : 24 pâtes. Elle entre dans presque tout — tiges, boîtiers, panneaux, générateurs.
 - **Tiges et boîtiers diélectriques** — tâches : item powah:dielectric_rod 8, item powah:dielectric_casing 2 — récompense : xp 3 — après : pate
   > Pâte et barreaux de fer en colonnes : huit tiges. Deux tiges verticales, deux horizontales et quatre lingots de fer : un boîtier. Chaque machine de Powah a un boîtier au centre.
@@ -8266,7 +8266,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Une émeraude dans l'orbe, un million de FE. Le Spirited, sixième palier. À ce stade, l'orbe doit être alimentée par plus qu'un Furnator.
 - **Des cristaux Nitro** — tâches : item powah:crystal_nitro 4 — récompense : xp 10 — après : spirited
   > Une étoile du Nether, deux blocs de redstone et un bloc de cristal Blazing dans l'orbe, 20 millions de FE : seize cristaux Nitro. Le dernier palier. L'étoile vient du Wither : c'est une quête du chapitre Nether.
-- **De l'uraninite** — tâches : item powah:uraninite 9 — récompense : xp 3 — après : intro
+- **De l'uraninite** — tâches : item powah:uraninite 9 — récompense : xp 3
   > Le minerai d'uraninite se mine en profondeur, en veines pauvres, normales ou denses. Neuf uraninites pour un bloc, un bloc pour neuf : c'est le combustible du réacteur.
 - **Un réacteur** — tâches : item powah:reactor_starter 4 — récompense : xp 10 — après : uraninite, condensateur
   > Uraninite, condensateurs, boîtier : quatre blocs de réacteur par recette, et il en faut plusieurs pour assembler la structure complète (le livre du mod, Powah Book, montre le plan). Il brûle l'uraninite, se refroidit à l'eau ou mieux, et produit plus que tout le reste réuni.
@@ -8336,14 +8336,14 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Les pylônes** — tâches : checkmark Lu — récompense : item minecraft:quartz_slab 6, item minecraft:iron_bars 4
   > Pylons ajoute quatre pylônes qui agissent dans un rayon autour d'eux : récolter, repousser les joueurs, empêcher les apparitions, appliquer un effet de potion. Même recette pour les quatre — dalles de quartz, barreaux de fer, pierre noire polie — et un bloc au centre qui change tout.
   >   > Le plus utile sur ce serveur est le pylône de récolte, et il a une condition.
-- **Un pylône de récolte** — tâches : item pylons:harvester_pylon — récompense : xp 8 — après : intro
+- **Un pylône de récolte** — tâches : item pylons:harvester_pylon — récompense : xp 8
   > Un bloc de foin au centre. Le pylône de récolte moissonne les cultures dans un rayon autour de lui ; il se pose dans ou au-dessus du bloc d'eau du champ.
   >   > Sa condition : il lui faut une houe à l'intérieur, sinon il affiche « Hoe required for operation » et ne fait rien. C'est le lien avec Mystical Agriculture : la houe de supremium éveillé est celle qu'on y met pour ne plus y penser.
-- **Un pylône d'expulsion** — tâches : item pylons:expulsion_pylon — récompense : xp 5 — après : intro
+- **Un pylône d'expulsion** — tâches : item pylons:expulsion_pylon — récompense : xp 5
   > Un bloc de diamant au centre. Il expulse les autres joueurs des chunks autour de lui, sur une portée réglable. Dans un claim, c'est une double sécurité ; hors claim, c'est une arme de territoire. Un filtre de joueur (clic droit sur quelqu'un) fait des exceptions.
-- **Un pylône d'interdiction** — tâches : item pylons:interdiction_pylon — récompense : xp 5 — après : intro
+- **Un pylône d'interdiction** — tâches : item pylons:interdiction_pylon — récompense : xp 5
   > Un bloc de nétherite au centre. Il empêche les apparitions de créatures dans un rayon autour de lui, celles que son filtre de créature désigne. Une base sans torches, un champ sans phantoms.
-- **Un pylône d'infusion** — tâches : item pylons:infusion_pylon — récompense : xp 5 — après : intro
+- **Un pylône d'infusion** — tâches : item pylons:infusion_pylon — récompense : xp 5
   > Un bloc d'émeraude au centre. Il applique, à n'importe quelle distance, l'effet de potion inscrit sur son filtre de potion : clic droit avec l'effet actif pour l'inscrire, et encore pour allonger sa durée.
 - **Un filtre de potion** — tâches : item pylons:potion_filter — récompense : xp 3 — après : infusion
   > Le filtre que lit le pylône d'infusion (infobulle : « à insérer dans un pylône »).
@@ -8360,7 +8360,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Quatre saisons** — tâches : checkmark Lu — récompense : xp 2
   > Serene Seasons : l'année fait 96 jours — douze sous-saisons de huit jours (config du serveur), début, milieu, fin de chaque saison. Le monde a commencé au début du printemps. L'herbe et les feuilles changent de couleur, la pluie et la neige suivent la saison. Les saisons avancent même quand personne n'est connecté. L'Overworld seulement.
-- **Un calendrier** — tâches : item sereneseasons:calendar — récompense : xp 3 — après : intro
+- **Un calendrier** — tâches : item sereneseasons:calendar — récompense : xp 3
   > Il affiche la sous-saison et le jour. Déjà demandé au chapitre Overworld — exploration : il compte ici aussi.
 - **Semer en saison** — tâches : checkmark J'ai lu l'infobulle d'une graine — récompense : xp 3 — après : calendrier
   > Chaque culture a ses saisons fertiles, écrites dans son infobulle (config). Hors saison, elle pousse lentement mais ne meurt pas. Sous Y 48, les saisons ne comptent plus : une ferme souterraine produit toute l'année.
@@ -8376,25 +8376,25 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **Protéger ce qui est hors claim** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8, item minecraft:redstone 8
   > Un claim protège l'intérieur de la base. SecurityCraft protège ce qui est hors claim : le donjon du trophée, un avant-poste, un coffre caché. Portes à code, lasers, caméras, mines, pièges — et des blocs renforcés que personne d'autre que leur propriétaire ne casse.
   >   > C'est le chapitre qui compte le plus pour un raid, dans les deux sens.
-- **Un clavier à code** — tâches : item securitycraft:keypad — récompense : xp 5 — après : intro
+- **Un clavier à code** — tâches : item securitycraft:keypad — récompense : xp 5
   > Le clavier émet un signal redstone quand on tape le bon code : clic droit après la pose pour fixer un code numérique, clic droit ensuite pour le taper. Posé contre une porte de fer, c'est une porte à code.
 - **Une porte à clavier** — tâches : item securitycraft:keypad_door_item — récompense : xp 5 — après : clavier
   > La porte à clavier réunit un clavier et une porte de fer renforcée : il faut le code pour l'ouvrir. Ou un casseur de code, avec de la chance.
-- **Des blocs renforcés** — tâches : item securitycraft:universal_block_reinforcer_lvl1, item securitycraft:reinforced_stone 16 — récompense : xp 8 — après : intro
+- **Des blocs renforcés** — tâches : item securitycraft:universal_block_reinforcer_lvl1, item securitycraft:reinforced_stone 16 — récompense : xp 8
   > Le renforceur universel convertit les blocs vanilla en blocs renforcés : clic droit, le bloc dans la case du haut, ou bien casser un bloc en le tenant. Un bloc renforcé appartient à qui l'a posé. Un donjon de trophée en pierre renforcée n'a qu'une entrée : celle que tu as laissée, puisque le règlement exige un chemin atteignable sans rien casser.
-- **Des blocs laser** — tâches : item securitycraft:laser_block 2 — récompense : xp 5 — après : intro
+- **Des blocs laser** — tâches : item securitycraft:laser_block 2 — récompense : xp 5
   > Deux blocs laser à cinq blocs au plus l'un de l'autre tendent un rayon. Quand un joueur qui n'est ni le propriétaire ni sur sa liste le traverse, les modules installés dans les blocs décident de la suite : alarme, dégâts, signal redstone.
-- **Caméra et moniteur** — tâches : item securitycraft:security_camera, item securitycraft:portable_radar — récompense : xp 5 — après : intro
+- **Caméra et moniteur** — tâches : item securitycraft:security_camera, item securitycraft:portable_radar — récompense : xp 5
   > La caméra se regarde à distance : clic droit dessus avec un moniteur de caméras pour la lier. Le radar portable envoie un message au propriétaire dès qu'un joueur entre dans son rayon, 25 blocs par défaut. Savoir qu'on vient, avant qu'on arrive.
 - **Scanner d'inventaire et scanner rétinien** — tâches : item securitycraft:inventory_scanner, item securitycraft:retinal_scanner — récompense : xp 5 — après : clavier
   > Deux scanners d'inventaire face à face, à deux blocs au plus, tendent un champ : on y inscrit les objets interdits, et les modules décident de ce qui arrive à qui les porte. Le scanner rétinien émet un signal quand son propriétaire le regarde.
-- **Des mines** — tâches : item securitycraft:mine 4 — récompense : xp 5 — après : intro
+- **Des mines** — tâches : item securitycraft:mine 4 — récompense : xp 5
   > Une mine explose sous n'importe quelle entité qui marche dessus, toi compris : retiens où tu les as posées. Une pince coupante la désamorce, un briquet la réarme. Posée hors claim, c'est le piège le plus simple d'un donjon de trophée.
 - **Une sentinelle** — tâches : item securitycraft:sentry — récompense : xp 5 — après : camera
   > La sentinelle tire sur les intrus, avec des munitions illimitées, ou avec les projectiles d'un coffre à code posé dessous. Trois modes au clic droit — inactive, camouflée, agressive — et trois types de cibles. Un gardien qui ne dort pas.
-- **Un détecteur de changement de bloc** — tâches : item securitycraft:block_change_detector — récompense : xp 3 — après : intro
+- **Un détecteur de changement de bloc** — tâches : item securitycraft:block_change_detector — récompense : xp 3
   > Le détecteur enregistre les blocs posés ou cassés à cinq blocs autour de lui, par défaut. Clic droit : la liste des changements. Après un raid, c'est lui qui dit ce qui a été touché.
-- **Un piège à cage** *(optionnelle)* — tâches : item securitycraft:cage_trap — récompense : xp 5 — après : intro
+- **Un piège à cage** *(optionnelle)* — tâches : item securitycraft:cage_trap — récompense : xp 5
   > Le piège à cage fait apparaître une cage autour de tout joueur qui le touche, sauf son propriétaire.
 - **Un casseur de code** *(optionnelle)* — tâches : item securitycraft:codebreaker — récompense : xp 5 — après : porte
   > Le casseur de code tente d'ouvrir un clavier, un lecteur de carte ou un coffre à code qui n'est pas à toi. Cinq utilisations, une chance sur trois à chaque fois. C'est l'outil de l'attaquant.
@@ -8410,7 +8410,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Une sirène et une lumière rouge tant qu'elle reçoit de la redstone.
 - **Une lumière à détection** *(optionnelle)* — tâches : item securitycraft:motion_activated_light — récompense : xp 3 — après : detecteur
   > Elle s'allume quand un joueur passe à portée.
-- **Un bouton de panique** *(optionnelle)* — tâches : item securitycraft:panic_button — récompense : xp 2 — après : intro
+- **Un bouton de panique** *(optionnelle)* — tâches : item securitycraft:panic_button — récompense : xp 2
   > Il a l'air d'un bouton, et marche comme un levier.
 - **Lecteur de cartes** *(optionnelle)* — tâches : item securitycraft:keycard_reader, item securitycraft:keycard_lv1 — récompense : xp 4 — après : clavier
   > Le lecteur émet un signal quand on y glisse une carte du bon niveau : un badge par rang de la faction.
@@ -8426,9 +8426,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > L'I.M.S. : une mine qui contient jusqu'à quatre bouncing betties et les lance sur ceux qui entrent dans son rayon. Elle se recharge.
 - **Un système trophée** *(optionnelle)* — tâches : item securitycraft:trophy_system — récompense : xp 5 — après : sentinelle
   > Il abat les flèches et les boules de feu ennemies avant qu'elles arrivent.
-- **Un projecteur** *(optionnelle)* — tâches : item securitycraft:projector — récompense : xp 4 — après : intro
+- **Un projecteur** *(optionnelle)* — tâches : item securitycraft:projector — récompense : xp 4
   > Il projette des blocs holographiques : de quoi cacher une entrée derrière un faux mur.
-- **Un piège au sol** *(optionnelle)* — tâches : item securitycraft:floor_trap 4 — récompense : xp 3 — après : intro
+- **Un piège au sol** *(optionnelle)* — tâches : item securitycraft:floor_trap 4 — récompense : xp 3
   > Le bloc disparaît un instant quand on marche dessus.
 - **Une mallette** *(optionnelle)* — tâches : item securitycraft:briefcase — récompense : xp 3 — après : clavier
   > Douze emplacements verrouillés par un code à quatre chiffres, à emporter.
@@ -8584,7 +8584,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Treize métiers vanilla, quatre de VillagersPlus, des gardes à recruter, deux gobelins marchands, et deux blocs pour commercer sans courir : le comptoir d'échange et la station de troc. L'onglet Métiers de JEI (Just Enough Professions) dit quel bloc fait quel métier.
 - **Trouver un village** — tâches : structure #minecraft:village — récompense : xp 3 — après : intro
   > Un village, n'importe lequel (déjà demandé au chapitre Overworld — exploration). Villages Pillages en ajoute, dont un village de sorcières ; Towns Towers et Moog's en remanient d'autres.
-- **Premier échange** — tâches : advancement minecraft:adventure/trade — récompense : xp 3 — après : village
+- **Premier échange** — tâches : advancement minecraft:adventure/trade — récompense : xp 3
   > Commercer avec un villageois (progrès vanilla). Chaque échange fait monter son niveau et débloque la ligne suivante.
 - **Un bibliothécaire** — tâches : item minecraft:lectern — récompense : xp 3 — après : echange
   > Un pupitre près d'un villageois sans emploi en fait un bibliothécaire : livres enchantés, dont Vein Mining (config du serveur), contre des émeraudes.
@@ -8617,17 +8617,17 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > L'aquarium.
 - **Un horticulteur** *(optionnelle)* — tâches : item villagersplus:oak_horticulturist_table — récompense : xp 5 — après : echange
   > Un bac à fleurs, dans n'importe quel bois.
-- **Recruter un garde** *(optionnelle)* — tâches : advancement minecraft:adventure/recruit_guard — récompense : xp 5 — après : village
+- **Recruter un garde** *(optionnelle)* — tâches : advancement minecraft:adventure/recruit_guard — récompense : xp 5
   > Guard Villagers : donner une épée à un villageois sans emploi en fait un garde (progrès du mod).
 - **Un comptoir d'échange** — tâches : item tradingpost:trading_post — récompense : xp 8 — après : echange
   > Le Trading Post regroupe les échanges de tous les villageois à portée dans un seul écran, avec une recherche. S'il dit qu'aucun marchand n'est disponible, rapproche-le.
-- **Une station de troc** *(optionnelle)* — tâches : item barteringstation:bartering_station — récompense : xp 8 — après : intro
+- **Une station de troc** *(optionnelle)* — tâches : item barteringstation:bartering_station — récompense : xp 8
   > La Bartering Station troque l'or avec les piglins à ta place.
 - **Le gobelin marchand** *(optionnelle)* — tâches : observation entity goblintraders:goblin_trader — récompense : xp 5 — après : intro
   > Goblin Traders : un gobelin sous terre, entre Y -64 et 50 (config du serveur), avec des échanges rares, dont des potions de hâte, d'absorption et de grâce du dauphin. Il se réassortit tous les deux jours. On ne peut pas le porter (Carry On).
 - **Le gobelin des veines** *(optionnelle)* — tâches : observation entity goblintraders:vein_goblin_trader — récompense : xp 5 — après : gobelin
   > Son cousin du Nether, entre Y 0 et 128 (config).
-- **Abattre un capitaine** *(optionnelle)* — tâches : advancement minecraft:adventure/voluntary_exile — récompense : xp 5 — après : village
+- **Abattre un capitaine** *(optionnelle)* — tâches : advancement minecraft:adventure/voluntary_exile — récompense : xp 5
   > Le capitaine d'une patrouille ou d'un avant-poste porte une bannière. L'abattre donne le Mauvais présage : la prochaine entrée dans un village déclenche un raid.
 - **Héros du village** *(optionnelle)* — tâches : advancement minecraft:adventure/hero_of_the_village — récompense : xp 10 — après : exil
   > Repousser toutes les vagues d'un raid. Sur ce serveur, en difficulté normale, un raid compte cinq vagues, plus une vague bonus quand le présage est renforcé.
@@ -8645,7 +8645,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Un portail de glowstone** — tâches : item minecraft:glowstone 10 — récompense : item minecraft:water_bucket
   > Un cadre de glowstone, comme un portail du Nether, allumé avec un seau d'eau. L'Aether est un ciel d'îles flottantes : sans parachute, la chute ramène dans l'Overworld.
-- **Entrer dans l'Aether** — tâches : dimension aether:the_aether — récompense : xp 10
+- **Entrer dans l'Aether** — tâches : advancement aether:enter_aether — récompense : xp 10
   > À l'arrivée, le serveur offre un Livre de savoir et des parachutes dorés (config du serveur). Le livre explique les objets du mod ; les parachutes sauvent d'une chute.
 - **Du bois de Skyroot** — tâches : item aether:skyroot_planks 16 — récompense : xp 2
   > Le bois de l'Aether. Un seau de skyroot ne garde pas la lave, mais il fait des outils et un lit.
@@ -8770,9 +8770,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **La maison du Gatekeeper** — tâches : structure blue_skies:gatekeeper_house_plains — récompense : item minecraft:emerald 8
   > Blue Skies, ce sont deux mondes : l'Everbright, froid et bleu, l'Everdawn, chaud et doré. Les deux s'ouvrent dans la maison du Gatekeeper, dans l'Overworld : le portail y est déjà construit, et le Gatekeeper vend le Journal bleu — le guide du mod — et le briquet zèle, huit émeraudes sur ce serveur. Les émeraudes offertes sont pour lui.
-- **Un briquet zèle** — tâches : item blue_skies:zeal_lighter — récompense : xp 3 — après : gatekeeper
+- **Un briquet zèle** — tâches : item blue_skies:zeal_lighter — récompense : xp 3
   > Il allume les portails de l'Everbright (pierre taillée turquoise) et de l'Everdawn (pierre taillée lunaire). Les blocs des portails se prennent chez le Gatekeeper si on veut en construire un chez soi.
-- **Entrer dans l'Everbright** — tâches : dimension blue_skies:everbright — récompense : xp 10 — après : briquet
+- **Entrer dans l'Everbright** — tâches : advancement blue_skies:everbright/enter — récompense : xp 10 — après : briquet
   > Un monde de neige, de lacs et de forêts bleues. Les outils de l'Overworld y mordent mal : le mod le dit lui-même (« ce outil ne marche pas aussi bien ici »), il faut ses bois et ses pierres.
 - **Du bois de l'Everbright** — tâches : advancement blue_skies:everbright/get_wood — récompense : xp 2 — après : entrer
   > Lumibleu, étoilibois, nifrisque : des bûches à frapper (progrès du mod). Chaque bâton de ces bois a un usage à la boîte à outils.
@@ -8792,9 +8792,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > L'astrolabe s'achète au Stargazer d'un village ; lié à un émetteur d'étoiles, il y ramène d'une distance moyenne, puis se recharge selon la distance. Une waystone de poche pour l'Everbright.
 - **Le donjon aveuglant de l'Everbright** — tâches : structure blue_skies:everbright_blinding_dungeon — récompense : xp 5 — après : entrer
   > Une tour d'illageois. Chaque étage cache une clé ; quatre clés aveuglantes sur la keystone du dernier étage ouvrent la salle du Summonateur. Mort dans la salle du boss, les objets restent à la keystone (le mod le dit).
-- **Vaincre le Summonateur** — tâches : advancement blue_skies:everbright/kill_summoner — récompense : xp 20 — après : aveuglant
+- **Vaincre le Summonateur** — tâches : advancement blue_skies:everbright/kill_summoner — récompense : xp 20 — après : entrer
   > Il invoque des golems artificiels, à distance puis au corps à corps, et se téléporte — sauf pendant qu'il lance un sort : c'est là qu'on frappe. Il lâche son Artéfact éthéré et, parfois, la table d'invocation. Sa mort est annoncée dans #faits-d-armes.
-- **Le donjon de la nature** — tâches : structure blue_skies:nature_dungeon — récompense : xp 5 — après : summoner
+- **Le donjon de la nature** — tâches : advancement blue_skies:everbright/enter_nature_dungeon — récompense : xp 5 — après : summoner
   > Une pyramide verte dans les Pins enneigés, gardée par des golems de pierre liés par des lianes étoilées. Une clé par étage, une keystone au bout. Le Gatekeeper vend les clés de la nature une fois le donjon aveuglant vaincu (progrès du mod).
 - **Vaincre le Déstructeur des Étoiles** — tâches : advancement blue_skies:everbright/kill_starlit_crusher — récompense : xp 25 — après : nature
   > Quatre murs de bois le protègent ; il fait pousser racines, Spewters et hiboux de bois. Abats un mur à la hache : il martèle le sol, vulnérable aux projectiles — une lance l'étourdit, puis la hache. Son artéfact relance le combat sur la keystone, après un temps de recharge. Sa mort est annoncée dans #faits-d-armes.
@@ -8815,7 +8815,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 ## Blue Skies — Everdawn  (`monde_everdawn`, 18 quêtes)
 
-- **Entrer dans l'Everdawn** — tâches : dimension blue_skies:everdawn — récompense : xp 10
+- **Entrer dans l'Everdawn** — tâches : advancement blue_skies:everdawn/enter — récompense : xp 10
   > Le second monde de Blue Skies, par le portail de pierre lunaire de la maison du Gatekeeper, allumé au briquet zèle. Chaud, doré, plein d'insectes et d'araignées. Le progrès « Thinking with Portals » du mod salue ceux qui ont vu les deux mondes.
 - **Du bois de l'Everdawn** — tâches : advancement blue_skies:everdawn/get_wood — récompense : xp 2 — après : entrer
   > Lunaire, crépuscubois, érable, comète : des bûches à frapper (progrès du mod). L'érable des forêts de coucher de soleil, le comète des vergers.
@@ -8831,9 +8831,9 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Marcher dans un champignon de l'exil et en subir les conséquences : un progrès que le mod accorde à qui ne lit pas les panneaux.
 - **Le donjon aveuglant de l'Everdawn** — tâches : structure blue_skies:everdawn_blinding_dungeon — récompense : xp 5 — après : entrer
   > La tour d'illageois de l'Everdawn : une clé par étage, quatre clés sur la keystone du dernier, et l'Alchimiste derrière. Les objets d'un mort restent à la keystone.
-- **Vaincre l'Alchimiste** — tâches : advancement blue_skies:everdawn/kill_alchemist — récompense : xp 20 — après : aveuglant
+- **Vaincre l'Alchimiste** — tâches : advancement blue_skies:everdawn/kill_alchemist — récompense : xp 20 — après : entrer
   > Lui se bat seul : gerbes de flèches (un bouclier les arrête), nuages de potion dans les coins, et des pics en décomposition qui percent l'armure. Il se téléporte, sauf quand il lance un sort. Il lâche l'Artéfact du crépuscule et, parfois, sa table d'alchimie. Sa mort est annoncée dans #faits-d-armes.
-- **Le donjon du poison** — tâches : structure blue_skies:poison_dungeon — récompense : xp 5 — après : alchimiste
+- **Le donjon du poison** — tâches : advancement blue_skies:everdawn/enter_poison_dungeon — récompense : xp 5 — après : alchimiste
   > Un arbre couvert de toiles dans la Forêt d'érables du couchant : un nid d'araignées venimeuses, une clé par étage, une keystone au bout. Les clés empoisonnées s'achètent au Gatekeeper une fois l'Alchimiste vaincu (progrès du mod).
 - **Vaincre l'Arachnarque** — tâches : advancement blue_skies:everdawn/kill_arachnarch — récompense : xp 25 — après : poison
   > Au plafond, elle est presque intouchable : attends qu'elle redescende. Au sol, elle se jette de tout son poids ; un bouclier assez solide encaisse. Son artéfact relance le combat sur la keystone. Sa mort est annoncée dans #faits-d-armes.
@@ -8856,39 +8856,39 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Huit boss, huit structures** — tâches : checkmark Lu — récompense : item minecraft:golden_apple 2
   > L'Ender's Cataclysm pose huit boss, chacun dans sa structure, et un œil qui y mène : il se fabrique, et il tourne dans la main comme un œil de l'Ender. Chaque boss lâche de quoi fabriquer un équipement. Sur ce serveur, les boss sont à leur force d'origine, leurs armures ont une durabilité infinie, et cinq d'entre eux se réinvoquent dans leur arène (config).
-- **L'Arène ardente** — tâches : structure cataclysm:burning_arena — récompense : xp 5 — après : intro
+- **L'Arène ardente** — tâches : advancement cataclysm:find_burning_arena — récompense : xp 5
   > L'Œil de flamme y mène. Des revenants et berserkers enflammés gardent l'arène ; Ignis attend à l'autel de feu.
 - **Vaincre Ignis** — tâches : advancement cataclysm:kill_ignis — récompense : xp 25 — après : arene
   > Un chevalier de feu, invoqué à l'autel. Il lâche le lingot d'ignitium et son disque (table de butin) ; le Rempart de la flamme et l'Incinérateur se fabriquent avec. Sa mort est annoncée dans #faits-d-armes.
 - **L'armure d'ignitium** — tâches : item cataclysm:ignitium_helmet — récompense : xp 10 — après : ignis
   > Un modèle de forge d'ignitium sur un équipement de nétherite. Casque : regard de chaleur ; plastron : combinable avec des élytres ; jambières : réflexe de flamme ; bottes : marche sur la lave (infobulles du mod).
-- **La forge des âmes** — tâches : structure cataclysm:soul_black_smith — récompense : xp 5 — après : intro
+- **La forge des âmes** — tâches : advancement cataclysm:find_soul_black_smith — récompense : xp 5
   > L'Œil du monstrueux y mène, dans le Nether. La Monstruosité de nétherite dort dans la forge.
 - **Vaincre la Monstruosité de nétherite** — tâches : advancement cataclysm:kill_monstrosity — récompense : xp 25 — après : forge_ames
   > Elle lâche la Forge infernale (une pioche qui frappe en zone), une cellule de lave et sa corne monstrueuse (table de butin). Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
-- **La citadelle en ruine** — tâches : structure cataclysm:ruined_citadel — récompense : xp 5 — après : intro
+- **La citadelle en ruine** — tâches : advancement cataclysm:find_ruined_citadel — récompense : xp 5
   > L'Œil du vide y mène, dans l'End. Des golems de l'Ender et des endermapteras ; le Gardien de l'Ender au centre.
 - **Vaincre le Gardien de l'Ender** — tâches : advancement cataclysm:kill_ender_guardian — récompense : xp 25 — après : citadelle
   > Il lâche le Gantelet de garde, qui attire les entités (table de butin, infobulle). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
-- **L'usine ancienne** — tâches : structure cataclysm:ancient_factory — récompense : xp 5 — après : intro
+- **L'usine ancienne** — tâches : advancement cataclysm:find_ancient_factory — récompense : xp 5
   > L'Œil mécanique y mène. Des Rôdeurs mécaniques, des Veilleurs, et le Harbinger.
 - **Vaincre le Harbinger** — tâches : advancement cataclysm:kill_harbinger — récompense : xp 25 — après : usine
   > Le progrès dit : le réveiller et le vaincre. Il lâche un bloc de witherite (table de butin) ; l'arme d'épaule d'assaut du Wither et le Gatling laser (rechargé à la redstone) s'en fabriquent. Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
-- **La cité engloutie** — tâches : structure cataclysm:sunken_city — récompense : xp 5 — après : intro
+- **La cité engloutie** — tâches : advancement cataclysm:find_sunken_city — récompense : xp 5
   > L'Œil de l'abîme y mène, sous l'océan. Deeplings, golems de corail, et le Léviathan au fond.
 - **Vaincre le Léviathan** — tâches : advancement cataclysm:kill_leviathan — récompense : xp 30 — après : cite_engloutie
   > Il est immunisé hors de l'eau (config du serveur) : le combat se fait en plongée. Il lâche les Griffes de marée et un œuf abyssal (table de butin). Sa mort est annoncée dans #faits-d-armes.
-- **La pyramide maudite** — tâches : structure cataclysm:cursed_pyramid — récompense : xp 5 — après : intro
+- **La pyramide maudite** — tâches : advancement cataclysm:find_cursed_pyramid — récompense : xp 5
   > L'Œil du désert y mène. Koboletons, Kobolédiateur, Wadjet, et le Vestige ancien.
 - **Vaincre le Vestige ancien** — tâches : advancement cataclysm:kill_remnant — récompense : xp 25 — après : pyramide
   > Le progrès dit : fouiller le sable suspect de la pyramide pour le réveiller. Il lâche son crâne, du métal ancien et une tempête de sable en bouteille (table de butin). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
-- **La prison givrée** — tâches : structure cataclysm:frosted_prison — récompense : xp 5 — après : intro
+- **La prison givrée** — tâches : advancement cataclysm:find_frosted_prison — récompense : xp 5
   > L'Œil de la malédiction y mène. Draugrs, draugrs royaux, Aptrgangr, et Maledictus.
 - **Vaincre Maledictus** — tâches : advancement cataclysm:kill_maledictus — récompense : xp 30 — après : prison
   > Invoqué dans la prison. Il lâche le lingot de cursium (table de butin) ; l'Arc maudit et ses trois flèches fantômes s'en fabriquent. Sa mort est annoncée dans #faits-d-armes.
 - **L'armure de cursium** — tâches : item cataclysm:cursium_helmet — récompense : xp 10 — après : maledictus
   > Modèle de forge de cursium sur de la nétherite. Casque : vision fantôme ; plastron : résurrection mort-vivante ; jambières : esquive fantôme ; bottes : apesanteur fantôme (infobulles du mod).
-- **L'acropole** — tâches : structure cataclysm:acropolis — récompense : xp 5 — après : intro
+- **L'acropole** — tâches : advancement cataclysm:find_acropolis — récompense : xp 5
   > L'Œil de la tempête y mène. Clawdian, Cindaria, Hippocamtus, Urchinkin, et Scylla, qui change le temps quand elle se bat (config du serveur).
 - **Vaincre Scylla** — tâches : advancement cataclysm:kill_scylla — récompense : xp 30 — après : acropole
   > L'impératrice des tempêtes (titre du progrès). Elle lâche l'essence de la tempête et la lacrima (table de butin) ; Ceraunus, l'ancre qui se lance, et Astrape, la lance d'éclair, s'en fabriquent. Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
@@ -8913,7 +8913,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Sous la bedrock** — tâches : checkmark Lu — récompense : item minecraft:torch 16
   > Deeper and Darker prolonge le sculk : de nouvelles créatures dans les cités anciennes, un cœur du Warden, et une dimension sous la bedrock — l'Otherside — avec ses quatre biomes et son temple. Le progrès de départ du mod dit : quelque chose t'attire vers la source.
-- **Une cité ancienne** — tâches : advancement deeperdarker:main/find_ancient_city — récompense : xp 5 — après : intro
+- **Une cité ancienne** — tâches : advancement deeperdarker:main/find_ancient_city — récompense : xp 5
   > Les cités anciennes sous l'Overworld, dans les Profondeurs sombres (Dungeons Taverns les remanie). Les monstres sculk du mod y rôdent : Harceleur, Mille-pattes, Sangsue, Happeur, Brisé, Ver hurleur, Boue.
 - **Tueur de sculk** *(optionnelle)* — tâches : advancement deeperdarker:main/kill_all_sculk_mobs — récompense : xp 10 — après : cite
   > Un de chaque monstre sculk du mod (progrès « Sculk Slayer »).
@@ -8925,7 +8925,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un cadre en deepslate renforcée (celle des cités anciennes), et le cœur du Warden pour l'allumer (code du mod). Progrès « Sous la bedrock ».
 - **Les quatre biomes** *(optionnelle)* — tâches : biome deeperdarker:deeplands, biome deeperdarker:echoing_forest, biome deeperdarker:blooming_caverns, biome deeperdarker:overcast_columns — récompense : xp 10 — après : portail
   > Les Terres profondes, la Forêt résonnante, les Cavernes fleuries, les Colonnes couvertes. Le progrès « Écholocation » demande les quatre.
-- **Écholocation** *(optionnelle)* — tâches : advancement deeperdarker:main/explore_otherside — récompense : table explorateur — après : biomes
+- **Écholocation** *(optionnelle)* — tâches : advancement deeperdarker:main/explore_otherside — récompense : table explorateur — après : portail
   > Tous les biomes de l'Otherside (progrès du mod). Jalon Explorateur.
 - **Le temple ancien** — tâches : advancement deeperdarker:main/find_ancient_temple — récompense : xp 10 — après : portail
   > La structure de l'Otherside : cinq tables de butin (sommet, sous-sol, fontaine, réserve, cache secrète), coffres par joueur.
@@ -8960,19 +8960,19 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Ce qui reste à abattre** — tâches : checkmark Lu — récompense : item minecraft:arrow 32
   > Les donjons de When Dungeons Arise, ceux de Stalwart Dungeons et leurs trois boss, l'Invoker d'Illager Invasion, le Ver du vide, le Berserker de Galosphere, et les primes de Bountiful. Le Roi Mort et Tyros sont au chapitre Iron's Spells.
-- **Le fort des illageois** — tâches : advancement dungeons_arise:find_illager_fort — récompense : xp 5 — après : intro
+- **Le fort des illageois** — tâches : advancement dungeons_arise:find_illager_fort — récompense : xp 5
   > When Dungeons Arise pose trente-neuf structures. Le fort des illageois est l'une des grandes : plusieurs étages, des générateurs, des coffres par joueur.
-- **Les tours des bandits** *(optionnelle)* — tâches : advancement dungeons_arise:find_bandit_towers — récompense : xp 5 — après : intro
+- **Les tours des bandits** *(optionnelle)* — tâches : advancement dungeons_arise:find_bandit_towers — récompense : xp 5
   > Les tours des bandits (progrès du mod).
-- **L'asile de la peste** *(optionnelle)* — tâches : advancement dungeons_arise:find_plague_asylum — récompense : table aventurier — après : intro
+- **L'asile de la peste** *(optionnelle)* — tâches : advancement dungeons_arise:find_plague_asylum — récompense : table aventurier
   > L'asile de la peste (progrès du mod). Jalon Aventurier.
-- **Le palais de Shiraz** *(optionnelle)* — tâches : advancement dungeons_arise:find_shiraz_palace — récompense : xp 5 — après : intro
+- **Le palais de Shiraz** *(optionnelle)* — tâches : advancement dungeons_arise:find_shiraz_palace — récompense : xp 5
   > Le palais de Shiraz, dans le désert (progrès « Enter Sandman »).
-- **Le donjon de Kayra** *(optionnelle)* — tâches : advancement dungeons_arise:find_keep_kayra — récompense : xp 5 — après : intro
+- **Le donjon de Kayra** *(optionnelle)* — tâches : advancement dungeons_arise:find_keep_kayra — récompense : xp 5
   > Le donjon de Kayra (progrès du mod).
-- **Le vaisseau des pirates morts-vivants** *(optionnelle)* — tâches : advancement dungeons_arise:find_undead_pirate_ship — récompense : xp 5 — après : intro
+- **Le vaisseau des pirates morts-vivants** *(optionnelle)* — tâches : advancement dungeons_arise:find_undead_pirate_ship — récompense : xp 5
   > En mer. Le mod a aussi des corsaires et galères illageoises, un phare, des bains, une tour de Typhon (liste des progrès).
-- **Le monastère** *(optionnelle)* — tâches : advancement dungeons_arise:find_monasteries — récompense : xp 5 — après : intro
+- **Le monastère** *(optionnelle)* — tâches : advancement dungeons_arise:find_monasteries — récompense : xp 5
   > Un monastère (progrès « A Quiet Place »).
 - **Vaincre l'Awful Ghast** — tâches : kill stalwart_dungeons:awful_ghast — récompense : xp 20 — après : intro
   > Stalwart Dungeons : un autel de l'Awful Ghast (bloc du mod) l'invoque dans son donjon du Nether. Sa mort est annoncée dans #faits-d-armes.
@@ -8982,13 +8982,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Le boss de l'End de Stalwart Dungeons, derrière son autel (bloc du mod). Sa mort est annoncée dans #faits-d-armes. Le tungstène et le chorundum du mod font armures, boucliers et outils.
 - **Vaincre l'Invoker** — tâches : kill illagerinvasion:invoker — récompense : xp 25 — après : intro
   > Le maître des illageois vient avec les raids de village (il fait partie des vagues, code du mod). Sa mort est annoncée dans #faits-d-armes.
-- **Vaincre le Ver du vide** — tâches : item alexsmobs:void_worm_eye — récompense : xp 25 — après : intro
+- **Vaincre le Ver du vide** — tâches : item alexsmobs:void_worm_eye — récompense : xp 25
   > Il n'apparaît pas seul : un ver mystérieux, jeté dans l'End (seule dimension autorisée sur ce serveur), l'invoque. Le ver est fait de plusieurs entités : c'est son œil, qu'il lâche, qui valide la quête. Sa mort est annoncée dans #faits-d-armes.
 - **Vaincre le Berserker** *(optionnelle)* — tâches : kill galosphere:berserker — récompense : xp 15 — après : intro
   > Le progrès du mod s'appelle « Règne de terreur » : invoquer le Berserker. Il se joue autour du Sanctuaire du sel rose et de sa Tablette liée au sel. Sa mort est annoncée dans #faits-d-armes.
-- **Le tableau de primes** — tâches : item bountiful:bountyboard, checkmark Trois primes prises — récompense : xp 8 — après : intro
+- **Le tableau de primes** — tâches : item bountiful:bountyboard, checkmark Trois primes prises — récompense : xp 8
   > Bountiful : un tableau de primes propose des contrats à délai. Un décret posé dans le tableau oriente les primes (« Royal Mandate »). Trois primes prises, et la case se coche.
-- **Des fragments de générateur** *(optionnelle)* — tâches : item spawnersplus:spawner_fragment 8 — récompense : xp 5 — après : intro
+- **Des fragments de générateur** *(optionnelle)* — tâches : item spawnersplus:spawner_fragment 8 — récompense : xp 5
   > Avec Spawners+, un générateur de monstres cassé à la pioche ne disparaît plus : il lâche des fragments de générateur, plus avec Fortune. Les donjons en sont pleins.
 - **Un générateur inactif** *(optionnelle)* — tâches : item spawnersplus:inactive_spawner — récompense : xp 8 — après : fragments
   > Huit fragments en anneau : un générateur inactif, qui se casse à la pioche en fer au moins. Il attend une âme.
@@ -8998,13 +8998,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Trois âmes ne tombent jamais sur ce serveur : elles se fabriquent. Une âme de squelette entourée de huit seaux de neige poudreuse donne celle du vagabond ; une âme de zombie et huit cœurs de la mer, celle du noyé ; une âme de squelette et huit étoiles du Nether, celle du wither squelette.
 - **Un silencieux de générateur** *(optionnelle)* — tâches : item spawnersplus:spawner_silencer — récompense : xp 5 — après : fragments
   > Huit fragments autour d'un totem d'immortalité. Tenu en main, il coupe les générateurs proches : de quoi vider un donjon sans vagues sans fin.
-- **Du tungstène** — tâches : item stalwart_dungeons:tungsten_ingot — récompense : xp 5 — après : intro
+- **Du tungstène** — tâches : item stalwart_dungeons:tungsten_ingot — récompense : xp 5
   > Le minerai de tungstène de Stalwart Dungeons, fondu en lingots.
 - **L'armure de tungstène** — tâches : item stalwart_dungeons:tungsten_helmet, item stalwart_dungeons:tungsten_chestplate, item stalwart_dungeons:tungsten_leggings, item stalwart_dungeons:tungsten_boots — récompense : xp 10 — après : tungstene
   > Chaque pièce demande des lingots de tungstène et un débris d'armure de blaze, lâché par les blazes renforcés (table de butin du jar).
 - **Les outils de tungstène** — tâches : item stalwart_dungeons:tungsten_sword, item stalwart_dungeons:tungsten_pickaxe, item stalwart_dungeons:tungsten_axe, item stalwart_dungeons:tungsten_shovel, item stalwart_dungeons:tungsten_hoe — récompense : xp 8 — après : tungstene
   > Épée, pioche, hache, pelle et houe de tungstène.
-- **L'armure de chorundum** — tâches : item stalwart_dungeons:chorundum_armor_helmet, item stalwart_dungeons:chorundum_armor_chestplate, item stalwart_dungeons:chorundum_armor_leggings, item stalwart_dungeons:chorundum_armor_boots — récompense : xp 15 — après : shelterer, tungstene_armure
+- **L'armure de chorundum** — tâches : item stalwart_dungeons:chorundum_armor_helmet, item stalwart_dungeons:chorundum_armor_chestplate, item stalwart_dungeons:chorundum_armor_leggings, item stalwart_dungeons:chorundum_armor_boots — récompense : xp 15 — après : tungstene_armure
   > Le chorundum, et le cristal du vide que lâche le Shelterer (table de butin du jar) dans chaque pièce. Le dernier palier de Stalwart Dungeons ; chaque pièce est à l'Armurerie de l'Encyclopédie.
 - **Les outils de chorundum** — tâches : item stalwart_dungeons:chorundum_sword, item stalwart_dungeons:chorundum_pickaxe, item stalwart_dungeons:chorundum_axe, item stalwart_dungeons:chorundum_shovel, item stalwart_dungeons:chorundum_hoe — récompense : xp 12 — après : tungstene_outils
   > Le minerai de chorundum, fondu, et un bâton.
@@ -9023,12 +9023,12 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Dragon Mounts: Legacy** — tâches : checkmark Lu — récompense : xp 2
   > Trente-six races de dragons dans le pack : les huit de base — feu, eau, forêt, glace, fantôme, Nether, End, Aether — et vingt-huit de l'extension : orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, jade, sang, ombre, lumière… Un dragon se monte, vole, et souffle (3 de dégâts sur 40 blocs, config du serveur). En patrouille, il reste à 8 blocs de son poste.
-- **Un œuf de dragon** — tâches : oeuf_dragon fire, oeuf_dragon forest, oeuf_dragon ghost, oeuf_dragon ice, oeuf_dragon nether, oeuf_dragon water, oeuf_dragon aether, oeuf_dragon end, item minecraft:dragon_egg — récompense : xp 5 — après : intro
+- **Un œuf de dragon** — tâches : oeuf_dragon fire, oeuf_dragon forest, oeuf_dragon ghost, oeuf_dragon ice, oeuf_dragon nether, oeuf_dragon water, oeuf_dragon aether, oeuf_dragon end, item minecraft:dragon_egg — récompense : xp 5
   > Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts).
 - **Faire éclore** — tâches : observation entity dragonmounts:dragon — récompense : xp 8 — après : oeuf
   > Posé, l'œuf couve et l'infobulle compte les secondes. Il change de race selon son milieu (config : les habitats sont actifs). La quête se valide en regardant un dragon.
   >   > Autre voie : dans #dragons, poste !dragon <x> <y> <z> <race> (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée.
-- **Apprivoiser et seller** — tâches : item minecraft:saddle — récompense : xp 5 — après : eclosion
+- **Apprivoiser et seller** — tâches : item minecraft:saddle — récompense : xp 5 — après : oeuf
   > Le bébé se nourrit et grandit ; adulte, une selle (chapitre Agriculture des bases) et il se monte. Tous les dragons du serveur sont dans une même équipe sans tir allié (datapack du serveur) : le souffle d'un dragon ne lance plus de bagarre avec un autre.
 - **Monter un dragon** — tâches : checkmark J'ai volé — récompense : xp 10 — après : apprivoiser
   > Vol libre, souffle à la touche du mod. Aucune tâche ne sait voir un joueur en selle sur un dragon : celle-ci se coche. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler.
@@ -9122,7 +9122,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Le croisement d'un Dragon Fantôme et d'un Dragon d'Eau donne un Dragon Zombie une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'os. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
 - **Les trente-six races** *(optionnelle)* — tâches : oeuf_dragon fire, oeuf_dragon forest, oeuf_dragon ghost, oeuf_dragon ice, oeuf_dragon nether, oeuf_dragon water, oeuf_dragon aether, oeuf_dragon end, oeuf_dragon aurora, oeuf_dragon black_fire, oeuf_dragon blood, oeuf_dragon blue_fire, oeuf_dragon bronze, oeuf_dragon crystal, oeuf_dragon dark, oeuf_dragon eclipse, oeuf_dragon elder, oeuf_dragon gale, oeuf_dragon jade, oeuf_dragon light, oeuf_dragon lunar, oeuf_dragon magic, oeuf_dragon monarch, oeuf_dragon ocean, oeuf_dragon primal_end, oeuf_dragon primal_nether, oeuf_dragon red, oeuf_dragon sculk, oeuf_dragon shadow, oeuf_dragon solar, oeuf_dragon soul_nether, oeuf_dragon storm, oeuf_dragon sylphid, oeuf_dragon terra, oeuf_dragon wither, oeuf_dragon zombie — récompense : xp 30 — après : race_fire, race_forest, race_ghost, race_ice, race_nether, race_water, race_aether, race_end, race_aurora, race_black_fire, race_blood, race_blue_fire, race_bronze, race_crystal, race_dark, race_eclipse, race_elder, race_gale, race_jade, race_light, race_lunar, race_magic, race_monarch, race_ocean, race_primal_end, race_primal_nether, race_red, race_sculk, race_shadow, race_solar, race_soul_nether, race_storm, race_sylphid, race_terra, race_wither, race_zombie
   > Un œuf de chacune des trente-six races, ensemble dans l'inventaire : les huit de base et les vingt-huit hybrides. C'est le sommet du chapitre.
-- **Des écailles de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_scale 3 — récompense : xp 5 — après : intro
+- **Des écailles de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_scale 3 — récompense : xp 5
   > DragonLoot : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font l'armure, les outils et l'enclume de dragon, sans plafond de niveaux sur ce serveur.
 - **L'armure de dragon** *(optionnelle)* — tâches : advancement dragonloot:dragon_armor — récompense : xp 15 — après : ecailles
   > À la table de forge : un modèle d'amélioration en nétherite, une pièce en nétherite-diamant d'Advanced Netherite et une écaille, pour chaque pièce. Les quatre pièces : progrès « Des écailles de la bête ».
@@ -9147,11 +9147,11 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Perle de l'End et poudre de blaze. Douze pour le portail, quelques-uns pour chercher la forteresse. L'End du pack est celui de Better End : vingt-huit biomes, des villages, des métaux, et les structures de Moog's.
 - **La forteresse** — tâches : structure betterstrongholds:stronghold — récompense : table aventurier — après : oeil
   > Refaite par YUNG's Better Strongholds : bibliothèques, armureries, prisons, générateurs, coffres par joueur, et des golems de tuff de Friends Foes. Le portail est au fond ; l'œil lancé pointe vers elle.
-- **Entrer dans l'End** — tâches : dimension minecraft:the_end — récompense : xp 10 — après : forteresse
+- **Entrer dans l'End** — tâches : advancement minecraft:story/enter_the_end — récompense : xp 10 — après : oeil
   > L'île centrale est refaite par YUNG's Better End Island, et la plate-forme d'arrivée aussi (config du serveur). Le dragon attend.
-- **Vaincre l'Ender Dragon** — tâches : kill minecraft:ender_dragon — récompense : xp 30 — après : entrer
+- **Vaincre l'Ender Dragon** — tâches : advancement minecraft:end/kill_dragon — récompense : xp 30 — après : entrer
   > Les cristaux d'abord, le dragon ensuite. Sa mort est annoncée dans #faits-d-armes. Tué avec une arme d'essence enchantée Illumination mystique, il lâche de la poussière cognizante de Mystical Agriculture (config du serveur) ; sa peau sert au grimoire en peau de dragon d'Iron's Spells. Un dragon ré-invoqué avec quatre cristaux ne laisse pas d'œuf sur ce serveur.
-- **Une cité de l'End** — tâches : structure minecraft:end_city — récompense : xp 5 — après : dragon
+- **Une cité de l'End** — tâches : advancement minecraft:end/find_end_city — récompense : xp 5 — après : dragon
   > Par le portail de retour, puis les îles extérieures. Shulkers, coffres par joueur, et dans les trésors de ce serveur le Totem du vide.
 - **Des élytres** — tâches : advancement minecraft:end/elytra — récompense : xp 10 — après : cite
   > Dans le vaisseau d'une cité. Elytra Slot leur donne une case à part : on vole sans retirer son plastron. Better End ajoute des élytres blindées et de cristalite.
@@ -9169,7 +9169,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Sombre, et habitée par le Marcheur d'ombre. Les baies d'ombre y poussent.
 - **Les Terres d'ambre** *(optionnelle)* — tâches : biome betterend:amber_land — récompense : xp 3 — après : entrer
   > Ambre, herbe d'ambre, et le minerai d'ambre.
-- **Un village de l'End** *(optionnelle)* — tâches : structure betterend:end_village — récompense : xp 5 — après : be_brume
+- **Un village de l'End** *(optionnelle)* — tâches : advancement betterend:village — récompense : xp 5 — après : entrer
   > Better End pose des villages dans l'End (progrès « Enter a village in the End »).
 - **Une fondeuse de pierre de l'End** *(optionnelle)* — tâches : item betterend:end_stone_smelter — récompense : xp 5 — après : entrer
   > Le four de Better End, qui fond ses métaux : le thallasium d'abord, depuis le thallasium brut de son minerai.
@@ -9212,25 +9212,25 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Quatre boss à leur place dans le monde — le Wroughtnaut ferreux, le Frostmaw, Umvuthi, le Sculpteur — et des créatures qui valent le détour. La Naga de Mowzie's est un oiseau-serpent des Côtes rocheuses : rien à voir avec la Naga de la Twilight Forest (boss) ni celle de Better Nether.
 - **La chambre du Wroughtnaut** — tâches : structure mowziesmobs:wrought_chamber — récompense : xp 5 — après : intro
   > Une salle souterraine, partout sauf sous les océans (config du serveur). Le Wroughtnaut ferreux y est immobile tant qu'on n'entre pas.
-- **Vaincre le Wroughtnaut ferreux** — tâches : advancement mowziesmobs:kill_ferrous_wroughtnaut — récompense : xp 20 — après : chambre
+- **Vaincre le Wroughtnaut ferreux** — tâches : advancement mowziesmobs:kill_ferrous_wroughtnaut — récompense : xp 20
   > Son armure ne cède que par derrière. Il lâche son casque et la Hache des mille métaux. Sa mort est annoncée dans #faits-d-armes.
-- **Vaincre le Frostmaw** — tâches : advancement mowziesmobs:kill_frostmaw — récompense : xp 20 — après : intro
+- **Vaincre le Frostmaw** — tâches : advancement mowziesmobs:kill_frostmaw — récompense : xp 20
   > Un colosse endormi dans les biomes enneigés, hors océans, rivières, plages, forêts et taïgas (config du serveur). Il garde un cristal de glace : le lui voler sans le réveiller est un progrès du mod. Sa mort est annoncée dans #faits-d-armes.
 - **Le bosquet des Umvuthana** — tâches : structure mowziesmobs:umvuthana_grove — récompense : xp 5 — après : intro
   > Dans la savane. Les Umvuthana portent des masques (peur, rage, misère, extase, fureur, foi) ; avec un masque, on entre déguisé (progrès du mod). Umvuthi trône au centre.
-- **Vaincre Umvuthi** — tâches : advancement mowziesmobs:kill_umvuthi — récompense : xp 20 — après : bosquet
+- **Vaincre Umvuthi** — tâches : advancement mowziesmobs:kill_umvuthi — récompense : xp 20
   > Il appelle des soigneurs à chaque palier de vie perdu (config du serveur). Lui apporter sept blocs d'or vaut la Bénédiction du Soleil (config, progrès). Il lâche le Visage du Sol, qui invoque des Umvuthana à partir de masques (infobulle). Sa mort est annoncée dans #faits-d-armes.
 - **Le monastère du Sculpteur** — tâches : structure mowziesmobs:monastery — récompense : xp 5 — après : intro
   > Sur les pics (config du serveur). Tongbi, le Sculpteur, propose une épreuve d'escalade contre un bâton de Bluff. Le monastère cache aussi deux générateurs de Bluff.
-- **L'épreuve du Sculpteur** — tâches : advancement mowziesmobs:sculptor_challenge — récompense : xp 20 — après : monastere
+- **L'épreuve du Sculpteur** — tâches : advancement mowziesmobs:sculptor_challenge — récompense : xp 20
   > Soixante blocs à grimper en moins de 400 secondes (config du serveur). Échouer vaut l'autre progrès, moins glorieux. Le Sculpteur disparaît une fois la récompense réclamée (config).
-- **Un Foliaath** *(optionnelle)* — tâches : advancement mowziesmobs:kill_foliaath — récompense : xp 5 — après : intro
+- **Un Foliaath** *(optionnelle)* — tâches : advancement mowziesmobs:kill_foliaath — récompense : xp 5
   > Une plante carnivore des jungles. Sa graine se plante dans l'herbe ; le bébé a faim chaque demi-journée et grandit en deux jours (infobulle).
-- **Un Grottol** *(optionnelle)* — tâches : advancement mowziesmobs:kill_grottol — récompense : xp 5 — après : intro
+- **Un Grottol** *(optionnelle)* — tâches : advancement mowziesmobs:kill_grottol — récompense : xp 5
   > Une créature de cristal des grottes, sous Y 16, qui fuit. À la pioche soie, on le capture ; à la pioche fortune, il lâche plus (progrès du mod).
-- **La Naga des Côtes rocheuses** *(optionnelle)* — tâches : advancement mowziesmobs:kill_naga — récompense : xp 5 — après : intro
+- **La Naga des Côtes rocheuses** *(optionnelle)* — tâches : advancement mowziesmobs:kill_naga — récompense : xp 5
   > Sur les Côtes rocheuses seulement (liste blanche de la config du serveur). Sa dent fait une dague qui empoisonne et double les dégâts par derrière (infobulle).
-- **Les yeux de Cataclysm** *(optionnelle)* — tâches : item mowzies_cataclysm:wrought_eye, item mowzies_cataclysm:frostmaw_eye, item mowzies_cataclysm:sun_eye, item mowzies_cataclysm:tongbi_eye — récompense : xp 5 — après : intro
+- **Les yeux de Cataclysm** *(optionnelle)* — tâches : item mowzies_cataclysm:wrought_eye, item mowzies_cataclysm:frostmaw_eye, item mowzies_cataclysm:sun_eye, item mowzies_cataclysm:tongbi_eye — récompense : xp 5
   > Un œil de l'Ender au centre d'une recette, et le lancer file vers un repaire de Mowzie's, comme les yeux de Cataclysm. L'« Eye of Wrought » mène à la chambre du Wroughtnaut, l'« Eye of Frost » au Frostmaw, l'« Eye of the Sunbird » au bosquet d'Umvuthana, l'« Eye of the Sculptor » au monastère.
 - **La hache et le casque** — tâches : item mowziesmobs:wrought_axe, item mowziesmobs:wrought_helmet — récompense : xp 8 — après : wroughtnaut
   > Les deux pièces de sa table de butin : la hache et le casque du Wroughtnaut.
@@ -9242,11 +9242,11 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Prendre le cristal à un Frostmaw sans le tuer (progrès du mod).
 - **Un autre Frostmaw** — tâches : kill mowziesmobs:frostmaw — récompense : xp 20 — après : frostmaw_cristal
   > Un autre Frostmaw, ailleurs dans le froid. Seul un combat mené après cette quête compte.
-- **Un masque d'Umvuthana** — tâches : item mowziesmobs:umvuthana_mask_fury, item mowziesmobs:umvuthana_mask_fear, item mowziesmobs:umvuthana_mask_rage, item mowziesmobs:umvuthana_mask_bliss, item mowziesmobs:umvuthana_mask_misery, item mowziesmobs:umvuthana_mask_faith — récompense : xp 5 — après : bosquet
+- **Un masque d'Umvuthana** — tâches : item mowziesmobs:umvuthana_mask_fury, item mowziesmobs:umvuthana_mask_fear, item mowziesmobs:umvuthana_mask_rage, item mowziesmobs:umvuthana_mask_bliss, item mowziesmobs:umvuthana_mask_misery, item mowziesmobs:umvuthana_mask_faith — récompense : xp 5
   > Six masques, sur les Umvuthana ou dans les coffres du bosquet.
 - **Déguisé dans le bosquet** *(optionnelle)* — tâches : advancement mowziesmobs:sneak_grove — récompense : xp 5 — après : masque
   > Entrer dans un bosquet d'Umvuthana déguisé (progrès du mod).
-- **Le Raptor** — tâches : advancement mowziesmobs:kill_umvuthana_raptor — récompense : xp 8 — après : bosquet
+- **Le Raptor** — tâches : advancement mowziesmobs:kill_umvuthana_raptor — récompense : xp 8
   > Le chef des Umvuthana d'un bosquet (progrès du mod).
 - **Le Visage du Sol** — tâches : item mowziesmobs:sol_visage — récompense : xp 8 — après : umvuthi
   > Le masque d'Umvuthi, dans sa table de butin.
@@ -9256,22 +9256,22 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Chaque bosquet a son Umvuthi. Seul un combat mené après cette quête compte.
 - **Le Gantelet fendeur de terre** — tâches : item mowziesmobs:earthrend_gauntlet — récompense : xp 10 — après : sculpteur
   > La récompense du défi du Sculpteur (table de butin sculptor_test du jar).
-- **La tenue du géomancien** *(optionnelle)* — tâches : item mowziesmobs:geomancer_beads, item mowziesmobs:geomancer_robe, item mowziesmobs:geomancer_belt, item mowziesmobs:geomancer_sandals, item mowziesmobs:sculptor_staff — récompense : xp 10 — après : monastere
+- **La tenue du géomancien** *(optionnelle)* — tâches : item mowziesmobs:geomancer_beads, item mowziesmobs:geomancer_robe, item mowziesmobs:geomancer_belt, item mowziesmobs:geomancer_sandals, item mowziesmobs:sculptor_staff — récompense : xp 10
   > Perles, robe, ceinture, sandales et bâton du Sculpteur : dans les coffres du monastère ou sur le Sculpteur lui-même.
 - **Les quatre géants** — tâches : checkmark Les quatre sont tombés — récompense : xp 10 — après : wrought_relance, frostmaw_relance, umvuthi_relance, gantelet
   > Wroughtnaut, Frostmaw et Umvuthi battus deux fois, le défi du Sculpteur relevé. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont incassables sur ce serveur (config).
 
 ## Le Nether  (`monde_nether`, 41 quêtes)
 
-- **Entrer dans le Nether** — tâches : dimension minecraft:the_nether — récompense : item minecraft:gold_ingot 4, item minecraft:cooked_porkchop 8
+- **Entrer dans le Nether** — tâches : advancement minecraft:story/enter_the_nether — récompense : item minecraft:gold_ingot 4, item minecraft:cooked_porkchop 8
   > Dix blocs d'obsidienne, un briquet. Le Nether du pack a quatre mods de biomes — Better Nether, Bygone Nether, Soulful Nether, Jaden's Nether Expansion — et des forteresses refaites. Huit blocs ici valent soixante-quatre dehors : c'est aussi la route la plus courte entre deux bases.
 - **Une forteresse** — tâches : structure betterfortresses:fortress — récompense : xp 5 — après : entrer
   > Refaite par YUNG's Better Nether Fortresses : des salles, des coffres par joueur, des générateurs de blazes, des squelettes du Wither. Cataclysm y ajoute son Berserker.
-- **Des bâtons de blaze** — tâches : item minecraft:blaze_rod 8 — récompense : xp 3 — après : forteresse
+- **Des bâtons de blaze** — tâches : item minecraft:blaze_rod 8 — récompense : xp 3 — après : entrer
   > Les blazes gardent la forteresse. Leurs bâtons font la poudre des potions, les alambics, et le foyer de l'école du feu d'Iron's Spells.
-- **Un bastion** — tâches : structure minecraft:bastion_remnant — récompense : table aventurier — après : entrer
+- **Un bastion** — tâches : advancement minecraft:nether/find_bastion — récompense : table aventurier — après : entrer
   > Piglins, brutes, et des coffres par joueur. De l'or sur soi pour ne pas être attaqué à vue, sauf par les brutes. Le modèle de forge de la nétherite se trouve ici.
-- **Trois têtes de squelette du Wither** — tâches : item minecraft:wither_skeleton_skull 3 — récompense : xp 8 — après : forteresse
+- **Trois têtes de squelette du Wither** — tâches : item minecraft:wither_skeleton_skull 3 — récompense : xp 8 — après : entrer
   > Les squelettes du Wither des forteresses lâchent parfois leur tête. Trois têtes, quatre blocs de sable des âmes, et le Wither se lève. Bygone Nether ajoute des chevaliers squelettes et des chevaux squelettes du Wither.
 - **Invoquer et vaincre le Wither** — tâches : kill minecraft:wither — récompense : xp 25 — après : wither_skeleton
   > Un claim bloque ses explosions ; hors claim, il rase tout autour de lui. Invoque-le loin de toute base, la tienne comprise. L'étoile du Nether fait le phare. Sa mort est annoncée dans #faits-d-armes.
@@ -9281,19 +9281,19 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > La nétherite ne se donne pas : la quête ne rend que de l'expérience. Advanced Netherite et Netherite Tweaks sont au chapitre Équipement de fin de partie.
 - **Les biomes de Better Nether** — tâches : biome betternether:nether_jungle, biome betternether:nether_mushroom_forest, biome betternether:bone_reef — récompense : xp 5 — après : entrer
   > Better Nether ajoute plus de vingt biomes : jungle du Nether, forêt de champignons, récif d'os, marais, forêt inversée, désert de gravier, plaine des âmes… Trois à voir pour la quête ; le progrès du mod en demande tous.
-- **De la cincinnasite** — tâches : item betternether:cincinnasite 8 — récompense : xp 3 — après : bn_biomes
+- **De la cincinnasite** — tâches : item betternether:cincinnasite 8 — récompense : xp 3 — après : entrer
   > Le métal de Better Nether, dans son minerai du Nether. Il fait des outils, des lanternes, une enclume et une forge qui remplace le four.
 - **Une forge de cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_forge — récompense : xp 5 — après : cincinnasite
   > La forge de cincinnasite : un bloc de cincinnasite forgée et des briques du Nether, le four du Nether.
-- **Un rubis du Nether** *(optionnelle)* — tâches : item betternether:nether_ruby — récompense : xp 5 — après : bn_biomes
+- **Un rubis du Nether** *(optionnelle)* — tâches : item betternether:nether_ruby — récompense : xp 5 — après : entrer
   > Le rubis du Nether sort du minerai de rubis. Il fait une armure et des outils, que le modèle « rubis flamboyant » améliore ensuite.
-- **La cité du Nether** *(optionnelle)* — tâches : structure betternether:nether_city — récompense : table aventurier — après : bn_biomes
+- **La cité du Nether** *(optionnelle)* — tâches : advancement betternether:city — récompense : table aventurier — après : entrer
   > Une ville entière de Better Nether, avec ses coffres par joueur. Le mod pose aussi des pyramides, des autels, des temples de jungle et des piliers.
 - **La Naga de Better Nether** *(optionnelle)* — tâches : kill betternether:naga — récompense : xp 5 — après : bn_biomes
   > Un serpent de Better Nether — à ne pas confondre avec la Naga de Mowzie's (Côtes rocheuses) ni celle de la Twilight Forest (boss). Des générateurs la font sortir dans les structures de Better Nether.
-- **La citadelle de Bygone Nether** *(optionnelle)* — tâches : structure bygonenether:citadel — récompense : xp 5 — après : entrer
+- **La citadelle de Bygone Nether** *(optionnelle)* — tâches : advancement bygonenether:citadel — récompense : xp 5 — après : entrer
   > Bygone Nether : une citadelle, une catacombe, un manoir piglin. Dans la citadelle, des chevaliers squelettes du Wither et le Wraither ; des prisonniers piglins à libérer dans le manoir (progrès du mod).
-- **La catacombe** *(optionnelle)* — tâches : structure bygonenether:catacomb — récompense : xp 5 — après : citadelle
+- **La catacombe** *(optionnelle)* — tâches : advancement bygonenether:catacomb — récompense : xp 5 — après : citadelle
   > Des générateurs de squelettes du Wither, des débris flétris, et la pierre d'âme. Le disque « Wither Waltz » se trouve dans Bygone Nether.
 - **Une perle de l'End biscornue** *(optionnelle)* — tâches : item bygonenether:warped_ender_pearl — récompense : xp 3 — après : entrer
   > L'Enderman biscornu des forêts biscornues la lâche. On peut aussi retirer sa chape à un enderman biscornu (progrès du mod « Trim the Warp off of an Enderman »).
@@ -9303,15 +9303,15 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Jaden's Nether Expansion découpe la vallée des âmes : bosquet du deuil, glaciers de glace noire, pâtures de sorrowsquash, gouffre de quartz, entrailles de panache, bourbier d'échappement. Feux follets, apparitions, banshees et stampedes y vivent.
 - **Le campement du méga-fossile** *(optionnelle)* — tâches : structure netherexp:mega_fossil — récompense : xp 5 — après : jaden_vallee
   > Un fossile géant dans la vallée des âmes, parfois avec son campement. Le combustible fossile s'y creuse (progrès « Gravedigger »), et tuer un squelette sur de la terre des âmes refait des fossiles.
-- **Le Sanctum** *(optionnelle)* — tâches : structure netherexp:sanctum — récompense : table aventurier — après : jaden_vallee
+- **Le Sanctum** *(optionnelle)* — tâches : advancement netherexp:nether/occult_manor — récompense : table aventurier — après : entrer
   > Le donjon de Jaden's : une bougie perfide à allumer et à défendre contre des vagues, des coffres-braseros ouverts par la flamme perfide, des statues de gargouilles à collectionner. Une boussole de sanctum y mène.
-- **Exorciser une apparition** *(optionnelle)* — tâches : advancement netherexp:nether/exorcism — récompense : xp 5 — après : jaden_vallee
+- **Exorciser une apparition** *(optionnelle)* — tâches : advancement netherexp:nether/exorcism — récompense : xp 5 — après : entrer
   > Une apparition possède une créature ; une bouteille d'eau l'en délivre. Le progrès du mod valide la quête.
-- **Apprivoiser un stampede** *(optionnelle)* — tâches : advancement netherexp:nether/rodeo_stampede — récompense : xp 5 — après : jaden_vallee
+- **Apprivoiser un stampede** *(optionnelle)* — tâches : advancement netherexp:nether/rodeo_stampede — récompense : xp 5 — après : entrer
   > Le stampede naît quand une apparition possède une statue de gargouille « Trample » : posée dans la vallée des âmes, non salée, elle attire les apparitions. Il se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »).
-- **Tous les sous-biomes de la vallée** *(optionnelle)* — tâches : advancement netherexp:nether/ssv_sub_biomes — récompense : xp 5 — après : jaden_vallee
+- **Tous les sous-biomes de la vallée** *(optionnelle)* — tâches : advancement netherexp:nether/ssv_sub_biomes — récompense : xp 5 — après : entrer
   > Le progrès « The Fright Before Xmas » demande de passer par chaque sous-biome de la vallée des âmes. Les glaciers de glace noire sont les plus rares.
-- **La boussole du sanctum** *(optionnelle)* — tâches : advancement netherexp:nether/emf_raider — récompense : xp 5 — après : jaden_vallee
+- **La boussole du sanctum** *(optionnelle)* — tâches : advancement netherexp:nether/emf_raider — récompense : xp 5 — après : entrer
   > La « Sanctum Locator Compass » se trouve dans les coffres des chapelles de la vallée des âmes. Active-la et suis-la jusqu'au sanctum (progrès « EMF-Raider »).
 - **Défendre la bougie perfide** *(optionnelle)* — tâches : advancement netherexp:nether/rekindled_betrayal — récompense : xp 10 — après : sanctum
   > Au cœur du sanctum, une bougie perfide s'allume au briquet et déclenche des vagues de monstres. Tiens jusqu'au bout : elle récompense les joueurs présents en flammes perfides. Sur ce serveur, elle se rallume 30 minutes après avoir été vaincue.
@@ -9323,7 +9323,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > À la table de forge : le modèle « Pump-Charge » sur le poing-fusil, avec une flamme perfide. Le « Pump-Charge Shotgun » est le sommet de l'arsenal de Jaden's. Le modèle se recopie avec une flamme perfide et sept blocs d'os.
 - **Toutes les statues de gargouille** *(optionnelle)* — tâches : item netherexp:ossified_gargoyle_statue, item netherexp:trample_gargoyle_statue, item netherexp:phase_gargoyle_statue, item netherexp:ghoul_gargoyle_statue, item netherexp:wretched_gargoyle_statue, item netherexp:sealed_gargoyle_statue, item netherexp:occult_gargoyle_statue, item netherexp:treacherous_gargoyle_statue, item netherexp:cirripedia_gargoyle_statue, item netherexp:obfuscated_gargoyle_statue — récompense : xp 15 — après : sanctum
   > Les dix statues de gargouille du sanctum, à garder dans l'inventaire (progrès « Lorekeeper »). Quatre d'entre elles attirent les apparitions, qui les changent en créatures : « Trample » en stampede, « Phase » en ecto slab, « Ghoul » en banshee, « Ossified » en vessel. Une statue salée ne se laisse plus posséder.
-- **Un antidote** *(optionnelle)* — tâches : advancement netherexp:nether/the_caduceus — récompense : xp 5 — après : jaden_vallee
+- **Un antidote** *(optionnelle)* — tâches : advancement netherexp:nether/the_caduceus — récompense : xp 5 — après : entrer
   > Les verrues biscornues (« Warped Wart ») brassent des antidotes, un par effet de potion : « Antidote for Poison », « Antidote for Weakness »… (progrès « The Caduceus »).
 - **Le médecin de peste** *(optionnelle)* — tâches : advancement netherexp:nether/plague_doctor — récompense : xp 10 — après : jaden_antidote
   > Tous les effets d'antidote actifs en même temps (progrès « Plague-Doctor »). Sur ce serveur, potions et antidotes s'empilent par 16.
@@ -9350,7 +9350,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **Sous la surface** — tâches : checkmark Lu — récompense : item minecraft:torch 32, item minecraft:cooked_cod 8
   > Trois biomes de cavernes de YUNG's, trois de Galosphere, les géodes, la cité ancienne refaite par Dungeons and Taverns et, tout au fond, le Warden. C'est aussi par là qu'on descend dans l'Otherside de Deeper and Darker, qui a son chapitre.
-- **Une géode d'améthyste** — tâches : item minecraft:amethyst_shard 8 — récompense : xp 3 — après : intro
+- **Une géode d'améthyste** — tâches : item minecraft:amethyst_shard 8 — récompense : xp 3
   > Les géodes du jeu, plus les cristaux de Galosphere qui poussent de la même façon. Sur ce serveur, l'améthyste bourgeonnante se mine plus lentement (config Galosphere) : on casse les grappes, pas le bloc.
 - **Les Cavernes givrées** — tâches : biome yungscavebiomes:frosted_caves — récompense : xp 3 — après : intro
   > YUNG's Cave Biomes : des cavernes de glace sous les biomes froids, avec de la glace enchantée, des stalactites de glace et des lys de givre. L'effet Givre ralentit et blesse.
@@ -9368,19 +9368,19 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > La structure de Galosphere dans les cavernes de sel. Une tablette liée au sel y permet d'invoquer le Berserker ; sa quête de combat est au chapitre Donjons et autres boss.
 - **Les Ruines oubliées** *(optionnelle)* — tâches : structure galosphere:forgotten_ruins — récompense : xp 5 — après : galo_cristal
   > L'autre structure de Galosphere, sous terre, avec ses coffres et ses tessons.
-- **Un spectre en bouteille** *(optionnelle)* — tâches : advancement galosphere:adventure/watchfly — récompense : xp 5 — après : galo_cristal
+- **Un spectre en bouteille** *(optionnelle)* — tâches : advancement galosphere:adventure/watchfly — récompense : xp 5
   > Le Spectre de Galosphere vole dans les canyons de cristal. Attrapé dans une bouteille, il sert de vigie : une fusée de spectre le libère pour voir à travers ses yeux, et on en trouve dans les coffres des cités anciennes sur ce serveur. Le progrès du mod valide la quête.
-- **Une lampe d'allurite** *(optionnelle)* — tâches : item galosphere:allurite_lamp — récompense : xp 3 — après : galo_cristal
+- **Une lampe d'allurite** *(optionnelle)* — tâches : item galosphere:allurite_lamp — récompense : xp 3
   > Des éclats d'allurite en lampe. Le mod ajoute aussi la lampe de lumière, le lustre, le support de lumière, et le palladium : les pillards en lâchent des pépites sur ce serveur.
-- **La cité ancienne** — tâches : structure minecraft:ancient_city — récompense : table explorateur — après : intro
+- **La cité ancienne** — tâches : advancement deeperdarker:main/find_ancient_city — récompense : table explorateur
   > Refaite par Dungeons and Taverns : plus grande, plus de salles, plus de coffres — par joueur. Marcher accroupi, poser de la laine sur les capteurs, ne pas déclencher trois fois un hurleur. Les cités donnent les éclats d'écho et les livres en ruine ; c'est de là que part le chemin vers l'Otherside.
-- **Vaincre le Warden** — tâches : kill minecraft:warden — récompense : xp 20 — après : cite_ancienne
+- **Vaincre le Warden** — tâches : advancement deeperdarker:main/kill_warden — récompense : xp 20 — après : cite_ancienne
   > Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overworld : on ne le combat pas, on le piège ou on le fuit. Deeper and Darker lui fait lâcher le Cœur des profondeurs (progrès « Slay the Warden and take its heart »), et sa mort est annoncée dans #faits-d-armes.
-- **Du palladium** — tâches : item galosphere:palladium_ingot — récompense : xp 5 — après : intro
+- **Du palladium** — tâches : item galosphere:palladium_ingot — récompense : xp 5
   > Le minerai de palladium de Galosphere, sous terre. Les pillards en lâchent aussi des pépites (config du serveur).
 - **L'armure sterling** — tâches : item galosphere:sterling_helmet, item galosphere:sterling_chestplate, item galosphere:sterling_leggings, item galosphere:sterling_boots — récompense : xp 10 — après : palladium
   > Cuir et palladium. Le casque peut porter une bannière (infobulle) : celle de ta faction.
-- **Le monstromètre** *(optionnelle)* — tâches : item galosphere:monstrometer — récompense : xp 5 — après : palladium, galo_lichen
+- **Le monstromètre** *(optionnelle)* — tâches : item galosphere:monstrometer — récompense : xp 5 — après : palladium
   > Quatre lingots de palladium autour d'un éclat de lumière (« Lumiere Shard »).
 - **Des bombes de palladium** *(optionnelle)* — tâches : item galosphere:palladium_bomb — récompense : xp 3 — après : palladium
   > Quatre lingots de palladium autour d'une poudre à canon : deux bombes.
@@ -9402,11 +9402,11 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Les avant-postes de pillards sont aussi refaits par Towns Towers, un par biome, et Repurposed Structures en pose jusque dans la jungle et la mangrove. Cinq pillards tués valident la quête, d'où qu'ils viennent — avant-poste, patrouille ou raid.
 - **Le manoir des bois** — tâches : structure minecraft:mansion — récompense : table explorateur — après : village
   > Le manoir des forêts sombres : évocateurs, vindicateurs, et un totem d'immortalité à la clé. Repurposed Structures en fait des variantes en bouleau, désert, jungle, savane, neige et taïga. Premier jalon Explorateur.
-- **Héros du village** — tâches : advancement minecraft:adventure/hero_of_the_village — récompense : xp 10 — après : avant_poste
+- **Héros du village** — tâches : advancement minecraft:adventure/hero_of_the_village — récompense : xp 10
   > Un raid de village, défendu jusqu'au bout. Sur ce serveur, les vagues comptent les illageois d'Illager Invasion et de It Takes a Pillage ; l'Invoker y participe. Le progrès du jeu valide la quête.
 - **La tour de l'Illusionniste** *(optionnelle)* — tâches : structure illagerinvasion:illusioner_tower — récompense : xp 5 — après : avant_poste
   > Une tour d'Illager Invasion : l'Illusionniste au sommet, ses copies autour. Le mod a aussi un fort, un labyrinthe et deux huttes de mages.
-- **Le théâtre du Conjurateur** *(optionnelle)* — tâches : structure conjurer_illager:theatre — récompense : xp 5 — après : avant_poste
+- **Le théâtre du Conjurateur** *(optionnelle)* — tâches : advancement conjurer_illager:find_theatre — récompense : xp 5
   > Le Conjurateur tient un théâtre dans les forêts de chênes noirs ; il apparaît sur la scène. Illusions, lapins explosifs, cartes : un spectacle qui se termine à l'épée.
 - **Le temple du désert** — tâches : structure minecraft:desert_pyramid — récompense : xp 3 — après : intro
   > Quatre coffres sous la dalle bleue, et une plaque de pression sur la TNT. Depuis la 1.20, du gravier suspect à brosser dans les recoins.
@@ -9430,7 +9430,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Formations sème une trentaine de petites choses : châteaux de glace, météore, trou de hobbit, temple mésoaméricain, cimetière, flèche de cuivre. Le trou de hobbit valide la quête. La tour de la sorcière du mod, elle, ne se génère pas sur ce serveur (datapack formationsoverworldconfig).
 - **L'île flottante (Explorations)** *(optionnelle)* — tâches : structure explorations:floating_island — récompense : xp 3 — après : intro
   > Explorations : une île flottante, un puits oublié, un sanctuaire, une grotte de slimes, un temple souterrain, un campement.
-- **Trois variantes de Repurposed Structures** *(optionnelle)* — tâches : structure #repurposed_structures:collections/igloos, structure #repurposed_structures:collections/witch_huts, structure repurposed_structures:city_overworld — récompense : table explorateur — après : village
+- **Trois variantes de Repurposed Structures** *(optionnelle)* — tâches : structure #repurposed_structures:collections/igloos, structure #repurposed_structures:collections/witch_huts, advancement repurposed_structures:city_overworld — récompense : table explorateur
   > Repurposed Structures redéploie les structures du jeu là où elles n'allaient pas : un igloo d'herbe, de pierre, de champignon ou de mangrove ; une cabane de sorcière de bouleau ou de taïga ; une cité de l'Overworld. Les trois valident la quête. Troisième jalon Explorateur.
 - **Une épave** *(optionnelle)* — tâches : structure #minecraft:shipwreck — récompense : xp 2 — après : intro
   > Épaves, ruines océaniques, trésors enfouis : la mer vaut la terre. La carte au trésor des épaves mène à un coffre et un cœur de la mer.
@@ -9438,7 +9438,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un portail à compléter, de l'obsidienne pleurante, un coffre. Vanilla Backport y glisse parfois une pierre d'aimantation.
 - **Cinq biomes de Biomes O' Plenty** — tâches : biome biomesoplenty:mystic_grove, biome biomesoplenty:lavender_field, biome biomesoplenty:redwood_forest, biome biomesoplenty:volcano, biome biomesoplenty:tropics — récompense : xp 8 — après : intro
   > Soixante-neuf biomes de Biomes O' Plenty dans le pack. Cinq à voir de ses yeux : le Bosquet mystique, le Champ de lavande, la Forêt de séquoias, le Volcan, les Tropiques. La boussole de la nature du chapitre Bienvenue les trouve.
-- **Passer une saison** — tâches : item sereneseasons:calendar, checkmark Une saison complète vécue — récompense : xp 5 — après : intro
+- **Passer une saison** — tâches : item sereneseasons:calendar, checkmark Une saison complète vécue — récompense : xp 5
   > Serene Seasons, réglé sur le serveur : chaque sous-saison dure 8 jours, donc 24 jours par saison et 96 par année, et le temps avance même serveur vide. L'hiver ne pose ni neige ni glace. Les cultures hors saison poussent plus lentement, sans mourir ; l'infobulle de chaque graine dit ses saisons. Le calendrier se fabrique et le verre de serre fait un capteur de saison.
 - **Un gardien ancien** — tâches : kill minecraft:elder_guardian — récompense : xp 15 — après : monument
   > Le gardien du monument, celui qui lance la fatigue de minage. Seul un combat mené après l'ouverture de cette quête compte.
@@ -9453,17 +9453,17 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 
 - **La forêt, hors des boss** — tâches : checkmark Lu — récompense : item minecraft:torch 16
   > Les collines creuses, les labyrinthes de haies, la clairière des quêtes, les arbres magiques : tout ce que la Twilight Forest offre sans boss. Une table de dé-fabrication s'y trouve aussi, mais sa fonction de dé-fabrication est désactivée sur ce serveur ; ses recettes spéciales restent.
-- **Une carte magique** — tâches : advancement twilightforest:magic_map_focus, item twilightforest:filled_magic_map — récompense : xp 5 — après : intro
+- **Une carte magique** — tâches : advancement twilightforest:magic_map_focus, item twilightforest:filled_magic_map — récompense : xp 5
   > Le foyer de carte magique se fabrique avec une plume de corbeau, une torche des baies et des yeux de verre (progrès du mod) ; la carte qui en sort montre les biomes et les boss alentour.
-- **Une petite colline creuse** — tâches : advancement twilightforest:hill1 — récompense : xp 3 — après : intro
+- **Une petite colline creuse** — tâches : advancement twilightforest:hill1 — récompense : xp 3
   > Pas de boss dans les collines creuses : du butin, des minerais et des monstres. Tuer un Redcap dans une petite colline valide le progrès.
 - **Une colline creuse moyenne** — tâches : advancement twilightforest:hill2 — récompense : xp 5 — après : colline1
   > Un Redcap sapeur, avec sa TNT, tué dans une colline moyenne.
 - **Une grande colline creuse** — tâches : advancement twilightforest:hill3 — récompense : table explorateur — après : colline2
   > Un spectre tué dans une grande colline creuse. Les grandes collines cachent les meilleurs coffres — par joueur. Jalon Explorateur.
-- **Le labyrinthe de haies** *(optionnelle)* — tâches : advancement twilightforest:hedge — récompense : xp 3 — après : intro
+- **Le labyrinthe de haies** *(optionnelle)* — tâches : advancement twilightforest:hedge — récompense : xp 3
   > Des haies qui piquent, des araignées de haie et d'essaim. En tuer une dans le labyrinthe valide le progrès.
-- **Le Bélier des quêtes** *(optionnelle)* — tâches : advancement twilightforest:quest_ram — récompense : xp 8 — après : intro
+- **Le Bélier des quêtes** *(optionnelle)* — tâches : advancement twilightforest:quest_ram — récompense : xp 8
   > Dans la clairière des quêtes, un bélier à seize couleurs demande les seize laines qui lui manquent. Il paie en diamants, en émeraudes, en lingots, et son trophée.
 - **La tour des champignons** *(optionnelle)* — tâches : structure twilightforest:mushroom_tower — récompense : xp 3 — après : intro
   > Une tour de champignons géants dans la forêt de champignons dense.
@@ -9473,15 +9473,15 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Sans la Liche vaincue, sa malédiction aveugle (texte du progrès). C'est là que sont le bastion des Gobelins et la tour sombre.
 - **Le Marais du feu** *(optionnelle)* — tâches : biome twilightforest:fire_swamp — récompense : xp 3 — après : intro
   > Sans le Stroganoff mangé, il brûle. Le repaire de l'Hydre est là.
-- **Les quatre sceptres** *(optionnelle)* — tâches : advancement twilightforest:lich_scepters — récompense : xp 10 — après : intro
+- **Les quatre sceptres** *(optionnelle)* — tâches : advancement twilightforest:lich_scepters — récompense : xp 10
   > Drainage de vie, zombie, fortification, Twilight : les sceptres de la Liche, tous les quatre (progrès du mod).
-- **L'équipement ardent** *(optionnelle)* — tâches : advancement twilightforest:fiery_set — récompense : xp 10 — après : intro
+- **L'équipement ardent** *(optionnelle)* — tâches : advancement twilightforest:fiery_set — récompense : xp 10
   > Le lingot ardent vient du sang de l'Hydre. Tenir un outil ou une arme ardente avec une pièce d'armure ardente dans l'inventaire : le progrès du mod.
-- **Bois de fer et Steeleaf** *(optionnelle)* — tâches : item twilightforest:ironwood_ingot 4, item twilightforest:steeleaf_ingot 4 — récompense : xp 5 — après : intro
+- **Bois de fer et Steeleaf** *(optionnelle)* — tâches : item twilightforest:ironwood_ingot 4, item twilightforest:steeleaf_ingot 4 — récompense : xp 5
   > Le bois de fer se fabrique avec la racine vivante ; le Steeleaf se trouve dans les coffres du labyrinthe. Leurs outils arrivent déjà enchantés.
-- **Le métal de chevalier** *(optionnelle)* — tâches : item twilightforest:knightmetal_ingot 4 — récompense : xp 5 — après : intro
+- **Le métal de chevalier** *(optionnelle)* — tâches : item twilightforest:knightmetal_ingot 4 — récompense : xp 5
   > Les fragments d'armure des gobelins chevaliers et des chevaliers fantômes, en amas puis en lingots. Armure, épée, bouclier, et la boucle de métal de chevalier.
-- **L'armure en écailles de Naga** *(optionnelle)* — tâches : advancement twilightforest:naga_armors — récompense : xp 5 — après : intro
+- **L'armure en écailles de Naga** *(optionnelle)* — tâches : advancement twilightforest:naga_armors — récompense : xp 5
   > Plastron et jambières en écailles de Naga, les deux (progrès du mod).
 - **L'armure en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_helmet, item twilightforest:ironwood_chestplate, item twilightforest:ironwood_leggings, item twilightforest:ironwood_boots — récompense : xp 5 — après : bois_de_fer
   > Le premier palier de la Twilight Forest, en lingots de bois de fer.
@@ -9499,13 +9499,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Le sommet de l'armure forgée de la Twilight Forest : des lingots ardents, faits du sang ou des larmes de l'Hydre et du Ur-Ghast.
 - **L'épée et la pioche ardentes** *(optionnelle)* — tâches : item twilightforest:fiery_sword, item twilightforest:fiery_pickaxe — récompense : xp 10 — après : armes_knightmetal, ardent
   > Les deux outils ardents : ils enflamment et cuisent ce qu'ils touchent ou minent.
-- **L'armure arctique** *(optionnelle)* — tâches : item twilightforest:arctic_helmet, item twilightforest:arctic_chestplate, item twilightforest:arctic_leggings, item twilightforest:arctic_boots — récompense : xp 6 — après : intro
+- **L'armure arctique** *(optionnelle)* — tâches : item twilightforest:arctic_helmet, item twilightforest:arctic_chestplate, item twilightforest:arctic_leggings, item twilightforest:arctic_boots — récompense : xp 6
   > En fourrure arctique, que lâchent les yétis et les loups d'hiver des Glaciers.
 - **L'armure de yéti** *(optionnelle)* — tâches : item twilightforest:yeti_helmet, item twilightforest:yeti_chestplate, item twilightforest:yeti_leggings, item twilightforest:yeti_boots — récompense : xp 10 — après : armure_arctique
   > En fourrure de yéti alpha : il faut abattre le Yéti alpha de sa grotte.
 - **L'armure fantôme** *(optionnelle)* — tâches : item twilightforest:phantom_helmet, item twilightforest:phantom_chestplate — récompense : xp 10 — après : armure_knightmetal
   > Le casque et le plastron fantômes ne se fabriquent pas : ils sont dans le coffre que laissent les chevaliers fantômes de la forteresse.
-- **Les arbres magiques** *(optionnelle)* — tâches : item twilightforest:transformation_sapling, item twilightforest:time_sapling, item twilightforest:mining_sapling, item twilightforest:sorting_sapling — récompense : xp 10 — après : intro
+- **Les arbres magiques** *(optionnelle)* — tâches : item twilightforest:transformation_sapling, item twilightforest:time_sapling, item twilightforest:mining_sapling, item twilightforest:sorting_sapling — récompense : xp 10
   > Quatre arbres dont le cœur agit à seize blocs (config du serveur) : Transformation change les biomes, Temps accélère les ticks, Minage tire les minerais, Tri range les coffres. Leurs pousses se trouvent dans les coffres de la forêt.
 - **Arboriste** *(optionnelle)* — tâches : advancement twilightforest:arborist — récompense : xp 15 — après : arbres
   > Tout ce qui vient des arbres de la forêt : chaque dalle, pousse, feuille, bateau, rampe. Le progrès du mod le dit en majuscules.
@@ -9519,13 +9519,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   >   > Sur Mac : désactive les shaders près des portails, ils font planter le jeu.
 - **La cour de la Naga** — tâches : structure twilightforest:naga_courtyard — récompense : xp 5 — après : portail
   > Une cour de nagastone dans la forêt. La Naga y tourne ; c'est le premier boss, et rien d'autre n'est accessible avant elle.
-- **Vaincre la Naga** — tâches : advancement twilightforest:progress_naga — récompense : xp 15 — après : cour_naga
+- **Vaincre la Naga** — tâches : advancement twilightforest:progress_naga — récompense : xp 15 — après : portail
   > Un serpent géant qui charge ; les pilonnes de la cour le ralentissent. Sa mort lève la barrière magique de la tour de la Liche (texte du progrès). Ses écailles font un plastron et des jambières. Sa mort est annoncée dans #faits-d-armes.
 - **Le trophée de la Naga** — tâches : item twilightforest:naga_trophy — récompense : xp 5 — après : naga
   > Dans le coffre du boss. Les trophées ouvrent le bastion des Gobelins, et décorent.
 - **La tour de la Liche** — tâches : structure twilightforest:lich_tower — récompense : xp 5 — après : naga
   > Une tour de brique dans la forêt, pleine de tomes de la mort et de boucliers. La Liche est au sommet.
-- **Vaincre la Liche** — tâches : advancement twilightforest:progress_lich — récompense : xp 20 — après : tour_liche
+- **Vaincre la Liche** — tâches : advancement twilightforest:progress_lich — récompense : xp 20 — après : naga
   > Une seule Liche est réelle ; les autres sont des clones d'ombre, invulnérables. Casse d'abord ses six boucliers : chaque coup en retire un, une boule de neige suffit. Puis les sceptres : vie, zombie, fortification, Twilight. Le progrès du mod dit que sa mort chasse les moustiques du marais, la malédiction de la forêt sombre et le froid de la forêt enneigée.
 - **Le trophée de la Liche** — tâches : item twilightforest:lich_trophy — récompense : xp 5 — après : liche
   > Dans le coffre du boss. Les quatre sceptres de pouvoir valent un progrès à part.
@@ -9533,11 +9533,11 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Sous le marais : des minotaures, des slimes de labyrinthe, des coffres par joueur. La salle du Minoshroom est à l'étage inférieur. La pioche Mazebreaker dort dans la chambre forte secrète.
 - **Vaincre le Minoshroom** — tâches : kill twilightforest:minoshroom — récompense : xp 15 — après : labyrinthe
   > Un minotaure-champignon à la hache. Il lâche le Stroganoff de Meef : c'est en le mangeant que la progression passe, pas en le tuant.
-- **Manger le Stroganoff de Meef** — tâches : advancement twilightforest:progress_labyrinth — récompense : xp 10 — après : minoshroom
+- **Manger le Stroganoff de Meef** — tâches : advancement twilightforest:progress_labyrinth — récompense : xp 10 — après : liche
   > Le progrès du mod : « manger le Stroganoff de Meef pour acclimater le corps à la chaleur du Marais du feu ». Sans lui, le marais brûle.
 - **Le repaire de l'Hydre** — tâches : structure twilightforest:hydra_lair — récompense : xp 5 — après : stroganoff
   > Une colline creuse dans le Marais du feu. Trois têtes, puis plus.
-- **Vaincre l'Hydre** — tâches : advancement twilightforest:progress_hydra — récompense : xp 25 — après : repaire_hydre
+- **Vaincre l'Hydre** — tâches : advancement twilightforest:progress_hydra — récompense : xp 25 — après : stroganoff
   > Frappe dans la gueule ouverte, esquive le feu et les mortiers. Son sang ardent fait les lingots ardents (épée, pioche, armure : progrès « fiery set »), et une tranche d'Hydre mangée affamé vaut un progrès. Sa mort est annoncée dans #faits-d-armes.
 - **Le trophée de l'Hydre** — tâches : item twilightforest:hydra_trophy — récompense : xp 5 — après : hydre
   > Dans le coffre du boss.
@@ -9545,13 +9545,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Dans les ruines de la forêt sombre, un piédestal à trophée à l'entrée du bastion des Gobelins : y poser un trophée de boss dissout les boucliers. Il faut avoir vaincu la Liche (parent du progrès).
 - **Le bastion des Gobelins** — tâches : structure twilightforest:knight_stronghold — récompense : xp 5 — après : piedestal
   > Gobelins chevaliers, golems de carminite, et la tombe des Chevaliers fantômes.
-- **Vaincre les Chevaliers fantômes** — tâches : advancement twilightforest:progress_knights — récompense : xp 20 — après : bastion
+- **Vaincre les Chevaliers fantômes** — tâches : advancement twilightforest:progress_knights — récompense : xp 20 — après : piedestal
   > Tous les fantômes de la tombe, jusqu'au dernier (progrès « kill all phantoms »). Leur butin ne va pas dans un coffre, contrairement aux autres boss (config du serveur). Ensuite, les dispositifs de la tour de carminite t'obéissent.
 - **Le trophée des Chevaliers fantômes** — tâches : item twilightforest:knight_phantom_trophy — récompense : xp 5 — après : chevaliers
   > Pris dans la tombe. Le métal de chevalier fait une armure, un bouclier et une boucle.
 - **La tour sombre** — tâches : structure twilightforest:dark_tower — récompense : xp 5 — après : chevaliers
   > Dans la forêt sombre : du towerwood, des ghastlings et ghastguards de carminite, des pièges. Au sommet, un piège à Ghast.
-- **Activer le piège à Ghast** — tâches : advancement twilightforest:ghast_trap — récompense : xp 8 — après : tour_sombre
+- **Activer le piège à Ghast** — tâches : advancement twilightforest:ghast_trap — récompense : xp 8 — après : chevaliers
   > Tuer les ghastlings autour du piège, puis l'activer pour arracher l'Ur-Ghast au ciel (texte du progrès).
 - **Vaincre l'Ur-Ghast** — tâches : advancement twilightforest:progress_ur_ghast — récompense : xp 25 — après : piege_ghast
   > Un ghast géant qui pleure des larmes rouges. Toucher ses larmes ardentes est le progrès. Sa mort est annoncée dans #faits-d-armes.
@@ -9559,13 +9559,13 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Dans le coffre du boss.
 - **La grotte du Yéti** — tâches : structure twilightforest:yeti_cave — récompense : xp 5 — après : liche
   > Dans la forêt enneigée, accessible une fois la Liche vaincue. Le Yéti Alpha y lance de la glace.
-- **Vaincre le Yéti Alpha** — tâches : advancement twilightforest:progress_yeti — récompense : xp 20 — après : grotte_yeti
+- **Vaincre le Yéti Alpha** — tâches : advancement twilightforest:progress_yeti — récompense : xp 20 — après : liche
   > Sa fourrure double les vêtements contre le froid du Glacier (texte du progrès) : l'armure de Yéti ouvre la suite.
 - **Le trophée du Yéti Alpha** — tâches : item twilightforest:alpha_yeti_trophy — récompense : xp 5 — après : yeti
   > Dans le coffre du boss.
 - **Le palais des aurores** — tâches : structure twilightforest:aurora_palace — récompense : xp 5 — après : yeti
   > Sur le Glacier, un palais de glace. La Reine des Neiges au sommet, protégée par ses cœurs de glace.
-- **Vaincre la Reine des Neiges** — tâches : advancement twilightforest:progress_glacier — récompense : xp 25 — après : palais
+- **Vaincre la Reine des Neiges** — tâches : advancement twilightforest:progress_glacier — récompense : xp 25 — après : yeti
   > Casse ses cœurs de glace quand elle se pose. Sa mort est annoncée dans #faits-d-armes.
 - **Le trophée de la Reine des Neiges** — tâches : item twilightforest:snow_queen_trophy — récompense : xp 5 — après : reine
   > Dans le coffre du boss.

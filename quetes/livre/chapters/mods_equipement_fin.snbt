@@ -30,7 +30,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2630576F04857580"]
 			description: [
 				"Le premier palier : un lingot de nétherite et quatre de fer. L'armure complète rend les &lphantoms&r neutres (config du serveur)."
 				""
@@ -396,7 +395,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2630576F04857580"]
 			description: ["Le premier bouclier de &7Shield Expansion&r : huit planches et un bâton. Puis fer, diamant et nétherite ; l'or est à part (huit lingots). Tous sont à la collection &lBoucliers&r de l'Encyclopédie."]
 			icon: "shieldexp:wooden_shield"
 			id: "05EA903F1B7CB605"
@@ -478,7 +476,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2630576F04857580"]
 			description: ["&eCharm of Undying&r : le totem d'immortalité se porte dans l'emplacement &lcharme&r des Curios, et agit depuis là. Le Totem du vide (Void Totem) sauve d'une chute dans le vide, en main ou en charme (infobulle)."]
 			icon: "minecraft:totem_of_undying"
 			id: "20AF4776A7630FDD"
@@ -499,7 +496,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2630576F04857580"]
 			description: ["&7Just Hammers&r : un marteau creuse une zone de &b3×3&r. Pierre, fer, or, diamant, nétherite ; puis chaque cœur agrandit la zone. Les cœurs se fabriquent l'un dans l'autre, et le premier consomme un marteau de nétherite."]
 			icon: "justhammers:iron_hammer"
 			id: "39F329A3E852AEA0"
@@ -542,7 +538,6 @@
 		}
 		{
 			dependencies: ["20B4BF8D85986B7E"]
-			dependency_requirement: "one_completed"
 			description: ["Le cœur d'impact entre deux blocs du matériau : la zone passe à &b3×3×3&r."]
 			icon: "justhammers:stone_impact_hammer"
 			id: "3DBD473B7CF0EE29"
@@ -557,26 +552,31 @@
 				{
 					id: "512021DE162B96B1"
 					item: "justhammers:stone_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "789CAA922B61A435"
 					item: "justhammers:iron_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "48C74991AD9F544F"
 					item: "justhammers:gold_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "74C214F0DDCF9868"
 					item: "justhammers:diamond_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7F1903B7E2E7E21C"
 					item: "justhammers:netherite_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -586,7 +586,6 @@
 		}
 		{
 			dependencies: ["3DBD473B7CF0EE29"]
-			dependency_requirement: "one_completed"
 			description: ["Le &lcœur renforcé&r se fait autour du cœur d'impact, avec des blocs de redstone et d'or : la zone passe à &b5×5&r."]
 			icon: "justhammers:stone_reinforced_hammer"
 			id: "7CB137FFDE64164D"
@@ -601,26 +600,31 @@
 				{
 					id: "58E9378FFCA895C6"
 					item: "justhammers:stone_reinforced_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "11FE1B7728E525E5"
 					item: "justhammers:iron_reinforced_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "57BF0122F276A114"
 					item: "justhammers:gold_reinforced_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5B1F1CE7A056F07D"
 					item: "justhammers:diamond_reinforced_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5731B70B0F8BCD24"
 					item: "justhammers:netherite_reinforced_hammer"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -630,7 +634,6 @@
 		}
 		{
 			dependencies: ["7CB137FFDE64164D"]
-			dependency_requirement: "one_completed"
 			description: ["Le &lcœur renforcé d'impact&r se fait autour du cœur renforcé, avec redstone, diamant et or : &b5×5×3&r."]
 			icon: "justhammers:stone_reinforced_impact_hammer"
 			id: "756CA0B394D4710C"
@@ -645,26 +648,31 @@
 				{
 					id: "564740792C34C04C"
 					item: "justhammers:stone_reinforced_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6C2E4998CCE78DB6"
 					item: "justhammers:iron_reinforced_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "04582D6FE0222265"
 					item: "justhammers:gold_reinforced_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0D210034DAB5B0BA"
 					item: "justhammers:diamond_reinforced_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7C5DD739DA77D502"
 					item: "justhammers:netherite_reinforced_impact_hammer"
+					optional_task: true
 					type: "item"
 				}
 			]

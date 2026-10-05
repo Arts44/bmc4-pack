@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets."]
 			icon: "minecraft:mossy_cobblestone"
 			id: "74DB4C2AB0AF9895"
 			rewards: [{
@@ -519,9 +519,10 @@
 			shape: "hexagon"
 			subtitle: "The Conjurer"
 			tasks: [{
-				id: "7E0B58BB5C872D0D"
-				structure: "conjurer_illager:theatre"
-				type: "structure"
+				advancement: "conjurer_illager:find_theatre"
+				criterion: ""
+				id: "06E0A96C1378CC27"
+				type: "advancement"
 			}]
 			title: "Visiter : « Theatre »"
 			x: 12.0d
@@ -539,9 +540,10 @@
 			shape: "hexagon"
 			subtitle: "Friends & Foes"
 			tasks: [{
-				id: "7A92FDF7855B1975"
-				structure: "friendsandfoes:citadel"
-				type: "structure"
+				advancement: "friendsandfoes:nether/find_citadel"
+				criterion: ""
+				id: "7092DFDC8AEC9949"
+				type: "advancement"
 			}]
 			title: "Visiter : « Citadel »"
 			x: 13.5d
@@ -839,9 +841,10 @@
 			shape: "hexagon"
 			subtitle: "jeu de base"
 			tasks: [{
-				id: "4AC021C0074415D7"
-				structure: "minecraft:ancient_city"
-				type: "structure"
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "7714E0DAFF31990E"
+				type: "advancement"
 			}]
 			title: "Visiter : « Ancient city »"
 			x: 12.0d
@@ -859,9 +862,10 @@
 			shape: "hexagon"
 			subtitle: "jeu de base"
 			tasks: [{
-				id: "2C779C5DCCE48EEA"
-				structure: "minecraft:bastion_remnant"
-				type: "structure"
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "15D55B03FB83178C"
+				type: "advancement"
 			}]
 			title: "Visiter : « Bastion remnant »"
 			x: 13.5d
@@ -919,9 +923,10 @@
 			shape: "hexagon"
 			subtitle: "jeu de base"
 			tasks: [{
-				id: "35984423FBE96F38"
-				structure: "minecraft:end_city"
-				type: "structure"
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "087C66CC9EF499D9"
+				type: "advancement"
 			}]
 			title: "Visiter : « End city »"
 			x: 18.0d
@@ -939,9 +944,10 @@
 			shape: "hexagon"
 			subtitle: "jeu de base"
 			tasks: [{
-				id: "4869A6D32EBCF270"
-				structure: "minecraft:fortress"
-				type: "structure"
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "0C41C6F86E8A7D94"
+				type: "advancement"
 			}]
 			title: "Visiter : « Fortress »"
 			x: 19.5d
@@ -1339,9 +1345,10 @@
 			shape: "hexagon"
 			subtitle: "jeu de base"
 			tasks: [{
-				id: "14351C4943450025"
-				structure: "minecraft:stronghold"
-				type: "structure"
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "3DB12615F58F9A31"
+				type: "advancement"
 			}]
 			title: "Visiter : « Stronghold »"
 			x: 1.5d
@@ -1639,9 +1646,10 @@
 			shape: "hexagon"
 			subtitle: "Takes a Pillage"
 			tasks: [{
-				id: "03D25AD58CAED7D9"
-				structure: "takesapillage:bastille"
-				type: "structure"
+				advancement: "takesapillage:bastille"
+				criterion: ""
+				id: "0F5C3EA6140E7DB1"
+				type: "advancement"
 			}]
 			title: "Visiter : « Bastille »"
 			x: 0.0d
@@ -1659,9 +1667,10 @@
 			shape: "hexagon"
 			subtitle: "Takes a Pillage"
 			tasks: [{
-				id: "15CA8E75D1893C1F"
-				structure: "takesapillage:pillager_camp"
-				type: "structure"
+				advancement: "takesapillage:pillager_camp"
+				criterion: ""
+				id: "4256A54A6FAC97BA"
+				type: "advancement"
 			}]
 			title: "Visiter : « Pillager camp »"
 			x: 1.5d

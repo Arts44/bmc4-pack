@@ -47,10 +47,10 @@
 			}]
 			title: "La forteresse"
 			x: 2.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
-			dependencies: ["1DB1A732D88B2DD2"]
+			dependencies: ["76BD5657051C3288"]
 			description: ["L'île centrale est refaite par &bYUNG's Better End Island&r, et la plate-forme d'arrivée aussi (config du serveur). Le dragon attend."]
 			id: "059B81E40A250C72"
 			rewards: [{
@@ -60,18 +60,18 @@
 			}]
 			size: 1.3d
 			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "4CC22BFAFC758E0F"
-				type: "dimension"
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "132F61F5ACE396A2"
+				type: "advancement"
 			}]
 			title: "Entrer dans l'End"
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["059B81E40A250C72"]
 			description: ["Les cristaux d'abord, le dragon ensuite. Sa mort est annoncée dans #faits-d-armes. Tué avec une arme d'essence enchantée Illumination mystique, il lâche de la &dpoussière cognizante&r de Mystical Agriculture (config du serveur) ; sa peau sert au grimoire en peau de dragon d'Iron's Spells. Un dragon ré-invoqué avec quatre cristaux &lne laisse pas d'œuf&r sur ce serveur."]
-			icon: "minecraft:ender_dragon_spawn_egg"
 			id: "2029658849E78612"
 			rewards: [{
 				id: "405F6D0B10540BE2"
@@ -81,13 +81,13 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "171DD955D17F6BCF"
-				type: "kill"
-				value: 1L
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "3FD751654444C082"
+				type: "advancement"
 			}]
 			title: "&5Vaincre l'Ender Dragon"
-			x: 6.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -100,12 +100,13 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "0ED950A88CD45DE1"
-				structure: "minecraft:end_city"
-				type: "structure"
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "6F8755F6F3EAFB22"
+				type: "advancement"
 			}]
 			title: "Une cité de l'End"
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -125,7 +126,7 @@
 				type: "advancement"
 			}]
 			title: "Des élytres"
-			x: 10.0d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -152,7 +153,7 @@
 				}
 			]
 			title: "Des coquilles de shulker"
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -171,7 +172,7 @@
 				type: "item"
 			}]
 			title: "Un Totem du vide"
-			x: 10.0d
+			x: 8.0d
 			y: 1.5d
 		}
 		{
@@ -191,7 +192,7 @@
 				type: "biome"
 			}]
 			title: "Les Montagnes de cristal"
-			x: 6.0d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
@@ -211,7 +212,7 @@
 				type: "biome"
 			}]
 			title: "Les Champignons brumeux"
-			x: 6.0d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
@@ -231,7 +232,7 @@
 				type: "biome"
 			}]
 			title: "Les Bois de lanternes"
-			x: 6.0d
+			x: 4.0d
 			y: 6.5d
 		}
 		{
@@ -251,7 +252,7 @@
 				type: "biome"
 			}]
 			title: "La Forêt d'ombre"
-			x: 6.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
@@ -271,11 +272,11 @@
 				type: "biome"
 			}]
 			title: "Les Terres d'ambre"
-			x: 6.0d
+			x: 4.0d
 			y: 9.5d
 		}
 		{
-			dependencies: ["07A8C6AA88849AC5"]
+			dependencies: ["059B81E40A250C72"]
 			description: ["Better End pose des villages dans l'End (progrès « Enter a village in the End »)."]
 			id: "3D2E9D7D8136B5E3"
 			optional: true
@@ -286,13 +287,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "3A5FE8B6EE995756"
-				structure: "betterend:end_village"
-				type: "structure"
+				advancement: "betterend:village"
+				criterion: ""
+				id: "7FA4CBD2E19A521F"
+				type: "advancement"
 			}]
 			title: "Un village de l'End"
-			x: 8.0d
-			y: 3.5d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["059B81E40A250C72"]
@@ -312,8 +314,8 @@
 				type: "item"
 			}]
 			title: "Une fondeuse de pierre de l'End"
-			x: 6.0d
-			y: 11.0d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5C1D798396CD04EF"]
@@ -333,8 +335,8 @@
 				type: "item"
 			}]
 			title: "Un lingot de thallasium"
-			x: 8.0d
-			y: 5.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3945B4EB5B61FF66"]
@@ -354,7 +356,7 @@
 				type: "item"
 			}]
 			title: "Un lingot de terminite"
-			x: 10.0d
+			x: 8.0d
 			y: 3.5d
 		}
 		{
@@ -376,7 +378,7 @@
 				type: "item"
 			}]
 			title: "Un lingot d'aeternium"
-			x: 12.0d
+			x: 10.0d
 			y: 3.5d
 		}
 		{
@@ -397,8 +399,8 @@
 				type: "item"
 			}]
 			title: "Un socle d'infusion"
-			x: 6.0d
-			y: 12.5d
+			x: 4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["089D44E3AFE0A5B1"]
@@ -418,8 +420,8 @@
 				type: "item"
 			}]
 			title: "Un cristal éternel"
-			x: 8.0d
-			y: 6.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["059B81E40A250C72"]
@@ -439,8 +441,8 @@
 				type: "item"
 			}]
 			title: "Un obélisque de réapparition"
-			x: 6.0d
-			y: 14.0d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["0E8DD8045A0B4845"]
@@ -459,7 +461,7 @@
 				type: "structure"
 			}]
 			title: "Les structures de Moog's End"
-			x: 10.0d
+			x: 8.0d
 			y: 5.0d
 		}
 		{
@@ -482,8 +484,8 @@
 				value: 1L
 			}]
 			title: "&5Ré-invoquer l'Ender Dragon"
-			x: 8.0d
-			y: 8.0d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3945B4EB5B61FF66"]
@@ -520,7 +522,7 @@
 				}
 			]
 			title: "L'armure en thallasium"
-			x: 10.0d
+			x: 8.0d
 			y: 6.5d
 		}
 		{
@@ -568,7 +570,7 @@
 				}
 			]
 			title: "Les outils en thallasium"
-			x: 10.0d
+			x: 8.0d
 			y: 8.0d
 		}
 		{
@@ -609,7 +611,7 @@
 				}
 			]
 			title: "L'armure en terminite"
-			x: 12.0d
+			x: 10.0d
 			y: 5.0d
 		}
 		{
@@ -660,7 +662,7 @@
 				}
 			]
 			title: "Les outils en terminite"
-			x: 12.0d
+			x: 10.0d
 			y: 6.5d
 		}
 		{
@@ -701,7 +703,7 @@
 				}
 			]
 			title: "L'armure en crystalite"
-			x: 14.0d
+			x: 12.0d
 			y: 3.5d
 		}
 		{
@@ -743,7 +745,7 @@
 				}
 			]
 			title: "&5L'armure en aeternium"
-			x: 14.0d
+			x: 12.0d
 			y: 5.0d
 		}
 		{
@@ -794,7 +796,7 @@
 				}
 			]
 			title: "Les outils en aeternium"
-			x: 14.0d
+			x: 12.0d
 			y: 6.5d
 		}
 		{
@@ -817,7 +819,7 @@
 				type: "checkmark"
 			}]
 			title: "&5Le vide est franchi"
-			x: 12.0d
+			x: 10.0d
 			y: 0.0d
 		}
 	]

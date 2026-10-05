@@ -28,7 +28,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			description: ["Overworld, Nether, End, Aether, Everbright, Everdawn, Twilight Forest, Otherside."]
 			id: "387FE7E34C8D2EA3"
 			optional: true
@@ -46,29 +45,34 @@
 					type: "dimension"
 				}
 				{
-					dimension: "minecraft:the_nether"
-					id: "2A5D1E5EE8E00876"
-					type: "dimension"
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "5F14256E0DA5A9CD"
+					type: "advancement"
 				}
 				{
-					dimension: "minecraft:the_end"
-					id: "78FED42CC3506A51"
-					type: "dimension"
+					advancement: "minecraft:story/enter_the_end"
+					criterion: ""
+					id: "32D240B782A81998"
+					type: "advancement"
 				}
 				{
-					dimension: "aether:the_aether"
-					id: "3EE12F8069C61E58"
-					type: "dimension"
+					advancement: "aether:enter_aether"
+					criterion: ""
+					id: "0527B2AB5DFE8E6B"
+					type: "advancement"
 				}
 				{
-					dimension: "blue_skies:everbright"
-					id: "7524B7C0AE5FE097"
-					type: "dimension"
+					advancement: "blue_skies:everbright/enter"
+					criterion: ""
+					id: "3C6EB53AA1342D6C"
+					type: "advancement"
 				}
 				{
-					dimension: "blue_skies:everdawn"
-					id: "287E2286E0AE6110"
-					type: "dimension"
+					advancement: "blue_skies:everdawn/enter"
+					criterion: ""
+					id: "17561B2D2EA8D5DC"
+					type: "advancement"
 				}
 				{
 					dimension: "twilightforest:twilight_forest"
@@ -76,9 +80,10 @@
 					type: "dimension"
 				}
 				{
-					dimension: "deeperdarker:otherside"
-					id: "0085EBF09601C40D"
-					type: "dimension"
+					advancement: "deeperdarker:main/enter_otherside"
+					criterion: ""
+					id: "12B04937C99A7EE8"
+					type: "advancement"
 				}
 			]
 			title: "Les huit dimensions"
@@ -86,7 +91,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			description: ["Statistique du jeu : un million de centimètres marchés. Le bateau, le cheval et le vol ne comptent pas."]
 			id: "38672E6F061A9061"
 			optional: true
@@ -127,7 +131,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			id: "2D305BE79FB566DC"
 			optional: true
 			rewards: [{
@@ -147,7 +150,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			id: "5D407F077E547A47"
 			optional: true
 			rewards: [{
@@ -167,7 +169,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			id: "2461CF839EC8F433"
 			optional: true
 			rewards: [{
@@ -187,7 +188,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			description: ["Petite, moyenne, grande : un Redcap, un sapeur, un spectre tués dans chacune (progrès de la Twilight Forest)."]
 			id: "74BD2BAE14DABA3B"
 			optional: true
@@ -330,7 +330,6 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			description: ["Le progrès vanilla : tous les biomes de l'Overworld vanilla. Ceux de Biomes O' Plenty et des autres mods ne sont pas exigés."]
 			id: "5366511DE36921CC"
 			optional: true
@@ -388,7 +387,6 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			id: "62A95EBD98171782"
 			optional: true
 			rewards: [{
@@ -409,9 +407,10 @@
 					type: "structure"
 				}
 				{
-					id: "31A56AA6CEF1BFCC"
-					structure: "minecraft:ancient_city"
-					type: "structure"
+					advancement: "deeperdarker:main/find_ancient_city"
+					criterion: ""
+					id: "6D50C17BB9E84CD6"
+					type: "advancement"
 				}
 				{
 					id: "70AF864647EED939"
@@ -424,7 +423,6 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["5B02705BF4EDCB4C"]
 			description: ["Tomber du haut du monde jusqu'en bas et survivre (progrès vanilla)."]
 			id: "29A5FFF55B81BAEF"
 			optional: true

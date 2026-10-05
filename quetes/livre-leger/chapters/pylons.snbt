@@ -42,7 +42,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6BFFDB3C4E7C2E7D"]
 			description: [
 				"Un bloc de foin au centre. Le &apylône de récolte&r moissonne les cultures dans un rayon autour de lui ; il se pose dans ou au-dessus du bloc d'eau du champ."
 				""
@@ -66,7 +65,6 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["6BFFDB3C4E7C2E7D"]
 			description: ["Un bloc de diamant au centre. Il &cexpulse les autres joueurs&r des chunks autour de lui, sur une portée réglable. Dans un claim, c'est une double sécurité ; hors claim, c'est une arme de territoire. Un filtre de joueur (clic droit sur quelqu'un) fait des exceptions."]
 			icon: "pylons:expulsion_pylon"
 			id: "4373192231EDD11E"
@@ -85,7 +83,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["6BFFDB3C4E7C2E7D"]
 			description: ["Un bloc de nétherite au centre. Il &lempêche les apparitions&r de créatures dans un rayon autour de lui, celles que son filtre de créature désigne. Une base sans torches, un champ sans phantoms."]
 			icon: "pylons:interdiction_pylon"
 			id: "3A47FC84DEC64A98"
@@ -104,7 +101,6 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["6BFFDB3C4E7C2E7D"]
 			description: ["Un bloc d'émeraude au centre. Il applique, à n'importe quelle distance, l'effet de potion inscrit sur son filtre de potion : clic droit avec l'effet actif pour l'inscrire, et encore pour allonger sa durée."]
 			icon: "pylons:infusion_pylon"
 			id: "6B5DFF2F1228D8FF"

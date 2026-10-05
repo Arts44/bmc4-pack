@@ -57,7 +57,7 @@
 			}]
 			title: "Un village"
 			x: 2.0d
-			y: -3.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["55F7CB144EB0C67A"]
@@ -77,7 +77,7 @@
 			}]
 			title: "Une ville de Towns & Towers"
 			x: 4.0d
-			y: 5.75d
+			y: 6.5d
 		}
 		{
 			dependencies: ["55F7CB144EB0C67A"]
@@ -97,7 +97,7 @@
 			}]
 			title: "Les villages manquants de Moog's"
 			x: 4.0d
-			y: 7.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["55F7CB144EB0C67A"]
@@ -139,7 +139,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["09F487A786A67A68"]
 			description: ["Un raid de village, défendu jusqu'au bout. Sur ce serveur, les vagues comptent les illageois d'&bIllager Invasion&r et de &bIt Takes a Pillage&r ; l'&cInvoker&r y participe. Le progrès du jeu valide la quête."]
 			id: "008889543366B530"
 			rewards: [{
@@ -155,8 +154,8 @@
 				type: "advancement"
 			}]
 			title: "Héros du village"
-			x: 6.0d
-			y: -1.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["09F487A786A67A68"]
@@ -176,10 +175,9 @@
 			}]
 			title: "La tour de l'Illusionniste"
 			x: 6.0d
-			y: 5.75d
+			y: 6.5d
 		}
 		{
-			dependencies: ["09F487A786A67A68"]
 			description: ["Le &5Conjurateur&r tient un théâtre dans les forêts de chênes noirs ; il apparaît sur la scène. Illusions, lapins explosifs, cartes : un spectacle qui se termine à l'épée."]
 			id: "1923C4D362B680D8"
 			optional: true
@@ -190,13 +188,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "13E59ACA86AFCE01"
-				structure: "conjurer_illager:theatre"
-				type: "structure"
+				advancement: "conjurer_illager:find_theatre"
+				criterion: ""
+				id: "2F743E7B4A0C9F18"
+				type: "advancement"
 			}]
 			title: "Le théâtre du Conjurateur"
-			x: 6.0d
-			y: 7.25d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -214,7 +213,7 @@
 			}]
 			title: "Le temple du désert"
 			x: 2.0d
-			y: -2.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["76E47F9261CA0D7A"]
@@ -251,7 +250,7 @@
 			}]
 			title: "Le monument océanique"
 			x: 2.0d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -271,7 +270,7 @@
 			}]
 			title: "Les ruines des sentiers"
 			x: 2.0d
-			y: 5.75d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -289,7 +288,7 @@
 			}]
 			title: "Une mine abandonnée"
 			x: 2.0d
-			y: 0.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3090B61C665E1658"]
@@ -327,7 +326,7 @@
 			}]
 			title: "La cabane de la sorcière"
 			x: 2.0d
-			y: 7.25d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -347,7 +346,7 @@
 			}]
 			title: "Les ruines de Philips"
 			x: 2.0d
-			y: 8.75d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -367,7 +366,7 @@
 			}]
 			title: "Le vieux manoir de Structory"
 			x: 2.0d
-			y: 10.25d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -387,7 +386,7 @@
 			}]
 			title: "Le trou de hobbit (Formations)"
 			x: 2.0d
-			y: 11.75d
+			y: 14.0d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -407,10 +406,9 @@
 			}]
 			title: "L'île flottante (Explorations)"
 			x: 2.0d
-			y: 13.25d
+			y: 15.5d
 		}
 		{
-			dependencies: ["55F7CB144EB0C67A"]
 			description: ["&bRepurposed Structures&r redéploie les structures du jeu là où elles n'allaient pas : un igloo d'herbe, de pierre, de champignon ou de mangrove ; une cabane de sorcière de bouleau ou de taïga ; une &lcité&r de l'Overworld. Les trois valident la quête. &aTroisième jalon Explorateur.&r"]
 			id: "122CA7076E448858"
 			optional: true
@@ -433,14 +431,15 @@
 					type: "structure"
 				}
 				{
-					id: "1DFBF153F8034A0D"
-					structure: "repurposed_structures:city_overworld"
-					type: "structure"
+					advancement: "repurposed_structures:city_overworld"
+					criterion: ""
+					id: "0DEB45F173146CED"
+					type: "advancement"
 				}
 			]
 			title: "Trois variantes de Repurposed Structures"
-			x: 4.0d
-			y: 8.75d
+			x: 2.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -460,7 +459,7 @@
 			}]
 			title: "Une épave"
 			x: 2.0d
-			y: 14.75d
+			y: 18.5d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -480,7 +479,7 @@
 			}]
 			title: "Un portail en ruine"
 			x: 2.0d
-			y: 16.25d
+			y: 20.0d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -521,10 +520,9 @@
 			]
 			title: "Cinq biomes de Biomes O' Plenty"
 			x: 2.0d
-			y: 2.25d
+			y: 3.0d
 		}
 		{
-			dependencies: ["2688EF613B076FF9"]
 			description: ["&bSerene Seasons&r, réglé sur le serveur : chaque sous-saison dure &l8 jours&r, donc 24 jours par saison et 96 par année, et le temps avance même serveur vide. L'hiver ne pose ni neige ni glace. Les cultures hors saison &lpoussent plus lentement&r, sans mourir ; l'infobulle de chaque graine dit ses saisons. Le &6calendrier&r se fabrique et le verre de serre fait un capteur de saison."]
 			icon: "sereneseasons:calendar"
 			id: "3E43A375BE8BC4EA"
@@ -547,7 +545,7 @@
 			]
 			title: "Passer une saison"
 			x: 2.0d
-			y: 3.75d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1224156C11D4975F"]
@@ -591,7 +589,7 @@
 			}]
 			title: "&3Trois gardiens anciens"
 			x: 6.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["23F3317759194216"]
@@ -613,7 +611,7 @@
 			}]
 			title: "&8L'évocateur"
 			x: 6.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: [

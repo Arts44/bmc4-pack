@@ -40,9 +40,10 @@
 			}]
 			size: 1.3d
 			tasks: [{
-				dimension: "aether:the_aether"
-				id: "766573BD402D3C37"
-				type: "dimension"
+				advancement: "aether:enter_aether"
+				criterion: ""
+				id: "7A61DF9883448F8A"
+				type: "advancement"
 			}]
 			title: "Entrer dans l'Aether"
 			x: 2.0d
@@ -66,7 +67,7 @@
 			}]
 			title: "Du bois de Skyroot"
 			x: 4.0d
-			y: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6D0336C0967F3F70"]
@@ -85,7 +86,7 @@
 			}]
 			title: "Une pioche en holystone"
 			x: 6.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["56653C558BB84C3F"]
@@ -105,7 +106,7 @@
 			}]
 			title: "Des éclats d'ambrosium"
 			x: 8.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["56653C558BB84C3F"]
@@ -124,7 +125,7 @@
 			}]
 			title: "Une gemme de zanite"
 			x: 8.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["525ADAF11B2EA2D9"]
@@ -162,7 +163,7 @@
 			}]
 			title: "De la gravitite enchantée"
 			x: 12.0d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7F0EAB88C43B5608"]
@@ -183,7 +184,7 @@
 			}]
 			title: "L'armure de gravitite"
 			x: 14.0d
-			y: 4.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -202,7 +203,7 @@
 			}]
 			title: "Un œuf de Moa"
 			x: 4.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["27E8C8DD42AAFA44"]
@@ -229,7 +230,7 @@
 			]
 			title: "Couver un Moa"
 			x: 6.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -250,7 +251,7 @@
 			}]
 			title: "Voler sur un Phyg"
 			x: 4.0d
-			y: 4.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -270,7 +271,7 @@
 			}]
 			title: "Une Pierre de Soin"
 			x: 4.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -299,7 +300,7 @@
 			]
 			title: "Icestone et congélateur"
 			x: 4.0d
-			y: 5.75d
+			y: 6.5d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -320,7 +321,7 @@
 			}]
 			title: "Rebondir sur un aérnuage"
 			x: 4.0d
-			y: 7.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -338,10 +339,10 @@
 			}]
 			title: "Le donjon de bronze"
 			x: 4.0d
-			y: 2.25d
+			y: 1.5d
 		}
 		{
-			dependencies: ["35B31DB2947D64E7"]
+			dependencies: ["406A5A915661BC0F"]
 			description: ["Un cube de pierre qui charge. Sa mort ouvre le trésor du donjon : le Marteau de Kingbdogz, la Lance de Valkyrie qui mène au donjon d'argent, la Cape aérienne d'Aether Redux (double saut). Vaincu &lsans prendre un coup&r, il laisse l'Œil du Slider (Deep Aether, config du serveur)."]
 			id: "681600F1993ADCBA"
 			rewards: [{
@@ -358,8 +359,8 @@
 				type: "advancement"
 			}]
 			title: "&7Vaincre le Slider"
-			x: 6.0d
-			y: 1.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["681600F1993ADCBA"]
@@ -376,11 +377,11 @@
 				type: "structure"
 			}]
 			title: "Le donjon d'argent"
-			x: 8.0d
-			y: 1.5d
+			x: 6.0d
+			y: 0.75d
 		}
 		{
-			dependencies: ["04054885B32944AD"]
+			dependencies: ["681600F1993ADCBA"]
 			description: ["Son trésor : l'équipement de Valkyrie, la Pierre de régénération qui mène au donjon d'or, et la Grande Médaille de victoire d'Aether Redux. Sans faute : la Médaille d'honneur (Deep Aether)."]
 			id: "2983ACD62DE616FC"
 			rewards: [{
@@ -397,8 +398,8 @@
 				type: "advancement"
 			}]
 			title: "&fVaincre la Reine des Valkyries"
-			x: 10.0d
-			y: 0.75d
+			x: 6.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["2983ACD62DE616FC"]
@@ -415,11 +416,11 @@
 				type: "structure"
 			}]
 			title: "Le donjon d'or"
-			x: 12.0d
+			x: 8.0d
 			y: 0.75d
 		}
 		{
-			dependencies: ["5CB484CE7CE977B8"]
+			dependencies: ["2983ACD62DE616FC"]
 			description: ["Le dernier boss de l'Aether de base. Son trésor : l'armure du Phénix, l'Emblème solaire et l'Arbalète subzéro d'Aether Redux. Sans faute : le Cœur de soleil (Deep Aether). Sa mort est annoncée dans #faits-d-armes."]
 			id: "315F402411B0E10E"
 			rewards: [{
@@ -436,8 +437,8 @@
 				type: "advancement"
 			}]
 			title: "&6Vaincre l'Esprit du Soleil"
-			x: 14.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -469,10 +470,10 @@
 			]
 			title: "Les biomes de Deep Aether"
 			x: 4.0d
-			y: 8.75d
+			y: 9.5d
 		}
 		{
-			dependencies: ["1ACE5DA561A4CED7"]
+			dependencies: ["406A5A915661BC0F"]
 			description: ["La &askyjade&r de Deep Aether fait des outils et une armure. Sur ce serveur, ses outils &lne s'enchantent pas&r (config)."]
 			icon: "deep_aether:skyjade"
 			id: "4A459A24508C136C"
@@ -489,8 +490,8 @@
 				type: "item"
 			}]
 			title: "Une gemme de skyjade"
-			x: 6.0d
-			y: 4.25d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["315F402411B0E10E"]
@@ -509,11 +510,11 @@
 				type: "structure"
 			}]
 			title: "Le donjon de laiton"
-			x: 16.0d
-			y: 4.25d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["39CD70686F059C0D"]
+			dependencies: ["315F402411B0E10E"]
 			description: ["Le boss de laiton (progrès « Defeat the brass boss »). Sans faute : l'écharpe flottante. Le modèle de forge Stratus et l'armure Stratus (progrès du mod) sont la fin de Deep Aether."]
 			id: "5705FD52C185205B"
 			optional: true
@@ -531,8 +532,8 @@
 				type: "advancement"
 			}]
 			title: "&bVaincre l'Œil de la Tempête"
-			x: 18.0d
-			y: 4.25d
+			x: 10.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -559,7 +560,7 @@
 			]
 			title: "Les biomes d'Aether Redux"
 			x: 4.0d
-			y: 10.25d
+			y: 12.5d
 		}
 		{
 			dependencies: ["625B448D025F9F14"]
@@ -579,8 +580,8 @@
 				type: "advancement"
 			}]
 			title: "Du veridium infusé"
-			x: 10.0d
-			y: 4.25d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["681600F1993ADCBA"]
@@ -600,11 +601,11 @@
 				type: "advancement"
 			}]
 			title: "Un double saut"
-			x: 8.0d
-			y: 4.25d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["670D9095992A6113"]
+			dependencies: ["406A5A915661BC0F"]
 			description: ["Le minerai de &averidium&r d'Aether Redux donne du veridium brut, que Fortune multiplie. Au four ou au haut fourneau, il devient un lingot."]
 			icon: "aether_redux:veridium_ingot"
 			id: "288D2FB0ECE426B3"
@@ -622,12 +623,11 @@
 				type: "item"
 			}]
 			title: "Du veridium"
-			x: 6.0d
-			y: 5.75d
+			x: 4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["288D2FB0ECE426B3"]
-			dependency_requirement: "one_completed"
 			description: ["Pioche, épée, hache, pelle, houe et sarbacane à fléchettes en veridium. Un éclat d'ambrosium les infuse ensuite (quête suivante)."]
 			icon: "aether_redux:veridium_pickaxe"
 			id: "625B448D025F9F14"
@@ -642,27 +642,31 @@
 				{
 					id: "05B7E299015CF0FF"
 					item: "aether_redux:veridium_pickaxe"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "53E2F6BAA633E0C3"
 					item: "aether_redux:veridium_sword"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "72814094AFFE4B51"
 					item: "aether_redux:veridium_axe"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "28132997225CC8F6"
 					item: "aether_redux:veridium_dart_shooter"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Des outils en veridium"
-			x: 8.0d
-			y: 5.75d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["05D1A7DF6EFC682F"]
@@ -682,11 +686,11 @@
 				type: "advancement"
 			}]
 			title: "La Plume de garde"
-			x: 12.0d
-			y: 4.25d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["670D9095992A6113"]
+			dependencies: ["406A5A915661BC0F"]
 			description: ["Le croc d'un « Blightbunny », un bâton de skyroot et une gemme de zanite : la « Spear of the Blight »."]
 			icon: "aether_redux:spear_of_the_blight"
 			id: "0D6AD3580193F71D"
@@ -703,12 +707,11 @@
 				type: "item"
 			}]
 			title: "La Lance du Fléau"
-			x: 6.0d
-			y: 7.25d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["670D9095992A6113"]
-			dependency_requirement: "one_completed"
+			dependencies: ["406A5A915661BC0F"]
 			description: ["Tous partent d'un anneau enchanté. Holystone et zanite font l'« Ring of Wisdom » ; « Shimmerstool », « Cloudcap Mushling » et « Lightroot Clump », l'« Adrenaline Ring » ; la sentrite raffinée et un circuit de sentinelle, que les sentinelles lâchent une fois sur quatre, le « Sentry Ring »."]
 			icon: "aether_redux:ring_of_wisdom"
 			id: "5B792F8835893C13"
@@ -723,22 +726,25 @@
 				{
 					id: "1DCA14A04F9E2DA5"
 					item: "aether_redux:ring_of_wisdom"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "709044C28673F979"
 					item: "aether_redux:shroom_ring"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "533E080EFC0D830B"
 					item: "aether_redux:sentry_ring"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Les anneaux de Redux"
-			x: 6.0d
-			y: 8.75d
+			x: 4.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2983ACD62DE616FC"]
@@ -758,8 +764,8 @@
 				type: "advancement"
 			}]
 			title: "&eLa Grande médaille de la victoire"
-			x: 12.0d
-			y: 5.75d
+			x: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["315F402411B0E10E"]
@@ -779,8 +785,8 @@
 				type: "item"
 			}]
 			title: "&bL'arbalète Subzero"
-			x: 16.0d
-			y: 5.75d
+			x: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -801,7 +807,7 @@
 			}]
 			title: "Jette-le dans le feu !"
 			x: 4.0d
-			y: 11.75d
+			y: 18.5d
 		}
 		{
 			dependencies: ["47F5A95BCF84280A"]
@@ -822,7 +828,7 @@
 			}]
 			title: "Une armure de moa en cuir"
 			x: 8.0d
-			y: 7.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0DDB627A46F7FD93"]
@@ -843,7 +849,7 @@
 			}]
 			title: "Une armure de moa en fer"
 			x: 10.0d
-			y: 5.75d
+			y: 11.0d
 		}
 		{
 			dependencies: ["702A571B0714E00E"]
@@ -864,7 +870,7 @@
 			}]
 			title: "Une armure de moa en or"
 			x: 12.0d
-			y: 7.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7ED4CC516CB2D7FE"]
@@ -885,7 +891,7 @@
 			}]
 			title: "Une armure de moa en zanite"
 			x: 14.0d
-			y: 5.75d
+			y: 6.5d
 		}
 		{
 			dependencies: ["30A8D8361FD85EB1"]
@@ -906,7 +912,7 @@
 			}]
 			title: "Une armure de moa en diamant"
 			x: 16.0d
-			y: 7.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6EC9F3DCE0FF6262"]
@@ -927,7 +933,7 @@
 			}]
 			title: "&bUne armure de moa en gravitite"
 			x: 18.0d
-			y: 5.75d
+			y: 5.0d
 		}
 		{
 			dependencies: ["56653C558BB84C3F"]
@@ -948,11 +954,10 @@
 			}]
 			title: "Un four en holystone"
 			x: 8.0d
-			y: 8.75d
+			y: 9.5d
 		}
 		{
-			dependencies: ["35B31DB2947D64E7"]
-			dependency_requirement: "one_completed"
+			dependencies: ["406A5A915661BC0F"]
 			description: ["Un coffre de donjon de bronze ou d'argent cache, très rarement, un « Valkyrie Pickarang ». Le donjon d'argent peut aussi donner le « Phoenix Flamerang ». Comme le pickarang de Quark, il se lance et revient en minant ce qu'il touche."]
 			icon: "ascended_quark:valkyrie_pickarang"
 			id: "28F932406F8AB35F"
@@ -967,17 +972,19 @@
 				{
 					id: "496C6FEB80907E3A"
 					item: "ascended_quark:valkyrie_pickarang"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "24CAB705D10273E4"
 					item: "ascended_quark:phoenix_flamerang"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Un pickarang des Valkyries"
-			x: 6.0d
-			y: 10.25d
+			x: 4.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["681600F1993ADCBA"]
@@ -997,8 +1004,8 @@
 				type: "item"
 			}]
 			title: "Le trophée du Slider"
-			x: 8.0d
-			y: 10.25d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2983ACD62DE616FC"]
@@ -1018,8 +1025,8 @@
 				type: "item"
 			}]
 			title: "Le trophée de la Reine des Valkyries"
-			x: 12.0d
-			y: 8.75d
+			x: 8.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["315F402411B0E10E"]
@@ -1039,8 +1046,8 @@
 				type: "item"
 			}]
 			title: "Le trophée de l'Esprit du Soleil"
-			x: 16.0d
-			y: 8.75d
+			x: 10.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1101,7 +1108,7 @@
 			]
 			title: "Les gants du Crépuscule"
 			x: 4.0d
-			y: 13.25d
+			y: 21.5d
 		}
 		{
 			dependencies: ["6D0336C0967F3F70"]
@@ -1144,7 +1151,7 @@
 			]
 			title: "Les outils en skyroot"
 			x: 6.0d
-			y: 11.75d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1190,7 +1197,7 @@
 			]
 			title: "Les outils en holystone"
 			x: 8.0d
-			y: 11.75d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1261,7 +1268,7 @@
 			]
 			title: "L'équipement en zanite"
 			x: 10.0d
-			y: 7.25d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -1333,7 +1340,7 @@
 			]
 			title: "&dL'équipement en gravitite"
 			x: 14.0d
-			y: 7.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["681600F1993ADCBA"]
@@ -1375,8 +1382,8 @@
 				}
 			]
 			title: "L'armure de Neptune"
-			x: 8.0d
-			y: 13.25d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2983ACD62DE616FC"]
@@ -1423,8 +1430,8 @@
 				}
 			]
 			title: "L'armure des Valkyries"
-			x: 12.0d
-			y: 10.25d
+			x: 8.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["315F402411B0E10E"]
@@ -1466,8 +1473,8 @@
 				}
 			]
 			title: "L'armure du Phénix"
-			x: 16.0d
-			y: 10.25d
+			x: 10.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["74C6C32FC02989F5"]
@@ -1489,8 +1496,8 @@
 				value: 1L
 			}]
 			title: "&eRejouer le combat contre la Reine"
-			x: 14.0d
-			y: 8.75d
+			x: 10.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["315F402411B0E10E"]
@@ -1509,11 +1516,11 @@
 				type: "structure"
 			}]
 			title: "Le donjon de platine"
-			x: 16.0d
-			y: 11.75d
+			x: 10.0d
+			y: 18.5d
 		}
 		{
-			dependencies: ["680B74BE25E2ED7E"]
+			dependencies: ["315F402411B0E10E"]
 			description: ["Le boss de platine (progrès « Defeat the Platinum Dungeon boss »). Lost Aether Content ajoute aussi les boucliers de zanite et de gravitite, et l'équipement du Phénix."]
 			id: "3E05408D8718E269"
 			optional: true
@@ -1531,8 +1538,8 @@
 				type: "advancement"
 			}]
 			title: "&bVaincre le Roi des aérobaleines"
-			x: 18.0d
-			y: 7.25d
+			x: 10.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -1552,7 +1559,7 @@
 			}]
 			title: "La citadelle olympique"
 			x: 4.0d
-			y: 14.75d
+			y: 23.0d
 		}
 		{
 			dependencies: ["315F402411B0E10E"]
@@ -1572,8 +1579,8 @@
 				type: "item"
 			}]
 			title: "Un lingot pyral"
-			x: 16.0d
-			y: 13.25d
+			x: 10.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -1595,8 +1602,8 @@
 				type: "checkmark"
 			}]
 			title: "&bMaître du ciel"
-			x: 16.0d
-			y: 0.0d
+			x: 10.0d
+			y: 0.75d
 		}
 	]
 	title: "&bL'Aether"
