@@ -293,14 +293,53 @@ description = """
 """
 
 [[quete]]
+cle = "gardien"
+titre = "&3Un gardien ancien"
+deps = ["monument"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill minecraft:elder_guardian"]
+recompenses = ["xp 15"]
+description = """
+Le gardien du monument, celui qui lance la fatigue de minage. Seul un combat mené après l'ouverture de cette quête compte.
+"""
+
+[[quete]]
+cle = "gardiens"
+titre = "&3Trois gardiens anciens"
+deps = ["gardien"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill minecraft:elder_guardian 3"]
+recompenses = ["xp 20"]
+description = """
+Trois de plus, dans ce monument ou un autre.
+"""
+
+[[quete]]
+cle = "evocateur"
+titre = "&8L'évocateur"
+deps = ["manoir"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill minecraft:evoker"]
+recompenses = ["xp 15"]
+description = """
+Dans le manoir des bois. Il lâche le totem d'immortalité, qui se porte au chapitre &8Équipement de fin de partie&r.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&2La carte est pleine"
-deps = ["manoir", "monument", "repurposed"]
-exigence = "une"
+deps = ["gardiens", "evocateur", "heros", "temple_jungle", "donjon"]
 taille = 1.5
+forme = "diamond"
 icone = "minecraft:spyglass"
 taches = ["checkmark J'ai pillé"]
 recompenses = ["xp 10"]
 description = """
-Un jalon suffit à fermer le chapitre. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre &7Lieux&r de l'Encyclopédie listera chaque structure.
+Les gardiens du monument, l'évocateur du manoir, un raid repoussé, les temples et les donjons. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre &7Lieux&r de l'Encyclopédie listera chaque structure.
 """

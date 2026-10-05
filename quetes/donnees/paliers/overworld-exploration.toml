@@ -1,0 +1,55 @@
+# Échelle des paliers — Overworld, exploration (BMC-89, 5 octobre 2026).
+# Kills vanilla : un combat ne compte qu'une fois la quête ouverte
+# (TeamData.canStartTasks).
+chapitre = "monde_overworld_exploration"
+sommet = "fin"
+
+[[palier]]
+echelle = "monument"
+cle = "monument"
+preuve = "structure betteroceanmonuments:ocean_monument"
+
+[[palier]]
+echelle = "monument"
+cle = "gardien"
+preuve = "kill minecraft:elder_guardian"
+
+[[palier]]
+echelle = "monument"
+cle = "gardiens"
+preuve = "kill minecraft:elder_guardian 3"
+
+[[palier]]
+echelle = "monument"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "manoir"
+cle = "manoir"
+preuve = "structure minecraft:mansion"
+
+[[palier]]
+echelle = "manoir"
+cle = "evocateur"
+preuve = "kill minecraft:evoker"
+
+[[palier]]
+echelle = "manoir"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "raids"
+cle = "avant_poste"
+preuve = "kill minecraft:pillager 5"
+
+[[palier]]
+echelle = "raids"
+cle = "heros"
+preuve = "progrès hero_of_the_village"
+
+[[palier]]
+echelle = "raids"
+cle = "fin"
+preuve = "sommet"
