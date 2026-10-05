@@ -1,0 +1,152 @@
+# Chapitre « Mowzie's Mobs » — cahier des charges §4.11
+# Sources (5 octobre 2026) : progrès et descriptions du jar mowziesmobs-1.8.2,
+# structures de l'index (frostmaw_spawn, umvuthana_grove, wrought_chamber,
+# monastery), mowziesmobs-common.toml du serveur (biome_tags des boss,
+# liste blanche de la Naga sur les Côtes rocheuses), générateurs du Bluff
+# dans les pièces du monastère (scan NBT).
+
+[chapitre]
+titre = "&6Mowzie's Mobs"
+fichier = "monde_mowzies"
+groupe = "monde"
+icone = "mowziesmobs:wrought_helmet"
+ordre = 11
+
+[[quete]]
+cle = "intro"
+titre = "&6Les géants de Mowzie's"
+sous_titre = "Guide dans #mowzies-mobs sur le Discord."
+taille = 1.5
+icone = "mowziesmobs:sol_visage"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Quatre boss à leur place dans le monde — le Wroughtnaut ferreux, le Frostmaw, Umvuthi, le Sculpteur — et des créatures qui valent le détour. La &lNaga de Mowzie's&r est un oiseau-serpent des Côtes rocheuses : rien à voir avec la Naga de la Twilight Forest (boss) ni celle de Better Nether.
+"""
+
+[[quete]]
+cle = "chambre"
+titre = "La chambre du Wroughtnaut"
+deps = ["intro"]
+taches = ["structure mowziesmobs:wrought_chamber"]
+recompenses = ["xp 5"]
+description = """
+Une salle souterraine, partout sauf sous les océans (config du serveur). Le &7Wroughtnaut ferreux&r y est immobile tant qu'on n'entre pas.
+"""
+
+[[quete]]
+cle = "wroughtnaut"
+titre = "&7Vaincre le Wroughtnaut ferreux"
+deps = ["chambre"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["advancement mowziesmobs:kill_ferrous_wroughtnaut"]
+recompenses = ["xp 20"]
+description = """
+Son armure ne cède que par derrière. Il lâche son casque et la Hache des mille métaux. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "frostmaw"
+titre = "&bVaincre le Frostmaw"
+deps = ["intro"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["advancement mowziesmobs:kill_frostmaw"]
+recompenses = ["xp 20"]
+description = """
+Un colosse endormi dans les biomes enneigés, hors océans, rivières, plages, forêts et taïgas (config du serveur). Il garde un &bcristal de glace&r : le lui voler sans le réveiller est un progrès du mod. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "bosquet"
+titre = "Le bosquet des Umvuthana"
+deps = ["intro"]
+taches = ["structure mowziesmobs:umvuthana_grove"]
+recompenses = ["xp 5"]
+description = """
+Dans la savane. Les Umvuthana portent des masques (peur, rage, misère, extase, fureur, foi) ; avec un masque, on entre déguisé (progrès du mod). &6Umvuthi&r trône au centre.
+"""
+
+[[quete]]
+cle = "umvuthi"
+titre = "&6Vaincre Umvuthi"
+deps = ["bosquet"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["advancement mowziesmobs:kill_umvuthi"]
+recompenses = ["xp 20"]
+description = """
+Il appelle des soigneurs à chaque palier de vie perdu (config du serveur). Lui apporter &lsept blocs d'or&r vaut la Bénédiction du Soleil (config, progrès). Il lâche le Visage du Sol, qui invoque des Umvuthana à partir de masques (infobulle). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "monastere"
+titre = "Le monastère du Sculpteur"
+deps = ["intro"]
+taches = ["structure mowziesmobs:monastery"]
+recompenses = ["xp 5"]
+description = """
+Sur les pics (config du serveur). Tongbi, le &7Sculpteur&r, propose une &lépreuve d'escalade&r contre un bâton de Bluff. Le monastère cache aussi deux générateurs de &7Bluff&r.
+"""
+
+[[quete]]
+cle = "sculpteur"
+titre = "&7L'épreuve du Sculpteur"
+deps = ["monastere"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["advancement mowziesmobs:sculptor_challenge"]
+recompenses = ["xp 20"]
+description = """
+Soixante blocs à grimper en moins de 400 secondes (config du serveur). Échouer vaut l'autre progrès, moins glorieux. Le Sculpteur disparaît une fois la récompense réclamée (config).
+"""
+
+[[quete]]
+cle = "foliaath"
+titre = "Un Foliaath"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement mowziesmobs:kill_foliaath"]
+recompenses = ["xp 5"]
+description = """
+Une plante carnivore des jungles. Sa graine se plante dans l'herbe ; le bébé a faim chaque demi-journée et grandit en deux jours (infobulle).
+"""
+
+[[quete]]
+cle = "grottol"
+titre = "Un Grottol"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement mowziesmobs:kill_grottol"]
+recompenses = ["xp 5"]
+description = """
+Une créature de cristal des grottes, sous Y 16, qui fuit. À la pioche &lsoie&r, on le capture ; à la pioche &lfortune&r, il lâche plus (progrès du mod).
+"""
+
+[[quete]]
+cle = "naga"
+titre = "La Naga des Côtes rocheuses"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement mowziesmobs:kill_naga"]
+recompenses = ["xp 5"]
+description = """
+Sur les Côtes rocheuses seulement (liste blanche de la config du serveur). Sa dent fait une dague qui empoisonne et double les dégâts par derrière (infobulle).
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&6Les quatre géants"
+deps = ["wroughtnaut", "frostmaw", "umvuthi", "sculpteur"]
+taille = 1.5
+icone = "mowziesmobs:earthrend_gauntlet"
+taches = ["checkmark Les quatre sont tombés"]
+recompenses = ["xp 10"]
+description = """
+Wroughtnaut, Frostmaw, Umvuthi, Sculpteur. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont &lincassables&r sur ce serveur (config).
+"""

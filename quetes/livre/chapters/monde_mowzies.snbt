@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_mowzies"
+	group: "17185D2694D86048"
+	icon: "mowziesmobs:wrought_helmet"
+	id: "541915446FBE29DC"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Quatre boss à leur place dans le monde — le Wroughtnaut ferreux, le Frostmaw, Umvuthi, le Sculpteur — et des créatures qui valent le détour. La &lNaga de Mowzie's&r est un oiseau-serpent des Côtes rocheuses : rien à voir avec la Naga de la Twilight Forest (boss) ni celle de Better Nether."]
+			icon: "mowziesmobs:sol_visage"
+			id: "220425544206A882"
+			rewards: [{
+				id: "07850A1DA1EB1132"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #mowzies-mobs sur le Discord."
+			tasks: [{
+				id: "00D2BE4348A7C790"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Les géants de Mowzie's"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["220425544206A882"]
+			description: ["Une salle souterraine, partout sauf sous les océans (config du serveur). Le &7Wroughtnaut ferreux&r y est immobile tant qu'on n'entre pas."]
+			id: "6D8AA12F965D32F5"
+			rewards: [{
+				id: "284265C764ADCB9E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4E66D7228CADE517"
+				structure: "mowziesmobs:wrought_chamber"
+				type: "structure"
+			}]
+			title: "La chambre du Wroughtnaut"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6D8AA12F965D32F5"]
+			description: ["Son armure ne cède que par derrière. Il lâche son casque et la Hache des mille métaux. Sa mort est annoncée dans #faits-d-armes."]
+			id: "3715DEAEFE686843"
+			rewards: [{
+				id: "0ADA4AAC12226A01"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "4B99331C965D8670"
+				type: "advancement"
+			}]
+			title: "&7Vaincre le Wroughtnaut ferreux"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["220425544206A882"]
+			description: ["Un colosse endormi dans les biomes enneigés, hors océans, rivières, plages, forêts et taïgas (config du serveur). Il garde un &bcristal de glace&r : le lui voler sans le réveiller est un progrès du mod. Sa mort est annoncée dans #faits-d-armes."]
+			id: "6753EF5A06F8ACC5"
+			rewards: [{
+				id: "7B30C3AEA845C2B0"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				id: "4FDCF350E7E4AB83"
+				type: "advancement"
+			}]
+			title: "&bVaincre le Frostmaw"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["220425544206A882"]
+			description: ["Dans la savane. Les Umvuthana portent des masques (peur, rage, misère, extase, fureur, foi) ; avec un masque, on entre déguisé (progrès du mod). &6Umvuthi&r trône au centre."]
+			id: "54E4A56D901F419E"
+			rewards: [{
+				id: "54C7C9408E7E9302"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "309A96108EB909CD"
+				structure: "mowziesmobs:umvuthana_grove"
+				type: "structure"
+			}]
+			title: "Le bosquet des Umvuthana"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["54E4A56D901F419E"]
+			description: ["Il appelle des soigneurs à chaque palier de vie perdu (config du serveur). Lui apporter &lsept blocs d'or&r vaut la Bénédiction du Soleil (config, progrès). Il lâche le Visage du Sol, qui invoque des Umvuthana à partir de masques (infobulle). Sa mort est annoncée dans #faits-d-armes."]
+			id: "0B9B2DDF557DBAE7"
+			rewards: [{
+				id: "6F293DEC0A65DD6A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "71496620DD565636"
+				type: "advancement"
+			}]
+			title: "&6Vaincre Umvuthi"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["220425544206A882"]
+			description: ["Sur les pics (config du serveur). Tongbi, le &7Sculpteur&r, propose une &lépreuve d'escalade&r contre un bâton de Bluff. Le monastère cache aussi deux générateurs de &7Bluff&r."]
+			id: "49E15BD8BDD5AEAD"
+			rewards: [{
+				id: "1A7503479F8F5229"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2DE8281E97A25DC7"
+				structure: "mowziesmobs:monastery"
+				type: "structure"
+			}]
+			title: "Le monastère du Sculpteur"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["49E15BD8BDD5AEAD"]
+			description: ["Soixante blocs à grimper en moins de 400 secondes (config du serveur). Échouer vaut l'autre progrès, moins glorieux. Le Sculpteur disparaît une fois la récompense réclamée (config)."]
+			id: "13A1A40F39DEC61A"
+			rewards: [{
+				id: "166F7AB6FF90FB96"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "299BBDB4ED5112CA"
+				type: "advancement"
+			}]
+			title: "&7L'épreuve du Sculpteur"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["220425544206A882"]
+			description: ["Une plante carnivore des jungles. Sa graine se plante dans l'herbe ; le bébé a faim chaque demi-journée et grandit en deux jours (infobulle)."]
+			id: "29E8F06272A05E50"
+			optional: true
+			rewards: [{
+				id: "05CABD3053C26E55"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:kill_foliaath"
+				criterion: ""
+				id: "10CB00231C5F3562"
+				type: "advancement"
+			}]
+			title: "Un Foliaath"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["220425544206A882"]
+			description: ["Une créature de cristal des grottes, sous Y 16, qui fuit. À la pioche &lsoie&r, on le capture ; à la pioche &lfortune&r, il lâche plus (progrès du mod)."]
+			id: "7399F46C8E5D63B9"
+			optional: true
+			rewards: [{
+				id: "0D6CA6D846F0689C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:kill_grottol"
+				criterion: ""
+				id: "6F193189DAFBFC0B"
+				type: "advancement"
+			}]
+			title: "Un Grottol"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["220425544206A882"]
+			description: ["Sur les Côtes rocheuses seulement (liste blanche de la config du serveur). Sa dent fait une dague qui empoisonne et double les dégâts par derrière (infobulle)."]
+			id: "5B71EF6D06500EEA"
+			optional: true
+			rewards: [{
+				id: "57FA31E4A70C5D6D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:kill_naga"
+				criterion: ""
+				id: "6790623A523F3C60"
+				type: "advancement"
+			}]
+			title: "La Naga des Côtes rocheuses"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3715DEAEFE686843"
+				"6753EF5A06F8ACC5"
+				"0B9B2DDF557DBAE7"
+				"13A1A40F39DEC61A"
+			]
+			description: ["Wroughtnaut, Frostmaw, Umvuthi, Sculpteur. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont &lincassables&r sur ce serveur (config)."]
+			icon: "mowziesmobs:earthrend_gauntlet"
+			id: "0DE0DB4345A2242A"
+			rewards: [{
+				id: "375E9ABF81E6AB5B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "26613F3D9DBAB0AF"
+				title: "Les quatre sont tombés"
+				type: "checkmark"
+			}]
+			title: "&6Les quatre géants"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&6Mowzie's Mobs"
+}
