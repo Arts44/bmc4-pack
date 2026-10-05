@@ -1,0 +1,132 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mods_saisons"
+	group: "14858825A29975B1"
+	icon: "sereneseasons:calendar"
+	id: "008A6ABB290F8B02"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&aSerene Seasons&r : l'année fait &l96 jours&r — douze sous-saisons de huit jours (config du serveur), début, milieu, fin de chaque saison. Le monde a commencé au début du printemps. L'herbe et les feuilles changent de couleur, la pluie et la neige suivent la saison. Les saisons avancent même quand personne n'est connecté. L'Overworld seulement."]
+			icon: "sereneseasons:calendar"
+			id: "5F085F27D1F96F8F"
+			rewards: [{
+				id: "706B175FEED6A95F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #saisons sur le Discord."
+			tasks: [{
+				id: "37A9D16B10513D23"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&aQuatre saisons"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F085F27D1F96F8F"]
+			description: ["Il affiche la sous-saison et le jour."]
+			icon: "sereneseasons:calendar"
+			id: "3B92CAF94E6FA600"
+			rewards: [{
+				id: "087E37441C8202A8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "727431E227F1E9F2"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "Un calendrier"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B92CAF94E6FA600"]
+			description: ["Chaque culture a ses saisons fertiles, écrites dans son &linfobulle&r (config). Hors saison, elle pousse &llentement&r mais ne meurt pas. Sous &lY 48&r, les saisons ne comptent plus : une ferme souterraine produit toute l'année."]
+			id: "7C7930A53737038F"
+			rewards: [{
+				id: "3E283F23212A53D8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1BFF5DAE8514E135"
+				title: "J'ai lu l'infobulle d'une graine"
+				type: "checkmark"
+			}]
+			title: "Semer en saison"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B92CAF94E6FA600"]
+			description: ["Un signal de redstone selon la saison : de quoi changer un circuit à l'hiver."]
+			icon: "sereneseasons:season_sensor"
+			id: "30BB8D91667DC820"
+			optional: true
+			rewards: [{
+				id: "73E26ECA7AA6B3B2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1BFC8034F6EC20C3"
+				item: "sereneseasons:season_sensor"
+				type: "item"
+			}]
+			title: "Un capteur de saison"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F085F27D1F96F8F"]
+			description: ["Vingt-quatre jours de froid. Les biomes refroidissent, il neige plus souvent, mais le sol ne se couvre pas de neige ni de glace de lui-même (config). Les cultures d'été dorment."]
+			id: "333442219407CE26"
+			optional: true
+			rewards: [{
+				id: "26BBFBE4F7548F3E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E00EA0C21560EE1"
+				title: "Un hiver passé"
+				type: "checkmark"
+			}]
+			title: "Passer l'hiver"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F085F27D1F96F8F"]
+			description: ["&fSnow! Real Magic!&r : la neige recouvre dalles, escaliers, murs et barrières au lieu de rester à côté. &bClimate Rivers&r, lui, trace les rivières selon le climat."]
+			icon: "snowrealmagic:slab"
+			id: "1C212A03BDDB74AC"
+			optional: true
+			rewards: [{
+				id: "56BAE46717B6C3DD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20B8DAE99D66AE3A"
+				item: "snowrealmagic:slab"
+				type: "item"
+			}]
+			title: "La neige qui s'accroche"
+			x: 2.0d
+			y: 4.5d
+		}
+	]
+	title: "&aSaisons et monde vivant"
+}

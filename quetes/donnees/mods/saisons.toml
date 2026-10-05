@@ -1,0 +1,82 @@
+# Chapitre « Saisons et monde vivant » — cahier des charges §5.20, R0.
+# Sources (5 octobre 2026) : sereneseasons/seasons.toml du serveur
+# (sous-saison de 8 jours, 12 sous-saisons donc 96 jours par an, départ
+# en début de printemps, Overworld seulement, météo selon la saison, pas
+# de neige ni de glace générées en hiver, les saisons avancent serveur
+# vide) ; fertility.toml (cultures de saison actives, hors saison elles
+# poussent lentement, fertiles sous Y 48, infobulle sur les cultures
+# listées) ; objets calendrier et capteur de saison ; Snow Real Magic
+# (dalles, escaliers, murs, barrières couverts de neige) ; Climate Rivers
+# (sans lang ni config lue, cité sans détail).
+
+[chapitre]
+titre = "&aSaisons et monde vivant"
+fichier = "mods_saisons"
+groupe = "mods"
+icone = "sereneseasons:calendar"
+ordre = 20
+
+[[quete]]
+cle = "intro"
+titre = "&aQuatre saisons"
+sous_titre = "Guide dans #saisons sur le Discord."
+taille = 1.5
+icone = "sereneseasons:calendar"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+&aSerene Seasons&r : l'année fait &l96 jours&r — douze sous-saisons de huit jours (config du serveur), début, milieu, fin de chaque saison. Le monde a commencé au début du printemps. L'herbe et les feuilles changent de couleur, la pluie et la neige suivent la saison. Les saisons avancent même quand personne n'est connecté. L'Overworld seulement.
+"""
+
+[[quete]]
+cle = "calendrier"
+titre = "Un calendrier"
+deps = ["intro"]
+taches = ["item sereneseasons:calendar"]
+recompenses = ["xp 3"]
+description = """
+Il affiche la sous-saison et le jour.
+"""
+
+[[quete]]
+cle = "cultures"
+titre = "Semer en saison"
+deps = ["calendrier"]
+taches = ["checkmark J'ai lu l'infobulle d'une graine"]
+recompenses = ["xp 3"]
+description = """
+Chaque culture a ses saisons fertiles, écrites dans son &linfobulle&r (config). Hors saison, elle pousse &llentement&r mais ne meurt pas. Sous &lY 48&r, les saisons ne comptent plus : une ferme souterraine produit toute l'année.
+"""
+
+[[quete]]
+cle = "capteur"
+titre = "Un capteur de saison"
+deps = ["calendrier"]
+optionnel = true
+taches = ["item sereneseasons:season_sensor"]
+recompenses = ["xp 3"]
+description = """
+Un signal de redstone selon la saison : de quoi changer un circuit à l'hiver.
+"""
+
+[[quete]]
+cle = "hiver"
+titre = "Passer l'hiver"
+deps = ["intro"]
+optionnel = true
+taches = ["checkmark Un hiver passé"]
+recompenses = ["xp 3"]
+description = """
+Vingt-quatre jours de froid. Les biomes refroidissent, il neige plus souvent, mais le sol ne se couvre pas de neige ni de glace de lui-même (config). Les cultures d'été dorment.
+"""
+
+[[quete]]
+cle = "neige"
+titre = "La neige qui s'accroche"
+deps = ["intro"]
+optionnel = true
+taches = ["item snowrealmagic:slab"]
+recompenses = ["xp 3"]
+description = """
+&fSnow! Real Magic!&r : la neige recouvre dalles, escaliers, murs et barrières au lieu de rester à côté. &bClimate Rivers&r, lui, trace les rivières selon le climat.
+"""
