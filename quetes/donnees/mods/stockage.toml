@@ -57,8 +57,8 @@ Le &6contrôleur&r voit tous les tiroirs qui lui sont reliés par contact. Clic 
 [[quete]]
 cle = "ameliorations"
 titre = "Améliorer un tiroir"
-deps = ["tiroir"]
-taches = ["item storagedrawers:iron_storage_upgrade", "item storagedrawers:drawer_key"]
+deps = ["amelioration_cuivre"]
+taches = ["item storagedrawers:iron_storage_upgrade"]
 recompenses = ["xp 3"]
 description = """
 Les &7améliorations de stockage&r (fer, or, obsidienne, diamant, émeraude, nétherite) multiplient la capacité ; la &7clé de tiroir&r verrouille le contenu sur son type, même vide. Il y a aussi le vide (ce qui déborde disparaît) et la lumière.
@@ -212,7 +212,7 @@ cle = "amelioration_or"
 titre = "Des améliorations de stockage"
 deps = ["ameliorations"]
 optionnel = true
-taches = ["item storagedrawers:gold_storage_upgrade", "item storagedrawers:diamond_storage_upgrade"]
+taches = ["item storagedrawers:gold_storage_upgrade"]
 recompenses = ["xp 4"]
 description = """
 &6Storage Drawers&r : fer, or, diamant, émeraude, nétherite. Chaque palier multiplie la contenance du tiroir.
@@ -245,7 +245,7 @@ cle = "rs_disques"
 titre = "Des disques plus grands"
 deps = ["disques"]
 optionnel = true
-taches = ["item refinedstorage:4k_storage_disk", "item refinedstorage:16k_storage_disk"]
+taches = ["item refinedstorage:4k_storage_disk"]
 recompenses = ["xp 4"]
 description = """
 &bRefined Storage&r : 1k, 4k, 16k, 64k objets, et des disques de fluides.
@@ -254,7 +254,7 @@ description = """
 [[quete]]
 cle = "rs_64k"
 titre = "Un disque de 64k"
-deps = ["rs_disques"]
+deps = ["rs_16k"]
 optionnel = true
 taches = ["item refinedstorage:64k_storage_disk"]
 recompenses = ["xp 6"]
@@ -307,3 +307,474 @@ deps = ["import"]
 optionnel = true
 taches = ["item storagenetwork:collector"]
 recompenses = ["xp 3"]
+
+# ---- Paliers complets (BMC-89, 5 octobre 2026). Storage Drawers 12.14.3 :
+# multiplicateurs de storagedrawers-common.v2.toml du serveur (obsidienne 2,
+# cuivre 4, fer 8, or 16, émeraude 64, diamant 256, nétherite 2048 ; ils
+# s'additionnent), textes des améliorations et des clés (en_us du jar).
+# Refined Storage 1.12.4 : disques d'objets 1k → 64k, de fluides 64k → 4096k.
+# Simple Storage Network 1.13.1 : améliorations et télécommandes (infobulles).
+[[quete]]
+cle = "amelioration_obsidienne"
+titre = "Une amélioration en obsidienne"
+deps = ["tiroir"]
+taches = ["item storagedrawers:obsidian_storage_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Les améliorations de stockage se fabriquent sur un modèle d'amélioration, avec des bâtons et le matériau. Celle en obsidienne double la capacité d'un tiroir. Plusieurs améliorations dans un même tiroir additionnent leurs multiplicateurs (config du serveur).
+"""
+
+[[quete]]
+cle = "amelioration_cuivre"
+titre = "Une amélioration en cuivre"
+deps = ["amelioration_obsidienne"]
+taches = ["item storagedrawers:copper_storage_upgrade"]
+recompenses = ["xp 3"]
+description = """
+En cuivre : capacité ×4.
+"""
+
+[[quete]]
+cle = "amelioration_emeraude"
+titre = "Une amélioration en émeraude"
+deps = ["amelioration_or"]
+optionnel = true
+taches = ["item storagedrawers:emerald_storage_upgrade"]
+recompenses = ["xp 5"]
+description = """
+En émeraude : capacité ×64 sur ce serveur.
+"""
+
+[[quete]]
+cle = "amelioration_diamant"
+titre = "Une amélioration en diamant"
+deps = ["amelioration_emeraude"]
+optionnel = true
+taches = ["item storagedrawers:diamond_storage_upgrade"]
+recompenses = ["xp 6"]
+description = """
+En diamant : capacité ×256 sur ce serveur.
+"""
+
+[[quete]]
+cle = "amelioration_netherite"
+titre = "&6Une amélioration en nétherite"
+deps = ["amelioration_diamant"]
+optionnel = true
+forme = "diamond"
+taille = 1.3
+taches = ["item storagedrawers:netherite_storage_upgrade"]
+recompenses = ["xp 10"]
+description = """
+En nétherite : capacité ×2048 sur ce serveur, le plus haut palier.
+"""
+
+[[quete]]
+cle = "sd_conversion"
+titre = "L'amélioration de conversion"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:conversion_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Convertit les objets compatibles : lingots, pépites et blocs des métaux de la liste du serveur.
+"""
+
+[[quete]]
+cle = "sd_niveau"
+titre = "L'amélioration de niveau"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:fill_level_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Affiche une jauge de remplissage sur la façade.
+"""
+
+[[quete]]
+cle = "sd_lumiere"
+titre = "L'amélioration d'éclairage"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:illumination_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Éclaire les étiquettes des tiroirs dans le noir.
+"""
+
+[[quete]]
+cle = "sd_entonnoir"
+titre = "L'amélioration entonnoir"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:hopper_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Ramasse les objets correspondants par le dessus, comme un entonnoir.
+"""
+
+[[quete]]
+cle = "sd_equilibre"
+titre = "L'amélioration d'équilibre"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:balance_fill_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Répartit les objets à parts égales entre les cases.
+"""
+
+[[quete]]
+cle = "sd_une_pile"
+titre = "L'amélioration à une pile"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:one_stack_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Ramène la capacité de base à une seule pile.
+"""
+
+[[quete]]
+cle = "sd_portabilite"
+titre = "L'amélioration de portabilité"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:portability_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Permet de transporter un tiroir plein. Sur ce serveur, les tiroirs pleins ne ralentissent pas : elle n'est pas nécessaire.
+"""
+
+[[quete]]
+cle = "sd_redstone"
+titre = "Les améliorations de redstone"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:redstone_upgrade", "item storagedrawers:min_redstone_upgrade", "item storagedrawers:max_redstone_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Émet un signal selon le remplissage total ; les variantes « min » et « max » suivent la case la moins pleine ou la plus pleine.
+"""
+
+[[quete]]
+cle = "sd_distance"
+titre = "Les améliorations à distance"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:remote_upgrade", "item storagedrawers:remote_group_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Relient un tiroir, ou un groupe de tiroirs, au contrôleur sans contact. Portée : celle du contrôleur, 50 blocs sur ce serveur.
+"""
+
+[[quete]]
+cle = "sd_aimant"
+titre = "Les aimants, palier par palier"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:magnet_upgrade", "item storagedrawers:magnet_upgrade_2", "item storagedrawers:magnet_upgrade_3"]
+recompenses = ["xp 5"]
+description = """
+Ils attirent les objets autour du tiroir : 1, puis 4, puis 8 blocs à l'horizontale (config du serveur). Le deuxième et le troisième se fabriquent à partir du précédent.
+"""
+
+[[quete]]
+cle = "sd_cles"
+titre = "Les clés des tiroirs"
+deps = ["tiroir"]
+optionnel = true
+taches = ["item storagedrawers:drawer_key", "item storagedrawers:quantify_key", "item storagedrawers:shroud_key", "item storagedrawers:personal_key", "item storagedrawers:priority_key", "item storagedrawers:suspend_key", "item storagedrawers:keyring"]
+recompenses = ["xp 5"]
+description = """
+Verrouiller un tiroir sur son contenu, afficher les quantités, cacher les étiquettes, réserver l'accès à son propriétaire (la clé personnelle ne protège pas de la casse : le claim, si), changer la priorité, suspendre les échanges du contrôleur. Le trousseau les range toutes.
+"""
+
+[[quete]]
+cle = "sd_extracteur"
+titre = "Tirer un tiroir"
+deps = ["tiroir"]
+optionnel = true
+taches = ["item storagedrawers:drawer_puller", "item storagedrawers:detached_drawer"]
+recompenses = ["xp 3"]
+description = """
+L'extracteur retire une case d'un bloc de tiroirs en gardant son contenu ; la case détachée se remet dans un bloc où il manque une case.
+"""
+
+[[quete]]
+cle = "rs_16k"
+titre = "Un disque de 16k"
+deps = ["rs_disques"]
+optionnel = true
+taches = ["item refinedstorage:16k_storage_disk"]
+recompenses = ["xp 4"]
+description = """
+Le palier suivant : seize mille objets par disque. Chaque disque se fait d'un boîtier et d'une pièce de stockage du palier.
+"""
+
+[[quete]]
+cle = "rs_fluides"
+titre = "Les disques de fluides"
+deps = ["rs_64k"]
+optionnel = true
+taches = ["item refinedstorage:64k_fluid_storage_disk", "item refinedstorage:256k_fluid_storage_disk", "item refinedstorage:1024k_fluid_storage_disk"]
+recompenses = ["xp 8"]
+description = """
+Les fluides ont leurs propres disques : 64k, 256k, 1024k.
+"""
+
+[[quete]]
+cle = "rs_4096k"
+titre = "&6Le disque de fluides de 4096k"
+deps = ["rs_fluides"]
+optionnel = true
+forme = "diamond"
+taille = 1.3
+taches = ["item refinedstorage:4096k_fluid_storage_disk"]
+recompenses = ["xp 12"]
+description = """
+Le plus grand disque de fluides de Refined Storage.
+"""
+
+[[quete]]
+cle = "rs_blocs"
+titre = "Les blocs de stockage"
+deps = ["rs_64k"]
+optionnel = true
+taches = ["item refinedstorage:1k_storage_block", "item refinedstorage:4k_storage_block", "item refinedstorage:16k_storage_block", "item refinedstorage:64k_storage_block"]
+recompenses = ["xp 6"]
+description = """
+Les mêmes pièces de stockage en blocs posés sur le réseau, sans lecteur de disques.
+"""
+
+[[quete]]
+cle = "rs_processeurs"
+titre = "Les trois processeurs"
+deps = ["disques"]
+optionnel = true
+taches = ["item refinedstorage:basic_processor", "item refinedstorage:improved_processor", "item refinedstorage:advanced_processor"]
+recompenses = ["xp 4"]
+description = """
+Basique, amélioré, avancé : les processeurs des machines du réseau, du plus simple au plus avancé.
+"""
+
+[[quete]]
+cle = "rs_upgrade"
+titre = "Une amélioration vierge"
+deps = ["rs_processeurs"]
+optionnel = true
+taches = ["item refinedstorage:upgrade"]
+recompenses = ["xp 3"]
+description = """
+Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+"""
+
+[[quete]]
+cle = "rs_speed_upgrade"
+titre = "L'amélioration de vitesse"
+deps = ["rs_upgrade"]
+optionnel = true
+taches = ["item refinedstorage:speed_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+"""
+
+[[quete]]
+cle = "rs_range_upgrade"
+titre = "L'amélioration de portée"
+deps = ["rs_upgrade"]
+optionnel = true
+taches = ["item refinedstorage:range_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+"""
+
+[[quete]]
+cle = "rs_crafting_upgrade"
+titre = "L'amélioration de fabrication"
+deps = ["rs_upgrade"]
+optionnel = true
+taches = ["item refinedstorage:crafting_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+"""
+
+[[quete]]
+cle = "rs_stack_upgrade"
+titre = "L'amélioration de pile"
+deps = ["rs_upgrade"]
+optionnel = true
+taches = ["item refinedstorage:stack_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+"""
+
+[[quete]]
+cle = "rs_silk_touch_upgrade"
+titre = "L'amélioration toucher de soie"
+deps = ["rs_upgrade"]
+optionnel = true
+taches = ["item refinedstorage:silk_touch_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+"""
+
+[[quete]]
+cle = "rs_regulator_upgrade"
+titre = "L'amélioration régulatrice"
+deps = ["rs_upgrade"]
+optionnel = true
+taches = ["item refinedstorage:regulator_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+"""
+
+[[quete]]
+cle = "rs_fortune"
+titre = "Les améliorations Fortune I à III"
+deps = ["rs_upgrade"]
+optionnel = true
+taches = ["item refinedstorage:fortune_1_upgrade", "item refinedstorage:fortune_2_upgrade", "item refinedstorage:fortune_3_upgrade"]
+recompenses = ["xp 6"]
+description = """
+Pour le destructeur : trois paliers de Fortune.
+"""
+
+[[quete]]
+cle = "rs_reseau"
+titre = "Étendre le réseau"
+deps = ["sans_fil"]
+optionnel = true
+taches = ["item refinedstorage:network_transmitter", "item refinedstorage:network_receiver", "item refinedstorage:network_card", "item refinedstorage:relay"]
+recompenses = ["xp 6"]
+description = """
+Un émetteur, un récepteur et une carte réseau relient deux réseaux éloignés ; le relais coupe ou rétablit la liaison selon un signal de redstone.
+"""
+
+[[quete]]
+cle = "rs_sans_fil_tout"
+titre = "Tout en sans-fil"
+deps = ["sans_fil", "rs_moniteur"]
+optionnel = true
+taches = ["item refinedstorage:wireless_fluid_grid", "item refinedstorage:wireless_crafting_monitor", "item refinedstorage:portable_grid"]
+recompenses = ["xp 6"]
+description = """
+Grille de fluides et moniteur de fabrication sans fil, et la grille portable, qui lit les disques sans réseau.
+"""
+
+[[quete]]
+cle = "rs_securite"
+titre = "La sécurité du réseau"
+deps = ["rs_controleur"]
+optionnel = true
+taches = ["item refinedstorage:security_manager", "item refinedstorage:security_card"]
+recompenses = ["xp 5"]
+description = """
+Le gestionnaire de sécurité et ses cartes décident qui peut faire quoi sur le réseau.
+"""
+
+[[quete]]
+cle = "rs_outils"
+titre = "Interfaces et détecteurs"
+deps = ["importeur"]
+optionnel = true
+taches = ["item refinedstorage:interface", "item refinedstorage:fluid_interface", "item refinedstorage:detector", "item refinedstorage:storage_monitor", "item refinedstorage:disk_manipulator", "item refinedstorage:crafter_manager", "item refinedstorage:fluid_grid"]
+recompenses = ["xp 8"]
+description = """
+L'interface importe et exporte à la fois, le détecteur émet un signal selon un stock, le moniteur affiche un objet, le manipulateur de disques modifie un disque, le gestionnaire de fabricateurs les réunit, la grille de fluides montre les fluides.
+"""
+
+[[quete]]
+cle = "ssn_speed_upgrade"
+titre = "SSN : l'amélioration de vitesse"
+deps = ["import"]
+optionnel = true
+taches = ["item storagenetwork:speed_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Dans un câble d'export ou d'import filtré, elle accélère l'import et l'export.
+"""
+
+[[quete]]
+cle = "ssn_stack_upgrade"
+titre = "SSN : l'amélioration de pile"
+deps = ["import"]
+optionnel = true
+taches = ["item storagenetwork:stack_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Dans un câble d'export ou d'import filtré, elle augmente la taille de chaque transfert.
+"""
+
+[[quete]]
+cle = "ssn_slow_upgrade"
+titre = "SSN : l'amélioration de lenteur"
+deps = ["import"]
+optionnel = true
+taches = ["item storagenetwork:slow_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Dans un câble d'export ou d'import filtré, elle ralentit l'import et l'export.
+"""
+
+[[quete]]
+cle = "ssn_single_upgrade"
+titre = "SSN : l'amélioration unitaire"
+deps = ["import"]
+optionnel = true
+taches = ["item storagenetwork:single_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Dans un câble d'export ou d'import filtré, elle transfère un objet à la fois.
+"""
+
+[[quete]]
+cle = "ssn_operation_upgrade"
+titre = "SSN : l'amélioration d'opération"
+deps = ["import"]
+optionnel = true
+taches = ["item storagenetwork:operation_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Dans un câble d'export ou d'import filtré, elle traite la quantité indiquée dans le filtre.
+"""
+
+[[quete]]
+cle = "ssn_stock_upgrade"
+titre = "SSN : l'amélioration de stock"
+deps = ["import"]
+optionnel = true
+taches = ["item storagenetwork:stock_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Dans un câble d'export ou d'import filtré, elle garde un stock constant dans l'inventaire relié.
+"""
+
+[[quete]]
+cle = "ssn_telecommandes"
+titre = "SSN : toutes les télécommandes"
+deps = ["ssn_inventaire"]
+optionnel = true
+taches = ["item storagenetwork:crafting_remote", "item storagenetwork:expanded_remote", "item storagenetwork:picker_remote", "item storagenetwork:builder_remote", "item storagenetwork:collector_remote"]
+recompenses = ["xp 8"]
+description = """
+Liées à la racine du réseau : fabrication à distance, inventaire étendu, cueillette des blocs correspondants, construction, collecte des objets ramassés.
+"""
+
+[[quete]]
+cle = "ssn_cables_filtres"
+titre = "SSN : câbles filtrés et échangeur"
+deps = ["import"]
+optionnel = true
+taches = ["item storagenetwork:filter_kabel", "item storagenetwork:import_filter_kabel", "item storagenetwork:exchange", "item storagenetwork:request_expanded"]
+recompenses = ["xp 5"]
+description = """
+Câbles avec filtres, l'échangeur (point de sortie du réseau vers un inventaire) et le terminal de requête étendu.
+"""
+
