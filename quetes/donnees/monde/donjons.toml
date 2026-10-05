@@ -51,17 +51,6 @@ Les tours des bandits (progrès du mod).
 """
 
 [[quete]]
-cle = "wda_fonderie"
-titre = "La fonderie"
-deps = ["intro"]
-optionnel = true
-taches = ["advancement dungeons_arise:find_foundry"]
-recompenses = ["xp 5"]
-description = """
-Une fonderie (progrès « Iron Maiden »).
-"""
-
-[[quete]]
 cle = "wda_asile"
 titre = "L'asile de la peste"
 deps = ["intro"]

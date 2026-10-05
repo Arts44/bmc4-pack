@@ -371,7 +371,7 @@
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
-			description: ["&bFormations&r sème trente petites choses : châteaux de glace, météore, trou de hobbit, temple mésoaméricain, cimetière, flèche de cuivre. La tour de la sorcière valide la quête."]
+			description: ["&bFormations&r sème une trentaine de petites choses : châteaux de glace, météore, trou de hobbit, temple mésoaméricain, cimetière, flèche de cuivre. Le trou de hobbit valide la quête. La tour de la sorcière du mod, elle, ne se génère pas sur ce serveur (datapack formationsoverworldconfig)."]
 			id: "58E4DBF3D759767D"
 			optional: true
 			rewards: [{
@@ -381,11 +381,11 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "40B2CFCAA84E4207"
-				structure: "formationsoverworld:witch_tower"
+				id: "424A7C2A132D1C81"
+				structure: "formationsoverworld:hobbit_hole"
 				type: "structure"
 			}]
-			title: "La tour de la sorcière (Formations)"
+			title: "Le trou de hobbit (Formations)"
 			x: 2.0d
 			y: 11.75d
 		}
