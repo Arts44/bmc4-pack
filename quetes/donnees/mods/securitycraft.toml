@@ -147,3 +147,172 @@ recompenses = ["xp 10"]
 description = """
 Une porte à code, des blocs renforcés, des pièges, et un chemin qui reste atteignable sans rien casser. Le trophée attend son premier raid.
 """
+
+# ---- §9.4 : par usage (5 octobre 2026). Textes d'après les pages d'aide
+# du jar (lang en_us, clés *.info). Rien dans le règlement ne restreint
+# ces blocs ; ils restent soumis aux règles de raid.
+[[quete]]
+cle = "alarme"
+titre = "Une alarme"
+deps = ["detecteur"]
+optionnel = true
+taches = ["item securitycraft:alarm"]
+recompenses = ["xp 3"]
+description = """
+Une sirène et une lumière rouge tant qu'elle reçoit de la redstone.
+"""
+
+[[quete]]
+cle = "lumiere"
+titre = "Une lumière à détection"
+deps = ["detecteur"]
+optionnel = true
+taches = ["item securitycraft:motion_activated_light"]
+recompenses = ["xp 3"]
+description = """
+Elle s'allume quand un joueur passe à portée.
+"""
+
+[[quete]]
+cle = "panique"
+titre = "Un bouton de panique"
+deps = ["intro"]
+optionnel = true
+taches = ["item securitycraft:panic_button"]
+recompenses = ["xp 2"]
+description = """
+Il a l'air d'un bouton, et marche comme un levier.
+"""
+
+[[quete]]
+cle = "cartes"
+titre = "Lecteur de cartes"
+deps = ["clavier"]
+optionnel = true
+taches = ["item securitycraft:keycard_reader", "item securitycraft:keycard_lv1"]
+recompenses = ["xp 4"]
+description = """
+Le lecteur émet un signal quand on y glisse une carte du bon niveau : un badge par rang de la faction.
+"""
+
+[[quete]]
+cle = "porte_scanner"
+titre = "Une porte à scanner"
+deps = ["scanner"]
+optionnel = true
+taches = ["item securitycraft:scanner_door_item"]
+recompenses = ["xp 4"]
+description = """
+Un scanner rétinien et une porte de fer renforcée en un seul bloc : le propriétaire regarde le haut, elle s'ouvre.
+"""
+
+[[quete]]
+cle = "moniteur"
+titre = "Un moniteur de caméras"
+deps = ["camera"]
+optionnel = true
+taches = ["item securitycraft:camera_monitor"]
+recompenses = ["xp 3"]
+description = """
+Jusqu'à trente caméras liées, regardées en direct d'où l'on veut.
+"""
+
+[[quete]]
+cle = "cloture"
+titre = "Une clôture électrifiée"
+deps = ["renforce"]
+optionnel = true
+taches = ["item securitycraft:electrified_iron_fence 8"]
+recompenses = ["xp 3"]
+description = """
+Incassable, et elle blesse tous ceux qui la touchent sauf son propriétaire.
+"""
+
+[[quete]]
+cle = "claymore"
+titre = "Une claymore"
+deps = ["mines"]
+optionnel = true
+taches = ["item securitycraft:claymore"]
+recompenses = ["xp 3"]
+description = """
+Elle explose une seconde après qu'une créature ou un joueur passe à moins de cinq blocs devant elle. La pince coupante la désamorce.
+"""
+
+[[quete]]
+cle = "ims"
+titre = "Un système de munitions intelligent"
+deps = ["claymore"]
+optionnel = true
+taches = ["item securitycraft:ims"]
+recompenses = ["xp 5"]
+description = """
+L'I.M.S. : une mine qui contient jusqu'à quatre bouncing betties et les lance sur ceux qui entrent dans son rayon. Elle se recharge.
+"""
+
+[[quete]]
+cle = "trophee"
+titre = "Un système trophée"
+deps = ["sentinelle"]
+optionnel = true
+taches = ["item securitycraft:trophy_system"]
+recompenses = ["xp 5"]
+description = """
+Il abat les flèches et les boules de feu ennemies avant qu'elles arrivent.
+"""
+
+[[quete]]
+cle = "projecteur"
+titre = "Un projecteur"
+deps = ["intro"]
+optionnel = true
+taches = ["item securitycraft:projector"]
+recompenses = ["xp 4"]
+description = """
+Il projette des blocs holographiques : de quoi cacher une entrée derrière un faux mur.
+"""
+
+[[quete]]
+cle = "piege_sol"
+titre = "Un piège au sol"
+deps = ["intro"]
+optionnel = true
+taches = ["item securitycraft:floor_trap 4"]
+recompenses = ["xp 3"]
+description = """
+Le bloc disparaît un instant quand on marche dessus.
+"""
+
+[[quete]]
+cle = "mallette"
+titre = "Une mallette"
+deps = ["clavier"]
+optionnel = true
+taches = ["item securitycraft:briefcase"]
+recompenses = ["xp 3"]
+description = """
+Douze emplacements verrouillés par un code à quatre chiffres, à emporter.
+"""
+
+[[quete]]
+cle = "sonique"
+titre = "Un système de sécurité sonique"
+deps = ["scanner"]
+optionnel = true
+taches = ["item securitycraft:sonic_security_system"]
+recompenses = ["xp 5"]
+description = """
+Il verrouille les blocs SecurityCraft liés tant qu'on ne joue pas la bonne mélodie.
+"""
+
+[[quete]]
+cle = "poche"
+titre = "Une poche de blocs"
+deps = ["renforce"]
+optionnel = true
+taille = 1.3
+taches = ["item securitycraft:block_pocket_manager"]
+recompenses = ["xp 8"]
+description = """
+Une pièce cubique où n'entrent que le propriétaire et les joueurs de la liste autorisée.
+"""

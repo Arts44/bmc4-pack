@@ -303,6 +303,331 @@
 			x: 6.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["3ECA0DED5659A468"]
+			description: ["Une sirène et une lumière rouge tant qu'elle reçoit de la redstone."]
+			icon: "securitycraft:alarm"
+			id: "127BA7D2673EF918"
+			optional: true
+			rewards: [{
+				id: "48AAD907B19189DE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "633FFF800704A770"
+				item: "securitycraft:alarm"
+				type: "item"
+			}]
+			title: "Une alarme"
+			x: 4.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["3ECA0DED5659A468"]
+			description: ["Elle s'allume quand un joueur passe à portée."]
+			icon: "securitycraft:motion_activated_light"
+			id: "3DB546AAFEC42E4E"
+			optional: true
+			rewards: [{
+				id: "52E4D98277AEE2C3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "645575E1EF28F9D7"
+				item: "securitycraft:motion_activated_light"
+				type: "item"
+			}]
+			title: "Une lumière à détection"
+			x: 4.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Il a l'air d'un bouton, et marche comme un levier."]
+			icon: "securitycraft:panic_button"
+			id: "5897FDD2F516B55A"
+			optional: true
+			rewards: [{
+				id: "0F7309EB548FA288"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "67991BF628C76C20"
+				item: "securitycraft:panic_button"
+				type: "item"
+			}]
+			title: "Un bouton de panique"
+			x: 2.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2787E3FE3C264209"]
+			description: ["Le lecteur émet un signal quand on y glisse une carte du bon niveau : un badge par rang de la faction."]
+			icon: "securitycraft:keycard_reader"
+			id: "5CF5D93222D889A7"
+			optional: true
+			rewards: [{
+				id: "1362A07C64F14678"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3B8059F46648A0F7"
+					item: "securitycraft:keycard_reader"
+					type: "item"
+				}
+				{
+					id: "379077D96BB6A174"
+					item: "securitycraft:keycard_lv1"
+					type: "item"
+				}
+			]
+			title: "Lecteur de cartes"
+			x: 4.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["7FC8EA4261B4C4E4"]
+			description: ["Un scanner rétinien et une porte de fer renforcée en un seul bloc : le propriétaire regarde le haut, elle s'ouvre."]
+			icon: "securitycraft:scanner_door_item"
+			id: "07279B92D96AFBDF"
+			optional: true
+			rewards: [{
+				id: "73D035420D815395"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CB2C68D2BE78E05"
+				item: "securitycraft:scanner_door_item"
+				type: "item"
+			}]
+			title: "Une porte à scanner"
+			x: 6.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["3FAFD6D766E2FB68"]
+			description: ["Jusqu'à trente caméras liées, regardées en direct d'où l'on veut."]
+			icon: "securitycraft:camera_monitor"
+			id: "728D66C0445594A0"
+			optional: true
+			rewards: [{
+				id: "1D731655937DCAAD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B4D01341B77ECFC"
+				item: "securitycraft:camera_monitor"
+				type: "item"
+			}]
+			title: "Un moniteur de caméras"
+			x: 4.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["03B1014F45B0E7AF"]
+			description: ["Incassable, et elle blesse tous ceux qui la touchent sauf son propriétaire."]
+			icon: "securitycraft:electrified_iron_fence"
+			id: "467E4378AA1FBD68"
+			optional: true
+			rewards: [{
+				id: "631729F12DD56AC5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "7E726D674614C25D"
+				item: "securitycraft:electrified_iron_fence"
+				type: "item"
+			}]
+			title: "Une clôture électrifiée"
+			x: 4.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["6C00E7FB130D81A5"]
+			description: ["Elle explose une seconde après qu'une créature ou un joueur passe à moins de cinq blocs devant elle. La pince coupante la désamorce."]
+			icon: "securitycraft:claymore"
+			id: "575E87C1531C5D69"
+			optional: true
+			rewards: [{
+				id: "7F392C520B50A6B7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66D0160F3E8DE067"
+				item: "securitycraft:claymore"
+				type: "item"
+			}]
+			title: "Une claymore"
+			x: 4.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["575E87C1531C5D69"]
+			description: ["L'I.M.S. : une mine qui contient jusqu'à quatre bouncing betties et les lance sur ceux qui entrent dans son rayon. Elle se recharge."]
+			icon: "securitycraft:ims"
+			id: "4B79DC6A0E61B6B3"
+			optional: true
+			rewards: [{
+				id: "43542CB6005F7121"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0084869A4350D5AA"
+				item: "securitycraft:ims"
+				type: "item"
+			}]
+			title: "Un système de munitions intelligent"
+			x: 6.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["51B9AA507C069047"]
+			description: ["Il abat les flèches et les boules de feu ennemies avant qu'elles arrivent."]
+			icon: "securitycraft:trophy_system"
+			id: "238D5ECC854F4927"
+			optional: true
+			rewards: [{
+				id: "54FDC048E3485A0D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48A917350C0C8E26"
+				item: "securitycraft:trophy_system"
+				type: "item"
+			}]
+			title: "Un système trophée"
+			x: 6.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Il projette des blocs holographiques : de quoi cacher une entrée derrière un faux mur."]
+			icon: "securitycraft:projector"
+			id: "271E96EC55D90AE5"
+			optional: true
+			rewards: [{
+				id: "154BD5ABE13B2B02"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7497479C50C1B603"
+				item: "securitycraft:projector"
+				type: "item"
+			}]
+			title: "Un projecteur"
+			x: 2.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["48AAB8914728A8BD"]
+			description: ["Le bloc disparaît un instant quand on marche dessus."]
+			icon: "securitycraft:floor_trap"
+			id: "6D5BFB4F927CF1AE"
+			optional: true
+			rewards: [{
+				id: "035E556D4614C17B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "211FAA30B47DE561"
+				item: "securitycraft:floor_trap"
+				type: "item"
+			}]
+			title: "Un piège au sol"
+			x: 2.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["2787E3FE3C264209"]
+			description: ["Douze emplacements verrouillés par un code à quatre chiffres, à emporter."]
+			icon: "securitycraft:briefcase"
+			id: "5BFB2D1F133EC2B2"
+			optional: true
+			rewards: [{
+				id: "0CDDD03172D156C1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D47AAE919B06114"
+				item: "securitycraft:briefcase"
+				type: "item"
+			}]
+			title: "Une mallette"
+			x: 4.0d
+			y: 14.75d
+		}
+		{
+			dependencies: ["7FC8EA4261B4C4E4"]
+			description: ["Il verrouille les blocs SecurityCraft liés tant qu'on ne joue pas la bonne mélodie."]
+			icon: "securitycraft:sonic_security_system"
+			id: "3D3E12D7F3753F08"
+			optional: true
+			rewards: [{
+				id: "4B75605DD1AA6157"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56A924C63013707E"
+				item: "securitycraft:sonic_security_system"
+				type: "item"
+			}]
+			title: "Un système de sécurité sonique"
+			x: 6.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["03B1014F45B0E7AF"]
+			description: ["Une pièce cubique où n'entrent que le propriétaire et les joueurs de la liste autorisée."]
+			icon: "securitycraft:block_pocket_manager"
+			id: "4DC8F66F81D0E542"
+			optional: true
+			rewards: [{
+				id: "0EAB150F4BB349E5"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "1D96402604AF4E28"
+				item: "securitycraft:block_pocket_manager"
+				type: "item"
+			}]
+			title: "Une poche de blocs"
+			x: 4.0d
+			y: 16.25d
+		}
 	]
 	title: "&cSecurityCraft"
 }
