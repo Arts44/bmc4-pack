@@ -162,21 +162,75 @@ description = """
 &bOcean's Delight&r cuisine ce que l'océan donne : tentacules, gardiens, concombres de mer. La &bsoupe de gardien&r se fait à la marmite.
 """
 
+# ---- Crabber's Delight 1.2.3 (config serveur crabbersdelight-common.toml :
+# minTicks 4000, maxTicks 8000, require_surrounding_water true,
+# wanderingTraderDealsPearls true). Tables crab_trap_loot/<appât>, découpe
+# de la palourde, biome_modifier crab / add_tree_palm / add_seashells.
 [[quete]]
 cle = "crabe"
-titre = "Crabber's Delight"
+titre = "Crabber's Delight : le casier"
 deps = ["marmite"]
 optionnel = true
-taches = ["item crabbersdelight:crab_trap", "item crabbersdelight:bisque"]
+taches = ["item crabbersdelight:crab_trap"]
 recompenses = ["xp 5"]
 description = """
-&bCrabber's Delight&r : un &7casier à crabes&r posé dans l'eau attrape crabes, crevettes et palourdes, et la marmite en fait une &6bisque&r.
+&bCrabber's Delight&r pêche sans canne. Deux filets de sécurité, des bâtons et trois dalles de bois font un &7casier à crabes&r. Sur ce serveur, il lui faut de l'eau libre tout autour, sur trois blocs sur trois. Il se remplit toutes les 200 à 400 secondes. Sans appât, il ramène un peu de tout : crabes, crevettes, palourdes, et beaucoup de bâtons, de varech et de boîtes de conserve.
 """
 
 [[quete]]
+cle = "crabe_appat"
+titre = "Un seau d'appât"
+deps = ["crabe"]
+optionnel = true
+exigence = "une"
+taches = ["item crabbersdelight:bucket_of_crab_chum", "item crabbersdelight:bucket_of_shrimp_chum", "item crabbersdelight:bucket_of_clam_chum", "item crabbersdelight:bucket_of_clawster_chum"]
+recompenses = ["xp 5"]
+description = """
+L'appât décide de la prise. Un seau d'appât à crabes (un seau, quatre morues, quatre poudres d'os) ne ramène que des crabes ; il en existe un pour les crevettes, les palourdes et les « Clawster ». Une morue en appât donne un mélange, avec parfois une coquille de nautile.
+"""
+
+[[quete]]
+cle = "crabe_perle"
+titre = "Des perles"
+deps = ["crabe"]
+optionnel = true
+taches = ["item crabbersdelight:pearl 4"]
+recompenses = ["xp 5"]
+description = """
+Une palourde passée au couteau sur la planche à découper donne sa chair, et une fois sur deux une &fperle&r. Les perles décorent les armures à la table de forge, font un collier, et sur ce serveur le marchand ambulant vend des objets contre des perles.
+"""
+
+[[quete]]
+cle = "crabe_plage"
+titre = "Palmiers et noix de coco"
+deps = ["intro"]
+optionnel = true
+taches = ["item crabbersdelight:coconut", "item crabbersdelight:palm_sapling"]
+recompenses = ["xp 3"]
+description = """
+Les plages ont maintenant leurs &apalmiers&r, leurs coquillages et leurs crabes, qui vivent aussi dans les marais et les côtes rocheuses. Attention sous les palmiers : le jeu prévoit une mort « écrasé par une noix de coco ». Le lait de coco efface un effet.
+"""
+
+[[quete]]
+cle = "crabe_bisque"
+titre = "Une bisque"
+deps = ["crabe", "marmite"]
+optionnel = true
+taches = ["item crabbersdelight:bisque", "item crabbersdelight:seafood_gumbo"]
+recompenses = ["xp 5"]
+description = """
+La marmite fait le reste : une &6bisque&r de crabe et un gombo de la mer.
+"""
+
+# ---- My Nether's Delight 0.1.8 (pas de config sur le serveur). Butins :
+# loot_modifiers déclarés dans global_loot_modifiers.json, troc
+# mnd_piglin_bartering, coffres mnd_bastion_*. Génération : patch_powdery_cane
+# dans minecraft:crimson_forest, huit essais par tronçon.
+[[quete]]
 cle = "nether"
-titre = "My Nether's Delight"
+titre = "My Nether's Delight : le fourneau"
 deps = ["marmite"]
+deps_externes = ["monde_nether/entrer"]
 optionnel = true
 taches = ["item mynethersdelight:nether_bricks_stove"]
 recompenses = ["xp 5"]
@@ -185,9 +239,59 @@ description = """
 """
 
 [[quete]]
+cle = "nether_piment"
+titre = "La canne poudreuse"
+deps = ["nether"]
+optionnel = true
+taches = ["item mynethersdelight:bullet_pepper 4"]
+recompenses = ["xp 5"]
+description = """
+La &ccanne poudreuse&r pousse à l'état sauvage dans les forêts carmin. Le mod prévient : ses baies explosent au contact, il conseille de couper la tige rouge. Elle peut donner deux ou trois piments, « Bullet Pepper ». Le troc des piglins peut aussi en donner.
+"""
+
+[[quete]]
+cle = "nether_hoglin"
+titre = "Chasser le hoglin au couteau"
+deps = ["nether"]
+optionnel = true
+taches = ["item mynethersdelight:hoglin_loin", "item mynethersdelight:hoglin_hide"]
+recompenses = ["xp 5"]
+description = """
+Les hoglins lâchent de la longe de hoglin à la place du porc. Tués au couteau, et sans brûler, ils lâchent une fois sur deux une peau de hoglin, plus avec Butin. Les écuries des bastions cachent de la longe, des œufs de strider et de la terre résurgente.
+"""
+
+[[quete]]
+cle = "nether_strider"
+titre = "Un ragoût de strider"
+deps = ["nether"]
+optionnel = true
+taches = ["item mynethersdelight:strider_stew"]
+recompenses = ["xp 5"]
+description = """
+Chaque strider tué lâche deux tranches de strider. À la marmite, avec des champignons et des racines du Nether, elles font un ragoût de strider.
+"""
+
+[[quete]]
+cle = "nether_festin"
+titre = "&cLe hoglin farci"
+deps = ["nether_hoglin"]
+optionnel = true
+taches = ["item mynethersdelight:roast_stuffed_hoglin"]
+recompenses = ["xp 8"]
+description = """
+Quatre jambons, deux longes, une peau de hoglin, une colonie de champignons carmin et une colonie de champignons biscornus : un hoglin farci cru. Les colonies naissent de certains champignons du Nether posés sur de la terre résurgente (« Resurgent Soil »). À la marmite, avec une épice forte (poudre de blaze ou piment), un champignon carmin et deux salades du Nether, il devient un hoglin farci rôti.
+"""
+
+# ---- Ender's Delight 1.1.3 (pas de config sur le serveur). Génération :
+# safran, poivre du vide, ambrevoile et chorusflamme dans end_barrens,
+# end_highlands, end_midlands, small_end_islands ; structure end_house
+# (end_highlands, end_midlands, générée). Butins au couteau : shulker,
+# enderman, endermite.
+[[quete]]
 cle = "end"
 titre = "Ender's Delight"
 deps = ["marmite"]
+deps_externes = ["monde_end/entrer"]
 optionnel = true
 taches = ["item endersdelight:chorus_stew"]
 recompenses = ["xp 5"]
@@ -196,16 +300,114 @@ description = """
 """
 
 [[quete]]
+cle = "end_fourneau"
+titre = "Un fourneau de pierre de l'End"
+deps = ["end"]
+optionnel = true
+taches = ["item endersdelight:endstone_stove"]
+recompenses = ["xp 5"]
+description = """
+Trois blocs d'obsidienne, quatre briques de l'End, un souffle de dragon et un feu de camp : le fourneau de l'End. Le souffle se recueille en flacon près de l'Ender Dragon.
+"""
+
+[[quete]]
+cle = "end_couteau"
+titre = "Chasser dans l'End au couteau"
+deps = ["end"]
+optionnel = true
+taches = ["item endersdelight:shulker_mollusk", "item endersdelight:enderman_sight"]
+recompenses = ["xp 5"]
+description = """
+Tué au couteau, un shulker lâche un « Shulker Mollusk », un enderman un « Enderman Sight » et un endermite une « Mite Crust ». Ce sont les viandes de l'End.
+"""
+
+[[quete]]
+cle = "end_cueillette"
+titre = "&dLes épices de l'End"
+deps = ["end"]
+optionnel = true
+taches = ["item endersdelight:amberveil_stew"]
+recompenses = ["xp 8"]
+description = """
+Quatre plantes poussent sur les îles extérieures de l'End : « Ethereal Saffron », « Void Pepper », « Amberveils » et « Chorusflame ». Les trois premières, avec une fleur de chorus, font à la marmite un « Amberveil Stew », servi dans un « Shulker Bowl ».
+"""
+
+[[quete]]
+cle = "end_maison"
+titre = "La maison de l'End"
+deps = ["end"]
+optionnel = true
+taches = ["structure endersdelight:end_house"]
+recompenses = ["xp 5"]
+description = """
+Ender's Delight ajoute une structure, la « End House », sur les hautes terres et les terres moyennes de l'End. Elle est rare : une au plus par carré de 25 tronçons de côté.
+"""
+
+# ---- Twilight's Flavor & Delight 2.2.2 (config serveur : effectRange 6,
+# auroraRange 24). Recettes du jar ; butins loot_modifiers déclarés.
+[[quete]]
 cle = "twilight"
 titre = "Twilight's Flavor & Delight"
 deps = ["marmite"]
+deps_externes = ["monde_twilight_progression/hydre"]
 optionnel = true
 taches = ["item twilightdelight:fiery_cooking_pot"]
 recompenses = ["xp 5"]
 description = """
-&5Twilight's Flavor & Delight&r : une &cmarmite ardente&r pour les ingrédients de la Twilight Forest, des gâteaux d'aurore, des tartes de baies de torche.
+&5Twilight's Flavor & Delight&r cuisine la Twilight Forest. La &cmarmite ardente&r se chauffe toute seule et cuit vite les plats du Crépuscule : cinq lingots ardents, des briques de labyrinthe, une pelle en bois de fer et un seau d'eau.
 """
 
+[[quete]]
+cle = "twilight_couteau"
+titre = "Un couteau du Crépuscule"
+deps = ["couteau"]
+deps_externes = ["monde_twilight_progression/portail"]
+optionnel = true
+exigence = "une"
+taches = ["item twilightdelight:ironwood_knife", "item twilightdelight:steeleaf_knife", "item twilightdelight:knightmetal_knife", "item twilightdelight:fiery_knife"]
+recompenses = ["xp 5"]
+description = """
+Quatre couteaux de la Twilight Forest : en bois de fer, en feuille d'acier, en métal de chevalier et ardent. Celui de chevalier frappe plus fort les cibles en armure. L'ardent enflamme et cuit ce qu'il découpe.
+"""
+
+[[quete]]
+cle = "twilight_fourneau"
+titre = "Un fourneau du labyrinthe"
+deps = ["fourneau"]
+deps_externes = ["monde_twilight_progression/labyrinthe"]
+optionnel = true
+taches = ["item twilightdelight:maze_stove"]
+recompenses = ["xp 5"]
+description = """
+Trois lingots de métal de chevalier, quatre briques de labyrinthe, des baies-torches et un feu de camp : un fourneau qui cuit plus vite les plats du Crépuscule.
+"""
+
+[[quete]]
+cle = "twilight_hache"
+titre = "Le steak du minotaure"
+deps = ["twilight_couteau"]
+deps_externes = ["monde_twilight_progression/minoshroom"]
+optionnel = true
+taches = ["item twilightdelight:raw_tomahawk_smeak"]
+recompenses = ["xp 8"]
+description = """
+La hache de minotaure en diamant découpe ce que les couteaux ne savent pas couper. Un Minoshroom qu'elle achève lâche toujours un steak tomahawk, un minotaure trois fois sur dix ; cuit s'il brûlait. Sur la planche, elle tranche aussi une écaille de naga en quatre chips.
+"""
+
+[[quete]]
+cle = "twilight_hydre"
+titre = "Un burger d'hydre"
+deps = ["twilight"]
+optionnel = true
+taches = ["item twilightdelight:hydra_burger"]
+recompenses = ["xp 8"]
+description = """
+La côtelette d'hydre, coupée au couteau, donne deux morceaux d'hydre. Avec du pain, de la salade, une tomate et un oignon : un burger d'hydre.
+"""
+
+# ---- Delightful 3.8.1 (config serveur delightful-common.toml : tout activé
+# sauf quatre couteaux). Génération : balises has_spawn/* du jar ; butins
+# delightful:add_item déclarés.
 [[quete]]
 cle = "delightful"
 titre = "Delightful"
@@ -214,7 +416,40 @@ optionnel = true
 taches = ["item delightful:cactus_soup"]
 recompenses = ["xp 5"]
 description = """
-&aDelightful&r relie Farmer's Delight aux autres mods du pack : baies, fruits, soupes et tartes faites avec ce que les biomes des autres mods produisent. La &asoupe de cactus&r est l'une des plus simples.
+&aDelightful&r relie Farmer's Delight aux autres mods du pack et ajoute ses propres plantes. Premier plat : la &asoupe de cactus&r.
+"""
+
+[[quete]]
+cle = "delightful_cueillette"
+titre = "Trois plantes sauvages"
+deps = ["delightful"]
+optionnel = true
+taches = ["item delightful:salmonberries", "item delightful:cantaloupe", "item delightful:mini_melon"]
+recompenses = ["xp 5"]
+description = """
+Des buissons de baies de saumon poussent dans toutes les forêts, des cantaloups sur les plages, des mini-melons dans les plaines. Un couteau change un cantaloup en quatre tranches et un mini-melon en quatre tranches de pastèque.
+"""
+
+[[quete]]
+cle = "delightful_couteau"
+titre = "Le couteau, outil de cueillette"
+deps = ["delightful", "couteau"]
+optionnel = true
+taches = ["item delightful:green_tea_leaf", "item delightful:acorn", "item delightful:animal_fat"]
+recompenses = ["xp 5"]
+description = """
+Des feuilles coupées au couteau donnent souvent une feuille de thé vert, et celles du chêne, parfois un gland. Un animal gras achevé au couteau (poissons, calmars, chevaux, chats…) lâche souvent de la graisse animale.
+"""
+
+[[quete]]
+cle = "delightful_tarte"
+titre = "Une tarte aux baies de saumon"
+deps = ["delightful_cueillette"]
+optionnel = true
+taches = ["item delightful:salmonberry_pie", "item delightful:cantaloupe_bread"]
+recompenses = ["xp 5"]
+description = """
+Les baies font une tarte, le cantaloup un pain.
 """
 
 [[quete]]
