@@ -1265,6 +1265,74 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Maître du ciel** — tâches : checkmark Les trois donjons sont tombés — récompense : xp 10 — après : esprit, incuber
   > Bronze, argent, or ; un Moa à soi ; des Pierres de Soin en réserve pour les raids. Le progrès « Aether Champion » de Deep Aether récompense les quatre boss vaincus sans un coup reçu.
 
+## Blue Skies — Everbright  (`monde_everbright`, 17 quêtes)
+
+- **La maison du Gatekeeper** — tâches : structure blue_skies:gatekeeper_house_plains — récompense : item minecraft:emerald 8
+  > Blue Skies, ce sont deux mondes : l'Everbright, froid et bleu, l'Everdawn, chaud et doré. Les deux s'ouvrent dans la maison du Gatekeeper, dans l'Overworld : le portail y est déjà construit, et le Gatekeeper vend le Journal bleu — le guide du mod — et le briquet zèle, huit émeraudes sur ce serveur. Les émeraudes offertes sont pour lui.
+- **Un briquet zèle** — tâches : item blue_skies:zeal_lighter — récompense : xp 3 — après : gatekeeper
+  > Il allume les portails de l'Everbright (pierre taillée turquoise) et de l'Everdawn (pierre taillée lunaire). Les blocs des portails se prennent chez le Gatekeeper si on veut en construire un chez soi.
+- **Entrer dans l'Everbright** — tâches : dimension blue_skies:everbright — récompense : xp 10 — après : briquet
+  > Un monde de neige, de lacs et de forêts bleues. Les outils de l'Overworld y mordent mal : le mod le dit lui-même (« ce outil ne marche pas aussi bien ici »), il faut ses bois et ses pierres.
+- **Du bois de l'Everbright** — tâches : advancement blue_skies:everbright/get_wood — récompense : xp 2 — après : entrer
+  > Lumibleu, étoilibois, nifrisque : des bûches à frapper (progrès du mod). Chaque bâton de ces bois a un usage à la boîte à outils.
+- **Les gemmes de Blue Skies** — tâches : advancement blue_skies:get_pyrope, advancement blue_skies:get_aquite, advancement blue_skies:get_diopside — récompense : xp 5 — après : bois
+  > Pyrope et diopside se minent, l'aquite et la charoite se fondent depuis leur minerai brut. Elles font les outils et armures des deux mondes.
+- **Falsite et ventium** — tâches : advancement blue_skies:everbright/get_falsite, advancement blue_skies:everbright/get_ventium — récompense : xp 5 — après : gemmes
+  > Les deux métaux propres à l'Everbright. La falsite augmente la durabilité d'un outil à la boîte à outils ; le ventium fait un équipement.
+- **Une boîte à outils** — tâches : item blue_skies:tool_box, advancement blue_skies:everbright/use_tool_box — récompense : xp 5 — après : falsite
+  > La boîte à outils améliore les outils : la falsite pour la durabilité, et n'importe quel bâton des deux mondes se substitue au manche, chacun avec son effet (journal bleu).
+- **Un four gelé** *(optionnelle)* — tâches : item blue_skies:snowcap_oven — récompense : xp 3 — après : entrer
+  > Le four gelé pompe la chaleur du combustible pour cuire, et laisse parfois un sous-produit gelé. L'eau même y sert de combustible, médiocre.
+- **Une table de préparation** *(optionnelle)* — tâches : advancement blue_skies:craft_food_prep_table — récompense : xp 3 — après : entrer
+  > Trois à cinq ingrédients : plus ils sont variés et nourrissants, plus le plat a de portions. Des fleurs en assaisonnement donnent leurs effets de potion (journal bleu).
+- **Des fragments de pierre de lune** *(optionnelle)* — tâches : advancement blue_skies:get_moonstone_shard — récompense : xp 3 — après : entrer
+  > Le minerai de pierre de lune donne des fragments : le bouclier de pierre de lune et les perles de garde en ont besoin.
+- **Astrolabe et émetteur d'étoiles** *(optionnelle)* — tâches : item blue_skies:star_emitter — récompense : xp 3 — après : entrer
+  > L'astrolabe s'achète au Stargazer d'un village ; lié à un émetteur d'étoiles, il y ramène d'une distance moyenne, puis se recharge selon la distance. Une waystone de poche pour l'Everbright.
+- **Le donjon aveuglant de l'Everbright** — tâches : structure blue_skies:everbright_blinding_dungeon — récompense : xp 5 — après : entrer
+  > Une tour d'illageois. Chaque étage cache une clé ; quatre clés aveuglantes sur la keystone du dernier étage ouvrent la salle du Summonateur. Mort dans la salle du boss, les objets restent à la keystone (le mod le dit).
+- **Vaincre le Summonateur** — tâches : advancement blue_skies:everbright/kill_summoner — récompense : xp 20 — après : aveuglant
+  > Il invoque des golems artificiels, à distance puis au corps à corps, et se téléporte — sauf pendant qu'il lance un sort : c'est là qu'on frappe. Il lâche son Artéfact éthéré et, parfois, la table d'invocation. Sa mort est annoncée dans #faits-d-armes.
+- **Le donjon de la nature** — tâches : structure blue_skies:nature_dungeon — récompense : xp 5 — après : summoner
+  > Une pyramide verte dans les Pins enneigés, gardée par des golems de pierre liés par des lianes étoilées. Une clé par étage, une keystone au bout. Le Gatekeeper vend les clés de la nature une fois le donjon aveuglant vaincu (progrès du mod).
+- **Vaincre le Déstructeur des Étoiles** — tâches : advancement blue_skies:everbright/kill_starlit_crusher — récompense : xp 25 — après : nature
+  > Quatre murs de bois le protègent ; il fait pousser racines, Spewters et hiboux de bois. Abats un mur à la hache : il martèle le sol, vulnérable aux projectiles — une lance l'étourdit, puis la hache. Son artéfact relance le combat sur la keystone, après un temps de recharge. Sa mort est annoncée dans #faits-d-armes.
+- **Invoquer un golem artificiel** *(optionnelle)* — tâches : advancement blue_skies:everbright/summon_artificial_golem — récompense : xp 5 — après : summoner
+  > La table d'invocation du Summonateur règle le tome d'invocation : une sphère fluctuante à tirer, ou un golem artificiel qui se bat à tes côtés, un seul à la fois.
+- **L'Everbright est vaincu** — tâches : checkmark Deux artéfacts en poche — récompense : xp 10 — après : crusher
+  > Le Summonateur et le Déstructeur des Étoiles au tableau. L'Everdawn attend de l'autre côté de la maison du Gatekeeper.
+
+## Blue Skies — Everdawn  (`monde_everdawn`, 14 quêtes)
+
+- **Entrer dans l'Everdawn** — tâches : dimension blue_skies:everdawn — récompense : xp 10
+  > Le second monde de Blue Skies, par le portail de pierre lunaire de la maison du Gatekeeper, allumé au briquet zèle. Chaud, doré, plein d'insectes et d'araignées. Le progrès « Thinking with Portals » du mod salue ceux qui ont vu les deux mondes.
+- **Du bois de l'Everdawn** — tâches : advancement blue_skies:everdawn/get_wood — récompense : xp 2 — après : entrer
+  > Lunaire, crépuscubois, érable, comète : des bûches à frapper (progrès du mod). L'érable des forêts de coucher de soleil, le comète des vergers.
+- **De l'horizonite** — tâches : advancement blue_skies:everdawn/get_horizonite — récompense : xp 5 — après : bois
+  > Le métal propre à l'Everdawn, fondu depuis son minerai brut. Il fait un équipement, et surtout la forge.
+- **Une forge d'horizonite** — tâches : item blue_skies:horizonite_forge — récompense : xp 5 — après : horizonite
+  > La forge d'horizonite fond sans combustible : elle se recharge quand rien ne cuit, instantanément avec de l'horizonite, plus vite avec de la pierre solaire. Plusieurs forges valent mieux qu'une (journal bleu).
+- **De la charoite** *(optionnelle)* — tâches : advancement blue_skies:get_charoite — récompense : xp 3 — après : bois
+  > La charoite se fond depuis son minerai brut ; avec la pyrope, l'aquite et le diopside, c'est l'une des quatre gemmes communes aux deux mondes.
+- **Les bêtes de l'Everdawn** *(optionnelle)* — tâches : advancement blue_skies:everdawn/kill_bug — récompense : xp 5 — après : entrer
+  > Araignées venimeuses, nyctoflies, essaims infestés, crogres : le progrès du mod demande d'avoir tué chaque insecte et arachnide hostile de l'Everdawn. Un bouclier est l'arme de ce monde.
+- **Le champignon de l'exil** *(optionnelle)* — tâches : advancement blue_skies:everdawn/poison_shroom — récompense : xp 2 — après : entrer
+  > Marcher dans un champignon de l'exil et en subir les conséquences : un progrès que le mod accorde à qui ne lit pas les panneaux.
+- **Le donjon aveuglant de l'Everdawn** — tâches : structure blue_skies:everdawn_blinding_dungeon — récompense : xp 5 — après : entrer
+  > La tour d'illageois de l'Everdawn : une clé par étage, quatre clés sur la keystone du dernier, et l'Alchimiste derrière. Les objets d'un mort restent à la keystone.
+- **Vaincre l'Alchimiste** — tâches : advancement blue_skies:everdawn/kill_alchemist — récompense : xp 20 — après : aveuglant
+  > Lui se bat seul : gerbes de flèches (un bouclier les arrête), nuages de potion dans les coins, et des pics en décomposition qui percent l'armure. Il se téléporte, sauf quand il lance un sort. Il lâche l'Artéfact du crépuscule et, parfois, sa table d'alchimie. Sa mort est annoncée dans #faits-d-armes.
+- **Le donjon du poison** — tâches : structure blue_skies:poison_dungeon — récompense : xp 5 — après : alchimiste
+  > Un arbre couvert de toiles dans la Forêt d'érables du couchant : un nid d'araignées venimeuses, une clé par étage, une keystone au bout. Les clés empoisonnées s'achètent au Gatekeeper une fois l'Alchimiste vaincu (progrès du mod).
+- **Vaincre l'Arachnarque** — tâches : advancement blue_skies:everdawn/kill_arachnarch — récompense : xp 25 — après : poison
+  > Au plafond, elle est presque intouchable : attends qu'elle redescende. Au sol, elle se jette de tout son poids ; un bouclier assez solide encaisse. Son artéfact relance le combat sur la keystone. Sa mort est annoncée dans #faits-d-armes.
+- **De l'or par alchimie** *(optionnelle)* — tâches : advancement blue_skies:everdawn/alchemy_gold — récompense : xp 5 — après : alchimiste
+  > La table d'alchimie convertit les matières brutes de l'Everdawn en celles de l'Everbright et inversement, fait de l'or, et combine la pierre avec un artéfact pour obtenir la pierre de donjon.
+- **Les quatre artéfacts** *(optionnelle)* — tâches : item blue_skies:ethereal_arc, item blue_skies:dusk_arc, item blue_skies:nature_arc, item blue_skies:poison_arc — récompense : xp 15 — après : arachnarque
+  > Chaque gardien de donjon porte son artéfact, qui donne un pouvoir à qui le porte. Posé sur la keystone de son donjon, l'artéfact relance le boss, avec un temps de recharge ; les clés ne servent qu'à la première fois.
+- **Les deux cieux** — tâches : checkmark Quatre boss au tableau — récompense : xp 10 — après : arachnarque
+  > Summonateur, Déstructeur des Étoiles, Alchimiste, Arachnarque. Le journal bleu garde le reste : villages, Stargazers, sac du Veilleur, lances et boucliers.
+
 ## L'End  (`monde_end`, 23 quêtes)
 
 - **Des yeux de l'Ender** — tâches : item minecraft:ender_eye 12 — récompense : item minecraft:ender_pearl 4

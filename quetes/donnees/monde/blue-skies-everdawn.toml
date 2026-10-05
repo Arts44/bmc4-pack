@@ -1,0 +1,168 @@
+# Chapitre « Blue Skies — Everdawn » — cahier des charges §4.8 (second
+# chapitre). Mêmes sources que l'Everbright : index du jar, journal bleu,
+# infobulles JEI, classes KeystoneBlock, config du serveur.
+
+[chapitre]
+titre = "&6Blue Skies — Everdawn"
+fichier = "monde_everdawn"
+groupe = "monde"
+icone = "blue_skies:lunar_stonebrick"
+ordre = 7
+
+[[quete]]
+cle = "entrer"
+titre = "&6Entrer dans l'Everdawn"
+sous_titre = "Guide dans #blue-skies sur le Discord."
+taille = 1.5
+icone = "blue_skies:lunar_stonebrick"
+taches = ["dimension blue_skies:everdawn"]
+recompenses = ["xp 10"]
+description = """
+Le second monde de Blue Skies, par le portail de pierre lunaire de la maison du Gatekeeper, allumé au briquet zèle. Chaud, doré, plein d'insectes et d'araignées. Le progrès « Thinking with Portals » du mod salue ceux qui ont vu les deux mondes.
+"""
+
+[[quete]]
+cle = "bois"
+titre = "Du bois de l'Everdawn"
+deps = ["entrer"]
+taches = ["advancement blue_skies:everdawn/get_wood"]
+recompenses = ["xp 2"]
+description = """
+Lunaire, crépuscubois, érable, comète : des bûches à frapper (progrès du mod). L'érable des forêts de coucher de soleil, le comète des vergers.
+"""
+
+[[quete]]
+cle = "horizonite"
+titre = "De l'horizonite"
+deps = ["bois"]
+taches = ["advancement blue_skies:everdawn/get_horizonite"]
+recompenses = ["xp 5"]
+description = """
+Le métal propre à l'Everdawn, fondu depuis son minerai brut. Il fait un équipement, et surtout la forge.
+"""
+
+[[quete]]
+cle = "forge"
+titre = "Une forge d'horizonite"
+deps = ["horizonite"]
+taches = ["item blue_skies:horizonite_forge"]
+recompenses = ["xp 5"]
+description = """
+La &6forge d'horizonite&r fond &lsans combustible&r : elle se recharge quand rien ne cuit, instantanément avec de l'horizonite, plus vite avec de la pierre solaire. Plusieurs forges valent mieux qu'une (journal bleu).
+"""
+
+[[quete]]
+cle = "charoite"
+titre = "De la charoite"
+deps = ["bois"]
+optionnel = true
+taches = ["advancement blue_skies:get_charoite"]
+recompenses = ["xp 3"]
+description = """
+La charoite se fond depuis son minerai brut ; avec la pyrope, l'aquite et le diopside, c'est l'une des quatre gemmes communes aux deux mondes.
+"""
+
+[[quete]]
+cle = "insectes"
+titre = "Les bêtes de l'Everdawn"
+deps = ["entrer"]
+optionnel = true
+taches = ["advancement blue_skies:everdawn/kill_bug"]
+recompenses = ["xp 5"]
+description = """
+Araignées venimeuses, nyctoflies, essaims infestés, crogres : le progrès du mod demande d'avoir tué chaque insecte et arachnide hostile de l'Everdawn. Un bouclier est l'arme de ce monde.
+"""
+
+[[quete]]
+cle = "champignon"
+titre = "Le champignon de l'exil"
+deps = ["entrer"]
+optionnel = true
+taches = ["advancement blue_skies:everdawn/poison_shroom"]
+recompenses = ["xp 2"]
+description = """
+Marcher dans un &5champignon de l'exil&r et en subir les conséquences : un progrès que le mod accorde à qui ne lit pas les panneaux.
+"""
+
+# ---- donjons
+[[quete]]
+cle = "aveuglant"
+titre = "Le donjon aveuglant de l'Everdawn"
+deps = ["entrer"]
+taille = 1.3
+taches = ["structure blue_skies:everdawn_blinding_dungeon"]
+recompenses = ["xp 5"]
+description = """
+La tour d'illageois de l'Everdawn : une clé par étage, quatre clés sur la keystone du dernier, et l'&cAlchimiste&r derrière. Les objets d'un mort restent à la keystone.
+"""
+
+[[quete]]
+cle = "alchimiste"
+titre = "&cVaincre l'Alchimiste"
+deps = ["aveuglant"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement blue_skies:everdawn/kill_alchemist"]
+recompenses = ["xp 20"]
+description = """
+Lui se bat seul : gerbes de flèches (un bouclier les arrête), nuages de potion dans les coins, et des &cpics en décomposition&r qui percent l'armure. Il se téléporte, sauf quand il lance un sort. Il lâche l'&cArtéfact du crépuscule&r et, parfois, sa table d'alchimie. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "poison"
+titre = "Le donjon du poison"
+deps = ["alchimiste"]
+taches = ["structure blue_skies:poison_dungeon"]
+recompenses = ["xp 5"]
+description = """
+Un arbre couvert de toiles dans la &lForêt d'érables du couchant&r : un nid d'araignées venimeuses, une clé par étage, une keystone au bout. Les clés empoisonnées s'achètent au Gatekeeper une fois l'Alchimiste vaincu (progrès du mod).
+"""
+
+[[quete]]
+cle = "arachnarque"
+titre = "&2Vaincre l'Arachnarque"
+deps = ["poison"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement blue_skies:everdawn/kill_arachnarch"]
+recompenses = ["xp 25"]
+description = """
+Au plafond, elle est presque intouchable : attends qu'elle redescende. Au sol, elle se jette de tout son poids ; un bouclier assez solide encaisse. Son artéfact relance le combat sur la keystone. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "alchimie"
+titre = "De l'or par alchimie"
+deps = ["alchimiste"]
+optionnel = true
+taches = ["advancement blue_skies:everdawn/alchemy_gold"]
+recompenses = ["xp 5"]
+description = """
+La &ctable d'alchimie&r convertit les matières brutes de l'Everdawn en celles de l'Everbright et inversement, fait de l'or, et combine la pierre avec un artéfact pour obtenir la pierre de donjon.
+"""
+
+[[quete]]
+cle = "artefacts"
+titre = "&dLes quatre artéfacts"
+deps = ["arachnarque"]
+optionnel = true
+taille = 1.3
+taches = ["item blue_skies:ethereal_arc", "item blue_skies:dusk_arc", "item blue_skies:nature_arc", "item blue_skies:poison_arc"]
+recompenses = ["xp 15"]
+description = """
+Chaque gardien de donjon porte son &dartéfact&r, qui donne un pouvoir à qui le porte. Posé sur la keystone de son donjon, l'artéfact &lrelance le boss&r, avec un temps de recharge ; les clés ne servent qu'à la première fois.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&6Les deux cieux"
+deps = ["arachnarque"]
+taille = 1.3
+icone = "blue_skies:dusk_arc"
+taches = ["checkmark Quatre boss au tableau"]
+recompenses = ["xp 10"]
+description = """
+Summonateur, Déstructeur des Étoiles, Alchimiste, Arachnarque. Le journal bleu garde le reste : villages, Stargazers, sac du Veilleur, lances et boucliers.
+"""

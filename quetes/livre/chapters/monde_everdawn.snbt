@@ -1,0 +1,312 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_everdawn"
+	group: "17185D2694D86048"
+	icon: "blue_skies:lunar_stonebrick"
+	id: "226CA368FDF5DDEE"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Le second monde de Blue Skies, par le portail de pierre lunaire de la maison du Gatekeeper, allumé au briquet zèle. Chaud, doré, plein d'insectes et d'araignées. Le progrès « Thinking with Portals » du mod salue ceux qui ont vu les deux mondes."]
+			icon: "blue_skies:lunar_stonebrick"
+			id: "526DABEE6B35A5BB"
+			rewards: [{
+				id: "4E2A58515E5A3024"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #blue-skies sur le Discord."
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "003078D50A24EDBD"
+				type: "dimension"
+			}]
+			title: "&6Entrer dans l'Everdawn"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["526DABEE6B35A5BB"]
+			description: ["Lunaire, crépuscubois, érable, comète : des bûches à frapper (progrès du mod). L'érable des forêts de coucher de soleil, le comète des vergers."]
+			id: "2E032B78873BFE1F"
+			rewards: [{
+				id: "2E910BBA76E795F1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "blue_skies:everdawn/get_wood"
+				criterion: ""
+				id: "5C5E46C77A7CEBDB"
+				type: "advancement"
+			}]
+			title: "Du bois de l'Everdawn"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2E032B78873BFE1F"]
+			description: ["Le métal propre à l'Everdawn, fondu depuis son minerai brut. Il fait un équipement, et surtout la forge."]
+			id: "4E870680E8DE904A"
+			rewards: [{
+				id: "1EBB55CE8E2AC2DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "blue_skies:everdawn/get_horizonite"
+				criterion: ""
+				id: "6FE90581F182AE6C"
+				type: "advancement"
+			}]
+			title: "De l'horizonite"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4E870680E8DE904A"]
+			description: ["La &6forge d'horizonite&r fond &lsans combustible&r : elle se recharge quand rien ne cuit, instantanément avec de l'horizonite, plus vite avec de la pierre solaire. Plusieurs forges valent mieux qu'une (journal bleu)."]
+			icon: "blue_skies:horizonite_forge"
+			id: "3D972A74C7F0D054"
+			rewards: [{
+				id: "4B0C8139BA252B8D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "61BE2443A8554643"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			title: "Une forge d'horizonite"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2E032B78873BFE1F"]
+			description: ["La charoite se fond depuis son minerai brut ; avec la pyrope, l'aquite et le diopside, c'est l'une des quatre gemmes communes aux deux mondes."]
+			id: "3F315EFE607FD11D"
+			optional: true
+			rewards: [{
+				id: "2F6E861FD2C8067A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "blue_skies:get_charoite"
+				criterion: ""
+				id: "14E106345F1F9546"
+				type: "advancement"
+			}]
+			title: "De la charoite"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["526DABEE6B35A5BB"]
+			description: ["Araignées venimeuses, nyctoflies, essaims infestés, crogres : le progrès du mod demande d'avoir tué chaque insecte et arachnide hostile de l'Everdawn. Un bouclier est l'arme de ce monde."]
+			id: "656B4548FF4193F9"
+			optional: true
+			rewards: [{
+				id: "142CFDC54889DDAE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "blue_skies:everdawn/kill_bug"
+				criterion: ""
+				id: "5425C41BD18887BB"
+				type: "advancement"
+			}]
+			title: "Les bêtes de l'Everdawn"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["526DABEE6B35A5BB"]
+			description: ["Marcher dans un &5champignon de l'exil&r et en subir les conséquences : un progrès que le mod accorde à qui ne lit pas les panneaux."]
+			id: "54E7F5ECF4473509"
+			optional: true
+			rewards: [{
+				id: "2B0A62548D23A1B6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "blue_skies:everdawn/poison_shroom"
+				criterion: ""
+				id: "506A5D31ECCFD663"
+				type: "advancement"
+			}]
+			title: "Le champignon de l'exil"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["526DABEE6B35A5BB"]
+			description: ["La tour d'illageois de l'Everdawn : une clé par étage, quatre clés sur la keystone du dernier, et l'&cAlchimiste&r derrière. Les objets d'un mort restent à la keystone."]
+			id: "64F40D1C37FC27B9"
+			rewards: [{
+				id: "3896742320954803"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "423263F443E2ECED"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon aveuglant de l'Everdawn"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["64F40D1C37FC27B9"]
+			description: ["Lui se bat seul : gerbes de flèches (un bouclier les arrête), nuages de potion dans les coins, et des &cpics en décomposition&r qui percent l'armure. Il se téléporte, sauf quand il lance un sort. Il lâche l'&cArtéfact du crépuscule&r et, parfois, sa table d'alchimie. Sa mort est annoncée dans #faits-d-armes."]
+			id: "5C0C6F3414D97F8E"
+			rewards: [{
+				id: "1FE4164F500E82E8"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "blue_skies:everdawn/kill_alchemist"
+				criterion: ""
+				id: "0B82A36602E6ADE7"
+				type: "advancement"
+			}]
+			title: "&cVaincre l'Alchimiste"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5C0C6F3414D97F8E"]
+			description: ["Un arbre couvert de toiles dans la &lForêt d'érables du couchant&r : un nid d'araignées venimeuses, une clé par étage, une keystone au bout. Les clés empoisonnées s'achètent au Gatekeeper une fois l'Alchimiste vaincu (progrès du mod)."]
+			id: "4880BD4827C89214"
+			rewards: [{
+				id: "104997BCD30C09F0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5963EEFCEC86260C"
+				structure: "blue_skies:poison_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon du poison"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4880BD4827C89214"]
+			description: ["Au plafond, elle est presque intouchable : attends qu'elle redescende. Au sol, elle se jette de tout son poids ; un bouclier assez solide encaisse. Son artéfact relance le combat sur la keystone. Sa mort est annoncée dans #faits-d-armes."]
+			id: "1D548D675B32A827"
+			rewards: [{
+				id: "5C080DFD88441639"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "blue_skies:everdawn/kill_arachnarch"
+				criterion: ""
+				id: "7BA0A125DE9540B6"
+				type: "advancement"
+			}]
+			title: "&2Vaincre l'Arachnarque"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C0C6F3414D97F8E"]
+			description: ["La &ctable d'alchimie&r convertit les matières brutes de l'Everdawn en celles de l'Everbright et inversement, fait de l'or, et combine la pierre avec un artéfact pour obtenir la pierre de donjon."]
+			id: "5F963AEAA930FD95"
+			optional: true
+			rewards: [{
+				id: "25AEBCB3CBFE27AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "blue_skies:everdawn/alchemy_gold"
+				criterion: ""
+				id: "22ED70EC6EEC9FD3"
+				type: "advancement"
+			}]
+			title: "De l'or par alchimie"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D548D675B32A827"]
+			description: ["Chaque gardien de donjon porte son &dartéfact&r, qui donne un pouvoir à qui le porte. Posé sur la keystone de son donjon, l'artéfact &lrelance le boss&r, avec un temps de recharge ; les clés ne servent qu'à la première fois."]
+			icon: "blue_skies:ethereal_arc"
+			id: "5B121AC75520B941"
+			optional: true
+			rewards: [{
+				id: "69744D066F76833F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "70D20763B29030B7"
+					item: "blue_skies:ethereal_arc"
+					type: "item"
+				}
+				{
+					id: "630EBE10C4861304"
+					item: "blue_skies:dusk_arc"
+					type: "item"
+				}
+				{
+					id: "0FB2786F8427B0B6"
+					item: "blue_skies:nature_arc"
+					type: "item"
+				}
+				{
+					id: "59053F845598BC40"
+					item: "blue_skies:poison_arc"
+					type: "item"
+				}
+			]
+			title: "&dLes quatre artéfacts"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D548D675B32A827"]
+			description: ["Summonateur, Déstructeur des Étoiles, Alchimiste, Arachnarque. Le journal bleu garde le reste : villages, Stargazers, sac du Veilleur, lances et boucliers."]
+			icon: "blue_skies:dusk_arc"
+			id: "6A8E43DEB326E4B0"
+			rewards: [{
+				id: "5B2B279F13F65E7C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "1D6FF59F38CEF975"
+				title: "Quatre boss au tableau"
+				type: "checkmark"
+			}]
+			title: "&6Les deux cieux"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "&6Blue Skies — Everdawn"
+}

@@ -1,0 +1,203 @@
+# Chapitre « Blue Skies — Everbright » — cahier des charges §4.8 (premier des
+# deux chapitres). Sources (5 octobre 2026) : index du jar
+# blue_skies-1.20.1-1.3.31 (objets, recettes, structures, progrès,
+# dimensions), infobulles JEI et journal bleu du jar (journal_lang/en_us),
+# classes KeystoneBlock (clé ou artéfact acceptés, temps de recharge de
+# l'artéfact, boss ré-invoqué ; les échanges de clés du Gatekeeper se
+# débloquent par progrès), blue_skies-common.toml du serveur (briquet
+# zèle à 8 émeraudes).
+
+[chapitre]
+titre = "&bBlue Skies — Everbright"
+fichier = "monde_everbright"
+groupe = "monde"
+icone = "blue_skies:turquoise_stonebrick"
+ordre = 6
+
+[[quete]]
+cle = "gatekeeper"
+titre = "&bLa maison du Gatekeeper"
+sous_titre = "Guide dans #blue-skies sur le Discord."
+taille = 1.5
+icone = "blue_skies:blue_journal"
+taches = ["structure blue_skies:gatekeeper_house_plains"]
+recompenses = ["item minecraft:emerald 8"]
+description = """
+&bBlue Skies&r, ce sont deux mondes : l'&bEverbright&r, froid et bleu, l'&6Everdawn&r, chaud et doré. Les deux s'ouvrent dans la maison du &lGatekeeper&r, dans l'Overworld : le portail y est déjà construit, et le Gatekeeper vend le &bJournal bleu&r — le guide du mod — et le &lbriquet zèle&r, huit émeraudes sur ce serveur. Les émeraudes offertes sont pour lui.
+"""
+
+[[quete]]
+cle = "briquet"
+titre = "Un briquet zèle"
+deps = ["gatekeeper"]
+taches = ["item blue_skies:zeal_lighter"]
+recompenses = ["xp 3"]
+description = """
+Il allume les portails de l'Everbright (pierre taillée turquoise) et de l'Everdawn (pierre taillée lunaire). Les blocs des portails se prennent chez le Gatekeeper si on veut en construire un chez soi.
+"""
+
+[[quete]]
+cle = "entrer"
+titre = "Entrer dans l'Everbright"
+deps = ["briquet"]
+taille = 1.3
+taches = ["dimension blue_skies:everbright"]
+recompenses = ["xp 10"]
+description = """
+Un monde de neige, de lacs et de forêts bleues. Les outils de l'Overworld y mordent mal : le mod le dit lui-même (« ce outil ne marche pas aussi bien ici »), il faut ses bois et ses pierres.
+"""
+
+[[quete]]
+cle = "bois"
+titre = "Du bois de l'Everbright"
+deps = ["entrer"]
+taches = ["advancement blue_skies:everbright/get_wood"]
+recompenses = ["xp 2"]
+description = """
+Lumibleu, étoilibois, nifrisque : des bûches à frapper (progrès du mod). Chaque bâton de ces bois a un usage à la boîte à outils.
+"""
+
+[[quete]]
+cle = "gemmes"
+titre = "Les gemmes de Blue Skies"
+deps = ["bois"]
+taches = ["advancement blue_skies:get_pyrope", "advancement blue_skies:get_aquite", "advancement blue_skies:get_diopside"]
+recompenses = ["xp 5"]
+description = """
+Pyrope et diopside se minent, l'aquite et la charoite se fondent depuis leur minerai brut. Elles font les outils et armures des deux mondes.
+"""
+
+[[quete]]
+cle = "falsite"
+titre = "Falsite et ventium"
+deps = ["gemmes"]
+taches = ["advancement blue_skies:everbright/get_falsite", "advancement blue_skies:everbright/get_ventium"]
+recompenses = ["xp 5"]
+description = """
+Les deux métaux propres à l'Everbright. La &bfalsite&r augmente la durabilité d'un outil à la boîte à outils ; le &bventium&r fait un équipement.
+"""
+
+[[quete]]
+cle = "boite"
+titre = "Une boîte à outils"
+deps = ["falsite"]
+taches = ["item blue_skies:tool_box", "advancement blue_skies:everbright/use_tool_box"]
+recompenses = ["xp 5"]
+description = """
+La &bboîte à outils&r améliore les outils : la falsite pour la durabilité, et n'importe quel bâton des deux mondes se substitue au manche, chacun avec son effet (journal bleu).
+"""
+
+[[quete]]
+cle = "four_gele"
+titre = "Un four gelé"
+deps = ["entrer"]
+optionnel = true
+taches = ["item blue_skies:snowcap_oven"]
+recompenses = ["xp 3"]
+description = """
+Le &bfour gelé&r pompe la chaleur du combustible pour cuire, et laisse parfois un sous-produit gelé. L'eau même y sert de combustible, médiocre.
+"""
+
+[[quete]]
+cle = "table_cuisine"
+titre = "Une table de préparation"
+deps = ["entrer"]
+optionnel = true
+taches = ["advancement blue_skies:craft_food_prep_table"]
+recompenses = ["xp 3"]
+description = """
+Trois à cinq ingrédients : plus ils sont variés et nourrissants, plus le plat a de portions. Des fleurs en assaisonnement donnent leurs effets de potion (journal bleu).
+"""
+
+[[quete]]
+cle = "pierre_lune"
+titre = "Des fragments de pierre de lune"
+deps = ["entrer"]
+optionnel = true
+taches = ["advancement blue_skies:get_moonstone_shard"]
+recompenses = ["xp 3"]
+description = """
+Le minerai de pierre de lune donne des fragments : le bouclier de pierre de lune et les perles de garde en ont besoin.
+"""
+
+[[quete]]
+cle = "astrolabe"
+titre = "Astrolabe et émetteur d'étoiles"
+deps = ["entrer"]
+optionnel = true
+taches = ["item blue_skies:star_emitter"]
+recompenses = ["xp 3"]
+description = """
+L'&bastrolabe&r s'achète au Stargazer d'un village ; lié à un &bémetteur d'étoiles&r, il y ramène d'une distance moyenne, puis se recharge selon la distance. Une waystone de poche pour l'Everbright.
+"""
+
+# ---- donjons
+[[quete]]
+cle = "aveuglant"
+titre = "Le donjon aveuglant de l'Everbright"
+deps = ["entrer"]
+taille = 1.3
+taches = ["structure blue_skies:everbright_blinding_dungeon"]
+recompenses = ["xp 5"]
+description = """
+Une tour d'illageois. Chaque étage cache une &lclé&r ; &lquatre clés aveuglantes&r sur la keystone du dernier étage ouvrent la salle du &5Summonateur&r. Mort dans la salle du boss, les objets restent à la keystone (le mod le dit).
+"""
+
+[[quete]]
+cle = "summoner"
+titre = "&5Vaincre le Summonateur"
+deps = ["aveuglant"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement blue_skies:everbright/kill_summoner"]
+recompenses = ["xp 20"]
+description = """
+Il invoque des golems artificiels, à distance puis au corps à corps, et se téléporte — sauf pendant qu'il lance un sort : c'est là qu'on frappe. Il lâche son &5Artéfact éthéré&r et, parfois, la table d'invocation. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "nature"
+titre = "Le donjon de la nature"
+deps = ["summoner"]
+taches = ["structure blue_skies:nature_dungeon"]
+recompenses = ["xp 5"]
+description = """
+Une pyramide verte dans les &lPins enneigés&r, gardée par des golems de pierre liés par des lianes étoilées. Une clé par étage, une keystone au bout. Le Gatekeeper vend les clés de la nature une fois le donjon aveuglant vaincu (progrès du mod).
+"""
+
+[[quete]]
+cle = "crusher"
+titre = "&2Vaincre le Déstructeur des Étoiles"
+deps = ["nature"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement blue_skies:everbright/kill_starlit_crusher"]
+recompenses = ["xp 25"]
+description = """
+Quatre murs de bois le protègent ; il fait pousser racines, Spewters et hiboux de bois. Abats un mur à la &lhache&r : il martèle le sol, vulnérable aux projectiles — une &llance&r l'étourdit, puis la hache. Son artéfact relance le combat sur la keystone, après un temps de recharge. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "golem"
+titre = "Invoquer un golem artificiel"
+deps = ["summoner"]
+optionnel = true
+taches = ["advancement blue_skies:everbright/summon_artificial_golem"]
+recompenses = ["xp 5"]
+description = """
+La &5table d'invocation&r du Summonateur règle le &5tome d'invocation&r : une sphère fluctuante à tirer, ou un golem artificiel qui se bat à tes côtés, un seul à la fois.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&bL'Everbright est vaincu"
+deps = ["crusher"]
+taille = 1.3
+icone = "blue_skies:ethereal_arc"
+taches = ["checkmark Deux artéfacts en poche"]
+recompenses = ["xp 10"]
+description = """
+Le Summonateur et le Déstructeur des Étoiles au tableau. L'Everdawn attend de l'autre côté de la maison du Gatekeeper.
+"""

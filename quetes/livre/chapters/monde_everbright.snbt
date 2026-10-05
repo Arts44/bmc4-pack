@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_everbright"
+	group: "17185D2694D86048"
+	icon: "blue_skies:turquoise_stonebrick"
+	id: "5888751D9DE9B114"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&bBlue Skies&r, ce sont deux mondes : l'&bEverbright&r, froid et bleu, l'&6Everdawn&r, chaud et doré. Les deux s'ouvrent dans la maison du &lGatekeeper&r, dans l'Overworld : le portail y est déjà construit, et le Gatekeeper vend le &bJournal bleu&r — le guide du mod — et le &lbriquet zèle&r, huit émeraudes sur ce serveur. Les émeraudes offertes sont pour lui."]
+			icon: "blue_skies:blue_journal"
+			id: "5DB4410ED946496A"
+			rewards: [{
+				count: 8
+				id: "449E1E6989569AD4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #blue-skies sur le Discord."
+			tasks: [{
+				id: "5693C54F1AAC8A1A"
+				structure: "blue_skies:gatekeeper_house_plains"
+				type: "structure"
+			}]
+			title: "&bLa maison du Gatekeeper"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DB4410ED946496A"]
+			description: ["Il allume les portails de l'Everbright (pierre taillée turquoise) et de l'Everdawn (pierre taillée lunaire). Les blocs des portails se prennent chez le Gatekeeper si on veut en construire un chez soi."]
+			icon: "blue_skies:zeal_lighter"
+			id: "08D94C75AAD32FEC"
+			rewards: [{
+				id: "3A9BB32252C76B90"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "74F788566DA683B6"
+				item: "blue_skies:zeal_lighter"
+				type: "item"
+			}]
+			title: "Un briquet zèle"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08D94C75AAD32FEC"]
+			description: ["Un monde de neige, de lacs et de forêts bleues. Les outils de l'Overworld y mordent mal : le mod le dit lui-même (« ce outil ne marche pas aussi bien ici »), il faut ses bois et ses pierres."]
+			id: "1FDA402DA78D4B38"
+			rewards: [{
+				id: "40FF1253BACD8DC0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "5D42480A8F0E3ECB"
+				type: "dimension"
+			}]
+			title: "Entrer dans l'Everbright"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FDA402DA78D4B38"]
+			description: ["Lumibleu, étoilibois, nifrisque : des bûches à frapper (progrès du mod). Chaque bâton de ces bois a un usage à la boîte à outils."]
+			id: "6AAD23682688665F"
+			rewards: [{
+				id: "491FB864D8B2E245"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "blue_skies:everbright/get_wood"
+				criterion: ""
+				id: "421D4FBD54EF3105"
+				type: "advancement"
+			}]
+			title: "Du bois de l'Everbright"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6AAD23682688665F"]
+			description: ["Pyrope et diopside se minent, l'aquite et la charoite se fondent depuis leur minerai brut. Elles font les outils et armures des deux mondes."]
+			id: "7022031C1C80246D"
+			rewards: [{
+				id: "394F2C25A5960692"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					advancement: "blue_skies:get_pyrope"
+					criterion: ""
+					id: "0E3815C9B3B2CA88"
+					type: "advancement"
+				}
+				{
+					advancement: "blue_skies:get_aquite"
+					criterion: ""
+					id: "08CC12630448B316"
+					type: "advancement"
+				}
+				{
+					advancement: "blue_skies:get_diopside"
+					criterion: ""
+					id: "023E7C52BCB92E28"
+					type: "advancement"
+				}
+			]
+			title: "Les gemmes de Blue Skies"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7022031C1C80246D"]
+			description: ["Les deux métaux propres à l'Everbright. La &bfalsite&r augmente la durabilité d'un outil à la boîte à outils ; le &bventium&r fait un équipement."]
+			id: "18667576AC501B58"
+			rewards: [{
+				id: "0080B304BD4B9B27"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					advancement: "blue_skies:everbright/get_falsite"
+					criterion: ""
+					id: "358BD1D1826468F0"
+					type: "advancement"
+				}
+				{
+					advancement: "blue_skies:everbright/get_ventium"
+					criterion: ""
+					id: "12F54E1BF777C191"
+					type: "advancement"
+				}
+			]
+			title: "Falsite et ventium"
+			x: 10.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["18667576AC501B58"]
+			description: ["La &bboîte à outils&r améliore les outils : la falsite pour la durabilité, et n'importe quel bâton des deux mondes se substitue au manche, chacun avec son effet (journal bleu)."]
+			icon: "blue_skies:tool_box"
+			id: "1CEE93468850CE94"
+			rewards: [{
+				id: "53CB322563BE9982"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "20D32F062B936D5F"
+					item: "blue_skies:tool_box"
+					type: "item"
+				}
+				{
+					advancement: "blue_skies:everbright/use_tool_box"
+					criterion: ""
+					id: "77BE3A64215CF51E"
+					type: "advancement"
+				}
+			]
+			title: "Une boîte à outils"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1FDA402DA78D4B38"]
+			description: ["Le &bfour gelé&r pompe la chaleur du combustible pour cuire, et laisse parfois un sous-produit gelé. L'eau même y sert de combustible, médiocre."]
+			icon: "blue_skies:snowcap_oven"
+			id: "12DAF2B1BE19124A"
+			optional: true
+			rewards: [{
+				id: "5A5082070EA9EDD2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FB5E693867BD7E9"
+				item: "blue_skies:snowcap_oven"
+				type: "item"
+			}]
+			title: "Un four gelé"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FDA402DA78D4B38"]
+			description: ["Trois à cinq ingrédients : plus ils sont variés et nourrissants, plus le plat a de portions. Des fleurs en assaisonnement donnent leurs effets de potion (journal bleu)."]
+			id: "09CF4C56B633D91E"
+			optional: true
+			rewards: [{
+				id: "26A66647271B1EEA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "blue_skies:craft_food_prep_table"
+				criterion: ""
+				id: "0A7E6F5BD62E0D42"
+				type: "advancement"
+			}]
+			title: "Une table de préparation"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FDA402DA78D4B38"]
+			description: ["Le minerai de pierre de lune donne des fragments : le bouclier de pierre de lune et les perles de garde en ont besoin."]
+			id: "42AA53EFADC526E0"
+			optional: true
+			rewards: [{
+				id: "313DCCB7A210BB86"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "blue_skies:get_moonstone_shard"
+				criterion: ""
+				id: "7C329BFEF2B09586"
+				type: "advancement"
+			}]
+			title: "Des fragments de pierre de lune"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FDA402DA78D4B38"]
+			description: ["L'&bastrolabe&r s'achète au Stargazer d'un village ; lié à un &bémetteur d'étoiles&r, il y ramène d'une distance moyenne, puis se recharge selon la distance. Une waystone de poche pour l'Everbright."]
+			icon: "blue_skies:star_emitter"
+			id: "73D9EADDCC3215CF"
+			optional: true
+			rewards: [{
+				id: "4B286E35124ABF08"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06985712F3899D63"
+				item: "blue_skies:star_emitter"
+				type: "item"
+			}]
+			title: "Astrolabe et émetteur d'étoiles"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FDA402DA78D4B38"]
+			description: ["Une tour d'illageois. Chaque étage cache une &lclé&r ; &lquatre clés aveuglantes&r sur la keystone du dernier étage ouvrent la salle du &5Summonateur&r. Mort dans la salle du boss, les objets restent à la keystone (le mod le dit)."]
+			id: "75DD7BFF70E14471"
+			rewards: [{
+				id: "6173744BCECDC1B8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2E239C880CAE6145"
+				structure: "blue_skies:everbright_blinding_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon aveuglant de l'Everbright"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["75DD7BFF70E14471"]
+			description: ["Il invoque des golems artificiels, à distance puis au corps à corps, et se téléporte — sauf pendant qu'il lance un sort : c'est là qu'on frappe. Il lâche son &5Artéfact éthéré&r et, parfois, la table d'invocation. Sa mort est annoncée dans #faits-d-armes."]
+			id: "04A6349A2ECEED79"
+			rewards: [{
+				id: "3C542B1352598CEC"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "blue_skies:everbright/kill_summoner"
+				criterion: ""
+				id: "6CBCBFAD1FFBBE9C"
+				type: "advancement"
+			}]
+			title: "&5Vaincre le Summonateur"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["04A6349A2ECEED79"]
+			description: ["Une pyramide verte dans les &lPins enneigés&r, gardée par des golems de pierre liés par des lianes étoilées. Une clé par étage, une keystone au bout. Le Gatekeeper vend les clés de la nature une fois le donjon aveuglant vaincu (progrès du mod)."]
+			id: "498AAAA7903FF443"
+			rewards: [{
+				id: "38FCBFE799704ED3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "712DB381B19DD9BF"
+				structure: "blue_skies:nature_dungeon"
+				type: "structure"
+			}]
+			title: "Le donjon de la nature"
+			x: 10.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["498AAAA7903FF443"]
+			description: ["Quatre murs de bois le protègent ; il fait pousser racines, Spewters et hiboux de bois. Abats un mur à la &lhache&r : il martèle le sol, vulnérable aux projectiles — une &llance&r l'étourdit, puis la hache. Son artéfact relance le combat sur la keystone, après un temps de recharge. Sa mort est annoncée dans #faits-d-armes."]
+			id: "29AE931FE68E3A67"
+			rewards: [{
+				id: "3F0EF4C722816BDF"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "blue_skies:everbright/kill_starlit_crusher"
+				criterion: ""
+				id: "10ABCE163578B833"
+				type: "advancement"
+			}]
+			title: "&2Vaincre le Déstructeur des Étoiles"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["04A6349A2ECEED79"]
+			description: ["La &5table d'invocation&r du Summonateur règle le &5tome d'invocation&r : une sphère fluctuante à tirer, ou un golem artificiel qui se bat à tes côtés, un seul à la fois."]
+			id: "28EFBCA365EE70EA"
+			optional: true
+			rewards: [{
+				id: "617C9CB05FF6EE7D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "blue_skies:everbright/summon_artificial_golem"
+				criterion: ""
+				id: "6508A8551BFFCBEA"
+				type: "advancement"
+			}]
+			title: "Invoquer un golem artificiel"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29AE931FE68E3A67"]
+			description: ["Le Summonateur et le Déstructeur des Étoiles au tableau. L'Everdawn attend de l'autre côté de la maison du Gatekeeper."]
+			icon: "blue_skies:ethereal_arc"
+			id: "2D3300E924F34D7E"
+			rewards: [{
+				id: "55D274BE0AA61D0D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "0422E7ECAD2BD816"
+				title: "Deux artéfacts en poche"
+				type: "checkmark"
+			}]
+			title: "&bL'Everbright est vaincu"
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	title: "&bBlue Skies — Everbright"
+}
