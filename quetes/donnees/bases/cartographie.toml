@@ -1,0 +1,128 @@
+# Chapitre « Cartographie » — cahier des charges §9.1.8
+# R0. Objets vanilla de l'index (carte, table de cartographie, boussole,
+# boussole de récupération, longue-vue, magnétite), cartes au trésor par
+# le cartographe (jeu de base), Xaero côté client (points de passage).
+# Maps 3D : pas dans le pack au 5 octobre 2026 ; à ajouter au chapitre
+# Nouveautés si le vote passe.
+
+[chapitre]
+titre = "&2Cartographie"
+fichier = "bases_cartographie"
+groupe = "bases"
+icone = "minecraft:filled_map"
+ordre = 8
+
+[[quete]]
+cle = "intro"
+titre = "&2Savoir où l'on est"
+taille = 1.5
+icone = "minecraft:compass"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:paper 9"]
+description = """
+Les cartes du jeu, et la carte de &bXaero&r qui fait presque tout à leur place. La boussole du kit pointe vers le Marché.
+"""
+
+[[quete]]
+cle = "carte"
+titre = "Une carte"
+deps = ["intro"]
+taches = ["item minecraft:map"]
+recompenses = ["xp 2"]
+description = """
+Huit papiers autour d'une boussole : une carte avec ton point dessus. Sans boussole, une carte vierge sans marqueur.
+"""
+
+[[quete]]
+cle = "remplie"
+titre = "Une carte remplie"
+deps = ["carte"]
+taches = ["item minecraft:filled_map"]
+recompenses = ["xp 2"]
+description = """
+Tenue en main, elle se dessine autour de toi. Dans un cadre, elle devient un mur de cartes.
+"""
+
+[[quete]]
+cle = "table"
+titre = "La table de cartographie"
+deps = ["remplie"]
+taches = ["item minecraft:cartography_table"]
+recompenses = ["xp 3"]
+description = """
+Papier pour agrandir (quatre fois), carte vierge pour copier, cadre de verre pour verrouiller.
+"""
+
+[[quete]]
+cle = "marqueur"
+titre = "Un marqueur"
+deps = ["remplie"]
+optionnel = true
+taches = ["item minecraft:white_banner"]
+recompenses = ["xp 2"]
+description = """
+Une bannière nommée, cliquée avec la carte, y apparaît avec son nom et sa couleur.
+"""
+
+[[quete]]
+cle = "tresor"
+titre = "Une carte au trésor"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:heart_of_the_sea"]
+recompenses = ["xp 8"]
+description = """
+Dans les épaves et les ruines, une carte mène à un trésor enfoui : le &lcœur de la mer&r, pour le conduit. Les cartographes vendent les cartes vers les monuments et les manoirs.
+"""
+
+[[quete]]
+cle = "longue_vue"
+titre = "Une longue-vue"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:spyglass"]
+recompenses = ["xp 2"]
+description = """
+Un éclat d'améthyste et deux lingots de cuivre. Regarder un perroquet, un ghast ou le dragon vaut un progrès chacun.
+"""
+
+[[quete]]
+cle = "magnetite"
+titre = "Une magnétite"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:lodestone"]
+recompenses = ["xp 5"]
+description = """
+Une boussole cliquée dessus pointe vers elle, dans n'importe quelle dimension.
+"""
+
+[[quete]]
+cle = "recuperation"
+titre = "Une boussole de récupération"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:recovery_compass"]
+recompenses = ["xp 5"]
+description = """
+Huit éclats d'écho des cités anciennes : elle pointe vers ta dernière mort. Sur ce serveur, la tombe (You're in Grave Danger) garde tes affaires et sa propre boussole.
+"""
+
+[[quete]]
+cle = "xaero"
+titre = "La carte de Xaero"
+deps = ["intro"]
+taches = ["checkmark Un point de passage partagé"]
+recompenses = ["xp 3"]
+description = """
+Touche &bM&r : tout ce que tu as vu, les waystones, les claims. Un point de passage se pose d'un clic ; partagé dans le chat, il arrive chez les autres. La minicarte montre les joueurs proches.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&2Cartographe"
+deps = ["table", "xaero"]
+taille = 1.3
+icone = "minecraft:cartography_table"
+taches = ["checkmark Cartographe"]
+recompenses = ["xp 5"]

@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bases_cartographie"
+	group: "00400F52F527AA36"
+	icon: "minecraft:filled_map"
+	id: "58F9D2A32FAD0D87"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Les cartes du jeu, et la carte de &bXaero&r qui fait presque tout à leur place. La boussole du kit pointe vers le Marché."]
+			icon: "minecraft:compass"
+			id: "763400B448280DEF"
+			rewards: [{
+				count: 9
+				id: "483AA4110F3B7912"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0F8ABE65A399F048"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&2Savoir où l'on est"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["763400B448280DEF"]
+			description: ["Huit papiers autour d'une boussole : une carte avec ton point dessus. Sans boussole, une carte vierge sans marqueur."]
+			icon: "minecraft:map"
+			id: "39AE103E66089141"
+			rewards: [{
+				id: "1CEBC62A1A35B84A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2047D870FA3C2F90"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			title: "Une carte"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["39AE103E66089141"]
+			description: ["Tenue en main, elle se dessine autour de toi. Dans un cadre, elle devient un mur de cartes."]
+			icon: "minecraft:filled_map"
+			id: "39C651DDD97D3894"
+			rewards: [{
+				id: "6C741EB6DE4BB17D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3B19726A5ABDD8CC"
+				item: "minecraft:filled_map"
+				type: "item"
+			}]
+			title: "Une carte remplie"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C651DDD97D3894"]
+			description: ["Papier pour agrandir (quatre fois), carte vierge pour copier, cadre de verre pour verrouiller."]
+			icon: "minecraft:cartography_table"
+			id: "0C74479DEE597ADF"
+			rewards: [{
+				id: "5E660E26264F400D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4C10D120FA6D6631"
+				item: "minecraft:cartography_table"
+				type: "item"
+			}]
+			title: "La table de cartographie"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C651DDD97D3894"]
+			description: ["Une bannière nommée, cliquée avec la carte, y apparaît avec son nom et sa couleur."]
+			icon: "minecraft:white_banner"
+			id: "0A6A1A1E29661E99"
+			optional: true
+			rewards: [{
+				id: "47A66D03C91CC4FD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5242AD504233687A"
+				item: "minecraft:white_banner"
+				type: "item"
+			}]
+			title: "Un marqueur"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["763400B448280DEF"]
+			description: ["Dans les épaves et les ruines, une carte mène à un trésor enfoui : le &lcœur de la mer&r, pour le conduit. Les cartographes vendent les cartes vers les monuments et les manoirs."]
+			icon: "minecraft:heart_of_the_sea"
+			id: "0E2D5517AD1780AB"
+			optional: true
+			rewards: [{
+				id: "0327605C3732B957"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00B278BFCBF63405"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "Une carte au trésor"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["763400B448280DEF"]
+			description: ["Un éclat d'améthyste et deux lingots de cuivre. Regarder un perroquet, un ghast ou le dragon vaut un progrès chacun."]
+			icon: "minecraft:spyglass"
+			id: "4D9F87B8E8E8F728"
+			optional: true
+			rewards: [{
+				id: "2933F79C822331FF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "176C5314B4922048"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			title: "Une longue-vue"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["763400B448280DEF"]
+			description: ["Une boussole cliquée dessus pointe vers elle, dans n'importe quelle dimension."]
+			icon: "minecraft:lodestone"
+			id: "5689C4BD77C37590"
+			optional: true
+			rewards: [{
+				id: "70DBF73EB77DB3B6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69D7202ECF3D7832"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			title: "Une magnétite"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["763400B448280DEF"]
+			description: ["Huit éclats d'écho des cités anciennes : elle pointe vers ta dernière mort. Sur ce serveur, la tombe (You're in Grave Danger) garde tes affaires et sa propre boussole."]
+			icon: "minecraft:recovery_compass"
+			id: "6EF26198A1D087A5"
+			optional: true
+			rewards: [{
+				id: "5CA8B27F1487A925"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62947CBA5FC9C395"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			title: "Une boussole de récupération"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["763400B448280DEF"]
+			description: ["Touche &bM&r : tout ce que tu as vu, les waystones, les claims. Un point de passage se pose d'un clic ; partagé dans le chat, il arrive chez les autres. La minicarte montre les joueurs proches."]
+			id: "4BEB6B23FF20997C"
+			rewards: [{
+				id: "20C7F312FB438CC1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "475C20FCDFDE8132"
+				title: "Un point de passage partagé"
+				type: "checkmark"
+			}]
+			title: "La carte de Xaero"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"0C74479DEE597ADF"
+				"4BEB6B23FF20997C"
+			]
+			icon: "minecraft:cartography_table"
+			id: "1E936BF123C98F90"
+			rewards: [{
+				id: "25C27C53FDBDA745"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "170D2BE334954724"
+				title: "Cartographe"
+				type: "checkmark"
+			}]
+			title: "&2Cartographe"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&2Cartographie"
+}
