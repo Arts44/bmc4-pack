@@ -5,7 +5,10 @@
 # server.toml du serveur (sac de couchage la nuit, hamac le jour, les deux
 # tiennent les phantoms à distance, pas de casse) ; Ping Wheel (lang :
 # canal, couleur d'équipe FTB Teams) ; Mouse Tweaks, Jade, JEI/EMI, Xaero
-# : côté client, cases à cocher. Le sac élimé et le sac plaqué sont déjà
+# : côté client, cases à cocher. Inmis (BMC-89, paliers) : recettes du jar
+# (le sac flétri part du sac orné de gemmes, pas du sac ardent) et
+# /config/inmis.json du serveur (cases, sac ardent insensible au feu, boîtes
+# de Shulker interdites dans les sacs). Le sac élimé et le sac plaqué sont déjà
 # au chapitre Bienvenue : on reprend après.
 
 [chapitre]
@@ -31,10 +34,11 @@ Les sacs d'Inmis jusqu'au bout, dormir n'importe où, les touches qui font gagne
 cle = "dore"
 titre = "Le sac doré"
 deps = ["intro"]
+deps_externes = ["bienvenue/sac"]
 taches = ["advancement inmis:gilded_backpack"]
 recompenses = ["xp 5"]
 description = """
-Le sac plaqué entouré d'or (progrès du mod). Chaque palier demande le précédent.
+Le sac plaqué entouré de huit lingots d'or : trois rangées de neuf cases (config du serveur). Chaque palier se fabrique autour du sac d'avant, qui garde son contenu. Sur ce serveur, une boîte de Shulker n'entre pas dans un sac.
 """
 
 [[quete]]
@@ -43,30 +47,41 @@ titre = "Le sac orné de gemmes"
 deps = ["dore"]
 taches = ["advancement inmis:bejeweled_backpack"]
 recompenses = ["xp 8"]
+description = """
+Le sac doré, quatre diamants et quatre émeraudes : cinq rangées de neuf cases. De lui partent deux branches, le sac ardent et le sac flétri.
+"""
 
 [[quete]]
 cle = "ardent"
 titre = "Le sac ardent"
 deps = ["gemmes"]
+optionnel = true
 taches = ["advancement inmis:blazing_backpack"]
 recompenses = ["xp 10"]
+description = """
+Une branche à part : le sac orné de gemmes, quatre lingots de nétherite et quatre blocs de magma. Six rangées de neuf cases, et il ne brûle pas dans la lave.
+"""
 
 [[quete]]
 cle = "fletri"
 titre = "Le sac flétri"
-deps = ["ardent"]
+deps = ["gemmes"]
 taches = ["advancement inmis:withered_backpack"]
 recompenses = ["xp 12"]
+description = """
+Le sac orné de gemmes, une étoile du Nether et sept sables des âmes : six rangées de onze cases.
+"""
 
 [[quete]]
 cle = "sans_fin"
 titre = "&eLe sac sans fin"
 deps = ["fletri"]
+forme = "diamond"
 taille = 1.3
 taches = ["advancement inmis:endless_backpack"]
 recompenses = ["xp 20"]
 description = """
-Le dernier palier d'Inmis.
+Le sac flétri, une tête de dragon et sept pierres de l'End : six rangées de quinze cases, le dernier palier d'Inmis. L'Encyclopédie n'en fait pas une collection : chaque sac est ici.
 """
 
 [[quete]]

@@ -1,0 +1,45 @@
+# Échelle des paliers — Confort, sacs d'Inmis (BMC-89, 5 octobre 2026).
+# Le sac élimé et le sac plaqué sont au chapitre Bienvenue (dépendance
+# externe de « dore »). Recettes du jar inmis 2.9.3, /config/inmis.json.
+chapitre = "mods_confort"
+sommet = "sans_fin"
+
+[[palier]]
+echelle = "sacs"
+cle = "dore"
+preuve = "recette gilded_backpack (sac plaqué + 8 or)"
+
+[[palier]]
+echelle = "sacs"
+cle = "gemmes"
+preuve = "recette bejeweled_backpack"
+
+[[palier]]
+echelle = "sacs"
+cle = "fletri"
+preuve = "recette withered_backpack (depuis le sac orné de gemmes)"
+
+[[palier]]
+echelle = "sacs"
+cle = "sans_fin"
+preuve = "recette endless_backpack, 15 × 6 cases"
+
+[[palier]]
+echelle = "ardent"
+cle = "gemmes"
+preuve = "recette bejeweled_backpack"
+
+[[palier]]
+echelle = "ardent"
+cle = "ardent"
+preuve = "recette blazing_backpack, insensible au feu (config)"
+
+[[palier]]
+echelle = "torches"
+cle = "torche_magnum"
+preuve = "recette diamond_magnum_torch"
+
+[[palier]]
+echelle = "torches"
+cle = "torches_magnum"
+preuve = "recettes emerald et amethyst_magnum_torch"
