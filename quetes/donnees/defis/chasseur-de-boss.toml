@@ -1,0 +1,392 @@
+# Chapitre « Chasseur de boss » — cahier des charges §7.1
+# Tout optionnel, hexagone, récompenses S (XP) uniquement.
+# La liste est celle de boss.js du bot (discord-factions, lue le 5 octobre
+# 2026) pour rester cohérente avec #faits-d-armes : 38 entrées, chacune
+# meurt en UNE entité. Le Shelterer compte sur sa seconde forme
+# (shelterer_without_armor), comme le bot. Les Chevaliers fantômes sont
+# six : hors de la liste du bot, ici en « tuer 6 ». L'Œil de la Tempête
+# (Deep Aether), le Berserker et le Ver du vide ne sont pas dans boss.js :
+# ajoutés en fin de tableau, signalés comme tels.
+
+[chapitre]
+titre = "&cChasseur de boss"
+fichier = "defis_chasseur_de_boss"
+groupe = "defis"
+icone = "minecraft:wither_skeleton_skull"
+ordre = 1
+lignes_cachees = true
+
+[[quete]]
+cle = "intro"
+titre = "&cLe tableau de chasse"
+sous_titre = "Chaque mort est annoncée dans #faits-d-armes."
+taille = 1.5
+icone = "minecraft:netherite_sword"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Un hexagone par boss du serveur, dans l'ordre du bot. Tout est optionnel et ne compte pas dans le pourcentage. Les quêtes de boss des chapitres du Monde restent le guide ; ici, c'est le compte.
+"""
+
+# ---- Vanilla
+[[quete]]
+cle = "ender_dragon"
+titre = "L'Ender Dragon"
+deps = ["intro"]
+optionnel = true
+taches = ["kill minecraft:ender_dragon"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "wither"
+titre = "Le Wither"
+deps = ["intro"]
+optionnel = true
+taches = ["kill minecraft:wither"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "warden"
+titre = "Le Warden"
+deps = ["intro"]
+optionnel = true
+taches = ["kill minecraft:warden"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "elder_guardian"
+titre = "Le Gardien ancien"
+deps = ["intro"]
+optionnel = true
+taches = ["kill minecraft:elder_guardian"]
+recompenses = ["xp 10"]
+
+# ---- Twilight Forest
+[[quete]]
+cle = "naga"
+titre = "La Naga"
+deps = ["intro"]
+optionnel = true
+taches = ["kill twilightforest:naga"]
+recompenses = ["xp 10"]
+
+[[quete]]
+cle = "lich"
+titre = "La Liche"
+deps = ["intro"]
+optionnel = true
+taches = ["kill twilightforest:lich"]
+recompenses = ["xp 10"]
+
+[[quete]]
+cle = "minoshroom"
+titre = "Le Minoshroom"
+deps = ["intro"]
+optionnel = true
+taches = ["kill twilightforest:minoshroom"]
+recompenses = ["xp 10"]
+
+[[quete]]
+cle = "hydra"
+titre = "L'Hydre"
+deps = ["intro"]
+optionnel = true
+taches = ["kill twilightforest:hydra"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "knight_phantom"
+titre = "Les six Chevaliers fantômes"
+deps = ["intro"]
+optionnel = true
+taches = ["kill twilightforest:knight_phantom 6"]
+recompenses = ["xp 15"]
+description = """
+Six entités, une victoire : le bot n'annonce rien pour eux, le livre compte les six.
+"""
+
+[[quete]]
+cle = "ur_ghast"
+titre = "L'Ur-Ghast"
+deps = ["intro"]
+optionnel = true
+taches = ["kill twilightforest:ur_ghast"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "alpha_yeti"
+titre = "Le Yéti Alpha"
+deps = ["intro"]
+optionnel = true
+taches = ["kill twilightforest:alpha_yeti"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "snow_queen"
+titre = "La Reine des Neiges"
+deps = ["intro"]
+optionnel = true
+taches = ["kill twilightforest:snow_queen"]
+recompenses = ["xp 15"]
+
+# ---- Aether
+[[quete]]
+cle = "slider"
+titre = "Le Slider"
+deps = ["intro"]
+optionnel = true
+taches = ["kill aether:slider"]
+recompenses = ["xp 10"]
+
+[[quete]]
+cle = "valkyrie_queen"
+titre = "La Reine des Valkyries"
+deps = ["intro"]
+optionnel = true
+taches = ["kill aether:valkyrie_queen"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "sun_spirit"
+titre = "L'Esprit du Soleil"
+deps = ["intro"]
+optionnel = true
+taches = ["kill aether:sun_spirit"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "aerwhale_king"
+titre = "Le Roi des aérobaleines"
+deps = ["intro"]
+optionnel = true
+taches = ["kill lost_aether_content:aerwhale_king"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "oeil_tempete"
+titre = "L'Œil de la Tempête"
+deps = ["intro"]
+optionnel = true
+taches = ["kill deep_aether:eots_controller"]
+recompenses = ["xp 15"]
+description = """
+Deep Aether. Pas dans la liste du bot : sa mort n'est pas annoncée.
+"""
+
+# ---- Blue Skies
+[[quete]]
+cle = "summoner"
+titre = "L'Invocateur"
+deps = ["intro"]
+optionnel = true
+taches = ["kill blue_skies:summoner"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "alchemist"
+titre = "L'Alchimiste"
+deps = ["intro"]
+optionnel = true
+taches = ["kill blue_skies:alchemist"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "arachnarch"
+titre = "L'Arachnarque"
+deps = ["intro"]
+optionnel = true
+taches = ["kill blue_skies:arachnarch"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "starlit_crusher"
+titre = "Le Broyeur étoilé"
+deps = ["intro"]
+optionnel = true
+taches = ["kill blue_skies:starlit_crusher"]
+recompenses = ["xp 15"]
+
+# ---- Cataclysm
+[[quete]]
+cle = "ignis"
+titre = "Ignis"
+deps = ["intro"]
+optionnel = true
+taches = ["kill cataclysm:ignis"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "monstrosity"
+titre = "La Monstruosité de nétherite"
+deps = ["intro"]
+optionnel = true
+taches = ["kill cataclysm:netherite_monstrosity"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "ender_guardian"
+titre = "Le Gardien de l'Ender"
+deps = ["intro"]
+optionnel = true
+taches = ["kill cataclysm:ender_guardian"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "harbinger"
+titre = "Le Harbinger"
+deps = ["intro"]
+optionnel = true
+taches = ["kill cataclysm:the_harbinger"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "leviathan"
+titre = "Le Léviathan"
+deps = ["intro"]
+optionnel = true
+taches = ["kill cataclysm:the_leviathan"]
+recompenses = ["xp 25"]
+
+[[quete]]
+cle = "remnant"
+titre = "Le Vestige ancien"
+deps = ["intro"]
+optionnel = true
+taches = ["kill cataclysm:ancient_remnant"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "maledictus"
+titre = "Maledictus"
+deps = ["intro"]
+optionnel = true
+taches = ["kill cataclysm:maledictus"]
+recompenses = ["xp 25"]
+
+[[quete]]
+cle = "scylla"
+titre = "Scylla"
+deps = ["intro"]
+optionnel = true
+taches = ["kill cataclysm:scylla"]
+recompenses = ["xp 25"]
+
+# ---- autres mods
+[[quete]]
+cle = "invoker"
+titre = "L'Invoker"
+deps = ["intro"]
+optionnel = true
+taches = ["kill illagerinvasion:invoker"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "stalker"
+titre = "Le Harceleur de l'Otherside"
+deps = ["intro"]
+optionnel = true
+taches = ["kill deeperdarker:stalker"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "dead_king"
+titre = "Le Roi Mort"
+deps = ["intro"]
+optionnel = true
+taches = ["kill irons_spellbooks:dead_king"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "tyros"
+titre = "L'Écho de Tyros"
+deps = ["intro"]
+optionnel = true
+taches = ["kill irons_spellbooks:fire_boss"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "awful_ghast"
+titre = "L'Awful Ghast"
+deps = ["intro"]
+optionnel = true
+taches = ["kill stalwart_dungeons:awful_ghast"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "nether_keeper"
+titre = "Le Nether Keeper"
+deps = ["intro"]
+optionnel = true
+taches = ["kill stalwart_dungeons:nether_keeper"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "shelterer"
+titre = "Le Shelterer"
+deps = ["intro"]
+optionnel = true
+taches = ["kill stalwart_dungeons:shelterer_without_armor"]
+recompenses = ["xp 15"]
+description = """
+Deux formes : c'est la seconde, sans armure, qui compte, comme pour le bot.
+"""
+
+[[quete]]
+cle = "frostmaw"
+titre = "Le Frostmaw"
+deps = ["intro"]
+optionnel = true
+taches = ["kill mowziesmobs:frostmaw"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "wroughtnaut"
+titre = "Le Wroughtnaut ferreux"
+deps = ["intro"]
+optionnel = true
+taches = ["kill mowziesmobs:ferrous_wroughtnaut"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "umvuthi"
+titre = "Umvuthi"
+deps = ["intro"]
+optionnel = true
+taches = ["kill mowziesmobs:umvuthi"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "berserker"
+titre = "Le Berserker"
+deps = ["intro"]
+optionnel = true
+taches = ["kill galosphere:berserker"]
+recompenses = ["xp 10"]
+description = """
+Galosphere. Pas dans la liste du bot.
+"""
+
+[[quete]]
+cle = "void_worm"
+titre = "Le Ver du vide"
+deps = ["intro"]
+optionnel = true
+taches = ["item alexsmobs:void_worm_eye"]
+recompenses = ["xp 15"]
+description = """
+Alex's Mobs. Fait de plusieurs entités : son œil, lâché à sa mort, valide. Pas dans la liste du bot.
+"""
+
+[[quete]]
+cle = "tous"
+titre = "&cTous les boss du serveur"
+deps = ["ender_dragon", "wither", "warden", "elder_guardian", "naga", "lich", "minoshroom", "hydra", "knight_phantom", "ur_ghast", "alpha_yeti", "snow_queen", "slider", "valkyrie_queen", "sun_spirit", "aerwhale_king", "oeil_tempete", "summoner", "alchemist", "arachnarch", "starlit_crusher", "ignis", "monstrosity", "ender_guardian", "harbinger", "leviathan", "remnant", "maledictus", "scylla", "invoker", "stalker", "dead_king", "tyros", "awful_ghast", "nether_keeper", "shelterer", "frostmaw", "wroughtnaut", "umvuthi", "berserker", "void_worm"]
+optionnel = true
+forme = "hexagon"
+taille = 2.0
+icone = "minecraft:dragon_head"
+taches = ["checkmark Quarante et un"]
+recompenses = ["xp 100"]
+description = """
+Quarante et un boss. Personne ne l'a encore fait.
+"""

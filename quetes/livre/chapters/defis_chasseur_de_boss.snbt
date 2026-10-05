@@ -1,0 +1,956 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "defis_chasseur_de_boss"
+	group: "35E02C18759FA245"
+	icon: "minecraft:wither_skeleton_skull"
+	id: "0609F13BDE062BC0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Un hexagone par boss du serveur, dans l'ordre du bot. Tout est optionnel et ne compte pas dans le pourcentage. Les quêtes de boss des chapitres du Monde restent le guide ; ici, c'est le compte."]
+			icon: "minecraft:netherite_sword"
+			id: "4B57FE1489D067E2"
+			rewards: [{
+				id: "1A9837D6642FB1EC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Chaque mort est annoncée dans #faits-d-armes."
+			tasks: [{
+				id: "3FFEAF3F4784A1A9"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cLe tableau de chasse"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "minecraft:ender_dragon_spawn_egg"
+			id: "5CAD0B8D0178C5DB"
+			optional: true
+			rewards: [{
+				id: "796F878664C82CBB"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0A2187B1825D871C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Ender Dragon"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "minecraft:wither_spawn_egg"
+			id: "5B27E8BC65A2F04A"
+			optional: true
+			rewards: [{
+				id: "73DDC411E18E6F34"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "35E99610870448E7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Wither"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "minecraft:warden_spawn_egg"
+			id: "299C9E42C2226CE9"
+			optional: true
+			rewards: [{
+				id: "64054759B0238652"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "3B027290ED5F1C88"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Warden"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "1111F30BB8991AB8"
+			optional: true
+			rewards: [{
+				id: "1CC29C15F5E11ADA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "65A6D460C15F5599"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Gardien ancien"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "twilightforest:naga_spawn_egg"
+			id: "3599FD66BF618112"
+			optional: true
+			rewards: [{
+				id: "4CAAA32F230256A9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "0D4206F3A569F492"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Naga"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "twilightforest:lich_spawn_egg"
+			id: "4C8EEEBCE7DBAFF4"
+			optional: true
+			rewards: [{
+				id: "346D92B42CD87A0E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "699E27CB496AC1EE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Liche"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "twilightforest:minoshroom_spawn_egg"
+			id: "0F8DCBC32AA85C6C"
+			optional: true
+			rewards: [{
+				id: "60659F8E15116DA4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "73B96CE6642166AA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Minoshroom"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "twilightforest:hydra_spawn_egg"
+			id: "531D2E52D6067B45"
+			optional: true
+			rewards: [{
+				id: "4B9F5D8A7208892E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "5A215FEE97AACE38"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Hydre"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			description: ["Six entités, une victoire : le bot n'annonce rien pour eux, le livre compte les six."]
+			icon: "twilightforest:knight_phantom_spawn_egg"
+			id: "04FA467F4D8F37FE"
+			optional: true
+			rewards: [{
+				id: "1277CC2054646E4D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "67E92AAE2DC941E8"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Les six Chevaliers fantômes"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "twilightforest:ur_ghast_spawn_egg"
+			id: "12503C2B0CFAFFED"
+			optional: true
+			rewards: [{
+				id: "1E6980975E180F89"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "2C2181F8184CC6D5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Ur-Ghast"
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "twilightforest:alpha_yeti_spawn_egg"
+			id: "3ED787D2771E88AA"
+			optional: true
+			rewards: [{
+				id: "348F038872978B43"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "5F3F912E6EE6C153"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Yéti Alpha"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "twilightforest:snow_queen_spawn_egg"
+			id: "7513D6518B6FA974"
+			optional: true
+			rewards: [{
+				id: "0CE0AA78C59BCE60"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "6C37196D83A687D4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Reine des Neiges"
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "aether:slider_spawn_egg"
+			id: "21AFDD9DDB907481"
+			optional: true
+			rewards: [{
+				id: "1C10BA57DDB603EB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "aether:slider"
+				id: "102A0FD392F64C6C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Slider"
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "aether:valkyrie_queen_spawn_egg"
+			id: "059A70BE00DC4D02"
+			optional: true
+			rewards: [{
+				id: "10B60A99DAD234BC"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "24890C2E66F7B68E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Reine des Valkyries"
+			x: 2.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "aether:sun_spirit_spawn_egg"
+			id: "5DCC6871C0F3A524"
+			optional: true
+			rewards: [{
+				id: "19873AE59F81EC1E"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "43533DFF03AD01D1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Esprit du Soleil"
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			id: "486DBFDCE51A8512"
+			optional: true
+			rewards: [{
+				id: "513A2DF52F0CC575"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				id: "5923BA42FBFDA245"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Roi des aérobaleines"
+			x: 2.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			description: ["Deep Aether. Pas dans la liste du bot : sa mort n'est pas annoncée."]
+			id: "67976B8B9D391E2F"
+			optional: true
+			rewards: [{
+				id: "38F6C38886BEC6BD"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "deep_aether:eots_controller"
+				id: "087CB40761BDDD81"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Œil de la Tempête"
+			x: 2.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "blue_skies:summoner_spawn_egg"
+			id: "2E3782D6EEA3901B"
+			optional: true
+			rewards: [{
+				id: "7257E6EA3FDFFEB5"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "0662A38B6679D14C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Invocateur"
+			x: 2.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "blue_skies:alchemist_spawn_egg"
+			id: "4D4B028AF1FA583A"
+			optional: true
+			rewards: [{
+				id: "632CFDEFFF7487F6"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "5BE505BDCFD90578"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Alchimiste"
+			x: 2.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "blue_skies:arachnarch_spawn_egg"
+			id: "492E82913F6BB62B"
+			optional: true
+			rewards: [{
+				id: "4F748DCADB313553"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				id: "52DE842FB1218421"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Arachnarque"
+			x: 2.0d
+			y: 31.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "blue_skies:starlit_crusher_spawn_egg"
+			id: "5F40AD7284F46442"
+			optional: true
+			rewards: [{
+				id: "5BD99CC1DBE411DE"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				id: "30D09B684AC0E1C0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Broyeur étoilé"
+			x: 2.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "cataclysm:ignis_spawn_egg"
+			id: "669F28538C9054F0"
+			optional: true
+			rewards: [{
+				id: "0C9C575B759EEF71"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "09285F686C45EE5E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ignis"
+			x: 2.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "cataclysm:netherite_monstrosity_spawn_egg"
+			id: "42074B014655C992"
+			optional: true
+			rewards: [{
+				id: "73208594BEC6CC0A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "4F0DDB3CC8C22DA7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Monstruosité de nétherite"
+			x: 2.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "cataclysm:ender_guardian_spawn_egg"
+			id: "7FEBB65539C14FF8"
+			optional: true
+			rewards: [{
+				id: "0114FD869EC7B33A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "49A6F855F21BB501"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Gardien de l'Ender"
+			x: 2.0d
+			y: 37.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "cataclysm:the_harbinger_spawn_egg"
+			id: "5E3D9CD6662E2F1D"
+			optional: true
+			rewards: [{
+				id: "5FC3BFDA78829C69"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "3AFACAD0E9BDB1C7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Harbinger"
+			x: 2.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "cataclysm:the_leviathan_spawn_egg"
+			id: "749A51604550F0B4"
+			optional: true
+			rewards: [{
+				id: "6B846468B420FE15"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "542B6CC6FFAAA9D8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Léviathan"
+			x: 2.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "cataclysm:ancient_remnant_spawn_egg"
+			id: "2B37480996C10810"
+			optional: true
+			rewards: [{
+				id: "35EA6B8CFAEF8261"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "5E1DAE0887E2C8BB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Vestige ancien"
+			x: 2.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "cataclysm:maledictus_spawn_egg"
+			id: "4D0A44356613D77C"
+			optional: true
+			rewards: [{
+				id: "7CC6D7261D1CEE32"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "286CCA76FCC35854"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Maledictus"
+			x: 2.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "cataclysm:scylla_spawn_egg"
+			id: "5837F1FBED4ED136"
+			optional: true
+			rewards: [{
+				id: "5F502A97C9D1E6C6"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "420542CB0D422A69"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Scylla"
+			x: 2.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "illagerinvasion:invoker_spawn_egg"
+			id: "335D3419976371D9"
+			optional: true
+			rewards: [{
+				id: "286BA5E8CF049A29"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				id: "6D7D41BD5C113696"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Invoker"
+			x: 2.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "deeperdarker:stalker_spawn_egg"
+			id: "7901E5AE0489DF22"
+			optional: true
+			rewards: [{
+				id: "78184C5E33E00ED9"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "1F9C2C07104DA78D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Harceleur de l'Otherside"
+			x: 2.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			id: "695E56AB78995693"
+			optional: true
+			rewards: [{
+				id: "1D9F329338B4408F"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "5457BE9C6ED61AFC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Roi Mort"
+			x: 2.0d
+			y: 49.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			id: "7F3CB63031CF91B1"
+			optional: true
+			rewards: [{
+				id: "5F419A0F9D98D3FD"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "2D0517CA30E8ADBF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Écho de Tyros"
+			x: 2.0d
+			y: 51.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "stalwart_dungeons:awful_ghast_spawn_egg"
+			id: "18C80F486FDCF393"
+			optional: true
+			rewards: [{
+				id: "7EBAB47FDF213050"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				id: "59E6C7FAA374D907"
+				type: "kill"
+				value: 1L
+			}]
+			title: "L'Awful Ghast"
+			x: 2.0d
+			y: 52.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "stalwart_dungeons:nether_keeper_spawn_egg"
+			id: "0DBC0A5B317BE79F"
+			optional: true
+			rewards: [{
+				id: "6F9F2A686B4182BA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				id: "0E2C5F0937B034B4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Nether Keeper"
+			x: 2.0d
+			y: 54.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			description: ["Deux formes : c'est la seconde, sans armure, qui compte, comme pour le bot."]
+			id: "35B66EF5FE3C92D1"
+			optional: true
+			rewards: [{
+				id: "2ECDE8069682AEF5"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer_without_armor"
+				id: "46474EC51075B684"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Shelterer"
+			x: 2.0d
+			y: 55.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "1EB9C6C8C6E99204"
+			optional: true
+			rewards: [{
+				id: "28061A7E6C46D220"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "44CFDF79971F09FC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Frostmaw"
+			x: 2.0d
+			y: 57.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			id: "6FBDE719D8D248E5"
+			optional: true
+			rewards: [{
+				id: "20F7383B8012B29A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "45C898A91E8DBE5D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Wroughtnaut ferreux"
+			x: 2.0d
+			y: 58.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			icon: "mowziesmobs:umvuthi_spawn_egg"
+			id: "4F75B699265AC5DD"
+			optional: true
+			rewards: [{
+				id: "685DF94DA6ED3B49"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "2B93ACFC2DDA3A7D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Umvuthi"
+			x: 2.0d
+			y: 60.0d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			description: ["Galosphere. Pas dans la liste du bot."]
+			icon: "galosphere:berserker_spawn_egg"
+			id: "7D6B851F06461387"
+			optional: true
+			rewards: [{
+				id: "24E6451D813FCDC8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "galosphere:berserker"
+				id: "0F6388C66911D0E3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Berserker"
+			x: 2.0d
+			y: 61.5d
+		}
+		{
+			dependencies: ["4B57FE1489D067E2"]
+			description: ["Alex's Mobs. Fait de plusieurs entités : son œil, lâché à sa mort, valide. Pas dans la liste du bot."]
+			icon: "alexsmobs:void_worm_eye"
+			id: "764B8BEA99C9EA5A"
+			optional: true
+			rewards: [{
+				id: "3DF49EBE1BA6892F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0459BCAB072195B5"
+				item: "alexsmobs:void_worm_eye"
+				type: "item"
+			}]
+			title: "Le Ver du vide"
+			x: 2.0d
+			y: 63.0d
+		}
+		{
+			dependencies: [
+				"5CAD0B8D0178C5DB"
+				"5B27E8BC65A2F04A"
+				"299C9E42C2226CE9"
+				"1111F30BB8991AB8"
+				"3599FD66BF618112"
+				"4C8EEEBCE7DBAFF4"
+				"0F8DCBC32AA85C6C"
+				"531D2E52D6067B45"
+				"04FA467F4D8F37FE"
+				"12503C2B0CFAFFED"
+				"3ED787D2771E88AA"
+				"7513D6518B6FA974"
+				"21AFDD9DDB907481"
+				"059A70BE00DC4D02"
+				"5DCC6871C0F3A524"
+				"486DBFDCE51A8512"
+				"67976B8B9D391E2F"
+				"2E3782D6EEA3901B"
+				"4D4B028AF1FA583A"
+				"492E82913F6BB62B"
+				"5F40AD7284F46442"
+				"669F28538C9054F0"
+				"42074B014655C992"
+				"7FEBB65539C14FF8"
+				"5E3D9CD6662E2F1D"
+				"749A51604550F0B4"
+				"2B37480996C10810"
+				"4D0A44356613D77C"
+				"5837F1FBED4ED136"
+				"335D3419976371D9"
+				"7901E5AE0489DF22"
+				"695E56AB78995693"
+				"7F3CB63031CF91B1"
+				"18C80F486FDCF393"
+				"0DBC0A5B317BE79F"
+				"35B66EF5FE3C92D1"
+				"1EB9C6C8C6E99204"
+				"6FBDE719D8D248E5"
+				"4F75B699265AC5DD"
+				"7D6B851F06461387"
+				"764B8BEA99C9EA5A"
+			]
+			description: ["Quarante et un boss. Personne ne l'a encore fait."]
+			icon: "minecraft:dragon_head"
+			id: "1B3D3727B3B1D3B3"
+			optional: true
+			rewards: [{
+				id: "013002D0CBD7A2A7"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "470C5144AF7B4647"
+				title: "Quarante et un"
+				type: "checkmark"
+			}]
+			title: "&cTous les boss du serveur"
+			x: 4.0d
+			y: 3.0d
+		}
+	]
+	title: "&cChasseur de boss"
+}
