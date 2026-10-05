@@ -1,0 +1,164 @@
+# Chapitre « Explorateur » — cahier des charges §7.2
+# Tout optionnel, hexagone, récompenses S (XP). Dimensions de l'index ;
+# collines creuses par les progrès hill1/hill2/hill3 du jar Twilight
+# Forest ; distance par la statistique vanilla minecraft:walk_one_cm
+# (tâche « stat » de FTB Quests, champs stat/value lus dans StatTask) ;
+# biomes et structures de l'index.
+
+[chapitre]
+titre = "&2Explorateur"
+fichier = "defis_explorateur"
+groupe = "defis"
+icone = "minecraft:filled_map"
+ordre = 2
+lignes_cachees = true
+
+[[quete]]
+cle = "intro"
+titre = "&2Voir le monde"
+taille = 1.5
+icone = "minecraft:compass"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Des défis de distance et de découverte. Tout est optionnel et hors pourcentage.
+"""
+
+[[quete]]
+cle = "dimensions"
+titre = "Les huit dimensions"
+deps = ["intro"]
+optionnel = true
+taille = 1.3
+taches = ["dimension minecraft:overworld", "dimension minecraft:the_nether", "dimension minecraft:the_end", "dimension aether:the_aether", "dimension blue_skies:everbright", "dimension blue_skies:everdawn", "dimension twilightforest:twilight_forest", "dimension deeperdarker:otherside"]
+recompenses = ["xp 30"]
+description = """
+Overworld, Nether, End, Aether, Everbright, Everdawn, Twilight Forest, Otherside.
+"""
+
+[[quete]]
+cle = "marche_10"
+titre = "Dix kilomètres à pied"
+deps = ["intro"]
+optionnel = true
+taches = ["stat minecraft:walk_one_cm 1000000"]
+recompenses = ["xp 5"]
+description = """
+Statistique du jeu : un million de centimètres marchés. Le bateau, le cheval et le vol ne comptent pas.
+"""
+
+[[quete]]
+cle = "marche_100"
+titre = "Cent kilomètres à pied"
+deps = ["marche_10"]
+optionnel = true
+taches = ["stat minecraft:walk_one_cm 10000000"]
+recompenses = ["xp 25"]
+
+[[quete]]
+cle = "vol"
+titre = "Cent kilomètres en élytres"
+deps = ["intro"]
+optionnel = true
+taches = ["stat minecraft:aviate_one_cm 10000000"]
+recompenses = ["xp 25"]
+
+[[quete]]
+cle = "bateau"
+titre = "Cinquante kilomètres en bateau"
+deps = ["intro"]
+optionnel = true
+taches = ["stat minecraft:boat_one_cm 5000000"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "cheval"
+titre = "Cinquante kilomètres à cheval"
+deps = ["intro"]
+optionnel = true
+taches = ["stat minecraft:horse_one_cm 5000000"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "collines"
+titre = "Toutes les collines creuses"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement twilightforest:hill1", "advancement twilightforest:hill2", "advancement twilightforest:hill3"]
+recompenses = ["xp 15"]
+description = """
+Petite, moyenne, grande : un Redcap, un sapeur, un spectre tués dans chacune (progrès de la Twilight Forest).
+"""
+
+[[quete]]
+cle = "biomes_froids"
+titre = "Les grands froids"
+deps = ["intro"]
+optionnel = true
+taches = ["biome minecraft:ice_spikes", "biome minecraft:frozen_peaks", "biome minecraft:deep_frozen_ocean", "biome minecraft:snowy_slopes"]
+recompenses = ["xp 10"]
+
+[[quete]]
+cle = "biomes_chauds"
+titre = "Les grandes chaleurs"
+deps = ["intro"]
+optionnel = true
+taches = ["biome minecraft:badlands", "biome minecraft:eroded_badlands", "biome minecraft:desert", "biome minecraft:savanna_plateau"]
+recompenses = ["xp 10"]
+
+[[quete]]
+cle = "biomes_rares"
+titre = "Les biomes rares"
+deps = ["intro"]
+optionnel = true
+taches = ["biome minecraft:mushroom_fields", "biome minecraft:cherry_grove", "biome minecraft:deep_dark", "biome minecraft:lush_caves"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "aventure"
+titre = "Un temps d'aventure"
+deps = ["intro"]
+optionnel = true
+taille = 1.3
+taches = ["advancement minecraft:adventure/adventuring_time"]
+recompenses = ["xp 40"]
+description = """
+Le progrès vanilla : tous les biomes de l'Overworld vanilla. Ceux de Biomes O' Plenty et des autres mods ne sont pas exigés.
+"""
+
+[[quete]]
+cle = "structures_mer"
+titre = "Les structures de la mer"
+deps = ["intro"]
+optionnel = true
+taches = ["structure #minecraft:ocean_ruin", "structure #minecraft:shipwreck", "structure minecraft:monument", "structure minecraft:buried_treasure"]
+recompenses = ["xp 10"]
+
+[[quete]]
+cle = "structures_terre"
+titre = "Les structures de la terre"
+deps = ["intro"]
+optionnel = true
+taches = ["structure minecraft:mansion", "structure minecraft:pillager_outpost", "structure minecraft:ancient_city", "structure minecraft:trail_ruins"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "hauteur"
+titre = "Du sommet au fond"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement minecraft:adventure/fall_from_world_height"]
+recompenses = ["xp 10"]
+description = """
+Tomber du haut du monde jusqu'en bas et survivre (progrès vanilla).
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&2Le monde est petit"
+deps = ["dimensions", "marche_100", "aventure"]
+optionnel = true
+taille = 1.5
+icone = "minecraft:spyglass"
+taches = ["checkmark Fait"]
+recompenses = ["xp 50"]

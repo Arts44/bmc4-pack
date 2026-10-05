@@ -1,0 +1,474 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "defis_explorateur"
+	group: "35E02C18759FA245"
+	icon: "minecraft:filled_map"
+	id: "758DAFE136EB4067"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Des défis de distance et de découverte. Tout est optionnel et hors pourcentage."]
+			icon: "minecraft:compass"
+			id: "5B02705BF4EDCB4C"
+			rewards: [{
+				id: "65394A44380DD965"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "04B746B75B95E3A1"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&2Voir le monde"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			description: ["Overworld, Nether, End, Aether, Everbright, Everdawn, Twilight Forest, Otherside."]
+			id: "387FE7E34C8D2EA3"
+			optional: true
+			rewards: [{
+				id: "1941C5DA0CD4EBA1"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					id: "6436CEF55867BE93"
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "2A5D1E5EE8E00876"
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "78FED42CC3506A51"
+					type: "dimension"
+				}
+				{
+					dimension: "aether:the_aether"
+					id: "3EE12F8069C61E58"
+					type: "dimension"
+				}
+				{
+					dimension: "blue_skies:everbright"
+					id: "7524B7C0AE5FE097"
+					type: "dimension"
+				}
+				{
+					dimension: "blue_skies:everdawn"
+					id: "287E2286E0AE6110"
+					type: "dimension"
+				}
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "38B037B4EDA127EB"
+					type: "dimension"
+				}
+				{
+					dimension: "deeperdarker:otherside"
+					id: "0085EBF09601C40D"
+					type: "dimension"
+				}
+			]
+			title: "Les huit dimensions"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			description: ["Statistique du jeu : un million de centimètres marchés. Le bateau, le cheval et le vol ne comptent pas."]
+			id: "38672E6F061A9061"
+			optional: true
+			rewards: [{
+				id: "76E669D804B890C9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C3D9A7308B0D512"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1000000L
+			}]
+			title: "Dix kilomètres à pied"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38672E6F061A9061"]
+			id: "1628617C9EBEE9A5"
+			optional: true
+			rewards: [{
+				id: "4BADCED6557B4061"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2AF3B37A981931B1"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 10000000L
+			}]
+			title: "Cent kilomètres à pied"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			id: "2D305BE79FB566DC"
+			optional: true
+			rewards: [{
+				id: "14A8D5E52272677B"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4DE746409E465962"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 10000000L
+			}]
+			title: "Cent kilomètres en élytres"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			id: "5D407F077E547A47"
+			optional: true
+			rewards: [{
+				id: "2835A3A407CA7AE2"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "70FA023B9239242E"
+				stat: "minecraft:boat_one_cm"
+				type: "stat"
+				value: 5000000L
+			}]
+			title: "Cinquante kilomètres en bateau"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			id: "2461CF839EC8F433"
+			optional: true
+			rewards: [{
+				id: "195C0AE209F27893"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "257101EC5828B853"
+				stat: "minecraft:horse_one_cm"
+				type: "stat"
+				value: 5000000L
+			}]
+			title: "Cinquante kilomètres à cheval"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			description: ["Petite, moyenne, grande : un Redcap, un sapeur, un spectre tués dans chacune (progrès de la Twilight Forest)."]
+			id: "74BD2BAE14DABA3B"
+			optional: true
+			rewards: [{
+				id: "0652C7C41CD1C8C1"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "twilightforest:hill1"
+					criterion: ""
+					id: "419E98F0632DD137"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:hill2"
+					criterion: ""
+					id: "37A0CB4B634C7A88"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:hill3"
+					criterion: ""
+					id: "2405D28161FC9723"
+					type: "advancement"
+				}
+			]
+			title: "Toutes les collines creuses"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			id: "63752287F799C425"
+			optional: true
+			rewards: [{
+				id: "55CC0B927498B300"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "minecraft:ice_spikes"
+					id: "75003C43AB77B182"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:frozen_peaks"
+					id: "71AF25C0570723FA"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:deep_frozen_ocean"
+					id: "001A5B9B1C28807A"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:snowy_slopes"
+					id: "6B522220B40877C3"
+					type: "biome"
+				}
+			]
+			title: "Les grands froids"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			id: "280E46D8A17334B4"
+			optional: true
+			rewards: [{
+				id: "7397CE2E2F1A190B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "minecraft:badlands"
+					id: "13D541823936CAE9"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:eroded_badlands"
+					id: "23B7B7C924FFD4AE"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:desert"
+					id: "137C5304AF0690C7"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:savanna_plateau"
+					id: "3A6CCA1814FFFE4B"
+					type: "biome"
+				}
+			]
+			title: "Les grandes chaleurs"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			id: "76B5F35C07484462"
+			optional: true
+			rewards: [{
+				id: "7B59A0D6E8A3F199"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "minecraft:mushroom_fields"
+					id: "6783C031BCA23678"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:cherry_grove"
+					id: "3DA3596FCDCCD5C6"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:deep_dark"
+					id: "067E23302EB9FD3C"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:lush_caves"
+					id: "31C2C91EAEE1F83E"
+					type: "biome"
+				}
+			]
+			title: "Les biomes rares"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			description: ["Le progrès vanilla : tous les biomes de l'Overworld vanilla. Ceux de Biomes O' Plenty et des autres mods ne sont pas exigés."]
+			id: "5366511DE36921CC"
+			optional: true
+			rewards: [{
+				id: "1ACA4CD51995D295"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "59E97050155A0DCD"
+				type: "advancement"
+			}]
+			title: "Un temps d'aventure"
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			id: "7E7CA4B76B55E613"
+			optional: true
+			rewards: [{
+				id: "1C941BDFFA011467"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2036F539A49B0271"
+					structure: "#minecraft:ocean_ruin"
+					type: "structure"
+				}
+				{
+					id: "556D1733D447E348"
+					structure: "#minecraft:shipwreck"
+					type: "structure"
+				}
+				{
+					id: "49D984A560975F51"
+					structure: "minecraft:monument"
+					type: "structure"
+				}
+				{
+					id: "3FD8028F4091A50F"
+					structure: "minecraft:buried_treasure"
+					type: "structure"
+				}
+			]
+			title: "Les structures de la mer"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			id: "62A95EBD98171782"
+			optional: true
+			rewards: [{
+				id: "028F4BA660217492"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6F4E6411950FBBC5"
+					structure: "minecraft:mansion"
+					type: "structure"
+				}
+				{
+					id: "0F90E9D50F7F919C"
+					structure: "minecraft:pillager_outpost"
+					type: "structure"
+				}
+				{
+					id: "31A56AA6CEF1BFCC"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					id: "70AF864647EED939"
+					structure: "minecraft:trail_ruins"
+					type: "structure"
+				}
+			]
+			title: "Les structures de la terre"
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5B02705BF4EDCB4C"]
+			description: ["Tomber du haut du monde jusqu'en bas et survivre (progrès vanilla)."]
+			id: "29A5FFF55B81BAEF"
+			optional: true
+			rewards: [{
+				id: "057DEF0A51A68760"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+				id: "30214BCF46DA44B2"
+				type: "advancement"
+			}]
+			title: "Du sommet au fond"
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"387FE7E34C8D2EA3"
+				"1628617C9EBEE9A5"
+				"5366511DE36921CC"
+			]
+			icon: "minecraft:spyglass"
+			id: "2986CAEAE17EB0A1"
+			optional: true
+			rewards: [{
+				id: "07D4F0887A0C7BFF"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "00D107803CD9DA3F"
+				title: "Fait"
+				type: "checkmark"
+			}]
+			title: "&2Le monde est petit"
+			x: 6.0d
+			y: 3.0d
+		}
+	]
+	title: "&2Explorateur"
+}
