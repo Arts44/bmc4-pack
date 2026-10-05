@@ -731,7 +731,7 @@ def controler_paliers(chapitres, verif):
                     amont(d, vus)
             return vus
 
-        derniers, derniers_prouves = {}, {}
+        derniers, derniers_prouves = {}, {'fort': {}, 'faible': {}}
         for pl in p.get('palier', []):
             cle, ech = pl.get('cle'), pl.get('echelle', '')
             if not pl.get('preuve'):
@@ -743,13 +743,15 @@ def controler_paliers(chapitres, verif):
             # Rétroactivité (BMC-89, 6 octobre) : un palier rétroactif ne dépend
             # pas d'un palier que le jeu ne peut pas prouver (visite, kill,
             # case) ; il doit alors dépendre du dernier palier prouvable.
-            if prec and retroactivite.a_tache_retroactive(quetes[cle]) and not retroactivite.prouvable_seule(quetes[prec]):
-                prec = derniers_prouves.get(ech)
+            n = retroactivite.niveau_requis(quetes[cle])
+            if prec and n and not retroactivite.prouvable_seule(quetes[prec], n):
+                prec = derniers_prouves[n].get(ech)
             if prec and prec not in amont(cle):
                 verif.erreurs.append(f"{ou} : échelle « {ech} » : « {cle} » ne dépend pas du palier précédent « {prec} »")
             derniers[ech] = cle
-            if retroactivite.prouvable_seule(quetes[cle]):
-                derniers_prouves[ech] = cle
+            for niv in ('fort', 'faible'):
+                if retroactivite.prouvable_seule(quetes[cle], niv):
+                    derniers_prouves[niv][ech] = cle
         s = p.get('sommet')
         if s not in quetes:
             verif.erreurs.append(f"{ou} : sommet « {s} » absent du chapitre")

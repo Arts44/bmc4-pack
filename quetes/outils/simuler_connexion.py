@@ -21,9 +21,12 @@ est finie quand ses tâches non optionnelles le sont ; si toutes sont
 optionnelles, quand l'une l'est (QuestObject.isCompletedRaw).
 
 État du joueur (JSON) : {"advancements": [...], "stats": {"minecraft:custom:…": n},
-"inventaire": {"mod:objet": n}, "dimension": "…"}. Une tâche structure, biome,
-kill, checkmark ou observation ne se valide jamais ici : le joueur se connecte
-et ne fait rien.
+"inventaire": {"mod:objet": n}, "dimension": "…", "regarde": ["mod:entité"]}.
+Une tâche structure, biome, kill ou checkmark ne se valide jamais ici : le
+joueur se connecte et ne fait rien. « regarde » simule le seul geste permis :
+le joueur regarde une créature présente (ObservationTask, déclenchée par le
+client sur une quête démarrable), et l'on recommence tant que des quêtes
+s'ouvrent.
 """
 import json
 import os
@@ -116,6 +119,7 @@ class Partie:
         self.stats = joueur.get('stats', {})
         self.inv = joueur.get('inventaire', {})
         self.dim = joueur.get('dimension', 'minecraft:overworld')
+        self.regarde = set(joueur.get('regarde', []))
         self.taches_faites = set()
         self.quetes_faites = {}
         self.journal = []
@@ -143,6 +147,8 @@ class Partie:
             return self.inv.get(it, 0) >= int(t.get('count', 1))
         if ty == 'dimension':
             return t['dimension'] == self.dim
+        if ty == 'observation':
+            return t.get('to_observe') in self.regarde
         return False
 
     def soumettre(self, q, t, tick):
@@ -185,6 +191,14 @@ class Partie:
             calme = 0 if change else calme + 1
         return tick
 
+    def regarder(self, tick):
+        for q in self.q:
+            if self.finie(q) or not self.demarrable(q):
+                continue
+            for t in q['tasks']:
+                if t['type'] == 'observation':
+                    self.soumettre(q, t, tick)
+
     def changement_inventaire(self, tick):
         for q in self.q:
             if self.finie(q) or not self.demarrable(q):
@@ -204,6 +218,7 @@ def simuler(dossier, joueur, inventaire_bouge=True):
         for _ in range(50):
             avant = len(p.quetes_faites)
             p.changement_inventaire(fin)
+            p.regarder(fin)
             fin = p.ticks() + fin
             if len(p.quetes_faites) == avant:
                 break

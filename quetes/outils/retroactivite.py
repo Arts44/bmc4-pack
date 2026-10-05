@@ -47,17 +47,37 @@ import tomllib
 ICI = os.path.dirname(os.path.abspath(__file__))
 DONNEES = os.path.join(ICI, '..', 'donnees')
 
-TYPES_RETROACTIFS = {'advancement', 'stat', 'item', 'tag', 'potion', 'oeuf_dragon', 'jetpack'}
+# Deux niveaux de preuve (BMC-89, 6 octobre 2026) :
+#  - FORTE : advancement, stat — un état acquis pour toujours ;
+#  - FAIBLE : objet non consommé — l'inventaire du moment ; un ancien joueur n'a
+#    en général plus sur lui les objets du début.
+# Une quête qui contient une tâche à preuve forte ne doit dépendre que de
+# quêtes prouvables fortement. Une quête d'objet peut dépendre d'une quête
+# d'objet (paliers d'outils, d'armure).
+TYPES_FORTS = {'advancement', 'stat'}
+TYPES_FAIBLES = {'item', 'tag', 'potion', 'oeuf_dragon', 'jetpack'}
+TYPES_RETROACTIFS = TYPES_FORTS | TYPES_FAIBLES
+RANG = {'fort': 2, 'faible': 1}
+
+
+def niveau_tache(spec):
+    """'fort', 'faible' ou None (non rétroactive)."""
+    ty = spec.split(' ')[0]
+    if ty in TYPES_FORTS:
+        return 'fort'
+    if ty in TYPES_FAIBLES and not spec.endswith(' !consommer'):
+        return 'faible'
+    return None
 
 
 def tache_retroactive(spec):
-    return spec.split(' ')[0] in TYPES_RETROACTIFS and not spec.endswith(' !consommer')
+    return niveau_tache(spec) is not None
 
 
-def prouvable_seule(q):
-    """La quête se termine sur ce que le jeu prouve déjà : toutes ses tâches
-    sont rétroactives, ou, quand une seule suffit (taches_une), au moins une."""
-    r = [tache_retroactive(s) for s in q.get('taches', [])]
+def prouvable_seule(q, niveau='faible'):
+    """La quête se termine sur ce que le jeu prouve, à ce niveau au moins :
+    toutes ses tâches, ou, quand une seule suffit (taches_une), au moins une."""
+    r = [RANG.get(niveau_tache(s), 0) >= RANG[niveau] for s in q.get('taches', [])]
     if not r:
         return False
     return any(r) if q.get('taches_une') else all(r)
@@ -65,6 +85,17 @@ def prouvable_seule(q):
 
 def a_tache_retroactive(q):
     return any(tache_retroactive(s) for s in q.get('taches', []))
+
+
+def niveau_requis(q):
+    """Niveau que doivent atteindre les ancêtres : 'fort' si la quête a une
+    tâche à preuve forte, 'faible' si elle n'a que des objets, None sinon."""
+    n = [niveau_tache(s) for s in q.get('taches', [])]
+    if 'fort' in n:
+        return 'fort'
+    if 'faible' in n:
+        return 'faible'
+    return None
 
 
 def charger_quetes(chapitres):
@@ -83,16 +114,17 @@ def deps_completes(q, fic):
 
 
 def bloquees(Q, exceptions=frozenset()):
-    """Quêtes ayant une tâche rétroactive, qu'aucun chemin de quêtes
-    prouvables ne permet de démarrer. Renvoie {clé: première quête fautive}."""
+    """Quêtes à tâche rétroactive qu'aucun chemin de quêtes prouvables au
+    niveau requis ne permet de démarrer. Renvoie {clé: (niveau requis,
+    première quête fautive)}."""
     memo = {}
 
-    def demarrable(k, pile):
+    def demarrable(k, niveau, pile):
         q, fic = Q[k]
         ds = [d for d in deps_completes(q, fic) if d in Q]
         if not ds:
             return True, None
-        res = [(prouvable(d, pile + (k,)), d) for d in ds if d not in pile]
+        res = [(prouvable(d, niveau, pile + (k,)), d) for d in ds if d not in pile]
         if q.get('exigence') == 'une':
             ok = any(r for r, _ in res)
         else:
@@ -100,21 +132,22 @@ def bloquees(Q, exceptions=frozenset()):
         fautive = next((d for r, d in res if not r), None)
         return ok, fautive
 
-    def prouvable(k, pile):
-        if k in memo:
-            return memo[k]
+    def prouvable(k, niveau, pile):
+        if (k, niveau) in memo:
+            return memo[(k, niveau)]
         q, _ = Q[k]
-        ok = prouvable_seule(q) and demarrable(k, pile)[0]
-        memo[k] = ok
+        ok = prouvable_seule(q, niveau) and demarrable(k, niveau, pile)[0]
+        memo[(k, niveau)] = ok
         return ok
 
     out = {}
     for k, (q, _) in Q.items():
-        if k in exceptions or not a_tache_retroactive(q):
+        n = niveau_requis(q)
+        if k in exceptions or n is None:
             continue
-        ok, fautive = demarrable(k, ())
+        ok, fautive = demarrable(k, n, ())
         if not ok:
-            out[k] = fautive
+            out[k] = (n, fautive)
     return out
 
 
@@ -137,9 +170,14 @@ def controler(chapitres, verif):
             verif.erreurs.append(f"retroactivite.toml : exception pour une quête inconnue « {k} »")
         elif not r.strip():
             verif.erreurs.append(f"retroactivite.toml : exception « {k} » sans raison")
-    for k, f in sorted(bloquees(Q, frozenset(exc)).items()):
-        verif.erreurs.append(f"{k} : une tâche rétroactive attend « {f} », que le jeu ne peut pas prouver"
-                             " (en faire une branche latérale, ou une exception motivée)")
+    for k, (n, f) in sorted(bloquees(Q, frozenset(exc)).items()):
+        if n == 'fort':
+            verif.erreurs.append(f"{k} : une tâche à preuve forte (progrès, statistique) attend « {f} »,"
+                                 " qui n'est pas prouvé pour toujours (objet en poche, visite, case, kill)"
+                                 " — en faire une branche latérale, ou une exception motivée")
+        else:
+            verif.erreurs.append(f"{k} : une tâche d'objet attend « {f} », que le jeu ne peut pas prouver"
+                                 " — en faire une branche latérale, ou une exception motivée")
     controler_progres(Q, verif)
     return Q
 
