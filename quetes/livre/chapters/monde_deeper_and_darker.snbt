@@ -1,0 +1,345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_deeper_and_darker"
+	group: "17185D2694D86048"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "67BF0C321FAD2A18"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&3Deeper and Darker&r prolonge le sculk : de nouvelles créatures dans les cités anciennes, un &lcœur du Warden&r, et une dimension sous la bedrock — l'&3Otherside&r — avec ses quatre biomes et son temple. Le progrès de départ du mod dit : quelque chose t'attire vers la source."]
+			icon: "minecraft:sculk_shrieker"
+			id: "429307E608E724A8"
+			rewards: [{
+				count: 16
+				id: "196422EB8D6BA1CC"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #deeper-and-darker sur le Discord."
+			tasks: [{
+				id: "695137B882A5D2DB"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&3Sous la bedrock"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["429307E608E724A8"]
+			description: ["Les cités anciennes sous l'Overworld, dans les Profondeurs sombres (Dungeons & Taverns les remanie). Les monstres sculk du mod y rôdent : Harceleur, Mille-pattes, Sangsue, Happeur, Brisé, Ver hurleur, Boue."]
+			id: "7A6233A9E7C0B9F1"
+			rewards: [{
+				id: "2B5E3BD8C6F3CAAA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "4F2A7CAF75596CAD"
+				type: "advancement"
+			}]
+			title: "Une cité ancienne"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A6233A9E7C0B9F1"]
+			description: ["Un de chaque monstre sculk du mod (progrès « Sculk Slayer »)."]
+			id: "425E15C722B090B8"
+			optional: true
+			rewards: [{
+				id: "2327C59DE5B6C792"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "deeperdarker:main/kill_all_sculk_mobs"
+				criterion: ""
+				id: "699BD0FAF112CA15"
+				type: "advancement"
+			}]
+			title: "Tueur de sculk"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A6233A9E7C0B9F1"]
+			description: ["Le progrès du mod s'appelle « Voleur fantôme » : tuer le Warden et prendre son &lcœur&r. Le Warden lâche aussi sa &lcarapace&r. Sa mort est annoncée dans #faits-d-armes."]
+			id: "75E507F0F34750F8"
+			rewards: [{
+				id: "60D35A92191FAB59"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "deeperdarker:main/kill_warden"
+				criterion: ""
+				id: "266AACF39F55681A"
+				type: "advancement"
+			}]
+			title: "&3Vaincre le Warden"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75E507F0F34750F8"]
+			description: ["Carapace du Warden, éclat d'écho et membranes de phantom (recette du mod). C'est l'ingrédient du modèle de forge du Warden et des élytres d'âme."]
+			id: "4320FAF832E203FA"
+			rewards: [{
+				id: "4CAE3C8B6FDB9217"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/obtain_reinforced_echo_shard"
+				criterion: ""
+				id: "7BC5D5D6AD582913"
+				type: "advancement"
+			}]
+			title: "Un éclat d'écho renforcé"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["75E507F0F34750F8"]
+			description: ["Un cadre en &ldeepslate renforcée&r (celle des cités anciennes), et le &lcœur du Warden&r pour l'allumer (code du mod). Progrès « Sous la bedrock »."]
+			id: "2400DC337F1CFD44"
+			rewards: [{
+				id: "4E82D99B2090CA85"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			size: 1.3d
+			tasks: [{
+				advancement: "deeperdarker:main/enter_otherside"
+				criterion: ""
+				id: "7ABF236FD49E92F6"
+				type: "advancement"
+			}]
+			title: "Le portail de l'Otherside"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2400DC337F1CFD44"]
+			description: ["Les Terres profondes, la Forêt résonnante, les Cavernes fleuries, les Colonnes couvertes. Le progrès « Écholocation » demande les quatre."]
+			id: "6DED01D530CFEB9C"
+			optional: true
+			rewards: [{
+				id: "17BE676BE891CC7F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "deeperdarker:deeplands"
+					id: "0D4D8380BC446F4A"
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:echoing_forest"
+					id: "745CFA80E011ED1E"
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:blooming_caverns"
+					id: "7A480EE5674C2FAB"
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:overcast_columns"
+					id: "771246562445A7F3"
+					type: "biome"
+				}
+			]
+			title: "Les quatre biomes"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DED01D530CFEB9C"]
+			description: ["Tous les biomes de l'Otherside (progrès du mod). &aJalon Explorateur.&r"]
+			id: "7B7D48C19D621A18"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D7155901787D46B"
+				table_id: 2972911916655707281L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "deeperdarker:main/explore_otherside"
+				criterion: ""
+				id: "17A841F8EADFFF87"
+				type: "advancement"
+			}]
+			title: "Écholocation"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2400DC337F1CFD44"]
+			description: ["La structure de l'Otherside : cinq tables de butin (sommet, sous-sol, fontaine, réserve, cache secrète), coffres par joueur."]
+			id: "548CF50C19E91929"
+			rewards: [{
+				id: "58EEEBD463C0408B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				id: "3F96F06795FE6E07"
+				type: "advancement"
+			}]
+			title: "Le temple ancien"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2400DC337F1CFD44"]
+			description: ["L'écho et le bloom : planches, portes, bateaux, panneaux suspendus."]
+			icon: "deeperdarker:echo_log"
+			id: "1E1101F5E86DAA81"
+			optional: true
+			rewards: [{
+				id: "5074D5EF026BA2CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "3C1FA00A55D7F260"
+					item: "deeperdarker:echo_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "04E71BB21342823A"
+					item: "deeperdarker:blooming_stem"
+					type: "item"
+				}
+			]
+			title: "Les bois de l'Otherside"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2400DC337F1CFD44"]
+			description: ["Lié à un conteneur, il l'ouvre à distance (progrès « Stockage à distance »)."]
+			id: "41F5718103317CD9"
+			optional: true
+			rewards: [{
+				id: "16799ECC3A7CBD06"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "deeperdarker:main/obtain_sculk_transmitter"
+				criterion: ""
+				id: "4F636EB7C3019807"
+				type: "advancement"
+			}]
+			title: "Un transmetteur sculk"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4320FAF832E203FA"]
+			description: ["Progrès « Plainte pour tapage ». Le bâton se fabrique (recette du mod)."]
+			id: "66EE09F7BC80E514"
+			optional: true
+			rewards: [{
+				id: "006A570182D5BAEB"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "deeperdarker:main/obtain_sonorous_staff"
+				criterion: ""
+				id: "7BBA814413401EF7"
+				type: "advancement"
+			}]
+			title: "Le bâton sonore"
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4320FAF832E203FA"]
+			description: ["Des élytres renforcées par l'éclat d'écho (recette du mod). Les ailes de l'Aether et les jetpacks sont les autres façons de voler."]
+			icon: "deeperdarker:soul_elytra"
+			id: "673D829EB26C2D02"
+			optional: true
+			rewards: [{
+				id: "5BC1C489A558936C"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73F4D6DF9C4C2A6D"
+				item: "deeperdarker:soul_elytra"
+				type: "item"
+			}]
+			title: "Les élytres d'âme"
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4320FAF832E203FA"]
+			description: ["Le &lmodèle de forge du Warden&r s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Il y a aussi le résonarium, un palier intermédiaire, par plaques."]
+			id: "0BFC4D9F9E9B9BA7"
+			rewards: [{
+				id: "23DA9641AE742DFD"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			size: 1.3d
+			tasks: [{
+				advancement: "deeperdarker:main/warden_armor"
+				criterion: ""
+				id: "02AFD6ACADD9D8D5"
+				type: "advancement"
+			}]
+			title: "&3L'armure du Warden"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["548CF50C19E91929"]
+			description: ["Le temple trouvé, le cœur en main. La suite est au chapitre &4Cataclysm&r."]
+			icon: "deeperdarker:warden_helmet"
+			id: "7D46D2F989B8A372"
+			rewards: [{
+				id: "214F04F3DBF68956"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "48B0191CE7F67223"
+				title: "De retour"
+				type: "checkmark"
+			}]
+			title: "&3Revenu de l'Otherside"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "&3Deeper and Darker"
+}

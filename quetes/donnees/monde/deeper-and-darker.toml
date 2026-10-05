@@ -1,0 +1,183 @@
+# Chapitre « Deeper and Darker » — cahier des charges §4.9
+# Sources (5 octobre 2026) : jar deeperdarker-forge-1.20.1-1.3.3 — progrès
+# deeperdarker:main/* et leurs textes (en_us), WardenHeartItem (javap :
+# le cœur appelle OthersidePortalBlock.spawnPortal) et OthersidePortalBlock
+# (cadre en deepslate renforcée, Blocks.f_220863_), recettes
+# reinforced_echo_shard (carapace du Warden + éclat d'écho + membranes de
+# phantom), soul_elytra, warden_upgrade_smithing_template (modèle de forge
+# sur équipement de nétherite, infobulle), structure ancient_temple et ses
+# cinq tables de butin, quatre biomes de l'Otherside dans l'index, entités
+# sculk du mod. Le Warden lui-même : vanilla.
+
+[chapitre]
+titre = "&3Deeper and Darker"
+fichier = "monde_deeper_and_darker"
+groupe = "monde"
+icone = "deeperdarker:heart_of_the_deep"
+ordre = 9
+
+[[quete]]
+cle = "intro"
+titre = "&3Sous la bedrock"
+sous_titre = "Guide dans #deeper-and-darker sur le Discord."
+taille = 1.5
+icone = "minecraft:sculk_shrieker"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:torch 16"]
+description = """
+&3Deeper and Darker&r prolonge le sculk : de nouvelles créatures dans les cités anciennes, un &lcœur du Warden&r, et une dimension sous la bedrock — l'&3Otherside&r — avec ses quatre biomes et son temple. Le progrès de départ du mod dit : quelque chose t'attire vers la source.
+"""
+
+[[quete]]
+cle = "cite"
+titre = "Une cité ancienne"
+deps = ["intro"]
+taches = ["advancement deeperdarker:main/find_ancient_city"]
+recompenses = ["xp 5"]
+description = """
+Les cités anciennes sous l'Overworld, dans les Profondeurs sombres (Dungeons & Taverns les remanie). Les monstres sculk du mod y rôdent : Harceleur, Mille-pattes, Sangsue, Happeur, Brisé, Ver hurleur, Boue.
+"""
+
+[[quete]]
+cle = "sculk_mobs"
+titre = "Tueur de sculk"
+deps = ["cite"]
+optionnel = true
+taches = ["advancement deeperdarker:main/kill_all_sculk_mobs"]
+recompenses = ["xp 10"]
+description = """
+Un de chaque monstre sculk du mod (progrès « Sculk Slayer »).
+"""
+
+[[quete]]
+cle = "warden"
+titre = "&3Vaincre le Warden"
+deps = ["cite"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["advancement deeperdarker:main/kill_warden"]
+recompenses = ["xp 25"]
+description = """
+Le progrès du mod s'appelle « Voleur fantôme » : tuer le Warden et prendre son &lcœur&r. Le Warden lâche aussi sa &lcarapace&r. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "eclat"
+titre = "Un éclat d'écho renforcé"
+deps = ["warden"]
+taches = ["advancement deeperdarker:main/obtain_reinforced_echo_shard"]
+recompenses = ["xp 8"]
+description = """
+Carapace du Warden, éclat d'écho et membranes de phantom (recette du mod). C'est l'ingrédient du modèle de forge du Warden et des élytres d'âme.
+"""
+
+[[quete]]
+cle = "portail"
+titre = "Le portail de l'Otherside"
+deps = ["warden"]
+taille = 1.3
+taches = ["advancement deeperdarker:main/enter_otherside"]
+recompenses = ["xp 15"]
+description = """
+Un cadre en &ldeepslate renforcée&r (celle des cités anciennes), et le &lcœur du Warden&r pour l'allumer (code du mod). Progrès « Sous la bedrock ».
+"""
+
+[[quete]]
+cle = "biomes"
+titre = "Les quatre biomes"
+deps = ["portail"]
+optionnel = true
+taches = ["biome deeperdarker:deeplands", "biome deeperdarker:echoing_forest", "biome deeperdarker:blooming_caverns", "biome deeperdarker:overcast_columns"]
+recompenses = ["xp 10"]
+description = """
+Les Terres profondes, la Forêt résonnante, les Cavernes fleuries, les Colonnes couvertes. Le progrès « Écholocation » demande les quatre.
+"""
+
+[[quete]]
+cle = "echolocation"
+titre = "Écholocation"
+deps = ["biomes"]
+optionnel = true
+taches = ["advancement deeperdarker:main/explore_otherside"]
+recompenses = ["table explorateur"]
+description = """
+Tous les biomes de l'Otherside (progrès du mod). &aJalon Explorateur.&r
+"""
+
+[[quete]]
+cle = "temple"
+titre = "Le temple ancien"
+deps = ["portail"]
+taches = ["advancement deeperdarker:main/find_ancient_temple"]
+recompenses = ["xp 10"]
+description = """
+La structure de l'Otherside : cinq tables de butin (sommet, sous-sol, fontaine, réserve, cache secrète), coffres par joueur.
+"""
+
+[[quete]]
+cle = "bois"
+titre = "Les bois de l'Otherside"
+deps = ["portail"]
+optionnel = true
+taches = ["item deeperdarker:echo_log 8", "item deeperdarker:blooming_stem 8"]
+recompenses = ["xp 5"]
+description = """
+L'écho et le bloom : planches, portes, bateaux, panneaux suspendus.
+"""
+
+[[quete]]
+cle = "transmetteur"
+titre = "Un transmetteur sculk"
+deps = ["portail"]
+optionnel = true
+taches = ["advancement deeperdarker:main/obtain_sculk_transmitter"]
+recompenses = ["xp 8"]
+description = """
+Lié à un conteneur, il l'ouvre à distance (progrès « Stockage à distance »).
+"""
+
+[[quete]]
+cle = "baton"
+titre = "Le bâton sonore"
+deps = ["eclat"]
+optionnel = true
+taches = ["advancement deeperdarker:main/obtain_sonorous_staff"]
+recompenses = ["xp 8"]
+description = """
+Progrès « Plainte pour tapage ». Le bâton se fabrique (recette du mod).
+"""
+
+[[quete]]
+cle = "elytres"
+titre = "Les élytres d'âme"
+deps = ["eclat"]
+optionnel = true
+taches = ["item deeperdarker:soul_elytra"]
+recompenses = ["xp 15"]
+description = """
+Des élytres renforcées par l'éclat d'écho (recette du mod). Les ailes de l'Aether et les jetpacks sont les autres façons de voler.
+"""
+
+[[quete]]
+cle = "armure"
+titre = "&3L'armure du Warden"
+deps = ["eclat"]
+taille = 1.3
+taches = ["advancement deeperdarker:main/warden_armor"]
+recompenses = ["xp 25"]
+description = """
+Le &lmodèle de forge du Warden&r s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Il y a aussi le résonarium, un palier intermédiaire, par plaques.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&3Revenu de l'Otherside"
+deps = ["temple"]
+taille = 1.3
+icone = "deeperdarker:warden_helmet"
+taches = ["checkmark De retour"]
+recompenses = ["xp 5"]
+description = """
+Le temple trouvé, le cœur en main. La suite est au chapitre &4Cataclysm&r.
+"""
