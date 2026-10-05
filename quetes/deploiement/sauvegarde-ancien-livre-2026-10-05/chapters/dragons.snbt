@@ -1,0 +1,314 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragons"
+	group: "5EC606153AA8CA77"
+	icon: "minecraft:dragon_egg"
+	id: "17A4282774016A4D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1DF7E39DD57024A0"
+				"6910D27211BE724F"
+				"3EA64252A0C4BBD9"
+				"338B4253B640715C"
+				"38B97F87222F7E7F"
+				"15C64A114CA1CD61"
+				"4F59CB0CC36A583D"
+				"63D86F2BDF44E6FB"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"To hatch a &5dragon egg&r, simply place the &5dragon egg&r anywhere and then click on it. The chunk that the &5dragon egg&r is placed in will need to stay loaded for it to hatch. The hatching process takes a few minutes. Make sure you have enough room for it to hatch safely, so the resulting &4dragon&r does not suffocate in a wall."
+				""
+				"Once a &5dragon egg&r has hatched, a &cbaby dragon&r will spawn! You can tame them using any of the fish listed in the &9Task&r section of this quest."
+				""
+				"You can also speed up the time it takes for them to grow up into an adult by feeding the baby more &3fish&r."
+				""
+				"Once the &4dragon&r has fully matured, you can make it rideable by equipping a &esaddle&r onto the &4dragon&r."
+				""
+				"While riding, you can hold &bSpace&r to ascend, &bLeft Ctrl&r to descend, and press &bK&r to change your dragons flying behavior."
+				""
+				"To heal an injured &4dragon&r, simply feed it any of the meats listed in the second task in the &9Task&r section of this quest."
+			]
+			icon: "minecraft:saddle"
+			id: "40D9D288C20EBEAA"
+			rewards: [{
+				count: 6
+				id: "5FD06D14F3431CC8"
+				item: "minecraft:cod"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Read my description!"
+			tasks: [
+				{
+					id: "7AF4145BA6A018FF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:fishes"
+						}
+					}
+					title: "Any #minecraft:fishes"
+					type: "item"
+				}
+				{
+					id: "1211B16C44A5B6BD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:food/meat"
+						}
+					}
+					title: "Any #forge:food/meat"
+					type: "item"
+				}
+			]
+			title: "&l&6Dragon Care 101"
+			x: 0.0d
+			y: -0.65d
+		}
+		{
+			id: "15C64A114CA1CD61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37BC26BC602389EC"
+				table_id: 3608342425435793425L
+				type: "random"
+			}]
+			subtitle: "Flies 40 percent faster than other dragons. Found in underground &9dungeon chests."
+			tasks: [{
+				id: "7002CDC0A051F3F5"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:aether"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Obtain an &f&lAether Dragon Egg"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "4F59CB0CC36A583D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE89AB1EE0F3966"
+				table_id: 3608342425435793425L
+				type: "random"
+			}]
+			subtitle: "Has the special trait of having more health than other dragons. Obtainable by defeating the &8&lEnder Dragon&r."
+			tasks: [{
+				id: "7417413C9F99AC12"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:end"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Obtain an &8End Dragon Egg"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "1DF7E39DD57024A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E846BDCC8517E75"
+				table_id: 3608342425435793425L
+				type: "random"
+			}]
+			subtitle: "This dragon has the special trait of being resistant to fire and creating fire on nearby flammable blocks. Has a chance of spawning in &6Desert Pyramids&r."
+			tasks: [{
+				id: "44CF69BC139C43C2"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:fire"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Obtain a &4Fire Dragon Egg"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "6910D27211BE724F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "460DFA73C1679E6F"
+				table_id: 3608342425435793425L
+				type: "random"
+			}]
+			subtitle: "Creates the bonemeal effect on surrounding plants and grass as it walks. Can be found in &2Jungle Temples."
+			tasks: [{
+				id: "156C28206C2DCB1D"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:forest"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Obtain a &aForest Dragon Egg"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "3EA64252A0C4BBD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63AA5AB3191E2D95"
+				table_id: 3608342425435793425L
+				type: "random"
+			}]
+			subtitle: "Withers nearby plants and blocks as it walks. Found in &4Abandoned Mineshafts&r and &6Woodland Mansions&r.  "
+			tasks: [{
+				id: "6571AF068371ED30"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:ghost"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Obtain a &fGhost Dragon Egg"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "63D86F2BDF44E6FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0410BF9EBCC71D3E"
+				table_id: 3608342425435793425L
+				type: "random"
+			}]
+			subtitle: "Creates frosted ice in its path and leaves a trail of snow in cold biomes. Found in &fIgloo chests&r."
+			tasks: [{
+				id: "46BAF19A130D36F0"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:ice"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Obtain an &f&lIce Dragon Egg"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:nether"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "338B4253B640715C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "337927967ABC55A0"
+				table_id: 3608342425435793425L
+				type: "random"
+			}]
+			subtitle: "This dragon has more armor than other dragons, meaning it will take less damage per hit. Has a chance of spawning in &4Bastion Treasure&r."
+			tasks: [{
+				id: "70D97F68ED0BA17B"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:nether"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Obtain a &6Nether Dragon Egg"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "38B97F87222F7E7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73AD043B03B580AF"
+				table_id: 3608342425435793425L
+				type: "random"
+			}]
+			subtitle: "Hydrates farmland, soaks sponges, extinguishes fires, and transforms blocks like magma blocks and copper as it walks. Found in &1Buried Treasure&r."
+			tasks: [{
+				id: "3EFB164B7071CCB8"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:water"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Obtain a &bWater Dragon Egg"
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	title: " &4Dragons"
+}
