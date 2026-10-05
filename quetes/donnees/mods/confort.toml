@@ -1,0 +1,165 @@
+# Chapitre « Confort » — cahier des charges §5.21
+# Sources (5 octobre 2026) : progrès du jar inmis (bébé, élimé, plaqué,
+# doré, orné de gemmes, ardent, flétri, sans fin, bourse de l'Ender ;
+# textes « Surround your Frayed Backpack with Iron Ingots ») ; comforts-
+# server.toml du serveur (sac de couchage la nuit, hamac le jour, les deux
+# tiennent les phantoms à distance, pas de casse) ; Ping Wheel (lang :
+# canal, couleur d'équipe FTB Teams) ; Mouse Tweaks, Jade, JEI/EMI, Xaero
+# : côté client, cases à cocher. Le sac élimé et le sac plaqué sont déjà
+# au chapitre Bienvenue : on reprend après.
+
+[chapitre]
+titre = "&eConfort"
+fichier = "mods_confort"
+groupe = "mods"
+icone = "inmis:gilded_backpack"
+ordre = 21
+
+[[quete]]
+cle = "intro"
+titre = "&eLes petits mods qui changent tout"
+sous_titre = "Guide dans #astuces sur le Discord."
+taille = 1.5
+icone = "minecraft:red_bed"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Les sacs d'Inmis jusqu'au bout, dormir n'importe où, les touches qui font gagner du temps. Le sac élimé et le sac plaqué sont au chapitre &eBienvenue&r.
+"""
+
+[[quete]]
+cle = "dore"
+titre = "Le sac doré"
+deps = ["intro"]
+taches = ["advancement inmis:gilded_backpack"]
+recompenses = ["xp 5"]
+description = """
+Le sac plaqué entouré d'or (progrès du mod). Chaque palier demande le précédent.
+"""
+
+[[quete]]
+cle = "gemmes"
+titre = "Le sac orné de gemmes"
+deps = ["dore"]
+taches = ["advancement inmis:bejeweled_backpack"]
+recompenses = ["xp 8"]
+
+[[quete]]
+cle = "ardent"
+titre = "Le sac ardent"
+deps = ["gemmes"]
+taches = ["advancement inmis:blazing_backpack"]
+recompenses = ["xp 10"]
+
+[[quete]]
+cle = "fletri"
+titre = "Le sac flétri"
+deps = ["ardent"]
+taches = ["advancement inmis:withered_backpack"]
+recompenses = ["xp 12"]
+
+[[quete]]
+cle = "sans_fin"
+titre = "&eLe sac sans fin"
+deps = ["fletri"]
+taille = 1.3
+taches = ["advancement inmis:endless_backpack"]
+recompenses = ["xp 20"]
+description = """
+Le dernier palier d'Inmis.
+"""
+
+[[quete]]
+cle = "bourse"
+titre = "Une bourse de l'Ender"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement inmis:ender_pouch"]
+recompenses = ["xp 5"]
+description = """
+La main dedans, et c'est ton coffre de l'Ender qui s'ouvre (texte du progrès).
+"""
+
+[[quete]]
+cle = "bebe"
+titre = "Un sac bébé"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement inmis:baby_backpack"]
+recompenses = ["xp 2"]
+description = """
+Parfait pour un cadeau (texte du progrès).
+"""
+
+# ---- Comforts
+[[quete]]
+cle = "sac_couchage"
+titre = "Un sac de couchage"
+deps = ["intro"]
+taches = ["tag comforts:sleeping_bags 1 Un sac de couchage"]
+recompenses = ["xp 3"]
+description = """
+&eComforts&r : un sac de couchage se déroule n'importe où, la &lnuit&r, sans changer ton point de réapparition. Se poser dessus suffit (config du serveur). Il tient les phantoms à distance, et ne s'use pas.
+"""
+
+[[quete]]
+cle = "hamac"
+titre = "Un hamac"
+deps = ["sac_couchage"]
+optionnel = true
+taches = ["item comforts:rope_and_nail"]
+recompenses = ["xp 3"]
+description = """
+Corde et clou, une toile entre deux : le hamac se tend le &ljour&r et le fait passer (config).
+"""
+
+# ---- côté client
+[[quete]]
+cle = "touches"
+titre = "Les touches de JEI"
+deps = ["intro"]
+taches = ["checkmark Je connais R et U"]
+recompenses = ["xp 2"]
+description = """
+Sur un objet, &lR&r montre sa recette, &lU&r ce qu'il sert à fabriquer. L'onglet Métiers dit quel villageois le vend, l'onglet Reproduction (Just Enough Breeding) ce que mange chaque bête.
+"""
+
+[[quete]]
+cle = "souris"
+titre = "Mouse Tweaks et Jade"
+deps = ["intro"]
+optionnel = true
+taches = ["checkmark Compris"]
+recompenses = ["xp 2"]
+description = """
+&eMouse Tweaks&r : clic maintenu pour étaler ou ramasser une pile, molette pour déplacer un à un. &eJade&r : le bloc ou la créature visée s'affiche en haut de l'écran.
+"""
+
+[[quete]]
+cle = "ping"
+titre = "Un ping pour sa faction"
+deps = ["intro"]
+taches = ["checkmark J'ai pingé"]
+recompenses = ["xp 2"]
+description = """
+&ePing Wheel&r : une touche pose un marqueur visible par les autres joueurs du même &lcanal&r. Règle le canal au nom de ta faction dans les options du mod, et le ping ne sort pas de la faction.
+"""
+
+[[quete]]
+cle = "xaero"
+titre = "Un point de passage"
+deps = ["intro"]
+taches = ["checkmark Un point posé"]
+recompenses = ["xp 2"]
+description = """
+Carte &bXaero&r (touche &bM&r) : un point de passage se pose d'un clic, se nomme, se colore. La minicarte en haut à gauche les montre.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&eConfortable"
+deps = ["sans_fin", "sac_couchage"]
+taille = 1.3
+icone = "inmis:endless_backpack"
+taches = ["checkmark Installé"]
+recompenses = ["xp 5"]

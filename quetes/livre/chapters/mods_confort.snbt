@@ -1,0 +1,310 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mods_confort"
+	group: "14858825A29975B1"
+	icon: "inmis:gilded_backpack"
+	id: "128D425CDCF1AE51"
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Les sacs d'Inmis jusqu'au bout, dormir n'importe où, les touches qui font gagner du temps. Le sac élimé et le sac plaqué sont au chapitre &eBienvenue&r."]
+			icon: "minecraft:red_bed"
+			id: "468EEA4754F471FF"
+			rewards: [{
+				id: "23DCC342468DB2B9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #astuces sur le Discord."
+			tasks: [{
+				id: "48117040C1B41286"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&eLes petits mods qui changent tout"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["Le sac plaqué entouré d'or (progrès du mod). Chaque palier demande le précédent."]
+			id: "1155922204598CBE"
+			rewards: [{
+				id: "43E8069070D58555"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "inmis:gilded_backpack"
+				criterion: ""
+				id: "473C2F1C55C26081"
+				type: "advancement"
+			}]
+			title: "Le sac doré"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1155922204598CBE"]
+			id: "096EDE3617B43A3F"
+			rewards: [{
+				id: "0126229FCAC78E74"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "inmis:bejeweled_backpack"
+				criterion: ""
+				id: "4A74EF8B32C79709"
+				type: "advancement"
+			}]
+			title: "Le sac orné de gemmes"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["096EDE3617B43A3F"]
+			id: "56B12F7CDC1FFA25"
+			rewards: [{
+				id: "1EBAEEEF62CDBC3B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "inmis:blazing_backpack"
+				criterion: ""
+				id: "613B773333FD29E4"
+				type: "advancement"
+			}]
+			title: "Le sac ardent"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56B12F7CDC1FFA25"]
+			id: "643F677AEB87F925"
+			rewards: [{
+				id: "10077A40411A6152"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				advancement: "inmis:withered_backpack"
+				criterion: ""
+				id: "0922075D299A2FA9"
+				type: "advancement"
+			}]
+			title: "Le sac flétri"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["643F677AEB87F925"]
+			description: ["Le dernier palier d'Inmis."]
+			id: "620535CAE657B7BF"
+			rewards: [{
+				id: "24A3CD386D0616B0"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 1.3d
+			tasks: [{
+				advancement: "inmis:endless_backpack"
+				criterion: ""
+				id: "00BF2A62424C896B"
+				type: "advancement"
+			}]
+			title: "&eLe sac sans fin"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["La main dedans, et c'est ton coffre de l'Ender qui s'ouvre (texte du progrès)."]
+			id: "2B0327A0A107EC36"
+			optional: true
+			rewards: [{
+				id: "39FA57D56416AA57"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "inmis:ender_pouch"
+				criterion: ""
+				id: "02344B7E809A0F6B"
+				type: "advancement"
+			}]
+			title: "Une bourse de l'Ender"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["Parfait pour un cadeau (texte du progrès)."]
+			id: "0D149FF2A957016C"
+			optional: true
+			rewards: [{
+				id: "6D8B21055562449B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "inmis:baby_backpack"
+				criterion: ""
+				id: "7D5C6DEEE043C6BA"
+				type: "advancement"
+			}]
+			title: "Un sac bébé"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["&eComforts&r : un sac de couchage se déroule n'importe où, la &lnuit&r, sans changer ton point de réapparition. Se poser dessus suffit (config du serveur). Il tient les phantoms à distance, et ne s'use pas."]
+			id: "0C87A33C08476042"
+			rewards: [{
+				id: "1015DB40814F8784"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6ED344F8FF68E158"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Un sac de couchage"
+				type: "item"
+			}]
+			title: "Un sac de couchage"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C87A33C08476042"]
+			description: ["Corde et clou, une toile entre deux : le hamac se tend le &ljour&r et le fait passer (config)."]
+			icon: "comforts:rope_and_nail"
+			id: "3FF91EAE72DD37E9"
+			optional: true
+			rewards: [{
+				id: "1340ADBBB3CA3668"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5BCC1EC9235CF3FE"
+				item: "comforts:rope_and_nail"
+				type: "item"
+			}]
+			title: "Un hamac"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["Sur un objet, &lR&r montre sa recette, &lU&r ce qu'il sert à fabriquer. L'onglet Métiers dit quel villageois le vend, l'onglet Reproduction (Just Enough Breeding) ce que mange chaque bête."]
+			id: "4C303B4F7F571B40"
+			rewards: [{
+				id: "41FAFDD41A824EA8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "117F87BE5CFE7241"
+				title: "Je connais R et U"
+				type: "checkmark"
+			}]
+			title: "Les touches de JEI"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["&eMouse Tweaks&r : clic maintenu pour étaler ou ramasser une pile, molette pour déplacer un à un. &eJade&r : le bloc ou la créature visée s'affiche en haut de l'écran."]
+			id: "61CB3AC866F46579"
+			optional: true
+			rewards: [{
+				id: "1682D7DF90067A28"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2974980245A84209"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Mouse Tweaks et Jade"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["&ePing Wheel&r : une touche pose un marqueur visible par les autres joueurs du même &lcanal&r. Règle le canal au nom de ta faction dans les options du mod, et le ping ne sort pas de la faction."]
+			id: "3080DB6093CEA482"
+			rewards: [{
+				id: "364D5B99E784C700"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "279E8C258A7DA08A"
+				title: "J'ai pingé"
+				type: "checkmark"
+			}]
+			title: "Un ping pour sa faction"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["Carte &bXaero&r (touche &bM&r) : un point de passage se pose d'un clic, se nomme, se colore. La minicarte en haut à gauche les montre."]
+			id: "211E9FC7588F2C90"
+			rewards: [{
+				id: "23CE5DC3E8509052"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "098869ABD093BBE9"
+				title: "Un point posé"
+				type: "checkmark"
+			}]
+			title: "Un point de passage"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"620535CAE657B7BF"
+				"0C87A33C08476042"
+			]
+			icon: "inmis:endless_backpack"
+			id: "38BDE4D39ABAA3F0"
+			rewards: [{
+				id: "5B83B2E1A1CF69A2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "69E0523D002C4B05"
+				title: "Installé"
+				type: "checkmark"
+			}]
+			title: "&eConfortable"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "&eConfort"
+}
