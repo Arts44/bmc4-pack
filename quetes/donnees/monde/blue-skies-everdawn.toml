@@ -155,6 +155,59 @@ description = """
 Chaque gardien de donjon porte son &dartéfact&r, qui donne un pouvoir à qui le porte. Posé sur la keystone de son donjon, l'artéfact &lrelance le boss&r, avec un temps de recharge ; les clés ne servent qu'à la première fois.
 """
 
+# ---- Paliers et relances (BMC-89, 5 octobre) : KeystoneBlock (javap,
+# textes tile.keystone.arc_drained / arc_on_cooldown) : un arc utilisé sur le
+# keystone ré-invoque le boss ; une victoire n'est comptée que si la quête
+# est ouverte. Équipement : objets obtenables en chaîne.
+[[quete]]
+cle = "alchimiste_relance"
+titre = "&6Ré-invoquer l'Alchimiste"
+deps = ["alchimiste"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill blue_skies:alchemist"]
+recompenses = ["xp 15"]
+description = """
+Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire.
+"""
+
+[[quete]]
+cle = "arachnarque_relance"
+titre = "&6Ré-invoquer l'Arachnarque"
+deps = ["arachnarque"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill blue_skies:arachnarch"]
+recompenses = ["xp 15"]
+description = """
+Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire.
+"""
+
+[[quete]]
+cle = "equipement_horizonite"
+titre = "L'équipement en horizonite"
+deps = ["forge"]
+optionnel = true
+taches = ["item blue_skies:horizonite_helmet", "item blue_skies:horizonite_chestplate", "item blue_skies:horizonite_leggings", "item blue_skies:horizonite_boots", "item blue_skies:horizonite_sword", "item blue_skies:horizonite_pickaxe", "item blue_skies:horizonite_axe", "item blue_skies:horizonite_shovel", "item blue_skies:horizonite_hoe"]
+recompenses = ["xp 8"]
+description = """
+Armure et outils en horizonite, le métal de l'Everdawn, qui se fond à la forge d'horizonite.
+"""
+
+[[quete]]
+cle = "equipement_charoite"
+titre = "&6L'équipement en charoite"
+deps = ["equipement_horizonite", "charoite"]
+optionnel = true
+forme = "diamond"
+taches = ["item blue_skies:charoite_helmet", "item blue_skies:charoite_chestplate", "item blue_skies:charoite_leggings", "item blue_skies:charoite_boots", "item blue_skies:charoite_sword", "item blue_skies:charoite_pickaxe", "item blue_skies:charoite_axe", "item blue_skies:charoite_shovel", "item blue_skies:charoite_hoe"]
+recompenses = ["xp 12"]
+description = """
+Armure et outils en charoite, la gemme de l'Everdawn : le sommet de Blue Skies.
+"""
+
 [[quete]]
 cle = "fin"
 titre = "&6Les deux cieux"
