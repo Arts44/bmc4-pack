@@ -1,0 +1,509 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bases_enchantement_forge"
+	group: "00400F52F527AA36"
+	icon: "minecraft:enchanting_table"
+	id: "76855026FE6780D8"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Le vanilla, pas à pas. Ce que le pack y change (Easy Magic, Easy Anvils, l'infuseur) est au chapitre &dEnchantement&r des mods."]
+			icon: "minecraft:anvil"
+			id: "3E9E54C55971F26D"
+			rewards: [{
+				count: 16
+				id: "1DBA1113F21F7337"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "59A4053B39CCBD11"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&dLa table, l'enclume, la forge"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E9E54C55971F26D"]
+			description: ["Obsidienne, diamants, un livre. Quinze bibliothèques à un bloc d'écart pour le niveau 30. Le lapis paie, les niveaux aussi."]
+			icon: "minecraft:enchanting_table"
+			id: "1BF23E98191E6D62"
+			rewards: [{
+				id: "4CFD6F3A201F30A6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "15DCB7BB0C961A3D"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "127F1714CD52BC8D"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "La table d'enchantement"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BF23E98191E6D62"]
+			description: ["Enchanter un livre garde l'enchantement pour plus tard. Les bibliothécaires en vendent."]
+			icon: "minecraft:enchanted_book"
+			id: "7C9B47C949BDC5AA"
+			rewards: [{
+				id: "767E000D1F1CE9A7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "54036DBEC2D1A940"
+				item: "minecraft:enchanted_book"
+				type: "item"
+			}]
+			title: "Un livre enchanté"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C9B47C949BDC5AA"]
+			description: ["Trois blocs de fer et quatre lingots. Elle combine, répare, renomme, et s'use."]
+			icon: "minecraft:anvil"
+			id: "763B3D58DAE72DF9"
+			rewards: [{
+				id: "32E5ED246B588983"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6E74535FF6BD5605"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "L'enclume"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E9E54C55971F26D"]
+			description: ["Elle retire les enchantements et rend un peu d'XP. Les malédictions restent."]
+			icon: "minecraft:grindstone"
+			id: "71603A7E239795B5"
+			rewards: [{
+				id: "0709A02F187E209A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "39E93B64D28DFB2C"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			title: "La meule"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E9E54C55971F26D"]
+			description: ["Un modèle, une pièce, un matériau : c'est là qu'on passe à la nétherite et qu'on pose un ornement."]
+			icon: "minecraft:smithing_table"
+			id: "0DBD0A49CB0A0129"
+			rewards: [{
+				id: "109AAC4AAA61DCE3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3D903BB9CCA6A933"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "La table de forgeron"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0DBD0A49CB0A0129"]
+			description: ["Dans les bastions. Il se recopie : sept diamants et un bloc de roche du Nether autour du modèle."]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "7E1CF68E7531D552"
+			rewards: [{
+				id: "21AE2419C71123F9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6EB6B70A20E5CB7D"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Le modèle de nétherite"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DBD0A49CB0A0129"]
+			description: ["Un modèle d'ornement, une pièce d'armure, un matériau (progrès vanilla). Seuls les matériaux présents dans le pack s'affichent sur l'armure."]
+			id: "5D97D14A5A8CCB4E"
+			rewards: [{
+				id: "4BE22D03CAE6C4B6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_any_armor_pattern"
+				criterion: ""
+				id: "4CA486BDAE6ECC9C"
+				type: "advancement"
+			}]
+			title: "Un premier ornement"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Avant-poste de pillards."]
+			icon: "minecraft:sentry_armor_trim_smithing_template"
+			id: "7D85CAFAD9874F70"
+			optional: true
+			rewards: [{
+				id: "3CC4FE22D20FF327"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EEB57628ED81956"
+				item: "minecraft:sentry_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Sentinelle"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Temple du désert."]
+			icon: "minecraft:dune_armor_trim_smithing_template"
+			id: "21153EF486AD1F41"
+			optional: true
+			rewards: [{
+				id: "596DB5222BC18E3C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35E60BD297527352"
+				item: "minecraft:dune_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Dune"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Épave."]
+			icon: "minecraft:coast_armor_trim_smithing_template"
+			id: "42FECA69E79B4668"
+			optional: true
+			rewards: [{
+				id: "604FF434E205246C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "740E5B46D671FC0D"
+				item: "minecraft:coast_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Côte"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Temple de la jungle."]
+			icon: "minecraft:wild_armor_trim_smithing_template"
+			id: "6CEFFC0479BED5C3"
+			optional: true
+			rewards: [{
+				id: "0B972D8A09B46115"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "316D70A4F9893090"
+				item: "minecraft:wild_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Sauvage"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Cité ancienne."]
+			icon: "minecraft:ward_armor_trim_smithing_template"
+			id: "68273D978D2CE46E"
+			optional: true
+			rewards: [{
+				id: "6001C9CF909C8C91"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "734DFC6A47467088"
+				item: "minecraft:ward_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Garde"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Forteresse de l'End."]
+			icon: "minecraft:eye_armor_trim_smithing_template"
+			id: "2171C5F7D9F599F3"
+			optional: true
+			rewards: [{
+				id: "24C5F6A187901A92"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F2212564A71C3AD"
+				item: "minecraft:eye_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Œil"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Manoir des bois."]
+			icon: "minecraft:vex_armor_trim_smithing_template"
+			id: "482C90A0E79673C9"
+			optional: true
+			rewards: [{
+				id: "2FBFC645978F9346"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "01521CD676925C7D"
+				item: "minecraft:vex_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Vex"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Le gardien ancien le lâche."]
+			icon: "minecraft:tide_armor_trim_smithing_template"
+			id: "06395BE1FCAD2708"
+			optional: true
+			rewards: [{
+				id: "1619637401D4A7BE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "294CED3C0DE19792"
+				item: "minecraft:tide_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Marée"
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Bastion."]
+			icon: "minecraft:snout_armor_trim_smithing_template"
+			id: "0CAD7BC8C9BE87CF"
+			optional: true
+			rewards: [{
+				id: "44826BACEF2C543E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3BE992308F938B50"
+				item: "minecraft:snout_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Groin"
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Forteresse du Nether."]
+			icon: "minecraft:rib_armor_trim_smithing_template"
+			id: "3A14A24640792002"
+			optional: true
+			rewards: [{
+				id: "5357CC56C078A18C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "358AE977B0050F27"
+				item: "minecraft:rib_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Côtes"
+			x: 6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Cité de l'End."]
+			icon: "minecraft:spire_armor_trim_smithing_template"
+			id: "453F4ED3D65E3DA7"
+			optional: true
+			rewards: [{
+				id: "744766571BC3C8B0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40EF969EA2590F49"
+				item: "minecraft:spire_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Flèche"
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Cité ancienne, rare."]
+			icon: "minecraft:silence_armor_trim_smithing_template"
+			id: "46CF23708D75DFB7"
+			optional: true
+			rewards: [{
+				id: "0A5867E76B7CDC05"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40DC6E630709D232"
+				item: "minecraft:silence_armor_trim_smithing_template"
+				type: "item"
+			}]
+			title: "Silence"
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Guide, Façonneur, Éleveur, Hôte : au pinceau, dans le gravier suspect."]
+			icon: "minecraft:wayfinder_armor_trim_smithing_template"
+			id: "64DF118356AC68DE"
+			optional: true
+			rewards: [{
+				id: "2D9C62F042A4BE6E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "536BC2253B4D8B81"
+					item: "minecraft:wayfinder_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2885BDF7993F9192"
+					item: "minecraft:shaper_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2A42FE16914A6B90"
+					item: "minecraft:raiser_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "3E4BF122259CB9D9"
+					item: "minecraft:host_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Les quatre des ruines de sentier"
+			x: 6.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["5D97D14A5A8CCB4E"]
+			description: ["Les huit modèles qui ne se trouvent qu'une fois par structure, tous posés (progrès « Smithing with Style »)."]
+			id: "0E7AE7BB2C932927"
+			optional: true
+			rewards: [{
+				id: "7377E87D524B7720"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+				criterion: ""
+				id: "0E9260F1176B72F8"
+				type: "advancement"
+			}]
+			title: "&dLes ornements exclusifs"
+			x: 6.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"763B3D58DAE72DF9"
+				"7E1CF68E7531D552"
+				"5D97D14A5A8CCB4E"
+			]
+			icon: "minecraft:netherite_chestplate"
+			id: "763BE1DDBE7358BC"
+			rewards: [{
+				id: "1E141A3C5F3601D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2360E22B36FA3D53"
+				title: "Forgeron"
+				type: "checkmark"
+			}]
+			title: "&dForgeron"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&dEnchantement et forge"
+}
