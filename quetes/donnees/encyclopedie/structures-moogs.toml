@@ -1,0 +1,2213 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Structures — Moog's"
+fichier = "enc_structures_moogs"
+groupe = "encyclopedie"
+icone = "minecraft:oak_log"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Structures — Moog's"
+taille = 1.5
+icone = "minecraft:oak_log"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+"""
+
+[[quete]]
+cle = "mes_astral_hideaway"
+titre = "Visiter : « Astral hideaway »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:astral_hideaway"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_astral_meteorite"
+titre = "Visiter : « Astral meteorite »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:astral_meteorite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_ender_spire"
+titre = "Visiter : « Ender spire »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:ender_spire"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_enderbloom_grove"
+titre = "Visiter : « Enderbloom grove »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:enderbloom_grove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_enderkeep_courtyard"
+titre = "Visiter : « Enderkeep courtyard »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:enderkeep_courtyard"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_enderpin_spikes"
+titre = "Visiter : « Enderpin spikes »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:enderpin_spikes"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_enderskog"
+titre = "Visiter : « Enderskog »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:enderskog"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_enderwatch_tower"
+titre = "Visiter : « Enderwatch tower »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:enderwatch_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_endscraps"
+titre = "Visiter : « Endscraps »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:endscraps"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_manuscript_shrine"
+titre = "Visiter : « Manuscript shrine »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:manuscript_shrine"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mega_ship"
+titre = "Visiter : « Mega ship »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mega_ship"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mega_ship_basic"
+titre = "Visiter : « Mega ship basic »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mega_ship_basic"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mega_ship_crashed"
+titre = "Visiter : « Mega ship crashed »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mega_ship_crashed"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mega_ship_crashed_2"
+titre = "Visiter : « Mega ship crashed 2 »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mega_ship_crashed_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mega_ship_crashed_deepslate"
+titre = "Visiter : « Mega ship crashed deepslate »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mega_ship_crashed_deepslate"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mega_ship_deepslate"
+titre = "Visiter : « Mega ship deepslate »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mega_ship_deepslate"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mega_ship_deepslate_2"
+titre = "Visiter : « Mega ship deepslate 2 »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mega_ship_deepslate_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mega_ship_deepslate_3"
+titre = "Visiter : « Mega ship deepslate 3 »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mega_ship_deepslate_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_monolith"
+titre = "Visiter : « Monolith »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:monolith"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_mythic_garden"
+titre = "Visiter : « Mythic garden »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:mythic_garden"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_phantom_citadel"
+titre = "Visiter : « Phantom citadel »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:phantom_citadel"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_placid_prairie"
+titre = "Visiter : « Placid prairie »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:placid_prairie"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_ruined_pillar"
+titre = "Visiter : « Ruined pillar »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:ruined_pillar"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mes_starlight_voyager"
+titre = "Visiter : « Starlight voyager »"
+sous_titre = "Moog's End Structures"
+optionnel = true
+taches = ["structure mes:starlight_voyager"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_bridge_1"
+titre = "Visiter : « Bridge 1 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:bridge_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_bridge_2"
+titre = "Visiter : « Bridge 2 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:bridge_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_bridge_3"
+titre = "Visiter : « Bridge 3 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:bridge_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_bridge_4"
+titre = "Visiter : « Bridge 4 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:bridge_4"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_bridge_5"
+titre = "Visiter : « Bridge 5 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:bridge_5"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_bridge_6"
+titre = "Visiter : « Bridge 6 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:bridge_6"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_circle_blackstone"
+titre = "Visiter : « Circle blackstone »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:circle_blackstone"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Gravel Desert, Poor Nether Grasslands, Soul Plain, Sulfuric Bone Reef, Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_circle_nether_brick"
+titre = "Visiter : « Circle nether brick »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:circle_nether_brick"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_copper_tower"
+titre = "Visiter : « Copper tower »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:copper_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_giant_skull"
+titre = "Visiter : « Giant skull »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:giant_skull"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Grasslands, Nether Jungle, Nether Swampland, Nether Swampland Terraces, Old Swampland et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_grave_yard"
+titre = "Visiter : « Grave yard »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:grave_yard"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Gravel Desert, Poor Nether Grasslands, Soul Plain, Sulfuric Bone Reef, Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_large_blackstone_pillars"
+titre = "Visiter : « Large blackstone pillars »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:large_blackstone_pillars"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_large_blackstone_walls"
+titre = "Visiter : « Large blackstone walls »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:large_blackstone_walls"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_large_nether_brick"
+titre = "Visiter : « Large nether brick »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:large_nether_brick"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_lava_pool"
+titre = "Visiter : « Lava pool »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:lava_pool"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_leafy_rubble"
+titre = "Visiter : « Leafy rubble »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:leafy_rubble"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_blackstone"
+titre = "Visiter : « Medium blackstone »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_blackstone"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_crimson_fungus"
+titre = "Visiter : « Medium crimson fungus »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_crimson_fungus"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_crimson_fungus_2"
+titre = "Visiter : « Medium crimson fungus 2 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_crimson_fungus_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_crimson_well"
+titre = "Visiter : « Medium crimson well »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_crimson_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_house"
+titre = "Visiter : « Medium house »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_house_2"
+titre = "Visiter : « Medium house 2 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_house_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_warped_fungus"
+titre = "Visiter : « Medium warped fungus »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_warped_fungus"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_warped_fungus_2"
+titre = "Visiter : « Medium warped fungus 2 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_warped_fungus_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_medium_warped_well"
+titre = "Visiter : « Medium warped well »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:medium_warped_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_nether_tower"
+titre = "Visiter : « Nether tower »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:nether_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_nether_wart_farm"
+titre = "Visiter : « Nether wart farm »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:nether_wart_farm"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_ruined_portal"
+titre = "Visiter : « Ruined portal »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:ruined_portal"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_sandy_skull"
+titre = "Visiter : « Sandy skull »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:sandy_skull"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_shrine"
+titre = "Visiter : « Shrine »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:shrine"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_small_nether_brick"
+titre = "Visiter : « Small nether brick »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:small_nether_brick"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_smoking_shrine"
+titre = "Visiter : « Smoking shrine »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:smoking_shrine"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_soul_fire"
+titre = "Visiter : « Soul fire »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:soul_fire"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_sword"
+titre = "Visiter : « Sword »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:sword"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_train"
+titre = "Visiter : « Train »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:train"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_very_small_blackstone"
+titre = "Visiter : « Very small blackstone »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:very_small_blackstone"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_very_small_blackstone_2"
+titre = "Visiter : « Very small blackstone 2 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:very_small_blackstone_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_very_small_blackstone_3"
+titre = "Visiter : « Very small blackstone 3 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:very_small_blackstone_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_very_small_blackstone_4"
+titre = "Visiter : « Very small blackstone 4 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:very_small_blackstone_4"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_very_small_nether_brick"
+titre = "Visiter : « Very small nether brick »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:very_small_nether_brick"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_very_small_nether_brick_2"
+titre = "Visiter : « Very small nether brick 2 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:very_small_nether_brick_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_very_small_nether_brick_3"
+titre = "Visiter : « Very small nether brick 3 »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:very_small_nether_brick_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_warped_dome"
+titre = "Visiter : « Warped dome »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:warped_dome"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mns_warped_pool"
+titre = "Visiter : « Warped pool »"
+sous_titre = "Moog's Nether Structures"
+optionnel = true
+taches = ["structure mns:warped_pool"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_acacia_log_pile"
+titre = "Visiter : « Acacia log pile »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:acacia_log_pile"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_acacia_tree"
+titre = "Visiter : « Acacia tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:acacia_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_acacia_well"
+titre = "Visiter : « Acacia well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:acacia_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_azelea_house"
+titre = "Visiter : « Azelea house »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:azelea_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_barn"
+titre = "Visiter : « Barn »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:barn"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_beach_bar"
+titre = "Visiter : « Beach bar »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:beach_bar"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_bee_dome"
+titre = "Visiter : « Bee dome »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:bee_dome"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_bench"
+titre = "Visiter : « Bench »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:bench"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_big_oak_tree"
+titre = "Visiter : « Big oak tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:big_oak_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_birch_log_pile"
+titre = "Visiter : « Birch log pile »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:birch_log_pile"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_birch_tree"
+titre = "Visiter : « Birch tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:birch_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_birch_well"
+titre = "Visiter : « Birch well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:birch_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_blue_stall"
+titre = "Visiter : « Blue stall »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:blue_stall"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_boulder"
+titre = "Visiter : « Boulder »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:boulder"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_campsite"
+titre = "Visiter : « Campsite »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_cart"
+titre = "Visiter : « Cart »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:cart"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_cartographer_tower"
+titre = "Visiter : « Cartographer tower »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:cartographer_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_castle_ruins"
+titre = "Visiter : « Castle ruins »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:castle_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_cathedral"
+titre = "Visiter : « Cathedral »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:cathedral"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_cherry_tree"
+titre = "Visiter : « Cherry tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:cherry_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Bosquet de cerisiers (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_crimson_enchanting_table"
+titre = "Visiter : « Crimson enchanting table »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:crimson_enchanting_table"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_crystal"
+titre = "Visiter : « Crystal »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:crystal"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dark_oak_log_pile"
+titre = "Visiter : « Dark oak log pile »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dark_oak_log_pile"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dark_oak_tree"
+titre = "Visiter : « Dark oak tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dark_oak_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dark_oak_well"
+titre = "Visiter : « Dark oak well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dark_oak_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dead_tree_acacia"
+titre = "Visiter : « Dead tree acacia »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dead_tree_acacia"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dead_tree_birch"
+titre = "Visiter : « Dead tree birch »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dead_tree_birch"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dead_tree_cherry"
+titre = "Visiter : « Dead tree cherry »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dead_tree_cherry"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Bosquet de cerisiers (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dead_tree_dark_oak"
+titre = "Visiter : « Dead tree dark oak »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dead_tree_dark_oak"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dead_tree_jungle"
+titre = "Visiter : « Dead tree jungle »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dead_tree_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dead_tree_mangrove"
+titre = "Visiter : « Dead tree mangrove »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dead_tree_mangrove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dead_tree_oak"
+titre = "Visiter : « Dead tree oak »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dead_tree_oak"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_dead_tree_spruce"
+titre = "Visiter : « Dead tree spruce »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:dead_tree_spruce"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_deepslate_house"
+titre = "Visiter : « Deepslate house »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:deepslate_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_desert_house"
+titre = "Visiter : « Desert house »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:desert_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_desert_pump"
+titre = "Visiter : « Desert pump »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:desert_pump"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_desert_well"
+titre = "Visiter : « Desert well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:desert_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_duck"
+titre = "Visiter : « Duck »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:duck"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_end_scraps_1"
+titre = "Visiter : « End scraps 1 »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:end_scraps_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_end_scraps_2"
+titre = "Visiter : « End scraps 2 »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:end_scraps_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_end_scraps_3"
+titre = "Visiter : « End scraps 3 »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:end_scraps_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_end_scraps_4"
+titre = "Visiter : « End scraps 4 »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:end_scraps_4"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_end_well"
+titre = "Visiter : « End well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:end_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_fire_camp"
+titre = "Visiter : « Fire camp »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:fire_camp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_floating_islands"
+titre = "Visiter : « Floating islands »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:floating_islands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_flower_hole"
+titre = "Visiter : « Flower hole »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:flower_hole"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt fleurie, Prairie, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_fox_hut"
+titre = "Visiter : « Fox hut »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:fox_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_gallows"
+titre = "Visiter : « Gallows »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:gallows"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_haystack"
+titre = "Visiter : « Haystack »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:haystack"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_horse_campsite"
+titre = "Visiter : « Horse campsite »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:horse_campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_horse_pen"
+titre = "Visiter : « Horse pen »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:horse_pen"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_house"
+titre = "Visiter : « House »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_jungle_log_pile"
+titre = "Visiter : « Jungle log pile »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:jungle_log_pile"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_jungle_palm_tree"
+titre = "Visiter : « Jungle palm tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:jungle_palm_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_jungle_tower"
+titre = "Visiter : « Jungle tower »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:jungle_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_jungle_tree"
+titre = "Visiter : « Jungle tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:jungle_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_jungle_well"
+titre = "Visiter : « Jungle well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:jungle_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_lamp_chest"
+titre = "Visiter : « Lamp chest »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:lamp_chest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_large_cart_1"
+titre = "Visiter : « Large cart 1 »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:large_cart_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_large_cart_2"
+titre = "Visiter : « Large cart 2 »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:large_cart_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_large_floating_island"
+titre = "Visiter : « Large floating island »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:large_floating_island"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_large_mushroom"
+titre = "Visiter : « Large mushroom »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:large_mushroom"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_large_warped_tower"
+titre = "Visiter : « Large warped tower »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:large_warped_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_lecturn_garden"
+titre = "Visiter : « Lecturn garden »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:lecturn_garden"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_log_ruin"
+titre = "Visiter : « Log ruin »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:log_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_medium_bamboo_cart"
+titre = "Visiter : « Medium bamboo cart »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:medium_bamboo_cart"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_medium_igloo_1"
+titre = "Visiter : « Medium igloo 1 »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:medium_igloo_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_medium_igloo_2"
+titre = "Visiter : « Medium igloo 2 »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:medium_igloo_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_medium_oak_lantern"
+titre = "Visiter : « Medium oak lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:medium_oak_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_mine_with_campsite"
+titre = "Visiter : « Mine with campsite »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:mine_with_campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_mineshaft"
+titre = "Visiter : « Mineshaft »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:mineshaft"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_mushroom_pond"
+titre = "Visiter : « Mushroom pond »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:mushroom_pond"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_mushroom_statue"
+titre = "Visiter : « Mushroom statue »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:mushroom_statue"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_mushroom_well"
+titre = "Visiter : « Mushroom well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:mushroom_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_nether_devil"
+titre = "Visiter : « Nether devil »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:nether_devil"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_nether_well"
+titre = "Visiter : « Nether well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:nether_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_oak_log_pile"
+titre = "Visiter : « Oak log pile »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:oak_log_pile"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_oak_tree"
+titre = "Visiter : « Oak tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:oak_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_oak_well"
+titre = "Visiter : « Oak well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:oak_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_ocean_tower"
+titre = "Visiter : « Ocean tower »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:ocean_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_orange_stall"
+titre = "Visiter : « Orange stall »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:orange_stall"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_out_house"
+titre = "Visiter : « Out house »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:out_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_paths"
+titre = "Visiter : « Paths »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:paths"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_pile"
+titre = "Visiter : « Pile »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:pile"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_pink_stall"
+titre = "Visiter : « Pink stall »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:pink_stall"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_railway"
+titre = "Visiter : « Railway »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:railway"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_rare_well"
+titre = "Visiter : « Rare well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:rare_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_red_stall"
+titre = "Visiter : « Red stall »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:red_stall"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_red_tower"
+titre = "Visiter : « Red tower »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:red_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_rocky_well"
+titre = "Visiter : « Rocky well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:rocky_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Escarpée, Hauts plateaux, Falaises de jade, « Moor », Volcan et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_ruined_beacon"
+titre = "Visiter : « Ruined beacon »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:ruined_beacon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_shed"
+titre = "Visiter : « Shed »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:shed"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_acacia_lantern"
+titre = "Visiter : « Small acacia lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_acacia_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_bamboo_lantern"
+titre = "Visiter : « Small bamboo lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_bamboo_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_birch_lantern"
+titre = "Visiter : « Small birch lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_birch_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_campfire_lantern"
+titre = "Visiter : « Small campfire lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_campfire_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_cherry_lantern"
+titre = "Visiter : « Small cherry lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_cherry_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Bosquet de cerisiers (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_copper_well"
+titre = "Visiter : « Small copper well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_copper_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_dark_oak_lantern"
+titre = "Visiter : « Small dark oak lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_dark_oak_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_igloo"
+titre = "Visiter : « Small igloo »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_igloo"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_jungle_lantern"
+titre = "Visiter : « Small jungle lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_jungle_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_mangrove_lantern"
+titre = "Visiter : « Small mangrove lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_mangrove_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_oak_lantern"
+titre = "Visiter : « Small oak lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_oak_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_oak_pond"
+titre = "Visiter : « Small oak pond »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_oak_pond"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_pillager_tower"
+titre = "Visiter : « Small pillager tower »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_pillager_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_ruin"
+titre = "Visiter : « Small ruin »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_ship"
+titre = "Visiter : « Small ship »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_ship"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_spruce_lantern"
+titre = "Visiter : « Small spruce lantern »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_spruce_lantern"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_swamp_house"
+titre = "Visiter : « Small swamp house »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_swamp_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_tower_well"
+titre = "Visiter : « Small tower well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_tower_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_small_well"
+titre = "Visiter : « Small well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:small_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_snowy_dog_hut"
+titre = "Visiter : « Snowy dog hut »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:snowy_dog_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_snowy_fossil"
+titre = "Visiter : « Snowy fossil »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:snowy_fossil"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_snowy_well"
+titre = "Visiter : « Snowy well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:snowy_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_spruce_log_pile"
+titre = "Visiter : « Spruce log pile »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:spruce_log_pile"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_spruce_tree"
+titre = "Visiter : « Spruce tree »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:spruce_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_spruce_well"
+titre = "Visiter : « Spruce well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:spruce_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_statue_ruins"
+titre = "Visiter : « Statue ruins »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:statue_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_stone_fountain"
+titre = "Visiter : « Stone fountain »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:stone_fountain"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_stone_pillars"
+titre = "Visiter : « Stone pillars »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:stone_pillars"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_stone_rock"
+titre = "Visiter : « Stone rock »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:stone_rock"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_sunzi_gate"
+titre = "Visiter : « Sunzi gate »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:sunzi_gate"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_tall_house"
+titre = "Visiter : « Tall house »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:tall_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_tree_monument"
+titre = "Visiter : « Tree monument »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:tree_monument"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_villager_statue"
+titre = "Visiter : « Villager statue »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:villager_statue"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_warped_house"
+titre = "Visiter : « Warped house »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:warped_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_well"
+titre = "Visiter : « Well »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_wheat_grain_bin"
+titre = "Visiter : « Wheat grain bin »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:wheat_grain_bin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_windmill"
+titre = "Visiter : « Windmill »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:windmill"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "mvs_wooden_wheat_farm"
+titre = "Visiter : « Wooden wheat farm »"
+sous_titre = "Moog's Voyager Structures"
+optionnel = true
+taches = ["structure mvs:wooden_wheat_farm"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:filled_map"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["mes_astral_hideaway", "mes_astral_meteorite", "mes_ender_spire", "mes_enderbloom_grove", "mes_enderkeep_courtyard", "mes_enderpin_spikes", "mes_enderskog", "mes_enderwatch_tower", "mes_endscraps", "mes_manuscript_shrine", "mes_mega_ship", "mes_mega_ship_basic", "mes_mega_ship_crashed", "mes_mega_ship_crashed_2", "mes_mega_ship_crashed_deepslate", "mes_mega_ship_deepslate", "mes_mega_ship_deepslate_2", "mes_mega_ship_deepslate_3", "mes_monolith", "mes_mythic_garden", "mes_phantom_citadel", "mes_placid_prairie", "mes_ruined_pillar", "mes_starlight_voyager", "mns_bridge_1", "mns_bridge_2", "mns_bridge_3", "mns_bridge_4", "mns_bridge_5", "mns_bridge_6", "mns_circle_blackstone", "mns_circle_nether_brick", "mns_copper_tower", "mns_giant_skull", "mns_grave_yard", "mns_large_blackstone_pillars", "mns_large_blackstone_walls", "mns_large_nether_brick", "mns_lava_pool", "mns_leafy_rubble", "mns_medium_blackstone", "mns_medium_crimson_fungus", "mns_medium_crimson_fungus_2", "mns_medium_crimson_well", "mns_medium_house", "mns_medium_house_2", "mns_medium_warped_fungus", "mns_medium_warped_fungus_2", "mns_medium_warped_well", "mns_nether_tower", "mns_nether_wart_farm", "mns_ruined_portal", "mns_sandy_skull", "mns_shrine", "mns_small_nether_brick", "mns_smoking_shrine", "mns_soul_fire", "mns_sword", "mns_train", "mns_very_small_blackstone", "mns_very_small_blackstone_2", "mns_very_small_blackstone_3", "mns_very_small_blackstone_4", "mns_very_small_nether_brick", "mns_very_small_nether_brick_2", "mns_very_small_nether_brick_3", "mns_warped_dome", "mns_warped_pool", "mvs_acacia_log_pile", "mvs_acacia_tree", "mvs_acacia_well", "mvs_azelea_house", "mvs_barn", "mvs_beach_bar", "mvs_bee_dome", "mvs_bench", "mvs_big_oak_tree", "mvs_birch_log_pile", "mvs_birch_tree", "mvs_birch_well", "mvs_blue_stall", "mvs_boulder", "mvs_campsite", "mvs_cart", "mvs_cartographer_tower", "mvs_castle_ruins", "mvs_cathedral", "mvs_cherry_tree", "mvs_crimson_enchanting_table", "mvs_crystal", "mvs_dark_oak_log_pile", "mvs_dark_oak_tree", "mvs_dark_oak_well", "mvs_dead_tree_acacia", "mvs_dead_tree_birch", "mvs_dead_tree_cherry", "mvs_dead_tree_dark_oak", "mvs_dead_tree_jungle", "mvs_dead_tree_mangrove", "mvs_dead_tree_oak", "mvs_dead_tree_spruce", "mvs_deepslate_house", "mvs_desert_house", "mvs_desert_pump", "mvs_desert_well", "mvs_duck", "mvs_end_scraps_1", "mvs_end_scraps_2", "mvs_end_scraps_3", "mvs_end_scraps_4", "mvs_end_well", "mvs_fire_camp", "mvs_floating_islands", "mvs_flower_hole", "mvs_fox_hut", "mvs_gallows", "mvs_haystack", "mvs_horse_campsite", "mvs_horse_pen", "mvs_house", "mvs_jungle_log_pile", "mvs_jungle_palm_tree", "mvs_jungle_tower", "mvs_jungle_tree", "mvs_jungle_well", "mvs_lamp_chest", "mvs_large_cart_1", "mvs_large_cart_2", "mvs_large_floating_island", "mvs_large_mushroom", "mvs_large_warped_tower", "mvs_lecturn_garden", "mvs_log_ruin", "mvs_medium_bamboo_cart", "mvs_medium_igloo_1", "mvs_medium_igloo_2", "mvs_medium_oak_lantern", "mvs_mine_with_campsite", "mvs_mineshaft", "mvs_mushroom_pond", "mvs_mushroom_statue", "mvs_mushroom_well", "mvs_nether_devil", "mvs_nether_well", "mvs_oak_log_pile", "mvs_oak_tree", "mvs_oak_well", "mvs_ocean_tower", "mvs_orange_stall", "mvs_out_house", "mvs_paths", "mvs_pile", "mvs_pink_stall", "mvs_railway", "mvs_rare_well", "mvs_red_stall", "mvs_red_tower", "mvs_rocky_well", "mvs_ruined_beacon", "mvs_shed", "mvs_small_acacia_lantern", "mvs_small_bamboo_lantern", "mvs_small_birch_lantern", "mvs_small_campfire_lantern", "mvs_small_cherry_lantern", "mvs_small_copper_well", "mvs_small_dark_oak_lantern", "mvs_small_igloo", "mvs_small_jungle_lantern", "mvs_small_mangrove_lantern", "mvs_small_oak_lantern", "mvs_small_oak_pond", "mvs_small_pillager_tower", "mvs_small_ruin", "mvs_small_ship", "mvs_small_spruce_lantern", "mvs_small_swamp_house", "mvs_small_tower_well", "mvs_small_well", "mvs_snowy_dog_hut", "mvs_snowy_fossil", "mvs_snowy_well", "mvs_spruce_log_pile", "mvs_spruce_tree", "mvs_spruce_well", "mvs_statue_ruins", "mvs_stone_fountain", "mvs_stone_pillars", "mvs_stone_rock", "mvs_sunzi_gate", "mvs_tall_house", "mvs_tree_monument", "mvs_villager_statue", "mvs_warped_house", "mvs_well", "mvs_wheat_grain_bin", "mvs_windmill", "mvs_wooden_wheat_farm"]
+description = """
+Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+"""

@@ -1,0 +1,4213 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_structures_moogs"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:oak_log"
+	id: "55A9918658D8051B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			icon: "minecraft:oak_log"
+			id: "650AD8B2465F7322"
+			rewards: [{
+				id: "2ED88B1DDFC69BB0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "17C56B58E79DBB3F"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Structures — Moog's"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "7B1FB7B7E4530EA4"
+			optional: true
+			rewards: [{
+				id: "0D18435CF35943D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "6D1806F00C66A03F"
+				structure: "mes:astral_hideaway"
+				type: "structure"
+			}]
+			title: "Visiter : « Astral hideaway »"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "44D36BF40C386F77"
+			optional: true
+			rewards: [{
+				id: "23CBC6B2376A01DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "7813DD719C64266F"
+				structure: "mes:astral_meteorite"
+				type: "structure"
+			}]
+			title: "Visiter : « Astral meteorite »"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "01F40F2EA4EEA9D9"
+			optional: true
+			rewards: [{
+				id: "723012DB5281F13F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "7DBEEFC435CEECC8"
+				structure: "mes:ender_spire"
+				type: "structure"
+			}]
+			title: "Visiter : « Ender spire »"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "5BC82293C25739C1"
+			optional: true
+			rewards: [{
+				id: "50D318AEF3A1772B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "16B87D97CA65553D"
+				structure: "mes:enderbloom_grove"
+				type: "structure"
+			}]
+			title: "Visiter : « Enderbloom grove »"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "6F2822CDAE8FC44D"
+			optional: true
+			rewards: [{
+				id: "3552CADA6783587C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "0E02EF6F49E29E6F"
+				structure: "mes:enderkeep_courtyard"
+				type: "structure"
+			}]
+			title: "Visiter : « Enderkeep courtyard »"
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "77B282A872F74630"
+			optional: true
+			rewards: [{
+				id: "06690C3C0A83D6E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "061907BBA9A91B00"
+				structure: "mes:enderpin_spikes"
+				type: "structure"
+			}]
+			title: "Visiter : « Enderpin spikes »"
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "3DCC07B3490A016E"
+			optional: true
+			rewards: [{
+				id: "7CD1626EF3F714EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "257B994DEECDD62D"
+				structure: "mes:enderskog"
+				type: "structure"
+			}]
+			title: "Visiter : « Enderskog »"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "7447DEA734257103"
+			optional: true
+			rewards: [{
+				id: "3EADA822E32CD5EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "060D17115EF3DD2F"
+				structure: "mes:enderwatch_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Enderwatch tower »"
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "4925EEBE93FF2009"
+			optional: true
+			rewards: [{
+				id: "0DD217FE2CCFCC9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "3230165A1A19B690"
+				structure: "mes:endscraps"
+				type: "structure"
+			}]
+			title: "Visiter : « Endscraps »"
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "459E9850A9367391"
+			optional: true
+			rewards: [{
+				id: "0B2D2E002FD43771"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "1BB2B3CD50BA2DAA"
+				structure: "mes:manuscript_shrine"
+				type: "structure"
+			}]
+			title: "Visiter : « Manuscript shrine »"
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "1713C5D269D4A85B"
+			optional: true
+			rewards: [{
+				id: "2E121FBBE93B947D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "64D84E040856175C"
+				structure: "mes:mega_ship"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega ship »"
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "3E18C428D7EB970F"
+			optional: true
+			rewards: [{
+				id: "4CE0DD0E0F1EAB8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "3169BD64A6DF3A91"
+				structure: "mes:mega_ship_basic"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega ship basic »"
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "1465CC13917D2E74"
+			optional: true
+			rewards: [{
+				id: "6F51F47232C1B800"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "0B99439FCC705A67"
+				structure: "mes:mega_ship_crashed"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega ship crashed »"
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "781D78DB24842E7D"
+			optional: true
+			rewards: [{
+				id: "69ED10621E88ABD5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "5B8C001249E33509"
+				structure: "mes:mega_ship_crashed_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega ship crashed 2 »"
+			x: 19.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "0C680CFE926011C6"
+			optional: true
+			rewards: [{
+				id: "502A97560B95E1CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "586D1802E4B95637"
+				structure: "mes:mega_ship_crashed_deepslate"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega ship crashed deepslate »"
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "715473B309810DD8"
+			optional: true
+			rewards: [{
+				id: "543F0FAD18CDBC13"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "104F3A77E0B278D6"
+				structure: "mes:mega_ship_deepslate"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega ship deepslate »"
+			x: 22.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "076DA0BCC8D53325"
+			optional: true
+			rewards: [{
+				id: "58FDA59A62D7B534"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "22D8CC7D0A7BFD08"
+				structure: "mes:mega_ship_deepslate_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega ship deepslate 2 »"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "7E00095260CF7B0A"
+			optional: true
+			rewards: [{
+				id: "27A5275A741F67C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "59D4653A58A05897"
+				structure: "mes:mega_ship_deepslate_3"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega ship deepslate 3 »"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "03F40BD284F52F1C"
+			optional: true
+			rewards: [{
+				id: "72E27064B4B68478"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "4441CCAC090DE0F5"
+				structure: "mes:monolith"
+				type: "structure"
+			}]
+			title: "Visiter : « Monolith »"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "36822689A9FF8EDA"
+			optional: true
+			rewards: [{
+				id: "690A10C82C9636E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "232269583F9CED10"
+				structure: "mes:mythic_garden"
+				type: "structure"
+			}]
+			title: "Visiter : « Mythic garden »"
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "0262ED34BC7AC754"
+			optional: true
+			rewards: [{
+				id: "42926B5E5E81C24C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "45E097208CC4D1A5"
+				structure: "mes:phantom_citadel"
+				type: "structure"
+			}]
+			title: "Visiter : « Phantom citadel »"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "459E3D3E71C39933"
+			optional: true
+			rewards: [{
+				id: "3C632234889D7689"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "4D63A3B4CED1461E"
+				structure: "mes:placid_prairie"
+				type: "structure"
+			}]
+			title: "Visiter : « Placid prairie »"
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "751E8436C3372BBD"
+			optional: true
+			rewards: [{
+				id: "62C3245A88F04186"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "603142C44BCFA998"
+				structure: "mes:ruined_pillar"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined pillar »"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's End Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "566C82654308B2AD"
+			optional: true
+			rewards: [{
+				id: "047D6777260D40E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's End Structures"
+			tasks: [{
+				id: "2332A2754642D855"
+				structure: "mes:starlight_voyager"
+				type: "structure"
+			}]
+			title: "Visiter : « Starlight voyager »"
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "72B0DFDC1AC5D781"
+			optional: true
+			rewards: [{
+				id: "17F134337A3F40F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "41EBAC87DB85687A"
+				structure: "mns:bridge_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Bridge 1 »"
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "36C926AE62671A45"
+			optional: true
+			rewards: [{
+				id: "4C54D9C8D24525AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "41BEA527B6A6A171"
+				structure: "mns:bridge_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Bridge 2 »"
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "2B0F34F2AE825013"
+			optional: true
+			rewards: [{
+				id: "03828574176748E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "6796DD07BE89881C"
+				structure: "mns:bridge_3"
+				type: "structure"
+			}]
+			title: "Visiter : « Bridge 3 »"
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "00A8C72ED8AA0F5C"
+			optional: true
+			rewards: [{
+				id: "73157CB186E80CC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "6747CB1195907840"
+				structure: "mns:bridge_4"
+				type: "structure"
+			}]
+			title: "Visiter : « Bridge 4 »"
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "3165C021CD961141"
+			optional: true
+			rewards: [{
+				id: "5D0958FC4BB1BC3F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "7A01C9657908EDE9"
+				structure: "mns:bridge_5"
+				type: "structure"
+			}]
+			title: "Visiter : « Bridge 5 »"
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "1571CD6E1696DA41"
+			optional: true
+			rewards: [{
+				id: "5955006F2160B150"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "70213523B5C0ECD9"
+				structure: "mns:bridge_6"
+				type: "structure"
+			}]
+			title: "Visiter : « Bridge 6 »"
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Gravel Desert, Poor Nether Grasslands, Soul Plain, Sulfuric Bone Reef, Vallée des âmes (données du serveur)."]
+			id: "47403F7654D7A131"
+			optional: true
+			rewards: [{
+				id: "31101749587DBD58"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "534F3C98207033DC"
+				structure: "mns:circle_blackstone"
+				type: "structure"
+			}]
+			title: "Visiter : « Circle blackstone »"
+			x: 21.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "10CFDF31FD652080"
+			optional: true
+			rewards: [{
+				id: "1C80FF7A6B1E64A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "7DE9EFDF5F041715"
+				structure: "mns:circle_nether_brick"
+				type: "structure"
+			}]
+			title: "Visiter : « Circle nether brick »"
+			x: 22.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "0310FC1ABAA56835"
+			optional: true
+			rewards: [{
+				id: "36C834C18E137D16"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "4A1779B94B8A6099"
+				structure: "mns:copper_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Copper tower »"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Grasslands, Nether Jungle, Nether Swampland, Nether Swampland Terraces, Old Swampland et d'autres (données du serveur)."]
+			id: "18F0A70F056D0D8D"
+			optional: true
+			rewards: [{
+				id: "1FCB2708E3E65CD1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "62A929115932E221"
+				structure: "mns:giant_skull"
+				type: "structure"
+			}]
+			title: "Visiter : « Giant skull »"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Gravel Desert, Poor Nether Grasslands, Soul Plain, Sulfuric Bone Reef, Vallée des âmes (données du serveur)."]
+			id: "49B26E514F62875B"
+			optional: true
+			rewards: [{
+				id: "5EFB34E92EEF56D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "62A18B79F88A2F80"
+				structure: "mns:grave_yard"
+				type: "structure"
+			}]
+			title: "Visiter : « Grave yard »"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "6ECD396F72B81926"
+			optional: true
+			rewards: [{
+				id: "7C3B127189C07AFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "712147E9C83442B3"
+				structure: "mns:large_blackstone_pillars"
+				type: "structure"
+			}]
+			title: "Visiter : « Large blackstone pillars »"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "594B4ABBBF78021C"
+			optional: true
+			rewards: [{
+				id: "04872332747B5AD7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "377CDAD97A66BD7C"
+				structure: "mns:large_blackstone_walls"
+				type: "structure"
+			}]
+			title: "Visiter : « Large blackstone walls »"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "6F4A70EB3C1BEF70"
+			optional: true
+			rewards: [{
+				id: "013A3E43421A8D30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "12B515A7E12B3634"
+				structure: "mns:large_nether_brick"
+				type: "structure"
+			}]
+			title: "Visiter : « Large nether brick »"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "190DA5B2A76BD01D"
+			optional: true
+			rewards: [{
+				id: "31569FFFB2108E3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "4A4C5F1BC0A1FDD1"
+				structure: "mns:lava_pool"
+				type: "structure"
+			}]
+			title: "Visiter : « Lava pool »"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "258D0A078C5EDC4B"
+			optional: true
+			rewards: [{
+				id: "78B1FC66D6E0767D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "1C42EF9A5B84B30F"
+				structure: "mns:leafy_rubble"
+				type: "structure"
+			}]
+			title: "Visiter : « Leafy rubble »"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "39C480485FDFB740"
+			optional: true
+			rewards: [{
+				id: "455529694891937E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "732912F58E7F054F"
+				structure: "mns:medium_blackstone"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium blackstone »"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur)."]
+			id: "05796D26B31B4987"
+			optional: true
+			rewards: [{
+				id: "4AACCC4C50C32695"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "7C27DA17FE4DA1E2"
+				structure: "mns:medium_crimson_fungus"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium crimson fungus »"
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur)."]
+			id: "07515F5BE649B5EC"
+			optional: true
+			rewards: [{
+				id: "3A29BF3F79DE3637"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "19C8EDAEAF7068DC"
+				structure: "mns:medium_crimson_fungus_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium crimson fungus 2 »"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur)."]
+			id: "4287073A41972055"
+			optional: true
+			rewards: [{
+				id: "2BEEEEFBEF78C929"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "4D21F8C973FE703A"
+				structure: "mns:medium_crimson_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium crimson well »"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "2F4AE7F908B56FE5"
+			optional: true
+			rewards: [{
+				id: "5CA4C1C7767068E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "029FB2A33CD84048"
+				structure: "mns:medium_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium house »"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "1F60FAC3CA18AAE3"
+			optional: true
+			rewards: [{
+				id: "616AC21306A46F64"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "6EAF9743E55545F7"
+				structure: "mns:medium_house_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium house 2 »"
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur)."]
+			id: "04BB287B4518344B"
+			optional: true
+			rewards: [{
+				id: "7B9ECC3AB6A81BA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "460143FDEFF0C81E"
+				structure: "mns:medium_warped_fungus"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium warped fungus »"
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur)."]
+			id: "5A2A0385B4CC926E"
+			optional: true
+			rewards: [{
+				id: "50B0AB90EF30244A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "23FEE26068201E71"
+				structure: "mns:medium_warped_fungus_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium warped fungus 2 »"
+			x: 22.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur)."]
+			id: "22BAE8F6024F415C"
+			optional: true
+			rewards: [{
+				id: "1A646E88237AAF39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "07B3E48BA9F1F6A9"
+				structure: "mns:medium_warped_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium warped well »"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "5941C4DEECA8141F"
+			optional: true
+			rewards: [{
+				id: "607AAD902856E73F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "4ED0059AC7DCB930"
+				structure: "mns:nether_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether tower »"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "7C96E109F5084FEF"
+			optional: true
+			rewards: [{
+				id: "2613153704501D0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "5E43549B844B7D54"
+				structure: "mns:nether_wart_farm"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether wart farm »"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "5058246FB3E4AF75"
+			optional: true
+			rewards: [{
+				id: "7E481F3F4CF438A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "2A1BF413EB70EABB"
+				structure: "mns:ruined_portal"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal »"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "60721091F64DD355"
+			optional: true
+			rewards: [{
+				id: "17CE9D08A723B61E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "3F8C3B6D39395EB0"
+				structure: "mns:sandy_skull"
+				type: "structure"
+			}]
+			title: "Visiter : « Sandy skull »"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "782D754770D853FC"
+			optional: true
+			rewards: [{
+				id: "0671F93DA85D1B54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "0E6A80703CFABB88"
+				structure: "mns:shrine"
+				type: "structure"
+			}]
+			title: "Visiter : « Shrine »"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "677D7994CE6421EE"
+			optional: true
+			rewards: [{
+				id: "4A8BB57DAAD630CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "1434B9567E9E0767"
+				structure: "mns:small_nether_brick"
+				type: "structure"
+			}]
+			title: "Visiter : « Small nether brick »"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "0E9BBE1752F0D48C"
+			optional: true
+			rewards: [{
+				id: "1EB5275DE950CAB2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "0430111FA776F843"
+				structure: "mns:smoking_shrine"
+				type: "structure"
+			}]
+			title: "Visiter : « Smoking shrine »"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "614A6677F1609185"
+			optional: true
+			rewards: [{
+				id: "5347D0D425BC0A19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "520F249C02A56813"
+				structure: "mns:soul_fire"
+				type: "structure"
+			}]
+			title: "Visiter : « Soul fire »"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur)."]
+			id: "73BA42FFD4BF0A50"
+			optional: true
+			rewards: [{
+				id: "51A655F5E23F4619"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "301D1E470EAF909F"
+				structure: "mns:sword"
+				type: "structure"
+			}]
+			title: "Visiter : « Sword »"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "6CCB9D6ED876A93A"
+			optional: true
+			rewards: [{
+				id: "0B7BCD9D8886F319"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "322AE6F7691663FB"
+				structure: "mns:train"
+				type: "structure"
+			}]
+			title: "Visiter : « Train »"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "2D0AE35A18835188"
+			optional: true
+			rewards: [{
+				id: "6E17BBAA829F6707"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "281C2077B5D600E3"
+				structure: "mns:very_small_blackstone"
+				type: "structure"
+			}]
+			title: "Visiter : « Very small blackstone »"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "37AF8B5EAFB83F92"
+			optional: true
+			rewards: [{
+				id: "1D1EC07EA09C9DBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "75E04178180D4FDF"
+				structure: "mns:very_small_blackstone_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Very small blackstone 2 »"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "5693C7986685068A"
+			optional: true
+			rewards: [{
+				id: "7B734609E20E1328"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "01153144117DCBE5"
+				structure: "mns:very_small_blackstone_3"
+				type: "structure"
+			}]
+			title: "Visiter : « Very small blackstone 3 »"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "7AA0201020B1D372"
+			optional: true
+			rewards: [{
+				id: "761C184B4C72C788"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "40F9868BEC00E664"
+				structure: "mns:very_small_blackstone_4"
+				type: "structure"
+			}]
+			title: "Visiter : « Very small blackstone 4 »"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "09221C8DFF498C8A"
+			optional: true
+			rewards: [{
+				id: "67F28464A60EB848"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "461E5BAD1CB75721"
+				structure: "mns:very_small_nether_brick"
+				type: "structure"
+			}]
+			title: "Visiter : « Very small nether brick »"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "6417E98BBC360B4E"
+			optional: true
+			rewards: [{
+				id: "1EDD5A735971E7E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "28B7A0649B63E4AA"
+				structure: "mns:very_small_nether_brick_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Very small nether brick 2 »"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "4A11DB1A86BCB5F7"
+			optional: true
+			rewards: [{
+				id: "5DC51A81AF0EB023"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "086D302F9297DE23"
+				structure: "mns:very_small_nether_brick_3"
+				type: "structure"
+			}]
+			title: "Visiter : « Very small nether brick 3 »"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur)."]
+			id: "6FEDD74F66A71B23"
+			optional: true
+			rewards: [{
+				id: "3B07DB3F210F6434"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "6913D1958BDC5B17"
+				structure: "mns:warped_dome"
+				type: "structure"
+			}]
+			title: "Visiter : « Warped dome »"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Nether Structures&r. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur)."]
+			id: "3F9D9C2B6BE2DD88"
+			optional: true
+			rewards: [{
+				id: "077774FB316450E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Nether Structures"
+			tasks: [{
+				id: "5B1B891FB3B6771D"
+				structure: "mns:warped_pool"
+				type: "structure"
+			}]
+			title: "Visiter : « Warped pool »"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur)."]
+			id: "50851AC94AA124CF"
+			optional: true
+			rewards: [{
+				id: "26887ACA5A8B73E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "78AA665239463738"
+				structure: "mvs:acacia_log_pile"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia log pile »"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur)."]
+			id: "07D1D7EB12506696"
+			optional: true
+			rewards: [{
+				id: "7968B8C348AF4767"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "793F303F07F53F7D"
+				structure: "mvs:acacia_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia tree »"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur)."]
+			id: "594B1BAB4C6B57F0"
+			optional: true
+			rewards: [{
+				id: "796BBCD53B138D4A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "5519E1616171C81F"
+				structure: "mvs:acacia_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia well »"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "15BB7E51AACE4A26"
+			optional: true
+			rewards: [{
+				id: "5A933F65E8146F4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4D8525B7293175B3"
+				structure: "mvs:azelea_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Azelea house »"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "49E3DDE7C2C8264D"
+			optional: true
+			rewards: [{
+				id: "298F4985ACA0B166"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0C28365765D92990"
+				structure: "mvs:barn"
+				type: "structure"
+			}]
+			title: "Visiter : « Barn »"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur)."]
+			id: "3B3FA534DC4560A9"
+			optional: true
+			rewards: [{
+				id: "28E149BBADD69219"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "3ADF8C0ADB5A09FF"
+				structure: "mvs:beach_bar"
+				type: "structure"
+			}]
+			title: "Visiter : « Beach bar »"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "2913EAF14181D1C9"
+			optional: true
+			rewards: [{
+				id: "43CA0EDFD600DE92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2A1FB2835BA2F14C"
+				structure: "mvs:bee_dome"
+				type: "structure"
+			}]
+			title: "Visiter : « Bee dome »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "0B27B57313D2B1DC"
+			optional: true
+			rewards: [{
+				id: "71EA79F805D2E9DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "201EE290CE37901A"
+				structure: "mvs:bench"
+				type: "structure"
+			}]
+			title: "Visiter : « Bench »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur)."]
+			id: "77C50D26A2C75410"
+			optional: true
+			rewards: [{
+				id: "11E59089162D85E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "1792ADEDD58D527B"
+				structure: "mvs:big_oak_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Big oak tree »"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "6131C66C0306FF27"
+			optional: true
+			rewards: [{
+				id: "05A2D55EA7AF1446"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2F003DAF186E5564"
+				structure: "mvs:birch_log_pile"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch log pile »"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "4561045CFE2174EB"
+			optional: true
+			rewards: [{
+				id: "6A9A260F7B7344CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "049813D76FE6B117"
+				structure: "mvs:birch_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch tree »"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "07D86F5BAEF04F40"
+			optional: true
+			rewards: [{
+				id: "45D1956163C3C608"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "651FC3A07179F2E9"
+				structure: "mvs:birch_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch well »"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "092A76A6C471B79D"
+			optional: true
+			rewards: [{
+				id: "6DD2D2BDFFD246D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "449991009F4760FE"
+				structure: "mvs:blue_stall"
+				type: "structure"
+			}]
+			title: "Visiter : « Blue stall »"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "4D9960772FDC524F"
+			optional: true
+			rewards: [{
+				id: "67838FDF8EE3AA75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "451A9FAC44E77E3B"
+				structure: "mvs:boulder"
+				type: "structure"
+			}]
+			title: "Visiter : « Boulder »"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "6E0695957F49014F"
+			optional: true
+			rewards: [{
+				id: "7CC5C57319D92E68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "02992BFA6C70EE4D"
+				structure: "mvs:campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Campsite »"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "5506D601F07D65C3"
+			optional: true
+			rewards: [{
+				id: "7457615F478EEE00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "21330335E745FA19"
+				structure: "mvs:cart"
+				type: "structure"
+			}]
+			title: "Visiter : « Cart »"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "780CA0BC79676FC6"
+			optional: true
+			rewards: [{
+				id: "0B09264B1DF56986"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "51282FF9B5918FCB"
+				structure: "mvs:cartographer_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Cartographer tower »"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "10685273CBC07763"
+			optional: true
+			rewards: [{
+				id: "2D0067BFAC0D3A38"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "75B704CC253330B5"
+				structure: "mvs:castle_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Castle ruins »"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "507B05C4C1DD4542"
+			optional: true
+			rewards: [{
+				id: "1FB2CB6897B8D980"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0E853A4CEEBCB9A4"
+				structure: "mvs:cathedral"
+				type: "structure"
+			}]
+			title: "Visiter : « Cathedral »"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Bosquet de cerisiers (données du serveur)."]
+			id: "10D75C1DE2AFD576"
+			optional: true
+			rewards: [{
+				id: "208FE085A7A86805"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "17EEDDE9689EFB3A"
+				structure: "mvs:cherry_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Cherry tree »"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt carmin (données du serveur)."]
+			id: "40C5FE3248B2555E"
+			optional: true
+			rewards: [{
+				id: "5580A0FC90651399"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "19C3839A5A349052"
+				structure: "mvs:crimson_enchanting_table"
+				type: "structure"
+			}]
+			title: "Visiter : « Crimson enchanting table »"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "41C79518B6576894"
+			optional: true
+			rewards: [{
+				id: "6E928B2D43B503EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "53A28DA2540A2C38"
+				structure: "mvs:crystal"
+				type: "structure"
+			}]
+			title: "Visiter : « Crystal »"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "4E51328E302F960A"
+			optional: true
+			rewards: [{
+				id: "499BE4569C1678CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "38FBC265343913F2"
+				structure: "mvs:dark_oak_log_pile"
+				type: "structure"
+			}]
+			title: "Visiter : « Dark oak log pile »"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "6E3CB432603E85A1"
+			optional: true
+			rewards: [{
+				id: "43C082EB77EAEDC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "22F6B0FE49D2722D"
+				structure: "mvs:dark_oak_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Dark oak tree »"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "322862AC9DB1B003"
+			optional: true
+			rewards: [{
+				id: "6E97C8200D2EE8D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0A267613B011C6FF"
+				structure: "mvs:dark_oak_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Dark oak well »"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur)."]
+			id: "1E66902A48DCF756"
+			optional: true
+			rewards: [{
+				id: "0ABD9C5EE835D612"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "31CB64BB26524F27"
+				structure: "mvs:dead_tree_acacia"
+				type: "structure"
+			}]
+			title: "Visiter : « Dead tree acacia »"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "2EA64A3932FE2C3A"
+			optional: true
+			rewards: [{
+				id: "098A8DA6E02248B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "02C9B4DB26CB70DE"
+				structure: "mvs:dead_tree_birch"
+				type: "structure"
+			}]
+			title: "Visiter : « Dead tree birch »"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Bosquet de cerisiers (données du serveur)."]
+			id: "5C17C91D6A84B71A"
+			optional: true
+			rewards: [{
+				id: "77171D05E08FEBA7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2D186A7805EE6EC5"
+				structure: "mvs:dead_tree_cherry"
+				type: "structure"
+			}]
+			title: "Visiter : « Dead tree cherry »"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "65FED203B68D59FD"
+			optional: true
+			rewards: [{
+				id: "7E14F69377DA2C7E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "7EC20D02F91164F6"
+				structure: "mvs:dead_tree_dark_oak"
+				type: "structure"
+			}]
+			title: "Visiter : « Dead tree dark oak »"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "1D836F2BACCE0530"
+			optional: true
+			rewards: [{
+				id: "00AF9553790567B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "11D3BD73028EA7FE"
+				structure: "mvs:dead_tree_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Dead tree jungle »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "2F5A836FEA54950E"
+			optional: true
+			rewards: [{
+				id: "2F273D96046744BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "18A74550D59AAEFF"
+				structure: "mvs:dead_tree_mangrove"
+				type: "structure"
+			}]
+			title: "Visiter : « Dead tree mangrove »"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "7292B8200833D0C5"
+			optional: true
+			rewards: [{
+				id: "16EF5BD1A96803C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "6A7531E1C2D271B2"
+				structure: "mvs:dead_tree_oak"
+				type: "structure"
+			}]
+			title: "Visiter : « Dead tree oak »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "313E4C282C7B8E9D"
+			optional: true
+			rewards: [{
+				id: "12C96FEE877CD2ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "58433B00E3FC7AC9"
+				structure: "mvs:dead_tree_spruce"
+				type: "structure"
+			}]
+			title: "Visiter : « Dead tree spruce »"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "597C27BB861E4831"
+			optional: true
+			rewards: [{
+				id: "3EC7EB0E0617C3B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "5C72B63D66E5D533"
+				structure: "mvs:deepslate_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Deepslate house »"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "687CF89F53877883"
+			optional: true
+			rewards: [{
+				id: "3A4E0AE90931F29A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "1373501392DFC8B5"
+				structure: "mvs:desert_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert house »"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "76D1444721CCCD67"
+			optional: true
+			rewards: [{
+				id: "297C15B0E031910E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "37C4596DC330A48D"
+				structure: "mvs:desert_pump"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert pump »"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "67470E4CF3FAA7D7"
+			optional: true
+			rewards: [{
+				id: "1DCB1A1C20AD24A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "13ABF59B0C5FADF2"
+				structure: "mvs:desert_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert well »"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "10BEF0CF7C078BA9"
+			optional: true
+			rewards: [{
+				id: "5A8110A9B27BD3E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "65F34BE8FF4C069B"
+				structure: "mvs:duck"
+				type: "structure"
+			}]
+			title: "Visiter : « Duck »"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "70EC5FE367490119"
+			optional: true
+			rewards: [{
+				id: "3FDEB4A66E025DF1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4CC8044A55881035"
+				structure: "mvs:end_scraps_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End scraps 1 »"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "21D2E028E045447F"
+			optional: true
+			rewards: [{
+				id: "308D06E7221FE416"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0BD007BFB5CF434E"
+				structure: "mvs:end_scraps_2"
+				type: "structure"
+			}]
+			title: "Visiter : « End scraps 2 »"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "4B5611372F3CC370"
+			optional: true
+			rewards: [{
+				id: "2842928A528E794E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "65C7FACB5A7ED3C7"
+				structure: "mvs:end_scraps_3"
+				type: "structure"
+			}]
+			title: "Visiter : « End scraps 3 »"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "6810A3482FB8E478"
+			optional: true
+			rewards: [{
+				id: "0DF26DB154E8223A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "393077B860FA21C6"
+				structure: "mvs:end_scraps_4"
+				type: "structure"
+			}]
+			title: "Visiter : « End scraps 4 »"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "6B2E16026DE644E7"
+			optional: true
+			rewards: [{
+				id: "02449890844F151F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4AAF46BED50E0CEB"
+				structure: "mvs:end_well"
+				type: "structure"
+			}]
+			title: "Visiter : « End well »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "28BA149D4F4F753F"
+			optional: true
+			rewards: [{
+				id: "20237323B34CB155"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "36EB153DD4A0CB89"
+				structure: "mvs:fire_camp"
+				type: "structure"
+			}]
+			title: "Visiter : « Fire camp »"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "78CC558529B24EFD"
+			optional: true
+			rewards: [{
+				id: "4E0BA302D90FC105"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "1E1A2912C271DBCA"
+				structure: "mvs:floating_islands"
+				type: "structure"
+			}]
+			title: "Visiter : « Floating islands »"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt fleurie, Prairie, Plaines de tournesols (données du serveur)."]
+			id: "0968E40F3416C1FB"
+			optional: true
+			rewards: [{
+				id: "35E38494BA9720B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "323C59C2866A3BBC"
+				structure: "mvs:flower_hole"
+				type: "structure"
+			}]
+			title: "Visiter : « Flower hole »"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "2F4B5204116EDC30"
+			optional: true
+			rewards: [{
+				id: "26B354AFF2F47B71"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4948C9739C0D01A0"
+				structure: "mvs:fox_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Fox hut »"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "0422983BD170AD79"
+			optional: true
+			rewards: [{
+				id: "77D0CAF5FEC6BEEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0EF6CC48ED3C928C"
+				structure: "mvs:gallows"
+				type: "structure"
+			}]
+			title: "Visiter : « Gallows »"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "66B0A6DBE434BA27"
+			optional: true
+			rewards: [{
+				id: "4952EFCCFA921DDE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0F9B073EB0C81DB7"
+				structure: "mvs:haystack"
+				type: "structure"
+			}]
+			title: "Visiter : « Haystack »"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "0481903C6E0C207F"
+			optional: true
+			rewards: [{
+				id: "3454189BBA3C8C31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "28F99F11ACE900F0"
+				structure: "mvs:horse_campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Horse campsite »"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "02E8AA26A7BAAE93"
+			optional: true
+			rewards: [{
+				id: "7EEAC587E5632EA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "1AF6F16D580CAF01"
+				structure: "mvs:horse_pen"
+				type: "structure"
+			}]
+			title: "Visiter : « Horse pen »"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "2DE4BD173FE0DFFD"
+			optional: true
+			rewards: [{
+				id: "3FEC1CACCD7A3DF1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "54EC6C55CCDB1FCB"
+				structure: "mvs:house"
+				type: "structure"
+			}]
+			title: "Visiter : « House »"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "3CE3ED30B41FCD1C"
+			optional: true
+			rewards: [{
+				id: "6321D5E84D980DB7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "416C143140B3B36B"
+				structure: "mvs:jungle_log_pile"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle log pile »"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "5E0FCD599804FFD7"
+			optional: true
+			rewards: [{
+				id: "0E907DA2496DF399"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "07E230BCB4379DBC"
+				structure: "mvs:jungle_palm_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle palm tree »"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "79CE6BB1BEF857A4"
+			optional: true
+			rewards: [{
+				id: "79932B833F4B9F24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "348B9D99C6A09C1E"
+				structure: "mvs:jungle_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle tower »"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "217C2C680120D92D"
+			optional: true
+			rewards: [{
+				id: "3811E02E000EE6F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "263CEB48A4F32C89"
+				structure: "mvs:jungle_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle tree »"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "0FAC2BA5E5359E16"
+			optional: true
+			rewards: [{
+				id: "0E22B8231423F4AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "7D8A79C9DAC212B4"
+				structure: "mvs:jungle_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle well »"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "1A31D6BA9975E74E"
+			optional: true
+			rewards: [{
+				id: "107F959AA143654E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0A63BFEBA46114E9"
+				structure: "mvs:lamp_chest"
+				type: "structure"
+			}]
+			title: "Visiter : « Lamp chest »"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "27E41A21D88E0947"
+			optional: true
+			rewards: [{
+				id: "383F694A693D5910"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "6E3758BB66329C49"
+				structure: "mvs:large_cart_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Large cart 1 »"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "68F693A2626D41E0"
+			optional: true
+			rewards: [{
+				id: "05E35282ED30D40D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "411A58289F4972DF"
+				structure: "mvs:large_cart_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Large cart 2 »"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "25999B33ADAD9367"
+			optional: true
+			rewards: [{
+				id: "29BC9BA1E934BDC6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "53EBE83EF3C6F0A1"
+				structure: "mvs:large_floating_island"
+				type: "structure"
+			}]
+			title: "Visiter : « Large floating island »"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur)."]
+			id: "5692F2355886CB0C"
+			optional: true
+			rewards: [{
+				id: "514C7C1F543BB67F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "24B6B2930496B2E6"
+				structure: "mvs:large_mushroom"
+				type: "structure"
+			}]
+			title: "Visiter : « Large mushroom »"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "0A38F1BD1C387E8B"
+			optional: true
+			rewards: [{
+				id: "691B707C781D1B97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "70144B66840BC4E6"
+				structure: "mvs:large_warped_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Large warped tower »"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "238FC5AF3750F96E"
+			optional: true
+			rewards: [{
+				id: "1B79077A55587E02"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "6B4456893D9D5506"
+				structure: "mvs:lecturn_garden"
+				type: "structure"
+			}]
+			title: "Visiter : « Lecturn garden »"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "7208556C5E6AF60B"
+			optional: true
+			rewards: [{
+				id: "448DFFA6CE62BFCF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "64974CF824A6470D"
+				structure: "mvs:log_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Log ruin »"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "7AF4D462618C4CDE"
+			optional: true
+			rewards: [{
+				id: "686E939E6BD91A36"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "3134C3EF5EF0276A"
+				structure: "mvs:medium_bamboo_cart"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium bamboo cart »"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur)."]
+			id: "3C966C8012D6F62F"
+			optional: true
+			rewards: [{
+				id: "29F26F6883A0A8AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "1C25180A4C52B960"
+				structure: "mvs:medium_igloo_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium igloo 1 »"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur)."]
+			id: "3580EDBA8CFDC087"
+			optional: true
+			rewards: [{
+				id: "1FEF2CA213A87FAF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "7FF5C92F25409A9F"
+				structure: "mvs:medium_igloo_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium igloo 2 »"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur)."]
+			id: "236CD4DBEB0A0E17"
+			optional: true
+			rewards: [{
+				id: "1325C488BDED7FAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "6BBB9F888ACDDF57"
+				structure: "mvs:medium_oak_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium oak lantern »"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "2ACD5F45220E1D06"
+			optional: true
+			rewards: [{
+				id: "51342BCE39C70F50"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "6135C44D2E2493ED"
+				structure: "mvs:mine_with_campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Mine with campsite »"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "17D736CAABC0D556"
+			optional: true
+			rewards: [{
+				id: "6419BF35AE2E18F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0264CC186BE07654"
+				structure: "mvs:mineshaft"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft »"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "78DFDDD0EC5AB7C9"
+			optional: true
+			rewards: [{
+				id: "739DE5E212029FAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0E34CBC59C9AC6DB"
+				structure: "mvs:mushroom_pond"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom pond »"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur)."]
+			id: "6D65A85863E59DC5"
+			optional: true
+			rewards: [{
+				id: "6EC2B38649D35120"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2DC2874B09DDDA1D"
+				structure: "mvs:mushroom_statue"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom statue »"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur)."]
+			id: "530F6266BD321E80"
+			optional: true
+			rewards: [{
+				id: "64B06BD954352F6F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "04CAAF0B81F945CE"
+				structure: "mvs:mushroom_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom well »"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "4DC5CEA471FA7EE5"
+			optional: true
+			rewards: [{
+				id: "6F09E737CD2FF628"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4621EEA8061BC0E8"
+				structure: "mvs:nether_devil"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether devil »"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "5D934FA9DBB1AF04"
+			optional: true
+			rewards: [{
+				id: "434645E85ACB82E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "70BC023AEA1898B7"
+				structure: "mvs:nether_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether well »"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "6AD738DC32D9D3DE"
+			optional: true
+			rewards: [{
+				id: "0A5AD6E257866720"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0B1730168F6B9D61"
+				structure: "mvs:oak_log_pile"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak log pile »"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur)."]
+			id: "5B544B64D07DCDF6"
+			optional: true
+			rewards: [{
+				id: "3A79D3FF8FFC64F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2242097B2023AAB2"
+				structure: "mvs:oak_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak tree »"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "36855C83A0DD9D68"
+			optional: true
+			rewards: [{
+				id: "6F8C517A85194B87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4B4ABC35B9CA8205"
+				structure: "mvs:oak_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak well »"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "1CE5462E753E03F2"
+			optional: true
+			rewards: [{
+				id: "4A68848F4F62183C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "5BB122C699EC8A60"
+				structure: "mvs:ocean_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean tower »"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "43E9BBA59E6F486E"
+			optional: true
+			rewards: [{
+				id: "473DC104A8B55E6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "3DED1EB00B2E297A"
+				structure: "mvs:orange_stall"
+				type: "structure"
+			}]
+			title: "Visiter : « Orange stall »"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "5C473FAA7948207E"
+			optional: true
+			rewards: [{
+				id: "2F3FE76C69023DDB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "20E661F1C0643099"
+				structure: "mvs:out_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Out house »"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "39BB51609B5ED438"
+			optional: true
+			rewards: [{
+				id: "6FA03A1677D7F530"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2DC8D3CFC7111DD2"
+				structure: "mvs:paths"
+				type: "structure"
+			}]
+			title: "Visiter : « Paths »"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "1F9983B91E9B26C4"
+			optional: true
+			rewards: [{
+				id: "74473C33F9652976"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2B22C687D7D91600"
+				structure: "mvs:pile"
+				type: "structure"
+			}]
+			title: "Visiter : « Pile »"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "23FBB6F8D56EBF4D"
+			optional: true
+			rewards: [{
+				id: "3F00EB325F166212"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "7E8BDEB3BF02AF71"
+				structure: "mvs:pink_stall"
+				type: "structure"
+			}]
+			title: "Visiter : « Pink stall »"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "0E863F3841B0C181"
+			optional: true
+			rewards: [{
+				id: "0638B93218C83D9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "3D36E18EA364E333"
+				structure: "mvs:railway"
+				type: "structure"
+			}]
+			title: "Visiter : « Railway »"
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "167CBF4C765966BD"
+			optional: true
+			rewards: [{
+				id: "71CD1F998E6EA29B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "22AA6816A94AD176"
+				structure: "mvs:rare_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Rare well »"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "347DC0ECB703DA41"
+			optional: true
+			rewards: [{
+				id: "0A08FD8C480F783E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "6A986DA1272A229E"
+				structure: "mvs:red_stall"
+				type: "structure"
+			}]
+			title: "Visiter : « Red stall »"
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "159657B8B892973B"
+			optional: true
+			rewards: [{
+				id: "4AD8D1596ECAAC8C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "52ACEC6935D9DA2A"
+				structure: "mvs:red_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Red tower »"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Escarpée, Hauts plateaux, Falaises de jade, « Moor », Volcan et d'autres (données du serveur)."]
+			id: "707EE88C276010A0"
+			optional: true
+			rewards: [{
+				id: "36C35451CA91286B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "7F99FFDCD8458E3A"
+				structure: "mvs:rocky_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Rocky well »"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "015FEA712148AE6D"
+			optional: true
+			rewards: [{
+				id: "4D090EB825BDCF6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "443249BE7518763E"
+				structure: "mvs:ruined_beacon"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined beacon »"
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "053CBFCBA079FA37"
+			optional: true
+			rewards: [{
+				id: "344D5868B196502F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "014FDD71D0D11BCC"
+				structure: "mvs:shed"
+				type: "structure"
+			}]
+			title: "Visiter : « Shed »"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur)."]
+			id: "24A63931FE2AB975"
+			optional: true
+			rewards: [{
+				id: "6C79F6814F23F9A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "7406D35B9716DDB0"
+				structure: "mvs:small_acacia_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small acacia lantern »"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "0985886708509180"
+			optional: true
+			rewards: [{
+				id: "6957CBC7E10F41A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "04670B1AA2A88D47"
+				structure: "mvs:small_bamboo_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small bamboo lantern »"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "5DE8C4C899AC329C"
+			optional: true
+			rewards: [{
+				id: "12E22B4098C3C9DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2004F7E99DDAA31F"
+				structure: "mvs:small_birch_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small birch lantern »"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur)."]
+			id: "35E8DD4B28E6A08E"
+			optional: true
+			rewards: [{
+				id: "3C16DE2472016FBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "404A4F7D57F73C7B"
+				structure: "mvs:small_campfire_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small campfire lantern »"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Bosquet de cerisiers (données du serveur)."]
+			id: "73034B7DF3E0C906"
+			optional: true
+			rewards: [{
+				id: "49672405E520C3F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2D6A27B55EBD831A"
+				structure: "mvs:small_cherry_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small cherry lantern »"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "4F6371B2F8D5147F"
+			optional: true
+			rewards: [{
+				id: "54A555D93E576047"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "6128CFB2A01B50F1"
+				structure: "mvs:small_copper_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Small copper well »"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "57265B11017006A6"
+			optional: true
+			rewards: [{
+				id: "36D0F7237AF6E014"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2BAF492A69B66756"
+				structure: "mvs:small_dark_oak_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small dark oak lantern »"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur)."]
+			id: "578B59869E04D257"
+			optional: true
+			rewards: [{
+				id: "0C994D55E2BE70D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "3E855BB156275DCA"
+				structure: "mvs:small_igloo"
+				type: "structure"
+			}]
+			title: "Visiter : « Small igloo »"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "3DC33C4D371E6719"
+			optional: true
+			rewards: [{
+				id: "6E52829B07DFA8B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "19B759DBDF9F518B"
+				structure: "mvs:small_jungle_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small jungle lantern »"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "536A99108C5BDEAC"
+			optional: true
+			rewards: [{
+				id: "7AAC33D1C24032F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "3F4809CC323C68C5"
+				structure: "mvs:small_mangrove_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small mangrove lantern »"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "39FE9A3EA661EE81"
+			optional: true
+			rewards: [{
+				id: "58F6D55378D654BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0C3FCD5F29FFCFE1"
+				structure: "mvs:small_oak_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small oak lantern »"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "01651D725C69FF61"
+			optional: true
+			rewards: [{
+				id: "07928DDFDA3814D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0CE956DA5F51D50D"
+				structure: "mvs:small_oak_pond"
+				type: "structure"
+			}]
+			title: "Visiter : « Small oak pond »"
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "5E7612F627977E74"
+			optional: true
+			rewards: [{
+				id: "3C3E8614BEB79273"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4A65E914D43322CD"
+				structure: "mvs:small_pillager_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Small pillager tower »"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "10A0EE27673109DF"
+			optional: true
+			rewards: [{
+				id: "00B0E3ECDDB0C0E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2391F8D2F154BC44"
+				structure: "mvs:small_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Small ruin »"
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "7CED71AF0E3C3B1C"
+			optional: true
+			rewards: [{
+				id: "2F87E34A8B904D77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "5509A322CEAE0BE4"
+				structure: "mvs:small_ship"
+				type: "structure"
+			}]
+			title: "Visiter : « Small ship »"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "375E6549B2A3CC15"
+			optional: true
+			rewards: [{
+				id: "230036AA2011B61A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "51D8CD7C4C0622E9"
+				structure: "mvs:small_spruce_lantern"
+				type: "structure"
+			}]
+			title: "Visiter : « Small spruce lantern »"
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "570C87C2661B61B7"
+			optional: true
+			rewards: [{
+				id: "42115632BEBB9713"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "6FA49DBFC667F095"
+				structure: "mvs:small_swamp_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Small swamp house »"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "68884071F1D945A6"
+			optional: true
+			rewards: [{
+				id: "6F9BCAD5A5BDF286"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "58E27EF064CCB83E"
+				structure: "mvs:small_tower_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Small tower well »"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "66742F143E6C2E88"
+			optional: true
+			rewards: [{
+				id: "27A43EA1BFDA9FCE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "16DB8CCA6C56F619"
+				structure: "mvs:small_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Small well »"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur)."]
+			id: "2A39C17AF5CEE397"
+			optional: true
+			rewards: [{
+				id: "38E869A98086F00E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2764801CFE0A4125"
+				structure: "mvs:snowy_dog_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Snowy dog hut »"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur)."]
+			id: "5D1CFEB897BA7662"
+			optional: true
+			rewards: [{
+				id: "62C079A6273F2682"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "3319C64290EAFF8D"
+				structure: "mvs:snowy_fossil"
+				type: "structure"
+			}]
+			title: "Visiter : « Snowy fossil »"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur)."]
+			id: "09F63621CC8A1C64"
+			optional: true
+			rewards: [{
+				id: "3A22337AD454206C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "493C56C28AA22132"
+				structure: "mvs:snowy_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Snowy well »"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "293947AFEBA49436"
+			optional: true
+			rewards: [{
+				id: "6280F00686E7FAF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4BA26B73840454A4"
+				structure: "mvs:spruce_log_pile"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce log pile »"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "1CB5941309D063BC"
+			optional: true
+			rewards: [{
+				id: "6ECD34CD82B51CB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "7F808BA5973AAC23"
+				structure: "mvs:spruce_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce tree »"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "0B4B42818BA33933"
+			optional: true
+			rewards: [{
+				id: "693CC1F2147C354B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "66A1B5A1935655DE"
+				structure: "mvs:spruce_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce well »"
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "712081DBF3AE8BD4"
+			optional: true
+			rewards: [{
+				id: "7DEB6D4DDD88D648"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4B7A6E9E2BB94306"
+				structure: "mvs:statue_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Statue ruins »"
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "619590641EC2A780"
+			optional: true
+			rewards: [{
+				id: "2ABD2ED0BC02F15A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2D8F3B70687A964D"
+				structure: "mvs:stone_fountain"
+				type: "structure"
+			}]
+			title: "Visiter : « Stone fountain »"
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "1788EF94C2A77F8A"
+			optional: true
+			rewards: [{
+				id: "2D44B524AD7E632F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "48CB2385199FB893"
+				structure: "mvs:stone_pillars"
+				type: "structure"
+			}]
+			title: "Visiter : « Stone pillars »"
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "7117FE55D3A16228"
+			optional: true
+			rewards: [{
+				id: "6256C3D7034B6AAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "24AB046AE9036A5B"
+				structure: "mvs:stone_rock"
+				type: "structure"
+			}]
+			title: "Visiter : « Stone rock »"
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "55B03229D9FC0C87"
+			optional: true
+			rewards: [{
+				id: "0BBB26E4ADB7A694"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "240F67A8A20A8136"
+				structure: "mvs:sunzi_gate"
+				type: "structure"
+			}]
+			title: "Visiter : « Sunzi gate »"
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "37E17F39B05CBC50"
+			optional: true
+			rewards: [{
+				id: "6C343A4AF258C9B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "4518E42167EE9024"
+				structure: "mvs:tall_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Tall house »"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "1CE1D87C89D63624"
+			optional: true
+			rewards: [{
+				id: "6B17968E1A9E8BC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0D19164439283CCF"
+				structure: "mvs:tree_monument"
+				type: "structure"
+			}]
+			title: "Visiter : « Tree monument »"
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "300DF77110994946"
+			optional: true
+			rewards: [{
+				id: "591C0959B10D6638"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "7157672A80000007"
+				structure: "mvs:villager_statue"
+				type: "structure"
+			}]
+			title: "Visiter : « Villager statue »"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "3688CAA3CDDD806A"
+			optional: true
+			rewards: [{
+				id: "53E6EB48CCC025B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "23AEF60C503B40BC"
+				structure: "mvs:warped_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Warped house »"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "47709ABE4FEC435C"
+			optional: true
+			rewards: [{
+				id: "36C4E2095BCD31B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "54E2158AD8D2F999"
+				structure: "mvs:well"
+				type: "structure"
+			}]
+			title: "Visiter : « Well »"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "142BE5D6EC86A5B5"
+			optional: true
+			rewards: [{
+				id: "3A3B338B49E93D39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "0C41CB55AFD34ED9"
+				structure: "mvs:wheat_grain_bin"
+				type: "structure"
+			}]
+			title: "Visiter : « Wheat grain bin »"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "36A76F903265C278"
+			optional: true
+			rewards: [{
+				id: "183B4ADB137D8C94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "27E7899420343F5D"
+				structure: "mvs:windmill"
+				type: "structure"
+			}]
+			title: "Visiter : « Windmill »"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bMoog's Voyager Structures&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "6D5DC5CAAF11FDCD"
+			optional: true
+			rewards: [{
+				id: "7A84D4E1A36A1610"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moog's Voyager Structures"
+			tasks: [{
+				id: "2E3022BCB9E5B95F"
+				structure: "mvs:wooden_wheat_farm"
+				type: "structure"
+			}]
+			title: "Visiter : « Wooden wheat farm »"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7B1FB7B7E4530EA4"
+				"44D36BF40C386F77"
+				"01F40F2EA4EEA9D9"
+				"5BC82293C25739C1"
+				"6F2822CDAE8FC44D"
+				"77B282A872F74630"
+				"3DCC07B3490A016E"
+				"7447DEA734257103"
+				"4925EEBE93FF2009"
+				"459E9850A9367391"
+				"1713C5D269D4A85B"
+				"3E18C428D7EB970F"
+				"1465CC13917D2E74"
+				"781D78DB24842E7D"
+				"0C680CFE926011C6"
+				"715473B309810DD8"
+				"076DA0BCC8D53325"
+				"7E00095260CF7B0A"
+				"03F40BD284F52F1C"
+				"36822689A9FF8EDA"
+				"0262ED34BC7AC754"
+				"459E3D3E71C39933"
+				"751E8436C3372BBD"
+				"566C82654308B2AD"
+				"72B0DFDC1AC5D781"
+				"36C926AE62671A45"
+				"2B0F34F2AE825013"
+				"00A8C72ED8AA0F5C"
+				"3165C021CD961141"
+				"1571CD6E1696DA41"
+				"47403F7654D7A131"
+				"10CFDF31FD652080"
+				"0310FC1ABAA56835"
+				"18F0A70F056D0D8D"
+				"49B26E514F62875B"
+				"6ECD396F72B81926"
+				"594B4ABBBF78021C"
+				"6F4A70EB3C1BEF70"
+				"190DA5B2A76BD01D"
+				"258D0A078C5EDC4B"
+				"39C480485FDFB740"
+				"05796D26B31B4987"
+				"07515F5BE649B5EC"
+				"4287073A41972055"
+				"2F4AE7F908B56FE5"
+				"1F60FAC3CA18AAE3"
+				"04BB287B4518344B"
+				"5A2A0385B4CC926E"
+				"22BAE8F6024F415C"
+				"5941C4DEECA8141F"
+				"7C96E109F5084FEF"
+				"5058246FB3E4AF75"
+				"60721091F64DD355"
+				"782D754770D853FC"
+				"677D7994CE6421EE"
+				"0E9BBE1752F0D48C"
+				"614A6677F1609185"
+				"73BA42FFD4BF0A50"
+				"6CCB9D6ED876A93A"
+				"2D0AE35A18835188"
+				"37AF8B5EAFB83F92"
+				"5693C7986685068A"
+				"7AA0201020B1D372"
+				"09221C8DFF498C8A"
+				"6417E98BBC360B4E"
+				"4A11DB1A86BCB5F7"
+				"6FEDD74F66A71B23"
+				"3F9D9C2B6BE2DD88"
+				"50851AC94AA124CF"
+				"07D1D7EB12506696"
+				"594B1BAB4C6B57F0"
+				"15BB7E51AACE4A26"
+				"49E3DDE7C2C8264D"
+				"3B3FA534DC4560A9"
+				"2913EAF14181D1C9"
+				"0B27B57313D2B1DC"
+				"77C50D26A2C75410"
+				"6131C66C0306FF27"
+				"4561045CFE2174EB"
+				"07D86F5BAEF04F40"
+				"092A76A6C471B79D"
+				"4D9960772FDC524F"
+				"6E0695957F49014F"
+				"5506D601F07D65C3"
+				"780CA0BC79676FC6"
+				"10685273CBC07763"
+				"507B05C4C1DD4542"
+				"10D75C1DE2AFD576"
+				"40C5FE3248B2555E"
+				"41C79518B6576894"
+				"4E51328E302F960A"
+				"6E3CB432603E85A1"
+				"322862AC9DB1B003"
+				"1E66902A48DCF756"
+				"2EA64A3932FE2C3A"
+				"5C17C91D6A84B71A"
+				"65FED203B68D59FD"
+				"1D836F2BACCE0530"
+				"2F5A836FEA54950E"
+				"7292B8200833D0C5"
+				"313E4C282C7B8E9D"
+				"597C27BB861E4831"
+				"687CF89F53877883"
+				"76D1444721CCCD67"
+				"67470E4CF3FAA7D7"
+				"10BEF0CF7C078BA9"
+				"70EC5FE367490119"
+				"21D2E028E045447F"
+				"4B5611372F3CC370"
+				"6810A3482FB8E478"
+				"6B2E16026DE644E7"
+				"28BA149D4F4F753F"
+				"78CC558529B24EFD"
+				"0968E40F3416C1FB"
+				"2F4B5204116EDC30"
+				"0422983BD170AD79"
+				"66B0A6DBE434BA27"
+				"0481903C6E0C207F"
+				"02E8AA26A7BAAE93"
+				"2DE4BD173FE0DFFD"
+				"3CE3ED30B41FCD1C"
+				"5E0FCD599804FFD7"
+				"79CE6BB1BEF857A4"
+				"217C2C680120D92D"
+				"0FAC2BA5E5359E16"
+				"1A31D6BA9975E74E"
+				"27E41A21D88E0947"
+				"68F693A2626D41E0"
+				"25999B33ADAD9367"
+				"5692F2355886CB0C"
+				"0A38F1BD1C387E8B"
+				"238FC5AF3750F96E"
+				"7208556C5E6AF60B"
+				"7AF4D462618C4CDE"
+				"3C966C8012D6F62F"
+				"3580EDBA8CFDC087"
+				"236CD4DBEB0A0E17"
+				"2ACD5F45220E1D06"
+				"17D736CAABC0D556"
+				"78DFDDD0EC5AB7C9"
+				"6D65A85863E59DC5"
+				"530F6266BD321E80"
+				"4DC5CEA471FA7EE5"
+				"5D934FA9DBB1AF04"
+				"6AD738DC32D9D3DE"
+				"5B544B64D07DCDF6"
+				"36855C83A0DD9D68"
+				"1CE5462E753E03F2"
+				"43E9BBA59E6F486E"
+				"5C473FAA7948207E"
+				"39BB51609B5ED438"
+				"1F9983B91E9B26C4"
+				"23FBB6F8D56EBF4D"
+				"0E863F3841B0C181"
+				"167CBF4C765966BD"
+				"347DC0ECB703DA41"
+				"159657B8B892973B"
+				"707EE88C276010A0"
+				"015FEA712148AE6D"
+				"053CBFCBA079FA37"
+				"24A63931FE2AB975"
+				"0985886708509180"
+				"5DE8C4C899AC329C"
+				"35E8DD4B28E6A08E"
+				"73034B7DF3E0C906"
+				"4F6371B2F8D5147F"
+				"57265B11017006A6"
+				"578B59869E04D257"
+				"3DC33C4D371E6719"
+				"536A99108C5BDEAC"
+				"39FE9A3EA661EE81"
+				"01651D725C69FF61"
+				"5E7612F627977E74"
+				"10A0EE27673109DF"
+				"7CED71AF0E3C3B1C"
+				"375E6549B2A3CC15"
+				"570C87C2661B61B7"
+				"68884071F1D945A6"
+				"66742F143E6C2E88"
+				"2A39C17AF5CEE397"
+				"5D1CFEB897BA7662"
+				"09F63621CC8A1C64"
+				"293947AFEBA49436"
+				"1CB5941309D063BC"
+				"0B4B42818BA33933"
+				"712081DBF3AE8BD4"
+				"619590641EC2A780"
+				"1788EF94C2A77F8A"
+				"7117FE55D3A16228"
+				"55B03229D9FC0C87"
+				"37E17F39B05CBC50"
+				"1CE1D87C89D63624"
+				"300DF77110994946"
+				"3688CAA3CDDD806A"
+				"47709ABE4FEC435C"
+				"142BE5D6EC86A5B5"
+				"36A76F903265C278"
+				"6D5DC5CAAF11FDCD"
+			]
+			description: ["Toutes les structures de ce chapitre visitées. La récompense est symbolique."]
+			icon: "minecraft:filled_map"
+			id: "1CF6E52634C2A662"
+			optional: true
+			rewards: [{
+				id: "0D457C8603171E74"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "36BA0E8C875D46B7"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Structures — Moog's"
+}
