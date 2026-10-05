@@ -1,0 +1,1175 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&cÉpées"
+fichier = "enc_epees"
+groupe = "encyclopedie"
+icone = "minecraft:iron_sword"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&cÉpées"
+taille = 1.5
+icone = "minecraft:iron_sword"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque épée du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+"""
+
+[[quete]]
+cle = "minecraft_diamond_sword"
+titre = "Épée en diamant"
+optionnel = true
+icone = "minecraft:diamond_sword"
+kit_voulu = true
+taches = ["item minecraft:diamond_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_golden_sword"
+titre = "Épée en or"
+optionnel = true
+icone = "minecraft:golden_sword"
+kit_voulu = true
+taches = ["item minecraft:golden_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_iron_sword"
+titre = "Épée en fer"
+optionnel = true
+icone = "minecraft:iron_sword"
+kit_voulu = true
+taches = ["item minecraft:iron_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_sword"
+titre = "Épée en netherite"
+optionnel = true
+icone = "minecraft:netherite_sword"
+kit_voulu = true
+taches = ["item minecraft:netherite_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_stone_sword"
+titre = "Épée en pierre"
+optionnel = true
+icone = "minecraft:stone_sword"
+kit_voulu = true
+taches = ["item minecraft:stone_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_wooden_sword"
+titre = "Épée en bois"
+optionnel = true
+icone = "minecraft:wooden_sword"
+kit_voulu = true
+taches = ["item minecraft:wooden_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_sword"
+titre = "« Netherite-Diamond Sword »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_sword"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_sword"
+titre = "« Netherite-Emerald Sword »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_sword"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_sword"
+titre = "« Netherite-Gold Sword »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_sword"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_iron_sword"
+titre = "« Netherite-Iron Sword »"
+optionnel = true
+icone = "advancednetherite:netherite_iron_sword"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_candy_cane_sword"
+titre = "« Candy Cane Sword »"
+optionnel = true
+icone = "aether:candy_cane_sword"
+kit_voulu = true
+taches = ["item aether:candy_cane_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_flaming_sword"
+titre = "« Flaming Sword »"
+optionnel = true
+icone = "aether:flaming_sword"
+kit_voulu = true
+taches = ["item aether:flaming_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_sword"
+titre = "« Gravitite Sword »"
+optionnel = true
+icone = "aether:gravitite_sword"
+kit_voulu = true
+taches = ["item aether:gravitite_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_holy_sword"
+titre = "« Holy Sword »"
+optionnel = true
+icone = "aether:holy_sword"
+kit_voulu = true
+taches = ["item aether:holy_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_holystone_sword"
+titre = "« Holystone Sword »"
+optionnel = true
+icone = "aether:holystone_sword"
+kit_voulu = true
+taches = ["item aether:holystone_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_lightning_sword"
+titre = "« Lightning Sword »"
+optionnel = true
+icone = "aether:lightning_sword"
+kit_voulu = true
+taches = ["item aether:lightning_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_pig_slayer"
+titre = "« Pig Slayer »"
+optionnel = true
+icone = "aether:pig_slayer"
+kit_voulu = true
+taches = ["item aether:pig_slayer"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_skyroot_sword"
+titre = "« Skyroot Sword »"
+optionnel = true
+icone = "aether:skyroot_sword"
+kit_voulu = true
+taches = ["item aether:skyroot_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_lance"
+titre = "« Valkyrie Lance »"
+optionnel = true
+icone = "aether:valkyrie_lance"
+kit_voulu = true
+taches = ["item aether:valkyrie_lance"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_vampire_blade"
+titre = "« Vampire Blade »"
+optionnel = true
+icone = "aether:vampire_blade"
+kit_voulu = true
+taches = ["item aether:vampire_blade"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_sword"
+titre = "« Zanite Sword »"
+optionnel = true
+icone = "aether:zanite_sword"
+kit_voulu = true
+taches = ["item aether:zanite_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_infused_veridium_sword"
+titre = "« Infused Veridium Sword »"
+optionnel = true
+icone = "aether_redux:infused_veridium_sword"
+kit_voulu = true
+taches = ["item aether_redux:infused_veridium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_sword"
+titre = "« Veridium Sword »"
+optionnel = true
+icone = "aether_redux:veridium_sword"
+kit_voulu = true
+taches = ["item aether_redux:veridium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "alexsmobs_skelewag_sword"
+titre = "Crâne de squeladon"
+optionnel = true
+icone = "alexsmobs:skelewag_sword"
+kit_voulu = true
+taches = ["item alexsmobs:skelewag_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_sword"
+titre = "« Aeternium Sword »"
+optionnel = true
+icone = "betterend:aeternium_sword"
+kit_voulu = true
+taches = ["item betterend:aeternium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_sword_blade"
+titre = "« Aeternium Sword Blade »"
+optionnel = true
+icone = "betterend:aeternium_sword_blade"
+kit_voulu = true
+taches = ["item betterend:aeternium_sword_blade"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_sword"
+titre = "« Terminite Sword »"
+optionnel = true
+icone = "betterend:terminite_sword"
+kit_voulu = true
+taches = ["item betterend:terminite_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_sword_blade"
+titre = "« Terminite Sword Blade »"
+optionnel = true
+icone = "betterend:terminite_sword_blade"
+kit_voulu = true
+taches = ["item betterend:terminite_sword_blade"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_sword"
+titre = "« Thallasium Sword »"
+optionnel = true
+icone = "betterend:thallasium_sword"
+kit_voulu = true
+taches = ["item betterend:thallasium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_sword_blade"
+titre = "« Thallasium Sword Blade »"
+optionnel = true
+icone = "betterend:thallasium_sword_blade"
+kit_voulu = true
+taches = ["item betterend:thallasium_sword_blade"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_sword"
+titre = "Cincinnasite Sword"
+optionnel = true
+icone = "betternether:cincinnasite_sword"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_sword_diamond"
+titre = "Cincinnasite-Diamond Sword"
+optionnel = true
+icone = "betternether:cincinnasite_sword_diamond"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_sword_diamond"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_sword"
+titre = "« Fireruby Sword »"
+optionnel = true
+icone = "betternether:flaming_ruby_sword"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_sword"
+titre = "Nether Ruby Sword"
+optionnel = true
+icone = "betternether:nether_ruby_sword"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_sword"
+titre = "Épée en aquite"
+optionnel = true
+icone = "blue_skies:aquite_sword"
+kit_voulu = true
+taches = ["item blue_skies:aquite_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_sword"
+titre = "Épée en bois lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_sword"
+kit_voulu = true
+taches = ["item blue_skies:bluebright_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_sword"
+titre = "Épée en charoite"
+optionnel = true
+icone = "blue_skies:charoite_sword"
+kit_voulu = true
+taches = ["item blue_skies:charoite_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_sword"
+titre = "« Comet Wood Sword »"
+optionnel = true
+icone = "blue_skies:comet_sword"
+kit_voulu = true
+taches = ["item blue_skies:comet_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_different_sword"
+titre = "Épée différente"
+optionnel = true
+icone = "blue_skies:different_sword"
+kit_voulu = true
+taches = ["item blue_skies:different_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_sword"
+titre = "Épée en diopside"
+optionnel = true
+icone = "blue_skies:diopside_sword"
+kit_voulu = true
+taches = ["item blue_skies:diopside_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_sword"
+titre = "Épée en crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_sword"
+kit_voulu = true
+taches = ["item blue_skies:dusk_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_sword"
+titre = "Épée en bois de nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_sword"
+kit_voulu = true
+taches = ["item blue_skies:frostbright_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_sword"
+titre = "Épée en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_sword"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_stone_sword"
+titre = "Épée en pierre lunaire"
+optionnel = true
+icone = "blue_skies:lunar_stone_sword"
+kit_voulu = true
+taches = ["item blue_skies:lunar_stone_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_sword"
+titre = "Épée lunaire"
+optionnel = true
+icone = "blue_skies:lunar_sword"
+kit_voulu = true
+taches = ["item blue_skies:lunar_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_sword"
+titre = "Épée en bois d'érable"
+optionnel = true
+icone = "blue_skies:maple_sword"
+kit_voulu = true
+taches = ["item blue_skies:maple_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_sword"
+titre = "Épée en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_sword"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_sword"
+titre = "Épée en étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_sword"
+kit_voulu = true
+taches = ["item blue_skies:starlit_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_turquoise_stone_sword"
+titre = "Épée en pierre turquoise"
+optionnel = true
+icone = "blue_skies:turquoise_stone_sword"
+kit_voulu = true
+taches = ["item blue_skies:turquoise_stone_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_black_steel_sword"
+titre = "« Black Steel Sword »"
+optionnel = true
+icone = "cataclysm:black_steel_sword"
+kit_voulu = true
+taches = ["item cataclysm:black_steel_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "create_cardboard_sword"
+titre = "Épée en carton"
+optionnel = true
+icone = "create:cardboard_sword"
+kit_voulu = true
+taches = ["item create:cardboard_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bCreate&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_sword"
+titre = "« Skyjade Sword »"
+optionnel = true
+icone = "deep_aether:skyjade_sword"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_storm_sword"
+titre = "« Storm Sword »"
+optionnel = true
+icone = "deep_aether:storm_sword"
+kit_voulu = true
+taches = ["item deep_aether:storm_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_sword"
+titre = "« Stratus Sword »"
+optionnel = true
+icone = "deep_aether:stratus_sword"
+kit_voulu = true
+taches = ["item deep_aether:stratus_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_resonarium_sword"
+titre = "« Resonarium Sword »"
+optionnel = true
+icone = "deeperdarker:resonarium_sword"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_sword"
+titre = "Épée du Warden"
+optionnel = true
+icone = "deeperdarker:warden_sword"
+kit_voulu = true
+taches = ["item deeperdarker:warden_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_sword"
+titre = "« Dragon Sword »"
+optionnel = true
+icone = "dragonloot:dragon_sword"
+kit_voulu = true
+taches = ["item dragonloot:dragon_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_draconic_splitter"
+titre = "« Draconic Splitter »"
+optionnel = true
+icone = "hazennstuff:draconic_splitter"
+kit_voulu = true
+taches = ["item hazennstuff:draconic_splitter"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_excalibur"
+titre = "« Excalibur »"
+optionnel = true
+icone = "hazennstuff:excalibur"
+kit_voulu = true
+taches = ["item hazennstuff:excalibur"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_fireblossom_rapier"
+titre = "« Fireblossom Rapier »"
+optionnel = true
+icone = "hazennstuff:fireblossom_rapier"
+kit_voulu = true
+taches = ["item hazennstuff:fireblossom_rapier"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_ice_pike"
+titre = "« Ice Pike »"
+optionnel = true
+icone = "hazennstuff:ice_pike"
+kit_voulu = true
+taches = ["item hazennstuff:ice_pike"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_ionic_splitter"
+titre = "« Ionic Splitter »"
+optionnel = true
+icone = "hazennstuff:ionic_splitter"
+kit_voulu = true
+taches = ["item hazennstuff:ionic_splitter"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_warlock_axe"
+titre = "« Legionnaire Warlock Axe »"
+optionnel = true
+icone = "hazennstuff:legionnaire_warlock_axe"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_warlock_axe"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_o_fortuna"
+titre = "« O' Fortuna »"
+optionnel = true
+icone = "hazennstuff:o_fortuna"
+kit_voulu = true
+taches = ["item hazennstuff:o_fortuna"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_provocation"
+titre = "« Provocation »"
+optionnel = true
+icone = "hazennstuff:provocation"
+kit_voulu = true
+taches = ["item hazennstuff:provocation"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_ravens_bane"
+titre = "« Raven's Bane »"
+optionnel = true
+icone = "hazennstuff:ravens_bane"
+kit_voulu = true
+taches = ["item hazennstuff:ravens_bane"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_the_devourer"
+titre = "« The Devourer »"
+optionnel = true
+icone = "hazennstuff:the_devourer"
+kit_voulu = true
+taches = ["item hazennstuff:the_devourer"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_umbranova"
+titre = "« Umbranova »"
+optionnel = true
+icone = "hazennstuff:umbranova"
+kit_voulu = true
+taches = ["item hazennstuff:umbranova"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_amethyst_rapier"
+titre = "Rapière en Améthyste"
+optionnel = true
+icone = "irons_spellbooks:amethyst_rapier"
+kit_voulu = true
+taches = ["item irons_spellbooks:amethyst_rapier"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_boreal_blade"
+titre = "Lame Boréale"
+optionnel = true
+icone = "irons_spellbooks:boreal_blade"
+kit_voulu = true
+taches = ["item irons_spellbooks:boreal_blade"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_decrepit_scythe"
+titre = "Faux Décrépite"
+optionnel = true
+icone = "irons_spellbooks:decrepit_scythe"
+kit_voulu = true
+taches = ["item irons_spellbooks:decrepit_scythe"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_hellrazor"
+titre = "Tranchefer Infernal"
+optionnel = true
+icone = "irons_spellbooks:hellrazor"
+kit_voulu = true
+taches = ["item irons_spellbooks:hellrazor"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_keeper_flamberge"
+titre = "Flamberge Décrépite"
+optionnel = true
+icone = "irons_spellbooks:keeper_flamberge"
+kit_voulu = true
+taches = ["item irons_spellbooks:keeper_flamberge"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_legionnaire_flamberge"
+titre = "Flamberge du Légionnaire"
+optionnel = true
+icone = "irons_spellbooks:legionnaire_flamberge"
+kit_voulu = true
+taches = ["item irons_spellbooks:legionnaire_flamberge"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_spellbreaker"
+titre = "Brise-Sort"
+optionnel = true
+icone = "irons_spellbooks:spellbreaker"
+kit_voulu = true
+taches = ["item irons_spellbooks:spellbreaker"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_twilight_gale"
+titre = "Rafale du Crépuscule"
+optionnel = true
+icone = "irons_spellbooks:twilight_gale"
+kit_voulu = true
+taches = ["item irons_spellbooks:twilight_gale"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_sword"
+titre = "Épée en Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_sword"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_hostile_soulium_dagger"
+titre = "« Hostile soulium dagger »"
+optionnel = true
+icone = "mysticalagriculture:hostile_soulium_dagger"
+kit_voulu = true
+taches = ["item mysticalagriculture:hostile_soulium_dagger"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_sword"
+titre = "Épée en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_sword"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_sword"
+titre = "Épée en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_sword"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_passive_soulium_dagger"
+titre = "« Passive soulium dagger »"
+optionnel = true
+icone = "mysticalagriculture:passive_soulium_dagger"
+kit_voulu = true
+taches = ["item mysticalagriculture:passive_soulium_dagger"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_sword"
+titre = "Épée en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_sword"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_soulium_dagger"
+titre = "Dague en Soulium"
+optionnel = true
+icone = "mysticalagriculture:soulium_dagger"
+kit_voulu = true
+taches = ["item mysticalagriculture:soulium_dagger"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_sword"
+titre = "Épée en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_sword"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_sword"
+titre = "Épée en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_sword"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_sword"
+titre = "« §eChorundum Sword »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_sword"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_sword"
+titre = "« §eTungsten Sword »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_sword"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightdelight_teardrop_sword"
+titre = "« Teardrop Sword »"
+optionnel = true
+icone = "twilightdelight:teardrop_sword"
+kit_voulu = true
+taches = ["item twilightdelight:teardrop_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bTwilight's Flavor & Delight&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_sword"
+titre = "Épée ardente"
+optionnel = true
+icone = "twilightforest:fiery_sword"
+kit_voulu = true
+taches = ["item twilightforest:fiery_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_giant_sword"
+titre = "Épée de géant"
+optionnel = true
+icone = "twilightforest:giant_sword"
+kit_voulu = true
+taches = ["item twilightforest:giant_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_glass_sword"
+titre = "Épée en verre"
+optionnel = true
+icone = "twilightforest:glass_sword"
+kit_voulu = true
+taches = ["item twilightforest:glass_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ice_sword"
+titre = "Épée gelée"
+optionnel = true
+icone = "twilightforest:ice_sword"
+kit_voulu = true
+taches = ["item twilightforest:ice_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_sword"
+titre = "Épée en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_sword"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_sword"
+titre = "Épée chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_sword"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_sword"
+titre = "Épée en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_sword"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_sword"]
+recompenses = ["xp 1"]
+description = """
+Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Toutes les épées"
+optionnel = true
+taille = 1.5
+icone = "minecraft:netherite_sword"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["minecraft_diamond_sword", "minecraft_golden_sword", "minecraft_iron_sword", "minecraft_netherite_sword", "minecraft_stone_sword", "minecraft_wooden_sword", "advancednetherite_netherite_diamond_sword", "advancednetherite_netherite_emerald_sword", "advancednetherite_netherite_gold_sword", "advancednetherite_netherite_iron_sword", "aether_candy_cane_sword", "aether_flaming_sword", "aether_gravitite_sword", "aether_holy_sword", "aether_holystone_sword", "aether_lightning_sword", "aether_pig_slayer", "aether_skyroot_sword", "aether_valkyrie_lance", "aether_vampire_blade", "aether_zanite_sword", "aether_redux_infused_veridium_sword", "aether_redux_veridium_sword", "alexsmobs_skelewag_sword", "betterend_aeternium_sword", "betterend_aeternium_sword_blade", "betterend_terminite_sword", "betterend_terminite_sword_blade", "betterend_thallasium_sword", "betterend_thallasium_sword_blade", "betternether_cincinnasite_sword", "betternether_cincinnasite_sword_diamond", "betternether_flaming_ruby_sword", "betternether_nether_ruby_sword", "blue_skies_aquite_sword", "blue_skies_bluebright_sword", "blue_skies_charoite_sword", "blue_skies_comet_sword", "blue_skies_different_sword", "blue_skies_diopside_sword", "blue_skies_dusk_sword", "blue_skies_frostbright_sword", "blue_skies_horizonite_sword", "blue_skies_lunar_stone_sword", "blue_skies_lunar_sword", "blue_skies_maple_sword", "blue_skies_pyrope_sword", "blue_skies_starlit_sword", "blue_skies_turquoise_stone_sword", "cataclysm_black_steel_sword", "create_cardboard_sword", "deep_aether_skyjade_sword", "deep_aether_storm_sword", "deep_aether_stratus_sword", "deeperdarker_resonarium_sword", "deeperdarker_warden_sword", "dragonloot_dragon_sword", "hazennstuff_draconic_splitter", "hazennstuff_excalibur", "hazennstuff_fireblossom_rapier", "hazennstuff_ice_pike", "hazennstuff_ionic_splitter", "hazennstuff_legionnaire_warlock_axe", "hazennstuff_o_fortuna", "hazennstuff_provocation", "hazennstuff_ravens_bane", "hazennstuff_the_devourer", "hazennstuff_umbranova", "irons_spellbooks_amethyst_rapier", "irons_spellbooks_boreal_blade", "irons_spellbooks_decrepit_scythe", "irons_spellbooks_hellrazor", "irons_spellbooks_keeper_flamberge", "irons_spellbooks_legionnaire_flamberge", "irons_spellbooks_spellbreaker", "irons_spellbooks_twilight_gale", "mysticalagriculture_awakened_supremium_sword", "mysticalagriculture_hostile_soulium_dagger", "mysticalagriculture_imperium_sword", "mysticalagriculture_inferium_sword", "mysticalagriculture_passive_soulium_dagger", "mysticalagriculture_prudentium_sword", "mysticalagriculture_soulium_dagger", "mysticalagriculture_supremium_sword", "mysticalagriculture_tertium_sword", "stalwart_dungeons_chorundum_sword", "stalwart_dungeons_tungsten_sword", "twilightdelight_teardrop_sword", "twilightforest_fiery_sword", "twilightforest_giant_sword", "twilightforest_glass_sword", "twilightforest_ice_sword", "twilightforest_ironwood_sword", "twilightforest_knightmetal_sword", "twilightforest_steeleaf_sword"]
+description = """
+Toutes les épées de ce chapitre réunies.
+"""
