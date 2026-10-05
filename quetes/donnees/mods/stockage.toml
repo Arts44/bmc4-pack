@@ -179,6 +179,19 @@ description = """
 L'&bémetteur sans fil&r donne une portée au réseau, et la &bgrille sans fil&r l'ouvre depuis la main, n'importe où dans cette portée. La base entière dans la poche.
 """
 
+# Nether Chested 8.0.4 : recette du jar ; netherchested-server.toml du
+# serveur : stack_size_multiplier 8, no_block_above true, explode_in_nether false.
+[[quete]]
+cle = "coffre_nether"
+titre = "Un coffre du Nether"
+deps = ["intro"]
+optionnel = true
+taches = ["item netherchested:nether_chest"]
+recompenses = ["xp 5"]
+description = """
+Quatre fragments de netherite, quatre briques du Nether et un coffre. Sur ce serveur, le &ccoffre du Nether&r empile chaque objet huit fois plus haut qu'un coffre ordinaire (sauf les objets déjà abîmés). Il ne s'ouvre pas si un bloc est posé juste au-dessus. Il n'explose pas dans le Nether.
+"""
+
 [[quete]]
 cle = "fin"
 titre = "&6Tout est rangé"
