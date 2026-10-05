@@ -1,0 +1,741 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "defis_collectionneur"
+	group: "35E02C18759FA245"
+	icon: "minecraft:chest"
+	id: "051BEC760C056040"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Des séries complètes. Rien n'est consommé : montrer l'objet suffit. Tout est optionnel et hors pourcentage."]
+			icon: "minecraft:ender_chest"
+			id: "0EBC157BB52E0452"
+			rewards: [{
+				id: "68B1E259FDA275A4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3CB1797130165474"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Tout avoir"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EBC157BB52E0452"]
+			description: ["Inferium, prudentium, tertium, imperium, supremium, supremium éveillé."]
+			icon: "mysticalagriculture:inferium_essence"
+			id: "293D98B3E35FF60A"
+			optional: true
+			rewards: [{
+				id: "363E29CBC3CF21C6"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "6733ADD8483402D0"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+				{
+					id: "39415D00CF84FFB0"
+					item: "mysticalagriculture:prudentium_essence"
+					type: "item"
+				}
+				{
+					id: "74F5163C75CA7334"
+					item: "mysticalagriculture:tertium_essence"
+					type: "item"
+				}
+				{
+					id: "472ADD2E675E7176"
+					item: "mysticalagriculture:imperium_essence"
+					type: "item"
+				}
+				{
+					id: "65F874688EFBCC41"
+					item: "mysticalagriculture:supremium_essence"
+					type: "item"
+				}
+				{
+					id: "614B3E981146AAD4"
+					item: "mysticalagriculture:awakened_supremium_essence"
+					type: "item"
+				}
+			]
+			title: "Les six essences"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EBC157BB52E0452"]
+			description: ["Les huit boss de la Twilight Forest et le Bélier des quêtes."]
+			icon: "twilightforest:naga_trophy"
+			id: "0F212BCAA15989AE"
+			optional: true
+			rewards: [{
+				id: "51578058C52E8BCC"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "166C22990CA83BE3"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+				{
+					id: "5E4A406959047061"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+				{
+					id: "4DEC1D1FCC103BBD"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+				{
+					id: "734431C58BDA8B82"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+				{
+					id: "7868A62F604E3261"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+				{
+					id: "58221758A820E603"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+				{
+					id: "3EF941EF510CACB6"
+					item: "twilightforest:alpha_yeti_trophy"
+					type: "item"
+				}
+				{
+					id: "150223D2512562B2"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+				{
+					id: "62A715656FADA7FE"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+			]
+			title: "Les neuf trophées"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EBC157BB52E0452"]
+			description: ["Trente-six races (chapitre &5Les dragons&r). L'œuf porte sa race en NBT : le livre ne peut pas le compter, la case est sur l'honneur et le Bestiaire fait foi."]
+			id: "4A04219024366040"
+			optional: true
+			rewards: [{
+				id: "6AFA21841FB728C8"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "03FFAE1E4499E3B4"
+				title: "Trente-six races vues chez moi"
+				type: "checkmark"
+			}]
+			title: "Toutes les races de dragons"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0EBC157BB52E0452"]
+			icon: "minecraft:music_disc_13"
+			id: "11A17F63847979A6"
+			optional: true
+			rewards: [{
+				id: "304643AB76F05CE2"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "07925F546EACE09F"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "42DC09D7BF580094"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "7E42D6BFEFBF59D5"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+				{
+					id: "4211B5572D127DD9"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					id: "72C16CDB3AA8F621"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+				{
+					id: "104C0B7984F88254"
+					item: "minecraft:music_disc_mall"
+					type: "item"
+				}
+				{
+					id: "37AAE5F2C68F4D2E"
+					item: "minecraft:music_disc_mellohi"
+					type: "item"
+				}
+				{
+					id: "68FF4204728AC851"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					id: "78C3BCADCF5C869D"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+				{
+					id: "47F1E738DBB1B4F2"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					id: "0F5BD835BCAA242E"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+				{
+					id: "3D6D533D1077BDCA"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					id: "773EDDB560590F16"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "013C0AC26F66BB6F"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					id: "38D5671748245D80"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					id: "65C9975E442B7B53"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+			]
+			title: "Les seize disques vanilla"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["11A17F63847979A6"]
+			description: ["Un par boss (tables de butin), plus celui du Cataclysmfarer."]
+			icon: "cataclysm:music_disc_ignis"
+			id: "31B63F6547BBCBA4"
+			optional: true
+			rewards: [{
+				id: "6D7011C2ED1E6DD7"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "67185845AD070622"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					id: "5450E10D00A19B17"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					id: "288F20CF11806DF2"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "262AAA7ADDBC11E8"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "4BFD869C7CDC3E2D"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					id: "12AEE1FF8AFACB88"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+				{
+					id: "0E5F2EFC095815C9"
+					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
+				{
+					id: "241FE9FFD90C6C7B"
+					item: "cataclysm:music_disc_scylla"
+					type: "item"
+				}
+				{
+					id: "4CF51141D5016122"
+					item: "cataclysm:music_disc_the_cataclysmfarer"
+					type: "item"
+				}
+			]
+			title: "Les disques de Cataclysm"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11A17F63847979A6"]
+			icon: "twilightforest:music_disc_findings"
+			id: "699F615200B6C647"
+			optional: true
+			rewards: [{
+				id: "30A0FF31E8490896"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5390EE32149C4ED5"
+					item: "twilightforest:music_disc_findings"
+					type: "item"
+				}
+				{
+					id: "5B6F1094DA1B9AC2"
+					item: "twilightforest:music_disc_home"
+					type: "item"
+				}
+				{
+					id: "4AD76D2E3DCD9B48"
+					item: "twilightforest:music_disc_maker"
+					type: "item"
+				}
+				{
+					id: "5C248C39057C391D"
+					item: "twilightforest:music_disc_motion"
+					type: "item"
+				}
+				{
+					id: "5FAACB1BD9E4B07B"
+					item: "twilightforest:music_disc_radiance"
+					type: "item"
+				}
+				{
+					id: "44AFF9CF12C2F260"
+					item: "twilightforest:music_disc_steps"
+					type: "item"
+				}
+				{
+					id: "436AF9CFC6E486B2"
+					item: "twilightforest:music_disc_superstitious"
+					type: "item"
+				}
+				{
+					id: "6930C6D738B25F88"
+					item: "twilightforest:music_disc_thread"
+					type: "item"
+				}
+				{
+					id: "4ED719B023F46C1D"
+					item: "twilightforest:music_disc_wayfarer"
+					type: "item"
+				}
+			]
+			title: "Les disques de la Twilight Forest"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EBC157BB52E0452"]
+			description: ["Les seize modèles vanilla, chacun dans sa structure (chapitre &aEnchantement et forge&r des bases)."]
+			icon: "minecraft:coast_armor_trim_smithing_template"
+			id: "62F512D543FAF3D0"
+			optional: true
+			rewards: [{
+				id: "7817F06105098EC4"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "0EDCD6CAB387904A"
+					item: "minecraft:coast_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "68301CC31D8794C0"
+					item: "minecraft:dune_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "5D8060ED39FE6BAF"
+					item: "minecraft:eye_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "481652E8C01AC495"
+					item: "minecraft:host_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "24777A518D339023"
+					item: "minecraft:raiser_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "64E4954F82059585"
+					item: "minecraft:rib_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "214D8FDAB490A17F"
+					item: "minecraft:sentry_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "6345131887E01621"
+					item: "minecraft:shaper_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "5043DCA004AE5144"
+					item: "minecraft:silence_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "5120698502BCBADF"
+					item: "minecraft:snout_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "61EE764BDDE46316"
+					item: "minecraft:spire_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "025A5EA3C3F5CBC8"
+					item: "minecraft:tide_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "039F540C608E59CE"
+					item: "minecraft:vex_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "361BCE4549F191F9"
+					item: "minecraft:ward_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "6A62006771A61CD8"
+					item: "minecraft:wayfinder_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "5F82A3665F412B37"
+					item: "minecraft:wild_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Les seize ornements d'armure"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0EBC157BB52E0452"]
+			description: ["Vingt motifs, au pinceau (chapitre &aArchéologie&r des bases)."]
+			icon: "minecraft:angler_pottery_sherd"
+			id: "56BEBB56E71D5283"
+			optional: true
+			rewards: [{
+				id: "5FFA80517F8C02E2"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "707D09630D13E35C"
+					item: "minecraft:angler_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4DD1702629E8004C"
+					item: "minecraft:archer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "1428A3C246C4ECB9"
+					item: "minecraft:arms_up_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "16F0C8A72F432E84"
+					item: "minecraft:blade_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "00E7420F5B249D11"
+					item: "minecraft:brewer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "10884A0429F03DB1"
+					item: "minecraft:burn_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "5537EED60AEEF2BB"
+					item: "minecraft:danger_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4B13168EAC376D15"
+					item: "minecraft:explorer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4D142443C1E58402"
+					item: "minecraft:friend_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "7505543B34543C04"
+					item: "minecraft:heart_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "5F2A85E28325ACF1"
+					item: "minecraft:heartbreak_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "02000AB8DCE676B0"
+					item: "minecraft:howl_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "5B011178D673266A"
+					item: "minecraft:miner_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "549BDCF92F2E1304"
+					item: "minecraft:mourner_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "0E206ADE4A59364E"
+					item: "minecraft:plenty_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "0AA66490022EC855"
+					item: "minecraft:prize_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4BBC7BF3247581E3"
+					item: "minecraft:sheaf_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "43DBF1004E4FB7CF"
+					item: "minecraft:shelter_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "018F6252DA1DD219"
+					item: "minecraft:skull_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "725CE8C160C33763"
+					item: "minecraft:snort_pottery_sherd"
+					type: "item"
+				}
+			]
+			title: "Les vingt tessons"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0EBC157BB52E0452"]
+			description: ["Un casque de chacune : ignitium, cursium, Warden, dragon, ardent, métal de chevalier, Wroughtnaut, chorundum."]
+			icon: "cataclysm:ignitium_helmet"
+			id: "160196A8B8207B21"
+			optional: true
+			rewards: [{
+				id: "39DBF943B3BF93BF"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "016ADF656402A84C"
+					item: "cataclysm:ignitium_helmet"
+					type: "item"
+				}
+				{
+					id: "4D45C5D2C4DB01BE"
+					item: "cataclysm:cursium_helmet"
+					type: "item"
+				}
+				{
+					id: "55E93191D5FCCF15"
+					item: "deeperdarker:warden_helmet"
+					type: "item"
+				}
+				{
+					id: "7531677D6256587F"
+					item: "dragonloot:dragon_helmet"
+					type: "item"
+				}
+				{
+					id: "0B8AA818B4C39116"
+					item: "twilightforest:fiery_helmet"
+					type: "item"
+				}
+				{
+					id: "600ED377A48C4901"
+					item: "twilightforest:knightmetal_helmet"
+					type: "item"
+				}
+				{
+					id: "71F135DF8C8101B9"
+					item: "mowziesmobs:wrought_helmet"
+					type: "item"
+				}
+				{
+					id: "6B299BA4CD955E5E"
+					item: "stalwart_dungeons:chorundum_armor_helmet"
+					type: "item"
+				}
+			]
+			title: "Les armures de boss"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0EBC157BB52E0452"]
+			description: ["Zombie, squelette, creeper, squelette du Wither, piglin, dragon. Les quatre premières tombent d'un creeper chargé."]
+			icon: "minecraft:zombie_head"
+			id: "37E5B2C2DBB55938"
+			optional: true
+			rewards: [{
+				id: "724046F5CD9A4461"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "522D5E44E062C43D"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					id: "547F6049FA6D7866"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "3864C5E15240CE14"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+				{
+					id: "6B65ED9FD31A3CE1"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "5B48264DCB091091"
+					item: "minecraft:piglin_head"
+					type: "item"
+				}
+				{
+					id: "78E1D36F1E6C9B40"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			title: "Les têtes"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"293D98B3E35FF60A"
+				"0F212BCAA15989AE"
+				"11A17F63847979A6"
+				"62F512D543FAF3D0"
+				"56BEBB56E71D5283"
+				"160196A8B8207B21"
+			]
+			icon: "minecraft:shulker_box"
+			id: "059049CF7B53A0FB"
+			optional: true
+			rewards: [{
+				id: "32A9A66138656E7B"
+				type: "xp_levels"
+				xp_levels: 80
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5EF1DBE62AEFBAEC"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&6Tout est là"
+			x: 4.0d
+			y: 6.0d
+		}
+	]
+	title: "&6Collectionneur"
+}
