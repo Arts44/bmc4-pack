@@ -59,6 +59,46 @@ def tous(v, out):
             tous(x, out)
 
 
+def ingredients(d):
+    """Ingrédients obligatoires d'une recette : une liste par emplacement,
+    chaque liste donnant les alternatives (objet ou « #balise »)."""
+    if not isinstance(d, dict):
+        return []
+    out = []
+
+    def alt(x):
+        if isinstance(x, list):
+            r = []
+            for y in x:
+                r += alt(y)
+            return r
+        if isinstance(x, dict):
+            if isinstance(x.get('item'), str):
+                return [x['item']]
+            if isinstance(x.get('tag'), str):
+                return ['#' + x['tag']]
+            if 'ingredient' in x:
+                return alt(x['ingredient'])
+        if isinstance(x, str):
+            return [x] if ID.match(x) else []
+        return []
+
+    if isinstance(d.get('key'), dict):
+        for v in d['key'].values():
+            out.append(alt(v))
+    for k in ('ingredients', 'ingredient', 'base', 'addition', 'template', 'input', 'inputs'):
+        v = d.get(k)
+        if isinstance(v, list) and k in ('ingredients', 'inputs'):
+            out += [alt(x) for x in v]
+        elif v is not None:
+            out.append(alt(v))
+    if not out and isinstance(d.get('recipe'), dict):     # forge:conditional et apparentés
+        return ingredients(d['recipe'])
+    if not out and isinstance(d.get('recipes'), list) and d['recipes']:
+        return ingredients(d['recipes'][0].get('recipe', {}))
+    return [x for x in out if x]
+
+
 def butin(d, out):
     if isinstance(d, dict):
         if d.get('type') in ('minecraft:item', 'item') and isinstance(d.get('name'), str):
@@ -77,6 +117,7 @@ def main(mods, vanilla, paxi):
             if n.startswith('data/') and n.endswith('.json') and ('/recipes/' in n or '/loot_tables/' in n or '/worldgen/configured_feature/' in n):
                 fichiers[n] = (z, n)   # le dernier (datapack) l'emporte
     rec, but, monde = set(), set(), set()
+    graphe = {}   # résultat -> [[ingrédient obligatoire, sous forme de liste d'alternatives], ...]
     for n, (z, nom) in fichiers.items():
         try:
             d = json_tolerant(z.read(nom))
@@ -85,7 +126,10 @@ def main(mods, vanilla, paxi):
         if '/recipes/' in n and '/advancements/' not in n:
             if isinstance(d, dict) and d.get('type') in (None, '') and not d:
                 continue
+            avant = set(rec)
             resultats(d, rec)
+            for r in (rec - avant) | ({d['result']['item']} if isinstance(d, dict) and isinstance(d.get('result'), dict) and isinstance(d['result'].get('item'), str) else set()):
+                graphe.setdefault(r, []).append(ingredients(d))
             # Blue Skies : {"type": "blue_skies:bluebright_sword"} — un type de
             # recette au nom de l'objet, le contenu de la recette est dans le code.
             if isinstance(d, dict) and set(d) == {'type'} and isinstance(d['type'], str):
@@ -95,7 +139,7 @@ def main(mods, vanilla, paxi):
         elif '/worldgen/configured_feature/' in n:
             for m in re.findall(r'"([a-z0-9_]+:[a-z0-9_/]+)"', json.dumps(d)):
                 monde.add(m)
-    out = {'recette': sorted(rec), 'butin': sorted(but), 'monde': sorted(monde)}
+    out = {'recette': sorted(rec), 'butin': sorted(but), 'monde': sorted(monde), 'graphe': graphe}
     json.dump(out, open(os.path.join(ICI, '..', 'index', 'obtenables.json'), 'w', encoding='utf-8'), indent=0)
     print({k: len(v) for k, v in out.items()})
 

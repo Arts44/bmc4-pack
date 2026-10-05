@@ -11,6 +11,8 @@
 # spellGriefing = false, swordsConsumeMana = true). Hazen 'n Stuff
 # (hazennstuff-watered-down-edition-1.1.2) : noms et recettes du jar
 # seulement ; ses bonus chiffrés ne sont pas lisibles, donc pas cités.
+# Boue Intemporelle : alchemist_cauldron/brew_timeless_slurry (potion banale
+# + éclat d'écho) et empty_timeless_slurry (flacon vide), jar Iron's.
 
 [chapitre]
 titre = "&5Iron's Spells"
@@ -445,16 +447,140 @@ description = """
 Le &cPremier Porteur de flamme&r, mage de feu et combattant. Sa mort est annoncée dans #faits-d-armes. Le staff n'a pas touché à ses points de vie ni à sa puissance (config du serveur à zéro).
 """
 
+# ---- Hazen 'n Stuff (hazennstuff-watered-down-edition-1.1.2, pas de config
+# sur le serveur ni de traduction française : noms anglais entre guillemets).
+# Chaque objet vérifié obtenable en chaîne (outils/chaine.py) ; recettes,
+# génération (biome_modifier add_end_zenalite_ore) et butins lus dans les jars.
 [[quete]]
 cle = "hazen"
-titre = "Hazen 'n Stuff"
-deps = ["orbe"]
+titre = "Hazen 'n Stuff : la rune indicible"
+deps = ["ecoles"]
 optionnel = true
 icone = "hazennstuff:eldritch_rune"
 taches = ["item hazennstuff:eldritch_rune"]
 recompenses = ["xp 5"]
 description = """
-&dHazen 'n Stuff&r prolonge Iron's Spells : des runes et des orbes d'attributs nouveaux (radiance, ombre, mêlée, archerie, santé, et une &8rune indicible&r), des armures de mage (Séraphin, Blazeborne, Souverain cryogénique, Rôdeur du tonnerre, Alchimiste suprême…) et des armes qui résonnent avec la forge à parchemins. Les recettes sont dans JEI.
+&dHazen 'n Stuff&r prolonge Iron's Spells avec des armures et des armes de mage. Sa porte d'entrée : huit éclats d'écho, ceux des cités anciennes, autour d'une pierre runique vierge donnent la « Eldritch Rune ». Deux d'entre elles entrent dans la lame « The Devourer ». Le reste du mod repose sur un métal de l'End, la zénalite.
+"""
+
+[[quete]]
+cle = "hazen_acier"
+titre = "De l'acier"
+deps = ["hazen"]
+optionnel = true
+taches = ["item hazennstuff:steel_ingot"]
+recompenses = ["xp 3"]
+description = """
+Trois lingots de fer et deux charbons donnent deux « Crude Metal ». Au four ou au haut fourneau, chacun devient un lingot d'acier, la « Steel Ingot » de l'épée « Provocation ».
+"""
+
+[[quete]]
+cle = "hazen_minerai"
+titre = "Le minerai de zénalite"
+deps = ["hazen"]
+deps_externes = ["monde_end/entrer"]
+optionnel = true
+taches = ["item hazennstuff:raw_zenalite 4"]
+recompenses = ["xp 5"]
+description = """
+Le seul minerai de zénalite qui se génère est celui de la pierre de l'End, dans tous les biomes de l'End : douze filons par tronçon, jusqu'à neuf blocs chacun, sous la hauteur 80. Il lâche de la « Raw Zenalite », que Fortune multiplie. Il en faut quatre pour les moules divins.
+"""
+
+[[quete]]
+cle = "hazen_zenalite"
+titre = "&dRéveiller la zénalite"
+deps = ["hazen_minerai"]
+deps_externes = ["monde_nether/wither"]
+optionnel = true
+taches = ["item hazennstuff:zenalite_ingot 4"]
+recompenses = ["xp 10"]
+description = """
+Le mod le dit lui-même : ce minerai dort, et seule la chaleur d'une étoile le réveille. Une zénalite brute et une étoile du Nether donnent quatre « Starkissed Zenalite », que le four change chacune en lingot de zénalite. Un Wither vaincu, quatre lingots : toutes les pièces qui suivent en demandent.
+"""
+
+[[quete]]
+cle = "hazen_moule"
+titre = "Le Moule divin"
+deps = ["hazen_minerai", "tyros"]
+deps_externes = ["monde_end/dragon"]
+optionnel = true
+taches = ["item hazennstuff:divine_mold"]
+recompenses = ["xp 10"]
+description = """
+Quatre zénalites brutes, une pierre runique vierge, un lingot de pyrium, deux peaux de dragon et un éclat d'âme divine donnent quatre « Divine Mold ». L'Ender Dragon lâche de six à dix peaux en plus de son butin. L'éclat tombe de l'Écho de Tyros, seulement s'il meurt de la main d'un joueur.
+"""
+
+[[quete]]
+cle = "hazen_armure"
+titre = "Une armure d'école divine"
+deps = ["hazen_moule", "hazen_zenalite"]
+optionnel = true
+exigence = "une"
+icone = "hazennstuff:seraph_helmet"
+taches = ["item hazennstuff:seraph_helmet", "item hazennstuff:blazeborne_helmet", "item hazennstuff:cryogenic_ruler_helmet", "item hazennstuff:ender_dragon_helmet", "item hazennstuff:alchemist_supreme_helmet", "item hazennstuff:creaking_sorcerer_helmet", "item hazennstuff:flesh_mass_helmet"]
+recompenses = ["xp 10"]
+description = """
+Chaque robe d'école d'Iron's a sa version divine. Pour le casque : le casque de l'école, deux runes de cette école, trois lingots de zénalite et un moule divin. Le Masque du Prêtre et deux runes sacrées donnent le « Seraph Visor » ; le Chapeau du Pyromancien et deux runes de feu, le « Blazeborne Helmet ». Les autres pièces suivent le même principe, avec plus de zénalite.
+"""
+
+[[quete]]
+cle = "hazen_fusion"
+titre = "Deux armures en une"
+deps = ["hazen_armure"]
+optionnel = true
+exigence = "une"
+icone = "hazennstuff:fireblossom_battlemage_crown"
+taches = ["item hazennstuff:fireblossom_battlemage_crown", "item hazennstuff:fireblossom_battlemage_helmet", "item hazennstuff:atlas_helmet"]
+recompenses = ["xp 8"]
+description = """
+À la table de forge, un casque divin sert de modèle à un autre. Le « Creaking Sorcerer Mask » en modèle et un « Blazeborne Helmet » en base donnent la « Fireblossom Battlemage Crown » avec une Rune Arcanique, tournée vers la magie. Avec une Rune de Protection, c'est le « Fireblossom Battlemage Helmet », tourné vers l'épée. Sur un « Alchemist Supreme Hat » avec une pierre runique vierge, on obtient le « Atlas's Helmet ».
+"""
+
+[[quete]]
+cle = "hazen_hazel"
+titre = "La veste de Hazel"
+deps = ["hazen_armure"]
+optionnel = true
+taches = ["item hazennstuff:how_did_you_find_the_hazel_chestplate"]
+recompenses = ["xp 5"]
+description = """
+Du cuir en modèle et de la poudre de blaze sur une pièce Blazeborne donnent la tenue de Hazel, casque, veste, jambières ou bottes. La veste, « Hazel's Jacket », cache une seconde version : repasse-la à la table de forge, cuir en modèle, avec une pastèque. Elle porte le même nom, mais pas le même identifiant.
+"""
+
+[[quete]]
+cle = "hazen_arme"
+titre = "&dUne arme de zénalite"
+deps = ["hazen_zenalite"]
+optionnel = true
+exigence = "une"
+icone = "hazennstuff:excalibur"
+taches = ["item hazennstuff:excalibur", "item hazennstuff:draconic_splitter", "item hazennstuff:fireblossom_rapier", "item hazennstuff:ice_pike", "item hazennstuff:umbranova", "item hazennstuff:the_devourer", "item hazennstuff:provocation", "item hazennstuff:o_fortuna", "item hazennstuff:ravens_bane"]
+recompenses = ["xp 10"]
+description = """
+Toutes les armes du mod demandent deux ou trois lingots de zénalite, des Pièces d'Arme et des runes d'école. La plupart partent d'une épée en nétherite : « Excalibur » avec une Perle Divine et deux runes sacrées, « Draconic Splitter » avec un bâton de blaze et deux runes de feu. « O' Fortuna » part d'une hache en nétherite, « Raven's Bane » du Tranchefer Infernal. Le reste est dans JEI.
+"""
+
+[[quete]]
+cle = "hazen_pyrium"
+titre = "Le casque de pyrium"
+deps = ["hazen", "chaudron"]
+optionnel = true
+taches = ["item hazennstuff:pyrium_helmet"]
+recompenses = ["xp 8"]
+description = """
+Le lingot de pyrium se trouve dans le coffre-fort de la Citadelle. À la table de forge, avec une Boue Intemporelle en modèle, il change un casque en nétherite en « Pyrium Helmet ». La boue se brasse au Chaudron d'alchimiste : une potion banale versée dedans, un éclat d'écho jeté dans la potion, puis un flacon vide pour recueillir la boue.
+"""
+
+[[quete]]
+cle = "hazen_legion"
+titre = "Une couronne de légionnaire"
+deps = ["hazen_pyrium"]
+optionnel = true
+exigence = "une"
+taches = ["item hazennstuff:legionnaire_ruler_helmet", "item hazennstuff:legionnaire_commander_helmet"]
+recompenses = ["xp 8"]
+description = """
+Une pépite de pyrium sert de modèle à la table de forge, sur un « Pyrium Helmet ». Avec du Tissu Arcanique, on obtient le « Legionnaire Ruler Crown ». Avec du Tissu de Mithril, c'est le « Legionnaire Commander Helmet ».
 """
 
 [[quete]]
