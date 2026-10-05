@@ -1,0 +1,440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bases_redstone"
+	group: "00400F52F527AA36"
+	icon: "minecraft:redstone"
+	id: "52FF4E052451517F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Un guide pas à pas. Sur ce serveur, &cAlternate Current&r calcule la poudre de redstone plus vite que le jeu de base : les grands circuits pèsent moins sur le tick. Les règles ne changent pas."]
+			icon: "minecraft:redstone_torch"
+			id: "34030EDDAC2BA8B3"
+			rewards: [{
+				count: 4
+				id: "29BABA37A48A822F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "189DEA9B07136006"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cDe la torche au comparateur"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34030EDDAC2BA8B3"]
+			description: ["La poudre porte le signal sur quinze blocs. La torche est une source, et s'éteint si le bloc qui la porte est alimenté : c'est un inverseur."]
+			icon: "minecraft:redstone"
+			id: "069D560A2D903B40"
+			rewards: [{
+				id: "7F9ECADC3781154C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "6C77EA47DFFA3901"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "17BBE555C871C7B1"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+			]
+			title: "Poudre et torche"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["069D560A2D903B40"]
+			description: ["Le levier tient ; le bouton lâche ; la plaque sent le poids. La plaque de fer ne réagit qu'aux objets, celle d'or aussi mais plus fort."]
+			icon: "minecraft:lever"
+			id: "5F1A908385DFDD38"
+			rewards: [{
+				id: "19903A97B91DFBAC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "4EA51001A1C71322"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					id: "085395347D18F3A0"
+					item: "minecraft:stone_button"
+					type: "item"
+				}
+				{
+					id: "3C9D2927F7AB0056"
+					item: "minecraft:stone_pressure_plate"
+					type: "item"
+				}
+			]
+			title: "Levier, bouton, plaque"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["069D560A2D903B40"]
+			description: ["Il rallonge le signal, le retarde d'un à quatre ticks, et se verrouille quand un autre répéteur le frappe de côté."]
+			icon: "minecraft:repeater"
+			id: "3B6E54132DA27A70"
+			rewards: [{
+				id: "39790DC82EC56EF8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 2L
+				id: "2F6D73471E31FA00"
+				item: "minecraft:repeater"
+				type: "item"
+			}]
+			title: "Le répéteur"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3B6E54132DA27A70"]
+			description: ["Il lit le contenu d'un coffre, d'un four, d'un chaudron, et compare deux signaux. Son signal vaut le remplissage."]
+			icon: "minecraft:comparator"
+			id: "657EE8D1A0FE42DB"
+			rewards: [{
+				id: "11C2AC3341972C35"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 2L
+				id: "1FDCDBC40ECD8779"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			title: "Le comparateur"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5F1A908385DFDD38"]
+			description: ["Le piston pousse douze blocs ; le collant ramène le premier. Le bloc de slime colle les blocs entre eux ; le bloc de miel colle sans se coller au slime."]
+			icon: "minecraft:piston"
+			id: "6E482E989E7593F5"
+			rewards: [{
+				id: "6E765EDB18B1CB53"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "6FE682FBE0407054"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "6BDD2ED8FBD86018"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+			]
+			title: "Piston et piston collant"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E482E989E7593F5"]
+			description: ["Il regarde un bloc et pulse quand celui-ci change : une culture qui pousse, une porte qui s'ouvre."]
+			icon: "minecraft:observer"
+			id: "60E57E210C8476B3"
+			rewards: [{
+				id: "7A8B786F066EF716"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 2L
+				id: "5EA7D68A8CEC6422"
+				item: "minecraft:observer"
+				type: "item"
+			}]
+			title: "L'observateur"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5F1A908385DFDD38"
+				"6E482E989E7593F5"
+			]
+			description: ["Une porte de fer ne s'ouvre qu'à la redstone : plaque devant, plaque derrière. Ou deux pistons collants et un sol qui s'efface."]
+			icon: "minecraft:iron_door"
+			id: "6B8D904F8697B6C7"
+			rewards: [{
+				id: "132FFACA4D903848"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "05ECCB55FB246DD8"
+					item: "minecraft:iron_door"
+					type: "item"
+				}
+				{
+					id: "28DFBF20CCF585CD"
+					title: "Ma porte s'ouvre toute seule"
+					type: "checkmark"
+				}
+			]
+			title: "Une porte automatique"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657EE8D1A0FE42DB"]
+			description: ["L'entonnoir déplace les objets de haut en bas et vers son bec ; le dropper crache ; le distributeur utilise (flèche, seau, poudre d'os, armure)."]
+			icon: "minecraft:hopper"
+			id: "49B4EFC702473D42"
+			rewards: [{
+				id: "52D85DD02529A7D9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "167F69C50261AC1E"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "65DD0B7C50788758"
+					item: "minecraft:dropper"
+					type: "item"
+				}
+				{
+					id: "505FD67EC5F15D9B"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+			]
+			title: "Entonnoir, dropper, distributeur"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"60E57E210C8476B3"
+				"49B4EFC702473D42"
+			]
+			description: ["Un observateur sur une canne à sucre ou un bambou, un piston qui coupe, un entonnoir qui ramasse. Ou un distributeur de poudre d'os sur un melon."]
+			id: "2574B6590A14B2DA"
+			rewards: [{
+				id: "666494385F3CEFB2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "13FED95FFAB7AD71"
+				title: "Ma première ferme tourne seule"
+				type: "checkmark"
+			}]
+			title: "Une ferme automatique"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657EE8D1A0FE42DB"]
+			description: ["Le capteur de lumière du jour allume les lampes la nuit (clic pour l'inverser) ; la cible répond à la flèche ; le fil de détente sent ce qui passe."]
+			icon: "minecraft:daylight_detector"
+			id: "3C8D061465686E08"
+			optional: true
+			rewards: [{
+				id: "605099CF259192D2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0EB70D29E8928712"
+					item: "minecraft:daylight_detector"
+					type: "item"
+				}
+				{
+					id: "5CFF7288A8ABD383"
+					item: "minecraft:target"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "44CF30FC533AE6B9"
+					item: "minecraft:tripwire_hook"
+					type: "item"
+				}
+			]
+			title: "Capteurs"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C8D061465686E08"]
+			description: ["Il entend les vibrations ; le calibré n'écoute que la fréquence qu'on lui donne par le côté. La laine étouffe tout."]
+			icon: "minecraft:sculk_sensor"
+			id: "5AB0C1F94D557DA3"
+			optional: true
+			rewards: [{
+				id: "7D83FB99CB95B819"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7BE6D42E52491806"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+				{
+					id: "797752A28A3324B9"
+					item: "minecraft:calibrated_sculk_sensor"
+					type: "item"
+				}
+			]
+			title: "Capteur sculk"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F1A908385DFDD38"]
+			description: ["La lampe s'allume au signal ; le bloc de note joue selon le bloc dessous."]
+			icon: "minecraft:redstone_lamp"
+			id: "1B81035277FCF2A3"
+			optional: true
+			rewards: [{
+				id: "3480D14F65F72634"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "56504C02F8E1B3B9"
+					item: "minecraft:redstone_lamp"
+					type: "item"
+				}
+				{
+					id: "2CD8DE976FB6883B"
+					item: "minecraft:note_block"
+					type: "item"
+				}
+			]
+			title: "Lampes et blocs de note"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34030EDDAC2BA8B3"]
+			description: ["Il attire la foudre dans un rayon de 128 blocs, protège les toits en bois et pulse quand elle tombe. Avec un trident Canalisation, c'est un creeper chargé à la demande."]
+			icon: "minecraft:lightning_rod"
+			id: "29D2A7A9A6D86874"
+			optional: true
+			rewards: [{
+				id: "3CE68D0CDC7A3DB7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1378ABD3E09A2469"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			title: "Un paratonnerre"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3B6E54132DA27A70"
+				"657EE8D1A0FE42DB"
+			]
+			description: ["Deux répéteurs en boucle, ou un comparateur en soustraction avec un objet dans un entonnoir : un signal qui bat tout seul."]
+			id: "75BC50905C55AD53"
+			optional: true
+			rewards: [{
+				id: "470F6AD372B95BDD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1031004C39335F38"
+				title: "Mon horloge bat"
+				type: "checkmark"
+			}]
+			title: "Une horloge"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F1A908385DFDD38"]
+			description: ["Quatre secondes après le signal. Rappel : un claim ne protège pas des explosions ; le Marché, lui, les bloque."]
+			icon: "minecraft:tnt"
+			id: "04B56713B6693A32"
+			optional: true
+			rewards: [{
+				id: "093B069CDC46B3B5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "5B6D525A4CF91749"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			title: "TNT"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6B8D904F8697B6C7"
+				"2574B6590A14B2DA"
+			]
+			description: ["La suite mécanique est au chapitre &6Create&r : là, c'est la rotation qui remplace le signal."]
+			icon: "minecraft:redstone_block"
+			id: "2A597B4D05A64B0E"
+			rewards: [{
+				id: "0899912EDAF88042"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "356D86FD82ACCFAB"
+				title: "Ingénieur"
+				type: "checkmark"
+			}]
+			title: "&cIngénieur"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "&cRedstone"
+}

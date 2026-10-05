@@ -1,0 +1,191 @@
+# Chapitre « Redstone » — cahier des charges §9.1.4
+# R0. Sources (5 octobre 2026) : objets vanilla de l'index ; Alternate
+# Current (jar alternate_current-mc1.20-1.7.0 chargé sur le serveur : il
+# remplace le calcul de la poudre de redstone par un algorithme plus
+# rapide, sans changer les règles du jeu — à signaler, pas à décrire plus).
+
+[chapitre]
+titre = "&cRedstone"
+fichier = "bases_redstone"
+groupe = "bases"
+icone = "minecraft:redstone"
+ordre = 4
+
+[[quete]]
+cle = "intro"
+titre = "&cDe la torche au comparateur"
+taille = 1.5
+icone = "minecraft:redstone_torch"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:iron_ingot 4"]
+description = """
+Un guide pas à pas. Sur ce serveur, &cAlternate Current&r calcule la poudre de redstone plus vite que le jeu de base : les grands circuits pèsent moins sur le tick. Les règles ne changent pas.
+"""
+
+[[quete]]
+cle = "poudre"
+titre = "Poudre et torche"
+deps = ["intro"]
+taches = ["item minecraft:redstone 16", "item minecraft:redstone_torch 2"]
+recompenses = ["xp 2"]
+description = """
+La poudre porte le signal sur quinze blocs. La torche est une source, et s'éteint si le bloc qui la porte est alimenté : c'est un inverseur.
+"""
+
+[[quete]]
+cle = "levier"
+titre = "Levier, bouton, plaque"
+deps = ["poudre"]
+taches = ["item minecraft:lever", "item minecraft:stone_button", "item minecraft:stone_pressure_plate"]
+recompenses = ["xp 2"]
+description = """
+Le levier tient ; le bouton lâche ; la plaque sent le poids. La plaque de fer ne réagit qu'aux objets, celle d'or aussi mais plus fort.
+"""
+
+[[quete]]
+cle = "repeteur"
+titre = "Le répéteur"
+deps = ["poudre"]
+taches = ["item minecraft:repeater 2"]
+recompenses = ["xp 2"]
+description = """
+Il rallonge le signal, le retarde d'un à quatre ticks, et se verrouille quand un autre répéteur le frappe de côté.
+"""
+
+[[quete]]
+cle = "comparateur"
+titre = "Le comparateur"
+deps = ["repeteur"]
+taches = ["item minecraft:comparator 2"]
+recompenses = ["xp 3"]
+description = """
+Il lit le contenu d'un coffre, d'un four, d'un chaudron, et compare deux signaux. Son signal vaut le remplissage.
+"""
+
+[[quete]]
+cle = "piston"
+titre = "Piston et piston collant"
+deps = ["levier"]
+taches = ["item minecraft:piston", "item minecraft:sticky_piston"]
+recompenses = ["xp 2"]
+description = """
+Le piston pousse douze blocs ; le collant ramène le premier. Le bloc de slime colle les blocs entre eux ; le bloc de miel colle sans se coller au slime.
+"""
+
+[[quete]]
+cle = "observateur"
+titre = "L'observateur"
+deps = ["piston"]
+taches = ["item minecraft:observer 2"]
+recompenses = ["xp 2"]
+description = """
+Il regarde un bloc et pulse quand celui-ci change : une culture qui pousse, une porte qui s'ouvre.
+"""
+
+[[quete]]
+cle = "trappe"
+titre = "Une porte automatique"
+deps = ["levier", "piston"]
+taches = ["item minecraft:iron_door", "checkmark Ma porte s'ouvre toute seule"]
+recompenses = ["xp 3"]
+description = """
+Une porte de fer ne s'ouvre qu'à la redstone : plaque devant, plaque derrière. Ou deux pistons collants et un sol qui s'efface.
+"""
+
+[[quete]]
+cle = "entonnoir"
+titre = "Entonnoir, dropper, distributeur"
+deps = ["comparateur"]
+taches = ["item minecraft:hopper 2", "item minecraft:dropper", "item minecraft:dispenser"]
+recompenses = ["xp 3"]
+description = """
+L'entonnoir déplace les objets de haut en bas et vers son bec ; le dropper crache ; le distributeur utilise (flèche, seau, poudre d'os, armure).
+"""
+
+[[quete]]
+cle = "ferme"
+titre = "Une ferme automatique"
+deps = ["observateur", "entonnoir"]
+taches = ["checkmark Ma première ferme tourne seule"]
+recompenses = ["xp 5"]
+description = """
+Un observateur sur une canne à sucre ou un bambou, un piston qui coupe, un entonnoir qui ramasse. Ou un distributeur de poudre d'os sur un melon.
+"""
+
+[[quete]]
+cle = "capteurs"
+titre = "Capteurs"
+deps = ["comparateur"]
+optionnel = true
+taches = ["item minecraft:daylight_detector", "item minecraft:target", "item minecraft:tripwire_hook 2"]
+recompenses = ["xp 3"]
+description = """
+Le capteur de lumière du jour allume les lampes la nuit (clic pour l'inverser) ; la cible répond à la flèche ; le fil de détente sent ce qui passe.
+"""
+
+[[quete]]
+cle = "sculk"
+titre = "Capteur sculk"
+deps = ["capteurs"]
+optionnel = true
+taches = ["item minecraft:sculk_sensor", "item minecraft:calibrated_sculk_sensor"]
+recompenses = ["xp 5"]
+description = """
+Il entend les vibrations ; le calibré n'écoute que la fréquence qu'on lui donne par le côté. La laine étouffe tout.
+"""
+
+[[quete]]
+cle = "lampe"
+titre = "Lampes et blocs de note"
+deps = ["levier"]
+optionnel = true
+taches = ["item minecraft:redstone_lamp 4", "item minecraft:note_block"]
+recompenses = ["xp 2"]
+description = """
+La lampe s'allume au signal ; le bloc de note joue selon le bloc dessous.
+"""
+
+[[quete]]
+cle = "paratonnerre"
+titre = "Un paratonnerre"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:lightning_rod"]
+recompenses = ["xp 3"]
+description = """
+Il attire la foudre dans un rayon de 128 blocs, protège les toits en bois et pulse quand elle tombe. Avec un trident Canalisation, c'est un creeper chargé à la demande.
+"""
+
+[[quete]]
+cle = "horloge"
+titre = "Une horloge"
+deps = ["repeteur", "comparateur"]
+optionnel = true
+taches = ["checkmark Mon horloge bat"]
+recompenses = ["xp 3"]
+description = """
+Deux répéteurs en boucle, ou un comparateur en soustraction avec un objet dans un entonnoir : un signal qui bat tout seul.
+"""
+
+[[quete]]
+cle = "tnt"
+titre = "TNT"
+deps = ["levier"]
+optionnel = true
+taches = ["item minecraft:tnt 4"]
+recompenses = ["xp 2"]
+description = """
+Quatre secondes après le signal. Rappel : un claim ne protège pas des explosions ; le Marché, lui, les bloque.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&cIngénieur"
+deps = ["trappe", "ferme"]
+taille = 1.3
+icone = "minecraft:redstone_block"
+taches = ["checkmark Ingénieur"]
+recompenses = ["xp 5"]
+description = """
+La suite mécanique est au chapitre &6Create&r : là, c'est la rotation qui remplace le signal.
+"""
