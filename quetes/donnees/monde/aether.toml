@@ -8,7 +8,9 @@
 # œil du Slider, médaille d'honneur, cœur de soleil, selle d'aérobaleine,
 # écharpe flottante ; aether_redux-common : cockatrices qui poursuivent,
 # swets affaiblis mais fabricables, aérnuages dorés qui projettent vers le
-# bas, Fléau et biomes dorés activés). Umbral Skies : absent du pack.
+# bas, Fléau et biomes dorés activés). Redux, 5 octobre : progrès, recettes
+# et loot_modifiers du jar (cape 0,75, emblème 0,35, arbalète 0,85 dans les
+# coffres de récompense ; médaille 0,65 sur la Reine ; circuit 0,25). Umbral Skies : absent du pack.
 
 [chapitre]
 titre = "&bL'Aether"
@@ -306,7 +308,7 @@ description = """
 [[quete]]
 cle = "veridium"
 titre = "Du veridium infusé"
-deps = ["redux_biomes"]
+deps = ["redux_veridium_outils"]
 optionnel = true
 taches = ["advancement aether_redux:infuse_veridium"]
 recompenses = ["xp 5"]
@@ -322,7 +324,97 @@ optionnel = true
 taches = ["advancement aether_redux:double_jump"]
 recompenses = ["xp 5"]
 description = """
-La &bCape aérienne&r du donjon de bronze donne le double saut (progrès du mod).
+La &bCape aérienne&r (« Aerbound Cape ») est dans le coffre du donjon de bronze trois fois sur quatre. Portée, elle donne le double saut (progrès du mod).
+"""
+
+[[quete]]
+cle = "redux_veridium_minerai"
+titre = "Du veridium"
+deps = ["redux_biomes"]
+optionnel = true
+taches = ["item aether_redux:veridium_ingot 4"]
+recompenses = ["xp 5"]
+description = """
+Le minerai de &averidium&r d'Aether Redux donne du veridium brut, que Fortune multiplie. Au four ou au haut fourneau, il devient un lingot.
+"""
+
+[[quete]]
+cle = "redux_veridium_outils"
+titre = "Des outils en veridium"
+deps = ["redux_veridium_minerai"]
+optionnel = true
+exigence = "une"
+taches = ["item aether_redux:veridium_pickaxe", "item aether_redux:veridium_sword", "item aether_redux:veridium_axe", "item aether_redux:veridium_dart_shooter"]
+recompenses = ["xp 5"]
+description = """
+Pioche, épée, hache, pelle, houe et sarbacane à fléchettes en veridium. Un éclat d'ambrosium les infuse ensuite (quête suivante).
+"""
+
+[[quete]]
+cle = "redux_plume"
+titre = "La Plume de garde"
+deps = ["veridium"]
+optionnel = true
+taches = ["advancement aether_redux:obtain_feather_of_warding"]
+recompenses = ["xp 8"]
+description = """
+Une plume de cockatrice, des spores de saule du Fléau, un éclat d'ambrosium et quatre blocs de veridium : la « Feather of Warding », l'accessoire qui protège de presque tout ce que le &5Fléau&r inflige (progrès « Blight's Bane »).
+"""
+
+[[quete]]
+cle = "redux_lance"
+titre = "La Lance du Fléau"
+deps = ["redux_biomes"]
+optionnel = true
+taches = ["item aether_redux:spear_of_the_blight"]
+recompenses = ["xp 5"]
+description = """
+Le croc d'un « Blightbunny », un bâton de skyroot et une gemme de zanite : la « Spear of the Blight ».
+"""
+
+[[quete]]
+cle = "redux_anneaux"
+titre = "Les anneaux de Redux"
+deps = ["redux_biomes"]
+optionnel = true
+exigence = "une"
+taches = ["item aether_redux:ring_of_wisdom", "item aether_redux:shroom_ring", "item aether_redux:sentry_ring"]
+recompenses = ["xp 5"]
+description = """
+Tous partent d'un anneau enchanté. Holystone et zanite font l'« Ring of Wisdom » ; « Shimmerstool », « Cloudcap Mushling » et « Lightroot Clump », l'« Adrenaline Ring » ; la sentrite raffinée et un circuit de sentinelle, que les sentinelles lâchent une fois sur quatre, le « Sentry Ring ».
+"""
+
+[[quete]]
+cle = "redux_medaille"
+titre = "&eLa Grande médaille de la victoire"
+deps = ["reine"]
+optionnel = true
+taches = ["advancement aether_redux:obtain_grand_medal"]
+recompenses = ["xp 10"]
+description = """
+La Reine des Valkyries lâche, deux fois sur trois, la « Grand Victory Medal » : une régénération qui grandit à mesure que la vie baisse (progrès « Valkyrie Champion »). Avec elle, on peut rejouer le combat contre la Reine sans devoir réunir de nouveau les médailles.
+"""
+
+[[quete]]
+cle = "redux_arbalete"
+titre = "&bL'arbalète Subzero"
+deps = ["esprit"]
+optionnel = true
+taches = ["item aether_redux:subzero_crossbow"]
+recompenses = ["xp 10"]
+description = """
+Le coffre du donjon d'or garde, presque toujours, la « Subzero Crossbow », et une fois sur trois l'emblème solaire (« Solar Emblem »), qui lance des boules de feu sur une touche. Avec l'emblème, tuer un Sheepuff d'une boule de feu vaut le progrès « Pyromaniac ».
+"""
+
+[[quete]]
+cle = "redux_anneau_lave"
+titre = "Jette-le dans le feu !"
+deps = ["entrer"]
+optionnel = true
+taches = ["advancement aether_redux:throw_ring_in_lava"]
+recompenses = ["xp 3"]
+description = """
+Un anneau d'or jeté dans la lave du Nether : le progrès « Cast It into the Fire ! Destroy It ! ».
 """
 
 # ---- Lost Aether Content, villages, forge
