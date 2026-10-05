@@ -53,7 +53,7 @@ MOTS_ANGLAIS = re.compile(r"\b(the|with|from|your|you|find|kill|obtain|craft|get
                           r"chest|chests|bosses|sword|armor|armour|helmet|"
                           r"pickaxe|block|blocks|ore|ores|gold|wood|planks|wool|leather)\b")
 # Noms propres anglais dont la ponctuation reste anglaise.
-NOMS_PROPRES = ('Aether: Treasure Reforging', 'Dragon Mounts: Legacy', 'CC: Tweaked', 'Snow! Real Magic!')
+NOMS_PROPRES = ('Aether: Treasure Reforging', 'Aether: Protect Your Moa', 'Dragon Mounts: Legacy', 'CC: Tweaked', 'Snow! Real Magic!')
 ID_BRUT = re.compile(r'(?<![\w#!/.])[a-z0-9_]+:[a-z0-9_./-]+')
 CODE = re.compile(r'&[0-9a-fk-or]')
 
@@ -220,6 +220,61 @@ def charger_chapitres():
                 ch = d['chapitre']
                 out.append((ch['fichier'], ch.get('groupe', ''), {q['cle']: q for q in d.get('quete', [])}))
     return out
+
+
+# Mods sans contenu jouable (bibliothèques, rendu, performance, compat) ou
+# dont le contenu est volontairement hors du livre. Chacun avec sa raison.
+# Mods à contenu sans quête, raison mesurée (5 octobre 2026). Tout mod
+# absent de cette liste et qu'aucune tâche ne cite sort au rapport.
+COUVERTURE_IGNORES = {
+    # bibliothèques et outils : objets de débogage ou d'interface
+    'baguettelib': "bibliothèque (objets internes)",
+    'blueprint': "bibliothèque d'Abnormals (créatures et biome de test)",
+    'citadel': "bibliothèque d'Alex's Mobs (débogueur, objets d'icône)",
+    'geckolib': "bibliothèque d'animation (créatures et objets de test)",
+    'gtbcs_spell_lib': "bibliothèque de sorts (objets internes)",
+    'irons_lib': "bibliothèque d'Iron's Spells (objets internes)",
+    'patchouli': "bibliothèque des livres de guide",
+    'structure_gel': "outils de construction de structures (gels, créatif)",
+    'terrablender': "bibliothèque de biomes (biome technique)",
+    'underlay': "bibliothèque (objet interne)",
+    'ftblibrary': "bibliothèque FTB (objet interne)",
+    'ftbfiltersystem': "filtre FTB pour d'autres mods, pas une progression",
+    'itemfilters': "filtres d'objets FTB pour d'autres mods, pas une progression",
+    'immersive_portals': "moteur de portails (objets et créatures techniques)",
+    'diagonalwallfix': "correctif de murs (variantes de blocs sans objet propre)",
+    'fastpaintings': "optimisation des tableaux (objet technique)",
+    # contenu réel, mais rien de vérifiable qui vaille une quête
+    'storagedrawersextra': "tiroirs dans les bois d'autres mods : mêmes mécaniques que Storage Drawers, déjà au chapitre Stockage",
+    'extra_compat': "seaux en skyroot pour les poissons d'autres mods : variantes sans mécanique propre",
+    'snowrealmagic': "neige posée sur les clôtures, dalles et murs : états de blocs, aucun objet obtenable",
+    'glow_up': "modèle d'ornement lumineux inobtenable ; pâte et torche lumineuses sans mécanique lisible",
+}
+
+
+def rapport_couverture(chapitres, ix, ignores=None):
+    """Mods qui ajoutent du contenu (objets, créatures, biomes, structures)
+    et qu'aucune tâche, icône ou récompense du livre ne cite."""
+    ignores = COUVERTURE_IGNORES if ignores is None else ignores
+    contenu = {}
+    charges = set(ix.get('mods', {}))   # seuls les mods du pack : l'index cite aussi des mods absents (compat)
+    for cat in ('items', 'entities', 'biomes', 'structures'):
+        for i in ix.get(cat, {}):
+            ns = i.split(':')[0]
+            if '.' in ns or ':' not in i or ns not in charges:
+                continue   # clés de langue ou objets d'un mod absent
+            contenu.setdefault(i.split(':')[0], {}).setdefault(cat, 0)
+            contenu[i.split(':')[0]][cat] += 1
+    cites = {}
+    for fichier, groupe, quetes in chapitres:
+        for c, qd in quetes.items():
+            textes = list(qd.get('taches', [])) + list(qd.get('recompenses', [])) + [qd.get('icone', '')]
+            for t in textes:
+                for m in re.findall(r'#?([a-z0-9_.-]+):[a-z0-9_./-]+', t):
+                    cites.setdefault(m, 0)
+                    cites[m] += 1
+    manque = {m: n for m, n in contenu.items() if m not in cites and m not in ignores and m != 'minecraft'}
+    return manque, cites
 
 
 if __name__ == '__main__':

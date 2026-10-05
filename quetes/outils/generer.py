@@ -628,6 +628,20 @@ def main(argv):
         raise SystemExit(f"{len(verif.erreurs)} erreur(s) : rien n'est écrit.")
     total = sum(len(s['quests']) for _, s in produits)
     print(f"{len(produits)} chapitre(s), {total} quête(s), {len(tables_snbt)} table(s) — identifiants tous vérifiés")
+    # Couverture par mod (BMC-89, 5 octobre) : à chaque génération, les mods
+    # du pack qui ajoutent du contenu et qu'aucune tâche, icône ou récompense
+    # ne cite. Informatif : une raison mesurée les fait taire
+    # (controles.COUVERTURE_IGNORES).
+    if not cibles:
+        quetes_par_ch = [(ch['fichier'], ch.get('groupe', ''), {q['cle']: q for q in tomllib.load(open(c, 'rb')).get('quete', [])})
+                         for c, (ch, _) in zip(sorted(chapitres), produits)]
+        manque, _ = controles.rapport_couverture(quetes_par_ch, ix)
+        if manque:
+            print(f"Couverture : {len(manque)} mod(s) à contenu sans quête :")
+            for m, n in sorted(manque.items()):
+                print(f"  {m} — " + ', '.join(f"{v} {k}" for k, v in n.items()))
+        else:
+            print(f"Couverture : chaque mod à contenu a au moins une quête ({len(controles.COUVERTURE_IGNORES)} écartés avec raison)")
     if '--rapport' in argv:
         print(controles.rapport_recompenses(
             [(ch['fichier'], ch.get('groupe', ''), tomllib.load(open(c, 'rb')).get('quete', []) and
