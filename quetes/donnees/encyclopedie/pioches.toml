@@ -1,0 +1,731 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&7Pioches"
+fichier = "enc_pioches"
+groupe = "encyclopedie"
+icone = "minecraft:iron_pickaxe"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&7Pioches"
+taille = 1.5
+icone = "minecraft:iron_pickaxe"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque pioche du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+"""
+
+[[quete]]
+cle = "minecraft_diamond_pickaxe"
+titre = "Pioche en diamant"
+optionnel = true
+icone = "minecraft:diamond_pickaxe"
+kit_voulu = true
+taches = ["item minecraft:diamond_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_golden_pickaxe"
+titre = "Pioche en or"
+optionnel = true
+icone = "minecraft:golden_pickaxe"
+kit_voulu = true
+taches = ["item minecraft:golden_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_iron_pickaxe"
+titre = "Pioche en fer"
+optionnel = true
+icone = "minecraft:iron_pickaxe"
+kit_voulu = true
+taches = ["item minecraft:iron_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_pickaxe"
+titre = "Pioche en netherite"
+optionnel = true
+icone = "minecraft:netherite_pickaxe"
+kit_voulu = true
+taches = ["item minecraft:netherite_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_stone_pickaxe"
+titre = "Pioche en pierre"
+optionnel = true
+icone = "minecraft:stone_pickaxe"
+kit_voulu = true
+taches = ["item minecraft:stone_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_wooden_pickaxe"
+titre = "Pioche en bois"
+optionnel = true
+icone = "minecraft:wooden_pickaxe"
+kit_voulu = true
+taches = ["item minecraft:wooden_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_pickaxe"
+titre = "« Netherite-Diamond Pickaxe »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_pickaxe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_pickaxe"
+titre = "« Netherite-Emerald Pickaxe »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_pickaxe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_pickaxe"
+titre = "« Netherite-Gold Pickaxe »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_pickaxe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_iron_pickaxe"
+titre = "« Netherite-Iron Pickaxe »"
+optionnel = true
+icone = "advancednetherite:netherite_iron_pickaxe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_pickaxe"
+titre = "« Gravitite Pickaxe »"
+optionnel = true
+icone = "aether:gravitite_pickaxe"
+kit_voulu = true
+taches = ["item aether:gravitite_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_holystone_pickaxe"
+titre = "« Holystone Pickaxe »"
+optionnel = true
+icone = "aether:holystone_pickaxe"
+kit_voulu = true
+taches = ["item aether:holystone_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_skyroot_pickaxe"
+titre = "« Skyroot Pickaxe »"
+optionnel = true
+icone = "aether:skyroot_pickaxe"
+kit_voulu = true
+taches = ["item aether:skyroot_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_pickaxe"
+titre = "« Valkyrie Pickaxe »"
+optionnel = true
+icone = "aether:valkyrie_pickaxe"
+kit_voulu = true
+taches = ["item aether:valkyrie_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_pickaxe"
+titre = "« Zanite Pickaxe »"
+optionnel = true
+icone = "aether:zanite_pickaxe"
+kit_voulu = true
+taches = ["item aether:zanite_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_infused_veridium_pickaxe"
+titre = "« Infused Veridium Pickaxe »"
+optionnel = true
+icone = "aether_redux:infused_veridium_pickaxe"
+kit_voulu = true
+taches = ["item aether_redux:infused_veridium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_pickaxe"
+titre = "« Veridium Pickaxe »"
+optionnel = true
+icone = "aether_redux:veridium_pickaxe"
+kit_voulu = true
+taches = ["item aether_redux:veridium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_pickaxe"
+titre = "« Aeternium Pickaxe »"
+optionnel = true
+icone = "betterend:aeternium_pickaxe"
+kit_voulu = true
+taches = ["item betterend:aeternium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_pickaxe"
+titre = "« Terminite Pickaxe »"
+optionnel = true
+icone = "betterend:terminite_pickaxe"
+kit_voulu = true
+taches = ["item betterend:terminite_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_pickaxe"
+titre = "« Thallasium Pickaxe »"
+optionnel = true
+icone = "betterend:thallasium_pickaxe"
+kit_voulu = true
+taches = ["item betterend:thallasium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_pickaxe"
+titre = "Pioche en Cincinnasite"
+optionnel = true
+icone = "betternether:cincinnasite_pickaxe"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_pickaxe_diamond"
+titre = "Pioche en Cincinnasite diamantée"
+optionnel = true
+icone = "betternether:cincinnasite_pickaxe_diamond"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_pickaxe_diamond"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_pickaxe"
+titre = "« Fireruby Pickaxe »"
+optionnel = true
+icone = "betternether:flaming_ruby_pickaxe"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_pickaxe"
+titre = "Nether Ruby Pickaxe"
+optionnel = true
+icone = "betternether:nether_ruby_pickaxe"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_pickaxe"
+titre = "Pioche en aquite"
+optionnel = true
+icone = "blue_skies:aquite_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:aquite_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_pickaxe"
+titre = "Pioche en bois de lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:bluebright_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_pickaxe"
+titre = "Pioche en charoite"
+optionnel = true
+icone = "blue_skies:charoite_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:charoite_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_pickaxe"
+titre = "« Comet Wood Pickaxe »"
+optionnel = true
+icone = "blue_skies:comet_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:comet_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_pickaxe"
+titre = "Pioche en diopside"
+optionnel = true
+icone = "blue_skies:diopside_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:diopside_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_pickaxe"
+titre = "Pioche en crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:dusk_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_pickaxe"
+titre = "Pioche en bois de nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:frostbright_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_pickaxe"
+titre = "Pioche en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_pickaxe"
+titre = "Pioche lunaie"
+optionnel = true
+icone = "blue_skies:lunar_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:lunar_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_stone_pickaxe"
+titre = "Pioche en pierre lunaire"
+optionnel = true
+icone = "blue_skies:lunar_stone_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:lunar_stone_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_pickaxe"
+titre = "Pioche en bois d'érable"
+optionnel = true
+icone = "blue_skies:maple_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:maple_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_pickaxe"
+titre = "Pioche en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_pickaxe"
+titre = "Pioche en étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:starlit_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_turquoise_stone_pickaxe"
+titre = "Pioche en pierre turquoise"
+optionnel = true
+icone = "blue_skies:turquoise_stone_pickaxe"
+kit_voulu = true
+taches = ["item blue_skies:turquoise_stone_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_black_steel_pickaxe"
+titre = "« Black Steel Pickaxe »"
+optionnel = true
+icone = "cataclysm:black_steel_pickaxe"
+kit_voulu = true
+taches = ["item cataclysm:black_steel_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_pickaxe"
+titre = "« Skyjade Pickaxe »"
+optionnel = true
+icone = "deep_aether:skyjade_pickaxe"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_pickaxe"
+titre = "« Stratus Pickaxe »"
+optionnel = true
+icone = "deep_aether:stratus_pickaxe"
+kit_voulu = true
+taches = ["item deep_aether:stratus_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_resonarium_pickaxe"
+titre = "« Resonarium Pickaxe »"
+optionnel = true
+icone = "deeperdarker:resonarium_pickaxe"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_pickaxe"
+titre = "Pioche du Warden"
+optionnel = true
+icone = "deeperdarker:warden_pickaxe"
+kit_voulu = true
+taches = ["item deeperdarker:warden_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_pickaxe"
+titre = "« Dragon Pickaxe »"
+optionnel = true
+icone = "dragonloot:dragon_pickaxe"
+kit_voulu = true
+taches = ["item dragonloot:dragon_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_pickaxe"
+titre = "Pioche en Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_pickaxe"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_pickaxe"
+titre = "Pioche en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_pickaxe"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_pickaxe"
+titre = "Pioche en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_pickaxe"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_pickaxe"
+titre = "Pioche en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_pickaxe"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_pickaxe"
+titre = "Pioche en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_pickaxe"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_pickaxe"
+titre = "Pioche en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_pickaxe"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_pickaxe"
+titre = "« §eChorundum Pickaxe »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_pickaxe"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_pickaxe"
+titre = "« §eTungsten Pickaxe »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_pickaxe"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_fiery_pickaxe"
+titre = "Pioche ardente"
+optionnel = true
+icone = "twilightforest:fiery_pickaxe"
+kit_voulu = true
+taches = ["item twilightforest:fiery_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_giant_pickaxe"
+titre = "Pioche de géant"
+optionnel = true
+icone = "twilightforest:giant_pickaxe"
+kit_voulu = true
+taches = ["item twilightforest:giant_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_pickaxe"
+titre = "Pioche en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_pickaxe"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_pickaxe"
+titre = "Pioche chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_pickaxe"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_mazebreaker_pickaxe"
+titre = "« Mazebreaker »"
+optionnel = true
+icone = "twilightforest:mazebreaker_pickaxe"
+kit_voulu = true
+taches = ["item twilightforest:mazebreaker_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_pickaxe"
+titre = "Pioche en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_pickaxe"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_pickaxe"]
+recompenses = ["xp 1"]
+description = """
+Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Toutes les pioches"
+optionnel = true
+taille = 1.5
+icone = "minecraft:netherite_pickaxe"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["minecraft_diamond_pickaxe", "minecraft_golden_pickaxe", "minecraft_iron_pickaxe", "minecraft_netherite_pickaxe", "minecraft_stone_pickaxe", "minecraft_wooden_pickaxe", "advancednetherite_netherite_diamond_pickaxe", "advancednetherite_netherite_emerald_pickaxe", "advancednetherite_netherite_gold_pickaxe", "advancednetherite_netherite_iron_pickaxe", "aether_gravitite_pickaxe", "aether_holystone_pickaxe", "aether_skyroot_pickaxe", "aether_valkyrie_pickaxe", "aether_zanite_pickaxe", "aether_redux_infused_veridium_pickaxe", "aether_redux_veridium_pickaxe", "betterend_aeternium_pickaxe", "betterend_terminite_pickaxe", "betterend_thallasium_pickaxe", "betternether_cincinnasite_pickaxe", "betternether_cincinnasite_pickaxe_diamond", "betternether_flaming_ruby_pickaxe", "betternether_nether_ruby_pickaxe", "blue_skies_aquite_pickaxe", "blue_skies_bluebright_pickaxe", "blue_skies_charoite_pickaxe", "blue_skies_comet_pickaxe", "blue_skies_diopside_pickaxe", "blue_skies_dusk_pickaxe", "blue_skies_frostbright_pickaxe", "blue_skies_horizonite_pickaxe", "blue_skies_lunar_pickaxe", "blue_skies_lunar_stone_pickaxe", "blue_skies_maple_pickaxe", "blue_skies_pyrope_pickaxe", "blue_skies_starlit_pickaxe", "blue_skies_turquoise_stone_pickaxe", "cataclysm_black_steel_pickaxe", "deep_aether_skyjade_pickaxe", "deep_aether_stratus_pickaxe", "deeperdarker_resonarium_pickaxe", "deeperdarker_warden_pickaxe", "dragonloot_dragon_pickaxe", "mysticalagriculture_awakened_supremium_pickaxe", "mysticalagriculture_imperium_pickaxe", "mysticalagriculture_inferium_pickaxe", "mysticalagriculture_prudentium_pickaxe", "mysticalagriculture_supremium_pickaxe", "mysticalagriculture_tertium_pickaxe", "stalwart_dungeons_chorundum_pickaxe", "stalwart_dungeons_tungsten_pickaxe", "twilightforest_fiery_pickaxe", "twilightforest_giant_pickaxe", "twilightforest_ironwood_pickaxe", "twilightforest_knightmetal_pickaxe", "twilightforest_mazebreaker_pickaxe", "twilightforest_steeleaf_pickaxe"]
+description = """
+Toutes les pioches de ce chapitre réunies.
+"""
