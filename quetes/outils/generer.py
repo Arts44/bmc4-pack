@@ -162,6 +162,27 @@ def recompense(spec, ou, verif, tables, quete_id, idx):
 
 OBSERVE = {'block': 0, 'entity': 5}
 
+# Les potions de Minecraft 1.20.1 (registre vanilla ; pas dans l'index,
+# qui ne lit que les objets). Lues dans Potions.class du jar 1.20.1.
+POTIONS_VANILLA = {
+    'water', 'mundane', 'thick', 'awkward',
+    'night_vision', 'long_night_vision', 'invisibility', 'long_invisibility',
+    'leaping', 'long_leaping', 'strong_leaping',
+    'fire_resistance', 'long_fire_resistance',
+    'swiftness', 'long_swiftness', 'strong_swiftness',
+    'slowness', 'long_slowness', 'strong_slowness',
+    'turtle_master', 'long_turtle_master', 'strong_turtle_master',
+    'water_breathing', 'long_water_breathing',
+    'healing', 'strong_healing', 'harming', 'strong_harming',
+    'poison', 'long_poison', 'strong_poison',
+    'regeneration', 'long_regeneration', 'strong_regeneration',
+    'strength', 'long_strength', 'strong_strength',
+    'weakness', 'long_weakness', 'luck',
+    'slow_falling', 'long_slow_falling',
+}
+POTION_FORMES = {'normale': 'minecraft:potion', 'jetable': 'minecraft:splash_potion',
+                 'persistante': 'minecraft:lingering_potion', 'fleche': 'minecraft:tipped_arrow'}
+
 
 def tache(spec, ou, verif, quete_id, idx):
     tid = hid(quete_id, 't', str(idx), spec)
@@ -196,6 +217,26 @@ def tache(spec, ou, verif, quete_id, idx):
     if genre == 'advancement':
         verif.progres(mots[1], ou)
         return {'id': tid, 'type': 'advancement', 'advancement': mots[1], 'criterion': ''}
+    if genre == 'potion':
+        # potion <nom> [normale|jetable|persistante|fleche] [nombre]
+        # Objet vanilla avec NBT {Potion:"minecraft:<nom>"}, comparé NBT compris.
+        nom = mots[1]
+        if nom not in POTIONS_VANILLA:
+            raise SystemExit(f"{ou} : potion inconnue « {nom} »")
+        forme = mots[2] if len(mots) > 2 else 'normale'
+        if forme not in POTION_FORMES:
+            raise SystemExit(f"{ou} : forme de potion inconnue « {forme} »")
+        t = {'id': tid, 'type': 'item', 'match_nbt': True,
+             'item': {'Count': 1, 'id': POTION_FORMES[forme],
+                      'tag': {'Potion': f'minecraft:{nom}'}}}
+        if len(mots) > 3 and int(mots[3]) > 1:
+            t['count'] = Long(mots[3])
+        return t
+    if genre == 'stat':
+        # stat <identifiant de statistique vanilla> <valeur>
+        if not re.match(r'^minecraft:[a-z_]+$', mots[1]):
+            raise SystemExit(f"{ou} : statistique illisible « {mots[1]} »")
+        return {'id': tid, 'type': 'stat', 'stat': mots[1], 'value': Long(mots[2])}
     if genre == 'structure':
         if mots[1].startswith('#'):
             pass  # tag de structure : non vérifiable par l'index, l'auteur assume
@@ -227,6 +268,8 @@ def icone_de(quete, taches, verif, ix, ou):
     for t in taches:
         if t['type'] == 'item' and isinstance(t['item'], str):
             return t['item']
+        if t['type'] == 'item' and isinstance(t['item'], dict) and 'Potion' in t['item'].get('tag', {}):
+            return t['item']['id']
         if t['type'] in ('kill', 'observation'):
             ent = t.get('entity') or t.get('to_observe')
             if ent:
