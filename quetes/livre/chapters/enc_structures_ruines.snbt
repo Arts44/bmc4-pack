@@ -1,0 +1,4297 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_structures_ruines"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:chiseled_stone_bricks"
+	id: "53A660CA9DA1A151"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			icon: "minecraft:chiseled_stone_bricks"
+			id: "0C3C5909D75E2C5B"
+			rewards: [{
+				id: "60E353882B872E3D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0190F576CC0BD71F"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Structures — ruines et petites choses"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur)."]
+			id: "19F63DE6FC240DA4"
+			optional: true
+			rewards: [{
+				id: "7F6208F966B8E02E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "4DF22B105551D97B"
+				structure: "adorabuild_structures:acacia_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia house medium 1 »"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur)."]
+			id: "491A6F2FFC369EC3"
+			optional: true
+			rewards: [{
+				id: "6474033D9338F9B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "1E8D660FE8001238"
+				structure: "adorabuild_structures:acacia_house_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia house medium 2 »"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur)."]
+			id: "664AB79A51DF9DCE"
+			optional: true
+			rewards: [{
+				id: "42B45A5110B2B958"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "5A7A4E7143391C4D"
+				structure: "adorabuild_structures:acacia_house_medium_3"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia house medium 3 »"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur)."]
+			id: "1C89AF7239959545"
+			optional: true
+			rewards: [{
+				id: "3235FA549605160F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "40136B81B7F6502C"
+				structure: "adorabuild_structures:acacia_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia house small 1 »"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur)."]
+			id: "462C0FB81DF95DD7"
+			optional: true
+			rewards: [{
+				id: "624293190B1DF040"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "602537972C311411"
+				structure: "adorabuild_structures:acacia_house_small_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia house small 2 »"
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur)."]
+			id: "6CDEC9527E68157C"
+			optional: true
+			rewards: [{
+				id: "1F98CE5014F76422"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "2BDC9E0A761D2538"
+				structure: "adorabuild_structures:acacia_well_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Acacia well 1 »"
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "25EEC477BDC81A87"
+			optional: true
+			rewards: [{
+				id: "4462C5295F85CEC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "37C848BFAF8DD573"
+				structure: "adorabuild_structures:ancient_palace_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient palace 1 »"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "24BD2E7F1AF6954D"
+			optional: true
+			rewards: [{
+				id: "0AF2124DE0E40187"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "11BE291D84F166BA"
+				structure: "adorabuild_structures:ancient_palace_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient palace 2 »"
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Jungle de bambous, Jungle (données du serveur)."]
+			id: "528AFDBEE839FD31"
+			optional: true
+			rewards: [{
+				id: "22388DC0552F15C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "2113F7FCE26C2C3D"
+				structure: "adorabuild_structures:bamboo_campfire_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Bamboo campfire 1 »"
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Jungle de bambous, Jungle (données du serveur)."]
+			id: "5A370CC29EB892A1"
+			optional: true
+			rewards: [{
+				id: "12C25AB7905C923A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "5E1447BB1AA4A650"
+				structure: "adorabuild_structures:bamboo_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Bamboo house small 1 »"
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur)."]
+			id: "18F9A354D35D9EE1"
+			optional: true
+			rewards: [{
+				id: "5C23B45B1E3ADD97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "2EBD904EC2F7E440"
+				structure: "adorabuild_structures:bamboo_raft_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Bamboo raft 1 »"
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Flooded Deltas », Deltas de basalte (données du serveur)."]
+			id: "1F17C17282FB88E6"
+			optional: true
+			rewards: [{
+				id: "05C8C05111FEBF0C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "272AFBEB56205CA4"
+				structure: "adorabuild_structures:basalt_chambers_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Basalt chambers large 1 »"
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur)."]
+			id: "57461C6AFBC45871"
+			optional: true
+			rewards: [{
+				id: "635AE63A35B6C24C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "005AA536219FDEBD"
+				structure: "adorabuild_structures:birch_beehive_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch beehive 1 »"
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur)."]
+			id: "7E9B1CB47499EB46"
+			optional: true
+			rewards: [{
+				id: "3F0A17D5A0A773BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "0CF5DA62D9E01944"
+				structure: "adorabuild_structures:birch_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch house medium 1 »"
+			x: 19.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur)."]
+			id: "3DB4FCBA73633662"
+			optional: true
+			rewards: [{
+				id: "1BF676752F081B08"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "334820D85BF86150"
+				structure: "adorabuild_structures:birch_house_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch house medium 2 »"
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur)."]
+			id: "03A6553C56C3D6D1"
+			optional: true
+			rewards: [{
+				id: "500319183793ADE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "355EDB347E0F55FD"
+				structure: "adorabuild_structures:birch_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch house small 1 »"
+			x: 22.5d
+			y: -9.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur)."]
+			id: "6FC3F0C0B21C4914"
+			optional: true
+			rewards: [{
+				id: "3BAC5806907F235E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "45C69A218E5F5C23"
+				structure: "adorabuild_structures:birch_house_small_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch house small 2 »"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur)."]
+			id: "7DCC03D54E3F2080"
+			optional: true
+			rewards: [{
+				id: "04C5D2F774956633"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "0C578EAE97A7CB6E"
+				structure: "adorabuild_structures:birch_tree_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Birch tree 1 »"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "3EC4EE0E78666429"
+			optional: true
+			rewards: [{
+				id: "67614336808A6BD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "47C53C15DFC85607"
+				structure: "adorabuild_structures:blackstone_bastion_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Blackstone bastion medium 1 »"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "2E9826214DE4385E"
+			optional: true
+			rewards: [{
+				id: "14AF7E9860590CBE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "33EA1DDC69EFEF63"
+				structure: "adorabuild_structures:blackstone_bastion_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Blackstone bastion medium 2 »"
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "05C42EFC14496487"
+			optional: true
+			rewards: [{
+				id: "590807B71C607A26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "0E683355E30B576C"
+				structure: "adorabuild_structures:blackstone_bastion_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Blackstone bastion small 1 »"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "602C09BE905492E6"
+			optional: true
+			rewards: [{
+				id: "0BC33769D6D81458"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "6DAB6BB6217EF93E"
+				structure: "adorabuild_structures:blackstone_temple_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Blackstone temple small 1 »"
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur)."]
+			id: "7350F431C3020A7D"
+			optional: true
+			rewards: [{
+				id: "7958DB57C96F3E3F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "42069FCD6134C3BB"
+				structure: "adorabuild_structures:cherry_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Cherry house medium 1 »"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur)."]
+			id: "4E24DAE2790A58F7"
+			optional: true
+			rewards: [{
+				id: "50D56AE82E15D22D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "196F1005EFBC64BF"
+				structure: "adorabuild_structures:cherry_house_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Cherry house medium 2 »"
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur)."]
+			id: "12067249A286C26D"
+			optional: true
+			rewards: [{
+				id: "72D1FF64DED962B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "05AE404220322DE0"
+				structure: "adorabuild_structures:cherry_raft_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Cherry raft 1 »"
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur)."]
+			id: "57DAE6D598531CFD"
+			optional: true
+			rewards: [{
+				id: "67E293425218A08A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "69D6E21211B15B5D"
+				structure: "adorabuild_structures:cherry_tree_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Cherry tree 1 »"
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Forêt carmin (données du serveur)."]
+			id: "551CF1752954F55C"
+			optional: true
+			rewards: [{
+				id: "595680BA77114698"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "29B572C6895DE2C0"
+				structure: "adorabuild_structures:crimson_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Crimson house medium 1 »"
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Forêt carmin (données du serveur)."]
+			id: "21BDC665D42B13B8"
+			optional: true
+			rewards: [{
+				id: "72269FE3593A608C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "55BD697C321DA687"
+				structure: "adorabuild_structures:crimson_house_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Crimson house medium 2 »"
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "62D746C19E410830"
+			optional: true
+			rewards: [{
+				id: "388DB4E6EED3443C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "4146901090299549"
+				structure: "adorabuild_structures:dark_oak_house_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Dark oak house large 1 »"
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt sombre (données du serveur)."]
+			id: "1066D52EF2D0B573"
+			optional: true
+			rewards: [{
+				id: "1DD824332D96ABFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "33A8E0191B7C5965"
+				structure: "adorabuild_structures:dark_oak_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Dark oak house small 1 »"
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan froid, Océan froid profond, Océan tiède profond, Océan profond, Océan tiède et d'autres (données du serveur)."]
+			id: "20B966C050E2BE94"
+			optional: true
+			rewards: [{
+				id: "1141EE2ED0D65BF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "3E6408820CEBBD12"
+				structure: "adorabuild_structures:dark_oak_ship_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Dark oak ship 1 »"
+			x: 21.0d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "5B36A5153AE4BDDB"
+			optional: true
+			rewards: [{
+				id: "59CF688DDF3A4C02"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "52EBCE6868A9283D"
+				structure: "adorabuild_structures:end_bubble_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End bubble large 1 »"
+			x: 22.5d
+			y: -7.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "1454ABCDF920BE52"
+			optional: true
+			rewards: [{
+				id: "238DF995FA1FD9D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "509155CF95FEEC7F"
+				structure: "adorabuild_structures:end_bubble_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End bubble medium 1 »"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "0372C5D4E8D4500A"
+			optional: true
+			rewards: [{
+				id: "7C607BD47D8E1E46"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "5E02756B317CF1B3"
+				structure: "adorabuild_structures:end_bubble_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « End bubble medium 2 »"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "4BC35B701C5EA833"
+			optional: true
+			rewards: [{
+				id: "141315FED898433E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "244EBB33CF33FA37"
+				structure: "adorabuild_structures:end_gateway_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End gateway large 1 »"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "36ADD19A2DA2E24D"
+			optional: true
+			rewards: [{
+				id: "5644598DA2DDDCEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "1375B45371675922"
+				structure: "adorabuild_structures:end_gateway_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End gateway small 1 »"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "3FD9DCDF07259C22"
+			optional: true
+			rewards: [{
+				id: "2BE59971228C709E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "352FB2A6B56A7D6C"
+				structure: "adorabuild_structures:end_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End house medium 1 »"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "37D8D7091FD5496B"
+			optional: true
+			rewards: [{
+				id: "3BB20B01F27891DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "6A1D433A7B68D2D3"
+				structure: "adorabuild_structures:end_house_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « End house medium 2 »"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "78846FC7734A61C1"
+			optional: true
+			rewards: [{
+				id: "7BF35A08C27B5080"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "4DB568B330D58745"
+				structure: "adorabuild_structures:end_house_medium_3"
+				type: "structure"
+			}]
+			title: "Visiter : « End house medium 3 »"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "472F2BFEE184DBD9"
+			optional: true
+			rewards: [{
+				id: "78D1910208963BBC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "1A557B514BE1DAAD"
+				structure: "adorabuild_structures:end_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End house small 1 »"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "59A4AB18B2BA7E72"
+			optional: true
+			rewards: [{
+				id: "4F81619489120FF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "253CA3928DA6D68B"
+				structure: "adorabuild_structures:end_house_small_2"
+				type: "structure"
+			}]
+			title: "Visiter : « End house small 2 »"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "469DA8C230FDC482"
+			optional: true
+			rewards: [{
+				id: "4D662EB9A8CE25BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "5AD8ADF38AD776AB"
+				structure: "adorabuild_structures:end_ship_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End ship small 1 »"
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "7988FD32C5F1179A"
+			optional: true
+			rewards: [{
+				id: "4A0EF0E8DDB26ACB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "72CC180A6458371C"
+				structure: "adorabuild_structures:end_temple_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End temple large 1 »"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur)."]
+			id: "7B6C99B89EBF3A05"
+			optional: true
+			rewards: [{
+				id: "22581C17A2B52A70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "2E4F243414CBFA65"
+				structure: "adorabuild_structures:end_temple_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « End temple small 1 »"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan gelé, Rivière gelée (données du serveur)."]
+			id: "3B12E2668E60EE86"
+			optional: true
+			rewards: [{
+				id: "5C253C570F2D1AB9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "076FDCDEA0B45B0A"
+				structure: "adorabuild_structures:frozen_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Frozen house medium 1 »"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan gelé, Rivière gelée (données du serveur)."]
+			id: "6FF34C7145293924"
+			optional: true
+			rewards: [{
+				id: "6C2CF95976982D6D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "05E0B1809F283A1A"
+				structure: "adorabuild_structures:frozen_hut_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Frozen hut 1 »"
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan gelé, Rivière gelée (données du serveur)."]
+			id: "4A5CE0A72C233422"
+			optional: true
+			rewards: [{
+				id: "4093A2A512D1CB09"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "17EDEB45B9FF1D37"
+				structure: "adorabuild_structures:frozen_hut_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Frozen hut 2 »"
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur)."]
+			id: "4C2E91530FCA5E4C"
+			optional: true
+			rewards: [{
+				id: "698D097B5890B5EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "66153AE29EEC6A24"
+				structure: "adorabuild_structures:jungle_boat_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle boat 1 »"
+			x: 22.5d
+			y: -6.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur)."]
+			id: "5A40451D55B64AFD"
+			optional: true
+			rewards: [{
+				id: "280E83E4E3483699"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "004E251D1DC3E8FD"
+				structure: "adorabuild_structures:jungle_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle house small 1 »"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur)."]
+			id: "429DE632EBF3CCE8"
+			optional: true
+			rewards: [{
+				id: "245F9E955C640EA9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "17DEE5F6A40CE203"
+				structure: "adorabuild_structures:jungle_tree_house_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle tree house 1 »"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "6B9AEE7CA10299C1"
+			optional: true
+			rewards: [{
+				id: "5E62DDE1BA8EDFA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "37B537F55AEC209F"
+				structure: "adorabuild_structures:library_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Library large 1 »"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "13F86AEFB8172FB3"
+			optional: true
+			rewards: [{
+				id: "727A6B54A684CDE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "67A3323250FFABA0"
+				structure: "adorabuild_structures:library_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Library small 1 »"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "0255AF952000F9D2"
+			optional: true
+			rewards: [{
+				id: "21AC42B44DEC15A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "18A2A3AFA96D76CC"
+				structure: "adorabuild_structures:mangrove_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Mangrove house small 1 »"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "3FD4BBA3A83B4F59"
+			optional: true
+			rewards: [{
+				id: "380EB978745A7E0E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "0D68B4E21A2BCD90"
+				structure: "adorabuild_structures:mangrove_tree_house_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Mangrove tree house 1 »"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "3984B155A8A39B12"
+			optional: true
+			rewards: [{
+				id: "04C4031F984A1F2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "6C21FD9654FA7347"
+				structure: "adorabuild_structures:mangrove_tree_house_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Mangrove tree house 2 »"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur)."]
+			id: "1174F66C0F64B421"
+			optional: true
+			rewards: [{
+				id: "1A507C6838DC3681"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "26556A6F1E7DE3A2"
+				structure: "adorabuild_structures:mountain_mine_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Mountain mine 1 »"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur)."]
+			id: "52AD7A944EA4C15A"
+			optional: true
+			rewards: [{
+				id: "10756BC2239B397C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "4F790E2ECD89010E"
+				structure: "adorabuild_structures:mountain_mine_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Mountain mine 2 »"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Champs de champignons (données du serveur)."]
+			id: "0AE7DCB67246C30C"
+			optional: true
+			rewards: [{
+				id: "5CD0057B63241F9E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "4D9FE86D7A157285"
+				structure: "adorabuild_structures:mushroom_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom large 1 »"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "407F71477E19F528"
+			optional: true
+			rewards: [{
+				id: "0DE94332AB8B5FBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "46FCFCCFA0687331"
+				structure: "adorabuild_structures:nether_fortress_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether fortress large 1 »"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "557A4E136A19F731"
+			optional: true
+			rewards: [{
+				id: "103D4692A6382161"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "2E8E7B54A32E71D8"
+				structure: "adorabuild_structures:nether_fortress_large_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether fortress large 2 »"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "7D9810868BADB289"
+			optional: true
+			rewards: [{
+				id: "67E30DDC1A7D8AD4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "56AAF098B9ADBDAB"
+				structure: "adorabuild_structures:nether_fortress_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether fortress medium 1 »"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Nether Grasslands, Nether Jungle, Nether Swampland, Nether Swampland Terraces et d'autres (données du serveur)."]
+			id: "1A540BE285586400"
+			optional: true
+			rewards: [{
+				id: "1C8B9E71D55A499C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "528825A04F37EB26"
+				structure: "adorabuild_structures:nether_fossil_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether fossil 1 »"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "2FE0C01B7477FC03"
+			optional: true
+			rewards: [{
+				id: "64C0B21F43A6BB30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "5AA67D1D39DA5D42"
+				structure: "adorabuild_structures:nether_portal_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether portal small 1 »"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "4563CE6D48AA96DF"
+			optional: true
+			rewards: [{
+				id: "553A8AFF4AB65DC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "3B6D6EDDE3171AAB"
+				structure: "adorabuild_structures:nether_temple_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether temple medium 1 »"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "2B8E9640E52FBE3E"
+			optional: true
+			rewards: [{
+				id: "4C7CA8AA6D2AC41D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "7778081FCF556EF9"
+				structure: "adorabuild_structures:oak_house_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak house large 1 »"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "463D4FEA35B8FB37"
+			optional: true
+			rewards: [{
+				id: "4FF7CC60C19EE59E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "31535C4E7DFA2110"
+				structure: "adorabuild_structures:oak_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak house medium 1 »"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "3351391BAF0A6592"
+			optional: true
+			rewards: [{
+				id: "2C0F0D0A29361148"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "344EF8B0357152B9"
+				structure: "adorabuild_structures:oak_house_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak house medium 2 »"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "3A6CDA910B5F5548"
+			optional: true
+			rewards: [{
+				id: "4C360E7E2AF8A25F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "35EA93F634D72890"
+				structure: "adorabuild_structures:oak_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak house small 1 »"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "7453A29432BF27F6"
+			optional: true
+			rewards: [{
+				id: "65A146E75AEEA6DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "4E1152CC09E0CACE"
+				structure: "adorabuild_structures:oak_house_small_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak house small 2 »"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "0A5E9261919F8FEE"
+			optional: true
+			rewards: [{
+				id: "222B767E3858700F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "7A54EFFC9959860B"
+				structure: "adorabuild_structures:oak_house_small_3"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak house small 3 »"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "2DA8CFFFF61050A5"
+			optional: true
+			rewards: [{
+				id: "02B527A5D73095CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "4594A3C96906D879"
+				structure: "adorabuild_structures:oak_hut_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak hut 1 »"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur)."]
+			id: "2B5122A257DC0EBB"
+			optional: true
+			rewards: [{
+				id: "7EB97636A163BF1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "74108198EF2A6974"
+				structure: "adorabuild_structures:oak_ship_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak ship 1 »"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur)."]
+			id: "79C565E1E921576A"
+			optional: true
+			rewards: [{
+				id: "4AF3E69FECD45332"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "24DBF4C7AE8647E8"
+				structure: "adorabuild_structures:oak_tree_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Oak tree 1 »"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "01B9A9B94B543727"
+			optional: true
+			rewards: [{
+				id: "694061F63EC7FA77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "03DFAD39377F7C00"
+				structure: "adorabuild_structures:ocean_bubble_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean bubble 1 »"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "78C26CE97125CDE4"
+			optional: true
+			rewards: [{
+				id: "5BA02118776642CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "3586EB95619CF9DE"
+				structure: "adorabuild_structures:ocean_temple_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean temple medium 1 »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "670481F44D70F4CE"
+			optional: true
+			rewards: [{
+				id: "662EDBC2C212F179"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "7603E87259BFB735"
+				structure: "adorabuild_structures:ocean_temple_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean temple medium 2 »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "6C71BB69EFCF9F96"
+			optional: true
+			rewards: [{
+				id: "45E71F374ADD12A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "086AFD0349FAC9F0"
+				structure: "adorabuild_structures:ocean_temple_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean temple small 1 »"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "128BB61A9C468FFD"
+			optional: true
+			rewards: [{
+				id: "5ED61FBC6C55B49B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "5512265629418EE2"
+				structure: "adorabuild_structures:ocean_temple_small_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean temple small 2 »"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Terre sèche, Champ, Plaine inondable et d'autres (données du serveur)."]
+			id: "00A6190C1776A6CF"
+			optional: true
+			rewards: [{
+				id: "0E1A9A0DC2C59716"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "70BFF459B6889682"
+				structure: "adorabuild_structures:prison_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Prison large 1 »"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Terre sèche, Champ, Plaine inondable et d'autres (données du serveur)."]
+			id: "769112EB7EA2A1E7"
+			optional: true
+			rewards: [{
+				id: "1D503B018A39EA19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "24C4900E91764433"
+				structure: "adorabuild_structures:prison_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Prison small 1 »"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "6453C42DB1ED5AD7"
+			optional: true
+			rewards: [{
+				id: "36883D14AB7CA8E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "51008A32217D9CE0"
+				structure: "adorabuild_structures:red_sand_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Red sand house medium 1 »"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "593EE1E2061F76F6"
+			optional: true
+			rewards: [{
+				id: "50D124795315776F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "0CEAE26F44697A2F"
+				structure: "adorabuild_structures:red_sand_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Red sand house small 1 »"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "585028C6002D1298"
+			optional: true
+			rewards: [{
+				id: "3CCD868A479C6601"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "270AF5AEA43F4D2B"
+				structure: "adorabuild_structures:red_sand_temple_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Red sand temple medium 1 »"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "714454C7B5E2116B"
+			optional: true
+			rewards: [{
+				id: "4EB2A1C9CF2FA676"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "503C179A3ACFAAF2"
+				structure: "adorabuild_structures:red_sand_temple_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Red sand temple small 1 »"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur)."]
+			id: "388160671879E897"
+			optional: true
+			rewards: [{
+				id: "0E3C159C2013C3B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "40E03D61583C2D4B"
+				structure: "adorabuild_structures:sand_castle_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Sand castle small 1 »"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Plage (données du serveur)."]
+			id: "7873B12BA1976314"
+			optional: true
+			rewards: [{
+				id: "58CD1F619B94E7BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "425EAC47E55E0857"
+				structure: "adorabuild_structures:sand_castle_tiny_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Sand castle tiny 1 »"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur)."]
+			id: "0430EB1E33920FE2"
+			optional: true
+			rewards: [{
+				id: "13DDFDC854E3291D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "0BEA4276417A97FE"
+				structure: "adorabuild_structures:sand_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Sand house medium 1 »"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur)."]
+			id: "525CA6DE5B90BB47"
+			optional: true
+			rewards: [{
+				id: "5EA8FF2BFAFA2CEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "503D1CCFD7A92E9D"
+				structure: "adorabuild_structures:sand_house_medium_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Sand house medium 2 »"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur)."]
+			id: "3F36DBB711F9740A"
+			optional: true
+			rewards: [{
+				id: "48DF42E686B3CA5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "5042264FF7040A1E"
+				structure: "adorabuild_structures:sand_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Sand house small 1 »"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur)."]
+			id: "294829A96A8BC9A5"
+			optional: true
+			rewards: [{
+				id: "49B3500DE63FB1F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "1D8C513E25C78BBC"
+				structure: "adorabuild_structures:sand_house_small_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Sand house small 2 »"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur)."]
+			id: "691D282398D53A26"
+			optional: true
+			rewards: [{
+				id: "3F76031FAA613BFE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "788200F747387525"
+				structure: "adorabuild_structures:sand_pyramid_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Sand pyramid 1 »"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur)."]
+			id: "212AE900568A27E8"
+			optional: true
+			rewards: [{
+				id: "28DF9CF3A71E927A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "31E8EB3EF4AB1BE2"
+				structure: "adorabuild_structures:sand_underground_castle_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Sand underground castle 1 »"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur)."]
+			id: "7343385B471F9860"
+			optional: true
+			rewards: [{
+				id: "30037C98ACF4D125"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "0719D5D5A296C1FD"
+				structure: "adorabuild_structures:spruce_house_large_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce house large 1 »"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur)."]
+			id: "4793C2BA5DB09DE0"
+			optional: true
+			rewards: [{
+				id: "1D28295DE53B1C0F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "5CE7FDE3F06E44BF"
+				structure: "adorabuild_structures:spruce_house_medium_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce house medium 1 »"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur)."]
+			id: "692C7A27746B9F99"
+			optional: true
+			rewards: [{
+				id: "18235C860E0D2EEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "38450150D2F9B744"
+				structure: "adorabuild_structures:spruce_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce house small 1 »"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur)."]
+			id: "553BA26E8A4B4590"
+			optional: true
+			rewards: [{
+				id: "22CA298FEE351092"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "16347F487CBB35C9"
+				structure: "adorabuild_structures:spruce_house_small_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce house small 2 »"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur)."]
+			id: "7D2AF7D58DDF917D"
+			optional: true
+			rewards: [{
+				id: "2E99FE4132E79DA6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "0372E2D47AF75C65"
+				structure: "adorabuild_structures:spruce_house_small_3"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce house small 3 »"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Océan froid, Océan froid profond, Océan profond, Océan (données du serveur)."]
+			id: "4D8962BEE5BEB7EA"
+			optional: true
+			rewards: [{
+				id: "4B58DEAECAECEEFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "456FA89180A6490F"
+				structure: "adorabuild_structures:spruce_ship_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Spruce ship 1 »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Old Warped Woods, Forêt biscornue (données du serveur)."]
+			id: "243524F2DB36B5C6"
+			optional: true
+			rewards: [{
+				id: "30B94BFCE4414165"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "54E799C5454AE686"
+				structure: "adorabuild_structures:warped_house_small_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Warped house small 1 »"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bAdoraBuild&r. Se génère dans : Old Warped Woods, Forêt biscornue (données du serveur)."]
+			id: "33A2E82536CA6EC7"
+			optional: true
+			rewards: [{
+				id: "783438F37CCB5AFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "AdoraBuild"
+			tasks: [{
+				id: "10B49F58818573AC"
+				structure: "adorabuild_structures:warped_house_small_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Warped house small 2 »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "1685280A5F550074"
+			optional: true
+			rewards: [{
+				id: "2DD55084E8FC339F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "1B3DC858E1F10F93"
+				structure: "explorations:campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Campsite »"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : Désert (données du serveur)."]
+			id: "56527A09D2691453"
+			optional: true
+			rewards: [{
+				id: "11282872FC0031A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "7745D0ED39D44ABE"
+				structure: "explorations:desert_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert ruin »"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "2E8ACEE2B1D343FD"
+			optional: true
+			rewards: [{
+				id: "5D07E8B505E02E09"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "37FB865894B66324"
+				structure: "explorations:floating_island"
+				type: "structure"
+			}]
+			title: "Visiter : « Floating island »"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "51342A46BB56EB31"
+			optional: true
+			rewards: [{
+				id: "2B734234550A6BBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "5829A93C2C058B75"
+				structure: "explorations:forgotten_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Forgotten well »"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "7594009D7010A6CB"
+			optional: true
+			rewards: [{
+				id: "3596A4A767A0754F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "79FE8A9586EA6205"
+				structure: "explorations:jungle_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle temple »"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "4B702C108F1FF615"
+			optional: true
+			rewards: [{
+				id: "01351C4F3AF78DB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "541426B00EA46851"
+				structure: "explorations:large_oak_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Large oak tree »"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : « Aspen Glade », Plaine inondable, Jungle fongique, « Jacaranda Glade », Forêt méditerranéenne et d'autres (données du serveur)."]
+			id: "5ED27CEEBE8EEE54"
+			optional: true
+			rewards: [{
+				id: "1A0B8497A0902CD1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "6BEA5BB8B739EE0B"
+				structure: "explorations:logs"
+				type: "structure"
+			}]
+			title: "Visiter : « Logs »"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : « Aspen Glade », Plaine inondable, Jungle fongique, « Jacaranda Glade », Forêt méditerranéenne et d'autres (données du serveur)."]
+			id: "3346904B98BD3784"
+			optional: true
+			rewards: [{
+				id: "4AB56E9DAA0BF76B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "714C7B2D2DA29F4F"
+				structure: "explorations:shrine"
+				type: "structure"
+			}]
+			title: "Visiter : « Shrine »"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "28B8B4190EB37028"
+			optional: true
+			rewards: [{
+				id: "72E0D9E6B4B92917"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "5128395CAEC257A0"
+				structure: "explorations:slime_cave"
+				type: "structure"
+			}]
+			title: "Visiter : « Slime cave »"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bExplorations&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "47A8AC01D3A9CB5E"
+			optional: true
+			rewards: [{
+				id: "6D0E880F139003F3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Explorations"
+			tasks: [{
+				id: "17748BA1C0155782"
+				structure: "explorations:underground_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Underground temple »"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot (données du serveur)."]
+			id: "2E0CBA503E2AAEB4"
+			optional: true
+			rewards: [{
+				id: "38A9D49CC9E89012"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "746ECCA06F996EA1"
+				structure: "farmers_structures:aether"
+				type: "structure"
+			}]
+			title: "Visiter : « Aether »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur)."]
+			id: "52A4C697D9857AA3"
+			optional: true
+			rewards: [{
+				id: "33ACF65273994754"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "07D622C24BD3BFAF"
+				structure: "farmers_structures:aquaculture_beach"
+				type: "structure"
+			}]
+			title: "Visiter : « Aquaculture beach »"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : « Aspen Glade », Hauts plateaux, « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur)."]
+			id: "05724BE04C99BEE7"
+			optional: true
+			rewards: [{
+				id: "4FFBC670882312ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "642B68FC1789CC36"
+				structure: "farmers_structures:aquaculture_carp"
+				type: "structure"
+			}]
+			title: "Visiter : « Aquaculture carp »"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : « Aspen Glade », Hauts plateaux, « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur)."]
+			id: "33B4F5899CF02CBF"
+			optional: true
+			rewards: [{
+				id: "29199FBEECDF6336"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "48015727226BD417"
+				structure: "farmers_structures:aquaculture_common"
+				type: "structure"
+			}]
+			title: "Visiter : « Aquaculture common »"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Hauts plateaux, Plaines, Savane, Plaines de tournesols, Forêt venteuse et d'autres (données du serveur)."]
+			id: "4371C7AA0B5F7826"
+			optional: true
+			rewards: [{
+				id: "332905B1B0CA5294"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "2A2A28371B249682"
+				structure: "farmers_structures:cook"
+				type: "structure"
+			}]
+			title: "Visiter : « Cook »"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Bosquet de cerisiers (données du serveur)."]
+			id: "4FC87C2A77C2585F"
+			optional: true
+			rewards: [{
+				id: "7656E68839766F34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "559654F7BE702DD3"
+				structure: "farmers_structures:cook_moss"
+				type: "structure"
+			}]
+			title: "Visiter : « Cook moss »"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur)."]
+			id: "7EA21D5C7FB0B2D2"
+			optional: true
+			rewards: [{
+				id: "5E35EB739DA80643"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "0326B83365A5F286"
+				structure: "farmers_structures:cook_nether_1"
+				type: "structure"
+			}]
+			title: "Visiter : « Cook nether 1 »"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Terres désolées du Nether (données du serveur)."]
+			id: "09898A1FACD14418"
+			optional: true
+			rewards: [{
+				id: "694840790D01ACEC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "5CB33CEE49B4EECC"
+				structure: "farmers_structures:cook_nether_2"
+				type: "structure"
+			}]
+			title: "Visiter : « Cook nether 2 »"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Forêt lumineuse (données du serveur)."]
+			id: "2015B83993DC8C41"
+			optional: true
+			rewards: [{
+				id: "36314F83F01F510E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "6227E493A2C4C0CD"
+				structure: "farmers_structures:quark_glimer"
+				type: "structure"
+			}]
+			title: "Visiter : « Quark glimer »"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Jungle, Jungle clairsemée (données du serveur)."]
+			id: "0EDBCB5A74C4EECA"
+			optional: true
+			rewards: [{
+				id: "03A01F28E3D54A47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "009EE43E3E0A2602"
+				structure: "farmers_structures:quark_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Quark jungle »"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Jungle, Jungle clairsemée (données du serveur)."]
+			id: "5137A0C517A0FDDA"
+			optional: true
+			rewards: [{
+				id: "27B650C296173700"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "127F0E3F24C6839B"
+				structure: "farmers_structures:quark_moss"
+				type: "structure"
+			}]
+			title: "Visiter : « Quark moss »"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "6E4F43A01C69CB0F"
+			optional: true
+			rewards: [{
+				id: "72E53EE15B69FDA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "57F238BC6CCA21B6"
+				structure: "farmers_structures:quark_slime"
+				type: "structure"
+			}]
+			title: "Visiter : « Quark slime »"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFarmer's Structures&r. Se génère dans : « Cold river », « Lukewarm river », « Warm river », Rivière gelée, Rivière (données du serveur)."]
+			id: "3F41F39F33577492"
+			optional: true
+			rewards: [{
+				id: "0B312F911FEF7C44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Farmer's Structures"
+			tasks: [{
+				id: "2E0E16E562D4008A"
+				structure: "farmers_structures:sushi"
+				type: "structure"
+			}]
+			title: "Visiter : « Sushi »"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Deltas de basalte (données du serveur)."]
+			id: "66F8CBB851763789"
+			optional: true
+			rewards: [{
+				id: "0ED36A8D00560979"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "7FB50B3A527FC087"
+				structure: "formationsnether:basalt_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Basalt hut »"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "652117600CFBA984"
+			optional: true
+			rewards: [{
+				id: "7B6377FC0C25C0C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "215EEC671741726C"
+				structure: "formationsnether:blackstone_castle"
+				type: "structure"
+			}]
+			title: "Visiter : « Blackstone castle »"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "43BDDAD9A0292D1E"
+			optional: true
+			rewards: [{
+				id: "215506121269D200"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "574C7AA9F69370FC"
+				structure: "formationsnether:blackstone_remnant"
+				type: "structure"
+			}]
+			title: "Visiter : « Blackstone remnant »"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur)."]
+			id: "3B2FD14E31B6B487"
+			optional: true
+			rewards: [{
+				id: "55B69167A4C946E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "4DA8BCA35515B345"
+				structure: "formationsnether:campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Campsite »"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur)."]
+			id: "4F119275FD353177"
+			optional: true
+			rewards: [{
+				id: "0D648B83A3EDF0EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "1BF560FE8BF3D5F6"
+				structure: "formationsnether:checkerboard_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Checkerboard temple »"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether (données du serveur)."]
+			id: "795F582775F0C190"
+			optional: true
+			rewards: [{
+				id: "7808842071111FFD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "2138DBDDE3C0FBF2"
+				structure: "formationsnether:flaming_pillar"
+				type: "structure"
+			}]
+			title: "Visiter : « Flaming pillar »"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur)."]
+			id: "0B05D4561ED08655"
+			optional: true
+			rewards: [{
+				id: "6BD1F1BF8C325969"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "5F53DDCFFDDE9D6A"
+				structure: "formationsnether:large_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Large house »"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur)."]
+			id: "13E3DD46A2DDB93E"
+			optional: true
+			rewards: [{
+				id: "7CE20EFCF09B2E95"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "0BB268EB1691B9DC"
+				structure: "formationsnether:large_pedestal"
+				type: "structure"
+			}]
+			title: "Visiter : « Large pedestal »"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur)."]
+			id: "201F84110636BDD4"
+			optional: true
+			rewards: [{
+				id: "05BFD88E20EDF634"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "08BBCF98BFFE0E7C"
+				structure: "formationsnether:large_tree"
+				type: "structure"
+			}]
+			title: "Visiter : « Large tree »"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether, Vallée des âmes (données du serveur)."]
+			id: "6CCD17692CCB5B33"
+			optional: true
+			rewards: [{
+				id: "67180CDCDA565BE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "017F052DE17C4929"
+				structure: "formationsnether:nether_wart_field"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether wart field »"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur)."]
+			id: "612068668477D122"
+			optional: true
+			rewards: [{
+				id: "61ECF2E89017EDF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "632771F310FE8AA1"
+				structure: "formationsnether:obsidian_pillar"
+				type: "structure"
+			}]
+			title: "Visiter : « Obsidian pillar »"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "3F03E49BD315BC42"
+			optional: true
+			rewards: [{
+				id: "41C219B33015A6A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "66835D7F097813D2"
+				structure: "formationsnether:ore_shard"
+				type: "structure"
+			}]
+			title: "Visiter : « Ore shard »"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether (données du serveur)."]
+			id: "15688610F36FCBD6"
+			optional: true
+			rewards: [{
+				id: "02E3F7E85FECC9BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "036DD3371BF48E7C"
+				structure: "formationsnether:parkour_challenge"
+				type: "structure"
+			}]
+			title: "Visiter : « Parkour challenge »"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether, Vallée des âmes (données du serveur)."]
+			id: "47B4C5C8C98E9DF9"
+			optional: true
+			rewards: [{
+				id: "71EBD330A77D24B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "0A2D68CB6C466E5B"
+				structure: "formationsnether:quartz_spikes"
+				type: "structure"
+			}]
+			title: "Visiter : « Quartz spikes »"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "072324D66A0FEBC9"
+			optional: true
+			rewards: [{
+				id: "1EEBEC3B020CA1B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "1655EB49259BF14D"
+				structure: "formationsnether:respawn_anchor_altar"
+				type: "structure"
+			}]
+			title: "Visiter : « Respawn anchor altar »"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur)."]
+			id: "62EDA7A1992F55AF"
+			optional: true
+			rewards: [{
+				id: "556CF4B964F9907F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "32725D7C38BF8FE3"
+				structure: "formationsnether:rib_cage"
+				type: "structure"
+			}]
+			title: "Visiter : « Rib cage »"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur)."]
+			id: "25D70C9290542893"
+			optional: true
+			rewards: [{
+				id: "3D47A824A25FD0B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "3F5EC08748F381C9"
+				structure: "formationsnether:small_fire_arena"
+				type: "structure"
+			}]
+			title: "Visiter : « Small fire arena »"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "7AD5ED687DAC48E0"
+			optional: true
+			rewards: [{
+				id: "220035DBB2E90948"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "6DFB7C8B5AB55AE0"
+				structure: "formationsnether:small_lava_arena"
+				type: "structure"
+			}]
+			title: "Visiter : « Small lava arena »"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether (données du serveur)."]
+			id: "2AAD5D8DE08BBA56"
+			optional: true
+			rewards: [{
+				id: "12EF49738E7A49D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "735C6220AD85FFBB"
+				structure: "formationsnether:small_lava_shrine"
+				type: "structure"
+			}]
+			title: "Visiter : « Small lava shrine »"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur)."]
+			id: "350A0CE3EED4FCD2"
+			optional: true
+			rewards: [{
+				id: "21CA67AEFB84772A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "607EB67C3524CC50"
+				structure: "formationsnether:small_pedestal"
+				type: "structure"
+			}]
+			title: "Visiter : « Small pedestal »"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "401640027F984074"
+			optional: true
+			rewards: [{
+				id: "19171A423A11B778"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations Nether"
+			tasks: [{
+				id: "5C56B65B00D0E5A7"
+				structure: "formationsnether:sphere_cage"
+				type: "structure"
+			}]
+			title: "Visiter : « Sphere cage »"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Jungle de bambous (données du serveur)."]
+			id: "1964F191BF3B207A"
+			optional: true
+			rewards: [{
+				id: "2A432922EA631F76"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "74ADBBDCE6E37B23"
+				structure: "formationsoverworld:bamboo_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Bamboo hut »"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Savane luxuriante, Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur)."]
+			id: "5C544179582BBB65"
+			optional: true
+			rewards: [{
+				id: "695EDC152A2F9537"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "33210D039B9906B5"
+				structure: "formationsoverworld:campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Campsite »"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "6E9EA49A22552D9E"
+			optional: true
+			rewards: [{
+				id: "6AD17C1272B33B0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "71BFBB433A95CD12"
+				structure: "formationsoverworld:cobble_hole"
+				type: "structure"
+			}]
+			title: "Visiter : « Cobble hole »"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "674066E8EBFD6004"
+			optional: true
+			rewards: [{
+				id: "50FCAE8065087880"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "7ECF39BE9C42640E"
+				structure: "formationsoverworld:copper_spire"
+				type: "structure"
+			}]
+			title: "Visiter : « Copper spire »"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Désert (données du serveur)."]
+			id: "48C69EC4D6A0DAEB"
+			optional: true
+			rewards: [{
+				id: "0D8AA8DEEFC74FD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "0FC2B5882C17525C"
+				structure: "formationsoverworld:desert_houses"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert houses »"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Désert, Plaines (données du serveur)."]
+			id: "45BF8CFBCFE6BCF0"
+			optional: true
+			rewards: [{
+				id: "0657494A0CDEC609"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "4F31E1F78EEC4562"
+				structure: "formationsoverworld:farmland_field"
+				type: "structure"
+			}]
+			title: "Visiter : « Farmland field »"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "2FF76F20EF08F925"
+			optional: true
+			rewards: [{
+				id: "215DB39E9131929C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "3CA3B92B1161BC6C"
+				structure: "formationsoverworld:fountain"
+				type: "structure"
+			}]
+			title: "Visiter : « Fountain »"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "4BE2A1815AB10408"
+			optional: true
+			rewards: [{
+				id: "2A1D1D910934572F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "151447577D490155"
+				structure: "formationsoverworld:graveyard"
+				type: "structure"
+			}]
+			title: "Visiter : « Graveyard »"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "32F6B3E642988576"
+			optional: true
+			rewards: [{
+				id: "5565FB91B92E3DA3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "3E043DCEA224CCFF"
+				structure: "formationsoverworld:hobbit_hole"
+				type: "structure"
+			}]
+			title: "Visiter : « Hobbit hole »"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Océan gelé profond, Océan gelé, Rivière gelée (données du serveur)."]
+			id: "5234EC1592E6CDA5"
+			optional: true
+			rewards: [{
+				id: "187269338CBEDBFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "41D27D333EA5DCC0"
+				structure: "formationsoverworld:ice_castle"
+				type: "structure"
+			}]
+			title: "Visiter : « Ice castle »"
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Océan gelé profond, Océan gelé, Stalagmites de glace (données du serveur)."]
+			id: "2F68D929A7A55F19"
+			optional: true
+			rewards: [{
+				id: "2964109D85D4242C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "2FAFB4AC312707B9"
+				structure: "formationsoverworld:ice_spire"
+				type: "structure"
+			}]
+			title: "Visiter : « Ice spire »"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Plaines enneigées, Taïga enneigée (données du serveur)."]
+			id: "539D4AA798540C93"
+			optional: true
+			rewards: [{
+				id: "7CEAAC66B0E69BF6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "0FAA704762CEDA9A"
+				structure: "formationsoverworld:igloo"
+				type: "structure"
+			}]
+			title: "Visiter : « Igloo »"
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur)."]
+			id: "16F5F8E09BBDEC87"
+			optional: true
+			rewards: [{
+				id: "14A66B3D53907D18"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "1D1C5AA7D93DFAD9"
+				structure: "formationsoverworld:large_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Large temple »"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "672BBFFC2267B4F1"
+			optional: true
+			rewards: [{
+				id: "096523EE7FD3A0BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "592A0C5799A3EDC0"
+				structure: "formationsoverworld:log_shelter"
+				type: "structure"
+			}]
+			title: "Visiter : « Log shelter »"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "7078D2F7DD59346F"
+			optional: true
+			rewards: [{
+				id: "4DDAFF491C80201A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "70EF095E690823B7"
+				structure: "formationsoverworld:log_spikes"
+				type: "structure"
+			}]
+			title: "Visiter : « Log spikes »"
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur)."]
+			id: "2DFB5E745162B76F"
+			optional: true
+			rewards: [{
+				id: "28E38AF1940D7B92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "0CF5A419AE87B349"
+				structure: "formationsoverworld:mesoamerican_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Mesoamerican temple »"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "2645AA5B19456EE2"
+			optional: true
+			rewards: [{
+				id: "2D6697C00003E192"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "21F83E7CA1D3D2AA"
+				structure: "formationsoverworld:meteor"
+				type: "structure"
+			}]
+			title: "Visiter : « Meteor »"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Champs de champignons (données du serveur)."]
+			id: "44BFB90E0994E2BB"
+			optional: true
+			rewards: [{
+				id: "33F464344044E0BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "117875F40770C352"
+				structure: "formationsoverworld:mushroom_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom hut »"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "301A67915A881243"
+			optional: true
+			rewards: [{
+				id: "44702F99725BCB22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "2253178F1290F414"
+				structure: "formationsoverworld:offering"
+				type: "structure"
+			}]
+			title: "Visiter : « Offering »"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "259D5AC26BA416C2"
+			optional: true
+			rewards: [{
+				id: "58DB6BB4758E620E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "40ACC3C4AA052433"
+				structure: "formationsoverworld:raft"
+				type: "structure"
+			}]
+			title: "Visiter : « Raft »"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "0F55368EE5791D82"
+			optional: true
+			rewards: [{
+				id: "03FF52DBAA8C7690"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "7B9B840422EE00FF"
+				structure: "formationsoverworld:small_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Small house »"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "3F2DF1B05203D5CA"
+			optional: true
+			rewards: [{
+				id: "25CCAE1C43FAA18C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "23F14C4B175BC631"
+				structure: "formationsoverworld:small_statue"
+				type: "structure"
+			}]
+			title: "Visiter : « Small statue »"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur)."]
+			id: "21456FCCC79569F0"
+			optional: true
+			rewards: [{
+				id: "695C517B65FC3C40"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "63A46D2CE4B7FE2A"
+				structure: "formationsoverworld:small_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Small temple »"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "6CE8E4E9B7BAA653"
+			optional: true
+			rewards: [{
+				id: "72D150C2CE2080B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "2BAF3804476AEE6B"
+				structure: "formationsoverworld:stone_ore_spikes"
+				type: "structure"
+			}]
+			title: "Visiter : « Stone ore spikes »"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Escarpée, « Jacaranda Glade », Falaises de jade, Savane luxuriante et d'autres (données du serveur)."]
+			id: "065A4F84F84DBB67"
+			optional: true
+			rewards: [{
+				id: "3A08E32F5B8EB5FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "5A2EDC7C5D2FCD4E"
+				structure: "formationsoverworld:stone_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Stone tower »"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "181D5047EF78A97F"
+			optional: true
+			rewards: [{
+				id: "596F60A262BC2B37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "29785592E5BE0582"
+				structure: "formationsoverworld:tiny_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Tiny house »"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "29A7DE83015B6CDA"
+			optional: true
+			rewards: [{
+				id: "10DA93A1ED26D529"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "3533424822C92AC9"
+				structure: "formationsoverworld:tower_remnant"
+				type: "structure"
+			}]
+			title: "Visiter : « Tower remnant »"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "25D400A880AB9D8F"
+			optional: true
+			rewards: [{
+				id: "6C9295935497D638"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "573335DC9A729FAD"
+				structure: "formationsoverworld:wagon"
+				type: "structure"
+			}]
+			title: "Visiter : « Wagon »"
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "7E0BC3B170324FE0"
+			optional: true
+			rewards: [{
+				id: "761E69CDFAE7D3C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Formations"
+			tasks: [{
+				id: "184F552F54392972"
+				structure: "formationsoverworld:well"
+				type: "structure"
+			}]
+			title: "Visiter : « Well »"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Marais à mangroves, Plaines, Savane, Plaines enneigées, Plaines de tournesols et d'autres (données du serveur)."]
+			id: "29AD3E9FA9C5ECB9"
+			optional: true
+			rewards: [{
+				id: "4EBC3F217A2CDF30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "3D0E8C0AA74191EF"
+				structure: "philipsruins:ancient_crypt"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient crypt »"
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur)."]
+			id: "3FACFBE1D0681D1F"
+			optional: true
+			rewards: [{
+				id: "5833A25BFF52AACB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "52B0A3A59F30F3E9"
+				structure: "philipsruins:ancient_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient dungeon »"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "629F46B078B279ED"
+			optional: true
+			rewards: [{
+				id: "59D4DF340A0A0E4F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "023A022F8B224CCF"
+				structure: "philipsruins:ancient_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient ruins »"
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "253F40E35AE1136A"
+			optional: true
+			rewards: [{
+				id: "3B52A4B21CC27514"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "5007F5EA1DC8FE71"
+				structure: "philipsruins:ancient_towers"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient towers »"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Marais à mangroves, Plaines, Savane, Plaines enneigées, Plaines de tournesols et d'autres (données du serveur)."]
+			id: "1B3384F16F6C7843"
+			optional: true
+			rewards: [{
+				id: "5DA89DA68DB7CFA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "63BBFD1F2715A1E0"
+				structure: "philipsruins:antiquus_crypta"
+				type: "structure"
+			}]
+			title: "Visiter : « Antiquus crypta »"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "71401B85A23FBC48"
+			optional: true
+			rewards: [{
+				id: "72B2AB8CE769563E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "4EE07804C1CA4A9D"
+				structure: "philipsruins:badlands_start_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Badlands start dungeon »"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "59D9544A5DDE1E47"
+			optional: true
+			rewards: [{
+				id: "3B0B6EB8D48CFE5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "216F8AC09322A5E2"
+				structure: "philipsruins:badlands_structures"
+				type: "structure"
+			}]
+			title: "Visiter : « Badlands structures »"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "5DE682EF2B4984FC"
+			optional: true
+			rewards: [{
+				id: "36BE00CCB42CA3EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "689B74E3A047E352"
+				structure: "philipsruins:bone_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Bone dungeon »"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Désert (données du serveur)."]
+			id: "180DFBC9AEE6C1AA"
+			optional: true
+			rewards: [{
+				id: "27A8EF15D6605B24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "67157B82D429BD70"
+				structure: "philipsruins:desert_structures"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert structures »"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur)."]
+			id: "7138B8D39A0EFB28"
+			optional: true
+			rewards: [{
+				id: "34C7290F8EAA4C77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "48DFD71C30831184"
+				structure: "philipsruins:end_gate_fortress"
+				type: "structure"
+			}]
+			title: "Visiter : « End gate fortress »"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur)."]
+			id: "14E83E8F52B8283A"
+			optional: true
+			rewards: [{
+				id: "48A5D52A4FB0F785"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "65E1C37625361BD6"
+				structure: "philipsruins:end_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « End ruins »"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur)."]
+			id: "077E910FF1407EAE"
+			optional: true
+			rewards: [{
+				id: "087A55632096011C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "4B2D56848AF45EE5"
+				structure: "philipsruins:field_stone_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Field stone ruins »"
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "3ED75F6430BFDABA"
+			optional: true
+			rewards: [{
+				id: "72AE75046BADCFBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "59FD483D17282ED3"
+				structure: "philipsruins:field_stone_ruins_rocks"
+				type: "structure"
+			}]
+			title: "Visiter : « Field stone ruins rocks »"
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur)."]
+			id: "376DB661FC964C78"
+			optional: true
+			rewards: [{
+				id: "55D664668100A5D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "12507A301B1FD8B9"
+				structure: "philipsruins:level_one_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Level one ruins »"
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur)."]
+			id: "4C148C3E5CD5AD80"
+			optional: true
+			rewards: [{
+				id: "11E42B03F915E20F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "2A952BB8E8F35B28"
+				structure: "philipsruins:level_three_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Level three ruins »"
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur)."]
+			id: "36224938B65F1E88"
+			optional: true
+			rewards: [{
+				id: "5F01F1E5612E4342"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "1514D63B3270B308"
+				structure: "philipsruins:level_two_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Level two ruins »"
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur)."]
+			id: "3E9AD478F5B03BD9"
+			optional: true
+			rewards: [{
+				id: "66F1A3B0BB257DC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "098A15F3AFA45731"
+				structure: "philipsruins:level_two_ruins_pool"
+				type: "structure"
+			}]
+			title: "Visiter : « Level two ruins pool »"
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "32FCA1B2BBADAAC3"
+			optional: true
+			rewards: [{
+				id: "7BE5A0D86AF14E96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "4EFD37F6F533450A"
+				structure: "philipsruins:lost_soul_city"
+				type: "structure"
+			}]
+			title: "Visiter : « Lost soul city »"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Abîmes (données du serveur)."]
+			id: "15C4D3B11A354A32"
+			optional: true
+			rewards: [{
+				id: "068DCF1665DBF406"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "318351865B2E9651"
+				structure: "philipsruins:lost_soul_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Lost soul dungeon »"
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur)."]
+			id: "611CB024EAC77BB3"
+			optional: true
+			rewards: [{
+				id: "29D93D74D1EB802C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "58BC641D944F4282"
+				structure: "philipsruins:nether_lava_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether lava ruins »"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "612E4AAB62817657"
+			optional: true
+			rewards: [{
+				id: "2AB06F8EB3D5DF47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "41A0799B5ACFE939"
+				structure: "philipsruins:ocean_fortress"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean fortress »"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "1D83D12EFF40CDB9"
+			optional: true
+			rewards: [{
+				id: "67C562D1E46FAF90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "30798B76ADDA4B78"
+				structure: "philipsruins:ocean_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean ruins »"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "247B737312B9A858"
+			optional: true
+			rewards: [{
+				id: "432EAD02BA97D12B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "13B54BB4A42C7BE1"
+				structure: "philipsruins:pumpkin_ruins"
+				type: "structure"
+			}]
+			title: "Visiter : « Pumpkin ruins »"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Jungle, Marais à mangroves (données du serveur)."]
+			id: "71A1AD3E25D138AC"
+			optional: true
+			rewards: [{
+				id: "775EFC4288A538D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "6D53F5B7677890C7"
+				structure: "philipsruins:rare_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Rare ruin »"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Abîmes (données du serveur)."]
+			id: "0969AF8BF0346F8C"
+			optional: true
+			rewards: [{
+				id: "479BB2345ADE277C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "59AD508E567A590C"
+				structure: "philipsruins:sculk_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Sculk dungeon »"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur)."]
+			id: "57D1B332621EC0E1"
+			optional: true
+			rewards: [{
+				id: "0B4E7F7EBE0AD902"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "3A516EAE08AD1087"
+				structure: "philipsruins:sealedruinedghaststatue1"
+				type: "structure"
+			}]
+			title: "Visiter : « Sealedruinedghaststatue1 »"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur)."]
+			id: "5647E83811DAA735"
+			optional: true
+			rewards: [{
+				id: "0AA3DC895F8B4D54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "2670171872DF7D86"
+				structure: "philipsruins:start_nether_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Start nether dungeon »"
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur)."]
+			id: "63617C6F7A35127B"
+			optional: true
+			rewards: [{
+				id: "06748DE95BA04CCD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "38E4C6F618982DBB"
+				structure: "philipsruins:start_nether_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Start nether ruin »"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			description: ["Structure de &bPhilip's Ruins&r. Se génère dans : Abîmes (données du serveur)."]
+			id: "26F0B6AA825DA66B"
+			optional: true
+			rewards: [{
+				id: "3B1AC26F0D491C1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Philip's Ruins"
+			tasks: [{
+				id: "543BF0897BEC4E45"
+				structure: "philipsruins:underground_structures"
+				type: "structure"
+			}]
+			title: "Visiter : « Underground structures »"
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"19F63DE6FC240DA4"
+				"491A6F2FFC369EC3"
+				"664AB79A51DF9DCE"
+				"1C89AF7239959545"
+				"462C0FB81DF95DD7"
+				"6CDEC9527E68157C"
+				"25EEC477BDC81A87"
+				"24BD2E7F1AF6954D"
+				"528AFDBEE839FD31"
+				"5A370CC29EB892A1"
+				"18F9A354D35D9EE1"
+				"1F17C17282FB88E6"
+				"57461C6AFBC45871"
+				"7E9B1CB47499EB46"
+				"3DB4FCBA73633662"
+				"03A6553C56C3D6D1"
+				"6FC3F0C0B21C4914"
+				"7DCC03D54E3F2080"
+				"3EC4EE0E78666429"
+				"2E9826214DE4385E"
+				"05C42EFC14496487"
+				"602C09BE905492E6"
+				"7350F431C3020A7D"
+				"4E24DAE2790A58F7"
+				"12067249A286C26D"
+				"57DAE6D598531CFD"
+				"551CF1752954F55C"
+				"21BDC665D42B13B8"
+				"62D746C19E410830"
+				"1066D52EF2D0B573"
+				"20B966C050E2BE94"
+				"5B36A5153AE4BDDB"
+				"1454ABCDF920BE52"
+				"0372C5D4E8D4500A"
+				"4BC35B701C5EA833"
+				"36ADD19A2DA2E24D"
+				"3FD9DCDF07259C22"
+				"37D8D7091FD5496B"
+				"78846FC7734A61C1"
+				"472F2BFEE184DBD9"
+				"59A4AB18B2BA7E72"
+				"469DA8C230FDC482"
+				"7988FD32C5F1179A"
+				"7B6C99B89EBF3A05"
+				"3B12E2668E60EE86"
+				"6FF34C7145293924"
+				"4A5CE0A72C233422"
+				"4C2E91530FCA5E4C"
+				"5A40451D55B64AFD"
+				"429DE632EBF3CCE8"
+				"6B9AEE7CA10299C1"
+				"13F86AEFB8172FB3"
+				"0255AF952000F9D2"
+				"3FD4BBA3A83B4F59"
+				"3984B155A8A39B12"
+				"1174F66C0F64B421"
+				"52AD7A944EA4C15A"
+				"0AE7DCB67246C30C"
+				"407F71477E19F528"
+				"557A4E136A19F731"
+				"7D9810868BADB289"
+				"1A540BE285586400"
+				"2FE0C01B7477FC03"
+				"4563CE6D48AA96DF"
+				"2B8E9640E52FBE3E"
+				"463D4FEA35B8FB37"
+				"3351391BAF0A6592"
+				"3A6CDA910B5F5548"
+				"7453A29432BF27F6"
+				"0A5E9261919F8FEE"
+				"2DA8CFFFF61050A5"
+				"2B5122A257DC0EBB"
+				"79C565E1E921576A"
+				"01B9A9B94B543727"
+				"78C26CE97125CDE4"
+				"670481F44D70F4CE"
+				"6C71BB69EFCF9F96"
+				"128BB61A9C468FFD"
+				"00A6190C1776A6CF"
+				"769112EB7EA2A1E7"
+				"6453C42DB1ED5AD7"
+				"593EE1E2061F76F6"
+				"585028C6002D1298"
+				"714454C7B5E2116B"
+				"388160671879E897"
+				"7873B12BA1976314"
+				"0430EB1E33920FE2"
+				"525CA6DE5B90BB47"
+				"3F36DBB711F9740A"
+				"294829A96A8BC9A5"
+				"691D282398D53A26"
+				"212AE900568A27E8"
+				"7343385B471F9860"
+				"4793C2BA5DB09DE0"
+				"692C7A27746B9F99"
+				"553BA26E8A4B4590"
+				"7D2AF7D58DDF917D"
+				"4D8962BEE5BEB7EA"
+				"243524F2DB36B5C6"
+				"33A2E82536CA6EC7"
+				"1685280A5F550074"
+				"56527A09D2691453"
+				"2E8ACEE2B1D343FD"
+				"51342A46BB56EB31"
+				"7594009D7010A6CB"
+				"4B702C108F1FF615"
+				"5ED27CEEBE8EEE54"
+				"3346904B98BD3784"
+				"28B8B4190EB37028"
+				"47A8AC01D3A9CB5E"
+				"2E0CBA503E2AAEB4"
+				"52A4C697D9857AA3"
+				"05724BE04C99BEE7"
+				"33B4F5899CF02CBF"
+				"4371C7AA0B5F7826"
+				"4FC87C2A77C2585F"
+				"7EA21D5C7FB0B2D2"
+				"09898A1FACD14418"
+				"2015B83993DC8C41"
+				"0EDBCB5A74C4EECA"
+				"5137A0C517A0FDDA"
+				"6E4F43A01C69CB0F"
+				"3F41F39F33577492"
+				"66F8CBB851763789"
+				"652117600CFBA984"
+				"43BDDAD9A0292D1E"
+				"3B2FD14E31B6B487"
+				"4F119275FD353177"
+				"795F582775F0C190"
+				"0B05D4561ED08655"
+				"13E3DD46A2DDB93E"
+				"201F84110636BDD4"
+				"6CCD17692CCB5B33"
+				"612068668477D122"
+				"3F03E49BD315BC42"
+				"15688610F36FCBD6"
+				"47B4C5C8C98E9DF9"
+				"072324D66A0FEBC9"
+				"62EDA7A1992F55AF"
+				"25D70C9290542893"
+				"7AD5ED687DAC48E0"
+				"2AAD5D8DE08BBA56"
+				"350A0CE3EED4FCD2"
+				"401640027F984074"
+				"1964F191BF3B207A"
+				"5C544179582BBB65"
+				"6E9EA49A22552D9E"
+				"674066E8EBFD6004"
+				"48C69EC4D6A0DAEB"
+				"45BF8CFBCFE6BCF0"
+				"2FF76F20EF08F925"
+				"4BE2A1815AB10408"
+				"32F6B3E642988576"
+				"5234EC1592E6CDA5"
+				"2F68D929A7A55F19"
+				"539D4AA798540C93"
+				"16F5F8E09BBDEC87"
+				"672BBFFC2267B4F1"
+				"7078D2F7DD59346F"
+				"2DFB5E745162B76F"
+				"2645AA5B19456EE2"
+				"44BFB90E0994E2BB"
+				"301A67915A881243"
+				"259D5AC26BA416C2"
+				"0F55368EE5791D82"
+				"3F2DF1B05203D5CA"
+				"21456FCCC79569F0"
+				"6CE8E4E9B7BAA653"
+				"065A4F84F84DBB67"
+				"181D5047EF78A97F"
+				"29A7DE83015B6CDA"
+				"25D400A880AB9D8F"
+				"7E0BC3B170324FE0"
+				"29AD3E9FA9C5ECB9"
+				"3FACFBE1D0681D1F"
+				"629F46B078B279ED"
+				"253F40E35AE1136A"
+				"1B3384F16F6C7843"
+				"71401B85A23FBC48"
+				"59D9544A5DDE1E47"
+				"5DE682EF2B4984FC"
+				"180DFBC9AEE6C1AA"
+				"7138B8D39A0EFB28"
+				"14E83E8F52B8283A"
+				"077E910FF1407EAE"
+				"3ED75F6430BFDABA"
+				"376DB661FC964C78"
+				"4C148C3E5CD5AD80"
+				"36224938B65F1E88"
+				"3E9AD478F5B03BD9"
+				"32FCA1B2BBADAAC3"
+				"15C4D3B11A354A32"
+				"611CB024EAC77BB3"
+				"612E4AAB62817657"
+				"1D83D12EFF40CDB9"
+				"247B737312B9A858"
+				"71A1AD3E25D138AC"
+				"0969AF8BF0346F8C"
+				"57D1B332621EC0E1"
+				"5647E83811DAA735"
+				"63617C6F7A35127B"
+				"26F0B6AA825DA66B"
+			]
+			description: ["Toutes les structures de ce chapitre visitées. La récompense est symbolique."]
+			icon: "minecraft:filled_map"
+			id: "5E7CB49C4C0ABEB0"
+			optional: true
+			rewards: [{
+				id: "4FA1BB45E6B973C4"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4C32F41228AC35E4"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Structures — ruines et petites choses"
+}

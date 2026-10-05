@@ -1,0 +1,2257 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Structures — ruines et petites choses"
+fichier = "enc_structures_ruines"
+groupe = "encyclopedie"
+icone = "minecraft:chiseled_stone_bricks"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Structures — ruines et petites choses"
+taille = 1.5
+icone = "minecraft:chiseled_stone_bricks"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+"""
+
+[[quete]]
+cle = "adorabuild_structures_acacia_house_medium_1"
+titre = "Visiter : « Acacia house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:acacia_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_acacia_house_medium_2"
+titre = "Visiter : « Acacia house medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:acacia_house_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_acacia_house_medium_3"
+titre = "Visiter : « Acacia house medium 3 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:acacia_house_medium_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_acacia_house_small_1"
+titre = "Visiter : « Acacia house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:acacia_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_acacia_house_small_2"
+titre = "Visiter : « Acacia house small 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:acacia_house_small_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_acacia_well_1"
+titre = "Visiter : « Acacia well 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:acacia_well_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_ancient_palace_1"
+titre = "Visiter : « Ancient palace 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:ancient_palace_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_ancient_palace_2"
+titre = "Visiter : « Ancient palace 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:ancient_palace_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_bamboo_campfire_1"
+titre = "Visiter : « Bamboo campfire 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:bamboo_campfire_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Jungle de bambous, Jungle (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_bamboo_house_small_1"
+titre = "Visiter : « Bamboo house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:bamboo_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Jungle de bambous, Jungle (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_bamboo_raft_1"
+titre = "Visiter : « Bamboo raft 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:bamboo_raft_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_basalt_chambers_large_1"
+titre = "Visiter : « Basalt chambers large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:basalt_chambers_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Flooded Deltas », Deltas de basalte (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_birch_beehive_1"
+titre = "Visiter : « Birch beehive 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:birch_beehive_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_birch_house_medium_1"
+titre = "Visiter : « Birch house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:birch_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_birch_house_medium_2"
+titre = "Visiter : « Birch house medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:birch_house_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_birch_house_small_1"
+titre = "Visiter : « Birch house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:birch_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_birch_house_small_2"
+titre = "Visiter : « Birch house small 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:birch_house_small_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_birch_tree_1"
+titre = "Visiter : « Birch tree 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:birch_tree_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_blackstone_bastion_medium_1"
+titre = "Visiter : « Blackstone bastion medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:blackstone_bastion_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_blackstone_bastion_medium_2"
+titre = "Visiter : « Blackstone bastion medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:blackstone_bastion_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_blackstone_bastion_small_1"
+titre = "Visiter : « Blackstone bastion small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:blackstone_bastion_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_blackstone_temple_small_1"
+titre = "Visiter : « Blackstone temple small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:blackstone_temple_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_cherry_house_medium_1"
+titre = "Visiter : « Cherry house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:cherry_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_cherry_house_medium_2"
+titre = "Visiter : « Cherry house medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:cherry_house_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_cherry_raft_1"
+titre = "Visiter : « Cherry raft 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:cherry_raft_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_cherry_tree_1"
+titre = "Visiter : « Cherry tree 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:cherry_tree_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_crimson_house_medium_1"
+titre = "Visiter : « Crimson house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:crimson_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_crimson_house_medium_2"
+titre = "Visiter : « Crimson house medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:crimson_house_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_dark_oak_house_large_1"
+titre = "Visiter : « Dark oak house large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:dark_oak_house_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_dark_oak_house_small_1"
+titre = "Visiter : « Dark oak house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:dark_oak_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_dark_oak_ship_1"
+titre = "Visiter : « Dark oak ship 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:dark_oak_ship_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan froid, Océan froid profond, Océan tiède profond, Océan profond, Océan tiède et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_bubble_large_1"
+titre = "Visiter : « End bubble large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_bubble_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_bubble_medium_1"
+titre = "Visiter : « End bubble medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_bubble_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_bubble_medium_2"
+titre = "Visiter : « End bubble medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_bubble_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_gateway_large_1"
+titre = "Visiter : « End gateway large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_gateway_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_gateway_small_1"
+titre = "Visiter : « End gateway small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_gateway_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_house_medium_1"
+titre = "Visiter : « End house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_house_medium_2"
+titre = "Visiter : « End house medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_house_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_house_medium_3"
+titre = "Visiter : « End house medium 3 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_house_medium_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_house_small_1"
+titre = "Visiter : « End house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_house_small_2"
+titre = "Visiter : « End house small 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_house_small_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_ship_small_1"
+titre = "Visiter : « End ship small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_ship_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_temple_large_1"
+titre = "Visiter : « End temple large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_temple_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_end_temple_small_1"
+titre = "Visiter : « End temple small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:end_temple_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_frozen_house_medium_1"
+titre = "Visiter : « Frozen house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:frozen_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan gelé, Rivière gelée (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_frozen_hut_1"
+titre = "Visiter : « Frozen hut 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:frozen_hut_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan gelé, Rivière gelée (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_frozen_hut_2"
+titre = "Visiter : « Frozen hut 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:frozen_hut_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan gelé, Rivière gelée (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_jungle_boat_1"
+titre = "Visiter : « Jungle boat 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:jungle_boat_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_jungle_house_small_1"
+titre = "Visiter : « Jungle house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:jungle_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_jungle_tree_house_1"
+titre = "Visiter : « Jungle tree house 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:jungle_tree_house_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_library_large_1"
+titre = "Visiter : « Library large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:library_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_library_small_1"
+titre = "Visiter : « Library small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:library_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_mangrove_house_small_1"
+titre = "Visiter : « Mangrove house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:mangrove_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_mangrove_tree_house_1"
+titre = "Visiter : « Mangrove tree house 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:mangrove_tree_house_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_mangrove_tree_house_2"
+titre = "Visiter : « Mangrove tree house 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:mangrove_tree_house_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_mountain_mine_1"
+titre = "Visiter : « Mountain mine 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:mountain_mine_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_mountain_mine_2"
+titre = "Visiter : « Mountain mine 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:mountain_mine_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_mushroom_large_1"
+titre = "Visiter : « Mushroom large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:mushroom_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Champs de champignons (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_nether_fortress_large_1"
+titre = "Visiter : « Nether fortress large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:nether_fortress_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_nether_fortress_large_2"
+titre = "Visiter : « Nether fortress large 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:nether_fortress_large_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_nether_fortress_medium_1"
+titre = "Visiter : « Nether fortress medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:nether_fortress_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_nether_fossil_1"
+titre = "Visiter : « Nether fossil 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:nether_fossil_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Nether Grasslands, Nether Jungle, Nether Swampland, Nether Swampland Terraces et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_nether_portal_small_1"
+titre = "Visiter : « Nether portal small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:nether_portal_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_nether_temple_medium_1"
+titre = "Visiter : « Nether temple medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:nether_temple_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_house_large_1"
+titre = "Visiter : « Oak house large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_house_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_house_medium_1"
+titre = "Visiter : « Oak house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_house_medium_2"
+titre = "Visiter : « Oak house medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_house_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_house_small_1"
+titre = "Visiter : « Oak house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_house_small_2"
+titre = "Visiter : « Oak house small 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_house_small_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_house_small_3"
+titre = "Visiter : « Oak house small 3 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_house_small_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_hut_1"
+titre = "Visiter : « Oak hut 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_hut_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_ship_1"
+titre = "Visiter : « Oak ship 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_ship_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_oak_tree_1"
+titre = "Visiter : « Oak tree 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:oak_tree_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_ocean_bubble_1"
+titre = "Visiter : « Ocean bubble 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:ocean_bubble_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_ocean_temple_medium_1"
+titre = "Visiter : « Ocean temple medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:ocean_temple_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_ocean_temple_medium_2"
+titre = "Visiter : « Ocean temple medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:ocean_temple_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_ocean_temple_small_1"
+titre = "Visiter : « Ocean temple small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:ocean_temple_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_ocean_temple_small_2"
+titre = "Visiter : « Ocean temple small 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:ocean_temple_small_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_prison_large_1"
+titre = "Visiter : « Prison large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:prison_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Terre sèche, Champ, Plaine inondable et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_prison_small_1"
+titre = "Visiter : « Prison small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:prison_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Terre sèche, Champ, Plaine inondable et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_red_sand_house_medium_1"
+titre = "Visiter : « Red sand house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:red_sand_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_red_sand_house_small_1"
+titre = "Visiter : « Red sand house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:red_sand_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_red_sand_temple_medium_1"
+titre = "Visiter : « Red sand temple medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:red_sand_temple_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_red_sand_temple_small_1"
+titre = "Visiter : « Red sand temple small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:red_sand_temple_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_sand_castle_small_1"
+titre = "Visiter : « Sand castle small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:sand_castle_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_sand_castle_tiny_1"
+titre = "Visiter : « Sand castle tiny 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:sand_castle_tiny_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Plage (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_sand_house_medium_1"
+titre = "Visiter : « Sand house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:sand_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_sand_house_medium_2"
+titre = "Visiter : « Sand house medium 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:sand_house_medium_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_sand_house_small_1"
+titre = "Visiter : « Sand house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:sand_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_sand_house_small_2"
+titre = "Visiter : « Sand house small 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:sand_house_small_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_sand_pyramid_1"
+titre = "Visiter : « Sand pyramid 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:sand_pyramid_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_sand_underground_castle_1"
+titre = "Visiter : « Sand underground castle 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:sand_underground_castle_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_spruce_house_large_1"
+titre = "Visiter : « Spruce house large 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:spruce_house_large_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_spruce_house_medium_1"
+titre = "Visiter : « Spruce house medium 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:spruce_house_medium_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_spruce_house_small_1"
+titre = "Visiter : « Spruce house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:spruce_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_spruce_house_small_2"
+titre = "Visiter : « Spruce house small 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:spruce_house_small_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_spruce_house_small_3"
+titre = "Visiter : « Spruce house small 3 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:spruce_house_small_3"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_spruce_ship_1"
+titre = "Visiter : « Spruce ship 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:spruce_ship_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Océan froid, Océan froid profond, Océan profond, Océan (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_warped_house_small_1"
+titre = "Visiter : « Warped house small 1 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:warped_house_small_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Old Warped Woods, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "adorabuild_structures_warped_house_small_2"
+titre = "Visiter : « Warped house small 2 »"
+sous_titre = "AdoraBuild"
+optionnel = true
+taches = ["structure adorabuild_structures:warped_house_small_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAdoraBuild&r. Se génère dans : Old Warped Woods, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_campsite"
+titre = "Visiter : « Campsite »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_desert_ruin"
+titre = "Visiter : « Desert ruin »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:desert_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_floating_island"
+titre = "Visiter : « Floating island »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:floating_island"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_forgotten_well"
+titre = "Visiter : « Forgotten well »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:forgotten_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_jungle_temple"
+titre = "Visiter : « Jungle temple »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:jungle_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_large_oak_tree"
+titre = "Visiter : « Large oak tree »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:large_oak_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_logs"
+titre = "Visiter : « Logs »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:logs"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : « Aspen Glade », Plaine inondable, Jungle fongique, « Jacaranda Glade », Forêt méditerranéenne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_shrine"
+titre = "Visiter : « Shrine »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:shrine"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : « Aspen Glade », Plaine inondable, Jungle fongique, « Jacaranda Glade », Forêt méditerranéenne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_slime_cave"
+titre = "Visiter : « Slime cave »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:slime_cave"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "explorations_underground_temple"
+titre = "Visiter : « Underground temple »"
+sous_titre = "Explorations"
+optionnel = true
+taches = ["structure explorations:underground_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bExplorations&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_aether"
+titre = "Visiter : « Aether »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:aether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_aquaculture_beach"
+titre = "Visiter : « Aquaculture beach »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:aquaculture_beach"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_aquaculture_carp"
+titre = "Visiter : « Aquaculture carp »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:aquaculture_carp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : « Aspen Glade », Hauts plateaux, « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_aquaculture_common"
+titre = "Visiter : « Aquaculture common »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:aquaculture_common"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : « Aspen Glade », Hauts plateaux, « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_cook"
+titre = "Visiter : « Cook »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:cook"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Hauts plateaux, Plaines, Savane, Plaines de tournesols, Forêt venteuse et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_cook_moss"
+titre = "Visiter : « Cook moss »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:cook_moss"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Bosquet de cerisiers (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_cook_nether_1"
+titre = "Visiter : « Cook nether 1 »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:cook_nether_1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_cook_nether_2"
+titre = "Visiter : « Cook nether 2 »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:cook_nether_2"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Terres désolées du Nether (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_quark_glimer"
+titre = "Visiter : « Quark glimer »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:quark_glimer"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Forêt lumineuse (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_quark_jungle"
+titre = "Visiter : « Quark jungle »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:quark_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Jungle, Jungle clairsemée (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_quark_moss"
+titre = "Visiter : « Quark moss »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:quark_moss"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Jungle, Jungle clairsemée (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_quark_slime"
+titre = "Visiter : « Quark slime »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:quark_slime"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "farmers_structures_sushi"
+titre = "Visiter : « Sushi »"
+sous_titre = "Farmer's Structures"
+optionnel = true
+taches = ["structure farmers_structures:sushi"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFarmer's Structures&r. Se génère dans : « Cold river », « Lukewarm river », « Warm river », Rivière gelée, Rivière (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_basalt_hut"
+titre = "Visiter : « Basalt hut »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:basalt_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Deltas de basalte (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_blackstone_castle"
+titre = "Visiter : « Blackstone castle »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:blackstone_castle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_blackstone_remnant"
+titre = "Visiter : « Blackstone remnant »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:blackstone_remnant"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_campsite"
+titre = "Visiter : « Campsite »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_checkerboard_temple"
+titre = "Visiter : « Checkerboard temple »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:checkerboard_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_flaming_pillar"
+titre = "Visiter : « Flaming pillar »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:flaming_pillar"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_large_house"
+titre = "Visiter : « Large house »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:large_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_large_pedestal"
+titre = "Visiter : « Large pedestal »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:large_pedestal"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_large_tree"
+titre = "Visiter : « Large tree »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:large_tree"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_nether_wart_field"
+titre = "Visiter : « Nether wart field »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:nether_wart_field"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether, Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_obsidian_pillar"
+titre = "Visiter : « Obsidian pillar »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:obsidian_pillar"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_ore_shard"
+titre = "Visiter : « Ore shard »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:ore_shard"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_parkour_challenge"
+titre = "Visiter : « Parkour challenge »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:parkour_challenge"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_quartz_spikes"
+titre = "Visiter : « Quartz spikes »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:quartz_spikes"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether, Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_respawn_anchor_altar"
+titre = "Visiter : « Respawn anchor altar »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:respawn_anchor_altar"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_rib_cage"
+titre = "Visiter : « Rib cage »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:rib_cage"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_small_fire_arena"
+titre = "Visiter : « Small fire arena »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:small_fire_arena"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_small_lava_arena"
+titre = "Visiter : « Small lava arena »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:small_lava_arena"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_small_lava_shrine"
+titre = "Visiter : « Small lava shrine »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:small_lava_shrine"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Terres désolées du Nether (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_small_pedestal"
+titre = "Visiter : « Small pedestal »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:small_pedestal"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsnether_sphere_cage"
+titre = "Visiter : « Sphere cage »"
+sous_titre = "Formations Nether"
+optionnel = true
+taches = ["structure formationsnether:sphere_cage"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_bamboo_hut"
+titre = "Visiter : « Bamboo hut »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:bamboo_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Jungle de bambous (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_campsite"
+titre = "Visiter : « Campsite »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Savane luxuriante, Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_cobble_hole"
+titre = "Visiter : « Cobble hole »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:cobble_hole"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_copper_spire"
+titre = "Visiter : « Copper spire »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:copper_spire"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_desert_houses"
+titre = "Visiter : « Desert houses »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:desert_houses"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_farmland_field"
+titre = "Visiter : « Farmland field »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:farmland_field"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Désert, Plaines (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_fountain"
+titre = "Visiter : « Fountain »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:fountain"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_graveyard"
+titre = "Visiter : « Graveyard »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:graveyard"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_hobbit_hole"
+titre = "Visiter : « Hobbit hole »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:hobbit_hole"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_ice_castle"
+titre = "Visiter : « Ice castle »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:ice_castle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Océan gelé profond, Océan gelé, Rivière gelée (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_ice_spire"
+titre = "Visiter : « Ice spire »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:ice_spire"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Océan gelé profond, Océan gelé, Stalagmites de glace (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_igloo"
+titre = "Visiter : « Igloo »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:igloo"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Plaines enneigées, Taïga enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_large_temple"
+titre = "Visiter : « Large temple »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:large_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_log_shelter"
+titre = "Visiter : « Log shelter »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:log_shelter"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_log_spikes"
+titre = "Visiter : « Log spikes »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:log_spikes"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_mesoamerican_temple"
+titre = "Visiter : « Mesoamerican temple »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:mesoamerican_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_meteor"
+titre = "Visiter : « Meteor »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:meteor"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_mushroom_hut"
+titre = "Visiter : « Mushroom hut »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:mushroom_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Champs de champignons (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_offering"
+titre = "Visiter : « Offering »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:offering"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_raft"
+titre = "Visiter : « Raft »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:raft"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_small_house"
+titre = "Visiter : « Small house »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:small_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_small_statue"
+titre = "Visiter : « Small statue »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:small_statue"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_small_temple"
+titre = "Visiter : « Small temple »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:small_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_stone_ore_spikes"
+titre = "Visiter : « Stone ore spikes »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:stone_ore_spikes"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_stone_tower"
+titre = "Visiter : « Stone tower »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:stone_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Escarpée, « Jacaranda Glade », Falaises de jade, Savane luxuriante et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_tiny_house"
+titre = "Visiter : « Tiny house »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:tiny_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_tower_remnant"
+titre = "Visiter : « Tower remnant »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:tower_remnant"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_wagon"
+titre = "Visiter : « Wagon »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:wagon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "formationsoverworld_well"
+titre = "Visiter : « Well »"
+sous_titre = "Formations"
+optionnel = true
+taches = ["structure formationsoverworld:well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bFormations&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_ancient_crypt"
+titre = "Visiter : « Ancient crypt »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:ancient_crypt"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Marais à mangroves, Plaines, Savane, Plaines enneigées, Plaines de tournesols et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_ancient_dungeon"
+titre = "Visiter : « Ancient dungeon »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:ancient_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_ancient_ruins"
+titre = "Visiter : « Ancient ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:ancient_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_ancient_towers"
+titre = "Visiter : « Ancient towers »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:ancient_towers"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_antiquus_crypta"
+titre = "Visiter : « Antiquus crypta »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:antiquus_crypta"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Marais à mangroves, Plaines, Savane, Plaines enneigées, Plaines de tournesols et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_badlands_start_dungeon"
+titre = "Visiter : « Badlands start dungeon »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:badlands_start_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_badlands_structures"
+titre = "Visiter : « Badlands structures »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:badlands_structures"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_bone_dungeon"
+titre = "Visiter : « Bone dungeon »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:bone_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_desert_structures"
+titre = "Visiter : « Desert structures »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:desert_structures"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_end_gate_fortress"
+titre = "Visiter : « End gate fortress »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:end_gate_fortress"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_end_ruins"
+titre = "Visiter : « End ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:end_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_field_stone_ruins"
+titre = "Visiter : « Field stone ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:field_stone_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_field_stone_ruins_rocks"
+titre = "Visiter : « Field stone ruins rocks »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:field_stone_ruins_rocks"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_level_one_ruins"
+titre = "Visiter : « Level one ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:level_one_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_level_three_ruins"
+titre = "Visiter : « Level three ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:level_three_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_level_two_ruins"
+titre = "Visiter : « Level two ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:level_two_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_level_two_ruins_pool"
+titre = "Visiter : « Level two ruins pool »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:level_two_ruins_pool"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_lost_soul_city"
+titre = "Visiter : « Lost soul city »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:lost_soul_city"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_lost_soul_dungeon"
+titre = "Visiter : « Lost soul dungeon »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:lost_soul_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Abîmes (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_nether_lava_ruins"
+titre = "Visiter : « Nether lava ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:nether_lava_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_ocean_fortress"
+titre = "Visiter : « Ocean fortress »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:ocean_fortress"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_ocean_ruins"
+titre = "Visiter : « Ocean ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:ocean_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_pumpkin_ruins"
+titre = "Visiter : « Pumpkin ruins »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:pumpkin_ruins"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_rare_ruin"
+titre = "Visiter : « Rare ruin »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:rare_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Jungle, Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_sculk_dungeon"
+titre = "Visiter : « Sculk dungeon »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:sculk_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Abîmes (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_sealedruinedghaststatue1"
+titre = "Visiter : « Sealedruinedghaststatue1 »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:sealedruinedghaststatue1"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_start_nether_dungeon"
+titre = "Visiter : « Start nether dungeon »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:start_nether_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_start_nether_ruin"
+titre = "Visiter : « Start nether ruin »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:start_nether_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "philipsruins_underground_structures"
+titre = "Visiter : « Underground structures »"
+sous_titre = "Philip's Ruins"
+optionnel = true
+taches = ["structure philipsruins:underground_structures"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bPhilip's Ruins&r. Se génère dans : Abîmes (données du serveur).
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:filled_map"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["adorabuild_structures_acacia_house_medium_1", "adorabuild_structures_acacia_house_medium_2", "adorabuild_structures_acacia_house_medium_3", "adorabuild_structures_acacia_house_small_1", "adorabuild_structures_acacia_house_small_2", "adorabuild_structures_acacia_well_1", "adorabuild_structures_ancient_palace_1", "adorabuild_structures_ancient_palace_2", "adorabuild_structures_bamboo_campfire_1", "adorabuild_structures_bamboo_house_small_1", "adorabuild_structures_bamboo_raft_1", "adorabuild_structures_basalt_chambers_large_1", "adorabuild_structures_birch_beehive_1", "adorabuild_structures_birch_house_medium_1", "adorabuild_structures_birch_house_medium_2", "adorabuild_structures_birch_house_small_1", "adorabuild_structures_birch_house_small_2", "adorabuild_structures_birch_tree_1", "adorabuild_structures_blackstone_bastion_medium_1", "adorabuild_structures_blackstone_bastion_medium_2", "adorabuild_structures_blackstone_bastion_small_1", "adorabuild_structures_blackstone_temple_small_1", "adorabuild_structures_cherry_house_medium_1", "adorabuild_structures_cherry_house_medium_2", "adorabuild_structures_cherry_raft_1", "adorabuild_structures_cherry_tree_1", "adorabuild_structures_crimson_house_medium_1", "adorabuild_structures_crimson_house_medium_2", "adorabuild_structures_dark_oak_house_large_1", "adorabuild_structures_dark_oak_house_small_1", "adorabuild_structures_dark_oak_ship_1", "adorabuild_structures_end_bubble_large_1", "adorabuild_structures_end_bubble_medium_1", "adorabuild_structures_end_bubble_medium_2", "adorabuild_structures_end_gateway_large_1", "adorabuild_structures_end_gateway_small_1", "adorabuild_structures_end_house_medium_1", "adorabuild_structures_end_house_medium_2", "adorabuild_structures_end_house_medium_3", "adorabuild_structures_end_house_small_1", "adorabuild_structures_end_house_small_2", "adorabuild_structures_end_ship_small_1", "adorabuild_structures_end_temple_large_1", "adorabuild_structures_end_temple_small_1", "adorabuild_structures_frozen_house_medium_1", "adorabuild_structures_frozen_hut_1", "adorabuild_structures_frozen_hut_2", "adorabuild_structures_jungle_boat_1", "adorabuild_structures_jungle_house_small_1", "adorabuild_structures_jungle_tree_house_1", "adorabuild_structures_library_large_1", "adorabuild_structures_library_small_1", "adorabuild_structures_mangrove_house_small_1", "adorabuild_structures_mangrove_tree_house_1", "adorabuild_structures_mangrove_tree_house_2", "adorabuild_structures_mountain_mine_1", "adorabuild_structures_mountain_mine_2", "adorabuild_structures_mushroom_large_1", "adorabuild_structures_nether_fortress_large_1", "adorabuild_structures_nether_fortress_large_2", "adorabuild_structures_nether_fortress_medium_1", "adorabuild_structures_nether_fossil_1", "adorabuild_structures_nether_portal_small_1", "adorabuild_structures_nether_temple_medium_1", "adorabuild_structures_oak_house_large_1", "adorabuild_structures_oak_house_medium_1", "adorabuild_structures_oak_house_medium_2", "adorabuild_structures_oak_house_small_1", "adorabuild_structures_oak_house_small_2", "adorabuild_structures_oak_house_small_3", "adorabuild_structures_oak_hut_1", "adorabuild_structures_oak_ship_1", "adorabuild_structures_oak_tree_1", "adorabuild_structures_ocean_bubble_1", "adorabuild_structures_ocean_temple_medium_1", "adorabuild_structures_ocean_temple_medium_2", "adorabuild_structures_ocean_temple_small_1", "adorabuild_structures_ocean_temple_small_2", "adorabuild_structures_prison_large_1", "adorabuild_structures_prison_small_1", "adorabuild_structures_red_sand_house_medium_1", "adorabuild_structures_red_sand_house_small_1", "adorabuild_structures_red_sand_temple_medium_1", "adorabuild_structures_red_sand_temple_small_1", "adorabuild_structures_sand_castle_small_1", "adorabuild_structures_sand_castle_tiny_1", "adorabuild_structures_sand_house_medium_1", "adorabuild_structures_sand_house_medium_2", "adorabuild_structures_sand_house_small_1", "adorabuild_structures_sand_house_small_2", "adorabuild_structures_sand_pyramid_1", "adorabuild_structures_sand_underground_castle_1", "adorabuild_structures_spruce_house_large_1", "adorabuild_structures_spruce_house_medium_1", "adorabuild_structures_spruce_house_small_1", "adorabuild_structures_spruce_house_small_2", "adorabuild_structures_spruce_house_small_3", "adorabuild_structures_spruce_ship_1", "adorabuild_structures_warped_house_small_1", "adorabuild_structures_warped_house_small_2", "explorations_campsite", "explorations_desert_ruin", "explorations_floating_island", "explorations_forgotten_well", "explorations_jungle_temple", "explorations_large_oak_tree", "explorations_logs", "explorations_shrine", "explorations_slime_cave", "explorations_underground_temple", "farmers_structures_aether", "farmers_structures_aquaculture_beach", "farmers_structures_aquaculture_carp", "farmers_structures_aquaculture_common", "farmers_structures_cook", "farmers_structures_cook_moss", "farmers_structures_cook_nether_1", "farmers_structures_cook_nether_2", "farmers_structures_quark_glimer", "farmers_structures_quark_jungle", "farmers_structures_quark_moss", "farmers_structures_quark_slime", "farmers_structures_sushi", "formationsnether_basalt_hut", "formationsnether_blackstone_castle", "formationsnether_blackstone_remnant", "formationsnether_campsite", "formationsnether_checkerboard_temple", "formationsnether_flaming_pillar", "formationsnether_large_house", "formationsnether_large_pedestal", "formationsnether_large_tree", "formationsnether_nether_wart_field", "formationsnether_obsidian_pillar", "formationsnether_ore_shard", "formationsnether_parkour_challenge", "formationsnether_quartz_spikes", "formationsnether_respawn_anchor_altar", "formationsnether_rib_cage", "formationsnether_small_fire_arena", "formationsnether_small_lava_arena", "formationsnether_small_lava_shrine", "formationsnether_small_pedestal", "formationsnether_sphere_cage", "formationsoverworld_bamboo_hut", "formationsoverworld_campsite", "formationsoverworld_cobble_hole", "formationsoverworld_copper_spire", "formationsoverworld_desert_houses", "formationsoverworld_farmland_field", "formationsoverworld_fountain", "formationsoverworld_graveyard", "formationsoverworld_hobbit_hole", "formationsoverworld_ice_castle", "formationsoverworld_ice_spire", "formationsoverworld_igloo", "formationsoverworld_large_temple", "formationsoverworld_log_shelter", "formationsoverworld_log_spikes", "formationsoverworld_mesoamerican_temple", "formationsoverworld_meteor", "formationsoverworld_mushroom_hut", "formationsoverworld_offering", "formationsoverworld_raft", "formationsoverworld_small_house", "formationsoverworld_small_statue", "formationsoverworld_small_temple", "formationsoverworld_stone_ore_spikes", "formationsoverworld_stone_tower", "formationsoverworld_tiny_house", "formationsoverworld_tower_remnant", "formationsoverworld_wagon", "formationsoverworld_well", "philipsruins_ancient_crypt", "philipsruins_ancient_dungeon", "philipsruins_ancient_ruins", "philipsruins_ancient_towers", "philipsruins_antiquus_crypta", "philipsruins_badlands_start_dungeon", "philipsruins_badlands_structures", "philipsruins_bone_dungeon", "philipsruins_desert_structures", "philipsruins_end_gate_fortress", "philipsruins_end_ruins", "philipsruins_field_stone_ruins", "philipsruins_field_stone_ruins_rocks", "philipsruins_level_one_ruins", "philipsruins_level_three_ruins", "philipsruins_level_two_ruins", "philipsruins_level_two_ruins_pool", "philipsruins_lost_soul_city", "philipsruins_lost_soul_dungeon", "philipsruins_nether_lava_ruins", "philipsruins_ocean_fortress", "philipsruins_ocean_ruins", "philipsruins_pumpkin_ruins", "philipsruins_rare_ruin", "philipsruins_sculk_dungeon", "philipsruins_sealedruinedghaststatue1", "philipsruins_start_nether_dungeon", "philipsruins_start_nether_ruin", "philipsruins_underground_structures"]
+description = """
+Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+"""
