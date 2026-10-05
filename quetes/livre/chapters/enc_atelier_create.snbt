@@ -1,0 +1,3394 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_atelier_create"
+	group: "34D36ACF0DABCCEC"
+	icon: "create:cogwheel"
+	id: "7C19B2DD8B21780C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque machine et chaque composant de Create, hors blocs de décoration, couleurs et matériaux. Une quête se valide en ayant l'objet dans l'inventaire."]
+			icon: "create:cogwheel"
+			id: "6DC1EB51CDFAD5FA"
+			rewards: [{
+				id: "75FA854252AED92E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "28D3229E8A844534"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Atelier Create"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:adjustable_chain_gearshift"
+			id: "23F1C1F97717782C"
+			optional: true
+			rewards: [{
+				id: "245B4C5EEC2B1F18"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36D7F33D9F3B9E02"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			title: "Fabriquer : Chaine de transmission ajustable"
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:analog_lever"
+			id: "2D4A11448A05A23F"
+			optional: true
+			rewards: [{
+				id: "113C8B10857569B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F0D4E3599D3A431"
+				item: "create:analog_lever"
+				type: "item"
+			}]
+			title: "Fabriquer : Levier analogique"
+			x: 1.5d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:attribute_filter"
+			id: "7B0107122539B245"
+			optional: true
+			rewards: [{
+				id: "0B7403F5849135C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2839ACA942B08299"
+				item: "create:attribute_filter"
+				type: "item"
+			}]
+			title: "Fabriquer : Filtre d'attribut"
+			x: 3.0d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:basin"
+			id: "74C4B600A5BFA8E7"
+			optional: true
+			rewards: [{
+				id: "027D165E4156A591"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23831F5BCCDE081D"
+				item: "create:basin"
+				type: "item"
+			}]
+			title: "Fabriquer : Bassin"
+			x: 4.5d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:belt_connector"
+			id: "2B6C9DCEAB60A2E9"
+			optional: true
+			rewards: [{
+				id: "6C57402F115FF4F8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15B3CFFBA5866837"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Fabriquer : Tapis roulant"
+			x: 6.0d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:blaze_burner"
+			id: "5BA90C4D6FCB55D5"
+			optional: true
+			rewards: [{
+				id: "6DBF6879CE0FEA81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "168ABA1DA7E9D593"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Fabriquer : Brûleur à Blaze"
+			x: 7.5d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:brass_casing"
+			id: "58AEFC2B14CD085B"
+			optional: true
+			rewards: [{
+				id: "3C8CC445940EC0B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "273861CF3B900A77"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Fabriquer : Boitier de laiton"
+			x: 9.0d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:brass_funnel"
+			id: "10FD4F597F9EB01A"
+			optional: true
+			rewards: [{
+				id: "285C504A5A5041EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66F4DBF20D7C3B5D"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Fabriquer : Entonnoir de laiton"
+			x: 10.5d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:brass_hand"
+			id: "698280F9D046C74F"
+			optional: true
+			rewards: [{
+				id: "32C9A20ED767ECB9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13F98C7A1A1A9F37"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			title: "Fabriquer : Main de laiton"
+			x: 12.0d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:brass_tunnel"
+			id: "79F2C417307872BE"
+			optional: true
+			rewards: [{
+				id: "470496527DC44913"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EBBF53B45E6A077"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			title: "Fabriquer : Tunnel de laiton"
+			x: 13.5d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cardboard"
+			id: "769465205D0C49FC"
+			optional: true
+			rewards: [{
+				id: "7A39D3B050089456"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CB8B8988E644A60"
+				item: "create:cardboard"
+				type: "item"
+			}]
+			title: "Fabriquer : Carton"
+			x: 15.0d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cardboard_boots"
+			id: "5074F44DD419547A"
+			optional: true
+			rewards: [{
+				id: "1D0F8B1DE79B7F2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40998D36E9B02F2A"
+				item: "create:cardboard_boots"
+				type: "item"
+			}]
+			title: "Fabriquer : Bottes en carton"
+			x: 16.5d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cardboard_chestplate"
+			id: "0EDF5D56B665497E"
+			optional: true
+			rewards: [{
+				id: "33998563A892C42D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "67BA2D771822DFAE"
+				item: "create:cardboard_chestplate"
+				type: "item"
+			}]
+			title: "Fabriquer : Plastron en carton"
+			x: 18.0d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cardboard_helmet"
+			id: "012493780DE01201"
+			optional: true
+			rewards: [{
+				id: "176E4011088D2DC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24C736D1EDDC0746"
+				item: "create:cardboard_helmet"
+				type: "item"
+			}]
+			title: "Fabriquer : Casque en carton"
+			x: 19.5d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cardboard_leggings"
+			id: "7A5FEEB94C309176"
+			optional: true
+			rewards: [{
+				id: "4C8C73162BC13DD7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AFC1B4FE362E4F5"
+				item: "create:cardboard_leggings"
+				type: "item"
+			}]
+			title: "Fabriquer : Jambières en carton"
+			x: 21.0d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cardboard_sword"
+			id: "169889D9B0383ED5"
+			optional: true
+			rewards: [{
+				id: "4A6CDF7A7395228C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1697B2015EAFFA62"
+				item: "create:cardboard_sword"
+				type: "item"
+			}]
+			title: "Fabriquer : Épée en carton"
+			x: 22.5d
+			y: -6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cart_assembler"
+			id: "58FE9100995EBBDB"
+			optional: true
+			rewards: [{
+				id: "75D0D8C4745F7D6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3897A21D4D8C481A"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			title: "Fabriquer : Assembleur de wagonnet"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:chain_conveyor"
+			id: "0E11E35DF5B7BEC7"
+			optional: true
+			rewards: [{
+				id: "42603C0B17F6AF53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7060D72CD1FAC1AA"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			title: "Fabriquer : Roue à chaîne roulante"
+			x: 1.5d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:chute"
+			id: "26631244E8F7DE93"
+			optional: true
+			rewards: [{
+				id: "3D7B393C9ADF6C15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B80CDB72684E10E"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Fabriquer : Chute"
+			x: 3.0d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cinder_flour"
+			id: "6A739405F0230753"
+			optional: true
+			rewards: [{
+				id: "7BF8C84626F4A361"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34FE2518D048525F"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			title: "Fabriquer : Farine de braise"
+			x: 4.5d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:clipboard"
+			id: "080A51184CE1D87E"
+			optional: true
+			rewards: [{
+				id: "2666FAC29E7EA5CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A909370B0C4E19B"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			title: "Fabriquer : Presse-papiers"
+			x: 6.0d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:clockwork_bearing"
+			id: "5657712336BF840B"
+			optional: true
+			rewards: [{
+				id: "0B86B3101DFBFA4A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48B77A8596F60FF7"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			title: "Fabriquer : Roulement mécanique horloger"
+			x: 7.5d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:clutch"
+			id: "285E6A7FE7038042"
+			optional: true
+			rewards: [{
+				id: "1C465BF195BD4231"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C9BAC9B7037F814"
+				item: "create:clutch"
+				type: "item"
+			}]
+			title: "Fabriquer : Embrayage"
+			x: 9.0d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cogwheel"
+			id: "741AE354B80800F3"
+			optional: true
+			rewards: [{
+				id: "70726C63DB3D1307"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49AD20B5349F9C1D"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Fabriquer : Roue dentée"
+			x: 10.5d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:content_observer"
+			id: "051E9D4DC1FE3352"
+			optional: true
+			rewards: [{
+				id: "3F0EE4BD80B89015"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75B0328A1FF6B60E"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			title: "Fabriquer : Observateur intelligent"
+			x: 12.0d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:contraption_controls"
+			id: "6D6E911192C6951C"
+			optional: true
+			rewards: [{
+				id: "0F9EAF1827BA30E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15CC285D8EC92C2E"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			title: "Fabriquer : Contrôles de machine"
+			x: 13.5d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:controller_rail"
+			id: "5FEDAC5CD8C24A5E"
+			optional: true
+			rewards: [{
+				id: "6475FECB89A45E80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12BDAF0E4FB42C85"
+				item: "create:controller_rail"
+				type: "item"
+			}]
+			title: "Fabriquer : Rails contrôleurs"
+			x: 15.0d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:controls"
+			id: "316D316DBBBCAF8D"
+			optional: true
+			rewards: [{
+				id: "026D116718850DD4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F6B9130095AABBB"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "Fabriquer : Contrôles de train"
+			x: 16.5d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:copycat_step"
+			id: "40C1DAF52C8120A9"
+			optional: true
+			rewards: [{
+				id: "2C45487375F6701E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F2B9739B7DA4474"
+				item: "create:copycat_step"
+				type: "item"
+			}]
+			title: "Fabriquer : Marche imitatrice"
+			x: 18.0d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:crafter_slot_cover"
+			id: "3C3DEF331B7E95DE"
+			optional: true
+			rewards: [{
+				id: "4A0E8AD5109750F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "680B84547EBE7E5D"
+				item: "create:crafter_slot_cover"
+				type: "item"
+			}]
+			title: "Fabriquer : Couvercle d'emplacement d'établi"
+			x: 19.5d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:crafting_blueprint"
+			id: "0177DFF0A1DA8A67"
+			optional: true
+			rewards: [{
+				id: "7ED8D8461D12A723"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B24B45E4501F38B"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			title: "Fabriquer : Plan de fabrication"
+			x: 21.0d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:creative_fluid_tank"
+			id: "77BD1180FF236B13"
+			optional: true
+			rewards: [{
+				id: "296ADB7BB62E6BED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D41526D0850195E"
+				item: "create:creative_fluid_tank"
+				type: "item"
+			}]
+			title: "Fabriquer : Réservoir à fluide créatif"
+			x: 22.5d
+			y: -5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:creative_motor"
+			id: "38056D643ED1A0FD"
+			optional: true
+			rewards: [{
+				id: "43DC70BE17B6E536"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46CE4A4ECCEDCA04"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			title: "Fabriquer : Moteur créatif"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:crushing_wheel"
+			id: "642113740B68DB93"
+			optional: true
+			rewards: [{
+				id: "733CF0F374314191"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47F8E07CCBDA46A8"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Fabriquer : Roue de concassage"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:cuckoo_clock"
+			id: "1DF18AE782FB6C98"
+			optional: true
+			rewards: [{
+				id: "518DB91C1E99C8DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79733C5DF1F8EADB"
+				item: "create:cuckoo_clock"
+				type: "item"
+			}]
+			title: "Fabriquer : Horloge à coucou"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:deployer"
+			id: "04DD59D1E87DBE80"
+			optional: true
+			rewards: [{
+				id: "603DB5FA6BE8A4C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6556D5FA29AFB160"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Fabriquer : Déployeur"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:depot"
+			id: "18123F88E1339E02"
+			optional: true
+			rewards: [{
+				id: "66ECF3184DBDD3AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "636F4B997FF8BF7E"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "Fabriquer : Dépôt"
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:desk_bell"
+			id: "27AB3C2D33BD95A6"
+			optional: true
+			rewards: [{
+				id: "3761C1DD64396A69"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "627EA3E663BFBE93"
+				item: "create:desk_bell"
+				type: "item"
+			}]
+			title: "Fabriquer : Clochette"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:display_board"
+			id: "0EAA9043BAC22900"
+			optional: true
+			rewards: [{
+				id: "5EFC72D6565EE1C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "068E1AEDDD190029"
+				item: "create:display_board"
+				type: "item"
+			}]
+			title: "Fabriquer : Panneau d'affichage"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:display_link"
+			id: "24A5A062DA2A003E"
+			optional: true
+			rewards: [{
+				id: "4F10DBE066F973D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DFBCCB466D7B5B4"
+				item: "create:display_link"
+				type: "item"
+			}]
+			title: "Fabriquer : Liaison d'affichage"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:elevator_pulley"
+			id: "478FE58C4BB46A7F"
+			optional: true
+			rewards: [{
+				id: "197358B2667CC28E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36E3A2636E274B22"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			title: "Fabriquer : Poulie d'ascenseur"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:empty_blaze_burner"
+			id: "7F63A3F7160A56ED"
+			optional: true
+			rewards: [{
+				id: "0536A444679C7355"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C522347C4E0F4DA"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "Fabriquer : Brûleur à Blaze vide"
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:empty_schematic"
+			id: "2B6097EC6698AA3E"
+			optional: true
+			rewards: [{
+				id: "0E51CDC8AF415DFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FD7245AD03E6AA4"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			title: "Fabriquer : Schéma vide"
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:encased_chain_drive"
+			id: "03297FEC1AAC6284"
+			optional: true
+			rewards: [{
+				id: "347D9128AC1CAA67"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "242788AB9BA89F89"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			title: "Fabriquer : Chaine de transmission"
+			x: 16.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:encased_fan"
+			id: "7611012F41B92F38"
+			optional: true
+			rewards: [{
+				id: "777E6BC2A5A34CB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71E9343C794C9A0F"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Fabriquer : Ventilateur enchâssé"
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:extendo_grip"
+			id: "2FF4A78D6E5051E2"
+			optional: true
+			rewards: [{
+				id: "02F8C203DD3042E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "705D11E47AE9C053"
+				item: "create:extendo_grip"
+				type: "item"
+			}]
+			title: "Fabriquer : Main extensible"
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:factory_gauge"
+			id: "2CAE90FEBB51E87B"
+			optional: true
+			rewards: [{
+				id: "03AA12CE24435A3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "01672DCD128D2B1B"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			title: "Fabriquer : Jauge d'usine"
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:filter"
+			id: "14E4B1F2AFCA2A47"
+			optional: true
+			rewards: [{
+				id: "48B044D5A630B50E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71B36F226D44C692"
+				item: "create:filter"
+				type: "item"
+			}]
+			title: "Fabriquer : Filtre de liste"
+			x: 22.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:fluid_pipe"
+			id: "6B6BEEABA96807BE"
+			optional: true
+			rewards: [{
+				id: "7F3A9E37E9A078CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "708E15C53CB20490"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			title: "Fabriquer : Tuyau à fluide"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:fluid_tank"
+			id: "20AB40F79BB47D1C"
+			optional: true
+			rewards: [{
+				id: "1F4A2614F7509498"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DDD5A5C7D0E5D3B"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			title: "Fabriquer : Réservoir à fluide"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:fluid_valve"
+			id: "6DC837E4061708B4"
+			optional: true
+			rewards: [{
+				id: "56D24805019476D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "159C555E80EAD5D7"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			title: "Fabriquer : Vanne à fluide"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:flywheel"
+			id: "51558B50EDD004DD"
+			optional: true
+			rewards: [{
+				id: "4262E69E62D0326B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D40DDABFDDDD135"
+				item: "create:flywheel"
+				type: "item"
+			}]
+			title: "Fabriquer : Volant d'inertie"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:gantry_carriage"
+			id: "292015802C756988"
+			optional: true
+			rewards: [{
+				id: "335E0D88B14BD6B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14A55C609F476EE9"
+				item: "create:gantry_carriage"
+				type: "item"
+			}]
+			title: "Fabriquer : Chariot de portique"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:gantry_shaft"
+			id: "377F556A57B03856"
+			optional: true
+			rewards: [{
+				id: "3886897F972382A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CCDFDB1E9374112"
+				item: "create:gantry_shaft"
+				type: "item"
+			}]
+			title: "Fabriquer : Rotor de portique"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:gearbox"
+			id: "7C9B8D24616C82D5"
+			optional: true
+			rewards: [{
+				id: "433DAF683F5F17BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "131304BD6A70B384"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			title: "Fabriquer : Boîte à roues dentées"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:gearshift"
+			id: "12AB1B7EDDBB921B"
+			optional: true
+			rewards: [{
+				id: "332DB8912FC3F746"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DA73FCA629E036B"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			title: "Fabriquer : Inverseur de rotation"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:goggles"
+			id: "26E1B1B9CA30DB8A"
+			optional: true
+			rewards: [{
+				id: "21AAA5CCE634416A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2500F3A9DAB5020E"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "Fabriquer : Lunettes d'ingénieur"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:hand_crank"
+			id: "529A994D90AA9D29"
+			optional: true
+			rewards: [{
+				id: "4CECBC5DC32E0EDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C9D51D616F3B14A"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Fabriquer : Manivelle"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:haunted_bell"
+			id: "640708FFBF303863"
+			optional: true
+			rewards: [{
+				id: "7159BD21545B1257"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5FE8854A01272153"
+				item: "create:haunted_bell"
+				type: "item"
+			}]
+			title: "Fabriquer : Cloche hantée"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:hose_pulley"
+			id: "2D68F0D65D0AD807"
+			optional: true
+			rewards: [{
+				id: "4647C27EAFBFEA93"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1236F24343DC3F9C"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "Fabriquer : Poulie à tuyau"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:industrial_iron_block"
+			id: "1058D3A8703767C5"
+			optional: true
+			rewards: [{
+				id: "233DC62B5F9A2F74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76B58E03D0233C05"
+				item: "create:industrial_iron_block"
+				type: "item"
+			}]
+			title: "Fabriquer : Bloc de fer industriel"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:item_drain"
+			id: "0CCCF6660B5FB988"
+			optional: true
+			rewards: [{
+				id: "2876D463326446F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "576FB704BB9B1DA0"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			title: "Fabriquer : Égouttoir à objets"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:item_hatch"
+			id: "0932E0A51CB9DC08"
+			optional: true
+			rewards: [{
+				id: "7B37024F0EBC8E99"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "696021649321FD14"
+				item: "create:item_hatch"
+				type: "item"
+			}]
+			title: "Fabriquer : Trappe à objets"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:item_vault"
+			id: "7C413BE73D8D3370"
+			optional: true
+			rewards: [{
+				id: "6178604C760874F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7666587C50C8C6CC"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			title: "Fabriquer : Coffre à objet renforcé"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:large_cogwheel"
+			id: "5BAC0887B4EB929A"
+			optional: true
+			rewards: [{
+				id: "3A9B77AADF1DE006"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D706699337C0B77"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			title: "Fabriquer : Grande roue dentée"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:large_water_wheel"
+			id: "429074BF8739EBCE"
+			optional: true
+			rewards: [{
+				id: "4D8DA68BDFB2B605"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B76CE7CCC0D9C75"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Fabriquer : Grande roue à eau"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:linear_chassis"
+			id: "7AD32EC315108875"
+			optional: true
+			rewards: [{
+				id: "280F8D4784E7501C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "412D0C602D691484"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			title: "Fabriquer : Châssis linéaire"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:linked_controller"
+			id: "2C8634C7AA669931"
+			optional: true
+			rewards: [{
+				id: "2007B9D239F79DE3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DBC2EAB75B91830"
+				item: "create:linked_controller"
+				type: "item"
+			}]
+			title: "Fabriquer : Télécommande"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_arm"
+			id: "46C25D190A6DCE0F"
+			optional: true
+			rewards: [{
+				id: "2A881930D2EE6F67"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "663679803CFC2BD0"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Fabriquer : Bras mécanique"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_bearing"
+			id: "4F61B164DCC29D33"
+			optional: true
+			rewards: [{
+				id: "18BA213B5F2BCD2A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "010D07089646880D"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Fabriquer : Roulement mécanique"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_crafter"
+			id: "3B67396236AEA8A1"
+			optional: true
+			rewards: [{
+				id: "31C74266271B26D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57B9150A38278186"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Fabriquer : Établi mécanique"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_drill"
+			id: "6C8F31EEE95B8379"
+			optional: true
+			rewards: [{
+				id: "2CC62559993E636C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A25C09482DCFF17"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Fabriquer : Perceuse mécanique"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_harvester"
+			id: "23FC275CBF731E84"
+			optional: true
+			rewards: [{
+				id: "521E27D6535FB16F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66AA3EF67AEA7EFE"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "Fabriquer : Récolteur mécanique"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_mixer"
+			id: "19738B46AA2A3FD2"
+			optional: true
+			rewards: [{
+				id: "49BD0922D2400869"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E534928B198B654"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			title: "Fabriquer : Mixeur mécanique"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_piston"
+			id: "1F5242DC5D593F3B"
+			optional: true
+			rewards: [{
+				id: "75D3ECEE372D96A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AEFA11E35A77CDE"
+				item: "create:mechanical_piston"
+				type: "item"
+			}]
+			title: "Fabriquer : Piston mécanique"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_plough"
+			id: "5A85CC4B711B0F32"
+			optional: true
+			rewards: [{
+				id: "0C72EA05645F6A6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C821330B0617115"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			title: "Fabriquer : Charrue mécanique"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_press"
+			id: "0CD5E818171E0712"
+			optional: true
+			rewards: [{
+				id: "1A39485E9B9ECFE1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35287E67CD963EEB"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Fabriquer : Presse mécanique"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_pump"
+			id: "6982DD2DB514B212"
+			optional: true
+			rewards: [{
+				id: "3455B11742F459A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31BC35FFB8EB9662"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			title: "Fabriquer : Pompe mécanique"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_roller"
+			id: "498F1AA299F1DD5C"
+			optional: true
+			rewards: [{
+				id: "01064D16F5EF7A87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C430B2148082523"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			title: "Fabriquer : Rouleau mécanique"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mechanical_saw"
+			id: "4D74A83E0FFB8254"
+			optional: true
+			rewards: [{
+				id: "4095105C52BA5F7C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BE67456C68097A2"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Fabriquer : Scie mécanique"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:metal_bracket"
+			id: "4FA78BFE8985133E"
+			optional: true
+			rewards: [{
+				id: "55AFB30A9A8E0C72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48A2A281C25D9B11"
+				item: "create:metal_bracket"
+				type: "item"
+			}]
+			title: "Fabriquer : Support en métal"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:metal_girder"
+			id: "1CA9759338F498DD"
+			optional: true
+			rewards: [{
+				id: "65C5B5CF0795E39E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07B63118C333D470"
+				item: "create:metal_girder"
+				type: "item"
+			}]
+			title: "Fabriquer : Poutre en métal"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:millstone"
+			id: "5DA6CB2B495BACF6"
+			optional: true
+			rewards: [{
+				id: "0E78E4743B5DCD4F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "690A7897B201E3C3"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Fabriquer : Meule"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:minecart_coupling"
+			id: "015EA2978283AD24"
+			optional: true
+			rewards: [{
+				id: "0167BBC1550861BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0BB0A86A69D843C8"
+				item: "create:minecart_coupling"
+				type: "item"
+			}]
+			title: "Fabriquer : Lien pour wagonnet"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:mysterious_cuckoo_clock"
+			id: "60ECB64BD23B17B8"
+			optional: true
+			rewards: [{
+				id: "7B40827A050C128C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F8A8B17BE878B74"
+				item: "create:mysterious_cuckoo_clock"
+				type: "item"
+			}]
+			title: "Fabriquer : Horloge à coucou"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:netherite_backtank"
+			id: "2EEC40E9131D509E"
+			optional: true
+			rewards: [{
+				id: "0237A1395C85000E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "137AC88697BD06DA"
+				item: "create:netherite_backtank"
+				type: "item"
+			}]
+			title: "Fabriquer : Réservoir dorsal en Netherite"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:netherite_diving_boots"
+			id: "365CBE1F5BCE2D7A"
+			optional: true
+			rewards: [{
+				id: "749C8D1542C3CD53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2538B2350B9119AB"
+				item: "create:netherite_diving_boots"
+				type: "item"
+			}]
+			title: "Fabriquer : Bottes de plongée en Netherite"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:netherite_diving_helmet"
+			id: "3A3600283D2480E7"
+			optional: true
+			rewards: [{
+				id: "3DFD97112EB7B24B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36DFE4A0A8F68EA0"
+				item: "create:netherite_diving_helmet"
+				type: "item"
+			}]
+			title: "Fabriquer : Casque de plongée en Netherite"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:nozzle"
+			id: "6065EDC84F6CE2AD"
+			optional: true
+			rewards: [{
+				id: "348BAD391227D5A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4606486FC60B42FD"
+				item: "create:nozzle"
+				type: "item"
+			}]
+			title: "Fabriquer : Buse"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:package_filter"
+			id: "246EA03D901691B8"
+			optional: true
+			rewards: [{
+				id: "729E43949B56D030"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16867251ABCF9F3B"
+				item: "create:package_filter"
+				type: "item"
+			}]
+			title: "Fabriquer : Filtre de colis"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:package_frogport"
+			id: "06878EAF9320F292"
+			optional: true
+			rewards: [{
+				id: "00E1DD7917CDF218"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1587E2888F2BF7B0"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			title: "Fabriquer : Crapauport à colis"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:packager"
+			id: "449574F302A86612"
+			optional: true
+			rewards: [{
+				id: "121D051D19F3A302"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47C93FE09AF0EB10"
+				item: "create:packager"
+				type: "item"
+			}]
+			title: "Fabriquer : Emballeur"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:peculiar_bell"
+			id: "30C555BB0A5452D8"
+			optional: true
+			rewards: [{
+				id: "0111F40B19109292"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B34A81346C75C60"
+				item: "create:peculiar_bell"
+				type: "item"
+			}]
+			title: "Fabriquer : Cloche particulière"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:piston_extension_pole"
+			id: "67BC2DD64A8787D2"
+			optional: true
+			rewards: [{
+				id: "11AE6244944482C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D26F33A571FCD0F"
+				item: "create:piston_extension_pole"
+				type: "item"
+			}]
+			title: "Fabriquer : Barre d'extension de piston"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:placard"
+			id: "71C17319F11A1A1F"
+			optional: true
+			rewards: [{
+				id: "6C4C9A507BD70556"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5BBF9FBA1CA941F3"
+				item: "create:placard"
+				type: "item"
+			}]
+			title: "Fabriquer : Panneau"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:portable_fluid_interface"
+			id: "43886469DE73E401"
+			optional: true
+			rewards: [{
+				id: "17496DAF5CB67635"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F03642A25F00F95"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			title: "Fabriquer : Interface de fluide portable"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:portable_storage_interface"
+			id: "16C290EBEBA87A03"
+			optional: true
+			rewards: [{
+				id: "426D4981C819B0D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27FB22208274B860"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			title: "Fabriquer : Interface de stockage portable"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:potato_cannon"
+			id: "7F1031AA9FCA6CE7"
+			optional: true
+			rewards: [{
+				id: "36A9F3EA0C3527C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6592F20604F2BEEA"
+				item: "create:potato_cannon"
+				type: "item"
+			}]
+			title: "Fabriquer : Canon à pomme de terre"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:powered_latch"
+			id: "1AD097FF82AFA6B5"
+			optional: true
+			rewards: [{
+				id: "039B00F721A0004E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CBF3CE9CEB12B00"
+				item: "create:powered_latch"
+				type: "item"
+			}]
+			title: "Fabriquer : Verrou alimenté"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:powered_toggle_latch"
+			id: "4F7038F50A588D9D"
+			optional: true
+			rewards: [{
+				id: "2A4C8A750D919CE8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35E70B6CE3CCC8A6"
+				item: "create:powered_toggle_latch"
+				type: "item"
+			}]
+			title: "Fabriquer : Verrou alimenté à bascule"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:precision_mechanism"
+			id: "5A9633C38EB57300"
+			optional: true
+			rewards: [{
+				id: "07061E29DFEFD361"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "692A839015E85209"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Fabriquer : Mécanisme de précision"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:propeller"
+			id: "72822DE9F0AD0AB0"
+			optional: true
+			rewards: [{
+				id: "053F7E741B3A8053"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72CA593AE3C9F8C7"
+				item: "create:propeller"
+				type: "item"
+			}]
+			title: "Fabriquer : Hélice"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:pulp"
+			id: "3BF6EF37A9146E94"
+			optional: true
+			rewards: [{
+				id: "0BC743709AFC4E89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E97E43B73861886"
+				item: "create:pulp"
+				type: "item"
+			}]
+			title: "Fabriquer : Pulpe"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:pulse_extender"
+			id: "34BB38CAF8AC8453"
+			optional: true
+			rewards: [{
+				id: "3480039B145B608E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17940C5871E60287"
+				item: "create:pulse_extender"
+				type: "item"
+			}]
+			title: "Fabriquer : Extenseur d'impulsions"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:pulse_repeater"
+			id: "0E6E8C1937AFDF7E"
+			optional: true
+			rewards: [{
+				id: "7640584B00F3CE38"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F8293BE94596CDA"
+				item: "create:pulse_repeater"
+				type: "item"
+			}]
+			title: "Fabriquer : Répéteur d'impulsions"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:pulse_timer"
+			id: "5E034A007AC6B61F"
+			optional: true
+			rewards: [{
+				id: "7BEBD1DF527D528E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E9B3FC44E5EA0B7"
+				item: "create:pulse_timer"
+				type: "item"
+			}]
+			title: "Fabriquer : Minuteur à impulsions"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:radial_chassis"
+			id: "722A83A5342730D9"
+			optional: true
+			rewards: [{
+				id: "1353507AA2BC43B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "692A52678BA1FA4B"
+				item: "create:radial_chassis"
+				type: "item"
+			}]
+			title: "Fabriquer : Châssis radial"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:railway_casing"
+			id: "595F30F0DAC87B7A"
+			optional: true
+			rewards: [{
+				id: "0EB5CD074965F227"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E3418BA980BB587"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "Fabriquer : Boitier de train"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:redstone_contact"
+			id: "11102C5ACE72006E"
+			optional: true
+			rewards: [{
+				id: "273E3199A077196D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20FBE46192CCD769"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			title: "Fabriquer : Contact de redstone"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:redstone_link"
+			id: "51B740E764118555"
+			optional: true
+			rewards: [{
+				id: "7564D6A1B9D1C401"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35549A87CD2C41A0"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			title: "Fabriquer : Liaison de redstone"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:redstone_requester"
+			id: "3BD86A141A3F4F64"
+			optional: true
+			rewards: [{
+				id: "55A42E6CCC6B7AB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04FE01FC90B1B5EA"
+				item: "create:redstone_requester"
+				type: "item"
+			}]
+			title: "Fabriquer : Commandeur à redstone"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:refined_radiance_casing"
+			id: "4134035C9B698671"
+			optional: true
+			rewards: [{
+				id: "44EC1348C918050F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "739BE4F1FA4DCE54"
+				item: "create:refined_radiance_casing"
+				type: "item"
+			}]
+			title: "Fabriquer : Boitier en radiance raffinée"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:repackager"
+			id: "3FDA24BBAB7BE504"
+			optional: true
+			rewards: [{
+				id: "1F69393C4B773056"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "062ECCBA8C5BF802"
+				item: "create:repackager"
+				type: "item"
+			}]
+			title: "Fabriquer : Réemballeur"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:rope_pulley"
+			id: "74618D844DB8237A"
+			optional: true
+			rewards: [{
+				id: "5DDAA03D6B2085B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71B7D7532EAC50BA"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			title: "Fabriquer : Poulie à corde"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:rose_quartz"
+			id: "5FEB7869B10DE2BE"
+			optional: true
+			rewards: [{
+				id: "0E96605D4C5774A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11CEE9F665EC5EF3"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			title: "Fabriquer : Quartz rose"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:rose_quartz_block"
+			id: "388C7BC516B12433"
+			optional: true
+			rewards: [{
+				id: "6F89A76520031D8F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4193D5455DE6F80D"
+				item: "create:rose_quartz_block"
+				type: "item"
+			}]
+			title: "Fabriquer : Bloc de quartz rose"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:rose_quartz_lamp"
+			id: "018D3849C5073BB8"
+			optional: true
+			rewards: [{
+				id: "42389216C0BE26AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2127DE1DE9A81AD8"
+				item: "create:rose_quartz_lamp"
+				type: "item"
+			}]
+			title: "Fabriquer : Lampe à quartz rose"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:rotation_speed_controller"
+			id: "7DD0DF67584E56EF"
+			optional: true
+			rewards: [{
+				id: "434759319F60DF50"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "592698CA11C51C3C"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Fabriquer : Contrôleur de vitesse de rotation"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:sail_frame"
+			id: "043D12303C6B1AFA"
+			optional: true
+			rewards: [{
+				id: "7CBC302A888269D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A33A9B1E08E86A1"
+				item: "create:sail_frame"
+				type: "item"
+			}]
+			title: "Fabriquer : Cadre de voile de moulin à vent"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:sand_paper"
+			id: "5DD4C1CD382EDA14"
+			optional: true
+			rewards: [{
+				id: "6755E4F42B571C33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F401E9C0DDACC66"
+				item: "create:sand_paper"
+				type: "item"
+			}]
+			title: "Fabriquer : Papier de verre"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:schedule"
+			id: "67A9BFA04A788639"
+			optional: true
+			rewards: [{
+				id: "02E02A379F365FB9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11ADF4C58E2BD127"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "Fabriquer : Planning de train"
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:schematic_and_quill"
+			id: "041A578374D5225F"
+			optional: true
+			rewards: [{
+				id: "65F3E8ADDFEB793B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F23D9E7C7A3C16E"
+				item: "create:schematic_and_quill"
+				type: "item"
+			}]
+			title: "Fabriquer : Schéma et plume"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:schematic_table"
+			id: "688C298D69E6985F"
+			optional: true
+			rewards: [{
+				id: "5F805421C053BFD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72353E80DCAC5681"
+				item: "create:schematic_table"
+				type: "item"
+			}]
+			title: "Fabriquer : Table à schéma"
+			x: 15.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:schematicannon"
+			id: "27DBFDA68CA2F2BD"
+			optional: true
+			rewards: [{
+				id: "11C8A1F6B99D0916"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0698ED1B17AFFC4E"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			title: "Fabriquer : Schémacanon"
+			x: 16.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:secondary_linear_chassis"
+			id: "4D422EA06DB4735F"
+			optional: true
+			rewards: [{
+				id: "011E33EC77510DE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C744AE0A8241AA3"
+				item: "create:secondary_linear_chassis"
+				type: "item"
+			}]
+			title: "Fabriquer : Châssis linéaire secondaire"
+			x: 18.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:sequenced_gearshift"
+			id: "0C2EAAA5275DE7D1"
+			optional: true
+			rewards: [{
+				id: "6DA4EBCFCFC0811F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C9B8E04B6443786"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			title: "Fabriquer : Inverseur de rotation séquencé"
+			x: 19.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:shadow_steel_casing"
+			id: "2E7E71AED145ADFB"
+			optional: true
+			rewards: [{
+				id: "5D020C486B02BDF7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D9DCEBFFA4AB0C7"
+				item: "create:shadow_steel_casing"
+				type: "item"
+			}]
+			title: "Fabriquer : Boitier en acier sombre"
+			x: 21.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:shaft"
+			id: "081BA0BCB8877293"
+			optional: true
+			rewards: [{
+				id: "0C368F02DF020076"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "028992AA90039372"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Fabriquer : Rotor"
+			x: 22.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:smart_chute"
+			id: "251731616778F183"
+			optional: true
+			rewards: [{
+				id: "7122763EF2989618"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4DDEC7D551D01B12"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			title: "Fabriquer : Chute intelligente"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:smart_fluid_pipe"
+			id: "3C0713AEA6A305AB"
+			optional: true
+			rewards: [{
+				id: "50EB80E69FD44755"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D852787C138248E"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			title: "Fabriquer : Tuyau à fluide intelligent"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:speedometer"
+			id: "76F3454FD751127A"
+			optional: true
+			rewards: [{
+				id: "4F797F49EF09B3B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "18714773AEF209E7"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			title: "Fabriquer : Compteur de vitesse"
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:spout"
+			id: "768E1F3C7C7C4A93"
+			optional: true
+			rewards: [{
+				id: "6EFFB2805ED62A3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09B6076E2A048DEA"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Fabriquer : Bec verseur"
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:steam_engine"
+			id: "358A52A2C3398880"
+			optional: true
+			rewards: [{
+				id: "0F454A6ECB881129"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F1893687D0762F5"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Fabriquer : Moteur à vapeur"
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:steam_whistle"
+			id: "600B826C4126FF4B"
+			optional: true
+			rewards: [{
+				id: "1042D68B729252AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "074089982359609A"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			title: "Fabriquer : Sifflet à vapeur"
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:sticker"
+			id: "38F04BCC92AC412C"
+			optional: true
+			rewards: [{
+				id: "3BEB194E54711FFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7973A5494CA93909"
+				item: "create:sticker"
+				type: "item"
+			}]
+			title: "Fabriquer : Colleur"
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:sticky_mechanical_piston"
+			id: "48D9C65390B2FDC0"
+			optional: true
+			rewards: [{
+				id: "1DF418F79F14E5BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52962BD01BF16A0B"
+				item: "create:sticky_mechanical_piston"
+				type: "item"
+			}]
+			title: "Fabriquer : Piston mécanique collant"
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:stock_link"
+			id: "495D19E8DB7B7358"
+			optional: true
+			rewards: [{
+				id: "076FAC079B076ED1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "068A01E0E7CA7518"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			title: "Fabriquer : Liaison de stock"
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:stock_ticker"
+			id: "385082EF05CDA87F"
+			optional: true
+			rewards: [{
+				id: "366010AF09CF28B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B71BC8AA0C5D89C"
+				item: "create:stock_ticker"
+				type: "item"
+			}]
+			title: "Fabriquer : Téléscripteur de stock"
+			x: 13.5d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:stockpile_switch"
+			id: "71C696F6974E3035"
+			optional: true
+			rewards: [{
+				id: "24BAB2E10D76B85C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DF1E23F39907BC0"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			title: "Fabriquer : Détecteur de seuil"
+			x: 15.0d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:stressometer"
+			id: "6B8BEC1DE604B599"
+			optional: true
+			rewards: [{
+				id: "73F8BBE616B71B6C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "167F7A74BA199D22"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			title: "Fabriquer : Stressomètre"
+			x: 16.5d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:super_glue"
+			id: "0B96DE6FA1A14F39"
+			optional: true
+			rewards: [{
+				id: "44C80530FA685D06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0BEEA2DAE88BD721"
+				item: "create:super_glue"
+				type: "item"
+			}]
+			title: "Fabriquer : Colle extra-forte"
+			x: 18.0d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:track"
+			id: "0A1ACDAF7336CFA4"
+			optional: true
+			rewards: [{
+				id: "4F784A356726B256"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D6BF16A7163BCE1"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "Fabriquer : Rail de train"
+			x: 19.5d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:track_observer"
+			id: "0A6D09DB27E66C63"
+			optional: true
+			rewards: [{
+				id: "677458E5225EA3F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3360C5D254A42F84"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			title: "Fabriquer : Observateur de train"
+			x: 21.0d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:track_signal"
+			id: "1E5FF1848402F754"
+			optional: true
+			rewards: [{
+				id: "45898713B598E421"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08A82127B8CC9536"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			title: "Fabriquer : Signal de train"
+			x: 22.5d
+			y: 5.25d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:track_station"
+			id: "01B164A5BCF61711"
+			optional: true
+			rewards: [{
+				id: "0A7F3D2A5F982FBA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5050B8EE8D756AC9"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Fabriquer : Station de train"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:transmitter"
+			id: "758229138A3CCF75"
+			optional: true
+			rewards: [{
+				id: "0BAA78E054FDA278"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FB494E1D3CE7C5B"
+				item: "create:transmitter"
+				type: "item"
+			}]
+			title: "Fabriquer : Transmetteur"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:tree_fertilizer"
+			id: "0BFC1B7E4B531477"
+			optional: true
+			rewards: [{
+				id: "3825A2E71C6866B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A83E5122F0B416E"
+				item: "create:tree_fertilizer"
+				type: "item"
+			}]
+			title: "Fabriquer : Engrais pour arbres"
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:turntable"
+			id: "4CA56FA151E2649B"
+			optional: true
+			rewards: [{
+				id: "5BB1DB9744885783"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EAAA4A7AEA1E0AB"
+				item: "create:turntable"
+				type: "item"
+			}]
+			title: "Fabriquer : Plaque tournante"
+			x: 4.5d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:vertical_gearbox"
+			id: "1902A283C8E87173"
+			optional: true
+			rewards: [{
+				id: "4673C63FC3B00C11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69966B228313397A"
+				item: "create:vertical_gearbox"
+				type: "item"
+			}]
+			title: "Fabriquer : Boîte à roues dentées verticale"
+			x: 6.0d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:wand_of_symmetry"
+			id: "48EC4EB73856F4DC"
+			optional: true
+			rewards: [{
+				id: "24F8F7B50C76FE72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44011578D0322AE9"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			title: "Fabriquer : Baguette de symétrie"
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:water_wheel"
+			id: "335183E2CF4277C3"
+			optional: true
+			rewards: [{
+				id: "2265FD5E48D80623"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B4B7D3E6D4E59F8"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Fabriquer : Roue à eau"
+			x: 9.0d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:weathered_iron_block"
+			id: "13CB9418C36F710B"
+			optional: true
+			rewards: [{
+				id: "28D2835B5E83D7B2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E6F5270A37CC35E"
+				item: "create:weathered_iron_block"
+				type: "item"
+			}]
+			title: "Fabriquer : Bloc de fer érodé"
+			x: 10.5d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:weighted_ejector"
+			id: "7DD589108F2EE098"
+			optional: true
+			rewards: [{
+				id: "0C40425C8DDB5E1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DA66B023CECCCF0"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			title: "Fabriquer : Éjecteur"
+			x: 12.0d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:wheat_flour"
+			id: "06E79A65981EE734"
+			optional: true
+			rewards: [{
+				id: "257C3D087DD3B432"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F60808251B1761C"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			title: "Fabriquer : Farine de blé"
+			x: 13.5d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:whisk"
+			id: "3E59A2EA728C5AFB"
+			optional: true
+			rewards: [{
+				id: "5EF60DEB183C151E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "732D328131D353FB"
+				item: "create:whisk"
+				type: "item"
+			}]
+			title: "Fabriquer : Fouet"
+			x: 15.0d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:windmill_bearing"
+			id: "2F711D59A513F0EA"
+			optional: true
+			rewards: [{
+				id: "7494BAF12EAFE7E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05D61904B86C9B53"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "Fabriquer : Support de moulin à vent"
+			x: 16.5d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:wooden_bracket"
+			id: "02FC12FC396D164D"
+			optional: true
+			rewards: [{
+				id: "63676BA673C49A62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "553134FBA1C0ECAF"
+				item: "create:wooden_bracket"
+				type: "item"
+			}]
+			title: "Fabriquer : Support en bois"
+			x: 18.0d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:wrench"
+			id: "2B4C3D6705760D65"
+			optional: true
+			rewards: [{
+				id: "30E8B8C67084D8B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A214654E96CF90B"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Fabriquer : Clé"
+			x: 19.5d
+			y: 6.75d
+		}
+		{
+			description: ["Objet de &bcreate&r."]
+			icon: "create:zinc_ore"
+			id: "2A464021A484CD0C"
+			optional: true
+			rewards: [{
+				id: "6E6034A890BA032B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4AB8142BE3E67A5B"
+				item: "create:zinc_ore"
+				type: "item"
+			}]
+			title: "Fabriquer : Minerai de zinc"
+			x: 21.0d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"23F1C1F97717782C"
+				"2D4A11448A05A23F"
+				"7B0107122539B245"
+				"74C4B600A5BFA8E7"
+				"2B6C9DCEAB60A2E9"
+				"5BA90C4D6FCB55D5"
+				"58AEFC2B14CD085B"
+				"10FD4F597F9EB01A"
+				"698280F9D046C74F"
+				"79F2C417307872BE"
+				"769465205D0C49FC"
+				"5074F44DD419547A"
+				"0EDF5D56B665497E"
+				"012493780DE01201"
+				"7A5FEEB94C309176"
+				"169889D9B0383ED5"
+				"58FE9100995EBBDB"
+				"0E11E35DF5B7BEC7"
+				"26631244E8F7DE93"
+				"6A739405F0230753"
+				"080A51184CE1D87E"
+				"5657712336BF840B"
+				"285E6A7FE7038042"
+				"741AE354B80800F3"
+				"051E9D4DC1FE3352"
+				"6D6E911192C6951C"
+				"5FEDAC5CD8C24A5E"
+				"316D316DBBBCAF8D"
+				"40C1DAF52C8120A9"
+				"3C3DEF331B7E95DE"
+				"0177DFF0A1DA8A67"
+				"77BD1180FF236B13"
+				"38056D643ED1A0FD"
+				"642113740B68DB93"
+				"1DF18AE782FB6C98"
+				"04DD59D1E87DBE80"
+				"18123F88E1339E02"
+				"27AB3C2D33BD95A6"
+				"0EAA9043BAC22900"
+				"24A5A062DA2A003E"
+				"478FE58C4BB46A7F"
+				"7F63A3F7160A56ED"
+				"2B6097EC6698AA3E"
+				"03297FEC1AAC6284"
+				"7611012F41B92F38"
+				"2FF4A78D6E5051E2"
+				"2CAE90FEBB51E87B"
+				"14E4B1F2AFCA2A47"
+				"6B6BEEABA96807BE"
+				"20AB40F79BB47D1C"
+				"6DC837E4061708B4"
+				"51558B50EDD004DD"
+				"292015802C756988"
+				"377F556A57B03856"
+				"7C9B8D24616C82D5"
+				"12AB1B7EDDBB921B"
+				"26E1B1B9CA30DB8A"
+				"529A994D90AA9D29"
+				"640708FFBF303863"
+				"2D68F0D65D0AD807"
+				"1058D3A8703767C5"
+				"0CCCF6660B5FB988"
+				"0932E0A51CB9DC08"
+				"7C413BE73D8D3370"
+				"5BAC0887B4EB929A"
+				"429074BF8739EBCE"
+				"7AD32EC315108875"
+				"2C8634C7AA669931"
+				"46C25D190A6DCE0F"
+				"4F61B164DCC29D33"
+				"3B67396236AEA8A1"
+				"6C8F31EEE95B8379"
+				"23FC275CBF731E84"
+				"19738B46AA2A3FD2"
+				"1F5242DC5D593F3B"
+				"5A85CC4B711B0F32"
+				"0CD5E818171E0712"
+				"6982DD2DB514B212"
+				"498F1AA299F1DD5C"
+				"4D74A83E0FFB8254"
+				"4FA78BFE8985133E"
+				"1CA9759338F498DD"
+				"5DA6CB2B495BACF6"
+				"015EA2978283AD24"
+				"60ECB64BD23B17B8"
+				"2EEC40E9131D509E"
+				"365CBE1F5BCE2D7A"
+				"3A3600283D2480E7"
+				"6065EDC84F6CE2AD"
+				"246EA03D901691B8"
+				"06878EAF9320F292"
+				"449574F302A86612"
+				"30C555BB0A5452D8"
+				"67BC2DD64A8787D2"
+				"71C17319F11A1A1F"
+				"43886469DE73E401"
+				"16C290EBEBA87A03"
+				"7F1031AA9FCA6CE7"
+				"1AD097FF82AFA6B5"
+				"4F7038F50A588D9D"
+				"5A9633C38EB57300"
+				"72822DE9F0AD0AB0"
+				"3BF6EF37A9146E94"
+				"34BB38CAF8AC8453"
+				"0E6E8C1937AFDF7E"
+				"5E034A007AC6B61F"
+				"722A83A5342730D9"
+				"595F30F0DAC87B7A"
+				"11102C5ACE72006E"
+				"51B740E764118555"
+				"3BD86A141A3F4F64"
+				"4134035C9B698671"
+				"3FDA24BBAB7BE504"
+				"74618D844DB8237A"
+				"5FEB7869B10DE2BE"
+				"388C7BC516B12433"
+				"018D3849C5073BB8"
+				"7DD0DF67584E56EF"
+				"043D12303C6B1AFA"
+				"5DD4C1CD382EDA14"
+				"67A9BFA04A788639"
+				"041A578374D5225F"
+				"688C298D69E6985F"
+				"27DBFDA68CA2F2BD"
+				"4D422EA06DB4735F"
+				"0C2EAAA5275DE7D1"
+				"2E7E71AED145ADFB"
+				"081BA0BCB8877293"
+				"251731616778F183"
+				"3C0713AEA6A305AB"
+				"76F3454FD751127A"
+				"768E1F3C7C7C4A93"
+				"358A52A2C3398880"
+				"600B826C4126FF4B"
+				"38F04BCC92AC412C"
+				"48D9C65390B2FDC0"
+				"495D19E8DB7B7358"
+				"385082EF05CDA87F"
+				"71C696F6974E3035"
+				"6B8BEC1DE604B599"
+				"0B96DE6FA1A14F39"
+				"0A1ACDAF7336CFA4"
+				"0A6D09DB27E66C63"
+				"1E5FF1848402F754"
+				"01B164A5BCF61711"
+				"758229138A3CCF75"
+				"0BFC1B7E4B531477"
+				"4CA56FA151E2649B"
+				"1902A283C8E87173"
+				"48EC4EB73856F4DC"
+				"335183E2CF4277C3"
+				"13CB9418C36F710B"
+				"7DD589108F2EE098"
+				"06E79A65981EE734"
+				"3E59A2EA728C5AFB"
+				"2F711D59A513F0EA"
+				"02FC12FC396D164D"
+				"2B4C3D6705760D65"
+				"2A464021A484CD0C"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "create:mechanical_crafter"
+			id: "08B4EFA99C814CD8"
+			optional: true
+			rewards: [{
+				id: "6942DE472452F521"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3AA79CB90D934671"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Atelier Create"
+}

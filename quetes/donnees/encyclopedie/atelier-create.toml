@@ -1,0 +1,1784 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Atelier Create"
+fichier = "enc_atelier_create"
+groupe = "encyclopedie"
+icone = "create:cogwheel"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Atelier Create"
+taille = 1.5
+icone = "create:cogwheel"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque machine et chaque composant de Create, hors blocs de décoration, couleurs et matériaux. Une quête se valide en ayant l'objet dans l'inventaire.
+"""
+
+[[quete]]
+cle = "create_adjustable_chain_gearshift"
+titre = "Fabriquer : Chaine de transmission ajustable"
+optionnel = true
+icone = "create:adjustable_chain_gearshift"
+taches = ["item create:adjustable_chain_gearshift"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_analog_lever"
+titre = "Fabriquer : Levier analogique"
+optionnel = true
+icone = "create:analog_lever"
+taches = ["item create:analog_lever"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_attribute_filter"
+titre = "Fabriquer : Filtre d'attribut"
+optionnel = true
+icone = "create:attribute_filter"
+taches = ["item create:attribute_filter"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_basin"
+titre = "Fabriquer : Bassin"
+optionnel = true
+icone = "create:basin"
+taches = ["item create:basin"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_belt_connector"
+titre = "Fabriquer : Tapis roulant"
+optionnel = true
+icone = "create:belt_connector"
+taches = ["item create:belt_connector"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_blaze_burner"
+titre = "Fabriquer : Brûleur à Blaze"
+optionnel = true
+icone = "create:blaze_burner"
+taches = ["item create:blaze_burner"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_brass_casing"
+titre = "Fabriquer : Boitier de laiton"
+optionnel = true
+icone = "create:brass_casing"
+taches = ["item create:brass_casing"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_brass_funnel"
+titre = "Fabriquer : Entonnoir de laiton"
+optionnel = true
+icone = "create:brass_funnel"
+taches = ["item create:brass_funnel"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_brass_hand"
+titre = "Fabriquer : Main de laiton"
+optionnel = true
+icone = "create:brass_hand"
+taches = ["item create:brass_hand"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_brass_tunnel"
+titre = "Fabriquer : Tunnel de laiton"
+optionnel = true
+icone = "create:brass_tunnel"
+taches = ["item create:brass_tunnel"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cardboard"
+titre = "Fabriquer : Carton"
+optionnel = true
+icone = "create:cardboard"
+taches = ["item create:cardboard"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cardboard_boots"
+titre = "Fabriquer : Bottes en carton"
+optionnel = true
+icone = "create:cardboard_boots"
+taches = ["item create:cardboard_boots"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cardboard_chestplate"
+titre = "Fabriquer : Plastron en carton"
+optionnel = true
+icone = "create:cardboard_chestplate"
+taches = ["item create:cardboard_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cardboard_helmet"
+titre = "Fabriquer : Casque en carton"
+optionnel = true
+icone = "create:cardboard_helmet"
+taches = ["item create:cardboard_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cardboard_leggings"
+titre = "Fabriquer : Jambières en carton"
+optionnel = true
+icone = "create:cardboard_leggings"
+taches = ["item create:cardboard_leggings"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cardboard_sword"
+titre = "Fabriquer : Épée en carton"
+optionnel = true
+icone = "create:cardboard_sword"
+taches = ["item create:cardboard_sword"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cart_assembler"
+titre = "Fabriquer : Assembleur de wagonnet"
+optionnel = true
+icone = "create:cart_assembler"
+taches = ["item create:cart_assembler"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_chain_conveyor"
+titre = "Fabriquer : Roue à chaîne roulante"
+optionnel = true
+icone = "create:chain_conveyor"
+taches = ["item create:chain_conveyor"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_chute"
+titre = "Fabriquer : Chute"
+optionnel = true
+icone = "create:chute"
+taches = ["item create:chute"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cinder_flour"
+titre = "Fabriquer : Farine de braise"
+optionnel = true
+icone = "create:cinder_flour"
+taches = ["item create:cinder_flour"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_clipboard"
+titre = "Fabriquer : Presse-papiers"
+optionnel = true
+icone = "create:clipboard"
+taches = ["item create:clipboard"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_clockwork_bearing"
+titre = "Fabriquer : Roulement mécanique horloger"
+optionnel = true
+icone = "create:clockwork_bearing"
+taches = ["item create:clockwork_bearing"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_clutch"
+titre = "Fabriquer : Embrayage"
+optionnel = true
+icone = "create:clutch"
+taches = ["item create:clutch"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cogwheel"
+titre = "Fabriquer : Roue dentée"
+optionnel = true
+icone = "create:cogwheel"
+taches = ["item create:cogwheel"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_content_observer"
+titre = "Fabriquer : Observateur intelligent"
+optionnel = true
+icone = "create:content_observer"
+taches = ["item create:content_observer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_contraption_controls"
+titre = "Fabriquer : Contrôles de machine"
+optionnel = true
+icone = "create:contraption_controls"
+taches = ["item create:contraption_controls"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_controller_rail"
+titre = "Fabriquer : Rails contrôleurs"
+optionnel = true
+icone = "create:controller_rail"
+taches = ["item create:controller_rail"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_controls"
+titre = "Fabriquer : Contrôles de train"
+optionnel = true
+icone = "create:controls"
+taches = ["item create:controls"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_copycat_step"
+titre = "Fabriquer : Marche imitatrice"
+optionnel = true
+icone = "create:copycat_step"
+taches = ["item create:copycat_step"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_crafter_slot_cover"
+titre = "Fabriquer : Couvercle d'emplacement d'établi"
+optionnel = true
+icone = "create:crafter_slot_cover"
+taches = ["item create:crafter_slot_cover"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_crafting_blueprint"
+titre = "Fabriquer : Plan de fabrication"
+optionnel = true
+icone = "create:crafting_blueprint"
+taches = ["item create:crafting_blueprint"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_creative_fluid_tank"
+titre = "Fabriquer : Réservoir à fluide créatif"
+optionnel = true
+icone = "create:creative_fluid_tank"
+taches = ["item create:creative_fluid_tank"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_creative_motor"
+titre = "Fabriquer : Moteur créatif"
+optionnel = true
+icone = "create:creative_motor"
+taches = ["item create:creative_motor"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_crushing_wheel"
+titre = "Fabriquer : Roue de concassage"
+optionnel = true
+icone = "create:crushing_wheel"
+taches = ["item create:crushing_wheel"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_cuckoo_clock"
+titre = "Fabriquer : Horloge à coucou"
+optionnel = true
+icone = "create:cuckoo_clock"
+taches = ["item create:cuckoo_clock"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_deployer"
+titre = "Fabriquer : Déployeur"
+optionnel = true
+icone = "create:deployer"
+taches = ["item create:deployer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_depot"
+titre = "Fabriquer : Dépôt"
+optionnel = true
+icone = "create:depot"
+taches = ["item create:depot"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_desk_bell"
+titre = "Fabriquer : Clochette"
+optionnel = true
+icone = "create:desk_bell"
+taches = ["item create:desk_bell"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_display_board"
+titre = "Fabriquer : Panneau d'affichage"
+optionnel = true
+icone = "create:display_board"
+taches = ["item create:display_board"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_display_link"
+titre = "Fabriquer : Liaison d'affichage"
+optionnel = true
+icone = "create:display_link"
+taches = ["item create:display_link"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_elevator_pulley"
+titre = "Fabriquer : Poulie d'ascenseur"
+optionnel = true
+icone = "create:elevator_pulley"
+taches = ["item create:elevator_pulley"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_empty_blaze_burner"
+titre = "Fabriquer : Brûleur à Blaze vide"
+optionnel = true
+icone = "create:empty_blaze_burner"
+taches = ["item create:empty_blaze_burner"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_empty_schematic"
+titre = "Fabriquer : Schéma vide"
+optionnel = true
+icone = "create:empty_schematic"
+taches = ["item create:empty_schematic"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_encased_chain_drive"
+titre = "Fabriquer : Chaine de transmission"
+optionnel = true
+icone = "create:encased_chain_drive"
+taches = ["item create:encased_chain_drive"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_encased_fan"
+titre = "Fabriquer : Ventilateur enchâssé"
+optionnel = true
+icone = "create:encased_fan"
+taches = ["item create:encased_fan"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_extendo_grip"
+titre = "Fabriquer : Main extensible"
+optionnel = true
+icone = "create:extendo_grip"
+taches = ["item create:extendo_grip"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_factory_gauge"
+titre = "Fabriquer : Jauge d'usine"
+optionnel = true
+icone = "create:factory_gauge"
+taches = ["item create:factory_gauge"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_filter"
+titre = "Fabriquer : Filtre de liste"
+optionnel = true
+icone = "create:filter"
+taches = ["item create:filter"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_fluid_pipe"
+titre = "Fabriquer : Tuyau à fluide"
+optionnel = true
+icone = "create:fluid_pipe"
+taches = ["item create:fluid_pipe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_fluid_tank"
+titre = "Fabriquer : Réservoir à fluide"
+optionnel = true
+icone = "create:fluid_tank"
+taches = ["item create:fluid_tank"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_fluid_valve"
+titre = "Fabriquer : Vanne à fluide"
+optionnel = true
+icone = "create:fluid_valve"
+taches = ["item create:fluid_valve"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_flywheel"
+titre = "Fabriquer : Volant d'inertie"
+optionnel = true
+icone = "create:flywheel"
+taches = ["item create:flywheel"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_gantry_carriage"
+titre = "Fabriquer : Chariot de portique"
+optionnel = true
+icone = "create:gantry_carriage"
+taches = ["item create:gantry_carriage"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_gantry_shaft"
+titre = "Fabriquer : Rotor de portique"
+optionnel = true
+icone = "create:gantry_shaft"
+taches = ["item create:gantry_shaft"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_gearbox"
+titre = "Fabriquer : Boîte à roues dentées"
+optionnel = true
+icone = "create:gearbox"
+taches = ["item create:gearbox"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_gearshift"
+titre = "Fabriquer : Inverseur de rotation"
+optionnel = true
+icone = "create:gearshift"
+taches = ["item create:gearshift"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_goggles"
+titre = "Fabriquer : Lunettes d'ingénieur"
+optionnel = true
+icone = "create:goggles"
+taches = ["item create:goggles"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_hand_crank"
+titre = "Fabriquer : Manivelle"
+optionnel = true
+icone = "create:hand_crank"
+taches = ["item create:hand_crank"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_haunted_bell"
+titre = "Fabriquer : Cloche hantée"
+optionnel = true
+icone = "create:haunted_bell"
+taches = ["item create:haunted_bell"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_hose_pulley"
+titre = "Fabriquer : Poulie à tuyau"
+optionnel = true
+icone = "create:hose_pulley"
+taches = ["item create:hose_pulley"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_industrial_iron_block"
+titre = "Fabriquer : Bloc de fer industriel"
+optionnel = true
+icone = "create:industrial_iron_block"
+taches = ["item create:industrial_iron_block"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_item_drain"
+titre = "Fabriquer : Égouttoir à objets"
+optionnel = true
+icone = "create:item_drain"
+taches = ["item create:item_drain"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_item_hatch"
+titre = "Fabriquer : Trappe à objets"
+optionnel = true
+icone = "create:item_hatch"
+taches = ["item create:item_hatch"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_item_vault"
+titre = "Fabriquer : Coffre à objet renforcé"
+optionnel = true
+icone = "create:item_vault"
+taches = ["item create:item_vault"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_large_cogwheel"
+titre = "Fabriquer : Grande roue dentée"
+optionnel = true
+icone = "create:large_cogwheel"
+taches = ["item create:large_cogwheel"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_large_water_wheel"
+titre = "Fabriquer : Grande roue à eau"
+optionnel = true
+icone = "create:large_water_wheel"
+taches = ["item create:large_water_wheel"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_linear_chassis"
+titre = "Fabriquer : Châssis linéaire"
+optionnel = true
+icone = "create:linear_chassis"
+taches = ["item create:linear_chassis"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_linked_controller"
+titre = "Fabriquer : Télécommande"
+optionnel = true
+icone = "create:linked_controller"
+taches = ["item create:linked_controller"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_arm"
+titre = "Fabriquer : Bras mécanique"
+optionnel = true
+icone = "create:mechanical_arm"
+taches = ["item create:mechanical_arm"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_bearing"
+titre = "Fabriquer : Roulement mécanique"
+optionnel = true
+icone = "create:mechanical_bearing"
+taches = ["item create:mechanical_bearing"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_crafter"
+titre = "Fabriquer : Établi mécanique"
+optionnel = true
+icone = "create:mechanical_crafter"
+taches = ["item create:mechanical_crafter"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_drill"
+titre = "Fabriquer : Perceuse mécanique"
+optionnel = true
+icone = "create:mechanical_drill"
+taches = ["item create:mechanical_drill"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_harvester"
+titre = "Fabriquer : Récolteur mécanique"
+optionnel = true
+icone = "create:mechanical_harvester"
+taches = ["item create:mechanical_harvester"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_mixer"
+titre = "Fabriquer : Mixeur mécanique"
+optionnel = true
+icone = "create:mechanical_mixer"
+taches = ["item create:mechanical_mixer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_piston"
+titre = "Fabriquer : Piston mécanique"
+optionnel = true
+icone = "create:mechanical_piston"
+taches = ["item create:mechanical_piston"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_plough"
+titre = "Fabriquer : Charrue mécanique"
+optionnel = true
+icone = "create:mechanical_plough"
+taches = ["item create:mechanical_plough"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_press"
+titre = "Fabriquer : Presse mécanique"
+optionnel = true
+icone = "create:mechanical_press"
+taches = ["item create:mechanical_press"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_pump"
+titre = "Fabriquer : Pompe mécanique"
+optionnel = true
+icone = "create:mechanical_pump"
+taches = ["item create:mechanical_pump"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_roller"
+titre = "Fabriquer : Rouleau mécanique"
+optionnel = true
+icone = "create:mechanical_roller"
+taches = ["item create:mechanical_roller"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mechanical_saw"
+titre = "Fabriquer : Scie mécanique"
+optionnel = true
+icone = "create:mechanical_saw"
+taches = ["item create:mechanical_saw"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_metal_bracket"
+titre = "Fabriquer : Support en métal"
+optionnel = true
+icone = "create:metal_bracket"
+taches = ["item create:metal_bracket"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_metal_girder"
+titre = "Fabriquer : Poutre en métal"
+optionnel = true
+icone = "create:metal_girder"
+taches = ["item create:metal_girder"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_millstone"
+titre = "Fabriquer : Meule"
+optionnel = true
+icone = "create:millstone"
+taches = ["item create:millstone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_minecart_coupling"
+titre = "Fabriquer : Lien pour wagonnet"
+optionnel = true
+icone = "create:minecart_coupling"
+taches = ["item create:minecart_coupling"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_mysterious_cuckoo_clock"
+titre = "Fabriquer : Horloge à coucou"
+optionnel = true
+icone = "create:mysterious_cuckoo_clock"
+taches = ["item create:mysterious_cuckoo_clock"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_netherite_backtank"
+titre = "Fabriquer : Réservoir dorsal en Netherite"
+optionnel = true
+icone = "create:netherite_backtank"
+taches = ["item create:netherite_backtank"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_netherite_diving_boots"
+titre = "Fabriquer : Bottes de plongée en Netherite"
+optionnel = true
+icone = "create:netherite_diving_boots"
+taches = ["item create:netherite_diving_boots"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_netherite_diving_helmet"
+titre = "Fabriquer : Casque de plongée en Netherite"
+optionnel = true
+icone = "create:netherite_diving_helmet"
+taches = ["item create:netherite_diving_helmet"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_nozzle"
+titre = "Fabriquer : Buse"
+optionnel = true
+icone = "create:nozzle"
+taches = ["item create:nozzle"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_package_filter"
+titre = "Fabriquer : Filtre de colis"
+optionnel = true
+icone = "create:package_filter"
+taches = ["item create:package_filter"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_package_frogport"
+titre = "Fabriquer : Crapauport à colis"
+optionnel = true
+icone = "create:package_frogport"
+taches = ["item create:package_frogport"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_packager"
+titre = "Fabriquer : Emballeur"
+optionnel = true
+icone = "create:packager"
+taches = ["item create:packager"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_peculiar_bell"
+titre = "Fabriquer : Cloche particulière"
+optionnel = true
+icone = "create:peculiar_bell"
+taches = ["item create:peculiar_bell"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_piston_extension_pole"
+titre = "Fabriquer : Barre d'extension de piston"
+optionnel = true
+icone = "create:piston_extension_pole"
+taches = ["item create:piston_extension_pole"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_placard"
+titre = "Fabriquer : Panneau"
+optionnel = true
+icone = "create:placard"
+taches = ["item create:placard"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_portable_fluid_interface"
+titre = "Fabriquer : Interface de fluide portable"
+optionnel = true
+icone = "create:portable_fluid_interface"
+taches = ["item create:portable_fluid_interface"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_portable_storage_interface"
+titre = "Fabriquer : Interface de stockage portable"
+optionnel = true
+icone = "create:portable_storage_interface"
+taches = ["item create:portable_storage_interface"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_potato_cannon"
+titre = "Fabriquer : Canon à pomme de terre"
+optionnel = true
+icone = "create:potato_cannon"
+taches = ["item create:potato_cannon"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_powered_latch"
+titre = "Fabriquer : Verrou alimenté"
+optionnel = true
+icone = "create:powered_latch"
+taches = ["item create:powered_latch"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_powered_toggle_latch"
+titre = "Fabriquer : Verrou alimenté à bascule"
+optionnel = true
+icone = "create:powered_toggle_latch"
+taches = ["item create:powered_toggle_latch"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_precision_mechanism"
+titre = "Fabriquer : Mécanisme de précision"
+optionnel = true
+icone = "create:precision_mechanism"
+taches = ["item create:precision_mechanism"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_propeller"
+titre = "Fabriquer : Hélice"
+optionnel = true
+icone = "create:propeller"
+taches = ["item create:propeller"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_pulp"
+titre = "Fabriquer : Pulpe"
+optionnel = true
+icone = "create:pulp"
+taches = ["item create:pulp"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_pulse_extender"
+titre = "Fabriquer : Extenseur d'impulsions"
+optionnel = true
+icone = "create:pulse_extender"
+taches = ["item create:pulse_extender"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_pulse_repeater"
+titre = "Fabriquer : Répéteur d'impulsions"
+optionnel = true
+icone = "create:pulse_repeater"
+taches = ["item create:pulse_repeater"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_pulse_timer"
+titre = "Fabriquer : Minuteur à impulsions"
+optionnel = true
+icone = "create:pulse_timer"
+taches = ["item create:pulse_timer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_radial_chassis"
+titre = "Fabriquer : Châssis radial"
+optionnel = true
+icone = "create:radial_chassis"
+taches = ["item create:radial_chassis"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_railway_casing"
+titre = "Fabriquer : Boitier de train"
+optionnel = true
+icone = "create:railway_casing"
+taches = ["item create:railway_casing"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_redstone_contact"
+titre = "Fabriquer : Contact de redstone"
+optionnel = true
+icone = "create:redstone_contact"
+taches = ["item create:redstone_contact"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_redstone_link"
+titre = "Fabriquer : Liaison de redstone"
+optionnel = true
+icone = "create:redstone_link"
+taches = ["item create:redstone_link"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_redstone_requester"
+titre = "Fabriquer : Commandeur à redstone"
+optionnel = true
+icone = "create:redstone_requester"
+taches = ["item create:redstone_requester"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_refined_radiance_casing"
+titre = "Fabriquer : Boitier en radiance raffinée"
+optionnel = true
+icone = "create:refined_radiance_casing"
+taches = ["item create:refined_radiance_casing"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_repackager"
+titre = "Fabriquer : Réemballeur"
+optionnel = true
+icone = "create:repackager"
+taches = ["item create:repackager"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_rope_pulley"
+titre = "Fabriquer : Poulie à corde"
+optionnel = true
+icone = "create:rope_pulley"
+taches = ["item create:rope_pulley"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_rose_quartz"
+titre = "Fabriquer : Quartz rose"
+optionnel = true
+icone = "create:rose_quartz"
+taches = ["item create:rose_quartz"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_rose_quartz_block"
+titre = "Fabriquer : Bloc de quartz rose"
+optionnel = true
+icone = "create:rose_quartz_block"
+taches = ["item create:rose_quartz_block"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_rose_quartz_lamp"
+titre = "Fabriquer : Lampe à quartz rose"
+optionnel = true
+icone = "create:rose_quartz_lamp"
+taches = ["item create:rose_quartz_lamp"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_rotation_speed_controller"
+titre = "Fabriquer : Contrôleur de vitesse de rotation"
+optionnel = true
+icone = "create:rotation_speed_controller"
+taches = ["item create:rotation_speed_controller"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_sail_frame"
+titre = "Fabriquer : Cadre de voile de moulin à vent"
+optionnel = true
+icone = "create:sail_frame"
+taches = ["item create:sail_frame"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_sand_paper"
+titre = "Fabriquer : Papier de verre"
+optionnel = true
+icone = "create:sand_paper"
+taches = ["item create:sand_paper"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_schedule"
+titre = "Fabriquer : Planning de train"
+optionnel = true
+icone = "create:schedule"
+taches = ["item create:schedule"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_schematic_and_quill"
+titre = "Fabriquer : Schéma et plume"
+optionnel = true
+icone = "create:schematic_and_quill"
+taches = ["item create:schematic_and_quill"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_schematic_table"
+titre = "Fabriquer : Table à schéma"
+optionnel = true
+icone = "create:schematic_table"
+taches = ["item create:schematic_table"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_schematicannon"
+titre = "Fabriquer : Schémacanon"
+optionnel = true
+icone = "create:schematicannon"
+taches = ["item create:schematicannon"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_secondary_linear_chassis"
+titre = "Fabriquer : Châssis linéaire secondaire"
+optionnel = true
+icone = "create:secondary_linear_chassis"
+taches = ["item create:secondary_linear_chassis"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_sequenced_gearshift"
+titre = "Fabriquer : Inverseur de rotation séquencé"
+optionnel = true
+icone = "create:sequenced_gearshift"
+taches = ["item create:sequenced_gearshift"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_shadow_steel_casing"
+titre = "Fabriquer : Boitier en acier sombre"
+optionnel = true
+icone = "create:shadow_steel_casing"
+taches = ["item create:shadow_steel_casing"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_shaft"
+titre = "Fabriquer : Rotor"
+optionnel = true
+icone = "create:shaft"
+taches = ["item create:shaft"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_smart_chute"
+titre = "Fabriquer : Chute intelligente"
+optionnel = true
+icone = "create:smart_chute"
+taches = ["item create:smart_chute"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_smart_fluid_pipe"
+titre = "Fabriquer : Tuyau à fluide intelligent"
+optionnel = true
+icone = "create:smart_fluid_pipe"
+taches = ["item create:smart_fluid_pipe"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_speedometer"
+titre = "Fabriquer : Compteur de vitesse"
+optionnel = true
+icone = "create:speedometer"
+taches = ["item create:speedometer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_spout"
+titre = "Fabriquer : Bec verseur"
+optionnel = true
+icone = "create:spout"
+taches = ["item create:spout"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_steam_engine"
+titre = "Fabriquer : Moteur à vapeur"
+optionnel = true
+icone = "create:steam_engine"
+taches = ["item create:steam_engine"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_steam_whistle"
+titre = "Fabriquer : Sifflet à vapeur"
+optionnel = true
+icone = "create:steam_whistle"
+taches = ["item create:steam_whistle"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_sticker"
+titre = "Fabriquer : Colleur"
+optionnel = true
+icone = "create:sticker"
+taches = ["item create:sticker"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_sticky_mechanical_piston"
+titre = "Fabriquer : Piston mécanique collant"
+optionnel = true
+icone = "create:sticky_mechanical_piston"
+taches = ["item create:sticky_mechanical_piston"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_stock_link"
+titre = "Fabriquer : Liaison de stock"
+optionnel = true
+icone = "create:stock_link"
+taches = ["item create:stock_link"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_stock_ticker"
+titre = "Fabriquer : Téléscripteur de stock"
+optionnel = true
+icone = "create:stock_ticker"
+taches = ["item create:stock_ticker"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_stockpile_switch"
+titre = "Fabriquer : Détecteur de seuil"
+optionnel = true
+icone = "create:stockpile_switch"
+taches = ["item create:stockpile_switch"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_stressometer"
+titre = "Fabriquer : Stressomètre"
+optionnel = true
+icone = "create:stressometer"
+taches = ["item create:stressometer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_super_glue"
+titre = "Fabriquer : Colle extra-forte"
+optionnel = true
+icone = "create:super_glue"
+taches = ["item create:super_glue"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_track"
+titre = "Fabriquer : Rail de train"
+optionnel = true
+icone = "create:track"
+taches = ["item create:track"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_track_observer"
+titre = "Fabriquer : Observateur de train"
+optionnel = true
+icone = "create:track_observer"
+taches = ["item create:track_observer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_track_signal"
+titre = "Fabriquer : Signal de train"
+optionnel = true
+icone = "create:track_signal"
+taches = ["item create:track_signal"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_track_station"
+titre = "Fabriquer : Station de train"
+optionnel = true
+icone = "create:track_station"
+taches = ["item create:track_station"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_transmitter"
+titre = "Fabriquer : Transmetteur"
+optionnel = true
+icone = "create:transmitter"
+taches = ["item create:transmitter"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_tree_fertilizer"
+titre = "Fabriquer : Engrais pour arbres"
+optionnel = true
+icone = "create:tree_fertilizer"
+taches = ["item create:tree_fertilizer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_turntable"
+titre = "Fabriquer : Plaque tournante"
+optionnel = true
+icone = "create:turntable"
+taches = ["item create:turntable"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_vertical_gearbox"
+titre = "Fabriquer : Boîte à roues dentées verticale"
+optionnel = true
+icone = "create:vertical_gearbox"
+taches = ["item create:vertical_gearbox"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_wand_of_symmetry"
+titre = "Fabriquer : Baguette de symétrie"
+optionnel = true
+icone = "create:wand_of_symmetry"
+taches = ["item create:wand_of_symmetry"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_water_wheel"
+titre = "Fabriquer : Roue à eau"
+optionnel = true
+icone = "create:water_wheel"
+taches = ["item create:water_wheel"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_weathered_iron_block"
+titre = "Fabriquer : Bloc de fer érodé"
+optionnel = true
+icone = "create:weathered_iron_block"
+taches = ["item create:weathered_iron_block"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_weighted_ejector"
+titre = "Fabriquer : Éjecteur"
+optionnel = true
+icone = "create:weighted_ejector"
+taches = ["item create:weighted_ejector"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_wheat_flour"
+titre = "Fabriquer : Farine de blé"
+optionnel = true
+icone = "create:wheat_flour"
+taches = ["item create:wheat_flour"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_whisk"
+titre = "Fabriquer : Fouet"
+optionnel = true
+icone = "create:whisk"
+taches = ["item create:whisk"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_windmill_bearing"
+titre = "Fabriquer : Support de moulin à vent"
+optionnel = true
+icone = "create:windmill_bearing"
+taches = ["item create:windmill_bearing"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_wooden_bracket"
+titre = "Fabriquer : Support en bois"
+optionnel = true
+icone = "create:wooden_bracket"
+taches = ["item create:wooden_bracket"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_wrench"
+titre = "Fabriquer : Clé"
+optionnel = true
+icone = "create:wrench"
+taches = ["item create:wrench"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "create_zinc_ore"
+titre = "Fabriquer : Minerai de zinc"
+optionnel = true
+icone = "create:zinc_ore"
+taches = ["item create:zinc_ore"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcreate&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "create:mechanical_crafter"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["create_adjustable_chain_gearshift", "create_analog_lever", "create_attribute_filter", "create_basin", "create_belt_connector", "create_blaze_burner", "create_brass_casing", "create_brass_funnel", "create_brass_hand", "create_brass_tunnel", "create_cardboard", "create_cardboard_boots", "create_cardboard_chestplate", "create_cardboard_helmet", "create_cardboard_leggings", "create_cardboard_sword", "create_cart_assembler", "create_chain_conveyor", "create_chute", "create_cinder_flour", "create_clipboard", "create_clockwork_bearing", "create_clutch", "create_cogwheel", "create_content_observer", "create_contraption_controls", "create_controller_rail", "create_controls", "create_copycat_step", "create_crafter_slot_cover", "create_crafting_blueprint", "create_creative_fluid_tank", "create_creative_motor", "create_crushing_wheel", "create_cuckoo_clock", "create_deployer", "create_depot", "create_desk_bell", "create_display_board", "create_display_link", "create_elevator_pulley", "create_empty_blaze_burner", "create_empty_schematic", "create_encased_chain_drive", "create_encased_fan", "create_extendo_grip", "create_factory_gauge", "create_filter", "create_fluid_pipe", "create_fluid_tank", "create_fluid_valve", "create_flywheel", "create_gantry_carriage", "create_gantry_shaft", "create_gearbox", "create_gearshift", "create_goggles", "create_hand_crank", "create_haunted_bell", "create_hose_pulley", "create_industrial_iron_block", "create_item_drain", "create_item_hatch", "create_item_vault", "create_large_cogwheel", "create_large_water_wheel", "create_linear_chassis", "create_linked_controller", "create_mechanical_arm", "create_mechanical_bearing", "create_mechanical_crafter", "create_mechanical_drill", "create_mechanical_harvester", "create_mechanical_mixer", "create_mechanical_piston", "create_mechanical_plough", "create_mechanical_press", "create_mechanical_pump", "create_mechanical_roller", "create_mechanical_saw", "create_metal_bracket", "create_metal_girder", "create_millstone", "create_minecart_coupling", "create_mysterious_cuckoo_clock", "create_netherite_backtank", "create_netherite_diving_boots", "create_netherite_diving_helmet", "create_nozzle", "create_package_filter", "create_package_frogport", "create_packager", "create_peculiar_bell", "create_piston_extension_pole", "create_placard", "create_portable_fluid_interface", "create_portable_storage_interface", "create_potato_cannon", "create_powered_latch", "create_powered_toggle_latch", "create_precision_mechanism", "create_propeller", "create_pulp", "create_pulse_extender", "create_pulse_repeater", "create_pulse_timer", "create_radial_chassis", "create_railway_casing", "create_redstone_contact", "create_redstone_link", "create_redstone_requester", "create_refined_radiance_casing", "create_repackager", "create_rope_pulley", "create_rose_quartz", "create_rose_quartz_block", "create_rose_quartz_lamp", "create_rotation_speed_controller", "create_sail_frame", "create_sand_paper", "create_schedule", "create_schematic_and_quill", "create_schematic_table", "create_schematicannon", "create_secondary_linear_chassis", "create_sequenced_gearshift", "create_shadow_steel_casing", "create_shaft", "create_smart_chute", "create_smart_fluid_pipe", "create_speedometer", "create_spout", "create_steam_engine", "create_steam_whistle", "create_sticker", "create_sticky_mechanical_piston", "create_stock_link", "create_stock_ticker", "create_stockpile_switch", "create_stressometer", "create_super_glue", "create_track", "create_track_observer", "create_track_signal", "create_track_station", "create_transmitter", "create_tree_fertilizer", "create_turntable", "create_vertical_gearbox", "create_wand_of_symmetry", "create_water_wheel", "create_weathered_iron_block", "create_weighted_ejector", "create_wheat_flour", "create_whisk", "create_windmill_bearing", "create_wooden_bracket", "create_wrench", "create_zinc_ore"]
+description = """
+Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+"""
