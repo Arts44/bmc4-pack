@@ -1,8 +1,15 @@
 # Chapitre « Iron Jetpacks » — cahier des charges §5.12
-# Identifiants vérifiés dans IronJetpacks-1.20.1-7.0.9 : le jetpack est
-# un seul objet, dont le palier est porté par ses données (NBT). Les
-# quêtes demandent donc les composants, et le jetpack sans distinction
-# de palier.
+# IronJetpacks-1.20.1-7.0.9 (javap) : le jetpack et ses composants portent
+# leur palier dans le NBT {Id:"ironjetpacks:<palier>"} (JetpackUtils.makeTag) ;
+# tâche « jetpack <objet> <palier> » du générateur. Recettes créées par le code
+# (DynamicRecipeManager) : cellule, propulseur, condensateur et jetpack de
+# chaque palier ; au-dessus du plus bas, le jetpack se fabrique à partir d'un
+# jetpack du palier inférieur (JetpackUpgradeRecipe). Bobine du propulseur
+# selon le rang du palier (getCoilForTier : basique, avancée, élite, ultime).
+# Paliers du serveur : /config/ironjetpacks/jetpacks/*.json — bois 0, pierre
+# et cuivre 1, fer 2, or et acier 3, diamant 4, émeraude 5. Sautés : bronze,
+# argent, électrum, invar, platine (balises de matériau vides dans le pack),
+# créatif (sans recette). ironjetpacks-common.toml : jetpacks non enchantables.
 
 [chapitre]
 titre = "&bIron Jetpacks"
@@ -20,71 +27,171 @@ icone = "ironjetpacks:thruster"
 taches = ["checkmark Lu"]
 recompenses = ["item minecraft:iron_ingot 8"]
 description = """
-&bIron Jetpacks&r : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Chaque palier — fer, or, diamant, émeraude, nétherite — a plus d'autonomie et de vitesse, et se fabrique avec les composants du palier.
+&bIron Jetpacks&r : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Huit paliers sur ce serveur : bois, pierre, cuivre, fer, or, acier, diamant, émeraude. Chacun a plus d'autonomie et de vitesse, et se fabrique à partir du jetpack d'en dessous.
 
-Il lui faut de l'énergie : le chapitre &ePowah&r en fournit.
-"""
-
-[[quete]]
-cle = "cellule"
-titre = "Une cellule"
-deps = ["intro"]
-taches = ["item ironjetpacks:cell"]
-recompenses = ["xp 3"]
-description = """
-La &bcellule&r stocke l'énergie du jetpack. Elle entre dans chaque palier.
-"""
-
-[[quete]]
-cle = "propulseur"
-titre = "Un propulseur et une sangle"
-deps = ["intro"]
-taches = ["item ironjetpacks:thruster", "item ironjetpacks:strap"]
-recompenses = ["xp 3"]
-description = """
-Le &bpropulseur&r pousse, la &bsangle&r tient. Avec la cellule et le condensateur, c'est tout ce qu'un jetpack demande, dans le matériau du palier.
-"""
-
-[[quete]]
-cle = "condensateur"
-titre = "Un condensateur"
-deps = ["intro"]
-taches = ["item ironjetpacks:capacitor"]
-recompenses = ["xp 3"]
-description = """
-Le &bcondensateur&r accumule l'énergie entre deux coups de propulseur.
+Il lui faut de l'énergie : le chapitre &ePowah&r en fournit. Les jetpacks ne s'enchantent pas (config du serveur).
 """
 
 [[quete]]
 cle = "bobine"
-titre = "Des bobines"
-deps = ["cellule"]
+titre = "Une bobine basique"
+deps = ["intro"]
 taches = ["item ironjetpacks:basic_coil"]
 recompenses = ["xp 3"]
 description = """
-Les &bbobines&r — basique, avancée, élite, ultime — font les paliers supérieurs. La première se contente de fer et de redstone.
+Quatre lingots de fer, deux poudres de redstone et un bâton : la &bbobine basique&r, celle des propulseurs en bois, en pierre et en cuivre.
+"""
+
+[[quete]]
+cle = "cellule"
+titre = "Une cellule en bois"
+deps = ["intro"]
+taches = ["jetpack cell wood"]
+recompenses = ["xp 3"]
+description = """
+La &bcellule&r stocke l'énergie. Chaque palier a la sienne, faite de redstone et du matériau du palier : on commence en bois.
+"""
+
+[[quete]]
+cle = "propulseur"
+titre = "Un propulseur en bois et une sangle"
+deps = ["cellule", "bobine"]
+taches = ["jetpack thruster wood", "item ironjetpacks:strap"]
+recompenses = ["xp 3"]
+description = """
+Le &bpropulseur&r pousse : une cellule, une bobine et le matériau du palier. La &bsangle&r (trois cuirs, deux pépites de fer) tient le tout.
+"""
+
+[[quete]]
+cle = "condensateur"
+titre = "Un condensateur en bois"
+deps = ["cellule"]
+taches = ["jetpack capacitor wood"]
+recompenses = ["xp 3"]
+description = """
+Le &bcondensateur&r accumule l'énergie entre deux coups de propulseur : une cellule et le matériau du palier.
 """
 
 [[quete]]
 cle = "jetpack"
-titre = "Fabriquer un jetpack"
-deps = ["propulseur", "condensateur", "bobine"]
-boss = true
-forme = "diamond"
-taches = ["item ironjetpacks:jetpack"]
+titre = "Un jetpack en bois"
+deps = ["propulseur", "condensateur"]
+taches = ["jetpack jetpack wood"]
+recompenses = ["xp 8"]
+description = """
+Condensateur, propulseur, sangle et planches : le premier &bjetpack&r. Charge-le, enfile-le, et saute. Le vol stationnaire se règle à la touche du mod. Les paliers suivants partent tous de celui-ci.
+"""
+
+[[quete]]
+cle = "bobine_avancee"
+titre = "Une bobine avancée"
+deps = ["bobine"]
+taches = ["item ironjetpacks:advanced_coil"]
+recompenses = ["xp 4"]
+description = """
+La même recette avec des lingots d'or : la bobine des propulseurs en fer, en or et en acier.
+"""
+
+[[quete]]
+cle = "bobine_elite"
+titre = "Une bobine élite"
+deps = ["bobine_avancee"]
+taches = ["item ironjetpacks:elite_coil"]
+recompenses = ["xp 5"]
+description = """
+Avec des diamants : la bobine du propulseur en diamant.
+"""
+
+[[quete]]
+cle = "bobine_ultime"
+titre = "Une bobine ultime"
+deps = ["bobine_elite"]
+taches = ["item ironjetpacks:ultimate_coil"]
+recompenses = ["xp 6"]
+description = """
+Avec des émeraudes : la bobine du propulseur en émeraude, le dernier.
+"""
+
+[[quete]]
+cle = "jetpack_stone"
+titre = "Un jetpack en pierre"
+deps = ["jetpack", "bobine"]
+taches = ["jetpack jetpack stone"]
+recompenses = ["xp 8"]
+description = """
+Palier 1. On repart de un jetpack du palier inférieur (bois) : avec de la pierre, une nouvelle cellule, un propulseur à bobine basique et un condensateur en pierre, l'établi le change en jetpack en pierre.
+"""
+
+[[quete]]
+cle = "jetpack_copper"
+titre = "Un jetpack en cuivre"
+deps = ["jetpack", "bobine"]
+taches = ["jetpack jetpack copper"]
+recompenses = ["xp 8"]
+description = """
+Palier 1. On repart de un jetpack du palier inférieur (bois) : avec des lingots de cuivre, une nouvelle cellule, un propulseur à bobine basique et un condensateur en cuivre, l'établi le change en jetpack en cuivre.
+"""
+
+[[quete]]
+cle = "jetpack_iron"
+titre = "Un jetpack en fer"
+deps = ["jetpack_stone", "jetpack_copper", "bobine_avancee"]
+taches = ["jetpack jetpack iron"]
 recompenses = ["xp 10"]
 description = """
-Cellule, condensateur, propulseur, sangle et bobine, dans le matériau du palier : un &bjetpack&r. Charge-le dans une cellule d'énergie, enfile-le, et saute. Le mode planeur et le vol stationnaire se règlent à la touche du mod.
+Palier 2. On repart de un jetpack en pierre ou en cuivre : avec des lingots de fer, une nouvelle cellule, un propulseur à bobine avancée et un condensateur en fer, l'établi le change en jetpack en fer.
+"""
+
+[[quete]]
+cle = "jetpack_gold"
+titre = "Un jetpack en or"
+deps = ["jetpack_iron", "bobine_avancee"]
+taches = ["jetpack jetpack gold"]
+recompenses = ["xp 12"]
+description = """
+Palier 3. On repart de un jetpack en fer : avec des lingots d'or, une nouvelle cellule, un propulseur à bobine avancée et un condensateur en or, l'établi le change en jetpack en or.
+"""
+
+[[quete]]
+cle = "jetpack_steel"
+titre = "Un jetpack en acier"
+deps = ["jetpack_iron", "bobine_avancee"]
+taches = ["jetpack jetpack steel"]
+recompenses = ["xp 12"]
+description = """
+Palier 3. On repart de un jetpack en fer : avec des lingots d'acier (Hazen 'n Stuff), une nouvelle cellule, un propulseur à bobine avancée et un condensateur en acier, l'établi le change en jetpack en acier.
+"""
+
+[[quete]]
+cle = "jetpack_diamond"
+titre = "Un jetpack en diamant"
+deps = ["jetpack_gold", "jetpack_steel", "bobine_elite"]
+taches = ["jetpack jetpack diamond"]
+recompenses = ["xp 14"]
+description = """
+Palier 4. On repart de un jetpack en or ou en acier : avec des diamants, une nouvelle cellule, un propulseur à bobine élite et un condensateur en diamant, l'établi le change en jetpack en diamant.
+"""
+
+[[quete]]
+cle = "jetpack_emerald"
+titre = "&bUn jetpack en émeraude"
+deps = ["jetpack_diamond", "bobine_ultime"]
+forme = "diamond"
+taille = 1.5
+taches = ["jetpack jetpack emerald"]
+recompenses = ["xp 16"]
+description = """
+Palier 5. On repart de un jetpack en diamant : avec des émeraudes, une nouvelle cellule, un propulseur à bobine ultime et un condensateur en émeraude, l'établi le change en jetpack en émeraude. C'est le plus haut palier du serveur : platine et les autres métaux n'existent pas dans le pack.
 """
 
 [[quete]]
 cle = "fin"
 titre = "&bLes pieds ne touchent plus terre"
-deps = ["jetpack"]
+deps = ["jetpack_emerald"]
 taille = 1.3
 icone = "ironjetpacks:ultimate_coil"
 taches = ["checkmark J'ai volé"]
 recompenses = ["xp 5"]
 description = """
-Un jetpack chargé vaut des élytres sans piste de décollage. Les paliers suivants s'obtiennent en refaisant la recette avec le matériau au-dessus.
+Un jetpack chargé vaut des élytres sans piste de décollage. L'&7Encyclopédie&r garde la collection des jetpacks ; ici, chaque palier est une marche.
 """

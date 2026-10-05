@@ -288,6 +288,13 @@ RACES_DRAGON = {'aether', 'aurora', 'black_fire', 'blood', 'blue_fire', 'bronze'
                 'soul_nether', 'storm', 'sylphid', 'terra', 'water', 'wither', 'zombie'}
 
 
+# Iron Jetpacks : /config/ironjetpacks/jetpacks/*.json du serveur (palier) ;
+# recettes créées par le code seulement si le matériau existe. Bronze,
+# argent, électrum, invar et platine : balises vides dans le pack ; créatif :
+# sans recette.
+JETPACKS_OBTENABLES = {'wood': 0, 'stone': 1, 'copper': 1, 'iron': 2, 'gold': 3, 'steel': 3, 'diamond': 4, 'emerald': 5}
+
+
 def _tache(spec, ou, verif, quete_id, idx, tid):
     mots = spec.split(' ')
     genre = mots[0]
@@ -350,6 +357,17 @@ def _tache(spec, ou, verif, quete_id, idx, tid):
         return {'id': tid, 'type': 'item', 'match_nbt': True, 'weak_nbt_match': True,
                 'item': {'Count': 1, 'id': 'dragonmounts:dragon_egg',
                          'tag': {'BlockEntityTag': {'Breed': f'dragonmounts:{race}'}}}}
+    if genre == 'jetpack':
+        # jetpack <jetpack|cell|thruster|capacitor> <palier> : Iron Jetpacks porte
+        # le palier dans le NBT {Id:"ironjetpacks:<palier>"} (JetpackUtils.makeTag,
+        # javap). Paliers obtenables : JETPACKS_OBTENABLES (config du serveur).
+        objet, palier = mots[1], mots[2]
+        if objet not in ('jetpack', 'cell', 'thruster', 'capacitor'):
+            raise SystemExit(f"{ou} : objet de jetpack inconnu « {objet} »")
+        if palier not in JETPACKS_OBTENABLES:
+            raise SystemExit(f"{ou} : palier de jetpack non obtenable sur le serveur « {palier} »")
+        return {'id': tid, 'type': 'item', 'match_nbt': True, 'weak_nbt_match': True,
+                'item': {'Count': 1, 'id': f'ironjetpacks:{objet}', 'tag': {'Id': f'ironjetpacks:{palier}'}}}
     if genre == 'stat':
         # stat <identifiant de statistique vanilla> <valeur>
         if not re.match(r'^minecraft:[a-z_]+$', mots[1]):
@@ -389,6 +407,8 @@ def icone_de(quete, taches, verif, ix, ou):
             return t['item']
         if t['type'] == 'item' and isinstance(t['item'], dict) and 'Potion' in t['item'].get('tag', {}):
             return t['item']['id']
+        if t['type'] == 'item' and isinstance(t['item'], dict) and t['item'].get('tag') and t['item']['id'] != 'itemfilters:tag':
+            return t['item']   # objet à NBT (œuf de dragon, jetpack) : l'icône montre la bonne variante
         if t['type'] in ('kill', 'observation'):
             ent = t.get('entity') or t.get('to_observe')
             if ent:

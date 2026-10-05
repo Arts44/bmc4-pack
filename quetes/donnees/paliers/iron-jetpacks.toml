@@ -1,0 +1,107 @@
+# Échelle des paliers — Iron Jetpacks (BMC-89, 5 octobre 2026). Source :
+# /config/ironjetpacks/jetpacks/*.json du serveur et IronJetpacks 7.0.9 (javap).
+chapitre = "iron_jetpacks"
+sommet = "jetpack_emerald"
+
+[[palier]]
+echelle = "jetpack"
+cle = "cellule"
+preuve = "DynamicRecipeManager.makeCellRecipe"
+
+[[palier]]
+echelle = "jetpack"
+cle = "propulseur"
+preuve = "makeThrusterRecipe"
+
+[[palier]]
+echelle = "jetpack"
+cle = "jetpack"
+preuve = "makeJetpackRecipe (palier 0)"
+
+[[palier]]
+echelle = "jetpack"
+cle = "jetpack_stone"
+preuve = "JetpackUpgradeRecipe, palier 1"
+
+[[palier]]
+echelle = "jetpack"
+cle = "jetpack_iron"
+preuve = "palier 2"
+
+[[palier]]
+echelle = "jetpack"
+cle = "jetpack_gold"
+preuve = "palier 3"
+
+[[palier]]
+echelle = "jetpack"
+cle = "jetpack_diamond"
+preuve = "palier 4"
+
+[[palier]]
+echelle = "jetpack"
+cle = "jetpack_emerald"
+preuve = "palier 5"
+
+[[palier]]
+echelle = "cuivre"
+cle = "jetpack"
+preuve = "palier 0"
+
+[[palier]]
+echelle = "cuivre"
+cle = "jetpack_copper"
+preuve = "palier 1"
+
+[[palier]]
+echelle = "cuivre"
+cle = "jetpack_iron"
+preuve = "palier 2"
+
+[[palier]]
+echelle = "acier"
+cle = "jetpack_iron"
+preuve = "palier 2"
+
+[[palier]]
+echelle = "acier"
+cle = "jetpack_steel"
+preuve = "palier 3"
+
+[[palier]]
+echelle = "acier"
+cle = "jetpack_diamond"
+preuve = "palier 4"
+
+[[palier]]
+echelle = "bobines"
+cle = "bobine"
+preuve = "basic_coil"
+
+[[palier]]
+echelle = "bobines"
+cle = "bobine_avancee"
+preuve = "advanced_coil"
+
+[[palier]]
+echelle = "bobines"
+cle = "bobine_elite"
+preuve = "elite_coil"
+
+[[palier]]
+echelle = "bobines"
+cle = "bobine_ultime"
+preuve = "ultimate_coil"
+
+[[palier]]
+echelle = "bobines"
+cle = "jetpack_emerald"
+preuve = "bobine ultime"
+
+[[saute]]
+objet = "jetpacks bronze, argent, électrum, invar, platine"
+raison = "matériaux absents : balises forge:ingots/* vides dans le pack"
+
+[[saute]]
+objet = "jetpacks créatif"
+raison = "sans recette (creative = true)"
