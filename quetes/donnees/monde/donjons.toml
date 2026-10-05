@@ -198,6 +198,70 @@ description = """
 &bBountiful&r : un &ltableau de primes&r propose des contrats à délai. Un &ldécret&r posé dans le tableau oriente les primes (« Royal Mandate »). Trois primes prises, et la case se coche.
 """
 
+# ---- Spawners+ 4.3.3 (mod Fabric chargé par Connector). Table de butin
+# minecraft:blocks/spawner remplacée (fragments, Fortune) ; recettes du jar ;
+# âmes : ModLootTableModifiers (arme Soul Stealing), taux de
+# /config/spawnersplus/soul_drop_rates.json du serveur (zombie, squelette,
+# araignée, zombie momifié 4 %, araignée venimeuse 7 %, blaze et creeper 5 %,
+# cube de magma 2 % ; vagabond, noyé et wither squelette 0 : fabrication
+# seulement ; poisson d'argent : aucune source, inobtenable).
+[[quete]]
+cle = "fragments"
+titre = "Des fragments de générateur"
+deps = ["intro"]
+optionnel = true
+taches = ["item spawnersplus:spawner_fragment 8"]
+recompenses = ["xp 5"]
+description = """
+Avec &aSpawners+&r, un générateur de monstres cassé à la pioche ne disparaît plus : il lâche des fragments de générateur, plus avec Fortune. Les donjons en sont pleins.
+"""
+
+[[quete]]
+cle = "generateur_inactif"
+titre = "Un générateur inactif"
+deps = ["fragments"]
+optionnel = true
+taches = ["item spawnersplus:inactive_spawner"]
+recompenses = ["xp 8"]
+description = """
+Huit fragments en anneau : un générateur inactif, qui se casse à la pioche en fer au moins. Il attend une âme.
+"""
+
+[[quete]]
+cle = "ame"
+titre = "Une âme de monstre"
+deps = ["generateur_inactif"]
+optionnel = true
+exigence = "une"
+taches = ["item spawnersplus:zombie_soul", "item spawnersplus:skeleton_soul", "item spawnersplus:spider_soul", "item spawnersplus:cave_spider_soul", "item spawnersplus:husk_soul", "item spawnersplus:creeper_soul", "item spawnersplus:blaze_soul", "item spawnersplus:magma_cube_soul"]
+recompenses = ["xp 8"]
+description = """
+Une créature tuée avec une arme enchantée « Soul Stealing » peut lâcher son âme : quatre fois sur cent pour un zombie, un squelette, une araignée ou un zombie momifié, cinq pour un blaze ou un creeper, sept pour une araignée venimeuse, deux pour un cube de magma (config du serveur). L'âme utilisée sur un générateur inactif le réveille pour cette créature.
+"""
+
+[[quete]]
+cle = "ames_fabriquees"
+titre = "Les âmes qui ne tombent pas"
+deps = ["ame"]
+optionnel = true
+exigence = "une"
+taches = ["item spawnersplus:stray_soul", "item spawnersplus:drowned_soul", "item spawnersplus:wither_skeleton_soul"]
+recompenses = ["xp 10"]
+description = """
+Trois âmes ne tombent jamais sur ce serveur : elles se fabriquent. Une âme de squelette entourée de huit seaux de neige poudreuse donne celle du vagabond ; une âme de zombie et huit cœurs de la mer, celle du noyé ; une âme de squelette et huit étoiles du Nether, celle du wither squelette.
+"""
+
+[[quete]]
+cle = "silencieux"
+titre = "Un silencieux de générateur"
+deps = ["fragments"]
+optionnel = true
+taches = ["item spawnersplus:spawner_silencer"]
+recompenses = ["xp 5"]
+description = """
+Huit fragments autour d'un totem d'immortalité. Tenu en main, il coupe les générateurs proches : de quoi vider un donjon sans vagues sans fin.
+"""
+
 [[quete]]
 cle = "fin"
 titre = "&8Chasseur de donjons"
