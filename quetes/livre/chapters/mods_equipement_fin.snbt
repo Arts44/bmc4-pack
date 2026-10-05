@@ -1,0 +1,355 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mods_equipement_fin"
+	group: "14858825A29975B1"
+	icon: "advancednetherite:netherite_diamond_ingot"
+	id: "67D2117BD48F123A"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Quatre paliers au-dessus de la nétherite (&8Advanced Netherite&r), des boucliers qui parent, un totem porté, des marteaux, et l'enchantement de minage en veine. Rien ici ne se donne : tout se gagne."]
+			icon: "minecraft:netherite_ingot"
+			id: "2630576F04857580"
+			rewards: [{
+				count: 4
+				id: "4297C17B0ABB7638"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #equipement sur le Discord."
+			tasks: [{
+				id: "2C4951C2D672C9FA"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&8Au-delà de la nétherite"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2630576F04857580"]
+			description: ["Le premier palier : nétherite et fer. L'armure complète rend les &lphantoms&r neutres (config du serveur). Les paliers s'appliquent sur un équipement de nétherite par modèle de forge."]
+			id: "73568B3D68D1490D"
+			rewards: [{
+				id: "2B7046BDAC57264C"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "advancednetherite:nether/obtain_netherite_iron_ingot"
+				criterion: ""
+				id: "548BE8DE1F7E4A56"
+				type: "advancement"
+			}]
+			title: "Nétherite-fer"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["73568B3D68D1490D"]
+			description: ["L'armure complète de nétherite-fer (progrès « No More Phantoms »)."]
+			id: "637B80C145C52BF3"
+			optional: true
+			rewards: [{
+				id: "7774C178DA8B4768"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "advancednetherite:nether/netherite_iron_armor"
+				criterion: ""
+				id: "70F0ED6E67D94F25"
+				type: "advancement"
+			}]
+			title: "Plus de phantoms"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73568B3D68D1490D"]
+			description: ["L'armure complète rend les &lpiglins&r neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle)."]
+			icon: "advancednetherite:netherite_gold_ingot"
+			id: "035BECEC7DB1A17D"
+			rewards: [{
+				id: "3E117F2383B90291"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "79D63AE659E2D64E"
+				item: "advancednetherite:netherite_gold_ingot"
+				type: "item"
+			}]
+			title: "Nétherite-or"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["035BECEC7DB1A17D"]
+			description: ["L'armure complète rend les &lendermen&r neutres (config). L'épée donne une chance de perle en plus (infobulle)."]
+			icon: "advancednetherite:netherite_emerald_ingot"
+			id: "3C800DF1D92E9325"
+			rewards: [{
+				id: "0A32BD84776CEA2A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "4CDBEDC180614802"
+				item: "advancednetherite:netherite_emerald_ingot"
+				type: "item"
+			}]
+			title: "Nétherite-émeraude"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C800DF1D92E9325"]
+			description: ["Le dernier palier : phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur)."]
+			icon: "advancednetherite:netherite_diamond_ingot"
+			id: "5B6E6FDD9B85BC79"
+			rewards: [{
+				id: "4E701D8CA4331C99"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "23E34B98A2AA7B59"
+				item: "advancednetherite:netherite_diamond_ingot"
+				type: "item"
+			}]
+			title: "Nétherite-diamant"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B6E6FDD9B85BC79"]
+			description: ["L'armure complète (progrès du mod)."]
+			id: "6664C75EBD9BED3B"
+			optional: true
+			rewards: [{
+				id: "7F00EEDBCD75C32B"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "advancednetherite:nether/netherite_diamond_armor"
+				criterion: ""
+				id: "6FA077E8AEE848F2"
+				type: "advancement"
+			}]
+			title: "&8Couvert de nétherite-diamant"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B6E6FDD9B85BC79"]
+			description: ["Neuf lingots de nétherite-diamant (progrès « A very expensive block »)."]
+			id: "225351C7F0CEA964"
+			optional: true
+			rewards: [{
+				id: "59029FB4C113585B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "advancednetherite:nether/obtain_netherite_diamond_block"
+				criterion: ""
+				id: "5B5B1EE3F82EDCC9"
+				type: "advancement"
+			}]
+			title: "Un bloc très cher"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2630576F04857580"]
+			description: ["&7Shield Expansion&r : des boucliers de bois, fer, or, diamant et nétherite, avec une &lparade&r au bon moment et une endurance de blocage (options du mod)."]
+			icon: "shieldexp:iron_shield"
+			id: "527FA08DCEC7F0E1"
+			optional: true
+			rewards: [{
+				id: "28E9DCDFC70C5020"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5176D95FA2B0FEA5"
+				item: "shieldexp:iron_shield"
+				type: "item"
+			}]
+			title: "Un bouclier de fer"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["527FA08DCEC7F0E1"]
+			id: "28026AF035200528"
+			optional: true
+			rewards: [{
+				id: "152AF5B6AD6AED15"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "shieldexp:get_diamond_shield"
+				criterion: ""
+				id: "5ECF8D6349DF00E8"
+				type: "advancement"
+			}]
+			title: "Un bouclier de diamant"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28026AF035200528"]
+			id: "66F6BBD86308DFAB"
+			optional: true
+			rewards: [{
+				id: "26B5E1309939ACBD"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "shieldexp:get_netherite_shield"
+				criterion: ""
+				id: "4B1E84B70151F905"
+				type: "advancement"
+			}]
+			title: "Un bouclier de nétherite"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2630576F04857580"]
+			description: ["&eCharm of Undying&r : le totem d'immortalité se porte dans l'emplacement &lcharme&r des Curios, et agit depuis là. Le Totem du vide (Void Totem) sauve d'une chute dans le vide, en main ou en charme (infobulle)."]
+			icon: "minecraft:totem_of_undying"
+			id: "20AF4776A7630FDD"
+			optional: true
+			rewards: [{
+				id: "25D99462B44374B7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A607B0723D291DE"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Un totem porté"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2630576F04857580"]
+			description: ["&7Just Hammers&r : un marteau creuse une zone. Pierre, fer, or, diamant, nétherite ; et des variantes par cœur — &lrenforcé&r, &ld'impact&r, &ldestructeur&r."]
+			icon: "justhammers:iron_hammer"
+			id: "39F329A3E852AEA0"
+			optional: true
+			rewards: [{
+				id: "72F70DE030785ECE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "247AE656410BF2F7"
+				item: "justhammers:iron_hammer"
+				type: "item"
+			}]
+			title: "Un marteau de fer"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39F329A3E852AEA0"]
+			icon: "justhammers:netherite_destructor_hammer"
+			id: "279DDDEF72D1BED5"
+			optional: true
+			rewards: [{
+				id: "781B8B0966E7A969"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FF9B3CFB7FD5421"
+				item: "justhammers:netherite_destructor_hammer"
+				type: "item"
+			}]
+			title: "Un marteau destructeur de nétherite"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2630576F04857580"]
+			description: ["L'enchantement &bVein Mining&r (rare, un seul niveau) se trouve à la table, chez les villageois ou dans les coffres (config du serveur). Avec lui, un bloc cassé entraîne jusqu'à &l50 blocs&r identiques connectés, &ltous les blocs&r confondus. L'outil s'use pour chacun mais ne casse jamais. Accroupi ou touche dédiée, selon tes réglages client."]
+			id: "31CDD7B361F5214A"
+			rewards: [{
+				id: "7043AA1D91BA6C6A"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "369B06C660DECDBC"
+				title: "Enchantement obtenu"
+				type: "checkmark"
+			}]
+			title: "Minage en veine"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2630576F04857580"]
+			description: ["&dBlossom Blade&r est une structure cachée dans le monde, avec une épée. La trouver est la seule indication que ce livre donnera."]
+			id: "6BA00884C8577656"
+			optional: true
+			rewards: [{
+				id: "7764B14E11BEF5F7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "610AB6E522B47B81"
+				structure: "joshie:blossom_blade"
+				type: "structure"
+			}]
+			title: "La Lame de fleurs"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B6E6FDD9B85BC79"]
+			description: ["Le reste : les armures de boss, au chapitre &4Cataclysm&r, &3Deeper and Darker&r, &dIron's Spells&r et &bAether&r."]
+			icon: "advancednetherite:netherite_diamond_block"
+			id: "57F8FE4E5C59C46F"
+			rewards: [{
+				id: "6CEC85275856E5A3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "3101569C6EF2EA72"
+				title: "Paré"
+				type: "checkmark"
+			}]
+			title: "&8Équipé pour la fin"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "&8Équipement de fin de partie"
+}

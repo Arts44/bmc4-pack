@@ -1,0 +1,202 @@
+# Chapitre « Équipement de fin de partie » — cahier des charges §5.17
+# Sources (5 octobre 2026) : advancednetherite-common.toml du serveur
+# (paliers fer/or/émeraude/diamant ; fer pacifie les phantoms, or les
+# piglins, émeraude les endermen, diamant les trois ; butins
+# supplémentaires des houes, pioches, épées activés), progrès du jar
+# advancednetherite ; shieldexp (boucliers bois→nétherite, progrès diamant
+# et nétherite, parade et endurance) ; charmofundying (totem dans
+# l'emplacement de charme, lang) ; justhammers (29 marteaux, cœurs
+# d'impact/renforcé/destructeur) ; veinmining-server/common du serveur
+# (enchantement rare à 1 niveau, 50 blocs, tous les blocs, usure sans
+# casse, table d'enchantement et villageois) ; blossom.jar (structure
+# joshie:blossom_blade). Netherite Tweaks : jar sans lang ni config lue,
+# non décrit. Grand Teleport : au chapitre Déplacement, non décrit.
+
+[chapitre]
+titre = "&8Équipement de fin de partie"
+fichier = "mods_equipement_fin"
+groupe = "mods"
+icone = "advancednetherite:netherite_diamond_ingot"
+ordre = 17
+
+[[quete]]
+cle = "intro"
+titre = "&8Au-delà de la nétherite"
+sous_titre = "Guide dans #equipement sur le Discord."
+taille = 1.5
+icone = "minecraft:netherite_ingot"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:experience_bottle 4"]
+description = """
+Quatre paliers au-dessus de la nétherite (&8Advanced Netherite&r), des boucliers qui parent, un totem porté, des marteaux, et l'enchantement de minage en veine. Rien ici ne se donne : tout se gagne.
+"""
+
+# ---- Advanced Netherite
+[[quete]]
+cle = "fer"
+titre = "Nétherite-fer"
+deps = ["intro"]
+taches = ["advancement advancednetherite:nether/obtain_netherite_iron_ingot"]
+recompenses = ["xp 8"]
+description = """
+Le premier palier : nétherite et fer. L'armure complète rend les &lphantoms&r neutres (config du serveur). Les paliers s'appliquent sur un équipement de nétherite par modèle de forge.
+"""
+
+[[quete]]
+cle = "fer_armure"
+titre = "Plus de phantoms"
+deps = ["fer"]
+optionnel = true
+taches = ["advancement advancednetherite:nether/netherite_iron_armor"]
+recompenses = ["xp 10"]
+description = """
+L'armure complète de nétherite-fer (progrès « No More Phantoms »).
+"""
+
+[[quete]]
+cle = "or"
+titre = "Nétherite-or"
+deps = ["fer"]
+taches = ["item advancednetherite:netherite_gold_ingot"]
+recompenses = ["xp 8"]
+description = """
+L'armure complète rend les &lpiglins&r neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle).
+"""
+
+[[quete]]
+cle = "emeraude"
+titre = "Nétherite-émeraude"
+deps = ["or"]
+taches = ["item advancednetherite:netherite_emerald_ingot"]
+recompenses = ["xp 10"]
+description = """
+L'armure complète rend les &lendermen&r neutres (config). L'épée donne une chance de perle en plus (infobulle).
+"""
+
+[[quete]]
+cle = "diamant"
+titre = "Nétherite-diamant"
+deps = ["emeraude"]
+taille = 1.3
+taches = ["item advancednetherite:netherite_diamond_ingot"]
+recompenses = ["xp 15"]
+description = """
+Le dernier palier : phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur).
+"""
+
+[[quete]]
+cle = "diamant_armure"
+titre = "&8Couvert de nétherite-diamant"
+deps = ["diamant"]
+optionnel = true
+taches = ["advancement advancednetherite:nether/netherite_diamond_armor"]
+recompenses = ["xp 25"]
+description = """
+L'armure complète (progrès du mod).
+"""
+
+[[quete]]
+cle = "bloc"
+titre = "Un bloc très cher"
+deps = ["diamant"]
+optionnel = true
+taches = ["advancement advancednetherite:nether/obtain_netherite_diamond_block"]
+recompenses = ["xp 10"]
+description = """
+Neuf lingots de nétherite-diamant (progrès « A very expensive block »).
+"""
+
+# ---- Shield Expansion
+[[quete]]
+cle = "bouclier"
+titre = "Un bouclier de fer"
+deps = ["intro"]
+optionnel = true
+taches = ["item shieldexp:iron_shield"]
+recompenses = ["xp 5"]
+description = """
+&7Shield Expansion&r : des boucliers de bois, fer, or, diamant et nétherite, avec une &lparade&r au bon moment et une endurance de blocage (options du mod).
+"""
+
+[[quete]]
+cle = "bouclier_diamant"
+titre = "Un bouclier de diamant"
+deps = ["bouclier"]
+optionnel = true
+taches = ["advancement shieldexp:get_diamond_shield"]
+recompenses = ["xp 8"]
+
+[[quete]]
+cle = "bouclier_netherite"
+titre = "Un bouclier de nétherite"
+deps = ["bouclier_diamant"]
+optionnel = true
+taches = ["advancement shieldexp:get_netherite_shield"]
+recompenses = ["xp 12"]
+
+# ---- Charm of Undying
+[[quete]]
+cle = "totem"
+titre = "Un totem porté"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:totem_of_undying"]
+recompenses = ["xp 5"]
+description = """
+&eCharm of Undying&r : le totem d'immortalité se porte dans l'emplacement &lcharme&r des Curios, et agit depuis là. Le Totem du vide (Void Totem) sauve d'une chute dans le vide, en main ou en charme (infobulle).
+"""
+
+# ---- Just Hammers
+[[quete]]
+cle = "marteau"
+titre = "Un marteau de fer"
+deps = ["intro"]
+optionnel = true
+taches = ["item justhammers:iron_hammer"]
+recompenses = ["xp 5"]
+description = """
+&7Just Hammers&r : un marteau creuse une zone. Pierre, fer, or, diamant, nétherite ; et des variantes par cœur — &lrenforcé&r, &ld'impact&r, &ldestructeur&r.
+"""
+
+[[quete]]
+cle = "marteau_netherite"
+titre = "Un marteau destructeur de nétherite"
+deps = ["marteau"]
+optionnel = true
+taches = ["item justhammers:netherite_destructor_hammer"]
+recompenses = ["xp 15"]
+
+# ---- Vein Mining
+[[quete]]
+cle = "veine"
+titre = "Minage en veine"
+deps = ["intro"]
+taches = ["checkmark Enchantement obtenu"]
+recompenses = ["xp 8"]
+description = """
+L'enchantement &bVein Mining&r (rare, un seul niveau) se trouve à la table, chez les villageois ou dans les coffres (config du serveur). Avec lui, un bloc cassé entraîne jusqu'à &l50 blocs&r identiques connectés, &ltous les blocs&r confondus. L'outil s'use pour chacun mais ne casse jamais. Accroupi ou touche dédiée, selon tes réglages client.
+"""
+
+# ---- Blossom Blade
+[[quete]]
+cle = "blossom"
+titre = "La Lame de fleurs"
+deps = ["intro"]
+optionnel = true
+taches = ["structure joshie:blossom_blade"]
+recompenses = ["xp 10"]
+description = """
+&dBlossom Blade&r est une structure cachée dans le monde, avec une épée. La trouver est la seule indication que ce livre donnera.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&8Équipé pour la fin"
+deps = ["diamant"]
+taille = 1.3
+icone = "advancednetherite:netherite_diamond_block"
+taches = ["checkmark Paré"]
+recompenses = ["xp 5"]
+description = """
+Le reste : les armures de boss, au chapitre &4Cataclysm&r, &3Deeper and Darker&r, &dIron's Spells&r et &bAether&r.
+"""
