@@ -1,7 +1,9 @@
 # Chapitre « Les dragons » — cahier des charges §4.13
 # Sources (5 octobre 2026) : dragonmounts-common.toml du serveur lu en
 # entier (allow_egg_override = true : l'œuf de l'Ender s'interagit et
-# éclôt ; replenish_eggs = true ; use_loot_tables = true avec les chances
+# éclôt ; replenish_eggs = true, mais sans effet : le mixin de YUNG's Better
+# End Island sur setDragonKilled annule la méthode avant celui de Dragon
+# Mounts, et sa config « Resummoned Dragon Drops Egg » est à false ; use_loot_tables = true avec les chances
 # ci-dessous ; update_habitats = true ; reproduction : deux fois par race
 # de base ; souffle à 3,0 de dégâts, portée 40 ; rayon d'errance 8),
 # lang du jar dragonmounts-1.20.1-10018 (36 races, « Hatches in %s
@@ -51,7 +53,7 @@ exigence = "une"
 taches = ["oeuf_dragon fire", "oeuf_dragon forest", "oeuf_dragon ghost", "oeuf_dragon ice", "oeuf_dragon nether", "oeuf_dragon water", "oeuf_dragon aether", "oeuf_dragon end", "item minecraft:dragon_egg"]
 recompenses = ["xp 5"]
 description = """
-Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi : il se renouvelle sur le portail après chaque dragon ré-invoqué (config).
+Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts).
 """
 
 [[quete]]
@@ -271,7 +273,7 @@ exigence = "une"
 taches = ["oeuf_dragon end", "item minecraft:dragon_egg"]
 recompenses = ["xp 5"]
 description = """
-Le Dragon de l'End est une des huit races de base. Son œuf se trouve l'œuf de l'Ender Dragon, qui revient sur le portail à chaque dragon ré-invoqué. Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, le souffle de dragon. L'œuf ramassé garde sa race.
+Le Dragon de l'End est une des huit races de base. Aucun coffre ne le donne. L'œuf de l'Ender Dragon (un seul, à la première victoire du serveur) éclôt en Dragon de l'End. Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, le souffle de dragon. L'œuf ramassé garde sa race.
 """
 
 [[quete]]
@@ -282,7 +284,7 @@ optionnel = true
 taches = ["oeuf_dragon aurora"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'Aether et d'un Dragon de Glace donne un Dragon de l'Aurore une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de purpur, pilier de purpur.
+Le croisement d'un Dragon de l'Aether et d'un Dragon de Glace donne un Dragon de l'Aurore une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de purpur, pilier de purpur. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -293,7 +295,7 @@ optionnel = true
 taches = ["oeuf_dragon black_fire"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de Feu et d'un Dragon Fantôme donne un Dragon de Feu Noir une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton noir.
+Le croisement d'un Dragon de Feu et d'un Dragon Fantôme donne un Dragon de Feu Noir une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton noir. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -304,7 +306,7 @@ optionnel = true
 taches = ["oeuf_dragon blood"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon du Nether et d'un Dragon d'Eau donne un Dragon de Sang une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de redstone.
+Le croisement d'un Dragon du Nether et d'un Dragon d'Eau donne un Dragon de Sang une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de redstone. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -315,7 +317,7 @@ optionnel = true
 taches = ["oeuf_dragon blue_fire"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de Feu et d'un Dragon de Glace donne un Dragon de Feu Bleu une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne.
+Le croisement d'un Dragon de Feu et d'un Dragon de Glace donne un Dragon de Feu Bleu une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -326,7 +328,7 @@ optionnel = true
 taches = ["oeuf_dragon bronze"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'Aether et d'un Dragon du Nether donne un Dragon de Bronze une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : lampe à redstone.
+Le croisement d'un Dragon de l'Aether et d'un Dragon du Nether donne un Dragon de Bronze une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : lampe à redstone. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -337,7 +339,7 @@ optionnel = true
 taches = ["oeuf_dragon crystal"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de la Forêt et d'un Dragon de Glace donne un Dragon de Cristal une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'améthyste, druse d'améthyste.
+Le croisement d'un Dragon de la Forêt et d'un Dragon de Glace donne un Dragon de Cristal une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'améthyste, druse d'améthyste. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -348,7 +350,7 @@ optionnel = true
 taches = ["oeuf_dragon dark"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'End et d'un Dragon Fantôme donne un Dragon Sombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite noire.
+Le croisement d'un Dragon de l'End et d'un Dragon Fantôme donne un Dragon Sombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite noire. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -359,7 +361,7 @@ optionnel = true
 taches = ["oeuf_dragon eclipse"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon Fantôme et d'un Dragon de Glace donne un Dragon de l'Éclipse une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite jaune.
+Le croisement d'un Dragon Fantôme et d'un Dragon de Glace donne un Dragon de l'Éclipse une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite jaune. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -370,7 +372,7 @@ optionnel = true
 taches = ["oeuf_dragon elder"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'Aether et d'un Dragon de l'End donne un Dragon Ancien une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite grise.
+Le croisement d'un Dragon de l'Aether et d'un Dragon de l'End donne un Dragon Ancien une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite grise. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -381,7 +383,7 @@ optionnel = true
 taches = ["oeuf_dragon gale"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'Aether et d'un Dragon de la Forêt donne un Dragon des Bourrasques une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleue.
+Le croisement d'un Dragon de l'Aether et d'un Dragon de la Forêt donne un Dragon des Bourrasques une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleue. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -392,7 +394,7 @@ optionnel = true
 taches = ["oeuf_dragon jade"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de la Forêt et d'un Dragon Fantôme donne un Dragon de Jade une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'émeraude.
+Le croisement d'un Dragon de la Forêt et d'un Dragon Fantôme donne un Dragon de Jade une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'émeraude. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -403,7 +405,7 @@ optionnel = true
 taches = ["oeuf_dragon light"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'Aether et d'un Dragon Fantôme donne un Dragon de Lumière une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite blanche.
+Le croisement d'un Dragon de l'Aether et d'un Dragon Fantôme donne un Dragon de Lumière une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite blanche. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -414,7 +416,7 @@ optionnel = true
 taches = ["oeuf_dragon lunar"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de Glace et d'un Dragon d'Eau donne un Dragon Lunaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne pleureuse.
+Le croisement d'un Dragon de Glace et d'un Dragon d'Eau donne un Dragon Lunaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne pleureuse. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -425,7 +427,7 @@ optionnel = true
 taches = ["oeuf_dragon magic"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'End et d'un Dragon d'Eau donne un Dragon Magique une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : table d'enchantement.
+Le croisement d'un Dragon de l'End et d'un Dragon d'Eau donne un Dragon Magique une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : table d'enchantement. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -436,7 +438,7 @@ optionnel = true
 taches = ["oeuf_dragon monarch"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de la Forêt et d'un Dragon du Nether donne un Dragon Monarque une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée rouge.
+Le croisement d'un Dragon de la Forêt et d'un Dragon du Nether donne un Dragon Monarque une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée rouge. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -447,7 +449,7 @@ optionnel = true
 taches = ["oeuf_dragon ocean"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de Feu et d'un Dragon d'Eau donne un Dragon de l'Océan une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : prismarine, lanterne aquatique.
+Le croisement d'un Dragon de Feu et d'un Dragon d'Eau donne un Dragon de l'Océan une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : prismarine, lanterne aquatique. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -458,7 +460,7 @@ optionnel = true
 taches = ["oeuf_dragon primal_end"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'End et d'un Dragon de Feu donne un Dragon de l'End Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : pierre de l'end.
+Le croisement d'un Dragon de l'End et d'un Dragon de Feu donne un Dragon de l'End Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : pierre de l'end. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -469,7 +471,7 @@ optionnel = true
 taches = ["oeuf_dragon primal_nether"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'End et d'un Dragon du Nether donne un Dragon du Nether Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite rouge.
+Le croisement d'un Dragon de l'End et d'un Dragon du Nether donne un Dragon du Nether Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite rouge. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -480,7 +482,7 @@ optionnel = true
 taches = ["oeuf_dragon red"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de Feu et d'un Dragon du Nether donne un Dragon Rouge une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton rouge.
+Le croisement d'un Dragon de Feu et d'un Dragon du Nether donne un Dragon Rouge une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton rouge. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -491,7 +493,7 @@ optionnel = true
 taches = ["oeuf_dragon sculk"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'End et d'un Dragon de la Forêt donne un Dragon de Sculk une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sculk, catalyseur de sculk, hurleur sculk.
+Le croisement d'un Dragon de l'End et d'un Dragon de la Forêt donne un Dragon de Sculk une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sculk, catalyseur de sculk, hurleur sculk. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -502,7 +504,7 @@ optionnel = true
 taches = ["oeuf_dragon shadow"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'End et d'un Dragon de Glace donne un Dragon d'Ombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée noire.
+Le croisement d'un Dragon de l'End et d'un Dragon de Glace donne un Dragon d'Ombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée noire. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -513,7 +515,7 @@ optionnel = true
 taches = ["oeuf_dragon solar"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'Aether et d'un Dragon de Feu donne un Dragon Solaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'or.
+Le croisement d'un Dragon de l'Aether et d'un Dragon de Feu donne un Dragon Solaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'or. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -524,7 +526,7 @@ optionnel = true
 taches = ["oeuf_dragon soul_nether"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de Glace et d'un Dragon du Nether donne un Dragon du Nether des Âmes une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sable et terre des âmes, feu des âmes, feu de camp des âmes.
+Le croisement d'un Dragon de Glace et d'un Dragon du Nether donne un Dragon du Nether des Âmes une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sable et terre des âmes, feu des âmes, feu de camp des âmes. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -535,7 +537,7 @@ optionnel = true
 taches = ["oeuf_dragon storm"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de l'Aether et d'un Dragon d'Eau donne un Dragon de la Tempête une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de cuivre, cuivre exposé, cuivre érodé.
+Le croisement d'un Dragon de l'Aether et d'un Dragon d'Eau donne un Dragon de la Tempête une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de cuivre, cuivre exposé, cuivre érodé. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -546,7 +548,7 @@ optionnel = true
 taches = ["oeuf_dragon sylphid"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de la Forêt et d'un Dragon d'Eau donne un Dragon Sylphide une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleu clair.
+Le croisement d'un Dragon de la Forêt et d'un Dragon d'Eau donne un Dragon Sylphide une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleu clair. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -557,7 +559,7 @@ optionnel = true
 taches = ["oeuf_dragon terra"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon de Feu et d'un Dragon de la Forêt donne un Dragon de Terre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : andésite, granite, diorite.
+Le croisement d'un Dragon de Feu et d'un Dragon de la Forêt donne un Dragon de Terre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : andésite, granite, diorite. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -568,7 +570,7 @@ optionnel = true
 taches = ["oeuf_dragon wither"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon Fantôme et d'un Dragon du Nether donne un Dragon Wither une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : crâne de wither squelette.
+Le croisement d'un Dragon Fantôme et d'un Dragon du Nether donne un Dragon Wither une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : crâne de wither squelette. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
 """
 
 [[quete]]
@@ -579,7 +581,7 @@ optionnel = true
 taches = ["oeuf_dragon zombie"]
 recompenses = ["xp 8"]
 description = """
-Le croisement d'un Dragon Fantôme et d'un Dragon d'Eau donne un Dragon Zombie une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'os.
+Le croisement d'un Dragon Fantôme et d'un Dragon d'Eau donne un Dragon Zombie une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'os. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
 """
 
 [[quete]]
