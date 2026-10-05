@@ -703,6 +703,248 @@ BOSS = {'minecraft:ender_dragon', 'minecraft:wither', 'twilightforest:naga', 'tw
         'lost_aether_content:aerwhale_king', 'deep_aether:eots_controller', 'blue_skies:summoner', 'blue_skies:alchemist',
         'blue_skies:arachnarch', 'blue_skies:starlit_crusher', 'deeperdarker:stalker', 'alexsmobs:void_worm'}
 
+
+# ------------------------------------------------------------- collections d'équipement
+# BMC-89, 5 octobre 2026 : l'Armurerie complète (une quête par pièce, une
+# par ensemble, puis toute l'Armurerie) et les armes et outils par type.
+# Garde-fou : chaque objet vient d'un mod chargé (index/mods_charges.json)
+# et s'obtient en chaîne (outils/chaine.py : recette dont chaque ingrédient
+# s'obtient, butin ou génération ; balises complètes). Le reste est exclu et
+# listé. Livraisons jamais consommées (tâches « item » sans consommation).
+
+_OK_CHAINE = None
+
+
+def obtenables_chaine():
+    global _OK_CHAINE
+    if _OK_CHAINE is None:
+        sys.path.insert(0, ICI)
+        from chaine import fermeture
+        from generer import Verif
+        _OK_CHAINE, _ = fermeture(Verif.OBTENUS_AUTREMENT)
+    return _OK_CHAINE
+
+
+def mods_charges():
+    p = os.path.join(INDEX, 'mods_charges.json')
+    return set(json.load(open(p, encoding='utf-8'))) if os.path.exists(p) else None
+
+
+def membres_complets(tag, vus=None):
+    """Balise d'objets résolue sur les balises complètes (obtenables.json)."""
+    tags = json.load(open(os.path.join(INDEX, 'obtenables.json'), encoding='utf-8')).get('tags', {})
+    def m(x, vus):
+        if x in vus:
+            return set()
+        vus.add(x)
+        out = set()
+        for v in tags.get(x, []):
+            out |= m(v[1:], vus) if v.startswith('#') else {v}
+        return out
+    return m(tag, set())
+
+
+MOD_AFFICHE = {**MOD_FR, 'minecraft': 'Minecraft', 'advancednetherite': 'Advanced Netherite', 'alexsmobs': "Alex's Mobs",
+               'quark': 'Quark', 'create': 'Create', 'mowziesmobs': "Mowzie's Mobs", 'dragonloot': 'DragonLoot',
+               'mysticalagriculture': 'Mystical Agriculture', 'lost_aether_content': 'Lost Aether Content',
+               'umbral_skies': 'Umbral Skies', 'hazennstuff': "Hazen 'n Stuff", 'justhammers': 'Just Hammers',
+               'delightful': 'Delightful', 'farmersdelight': "Farmer's Delight", 'shieldexp': 'Shield Expansion',
+               'twilightdelight': "Twilight's Flavor & Delight", 'endersdelight': "Ender's Delight",
+               'mynethersdelight': "My Nether's Delight", 'aether_treasure_reforging': 'Aether Treasure Reforging',
+               'another_furniture': 'Another Furniture', 'securitycraft': 'SecurityCraft'}
+# chapitre du livre où le mod a ses paliers
+CHAPITRE_DU_MOD = {'mysticalagriculture': 'Mystical Agriculture', 'aether': "L'Aether", 'deep_aether': "L'Aether",
+                   'aether_redux': "L'Aether", 'lost_aether_content': "L'Aether", 'umbral_skies': "L'Aether",
+                   'aether_protect_your_moa': "L'Aether", 'twilightforest': 'Twilight Forest', 'irons_spellbooks': "Iron's Spells",
+                   'hazennstuff': "Iron's Spells", 'dragonloot': 'Les dragons', 'blue_skies': 'Blue Skies',
+                   'cataclysm': 'Cataclysm', 'deeperdarker': 'Deeper and Darker', 'betternether': 'Le Nether',
+                   'betterend': "L'End", 'mowziesmobs': "Mowzie's Mobs"}
+
+FENTES = [('helmet', 'casque'), ('chestplate', 'plastron'), ('leggings', 'jambières'), ('boots', 'bottes'), ('gloves', 'gants')]
+MOTS_FENTE = re.compile(r"\b(Casque|Plastron|Jambières|Bottes|Gants|Gantelets|Helmet|Chestplate|Leggings|Boots|Gloves|Gauntlets|Mittens|Mask|Visor|Hat|Crown|Hood|Cap|Horns|Tunic|Robe|Masque|Chapeau|Couronne|Capuche|Manteau|Veste|Robes|Robe|Armure|Breastplate|Jacket|Tunique)\b\s*")
+
+
+def fente(i):
+    for s, _ in FENTES:
+        if i.endswith('_' + s):
+            return s
+    return None
+
+
+def nom_ensemble(ix, pieces):
+    """« Ensemble en zanite », « Ensemble « Seraph » » : le nom d'une pièce,
+    le mot de la pièce retiré."""
+    ref = next((p for p in pieces if fente(p) == 'chestplate'), pieces[0])
+    n = libelle(ix, ref, 'objet')
+    guill = n.startswith('«')
+    coeur = n.strip('«»  ')
+    coeur = MOTS_FENTE.sub('', coeur).strip()
+    coeur = re.sub(r"^(en|de|d'|du|des)\s+", lambda m: m.group(0), coeur)
+    if not guill and (coeur[:3] in ('en ', 'de ', 'du ') or coeur[:2] == "d'" or coeur[:1].islower()):
+        return f"Ensemble {coeur}"
+    return f"Ensemble «\u00a0{coeur}\u00a0»"
+
+
+def chapitre_collection(fichier, titre, icone, icone_fin, intro, entrees, titre_fin, fin, extra_fin=''):
+    """entrees : [{cle, titre, taches[], icone, description, deps?, forme?}]."""
+    lignes = ['# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.\n']
+    lignes.append(f'[chapitre]\ntitre = "{t(titre)}"\nfichier = "enc_{fichier.replace("-", "_")}"\ngroupe = "encyclopedie"\n'
+                  f'icone = "{icone}"\nordre = 0\nlignes_cachees = true\ngrille = 16\n')
+    lignes.append(f'[[quete]]\ncle = "intro"\ntitre = "{t(titre)}"\ntaille = 1.5\nicone = "{icone}"\ntaches = ["checkmark Lu"]\n'
+                  f'recompenses = ["xp 2"]\ndescription = """\n{t(intro)}\n"""\n')
+    cles = []
+    for e in entrees:
+        cles.append(e['cle'])
+        x = ''
+        if e.get('deps'):
+            x += 'deps = [' + ', '.join(f'"{d}"' for d in e['deps']) + ']\n'
+        if e.get('forme'):
+            x += f'forme = "{e["forme"]}"\n'
+        if e.get('icone'):
+            x += f'icone = "{e["icone"]}"\n'
+        tt = ', '.join(f'"{t(k)}"' for k in e['taches'])
+        # une collection est exhaustive : les outils du kit de départ en font partie
+        x += 'kit_voulu = true\n'
+        tit = e['titre'][0].upper() + e['titre'][1:] if e['titre'] and e['titre'][0].isalpha() else e['titre']
+        lignes.append(f'[[quete]]\ncle = "{e["cle"]}"\ntitre = "{t(tit)}"\noptionnel = true\n{x}'
+                      f'taches = [{tt}]\nrecompenses = ["xp {e.get("xp", 1)}"]\ndescription = """\n{t(e["description"])}\n"""\n')
+    deps = ', '.join(f'"{c}"' for c in cles)
+    lignes.append(f'[[quete]]\ncle = "complet"\ntitre = "{t(titre_fin)}"\noptionnel = true\ntaille = 1.5\nicone = "{icone_fin}"\nforme = "gear"\n'
+                  f'taches = ["checkmark Collection complète"]\nrecompenses = ["xp 20"]\ndeps = [{deps}]\ndescription = """\n{t(fin)}\n"""\n')
+    if extra_fin:
+        lignes.append(extra_fin)
+    return '\n'.join(lignes), len(cles), []
+
+
+def candidats(ix, filtre):
+    """Objets de l'index et du jeu de base retenus par filtre(id), répartis
+    entre obtenables et exclus (mod absent, ou inobtenable en chaîne)."""
+    ok = obtenables_chaine()
+    mods = mods_charges()
+    pris, exclus = [], []
+    for i in sorted(set(ix['items'])):
+        if not filtre(i):
+            continue
+        if mods is not None and i.split(':')[0] not in mods:
+            continue   # mod absent : rien à exclure, l'objet n'existe pas en jeu
+        if i in ok:
+            pris.append(i)
+        else:
+            exclus.append((i, "ne s'obtient pas en chaîne (recette dont un ingrédient manque, ni butin ni génération)"))
+    return pris, exclus
+
+
+ARMURE_TAGS = ('minecraft:trimmable_armor', 'forge:armors/helmets', 'forge:armors/chestplates', 'forge:armors/leggings',
+               'forge:armors/boots', 'forge:armors')
+GROUPES_ARMURE = [
+    ('armurerie', '&cArmurerie — base et aventure', None),
+    ('armurerie-dimensions', '&cArmurerie — dimensions', {'aether', 'deep_aether', 'aether_redux', 'lost_aether_content', 'umbral_skies',
+                                                        'twilightforest', 'blue_skies', 'betterend', 'betternether'}),
+    ('armurerie-magie', '&cArmurerie — magie', {'irons_spellbooks', 'hazennstuff'}),
+]
+
+
+def _armures(ix):
+    tagues = set()
+    for tg in ARMURE_TAGS:
+        tagues |= membres_complets(tg)
+    def est(i):
+        return (fente(i) is not None or i in tagues) and 'horse' not in i and 'moa_armor' not in i and 'wolf' not in i
+    return candidats(ix, est)
+
+
+def chapitre_armurerie(ix, fichier):
+    pieces, exclus = _armures(ix)
+    autres = set().union(*[g[2] for g in GROUPES_ARMURE if g[2]])
+    titre = next(g[1] for g in GROUPES_ARMURE if g[0] == fichier)
+    mods_g = next(g[2] for g in GROUPES_ARMURE if g[0] == fichier)
+    garde = [p for p in pieces if (p.split(':')[0] in mods_g if mods_g else p.split(':')[0] not in autres)]
+    ordre_f = {s: k for k, (s, _) in enumerate(FENTES)}
+    ensembles = {}
+    for p in garde:
+        f = fente(p)
+        cle = p[:-(len(f) + 1)] if f else p
+        ensembles.setdefault(cle, []).append(p)
+    entrees = []
+    for cle_e in sorted(ensembles, key=lambda c: (c.split(':')[0], c)):
+        ps = sorted(ensembles[cle_e], key=lambda p: ordre_f.get(fente(p), 9))
+        mod = cle_e.split(':')[0]
+        chap = CHAPITRE_DU_MOD.get(mod)
+        renvoi = f" Ses paliers sont au chapitre &7{chap}&r." if chap else ''
+        nom_e = nom_ensemble(ix, ps) if len(ps) > 1 else None
+        for p in ps:
+            desc = f"Pièce d'armure de &b{MOD_AFFICHE.get(mod, mod)}&r." + (f" Elle fait partie de l'{nom_e[0].lower() + nom_e[1:]}." if nom_e else '') + renvoi + " À garder : la livraison n'est pas consommée."
+            entrees.append({'cle': p.replace(':', '_'), 'titre': libelle(ix, p, 'objet'), 'taches': [f'item {p}'], 'icone': p, 'description': desc})
+        if nom_e:
+            entrees.append({'cle': 'ensemble_' + cle_e.replace(':', '_'), 'titre': nom_e, 'taches': [f'item {p}' for p in ps],
+                            'icone': ps[min(1, len(ps) - 1)], 'deps': [p.replace(':', '_') for p in ps], 'forme': 'hexagon', 'xp': 5,
+                            'description': f"Toutes les pièces de l'{nom_e[0].lower() + nom_e[1:]} ({len(ps)}), ensemble dans l'inventaire."})
+    extra = ''
+    if fichier == 'armurerie':
+        ext = ', '.join(f'"enc_{g[0].replace("-", "_")}/complet"' for g in GROUPES_ARMURE if g[0] != 'armurerie')
+        extra = ('[[quete]]\ncle = "toute_armurerie"\ntitre = "&c&lToute l\'Armurerie"\noptionnel = true\ntaille = 2.0\nforme = "gear"\n'
+                 'icone = "minecraft:netherite_chestplate"\ndeps = ["complet"]\n'
+                 f'deps_externes = [{ext}]\ntaches = ["checkmark Toute l\'Armurerie"]\nrecompenses = ["xp 50"]\n'
+                 'description = """\nLes trois chapitres de l\'Armurerie complets : chaque pièce d\'armure du pack que ce serveur permet d\'obtenir.\n"""\n')
+    intro = (f"Chaque pièce d'armure {'des mods de base et d' + chr(39) + 'aventure' if fichier == 'armurerie' else ('des dimensions' if 'dimensions' in fichier else 'des mods de magie')}, "
+             "une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé.\n\n"
+             "Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre.")
+    texte, n, _ = chapitre_collection(fichier, titre, 'minecraft:iron_chestplate', 'minecraft:netherite_chestplate', intro, entrees,
+                                      '&7Tout le chapitre', "Toutes les pièces et tous les ensembles de ce chapitre.", extra)
+    return texte, n, [e for e in exclus if (e[0].split(':')[0] in mods_g if mods_g else e[0].split(':')[0] not in autres)]
+
+
+TYPES_ARMES = [
+    ('epees', '&cÉpées', 'Toutes les épées', r'_(sword|katana|rapier|cutlass|blade|saber|sabre|greatsword|longsword|claymore|flamberge)$', ('minecraft:swords',), 'minecraft:iron_sword', 'minecraft:netherite_sword', 'Épée'),
+    ('pioches', '&7Pioches', 'Toutes les pioches', r'_pickaxe$', ('minecraft:pickaxes',), 'minecraft:iron_pickaxe', 'minecraft:netherite_pickaxe', 'Pioche'),
+    ('haches', '&7Haches', 'Toutes les haches', r'(?<!pick)_axe$', ('minecraft:axes',), 'minecraft:iron_axe', 'minecraft:netherite_axe', 'Hache'),
+    ('pelles', '&7Pelles', 'Toutes les pelles', r'_shovel$', ('minecraft:shovels',), 'minecraft:iron_shovel', 'minecraft:netherite_shovel', 'Pelle'),
+    ('houes', '&7Houes', 'Toutes les houes', r'_hoe$', ('minecraft:hoes',), 'minecraft:iron_hoe', 'minecraft:netherite_hoe', 'Houe'),
+    ('armes-distance', '&cArmes à distance', 'Toutes les armes à distance', r'_(bow|crossbow|trident|longbow|shortbow|blowgun|dart_shooter|slingshot)$', ('forge:tools/bows', 'forge:tools/crossbows', 'forge:tools/tridents'), 'minecraft:bow', 'minecraft:crossbow', 'Arme à distance'),
+    ('boucliers', '&7Boucliers', 'Tous les boucliers', r'_(shield|targe)$', ('forge:tools/shields',), 'minecraft:shield', 'minecraft:shield', 'Bouclier'),
+    ('armes-autres', '&cAutres armes et outils', 'Toutes les autres armes', r'_(hammer|spear|lance|scythe|sickle|dagger|mace|halberd|glaive|staff|knife|cleaver|battleaxe|warhammer|whip)$', ('forge:tools/knives',), 'minecraft:mace' , 'minecraft:netherite_sword', 'Arme'),
+]
+
+
+def _armes_par_type(ix):
+    pris_tous, res, exclus_tous = set(), {}, {}
+    for f, _, _, rx, tags, *_ in TYPES_ARMES:
+        tagues = set()
+        for tg in tags:
+            tagues |= membres_complets(tg)
+        p, e = candidats(ix, lambda i, rx=rx, tagues=tagues: (re.search(rx, i) is not None or i in tagues) and 'horse' not in i)
+        res[f] = [i for i in p if i not in pris_tous]
+        exclus_tous[f] = [x for x in e if x[0] not in pris_tous]
+        pris_tous |= set(res[f])
+    return res, exclus_tous
+
+
+def chapitre_armes(ix, fichier):
+    res, exclus = _armes_par_type(ix)
+    spec = next(s for s in TYPES_ARMES if s[0] == fichier)
+    _, titre, titre_fin, _, _, icone, icone_fin, genre = spec
+    if icone not in ix['items']:
+        icone = 'minecraft:iron_sword'
+    entrees = []
+    for i in sorted(res[fichier], key=lambda i: (i.split(':')[0] != 'minecraft', i.split(':')[0], i)):
+        mod = i.split(':')[0]
+        chap = CHAPITRE_DU_MOD.get(mod)
+        desc = f"{genre} de &b{MOD_AFFICHE.get(mod, mod)}&r." + (f" Ses paliers sont au chapitre &7{chap}&r." if chap else '') + " À garder : la livraison n'est pas consommée."
+        entrees.append({'cle': i.replace(':', '_'), 'titre': libelle(ix, i, 'objet'), 'taches': [f'item {i}'], 'icone': i, 'description': desc})
+    extra = ''
+    if fichier == TYPES_ARMES[-1][0]:
+        ext = ', '.join(f'"enc_{s[0].replace("-", "_")}/complet"' for s in TYPES_ARMES[:-1])
+        extra = ('[[quete]]\ncle = "tout_arsenal"\ntitre = "&c&lTout l\'arsenal"\noptionnel = true\ntaille = 2.0\nforme = "gear"\n'
+                 'icone = "minecraft:netherite_sword"\ndeps = ["complet"]\n'
+                 f'deps_externes = [{ext}]\ntaches = ["checkmark Tout l\'arsenal"]\nrecompenses = ["xp 50"]\n'
+                 'description = """\nÉpées, pioches, haches, pelles, houes, armes à distance, boucliers et le reste : chaque arme et chaque outil du pack que ce serveur permet d\'obtenir.\n"""\n')
+    intro = (f"{titre_fin.replace('Toutes les ', 'Chaque ').replace('Tous les ', 'Chaque ').rstrip('s')} du pack, mod par mod, une quête par objet. "
+             "Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.")
+    texte, n, _ = chapitre_collection(fichier, titre, icone, icone_fin if icone_fin in ix['items'] else icone, intro, entrees,
+                                      f'&7{titre_fin}', f"{titre_fin} de ce chapitre réunies.", extra)
+    return texte, n, exclus[fichier]
+
+
 CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end': bestiaire_nether_end,
              'bestiaire-dimensions': bestiaire_dimensions,
              'biomes-overworld': biomes_overworld, 'biomes-nether-end': biomes_nether_end,
@@ -711,7 +953,11 @@ CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end':
              'structures-moogs': structures_moogs, 'structures-donjons-villages': structures_villages,
              'structures-ruines': structures_ruines, 'structures-mondes': structures_mondes,
              'gastronomie': gastronomie, 'disques': disques, 'trophees': trophees, 'minerais': minerais, 'bois': bois,
-             'armurerie': armurerie, 'arsenal': arsenal, 'atelier-create': atelier_create, 'herbier': herbier}
+             'armurerie': lambda ix, e, n: chapitre_armurerie(ix, 'armurerie'),
+             'armurerie-dimensions': lambda ix, e, n: chapitre_armurerie(ix, 'armurerie-dimensions'),
+             'armurerie-magie': lambda ix, e, n: chapitre_armurerie(ix, 'armurerie-magie'),
+             **{s[0]: (lambda f: (lambda ix, e, n: chapitre_armes(ix, f)))(s[0]) for s in TYPES_ARMES},
+             'arsenal': arsenal, 'atelier-create': atelier_create, 'herbier': herbier}
 
 
 def main(argv):

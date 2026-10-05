@@ -122,6 +122,7 @@ class Verif:
         'ironjetpacks:thruster': "recettes créées par le code d'Iron Jetpacks",
         'ironjetpacks:capacitor': "recettes créées par le code d'Iron Jetpacks",
         'mysticalagriculture:cognizant_dust': "Wither ou Ender Dragon tué avec une arme d'essence enchantée d'Illumination mystique (guide du mod)",
+        'irons_spellbooks:lightning_bottle': "flacon vide utilisé sur un creeper chargé (ServerPlayerEvents.useOnEntityEvent, javap)",
         'dragonloot:dragon_scale': "butin de l'Ender Dragon ajouté par le code de DragonLoot (dragonloot-common.toml du serveur)",
         # DragonLoot 1.1.15 : CompatRecipes (javap) — sans Netherite Plus, recettes de forge
         # générées par le code et injectées par RecipeManagerMixin (modèle d'amélioration
