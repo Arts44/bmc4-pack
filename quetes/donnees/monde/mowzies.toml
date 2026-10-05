@@ -139,6 +139,21 @@ description = """
 Sur les Côtes rocheuses seulement (liste blanche de la config du serveur). Sa dent fait une dague qui empoisonne et double les dégâts par derrière (infobulle).
 """
 
+# Mowzie's × Cataclysm 1.2.1 : recettes du jar ; FrostmawEyeItem (javap)
+# lance un Eye_Of_Dungeon_Entity de Cataclysm vers la structure de la balise
+# *_eye_located (wrought_chamber, frostmaw_spawn, monastery, umvuthana_grove).
+[[quete]]
+cle = "yeux"
+titre = "Les yeux de Cataclysm"
+deps = ["intro"]
+optionnel = true
+exigence = "une"
+taches = ["item mowzies_cataclysm:wrought_eye", "item mowzies_cataclysm:frostmaw_eye", "item mowzies_cataclysm:sun_eye", "item mowzies_cataclysm:tongbi_eye"]
+recompenses = ["xp 5"]
+description = """
+Un œil de l'Ender au centre d'une recette, et le lancer file vers un repaire de Mowzie's, comme les yeux de Cataclysm. L'« Eye of Wrought » mène à la chambre du Wroughtnaut, l'« Eye of Frost » au Frostmaw, l'« Eye of the Sunbird » au bosquet d'Umvuthana, l'« Eye of the Sculptor » au monastère.
+"""
+
 [[quete]]
 cle = "fin"
 titre = "&6Les quatre géants"
