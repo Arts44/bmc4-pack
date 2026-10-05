@@ -1,0 +1,559 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_nether"
+	group: "17185D2694D86048"
+	icon: "minecraft:netherrack"
+	id: "5B20F0EFA3C8A1AA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Dix blocs d'obsidienne, un briquet. Le Nether du pack a quatre mods de biomes — &cBetter Nether&r, &8Bygone Nether&r, &5Soulful Nether&r, &bJaden's Nether Expansion&r — et des forteresses refaites. Huit blocs ici valent soixante-quatre dehors : c'est aussi la route la plus courte entre deux bases."]
+			icon: "minecraft:obsidian"
+			id: "5E405E389BC878E2"
+			rewards: [
+				{
+					count: 4
+					id: "5FBB438BF6132FA1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "247D554D5A346994"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #nether sur le Discord."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "54374DB328C132B9"
+				type: "dimension"
+			}]
+			title: "&cEntrer dans le Nether"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["Refaite par &bYUNG's Better Nether Fortresses&r : des salles, des coffres par joueur, des générateurs de blazes, des squelettes du Wither. Cataclysm y ajoute son Berserker."]
+			id: "3BF0A2C3B0644816"
+			rewards: [{
+				id: "2C993EC38945708E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "73345EDA121CF9E0"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Une forteresse"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3BF0A2C3B0644816"]
+			description: ["Les blazes gardent la forteresse. Leurs bâtons font la poudre des potions, les alambics, et le foyer de l'école du feu d'Iron's Spells."]
+			icon: "minecraft:blaze_rod"
+			id: "2EF4292DB843D21C"
+			rewards: [{
+				id: "018143637F598376"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "66B6E800FAD83817"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Des bâtons de blaze"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["Piglins, brutes, et des coffres par joueur. De l'or sur soi pour ne pas être attaqué à vue, sauf par les brutes. Le modèle de forge de la nétherite se trouve ici."]
+			id: "09F251A073449DEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E34485B541081B4"
+				table_id: 3316722983613651948L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4892DB56C3D0273B"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "Un bastion"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3BF0A2C3B0644816"]
+			description: ["Les squelettes du Wither des forteresses lâchent parfois leur tête. Trois têtes, quatre blocs de sable des âmes, et le Wither se lève. Bygone Nether ajoute des chevaliers squelettes et des chevaux squelettes du Wither."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "118B7A900AB0A4D3"
+			rewards: [{
+				id: "65C05FF414EE319E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				count: 3L
+				id: "2C2486CAF5BDA6F0"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "Trois têtes de squelette du Wither"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["118B7A900AB0A4D3"]
+			description: ["Un claim bloque ses explosions ; hors claim, il rase tout autour de lui. Invoque-le &lloin de toute base&r, la tienne comprise. L'étoile du Nether fait le phare. Sa mort est annoncée dans #faits-d-armes."]
+			icon: "minecraft:wither_spawn_egg"
+			id: "31FAD0CBCAB93E86"
+			rewards: [{
+				id: "2791BA46F8062B42"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "25FC074D5CD18B26"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8Invoquer et vaincre le Wither"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["Dans le netherrack des profondeurs, surtout vers Y 15, rarement. Le marteau de Just Hammers et le minage en veine aident. Quatre débris et quatre lingots d'or font un lingot de nétherite."]
+			icon: "minecraft:ancient_debris"
+			id: "21A9358A228E46B4"
+			rewards: [{
+				id: "2F4FA007170FE16D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "5FC253F08C444137"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "Des débris antiques"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["21A9358A228E46B4"]
+			description: ["La nétherite ne se donne pas : la quête ne rend que de l'expérience. Advanced Netherite et Netherite Tweaks sont au chapitre &7Équipement de fin de partie&r."]
+			icon: "minecraft:netherite_ingot"
+			id: "3B589F414EBAA032"
+			rewards: [{
+				id: "0F06D28714419458"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "1218CD7AC3B2AEF7"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Un lingot de nétherite"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["&cBetter Nether&r ajoute plus de vingt biomes : jungle du Nether, forêt de champignons, récif d'os, marais, forêt inversée, désert de gravier, plaine des âmes… Trois à voir pour la quête ; le progrès du mod en demande tous."]
+			id: "4B01BD15EA6AB69C"
+			rewards: [{
+				id: "2537C116D46B9043"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					biome: "betternether:nether_jungle"
+					id: "01007B17192D9B5C"
+					type: "biome"
+				}
+				{
+					biome: "betternether:nether_mushroom_forest"
+					id: "01ACF0E8CD57F684"
+					type: "biome"
+				}
+				{
+					biome: "betternether:bone_reef"
+					id: "0261B9A201A294F4"
+					type: "biome"
+				}
+			]
+			title: "Les biomes de Better Nether"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4B01BD15EA6AB69C"]
+			description: ["Le métal de Better Nether, dans son minerai du Nether. Il fait des outils, des lanternes, une enclume et une &lforge&r qui remplace le four."]
+			icon: "betternether:cincinnasite"
+			id: "5677A4079C8F5DE3"
+			rewards: [{
+				id: "583354554831B991"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "12CEF8664E270477"
+				item: "betternether:cincinnasite"
+				type: "item"
+			}]
+			title: "De la cincinnasite"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5677A4079C8F5DE3"]
+			description: ["La &cforge de cincinnasite&r : le four du Nether, et les outils de cincinnasite sertis de diamant s'y fabriquent (progrès du mod)."]
+			icon: "betternether:cincinnasite_forge"
+			id: "1537411249F9FCF9"
+			optional: true
+			rewards: [{
+				id: "3FA791666649AB6D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5404022B61149C1C"
+				item: "betternether:cincinnasite_forge"
+				type: "item"
+			}]
+			title: "Une forge de cincinnasite"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B01BD15EA6AB69C"]
+			description: ["Le &crubis du Nether&r sort du minerai de rubis. Il sert aux outils et armures « flamboyants » du mod."]
+			icon: "betternether:nether_ruby"
+			id: "4BD354B63A1B19ED"
+			optional: true
+			rewards: [{
+				id: "0A0307364D9C3F53"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28B766C8A890B347"
+				item: "betternether:nether_ruby"
+				type: "item"
+			}]
+			title: "Un rubis du Nether"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B01BD15EA6AB69C"]
+			description: ["Une ville entière de Better Nether, avec ses coffres par joueur. Le mod pose aussi des pyramides, des autels, des temples de jungle et des piliers."]
+			id: "51222C09BE67E3E1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0681D575D7B8A320"
+				table_id: 3316722983613651948L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D1369D65FD37E76"
+				structure: "betternether:nether_city"
+				type: "structure"
+			}]
+			title: "La cité du Nether"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B01BD15EA6AB69C"]
+			description: ["Un serpent de Better Nether — à ne pas confondre avec la Naga de Mowzie's (Côtes rocheuses) ni celle de la Twilight Forest (boss). Des générateurs la font sortir dans les structures de Better Nether."]
+			icon: "betternether:spawn_egg_naga"
+			id: "18D0F1D0117C03AD"
+			optional: true
+			rewards: [{
+				id: "0002B5F962756382"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "betternether:naga"
+				id: "56552DEC95F45ACD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Naga de Better Nether"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["&8Bygone Nether&r : une citadelle, une catacombe, un manoir piglin. Dans la citadelle, des chevaliers squelettes du Wither et le Wraither ; des prisonniers piglins à libérer dans le manoir (progrès du mod)."]
+			id: "0248E5C9CDBCFC46"
+			optional: true
+			rewards: [{
+				id: "7E1C1AAE893BA91B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4786CC10BF4104D8"
+				structure: "bygonenether:citadel"
+				type: "structure"
+			}]
+			title: "La citadelle de Bygone Nether"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0248E5C9CDBCFC46"]
+			description: ["Des générateurs de squelettes du Wither, des débris flétris, et la pierre d'âme. Le disque « Wither Waltz » se trouve dans Bygone Nether."]
+			id: "57609A88DBA898D7"
+			optional: true
+			rewards: [{
+				id: "19CA7DD23C621733"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "30160BCBEE3B2823"
+				structure: "bygonenether:catacomb"
+				type: "structure"
+			}]
+			title: "La catacombe"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["L'&bEnderman biscornu&r des forêts biscornues la lâche. On peut aussi retirer sa chape à un enderman biscornu (progrès du mod « Trim the Warp off of an Enderman »)."]
+			icon: "bygonenether:warped_ender_pearl"
+			id: "76D5CB22A42262A5"
+			optional: true
+			rewards: [{
+				id: "5EE801379B02B358"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "243FA9FE621B1ABB"
+				item: "bygonenether:warped_ender_pearl"
+				type: "item"
+			}]
+			title: "Une perle de l'End biscornue"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["&5Soulful Nether&r : les &7Deltas de cendre&r (neige de cendre, glace volcanique, effet Gelure), la &5Forêt de frayeur&r, les &8Clairières sombres&r. La racine d'âme se plante avec une betterave sur un bloc des âmes (progrès du mod)."]
+			id: "6A2923BCAA489AB0"
+			optional: true
+			rewards: [{
+				id: "3A58CA3F17400BE7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "soulfulnether:ashen_deltas"
+					id: "104981F2FE641055"
+					type: "biome"
+				}
+				{
+					biome: "soulfulnether:fright_forest"
+					id: "4431E153439DB6D9"
+					type: "biome"
+				}
+			]
+			title: "Les deltas de cendre"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["&bJaden's Nether Expansion&r découpe la vallée des âmes : bosquet du deuil, glaciers de glace noire, pâtures de sorrowsquash, gouffre de quartz, entrailles de panache, bourbier d'échappement. Feux follets, apparitions, banshees et stampedes y vivent."]
+			id: "175464071DA3D19D"
+			optional: true
+			rewards: [{
+				id: "45C2C5D701900194"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "netherexp:grieving_grove"
+					id: "3F35A397E3B39D6C"
+					type: "biome"
+				}
+				{
+					biome: "netherexp:black_ice_glaciers"
+					id: "0F562ADD5EC3BC73"
+					type: "biome"
+				}
+			]
+			title: "Les sous-biomes de la vallée des âmes"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["175464071DA3D19D"]
+			description: ["Un fossile géant dans la vallée des âmes, parfois avec son campement. Le &7combustible fossile&r s'y creuse (progrès « Gravedigger »), et tuer un squelette sur de la terre des âmes refait des fossiles."]
+			id: "00C5B93B36B819B6"
+			optional: true
+			rewards: [{
+				id: "488DDBBFC045604C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71310FEC6E426690"
+				structure: "netherexp:mega_fossil"
+				type: "structure"
+			}]
+			title: "Le campement du méga-fossile"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["175464071DA3D19D"]
+			description: ["Le donjon de Jaden's : une bougie perfide à allumer et à défendre contre des vagues, des coffres-braseros ouverts par la flamme perfide, des statues de gargouilles à collectionner. Une boussole de sanctum y mène."]
+			id: "2058F9BFA5330DD7"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14BE6202F5EFACDA"
+				table_id: 3316722983613651948L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69B7C95F60052102"
+				structure: "netherexp:sanctum"
+				type: "structure"
+			}]
+			title: "Le Sanctum"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["175464071DA3D19D"]
+			description: ["Une &7apparition&r possède une créature ; une bouteille d'eau l'en délivre. Le progrès du mod valide la quête."]
+			id: "584E8BB6508A0081"
+			optional: true
+			rewards: [{
+				id: "6F98366171300350"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "netherexp:nether/exorcism"
+				criterion: ""
+				id: "7FECA8D2FBB3F4A6"
+				type: "advancement"
+			}]
+			title: "Exorciser une apparition"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["175464071DA3D19D"]
+			description: ["Le &cstampede&r se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »)."]
+			id: "45445BF9B1EF1BB9"
+			optional: true
+			rewards: [{
+				id: "3E3677F67EC23843"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "netherexp:nether/rodeo_stampede"
+				criterion: ""
+				id: "66C977B222A6DB53"
+				type: "advancement"
+			}]
+			title: "Apprivoiser un stampede"
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5E405E389BC878E2"]
+			description: ["&cNether's Delight&r : un trophée de hoglin pour le mur, et toute une cuisine du Nether au chapitre &7Cuisine&r."]
+			icon: "mynethersdelight:hoglin_trophy"
+			id: "1C34919B0C7A629A"
+			optional: true
+			rewards: [{
+				id: "044489DE5A58EABB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3975DF6F16BC14B2"
+				item: "mynethersdelight:hoglin_trophy"
+				type: "item"
+			}]
+			title: "Un trophée de hoglin"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"31FAD0CBCAB93E86"
+				"3B589F414EBAA032"
+			]
+			description: ["Le Wither vaincu, la nétherite en poche. L'End attend, et les chapitres Cuisine et Équipement de fin de partie prolongent celui-ci."]
+			icon: "minecraft:nether_star"
+			id: "1675236946076E04"
+			rewards: [{
+				id: "2C0B980F96E6EE8F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0DDAF4E8DE5B3012"
+				title: "J'en suis revenu"
+				type: "checkmark"
+			}]
+			title: "&cLe Nether est dompté"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&cLe Nether"
+}

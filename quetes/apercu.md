@@ -1196,6 +1196,59 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10 — après : controleur, requete, fabricateur
   > Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre Pipez relie tout ça aux machines.
 
+## Le Nether  (`monde_nether`, 25 quêtes)
+
+- **Entrer dans le Nether** — tâches : dimension minecraft:the_nether — récompense : item minecraft:gold_ingot 4, item minecraft:cooked_porkchop 8
+  > Dix blocs d'obsidienne, un briquet. Le Nether du pack a quatre mods de biomes — Better Nether, Bygone Nether, Soulful Nether, Jaden's Nether Expansion — et des forteresses refaites. Huit blocs ici valent soixante-quatre dehors : c'est aussi la route la plus courte entre deux bases.
+- **Une forteresse** — tâches : structure betterfortresses:fortress — récompense : xp 5 — après : entrer
+  > Refaite par YUNG's Better Nether Fortresses : des salles, des coffres par joueur, des générateurs de blazes, des squelettes du Wither. Cataclysm y ajoute son Berserker.
+- **Des bâtons de blaze** — tâches : item minecraft:blaze_rod 8 — récompense : xp 3 — après : forteresse
+  > Les blazes gardent la forteresse. Leurs bâtons font la poudre des potions, les alambics, et le foyer de l'école du feu d'Iron's Spells.
+- **Un bastion** — tâches : structure minecraft:bastion_remnant — récompense : table aventurier — après : entrer
+  > Piglins, brutes, et des coffres par joueur. De l'or sur soi pour ne pas être attaqué à vue, sauf par les brutes. Le modèle de forge de la nétherite se trouve ici.
+- **Trois têtes de squelette du Wither** — tâches : item minecraft:wither_skeleton_skull 3 — récompense : xp 8 — après : forteresse
+  > Les squelettes du Wither des forteresses lâchent parfois leur tête. Trois têtes, quatre blocs de sable des âmes, et le Wither se lève. Bygone Nether ajoute des chevaliers squelettes et des chevaux squelettes du Wither.
+- **Invoquer et vaincre le Wither** — tâches : kill minecraft:wither — récompense : xp 25 — après : wither_skeleton
+  > Un claim bloque ses explosions ; hors claim, il rase tout autour de lui. Invoque-le loin de toute base, la tienne comprise. L'étoile du Nether fait le phare. Sa mort est annoncée dans #faits-d-armes.
+- **Des débris antiques** — tâches : item minecraft:ancient_debris 4 — récompense : xp 5 — après : entrer
+  > Dans le netherrack des profondeurs, surtout vers Y 15, rarement. Le marteau de Just Hammers et le minage en veine aident. Quatre débris et quatre lingots d'or font un lingot de nétherite.
+- **Un lingot de nétherite** — tâches : item minecraft:netherite_ingot — récompense : xp 10 — après : debris
+  > La nétherite ne se donne pas : la quête ne rend que de l'expérience. Advanced Netherite et Netherite Tweaks sont au chapitre Équipement de fin de partie.
+- **Les biomes de Better Nether** — tâches : biome betternether:nether_jungle, biome betternether:nether_mushroom_forest, biome betternether:bone_reef — récompense : xp 5 — après : entrer
+  > Better Nether ajoute plus de vingt biomes : jungle du Nether, forêt de champignons, récif d'os, marais, forêt inversée, désert de gravier, plaine des âmes… Trois à voir pour la quête ; le progrès du mod en demande tous.
+- **De la cincinnasite** — tâches : item betternether:cincinnasite 8 — récompense : xp 3 — après : bn_biomes
+  > Le métal de Better Nether, dans son minerai du Nether. Il fait des outils, des lanternes, une enclume et une forge qui remplace le four.
+- **Une forge de cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_forge — récompense : xp 5 — après : cincinnasite
+  > La forge de cincinnasite : le four du Nether, et les outils de cincinnasite sertis de diamant s'y fabriquent (progrès du mod).
+- **Un rubis du Nether** *(optionnelle)* — tâches : item betternether:nether_ruby — récompense : xp 5 — après : bn_biomes
+  > Le rubis du Nether sort du minerai de rubis. Il sert aux outils et armures « flamboyants » du mod.
+- **La cité du Nether** *(optionnelle)* — tâches : structure betternether:nether_city — récompense : table aventurier — après : bn_biomes
+  > Une ville entière de Better Nether, avec ses coffres par joueur. Le mod pose aussi des pyramides, des autels, des temples de jungle et des piliers.
+- **La Naga de Better Nether** *(optionnelle)* — tâches : kill betternether:naga — récompense : xp 5 — après : bn_biomes
+  > Un serpent de Better Nether — à ne pas confondre avec la Naga de Mowzie's (Côtes rocheuses) ni celle de la Twilight Forest (boss). Des générateurs la font sortir dans les structures de Better Nether.
+- **La citadelle de Bygone Nether** *(optionnelle)* — tâches : structure bygonenether:citadel — récompense : xp 5 — après : entrer
+  > Bygone Nether : une citadelle, une catacombe, un manoir piglin. Dans la citadelle, des chevaliers squelettes du Wither et le Wraither ; des prisonniers piglins à libérer dans le manoir (progrès du mod).
+- **La catacombe** *(optionnelle)* — tâches : structure bygonenether:catacomb — récompense : xp 5 — après : citadelle
+  > Des générateurs de squelettes du Wither, des débris flétris, et la pierre d'âme. Le disque « Wither Waltz » se trouve dans Bygone Nether.
+- **Une perle de l'End biscornue** *(optionnelle)* — tâches : item bygonenether:warped_ender_pearl — récompense : xp 3 — après : entrer
+  > L'Enderman biscornu des forêts biscornues la lâche. On peut aussi retirer sa chape à un enderman biscornu (progrès du mod « Trim the Warp off of an Enderman »).
+- **Les deltas de cendre** *(optionnelle)* — tâches : biome soulfulnether:ashen_deltas, biome soulfulnether:fright_forest — récompense : xp 5 — après : entrer
+  > Soulful Nether : les Deltas de cendre (neige de cendre, glace volcanique, effet Gelure), la Forêt de frayeur, les Clairières sombres. La racine d'âme se plante avec une betterave sur un bloc des âmes (progrès du mod).
+- **Les sous-biomes de la vallée des âmes** *(optionnelle)* — tâches : biome netherexp:grieving_grove, biome netherexp:black_ice_glaciers — récompense : xp 5 — après : entrer
+  > Jaden's Nether Expansion découpe la vallée des âmes : bosquet du deuil, glaciers de glace noire, pâtures de sorrowsquash, gouffre de quartz, entrailles de panache, bourbier d'échappement. Feux follets, apparitions, banshees et stampedes y vivent.
+- **Le campement du méga-fossile** *(optionnelle)* — tâches : structure netherexp:mega_fossil — récompense : xp 5 — après : jaden_vallee
+  > Un fossile géant dans la vallée des âmes, parfois avec son campement. Le combustible fossile s'y creuse (progrès « Gravedigger »), et tuer un squelette sur de la terre des âmes refait des fossiles.
+- **Le Sanctum** *(optionnelle)* — tâches : structure netherexp:sanctum — récompense : table aventurier — après : jaden_vallee
+  > Le donjon de Jaden's : une bougie perfide à allumer et à défendre contre des vagues, des coffres-braseros ouverts par la flamme perfide, des statues de gargouilles à collectionner. Une boussole de sanctum y mène.
+- **Exorciser une apparition** *(optionnelle)* — tâches : advancement netherexp:nether/exorcism — récompense : xp 5 — après : jaden_vallee
+  > Une apparition possède une créature ; une bouteille d'eau l'en délivre. Le progrès du mod valide la quête.
+- **Apprivoiser un stampede** *(optionnelle)* — tâches : advancement netherexp:nether/rodeo_stampede — récompense : xp 5 — après : jaden_vallee
+  > Le stampede se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »).
+- **Un trophée de hoglin** *(optionnelle)* — tâches : item mynethersdelight:hoglin_trophy — récompense : xp 3 — après : entrer
+  > Nether's Delight : un trophée de hoglin pour le mur, et toute une cuisine du Nether au chapitre Cuisine.
+- **Le Nether est dompté** — tâches : checkmark J'en suis revenu — récompense : xp 10 — après : wither, netherite
+  > Le Wither vaincu, la nétherite en poche. L'End attend, et les chapitres Cuisine et Équipement de fin de partie prolongent celui-ci.
+
 ## Overworld — cavernes  (`monde_overworld_cavernes`, 15 quêtes)
 
 - **Sous la surface** — tâches : checkmark Lu — récompense : item minecraft:torch 32, item minecraft:cooked_cod 8

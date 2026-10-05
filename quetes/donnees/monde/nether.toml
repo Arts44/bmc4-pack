@@ -1,0 +1,294 @@
+# Chapitre « Le Nether » — cahier des charges §4.3
+# Sources (5 octobre 2026) : identifiants de l'index des jars (structures
+# betterfortresses:fortress, minecraft:bastion_remnant, betternether:*,
+# bygonenether:catacomb/citadel/piglin_manor, netherexp:sanctum/mega_fossil/
+# devils_bluff/chapel ; biomes betternether:*, soulfulnether:*, netherexp:* ;
+# progrès netherexp:nether/* et betternether:* présents dans l'index),
+# textes des jars (progrès de Jaden's Nether Expansion, Bygone Nether,
+# Soulful Nether). Les explosions bloquées par un claim : contrôle FTB
+# Chunks du 4 octobre (chapitre Bienvenue). Nether's Delight est au chapitre
+# Cuisine ; Stalwart Dungeons et le Nether Keeper au chapitre Donjons.
+
+[chapitre]
+titre = "&cLe Nether"
+fichier = "monde_nether"
+groupe = "monde"
+icone = "minecraft:netherrack"
+ordre = 3
+
+[[quete]]
+cle = "entrer"
+titre = "&cEntrer dans le Nether"
+sous_titre = "Guide dans #nether sur le Discord."
+taille = 1.5
+icone = "minecraft:obsidian"
+taches = ["dimension minecraft:the_nether"]
+recompenses = ["item minecraft:gold_ingot 4", "item minecraft:cooked_porkchop 8"]
+description = """
+Dix blocs d'obsidienne, un briquet. Le Nether du pack a quatre mods de biomes — &cBetter Nether&r, &8Bygone Nether&r, &5Soulful Nether&r, &bJaden's Nether Expansion&r — et des forteresses refaites. Huit blocs ici valent soixante-quatre dehors : c'est aussi la route la plus courte entre deux bases.
+"""
+
+[[quete]]
+cle = "forteresse"
+titre = "Une forteresse"
+deps = ["entrer"]
+taches = ["structure betterfortresses:fortress"]
+recompenses = ["xp 5"]
+description = """
+Refaite par &bYUNG's Better Nether Fortresses&r : des salles, des coffres par joueur, des générateurs de blazes, des squelettes du Wither. Cataclysm y ajoute son Berserker.
+"""
+
+[[quete]]
+cle = "blaze"
+titre = "Des bâtons de blaze"
+deps = ["forteresse"]
+taches = ["item minecraft:blaze_rod 8"]
+recompenses = ["xp 3"]
+description = """
+Les blazes gardent la forteresse. Leurs bâtons font la poudre des potions, les alambics, et le foyer de l'école du feu d'Iron's Spells.
+"""
+
+[[quete]]
+cle = "bastion"
+titre = "Un bastion"
+deps = ["entrer"]
+taches = ["structure minecraft:bastion_remnant"]
+recompenses = ["table aventurier"]
+description = """
+Piglins, brutes, et des coffres par joueur. De l'or sur soi pour ne pas être attaqué à vue, sauf par les brutes. Le modèle de forge de la nétherite se trouve ici.
+"""
+
+[[quete]]
+cle = "wither_skeleton"
+titre = "Trois têtes de squelette du Wither"
+deps = ["forteresse"]
+taille = 1.3
+taches = ["item minecraft:wither_skeleton_skull 3"]
+recompenses = ["xp 8"]
+description = """
+Les squelettes du Wither des forteresses lâchent parfois leur tête. Trois têtes, quatre blocs de sable des âmes, et le Wither se lève. Bygone Nether ajoute des chevaliers squelettes et des chevaux squelettes du Wither.
+"""
+
+[[quete]]
+cle = "wither"
+titre = "&8Invoquer et vaincre le Wither"
+deps = ["wither_skeleton"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["kill minecraft:wither"]
+recompenses = ["xp 25"]
+description = """
+Un claim bloque ses explosions ; hors claim, il rase tout autour de lui. Invoque-le &lloin de toute base&r, la tienne comprise. L'étoile du Nether fait le phare. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "debris"
+titre = "Des débris antiques"
+deps = ["entrer"]
+taches = ["item minecraft:ancient_debris 4"]
+recompenses = ["xp 5"]
+description = """
+Dans le netherrack des profondeurs, surtout vers Y 15, rarement. Le marteau de Just Hammers et le minage en veine aident. Quatre débris et quatre lingots d'or font un lingot de nétherite.
+"""
+
+[[quete]]
+cle = "netherite"
+titre = "Un lingot de nétherite"
+deps = ["debris"]
+taille = 1.3
+taches = ["item minecraft:netherite_ingot"]
+recompenses = ["xp 10"]
+description = """
+La nétherite ne se donne pas : la quête ne rend que de l'expérience. Advanced Netherite et Netherite Tweaks sont au chapitre &7Équipement de fin de partie&r.
+"""
+
+# ---- Better Nether
+[[quete]]
+cle = "bn_biomes"
+titre = "Les biomes de Better Nether"
+deps = ["entrer"]
+taches = ["biome betternether:nether_jungle", "biome betternether:nether_mushroom_forest", "biome betternether:bone_reef"]
+recompenses = ["xp 5"]
+description = """
+&cBetter Nether&r ajoute plus de vingt biomes : jungle du Nether, forêt de champignons, récif d'os, marais, forêt inversée, désert de gravier, plaine des âmes… Trois à voir pour la quête ; le progrès du mod en demande tous.
+"""
+
+[[quete]]
+cle = "cincinnasite"
+titre = "De la cincinnasite"
+deps = ["bn_biomes"]
+taches = ["item betternether:cincinnasite 8"]
+recompenses = ["xp 3"]
+description = """
+Le métal de Better Nether, dans son minerai du Nether. Il fait des outils, des lanternes, une enclume et une &lforge&r qui remplace le four.
+"""
+
+[[quete]]
+cle = "forge_cincinnasite"
+titre = "Une forge de cincinnasite"
+deps = ["cincinnasite"]
+optionnel = true
+taches = ["item betternether:cincinnasite_forge"]
+recompenses = ["xp 5"]
+description = """
+La &cforge de cincinnasite&r : le four du Nether, et les outils de cincinnasite sertis de diamant s'y fabriquent (progrès du mod).
+"""
+
+[[quete]]
+cle = "rubis"
+titre = "Un rubis du Nether"
+deps = ["bn_biomes"]
+optionnel = true
+taches = ["item betternether:nether_ruby"]
+recompenses = ["xp 5"]
+description = """
+Le &crubis du Nether&r sort du minerai de rubis. Il sert aux outils et armures « flamboyants » du mod.
+"""
+
+[[quete]]
+cle = "cite_nether"
+titre = "La cité du Nether"
+deps = ["bn_biomes"]
+optionnel = true
+taches = ["structure betternether:nether_city"]
+recompenses = ["table aventurier"]
+description = """
+Une ville entière de Better Nether, avec ses coffres par joueur. Le mod pose aussi des pyramides, des autels, des temples de jungle et des piliers.
+"""
+
+[[quete]]
+cle = "naga_bn"
+titre = "La Naga de Better Nether"
+deps = ["bn_biomes"]
+optionnel = true
+taches = ["kill betternether:naga"]
+recompenses = ["xp 5"]
+description = """
+Un serpent de Better Nether — à ne pas confondre avec la Naga de Mowzie's (Côtes rocheuses) ni celle de la Twilight Forest (boss). Des générateurs la font sortir dans les structures de Better Nether.
+"""
+
+# ---- Bygone Nether
+[[quete]]
+cle = "citadelle"
+titre = "La citadelle de Bygone Nether"
+deps = ["entrer"]
+optionnel = true
+taches = ["structure bygonenether:citadel"]
+recompenses = ["xp 5"]
+description = """
+&8Bygone Nether&r : une citadelle, une catacombe, un manoir piglin. Dans la citadelle, des chevaliers squelettes du Wither et le Wraither ; des prisonniers piglins à libérer dans le manoir (progrès du mod).
+"""
+
+[[quete]]
+cle = "catacombe"
+titre = "La catacombe"
+deps = ["citadelle"]
+optionnel = true
+taches = ["structure bygonenether:catacomb"]
+recompenses = ["xp 5"]
+description = """
+Des générateurs de squelettes du Wither, des débris flétris, et la pierre d'âme. Le disque « Wither Waltz » se trouve dans Bygone Nether.
+"""
+
+[[quete]]
+cle = "perle_biscornue"
+titre = "Une perle de l'End biscornue"
+deps = ["entrer"]
+optionnel = true
+taches = ["item bygonenether:warped_ender_pearl"]
+recompenses = ["xp 3"]
+description = """
+L'&bEnderman biscornu&r des forêts biscornues la lâche. On peut aussi retirer sa chape à un enderman biscornu (progrès du mod « Trim the Warp off of an Enderman »).
+"""
+
+# ---- Soulful Nether
+[[quete]]
+cle = "soulful"
+titre = "Les deltas de cendre"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome soulfulnether:ashen_deltas", "biome soulfulnether:fright_forest"]
+recompenses = ["xp 5"]
+description = """
+&5Soulful Nether&r : les &7Deltas de cendre&r (neige de cendre, glace volcanique, effet Gelure), la &5Forêt de frayeur&r, les &8Clairières sombres&r. La racine d'âme se plante avec une betterave sur un bloc des âmes (progrès du mod).
+"""
+
+# ---- Jaden's Nether Expansion
+[[quete]]
+cle = "jaden_vallee"
+titre = "Les sous-biomes de la vallée des âmes"
+deps = ["entrer"]
+optionnel = true
+taches = ["biome netherexp:grieving_grove", "biome netherexp:black_ice_glaciers"]
+recompenses = ["xp 5"]
+description = """
+&bJaden's Nether Expansion&r découpe la vallée des âmes : bosquet du deuil, glaciers de glace noire, pâtures de sorrowsquash, gouffre de quartz, entrailles de panache, bourbier d'échappement. Feux follets, apparitions, banshees et stampedes y vivent.
+"""
+
+[[quete]]
+cle = "fossile"
+titre = "Le campement du méga-fossile"
+deps = ["jaden_vallee"]
+optionnel = true
+taches = ["structure netherexp:mega_fossil"]
+recompenses = ["xp 5"]
+description = """
+Un fossile géant dans la vallée des âmes, parfois avec son campement. Le &7combustible fossile&r s'y creuse (progrès « Gravedigger »), et tuer un squelette sur de la terre des âmes refait des fossiles.
+"""
+
+[[quete]]
+cle = "sanctum"
+titre = "Le Sanctum"
+deps = ["jaden_vallee"]
+optionnel = true
+taches = ["structure netherexp:sanctum"]
+recompenses = ["table aventurier"]
+description = """
+Le donjon de Jaden's : une bougie perfide à allumer et à défendre contre des vagues, des coffres-braseros ouverts par la flamme perfide, des statues de gargouilles à collectionner. Une boussole de sanctum y mène.
+"""
+
+[[quete]]
+cle = "exorcisme"
+titre = "Exorciser une apparition"
+deps = ["jaden_vallee"]
+optionnel = true
+taches = ["advancement netherexp:nether/exorcism"]
+recompenses = ["xp 5"]
+description = """
+Une &7apparition&r possède une créature ; une bouteille d'eau l'en délivre. Le progrès du mod valide la quête.
+"""
+
+[[quete]]
+cle = "stampede"
+titre = "Apprivoiser un stampede"
+deps = ["jaden_vallee"]
+optionnel = true
+taches = ["advancement netherexp:nether/rodeo_stampede"]
+recompenses = ["xp 5"]
+description = """
+Le &cstampede&r se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »).
+"""
+
+[[quete]]
+cle = "trophee_hoglin"
+titre = "Un trophée de hoglin"
+deps = ["entrer"]
+optionnel = true
+taches = ["item mynethersdelight:hoglin_trophy"]
+recompenses = ["xp 3"]
+description = """
+&cNether's Delight&r : un trophée de hoglin pour le mur, et toute une cuisine du Nether au chapitre &7Cuisine&r.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&cLe Nether est dompté"
+deps = ["wither", "netherite"]
+taille = 1.5
+icone = "minecraft:nether_star"
+taches = ["checkmark J'en suis revenu"]
+recompenses = ["xp 10"]
+description = """
+Le Wither vaincu, la nétherite en poche. L'End attend, et les chapitres Cuisine et Équipement de fin de partie prolongent celui-ci.
+"""
