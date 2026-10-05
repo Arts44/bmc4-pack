@@ -1,0 +1,719 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&7Haches"
+fichier = "enc_haches"
+groupe = "encyclopedie"
+icone = "minecraft:iron_axe"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&7Haches"
+taille = 1.5
+icone = "minecraft:iron_axe"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque hache du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+"""
+
+[[quete]]
+cle = "minecraft_diamond_axe"
+titre = "Hache en diamant"
+optionnel = true
+icone = "minecraft:diamond_axe"
+kit_voulu = true
+taches = ["item minecraft:diamond_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_golden_axe"
+titre = "Hache en or"
+optionnel = true
+icone = "minecraft:golden_axe"
+kit_voulu = true
+taches = ["item minecraft:golden_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_iron_axe"
+titre = "Hache en fer"
+optionnel = true
+icone = "minecraft:iron_axe"
+kit_voulu = true
+taches = ["item minecraft:iron_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_axe"
+titre = "Hache en netherite"
+optionnel = true
+icone = "minecraft:netherite_axe"
+kit_voulu = true
+taches = ["item minecraft:netherite_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_stone_axe"
+titre = "Hache en pierre"
+optionnel = true
+icone = "minecraft:stone_axe"
+kit_voulu = true
+taches = ["item minecraft:stone_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_wooden_axe"
+titre = "Hache en bois"
+optionnel = true
+icone = "minecraft:wooden_axe"
+kit_voulu = true
+taches = ["item minecraft:wooden_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_axe"
+titre = "« Netherite-Diamond Axe »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_axe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_axe"
+titre = "« Netherite-Emerald Axe »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_axe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_axe"
+titre = "« Netherite-Gold Axe »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_axe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_iron_axe"
+titre = "« Netherite-Iron Axe »"
+optionnel = true
+icone = "advancednetherite:netherite_iron_axe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_axe"
+titre = "« Gravitite Axe »"
+optionnel = true
+icone = "aether:gravitite_axe"
+kit_voulu = true
+taches = ["item aether:gravitite_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_holystone_axe"
+titre = "« Holystone Axe »"
+optionnel = true
+icone = "aether:holystone_axe"
+kit_voulu = true
+taches = ["item aether:holystone_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_skyroot_axe"
+titre = "« Skyroot Axe »"
+optionnel = true
+icone = "aether:skyroot_axe"
+kit_voulu = true
+taches = ["item aether:skyroot_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_axe"
+titre = "« Valkyrie Axe »"
+optionnel = true
+icone = "aether:valkyrie_axe"
+kit_voulu = true
+taches = ["item aether:valkyrie_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_axe"
+titre = "« Zanite Axe »"
+optionnel = true
+icone = "aether:zanite_axe"
+kit_voulu = true
+taches = ["item aether:zanite_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_infused_veridium_axe"
+titre = "« Infused Veridium Axe »"
+optionnel = true
+icone = "aether_redux:infused_veridium_axe"
+kit_voulu = true
+taches = ["item aether_redux:infused_veridium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_axe"
+titre = "« Veridium Axe »"
+optionnel = true
+icone = "aether_redux:veridium_axe"
+kit_voulu = true
+taches = ["item aether_redux:veridium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_axe"
+titre = "« Aeternium Axe »"
+optionnel = true
+icone = "betterend:aeternium_axe"
+kit_voulu = true
+taches = ["item betterend:aeternium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_axe"
+titre = "« Terminite Axe »"
+optionnel = true
+icone = "betterend:terminite_axe"
+kit_voulu = true
+taches = ["item betterend:terminite_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_axe"
+titre = "« Thallasium Axe »"
+optionnel = true
+icone = "betterend:thallasium_axe"
+kit_voulu = true
+taches = ["item betterend:thallasium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_axe"
+titre = "Hache en Cincinnasite"
+optionnel = true
+icone = "betternether:cincinnasite_axe"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_axe_diamond"
+titre = "Hache en Cincinnasite diamantée"
+optionnel = true
+icone = "betternether:cincinnasite_axe_diamond"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_axe_diamond"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_axe"
+titre = "« Fireruby Axe »"
+optionnel = true
+icone = "betternether:flaming_ruby_axe"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_axe"
+titre = "Nether Ruby Axe"
+optionnel = true
+icone = "betternether:nether_ruby_axe"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_axe"
+titre = "Hache en aquite"
+optionnel = true
+icone = "blue_skies:aquite_axe"
+kit_voulu = true
+taches = ["item blue_skies:aquite_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_axe"
+titre = "Hache en bois de lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_axe"
+kit_voulu = true
+taches = ["item blue_skies:bluebright_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_axe"
+titre = "Hache en charoite"
+optionnel = true
+icone = "blue_skies:charoite_axe"
+kit_voulu = true
+taches = ["item blue_skies:charoite_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_axe"
+titre = "« Comet Wood Axe »"
+optionnel = true
+icone = "blue_skies:comet_axe"
+kit_voulu = true
+taches = ["item blue_skies:comet_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_axe"
+titre = "Hache en diopside"
+optionnel = true
+icone = "blue_skies:diopside_axe"
+kit_voulu = true
+taches = ["item blue_skies:diopside_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_axe"
+titre = "Hache en crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_axe"
+kit_voulu = true
+taches = ["item blue_skies:dusk_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_axe"
+titre = "Hache en bois de nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_axe"
+kit_voulu = true
+taches = ["item blue_skies:frostbright_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_axe"
+titre = "Hache en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_axe"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_axe"
+titre = "Hache lunaire"
+optionnel = true
+icone = "blue_skies:lunar_axe"
+kit_voulu = true
+taches = ["item blue_skies:lunar_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_stone_axe"
+titre = "Hache en pierre lunaire"
+optionnel = true
+icone = "blue_skies:lunar_stone_axe"
+kit_voulu = true
+taches = ["item blue_skies:lunar_stone_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_axe"
+titre = "Hache en bois d'érable"
+optionnel = true
+icone = "blue_skies:maple_axe"
+kit_voulu = true
+taches = ["item blue_skies:maple_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_axe"
+titre = "Hache en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_axe"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_axe"
+titre = "Hache en étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_axe"
+kit_voulu = true
+taches = ["item blue_skies:starlit_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_turquoise_stone_axe"
+titre = "Hache en pierre turquoise"
+optionnel = true
+icone = "blue_skies:turquoise_stone_axe"
+kit_voulu = true
+taches = ["item blue_skies:turquoise_stone_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_black_steel_axe"
+titre = "« Black Steel Axe »"
+optionnel = true
+icone = "cataclysm:black_steel_axe"
+kit_voulu = true
+taches = ["item cataclysm:black_steel_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_axe"
+titre = "« Skyjade Axe »"
+optionnel = true
+icone = "deep_aether:skyjade_axe"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_axe"
+titre = "« Stratus Axe »"
+optionnel = true
+icone = "deep_aether:stratus_axe"
+kit_voulu = true
+taches = ["item deep_aether:stratus_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_resonarium_axe"
+titre = "« Resonarium Axe »"
+optionnel = true
+icone = "deeperdarker:resonarium_axe"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_axe"
+titre = "Hache du Warden"
+optionnel = true
+icone = "deeperdarker:warden_axe"
+kit_voulu = true
+taches = ["item deeperdarker:warden_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_axe"
+titre = "« Dragon Axe »"
+optionnel = true
+icone = "dragonloot:dragon_axe"
+kit_voulu = true
+taches = ["item dragonloot:dragon_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mowziesmobs_wrought_axe"
+titre = "Hache des milles métaux"
+optionnel = true
+icone = "mowziesmobs:wrought_axe"
+kit_voulu = true
+taches = ["item mowziesmobs:wrought_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMowzie's Mobs&r. Ses paliers sont au chapitre &7Mowzie's Mobs&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_axe"
+titre = "Hache en Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_axe"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_axe"
+titre = "Hache en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_axe"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_axe"
+titre = "Hache en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_axe"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_axe"
+titre = "Hache en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_axe"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_axe"
+titre = "Hache en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_axe"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_axe"
+titre = "Hache en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_axe"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_axe"
+titre = "« §eChorundum Axe »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_axe"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_axe"
+titre = "« §eTungsten Axe »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_axe"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_diamond_minotaur_axe"
+titre = "Hache en diamant du Minotaure"
+optionnel = true
+icone = "twilightforest:diamond_minotaur_axe"
+kit_voulu = true
+taches = ["item twilightforest:diamond_minotaur_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_axe"
+titre = "Hache en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_axe"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_axe"
+titre = "Hache chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_axe"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_axe"
+titre = "Hache en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_axe"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_axe"]
+recompenses = ["xp 1"]
+description = """
+Hache de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Toutes les haches"
+optionnel = true
+taille = 1.5
+icone = "minecraft:netherite_axe"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["minecraft_diamond_axe", "minecraft_golden_axe", "minecraft_iron_axe", "minecraft_netherite_axe", "minecraft_stone_axe", "minecraft_wooden_axe", "advancednetherite_netherite_diamond_axe", "advancednetherite_netherite_emerald_axe", "advancednetherite_netherite_gold_axe", "advancednetherite_netherite_iron_axe", "aether_gravitite_axe", "aether_holystone_axe", "aether_skyroot_axe", "aether_valkyrie_axe", "aether_zanite_axe", "aether_redux_infused_veridium_axe", "aether_redux_veridium_axe", "betterend_aeternium_axe", "betterend_terminite_axe", "betterend_thallasium_axe", "betternether_cincinnasite_axe", "betternether_cincinnasite_axe_diamond", "betternether_flaming_ruby_axe", "betternether_nether_ruby_axe", "blue_skies_aquite_axe", "blue_skies_bluebright_axe", "blue_skies_charoite_axe", "blue_skies_comet_axe", "blue_skies_diopside_axe", "blue_skies_dusk_axe", "blue_skies_frostbright_axe", "blue_skies_horizonite_axe", "blue_skies_lunar_axe", "blue_skies_lunar_stone_axe", "blue_skies_maple_axe", "blue_skies_pyrope_axe", "blue_skies_starlit_axe", "blue_skies_turquoise_stone_axe", "cataclysm_black_steel_axe", "deep_aether_skyjade_axe", "deep_aether_stratus_axe", "deeperdarker_resonarium_axe", "deeperdarker_warden_axe", "dragonloot_dragon_axe", "mowziesmobs_wrought_axe", "mysticalagriculture_awakened_supremium_axe", "mysticalagriculture_imperium_axe", "mysticalagriculture_inferium_axe", "mysticalagriculture_prudentium_axe", "mysticalagriculture_supremium_axe", "mysticalagriculture_tertium_axe", "stalwart_dungeons_chorundum_axe", "stalwart_dungeons_tungsten_axe", "twilightforest_diamond_minotaur_axe", "twilightforest_ironwood_axe", "twilightforest_knightmetal_axe", "twilightforest_steeleaf_axe"]
+description = """
+Toutes les haches de ce chapitre réunies.
+"""
