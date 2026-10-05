@@ -1,0 +1,128 @@
+# Échelle des paliers — Équipement de fin de partie (BMC-89, 5 octobre 2026).
+# Recettes et progrès des jars advancednetherite 2.1.3, shieldexp 1.3.7,
+# justhammers 2.0.3 (tailles lues dans HammerItems$SizeOption).
+chapitre = "mods_equipement_fin"
+sommet = "diamant_armure"
+
+[[palier]]
+echelle = "lingots"
+cle = "fer"
+preuve = "recette netherite_iron_ingot (lingot du palier d'avant + 4)"
+
+[[palier]]
+echelle = "lingots"
+cle = "or"
+preuve = "recette netherite_gold_ingot (lingot du palier d'avant + 4)"
+
+[[palier]]
+echelle = "lingots"
+cle = "emeraude"
+preuve = "recette netherite_emerald_ingot (lingot du palier d'avant + 4)"
+
+[[palier]]
+echelle = "lingots"
+cle = "diamant"
+preuve = "recette netherite_diamond_ingot (lingot du palier d'avant + 4)"
+
+[[palier]]
+echelle = "lingots"
+cle = "bloc"
+preuve = "progrès obtain_netherite_diamond_block"
+
+[[palier]]
+echelle = "outils"
+cle = "fer_outils"
+preuve = "smithing netherite_iron_*_smithing, base upgrade_to_netherite_iron"
+
+[[palier]]
+echelle = "outils"
+cle = "or_outils"
+preuve = "smithing netherite_gold_*_smithing, base upgrade_to_netherite_gold"
+
+[[palier]]
+echelle = "outils"
+cle = "emeraude_outils"
+preuve = "smithing netherite_emerald_*_smithing, base upgrade_to_netherite_emerald"
+
+[[palier]]
+echelle = "outils"
+cle = "diamant_outils"
+preuve = "smithing netherite_diamond_*_smithing, base upgrade_to_netherite_diamond"
+
+[[palier]]
+echelle = "armure"
+cle = "fer_armure"
+preuve = "progrès nether/netherite_iron_armor"
+
+[[palier]]
+echelle = "armure"
+cle = "or_armure"
+preuve = "progrès nether/netherite_gold_armor"
+
+[[palier]]
+echelle = "armure"
+cle = "emeraude_armure"
+preuve = "progrès nether/netherite_emerald_armor"
+
+[[palier]]
+echelle = "armure"
+cle = "diamant_armure"
+preuve = "progrès nether/netherite_diamond_armor"
+
+[[palier]]
+echelle = "boucliers"
+cle = "bouclier_bois"
+preuve = "recette wooden_shield"
+
+[[palier]]
+echelle = "boucliers"
+cle = "bouclier"
+preuve = "recette iron_shield"
+
+[[palier]]
+echelle = "boucliers"
+cle = "bouclier_diamant"
+preuve = "progrès get_diamond_shield"
+
+[[palier]]
+echelle = "boucliers"
+cle = "bouclier_netherite"
+preuve = "progrès get_netherite_shield"
+
+[[palier]]
+echelle = "marteaux"
+cle = "marteau"
+preuve = "iron_hammer 3×3"
+
+[[palier]]
+echelle = "marteaux"
+cle = "marteau_nether"
+preuve = "netherite_hammer, ingrédient du cœur d'impact"
+
+[[palier]]
+echelle = "marteaux"
+cle = "marteau_impact"
+preuve = "impact_core, 3×3×3"
+
+[[palier]]
+echelle = "marteaux"
+cle = "marteau_renforce"
+preuve = "reinforced_core, 5×5"
+
+[[palier]]
+echelle = "marteaux"
+cle = "marteau_renforce_impact"
+preuve = "reinforced_impact_core, 5×5×3"
+
+[[palier]]
+echelle = "marteaux"
+cle = "marteau_netherite"
+preuve = "destructor_core, 5×5×5"
+
+[[saute]]
+objet = "boucliers griefer et paragon (Shield Expansion)"
+raison = "aucune recette ni butin : non obtenables en chaîne"
+
+[[saute]]
+objet = "marteaux de pierre, fer, or, diamant à chaque cœur"
+raison = "un seul matériau suffit par cœur (exigence une) ; chaque marteau est à l'Arsenal"

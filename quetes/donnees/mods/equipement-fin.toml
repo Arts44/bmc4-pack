@@ -11,6 +11,8 @@
 # casse, table d'enchantement et villageois) ; blossom.jar (structure
 # joshie:blossom_blade). Netherite Tweaks : jar sans lang ni config lue,
 # non décrit. Grand Teleport : au chapitre Déplacement, non décrit.
+# Paliers (BMC-89) : recettes de forge et balises upgrade_to_* du jar
+# advancednetherite ; cœurs et tailles de HammerItems (justhammers).
 
 [chapitre]
 titre = "&8Équipement de fin de partie"
@@ -39,18 +41,29 @@ deps = ["intro"]
 taches = ["advancement advancednetherite:nether/obtain_netherite_iron_ingot"]
 recompenses = ["xp 8"]
 description = """
-Le premier palier : nétherite et fer. L'armure complète rend les &lphantoms&r neutres (config du serveur). Les paliers s'appliquent sur un équipement de nétherite par modèle de forge.
+Le premier palier : un lingot de nétherite et quatre de fer. L'armure complète rend les &lphantoms&r neutres (config du serveur).
+
+Chaque palier s'applique à la table de forge, avec un &lmodèle d'amélioration en nétherite&r, sur la pièce du palier d'en dessous : nétherite → fer → or → émeraude → diamant. Il faut donc un modèle par pièce et par palier.
 """
 
 [[quete]]
 cle = "fer_armure"
-titre = "Plus de phantoms"
+titre = "Armure de nétherite-fer"
 deps = ["fer"]
-optionnel = true
 taches = ["advancement advancednetherite:nether/netherite_iron_armor"]
 recompenses = ["xp 10"]
 description = """
-L'armure complète de nétherite-fer (progrès « No More Phantoms »).
+Les quatre pièces de nétherite-fer, forgées sur l'armure de nétherite (progrès du mod).
+"""
+
+[[quete]]
+cle = "fer_outils"
+titre = "Outils de nétherite-fer"
+deps = ["fer"]
+taches = ["item advancednetherite:netherite_iron_sword", "item advancednetherite:netherite_iron_pickaxe", "item advancednetherite:netherite_iron_axe", "item advancednetherite:netherite_iron_shovel", "item advancednetherite:netherite_iron_hoe"]
+recompenses = ["xp 10"]
+description = """
+Épée, pioche, hache, pelle et houe de nétherite-fer, forgées sur les outils de nétherite.
 """
 
 [[quete]]
@@ -60,7 +73,27 @@ deps = ["fer"]
 taches = ["item advancednetherite:netherite_gold_ingot"]
 recompenses = ["xp 8"]
 description = """
-L'armure complète rend les &lpiglins&r neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle).
+Un lingot de nétherite-fer et quatre d'or. L'armure complète rend les &lpiglins&r neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle).
+"""
+
+[[quete]]
+cle = "or_armure"
+titre = "Armure de nétherite-or"
+deps = ["or", "fer_armure"]
+taches = ["advancement advancednetherite:nether/netherite_gold_armor"]
+recompenses = ["xp 12"]
+description = """
+Les quatre pièces de nétherite-or, forgées sur l'armure du palier d'avant (progrès du mod).
+"""
+
+[[quete]]
+cle = "or_outils"
+titre = "Outils de nétherite-or"
+deps = ["or", "fer_outils"]
+taches = ["item advancednetherite:netherite_gold_sword", "item advancednetherite:netherite_gold_pickaxe", "item advancednetherite:netherite_gold_axe", "item advancednetherite:netherite_gold_shovel", "item advancednetherite:netherite_gold_hoe"]
+recompenses = ["xp 12"]
+description = """
+Épée, pioche, hache, pelle et houe de nétherite-or, forgées sur ceux du palier d'avant.
 """
 
 [[quete]]
@@ -70,7 +103,27 @@ deps = ["or"]
 taches = ["item advancednetherite:netherite_emerald_ingot"]
 recompenses = ["xp 10"]
 description = """
-L'armure complète rend les &lendermen&r neutres (config). L'épée donne une chance de perle en plus (infobulle).
+Un lingot de nétherite-or et quatre émeraudes. L'armure complète rend les &lendermen&r neutres (config). L'épée donne une chance de perle en plus (infobulle).
+"""
+
+[[quete]]
+cle = "emeraude_armure"
+titre = "Armure de nétherite-émeraude"
+deps = ["emeraude", "or_armure"]
+taches = ["advancement advancednetherite:nether/netherite_emerald_armor"]
+recompenses = ["xp 15"]
+description = """
+Les quatre pièces de nétherite-émeraude, forgées sur l'armure du palier d'avant (progrès du mod).
+"""
+
+[[quete]]
+cle = "emeraude_outils"
+titre = "Outils de nétherite-émeraude"
+deps = ["emeraude", "or_outils"]
+taches = ["item advancednetherite:netherite_emerald_sword", "item advancednetherite:netherite_emerald_pickaxe", "item advancednetherite:netherite_emerald_axe", "item advancednetherite:netherite_emerald_shovel", "item advancednetherite:netherite_emerald_hoe"]
+recompenses = ["xp 15"]
+description = """
+Épée, pioche, hache, pelle et houe de nétherite-émeraude, forgées sur ceux du palier d'avant.
 """
 
 [[quete]]
@@ -81,18 +134,31 @@ taille = 1.3
 taches = ["item advancednetherite:netherite_diamond_ingot"]
 recompenses = ["xp 15"]
 description = """
-Le dernier palier : phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur).
+Le dernier palier : un lingot de nétherite-émeraude et quatre diamants. Phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur).
 """
 
 [[quete]]
 cle = "diamant_armure"
 titre = "&8Couvert de nétherite-diamant"
-deps = ["diamant"]
-optionnel = true
+deps = ["diamant", "emeraude_armure"]
+taille = 1.5
+forme = "gear"
 taches = ["advancement advancednetherite:nether/netherite_diamond_armor"]
 recompenses = ["xp 25"]
 description = """
-L'armure complète (progrès du mod).
+L'armure complète de nétherite-diamant (progrès du mod), forgée pièce par pièce sur l'armure de nétherite-émeraude. Le sommet du chapitre : les trois neutralités à la fois.
+
+Chaque pièce, une par une, est à l'&lArmurerie&r de l'Encyclopédie.
+"""
+
+[[quete]]
+cle = "diamant_outils"
+titre = "Outils de nétherite-diamant"
+deps = ["diamant", "emeraude_outils"]
+taches = ["item advancednetherite:netherite_diamond_sword", "item advancednetherite:netherite_diamond_pickaxe", "item advancednetherite:netherite_diamond_axe", "item advancednetherite:netherite_diamond_shovel", "item advancednetherite:netherite_diamond_hoe"]
+recompenses = ["xp 20"]
+description = """
+Épée, pioche, hache, pelle et houe de nétherite-diamant, forgées sur ceux du palier d'avant. Chaque outil, un par un, est à l'&lArsenal&r de l'Encyclopédie.
 """
 
 [[quete]]
@@ -108,9 +174,20 @@ Neuf lingots de nétherite-diamant (progrès « A very expensive block »).
 
 # ---- Shield Expansion
 [[quete]]
+cle = "bouclier_bois"
+titre = "Un bouclier de bois"
+deps = ["intro"]
+optionnel = true
+taches = ["item shieldexp:wooden_shield"]
+recompenses = ["xp 3"]
+description = """
+Le premier bouclier de &7Shield Expansion&r : huit planches et un bâton. Puis fer, diamant et nétherite ; l'or est à part (huit lingots). Tous sont à la collection &lBoucliers&r de l'Encyclopédie.
+"""
+
+[[quete]]
 cle = "bouclier"
 titre = "Un bouclier de fer"
-deps = ["intro"]
+deps = ["bouclier_bois"]
 optionnel = true
 taches = ["item shieldexp:iron_shield"]
 recompenses = ["xp 5"]
@@ -146,7 +223,7 @@ description = """
 &eCharm of Undying&r : le totem d'immortalité se porte dans l'emplacement &lcharme&r des Curios, et agit depuis là. Le Totem du vide (Void Totem) sauve d'une chute dans le vide, en main ou en charme (infobulle).
 """
 
-# ---- Just Hammers
+# ---- Just Hammers (tailles : HammerItems$SizeOption du jar 2.0.3)
 [[quete]]
 cle = "marteau"
 titre = "Un marteau de fer"
@@ -155,16 +232,68 @@ optionnel = true
 taches = ["item justhammers:iron_hammer"]
 recompenses = ["xp 5"]
 description = """
-&7Just Hammers&r : un marteau creuse une zone. Pierre, fer, or, diamant, nétherite ; et des variantes par cœur — &lrenforcé&r, &ld'impact&r, &ldestructeur&r.
+&7Just Hammers&r : un marteau creuse une zone de &b3×3&r. Pierre, fer, or, diamant, nétherite ; puis chaque cœur agrandit la zone. Les cœurs se fabriquent l'un dans l'autre, et le premier consomme un marteau de nétherite.
+"""
+
+[[quete]]
+cle = "marteau_nether"
+titre = "Un marteau de nétherite"
+deps = ["marteau"]
+optionnel = true
+taches = ["item justhammers:netherite_hammer"]
+recompenses = ["xp 5"]
+description = """
+Trois lingots de nétherite. Il sert de matériau au &lcœur d'impact&r : redstone, un bloc de fer, un bloc d'or et ce marteau.
+"""
+
+[[quete]]
+cle = "marteau_impact"
+titre = "Un marteau d'impact"
+deps = ["marteau_nether"]
+optionnel = true
+exigence = "une"
+taches = ["item justhammers:stone_impact_hammer", "item justhammers:iron_impact_hammer", "item justhammers:gold_impact_hammer", "item justhammers:diamond_impact_hammer", "item justhammers:netherite_impact_hammer"]
+recompenses = ["xp 8"]
+description = """
+Le cœur d'impact entre deux blocs du matériau : la zone passe à &b3×3×3&r.
+"""
+
+[[quete]]
+cle = "marteau_renforce"
+titre = "Un marteau renforcé"
+deps = ["marteau_impact"]
+optionnel = true
+exigence = "une"
+taches = ["item justhammers:stone_reinforced_hammer", "item justhammers:iron_reinforced_hammer", "item justhammers:gold_reinforced_hammer", "item justhammers:diamond_reinforced_hammer", "item justhammers:netherite_reinforced_hammer"]
+recompenses = ["xp 10"]
+description = """
+Le &lcœur renforcé&r se fait autour du cœur d'impact, avec des blocs de redstone et d'or : la zone passe à &b5×5&r.
+"""
+
+[[quete]]
+cle = "marteau_renforce_impact"
+titre = "Un marteau renforcé d'impact"
+deps = ["marteau_renforce"]
+optionnel = true
+exigence = "une"
+taches = ["item justhammers:stone_reinforced_impact_hammer", "item justhammers:iron_reinforced_impact_hammer", "item justhammers:gold_reinforced_impact_hammer", "item justhammers:diamond_reinforced_impact_hammer", "item justhammers:netherite_reinforced_impact_hammer"]
+recompenses = ["xp 12"]
+description = """
+Le &lcœur renforcé d'impact&r se fait autour du cœur renforcé, avec redstone, diamant et or : &b5×5×3&r.
 """
 
 [[quete]]
 cle = "marteau_netherite"
 titre = "Un marteau destructeur de nétherite"
-deps = ["marteau"]
+deps = ["marteau_renforce_impact"]
 optionnel = true
+taille = 1.3
+forme = "hexagon"
 taches = ["item justhammers:netherite_destructor_hammer"]
 recompenses = ["xp 15"]
+description = """
+Le &lcœur destructeur&r (autour du cœur renforcé d'impact, avec blocs de redstone et de diamant) entre deux blocs de nétherite : &b5×5×5&r, le plus grand marteau du pack.
+"""
 
 # ---- Vein Mining
 [[quete]]
@@ -192,7 +321,7 @@ description = """
 [[quete]]
 cle = "fin"
 titre = "&8Équipé pour la fin"
-deps = ["diamant"]
+deps = ["diamant_armure", "diamant_outils"]
 taille = 1.3
 icone = "advancednetherite:netherite_diamond_block"
 taches = ["checkmark Paré"]
