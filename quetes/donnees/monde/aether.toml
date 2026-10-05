@@ -10,7 +10,9 @@
 # swets affaiblis mais fabricables, aérnuages dorés qui projettent vers le
 # bas, Fléau et biomes dorés activés). Redux, 5 octobre : progrès, recettes
 # et loot_modifiers du jar (cape 0,75, emblème 0,35, arbalète 0,85 dans les
-# coffres de récompense ; médaille 0,65 sur la Reine ; circuit 0,25). Umbral Skies : absent du pack.
+# coffres de récompense ; médaille 0,65 sur la Reine ; circuit 0,25). Umbral Skies 1.3
+# est installé (jar du serveur) : trophées des boss de l'Aether dans les coffres de
+# récompense des donjons, gants faits des matériaux de la Twilight Forest.
 
 [chapitre]
 titre = "&bL'Aether"
@@ -511,6 +513,54 @@ taches = ["item ascended_quark:valkyrie_pickarang", "item ascended_quark:phoenix
 recompenses = ["xp 10"]
 description = """
 Un coffre de donjon de bronze ou d'argent cache, très rarement, un « Valkyrie Pickarang ». Le donjon d'argent peut aussi donner le « Phoenix Flamerang ». Comme le pickarang de Quark, il se lance et revient en minant ce qu'il touche.
+"""
+
+# ---- Umbral Skies 1.3 : loot_modifiers add_*_trophy (coffres de récompense
+# des donjons de bronze, d'argent et d'or), add_phantom_gloves (coffre du boss
+# de la forteresse des chevaliers, Twilight Forest), recettes des gants.
+[[quete]]
+cle = "trophee_slider"
+titre = "Le trophée du Slider"
+deps = ["slider"]
+optionnel = true
+taches = ["item umbral_skies:slider_trophy"]
+recompenses = ["xp 5"]
+description = """
+&bUmbral Skies&r ajoute aux boss de l'Aether des trophées comme ceux de la Twilight Forest. Celui du Slider est dans le coffre de récompense du donjon de bronze.
+"""
+
+[[quete]]
+cle = "trophee_reine"
+titre = "Le trophée de la Reine des Valkyries"
+deps = ["reine"]
+optionnel = true
+taches = ["item umbral_skies:valkyrie_queen_trophy"]
+recompenses = ["xp 5"]
+description = """
+Dans le coffre de récompense du donjon d'argent.
+"""
+
+[[quete]]
+cle = "trophee_esprit"
+titre = "Le trophée de l'Esprit du Soleil"
+deps = ["esprit"]
+optionnel = true
+taches = ["item umbral_skies:sun_spirit_trophy"]
+recompenses = ["xp 5"]
+description = """
+Dans le coffre de récompense du donjon d'or.
+"""
+
+[[quete]]
+cle = "gants_crepuscule"
+titre = "Les gants du Crépuscule"
+deps = ["entrer"]
+deps_externes = ["monde_twilight_progression/portail"]
+optionnel = true
+taches = ["item umbral_skies:ironwood_gloves", "item umbral_skies:steeleaf_gloves", "item umbral_skies:naga_gloves", "item umbral_skies:knightmetal_gloves", "item umbral_skies:arctic_gloves", "item umbral_skies:yeti_gloves", "item umbral_skies:fiery_gloves", "item umbral_skies:phantom_gloves"]
+recompenses = ["xp 15"]
+description = """
+Des gants d'Aether faits de la Twilight Forest : deux lingots de bois de fer, de feuille d'acier ou de métal de chevalier, deux écailles de naga, deux fourrures arctiques, deux fourrures de yéti alpha. Les gants ardents : des gants de fer de l'Aether et deux fioles ardentes. Les gantelets fantômes sont dans le coffre du boss de la forteresse des chevaliers.
 """
 
 # ---- Lost Aether Content, villages, forge
