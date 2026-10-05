@@ -1159,6 +1159,52 @@
 			y: 2.25d
 		}
 		{
+			description: ["Créature de &bJaden's Nether Expansion&r. Apparaît : d'un tourbillon d'âmes traversé sous Vitesse débridée, ou quand une apparition possède une statue « Phase »."]
+			icon: "netherexp:ecto_slab_spawn_egg"
+			id: "606C2C9A4E9D4DF4"
+			optional: true
+			rewards: [{
+				id: "170B43EEB48479C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "« Ecto Slab » — netherexp"
+			tasks: [{
+				id: "1B0A9C6A1DF7F740"
+				observe_type: 5
+				timer: 0L
+				to_observe: "netherexp:ecto_slab"
+				type: "observation"
+			}]
+			title: "Rencontre : « Ecto Slab »"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Créature de &bJaden's Nether Expansion&r. Apparaît : quand une apparition possède une statue de gargouille « Trample »."]
+			icon: "netherexp:stampede_spawn_egg"
+			id: "1A869C40B84BB484"
+			optional: true
+			rewards: [{
+				id: "11EFB9E9D55203B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "« Stampede » — netherexp"
+			tasks: [{
+				id: "2A5622F5280CD1B3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "netherexp:stampede"
+				type: "observation"
+			}]
+			title: "Rencontre : « Stampede »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
 			description: ["Créature de &bJaden's Nether Expansion&r. Monde : Nether. Biomes : « Black Ice Glaciers », Vallée des âmes. Butin : Os."]
 			icon: "netherexp:vessel_spawn_egg"
 			id: "58A9107DD7571A3D"
@@ -1178,7 +1224,30 @@
 				type: "observation"
 			}]
 			title: "Rencontre : « Vessel »"
-			x: 1.5d
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Créature de &bJaden's Nether Expansion&r. Apparaît : du sable des âmes ectoplasmique de la vallée des âmes."]
+			icon: "netherexp:wisp_spawn_egg"
+			id: "7EC25AD82A75A39D"
+			optional: true
+			rewards: [{
+				id: "5FCBCB32E5FA25E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "« Wisp » — netherexp"
+			tasks: [{
+				id: "2CE52060A7337876"
+				observe_type: 5
+				timer: 0L
+				to_observe: "netherexp:wisp"
+				type: "observation"
+			}]
+			title: "Rencontre : « Wisp »"
+			x: 6.0d
 			y: 2.25d
 		}
 		{
@@ -1201,7 +1270,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Renard de feu"
-			x: 3.0d
+			x: 7.5d
 			y: 2.25d
 		}
 		{
@@ -1224,7 +1293,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Spectre"
-			x: 4.5d
+			x: 9.0d
 			y: 2.25d
 		}
 		{
@@ -1247,7 +1316,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : « Bone Wyrm »"
-			x: 6.0d
+			x: 10.5d
 			y: 2.25d
 		}
 		{
@@ -1301,7 +1370,10 @@
 				"3ACE4361B671688B"
 				"39ED425C60BE1CE4"
 				"2660B7C1EB0C6094"
+				"606C2C9A4E9D4DF4"
+				"1A869C40B84BB484"
 				"58A9107DD7571A3D"
+				"7EC25AD82A75A39D"
 				"67BC52711528E375"
 				"3A35457AC832506F"
 				"6984341941FA7233"

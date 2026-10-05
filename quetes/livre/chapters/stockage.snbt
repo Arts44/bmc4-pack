@@ -379,6 +379,27 @@
 			y: 0.75d
 		}
 		{
+			dependencies: ["0DC26A01D5547512"]
+			description: ["Quatre fragments de netherite, quatre briques du Nether et un coffre. Sur ce serveur, le &ccoffre du Nether&r empile chaque objet huit fois plus haut qu'un coffre ordinaire (sauf les objets déjà abîmés). Il ne s'ouvre pas si un bloc est posé juste au-dessus. Il n'explose pas dans le Nether."]
+			icon: "netherchested:nether_chest"
+			id: "24054EEDB707CB89"
+			optional: true
+			rewards: [{
+				id: "41B4E029B6973BAC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69A1A88F3A7C6C18"
+				item: "netherchested:nether_chest"
+				type: "item"
+			}]
+			title: "Un coffre du Nether"
+			x: 2.0d
+			y: 5.75d
+		}
+		{
 			dependencies: [
 				"759E41067194CD2B"
 				"6B3F6338CDD4015E"

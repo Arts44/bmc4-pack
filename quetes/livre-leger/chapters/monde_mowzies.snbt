@@ -230,6 +230,45 @@
 			y: 7.25d
 		}
 		{
+			dependencies: ["220425544206A882"]
+			dependency_requirement: "one_completed"
+			description: ["Un œil de l'Ender au centre d'une recette, et le lancer file vers un repaire de Mowzie's, comme les yeux de Cataclysm. L'« Eye of Wrought » mène à la chambre du Wroughtnaut, l'« Eye of Frost » au Frostmaw, l'« Eye of the Sunbird » au bosquet d'Umvuthana, l'« Eye of the Sculptor » au monastère."]
+			icon: "mowzies_cataclysm:wrought_eye"
+			id: "7759CFEF3EA66517"
+			optional: true
+			rewards: [{
+				id: "24A91E8D1EC41B9B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "04DD79B0337AF243"
+					item: "mowzies_cataclysm:wrought_eye"
+					type: "item"
+				}
+				{
+					id: "754D8F19B6C77917"
+					item: "mowzies_cataclysm:frostmaw_eye"
+					type: "item"
+				}
+				{
+					id: "4487E1DA576F307A"
+					item: "mowzies_cataclysm:sun_eye"
+					type: "item"
+				}
+				{
+					id: "4A239DED4811BB02"
+					item: "mowzies_cataclysm:tongbi_eye"
+					type: "item"
+				}
+			]
+			title: "Les yeux de Cataclysm"
+			x: 2.0d
+			y: 8.75d
+		}
+		{
 			dependencies: [
 				"3715DEAEFE686843"
 				"6753EF5A06F8ACC5"

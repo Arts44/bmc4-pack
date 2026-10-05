@@ -562,7 +562,7 @@
 			y: 10.25d
 		}
 		{
-			dependencies: ["670D9095992A6113"]
+			dependencies: ["625B448D025F9F14"]
 			description: ["Le &averidium&r d'Aether Redux fait des outils qu'on &linfuse&r d'un clic droit avec un éclat d'ambrosium (progrès du mod)."]
 			id: "05D1A7DF6EFC682F"
 			optional: true
@@ -579,12 +579,12 @@
 				type: "advancement"
 			}]
 			title: "Du veridium infusé"
-			x: 6.0d
-			y: 5.75d
+			x: 10.0d
+			y: 4.25d
 		}
 		{
 			dependencies: ["681600F1993ADCBA"]
-			description: ["La &bCape aérienne&r du donjon de bronze donne le double saut (progrès du mod)."]
+			description: ["La &bCape aérienne&r (« Aerbound Cape ») est dans le coffre du donjon de bronze trois fois sur quatre. Portée, elle donne le double saut (progrès du mod)."]
 			id: "4772657F7895C8B7"
 			optional: true
 			rewards: [{
@@ -604,6 +604,382 @@
 			y: 4.25d
 		}
 		{
+			dependencies: ["670D9095992A6113"]
+			description: ["Le minerai de &averidium&r d'Aether Redux donne du veridium brut, que Fortune multiplie. Au four ou au haut fourneau, il devient un lingot."]
+			icon: "aether_redux:veridium_ingot"
+			id: "288D2FB0ECE426B3"
+			optional: true
+			rewards: [{
+				id: "401BB5A6AE0DC8EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "3DD50B47D81A8FC4"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			title: "Du veridium"
+			x: 6.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["288D2FB0ECE426B3"]
+			dependency_requirement: "one_completed"
+			description: ["Pioche, épée, hache, pelle, houe et sarbacane à fléchettes en veridium. Un éclat d'ambrosium les infuse ensuite (quête suivante)."]
+			icon: "aether_redux:veridium_pickaxe"
+			id: "625B448D025F9F14"
+			optional: true
+			rewards: [{
+				id: "714BBAAB4F64190C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "05B7E299015CF0FF"
+					item: "aether_redux:veridium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "53E2F6BAA633E0C3"
+					item: "aether_redux:veridium_sword"
+					type: "item"
+				}
+				{
+					id: "72814094AFFE4B51"
+					item: "aether_redux:veridium_axe"
+					type: "item"
+				}
+				{
+					id: "28132997225CC8F6"
+					item: "aether_redux:veridium_dart_shooter"
+					type: "item"
+				}
+			]
+			title: "Des outils en veridium"
+			x: 8.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["05D1A7DF6EFC682F"]
+			description: ["Une plume de cockatrice, des spores de saule du Fléau, un éclat d'ambrosium et quatre blocs de veridium : la « Feather of Warding », l'accessoire qui protège de presque tout ce que le &5Fléau&r inflige (progrès « Blight's Bane »)."]
+			id: "6F91C1D62C860BC9"
+			optional: true
+			rewards: [{
+				id: "48D53CA591CE3AD8"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aether_redux:obtain_feather_of_warding"
+				criterion: ""
+				id: "262F710C2FBCC87C"
+				type: "advancement"
+			}]
+			title: "La Plume de garde"
+			x: 12.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["670D9095992A6113"]
+			description: ["Le croc d'un « Blightbunny », un bâton de skyroot et une gemme de zanite : la « Spear of the Blight »."]
+			icon: "aether_redux:spear_of_the_blight"
+			id: "0D6AD3580193F71D"
+			optional: true
+			rewards: [{
+				id: "4974A4EFBCE5B27F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "655748F16EBF446E"
+				item: "aether_redux:spear_of_the_blight"
+				type: "item"
+			}]
+			title: "La Lance du Fléau"
+			x: 6.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["670D9095992A6113"]
+			dependency_requirement: "one_completed"
+			description: ["Tous partent d'un anneau enchanté. Holystone et zanite font l'« Ring of Wisdom » ; « Shimmerstool », « Cloudcap Mushling » et « Lightroot Clump », l'« Adrenaline Ring » ; la sentrite raffinée et un circuit de sentinelle, que les sentinelles lâchent une fois sur quatre, le « Sentry Ring »."]
+			icon: "aether_redux:ring_of_wisdom"
+			id: "5B792F8835893C13"
+			optional: true
+			rewards: [{
+				id: "60E8F11B93E3738B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1DCA14A04F9E2DA5"
+					item: "aether_redux:ring_of_wisdom"
+					type: "item"
+				}
+				{
+					id: "709044C28673F979"
+					item: "aether_redux:shroom_ring"
+					type: "item"
+				}
+				{
+					id: "533E080EFC0D830B"
+					item: "aether_redux:sentry_ring"
+					type: "item"
+				}
+			]
+			title: "Les anneaux de Redux"
+			x: 6.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["2983ACD62DE616FC"]
+			description: ["La Reine des Valkyries lâche, deux fois sur trois, la « Grand Victory Medal » : une régénération qui grandit à mesure que la vie baisse (progrès « Valkyrie Champion »). Avec elle, on peut rejouer le combat contre la Reine sans devoir réunir de nouveau les médailles."]
+			id: "74C6C32FC02989F5"
+			optional: true
+			rewards: [{
+				id: "405D8EBFEA1177BC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aether_redux:obtain_grand_medal"
+				criterion: ""
+				id: "44405A0E7178B9DB"
+				type: "advancement"
+			}]
+			title: "&eLa Grande médaille de la victoire"
+			x: 12.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["315F402411B0E10E"]
+			description: ["Le coffre du donjon d'or garde, presque toujours, la « Subzero Crossbow », et une fois sur trois l'emblème solaire (« Solar Emblem »), qui lance des boules de feu sur une touche. Avec l'emblème, tuer un Sheepuff d'une boule de feu vaut le progrès « Pyromaniac »."]
+			icon: "aether_redux:subzero_crossbow"
+			id: "4E5A90CBF3A6A520"
+			optional: true
+			rewards: [{
+				id: "4A3003323F8318AA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77D10881BD0A33D1"
+				item: "aether_redux:subzero_crossbow"
+				type: "item"
+			}]
+			title: "&bL'arbalète Subzero"
+			x: 16.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["406A5A915661BC0F"]
+			description: ["Un anneau d'or jeté dans la lave du Nether : le progrès « Cast It into the Fire ! Destroy It ! »."]
+			id: "5CAC13E11A818272"
+			optional: true
+			rewards: [{
+				id: "6E86CA4CC2B30413"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aether_redux:throw_ring_in_lava"
+				criterion: ""
+				id: "1FF3E80D06DD7D20"
+				type: "advancement"
+			}]
+			title: "Jette-le dans le feu !"
+			x: 4.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["47F5A95BCF84280A"]
+			description: ["&bAether: Protect Your Moa&r habille enfin les moas. Six cuirs : l'armure de moa en cuir. Le palier suivant passe au fer."]
+			icon: "aether_protect_your_moa:leather_moa_armor"
+			id: "0DDB627A46F7FD93"
+			optional: true
+			rewards: [{
+				id: "6E64B0C239EA530A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "019C7D1191AFD8AD"
+				item: "aether_protect_your_moa:leather_moa_armor"
+				type: "item"
+			}]
+			title: "Une armure de moa en cuir"
+			x: 8.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0DDB627A46F7FD93"]
+			description: ["Cinq lingots de fer et un cuir : l'armure de moa en fer. Le palier suivant passe au or."]
+			icon: "aether_protect_your_moa:iron_moa_armor"
+			id: "702A571B0714E00E"
+			optional: true
+			rewards: [{
+				id: "04E92E02EFFE1C9B"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4DCCBAA1FCD980AB"
+				item: "aether_protect_your_moa:iron_moa_armor"
+				type: "item"
+			}]
+			title: "Une armure de moa en fer"
+			x: 10.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["702A571B0714E00E"]
+			description: ["Cinq lingots d'or et un cuir : l'armure de moa en or. Le palier suivant passe au zanite."]
+			icon: "aether_protect_your_moa:golden_moa_armor"
+			id: "7ED4CC516CB2D7FE"
+			optional: true
+			rewards: [{
+				id: "290B28BA2977DB72"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78487537C808BC8C"
+				item: "aether_protect_your_moa:golden_moa_armor"
+				type: "item"
+			}]
+			title: "Une armure de moa en or"
+			x: 12.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["7ED4CC516CB2D7FE"]
+			description: ["Cinq gemmes de zanite et un cuir : l'armure de moa en zanite. Le palier suivant passe au diamant."]
+			icon: "aether_protect_your_moa:zanite_moa_armor"
+			id: "30A8D8361FD85EB1"
+			optional: true
+			rewards: [{
+				id: "40B5EC4D69F0E7A4"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6490DC5C88003EFB"
+				item: "aether_protect_your_moa:zanite_moa_armor"
+				type: "item"
+			}]
+			title: "Une armure de moa en zanite"
+			x: 14.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["30A8D8361FD85EB1"]
+			description: ["Cinq diamants et un cuir : l'armure de moa en diamant. Le palier suivant passe au gravitite."]
+			icon: "aether_protect_your_moa:diamond_moa_armor"
+			id: "6EC9F3DCE0FF6262"
+			optional: true
+			rewards: [{
+				id: "25678560835104F7"
+				type: "xp_levels"
+				xp_levels: 13
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CB651CE3FBD40F4"
+				item: "aether_protect_your_moa:diamond_moa_armor"
+				type: "item"
+			}]
+			title: "Une armure de moa en diamant"
+			x: 16.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["6EC9F3DCE0FF6262"]
+			description: ["Cinq gravitites enchantées et un cuir : l'armure de moa en gravitite. C'est la plus haute des six."]
+			icon: "aether_protect_your_moa:gravitite_moa_armor"
+			id: "1A5052427DB318F6"
+			optional: true
+			rewards: [{
+				id: "62F8750412DCADA9"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "75ADAFB7E87D43E7"
+				item: "aether_protect_your_moa:gravitite_moa_armor"
+				type: "item"
+			}]
+			title: "&bUne armure de moa en gravitite"
+			x: 18.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["56653C558BB84C3F"]
+			description: ["&bAscended Quark&r porte les ajouts de Quark dans l'Aether. Son four en holystone brûle aussi l'ambrosium comme combustible."]
+			icon: "ascended_quark:holystone_furnace"
+			id: "0521EF0E633448B4"
+			optional: true
+			rewards: [{
+				id: "55D4E51BE5784F46"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "046B8C124CA7294C"
+				item: "ascended_quark:holystone_furnace"
+				type: "item"
+			}]
+			title: "Un four en holystone"
+			x: 8.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["35B31DB2947D64E7"]
+			dependency_requirement: "one_completed"
+			description: ["Un coffre de donjon de bronze ou d'argent cache, très rarement, un « Valkyrie Pickarang ». Le donjon d'argent peut aussi donner le « Phoenix Flamerang ». Comme le pickarang de Quark, il se lance et revient en minant ce qu'il touche."]
+			icon: "ascended_quark:valkyrie_pickarang"
+			id: "28F932406F8AB35F"
+			optional: true
+			rewards: [{
+				id: "121317C8E2D5436E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "496C6FEB80907E3A"
+					item: "ascended_quark:valkyrie_pickarang"
+					type: "item"
+				}
+				{
+					id: "24CAB705D10273E4"
+					item: "ascended_quark:phoenix_flamerang"
+					type: "item"
+				}
+			]
+			title: "Un pickarang des Valkyries"
+			x: 6.0d
+			y: 10.25d
+		}
+		{
 			dependencies: ["315F402411B0E10E"]
 			description: ["&bLost Aether Content&r ajoute un donjon de pierre de Gale et son boss, le &bRoi des aérobaleines&r. Sans faute : une selle d'aérobaleine (Deep Aether)."]
 			id: "680B74BE25E2ED7E"
@@ -621,7 +997,7 @@
 			}]
 			title: "Le donjon de platine"
 			x: 16.0d
-			y: 5.75d
+			y: 8.75d
 		}
 		{
 			dependencies: ["680B74BE25E2ED7E"]
@@ -643,7 +1019,7 @@
 			}]
 			title: "&bVaincre le Roi des aérobaleines"
 			x: 18.0d
-			y: 5.75d
+			y: 7.25d
 		}
 		{
 			dependencies: ["406A5A915661BC0F"]
@@ -663,7 +1039,7 @@
 			}]
 			title: "La citadelle olympique"
 			x: 4.0d
-			y: 11.75d
+			y: 13.25d
 		}
 		{
 			dependencies: ["315F402411B0E10E"]
@@ -684,7 +1060,7 @@
 			}]
 			title: "Un lingot pyral"
 			x: 16.0d
-			y: 7.25d
+			y: 10.25d
 		}
 		{
 			dependencies: [

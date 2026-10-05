@@ -49,7 +49,7 @@
 			}]
 			title: "Goûter : « Cooked Crab »"
 			x: 0.0d
-			y: -6.75d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bCrabber's Delight&r."]
@@ -69,7 +69,7 @@
 			}]
 			title: "Goûter : « Cooked Pufferfish Slice »"
 			x: 1.5d
-			y: -6.75d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bCrabber's Delight&r."]
@@ -89,7 +89,7 @@
 			}]
 			title: "Goûter : « Cooked Tropical Fish »"
 			x: 3.0d
-			y: -6.75d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bCrabber's Delight&r."]
@@ -109,7 +109,7 @@
 			}]
 			title: "Goûter : « Cooked Tropical Fish Slice »"
 			x: 4.5d
-			y: -6.75d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bCrabber's Delight&r."]
@@ -129,7 +129,7 @@
 			}]
 			title: "Goûter : « Crab »"
 			x: 6.0d
-			y: -6.75d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bCrabber's Delight&r."]
@@ -149,7 +149,7 @@
 			}]
 			title: "Goûter : « Crab Leg »"
 			x: 7.5d
-			y: -6.75d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bCrabber's Delight&r."]
@@ -169,7 +169,7 @@
 			}]
 			title: "Goûter : « Raw Pufferfish Slice »"
 			x: 9.0d
-			y: -6.75d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bCrabber's Delight&r."]
@@ -189,27 +189,7 @@
 			}]
 			title: "Goûter : « Raw Tropical Fish Slice »"
 			x: 10.5d
-			y: -6.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:aged_roe"
-			id: "2AA4605A50B012C7"
-			optional: true
-			rewards: [{
-				id: "5F574C272AC31D67"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "145DAFC5C801B588"
-				item: "delightful:aged_roe"
-				type: "item"
-			}]
-			title: "Goûter : « Aged Roe »"
-			x: 12.0d
-			y: -6.75d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -228,8 +208,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Azalea Tea »"
-			x: 13.5d
-			y: -6.75d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -248,8 +228,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Slice of Baklava »"
-			x: 15.0d
-			y: -6.75d
+			x: 13.5d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -268,28 +248,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Iced Berry Matcha Latte »"
-			x: 16.5d
-			y: -6.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:blueberry_pie_slice"
-			id: "12700176C895BACE"
-			optional: true
-			rewards: [{
-				id: "0E449C2DA60B6994"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6AEF3DDE91909736"
-				item: "delightful:blueberry_pie_slice"
-				type: "item"
-			}]
-			title: "Goûter : « Slice of Blueberry Pie »"
-			x: 18.0d
-			y: -6.75d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -308,8 +268,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cactus Chili »"
-			x: 19.5d
-			y: -6.75d
+			x: 16.5d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -328,8 +288,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cactus Soup »"
-			x: 21.0d
-			y: -6.75d
+			x: 18.0d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -348,8 +308,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cantaloupe Bread »"
-			x: 22.5d
-			y: -6.75d
+			x: 19.5d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -368,28 +328,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cantaloupe Popsicle »"
-			x: 0.0d
-			y: -5.25d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:caviar"
-			id: "4B26F2136C9CD1BD"
-			optional: true
-			rewards: [{
-				id: "1C4800F1A0A33433"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "464BC916C1BEB4E7"
-				item: "delightful:caviar"
-				type: "item"
-			}]
-			title: "Goûter : « Caviar »"
-			x: 1.5d
-			y: -5.25d
+			x: 21.0d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -408,68 +348,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cheeseburger »"
-			x: 3.0d
-			y: -5.25d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:chorus_muffin"
-			id: "7622F25F8892B66F"
-			optional: true
-			rewards: [{
-				id: "7310314E3977DAD4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2C758A95C4C70D03"
-				item: "delightful:chorus_muffin"
-				type: "item"
-			}]
-			title: "Goûter : « Chorus Muffin »"
-			x: 4.5d
-			y: -5.25d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:chorus_pie_slice"
-			id: "73686CB90AABEF40"
-			optional: true
-			rewards: [{
-				id: "448A58F8D81DB243"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5DA511655A707D9B"
-				item: "delightful:chorus_pie_slice"
-				type: "item"
-			}]
-			title: "Goûter : « Slice of Chorus Pie »"
-			x: 6.0d
-			y: -5.25d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:chunkwich"
-			id: "31FD1C7CA811F9D9"
-			optional: true
-			rewards: [{
-				id: "572F43E02A1D683F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "483E16D66E731BC9"
-				item: "delightful:chunkwich"
-				type: "item"
-			}]
-			title: "Goûter : « Chunkwich »"
-			x: 7.5d
-			y: -5.25d
+			x: 22.5d
+			y: -6.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -488,8 +368,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Coconut Curry »"
-			x: 9.0d
-			y: -5.25d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -508,8 +388,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cooked Chevon »"
-			x: 10.5d
-			y: -5.25d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -528,8 +408,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Roasted Marshmallow on a Stick »"
-			x: 12.0d
-			y: -5.25d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -548,8 +428,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cooked Venison Chops »"
-			x: 13.5d
-			y: -5.25d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -568,8 +448,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Crab Rangoon »"
-			x: 15.0d
-			y: -5.25d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -588,8 +468,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Deluxe Cheeseburger »"
-			x: 16.5d
-			y: -5.25d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -608,8 +488,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Ender Nectar »"
-			x: 18.0d
-			y: -5.25d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -628,28 +508,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Field Salad »"
-			x: 19.5d
-			y: -5.25d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:gloomgourd_pie_slice"
-			id: "70191F5558A08AD4"
-			optional: true
-			rewards: [{
-				id: "30B18AAEEA8B53AC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "33F17D6E1FEC82F9"
-				item: "delightful:gloomgourd_pie_slice"
-				type: "item"
-			}]
-			title: "Goûter : « Slice of Gloomgourd Pie »"
-			x: 21.0d
-			y: -5.25d
+			x: 10.5d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -668,28 +528,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Glow Jam Cookie »"
-			x: 22.5d
-			y: -5.25d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:green_apple_pie_slice"
-			id: "2029A8F134EE72A6"
-			optional: true
-			rewards: [{
-				id: "1E87664690DD06BC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0DC749BE9989D7BE"
-				item: "delightful:green_apple_pie_slice"
-				type: "item"
-			}]
-			title: "Goûter : « Slice of Green Apple Pie »"
-			x: 0.0d
-			y: -3.75d
+			x: 12.0d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -708,8 +548,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Honey Glazed Walnut »"
-			x: 1.5d
-			y: -3.75d
+			x: 13.5d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -728,28 +568,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Lavender Tea »"
-			x: 3.0d
-			y: -3.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:long_prickly_pear_juice"
-			id: "3729E2FAD0450E96"
-			optional: true
-			rewards: [{
-				id: "03FBC73DACB6F102"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "04F2C6E9ACE3413D"
-				item: "delightful:long_prickly_pear_juice"
-				type: "item"
-			}]
-			title: "Goûter : « Prickly Pear Juice »"
-			x: 4.5d
-			y: -3.75d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -768,8 +588,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Marshmallow on a Stick »"
-			x: 6.0d
-			y: -3.75d
+			x: 16.5d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -788,48 +608,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Matcha Latte »"
-			x: 7.5d
-			y: -3.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:mulberry_pie_slice"
-			id: "22DC6485DF84BB4F"
-			optional: true
-			rewards: [{
-				id: "625CC108F257CC1B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5E2B0916497BB9A1"
-				item: "delightful:mulberry_pie_slice"
-				type: "item"
-			}]
-			title: "Goûter : « Slice of Mulberry Pie »"
-			x: 9.0d
-			y: -3.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:mutton_pie_slice"
-			id: "52D38CBA01B3A679"
-			optional: true
-			rewards: [{
-				id: "77FE7C0200DFC095"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "44DBCF6A6CC7CEAB"
-				item: "delightful:mutton_pie_slice"
-				type: "item"
-			}]
-			title: "Goûter : « Slice of Mutton Pie »"
-			x: 10.5d
-			y: -3.75d
+			x: 18.0d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -848,28 +628,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Nut Butter and Jam Sandwich »"
-			x: 12.0d
-			y: -3.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:passion_fruit_tart_slice"
-			id: "47EF31DF1CB04B68"
-			optional: true
-			rewards: [{
-				id: "1E7D2859CD3937DB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5A48997484694669"
-				item: "delightful:passion_fruit_tart_slice"
-				type: "item"
-			}]
-			title: "Goûter : « Slice of Passion Fruit Tart »"
-			x: 13.5d
-			y: -3.75d
+			x: 19.5d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -888,8 +648,28 @@
 				type: "item"
 			}]
 			title: "Goûter : « Prickly Pear Juice »"
-			x: 15.0d
-			y: -3.75d
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:raw_goat"
+			id: "7EF04FEF57F61762"
+			optional: true
+			rewards: [{
+				id: "32030DA5C1815CA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D4E95438222E8B1"
+				item: "delightful:raw_goat"
+				type: "item"
+			}]
+			title: "Goûter : « Raw Chevon »"
+			x: 22.5d
+			y: -4.5d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -908,8 +688,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Roasted Acorn »"
-			x: 16.5d
-			y: -3.75d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -928,68 +708,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Rose Rock Candy »"
-			x: 18.0d
-			y: -3.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:roe_blini"
-			id: "086B7A94F12A1934"
-			optional: true
-			rewards: [{
-				id: "2F06798E4F57BECB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "46CA18EA412FAEA2"
-				item: "delightful:roe_blini"
-				type: "item"
-			}]
-			title: "Goûter : « Roe Blini »"
-			x: 19.5d
-			y: -3.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:roe_roll"
-			id: "2EC189A5D12C633C"
-			optional: true
-			rewards: [{
-				id: "1BB40CE1AFAE7D69"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4C7D184BED3517AA"
-				item: "delightful:roe_roll"
-				type: "item"
-			}]
-			title: "Goûter : « Roe Roll »"
-			x: 21.0d
-			y: -3.75d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:salmon_and_roe_blini"
-			id: "115389183D80FB35"
-			optional: true
-			rewards: [{
-				id: "4987A8F0B7C3AECA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "62FCF86801045B9E"
-				item: "delightful:salmon_and_roe_blini"
-				type: "item"
-			}]
-			title: "Goûter : « Salmon and Roe Blini »"
-			x: 22.5d
-			y: -3.75d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -1008,8 +728,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Slice of Salmonberry Pie »"
-			x: 0.0d
-			y: -2.25d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -1028,8 +748,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Sinigang »"
-			x: 1.5d
-			y: -2.25d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -1048,8 +768,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « S'more »"
-			x: 3.0d
-			y: -2.25d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -1068,8 +788,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Source Berry Cookie »"
-			x: 4.5d
-			y: -2.25d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -1088,28 +808,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Stuffed Cantaloupe »"
-			x: 6.0d
-			y: -2.25d
-		}
-		{
-			description: ["Un plat de &bDelightful&r."]
-			icon: "delightful:venison_chops"
-			id: "05D0F7747A23D8AD"
-			optional: true
-			rewards: [{
-				id: "581DF18110BD32E8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "795CAF568BDBC063"
-				item: "delightful:venison_chops"
-				type: "item"
-			}]
-			title: "Goûter : « Raw Venison Chops »"
-			x: 7.5d
-			y: -2.25d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -1128,8 +828,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Venison Stew »"
-			x: 9.0d
-			y: -2.25d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bDelightful&r."]
@@ -1148,8 +848,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Wrapped Cantaloupe »"
-			x: 10.5d
-			y: -2.25d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1168,8 +868,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Cidre de pommes"
-			x: 12.0d
-			y: -2.25d
+			x: 13.5d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1188,8 +888,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Tarte aux pommes"
-			x: 13.5d
-			y: -2.25d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1208,8 +908,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Part de tarte aux pommes"
-			x: 15.0d
-			y: -2.25d
+			x: 16.5d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1228,8 +928,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Bacon cru"
-			x: 16.5d
-			y: -2.25d
+			x: 18.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1248,8 +948,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Bacon et œufs"
-			x: 18.0d
-			y: -2.25d
+			x: 19.5d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1268,8 +968,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Sandwich au bacon"
-			x: 19.5d
-			y: -2.25d
+			x: 21.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1288,8 +988,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Ragoût de morue"
-			x: 21.0d
-			y: -2.25d
+			x: 22.5d
+			y: -3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1308,8 +1008,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Brochette"
-			x: 22.5d
-			y: -2.25d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1328,8 +1028,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Steack haché"
-			x: 0.0d
-			y: -0.75d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1348,8 +1048,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Ragoût de boeuf"
-			x: 1.5d
-			y: -0.75d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1368,8 +1068,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Bouillon d'os"
-			x: 3.0d
-			y: -0.75d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1388,8 +1088,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Rouleaux de chou"
-			x: 4.5d
-			y: -0.75d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1408,8 +1108,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Part de gâteau"
-			x: 6.0d
-			y: -0.75d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1428,8 +1128,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Escalopes de poulet crues"
-			x: 7.5d
-			y: -0.75d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1448,8 +1148,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Sandwich au poulet"
-			x: 9.0d
-			y: -0.75d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1468,8 +1168,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Soupe de poulet"
-			x: 10.5d
-			y: -0.75d
+			x: 12.0d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1488,8 +1188,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Tarte au chocolat"
-			x: 12.0d
-			y: -0.75d
+			x: 13.5d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1508,8 +1208,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Part de tarte au chocolat"
-			x: 13.5d
-			y: -0.75d
+			x: 15.0d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1528,8 +1228,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Rouleau de morue"
-			x: 15.0d
-			y: -0.75d
+			x: 16.5d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1548,8 +1248,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Filet de morue cru"
-			x: 16.5d
-			y: -0.75d
+			x: 18.0d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1568,8 +1268,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Bacon cuit"
-			x: 18.0d
-			y: -0.75d
+			x: 19.5d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1588,8 +1288,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Escalopes de poulet cuites"
-			x: 19.5d
-			y: -0.75d
+			x: 21.0d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1608,8 +1308,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Filet de morue cuit"
-			x: 21.0d
-			y: -0.75d
+			x: 22.5d
+			y: -1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1628,8 +1328,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Côtelettes de mouton cuites"
-			x: 22.5d
-			y: -0.75d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1648,8 +1348,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Riz cuit"
-			x: 0.0d
-			y: 0.75d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1668,8 +1368,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Filet de saumon cuit"
-			x: 1.5d
-			y: 0.75d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1688,8 +1388,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Raviolis"
-			x: 3.0d
-			y: 0.75d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1708,8 +1408,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Sandwich aux œufs"
-			x: 4.5d
-			y: 0.75d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1728,8 +1428,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Soupe de poisson"
-			x: 6.0d
-			y: 0.75d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1748,8 +1448,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Riz sauté"
-			x: 7.5d
-			y: 0.75d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1768,8 +1468,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Salade de fruits"
-			x: 9.0d
-			y: 0.75d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1788,8 +1488,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Gleaming Salad »"
-			x: 10.5d
-			y: 0.75d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1808,8 +1508,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Crème aux baies lumineuses"
-			x: 12.0d
-			y: 0.75d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1828,8 +1528,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Saumon grillé"
-			x: 13.5d
-			y: 0.75d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1848,8 +1548,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Hamburger"
-			x: 15.0d
-			y: 0.75d
+			x: 16.5d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1868,8 +1568,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Cookie au miel"
-			x: 16.5d
-			y: 0.75d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1888,8 +1588,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Jambon laqué au miel"
-			x: 18.0d
-			y: 0.75d
+			x: 19.5d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1908,8 +1608,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Chocolat chaud"
-			x: 19.5d
-			y: 0.75d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1928,8 +1628,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Rouleau aux algues"
-			x: 21.0d
-			y: 0.75d
+			x: 22.5d
+			y: 0.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1948,8 +1648,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Tranche de rouleau aux algues"
-			x: 22.5d
-			y: 0.75d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1968,8 +1668,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Jus de melon"
-			x: 0.0d
-			y: 2.25d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -1988,8 +1688,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Glace à la pastèque"
-			x: 1.5d
-			y: 2.25d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2008,8 +1708,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Bouteille de lait"
-			x: 3.0d
-			y: 2.25d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2028,8 +1728,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Bœuf haché"
-			x: 4.5d
-			y: 2.25d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2048,8 +1748,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Salade composée"
-			x: 6.0d
-			y: 2.25d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2068,8 +1768,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Riz aux champignons"
-			x: 7.5d
-			y: 2.25d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2088,8 +1788,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Côtelettes de mouton crues"
-			x: 9.0d
-			y: 2.25d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2108,8 +1808,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Wrap de mouton"
-			x: 10.5d
-			y: 2.25d
+			x: 12.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2128,8 +1828,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Soupe de nouilles"
-			x: 12.0d
-			y: 2.25d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2148,8 +1848,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Onion Soup »"
-			x: 13.5d
-			y: 2.25d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2168,8 +1868,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Spaghettis bolognaise"
-			x: 15.0d
-			y: 2.25d
+			x: 16.5d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2188,8 +1888,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Spaghettis à l'agneau"
-			x: 16.5d
-			y: 2.25d
+			x: 18.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2208,8 +1908,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Slice of Pumpkin Pie »"
-			x: 18.0d
-			y: 2.25d
+			x: 19.5d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2228,8 +1928,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Soupe de citrouille"
-			x: 19.5d
-			y: 2.25d
+			x: 21.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2248,8 +1948,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Ratatouille"
-			x: 21.0d
-			y: 2.25d
+			x: 22.5d
+			y: 1.5d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2268,8 +1968,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Assortiment de rouleaux de riz"
-			x: 22.5d
-			y: 2.25d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2288,8 +1988,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Poulet rôti"
-			x: 0.0d
-			y: 3.75d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2308,8 +2008,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Côtelettes de mouton rôties"
-			x: 1.5d
-			y: 3.75d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2328,8 +2028,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Roulés au saumon"
-			x: 3.0d
-			y: 3.75d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2348,8 +2048,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Filet de saumon cru"
-			x: 4.5d
-			y: 3.75d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2368,8 +2068,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Pâté chinois"
-			x: 6.0d
-			y: 3.75d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2388,8 +2088,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Pâtes à l'encre de seiche"
-			x: 7.5d
-			y: 3.75d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2408,8 +2108,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Steak et pommes de terre"
-			x: 9.0d
-			y: 3.75d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2428,8 +2128,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Pomme de terre farcie"
-			x: 10.5d
-			y: 3.75d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2448,8 +2148,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Citrouille farcie"
-			x: 12.0d
-			y: 3.75d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2468,8 +2168,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Cheesecake aux fruits rouges"
-			x: 13.5d
-			y: 3.75d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2488,8 +2188,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Part de gâteau de baies sucrées"
-			x: 15.0d
-			y: 3.75d
+			x: 16.5d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2508,8 +2208,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Cookie aux baies sucrées"
-			x: 16.5d
-			y: 3.75d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2528,8 +2228,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Nouilles aux légumes"
-			x: 18.0d
-			y: 3.75d
+			x: 19.5d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bFarmer's Delight&r."]
@@ -2548,8 +2248,8 @@
 				type: "item"
 			}]
 			title: "Goûter : Soupe de légumes"
-			x: 19.5d
-			y: 3.75d
+			x: 21.0d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bMy Nether's Delight&r."]
@@ -2568,8 +2268,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cooked Loin »"
-			x: 21.0d
-			y: 3.75d
+			x: 22.5d
+			y: 3.0d
 		}
 		{
 			description: ["Un plat de &bMy Nether's Delight&r."]
@@ -2588,8 +2288,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Hoglin Loin »"
-			x: 22.5d
-			y: 3.75d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bMy Nether's Delight&r."]
@@ -2608,8 +2308,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Hoglin Sausage »"
-			x: 0.0d
-			y: 5.25d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bMy Nether's Delight&r."]
@@ -2628,8 +2328,48 @@
 				type: "item"
 			}]
 			title: "Goûter : « Roasted Sausage »"
-			x: 1.5d
-			y: 5.25d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Un plat de &bMy Nether's Delight&r."]
+			icon: "mynethersdelight:strider_slice"
+			id: "6309E6E66F363A6E"
+			optional: true
+			rewards: [{
+				id: "667F1E0ABC3483B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F985C5FCFF8855E"
+				item: "mynethersdelight:strider_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Strider Slice »"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Un plat de &bOcean's Delight&r."]
+			icon: "oceansdelight:tentacles"
+			id: "1F7D6860C1FC98AD"
+			optional: true
+			rewards: [{
+				id: "6A37C40DB9B55F7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31EF3D16506FCD22"
+				item: "oceansdelight:tentacles"
+				type: "item"
+			}]
+			title: "Goûter : « Tentacles »"
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2648,8 +2388,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Aurora Cake Slice »"
-			x: 3.0d
-			y: 5.25d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2668,8 +2408,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Aurora Ice Cream »"
-			x: 4.5d
-			y: 5.25d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2688,8 +2428,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Aurora Milkshake »"
-			x: 6.0d
-			y: 5.25d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2708,8 +2448,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Aurora Pie »"
-			x: 7.5d
-			y: 5.25d
+			x: 12.0d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2728,8 +2468,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Aurora Pie Slice »"
-			x: 9.0d
-			y: 5.25d
+			x: 13.5d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2748,8 +2488,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Chocolate Wafer »"
-			x: 10.5d
-			y: 5.25d
+			x: 15.0d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2768,8 +2508,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Cooked Venison Rib »"
-			x: 12.0d
-			y: 5.25d
+			x: 16.5d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2788,8 +2528,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Glacier Cake Slice »"
-			x: 13.5d
-			y: 5.25d
+			x: 18.0d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2808,8 +2548,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Glacier Ice Cream »"
-			x: 15.0d
-			y: 5.25d
+			x: 19.5d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2828,8 +2568,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Glacier Milkshake »"
-			x: 16.5d
-			y: 5.25d
+			x: 21.0d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2848,8 +2588,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Naga Chip »"
-			x: 18.0d
-			y: 5.25d
+			x: 22.5d
+			y: 4.5d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2868,8 +2608,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Phytochemical Cake Slice »"
-			x: 19.5d
-			y: 5.25d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2888,8 +2628,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Phytochemical Ice Cream »"
-			x: 21.0d
-			y: 5.25d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2908,8 +2648,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Phytochemical Milkshake »"
-			x: 22.5d
-			y: 5.25d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2928,8 +2668,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Rainbow Ice Cream »"
-			x: 0.0d
-			y: 6.75d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2948,8 +2688,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Raw Venison Rib »"
-			x: 1.5d
-			y: 6.75d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2968,8 +2708,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Refreshing Ice Cream »"
-			x: 3.0d
-			y: 6.75d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -2988,8 +2728,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Torchberry Cake Slice »"
-			x: 4.5d
-			y: 6.75d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -3008,8 +2748,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Torchberry Cookie »"
-			x: 6.0d
-			y: 6.75d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -3028,8 +2768,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Torchberry Ice Cream »"
-			x: 7.5d
-			y: 6.75d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -3048,8 +2788,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Torchberry Milkshake »"
-			x: 9.0d
-			y: 6.75d
+			x: 13.5d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -3068,8 +2808,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Torchberry Pie »"
-			x: 10.5d
-			y: 6.75d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -3088,8 +2828,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Torchberry Pie Slice »"
-			x: 12.0d
-			y: 6.75d
+			x: 16.5d
+			y: 6.0d
 		}
 		{
 			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
@@ -3108,8 +2848,8 @@
 				type: "item"
 			}]
 			title: "Goûter : « Twilight Ice Cream »"
-			x: 13.5d
-			y: 6.75d
+			x: 18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -3121,20 +2861,14 @@
 				"528C5C5E17BC832A"
 				"7153FF2B682F3804"
 				"106BB877AEB09466"
-				"2AA4605A50B012C7"
 				"55B74953F6A0B34E"
 				"3DED62205191EED7"
 				"1C9733F2BE23867D"
-				"12700176C895BACE"
 				"5BCB6CFF4D482113"
 				"788196695530BEB7"
 				"3EA903981C13A1CA"
 				"523DA60332A509D5"
-				"4B26F2136C9CD1BD"
 				"4F19FB7EE3E931C8"
-				"7622F25F8892B66F"
-				"73686CB90AABEF40"
-				"31FD1C7CA811F9D9"
 				"30AC53FC5F856FC6"
 				"7CA8016016F71EC4"
 				"117B54B30AC4D642"
@@ -3143,30 +2877,21 @@
 				"4BC401A2DD8BFF59"
 				"27BED8D97EB0D663"
 				"38ACA8197B17212F"
-				"70191F5558A08AD4"
 				"0D8507B849D2F17C"
-				"2029A8F134EE72A6"
 				"1F832E472EBB8025"
 				"751703A1461A84FC"
-				"3729E2FAD0450E96"
 				"2F10CF0F8C824666"
 				"47C5A370901CD43B"
-				"22DC6485DF84BB4F"
-				"52D38CBA01B3A679"
 				"670EFDF737696595"
-				"47EF31DF1CB04B68"
 				"2B5CFFD3C86B2540"
+				"7EF04FEF57F61762"
 				"0A2773E0A3CF7EBB"
 				"0983653402EC5C1E"
-				"086B7A94F12A1934"
-				"2EC189A5D12C633C"
-				"115389183D80FB35"
 				"0D017D03E37F206A"
 				"297B592D6703842B"
 				"1876A95BBF0E4A92"
 				"683479F6DCF5961D"
 				"0E7D9118307CA217"
-				"05D0F7747A23D8AD"
 				"2333ABC6F5A92835"
 				"76083AC385DC0AAB"
 				"46ED6E240BD0DF05"
@@ -3243,6 +2968,8 @@
 				"16180DEB2CE31911"
 				"7A02CB793E4B318B"
 				"1B7BCA0AB714BF42"
+				"6309E6E66F363A6E"
+				"1F7D6860C1FC98AD"
 				"3744A66AA1347EF1"
 				"1A788DB664CA1E49"
 				"0A1D81BB3D5B600B"

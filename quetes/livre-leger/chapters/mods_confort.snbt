@@ -284,6 +284,55 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["468EEA4754F471FF"]
+			description: ["Deux lingots d'or, une boule de feu, deux bûches et quatre diamants. Posée, la torche Magnum en diamant empêche les monstres d'apparaître d'eux-mêmes sur 64 blocs autour d'elle, et 32 en hauteur. Elle bloque aussi les patrouilles. Elle n'arrête ni les générateurs de monstres ni les raids : une base de faction reste attaquable."]
+			icon: "magnumtorch:diamond_magnum_torch"
+			id: "655D28FB8AC60EFA"
+			optional: true
+			rewards: [{
+				id: "782DBFE0F8568303"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51E5950635A8D1AA"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			title: "Une torche Magnum en diamant"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["655D28FB8AC60EFA"]
+			description: ["Même recette, avec des émeraudes ou des éclats d'améthyste. Celle en émeraude empêche les animaux d'apparaître sur 128 blocs. Celle en améthyste empêche les poissons, calamars, axolotls et chauves-souris sur 64 blocs."]
+			icon: "magnumtorch:emerald_magnum_torch"
+			id: "23A873F4C9F8A1AF"
+			optional: true
+			rewards: [{
+				id: "259E4AFEF6619518"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4367E8AEA6581878"
+					item: "magnumtorch:emerald_magnum_torch"
+					type: "item"
+				}
+				{
+					id: "636577DC10EA1FC8"
+					item: "magnumtorch:amethyst_magnum_torch"
+					type: "item"
+				}
+			]
+			title: "Les deux autres torches Magnum"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
 			dependencies: [
 				"620535CAE657B7BF"
 				"0C87A33C08476042"

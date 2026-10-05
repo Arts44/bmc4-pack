@@ -351,7 +351,7 @@
 		}
 		{
 			dependencies: ["59AA569134B40C26"]
-			description: ["&bCrabber's Delight&r : un &7casier à crabes&r posé dans l'eau attrape crabes, crevettes et palourdes, et la marmite en fait une &6bisque&r."]
+			description: ["&bCrabber's Delight&r pêche sans canne. Deux filets de sécurité, des bâtons et trois dalles de bois font un &7casier à crabes&r. Sur ce serveur, il lui faut de l'eau libre tout autour, sur trois blocs sur trois. Il se remplit toutes les 200 à 400 secondes. Sans appât, il ramène un peu de tout : crabes, crevettes, palourdes, et beaucoup de bâtons, de varech et de boîtes de conserve."]
 			icon: "crabbersdelight:crab_trap"
 			id: "0B02110E3144B9AE"
 			optional: true
@@ -361,24 +361,140 @@
 				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "63CCD49FF455CC57"
-					item: "crabbersdelight:crab_trap"
-					type: "item"
-				}
-				{
-					id: "74F4586A08FFC59B"
-					item: "crabbersdelight:bisque"
-					type: "item"
-				}
-			]
-			title: "Crabber's Delight"
+			tasks: [{
+				id: "63CCD49FF455CC57"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			title: "Crabber's Delight : le casier"
 			x: 6.0d
 			y: 6.5d
 		}
 		{
-			dependencies: ["59AA569134B40C26"]
+			dependencies: ["0B02110E3144B9AE"]
+			dependency_requirement: "one_completed"
+			description: ["L'appât décide de la prise. Un seau d'appât à crabes (un seau, quatre morues, quatre poudres d'os) ne ramène que des crabes ; il en existe un pour les crevettes, les palourdes et les « Clawster ». Une morue en appât donne un mélange, avec parfois une coquille de nautile."]
+			icon: "crabbersdelight:bucket_of_crab_chum"
+			id: "60596ADD69A1DABE"
+			optional: true
+			rewards: [{
+				id: "65EB737D907DB5B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0C8709EEDF10C3A9"
+					item: "crabbersdelight:bucket_of_crab_chum"
+					type: "item"
+				}
+				{
+					id: "1A7790AE3B121483"
+					item: "crabbersdelight:bucket_of_shrimp_chum"
+					type: "item"
+				}
+				{
+					id: "3F3B280DAFB9984C"
+					item: "crabbersdelight:bucket_of_clam_chum"
+					type: "item"
+				}
+				{
+					id: "2378519670E11C47"
+					item: "crabbersdelight:bucket_of_clawster_chum"
+					type: "item"
+				}
+			]
+			title: "Un seau d'appât"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B02110E3144B9AE"]
+			description: ["Une palourde passée au couteau sur la planche à découper donne sa chair, et une fois sur deux une &fperle&r. Les perles décorent les armures à la table de forge, font un collier, et sur ce serveur le marchand ambulant vend des objets contre des perles."]
+			icon: "crabbersdelight:pearl"
+			id: "29014B8504F5FD9B"
+			optional: true
+			rewards: [{
+				id: "72EA3DB8CC6159D0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "22182F361AD3B554"
+				item: "crabbersdelight:pearl"
+				type: "item"
+			}]
+			title: "Des perles"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["678176FB7936539B"]
+			description: ["Les plages ont maintenant leurs &apalmiers&r, leurs coquillages et leurs crabes, qui vivent aussi dans les marais et les côtes rocheuses. Attention sous les palmiers : le jeu prévoit une mort « écrasé par une noix de coco ». Le lait de coco efface un effet."]
+			icon: "crabbersdelight:coconut"
+			id: "592B967F421C3C3A"
+			optional: true
+			rewards: [{
+				id: "14A575E083FCD68A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3A50480C5AB174D0"
+					item: "crabbersdelight:coconut"
+					type: "item"
+				}
+				{
+					id: "21E17F2761A444CD"
+					item: "crabbersdelight:palm_sapling"
+					type: "item"
+				}
+			]
+			title: "Palmiers et noix de coco"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0B02110E3144B9AE"
+				"59AA569134B40C26"
+			]
+			description: ["La marmite fait le reste : une &6bisque&r de crabe et un gombo de la mer."]
+			icon: "crabbersdelight:bisque"
+			id: "5BD5D3789BB99DBA"
+			optional: true
+			rewards: [{
+				id: "65A46DDA22A2CFFF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0D518A1FECEFC8A5"
+					item: "crabbersdelight:bisque"
+					type: "item"
+				}
+				{
+					id: "31264875D6383A3D"
+					item: "crabbersdelight:seafood_gumbo"
+					type: "item"
+				}
+			]
+			title: "Une bisque"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"59AA569134B40C26"
+				"5E405E389BC878E2"
+			]
 			description: ["&cMy Nether's Delight&r : un fourneau du Nether, des cannes poudreuses, du piment, et des plats de hoglin et de strider. La cuisine continue de l'autre côté du portail."]
 			icon: "mynethersdelight:nether_bricks_stove"
 			id: "4D8A1D0FDFA44FC9"
@@ -394,12 +510,107 @@
 				item: "mynethersdelight:nether_bricks_stove"
 				type: "item"
 			}]
-			title: "My Nether's Delight"
+			title: "My Nether's Delight : le fourneau"
 			x: 6.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["59AA569134B40C26"]
+			dependencies: ["4D8A1D0FDFA44FC9"]
+			description: ["La &ccanne poudreuse&r pousse à l'état sauvage dans les forêts carmin. Le mod prévient : ses baies explosent au contact, il conseille de couper la tige rouge. Elle peut donner deux ou trois piments, « Bullet Pepper ». Le troc des piglins peut aussi en donner."]
+			icon: "mynethersdelight:bullet_pepper"
+			id: "267F78BDADC70A76"
+			optional: true
+			rewards: [{
+				id: "7C4A54086750A099"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "3E39DE309110848A"
+				item: "mynethersdelight:bullet_pepper"
+				type: "item"
+			}]
+			title: "La canne poudreuse"
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4D8A1D0FDFA44FC9"]
+			description: ["Les hoglins lâchent de la longe de hoglin à la place du porc. Tués au couteau, et sans brûler, ils lâchent une fois sur deux une peau de hoglin, plus avec Butin. Les écuries des bastions cachent de la longe, des œufs de strider et de la terre résurgente."]
+			icon: "mynethersdelight:hoglin_loin"
+			id: "15062E707A39002C"
+			optional: true
+			rewards: [{
+				id: "3ECADE0E5A5A6D9C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2041D21A45192EC5"
+					item: "mynethersdelight:hoglin_loin"
+					type: "item"
+				}
+				{
+					id: "24AEFD4ABBC101EA"
+					item: "mynethersdelight:hoglin_hide"
+					type: "item"
+				}
+			]
+			title: "Chasser le hoglin au couteau"
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4D8A1D0FDFA44FC9"]
+			description: ["Chaque strider tué lâche deux tranches de strider. À la marmite, avec des champignons et des racines du Nether, elles font un ragoût de strider."]
+			icon: "mynethersdelight:strider_stew"
+			id: "3281E36B9F78F98A"
+			optional: true
+			rewards: [{
+				id: "3F6B06CECADAFEE5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F974C7F7E21F80A"
+				item: "mynethersdelight:strider_stew"
+				type: "item"
+			}]
+			title: "Un ragoût de strider"
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["15062E707A39002C"]
+			description: ["Quatre jambons, deux longes, une peau de hoglin, une colonie de champignons carmin et une colonie de champignons biscornus : un hoglin farci cru. Les colonies naissent de certains champignons du Nether posés sur de la terre résurgente (« Resurgent Soil »). À la marmite, avec une épice forte (poudre de blaze ou piment), un champignon carmin et deux salades du Nether, il devient un hoglin farci rôti."]
+			icon: "mynethersdelight:roast_stuffed_hoglin"
+			id: "1AB82E46736E60F9"
+			optional: true
+			rewards: [{
+				id: "05C1BDE4A0498A83"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D9CBC486D5DBD69"
+				item: "mynethersdelight:roast_stuffed_hoglin"
+				type: "item"
+			}]
+			title: "&cLe hoglin farci"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"59AA569134B40C26"
+				"059B81E40A250C72"
+			]
 			description: ["&dEnder's Delight&r : le chorus se cuisine, le shulker aussi. Le &dragoût de chorus&r se fait à la marmite, avec ce que l'End donne."]
 			icon: "endersdelight:chorus_stew"
 			id: "13B60358BDB680A2"
@@ -420,8 +631,101 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["59AA569134B40C26"]
-			description: ["&5Twilight's Flavor & Delight&r : une &cmarmite ardente&r pour les ingrédients de la Twilight Forest, des gâteaux d'aurore, des tartes de baies de torche."]
+			dependencies: ["13B60358BDB680A2"]
+			description: ["Trois blocs d'obsidienne, quatre briques de l'End, un souffle de dragon et un feu de camp : le fourneau de l'End. Le souffle se recueille en flacon près de l'Ender Dragon."]
+			icon: "endersdelight:endstone_stove"
+			id: "32E80343DC9E2159"
+			optional: true
+			rewards: [{
+				id: "18B226F563D57E8A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B21578380D8EE61"
+				item: "endersdelight:endstone_stove"
+				type: "item"
+			}]
+			title: "Un fourneau de pierre de l'End"
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["13B60358BDB680A2"]
+			description: ["Tué au couteau, un shulker lâche un « Shulker Mollusk », un enderman un « Enderman Sight » et un endermite une « Mite Crust ». Ce sont les viandes de l'End."]
+			icon: "endersdelight:shulker_mollusk"
+			id: "51FD12E4EB2293D9"
+			optional: true
+			rewards: [{
+				id: "4ED1C6DAFD5C9A57"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0E44E87A6BF29689"
+					item: "endersdelight:shulker_mollusk"
+					type: "item"
+				}
+				{
+					id: "417E839BCB8A9639"
+					item: "endersdelight:enderman_sight"
+					type: "item"
+				}
+			]
+			title: "Chasser dans l'End au couteau"
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["13B60358BDB680A2"]
+			description: ["Quatre plantes poussent sur les îles extérieures de l'End : « Ethereal Saffron », « Void Pepper », « Amberveils » et « Chorusflame ». Les trois premières, avec une fleur de chorus, font à la marmite un « Amberveil Stew », servi dans un « Shulker Bowl »."]
+			icon: "endersdelight:amberveil_stew"
+			id: "25D74D7B563443EA"
+			optional: true
+			rewards: [{
+				id: "187A1DCFE283B916"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C976A5F63330F00"
+				item: "endersdelight:amberveil_stew"
+				type: "item"
+			}]
+			title: "&dLes épices de l'End"
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["13B60358BDB680A2"]
+			description: ["Ender's Delight ajoute une structure, la « End House », sur les hautes terres et les terres moyennes de l'End. Elle est rare : une au plus par carré de 25 tronçons de côté."]
+			id: "76D973702FFB2A35"
+			optional: true
+			rewards: [{
+				id: "03F2B7B8457DED1D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59B114D9BE2A404B"
+				structure: "endersdelight:end_house"
+				type: "structure"
+			}]
+			title: "La maison de l'End"
+			x: 8.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"59AA569134B40C26"
+				"24285F86951D46F9"
+			]
+			description: ["&5Twilight's Flavor & Delight&r cuisine la Twilight Forest. La &cmarmite ardente&r se chauffe toute seule et cuit vite les plats du Crépuscule : cinq lingots ardents, des briques de labyrinthe, une pelle en bois de fer et un seau d'eau."]
 			icon: "twilightdelight:fiery_cooking_pot"
 			id: "14E8391AAC5909F2"
 			optional: true
@@ -441,8 +745,119 @@
 			y: 11.0d
 		}
 		{
+			dependencies: [
+				"1A130310904C2A41"
+				"49F68B8AEB0F5E46"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Quatre couteaux de la Twilight Forest : en bois de fer, en feuille d'acier, en métal de chevalier et ardent. Celui de chevalier frappe plus fort les cibles en armure. L'ardent enflamme et cuit ce qu'il découpe."]
+			icon: "twilightdelight:ironwood_knife"
+			id: "7CC5E8B2BE22A12F"
+			optional: true
+			rewards: [{
+				id: "1E358921E167D511"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "48608E20F6CA9BD8"
+					item: "twilightdelight:ironwood_knife"
+					type: "item"
+				}
+				{
+					id: "4184327E9B6FD731"
+					item: "twilightdelight:steeleaf_knife"
+					type: "item"
+				}
+				{
+					id: "562D708A7D74ED33"
+					item: "twilightdelight:knightmetal_knife"
+					type: "item"
+				}
+				{
+					id: "7638D16A782A0B86"
+					item: "twilightdelight:fiery_knife"
+					type: "item"
+				}
+			]
+			title: "Un couteau du Crépuscule"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"144789BF076634AF"
+				"64039C5240306C98"
+			]
+			description: ["Trois lingots de métal de chevalier, quatre briques de labyrinthe, des baies-torches et un feu de camp : un fourneau qui cuit plus vite les plats du Crépuscule."]
+			icon: "twilightdelight:maze_stove"
+			id: "53814042F51A5600"
+			optional: true
+			rewards: [{
+				id: "5AC0DF09DD4691A5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "200598C2025DEE3F"
+				item: "twilightdelight:maze_stove"
+				type: "item"
+			}]
+			title: "Un fourneau du labyrinthe"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7CC5E8B2BE22A12F"
+				"53090FD9DF6E3205"
+			]
+			description: ["La hache de minotaure en diamant découpe ce que les couteaux ne savent pas couper. Un Minoshroom qu'elle achève lâche toujours un steak tomahawk, un minotaure trois fois sur dix ; cuit s'il brûlait. Sur la planche, elle tranche aussi une écaille de naga en quatre chips."]
+			icon: "twilightdelight:raw_tomahawk_smeak"
+			id: "5C34FF3029C69C93"
+			optional: true
+			rewards: [{
+				id: "218B1C41ECD2BFF6"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EBE31CB551CE211"
+				item: "twilightdelight:raw_tomahawk_smeak"
+				type: "item"
+			}]
+			title: "Le steak du minotaure"
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14E8391AAC5909F2"]
+			description: ["La côtelette d'hydre, coupée au couteau, donne deux morceaux d'hydre. Avec du pain, de la salade, une tomate et un oignon : un burger d'hydre."]
+			icon: "twilightdelight:hydra_burger"
+			id: "04527D3AA8BD26A2"
+			optional: true
+			rewards: [{
+				id: "1DD30679D39625C6"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1203F83840A33F8F"
+				item: "twilightdelight:hydra_burger"
+				type: "item"
+			}]
+			title: "Un burger d'hydre"
+			x: 8.0d
+			y: 20.0d
+		}
+		{
 			dependencies: ["59AA569134B40C26"]
-			description: ["&aDelightful&r relie Farmer's Delight aux autres mods du pack : baies, fruits, soupes et tartes faites avec ce que les biomes des autres mods produisent. La &asoupe de cactus&r est l'une des plus simples."]
+			description: ["&aDelightful&r relie Farmer's Delight aux autres mods du pack et ajoute ses propres plantes. Premier plat : la &asoupe de cactus&r."]
 			icon: "delightful:cactus_soup"
 			id: "009EB35E6ABDAA5E"
 			optional: true
@@ -459,7 +874,104 @@
 			}]
 			title: "Delightful"
 			x: 6.0d
-			y: 12.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["009EB35E6ABDAA5E"]
+			description: ["Des buissons de baies de saumon poussent dans toutes les forêts, des cantaloups sur les plages, des mini-melons dans les plaines. Un couteau change un cantaloup en quatre tranches et un mini-melon en quatre tranches de pastèque."]
+			icon: "delightful:salmonberries"
+			id: "608FB4C82DC77713"
+			optional: true
+			rewards: [{
+				id: "2BA5D127F48B98B4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "26BB5E8540C9EA95"
+					item: "delightful:salmonberries"
+					type: "item"
+				}
+				{
+					id: "163D86342DC73F82"
+					item: "delightful:cantaloupe"
+					type: "item"
+				}
+				{
+					id: "4568990D2DCFA65A"
+					item: "delightful:mini_melon"
+					type: "item"
+				}
+			]
+			title: "Trois plantes sauvages"
+			x: 8.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"009EB35E6ABDAA5E"
+				"1A130310904C2A41"
+			]
+			description: ["Des feuilles coupées au couteau donnent souvent une feuille de thé vert, et celles du chêne, parfois un gland. Un animal gras achevé au couteau (poissons, calmars, chevaux, chats…) lâche souvent de la graisse animale."]
+			icon: "delightful:green_tea_leaf"
+			id: "6592205A7DC8519D"
+			optional: true
+			rewards: [{
+				id: "715D29330F8CC216"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4AB2721338E457D7"
+					item: "delightful:green_tea_leaf"
+					type: "item"
+				}
+				{
+					id: "396A5F604F435D80"
+					item: "delightful:acorn"
+					type: "item"
+				}
+				{
+					id: "0D94D852FA05ABE1"
+					item: "delightful:animal_fat"
+					type: "item"
+				}
+			]
+			title: "Le couteau, outil de cueillette"
+			x: 8.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["608FB4C82DC77713"]
+			description: ["Les baies font une tarte, le cantaloup un pain."]
+			icon: "delightful:salmonberry_pie"
+			id: "17159157B845BE6D"
+			optional: true
+			rewards: [{
+				id: "04D66A1D6A32D6C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "28F995BA3960E073"
+					item: "delightful:salmonberry_pie"
+					type: "item"
+				}
+				{
+					id: "35FBCE9AAF28CE4F"
+					item: "delightful:cantaloupe_bread"
+					type: "item"
+				}
+			]
+			title: "Une tarte aux baies de saumon"
+			x: 10.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [

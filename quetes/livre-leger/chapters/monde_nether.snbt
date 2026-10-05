@@ -491,7 +491,7 @@
 		}
 		{
 			dependencies: ["175464071DA3D19D"]
-			description: ["Le &cstampede&r se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »)."]
+			description: ["Le &cstampede&r naît quand une &7apparition&r possède une statue de gargouille « Trample » : posée dans la vallée des âmes, non salée, elle attire les apparitions. Il se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »)."]
 			id: "45445BF9B1EF1BB9"
 			optional: true
 			rewards: [{
@@ -509,6 +509,242 @@
 			title: "Apprivoiser un stampede"
 			x: 4.0d
 			y: 14.75d
+		}
+		{
+			dependencies: ["175464071DA3D19D"]
+			description: ["Le progrès « The Fright Before Xmas » demande de passer par chaque sous-biome de la vallée des âmes. Les glaciers de glace noire sont les plus rares."]
+			id: "3040118EF8992CC4"
+			optional: true
+			rewards: [{
+				id: "1ABCDA791A862562"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "netherexp:nether/ssv_sub_biomes"
+				criterion: ""
+				id: "518DB7CBFE8572BC"
+				type: "advancement"
+			}]
+			title: "Tous les sous-biomes de la vallée"
+			x: 4.0d
+			y: 16.25d
+		}
+		{
+			dependencies: ["175464071DA3D19D"]
+			description: ["La « Sanctum Locator Compass » se trouve dans les coffres des chapelles de la vallée des âmes. Active-la et suis-la jusqu'au sanctum (progrès « EMF-Raider »)."]
+			id: "2BBDCD47098B42B9"
+			optional: true
+			rewards: [{
+				id: "48F351DD9AAC0E91"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "netherexp:nether/emf_raider"
+				criterion: ""
+				id: "5051530CC517330F"
+				type: "advancement"
+			}]
+			title: "La boussole du sanctum"
+			x: 4.0d
+			y: 17.75d
+		}
+		{
+			dependencies: ["2058F9BFA5330DD7"]
+			description: ["Au cœur du sanctum, une bougie perfide s'allume au briquet et déclenche des vagues de monstres. Tiens jusqu'au bout : elle récompense les joueurs présents en &cflammes perfides&r. Sur ce serveur, elle se rallume 30 minutes après avoir été vaincue."]
+			id: "1D4BEAACDEE1D09B"
+			optional: true
+			rewards: [{
+				id: "7144DFB5E9B34CC5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "netherexp:nether/rekindled_betrayal"
+				criterion: ""
+				id: "45BC4D9C56902192"
+				type: "advancement"
+			}]
+			title: "&cDéfendre la bougie perfide"
+			x: 6.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1D4BEAACDEE1D09B"]
+			description: ["Les coffres-braseros du sanctum ne s'ouvrent qu'avec une flamme perfide. Ils gardent du débris antique, des diamants, des tessons de poterie, le noyau de fusil et le modèle d'amélioration « Pump-Charge ». Sur ce serveur, un coffre ouvert se remplit de nouveau au bout d'une heure."]
+			id: "36EEDC2F0BBD326A"
+			optional: true
+			rewards: [{
+				id: "6AA8E784DAA43B6B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "netherexp:nether/eldritch_manipulation"
+				criterion: ""
+				id: "4CCBE6150B4B1C4B"
+				type: "advancement"
+			}]
+			title: "Ouvrir un coffre-brasero"
+			x: 8.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["36EEDC2F0BBD326A"]
+			description: ["Le noyau de fusil (« Shotgun Core ») des coffres-braseros, deux lingots de nétherite et un crâne de squelette font le « Shotgun-Fist ». Sur ce serveur, il tire 25 plombs."]
+			icon: "netherexp:shotgun_fist"
+			id: "65BD687D6C8AD020"
+			optional: true
+			rewards: [{
+				id: "62D5508037857D60"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E810EEF9E74C449"
+				item: "netherexp:shotgun_fist"
+				type: "item"
+			}]
+			title: "Un poing-fusil"
+			x: 10.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["65BD687D6C8AD020"]
+			description: ["À la table de forge : le modèle « Pump-Charge » sur le poing-fusil, avec une flamme perfide. Le « Pump-Charge Shotgun » est le sommet de l'arsenal de Jaden's. Le modèle se recopie avec une flamme perfide et sept blocs d'os."]
+			id: "1D3C4D6D80CE844E"
+			optional: true
+			rewards: [{
+				id: "3AEAA2F49105F3DA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "netherexp:nether/the_nether_is_full"
+				criterion: ""
+				id: "7712B705F364EF92"
+				type: "advancement"
+			}]
+			title: "&cLe fusil à pompe"
+			x: 12.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["2058F9BFA5330DD7"]
+			description: ["Les dix statues de gargouille du sanctum, à garder dans l'inventaire (progrès « Lorekeeper »). Quatre d'entre elles attirent les apparitions, qui les changent en créatures : « Trample » en stampede, « Phase » en ecto slab, « Ghoul » en banshee, « Ossified » en vessel. Une statue salée ne se laisse plus posséder."]
+			icon: "netherexp:ossified_gargoyle_statue"
+			id: "634657746E939E9A"
+			optional: true
+			rewards: [{
+				id: "477919DFD0D150B6"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6D662961CE174E16"
+					item: "netherexp:ossified_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "24DC4073AFA782AB"
+					item: "netherexp:trample_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "579E91915254D4A1"
+					item: "netherexp:phase_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "1DD9F819C905A9C1"
+					item: "netherexp:ghoul_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "714B6E2A3AA570C3"
+					item: "netherexp:wretched_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "10D45BE3B64D198A"
+					item: "netherexp:sealed_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "393D6E698E5D5DEC"
+					item: "netherexp:occult_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "2BDD6D38D9E373A5"
+					item: "netherexp:treacherous_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "0CF4A133F45D1B8A"
+					item: "netherexp:cirripedia_gargoyle_statue"
+					type: "item"
+				}
+				{
+					id: "33DE938EA0055962"
+					item: "netherexp:obfuscated_gargoyle_statue"
+					type: "item"
+				}
+			]
+			title: "&5Toutes les statues de gargouille"
+			x: 6.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["175464071DA3D19D"]
+			description: ["Les verrues biscornues (« Warped Wart ») brassent des &aantidotes&r, un par effet de potion : « Antidote for Poison », « Antidote for Weakness »… (progrès « The Caduceus »)."]
+			id: "493BED719528316A"
+			optional: true
+			rewards: [{
+				id: "18E3DDA095EBE7B2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "netherexp:nether/the_caduceus"
+				criterion: ""
+				id: "6A328DB8128CA712"
+				type: "advancement"
+			}]
+			title: "Un antidote"
+			x: 4.0d
+			y: 19.25d
+		}
+		{
+			dependencies: ["493BED719528316A"]
+			description: ["Tous les effets d'antidote actifs en même temps (progrès « Plague-Doctor »). Sur ce serveur, potions et antidotes s'empilent par 16."]
+			id: "172E1FB04059EE20"
+			optional: true
+			rewards: [{
+				id: "176AA2BB1365932C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "netherexp:nether/plague_doctor"
+				criterion: ""
+				id: "1C29D669A08385A5"
+				type: "advancement"
+			}]
+			title: "Le médecin de peste"
+			x: 6.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["5E405E389BC878E2"]
