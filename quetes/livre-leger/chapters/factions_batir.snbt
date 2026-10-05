@@ -247,6 +247,79 @@
 			x: 10.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["414C16A8615130D2"]
+			description: [
+				"Huit cuirs en forme de gant (recette du mod). On en trouve aussi dans les coffres des épaves, des avant-postes de pillards et des puits de mine."
+				""
+				"Accroupi, un clic droit dans le &ldos&r d'un joueur ouvre son inventaire. Le gant s'use à chaque vol."
+			]
+			icon: "theft:glove"
+			id: "607E3F661BD75ABC"
+			optional: true
+			rewards: [{
+				id: "5C6ACCC67B04B122"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C150C8E5A0A7364"
+				item: "theft:glove"
+				type: "item"
+			}]
+			title: "Le gant de voleur"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["607E3F661BD75ABC"]
+			description: [
+				"Le vol est permis &lhors claim&r, sans l'accord de la victime (règlement). Le serveur le borne : &lcinq objets&r au plus, &lseize secondes&r pour les prendre, puis dix secondes d'attente avant le vol suivant (config du serveur)."
+				""
+				"La victime voit ce qu'on lui prend : l'emplacement volé est marqué dans son inventaire."
+			]
+			id: "12A208B44970B012"
+			optional: true
+			rewards: [{
+				id: "336DC13E965B26D4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C6A30B593C21F33"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "La règle du vol"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["12A208B44970B012"]
+			description: [
+				"Dans un claim, personne ne vole. Dehors, ne pas tourner le dos à un inconnu : le gant ne prend que par derrière."
+				""
+				"Un objet enchanté de &dPocket Chain&r ne peut pas être volé : sur ce serveur, l'enchantement protège bien (config et code du mod)."
+			]
+			id: "39CC7FAED7970491"
+			optional: true
+			rewards: [{
+				id: "0D9177677513C41B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58F7793DEA2F8FCB"
+				title: "Compris"
+				type: "checkmark"
+			}]
+			title: "Se protéger du vol"
+			x: 8.0d
+			y: 3.5d
+		}
 	]
 	title: "&cBâtir sa faction"
 }

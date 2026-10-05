@@ -140,3 +140,55 @@ recompenses = ["xp 5"]
 description = """
 Un territoire, un salon, des tâches, des lieux, un diplomate. Le chapitre suivant, &cLe trophée et les raids&r, est celui où ça se joue.
 """
+
+# ---- Le vol au gant (mod Theft 1.5.3), 5 octobre 2026. Sources :
+# reglements/regles.md (« permis hors claim, sans accord de la victime :
+# cinq objets, seize secondes, et elle voit ce qu'on lui prend ») ;
+# theft-common.toml du serveur (limit_item_number 5, steal_time 16,
+# cooldown_to_steal 10, show_missing true, damage_item true,
+# pocket_chain_enchant false, generate_loot true à 50 %) ; recette du jar
+# (8 cuirs) ; loot_modifiers/theft_loot.json (épaves, avant-postes,
+# puits de mine) ; lang (« clic droit dans le dos d'un joueur, accroupi ») ;
+# CustomChestContainer.hasPocketChainEnchant (javap) : avec l'option à
+# false, un objet enchanté de Pocket Chain ne peut pas être volé.
+# Non écrit faute de preuve : la durée de vie du gant (l'option
+# item_durability est marquée « indisponible en 1.20 ») et la façon
+# d'obtenir l'enchantement Pocket Chain.
+[[quete]]
+cle = "gant"
+titre = "Le gant de voleur"
+deps = ["rejoindre"]
+optionnel = true
+taches = ["item theft:glove"]
+recompenses = ["xp 3"]
+description = """
+Huit cuirs en forme de gant (recette du mod). On en trouve aussi dans les coffres des épaves, des avant-postes de pillards et des puits de mine.
+
+Accroupi, un clic droit dans le &ldos&r d'un joueur ouvre son inventaire. Le gant s'use à chaque vol.
+"""
+
+[[quete]]
+cle = "regle_vol"
+titre = "La règle du vol"
+deps = ["gant"]
+optionnel = true
+taches = ["checkmark Compris"]
+recompenses = ["xp 2"]
+description = """
+Le vol est permis &lhors claim&r, sans l'accord de la victime (règlement). Le serveur le borne : &lcinq objets&r au plus, &lseize secondes&r pour les prendre, puis dix secondes d'attente avant le vol suivant (config du serveur).
+
+La victime voit ce qu'on lui prend : l'emplacement volé est marqué dans son inventaire.
+"""
+
+[[quete]]
+cle = "proteger_vol"
+titre = "Se protéger du vol"
+deps = ["regle_vol"]
+optionnel = true
+taches = ["checkmark Compris"]
+recompenses = ["xp 2"]
+description = """
+Dans un claim, personne ne vole. Dehors, ne pas tourner le dos à un inconnu : le gant ne prend que par derrière.
+
+Un objet enchanté de &dPocket Chain&r ne peut pas être volé : sur ce serveur, l'enchantement protège bien (config et code du mod).
+"""
