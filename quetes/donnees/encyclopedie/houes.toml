@@ -1,0 +1,683 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&7Houes"
+fichier = "enc_houes"
+groupe = "encyclopedie"
+icone = "minecraft:iron_hoe"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&7Houes"
+taille = 1.5
+icone = "minecraft:iron_hoe"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque houe du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+"""
+
+[[quete]]
+cle = "minecraft_diamond_hoe"
+titre = "Houe en diamant"
+optionnel = true
+icone = "minecraft:diamond_hoe"
+kit_voulu = true
+taches = ["item minecraft:diamond_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_golden_hoe"
+titre = "Houe en or"
+optionnel = true
+icone = "minecraft:golden_hoe"
+kit_voulu = true
+taches = ["item minecraft:golden_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_iron_hoe"
+titre = "Houe en fer"
+optionnel = true
+icone = "minecraft:iron_hoe"
+kit_voulu = true
+taches = ["item minecraft:iron_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_hoe"
+titre = "Houe en netherite"
+optionnel = true
+icone = "minecraft:netherite_hoe"
+kit_voulu = true
+taches = ["item minecraft:netherite_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_stone_hoe"
+titre = "Houe en pierre"
+optionnel = true
+icone = "minecraft:stone_hoe"
+kit_voulu = true
+taches = ["item minecraft:stone_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_wooden_hoe"
+titre = "Houe en bois"
+optionnel = true
+icone = "minecraft:wooden_hoe"
+kit_voulu = true
+taches = ["item minecraft:wooden_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_hoe"
+titre = "« Netherite-Diamond Hoe »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_hoe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_hoe"
+titre = "« Netherite-Emerald Hoe »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_hoe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_hoe"
+titre = "« Netherite-Gold Hoe »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_hoe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_iron_hoe"
+titre = "« Netherite-Iron Hoe »"
+optionnel = true
+icone = "advancednetherite:netherite_iron_hoe"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_hoe"
+titre = "« Gravitite Hoe »"
+optionnel = true
+icone = "aether:gravitite_hoe"
+kit_voulu = true
+taches = ["item aether:gravitite_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_holystone_hoe"
+titre = "« Holystone Hoe »"
+optionnel = true
+icone = "aether:holystone_hoe"
+kit_voulu = true
+taches = ["item aether:holystone_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_skyroot_hoe"
+titre = "« Skyroot Hoe »"
+optionnel = true
+icone = "aether:skyroot_hoe"
+kit_voulu = true
+taches = ["item aether:skyroot_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_hoe"
+titre = "« Valkyrie Hoe »"
+optionnel = true
+icone = "aether:valkyrie_hoe"
+kit_voulu = true
+taches = ["item aether:valkyrie_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_hoe"
+titre = "« Zanite Hoe »"
+optionnel = true
+icone = "aether:zanite_hoe"
+kit_voulu = true
+taches = ["item aether:zanite_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_infused_veridium_hoe"
+titre = "« Infused Veridium Hoe »"
+optionnel = true
+icone = "aether_redux:infused_veridium_hoe"
+kit_voulu = true
+taches = ["item aether_redux:infused_veridium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_hoe"
+titre = "« Veridium Hoe »"
+optionnel = true
+icone = "aether_redux:veridium_hoe"
+kit_voulu = true
+taches = ["item aether_redux:veridium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_hoe"
+titre = "« Aeternium Hoe »"
+optionnel = true
+icone = "betterend:aeternium_hoe"
+kit_voulu = true
+taches = ["item betterend:aeternium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_hoe"
+titre = "« Terminite Hoe »"
+optionnel = true
+icone = "betterend:terminite_hoe"
+kit_voulu = true
+taches = ["item betterend:terminite_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_hoe"
+titre = "« Thallasium Hoe »"
+optionnel = true
+icone = "betterend:thallasium_hoe"
+kit_voulu = true
+taches = ["item betterend:thallasium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_hoe"
+titre = "Cincinnasite Hoe"
+optionnel = true
+icone = "betternether:cincinnasite_hoe"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_hoe_diamond"
+titre = "Cincinnasite-Diamond Hoe"
+optionnel = true
+icone = "betternether:cincinnasite_hoe_diamond"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_hoe_diamond"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_hoe"
+titre = "« Fireruby Hoe »"
+optionnel = true
+icone = "betternether:flaming_ruby_hoe"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_hoe"
+titre = "Nether Ruby Hoe"
+optionnel = true
+icone = "betternether:nether_ruby_hoe"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_hoe"
+titre = "Houe en aquite"
+optionnel = true
+icone = "blue_skies:aquite_hoe"
+kit_voulu = true
+taches = ["item blue_skies:aquite_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_hoe"
+titre = "Houe en bois de lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_hoe"
+kit_voulu = true
+taches = ["item blue_skies:bluebright_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_hoe"
+titre = "Houe en charoite"
+optionnel = true
+icone = "blue_skies:charoite_hoe"
+kit_voulu = true
+taches = ["item blue_skies:charoite_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_hoe"
+titre = "« Comet Wood Hoe »"
+optionnel = true
+icone = "blue_skies:comet_hoe"
+kit_voulu = true
+taches = ["item blue_skies:comet_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_hoe"
+titre = "Houe en diopside"
+optionnel = true
+icone = "blue_skies:diopside_hoe"
+kit_voulu = true
+taches = ["item blue_skies:diopside_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_hoe"
+titre = "Houe en crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_hoe"
+kit_voulu = true
+taches = ["item blue_skies:dusk_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_hoe"
+titre = "Houe en bois de nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_hoe"
+kit_voulu = true
+taches = ["item blue_skies:frostbright_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_hoe"
+titre = "Houe en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_hoe"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_hoe"
+titre = "Houe lunaire"
+optionnel = true
+icone = "blue_skies:lunar_hoe"
+kit_voulu = true
+taches = ["item blue_skies:lunar_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_stone_hoe"
+titre = "Houe en pierre lunaire"
+optionnel = true
+icone = "blue_skies:lunar_stone_hoe"
+kit_voulu = true
+taches = ["item blue_skies:lunar_stone_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_hoe"
+titre = "Houe en bois d'érable"
+optionnel = true
+icone = "blue_skies:maple_hoe"
+kit_voulu = true
+taches = ["item blue_skies:maple_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_hoe"
+titre = "Houe en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_hoe"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_hoe"
+titre = "Houe en étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_hoe"
+kit_voulu = true
+taches = ["item blue_skies:starlit_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_turquoise_stone_hoe"
+titre = "Houe en pierre turquoise"
+optionnel = true
+icone = "blue_skies:turquoise_stone_hoe"
+kit_voulu = true
+taches = ["item blue_skies:turquoise_stone_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_black_steel_hoe"
+titre = "« Black Steel Hoe »"
+optionnel = true
+icone = "cataclysm:black_steel_hoe"
+kit_voulu = true
+taches = ["item cataclysm:black_steel_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_hoe"
+titre = "« Skyjade Hoe »"
+optionnel = true
+icone = "deep_aether:skyjade_hoe"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_hoe"
+titre = "« Stratus Hoe »"
+optionnel = true
+icone = "deep_aether:stratus_hoe"
+kit_voulu = true
+taches = ["item deep_aether:stratus_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_resonarium_hoe"
+titre = "« Resonarium Hoe »"
+optionnel = true
+icone = "deeperdarker:resonarium_hoe"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_hoe"
+titre = "Houe en Warden"
+optionnel = true
+icone = "deeperdarker:warden_hoe"
+kit_voulu = true
+taches = ["item deeperdarker:warden_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_hoe"
+titre = "« Dragon Hoe »"
+optionnel = true
+icone = "dragonloot:dragon_hoe"
+kit_voulu = true
+taches = ["item dragonloot:dragon_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_hoe"
+titre = "Houe en Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_hoe"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_hoe"
+titre = "Houe en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_hoe"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_hoe"
+titre = "Houe en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_hoe"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_hoe"
+titre = "Houe en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_hoe"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_hoe"
+titre = "Houe en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_hoe"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_hoe"
+titre = "Houe en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_hoe"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_hoe"
+titre = "« §eChorundum Hoe »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_hoe"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_hoe"
+titre = "« §eTungsten Hoe »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_hoe"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_hoe"
+titre = "Houe en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_hoe"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_hoe"
+titre = "Houe en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_hoe"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_hoe"]
+recompenses = ["xp 1"]
+description = """
+Houe de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Toutes les houes"
+optionnel = true
+taille = 1.5
+icone = "minecraft:netherite_hoe"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["minecraft_diamond_hoe", "minecraft_golden_hoe", "minecraft_iron_hoe", "minecraft_netherite_hoe", "minecraft_stone_hoe", "minecraft_wooden_hoe", "advancednetherite_netherite_diamond_hoe", "advancednetherite_netherite_emerald_hoe", "advancednetherite_netherite_gold_hoe", "advancednetherite_netherite_iron_hoe", "aether_gravitite_hoe", "aether_holystone_hoe", "aether_skyroot_hoe", "aether_valkyrie_hoe", "aether_zanite_hoe", "aether_redux_infused_veridium_hoe", "aether_redux_veridium_hoe", "betterend_aeternium_hoe", "betterend_terminite_hoe", "betterend_thallasium_hoe", "betternether_cincinnasite_hoe", "betternether_cincinnasite_hoe_diamond", "betternether_flaming_ruby_hoe", "betternether_nether_ruby_hoe", "blue_skies_aquite_hoe", "blue_skies_bluebright_hoe", "blue_skies_charoite_hoe", "blue_skies_comet_hoe", "blue_skies_diopside_hoe", "blue_skies_dusk_hoe", "blue_skies_frostbright_hoe", "blue_skies_horizonite_hoe", "blue_skies_lunar_hoe", "blue_skies_lunar_stone_hoe", "blue_skies_maple_hoe", "blue_skies_pyrope_hoe", "blue_skies_starlit_hoe", "blue_skies_turquoise_stone_hoe", "cataclysm_black_steel_hoe", "deep_aether_skyjade_hoe", "deep_aether_stratus_hoe", "deeperdarker_resonarium_hoe", "deeperdarker_warden_hoe", "dragonloot_dragon_hoe", "mysticalagriculture_awakened_supremium_hoe", "mysticalagriculture_imperium_hoe", "mysticalagriculture_inferium_hoe", "mysticalagriculture_prudentium_hoe", "mysticalagriculture_supremium_hoe", "mysticalagriculture_tertium_hoe", "stalwart_dungeons_chorundum_hoe", "stalwart_dungeons_tungsten_hoe", "twilightforest_ironwood_hoe", "twilightforest_steeleaf_hoe"]
+description = """
+Toutes les houes de ce chapitre réunies.
+"""
