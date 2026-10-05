@@ -578,6 +578,251 @@
 			x: 18.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7CB09F48F66E9245"]
+			description: ["Chaque palier d'essence fait ses outils et son armure, plus solides de palier en palier. Les arrosoirs font pousser ce qu'ils arrosent."]
+			icon: "mysticalagriculture:inferium_pickaxe"
+			id: "0D79A3E7F6AA33DD"
+			optional: true
+			rewards: [{
+				id: "3E02FFBE97459C23"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "71B93ADD788903FE"
+					item: "mysticalagriculture:inferium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "3B05DB59CDD32815"
+					item: "mysticalagriculture:inferium_sword"
+					type: "item"
+				}
+			]
+			title: "Des outils d'inferium"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CB09F48F66E9245"]
+			icon: "mysticalagriculture:inferium_watering_can"
+			id: "29D090EDDF6924E9"
+			optional: true
+			rewards: [{
+				id: "5EF590A8F3918E7B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "372C72ABD8F17C94"
+				item: "mysticalagriculture:inferium_watering_can"
+				type: "item"
+			}]
+			title: "Un arrosoir d'inferium"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E0AAEDF3F6656A4"]
+			icon: "mysticalagriculture:prudentium_helmet"
+			id: "5DAB08480508247E"
+			optional: true
+			rewards: [{
+				id: "1EF4E36703E1E8ED"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "46410FB776DA5F8B"
+					item: "mysticalagriculture:prudentium_helmet"
+					type: "item"
+				}
+				{
+					id: "742E87DD5A9A3549"
+					item: "mysticalagriculture:prudentium_chestplate"
+					type: "item"
+				}
+			]
+			title: "Une armure de prudentium"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2D93EBED9447D1C9"]
+			icon: "mysticalagriculture:tertium_pickaxe"
+			id: "5A8EFB7665FC5A8D"
+			optional: true
+			rewards: [{
+				id: "2437330FEBE0AD39"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5A5E70166BB6BB31"
+					item: "mysticalagriculture:tertium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "173EBF7ABE972820"
+					item: "mysticalagriculture:tertium_sword"
+					type: "item"
+				}
+			]
+			title: "Des outils de tertium"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B7651ABDF440D26"]
+			icon: "mysticalagriculture:imperium_helmet"
+			id: "4121EC1AEBF69F17"
+			optional: true
+			rewards: [{
+				id: "106CDAA47A7747F0"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31AA914E095867F4"
+					item: "mysticalagriculture:imperium_helmet"
+					type: "item"
+				}
+				{
+					id: "0B3197DF2BA4FA93"
+					item: "mysticalagriculture:imperium_chestplate"
+					type: "item"
+				}
+			]
+			title: "Une armure d'imperium"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D0886FD0A32E223"]
+			icon: "mysticalagriculture:supremium_pickaxe"
+			id: "335110923F7F6107"
+			optional: true
+			rewards: [{
+				id: "25A491CEE3F80219"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "52D7A383A1F17311"
+					item: "mysticalagriculture:supremium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "6CE636C08F9EEAA6"
+					item: "mysticalagriculture:supremium_sword"
+					type: "item"
+				}
+			]
+			title: "Des outils de supremium"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B940EC1E5203B3A"]
+			icon: "mysticalagriculture:awakened_supremium_pickaxe"
+			id: "2529BD857996EE18"
+			optional: true
+			rewards: [{
+				id: "7B7A248EE8E3683F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "43638C3CBFCEA7A6"
+					item: "mysticalagriculture:awakened_supremium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "1504263B5AC69154"
+					item: "mysticalagriculture:awakened_supremium_sword"
+					type: "item"
+				}
+			]
+			title: "Des outils de supremium éveillé"
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77BE14D0C241B4E1"]
+			description: ["Les graines de créatures se nourrissent d'âmes. La dague de soulium les récolte en tuant, dans un bocal d'âme ; l'extracteur d'âme les tire des objets."]
+			icon: "mysticalagriculture:soulium_dagger"
+			id: "074F0B0A61ACFBA0"
+			optional: true
+			rewards: [{
+				id: "6A762B8AD2A52B26"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7263488927980534"
+				item: "mysticalagriculture:soulium_dagger"
+				type: "item"
+			}]
+			title: "Une dague de soulium"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["074F0B0A61ACFBA0"]
+			icon: "mysticalagriculture:soul_jar"
+			id: "34881D111BB699D9"
+			optional: true
+			rewards: [{
+				id: "54B46DCD8671648A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63D56CDBF8517C87"
+				item: "mysticalagriculture:soul_jar"
+				type: "item"
+			}]
+			title: "Un bocal d'âme"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34881D111BB699D9"]
+			icon: "mysticalagriculture:soul_extractor"
+			id: "18962A3A9C402FBB"
+			optional: true
+			rewards: [{
+				id: "396AC65E2691A4C2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4057368CD831058B"
+				item: "mysticalagriculture:soul_extractor"
+				type: "item"
+			}]
+			title: "Un extracteur d'âme"
+			x: 8.0d
+			y: 6.5d
+		}
 	]
 	title: "&aMystical Agriculture"
 }

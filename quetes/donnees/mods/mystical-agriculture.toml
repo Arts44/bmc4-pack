@@ -274,3 +274,93 @@ recompenses = ["xp 10"]
 description = """
 Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre &aPylons&r ajoute la récolte automatique sans énergie, à une condition près.
 """
+
+# ---- §9.4 : une rangée par palier, outils et armure (5 octobre 2026).
+# Identifiants de l'index : épée, pioche, casque, plastron, arrosoir par
+# palier ; dague de soulium, extracteur d'âme, bocal d'âme.
+[[quete]]
+cle = "outils_inferium"
+titre = "Des outils d'inferium"
+deps = ["inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:inferium_pickaxe", "item mysticalagriculture:inferium_sword"]
+recompenses = ["xp 3"]
+description = """
+Chaque palier d'essence fait ses outils et son armure, plus solides de palier en palier. Les arrosoirs font pousser ce qu'ils arrosent.
+"""
+
+[[quete]]
+cle = "arrosoir"
+titre = "Un arrosoir d'inferium"
+deps = ["inferium"]
+optionnel = true
+taches = ["item mysticalagriculture:inferium_watering_can"]
+recompenses = ["xp 3"]
+
+[[quete]]
+cle = "armure_prudentium"
+titre = "Une armure de prudentium"
+deps = ["prudentium"]
+optionnel = true
+taches = ["item mysticalagriculture:prudentium_helmet", "item mysticalagriculture:prudentium_chestplate"]
+recompenses = ["xp 4"]
+
+[[quete]]
+cle = "outils_tertium"
+titre = "Des outils de tertium"
+deps = ["tertium"]
+optionnel = true
+taches = ["item mysticalagriculture:tertium_pickaxe", "item mysticalagriculture:tertium_sword"]
+recompenses = ["xp 5"]
+
+[[quete]]
+cle = "armure_imperium"
+titre = "Une armure d'imperium"
+deps = ["imperium"]
+optionnel = true
+taches = ["item mysticalagriculture:imperium_helmet", "item mysticalagriculture:imperium_chestplate"]
+recompenses = ["xp 6"]
+
+[[quete]]
+cle = "outils_supremium"
+titre = "Des outils de supremium"
+deps = ["supremium"]
+optionnel = true
+taches = ["item mysticalagriculture:supremium_pickaxe", "item mysticalagriculture:supremium_sword"]
+recompenses = ["xp 8"]
+
+[[quete]]
+cle = "eveille_outils"
+titre = "Des outils de supremium éveillé"
+deps = ["eveille"]
+optionnel = true
+taille = 1.3
+taches = ["item mysticalagriculture:awakened_supremium_pickaxe", "item mysticalagriculture:awakened_supremium_sword"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "soulium"
+titre = "Une dague de soulium"
+deps = ["prosperite"]
+optionnel = true
+taches = ["item mysticalagriculture:soulium_dagger"]
+recompenses = ["xp 4"]
+description = """
+Les graines de créatures se nourrissent d'âmes. La dague de soulium les récolte en tuant, dans un bocal d'âme ; l'extracteur d'âme les tire des objets.
+"""
+
+[[quete]]
+cle = "bocal"
+titre = "Un bocal d'âme"
+deps = ["soulium"]
+optionnel = true
+taches = ["item mysticalagriculture:soul_jar"]
+recompenses = ["xp 3"]
+
+[[quete]]
+cle = "extracteur"
+titre = "Un extracteur d'âme"
+deps = ["bocal"]
+optionnel = true
+taches = ["item mysticalagriculture:soul_extractor"]
+recompenses = ["xp 5"]
