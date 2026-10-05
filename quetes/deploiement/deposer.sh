@@ -55,7 +55,9 @@ lancer() {  # lancer <fichier de commandes> : une session sftp, sortie sur stdou
          "$utilisateur@$hote" < "$1" 2>&1
 }
 taille_distante() {  # taille_distante <sortie de ls -l> <nom>
-  awk -v n="$2" '$NF == n { print $5 }' "$1" | head -1
+  # Seules les lignes de « ls -l » comptent : sftp réimprime aussi chaque
+  # commande (« sftp> put … <nom> »), dont le dernier champ est le même nom.
+  awk -v n="$2" 'NF >= 9 && $1 ~ /^[-dl]/ && $NF == n { print $5 }' "$1" | head -1
 }
 
 lot=$(mktemp -t bmc4-sftp)
