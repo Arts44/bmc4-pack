@@ -1,0 +1,225 @@
+# Chapitre « Twilight Forest — exploration » — cahier des charges §4.7
+# Sources (5 octobre 2026) : progrès et descriptions du jar
+# twilightforest-1.20.1-4.3.2508 (hill1/hill2/hill3 : redcap, sapeur, spectre
+# tués dans la colline ; hedge ; quest_ram ; magic_map_focus ; lich_scepters ;
+# fiery_set ; naga_armors ; arborist), structures et biomes de l'index,
+# twilightforest-common.toml du serveur (uncrafting désactivé, les quatre
+# cœurs d'arbres magiques actifs avec un rayon de 16). Twilight's Flavor &
+# Delight est au chapitre Cuisine.
+
+[chapitre]
+titre = "&aTwilight Forest — exploration"
+fichier = "monde_twilight_exploration"
+groupe = "monde"
+icone = "twilightforest:magic_map"
+ordre = 9
+
+[[quete]]
+cle = "intro"
+titre = "&aLa forêt, hors des boss"
+sous_titre = "Guide dans #twilight-forest sur le Discord."
+taille = 1.5
+icone = "twilightforest:firefly_jar"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:torch 16"]
+description = """
+Les collines creuses, les labyrinthes de haies, la clairière des quêtes, les arbres magiques : tout ce que la Twilight Forest offre sans boss. Une table de dé-fabrication s'y trouve aussi, mais sa fonction de dé-fabrication est &ldésactivée&r sur ce serveur ; ses recettes spéciales restent.
+"""
+
+[[quete]]
+cle = "carte"
+titre = "Une carte magique"
+deps = ["intro"]
+taches = ["advancement twilightforest:magic_map_focus", "item twilightforest:filled_magic_map"]
+recompenses = ["xp 5"]
+description = """
+Le &dfoyer de carte magique&r se fabrique avec une plume de corbeau, une torche des baies et des yeux de verre (progrès du mod) ; la carte qui en sort montre les biomes et les boss alentour.
+"""
+
+[[quete]]
+cle = "colline1"
+titre = "Une petite colline creuse"
+deps = ["intro"]
+taches = ["advancement twilightforest:hill1"]
+recompenses = ["xp 3"]
+description = """
+Pas de boss dans les collines creuses : du butin, des minerais et des monstres. Tuer un &cRedcap&r dans une petite colline valide le progrès.
+"""
+
+[[quete]]
+cle = "colline2"
+titre = "Une colline creuse moyenne"
+deps = ["colline1"]
+taches = ["advancement twilightforest:hill2"]
+recompenses = ["xp 5"]
+description = """
+Un &cRedcap sapeur&r, avec sa TNT, tué dans une colline moyenne.
+"""
+
+[[quete]]
+cle = "colline3"
+titre = "Une grande colline creuse"
+deps = ["colline2"]
+taches = ["advancement twilightforest:hill3"]
+recompenses = ["table explorateur"]
+description = """
+Un &7spectre&r tué dans une grande colline creuse. Les grandes collines cachent les meilleurs coffres — par joueur. &aJalon Explorateur.&r
+"""
+
+[[quete]]
+cle = "haies"
+titre = "Le labyrinthe de haies"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement twilightforest:hedge"]
+recompenses = ["xp 3"]
+description = """
+Des haies qui piquent, des araignées de haie et d'essaim. En tuer une dans le labyrinthe valide le progrès.
+"""
+
+[[quete]]
+cle = "belier"
+titre = "Le Bélier des quêtes"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement twilightforest:quest_ram"]
+recompenses = ["xp 8"]
+description = """
+Dans la clairière des quêtes, un bélier à seize couleurs demande les seize laines qui lui manquent. Il paie en diamants, en émeraudes, en lingots, et son trophée.
+"""
+
+[[quete]]
+cle = "champignons"
+titre = "La tour des champignons"
+deps = ["intro"]
+optionnel = true
+taches = ["structure twilightforest:mushroom_tower"]
+recompenses = ["xp 3"]
+description = """
+Une tour de champignons géants dans la forêt de champignons dense.
+"""
+
+[[quete]]
+cle = "foret_enchantee"
+titre = "La Forêt enchantée"
+deps = ["intro"]
+optionnel = true
+taches = ["biome twilightforest:enchanted_forest"]
+recompenses = ["xp 3"]
+description = """
+Des feuilles multicolores, et la clairière des quêtes au centre.
+"""
+
+[[quete]]
+cle = "foret_sombre"
+titre = "La Forêt sombre"
+deps = ["intro"]
+optionnel = true
+taches = ["biome twilightforest:dark_forest"]
+recompenses = ["xp 3"]
+description = """
+Sans la Liche vaincue, sa malédiction aveugle (texte du progrès). C'est là que sont le bastion des Gobelins et la tour sombre.
+"""
+
+[[quete]]
+cle = "marais_feu"
+titre = "Le Marais du feu"
+deps = ["intro"]
+optionnel = true
+taches = ["biome twilightforest:fire_swamp"]
+recompenses = ["xp 3"]
+description = """
+Sans le Stroganoff mangé, il brûle. Le repaire de l'Hydre est là.
+"""
+
+# ---- objets marquants
+[[quete]]
+cle = "sceptres"
+titre = "Les quatre sceptres"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement twilightforest:lich_scepters"]
+recompenses = ["xp 10"]
+description = """
+Drainage de vie, zombie, fortification, Twilight : les sceptres de la Liche, tous les quatre (progrès du mod).
+"""
+
+[[quete]]
+cle = "ardent"
+titre = "L'équipement ardent"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement twilightforest:fiery_set"]
+recompenses = ["xp 10"]
+description = """
+Le &clingot ardent&r vient du sang de l'Hydre. Tenir un outil ou une arme ardente avec une pièce d'armure ardente dans l'inventaire : le progrès du mod.
+"""
+
+[[quete]]
+cle = "bois_de_fer"
+titre = "Bois de fer et Steeleaf"
+deps = ["intro"]
+optionnel = true
+taches = ["item twilightforest:ironwood_ingot 4", "item twilightforest:steeleaf_ingot 4"]
+recompenses = ["xp 5"]
+description = """
+Le &6bois de fer&r se fabrique avec la racine vivante ; le &aSteeleaf&r se trouve dans les coffres du labyrinthe. Leurs outils arrivent déjà enchantés.
+"""
+
+[[quete]]
+cle = "knightmetal"
+titre = "Le métal de chevalier"
+deps = ["intro"]
+optionnel = true
+taches = ["item twilightforest:knightmetal_ingot 4"]
+recompenses = ["xp 5"]
+description = """
+Les fragments d'armure des gobelins chevaliers et des chevaliers fantômes, en amas puis en lingots. Armure, épée, bouclier, et la boucle de métal de chevalier.
+"""
+
+[[quete]]
+cle = "naga_armure"
+titre = "L'armure en écailles de Naga"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement twilightforest:naga_armors"]
+recompenses = ["xp 5"]
+description = """
+Plastron et jambières en écailles de Naga, les deux (progrès du mod).
+"""
+
+[[quete]]
+cle = "arbres"
+titre = "Les arbres magiques"
+deps = ["intro"]
+optionnel = true
+taille = 1.3
+taches = ["item twilightforest:transformation_sapling", "item twilightforest:time_sapling", "item twilightforest:mining_sapling", "item twilightforest:sorting_sapling"]
+recompenses = ["xp 10"]
+description = """
+Quatre arbres dont le cœur agit à seize blocs (config du serveur) : &dTransformation&r change les biomes, &bTemps&r accélère les ticks, &6Minage&r tire les minerais, &aTri&r range les coffres. Leurs pousses se trouvent dans les coffres de la forêt.
+"""
+
+[[quete]]
+cle = "arboriste"
+titre = "Arboriste"
+deps = ["arbres"]
+optionnel = true
+taches = ["advancement twilightforest:arborist"]
+recompenses = ["xp 15"]
+description = """
+Tout ce qui vient des arbres de la forêt : chaque dalle, pousse, feuille, bateau, rampe. Le progrès du mod le dit en majuscules.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&aLa forêt n'a plus de secret"
+deps = ["colline3", "belier"]
+exigence = "une"
+taille = 1.3
+icone = "twilightforest:quest_ram_trophy"
+taches = ["checkmark Exploré"]
+recompenses = ["xp 5"]
+description = """
+Une grande colline ou le Bélier suffisent. La cuisine de la forêt est au chapitre &7Cuisine&r (Twilight's Flavor & Delight).
+"""

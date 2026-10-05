@@ -1523,3 +1523,114 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Serene Seasons, réglé sur le serveur : chaque sous-saison dure 8 jours, donc 24 jours par saison et 96 par année, et le temps avance même serveur vide. L'hiver ne pose ni neige ni glace. Les cultures hors saison poussent plus lentement, sans mourir ; l'infobulle de chaque graine dit ses saisons. Le calendrier se fabrique et le verre de serre fait un capteur de saison.
 - **La carte est pleine** — tâches : checkmark J'ai pillé — récompense : xp 10 — après : manoir, monument, repurposed
   > Un jalon suffit à fermer le chapitre. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre Lieux de l'Encyclopédie listera chaque structure.
+
+## Twilight Forest — exploration  (`monde_twilight_exploration`, 19 quêtes)
+
+- **La forêt, hors des boss** — tâches : checkmark Lu — récompense : item minecraft:torch 16
+  > Les collines creuses, les labyrinthes de haies, la clairière des quêtes, les arbres magiques : tout ce que la Twilight Forest offre sans boss. Une table de dé-fabrication s'y trouve aussi, mais sa fonction de dé-fabrication est désactivée sur ce serveur ; ses recettes spéciales restent.
+- **Une carte magique** — tâches : advancement twilightforest:magic_map_focus, item twilightforest:filled_magic_map — récompense : xp 5 — après : intro
+  > Le foyer de carte magique se fabrique avec une plume de corbeau, une torche des baies et des yeux de verre (progrès du mod) ; la carte qui en sort montre les biomes et les boss alentour.
+- **Une petite colline creuse** — tâches : advancement twilightforest:hill1 — récompense : xp 3 — après : intro
+  > Pas de boss dans les collines creuses : du butin, des minerais et des monstres. Tuer un Redcap dans une petite colline valide le progrès.
+- **Une colline creuse moyenne** — tâches : advancement twilightforest:hill2 — récompense : xp 5 — après : colline1
+  > Un Redcap sapeur, avec sa TNT, tué dans une colline moyenne.
+- **Une grande colline creuse** — tâches : advancement twilightforest:hill3 — récompense : table explorateur — après : colline2
+  > Un spectre tué dans une grande colline creuse. Les grandes collines cachent les meilleurs coffres — par joueur. Jalon Explorateur.
+- **Le labyrinthe de haies** *(optionnelle)* — tâches : advancement twilightforest:hedge — récompense : xp 3 — après : intro
+  > Des haies qui piquent, des araignées de haie et d'essaim. En tuer une dans le labyrinthe valide le progrès.
+- **Le Bélier des quêtes** *(optionnelle)* — tâches : advancement twilightforest:quest_ram — récompense : xp 8 — après : intro
+  > Dans la clairière des quêtes, un bélier à seize couleurs demande les seize laines qui lui manquent. Il paie en diamants, en émeraudes, en lingots, et son trophée.
+- **La tour des champignons** *(optionnelle)* — tâches : structure twilightforest:mushroom_tower — récompense : xp 3 — après : intro
+  > Une tour de champignons géants dans la forêt de champignons dense.
+- **La Forêt enchantée** *(optionnelle)* — tâches : biome twilightforest:enchanted_forest — récompense : xp 3 — après : intro
+  > Des feuilles multicolores, et la clairière des quêtes au centre.
+- **La Forêt sombre** *(optionnelle)* — tâches : biome twilightforest:dark_forest — récompense : xp 3 — après : intro
+  > Sans la Liche vaincue, sa malédiction aveugle (texte du progrès). C'est là que sont le bastion des Gobelins et la tour sombre.
+- **Le Marais du feu** *(optionnelle)* — tâches : biome twilightforest:fire_swamp — récompense : xp 3 — après : intro
+  > Sans le Stroganoff mangé, il brûle. Le repaire de l'Hydre est là.
+- **Les quatre sceptres** *(optionnelle)* — tâches : advancement twilightforest:lich_scepters — récompense : xp 10 — après : intro
+  > Drainage de vie, zombie, fortification, Twilight : les sceptres de la Liche, tous les quatre (progrès du mod).
+- **L'équipement ardent** *(optionnelle)* — tâches : advancement twilightforest:fiery_set — récompense : xp 10 — après : intro
+  > Le lingot ardent vient du sang de l'Hydre. Tenir un outil ou une arme ardente avec une pièce d'armure ardente dans l'inventaire : le progrès du mod.
+- **Bois de fer et Steeleaf** *(optionnelle)* — tâches : item twilightforest:ironwood_ingot 4, item twilightforest:steeleaf_ingot 4 — récompense : xp 5 — après : intro
+  > Le bois de fer se fabrique avec la racine vivante ; le Steeleaf se trouve dans les coffres du labyrinthe. Leurs outils arrivent déjà enchantés.
+- **Le métal de chevalier** *(optionnelle)* — tâches : item twilightforest:knightmetal_ingot 4 — récompense : xp 5 — après : intro
+  > Les fragments d'armure des gobelins chevaliers et des chevaliers fantômes, en amas puis en lingots. Armure, épée, bouclier, et la boucle de métal de chevalier.
+- **L'armure en écailles de Naga** *(optionnelle)* — tâches : advancement twilightforest:naga_armors — récompense : xp 5 — après : intro
+  > Plastron et jambières en écailles de Naga, les deux (progrès du mod).
+- **Les arbres magiques** *(optionnelle)* — tâches : item twilightforest:transformation_sapling, item twilightforest:time_sapling, item twilightforest:mining_sapling, item twilightforest:sorting_sapling — récompense : xp 10 — après : intro
+  > Quatre arbres dont le cœur agit à seize blocs (config du serveur) : Transformation change les biomes, Temps accélère les ticks, Minage tire les minerais, Tri range les coffres. Leurs pousses se trouvent dans les coffres de la forêt.
+- **Arboriste** *(optionnelle)* — tâches : advancement twilightforest:arborist — récompense : xp 15 — après : arbres
+  > Tout ce qui vient des arbres de la forêt : chaque dalle, pousse, feuille, bateau, rampe. Le progrès du mod le dit en majuscules.
+- **La forêt n'a plus de secret** — tâches : checkmark Exploré — récompense : xp 5 — après : colline3, belier
+  > Une grande colline ou le Bélier suffisent. La cuisine de la forêt est au chapitre Cuisine (Twilight's Flavor Delight).
+
+## Twilight Forest — la progression  (`monde_twilight_progression`, 33 quêtes)
+
+- **Le portail de la Twilight Forest** — tâches : advancement twilightforest:root — récompense : item minecraft:diamond 1
+  > Un bassin d'eau de 2×2 entouré de fleurs, un diamant jeté dedans, un éclair. La progression de la forêt est verrouillée par ses boss sur ce serveur : un biome dont le boss précédent n'est pas tombé inflige des malus. Le butin des boss va dans un coffre posé là où le boss est apparu (config du serveur), et le portail de retour est utilisable sans objet.
+  >   > Sur Mac : désactive les shaders près des portails, ils font planter le jeu.
+- **La cour de la Naga** — tâches : structure twilightforest:naga_courtyard — récompense : xp 5 — après : portail
+  > Une cour de nagastone dans la forêt. La Naga y tourne ; c'est le premier boss, et rien d'autre n'est accessible avant elle.
+- **Vaincre la Naga** — tâches : advancement twilightforest:progress_naga — récompense : xp 15 — après : cour_naga
+  > Un serpent géant qui charge ; les pilonnes de la cour le ralentissent. Sa mort lève la barrière magique de la tour de la Liche (texte du progrès). Ses écailles font un plastron et des jambières. Sa mort est annoncée dans #faits-d-armes.
+- **Le trophée de la Naga** — tâches : item twilightforest:naga_trophy — récompense : xp 5 — après : naga
+  > Dans le coffre du boss. Les trophées ouvrent le bastion des Gobelins, et décorent.
+- **La tour de la Liche** — tâches : structure twilightforest:lich_tower — récompense : xp 5 — après : naga
+  > Une tour de brique dans la forêt, pleine de tomes de la mort et de boucliers. La Liche est au sommet.
+- **Vaincre la Liche** — tâches : advancement twilightforest:progress_lich — récompense : xp 20 — après : tour_liche
+  > Une seule Liche est réelle ; les autres sont des clones d'ombre, invulnérables. Casse d'abord ses six boucliers : chaque coup en retire un, une boule de neige suffit. Puis les sceptres : vie, zombie, fortification, Twilight. Le progrès du mod dit que sa mort chasse les moustiques du marais, la malédiction de la forêt sombre et le froid de la forêt enneigée.
+- **Le trophée de la Liche** — tâches : item twilightforest:lich_trophy — récompense : xp 5 — après : liche
+  > Dans le coffre du boss. Les quatre sceptres de pouvoir valent un progrès à part.
+- **Le labyrinthe du marais** — tâches : structure twilightforest:labyrinth — récompense : xp 5 — après : liche
+  > Sous le marais : des minotaures, des slimes de labyrinthe, des coffres par joueur. La salle du Minoshroom est à l'étage inférieur. La pioche Mazebreaker dort dans la chambre forte secrète.
+- **Vaincre le Minoshroom** — tâches : kill twilightforest:minoshroom — récompense : xp 15 — après : labyrinthe
+  > Un minotaure-champignon à la hache. Il lâche le Stroganoff de Meef : c'est en le mangeant que la progression passe, pas en le tuant.
+- **Manger le Stroganoff de Meef** — tâches : advancement twilightforest:progress_labyrinth — récompense : xp 10 — après : minoshroom
+  > Le progrès du mod : « manger le Stroganoff de Meef pour acclimater le corps à la chaleur du Marais du feu ». Sans lui, le marais brûle.
+- **Le repaire de l'Hydre** — tâches : structure twilightforest:hydra_lair — récompense : xp 5 — après : stroganoff
+  > Une colline creuse dans le Marais du feu. Trois têtes, puis plus.
+- **Vaincre l'Hydre** — tâches : advancement twilightforest:progress_hydra — récompense : xp 25 — après : repaire_hydre
+  > Frappe dans la gueule ouverte, esquive le feu et les mortiers. Son sang ardent fait les lingots ardents (épée, pioche, armure : progrès « fiery set »), et une tranche d'Hydre mangée affamé vaut un progrès. Sa mort est annoncée dans #faits-d-armes.
+- **Le trophée de l'Hydre** — tâches : item twilightforest:hydra_trophy — récompense : xp 5 — après : hydre
+  > Dans le coffre du boss.
+- **Un trophée sur le piédestal** — tâches : advancement twilightforest:progress_trophy_pedestal — récompense : xp 8 — après : liche
+  > Dans les ruines de la forêt sombre, un piédestal à trophée à l'entrée du bastion des Gobelins : y poser un trophée de boss dissout les boucliers. Il faut avoir vaincu la Liche (parent du progrès).
+- **Le bastion des Gobelins** — tâches : structure twilightforest:knight_stronghold — récompense : xp 5 — après : piedestal
+  > Gobelins chevaliers, golems de carminite, et la tombe des Chevaliers fantômes.
+- **Vaincre les Chevaliers fantômes** — tâches : advancement twilightforest:progress_knights — récompense : xp 20 — après : bastion
+  > Tous les fantômes de la tombe, jusqu'au dernier (progrès « kill all phantoms »). Leur butin ne va pas dans un coffre, contrairement aux autres boss (config du serveur). Ensuite, les dispositifs de la tour de carminite t'obéissent.
+- **Le trophée des Chevaliers fantômes** — tâches : item twilightforest:knight_phantom_trophy — récompense : xp 5 — après : chevaliers
+  > Pris dans la tombe. Le métal de chevalier fait une armure, un bouclier et une boucle.
+- **La tour sombre** — tâches : structure twilightforest:dark_tower — récompense : xp 5 — après : chevaliers
+  > Dans la forêt sombre : du towerwood, des ghastlings et ghastguards de carminite, des pièges. Au sommet, un piège à Ghast.
+- **Activer le piège à Ghast** — tâches : advancement twilightforest:ghast_trap — récompense : xp 8 — après : tour_sombre
+  > Tuer les ghastlings autour du piège, puis l'activer pour arracher l'Ur-Ghast au ciel (texte du progrès).
+- **Vaincre l'Ur-Ghast** — tâches : advancement twilightforest:progress_ur_ghast — récompense : xp 25 — après : piege_ghast
+  > Un ghast géant qui pleure des larmes rouges. Toucher ses larmes ardentes est le progrès. Sa mort est annoncée dans #faits-d-armes.
+- **Le trophée de l'Ur-Ghast** — tâches : item twilightforest:ur_ghast_trophy — récompense : xp 5 — après : ur_ghast
+  > Dans le coffre du boss.
+- **La grotte du Yéti** — tâches : structure twilightforest:yeti_cave — récompense : xp 5 — après : liche
+  > Dans la forêt enneigée, accessible une fois la Liche vaincue. Le Yéti Alpha y lance de la glace.
+- **Vaincre le Yéti Alpha** — tâches : advancement twilightforest:progress_yeti — récompense : xp 20 — après : grotte_yeti
+  > Sa fourrure double les vêtements contre le froid du Glacier (texte du progrès) : l'armure de Yéti ouvre la suite.
+- **Le trophée du Yéti Alpha** — tâches : item twilightforest:alpha_yeti_trophy — récompense : xp 5 — après : yeti
+  > Dans le coffre du boss.
+- **Le palais des aurores** — tâches : structure twilightforest:aurora_palace — récompense : xp 5 — après : yeti
+  > Sur le Glacier, un palais de glace. La Reine des Neiges au sommet, protégée par ses cœurs de glace.
+- **Vaincre la Reine des Neiges** — tâches : advancement twilightforest:progress_glacier — récompense : xp 25 — après : palais
+  > Casse ses cœurs de glace quand elle se pose. Sa mort est annoncée dans #faits-d-armes.
+- **Le trophée de la Reine des Neiges** — tâches : item twilightforest:snow_queen_trophy — récompense : xp 5 — après : reine
+  > Dans le coffre du boss.
+- **Les trois piliers** — tâches : advancement twilightforest:progress_merge — récompense : xp 15 — après : hydre, ur_ghast, reine
+  > Hydre, Ur-Ghast et Reine des Neiges vaincus : la pluie acide des Hautes terres cesse (texte du progrès). Les grottes des trolls et le haricot magique s'ouvrent.
+- **La grotte des trolls** — tâches : advancement twilightforest:troll — récompense : xp 8 — après : merge
+  > Tuer un troll dans sa grotte (progrès du mod). On y trouve les haricots magiques.
+- **Les géants des nuages** — tâches : advancement twilightforest:giants — récompense : xp 10 — après : trolls
+  > Des haricots magiques sur le sol lumineux sous les nuages, un géant mineur tué là-haut, et sa pioche de géant ramenée aux grottes (textes des progrès).
+- **La Lampe de cendres** — tâches : advancement twilightforest:progress_troll — récompense : xp 10 — après : geants
+  > Dans les grottes des trolls, la Lampe de cendres brûle les barrières d'épines (texte du progrès). Elle ouvre le Plateau final.
+- **Le Plateau final** — tâches : advancement twilightforest:progression_end — récompense : xp 20 — après : lampe
+  > Le château final se dresse là. Le mod le dit lui-même : « tout ce qui est au-delà est en travaux, à finir dans une future version ». Y arriver est la fin de la progression actuelle.
+- **Seigneur de la forêt** — tâches : checkmark Tous les trophées sont chez moi — récompense : xp 10 — après : plateau
+  > Sept boss, sept trophées, une lampe. Le chapitre Exploration de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques.

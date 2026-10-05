@@ -1,0 +1,440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_twilight_exploration"
+	group: "17185D2694D86048"
+	icon: "twilightforest:magic_map"
+	id: "0F9DAB7972C593F5"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Les collines creuses, les labyrinthes de haies, la clairière des quêtes, les arbres magiques : tout ce que la Twilight Forest offre sans boss. Une table de dé-fabrication s'y trouve aussi, mais sa fonction de dé-fabrication est &ldésactivée&r sur ce serveur ; ses recettes spéciales restent."]
+			icon: "twilightforest:firefly_jar"
+			id: "69144B2C68C1F338"
+			rewards: [{
+				count: 16
+				id: "3212F11039B8B892"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #twilight-forest sur le Discord."
+			tasks: [{
+				id: "0ECC3BA67B800812"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&aLa forêt, hors des boss"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Le &dfoyer de carte magique&r se fabrique avec une plume de corbeau, une torche des baies et des yeux de verre (progrès du mod) ; la carte qui en sort montre les biomes et les boss alentour."]
+			icon: "twilightforest:filled_magic_map"
+			id: "672C0EE7C560560B"
+			rewards: [{
+				id: "3FE63F333D7B6147"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					advancement: "twilightforest:magic_map_focus"
+					criterion: ""
+					id: "78AE1ED61439F9FB"
+					type: "advancement"
+				}
+				{
+					id: "518286478EE5DAF7"
+					item: "twilightforest:filled_magic_map"
+					type: "item"
+				}
+			]
+			title: "Une carte magique"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Pas de boss dans les collines creuses : du butin, des minerais et des monstres. Tuer un &cRedcap&r dans une petite colline valide le progrès."]
+			id: "38D31954FEB31B31"
+			rewards: [{
+				id: "5794A090DCB98B96"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "twilightforest:hill1"
+				criterion: ""
+				id: "084BD3CA1A5C23AF"
+				type: "advancement"
+			}]
+			title: "Une petite colline creuse"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["38D31954FEB31B31"]
+			description: ["Un &cRedcap sapeur&r, avec sa TNT, tué dans une colline moyenne."]
+			id: "1967977F37FA26A0"
+			rewards: [{
+				id: "13322AE1B6D0A8EE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "twilightforest:hill2"
+				criterion: ""
+				id: "691B74C593ED75D3"
+				type: "advancement"
+			}]
+			title: "Une colline creuse moyenne"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1967977F37FA26A0"]
+			description: ["Un &7spectre&r tué dans une grande colline creuse. Les grandes collines cachent les meilleurs coffres — par joueur. &aJalon Explorateur.&r"]
+			id: "7F56A70DA4457658"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E42ED0A04B8F312"
+				table_id: 2972911916655707281L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "twilightforest:hill3"
+				criterion: ""
+				id: "5CFB5489F0F7706C"
+				type: "advancement"
+			}]
+			title: "Une grande colline creuse"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Des haies qui piquent, des araignées de haie et d'essaim. En tuer une dans le labyrinthe valide le progrès."]
+			id: "28D0B3123A439598"
+			optional: true
+			rewards: [{
+				id: "66ADD5EB4A130DA9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:hedge"
+				criterion: ""
+				id: "27E9EC9016F9A245"
+				type: "advancement"
+			}]
+			title: "Le labyrinthe de haies"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Dans la clairière des quêtes, un bélier à seize couleurs demande les seize laines qui lui manquent. Il paie en diamants, en émeraudes, en lingots, et son trophée."]
+			id: "68BB4DE38C63EF89"
+			optional: true
+			rewards: [{
+				id: "583F895BD400EEFF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "0DD60E7800FFD9DB"
+				type: "advancement"
+			}]
+			title: "Le Bélier des quêtes"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Une tour de champignons géants dans la forêt de champignons dense."]
+			id: "4CAE73741F04C992"
+			optional: true
+			rewards: [{
+				id: "3441F5CCCB8639CE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "459AF1B13B088BA5"
+				structure: "twilightforest:mushroom_tower"
+				type: "structure"
+			}]
+			title: "La tour des champignons"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Des feuilles multicolores, et la clairière des quêtes au centre."]
+			id: "011D585D1831D2FD"
+			optional: true
+			rewards: [{
+				id: "0D68E196791B3F44"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:enchanted_forest"
+				id: "03EDC1167DCDF251"
+				type: "biome"
+			}]
+			title: "La Forêt enchantée"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Sans la Liche vaincue, sa malédiction aveugle (texte du progrès). C'est là que sont le bastion des Gobelins et la tour sombre."]
+			id: "43F992C480BFE610"
+			optional: true
+			rewards: [{
+				id: "6B65494CD3D2FB39"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				id: "0B6C30E982CEC0CB"
+				type: "biome"
+			}]
+			title: "La Forêt sombre"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Sans le Stroganoff mangé, il brûle. Le repaire de l'Hydre est là."]
+			id: "6AA95B2BF2EDFB72"
+			optional: true
+			rewards: [{
+				id: "1530639922808F1B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:fire_swamp"
+				id: "0641BF69C5BE9932"
+				type: "biome"
+			}]
+			title: "Le Marais du feu"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Drainage de vie, zombie, fortification, Twilight : les sceptres de la Liche, tous les quatre (progrès du mod)."]
+			id: "041CBF71006D4E9F"
+			optional: true
+			rewards: [{
+				id: "4219A6ABFE62C762"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:lich_scepters"
+				criterion: ""
+				id: "5C299187A52CC87D"
+				type: "advancement"
+			}]
+			title: "Les quatre sceptres"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Le &clingot ardent&r vient du sang de l'Hydre. Tenir un outil ou une arme ardente avec une pièce d'armure ardente dans l'inventaire : le progrès du mod."]
+			id: "15FF4350E7409ECE"
+			optional: true
+			rewards: [{
+				id: "73E684470BBA40AC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:fiery_set"
+				criterion: ""
+				id: "19E260F1542D873D"
+				type: "advancement"
+			}]
+			title: "L'équipement ardent"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Le &6bois de fer&r se fabrique avec la racine vivante ; le &aSteeleaf&r se trouve dans les coffres du labyrinthe. Leurs outils arrivent déjà enchantés."]
+			icon: "twilightforest:ironwood_ingot"
+			id: "387EE39C7138C6B0"
+			optional: true
+			rewards: [{
+				id: "60FF23762E516256"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "53094CA6CBADAF94"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2BD37E334E4A92B8"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			title: "Bois de fer et Steeleaf"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Les fragments d'armure des gobelins chevaliers et des chevaliers fantômes, en amas puis en lingots. Armure, épée, bouclier, et la boucle de métal de chevalier."]
+			icon: "twilightforest:knightmetal_ingot"
+			id: "4428698375C92BD0"
+			optional: true
+			rewards: [{
+				id: "6C47B75DE35A508B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "4B6FA5D216634964"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			title: "Le métal de chevalier"
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Plastron et jambières en écailles de Naga, les deux (progrès du mod)."]
+			id: "4C9C35635DE5DC13"
+			optional: true
+			rewards: [{
+				id: "3E1098FC6392D858"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:naga_armors"
+				criterion: ""
+				id: "0996CC5467EFC445"
+				type: "advancement"
+			}]
+			title: "L'armure en écailles de Naga"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["Quatre arbres dont le cœur agit à seize blocs (config du serveur) : &dTransformation&r change les biomes, &bTemps&r accélère les ticks, &6Minage&r tire les minerais, &aTri&r range les coffres. Leurs pousses se trouvent dans les coffres de la forêt."]
+			icon: "twilightforest:transformation_sapling"
+			id: "2D1F1217BFDF0499"
+			optional: true
+			rewards: [{
+				id: "2D90B2DDFE8B6DC5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "12C960A4517431ED"
+					item: "twilightforest:transformation_sapling"
+					type: "item"
+				}
+				{
+					id: "2772733C1176184D"
+					item: "twilightforest:time_sapling"
+					type: "item"
+				}
+				{
+					id: "1FC6844415A6077E"
+					item: "twilightforest:mining_sapling"
+					type: "item"
+				}
+				{
+					id: "40B82B314F599086"
+					item: "twilightforest:sorting_sapling"
+					type: "item"
+				}
+			]
+			title: "Les arbres magiques"
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["2D1F1217BFDF0499"]
+			description: ["Tout ce qui vient des arbres de la forêt : chaque dalle, pousse, feuille, bateau, rampe. Le progrès du mod le dit en majuscules."]
+			id: "72AC0671DBE3A8A6"
+			optional: true
+			rewards: [{
+				id: "04712D5BCAB28FA4"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:arborist"
+				criterion: ""
+				id: "10DE5045FAB74CA9"
+				type: "advancement"
+			}]
+			title: "Arboriste"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7F56A70DA4457658"
+				"68BB4DE38C63EF89"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Une grande colline ou le Bélier suffisent. La cuisine de la forêt est au chapitre &7Cuisine&r (Twilight's Flavor & Delight)."]
+			icon: "twilightforest:quest_ram_trophy"
+			id: "393F3388C6A777A3"
+			rewards: [{
+				id: "0EC424158D126558"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "6F549F6283A9F29F"
+				title: "Exploré"
+				type: "checkmark"
+			}]
+			title: "&aLa forêt n'a plus de secret"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&aTwilight Forest — exploration"
+}

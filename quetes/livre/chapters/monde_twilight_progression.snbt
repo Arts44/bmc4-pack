@@ -1,0 +1,663 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_twilight_progression"
+	group: "17185D2694D86048"
+	icon: "twilightforest:naga_trophy"
+	id: "139F018FCC4FB5E3"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Un bassin d'eau de 2×2 entouré de fleurs, un &bdiamant&r jeté dedans, un éclair. La progression de la forêt est &lverrouillée par ses boss&r sur ce serveur : un biome dont le boss précédent n'est pas tombé inflige des malus. Le butin des boss va dans un &lcoffre&r posé là où le boss est apparu (config du serveur), et le portail de retour est utilisable sans objet."
+				""
+				"Sur Mac : désactive les shaders près des portails, ils font planter le jeu."
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "49F68B8AEB0F5E46"
+			rewards: [{
+				id: "1BF49F94BB5FD177"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #twilight-forest sur le Discord."
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "559F80227D4E6E75"
+				type: "advancement"
+			}]
+			title: "&2Le portail de la Twilight Forest"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49F68B8AEB0F5E46"]
+			description: ["Une cour de nagastone dans la forêt. La &2Naga&r y tourne ; c'est le premier boss, et rien d'autre n'est accessible avant elle."]
+			id: "39B25C1E8EE1DFB1"
+			rewards: [{
+				id: "7A5F8EA4D232EC25"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "157E7C165345D1D2"
+				structure: "twilightforest:naga_courtyard"
+				type: "structure"
+			}]
+			title: "La cour de la Naga"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39B25C1E8EE1DFB1"]
+			description: ["Un serpent géant qui charge ; les pilonnes de la cour le ralentissent. Sa mort lève la barrière magique de la tour de la Liche (texte du progrès). Ses écailles font un plastron et des jambières. Sa mort est annoncée dans #faits-d-armes."]
+			id: "4BE50667533C34E4"
+			rewards: [{
+				id: "1D716F941D3516FA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "4ECC4A407684F610"
+				type: "advancement"
+			}]
+			title: "&2Vaincre la Naga"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BE50667533C34E4"]
+			description: ["Dans le coffre du boss. Les trophées ouvrent le bastion des Gobelins, et décorent."]
+			icon: "twilightforest:naga_trophy"
+			id: "2657F719328B2C86"
+			rewards: [{
+				id: "47574B3C2B528F77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "470331D5D6DA7E76"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "Le trophée de la Naga"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4BE50667533C34E4"]
+			description: ["Une tour de brique dans la forêt, pleine de tomes de la mort et de boucliers. La &5Liche&r est au sommet."]
+			id: "2C8267741CCF0457"
+			rewards: [{
+				id: "7BACE50A41AA5D0A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7A169DC5207F6D73"
+				structure: "twilightforest:lich_tower"
+				type: "structure"
+			}]
+			title: "La tour de la Liche"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2C8267741CCF0457"]
+			description: ["Une seule Liche est réelle ; les autres sont des clones d'ombre, invulnérables. Casse d'abord ses &lsix boucliers&r : chaque coup en retire un, une boule de neige suffit. Puis les sceptres : vie, zombie, fortification, Twilight. Le progrès du mod dit que sa mort chasse les moustiques du marais, la malédiction de la forêt sombre et le froid de la forêt enneigée."]
+			id: "40403E97C09902E0"
+			rewards: [{
+				id: "34D147EA35CF6CD1"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "092D907A975E0624"
+				type: "advancement"
+			}]
+			title: "&5Vaincre la Liche"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40403E97C09902E0"]
+			description: ["Dans le coffre du boss. Les quatre sceptres de pouvoir valent un progrès à part."]
+			icon: "twilightforest:lich_trophy"
+			id: "764343902C59B459"
+			rewards: [{
+				id: "64204572A0488266"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "40D953BDB1E54CF3"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "Le trophée de la Liche"
+			x: 10.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["40403E97C09902E0"]
+			description: ["Sous le marais : des minotaures, des slimes de labyrinthe, des coffres par joueur. La salle du &cMinoshroom&r est à l'étage &linférieur&r. La pioche Mazebreaker dort dans la chambre forte secrète."]
+			id: "64039C5240306C98"
+			rewards: [{
+				id: "6188B94C8A2B83BE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4E1A76D6383C5EE2"
+				structure: "twilightforest:labyrinth"
+				type: "structure"
+			}]
+			title: "Le labyrinthe du marais"
+			x: 10.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["64039C5240306C98"]
+			description: ["Un minotaure-champignon à la hache. Il lâche le &6Stroganoff de Meef&r : c'est en le mangeant que la progression passe, pas en le tuant."]
+			icon: "twilightforest:minoshroom_spawn_egg"
+			id: "53090FD9DF6E3205"
+			rewards: [{
+				id: "60E1A7A577272505"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "057C31474BFB0B87"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cVaincre le Minoshroom"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53090FD9DF6E3205"]
+			description: ["Le progrès du mod : « manger le Stroganoff de Meef pour acclimater le corps à la chaleur du Marais du feu ». Sans lui, le marais brûle."]
+			id: "226E59C08320F06E"
+			rewards: [{
+				id: "1609CB95A8A3652B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "7E7A74AFD206CB26"
+				type: "advancement"
+			}]
+			title: "Manger le Stroganoff de Meef"
+			x: 14.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["226E59C08320F06E"]
+			description: ["Une colline creuse dans le Marais du feu. Trois têtes, puis plus."]
+			id: "3ACAA0E95785B149"
+			rewards: [{
+				id: "6D169C860CB7D0E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0BAB6030FCDA0BF6"
+				structure: "twilightforest:hydra_lair"
+				type: "structure"
+			}]
+			title: "Le repaire de l'Hydre"
+			x: 16.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3ACAA0E95785B149"]
+			description: ["Frappe dans la gueule ouverte, esquive le feu et les mortiers. Son sang ardent fait les lingots ardents (épée, pioche, armure : progrès « fiery set »), et une tranche d'Hydre mangée affamé vaut un progrès. Sa mort est annoncée dans #faits-d-armes."]
+			id: "24285F86951D46F9"
+			rewards: [{
+				id: "78160C8EF4894477"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "6026F794D2BDD679"
+				type: "advancement"
+			}]
+			title: "&cVaincre l'Hydre"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24285F86951D46F9"]
+			description: ["Dans le coffre du boss."]
+			icon: "twilightforest:hydra_trophy"
+			id: "6B0EAD443978034B"
+			rewards: [{
+				id: "285F28927BF78F6B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5DB97010CF6C4CC6"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "Le trophée de l'Hydre"
+			x: 20.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["40403E97C09902E0"]
+			description: ["Dans les ruines de la forêt sombre, un &lpiédestal à trophée&r à l'entrée du bastion des Gobelins : y poser un trophée de boss dissout les boucliers. Il faut avoir vaincu la Liche (parent du progrès)."]
+			id: "2DD5FE87ABE1BF7D"
+			rewards: [{
+				id: "0B54C9776720DC3D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_trophy_pedestal"
+				criterion: ""
+				id: "61D0685C4E418CF9"
+				type: "advancement"
+			}]
+			title: "Un trophée sur le piédestal"
+			x: 10.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2DD5FE87ABE1BF7D"]
+			description: ["Gobelins chevaliers, golems de carminite, et la tombe des &7Chevaliers fantômes&r."]
+			id: "1375E94CC9856941"
+			rewards: [{
+				id: "4367797B9002B62D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "20B4A523A6BA79F1"
+				structure: "twilightforest:knight_stronghold"
+				type: "structure"
+			}]
+			title: "Le bastion des Gobelins"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1375E94CC9856941"]
+			description: ["Tous les fantômes de la tombe, jusqu'au dernier (progrès « kill all phantoms »). Leur butin ne va pas dans un coffre, contrairement aux autres boss (config du serveur). Ensuite, les dispositifs de la tour de carminite t'obéissent."]
+			id: "0C51B66D576042E1"
+			rewards: [{
+				id: "1A39DD65E37D722D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "100C2B4F342C4F1D"
+				type: "advancement"
+			}]
+			title: "&7Vaincre les Chevaliers fantômes"
+			x: 14.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0C51B66D576042E1"]
+			description: ["Pris dans la tombe. Le métal de chevalier fait une armure, un bouclier et une boucle."]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "01CAB6108DB622D7"
+			rewards: [{
+				id: "157B92852CB5C3DA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "05FCF1EC290646CA"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "Le trophée des Chevaliers fantômes"
+			x: 16.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0C51B66D576042E1"]
+			description: ["Dans la forêt sombre : du towerwood, des ghastlings et ghastguards de carminite, des pièges. Au sommet, un &lpiège à Ghast&r."]
+			id: "0BB2DAFA79C8A020"
+			rewards: [{
+				id: "6509F8B4ED6A92C2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "13AD539A08952E6B"
+				structure: "twilightforest:dark_tower"
+				type: "structure"
+			}]
+			title: "La tour sombre"
+			x: 16.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0BB2DAFA79C8A020"]
+			description: ["Tuer les ghastlings autour du piège, puis l'activer pour arracher l'&cUr-Ghast&r au ciel (texte du progrès)."]
+			id: "05120D47943F441C"
+			rewards: [{
+				id: "5A77724DA63911DF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "twilightforest:ghast_trap"
+				criterion: ""
+				id: "4122227FE3E07CFB"
+				type: "advancement"
+			}]
+			title: "Activer le piège à Ghast"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05120D47943F441C"]
+			description: ["Un ghast géant qui pleure des larmes rouges. Toucher ses larmes ardentes est le progrès. Sa mort est annoncée dans #faits-d-armes."]
+			id: "171CC396EA14354E"
+			rewards: [{
+				id: "1F0E8C34CD3F4AAE"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "5C767D5DFECEC349"
+				type: "advancement"
+			}]
+			title: "&cVaincre l'Ur-Ghast"
+			x: 20.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["171CC396EA14354E"]
+			description: ["Dans le coffre du boss."]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "54F12401D56BF9E4"
+			rewards: [{
+				id: "77260F2F7BCEC8BF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "53D4969F617C2728"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "Le trophée de l'Ur-Ghast"
+			x: 22.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["40403E97C09902E0"]
+			description: ["Dans la forêt enneigée, accessible une fois la Liche vaincue. Le &fYéti Alpha&r y lance de la glace."]
+			id: "315200A581F85F42"
+			rewards: [{
+				id: "4AA619E18899127C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "784663B43DE7D878"
+				structure: "twilightforest:yeti_cave"
+				type: "structure"
+			}]
+			title: "La grotte du Yéti"
+			x: 10.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["315200A581F85F42"]
+			description: ["Sa fourrure double les vêtements contre le froid du Glacier (texte du progrès) : l'armure de Yéti ouvre la suite."]
+			id: "6EE6F614A6792790"
+			rewards: [{
+				id: "758170AABB2C35CA"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "7A14FAFB196D2548"
+				type: "advancement"
+			}]
+			title: "&fVaincre le Yéti Alpha"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EE6F614A6792790"]
+			description: ["Dans le coffre du boss."]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "1D142BB890CA7643"
+			rewards: [{
+				id: "25816F8FF60D8919"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4DF7A4D1DBEA0EF9"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "Le trophée du Yéti Alpha"
+			x: 14.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6EE6F614A6792790"]
+			description: ["Sur le Glacier, un palais de glace. La &bReine des Neiges&r au sommet, protégée par ses cœurs de glace."]
+			id: "18ADFF03D23A2F6F"
+			rewards: [{
+				id: "001C9CB6716FD8A1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "047962FCBF611FD9"
+				structure: "twilightforest:aurora_palace"
+				type: "structure"
+			}]
+			title: "Le palais des aurores"
+			x: 14.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["18ADFF03D23A2F6F"]
+			description: ["Casse ses cœurs de glace quand elle se pose. Sa mort est annoncée dans #faits-d-armes."]
+			id: "083EC3B1654007F9"
+			rewards: [{
+				id: "682185231207BBF0"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "3CA6A9708DF92303"
+				type: "advancement"
+			}]
+			title: "&bVaincre la Reine des Neiges"
+			x: 16.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["083EC3B1654007F9"]
+			description: ["Dans le coffre du boss."]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "0CD802C9E7D7AC73"
+			rewards: [{
+				id: "48C4D0F0177C9507"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2852D198940EA79F"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "Le trophée de la Reine des Neiges"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"24285F86951D46F9"
+				"171CC396EA14354E"
+				"083EC3B1654007F9"
+			]
+			description: ["Hydre, Ur-Ghast et Reine des Neiges vaincus : la pluie acide des Hautes terres cesse (texte du progrès). Les grottes des trolls et le haricot magique s'ouvrent."]
+			id: "2B5304413608F168"
+			rewards: [{
+				id: "512650FBFC674626"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			size: 1.3d
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "2A792CE52085064A"
+				type: "advancement"
+			}]
+			title: "&6Les trois piliers"
+			x: 22.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B5304413608F168"]
+			description: ["Tuer un troll dans sa grotte (progrès du mod). On y trouve les &aharicots magiques&r."]
+			id: "341FAE8191C7F128"
+			rewards: [{
+				id: "477E3DA82BD1BDF2"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "twilightforest:troll"
+				criterion: ""
+				id: "3C56A165B9F90D2E"
+				type: "advancement"
+			}]
+			title: "La grotte des trolls"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["341FAE8191C7F128"]
+			description: ["Des haricots magiques sur le sol lumineux sous les nuages, un géant mineur tué là-haut, et sa pioche de géant ramenée aux grottes (textes des progrès)."]
+			id: "7FD2F2C15FF69D90"
+			rewards: [{
+				id: "21B8DAAA8992B69F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "twilightforest:giants"
+				criterion: ""
+				id: "6B06009EBC341A54"
+				type: "advancement"
+			}]
+			title: "Les géants des nuages"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FD2F2C15FF69D90"]
+			description: ["Dans les grottes des trolls, la &6Lampe de cendres&r brûle les barrières d'épines (texte du progrès). Elle ouvre le Plateau final."]
+			id: "56E71879ED8E3379"
+			rewards: [{
+				id: "30916C98EEC13034"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "220E9B11C4033DF1"
+				type: "advancement"
+			}]
+			title: "La Lampe de cendres"
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56E71879ED8E3379"]
+			description: ["Le château final se dresse là. Le mod le dit lui-même : « tout ce qui est au-delà est en travaux, à finir dans une future version ». Y arriver est la fin de la progression actuelle."]
+			id: "44218DDF1148BAB4"
+			rewards: [{
+				id: "415329C922B2A754"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progression_end"
+				criterion: ""
+				id: "3C577B99CFA277ED"
+				type: "advancement"
+			}]
+			title: "&6Le Plateau final"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44218DDF1148BAB4"]
+			description: ["Sept boss, sept trophées, une lampe. Le chapitre &7Exploration&r de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques."]
+			icon: "twilightforest:lich_trophy"
+			id: "294F3D284E2CDD4F"
+			rewards: [{
+				id: "6AC0F52AAAB105A5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3BA6D3A552B4EE6C"
+				title: "Tous les trophées sont chez moi"
+				type: "checkmark"
+			}]
+			title: "&2Seigneur de la forêt"
+			x: 32.0d
+			y: 0.0d
+		}
+	]
+	title: "&2Twilight Forest — la progression"
+}
