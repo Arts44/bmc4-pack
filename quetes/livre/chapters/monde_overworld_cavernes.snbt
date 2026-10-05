@@ -1,0 +1,314 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_overworld_cavernes"
+	group: "17185D2694D86048"
+	icon: "minecraft:amethyst_cluster"
+	id: "0039ECDF82FED567"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Trois biomes de cavernes de &bYUNG's&r, trois de &bGalosphere&r, les géodes, la cité ancienne refaite par &bDungeons and Taverns&r et, tout au fond, le Warden. C'est aussi par là qu'on descend dans l'&8Otherside&r de Deeper and Darker, qui a son chapitre."]
+			icon: "minecraft:glow_berries"
+			id: "6E5161095738E9F8"
+			rewards: [
+				{
+					count: 32
+					id: "0ECFC61C4E9CE32E"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "76361BC6086084D5"
+					item: "minecraft:cooked_cod"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #exploration sur le Discord."
+			tasks: [{
+				id: "3D2AB6F3624E90DC"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&3Sous la surface"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E5161095738E9F8"]
+			description: ["Les géodes du jeu, plus les cristaux de Galosphere qui poussent de la même façon. Sur ce serveur, l'améthyste bourgeonnante se &lmine plus lentement&r (config Galosphere) : on casse les grappes, pas le bloc."]
+			icon: "minecraft:amethyst_shard"
+			id: "24D5DBE661BC3CEA"
+			rewards: [{
+				id: "6304AD979805BF50"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "26EC5E08D8571637"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "Une géode d'améthyste"
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["6E5161095738E9F8"]
+			description: ["&bYUNG's Cave Biomes&r : des cavernes de glace sous les biomes froids, avec de la glace enchantée, des stalactites de glace et des lys de givre. L'effet Givre ralentit et blesse."]
+			id: "6AC167B2CB7EFAE9"
+			rewards: [{
+				id: "5608800627151946"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "yungscavebiomes:frosted_caves"
+				id: "7BEDA103BC2145A7"
+				type: "biome"
+			}]
+			title: "Les Cavernes givrées"
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6E5161095738E9F8"]
+			description: ["Marbre et travertin, des cascades : le biome de caverne le plus clair. Les blocs se taillent au tailleur de pierre."]
+			id: "1B5183C2C72F7993"
+			rewards: [{
+				id: "266B981355ED18FD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "yungscavebiomes:marble_caves"
+				id: "3CF4E07DC51507BC"
+				type: "biome"
+			}]
+			title: "Les Cavernes de marbre"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6E5161095738E9F8"]
+			description: ["Sous les déserts : du sable ancien, des cactus à pêches épineuses, des tessons, et des &ltempêtes de sable&r activées sur le serveur, de deux à dix minutes, toutes les vingt à quarante minutes. L'effet Ballotté réduit la vue et la vitesse."]
+			id: "3E4F88A6FDDC5809"
+			rewards: [{
+				id: "51750BE1550E5874"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				biome: "yungscavebiomes:lost_caves"
+				id: "1DB721E1F3B99746"
+				type: "biome"
+			}]
+			title: "Les Cavernes perdues"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6E5161095738E9F8"]
+			description: ["&bGalosphere&r : des canyons d'&dallurite&r et de &elumière&r, deux cristaux qui ne poussent que là. L'allurite fait des lampes ; la lumière se composte en poudre de glowstone."]
+			id: "7F25BE89D2838422"
+			rewards: [{
+				id: "44A14C47B16B5C15"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "galosphere:crystal_canyons"
+				id: "6A94D5106B753FE7"
+				type: "biome"
+			}]
+			title: "Les Canyons de cristal"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E5161095738E9F8"]
+			description: ["Du lichen partout, et des &aCordyceps de lichen&r qui se mangent même sous l'eau. Marcher sur la mousse de lichen la fait luire."]
+			id: "386302B701C7FBAC"
+			rewards: [{
+				id: "4CA77C9690259A24"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "galosphere:lichen_caves"
+				id: "47983AAB03B88A6D"
+				type: "biome"
+			}]
+			title: "Les Cavernes de lichen"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6E5161095738E9F8"]
+			description: ["Du sel rose, des piliers, un &dSanctuaire du sel rose&r avec sa clé, et le &cBerserker&r qu'on y réveille. Le sel se compose en terre stérile."]
+			id: "0A45F4AE2BDFA068"
+			rewards: [{
+				id: "52AA74AD9FD18890"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "galosphere:pink_salt_caves"
+				id: "535EBF54C0F23C56"
+				type: "biome"
+			}]
+			title: "Les Cavernes de sel rose"
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0A45F4AE2BDFA068"]
+			description: ["La structure de Galosphere dans les cavernes de sel. Une tablette liée au sel y permet d'invoquer le Berserker ; sa quête de combat est au chapitre Donjons et autres boss."]
+			id: "2DAACFFC928AC16F"
+			optional: true
+			rewards: [{
+				id: "20B985DEB5E27E6E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0ACFD89D7F2B39EA"
+				structure: "galosphere:pink_salt_shrine"
+				type: "structure"
+			}]
+			title: "Le Sanctuaire du sel rose"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F25BE89D2838422"]
+			description: ["L'autre structure de Galosphere, sous terre, avec ses coffres et ses tessons."]
+			id: "4DD09BD10595FEEA"
+			optional: true
+			rewards: [{
+				id: "70B71313A0176A50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0985489FF12DF3B0"
+				structure: "galosphere:forgotten_ruins"
+				type: "structure"
+			}]
+			title: "Les Ruines oubliées"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F25BE89D2838422"]
+			description: ["Le &bSpectre&r de Galosphere vole dans les canyons de cristal. Attrapé dans une bouteille, il sert de vigie : une &dfusée de spectre&r le libère pour voir à travers ses yeux, et on en trouve dans les coffres des cités anciennes sur ce serveur. Le progrès du mod valide la quête."]
+			id: "146F6A5F695F6EAC"
+			optional: true
+			rewards: [{
+				id: "7EDD9E2FB2D29E5E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "galosphere:adventure/watchfly"
+				criterion: ""
+				id: "5CD87509E982D8B5"
+				type: "advancement"
+			}]
+			title: "Un spectre en bouteille"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F25BE89D2838422"]
+			description: ["Des éclats d'allurite en lampe. Le mod ajoute aussi la lampe de lumière, le lustre, le support de lumière, et le palladium : les pillards en lâchent des pépites sur ce serveur."]
+			icon: "galosphere:allurite_lamp"
+			id: "30FDEE8FFD79A5A2"
+			optional: true
+			rewards: [{
+				id: "5039A0EBD8CAD261"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0312062E526DFA11"
+				item: "galosphere:allurite_lamp"
+				type: "item"
+			}]
+			title: "Une lampe d'allurite"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6E5161095738E9F8"]
+			description: ["Refaite par &bDungeons and Taverns&r : plus grande, plus de salles, plus de coffres — par joueur. Marcher accroupi, poser de la laine sur les capteurs, ne pas déclencher trois fois un hurleur. Les cités donnent les éclats d'écho et les livres en ruine ; c'est de là que part le chemin vers l'&8Otherside&r."]
+			id: "3F24DA257655F529"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A8BC25FB020B7F1"
+				table_id: 2972911916655707281L
+				type: "random"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "04B3C577CCCB321C"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "La cité ancienne"
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3F24DA257655F529"]
+			description: ["Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overworld : on ne le combat pas, on le piège ou on le fuit. Deeper and Darker lui fait lâcher le &8Cœur des profondeurs&r (progrès « Slay the Warden and take its heart »), et sa mort est annoncée dans #faits-d-armes."]
+			icon: "minecraft:warden_spawn_egg"
+			id: "60D79E7CB38AAF59"
+			rewards: [{
+				id: "409B3F3D66F97744"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "657C0F6ABE36D86E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8Vaincre le Warden"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3F24DA257655F529"]
+			description: ["Six biomes de cavernes et une cité. Le portail de l'Otherside se construit au chapitre &7Deeper and Darker&r."]
+			icon: "minecraft:echo_shard"
+			id: "56DD480004BEAAF4"
+			rewards: [{
+				id: "4A31DEEC3C7D6DF0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "5A98603B11AE6DED"
+				title: "Les cavernes sont explorées"
+				type: "checkmark"
+			}]
+			title: "&3Le fond est atteint"
+			x: 4.0d
+			y: 0.75d
+		}
+	]
+	title: "&3Overworld — cavernes"
+}

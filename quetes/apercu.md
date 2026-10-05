@@ -1196,6 +1196,39 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10 — après : controleur, requete, fabricateur
   > Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre Pipez relie tout ça aux machines.
 
+## Overworld — cavernes  (`monde_overworld_cavernes`, 15 quêtes)
+
+- **Sous la surface** — tâches : checkmark Lu — récompense : item minecraft:torch 32, item minecraft:cooked_cod 8
+  > Trois biomes de cavernes de YUNG's, trois de Galosphere, les géodes, la cité ancienne refaite par Dungeons and Taverns et, tout au fond, le Warden. C'est aussi par là qu'on descend dans l'Otherside de Deeper and Darker, qui a son chapitre.
+- **Une géode d'améthyste** — tâches : item minecraft:amethyst_shard 8 — récompense : xp 3 — après : intro
+  > Les géodes du jeu, plus les cristaux de Galosphere qui poussent de la même façon. Sur ce serveur, l'améthyste bourgeonnante se mine plus lentement (config Galosphere) : on casse les grappes, pas le bloc.
+- **Les Cavernes givrées** — tâches : biome yungscavebiomes:frosted_caves — récompense : xp 3 — après : intro
+  > YUNG's Cave Biomes : des cavernes de glace sous les biomes froids, avec de la glace enchantée, des stalactites de glace et des lys de givre. L'effet Givre ralentit et blesse.
+- **Les Cavernes de marbre** — tâches : biome yungscavebiomes:marble_caves — récompense : xp 3 — après : intro
+  > Marbre et travertin, des cascades : le biome de caverne le plus clair. Les blocs se taillent au tailleur de pierre.
+- **Les Cavernes perdues** — tâches : biome yungscavebiomes:lost_caves — récompense : xp 5 — après : intro
+  > Sous les déserts : du sable ancien, des cactus à pêches épineuses, des tessons, et des tempêtes de sable activées sur le serveur, de deux à dix minutes, toutes les vingt à quarante minutes. L'effet Ballotté réduit la vue et la vitesse.
+- **Les Canyons de cristal** — tâches : biome galosphere:crystal_canyons — récompense : xp 3 — après : intro
+  > Galosphere : des canyons d'allurite et de lumière, deux cristaux qui ne poussent que là. L'allurite fait des lampes ; la lumière se composte en poudre de glowstone.
+- **Les Cavernes de lichen** — tâches : biome galosphere:lichen_caves — récompense : xp 3 — après : intro
+  > Du lichen partout, et des Cordyceps de lichen qui se mangent même sous l'eau. Marcher sur la mousse de lichen la fait luire.
+- **Les Cavernes de sel rose** — tâches : biome galosphere:pink_salt_caves — récompense : xp 3 — après : intro
+  > Du sel rose, des piliers, un Sanctuaire du sel rose avec sa clé, et le Berserker qu'on y réveille. Le sel se compose en terre stérile.
+- **Le Sanctuaire du sel rose** *(optionnelle)* — tâches : structure galosphere:pink_salt_shrine — récompense : xp 5 — après : galo_sel
+  > La structure de Galosphere dans les cavernes de sel. Une tablette liée au sel y permet d'invoquer le Berserker ; sa quête de combat est au chapitre Donjons et autres boss.
+- **Les Ruines oubliées** *(optionnelle)* — tâches : structure galosphere:forgotten_ruins — récompense : xp 5 — après : galo_cristal
+  > L'autre structure de Galosphere, sous terre, avec ses coffres et ses tessons.
+- **Un spectre en bouteille** *(optionnelle)* — tâches : advancement galosphere:adventure/watchfly — récompense : xp 5 — après : galo_cristal
+  > Le Spectre de Galosphere vole dans les canyons de cristal. Attrapé dans une bouteille, il sert de vigie : une fusée de spectre le libère pour voir à travers ses yeux, et on en trouve dans les coffres des cités anciennes sur ce serveur. Le progrès du mod valide la quête.
+- **Une lampe d'allurite** *(optionnelle)* — tâches : item galosphere:allurite_lamp — récompense : xp 3 — après : galo_cristal
+  > Des éclats d'allurite en lampe. Le mod ajoute aussi la lampe de lumière, le lustre, le support de lumière, et le palladium : les pillards en lâchent des pépites sur ce serveur.
+- **La cité ancienne** — tâches : structure minecraft:ancient_city — récompense : table explorateur — après : intro
+  > Refaite par Dungeons and Taverns : plus grande, plus de salles, plus de coffres — par joueur. Marcher accroupi, poser de la laine sur les capteurs, ne pas déclencher trois fois un hurleur. Les cités donnent les éclats d'écho et les livres en ruine ; c'est de là que part le chemin vers l'Otherside.
+- **Vaincre le Warden** — tâches : kill minecraft:warden — récompense : xp 20 — après : cite_ancienne
+  > Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overworld : on ne le combat pas, on le piège ou on le fuit. Deeper and Darker lui fait lâcher le Cœur des profondeurs (progrès « Slay the Warden and take its heart »), et sa mort est annoncée dans #faits-d-armes.
+- **Le fond est atteint** — tâches : checkmark Les cavernes sont explorées — récompense : xp 5 — après : cite_ancienne
+  > Six biomes de cavernes et une cité. Le portail de l'Otherside se construit au chapitre Deeper and Darker.
+
 ## Overworld — exploration  (`monde_overworld_exploration`, 26 quêtes)
 
 - **Un monde à piller** — tâches : checkmark Lu — récompense : item minecraft:bread 8, item minecraft:torch 16

@@ -1,0 +1,182 @@
+# Chapitre « Overworld — cavernes » — cahier des charges §4.2
+# Sources (5 octobre 2026) : biomes et structures de l'index des jars
+# (yungscavebiomes:frosted_caves, marble_caves, lost_caves ; galosphere:
+# crystal_canyons, lichen_caves, pink_salt_caves, forgotten_ruins,
+# pink_salt_shrine), configs du serveur (galosphere-common.toml :
+# slowedBuddingAmethystMiningSpeed, spectreFlareAncientCityLoot,
+# pillagerDropPalladiumNugget tous à true ; YungsCaveBiomes : tempêtes de
+# sable des Lost Caves activées, 2 à 10 min, toutes les 20 à 40 min).
+# Les progrès de Galosphere dont l'icône échoue au chargement sur le serveur
+# (console du 5 octobre : opalising, find_forgotten_ruins,
+# find_pink_salt_shrine, summon_berserker, rebrushing, questful,
+# saltbound_kill_evoker, attached_sterling_horse) ne sont pas utilisés
+# comme tâches : structures et objets à la place.
+
+[chapitre]
+titre = "&3Overworld — cavernes"
+fichier = "monde_overworld_cavernes"
+groupe = "monde"
+icone = "minecraft:amethyst_cluster"
+ordre = 2
+
+[[quete]]
+cle = "intro"
+titre = "&3Sous la surface"
+sous_titre = "Guide dans #exploration sur le Discord."
+taille = 1.5
+icone = "minecraft:glow_berries"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:torch 32", "item minecraft:cooked_cod 8"]
+description = """
+Trois biomes de cavernes de &bYUNG's&r, trois de &bGalosphere&r, les géodes, la cité ancienne refaite par &bDungeons and Taverns&r et, tout au fond, le Warden. C'est aussi par là qu'on descend dans l'&8Otherside&r de Deeper and Darker, qui a son chapitre.
+"""
+
+[[quete]]
+cle = "geode"
+titre = "Une géode d'améthyste"
+deps = ["intro"]
+taches = ["item minecraft:amethyst_shard 8"]
+recompenses = ["xp 3"]
+description = """
+Les géodes du jeu, plus les cristaux de Galosphere qui poussent de la même façon. Sur ce serveur, l'améthyste bourgeonnante se &lmine plus lentement&r (config Galosphere) : on casse les grappes, pas le bloc.
+"""
+
+[[quete]]
+cle = "yung_glace"
+titre = "Les Cavernes givrées"
+deps = ["intro"]
+taches = ["biome yungscavebiomes:frosted_caves"]
+recompenses = ["xp 3"]
+description = """
+&bYUNG's Cave Biomes&r : des cavernes de glace sous les biomes froids, avec de la glace enchantée, des stalactites de glace et des lys de givre. L'effet Givre ralentit et blesse.
+"""
+
+[[quete]]
+cle = "yung_marbre"
+titre = "Les Cavernes de marbre"
+deps = ["intro"]
+taches = ["biome yungscavebiomes:marble_caves"]
+recompenses = ["xp 3"]
+description = """
+Marbre et travertin, des cascades : le biome de caverne le plus clair. Les blocs se taillent au tailleur de pierre.
+"""
+
+[[quete]]
+cle = "yung_perdues"
+titre = "Les Cavernes perdues"
+deps = ["intro"]
+taches = ["biome yungscavebiomes:lost_caves"]
+recompenses = ["xp 5"]
+description = """
+Sous les déserts : du sable ancien, des cactus à pêches épineuses, des tessons, et des &ltempêtes de sable&r activées sur le serveur, de deux à dix minutes, toutes les vingt à quarante minutes. L'effet Ballotté réduit la vue et la vitesse.
+"""
+
+[[quete]]
+cle = "galo_cristal"
+titre = "Les Canyons de cristal"
+deps = ["intro"]
+taches = ["biome galosphere:crystal_canyons"]
+recompenses = ["xp 3"]
+description = """
+&bGalosphere&r : des canyons d'&dallurite&r et de &elumière&r, deux cristaux qui ne poussent que là. L'allurite fait des lampes ; la lumière se composte en poudre de glowstone.
+"""
+
+[[quete]]
+cle = "galo_lichen"
+titre = "Les Cavernes de lichen"
+deps = ["intro"]
+taches = ["biome galosphere:lichen_caves"]
+recompenses = ["xp 3"]
+description = """
+Du lichen partout, et des &aCordyceps de lichen&r qui se mangent même sous l'eau. Marcher sur la mousse de lichen la fait luire.
+"""
+
+[[quete]]
+cle = "galo_sel"
+titre = "Les Cavernes de sel rose"
+deps = ["intro"]
+taches = ["biome galosphere:pink_salt_caves"]
+recompenses = ["xp 3"]
+description = """
+Du sel rose, des piliers, un &dSanctuaire du sel rose&r avec sa clé, et le &cBerserker&r qu'on y réveille. Le sel se compose en terre stérile.
+"""
+
+[[quete]]
+cle = "sanctuaire"
+titre = "Le Sanctuaire du sel rose"
+deps = ["galo_sel"]
+optionnel = true
+taches = ["structure galosphere:pink_salt_shrine"]
+recompenses = ["xp 5"]
+description = """
+La structure de Galosphere dans les cavernes de sel. Une tablette liée au sel y permet d'invoquer le Berserker ; sa quête de combat est au chapitre Donjons et autres boss.
+"""
+
+[[quete]]
+cle = "ruines_oubliees"
+titre = "Les Ruines oubliées"
+deps = ["galo_cristal"]
+optionnel = true
+taches = ["structure galosphere:forgotten_ruins"]
+recompenses = ["xp 5"]
+description = """
+L'autre structure de Galosphere, sous terre, avec ses coffres et ses tessons.
+"""
+
+[[quete]]
+cle = "spectre"
+titre = "Un spectre en bouteille"
+deps = ["galo_cristal"]
+optionnel = true
+taches = ["advancement galosphere:adventure/watchfly"]
+recompenses = ["xp 5"]
+description = """
+Le &bSpectre&r de Galosphere vole dans les canyons de cristal. Attrapé dans une bouteille, il sert de vigie : une &dfusée de spectre&r le libère pour voir à travers ses yeux, et on en trouve dans les coffres des cités anciennes sur ce serveur. Le progrès du mod valide la quête.
+"""
+
+[[quete]]
+cle = "allurite"
+titre = "Une lampe d'allurite"
+deps = ["galo_cristal"]
+optionnel = true
+taches = ["item galosphere:allurite_lamp"]
+recompenses = ["xp 3"]
+description = """
+Des éclats d'allurite en lampe. Le mod ajoute aussi la lampe de lumière, le lustre, le support de lumière, et le palladium : les pillards en lâchent des pépites sur ce serveur.
+"""
+
+[[quete]]
+cle = "cite_ancienne"
+titre = "La cité ancienne"
+deps = ["intro"]
+taille = 1.3
+taches = ["structure minecraft:ancient_city"]
+recompenses = ["table explorateur"]
+description = """
+Refaite par &bDungeons and Taverns&r : plus grande, plus de salles, plus de coffres — par joueur. Marcher accroupi, poser de la laine sur les capteurs, ne pas déclencher trois fois un hurleur. Les cités donnent les éclats d'écho et les livres en ruine ; c'est de là que part le chemin vers l'&8Otherside&r.
+"""
+
+[[quete]]
+cle = "warden"
+titre = "&8Vaincre le Warden"
+deps = ["cite_ancienne"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["kill minecraft:warden"]
+recompenses = ["xp 20"]
+description = """
+Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overworld : on ne le combat pas, on le piège ou on le fuit. Deeper and Darker lui fait lâcher le &8Cœur des profondeurs&r (progrès « Slay the Warden and take its heart »), et sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&3Le fond est atteint"
+deps = ["cite_ancienne"]
+taille = 1.3
+icone = "minecraft:echo_shard"
+taches = ["checkmark Les cavernes sont explorées"]
+recompenses = ["xp 5"]
+description = """
+Six biomes de cavernes et une cité. Le portail de l'Otherside se construit au chapitre &7Deeper and Darker&r.
+"""
