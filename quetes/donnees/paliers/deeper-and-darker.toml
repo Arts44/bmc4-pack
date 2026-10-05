@@ -1,0 +1,59 @@
+# Échelle des paliers — Deeper and Darker (BMC-89, 5 octobre 2026).
+# Recettes de forge et tables de butin du jar deeperdarker 1.3.3.
+chapitre = "monde_deeper_and_darker"
+sommet = "fin"
+
+[[palier]]
+echelle = "resonarium"
+cle = "resonarium"
+preuve = "loot_tables/entities/sludge"
+
+[[palier]]
+echelle = "resonarium"
+cle = "plaque"
+preuve = "recette resonarium_plate"
+
+[[palier]]
+echelle = "resonarium"
+cle = "resonarium_armure"
+preuve = "resonarium_*_smithing, base fer"
+
+[[palier]]
+echelle = "resonarium"
+cle = "armure"
+preuve = "warden_*_smithing, base nétherite, progrès warden_armor"
+
+[[palier]]
+echelle = "resonarium"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "outils"
+cle = "resonarium_outils"
+preuve = "resonarium_*_smithing"
+
+[[palier]]
+echelle = "outils"
+cle = "warden_outils"
+preuve = "warden_*_smithing"
+
+[[palier]]
+echelle = "outils"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "warden"
+cle = "warden"
+preuve = "progrès kill_warden"
+
+[[palier]]
+echelle = "warden"
+cle = "warden_relance"
+preuve = "kill après la première victoire"
+
+[[palier]]
+echelle = "warden"
+cle = "fin"
+preuve = "sommet"

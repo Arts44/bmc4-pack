@@ -162,22 +162,96 @@ Des élytres renforcées par l'éclat d'écho (recette du mod). Les ailes de l'A
 [[quete]]
 cle = "armure"
 titre = "&3L'armure du Warden"
-deps = ["eclat"]
+deps = ["eclat", "modele", "resonarium_armure"]
 taille = 1.3
 taches = ["advancement deeperdarker:main/warden_armor"]
 recompenses = ["xp 25"]
 description = """
-Le &lmodèle de forge du Warden&r s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Il y a aussi le résonarium, un palier intermédiaire, par plaques.
+Le &lmodèle de forge du Warden&r s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Chaque pièce, une par une, est à l'Armurerie de l'Encyclopédie.
+"""
+
+[[quete]]
+cle = "resonarium"
+titre = "Du résonarium"
+deps = ["portail"]
+taches = ["item deeperdarker:resonarium"]
+recompenses = ["xp 5"]
+description = """
+Le &lrésonarium&r tombe des &lSludges&r de l'Otherside (table de butin du jar).
+"""
+
+[[quete]]
+cle = "plaque"
+titre = "Une plaque de résonarium"
+deps = ["resonarium"]
+taches = ["item deeperdarker:resonarium_plate"]
+recompenses = ["xp 5"]
+description = """
+Quatre résonariums et quatre écailles de tortue.
+"""
+
+[[quete]]
+cle = "resonarium_armure"
+titre = "L'armure de résonarium"
+deps = ["plaque"]
+taches = ["item deeperdarker:resonarium_helmet", "item deeperdarker:resonarium_chestplate", "item deeperdarker:resonarium_leggings", "item deeperdarker:resonarium_boots"]
+recompenses = ["xp 10"]
+description = """
+Le palier intermédiaire : une plaque sur chaque pièce d'armure en &lfer&r, à la table de forge.
+"""
+
+[[quete]]
+cle = "resonarium_outils"
+titre = "Les outils de résonarium"
+deps = ["plaque"]
+taches = ["item deeperdarker:resonarium_sword", "item deeperdarker:resonarium_pickaxe", "item deeperdarker:resonarium_axe", "item deeperdarker:resonarium_shovel", "item deeperdarker:resonarium_hoe"]
+recompenses = ["xp 10"]
+description = """
+Une plaque sur chaque outil en fer, à la table de forge.
+"""
+
+[[quete]]
+cle = "modele"
+titre = "Le modèle du Warden"
+deps = ["cite"]
+taches = ["item deeperdarker:warden_upgrade_smithing_template"]
+recompenses = ["xp 8"]
+description = """
+Un coffre de cité antique sur deux environ en contient un (45 %, modificateur de butin du jar). Sept diamants et un bloc de sculk autour d'un modèle en font deux.
+"""
+
+[[quete]]
+cle = "warden_outils"
+titre = "Les outils du Warden"
+deps = ["eclat", "modele", "resonarium_outils"]
+taches = ["item deeperdarker:warden_sword", "item deeperdarker:warden_pickaxe", "item deeperdarker:warden_axe", "item deeperdarker:warden_shovel", "item deeperdarker:warden_hoe"]
+recompenses = ["xp 15"]
+description = """
+Un modèle et un éclat d'écho renforcé sur chaque outil de &lnétherite&r. Un par un, ils sont à l'Arsenal de l'Encyclopédie.
+"""
+
+[[quete]]
+cle = "warden_relance"
+titre = "&3Un autre Warden"
+deps = ["warden"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill minecraft:warden"]
+recompenses = ["xp 25"]
+description = """
+Les hurleurs de sculk le rappellent. Seul un combat mené après cette quête compte.
 """
 
 [[quete]]
 cle = "fin"
 titre = "&3Revenu de l'Otherside"
-deps = ["temple"]
-taille = 1.3
+deps = ["temple", "armure", "warden_outils", "warden_relance"]
+taille = 1.5
+forme = "diamond"
 icone = "deeperdarker:warden_helmet"
 taches = ["checkmark De retour"]
 recompenses = ["xp 5"]
 description = """
-Le temple trouvé, le cœur en main. La suite est au chapitre &4Cataclysm&r.
+Le temple trouvé, l'équipement du Warden au complet, le Warden battu deux fois. La suite est au chapitre &4Cataclysm&r.
 """
