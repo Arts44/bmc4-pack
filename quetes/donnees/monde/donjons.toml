@@ -1,0 +1,223 @@
+# Chapitre « Donjons et autres boss » — cahier des charges §4.12
+# Sources (5 octobre 2026) : progrès find_* de When Dungeons Arise (jar
+# 2.1.58, descriptions lues), entités et autels de Stalwart Dungeons
+# (index), Illager Invasion (Invoker : raids, RaidWavesConfigHelper),
+# Alex's Mobs (ver mystérieux, voidWormSpawnDimensions = ["minecraft:the_end"]
+# dans alexsmobs.toml du serveur, œil de ver du vide), Bountiful (tableau de
+# primes, décret ; progrès absents de l'index, case à cocher), Galosphere
+# (Berserker : progrès summon_berserker, critère summoned_entity, en échec
+# au chargement serveur, donc tâche « tuer »). Les trois autels de Stalwart
+# existent en blocs (blockstates du jar). Dead King et Tyros : chapitre Iron's Spells.
+
+[chapitre]
+titre = "&8Donjons et autres boss"
+fichier = "monde_donjons"
+groupe = "monde"
+icone = "bountiful:bountyboard"
+ordre = 12
+
+[[quete]]
+cle = "intro"
+titre = "&8Ce qui reste à abattre"
+sous_titre = "Guide dans #donjons sur le Discord."
+taille = 1.5
+icone = "minecraft:iron_sword"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:arrow 32"]
+description = """
+Les donjons de &bWhen Dungeons Arise&r, ceux de &cStalwart Dungeons&r et leurs trois boss, l'&cInvoker&r d'Illager Invasion, le &5Ver du vide&r, le &dBerserker&r de Galosphere, et les primes de &bBountiful&r. Le Roi Mort et Tyros sont au chapitre Iron's Spells.
+"""
+
+# ---- When Dungeons Arise
+[[quete]]
+cle = "wda_fort"
+titre = "Le fort des illageois"
+deps = ["intro"]
+taches = ["advancement dungeons_arise:find_illager_fort"]
+recompenses = ["xp 5"]
+description = """
+&bWhen Dungeons Arise&r pose trente-neuf structures. Le fort des illageois est l'une des grandes : plusieurs étages, des générateurs, des coffres par joueur.
+"""
+
+[[quete]]
+cle = "wda_tours"
+titre = "Les tours des bandits"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement dungeons_arise:find_bandit_towers"]
+recompenses = ["xp 5"]
+description = """
+Les tours des bandits (progrès du mod).
+"""
+
+[[quete]]
+cle = "wda_fonderie"
+titre = "La fonderie"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement dungeons_arise:find_foundry"]
+recompenses = ["xp 5"]
+description = """
+Une fonderie (progrès « Iron Maiden »).
+"""
+
+[[quete]]
+cle = "wda_asile"
+titre = "L'asile de la peste"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement dungeons_arise:find_plague_asylum"]
+recompenses = ["table aventurier"]
+description = """
+L'asile de la peste (progrès du mod). &aJalon Aventurier.&r
+"""
+
+[[quete]]
+cle = "wda_palais"
+titre = "Le palais de Shiraz"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement dungeons_arise:find_shiraz_palace"]
+recompenses = ["xp 5"]
+description = """
+Le palais de Shiraz, dans le désert (progrès « Enter Sandman »).
+"""
+
+[[quete]]
+cle = "wda_kayra"
+titre = "Le donjon de Kayra"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement dungeons_arise:find_keep_kayra"]
+recompenses = ["xp 5"]
+description = """
+Le donjon de Kayra (progrès du mod).
+"""
+
+[[quete]]
+cle = "wda_pirates"
+titre = "Le vaisseau des pirates morts-vivants"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement dungeons_arise:find_undead_pirate_ship"]
+recompenses = ["xp 5"]
+description = """
+En mer. Le mod a aussi des corsaires et galères illageoises, un phare, des bains, une tour de Typhon (liste des progrès).
+"""
+
+[[quete]]
+cle = "wda_monastere"
+titre = "Le monastère"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement dungeons_arise:find_monasteries"]
+recompenses = ["xp 5"]
+description = """
+Un monastère (progrès « A Quiet Place »).
+"""
+
+# ---- Stalwart Dungeons
+[[quete]]
+cle = "awful_ghast"
+titre = "&cVaincre l'Awful Ghast"
+deps = ["intro"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["kill stalwart_dungeons:awful_ghast"]
+recompenses = ["xp 20"]
+description = """
+&cStalwart Dungeons&r : un &lautel de l'Awful Ghast&r (bloc du mod) l'invoque dans son donjon du Nether. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "nether_keeper"
+titre = "&cVaincre le Nether Keeper"
+deps = ["intro"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["kill stalwart_dungeons:nether_keeper"]
+recompenses = ["xp 20"]
+description = """
+Dans le Nether, derrière l'&lautel du Nether Keeper&r (bloc du mod). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "shelterer"
+titre = "&dVaincre le Shelterer"
+deps = ["intro"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["kill stalwart_dungeons:shelterer"]
+recompenses = ["xp 20"]
+description = """
+Le boss de l'End de Stalwart Dungeons, derrière son autel (bloc du mod). Sa mort est annoncée dans #faits-d-armes. Le tungstène et le chorundum du mod font armures, boucliers et outils.
+"""
+
+# ---- Illager Invasion
+[[quete]]
+cle = "invoker"
+titre = "&cVaincre l'Invoker"
+deps = ["intro"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["kill illagerinvasion:invoker"]
+recompenses = ["xp 25"]
+description = """
+Le maître des illageois vient avec les &lraids de village&r (il fait partie des vagues, code du mod). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Alex's Mobs
+[[quete]]
+cle = "ver_vide"
+titre = "&5Vaincre le Ver du vide"
+deps = ["intro"]
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["item alexsmobs:void_worm_eye"]
+recompenses = ["xp 25"]
+description = """
+Il n'apparaît pas seul : un &5ver mystérieux&r, jeté &ldans l'End&r (seule dimension autorisée sur ce serveur), l'invoque. Le ver est fait de plusieurs entités : c'est son &lœil&r, qu'il lâche, qui valide la quête. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Galosphere
+[[quete]]
+cle = "berserker"
+titre = "&dVaincre le Berserker"
+deps = ["intro"]
+boss = true
+forme = "diamond"
+optionnel = true
+taches = ["kill galosphere:berserker"]
+recompenses = ["xp 15"]
+description = """
+Le progrès du mod s'appelle « Règne de terreur » : invoquer le Berserker. Il se joue autour du Sanctuaire du sel rose et de sa Tablette liée au sel. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Bountiful
+[[quete]]
+cle = "primes"
+titre = "Le tableau de primes"
+deps = ["intro"]
+taches = ["item bountiful:bountyboard", "checkmark Trois primes prises"]
+recompenses = ["xp 8"]
+description = """
+&bBountiful&r : un &ltableau de primes&r propose des contrats à délai. Un &ldécret&r posé dans le tableau oriente les primes (« Royal Mandate »). Trois primes prises, et la case se coche.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&8Chasseur de donjons"
+deps = ["wda_fort", "awful_ghast"]
+exigence = "une"
+taille = 1.3
+icone = "stalwart_dungeons:tungsten_sword"
+taches = ["checkmark Un donjon vidé"]
+recompenses = ["xp 5"]
+description = """
+Un fort ou un boss suffit. Le chapitre &7Chasseur de boss&r des Défis compte tous les boss du serveur.
+"""

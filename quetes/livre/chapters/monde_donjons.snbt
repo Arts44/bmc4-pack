@@ -1,0 +1,383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_donjons"
+	group: "17185D2694D86048"
+	icon: "bountiful:bountyboard"
+	id: "326C3C02C10249B8"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Les donjons de &bWhen Dungeons Arise&r, ceux de &cStalwart Dungeons&r et leurs trois boss, l'&cInvoker&r d'Illager Invasion, le &5Ver du vide&r, le &dBerserker&r de Galosphere, et les primes de &bBountiful&r. Le Roi Mort et Tyros sont au chapitre Iron's Spells."]
+			icon: "minecraft:iron_sword"
+			id: "0C43CBB0FAD54E4D"
+			rewards: [{
+				count: 32
+				id: "6265298D852238BD"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #donjons sur le Discord."
+			tasks: [{
+				id: "37B3709A349397A4"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&8Ce qui reste à abattre"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["&bWhen Dungeons Arise&r pose trente-neuf structures. Le fort des illageois est l'une des grandes : plusieurs étages, des générateurs, des coffres par joueur."]
+			id: "07DE5A18A6297E4D"
+			rewards: [{
+				id: "5D701B72D9276EAE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_fort"
+				criterion: ""
+				id: "2AA4064790058320"
+				type: "advancement"
+			}]
+			title: "Le fort des illageois"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Les tours des bandits (progrès du mod)."]
+			id: "59672C45C92C874A"
+			optional: true
+			rewards: [{
+				id: "1567302C370BEE6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dungeons_arise:find_bandit_towers"
+				criterion: ""
+				id: "11426814E67345C9"
+				type: "advancement"
+			}]
+			title: "Les tours des bandits"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Une fonderie (progrès « Iron Maiden »)."]
+			id: "6FC280BF10E77373"
+			optional: true
+			rewards: [{
+				id: "4C698A2BA1510BCC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dungeons_arise:find_foundry"
+				criterion: ""
+				id: "55618842E3646D47"
+				type: "advancement"
+			}]
+			title: "La fonderie"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["L'asile de la peste (progrès du mod). &aJalon Aventurier.&r"]
+			id: "09664B98F4B2FAC9"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "087225EB93B568A1"
+				table_id: 3316722983613651948L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dungeons_arise:find_plague_asylum"
+				criterion: ""
+				id: "7A3495A01E5D6C1C"
+				type: "advancement"
+			}]
+			title: "L'asile de la peste"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Le palais de Shiraz, dans le désert (progrès « Enter Sandman »)."]
+			id: "7DBF9554B99DF994"
+			optional: true
+			rewards: [{
+				id: "77811D59CAEFC5F9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dungeons_arise:find_shiraz_palace"
+				criterion: ""
+				id: "07468D531FAF84BE"
+				type: "advancement"
+			}]
+			title: "Le palais de Shiraz"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Le donjon de Kayra (progrès du mod)."]
+			id: "47CE7152C23D517B"
+			optional: true
+			rewards: [{
+				id: "26025E02C57B2E4B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "022DB9BA84A24478"
+				type: "advancement"
+			}]
+			title: "Le donjon de Kayra"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["En mer. Le mod a aussi des corsaires et galères illageoises, un phare, des bains, une tour de Typhon (liste des progrès)."]
+			id: "46B49DA2D6CDC5DD"
+			optional: true
+			rewards: [{
+				id: "497E910CB49CAD23"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dungeons_arise:find_undead_pirate_ship"
+				criterion: ""
+				id: "1EB37BFAA37170A3"
+				type: "advancement"
+			}]
+			title: "Le vaisseau des pirates morts-vivants"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Un monastère (progrès « A Quiet Place »)."]
+			id: "627160293D731A21"
+			optional: true
+			rewards: [{
+				id: "2C0E57130E7E0DD6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dungeons_arise:find_monasteries"
+				criterion: ""
+				id: "522A48A09D2B33B7"
+				type: "advancement"
+			}]
+			title: "Le monastère"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["&cStalwart Dungeons&r : un &lautel de l'Awful Ghast&r (bloc du mod) l'invoque dans son donjon du Nether. Sa mort est annoncée dans #faits-d-armes."]
+			icon: "stalwart_dungeons:awful_ghast_spawn_egg"
+			id: "37F30AA45854BCC0"
+			rewards: [{
+				id: "4A56155591A11B91"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				id: "536432F5E9F98954"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cVaincre l'Awful Ghast"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Dans le Nether, derrière l'&lautel du Nether Keeper&r (bloc du mod). Sa mort est annoncée dans #faits-d-armes."]
+			icon: "stalwart_dungeons:nether_keeper_spawn_egg"
+			id: "6036422E1AE7AFD4"
+			rewards: [{
+				id: "6F0485535663325F"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				id: "2019E7785CFC810D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cVaincre le Nether Keeper"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Le boss de l'End de Stalwart Dungeons, derrière son autel (bloc du mod). Sa mort est annoncée dans #faits-d-armes. Le tungstène et le chorundum du mod font armures, boucliers et outils."]
+			icon: "stalwart_dungeons:shelterer_spawn_egg"
+			id: "6F3BEE2872452357"
+			rewards: [{
+				id: "34EB81E35B52432B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer"
+				id: "311D01673D91CD72"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dVaincre le Shelterer"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Le maître des illageois vient avec les &lraids de village&r (il fait partie des vagues, code du mod). Sa mort est annoncée dans #faits-d-armes."]
+			icon: "illagerinvasion:invoker_spawn_egg"
+			id: "705D9ACC103B6150"
+			rewards: [{
+				id: "0BE9F75FF4A53C63"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				id: "5BFCE574F77661F2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cVaincre l'Invoker"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Il n'apparaît pas seul : un &5ver mystérieux&r, jeté &ldans l'End&r (seule dimension autorisée sur ce serveur), l'invoque. Le ver est fait de plusieurs entités : c'est son &lœil&r, qu'il lâche, qui valide la quête. Sa mort est annoncée dans #faits-d-armes."]
+			icon: "alexsmobs:void_worm_eye"
+			id: "143D386B926A3418"
+			rewards: [{
+				id: "7D976096979B3980"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "4B025138A20F68D4"
+				item: "alexsmobs:void_worm_eye"
+				type: "item"
+			}]
+			title: "&5Vaincre le Ver du vide"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Le progrès du mod s'appelle « Règne de terreur » : invoquer le Berserker. Il se joue autour du Sanctuaire du sel rose et de sa Tablette liée au sel. Sa mort est annoncée dans #faits-d-armes."]
+			icon: "galosphere:berserker_spawn_egg"
+			id: "41B9750985723704"
+			optional: true
+			rewards: [{
+				id: "485DAA1C65F9E8AD"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "galosphere:berserker"
+				id: "369FFDC1D9EDA22D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dVaincre le Berserker"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["&bBountiful&r : un &ltableau de primes&r propose des contrats à délai. Un &ldécret&r posé dans le tableau oriente les primes (« Royal Mandate »). Trois primes prises, et la case se coche."]
+			icon: "bountiful:bountyboard"
+			id: "27119C534F335E81"
+			rewards: [{
+				id: "6C4FA31CE992D538"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [
+				{
+					id: "65B98B46CCE0BBA3"
+					item: "bountiful:bountyboard"
+					type: "item"
+				}
+				{
+					id: "65D949CF8A154F3E"
+					title: "Trois primes prises"
+					type: "checkmark"
+				}
+			]
+			title: "Le tableau de primes"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"07DE5A18A6297E4D"
+				"37F30AA45854BCC0"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Un fort ou un boss suffit. Le chapitre &7Chasseur de boss&r des Défis compte tous les boss du serveur."]
+			icon: "stalwart_dungeons:tungsten_sword"
+			id: "24FFFF95B769EA5A"
+			rewards: [{
+				id: "542EF4FD4632D8D1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "7E29098FEDBB6036"
+				title: "Un donjon vidé"
+				type: "checkmark"
+			}]
+			title: "&8Chasseur de donjons"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "&8Donjons et autres boss"
+}
