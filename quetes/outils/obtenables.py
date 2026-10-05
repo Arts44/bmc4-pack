@@ -188,11 +188,14 @@ def main(mods, vanilla, paxi):
     fichiers = {}
     for z in sources(mods, vanilla, paxi):
         for n in z.namelist():
-            if n.startswith('data/') and n.endswith('.json') and ('/recipes/' in n or '/loot_tables/' in n or '/worldgen/configured_feature/' in n):
-                fichiers[n] = (z, n)   # le dernier (datapack) l'emporte
+            if n.startswith('data/') and n.endswith('.json') and ('/recipes/' in n or '/loot_tables/' in n or '/loot_modifiers/' in n or '/worldgen/configured_feature/' in n):
+                if n.endswith('/global_loot_modifiers.json'):
+                    n = f'{n}@{z.filename}'   # chaque jar a le sien : on les cumule
+                fichiers[n] = (z, n.split('@')[0])   # le dernier (datapack) l'emporte
     rec, but, monde = set(), set(), set()
     ctx = contexte()
     ecartees = 0
+    actifs, modifs = set(), {}   # loot modifiers déclarés / leur contenu
     graphe = {}   # résultat -> [[ingrédient obligatoire, sous forme de liste d'alternatives], ...]
     for n, (z, nom) in fichiers.items():
         try:
@@ -219,9 +222,30 @@ def main(mods, vanilla, paxi):
                 rec.add(d['type'])
         elif '/loot_tables/' in n:
             butin(d, but)
+        elif '/loot_modifiers/' in n:
+            if '/global_loot_modifiers.json' in n:
+                for e in (d.get('entries', []) if isinstance(d, dict) else []):
+                    actifs.add(e)
+            else:
+                p = n.split('/')
+                modifs[f"{p[1]}:{'/'.join(p[3:])[:-5]}"] = d
         elif '/worldgen/configured_feature/' in n:
             for m in re.findall(r'"([a-z0-9_]+:[a-z0-9_/]+)"', json.dumps(d)):
                 monde.add(m)
+    # Loot modifiers (Forge) : seuls ceux qu'un global_loot_modifiers.json
+    # déclare sont chargés. Leurs objets ajoutés (« item », « name »…) comptent
+    # comme butin ; ceux qui suppriment (« remove ») ou remplacent n'en ajoutent
+    # pas moins leur objet de remplacement, lu de la même façon.
+    for k in actifs:
+        d = modifs.get(k)
+        if isinstance(d, dict) and passe(d.get('conditions'), ctx):
+            for cle in ('item', 'result', 'addition', 'replacement', 'added_item'):
+                v = d.get(cle)
+                if isinstance(v, str) and ID.match(v):
+                    but.add(v)
+                elif isinstance(v, dict):
+                    tous(v, but)
+            butin(d, but)
     out = {'recette': sorted(rec), 'butin': sorted(but), 'monde': sorted(monde), 'graphe': graphe}
     json.dump(out, open(os.path.join(ICI, '..', 'index', 'obtenables.json'), 'w', encoding='utf-8'), indent=0)
     print({k: len(v) for k, v in out.items()}, 'recettes écartées par leurs conditions :', ecartees)

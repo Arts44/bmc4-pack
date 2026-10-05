@@ -11,7 +11,8 @@ est lui-même obtenable en chaîne. Point fixe sur tout le pack.
 
 Une recette dont on ne lit aucun ingrédient (type déclaré par le code,
 comme Blue Skies) compte comme obtenable : on ne sait pas la lire, on ne
-l'accuse pas. Limite connue : ce qui s'obtient autrement que par recette,
+l'accuse pas ; de même pour une balise dont l'index ne connaît aucun
+membre (les balises forge: du jar Forge lui-même). Limite connue : ce qui s'obtient autrement que par recette,
 butin ou génération (troc, seau, interaction) n'est connu que par la
 liste OBTENUS_AUTREMENT de generer.py.
 """
@@ -20,6 +21,8 @@ import os
 import sys
 
 ICI = os.path.dirname(os.path.abspath(__file__))
+FORGE = os.path.expanduser('~/curseforge/minecraft/Install/libraries/net/minecraftforge/forge/'
+                           '1.20.1-47.4.20/forge-1.20.1-47.4.20-universal.jar')
 
 
 def charger():
@@ -29,6 +32,20 @@ def charger():
         d = json.load(open(os.path.join(ICI, '..', 'index', f), encoding='utf-8'))
         for t, m in d.get('tag_membres', {}).items():
             tm[t] = list(dict.fromkeys(tm.get(t, []) + list(m)))
+    # Balises du jar Forge lui-même (forge:crops/carrot, forge:raw_beef…),
+    # absentes de l'index : version du serveur, /libraries, lue le 5 octobre.
+    if os.path.exists(FORGE):
+        import zipfile
+        z = zipfile.ZipFile(FORGE)
+        for n in z.namelist():
+            if n.startswith('data/') and '/tags/items/' in n and n.endswith('.json'):
+                p = n.split('/')
+                t = f"{p[1]}:{'/'.join(p[4:])[:-5]}"
+                try:
+                    v = json.loads(z.read(n)).get('values', [])
+                except ValueError:
+                    continue
+                tm[t] = list(dict.fromkeys(tm.get(t, []) + [x['id'] if isinstance(x, dict) else x for x in v]))
     return o, tm
 
 
@@ -57,8 +74,8 @@ def fermeture(extra=()):
         for a in alts:
             if a.startswith('#'):
                 m = cache.setdefault(a, membres(tm, a[1:]))
-                if m & ok:
-                    return True
+                if m & ok or not m:   # balise inconnue de l'index (forge:… du
+                    return True       # jar Forge) : on ne l'accuse pas
             elif a in ok:
                 return True
         return False
