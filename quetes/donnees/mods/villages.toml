@@ -1,0 +1,292 @@
+# Chapitre « Villages et commerce » — cahier des charges §5.18
+# Sources (5 octobre 2026) : métiers vanilla et leurs postes de travail
+# (jeu de base), VillagersPlus (lang : alchimiste/table d'alchimiste,
+# occultiste/bassin enchanté, océanographe/aquarium, horticulteur/bac à
+# fleurs), Trading Post (bloc, lang : « aucun marchand disponible à
+# proximité »), Bartering Station (bloc), Goblin Traders (lang : échanges
+# de potions de hâte, absorption, grâce du dauphin ; goblintraders-entities
+# du serveur : gobelin de Y -64 à 50, gobelin des veines de 0 à 128, 25 %
+# par essai, réassort toutes les 48 000 ticks ; carryon-common : les deux
+# sont interdits au portage), Guard Villagers (progrès « We Want You »),
+# Villages & Pillages (structure village_witch), Just Enough Professions
+# (onglet Métiers de JEI). Smarter Farmers et Villager Names : sans lang
+# ni config lue, cités sans détail.
+
+[chapitre]
+titre = "&6Villages et commerce"
+fichier = "mods_villages"
+groupe = "mods"
+icone = "minecraft:emerald"
+ordre = 18
+
+[[quete]]
+cle = "intro"
+titre = "&6Le village, version BMC4"
+sous_titre = "Guide dans #villages sur le Discord."
+taille = 1.5
+icone = "minecraft:bell"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:emerald 4"]
+description = """
+Treize métiers vanilla, quatre de &6VillagersPlus&r, des gardes à recruter, deux gobelins marchands, et deux blocs pour commercer sans courir : le comptoir d'échange et la station de troc. L'onglet &lMétiers&r de JEI (Just Enough Professions) dit quel bloc fait quel métier.
+"""
+
+[[quete]]
+cle = "village"
+titre = "Trouver un village"
+deps = ["intro"]
+taches = ["structure #minecraft:village"]
+recompenses = ["xp 3"]
+description = """
+Un village, n'importe lequel. &6Villages & Pillages&r en ajoute, dont un village de sorcières ; Towns & Towers et Moog's en remanient d'autres.
+"""
+
+[[quete]]
+cle = "echange"
+titre = "Premier échange"
+deps = ["village"]
+taches = ["advancement minecraft:adventure/trade"]
+recompenses = ["xp 3"]
+description = """
+Commercer avec un villageois (progrès vanilla). Chaque échange fait monter son niveau et débloque la ligne suivante.
+"""
+
+# ---- métiers vanilla, par poste de travail
+[[quete]]
+cle = "bibliothecaire"
+titre = "Un bibliothécaire"
+deps = ["echange"]
+taches = ["item minecraft:lectern"]
+recompenses = ["xp 3"]
+description = """
+Un &lpupitre&r près d'un villageois sans emploi en fait un bibliothécaire : livres enchantés, dont &bVein Mining&r (config du serveur), contre des émeraudes.
+"""
+
+[[quete]]
+cle = "armurier"
+titre = "Un armurier"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:blast_furnace"]
+recompenses = ["xp 3"]
+description = """
+Un &lhaut fourneau&r : armures de fer puis de diamant.
+"""
+
+[[quete]]
+cle = "forgeron_armes"
+titre = "Un forgeron d'armes"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:grindstone"]
+recompenses = ["xp 3"]
+description = """
+Une &lmeule&r : épées et haches, enchantées aux niveaux hauts.
+"""
+
+[[quete]]
+cle = "forgeron_outils"
+titre = "Un forgeron d'outils"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:smithing_table"]
+recompenses = ["xp 3"]
+description = """
+Une &ltable de forgeron&r : pioches, pelles, houes.
+"""
+
+[[quete]]
+cle = "cartographe"
+titre = "Un cartographe"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:cartography_table"]
+recompenses = ["xp 3"]
+description = """
+Une &ltable de cartographie&r : cartes d'exploration vers les monuments et les manoirs.
+"""
+
+[[quete]]
+cle = "clerc"
+titre = "Un clerc"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:brewing_stand"]
+recompenses = ["xp 3"]
+description = """
+Un &lalambic&r : redstone, lapis, perles de l'Ender, poudre de blaze.
+"""
+
+[[quete]]
+cle = "fermier"
+titre = "Un fermier"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:composter"]
+recompenses = ["xp 3"]
+description = """
+Un &lcomposteur&r. &aSmarter Farmers&r rend les fermiers plus efficaces dans leurs champs.
+"""
+
+[[quete]]
+cle = "pecheur"
+titre = "Un pêcheur"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:barrel"]
+recompenses = ["xp 3"]
+
+[[quete]]
+cle = "flechier"
+titre = "Un fléchier"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:fletching_table"]
+recompenses = ["xp 3"]
+description = """
+Une &ltable de fléchier&r : flèches, arcs, arbalètes, et des flèches à effet aux niveaux hauts.
+"""
+
+[[quete]]
+cle = "berger"
+titre = "Un berger"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:loom"]
+recompenses = ["xp 3"]
+
+[[quete]]
+cle = "tailleur"
+titre = "Un tailleur de pierre"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:stonecutter"]
+recompenses = ["xp 3"]
+
+[[quete]]
+cle = "boucher"
+titre = "Un boucher"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:smoker"]
+recompenses = ["xp 3"]
+
+[[quete]]
+cle = "tanneur"
+titre = "Un tanneur"
+deps = ["echange"]
+optionnel = true
+taches = ["item minecraft:cauldron"]
+recompenses = ["xp 3"]
+description = """
+Un &lchaudron&r : armures de cuir et selles.
+"""
+
+# ---- VillagersPlus
+[[quete]]
+cle = "alchimiste"
+titre = "Un alchimiste"
+deps = ["echange"]
+optionnel = true
+taches = ["item villagersplus:alchemist_table"]
+recompenses = ["xp 5"]
+description = """
+&6VillagersPlus&r : la &ltable d'alchimiste&r donne le métier d'alchimiste.
+"""
+
+[[quete]]
+cle = "occultiste"
+titre = "Un occultiste"
+deps = ["echange"]
+optionnel = true
+taches = ["item villagersplus:occultist_table"]
+recompenses = ["xp 5"]
+description = """
+Le &lbassin enchanté&r. Ce bloc est le seul du mod qu'on ne peut pas porter avec Carry On (config du serveur).
+"""
+
+[[quete]]
+cle = "oceanographe"
+titre = "Un océanographe"
+deps = ["echange"]
+optionnel = true
+taches = ["item villagersplus:oceanographer_table"]
+recompenses = ["xp 5"]
+description = """
+L'&laquarium&r.
+"""
+
+[[quete]]
+cle = "horticulteur"
+titre = "Un horticulteur"
+deps = ["echange"]
+optionnel = true
+taches = ["item villagersplus:oak_horticulturist_table"]
+recompenses = ["xp 5"]
+description = """
+Un &lbac à fleurs&r, dans n'importe quel bois.
+"""
+
+# ---- gardes et commerce
+[[quete]]
+cle = "garde"
+titre = "Recruter un garde"
+deps = ["village"]
+optionnel = true
+taches = ["advancement minecraft:adventure/recruit_guard"]
+recompenses = ["xp 5"]
+description = """
+&7Guard Villagers&r : donner une épée à un villageois sans emploi en fait un garde (progrès du mod).
+"""
+
+[[quete]]
+cle = "comptoir"
+titre = "Un comptoir d'échange"
+deps = ["echange"]
+taches = ["item tradingpost:trading_post"]
+recompenses = ["xp 8"]
+description = """
+Le &6Trading Post&r regroupe les échanges de tous les villageois à portée dans un seul écran, avec une recherche. S'il dit qu'aucun marchand n'est disponible, rapproche-le.
+"""
+
+[[quete]]
+cle = "troc"
+titre = "Une station de troc"
+deps = ["intro"]
+optionnel = true
+taches = ["item barteringstation:bartering_station"]
+recompenses = ["xp 8"]
+description = """
+La &6Bartering Station&r troque l'or avec les piglins à ta place.
+"""
+
+[[quete]]
+cle = "gobelin"
+titre = "Le gobelin marchand"
+deps = ["intro"]
+optionnel = true
+taches = ["observation entity goblintraders:goblin_trader"]
+recompenses = ["xp 5"]
+description = """
+&2Goblin Traders&r : un gobelin sous terre, entre Y -64 et 50 (config du serveur), avec des échanges rares, dont des potions de hâte, d'absorption et de grâce du dauphin. Il se réassortit tous les deux jours. On ne peut pas le porter (Carry On).
+"""
+
+[[quete]]
+cle = "gobelin_veines"
+titre = "Le gobelin des veines"
+deps = ["gobelin"]
+optionnel = true
+taches = ["observation entity goblintraders:vein_goblin_trader"]
+recompenses = ["xp 5"]
+description = """
+Son cousin du Nether, entre Y 0 et 128 (config).
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&6Marchand"
+deps = ["bibliothecaire", "comptoir"]
+taille = 1.3
+icone = "minecraft:emerald_block"
+taches = ["checkmark Mon village tourne"]
+recompenses = ["xp 5"]
