@@ -220,3 +220,111 @@ recompenses = ["xp 10"]
 description = """
 Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack.
 """
+
+# ---- §9.4 : branche latérale des paliers (5 octobre 2026). Recettes lues
+# dans le jar : chaque palier d'une cellule demande la cellule du palier
+# précédent, le condensateur et le matériau du palier (cellule basique :
+# fer ; renforcée : acier énergisé ; nitro : cristal nitro).
+[[quete]]
+cle = "palier_basique"
+titre = "Une cellule basique"
+deps = ["cellule"]
+optionnel = true
+taches = ["item powah:energy_cell_basic"]
+recompenses = ["xp 3"]
+description = """
+Chaque appareil de Powah existe en sept paliers : départ, basique, renforcé, ardent, niotique, spirituel, nitro. On monte d'un palier en fabriquant l'appareil avec celui du palier d'avant, un condensateur et le matériau du palier.
+"""
+
+[[quete]]
+cle = "palier_renforce"
+titre = "Une cellule renforcée"
+deps = ["palier_basique", "acier"]
+optionnel = true
+taches = ["item powah:energy_cell_hardened"]
+recompenses = ["xp 4"]
+
+[[quete]]
+cle = "palier_ardent"
+titre = "Une cellule ardente"
+deps = ["palier_renforce", "blazing"]
+optionnel = true
+taches = ["item powah:energy_cell_blazing"]
+recompenses = ["xp 5"]
+
+[[quete]]
+cle = "palier_niotique"
+titre = "Une cellule niotique"
+deps = ["palier_ardent", "niotic"]
+optionnel = true
+taches = ["item powah:energy_cell_niotic"]
+recompenses = ["xp 6"]
+
+[[quete]]
+cle = "palier_spirituel"
+titre = "Une cellule spirituelle"
+deps = ["palier_niotique", "spirited"]
+optionnel = true
+taches = ["item powah:energy_cell_spirited"]
+recompenses = ["xp 8"]
+
+[[quete]]
+cle = "palier_nitro"
+titre = "Une cellule nitro"
+deps = ["palier_spirituel", "nitro"]
+optionnel = true
+taille = 1.3
+taches = ["item powah:energy_cell_nitro"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "cables_nitro"
+titre = "Des câbles nitro"
+deps = ["palier_nitro", "cable"]
+optionnel = true
+taches = ["item powah:energy_cable_nitro 8"]
+recompenses = ["xp 5"]
+
+[[quete]]
+cle = "transmetteur"
+titre = "Un transmetteur personnel"
+deps = ["cellule"]
+optionnel = true
+taches = ["item powah:player_transmitter_starter"]
+recompenses = ["xp 4"]
+description = """
+Il recharge sans fil l'équipement des joueurs autour de lui.
+"""
+
+[[quete]]
+cle = "batterie"
+titre = "Une batterie"
+deps = ["cellule"]
+optionnel = true
+taches = ["item powah:battery_starter"]
+recompenses = ["xp 3"]
+description = """
+Un bloc de redstone, un condensateur basique et de la pâte diélectrique : de l'énergie à emporter.
+"""
+
+[[quete]]
+cle = "entonnoir"
+titre = "Un entonnoir énergétique"
+deps = ["cellule"]
+optionnel = true
+taches = ["item powah:energy_hopper_starter"]
+recompenses = ["xp 3"]
+description = """
+Un entonnoir, un condensateur minuscule, de la pâte et un boîtier : il recharge les objets qu'on met dans le conteneur qu'il touche.
+"""
+
+[[quete]]
+cle = "dechargeur"
+titre = "Un déchargeur"
+deps = ["cellule"]
+optionnel = true
+taches = ["item powah:energy_discharger_starter"]
+recompenses = ["xp 3"]
+description = """
+L'inverse de l'entonnoir : il vide l'énergie des objets dans le réseau.
+"""

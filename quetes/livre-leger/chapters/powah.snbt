@@ -445,6 +445,251 @@
 			x: 12.0d
 			y: 0.75d
 		}
+		{
+			dependencies: ["66CC127941885908"]
+			description: ["Chaque appareil de Powah existe en sept paliers : départ, basique, renforcé, ardent, niotique, spirituel, nitro. On monte d'un palier en fabriquant l'appareil avec celui du palier d'avant, un condensateur et le matériau du palier."]
+			icon: "powah:energy_cell_basic"
+			id: "2E3C4D9421CD4547"
+			optional: true
+			rewards: [{
+				id: "5361867C7DFBAB3C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E3D6F2724CAF5CD"
+				item: "powah:energy_cell_basic"
+				type: "item"
+			}]
+			title: "Une cellule basique"
+			x: 8.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"2E3C4D9421CD4547"
+				"42D400E140CD9FA9"
+			]
+			icon: "powah:energy_cell_hardened"
+			id: "4FBDABDE045B7827"
+			optional: true
+			rewards: [{
+				id: "081CED82B40692C4"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69BFF6513D892D79"
+				item: "powah:energy_cell_hardened"
+				type: "item"
+			}]
+			title: "Une cellule renforcée"
+			x: 10.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"4FBDABDE045B7827"
+				"181A1C80D41146D6"
+			]
+			icon: "powah:energy_cell_blazing"
+			id: "03D43A4E634002FF"
+			optional: true
+			rewards: [{
+				id: "25CC07466B7ADAF5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35B787DEDF2B7E90"
+				item: "powah:energy_cell_blazing"
+				type: "item"
+			}]
+			title: "Une cellule ardente"
+			x: 12.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"03D43A4E634002FF"
+				"2EDA49758A060F05"
+			]
+			icon: "powah:energy_cell_niotic"
+			id: "3EF46C2C4331EAF8"
+			optional: true
+			rewards: [{
+				id: "7F9FDC845880A22B"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "187F366BFB7AE271"
+				item: "powah:energy_cell_niotic"
+				type: "item"
+			}]
+			title: "Une cellule niotique"
+			x: 14.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"3EF46C2C4331EAF8"
+				"6259524E587B52F1"
+			]
+			icon: "powah:energy_cell_spirited"
+			id: "0881E8363A99025C"
+			optional: true
+			rewards: [{
+				id: "7106242F3C6F22D2"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1751A4E4A5919661"
+				item: "powah:energy_cell_spirited"
+				type: "item"
+			}]
+			title: "Une cellule spirituelle"
+			x: 16.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"0881E8363A99025C"
+				"79CCDC404D921F4F"
+			]
+			icon: "powah:energy_cell_nitro"
+			id: "555995DC3F443169"
+			optional: true
+			rewards: [{
+				id: "524482DDEEC18DBA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "0AEEAB588022EFC4"
+				item: "powah:energy_cell_nitro"
+				type: "item"
+			}]
+			title: "Une cellule nitro"
+			x: 18.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"555995DC3F443169"
+				"113C9994E6E483FB"
+			]
+			icon: "powah:energy_cable_nitro"
+			id: "7FA3C654FDD174F1"
+			optional: true
+			rewards: [{
+				id: "291EFA9427DC5E6D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "45C3F9A1C05F372A"
+				item: "powah:energy_cable_nitro"
+				type: "item"
+			}]
+			title: "Des câbles nitro"
+			x: 20.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["66CC127941885908"]
+			description: ["Il recharge sans fil l'équipement des joueurs autour de lui."]
+			icon: "powah:player_transmitter_starter"
+			id: "5FC01F8BFFF88E87"
+			optional: true
+			rewards: [{
+				id: "71ADF6C3B236C0E4"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4181A5200926AA87"
+				item: "powah:player_transmitter_starter"
+				type: "item"
+			}]
+			title: "Un transmetteur personnel"
+			x: 8.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["66CC127941885908"]
+			description: ["Un bloc de redstone, un condensateur basique et de la pâte diélectrique : de l'énergie à emporter."]
+			icon: "powah:battery_starter"
+			id: "4F5405A031DBA4AA"
+			optional: true
+			rewards: [{
+				id: "440BD7B0AC145F19"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E4D3A5E7CCEF4C2"
+				item: "powah:battery_starter"
+				type: "item"
+			}]
+			title: "Une batterie"
+			x: 8.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["66CC127941885908"]
+			description: ["Un entonnoir, un condensateur minuscule, de la pâte et un boîtier : il recharge les objets qu'on met dans le conteneur qu'il touche."]
+			icon: "powah:energy_hopper_starter"
+			id: "0E233F31D10840FC"
+			optional: true
+			rewards: [{
+				id: "096FB2E1BF3BDC8B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "389174192D9AF249"
+				item: "powah:energy_hopper_starter"
+				type: "item"
+			}]
+			title: "Un entonnoir énergétique"
+			x: 8.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["66CC127941885908"]
+			description: ["L'inverse de l'entonnoir : il vide l'énergie des objets dans le réseau."]
+			icon: "powah:energy_discharger_starter"
+			id: "1FD8BBA6E3F1AC8A"
+			optional: true
+			rewards: [{
+				id: "1C85574A69412895"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A40F9761519486A"
+				item: "powah:energy_discharger_starter"
+				type: "item"
+			}]
+			title: "Un déchargeur"
+			x: 8.0d
+			y: 11.75d
+		}
 	]
 	title: "&ePowah — l'énergie"
 }
