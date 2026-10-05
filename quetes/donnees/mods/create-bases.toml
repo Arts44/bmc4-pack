@@ -113,7 +113,7 @@ La &7boîte de vitesses&r sort la rotation sur quatre faces. L'&7embrayage&r la 
 cle = "courroie"
 titre = "Une courroie"
 deps = ["arbre"]
-taches = ["item create:belt 4"]
+taches = ["item create:belt_connector 4"]
 recompenses = ["xp 3"]
 description = """
 Une &7courroie&r relie deux arbres distants et transporte des objets dessus. Clic droit avec la courroie sur le premier arbre, puis sur le second, jusqu'à vingt blocs.

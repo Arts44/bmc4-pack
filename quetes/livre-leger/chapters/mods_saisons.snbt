@@ -109,7 +109,6 @@
 		{
 			dependencies: ["5F085F27D1F96F8F"]
 			description: ["&fSnow! Real Magic!&r : la neige recouvre dalles, escaliers, murs et barrières au lieu de rester à côté. &bClimate Rivers&r, lui, trace les rivières selon le climat."]
-			icon: "snowrealmagic:slab"
 			id: "1C212A03BDDB74AC"
 			optional: true
 			rewards: [{
@@ -119,9 +118,9 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "20B8DAE99D66AE3A"
-				item: "snowrealmagic:slab"
-				type: "item"
+				id: "60F922A97D2E2A3D"
+				title: "J'ai vu la neige couvrir une dalle"
+				type: "checkmark"
 			}]
 			title: "La neige qui s'accroche"
 			x: 2.0d
