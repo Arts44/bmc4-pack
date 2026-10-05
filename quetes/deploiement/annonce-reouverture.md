@@ -8,7 +8,7 @@ Le serveur rouvre avec un livre de quêtes entièrement réécrit pour BMC4, en 
 
 Ce qu'il faut savoir :
 • L'ancien livre de Better Minecraft est retiré, et sa progression avec lui. Tout le monde repart de la première page.
-• Les quêtes déjà « faites » en jeu se valident d'elles-mêmes quand c'est possible : objets dans l'inventaire, progrès déjà obtenus, statistiques de distance.
+• Ce que vous avez déjà fait se valide de lui-même à la connexion, en cascade, dès que le jeu peut le prouver : progrès déjà obtenus (boss vaincus, dimensions, lieux découverts), statistiques, objets que vous avez sur vous. Les visites de lieux, les cases à cocher et les combats à refaire restent à faire.
 • En faction, le livre est commun : une quête cochée l'est pour toute l'équipe.
 • Les contrats de la semaine reviennent sept jours après avoir été réclamés.
 

@@ -29,7 +29,7 @@ Contenu de ce dossier :
    sh quetes/deploiement/preparer.sh
    ```
 
-   Sortie attendue : deux lignes, `livre-complet-…zip : 76 chapitres` et `livre-leger-…zip : 54 chapitres`. Le script s'arrête si un contrôle du générateur échoue.
+   Sortie attendue : deux lignes, `livre-complet-…zip : 89 chapitres` et `livre-leger-…zip : 54 chapitres`. Le script s'arrête si un contrôle du générateur échoue.
 3. Bot de connexions : la retouche « serveur fermé pour maintenance » est en production depuis le 5 octobre (commit `fe1b79c`). Rien à faire.
 
 ## 1. Sauvegarde (avant toute modification)
@@ -57,8 +57,8 @@ Bot de connexions : chaque joueur refusé produit **un** message dans #connexion
 ## 3. Déploiement
 
 1. Renommer `/config/ftbquests/quests` en `/config/ftbquests/quests-ancien` (outil `move_files`). Le mod ne lira plus l'ancien livre ; rien n'est supprimé.
-2. Déposer **les deux** archives dans `/config/ftbquests/` (la légère servira peut-être à la bascule), puis extraire `livre-complet-…zip` (`extract_archive`) : elle crée `/config/ftbquests/quests/`. On commence par le livre complet, 3 364 quêtes.
-3. Vérifier la présence de `quests/data.snbt`, `quests/chapter_groups.snbt`, `quests/chapters/` (76 fichiers en complet, 54 en léger) et `quests/reward_tables/` (5 fichiers).
+2. Déposer **les deux** archives dans `/config/ftbquests/` (la légère servira peut-être à la bascule), puis extraire `livre-complet-…zip` (`extract_archive`) : elle crée `/config/ftbquests/quests/`. On commence par le livre complet, 4 688 quêtes.
+3. Vérifier la présence de `quests/data.snbt`, `quests/chapter_groups.snbt`, `quests/chapters/` (89 fichiers en complet, 54 en léger) et `quests/reward_tables/` (5 fichiers).
 4. **Redémarrer** le serveur (`power_action restart`). Pas de `/ftbquests reload` : le jar lui-même l'annonce comme « non recommandé sur un serveur en service » (message `commands.ftbquests.command.feedback.reloaded.disclaimer`).
 
 ### Lignes du journal à surveiller au démarrage
@@ -70,7 +70,7 @@ Chaînes relevées dans le jar FTB Quests ; aucune ne doit apparaître :
 - `MissingItem` — un objet du livre absent du serveur ;
 - toute ligne `ERROR` ou `Exception` mentionnant `ftbquests`, `snbt` ou un nom de chapitre.
 
-Et, côté joueur, à la première ouverture du livre : le temps d'ouverture, et la fluidité en faisant défiler le groupe Encyclopédie (22 chapitres, 2 343 quêtes).
+Et, côté joueur, à la première ouverture du livre : le temps d'ouverture, et la fluidité en faisant défiler le groupe Encyclopédie (35 chapitres, 3 147 quêtes).
 
 ## 4. Le test d'Arthur
 
@@ -91,7 +91,7 @@ give Arts_Vio minecraft:wheat 64
 
 Console : `deop Arts_Vio`. Après le test : `op Arts_Vio` (rend le niveau 4, celui d'avant, `op-permission-level=4`).
 
-### Les six essais
+### Les sept essais
 
 | # | Chapitre → quête | Ce qu'on fait | Résultat attendu |
 |---|---|---|---|
@@ -101,6 +101,7 @@ Console : `deop Arts_Vio`. Après le test : `op Arts_Vio` (rend le niveau 4, cel
 | 4 | **Explorateur** → « Voir le monde », puis « Dix kilomètres à pied » | ouvrir la quête | la barre montre la distance marchée **depuis le début du serveur** (statistique « Distance parcourue à pied », en cm) ; au-delà de 10 km, la quête se termine aussitôt — c'est voulu, la statistique est cumulée |
 | 5 | **Villages et commerce** → « Le village, version BMC4 », puis « Trouver un village » | entrer dans un village | la quête se valide à l'entrée. La balise `#minecraft:village` compte 38 structures : villages du jeu de base, de Towns and Towers, de Blue Skies et de Repurposed Structures |
 | 6 | **Contrats de la semaine** → « Le tableau des contrats », puis « Livrer du blé » | 64 blés en poche ; cliquer la tâche pour livrer | les 64 blés **disparaissent**, la quête se termine ; on réclame 3 niveaux et un tirage « Contrat » ; ensuite la quête affiche un délai d'environ 7 jours avant de revenir (`repeat_cooldown: 604800` secondes, compté depuis la réclamation) |
+| 7 | **Twilight Forest — la progression**, avec le compte d'un ancien joueur qui a fini la Twilight (Arts_Vio) | se connecter, ouvrir le chapitre, ne rien faire | dans les secondes qui suivent la connexion, sans rien refaire : le portail, les sept boss (Naga, Liche, Hydre, Chevaliers fantômes, Ur-Ghast, Yéti alpha, Reine des neiges), le stroganoff, le piédestal, le piège à Ghast, les trolls, les géants, la lampe et le Plateau final sont cochés — 16 quêtes sur 40. Restent ouvertes, et c'est voulu : les huit visites de structures, les relances, le Minoshroom (aucun progrès de victoire dans le jar), la case finale ; les trophées se cochent dès qu'ils sont en poche. Simulation : `python3 quetes/outils/simuler_connexion.py quetes/livre quetes/tests/arts_vio_twilight.json monde_twilight_progression` |
 
 Si un essai échoue : noter le chapitre, la quête, ce qui s'est passé, et passer au retour arrière (§ 5) ou à la variante légère.
 
@@ -124,11 +125,11 @@ extract_archive /config/ftbquests/livre-leger-AAAA-MM-JJ.zip  dans  /config/ftbq
 power_action    restart
 ```
 
-Le livre léger fait 54 chapitres et 1 021 quêtes, sans l'Encyclopédie. Rien n'est à réécrire : les quêtes communes ont les mêmes identifiants, et la progression faite pendant le test est conservée.
+Le livre léger fait 54 chapitres et 1 541 quêtes, sans l'Encyclopédie. Rien n'est à réécrire : les quêtes communes ont les mêmes identifiants, et la progression faite pendant le test est conservée.
 
 ### Lecture du NBT pour le Grimoire et les Dragons
 
-Lecture seule, après les six essais et **après** `op Arts_Vio` (la commande `data` demande l'op). Elle sert à générer plus tard les chapitres Grimoire et Dragons ; ils ne partiront qu'au déploiement suivant.
+Lecture seule, après les sept essais et **après** `op Arts_Vio` (la commande `data` demande l'op). Elle sert à générer plus tard les chapitres Grimoire et Dragons ; ils ne partiront qu'au déploiement suivant.
 
 1. Prendre en main un vrai **parchemin de sort** d'Iron's Spells, puis taper en console :
 
@@ -186,8 +187,14 @@ whitelist remove Arts_Vio
 ## 7. La progression des joueurs
 
 - Le remplacement efface la progression sur l'ancien livre : c'est accepté.
-- **Aucun recouvrement d'identifiants** : les 471 identifiants de l'ancien livre ne figurent ni parmi les 10 531 du livre complet ni parmi les 3 479 du léger, et le nouveau livre n'a aucun doublon interne. Les fichiers `/world/ftbquests/<équipe>.snbt` ne gardent que des identifiants ; ceux de l'ancien livre n'existent plus et ne font rien. Une ancienne quête ne peut donc pas apparaître comme « déjà faite » dans le nouveau livre.
-- Ce qui se validera tout seul pour un joueur ancien : les quêtes d'objets qu'il a déjà en poche, les progrès déjà obtenus, les statistiques de distance. C'est l'annonce qui le dit.
+- **Aucun recouvrement d'identifiants** : les 471 identifiants de l'ancien livre ne figurent ni parmi les 15 462 du livre complet ni parmi les 5 732 du léger, et le nouveau livre n'a aucun doublon interne. Les fichiers `/world/ftbquests/<équipe>.snbt` ne gardent que des identifiants ; ceux de l'ancien livre n'existent plus et ne font rien. Une ancienne quête ne peut donc pas apparaître comme « déjà faite » dans le nouveau livre.
+- **Ce qui se valide tout seul pour un joueur ancien**, lu dans le jar FTB Quests 2001.4.22 (détail et classes dans `quetes/outils/retroactivite.py`) :
+  - les tâches **progrès** (`advancement`) : un progrès déjà obtenu suffit. Vérifiées à la connexion, puis toutes les 5 ticks tant que la quête est ouverte ;
+  - les tâches **statistique** (`stat`) : le compteur est cumulé depuis le début du serveur. Vérifiées à la connexion, puis toutes les 3 ticks ;
+  - les tâches **objet non consommé** : seulement ce que le joueur **a sur lui** — à la connexion, puis à chaque changement d'inventaire. Un objet rangé dans un coffre ne compte pas tant qu'il n'est pas repris.
+- **Ce qui ne se valide jamais tout seul** : visiter une structure ou un biome, être dans une dimension (seule la position *actuelle* compte), tuer une créature (seulement après l'ouverture de la quête), cocher une case, observer, remettre des objets consommés.
+- **La cascade** : une quête ne démarre que quand ses dépendances sont finies (mode « linear »). Depuis le 6 octobre, aucune étape rétroactive n'attend une étape non rétroactive : les cases « Lu », les visites de structures, les kills de défi et les relances sont des branches latérales, et le contrôle `retroactivite` du générateur fait échouer `--verifier` sinon. Quand le mod donne un progrès équivalent (entrée de dimension, découverte de structure, boss tué), c'est lui qui est demandé. À la connexion, la colonne vertébrale de chaque chapitre se coche donc d'un coup, jusqu'au premier objet que le joueur n'a pas sur lui ; la suite se coche au premier changement d'inventaire.
+- Ce qui s'est passé le 5 octobre (Arts_Vio) : seul le portail de la Twilight s'est validé, parce que « La cour de la Naga » (visite) précédait « Vaincre la Naga ». Le simulateur reproduit exactement ce résultat sur l'ancien livre (3411210).
 - Les fichiers d'équipe ne sont pas à toucher.
 
 ---
