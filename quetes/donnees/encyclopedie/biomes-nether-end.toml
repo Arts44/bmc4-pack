@@ -1,0 +1,815 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&4Biomes — Nether et End"
+fichier = "enc_biomes_nether_end"
+groupe = "encyclopedie"
+icone = "minecraft:netherrack"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&4Biomes — Nether et End"
+taille = 1.5
+icone = "minecraft:netherrack"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque biome du Nether et de l'End que le serveur génère : le jeu de base, Biomes O' Plenty, Better Nether, Gardens of the Dead, Jaden's Nether Expansion, Soulful Nether, Better End. Une quête se valide en &lentrant&r dans le biome.
+"""
+
+[[quete]]
+cle = "minecraft_basalt_deltas"
+titre = "Découvrir : Deltas de basalte"
+optionnel = true
+taches = ["biome minecraft:basalt_deltas"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans le Nether. On y croise : Arpenteur, Ghast, Cube de magma (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_crimson_forest"
+titre = "Découvrir : Forêt carmin"
+optionnel = true
+taches = ["biome minecraft:crimson_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans le Nether. On y croise : Arpenteur, Piglin zombifié, Piglin, Hoglin (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_end_barrens"
+titre = "Découvrir : Terres stériles de l'End"
+optionnel = true
+taches = ["biome minecraft:end_barrens"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_end_highlands"
+titre = "Découvrir : Hautes terres de l'End"
+optionnel = true
+taches = ["biome minecraft:end_highlands"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_end_midlands"
+titre = "Découvrir : Terres moyennes de l'End"
+optionnel = true
+taches = ["biome minecraft:end_midlands"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_nether_wastes"
+titre = "Découvrir : Terres désolées du Nether"
+optionnel = true
+taches = ["biome minecraft:nether_wastes"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans le Nether. On y croise : Enderman, Arpenteur, Ghast, Cube de magma, Piglin zombifié, Piglin (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_small_end_islands"
+titre = "Découvrir : Petites îles de l'End"
+optionnel = true
+taches = ["biome minecraft:small_end_islands"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_soul_sand_valley"
+titre = "Découvrir : Vallée des âmes"
+optionnel = true
+taches = ["biome minecraft:soul_sand_valley"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans le Nether. On y croise : Squelette, Enderman, Arpenteur, Ghast (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_the_end"
+titre = "Découvrir : L'End"
+optionnel = true
+taches = ["biome minecraft:the_end"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_warped_forest"
+titre = "Découvrir : Forêt biscornue"
+optionnel = true
+taches = ["biome minecraft:warped_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans le Nether. On y croise : Enderman, Arpenteur (données du pack).
+"""
+
+[[quete]]
+cle = "betterend_amber_land"
+titre = "Découvrir : « Amber Land »"
+optionnel = true
+taches = ["biome betterend:amber_land"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_blossoming_spires"
+titre = "Découvrir : « Blossoming Spires »"
+optionnel = true
+taches = ["biome betterend:blossoming_spires"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_chorus_forest"
+titre = "Découvrir : « Chorus Forest »"
+optionnel = true
+taches = ["biome betterend:chorus_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_crystal_mountains"
+titre = "Découvrir : « Crystal Mountains »"
+optionnel = true
+taches = ["biome betterend:crystal_mountains"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_dragon_graveyards"
+titre = "Découvrir : « Dragon Graveyards »"
+optionnel = true
+taches = ["biome betterend:dragon_graveyards"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_dry_shrubland"
+titre = "Découvrir : « Dry Shrubland »"
+optionnel = true
+taches = ["biome betterend:dry_shrubland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_dust_wastelands"
+titre = "Découvrir : « Dust Wastelands »"
+optionnel = true
+taches = ["biome betterend:dust_wastelands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_empty_aurora_cave"
+titre = "Découvrir : « Empty Aurora Cave »"
+optionnel = true
+taches = ["biome betterend:empty_aurora_cave"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_empty_end_cave"
+titre = "Découvrir : « Empty End Cave »"
+optionnel = true
+taches = ["biome betterend:empty_end_cave"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_empty_smaragdant_cave"
+titre = "Découvrir : « Empty Smaragdant Cave »"
+optionnel = true
+taches = ["biome betterend:empty_smaragdant_cave"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_eterial_grove"
+titre = "Découvrir : « Eterial Grove »"
+optionnel = true
+taches = ["biome betterend:eterial_grove"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_foggy_mushroomland"
+titre = "Découvrir : « Foggy Mushroomland »"
+optionnel = true
+taches = ["biome betterend:foggy_mushroomland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_glowing_grasslands"
+titre = "Découvrir : « Glowing Grasslands »"
+optionnel = true
+taches = ["biome betterend:glowing_grasslands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_ice_starfield"
+titre = "Découvrir : « Ice Starfield »"
+optionnel = true
+taches = ["biome betterend:ice_starfield"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_jade_cave"
+titre = "Découvrir : « Jade Cave »"
+optionnel = true
+taches = ["biome betterend:jade_cave"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_lantern_woods"
+titre = "Découvrir : « Lantern Woods »"
+optionnel = true
+taches = ["biome betterend:lantern_woods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_lush_aurora_cave"
+titre = "Découvrir : « Lush Aurora Cave »"
+optionnel = true
+taches = ["biome betterend:lush_aurora_cave"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_lush_smaragdant_cave"
+titre = "Découvrir : « Lush Smaragdant Cave »"
+optionnel = true
+taches = ["biome betterend:lush_smaragdant_cave"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_megalake"
+titre = "Découvrir : « Megalake »"
+optionnel = true
+taches = ["biome betterend:megalake"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_megalake_grove"
+titre = "Découvrir : « Megalake Grove »"
+optionnel = true
+taches = ["biome betterend:megalake_grove"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_neon_oasis"
+titre = "Découvrir : « Neon Oasis »"
+optionnel = true
+taches = ["biome betterend:neon_oasis"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_nightshade_redwoods"
+titre = "Découvrir : « Nightshade Redwoods »"
+optionnel = true
+taches = ["biome betterend:nightshade_redwoods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_old_bulbis_gardens"
+titre = "Découvrir : « Old Bulbis Gardens »"
+optionnel = true
+taches = ["biome betterend:old_bulbis_gardens"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_painted_mountains"
+titre = "Découvrir : « Painted Mountains »"
+optionnel = true
+taches = ["biome betterend:painted_mountains"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_shadow_forest"
+titre = "Découvrir : « Shadow Forest »"
+optionnel = true
+taches = ["biome betterend:shadow_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End. On y croise : Phantom (données du pack).
+"""
+
+[[quete]]
+cle = "betterend_sulphur_springs"
+titre = "Découvrir : « Sulfur Springs »"
+optionnel = true
+taches = ["biome betterend:sulphur_springs"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_umbra_valley"
+titre = "Découvrir : « Umbra Valley »"
+optionnel = true
+taches = ["biome betterend:umbra_valley"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betterend_umbrella_jungle"
+titre = "Découvrir : « Umbrella Jungle »"
+optionnel = true
+taches = ["biome betterend:umbrella_jungle"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better End, dans l'End.
+"""
+
+[[quete]]
+cle = "betternether_bone_reef"
+titre = "Découvrir : Bone Reef"
+optionnel = true
+taches = ["biome betternether:bone_reef"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_crimson_glowing_woods"
+titre = "Découvrir : Crimson Glowing Woods"
+optionnel = true
+taches = ["biome betternether:crimson_glowing_woods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_crimson_pinewood"
+titre = "Découvrir : Crimson Pinewood"
+optionnel = true
+taches = ["biome betternether:crimson_pinewood"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_flooded_deltas"
+titre = "Découvrir : « Flooded Deltas »"
+optionnel = true
+taches = ["biome betternether:flooded_deltas"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_gravel_desert"
+titre = "Découvrir : Gravel Desert"
+optionnel = true
+taches = ["biome betternether:gravel_desert"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_magma_land"
+titre = "Découvrir : Magma Land"
+optionnel = true
+taches = ["biome betternether:magma_land"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_nether_grasslands"
+titre = "Découvrir : Nether Grasslands"
+optionnel = true
+taches = ["biome betternether:nether_grasslands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_nether_jungle"
+titre = "Découvrir : Nether Jungle"
+optionnel = true
+taches = ["biome betternether:nether_jungle"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_nether_mushroom_forest"
+titre = "Découvrir : Nether Mushroom Forest"
+optionnel = true
+taches = ["biome betternether:nether_mushroom_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_nether_mushroom_forest_edge"
+titre = "Découvrir : Nether Mushroom Forest Edge"
+optionnel = true
+taches = ["biome betternether:nether_mushroom_forest_edge"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_nether_swampland"
+titre = "Découvrir : Nether Swampland"
+optionnel = true
+taches = ["biome betternether:nether_swampland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_nether_swampland_terraces"
+titre = "Découvrir : Nether Swampland Terraces"
+optionnel = true
+taches = ["biome betternether:nether_swampland_terraces"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_old_fungiwoods"
+titre = "Découvrir : Old Fungiwoods"
+optionnel = true
+taches = ["biome betternether:old_fungiwoods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_old_swampland"
+titre = "Découvrir : Old Swampland"
+optionnel = true
+taches = ["biome betternether:old_swampland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_old_warped_woods"
+titre = "Découvrir : Old Warped Woods"
+optionnel = true
+taches = ["biome betternether:old_warped_woods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_poor_grasslands"
+titre = "Découvrir : Poor Grasslands"
+optionnel = true
+taches = ["biome betternether:poor_grasslands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether.
+"""
+
+[[quete]]
+cle = "betternether_poor_nether_grasslands"
+titre = "Découvrir : Poor Nether Grasslands"
+optionnel = true
+taches = ["biome betternether:poor_nether_grasslands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_soul_plain"
+titre = "Découvrir : Soul Plain"
+optionnel = true
+taches = ["biome betternether:soul_plain"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_sulfuric_bone_reef"
+titre = "Découvrir : Sulfuric Bone Reef"
+optionnel = true
+taches = ["biome betternether:sulfuric_bone_reef"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_upside_down_forest"
+titre = "Découvrir : Upside Down Forest"
+optionnel = true
+taches = ["biome betternether:upside_down_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_upside_down_forest_cleared"
+titre = "Découvrir : « Dead Upside Down Forest »"
+optionnel = true
+taches = ["biome betternether:upside_down_forest_cleared"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_wart_forest"
+titre = "Découvrir : Wart Forest"
+optionnel = true
+taches = ["biome betternether:wart_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "betternether_wart_forest_edge"
+titre = "Découvrir : Wart Forest Edge"
+optionnel = true
+taches = ["biome betternether:wart_forest_edge"]
+recompenses = ["xp 1"]
+description = """
+Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "biomesoplenty_crystalline_chasm"
+titre = "Découvrir : Gouffre crystallin"
+optionnel = true
+taches = ["biome biomesoplenty:crystalline_chasm"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans le Nether.
+"""
+
+[[quete]]
+cle = "biomesoplenty_erupting_inferno"
+titre = "Découvrir : Brasier en éruption"
+optionnel = true
+taches = ["biome biomesoplenty:erupting_inferno"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans le Nether.
+"""
+
+[[quete]]
+cle = "biomesoplenty_undergrowth"
+titre = "Découvrir : Sous-bois"
+optionnel = true
+taches = ["biome biomesoplenty:undergrowth"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans le Nether.
+"""
+
+[[quete]]
+cle = "biomesoplenty_visceral_heap"
+titre = "Découvrir : Tas de viscères"
+optionnel = true
+taches = ["biome biomesoplenty:visceral_heap"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans le Nether.
+"""
+
+[[quete]]
+cle = "biomesoplenty_withered_abyss"
+titre = "Découvrir : Abîme flétri"
+optionnel = true
+taches = ["biome biomesoplenty:withered_abyss"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans le Nether. On y croise : Wither squelette (données du pack).
+"""
+
+[[quete]]
+cle = "gardens_of_the_dead_soulblight_forest"
+titre = "Découvrir : « Soulblight Forest »"
+optionnel = true
+taches = ["biome gardens_of_the_dead:soulblight_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Gardens of the Dead, dans le Nether.
+"""
+
+[[quete]]
+cle = "gardens_of_the_dead_whistling_woods"
+titre = "Découvrir : « Whistling Woods »"
+optionnel = true
+taches = ["biome gardens_of_the_dead:whistling_woods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Gardens of the Dead, dans le Nether.
+"""
+
+[[quete]]
+cle = "netherexp_black_ice_glaciers"
+titre = "Découvrir : « Black Ice Glaciers »"
+optionnel = true
+taches = ["biome netherexp:black_ice_glaciers"]
+recompenses = ["xp 1"]
+description = """
+Biome de Jaden's Nether Expansion, dans le Nether.
+"""
+
+[[quete]]
+cle = "netherexp_exhaust_mire"
+titre = "Découvrir : « Exhaust Mire »"
+optionnel = true
+taches = ["biome netherexp:exhaust_mire"]
+recompenses = ["xp 1"]
+description = """
+Biome de Jaden's Nether Expansion, dans le Nether.
+"""
+
+[[quete]]
+cle = "netherexp_grieving_grove"
+titre = "Découvrir : « Grieving Grove »"
+optionnel = true
+taches = ["biome netherexp:grieving_grove"]
+recompenses = ["xp 1"]
+description = """
+Biome de Jaden's Nether Expansion, dans le Nether.
+"""
+
+[[quete]]
+cle = "netherexp_plume_bowels"
+titre = "Découvrir : « Plume Bowels »"
+optionnel = true
+taches = ["biome netherexp:plume_bowels"]
+recompenses = ["xp 1"]
+description = """
+Biome de Jaden's Nether Expansion, dans le Nether.
+"""
+
+[[quete]]
+cle = "netherexp_quartz_chasm"
+titre = "Découvrir : « Quartz Chasm »"
+optionnel = true
+taches = ["biome netherexp:quartz_chasm"]
+recompenses = ["xp 1"]
+description = """
+Biome de Jaden's Nether Expansion, dans le Nether.
+"""
+
+[[quete]]
+cle = "netherexp_sorrowsquash_pasture"
+titre = "Découvrir : « Sorrowsquash Pasture »"
+optionnel = true
+taches = ["biome netherexp:sorrowsquash_pasture"]
+recompenses = ["xp 1"]
+description = """
+Biome de Jaden's Nether Expansion, dans le Nether.
+"""
+
+[[quete]]
+cle = "netherexp_sorrowsquash_pastures"
+titre = "Découvrir : « Sorrowsquash pastures »"
+optionnel = true
+taches = ["biome netherexp:sorrowsquash_pastures"]
+recompenses = ["xp 1"]
+description = """
+Biome de Jaden's Nether Expansion, dans le Nether.
+"""
+
+[[quete]]
+cle = "soulfulnether_ashen_deltas"
+titre = "Découvrir : « Ashen Deltas »"
+optionnel = true
+taches = ["biome soulfulnether:ashen_deltas"]
+recompenses = ["xp 1"]
+description = """
+Biome de Soulful Nether, dans le Nether.
+"""
+
+[[quete]]
+cle = "soulfulnether_fright_forest"
+titre = "Découvrir : « Fright Forest »"
+optionnel = true
+taches = ["biome soulfulnether:fright_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Soulful Nether, dans le Nether.
+"""
+
+[[quete]]
+cle = "soulfulnether_gloomy_glades"
+titre = "Découvrir : « Gloomy glades »"
+optionnel = true
+taches = ["biome soulfulnether:gloomy_glades"]
+recompenses = ["xp 1"]
+description = """
+Biome de Soulful Nether, dans le Nether.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:end_stone"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["minecraft_basalt_deltas", "minecraft_crimson_forest", "minecraft_end_barrens", "minecraft_end_highlands", "minecraft_end_midlands", "minecraft_nether_wastes", "minecraft_small_end_islands", "minecraft_soul_sand_valley", "minecraft_the_end", "minecraft_warped_forest", "betterend_amber_land", "betterend_blossoming_spires", "betterend_chorus_forest", "betterend_crystal_mountains", "betterend_dragon_graveyards", "betterend_dry_shrubland", "betterend_dust_wastelands", "betterend_empty_aurora_cave", "betterend_empty_end_cave", "betterend_empty_smaragdant_cave", "betterend_eterial_grove", "betterend_foggy_mushroomland", "betterend_glowing_grasslands", "betterend_ice_starfield", "betterend_jade_cave", "betterend_lantern_woods", "betterend_lush_aurora_cave", "betterend_lush_smaragdant_cave", "betterend_megalake", "betterend_megalake_grove", "betterend_neon_oasis", "betterend_nightshade_redwoods", "betterend_old_bulbis_gardens", "betterend_painted_mountains", "betterend_shadow_forest", "betterend_sulphur_springs", "betterend_umbra_valley", "betterend_umbrella_jungle", "betternether_bone_reef", "betternether_crimson_glowing_woods", "betternether_crimson_pinewood", "betternether_flooded_deltas", "betternether_gravel_desert", "betternether_magma_land", "betternether_nether_grasslands", "betternether_nether_jungle", "betternether_nether_mushroom_forest", "betternether_nether_mushroom_forest_edge", "betternether_nether_swampland", "betternether_nether_swampland_terraces", "betternether_old_fungiwoods", "betternether_old_swampland", "betternether_old_warped_woods", "betternether_poor_grasslands", "betternether_poor_nether_grasslands", "betternether_soul_plain", "betternether_sulfuric_bone_reef", "betternether_upside_down_forest", "betternether_upside_down_forest_cleared", "betternether_wart_forest", "betternether_wart_forest_edge", "biomesoplenty_crystalline_chasm", "biomesoplenty_erupting_inferno", "biomesoplenty_undergrowth", "biomesoplenty_visceral_heap", "biomesoplenty_withered_abyss", "gardens_of_the_dead_soulblight_forest", "gardens_of_the_dead_whistling_woods", "netherexp_black_ice_glaciers", "netherexp_exhaust_mire", "netherexp_grieving_grove", "netherexp_plume_bowels", "netherexp_quartz_chasm", "netherexp_sorrowsquash_pasture", "netherexp_sorrowsquash_pastures", "soulfulnether_ashen_deltas", "soulfulnether_fright_forest", "soulfulnether_gloomy_glades"]
+description = """
+Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.
+"""

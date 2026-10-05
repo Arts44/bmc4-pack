@@ -1,0 +1,1615 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_biomes_nether_end"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:netherrack"
+	id: "5B47E2F3A479FAB8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque biome du Nether et de l'End que le serveur génère : le jeu de base, Biomes O' Plenty, Better Nether, Gardens of the Dead, Jaden's Nether Expansion, Soulful Nether, Better End. Une quête se valide en &lentrant&r dans le biome."]
+			icon: "minecraft:netherrack"
+			id: "775D6F782EBF354B"
+			rewards: [{
+				id: "6844C4C081D86102"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4531409EFE85B4BC"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&4Biomes — Nether et End"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans le Nether. On y croise : Arpenteur, Ghast, Cube de magma (données du pack)."]
+			id: "63D9DADCFF990910"
+			optional: true
+			rewards: [{
+				id: "73DB47B03BA2FE4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:basalt_deltas"
+				id: "02D9D8AD16762136"
+				type: "biome"
+			}]
+			title: "Découvrir : Deltas de basalte"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans le Nether. On y croise : Arpenteur, Piglin zombifié, Piglin, Hoglin (données du pack)."]
+			id: "6012439CA4ADFD09"
+			optional: true
+			rewards: [{
+				id: "7CB23FE703AA187E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:crimson_forest"
+				id: "19995040650903D8"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt carmin"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack)."]
+			id: "4A77AF9A6AC9F460"
+			optional: true
+			rewards: [{
+				id: "545902F7C77A1121"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:end_barrens"
+				id: "7FC784FB881E300F"
+				type: "biome"
+			}]
+			title: "Découvrir : Terres stériles de l'End"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack)."]
+			id: "154D40647AB2A834"
+			optional: true
+			rewards: [{
+				id: "0033999CCBBAF1E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:end_highlands"
+				id: "0910E4EA0D309222"
+				type: "biome"
+			}]
+			title: "Découvrir : Hautes terres de l'End"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack)."]
+			id: "15DC2BAF71E55591"
+			optional: true
+			rewards: [{
+				id: "3FA9242CBE2DED0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:end_midlands"
+				id: "713C0A3FD0E0B908"
+				type: "biome"
+			}]
+			title: "Découvrir : Terres moyennes de l'End"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans le Nether. On y croise : Enderman, Arpenteur, Ghast, Cube de magma, Piglin zombifié, Piglin (données du pack)."]
+			id: "2A1791B58C76587B"
+			optional: true
+			rewards: [{
+				id: "5F4AE86B8A88B4C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:nether_wastes"
+				id: "786AA6799027EF96"
+				type: "biome"
+			}]
+			title: "Découvrir : Terres désolées du Nether"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack)."]
+			id: "451AEC8E8752572C"
+			optional: true
+			rewards: [{
+				id: "10B5A8A285D9EBD7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:small_end_islands"
+				id: "6AF9177C7963FF9E"
+				type: "biome"
+			}]
+			title: "Découvrir : Petites îles de l'End"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans le Nether. On y croise : Squelette, Enderman, Arpenteur, Ghast (données du pack)."]
+			id: "4D7F25A88EB17CA8"
+			optional: true
+			rewards: [{
+				id: "0ED40A10FD11D54C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:soul_sand_valley"
+				id: "2B5354E64D5C3C64"
+				type: "biome"
+			}]
+			title: "Découvrir : Vallée des âmes"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'End. On y croise : Enderman (données du pack)."]
+			id: "75CCAB7C2B6FE51C"
+			optional: true
+			rewards: [{
+				id: "69B1765293BC8BC4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:the_end"
+				id: "249D4A7B0FCE2EFA"
+				type: "biome"
+			}]
+			title: "Découvrir : L'End"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans le Nether. On y croise : Enderman, Arpenteur (données du pack)."]
+			id: "2B566AE0C6ED1F4A"
+			optional: true
+			rewards: [{
+				id: "3ECAB2294400E6D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				id: "5E8C061DEFD1489E"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt biscornue"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "7FB86440DE55B96C"
+			optional: true
+			rewards: [{
+				id: "171B2A199DA40572"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:amber_land"
+				id: "2D43DB7EAA209D70"
+				type: "biome"
+			}]
+			title: "Découvrir : « Amber Land »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "1552814D1F91DC62"
+			optional: true
+			rewards: [{
+				id: "38F381E6038D40DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:blossoming_spires"
+				id: "65C7517594489F22"
+				type: "biome"
+			}]
+			title: "Découvrir : « Blossoming Spires »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "4B160B84E2E7931D"
+			optional: true
+			rewards: [{
+				id: "5F1CAC42CB5465C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:chorus_forest"
+				id: "0AB21629EAD60998"
+				type: "biome"
+			}]
+			title: "Découvrir : « Chorus Forest »"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "2C4E263739F21B8C"
+			optional: true
+			rewards: [{
+				id: "387BE93645B67410"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:crystal_mountains"
+				id: "3264D8FE614EC9C4"
+				type: "biome"
+			}]
+			title: "Découvrir : « Crystal Mountains »"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "4DECF6FA51097215"
+			optional: true
+			rewards: [{
+				id: "48AA04D992213A47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:dragon_graveyards"
+				id: "7C2F6C804EAD5495"
+				type: "biome"
+			}]
+			title: "Découvrir : « Dragon Graveyards »"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "4A917A0EBDAA45CB"
+			optional: true
+			rewards: [{
+				id: "79C897F04EC863F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:dry_shrubland"
+				id: "627453B3195EDC13"
+				type: "biome"
+			}]
+			title: "Découvrir : « Dry Shrubland »"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "07F8F62CDD819975"
+			optional: true
+			rewards: [{
+				id: "4897F80FC652560C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:dust_wastelands"
+				id: "285EADD81569AB66"
+				type: "biome"
+			}]
+			title: "Découvrir : « Dust Wastelands »"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "7DE90D69324CE234"
+			optional: true
+			rewards: [{
+				id: "0BDE0BDD138587A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:empty_aurora_cave"
+				id: "74A5AB7762DAD3B4"
+				type: "biome"
+			}]
+			title: "Découvrir : « Empty Aurora Cave »"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "05A7CA9E6F6CC0B1"
+			optional: true
+			rewards: [{
+				id: "08FBE0B6D3830048"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:empty_end_cave"
+				id: "2FB381952CFF765C"
+				type: "biome"
+			}]
+			title: "Découvrir : « Empty End Cave »"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "3F40C1746540EB88"
+			optional: true
+			rewards: [{
+				id: "47ED05118F73E09A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:empty_smaragdant_cave"
+				id: "00B8ADEB387A694F"
+				type: "biome"
+			}]
+			title: "Découvrir : « Empty Smaragdant Cave »"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "6A4D523215E14995"
+			optional: true
+			rewards: [{
+				id: "164F9C16A9E92192"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:eterial_grove"
+				id: "1A1618252899E7FD"
+				type: "biome"
+			}]
+			title: "Découvrir : « Eterial Grove »"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "688552F479388506"
+			optional: true
+			rewards: [{
+				id: "240BAB5CB596AF99"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:foggy_mushroomland"
+				id: "3C8CB5BDD4AD222D"
+				type: "biome"
+			}]
+			title: "Découvrir : « Foggy Mushroomland »"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "1C171197F32429FF"
+			optional: true
+			rewards: [{
+				id: "466E95B422315EAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:glowing_grasslands"
+				id: "27CAB0D791B4F154"
+				type: "biome"
+			}]
+			title: "Découvrir : « Glowing Grasslands »"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "2409205EE4FAEECF"
+			optional: true
+			rewards: [{
+				id: "38C56FE85AB087A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:ice_starfield"
+				id: "6C500E9F15EE07E8"
+				type: "biome"
+			}]
+			title: "Découvrir : « Ice Starfield »"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "51C75CB68CF93DA7"
+			optional: true
+			rewards: [{
+				id: "7662CD214B72E569"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:jade_cave"
+				id: "684F29CB1F12B65C"
+				type: "biome"
+			}]
+			title: "Découvrir : « Jade Cave »"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "1958469BA7C74243"
+			optional: true
+			rewards: [{
+				id: "381724DD61A2C58F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:lantern_woods"
+				id: "70BC55117F82A8B9"
+				type: "biome"
+			}]
+			title: "Découvrir : « Lantern Woods »"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "224EDB82A93D8D62"
+			optional: true
+			rewards: [{
+				id: "4E61CD812805250B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:lush_aurora_cave"
+				id: "01B5B0EA2157741A"
+				type: "biome"
+			}]
+			title: "Découvrir : « Lush Aurora Cave »"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "716C6566995221D8"
+			optional: true
+			rewards: [{
+				id: "0791BEF452B6121A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:lush_smaragdant_cave"
+				id: "660A0DE25348352B"
+				type: "biome"
+			}]
+			title: "Découvrir : « Lush Smaragdant Cave »"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "47367C8563E2526B"
+			optional: true
+			rewards: [{
+				id: "46A81AFF77928B10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:megalake"
+				id: "58514DE11838CDD6"
+				type: "biome"
+			}]
+			title: "Découvrir : « Megalake »"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "0FA69470136D4B85"
+			optional: true
+			rewards: [{
+				id: "59AF1A944062DCF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:megalake_grove"
+				id: "7686E1BF864BF283"
+				type: "biome"
+			}]
+			title: "Découvrir : « Megalake Grove »"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "7BB4BB3A3A7A0377"
+			optional: true
+			rewards: [{
+				id: "70DAAF58BCEA3A44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:neon_oasis"
+				id: "4826B7350B3B70D0"
+				type: "biome"
+			}]
+			title: "Découvrir : « Neon Oasis »"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "3BDAC3A075FC4856"
+			optional: true
+			rewards: [{
+				id: "4B92FF30C529C900"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:nightshade_redwoods"
+				id: "5EF345DBD806C6B7"
+				type: "biome"
+			}]
+			title: "Découvrir : « Nightshade Redwoods »"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "7571969553956793"
+			optional: true
+			rewards: [{
+				id: "153A46F655776E75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:old_bulbis_gardens"
+				id: "005B3838D2A68049"
+				type: "biome"
+			}]
+			title: "Découvrir : « Old Bulbis Gardens »"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "7A01E767DBBFE7C0"
+			optional: true
+			rewards: [{
+				id: "074BA4A55D164E8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:painted_mountains"
+				id: "5E0FFFA7DF376DD3"
+				type: "biome"
+			}]
+			title: "Découvrir : « Painted Mountains »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End. On y croise : Phantom (données du pack)."]
+			id: "6F4CC74A1B609FBE"
+			optional: true
+			rewards: [{
+				id: "0745D5B6C1548DE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:shadow_forest"
+				id: "70452FABF6A2F96D"
+				type: "biome"
+			}]
+			title: "Découvrir : « Shadow Forest »"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "58DFCBC9792A9D67"
+			optional: true
+			rewards: [{
+				id: "42A5378F8DF4ACDD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:sulphur_springs"
+				id: "40A29A53994433E1"
+				type: "biome"
+			}]
+			title: "Découvrir : « Sulfur Springs »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "1A5022D08219451A"
+			optional: true
+			rewards: [{
+				id: "3A9692306A69D281"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:umbra_valley"
+				id: "472CEB57F6361774"
+				type: "biome"
+			}]
+			title: "Découvrir : « Umbra Valley »"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better End, dans l'End."]
+			id: "5C664984EA3FD7C0"
+			optional: true
+			rewards: [{
+				id: "51DE6FA7842CD7DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betterend:umbrella_jungle"
+				id: "659CC4CF8E5201F7"
+				type: "biome"
+			}]
+			title: "Découvrir : « Umbrella Jungle »"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "3A4C9ED95728D501"
+			optional: true
+			rewards: [{
+				id: "6433C7557C80AE41"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:bone_reef"
+				id: "16A4C6F551E8090E"
+				type: "biome"
+			}]
+			title: "Découvrir : Bone Reef"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "5140CFAF79DAA5F0"
+			optional: true
+			rewards: [{
+				id: "244D9B654812A3DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:crimson_glowing_woods"
+				id: "509EE2DD0A80B5C9"
+				type: "biome"
+			}]
+			title: "Découvrir : Crimson Glowing Woods"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "54DAF4FE73D1847B"
+			optional: true
+			rewards: [{
+				id: "33D2C768FFAA1841"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:crimson_pinewood"
+				id: "1D91E901C72C9844"
+				type: "biome"
+			}]
+			title: "Découvrir : Crimson Pinewood"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "35769BE7AB9F8036"
+			optional: true
+			rewards: [{
+				id: "5F74F0B3806FDE88"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:flooded_deltas"
+				id: "07C7A5A038A47A40"
+				type: "biome"
+			}]
+			title: "Découvrir : « Flooded Deltas »"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "124BD813E601651D"
+			optional: true
+			rewards: [{
+				id: "0EBC0DF75232B6C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:gravel_desert"
+				id: "007DA6BD42C90821"
+				type: "biome"
+			}]
+			title: "Découvrir : Gravel Desert"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "11C6BBF2B5FF77D0"
+			optional: true
+			rewards: [{
+				id: "293CD24FC6756577"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:magma_land"
+				id: "77671861A7F42A9C"
+				type: "biome"
+			}]
+			title: "Découvrir : Magma Land"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "25F81F1656DE2963"
+			optional: true
+			rewards: [{
+				id: "286D2B6FEF4EAB7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:nether_grasslands"
+				id: "60BEC23D2CF5D8A7"
+				type: "biome"
+			}]
+			title: "Découvrir : Nether Grasslands"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "48687D6BB909F152"
+			optional: true
+			rewards: [{
+				id: "23B11E232C53C4C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:nether_jungle"
+				id: "5BB003D7F8EE8BB4"
+				type: "biome"
+			}]
+			title: "Découvrir : Nether Jungle"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "680AAD891E559398"
+			optional: true
+			rewards: [{
+				id: "5AC1AC868F18AE8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:nether_mushroom_forest"
+				id: "61258CF0535E9BDD"
+				type: "biome"
+			}]
+			title: "Découvrir : Nether Mushroom Forest"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "11AB0A6670D68BD5"
+			optional: true
+			rewards: [{
+				id: "4F6C541527662B0F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:nether_mushroom_forest_edge"
+				id: "432A53FC63027FA6"
+				type: "biome"
+			}]
+			title: "Découvrir : Nether Mushroom Forest Edge"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "112057C7631AB933"
+			optional: true
+			rewards: [{
+				id: "033E69C2ED7EDB92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:nether_swampland"
+				id: "356B63475783687C"
+				type: "biome"
+			}]
+			title: "Découvrir : Nether Swampland"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "2BCFA8CE3F43D00F"
+			optional: true
+			rewards: [{
+				id: "0FD9F59726B906E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:nether_swampland_terraces"
+				id: "5E89BE78E0AA530E"
+				type: "biome"
+			}]
+			title: "Découvrir : Nether Swampland Terraces"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "5A022342F0787558"
+			optional: true
+			rewards: [{
+				id: "5E31E9DBE7AB9111"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:old_fungiwoods"
+				id: "6658F61AC928641D"
+				type: "biome"
+			}]
+			title: "Découvrir : Old Fungiwoods"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "21A4F3A92535DF58"
+			optional: true
+			rewards: [{
+				id: "7BB67EE127D8A941"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:old_swampland"
+				id: "4C67B8DA3FA4D555"
+				type: "biome"
+			}]
+			title: "Découvrir : Old Swampland"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "166B7E8E251A16B5"
+			optional: true
+			rewards: [{
+				id: "016498AB1EF92B9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:old_warped_woods"
+				id: "2FA337DAE3105BAC"
+				type: "biome"
+			}]
+			title: "Découvrir : Old Warped Woods"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether."]
+			id: "4761920354056EDD"
+			optional: true
+			rewards: [{
+				id: "6A51D50294FB2A6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:poor_grasslands"
+				id: "03148077739146BB"
+				type: "biome"
+			}]
+			title: "Découvrir : Poor Grasslands"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "38818CF3BCE277A7"
+			optional: true
+			rewards: [{
+				id: "2414540A36345F12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:poor_nether_grasslands"
+				id: "7197A086F659909C"
+				type: "biome"
+			}]
+			title: "Découvrir : Poor Nether Grasslands"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "25934AAD72610847"
+			optional: true
+			rewards: [{
+				id: "23A730292B1087CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:soul_plain"
+				id: "4FFF2B5668538941"
+				type: "biome"
+			}]
+			title: "Découvrir : Soul Plain"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "1F279F60C0986DC9"
+			optional: true
+			rewards: [{
+				id: "6A3149248E251514"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:sulfuric_bone_reef"
+				id: "1213BE77B0C56F4C"
+				type: "biome"
+			}]
+			title: "Découvrir : Sulfuric Bone Reef"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "3A3525BAE5E6D069"
+			optional: true
+			rewards: [{
+				id: "644A0F5582D6C095"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:upside_down_forest"
+				id: "667D32217FD2297F"
+				type: "biome"
+			}]
+			title: "Découvrir : Upside Down Forest"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "68300B0B50C62178"
+			optional: true
+			rewards: [{
+				id: "1C33423D4AB857AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:upside_down_forest_cleared"
+				id: "2783F2BBFE15CDE1"
+				type: "biome"
+			}]
+			title: "Découvrir : « Dead Upside Down Forest »"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "4E298E69D39B9240"
+			optional: true
+			rewards: [{
+				id: "21C886C33B70777E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:wart_forest"
+				id: "7C9B9AA9145F0E10"
+				type: "biome"
+			}]
+			title: "Découvrir : Wart Forest"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Better Nether, dans le Nether. On y croise : Luciole, Méduse à hydrogène, Cochon volant, Crâne, Naga, Squelette de la jungle et d'autres (données du pack)."]
+			id: "06C576F8F85C9CBD"
+			optional: true
+			rewards: [{
+				id: "28206B309555B065"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "betternether:wart_forest_edge"
+				id: "4893AB02B2758E93"
+				type: "biome"
+			}]
+			title: "Découvrir : Wart Forest Edge"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans le Nether."]
+			id: "0DB9ED1E674697BB"
+			optional: true
+			rewards: [{
+				id: "0D80C3BD25B027ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:crystalline_chasm"
+				id: "16BF0A06E5062352"
+				type: "biome"
+			}]
+			title: "Découvrir : Gouffre crystallin"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans le Nether."]
+			id: "21EE21D9C0DCD51A"
+			optional: true
+			rewards: [{
+				id: "495FA2A980731397"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:erupting_inferno"
+				id: "1E95A89D66AA9F45"
+				type: "biome"
+			}]
+			title: "Découvrir : Brasier en éruption"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans le Nether."]
+			id: "78989DA0A4C8EA6E"
+			optional: true
+			rewards: [{
+				id: "4535EDE1399FBB3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:undergrowth"
+				id: "4A34EA41BA8AE410"
+				type: "biome"
+			}]
+			title: "Découvrir : Sous-bois"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans le Nether."]
+			id: "1388FBFA8A6F6BC8"
+			optional: true
+			rewards: [{
+				id: "6F5518EB5FA6EE7E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:visceral_heap"
+				id: "28C379A4C5925AF6"
+				type: "biome"
+			}]
+			title: "Découvrir : Tas de viscères"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans le Nether. On y croise : Wither squelette (données du pack)."]
+			id: "65DAC9EEE381D58A"
+			optional: true
+			rewards: [{
+				id: "0F3AF8E746E0A721"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:withered_abyss"
+				id: "2581E3C1A9242443"
+				type: "biome"
+			}]
+			title: "Découvrir : Abîme flétri"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Gardens of the Dead, dans le Nether."]
+			id: "37CE4717014FAD92"
+			optional: true
+			rewards: [{
+				id: "518BE5529D2A6F4B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "gardens_of_the_dead:soulblight_forest"
+				id: "33D3BFA71D6F7D35"
+				type: "biome"
+			}]
+			title: "Découvrir : « Soulblight Forest »"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Gardens of the Dead, dans le Nether."]
+			id: "15BC1DF58A8AD027"
+			optional: true
+			rewards: [{
+				id: "5855B5FF9F6BBF21"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "gardens_of_the_dead:whistling_woods"
+				id: "4BB5D0721CABD73A"
+				type: "biome"
+			}]
+			title: "Découvrir : « Whistling Woods »"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Jaden's Nether Expansion, dans le Nether."]
+			id: "6D8E498A175EE997"
+			optional: true
+			rewards: [{
+				id: "43AB4BDA3412500B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "netherexp:black_ice_glaciers"
+				id: "1D03203C67E9B41B"
+				type: "biome"
+			}]
+			title: "Découvrir : « Black Ice Glaciers »"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Jaden's Nether Expansion, dans le Nether."]
+			id: "2E61F2E9CD5393E1"
+			optional: true
+			rewards: [{
+				id: "2BA57DFFEA25D155"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "netherexp:exhaust_mire"
+				id: "31CF7D89F220E5EA"
+				type: "biome"
+			}]
+			title: "Découvrir : « Exhaust Mire »"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Jaden's Nether Expansion, dans le Nether."]
+			id: "44662FCD3AF316B6"
+			optional: true
+			rewards: [{
+				id: "3E5D955DE18C248F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "netherexp:grieving_grove"
+				id: "02956CEB089455CC"
+				type: "biome"
+			}]
+			title: "Découvrir : « Grieving Grove »"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Jaden's Nether Expansion, dans le Nether."]
+			id: "63A0B68522F88D5B"
+			optional: true
+			rewards: [{
+				id: "504C11B5AB2650A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "netherexp:plume_bowels"
+				id: "6A9EE6CF57A99420"
+				type: "biome"
+			}]
+			title: "Découvrir : « Plume Bowels »"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Jaden's Nether Expansion, dans le Nether."]
+			id: "04D389EAF961E8EE"
+			optional: true
+			rewards: [{
+				id: "2531A3B4B40FA3D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "netherexp:quartz_chasm"
+				id: "657BCF4B2854E3CF"
+				type: "biome"
+			}]
+			title: "Découvrir : « Quartz Chasm »"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Jaden's Nether Expansion, dans le Nether."]
+			id: "16247C5C32FF83EA"
+			optional: true
+			rewards: [{
+				id: "0DD41F932F0F8620"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "netherexp:sorrowsquash_pasture"
+				id: "499EC0183624CA38"
+				type: "biome"
+			}]
+			title: "Découvrir : « Sorrowsquash Pasture »"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Jaden's Nether Expansion, dans le Nether."]
+			id: "7CF922A05645E15E"
+			optional: true
+			rewards: [{
+				id: "1EC1854AF5E8FCBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "netherexp:sorrowsquash_pastures"
+				id: "357E5252E1E71ED7"
+				type: "biome"
+			}]
+			title: "Découvrir : « Sorrowsquash pastures »"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Soulful Nether, dans le Nether."]
+			id: "7B911613FE6F048C"
+			optional: true
+			rewards: [{
+				id: "3DE1FC8A82F3660B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "soulfulnether:ashen_deltas"
+				id: "2D71CE58888CEE42"
+				type: "biome"
+			}]
+			title: "Découvrir : « Ashen Deltas »"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Soulful Nether, dans le Nether."]
+			id: "6C82705FE5A9C7BB"
+			optional: true
+			rewards: [{
+				id: "353C5D52FABB7645"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "soulfulnether:fright_forest"
+				id: "629FC6638A8101F4"
+				type: "biome"
+			}]
+			title: "Découvrir : « Fright Forest »"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Soulful Nether, dans le Nether."]
+			id: "74C897F00B093F67"
+			optional: true
+			rewards: [{
+				id: "5670B616CCB96B60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "soulfulnether:gloomy_glades"
+				id: "7D84381BB091E0B4"
+				type: "biome"
+			}]
+			title: "Découvrir : « Gloomy glades »"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"63D9DADCFF990910"
+				"6012439CA4ADFD09"
+				"4A77AF9A6AC9F460"
+				"154D40647AB2A834"
+				"15DC2BAF71E55591"
+				"2A1791B58C76587B"
+				"451AEC8E8752572C"
+				"4D7F25A88EB17CA8"
+				"75CCAB7C2B6FE51C"
+				"2B566AE0C6ED1F4A"
+				"7FB86440DE55B96C"
+				"1552814D1F91DC62"
+				"4B160B84E2E7931D"
+				"2C4E263739F21B8C"
+				"4DECF6FA51097215"
+				"4A917A0EBDAA45CB"
+				"07F8F62CDD819975"
+				"7DE90D69324CE234"
+				"05A7CA9E6F6CC0B1"
+				"3F40C1746540EB88"
+				"6A4D523215E14995"
+				"688552F479388506"
+				"1C171197F32429FF"
+				"2409205EE4FAEECF"
+				"51C75CB68CF93DA7"
+				"1958469BA7C74243"
+				"224EDB82A93D8D62"
+				"716C6566995221D8"
+				"47367C8563E2526B"
+				"0FA69470136D4B85"
+				"7BB4BB3A3A7A0377"
+				"3BDAC3A075FC4856"
+				"7571969553956793"
+				"7A01E767DBBFE7C0"
+				"6F4CC74A1B609FBE"
+				"58DFCBC9792A9D67"
+				"1A5022D08219451A"
+				"5C664984EA3FD7C0"
+				"3A4C9ED95728D501"
+				"5140CFAF79DAA5F0"
+				"54DAF4FE73D1847B"
+				"35769BE7AB9F8036"
+				"124BD813E601651D"
+				"11C6BBF2B5FF77D0"
+				"25F81F1656DE2963"
+				"48687D6BB909F152"
+				"680AAD891E559398"
+				"11AB0A6670D68BD5"
+				"112057C7631AB933"
+				"2BCFA8CE3F43D00F"
+				"5A022342F0787558"
+				"21A4F3A92535DF58"
+				"166B7E8E251A16B5"
+				"4761920354056EDD"
+				"38818CF3BCE277A7"
+				"25934AAD72610847"
+				"1F279F60C0986DC9"
+				"3A3525BAE5E6D069"
+				"68300B0B50C62178"
+				"4E298E69D39B9240"
+				"06C576F8F85C9CBD"
+				"0DB9ED1E674697BB"
+				"21EE21D9C0DCD51A"
+				"78989DA0A4C8EA6E"
+				"1388FBFA8A6F6BC8"
+				"65DAC9EEE381D58A"
+				"37CE4717014FAD92"
+				"15BC1DF58A8AD027"
+				"6D8E498A175EE997"
+				"2E61F2E9CD5393E1"
+				"44662FCD3AF316B6"
+				"63A0B68522F88D5B"
+				"04D389EAF961E8EE"
+				"16247C5C32FF83EA"
+				"7CF922A05645E15E"
+				"7B911613FE6F048C"
+				"6C82705FE5A9C7BB"
+				"74C897F00B093F67"
+			]
+			description: ["Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte."]
+			icon: "minecraft:end_stone"
+			id: "63E1EE881B934DFF"
+			optional: true
+			rewards: [{
+				id: "195F59D40F397D10"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0BD7B10A6EECA6A5"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&4Biomes — Nether et End"
+}
