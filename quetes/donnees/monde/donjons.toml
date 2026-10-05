@@ -263,14 +263,116 @@ Huit fragments autour d'un totem d'immortalité. Tenu en main, il coupe les gén
 """
 
 [[quete]]
+cle = "tungstene"
+titre = "Du tungstène"
+deps = ["intro"]
+taches = ["item stalwart_dungeons:tungsten_ingot"]
+recompenses = ["xp 5"]
+description = """
+Le minerai de tungstène de &cStalwart Dungeons&r, fondu en lingots.
+"""
+
+[[quete]]
+cle = "tungstene_armure"
+titre = "L'armure de tungstène"
+deps = ["tungstene"]
+taches = ["item stalwart_dungeons:tungsten_helmet", "item stalwart_dungeons:tungsten_chestplate", "item stalwart_dungeons:tungsten_leggings", "item stalwart_dungeons:tungsten_boots"]
+recompenses = ["xp 10"]
+description = """
+Chaque pièce demande des lingots de tungstène et un &ldébris d'armure de blaze&r, lâché par les blazes renforcés (table de butin du jar).
+"""
+
+[[quete]]
+cle = "tungstene_outils"
+titre = "Les outils de tungstène"
+deps = ["tungstene"]
+taches = ["item stalwart_dungeons:tungsten_sword", "item stalwart_dungeons:tungsten_pickaxe", "item stalwart_dungeons:tungsten_axe", "item stalwart_dungeons:tungsten_shovel", "item stalwart_dungeons:tungsten_hoe"]
+recompenses = ["xp 8"]
+description = """
+Épée, pioche, hache, pelle et houe de tungstène.
+"""
+
+[[quete]]
+cle = "chorundum_armure"
+titre = "L'armure de chorundum"
+deps = ["shelterer", "tungstene_armure"]
+taches = ["item stalwart_dungeons:chorundum_armor_helmet", "item stalwart_dungeons:chorundum_armor_chestplate", "item stalwart_dungeons:chorundum_armor_leggings", "item stalwart_dungeons:chorundum_armor_boots"]
+recompenses = ["xp 15"]
+description = """
+Le chorundum, et le &lcristal du vide&r que lâche le Shelterer (table de butin du jar) dans chaque pièce. Le dernier palier de Stalwart Dungeons ; chaque pièce est à l'Armurerie de l'Encyclopédie.
+"""
+
+[[quete]]
+cle = "chorundum_outils"
+titre = "Les outils de chorundum"
+deps = ["tungstene_outils"]
+taches = ["item stalwart_dungeons:chorundum_sword", "item stalwart_dungeons:chorundum_pickaxe", "item stalwart_dungeons:chorundum_axe", "item stalwart_dungeons:chorundum_shovel", "item stalwart_dungeons:chorundum_hoe"]
+recompenses = ["xp 12"]
+description = """
+Le minerai de chorundum, fondu, et un bâton.
+"""
+
+[[quete]]
+cle = "awful_ghast_relance"
+titre = "&cUn autre Awful Ghast"
+deps = ["awful_ghast"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill stalwart_dungeons:awful_ghast"]
+recompenses = ["xp 20"]
+description = """
+Un autre combat, dans un autre donjon. Seul un combat mené après l'ouverture de cette quête compte.
+"""
+
+[[quete]]
+cle = "nether_keeper_relance"
+titre = "&cUn autre Nether Keeper"
+deps = ["nether_keeper"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill stalwart_dungeons:nether_keeper"]
+recompenses = ["xp 20"]
+description = """
+Un autre combat, dans un autre château. Seul un combat mené après l'ouverture de cette quête compte.
+"""
+
+[[quete]]
+cle = "shelterer_relance"
+titre = "&5Un autre Shelterer"
+deps = ["shelterer"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill stalwart_dungeons:shelterer"]
+recompenses = ["xp 20"]
+description = """
+Un autre combat, dans un autre donjon de l'End. Seul un combat mené après l'ouverture de cette quête compte.
+"""
+
+[[quete]]
+cle = "invoker_relance"
+titre = "&6Un autre Invoker"
+deps = ["invoker"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill illagerinvasion:invoker"]
+recompenses = ["xp 20"]
+description = """
+Il revient dans les raids. Seul un combat mené après l'ouverture de cette quête compte.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&8Chasseur de donjons"
-deps = ["wda_fort", "awful_ghast"]
-exigence = "une"
-taille = 1.3
+deps = ["wda_fort", "chorundum_armure", "chorundum_outils", "awful_ghast_relance", "nether_keeper_relance", "shelterer_relance", "invoker_relance"]
+taille = 1.5
+forme = "diamond"
 icone = "stalwart_dungeons:tungsten_sword"
 taches = ["checkmark Un donjon vidé"]
 recompenses = ["xp 5"]
 description = """
-Un fort ou un boss suffit. Le chapitre &7Chasseur de boss&r des Défis compte tous les boss du serveur.
+Le fort des illageois, l'équipement de chorundum, et chaque boss de donjon battu deux fois. Le chapitre &7Chasseur de boss&r des Défis compte tous les boss du serveur.
 """

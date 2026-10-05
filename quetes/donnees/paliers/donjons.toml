@@ -1,0 +1,113 @@
+# Échelle des paliers — Donjons et autres boss (BMC-89, 5 octobre 2026).
+# Recettes et tables de butin du jar stalwart-dungeons 1.2.8 ; relances
+# par kill après ouverture (TeamData.canStartTasks).
+chapitre = "monde_donjons"
+sommet = "fin"
+
+[[palier]]
+echelle = "armure"
+cle = "tungstene"
+preuve = "tungsten_ingot_recipe"
+
+[[palier]]
+echelle = "armure"
+cle = "tungstene_armure"
+preuve = "tungsten_*_recipe + blaze_armor_scrap"
+
+[[palier]]
+echelle = "armure"
+cle = "chorundum_armure"
+preuve = "chorundum_armor_* + void_crystal"
+
+[[palier]]
+echelle = "armure"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "outils"
+cle = "tungstene"
+preuve = "tungsten_ingot_recipe"
+
+[[palier]]
+echelle = "outils"
+cle = "tungstene_outils"
+preuve = "tungsten_* outils"
+
+[[palier]]
+echelle = "outils"
+cle = "chorundum_outils"
+preuve = "chorundum_* outils"
+
+[[palier]]
+echelle = "outils"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "awful_ghast"
+cle = "awful_ghast"
+preuve = "kill"
+
+[[palier]]
+echelle = "awful_ghast"
+cle = "awful_ghast_relance"
+preuve = "kill après ouverture"
+
+[[palier]]
+echelle = "awful_ghast"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "nether_keeper"
+cle = "nether_keeper"
+preuve = "kill"
+
+[[palier]]
+echelle = "nether_keeper"
+cle = "nether_keeper_relance"
+preuve = "kill après ouverture"
+
+[[palier]]
+echelle = "nether_keeper"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "shelterer"
+cle = "shelterer"
+preuve = "kill"
+
+[[palier]]
+echelle = "shelterer"
+cle = "shelterer_relance"
+preuve = "kill après ouverture"
+
+[[palier]]
+echelle = "shelterer"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "invoker"
+cle = "invoker"
+preuve = "kill"
+
+[[palier]]
+echelle = "invoker"
+cle = "invoker_relance"
+preuve = "kill après ouverture"
+
+[[palier]]
+echelle = "invoker"
+cle = "fin"
+preuve = "sommet"
+
+[[saute]]
+objet = "tungstène verruqueux (warted_tungsten_*)"
+raison = "le flacon de spores n'a ni recette ni butin lus : non obtenable en chaîne"
+
+[[saute]]
+objet = "relance du ver du vide et du Berserker"
+raison = "ver du vide validé par son œil (objet), Berserker invoqué par un progrès en échec au chargement : pas de second combat vérifiable"
