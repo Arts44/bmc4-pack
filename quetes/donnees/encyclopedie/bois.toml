@@ -1,0 +1,827 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&2Bois"
+fichier = "enc_bois"
+groupe = "encyclopedie"
+icone = "minecraft:oak_log"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&2Bois"
+taille = 1.5
+icone = "minecraft:oak_log"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque bûche et chaque tige d'arbre du pack. Une quête se valide en ayant la bûche dans l'inventaire.
+"""
+
+[[quete]]
+cle = "aether_golden_oak_log"
+titre = "Récolter : « Golden Oak Log »"
+optionnel = true
+icone = "aether:golden_oak_log"
+taches = ["item aether:golden_oak_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_skyroot_log"
+titre = "Récolter : « Skyroot Log »"
+optionnel = true
+icone = "aether:skyroot_log"
+taches = ["item aether:skyroot_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "betterend_dragon_tree_log"
+titre = "Récolter : « Dragon Tree Log »"
+optionnel = true
+icone = "betterend:dragon_tree_log"
+taches = ["item betterend:dragon_tree_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_end_lotus_log"
+titre = "Récolter : « Endlotus Log »"
+optionnel = true
+icone = "betterend:end_lotus_log"
+taches = ["item betterend:end_lotus_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_helix_tree_log"
+titre = "Récolter : « Helix Tree Log »"
+optionnel = true
+icone = "betterend:helix_tree_log"
+taches = ["item betterend:helix_tree_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_jellyshroom_log"
+titre = "Récolter : « Jellyshroom Log »"
+optionnel = true
+icone = "betterend:jellyshroom_log"
+taches = ["item betterend:jellyshroom_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_lacugrove_log"
+titre = "Récolter : « Lacugrove Log »"
+optionnel = true
+icone = "betterend:lacugrove_log"
+taches = ["item betterend:lacugrove_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_lucernia_log"
+titre = "Récolter : « Lucernia Log »"
+optionnel = true
+icone = "betterend:lucernia_log"
+taches = ["item betterend:lucernia_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_mossy_glowshroom_log"
+titre = "Récolter : « Mossy Glowshroom Log »"
+optionnel = true
+icone = "betterend:mossy_glowshroom_log"
+taches = ["item betterend:mossy_glowshroom_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_pythadendron_log"
+titre = "Récolter : « Pythadendron Log »"
+optionnel = true
+icone = "betterend:pythadendron_log"
+taches = ["item betterend:pythadendron_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_tenanea_log"
+titre = "Récolter : « Tenanea Log »"
+optionnel = true
+icone = "betterend:tenanea_log"
+taches = ["item betterend:tenanea_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_umbrella_tree_log"
+titre = "Récolter : « Umbrella Tree Log »"
+optionnel = true
+icone = "betterend:umbrella_tree_log"
+taches = ["item betterend:umbrella_tree_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betternether_anchor_tree_log"
+titre = "Récolter : Anchor Tree Log"
+optionnel = true
+icone = "betternether:anchor_tree_log"
+taches = ["item betternether:anchor_tree_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_mushroom_fir_log"
+titre = "Récolter : Mushroom Fir Log"
+optionnel = true
+icone = "betternether:mushroom_fir_log"
+taches = ["item betternether:mushroom_fir_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_nether_sakura_log"
+titre = "Récolter : Nether Sakura Log"
+optionnel = true
+icone = "betternether:nether_sakura_log"
+taches = ["item betternether:nether_sakura_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_rubeus_log"
+titre = "Récolter : Rubeus Log"
+optionnel = true
+icone = "betternether:rubeus_log"
+taches = ["item betternether:rubeus_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_stalagnate_log"
+titre = "Récolter : Stalagnate Log"
+optionnel = true
+icone = "betternether:stalagnate_log"
+taches = ["item betternether:stalagnate_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_wart_log"
+titre = "Récolter : Wart Log"
+optionnel = true
+icone = "betternether:wart_log"
+taches = ["item betternether:wart_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "betternether_willow_log"
+titre = "Récolter : Willow Log"
+optionnel = true
+icone = "betternether:willow_log"
+taches = ["item betternether:willow_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter Nether&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_dead_log"
+titre = "Récolter : Bûche de bois mort"
+optionnel = true
+icone = "biomesoplenty:dead_log"
+taches = ["item biomesoplenty:dead_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_empyreal_log"
+titre = "Récolter : « Empyreal Log »"
+optionnel = true
+icone = "biomesoplenty:empyreal_log"
+taches = ["item biomesoplenty:empyreal_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_fir_log"
+titre = "Récolter : Bûche de pin"
+optionnel = true
+icone = "biomesoplenty:fir_log"
+taches = ["item biomesoplenty:fir_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_hellbark_log"
+titre = "Récolter : Bûche d'écorce de l'enfer"
+optionnel = true
+icone = "biomesoplenty:hellbark_log"
+taches = ["item biomesoplenty:hellbark_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_jacaranda_log"
+titre = "Récolter : Bûche de jacaranda"
+optionnel = true
+icone = "biomesoplenty:jacaranda_log"
+taches = ["item biomesoplenty:jacaranda_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_magic_log"
+titre = "Récolter : Bûche de bois magique"
+optionnel = true
+icone = "biomesoplenty:magic_log"
+taches = ["item biomesoplenty:magic_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_mahogany_log"
+titre = "Récolter : Bûche d'acajou d'amérique"
+optionnel = true
+icone = "biomesoplenty:mahogany_log"
+taches = ["item biomesoplenty:mahogany_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_maple_log"
+titre = "Récolter : « Maple Log »"
+optionnel = true
+icone = "biomesoplenty:maple_log"
+taches = ["item biomesoplenty:maple_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_palm_log"
+titre = "Récolter : Bûche de palmier"
+optionnel = true
+icone = "biomesoplenty:palm_log"
+taches = ["item biomesoplenty:palm_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_pine_log"
+titre = "Récolter : « Pine Log »"
+optionnel = true
+icone = "biomesoplenty:pine_log"
+taches = ["item biomesoplenty:pine_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_redwood_log"
+titre = "Récolter : Bûche de séquoia"
+optionnel = true
+icone = "biomesoplenty:redwood_log"
+taches = ["item biomesoplenty:redwood_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_umbran_log"
+titre = "Récolter : Bûche de bois de l'ombre"
+optionnel = true
+icone = "biomesoplenty:umbran_log"
+taches = ["item biomesoplenty:umbran_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_willow_log"
+titre = "Récolter : Bûche de saule"
+optionnel = true
+icone = "biomesoplenty:willow_log"
+taches = ["item biomesoplenty:willow_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_log"
+titre = "Récolter : Bûche de lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_log"
+taches = ["item blue_skies:bluebright_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_log"
+titre = "Récolter : « Comet Log »"
+optionnel = true
+icone = "blue_skies:comet_log"
+taches = ["item blue_skies:comet_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_crystallized_log"
+titre = "Récolter : Bûche cristallisée"
+optionnel = true
+icone = "blue_skies:crystallized_log"
+taches = ["item blue_skies:crystallized_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_log"
+titre = "Récolter : Bûche de crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_log"
+taches = ["item blue_skies:dusk_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_log"
+titre = "Récolter : Bûche de nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_log"
+taches = ["item blue_skies:frostbright_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_log"
+titre = "Récolter : Bûche lunaire"
+optionnel = true
+icone = "blue_skies:lunar_log"
+taches = ["item blue_skies:lunar_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_log"
+titre = "Récolter : Bûche d'érable"
+optionnel = true
+icone = "blue_skies:maple_log"
+taches = ["item blue_skies:maple_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_log"
+titre = "Récolter : Bûche d'étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_log"
+taches = ["item blue_skies:starlit_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "crabbersdelight_palm_log"
+titre = "Récolter : « Palm Log »"
+optionnel = true
+icone = "crabbersdelight:palm_log"
+taches = ["item crabbersdelight:palm_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bcrabbersdelight&r.
+"""
+
+[[quete]]
+cle = "deep_aether_conberry_log"
+titre = "Récolter : « Conberry Log »"
+optionnel = true
+icone = "deep_aether:conberry_log"
+taches = ["item deep_aether:conberry_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_cruderoot_log"
+titre = "Récolter : « Cruderoot Log »"
+optionnel = true
+icone = "deep_aether:cruderoot_log"
+taches = ["item deep_aether:cruderoot_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_roseroot_log"
+titre = "Récolter : « Roseroot Log »"
+optionnel = true
+icone = "deep_aether:roseroot_log"
+taches = ["item deep_aether:roseroot_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_sunroot_log"
+titre = "Récolter : « Sunroot Log »"
+optionnel = true
+icone = "deep_aether:sunroot_log"
+taches = ["item deep_aether:sunroot_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_yagroot_log"
+titre = "Récolter : « Yagroot Log »"
+optionnel = true
+icone = "deep_aether:yagroot_log"
+taches = ["item deep_aether:yagroot_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "gardens_of_the_dead_soulblight_stem"
+titre = "Récolter : « Soulblight Stem »"
+optionnel = true
+icone = "gardens_of_the_dead:soulblight_stem"
+taches = ["item gardens_of_the_dead:soulblight_stem"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bgardens_of_the_dead&r.
+"""
+
+[[quete]]
+cle = "minecraft_acacia_log"
+titre = "Récolter : Bûche d'acacia"
+optionnel = true
+icone = "minecraft:acacia_log"
+taches = ["item minecraft:acacia_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_birch_log"
+titre = "Récolter : Bûche de bouleau"
+optionnel = true
+icone = "minecraft:birch_log"
+taches = ["item minecraft:birch_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_cherry_log"
+titre = "Récolter : Bûche de cerisier"
+optionnel = true
+icone = "minecraft:cherry_log"
+taches = ["item minecraft:cherry_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_crimson_stem"
+titre = "Récolter : Tige carmin"
+optionnel = true
+icone = "minecraft:crimson_stem"
+taches = ["item minecraft:crimson_stem"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_dark_oak_log"
+titre = "Récolter : Bûche de chêne noir"
+optionnel = true
+icone = "minecraft:dark_oak_log"
+taches = ["item minecraft:dark_oak_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_jungle_log"
+titre = "Récolter : Bûche d'acajou"
+optionnel = true
+icone = "minecraft:jungle_log"
+taches = ["item minecraft:jungle_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_mangrove_log"
+titre = "Récolter : Bûche de palétuvier"
+optionnel = true
+icone = "minecraft:mangrove_log"
+taches = ["item minecraft:mangrove_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_oak_log"
+titre = "Récolter : Bûche de chêne"
+optionnel = true
+icone = "minecraft:oak_log"
+taches = ["item minecraft:oak_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_pale_oak_log"
+titre = "Récolter : Bûche de chêne pâle"
+optionnel = true
+icone = "minecraft:pale_oak_log"
+taches = ["item minecraft:pale_oak_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_spruce_log"
+titre = "Récolter : Bûche de sapin"
+optionnel = true
+icone = "minecraft:spruce_log"
+taches = ["item minecraft:spruce_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_warped_stem"
+titre = "Récolter : Tige biscornue"
+optionnel = true
+icone = "minecraft:warped_stem"
+taches = ["item minecraft:warped_stem"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "quark_ancient_log"
+titre = "Récolter : Bûche ancienne"
+optionnel = true
+icone = "quark:ancient_log"
+taches = ["item quark:ancient_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bquark&r.
+"""
+
+[[quete]]
+cle = "quark_azalea_log"
+titre = "Récolter : Bûche d'azalée"
+optionnel = true
+icone = "quark:azalea_log"
+taches = ["item quark:azalea_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bquark&r.
+"""
+
+[[quete]]
+cle = "quark_blossom_log"
+titre = "Récolter : Bûche de cerisier"
+optionnel = true
+icone = "quark:blossom_log"
+taches = ["item quark:blossom_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bquark&r.
+"""
+
+[[quete]]
+cle = "soulfulnether_fright_stem"
+titre = "Récolter : « Fright Stem »"
+optionnel = true
+icone = "soulfulnether:fright_stem"
+taches = ["item soulfulnether:fright_stem"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bSoulful Nether&r.
+"""
+
+[[quete]]
+cle = "soulfulnether_gloom_fungus_stem"
+titre = "Récolter : « Gloom Fungus Stem »"
+optionnel = true
+icone = "soulfulnether:gloom_fungus_stem"
+taches = ["item soulfulnether:gloom_fungus_stem"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bSoulful Nether&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_ironwood_log"
+titre = "Récolter : « Ironwood Log »"
+optionnel = true
+icone = "twilightdelight:ironwood_log"
+taches = ["item twilightdelight:ironwood_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &btwilightdelight&r.
+"""
+
+[[quete]]
+cle = "twilightforest_canopy_log"
+titre = "Récolter : Bûche d'arbre canopée"
+optionnel = true
+icone = "twilightforest:canopy_log"
+taches = ["item twilightforest:canopy_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_dark_log"
+titre = "Récolter : Bûche de bois sombre"
+optionnel = true
+icone = "twilightforest:dark_log"
+taches = ["item twilightforest:dark_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_mangrove_log"
+titre = "Récolter : Bûche de Mangrove"
+optionnel = true
+icone = "twilightforest:mangrove_log"
+taches = ["item twilightforest:mangrove_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_mining_log"
+titre = "Récolter : « Minewood Log »"
+optionnel = true
+icone = "twilightforest:mining_log"
+taches = ["item twilightforest:mining_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_sorting_log"
+titre = "Récolter : « Sortingwood Log »"
+optionnel = true
+icone = "twilightforest:sorting_log"
+taches = ["item twilightforest:sorting_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_time_log"
+titre = "Récolter : « Timewood Log »"
+optionnel = true
+icone = "twilightforest:time_log"
+taches = ["item twilightforest:time_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_transformation_log"
+titre = "Récolter : « Transwood Log »"
+optionnel = true
+icone = "twilightforest:transformation_log"
+taches = ["item twilightforest:transformation_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_twilight_oak_log"
+titre = "Récolter : Bûche de bois du Crépuscule"
+optionnel = true
+icone = "twilightforest:twilight_oak_log"
+taches = ["item twilightforest:twilight_oak_log"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:oak_sapling"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["aether_golden_oak_log", "aether_skyroot_log", "betterend_dragon_tree_log", "betterend_end_lotus_log", "betterend_helix_tree_log", "betterend_jellyshroom_log", "betterend_lacugrove_log", "betterend_lucernia_log", "betterend_mossy_glowshroom_log", "betterend_pythadendron_log", "betterend_tenanea_log", "betterend_umbrella_tree_log", "betternether_anchor_tree_log", "betternether_mushroom_fir_log", "betternether_nether_sakura_log", "betternether_rubeus_log", "betternether_stalagnate_log", "betternether_wart_log", "betternether_willow_log", "biomesoplenty_dead_log", "biomesoplenty_empyreal_log", "biomesoplenty_fir_log", "biomesoplenty_hellbark_log", "biomesoplenty_jacaranda_log", "biomesoplenty_magic_log", "biomesoplenty_mahogany_log", "biomesoplenty_maple_log", "biomesoplenty_palm_log", "biomesoplenty_pine_log", "biomesoplenty_redwood_log", "biomesoplenty_umbran_log", "biomesoplenty_willow_log", "blue_skies_bluebright_log", "blue_skies_comet_log", "blue_skies_crystallized_log", "blue_skies_dusk_log", "blue_skies_frostbright_log", "blue_skies_lunar_log", "blue_skies_maple_log", "blue_skies_starlit_log", "crabbersdelight_palm_log", "deep_aether_conberry_log", "deep_aether_cruderoot_log", "deep_aether_roseroot_log", "deep_aether_sunroot_log", "deep_aether_yagroot_log", "gardens_of_the_dead_soulblight_stem", "minecraft_acacia_log", "minecraft_birch_log", "minecraft_cherry_log", "minecraft_crimson_stem", "minecraft_dark_oak_log", "minecraft_jungle_log", "minecraft_mangrove_log", "minecraft_oak_log", "minecraft_pale_oak_log", "minecraft_spruce_log", "minecraft_warped_stem", "quark_ancient_log", "quark_azalea_log", "quark_blossom_log", "soulfulnether_fright_stem", "soulfulnether_gloom_fungus_stem", "twilightdelight_ironwood_log", "twilightforest_canopy_log", "twilightforest_dark_log", "twilightforest_mangrove_log", "twilightforest_mining_log", "twilightforest_sorting_log", "twilightforest_time_log", "twilightforest_transformation_log", "twilightforest_twilight_oak_log"]
+description = """
+Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+"""

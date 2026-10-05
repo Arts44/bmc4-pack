@@ -1,0 +1,1567 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_bois"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:oak_log"
+	id: "4CFDCD330EF743A4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque bûche et chaque tige d'arbre du pack. Une quête se valide en ayant la bûche dans l'inventaire."]
+			icon: "minecraft:oak_log"
+			id: "5244A70BAC54F988"
+			rewards: [{
+				id: "67BFCF728813B5D9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "67210A231096C5A6"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&2Bois"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:golden_oak_log"
+			id: "1F7A0451BA9AB12C"
+			optional: true
+			rewards: [{
+				id: "0764F4F607AC43B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38434BEEB81A2573"
+				item: "aether:golden_oak_log"
+				type: "item"
+			}]
+			title: "Récolter : « Golden Oak Log »"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:skyroot_log"
+			id: "3CE701F842F26879"
+			optional: true
+			rewards: [{
+				id: "15B9BE574B4F3484"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5034ADA1C18BD4A9"
+				item: "aether:skyroot_log"
+				type: "item"
+			}]
+			title: "Récolter : « Skyroot Log »"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:dragon_tree_log"
+			id: "60DC7823E70FCCA1"
+			optional: true
+			rewards: [{
+				id: "199F64ECD4E238C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2727E7C4AACC923A"
+				item: "betterend:dragon_tree_log"
+				type: "item"
+			}]
+			title: "Récolter : « Dragon Tree Log »"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:end_lotus_log"
+			id: "737C2BA663AAB54C"
+			optional: true
+			rewards: [{
+				id: "7CA448FA113C1487"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C777D54013E8B88"
+				item: "betterend:end_lotus_log"
+				type: "item"
+			}]
+			title: "Récolter : « Endlotus Log »"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:helix_tree_log"
+			id: "0D9C68B3DE28790B"
+			optional: true
+			rewards: [{
+				id: "6FF60A210DF80776"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28FCAA4C2A29C316"
+				item: "betterend:helix_tree_log"
+				type: "item"
+			}]
+			title: "Récolter : « Helix Tree Log »"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:jellyshroom_log"
+			id: "43D172A3438D4905"
+			optional: true
+			rewards: [{
+				id: "30F8AC8EAC140128"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05CADA40E744FCED"
+				item: "betterend:jellyshroom_log"
+				type: "item"
+			}]
+			title: "Récolter : « Jellyshroom Log »"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:lacugrove_log"
+			id: "7D3D01763ED7920B"
+			optional: true
+			rewards: [{
+				id: "50FD061936F6BFC4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7812EA35F851779E"
+				item: "betterend:lacugrove_log"
+				type: "item"
+			}]
+			title: "Récolter : « Lacugrove Log »"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:lucernia_log"
+			id: "43B23B7CC649F8B3"
+			optional: true
+			rewards: [{
+				id: "76FB086B54B37E34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22D19155EDD2E1FA"
+				item: "betterend:lucernia_log"
+				type: "item"
+			}]
+			title: "Récolter : « Lucernia Log »"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:mossy_glowshroom_log"
+			id: "0B2FB9FC26B6C596"
+			optional: true
+			rewards: [{
+				id: "3E08E47F942DFB74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A8895DE03EA0757"
+				item: "betterend:mossy_glowshroom_log"
+				type: "item"
+			}]
+			title: "Récolter : « Mossy Glowshroom Log »"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:pythadendron_log"
+			id: "353792F7CCC523AE"
+			optional: true
+			rewards: [{
+				id: "5D2A4A0B630C7AEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61E2B72AED2E8BCD"
+				item: "betterend:pythadendron_log"
+				type: "item"
+			}]
+			title: "Récolter : « Pythadendron Log »"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:tenanea_log"
+			id: "64F9CE18AD383560"
+			optional: true
+			rewards: [{
+				id: "0F004CF5D46FE0EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "617BEC1F2022E1EE"
+				item: "betterend:tenanea_log"
+				type: "item"
+			}]
+			title: "Récolter : « Tenanea Log »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:umbrella_tree_log"
+			id: "3ED4DDD64E8BC01D"
+			optional: true
+			rewards: [{
+				id: "76A049443CD61E74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13C33DE84478FDE8"
+				item: "betterend:umbrella_tree_log"
+				type: "item"
+			}]
+			title: "Récolter : « Umbrella Tree Log »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:anchor_tree_log"
+			id: "085D351D5AB2710B"
+			optional: true
+			rewards: [{
+				id: "0F1F5545697F8E5B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21FCE1F98E25C734"
+				item: "betternether:anchor_tree_log"
+				type: "item"
+			}]
+			title: "Récolter : Anchor Tree Log"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:mushroom_fir_log"
+			id: "12B0E7EDD864D6F1"
+			optional: true
+			rewards: [{
+				id: "2540F41EC688549C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BE937A07BFCCF59"
+				item: "betternether:mushroom_fir_log"
+				type: "item"
+			}]
+			title: "Récolter : Mushroom Fir Log"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:nether_sakura_log"
+			id: "060B0EE2A791B75D"
+			optional: true
+			rewards: [{
+				id: "4EE3ED220019962C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "02EE4DCB7409C744"
+				item: "betternether:nether_sakura_log"
+				type: "item"
+			}]
+			title: "Récolter : Nether Sakura Log"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:rubeus_log"
+			id: "21E5FC68395B046A"
+			optional: true
+			rewards: [{
+				id: "2FFD4B0CEBF78A57"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3BAB8475553BA644"
+				item: "betternether:rubeus_log"
+				type: "item"
+			}]
+			title: "Récolter : Rubeus Log"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:stalagnate_log"
+			id: "7C59EB18B9930E01"
+			optional: true
+			rewards: [{
+				id: "7D1930D483DB344D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "469121CF04179956"
+				item: "betternether:stalagnate_log"
+				type: "item"
+			}]
+			title: "Récolter : Stalagnate Log"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:wart_log"
+			id: "4E27AFD379960EF1"
+			optional: true
+			rewards: [{
+				id: "36D481D845CF5A11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "537A22A5FB749B71"
+				item: "betternether:wart_log"
+				type: "item"
+			}]
+			title: "Récolter : Wart Log"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBetter Nether&r."]
+			icon: "betternether:willow_log"
+			id: "3D83D03C3D71A26F"
+			optional: true
+			rewards: [{
+				id: "24264023C9ADC442"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E571606DFB89FD2"
+				item: "betternether:willow_log"
+				type: "item"
+			}]
+			title: "Récolter : Willow Log"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:dead_log"
+			id: "7455794749366DA9"
+			optional: true
+			rewards: [{
+				id: "30482355F32CDC0E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F74188D56C11E66"
+				item: "biomesoplenty:dead_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de bois mort"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:empyreal_log"
+			id: "3474E8CC2ADCC875"
+			optional: true
+			rewards: [{
+				id: "1B119990E1E962FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C80CE0D28030B1D"
+				item: "biomesoplenty:empyreal_log"
+				type: "item"
+			}]
+			title: "Récolter : « Empyreal Log »"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:fir_log"
+			id: "0E68BCB2787ECC66"
+			optional: true
+			rewards: [{
+				id: "531D19ABAAACF4FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6804EABC09BCDA4E"
+				item: "biomesoplenty:fir_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de pin"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:hellbark_log"
+			id: "679E1F6D0B37D65E"
+			optional: true
+			rewards: [{
+				id: "4C506637BB40AC93"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15BCDF8030DA6B3D"
+				item: "biomesoplenty:hellbark_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche d'écorce de l'enfer"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:jacaranda_log"
+			id: "4FB65ADB3F2DF4E0"
+			optional: true
+			rewards: [{
+				id: "072385A9DB1B9075"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E463B7D4CC8000E"
+				item: "biomesoplenty:jacaranda_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de jacaranda"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:magic_log"
+			id: "43CE62255B73E6B3"
+			optional: true
+			rewards: [{
+				id: "300A59549070E14C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3100978B2B7E8128"
+				item: "biomesoplenty:magic_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de bois magique"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:mahogany_log"
+			id: "78AF0B832F90876B"
+			optional: true
+			rewards: [{
+				id: "6711C25371C64EED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B7C7E368F843DEE"
+				item: "biomesoplenty:mahogany_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche d'acajou d'amérique"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:maple_log"
+			id: "47B1EEE7C527341D"
+			optional: true
+			rewards: [{
+				id: "53244E24FFF07866"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "021C431FB2DF12C6"
+				item: "biomesoplenty:maple_log"
+				type: "item"
+			}]
+			title: "Récolter : « Maple Log »"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:palm_log"
+			id: "20AA89B8BD9D46AF"
+			optional: true
+			rewards: [{
+				id: "13D07418B35F20C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69079BAEFE881985"
+				item: "biomesoplenty:palm_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de palmier"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:pine_log"
+			id: "182A07CB9E191851"
+			optional: true
+			rewards: [{
+				id: "58AA4B7912139374"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2EE795A7B6BC5C92"
+				item: "biomesoplenty:pine_log"
+				type: "item"
+			}]
+			title: "Récolter : « Pine Log »"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:redwood_log"
+			id: "09597DE5ACB9CB35"
+			optional: true
+			rewards: [{
+				id: "50B6920473B2A595"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E6CE17038341191"
+				item: "biomesoplenty:redwood_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de séquoia"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:umbran_log"
+			id: "24B43904F6C14FC9"
+			optional: true
+			rewards: [{
+				id: "76C9B6AE1542F31C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79B3A300C814E2E5"
+				item: "biomesoplenty:umbran_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de bois de l'ombre"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:willow_log"
+			id: "7A71D9A01A2D3F8D"
+			optional: true
+			rewards: [{
+				id: "6917C73CFD899C19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0824ADB58795F9EF"
+				item: "biomesoplenty:willow_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de saule"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:bluebright_log"
+			id: "6BCA8C68744D3987"
+			optional: true
+			rewards: [{
+				id: "5C466D1ECFF1A864"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11E4257D15945A47"
+				item: "blue_skies:bluebright_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de lumibleu"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:comet_log"
+			id: "3AE890FA26B62990"
+			optional: true
+			rewards: [{
+				id: "5EC7527768D8FE7B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59753EFDD0DC9AE1"
+				item: "blue_skies:comet_log"
+				type: "item"
+			}]
+			title: "Récolter : « Comet Log »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:crystallized_log"
+			id: "447CC258B3945D4D"
+			optional: true
+			rewards: [{
+				id: "39E803734671C405"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "305577DBABA16517"
+				item: "blue_skies:crystallized_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche cristallisée"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:dusk_log"
+			id: "467D2EC46C0FCBE6"
+			optional: true
+			rewards: [{
+				id: "22032C33005E4799"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D46C6CEFCCCE2FF"
+				item: "blue_skies:dusk_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de crépuscubois"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:frostbright_log"
+			id: "79BFD274134302D1"
+			optional: true
+			rewards: [{
+				id: "321F1AE7106FE26E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C52EA3F67C30DF0"
+				item: "blue_skies:frostbright_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de nifrisque"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:lunar_log"
+			id: "6D5ECB865432E314"
+			optional: true
+			rewards: [{
+				id: "58FDC3BFCA52B353"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D430EF4844850A8"
+				item: "blue_skies:lunar_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche lunaire"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:maple_log"
+			id: "4F128BFE3E6DAE27"
+			optional: true
+			rewards: [{
+				id: "593E89CA6E94F037"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4789C2E170FDA6DD"
+				item: "blue_skies:maple_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche d'érable"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bBlue Skies&r."]
+			icon: "blue_skies:starlit_log"
+			id: "63C8447764ED3D39"
+			optional: true
+			rewards: [{
+				id: "2865EC70948F1290"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1ECB27BFCC28879A"
+				item: "blue_skies:starlit_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche d'étoilibois"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bcrabbersdelight&r."]
+			icon: "crabbersdelight:palm_log"
+			id: "75405E26EC14A13D"
+			optional: true
+			rewards: [{
+				id: "19F054C39A379123"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48CE7B4438CCA03A"
+				item: "crabbersdelight:palm_log"
+				type: "item"
+			}]
+			title: "Récolter : « Palm Log »"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:conberry_log"
+			id: "5930E1EEDDDD3DF8"
+			optional: true
+			rewards: [{
+				id: "11F4E9701F7782AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0316948B8A1AB6C7"
+				item: "deep_aether:conberry_log"
+				type: "item"
+			}]
+			title: "Récolter : « Conberry Log »"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:cruderoot_log"
+			id: "793513BE62C22ADA"
+			optional: true
+			rewards: [{
+				id: "5CA52E95CF286AA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "70FE37463D4D2467"
+				item: "deep_aether:cruderoot_log"
+				type: "item"
+			}]
+			title: "Récolter : « Cruderoot Log »"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:roseroot_log"
+			id: "019499F0CBCC714D"
+			optional: true
+			rewards: [{
+				id: "1E0F186C7FC5767A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1CF8A01573520A4D"
+				item: "deep_aether:roseroot_log"
+				type: "item"
+			}]
+			title: "Récolter : « Roseroot Log »"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:sunroot_log"
+			id: "73CA02DA41FC5F62"
+			optional: true
+			rewards: [{
+				id: "3E8FFE2663B9642A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "02692BB255D54F89"
+				item: "deep_aether:sunroot_log"
+				type: "item"
+			}]
+			title: "Récolter : « Sunroot Log »"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:yagroot_log"
+			id: "3013F783174FEBA5"
+			optional: true
+			rewards: [{
+				id: "69D8576C92BD05F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F99EF7C4E381EC2"
+				item: "deep_aether:yagroot_log"
+				type: "item"
+			}]
+			title: "Récolter : « Yagroot Log »"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bgardens_of_the_dead&r."]
+			icon: "gardens_of_the_dead:soulblight_stem"
+			id: "64F9F40E4AE87E96"
+			optional: true
+			rewards: [{
+				id: "7D5E8B1787FDFDE5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A117A27B1754AE7"
+				item: "gardens_of_the_dead:soulblight_stem"
+				type: "item"
+			}]
+			title: "Récolter : « Soulblight Stem »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:acacia_log"
+			id: "3B674C72BDFD6D01"
+			optional: true
+			rewards: [{
+				id: "4994270EB967B7C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3477C0925282B535"
+				item: "minecraft:acacia_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche d'acacia"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:birch_log"
+			id: "765F3882FC3ECB9D"
+			optional: true
+			rewards: [{
+				id: "6416178777045CFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60E55BED011C126B"
+				item: "minecraft:birch_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de bouleau"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:cherry_log"
+			id: "05DAC7BBBFDECAD1"
+			optional: true
+			rewards: [{
+				id: "072F1CCCE0C3E976"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "097D2F8B48D86217"
+				item: "minecraft:cherry_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de cerisier"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:crimson_stem"
+			id: "6914076668D637E3"
+			optional: true
+			rewards: [{
+				id: "7D2A604781FE231A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D7B12F1A422B269"
+				item: "minecraft:crimson_stem"
+				type: "item"
+			}]
+			title: "Récolter : Tige carmin"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:dark_oak_log"
+			id: "6254B318098CD232"
+			optional: true
+			rewards: [{
+				id: "3CCF7152A66EF31F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F76CF9114B772A8"
+				item: "minecraft:dark_oak_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de chêne noir"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:jungle_log"
+			id: "4EF18A7CB0FE52C4"
+			optional: true
+			rewards: [{
+				id: "51D6034242BE7BBE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6ABB8F1A615A9AA8"
+				item: "minecraft:jungle_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche d'acajou"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:mangrove_log"
+			id: "23C10F1A51813024"
+			optional: true
+			rewards: [{
+				id: "4E1CE3C4497C1713"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00AD03A691C0244B"
+				item: "minecraft:mangrove_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de palétuvier"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:oak_log"
+			id: "46A71C7979590C6B"
+			optional: true
+			rewards: [{
+				id: "7ED15F65BCA81E4A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FC763339F1A7CCC"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de chêne"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:pale_oak_log"
+			id: "13CAADF1C55CE3D4"
+			optional: true
+			rewards: [{
+				id: "5D846BAA2E226558"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5AA057DB26AE1FD2"
+				item: "minecraft:pale_oak_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de chêne pâle"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:spruce_log"
+			id: "15BD329E96422827"
+			optional: true
+			rewards: [{
+				id: "1ED11E31FB5625FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34350A0AE42D1D1A"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de sapin"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:warped_stem"
+			id: "1A95AD45C1DA55B4"
+			optional: true
+			rewards: [{
+				id: "1812791C5A44EB7D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B1CE0618816BBF7"
+				item: "minecraft:warped_stem"
+				type: "item"
+			}]
+			title: "Récolter : Tige biscornue"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bquark&r."]
+			icon: "quark:ancient_log"
+			id: "5A294E69ECB5EC0A"
+			optional: true
+			rewards: [{
+				id: "4F74D0AC76932D68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4691329754328DEE"
+				item: "quark:ancient_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche ancienne"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bquark&r."]
+			icon: "quark:azalea_log"
+			id: "580B08E957DCF7C0"
+			optional: true
+			rewards: [{
+				id: "55CEA456330999C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C0A3EA011929F18"
+				item: "quark:azalea_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche d'azalée"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bquark&r."]
+			icon: "quark:blossom_log"
+			id: "33B5DE79C2444E8F"
+			optional: true
+			rewards: [{
+				id: "02236F4F487AA39B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "455A32834418F25D"
+				item: "quark:blossom_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de cerisier"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bSoulful Nether&r."]
+			icon: "soulfulnether:fright_stem"
+			id: "2A6D49BF915A9D80"
+			optional: true
+			rewards: [{
+				id: "411CF358A4ABEE12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E467FC529680F63"
+				item: "soulfulnether:fright_stem"
+				type: "item"
+			}]
+			title: "Récolter : « Fright Stem »"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bSoulful Nether&r."]
+			icon: "soulfulnether:gloom_fungus_stem"
+			id: "12A636EA5B827C75"
+			optional: true
+			rewards: [{
+				id: "2A58F43CBE357ECD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "648B7A9D2CA04051"
+				item: "soulfulnether:gloom_fungus_stem"
+				type: "item"
+			}]
+			title: "Récolter : « Gloom Fungus Stem »"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &btwilightdelight&r."]
+			icon: "twilightdelight:ironwood_log"
+			id: "6B82395E37AF2B4B"
+			optional: true
+			rewards: [{
+				id: "1D92C9A3933E0D4A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "681A5A94ABC1AB32"
+				item: "twilightdelight:ironwood_log"
+				type: "item"
+			}]
+			title: "Récolter : « Ironwood Log »"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:canopy_log"
+			id: "6985BB6B93BF287F"
+			optional: true
+			rewards: [{
+				id: "5270BDB3069C36C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "446732C869CC6601"
+				item: "twilightforest:canopy_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche d'arbre canopée"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:dark_log"
+			id: "4467BBFC6E924EDB"
+			optional: true
+			rewards: [{
+				id: "75AE93893A47B70B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EAE7C93610C9267"
+				item: "twilightforest:dark_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de bois sombre"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:mangrove_log"
+			id: "44FF17C1AFD1A417"
+			optional: true
+			rewards: [{
+				id: "7718103C8DF13A5B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "720C8509E994CA4A"
+				item: "twilightforest:mangrove_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de Mangrove"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:mining_log"
+			id: "1C66DE000DEDE4C3"
+			optional: true
+			rewards: [{
+				id: "779AA3BC48D5041C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "423146423FE71A17"
+				item: "twilightforest:mining_log"
+				type: "item"
+			}]
+			title: "Récolter : « Minewood Log »"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:sorting_log"
+			id: "7E860C6C24DF2B30"
+			optional: true
+			rewards: [{
+				id: "0E2153402086BAD1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3816F3B0723E838D"
+				item: "twilightforest:sorting_log"
+				type: "item"
+			}]
+			title: "Récolter : « Sortingwood Log »"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:time_log"
+			id: "7C31BA8EDB30671E"
+			optional: true
+			rewards: [{
+				id: "6BC02E2A8DE2AE54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08C4F6727DB97668"
+				item: "twilightforest:time_log"
+				type: "item"
+			}]
+			title: "Récolter : « Timewood Log »"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:transformation_log"
+			id: "4382279B31B2A91E"
+			optional: true
+			rewards: [{
+				id: "4A0A2456648F9023"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AF8ED866A814C2C"
+				item: "twilightforest:transformation_log"
+				type: "item"
+			}]
+			title: "Récolter : « Transwood Log »"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:twilight_oak_log"
+			id: "40C93037E187FBC7"
+			optional: true
+			rewards: [{
+				id: "4A9BCDEC0A2C988E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33BCC21D8705CA58"
+				item: "twilightforest:twilight_oak_log"
+				type: "item"
+			}]
+			title: "Récolter : Bûche de bois du Crépuscule"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1F7A0451BA9AB12C"
+				"3CE701F842F26879"
+				"60DC7823E70FCCA1"
+				"737C2BA663AAB54C"
+				"0D9C68B3DE28790B"
+				"43D172A3438D4905"
+				"7D3D01763ED7920B"
+				"43B23B7CC649F8B3"
+				"0B2FB9FC26B6C596"
+				"353792F7CCC523AE"
+				"64F9CE18AD383560"
+				"3ED4DDD64E8BC01D"
+				"085D351D5AB2710B"
+				"12B0E7EDD864D6F1"
+				"060B0EE2A791B75D"
+				"21E5FC68395B046A"
+				"7C59EB18B9930E01"
+				"4E27AFD379960EF1"
+				"3D83D03C3D71A26F"
+				"7455794749366DA9"
+				"3474E8CC2ADCC875"
+				"0E68BCB2787ECC66"
+				"679E1F6D0B37D65E"
+				"4FB65ADB3F2DF4E0"
+				"43CE62255B73E6B3"
+				"78AF0B832F90876B"
+				"47B1EEE7C527341D"
+				"20AA89B8BD9D46AF"
+				"182A07CB9E191851"
+				"09597DE5ACB9CB35"
+				"24B43904F6C14FC9"
+				"7A71D9A01A2D3F8D"
+				"6BCA8C68744D3987"
+				"3AE890FA26B62990"
+				"447CC258B3945D4D"
+				"467D2EC46C0FCBE6"
+				"79BFD274134302D1"
+				"6D5ECB865432E314"
+				"4F128BFE3E6DAE27"
+				"63C8447764ED3D39"
+				"75405E26EC14A13D"
+				"5930E1EEDDDD3DF8"
+				"793513BE62C22ADA"
+				"019499F0CBCC714D"
+				"73CA02DA41FC5F62"
+				"3013F783174FEBA5"
+				"64F9F40E4AE87E96"
+				"3B674C72BDFD6D01"
+				"765F3882FC3ECB9D"
+				"05DAC7BBBFDECAD1"
+				"6914076668D637E3"
+				"6254B318098CD232"
+				"4EF18A7CB0FE52C4"
+				"23C10F1A51813024"
+				"46A71C7979590C6B"
+				"13CAADF1C55CE3D4"
+				"15BD329E96422827"
+				"1A95AD45C1DA55B4"
+				"5A294E69ECB5EC0A"
+				"580B08E957DCF7C0"
+				"33B5DE79C2444E8F"
+				"2A6D49BF915A9D80"
+				"12A636EA5B827C75"
+				"6B82395E37AF2B4B"
+				"6985BB6B93BF287F"
+				"4467BBFC6E924EDB"
+				"44FF17C1AFD1A417"
+				"1C66DE000DEDE4C3"
+				"7E860C6C24DF2B30"
+				"7C31BA8EDB30671E"
+				"4382279B31B2A91E"
+				"40C93037E187FBC7"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "minecraft:oak_sapling"
+			id: "553367C3E45A7813"
+			optional: true
+			rewards: [{
+				id: "60E943294931BE1F"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "036BEBFB85E37DEA"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&2Bois"
+}
