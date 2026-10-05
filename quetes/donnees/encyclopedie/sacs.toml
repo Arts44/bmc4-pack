@@ -1,0 +1,167 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Sacs"
+fichier = "enc_sacs"
+groupe = "encyclopedie"
+icone = "inmis:frayed_backpack"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Sacs"
+taille = 1.5
+icone = "inmis:frayed_backpack"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque sac du pack, une quête par sac. Rien n'est consommé ; les sacs d'Inmis montent palier par palier au chapitre &7Confort&r.
+"""
+
+[[quete]]
+cle = "inmis_baby_backpack"
+titre = "« Baby Backpack »"
+optionnel = true
+icone = "inmis:baby_backpack"
+kit_voulu = true
+taches = ["item inmis:baby_backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "inmis_bejeweled_backpack"
+titre = "« Bejeweled Backpack »"
+optionnel = true
+icone = "inmis:bejeweled_backpack"
+kit_voulu = true
+taches = ["item inmis:bejeweled_backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "inmis_blazing_backpack"
+titre = "« Blazing Backpack »"
+optionnel = true
+icone = "inmis:blazing_backpack"
+kit_voulu = true
+taches = ["item inmis:blazing_backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "inmis_ender_pouch"
+titre = "« Ender Pouch »"
+optionnel = true
+icone = "inmis:ender_pouch"
+kit_voulu = true
+taches = ["item inmis:ender_pouch"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "inmis_endless_backpack"
+titre = "« Endless Backpack »"
+optionnel = true
+icone = "inmis:endless_backpack"
+kit_voulu = true
+taches = ["item inmis:endless_backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "inmis_frayed_backpack"
+titre = "« Frayed Backpack »"
+optionnel = true
+icone = "inmis:frayed_backpack"
+kit_voulu = true
+taches = ["item inmis:frayed_backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "inmis_gilded_backpack"
+titre = "« Gilded Backpack »"
+optionnel = true
+icone = "inmis:gilded_backpack"
+kit_voulu = true
+taches = ["item inmis:gilded_backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "inmis_plated_backpack"
+titre = "« Plated Backpack »"
+optionnel = true
+icone = "inmis:plated_backpack"
+kit_voulu = true
+taches = ["item inmis:plated_backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "inmis_withered_backpack"
+titre = "« Withered Backpack »"
+optionnel = true
+icone = "inmis:withered_backpack"
+kit_voulu = true
+taches = ["item inmis:withered_backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "quark_backpack"
+titre = "Sac à dos"
+optionnel = true
+icone = "quark:backpack"
+kit_voulu = true
+taches = ["item quark:backpack"]
+recompenses = ["xp 1"]
+description = """
+Sac de &bQuark&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "quark_seed_pouch"
+titre = "Sac de graines"
+optionnel = true
+icone = "quark:seed_pouch"
+kit_voulu = true
+taches = ["item quark:seed_pouch"]
+recompenses = ["xp 1"]
+description = """
+Sac de &bQuark&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tous les sacs"
+optionnel = true
+taille = 1.5
+icone = "inmis:endless_backpack"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["inmis_baby_backpack", "inmis_bejeweled_backpack", "inmis_blazing_backpack", "inmis_ender_pouch", "inmis_endless_backpack", "inmis_frayed_backpack", "inmis_gilded_backpack", "inmis_plated_backpack", "inmis_withered_backpack", "quark_backpack", "quark_seed_pouch"]
+description = """
+Chaque sac de ce chapitre.
+"""

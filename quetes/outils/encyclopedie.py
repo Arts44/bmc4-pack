@@ -945,6 +945,62 @@ def chapitre_armes(ix, fichier):
     return texte, n, exclus[fichier]
 
 
+# ---- Montures, sacs, jetpacks (BMC-89, 5 octobre 2026)
+RX_MONTURES = r'(horse_armor|wolf_armor|moa_armor|_barding|saddle)'
+
+
+def montures(ix, e, n):
+    objets, exclus = candidats(ix, lambda i: re.search(RX_MONTURES, i) is not None and 'spawn_egg' not in i
+                               and not i.startswith('geckolib:'))
+    entrees = []
+    for i in sorted(objets, key=lambda i: (i.split(':')[0] != 'minecraft', i.split(':')[0], i)):
+        mod = i.split(':')[0]
+        chap = CHAPITRE_DU_MOD.get(mod) or {'revampedwolf': 'Faune', 'aether_protect_your_moa': "L'Aether"}.get(mod)
+        desc = (f"Équipement de monture ou de compagnon de &b{MOD_AFFICHE.get(mod, mod)}&r."
+                + (f" Ses paliers sont au chapitre &7{chap}&r." if chap else '') + " À garder : la livraison n'est pas consommée.")
+        entrees.append({'cle': i.replace(':', '_'), 'titre': libelle(ix, i, 'objet'), 'taches': [f'item {i}'], 'icone': i, 'description': desc})
+    intro = ("Selles et armures des montures et des compagnons : chevaux, loups, moas. Une quête par objet ; rien n'est consommé. "
+             "Les armures de dragon de Dragon Mounts ne sont pas des objets mais des blocs donnés au dragon : elles sont au chapitre &7Les dragons&r, palier par palier.")
+    texte, k, _ = chapitre_collection('montures', '&6Montures et compagnons', 'minecraft:saddle', 'minecraft:diamond_horse_armor', intro, entrees,
+                                      '&7Toutes les montures équipées', 'Chaque selle et chaque armure de monture de ce chapitre.')
+    return texte, k, exclus
+
+
+SACS = ('inmis:', 'quark:backpack', 'quark:seed_pouch')
+
+
+def sacs(ix, e, n):
+    objets, exclus = candidats(ix, lambda i: any(i.startswith(s) for s in SACS) and re.search(r'(backpack|pouch)', i) is not None)
+    entrees = [{'cle': i.replace(':', '_'), 'titre': libelle(ix, i, 'objet'), 'taches': [f'item {i}'], 'icone': i,
+                'description': f"Sac de &b{MOD_AFFICHE.get(i.split(':')[0], i.split(':')[0])}&r."
+                               + (" Ses paliers sont au chapitre &7Confort&r." if i.startswith('inmis:') else '')
+                               + " À garder : la livraison n'est pas consommée."} for i in objets]
+    intro = "Chaque sac du pack, une quête par sac. Rien n'est consommé ; les sacs d'Inmis montent palier par palier au chapitre &7Confort&r."
+    texte, k, _ = chapitre_collection('sacs', '&6Sacs', 'inmis:frayed_backpack', 'inmis:endless_backpack', intro, entrees,
+                                      '&7Tous les sacs', 'Chaque sac de ce chapitre.')
+    return texte, k, exclus
+
+
+JETPACKS_NOMS = {'wood': 'en bois', 'stone': 'en pierre', 'copper': 'en cuivre', 'iron': 'en fer', 'gold': 'en or',
+                 'steel': 'en acier', 'diamond': 'en diamant', 'emerald': 'en émeraude'}
+
+
+def jetpacks(ix, e, n):
+    sys.path.insert(0, ICI)
+    from generer import JETPACKS_OBTENABLES
+    ordre = sorted(JETPACKS_OBTENABLES, key=lambda p: (JETPACKS_OBTENABLES[p], p))
+    entrees = [{'cle': f'jetpack_{p}', 'titre': f"Jetpack {JETPACKS_NOMS[p]}", 'taches': [f'jetpack jetpack {p}'],
+                'description': f"Le jetpack {JETPACKS_NOMS[p]} d'Iron Jetpacks (palier {JETPACKS_OBTENABLES[p]}). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."}
+               for p in ordre]
+    intro = ("Chaque jetpack qu'Iron Jetpacks permet de fabriquer sur ce serveur, une quête par jetpack. "
+             "Bronze, argent, électrum, invar et platine n'ont pas de matériau dans le pack, le créatif n'a pas de recette : ils n'y sont pas.")
+    texte, k, _ = chapitre_collection('jetpacks', '&bJetpacks', 'ironjetpacks:jetpack', 'ironjetpacks:jetpack', intro, entrees,
+                                      '&7Tous les jetpacks', 'Les huit jetpacks fabricables.')
+    exclus = [(f'ironjetpacks:jetpack {m}', 'matériau absent du pack (balise vide)') for m in ('bronze', 'silver', 'electrum', 'invar', 'platinum')]
+    exclus.append(('ironjetpacks:jetpack creative', 'sans recette'))
+    return texte, k, exclus
+
+
 CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end': bestiaire_nether_end,
              'bestiaire-dimensions': bestiaire_dimensions,
              'biomes-overworld': biomes_overworld, 'biomes-nether-end': biomes_nether_end,
@@ -957,7 +1013,8 @@ CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end':
              'armurerie-dimensions': lambda ix, e, n: chapitre_armurerie(ix, 'armurerie-dimensions'),
              'armurerie-magie': lambda ix, e, n: chapitre_armurerie(ix, 'armurerie-magie'),
              **{s[0]: (lambda f: (lambda ix, e, n: chapitre_armes(ix, f)))(s[0]) for s in TYPES_ARMES},
-             'arsenal': arsenal, 'atelier-create': atelier_create, 'herbier': herbier}
+             'arsenal': arsenal, 'atelier-create': atelier_create, 'herbier': herbier,
+             'montures': montures, 'sacs': sacs, 'jetpacks': jetpacks}
 
 
 def main(argv):

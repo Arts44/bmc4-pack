@@ -1,0 +1,123 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&bJetpacks"
+fichier = "enc_jetpacks"
+groupe = "encyclopedie"
+icone = "ironjetpacks:jetpack"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&bJetpacks"
+taille = 1.5
+icone = "ironjetpacks:jetpack"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque jetpack qu'Iron Jetpacks permet de fabriquer sur ce serveur, une quête par jetpack. Bronze, argent, électrum, invar et platine n'ont pas de matériau dans le pack, le créatif n'a pas de recette : ils n'y sont pas.
+"""
+
+[[quete]]
+cle = "jetpack_wood"
+titre = "Jetpack en bois"
+optionnel = true
+kit_voulu = true
+taches = ["jetpack jetpack wood"]
+recompenses = ["xp 1"]
+description = """
+Le jetpack en bois d'Iron Jetpacks (palier 0). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "jetpack_copper"
+titre = "Jetpack en cuivre"
+optionnel = true
+kit_voulu = true
+taches = ["jetpack jetpack copper"]
+recompenses = ["xp 1"]
+description = """
+Le jetpack en cuivre d'Iron Jetpacks (palier 1). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "jetpack_stone"
+titre = "Jetpack en pierre"
+optionnel = true
+kit_voulu = true
+taches = ["jetpack jetpack stone"]
+recompenses = ["xp 1"]
+description = """
+Le jetpack en pierre d'Iron Jetpacks (palier 1). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "jetpack_iron"
+titre = "Jetpack en fer"
+optionnel = true
+kit_voulu = true
+taches = ["jetpack jetpack iron"]
+recompenses = ["xp 1"]
+description = """
+Le jetpack en fer d'Iron Jetpacks (palier 2). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "jetpack_gold"
+titre = "Jetpack en or"
+optionnel = true
+kit_voulu = true
+taches = ["jetpack jetpack gold"]
+recompenses = ["xp 1"]
+description = """
+Le jetpack en or d'Iron Jetpacks (palier 3). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "jetpack_steel"
+titre = "Jetpack en acier"
+optionnel = true
+kit_voulu = true
+taches = ["jetpack jetpack steel"]
+recompenses = ["xp 1"]
+description = """
+Le jetpack en acier d'Iron Jetpacks (palier 3). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "jetpack_diamond"
+titre = "Jetpack en diamant"
+optionnel = true
+kit_voulu = true
+taches = ["jetpack jetpack diamond"]
+recompenses = ["xp 1"]
+description = """
+Le jetpack en diamant d'Iron Jetpacks (palier 4). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "jetpack_emerald"
+titre = "Jetpack en émeraude"
+optionnel = true
+kit_voulu = true
+taches = ["jetpack jetpack emerald"]
+recompenses = ["xp 1"]
+description = """
+Le jetpack en émeraude d'Iron Jetpacks (palier 5). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tous les jetpacks"
+optionnel = true
+taille = 1.5
+icone = "ironjetpacks:jetpack"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["jetpack_wood", "jetpack_copper", "jetpack_stone", "jetpack_iron", "jetpack_gold", "jetpack_steel", "jetpack_diamond", "jetpack_emerald"]
+description = """
+Les huit jetpacks fabricables.
+"""

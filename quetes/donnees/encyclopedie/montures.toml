@@ -1,0 +1,275 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Montures et compagnons"
+fichier = "enc_montures"
+groupe = "encyclopedie"
+icone = "minecraft:saddle"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Montures et compagnons"
+taille = 1.5
+icone = "minecraft:saddle"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Selles et armures des montures et des compagnons : chevaux, loups, moas. Une quête par objet ; rien n'est consommé. Les armures de dragon de Dragon Mounts ne sont pas des objets mais des blocs donnés au dragon : elles sont au chapitre &7Les dragons&r, palier par palier.
+"""
+
+[[quete]]
+cle = "minecraft_diamond_horse_armor"
+titre = "Armure en diamant pour cheval"
+optionnel = true
+icone = "minecraft:diamond_horse_armor"
+kit_voulu = true
+taches = ["item minecraft:diamond_horse_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_golden_horse_armor"
+titre = "Armure en or pour cheval"
+optionnel = true
+icone = "minecraft:golden_horse_armor"
+kit_voulu = true
+taches = ["item minecraft:golden_horse_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_iron_horse_armor"
+titre = "Armure en fer pour cheval"
+optionnel = true
+icone = "minecraft:iron_horse_armor"
+kit_voulu = true
+taches = ["item minecraft:iron_horse_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_leather_horse_armor"
+titre = "Armure en cuir pour cheval"
+optionnel = true
+icone = "minecraft:leather_horse_armor"
+kit_voulu = true
+taches = ["item minecraft:leather_horse_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_saddle"
+titre = "Selle"
+optionnel = true
+icone = "minecraft:saddle"
+kit_voulu = true
+taches = ["item minecraft:saddle"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_wolf_armor"
+titre = "Armure pour loup"
+optionnel = true
+icone = "minecraft:wolf_armor"
+kit_voulu = true
+taches = ["item minecraft:wolf_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_protect_your_moa_diamond_moa_armor"
+titre = "« Diamond Moa Armor »"
+optionnel = true
+icone = "aether_protect_your_moa:diamond_moa_armor"
+kit_voulu = true
+taches = ["item aether_protect_your_moa:diamond_moa_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_protect_your_moa_golden_moa_armor"
+titre = "« Golden Moa Armor »"
+optionnel = true
+icone = "aether_protect_your_moa:golden_moa_armor"
+kit_voulu = true
+taches = ["item aether_protect_your_moa:golden_moa_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_protect_your_moa_gravitite_moa_armor"
+titre = "« Gravitite Moa Armor »"
+optionnel = true
+icone = "aether_protect_your_moa:gravitite_moa_armor"
+kit_voulu = true
+taches = ["item aether_protect_your_moa:gravitite_moa_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_protect_your_moa_iron_moa_armor"
+titre = "« Iron Moa Armor »"
+optionnel = true
+icone = "aether_protect_your_moa:iron_moa_armor"
+kit_voulu = true
+taches = ["item aether_protect_your_moa:iron_moa_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_protect_your_moa_leather_moa_armor"
+titre = "« Leather Moa Armor »"
+optionnel = true
+icone = "aether_protect_your_moa:leather_moa_armor"
+kit_voulu = true
+taches = ["item aether_protect_your_moa:leather_moa_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_protect_your_moa_zanite_moa_armor"
+titre = "« Zanite Moa Armor »"
+optionnel = true
+icone = "aether_protect_your_moa:zanite_moa_armor"
+kit_voulu = true
+taches = ["item aether_protect_your_moa:zanite_moa_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "alexsmobs_straddle_saddle"
+titre = "Selle de Straddlite"
+optionnel = true
+icone = "alexsmobs:straddle_saddle"
+kit_voulu = true
+taches = ["item alexsmobs:straddle_saddle"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_camel_saddle"
+titre = "Selle de chameau"
+optionnel = true
+icone = "blue_skies:camel_saddle"
+kit_voulu = true
+taches = ["item blue_skies:camel_saddle"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_horse_armor"
+titre = "« Dragon Horse Armor »"
+optionnel = true
+icone = "dragonloot:dragon_horse_armor"
+kit_voulu = true
+taches = ["item dragonloot:dragon_horse_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "revampedwolf_diamond_wolf_armor"
+titre = "« Diamond Wolf Armor »"
+optionnel = true
+icone = "revampedwolf:diamond_wolf_armor"
+kit_voulu = true
+taches = ["item revampedwolf:diamond_wolf_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "revampedwolf_golden_wolf_armor"
+titre = "« Golden Wolf Armor »"
+optionnel = true
+icone = "revampedwolf:golden_wolf_armor"
+kit_voulu = true
+taches = ["item revampedwolf:golden_wolf_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "revampedwolf_iron_wolf_armor"
+titre = "« Iron Wolf Armor »"
+optionnel = true
+icone = "revampedwolf:iron_wolf_armor"
+kit_voulu = true
+taches = ["item revampedwolf:iron_wolf_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "revampedwolf_leather_wolf_armor"
+titre = "« Leather Wolf Armor »"
+optionnel = true
+icone = "revampedwolf:leather_wolf_armor"
+kit_voulu = true
+taches = ["item revampedwolf:leather_wolf_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "revampedwolf_netherite_wolf_armor"
+titre = "« Netherite Wolf Armor »"
+optionnel = true
+icone = "revampedwolf:netherite_wolf_armor"
+kit_voulu = true
+taches = ["item revampedwolf:netherite_wolf_armor"]
+recompenses = ["xp 1"]
+description = """
+Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Toutes les montures équipées"
+optionnel = true
+taille = 1.5
+icone = "minecraft:diamond_horse_armor"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["minecraft_diamond_horse_armor", "minecraft_golden_horse_armor", "minecraft_iron_horse_armor", "minecraft_leather_horse_armor", "minecraft_saddle", "minecraft_wolf_armor", "aether_protect_your_moa_diamond_moa_armor", "aether_protect_your_moa_golden_moa_armor", "aether_protect_your_moa_gravitite_moa_armor", "aether_protect_your_moa_iron_moa_armor", "aether_protect_your_moa_leather_moa_armor", "aether_protect_your_moa_zanite_moa_armor", "alexsmobs_straddle_saddle", "blue_skies_camel_saddle", "dragonloot_dragon_horse_armor", "revampedwolf_diamond_wolf_armor", "revampedwolf_golden_wolf_armor", "revampedwolf_iron_wolf_armor", "revampedwolf_leather_wolf_armor", "revampedwolf_netherite_wolf_armor"]
+description = """
+Chaque selle et chaque armure de monture de ce chapitre.
+"""
