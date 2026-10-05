@@ -487,6 +487,32 @@ description = """
 Cinq gravitites enchantées et un cuir : l'armure de moa en gravitite. C'est la plus haute des six.
 """
 
+# Ascended Quark 1.1.6 : lore du four en holystone ; loot_modifiers
+# pickarang_bronze/silver (coffres des donjons de bronze et d'argent,
+# chanceToSpawn 0.01).
+[[quete]]
+cle = "four_holystone"
+titre = "Un four en holystone"
+deps = ["holystone"]
+optionnel = true
+taches = ["item ascended_quark:holystone_furnace"]
+recompenses = ["xp 3"]
+description = """
+&bAscended Quark&r porte les ajouts de Quark dans l'Aether. Son four en holystone brûle aussi l'ambrosium comme combustible.
+"""
+
+[[quete]]
+cle = "pickarang_valkyrie"
+titre = "Un pickarang des Valkyries"
+deps = ["bronze"]
+optionnel = true
+exigence = "une"
+taches = ["item ascended_quark:valkyrie_pickarang", "item ascended_quark:phoenix_flamerang"]
+recompenses = ["xp 10"]
+description = """
+Un coffre de donjon de bronze ou d'argent cache, très rarement, un « Valkyrie Pickarang ». Le donjon d'argent peut aussi donner le « Phoenix Flamerang ». Comme le pickarang de Quark, il se lance et revient en minant ce qu'il touche.
+"""
+
 # ---- Lost Aether Content, villages, forge
 [[quete]]
 cle = "platine"
