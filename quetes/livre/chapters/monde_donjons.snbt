@@ -334,6 +334,163 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Avec &aSpawners+&r, un générateur de monstres cassé à la pioche ne disparaît plus : il lâche des fragments de générateur, plus avec Fortune. Les donjons en sont pleins."]
+			icon: "spawnersplus:spawner_fragment"
+			id: "0130B24E5E753562"
+			optional: true
+			rewards: [{
+				id: "1881948E7FB07905"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "7A0B33F0D9EB4DCB"
+				item: "spawnersplus:spawner_fragment"
+				type: "item"
+			}]
+			title: "Des fragments de générateur"
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0130B24E5E753562"]
+			description: ["Huit fragments en anneau : un générateur inactif, qui se casse à la pioche en fer au moins. Il attend une âme."]
+			icon: "spawnersplus:inactive_spawner"
+			id: "73264E7BC87CF953"
+			optional: true
+			rewards: [{
+				id: "4AF69DB51ED859E7"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5420A2B79D9AF836"
+				item: "spawnersplus:inactive_spawner"
+				type: "item"
+			}]
+			title: "Un générateur inactif"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["73264E7BC87CF953"]
+			dependency_requirement: "one_completed"
+			description: ["Une créature tuée avec une arme enchantée « Soul Stealing » peut lâcher son âme : quatre fois sur cent pour un zombie, un squelette, une araignée ou un zombie momifié, cinq pour un blaze ou un creeper, sept pour une araignée venimeuse, deux pour un cube de magma (config du serveur). L'âme utilisée sur un générateur inactif le réveille pour cette créature."]
+			icon: "spawnersplus:zombie_soul"
+			id: "688DA2E0B7F436AF"
+			optional: true
+			rewards: [{
+				id: "4DFA055707A5D6CB"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "50CDD52422E60213"
+					item: "spawnersplus:zombie_soul"
+					type: "item"
+				}
+				{
+					id: "1E686FFB3892CE8F"
+					item: "spawnersplus:skeleton_soul"
+					type: "item"
+				}
+				{
+					id: "4DE47DD18B11BB5F"
+					item: "spawnersplus:spider_soul"
+					type: "item"
+				}
+				{
+					id: "7995B1BEB122F363"
+					item: "spawnersplus:cave_spider_soul"
+					type: "item"
+				}
+				{
+					id: "019CE4799554FA41"
+					item: "spawnersplus:husk_soul"
+					type: "item"
+				}
+				{
+					id: "738510C182649069"
+					item: "spawnersplus:creeper_soul"
+					type: "item"
+				}
+				{
+					id: "74ADD9E07EA3B8A1"
+					item: "spawnersplus:blaze_soul"
+					type: "item"
+				}
+				{
+					id: "5FC06047727357A3"
+					item: "spawnersplus:magma_cube_soul"
+					type: "item"
+				}
+			]
+			title: "Une âme de monstre"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["688DA2E0B7F436AF"]
+			dependency_requirement: "one_completed"
+			description: ["Trois âmes ne tombent jamais sur ce serveur : elles se fabriquent. Une âme de squelette entourée de huit seaux de neige poudreuse donne celle du vagabond ; une âme de zombie et huit cœurs de la mer, celle du noyé ; une âme de squelette et huit étoiles du Nether, celle du wither squelette."]
+			icon: "spawnersplus:stray_soul"
+			id: "300F9239E42CF5DC"
+			optional: true
+			rewards: [{
+				id: "3F678ABB228C07C5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "267A918A54110A50"
+					item: "spawnersplus:stray_soul"
+					type: "item"
+				}
+				{
+					id: "515E0A41EDB738E1"
+					item: "spawnersplus:drowned_soul"
+					type: "item"
+				}
+				{
+					id: "1EF8BC863D08BB0F"
+					item: "spawnersplus:wither_skeleton_soul"
+					type: "item"
+				}
+			]
+			title: "Les âmes qui ne tombent pas"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0130B24E5E753562"]
+			description: ["Huit fragments autour d'un totem d'immortalité. Tenu en main, il coupe les générateurs proches : de quoi vider un donjon sans vagues sans fin."]
+			icon: "spawnersplus:spawner_silencer"
+			id: "46F6E07BCB932203"
+			optional: true
+			rewards: [{
+				id: "470C67C40886B40B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A568267EE583DCC"
+				item: "spawnersplus:spawner_silencer"
+				type: "item"
+			}]
+			title: "Un silencieux de générateur"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
 			dependencies: [
 				"07DE5A18A6297E4D"
 				"37F30AA45854BCC0"

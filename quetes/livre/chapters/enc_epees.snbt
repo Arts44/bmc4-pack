@@ -1,0 +1,2050 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_epees"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_sword"
+	id: "0019ED08C08DE303"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque épée du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là."]
+			icon: "minecraft:iron_sword"
+			id: "235723717078AE50"
+			rewards: [{
+				id: "646D92BC01843E66"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "546B9BB878B5E675"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cÉpées"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_sword"
+			id: "546FE4A2A95688AA"
+			optional: true
+			rewards: [{
+				id: "1B265C8817896844"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CBBA3E3743B4A81"
+				item: "minecraft:diamond_sword"
+				type: "item"
+			}]
+			title: "Épée en diamant"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_sword"
+			id: "3657F9A92F97C2EB"
+			optional: true
+			rewards: [{
+				id: "07B81221BD7A7EA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5694DF8BD7A7E292"
+				item: "minecraft:golden_sword"
+				type: "item"
+			}]
+			title: "Épée en or"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_sword"
+			id: "337185F9E26A1433"
+			optional: true
+			rewards: [{
+				id: "46F0B644A1F0E2B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62290B68B1627387"
+				item: "minecraft:iron_sword"
+				type: "item"
+			}]
+			title: "Épée en fer"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_sword"
+			id: "43A43DE9AAF6C424"
+			optional: true
+			rewards: [{
+				id: "0DCAC2BD8261E52A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DF98E0065735D94"
+				item: "minecraft:netherite_sword"
+				type: "item"
+			}]
+			title: "Épée en netherite"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:stone_sword"
+			id: "61CF6F0B782A1774"
+			optional: true
+			rewards: [{
+				id: "41684E42BB3C8E29"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C34496980E4BD02"
+				item: "minecraft:stone_sword"
+				type: "item"
+			}]
+			title: "Épée en pierre"
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:wooden_sword"
+			id: "6AAADAB63D9293EE"
+			optional: true
+			rewards: [{
+				id: "6F5B7C250ED99A81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "01550A86CC5E840B"
+				item: "minecraft:wooden_sword"
+				type: "item"
+			}]
+			title: "Épée en bois"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_diamond_sword"
+			id: "631BC0F1EFA4B9C5"
+			optional: true
+			rewards: [{
+				id: "03E5474518388838"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5AA12BABD926AB3A"
+				item: "advancednetherite:netherite_diamond_sword"
+				type: "item"
+			}]
+			title: "« Netherite-Diamond Sword »"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_emerald_sword"
+			id: "6E5702CFBCC563D1"
+			optional: true
+			rewards: [{
+				id: "6B79116BE154B80D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FA49974DBCB8176"
+				item: "advancednetherite:netherite_emerald_sword"
+				type: "item"
+			}]
+			title: "« Netherite-Emerald Sword »"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_gold_sword"
+			id: "26BE26C33B529F8E"
+			optional: true
+			rewards: [{
+				id: "4A067D6DA44A9C26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68BF698114E8506A"
+				item: "advancednetherite:netherite_gold_sword"
+				type: "item"
+			}]
+			title: "« Netherite-Gold Sword »"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_iron_sword"
+			id: "0CE39A87EB00FFC8"
+			optional: true
+			rewards: [{
+				id: "10F935E64F50ECA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E6544F6CE63F21B"
+				item: "advancednetherite:netherite_iron_sword"
+				type: "item"
+			}]
+			title: "« Netherite-Iron Sword »"
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:candy_cane_sword"
+			id: "351384B1B5564D6E"
+			optional: true
+			rewards: [{
+				id: "2D2EBAB43B18D721"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BF21F794508B9B7"
+				item: "aether:candy_cane_sword"
+				type: "item"
+			}]
+			title: "« Candy Cane Sword »"
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:flaming_sword"
+			id: "43DC65185F32539D"
+			optional: true
+			rewards: [{
+				id: "7E53FC6967B9EB37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "199BF8A9CCD1F17F"
+				item: "aether:flaming_sword"
+				type: "item"
+			}]
+			title: "« Flaming Sword »"
+			x: 16.5d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_sword"
+			id: "6285F88E9156C355"
+			optional: true
+			rewards: [{
+				id: "1FF49EE368667E6F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3AA4F5E17F1E7C25"
+				item: "aether:gravitite_sword"
+				type: "item"
+			}]
+			title: "« Gravitite Sword »"
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:holy_sword"
+			id: "76D90C8916C54DDE"
+			optional: true
+			rewards: [{
+				id: "4DA01BB61C569CC6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69A11FEB5045C35D"
+				item: "aether:holy_sword"
+				type: "item"
+			}]
+			title: "« Holy Sword »"
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:holystone_sword"
+			id: "5E97ED2244ABF07C"
+			optional: true
+			rewards: [{
+				id: "26AB81D88D741311"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "526FAAB7CF1C76BD"
+				item: "aether:holystone_sword"
+				type: "item"
+			}]
+			title: "« Holystone Sword »"
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:lightning_sword"
+			id: "02904263F2C425DB"
+			optional: true
+			rewards: [{
+				id: "39860C2B7FB0B970"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3054E422A8EB339F"
+				item: "aether:lightning_sword"
+				type: "item"
+			}]
+			title: "« Lightning Sword »"
+			x: 22.5d
+			y: -3.75d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:pig_slayer"
+			id: "205C13614E2EFC94"
+			optional: true
+			rewards: [{
+				id: "4DF59380DD9BEAE5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04030B1473505632"
+				item: "aether:pig_slayer"
+				type: "item"
+			}]
+			title: "« Pig Slayer »"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:skyroot_sword"
+			id: "0A5589AB8897EE63"
+			optional: true
+			rewards: [{
+				id: "2EAF01E406D11344"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12DD9C96AB8D2252"
+				item: "aether:skyroot_sword"
+				type: "item"
+			}]
+			title: "« Skyroot Sword »"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_lance"
+			id: "4EC6BBD3ADC55774"
+			optional: true
+			rewards: [{
+				id: "3B8E1AFE2172BCF5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "675C573BC6BCADD7"
+				item: "aether:valkyrie_lance"
+				type: "item"
+			}]
+			title: "« Valkyrie Lance »"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:vampire_blade"
+			id: "63AD56E26812BF5D"
+			optional: true
+			rewards: [{
+				id: "18C0573CD0313722"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "613E8F94B801A39E"
+				item: "aether:vampire_blade"
+				type: "item"
+			}]
+			title: "« Vampire Blade »"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_sword"
+			id: "72DF04D9EEAD700C"
+			optional: true
+			rewards: [{
+				id: "12A1630B99955667"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "443BEE7375D427A7"
+				item: "aether:zanite_sword"
+				type: "item"
+			}]
+			title: "« Zanite Sword »"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:infused_veridium_sword"
+			id: "279E4253C0978C65"
+			optional: true
+			rewards: [{
+				id: "4BA4A1FC2B2C7A53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1DDCBF3C4E76A8CA"
+				item: "aether_redux:infused_veridium_sword"
+				type: "item"
+			}]
+			title: "« Infused Veridium Sword »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:veridium_sword"
+			id: "72E40672C691C062"
+			optional: true
+			rewards: [{
+				id: "5F78360532F2740A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "344C0A9F28E9F504"
+				item: "aether_redux:veridium_sword"
+				type: "item"
+			}]
+			title: "« Veridium Sword »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:skelewag_sword"
+			id: "518D5D28C4636B30"
+			optional: true
+			rewards: [{
+				id: "6D29F9A623C4288A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "67FEF545FF8D9FAF"
+				item: "alexsmobs:skelewag_sword"
+				type: "item"
+			}]
+			title: "Crâne de squeladon"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_sword"
+			id: "5607CCB457A20D4A"
+			optional: true
+			rewards: [{
+				id: "01372151F2053812"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0037C56DE0DC7CFE"
+				item: "betterend:aeternium_sword"
+				type: "item"
+			}]
+			title: "« Aeternium Sword »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_sword_blade"
+			id: "46CA659AB5DCA108"
+			optional: true
+			rewards: [{
+				id: "2E1D28B128D0D600"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "140B0252A8E3D340"
+				item: "betterend:aeternium_sword_blade"
+				type: "item"
+			}]
+			title: "« Aeternium Sword Blade »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_sword"
+			id: "7BDF2E8CF24A893B"
+			optional: true
+			rewards: [{
+				id: "5FD09B2309C8E3B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "027ECAA35F147891"
+				item: "betterend:terminite_sword"
+				type: "item"
+			}]
+			title: "« Terminite Sword »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_sword_blade"
+			id: "55A885945AAAB54D"
+			optional: true
+			rewards: [{
+				id: "2AACFA114AE06F0D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D71F4D6547FA560"
+				item: "betterend:terminite_sword_blade"
+				type: "item"
+			}]
+			title: "« Terminite Sword Blade »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_sword"
+			id: "5936D73064FCA32B"
+			optional: true
+			rewards: [{
+				id: "554E0F5ADEE893EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C00FF47AB0A09A1"
+				item: "betterend:thallasium_sword"
+				type: "item"
+			}]
+			title: "« Thallasium Sword »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_sword_blade"
+			id: "213A230A581F7129"
+			optional: true
+			rewards: [{
+				id: "1B47199AC4F72602"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "205651D39A3E15D0"
+				item: "betterend:thallasium_sword_blade"
+				type: "item"
+			}]
+			title: "« Thallasium Sword Blade »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_sword"
+			id: "55643124FD74A61A"
+			optional: true
+			rewards: [{
+				id: "7C6123ED546765AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "562FE99BB0BC5367"
+				item: "betternether:cincinnasite_sword"
+				type: "item"
+			}]
+			title: "Cincinnasite Sword"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_sword_diamond"
+			id: "74C56E516C9A6D06"
+			optional: true
+			rewards: [{
+				id: "0CADDF099AB93E08"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C995EBDC4DF7C52"
+				item: "betternether:cincinnasite_sword_diamond"
+				type: "item"
+			}]
+			title: "Cincinnasite-Diamond Sword"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Épée de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_sword"
+			id: "22D5B11800B45D6A"
+			optional: true
+			rewards: [{
+				id: "69348B71EA0384AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12E7C6B9BA3E0AF4"
+				item: "betternether:flaming_ruby_sword"
+				type: "item"
+			}]
+			title: "« Fireruby Sword »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_sword"
+			id: "162BCD9546F46196"
+			optional: true
+			rewards: [{
+				id: "7C29E62D39B26F1A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51A6BDA3983FF9F9"
+				item: "betternether:nether_ruby_sword"
+				type: "item"
+			}]
+			title: "Nether Ruby Sword"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_sword"
+			id: "22BCACD6B0E8A29E"
+			optional: true
+			rewards: [{
+				id: "1D8134BDBA271D32"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "479E2D9613A4CF48"
+				item: "blue_skies:aquite_sword"
+				type: "item"
+			}]
+			title: "Épée en aquite"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:bluebright_sword"
+			id: "7AA0E84702DF1676"
+			optional: true
+			rewards: [{
+				id: "68C9588B6A79BEB9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CE11717E55EFEEC"
+				item: "blue_skies:bluebright_sword"
+				type: "item"
+			}]
+			title: "Épée en bois lumibleu"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_sword"
+			id: "4A12C839A7C106FB"
+			optional: true
+			rewards: [{
+				id: "505A15E88BE09AFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E31774B9D797EEF"
+				item: "blue_skies:charoite_sword"
+				type: "item"
+			}]
+			title: "Épée en charoite"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:comet_sword"
+			id: "11D126C4F9FA89CC"
+			optional: true
+			rewards: [{
+				id: "5DAB0F57E47D43CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CF5C6D42CCBA66B"
+				item: "blue_skies:comet_sword"
+				type: "item"
+			}]
+			title: "« Comet Wood Sword »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:different_sword"
+			id: "62F8FFE1B74F2BBD"
+			optional: true
+			rewards: [{
+				id: "3CFBEBE70FAABE83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39165FC4AB253E48"
+				item: "blue_skies:different_sword"
+				type: "item"
+			}]
+			title: "Épée différente"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_sword"
+			id: "1741679DC526983B"
+			optional: true
+			rewards: [{
+				id: "659018C65802D20E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27783067613301D8"
+				item: "blue_skies:diopside_sword"
+				type: "item"
+			}]
+			title: "Épée en diopside"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:dusk_sword"
+			id: "179EC18292C6ABB7"
+			optional: true
+			rewards: [{
+				id: "3EF9E4C3A34FE5CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31DB9706169A8C0F"
+				item: "blue_skies:dusk_sword"
+				type: "item"
+			}]
+			title: "Épée en crépuscubois"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:frostbright_sword"
+			id: "5594F50B2E2BB229"
+			optional: true
+			rewards: [{
+				id: "1279A7294AD7E320"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A41244A98B305D2"
+				item: "blue_skies:frostbright_sword"
+				type: "item"
+			}]
+			title: "Épée en bois de nifrisque"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_sword"
+			id: "59D819009685EAFF"
+			optional: true
+			rewards: [{
+				id: "6C939D197F597872"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1098FE15518BBD60"
+				item: "blue_skies:horizonite_sword"
+				type: "item"
+			}]
+			title: "Épée en horizonite"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_stone_sword"
+			id: "4172F874E1D1A0E3"
+			optional: true
+			rewards: [{
+				id: "4B35D316065F2EDF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2228A4DA9E9A03DF"
+				item: "blue_skies:lunar_stone_sword"
+				type: "item"
+			}]
+			title: "Épée en pierre lunaire"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_sword"
+			id: "580C19809B921A0E"
+			optional: true
+			rewards: [{
+				id: "6A338C7C3539EEEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39B7075ED668BBEE"
+				item: "blue_skies:lunar_sword"
+				type: "item"
+			}]
+			title: "Épée lunaire"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:maple_sword"
+			id: "527F6EE1880897FF"
+			optional: true
+			rewards: [{
+				id: "2D35536A0C596AA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21ABBFB5C352802D"
+				item: "blue_skies:maple_sword"
+				type: "item"
+			}]
+			title: "Épée en bois d'érable"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_sword"
+			id: "19FE76AF8A5AA280"
+			optional: true
+			rewards: [{
+				id: "158F401003E00E3F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12F5645EDD0B05A7"
+				item: "blue_skies:pyrope_sword"
+				type: "item"
+			}]
+			title: "Épée en pyrope"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:starlit_sword"
+			id: "2A38B3915C3494DE"
+			optional: true
+			rewards: [{
+				id: "00E747B375ECADCC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "249E7CBCC69287E0"
+				item: "blue_skies:starlit_sword"
+				type: "item"
+			}]
+			title: "Épée en étoilibois"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Épée de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:turquoise_stone_sword"
+			id: "0A2EB93E06C50521"
+			optional: true
+			rewards: [{
+				id: "41EFD76DCD060C71"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "242CE1F8C5358795"
+				item: "blue_skies:turquoise_stone_sword"
+				type: "item"
+			}]
+			title: "Épée en pierre turquoise"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:black_steel_sword"
+			id: "6B0114C002CE3AF8"
+			optional: true
+			rewards: [{
+				id: "227509332352FF92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "728708AC2FFCD941"
+				item: "cataclysm:black_steel_sword"
+				type: "item"
+			}]
+			title: "« Black Steel Sword »"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bCreate&r. À garder : la livraison n'est pas consommée."]
+			icon: "create:cardboard_sword"
+			id: "7F403CF26FA38AAD"
+			optional: true
+			rewards: [{
+				id: "5E89FD172793386D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7357A150C287617B"
+				item: "create:cardboard_sword"
+				type: "item"
+			}]
+			title: "Épée en carton"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_sword"
+			id: "307A38B1BEAC2292"
+			optional: true
+			rewards: [{
+				id: "1D323B18D65D9186"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E5C0A0F033F3F42"
+				item: "deep_aether:skyjade_sword"
+				type: "item"
+			}]
+			title: "« Skyjade Sword »"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:storm_sword"
+			id: "2B781BB991EACD98"
+			optional: true
+			rewards: [{
+				id: "0C7B9E58D0E9BADB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E736268934DF15D"
+				item: "deep_aether:storm_sword"
+				type: "item"
+			}]
+			title: "« Storm Sword »"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_sword"
+			id: "45ACEE08D1C2C7F4"
+			optional: true
+			rewards: [{
+				id: "3E4F6EBACF0D648D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41D9BA4BEAB1818A"
+				item: "deep_aether:stratus_sword"
+				type: "item"
+			}]
+			title: "« Stratus Sword »"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:resonarium_sword"
+			id: "7B24E021BAEB343E"
+			optional: true
+			rewards: [{
+				id: "4EA60E092BB05CAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49D16617B4A29DF9"
+				item: "deeperdarker:resonarium_sword"
+				type: "item"
+			}]
+			title: "« Resonarium Sword »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:warden_sword"
+			id: "09A45ED79690FBC2"
+			optional: true
+			rewards: [{
+				id: "354EFE5AE9F1A445"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26CC7A43BA1D9F67"
+				item: "deeperdarker:warden_sword"
+				type: "item"
+			}]
+			title: "Épée du Warden"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_sword"
+			id: "59B9628F7AFEA6FD"
+			optional: true
+			rewards: [{
+				id: "31F5352B0C77E938"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "309D867E70656ACC"
+				item: "dragonloot:dragon_sword"
+				type: "item"
+			}]
+			title: "« Dragon Sword »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:draconic_splitter"
+			id: "78153F32DBCDF1F6"
+			optional: true
+			rewards: [{
+				id: "6726B29C415B91B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64038CF5559AD7D5"
+				item: "hazennstuff:draconic_splitter"
+				type: "item"
+			}]
+			title: "« Draconic Splitter »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:excalibur"
+			id: "3C63E95CADC83D6B"
+			optional: true
+			rewards: [{
+				id: "2C4A7114420D2DBA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "315F700AC11A533B"
+				item: "hazennstuff:excalibur"
+				type: "item"
+			}]
+			title: "« Excalibur »"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:fireblossom_rapier"
+			id: "22D9A6C8443C2065"
+			optional: true
+			rewards: [{
+				id: "2D450DDD20A6DDDA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "070264C30E64A3E3"
+				item: "hazennstuff:fireblossom_rapier"
+				type: "item"
+			}]
+			title: "« Fireblossom Rapier »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:ice_pike"
+			id: "421EE4B8B6EAE8E5"
+			optional: true
+			rewards: [{
+				id: "56A98D3246E13DFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EFCED87D02D4501"
+				item: "hazennstuff:ice_pike"
+				type: "item"
+			}]
+			title: "« Ice Pike »"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:ionic_splitter"
+			id: "3401D35C42DBB588"
+			optional: true
+			rewards: [{
+				id: "23BCD1E859D3332B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "679F187B4E61D59B"
+				item: "hazennstuff:ionic_splitter"
+				type: "item"
+			}]
+			title: "« Ionic Splitter »"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_warlock_axe"
+			id: "0032417E6BDABFC2"
+			optional: true
+			rewards: [{
+				id: "196D74B40F2AB604"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "790E0D2FE4ECF189"
+				item: "hazennstuff:legionnaire_warlock_axe"
+				type: "item"
+			}]
+			title: "« Legionnaire Warlock Axe »"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:o_fortuna"
+			id: "10C5D1740779C729"
+			optional: true
+			rewards: [{
+				id: "4B466DFC23A727DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62A41272D9255502"
+				item: "hazennstuff:o_fortuna"
+				type: "item"
+			}]
+			title: "« O' Fortuna »"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:provocation"
+			id: "0C7761B8991FA45F"
+			optional: true
+			rewards: [{
+				id: "4DC37031037CE2AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3156DC92E3B05801"
+				item: "hazennstuff:provocation"
+				type: "item"
+			}]
+			title: "« Provocation »"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:ravens_bane"
+			id: "0D988AA5A240F108"
+			optional: true
+			rewards: [{
+				id: "5F2C3CE9CA9C6B9F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34E69BC97A56F664"
+				item: "hazennstuff:ravens_bane"
+				type: "item"
+			}]
+			title: "« Raven's Bane »"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:the_devourer"
+			id: "35EF5BC1D9E6238C"
+			optional: true
+			rewards: [{
+				id: "77CF6C4730C91145"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "612E163643600D4F"
+				item: "hazennstuff:the_devourer"
+				type: "item"
+			}]
+			title: "« The Devourer »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:umbranova"
+			id: "4842FE36C99F1532"
+			optional: true
+			rewards: [{
+				id: "7CC2D4DFAB4699BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "671AB1898C2C84CC"
+				item: "hazennstuff:umbranova"
+				type: "item"
+			}]
+			title: "« Umbranova »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:amethyst_rapier"
+			id: "750B3CA0E82F15FC"
+			optional: true
+			rewards: [{
+				id: "10A59131A5B977F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F4C18498A9B1D99"
+				item: "irons_spellbooks:amethyst_rapier"
+				type: "item"
+			}]
+			title: "Rapière en Améthyste"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:boreal_blade"
+			id: "727449F704FADBB9"
+			optional: true
+			rewards: [{
+				id: "6675FF0630E278E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "576667B57FEB2082"
+				item: "irons_spellbooks:boreal_blade"
+				type: "item"
+			}]
+			title: "Lame Boréale"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:decrepit_scythe"
+			id: "607DB3A0F1655F01"
+			optional: true
+			rewards: [{
+				id: "686390FF9B211BFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D5D9BCE17BA11F3"
+				item: "irons_spellbooks:decrepit_scythe"
+				type: "item"
+			}]
+			title: "Faux Décrépite"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:hellrazor"
+			id: "13AE71DFB21DA974"
+			optional: true
+			rewards: [{
+				id: "30C4E2E974F0770A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6228AFE64E7A7CFE"
+				item: "irons_spellbooks:hellrazor"
+				type: "item"
+			}]
+			title: "Tranchefer Infernal"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:keeper_flamberge"
+			id: "7558BFD210D61EAC"
+			optional: true
+			rewards: [{
+				id: "7E23FB35A234FA3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CCC73D1F4E47342"
+				item: "irons_spellbooks:keeper_flamberge"
+				type: "item"
+			}]
+			title: "Flamberge Décrépite"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:legionnaire_flamberge"
+			id: "1163EC65F0086898"
+			optional: true
+			rewards: [{
+				id: "79CB0D71615CBFBE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08BEFCECC787A17D"
+				item: "irons_spellbooks:legionnaire_flamberge"
+				type: "item"
+			}]
+			title: "Flamberge du Légionnaire"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:spellbreaker"
+			id: "3709BA36B9B017A8"
+			optional: true
+			rewards: [{
+				id: "316FCA9C207F4583"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65BDFC16787E52E2"
+				item: "irons_spellbooks:spellbreaker"
+				type: "item"
+			}]
+			title: "Brise-Sort"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:twilight_gale"
+			id: "4B39A2716B62626F"
+			optional: true
+			rewards: [{
+				id: "1A4AE76882BD2B39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A0001A1C8B7574C"
+				item: "irons_spellbooks:twilight_gale"
+				type: "item"
+			}]
+			title: "Rafale du Crépuscule"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_sword"
+			id: "5ED9057A901188C1"
+			optional: true
+			rewards: [{
+				id: "57A065634A160567"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7748FE3EB8736B25"
+				item: "mysticalagriculture:awakened_supremium_sword"
+				type: "item"
+			}]
+			title: "Épée en Supremium Éveillé"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:hostile_soulium_dagger"
+			id: "553FFA1A1E34A1E5"
+			optional: true
+			rewards: [{
+				id: "363E7CF651893BB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "349E9503E9132066"
+				item: "mysticalagriculture:hostile_soulium_dagger"
+				type: "item"
+			}]
+			title: "« Hostile soulium dagger »"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_sword"
+			id: "4632EE3401687D1A"
+			optional: true
+			rewards: [{
+				id: "53408CDB18F0EDC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "659B538B67072F05"
+				item: "mysticalagriculture:imperium_sword"
+				type: "item"
+			}]
+			title: "Épée en Imperium"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_sword"
+			id: "2475628072893E0D"
+			optional: true
+			rewards: [{
+				id: "44C3288C1F990AE0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1CA4946F1FA3BD8B"
+				item: "mysticalagriculture:inferium_sword"
+				type: "item"
+			}]
+			title: "Épée en Inferium"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:passive_soulium_dagger"
+			id: "0CEE3949A3AB7A64"
+			optional: true
+			rewards: [{
+				id: "058C119FF4FC896E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E753AC65F45F2E9"
+				item: "mysticalagriculture:passive_soulium_dagger"
+				type: "item"
+			}]
+			title: "« Passive soulium dagger »"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_sword"
+			id: "62A384845C49618A"
+			optional: true
+			rewards: [{
+				id: "1A7129CDA96BC40B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0EFBF18687330466"
+				item: "mysticalagriculture:prudentium_sword"
+				type: "item"
+			}]
+			title: "Épée en Prudentium"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:soulium_dagger"
+			id: "66B90C9D61CE392F"
+			optional: true
+			rewards: [{
+				id: "5EF79A8A74AFBD31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73C425FFF6BAE7EE"
+				item: "mysticalagriculture:soulium_dagger"
+				type: "item"
+			}]
+			title: "Dague en Soulium"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_sword"
+			id: "6BC78EA4FF766CC7"
+			optional: true
+			rewards: [{
+				id: "75C62670B22C8C39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C286B0FC584EF7D"
+				item: "mysticalagriculture:supremium_sword"
+				type: "item"
+			}]
+			title: "Épée en Supremium"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_sword"
+			id: "7C5892529D7C2162"
+			optional: true
+			rewards: [{
+				id: "089BC0967B621934"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CD500F421DC8B7A"
+				item: "mysticalagriculture:tertium_sword"
+				type: "item"
+			}]
+			title: "Épée en Tertium"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_sword"
+			id: "10742A3CDABF2717"
+			optional: true
+			rewards: [{
+				id: "099F05846379CAD0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E5E62741ABD7753"
+				item: "stalwart_dungeons:chorundum_sword"
+				type: "item"
+			}]
+			title: "« §eChorundum Sword »"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_sword"
+			id: "680E10A4538E9413"
+			optional: true
+			rewards: [{
+				id: "6ECA384259A37D91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B3AD4567DB0ED28"
+				item: "stalwart_dungeons:tungsten_sword"
+				type: "item"
+			}]
+			title: "« §eTungsten Sword »"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bTwilight's Flavor & Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightdelight:teardrop_sword"
+			id: "0FC44216B4E2B165"
+			optional: true
+			rewards: [{
+				id: "3EE2A6CCACBA72DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F51E4475D2519CA"
+				item: "twilightdelight:teardrop_sword"
+				type: "item"
+			}]
+			title: "« Teardrop Sword »"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:fiery_sword"
+			id: "498287FD31F4D63E"
+			optional: true
+			rewards: [{
+				id: "0DBC6AB04CF04995"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B36507E465627B9"
+				item: "twilightforest:fiery_sword"
+				type: "item"
+			}]
+			title: "Épée ardente"
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:giant_sword"
+			id: "61EF16E6289D863F"
+			optional: true
+			rewards: [{
+				id: "2915DFC48E7F0A31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E42888B420E195B"
+				item: "twilightforest:giant_sword"
+				type: "item"
+			}]
+			title: "Épée de géant"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:glass_sword"
+			id: "58DBD6A5907ED078"
+			optional: true
+			rewards: [{
+				id: "496FBF2B33DB125B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2790EB547B31DC49"
+				item: "twilightforest:glass_sword"
+				type: "item"
+			}]
+			title: "Épée en verre"
+			x: 15.0d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ice_sword"
+			id: "6B2D2C6FDF110F50"
+			optional: true
+			rewards: [{
+				id: "5F33DC7379AC5165"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "30E803584EBB7EA5"
+				item: "twilightforest:ice_sword"
+				type: "item"
+			}]
+			title: "Épée gelée"
+			x: 16.5d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_sword"
+			id: "044D5C65E21C8723"
+			optional: true
+			rewards: [{
+				id: "1719158A36FA6459"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "30AB47D9CE85AE55"
+				item: "twilightforest:ironwood_sword"
+				type: "item"
+			}]
+			title: "Épée en bois de fer"
+			x: 18.0d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:knightmetal_sword"
+			id: "7570909B0AFF1F4E"
+			optional: true
+			rewards: [{
+				id: "302C33505CCCFBCB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "296C7481752AB82C"
+				item: "twilightforest:knightmetal_sword"
+				type: "item"
+			}]
+			title: "Épée chevaleresque"
+			x: 19.5d
+			y: 3.75d
+		}
+		{
+			description: ["Épée de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_sword"
+			id: "2E218777DE882101"
+			optional: true
+			rewards: [{
+				id: "09F345A4AEF4A897"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "539BADA03AAF5E7F"
+				item: "twilightforest:steeleaf_sword"
+				type: "item"
+			}]
+			title: "Épée en Stealeaf"
+			x: 21.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"546FE4A2A95688AA"
+				"3657F9A92F97C2EB"
+				"337185F9E26A1433"
+				"43A43DE9AAF6C424"
+				"61CF6F0B782A1774"
+				"6AAADAB63D9293EE"
+				"631BC0F1EFA4B9C5"
+				"6E5702CFBCC563D1"
+				"26BE26C33B529F8E"
+				"0CE39A87EB00FFC8"
+				"351384B1B5564D6E"
+				"43DC65185F32539D"
+				"6285F88E9156C355"
+				"76D90C8916C54DDE"
+				"5E97ED2244ABF07C"
+				"02904263F2C425DB"
+				"205C13614E2EFC94"
+				"0A5589AB8897EE63"
+				"4EC6BBD3ADC55774"
+				"63AD56E26812BF5D"
+				"72DF04D9EEAD700C"
+				"279E4253C0978C65"
+				"72E40672C691C062"
+				"518D5D28C4636B30"
+				"5607CCB457A20D4A"
+				"46CA659AB5DCA108"
+				"7BDF2E8CF24A893B"
+				"55A885945AAAB54D"
+				"5936D73064FCA32B"
+				"213A230A581F7129"
+				"55643124FD74A61A"
+				"74C56E516C9A6D06"
+				"22D5B11800B45D6A"
+				"162BCD9546F46196"
+				"22BCACD6B0E8A29E"
+				"7AA0E84702DF1676"
+				"4A12C839A7C106FB"
+				"11D126C4F9FA89CC"
+				"62F8FFE1B74F2BBD"
+				"1741679DC526983B"
+				"179EC18292C6ABB7"
+				"5594F50B2E2BB229"
+				"59D819009685EAFF"
+				"4172F874E1D1A0E3"
+				"580C19809B921A0E"
+				"527F6EE1880897FF"
+				"19FE76AF8A5AA280"
+				"2A38B3915C3494DE"
+				"0A2EB93E06C50521"
+				"6B0114C002CE3AF8"
+				"7F403CF26FA38AAD"
+				"307A38B1BEAC2292"
+				"2B781BB991EACD98"
+				"45ACEE08D1C2C7F4"
+				"7B24E021BAEB343E"
+				"09A45ED79690FBC2"
+				"59B9628F7AFEA6FD"
+				"78153F32DBCDF1F6"
+				"3C63E95CADC83D6B"
+				"22D9A6C8443C2065"
+				"421EE4B8B6EAE8E5"
+				"3401D35C42DBB588"
+				"0032417E6BDABFC2"
+				"10C5D1740779C729"
+				"0C7761B8991FA45F"
+				"0D988AA5A240F108"
+				"35EF5BC1D9E6238C"
+				"4842FE36C99F1532"
+				"750B3CA0E82F15FC"
+				"727449F704FADBB9"
+				"607DB3A0F1655F01"
+				"13AE71DFB21DA974"
+				"7558BFD210D61EAC"
+				"1163EC65F0086898"
+				"3709BA36B9B017A8"
+				"4B39A2716B62626F"
+				"5ED9057A901188C1"
+				"553FFA1A1E34A1E5"
+				"4632EE3401687D1A"
+				"2475628072893E0D"
+				"0CEE3949A3AB7A64"
+				"62A384845C49618A"
+				"66B90C9D61CE392F"
+				"6BC78EA4FF766CC7"
+				"7C5892529D7C2162"
+				"10742A3CDABF2717"
+				"680E10A4538E9413"
+				"0FC44216B4E2B165"
+				"498287FD31F4D63E"
+				"61EF16E6289D863F"
+				"58DBD6A5907ED078"
+				"6B2D2C6FDF110F50"
+				"044D5C65E21C8723"
+				"7570909B0AFF1F4E"
+				"2E218777DE882101"
+			]
+			description: ["Toutes les épées de ce chapitre réunies."]
+			icon: "minecraft:netherite_sword"
+			id: "1B4EE2F9B753F571"
+			optional: true
+			rewards: [{
+				id: "1418D04AB1E7E4ED"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6319FB64C2F3203C"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Toutes les épées"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&cÉpées"
+}

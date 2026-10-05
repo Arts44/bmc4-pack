@@ -463,6 +463,341 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["2029658849E78612"]
+			description: ["Quatre cristaux de l'End, un sur chaque côté du portail de sortie, ré-invoquent le dragon. Cette quête ne compte que le combat livré après la première victoire. Sur ce serveur, un dragon ré-invoqué ne laisse pas d'œuf ; ses écailles de dragon (DragonLoot) et, avec une arme d'essence enchantée, sa poussière cognizante tombent à chaque fois."]
+			icon: "minecraft:ender_dragon_spawn_egg"
+			id: "5900007135F4A99F"
+			optional: true
+			rewards: [{
+				id: "1559A283AB40457D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6635F199C240011A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Ré-invoquer l'Ender Dragon"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3945B4EB5B61FF66"]
+			description: ["Better End forge ses armures : un lingot posé sur une de ses enclumes devient, au marteau, une plaque forgée ; les plaques font les pièces. Le thallasium est le premier métal."]
+			icon: "betterend:thallasium_helmet"
+			id: "4AC3DC058F72BB22"
+			optional: true
+			rewards: [{
+				id: "352CAA7B603DF313"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4E3E208B85B44214"
+					item: "betterend:thallasium_helmet"
+					type: "item"
+				}
+				{
+					id: "1B7B2B0485DEAA88"
+					item: "betterend:thallasium_chestplate"
+					type: "item"
+				}
+				{
+					id: "3830D75C19AAA31F"
+					item: "betterend:thallasium_leggings"
+					type: "item"
+				}
+				{
+					id: "0D5266FE03B57D52"
+					item: "betterend:thallasium_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure en thallasium"
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3945B4EB5B61FF66"]
+			description: ["Le marteau d'abord : un bloc de thallasium et un bâton, avec le modèle d'emmanchement, à la table de forge. Il forge les plaques et les têtes des autres outils."]
+			icon: "betterend:thallasium_hammer"
+			id: "6A3837D6CAD0F528"
+			optional: true
+			rewards: [{
+				id: "1FA34411DA4E70EB"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "299AFFDEFC3C9E7D"
+					item: "betterend:thallasium_hammer"
+					type: "item"
+				}
+				{
+					id: "2018B747C36832C2"
+					item: "betterend:thallasium_sword"
+					type: "item"
+				}
+				{
+					id: "4C19B64A655712B1"
+					item: "betterend:thallasium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7129B49BCFF2BFA2"
+					item: "betterend:thallasium_axe"
+					type: "item"
+				}
+				{
+					id: "72625A5E290EAED7"
+					item: "betterend:thallasium_shovel"
+					type: "item"
+				}
+				{
+					id: "6CEAD70BF03D74C2"
+					item: "betterend:thallasium_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils en thallasium"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"135018B43FDC9597"
+				"4AC3DC058F72BB22"
+			]
+			description: ["La terminite s'allie dans la fondeuse de pierre de l'End : un lingot de fer et de la poudre de l'End. Ses plaques demandent une enclume et un marteau de niveau 3."]
+			icon: "betterend:terminite_helmet"
+			id: "0E7C2F328770D166"
+			optional: true
+			rewards: [{
+				id: "2D93738742B950AE"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0183C691A5E66714"
+					item: "betterend:terminite_helmet"
+					type: "item"
+				}
+				{
+					id: "584B26486A4E1C29"
+					item: "betterend:terminite_chestplate"
+					type: "item"
+				}
+				{
+					id: "2A573261729D8C17"
+					item: "betterend:terminite_leggings"
+					type: "item"
+				}
+				{
+					id: "26CA83C63CAE3FA8"
+					item: "betterend:terminite_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure en terminite"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"135018B43FDC9597"
+				"6A3837D6CAD0F528"
+			]
+			description: ["Même chemin qu'en thallasium, en terminite."]
+			icon: "betterend:terminite_hammer"
+			id: "3C567597680F485B"
+			optional: true
+			rewards: [{
+				id: "0E2FDC68B0FF7E9B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "468B72F10F65F56E"
+					item: "betterend:terminite_hammer"
+					type: "item"
+				}
+				{
+					id: "02A93E8A57855A0B"
+					item: "betterend:terminite_sword"
+					type: "item"
+				}
+				{
+					id: "1CD4FCCF3FE79B05"
+					item: "betterend:terminite_pickaxe"
+					type: "item"
+				}
+				{
+					id: "5B181ED9D21C6706"
+					item: "betterend:terminite_axe"
+					type: "item"
+				}
+				{
+					id: "4D570379DD448D8D"
+					item: "betterend:terminite_shovel"
+					type: "item"
+				}
+				{
+					id: "0AF4B2AE47F49BE2"
+					item: "betterend:terminite_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils en terminite"
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0E7C2F328770D166"
+				"089D44E3AFE0A5B1"
+			]
+			description: ["Une branche : chaque pièce en terminite, intacte, passe sur l'autel d'infusion avec des éclats de cristal et une gemme d'ambre."]
+			icon: "betterend:crystalite_helmet"
+			id: "14CC89B6421DB0E8"
+			optional: true
+			rewards: [{
+				id: "75F8BF5B8F88CB54"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "65A879CB96B6B447"
+					item: "betterend:crystalite_helmet"
+					type: "item"
+				}
+				{
+					id: "333F698A50EC80BC"
+					item: "betterend:crystalite_chestplate"
+					type: "item"
+				}
+				{
+					id: "7A0C45A0FC514B6B"
+					item: "betterend:crystalite_leggings"
+					type: "item"
+				}
+				{
+					id: "2EAC5D894AF5158A"
+					item: "betterend:crystalite_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure en crystalite"
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4BE595D1AD949132"
+				"0E7C2F328770D166"
+			]
+			description: ["L'aeternium s'allie à partir d'un lingot de terminite et d'un lingot de nétherite. À la table de forge, le modèle d'amélioration de plaque change chaque pièce en terminite en aeternium avec une plaque forgée. C'est le sommet de Better End."]
+			icon: "betterend:aeternium_helmet"
+			id: "1C70E66A0BEA98DB"
+			optional: true
+			rewards: [{
+				id: "497687499C73BE1E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					id: "0EAE9D31427B2905"
+					item: "betterend:aeternium_helmet"
+					type: "item"
+				}
+				{
+					id: "3FBD6693F118C3A9"
+					item: "betterend:aeternium_chestplate"
+					type: "item"
+				}
+				{
+					id: "3372F758431FF562"
+					item: "betterend:aeternium_leggings"
+					type: "item"
+				}
+				{
+					id: "2BFF61056B217344"
+					item: "betterend:aeternium_boots"
+					type: "item"
+				}
+			]
+			title: "&5L'armure en aeternium"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4BE595D1AD949132"
+				"3C567597680F485B"
+			]
+			description: ["Les outils en aeternium prennent un manche gainé de cuir."]
+			icon: "betterend:aeternium_hammer"
+			id: "120A8A3F5455AB1E"
+			optional: true
+			rewards: [{
+				id: "676D7766D6144D73"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "024676D648396576"
+					item: "betterend:aeternium_hammer"
+					type: "item"
+				}
+				{
+					id: "56FFB2EB8A716F17"
+					item: "betterend:aeternium_sword"
+					type: "item"
+				}
+				{
+					id: "71B945FF68892803"
+					item: "betterend:aeternium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "1CA806AD0D79444E"
+					item: "betterend:aeternium_axe"
+					type: "item"
+				}
+				{
+					id: "2CF78E874447F696"
+					item: "betterend:aeternium_shovel"
+					type: "item"
+				}
+				{
+					id: "409103FAC07E934A"
+					item: "betterend:aeternium_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils en aeternium"
+			x: 14.0d
+			y: 6.5d
+		}
+		{
 			dependencies: [
 				"18B2E6E5992D3111"
 				"2C127BA0A1A79C96"

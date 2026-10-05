@@ -1,0 +1,1273 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_pioches"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_pickaxe"
+	id: "0661BE80B344264B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque pioche du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là."]
+			icon: "minecraft:iron_pickaxe"
+			id: "74C4C00DE0E411D9"
+			rewards: [{
+				id: "2345D7AB97D81932"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0DE642119C538892"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Pioches"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_pickaxe"
+			id: "099439CB9443DC66"
+			optional: true
+			rewards: [{
+				id: "7F830949E0EF603E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58747696703D6BC7"
+				item: "minecraft:diamond_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en diamant"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_pickaxe"
+			id: "517CC6F0AFBF31C8"
+			optional: true
+			rewards: [{
+				id: "36BF0C1E3D144C75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BA8D2AB0AC15154"
+				item: "minecraft:golden_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en or"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_pickaxe"
+			id: "7B6C16718F0FF31F"
+			optional: true
+			rewards: [{
+				id: "757B5C8C5B81061C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09DECD4B10023418"
+				item: "minecraft:iron_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en fer"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_pickaxe"
+			id: "17CB9C9B6C42488D"
+			optional: true
+			rewards: [{
+				id: "3D957B9A59CC09A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75C6393FE6B7D636"
+				item: "minecraft:netherite_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en netherite"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:stone_pickaxe"
+			id: "09C778B083A2FE71"
+			optional: true
+			rewards: [{
+				id: "2F03E04803C8EFC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BCF9CDC0BCA046C"
+				item: "minecraft:stone_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en pierre"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:wooden_pickaxe"
+			id: "39842BF650DF3A03"
+			optional: true
+			rewards: [{
+				id: "5DD460F08732FC90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DE8F99D97CD5580"
+				item: "minecraft:wooden_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en bois"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_diamond_pickaxe"
+			id: "5455411A5326FF01"
+			optional: true
+			rewards: [{
+				id: "6631C2A6469149CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1665C74C24FE99C9"
+				item: "advancednetherite:netherite_diamond_pickaxe"
+				type: "item"
+			}]
+			title: "« Netherite-Diamond Pickaxe »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_emerald_pickaxe"
+			id: "2DBB8E6F5F6EE0CB"
+			optional: true
+			rewards: [{
+				id: "695EFD23B119DBE8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49D8F9B55C16D9AB"
+				item: "advancednetherite:netherite_emerald_pickaxe"
+				type: "item"
+			}]
+			title: "« Netherite-Emerald Pickaxe »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_gold_pickaxe"
+			id: "5731741B3DF676AA"
+			optional: true
+			rewards: [{
+				id: "3630F4A09809DB95"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2C61C2ABA0EC31"
+				item: "advancednetherite:netherite_gold_pickaxe"
+				type: "item"
+			}]
+			title: "« Netherite-Gold Pickaxe »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_iron_pickaxe"
+			id: "0547A96A66C4D292"
+			optional: true
+			rewards: [{
+				id: "0E9E2992E75451AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E917E432132F1B6"
+				item: "advancednetherite:netherite_iron_pickaxe"
+				type: "item"
+			}]
+			title: "« Netherite-Iron Pickaxe »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_pickaxe"
+			id: "3BAE054E6C6637BD"
+			optional: true
+			rewards: [{
+				id: "6283A1D6316BC2D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51FC53E8D8D7229D"
+				item: "aether:gravitite_pickaxe"
+				type: "item"
+			}]
+			title: "« Gravitite Pickaxe »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:holystone_pickaxe"
+			id: "1F285144CC8A469E"
+			optional: true
+			rewards: [{
+				id: "192469F751616EA3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4081B227C733B6F5"
+				item: "aether:holystone_pickaxe"
+				type: "item"
+			}]
+			title: "« Holystone Pickaxe »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:skyroot_pickaxe"
+			id: "7A7618BB4F6DBAD6"
+			optional: true
+			rewards: [{
+				id: "53C842CC663E23DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A97D758E38DD5EF"
+				item: "aether:skyroot_pickaxe"
+				type: "item"
+			}]
+			title: "« Skyroot Pickaxe »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_pickaxe"
+			id: "7055FC8EB33136BD"
+			optional: true
+			rewards: [{
+				id: "5FF115FE964CEF73"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C67134B3271763A"
+				item: "aether:valkyrie_pickaxe"
+				type: "item"
+			}]
+			title: "« Valkyrie Pickaxe »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_pickaxe"
+			id: "70133BFECD39A3F9"
+			optional: true
+			rewards: [{
+				id: "21BD0E56BC7EDB06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50EAAEF01C0B210F"
+				item: "aether:zanite_pickaxe"
+				type: "item"
+			}]
+			title: "« Zanite Pickaxe »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:infused_veridium_pickaxe"
+			id: "179184D5000F1EB9"
+			optional: true
+			rewards: [{
+				id: "127EE1B6649C7363"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "104E4A9E4FFB2548"
+				item: "aether_redux:infused_veridium_pickaxe"
+				type: "item"
+			}]
+			title: "« Infused Veridium Pickaxe »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pioche de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:veridium_pickaxe"
+			id: "76A39B7F690048C5"
+			optional: true
+			rewards: [{
+				id: "6FC9F39AA9381ED3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D25AEB1EAD7D62B"
+				item: "aether_redux:veridium_pickaxe"
+				type: "item"
+			}]
+			title: "« Veridium Pickaxe »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_pickaxe"
+			id: "5FBD056135AC8EC4"
+			optional: true
+			rewards: [{
+				id: "6B2917BAC2CB03D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A9F430DEDDEE905"
+				item: "betterend:aeternium_pickaxe"
+				type: "item"
+			}]
+			title: "« Aeternium Pickaxe »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_pickaxe"
+			id: "7B2764E9D03B0A72"
+			optional: true
+			rewards: [{
+				id: "3A328B6B4885FB48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AF4615ADE76459F"
+				item: "betterend:terminite_pickaxe"
+				type: "item"
+			}]
+			title: "« Terminite Pickaxe »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_pickaxe"
+			id: "22F281F2A04A1744"
+			optional: true
+			rewards: [{
+				id: "111DE5314BB42B37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "488B3B53D7FFA65F"
+				item: "betterend:thallasium_pickaxe"
+				type: "item"
+			}]
+			title: "« Thallasium Pickaxe »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_pickaxe"
+			id: "71B0E3520452E675"
+			optional: true
+			rewards: [{
+				id: "325AE0CC229E0FFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08E224B9EF2901D3"
+				item: "betternether:cincinnasite_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en Cincinnasite"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_pickaxe_diamond"
+			id: "2D2977B8D46CAA94"
+			optional: true
+			rewards: [{
+				id: "72A725EE745B03A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33A66B79C9C59E41"
+				item: "betternether:cincinnasite_pickaxe_diamond"
+				type: "item"
+			}]
+			title: "Pioche en Cincinnasite diamantée"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_pickaxe"
+			id: "401E63F16F48F42B"
+			optional: true
+			rewards: [{
+				id: "0231AB1136598015"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24C18B7BF834B435"
+				item: "betternether:flaming_ruby_pickaxe"
+				type: "item"
+			}]
+			title: "« Fireruby Pickaxe »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_pickaxe"
+			id: "3D6BC97E0AE07210"
+			optional: true
+			rewards: [{
+				id: "1910D05442FC70E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3857D925F39507F8"
+				item: "betternether:nether_ruby_pickaxe"
+				type: "item"
+			}]
+			title: "Nether Ruby Pickaxe"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_pickaxe"
+			id: "6272820FF0B092F0"
+			optional: true
+			rewards: [{
+				id: "12314F5451EA6EFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FE43ED029AAA19D"
+				item: "blue_skies:aquite_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en aquite"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:bluebright_pickaxe"
+			id: "04551B8BD30F48B9"
+			optional: true
+			rewards: [{
+				id: "34BD397FACD0B72A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E36B30006C79212"
+				item: "blue_skies:bluebright_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en bois de lumibleu"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_pickaxe"
+			id: "0B121B6294DB5AE4"
+			optional: true
+			rewards: [{
+				id: "0EE4979FBBF34F77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39AF657AFC20E0E6"
+				item: "blue_skies:charoite_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en charoite"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:comet_pickaxe"
+			id: "3169F78FF298F83A"
+			optional: true
+			rewards: [{
+				id: "6FAAD6B036D2EA15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EB9A62D3848EA0B"
+				item: "blue_skies:comet_pickaxe"
+				type: "item"
+			}]
+			title: "« Comet Wood Pickaxe »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_pickaxe"
+			id: "5298883D1B0CECF8"
+			optional: true
+			rewards: [{
+				id: "18A6A3807E5D3645"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EC2BE1137BEA888"
+				item: "blue_skies:diopside_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en diopside"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:dusk_pickaxe"
+			id: "28C88898C9F7F4A5"
+			optional: true
+			rewards: [{
+				id: "459B8DD71B919D3D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "399BDC589C7A2D74"
+				item: "blue_skies:dusk_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en crépuscubois"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:frostbright_pickaxe"
+			id: "3586D458D9AB72CB"
+			optional: true
+			rewards: [{
+				id: "082A7394D77BE712"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "657284C16BA538A0"
+				item: "blue_skies:frostbright_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en bois de nifrisque"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_pickaxe"
+			id: "1030065F9A0AA75F"
+			optional: true
+			rewards: [{
+				id: "3872708778452484"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D9E083B3858604B"
+				item: "blue_skies:horizonite_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en horizonite"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_pickaxe"
+			id: "6F7526B1F2D39795"
+			optional: true
+			rewards: [{
+				id: "597330918A504678"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57560337CF25804B"
+				item: "blue_skies:lunar_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche lunaie"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_stone_pickaxe"
+			id: "49011858B4553623"
+			optional: true
+			rewards: [{
+				id: "6F8C625A67F126C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B29CADEE42EC31E"
+				item: "blue_skies:lunar_stone_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en pierre lunaire"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:maple_pickaxe"
+			id: "4BE64C80A516F009"
+			optional: true
+			rewards: [{
+				id: "67452F6DAE2FDD8C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A4DE75A69FA298D"
+				item: "blue_skies:maple_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en bois d'érable"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_pickaxe"
+			id: "04C7EAFDBC66AE3A"
+			optional: true
+			rewards: [{
+				id: "717CE5F3ABA52057"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49A4647FFE6C5EDF"
+				item: "blue_skies:pyrope_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en pyrope"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:starlit_pickaxe"
+			id: "20D729C7999E86DE"
+			optional: true
+			rewards: [{
+				id: "4DEBC028E1B4BC9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11F6263422419629"
+				item: "blue_skies:starlit_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en étoilibois"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:turquoise_stone_pickaxe"
+			id: "07434FB6FCB7CE2B"
+			optional: true
+			rewards: [{
+				id: "0556D3FF28473869"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A6D54A0F5E72B49"
+				item: "blue_skies:turquoise_stone_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en pierre turquoise"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:black_steel_pickaxe"
+			id: "383DE45A60D689A6"
+			optional: true
+			rewards: [{
+				id: "42377781ACBEB241"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5169DA145C893DA3"
+				item: "cataclysm:black_steel_pickaxe"
+				type: "item"
+			}]
+			title: "« Black Steel Pickaxe »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_pickaxe"
+			id: "5CB3A320C8610748"
+			optional: true
+			rewards: [{
+				id: "46BC80CB87F5BAE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72BD0F7EC6BE1056"
+				item: "deep_aether:skyjade_pickaxe"
+				type: "item"
+			}]
+			title: "« Skyjade Pickaxe »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_pickaxe"
+			id: "4E3EDA9C3B642019"
+			optional: true
+			rewards: [{
+				id: "03490A068F2C23C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CA79316D14D643A"
+				item: "deep_aether:stratus_pickaxe"
+				type: "item"
+			}]
+			title: "« Stratus Pickaxe »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:resonarium_pickaxe"
+			id: "5A2D87A0B77AEA14"
+			optional: true
+			rewards: [{
+				id: "6284AB39622617FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4DAAC70DE075074B"
+				item: "deeperdarker:resonarium_pickaxe"
+				type: "item"
+			}]
+			title: "« Resonarium Pickaxe »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:warden_pickaxe"
+			id: "53B1D79B3F701989"
+			optional: true
+			rewards: [{
+				id: "229101E16EFB9DEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B85DB67E79C62C9"
+				item: "deeperdarker:warden_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche du Warden"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_pickaxe"
+			id: "5ECD62011966F44E"
+			optional: true
+			rewards: [{
+				id: "2785993399673C35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E68EB9619C983B9"
+				item: "dragonloot:dragon_pickaxe"
+				type: "item"
+			}]
+			title: "« Dragon Pickaxe »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_pickaxe"
+			id: "2001E4ED0249C9F1"
+			optional: true
+			rewards: [{
+				id: "72951230AC79939A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "136103BD57773EAB"
+				item: "mysticalagriculture:awakened_supremium_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en Supremium Éveillé"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_pickaxe"
+			id: "3C3A94677CAB2A57"
+			optional: true
+			rewards: [{
+				id: "01F9D4FDC29630B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B473EC79FC69D96"
+				item: "mysticalagriculture:imperium_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en Imperium"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_pickaxe"
+			id: "0E5D1B56C8FB4260"
+			optional: true
+			rewards: [{
+				id: "45CADD020063D5A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "033078CAD7751F53"
+				item: "mysticalagriculture:inferium_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en Inferium"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_pickaxe"
+			id: "52680663240C3D7C"
+			optional: true
+			rewards: [{
+				id: "6B8C3EB35D76FF2B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "260B5EAB6C0B2721"
+				item: "mysticalagriculture:prudentium_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en Prudentium"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_pickaxe"
+			id: "1367EE50DEB1D914"
+			optional: true
+			rewards: [{
+				id: "542E1714E6C69EE3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2436D40090F295C9"
+				item: "mysticalagriculture:supremium_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en Supremium"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_pickaxe"
+			id: "379A8C44487BED49"
+			optional: true
+			rewards: [{
+				id: "1C9858FA9934ADED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7005C066DF39BEAC"
+				item: "mysticalagriculture:tertium_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en Tertium"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_pickaxe"
+			id: "7CC1170FBBFBFDD6"
+			optional: true
+			rewards: [{
+				id: "4FF61685D0E9DAC6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F0F3537BE90BC2F"
+				item: "stalwart_dungeons:chorundum_pickaxe"
+				type: "item"
+			}]
+			title: "« §eChorundum Pickaxe »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_pickaxe"
+			id: "09ECD2934C7CE212"
+			optional: true
+			rewards: [{
+				id: "78ED39B5B96DDF77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "375249F733164197"
+				item: "stalwart_dungeons:tungsten_pickaxe"
+				type: "item"
+			}]
+			title: "« §eTungsten Pickaxe »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:fiery_pickaxe"
+			id: "7EF9C27DA0625DFF"
+			optional: true
+			rewards: [{
+				id: "5E0631464B37E74A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "163D77C98C5AFA71"
+				item: "twilightforest:fiery_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche ardente"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:giant_pickaxe"
+			id: "02A2DAE411431D41"
+			optional: true
+			rewards: [{
+				id: "4F91F76308994DAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42BF7B3A06A832D6"
+				item: "twilightforest:giant_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche de géant"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_pickaxe"
+			id: "01FA5500B5188367"
+			optional: true
+			rewards: [{
+				id: "7C5CBD8CAE40F3E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28A52F299590E502"
+				item: "twilightforest:ironwood_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en bois de fer"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:knightmetal_pickaxe"
+			id: "4F43D48E45F8A8D5"
+			optional: true
+			rewards: [{
+				id: "7E410E2AA8BCA4AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4326F0B3E92DC356"
+				item: "twilightforest:knightmetal_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche chevaleresque"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:mazebreaker_pickaxe"
+			id: "5A153084575E6CC0"
+			optional: true
+			rewards: [{
+				id: "26DB9BD9FCDDA797"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "165A578DC90E933F"
+				item: "twilightforest:mazebreaker_pickaxe"
+				type: "item"
+			}]
+			title: "« Mazebreaker »"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pioche de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_pickaxe"
+			id: "65E9141973D74C20"
+			optional: true
+			rewards: [{
+				id: "79696EEA600FB630"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37B3B39BCE3ABC2B"
+				item: "twilightforest:steeleaf_pickaxe"
+				type: "item"
+			}]
+			title: "Pioche en Stealeaf"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"099439CB9443DC66"
+				"517CC6F0AFBF31C8"
+				"7B6C16718F0FF31F"
+				"17CB9C9B6C42488D"
+				"09C778B083A2FE71"
+				"39842BF650DF3A03"
+				"5455411A5326FF01"
+				"2DBB8E6F5F6EE0CB"
+				"5731741B3DF676AA"
+				"0547A96A66C4D292"
+				"3BAE054E6C6637BD"
+				"1F285144CC8A469E"
+				"7A7618BB4F6DBAD6"
+				"7055FC8EB33136BD"
+				"70133BFECD39A3F9"
+				"179184D5000F1EB9"
+				"76A39B7F690048C5"
+				"5FBD056135AC8EC4"
+				"7B2764E9D03B0A72"
+				"22F281F2A04A1744"
+				"71B0E3520452E675"
+				"2D2977B8D46CAA94"
+				"401E63F16F48F42B"
+				"3D6BC97E0AE07210"
+				"6272820FF0B092F0"
+				"04551B8BD30F48B9"
+				"0B121B6294DB5AE4"
+				"3169F78FF298F83A"
+				"5298883D1B0CECF8"
+				"28C88898C9F7F4A5"
+				"3586D458D9AB72CB"
+				"1030065F9A0AA75F"
+				"6F7526B1F2D39795"
+				"49011858B4553623"
+				"4BE64C80A516F009"
+				"04C7EAFDBC66AE3A"
+				"20D729C7999E86DE"
+				"07434FB6FCB7CE2B"
+				"383DE45A60D689A6"
+				"5CB3A320C8610748"
+				"4E3EDA9C3B642019"
+				"5A2D87A0B77AEA14"
+				"53B1D79B3F701989"
+				"5ECD62011966F44E"
+				"2001E4ED0249C9F1"
+				"3C3A94677CAB2A57"
+				"0E5D1B56C8FB4260"
+				"52680663240C3D7C"
+				"1367EE50DEB1D914"
+				"379A8C44487BED49"
+				"7CC1170FBBFBFDD6"
+				"09ECD2934C7CE212"
+				"7EF9C27DA0625DFF"
+				"02A2DAE411431D41"
+				"01FA5500B5188367"
+				"4F43D48E45F8A8D5"
+				"5A153084575E6CC0"
+				"65E9141973D74C20"
+			]
+			description: ["Toutes les pioches de ce chapitre réunies."]
+			icon: "minecraft:netherite_pickaxe"
+			id: "2754843AEA72B929"
+			optional: true
+			rewards: [{
+				id: "7A257DED4F52F6A9"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6AB232D838068A33"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Toutes les pioches"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&7Pioches"
+}

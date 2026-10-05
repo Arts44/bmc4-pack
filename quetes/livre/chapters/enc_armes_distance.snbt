@@ -1,0 +1,727 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_armes_distance"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:bow"
+	id: "561CBC5937CFFCA7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque armes à distance du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là."]
+			icon: "minecraft:bow"
+			id: "2A4D9DC95C9B5A3B"
+			rewards: [{
+				id: "126152F3BF2F7E49"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5C58B98FECE5F48A"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cArmes à distance"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme à distance de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:bow"
+			id: "5D71C81C2C3689AD"
+			optional: true
+			rewards: [{
+				id: "6BD33B5EB3D9028B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78E508DE184D4CB4"
+				item: "minecraft:bow"
+				type: "item"
+			}]
+			title: "Arc"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:crossbow"
+			id: "08B36B7F0AC534E4"
+			optional: true
+			rewards: [{
+				id: "64E2879B5310A3CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "606C86E2B423DA9E"
+				item: "minecraft:crossbow"
+				type: "item"
+			}]
+			title: "Arbalète"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:trident"
+			id: "4C95716C380DF40F"
+			optional: true
+			rewards: [{
+				id: "29FEC5E2D30BA725"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79BC3C199C84F1F1"
+				item: "minecraft:trident"
+				type: "item"
+			}]
+			title: "Trident"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:enchanted_dart_shooter"
+			id: "51CCFD3C6D7929C7"
+			optional: true
+			rewards: [{
+				id: "3A5275F82F8EE13E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "284D1E7EEC1E5428"
+				item: "aether:enchanted_dart_shooter"
+				type: "item"
+			}]
+			title: "« Enchanted Dart Shooter »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:golden_dart_shooter"
+			id: "14EE245467027BCA"
+			optional: true
+			rewards: [{
+				id: "5680EC38B8165DBE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F83CC574AE48A4E"
+				item: "aether:golden_dart_shooter"
+				type: "item"
+			}]
+			title: "« Golden Dart Shooter »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:phoenix_bow"
+			id: "3B89DB8EFD5DA625"
+			optional: true
+			rewards: [{
+				id: "2E8E308D23C41DA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "598296A1FAFA78E4"
+				item: "aether:phoenix_bow"
+				type: "item"
+			}]
+			title: "« Phoenix Bow »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:poison_dart_shooter"
+			id: "51311A4FEE1620D8"
+			optional: true
+			rewards: [{
+				id: "454E5B298BB94A67"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "532810427AA6A16C"
+				item: "aether:poison_dart_shooter"
+				type: "item"
+			}]
+			title: "« Poison Dart Shooter »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:infused_veridium_dart_shooter"
+			id: "377B5A19A93B0481"
+			optional: true
+			rewards: [{
+				id: "6C63949DB0A0CA45"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07F6D1B750EDD671"
+				item: "aether_redux:infused_veridium_dart_shooter"
+				type: "item"
+			}]
+			title: "« Infused Veridium Dart Shooter »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:subzero_crossbow"
+			id: "20C5AA33FD11CAC5"
+			optional: true
+			rewards: [{
+				id: "7706123AF8E771C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2691F0471B00C033"
+				item: "aether_redux:subzero_crossbow"
+				type: "item"
+			}]
+			title: "« Subzero Crossbow »"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:veridium_dart_shooter"
+			id: "453ADCA961DE5DC3"
+			optional: true
+			rewards: [{
+				id: "4260C330F06E76AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "30FC9F4132C3C2DF"
+				item: "aether_redux:veridium_dart_shooter"
+				type: "item"
+			}]
+			title: "« Veridium Dart Shooter »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:cursed_bow"
+			id: "0FC522F4F8E59CDB"
+			optional: true
+			rewards: [{
+				id: "05CAB89AD8AD7910"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50896908BB474D1B"
+				item: "cataclysm:cursed_bow"
+				type: "item"
+			}]
+			title: "« Cursed Bow »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:storm_bow"
+			id: "3C628EAF9587BC6D"
+			optional: true
+			rewards: [{
+				id: "3F26648E73333063"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EBCAC0A15CB9608"
+				item: "deep_aether:storm_bow"
+				type: "item"
+			}]
+			title: "« Storm Bow »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_bow"
+			id: "0051D6FC21604EB8"
+			optional: true
+			rewards: [{
+				id: "529E9BB042353D15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "023AD472599DE8F8"
+				item: "dragonloot:dragon_bow"
+				type: "item"
+			}]
+			title: "« Dragon Bow »"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_crossbow"
+			id: "06B75AB950AEA82D"
+			optional: true
+			rewards: [{
+				id: "6C9032A1CAD8F2DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EAF85D5BD180246"
+				item: "dragonloot:dragon_crossbow"
+				type: "item"
+			}]
+			title: "« Dragon Crossbow »"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_trident"
+			id: "1A9FDA58680C132A"
+			optional: true
+			rewards: [{
+				id: "36FA3889680AF353"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6813D67BA1628CC5"
+				item: "dragonloot:dragon_trident"
+				type: "item"
+			}]
+			title: "« Dragon Trident »"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:autoloader_crossbow"
+			id: "05DA638125ADBDB7"
+			optional: true
+			rewards: [{
+				id: "70DEB00CF63B0C42"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7697302F1CC31A6C"
+				item: "irons_spellbooks:autoloader_crossbow"
+				type: "item"
+			}]
+			title: "Arbalète à Chargement Automatique"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_bow"
+			id: "21E7475087127801"
+			optional: true
+			rewards: [{
+				id: "2BCC98D89886D39D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D1BECC9B9A73742"
+				item: "mysticalagriculture:awakened_supremium_bow"
+				type: "item"
+			}]
+			title: "Arc en Supremium Éveillé"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_crossbow"
+			id: "719379FAC8798586"
+			optional: true
+			rewards: [{
+				id: "3F5D5E2CE09D38C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D8B57C6D5F5115B"
+				item: "mysticalagriculture:awakened_supremium_crossbow"
+				type: "item"
+			}]
+			title: "Arbalète en Supremium Éveillé"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_bow"
+			id: "0A258320EAC826F1"
+			optional: true
+			rewards: [{
+				id: "696C7D9D8C98EE22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "756FB98E99781EA1"
+				item: "mysticalagriculture:imperium_bow"
+				type: "item"
+			}]
+			title: "Arc en Imperium"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_crossbow"
+			id: "641CB9301BA02379"
+			optional: true
+			rewards: [{
+				id: "68CE86A8FB628A85"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B62B405F59F00FB"
+				item: "mysticalagriculture:imperium_crossbow"
+				type: "item"
+			}]
+			title: "Arbalète en Imperium"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_bow"
+			id: "461857E0D06A55A3"
+			optional: true
+			rewards: [{
+				id: "3975AF2AF07D5843"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B6CC8063E55AFDE"
+				item: "mysticalagriculture:inferium_bow"
+				type: "item"
+			}]
+			title: "Arc en Inferium"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_crossbow"
+			id: "0E2815EC1C4ACACD"
+			optional: true
+			rewards: [{
+				id: "13C83A3B8BD0A090"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10D4FB16BB73EF71"
+				item: "mysticalagriculture:inferium_crossbow"
+				type: "item"
+			}]
+			title: "Arbalète en Inferium"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_bow"
+			id: "4D0FA05EEF60F0CA"
+			optional: true
+			rewards: [{
+				id: "24E1B7236FF46407"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05550E316D89F975"
+				item: "mysticalagriculture:prudentium_bow"
+				type: "item"
+			}]
+			title: "Arc en Prudentium"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_crossbow"
+			id: "57C17BD80D14B754"
+			optional: true
+			rewards: [{
+				id: "4D72AB2E8A3C1D18"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "739E4A7C1905813F"
+				item: "mysticalagriculture:prudentium_crossbow"
+				type: "item"
+			}]
+			title: "Arbalète en Prudentium"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_bow"
+			id: "7A64DCFDD27B2C44"
+			optional: true
+			rewards: [{
+				id: "68061E9ACBE6971E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58D1D2A2F50FC602"
+				item: "mysticalagriculture:supremium_bow"
+				type: "item"
+			}]
+			title: "Arc en Supremium"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_crossbow"
+			id: "11DCF989C2B16A20"
+			optional: true
+			rewards: [{
+				id: "535142BA8A75361E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D68111CC6DEFE4A"
+				item: "mysticalagriculture:supremium_crossbow"
+				type: "item"
+			}]
+			title: "Arbalète en Supremium"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_bow"
+			id: "417AB55FC3787BAE"
+			optional: true
+			rewards: [{
+				id: "08245D0127BBDB59"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C068190914A9046"
+				item: "mysticalagriculture:tertium_bow"
+				type: "item"
+			}]
+			title: "Arc en Tertium"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_crossbow"
+			id: "5287EF98CB6A66EB"
+			optional: true
+			rewards: [{
+				id: "22C9A66F2265F67E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75726CDCB180C228"
+				item: "mysticalagriculture:tertium_crossbow"
+				type: "item"
+			}]
+			title: "Arbalète en Tertium"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ender_bow"
+			id: "6FF2DD02F35C8211"
+			optional: true
+			rewards: [{
+				id: "55A75BEF6874BA6C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C1EF73BE497AEA7"
+				item: "twilightforest:ender_bow"
+				type: "item"
+			}]
+			title: "Arc de l'Ender"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ice_bow"
+			id: "304E98AB272B381A"
+			optional: true
+			rewards: [{
+				id: "19462C4F49428535"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "43FAB1E53B85B1D8"
+				item: "twilightforest:ice_bow"
+				type: "item"
+			}]
+			title: "Arc gelé"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:seeker_bow"
+			id: "0BC455500823EEE8"
+			optional: true
+			rewards: [{
+				id: "52647BF94F648451"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "02300D7A90E3CB0B"
+				item: "twilightforest:seeker_bow"
+				type: "item"
+			}]
+			title: "Arc du chercheur"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Arme à distance de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:triple_bow"
+			id: "4637F5096F3681C2"
+			optional: true
+			rewards: [{
+				id: "6EA24BF4650448D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1711B797804EB455"
+				item: "twilightforest:triple_bow"
+				type: "item"
+			}]
+			title: "« Tri-Bow »"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"5D71C81C2C3689AD"
+				"08B36B7F0AC534E4"
+				"4C95716C380DF40F"
+				"51CCFD3C6D7929C7"
+				"14EE245467027BCA"
+				"3B89DB8EFD5DA625"
+				"51311A4FEE1620D8"
+				"377B5A19A93B0481"
+				"20C5AA33FD11CAC5"
+				"453ADCA961DE5DC3"
+				"0FC522F4F8E59CDB"
+				"3C628EAF9587BC6D"
+				"0051D6FC21604EB8"
+				"06B75AB950AEA82D"
+				"1A9FDA58680C132A"
+				"05DA638125ADBDB7"
+				"21E7475087127801"
+				"719379FAC8798586"
+				"0A258320EAC826F1"
+				"641CB9301BA02379"
+				"461857E0D06A55A3"
+				"0E2815EC1C4ACACD"
+				"4D0FA05EEF60F0CA"
+				"57C17BD80D14B754"
+				"7A64DCFDD27B2C44"
+				"11DCF989C2B16A20"
+				"417AB55FC3787BAE"
+				"5287EF98CB6A66EB"
+				"6FF2DD02F35C8211"
+				"304E98AB272B381A"
+				"0BC455500823EEE8"
+				"4637F5096F3681C2"
+			]
+			description: ["Toutes les armes à distance de ce chapitre réunies."]
+			icon: "minecraft:crossbow"
+			id: "2ADAEEE083CB6958"
+			optional: true
+			rewards: [{
+				id: "73FD931B63018CAE"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3AC3048603909E30"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Toutes les armes à distance"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&cArmes à distance"
+}

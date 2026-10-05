@@ -10,9 +10,9 @@
 	quests: [
 		{
 			description: [
-				"&bIron Jetpacks&r : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Chaque palier — fer, or, diamant, émeraude, nétherite — a plus d'autonomie et de vitesse, et se fabrique avec les composants du palier."
+				"&bIron Jetpacks&r : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Huit paliers sur ce serveur : bois, pierre, cuivre, fer, or, acier, diamant, émeraude. Chacun a plus d'autonomie et de vitesse, et se fabrique à partir du jetpack d'en dessous."
 				""
-				"Il lui faut de l'énergie : le chapitre &ePowah&r en fournit."
+				"Il lui faut de l'énergie : le chapitre &ePowah&r en fournit. Les jetpacks ne s'enchantent pas (config du serveur)."
 			]
 			icon: "ironjetpacks:thruster"
 			id: "73E4D2EEE4A3D909"
@@ -35,71 +35,7 @@
 		}
 		{
 			dependencies: ["73E4D2EEE4A3D909"]
-			description: ["La &bcellule&r stocke l'énergie du jetpack. Elle entre dans chaque palier."]
-			icon: "ironjetpacks:cell"
-			id: "3E7FE59AA9E7581B"
-			rewards: [{
-				id: "7131A21CF273ED81"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "0458105037687766"
-				item: "ironjetpacks:cell"
-				type: "item"
-			}]
-			title: "Une cellule"
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["73E4D2EEE4A3D909"]
-			description: ["Le &bpropulseur&r pousse, la &bsangle&r tient. Avec la cellule et le condensateur, c'est tout ce qu'un jetpack demande, dans le matériau du palier."]
-			icon: "ironjetpacks:thruster"
-			id: "1590F657B848485B"
-			rewards: [{
-				id: "0F398A5BB558330B"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [
-				{
-					id: "50D5BF189BDE7FCC"
-					item: "ironjetpacks:thruster"
-					type: "item"
-				}
-				{
-					id: "4D2163EDCC0D6047"
-					item: "ironjetpacks:strap"
-					type: "item"
-				}
-			]
-			title: "Un propulseur et une sangle"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["73E4D2EEE4A3D909"]
-			description: ["Le &bcondensateur&r accumule l'énergie entre deux coups de propulseur."]
-			icon: "ironjetpacks:capacitor"
-			id: "617CD9449300E850"
-			rewards: [{
-				id: "6C1A2883C8DB2A13"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "22F2D391174851B8"
-				item: "ironjetpacks:capacitor"
-				type: "item"
-			}]
-			title: "Un condensateur"
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3E7FE59AA9E7581B"]
-			description: ["Les &bbobines&r — basique, avancée, élite, ultime — font les paliers supérieurs. La première se contente de fer et de redstone."]
+			description: ["Quatre lingots de fer, deux poudres de redstone et un bâton : la &bbobine basique&r, celle des propulseurs en bois, en pierre et en cuivre."]
 			icon: "ironjetpacks:basic_coil"
 			id: "611A627B8A46B4FD"
 			rewards: [{
@@ -112,7 +48,116 @@
 				item: "ironjetpacks:basic_coil"
 				type: "item"
 			}]
-			title: "Des bobines"
+			title: "Une bobine basique"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["73E4D2EEE4A3D909"]
+			description: ["La &bcellule&r stocke l'énergie. Chaque palier a la sienne, faite de redstone et du matériau du palier : on commence en bois."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:cell"
+				tag: {
+					Id: "ironjetpacks:wood"
+				}
+			}
+			id: "3E7FE59AA9E7581B"
+			rewards: [{
+				id: "7131A21CF273ED81"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2F3EAFEE3DECBEFB"
+				item: {
+					Count: 1
+					id: "ironjetpacks:cell"
+					tag: {
+						Id: "ironjetpacks:wood"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Une cellule en bois"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"3E7FE59AA9E7581B"
+				"611A627B8A46B4FD"
+			]
+			description: ["Le &bpropulseur&r pousse : une cellule, une bobine et le matériau du palier. La &bsangle&r (trois cuirs, deux pépites de fer) tient le tout."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:thruster"
+				tag: {
+					Id: "ironjetpacks:wood"
+				}
+			}
+			id: "1590F657B848485B"
+			rewards: [{
+				id: "0F398A5BB558330B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "0095EE1BE1AB6FBE"
+					item: {
+						Count: 1
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:wood"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4D2163EDCC0D6047"
+					item: "ironjetpacks:strap"
+					type: "item"
+				}
+			]
+			title: "Un propulseur en bois et une sangle"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E7FE59AA9E7581B"]
+			description: ["Le &bcondensateur&r accumule l'énergie entre deux coups de propulseur : une cellule et le matériau du palier."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:capacitor"
+				tag: {
+					Id: "ironjetpacks:wood"
+				}
+			}
+			id: "617CD9449300E850"
+			rewards: [{
+				id: "6C1A2883C8DB2A13"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "797ACF551151A692"
+				item: {
+					Count: 1
+					id: "ironjetpacks:capacitor"
+					tag: {
+						Id: "ironjetpacks:wood"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un condensateur en bois"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -120,30 +165,354 @@
 			dependencies: [
 				"1590F657B848485B"
 				"617CD9449300E850"
-				"611A627B8A46B4FD"
 			]
-			description: ["Cellule, condensateur, propulseur, sangle et bobine, dans le matériau du palier : un &bjetpack&r. Charge-le dans une cellule d'énergie, enfile-le, et saute. Le mode planeur et le vol stationnaire se règlent à la touche du mod."]
-			icon: "ironjetpacks:jetpack"
+			description: ["Condensateur, propulseur, sangle et planches : le premier &bjetpack&r. Charge-le, enfile-le, et saute. Le vol stationnaire se règle à la touche du mod. Les paliers suivants partent tous de celui-ci."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:wood"
+				}
+			}
 			id: "5899593238427A0F"
 			rewards: [{
-				id: "40327375D78DBD08"
+				id: "58D1768B7024BFFB"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "66C51D996C21AC76"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un jetpack en bois"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["611A627B8A46B4FD"]
+			description: ["La même recette avec des lingots d'or : la bobine des propulseurs en fer, en or et en acier."]
+			icon: "ironjetpacks:advanced_coil"
+			id: "522787C1584C32BF"
+			rewards: [{
+				id: "35DEA38A5440C1DD"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "51E1ED6C6777F066"
+				item: "ironjetpacks:advanced_coil"
+				type: "item"
+			}]
+			title: "Une bobine avancée"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["522787C1584C32BF"]
+			description: ["Avec des diamants : la bobine du propulseur en diamant."]
+			icon: "ironjetpacks:elite_coil"
+			id: "2FC591D0CA49D22C"
+			rewards: [{
+				id: "34DEA785474AC0CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "530791B5216B2E80"
+				item: "ironjetpacks:elite_coil"
+				type: "item"
+			}]
+			title: "Une bobine élite"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2FC591D0CA49D22C"]
+			description: ["Avec des émeraudes : la bobine du propulseur en émeraude, le dernier."]
+			icon: "ironjetpacks:ultimate_coil"
+			id: "774234BBDE7C7814"
+			rewards: [{
+				id: "4FB1DA98CE2075E2"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "3055E354128B9C01"
+				item: "ironjetpacks:ultimate_coil"
+				type: "item"
+			}]
+			title: "Une bobine ultime"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5899593238427A0F"
+				"611A627B8A46B4FD"
+			]
+			description: ["Palier 1. On repart de un jetpack du palier inférieur (bois) : avec de la pierre, une nouvelle cellule, un propulseur à bobine basique et un condensateur en pierre, l'établi le change en jetpack en pierre."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:stone"
+				}
+			}
+			id: "7E5E0D0074B49103"
+			rewards: [{
+				id: "33B770258CB74566"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "10244D749D3235A9"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:stone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un jetpack en pierre"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5899593238427A0F"
+				"611A627B8A46B4FD"
+			]
+			description: ["Palier 1. On repart de un jetpack du palier inférieur (bois) : avec des lingots de cuivre, une nouvelle cellule, un propulseur à bobine basique et un condensateur en cuivre, l'établi le change en jetpack en cuivre."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:copper"
+				}
+			}
+			id: "03396E3BC40A83A3"
+			rewards: [{
+				id: "64A824780017B22E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "0517A663C079F14A"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:copper"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un jetpack en cuivre"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7E5E0D0074B49103"
+				"03396E3BC40A83A3"
+				"522787C1584C32BF"
+			]
+			description: ["Palier 2. On repart de un jetpack en pierre ou en cuivre : avec des lingots de fer, une nouvelle cellule, un propulseur à bobine avancée et un condensateur en fer, l'établi le change en jetpack en fer."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:iron"
+				}
+			}
+			id: "6ACAF9657BC24331"
+			rewards: [{
+				id: "205AAD8200966C40"
 				type: "xp_levels"
 				xp_levels: 10
+			}]
+			tasks: [{
+				id: "77A3A333B5A38079"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:iron"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un jetpack en fer"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6ACAF9657BC24331"
+				"522787C1584C32BF"
+			]
+			description: ["Palier 3. On repart de un jetpack en fer : avec des lingots d'or, une nouvelle cellule, un propulseur à bobine avancée et un condensateur en or, l'établi le change en jetpack en or."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:gold"
+				}
+			}
+			id: "6B1A9013888D3525"
+			rewards: [{
+				id: "326276A7CA05EC06"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "086852AAF7D19D6A"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:gold"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un jetpack en or"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"6ACAF9657BC24331"
+				"522787C1584C32BF"
+			]
+			description: ["Palier 3. On repart de un jetpack en fer : avec des lingots d'acier (Hazen 'n Stuff), une nouvelle cellule, un propulseur à bobine avancée et un condensateur en acier, l'établi le change en jetpack en acier."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:steel"
+				}
+			}
+			id: "004B8C96DB53DBE2"
+			rewards: [{
+				id: "44FD86D86964C3F2"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "5B8C947853941B84"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:steel"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un jetpack en acier"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"6B1A9013888D3525"
+				"004B8C96DB53DBE2"
+				"2FC591D0CA49D22C"
+			]
+			description: ["Palier 4. On repart de un jetpack en or ou en acier : avec des diamants, une nouvelle cellule, un propulseur à bobine élite et un condensateur en diamant, l'établi le change en jetpack en diamant."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:diamond"
+				}
+			}
+			id: "15E60B3340E57D4F"
+			rewards: [{
+				id: "475CCD2B7066CD34"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			tasks: [{
+				id: "2DAC5CC7B89DD21A"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:diamond"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un jetpack en diamant"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"15E60B3340E57D4F"
+				"774234BBDE7C7814"
+			]
+			description: ["Palier 5. On repart de un jetpack en diamant : avec des émeraudes, une nouvelle cellule, un propulseur à bobine ultime et un condensateur en émeraude, l'établi le change en jetpack en émeraude. C'est le plus haut palier du serveur : platine et les autres métaux n'existent pas dans le pack."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:emerald"
+				}
+			}
+			id: "0C641F65735BCB9A"
+			rewards: [{
+				id: "3AB20629DAD52331"
+				type: "xp_levels"
+				xp_levels: 16
 			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "65A289F0CEAFB848"
-				item: "ironjetpacks:jetpack"
+				id: "4BE095F8AC14AF3A"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:emerald"
+					}
+				}
+				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
-			title: "Fabriquer un jetpack"
-			x: 6.0d
+			title: "&bUn jetpack en émeraude"
+			x: 16.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5899593238427A0F"]
-			description: ["Un jetpack chargé vaut des élytres sans piste de décollage. Les paliers suivants s'obtiennent en refaisant la recette avec le matériau au-dessus."]
+			dependencies: ["0C641F65735BCB9A"]
+			description: ["Un jetpack chargé vaut des élytres sans piste de décollage. L'&7Encyclopédie&r garde la collection des jetpacks ; ici, chaque palier est une marche."]
 			icon: "ironjetpacks:ultimate_coil"
 			id: "68E6CC219B25F2E9"
 			rewards: [{
@@ -158,7 +527,7 @@
 				type: "checkmark"
 			}]
 			title: "&bLes pieds ne touchent plus terre"
-			x: 8.0d
+			x: 18.0d
 			y: 0.0d
 		}
 	]

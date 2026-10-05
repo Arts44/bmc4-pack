@@ -288,6 +288,181 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5C0C6F3414D97F8E"]
+			description: ["Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire."]
+			icon: "blue_skies:alchemist_spawn_egg"
+			id: "3F490382C2E2E9E0"
+			optional: true
+			rewards: [{
+				id: "5C800E6A86B8A4E2"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "0F11B54C8891B7E4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Ré-invoquer l'Alchimiste"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1D548D675B32A827"]
+			description: ["Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire."]
+			icon: "blue_skies:arachnarch_spawn_egg"
+			id: "7DA16B64636395F7"
+			optional: true
+			rewards: [{
+				id: "26039789BFE2F8BA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				id: "3F5A6F1EF11DED46"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Ré-invoquer l'Arachnarque"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D972A74C7F0D054"]
+			description: ["Armure et outils en horizonite, le métal de l'Everdawn, qui se fond à la forge d'horizonite."]
+			icon: "blue_skies:horizonite_helmet"
+			id: "1642E35D386E6A57"
+			optional: true
+			rewards: [{
+				id: "29A2B46E5B69E639"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "54EE345ABB035A1C"
+					item: "blue_skies:horizonite_helmet"
+					type: "item"
+				}
+				{
+					id: "7BD4DE56597071F0"
+					item: "blue_skies:horizonite_chestplate"
+					type: "item"
+				}
+				{
+					id: "4D033B900D2A1924"
+					item: "blue_skies:horizonite_leggings"
+					type: "item"
+				}
+				{
+					id: "373BB895C320A99F"
+					item: "blue_skies:horizonite_boots"
+					type: "item"
+				}
+				{
+					id: "1A592B30C605A2A0"
+					item: "blue_skies:horizonite_sword"
+					type: "item"
+				}
+				{
+					id: "62B62B523BE57B13"
+					item: "blue_skies:horizonite_pickaxe"
+					type: "item"
+				}
+				{
+					id: "0A7E038F7CC8AA67"
+					item: "blue_skies:horizonite_axe"
+					type: "item"
+				}
+				{
+					id: "0E0898A0FD63B038"
+					item: "blue_skies:horizonite_shovel"
+					type: "item"
+				}
+				{
+					id: "5AB667A06F14D581"
+					item: "blue_skies:horizonite_hoe"
+					type: "item"
+				}
+			]
+			title: "L'équipement en horizonite"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1642E35D386E6A57"
+				"3F315EFE607FD11D"
+			]
+			description: ["Armure et outils en charoite, la gemme de l'Everdawn : le sommet de Blue Skies."]
+			icon: "blue_skies:charoite_helmet"
+			id: "477325C6174BC207"
+			optional: true
+			rewards: [{
+				id: "2DB65F6FBD0342D2"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4EC59ED3345AC29B"
+					item: "blue_skies:charoite_helmet"
+					type: "item"
+				}
+				{
+					id: "1B3DAD7785518810"
+					item: "blue_skies:charoite_chestplate"
+					type: "item"
+				}
+				{
+					id: "05D0EECD9D945ADD"
+					item: "blue_skies:charoite_leggings"
+					type: "item"
+				}
+				{
+					id: "78CC24B68BF655CD"
+					item: "blue_skies:charoite_boots"
+					type: "item"
+				}
+				{
+					id: "43DE8D8A985B4B30"
+					item: "blue_skies:charoite_sword"
+					type: "item"
+				}
+				{
+					id: "6D419A9073AD93FD"
+					item: "blue_skies:charoite_pickaxe"
+					type: "item"
+				}
+				{
+					id: "606F6BCBF3D4D220"
+					item: "blue_skies:charoite_axe"
+					type: "item"
+				}
+				{
+					id: "1A376BBACCA036CD"
+					item: "blue_skies:charoite_shovel"
+					type: "item"
+				}
+				{
+					id: "4A25DB759C0BD6C1"
+					item: "blue_skies:charoite_hoe"
+					type: "item"
+				}
+			]
+			title: "&6L'équipement en charoite"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
 			dependencies: ["1D548D675B32A827"]
 			description: ["Summonateur, Déstructeur des Étoiles, Alchimiste, Arachnarque. Le journal bleu garde le reste : villages, Stargazers, sac du Veilleur, lances et boucliers."]
 			icon: "blue_skies:dusk_arc"

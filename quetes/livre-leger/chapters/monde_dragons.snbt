@@ -30,18 +30,150 @@
 		}
 		{
 			dependencies: ["0D96FCAF5494ADC9"]
-			description: ["Les œufs sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi : il se renouvelle sur le portail après chaque dragon ré-invoqué (config)."]
+			dependency_requirement: "one_completed"
+			description: ["Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts)."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:fire"
+					}
+				}
+			}
 			id: "642D1D4BD0DB3C7F"
 			rewards: [{
 				id: "1B400E33BF617E6A"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			tasks: [{
-				id: "1A07A8FB6F036F5C"
-				title: "Un œuf en poche"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "3F161634503FB87C"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:fire"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "40F8A2E64D83B578"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:forest"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2DB0BC0D9BC50B9D"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ghost"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "39F0A3A48C615811"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ice"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "41715D0AA43E3105"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:nether"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "65C6497046B4C039"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:water"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "45ABA73A670EE9E4"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:aether"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6D885636E38FA56B"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:end"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4366E176243B339F"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
 			title: "Un œuf de dragon"
 			x: 2.0d
 			y: 0.0d
@@ -49,7 +181,7 @@
 		{
 			dependencies: ["642D1D4BD0DB3C7F"]
 			description: [
-				"Posé, l'œuf couve et l'infobulle compte les secondes. Il &lchange de race selon son milieu&r (config : les habitats sont actifs) — un œuf posé dans la neige donne un dragon de glace."
+				"Posé, l'œuf couve et l'infobulle compte les secondes. Il &lchange de race selon son milieu&r (config : les habitats sont actifs). La quête se valide en regardant un dragon."
 				""
 				"Autre voie : dans &9#dragons&r, poste &l!dragon <x> <y> <z> <race>&r (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée."
 			]
@@ -61,9 +193,11 @@
 			}]
 			size: 1.3d
 			tasks: [{
-				id: "5945EB0C8CA9D174"
-				title: "Un dragon est né"
-				type: "checkmark"
+				id: "0C8CC9AC2672654E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "dragonmounts:dragon"
+				type: "observation"
 			}]
 			title: "Faire éclore"
 			x: 4.0d
@@ -90,7 +224,7 @@
 		}
 		{
 			dependencies: ["6DCDC72E69E3EB5D"]
-			description: ["Vol libre, souffle à la touche du mod. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler."]
+			description: ["Vol libre, souffle à la touche du mod. Aucune tâche ne sait voir un joueur en selle sur un dragon : celle-ci se coche. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler."]
 			id: "797E47855840E5A8"
 			rewards: [{
 				id: "4AA6D623B62F3435"
@@ -107,28 +241,165 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2F6C9321525A6C79"]
-			description: ["Orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, bronze, Nether primordial, End primordial, monarque, aîné… Vingt-huit races au-delà des huit de base (lang du mod)."]
-			id: "235C227FFFDF58A1"
+			dependencies: ["6DCDC72E69E3EB5D"]
+			description: ["Un coffre donné à un dragon apprivoisé lui fait porter un inventaire : le voyage de longue distance emporte son chargement."]
+			icon: "minecraft:chest"
+			id: "247AEE8499B9D7EC"
 			optional: true
 			rewards: [{
-				id: "6C2ADEE8864F535E"
+				id: "5448065BA8508D8F"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "2766FEE31C688585"
-				title: "Un dragon hors des huit races de base"
-				type: "checkmark"
+				id: "05985232436E8381"
+				item: "minecraft:chest"
+				type: "item"
 			}]
-			title: "Une race de l'extension"
-			x: 6.0d
+			title: "Un coffre sur le dos"
+			x: 8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6DCDC72E69E3EB5D"]
-			description: ["Deux dragons adultes de races différentes peuvent donner un &lhybride&r. Sur BMC4, le jar du serveur est patché : &l25 % de chance&r d'obtenir la race hybride, sinon l'une des deux races parentes. Chaque race de base ne se reproduit que &ldeux fois&r (config du serveur)."]
+			description: ["Un bloc de cuivre donné au dragon apprivoisé l'habille d'une armure : 4 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre."]
+			icon: "minecraft:copper_block"
+			id: "02F8891BC773B3AE"
+			optional: true
+			rewards: [{
+				id: "4FC9628B0680D2F6"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5592E9B4690B0E67"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			title: "L'armure de dragon en cuivre"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02F8891BC773B3AE"]
+			description: ["Un bloc de or donné au dragon apprivoisé l'habille d'une armure : 6 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre."]
+			icon: "minecraft:gold_block"
+			id: "567FB12619D94279"
+			optional: true
+			rewards: [{
+				id: "65DB714FB3A95DC9"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "784F9B46D87BE300"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			title: "L'armure de dragon en or"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["567FB12619D94279"]
+			description: ["Un bloc de fer donné au dragon apprivoisé l'habille d'une armure : 8 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre."]
+			icon: "minecraft:iron_block"
+			id: "1E132A067E8EED6D"
+			optional: true
+			rewards: [{
+				id: "17EC7126281A91D9"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BD7BF984D2CAA3A"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			title: "L'armure de dragon en fer"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E132A067E8EED6D"]
+			description: ["Un bloc de émeraude donné au dragon apprivoisé l'habille d'une armure : 10 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre."]
+			icon: "minecraft:emerald_block"
+			id: "42D3DC4BCCB7FC02"
+			optional: true
+			rewards: [{
+				id: "2107EE687045A9CE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "43A8897C4F4C58A5"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "L'armure de dragon en émeraude"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42D3DC4BCCB7FC02"]
+			description: ["Un bloc de diamant donné au dragon apprivoisé l'habille d'une armure : 12 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre."]
+			icon: "minecraft:diamond_block"
+			id: "290C9AD77C209B5A"
+			optional: true
+			rewards: [{
+				id: "373AD66190EFF829"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00E2E1686E2F4C3A"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			title: "L'armure de dragon en diamant"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["290C9AD77C209B5A"]
+			description: ["Un bloc de nétherite donné au dragon apprivoisé l'habille d'une armure : 16 points d'armure. C'est la plus solide : le dragon est équipé au maximum. Le bloc se reprend en lui en donnant un autre."]
+			icon: "minecraft:netherite_block"
+			id: "27C32E4677EB672C"
+			optional: true
+			rewards: [{
+				id: "686F49EC9B6158C6"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3835AFF7CDE3E2FB"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			title: "&5L'armure de dragon en nétherite"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DCDC72E69E3EB5D"]
+			dependency_requirement: "one_completed"
+			description: ["Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : &l25 % de chance&r que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Un œuf posé qui couve peut encore changer de race selon son milieu : à garder loin des habitats d'autres races."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:aurora"
+					}
+				}
+			}
 			id: "1E68BFC9704EEE72"
 			optional: true
 			rewards: [{
@@ -137,18 +408,2563 @@
 				xp_levels: 8
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "13462D8DFF1F66CE"
-				title: "Croisement tenté"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "7ABD2F77D39B403F"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:aurora"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4EE84AE5BFC05A72"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:black_fire"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6E860BFF1816E4D1"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:blood"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "798D1D4C33B5F6B3"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:blue_fire"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "56D0524DD2687D12"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:bronze"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7F7AD407C3E028D6"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:crystal"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "293C6884AE3BDD7D"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:dark"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3837A6EDDBDB3397"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:eclipse"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1B79108DFFFCEB54"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:elder"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "663865E89A223025"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:gale"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2495BEA1D91134F9"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:jade"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "02A13CB93A5203B6"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:light"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7E4CCF330D4542B4"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:lunar"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4352349C3326ABA3"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:magic"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "58F91D3DDB8515EC"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:monarch"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1B7A08CCA421F143"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ocean"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7141F8EE899D9BC3"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:primal_end"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5434A0C22193696F"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:primal_nether"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2FE889A291FB59D6"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:red"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "50AA6873F67B31E2"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:sculk"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1353AFD412074310"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:shadow"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "64B364494949C076"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:solar"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "000A87147CA0F8EE"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:soul_nether"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0E69DB2E354C3A0F"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:storm"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "04CBBB922C486D5C"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:sylphid"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3AC8E415D5AD1C38"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:terra"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "024335A10F07AAB2"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:wither"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "653F97FCA86FE930"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:zombie"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
 			title: "Un croisement hybride"
 			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			description: ["Le Dragon de Feu est une des huit races de base. Son œuf se trouve dans les coffres des temples du désert (5 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, feu, lave, bloc de magma. L'œuf ramassé garde sa race."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:fire"
+					}
+				}
+			}
+			id: "5C3DDF7B24BA76F5"
+			optional: true
+			rewards: [{
+				id: "128F86E6496BCD00"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19405E3D915A3959"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:fire"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Feu"
+			x: 4.0d
 			y: 3.0d
 		}
 		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			description: ["Le Dragon de la Forêt est une des huit races de base. Son œuf se trouve dans les coffres des temples de la jungle (10 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, feuilles, pousses, fleurs. L'œuf ramassé garde sa race."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:forest"
+					}
+				}
+			}
+			id: "2882E61219B0FDB5"
+			optional: true
+			rewards: [{
+				id: "433853D314953DBF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CEF1653F58525BC"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:forest"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de la Forêt"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			description: ["Le Dragon Fantôme est une des huit races de base. Son œuf se trouve dans les coffres des manoirs (7 %) et des mines abandonnées (5 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, sous la hauteur 0, dans le noir (lumière sous 3). L'œuf ramassé garde sa race."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:ghost"
+					}
+				}
+			}
+			id: "1CCEFB64A608226E"
+			optional: true
+			rewards: [{
+				id: "20BA3DBF51EE71B8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2008300D381C3593"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:ghost"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Fantôme"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			description: ["Le Dragon de Glace est une des huit races de base. Son œuf se trouve dans les coffres des igloos (7 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, glace, neige. L'œuf ramassé garde sa race."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:ice"
+					}
+				}
+			}
+			id: "58FD79AE123EAF97"
+			optional: true
+			rewards: [{
+				id: "380D48C64B36A966"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E953E7DA04AEF81"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:ice"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Glace"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			description: ["Le Dragon du Nether est une des huit races de base. Son œuf se trouve dans les trésors des bastions (10 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, roches du Nether, tiges biscornues, tiges carmin. L'œuf ramassé garde sa race."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:nether"
+					}
+				}
+			}
+			id: "1835C60D213E145B"
+			optional: true
+			rewards: [{
+				id: "71FB8BD699853EE8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F85EF89BDCFAF16"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:nether"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon du Nether"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			description: ["Le Dragon d'Eau est une des huit races de base. Son œuf se trouve dans les trésors enfouis (7 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, coraux, blocs de corail. L'œuf ramassé garde sa race."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:water"
+					}
+				}
+			}
+			id: "226C96450586620E"
+			optional: true
+			rewards: [{
+				id: "32948C66786CF517"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41454D3233453611"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:water"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon d'Eau"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			description: ["Le Dragon de l'Aether est une des huit races de base. Son œuf se trouve dans les coffres des donjons de l'Aether (6 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, au-dessus de la hauteur 200, ou près de pierre lumineuse. L'œuf ramassé garde sa race."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:aether"
+					}
+				}
+			}
+			id: "4667AC6EF3CB5B1D"
+			optional: true
+			rewards: [{
+				id: "7DAE6199E49DFBE7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "628597223F4D5E10"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:aether"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de l'Aether"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			dependency_requirement: "one_completed"
+			description: ["Le Dragon de l'End est une des huit races de base. Aucun coffre ne le donne. L'œuf de l'Ender Dragon (un seul, à la première victoire du serveur) éclôt en Dragon de l'End. Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, le souffle de dragon. L'œuf ramassé garde sa race."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:end"
+					}
+				}
+			}
+			id: "0F3AE39808AACE4E"
+			optional: true
+			rewards: [{
+				id: "4D897F9AA1FBD5D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "36239EDFDB22EA9D"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:end"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4E85147ACA62378E"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			title: "Un œuf : Dragon de l'End"
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"4667AC6EF3CB5B1D"
+				"58FD79AE123EAF97"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'Aether et d'un Dragon de Glace donne un Dragon de l'Aurore une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de purpur, pilier de purpur. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:aurora"
+					}
+				}
+			}
+			id: "09B513C86FB0B050"
+			optional: true
+			rewards: [{
+				id: "1F23672336637869"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "518BABB084E88A25"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:aurora"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de l'Aurore"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5C3DDF7B24BA76F5"
+				"1CCEFB64A608226E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de Feu et d'un Dragon Fantôme donne un Dragon de Feu Noir une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton noir. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:black_fire"
+					}
+				}
+			}
+			id: "67F5BB1BCB47198E"
+			optional: true
+			rewards: [{
+				id: "2B8981A323729197"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38FA306C4D073453"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:black_fire"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Feu Noir"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1835C60D213E145B"
+				"226C96450586620E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon du Nether et d'un Dragon d'Eau donne un Dragon de Sang une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de redstone. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:blood"
+					}
+				}
+			}
+			id: "4A956E0246D27172"
+			optional: true
+			rewards: [{
+				id: "2C23360F9070B0B1"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E60DE13C5201C54"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:blood"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Sang"
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5C3DDF7B24BA76F5"
+				"58FD79AE123EAF97"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de Feu et d'un Dragon de Glace donne un Dragon de Feu Bleu une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:blue_fire"
+					}
+				}
+			}
+			id: "765F6886EEE3057C"
+			optional: true
+			rewards: [{
+				id: "5798EC2BB4CCFF35"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5FE6E37478FD4166"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:blue_fire"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Feu Bleu"
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4667AC6EF3CB5B1D"
+				"1835C60D213E145B"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'Aether et d'un Dragon du Nether donne un Dragon de Bronze une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : lampe à redstone. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:bronze"
+					}
+				}
+			}
+			id: "18BD92A9CF824C02"
+			optional: true
+			rewards: [{
+				id: "68A9B617F662978D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4006E4C49B483402"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:bronze"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Bronze"
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2882E61219B0FDB5"
+				"58FD79AE123EAF97"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de la Forêt et d'un Dragon de Glace donne un Dragon de Cristal une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'améthyste, druse d'améthyste. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:crystal"
+					}
+				}
+			}
+			id: "57A493187BFD796F"
+			optional: true
+			rewards: [{
+				id: "0B49CD1F35E6DD70"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F12C9949FF0F1D3"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:crystal"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Cristal"
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0F3AE39808AACE4E"
+				"1CCEFB64A608226E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'End et d'un Dragon Fantôme donne un Dragon Sombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite noire. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:dark"
+					}
+				}
+			}
+			id: "4A519E46B7C52073"
+			optional: true
+			rewards: [{
+				id: "4004EFF8D09A55AD"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EC1B85C55691C0D"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:dark"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Sombre"
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1CCEFB64A608226E"
+				"58FD79AE123EAF97"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon Fantôme et d'un Dragon de Glace donne un Dragon de l'Éclipse une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite jaune. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:eclipse"
+					}
+				}
+			}
+			id: "2066D545C2ECE3EB"
+			optional: true
+			rewards: [{
+				id: "5470D19A6A539B7C"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15DCE3F25ABDC0FB"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:eclipse"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de l'Éclipse"
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"4667AC6EF3CB5B1D"
+				"0F3AE39808AACE4E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'Aether et d'un Dragon de l'End donne un Dragon Ancien une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite grise. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:elder"
+					}
+				}
+			}
+			id: "5D07534CD3EB27F4"
+			optional: true
+			rewards: [{
+				id: "6CB33BF1E56D52DF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "208B58E07365FA38"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:elder"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Ancien"
+			x: 10.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"4667AC6EF3CB5B1D"
+				"2882E61219B0FDB5"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'Aether et d'un Dragon de la Forêt donne un Dragon des Bourrasques une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleue. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:gale"
+					}
+				}
+			}
+			id: "79B7BED0371BF0D2"
+			optional: true
+			rewards: [{
+				id: "3E05540C5EB09739"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0097F79B7A91B6B4"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:gale"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon des Bourrasques"
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2882E61219B0FDB5"
+				"1CCEFB64A608226E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de la Forêt et d'un Dragon Fantôme donne un Dragon de Jade une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'émeraude. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:jade"
+					}
+				}
+			}
+			id: "2EE2EDA79F86174C"
+			optional: true
+			rewards: [{
+				id: "3035F8A584C4EA0F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "064B67F40B884A07"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:jade"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Jade"
+			x: 10.0d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"4667AC6EF3CB5B1D"
+				"1CCEFB64A608226E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'Aether et d'un Dragon Fantôme donne un Dragon de Lumière une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite blanche. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:light"
+					}
+				}
+			}
+			id: "64040AC4C33BA098"
+			optional: true
+			rewards: [{
+				id: "036AE7EEE4F81FB0"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03DF13BEBCD03536"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:light"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Lumière"
+			x: 10.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"58FD79AE123EAF97"
+				"226C96450586620E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de Glace et d'un Dragon d'Eau donne un Dragon Lunaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne pleureuse. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:lunar"
+					}
+				}
+			}
+			id: "6BD42329805B65A4"
+			optional: true
+			rewards: [{
+				id: "6CF221BE6EF77725"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "779BC17820BC8323"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:lunar"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Lunaire"
+			x: 10.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"0F3AE39808AACE4E"
+				"226C96450586620E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'End et d'un Dragon d'Eau donne un Dragon Magique une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : table d'enchantement. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:magic"
+					}
+				}
+			}
+			id: "6930B2D81B43BB6F"
+			optional: true
+			rewards: [{
+				id: "347737353FA1E403"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A05E27D539C584E"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:magic"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Magique"
+			x: 10.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2882E61219B0FDB5"
+				"1835C60D213E145B"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de la Forêt et d'un Dragon du Nether donne un Dragon Monarque une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée rouge. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:monarch"
+					}
+				}
+			}
+			id: "68DB90081ED9DD8F"
+			optional: true
+			rewards: [{
+				id: "2D7EED409195A6BF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B83E4B1139C7A90"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:monarch"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Monarque"
+			x: 10.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"5C3DDF7B24BA76F5"
+				"226C96450586620E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de Feu et d'un Dragon d'Eau donne un Dragon de l'Océan une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : prismarine, lanterne aquatique. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:ocean"
+					}
+				}
+			}
+			id: "6A33C6E22057E382"
+			optional: true
+			rewards: [{
+				id: "10F5540D3C15E011"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CE383BF0D86A3B7"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:ocean"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de l'Océan"
+			x: 10.0d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"0F3AE39808AACE4E"
+				"5C3DDF7B24BA76F5"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'End et d'un Dragon de Feu donne un Dragon de l'End Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : pierre de l'end. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:primal_end"
+					}
+				}
+			}
+			id: "7FAE1169E2249A2C"
+			optional: true
+			rewards: [{
+				id: "1E8DC4DC03F1FDAC"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68ECC3961F719F50"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:primal_end"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de l'End Primordial"
+			x: 10.0d
+			y: 28.5d
+		}
+		{
+			dependencies: [
+				"0F3AE39808AACE4E"
+				"1835C60D213E145B"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'End et d'un Dragon du Nether donne un Dragon du Nether Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite rouge. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:primal_nether"
+					}
+				}
+			}
+			id: "3A7FDF9EE4B92FE1"
+			optional: true
+			rewards: [{
+				id: "5275F038E1C785A9"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04BCA91D7823F881"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:primal_nether"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon du Nether Primordial"
+			x: 10.0d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"5C3DDF7B24BA76F5"
+				"1835C60D213E145B"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de Feu et d'un Dragon du Nether donne un Dragon Rouge une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton rouge. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:red"
+					}
+				}
+			}
+			id: "432D3023E7754643"
+			optional: true
+			rewards: [{
+				id: "7822935B38C577E3"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "130F64F7C84F7612"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:red"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Rouge"
+			x: 10.0d
+			y: 31.5d
+		}
+		{
+			dependencies: [
+				"0F3AE39808AACE4E"
+				"2882E61219B0FDB5"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'End et d'un Dragon de la Forêt donne un Dragon de Sculk une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sculk, catalyseur de sculk, hurleur sculk. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:sculk"
+					}
+				}
+			}
+			id: "1D7049D1E6329174"
+			optional: true
+			rewards: [{
+				id: "358D762B4D652C64"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6621341AB1C631CF"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:sculk"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Sculk"
+			x: 10.0d
+			y: 33.0d
+		}
+		{
+			dependencies: [
+				"0F3AE39808AACE4E"
+				"58FD79AE123EAF97"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'End et d'un Dragon de Glace donne un Dragon d'Ombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée noire. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:shadow"
+					}
+				}
+			}
+			id: "60E89957866EE9EC"
+			optional: true
+			rewards: [{
+				id: "7C22F34010F5E21E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D1DFD4B94777AC6"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:shadow"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon d'Ombre"
+			x: 10.0d
+			y: 34.5d
+		}
+		{
+			dependencies: [
+				"4667AC6EF3CB5B1D"
+				"5C3DDF7B24BA76F5"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'Aether et d'un Dragon de Feu donne un Dragon Solaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'or. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:solar"
+					}
+				}
+			}
+			id: "5116FDF5E61DEF69"
+			optional: true
+			rewards: [{
+				id: "0AFB8385C9CC97DD"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "545661840C9D8FB1"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:solar"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Solaire"
+			x: 10.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"58FD79AE123EAF97"
+				"1835C60D213E145B"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de Glace et d'un Dragon du Nether donne un Dragon du Nether des Âmes une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sable et terre des âmes, feu des âmes, feu de camp des âmes. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:soul_nether"
+					}
+				}
+			}
+			id: "028FBEA44C2468CF"
+			optional: true
+			rewards: [{
+				id: "2C3B6C685484AD58"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A5DA515F4D699CB"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:soul_nether"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon du Nether des Âmes"
+			x: 10.0d
+			y: 37.5d
+		}
+		{
+			dependencies: [
+				"4667AC6EF3CB5B1D"
+				"226C96450586620E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de l'Aether et d'un Dragon d'Eau donne un Dragon de la Tempête une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de cuivre, cuivre exposé, cuivre érodé. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:storm"
+					}
+				}
+			}
+			id: "64CA156A2E81A808"
+			optional: true
+			rewards: [{
+				id: "713F7A025C80E403"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "01402280E5AE1491"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:storm"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de la Tempête"
+			x: 10.0d
+			y: 39.0d
+		}
+		{
+			dependencies: [
+				"2882E61219B0FDB5"
+				"226C96450586620E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de la Forêt et d'un Dragon d'Eau donne un Dragon Sylphide une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleu clair. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:sylphid"
+					}
+				}
+			}
+			id: "1158DF06729CA54D"
+			optional: true
+			rewards: [{
+				id: "6FD3CEAA96374BF7"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28FA8E083E36115B"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:sylphid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Sylphide"
+			x: 10.0d
+			y: 40.5d
+		}
+		{
+			dependencies: [
+				"5C3DDF7B24BA76F5"
+				"2882E61219B0FDB5"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon de Feu et d'un Dragon de la Forêt donne un Dragon de Terre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : andésite, granite, diorite. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:terra"
+					}
+				}
+			}
+			id: "6A79B01C0541C713"
+			optional: true
+			rewards: [{
+				id: "2C8E1F2E667B183E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AE586F91BD33DB5"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:terra"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon de Terre"
+			x: 10.0d
+			y: 42.0d
+		}
+		{
+			dependencies: [
+				"1CCEFB64A608226E"
+				"1835C60D213E145B"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon Fantôme et d'un Dragon du Nether donne un Dragon Wither une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : crâne de wither squelette. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:wither"
+					}
+				}
+			}
+			id: "7890328DF5946EE7"
+			optional: true
+			rewards: [{
+				id: "4789AC13468DDAE3"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62358F697C3AED49"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:wither"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Wither"
+			x: 10.0d
+			y: 43.5d
+		}
+		{
+			dependencies: [
+				"1CCEFB64A608226E"
+				"226C96450586620E"
+				"1E68BFC9704EEE72"
+			]
+			description: ["Le croisement d'un Dragon Fantôme et d'un Dragon d'Eau donne un Dragon Zombie une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'os. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:zombie"
+					}
+				}
+			}
+			id: "76AAB89F6F5E0520"
+			optional: true
+			rewards: [{
+				id: "001277A431D842D3"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4679A193E21AC5F9"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:zombie"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Un œuf : Dragon Zombie"
+			x: 10.0d
+			y: 45.0d
+		}
+		{
+			dependencies: [
+				"5C3DDF7B24BA76F5"
+				"2882E61219B0FDB5"
+				"1CCEFB64A608226E"
+				"58FD79AE123EAF97"
+				"1835C60D213E145B"
+				"226C96450586620E"
+				"4667AC6EF3CB5B1D"
+				"0F3AE39808AACE4E"
+				"09B513C86FB0B050"
+				"67F5BB1BCB47198E"
+				"4A956E0246D27172"
+				"765F6886EEE3057C"
+				"18BD92A9CF824C02"
+				"57A493187BFD796F"
+				"4A519E46B7C52073"
+				"2066D545C2ECE3EB"
+				"5D07534CD3EB27F4"
+				"79B7BED0371BF0D2"
+				"2EE2EDA79F86174C"
+				"64040AC4C33BA098"
+				"6BD42329805B65A4"
+				"6930B2D81B43BB6F"
+				"68DB90081ED9DD8F"
+				"6A33C6E22057E382"
+				"7FAE1169E2249A2C"
+				"3A7FDF9EE4B92FE1"
+				"432D3023E7754643"
+				"1D7049D1E6329174"
+				"60E89957866EE9EC"
+				"5116FDF5E61DEF69"
+				"028FBEA44C2468CF"
+				"64CA156A2E81A808"
+				"1158DF06729CA54D"
+				"6A79B01C0541C713"
+				"7890328DF5946EE7"
+				"76AAB89F6F5E0520"
+			]
+			description: ["Un œuf de chacune des trente-six races, ensemble dans l'inventaire : les huit de base et les vingt-huit hybrides. C'est le sommet du chapitre."]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:fire"
+					}
+				}
+			}
+			id: "235C227FFFDF58A1"
+			optional: true
+			rewards: [{
+				id: "16870C6BE7638C33"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			size: 1.8d
+			tasks: [
+				{
+					id: "65C1F7E457319940"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:fire"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "131E7AAD88483216"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:forest"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3D472DA93826A8FB"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ghost"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "11A54CEBB0F9758D"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ice"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6AF4D51B17866738"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:nether"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1F3C32F5FF517C30"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:water"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2CB9B20AB09DFEF5"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:aether"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "22F5E291366AACDD"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:end"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "58DA66D6588479F8"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:aurora"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "01F09869342EACF5"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:black_fire"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "07A4763347E1E312"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:blood"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "720084A6E7121BB5"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:blue_fire"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "40B031D1FD3C744C"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:bronze"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "59B59126C3EEA12B"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:crystal"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "60E6814047D111EB"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:dark"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "47CCBA69C7EE0E4D"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:eclipse"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5D38F72997BEA6C3"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:elder"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "108E0AC6AF62CE33"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:gale"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2B3BB9A54603262C"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:jade"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3B6D7FA2E137C88C"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:light"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5CA6F8F029ED3AC4"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:lunar"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "357D4D2D27DBBF9C"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:magic"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7066E3962B3ECCA0"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:monarch"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "384260332EEC6E6A"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ocean"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5AE8444503E0BE9E"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:primal_end"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "16F9BB8D451BC114"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:primal_nether"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "21443C04B5748AF9"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:red"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "35D78C5B57015D9E"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:sculk"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "797766F326949F84"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:shadow"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3EEB20DA71E87E70"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:solar"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1036AE00B6959F5B"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:soul_nether"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3B6C3AB37E1CE973"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:storm"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7691511998D837D4"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:sylphid"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6C302C2B002C8763"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:terra"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "253BEEE615E765D7"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:wither"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "28295E7E88EB8648"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:zombie"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "&5&lLes trente-six races"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
 			dependencies: ["0D96FCAF5494ADC9"]
-			description: ["&5DragonLoot&r : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font une armure, des outils et l'&lenclume de dragon&r, sans plafond de niveaux sur ce serveur."]
+			description: ["&5DragonLoot&r : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font l'armure, les outils et l'&lenclume de dragon&r, sans plafond de niveaux sur ce serveur."]
 			icon: "dragonloot:dragon_scale"
 			id: "2BB89154F5D63BFD"
 			optional: true
@@ -170,7 +2986,7 @@
 		}
 		{
 			dependencies: ["2BB89154F5D63BFD"]
-			description: ["Les quatre pièces : progrès « Des écailles de la bête »."]
+			description: ["À la table de forge : un modèle d'amélioration en nétherite, une pièce en nétherite-diamant d'Advanced Netherite et une écaille, pour chaque pièce. Les quatre pièces : progrès « Des écailles de la bête »."]
 			id: "18943C690DB8E5C2"
 			optional: true
 			rewards: [{
@@ -187,6 +3003,145 @@
 			}]
 			title: "L'armure de dragon"
 			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2BB89154F5D63BFD"]
+			description: ["Même recette pour l'épée, la pioche, la hache, la pelle et la houe : modèle en nétherite, outil en nétherite-diamant d'Advanced Netherite, écaille."]
+			icon: "dragonloot:dragon_sword"
+			id: "447EDE536155FD93"
+			optional: true
+			rewards: [{
+				id: "2DBC59B25C06DC6E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4974F58DD1FA2EA8"
+					item: "dragonloot:dragon_sword"
+					type: "item"
+				}
+				{
+					id: "7982696D31EC7E21"
+					item: "dragonloot:dragon_pickaxe"
+					type: "item"
+				}
+				{
+					id: "2564B67657A4D1CE"
+					item: "dragonloot:dragon_axe"
+					type: "item"
+				}
+				{
+					id: "6927C9364B7510EB"
+					item: "dragonloot:dragon_shovel"
+					type: "item"
+				}
+				{
+					id: "0410E85EDBD867F8"
+					item: "dragonloot:dragon_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils de dragon"
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2BB89154F5D63BFD"]
+			description: ["Recettes créées par le code de DragonLoot : à la table de forge, le modèle en nétherite, l'arme du jeu de base et une écaille."]
+			icon: "dragonloot:dragon_bow"
+			id: "1BC3F3D50ADDB0F3"
+			optional: true
+			rewards: [{
+				id: "6B6F496B1137D666"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "49BA45A51DF4B63C"
+					item: "dragonloot:dragon_bow"
+					type: "item"
+				}
+				{
+					id: "4B02BEC2B3EE3536"
+					item: "dragonloot:dragon_crossbow"
+					type: "item"
+				}
+				{
+					id: "780E5C67A0B4A83B"
+					item: "dragonloot:dragon_trident"
+					type: "item"
+				}
+			]
+			title: "Arc, arbalète et trident de dragon"
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2BB89154F5D63BFD"]
+			description: ["Le modèle en nétherite, une armure de cheval en diamant et une écaille."]
+			icon: "dragonloot:dragon_horse_armor"
+			id: "127CE2DAA11C12E2"
+			optional: true
+			rewards: [{
+				id: "71A729E9DAA592BF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CC4512012769FEA"
+				item: "dragonloot:dragon_horse_armor"
+				type: "item"
+			}]
+			title: "L'armure de cheval de dragon"
+			x: 4.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["2BB89154F5D63BFD"]
+			description: ["Le modèle en nétherite, une enclume et une écaille : une enclume sans plafond de niveaux sur ce serveur."]
+			icon: "dragonloot:dragon_anvil"
+			id: "7E0A0471261085EA"
+			optional: true
+			rewards: [{
+				id: "3858C0FF98E7DE63"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34CBAFFF15D7D136"
+				item: "dragonloot:dragon_anvil"
+				type: "item"
+			}]
+			title: "L'enclume de dragon"
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["18943C690DB8E5C2"]
+			description: ["Le plastron de dragon, des élytres et le modèle en nétherite : le plastron ailé, sommet de DragonLoot."]
+			icon: "dragonloot:upgraded_dragon_chestplate"
+			id: "72BB7B3BBD8F9266"
+			optional: true
+			rewards: [{
+				id: "2AD9745244500BAE"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3349BD3C60439417"
+				item: "dragonloot:upgraded_dragon_chestplate"
+				type: "item"
+			}]
+			title: "&5Le plastron ailé"
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -207,7 +3162,7 @@
 			}]
 			title: "Un hangar"
 			x: 8.0d
-			y: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["797E47855840E5A8"]

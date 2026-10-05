@@ -1,0 +1,1189 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_houes"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_hoe"
+	id: "4E767C6EBAA83E50"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque houe du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là."]
+			icon: "minecraft:iron_hoe"
+			id: "69D18D059D17AF16"
+			rewards: [{
+				id: "77ED5B664BA59B61"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2EB2F9C350F1111F"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Houes"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_hoe"
+			id: "216017BB89E8B96C"
+			optional: true
+			rewards: [{
+				id: "5E2B0A114E1EDB5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79BB5E484B611174"
+				item: "minecraft:diamond_hoe"
+				type: "item"
+			}]
+			title: "Houe en diamant"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_hoe"
+			id: "5DA9B1BDBCC4F177"
+			optional: true
+			rewards: [{
+				id: "53DDB6354F61EF7B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "359EF436F56A5383"
+				item: "minecraft:golden_hoe"
+				type: "item"
+			}]
+			title: "Houe en or"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_hoe"
+			id: "5EB8B2EC8D652722"
+			optional: true
+			rewards: [{
+				id: "21F5E7892920B68F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A125429D30A4370"
+				item: "minecraft:iron_hoe"
+				type: "item"
+			}]
+			title: "Houe en fer"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_hoe"
+			id: "2E52EB9AA673482A"
+			optional: true
+			rewards: [{
+				id: "1B854B8040969AD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C24626173B33EC5"
+				item: "minecraft:netherite_hoe"
+				type: "item"
+			}]
+			title: "Houe en netherite"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:stone_hoe"
+			id: "7848CE8487A21023"
+			optional: true
+			rewards: [{
+				id: "2C1AA7FE9344DB44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "282802F350DAB1D6"
+				item: "minecraft:stone_hoe"
+				type: "item"
+			}]
+			title: "Houe en pierre"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:wooden_hoe"
+			id: "3601C97650F0C9C2"
+			optional: true
+			rewards: [{
+				id: "08426B760CAB925C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "650E1041E7877E04"
+				item: "minecraft:wooden_hoe"
+				type: "item"
+			}]
+			title: "Houe en bois"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_diamond_hoe"
+			id: "2401B72544B756A1"
+			optional: true
+			rewards: [{
+				id: "6165CDB4FD542E53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F7D4B33E9D3994C"
+				item: "advancednetherite:netherite_diamond_hoe"
+				type: "item"
+			}]
+			title: "« Netherite-Diamond Hoe »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_emerald_hoe"
+			id: "5813B765AE7E49C1"
+			optional: true
+			rewards: [{
+				id: "5065A533BB7B128D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AFE3AB074C7B859"
+				item: "advancednetherite:netherite_emerald_hoe"
+				type: "item"
+			}]
+			title: "« Netherite-Emerald Hoe »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_gold_hoe"
+			id: "2A42F24C01F8B0F9"
+			optional: true
+			rewards: [{
+				id: "378C8B20835E73C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B5E68F7A2A6369D"
+				item: "advancednetherite:netherite_gold_hoe"
+				type: "item"
+			}]
+			title: "« Netherite-Gold Hoe »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_iron_hoe"
+			id: "6F1CBD2A18677F55"
+			optional: true
+			rewards: [{
+				id: "574C53FEC02FC2AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E2B48D007B21487"
+				item: "advancednetherite:netherite_iron_hoe"
+				type: "item"
+			}]
+			title: "« Netherite-Iron Hoe »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_hoe"
+			id: "67D0A863F154B0F6"
+			optional: true
+			rewards: [{
+				id: "4BC06BC0A556DC19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4DF7F37E857A1611"
+				item: "aether:gravitite_hoe"
+				type: "item"
+			}]
+			title: "« Gravitite Hoe »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:holystone_hoe"
+			id: "4F8818FA3B77C388"
+			optional: true
+			rewards: [{
+				id: "3AEED494BD645CA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5124206A204B7676"
+				item: "aether:holystone_hoe"
+				type: "item"
+			}]
+			title: "« Holystone Hoe »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:skyroot_hoe"
+			id: "531428845ED752AB"
+			optional: true
+			rewards: [{
+				id: "2D78632D8FED415C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "528E58236E09A29F"
+				item: "aether:skyroot_hoe"
+				type: "item"
+			}]
+			title: "« Skyroot Hoe »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_hoe"
+			id: "2329F30FFBDF571B"
+			optional: true
+			rewards: [{
+				id: "08A1D5513C5246A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C5B9500D10D52BD"
+				item: "aether:valkyrie_hoe"
+				type: "item"
+			}]
+			title: "« Valkyrie Hoe »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_hoe"
+			id: "0A63523DB7CFC323"
+			optional: true
+			rewards: [{
+				id: "48B0AE05BFF55A37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7365E16AE946D26F"
+				item: "aether:zanite_hoe"
+				type: "item"
+			}]
+			title: "« Zanite Hoe »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:infused_veridium_hoe"
+			id: "649E7D4274312917"
+			optional: true
+			rewards: [{
+				id: "4E9C4DE9A1306D44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27CBC9CD160A2BF3"
+				item: "aether_redux:infused_veridium_hoe"
+				type: "item"
+			}]
+			title: "« Infused Veridium Hoe »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Houe de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:veridium_hoe"
+			id: "50C4844D65698C09"
+			optional: true
+			rewards: [{
+				id: "11D9597671DB51B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5873781461AE6D0A"
+				item: "aether_redux:veridium_hoe"
+				type: "item"
+			}]
+			title: "« Veridium Hoe »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_hoe"
+			id: "4243DCA502DEA1FD"
+			optional: true
+			rewards: [{
+				id: "192CB9D274E4D40A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E50781BBA22DDEF"
+				item: "betterend:aeternium_hoe"
+				type: "item"
+			}]
+			title: "« Aeternium Hoe »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_hoe"
+			id: "1D4DFA200334D0BD"
+			optional: true
+			rewards: [{
+				id: "4C00ED56953F8FE0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CAA5D301D03671F"
+				item: "betterend:terminite_hoe"
+				type: "item"
+			}]
+			title: "« Terminite Hoe »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_hoe"
+			id: "1718E66ECFDCDA89"
+			optional: true
+			rewards: [{
+				id: "6723A39D5E1E5201"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D9014D64308DE1A"
+				item: "betterend:thallasium_hoe"
+				type: "item"
+			}]
+			title: "« Thallasium Hoe »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_hoe"
+			id: "310B5CE596A9C084"
+			optional: true
+			rewards: [{
+				id: "0BC24761574E9107"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D618F138BF5C0FE"
+				item: "betternether:cincinnasite_hoe"
+				type: "item"
+			}]
+			title: "Cincinnasite Hoe"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_hoe_diamond"
+			id: "51F947CECBC779B3"
+			optional: true
+			rewards: [{
+				id: "44E124812635A745"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1393DAEC3CDD886A"
+				item: "betternether:cincinnasite_hoe_diamond"
+				type: "item"
+			}]
+			title: "Cincinnasite-Diamond Hoe"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_hoe"
+			id: "530F0876C005084C"
+			optional: true
+			rewards: [{
+				id: "1EED05DCF8CD53F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "599E0A8B9434AD6F"
+				item: "betternether:flaming_ruby_hoe"
+				type: "item"
+			}]
+			title: "« Fireruby Hoe »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_hoe"
+			id: "6BABD0B2D1285F47"
+			optional: true
+			rewards: [{
+				id: "5AB39BB5DD2F49C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05B784BD76D00688"
+				item: "betternether:nether_ruby_hoe"
+				type: "item"
+			}]
+			title: "Nether Ruby Hoe"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_hoe"
+			id: "4CA049B00A39D2ED"
+			optional: true
+			rewards: [{
+				id: "4687B7E707E20707"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A2283F28C67F970"
+				item: "blue_skies:aquite_hoe"
+				type: "item"
+			}]
+			title: "Houe en aquite"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:bluebright_hoe"
+			id: "2E05BC9947B05768"
+			optional: true
+			rewards: [{
+				id: "12E74C0611250A91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DEF34932A665802"
+				item: "blue_skies:bluebright_hoe"
+				type: "item"
+			}]
+			title: "Houe en bois de lumibleu"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_hoe"
+			id: "64F59CAE8F793FD5"
+			optional: true
+			rewards: [{
+				id: "3D575E58FD27AAF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "18C04BDF819395DD"
+				item: "blue_skies:charoite_hoe"
+				type: "item"
+			}]
+			title: "Houe en charoite"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:comet_hoe"
+			id: "3C8DED3CFF22E30D"
+			optional: true
+			rewards: [{
+				id: "5E4A800A7E2FC721"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03F5CB7CB71E7450"
+				item: "blue_skies:comet_hoe"
+				type: "item"
+			}]
+			title: "« Comet Wood Hoe »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_hoe"
+			id: "1097549CB80D0BB5"
+			optional: true
+			rewards: [{
+				id: "02DA0AF0BCB7F759"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79354ED929996235"
+				item: "blue_skies:diopside_hoe"
+				type: "item"
+			}]
+			title: "Houe en diopside"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:dusk_hoe"
+			id: "69C15ED012C129E7"
+			optional: true
+			rewards: [{
+				id: "0845D699D2CE91EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D78C10EB2D2129F"
+				item: "blue_skies:dusk_hoe"
+				type: "item"
+			}]
+			title: "Houe en crépuscubois"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:frostbright_hoe"
+			id: "25FF128F16629454"
+			optional: true
+			rewards: [{
+				id: "0CEBDD81C41D6E3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76F1F27EB91FC1A9"
+				item: "blue_skies:frostbright_hoe"
+				type: "item"
+			}]
+			title: "Houe en bois de nifrisque"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_hoe"
+			id: "70E3A8317B6F0A4E"
+			optional: true
+			rewards: [{
+				id: "4A782937BD65093A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09CCD0106ADA5FDD"
+				item: "blue_skies:horizonite_hoe"
+				type: "item"
+			}]
+			title: "Houe en horizonite"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_hoe"
+			id: "5DD4F1A1BD4341CC"
+			optional: true
+			rewards: [{
+				id: "636EE948648D9688"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "749B11835EAE943F"
+				item: "blue_skies:lunar_hoe"
+				type: "item"
+			}]
+			title: "Houe lunaire"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_stone_hoe"
+			id: "334BAC15986882B3"
+			optional: true
+			rewards: [{
+				id: "6C7C46C1FED6717C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31E27D6C712B899A"
+				item: "blue_skies:lunar_stone_hoe"
+				type: "item"
+			}]
+			title: "Houe en pierre lunaire"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:maple_hoe"
+			id: "5D9E374051888EDF"
+			optional: true
+			rewards: [{
+				id: "0CE9E5053BECF83D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4487170DDBF5647E"
+				item: "blue_skies:maple_hoe"
+				type: "item"
+			}]
+			title: "Houe en bois d'érable"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_hoe"
+			id: "0934028509C912AC"
+			optional: true
+			rewards: [{
+				id: "3A78C5221D7D68EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "478E50B22BBDDD17"
+				item: "blue_skies:pyrope_hoe"
+				type: "item"
+			}]
+			title: "Houe en pyrope"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:starlit_hoe"
+			id: "78180301DC1641D2"
+			optional: true
+			rewards: [{
+				id: "61205647D044690E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24394A433CA59A4D"
+				item: "blue_skies:starlit_hoe"
+				type: "item"
+			}]
+			title: "Houe en étoilibois"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:turquoise_stone_hoe"
+			id: "496FE3D68F9E67BB"
+			optional: true
+			rewards: [{
+				id: "610F665908BCC533"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00D7806A6E78E09C"
+				item: "blue_skies:turquoise_stone_hoe"
+				type: "item"
+			}]
+			title: "Houe en pierre turquoise"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:black_steel_hoe"
+			id: "39B80A505AF993A6"
+			optional: true
+			rewards: [{
+				id: "17090E5EEDE40FA4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4275667644C5F159"
+				item: "cataclysm:black_steel_hoe"
+				type: "item"
+			}]
+			title: "« Black Steel Hoe »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_hoe"
+			id: "5B8A644053B63AB5"
+			optional: true
+			rewards: [{
+				id: "14200D8D955F151A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "650ADE14777A0537"
+				item: "deep_aether:skyjade_hoe"
+				type: "item"
+			}]
+			title: "« Skyjade Hoe »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_hoe"
+			id: "223C61EA9DAC0665"
+			optional: true
+			rewards: [{
+				id: "579054169D96E76C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06F0C4B97FCD47F2"
+				item: "deep_aether:stratus_hoe"
+				type: "item"
+			}]
+			title: "« Stratus Hoe »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:resonarium_hoe"
+			id: "1635AAC4F4E255BE"
+			optional: true
+			rewards: [{
+				id: "461135945B6D8B1F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "686D0EDA0B7262F3"
+				item: "deeperdarker:resonarium_hoe"
+				type: "item"
+			}]
+			title: "« Resonarium Hoe »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:warden_hoe"
+			id: "4CEC481963EC92C8"
+			optional: true
+			rewards: [{
+				id: "36365C6D965AF97B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B179530DDE80D48"
+				item: "deeperdarker:warden_hoe"
+				type: "item"
+			}]
+			title: "Houe en Warden"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_hoe"
+			id: "6B37F3CA32B03EEE"
+			optional: true
+			rewards: [{
+				id: "0F62F4F650A9ECD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "612BA58E1CDDE9C6"
+				item: "dragonloot:dragon_hoe"
+				type: "item"
+			}]
+			title: "« Dragon Hoe »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_hoe"
+			id: "5627903D546F09FE"
+			optional: true
+			rewards: [{
+				id: "7A82017CD71B0DC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "411874A4EF9887DA"
+				item: "mysticalagriculture:awakened_supremium_hoe"
+				type: "item"
+			}]
+			title: "Houe en Supremium Éveillé"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_hoe"
+			id: "00269633870A1C51"
+			optional: true
+			rewards: [{
+				id: "613D11980C470BA5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E79EAC56471594D"
+				item: "mysticalagriculture:imperium_hoe"
+				type: "item"
+			}]
+			title: "Houe en Imperium"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_hoe"
+			id: "25A3CCECAB77AB76"
+			optional: true
+			rewards: [{
+				id: "6B963AEA930E951E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "795B143397E08D6B"
+				item: "mysticalagriculture:inferium_hoe"
+				type: "item"
+			}]
+			title: "Houe en Inferium"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_hoe"
+			id: "49BC2E17D8CABDDE"
+			optional: true
+			rewards: [{
+				id: "55B195877F163B49"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "29AF3BD2F2B43EAA"
+				item: "mysticalagriculture:prudentium_hoe"
+				type: "item"
+			}]
+			title: "Houe en Prudentium"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_hoe"
+			id: "3703D6CD290F2CB7"
+			optional: true
+			rewards: [{
+				id: "3DAF3DB071E7AB2C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A929E27D17E07F9"
+				item: "mysticalagriculture:supremium_hoe"
+				type: "item"
+			}]
+			title: "Houe en Supremium"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Houe de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_hoe"
+			id: "3BD497EEB1234BBE"
+			optional: true
+			rewards: [{
+				id: "6E9370F456429B5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B6BBFEA23AEC7A4"
+				item: "mysticalagriculture:tertium_hoe"
+				type: "item"
+			}]
+			title: "Houe en Tertium"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Houe de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_hoe"
+			id: "7CC11BB90ED42AF9"
+			optional: true
+			rewards: [{
+				id: "7222AD3C7C9CBD7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F9CAD6572277933"
+				item: "stalwart_dungeons:chorundum_hoe"
+				type: "item"
+			}]
+			title: "« §eChorundum Hoe »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Houe de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_hoe"
+			id: "797C4484245A8FA4"
+			optional: true
+			rewards: [{
+				id: "10DA253B141CE09C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3AFBF450A1BA8555"
+				item: "stalwart_dungeons:tungsten_hoe"
+				type: "item"
+			}]
+			title: "« §eTungsten Hoe »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Houe de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_hoe"
+			id: "0CC1FCDFAFDE0AD6"
+			optional: true
+			rewards: [{
+				id: "655172AEA1E62AA9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2612243169DD8832"
+				item: "twilightforest:ironwood_hoe"
+				type: "item"
+			}]
+			title: "Houe en bois de fer"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Houe de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_hoe"
+			id: "04CB3168E2E024A9"
+			optional: true
+			rewards: [{
+				id: "7252CB2B5B9935CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5117B903D9A85424"
+				item: "twilightforest:steeleaf_hoe"
+				type: "item"
+			}]
+			title: "Houe en Stealeaf"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"216017BB89E8B96C"
+				"5DA9B1BDBCC4F177"
+				"5EB8B2EC8D652722"
+				"2E52EB9AA673482A"
+				"7848CE8487A21023"
+				"3601C97650F0C9C2"
+				"2401B72544B756A1"
+				"5813B765AE7E49C1"
+				"2A42F24C01F8B0F9"
+				"6F1CBD2A18677F55"
+				"67D0A863F154B0F6"
+				"4F8818FA3B77C388"
+				"531428845ED752AB"
+				"2329F30FFBDF571B"
+				"0A63523DB7CFC323"
+				"649E7D4274312917"
+				"50C4844D65698C09"
+				"4243DCA502DEA1FD"
+				"1D4DFA200334D0BD"
+				"1718E66ECFDCDA89"
+				"310B5CE596A9C084"
+				"51F947CECBC779B3"
+				"530F0876C005084C"
+				"6BABD0B2D1285F47"
+				"4CA049B00A39D2ED"
+				"2E05BC9947B05768"
+				"64F59CAE8F793FD5"
+				"3C8DED3CFF22E30D"
+				"1097549CB80D0BB5"
+				"69C15ED012C129E7"
+				"25FF128F16629454"
+				"70E3A8317B6F0A4E"
+				"5DD4F1A1BD4341CC"
+				"334BAC15986882B3"
+				"5D9E374051888EDF"
+				"0934028509C912AC"
+				"78180301DC1641D2"
+				"496FE3D68F9E67BB"
+				"39B80A505AF993A6"
+				"5B8A644053B63AB5"
+				"223C61EA9DAC0665"
+				"1635AAC4F4E255BE"
+				"4CEC481963EC92C8"
+				"6B37F3CA32B03EEE"
+				"5627903D546F09FE"
+				"00269633870A1C51"
+				"25A3CCECAB77AB76"
+				"49BC2E17D8CABDDE"
+				"3703D6CD290F2CB7"
+				"3BD497EEB1234BBE"
+				"7CC11BB90ED42AF9"
+				"797C4484245A8FA4"
+				"0CC1FCDFAFDE0AD6"
+				"04CB3168E2E024A9"
+			]
+			description: ["Toutes les houes de ce chapitre réunies."]
+			icon: "minecraft:netherite_hoe"
+			id: "44966DC9EB47DB8C"
+			optional: true
+			rewards: [{
+				id: "0432DAB86C50CA15"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "31275B30C45FDC30"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Toutes les houes"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&7Houes"
+}

@@ -352,6 +352,432 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["387EE39C7138C6B0"]
+			description: ["Le premier palier de la Twilight Forest, en lingots de bois de fer."]
+			icon: "twilightforest:ironwood_helmet"
+			id: "193F8FEC08B1393D"
+			optional: true
+			rewards: [{
+				id: "3A30DC0CCCD0CAB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5866DB09C6E0809F"
+					item: "twilightforest:ironwood_helmet"
+					type: "item"
+				}
+				{
+					id: "7F5A400E9BC47010"
+					item: "twilightforest:ironwood_chestplate"
+					type: "item"
+				}
+				{
+					id: "05BF219DC12D6737"
+					item: "twilightforest:ironwood_leggings"
+					type: "item"
+				}
+				{
+					id: "6436B6C59361BEEA"
+					item: "twilightforest:ironwood_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure en bois de fer"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["387EE39C7138C6B0"]
+			description: ["Épée, pioche, hache, pelle et houe en bois de fer, déjà enchantés à la fabrication."]
+			icon: "twilightforest:ironwood_sword"
+			id: "0608B178A61D3BB2"
+			optional: true
+			rewards: [{
+				id: "6E62D49F26CA2F58"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "19DDD911F2F3825D"
+					item: "twilightforest:ironwood_sword"
+					type: "item"
+				}
+				{
+					id: "089A433523263BA5"
+					item: "twilightforest:ironwood_pickaxe"
+					type: "item"
+				}
+				{
+					id: "39E69F468838EE9C"
+					item: "twilightforest:ironwood_axe"
+					type: "item"
+				}
+				{
+					id: "53ED60EA7F73CF2D"
+					item: "twilightforest:ironwood_shovel"
+					type: "item"
+				}
+				{
+					id: "4855672B4B83F493"
+					item: "twilightforest:ironwood_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils en bois de fer"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["193F8FEC08B1393D"]
+			description: ["Le deuxième palier, en lingots de Steeleaf."]
+			icon: "twilightforest:steeleaf_helmet"
+			id: "4134FCDEAD40BA18"
+			optional: true
+			rewards: [{
+				id: "21C2853AEDE9B541"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2ABDF81A3C0E2D47"
+					item: "twilightforest:steeleaf_helmet"
+					type: "item"
+				}
+				{
+					id: "0F694B5274D3DDF6"
+					item: "twilightforest:steeleaf_chestplate"
+					type: "item"
+				}
+				{
+					id: "34A45F8F4BC2460F"
+					item: "twilightforest:steeleaf_leggings"
+					type: "item"
+				}
+				{
+					id: "69405CB8CBB7D7DF"
+					item: "twilightforest:steeleaf_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure en Steeleaf"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0608B178A61D3BB2"]
+			description: ["Les mêmes outils en Steeleaf."]
+			icon: "twilightforest:steeleaf_sword"
+			id: "553C7CBCFA841053"
+			optional: true
+			rewards: [{
+				id: "7C4D880D136466B7"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0ACE05338CE004BB"
+					item: "twilightforest:steeleaf_sword"
+					type: "item"
+				}
+				{
+					id: "6970E222A90A1834"
+					item: "twilightforest:steeleaf_pickaxe"
+					type: "item"
+				}
+				{
+					id: "6D39D938339A4595"
+					item: "twilightforest:steeleaf_axe"
+					type: "item"
+				}
+				{
+					id: "6319BF155221B9BA"
+					item: "twilightforest:steeleaf_shovel"
+					type: "item"
+				}
+				{
+					id: "15E902A2C1B5B217"
+					item: "twilightforest:steeleaf_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils en Steeleaf"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4428698375C92BD0"
+				"4134FCDEAD40BA18"
+			]
+			description: ["Le troisième palier, en lingots de métal de chevalier."]
+			icon: "twilightforest:knightmetal_helmet"
+			id: "579573C25B708C16"
+			optional: true
+			rewards: [{
+				id: "34B2A425800A633B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3080AD8C8BB7BFFF"
+					item: "twilightforest:knightmetal_helmet"
+					type: "item"
+				}
+				{
+					id: "0E1FB1464157FDD7"
+					item: "twilightforest:knightmetal_chestplate"
+					type: "item"
+				}
+				{
+					id: "0D35F357BA12FFF4"
+					item: "twilightforest:knightmetal_leggings"
+					type: "item"
+				}
+				{
+					id: "02A88D00BB45EB4F"
+					item: "twilightforest:knightmetal_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure en métal de chevalier"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4428698375C92BD0"
+				"553C7CBCFA841053"
+			]
+			description: ["Épée, pioche, hache, bouclier et boulet à chaîne. L'épée, la pioche et la hache sortent aussi du coffre des chevaliers fantômes."]
+			icon: "twilightforest:knightmetal_sword"
+			id: "016633F7B9A601F2"
+			optional: true
+			rewards: [{
+				id: "3ACB5F336C980C2F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "47CF0F2A317C2FED"
+					item: "twilightforest:knightmetal_sword"
+					type: "item"
+				}
+				{
+					id: "37D2C9E918E81663"
+					item: "twilightforest:knightmetal_pickaxe"
+					type: "item"
+				}
+				{
+					id: "517070A86AF85383"
+					item: "twilightforest:knightmetal_axe"
+					type: "item"
+				}
+				{
+					id: "4C73A8851A350E40"
+					item: "twilightforest:knightmetal_shield"
+					type: "item"
+				}
+				{
+					id: "64A8EE1B34CF71CE"
+					item: "twilightforest:block_and_chain"
+					type: "item"
+				}
+			]
+			title: "Les armes en métal de chevalier"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"579573C25B708C16"
+				"15FF4350E7409ECE"
+			]
+			description: ["Le sommet de l'armure forgée de la Twilight Forest : des lingots ardents, faits du sang ou des larmes de l'Hydre et du Ur-Ghast."]
+			icon: "twilightforest:fiery_helmet"
+			id: "2F83FDF001F8B212"
+			optional: true
+			rewards: [{
+				id: "4728DFBBC7AE1AB5"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					id: "44D2402E3B19ABB3"
+					item: "twilightforest:fiery_helmet"
+					type: "item"
+				}
+				{
+					id: "0DEF123DEC478A87"
+					item: "twilightforest:fiery_chestplate"
+					type: "item"
+				}
+				{
+					id: "23111FD0B6257766"
+					item: "twilightforest:fiery_leggings"
+					type: "item"
+				}
+				{
+					id: "043A9DFE94C7EAB6"
+					item: "twilightforest:fiery_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure ardente"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"016633F7B9A601F2"
+				"15FF4350E7409ECE"
+			]
+			description: ["Les deux outils ardents : ils enflamment et cuisent ce qu'ils touchent ou minent."]
+			icon: "twilightforest:fiery_sword"
+			id: "19989527911DF796"
+			optional: true
+			rewards: [{
+				id: "730FA1C3BDA0FA89"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6E9BF60682CFC0EF"
+					item: "twilightforest:fiery_sword"
+					type: "item"
+				}
+				{
+					id: "72985E1D37E50CFF"
+					item: "twilightforest:fiery_pickaxe"
+					type: "item"
+				}
+			]
+			title: "L'épée et la pioche ardentes"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69144B2C68C1F338"]
+			description: ["En fourrure arctique, que lâchent les yétis et les loups d'hiver des Glaciers."]
+			icon: "twilightforest:arctic_helmet"
+			id: "0E12C567458AB5E1"
+			optional: true
+			rewards: [{
+				id: "156CEA6D4966B3C2"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "61D0DAF4EDEC8C7A"
+					item: "twilightforest:arctic_helmet"
+					type: "item"
+				}
+				{
+					id: "5930B3368AB79FBF"
+					item: "twilightforest:arctic_chestplate"
+					type: "item"
+				}
+				{
+					id: "6EE7BCDDD8323CE9"
+					item: "twilightforest:arctic_leggings"
+					type: "item"
+				}
+				{
+					id: "0CDE00C7E6776C06"
+					item: "twilightforest:arctic_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure arctique"
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0E12C567458AB5E1"]
+			description: ["En fourrure de yéti alpha : il faut abattre le Yéti alpha de sa grotte."]
+			icon: "twilightforest:yeti_helmet"
+			id: "37EACA5A91B68549"
+			optional: true
+			rewards: [{
+				id: "4BF62D0DC78766A4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "366A0D1F49E13D96"
+					item: "twilightforest:yeti_helmet"
+					type: "item"
+				}
+				{
+					id: "7E506188C14D4EC4"
+					item: "twilightforest:yeti_chestplate"
+					type: "item"
+				}
+				{
+					id: "2139F82F2E9FED05"
+					item: "twilightforest:yeti_leggings"
+					type: "item"
+				}
+				{
+					id: "27684588A89E46B1"
+					item: "twilightforest:yeti_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure de yéti"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["579573C25B708C16"]
+			description: ["Le casque et le plastron fantômes ne se fabriquent pas : ils sont dans le coffre que laissent les chevaliers fantômes de la forteresse."]
+			icon: "twilightforest:phantom_helmet"
+			id: "090BF7B210BDEA4C"
+			optional: true
+			rewards: [{
+				id: "32F818E32630F706"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5B6CC93E550510A5"
+					item: "twilightforest:phantom_helmet"
+					type: "item"
+				}
+				{
+					id: "7DA1E85CAEC33E5C"
+					item: "twilightforest:phantom_chestplate"
+					type: "item"
+				}
+			]
+			title: "L'armure fantôme"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
 			dependencies: ["69144B2C68C1F338"]
 			description: ["Quatre arbres dont le cœur agit à seize blocs (config du serveur) : &dTransformation&r change les biomes, &bTemps&r accélère les ticks, &6Minage&r tire les minerais, &aTri&r range les coffres. Leurs pousses se trouvent dans les coffres de la forêt."]
 			icon: "twilightforest:transformation_sapling"
@@ -388,7 +814,7 @@
 			]
 			title: "Les arbres magiques"
 			x: 2.0d
-			y: 19.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["2D1F1217BFDF0499"]
@@ -409,7 +835,7 @@
 			}]
 			title: "Arboriste"
 			x: 4.0d
-			y: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [

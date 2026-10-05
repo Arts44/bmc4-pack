@@ -358,6 +358,241 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["04A6349A2ECEED79"]
+			description: ["Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire."]
+			icon: "blue_skies:summoner_spawn_egg"
+			id: "7DB74125AF9C9B47"
+			optional: true
+			rewards: [{
+				id: "187F832C18296984"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "71F8C42062DD910B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Ré-invoquer le Summonateur"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29AE931FE68E3A67"]
+			description: ["Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire."]
+			icon: "blue_skies:starlit_crusher_spawn_egg"
+			id: "5A6F5206A80FD00B"
+			optional: true
+			rewards: [{
+				id: "6D62064440B0F052"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				id: "61C5B1F5DFC32193"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Ré-invoquer le Starlit Crusher"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7022031C1C80246D"]
+			description: ["Armure et outils en pyrope, la première gemme de l'Everbright."]
+			icon: "blue_skies:pyrope_helmet"
+			id: "32811D71BF23A4CB"
+			optional: true
+			rewards: [{
+				id: "7F39B032C5630BD7"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5F4EC8E1780D5BE7"
+					item: "blue_skies:pyrope_helmet"
+					type: "item"
+				}
+				{
+					id: "517635DCB66A9949"
+					item: "blue_skies:pyrope_chestplate"
+					type: "item"
+				}
+				{
+					id: "7DFCCFDCECB84E1F"
+					item: "blue_skies:pyrope_leggings"
+					type: "item"
+				}
+				{
+					id: "7C3F12F88ECA08A5"
+					item: "blue_skies:pyrope_boots"
+					type: "item"
+				}
+				{
+					id: "2A8D8594A4A7DED0"
+					item: "blue_skies:pyrope_sword"
+					type: "item"
+				}
+				{
+					id: "11FC9EDF84D47EB1"
+					item: "blue_skies:pyrope_pickaxe"
+					type: "item"
+				}
+				{
+					id: "2D82B9E7BBBCA2B5"
+					item: "blue_skies:pyrope_axe"
+					type: "item"
+				}
+				{
+					id: "14C60071B26A01E4"
+					item: "blue_skies:pyrope_shovel"
+					type: "item"
+				}
+				{
+					id: "034E253D7C451E38"
+					item: "blue_skies:pyrope_hoe"
+					type: "item"
+				}
+			]
+			title: "L'équipement en pyrope"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32811D71BF23A4CB"]
+			description: ["Le palier suivant, en aquite."]
+			icon: "blue_skies:aquite_helmet"
+			id: "7A6E4902225A14A1"
+			optional: true
+			rewards: [{
+				id: "5B9EFFD668F53E96"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "46AE4849FA38231F"
+					item: "blue_skies:aquite_helmet"
+					type: "item"
+				}
+				{
+					id: "0BFC9697536FE334"
+					item: "blue_skies:aquite_chestplate"
+					type: "item"
+				}
+				{
+					id: "7EC445A268BA15AC"
+					item: "blue_skies:aquite_leggings"
+					type: "item"
+				}
+				{
+					id: "55D84F4EEE929831"
+					item: "blue_skies:aquite_boots"
+					type: "item"
+				}
+				{
+					id: "4A5E44E83A98E982"
+					item: "blue_skies:aquite_sword"
+					type: "item"
+				}
+				{
+					id: "06C2ED6E05E7A9F8"
+					item: "blue_skies:aquite_pickaxe"
+					type: "item"
+				}
+				{
+					id: "102D4B1FF767CB5C"
+					item: "blue_skies:aquite_axe"
+					type: "item"
+				}
+				{
+					id: "7D006DCB0632C41F"
+					item: "blue_skies:aquite_shovel"
+					type: "item"
+				}
+				{
+					id: "318FEA4D834FD927"
+					item: "blue_skies:aquite_hoe"
+					type: "item"
+				}
+			]
+			title: "L'équipement en aquite"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A6E4902225A14A1"]
+			description: ["Le plus haut palier de l'Everbright, en diopside."]
+			icon: "blue_skies:diopside_helmet"
+			id: "2C3E665B77579900"
+			optional: true
+			rewards: [{
+				id: "2789A51B9C4FBEE3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "69DE3674D290A8BE"
+					item: "blue_skies:diopside_helmet"
+					type: "item"
+				}
+				{
+					id: "09AF656AEF61DD21"
+					item: "blue_skies:diopside_chestplate"
+					type: "item"
+				}
+				{
+					id: "6A86C2C435E9D68E"
+					item: "blue_skies:diopside_leggings"
+					type: "item"
+				}
+				{
+					id: "22067A14E8F8A975"
+					item: "blue_skies:diopside_boots"
+					type: "item"
+				}
+				{
+					id: "6E710C01A97F16F5"
+					item: "blue_skies:diopside_sword"
+					type: "item"
+				}
+				{
+					id: "30220D3F69E56FDB"
+					item: "blue_skies:diopside_pickaxe"
+					type: "item"
+				}
+				{
+					id: "3A540F2ECC4CC6D7"
+					item: "blue_skies:diopside_axe"
+					type: "item"
+				}
+				{
+					id: "3756CE7F2CDC2FD2"
+					item: "blue_skies:diopside_shovel"
+					type: "item"
+				}
+				{
+					id: "1B75980B55E72324"
+					item: "blue_skies:diopside_hoe"
+					type: "item"
+				}
+			]
+			title: "&bL'équipement en diopside"
+			x: 14.0d
+			y: 4.5d
+		}
+		{
 			dependencies: ["29AE931FE68E3A67"]
 			description: ["Le Summonateur et le Déstructeur des Étoiles au tableau. L'Everdawn attend de l'autre côté de la maison du Gatekeeper."]
 			icon: "blue_skies:ethereal_arc"

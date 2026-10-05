@@ -91,7 +91,7 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["17FD9B5F111987DE"]
+			dependencies: ["1664516430BD41C9"]
 			description: ["Les &7améliorations de stockage&r (fer, or, obsidienne, diamant, émeraude, nétherite) multiplient la capacité ; la &7clé de tiroir&r verrouille le contenu sur son type, même vide. Il y a aussi le vide (ce qui déborde disparaît) et la lumière."]
 			icon: "storagedrawers:iron_storage_upgrade"
 			id: "1D0E73A7C35E2E69"
@@ -100,21 +100,14 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			tasks: [
-				{
-					id: "21543B8E5D35278F"
-					item: "storagedrawers:iron_storage_upgrade"
-					type: "item"
-				}
-				{
-					id: "597158597C43B936"
-					item: "storagedrawers:drawer_key"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21543B8E5D35278F"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
 			title: "Améliorer un tiroir"
-			x: 4.0d
-			y: -0.75d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0DC26A01D5547512"]
@@ -161,7 +154,7 @@
 			]
 			title: "Des câbles de stockage"
 			x: 4.0d
-			y: 0.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["43CB60FE2C8860CD"]
@@ -181,7 +174,7 @@
 			}]
 			title: "Une table de requête"
 			x: 6.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["43CB60FE2C8860CD"]
@@ -207,7 +200,7 @@
 			]
 			title: "Câbles d'import et d'export"
 			x: 6.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0DC26A01D5547512"]
@@ -252,7 +245,7 @@
 			]
 			title: "Lecteur et disques"
 			x: 4.0d
-			y: 2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["6F1ED0766DB16596"]
@@ -272,7 +265,7 @@
 			}]
 			title: "Une grille"
 			x: 6.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["6AE2953716FBBFA5"]
@@ -304,7 +297,7 @@
 			]
 			title: "Grille de fabrication et de patrons"
 			x: 8.0d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1AAB7882E350F11C"]
@@ -350,7 +343,7 @@
 			]
 			title: "Importeur et exportateur"
 			x: 4.0d
-			y: 3.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6AE2953716FBBFA5"]
@@ -376,7 +369,7 @@
 			]
 			title: "Une grille sans fil"
 			x: 8.0d
-			y: 0.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0DC26A01D5547512"]
@@ -436,20 +429,13 @@
 				xp_levels: 4
 			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "2B655311CC435CDF"
-					item: "storagedrawers:gold_storage_upgrade"
-					type: "item"
-				}
-				{
-					id: "537AB3FBD75881DE"
-					item: "storagedrawers:diamond_storage_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B655311CC435CDF"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
 			title: "Des améliorations de stockage"
-			x: 6.0d
+			x: 10.0d
 			y: 5.75d
 		}
 		{
@@ -470,7 +456,7 @@
 				type: "item"
 			}]
 			title: "Une amélioration du vide"
-			x: 6.0d
+			x: 10.0d
 			y: 7.25d
 		}
 		{
@@ -506,24 +492,17 @@
 				xp_levels: 4
 			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "3B451E622A06918E"
-					item: "refinedstorage:4k_storage_disk"
-					type: "item"
-				}
-				{
-					id: "208ADF75D5A5F577"
-					item: "refinedstorage:16k_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3B451E622A06918E"
+				item: "refinedstorage:4k_storage_disk"
+				type: "item"
+			}]
 			title: "Des disques plus grands"
 			x: 6.0d
-			y: 8.75d
+			y: 5.75d
 		}
 		{
-			dependencies: ["0326FE4A288CDE66"]
+			dependencies: ["4B806B509DCDF272"]
 			icon: "refinedstorage:64k_storage_disk"
 			id: "08E7DF84B5DDBED2"
 			optional: true
@@ -539,8 +518,8 @@
 				type: "item"
 			}]
 			title: "Un disque de 64k"
-			x: 8.0d
-			y: 5.75d
+			x: 10.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["409451D8AC394F87"]
@@ -589,7 +568,7 @@
 			]
 			title: "Constructeur et destructeur"
 			x: 6.0d
-			y: 10.25d
+			y: 7.25d
 		}
 		{
 			dependencies: ["5C39CC5E8A354E85"]
@@ -630,7 +609,7 @@
 			}]
 			title: "Une télécommande d'inventaire"
 			x: 8.0d
-			y: 7.25d
+			y: 5.75d
 		}
 		{
 			dependencies: ["2B7A85C26A972B5E"]
@@ -650,7 +629,1120 @@
 			}]
 			title: "Un collecteur"
 			x: 8.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["17FD9B5F111987DE"]
+			description: ["Les améliorations de stockage se fabriquent sur un modèle d'amélioration, avec des bâtons et le matériau. Celle en obsidienne double la capacité d'un tiroir. Plusieurs améliorations dans un même tiroir additionnent leurs multiplicateurs (config du serveur)."]
+			icon: "storagedrawers:obsidian_storage_upgrade"
+			id: "25547080F1AE302C"
+			rewards: [{
+				id: "324C29AC21E342D7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6682E4BF4C8A2D0C"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			title: "Une amélioration en obsidienne"
+			x: 4.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["25547080F1AE302C"]
+			description: ["En cuivre : capacité ×4."]
+			icon: "storagedrawers:copper_storage_upgrade"
+			id: "1664516430BD41C9"
+			rewards: [{
+				id: "2DAD6925583911C9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5BBE19F394944F86"
+				item: "storagedrawers:copper_storage_upgrade"
+				type: "item"
+			}]
+			title: "Une amélioration en cuivre"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["64C408C252430522"]
+			description: ["En émeraude : capacité ×64 sur ce serveur."]
+			icon: "storagedrawers:emerald_storage_upgrade"
+			id: "42B4C8DEDA048CDA"
+			optional: true
+			rewards: [{
+				id: "45C46C101AB29B13"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E01FAFABCF38A9A"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			title: "Une amélioration en émeraude"
+			x: 12.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["42B4C8DEDA048CDA"]
+			description: ["En diamant : capacité ×256 sur ce serveur."]
+			icon: "storagedrawers:diamond_storage_upgrade"
+			id: "5074D2ECE4103237"
+			optional: true
+			rewards: [{
+				id: "4F73C9B113801524"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "799E9D1ABFAB244C"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			title: "Une amélioration en diamant"
+			x: 14.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5074D2ECE4103237"]
+			description: ["En nétherite : capacité ×2048 sur ce serveur, le plus haut palier."]
+			icon: "storagedrawers:netherite_storage_upgrade"
+			id: "3D36367F2ABA19D4"
+			optional: true
+			rewards: [{
+				id: "1F373A49EEC509B4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "0462085F836E0AD0"
+				item: "storagedrawers:netherite_storage_upgrade"
+				type: "item"
+			}]
+			title: "&6Une amélioration en nétherite"
+			x: 16.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Convertit les objets compatibles : lingots, pépites et blocs des métaux de la liste du serveur."]
+			icon: "storagedrawers:conversion_upgrade"
+			id: "61D2CD943A5BAC8E"
+			optional: true
+			rewards: [{
+				id: "125343D2C5506F1F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3666002D8CAD1156"
+				item: "storagedrawers:conversion_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de conversion"
+			x: 10.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Affiche une jauge de remplissage sur la façade."]
+			icon: "storagedrawers:fill_level_upgrade"
+			id: "09884CCF370B2760"
+			optional: true
+			rewards: [{
+				id: "23D5A20B8792EA23"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7484CBAD09C864FB"
+				item: "storagedrawers:fill_level_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de niveau"
+			x: 10.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Éclaire les étiquettes des tiroirs dans le noir."]
+			icon: "storagedrawers:illumination_upgrade"
+			id: "23FADCEF9FCFA8B9"
+			optional: true
+			rewards: [{
+				id: "7BAB597FF5125809"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C0504A2C95CA3E1"
+				item: "storagedrawers:illumination_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration d'éclairage"
+			x: 10.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Ramasse les objets correspondants par le dessus, comme un entonnoir."]
+			icon: "storagedrawers:hopper_upgrade"
+			id: "57B77A8A11F2FC4A"
+			optional: true
+			rewards: [{
+				id: "5386F149D2844525"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0ED6F71FD577AAB0"
+				item: "storagedrawers:hopper_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration entonnoir"
+			x: 10.0d
+			y: 14.75d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Répartit les objets à parts égales entre les cases."]
+			icon: "storagedrawers:balance_fill_upgrade"
+			id: "0A15C24CE978BE6E"
+			optional: true
+			rewards: [{
+				id: "2136F119192D85E6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6793CC70F017A6BF"
+				item: "storagedrawers:balance_fill_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration d'équilibre"
+			x: 10.0d
+			y: 16.25d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Ramène la capacité de base à une seule pile."]
+			icon: "storagedrawers:one_stack_upgrade"
+			id: "0E146D45DA1F2256"
+			optional: true
+			rewards: [{
+				id: "067451766BD503C1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48E8D58410B1E2EF"
+				item: "storagedrawers:one_stack_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration à une pile"
+			x: 10.0d
+			y: 17.75d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Permet de transporter un tiroir plein. Sur ce serveur, les tiroirs pleins ne ralentissent pas : elle n'est pas nécessaire."]
+			icon: "storagedrawers:portability_upgrade"
+			id: "75000DC23F98949D"
+			optional: true
+			rewards: [{
+				id: "5F63054EC50D02B6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3266F3E89DEBF53D"
+				item: "storagedrawers:portability_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de portabilité"
+			x: 10.0d
+			y: 19.25d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Émet un signal selon le remplissage total ; les variantes « min » et « max » suivent la case la moins pleine ou la plus pleine."]
+			icon: "storagedrawers:redstone_upgrade"
+			id: "33778C01B1423BE1"
+			optional: true
+			rewards: [{
+				id: "00650B75DE31E8FD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "51FB2872DDFF2E55"
+					item: "storagedrawers:redstone_upgrade"
+					type: "item"
+				}
+				{
+					id: "5FF69EF1FD89A4E9"
+					item: "storagedrawers:min_redstone_upgrade"
+					type: "item"
+				}
+				{
+					id: "29B0004B1B2ED636"
+					item: "storagedrawers:max_redstone_upgrade"
+					type: "item"
+				}
+			]
+			title: "Les améliorations de redstone"
+			x: 10.0d
+			y: 20.75d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Relient un tiroir, ou un groupe de tiroirs, au contrôleur sans contact. Portée : celle du contrôleur, 50 blocs sur ce serveur."]
+			icon: "storagedrawers:remote_upgrade"
+			id: "2F60E89FF9B7550A"
+			optional: true
+			rewards: [{
+				id: "44F36909B4383E3E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "22A687BE278E83FA"
+					item: "storagedrawers:remote_upgrade"
+					type: "item"
+				}
+				{
+					id: "6C94DF1EE4425606"
+					item: "storagedrawers:remote_group_upgrade"
+					type: "item"
+				}
+			]
+			title: "Les améliorations à distance"
+			x: 10.0d
+			y: 22.25d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Ils attirent les objets autour du tiroir : 1, puis 4, puis 8 blocs à l'horizontale (config du serveur). Le deuxième et le troisième se fabriquent à partir du précédent."]
+			icon: "storagedrawers:magnet_upgrade"
+			id: "4A357011CCF4B9DC"
+			optional: true
+			rewards: [{
+				id: "235C2F294AD8008C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3CBD18045E6EFF11"
+					item: "storagedrawers:magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "52F6575E604A940F"
+					item: "storagedrawers:magnet_upgrade_2"
+					type: "item"
+				}
+				{
+					id: "45B807D445210A9F"
+					item: "storagedrawers:magnet_upgrade_3"
+					type: "item"
+				}
+			]
+			title: "Les aimants, palier par palier"
+			x: 10.0d
+			y: 23.75d
+		}
+		{
+			dependencies: ["17FD9B5F111987DE"]
+			description: ["Verrouiller un tiroir sur son contenu, afficher les quantités, cacher les étiquettes, réserver l'accès à son propriétaire (la clé personnelle ne protège pas de la casse : le claim, si), changer la priorité, suspendre les échanges du contrôleur. Le trousseau les range toutes."]
+			icon: "storagedrawers:drawer_key"
+			id: "4D976190D5802AF9"
+			optional: true
+			rewards: [{
+				id: "3FE59F94B8130650"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5EB290B5040636DC"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+				{
+					id: "297D0FB789465A63"
+					item: "storagedrawers:quantify_key"
+					type: "item"
+				}
+				{
+					id: "44F054EFAE7488CF"
+					item: "storagedrawers:shroud_key"
+					type: "item"
+				}
+				{
+					id: "45AD09E738FA64FE"
+					item: "storagedrawers:personal_key"
+					type: "item"
+				}
+				{
+					id: "25F3056D474311B7"
+					item: "storagedrawers:priority_key"
+					type: "item"
+				}
+				{
+					id: "773BFC9731F3FB30"
+					item: "storagedrawers:suspend_key"
+					type: "item"
+				}
+				{
+					id: "7FD5D97CCF4E6797"
+					item: "storagedrawers:keyring"
+					type: "item"
+				}
+			]
+			title: "Les clés des tiroirs"
+			x: 4.0d
 			y: 8.75d
+		}
+		{
+			dependencies: ["17FD9B5F111987DE"]
+			description: ["L'extracteur retire une case d'un bloc de tiroirs en gardant son contenu ; la case détachée se remet dans un bloc où il manque une case."]
+			icon: "storagedrawers:drawer_puller"
+			id: "5DF02049EFD5F409"
+			optional: true
+			rewards: [{
+				id: "2CECFE260C0DE4AC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "581DE7B87C19B0E8"
+					item: "storagedrawers:drawer_puller"
+					type: "item"
+				}
+				{
+					id: "5FF7ED0A578A23D6"
+					item: "storagedrawers:detached_drawer"
+					type: "item"
+				}
+			]
+			title: "Tirer un tiroir"
+			x: 4.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["0326FE4A288CDE66"]
+			description: ["Le palier suivant : seize mille objets par disque. Chaque disque se fait d'un boîtier et d'une pièce de stockage du palier."]
+			icon: "refinedstorage:16k_storage_disk"
+			id: "4B806B509DCDF272"
+			optional: true
+			rewards: [{
+				id: "74E665D4512E7B96"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D2A1EC910DD2AFF"
+				item: "refinedstorage:16k_storage_disk"
+				type: "item"
+			}]
+			title: "Un disque de 16k"
+			x: 8.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["08E7DF84B5DDBED2"]
+			description: ["Les fluides ont leurs propres disques : 64k, 256k, 1024k."]
+			icon: "refinedstorage:64k_fluid_storage_disk"
+			id: "437972DB12DFE5EF"
+			optional: true
+			rewards: [{
+				id: "5B537D9E963ACA9E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3C3C1A377C428C23"
+					item: "refinedstorage:64k_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "4E823BE5E67023E2"
+					item: "refinedstorage:256k_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "0D163B7B8DBCF1CA"
+					item: "refinedstorage:1024k_fluid_storage_disk"
+					type: "item"
+				}
+			]
+			title: "Les disques de fluides"
+			x: 12.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["437972DB12DFE5EF"]
+			description: ["Le plus grand disque de fluides de Refined Storage."]
+			icon: "refinedstorage:4096k_fluid_storage_disk"
+			id: "525D46182DC4C853"
+			optional: true
+			rewards: [{
+				id: "7EB6B8FE5D3D5D77"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "10DCE6323B39EE06"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+				type: "item"
+			}]
+			title: "&6Le disque de fluides de 4096k"
+			x: 14.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["08E7DF84B5DDBED2"]
+			description: ["Les mêmes pièces de stockage en blocs posés sur le réseau, sans lecteur de disques."]
+			icon: "refinedstorage:1k_storage_block"
+			id: "26ED2DE262B41BCA"
+			optional: true
+			rewards: [{
+				id: "3F2C97B090ECE148"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6B663E9F97CC7DC1"
+					item: "refinedstorage:1k_storage_block"
+					type: "item"
+				}
+				{
+					id: "4EE3924BB3EAC91E"
+					item: "refinedstorage:4k_storage_block"
+					type: "item"
+				}
+				{
+					id: "4BD1189221D53069"
+					item: "refinedstorage:16k_storage_block"
+					type: "item"
+				}
+				{
+					id: "75A927C83E055317"
+					item: "refinedstorage:64k_storage_block"
+					type: "item"
+				}
+			]
+			title: "Les blocs de stockage"
+			x: 12.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["6F1ED0766DB16596"]
+			description: ["Basique, amélioré, avancé : les processeurs des machines du réseau, du plus simple au plus avancé."]
+			icon: "refinedstorage:basic_processor"
+			id: "7C1A299BCABBF078"
+			optional: true
+			rewards: [{
+				id: "39ABEA43C3104ABF"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "689CB3FDA959C6D5"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "2503ECA2C4B02998"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "06B50996BC1E261E"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			title: "Les trois processeurs"
+			x: 6.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["7C1A299BCABBF078"]
+			description: ["Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau."]
+			icon: "refinedstorage:upgrade"
+			id: "486E5E51335DDD50"
+			optional: true
+			rewards: [{
+				id: "5E4A5FC9660D6032"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0940A4E5DE2CD727"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			title: "Une amélioration vierge"
+			x: 8.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["486E5E51335DDD50"]
+			description: ["Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau."]
+			icon: "refinedstorage:speed_upgrade"
+			id: "6DAB901199DEEC52"
+			optional: true
+			rewards: [{
+				id: "617D99271024B2D4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10DE9661DD8E8851"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de vitesse"
+			x: 10.0d
+			y: 25.25d
+		}
+		{
+			dependencies: ["486E5E51335DDD50"]
+			description: ["Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau."]
+			icon: "refinedstorage:range_upgrade"
+			id: "3CB519EF1C93817E"
+			optional: true
+			rewards: [{
+				id: "0F376D9354E37A65"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4611CCAED07BE893"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de portée"
+			x: 10.0d
+			y: 26.75d
+		}
+		{
+			dependencies: ["486E5E51335DDD50"]
+			description: ["Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau."]
+			icon: "refinedstorage:crafting_upgrade"
+			id: "69B35AB69EFD5E94"
+			optional: true
+			rewards: [{
+				id: "21F91A3032C57B97"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00E9B0B17FC40A56"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de fabrication"
+			x: 10.0d
+			y: 28.25d
+		}
+		{
+			dependencies: ["486E5E51335DDD50"]
+			description: ["Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau."]
+			icon: "refinedstorage:stack_upgrade"
+			id: "00402D6FDAC061DB"
+			optional: true
+			rewards: [{
+				id: "32D2DD4878DFC81D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DAA08A58265D1E9"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de pile"
+			x: 10.0d
+			y: 29.75d
+		}
+		{
+			dependencies: ["486E5E51335DDD50"]
+			description: ["Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau."]
+			icon: "refinedstorage:silk_touch_upgrade"
+			id: "682F4A7C71E9ED5A"
+			optional: true
+			rewards: [{
+				id: "66CA3A7275EFE1E9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2179EC59DB41565E"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration toucher de soie"
+			x: 10.0d
+			y: 31.25d
+		}
+		{
+			dependencies: ["486E5E51335DDD50"]
+			description: ["Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau."]
+			icon: "refinedstorage:regulator_upgrade"
+			id: "0CAA163E41FCBB05"
+			optional: true
+			rewards: [{
+				id: "3F9F181DA8C7FAB9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "054D930C3D98E922"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration régulatrice"
+			x: 10.0d
+			y: 32.75d
+		}
+		{
+			dependencies: ["486E5E51335DDD50"]
+			description: ["Pour le destructeur : trois paliers de Fortune."]
+			icon: "refinedstorage:fortune_1_upgrade"
+			id: "32DE27BFA42C4706"
+			optional: true
+			rewards: [{
+				id: "308ACD6FC6AAAF57"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "12D13B545D848465"
+					item: "refinedstorage:fortune_1_upgrade"
+					type: "item"
+				}
+				{
+					id: "6B4EDBE4DE45BF3E"
+					item: "refinedstorage:fortune_2_upgrade"
+					type: "item"
+				}
+				{
+					id: "6A75393DB3C7B85F"
+					item: "refinedstorage:fortune_3_upgrade"
+					type: "item"
+				}
+			]
+			title: "Les améliorations Fortune I à III"
+			x: 10.0d
+			y: 34.25d
+		}
+		{
+			dependencies: ["2CABE318DD02D390"]
+			description: ["Un émetteur, un récepteur et une carte réseau relient deux réseaux éloignés ; le relais coupe ou rétablit la liaison selon un signal de redstone."]
+			icon: "refinedstorage:network_transmitter"
+			id: "66C4009EEFC87382"
+			optional: true
+			rewards: [{
+				id: "71C9A5F7467D55A5"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "486D9B8E95A95498"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "034BAD3567B363D0"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+				{
+					id: "6079E762A348687D"
+					item: "refinedstorage:network_card"
+					type: "item"
+				}
+				{
+					id: "5FF53181B694096A"
+					item: "refinedstorage:relay"
+					type: "item"
+				}
+			]
+			title: "Étendre le réseau"
+			x: 10.0d
+			y: 35.75d
+		}
+		{
+			dependencies: [
+				"2CABE318DD02D390"
+				"17B227A006963B61"
+			]
+			description: ["Grille de fluides et moniteur de fabrication sans fil, et la grille portable, qui lit les disques sans réseau."]
+			icon: "refinedstorage:wireless_fluid_grid"
+			id: "3AE959F697043357"
+			optional: true
+			rewards: [{
+				id: "0622D69E3F34FD80"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "600233819D13D09E"
+					item: "refinedstorage:wireless_fluid_grid"
+					type: "item"
+				}
+				{
+					id: "6CAC233DCAC534ED"
+					item: "refinedstorage:wireless_crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "5E1DF180F0FB31F5"
+					item: "refinedstorage:portable_grid"
+					type: "item"
+				}
+			]
+			title: "Tout en sans-fil"
+			x: 14.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["409451D8AC394F87"]
+			description: ["Le gestionnaire de sécurité et ses cartes décident qui peut faire quoi sur le réseau."]
+			icon: "refinedstorage:security_manager"
+			id: "22B60C0B9E4799E1"
+			optional: true
+			rewards: [{
+				id: "53584F166D921B33"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2D7812913B14533A"
+					item: "refinedstorage:security_manager"
+					type: "item"
+				}
+				{
+					id: "0EA9F0938A0416F3"
+					item: "refinedstorage:security_card"
+					type: "item"
+				}
+			]
+			title: "La sécurité du réseau"
+			x: 4.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["1886A360AA06D4C2"]
+			description: ["L'interface importe et exporte à la fois, le détecteur émet un signal selon un stock, le moniteur affiche un objet, le manipulateur de disques modifie un disque, le gestionnaire de fabricateurs les réunit, la grille de fluides montre les fluides."]
+			icon: "refinedstorage:interface"
+			id: "3F53920C95291A1D"
+			optional: true
+			rewards: [{
+				id: "10600401805713C8"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6232602A7F07F96B"
+					item: "refinedstorage:interface"
+					type: "item"
+				}
+				{
+					id: "31ECAD2ADF9B9E25"
+					item: "refinedstorage:fluid_interface"
+					type: "item"
+				}
+				{
+					id: "50E743D3E5BCE004"
+					item: "refinedstorage:detector"
+					type: "item"
+				}
+				{
+					id: "2E69995AAED2C938"
+					item: "refinedstorage:storage_monitor"
+					type: "item"
+				}
+				{
+					id: "493F195AD8522368"
+					item: "refinedstorage:disk_manipulator"
+					type: "item"
+				}
+				{
+					id: "325EFDBA6E64F1CC"
+					item: "refinedstorage:crafter_manager"
+					type: "item"
+				}
+				{
+					id: "0F0C849A5AA4D90F"
+					item: "refinedstorage:fluid_grid"
+					type: "item"
+				}
+			]
+			title: "Interfaces et détecteurs"
+			x: 6.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["2B7A85C26A972B5E"]
+			description: ["Dans un câble d'export ou d'import filtré, elle accélère l'import et l'export."]
+			icon: "storagenetwork:speed_upgrade"
+			id: "5D8935025FF90151"
+			optional: true
+			rewards: [{
+				id: "3C44A50D5DC27E9B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "211DF37B6983381C"
+				item: "storagenetwork:speed_upgrade"
+				type: "item"
+			}]
+			title: "SSN : l'amélioration de vitesse"
+			x: 8.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2B7A85C26A972B5E"]
+			description: ["Dans un câble d'export ou d'import filtré, elle augmente la taille de chaque transfert."]
+			icon: "storagenetwork:stack_upgrade"
+			id: "4158CDFD4B590329"
+			optional: true
+			rewards: [{
+				id: "15B1DC8962C30DA3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "145E8C826EA9D95C"
+				item: "storagenetwork:stack_upgrade"
+				type: "item"
+			}]
+			title: "SSN : l'amélioration de pile"
+			x: 8.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["2B7A85C26A972B5E"]
+			description: ["Dans un câble d'export ou d'import filtré, elle ralentit l'import et l'export."]
+			icon: "storagenetwork:slow_upgrade"
+			id: "7DBC80843AFC1EF4"
+			optional: true
+			rewards: [{
+				id: "0F022F4F08602379"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3893BA4D011E7D4B"
+				item: "storagenetwork:slow_upgrade"
+				type: "item"
+			}]
+			title: "SSN : l'amélioration de lenteur"
+			x: 8.0d
+			y: 14.75d
+		}
+		{
+			dependencies: ["2B7A85C26A972B5E"]
+			description: ["Dans un câble d'export ou d'import filtré, elle transfère un objet à la fois."]
+			icon: "storagenetwork:single_upgrade"
+			id: "275BFA10F2065A79"
+			optional: true
+			rewards: [{
+				id: "04B3B2D0A0596698"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57B7CA6F656218CC"
+				item: "storagenetwork:single_upgrade"
+				type: "item"
+			}]
+			title: "SSN : l'amélioration unitaire"
+			x: 8.0d
+			y: 16.25d
+		}
+		{
+			dependencies: ["2B7A85C26A972B5E"]
+			description: ["Dans un câble d'export ou d'import filtré, elle traite la quantité indiquée dans le filtre."]
+			icon: "storagenetwork:operation_upgrade"
+			id: "3C2F52B155B21657"
+			optional: true
+			rewards: [{
+				id: "719C894F836B53F8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D0F1A2F1D0BCA82"
+				item: "storagenetwork:operation_upgrade"
+				type: "item"
+			}]
+			title: "SSN : l'amélioration d'opération"
+			x: 8.0d
+			y: 17.75d
+		}
+		{
+			dependencies: ["2B7A85C26A972B5E"]
+			description: ["Dans un câble d'export ou d'import filtré, elle garde un stock constant dans l'inventaire relié."]
+			icon: "storagenetwork:stock_upgrade"
+			id: "2AA9061D14F43D22"
+			optional: true
+			rewards: [{
+				id: "29F04EC37EE151A1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36B07577FE9994AF"
+				item: "storagenetwork:stock_upgrade"
+				type: "item"
+			}]
+			title: "SSN : l'amélioration de stock"
+			x: 8.0d
+			y: 19.25d
+		}
+		{
+			dependencies: ["6CDB67476671F2D6"]
+			description: ["Liées à la racine du réseau : fabrication à distance, inventaire étendu, cueillette des blocs correspondants, construction, collecte des objets ramassés."]
+			icon: "storagenetwork:crafting_remote"
+			id: "2F060D001B4555CB"
+			optional: true
+			rewards: [{
+				id: "10A21AB0191D1839"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "33A35D6637C93401"
+					item: "storagenetwork:crafting_remote"
+					type: "item"
+				}
+				{
+					id: "397A82189A1BD25F"
+					item: "storagenetwork:expanded_remote"
+					type: "item"
+				}
+				{
+					id: "3123C91B4C843FD0"
+					item: "storagenetwork:picker_remote"
+					type: "item"
+				}
+				{
+					id: "28E3A094C802FBF2"
+					item: "storagenetwork:builder_remote"
+					type: "item"
+				}
+				{
+					id: "51A3C0FE5EB253EF"
+					item: "storagenetwork:collector_remote"
+					type: "item"
+				}
+			]
+			title: "SSN : toutes les télécommandes"
+			x: 10.0d
+			y: 37.25d
+		}
+		{
+			dependencies: ["2B7A85C26A972B5E"]
+			description: ["Câbles avec filtres, l'échangeur (point de sortie du réseau vers un inventaire) et le terminal de requête étendu."]
+			icon: "storagenetwork:filter_kabel"
+			id: "0C6124D92ED561D1"
+			optional: true
+			rewards: [{
+				id: "4E72D502B4B73F97"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1AAADA1ACA74CC5F"
+					item: "storagenetwork:filter_kabel"
+					type: "item"
+				}
+				{
+					id: "66FA6FEA7EFD59CA"
+					item: "storagenetwork:import_filter_kabel"
+					type: "item"
+				}
+				{
+					id: "161F65CB8C3785E1"
+					item: "storagenetwork:exchange"
+					type: "item"
+				}
+				{
+					id: "0D4464A59117BFA8"
+					item: "storagenetwork:request_expanded"
+					type: "item"
+				}
+			]
+			title: "SSN : câbles filtrés et échangeur"
+			x: 8.0d
+			y: 20.75d
 		}
 	]
 	title: "&6Stockage"

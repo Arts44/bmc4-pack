@@ -1,0 +1,454 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_boucliers"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:shield"
+	id: "533DD213C861A32E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque bouclier du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là."]
+			icon: "minecraft:shield"
+			id: "40B932D447007E19"
+			rewards: [{
+				id: "53F4079335E992D9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "72D57BF68B4C6088"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Boucliers"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Bouclier de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:shield"
+			id: "039C4FF7CF714D2F"
+			optional: true
+			rewards: [{
+				id: "210D77ED8CF55C3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DBD19AE6D1471EB"
+				item: "minecraft:shield"
+				type: "item"
+			}]
+			title: "Bouclier"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:moonstone_shield"
+			id: "2AA199B810621ED9"
+			optional: true
+			rewards: [{
+				id: "40D0F2E2E30290D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "080C63ABD207CD65"
+				item: "blue_skies:moonstone_shield"
+				type: "item"
+			}]
+			title: "Bouclier en pierre de lune"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:spike_shield"
+			id: "0FFAE6F9E39FFA12"
+			optional: true
+			rewards: [{
+				id: "5CD08EA0D0D854E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CF23D8D541E708C"
+				item: "blue_skies:spike_shield"
+				type: "item"
+			}]
+			title: "Bouclier spéléothème"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:azure_sea_shield"
+			id: "79DC2C9CAE46F459"
+			optional: true
+			rewards: [{
+				id: "0F8F299081067D3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B3FE55A2914E99D"
+				item: "cataclysm:azure_sea_shield"
+				type: "item"
+			}]
+			title: "« Azure Sea Shield »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:black_steel_targe"
+			id: "404A5AFD6092E383"
+			optional: true
+			rewards: [{
+				id: "4602E9C5F928CC43"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CA6C47276017690"
+				item: "cataclysm:black_steel_targe"
+				type: "item"
+			}]
+			title: "« Black Steel Targe »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:bulwark_of_the_flame"
+			id: "263C599C4CFF16CA"
+			optional: true
+			rewards: [{
+				id: "06D13F7BFEB9C345"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "676B20023C560C8B"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			title: "« Bulwark of the Flame »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:wind_shield"
+			id: "7BCF32D462BEE3A6"
+			optional: true
+			rewards: [{
+				id: "0DDEF2EE0C691B3F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77268518796D7F9A"
+				item: "deep_aether:wind_shield"
+				type: "item"
+			}]
+			title: "« Wind Shield »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "lost_aether_content:gravitite_shield"
+			id: "7EE0D387FE6B31DE"
+			optional: true
+			rewards: [{
+				id: "739175F753193072"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C51CC57AD8A1E1B"
+				item: "lost_aether_content:gravitite_shield"
+				type: "item"
+			}]
+			title: "Bouclier en Gravitite"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "lost_aether_content:sentry_shield"
+			id: "6F3D930F512D8A90"
+			optional: true
+			rewards: [{
+				id: "673524ADCF9A63AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32BF38BF97628FD2"
+				item: "lost_aether_content:sentry_shield"
+				type: "item"
+			}]
+			title: "Bouclier Sentinelle"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "lost_aether_content:shield_of_emile"
+			id: "15C5A1518467F6AE"
+			optional: true
+			rewards: [{
+				id: "5AFDFA728FF15D12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BB10F1BC87FAC44"
+				item: "lost_aether_content:shield_of_emile"
+				type: "item"
+			}]
+			title: "« Shield of Emile »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "lost_aether_content:zanite_shield"
+			id: "205790BAC6858E04"
+			optional: true
+			rewards: [{
+				id: "560B3D1A624683E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3AECB1E5A0E1D135"
+				item: "lost_aether_content:zanite_shield"
+				type: "item"
+			}]
+			title: "Bouclier en Zanite"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée."]
+			icon: "shieldexp:diamond_shield"
+			id: "713193812870969A"
+			optional: true
+			rewards: [{
+				id: "7F6C6B2B1AD85FD9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "212D56E6B5DEF27A"
+				item: "shieldexp:diamond_shield"
+				type: "item"
+			}]
+			title: "« Diamond Shield »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée."]
+			icon: "shieldexp:golden_shield"
+			id: "7CED2ED0B0B8FFEC"
+			optional: true
+			rewards: [{
+				id: "2B5A547AE73824EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E3B8A953A0972CD"
+				item: "shieldexp:golden_shield"
+				type: "item"
+			}]
+			title: "« Golden Shield »"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée."]
+			icon: "shieldexp:iron_shield"
+			id: "3ED7C43AD089CA64"
+			optional: true
+			rewards: [{
+				id: "5BC7A4757CD24DD5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C126A1189B772D1"
+				item: "shieldexp:iron_shield"
+				type: "item"
+			}]
+			title: "« Iron Shield »"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée."]
+			icon: "shieldexp:netherite_shield"
+			id: "3690BF95B92A712E"
+			optional: true
+			rewards: [{
+				id: "1114D7FBD9FA9157"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1168BD6D9EBD38FF"
+				item: "shieldexp:netherite_shield"
+				type: "item"
+			}]
+			title: "« Netherite Shield »"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée."]
+			icon: "shieldexp:wooden_shield"
+			id: "41AC1ADE3D560A21"
+			optional: true
+			rewards: [{
+				id: "54AC03467E959FD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D53C0FB91AE068C"
+				item: "shieldexp:wooden_shield"
+				type: "item"
+			}]
+			title: "« Wooden Shield »"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Bouclier de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_shield"
+			id: "41BE4A8E49077A1B"
+			optional: true
+			rewards: [{
+				id: "41C681E11545B41E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F467B789209E966"
+				item: "stalwart_dungeons:chorundum_shield"
+				type: "item"
+			}]
+			title: "« §eChorundum Shield »"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Bouclier de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_shield"
+			id: "6F6DEC31ACD36ABF"
+			optional: true
+			rewards: [{
+				id: "7B9886433B26CB84"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7736AC3166649D93"
+				item: "stalwart_dungeons:tungsten_shield"
+				type: "item"
+			}]
+			title: "« §eTungsten Shield »"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Bouclier de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:knightmetal_shield"
+			id: "1BBC1BCD04ED06A5"
+			optional: true
+			rewards: [{
+				id: "187263E302D61097"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44B293632A0A3A72"
+				item: "twilightforest:knightmetal_shield"
+				type: "item"
+			}]
+			title: "Bouclier chevaleresque"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"039C4FF7CF714D2F"
+				"2AA199B810621ED9"
+				"0FFAE6F9E39FFA12"
+				"79DC2C9CAE46F459"
+				"404A5AFD6092E383"
+				"263C599C4CFF16CA"
+				"7BCF32D462BEE3A6"
+				"7EE0D387FE6B31DE"
+				"6F3D930F512D8A90"
+				"15C5A1518467F6AE"
+				"205790BAC6858E04"
+				"713193812870969A"
+				"7CED2ED0B0B8FFEC"
+				"3ED7C43AD089CA64"
+				"3690BF95B92A712E"
+				"41AC1ADE3D560A21"
+				"41BE4A8E49077A1B"
+				"6F6DEC31ACD36ABF"
+				"1BBC1BCD04ED06A5"
+			]
+			description: ["Tous les boucliers de ce chapitre réunies."]
+			icon: "minecraft:shield"
+			id: "41F4D183AB10312F"
+			optional: true
+			rewards: [{
+				id: "1B638566EB0D6F6C"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "36470F5B05860681"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Tous les boucliers"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&7Boucliers"
+}

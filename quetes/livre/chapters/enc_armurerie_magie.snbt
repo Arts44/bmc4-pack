@@ -1,0 +1,3876 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_armurerie_magie"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_chestplate"
+	id: "14C5A6D87AB7CE3A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Chaque pièce d'armure des mods de magie, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé."
+				""
+				"Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre."
+			]
+			icon: "minecraft:iron_chestplate"
+			id: "18D495F66980D0ED"
+			rewards: [{
+				id: "197FB2D615148B16"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6F52FBB248EA6850"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cArmurerie — magie"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:alchemist_supreme_helmet"
+			id: "666BDDD722244CFD"
+			optional: true
+			rewards: [{
+				id: "2B76726056E03DDE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2243268D838FD24F"
+				item: "hazennstuff:alchemist_supreme_helmet"
+				type: "item"
+			}]
+			title: "« Alchemist Supreme Hat »"
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:alchemist_supreme_chestplate"
+			id: "05A831EA898EFF89"
+			optional: true
+			rewards: [{
+				id: "101E0882DA24A19B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "324DB312D96563E4"
+				item: "hazennstuff:alchemist_supreme_chestplate"
+				type: "item"
+			}]
+			title: "« Alchemist Supreme Robes »"
+			x: 1.5d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:alchemist_supreme_leggings"
+			id: "5ABC1D73F4C31372"
+			optional: true
+			rewards: [{
+				id: "29E3D855AB2D7B62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24F1DC81D957824F"
+				item: "hazennstuff:alchemist_supreme_leggings"
+				type: "item"
+			}]
+			title: "« Alchemist Supreme Leggings »"
+			x: 3.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:alchemist_supreme_boots"
+			id: "5702F4A7C8A57069"
+			optional: true
+			rewards: [{
+				id: "6C67FEF8E4C271A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "278BB4AA80D883ED"
+				item: "hazennstuff:alchemist_supreme_boots"
+				type: "item"
+			}]
+			title: "« Alchemist Supreme Boots »"
+			x: 4.5d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"666BDDD722244CFD"
+				"05A831EA898EFF89"
+				"5ABC1D73F4C31372"
+				"5702F4A7C8A57069"
+			]
+			description: ["Toutes les pièces de l'ensemble « Alchemist Supreme » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:alchemist_supreme_chestplate"
+			id: "5B1A06A7CC6CB870"
+			optional: true
+			rewards: [{
+				id: "638C582F78ECBB50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3BB5EC825DF9175E"
+					item: "hazennstuff:alchemist_supreme_helmet"
+					type: "item"
+				}
+				{
+					id: "263C3AE810D4835A"
+					item: "hazennstuff:alchemist_supreme_chestplate"
+					type: "item"
+				}
+				{
+					id: "659811669EDD1045"
+					item: "hazennstuff:alchemist_supreme_leggings"
+					type: "item"
+				}
+				{
+					id: "7DAABD8664C3A402"
+					item: "hazennstuff:alchemist_supreme_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Alchemist Supreme »"
+			x: 6.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:atlas_helmet"
+			id: "478E9B41B906255A"
+			optional: true
+			rewards: [{
+				id: "134F3111724FCD92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D11B138AC6C1564"
+				item: "hazennstuff:atlas_helmet"
+				type: "item"
+			}]
+			title: "« Atlas's Helmet »"
+			x: 7.5d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:atlas_chestplate"
+			id: "558BEFD3855E9417"
+			optional: true
+			rewards: [{
+				id: "7A45D0EA7601D47B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5148A7D58C0BA3C0"
+				item: "hazennstuff:atlas_chestplate"
+				type: "item"
+			}]
+			title: "« Atlas's Chestplate »"
+			x: 9.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:atlas_leggings"
+			id: "6EA37806B05C1F35"
+			optional: true
+			rewards: [{
+				id: "06D89CF542F4C564"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1910A17E3846460F"
+				item: "hazennstuff:atlas_leggings"
+				type: "item"
+			}]
+			title: "« Atlas's Leggings »"
+			x: 10.5d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:atlas_boots"
+			id: "5468645E78FE71A4"
+			optional: true
+			rewards: [{
+				id: "6B1CF5D4B2DA53E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65985661C637B173"
+				item: "hazennstuff:atlas_boots"
+				type: "item"
+			}]
+			title: "« Atlas's Boots »"
+			x: 12.0d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"478E9B41B906255A"
+				"558BEFD3855E9417"
+				"6EA37806B05C1F35"
+				"5468645E78FE71A4"
+			]
+			description: ["Toutes les pièces de l'ensemble « Atlas's » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:atlas_chestplate"
+			id: "56A03B351852E7F4"
+			optional: true
+			rewards: [{
+				id: "6C5F19A696C6226B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "04807B5904FC7969"
+					item: "hazennstuff:atlas_helmet"
+					type: "item"
+				}
+				{
+					id: "67DFDDB18D4E8F21"
+					item: "hazennstuff:atlas_chestplate"
+					type: "item"
+				}
+				{
+					id: "70007D70AB3B298E"
+					item: "hazennstuff:atlas_leggings"
+					type: "item"
+				}
+				{
+					id: "7E8A4BF465C203F8"
+					item: "hazennstuff:atlas_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Atlas's »"
+			x: 13.5d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:blazeborne_helmet"
+			id: "3906A29EE14DB5F8"
+			optional: true
+			rewards: [{
+				id: "6B397AE75B2BD975"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "619AB5D1A4950D74"
+				item: "hazennstuff:blazeborne_helmet"
+				type: "item"
+			}]
+			title: "« Blazeborne Helmet »"
+			x: 15.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:blazeborne_chestplate"
+			id: "06D8A1FCD0E727AB"
+			optional: true
+			rewards: [{
+				id: "7954EA221E8E836D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D85B27A9B70266F"
+				item: "hazennstuff:blazeborne_chestplate"
+				type: "item"
+			}]
+			title: "« Blazeborne Chestplate »"
+			x: 16.5d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:blazeborne_leggings"
+			id: "15DD5BB24813CBA9"
+			optional: true
+			rewards: [{
+				id: "08A22351862E9D26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1562D725828EFAA3"
+				item: "hazennstuff:blazeborne_leggings"
+				type: "item"
+			}]
+			title: "« Blazeborne Leggings »"
+			x: 18.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:blazeborne_boots"
+			id: "3DE7C7CD6A2864BF"
+			optional: true
+			rewards: [{
+				id: "6E11C03152CC8A60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10E6AF5712465133"
+				item: "hazennstuff:blazeborne_boots"
+				type: "item"
+			}]
+			title: "« Blazeborne Boots »"
+			x: 19.5d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"3906A29EE14DB5F8"
+				"06D8A1FCD0E727AB"
+				"15DD5BB24813CBA9"
+				"3DE7C7CD6A2864BF"
+			]
+			description: ["Toutes les pièces de l'ensemble « Blazeborne » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:blazeborne_chestplate"
+			id: "76208E1623557282"
+			optional: true
+			rewards: [{
+				id: "71CFE27A4B97E4FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31B6C9C6845A289A"
+					item: "hazennstuff:blazeborne_helmet"
+					type: "item"
+				}
+				{
+					id: "4C7730EA86236D80"
+					item: "hazennstuff:blazeborne_chestplate"
+					type: "item"
+				}
+				{
+					id: "478381067C62DC12"
+					item: "hazennstuff:blazeborne_leggings"
+					type: "item"
+				}
+				{
+					id: "769D7CA265F98F48"
+					item: "hazennstuff:blazeborne_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Blazeborne »"
+			x: 21.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:creaking_sorcerer_helmet"
+			id: "66F659242BD27149"
+			optional: true
+			rewards: [{
+				id: "63A373983606D215"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F7F9D22A23C0BC2"
+				item: "hazennstuff:creaking_sorcerer_helmet"
+				type: "item"
+			}]
+			title: "« Creaking Sorcerer Mask »"
+			x: 22.5d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:creaking_sorcerer_chestplate"
+			id: "06268D54D7877AD7"
+			optional: true
+			rewards: [{
+				id: "3CE38838EC2BC91A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54F1811A6E53AADC"
+				item: "hazennstuff:creaking_sorcerer_chestplate"
+				type: "item"
+			}]
+			title: "« Creaking Sorcerer Chestplate »"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:creaking_sorcerer_leggings"
+			id: "3715C91641DCE79A"
+			optional: true
+			rewards: [{
+				id: "09653C0F53008F7C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39003C2B383C239B"
+				item: "hazennstuff:creaking_sorcerer_leggings"
+				type: "item"
+			}]
+			title: "« Creaking Sorcerer Leggings »"
+			x: 1.5d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:creaking_sorcerer_boots"
+			id: "7D199F1045FD636C"
+			optional: true
+			rewards: [{
+				id: "21034FC8CB295926"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B5622D213AD59CD"
+				item: "hazennstuff:creaking_sorcerer_boots"
+				type: "item"
+			}]
+			title: "« Creaking Sorcerer Boots »"
+			x: 3.0d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"66F659242BD27149"
+				"06268D54D7877AD7"
+				"3715C91641DCE79A"
+				"7D199F1045FD636C"
+			]
+			description: ["Toutes les pièces de l'ensemble « Creaking Sorcerer » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:creaking_sorcerer_chestplate"
+			id: "7949010E7815D7E6"
+			optional: true
+			rewards: [{
+				id: "6964967D35F43B0F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "69AE86BB14FDF934"
+					item: "hazennstuff:creaking_sorcerer_helmet"
+					type: "item"
+				}
+				{
+					id: "739A56760066332E"
+					item: "hazennstuff:creaking_sorcerer_chestplate"
+					type: "item"
+				}
+				{
+					id: "03700888DC306360"
+					item: "hazennstuff:creaking_sorcerer_leggings"
+					type: "item"
+				}
+				{
+					id: "3DE657969341356D"
+					item: "hazennstuff:creaking_sorcerer_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Creaking Sorcerer »"
+			x: 4.5d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:cryogenic_ruler_helmet"
+			id: "081D99B8B223DE1B"
+			optional: true
+			rewards: [{
+				id: "30FD74B1AD36A33C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F51D9A243979DB8"
+				item: "hazennstuff:cryogenic_ruler_helmet"
+				type: "item"
+			}]
+			title: "« Cryogenic Ruler's Crown »"
+			x: 6.0d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:cryogenic_ruler_chestplate"
+			id: "78F2F197E05F5EE5"
+			optional: true
+			rewards: [{
+				id: "12AD0803B26A3320"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F5D55C7DBB22262"
+				item: "hazennstuff:cryogenic_ruler_chestplate"
+				type: "item"
+			}]
+			title: "« Cryogenic Ruler's Chestplate »"
+			x: 7.5d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:cryogenic_ruler_leggings"
+			id: "764675652F0FE90D"
+			optional: true
+			rewards: [{
+				id: "69C768B569EF4706"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DAE8356A050F7CF"
+				item: "hazennstuff:cryogenic_ruler_leggings"
+				type: "item"
+			}]
+			title: "« Cryogenic Ruler's Leggings »"
+			x: 9.0d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:cryogenic_ruler_boots"
+			id: "622892683324D221"
+			optional: true
+			rewards: [{
+				id: "5B2539E7E16EB2DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77BA3486C58F1BE1"
+				item: "hazennstuff:cryogenic_ruler_boots"
+				type: "item"
+			}]
+			title: "« Flurry Boots »"
+			x: 10.5d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"081D99B8B223DE1B"
+				"78F2F197E05F5EE5"
+				"764675652F0FE90D"
+				"622892683324D221"
+			]
+			description: ["Toutes les pièces de l'ensemble « Cryogenic Ruler's » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:cryogenic_ruler_chestplate"
+			id: "60B6F0B4F21202A2"
+			optional: true
+			rewards: [{
+				id: "7B2BC869430582E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "027C254D9A7933A9"
+					item: "hazennstuff:cryogenic_ruler_helmet"
+					type: "item"
+				}
+				{
+					id: "469EB55C0B31C504"
+					item: "hazennstuff:cryogenic_ruler_chestplate"
+					type: "item"
+				}
+				{
+					id: "3833F77C76F23047"
+					item: "hazennstuff:cryogenic_ruler_leggings"
+					type: "item"
+				}
+				{
+					id: "53B9549F05DDF276"
+					item: "hazennstuff:cryogenic_ruler_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Cryogenic Ruler's »"
+			x: 12.0d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:ender_dragon_helmet"
+			id: "7BA14584FF2B7EFE"
+			optional: true
+			rewards: [{
+				id: "0239AE37FEE01B79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44EA6B964FD3A3A8"
+				item: "hazennstuff:ender_dragon_helmet"
+				type: "item"
+			}]
+			title: "« Ender Dragon Horns »"
+			x: 13.5d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:ender_dragon_chestplate"
+			id: "0DE1B4CB28A3FCA5"
+			optional: true
+			rewards: [{
+				id: "27B91C740CC1904E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23BD209F10B4038E"
+				item: "hazennstuff:ender_dragon_chestplate"
+				type: "item"
+			}]
+			title: "« Ender Dragon Chestplate »"
+			x: 15.0d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:ender_dragon_leggings"
+			id: "4C9BEC148AD2CE03"
+			optional: true
+			rewards: [{
+				id: "0856A849B569AD41"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DC35BFC2CF1DCAF"
+				item: "hazennstuff:ender_dragon_leggings"
+				type: "item"
+			}]
+			title: "« Ender Dragon Leggings »"
+			x: 16.5d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:ender_dragon_boots"
+			id: "46F8791E51E67D9F"
+			optional: true
+			rewards: [{
+				id: "19BF8A9E4A2555AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62C6D970B8820082"
+				item: "hazennstuff:ender_dragon_boots"
+				type: "item"
+			}]
+			title: "« Ender Dragon Boots »"
+			x: 18.0d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"7BA14584FF2B7EFE"
+				"0DE1B4CB28A3FCA5"
+				"4C9BEC148AD2CE03"
+				"46F8791E51E67D9F"
+			]
+			description: ["Toutes les pièces de l'ensemble « Ender Dragon » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:ender_dragon_chestplate"
+			id: "5359594A8E3FDD86"
+			optional: true
+			rewards: [{
+				id: "2260F9DEA2046F73"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3093E40FDCD27112"
+					item: "hazennstuff:ender_dragon_helmet"
+					type: "item"
+				}
+				{
+					id: "01A75CBCB9639949"
+					item: "hazennstuff:ender_dragon_chestplate"
+					type: "item"
+				}
+				{
+					id: "607F27C4DD384433"
+					item: "hazennstuff:ender_dragon_leggings"
+					type: "item"
+				}
+				{
+					id: "1528AC07472139C9"
+					item: "hazennstuff:ender_dragon_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Ender Dragon »"
+			x: 19.5d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:fireblossom_battlemage_helmet"
+			id: "4495FEB47DE5F3E5"
+			optional: true
+			rewards: [{
+				id: "235B7BEFED50520E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77705F08BCF5AEC1"
+				item: "hazennstuff:fireblossom_battlemage_helmet"
+				type: "item"
+			}]
+			title: "« Fireblossom Battlemage Helmet »"
+			x: 21.0d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:fireblossom_battlemage_chestplate"
+			id: "2FA9FCF83D1E6290"
+			optional: true
+			rewards: [{
+				id: "75F39C125403BE1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "416D1FA0D07F51F8"
+				item: "hazennstuff:fireblossom_battlemage_chestplate"
+				type: "item"
+			}]
+			title: "« Fireblossom Battlemage Chestplate »"
+			x: 22.5d
+			y: -5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:fireblossom_battlemage_leggings"
+			id: "715B90FC759F15CF"
+			optional: true
+			rewards: [{
+				id: "558DA6797F7877BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "543141763A2040C5"
+				item: "hazennstuff:fireblossom_battlemage_leggings"
+				type: "item"
+			}]
+			title: "« Fireblossom Battlemage Leggings »"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:fireblossom_battlemage_boots"
+			id: "48E11E63C6A6C3EE"
+			optional: true
+			rewards: [{
+				id: "48C02C11FBBC4F22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F472EDDC3F8F496"
+				item: "hazennstuff:fireblossom_battlemage_boots"
+				type: "item"
+			}]
+			title: "« Fireblossom Battlemage Boots »"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"4495FEB47DE5F3E5"
+				"2FA9FCF83D1E6290"
+				"715B90FC759F15CF"
+				"48E11E63C6A6C3EE"
+			]
+			description: ["Toutes les pièces de l'ensemble « Fireblossom Battlemage » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:fireblossom_battlemage_chestplate"
+			id: "5887A2A52A3D646E"
+			optional: true
+			rewards: [{
+				id: "0DC971F80E3414F0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "60F9DCCE66C4C44D"
+					item: "hazennstuff:fireblossom_battlemage_helmet"
+					type: "item"
+				}
+				{
+					id: "40FC64D23535CE44"
+					item: "hazennstuff:fireblossom_battlemage_chestplate"
+					type: "item"
+				}
+				{
+					id: "3D0E6D68CC9236A4"
+					item: "hazennstuff:fireblossom_battlemage_leggings"
+					type: "item"
+				}
+				{
+					id: "5D9DD6BE69F9FAAB"
+					item: "hazennstuff:fireblossom_battlemage_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Fireblossom Battlemage »"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:fireblossom_battlemage_crown"
+			id: "417C42D060D9D31E"
+			optional: true
+			rewards: [{
+				id: "48F207BA5E69FE4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4201ECAD217F4550"
+				item: "hazennstuff:fireblossom_battlemage_crown"
+				type: "item"
+			}]
+			title: "« Fireblossom Battlemage Crown »"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:flesh_mass_helmet"
+			id: "5E8E28BDAC68BDF7"
+			optional: true
+			rewards: [{
+				id: "31F779E72B0D0A32"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08E0C91E725C0EE4"
+				item: "hazennstuff:flesh_mass_helmet"
+				type: "item"
+			}]
+			title: "« Flesh Mass Helmet »"
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:flesh_mass_chestplate"
+			id: "003233D4460916E5"
+			optional: true
+			rewards: [{
+				id: "264F78AA9CE93DEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "740BE84A2BB971A7"
+				item: "hazennstuff:flesh_mass_chestplate"
+				type: "item"
+			}]
+			title: "« Flesh Mass Chestplate »"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:flesh_mass_leggings"
+			id: "15E0FB790A57ACF6"
+			optional: true
+			rewards: [{
+				id: "4830C2224B7C6592"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DA90E80ABE8D120"
+				item: "hazennstuff:flesh_mass_leggings"
+				type: "item"
+			}]
+			title: "« Flesh Mass Leggings »"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:flesh_mass_boots"
+			id: "4DB7CD55DF17023A"
+			optional: true
+			rewards: [{
+				id: "55546E0AAD872443"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66FCE7886CBDD7E9"
+				item: "hazennstuff:flesh_mass_boots"
+				type: "item"
+			}]
+			title: "« Flesh Mass Boots »"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"5E8E28BDAC68BDF7"
+				"003233D4460916E5"
+				"15E0FB790A57ACF6"
+				"4DB7CD55DF17023A"
+			]
+			description: ["Toutes les pièces de l'ensemble « Flesh Mass » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:flesh_mass_chestplate"
+			id: "471994FD0595888B"
+			optional: true
+			rewards: [{
+				id: "298A647A913B6E7A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0638FAC122910E49"
+					item: "hazennstuff:flesh_mass_helmet"
+					type: "item"
+				}
+				{
+					id: "398E55ADD1DF12B3"
+					item: "hazennstuff:flesh_mass_chestplate"
+					type: "item"
+				}
+				{
+					id: "05C7B80EE957FC4F"
+					item: "hazennstuff:flesh_mass_leggings"
+					type: "item"
+				}
+				{
+					id: "69DEAB34E6371DB7"
+					item: "hazennstuff:flesh_mass_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Flesh Mass »"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:hazel_helmet"
+			id: "02CF9CB6B77041C0"
+			optional: true
+			rewards: [{
+				id: "46397DA09777A389"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12F18A7D90E8CA6E"
+				item: "hazennstuff:hazel_helmet"
+				type: "item"
+			}]
+			title: "« Hazel's Hat »"
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:hazel_chestplate"
+			id: "1460989C2301F409"
+			optional: true
+			rewards: [{
+				id: "708AF728F3A7138F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F72721F9FDC513B"
+				item: "hazennstuff:hazel_chestplate"
+				type: "item"
+			}]
+			title: "« Hazel's Jacket »"
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:hazel_leggings"
+			id: "305B8C68B0323A35"
+			optional: true
+			rewards: [{
+				id: "248F041D332E89B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "580ED35C9618BD0C"
+				item: "hazennstuff:hazel_leggings"
+				type: "item"
+			}]
+			title: "« Hazel's Pants »"
+			x: 16.5d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:hazel_boots"
+			id: "0EBD8CCE3BC04682"
+			optional: true
+			rewards: [{
+				id: "2032E5260769F7E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EE586CA0C284077"
+				item: "hazennstuff:hazel_boots"
+				type: "item"
+			}]
+			title: "« Hazel's Boots »"
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"02CF9CB6B77041C0"
+				"1460989C2301F409"
+				"305B8C68B0323A35"
+				"0EBD8CCE3BC04682"
+			]
+			description: ["Toutes les pièces de l'ensemble « Hazel's » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:hazel_chestplate"
+			id: "6321E4536D843119"
+			optional: true
+			rewards: [{
+				id: "793D22FF4A05808C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "545841C53431C071"
+					item: "hazennstuff:hazel_helmet"
+					type: "item"
+				}
+				{
+					id: "0898A675457BAAF7"
+					item: "hazennstuff:hazel_chestplate"
+					type: "item"
+				}
+				{
+					id: "7C7F9B5450A9C190"
+					item: "hazennstuff:hazel_leggings"
+					type: "item"
+				}
+				{
+					id: "727396704EC4E403"
+					item: "hazennstuff:hazel_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Hazel's »"
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:how_did_you_find_the_hazel_chestplate"
+			id: "56AC8A1A0B97E43E"
+			optional: true
+			rewards: [{
+				id: "5C1D015F496B9281"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3902088994544EE7"
+				item: "hazennstuff:how_did_you_find_the_hazel_chestplate"
+				type: "item"
+			}]
+			title: "« Hazel's Jacket »"
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:infestation_helmet"
+			id: "2EEDA7E121E480FF"
+			optional: true
+			rewards: [{
+				id: "70513BED10073DC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B6C7604B8FA569D"
+				item: "hazennstuff:infestation_helmet"
+				type: "item"
+			}]
+			title: "« Infestation Mask »"
+			x: 22.5d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:infestation_chestplate"
+			id: "058F5C180290AF05"
+			optional: true
+			rewards: [{
+				id: "6ECFEC9472BB03AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "405C0B76372CD9EE"
+				item: "hazennstuff:infestation_chestplate"
+				type: "item"
+			}]
+			title: "« Infestation Chestplate »"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:infestation_leggings"
+			id: "52196FD968068954"
+			optional: true
+			rewards: [{
+				id: "161817F3ECE4C378"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37369511A514F096"
+				item: "hazennstuff:infestation_leggings"
+				type: "item"
+			}]
+			title: "« Infestation Leggings »"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:infestation_boots"
+			id: "49DFCF4223A115C1"
+			optional: true
+			rewards: [{
+				id: "30152DE2EB170C83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C6DA144A2B3E7A8"
+				item: "hazennstuff:infestation_boots"
+				type: "item"
+			}]
+			title: "« Infestation Boots »"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"2EEDA7E121E480FF"
+				"058F5C180290AF05"
+				"52196FD968068954"
+				"49DFCF4223A115C1"
+			]
+			description: ["Toutes les pièces de l'ensemble « Infestation » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:infestation_chestplate"
+			id: "41CB4EE0792A899E"
+			optional: true
+			rewards: [{
+				id: "0D2C8FA1508ADC39"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "40775F769D5B3602"
+					item: "hazennstuff:infestation_helmet"
+					type: "item"
+				}
+				{
+					id: "55B45D926F2AD8F8"
+					item: "hazennstuff:infestation_chestplate"
+					type: "item"
+				}
+				{
+					id: "2556C192C9F78C5C"
+					item: "hazennstuff:infestation_leggings"
+					type: "item"
+				}
+				{
+					id: "77FB23CCB79B1ABA"
+					item: "hazennstuff:infestation_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Infestation »"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_commander_helmet"
+			id: "749DDBB183AE596E"
+			optional: true
+			rewards: [{
+				id: "143E753F8DF9783F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04B52C6EC2D830AA"
+				item: "hazennstuff:legionnaire_commander_helmet"
+				type: "item"
+			}]
+			title: "« Legionnaire Commander Helmet »"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_commander_chestplate"
+			id: "7E8C37D108DFC406"
+			optional: true
+			rewards: [{
+				id: "48C4AA5ECFEC50B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C1BEFDF9D7679DA"
+				item: "hazennstuff:legionnaire_commander_chestplate"
+				type: "item"
+			}]
+			title: "« Legionnaire Commander Chestplate »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_commander_leggings"
+			id: "4180734FF48CBDC9"
+			optional: true
+			rewards: [{
+				id: "0993B0768F453D21"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B3E893BD89207F2"
+				item: "hazennstuff:legionnaire_commander_leggings"
+				type: "item"
+			}]
+			title: "« Legionnaire Commander Leggings »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_commander_boots"
+			id: "7BC176F89516C519"
+			optional: true
+			rewards: [{
+				id: "214369508EC69A9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D293CAA6742CC47"
+				item: "hazennstuff:legionnaire_commander_boots"
+				type: "item"
+			}]
+			title: "« Legionnaire Commander Boots »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"749DDBB183AE596E"
+				"7E8C37D108DFC406"
+				"4180734FF48CBDC9"
+				"7BC176F89516C519"
+			]
+			description: ["Toutes les pièces de l'ensemble « Legionnaire Commander » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:legionnaire_commander_chestplate"
+			id: "53D491E587840775"
+			optional: true
+			rewards: [{
+				id: "4B0F939D21D91F7B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1F4D05460C9E8C0B"
+					item: "hazennstuff:legionnaire_commander_helmet"
+					type: "item"
+				}
+				{
+					id: "767F0A0750A39671"
+					item: "hazennstuff:legionnaire_commander_chestplate"
+					type: "item"
+				}
+				{
+					id: "1A30AC0663361BC8"
+					item: "hazennstuff:legionnaire_commander_leggings"
+					type: "item"
+				}
+				{
+					id: "5CB413AE74B3B325"
+					item: "hazennstuff:legionnaire_commander_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Legionnaire Commander »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_ruler_helmet"
+			id: "44203270EDE3431D"
+			optional: true
+			rewards: [{
+				id: "1F50A797C17FD2DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3374EB1E0C1B4006"
+				item: "hazennstuff:legionnaire_ruler_helmet"
+				type: "item"
+			}]
+			title: "« Legionnaire Ruler Crown »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_ruler_chestplate"
+			id: "3E7BD940D69A7DEE"
+			optional: true
+			rewards: [{
+				id: "385B44C758310B90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F121F5B54270419"
+				item: "hazennstuff:legionnaire_ruler_chestplate"
+				type: "item"
+			}]
+			title: "« Legionnaire Ruler Chestplate »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_ruler_leggings"
+			id: "0A13A47C18C693DE"
+			optional: true
+			rewards: [{
+				id: "38C0F458297B5919"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BE86E92F21E5FB4"
+				item: "hazennstuff:legionnaire_ruler_leggings"
+				type: "item"
+			}]
+			title: "« Legionnaire Ruler Leggings »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:legionnaire_ruler_boots"
+			id: "479C13ECF9EE3B74"
+			optional: true
+			rewards: [{
+				id: "5A6C64D3F83F812B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "300E143E1496FB67"
+				item: "hazennstuff:legionnaire_ruler_boots"
+				type: "item"
+			}]
+			title: "« Legionnaire Ruler Boots »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"44203270EDE3431D"
+				"3E7BD940D69A7DEE"
+				"0A13A47C18C693DE"
+				"479C13ECF9EE3B74"
+			]
+			description: ["Toutes les pièces de l'ensemble « Legionnaire Ruler » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:legionnaire_ruler_chestplate"
+			id: "1BFED619109A142B"
+			optional: true
+			rewards: [{
+				id: "185BD1F763D82897"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "73F313E98C88C1B0"
+					item: "hazennstuff:legionnaire_ruler_helmet"
+					type: "item"
+				}
+				{
+					id: "48E0F730FE5525D6"
+					item: "hazennstuff:legionnaire_ruler_chestplate"
+					type: "item"
+				}
+				{
+					id: "6A80CA6EA8D678C1"
+					item: "hazennstuff:legionnaire_ruler_leggings"
+					type: "item"
+				}
+				{
+					id: "651B158072152AF3"
+					item: "hazennstuff:legionnaire_ruler_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Legionnaire Ruler »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:mithril_battlemage_helmet"
+			id: "55A3D418FA98823C"
+			optional: true
+			rewards: [{
+				id: "19B43CD4B63A1F6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6BD30577E372CE3E"
+				item: "hazennstuff:mithril_battlemage_helmet"
+				type: "item"
+			}]
+			title: "« Mithril Battlemage Hat »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:mithril_battlemage_chestplate"
+			id: "2B38C4F90CDE2A26"
+			optional: true
+			rewards: [{
+				id: "662D78F81B968705"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4AEB51B948C280D9"
+				item: "hazennstuff:mithril_battlemage_chestplate"
+				type: "item"
+			}]
+			title: "« Mithril Battlemage Chestplate »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:mithril_battlemage_leggings"
+			id: "1F8E895381D6F416"
+			optional: true
+			rewards: [{
+				id: "6E4CE4057582CDB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1170BC14F6DD1F7B"
+				item: "hazennstuff:mithril_battlemage_leggings"
+				type: "item"
+			}]
+			title: "« Mithril Battlemage Leggings »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:mithril_battlemage_boots"
+			id: "3AE6ADF350B66250"
+			optional: true
+			rewards: [{
+				id: "2DE08349A6A69FA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3059121356ADEA36"
+				item: "hazennstuff:mithril_battlemage_boots"
+				type: "item"
+			}]
+			title: "« Mithril Battlemage Boots »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"55A3D418FA98823C"
+				"2B38C4F90CDE2A26"
+				"1F8E895381D6F416"
+				"3AE6ADF350B66250"
+			]
+			description: ["Toutes les pièces de l'ensemble « Mithril Battlemage » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:mithril_battlemage_chestplate"
+			id: "5E360B2758599BF1"
+			optional: true
+			rewards: [{
+				id: "3CE4AF99C6D231E0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "25B464823E0D7C53"
+					item: "hazennstuff:mithril_battlemage_helmet"
+					type: "item"
+				}
+				{
+					id: "5A7C681158AD3F05"
+					item: "hazennstuff:mithril_battlemage_chestplate"
+					type: "item"
+				}
+				{
+					id: "2F1D148223C55E7C"
+					item: "hazennstuff:mithril_battlemage_leggings"
+					type: "item"
+				}
+				{
+					id: "52564340115C9119"
+					item: "hazennstuff:mithril_battlemage_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Mithril Battlemage »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:pyrium_helmet"
+			id: "3692E8FBA48675CE"
+			optional: true
+			rewards: [{
+				id: "53C914001206344F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "70D6418599113925"
+				item: "hazennstuff:pyrium_helmet"
+				type: "item"
+			}]
+			title: "« Pyrium Helmet »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:pyrium_chestplate"
+			id: "3D93B958599AC282"
+			optional: true
+			rewards: [{
+				id: "300BD69E9005CE9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1024505E38CE2AD0"
+				item: "hazennstuff:pyrium_chestplate"
+				type: "item"
+			}]
+			title: "« Pyrium Chestplate »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:pyrium_leggings"
+			id: "2D6E4FE813EBF890"
+			optional: true
+			rewards: [{
+				id: "576B83315384B5CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59815C91D5DB4102"
+				item: "hazennstuff:pyrium_leggings"
+				type: "item"
+			}]
+			title: "« Pyrium Leggings »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:pyrium_boots"
+			id: "457CC94D5F169CAA"
+			optional: true
+			rewards: [{
+				id: "517E45F04A816D3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E3C76ECF140595B"
+				item: "hazennstuff:pyrium_boots"
+				type: "item"
+			}]
+			title: "« Pyrium Boots »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"3692E8FBA48675CE"
+				"3D93B958599AC282"
+				"2D6E4FE813EBF890"
+				"457CC94D5F169CAA"
+			]
+			description: ["Toutes les pièces de l'ensemble « Pyrium » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:pyrium_chestplate"
+			id: "6BC824396B3A2754"
+			optional: true
+			rewards: [{
+				id: "63CB5FFC8B744BD3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "63A68BAFBF23ED58"
+					item: "hazennstuff:pyrium_helmet"
+					type: "item"
+				}
+				{
+					id: "21C43FD381B85B48"
+					item: "hazennstuff:pyrium_chestplate"
+					type: "item"
+				}
+				{
+					id: "2B290A3F923BE49B"
+					item: "hazennstuff:pyrium_leggings"
+					type: "item"
+				}
+				{
+					id: "52EBD05F63E926D8"
+					item: "hazennstuff:pyrium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Pyrium »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:pyrium_battlemage_helmet"
+			id: "401F7E6E2E34646C"
+			optional: true
+			rewards: [{
+				id: "3DF8A2BCA5C7BB05"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D40EAA36C98315E"
+				item: "hazennstuff:pyrium_battlemage_helmet"
+				type: "item"
+			}]
+			title: "« Pyrium Battlemage Crown »"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:pyrium_battlemage_chestplate"
+			id: "44323ED85BC8E07A"
+			optional: true
+			rewards: [{
+				id: "285FF116CE6AF4F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "598B882A2FAFEEDC"
+				item: "hazennstuff:pyrium_battlemage_chestplate"
+				type: "item"
+			}]
+			title: "« Pyrium Battlemage Chestplate »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:pyrium_battlemage_leggings"
+			id: "14FF238C5A113109"
+			optional: true
+			rewards: [{
+				id: "0FC0EFCFB821743B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68950FB2434BA912"
+				item: "hazennstuff:pyrium_battlemage_leggings"
+				type: "item"
+			}]
+			title: "« Pyrium Battlemage Leggings »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:pyrium_battlemage_boots"
+			id: "670D26A17A5E2CBE"
+			optional: true
+			rewards: [{
+				id: "696F043EDC415278"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38F722C18316E02B"
+				item: "hazennstuff:pyrium_battlemage_boots"
+				type: "item"
+			}]
+			title: "« Pyrium Battlemage Boots »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"401F7E6E2E34646C"
+				"44323ED85BC8E07A"
+				"14FF238C5A113109"
+				"670D26A17A5E2CBE"
+			]
+			description: ["Toutes les pièces de l'ensemble « Pyrium Battlemage » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:pyrium_battlemage_chestplate"
+			id: "5081A0C094197832"
+			optional: true
+			rewards: [{
+				id: "44B79A4BB52E07F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3109CD20D6252D4C"
+					item: "hazennstuff:pyrium_battlemage_helmet"
+					type: "item"
+				}
+				{
+					id: "57D9302E8DB81894"
+					item: "hazennstuff:pyrium_battlemage_chestplate"
+					type: "item"
+				}
+				{
+					id: "137388A27296EC23"
+					item: "hazennstuff:pyrium_battlemage_leggings"
+					type: "item"
+				}
+				{
+					id: "7C2C14D03B66BDDA"
+					item: "hazennstuff:pyrium_battlemage_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Pyrium Battlemage »"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:seraph_helmet"
+			id: "16B031344B7AA1A8"
+			optional: true
+			rewards: [{
+				id: "5151AFE0205814B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "291E43DBBA8D4076"
+				item: "hazennstuff:seraph_helmet"
+				type: "item"
+			}]
+			title: "« Seraph Visor »"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:seraph_chestplate"
+			id: "06F232C5CF16426A"
+			optional: true
+			rewards: [{
+				id: "02598E20194D3EF1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "134B25A2202C5F4B"
+				item: "hazennstuff:seraph_chestplate"
+				type: "item"
+			}]
+			title: "« Seraph Breastplate »"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:seraph_leggings"
+			id: "4A5F578C51756F66"
+			optional: true
+			rewards: [{
+				id: "4D2096334E394688"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FC6F982406EBA42"
+				item: "hazennstuff:seraph_leggings"
+				type: "item"
+			}]
+			title: "« Seraph Leggings »"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:seraph_boots"
+			id: "6D5BDFCB02D615CB"
+			optional: true
+			rewards: [{
+				id: "5337CF64C3329D1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "43A886E180F6070C"
+				item: "hazennstuff:seraph_boots"
+				type: "item"
+			}]
+			title: "« Seraph Tracers »"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"16B031344B7AA1A8"
+				"06F232C5CF16426A"
+				"4A5F578C51756F66"
+				"6D5BDFCB02D615CB"
+			]
+			description: ["Toutes les pièces de l'ensemble « Seraph » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:seraph_chestplate"
+			id: "768231A6E134CC02"
+			optional: true
+			rewards: [{
+				id: "3F69F4CC9BB4F591"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3E91F4102F035149"
+					item: "hazennstuff:seraph_helmet"
+					type: "item"
+				}
+				{
+					id: "28FB51B19D26813E"
+					item: "hazennstuff:seraph_chestplate"
+					type: "item"
+				}
+				{
+					id: "0E0E4CF5B44DAFC5"
+					item: "hazennstuff:seraph_leggings"
+					type: "item"
+				}
+				{
+					id: "798A0066FE66C38C"
+					item: "hazennstuff:seraph_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Seraph »"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:thunder_prowler_helmet"
+			id: "5C1E6DBC0101DB6B"
+			optional: true
+			rewards: [{
+				id: "59DCD71DCBFD7A66"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E942871E9B6502B"
+				item: "hazennstuff:thunder_prowler_helmet"
+				type: "item"
+			}]
+			title: "« Thunder Prowler Mask »"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:thunder_prowler_chestplate"
+			id: "561766C910F233AB"
+			optional: true
+			rewards: [{
+				id: "68A9C74FC9EF7635"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "381A6B3E00293CD6"
+				item: "hazennstuff:thunder_prowler_chestplate"
+				type: "item"
+			}]
+			title: "« Thunder Prowler Chestplate »"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:thunder_prowler_leggings"
+			id: "30E9B6B01D761A39"
+			optional: true
+			rewards: [{
+				id: "4D0642B55D504317"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A41123A14B3D8BD"
+				item: "hazennstuff:thunder_prowler_leggings"
+				type: "item"
+			}]
+			title: "« Thunder Prowler Leggings »"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:thunder_prowler_boots"
+			id: "765CA784B20EB49C"
+			optional: true
+			rewards: [{
+				id: "5C0B7188AF27587F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "524EB863EADF61F3"
+				item: "hazennstuff:thunder_prowler_boots"
+				type: "item"
+			}]
+			title: "« Thunder Prowler Boots »"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"5C1E6DBC0101DB6B"
+				"561766C910F233AB"
+				"30E9B6B01D761A39"
+				"765CA784B20EB49C"
+			]
+			description: ["Toutes les pièces de l'ensemble « Thunder Prowler » (4), ensemble dans l'inventaire."]
+			icon: "hazennstuff:thunder_prowler_chestplate"
+			id: "482575456EAFC225"
+			optional: true
+			rewards: [{
+				id: "378C7493B89A721C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "424A8DBFE3E07348"
+					item: "hazennstuff:thunder_prowler_helmet"
+					type: "item"
+				}
+				{
+					id: "6C388D7C7DFA2E01"
+					item: "hazennstuff:thunder_prowler_chestplate"
+					type: "item"
+				}
+				{
+					id: "3F2C7912E7DFCCB1"
+					item: "hazennstuff:thunder_prowler_leggings"
+					type: "item"
+				}
+				{
+					id: "40992BC1F0E73D1C"
+					item: "hazennstuff:thunder_prowler_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Thunder Prowler »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:archevoker_helmet"
+			id: "087FE4DBA4DA9B26"
+			optional: true
+			rewards: [{
+				id: "5B8D3DD3DAA9922D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6394937DB9957706"
+				item: "irons_spellbooks:archevoker_helmet"
+				type: "item"
+			}]
+			title: "Chapeau de l'Archévocateur"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:archevoker_chestplate"
+			id: "4ADA739A0F71167D"
+			optional: true
+			rewards: [{
+				id: "4C20CB5F5AB8C0F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D0012978AE533B5"
+				item: "irons_spellbooks:archevoker_chestplate"
+				type: "item"
+			}]
+			title: "Manteau de l'Archévocateur"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:archevoker_leggings"
+			id: "2C3C9CA8577D19D0"
+			optional: true
+			rewards: [{
+				id: "753306614A4406A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55AD8F5CB2EDA241"
+				item: "irons_spellbooks:archevoker_leggings"
+				type: "item"
+			}]
+			title: "Jambières de l'Archévocateur"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:archevoker_boots"
+			id: "52427E39186A6414"
+			optional: true
+			rewards: [{
+				id: "7CAFB4C5A1EFEF84"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "439F6332AD7FA06D"
+				item: "irons_spellbooks:archevoker_boots"
+				type: "item"
+			}]
+			title: "Bottes de l'Archévocateur"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"087FE4DBA4DA9B26"
+				"4ADA739A0F71167D"
+				"2C3C9CA8577D19D0"
+				"52427E39186A6414"
+			]
+			description: ["Toutes les pièces de l'ensemble de l'Archévocateur (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:archevoker_chestplate"
+			id: "572671F38BF59316"
+			optional: true
+			rewards: [{
+				id: "14C7BEFF40FA70D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5E15F7791BD08193"
+					item: "irons_spellbooks:archevoker_helmet"
+					type: "item"
+				}
+				{
+					id: "513E921FA17A5CC3"
+					item: "irons_spellbooks:archevoker_chestplate"
+					type: "item"
+				}
+				{
+					id: "788C3CC64217184F"
+					item: "irons_spellbooks:archevoker_leggings"
+					type: "item"
+				}
+				{
+					id: "334B7E2A13138724"
+					item: "irons_spellbooks:archevoker_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble de l'Archévocateur"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:cryomancer_helmet"
+			id: "734E3E96D7D66BC5"
+			optional: true
+			rewards: [{
+				id: "519ECC0136E3F457"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10903221719963E7"
+				item: "irons_spellbooks:cryomancer_helmet"
+				type: "item"
+			}]
+			title: "Capuche du Cryomancien"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:cryomancer_chestplate"
+			id: "106A211B2F4791A9"
+			optional: true
+			rewards: [{
+				id: "7E776057BBCDA026"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "542AA16503A1EE36"
+				item: "irons_spellbooks:cryomancer_chestplate"
+				type: "item"
+			}]
+			title: "Manteau du Cryomancien"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:cryomancer_leggings"
+			id: "429ACA1C52B73D59"
+			optional: true
+			rewards: [{
+				id: "58955C9D771E7CC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F16C76427875CB2"
+				item: "irons_spellbooks:cryomancer_leggings"
+				type: "item"
+			}]
+			title: "Jambières du Cryomancien"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:cryomancer_boots"
+			id: "680A3125459DC14B"
+			optional: true
+			rewards: [{
+				id: "00300B5150F1BB7C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "161AA3E688C07A98"
+				item: "irons_spellbooks:cryomancer_boots"
+				type: "item"
+			}]
+			title: "Bottes du Cryomancien"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"734E3E96D7D66BC5"
+				"106A211B2F4791A9"
+				"429ACA1C52B73D59"
+				"680A3125459DC14B"
+			]
+			description: ["Toutes les pièces de l'ensemble du Cryomancien (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:cryomancer_chestplate"
+			id: "3B60E38FD05E47D5"
+			optional: true
+			rewards: [{
+				id: "5294E2731A25D844"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "27CBFEE45B1E5554"
+					item: "irons_spellbooks:cryomancer_helmet"
+					type: "item"
+				}
+				{
+					id: "46AFD9C57EAA4701"
+					item: "irons_spellbooks:cryomancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "53C46681BC3BC78B"
+					item: "irons_spellbooks:cryomancer_leggings"
+					type: "item"
+				}
+				{
+					id: "688348BB1AB8DCC0"
+					item: "irons_spellbooks:cryomancer_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Cryomancien"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:cultist_helmet"
+			id: "7F00716CF0B96DAB"
+			optional: true
+			rewards: [{
+				id: "39A29FB401729D26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58FF6BA83AEA1AFE"
+				item: "irons_spellbooks:cultist_helmet"
+				type: "item"
+			}]
+			title: "Capuche du Cultiste"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:cultist_chestplate"
+			id: "38AE1877E87586CA"
+			optional: true
+			rewards: [{
+				id: "5A045B68C5241A6C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5108EE8359A414EA"
+				item: "irons_spellbooks:cultist_chestplate"
+				type: "item"
+			}]
+			title: "Armure du Cultiste"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:cultist_leggings"
+			id: "33C47F628E9522A1"
+			optional: true
+			rewards: [{
+				id: "17A369B27AACFAA5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A93DBE1FAD3AFA6"
+				item: "irons_spellbooks:cultist_leggings"
+				type: "item"
+			}]
+			title: "Jambières du Cultiste"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:cultist_boots"
+			id: "181504B341D392E9"
+			optional: true
+			rewards: [{
+				id: "2A8CC8610B856E5A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5915BFC9568DB0AD"
+				item: "irons_spellbooks:cultist_boots"
+				type: "item"
+			}]
+			title: "Bottes du Cultiste"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"7F00716CF0B96DAB"
+				"38AE1877E87586CA"
+				"33C47F628E9522A1"
+				"181504B341D392E9"
+			]
+			description: ["Toutes les pièces de l'ensemble du Cultiste (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:cultist_chestplate"
+			id: "38CE8141A8E0A751"
+			optional: true
+			rewards: [{
+				id: "621A1F375A966FBD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3380DA2F3EFDAC1A"
+					item: "irons_spellbooks:cultist_helmet"
+					type: "item"
+				}
+				{
+					id: "4BD5A020711FEC83"
+					item: "irons_spellbooks:cultist_chestplate"
+					type: "item"
+				}
+				{
+					id: "4931AF0DB36A0B06"
+					item: "irons_spellbooks:cultist_leggings"
+					type: "item"
+				}
+				{
+					id: "5A8D041B62C81B9B"
+					item: "irons_spellbooks:cultist_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Cultiste"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:electromancer_helmet"
+			id: "0EE85E46FEBBBEDB"
+			optional: true
+			rewards: [{
+				id: "0900C1A260BD4098"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61B0E1520740939A"
+				item: "irons_spellbooks:electromancer_helmet"
+				type: "item"
+			}]
+			title: "Chapeau de l'Électromancien"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:electromancer_chestplate"
+			id: "54AE8C7245388588"
+			optional: true
+			rewards: [{
+				id: "4090052F8AF841EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4762365F8F4B9E3B"
+				item: "irons_spellbooks:electromancer_chestplate"
+				type: "item"
+			}]
+			title: "Robe de l'Électromancien"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:electromancer_leggings"
+			id: "003A8A47BA9E3E0B"
+			optional: true
+			rewards: [{
+				id: "2C634198E06CBA3D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F80BD1F3BBD4F28"
+				item: "irons_spellbooks:electromancer_leggings"
+				type: "item"
+			}]
+			title: "Jambières de l'Électromancien"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:electromancer_boots"
+			id: "704143FCED7C0F0C"
+			optional: true
+			rewards: [{
+				id: "77CD7738C6F7BAC4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21A58905940C855B"
+				item: "irons_spellbooks:electromancer_boots"
+				type: "item"
+			}]
+			title: "Bottes de l'Électromancien"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"0EE85E46FEBBBEDB"
+				"54AE8C7245388588"
+				"003A8A47BA9E3E0B"
+				"704143FCED7C0F0C"
+			]
+			description: ["Toutes les pièces de l'ensemble de l'Électromancien (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:electromancer_chestplate"
+			id: "01C960DAAD6BEBD2"
+			optional: true
+			rewards: [{
+				id: "3BBB3D97F8044A9A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1E207F0592C4C4A2"
+					item: "irons_spellbooks:electromancer_helmet"
+					type: "item"
+				}
+				{
+					id: "1C33C4C56D719C12"
+					item: "irons_spellbooks:electromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "1B604F059E4C90BB"
+					item: "irons_spellbooks:electromancer_leggings"
+					type: "item"
+				}
+				{
+					id: "3E89ED1D68DD732F"
+					item: "irons_spellbooks:electromancer_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble de l'Électromancien"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:infernal_sorcerer_chestplate"
+			id: "368DDA30E0FC0E7F"
+			optional: true
+			rewards: [{
+				id: "23CD30E6B1943767"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CE44972FD815CD6"
+				item: "irons_spellbooks:infernal_sorcerer_chestplate"
+				type: "item"
+			}]
+			title: "Plastron du Sorcier Infernal"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:netherite_mage_helmet"
+			id: "252A98A4B3C6194B"
+			optional: true
+			rewards: [{
+				id: "5322205DB9FC9E12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "275A2191AC1F842B"
+				item: "irons_spellbooks:netherite_mage_helmet"
+				type: "item"
+			}]
+			title: "Chapeau du Mage de Guerre en Nétherite"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "249C0C0012D39142"
+			optional: true
+			rewards: [{
+				id: "24F93A8ACDB602DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7753C22B1ED3ECEE"
+				item: "irons_spellbooks:netherite_mage_chestplate"
+				type: "item"
+			}]
+			title: "Robes du Mage de Guerre en Nétherite"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:netherite_mage_leggings"
+			id: "631C5EBC26A0E5BD"
+			optional: true
+			rewards: [{
+				id: "7FA55794619F3DC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "360DE9DC107C2426"
+				item: "irons_spellbooks:netherite_mage_leggings"
+				type: "item"
+			}]
+			title: "Jambières du Mage de Guerre en Nétherite"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:netherite_mage_boots"
+			id: "1E095DD0ACE9F0DB"
+			optional: true
+			rewards: [{
+				id: "3C2DA7809C189696"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "609CAA694B4567CF"
+				item: "irons_spellbooks:netherite_mage_boots"
+				type: "item"
+			}]
+			title: "Bottes du Mage de Guerre en Nétherite"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"252A98A4B3C6194B"
+				"249C0C0012D39142"
+				"631C5EBC26A0E5BD"
+				"1E095DD0ACE9F0DB"
+			]
+			description: ["Toutes les pièces de l'ensemble du Mage de Guerre en Nétherite (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:netherite_mage_chestplate"
+			id: "33480DE5FFF38C42"
+			optional: true
+			rewards: [{
+				id: "71DA2920BF265C8B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "362FDECFAC5DD5CE"
+					item: "irons_spellbooks:netherite_mage_helmet"
+					type: "item"
+				}
+				{
+					id: "4E0F34295E7D35EA"
+					item: "irons_spellbooks:netherite_mage_chestplate"
+					type: "item"
+				}
+				{
+					id: "036EAD5930BB0E27"
+					item: "irons_spellbooks:netherite_mage_leggings"
+					type: "item"
+				}
+				{
+					id: "25951111B8C3E3B1"
+					item: "irons_spellbooks:netherite_mage_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Mage de Guerre en Nétherite"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:paladin_chestplate"
+			id: "4770B46E18F40AD3"
+			optional: true
+			rewards: [{
+				id: "53EE90FC8AE1DE8F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41B868778A814A73"
+				item: "irons_spellbooks:paladin_chestplate"
+				type: "item"
+			}]
+			title: "Plastron de Porteur de Lumière"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:plagued_helmet"
+			id: "51F379AC84DBFC8C"
+			optional: true
+			rewards: [{
+				id: "3420A7A52745E73E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60C7A17492CF8772"
+				item: "irons_spellbooks:plagued_helmet"
+				type: "item"
+			}]
+			title: "Masque Pesteux"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:plagued_chestplate"
+			id: "28BA2F41F6B71B5F"
+			optional: true
+			rewards: [{
+				id: "5297EBB06F650B59"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5597CD54FA428D5C"
+				item: "irons_spellbooks:plagued_chestplate"
+				type: "item"
+			}]
+			title: "Manteau Pesteux"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:plagued_leggings"
+			id: "00F2FC3166EECA3F"
+			optional: true
+			rewards: [{
+				id: "606A76E7C311F5EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12146EAF888DCD95"
+				item: "irons_spellbooks:plagued_leggings"
+				type: "item"
+			}]
+			title: "Jambières Pesteuses"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:plagued_boots"
+			id: "71BA4324805A1F01"
+			optional: true
+			rewards: [{
+				id: "2108CDF2C89101C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C0A3EA2103BFA6F"
+				item: "irons_spellbooks:plagued_boots"
+				type: "item"
+			}]
+			title: "Bottes Pesteuses"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"51F379AC84DBFC8C"
+				"28BA2F41F6B71B5F"
+				"00F2FC3166EECA3F"
+				"71BA4324805A1F01"
+			]
+			description: ["Toutes les pièces de l'ensemble « Pesteux » (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:plagued_chestplate"
+			id: "73417CA2A83FEAC9"
+			optional: true
+			rewards: [{
+				id: "2DDF0C7AD6219D4E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "37C54957EB6A39AB"
+					item: "irons_spellbooks:plagued_helmet"
+					type: "item"
+				}
+				{
+					id: "7DC455EE861AA5B3"
+					item: "irons_spellbooks:plagued_chestplate"
+					type: "item"
+				}
+				{
+					id: "2D7208CD5FBDBDB4"
+					item: "irons_spellbooks:plagued_leggings"
+					type: "item"
+				}
+				{
+					id: "3589D8333E1EEEDD"
+					item: "irons_spellbooks:plagued_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Pesteux »"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:priest_helmet"
+			id: "541A5F9A21B9C6D9"
+			optional: true
+			rewards: [{
+				id: "78947DCE438038CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DD51EEA50244213"
+				item: "irons_spellbooks:priest_helmet"
+				type: "item"
+			}]
+			title: "Masque du Prêtre"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:priest_chestplate"
+			id: "2BFBFF362D5639FC"
+			optional: true
+			rewards: [{
+				id: "37ECB8B41C4166FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63B4D1D64C75BFA8"
+				item: "irons_spellbooks:priest_chestplate"
+				type: "item"
+			}]
+			title: "Robes du Prêtre"
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:priest_leggings"
+			id: "189EA4E63D32F378"
+			optional: true
+			rewards: [{
+				id: "11E41E69883E29F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6217523258CA3163"
+				item: "irons_spellbooks:priest_leggings"
+				type: "item"
+			}]
+			title: "Jambières du Prêtre"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:priest_boots"
+			id: "66925C75B5961465"
+			optional: true
+			rewards: [{
+				id: "5A9F2675F554E4B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0ED7D38F486AFFE2"
+				item: "irons_spellbooks:priest_boots"
+				type: "item"
+			}]
+			title: "Bottes du Prêtre"
+			x: 15.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"541A5F9A21B9C6D9"
+				"2BFBFF362D5639FC"
+				"189EA4E63D32F378"
+				"66925C75B5961465"
+			]
+			description: ["Toutes les pièces de l'ensemble du Prêtre (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:priest_chestplate"
+			id: "30F3F61B4F625EBF"
+			optional: true
+			rewards: [{
+				id: "6707D204FE32EBB7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "05F8C45542922EEB"
+					item: "irons_spellbooks:priest_helmet"
+					type: "item"
+				}
+				{
+					id: "3E49A9EA0D7CD4E2"
+					item: "irons_spellbooks:priest_chestplate"
+					type: "item"
+				}
+				{
+					id: "00836DD8C750539F"
+					item: "irons_spellbooks:priest_leggings"
+					type: "item"
+				}
+				{
+					id: "21FD9E5A71511DF7"
+					item: "irons_spellbooks:priest_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Prêtre"
+			x: 16.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pumpkin_helmet"
+			id: "62CF670C0F0FF2F6"
+			optional: true
+			rewards: [{
+				id: "69467AD473BCF852"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E7FBD016F02471C"
+				item: "irons_spellbooks:pumpkin_helmet"
+				type: "item"
+			}]
+			title: "Chapeau d'Épouvantail"
+			x: 18.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pumpkin_chestplate"
+			id: "16E5AE6D54D7E336"
+			optional: true
+			rewards: [{
+				id: "4990BF2C431F8EDA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3960ACCC01A229C2"
+				item: "irons_spellbooks:pumpkin_chestplate"
+				type: "item"
+			}]
+			title: "Manteau d'Épouvantail"
+			x: 19.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pumpkin_leggings"
+			id: "0E1C887E3B77EB6B"
+			optional: true
+			rewards: [{
+				id: "4833C5B5CFFE1B6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1BC948A5CFDB8470"
+				item: "irons_spellbooks:pumpkin_leggings"
+				type: "item"
+			}]
+			title: "Jambières d'Épouvantail"
+			x: 21.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pumpkin_boots"
+			id: "615AC981EADAE720"
+			optional: true
+			rewards: [{
+				id: "152E84F6FC895575"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71E34808CF14B0A4"
+				item: "irons_spellbooks:pumpkin_boots"
+				type: "item"
+			}]
+			title: "Bottes d'Épouvantail"
+			x: 22.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"62CF670C0F0FF2F6"
+				"16E5AE6D54D7E336"
+				"0E1C887E3B77EB6B"
+				"615AC981EADAE720"
+			]
+			description: ["Toutes les pièces de l'ensemble d'Épouvantail (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:pumpkin_chestplate"
+			id: "38385A6D5480B44F"
+			optional: true
+			rewards: [{
+				id: "7A43E65DC6B9DFCB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "43435A44D30D70E0"
+					item: "irons_spellbooks:pumpkin_helmet"
+					type: "item"
+				}
+				{
+					id: "73B57166186C92CC"
+					item: "irons_spellbooks:pumpkin_chestplate"
+					type: "item"
+				}
+				{
+					id: "69929D36F5AE07F4"
+					item: "irons_spellbooks:pumpkin_leggings"
+					type: "item"
+				}
+				{
+					id: "3414F9401AF0E92B"
+					item: "irons_spellbooks:pumpkin_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble d'Épouvantail"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pyromancer_helmet"
+			id: "1B2969E0563D987B"
+			optional: true
+			rewards: [{
+				id: "502866FE5ECF91E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4865F762AD27BC9A"
+				item: "irons_spellbooks:pyromancer_helmet"
+				type: "item"
+			}]
+			title: "Chapeau du Pyromancien"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pyromancer_chestplate"
+			id: "7C40EAC152D71348"
+			optional: true
+			rewards: [{
+				id: "0DC3CF3B6B035257"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "088D0345DCE4060B"
+				item: "irons_spellbooks:pyromancer_chestplate"
+				type: "item"
+			}]
+			title: "Robe du Pyromancien"
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pyromancer_leggings"
+			id: "2F3B82E5E981FB52"
+			optional: true
+			rewards: [{
+				id: "60A0CE9B27D9293E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F6D4FB39E9DB700"
+				item: "irons_spellbooks:pyromancer_leggings"
+				type: "item"
+			}]
+			title: "Jambières du Pyromancien"
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pyromancer_boots"
+			id: "30B8C48683447A28"
+			optional: true
+			rewards: [{
+				id: "2CF445947C3140BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "008C7BBDBB329095"
+				item: "irons_spellbooks:pyromancer_boots"
+				type: "item"
+			}]
+			title: "Bottes du Pyromancien"
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"1B2969E0563D987B"
+				"7C40EAC152D71348"
+				"2F3B82E5E981FB52"
+				"30B8C48683447A28"
+			]
+			description: ["Toutes les pièces de l'ensemble du Pyromancien (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:pyromancer_chestplate"
+			id: "6CA2AD2956232565"
+			optional: true
+			rewards: [{
+				id: "205B22930EE0484D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "059A0D41A5036FC7"
+					item: "irons_spellbooks:pyromancer_helmet"
+					type: "item"
+				}
+				{
+					id: "11AE2B4366071700"
+					item: "irons_spellbooks:pyromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "03B740A34449187D"
+					item: "irons_spellbooks:pyromancer_leggings"
+					type: "item"
+				}
+				{
+					id: "7A73421AE82EE354"
+					item: "irons_spellbooks:pyromancer_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Pyromancien"
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:shadowwalker_helmet"
+			id: "65E3EC78143FC2B1"
+			optional: true
+			rewards: [{
+				id: "643BD9366276A132"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0002208FA8C4C3E3"
+				item: "irons_spellbooks:shadowwalker_helmet"
+				type: "item"
+			}]
+			title: "Masque du Marchombre"
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:shadowwalker_chestplate"
+			id: "4F564E7422120E37"
+			optional: true
+			rewards: [{
+				id: "0D834F42CEFA25CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "602A37DFD24F414A"
+				item: "irons_spellbooks:shadowwalker_chestplate"
+				type: "item"
+			}]
+			title: "Armure du Marchombre"
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:shadowwalker_leggings"
+			id: "00847ADE1DFFFD10"
+			optional: true
+			rewards: [{
+				id: "4F2D6FA14BA15656"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FC5EF035A1FB9E3"
+				item: "irons_spellbooks:shadowwalker_leggings"
+				type: "item"
+			}]
+			title: "Jambières du Marchombre"
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:shadowwalker_boots"
+			id: "7C7CD519F592FE40"
+			optional: true
+			rewards: [{
+				id: "714724F42A10EB83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2818D9B2617999D5"
+				item: "irons_spellbooks:shadowwalker_boots"
+				type: "item"
+			}]
+			title: "Bottes du Marchombre"
+			x: 13.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"65E3EC78143FC2B1"
+				"4F564E7422120E37"
+				"00847ADE1DFFFD10"
+				"7C7CD519F592FE40"
+			]
+			description: ["Toutes les pièces de l'ensemble du Marchombre (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:shadowwalker_chestplate"
+			id: "26A2FFBD3846633F"
+			optional: true
+			rewards: [{
+				id: "26C4B1B67DC280EC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4BC7C95476328A1C"
+					item: "irons_spellbooks:shadowwalker_helmet"
+					type: "item"
+				}
+				{
+					id: "7F8FEF0CEE9B949C"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "3F7B13F70AACD699"
+					item: "irons_spellbooks:shadowwalker_leggings"
+					type: "item"
+				}
+				{
+					id: "76EE4D5E04ACCA05"
+					item: "irons_spellbooks:shadowwalker_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Marchombre"
+			x: 15.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:speed_boots"
+			id: "6969593CBD3F9392"
+			optional: true
+			rewards: [{
+				id: "06A8AFA9DC12B8C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DB40A967B874B31"
+				item: "irons_spellbooks:speed_boots"
+				type: "item"
+			}]
+			title: "Bottes de Vitesse"
+			x: 16.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:wandering_magician_helmet"
+			id: "0109CD05FF09BCA8"
+			optional: true
+			rewards: [{
+				id: "7F121937585A9F37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3296A1EA22F2F802"
+				item: "irons_spellbooks:wandering_magician_helmet"
+				type: "item"
+			}]
+			title: "Capuche du Magicien Errant"
+			x: 18.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:wandering_magician_chestplate"
+			id: "1B1A49112F3EC29C"
+			optional: true
+			rewards: [{
+				id: "09FDEBFE314697D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D431319B0DA26EF"
+				item: "irons_spellbooks:wandering_magician_chestplate"
+				type: "item"
+			}]
+			title: "Robe du Magicien Errant"
+			x: 19.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:wandering_magician_leggings"
+			id: "517C9E1D36E174F0"
+			optional: true
+			rewards: [{
+				id: "2FACBC5F6105FE34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32C2B1AF229989B9"
+				item: "irons_spellbooks:wandering_magician_leggings"
+				type: "item"
+			}]
+			title: "Pantalon du Magicien Errant"
+			x: 21.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:wandering_magician_boots"
+			id: "269CCE911A834244"
+			optional: true
+			rewards: [{
+				id: "1D25EC2AECA7F10A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52D5A4782546C7EF"
+				item: "irons_spellbooks:wandering_magician_boots"
+				type: "item"
+			}]
+			title: "Chaussures du Magicien Errant"
+			x: 22.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"0109CD05FF09BCA8"
+				"1B1A49112F3EC29C"
+				"517C9E1D36E174F0"
+				"269CCE911A834244"
+			]
+			description: ["Toutes les pièces de l'ensemble du Magicien Errant (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:wandering_magician_chestplate"
+			id: "34E361B97F5A470A"
+			optional: true
+			rewards: [{
+				id: "7FF8763288BE06AF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "38B53C9B85C45823"
+					item: "irons_spellbooks:wandering_magician_helmet"
+					type: "item"
+				}
+				{
+					id: "05BD1A6BF0DA3184"
+					item: "irons_spellbooks:wandering_magician_chestplate"
+					type: "item"
+				}
+				{
+					id: "52D8FB28A5037C49"
+					item: "irons_spellbooks:wandering_magician_leggings"
+					type: "item"
+				}
+				{
+					id: "2F36D6E0260F147C"
+					item: "irons_spellbooks:wandering_magician_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Magicien Errant"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:wizard_helmet"
+			id: "24ACB23AD836D4D2"
+			optional: true
+			rewards: [{
+				id: "5095A31F7ADA4460"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35C41C5B7523019B"
+				item: "irons_spellbooks:wizard_helmet"
+				type: "item"
+			}]
+			title: "Casque du Sorcier"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:wizard_chestplate"
+			id: "7F9C178D0226F04D"
+			optional: true
+			rewards: [{
+				id: "306F12F17FF245C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EF8985084EEF8F4"
+				item: "irons_spellbooks:wizard_chestplate"
+				type: "item"
+			}]
+			title: "Robes du Sorcier"
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:wizard_leggings"
+			id: "5A88F0BE19586C79"
+			optional: true
+			rewards: [{
+				id: "644968DE14F02A3D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CC8DF454306B186"
+				item: "irons_spellbooks:wizard_leggings"
+				type: "item"
+			}]
+			title: "Jambières du Sorcier"
+			x: 4.5d
+			y: 6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:wizard_boots"
+			id: "2E0D1BB3FDEE464D"
+			optional: true
+			rewards: [{
+				id: "7ED01DF81A1D4F62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E88944ADF8E4464"
+				item: "irons_spellbooks:wizard_boots"
+				type: "item"
+			}]
+			title: "Bottes du Sorcier"
+			x: 6.0d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"24ACB23AD836D4D2"
+				"7F9C178D0226F04D"
+				"5A88F0BE19586C79"
+				"2E0D1BB3FDEE464D"
+			]
+			description: ["Toutes les pièces de l'ensemble du Sorcier (4), ensemble dans l'inventaire."]
+			icon: "irons_spellbooks:wizard_chestplate"
+			id: "7C9FC2F577B19606"
+			optional: true
+			rewards: [{
+				id: "097AFA3A61051F10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1E763A21553A8501"
+					item: "irons_spellbooks:wizard_helmet"
+					type: "item"
+				}
+				{
+					id: "08679205DF56705A"
+					item: "irons_spellbooks:wizard_chestplate"
+					type: "item"
+				}
+				{
+					id: "127ACA429749B634"
+					item: "irons_spellbooks:wizard_leggings"
+					type: "item"
+				}
+				{
+					id: "0BF73E90BFC1DBAF"
+					item: "irons_spellbooks:wizard_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Sorcier"
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"666BDDD722244CFD"
+				"05A831EA898EFF89"
+				"5ABC1D73F4C31372"
+				"5702F4A7C8A57069"
+				"5B1A06A7CC6CB870"
+				"478E9B41B906255A"
+				"558BEFD3855E9417"
+				"6EA37806B05C1F35"
+				"5468645E78FE71A4"
+				"56A03B351852E7F4"
+				"3906A29EE14DB5F8"
+				"06D8A1FCD0E727AB"
+				"15DD5BB24813CBA9"
+				"3DE7C7CD6A2864BF"
+				"76208E1623557282"
+				"66F659242BD27149"
+				"06268D54D7877AD7"
+				"3715C91641DCE79A"
+				"7D199F1045FD636C"
+				"7949010E7815D7E6"
+				"081D99B8B223DE1B"
+				"78F2F197E05F5EE5"
+				"764675652F0FE90D"
+				"622892683324D221"
+				"60B6F0B4F21202A2"
+				"7BA14584FF2B7EFE"
+				"0DE1B4CB28A3FCA5"
+				"4C9BEC148AD2CE03"
+				"46F8791E51E67D9F"
+				"5359594A8E3FDD86"
+				"4495FEB47DE5F3E5"
+				"2FA9FCF83D1E6290"
+				"715B90FC759F15CF"
+				"48E11E63C6A6C3EE"
+				"5887A2A52A3D646E"
+				"417C42D060D9D31E"
+				"5E8E28BDAC68BDF7"
+				"003233D4460916E5"
+				"15E0FB790A57ACF6"
+				"4DB7CD55DF17023A"
+				"471994FD0595888B"
+				"02CF9CB6B77041C0"
+				"1460989C2301F409"
+				"305B8C68B0323A35"
+				"0EBD8CCE3BC04682"
+				"6321E4536D843119"
+				"56AC8A1A0B97E43E"
+				"2EEDA7E121E480FF"
+				"058F5C180290AF05"
+				"52196FD968068954"
+				"49DFCF4223A115C1"
+				"41CB4EE0792A899E"
+				"749DDBB183AE596E"
+				"7E8C37D108DFC406"
+				"4180734FF48CBDC9"
+				"7BC176F89516C519"
+				"53D491E587840775"
+				"44203270EDE3431D"
+				"3E7BD940D69A7DEE"
+				"0A13A47C18C693DE"
+				"479C13ECF9EE3B74"
+				"1BFED619109A142B"
+				"55A3D418FA98823C"
+				"2B38C4F90CDE2A26"
+				"1F8E895381D6F416"
+				"3AE6ADF350B66250"
+				"5E360B2758599BF1"
+				"3692E8FBA48675CE"
+				"3D93B958599AC282"
+				"2D6E4FE813EBF890"
+				"457CC94D5F169CAA"
+				"6BC824396B3A2754"
+				"401F7E6E2E34646C"
+				"44323ED85BC8E07A"
+				"14FF238C5A113109"
+				"670D26A17A5E2CBE"
+				"5081A0C094197832"
+				"16B031344B7AA1A8"
+				"06F232C5CF16426A"
+				"4A5F578C51756F66"
+				"6D5BDFCB02D615CB"
+				"768231A6E134CC02"
+				"5C1E6DBC0101DB6B"
+				"561766C910F233AB"
+				"30E9B6B01D761A39"
+				"765CA784B20EB49C"
+				"482575456EAFC225"
+				"087FE4DBA4DA9B26"
+				"4ADA739A0F71167D"
+				"2C3C9CA8577D19D0"
+				"52427E39186A6414"
+				"572671F38BF59316"
+				"734E3E96D7D66BC5"
+				"106A211B2F4791A9"
+				"429ACA1C52B73D59"
+				"680A3125459DC14B"
+				"3B60E38FD05E47D5"
+				"7F00716CF0B96DAB"
+				"38AE1877E87586CA"
+				"33C47F628E9522A1"
+				"181504B341D392E9"
+				"38CE8141A8E0A751"
+				"0EE85E46FEBBBEDB"
+				"54AE8C7245388588"
+				"003A8A47BA9E3E0B"
+				"704143FCED7C0F0C"
+				"01C960DAAD6BEBD2"
+				"368DDA30E0FC0E7F"
+				"252A98A4B3C6194B"
+				"249C0C0012D39142"
+				"631C5EBC26A0E5BD"
+				"1E095DD0ACE9F0DB"
+				"33480DE5FFF38C42"
+				"4770B46E18F40AD3"
+				"51F379AC84DBFC8C"
+				"28BA2F41F6B71B5F"
+				"00F2FC3166EECA3F"
+				"71BA4324805A1F01"
+				"73417CA2A83FEAC9"
+				"541A5F9A21B9C6D9"
+				"2BFBFF362D5639FC"
+				"189EA4E63D32F378"
+				"66925C75B5961465"
+				"30F3F61B4F625EBF"
+				"62CF670C0F0FF2F6"
+				"16E5AE6D54D7E336"
+				"0E1C887E3B77EB6B"
+				"615AC981EADAE720"
+				"38385A6D5480B44F"
+				"1B2969E0563D987B"
+				"7C40EAC152D71348"
+				"2F3B82E5E981FB52"
+				"30B8C48683447A28"
+				"6CA2AD2956232565"
+				"65E3EC78143FC2B1"
+				"4F564E7422120E37"
+				"00847ADE1DFFFD10"
+				"7C7CD519F592FE40"
+				"26A2FFBD3846633F"
+				"6969593CBD3F9392"
+				"0109CD05FF09BCA8"
+				"1B1A49112F3EC29C"
+				"517C9E1D36E174F0"
+				"269CCE911A834244"
+				"34E361B97F5A470A"
+				"24ACB23AD836D4D2"
+				"7F9C178D0226F04D"
+				"5A88F0BE19586C79"
+				"2E0D1BB3FDEE464D"
+				"7C9FC2F577B19606"
+			]
+			description: ["Toutes les pièces et tous les ensembles de ce chapitre."]
+			icon: "minecraft:netherite_chestplate"
+			id: "10F88878894F8D74"
+			optional: true
+			rewards: [{
+				id: "3E6A6B545938EB87"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "054B6FB6AF06FF99"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&cArmurerie — magie"
+}

@@ -3,14 +3,18 @@
 	default_quest_shape: ""
 	filename: "enc_armurerie"
 	group: "34D36ACF0DABCCEC"
-	icon: "minecraft:netherite_chestplate"
+	icon: "minecraft:iron_chestplate"
 	id: "142B72A23EC11828"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Chaque armure (son casque la représente) et chaque arme des mods d'aventure du pack : Aether, Twilight Forest, Blue Skies, Cataclysm, Iron's Spells, Advanced Netherite, Deeper and Darker, et les autres. Une quête se valide en ayant l'objet dans l'inventaire."]
-			icon: "minecraft:netherite_chestplate"
+			description: [
+				"Chaque pièce d'armure des mods de base et d'aventure, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé."
+				""
+				"Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre."
+			]
+			icon: "minecraft:iron_chestplate"
 			id: "3E08EC55570066EB"
 			rewards: [{
 				id: "7C0DD9022BC283EE"
@@ -23,32 +27,12 @@
 				title: "Lu"
 				type: "checkmark"
 			}]
-			title: "&cArmurerie"
+			title: "&cArmurerie — base et aventure"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
-			icon: "advancednetherite:netherite_diamond_axe"
-			id: "3BC822C96919DA37"
-			optional: true
-			rewards: [{
-				id: "5AE4AB2BF5B44E1D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "71D5378ECDE300BA"
-				item: "advancednetherite:netherite_diamond_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Netherite-Diamond Axe »"
-			x: 0.0d
-			y: -9.0d
-		}
-		{
-			description: ["Objet de &badvancednetherite&r."]
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée."]
 			icon: "advancednetherite:netherite_diamond_helmet"
 			id: "77946A73203188E9"
 			optional: true
@@ -63,52 +47,115 @@
 				item: "advancednetherite:netherite_diamond_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Diamond Helmet »"
+			title: "« Netherite-Diamond Helmet »"
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_diamond_chestplate"
+			id: "26221D0933DDC854"
+			optional: true
+			rewards: [{
+				id: "0FEE8A82BB70AB42"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "67839354D07C54D6"
+				item: "advancednetherite:netherite_diamond_chestplate"
+				type: "item"
+			}]
+			title: "« Netherite-Diamond Chestplate »"
 			x: 1.5d
-			y: -9.0d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
-			icon: "advancednetherite:netherite_diamond_sword"
-			id: "065109BEE4182D5F"
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_diamond_leggings"
+			id: "1866373B00D5EE52"
 			optional: true
 			rewards: [{
-				id: "2BD9454B9BB2C796"
+				id: "6867B9F274230A5B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "2DACB9C5486342FB"
-				item: "advancednetherite:netherite_diamond_sword"
+				id: "264C37EF99A06A97"
+				item: "advancednetherite:netherite_diamond_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Diamond Sword »"
+			title: "« Netherite-Diamond Leggings »"
 			x: 3.0d
-			y: -9.0d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
-			icon: "advancednetherite:netherite_emerald_axe"
-			id: "6D50AD0BD9134B2B"
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_diamond_boots"
+			id: "15F47D4A95B100FA"
 			optional: true
 			rewards: [{
-				id: "5A56A84E3A76FA06"
+				id: "732C23EB80E9705B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "36B9B45FD99E5219"
-				item: "advancednetherite:netherite_emerald_axe"
+				id: "3ED6321EA5E9FAD4"
+				item: "advancednetherite:netherite_diamond_boots"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Emerald Axe »"
+			title: "« Netherite-Diamond Boots »"
 			x: 4.5d
-			y: -9.0d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
+			dependencies: [
+				"77946A73203188E9"
+				"26221D0933DDC854"
+				"1866373B00D5EE52"
+				"15F47D4A95B100FA"
+			]
+			description: ["Toutes les pièces de l'ensemble « Netherite-Diamond » (4), ensemble dans l'inventaire."]
+			icon: "advancednetherite:netherite_diamond_chestplate"
+			id: "2AD24305784EDE48"
+			optional: true
+			rewards: [{
+				id: "2497515D35724633"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3B311A42AB2C2879"
+					item: "advancednetherite:netherite_diamond_helmet"
+					type: "item"
+				}
+				{
+					id: "01B1351F2133DBC1"
+					item: "advancednetherite:netherite_diamond_chestplate"
+					type: "item"
+				}
+				{
+					id: "23433154358B89D0"
+					item: "advancednetherite:netherite_diamond_leggings"
+					type: "item"
+				}
+				{
+					id: "4E32E86F38FF568A"
+					item: "advancednetherite:netherite_diamond_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Netherite-Diamond »"
+			x: 6.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée."]
 			icon: "advancednetherite:netherite_emerald_helmet"
 			id: "6AE17366EC48738A"
 			optional: true
@@ -123,52 +170,115 @@
 				item: "advancednetherite:netherite_emerald_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Emerald Helmet »"
-			x: 6.0d
-			y: -9.0d
-		}
-		{
-			description: ["Objet de &badvancednetherite&r."]
-			icon: "advancednetherite:netherite_emerald_sword"
-			id: "36D05C30D6E46934"
-			optional: true
-			rewards: [{
-				id: "2307E7B9AE96FBEE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5E408FC499DFA9FE"
-				item: "advancednetherite:netherite_emerald_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Netherite-Emerald Sword »"
+			title: "« Netherite-Emerald Helmet »"
 			x: 7.5d
-			y: -9.0d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
-			icon: "advancednetherite:netherite_gold_axe"
-			id: "30F15AA9EAC77FCE"
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_emerald_chestplate"
+			id: "75AF75C9E85D8785"
 			optional: true
 			rewards: [{
-				id: "68200BB0CAB23074"
+				id: "42496E6BAB3EB19F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "6DDFDC2CC519ED54"
-				item: "advancednetherite:netherite_gold_axe"
+				id: "0868FF2D6366BE35"
+				item: "advancednetherite:netherite_emerald_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Gold Axe »"
+			title: "« Netherite-Emerald Chestplate »"
 			x: 9.0d
-			y: -9.0d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_emerald_leggings"
+			id: "15F86E40DA60E9F6"
+			optional: true
+			rewards: [{
+				id: "4899DC51DB4C6355"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69EE3D9AA111AFC7"
+				item: "advancednetherite:netherite_emerald_leggings"
+				type: "item"
+			}]
+			title: "« Netherite-Emerald Leggings »"
+			x: 10.5d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_emerald_boots"
+			id: "5FCC0790F92F3D98"
+			optional: true
+			rewards: [{
+				id: "228CC4D2A853E124"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66326677B795BDAE"
+				item: "advancednetherite:netherite_emerald_boots"
+				type: "item"
+			}]
+			title: "« Netherite-Emerald Boots »"
+			x: 12.0d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"6AE17366EC48738A"
+				"75AF75C9E85D8785"
+				"15F86E40DA60E9F6"
+				"5FCC0790F92F3D98"
+			]
+			description: ["Toutes les pièces de l'ensemble « Netherite-Emerald » (4), ensemble dans l'inventaire."]
+			icon: "advancednetherite:netherite_emerald_chestplate"
+			id: "4CE167468B63481F"
+			optional: true
+			rewards: [{
+				id: "1A046EFD08C4E3DE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6630DBB979D7784C"
+					item: "advancednetherite:netherite_emerald_helmet"
+					type: "item"
+				}
+				{
+					id: "06B1C15F5ED7691F"
+					item: "advancednetherite:netherite_emerald_chestplate"
+					type: "item"
+				}
+				{
+					id: "6C79C09A2DD6986A"
+					item: "advancednetherite:netherite_emerald_leggings"
+					type: "item"
+				}
+				{
+					id: "5B5E755AA7026E5C"
+					item: "advancednetherite:netherite_emerald_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Netherite-Emerald »"
+			x: 13.5d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée."]
 			icon: "advancednetherite:netherite_gold_helmet"
 			id: "1F5C3A7ABD00DDA0"
 			optional: true
@@ -183,52 +293,115 @@
 				item: "advancednetherite:netherite_gold_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Gold Helmet »"
-			x: 10.5d
-			y: -9.0d
+			title: "« Netherite-Gold Helmet »"
+			x: 15.0d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
-			icon: "advancednetherite:netherite_gold_sword"
-			id: "315699CA61356B2F"
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_gold_chestplate"
+			id: "2C767B19584335A1"
 			optional: true
 			rewards: [{
-				id: "5BC8CCF5A3D223F7"
+				id: "0FEE89F1637303D1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "5E2516BDC98B0656"
-				item: "advancednetherite:netherite_gold_sword"
+				id: "776D926B345ABB60"
+				item: "advancednetherite:netherite_gold_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Gold Sword »"
-			x: 12.0d
-			y: -9.0d
+			title: "« Netherite-Gold Chestplate »"
+			x: 16.5d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
-			icon: "advancednetherite:netherite_iron_axe"
-			id: "11268F6C32B32050"
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_gold_leggings"
+			id: "5E3509AE32899714"
 			optional: true
 			rewards: [{
-				id: "4B8BD77D526920FB"
+				id: "23CBE39DE84DB60C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "375441DB38BE8F3A"
-				item: "advancednetherite:netherite_iron_axe"
+				id: "5768333C90AA07CA"
+				item: "advancednetherite:netherite_gold_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Iron Axe »"
-			x: 13.5d
-			y: -9.0d
+			title: "« Netherite-Gold Leggings »"
+			x: 18.0d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &badvancednetherite&r."]
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_gold_boots"
+			id: "55085655CD6A3937"
+			optional: true
+			rewards: [{
+				id: "257B58FDA8CEBA59"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FA588600CF085C1"
+				item: "advancednetherite:netherite_gold_boots"
+				type: "item"
+			}]
+			title: "« Netherite-Gold Boots »"
+			x: 19.5d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"1F5C3A7ABD00DDA0"
+				"2C767B19584335A1"
+				"5E3509AE32899714"
+				"55085655CD6A3937"
+			]
+			description: ["Toutes les pièces de l'ensemble « Netherite-Gold » (4), ensemble dans l'inventaire."]
+			icon: "advancednetherite:netherite_gold_chestplate"
+			id: "0C340EBE342038C9"
+			optional: true
+			rewards: [{
+				id: "1C527514B6B130E2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "46B5161FEDC8161D"
+					item: "advancednetherite:netherite_gold_helmet"
+					type: "item"
+				}
+				{
+					id: "662591FA226500E5"
+					item: "advancednetherite:netherite_gold_chestplate"
+					type: "item"
+				}
+				{
+					id: "1E6B00ABC09842B8"
+					item: "advancednetherite:netherite_gold_leggings"
+					type: "item"
+				}
+				{
+					id: "35151AE6F73199F7"
+					item: "advancednetherite:netherite_gold_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Netherite-Gold »"
+			x: 21.0d
+			y: -6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée."]
 			icon: "advancednetherite:netherite_iron_helmet"
 			id: "707151415BF2A75A"
 			optional: true
@@ -243,2092 +416,375 @@
 				item: "advancednetherite:netherite_iron_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Netherite-Iron Helmet »"
-			x: 15.0d
-			y: -9.0d
-		}
-		{
-			description: ["Objet de &badvancednetherite&r."]
-			icon: "advancednetherite:netherite_iron_sword"
-			id: "59DD22CC99131415"
-			optional: true
-			rewards: [{
-				id: "729D948A6D05672C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "07CBF30E60B3A47F"
-				item: "advancednetherite:netherite_iron_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Netherite-Iron Sword »"
-			x: 16.5d
-			y: -9.0d
-		}
-		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:candy_cane_sword"
-			id: "02E3F250E9BA0B87"
-			optional: true
-			rewards: [{
-				id: "451714ECA98A7953"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0083FC790E71880C"
-				item: "aether:candy_cane_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Candy Cane Sword »"
-			x: 18.0d
-			y: -9.0d
-		}
-		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:cloud_staff"
-			id: "0A1E70C2E50D7370"
-			optional: true
-			rewards: [{
-				id: "4BCC829F0406B4A3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1110B71C1CCEFE8C"
-				item: "aether:cloud_staff"
-				type: "item"
-			}]
-			title: "Obtenir : « Cloud Staff »"
-			x: 19.5d
-			y: -9.0d
-		}
-		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:flaming_sword"
-			id: "07E02B751A38E24D"
-			optional: true
-			rewards: [{
-				id: "477A4172345BA47B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "45865EBB3D6E444F"
-				item: "aether:flaming_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Flaming Sword »"
-			x: 21.0d
-			y: -9.0d
-		}
-		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:gravitite_axe"
-			id: "3CBFCB042AC0EF3F"
-			optional: true
-			rewards: [{
-				id: "09D99CEF232050E7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1C225D5B1CF76C99"
-				item: "aether:gravitite_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Gravitite Axe »"
+			title: "« Netherite-Iron Helmet »"
 			x: 22.5d
-			y: -9.0d
+			y: -6.75d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:gravitite_helmet"
-			id: "19CC9E4804CF6065"
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_iron_chestplate"
+			id: "0C164D1DBAB68B00"
 			optional: true
 			rewards: [{
-				id: "3DA8C37DAC7259FC"
+				id: "6D686FEDBD23D17F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "550DE6BFD2BF7EF6"
-				item: "aether:gravitite_helmet"
+				id: "7256E03BC51F18E2"
+				item: "advancednetherite:netherite_iron_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Gravitite Helmet »"
+			title: "« Netherite-Iron Chestplate »"
 			x: 0.0d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:gravitite_sword"
-			id: "0EF171D3315FF54C"
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_iron_leggings"
+			id: "6DECED242398EF91"
 			optional: true
 			rewards: [{
-				id: "2056F9CCC1B2F16F"
+				id: "4F7F32F8BFFECF36"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4A11DB10B3C36784"
-				item: "aether:gravitite_sword"
+				id: "203678B52589CB72"
+				item: "advancednetherite:netherite_iron_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : « Gravitite Sword »"
+			title: "« Netherite-Iron Leggings »"
 			x: 1.5d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:holy_sword"
-			id: "68A18C497EAC6881"
+			description: ["Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_iron_boots"
+			id: "20C46504C68F9E41"
 			optional: true
 			rewards: [{
-				id: "1408C9A50A3D94B1"
+				id: "5E7D9135C83E5DA5"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "5F223581FC92A312"
-				item: "aether:holy_sword"
+				id: "32EFF4E2A5D0D1AB"
+				item: "advancednetherite:netherite_iron_boots"
 				type: "item"
 			}]
-			title: "Obtenir : « Holy Sword »"
+			title: "« Netherite-Iron Boots »"
 			x: 3.0d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:holystone_axe"
-			id: "3C572162FE20DC7A"
+			dependencies: [
+				"707151415BF2A75A"
+				"0C164D1DBAB68B00"
+				"6DECED242398EF91"
+				"20C46504C68F9E41"
+			]
+			description: ["Toutes les pièces de l'ensemble « Netherite-Iron » (4), ensemble dans l'inventaire."]
+			icon: "advancednetherite:netherite_iron_chestplate"
+			id: "75E558A91151C2BE"
 			optional: true
 			rewards: [{
-				id: "4F25D97A9E8C0F56"
+				id: "046A889931F33556"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "31A729F6E54A70A2"
-				item: "aether:holystone_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Holystone Axe »"
+			tasks: [
+				{
+					id: "2A83FA3EE926219D"
+					item: "advancednetherite:netherite_iron_helmet"
+					type: "item"
+				}
+				{
+					id: "1473C0592E88BCFE"
+					item: "advancednetherite:netherite_iron_chestplate"
+					type: "item"
+				}
+				{
+					id: "385EBEA88ECDA108"
+					item: "advancednetherite:netherite_iron_leggings"
+					type: "item"
+				}
+				{
+					id: "58EB881D21D8AD37"
+					item: "advancednetherite:netherite_iron_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Netherite-Iron »"
 			x: 4.5d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:holystone_sword"
-			id: "05277F6F1D4EB663"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:centipede_leggings"
+			id: "2E26DBEF79693439"
 			optional: true
 			rewards: [{
-				id: "0FE8D213AFDC5241"
+				id: "40CD8264301959B0"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "2765BCF948D776C9"
-				item: "aether:holystone_sword"
+				id: "74F0320C78490D6D"
+				item: "alexsmobs:centipede_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : « Holystone Sword »"
+			title: "Jambières en mille-pattes"
 			x: 6.0d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:lightning_sword"
-			id: "5627CBB6771383B2"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:crocodile_chestplate"
+			id: "4B6B44F0073FA76D"
 			optional: true
 			rewards: [{
-				id: "17FD709B33A612BC"
+				id: "6902A4DB6A6E27ED"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "24EE5D68E977BDB5"
-				item: "aether:lightning_sword"
+				id: "0F22DC73790A5EC8"
+				item: "alexsmobs:crocodile_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Lightning Sword »"
+			title: "Plastron de crocodile"
 			x: 7.5d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:nature_staff"
-			id: "3C34A46E79AFAB78"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:emu_leggings"
+			id: "40155FC50E5F581C"
 			optional: true
 			rewards: [{
-				id: "4A8B9F878BC0924A"
+				id: "7D80208C9AF48D4F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "1C7D54F166069F92"
-				item: "aether:nature_staff"
+				id: "3B0CC9A2679F1AD9"
+				item: "alexsmobs:emu_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : « Nature Staff »"
+			title: "Jambières d'émeu"
 			x: 9.0d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:neptune_helmet"
-			id: "36DF12258B71B8E6"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:fedora"
+			id: "3190E7329FC5EFCA"
 			optional: true
 			rewards: [{
-				id: "106C2078A8B8F776"
+				id: "6AB61F7D7885C1E6"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "20D363E23CB2164C"
-				item: "aether:neptune_helmet"
+				id: "115DE52E1581B3C1"
+				item: "alexsmobs:fedora"
 				type: "item"
 			}]
-			title: "Obtenir : « Neptune Helmet »"
+			title: "Feutre"
 			x: 10.5d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:phoenix_bow"
-			id: "33A1B6B7766FD629"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:flying_fish_boots"
+			id: "6397C815910CF225"
 			optional: true
 			rewards: [{
-				id: "0C49FE97DC15D605"
+				id: "3EDB791466B12CB0"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "092747C84F4DB4BB"
-				item: "aether:phoenix_bow"
+				id: "6A3C93A2F3A9EE26"
+				item: "alexsmobs:flying_fish_boots"
 				type: "item"
 			}]
-			title: "Obtenir : « Phoenix Bow »"
+			title: "Bottes de poisson volant"
 			x: 12.0d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:phoenix_helmet"
-			id: "40457C812059EDD8"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:frontier_cap"
+			id: "2CDC551A156FE799"
 			optional: true
 			rewards: [{
-				id: "2C8F63F7FC55E9BC"
+				id: "3EFD0D0A4B685989"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "12BAB6A79A556333"
-				item: "aether:phoenix_helmet"
+				id: "4149AA45C77E71D5"
+				item: "alexsmobs:frontier_cap"
 				type: "item"
 			}]
-			title: "Obtenir : « Phoenix Helmet »"
+			title: "Casquette de Frontiersman"
 			x: 13.5d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:skyroot_axe"
-			id: "00EC1F306F44C0EA"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:froststalker_helmet"
+			id: "10F35908BA7FA4A7"
 			optional: true
 			rewards: [{
-				id: "2C629A67246384DB"
+				id: "6F362F43A53EE62E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "34ACE33311C3A573"
-				item: "aether:skyroot_axe"
+				id: "7D30C283F8BDF9E8"
+				item: "alexsmobs:froststalker_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Skyroot Axe »"
+			title: "Casque de traqueur givrant"
 			x: 15.0d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:skyroot_sword"
-			id: "1C046485889305DA"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:moose_headgear"
+			id: "5E1E75B4330E73B0"
 			optional: true
 			rewards: [{
-				id: "5E2CB26EEBE21D37"
+				id: "2DE7A215DCD27BA1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "11500B8552B708BE"
-				item: "aether:skyroot_sword"
+				id: "2B2423EE071600ED"
+				item: "alexsmobs:moose_headgear"
 				type: "item"
 			}]
-			title: "Obtenir : « Skyroot Sword »"
+			title: "Casque d'antler"
 			x: 16.5d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:valkyrie_axe"
-			id: "57094F61AC240F0D"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:roadrunner_boots"
+			id: "2252AC33C9EACA9B"
 			optional: true
 			rewards: [{
-				id: "07CD414FBE8B1222"
+				id: "6B351A397CA1F13E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "504BF1225B269742"
-				item: "aether:valkyrie_axe"
+				id: "05A2EBE972AC1E08"
+				item: "alexsmobs:roadrunner_boots"
 				type: "item"
 			}]
-			title: "Obtenir : « Valkyrie Axe »"
+			title: "Bottes de géocoucou"
 			x: 18.0d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:valkyrie_helmet"
-			id: "5C487D0FCCACCFE4"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:rocky_chestplate"
+			id: "33732E15529DBADA"
 			optional: true
 			rewards: [{
-				id: "0494B49C071F8803"
+				id: "2C0EFC946A8CB08F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "0B2D9BCD53A62290"
-				item: "aether:valkyrie_helmet"
+				id: "1D7B3DC0F6BDFF70"
+				item: "alexsmobs:rocky_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Valkyrie Helmet »"
+			title: "Plastron en carapace rocheuse"
 			x: 19.5d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:valkyrie_lance"
-			id: "7975FBC2BE6D6F5A"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:sombrero"
+			id: "00CC631CED52AADF"
 			optional: true
 			rewards: [{
-				id: "09A5781928F1D672"
+				id: "2D11C4C8826A8400"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "035859B4FE8E5BA8"
-				item: "aether:valkyrie_lance"
+				id: "5A04AB8926BCF497"
+				item: "alexsmobs:sombrero"
 				type: "item"
 			}]
-			title: "Obtenir : « Valkyrie Lance »"
+			title: "Sombrero"
 			x: 21.0d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:zanite_axe"
-			id: "4D581251E184479A"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:straddle_helmet"
+			id: "3427536B04845832"
 			optional: true
 			rewards: [{
-				id: "5BAFF8D2CEDD9324"
+				id: "7957A07851A152B1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "53A9F8538A5C938A"
-				item: "aether:zanite_axe"
+				id: "080C01FDC4BF3D5B"
+				item: "alexsmobs:straddle_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Zanite Axe »"
+			title: "Coque de Straddlite"
 			x: 22.5d
-			y: -7.5d
+			y: -5.25d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:zanite_helmet"
-			id: "777920ED0E0A3035"
+			description: ["Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:unsettling_kimono"
+			id: "6141B292E81A0256"
 			optional: true
 			rewards: [{
-				id: "2CE160A31EAC657B"
+				id: "72F42749392C4937"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "244B99E5DE66B62D"
-				item: "aether:zanite_helmet"
+				id: "0AE13640EC26B4BB"
+				item: "alexsmobs:unsettling_kimono"
 				type: "item"
 			}]
-			title: "Obtenir : « Zanite Helmet »"
+			title: "Kimono troublant"
 			x: 0.0d
-			y: -6.0d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bAether&r."]
-			icon: "aether:zanite_sword"
-			id: "10ECB15AE144304F"
-			optional: true
-			rewards: [{
-				id: "503E5E4FCC195E2D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "21B6952725BD39D1"
-				item: "aether:zanite_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Zanite Sword »"
-			x: 1.5d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bAether Redux&r."]
-			icon: "aether_redux:infused_veridium_axe"
-			id: "7B989360A6F75D2D"
-			optional: true
-			rewards: [{
-				id: "79F6A78F19189DAC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "77C0E6E4F3C0852E"
-				item: "aether_redux:infused_veridium_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Infused Veridium Axe »"
-			x: 3.0d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bAether Redux&r."]
-			icon: "aether_redux:infused_veridium_sword"
-			id: "1E9C038A2CF12E6D"
-			optional: true
-			rewards: [{
-				id: "153CA8B2C4862855"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "265922B1C4A617D7"
-				item: "aether_redux:infused_veridium_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Infused Veridium Sword »"
-			x: 4.5d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bAether Redux&r."]
-			icon: "aether_redux:snailshell_shield"
-			id: "001CD20516D488E6"
-			optional: true
-			rewards: [{
-				id: "4F56589959DA9597"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6CD79DBD595BBC35"
-				item: "aether_redux:snailshell_shield"
-				type: "item"
-			}]
-			title: "Obtenir : « Snailshell Shield »"
-			x: 6.0d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bAether Redux&r."]
-			icon: "aether_redux:subzero_crossbow"
-			id: "006C65BC13F108CC"
-			optional: true
-			rewards: [{
-				id: "0AC3804992C4A867"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1532E6777FD804D9"
-				item: "aether_redux:subzero_crossbow"
-				type: "item"
-			}]
-			title: "Obtenir : « Subzero Crossbow »"
-			x: 7.5d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bAether Redux&r."]
-			icon: "aether_redux:veridium_axe"
-			id: "45594CF1FD798073"
-			optional: true
-			rewards: [{
-				id: "7BB21C6D0C78C968"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4425F6C0A467FBD4"
-				item: "aether_redux:veridium_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Veridium Axe »"
-			x: 9.0d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bAether Redux&r."]
-			icon: "aether_redux:veridium_sword"
-			id: "50FA401C613847EB"
-			optional: true
-			rewards: [{
-				id: "219824D3ECCEEABF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "190877E7AA141CF7"
-				item: "aether_redux:veridium_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Veridium Sword »"
-			x: 10.5d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:aeternium_axe"
-			id: "6CC4CB74B16C8203"
-			optional: true
-			rewards: [{
-				id: "25CE10C6EE64C659"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "703D9418B6AE5489"
-				item: "betterend:aeternium_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Aeternium Axe »"
-			x: 12.0d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:aeternium_hammer"
-			id: "536FC32DACFACCEB"
-			optional: true
-			rewards: [{
-				id: "4E83A716E8CF1F1F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3518CAC347389E1B"
-				item: "betterend:aeternium_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Aeternium Smith Hammer »"
-			x: 13.5d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:aeternium_helmet"
-			id: "4C2BEEE9A8D43E45"
-			optional: true
-			rewards: [{
-				id: "592933E533639E6C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "79BB9AB568F99EE2"
-				item: "betterend:aeternium_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : « Aeternium Helmet »"
-			x: 15.0d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:aeternium_sword"
-			id: "4BB4CD308607CBC3"
-			optional: true
-			rewards: [{
-				id: "6DB59CB11433AC2E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0759630281870A1E"
-				item: "betterend:aeternium_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Aeternium Sword »"
-			x: 16.5d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:crystalite_helmet"
-			id: "6773E437AE0FD44F"
-			optional: true
-			rewards: [{
-				id: "681582C575AE4C83"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "170652AFE33C8033"
-				item: "betterend:crystalite_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : « Crystalite Helmet »"
-			x: 18.0d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:diamond_hammer"
-			id: "75A9BF320B2E1365"
-			optional: true
-			rewards: [{
-				id: "7101879A54FCCE2E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4ACDB02514249B60"
-				item: "betterend:diamond_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Diamond Smith Hammer »"
-			x: 19.5d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:golden_hammer"
-			id: "06B31F9F32D78E71"
-			optional: true
-			rewards: [{
-				id: "7D0309BFBA1A7FC1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0E11D6DD9488FE51"
-				item: "betterend:golden_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Golden Smith Hammer »"
-			x: 21.0d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:iron_hammer"
-			id: "57D5E45151121A9E"
-			optional: true
-			rewards: [{
-				id: "1BB03A959F4C57D5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "340AB63DCFB4C543"
-				item: "betterend:iron_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Iron Smith Hammer »"
-			x: 22.5d
-			y: -6.0d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:netherite_hammer"
-			id: "0C066725FFBF1CD4"
-			optional: true
-			rewards: [{
-				id: "7552CB123C65B89A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7C3D2226EC37A84D"
-				item: "betterend:netherite_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Netherite Smith Hammer »"
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:terminite_axe"
-			id: "4C819DE38235756C"
-			optional: true
-			rewards: [{
-				id: "3561BBFC4608F340"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3C935748BD8A4181"
-				item: "betterend:terminite_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Terminite Axe »"
-			x: 1.5d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:terminite_hammer"
-			id: "50966C08D9637B3C"
-			optional: true
-			rewards: [{
-				id: "4AD32F077329F329"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "35EE295ACF6CE2E9"
-				item: "betterend:terminite_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Terminite Smith Hammer »"
-			x: 3.0d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:terminite_helmet"
-			id: "314D3F4E297ED99C"
-			optional: true
-			rewards: [{
-				id: "5C1AC399EF18F5A2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3F6B24CD0A88C227"
-				item: "betterend:terminite_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : « Terminite Helmet »"
-			x: 4.5d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:terminite_sword"
-			id: "755C49D6F5B54E15"
-			optional: true
-			rewards: [{
-				id: "5E689033A0698DF8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5B533418966829DE"
-				item: "betterend:terminite_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Terminite Sword »"
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:thallasium_axe"
-			id: "2F1E1E36470A78A1"
-			optional: true
-			rewards: [{
-				id: "4B4FC978E88ACFF8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6C1C99955CED2E09"
-				item: "betterend:thallasium_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Thallasium Axe »"
-			x: 7.5d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:thallasium_hammer"
-			id: "63CAF82619BD70B7"
-			optional: true
-			rewards: [{
-				id: "56637E180827EA55"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4E264B4B9296C2DF"
-				item: "betterend:thallasium_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Thallasium Hammer »"
-			x: 9.0d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:thallasium_helmet"
-			id: "1B6AF97CEA4B69D1"
-			optional: true
-			rewards: [{
-				id: "63D4ECD0DEA65CA6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "776FFA2D94103EA1"
-				item: "betterend:thallasium_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : « Thallasium Helmet »"
-			x: 10.5d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter End&r."]
-			icon: "betterend:thallasium_sword"
-			id: "1588C6F4BCC529E3"
-			optional: true
-			rewards: [{
-				id: "5A764D68B1032B34"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "647EDF85CD7E2D2B"
-				item: "betterend:thallasium_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Thallasium Sword »"
-			x: 12.0d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:cincinnasite_axe"
-			id: "64FB87C569947B1D"
-			optional: true
-			rewards: [{
-				id: "1A86EA8F16D9398E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7CBEDB5E3061F6A9"
-				item: "betternether:cincinnasite_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en Cincinnasite"
-			x: 13.5d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:cincinnasite_helmet"
-			id: "1FCFBAE2AA04B649"
-			optional: true
-			rewards: [{
-				id: "7D7FBE0324C01139"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6956CA022569CB5B"
-				item: "betternether:cincinnasite_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Cincinnasite Helmet"
-			x: 15.0d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:cincinnasite_sword"
-			id: "0897AB9014A9C175"
-			optional: true
-			rewards: [{
-				id: "7B8C9F05F1948BA0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0587A67A7F4CEEBD"
-				item: "betternether:cincinnasite_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Cincinnasite Sword"
-			x: 16.5d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:flaming_ruby_axe"
-			id: "7C045F0E9B482952"
-			optional: true
-			rewards: [{
-				id: "31EB34B157B4032D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "09801C91EFC561BF"
-				item: "betternether:flaming_ruby_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Fireruby Axe »"
-			x: 18.0d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:flaming_ruby_helmet"
-			id: "699A143ACB0B734F"
-			optional: true
-			rewards: [{
-				id: "653CDEA3A483C96D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7BD52BE032D86730"
-				item: "betternether:flaming_ruby_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : « Fireruby Helmet »"
-			x: 19.5d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:flaming_ruby_sword"
-			id: "1CB2AE19FDA4EF77"
-			optional: true
-			rewards: [{
-				id: "75E5DCAC91C22961"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6B061B37173D1E28"
-				item: "betternether:flaming_ruby_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Fireruby Sword »"
-			x: 21.0d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:nether_ruby_axe"
-			id: "3EEA2AA3FB9C7915"
-			optional: true
-			rewards: [{
-				id: "3854AE4D0516F7E5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "39FEF37E376787A9"
-				item: "betternether:nether_ruby_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Nether Ruby Axe"
-			x: 22.5d
-			y: -4.5d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:nether_ruby_helmet"
-			id: "5A62232CF7F30940"
-			optional: true
-			rewards: [{
-				id: "4369A7DDE92CC24E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "003EF227D9EFB9F9"
-				item: "betternether:nether_ruby_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Nether Ruby Helmet"
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBetter Nether&r."]
-			icon: "betternether:nether_ruby_sword"
-			id: "139776CD9EF51924"
-			optional: true
-			rewards: [{
-				id: "3E1B75F8584E03E4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "26008DD71B572566"
-				item: "betternether:nether_ruby_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Nether Ruby Sword"
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:aquite_axe"
-			id: "74C03FCED9AC244B"
-			optional: true
-			rewards: [{
-				id: "1A9BBF2704E1B930"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6F2D4D773A94245D"
-				item: "blue_skies:aquite_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en aquite"
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:aquite_helmet"
-			id: "7DFC1F093F1EC655"
-			optional: true
-			rewards: [{
-				id: "6E86E8ADE7649308"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "165F61AD2164C02A"
-				item: "blue_skies:aquite_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque en aquite"
-			x: 4.5d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:aquite_sword"
-			id: "420054CE04EA9FA5"
-			optional: true
-			rewards: [{
-				id: "4932433AE81EBFAD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "69CF3D05442B773A"
-				item: "blue_skies:aquite_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en aquite"
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:bluebright_axe"
-			id: "2BEE7E63CCEC0A01"
-			optional: true
-			rewards: [{
-				id: "0375F2137E8C9811"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5A7AE2F689B571CA"
-				item: "blue_skies:bluebright_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en bois de lumibleu"
-			x: 7.5d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:bluebright_spear"
-			id: "05A025D40503F05D"
-			optional: true
-			rewards: [{
-				id: "3F8CF26AD4F45FE9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1A20D6E008295246"
-				item: "blue_skies:bluebright_spear"
-				type: "item"
-			}]
-			title: "Obtenir : Lance en lumibleu"
-			x: 9.0d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:bluebright_sword"
-			id: "4C5BD8C0859053CA"
-			optional: true
-			rewards: [{
-				id: "467061E56F8EC6E8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "449A964F2130EABC"
-				item: "blue_skies:bluebright_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en bois lumibleu"
-			x: 10.5d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:charoite_axe"
-			id: "1C4B3D4D47423DD6"
-			optional: true
-			rewards: [{
-				id: "5D99B34E008AE4D8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6A7604734501C49C"
-				item: "blue_skies:charoite_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en charoite"
-			x: 12.0d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:charoite_helmet"
-			id: "62CAF72333F150B5"
-			optional: true
-			rewards: [{
-				id: "7ABAE444C26B21E9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "366EA6D55DA50515"
-				item: "blue_skies:charoite_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque en charoite"
-			x: 13.5d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:charoite_sword"
-			id: "4CBB56BBB3E751D5"
-			optional: true
-			rewards: [{
-				id: "140E99522612BA6A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "58A24E1A4AA5F8BC"
-				item: "blue_skies:charoite_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en charoite"
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:comet_axe"
-			id: "60DA88A3AD88544D"
-			optional: true
-			rewards: [{
-				id: "4F6C19FD0ED8FDFB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "17D1DCE3983D3CD8"
-				item: "blue_skies:comet_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Comet Wood Axe »"
-			x: 16.5d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:comet_spear"
-			id: "5409F05CF06E1045"
-			optional: true
-			rewards: [{
-				id: "1BE59ACA2BB3CAB8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6EC7D4F0748EE4F4"
-				item: "blue_skies:comet_spear"
-				type: "item"
-			}]
-			title: "Obtenir : « Comet Spear »"
-			x: 18.0d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:comet_sword"
-			id: "6D1B9B183CB01B89"
-			optional: true
-			rewards: [{
-				id: "191AC22F3DB91FCC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "60746BD0A2984456"
-				item: "blue_skies:comet_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Comet Wood Sword »"
-			x: 19.5d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:crushing_hammer"
-			id: "4D30677B3612E2FA"
-			optional: true
-			rewards: [{
-				id: "4FDD28115C890D8B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1E417C7F52D35174"
-				item: "blue_skies:crushing_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : Marteau écraseur"
-			x: 21.0d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:different_sword"
-			id: "14E318EB8CF3E2D9"
-			optional: true
-			rewards: [{
-				id: "281A23222C9A381D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6ED3CAD7469BE046"
-				item: "blue_skies:different_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée différente"
-			x: 22.5d
-			y: -3.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:diopside_axe"
-			id: "1FF5084D17B27E83"
-			optional: true
-			rewards: [{
-				id: "665FC4CA9305EBDF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "61B40FC0F6FF107B"
-				item: "blue_skies:diopside_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en diopside"
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:diopside_helmet"
-			id: "399F74651B1037A6"
-			optional: true
-			rewards: [{
-				id: "5CF10A8356A03E87"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "18D027EAD0044903"
-				item: "blue_skies:diopside_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque en diopside"
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:diopside_sword"
-			id: "1904CEDDA81D763B"
-			optional: true
-			rewards: [{
-				id: "67F781B060B4ED10"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "61AC0EFD3D309D5A"
-				item: "blue_skies:diopside_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en diopside"
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:dusk_axe"
-			id: "04042AF090BE8E7E"
-			optional: true
-			rewards: [{
-				id: "1B9FCFA128A2A73D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1F274511D6944AD4"
-				item: "blue_skies:dusk_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en crépuscubois"
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:dusk_spear"
-			id: "5D60A39CDA9E52D5"
-			optional: true
-			rewards: [{
-				id: "5D784EBAE2A40679"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "505B1015C825B1E9"
-				item: "blue_skies:dusk_spear"
-				type: "item"
-			}]
-			title: "Obtenir : Lance en crépuscubois"
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:dusk_sword"
-			id: "44F977F74D36E2C5"
-			optional: true
-			rewards: [{
-				id: "073265DCF31181EE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4EB0E1A7A534CE43"
-				item: "blue_skies:dusk_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en crépuscubois"
-			x: 7.5d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:frostbright_axe"
-			id: "2A036B3685DCB3E6"
-			optional: true
-			rewards: [{
-				id: "00889E57BA31B9E5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6401FEE443222286"
-				item: "blue_skies:frostbright_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en bois de nifrisque"
-			x: 9.0d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:frostbright_spear"
-			id: "31AA91DE85B24917"
-			optional: true
-			rewards: [{
-				id: "4004FC76F61628AF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7DF31E2B3CC1CC67"
-				item: "blue_skies:frostbright_spear"
-				type: "item"
-			}]
-			title: "Obtenir : lance en nifrisque"
-			x: 10.5d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:frostbright_sword"
-			id: "0E736BFC0B5C1C57"
-			optional: true
-			rewards: [{
-				id: "7AEFA832D07FA7F4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "364E0733B7557829"
-				item: "blue_skies:frostbright_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en bois de nifrisque"
-			x: 12.0d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:horizonite_axe"
-			id: "76CFE905422F2151"
-			optional: true
-			rewards: [{
-				id: "731F42D4CE394C73"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "29712ADA1C7DAB82"
-				item: "blue_skies:horizonite_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en horizonite"
-			x: 13.5d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:horizonite_helmet"
-			id: "02FEFCB3542F13D2"
-			optional: true
-			rewards: [{
-				id: "593D945BB56DDB78"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5F413452F020ADE2"
-				item: "blue_skies:horizonite_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque en horizonite"
-			x: 15.0d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:horizonite_sword"
-			id: "27CC1A64D5A47D85"
-			optional: true
-			rewards: [{
-				id: "6134B0566ECD583F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3F901AF86D28DBF4"
-				item: "blue_skies:horizonite_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en horizonite"
-			x: 16.5d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:lunar_axe"
-			id: "274DA9BC1CBFDE31"
-			optional: true
-			rewards: [{
-				id: "61775769A38A2CC2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "09C6B39CF9C2BF0B"
-				item: "blue_skies:lunar_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache lunaire"
-			x: 18.0d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:lunar_spear"
-			id: "7CC6E437F5077665"
-			optional: true
-			rewards: [{
-				id: "3F8C853B46D6ED19"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3CB8B63A398ABF4A"
-				item: "blue_skies:lunar_spear"
-				type: "item"
-			}]
-			title: "Obtenir : Lance lunaire"
-			x: 19.5d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:lunar_stone_axe"
-			id: "3395AB1A1B8C42F3"
-			optional: true
-			rewards: [{
-				id: "3FB4D7A733736794"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "084B8B4D26BF1900"
-				item: "blue_skies:lunar_stone_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en pierre lunaire"
-			x: 21.0d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:lunar_stone_sword"
-			id: "284314AF396ADEA8"
-			optional: true
-			rewards: [{
-				id: "5BC4CDE5650B6375"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4F0CD39DCB78B702"
-				item: "blue_skies:lunar_stone_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en pierre lunaire"
-			x: 22.5d
-			y: -1.5d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:lunar_sword"
-			id: "43A4B5CBD53C66E3"
-			optional: true
-			rewards: [{
-				id: "51E229F622B28232"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "52A7717D4F97E0D5"
-				item: "blue_skies:lunar_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée lunaire"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:maple_axe"
-			id: "509AD68397E3B327"
-			optional: true
-			rewards: [{
-				id: "1760FE3FA961594F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7C0B7A59329A5E06"
-				item: "blue_skies:maple_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en bois d'érable"
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:maple_spear"
-			id: "04F57BB0D8938107"
-			optional: true
-			rewards: [{
-				id: "09A9154DA9CBC9C8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2375C5EFFF39F6C1"
-				item: "blue_skies:maple_spear"
-				type: "item"
-			}]
-			title: "Obtenir : Lance en érable"
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:maple_sword"
-			id: "4D318AF16B404C81"
-			optional: true
-			rewards: [{
-				id: "1B6DAE902B94BE39"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "418463E3FFAFEFF6"
-				item: "blue_skies:maple_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en bois d'érable"
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:moonstone_shield"
-			id: "6F06D5D8B1176B4F"
-			optional: true
-			rewards: [{
-				id: "34FCC2A8601A5E91"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "109FD1BB21545E04"
-				item: "blue_skies:moonstone_shield"
-				type: "item"
-			}]
-			title: "Obtenir : Bouclier en pierre de lune"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:pyrope_axe"
-			id: "513742911D7C0B28"
-			optional: true
-			rewards: [{
-				id: "7BA172E840DAF806"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "57365F79064A2C3A"
-				item: "blue_skies:pyrope_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en pyrope"
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:pyrope_helmet"
-			id: "38A193444AD1F615"
-			optional: true
-			rewards: [{
-				id: "5FB2C22FA9193687"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5A9EA5CC0825735C"
-				item: "blue_skies:pyrope_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque en pyrope"
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:pyrope_sword"
-			id: "257ED2FEDEFCBAAF"
-			optional: true
-			rewards: [{
-				id: "02E521CA6D0F27FC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5422900189CAB585"
-				item: "blue_skies:pyrope_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en pyrope"
-			x: 10.5d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:soulbound_spear"
-			id: "30D82E40FC9077D5"
-			optional: true
-			rewards: [{
-				id: "1CBE7E35DA435DDD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "10F3623AA4625BA2"
-				item: "blue_skies:soulbound_spear"
-				type: "item"
-			}]
-			title: "Obtenir : Lance de garde"
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:spike_shield"
-			id: "76CD914E24376479"
-			optional: true
-			rewards: [{
-				id: "43A96F56AD99486D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "29835080460B59F4"
-				item: "blue_skies:spike_shield"
-				type: "item"
-			}]
-			title: "Obtenir : Bouclier spéléothème"
-			x: 13.5d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:starlit_axe"
-			id: "4C24BB98CE6493A9"
-			optional: true
-			rewards: [{
-				id: "7DC133C400B49D30"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6EF85E3DE17350BC"
-				item: "blue_skies:starlit_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en étoilibois"
-			x: 15.0d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:starlit_spear"
-			id: "171577F844BDDA81"
-			optional: true
-			rewards: [{
-				id: "5151C90C776BC13A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3D19CDD8DFA53BDE"
-				item: "blue_skies:starlit_spear"
-				type: "item"
-			}]
-			title: "Obtenir : Lance en étoilibois"
-			x: 16.5d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:starlit_sword"
-			id: "4BE8B007BD509CBB"
-			optional: true
-			rewards: [{
-				id: "52E6898866998CDC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5130BDDA8842100F"
-				item: "blue_skies:starlit_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en étoilibois"
-			x: 18.0d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:turquoise_stone_axe"
-			id: "16CDB4C4262D53DB"
-			optional: true
-			rewards: [{
-				id: "1036AA7A18B2A238"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "197F9B2EB8F7C476"
-				item: "blue_skies:turquoise_stone_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en pierre turquoise"
-			x: 19.5d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bBlue Skies&r."]
-			icon: "blue_skies:turquoise_stone_sword"
-			id: "1619593FA5BF3EF9"
-			optional: true
-			rewards: [{
-				id: "5DFFB41DC565D475"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "51B9FAE027E0483C"
-				item: "blue_skies:turquoise_stone_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en pierre turquoise"
-			x: 21.0d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bCataclysm&r."]
-			icon: "cataclysm:ancient_spear"
-			id: "46BCFB4803C0B669"
-			optional: true
-			rewards: [{
-				id: "34CB65F200C89867"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "48AB77B203D14B40"
-				item: "cataclysm:ancient_spear"
-				type: "item"
-			}]
-			title: "Obtenir : « Ancient Spear »"
-			x: 22.5d
-			y: 0.0d
-		}
-		{
-			description: ["Objet de &bCataclysm&r."]
-			icon: "cataclysm:azure_sea_shield"
-			id: "44A44D677DAF9D96"
-			optional: true
-			rewards: [{
-				id: "664821B309FA3F9D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "17A867F84F9AE412"
-				item: "cataclysm:azure_sea_shield"
-				type: "item"
-			}]
-			title: "Obtenir : « Azure Sea Shield »"
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			description: ["Objet de &bCataclysm&r."]
-			icon: "cataclysm:black_steel_axe"
-			id: "32B15AE2A5FE31F0"
-			optional: true
-			rewards: [{
-				id: "195A3C8D52C065D5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "19375B6F789FCE1E"
-				item: "cataclysm:black_steel_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Black Steel Axe »"
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			description: ["Objet de &bCataclysm&r."]
-			icon: "cataclysm:black_steel_sword"
-			id: "31941DE9739D16BA"
-			optional: true
-			rewards: [{
-				id: "72FAFBDE7FEFED05"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1E22234B2511111A"
-				item: "cataclysm:black_steel_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Black Steel Sword »"
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			description: ["Objet de &bCataclysm&r."]
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Bone Reptile ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
 			icon: "cataclysm:bone_reptile_helmet"
 			id: "1C45F8CD7889D76E"
 			optional: true
@@ -2343,32 +799,63 @@
 				item: "cataclysm:bone_reptile_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Bone Reptile Helmet »"
-			x: 4.5d
-			y: 1.5d
+			title: "« Bone Reptile Helmet »"
+			x: 1.5d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bCataclysm&r."]
-			icon: "cataclysm:cursed_bow"
-			id: "311DC702E7A2712F"
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Bone Reptile ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:bone_reptile_chestplate"
+			id: "103C402CB3C10722"
 			optional: true
 			rewards: [{
-				id: "6F33C9250A460D09"
+				id: "106C42CC15ED463F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4C8DA0CB7A75E1FF"
-				item: "cataclysm:cursed_bow"
+				id: "3B1D489A1FDE9921"
+				item: "cataclysm:bone_reptile_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Cursed Bow »"
-			x: 6.0d
-			y: 1.5d
+			title: "« Bone Reptile Chestplate »"
+			x: 3.0d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bCataclysm&r."]
+			dependencies: [
+				"1C45F8CD7889D76E"
+				"103C402CB3C10722"
+			]
+			description: ["Toutes les pièces de l'ensemble « Bone Reptile » (2), ensemble dans l'inventaire."]
+			icon: "cataclysm:bone_reptile_chestplate"
+			id: "28755A03791343BF"
+			optional: true
+			rewards: [{
+				id: "7F456067EB90DAE5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "35C031F6C0588C20"
+					item: "cataclysm:bone_reptile_helmet"
+					type: "item"
+				}
+				{
+					id: "34478F4ED312439F"
+					item: "cataclysm:bone_reptile_chestplate"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Bone Reptile »"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
 			icon: "cataclysm:cursium_helmet"
 			id: "44B09B9BE613954F"
 			optional: true
@@ -2383,12 +870,115 @@
 				item: "cataclysm:cursium_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Cursium Helmet »"
-			x: 7.5d
-			y: 1.5d
+			title: "« Cursium Helmet »"
+			x: 6.0d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bCataclysm&r."]
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:cursium_chestplate"
+			id: "1C7DA992FF4DCE70"
+			optional: true
+			rewards: [{
+				id: "15C00ABA52FA5407"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36AEC682C55996F1"
+				item: "cataclysm:cursium_chestplate"
+				type: "item"
+			}]
+			title: "« Cursium Chestplate »"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:cursium_leggings"
+			id: "5785CBDB9419D0BA"
+			optional: true
+			rewards: [{
+				id: "428D348DC47EA1F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C76FB40346C02BC"
+				item: "cataclysm:cursium_leggings"
+				type: "item"
+			}]
+			title: "« Cursium Leggings »"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:cursium_boots"
+			id: "67C052E32DD833F8"
+			optional: true
+			rewards: [{
+				id: "250B7E221BFDC21B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41BAD8913AA9B013"
+				item: "cataclysm:cursium_boots"
+				type: "item"
+			}]
+			title: "« Cursium Boots »"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"44B09B9BE613954F"
+				"1C7DA992FF4DCE70"
+				"5785CBDB9419D0BA"
+				"67C052E32DD833F8"
+			]
+			description: ["Toutes les pièces de l'ensemble « Cursium » (4), ensemble dans l'inventaire."]
+			icon: "cataclysm:cursium_chestplate"
+			id: "1D5A3167C8D251C5"
+			optional: true
+			rewards: [{
+				id: "13B661CC7239ED81"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7A00F0ED3B86EA97"
+					item: "cataclysm:cursium_helmet"
+					type: "item"
+				}
+				{
+					id: "640CB9BAF9FEAEA7"
+					item: "cataclysm:cursium_chestplate"
+					type: "item"
+				}
+				{
+					id: "45A17C2B6DCA9A8C"
+					item: "cataclysm:cursium_leggings"
+					type: "item"
+				}
+				{
+					id: "4CCC2FAD47C7A360"
+					item: "cataclysm:cursium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Cursium »"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
 			icon: "cataclysm:ignitium_helmet"
 			id: "157E5F4608575B82"
 			optional: true
@@ -2403,232 +993,480 @@
 				item: "cataclysm:ignitium_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Ignitium Helmet »"
-			x: 9.0d
-			y: 1.5d
-		}
-		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:skyjade_axe"
-			id: "6AA37C5D55FE8381"
-			optional: true
-			rewards: [{
-				id: "6DB7426868DEA300"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3880C84785C9F619"
-				item: "deep_aether:skyjade_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Skyjade Axe »"
-			x: 10.5d
-			y: 1.5d
-		}
-		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:skyjade_helmet"
-			id: "0240F53FC2645AD5"
-			optional: true
-			rewards: [{
-				id: "2B7DD93985EF8B4E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0E457BE23775DAE6"
-				item: "deep_aether:skyjade_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : « Skyjade Helmet »"
-			x: 12.0d
-			y: 1.5d
-		}
-		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:skyjade_sword"
-			id: "4EA33525A8B4BAA9"
-			optional: true
-			rewards: [{
-				id: "7F445A62314E76DD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1A4A26FD37D9114A"
-				item: "deep_aether:skyjade_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Skyjade Sword »"
+			title: "« Ignitium Helmet »"
 			x: 13.5d
-			y: 1.5d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:storm_bow"
-			id: "0853394EC788F15A"
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:ignitium_chestplate"
+			id: "7587D69BF6D5FE07"
 			optional: true
 			rewards: [{
-				id: "7BEF3ADA6914774B"
+				id: "0911296EA9B07320"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "3E661EE1C472C88B"
-				item: "deep_aether:storm_bow"
+				id: "635599309C891348"
+				item: "cataclysm:ignitium_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Storm Bow »"
+			title: "« Ignitium Chestplate »"
 			x: 15.0d
-			y: 1.5d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:storm_sword"
-			id: "09F784566DC79CB6"
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:ignitium_leggings"
+			id: "37C2429E1669589B"
 			optional: true
 			rewards: [{
-				id: "55725F5A7F5EB143"
+				id: "7C16E4BA988ED186"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "23E30EDEF7EC9DD5"
-				item: "deep_aether:storm_sword"
+				id: "4009C4A09593859E"
+				item: "cataclysm:ignitium_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : « Storm Sword »"
+			title: "« Ignitium Leggings »"
 			x: 16.5d
-			y: 1.5d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:stormforged_helmet"
-			id: "1816FF222CF98BFC"
+			description: ["Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:ignitium_boots"
+			id: "476FF818FE029D1E"
 			optional: true
 			rewards: [{
-				id: "70983883E6256164"
+				id: "0BC0C1499A41CCDB"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "779CD30FBC077535"
-				item: "deep_aether:stormforged_helmet"
+				id: "45A2DE0B2427EF56"
+				item: "cataclysm:ignitium_boots"
 				type: "item"
 			}]
-			title: "Obtenir : « Stormforged Helmet »"
+			title: "« Ignitium Boots »"
 			x: 18.0d
-			y: 1.5d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:stratus_axe"
-			id: "7C89B0B1721CDF47"
+			dependencies: [
+				"157E5F4608575B82"
+				"7587D69BF6D5FE07"
+				"37C2429E1669589B"
+				"476FF818FE029D1E"
+			]
+			description: ["Toutes les pièces de l'ensemble « Ignitium » (4), ensemble dans l'inventaire."]
+			icon: "cataclysm:ignitium_chestplate"
+			id: "6CA02D536C661CF2"
 			optional: true
 			rewards: [{
-				id: "1EAC68F4EC146465"
+				id: "4D3CA076EE5C94B3"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "62B49C3F1FD61352"
-				item: "deep_aether:stratus_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Stratus Axe »"
+			tasks: [
+				{
+					id: "6CF6E188B24B98C5"
+					item: "cataclysm:ignitium_helmet"
+					type: "item"
+				}
+				{
+					id: "14474E55415FEA48"
+					item: "cataclysm:ignitium_chestplate"
+					type: "item"
+				}
+				{
+					id: "6C21BBB729DFD6C1"
+					item: "cataclysm:ignitium_leggings"
+					type: "item"
+				}
+				{
+					id: "16F3DCC885B10E72"
+					item: "cataclysm:ignitium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Ignitium »"
 			x: 19.5d
-			y: 1.5d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:stratus_helmet"
-			id: "540B937401F7B395"
+			description: ["Pièce d'armure de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:ignitium_elytra_chestplate"
+			id: "53477A61815B4718"
 			optional: true
 			rewards: [{
-				id: "54919756E3C6C30C"
+				id: "3B7964EEF38546E7"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "20D95214235B4DD3"
-				item: "deep_aether:stratus_helmet"
+				id: "12FF8716F34FDD06"
+				item: "cataclysm:ignitium_elytra_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Stratus Helmet »"
+			title: "« Ignitium Elytra Chestplate »"
 			x: 21.0d
-			y: 1.5d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:stratus_sword"
-			id: "58C601FFBE4B57C3"
+			description: ["Pièce d'armure de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:sticky_gloves"
+			id: "56EEDA222C668833"
 			optional: true
 			rewards: [{
-				id: "19DF9D913BF60068"
+				id: "4CA8AD86879E3677"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "36A9DBCB2D733FD4"
-				item: "deep_aether:stratus_sword"
+				id: "17D7FCAE0B635193"
+				item: "cataclysm:sticky_gloves"
 				type: "item"
 			}]
-			title: "Obtenir : « Stratus Sword »"
+			title: "« Sticky Gloves »"
 			x: 22.5d
-			y: 1.5d
+			y: -3.75d
 		}
 		{
-			description: ["Objet de &bDeep Aether&r."]
-			icon: "deep_aether:wind_shield"
-			id: "389B5FF425041809"
+			description: ["Pièce d'armure de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:sturdy_boots"
+			id: "7E2E480716585762"
 			optional: true
 			rewards: [{
-				id: "1E742D837DAD7347"
+				id: "153CF57A722E81CC"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "604D0DB0C3ABCD30"
-				item: "deep_aether:wind_shield"
+				id: "2AD1CD8E0A05847C"
+				item: "cataclysm:sturdy_boots"
 				type: "item"
 			}]
-			title: "Obtenir : « Wind Shield »"
+			title: "« Sturdy Boots »"
 			x: 0.0d
-			y: 3.0d
+			y: -2.25d
 		}
 		{
-			description: ["Objet de &bDeeper and Darker&r."]
-			icon: "deeperdarker:resonarium_axe"
-			id: "029458A4E6D2C781"
+			description: ["Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée."]
+			icon: "create:cardboard_helmet"
+			id: "4156167AE118F74F"
 			optional: true
 			rewards: [{
-				id: "556F143A29A71834"
+				id: "4DBD6C3ACF9CF576"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "7334008AC756AC62"
-				item: "deeperdarker:resonarium_axe"
+				id: "3C7702158513E93A"
+				item: "create:cardboard_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Resonarium Axe »"
+			title: "Casque en carton"
 			x: 1.5d
-			y: 3.0d
+			y: -2.25d
 		}
 		{
-			description: ["Objet de &bDeeper and Darker&r."]
+			description: ["Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée."]
+			icon: "create:cardboard_chestplate"
+			id: "23C0EC9091A409A2"
+			optional: true
+			rewards: [{
+				id: "7377ADC32614AFEB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A10C4151103E06A"
+				item: "create:cardboard_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en carton"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée."]
+			icon: "create:cardboard_leggings"
+			id: "76D98ED782198581"
+			optional: true
+			rewards: [{
+				id: "3A8C4E64D22EDD7E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "163411F152D8AC06"
+				item: "create:cardboard_leggings"
+				type: "item"
+			}]
+			title: "Jambières en carton"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée."]
+			icon: "create:cardboard_boots"
+			id: "4F91568C780E98C5"
+			optional: true
+			rewards: [{
+				id: "0D248E25F30C2DCD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47FD88E74EDD449C"
+				item: "create:cardboard_boots"
+				type: "item"
+			}]
+			title: "Bottes en carton"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"4156167AE118F74F"
+				"23C0EC9091A409A2"
+				"76D98ED782198581"
+				"4F91568C780E98C5"
+			]
+			description: ["Toutes les pièces de l'ensemble en carton (4), ensemble dans l'inventaire."]
+			icon: "create:cardboard_chestplate"
+			id: "3494B82763396BA1"
+			optional: true
+			rewards: [{
+				id: "0F42678314A05F4B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7A9BDA2F52159B8C"
+					item: "create:cardboard_helmet"
+					type: "item"
+				}
+				{
+					id: "1C0AA1EE1489CB77"
+					item: "create:cardboard_chestplate"
+					type: "item"
+				}
+				{
+					id: "6E806E869FA99243"
+					item: "create:cardboard_leggings"
+					type: "item"
+				}
+				{
+					id: "6841DDEC9AAD5F18"
+					item: "create:cardboard_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en carton"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bCreate&r. À garder : la livraison n'est pas consommée."]
+			icon: "create:copper_backtank"
+			id: "666E52E41329F1AD"
+			optional: true
+			rewards: [{
+				id: "66E60E20D0106A0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "710368028B01EDDD"
+				item: "create:copper_backtank"
+				type: "item"
+			}]
+			title: "Réservoir dorsal en cuivre"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble de plongée en cuivre. À garder : la livraison n'est pas consommée."]
+			icon: "create:copper_diving_helmet"
+			id: "7D9D46C36891B076"
+			optional: true
+			rewards: [{
+				id: "2947A65BC3D3FCF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6564C01D6BDAC79E"
+				item: "create:copper_diving_helmet"
+				type: "item"
+			}]
+			title: "Casque de plongée en cuivre"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble de plongée en cuivre. À garder : la livraison n'est pas consommée."]
+			icon: "create:copper_diving_boots"
+			id: "4105BF7AE44E2EDD"
+			optional: true
+			rewards: [{
+				id: "1B5AD611EB6D9FBE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E7C1140B3B9F2C2"
+				item: "create:copper_diving_boots"
+				type: "item"
+			}]
+			title: "Bottes de plongée en cuivre"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"7D9D46C36891B076"
+				"4105BF7AE44E2EDD"
+			]
+			description: ["Toutes les pièces de l'ensemble de plongée en cuivre (2), ensemble dans l'inventaire."]
+			icon: "create:copper_diving_boots"
+			id: "2F303F78EF63B356"
+			optional: true
+			rewards: [{
+				id: "365C84866ED47DAD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "78051CD259E4D7FC"
+					item: "create:copper_diving_helmet"
+					type: "item"
+				}
+				{
+					id: "40C4D62DADE14D54"
+					item: "create:copper_diving_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble de plongée en cuivre"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bCreate&r. À garder : la livraison n'est pas consommée."]
+			icon: "create:netherite_backtank"
+			id: "476205F59C721F77"
+			optional: true
+			rewards: [{
+				id: "45F20D8D61E0E977"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73A6572E43A1E82D"
+				item: "create:netherite_backtank"
+				type: "item"
+			}]
+			title: "Réservoir dorsal en Netherite"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble de plongée en Netherite. À garder : la livraison n'est pas consommée."]
+			icon: "create:netherite_diving_helmet"
+			id: "754ED12F0AE50ADC"
+			optional: true
+			rewards: [{
+				id: "770935C27CEBE740"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B2736302C5D0AA0"
+				item: "create:netherite_diving_helmet"
+				type: "item"
+			}]
+			title: "Casque de plongée en Netherite"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble de plongée en Netherite. À garder : la livraison n'est pas consommée."]
+			icon: "create:netherite_diving_boots"
+			id: "230AB3CEDFD6FA92"
+			optional: true
+			rewards: [{
+				id: "2EE75B45D8C895A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E7840F496C74629"
+				item: "create:netherite_diving_boots"
+				type: "item"
+			}]
+			title: "Bottes de plongée en Netherite"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"754ED12F0AE50ADC"
+				"230AB3CEDFD6FA92"
+			]
+			description: ["Toutes les pièces de l'ensemble de plongée en Netherite (2), ensemble dans l'inventaire."]
+			icon: "create:netherite_diving_boots"
+			id: "58BF115BCAD6C253"
+			optional: true
+			rewards: [{
+				id: "282D9AEFADC718CD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3F89012804B8E5AF"
+					item: "create:netherite_diving_helmet"
+					type: "item"
+				}
+				{
+					id: "3FF1D7716787DDCF"
+					item: "create:netherite_diving_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble de plongée en Netherite"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
 			icon: "deeperdarker:resonarium_helmet"
 			id: "2F5EFC08C70A8599"
 			optional: true
@@ -2643,72 +1481,115 @@
 				item: "deeperdarker:resonarium_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Resonarium Helmet »"
+			title: "« Resonarium Helmet »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:resonarium_chestplate"
+			id: "3CBCAF9ED0E60E7F"
+			optional: true
+			rewards: [{
+				id: "22A9311C50C7F5CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14195DDF9B5C869E"
+				item: "deeperdarker:resonarium_chestplate"
+				type: "item"
+			}]
+			title: "« Resonarium Chestplate »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:resonarium_leggings"
+			id: "22082523BB7CB88E"
+			optional: true
+			rewards: [{
+				id: "6E1E5CF555CF19A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6532843867F90175"
+				item: "deeperdarker:resonarium_leggings"
+				type: "item"
+			}]
+			title: "« Resonarium Leggings »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:resonarium_boots"
+			id: "3248F2ECB5D9CDA7"
+			optional: true
+			rewards: [{
+				id: "02F1C0B24F787878"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6ECDC0645AC6D6C0"
+				item: "deeperdarker:resonarium_boots"
+				type: "item"
+			}]
+			title: "« Resonarium Boots »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"2F5EFC08C70A8599"
+				"3CBCAF9ED0E60E7F"
+				"22082523BB7CB88E"
+				"3248F2ECB5D9CDA7"
+			]
+			description: ["Toutes les pièces de l'ensemble « Resonarium » (4), ensemble dans l'inventaire."]
+			icon: "deeperdarker:resonarium_chestplate"
+			id: "5614DB17B09BDE7B"
+			optional: true
+			rewards: [{
+				id: "04F52CC773B69497"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "528AC600DE58DE64"
+					item: "deeperdarker:resonarium_helmet"
+					type: "item"
+				}
+				{
+					id: "2C877568F63C39F7"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "1E7FC31F594B7BDF"
+					item: "deeperdarker:resonarium_leggings"
+					type: "item"
+				}
+				{
+					id: "6138F242FFE982BB"
+					item: "deeperdarker:resonarium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Resonarium »"
 			x: 3.0d
-			y: 3.0d
+			y: -0.75d
 		}
 		{
-			description: ["Objet de &bDeeper and Darker&r."]
-			icon: "deeperdarker:resonarium_sword"
-			id: "79997593925CE828"
-			optional: true
-			rewards: [{
-				id: "71A1F2C9C802CF81"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "547D64F346D069CC"
-				item: "deeperdarker:resonarium_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « Resonarium Sword »"
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			description: ["Objet de &bDeeper and Darker&r."]
-			icon: "deeperdarker:sonorous_staff"
-			id: "1C20FAF3829327BC"
-			optional: true
-			rewards: [{
-				id: "69D13A2F335E2D56"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7774A342975C6205"
-				item: "deeperdarker:sonorous_staff"
-				type: "item"
-			}]
-			title: "Obtenir : « Sonorous Staff »"
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			description: ["Objet de &bDeeper and Darker&r."]
-			icon: "deeperdarker:warden_axe"
-			id: "487AEDA311FD3C08"
-			optional: true
-			rewards: [{
-				id: "5835EEF105678768"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "218A3F8B2066EBD2"
-				item: "deeperdarker:warden_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache du Warden"
-			x: 7.5d
-			y: 3.0d
-		}
-		{
-			description: ["Objet de &bDeeper and Darker&r."]
+			description: ["Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
 			icon: "deeperdarker:warden_helmet"
 			id: "0C5E93BA5EA62970"
 			optional: true
@@ -2723,52 +1604,115 @@
 				item: "deeperdarker:warden_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : Casque du Warden"
+			title: "Casque du Warden"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:warden_chestplate"
+			id: "524BBBC527D44948"
+			optional: true
+			rewards: [{
+				id: "00E44F514E394520"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2EEA769BF089F2D3"
+				item: "deeperdarker:warden_chestplate"
+				type: "item"
+			}]
+			title: "Plastron du Warden"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:warden_leggings"
+			id: "6CB9FCFAD8B7917F"
+			optional: true
+			rewards: [{
+				id: "09C181D170EE2FF6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6ACAD08839D584A2"
+				item: "deeperdarker:warden_leggings"
+				type: "item"
+			}]
+			title: "Jambières du Warden"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:warden_boots"
+			id: "0DA10BDEFC6C6A71"
+			optional: true
+			rewards: [{
+				id: "43E66CB5104A95CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "013ED19DA9DB5B40"
+				item: "deeperdarker:warden_boots"
+				type: "item"
+			}]
+			title: "Bottes du Warden"
 			x: 9.0d
-			y: 3.0d
+			y: -0.75d
 		}
 		{
-			description: ["Objet de &bDeeper and Darker&r."]
-			icon: "deeperdarker:warden_sword"
-			id: "01796A14359EB516"
+			dependencies: [
+				"0C5E93BA5EA62970"
+				"524BBBC527D44948"
+				"6CB9FCFAD8B7917F"
+				"0DA10BDEFC6C6A71"
+			]
+			description: ["Toutes les pièces de l'ensemble du Warden (4), ensemble dans l'inventaire."]
+			icon: "deeperdarker:warden_chestplate"
+			id: "3AE41431AB922325"
 			optional: true
 			rewards: [{
-				id: "4B413FE2B6EA558C"
+				id: "569D0C3FF6F876A7"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "6DD1D12D436C5509"
-				item: "deeperdarker:warden_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée du Warden"
+			tasks: [
+				{
+					id: "1FC9DFE1B26CE477"
+					item: "deeperdarker:warden_helmet"
+					type: "item"
+				}
+				{
+					id: "60438E18D4D0AFE6"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+				{
+					id: "17BD6A5F85AC2266"
+					item: "deeperdarker:warden_leggings"
+					type: "item"
+				}
+				{
+					id: "7767B5B292C2C941"
+					item: "deeperdarker:warden_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble du Warden"
 			x: 10.5d
-			y: 3.0d
+			y: -0.75d
 		}
 		{
-			description: ["Objet de &bdragonloot&r."]
-			icon: "dragonloot:dragon_axe"
-			id: "31239C5C6660FFF7"
-			optional: true
-			rewards: [{
-				id: "3884C691171A4CF2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5DF840407C9E8CDD"
-				item: "dragonloot:dragon_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « Dragon Axe »"
-			x: 12.0d
-			y: 3.0d
-		}
-		{
-			description: ["Objet de &bdragonloot&r."]
+			description: ["Pièce d'armure de &bDragonLoot&r. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
 			icon: "dragonloot:dragon_helmet"
 			id: "14B42DCF7D005C73"
 			optional: true
@@ -2783,32 +1727,135 @@
 				item: "dragonloot:dragon_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Dragon Scale Helmet »"
-			x: 13.5d
-			y: 3.0d
+			title: "« Dragon Scale Helmet »"
+			x: 12.0d
+			y: -0.75d
 		}
 		{
-			description: ["Objet de &bdragonloot&r."]
-			icon: "dragonloot:dragon_sword"
-			id: "244931FDF602D0F4"
+			description: ["Pièce d'armure de &bDragonLoot&r. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_chestplate"
+			id: "14F39FB0288F7197"
 			optional: true
 			rewards: [{
-				id: "38385FDE1E0C765F"
+				id: "411F024BCF70B6CA"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4146239B68CE2D30"
-				item: "dragonloot:dragon_sword"
+				id: "2C14152CAA2F1505"
+				item: "dragonloot:dragon_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : « Dragon Sword »"
-			x: 15.0d
-			y: 3.0d
+			title: "« Dragon Scale Chestplate »"
+			x: 13.5d
+			y: -0.75d
 		}
 		{
-			description: ["Objet de &bGalosphere&r."]
+			description: ["Pièce d'armure de &bDragonLoot&r. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_leggings"
+			id: "28C6DC9460603BBF"
+			optional: true
+			rewards: [{
+				id: "7A2F8037E5AD8F62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F6F25162A765D82"
+				item: "dragonloot:dragon_leggings"
+				type: "item"
+			}]
+			title: "« Dragon Scale Leggings »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bDragonLoot&r. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_boots"
+			id: "086F24B2A681B83C"
+			optional: true
+			rewards: [{
+				id: "2FB3C2AB736BF7E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F7A13670EC3151D"
+				item: "dragonloot:dragon_boots"
+				type: "item"
+			}]
+			title: "« Dragon Scale Boots »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"14B42DCF7D005C73"
+				"14F39FB0288F7197"
+				"28C6DC9460603BBF"
+				"086F24B2A681B83C"
+			]
+			description: ["Toutes les pièces de l'ensemble « Dragon Scale » (4), ensemble dans l'inventaire."]
+			icon: "dragonloot:dragon_chestplate"
+			id: "062E7117B8F289C5"
+			optional: true
+			rewards: [{
+				id: "33B591D6D5050482"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "65855BCDF7BEA6FF"
+					item: "dragonloot:dragon_helmet"
+					type: "item"
+				}
+				{
+					id: "4850213084282D4E"
+					item: "dragonloot:dragon_chestplate"
+					type: "item"
+				}
+				{
+					id: "20CCA9C667B6303D"
+					item: "dragonloot:dragon_leggings"
+					type: "item"
+				}
+				{
+					id: "27B504A092C9CFA2"
+					item: "dragonloot:dragon_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Dragon Scale »"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:upgraded_dragon_chestplate"
+			id: "298E9442739A42FF"
+			optional: true
+			rewards: [{
+				id: "1D88F33A75523C5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C65D8DB45E34DAE"
+				item: "dragonloot:upgraded_dragon_chestplate"
+				type: "item"
+			}]
+			title: "« Winged Dragon Scale Chestplate »"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pièce d'armure de &bGalosphere&r. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée."]
 			icon: "galosphere:sterling_helmet"
 			id: "6E1DBAE880A10F7F"
 			optional: true
@@ -2823,432 +1870,873 @@
 				item: "galosphere:sterling_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « Sterling Helmet »"
-			x: 16.5d
-			y: 3.0d
-		}
-		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:archevoker_helmet"
-			id: "559B84B62F1839C0"
-			optional: true
-			rewards: [{
-				id: "53A64F62B15E63BB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "37F7E51FA8BC3AE0"
-				item: "irons_spellbooks:archevoker_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Chapeau de l'Archévocateur"
-			x: 18.0d
-			y: 3.0d
-		}
-		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:autoloader_crossbow"
-			id: "4238317D9F6A7538"
-			optional: true
-			rewards: [{
-				id: "5788CC38D58968D0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2773A5DABA2452CB"
-				item: "irons_spellbooks:autoloader_crossbow"
-				type: "item"
-			}]
-			title: "Obtenir : Arbalète à Chargement Automatique"
-			x: 19.5d
-			y: 3.0d
-		}
-		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:blood_staff"
-			id: "6D750FAEAB2ACE61"
-			optional: true
-			rewards: [{
-				id: "1DDAF890AC8DC7A2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0FB1712F06F560B6"
-				item: "irons_spellbooks:blood_staff"
-				type: "item"
-			}]
-			title: "Obtenir : Le Bâton de Sang"
+			title: "« Sterling Helmet »"
 			x: 21.0d
-			y: 3.0d
+			y: -0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:cryomancer_helmet"
-			id: "75DC7FF2485D09A5"
+			description: ["Pièce d'armure de &bGalosphere&r. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée."]
+			icon: "galosphere:sterling_chestplate"
+			id: "725AEA6C9728ABF6"
 			optional: true
 			rewards: [{
-				id: "229B7DABA8E3B0B4"
+				id: "4992278A83428B0D"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "2714C4C1D02B71C5"
-				item: "irons_spellbooks:cryomancer_helmet"
+				id: "7EAA234A3FD0FEB0"
+				item: "galosphere:sterling_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : Capuche du Cryomancien"
+			title: "« Sterling Chestplate »"
 			x: 22.5d
-			y: 3.0d
+			y: -0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:cultist_helmet"
-			id: "6C1DF5A25DAADF98"
+			description: ["Pièce d'armure de &bGalosphere&r. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée."]
+			icon: "galosphere:sterling_leggings"
+			id: "2A6B49ED43748B7A"
 			optional: true
 			rewards: [{
-				id: "08AAACCE17DC2025"
+				id: "6BDD53347FC6F14E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "550DA86AFE298B42"
-				item: "irons_spellbooks:cultist_helmet"
+				id: "66913DB10F3D16C0"
+				item: "galosphere:sterling_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : Capuche du Cultiste"
+			title: "« Sterling Leggings »"
 			x: 0.0d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:decrepit_scythe"
-			id: "74C843ABCAA64A71"
+			description: ["Pièce d'armure de &bGalosphere&r. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée."]
+			icon: "galosphere:sterling_boots"
+			id: "38E55AC483F29407"
 			optional: true
 			rewards: [{
-				id: "2C69F6B7E735D8DA"
+				id: "4AB77133140B501B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "47A0150E77308A3D"
-				item: "irons_spellbooks:decrepit_scythe"
+				id: "01B0A6CC43AF629C"
+				item: "galosphere:sterling_boots"
 				type: "item"
 			}]
-			title: "Obtenir : Faux Décrépite"
+			title: "« Sterling Boots »"
 			x: 1.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:electromancer_helmet"
-			id: "3BC7B72232766CF1"
+			dependencies: [
+				"6E1DBAE880A10F7F"
+				"725AEA6C9728ABF6"
+				"2A6B49ED43748B7A"
+				"38E55AC483F29407"
+			]
+			description: ["Toutes les pièces de l'ensemble « Sterling » (4), ensemble dans l'inventaire."]
+			icon: "galosphere:sterling_chestplate"
+			id: "6970B56BD17F9DA9"
 			optional: true
 			rewards: [{
-				id: "7897E759E34BB1F1"
+				id: "7D9DA2F4FA643911"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "2DD0DF5C6F48BAFA"
-				item: "irons_spellbooks:electromancer_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Chapeau de l'Électromancien"
+			tasks: [
+				{
+					id: "243B9884AD18ACAA"
+					item: "galosphere:sterling_helmet"
+					type: "item"
+				}
+				{
+					id: "028BB57DAF98C1B5"
+					item: "galosphere:sterling_chestplate"
+					type: "item"
+				}
+				{
+					id: "3A6FD820EEF7CE4F"
+					item: "galosphere:sterling_leggings"
+					type: "item"
+				}
+				{
+					id: "6DF666D6E921D99D"
+					item: "galosphere:sterling_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Sterling »"
 			x: 3.0d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:graybeard_staff"
-			id: "5B6E15E137980294"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:chainmail_helmet"
+			id: "306C721C377C1080"
 			optional: true
 			rewards: [{
-				id: "3E6B56E802B61D4C"
+				id: "1B64AD623DB2FC35"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "7870FAF4C83405F5"
-				item: "irons_spellbooks:graybeard_staff"
+				id: "6059E1F50C04217A"
+				item: "minecraft:chainmail_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : Bâton de Barbe-Grise"
+			title: "Casque de mailles"
 			x: 4.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:ice_staff"
-			id: "183823868598AE16"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:chainmail_chestplate"
+			id: "055DEE34959DBBD5"
 			optional: true
 			rewards: [{
-				id: "0F1BCE4351D08ED3"
+				id: "63BF76A4A7C781DE"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "3AAC44D42811E533"
-				item: "irons_spellbooks:ice_staff"
+				id: "3441A3CFFC2A3E80"
+				item: "minecraft:chainmail_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : Bâton de Glace"
+			title: "Cotte de mailles"
 			x: 6.0d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:netherite_mage_helmet"
-			id: "43E3D117BADB577F"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:chainmail_leggings"
+			id: "23F72B008AFED517"
 			optional: true
 			rewards: [{
-				id: "42CF5A49450D5A02"
+				id: "7429CC060A358E3E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "3D10B90556F1984B"
-				item: "irons_spellbooks:netherite_mage_helmet"
+				id: "7A8858FA1528C402"
+				item: "minecraft:chainmail_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : Chapeau du Mage de Guerre en Nétherite"
+			title: "Jambières de mailles"
 			x: 7.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:plagued_helmet"
-			id: "28C23438521CA63D"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:chainmail_boots"
+			id: "1C79B9D42A8D2C39"
 			optional: true
 			rewards: [{
-				id: "1E6AC3AC251CD35C"
+				id: "5FCD310C05809A98"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "27B1E5C2B6E51AA0"
-				item: "irons_spellbooks:plagued_helmet"
+				id: "38481F6CEE1994C3"
+				item: "minecraft:chainmail_boots"
 				type: "item"
 			}]
-			title: "Obtenir : Masque Pesteux"
+			title: "Bottes de mailles"
 			x: 9.0d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:priest_helmet"
-			id: "7640F5038B637AA0"
+			dependencies: [
+				"306C721C377C1080"
+				"055DEE34959DBBD5"
+				"23F72B008AFED517"
+				"1C79B9D42A8D2C39"
+			]
+			description: ["Toutes les pièces de l'ensemble « Cotte de mailles » (4), ensemble dans l'inventaire."]
+			icon: "minecraft:chainmail_chestplate"
+			id: "02E4E043A8B81AA3"
 			optional: true
 			rewards: [{
-				id: "27FDB65F753F7D4C"
+				id: "7526DEC1B6C0D202"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "78622C93AB4631AE"
-				item: "irons_spellbooks:priest_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Masque du Prêtre"
+			tasks: [
+				{
+					id: "2DE217C574704C4D"
+					item: "minecraft:chainmail_helmet"
+					type: "item"
+				}
+				{
+					id: "12B295A4AE3EF30D"
+					item: "minecraft:chainmail_chestplate"
+					type: "item"
+				}
+				{
+					id: "7AD4C54986C6E682"
+					item: "minecraft:chainmail_leggings"
+					type: "item"
+				}
+				{
+					id: "6F23032350DFCE3C"
+					item: "minecraft:chainmail_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Cotte de mailles »"
 			x: 10.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:pumpkin_helmet"
-			id: "262AA732CC56088F"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_helmet"
+			id: "7810ACCBC0229822"
 			optional: true
 			rewards: [{
-				id: "011B78C5800BB255"
+				id: "759A568BF8F0CD30"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "26D657236F70B898"
-				item: "irons_spellbooks:pumpkin_helmet"
+				id: "15AD65F95C658AB5"
+				item: "minecraft:diamond_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : Chapeau d'Épouvantail"
+			title: "Casque en diamant"
 			x: 12.0d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:pyrium_staff"
-			id: "7CE3FA81F5ACF239"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_chestplate"
+			id: "057FDB31487C7B1A"
 			optional: true
 			rewards: [{
-				id: "37AE1EB87D3725BF"
+				id: "6E6B5364AB87A507"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "5A901D274D8F67E8"
-				item: "irons_spellbooks:pyrium_staff"
+				id: "6B2B464BDCE16E66"
+				item: "minecraft:diamond_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : Bâton de Pyrium"
+			title: "Plastron en diamant"
 			x: 13.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:pyromancer_helmet"
-			id: "5883EAD3C68F3267"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_leggings"
+			id: "63862FAFE82CEE34"
 			optional: true
 			rewards: [{
-				id: "52904E0F1109C4E0"
+				id: "24516ACDF06A923E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "52B50D937769D0B4"
-				item: "irons_spellbooks:pyromancer_helmet"
+				id: "70ED6A58FEB3DCC3"
+				item: "minecraft:diamond_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : Chapeau du Pyromancien"
+			title: "Jambières en diamant"
 			x: 15.0d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:shadowwalker_helmet"
-			id: "24ACEA6289F0811B"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_boots"
+			id: "35AF9D043C284A74"
 			optional: true
 			rewards: [{
-				id: "2371C4C7081AA4CF"
+				id: "24C9DA9D68CCCF49"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "5941E51824CE02DE"
-				item: "irons_spellbooks:shadowwalker_helmet"
+				id: "4DAE671DF779D578"
+				item: "minecraft:diamond_boots"
 				type: "item"
 			}]
-			title: "Obtenir : Masque du Marchombre"
+			title: "Bottes en diamant"
 			x: 16.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:wandering_magician_helmet"
-			id: "38A530C72360C44E"
+			dependencies: [
+				"7810ACCBC0229822"
+				"057FDB31487C7B1A"
+				"63862FAFE82CEE34"
+				"35AF9D043C284A74"
+			]
+			description: ["Toutes les pièces de l'ensemble en diamant (4), ensemble dans l'inventaire."]
+			icon: "minecraft:diamond_chestplate"
+			id: "5C06C1A2681504FB"
 			optional: true
 			rewards: [{
-				id: "4C820BFB54542A50"
+				id: "3DCC82C7C5775877"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "1A39F4E1398E0A22"
-				item: "irons_spellbooks:wandering_magician_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Capuche du Magicien Errant"
+			tasks: [
+				{
+					id: "03272CAB79D07E09"
+					item: "minecraft:diamond_helmet"
+					type: "item"
+				}
+				{
+					id: "3F6CF1C8973DB491"
+					item: "minecraft:diamond_chestplate"
+					type: "item"
+				}
+				{
+					id: "6DB8EEDEC520253E"
+					item: "minecraft:diamond_leggings"
+					type: "item"
+				}
+				{
+					id: "5C91BC02D35B53CA"
+					item: "minecraft:diamond_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en diamant"
 			x: 18.0d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bIron's Spells&r."]
-			icon: "irons_spellbooks:wizard_helmet"
-			id: "3C97333FD2ABDF1D"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_helmet"
+			id: "5B4E86A2278C8BA2"
 			optional: true
 			rewards: [{
-				id: "1DEDF46091DE5893"
+				id: "0F55E785442CA986"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "320C4EDC0345C682"
-				item: "irons_spellbooks:wizard_helmet"
+				id: "1BA82D50DCC65640"
+				item: "minecraft:golden_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : Casque du Sorcier"
+			title: "Casque en or"
 			x: 19.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bMowzie's Mobs&r."]
-			icon: "mowziesmobs:naga_fang_dagger"
-			id: "1AD88ADB61BC62A4"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_chestplate"
+			id: "0CEC62E729A6BC8A"
 			optional: true
 			rewards: [{
-				id: "0C84DCB87D077690"
+				id: "271283830C7E878F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "75E4DA715B771CA4"
-				item: "mowziesmobs:naga_fang_dagger"
+				id: "1B71DD8876F1AC73"
+				item: "minecraft:golden_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : Dague en dent de naga"
+			title: "Plastron en or"
 			x: 21.0d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bMowzie's Mobs&r."]
-			icon: "mowziesmobs:sculptor_staff"
-			id: "045F1FDE3F4E96CE"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_leggings"
+			id: "01882B5D8CCDE798"
 			optional: true
 			rewards: [{
-				id: "4AF369E5252C5CBF"
+				id: "5A2C378F8432E526"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "69B62599828FB6B2"
-				item: "mowziesmobs:sculptor_staff"
+				id: "71C4653760F100CE"
+				item: "minecraft:golden_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : « Geomancer Staff »"
+			title: "Jambières en or"
 			x: 22.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
-			description: ["Objet de &bMowzie's Mobs&r."]
-			icon: "mowziesmobs:wrought_axe"
-			id: "7E988AD1E496A5CA"
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_boots"
+			id: "33C8AED0D03D8B7B"
 			optional: true
 			rewards: [{
-				id: "0A3173EEEA55FA8E"
+				id: "39B05060F5266B73"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "2CDE92636AC7F3F1"
-				item: "mowziesmobs:wrought_axe"
+				id: "7738561080A6E772"
+				item: "minecraft:golden_boots"
 				type: "item"
 			}]
-			title: "Obtenir : Hache des milles métaux"
+			title: "Bottes en or"
 			x: 0.0d
-			y: 6.0d
+			y: 2.25d
 		}
 		{
-			description: ["Objet de &bMowzie's Mobs&r."]
+			dependencies: [
+				"5B4E86A2278C8BA2"
+				"0CEC62E729A6BC8A"
+				"01882B5D8CCDE798"
+				"33C8AED0D03D8B7B"
+			]
+			description: ["Toutes les pièces de l'ensemble en or (4), ensemble dans l'inventaire."]
+			icon: "minecraft:golden_chestplate"
+			id: "6F8CA3BD19317740"
+			optional: true
+			rewards: [{
+				id: "662E85E355C32EC9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1A23F3A97777128E"
+					item: "minecraft:golden_helmet"
+					type: "item"
+				}
+				{
+					id: "3EBC3858045D6112"
+					item: "minecraft:golden_chestplate"
+					type: "item"
+				}
+				{
+					id: "09AFAAC06947773D"
+					item: "minecraft:golden_leggings"
+					type: "item"
+				}
+				{
+					id: "3EF657B84DE714C6"
+					item: "minecraft:golden_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en or"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_helmet"
+			id: "194CF9DCCF122AF4"
+			optional: true
+			rewards: [{
+				id: "14FC50A2AB361DEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39F5DCD1FD541AB6"
+				item: "minecraft:iron_helmet"
+				type: "item"
+			}]
+			title: "Casque en fer"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_chestplate"
+			id: "39840253217E22E2"
+			optional: true
+			rewards: [{
+				id: "6E2B116AB254163D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36647BBDC37BA59B"
+				item: "minecraft:iron_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en fer"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_leggings"
+			id: "21C51DDFB8B10FB4"
+			optional: true
+			rewards: [{
+				id: "689FE340629820D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "112B03DD720E83FB"
+				item: "minecraft:iron_leggings"
+				type: "item"
+			}]
+			title: "Jambières en fer"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_boots"
+			id: "7521BF577440EB55"
+			optional: true
+			rewards: [{
+				id: "124710A1082B80CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63653452BC922B63"
+				item: "minecraft:iron_boots"
+				type: "item"
+			}]
+			title: "Bottes en fer"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"194CF9DCCF122AF4"
+				"39840253217E22E2"
+				"21C51DDFB8B10FB4"
+				"7521BF577440EB55"
+			]
+			description: ["Toutes les pièces de l'ensemble en fer (4), ensemble dans l'inventaire."]
+			icon: "minecraft:iron_chestplate"
+			id: "1444A6EBF502D4BA"
+			optional: true
+			rewards: [{
+				id: "766DF2E1DAAC9A26"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "433FFAC67F79AC03"
+					item: "minecraft:iron_helmet"
+					type: "item"
+				}
+				{
+					id: "36891CA42BF1392D"
+					item: "minecraft:iron_chestplate"
+					type: "item"
+				}
+				{
+					id: "3C97EFB42F275946"
+					item: "minecraft:iron_leggings"
+					type: "item"
+				}
+				{
+					id: "0AD70CCC144F80E5"
+					item: "minecraft:iron_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en fer"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:leather_helmet"
+			id: "1319E65C35E5F13B"
+			optional: true
+			rewards: [{
+				id: "7B485B59AEAF9983"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4605CB70E67244E2"
+				item: "minecraft:leather_helmet"
+				type: "item"
+			}]
+			title: "Chapeau en cuir"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:leather_chestplate"
+			id: "330DC22C4385828C"
+			optional: true
+			rewards: [{
+				id: "3548CE7003F69B3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0154A020626C4C70"
+				item: "minecraft:leather_chestplate"
+				type: "item"
+			}]
+			title: "Tunique en cuir"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:leather_leggings"
+			id: "177FFB7C88650FDB"
+			optional: true
+			rewards: [{
+				id: "70DB56094329188E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CB4AA6B89DB38B5"
+				item: "minecraft:leather_leggings"
+				type: "item"
+			}]
+			title: "Pantalon en cuir"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:leather_boots"
+			id: "536266657F594990"
+			optional: true
+			rewards: [{
+				id: "42A40A4ADA86F0E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B2C927C0BFF9779"
+				item: "minecraft:leather_boots"
+				type: "item"
+			}]
+			title: "Bottes en cuir"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"1319E65C35E5F13B"
+				"330DC22C4385828C"
+				"177FFB7C88650FDB"
+				"536266657F594990"
+			]
+			description: ["Toutes les pièces de l'ensemble en cuir (4), ensemble dans l'inventaire."]
+			icon: "minecraft:leather_chestplate"
+			id: "4033BE6E9FC57352"
+			optional: true
+			rewards: [{
+				id: "3EF1DEEAA68CD88F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2E1EFFFF4580F1BE"
+					item: "minecraft:leather_helmet"
+					type: "item"
+				}
+				{
+					id: "759B12D2BA9C57A1"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+				{
+					id: "7A5C8C4CD6E0C59A"
+					item: "minecraft:leather_leggings"
+					type: "item"
+				}
+				{
+					id: "433D42DC14BFF12D"
+					item: "minecraft:leather_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en cuir"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_helmet"
+			id: "059344FB4A2B40F6"
+			optional: true
+			rewards: [{
+				id: "31EAB2427017BE36"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4ADBA7AB9826AAE7"
+				item: "minecraft:netherite_helmet"
+				type: "item"
+			}]
+			title: "Casque en netherite"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_chestplate"
+			id: "3F7683102A892264"
+			optional: true
+			rewards: [{
+				id: "394EB426030E943B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59AF24EDCCDF1352"
+				item: "minecraft:netherite_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en netherite"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_leggings"
+			id: "0932B54F5C5A64CD"
+			optional: true
+			rewards: [{
+				id: "009A2233F1F10864"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1640C15A5B56D863"
+				item: "minecraft:netherite_leggings"
+				type: "item"
+			}]
+			title: "Jambières en netherite"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_boots"
+			id: "5B99FE10C39627B6"
+			optional: true
+			rewards: [{
+				id: "54EE568082C87F86"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "67276D3CCB636C4A"
+				item: "minecraft:netherite_boots"
+				type: "item"
+			}]
+			title: "Bottes en netherite"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"059344FB4A2B40F6"
+				"3F7683102A892264"
+				"0932B54F5C5A64CD"
+				"5B99FE10C39627B6"
+			]
+			description: ["Toutes les pièces de l'ensemble en netherite (4), ensemble dans l'inventaire."]
+			icon: "minecraft:netherite_chestplate"
+			id: "2B2433CC32BDA2A7"
+			optional: true
+			rewards: [{
+				id: "0C901F76A6AC631B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5ECC08F01FCB9E25"
+					item: "minecraft:netherite_helmet"
+					type: "item"
+				}
+				{
+					id: "0FFDD9571AF4E795"
+					item: "minecraft:netherite_chestplate"
+					type: "item"
+				}
+				{
+					id: "73D83DA27C49FC6B"
+					item: "minecraft:netherite_leggings"
+					type: "item"
+				}
+				{
+					id: "66B197022CE3317C"
+					item: "minecraft:netherite_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en netherite"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:turtle_helmet"
+			id: "64DCCCDFF35230BD"
+			optional: true
+			rewards: [{
+				id: "38539FC9AB99A192"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E3C19FA20024E51"
+				item: "minecraft:turtle_helmet"
+				type: "item"
+			}]
+			title: "Carapace de tortue"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMowzie's Mobs&r. Ses paliers sont au chapitre &7Mowzie's Mobs&r. À garder : la livraison n'est pas consommée."]
 			icon: "mowziesmobs:wrought_helmet"
 			id: "16AF7FE4CDD3D476"
 			optional: true
@@ -3263,32 +2751,770 @@
 				item: "mowziesmobs:wrought_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : Casque de Chevalier Forgé"
-			x: 1.5d
-			y: 6.0d
+			title: "Casque de Chevalier Forgé"
+			x: 3.0d
+			y: 3.75d
 		}
 		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:awful_dagger"
-			id: "25C3697ACE938B11"
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_helmet"
+			id: "71E019168C01232A"
 			optional: true
 			rewards: [{
-				id: "18C48156046CB306"
+				id: "3B7DD3D10220B7E3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "20EA54B656D9D69F"
-				item: "stalwart_dungeons:awful_dagger"
+				id: "1B0E37C330AB7912"
+				item: "mysticalagriculture:awakened_supremium_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « §cAwful Dagger »"
-			x: 3.0d
-			y: 6.0d
+			title: "Casque en Awakened Supremium"
+			x: 4.5d
+			y: 3.75d
 		}
 		{
-			description: ["Objet de &bStalwart Dungeons&r."]
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_chestplate"
+			id: "3E70BDD30CB36211"
+			optional: true
+			rewards: [{
+				id: "4FCD3ED1FEA24867"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6490D3904DC491E2"
+				item: "mysticalagriculture:awakened_supremium_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en Awakened Supremium"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_leggings"
+			id: "6BA80488DABEE7D1"
+			optional: true
+			rewards: [{
+				id: "70F6A3CEE3C2E24A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31001342CF16EA5F"
+				item: "mysticalagriculture:awakened_supremium_leggings"
+				type: "item"
+			}]
+			title: "Jambières en Awakened Supremium"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_boots"
+			id: "2BCE50DFF15FA8CA"
+			optional: true
+			rewards: [{
+				id: "5BA396D84494FCEC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B0915293FF28052"
+				item: "mysticalagriculture:awakened_supremium_boots"
+				type: "item"
+			}]
+			title: "Bottes en Awakened Supremium"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"71E019168C01232A"
+				"3E70BDD30CB36211"
+				"6BA80488DABEE7D1"
+				"2BCE50DFF15FA8CA"
+			]
+			description: ["Toutes les pièces de l'ensemble en Awakened Supremium (4), ensemble dans l'inventaire."]
+			icon: "mysticalagriculture:awakened_supremium_chestplate"
+			id: "791D0CE417C8258B"
+			optional: true
+			rewards: [{
+				id: "384660E5799BCF20"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5339BCBD999641B3"
+					item: "mysticalagriculture:awakened_supremium_helmet"
+					type: "item"
+				}
+				{
+					id: "68AECE47F77CECED"
+					item: "mysticalagriculture:awakened_supremium_chestplate"
+					type: "item"
+				}
+				{
+					id: "3471A9B7368F4999"
+					item: "mysticalagriculture:awakened_supremium_leggings"
+					type: "item"
+				}
+				{
+					id: "0F248540AC566A6B"
+					item: "mysticalagriculture:awakened_supremium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en Awakened Supremium"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_helmet"
+			id: "480AA6DA22D3DA14"
+			optional: true
+			rewards: [{
+				id: "270320BDA9B88096"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54BBFA088BBEADF5"
+				item: "mysticalagriculture:imperium_helmet"
+				type: "item"
+			}]
+			title: "Casque en Imperium"
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_chestplate"
+			id: "11D24B22C65073E6"
+			optional: true
+			rewards: [{
+				id: "74C4677C5D907669"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60BA38BC271B0F90"
+				item: "mysticalagriculture:imperium_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en Imperium"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_leggings"
+			id: "2C4D8D32916554AA"
+			optional: true
+			rewards: [{
+				id: "24A101F3A6ABF653"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "122A28E3FCAB5647"
+				item: "mysticalagriculture:imperium_leggings"
+				type: "item"
+			}]
+			title: "Jambières en Imperium"
+			x: 15.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_boots"
+			id: "47776F8AC12C6182"
+			optional: true
+			rewards: [{
+				id: "4128A5545510B74E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D30792504CCFEEE"
+				item: "mysticalagriculture:imperium_boots"
+				type: "item"
+			}]
+			title: "Bottes en Imperium"
+			x: 16.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"480AA6DA22D3DA14"
+				"11D24B22C65073E6"
+				"2C4D8D32916554AA"
+				"47776F8AC12C6182"
+			]
+			description: ["Toutes les pièces de l'ensemble en Imperium (4), ensemble dans l'inventaire."]
+			icon: "mysticalagriculture:imperium_chestplate"
+			id: "2BC37CC747521115"
+			optional: true
+			rewards: [{
+				id: "4A5F56234EF20B81"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1835E88D04E758F3"
+					item: "mysticalagriculture:imperium_helmet"
+					type: "item"
+				}
+				{
+					id: "18B992E0BBA52A2D"
+					item: "mysticalagriculture:imperium_chestplate"
+					type: "item"
+				}
+				{
+					id: "0AFE2D3A2E241C64"
+					item: "mysticalagriculture:imperium_leggings"
+					type: "item"
+				}
+				{
+					id: "7BD61122C6C056B6"
+					item: "mysticalagriculture:imperium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en Imperium"
+			x: 18.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_helmet"
+			id: "5C2D5E7443106829"
+			optional: true
+			rewards: [{
+				id: "3339B584C4AC1A87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66F252940B193E1E"
+				item: "mysticalagriculture:inferium_helmet"
+				type: "item"
+			}]
+			title: "Casque en Inferium"
+			x: 19.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_chestplate"
+			id: "345BFECC41D1F1D4"
+			optional: true
+			rewards: [{
+				id: "564071057AFDCEE1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0919427D04F9F95D"
+				item: "mysticalagriculture:inferium_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en Inferium"
+			x: 21.0d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_leggings"
+			id: "7CCE8324FF139B1D"
+			optional: true
+			rewards: [{
+				id: "2CA5512289811BA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "415733AE5B03BF1C"
+				item: "mysticalagriculture:inferium_leggings"
+				type: "item"
+			}]
+			title: "Jambières en Inferium"
+			x: 22.5d
+			y: 3.75d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_boots"
+			id: "66C2181A6894156F"
+			optional: true
+			rewards: [{
+				id: "6A02C43EAE112A1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48CDF1BD9507BC19"
+				item: "mysticalagriculture:inferium_boots"
+				type: "item"
+			}]
+			title: "Bottes en Inferium"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"5C2D5E7443106829"
+				"345BFECC41D1F1D4"
+				"7CCE8324FF139B1D"
+				"66C2181A6894156F"
+			]
+			description: ["Toutes les pièces de l'ensemble en Inferium (4), ensemble dans l'inventaire."]
+			icon: "mysticalagriculture:inferium_chestplate"
+			id: "631948B88104F0EE"
+			optional: true
+			rewards: [{
+				id: "137EEDE6F15BC859"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "57B32EC4BE93E12F"
+					item: "mysticalagriculture:inferium_helmet"
+					type: "item"
+				}
+				{
+					id: "15BDABAA42FF7D7A"
+					item: "mysticalagriculture:inferium_chestplate"
+					type: "item"
+				}
+				{
+					id: "4FB4EC5A34DD17FB"
+					item: "mysticalagriculture:inferium_leggings"
+					type: "item"
+				}
+				{
+					id: "7BCA6DF162F44B7E"
+					item: "mysticalagriculture:inferium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en Inferium"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_helmet"
+			id: "293DFA8FC0AB56B2"
+			optional: true
+			rewards: [{
+				id: "3ABDB8252FD0AF49"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74624C5A010297D9"
+				item: "mysticalagriculture:prudentium_helmet"
+				type: "item"
+			}]
+			title: "Casque en Prudentium"
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_chestplate"
+			id: "7FD95526C24BE930"
+			optional: true
+			rewards: [{
+				id: "4616486B3BBFC65D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5055985486E7B8E7"
+				item: "mysticalagriculture:prudentium_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en Prudentium"
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_leggings"
+			id: "622FE58A9C3FC7D4"
+			optional: true
+			rewards: [{
+				id: "775D21E8280AC888"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26FF59DAE2327D75"
+				item: "mysticalagriculture:prudentium_leggings"
+				type: "item"
+			}]
+			title: "Jambières en Prudentium"
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_boots"
+			id: "3360B0D2FA7BF818"
+			optional: true
+			rewards: [{
+				id: "7ED67359C1C01B06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4092831E7EA75653"
+				item: "mysticalagriculture:prudentium_boots"
+				type: "item"
+			}]
+			title: "Bottes en Prudentium"
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"293DFA8FC0AB56B2"
+				"7FD95526C24BE930"
+				"622FE58A9C3FC7D4"
+				"3360B0D2FA7BF818"
+			]
+			description: ["Toutes les pièces de l'ensemble en Prudentium (4), ensemble dans l'inventaire."]
+			icon: "mysticalagriculture:prudentium_chestplate"
+			id: "0AB743EB892B9E5E"
+			optional: true
+			rewards: [{
+				id: "2B4482F5B868AB3D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5A53AEB3B388D9A4"
+					item: "mysticalagriculture:prudentium_helmet"
+					type: "item"
+				}
+				{
+					id: "5249722DB9436F47"
+					item: "mysticalagriculture:prudentium_chestplate"
+					type: "item"
+				}
+				{
+					id: "7A080761D112549F"
+					item: "mysticalagriculture:prudentium_leggings"
+					type: "item"
+				}
+				{
+					id: "40528D06E42FA2E9"
+					item: "mysticalagriculture:prudentium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en Prudentium"
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_helmet"
+			id: "3832F3B05E54291D"
+			optional: true
+			rewards: [{
+				id: "08A50F4267DFBB46"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D54991B2A1F71ED"
+				item: "mysticalagriculture:supremium_helmet"
+				type: "item"
+			}]
+			title: "Casque en Supremium"
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_chestplate"
+			id: "66811B9B0E40FC24"
+			optional: true
+			rewards: [{
+				id: "043E9016159301BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E490D983AF40739"
+				item: "mysticalagriculture:supremium_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en Supremium"
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_leggings"
+			id: "3DC4AE7D12F9696F"
+			optional: true
+			rewards: [{
+				id: "70D20F84FDF40D04"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37B5D093FCDE0857"
+				item: "mysticalagriculture:supremium_leggings"
+				type: "item"
+			}]
+			title: "Jambières en Supremium"
+			x: 13.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_boots"
+			id: "289DCB5F6D7783EB"
+			optional: true
+			rewards: [{
+				id: "51379BCAE67498BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A0FBFF2CAD8693B"
+				item: "mysticalagriculture:supremium_boots"
+				type: "item"
+			}]
+			title: "Bottes en Supremium"
+			x: 15.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"3832F3B05E54291D"
+				"66811B9B0E40FC24"
+				"3DC4AE7D12F9696F"
+				"289DCB5F6D7783EB"
+			]
+			description: ["Toutes les pièces de l'ensemble en Supremium (4), ensemble dans l'inventaire."]
+			icon: "mysticalagriculture:supremium_chestplate"
+			id: "0E9DC7E200391092"
+			optional: true
+			rewards: [{
+				id: "169BC6AABCD7CF44"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4E459DF46D396D51"
+					item: "mysticalagriculture:supremium_helmet"
+					type: "item"
+				}
+				{
+					id: "00D3438B3A494CEA"
+					item: "mysticalagriculture:supremium_chestplate"
+					type: "item"
+				}
+				{
+					id: "65D8F17A425C545C"
+					item: "mysticalagriculture:supremium_leggings"
+					type: "item"
+				}
+				{
+					id: "150838407B7318B3"
+					item: "mysticalagriculture:supremium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en Supremium"
+			x: 16.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_helmet"
+			id: "7819D6778CED5E73"
+			optional: true
+			rewards: [{
+				id: "0C667692BB04473A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4877502DDC45060F"
+				item: "mysticalagriculture:tertium_helmet"
+				type: "item"
+			}]
+			title: "Casque en Tertium"
+			x: 18.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_chestplate"
+			id: "2228F0AE234381BB"
+			optional: true
+			rewards: [{
+				id: "51AAC35CADC27257"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76E0CD070DE2432F"
+				item: "mysticalagriculture:tertium_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en Tertium"
+			x: 19.5d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_leggings"
+			id: "1909D8D933F42EA4"
+			optional: true
+			rewards: [{
+				id: "3EFBD1C2E7280549"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31D20B1035F9A484"
+				item: "mysticalagriculture:tertium_leggings"
+				type: "item"
+			}]
+			title: "Jambières en Tertium"
+			x: 21.0d
+			y: 5.25d
+		}
+		{
+			description: ["Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_boots"
+			id: "1088B7EDD1A6F965"
+			optional: true
+			rewards: [{
+				id: "72AF72CDFAC81C32"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6048A9E0BD486EE2"
+				item: "mysticalagriculture:tertium_boots"
+				type: "item"
+			}]
+			title: "Bottes en Tertium"
+			x: 22.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"7819D6778CED5E73"
+				"2228F0AE234381BB"
+				"1909D8D933F42EA4"
+				"1088B7EDD1A6F965"
+			]
+			description: ["Toutes les pièces de l'ensemble en Tertium (4), ensemble dans l'inventaire."]
+			icon: "mysticalagriculture:tertium_chestplate"
+			id: "4FB812524C54D593"
+			optional: true
+			rewards: [{
+				id: "5C4406D871151601"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3F62C58E1A5B9F36"
+					item: "mysticalagriculture:tertium_helmet"
+					type: "item"
+				}
+				{
+					id: "540803CED1E84EF9"
+					item: "mysticalagriculture:tertium_chestplate"
+					type: "item"
+				}
+				{
+					id: "06658CC9E0C0E18A"
+					item: "mysticalagriculture:tertium_leggings"
+					type: "item"
+				}
+				{
+					id: "16124BAF7BB341BF"
+					item: "mysticalagriculture:tertium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en Tertium"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bQuark&r. À garder : la livraison n'est pas consommée."]
+			icon: "quark:forgotten_hat"
+			id: "6F1566B5FDE648E5"
+			optional: true
+			rewards: [{
+				id: "2D6030BFB3F92F0E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "695EDEA0D436B331"
+				item: "quark:forgotten_hat"
+				type: "item"
+			}]
+			title: "Chapeau d'Oublié"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée."]
 			icon: "stalwart_dungeons:chorundum_armor_helmet"
 			id: "3AC171F323D196EA"
 			optional: true
@@ -3303,232 +3529,115 @@
 				item: "stalwart_dungeons:chorundum_armor_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « §eChorundum Helmet »"
+			title: "« §eChorundum Helmet »"
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			description: ["Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_armor_chestplate"
+			id: "0F2DBCE85D0358E6"
+			optional: true
+			rewards: [{
+				id: "1A61A6364425F464"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "312DB4A4B0B0371D"
+				item: "stalwart_dungeons:chorundum_armor_chestplate"
+				type: "item"
+			}]
+			title: "« §eChorundum Chestplate »"
 			x: 4.5d
-			y: 6.0d
+			y: 6.75d
 		}
 		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:chorundum_axe"
-			id: "59CFC7C4F497DA6E"
+			description: ["Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_armor_leggings"
+			id: "287D31C0CC6F02D9"
 			optional: true
 			rewards: [{
-				id: "75EF56625F338AD3"
+				id: "0BA143199071E672"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "5B67FCFC6B32F82B"
-				item: "stalwart_dungeons:chorundum_axe"
+				id: "1F82178944971356"
+				item: "stalwart_dungeons:chorundum_armor_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : « §eChorundum Axe »"
+			title: "« §eChorundum Leggings »"
 			x: 6.0d
-			y: 6.0d
+			y: 6.75d
 		}
 		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:chorundum_shield"
-			id: "2E519CEEE70EE1F1"
+			description: ["Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_armor_boots"
+			id: "0FE73E1AF68243F3"
 			optional: true
 			rewards: [{
-				id: "108C05C79E364C0B"
+				id: "57DCC24E89D59AD5"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "024DC073033A73FD"
-				item: "stalwart_dungeons:chorundum_shield"
+				id: "0DC13006D2214622"
+				item: "stalwart_dungeons:chorundum_armor_boots"
 				type: "item"
 			}]
-			title: "Obtenir : « §eChorundum Shield »"
+			title: "« §eChorundum Boots »"
 			x: 7.5d
-			y: 6.0d
+			y: 6.75d
 		}
 		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:chorundum_sword"
-			id: "01B26700FE8CC3CE"
+			dependencies: [
+				"3AC171F323D196EA"
+				"0F2DBCE85D0358E6"
+				"287D31C0CC6F02D9"
+				"0FE73E1AF68243F3"
+			]
+			description: ["Toutes les pièces de l'ensemble « §eChorundum » (4), ensemble dans l'inventaire."]
+			icon: "stalwart_dungeons:chorundum_armor_chestplate"
+			id: "1851A298F732435F"
 			optional: true
 			rewards: [{
-				id: "38999E747D645338"
+				id: "381E1F7FA91D7382"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "153E731655D0F5D0"
-				item: "stalwart_dungeons:chorundum_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « §eChorundum Sword »"
+			tasks: [
+				{
+					id: "74826FEDC50BD114"
+					item: "stalwart_dungeons:chorundum_armor_helmet"
+					type: "item"
+				}
+				{
+					id: "27A2AA9F10C30358"
+					item: "stalwart_dungeons:chorundum_armor_chestplate"
+					type: "item"
+				}
+				{
+					id: "69D8421F4D39D40C"
+					item: "stalwart_dungeons:chorundum_armor_leggings"
+					type: "item"
+				}
+				{
+					id: "438F1873680283D0"
+					item: "stalwart_dungeons:chorundum_armor_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « §eChorundum »"
 			x: 9.0d
-			y: 6.0d
+			y: 6.75d
 		}
 		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:diamond_hammer"
-			id: "4DD1D6366C23B32A"
-			optional: true
-			rewards: [{
-				id: "733CF6128E362418"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2903900FEE961694"
-				item: "stalwart_dungeons:diamond_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Diamond Hammer »"
-			x: 10.5d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:golden_hammer"
-			id: "482FA61858882477"
-			optional: true
-			rewards: [{
-				id: "6D83EDB68C2C60BD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2A07A81AC01EF9F8"
-				item: "stalwart_dungeons:golden_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Golden Hammer »"
-			x: 12.0d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:iron_hammer"
-			id: "493A691DBFB0F93C"
-			optional: true
-			rewards: [{
-				id: "63D6E69D4CA79EFF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4FA35AF552A69BDA"
-				item: "stalwart_dungeons:iron_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Iron Hammer »"
-			x: 13.5d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:nether_hammer"
-			id: "0F89019A39DB5556"
-			optional: true
-			rewards: [{
-				id: "0DB3606B112810F2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "681BA04A2356CCF0"
-				item: "stalwart_dungeons:nether_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « §cNether Hammer »"
-			x: 15.0d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:netherite_hammer"
-			id: "345A037EFBE5751D"
-			optional: true
-			rewards: [{
-				id: "7ACDB641532D56D1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "17FC97A9A2A4C9A2"
-				item: "stalwart_dungeons:netherite_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Netherite Hammer »"
-			x: 16.5d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:stone_hammer"
-			id: "049A1FCA8CD456F4"
-			optional: true
-			rewards: [{
-				id: "49DB6F60FF155AC4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6D7E46CF3190E1C4"
-				item: "stalwart_dungeons:stone_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Stone Hammer »"
-			x: 18.0d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:tungsten_axe"
-			id: "710C5DB7283AC7C3"
-			optional: true
-			rewards: [{
-				id: "23582D35C4CB970C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "08FF914EDD291CA3"
-				item: "stalwart_dungeons:tungsten_axe"
-				type: "item"
-			}]
-			title: "Obtenir : « §eTungsten Axe »"
-			x: 19.5d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:tungsten_hammer"
-			id: "21761D0872C65380"
-			optional: true
-			rewards: [{
-				id: "0853A8D0C9590261"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "24DDB8E9BE838578"
-				item: "stalwart_dungeons:tungsten_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « §eTungsten Hammer »"
-			x: 21.0d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
+			description: ["Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée."]
 			icon: "stalwart_dungeons:tungsten_helmet"
 			id: "159D6ED55C7F1DA0"
 			optional: true
@@ -3543,779 +3652,274 @@
 				item: "stalwart_dungeons:tungsten_helmet"
 				type: "item"
 			}]
-			title: "Obtenir : « §eTungsten Helmet »"
-			x: 22.5d
-			y: 6.0d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:tungsten_shield"
-			id: "4E29A1D9D93CFBDB"
-			optional: true
-			rewards: [{
-				id: "5DDF5F6A98ABE64B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5EA47B9692C6A665"
-				item: "stalwart_dungeons:tungsten_shield"
-				type: "item"
-			}]
-			title: "Obtenir : « §eTungsten Shield »"
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:tungsten_sword"
-			id: "3A56BDFD2BED19A6"
-			optional: true
-			rewards: [{
-				id: "605749B8F3D45D29"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6C65EAA20A79F817"
-				item: "stalwart_dungeons:tungsten_sword"
-				type: "item"
-			}]
-			title: "Obtenir : « §eTungsten Sword »"
-			x: 1.5d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:warted_tungsten_helmet"
-			id: "7CF26A5F83F3D45E"
-			optional: true
-			rewards: [{
-				id: "6705B09742771695"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "641C4B345B126D98"
-				item: "stalwart_dungeons:warted_tungsten_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : « §eWarted Helmet »"
-			x: 3.0d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:warted_tungsten_shield"
-			id: "4BA7B1C6A548715A"
-			optional: true
-			rewards: [{
-				id: "221007EAD9735F01"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "18C60B7BAB6782A3"
-				item: "stalwart_dungeons:warted_tungsten_shield"
-				type: "item"
-			}]
-			title: "Obtenir : « §eWarted Shield »"
-			x: 4.5d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bStalwart Dungeons&r."]
-			icon: "stalwart_dungeons:wooden_hammer"
-			id: "44BC261492FDBCD6"
-			optional: true
-			rewards: [{
-				id: "1EC50B0EBDD40293"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7F5A44FC903EA928"
-				item: "stalwart_dungeons:wooden_hammer"
-				type: "item"
-			}]
-			title: "Obtenir : « Wooden Hammer »"
-			x: 6.0d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:arctic_helmet"
-			id: "5A37AC636DD9C010"
-			optional: true
-			rewards: [{
-				id: "7FE6890655FDEE97"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "133E387938B3AE5B"
-				item: "twilightforest:arctic_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Capuche arctique"
-			x: 7.5d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:diamond_minotaur_axe"
-			id: "48E676911831EDF9"
-			optional: true
-			rewards: [{
-				id: "1F2B63DA7836E38B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6B359A70FEE94B0D"
-				item: "twilightforest:diamond_minotaur_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en diamant du Minotaure"
-			x: 9.0d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:ender_bow"
-			id: "01DD14BD5104F956"
-			optional: true
-			rewards: [{
-				id: "337DC90752BE2047"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "77FE6BD066AD746C"
-				item: "twilightforest:ender_bow"
-				type: "item"
-			}]
-			title: "Obtenir : Arc de l'Ender"
+			title: "« §eTungsten Helmet »"
 			x: 10.5d
-			y: 7.5d
+			y: 6.75d
 		}
 		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:fiery_helmet"
-			id: "3DB2E3EB57BA56B1"
+			description: ["Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_chestplate"
+			id: "0D1364545B5BACC5"
 			optional: true
 			rewards: [{
-				id: "047F502418B31142"
+				id: "20FDD00B9140C652"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "469E6751C8D90788"
-				item: "twilightforest:fiery_helmet"
+				id: "713AE7C0BAE9215C"
+				item: "stalwart_dungeons:tungsten_chestplate"
 				type: "item"
 			}]
-			title: "Obtenir : Casque ardent"
+			title: "« §eTungsten Chestplate »"
 			x: 12.0d
-			y: 7.5d
+			y: 6.75d
 		}
 		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:fiery_sword"
-			id: "01C0F4BE4D3D10AD"
+			description: ["Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_leggings"
+			id: "1F94FCA405E6A49D"
 			optional: true
 			rewards: [{
-				id: "5C04D7C586AC39C3"
+				id: "4FF4082441978346"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "0B44EF48F88B1B89"
-				item: "twilightforest:fiery_sword"
+				id: "4ECCF85ACB970AB8"
+				item: "stalwart_dungeons:tungsten_leggings"
 				type: "item"
 			}]
-			title: "Obtenir : Épée ardente"
+			title: "« §eTungsten Leggings »"
 			x: 13.5d
-			y: 7.5d
+			y: 6.75d
 		}
 		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:giant_sword"
-			id: "710718B68EBD6D48"
+			description: ["Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_boots"
+			id: "79B9D86F2E4FB87D"
 			optional: true
 			rewards: [{
-				id: "25E313A416CA8E2D"
+				id: "0E52798253D994E6"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "24A906AE99F5777D"
-				item: "twilightforest:giant_sword"
+				id: "6D319DDC9291452E"
+				item: "stalwart_dungeons:tungsten_boots"
 				type: "item"
 			}]
-			title: "Obtenir : Épée de géant"
+			title: "« §eTungsten Boots »"
 			x: 15.0d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:glass_sword"
-			id: "662B2AA3FBA9645A"
-			optional: true
-			rewards: [{
-				id: "747A0872943A0740"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2209F5E40F93FC79"
-				item: "twilightforest:glass_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en verre"
-			x: 16.5d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:ice_bow"
-			id: "15E98BEBF76071C7"
-			optional: true
-			rewards: [{
-				id: "32F734DDF9BA5F46"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "408EE85D05A07E67"
-				item: "twilightforest:ice_bow"
-				type: "item"
-			}]
-			title: "Obtenir : Arc gelé"
-			x: 18.0d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:ice_sword"
-			id: "273719FBE27B9888"
-			optional: true
-			rewards: [{
-				id: "1F05F2E681AF5543"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3E0059E972902F2F"
-				item: "twilightforest:ice_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée gelée"
-			x: 19.5d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:ironwood_axe"
-			id: "73B6FFD73C36905B"
-			optional: true
-			rewards: [{
-				id: "47C07D88B791E505"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "444B33C5CD99EB28"
-				item: "twilightforest:ironwood_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en bois de fer"
-			x: 21.0d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:ironwood_helmet"
-			id: "1DE647C484A47FB6"
-			optional: true
-			rewards: [{
-				id: "22A3B956FC48ED58"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7AC7C80FC97847E7"
-				item: "twilightforest:ironwood_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque en bois de fer"
-			x: 22.5d
-			y: 7.5d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:ironwood_sword"
-			id: "47FB8C161C5AA20E"
-			optional: true
-			rewards: [{
-				id: "4BE4AB554403CC86"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "34528BEF9C662C9C"
-				item: "twilightforest:ironwood_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en bois de fer"
-			x: 0.0d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:knightmetal_axe"
-			id: "144B113D4EA2ABD4"
-			optional: true
-			rewards: [{
-				id: "754F9BA80528D7C7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "07EC01E8434D56AD"
-				item: "twilightforest:knightmetal_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache chevaleresque"
-			x: 1.5d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:knightmetal_helmet"
-			id: "4DAC62FCD50D333C"
-			optional: true
-			rewards: [{
-				id: "1211F2A19D1E8E75"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "234646E91D859948"
-				item: "twilightforest:knightmetal_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque chevaleresque"
-			x: 3.0d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:knightmetal_shield"
-			id: "16E6A0B427D35F1C"
-			optional: true
-			rewards: [{
-				id: "7446D752C98B42F7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "719C253A871F1352"
-				item: "twilightforest:knightmetal_shield"
-				type: "item"
-			}]
-			title: "Obtenir : Bouclier chevaleresque"
-			x: 4.5d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:knightmetal_sword"
-			id: "6CF0982F9FEEA14E"
-			optional: true
-			rewards: [{
-				id: "6FA64F9A9D74F247"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5764342E08976BF6"
-				item: "twilightforest:knightmetal_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée chevaleresque"
-			x: 6.0d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:phantom_helmet"
-			id: "607681329AD5BBBF"
-			optional: true
-			rewards: [{
-				id: "7C23BF65A4D64B96"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "261CF1F9E5E42404"
-				item: "twilightforest:phantom_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque de fantôme"
-			x: 7.5d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:seeker_bow"
-			id: "364A4F38AB164477"
-			optional: true
-			rewards: [{
-				id: "567946EF1E26860C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2CF596DB2F3BFFFC"
-				item: "twilightforest:seeker_bow"
-				type: "item"
-			}]
-			title: "Obtenir : Arc du chercheur"
-			x: 9.0d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:steeleaf_axe"
-			id: "1AF5AA9FFED09DD1"
-			optional: true
-			rewards: [{
-				id: "6450808E3CD761B9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "74D1F5FAEB731E5A"
-				item: "twilightforest:steeleaf_axe"
-				type: "item"
-			}]
-			title: "Obtenir : Hache en Stealeaf"
-			x: 10.5d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:steeleaf_helmet"
-			id: "707658FC1284891C"
-			optional: true
-			rewards: [{
-				id: "478FD6E874383DF4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "13F64FA0D4FDAC77"
-				item: "twilightforest:steeleaf_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque en Stealeaf"
-			x: 12.0d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:steeleaf_sword"
-			id: "6D7BC2D71A352B21"
-			optional: true
-			rewards: [{
-				id: "1DFC324AC15E734C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1103F081656DE5CE"
-				item: "twilightforest:steeleaf_sword"
-				type: "item"
-			}]
-			title: "Obtenir : Épée en Stealeaf"
-			x: 13.5d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:triple_bow"
-			id: "453EC9022F7AA416"
-			optional: true
-			rewards: [{
-				id: "57A2933419377C0B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1FD88A43C21E639C"
-				item: "twilightforest:triple_bow"
-				type: "item"
-			}]
-			title: "Obtenir : « Tri-Bow »"
-			x: 15.0d
-			y: 9.0d
-		}
-		{
-			description: ["Objet de &bTwilight Forest&r."]
-			icon: "twilightforest:yeti_helmet"
-			id: "710F7D8A0C6C43A9"
-			optional: true
-			rewards: [{
-				id: "50A5D901A8AF9AA8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "287D736744F704D9"
-				item: "twilightforest:yeti_helmet"
-				type: "item"
-			}]
-			title: "Obtenir : Casque orné de Yéti"
-			x: 16.5d
-			y: 9.0d
+			y: 6.75d
 		}
 		{
 			dependencies: [
-				"3BC822C96919DA37"
-				"77946A73203188E9"
-				"065109BEE4182D5F"
-				"6D50AD0BD9134B2B"
-				"6AE17366EC48738A"
-				"36D05C30D6E46934"
-				"30F15AA9EAC77FCE"
-				"1F5C3A7ABD00DDA0"
-				"315699CA61356B2F"
-				"11268F6C32B32050"
-				"707151415BF2A75A"
-				"59DD22CC99131415"
-				"02E3F250E9BA0B87"
-				"0A1E70C2E50D7370"
-				"07E02B751A38E24D"
-				"3CBFCB042AC0EF3F"
-				"19CC9E4804CF6065"
-				"0EF171D3315FF54C"
-				"68A18C497EAC6881"
-				"3C572162FE20DC7A"
-				"05277F6F1D4EB663"
-				"5627CBB6771383B2"
-				"3C34A46E79AFAB78"
-				"36DF12258B71B8E6"
-				"33A1B6B7766FD629"
-				"40457C812059EDD8"
-				"00EC1F306F44C0EA"
-				"1C046485889305DA"
-				"57094F61AC240F0D"
-				"5C487D0FCCACCFE4"
-				"7975FBC2BE6D6F5A"
-				"4D581251E184479A"
-				"777920ED0E0A3035"
-				"10ECB15AE144304F"
-				"7B989360A6F75D2D"
-				"1E9C038A2CF12E6D"
-				"001CD20516D488E6"
-				"006C65BC13F108CC"
-				"45594CF1FD798073"
-				"50FA401C613847EB"
-				"6CC4CB74B16C8203"
-				"536FC32DACFACCEB"
-				"4C2BEEE9A8D43E45"
-				"4BB4CD308607CBC3"
-				"6773E437AE0FD44F"
-				"75A9BF320B2E1365"
-				"06B31F9F32D78E71"
-				"57D5E45151121A9E"
-				"0C066725FFBF1CD4"
-				"4C819DE38235756C"
-				"50966C08D9637B3C"
-				"314D3F4E297ED99C"
-				"755C49D6F5B54E15"
-				"2F1E1E36470A78A1"
-				"63CAF82619BD70B7"
-				"1B6AF97CEA4B69D1"
-				"1588C6F4BCC529E3"
-				"64FB87C569947B1D"
-				"1FCFBAE2AA04B649"
-				"0897AB9014A9C175"
-				"7C045F0E9B482952"
-				"699A143ACB0B734F"
-				"1CB2AE19FDA4EF77"
-				"3EEA2AA3FB9C7915"
-				"5A62232CF7F30940"
-				"139776CD9EF51924"
-				"74C03FCED9AC244B"
-				"7DFC1F093F1EC655"
-				"420054CE04EA9FA5"
-				"2BEE7E63CCEC0A01"
-				"05A025D40503F05D"
-				"4C5BD8C0859053CA"
-				"1C4B3D4D47423DD6"
-				"62CAF72333F150B5"
-				"4CBB56BBB3E751D5"
-				"60DA88A3AD88544D"
-				"5409F05CF06E1045"
-				"6D1B9B183CB01B89"
-				"4D30677B3612E2FA"
-				"14E318EB8CF3E2D9"
-				"1FF5084D17B27E83"
-				"399F74651B1037A6"
-				"1904CEDDA81D763B"
-				"04042AF090BE8E7E"
-				"5D60A39CDA9E52D5"
-				"44F977F74D36E2C5"
-				"2A036B3685DCB3E6"
-				"31AA91DE85B24917"
-				"0E736BFC0B5C1C57"
-				"76CFE905422F2151"
-				"02FEFCB3542F13D2"
-				"27CC1A64D5A47D85"
-				"274DA9BC1CBFDE31"
-				"7CC6E437F5077665"
-				"3395AB1A1B8C42F3"
-				"284314AF396ADEA8"
-				"43A4B5CBD53C66E3"
-				"509AD68397E3B327"
-				"04F57BB0D8938107"
-				"4D318AF16B404C81"
-				"6F06D5D8B1176B4F"
-				"513742911D7C0B28"
-				"38A193444AD1F615"
-				"257ED2FEDEFCBAAF"
-				"30D82E40FC9077D5"
-				"76CD914E24376479"
-				"4C24BB98CE6493A9"
-				"171577F844BDDA81"
-				"4BE8B007BD509CBB"
-				"16CDB4C4262D53DB"
-				"1619593FA5BF3EF9"
-				"46BCFB4803C0B669"
-				"44A44D677DAF9D96"
-				"32B15AE2A5FE31F0"
-				"31941DE9739D16BA"
-				"1C45F8CD7889D76E"
-				"311DC702E7A2712F"
-				"44B09B9BE613954F"
-				"157E5F4608575B82"
-				"6AA37C5D55FE8381"
-				"0240F53FC2645AD5"
-				"4EA33525A8B4BAA9"
-				"0853394EC788F15A"
-				"09F784566DC79CB6"
-				"1816FF222CF98BFC"
-				"7C89B0B1721CDF47"
-				"540B937401F7B395"
-				"58C601FFBE4B57C3"
-				"389B5FF425041809"
-				"029458A4E6D2C781"
-				"2F5EFC08C70A8599"
-				"79997593925CE828"
-				"1C20FAF3829327BC"
-				"487AEDA311FD3C08"
-				"0C5E93BA5EA62970"
-				"01796A14359EB516"
-				"31239C5C6660FFF7"
-				"14B42DCF7D005C73"
-				"244931FDF602D0F4"
-				"6E1DBAE880A10F7F"
-				"559B84B62F1839C0"
-				"4238317D9F6A7538"
-				"6D750FAEAB2ACE61"
-				"75DC7FF2485D09A5"
-				"6C1DF5A25DAADF98"
-				"74C843ABCAA64A71"
-				"3BC7B72232766CF1"
-				"5B6E15E137980294"
-				"183823868598AE16"
-				"43E3D117BADB577F"
-				"28C23438521CA63D"
-				"7640F5038B637AA0"
-				"262AA732CC56088F"
-				"7CE3FA81F5ACF239"
-				"5883EAD3C68F3267"
-				"24ACEA6289F0811B"
-				"38A530C72360C44E"
-				"3C97333FD2ABDF1D"
-				"1AD88ADB61BC62A4"
-				"045F1FDE3F4E96CE"
-				"7E988AD1E496A5CA"
-				"16AF7FE4CDD3D476"
-				"25C3697ACE938B11"
-				"3AC171F323D196EA"
-				"59CFC7C4F497DA6E"
-				"2E519CEEE70EE1F1"
-				"01B26700FE8CC3CE"
-				"4DD1D6366C23B32A"
-				"482FA61858882477"
-				"493A691DBFB0F93C"
-				"0F89019A39DB5556"
-				"345A037EFBE5751D"
-				"049A1FCA8CD456F4"
-				"710C5DB7283AC7C3"
-				"21761D0872C65380"
 				"159D6ED55C7F1DA0"
-				"4E29A1D9D93CFBDB"
-				"3A56BDFD2BED19A6"
-				"7CF26A5F83F3D45E"
-				"4BA7B1C6A548715A"
-				"44BC261492FDBCD6"
-				"5A37AC636DD9C010"
-				"48E676911831EDF9"
-				"01DD14BD5104F956"
-				"3DB2E3EB57BA56B1"
-				"01C0F4BE4D3D10AD"
-				"710718B68EBD6D48"
-				"662B2AA3FBA9645A"
-				"15E98BEBF76071C7"
-				"273719FBE27B9888"
-				"73B6FFD73C36905B"
-				"1DE647C484A47FB6"
-				"47FB8C161C5AA20E"
-				"144B113D4EA2ABD4"
-				"4DAC62FCD50D333C"
-				"16E6A0B427D35F1C"
-				"6CF0982F9FEEA14E"
-				"607681329AD5BBBF"
-				"364A4F38AB164477"
-				"1AF5AA9FFED09DD1"
-				"707658FC1284891C"
-				"6D7BC2D71A352B21"
-				"453EC9022F7AA416"
-				"710F7D8A0C6C43A9"
+				"0D1364545B5BACC5"
+				"1F94FCA405E6A49D"
+				"79B9D86F2E4FB87D"
 			]
-			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
-			icon: "cataclysm:ignitium_helmet"
+			description: ["Toutes les pièces de l'ensemble « §eTungsten » (4), ensemble dans l'inventaire."]
+			icon: "stalwart_dungeons:tungsten_chestplate"
+			id: "0C221FADA3DA96FE"
+			optional: true
+			rewards: [{
+				id: "6B21456058AE71AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "11F6E36C612DA20C"
+					item: "stalwart_dungeons:tungsten_helmet"
+					type: "item"
+				}
+				{
+					id: "1A7A22DD379CA43A"
+					item: "stalwart_dungeons:tungsten_chestplate"
+					type: "item"
+				}
+				{
+					id: "4570D58968739908"
+					item: "stalwart_dungeons:tungsten_leggings"
+					type: "item"
+				}
+				{
+					id: "7D8BD501DAB218B9"
+					item: "stalwart_dungeons:tungsten_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « §eTungsten »"
+			x: 16.5d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"77946A73203188E9"
+				"26221D0933DDC854"
+				"1866373B00D5EE52"
+				"15F47D4A95B100FA"
+				"2AD24305784EDE48"
+				"6AE17366EC48738A"
+				"75AF75C9E85D8785"
+				"15F86E40DA60E9F6"
+				"5FCC0790F92F3D98"
+				"4CE167468B63481F"
+				"1F5C3A7ABD00DDA0"
+				"2C767B19584335A1"
+				"5E3509AE32899714"
+				"55085655CD6A3937"
+				"0C340EBE342038C9"
+				"707151415BF2A75A"
+				"0C164D1DBAB68B00"
+				"6DECED242398EF91"
+				"20C46504C68F9E41"
+				"75E558A91151C2BE"
+				"2E26DBEF79693439"
+				"4B6B44F0073FA76D"
+				"40155FC50E5F581C"
+				"3190E7329FC5EFCA"
+				"6397C815910CF225"
+				"2CDC551A156FE799"
+				"10F35908BA7FA4A7"
+				"5E1E75B4330E73B0"
+				"2252AC33C9EACA9B"
+				"33732E15529DBADA"
+				"00CC631CED52AADF"
+				"3427536B04845832"
+				"6141B292E81A0256"
+				"1C45F8CD7889D76E"
+				"103C402CB3C10722"
+				"28755A03791343BF"
+				"44B09B9BE613954F"
+				"1C7DA992FF4DCE70"
+				"5785CBDB9419D0BA"
+				"67C052E32DD833F8"
+				"1D5A3167C8D251C5"
+				"157E5F4608575B82"
+				"7587D69BF6D5FE07"
+				"37C2429E1669589B"
+				"476FF818FE029D1E"
+				"6CA02D536C661CF2"
+				"53477A61815B4718"
+				"56EEDA222C668833"
+				"7E2E480716585762"
+				"4156167AE118F74F"
+				"23C0EC9091A409A2"
+				"76D98ED782198581"
+				"4F91568C780E98C5"
+				"3494B82763396BA1"
+				"666E52E41329F1AD"
+				"7D9D46C36891B076"
+				"4105BF7AE44E2EDD"
+				"2F303F78EF63B356"
+				"476205F59C721F77"
+				"754ED12F0AE50ADC"
+				"230AB3CEDFD6FA92"
+				"58BF115BCAD6C253"
+				"2F5EFC08C70A8599"
+				"3CBCAF9ED0E60E7F"
+				"22082523BB7CB88E"
+				"3248F2ECB5D9CDA7"
+				"5614DB17B09BDE7B"
+				"0C5E93BA5EA62970"
+				"524BBBC527D44948"
+				"6CB9FCFAD8B7917F"
+				"0DA10BDEFC6C6A71"
+				"3AE41431AB922325"
+				"14B42DCF7D005C73"
+				"14F39FB0288F7197"
+				"28C6DC9460603BBF"
+				"086F24B2A681B83C"
+				"062E7117B8F289C5"
+				"298E9442739A42FF"
+				"6E1DBAE880A10F7F"
+				"725AEA6C9728ABF6"
+				"2A6B49ED43748B7A"
+				"38E55AC483F29407"
+				"6970B56BD17F9DA9"
+				"306C721C377C1080"
+				"055DEE34959DBBD5"
+				"23F72B008AFED517"
+				"1C79B9D42A8D2C39"
+				"02E4E043A8B81AA3"
+				"7810ACCBC0229822"
+				"057FDB31487C7B1A"
+				"63862FAFE82CEE34"
+				"35AF9D043C284A74"
+				"5C06C1A2681504FB"
+				"5B4E86A2278C8BA2"
+				"0CEC62E729A6BC8A"
+				"01882B5D8CCDE798"
+				"33C8AED0D03D8B7B"
+				"6F8CA3BD19317740"
+				"194CF9DCCF122AF4"
+				"39840253217E22E2"
+				"21C51DDFB8B10FB4"
+				"7521BF577440EB55"
+				"1444A6EBF502D4BA"
+				"1319E65C35E5F13B"
+				"330DC22C4385828C"
+				"177FFB7C88650FDB"
+				"536266657F594990"
+				"4033BE6E9FC57352"
+				"059344FB4A2B40F6"
+				"3F7683102A892264"
+				"0932B54F5C5A64CD"
+				"5B99FE10C39627B6"
+				"2B2433CC32BDA2A7"
+				"64DCCCDFF35230BD"
+				"16AF7FE4CDD3D476"
+				"71E019168C01232A"
+				"3E70BDD30CB36211"
+				"6BA80488DABEE7D1"
+				"2BCE50DFF15FA8CA"
+				"791D0CE417C8258B"
+				"480AA6DA22D3DA14"
+				"11D24B22C65073E6"
+				"2C4D8D32916554AA"
+				"47776F8AC12C6182"
+				"2BC37CC747521115"
+				"5C2D5E7443106829"
+				"345BFECC41D1F1D4"
+				"7CCE8324FF139B1D"
+				"66C2181A6894156F"
+				"631948B88104F0EE"
+				"293DFA8FC0AB56B2"
+				"7FD95526C24BE930"
+				"622FE58A9C3FC7D4"
+				"3360B0D2FA7BF818"
+				"0AB743EB892B9E5E"
+				"3832F3B05E54291D"
+				"66811B9B0E40FC24"
+				"3DC4AE7D12F9696F"
+				"289DCB5F6D7783EB"
+				"0E9DC7E200391092"
+				"7819D6778CED5E73"
+				"2228F0AE234381BB"
+				"1909D8D933F42EA4"
+				"1088B7EDD1A6F965"
+				"4FB812524C54D593"
+				"6F1566B5FDE648E5"
+				"3AC171F323D196EA"
+				"0F2DBCE85D0358E6"
+				"287D31C0CC6F02D9"
+				"0FE73E1AF68243F3"
+				"1851A298F732435F"
+				"159D6ED55C7F1DA0"
+				"0D1364545B5BACC5"
+				"1F94FCA405E6A49D"
+				"79B9D86F2E4FB87D"
+				"0C221FADA3DA96FE"
+			]
+			description: ["Toutes les pièces et tous les ensembles de ce chapitre."]
+			icon: "minecraft:netherite_chestplate"
 			id: "67F00C606E1CE41F"
 			optional: true
 			rewards: [{
@@ -4326,14 +3930,40 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "182645FE823358A1"
-				title: "Chapitre complet"
+				id: "57CD81C9427A6E9F"
+				title: "Collection complète"
 				type: "checkmark"
 			}]
 			title: "&7Tout le chapitre"
+			x: 18.0d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"67F00C606E1CE41F"
+				"6A34E50C2C716ADC"
+				"10F88878894F8D74"
+			]
+			description: ["Les trois chapitres de l'Armurerie complets : chaque pièce d'armure du pack que ce serveur permet d'obtenir."]
+			icon: "minecraft:netherite_chestplate"
+			id: "47C9C3CBE1206BF4"
+			optional: true
+			rewards: [{
+				id: "64067E3EEFA110E8"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3764FFECFF18140C"
+				title: "Toute l'Armurerie"
+				type: "checkmark"
+			}]
+			title: "&c&lToute l'Armurerie"
 			x: 25.5d
 			y: 0.0d
 		}
 	]
-	title: "&cArmurerie"
+	title: "&cArmurerie — base et aventure"
 }

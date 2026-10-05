@@ -1,0 +1,1252 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_haches"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_axe"
+	id: "10BEE0384F74072D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque hache du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là."]
+			icon: "minecraft:iron_axe"
+			id: "41651E27A41EB822"
+			rewards: [{
+				id: "5092F1F31FCF53C1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0496F1F07B7256F0"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Haches"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_axe"
+			id: "6C0126B8F05EA2C5"
+			optional: true
+			rewards: [{
+				id: "6FFFB5962C9748FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "179CE427F1D96376"
+				item: "minecraft:diamond_axe"
+				type: "item"
+			}]
+			title: "Hache en diamant"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_axe"
+			id: "045C1985B4972DF6"
+			optional: true
+			rewards: [{
+				id: "235B0CB3495CFAAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C69511D5E9BB5F3"
+				item: "minecraft:golden_axe"
+				type: "item"
+			}]
+			title: "Hache en or"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_axe"
+			id: "71F447EFFDEEA810"
+			optional: true
+			rewards: [{
+				id: "244851C0AC43BA5D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1854127C259A56C7"
+				item: "minecraft:iron_axe"
+				type: "item"
+			}]
+			title: "Hache en fer"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_axe"
+			id: "0D67F8A034D76512"
+			optional: true
+			rewards: [{
+				id: "26F96F328B6FECB0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7466B6FEE69E1D8F"
+				item: "minecraft:netherite_axe"
+				type: "item"
+			}]
+			title: "Hache en netherite"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:stone_axe"
+			id: "12551468A2F25D54"
+			optional: true
+			rewards: [{
+				id: "36AFBE593F92D761"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "762463A651FE3351"
+				item: "minecraft:stone_axe"
+				type: "item"
+			}]
+			title: "Hache en pierre"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:wooden_axe"
+			id: "30CA66D638D7B9E8"
+			optional: true
+			rewards: [{
+				id: "18742C64927B4957"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5043FA2C08285358"
+				item: "minecraft:wooden_axe"
+				type: "item"
+			}]
+			title: "Hache en bois"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_diamond_axe"
+			id: "2CAA50FC229ADD35"
+			optional: true
+			rewards: [{
+				id: "16FB5C182D65A393"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EAC57619707CE20"
+				item: "advancednetherite:netherite_diamond_axe"
+				type: "item"
+			}]
+			title: "« Netherite-Diamond Axe »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_emerald_axe"
+			id: "6325083639A7D110"
+			optional: true
+			rewards: [{
+				id: "4954CF4C4DDAA558"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7259BA0A169BF398"
+				item: "advancednetherite:netherite_emerald_axe"
+				type: "item"
+			}]
+			title: "« Netherite-Emerald Axe »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_gold_axe"
+			id: "5F5BC34691E66B29"
+			optional: true
+			rewards: [{
+				id: "691FACF118D129B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24D0642124612663"
+				item: "advancednetherite:netherite_gold_axe"
+				type: "item"
+			}]
+			title: "« Netherite-Gold Axe »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_iron_axe"
+			id: "7D7B25C06C8E6DE5"
+			optional: true
+			rewards: [{
+				id: "4C3EFE97BDACED31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "596867C841A6A051"
+				item: "advancednetherite:netherite_iron_axe"
+				type: "item"
+			}]
+			title: "« Netherite-Iron Axe »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_axe"
+			id: "018A2B776B6CA32F"
+			optional: true
+			rewards: [{
+				id: "0BAB4F10C32820B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2465B4AA4ABE709C"
+				item: "aether:gravitite_axe"
+				type: "item"
+			}]
+			title: "« Gravitite Axe »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:holystone_axe"
+			id: "408DE54A9940466F"
+			optional: true
+			rewards: [{
+				id: "3B0F072D0A36F99D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A8F01E2C2E0D22E"
+				item: "aether:holystone_axe"
+				type: "item"
+			}]
+			title: "« Holystone Axe »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:skyroot_axe"
+			id: "5105DE709DD83722"
+			optional: true
+			rewards: [{
+				id: "3CB155157CED8952"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D25B8DE4FC71C99"
+				item: "aether:skyroot_axe"
+				type: "item"
+			}]
+			title: "« Skyroot Axe »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_axe"
+			id: "678258FB5B77BA84"
+			optional: true
+			rewards: [{
+				id: "7C8725EA75E4093A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60C90C41A73B093E"
+				item: "aether:valkyrie_axe"
+				type: "item"
+			}]
+			title: "« Valkyrie Axe »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_axe"
+			id: "4A042093A5E8DAA9"
+			optional: true
+			rewards: [{
+				id: "2C34F2D4581A4036"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38955D6C2CE22978"
+				item: "aether:zanite_axe"
+				type: "item"
+			}]
+			title: "« Zanite Axe »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:infused_veridium_axe"
+			id: "62EBB11CA50373B5"
+			optional: true
+			rewards: [{
+				id: "7B0423EF8FC5C75D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D1C14015000FD70"
+				item: "aether_redux:infused_veridium_axe"
+				type: "item"
+			}]
+			title: "« Infused Veridium Axe »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Hache de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:veridium_axe"
+			id: "02EED572D31A217D"
+			optional: true
+			rewards: [{
+				id: "09E7415C09436388"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "155C932F36E17346"
+				item: "aether_redux:veridium_axe"
+				type: "item"
+			}]
+			title: "« Veridium Axe »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_axe"
+			id: "03346DFF572667CF"
+			optional: true
+			rewards: [{
+				id: "62BC0F1353B9F171"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A09E7EEAB2F72F3"
+				item: "betterend:aeternium_axe"
+				type: "item"
+			}]
+			title: "« Aeternium Axe »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_axe"
+			id: "70AFC60470932AAF"
+			optional: true
+			rewards: [{
+				id: "471D4546889F6DBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "341A4B35DE45AC30"
+				item: "betterend:terminite_axe"
+				type: "item"
+			}]
+			title: "« Terminite Axe »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_axe"
+			id: "2459EDD0DBEB1E5D"
+			optional: true
+			rewards: [{
+				id: "50D6AA3445A79202"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76F218D027F8D400"
+				item: "betterend:thallasium_axe"
+				type: "item"
+			}]
+			title: "« Thallasium Axe »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_axe"
+			id: "748987F5B0F7D3A4"
+			optional: true
+			rewards: [{
+				id: "402B8B0D36D3D4BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35BEF454F4F74346"
+				item: "betternether:cincinnasite_axe"
+				type: "item"
+			}]
+			title: "Hache en Cincinnasite"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_axe_diamond"
+			id: "67E3CA5543095FD7"
+			optional: true
+			rewards: [{
+				id: "20622AA2B164FDC6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "315268F4454B4997"
+				item: "betternether:cincinnasite_axe_diamond"
+				type: "item"
+			}]
+			title: "Hache en Cincinnasite diamantée"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_axe"
+			id: "17C1C159BD8FAA5D"
+			optional: true
+			rewards: [{
+				id: "621569911BEBE9B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E1ACA372CF9B00A"
+				item: "betternether:flaming_ruby_axe"
+				type: "item"
+			}]
+			title: "« Fireruby Axe »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_axe"
+			id: "5FBF975CEFFD516C"
+			optional: true
+			rewards: [{
+				id: "0121824853C8FECA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "761AF844C07EBF77"
+				item: "betternether:nether_ruby_axe"
+				type: "item"
+			}]
+			title: "Nether Ruby Axe"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_axe"
+			id: "3C0AA2E7BBAA7656"
+			optional: true
+			rewards: [{
+				id: "1226A580FC4B9345"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39394A1175866B3B"
+				item: "blue_skies:aquite_axe"
+				type: "item"
+			}]
+			title: "Hache en aquite"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:bluebright_axe"
+			id: "05A403FE24D1B0EF"
+			optional: true
+			rewards: [{
+				id: "5316D76EFA10AABB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "707D31BCDCB0A8F4"
+				item: "blue_skies:bluebright_axe"
+				type: "item"
+			}]
+			title: "Hache en bois de lumibleu"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_axe"
+			id: "7E668D30D4DC80C4"
+			optional: true
+			rewards: [{
+				id: "0DBE4E2FB5A79A3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C77B7BCA981BD6A"
+				item: "blue_skies:charoite_axe"
+				type: "item"
+			}]
+			title: "Hache en charoite"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:comet_axe"
+			id: "0CFC972F7EA27119"
+			optional: true
+			rewards: [{
+				id: "59B095FA16E4A3B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75343093CEFC4E61"
+				item: "blue_skies:comet_axe"
+				type: "item"
+			}]
+			title: "« Comet Wood Axe »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_axe"
+			id: "48EABC13866D8B8E"
+			optional: true
+			rewards: [{
+				id: "05F558A0386024CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "197D64E052BEC3C3"
+				item: "blue_skies:diopside_axe"
+				type: "item"
+			}]
+			title: "Hache en diopside"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:dusk_axe"
+			id: "66D5B216F950AF49"
+			optional: true
+			rewards: [{
+				id: "5EA190AAEC4AC9ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0CDA2C82D24B0569"
+				item: "blue_skies:dusk_axe"
+				type: "item"
+			}]
+			title: "Hache en crépuscubois"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:frostbright_axe"
+			id: "2B1CE6716A4FA336"
+			optional: true
+			rewards: [{
+				id: "5B7C4BA223CDB72F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4504880E8949DD5C"
+				item: "blue_skies:frostbright_axe"
+				type: "item"
+			}]
+			title: "Hache en bois de nifrisque"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_axe"
+			id: "75F8FEF1477B4960"
+			optional: true
+			rewards: [{
+				id: "0595558F3F22E90B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C4DFED0111598C1"
+				item: "blue_skies:horizonite_axe"
+				type: "item"
+			}]
+			title: "Hache en horizonite"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_axe"
+			id: "701A57134F24F15A"
+			optional: true
+			rewards: [{
+				id: "067A7C8458197828"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4748F55D5AE98B78"
+				item: "blue_skies:lunar_axe"
+				type: "item"
+			}]
+			title: "Hache lunaire"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_stone_axe"
+			id: "4C2382DB6DC9A0DD"
+			optional: true
+			rewards: [{
+				id: "261480525026AC32"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36DDFBB2048291B7"
+				item: "blue_skies:lunar_stone_axe"
+				type: "item"
+			}]
+			title: "Hache en pierre lunaire"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:maple_axe"
+			id: "0764B54405F7C883"
+			optional: true
+			rewards: [{
+				id: "27C6184A26C06E81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E4829C11254B892"
+				item: "blue_skies:maple_axe"
+				type: "item"
+			}]
+			title: "Hache en bois d'érable"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_axe"
+			id: "5A5445974CC99037"
+			optional: true
+			rewards: [{
+				id: "5113AE94B85A662F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3654DED799AB86CA"
+				item: "blue_skies:pyrope_axe"
+				type: "item"
+			}]
+			title: "Hache en pyrope"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:starlit_axe"
+			id: "016DB689AE5DCB9A"
+			optional: true
+			rewards: [{
+				id: "59793EA382160F41"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FB619F9BD43C7EB"
+				item: "blue_skies:starlit_axe"
+				type: "item"
+			}]
+			title: "Hache en étoilibois"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:turquoise_stone_axe"
+			id: "29C971CFE4BBAF5F"
+			optional: true
+			rewards: [{
+				id: "6F66EB32F2B5430D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36A7BE119148E322"
+				item: "blue_skies:turquoise_stone_axe"
+				type: "item"
+			}]
+			title: "Hache en pierre turquoise"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:black_steel_axe"
+			id: "7764CD7EEB6F1891"
+			optional: true
+			rewards: [{
+				id: "52AE7A6135D6D6F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7157C9009ADF05FB"
+				item: "cataclysm:black_steel_axe"
+				type: "item"
+			}]
+			title: "« Black Steel Axe »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_axe"
+			id: "411771DBD55CAB38"
+			optional: true
+			rewards: [{
+				id: "331A8E9C439C9BBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7347CC7376AE13CC"
+				item: "deep_aether:skyjade_axe"
+				type: "item"
+			}]
+			title: "« Skyjade Axe »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_axe"
+			id: "6D692D3D164F025B"
+			optional: true
+			rewards: [{
+				id: "22B92F05F008DDB7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B7E12674DAB9CFF"
+				item: "deep_aether:stratus_axe"
+				type: "item"
+			}]
+			title: "« Stratus Axe »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:resonarium_axe"
+			id: "6FB2CE128EEAD695"
+			optional: true
+			rewards: [{
+				id: "546238FCB86DF4DD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4152455DDD74742D"
+				item: "deeperdarker:resonarium_axe"
+				type: "item"
+			}]
+			title: "« Resonarium Axe »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:warden_axe"
+			id: "136F428B292E0D0E"
+			optional: true
+			rewards: [{
+				id: "4376B4178F7278E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "29258FF4038C56D3"
+				item: "deeperdarker:warden_axe"
+				type: "item"
+			}]
+			title: "Hache du Warden"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_axe"
+			id: "61985A2B612BAEA2"
+			optional: true
+			rewards: [{
+				id: "0DB5607F8B493FCD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E4D628805B73D7A"
+				item: "dragonloot:dragon_axe"
+				type: "item"
+			}]
+			title: "« Dragon Axe »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bMowzie's Mobs&r. Ses paliers sont au chapitre &7Mowzie's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "mowziesmobs:wrought_axe"
+			id: "42B7B9E333F296A9"
+			optional: true
+			rewards: [{
+				id: "3584ED561B5AEAB3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E614FDFAADD3C8D"
+				item: "mowziesmobs:wrought_axe"
+				type: "item"
+			}]
+			title: "Hache des milles métaux"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_axe"
+			id: "2BBB5FA721F98D25"
+			optional: true
+			rewards: [{
+				id: "30C5FE4CF3817C64"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F9B2386D3263A29"
+				item: "mysticalagriculture:awakened_supremium_axe"
+				type: "item"
+			}]
+			title: "Hache en Supremium Éveillé"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_axe"
+			id: "77AE912B66C85961"
+			optional: true
+			rewards: [{
+				id: "5BCE89790C694FB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76FF5A6005D13A2F"
+				item: "mysticalagriculture:imperium_axe"
+				type: "item"
+			}]
+			title: "Hache en Imperium"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_axe"
+			id: "5E686CF124D0D7E8"
+			optional: true
+			rewards: [{
+				id: "2F0793F4E13475C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B9EDF42B73427F5"
+				item: "mysticalagriculture:inferium_axe"
+				type: "item"
+			}]
+			title: "Hache en Inferium"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_axe"
+			id: "39A520FF6842F958"
+			optional: true
+			rewards: [{
+				id: "6D764F7931D303D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FF7414FAFB5FB2A"
+				item: "mysticalagriculture:prudentium_axe"
+				type: "item"
+			}]
+			title: "Hache en Prudentium"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_axe"
+			id: "1C68D09AA24BD2B3"
+			optional: true
+			rewards: [{
+				id: "36F087DF54E769A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07090AFC9CB16E2B"
+				item: "mysticalagriculture:supremium_axe"
+				type: "item"
+			}]
+			title: "Hache en Supremium"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Hache de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_axe"
+			id: "372A118457F2692A"
+			optional: true
+			rewards: [{
+				id: "69FCE75518BA8EAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "02BCE5C88BC34F6A"
+				item: "mysticalagriculture:tertium_axe"
+				type: "item"
+			}]
+			title: "Hache en Tertium"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Hache de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_axe"
+			id: "7951C0053367452A"
+			optional: true
+			rewards: [{
+				id: "33655F1F8777FBB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21D179D89D0569A9"
+				item: "stalwart_dungeons:chorundum_axe"
+				type: "item"
+			}]
+			title: "« §eChorundum Axe »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Hache de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_axe"
+			id: "5B8F4BF47E4D858F"
+			optional: true
+			rewards: [{
+				id: "18C21E866FF12BD2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35F40E1F29F0480C"
+				item: "stalwart_dungeons:tungsten_axe"
+				type: "item"
+			}]
+			title: "« §eTungsten Axe »"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Hache de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:diamond_minotaur_axe"
+			id: "35B5DAA3A2714D62"
+			optional: true
+			rewards: [{
+				id: "003A53C4A3A218E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "121C4B389BC2B61F"
+				item: "twilightforest:diamond_minotaur_axe"
+				type: "item"
+			}]
+			title: "Hache en diamant du Minotaure"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Hache de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_axe"
+			id: "7C25AC9DCFCDAE49"
+			optional: true
+			rewards: [{
+				id: "48DF140F1E4249F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31FD66A906EDDC36"
+				item: "twilightforest:ironwood_axe"
+				type: "item"
+			}]
+			title: "Hache en bois de fer"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Hache de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:knightmetal_axe"
+			id: "68FB43033C3C867B"
+			optional: true
+			rewards: [{
+				id: "40422D63BCC7B45B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BB3C653752AEF1E"
+				item: "twilightforest:knightmetal_axe"
+				type: "item"
+			}]
+			title: "Hache chevaleresque"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Hache de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_axe"
+			id: "154D77377113B2DB"
+			optional: true
+			rewards: [{
+				id: "00F3C0D69DD77205"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3005773479A151F8"
+				item: "twilightforest:steeleaf_axe"
+				type: "item"
+			}]
+			title: "Hache en Stealeaf"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"6C0126B8F05EA2C5"
+				"045C1985B4972DF6"
+				"71F447EFFDEEA810"
+				"0D67F8A034D76512"
+				"12551468A2F25D54"
+				"30CA66D638D7B9E8"
+				"2CAA50FC229ADD35"
+				"6325083639A7D110"
+				"5F5BC34691E66B29"
+				"7D7B25C06C8E6DE5"
+				"018A2B776B6CA32F"
+				"408DE54A9940466F"
+				"5105DE709DD83722"
+				"678258FB5B77BA84"
+				"4A042093A5E8DAA9"
+				"62EBB11CA50373B5"
+				"02EED572D31A217D"
+				"03346DFF572667CF"
+				"70AFC60470932AAF"
+				"2459EDD0DBEB1E5D"
+				"748987F5B0F7D3A4"
+				"67E3CA5543095FD7"
+				"17C1C159BD8FAA5D"
+				"5FBF975CEFFD516C"
+				"3C0AA2E7BBAA7656"
+				"05A403FE24D1B0EF"
+				"7E668D30D4DC80C4"
+				"0CFC972F7EA27119"
+				"48EABC13866D8B8E"
+				"66D5B216F950AF49"
+				"2B1CE6716A4FA336"
+				"75F8FEF1477B4960"
+				"701A57134F24F15A"
+				"4C2382DB6DC9A0DD"
+				"0764B54405F7C883"
+				"5A5445974CC99037"
+				"016DB689AE5DCB9A"
+				"29C971CFE4BBAF5F"
+				"7764CD7EEB6F1891"
+				"411771DBD55CAB38"
+				"6D692D3D164F025B"
+				"6FB2CE128EEAD695"
+				"136F428B292E0D0E"
+				"61985A2B612BAEA2"
+				"42B7B9E333F296A9"
+				"2BBB5FA721F98D25"
+				"77AE912B66C85961"
+				"5E686CF124D0D7E8"
+				"39A520FF6842F958"
+				"1C68D09AA24BD2B3"
+				"372A118457F2692A"
+				"7951C0053367452A"
+				"5B8F4BF47E4D858F"
+				"35B5DAA3A2714D62"
+				"7C25AC9DCFCDAE49"
+				"68FB43033C3C867B"
+				"154D77377113B2DB"
+			]
+			description: ["Toutes les haches de ce chapitre réunies."]
+			icon: "minecraft:netherite_axe"
+			id: "2E435F8BA280A1A4"
+			optional: true
+			rewards: [{
+				id: "7C6C2A0B620D275A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2DE7983C37406321"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Toutes les haches"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&7Haches"
+}

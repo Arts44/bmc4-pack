@@ -260,7 +260,7 @@
 		}
 		{
 			dependencies: ["0BD072A26E03CBB1"]
-			description: ["Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : &l2 aciers énergisés&r. Premier produit de l'orbe, et matière du palier Basic."]
+			description: ["Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : &l2 aciers énergisés&r. Premier produit de l'orbe, et matière du palier renforcé."]
 			icon: "powah:steel_energized"
 			id: "42D400E140CD9FA9"
 			rewards: [{
@@ -446,165 +446,966 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["66CC127941885908"]
-			description: ["Chaque appareil de Powah existe en sept paliers : départ, basique, renforcé, ardent, niotique, spirituel, nitro. On monte d'un palier en fabriquant l'appareil avec celui du palier d'avant, un condensateur et le matériau du palier."]
-			icon: "powah:energy_cell_basic"
-			id: "2E3C4D9421CD4547"
+			dependencies: ["1D0116FCA0DE5185"]
+			description: ["Le condensateur du palier basique, avec du fer. Il entre dans chaque appareil de ce palier."]
+			icon: "powah:capacitor_basic"
+			id: "1D5C72C553B94186"
 			optional: true
 			rewards: [{
-				id: "5361867C7DFBAB3C"
+				id: "2D809D13211A1B03"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "7E3D6F2724CAF5CD"
-				item: "powah:energy_cell_basic"
+				id: "50E504D153C29D32"
+				item: "powah:capacitor_basic"
 				type: "item"
 			}]
-			title: "Une cellule basique"
-			x: 8.0d
+			title: "Un condensateur basique"
+			x: 6.0d
 			y: 5.75d
 		}
 		{
 			dependencies: [
-				"2E3C4D9421CD4547"
-				"42D400E140CD9FA9"
+				"1055A62F75434466"
+				"4A0A4602E1D67FA6"
+				"4A752680F9A82B58"
+				"213A3F84E7BB57F9"
+				"38D0ED540B824946"
+				"1D5C72C553B94186"
 			]
-			icon: "powah:energy_cell_hardened"
-			id: "4FBDABDE045B7827"
+			description: ["Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier basique : chacun à partir du même générateur du palier d'avant."]
+			icon: "powah:furnator_basic"
+			id: "79FA902F4EE4F939"
 			optional: true
 			rewards: [{
-				id: "081CED82B40692C4"
+				id: "6F5DD015EBB10502"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 5
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "69BFF6513D892D79"
-				item: "powah:energy_cell_hardened"
-				type: "item"
-			}]
-			title: "Une cellule renforcée"
+			tasks: [
+				{
+					id: "4756656E3E697F9D"
+					item: "powah:furnator_basic"
+					type: "item"
+				}
+				{
+					id: "011648CB0A4D2C58"
+					item: "powah:magmator_basic"
+					type: "item"
+				}
+				{
+					id: "06D54B2DD23C3549"
+					item: "powah:thermo_generator_basic"
+					type: "item"
+				}
+				{
+					id: "6D6D5D4EAD7FDFD7"
+					item: "powah:solar_panel_basic"
+					type: "item"
+				}
+				{
+					id: "60C92F64F8A4B061"
+					item: "powah:reactor_basic"
+					type: "item"
+				}
+			]
+			title: "Les générateurs basiques"
 			x: 10.0d
 			y: 5.75d
 		}
 		{
 			dependencies: [
-				"4FBDABDE045B7827"
-				"181A1C80D41146D6"
+				"66CC127941885908"
+				"113C9994E6E483FB"
+				"4F5405A031DBA4AA"
+				"1D5C72C553B94186"
 			]
-			icon: "powah:energy_cell_blazing"
-			id: "03D43A4E634002FF"
+			description: ["Cellule d'énergie, batterie et câbles du palier basique."]
+			icon: "powah:energy_cell_basic"
+			id: "2E3C4D9421CD4547"
 			optional: true
 			rewards: [{
-				id: "25CC07466B7ADAF5"
+				id: "7ABA1EF126F7AC64"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7E3D6F2724CAF5CD"
+					item: "powah:energy_cell_basic"
+					type: "item"
+				}
+				{
+					id: "7175C8B5428FE6C8"
+					item: "powah:battery_basic"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "78BD747CB5D6EF92"
+					item: "powah:energy_cable_basic"
+					type: "item"
+				}
+			]
+			title: "Le stockage basique"
+			x: 10.0d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"0BD072A26E03CBB1"
+				"0E233F31D10840FC"
+				"1FD8BBA6E3F1AC8A"
+				"5FC01F8BFFF88E87"
+				"207F23951E196AE6"
+				"1D5C72C553B94186"
+			]
+			description: ["Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier basique."]
+			icon: "powah:energizing_rod_basic"
+			id: "4EE7215FBCBF3062"
+			optional: true
+			rewards: [{
+				id: "1B1741CD3C2E8DA1"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3B166894E867F693"
+					item: "powah:energizing_rod_basic"
+					type: "item"
+				}
+				{
+					id: "34D33EE392E39B89"
+					item: "powah:energy_hopper_basic"
+					type: "item"
+				}
+				{
+					id: "00FE03899A743F70"
+					item: "powah:energy_discharger_basic"
+					type: "item"
+				}
+				{
+					id: "45B36EADCDF0F49E"
+					item: "powah:player_transmitter_basic"
+					type: "item"
+				}
+				{
+					id: "5BDE96B0EAD49635"
+					item: "powah:ender_cell_basic"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49F3558100580EB7"
+					item: "powah:ender_gate_basic"
+					type: "item"
+				}
+			]
+			title: "Le réseau basique"
+			x: 10.0d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"1D5C72C553B94186"
+				"42D400E140CD9FA9"
+			]
+			description: ["Le condensateur du palier renforcé, avec de l'acier énergisé. Il entre dans chaque appareil de ce palier."]
+			icon: "powah:capacitor_hardened"
+			id: "1ECAC6054281682D"
+			optional: true
+			rewards: [{
+				id: "13DE24D330E920CC"
+				type: "xp_levels"
+				xp_levels: 4
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "35B787DEDF2B7E90"
-				item: "powah:energy_cell_blazing"
+				id: "6027523267E6882D"
+				item: "powah:capacitor_hardened"
 				type: "item"
 			}]
-			title: "Une cellule ardente"
+			title: "Un condensateur renforcé"
+			x: 10.0d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"79FA902F4EE4F939"
+				"1ECAC6054281682D"
+			]
+			description: ["Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier renforcé : chacun à partir du même générateur du palier d'avant."]
+			icon: "powah:furnator_hardened"
+			id: "79C2394908A0FE9D"
+			optional: true
+			rewards: [{
+				id: "1AB352954E1CAB28"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0A55E8CB91BF97C9"
+					item: "powah:furnator_hardened"
+					type: "item"
+				}
+				{
+					id: "1E0C1F14F764B12A"
+					item: "powah:magmator_hardened"
+					type: "item"
+				}
+				{
+					id: "1F63FA1667B3CF56"
+					item: "powah:thermo_generator_hardened"
+					type: "item"
+				}
+				{
+					id: "5F0856533A9B67A1"
+					item: "powah:solar_panel_hardened"
+					type: "item"
+				}
+				{
+					id: "362728315243385A"
+					item: "powah:reactor_hardened"
+					type: "item"
+				}
+			]
+			title: "Les générateurs renforcés"
 			x: 12.0d
 			y: 5.75d
 		}
 		{
 			dependencies: [
-				"03D43A4E634002FF"
-				"2EDA49758A060F05"
+				"2E3C4D9421CD4547"
+				"1ECAC6054281682D"
 			]
-			icon: "powah:energy_cell_niotic"
-			id: "3EF46C2C4331EAF8"
+			description: ["Cellule d'énergie, batterie et câbles du palier renforcé."]
+			icon: "powah:energy_cell_hardened"
+			id: "4FBDABDE045B7827"
 			optional: true
 			rewards: [{
-				id: "7F9FDC845880A22B"
+				id: "73711696214D7357"
 				type: "xp_levels"
 				xp_levels: 6
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "187F366BFB7AE271"
-				item: "powah:energy_cell_niotic"
-				type: "item"
-			}]
-			title: "Une cellule niotique"
-			x: 14.0d
-			y: 5.75d
+			tasks: [
+				{
+					id: "69BFF6513D892D79"
+					item: "powah:energy_cell_hardened"
+					type: "item"
+				}
+				{
+					id: "0B084F16D4ED3B83"
+					item: "powah:battery_hardened"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "033D68F4A025146C"
+					item: "powah:energy_cable_hardened"
+					type: "item"
+				}
+			]
+			title: "Le stockage renforcé"
+			x: 12.0d
+			y: 7.25d
 		}
 		{
 			dependencies: [
-				"3EF46C2C4331EAF8"
-				"6259524E587B52F1"
+				"4EE7215FBCBF3062"
+				"1ECAC6054281682D"
 			]
-			icon: "powah:energy_cell_spirited"
-			id: "0881E8363A99025C"
+			description: ["Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier renforcé."]
+			icon: "powah:energizing_rod_hardened"
+			id: "60672280E0869951"
 			optional: true
 			rewards: [{
-				id: "7106242F3C6F22D2"
+				id: "6D68D0B98E24565A"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 6
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "1751A4E4A5919661"
-				item: "powah:energy_cell_spirited"
-				type: "item"
-			}]
-			title: "Une cellule spirituelle"
-			x: 16.0d
-			y: 5.75d
+			tasks: [
+				{
+					id: "3AAB89D2A71F13C9"
+					item: "powah:energizing_rod_hardened"
+					type: "item"
+				}
+				{
+					id: "7A975DDD5A87875D"
+					item: "powah:energy_hopper_hardened"
+					type: "item"
+				}
+				{
+					id: "3E69CAE1CFDBFC94"
+					item: "powah:energy_discharger_hardened"
+					type: "item"
+				}
+				{
+					id: "33EAB34FFA9A4AE9"
+					item: "powah:player_transmitter_hardened"
+					type: "item"
+				}
+				{
+					id: "49999057A03F2486"
+					item: "powah:ender_cell_hardened"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "672D44096FD83D47"
+					item: "powah:ender_gate_hardened"
+					type: "item"
+				}
+			]
+			title: "Le réseau renforcé"
+			x: 12.0d
+			y: 8.75d
 		}
 		{
 			dependencies: [
-				"0881E8363A99025C"
-				"79CCDC404D921F4F"
+				"1ECAC6054281682D"
+				"181A1C80D41146D6"
 			]
-			icon: "powah:energy_cell_nitro"
-			id: "555995DC3F443169"
+			description: ["Le condensateur du palier ardent, avec des cristaux Blazing. Il entre dans chaque appareil de ce palier."]
+			icon: "powah:capacitor_blazing"
+			id: "408CDEA2DF45D921"
 			optional: true
 			rewards: [{
-				id: "524482DDEEC18DBA"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
-			shape: "hexagon"
-			size: 1.3d
-			tasks: [{
-				id: "0AEEAB588022EFC4"
-				item: "powah:energy_cell_nitro"
-				type: "item"
-			}]
-			title: "Une cellule nitro"
-			x: 18.0d
-			y: 5.75d
-		}
-		{
-			dependencies: [
-				"555995DC3F443169"
-				"113C9994E6E483FB"
-			]
-			icon: "powah:energy_cable_nitro"
-			id: "7FA3C654FDD174F1"
-			optional: true
-			rewards: [{
-				id: "291EFA9427DC5E6D"
+				id: "410CA0DC73412DAA"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
 			shape: "hexagon"
 			tasks: [{
-				count: 8L
-				id: "45C3F9A1C05F372A"
-				item: "powah:energy_cable_nitro"
+				id: "20FD3F41B116C9A5"
+				item: "powah:capacitor_blazing"
 				type: "item"
 			}]
-			title: "Des câbles nitro"
+			title: "Un condensateur ardent"
+			x: 12.0d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"79C2394908A0FE9D"
+				"408CDEA2DF45D921"
+			]
+			description: ["Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier ardent : chacun à partir du même générateur du palier d'avant."]
+			icon: "powah:furnator_blazing"
+			id: "238D647C33E60AEA"
+			optional: true
+			rewards: [{
+				id: "4F5CE8B6A01E36E9"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2A041AD9B2C52617"
+					item: "powah:furnator_blazing"
+					type: "item"
+				}
+				{
+					id: "6CAB116AF40F6079"
+					item: "powah:magmator_blazing"
+					type: "item"
+				}
+				{
+					id: "13C4C95E97A65923"
+					item: "powah:thermo_generator_blazing"
+					type: "item"
+				}
+				{
+					id: "1E8EC181D8665DD1"
+					item: "powah:solar_panel_blazing"
+					type: "item"
+				}
+				{
+					id: "090A1E5B154548EB"
+					item: "powah:reactor_blazing"
+					type: "item"
+				}
+			]
+			title: "Les générateurs ardents"
+			x: 14.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"4FBDABDE045B7827"
+				"408CDEA2DF45D921"
+			]
+			description: ["Cellule d'énergie, batterie et câbles du palier ardent."]
+			icon: "powah:energy_cell_blazing"
+			id: "03D43A4E634002FF"
+			optional: true
+			rewards: [{
+				id: "5F63FCD2AFEC0409"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "35B787DEDF2B7E90"
+					item: "powah:energy_cell_blazing"
+					type: "item"
+				}
+				{
+					id: "167B57EB57C4AEB0"
+					item: "powah:battery_blazing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1992AC7BCA7984CA"
+					item: "powah:energy_cable_blazing"
+					type: "item"
+				}
+			]
+			title: "Le stockage ardent"
+			x: 14.0d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"60672280E0869951"
+				"408CDEA2DF45D921"
+			]
+			description: ["Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier ardent."]
+			icon: "powah:energizing_rod_blazing"
+			id: "0F8CE4821355FFE7"
+			optional: true
+			rewards: [{
+				id: "2D021DD98E5C5EB9"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "15B29A5E22C14C47"
+					item: "powah:energizing_rod_blazing"
+					type: "item"
+				}
+				{
+					id: "79CD14D5F6F61DEA"
+					item: "powah:energy_hopper_blazing"
+					type: "item"
+				}
+				{
+					id: "4B8F83BB9E8CF053"
+					item: "powah:energy_discharger_blazing"
+					type: "item"
+				}
+				{
+					id: "1F311BD6BC086938"
+					item: "powah:player_transmitter_blazing"
+					type: "item"
+				}
+				{
+					id: "7AB68D6DB8B53D60"
+					item: "powah:ender_cell_blazing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4EE9F0A83C0FFBB5"
+					item: "powah:ender_gate_blazing"
+					type: "item"
+				}
+			]
+			title: "Le réseau ardent"
+			x: 14.0d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"408CDEA2DF45D921"
+				"2EDA49758A060F05"
+			]
+			description: ["Le condensateur du palier niotique, avec des cristaux niotiques. Il entre dans chaque appareil de ce palier."]
+			icon: "powah:capacitor_niotic"
+			id: "68A5A2A3A464C30B"
+			optional: true
+			rewards: [{
+				id: "54725027EE3FDB7E"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "30496FE8FD5DE4F5"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
+			title: "Un condensateur niotique"
+			x: 14.0d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"238D647C33E60AEA"
+				"68A5A2A3A464C30B"
+			]
+			description: ["Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier niotique : chacun à partir du même générateur du palier d'avant."]
+			icon: "powah:furnator_niotic"
+			id: "5929182CA9806E87"
+			optional: true
+			rewards: [{
+				id: "1CA221A6527B9002"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3886668273C4AA05"
+					item: "powah:furnator_niotic"
+					type: "item"
+				}
+				{
+					id: "632F3A057D0B63FA"
+					item: "powah:magmator_niotic"
+					type: "item"
+				}
+				{
+					id: "7331A6A59487D77F"
+					item: "powah:thermo_generator_niotic"
+					type: "item"
+				}
+				{
+					id: "4863B7247F746731"
+					item: "powah:solar_panel_niotic"
+					type: "item"
+				}
+				{
+					id: "3C71AD97CA547F07"
+					item: "powah:reactor_niotic"
+					type: "item"
+				}
+			]
+			title: "Les générateurs niotiques"
+			x: 16.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"03D43A4E634002FF"
+				"68A5A2A3A464C30B"
+			]
+			description: ["Cellule d'énergie, batterie et câbles du palier niotique."]
+			icon: "powah:energy_cell_niotic"
+			id: "3EF46C2C4331EAF8"
+			optional: true
+			rewards: [{
+				id: "67725F3CBF033FBD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "187F366BFB7AE271"
+					item: "powah:energy_cell_niotic"
+					type: "item"
+				}
+				{
+					id: "4A52C5D1C42BC53B"
+					item: "powah:battery_niotic"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0E4C8C2A46E99FB8"
+					item: "powah:energy_cable_niotic"
+					type: "item"
+				}
+			]
+			title: "Le stockage niotique"
+			x: 16.0d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"0F8CE4821355FFE7"
+				"68A5A2A3A464C30B"
+			]
+			description: ["Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier niotique."]
+			icon: "powah:energizing_rod_niotic"
+			id: "67DBA1DF88173863"
+			optional: true
+			rewards: [{
+				id: "17C49CCCEECF0AA8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "43F17D167AF8CC50"
+					item: "powah:energizing_rod_niotic"
+					type: "item"
+				}
+				{
+					id: "6907D631AAE3AF59"
+					item: "powah:energy_hopper_niotic"
+					type: "item"
+				}
+				{
+					id: "25FA37602B4FAB65"
+					item: "powah:energy_discharger_niotic"
+					type: "item"
+				}
+				{
+					id: "21FAF358DA013799"
+					item: "powah:player_transmitter_niotic"
+					type: "item"
+				}
+				{
+					id: "175B425E3AA19C45"
+					item: "powah:ender_cell_niotic"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2917F1CDCF478756"
+					item: "powah:ender_gate_niotic"
+					type: "item"
+				}
+			]
+			title: "Le réseau niotique"
+			x: 16.0d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"68A5A2A3A464C30B"
+				"6259524E587B52F1"
+			]
+			description: ["Le condensateur du palier spirituel, avec des cristaux spirituels. Il entre dans chaque appareil de ce palier."]
+			icon: "powah:capacitor_spirited"
+			id: "256109D3CC23ED1C"
+			optional: true
+			rewards: [{
+				id: "36B6551838492E5F"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C2C92E3251A5472"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
+			title: "Un condensateur spirituel"
+			x: 16.0d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"5929182CA9806E87"
+				"256109D3CC23ED1C"
+			]
+			description: ["Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier spirituel : chacun à partir du même générateur du palier d'avant."]
+			icon: "powah:furnator_spirited"
+			id: "6F2D8E0B1E2E7886"
+			optional: true
+			rewards: [{
+				id: "4E8EE615525B2C78"
+				type: "xp_levels"
+				xp_levels: 13
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "72FCAB8007C037CA"
+					item: "powah:furnator_spirited"
+					type: "item"
+				}
+				{
+					id: "372C47C75F736F0B"
+					item: "powah:magmator_spirited"
+					type: "item"
+				}
+				{
+					id: "22B3D0EEED91EEF8"
+					item: "powah:thermo_generator_spirited"
+					type: "item"
+				}
+				{
+					id: "22156CE837F9B5EE"
+					item: "powah:solar_panel_spirited"
+					type: "item"
+				}
+				{
+					id: "5555A1E521FE7B9B"
+					item: "powah:reactor_spirited"
+					type: "item"
+				}
+			]
+			title: "Les générateurs spirituels"
+			x: 18.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"3EF46C2C4331EAF8"
+				"256109D3CC23ED1C"
+			]
+			description: ["Cellule d'énergie, batterie et câbles du palier spirituel."]
+			icon: "powah:energy_cell_spirited"
+			id: "0881E8363A99025C"
+			optional: true
+			rewards: [{
+				id: "2DA6DFB0B61A1EA1"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1751A4E4A5919661"
+					item: "powah:energy_cell_spirited"
+					type: "item"
+				}
+				{
+					id: "611C3C80AB81477E"
+					item: "powah:battery_spirited"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2673F6021B1B9440"
+					item: "powah:energy_cable_spirited"
+					type: "item"
+				}
+			]
+			title: "Le stockage spirituel"
+			x: 18.0d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"67DBA1DF88173863"
+				"256109D3CC23ED1C"
+			]
+			description: ["Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier spirituel."]
+			icon: "powah:energizing_rod_spirited"
+			id: "5777BC2361ADF00E"
+			optional: true
+			rewards: [{
+				id: "2115A67A5A75B7D5"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6DBA4B1650CDC7A0"
+					item: "powah:energizing_rod_spirited"
+					type: "item"
+				}
+				{
+					id: "47DB212B0DB0CB9F"
+					item: "powah:energy_hopper_spirited"
+					type: "item"
+				}
+				{
+					id: "67C0F9995A1F9BD6"
+					item: "powah:energy_discharger_spirited"
+					type: "item"
+				}
+				{
+					id: "3B825444A795DC41"
+					item: "powah:player_transmitter_spirited"
+					type: "item"
+				}
+				{
+					id: "0A31BA4B44FB1BEA"
+					item: "powah:ender_cell_spirited"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "59BE3D5D4F5ECA72"
+					item: "powah:ender_gate_spirited"
+					type: "item"
+				}
+			]
+			title: "Le réseau spirituel"
+			x: 18.0d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"256109D3CC23ED1C"
+				"79CCDC404D921F4F"
+			]
+			description: ["Le condensateur du palier nitro, avec des cristaux nitro. Il entre dans chaque appareil de ce palier."]
+			icon: "powah:capacitor_nitro"
+			id: "70E6CF3BF3F0C3D4"
+			optional: true
+			rewards: [{
+				id: "16C00DA478873A09"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EFE6A0037C87CB9"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
+			title: "Un condensateur nitro"
+			x: 18.0d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"6F2D8E0B1E2E7886"
+				"70E6CF3BF3F0C3D4"
+			]
+			description: ["Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier nitro : chacun à partir du même générateur du palier d'avant. C'est le dernier palier de Powah."]
+			icon: "powah:furnator_nitro"
+			id: "68D5D150F57315A9"
+			optional: true
+			rewards: [{
+				id: "03950C39C20B745A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4AEF001A6E810298"
+					item: "powah:furnator_nitro"
+					type: "item"
+				}
+				{
+					id: "6529053CE55D5371"
+					item: "powah:magmator_nitro"
+					type: "item"
+				}
+				{
+					id: "696F8285964D9F4A"
+					item: "powah:thermo_generator_nitro"
+					type: "item"
+				}
+				{
+					id: "6C4FDED3F9954A1D"
+					item: "powah:solar_panel_nitro"
+					type: "item"
+				}
+				{
+					id: "767A9DFC3F4DDF80"
+					item: "powah:reactor_nitro"
+					type: "item"
+				}
+			]
+			title: "&eLes générateurs nitro"
 			x: 20.0d
 			y: 5.75d
+		}
+		{
+			dependencies: [
+				"0881E8363A99025C"
+				"70E6CF3BF3F0C3D4"
+			]
+			description: ["Cellule d'énergie, batterie et câbles du palier nitro."]
+			icon: "powah:energy_cell_nitro"
+			id: "555995DC3F443169"
+			optional: true
+			rewards: [{
+				id: "4C7969E9CE604FB5"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0AEEAB588022EFC4"
+					item: "powah:energy_cell_nitro"
+					type: "item"
+				}
+				{
+					id: "66797D06922826F1"
+					item: "powah:battery_nitro"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4298EB6EBF5EA6FF"
+					item: "powah:energy_cable_nitro"
+					type: "item"
+				}
+			]
+			title: "Le stockage nitro"
+			x: 20.0d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"5777BC2361ADF00E"
+				"70E6CF3BF3F0C3D4"
+			]
+			description: ["Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier nitro."]
+			icon: "powah:energizing_rod_nitro"
+			id: "5F610C18D4DB04A6"
+			optional: true
+			rewards: [{
+				id: "39DCCEBAE0B4FE51"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "10D5A21808A749DF"
+					item: "powah:energizing_rod_nitro"
+					type: "item"
+				}
+				{
+					id: "7D5C59FADEC07D02"
+					item: "powah:energy_hopper_nitro"
+					type: "item"
+				}
+				{
+					id: "307CE8C846626091"
+					item: "powah:energy_discharger_nitro"
+					type: "item"
+				}
+				{
+					id: "35C09E10822362E1"
+					item: "powah:player_transmitter_nitro"
+					type: "item"
+				}
+				{
+					id: "0B60CF901901B2D5"
+					item: "powah:ender_cell_nitro"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "29F24075D9CF1090"
+					item: "powah:ender_gate_nitro"
+					type: "item"
+				}
+			]
+			title: "Le réseau nitro"
+			x: 20.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["66CC127941885908"]
@@ -625,7 +1426,7 @@
 			}]
 			title: "Un transmetteur personnel"
 			x: 8.0d
-			y: 7.25d
+			y: 5.75d
 		}
 		{
 			dependencies: ["66CC127941885908"]
@@ -646,7 +1447,7 @@
 			}]
 			title: "Une batterie"
 			x: 8.0d
-			y: 8.75d
+			y: 7.25d
 		}
 		{
 			dependencies: ["66CC127941885908"]
@@ -667,7 +1468,7 @@
 			}]
 			title: "Un entonnoir énergétique"
 			x: 8.0d
-			y: 10.25d
+			y: 8.75d
 		}
 		{
 			dependencies: ["66CC127941885908"]
@@ -688,7 +1489,7 @@
 			}]
 			title: "Un déchargeur"
 			x: 8.0d
-			y: 11.75d
+			y: 10.25d
 		}
 	]
 	title: "&ePowah — l'énergie"

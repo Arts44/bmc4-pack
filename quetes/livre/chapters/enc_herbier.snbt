@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion."]
+			description: ["Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion. Les paliers d'essence, d'équipement et d'augments sont au chapitre Mystical Agriculture."]
 			icon: "mysticalagriculture:inferium_seeds"
 			id: "69A59E566A4D22A9"
 			rewards: [{
@@ -69,26 +69,6 @@
 		}
 		{
 			description: ["Graine de &aMystical Agriculture&r."]
-			icon: "mysticalagriculture:basalt_seeds"
-			id: "28E9E1D460D627DB"
-			optional: true
-			rewards: [{
-				id: "5B4D94BD5D3C68CA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0C2EF4DF71A1BDC4"
-				item: "mysticalagriculture:basalt_seeds"
-				type: "item"
-			}]
-			title: "Cultiver : « Basalt seeds »"
-			x: 3.0d
-			y: -2.25d
-		}
-		{
-			description: ["Graine de &aMystical Agriculture&r."]
 			icon: "mysticalagriculture:blaze_seeds"
 			id: "108B03404C61A613"
 			optional: true
@@ -104,7 +84,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Blaze seeds »"
-			x: 4.5d
+			x: 3.0d
 			y: -2.25d
 		}
 		{
@@ -124,7 +104,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Brass seeds »"
-			x: 6.0d
+			x: 4.5d
 			y: -2.25d
 		}
 		{
@@ -144,7 +124,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Chicken seeds »"
-			x: 7.5d
+			x: 6.0d
 			y: -2.25d
 		}
 		{
@@ -164,7 +144,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Coal seeds »"
-			x: 9.0d
+			x: 7.5d
 			y: -2.25d
 		}
 		{
@@ -184,7 +164,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Copper seeds »"
-			x: 10.5d
+			x: 9.0d
 			y: -2.25d
 		}
 		{
@@ -204,7 +184,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Coral seeds »"
-			x: 12.0d
+			x: 10.5d
 			y: -2.25d
 		}
 		{
@@ -224,7 +204,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Cow seeds »"
-			x: 13.5d
+			x: 12.0d
 			y: -2.25d
 		}
 		{
@@ -244,7 +224,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Creeper seeds »"
-			x: 15.0d
+			x: 13.5d
 			y: -2.25d
 		}
 		{
@@ -264,7 +244,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Deepslate seeds »"
-			x: 16.5d
+			x: 15.0d
 			y: -2.25d
 		}
 		{
@@ -284,7 +264,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Diamond seeds »"
-			x: 18.0d
+			x: 16.5d
 			y: -2.25d
 		}
 		{
@@ -304,7 +284,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Dirt seeds »"
-			x: 19.5d
+			x: 18.0d
 			y: -2.25d
 		}
 		{
@@ -324,7 +304,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Dye seeds »"
-			x: 21.0d
+			x: 19.5d
 			y: -2.25d
 		}
 		{
@@ -344,7 +324,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Earth seeds »"
-			x: 22.5d
+			x: 21.0d
 			y: -2.25d
 		}
 		{
@@ -364,8 +344,8 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Emerald seeds »"
-			x: 0.0d
-			y: -0.75d
+			x: 22.5d
+			y: -2.25d
 		}
 		{
 			description: ["Graine de &aMystical Agriculture&r."]
@@ -384,7 +364,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « End seeds »"
-			x: 1.5d
+			x: 0.0d
 			y: -0.75d
 		}
 		{
@@ -404,7 +384,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Enderman seeds »"
-			x: 3.0d
+			x: 1.5d
 			y: -0.75d
 		}
 		{
@@ -424,7 +404,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Experience seeds »"
-			x: 4.5d
+			x: 3.0d
 			y: -0.75d
 		}
 		{
@@ -444,7 +424,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Fire seeds »"
-			x: 6.0d
+			x: 4.5d
 			y: -0.75d
 		}
 		{
@@ -464,7 +444,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Fish seeds »"
-			x: 7.5d
+			x: 6.0d
 			y: -0.75d
 		}
 		{
@@ -484,7 +464,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Ghast seeds »"
-			x: 9.0d
+			x: 7.5d
 			y: -0.75d
 		}
 		{
@@ -504,7 +484,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Glowstone seeds »"
-			x: 10.5d
+			x: 9.0d
 			y: -0.75d
 		}
 		{
@@ -524,7 +504,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Gold seeds »"
-			x: 12.0d
+			x: 10.5d
 			y: -0.75d
 		}
 		{
@@ -544,7 +524,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Honey seeds »"
-			x: 13.5d
+			x: 12.0d
 			y: -0.75d
 		}
 		{
@@ -564,7 +544,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Ice seeds »"
-			x: 15.0d
+			x: 13.5d
 			y: -0.75d
 		}
 		{
@@ -584,7 +564,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Inferium seeds »"
-			x: 16.5d
+			x: 15.0d
 			y: -0.75d
 		}
 		{
@@ -604,7 +584,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Iron seeds »"
-			x: 18.0d
+			x: 16.5d
 			y: -0.75d
 		}
 		{
@@ -624,7 +604,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Ironwood seeds »"
-			x: 19.5d
+			x: 18.0d
 			y: -0.75d
 		}
 		{
@@ -644,7 +624,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Knightmetal seeds »"
-			x: 21.0d
+			x: 19.5d
 			y: -0.75d
 		}
 		{
@@ -664,28 +644,8 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Lapis lazuli seeds »"
-			x: 22.5d
+			x: 21.0d
 			y: -0.75d
-		}
-		{
-			description: ["Graine de &aMystical Agriculture&r."]
-			icon: "mysticalagriculture:lead_seeds"
-			id: "1A232CE2937E4C46"
-			optional: true
-			rewards: [{
-				id: "5BCEE6B858A970BE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "051527F87A8E38D0"
-				item: "mysticalagriculture:lead_seeds"
-				type: "item"
-			}]
-			title: "Cultiver : « Lead seeds »"
-			x: 0.0d
-			y: 0.75d
 		}
 		{
 			description: ["Graine de &aMystical Agriculture&r."]
@@ -704,8 +664,8 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Limestone seeds »"
-			x: 1.5d
-			y: 0.75d
+			x: 22.5d
+			y: -0.75d
 		}
 		{
 			description: ["Graine de &aMystical Agriculture&r."]
@@ -724,7 +684,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Marble seeds »"
-			x: 3.0d
+			x: 0.0d
 			y: 0.75d
 		}
 		{
@@ -744,7 +704,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Mithril seeds »"
-			x: 4.5d
+			x: 1.5d
 			y: 0.75d
 		}
 		{
@@ -764,7 +724,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Mystical flower seeds »"
-			x: 6.0d
+			x: 3.0d
 			y: 0.75d
 		}
 		{
@@ -784,7 +744,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Nature seeds »"
-			x: 7.5d
+			x: 4.5d
 			y: 0.75d
 		}
 		{
@@ -804,7 +764,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Nether quartz seeds »"
-			x: 9.0d
+			x: 6.0d
 			y: 0.75d
 		}
 		{
@@ -824,7 +784,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Nether seeds »"
-			x: 10.5d
+			x: 7.5d
 			y: 0.75d
 		}
 		{
@@ -844,7 +804,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Netherite seeds »"
-			x: 12.0d
+			x: 9.0d
 			y: 0.75d
 		}
 		{
@@ -864,7 +824,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Obsidian seeds »"
-			x: 13.5d
+			x: 10.5d
 			y: 0.75d
 		}
 		{
@@ -884,7 +844,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Pig seeds »"
-			x: 15.0d
+			x: 12.0d
 			y: 0.75d
 		}
 		{
@@ -904,7 +864,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Prismarine seeds »"
-			x: 16.5d
+			x: 13.5d
 			y: 0.75d
 		}
 		{
@@ -924,7 +884,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Rabbit seeds »"
-			x: 18.0d
+			x: 15.0d
 			y: 0.75d
 		}
 		{
@@ -944,7 +904,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Redstone seeds »"
-			x: 19.5d
+			x: 16.5d
 			y: 0.75d
 		}
 		{
@@ -964,7 +924,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Sheep seeds »"
-			x: 21.0d
+			x: 18.0d
 			y: 0.75d
 		}
 		{
@@ -984,7 +944,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Skeleton seeds »"
-			x: 22.5d
+			x: 19.5d
 			y: 0.75d
 		}
 		{
@@ -1004,8 +964,8 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Slime seeds »"
-			x: 0.0d
-			y: 2.25d
+			x: 21.0d
+			y: 0.75d
 		}
 		{
 			description: ["Graine de &aMystical Agriculture&r."]
@@ -1024,8 +984,8 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Soulium seeds »"
-			x: 1.5d
-			y: 2.25d
+			x: 22.5d
+			y: 0.75d
 		}
 		{
 			description: ["Graine de &aMystical Agriculture&r."]
@@ -1044,7 +1004,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Spider seeds »"
-			x: 3.0d
+			x: 0.0d
 			y: 2.25d
 		}
 		{
@@ -1064,7 +1024,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Squid seeds »"
-			x: 4.5d
+			x: 1.5d
 			y: 2.25d
 		}
 		{
@@ -1084,7 +1044,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Steel seeds »"
-			x: 6.0d
+			x: 3.0d
 			y: 2.25d
 		}
 		{
@@ -1104,7 +1064,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Steeleaf seeds »"
-			x: 7.5d
+			x: 4.5d
 			y: 2.25d
 		}
 		{
@@ -1124,27 +1084,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Stone seeds »"
-			x: 9.0d
-			y: 2.25d
-		}
-		{
-			description: ["Graine de &aMystical Agriculture&r."]
-			icon: "mysticalagriculture:sulfur_seeds"
-			id: "49475864E879C343"
-			optional: true
-			rewards: [{
-				id: "57D9497663F11563"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7602C15720594EC8"
-				item: "mysticalagriculture:sulfur_seeds"
-				type: "item"
-			}]
-			title: "Cultiver : « Sulfur seeds »"
-			x: 10.5d
+			x: 6.0d
 			y: 2.25d
 		}
 		{
@@ -1164,7 +1104,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Turtle seeds »"
-			x: 12.0d
+			x: 7.5d
 			y: 2.25d
 		}
 		{
@@ -1184,7 +1124,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Water seeds »"
-			x: 13.5d
+			x: 9.0d
 			y: 2.25d
 		}
 		{
@@ -1204,7 +1144,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Wither skeleton seeds »"
-			x: 15.0d
+			x: 10.5d
 			y: 2.25d
 		}
 		{
@@ -1224,7 +1164,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Wood seeds »"
-			x: 16.5d
+			x: 12.0d
 			y: 2.25d
 		}
 		{
@@ -1244,7 +1184,7 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Zinc seeds »"
-			x: 18.0d
+			x: 13.5d
 			y: 2.25d
 		}
 		{
@@ -1264,14 +1204,13 @@
 				type: "item"
 			}]
 			title: "Cultiver : « Zombie seeds »"
-			x: 19.5d
+			x: 15.0d
 			y: 2.25d
 		}
 		{
 			dependencies: [
 				"4F964F4522BA6BEE"
 				"0C0DE041A7A1AB92"
-				"28E9E1D460D627DB"
 				"108B03404C61A613"
 				"2F49B877ED94FE93"
 				"75FDDED0A81CE00F"
@@ -1301,7 +1240,6 @@
 				"10A15489EDC1B763"
 				"4A93813466AF8F3E"
 				"01E4933E02391B41"
-				"1A232CE2937E4C46"
 				"16ACFA2A5213F86F"
 				"7ABA14C410C0F4AA"
 				"74D2D87E1463BADD"
@@ -1324,7 +1262,6 @@
 				"2541E06DFE4CB9A6"
 				"2D2BF30B8A2A1590"
 				"25DD5EDDE0BC9452"
-				"49475864E879C343"
 				"38CECA831FB16AB7"
 				"4E72B3013C7C0C80"
 				"11972CBECDE4A864"

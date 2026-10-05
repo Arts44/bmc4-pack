@@ -427,7 +427,7 @@
 		}
 		{
 			dependencies: ["36A1D7F93D0AD9D6"]
-			description: ["Lingots de fer, lingots de soulium, deux faux en diamant et un châssis de machine. La &bmoissonneuse&r récolte et replante devant elle, en continu, avec un peu d'énergie. Le chapitre &bPowah&r dit d'où vient l'énergie."]
+			description: ["Lingots de fer, lingots de soulium, deux faux en diamant et un châssis de machine. La &bmoissonneuse&r récolte et replante devant elle, en continu. Elle brûle du combustible solide, garde une réserve d'énergie interne et accepte les améliorations de machine. Un signal de redstone l'arrête."]
 			icon: "mysticalagriculture:harvester"
 			id: "7F9D5F0B980ABB39"
 			rewards: [{
@@ -485,7 +485,7 @@
 				"3D0886FD0A32E223"
 				"321E311275023388"
 			]
-			description: ["Comme l'autel d'infusion, mais en pierre d'âme et laine orange. À l'&cautel d'éveil&r, un bloc de supremium et dix essences de chaque élément deviennent un &lbloc de supremium éveillé&r."]
+			description: ["Autel et piédestaux en pierre d'âme, laine orange et or, plus quatre &brécipients d'essence&r (or, verre, pierre d'âme) qui tiennent chacun quarante essences d'un élément. L'autel montre où poser le reste, et un signal de redstone le lance. Un bloc de supremium, quatre poussières cognizantes et dix essences de chaque élément deviennent un &lbloc de supremium éveillé&r."]
 			icon: "mysticalagriculture:awakening_altar"
 			id: "423073EB7FA89769"
 			rewards: [{
@@ -501,9 +501,15 @@
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "2E92D42513E1718A"
+					count: 4L
+					id: "1A73BE09E19EA74D"
 					item: "mysticalagriculture:awakening_pedestal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "79A6249B9C12E472"
+					item: "mysticalagriculture:essence_vessel"
 					type: "item"
 				}
 			]
@@ -512,8 +518,11 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["423073EB7FA89769"]
-			description: ["Un bloc éveillé se défait en neuf essences de &csupremium éveillé&r. C'est le sommet du mod : outils, armure, et la &lhoue éveillée&r qui ne s'use pas — celle que demande le pylône de récolte."]
+			dependencies: [
+				"423073EB7FA89769"
+				"31BF0B261D94CF7E"
+			]
+			description: ["Un bloc éveillé se défait en neuf essences de &csupremium éveillé&r ; un lingot de prospérité et deux essences font un lingot éveillé. Le reste du chapitre éveille chaque pièce, jusqu'à la &lhoue éveillée&r qui ne s'use pas — celle que demande le pylône de récolte."]
 			icon: "mysticalagriculture:awakened_supremium_essence"
 			id: "2B940EC1E5203B3A"
 			rewards: [{
@@ -530,21 +539,19 @@
 				type: "item"
 			}]
 			title: "Du supremium éveillé"
-			x: 16.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["423073EB7FA89769"]
-			description: ["Le &5Wither&r et l'&5Ender Dragon&r lâchent de la &dpoussière cognizante&r quand ils sont tués avec une arme d'essence enchantée &bMystical Enlightenment&r. Les deux sont activés sur le serveur. Elle sert aux éveils les plus avancés."]
+			description: ["Le &5Wither&r et l'&5Ender Dragon&r lâchent de la &dpoussière cognizante&r quand ils sont tués avec une arme d'essence enchantée &bMystical Enlightenment&r. Les deux sont activés sur le serveur. Il en faut quatre pour chaque bloc de supremium éveillé."]
 			icon: "mysticalagriculture:cognizant_dust"
 			id: "31BF0B261D94CF7E"
-			optional: true
 			rewards: [{
 				id: "115F97A4F8C6FCB9"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "hexagon"
 			tasks: [{
 				id: "0786E01D40A61C18"
 				item: "mysticalagriculture:cognizant_dust"
@@ -552,7 +559,7 @@
 			}]
 			title: "La poussière cognizante"
 			x: 16.0d
-			y: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -560,7 +567,7 @@
 				"2B940EC1E5203B3A"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre &aPylons&r ajoute la récolte automatique sans énergie, à une condition près."]
+			description: ["Du fer à la nétherite en graines, un autel, des accélérateurs. Chaque graine du pack a sa quête à l'&7Herbier&r de l'Encyclopédie ; ici, ce sont les paliers. Le chapitre &aPylons&r ajoute la récolte automatique sans énergie, à une condition près."]
 			icon: "mysticalagriculture:awakened_supremium_essence"
 			id: "4742C02AB878F93A"
 			rewards: [{
@@ -575,13 +582,51 @@
 				type: "checkmark"
 			}]
 			title: "&aLa ferme remplace la mine"
-			x: 18.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CB09F48F66E9245"]
-			description: ["Chaque palier d'essence fait ses outils et son armure, plus solides de palier en palier. Les arrosoirs font pousser ce qu'ils arrosent."]
-			icon: "mysticalagriculture:inferium_pickaxe"
+			description: ["Chaque pièce d'armure d'essence part de la pièce du palier d'avant (les pièces en diamant pour l'inferium), avec deux lingots et deux gemmes d'inferium. Un lingot : un lingot de prospérité et deux essences ; une gemme : une gemme de prospérité et deux essences. Les quatre pièces, à garder. Chaque pièce porte un augment de palier Inferium au plus."]
+			icon: "mysticalagriculture:inferium_helmet"
+			id: "54064C6B345C1C86"
+			optional: true
+			rewards: [{
+				id: "16BCD2ABE9FD3882"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "08A8F93B4675AEE6"
+					item: "mysticalagriculture:inferium_helmet"
+					type: "item"
+				}
+				{
+					id: "07A663BE04AA7E1D"
+					item: "mysticalagriculture:inferium_chestplate"
+					type: "item"
+				}
+				{
+					id: "16355EE1BF389BCD"
+					item: "mysticalagriculture:inferium_leggings"
+					type: "item"
+				}
+				{
+					id: "301FB4419A5E7A41"
+					item: "mysticalagriculture:inferium_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure d'inferium"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CB09F48F66E9245"]
+			description: ["Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Au premier palier, on part des outils en diamant, d'un arc, d'une arbalète, de cisailles, d'une canne à pêche, et de la faux et de la faucille en diamant du mod. La faucille fauche les plantes sur une zone, la faux récolte sans arracher et frappe large ; plus le palier monte, plus la zone grandit. Chaque outil porte un augment de palier Inferium au plus."]
+			icon: "mysticalagriculture:inferium_sword"
 			id: "0D79A3E7F6AA33DD"
 			optional: true
 			rewards: [{
@@ -592,22 +637,71 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "71B93ADD788903FE"
+					id: "257D8FF01D809BA9"
+					item: "mysticalagriculture:inferium_sword"
+					type: "item"
+				}
+				{
+					id: "0ADC65599517A247"
 					item: "mysticalagriculture:inferium_pickaxe"
 					type: "item"
 				}
 				{
-					id: "3B05DB59CDD32815"
-					item: "mysticalagriculture:inferium_sword"
+					id: "4C7285E60A5A8BAA"
+					item: "mysticalagriculture:inferium_axe"
+					type: "item"
+				}
+				{
+					id: "3958ADC376B6A4F8"
+					item: "mysticalagriculture:inferium_shovel"
+					type: "item"
+				}
+				{
+					id: "307B12B588FB0A58"
+					item: "mysticalagriculture:inferium_hoe"
+					type: "item"
+				}
+				{
+					id: "074C2F8D53D58660"
+					item: "mysticalagriculture:inferium_sickle"
+					type: "item"
+				}
+				{
+					id: "5578BA9CE03F2F71"
+					item: "mysticalagriculture:inferium_scythe"
+					type: "item"
+				}
+				{
+					id: "35704CF866FB4A5B"
+					item: "mysticalagriculture:inferium_bow"
+					type: "item"
+				}
+				{
+					id: "531F99D456CFB168"
+					item: "mysticalagriculture:inferium_crossbow"
+					type: "item"
+				}
+				{
+					id: "6E2725F55D7A90C6"
+					item: "mysticalagriculture:inferium_shears"
+					type: "item"
+				}
+				{
+					id: "4ADD5F75D6867BAE"
+					item: "mysticalagriculture:inferium_fishing_rod"
 					type: "item"
 				}
 			]
-			title: "Des outils d'inferium"
+			title: "Les outils d'inferium"
 			x: 4.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["7CB09F48F66E9245"]
+			dependencies: [
+				"7CB09F48F66E9245"
+				"579AF22FF32F2671"
+			]
+			description: ["L'arrosoir du palier d'avant, quatre lingots d'inferium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique."]
 			icon: "mysticalagriculture:inferium_watering_can"
 			id: "29D090EDDF6924E9"
 			optional: true
@@ -624,17 +718,66 @@
 			}]
 			title: "Un arrosoir d'inferium"
 			x: 4.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["1E0AAEDF3F6656A4"]
+			dependencies: ["7CB09F48F66E9245"]
+			description: ["Le four d'avant (un four ordinaire), deux lingots, une essence et un bloc d'inferium. Chaque palier cuit plus vite et use moins de combustible."]
+			icon: "mysticalagriculture:inferium_furnace"
+			id: "6893768F10B7332F"
+			optional: true
+			rewards: [{
+				id: "750E589B0C548DE8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06A1434E0CED018E"
+				item: "mysticalagriculture:inferium_furnace"
+				type: "item"
+			}]
+			title: "Un four d'inferium"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"7CB09F48F66E9245"
+				"13F9C95EACBF0FD7"
+			]
+			description: ["Quatre essences et quatre lingots d'inferium autour de l'amélioration d'avant (la base d'amélioration). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite."]
+			icon: "mysticalagriculture:inferium_upgrade"
+			id: "6B7BC8E47E343E6C"
+			optional: true
+			rewards: [{
+				id: "45347C427BA38E3C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41269446CDEBC83F"
+				item: "mysticalagriculture:inferium_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration d'inferium"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1E0AAEDF3F6656A4"
+				"54064C6B345C1C86"
+			]
+			description: ["Casque, plastron, jambières, bottes : chaque pièce d'inferium, deux lingots et deux gemmes de prudentium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Prudentium au plus."]
 			icon: "mysticalagriculture:prudentium_helmet"
 			id: "5DAB08480508247E"
 			optional: true
 			rewards: [{
-				id: "1EF4E36703E1E8ED"
+				id: "5F49DBADF2F48970"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 5
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -648,47 +791,469 @@
 					item: "mysticalagriculture:prudentium_chestplate"
 					type: "item"
 				}
+				{
+					id: "5436E4378914D7FE"
+					item: "mysticalagriculture:prudentium_leggings"
+					type: "item"
+				}
+				{
+					id: "0AB1C8CB988A1024"
+					item: "mysticalagriculture:prudentium_boots"
+					type: "item"
+				}
 			]
-			title: "Une armure de prudentium"
+			title: "L'armure de prudentium"
 			x: 8.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["2D93EBED9447D1C9"]
-			icon: "mysticalagriculture:tertium_pickaxe"
-			id: "5A8EFB7665FC5A8D"
+			dependencies: [
+				"1E0AAEDF3F6656A4"
+				"0D79A3E7F6AA33DD"
+			]
+			description: ["Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Prudentium au plus."]
+			icon: "mysticalagriculture:prudentium_sword"
+			id: "11316A4A58F06BBD"
 			optional: true
 			rewards: [{
-				id: "2437330FEBE0AD39"
+				id: "5924D760E61B1B0E"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "5A5E70166BB6BB31"
-					item: "mysticalagriculture:tertium_pickaxe"
+					id: "066802EEBD2A5AB3"
+					item: "mysticalagriculture:prudentium_sword"
 					type: "item"
 				}
 				{
-					id: "173EBF7ABE972820"
-					item: "mysticalagriculture:tertium_sword"
+					id: "39D645ED6DF2B325"
+					item: "mysticalagriculture:prudentium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "1BA98BE076861D38"
+					item: "mysticalagriculture:prudentium_axe"
+					type: "item"
+				}
+				{
+					id: "768C5B3B4714FF0B"
+					item: "mysticalagriculture:prudentium_shovel"
+					type: "item"
+				}
+				{
+					id: "0EF4F2EF0587FE2E"
+					item: "mysticalagriculture:prudentium_hoe"
+					type: "item"
+				}
+				{
+					id: "3A97870692FCC3F9"
+					item: "mysticalagriculture:prudentium_sickle"
+					type: "item"
+				}
+				{
+					id: "6933A48C65270A3A"
+					item: "mysticalagriculture:prudentium_scythe"
+					type: "item"
+				}
+				{
+					id: "74F83ED496CBC36B"
+					item: "mysticalagriculture:prudentium_bow"
+					type: "item"
+				}
+				{
+					id: "115EED2ED55A0970"
+					item: "mysticalagriculture:prudentium_crossbow"
+					type: "item"
+				}
+				{
+					id: "6D4829E2E9571DFA"
+					item: "mysticalagriculture:prudentium_shears"
+					type: "item"
+				}
+				{
+					id: "01F3C45756E94F1A"
+					item: "mysticalagriculture:prudentium_fishing_rod"
 					type: "item"
 				}
 			]
-			title: "Des outils de tertium"
+			title: "Les outils de prudentium"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1E0AAEDF3F6656A4"
+				"29D090EDDF6924E9"
+			]
+			description: ["L'arrosoir du palier d'avant, quatre lingots de prudentium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique."]
+			icon: "mysticalagriculture:prudentium_watering_can"
+			id: "087AE04F8B4D457E"
+			optional: true
+			rewards: [{
+				id: "777B455AF08DE6FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "475DF4C8DE0E3B01"
+				item: "mysticalagriculture:prudentium_watering_can"
+				type: "item"
+			}]
+			title: "Un arrosoir de prudentium"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1E0AAEDF3F6656A4"
+				"6893768F10B7332F"
+			]
+			description: ["Le four d'avant (celui d'inferium), deux lingots, une essence et un bloc de prudentium. Chaque palier cuit plus vite et use moins de combustible."]
+			icon: "mysticalagriculture:prudentium_furnace"
+			id: "0D01FDC61C20ECAA"
+			optional: true
+			rewards: [{
+				id: "40D374BC63C8F88E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F140E2C8C1FCB6F"
+				item: "mysticalagriculture:prudentium_furnace"
+				type: "item"
+			}]
+			title: "Un four de prudentium"
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"1E0AAEDF3F6656A4"
+				"14E17823F9CE4A00"
+			]
+			description: ["Quatre essences de prudentium, quatre pierres et une gemme de prudentium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers."]
+			icon: "mysticalagriculture:prudentium_growth_accelerator"
+			id: "7EE2303AED8C5373"
+			optional: true
+			rewards: [{
+				id: "4F7B95B67A884194"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76596EDC665224EB"
+				item: "mysticalagriculture:prudentium_growth_accelerator"
+				type: "item"
+			}]
+			title: "Un accélérateur de prudentium"
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1E0AAEDF3F6656A4"
+				"78EE19DFD1BC4998"
+			]
+			description: ["Un clic droit avec une essence de prudentium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine."]
+			icon: "mysticalagriculture:prudentium_farmland"
+			id: "6BA1E2ACEF41A8A0"
+			optional: true
+			rewards: [{
+				id: "2A11317D4C2F11B9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "7D4EE49CFF920D91"
+				item: "mysticalagriculture:prudentium_farmland"
+				type: "item"
+			}]
+			title: "De la terre de prudentium"
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"1E0AAEDF3F6656A4"
+				"6B7BC8E47E343E6C"
+			]
+			description: ["Quatre essences et quatre lingots de prudentium autour de l'amélioration d'avant (celle d'inferium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite."]
+			icon: "mysticalagriculture:prudentium_upgrade"
+			id: "5603735D9FFD1317"
+			optional: true
+			rewards: [{
+				id: "5826FE604C462B4D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A7D7531A4EBE6AC"
+				item: "mysticalagriculture:prudentium_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de prudentium"
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"2D93EBED9447D1C9"
+				"5DAB08480508247E"
+			]
+			description: ["Casque, plastron, jambières, bottes : chaque pièce de prudentium, deux lingots et deux gemmes de tertium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Tertium au plus."]
+			icon: "mysticalagriculture:tertium_helmet"
+			id: "4EEDBDA14EB5745E"
+			optional: true
+			rewards: [{
+				id: "38E510202D7EA338"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4837C6201634B0D3"
+					item: "mysticalagriculture:tertium_helmet"
+					type: "item"
+				}
+				{
+					id: "7F50B37013636007"
+					item: "mysticalagriculture:tertium_chestplate"
+					type: "item"
+				}
+				{
+					id: "678E0C0C5F68ABD1"
+					item: "mysticalagriculture:tertium_leggings"
+					type: "item"
+				}
+				{
+					id: "484A3B856EB2FA64"
+					item: "mysticalagriculture:tertium_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure de tertium"
 			x: 10.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["0B7651ABDF440D26"]
+			dependencies: [
+				"2D93EBED9447D1C9"
+				"11316A4A58F06BBD"
+			]
+			description: ["Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Tertium au plus."]
+			icon: "mysticalagriculture:tertium_sword"
+			id: "5A8EFB7665FC5A8D"
+			optional: true
+			rewards: [{
+				id: "44959FE2D36D460D"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31D866D5D834060A"
+					item: "mysticalagriculture:tertium_sword"
+					type: "item"
+				}
+				{
+					id: "6C4207276D83CCBB"
+					item: "mysticalagriculture:tertium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "0EFD95B3DC8036EF"
+					item: "mysticalagriculture:tertium_axe"
+					type: "item"
+				}
+				{
+					id: "1040A7A87A7BC289"
+					item: "mysticalagriculture:tertium_shovel"
+					type: "item"
+				}
+				{
+					id: "361FE7E9595B0FDE"
+					item: "mysticalagriculture:tertium_hoe"
+					type: "item"
+				}
+				{
+					id: "3BE0C68C21968439"
+					item: "mysticalagriculture:tertium_sickle"
+					type: "item"
+				}
+				{
+					id: "75EE324B8DE99F09"
+					item: "mysticalagriculture:tertium_scythe"
+					type: "item"
+				}
+				{
+					id: "15198050DDFF53FB"
+					item: "mysticalagriculture:tertium_bow"
+					type: "item"
+				}
+				{
+					id: "28D85262F7BBC21F"
+					item: "mysticalagriculture:tertium_crossbow"
+					type: "item"
+				}
+				{
+					id: "4B124A8D798FFF57"
+					item: "mysticalagriculture:tertium_shears"
+					type: "item"
+				}
+				{
+					id: "4AAEF55A9E1CB5A7"
+					item: "mysticalagriculture:tertium_fishing_rod"
+					type: "item"
+				}
+			]
+			title: "Les outils de tertium"
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2D93EBED9447D1C9"
+				"087AE04F8B4D457E"
+			]
+			description: ["L'arrosoir du palier d'avant, quatre lingots de tertium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique."]
+			icon: "mysticalagriculture:tertium_watering_can"
+			id: "6C041FE484ACE259"
+			optional: true
+			rewards: [{
+				id: "7E7A21AD2C42408B"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55510D288C11A8D9"
+				item: "mysticalagriculture:tertium_watering_can"
+				type: "item"
+			}]
+			title: "Un arrosoir de tertium"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2D93EBED9447D1C9"
+				"0D01FDC61C20ECAA"
+			]
+			description: ["Le four d'avant (celui de prudentium), deux lingots, une essence et un bloc de tertium. Chaque palier cuit plus vite et use moins de combustible."]
+			icon: "mysticalagriculture:tertium_furnace"
+			id: "762C2CC5FBBD854A"
+			optional: true
+			rewards: [{
+				id: "367A045E08F7797A"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A75437416740B75"
+				item: "mysticalagriculture:tertium_furnace"
+				type: "item"
+			}]
+			title: "Un four de tertium"
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2D93EBED9447D1C9"
+				"7EE2303AED8C5373"
+			]
+			description: ["Quatre essences de tertium, quatre pierres et une gemme de tertium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers."]
+			icon: "mysticalagriculture:tertium_growth_accelerator"
+			id: "2DEE2ADA154D427B"
+			optional: true
+			rewards: [{
+				id: "2076C437C44DE3AB"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52AAAE94E7D8619A"
+				item: "mysticalagriculture:tertium_growth_accelerator"
+				type: "item"
+			}]
+			title: "Un accélérateur de tertium"
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2D93EBED9447D1C9"
+				"6BA1E2ACEF41A8A0"
+			]
+			description: ["Un clic droit avec une essence de tertium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine."]
+			icon: "mysticalagriculture:tertium_farmland"
+			id: "1710C111D1FE3414"
+			optional: true
+			rewards: [{
+				id: "61CDED7E717F35D7"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "122DC3ADA3015C52"
+				item: "mysticalagriculture:tertium_farmland"
+				type: "item"
+			}]
+			title: "De la terre de tertium"
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"2D93EBED9447D1C9"
+				"5603735D9FFD1317"
+			]
+			description: ["Quatre essences et quatre lingots de tertium autour de l'amélioration d'avant (celle de prudentium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite."]
+			icon: "mysticalagriculture:tertium_upgrade"
+			id: "1F57CA3CEF8B7067"
+			optional: true
+			rewards: [{
+				id: "2E73269C5C74D12E"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BEE56EEBEB7AA00"
+				item: "mysticalagriculture:tertium_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de tertium"
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"0B7651ABDF440D26"
+				"4EEDBDA14EB5745E"
+			]
+			description: ["Casque, plastron, jambières, bottes : chaque pièce de tertium, deux lingots et deux gemmes d'imperium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Imperium au plus."]
 			icon: "mysticalagriculture:imperium_helmet"
 			id: "4121EC1AEBF69F17"
 			optional: true
 			rewards: [{
-				id: "106CDAA47A7747F0"
+				id: "6CD1A56DE39698D5"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 9
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -702,40 +1267,582 @@
 					item: "mysticalagriculture:imperium_chestplate"
 					type: "item"
 				}
+				{
+					id: "149A870FE8B1E706"
+					item: "mysticalagriculture:imperium_leggings"
+					type: "item"
+				}
+				{
+					id: "68DCF04841D1283B"
+					item: "mysticalagriculture:imperium_boots"
+					type: "item"
+				}
 			]
-			title: "Une armure d'imperium"
+			title: "L'armure d'imperium"
 			x: 12.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["3D0886FD0A32E223"]
-			icon: "mysticalagriculture:supremium_pickaxe"
-			id: "335110923F7F6107"
+			dependencies: [
+				"0B7651ABDF440D26"
+				"5A8EFB7665FC5A8D"
+			]
+			description: ["Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Imperium au plus."]
+			icon: "mysticalagriculture:imperium_sword"
+			id: "7FC25A0B0EBFB723"
 			optional: true
 			rewards: [{
-				id: "25A491CEE3F80219"
+				id: "1421367A24827C3F"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 9
 			}]
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "52D7A383A1F17311"
-					item: "mysticalagriculture:supremium_pickaxe"
+					id: "4DE4F0E39D9340C0"
+					item: "mysticalagriculture:imperium_sword"
 					type: "item"
 				}
 				{
-					id: "6CE636C08F9EEAA6"
-					item: "mysticalagriculture:supremium_sword"
+					id: "2BDD4E7661F8D565"
+					item: "mysticalagriculture:imperium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "3034ABC8E1276DC5"
+					item: "mysticalagriculture:imperium_axe"
+					type: "item"
+				}
+				{
+					id: "1D61D8BBC34DC1F1"
+					item: "mysticalagriculture:imperium_shovel"
+					type: "item"
+				}
+				{
+					id: "34110F34297D1479"
+					item: "mysticalagriculture:imperium_hoe"
+					type: "item"
+				}
+				{
+					id: "02F87F7C75B1595B"
+					item: "mysticalagriculture:imperium_sickle"
+					type: "item"
+				}
+				{
+					id: "791660D4AB821191"
+					item: "mysticalagriculture:imperium_scythe"
+					type: "item"
+				}
+				{
+					id: "0934E01570760123"
+					item: "mysticalagriculture:imperium_bow"
+					type: "item"
+				}
+				{
+					id: "2E5540DD61BD6483"
+					item: "mysticalagriculture:imperium_crossbow"
+					type: "item"
+				}
+				{
+					id: "52B83925D9959065"
+					item: "mysticalagriculture:imperium_shears"
+					type: "item"
+				}
+				{
+					id: "6D6459024EB13E89"
+					item: "mysticalagriculture:imperium_fishing_rod"
 					type: "item"
 				}
 			]
-			title: "Des outils de supremium"
+			title: "Les outils d'imperium"
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0B7651ABDF440D26"
+				"6C041FE484ACE259"
+			]
+			description: ["L'arrosoir du palier d'avant, quatre lingots d'imperium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique."]
+			icon: "mysticalagriculture:imperium_watering_can"
+			id: "1B12CB5F7A3C9531"
+			optional: true
+			rewards: [{
+				id: "322C8AB96EBCF509"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BB09F07B81B2906"
+				item: "mysticalagriculture:imperium_watering_can"
+				type: "item"
+			}]
+			title: "Un arrosoir d'imperium"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0B7651ABDF440D26"
+				"762C2CC5FBBD854A"
+			]
+			description: ["Le four d'avant (celui de tertium), deux lingots, une essence et un bloc d'imperium. Chaque palier cuit plus vite et use moins de combustible."]
+			icon: "mysticalagriculture:imperium_furnace"
+			id: "159F2F9E0D928682"
+			optional: true
+			rewards: [{
+				id: "7F353B0CF3369978"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4227416588255F8D"
+				item: "mysticalagriculture:imperium_furnace"
+				type: "item"
+			}]
+			title: "Un four d'imperium"
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0B7651ABDF440D26"
+				"2DEE2ADA154D427B"
+			]
+			description: ["Quatre essences d'imperium, quatre pierres et une gemme d'imperium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers."]
+			icon: "mysticalagriculture:imperium_growth_accelerator"
+			id: "06B81780509A7283"
+			optional: true
+			rewards: [{
+				id: "29DC93EEED5D600C"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AF7CDA8F8D8D558"
+				item: "mysticalagriculture:imperium_growth_accelerator"
+				type: "item"
+			}]
+			title: "Un accélérateur d'imperium"
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"0B7651ABDF440D26"
+				"1710C111D1FE3414"
+			]
+			description: ["Un clic droit avec une essence d'imperium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine."]
+			icon: "mysticalagriculture:imperium_farmland"
+			id: "56516D4348CD599D"
+			optional: true
+			rewards: [{
+				id: "6347847D22ADEBE0"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "5C1356CDE113D70A"
+				item: "mysticalagriculture:imperium_farmland"
+				type: "item"
+			}]
+			title: "De la terre d'imperium"
+			x: 12.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0B7651ABDF440D26"
+				"1F57CA3CEF8B7067"
+			]
+			description: ["Quatre essences et quatre lingots d'imperium autour de l'amélioration d'avant (celle de tertium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite."]
+			icon: "mysticalagriculture:imperium_upgrade"
+			id: "754025DDA2208599"
+			optional: true
+			rewards: [{
+				id: "09D2D7F0C5BFD027"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52D0D11785AD3BC2"
+				item: "mysticalagriculture:imperium_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration d'imperium"
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3D0886FD0A32E223"
+				"4121EC1AEBF69F17"
+			]
+			description: ["Casque, plastron, jambières, bottes : chaque pièce d'imperium, deux lingots et deux gemmes de supremium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Supremium au plus."]
+			icon: "mysticalagriculture:supremium_helmet"
+			id: "3760AB5DE1185449"
+			optional: true
+			rewards: [{
+				id: "1F90F53E2C6D4EB0"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4B0396D4AA97D2E8"
+					item: "mysticalagriculture:supremium_helmet"
+					type: "item"
+				}
+				{
+					id: "38028FED0ECF5FA2"
+					item: "mysticalagriculture:supremium_chestplate"
+					type: "item"
+				}
+				{
+					id: "6EF7A7334F2A7D53"
+					item: "mysticalagriculture:supremium_leggings"
+					type: "item"
+				}
+				{
+					id: "2B403C043A9578A2"
+					item: "mysticalagriculture:supremium_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure de supremium"
 			x: 14.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["2B940EC1E5203B3A"]
+			dependencies: [
+				"3D0886FD0A32E223"
+				"7FC25A0B0EBFB723"
+			]
+			description: ["Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Supremium au plus."]
+			icon: "mysticalagriculture:supremium_sword"
+			id: "335110923F7F6107"
+			optional: true
+			rewards: [{
+				id: "0824A70FB211E543"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "06E4772027A4DDB5"
+					item: "mysticalagriculture:supremium_sword"
+					type: "item"
+				}
+				{
+					id: "3A1AE99F5AB33950"
+					item: "mysticalagriculture:supremium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "62066C8A0D32658B"
+					item: "mysticalagriculture:supremium_axe"
+					type: "item"
+				}
+				{
+					id: "02C67C2EDAFECF3C"
+					item: "mysticalagriculture:supremium_shovel"
+					type: "item"
+				}
+				{
+					id: "584CD0B6AF03FF20"
+					item: "mysticalagriculture:supremium_hoe"
+					type: "item"
+				}
+				{
+					id: "2FC1FF6AE86420D4"
+					item: "mysticalagriculture:supremium_sickle"
+					type: "item"
+				}
+				{
+					id: "13698E1B757C47D6"
+					item: "mysticalagriculture:supremium_scythe"
+					type: "item"
+				}
+				{
+					id: "12C6152735D4D355"
+					item: "mysticalagriculture:supremium_bow"
+					type: "item"
+				}
+				{
+					id: "50CD960E9D8616D1"
+					item: "mysticalagriculture:supremium_crossbow"
+					type: "item"
+				}
+				{
+					id: "248A4D3B95FBEC12"
+					item: "mysticalagriculture:supremium_shears"
+					type: "item"
+				}
+				{
+					id: "610AE10144047501"
+					item: "mysticalagriculture:supremium_fishing_rod"
+					type: "item"
+				}
+			]
+			title: "Les outils de supremium"
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3D0886FD0A32E223"
+				"1B12CB5F7A3C9531"
+			]
+			description: ["L'arrosoir du palier d'avant, quatre lingots de supremium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique."]
+			icon: "mysticalagriculture:supremium_watering_can"
+			id: "0220D5D42D83F1F7"
+			optional: true
+			rewards: [{
+				id: "2685EFF89A688C97"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C19D017D9308BDE"
+				item: "mysticalagriculture:supremium_watering_can"
+				type: "item"
+			}]
+			title: "Un arrosoir de supremium"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3D0886FD0A32E223"
+				"159F2F9E0D928682"
+			]
+			description: ["Le four d'avant (celui d'imperium), deux lingots, une essence et un bloc de supremium. Chaque palier cuit plus vite et use moins de combustible."]
+			icon: "mysticalagriculture:supremium_furnace"
+			id: "53D713D9FD314BE0"
+			optional: true
+			rewards: [{
+				id: "7C0AF38AFFB0A40E"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37C1826AC67444BD"
+				item: "mysticalagriculture:supremium_furnace"
+				type: "item"
+			}]
+			title: "Un four de supremium"
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"3D0886FD0A32E223"
+				"06B81780509A7283"
+			]
+			description: ["Quatre essences de supremium, quatre pierres et une gemme de supremium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers."]
+			icon: "mysticalagriculture:supremium_growth_accelerator"
+			id: "1020C6E1649EC38B"
+			optional: true
+			rewards: [{
+				id: "7859A2A4B1761066"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "156FC651DA3DCFA6"
+				item: "mysticalagriculture:supremium_growth_accelerator"
+				type: "item"
+			}]
+			title: "Un accélérateur de supremium"
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"3D0886FD0A32E223"
+				"56516D4348CD599D"
+			]
+			description: ["Un clic droit avec une essence de supremium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine."]
+			icon: "mysticalagriculture:supremium_farmland"
+			id: "3AC5BD0E751F684B"
+			optional: true
+			rewards: [{
+				id: "7E225B65E71C7AF8"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "76683F8A18A16E9C"
+				item: "mysticalagriculture:supremium_farmland"
+				type: "item"
+			}]
+			title: "De la terre de supremium"
+			x: 14.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3D0886FD0A32E223"
+				"754025DDA2208599"
+			]
+			description: ["Quatre essences et quatre lingots de supremium autour de l'amélioration d'avant (celle d'imperium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite."]
+			icon: "mysticalagriculture:supremium_upgrade"
+			id: "44EA132050402E63"
+			optional: true
+			rewards: [{
+				id: "30CA409C36A5BFB0"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FE8905C43E6735D"
+				item: "mysticalagriculture:supremium_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration de supremium"
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"3760AB5DE1185449"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_helmet"
+			id: "118FD536292D9308"
+			optional: true
+			rewards: [{
+				id: "617C7DD115105BC8"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "108BC9787F0A2541"
+				item: "mysticalagriculture:awakened_supremium_helmet"
+				type: "item"
+			}]
+			title: "Le casque éveillé"
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"3760AB5DE1185449"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_chestplate"
+			id: "48D52E2F6B526265"
+			optional: true
+			rewards: [{
+				id: "1B50AFFA71F19E8E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F0770DABE282DC4"
+				item: "mysticalagriculture:awakened_supremium_chestplate"
+				type: "item"
+			}]
+			title: "Le plastron éveillé"
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"3760AB5DE1185449"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_leggings"
+			id: "1310BA5761953D1B"
+			optional: true
+			rewards: [{
+				id: "6216DBA9692C3908"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "674ADB5CA62B8E11"
+				item: "mysticalagriculture:awakened_supremium_leggings"
+				type: "item"
+			}]
+			title: "Les jambières éveillées"
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"3760AB5DE1185449"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_boots"
+			id: "0205A4C303DA149B"
+			optional: true
+			rewards: [{
+				id: "23A1C35408944FDF"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C87BA7C4A7EEAFF"
+				item: "mysticalagriculture:awakened_supremium_boots"
+				type: "item"
+			}]
+			title: "Les bottes éveillées"
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_sword"
+			id: "291A8E00951C1FBB"
+			optional: true
+			rewards: [{
+				id: "0D5AD634BA267023"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4389B020641E597C"
+				item: "mysticalagriculture:awakened_supremium_sword"
+				type: "item"
+			}]
+			title: "La épée éveillée"
+			x: 20.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
 			icon: "mysticalagriculture:awakened_supremium_pickaxe"
 			id: "2529BD857996EE18"
 			optional: true
@@ -745,22 +1852,2446 @@
 				xp_levels: 15
 			}]
 			shape: "hexagon"
-			size: 1.3d
+			tasks: [{
+				id: "43638C3CBFCEA7A6"
+				item: "mysticalagriculture:awakened_supremium_pickaxe"
+				type: "item"
+			}]
+			title: "La pioche éveillée"
+			x: 20.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_axe"
+			id: "2BED5188CC15A99A"
+			optional: true
+			rewards: [{
+				id: "5A078F87069C6458"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "479B8EB6159AD123"
+				item: "mysticalagriculture:awakened_supremium_axe"
+				type: "item"
+			}]
+			title: "La hache éveillée"
+			x: 20.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_shovel"
+			id: "0CFF3CDE0BF7B42B"
+			optional: true
+			rewards: [{
+				id: "45FB8E65EDBD345B"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19F09F0BEAE303F2"
+				item: "mysticalagriculture:awakened_supremium_shovel"
+				type: "item"
+			}]
+			title: "La pelle éveillée"
+			x: 20.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_hoe"
+			id: "60E4E7904FA000E6"
+			optional: true
+			rewards: [{
+				id: "4727C3943C747920"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1843196DCD4B0E76"
+				item: "mysticalagriculture:awakened_supremium_hoe"
+				type: "item"
+			}]
+			title: "La houe éveillée"
+			x: 20.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_sickle"
+			id: "04226AFF74EED579"
+			optional: true
+			rewards: [{
+				id: "731842861D68F577"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EF86D3F76F19FFA"
+				item: "mysticalagriculture:awakened_supremium_sickle"
+				type: "item"
+			}]
+			title: "La faucille éveillée"
+			x: 20.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_scythe"
+			id: "7F5DA2DBFCCC215E"
+			optional: true
+			rewards: [{
+				id: "71032D8653AF9061"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AA86EF87FF18FAA"
+				item: "mysticalagriculture:awakened_supremium_scythe"
+				type: "item"
+			}]
+			title: "La faux éveillée"
+			x: 20.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_bow"
+			id: "4A2FA583BB711902"
+			optional: true
+			rewards: [{
+				id: "7877EB2348F1C492"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C81738DCFF1B440"
+				item: "mysticalagriculture:awakened_supremium_bow"
+				type: "item"
+			}]
+			title: "Le arc éveillé"
+			x: 20.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_crossbow"
+			id: "7614797742CD67C4"
+			optional: true
+			rewards: [{
+				id: "588C1676EB2FE241"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "009ACABF60DAEF7E"
+				item: "mysticalagriculture:awakened_supremium_crossbow"
+				type: "item"
+			}]
+			title: "La arbalète éveillée"
+			x: 20.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_shears"
+			id: "69DFD5EB7EDE66E3"
+			optional: true
+			rewards: [{
+				id: "0E1D63A53D46FC8B"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "196A0BAC5766E721"
+				item: "mysticalagriculture:awakened_supremium_shears"
+				type: "item"
+			}]
+			title: "Les cisailles éveillées"
+			x: 20.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"335110923F7F6107"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_fishing_rod"
+			id: "6349DCED6C669D97"
+			optional: true
+			rewards: [{
+				id: "20734C0094DAC6E5"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FED2B8E7A7E0EA3"
+				item: "mysticalagriculture:awakened_supremium_fishing_rod"
+				type: "item"
+			}]
+			title: "La canne à pêche éveillée"
+			x: 20.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"0220D5D42D83F1F7"
+			]
+			description: ["À l'autel d'éveil : la pièce en supremium au centre, quatre lingots de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce."]
+			icon: "mysticalagriculture:awakened_supremium_watering_can"
+			id: "05215DAA518E77AD"
+			optional: true
+			rewards: [{
+				id: "175F5CA1C044CD5D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0861A9826555AB8B"
+				item: "mysticalagriculture:awakened_supremium_watering_can"
+				type: "item"
+			}]
+			title: "L'arrosoir éveillé"
+			x: 20.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"53D713D9FD314BE0"
+			]
+			description: ["Le four de supremium, deux lingots et deux gemmes de supremium éveillé, quarante essences de chaque élément : le dernier four du mod."]
+			icon: "mysticalagriculture:awakened_supremium_furnace"
+			id: "1D862A81A3A18FAD"
+			optional: true
+			rewards: [{
+				id: "6296B3F5FC52315D"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25AE8EF1A34FA1E7"
+				item: "mysticalagriculture:awakened_supremium_furnace"
+				type: "item"
+			}]
+			title: "Le four éveillé"
+			x: 20.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"2B940EC1E5203B3A"
+				"44EA132050402E63"
+			]
+			description: ["L'amélioration de supremium, quatre lingots de supremium éveillé et vingt essences de chaque élément : la dernière amélioration de machine."]
+			icon: "mysticalagriculture:awakened_supremium_upgrade"
+			id: "5AAA7F3543A748DD"
+			optional: true
+			rewards: [{
+				id: "25887F21448A50F3"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D96F15590892973"
+				item: "mysticalagriculture:awakened_supremium_upgrade"
+				type: "item"
+			}]
+			title: "L'amélioration éveillée"
+			x: 20.0d
+			y: 30.5d
+		}
+		{
+			dependencies: [
+				"118FD536292D9308"
+				"48D52E2F6B526265"
+				"1310BA5761953D1B"
+				"0205A4C303DA149B"
+				"291A8E00951C1FBB"
+				"2529BD857996EE18"
+				"2BED5188CC15A99A"
+				"0CFF3CDE0BF7B42B"
+				"60E4E7904FA000E6"
+				"04226AFF74EED579"
+				"7F5DA2DBFCCC215E"
+				"4A2FA583BB711902"
+				"7614797742CD67C4"
+				"69DFD5EB7EDE66E3"
+				"6349DCED6C669D97"
+				"05215DAA518E77AD"
+			]
+			description: ["Les quatre pièces d'armure, les onze outils et l'arrosoir, tous éveillés, ensemble dans l'inventaire. L'armure complète portée donne, sur ce serveur, le bonus d'ensemble : elle fait pousser les cultures autour de soi. C'est le sommet de Mystical Agriculture."]
+			icon: "mysticalagriculture:awakened_supremium_chestplate"
+			id: "5B40BA99CCF68A46"
+			optional: true
+			rewards: [{
+				id: "5F815710A3F08DDA"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			size: 1.8d
 			tasks: [
 				{
-					id: "43638C3CBFCEA7A6"
+					id: "0E01AC39602F977E"
+					item: "mysticalagriculture:awakened_supremium_helmet"
+					type: "item"
+				}
+				{
+					id: "5A21889FDC0CF629"
+					item: "mysticalagriculture:awakened_supremium_chestplate"
+					type: "item"
+				}
+				{
+					id: "2DA79A52BB2FBFFE"
+					item: "mysticalagriculture:awakened_supremium_leggings"
+					type: "item"
+				}
+				{
+					id: "5B5D8F0B1BFD4F8E"
+					item: "mysticalagriculture:awakened_supremium_boots"
+					type: "item"
+				}
+				{
+					id: "5C214FC04C0F67E0"
+					item: "mysticalagriculture:awakened_supremium_sword"
+					type: "item"
+				}
+				{
+					id: "43AE8BD8ACE123A1"
 					item: "mysticalagriculture:awakened_supremium_pickaxe"
 					type: "item"
 				}
 				{
-					id: "1504263B5AC69154"
-					item: "mysticalagriculture:awakened_supremium_sword"
+					id: "75257FDD0A3EFBDD"
+					item: "mysticalagriculture:awakened_supremium_axe"
+					type: "item"
+				}
+				{
+					id: "5680CED88AC80B3C"
+					item: "mysticalagriculture:awakened_supremium_shovel"
+					type: "item"
+				}
+				{
+					id: "4593209D7F7DF052"
+					item: "mysticalagriculture:awakened_supremium_hoe"
+					type: "item"
+				}
+				{
+					id: "07A1121B4150A718"
+					item: "mysticalagriculture:awakened_supremium_sickle"
+					type: "item"
+				}
+				{
+					id: "71CE456787AF39D1"
+					item: "mysticalagriculture:awakened_supremium_scythe"
+					type: "item"
+				}
+				{
+					id: "26AD09BF2CFA1688"
+					item: "mysticalagriculture:awakened_supremium_bow"
+					type: "item"
+				}
+				{
+					id: "75D7211A4A453779"
+					item: "mysticalagriculture:awakened_supremium_crossbow"
+					type: "item"
+				}
+				{
+					id: "4FBA84B823733612"
+					item: "mysticalagriculture:awakened_supremium_shears"
+					type: "item"
+				}
+				{
+					id: "1D9890598010C172"
+					item: "mysticalagriculture:awakened_supremium_fishing_rod"
+					type: "item"
+				}
+				{
+					id: "151F936351F7ED25"
+					item: "mysticalagriculture:awakened_supremium_watering_can"
 					type: "item"
 				}
 			]
-			title: "Des outils de supremium éveillé"
+			title: "&c&lTout en supremium éveillé"
+			x: 22.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["074F0B0A61ACFBA0"]
+			description: ["Sept pierres et deux poussières de soulium. La &btable de bricolage&r pose les augments sur l'armure et les outils d'essence : un emplacement par pièce. Chaque augment a un palier : il ne se pose que sur une pièce de ce palier ou plus haut."]
+			icon: "mysticalagriculture:tinkering_table"
+			id: "492A90334E11F12B"
+			optional: true
+			rewards: [{
+				id: "57A517066C03C50C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22A0AA1F8A3ECF82"
+				item: "mysticalagriculture:tinkering_table"
+				type: "item"
+			}]
+			title: "Une table de bricolage"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["77BE14D0C241B4E1"]
+			description: ["Six éclats de prospérité et trois lingots de fer : l'augment non accordé (« amélioration vierge »). C'est le cœur de chaque augment : il s'infuse à l'autel d'infusion, entouré de ses ingrédients."]
+			icon: "mysticalagriculture:unattuned_augment"
+			id: "4CFCA38083F81ACB"
+			optional: true
+			rewards: [{
+				id: "3383AF4043850EF6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "769A5D3ADB2DA84A"
+				item: "mysticalagriculture:unattuned_augment"
+				type: "item"
+			}]
+			title: "Une amélioration vierge"
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"7CB09F48F66E9245"
+			]
+			description: ["Donne 2 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins."]
+			icon: "mysticalagriculture:absorption_i_augment"
+			id: "5F1713748279685C"
+			optional: true
+			rewards: [{
+				id: "17A942540C038FB9"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7973A39834B6D2DE"
+				item: "mysticalagriculture:absorption_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Absorption I"
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+				"5F1713748279685C"
+			]
+			description: ["Donne 4 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:absorption_ii_augment"
+			id: "37162EAF151CE59F"
+			optional: true
+			rewards: [{
+				id: "6C81D5C52B9A70C4"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0CD29EEA6C013390"
+				item: "mysticalagriculture:absorption_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Absorption II"
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+				"37162EAF151CE59F"
+			]
+			description: ["Donne 6 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:absorption_iii_augment"
+			id: "550D3F269E68C2A7"
+			optional: true
+			rewards: [{
+				id: "7A25F388A6488A7D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59A7810678D6276A"
+				item: "mysticalagriculture:absorption_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Absorption III"
+			x: 12.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"550D3F269E68C2A7"
+			]
+			description: ["Donne 8 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:absorption_iv_augment"
+			id: "7F64611965699E88"
+			optional: true
+			rewards: [{
+				id: "1F5F10490C9DD9AB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E3BE1217D432AB2"
+				item: "mysticalagriculture:absorption_iv_augment"
+				type: "item"
+			}]
+			title: "Augment : Absorption IV"
+			x: 14.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+				"7F64611965699E88"
+			]
+			description: ["Donne 10 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:absorption_v_augment"
+			id: "1F46150FDA500180"
+			optional: true
+			rewards: [{
+				id: "5FDA9F93EAD77F3D"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "783070617E794C96"
+				item: "mysticalagriculture:absorption_v_augment"
+				type: "item"
+			}]
+			title: "Augment : Absorption V"
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Frappe sur 3×3, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:attack_aoe_i_augment"
+			id: "5452C796A9DBADEF"
+			optional: true
+			rewards: [{
+				id: "39A6AC99704C3C9C"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5047DE735171C21F"
+				item: "mysticalagriculture:attack_aoe_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Attaque de zone I"
+			x: 10.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"5452C796A9DBADEF"
+			]
+			description: ["Frappe sur 5×5, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en fer (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:attack_aoe_ii_augment"
+			id: "5C8A1C2B0B07FEEA"
+			optional: true
+			rewards: [{
+				id: "5BCD6AEE410C6257"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C196C5F44EF1F93"
+				item: "mysticalagriculture:attack_aoe_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Attaque de zone II"
+			x: 12.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+				"5C8A1C2B0B07FEEA"
+			]
+			description: ["Frappe sur 7×7, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:attack_aoe_iii_augment"
+			id: "757708326F846B93"
+			optional: true
+			rewards: [{
+				id: "2B1AFBAB2F1AC168"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "401D3FFAE0897D61"
+				item: "mysticalagriculture:attack_aoe_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Attaque de zone III"
+			x: 14.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+			]
+			description: ["Empêche l'effet Cécité, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Torche (×2), Pierre lumineuse (×2), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:blindness_resistance_augment"
+			id: "27FEAB426B6E7A47"
+			optional: true
+			rewards: [{
+				id: "6AB4D51F71E2E031"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F0B02BC2974D04A"
+				item: "mysticalagriculture:blindness_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance à la cécité"
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Donne Résistance au feu, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Crème de magma (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:fire_resistance_augment"
+			id: "15B9A7B88D0C27F6"
+			optional: true
+			rewards: [{
+				id: "006E901F74966829"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19ACAAE36C83FE26"
+				item: "mysticalagriculture:fire_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance au feu"
+			x: 10.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+			]
+			description: ["Donne le vol comme en créatif, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Étoile du Nether (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:flight_augment"
+			id: "78FA26618C0FB5C9"
+			optional: true
+			rewards: [{
+				id: "3CEC511141FC0AB5"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74C936E4B8D4CD01"
+				item: "mysticalagriculture:flight_augment"
+				type: "item"
+			}]
+			title: "Augment : Vol"
+			x: 14.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Donne Célérité I, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:haste_i_augment"
+			id: "4F9B4A7B77DC3A86"
+			optional: true
+			rewards: [{
+				id: "7BF564E1F1877F29"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61F800CFA22763B5"
+				item: "mysticalagriculture:haste_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Célérité I"
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"4F9B4A7B77DC3A86"
+			]
+			description: ["Donne Célérité II, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:haste_ii_augment"
+			id: "15404203F6CA15DF"
+			optional: true
+			rewards: [{
+				id: "3E924CB10488DF28"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44AC68490E2E65C2"
+				item: "mysticalagriculture:haste_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Célérité II"
+			x: 12.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+				"15404203F6CA15DF"
+			]
+			description: ["Donne Célérité III, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:haste_iii_augment"
+			id: "723CB9FAEB1FD519"
+			optional: true
+			rewards: [{
+				id: "5A1D48281199A2A0"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45200AB96B3A5151"
+				item: "mysticalagriculture:haste_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Célérité III"
+			x: 14.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"7CB09F48F66E9245"
+			]
+			description: ["Ajoute 2 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins."]
+			icon: "mysticalagriculture:health_boost_i_augment"
+			id: "64F2E8FFE8BD97B3"
+			optional: true
+			rewards: [{
+				id: "1A0F6975D824D092"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E49A8E3D3D032F7"
+				item: "mysticalagriculture:health_boost_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Bonus de vie I"
+			x: 8.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+				"64F2E8FFE8BD97B3"
+			]
+			description: ["Ajoute 4 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:health_boost_ii_augment"
+			id: "2D08DB417C12283C"
+			optional: true
+			rewards: [{
+				id: "10CE7544713DA966"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "718902F9E9C22B48"
+				item: "mysticalagriculture:health_boost_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Bonus de vie II"
+			x: 10.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+				"2D08DB417C12283C"
+			]
+			description: ["Ajoute 6 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:health_boost_iii_augment"
+			id: "509A58F41124FD9A"
+			optional: true
+			rewards: [{
+				id: "6132C9276ED10BE1"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65B7725B08826ADE"
+				item: "mysticalagriculture:health_boost_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Bonus de vie III"
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"509A58F41124FD9A"
+			]
+			description: ["Ajoute 8 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:health_boost_iv_augment"
+			id: "0932EA7FB1D1920F"
+			optional: true
+			rewards: [{
+				id: "4F5448C52766B7D3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D6D521D16722378"
+				item: "mysticalagriculture:health_boost_iv_augment"
+				type: "item"
+			}]
+			title: "Augment : Bonus de vie IV"
+			x: 14.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+				"0932EA7FB1D1920F"
+			]
+			description: ["Ajoute 10 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:health_boost_v_augment"
+			id: "7CD2440EF9813683"
+			optional: true
+			rewards: [{
+				id: "68EEFFDF9558C0B3"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "362BE93568631599"
+				item: "mysticalagriculture:health_boost_v_augment"
+				type: "item"
+			}]
+			title: "Augment : Bonus de vie V"
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+			]
+			description: ["Empêche l'effet Faim, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Tarte à la citrouille (×2), Soupe de champignons (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:hunger_resistance_augment"
+			id: "7E8BD6CF7610FFF6"
+			optional: true
+			rewards: [{
+				id: "2826BB1FC4D7AF8F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72F4DA13D0078B2E"
+				item: "mysticalagriculture:hunger_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance à la faim"
+			x: 12.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+			]
+			description: ["Donne Saut amélioré I, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:jump_boost_i_augment"
+			id: "6DFF293C371FE666"
+			optional: true
+			rewards: [{
+				id: "6E015D9F1AE72578"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05F242DF1A69922B"
+				item: "mysticalagriculture:jump_boost_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Saut amélioré I"
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+				"6DFF293C371FE666"
+			]
+			description: ["Donne Saut amélioré II, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:jump_boost_ii_augment"
+			id: "3F99C1BAC9AE003B"
+			optional: true
+			rewards: [{
+				id: "22A6BFC6C40111D6"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E1D2BEAF30F3288"
+				item: "mysticalagriculture:jump_boost_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Saut amélioré II"
+			x: 10.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"3F99C1BAC9AE003B"
+			]
+			description: ["Donne Saut amélioré III, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:jump_boost_iii_augment"
+			id: "0F1C51585C2B187D"
+			optional: true
+			rewards: [{
+				id: "6A42DF5123AEC179"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C898880DB7AB6F0"
+				item: "mysticalagriculture:jump_boost_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Saut amélioré III"
+			x: 12.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"7CB09F48F66E9245"
+			]
+			description: ["Donne Chance I, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins."]
+			icon: "mysticalagriculture:luck_i_augment"
+			id: "66F5AAFE1DE87F35"
+			optional: true
+			rewards: [{
+				id: "6862D06D6BD98917"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D42512FD4C488C9"
+				item: "mysticalagriculture:luck_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Chance I"
+			x: 8.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+				"66F5AAFE1DE87F35"
+			]
+			description: ["Donne Chance II, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:luck_ii_augment"
+			id: "338321F5A060EBDD"
+			optional: true
+			rewards: [{
+				id: "2D9B763737B7AA24"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B79E50A21E1EDAD"
+				item: "mysticalagriculture:luck_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Chance II"
+			x: 10.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+				"338321F5A060EBDD"
+			]
+			description: ["Donne Chance III, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:luck_iii_augment"
+			id: "71F7452B9D38D978"
+			optional: true
+			rewards: [{
+				id: "6EC1A3CD197517ED"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1DC465DBD6CB7EBB"
+				item: "mysticalagriculture:luck_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Chance III"
+			x: 14.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+			]
+			description: ["Mine sur 3×3, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:mining_aoe_i_augment"
+			id: "29C7107788B09E24"
+			optional: true
+			rewards: [{
+				id: "3DDB8CDCE2E461B8"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0ADF709B080928FC"
+				item: "mysticalagriculture:mining_aoe_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de minage I"
+			x: 8.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+				"29C7107788B09E24"
+			]
+			description: ["Mine sur 5×5, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:mining_aoe_ii_augment"
+			id: "474C825341BF27DA"
+			optional: true
+			rewards: [{
+				id: "547DB7592E84A212"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6547AC42F7C4DE9C"
+				item: "mysticalagriculture:mining_aoe_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de minage II"
+			x: 10.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"474C825341BF27DA"
+			]
+			description: ["Mine sur 7×7, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:mining_aoe_iii_augment"
+			id: "0AE2BA4A019BCA91"
+			optional: true
+			rewards: [{
+				id: "0807EB026D386A71"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C1E6CDC9DF5B724"
+				item: "mysticalagriculture:mining_aoe_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de minage III"
+			x: 12.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+				"0AE2BA4A019BCA91"
+			]
+			description: ["Mine sur 9×9, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:mining_aoe_iv_augment"
+			id: "7B00310D63ACA0A4"
+			optional: true
+			rewards: [{
+				id: "7C4055E224C528B2"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5916A1C07F4B9E79"
+				item: "mysticalagriculture:mining_aoe_iv_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de minage IV"
+			x: 14.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+			]
+			description: ["Empêche l'effet Fatigue de minage, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×2), Pioche en or (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:mining_fatigue_resistance_augment"
+			id: "10EC484BCDC2B78B"
+			optional: true
+			rewards: [{
+				id: "275A5C0386E24ACC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AAACBA61925CEC9"
+				item: "mysticalagriculture:mining_fatigue_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance à la fatigue de minage"
+			x: 12.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"7CB09F48F66E9245"
+			]
+			description: ["Empêche l'effet Nausée, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Cuir (×2), Seau de lait (×2), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins."]
+			icon: "mysticalagriculture:nausea_resistance_augment"
+			id: "653B2FD03921F3C7"
+			optional: true
+			rewards: [{
+				id: "32991BA07756F734"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "155906578FAC28A3"
+				item: "mysticalagriculture:nausea_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance à la nausée"
+			x: 8.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+			]
+			description: ["Donne Vision nocturne, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Carotte dorée (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:night_vision_augment"
+			id: "1D2BC503C04C04F2"
+			optional: true
+			rewards: [{
+				id: "7A9666FDF2781749"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "498FFF175017A269"
+				item: "mysticalagriculture:night_vision_augment"
+				type: "item"
+			}]
+			title: "Augment : Vision nocturne"
+			x: 8.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Annule tous les dégâts de chute, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Diamant (×2), laine (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:no_fall_damage_augment"
+			id: "53736FAFB745CCE6"
+			optional: true
+			rewards: [{
+				id: "421615970567F41F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72E1AE035093EEB8"
+				item: "mysticalagriculture:no_fall_damage_augment"
+				type: "item"
+			}]
+			title: "Augment : Sans dégâts de chute"
+			x: 10.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"7CB09F48F66E9245"
+			]
+			description: ["Trace des chemins sur 3×3 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en fer (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins."]
+			icon: "mysticalagriculture:pathing_aoe_i_augment"
+			id: "476D47655AEF13BA"
+			optional: true
+			rewards: [{
+				id: "328FC8F26727BBEE"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34868EA207F2C818"
+				item: "mysticalagriculture:pathing_aoe_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de chemin I"
+			x: 8.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+				"476D47655AEF13BA"
+			]
+			description: ["Trace des chemins sur 5×5 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:pathing_aoe_ii_augment"
+			id: "14FA485C8AF9F0BE"
+			optional: true
+			rewards: [{
+				id: "598A36974C3D557D"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "132E1ECD77CB69FA"
+				item: "mysticalagriculture:pathing_aoe_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de chemin II"
+			x: 10.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+				"14FA485C8AF9F0BE"
+			]
+			description: ["Trace des chemins sur 7×7 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en diamant (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:pathing_aoe_iii_augment"
+			id: "0DCFAB058D07ADB9"
+			optional: true
+			rewards: [{
+				id: "5D53EA664DDB079D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E05520DDE7CA53F"
+				item: "mysticalagriculture:pathing_aoe_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de chemin III"
+			x: 12.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"0DCFAB058D07ADB9"
+			]
+			description: ["Trace des chemins sur 9×9 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:pathing_aoe_iv_augment"
+			id: "71AC997E6BF8C9BB"
+			optional: true
+			rewards: [{
+				id: "55E78EEA49B2643C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38472C29A2B23940"
+				item: "mysticalagriculture:pathing_aoe_iv_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de chemin IV"
+			x: 14.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+			]
+			description: ["Empêche l'effet Poison, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Seau de lait (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:poison_resistance_augment"
+			id: "65CCCB923ED86BAD"
+			optional: true
+			rewards: [{
+				id: "1F673F26D64E5148"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20F4D67118A27527"
+				item: "mysticalagriculture:poison_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance au poison"
+			x: 12.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Donne Chute lente, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Membrane de Phantom (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:slow_falling_augment"
+			id: "51ABAAA86BA0CE69"
+			optional: true
+			rewards: [{
+				id: "6B30636F07A4A377"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E954B22A6361D7E"
+				item: "mysticalagriculture:slow_falling_augment"
+				type: "item"
+			}]
+			title: "Augment : Chute lente"
+			x: 10.0d
+			y: 30.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Empêche l'effet Lenteur, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×2), Sucre (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:slowness_resistance_augment"
+			id: "662F1A34F36103AB"
+			optional: true
+			rewards: [{
+				id: "40F72FDFF7E28B75"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A8EA1F9B9FD4767"
+				item: "mysticalagriculture:slowness_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance à la lenteur"
+			x: 10.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+			]
+			description: ["Donne Vitesse I, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:speed_i_augment"
+			id: "1D4A525FDA941BC8"
+			optional: true
+			rewards: [{
+				id: "1F36F688C78F6ABC"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AB53573D23E1E3D"
+				item: "mysticalagriculture:speed_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Vitesse I"
+			x: 8.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+				"1D4A525FDA941BC8"
+			]
+			description: ["Donne Vitesse II, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:speed_ii_augment"
+			id: "0B7589A3B06D1707"
+			optional: true
+			rewards: [{
+				id: "066CE571C6556534"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "259F49D003B28311"
+				item: "mysticalagriculture:speed_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Vitesse II"
+			x: 10.0d
+			y: 33.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"0B7589A3B06D1707"
+			]
+			description: ["Donne Vitesse III, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:speed_iii_augment"
+			id: "30AE6C7D0BC8552B"
+			optional: true
+			rewards: [{
+				id: "4FD19651674DBA1D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1752F15A628DF23A"
+				item: "mysticalagriculture:speed_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Vitesse III"
+			x: 12.0d
+			y: 30.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Fait monter les marches d'un bloc sans sauter, posé sur des jambières ou des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Escalier (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:step_assist_augment"
+			id: "29E96B82568468CE"
+			optional: true
+			rewards: [{
+				id: "24573AA52E7AF327"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "01E131F25FF3417C"
+				item: "mysticalagriculture:step_assist_augment"
+				type: "item"
+			}]
+			title: "Augment : Assistance à la montée"
+			x: 10.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Donne Force I, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en fer (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:strength_i_augment"
+			id: "6CB031040F5F7569"
+			optional: true
+			rewards: [{
+				id: "53622CE721E0C5CD"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C18B649508E0D50"
+				item: "mysticalagriculture:strength_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Force I"
+			x: 10.0d
+			y: 36.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"6CB031040F5F7569"
+			]
+			description: ["Donne Force II, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en fer (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:strength_ii_augment"
+			id: "7A916B0CAF50B6D1"
+			optional: true
+			rewards: [{
+				id: "73108CFC4E80669F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03E9E8D402C0DC82"
+				item: "mysticalagriculture:strength_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Force II"
+			x: 12.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+				"7A916B0CAF50B6D1"
+			]
+			description: ["Donne Force III, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en diamant (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:strength_iii_augment"
+			id: "5C71CF031C2783A5"
+			optional: true
+			rewards: [{
+				id: "1055BB13C59BD8BE"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4899F08CC63ED975"
+				item: "mysticalagriculture:strength_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Force III"
+			x: 14.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+			]
+			description: ["Laboure sur 3×3 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:tilling_aoe_i_augment"
+			id: "741E640A155F82EE"
+			optional: true
+			rewards: [{
+				id: "5AEBB53762CE75F4"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "70EB6E8BC7CAC16B"
+				item: "mysticalagriculture:tilling_aoe_i_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de labour I"
+			x: 8.0d
+			y: 30.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+				"741E640A155F82EE"
+			]
+			description: ["Laboure sur 5×5 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:tilling_aoe_ii_augment"
+			id: "0A8DAA2374A144E0"
+			optional: true
+			rewards: [{
+				id: "3A499ADD2BB251A0"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33CEC16A1075642A"
+				item: "mysticalagriculture:tilling_aoe_ii_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de labour II"
+			x: 10.0d
+			y: 38.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"0B7651ABDF440D26"
+				"0A8DAA2374A144E0"
+			]
+			description: ["Laboure sur 7×7 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins."]
+			icon: "mysticalagriculture:tilling_aoe_iii_augment"
+			id: "102D102071F1230D"
+			optional: true
+			rewards: [{
+				id: "425B956DE5A9BEC5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C25A43472B88D66"
+				item: "mysticalagriculture:tilling_aoe_iii_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de labour III"
+			x: 12.0d
+			y: 33.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+				"102D102071F1230D"
+			]
+			description: ["Laboure sur 9×9 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:tilling_aoe_iv_augment"
+			id: "72245E7158377121"
+			optional: true
+			rewards: [{
+				id: "49E7CA1424AA816D"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "007925A4B8C8C6FD"
+				item: "mysticalagriculture:tilling_aoe_iv_augment"
+				type: "item"
+			}]
+			title: "Augment : Zone de labour IV"
+			x: 14.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"1E0AAEDF3F6656A4"
+			]
+			description: ["Donne Respiration aquatique, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Poisson-globe (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins."]
+			icon: "mysticalagriculture:water_breathing_augment"
+			id: "10B352C8EC97E29A"
+			optional: true
+			rewards: [{
+				id: "59CB06648288455B"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CE7098AC92A7069"
+				item: "mysticalagriculture:water_breathing_augment"
+				type: "item"
+			}]
+			title: "Augment : Respiration aquatique"
+			x: 8.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"2D93EBED9447D1C9"
+			]
+			description: ["Empêche l'effet Faiblesse, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Hache en fer (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins."]
+			icon: "mysticalagriculture:weakness_resistance_augment"
+			id: "69FAAAE04DA71D63"
+			optional: true
+			rewards: [{
+				id: "3F227D0B77B28E2F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "556F9658C31F9C20"
+				item: "mysticalagriculture:weakness_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance à la faiblesse"
+			x: 10.0d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"492A90334E11F12B"
+				"4CFCA38083F81ACB"
+				"6D013E5955FA73C7"
+				"3D0886FD0A32E223"
+			]
+			description: ["Empêche l'effet Wither, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Crâne de Wither squelette (×2), Étoile du Nether (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins."]
+			icon: "mysticalagriculture:wither_resistance_augment"
+			id: "50B94B5B16459702"
+			optional: true
+			rewards: [{
+				id: "070269C5B03526C5"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "072B86A90EEBA95D"
+				item: "mysticalagriculture:wither_resistance_augment"
+				type: "item"
+			}]
+			title: "Augment : Résistance au Wither"
+			x: 14.0d
+			y: 30.5d
+		}
+		{
+			dependencies: [
+				"5F1713748279685C"
+				"37162EAF151CE59F"
+				"550D3F269E68C2A7"
+				"7F64611965699E88"
+				"1F46150FDA500180"
+				"5452C796A9DBADEF"
+				"5C8A1C2B0B07FEEA"
+				"757708326F846B93"
+				"27FEAB426B6E7A47"
+				"15B9A7B88D0C27F6"
+				"78FA26618C0FB5C9"
+				"4F9B4A7B77DC3A86"
+				"15404203F6CA15DF"
+				"723CB9FAEB1FD519"
+				"64F2E8FFE8BD97B3"
+				"2D08DB417C12283C"
+				"509A58F41124FD9A"
+				"0932EA7FB1D1920F"
+				"7CD2440EF9813683"
+				"7E8BD6CF7610FFF6"
+				"6DFF293C371FE666"
+				"3F99C1BAC9AE003B"
+				"0F1C51585C2B187D"
+				"66F5AAFE1DE87F35"
+				"338321F5A060EBDD"
+				"71F7452B9D38D978"
+				"29C7107788B09E24"
+				"474C825341BF27DA"
+				"0AE2BA4A019BCA91"
+				"7B00310D63ACA0A4"
+				"10EC484BCDC2B78B"
+				"653B2FD03921F3C7"
+				"1D2BC503C04C04F2"
+				"53736FAFB745CCE6"
+				"476D47655AEF13BA"
+				"14FA485C8AF9F0BE"
+				"0DCFAB058D07ADB9"
+				"71AC997E6BF8C9BB"
+				"65CCCB923ED86BAD"
+				"51ABAAA86BA0CE69"
+				"662F1A34F36103AB"
+				"1D4A525FDA941BC8"
+				"0B7589A3B06D1707"
+				"30AE6C7D0BC8552B"
+				"29E96B82568468CE"
+				"6CB031040F5F7569"
+				"7A916B0CAF50B6D1"
+				"5C71CF031C2783A5"
+				"741E640A155F82EE"
+				"0A8DAA2374A144E0"
+				"102D102071F1230D"
+				"72245E7158377121"
+				"10B352C8EC97E29A"
+				"69FAAAE04DA71D63"
+				"50B94B5B16459702"
+			]
+			description: ["Les cinquante-cinq augments du mod, à garder. Il n'y a qu'un emplacement par pièce : le choix se fait ensuite, pièce par pièce."]
+			icon: "mysticalagriculture:absorption_i_augment"
+			id: "5A0D9A28FDFD83F7"
+			optional: true
+			rewards: [{
+				id: "768A3D283F78016F"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3577323DF3E59272"
+					item: "mysticalagriculture:absorption_i_augment"
+					type: "item"
+				}
+				{
+					id: "6D67CA03861DA856"
+					item: "mysticalagriculture:absorption_ii_augment"
+					type: "item"
+				}
+				{
+					id: "638D9179290E8033"
+					item: "mysticalagriculture:absorption_iii_augment"
+					type: "item"
+				}
+				{
+					id: "1A0D683B15A4EA5C"
+					item: "mysticalagriculture:absorption_iv_augment"
+					type: "item"
+				}
+				{
+					id: "409D9E5FCB85C88E"
+					item: "mysticalagriculture:absorption_v_augment"
+					type: "item"
+				}
+				{
+					id: "23B3724124D2AF2E"
+					item: "mysticalagriculture:attack_aoe_i_augment"
+					type: "item"
+				}
+				{
+					id: "09D316FA4583C80A"
+					item: "mysticalagriculture:attack_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "63D3714CB092474A"
+					item: "mysticalagriculture:attack_aoe_iii_augment"
+					type: "item"
+				}
+				{
+					id: "2AB7EF2C26DB837B"
+					item: "mysticalagriculture:blindness_resistance_augment"
+					type: "item"
+				}
+				{
+					id: "69E62F889C9F6A38"
+					item: "mysticalagriculture:fire_resistance_augment"
+					type: "item"
+				}
+				{
+					id: "158A3F07247AC8B4"
+					item: "mysticalagriculture:flight_augment"
+					type: "item"
+				}
+				{
+					id: "10CE9D9252C7C1EF"
+					item: "mysticalagriculture:haste_i_augment"
+					type: "item"
+				}
+				{
+					id: "08B231221286E8FF"
+					item: "mysticalagriculture:haste_ii_augment"
+					type: "item"
+				}
+				{
+					id: "2631906463E8FBD9"
+					item: "mysticalagriculture:haste_iii_augment"
+					type: "item"
+				}
+				{
+					id: "45AD5E6BBB30762D"
+					item: "mysticalagriculture:health_boost_i_augment"
+					type: "item"
+				}
+				{
+					id: "20020AEEA3FBD191"
+					item: "mysticalagriculture:health_boost_ii_augment"
+					type: "item"
+				}
+				{
+					id: "7B92062C5D864DA2"
+					item: "mysticalagriculture:health_boost_iii_augment"
+					type: "item"
+				}
+				{
+					id: "4F9D19541AD67AA3"
+					item: "mysticalagriculture:health_boost_iv_augment"
+					type: "item"
+				}
+				{
+					id: "289F119D3965B91F"
+					item: "mysticalagriculture:health_boost_v_augment"
+					type: "item"
+				}
+				{
+					id: "3A3D31D35A402E1D"
+					item: "mysticalagriculture:hunger_resistance_augment"
+					type: "item"
+				}
+				{
+					id: "5CBEC8375C315378"
+					item: "mysticalagriculture:jump_boost_i_augment"
+					type: "item"
+				}
+				{
+					id: "5C0589DB52729970"
+					item: "mysticalagriculture:jump_boost_ii_augment"
+					type: "item"
+				}
+				{
+					id: "18EB2920C73E98B4"
+					item: "mysticalagriculture:jump_boost_iii_augment"
+					type: "item"
+				}
+				{
+					id: "05C0D7BA0CB6D961"
+					item: "mysticalagriculture:luck_i_augment"
+					type: "item"
+				}
+				{
+					id: "18C3691732BED47C"
+					item: "mysticalagriculture:luck_ii_augment"
+					type: "item"
+				}
+				{
+					id: "42BED81AED467C86"
+					item: "mysticalagriculture:luck_iii_augment"
+					type: "item"
+				}
+				{
+					id: "250721D80C648481"
+					item: "mysticalagriculture:mining_aoe_i_augment"
+					type: "item"
+				}
+				{
+					id: "3E995FC245499A52"
+					item: "mysticalagriculture:mining_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "20A40089A625EF14"
+					item: "mysticalagriculture:mining_aoe_iii_augment"
+					type: "item"
+				}
+				{
+					id: "3A37F30B18A979BF"
+					item: "mysticalagriculture:mining_aoe_iv_augment"
+					type: "item"
+				}
+				{
+					id: "003E789B279C6F11"
+					item: "mysticalagriculture:mining_fatigue_resistance_augment"
+					type: "item"
+				}
+				{
+					id: "3C152D9268FCFB37"
+					item: "mysticalagriculture:nausea_resistance_augment"
+					type: "item"
+				}
+				{
+					id: "0412E66A1FF5FC59"
+					item: "mysticalagriculture:night_vision_augment"
+					type: "item"
+				}
+				{
+					id: "2DFD1F1946FB25B3"
+					item: "mysticalagriculture:no_fall_damage_augment"
+					type: "item"
+				}
+				{
+					id: "15530D8DCCC64E49"
+					item: "mysticalagriculture:pathing_aoe_i_augment"
+					type: "item"
+				}
+				{
+					id: "1115FFEE17890A73"
+					item: "mysticalagriculture:pathing_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "01C438CB88B5F352"
+					item: "mysticalagriculture:pathing_aoe_iii_augment"
+					type: "item"
+				}
+				{
+					id: "28B922FA36B0687E"
+					item: "mysticalagriculture:pathing_aoe_iv_augment"
+					type: "item"
+				}
+				{
+					id: "3F090E02C3A5763A"
+					item: "mysticalagriculture:poison_resistance_augment"
+					type: "item"
+				}
+				{
+					id: "0FC48E0DEF29BC2A"
+					item: "mysticalagriculture:slow_falling_augment"
+					type: "item"
+				}
+				{
+					id: "4681581B27308B67"
+					item: "mysticalagriculture:slowness_resistance_augment"
+					type: "item"
+				}
+				{
+					id: "0A184D6F25FE686F"
+					item: "mysticalagriculture:speed_i_augment"
+					type: "item"
+				}
+				{
+					id: "1CC0DF24E4ECFB30"
+					item: "mysticalagriculture:speed_ii_augment"
+					type: "item"
+				}
+				{
+					id: "26F3FA59861982EA"
+					item: "mysticalagriculture:speed_iii_augment"
+					type: "item"
+				}
+				{
+					id: "0A267CE89E29EB01"
+					item: "mysticalagriculture:step_assist_augment"
+					type: "item"
+				}
+				{
+					id: "355D5E5B87EB6D66"
+					item: "mysticalagriculture:strength_i_augment"
+					type: "item"
+				}
+				{
+					id: "0A5B76E6D82C1480"
+					item: "mysticalagriculture:strength_ii_augment"
+					type: "item"
+				}
+				{
+					id: "2A568BD555071F82"
+					item: "mysticalagriculture:strength_iii_augment"
+					type: "item"
+				}
+				{
+					id: "466AEB1EDAE22773"
+					item: "mysticalagriculture:tilling_aoe_i_augment"
+					type: "item"
+				}
+				{
+					id: "77B7BCF0FB104E27"
+					item: "mysticalagriculture:tilling_aoe_ii_augment"
+					type: "item"
+				}
+				{
+					id: "074685EB314427DB"
+					item: "mysticalagriculture:tilling_aoe_iii_augment"
+					type: "item"
+				}
+				{
+					id: "6B276027EECE2896"
+					item: "mysticalagriculture:tilling_aoe_iv_augment"
+					type: "item"
+				}
+				{
+					id: "0ECF6385364D30B5"
+					item: "mysticalagriculture:water_breathing_augment"
+					type: "item"
+				}
+				{
+					id: "1C815E953C7416A8"
+					item: "mysticalagriculture:weakness_resistance_augment"
+					type: "item"
+				}
+				{
+					id: "7F4F595D1BE43741"
+					item: "mysticalagriculture:wither_resistance_augment"
+					type: "item"
+				}
+			]
+			title: "&dTous les augments"
 			x: 18.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["77BE14D0C241B4E1"]
+			description: ["Quatre éclats et quatre lingots de prospérité autour d'un diamant : la base de toutes les améliorations de machine."]
+			icon: "mysticalagriculture:upgrade_base"
+			id: "13F9C95EACBF0FD7"
+			optional: true
+			rewards: [{
+				id: "5D8F6D90B2E12DF8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F18E3161B3AA9AB"
+				item: "mysticalagriculture:upgrade_base"
+				type: "item"
+			}]
+			title: "Une base d'amélioration"
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7C91CA1C26D3F240"]
+			description: ["Quatre lingots de fer, un bol, une poudre d'os. Rempli à une source d'eau, l'&barrosoir&r fait pousser ce qu'il arrose, à la main. Chaque palier d'essence l'améliore."]
+			icon: "mysticalagriculture:watering_can"
+			id: "579AF22FF32F2671"
+			optional: true
+			rewards: [{
+				id: "496EEA8D61F3E349"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B3471D3B3C2EC26"
+				item: "mysticalagriculture:watering_can"
+				type: "item"
+			}]
+			title: "Un arrosoir"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77BE14D0C241B4E1"]
+			description: ["Quatre lingots de fer, quatre poudres de redstone, une pierre. La base de la moissonneuse, de l'extracteur d'âme, du retransformateur et du générateur de soulium."]
+			icon: "mysticalagriculture:machine_frame"
+			id: "095ED0AE6CD359D4"
+			optional: true
+			rewards: [{
+				id: "04D6A87E1E688C9F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6020838AA5890164"
+				item: "mysticalagriculture:machine_frame"
+				type: "item"
+			}]
+			title: "Un châssis de machine"
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"095ED0AE6CD359D4"
+				"074F0B0A61ACFBA0"
+			]
+			description: ["Lingots de fer, de soulium, deux houes en fer et un châssis. Il change les graines en trop en leur essence. Il brûle du combustible solide et accepte les améliorations."]
+			icon: "mysticalagriculture:seed_reprocessor"
+			id: "79973113ADA65823"
+			optional: true
+			rewards: [{
+				id: "0B9CFC330F601C7D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55EED3E10909B2E1"
+				item: "mysticalagriculture:seed_reprocessor"
+				type: "item"
+			}]
+			title: "Un retransformateur de graines"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"095ED0AE6CD359D4"
+				"074F0B0A61ACFBA0"
+			]
+			description: ["Lingots de fer et de soulium, deux crânes de wither squelette, un châssis. Il fait apparaître des créatures, hostiles ou passives, à partir d'essences, dans un rayon de trois blocs. Combustible solide, améliorations acceptées, coupé par un signal de redstone."]
+			icon: "mysticalagriculture:soulium_spawner"
+			id: "4941BCD1188ABC4F"
+			optional: true
+			rewards: [{
+				id: "20713725AF4078E3"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78D1048FF6DE5CEC"
+				item: "mysticalagriculture:soulium_spawner"
+				type: "item"
+			}]
+			title: "Un générateur de soulium"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["074F0B0A61ACFBA0"]
+			description: ["Une table d'enchantement, trois pierres d'âme, un lingot de soulium. Il enchante livres, outils et armures avec des matériaux et de l'essence d'expérience, comme une enclume."]
+			icon: "mysticalagriculture:enchanter"
+			id: "4748067EA06DE30A"
+			optional: true
+			rewards: [{
+				id: "721C90ED83F8BE7A"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "780B0A33019F5F4F"
+				item: "mysticalagriculture:enchanter"
+				type: "item"
+			}]
+			title: "Un enchanteur"
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["074F0B0A61ACFBA0"]
+			description: ["Deux lingots de soulium et deux verres d'âme. Dans l'inventaire, elle recueille les orbes d'expérience ramassés : c'est ce qu'il faut pour les graines d'expérience."]
+			icon: "mysticalagriculture:experience_capsule"
+			id: "193C30A47F6797B9"
+			optional: true
+			rewards: [{
+				id: "69CBD9F2B176E05E"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2138C0976E08EA20"
+				item: "mysticalagriculture:experience_capsule"
+				type: "item"
+			}]
+			title: "Une capsule d'expérience"
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3D0886FD0A32E223"
+				"31A5BCF4CC6FE1B5"
+			]
+			description: ["Quatre éclats de prospérité, quatre essences et une gemme de supremium : un cristal d'infusion qui ne s'use jamais. Sur ce serveur, le cristal simple tient mille usages."]
+			icon: "mysticalagriculture:master_infusion_crystal"
+			id: "19009AB03171BFA2"
+			optional: true
+			rewards: [{
+				id: "128D2E65B729AADC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "231BE146102B3013"
+				item: "mysticalagriculture:master_infusion_crystal"
+				type: "item"
+			}]
+			title: "Le cristal d'infusion maître"
+			x: 14.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["77BE14D0C241B4E1"]
@@ -781,7 +4312,7 @@
 			}]
 			title: "Une dague de soulium"
 			x: 4.0d
-			y: 8.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["074F0B0A61ACFBA0"]
@@ -801,7 +4332,7 @@
 			}]
 			title: "Un bocal d'âme"
 			x: 6.0d
-			y: 5.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["34881D111BB699D9"]
@@ -821,7 +4352,7 @@
 			}]
 			title: "Un extracteur d'âme"
 			x: 8.0d
-			y: 6.5d
+			y: 33.5d
 		}
 	]
 	title: "&aMystical Agriculture"

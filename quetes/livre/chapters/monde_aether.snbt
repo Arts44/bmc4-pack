@@ -980,6 +980,519 @@
 			y: 10.25d
 		}
 		{
+			dependencies: ["681600F1993ADCBA"]
+			description: ["&bUmbral Skies&r ajoute aux boss de l'Aether des trophées comme ceux de la Twilight Forest. Celui du Slider est dans le coffre de récompense du donjon de bronze."]
+			icon: "umbral_skies:slider_trophy"
+			id: "4781871A7FA78F0E"
+			optional: true
+			rewards: [{
+				id: "353746F22DF6BD78"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E2740C278FA2CDC"
+				item: "umbral_skies:slider_trophy"
+				type: "item"
+			}]
+			title: "Le trophée du Slider"
+			x: 8.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["2983ACD62DE616FC"]
+			description: ["Dans le coffre de récompense du donjon d'argent."]
+			icon: "umbral_skies:valkyrie_queen_trophy"
+			id: "08093A5DBCEBCBC2"
+			optional: true
+			rewards: [{
+				id: "46ED43CCDF081EF5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5013C9CCE23B85DB"
+				item: "umbral_skies:valkyrie_queen_trophy"
+				type: "item"
+			}]
+			title: "Le trophée de la Reine des Valkyries"
+			x: 12.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["315F402411B0E10E"]
+			description: ["Dans le coffre de récompense du donjon d'or."]
+			icon: "umbral_skies:sun_spirit_trophy"
+			id: "6FB2F43388266407"
+			optional: true
+			rewards: [{
+				id: "6A71A0DB045F5766"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57CCF135F6791AF8"
+				item: "umbral_skies:sun_spirit_trophy"
+				type: "item"
+			}]
+			title: "Le trophée de l'Esprit du Soleil"
+			x: 16.0d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"406A5A915661BC0F"
+				"49F68B8AEB0F5E46"
+			]
+			description: ["Des gants d'Aether faits de la Twilight Forest : deux lingots de bois de fer, de feuille d'acier ou de métal de chevalier, deux écailles de naga, deux fourrures arctiques, deux fourrures de yéti alpha. Les gants ardents : des gants de fer de l'Aether et deux fioles ardentes. Les gantelets fantômes sont dans le coffre du boss de la forteresse des chevaliers."]
+			icon: "umbral_skies:ironwood_gloves"
+			id: "6E7BF8F927B5EC75"
+			optional: true
+			rewards: [{
+				id: "0B804E75F6734233"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2ADA63BB159096FE"
+					item: "umbral_skies:ironwood_gloves"
+					type: "item"
+				}
+				{
+					id: "61ED922EACB2B510"
+					item: "umbral_skies:steeleaf_gloves"
+					type: "item"
+				}
+				{
+					id: "0EDB467B9B00CB2B"
+					item: "umbral_skies:naga_gloves"
+					type: "item"
+				}
+				{
+					id: "7A21166FD1DD38C4"
+					item: "umbral_skies:knightmetal_gloves"
+					type: "item"
+				}
+				{
+					id: "2191ADF1A6363302"
+					item: "umbral_skies:arctic_gloves"
+					type: "item"
+				}
+				{
+					id: "0747342303A424C1"
+					item: "umbral_skies:yeti_gloves"
+					type: "item"
+				}
+				{
+					id: "383D665B1CE2D540"
+					item: "umbral_skies:fiery_gloves"
+					type: "item"
+				}
+				{
+					id: "230BB0253A81AEF5"
+					item: "umbral_skies:phantom_gloves"
+					type: "item"
+				}
+			]
+			title: "Les gants du Crépuscule"
+			x: 4.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["6D0336C0967F3F70"]
+			description: ["Le premier palier de l'Aether, en bois de skyroot : ils récoltent les blocs en double (astuce du mod)."]
+			icon: "aether:skyroot_sword"
+			id: "204F531ADC0CC2A1"
+			optional: true
+			rewards: [{
+				id: "4FF65880A4279657"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7E9486CA5B027C48"
+					item: "aether:skyroot_sword"
+					type: "item"
+				}
+				{
+					id: "10C5B353DB134C0B"
+					item: "aether:skyroot_pickaxe"
+					type: "item"
+				}
+				{
+					id: "4C5553D2ED044E68"
+					item: "aether:skyroot_axe"
+					type: "item"
+				}
+				{
+					id: "346A94A81AA63DCD"
+					item: "aether:skyroot_shovel"
+					type: "item"
+				}
+				{
+					id: "3327C233728816C2"
+					item: "aether:skyroot_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils en skyroot"
+			x: 6.0d
+			y: 11.75d
+		}
+		{
+			dependencies: [
+				"204F531ADC0CC2A1"
+				"56653C558BB84C3F"
+			]
+			description: ["Le deuxième palier : ils produisent parfois des éclats d'ambrosium (astuce du mod)."]
+			icon: "aether:holystone_sword"
+			id: "190F3C25DFE830B5"
+			optional: true
+			rewards: [{
+				id: "5BC76246678FD545"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2AE0F13C03DDC5AA"
+					item: "aether:holystone_sword"
+					type: "item"
+				}
+				{
+					id: "579D67FB5F0C8AEA"
+					item: "aether:holystone_pickaxe"
+					type: "item"
+				}
+				{
+					id: "63F38D73CA1BF2A9"
+					item: "aether:holystone_axe"
+					type: "item"
+				}
+				{
+					id: "0EF74E4EBFBFE2CA"
+					item: "aether:holystone_shovel"
+					type: "item"
+				}
+				{
+					id: "41EA484402D162AB"
+					item: "aether:holystone_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils en holystone"
+			x: 8.0d
+			y: 11.75d
+		}
+		{
+			dependencies: [
+				"190F3C25DFE830B5"
+				"525ADAF11B2EA2D9"
+			]
+			description: ["Armure, gants et outils en zanite : ils gagnent en force à mesure qu'on s'en sert (astuce du mod)."]
+			icon: "aether:zanite_helmet"
+			id: "19FC690CAA89C81F"
+			optional: true
+			rewards: [{
+				id: "44DC24DAB35EE942"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "515C88274675E397"
+					item: "aether:zanite_helmet"
+					type: "item"
+				}
+				{
+					id: "0B06B25ACBFE170A"
+					item: "aether:zanite_chestplate"
+					type: "item"
+				}
+				{
+					id: "65676D342454DC8A"
+					item: "aether:zanite_leggings"
+					type: "item"
+				}
+				{
+					id: "1CFA50990E3310DC"
+					item: "aether:zanite_boots"
+					type: "item"
+				}
+				{
+					id: "0302ACB3CC95EE95"
+					item: "aether:zanite_gloves"
+					type: "item"
+				}
+				{
+					id: "0A289C89F98C4A5A"
+					item: "aether:zanite_sword"
+					type: "item"
+				}
+				{
+					id: "33D93A9BAFE0789D"
+					item: "aether:zanite_pickaxe"
+					type: "item"
+				}
+				{
+					id: "623423104EE17B8F"
+					item: "aether:zanite_axe"
+					type: "item"
+				}
+				{
+					id: "4453F6D913BCA22C"
+					item: "aether:zanite_shovel"
+					type: "item"
+				}
+				{
+					id: "21517E7E8BEB172B"
+					item: "aether:zanite_hoe"
+					type: "item"
+				}
+			]
+			title: "L'équipement en zanite"
+			x: 10.0d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"19FC690CAA89C81F"
+				"7F0EAB88C43B5608"
+			]
+			description: ["Armure, gants et outils en gravitite enchantée : l'armure fait sauter plus haut et annule les dégâts de chute, les outils soulèvent les blocs d'un clic droit (astuces du mod). C'est le sommet de l'équipement forgé de l'Aether."]
+			icon: "aether:gravitite_helmet"
+			id: "77DAA8FE382090AF"
+			optional: true
+			rewards: [{
+				id: "2D3EFB4C5137DE98"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					id: "2BAAA6A0BF07FCC7"
+					item: "aether:gravitite_helmet"
+					type: "item"
+				}
+				{
+					id: "0CE261D16CB1020F"
+					item: "aether:gravitite_chestplate"
+					type: "item"
+				}
+				{
+					id: "4B75EF8C37A63738"
+					item: "aether:gravitite_leggings"
+					type: "item"
+				}
+				{
+					id: "45B94767CC3A0922"
+					item: "aether:gravitite_boots"
+					type: "item"
+				}
+				{
+					id: "371577A3C926343F"
+					item: "aether:gravitite_gloves"
+					type: "item"
+				}
+				{
+					id: "4B0D9F949FC391C0"
+					item: "aether:gravitite_sword"
+					type: "item"
+				}
+				{
+					id: "0FB610F8CF701226"
+					item: "aether:gravitite_pickaxe"
+					type: "item"
+				}
+				{
+					id: "474E9396FAAE6BCB"
+					item: "aether:gravitite_axe"
+					type: "item"
+				}
+				{
+					id: "50DE428EA227E1BC"
+					item: "aether:gravitite_shovel"
+					type: "item"
+				}
+				{
+					id: "56542B1F4A75B3FB"
+					item: "aether:gravitite_hoe"
+					type: "item"
+				}
+			]
+			title: "&dL'équipement en gravitite"
+			x: 14.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["681600F1993ADCBA"]
+			description: ["Dans les coffres du donjon de bronze."]
+			icon: "aether:neptune_helmet"
+			id: "30B6EF5C87F849EE"
+			optional: true
+			rewards: [{
+				id: "372A02B48FD26BDD"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "338C193F00AE281B"
+					item: "aether:neptune_helmet"
+					type: "item"
+				}
+				{
+					id: "2F96A9046BD34E07"
+					item: "aether:neptune_chestplate"
+					type: "item"
+				}
+				{
+					id: "33BAEB7A9C279F52"
+					item: "aether:neptune_leggings"
+					type: "item"
+				}
+				{
+					id: "15245C5F1917C9CE"
+					item: "aether:neptune_boots"
+					type: "item"
+				}
+				{
+					id: "68E3D56A7F7386BC"
+					item: "aether:neptune_gloves"
+					type: "item"
+				}
+			]
+			title: "L'armure de Neptune"
+			x: 8.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["2983ACD62DE616FC"]
+			description: ["L'armure dans les coffres du donjon d'argent ; la lance, dans ceux du donjon de bronze."]
+			icon: "aether:valkyrie_helmet"
+			id: "4A5F03C80FC420CC"
+			optional: true
+			rewards: [{
+				id: "24F88E28CB1F9AED"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "18DA5E45D58F1B47"
+					item: "aether:valkyrie_helmet"
+					type: "item"
+				}
+				{
+					id: "6671261C11EB74AD"
+					item: "aether:valkyrie_chestplate"
+					type: "item"
+				}
+				{
+					id: "306AFD4FEF74AC7B"
+					item: "aether:valkyrie_leggings"
+					type: "item"
+				}
+				{
+					id: "311827052955A1DD"
+					item: "aether:valkyrie_boots"
+					type: "item"
+				}
+				{
+					id: "68F701B1C0151C8B"
+					item: "aether:valkyrie_gloves"
+					type: "item"
+				}
+				{
+					id: "1D867C63311E9FB6"
+					item: "aether:valkyrie_lance"
+					type: "item"
+				}
+			]
+			title: "L'armure des Valkyries"
+			x: 12.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["315F402411B0E10E"]
+			description: ["Dans le trésor du donjon d'or. Le mod conseille de plonger dans l'eau en la portant."]
+			icon: "aether:phoenix_helmet"
+			id: "13D35A73E2195C0C"
+			optional: true
+			rewards: [{
+				id: "29B685134D50A7AB"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3C9BE83DD598E687"
+					item: "aether:phoenix_helmet"
+					type: "item"
+				}
+				{
+					id: "54BCBA3EC858412F"
+					item: "aether:phoenix_chestplate"
+					type: "item"
+				}
+				{
+					id: "0B9CBFA73CFA4A30"
+					item: "aether:phoenix_leggings"
+					type: "item"
+				}
+				{
+					id: "1C5B793E7D481B0E"
+					item: "aether:phoenix_boots"
+					type: "item"
+				}
+				{
+					id: "2D6631BF844E3704"
+					item: "aether:phoenix_gloves"
+					type: "item"
+				}
+			]
+			title: "L'armure du Phénix"
+			x: 16.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["74C6C32FC02989F5"]
+			description: ["Avec la Grande médaille de la victoire, la Reine des Valkyries accepte un nouveau combat sans demander de médailles. La quête ne compte que le combat livré après la première victoire."]
+			icon: "aether:valkyrie_queen_spawn_egg"
+			id: "530F76BACF0FE8DA"
+			optional: true
+			rewards: [{
+				id: "2600F461C4985A76"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "2A7E32321DD55723"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eRejouer le combat contre la Reine"
+			x: 14.0d
+			y: 8.75d
+		}
+		{
 			dependencies: ["315F402411B0E10E"]
 			description: ["&bLost Aether Content&r ajoute un donjon de pierre de Gale et son boss, le &bRoi des aérobaleines&r. Sans faute : une selle d'aérobaleine (Deep Aether)."]
 			id: "680B74BE25E2ED7E"
@@ -997,7 +1510,7 @@
 			}]
 			title: "Le donjon de platine"
 			x: 16.0d
-			y: 8.75d
+			y: 11.75d
 		}
 		{
 			dependencies: ["680B74BE25E2ED7E"]
@@ -1039,7 +1552,7 @@
 			}]
 			title: "La citadelle olympique"
 			x: 4.0d
-			y: 13.25d
+			y: 14.75d
 		}
 		{
 			dependencies: ["315F402411B0E10E"]
@@ -1060,7 +1573,7 @@
 			}]
 			title: "Un lingot pyral"
 			x: 16.0d
-			y: 10.25d
+			y: 13.25d
 		}
 		{
 			dependencies: [

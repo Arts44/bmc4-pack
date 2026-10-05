@@ -1,0 +1,1189 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_pelles"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_shovel"
+	id: "5096D14D7A11B6DC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque pelle du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là."]
+			icon: "minecraft:iron_shovel"
+			id: "437B83BB479026AD"
+			rewards: [{
+				id: "24086BA3AF2F2EEB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2FF617DCE8522955"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Pelles"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_shovel"
+			id: "72DFEE4D220EF2F0"
+			optional: true
+			rewards: [{
+				id: "03A596C1699590CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50746FECD2FE9FC3"
+				item: "minecraft:diamond_shovel"
+				type: "item"
+			}]
+			title: "Pelle en diamant"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_shovel"
+			id: "0E1DB1C4B300951D"
+			optional: true
+			rewards: [{
+				id: "328A655833FE37FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "602732BFAF5FD1AD"
+				item: "minecraft:golden_shovel"
+				type: "item"
+			}]
+			title: "Pelle en or"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_shovel"
+			id: "2482BED7DD37ADA5"
+			optional: true
+			rewards: [{
+				id: "38088125BCF5AB68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "615D9EF33C4062FE"
+				item: "minecraft:iron_shovel"
+				type: "item"
+			}]
+			title: "Pelle en fer"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:netherite_shovel"
+			id: "25B2AB7605CF4F28"
+			optional: true
+			rewards: [{
+				id: "6CEFDB9236AECE9D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FCBB65A6D4D5F2D"
+				item: "minecraft:netherite_shovel"
+				type: "item"
+			}]
+			title: "Pelle en netherite"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:stone_shovel"
+			id: "42D36BC7E406C43A"
+			optional: true
+			rewards: [{
+				id: "118E9C9F488728D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76D9A96561BBED3B"
+				item: "minecraft:stone_shovel"
+				type: "item"
+			}]
+			title: "Pelle en pierre"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:wooden_shovel"
+			id: "30B808FE439E8A5A"
+			optional: true
+			rewards: [{
+				id: "6D26947489893B1E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A9B6F001EC9E2F5"
+				item: "minecraft:wooden_shovel"
+				type: "item"
+			}]
+			title: "Pelle en bois"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_diamond_shovel"
+			id: "1A16A15CD0720EF4"
+			optional: true
+			rewards: [{
+				id: "6653D6F23C5D56CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D88EE109A078FBA"
+				item: "advancednetherite:netherite_diamond_shovel"
+				type: "item"
+			}]
+			title: "« Netherite-Diamond Shovel »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_emerald_shovel"
+			id: "682FFC28EF9E63C1"
+			optional: true
+			rewards: [{
+				id: "6A7329C68F85FAEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60EAE89D37E98F05"
+				item: "advancednetherite:netherite_emerald_shovel"
+				type: "item"
+			}]
+			title: "« Netherite-Emerald Shovel »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_gold_shovel"
+			id: "4A7E51B8A5F3D739"
+			optional: true
+			rewards: [{
+				id: "2870405CDCE5F7F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E02731005CF6BA4"
+				item: "advancednetherite:netherite_gold_shovel"
+				type: "item"
+			}]
+			title: "« Netherite-Gold Shovel »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée."]
+			icon: "advancednetherite:netherite_iron_shovel"
+			id: "70DEF08417763E9E"
+			optional: true
+			rewards: [{
+				id: "63CDD20B70E19C7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "671EB70C2E28CEBB"
+				item: "advancednetherite:netherite_iron_shovel"
+				type: "item"
+			}]
+			title: "« Netherite-Iron Shovel »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_shovel"
+			id: "0994615B38BCC96C"
+			optional: true
+			rewards: [{
+				id: "1CDD0E57BAEBC5AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32CC63E0C85CEC26"
+				item: "aether:gravitite_shovel"
+				type: "item"
+			}]
+			title: "« Gravitite Shovel »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:holystone_shovel"
+			id: "59845CF0DC71669F"
+			optional: true
+			rewards: [{
+				id: "3FA3737A8D932923"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FA2DA55616BBC71"
+				item: "aether:holystone_shovel"
+				type: "item"
+			}]
+			title: "« Holystone Shovel »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:skyroot_shovel"
+			id: "55F92F393D6D506F"
+			optional: true
+			rewards: [{
+				id: "6DC971E8C66EFEE0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4197A2B6EC020AE9"
+				item: "aether:skyroot_shovel"
+				type: "item"
+			}]
+			title: "« Skyroot Shovel »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_shovel"
+			id: "72946E528CFFE960"
+			optional: true
+			rewards: [{
+				id: "292369726CAA755D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69CCCC5B66A663D7"
+				item: "aether:valkyrie_shovel"
+				type: "item"
+			}]
+			title: "« Valkyrie Shovel »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_shovel"
+			id: "75F48529CD1A89C0"
+			optional: true
+			rewards: [{
+				id: "5482A87C11E32A03"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69260F1BD8F2FC34"
+				item: "aether:zanite_shovel"
+				type: "item"
+			}]
+			title: "« Zanite Shovel »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:infused_veridium_shovel"
+			id: "0C295CD3EE244AF2"
+			optional: true
+			rewards: [{
+				id: "76E81B6E86ADCA87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "743E4CB4E47B79EE"
+				item: "aether_redux:infused_veridium_shovel"
+				type: "item"
+			}]
+			title: "« Infused Veridium Shovel »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Pelle de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_redux:veridium_shovel"
+			id: "7193B8CAB05C0D32"
+			optional: true
+			rewards: [{
+				id: "029132E557B8190C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7464E9AA5C39A2EB"
+				item: "aether_redux:veridium_shovel"
+				type: "item"
+			}]
+			title: "« Veridium Shovel »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_shovel"
+			id: "56705787355A5A27"
+			optional: true
+			rewards: [{
+				id: "17240F4ACC6C58CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19BC72A561C4C74E"
+				item: "betterend:aeternium_shovel"
+				type: "item"
+			}]
+			title: "« Aeternium Shovel »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_shovel"
+			id: "4259982CCC9F12E0"
+			optional: true
+			rewards: [{
+				id: "720B7A620F99A2EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6743A993AC50D2CA"
+				item: "betterend:terminite_shovel"
+				type: "item"
+			}]
+			title: "« Terminite Shovel »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_shovel"
+			id: "57EF815B7D67C4C4"
+			optional: true
+			rewards: [{
+				id: "35F2DC39701AD041"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6623E289BDF92978"
+				item: "betterend:thallasium_shovel"
+				type: "item"
+			}]
+			title: "« Thallasium Shovel »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_shovel"
+			id: "081DED74CA4DA9B7"
+			optional: true
+			rewards: [{
+				id: "2433C58A18A30FD9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "70C3387BDD5D30D3"
+				item: "betternether:cincinnasite_shovel"
+				type: "item"
+			}]
+			title: "Cincinnasite Shovel"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_shovel_diamond"
+			id: "1EB92FD45528DE01"
+			optional: true
+			rewards: [{
+				id: "1E6E35D6A34E2B13"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6148F9D4CADEFE27"
+				item: "betternether:cincinnasite_shovel_diamond"
+				type: "item"
+			}]
+			title: "Cincinnasite-Diamond Shovel"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_shovel"
+			id: "57915A0231A2AA47"
+			optional: true
+			rewards: [{
+				id: "7B3220CF3329008F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "483FF0C8CCACFBB7"
+				item: "betternether:flaming_ruby_shovel"
+				type: "item"
+			}]
+			title: "« Fireruby Shovel »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_shovel"
+			id: "6DB00F3F7A5FC071"
+			optional: true
+			rewards: [{
+				id: "2722275F3ACBEB2A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "565A4D04E2AA9517"
+				item: "betternether:nether_ruby_shovel"
+				type: "item"
+			}]
+			title: "Nether Ruby Shovel"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_shovel"
+			id: "47AC75B913DB8DF6"
+			optional: true
+			rewards: [{
+				id: "656377C4FBD199DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B18E2399F39D263"
+				item: "blue_skies:aquite_shovel"
+				type: "item"
+			}]
+			title: "Pelle en aquite"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:bluebright_shovel"
+			id: "7875FB84DD28B52D"
+			optional: true
+			rewards: [{
+				id: "429F6A19DCF59ABF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7333FC87ACDE63B9"
+				item: "blue_skies:bluebright_shovel"
+				type: "item"
+			}]
+			title: "Pelle en bois de lumibleu"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_shovel"
+			id: "69670DAD1EEB2ACF"
+			optional: true
+			rewards: [{
+				id: "33AB0F88CC9AA5A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "622AF10678D4BE7A"
+				item: "blue_skies:charoite_shovel"
+				type: "item"
+			}]
+			title: "Pelle en charoite"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:comet_shovel"
+			id: "347BB7BE29BFE278"
+			optional: true
+			rewards: [{
+				id: "17297E9745FB9A1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "572120F15680754C"
+				item: "blue_skies:comet_shovel"
+				type: "item"
+			}]
+			title: "« Comet Wood Shovel »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_shovel"
+			id: "0473B76DBE9A5E45"
+			optional: true
+			rewards: [{
+				id: "560819E687D516D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0718B152F9258B3A"
+				item: "blue_skies:diopside_shovel"
+				type: "item"
+			}]
+			title: "Pelle en diopside"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:dusk_shovel"
+			id: "1B87E198C4F3080D"
+			optional: true
+			rewards: [{
+				id: "47FEA29A5B617FC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "617562129EF728BF"
+				item: "blue_skies:dusk_shovel"
+				type: "item"
+			}]
+			title: "Pelle en crépuscubois"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:frostbright_shovel"
+			id: "2B6F6B36288E3FEB"
+			optional: true
+			rewards: [{
+				id: "24D889582692C212"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37B4C9DAE3EDCFDC"
+				item: "blue_skies:frostbright_shovel"
+				type: "item"
+			}]
+			title: "Pelle en bois de nifrisque"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_shovel"
+			id: "1E3BBE28082226C2"
+			optional: true
+			rewards: [{
+				id: "6B398B37F2F51762"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25320E3330F6DBFD"
+				item: "blue_skies:horizonite_shovel"
+				type: "item"
+			}]
+			title: "Pelle en horizonite"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_shovel"
+			id: "514B3B5B42031331"
+			optional: true
+			rewards: [{
+				id: "003DC3D04D108FC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4805EBD8A1E2B076"
+				item: "blue_skies:lunar_shovel"
+				type: "item"
+			}]
+			title: "Pelle lunaire"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_stone_shovel"
+			id: "36DFEF5C81569413"
+			optional: true
+			rewards: [{
+				id: "7B12C69BA864C583"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07AB686BA8817D2F"
+				item: "blue_skies:lunar_stone_shovel"
+				type: "item"
+			}]
+			title: "Pelle en pierre lunaire"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:maple_shovel"
+			id: "54664A27EE181A10"
+			optional: true
+			rewards: [{
+				id: "103EA7084714F991"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "607D2C62B9FEF5CA"
+				item: "blue_skies:maple_shovel"
+				type: "item"
+			}]
+			title: "Pelle en bois d'érable"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_shovel"
+			id: "247E28CC45195C40"
+			optional: true
+			rewards: [{
+				id: "276DFF017888717B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6926B9C2A1F9119D"
+				item: "blue_skies:pyrope_shovel"
+				type: "item"
+			}]
+			title: "Pelle en pyrope"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:starlit_shovel"
+			id: "000DAB349AC14A00"
+			optional: true
+			rewards: [{
+				id: "0AF7627E1664BB81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "080B67F6AE4EAC03"
+				item: "blue_skies:starlit_shovel"
+				type: "item"
+			}]
+			title: "Pelle en étoilibois"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:turquoise_stone_shovel"
+			id: "6BCD7527FA0FF0FC"
+			optional: true
+			rewards: [{
+				id: "3ADAE4F42C4B82CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B230D54EDC900BC"
+				item: "blue_skies:turquoise_stone_shovel"
+				type: "item"
+			}]
+			title: "Pelle en pierre turquoise"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:black_steel_shovel"
+			id: "7B80AF61B8697244"
+			optional: true
+			rewards: [{
+				id: "33389E72261B6658"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68385D50ED5283CE"
+				item: "cataclysm:black_steel_shovel"
+				type: "item"
+			}]
+			title: "« Black Steel Shovel »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_shovel"
+			id: "13E8B9013E4B892D"
+			optional: true
+			rewards: [{
+				id: "5FAFD53CB781BB3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24675BB7DB2B7B5E"
+				item: "deep_aether:skyjade_shovel"
+				type: "item"
+			}]
+			title: "« Skyjade Shovel »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_shovel"
+			id: "4B3FA1500F9B9809"
+			optional: true
+			rewards: [{
+				id: "241392E5AA1223CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "395169130D4DD7B9"
+				item: "deep_aether:stratus_shovel"
+				type: "item"
+			}]
+			title: "« Stratus Shovel »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:resonarium_shovel"
+			id: "0B12176A16B80EF5"
+			optional: true
+			rewards: [{
+				id: "3654279274036310"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20953D31883B98B9"
+				item: "deeperdarker:resonarium_shovel"
+				type: "item"
+			}]
+			title: "« Resonarium Shovel »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:warden_shovel"
+			id: "6CD4ED4E729AE1A5"
+			optional: true
+			rewards: [{
+				id: "495400A351E868F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3067A09C782E8C4E"
+				item: "deeperdarker:warden_shovel"
+				type: "item"
+			}]
+			title: "Pelle du Warden"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_shovel"
+			id: "1CC8FFD22A0B223E"
+			optional: true
+			rewards: [{
+				id: "276B832D8F3E7678"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "764386AE019BA1A5"
+				item: "dragonloot:dragon_shovel"
+				type: "item"
+			}]
+			title: "« Dragon Shovel »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_shovel"
+			id: "648CEB4018389393"
+			optional: true
+			rewards: [{
+				id: "1C5E8E2388A52077"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C8EF955A5C7A6F2"
+				item: "mysticalagriculture:awakened_supremium_shovel"
+				type: "item"
+			}]
+			title: "Pelle en Supremium Éveillé"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_shovel"
+			id: "5F3DACAC68F9978A"
+			optional: true
+			rewards: [{
+				id: "7207EEA9236406DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59E713F28B438ECC"
+				item: "mysticalagriculture:imperium_shovel"
+				type: "item"
+			}]
+			title: "Pelle en Imperium"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_shovel"
+			id: "5AC6E8C0DA4E5A00"
+			optional: true
+			rewards: [{
+				id: "281F44A6553AA2E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D9242317B9A5843"
+				item: "mysticalagriculture:inferium_shovel"
+				type: "item"
+			}]
+			title: "Pelle en Inferium"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_shovel"
+			id: "2B34C182AB58BBC2"
+			optional: true
+			rewards: [{
+				id: "63125200CAEBCB84"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58F82D9A9D5285DF"
+				item: "mysticalagriculture:prudentium_shovel"
+				type: "item"
+			}]
+			title: "Pelle en Prudentium"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_shovel"
+			id: "7BBF44E647CC6E83"
+			optional: true
+			rewards: [{
+				id: "21D2890F3F25DA6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68552678BCBC6033"
+				item: "mysticalagriculture:supremium_shovel"
+				type: "item"
+			}]
+			title: "Pelle en Supremium"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_shovel"
+			id: "36F1C2D9CE631163"
+			optional: true
+			rewards: [{
+				id: "4ADA0AADDD5C8005"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3ECC28819DAF3E23"
+				item: "mysticalagriculture:tertium_shovel"
+				type: "item"
+			}]
+			title: "Pelle en Tertium"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pelle de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:chorundum_shovel"
+			id: "23039004E500A927"
+			optional: true
+			rewards: [{
+				id: "3D1EB5E372B1A3D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1DF20D85DD367761"
+				item: "stalwart_dungeons:chorundum_shovel"
+				type: "item"
+			}]
+			title: "« §eChorundum Shovel »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pelle de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_shovel"
+			id: "34424452E33BA5FC"
+			optional: true
+			rewards: [{
+				id: "452D59A54A2FC204"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "67977C2546DA08A8"
+				item: "stalwart_dungeons:tungsten_shovel"
+				type: "item"
+			}]
+			title: "« §eTungsten Shovel »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Pelle de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_shovel"
+			id: "0EAF8EB5E5908385"
+			optional: true
+			rewards: [{
+				id: "7DAE7E04F7127A4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5FC2135F9A176FCB"
+				item: "twilightforest:ironwood_shovel"
+				type: "item"
+			}]
+			title: "Pelle en bois de fer"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Pelle de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_shovel"
+			id: "752E316A1D059B8B"
+			optional: true
+			rewards: [{
+				id: "7A3C3434AB8EE13E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505C7873FFB8B9C"
+				item: "twilightforest:steeleaf_shovel"
+				type: "item"
+			}]
+			title: "Pelle en Stealeaf"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"72DFEE4D220EF2F0"
+				"0E1DB1C4B300951D"
+				"2482BED7DD37ADA5"
+				"25B2AB7605CF4F28"
+				"42D36BC7E406C43A"
+				"30B808FE439E8A5A"
+				"1A16A15CD0720EF4"
+				"682FFC28EF9E63C1"
+				"4A7E51B8A5F3D739"
+				"70DEF08417763E9E"
+				"0994615B38BCC96C"
+				"59845CF0DC71669F"
+				"55F92F393D6D506F"
+				"72946E528CFFE960"
+				"75F48529CD1A89C0"
+				"0C295CD3EE244AF2"
+				"7193B8CAB05C0D32"
+				"56705787355A5A27"
+				"4259982CCC9F12E0"
+				"57EF815B7D67C4C4"
+				"081DED74CA4DA9B7"
+				"1EB92FD45528DE01"
+				"57915A0231A2AA47"
+				"6DB00F3F7A5FC071"
+				"47AC75B913DB8DF6"
+				"7875FB84DD28B52D"
+				"69670DAD1EEB2ACF"
+				"347BB7BE29BFE278"
+				"0473B76DBE9A5E45"
+				"1B87E198C4F3080D"
+				"2B6F6B36288E3FEB"
+				"1E3BBE28082226C2"
+				"514B3B5B42031331"
+				"36DFEF5C81569413"
+				"54664A27EE181A10"
+				"247E28CC45195C40"
+				"000DAB349AC14A00"
+				"6BCD7527FA0FF0FC"
+				"7B80AF61B8697244"
+				"13E8B9013E4B892D"
+				"4B3FA1500F9B9809"
+				"0B12176A16B80EF5"
+				"6CD4ED4E729AE1A5"
+				"1CC8FFD22A0B223E"
+				"648CEB4018389393"
+				"5F3DACAC68F9978A"
+				"5AC6E8C0DA4E5A00"
+				"2B34C182AB58BBC2"
+				"7BBF44E647CC6E83"
+				"36F1C2D9CE631163"
+				"23039004E500A927"
+				"34424452E33BA5FC"
+				"0EAF8EB5E5908385"
+				"752E316A1D059B8B"
+			]
+			description: ["Toutes les pelles de ce chapitre réunies."]
+			icon: "minecraft:netherite_shovel"
+			id: "1656B3FFE66DC01F"
+			optional: true
+			rewards: [{
+				id: "61610547A331727A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "06E0264C635264A7"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Toutes les pelles"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&7Pelles"
+}

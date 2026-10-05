@@ -1,0 +1,4129 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_armurerie_dimensions"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_chestplate"
+	id: "7C5B5020C8CB2FD7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Chaque pièce d'armure des dimensions, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé."
+				""
+				"Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre."
+			]
+			icon: "minecraft:iron_chestplate"
+			id: "6BE396D48E52B0DF"
+			rewards: [{
+				id: "2DADC5A786CB2E24"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "18248A8B841075C7"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cArmurerie — dimensions"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:chainmail_gloves"
+			id: "373751DBE05AF562"
+			optional: true
+			rewards: [{
+				id: "42CA0DE515E27CDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19ECE4FEDE60B68E"
+				item: "aether:chainmail_gloves"
+				type: "item"
+			}]
+			title: "« Chainmail Gloves »"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:diamond_gloves"
+			id: "5ECAB751F7911F08"
+			optional: true
+			rewards: [{
+				id: "62CE35E362642433"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28B0D26EEA1629DA"
+				item: "aether:diamond_gloves"
+				type: "item"
+			}]
+			title: "« Diamond Gloves »"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:golden_gloves"
+			id: "4764ED7B2366073F"
+			optional: true
+			rewards: [{
+				id: "47C57E5296079701"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "495A0346BFDFBC14"
+				item: "aether:golden_gloves"
+				type: "item"
+			}]
+			title: "« Golden Gloves »"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_helmet"
+			id: "6E7899DD55131C57"
+			optional: true
+			rewards: [{
+				id: "6E5F8F8A42DA4AAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19D985D7E55F96FA"
+				item: "aether:gravitite_helmet"
+				type: "item"
+			}]
+			title: "« Gravitite Helmet »"
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_chestplate"
+			id: "48EB1975BB0377B2"
+			optional: true
+			rewards: [{
+				id: "2FB23F58DBA121A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E84529C62738373"
+				item: "aether:gravitite_chestplate"
+				type: "item"
+			}]
+			title: "« Gravitite Chestplate »"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_leggings"
+			id: "598D4110F74279A3"
+			optional: true
+			rewards: [{
+				id: "1E223D1452EF84B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A7D71F56925B467"
+				item: "aether:gravitite_leggings"
+				type: "item"
+			}]
+			title: "« Gravitite Leggings »"
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_boots"
+			id: "402F4D594CBC9EC6"
+			optional: true
+			rewards: [{
+				id: "2574B26A13352C11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "716906A7E2F8F786"
+				item: "aether:gravitite_boots"
+				type: "item"
+			}]
+			title: "« Gravitite Boots »"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:gravitite_gloves"
+			id: "135436423E1CB465"
+			optional: true
+			rewards: [{
+				id: "32A0EA4DD82CAB78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1200B4CA57935801"
+				item: "aether:gravitite_gloves"
+				type: "item"
+			}]
+			title: "« Gravitite Gloves »"
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6E7899DD55131C57"
+				"48EB1975BB0377B2"
+				"598D4110F74279A3"
+				"402F4D594CBC9EC6"
+				"135436423E1CB465"
+			]
+			description: ["Toutes les pièces de l'ensemble « Gravitite » (5), ensemble dans l'inventaire."]
+			icon: "aether:gravitite_chestplate"
+			id: "595FBD28D5155743"
+			optional: true
+			rewards: [{
+				id: "221B97813D40C8E7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "05E92708E7165FB1"
+					item: "aether:gravitite_helmet"
+					type: "item"
+				}
+				{
+					id: "007A4BA90D26682C"
+					item: "aether:gravitite_chestplate"
+					type: "item"
+				}
+				{
+					id: "2D153007AA206BC9"
+					item: "aether:gravitite_leggings"
+					type: "item"
+				}
+				{
+					id: "63DB374F9EF89DAF"
+					item: "aether:gravitite_boots"
+					type: "item"
+				}
+				{
+					id: "348752F33845C0E6"
+					item: "aether:gravitite_gloves"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Gravitite »"
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:iron_gloves"
+			id: "0E7F582905F8CB35"
+			optional: true
+			rewards: [{
+				id: "1784668E100E12FC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78609D931C4C3FAD"
+				item: "aether:iron_gloves"
+				type: "item"
+			}]
+			title: "« Iron Gloves »"
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:leather_gloves"
+			id: "45D010A26AF04153"
+			optional: true
+			rewards: [{
+				id: "417A2F97C7C80889"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1565AD3F5D84EF62"
+				item: "aether:leather_gloves"
+				type: "item"
+			}]
+			title: "« Leather Gloves »"
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:neptune_helmet"
+			id: "4F361A0946285E06"
+			optional: true
+			rewards: [{
+				id: "7CF1807548F194FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C8EBFB4F9309BD7"
+				item: "aether:neptune_helmet"
+				type: "item"
+			}]
+			title: "« Neptune Helmet »"
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:neptune_chestplate"
+			id: "684103D0FDED1D1E"
+			optional: true
+			rewards: [{
+				id: "3ED16988BDDD3ECB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36E3A8C15AA38DC5"
+				item: "aether:neptune_chestplate"
+				type: "item"
+			}]
+			title: "« Neptune Chestplate »"
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:neptune_leggings"
+			id: "2B944FD99E5D5627"
+			optional: true
+			rewards: [{
+				id: "2F0061105A560468"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1119CCC85494156E"
+				item: "aether:neptune_leggings"
+				type: "item"
+			}]
+			title: "« Neptune Leggings »"
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:neptune_boots"
+			id: "6A88AC3D35E3F69A"
+			optional: true
+			rewards: [{
+				id: "7F75ABB9125E1254"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AF0A53024324AFA"
+				item: "aether:neptune_boots"
+				type: "item"
+			}]
+			title: "« Neptune Boots »"
+			x: 21.0d
+			y: -7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:neptune_gloves"
+			id: "49BB8E1735B1FC89"
+			optional: true
+			rewards: [{
+				id: "6855D95A808A5B0F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A5D3071BEA9CEB8"
+				item: "aether:neptune_gloves"
+				type: "item"
+			}]
+			title: "« Neptune Gloves »"
+			x: 22.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4F361A0946285E06"
+				"684103D0FDED1D1E"
+				"2B944FD99E5D5627"
+				"6A88AC3D35E3F69A"
+				"49BB8E1735B1FC89"
+			]
+			description: ["Toutes les pièces de l'ensemble « Neptune » (5), ensemble dans l'inventaire."]
+			icon: "aether:neptune_chestplate"
+			id: "0D3852374B1CC36A"
+			optional: true
+			rewards: [{
+				id: "4886EFF97691FEFD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "49D954F819E2F921"
+					item: "aether:neptune_helmet"
+					type: "item"
+				}
+				{
+					id: "4077DFFAC245024E"
+					item: "aether:neptune_chestplate"
+					type: "item"
+				}
+				{
+					id: "72FFF714FC590396"
+					item: "aether:neptune_leggings"
+					type: "item"
+				}
+				{
+					id: "0E35D812FA98387F"
+					item: "aether:neptune_boots"
+					type: "item"
+				}
+				{
+					id: "3178EF9A4B14FA0F"
+					item: "aether:neptune_gloves"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Neptune »"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:netherite_gloves"
+			id: "51B41585FC259C5C"
+			optional: true
+			rewards: [{
+				id: "0588C695CB63FBD4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15701994AD70A4A2"
+				item: "aether:netherite_gloves"
+				type: "item"
+			}]
+			title: "« Netherite Gloves »"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:phoenix_helmet"
+			id: "0EA315D61043D9AD"
+			optional: true
+			rewards: [{
+				id: "018CCFDDCFB893E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1CD7FB5BB789CF08"
+				item: "aether:phoenix_helmet"
+				type: "item"
+			}]
+			title: "« Phoenix Helmet »"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:phoenix_chestplate"
+			id: "3F2EEF7DD264ACF0"
+			optional: true
+			rewards: [{
+				id: "40D3082992B2A66D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C994A7471E18142"
+				item: "aether:phoenix_chestplate"
+				type: "item"
+			}]
+			title: "« Phoenix Chestplate »"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:phoenix_leggings"
+			id: "0531E300C7240A79"
+			optional: true
+			rewards: [{
+				id: "0FABF1BB0ECD70B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6382E2925C48D6D3"
+				item: "aether:phoenix_leggings"
+				type: "item"
+			}]
+			title: "« Phoenix Leggings »"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:phoenix_boots"
+			id: "26D46FEE12D0CEAF"
+			optional: true
+			rewards: [{
+				id: "3545B26173527BC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A8AEA1EA8A85437"
+				item: "aether:phoenix_boots"
+				type: "item"
+			}]
+			title: "« Phoenix Boots »"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:phoenix_gloves"
+			id: "280917C54499040D"
+			optional: true
+			rewards: [{
+				id: "25D8865A9AFAFA6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37FB74AD72CE9628"
+				item: "aether:phoenix_gloves"
+				type: "item"
+			}]
+			title: "« Phoenix Gloves »"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0EA315D61043D9AD"
+				"3F2EEF7DD264ACF0"
+				"0531E300C7240A79"
+				"26D46FEE12D0CEAF"
+				"280917C54499040D"
+			]
+			description: ["Toutes les pièces de l'ensemble « Phoenix » (5), ensemble dans l'inventaire."]
+			icon: "aether:phoenix_chestplate"
+			id: "55F00649AB9E983F"
+			optional: true
+			rewards: [{
+				id: "564648CB2107A366"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0D78132C6A4E0FC5"
+					item: "aether:phoenix_helmet"
+					type: "item"
+				}
+				{
+					id: "54BD0664C92FC487"
+					item: "aether:phoenix_chestplate"
+					type: "item"
+				}
+				{
+					id: "0B3D7D912E3E36B7"
+					item: "aether:phoenix_leggings"
+					type: "item"
+				}
+				{
+					id: "71A47232CA50DEB9"
+					item: "aether:phoenix_boots"
+					type: "item"
+				}
+				{
+					id: "67269830BEC2DFA3"
+					item: "aether:phoenix_gloves"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Phoenix »"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:sentry_boots"
+			id: "49048E898A83C569"
+			optional: true
+			rewards: [{
+				id: "0F51E91C4D461439"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1598C122B9D20174"
+				item: "aether:sentry_boots"
+				type: "item"
+			}]
+			title: "« Sentry Boots »"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_helmet"
+			id: "4F7D8AEA4EC7678E"
+			optional: true
+			rewards: [{
+				id: "0D000DBC93BCE980"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0EF0354C8EA19C79"
+				item: "aether:valkyrie_helmet"
+				type: "item"
+			}]
+			title: "« Valkyrie Helmet »"
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_chestplate"
+			id: "3BDF0749FB421ABC"
+			optional: true
+			rewards: [{
+				id: "4B85D6D25ADEC213"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A30A9187F2F1759"
+				item: "aether:valkyrie_chestplate"
+				type: "item"
+			}]
+			title: "« Valkyrie Chestplate »"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_leggings"
+			id: "7050214726493A2A"
+			optional: true
+			rewards: [{
+				id: "022AA0710E159E9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "560FC91B00420342"
+				item: "aether:valkyrie_leggings"
+				type: "item"
+			}]
+			title: "« Valkyrie Leggings »"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_boots"
+			id: "1139A22D8FCC4DB8"
+			optional: true
+			rewards: [{
+				id: "0F34FC3343205D24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C9D031419B82455"
+				item: "aether:valkyrie_boots"
+				type: "item"
+			}]
+			title: "« Valkyrie Boots »"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:valkyrie_gloves"
+			id: "2C05286AE336C021"
+			optional: true
+			rewards: [{
+				id: "0126778FE0142655"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CA697B57BAAA3DE"
+				item: "aether:valkyrie_gloves"
+				type: "item"
+			}]
+			title: "« Valkyrie Gloves »"
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4F7D8AEA4EC7678E"
+				"3BDF0749FB421ABC"
+				"7050214726493A2A"
+				"1139A22D8FCC4DB8"
+				"2C05286AE336C021"
+			]
+			description: ["Toutes les pièces de l'ensemble « Valkyrie » (5), ensemble dans l'inventaire."]
+			icon: "aether:valkyrie_chestplate"
+			id: "0D7B08B585D2244F"
+			optional: true
+			rewards: [{
+				id: "3D5978E9D0713EC0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "170FF22F415EC682"
+					item: "aether:valkyrie_helmet"
+					type: "item"
+				}
+				{
+					id: "2883B5A9DD9D5BFD"
+					item: "aether:valkyrie_chestplate"
+					type: "item"
+				}
+				{
+					id: "168D81B0CA776F9E"
+					item: "aether:valkyrie_leggings"
+					type: "item"
+				}
+				{
+					id: "553CA6AB6D5F6458"
+					item: "aether:valkyrie_boots"
+					type: "item"
+				}
+				{
+					id: "19C295EE4FAB42A7"
+					item: "aether:valkyrie_gloves"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Valkyrie »"
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_helmet"
+			id: "27F0B6EF5865ACCF"
+			optional: true
+			rewards: [{
+				id: "14BE75BBBBE47C20"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5157973AA01E3E56"
+				item: "aether:zanite_helmet"
+				type: "item"
+			}]
+			title: "« Zanite Helmet »"
+			x: 22.5d
+			y: -6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_chestplate"
+			id: "766BC26EFF0A6176"
+			optional: true
+			rewards: [{
+				id: "30D1FDFC209AA6C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CECD19233E748C9"
+				item: "aether:zanite_chestplate"
+				type: "item"
+			}]
+			title: "« Zanite Chestplate »"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_leggings"
+			id: "223E40185AB9DA74"
+			optional: true
+			rewards: [{
+				id: "674BF09BEF5562EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08CE015C1B7878CB"
+				item: "aether:zanite_leggings"
+				type: "item"
+			}]
+			title: "« Zanite Leggings »"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_boots"
+			id: "2ED377B56AEB116A"
+			optional: true
+			rewards: [{
+				id: "7C90FD5B5CB09F1A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5924BB83725B7D10"
+				item: "aether:zanite_boots"
+				type: "item"
+			}]
+			title: "« Zanite Boots »"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bAether&r. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:zanite_gloves"
+			id: "2003E2F192A9D974"
+			optional: true
+			rewards: [{
+				id: "7AD8966766FAEDCA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E9B4148AADA4082"
+				item: "aether:zanite_gloves"
+				type: "item"
+			}]
+			title: "« Zanite Gloves »"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"27F0B6EF5865ACCF"
+				"766BC26EFF0A6176"
+				"223E40185AB9DA74"
+				"2ED377B56AEB116A"
+				"2003E2F192A9D974"
+			]
+			description: ["Toutes les pièces de l'ensemble « Zanite » (5), ensemble dans l'inventaire."]
+			icon: "aether:zanite_chestplate"
+			id: "740032EC7DE535C3"
+			optional: true
+			rewards: [{
+				id: "772DA2DB4751127D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4D5BA0D01213FF4F"
+					item: "aether:zanite_helmet"
+					type: "item"
+				}
+				{
+					id: "01D1D4A54666C977"
+					item: "aether:zanite_chestplate"
+					type: "item"
+				}
+				{
+					id: "4DFA36578A791E2B"
+					item: "aether:zanite_leggings"
+					type: "item"
+				}
+				{
+					id: "718EA771E2B31F20"
+					item: "aether:zanite_boots"
+					type: "item"
+				}
+				{
+					id: "58DE67A9AB696AEE"
+					item: "aether:zanite_gloves"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Zanite »"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_helmet"
+			id: "519D4A4D5B30F96F"
+			optional: true
+			rewards: [{
+				id: "7E1FA421CE4CCFE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6491DDD4C753FD50"
+				item: "betterend:aeternium_helmet"
+				type: "item"
+			}]
+			title: "« Aeternium Helmet »"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_chestplate"
+			id: "2F7F18D67860DC8D"
+			optional: true
+			rewards: [{
+				id: "6BBC4FD1253523A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F31A9F50F6DFC80"
+				item: "betterend:aeternium_chestplate"
+				type: "item"
+			}]
+			title: "« Aeternium Chestplate »"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_leggings"
+			id: "300B0B473AB8382A"
+			optional: true
+			rewards: [{
+				id: "47E287799C58891E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DDF932F297776D6"
+				item: "betterend:aeternium_leggings"
+				type: "item"
+			}]
+			title: "« Aeternium Leggings »"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_boots"
+			id: "5202D2766FD9E9EE"
+			optional: true
+			rewards: [{
+				id: "3A9666496CFEF9DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "039BFA35E2940856"
+				item: "betterend:aeternium_boots"
+				type: "item"
+			}]
+			title: "« Aeternium Boots »"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"519D4A4D5B30F96F"
+				"2F7F18D67860DC8D"
+				"300B0B473AB8382A"
+				"5202D2766FD9E9EE"
+			]
+			description: ["Toutes les pièces de l'ensemble « Aeternium » (4), ensemble dans l'inventaire."]
+			icon: "betterend:aeternium_chestplate"
+			id: "2F091AD5B12DC4DD"
+			optional: true
+			rewards: [{
+				id: "522CA676B0126859"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4D5541D9D638DB1B"
+					item: "betterend:aeternium_helmet"
+					type: "item"
+				}
+				{
+					id: "39840A07CC84E539"
+					item: "betterend:aeternium_chestplate"
+					type: "item"
+				}
+				{
+					id: "444910AF1444A0A5"
+					item: "betterend:aeternium_leggings"
+					type: "item"
+				}
+				{
+					id: "61D3586B955B3E63"
+					item: "betterend:aeternium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Aeternium »"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:crystalite_helmet"
+			id: "21F23E52EA156B54"
+			optional: true
+			rewards: [{
+				id: "0BAB639E025E13C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B3CDFD4BAC6846C"
+				item: "betterend:crystalite_helmet"
+				type: "item"
+			}]
+			title: "« Crystalite Helmet »"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:crystalite_chestplate"
+			id: "0001D4D02AE24B32"
+			optional: true
+			rewards: [{
+				id: "2BA0B45A0154C9EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74B935E82866C658"
+				item: "betterend:crystalite_chestplate"
+				type: "item"
+			}]
+			title: "« Crystalite Chestplate »"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:crystalite_leggings"
+			id: "5A11B0731A171AAF"
+			optional: true
+			rewards: [{
+				id: "1779228C169F7549"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5972BD6DA89A5E7A"
+				item: "betterend:crystalite_leggings"
+				type: "item"
+			}]
+			title: "« Crystalite Leggings »"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:crystalite_boots"
+			id: "387E30B42BE022FC"
+			optional: true
+			rewards: [{
+				id: "5F06480C70388BFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46CF0B9FF3163A86"
+				item: "betterend:crystalite_boots"
+				type: "item"
+			}]
+			title: "« Crystalite Boots »"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"21F23E52EA156B54"
+				"0001D4D02AE24B32"
+				"5A11B0731A171AAF"
+				"387E30B42BE022FC"
+			]
+			description: ["Toutes les pièces de l'ensemble « Crystalite » (4), ensemble dans l'inventaire."]
+			icon: "betterend:crystalite_chestplate"
+			id: "7F82A28CDA66DE5E"
+			optional: true
+			rewards: [{
+				id: "1744055DD73BD05D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5492A64AD6C69301"
+					item: "betterend:crystalite_helmet"
+					type: "item"
+				}
+				{
+					id: "58D0681BB887FA6A"
+					item: "betterend:crystalite_chestplate"
+					type: "item"
+				}
+				{
+					id: "68C0E8848B0792DE"
+					item: "betterend:crystalite_leggings"
+					type: "item"
+				}
+				{
+					id: "61D0302ADC017195"
+					item: "betterend:crystalite_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Crystalite »"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_helmet"
+			id: "20F7255070741CBF"
+			optional: true
+			rewards: [{
+				id: "303BF55949336276"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55236DB869953D41"
+				item: "betterend:terminite_helmet"
+				type: "item"
+			}]
+			title: "« Terminite Helmet »"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_chestplate"
+			id: "54F2967662593C73"
+			optional: true
+			rewards: [{
+				id: "1D0CA88828D2BC94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "254C3FE2E6A5A64C"
+				item: "betterend:terminite_chestplate"
+				type: "item"
+			}]
+			title: "« Terminite Chestplate »"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_leggings"
+			id: "7C518C559A9AB6E7"
+			optional: true
+			rewards: [{
+				id: "6C2E1CE366BD0E62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2112DB1D991ADC98"
+				item: "betterend:terminite_leggings"
+				type: "item"
+			}]
+			title: "« Terminite Leggings »"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_boots"
+			id: "51FE9F9CB942549A"
+			optional: true
+			rewards: [{
+				id: "5E8759D70628628D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EB0DD3272F77EFC"
+				item: "betterend:terminite_boots"
+				type: "item"
+			}]
+			title: "« Terminite Boots »"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"20F7255070741CBF"
+				"54F2967662593C73"
+				"7C518C559A9AB6E7"
+				"51FE9F9CB942549A"
+			]
+			description: ["Toutes les pièces de l'ensemble « Terminite » (4), ensemble dans l'inventaire."]
+			icon: "betterend:terminite_chestplate"
+			id: "32393FAD366E1391"
+			optional: true
+			rewards: [{
+				id: "750293832DBE72B3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4C0650900E0BAA96"
+					item: "betterend:terminite_helmet"
+					type: "item"
+				}
+				{
+					id: "3AE02AD6E1E2C6C8"
+					item: "betterend:terminite_chestplate"
+					type: "item"
+				}
+				{
+					id: "14B27405E2579412"
+					item: "betterend:terminite_leggings"
+					type: "item"
+				}
+				{
+					id: "26F282726E21824F"
+					item: "betterend:terminite_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Terminite »"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_helmet"
+			id: "5865851817925BDC"
+			optional: true
+			rewards: [{
+				id: "489F8070B5EBF449"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A0E42512ABFFC21"
+				item: "betterend:thallasium_helmet"
+				type: "item"
+			}]
+			title: "« Thallasium Helmet »"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_chestplate"
+			id: "67D038A325D0F1BD"
+			optional: true
+			rewards: [{
+				id: "5EE1C70CDFB01717"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4272A2DB67D4B80B"
+				item: "betterend:thallasium_chestplate"
+				type: "item"
+			}]
+			title: "« Thallasium Chestplate »"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_leggings"
+			id: "3D0782735519EAA1"
+			optional: true
+			rewards: [{
+				id: "0E5AF868605871B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65B4A97CE1D14E53"
+				item: "betterend:thallasium_leggings"
+				type: "item"
+			}]
+			title: "« Thallasium Leggings »"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter End&r. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_boots"
+			id: "3866DB553EE28CC8"
+			optional: true
+			rewards: [{
+				id: "7D3AE3AC3822799F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D5B928CF6327166"
+				item: "betterend:thallasium_boots"
+				type: "item"
+			}]
+			title: "« Thallasium Boots »"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5865851817925BDC"
+				"67D038A325D0F1BD"
+				"3D0782735519EAA1"
+				"3866DB553EE28CC8"
+			]
+			description: ["Toutes les pièces de l'ensemble « Thallasium » (4), ensemble dans l'inventaire."]
+			icon: "betterend:thallasium_chestplate"
+			id: "314D330555E99DDE"
+			optional: true
+			rewards: [{
+				id: "63ED26F595977E92"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3168B07304B2D635"
+					item: "betterend:thallasium_helmet"
+					type: "item"
+				}
+				{
+					id: "7125836E53A219DB"
+					item: "betterend:thallasium_chestplate"
+					type: "item"
+				}
+				{
+					id: "178BD203D1D00657"
+					item: "betterend:thallasium_leggings"
+					type: "item"
+				}
+				{
+					id: "3227EDE4A87F01DD"
+					item: "betterend:thallasium_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Thallasium »"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_helmet"
+			id: "7B9FE8A873D51430"
+			optional: true
+			rewards: [{
+				id: "41FAF10F781D04C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23193BF9125C0D27"
+				item: "betternether:cincinnasite_helmet"
+				type: "item"
+			}]
+			title: "Cincinnasite Helmet"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_chestplate"
+			id: "40498893B5288CF2"
+			optional: true
+			rewards: [{
+				id: "0EC98E73038C5A79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D438DDB3CDA1A23"
+				item: "betternether:cincinnasite_chestplate"
+				type: "item"
+			}]
+			title: "Cincinnasite Chestplate"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_leggings"
+			id: "40C830B8C71D0CDE"
+			optional: true
+			rewards: [{
+				id: "7A83AB01BD56E77C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EB022A20B0A1C50"
+				item: "betternether:cincinnasite_leggings"
+				type: "item"
+			}]
+			title: "Cincinnasite Leggings"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:cincinnasite_boots"
+			id: "72800AE815BA9A18"
+			optional: true
+			rewards: [{
+				id: "16BF3E00694925E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41667CC9B7176FAE"
+				item: "betternether:cincinnasite_boots"
+				type: "item"
+			}]
+			title: "Cincinnasite Boots"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7B9FE8A873D51430"
+				"40498893B5288CF2"
+				"40C830B8C71D0CDE"
+				"72800AE815BA9A18"
+			]
+			description: ["Toutes les pièces de l'ensemble « Cincinnasite » (4), ensemble dans l'inventaire."]
+			icon: "betternether:cincinnasite_chestplate"
+			id: "24E54850CA25EE45"
+			optional: true
+			rewards: [{
+				id: "4D75185B104BECF0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "30FFE840BF5432AA"
+					item: "betternether:cincinnasite_helmet"
+					type: "item"
+				}
+				{
+					id: "1E907F8D2E0D1AC8"
+					item: "betternether:cincinnasite_chestplate"
+					type: "item"
+				}
+				{
+					id: "6901B9452E1C495B"
+					item: "betternether:cincinnasite_leggings"
+					type: "item"
+				}
+				{
+					id: "4C0F2EDB208073FE"
+					item: "betternether:cincinnasite_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Cincinnasite »"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_helmet"
+			id: "6DCE56F64128894A"
+			optional: true
+			rewards: [{
+				id: "4D09BDD8B2A6BE0D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D2B5422C131AEA3"
+				item: "betternether:flaming_ruby_helmet"
+				type: "item"
+			}]
+			title: "« Fireruby Helmet »"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_chestplate"
+			id: "4175248858F01A38"
+			optional: true
+			rewards: [{
+				id: "7B8DE192E0708C20"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69E229237A31F28C"
+				item: "betternether:flaming_ruby_chestplate"
+				type: "item"
+			}]
+			title: "« Fireruby Chestplate »"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_leggings"
+			id: "06845DB0CA1F8FF5"
+			optional: true
+			rewards: [{
+				id: "4DE63F7D36BD3852"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F825CD69510BA0B"
+				item: "betternether:flaming_ruby_leggings"
+				type: "item"
+			}]
+			title: "« Fireruby Leggings »"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:flaming_ruby_boots"
+			id: "1AF4AF617389AF7D"
+			optional: true
+			rewards: [{
+				id: "17CB795AE526AFDF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "421933041AC61385"
+				item: "betternether:flaming_ruby_boots"
+				type: "item"
+			}]
+			title: "« Fireruby Boots »"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6DCE56F64128894A"
+				"4175248858F01A38"
+				"06845DB0CA1F8FF5"
+				"1AF4AF617389AF7D"
+			]
+			description: ["Toutes les pièces de l'ensemble « Fireruby » (4), ensemble dans l'inventaire."]
+			icon: "betternether:flaming_ruby_chestplate"
+			id: "7C869DDA014C89E9"
+			optional: true
+			rewards: [{
+				id: "2876ABCA901BFB0B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "436F971E2BA8B8F5"
+					item: "betternether:flaming_ruby_helmet"
+					type: "item"
+				}
+				{
+					id: "459B04071AD32E87"
+					item: "betternether:flaming_ruby_chestplate"
+					type: "item"
+				}
+				{
+					id: "7E3CB480FC7CC01D"
+					item: "betternether:flaming_ruby_leggings"
+					type: "item"
+				}
+				{
+					id: "703A476F3455B0BB"
+					item: "betternether:flaming_ruby_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Fireruby »"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_helmet"
+			id: "464ED63C87FC9E88"
+			optional: true
+			rewards: [{
+				id: "760E02BFF7D4E760"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B7D1C17B85421F6"
+				item: "betternether:nether_ruby_helmet"
+				type: "item"
+			}]
+			title: "Nether Ruby Helmet"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_chestplate"
+			id: "12C7C787A41DC17D"
+			optional: true
+			rewards: [{
+				id: "5B952EA2BFC79D35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FB7DA47DF626D53"
+				item: "betternether:nether_ruby_chestplate"
+				type: "item"
+			}]
+			title: "Nether Ruby Chestplate"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_leggings"
+			id: "62EA91B2F28BA6ED"
+			optional: true
+			rewards: [{
+				id: "688416A241BC73C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "208A0B140AA41522"
+				item: "betternether:nether_ruby_leggings"
+				type: "item"
+			}]
+			title: "Nether Ruby Leggings"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBetter Nether&r. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée."]
+			icon: "betternether:nether_ruby_boots"
+			id: "1C0605F19B5F9594"
+			optional: true
+			rewards: [{
+				id: "4F8DFBE518CDA83A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56C1B077A51A13FD"
+				item: "betternether:nether_ruby_boots"
+				type: "item"
+			}]
+			title: "Nether Ruby Boots"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"464ED63C87FC9E88"
+				"12C7C787A41DC17D"
+				"62EA91B2F28BA6ED"
+				"1C0605F19B5F9594"
+			]
+			description: ["Toutes les pièces de l'ensemble « Nether Ruby » (4), ensemble dans l'inventaire."]
+			icon: "betternether:nether_ruby_chestplate"
+			id: "1C2A74E7E0E90C82"
+			optional: true
+			rewards: [{
+				id: "636DD1567077A9F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6E83A30F2BE0729A"
+					item: "betternether:nether_ruby_helmet"
+					type: "item"
+				}
+				{
+					id: "51A4F115C7E40C25"
+					item: "betternether:nether_ruby_chestplate"
+					type: "item"
+				}
+				{
+					id: "52FE1C0A20BC2B56"
+					item: "betternether:nether_ruby_leggings"
+					type: "item"
+				}
+				{
+					id: "4F6608EAEF5601A7"
+					item: "betternether:nether_ruby_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Nether Ruby »"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_helmet"
+			id: "2F794BB7832A5897"
+			optional: true
+			rewards: [{
+				id: "1CCF0E86E226665E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03CE19BDA4340007"
+				item: "blue_skies:aquite_helmet"
+				type: "item"
+			}]
+			title: "Casque en aquite"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_chestplate"
+			id: "0B5EE10E97BF8B6C"
+			optional: true
+			rewards: [{
+				id: "136BC2916A7ED181"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E6C92318031D963"
+				item: "blue_skies:aquite_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en aquite"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_leggings"
+			id: "1496FFC41A1D28C3"
+			optional: true
+			rewards: [{
+				id: "009DDFED1EA52323"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FD9AC7D2DDD4576"
+				item: "blue_skies:aquite_leggings"
+				type: "item"
+			}]
+			title: "Jambières en aquite"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:aquite_boots"
+			id: "0439075C45D49444"
+			optional: true
+			rewards: [{
+				id: "4FBB43470BCDC6E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D19189C207946D3"
+				item: "blue_skies:aquite_boots"
+				type: "item"
+			}]
+			title: "Bottes en aquite"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2F794BB7832A5897"
+				"0B5EE10E97BF8B6C"
+				"1496FFC41A1D28C3"
+				"0439075C45D49444"
+			]
+			description: ["Toutes les pièces de l'ensemble en aquite (4), ensemble dans l'inventaire."]
+			icon: "blue_skies:aquite_chestplate"
+			id: "5E1D9058368DEC92"
+			optional: true
+			rewards: [{
+				id: "430C0B18230DCAC9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5CCC7FD2047FB6F6"
+					item: "blue_skies:aquite_helmet"
+					type: "item"
+				}
+				{
+					id: "29274D1A05F1F6EE"
+					item: "blue_skies:aquite_chestplate"
+					type: "item"
+				}
+				{
+					id: "47D5927A8C2A2543"
+					item: "blue_skies:aquite_leggings"
+					type: "item"
+				}
+				{
+					id: "351DA055A715C744"
+					item: "blue_skies:aquite_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en aquite"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_helmet"
+			id: "431F6EEF77410651"
+			optional: true
+			rewards: [{
+				id: "30EC742DD8D6F83E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33C364214BC461AD"
+				item: "blue_skies:charoite_helmet"
+				type: "item"
+			}]
+			title: "Casque en charoite"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_chestplate"
+			id: "0F4E2A8651CC3E8F"
+			optional: true
+			rewards: [{
+				id: "0FAEA30E7A9E38E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AE2C3364823D021"
+				item: "blue_skies:charoite_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en charoite"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_leggings"
+			id: "4735324BC7A68DF5"
+			optional: true
+			rewards: [{
+				id: "12FD2227E86F160C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7718FC7539ECA9B8"
+				item: "blue_skies:charoite_leggings"
+				type: "item"
+			}]
+			title: "Jambières en charoite"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:charoite_boots"
+			id: "053F5E95C50C7FFD"
+			optional: true
+			rewards: [{
+				id: "6BC7FE28C15B7FD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BB161041C4F649B"
+				item: "blue_skies:charoite_boots"
+				type: "item"
+			}]
+			title: "Bottes en charoite"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"431F6EEF77410651"
+				"0F4E2A8651CC3E8F"
+				"4735324BC7A68DF5"
+				"053F5E95C50C7FFD"
+			]
+			description: ["Toutes les pièces de l'ensemble en charoite (4), ensemble dans l'inventaire."]
+			icon: "blue_skies:charoite_chestplate"
+			id: "6C20272FBA42C5AF"
+			optional: true
+			rewards: [{
+				id: "1733307C65A23F1F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "449B2849D3A0252E"
+					item: "blue_skies:charoite_helmet"
+					type: "item"
+				}
+				{
+					id: "34FD598532FF3E0A"
+					item: "blue_skies:charoite_chestplate"
+					type: "item"
+				}
+				{
+					id: "58794E278DA96F89"
+					item: "blue_skies:charoite_leggings"
+					type: "item"
+				}
+				{
+					id: "4B436CF302F9011E"
+					item: "blue_skies:charoite_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en charoite"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_helmet"
+			id: "7761A07B98ADE233"
+			optional: true
+			rewards: [{
+				id: "2B0C7902A9CE84BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0EFF854E0AF5CD7F"
+				item: "blue_skies:diopside_helmet"
+				type: "item"
+			}]
+			title: "Casque en diopside"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_chestplate"
+			id: "2E1D01337B633D72"
+			optional: true
+			rewards: [{
+				id: "15073BBD46F6AB45"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48A63BADDFE6CA64"
+				item: "blue_skies:diopside_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en diopside"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_leggings"
+			id: "4A904D118930CB19"
+			optional: true
+			rewards: [{
+				id: "3B5F78669B2F0DA7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D5857CBBCAD9E5B"
+				item: "blue_skies:diopside_leggings"
+				type: "item"
+			}]
+			title: "Jambières en diopside"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:diopside_boots"
+			id: "049BF4AE08553BF5"
+			optional: true
+			rewards: [{
+				id: "7F2BC5BF52CAA971"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A4FE1A5F628BB67"
+				item: "blue_skies:diopside_boots"
+				type: "item"
+			}]
+			title: "Bottes en diopside"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7761A07B98ADE233"
+				"2E1D01337B633D72"
+				"4A904D118930CB19"
+				"049BF4AE08553BF5"
+			]
+			description: ["Toutes les pièces de l'ensemble en diopside (4), ensemble dans l'inventaire."]
+			icon: "blue_skies:diopside_chestplate"
+			id: "426F9FDABC5ACAF8"
+			optional: true
+			rewards: [{
+				id: "4CD05882CABF0DCC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "778EAEADD7C36497"
+					item: "blue_skies:diopside_helmet"
+					type: "item"
+				}
+				{
+					id: "76E49FA77BA68F0B"
+					item: "blue_skies:diopside_chestplate"
+					type: "item"
+				}
+				{
+					id: "2B3D0B6E34A25651"
+					item: "blue_skies:diopside_leggings"
+					type: "item"
+				}
+				{
+					id: "34CB22524209FF48"
+					item: "blue_skies:diopside_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en diopside"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_helmet"
+			id: "37BEAA4D8B7590F4"
+			optional: true
+			rewards: [{
+				id: "16AF6BD5336B3B81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56280734C05F0047"
+				item: "blue_skies:horizonite_helmet"
+				type: "item"
+			}]
+			title: "Casque en horizonite"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_chestplate"
+			id: "0583D05432EF9AE8"
+			optional: true
+			rewards: [{
+				id: "3C95D14F120A046D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46526FF2071B4B11"
+				item: "blue_skies:horizonite_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en horizonite"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_leggings"
+			id: "569DA7674E9A37E6"
+			optional: true
+			rewards: [{
+				id: "1E8D74AEA6695F93"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0573DEB0AF2BE7B1"
+				item: "blue_skies:horizonite_leggings"
+				type: "item"
+			}]
+			title: "Jambières en horizonite"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:horizonite_boots"
+			id: "0EEF7E50B2C1C6AC"
+			optional: true
+			rewards: [{
+				id: "7F554E3AF965CB39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A0308397BAC4D0A"
+				item: "blue_skies:horizonite_boots"
+				type: "item"
+			}]
+			title: "Bottes en horizonite"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37BEAA4D8B7590F4"
+				"0583D05432EF9AE8"
+				"569DA7674E9A37E6"
+				"0EEF7E50B2C1C6AC"
+			]
+			description: ["Toutes les pièces de l'ensemble en horizonite (4), ensemble dans l'inventaire."]
+			icon: "blue_skies:horizonite_chestplate"
+			id: "660A08D9FEA8A5E4"
+			optional: true
+			rewards: [{
+				id: "787D614458D62CB2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "217C45AAFD505827"
+					item: "blue_skies:horizonite_helmet"
+					type: "item"
+				}
+				{
+					id: "6B38781E87B6F7F9"
+					item: "blue_skies:horizonite_chestplate"
+					type: "item"
+				}
+				{
+					id: "05A8F716FC93FC9E"
+					item: "blue_skies:horizonite_leggings"
+					type: "item"
+				}
+				{
+					id: "1BC828C02844EA29"
+					item: "blue_skies:horizonite_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en horizonite"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_helmet"
+			id: "6826B4711572FE82"
+			optional: true
+			rewards: [{
+				id: "2F096552FEDB7D76"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5ED11B57FBF48C26"
+				item: "blue_skies:pyrope_helmet"
+				type: "item"
+			}]
+			title: "Casque en pyrope"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_chestplate"
+			id: "3931D4D2AC11CE1A"
+			optional: true
+			rewards: [{
+				id: "3559CC6989A3060E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6380F9AD9D16EBF6"
+				item: "blue_skies:pyrope_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en pyrope"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_leggings"
+			id: "0670E38F3FD5E065"
+			optional: true
+			rewards: [{
+				id: "7A9DBF0599059D04"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60C999BE3B1E83E7"
+				item: "blue_skies:pyrope_leggings"
+				type: "item"
+			}]
+			title: "Jambières en pyrope"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Pièce d'armure de &bBlue Skies&r. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:pyrope_boots"
+			id: "4652E42DE4ECC293"
+			optional: true
+			rewards: [{
+				id: "3D70A18CBF2C3697"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DA58055DA025886"
+				item: "blue_skies:pyrope_boots"
+				type: "item"
+			}]
+			title: "Bottes en pyrope"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6826B4711572FE82"
+				"3931D4D2AC11CE1A"
+				"0670E38F3FD5E065"
+				"4652E42DE4ECC293"
+			]
+			description: ["Toutes les pièces de l'ensemble en pyrope (4), ensemble dans l'inventaire."]
+			icon: "blue_skies:pyrope_chestplate"
+			id: "4ED0EAB23C2236F4"
+			optional: true
+			rewards: [{
+				id: "036B8671F507A53B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "35FD485ADDC31A28"
+					item: "blue_skies:pyrope_helmet"
+					type: "item"
+				}
+				{
+					id: "12394A9D2097CF4B"
+					item: "blue_skies:pyrope_chestplate"
+					type: "item"
+				}
+				{
+					id: "022973E7121CAEC5"
+					item: "blue_skies:pyrope_leggings"
+					type: "item"
+				}
+				{
+					id: "4326F7873CA3EBD3"
+					item: "blue_skies:pyrope_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en pyrope"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_helmet"
+			id: "5C5E03BCAD278602"
+			optional: true
+			rewards: [{
+				id: "089438CAA7CF32BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B05EE2A675EF55D"
+				item: "deep_aether:skyjade_helmet"
+				type: "item"
+			}]
+			title: "« Skyjade Helmet »"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_chestplate"
+			id: "459BC995873F7CA9"
+			optional: true
+			rewards: [{
+				id: "3C59AC97F87A4C30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44C68997E0047E3F"
+				item: "deep_aether:skyjade_chestplate"
+				type: "item"
+			}]
+			title: "« Skyjade Chestplate »"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_leggings"
+			id: "77DE2E6258A4B522"
+			optional: true
+			rewards: [{
+				id: "1F1767EDA5A2C63B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F45755F9D7D3020"
+				item: "deep_aether:skyjade_leggings"
+				type: "item"
+			}]
+			title: "« Skyjade Leggings »"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_boots"
+			id: "6177D845CB9CB1A2"
+			optional: true
+			rewards: [{
+				id: "750AF448FC8ADA68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7991D36CC50E12AC"
+				item: "deep_aether:skyjade_boots"
+				type: "item"
+			}]
+			title: "« Skyjade Boots »"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:skyjade_gloves"
+			id: "30E4ABC02C6D4751"
+			optional: true
+			rewards: [{
+				id: "47B072A62C28CD08"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FC204A6A87A1D8C"
+				item: "deep_aether:skyjade_gloves"
+				type: "item"
+			}]
+			title: "« Skyjade Gloves »"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5C5E03BCAD278602"
+				"459BC995873F7CA9"
+				"77DE2E6258A4B522"
+				"6177D845CB9CB1A2"
+				"30E4ABC02C6D4751"
+			]
+			description: ["Toutes les pièces de l'ensemble « Skyjade » (5), ensemble dans l'inventaire."]
+			icon: "deep_aether:skyjade_chestplate"
+			id: "682309E4B26A3089"
+			optional: true
+			rewards: [{
+				id: "72995B093004B2E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "57DA28B518D55C65"
+					item: "deep_aether:skyjade_helmet"
+					type: "item"
+				}
+				{
+					id: "15FD0A472C2BAD99"
+					item: "deep_aether:skyjade_chestplate"
+					type: "item"
+				}
+				{
+					id: "2517CADB08C65632"
+					item: "deep_aether:skyjade_leggings"
+					type: "item"
+				}
+				{
+					id: "34EF312D9A2886CB"
+					item: "deep_aether:skyjade_boots"
+					type: "item"
+				}
+				{
+					id: "03773574C5BC8A58"
+					item: "deep_aether:skyjade_gloves"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Skyjade »"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stormforged_helmet"
+			id: "3B30297B486A9099"
+			optional: true
+			rewards: [{
+				id: "57E1D910B8A30FD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "547FE9D755FA1747"
+				item: "deep_aether:stormforged_helmet"
+				type: "item"
+			}]
+			title: "« Stormforged Helmet »"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stormforged_chestplate"
+			id: "137DEFA2C8C153E1"
+			optional: true
+			rewards: [{
+				id: "2FA3F2C7C57393AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4ECDD490867D0752"
+				item: "deep_aether:stormforged_chestplate"
+				type: "item"
+			}]
+			title: "« Stormforged Chestplate »"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stormforged_leggings"
+			id: "0C28CFDB9431931D"
+			optional: true
+			rewards: [{
+				id: "25B915FDAFD4A081"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DB0B9467361D4FD"
+				item: "deep_aether:stormforged_leggings"
+				type: "item"
+			}]
+			title: "« Stormforged Leggings »"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stormforged_boots"
+			id: "6ADB76CB1A5560FD"
+			optional: true
+			rewards: [{
+				id: "30A17455D3C6286D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AD50F4AF45F6AC8"
+				item: "deep_aether:stormforged_boots"
+				type: "item"
+			}]
+			title: "« Stormforged Boots »"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stormforged_gloves"
+			id: "075CDDD7E75B4F0D"
+			optional: true
+			rewards: [{
+				id: "1BD92B00F8222253"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0EA520624ECB0252"
+				item: "deep_aether:stormforged_gloves"
+				type: "item"
+			}]
+			title: "« Stormforged Gloves »"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3B30297B486A9099"
+				"137DEFA2C8C153E1"
+				"0C28CFDB9431931D"
+				"6ADB76CB1A5560FD"
+				"075CDDD7E75B4F0D"
+			]
+			description: ["Toutes les pièces de l'ensemble « Stormforged » (5), ensemble dans l'inventaire."]
+			icon: "deep_aether:stormforged_chestplate"
+			id: "1316DC9A6740888F"
+			optional: true
+			rewards: [{
+				id: "70D7AC29C776A356"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "642813AD87DFCFE0"
+					item: "deep_aether:stormforged_helmet"
+					type: "item"
+				}
+				{
+					id: "727F9AEB5F7B870E"
+					item: "deep_aether:stormforged_chestplate"
+					type: "item"
+				}
+				{
+					id: "361446E91B6B1BDB"
+					item: "deep_aether:stormforged_leggings"
+					type: "item"
+				}
+				{
+					id: "6F83F2DF3F61B667"
+					item: "deep_aether:stormforged_boots"
+					type: "item"
+				}
+				{
+					id: "2C35A36F8A6048C7"
+					item: "deep_aether:stormforged_gloves"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Stormforged »"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_helmet"
+			id: "12D0FB83D55B405C"
+			optional: true
+			rewards: [{
+				id: "64498360CB9F4D69"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F746848E0492A3E"
+				item: "deep_aether:stratus_helmet"
+				type: "item"
+			}]
+			title: "« Stratus Helmet »"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_chestplate"
+			id: "4F4D8D75F0C5F650"
+			optional: true
+			rewards: [{
+				id: "4A23537DD2BAF64B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5460F62B0D196079"
+				item: "deep_aether:stratus_chestplate"
+				type: "item"
+			}]
+			title: "« Stratus Chestplate »"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_leggings"
+			id: "7CB4DDFCEAACB9E7"
+			optional: true
+			rewards: [{
+				id: "3A1065F03E58E7D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C4F71860F66D79E"
+				item: "deep_aether:stratus_leggings"
+				type: "item"
+			}]
+			title: "« Stratus Leggings »"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_boots"
+			id: "51748ABED1A08F8D"
+			optional: true
+			rewards: [{
+				id: "0A2D02FE0ADF09FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "417CE019EA7683F8"
+				item: "deep_aether:stratus_boots"
+				type: "item"
+			}]
+			title: "« Stratus Boots »"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bDeep Aether&r. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "deep_aether:stratus_gloves"
+			id: "4A77D8D937B955A7"
+			optional: true
+			rewards: [{
+				id: "36FE51B4D57638EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76437AE6D79D7462"
+				item: "deep_aether:stratus_gloves"
+				type: "item"
+			}]
+			title: "« Stratus Gloves »"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"12D0FB83D55B405C"
+				"4F4D8D75F0C5F650"
+				"7CB4DDFCEAACB9E7"
+				"51748ABED1A08F8D"
+				"4A77D8D937B955A7"
+			]
+			description: ["Toutes les pièces de l'ensemble « Stratus » (5), ensemble dans l'inventaire."]
+			icon: "deep_aether:stratus_chestplate"
+			id: "01AF3A4269AD7F50"
+			optional: true
+			rewards: [{
+				id: "2467077C3191E9C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6288922025E0DCB2"
+					item: "deep_aether:stratus_helmet"
+					type: "item"
+				}
+				{
+					id: "20E50E697ADB82DE"
+					item: "deep_aether:stratus_chestplate"
+					type: "item"
+				}
+				{
+					id: "0A1F759594A8D211"
+					item: "deep_aether:stratus_leggings"
+					type: "item"
+				}
+				{
+					id: "7FEC87A58CD4D05B"
+					item: "deep_aether:stratus_boots"
+					type: "item"
+				}
+				{
+					id: "5676AAE2B0408134"
+					item: "deep_aether:stratus_gloves"
+					type: "item"
+				}
+			]
+			title: "Ensemble « Stratus »"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "lost_aether_content:agility_boots"
+			id: "52644D00A2EDF4B9"
+			optional: true
+			rewards: [{
+				id: "71ECE903EC85503C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "220E18D4A841709F"
+				item: "lost_aether_content:agility_boots"
+				type: "item"
+			}]
+			title: "Bottes d'Agilité"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "lost_aether_content:power_gloves"
+			id: "50E46B179415BB7D"
+			optional: true
+			rewards: [{
+				id: "11A4EB4B460ED331"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F7887848460BA89"
+				item: "lost_aether_content:power_gloves"
+				type: "item"
+			}]
+			title: "Gants de Puissance"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "lost_aether_content:swetty_mask"
+			id: "421B4317F5CE1207"
+			optional: true
+			rewards: [{
+				id: "3F4052D208728D26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65B8C7F0D6F3D9C4"
+				item: "lost_aether_content:swetty_mask"
+				type: "item"
+			}]
+			title: "Masque doux"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:arctic_helmet"
+			id: "2460D0657110F893"
+			optional: true
+			rewards: [{
+				id: "46E27ECD636DF9B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F00AF22999D8EB1"
+				item: "twilightforest:arctic_helmet"
+				type: "item"
+			}]
+			title: "Capuche arctique"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:arctic_chestplate"
+			id: "4B5CD72683147936"
+			optional: true
+			rewards: [{
+				id: "4A30B6514F8224CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "348A43A05D41FB4F"
+				item: "twilightforest:arctic_chestplate"
+				type: "item"
+			}]
+			title: "Manteau arctique"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:arctic_leggings"
+			id: "0B92CF6978C09446"
+			optional: true
+			rewards: [{
+				id: "5BA02F50C2565B8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FA318EA24786B25"
+				item: "twilightforest:arctic_leggings"
+				type: "item"
+			}]
+			title: "Jambières arctiques"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:arctic_boots"
+			id: "5F4EB2352398A519"
+			optional: true
+			rewards: [{
+				id: "5421ADAA0D071EF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59C7D1501C14574F"
+				item: "twilightforest:arctic_boots"
+				type: "item"
+			}]
+			title: "Bottes arctiques"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2460D0657110F893"
+				"4B5CD72683147936"
+				"0B92CF6978C09446"
+				"5F4EB2352398A519"
+			]
+			description: ["Toutes les pièces de l'ensemble arctique (4), ensemble dans l'inventaire."]
+			icon: "twilightforest:arctic_chestplate"
+			id: "454429861B97B093"
+			optional: true
+			rewards: [{
+				id: "13FBDA1B0AE02FF4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "545A382E6E1F05CE"
+					item: "twilightforest:arctic_helmet"
+					type: "item"
+				}
+				{
+					id: "321E99791B2D42D8"
+					item: "twilightforest:arctic_chestplate"
+					type: "item"
+				}
+				{
+					id: "65C838291F0CF4A0"
+					item: "twilightforest:arctic_leggings"
+					type: "item"
+				}
+				{
+					id: "5E87C6C9D9A266E4"
+					item: "twilightforest:arctic_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble arctique"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:fiery_helmet"
+			id: "0A1A44BCA27CDF43"
+			optional: true
+			rewards: [{
+				id: "7F0823F32729C5A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E2EB709B2BF4D75"
+				item: "twilightforest:fiery_helmet"
+				type: "item"
+			}]
+			title: "Casque ardent"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:fiery_chestplate"
+			id: "75C5184B2A33668E"
+			optional: true
+			rewards: [{
+				id: "2F359CD903F45D87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0111E2E0D03ED512"
+				item: "twilightforest:fiery_chestplate"
+				type: "item"
+			}]
+			title: "Plastron ardent"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:fiery_leggings"
+			id: "6A79975E44085F90"
+			optional: true
+			rewards: [{
+				id: "7817D41DF8CDAECB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "283B5BDCB393F9CA"
+				item: "twilightforest:fiery_leggings"
+				type: "item"
+			}]
+			title: "Jambières ardentes"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:fiery_boots"
+			id: "3D641933FBFFBBE0"
+			optional: true
+			rewards: [{
+				id: "331F28A5CE58F852"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54D4579DABD6391C"
+				item: "twilightforest:fiery_boots"
+				type: "item"
+			}]
+			title: "Bottes ardentes"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0A1A44BCA27CDF43"
+				"75C5184B2A33668E"
+				"6A79975E44085F90"
+				"3D641933FBFFBBE0"
+			]
+			description: ["Toutes les pièces de l'ensemble ardent (4), ensemble dans l'inventaire."]
+			icon: "twilightforest:fiery_chestplate"
+			id: "38D4C1591BA5E9F2"
+			optional: true
+			rewards: [{
+				id: "144AA525D9A69972"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "23821C577C10DEDC"
+					item: "twilightforest:fiery_helmet"
+					type: "item"
+				}
+				{
+					id: "1D5B6D5524DB817D"
+					item: "twilightforest:fiery_chestplate"
+					type: "item"
+				}
+				{
+					id: "5F1C333A8AFE36B9"
+					item: "twilightforest:fiery_leggings"
+					type: "item"
+				}
+				{
+					id: "136E4038CE61E8AA"
+					item: "twilightforest:fiery_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble ardent"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_helmet"
+			id: "560A64C7E6DB2EE7"
+			optional: true
+			rewards: [{
+				id: "28258F536B97D526"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B325D2A39E8354A"
+				item: "twilightforest:ironwood_helmet"
+				type: "item"
+			}]
+			title: "Casque en bois de fer"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_chestplate"
+			id: "14E43D8F02B77656"
+			optional: true
+			rewards: [{
+				id: "60FA33BF887FB22B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "133863E03A68D344"
+				item: "twilightforest:ironwood_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en bois de fer"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_leggings"
+			id: "3DCA6D868F16F2F8"
+			optional: true
+			rewards: [{
+				id: "6F8FF9457179A42D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1523CFE97ABA49C8"
+				item: "twilightforest:ironwood_leggings"
+				type: "item"
+			}]
+			title: "Jambières en bois de fer"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:ironwood_boots"
+			id: "0C7A16DAAC4E70D2"
+			optional: true
+			rewards: [{
+				id: "15090DE67C731625"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B6B8AA3D39C36A4"
+				item: "twilightforest:ironwood_boots"
+				type: "item"
+			}]
+			title: "Bottes en bois de fer"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"560A64C7E6DB2EE7"
+				"14E43D8F02B77656"
+				"3DCA6D868F16F2F8"
+				"0C7A16DAAC4E70D2"
+			]
+			description: ["Toutes les pièces de l'ensemble en bois de fer (4), ensemble dans l'inventaire."]
+			icon: "twilightforest:ironwood_chestplate"
+			id: "325E89CEC816C76A"
+			optional: true
+			rewards: [{
+				id: "116C3DD131A55C59"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "22AA95DB5A0C2B19"
+					item: "twilightforest:ironwood_helmet"
+					type: "item"
+				}
+				{
+					id: "6CCAEE45AEBCC30C"
+					item: "twilightforest:ironwood_chestplate"
+					type: "item"
+				}
+				{
+					id: "4A1269AA4C3E337B"
+					item: "twilightforest:ironwood_leggings"
+					type: "item"
+				}
+				{
+					id: "3673FE94304AE812"
+					item: "twilightforest:ironwood_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en bois de fer"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:knightmetal_helmet"
+			id: "6D5666B3405F8355"
+			optional: true
+			rewards: [{
+				id: "21C2E101114FA499"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15B9645783D4D767"
+				item: "twilightforest:knightmetal_helmet"
+				type: "item"
+			}]
+			title: "Casque chevaleresque"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:knightmetal_chestplate"
+			id: "2991A55B6C671B76"
+			optional: true
+			rewards: [{
+				id: "435D47B105A37771"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6769DA2FC49E91F5"
+				item: "twilightforest:knightmetal_chestplate"
+				type: "item"
+			}]
+			title: "Plastron chevaleresque"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:knightmetal_leggings"
+			id: "76DC82EF82DCBE20"
+			optional: true
+			rewards: [{
+				id: "5D9EB88E72CA506C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B090A5D53538ACB"
+				item: "twilightforest:knightmetal_leggings"
+				type: "item"
+			}]
+			title: "Jambières chevaleresques"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:knightmetal_boots"
+			id: "5C673C1E4A97002E"
+			optional: true
+			rewards: [{
+				id: "4C66D764CC6EE877"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C07973C9580A684"
+				item: "twilightforest:knightmetal_boots"
+				type: "item"
+			}]
+			title: "Bottes chevaleresques"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6D5666B3405F8355"
+				"2991A55B6C671B76"
+				"76DC82EF82DCBE20"
+				"5C673C1E4A97002E"
+			]
+			description: ["Toutes les pièces de l'ensemble chevaleresque (4), ensemble dans l'inventaire."]
+			icon: "twilightforest:knightmetal_chestplate"
+			id: "776C37E596004D43"
+			optional: true
+			rewards: [{
+				id: "5DF06D4B312D2E1E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "643878F91A54610C"
+					item: "twilightforest:knightmetal_helmet"
+					type: "item"
+				}
+				{
+					id: "1359EBE08A2E7FB6"
+					item: "twilightforest:knightmetal_chestplate"
+					type: "item"
+				}
+				{
+					id: "7ED549916F6A3B52"
+					item: "twilightforest:knightmetal_leggings"
+					type: "item"
+				}
+				{
+					id: "42242B8F55E94B9E"
+					item: "twilightforest:knightmetal_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble chevaleresque"
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en écailles de Nâga. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:naga_chestplate"
+			id: "66A0A91607069ECA"
+			optional: true
+			rewards: [{
+				id: "0D141475E70A5D91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21DC63959F73F3A9"
+				item: "twilightforest:naga_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en écailles de Nâga"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en écailles de Nâga. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:naga_leggings"
+			id: "1C27C4F0D7B6796B"
+			optional: true
+			rewards: [{
+				id: "7EDEE87B04378CD5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FC8A9A22F89075A"
+				item: "twilightforest:naga_leggings"
+				type: "item"
+			}]
+			title: "Jambières en écailles de Nâga"
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"66A0A91607069ECA"
+				"1C27C4F0D7B6796B"
+			]
+			description: ["Toutes les pièces de l'ensemble en écailles de Nâga (2), ensemble dans l'inventaire."]
+			icon: "twilightforest:naga_leggings"
+			id: "73EB0A442946406A"
+			optional: true
+			rewards: [{
+				id: "23B3FB46EF6E184D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "778BBD97C63AF86F"
+					item: "twilightforest:naga_chestplate"
+					type: "item"
+				}
+				{
+					id: "262552C2C81FEA78"
+					item: "twilightforest:naga_leggings"
+					type: "item"
+				}
+			]
+			title: "Ensemble en écailles de Nâga"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de fantôme. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:phantom_helmet"
+			id: "76C951F721F85CE5"
+			optional: true
+			rewards: [{
+				id: "7932B52A9BAD069A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CE1ACDEFA0B4FDA"
+				item: "twilightforest:phantom_helmet"
+				type: "item"
+			}]
+			title: "Casque de fantôme"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de fantôme. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:phantom_chestplate"
+			id: "2F06CEBC54944948"
+			optional: true
+			rewards: [{
+				id: "1A18CB56765DB69D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03661996D2C2D818"
+				item: "twilightforest:phantom_chestplate"
+				type: "item"
+			}]
+			title: "Plastron de fantôme"
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"76C951F721F85CE5"
+				"2F06CEBC54944948"
+			]
+			description: ["Toutes les pièces de l'ensemble de fantôme (2), ensemble dans l'inventaire."]
+			icon: "twilightforest:phantom_chestplate"
+			id: "04322D13D285AD70"
+			optional: true
+			rewards: [{
+				id: "5A889EB1E9B48C88"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1A545F9513FDBE25"
+					item: "twilightforest:phantom_helmet"
+					type: "item"
+				}
+				{
+					id: "4D44E05D971A3821"
+					item: "twilightforest:phantom_chestplate"
+					type: "item"
+				}
+			]
+			title: "Ensemble de fantôme"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_helmet"
+			id: "0F4E612A4E44EAB8"
+			optional: true
+			rewards: [{
+				id: "6C06D913E654AE9F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E25AE6922E66685"
+				item: "twilightforest:steeleaf_helmet"
+				type: "item"
+			}]
+			title: "Casque en Stealeaf"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_chestplate"
+			id: "7E55B1432B608DD2"
+			optional: true
+			rewards: [{
+				id: "5D9F76949848FEBD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57E7F1F1A89D871A"
+				item: "twilightforest:steeleaf_chestplate"
+				type: "item"
+			}]
+			title: "Plastron en Stealeaf"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_leggings"
+			id: "418FAE4D6488C56E"
+			optional: true
+			rewards: [{
+				id: "6FE2E21F2F6A418A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "612B94F141D059DA"
+				item: "twilightforest:steeleaf_leggings"
+				type: "item"
+			}]
+			title: "Jambières en Stealeaf"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:steeleaf_boots"
+			id: "07F9630D38E57119"
+			optional: true
+			rewards: [{
+				id: "26D022E2D88EF5F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "323FD6E9C0AF28B5"
+				item: "twilightforest:steeleaf_boots"
+				type: "item"
+			}]
+			title: "Bottes en Stealeaf"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0F4E612A4E44EAB8"
+				"7E55B1432B608DD2"
+				"418FAE4D6488C56E"
+				"07F9630D38E57119"
+			]
+			description: ["Toutes les pièces de l'ensemble en Stealeaf (4), ensemble dans l'inventaire."]
+			icon: "twilightforest:steeleaf_chestplate"
+			id: "07897C2041EEACED"
+			optional: true
+			rewards: [{
+				id: "79382806362EB533"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2683C091C228908D"
+					item: "twilightforest:steeleaf_helmet"
+					type: "item"
+				}
+				{
+					id: "1A1B3105C40D95B8"
+					item: "twilightforest:steeleaf_chestplate"
+					type: "item"
+				}
+				{
+					id: "514B7BC53D9CC0ED"
+					item: "twilightforest:steeleaf_leggings"
+					type: "item"
+				}
+				{
+					id: "04EDE36E039D5246"
+					item: "twilightforest:steeleaf_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble en Stealeaf"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:yeti_helmet"
+			id: "32579A739580337C"
+			optional: true
+			rewards: [{
+				id: "4FB38C17F3E9FC97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "172D56FB69EFE8E3"
+				item: "twilightforest:yeti_helmet"
+				type: "item"
+			}]
+			title: "Casque orné de Yéti"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:yeti_chestplate"
+			id: "3F8B1220CB8A6828"
+			optional: true
+			rewards: [{
+				id: "16A786AFDAED10C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56A65BC370AECDDF"
+				item: "twilightforest:yeti_chestplate"
+				type: "item"
+			}]
+			title: "Veste de Yéti"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:yeti_leggings"
+			id: "1695310BE0C6F564"
+			optional: true
+			rewards: [{
+				id: "785A1315BF7E8611"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34EF3C3F26A72B32"
+				item: "twilightforest:yeti_leggings"
+				type: "item"
+			}]
+			title: "Jambières de Yéti"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bTwilight Forest&r. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightforest:yeti_boots"
+			id: "01D974208D11F120"
+			optional: true
+			rewards: [{
+				id: "75465BD2951E4E74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DDCEB2303165F7E"
+				item: "twilightforest:yeti_boots"
+				type: "item"
+			}]
+			title: "Bottes de Yéti"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"32579A739580337C"
+				"3F8B1220CB8A6828"
+				"1695310BE0C6F564"
+				"01D974208D11F120"
+			]
+			description: ["Toutes les pièces de l'ensemble de Yéti (4), ensemble dans l'inventaire."]
+			icon: "twilightforest:yeti_chestplate"
+			id: "408EE57159FB067F"
+			optional: true
+			rewards: [{
+				id: "025C368711651F85"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "079DB50D81F12F01"
+					item: "twilightforest:yeti_helmet"
+					type: "item"
+				}
+				{
+					id: "304A7782A4E3A2A3"
+					item: "twilightforest:yeti_chestplate"
+					type: "item"
+				}
+				{
+					id: "6E48CFBD965E7DE3"
+					item: "twilightforest:yeti_leggings"
+					type: "item"
+				}
+				{
+					id: "60BB46F26D759E06"
+					item: "twilightforest:yeti_boots"
+					type: "item"
+				}
+			]
+			title: "Ensemble de Yéti"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "umbral_skies:arctic_gloves"
+			id: "6194CE0B4DCCE6E6"
+			optional: true
+			rewards: [{
+				id: "1924FE12EE1FBD59"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "522483D872F6D821"
+				item: "umbral_skies:arctic_gloves"
+				type: "item"
+			}]
+			title: "« Arctic Mittens »"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "umbral_skies:fiery_gloves"
+			id: "6969EDAD04B6B189"
+			optional: true
+			rewards: [{
+				id: "464EC885FFBDDD1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56989D085AEA4002"
+				item: "umbral_skies:fiery_gloves"
+				type: "item"
+			}]
+			title: "« Fiery Gloves »"
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "umbral_skies:ironwood_gloves"
+			id: "6DEA4C114E3E3F85"
+			optional: true
+			rewards: [{
+				id: "4E182D72B3B33807"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "421DDEAC2473C67D"
+				item: "umbral_skies:ironwood_gloves"
+				type: "item"
+			}]
+			title: "« Ironwood Gloves »"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "umbral_skies:knightmetal_gloves"
+			id: "1943A5595EE5F25C"
+			optional: true
+			rewards: [{
+				id: "1022518F37028538"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B74A7CABDBC50C5"
+				item: "umbral_skies:knightmetal_gloves"
+				type: "item"
+			}]
+			title: "« Knightmetal Gauntlets »"
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "umbral_skies:naga_gloves"
+			id: "3ABF1B39433D26CA"
+			optional: true
+			rewards: [{
+				id: "05F4E08F78567DEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "521525847FBD2755"
+				item: "umbral_skies:naga_gloves"
+				type: "item"
+			}]
+			title: "« Naga Scale Gloves »"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "umbral_skies:phantom_gloves"
+			id: "0A855A9832312FE5"
+			optional: true
+			rewards: [{
+				id: "7FFCFAFFE374B41A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C05C0152BC084A9"
+				item: "umbral_skies:phantom_gloves"
+				type: "item"
+			}]
+			title: "« Phantom Gauntlets »"
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			description: ["Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "umbral_skies:steeleaf_gloves"
+			id: "0CEB60534CFB146F"
+			optional: true
+			rewards: [{
+				id: "1B3FC407FC1407DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15B54FEDF31DDBC9"
+				item: "umbral_skies:steeleaf_gloves"
+				type: "item"
+			}]
+			title: "« Steeleaf Gloves »"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: ["Pièce d'armure de &bUmbral Skies&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "umbral_skies:yeti_gloves"
+			id: "78FC7E4B090D724D"
+			optional: true
+			rewards: [{
+				id: "62A988F853001CBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "589B71C3611C79FB"
+				item: "umbral_skies:yeti_gloves"
+				type: "item"
+			}]
+			title: "« Yeti Gloves »"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"373751DBE05AF562"
+				"5ECAB751F7911F08"
+				"4764ED7B2366073F"
+				"6E7899DD55131C57"
+				"48EB1975BB0377B2"
+				"598D4110F74279A3"
+				"402F4D594CBC9EC6"
+				"135436423E1CB465"
+				"595FBD28D5155743"
+				"0E7F582905F8CB35"
+				"45D010A26AF04153"
+				"4F361A0946285E06"
+				"684103D0FDED1D1E"
+				"2B944FD99E5D5627"
+				"6A88AC3D35E3F69A"
+				"49BB8E1735B1FC89"
+				"0D3852374B1CC36A"
+				"51B41585FC259C5C"
+				"0EA315D61043D9AD"
+				"3F2EEF7DD264ACF0"
+				"0531E300C7240A79"
+				"26D46FEE12D0CEAF"
+				"280917C54499040D"
+				"55F00649AB9E983F"
+				"49048E898A83C569"
+				"4F7D8AEA4EC7678E"
+				"3BDF0749FB421ABC"
+				"7050214726493A2A"
+				"1139A22D8FCC4DB8"
+				"2C05286AE336C021"
+				"0D7B08B585D2244F"
+				"27F0B6EF5865ACCF"
+				"766BC26EFF0A6176"
+				"223E40185AB9DA74"
+				"2ED377B56AEB116A"
+				"2003E2F192A9D974"
+				"740032EC7DE535C3"
+				"519D4A4D5B30F96F"
+				"2F7F18D67860DC8D"
+				"300B0B473AB8382A"
+				"5202D2766FD9E9EE"
+				"2F091AD5B12DC4DD"
+				"21F23E52EA156B54"
+				"0001D4D02AE24B32"
+				"5A11B0731A171AAF"
+				"387E30B42BE022FC"
+				"7F82A28CDA66DE5E"
+				"20F7255070741CBF"
+				"54F2967662593C73"
+				"7C518C559A9AB6E7"
+				"51FE9F9CB942549A"
+				"32393FAD366E1391"
+				"5865851817925BDC"
+				"67D038A325D0F1BD"
+				"3D0782735519EAA1"
+				"3866DB553EE28CC8"
+				"314D330555E99DDE"
+				"7B9FE8A873D51430"
+				"40498893B5288CF2"
+				"40C830B8C71D0CDE"
+				"72800AE815BA9A18"
+				"24E54850CA25EE45"
+				"6DCE56F64128894A"
+				"4175248858F01A38"
+				"06845DB0CA1F8FF5"
+				"1AF4AF617389AF7D"
+				"7C869DDA014C89E9"
+				"464ED63C87FC9E88"
+				"12C7C787A41DC17D"
+				"62EA91B2F28BA6ED"
+				"1C0605F19B5F9594"
+				"1C2A74E7E0E90C82"
+				"2F794BB7832A5897"
+				"0B5EE10E97BF8B6C"
+				"1496FFC41A1D28C3"
+				"0439075C45D49444"
+				"5E1D9058368DEC92"
+				"431F6EEF77410651"
+				"0F4E2A8651CC3E8F"
+				"4735324BC7A68DF5"
+				"053F5E95C50C7FFD"
+				"6C20272FBA42C5AF"
+				"7761A07B98ADE233"
+				"2E1D01337B633D72"
+				"4A904D118930CB19"
+				"049BF4AE08553BF5"
+				"426F9FDABC5ACAF8"
+				"37BEAA4D8B7590F4"
+				"0583D05432EF9AE8"
+				"569DA7674E9A37E6"
+				"0EEF7E50B2C1C6AC"
+				"660A08D9FEA8A5E4"
+				"6826B4711572FE82"
+				"3931D4D2AC11CE1A"
+				"0670E38F3FD5E065"
+				"4652E42DE4ECC293"
+				"4ED0EAB23C2236F4"
+				"5C5E03BCAD278602"
+				"459BC995873F7CA9"
+				"77DE2E6258A4B522"
+				"6177D845CB9CB1A2"
+				"30E4ABC02C6D4751"
+				"682309E4B26A3089"
+				"3B30297B486A9099"
+				"137DEFA2C8C153E1"
+				"0C28CFDB9431931D"
+				"6ADB76CB1A5560FD"
+				"075CDDD7E75B4F0D"
+				"1316DC9A6740888F"
+				"12D0FB83D55B405C"
+				"4F4D8D75F0C5F650"
+				"7CB4DDFCEAACB9E7"
+				"51748ABED1A08F8D"
+				"4A77D8D937B955A7"
+				"01AF3A4269AD7F50"
+				"52644D00A2EDF4B9"
+				"50E46B179415BB7D"
+				"421B4317F5CE1207"
+				"2460D0657110F893"
+				"4B5CD72683147936"
+				"0B92CF6978C09446"
+				"5F4EB2352398A519"
+				"454429861B97B093"
+				"0A1A44BCA27CDF43"
+				"75C5184B2A33668E"
+				"6A79975E44085F90"
+				"3D641933FBFFBBE0"
+				"38D4C1591BA5E9F2"
+				"560A64C7E6DB2EE7"
+				"14E43D8F02B77656"
+				"3DCA6D868F16F2F8"
+				"0C7A16DAAC4E70D2"
+				"325E89CEC816C76A"
+				"6D5666B3405F8355"
+				"2991A55B6C671B76"
+				"76DC82EF82DCBE20"
+				"5C673C1E4A97002E"
+				"776C37E596004D43"
+				"66A0A91607069ECA"
+				"1C27C4F0D7B6796B"
+				"73EB0A442946406A"
+				"76C951F721F85CE5"
+				"2F06CEBC54944948"
+				"04322D13D285AD70"
+				"0F4E612A4E44EAB8"
+				"7E55B1432B608DD2"
+				"418FAE4D6488C56E"
+				"07F9630D38E57119"
+				"07897C2041EEACED"
+				"32579A739580337C"
+				"3F8B1220CB8A6828"
+				"1695310BE0C6F564"
+				"01D974208D11F120"
+				"408EE57159FB067F"
+				"6194CE0B4DCCE6E6"
+				"6969EDAD04B6B189"
+				"6DEA4C114E3E3F85"
+				"1943A5595EE5F25C"
+				"3ABF1B39433D26CA"
+				"0A855A9832312FE5"
+				"0CEB60534CFB146F"
+				"78FC7E4B090D724D"
+			]
+			description: ["Toutes les pièces et tous les ensembles de ce chapitre."]
+			icon: "minecraft:netherite_chestplate"
+			id: "6A34E50C2C716ADC"
+			optional: true
+			rewards: [{
+				id: "2111862A1FF00AE4"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7E404D89D4E536B0"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&cArmurerie — dimensions"
+}

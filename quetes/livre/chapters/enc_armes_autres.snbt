@@ -1,0 +1,2228 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_armes_autres"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:iron_sword"
+	id: "2EFF81A264D38E57"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque autres arme du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là."]
+			icon: "minecraft:iron_sword"
+			id: "65786B93CE27FC1D"
+			rewards: [{
+				id: "3A83BBD7729FE44B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "25802725F041F773"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cAutres armes et outils"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:cloud_staff"
+			id: "29F026E7E261D5E0"
+			optional: true
+			rewards: [{
+				id: "3119EFA1DD4BDD49"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64F75CDA4C36AB46"
+				item: "aether:cloud_staff"
+				type: "item"
+			}]
+			title: "« Cloud Staff »"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:lightning_knife"
+			id: "4614E3C7BC2314E4"
+			optional: true
+			rewards: [{
+				id: "33B3FCF292511205"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "720659B7BEF11DD7"
+				item: "aether:lightning_knife"
+				type: "item"
+			}]
+			title: "« Lightning Knife »"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether:nature_staff"
+			id: "3DF9E72A94293D4A"
+			optional: true
+			rewards: [{
+				id: "29F5772BA556CABB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49339A15E9BBE98D"
+				item: "aether:nature_staff"
+				type: "item"
+			}]
+			title: "« Nature Staff »"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:tendon_whip"
+			id: "0797B29E909FBBBF"
+			optional: true
+			rewards: [{
+				id: "2506DC2E8FCA9AB0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "191E670F2DD48605"
+				item: "alexsmobs:tendon_whip"
+				type: "item"
+			}]
+			title: "Fouet de tendon"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bAnother Furniture&r. À garder : la livraison n'est pas consommée."]
+			icon: "another_furniture:furniture_hammer"
+			id: "63209BECC7C4AFAF"
+			optional: true
+			rewards: [{
+				id: "0372A44807FE356A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "356E18265994A55A"
+				item: "another_furniture:furniture_hammer"
+				type: "item"
+			}]
+			title: "« Hammer »"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:aeternium_hammer"
+			id: "09870A10D0A4B480"
+			optional: true
+			rewards: [{
+				id: "0D48FD1B6BD74831"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27BC453A64789200"
+				item: "betterend:aeternium_hammer"
+				type: "item"
+			}]
+			title: "« Aeternium Smith Hammer »"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:diamond_hammer"
+			id: "14357BCB168E873A"
+			optional: true
+			rewards: [{
+				id: "0F2D229146DF4367"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42EAA5960246DDED"
+				item: "betterend:diamond_hammer"
+				type: "item"
+			}]
+			title: "« Diamond Smith Hammer »"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:golden_hammer"
+			id: "320F8A5F1D63BB55"
+			optional: true
+			rewards: [{
+				id: "0A02FC5CE98FA1AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3158D32AE15C2D26"
+				item: "betterend:golden_hammer"
+				type: "item"
+			}]
+			title: "« Golden Smith Hammer »"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:iron_hammer"
+			id: "43C3A84044EB183D"
+			optional: true
+			rewards: [{
+				id: "70ABA6F37EDD8469"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "247C319613247552"
+				item: "betterend:iron_hammer"
+				type: "item"
+			}]
+			title: "« Iron Smith Hammer »"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:netherite_hammer"
+			id: "1DB5A70FC465E833"
+			optional: true
+			rewards: [{
+				id: "14B3EBE081F63014"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D3B93C6D2A8EB58"
+				item: "betterend:netherite_hammer"
+				type: "item"
+			}]
+			title: "« Netherite Smith Hammer »"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:terminite_hammer"
+			id: "11F72F29E3FCB947"
+			optional: true
+			rewards: [{
+				id: "1B1CBC7E1230A236"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B66F0119F8982D2"
+				item: "betterend:terminite_hammer"
+				type: "item"
+			}]
+			title: "« Terminite Smith Hammer »"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée."]
+			icon: "betterend:thallasium_hammer"
+			id: "75BED55F832E18B2"
+			optional: true
+			rewards: [{
+				id: "45EE65338C1B1FC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4853A0FCD1874AA9"
+				item: "betterend:thallasium_hammer"
+				type: "item"
+			}]
+			title: "« Thallasium Hammer »"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:bluebright_spear"
+			id: "4F91E2B686068578"
+			optional: true
+			rewards: [{
+				id: "07904951D216860A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "212EE54EFDC03819"
+				item: "blue_skies:bluebright_spear"
+				type: "item"
+			}]
+			title: "Lance en lumibleu"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:comet_spear"
+			id: "01A10454DBE138BC"
+			optional: true
+			rewards: [{
+				id: "6217D7FAFF6FCA8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D4740CB0372D343"
+				item: "blue_skies:comet_spear"
+				type: "item"
+			}]
+			title: "« Comet Spear »"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:crushing_hammer"
+			id: "237B700AFDF158A8"
+			optional: true
+			rewards: [{
+				id: "04BD76B40B841309"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F8B5D1D294D22AB"
+				item: "blue_skies:crushing_hammer"
+				type: "item"
+			}]
+			title: "Marteau écraseur"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:dusk_spear"
+			id: "031C03EAED0BD790"
+			optional: true
+			rewards: [{
+				id: "13EE5A8C05A5060F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E54AEBC1266E816"
+				item: "blue_skies:dusk_spear"
+				type: "item"
+			}]
+			title: "Lance en crépuscubois"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:frostbright_spear"
+			id: "0FF5EDB800E6BB8B"
+			optional: true
+			rewards: [{
+				id: "661668583EAD27BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "443FFADCAE5A3F51"
+				item: "blue_skies:frostbright_spear"
+				type: "item"
+			}]
+			title: "Lance en nifrisque"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:lunar_spear"
+			id: "7D96CAD6050E6B19"
+			optional: true
+			rewards: [{
+				id: "7E32EB45D4A38582"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F5DF812282EE689"
+				item: "blue_skies:lunar_spear"
+				type: "item"
+			}]
+			title: "Lance lunaire"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:maple_spear"
+			id: "16AF60051129826F"
+			optional: true
+			rewards: [{
+				id: "34E80D18AFDFD11D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "210A89F1986AA0A4"
+				item: "blue_skies:maple_spear"
+				type: "item"
+			}]
+			title: "Lance en érable"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:soulbound_spear"
+			id: "69A31FE97311B67C"
+			optional: true
+			rewards: [{
+				id: "396E060ED872AF34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EB368DED4CE18B9"
+				item: "blue_skies:soulbound_spear"
+				type: "item"
+			}]
+			title: "Lance de garde"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:starlit_spear"
+			id: "1F217CF8A923493A"
+			optional: true
+			rewards: [{
+				id: "20B28202E35AF69D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C941A8A43985B36"
+				item: "blue_skies:starlit_spear"
+				type: "item"
+			}]
+			title: "Lance en étoilibois"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée."]
+			icon: "cataclysm:ancient_spear"
+			id: "56275FA017B0FC91"
+			optional: true
+			rewards: [{
+				id: "0711066F5C8B5137"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "204526093A18FAAF"
+				item: "cataclysm:ancient_spear"
+				type: "item"
+			}]
+			title: "« Ancient Spear »"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée."]
+			icon: "deeperdarker:sonorous_staff"
+			id: "1F6FEE566FB38739"
+			optional: true
+			rewards: [{
+				id: "159D845282074952"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D88E9E74C1F63E2"
+				item: "deeperdarker:sonorous_staff"
+				type: "item"
+			}]
+			title: "« Sonorous Staff »"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:bone_knife"
+			id: "6A69A0414890C508"
+			optional: true
+			rewards: [{
+				id: "3D29DFAC6118FF8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F9AB67B8E7556C0"
+				item: "delightful:bone_knife"
+				type: "item"
+			}]
+			title: "« Bone Knife »"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:brass_knife"
+			id: "348DFC3B8CE8FF9D"
+			optional: true
+			rewards: [{
+				id: "02C2C904EE8B1491"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DAAEF8947485966"
+				item: "delightful:brass_knife"
+				type: "item"
+			}]
+			title: "« Brass Knife »"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:gravitite_knife"
+			id: "42093105C1DF59B2"
+			optional: true
+			rewards: [{
+				id: "2D74DD747343C241"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "53613CA4A636BC75"
+				item: "delightful:gravitite_knife"
+				type: "item"
+			}]
+			title: "« Gravitite Knife »"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:holystone_knife"
+			id: "5001C9947A9AB887"
+			optional: true
+			rewards: [{
+				id: "43C655333C207E98"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58AD54C42864BB7B"
+				item: "delightful:holystone_knife"
+				type: "item"
+			}]
+			title: "« Holystone Knife »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:infused_veridium_knife"
+			id: "05FB376197F5AF31"
+			optional: true
+			rewards: [{
+				id: "4D421A1E8CC80410"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0109047D2A157358"
+				item: "delightful:infused_veridium_knife"
+				type: "item"
+			}]
+			title: "« Infused Veridium Knife »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:nether_quartz_knife"
+			id: "402084D39167D29F"
+			optional: true
+			rewards: [{
+				id: "288C86090500EC73"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66C621DDE41AF271"
+				item: "delightful:nether_quartz_knife"
+				type: "item"
+			}]
+			title: "« Nether Quartz Knife »"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:resonarium_knife"
+			id: "2058B75B9A41AAF9"
+			optional: true
+			rewards: [{
+				id: "3CC70BD79BA30CCA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D739C60EFB15090"
+				item: "delightful:resonarium_knife"
+				type: "item"
+			}]
+			title: "« Resonarium Knife »"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:skyjade_knife"
+			id: "18D88AD730ED8E1D"
+			optional: true
+			rewards: [{
+				id: "04725BA0BE2B95B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B3A9C5D0AEE2E22"
+				item: "delightful:skyjade_knife"
+				type: "item"
+			}]
+			title: "« Skyjade Knife »"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:skyroot_knife"
+			id: "0951D6B71F49E3EE"
+			optional: true
+			rewards: [{
+				id: "60E6D449AE1522F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48EC65959F84CAAC"
+				item: "delightful:skyroot_knife"
+				type: "item"
+			}]
+			title: "« Skyroot Knife »"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:steel_knife"
+			id: "14EF0BF2214B2F9E"
+			optional: true
+			rewards: [{
+				id: "49CECB1618CC1B44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48D5FC3F921F00EF"
+				item: "delightful:steel_knife"
+				type: "item"
+			}]
+			title: "« Steel Knife »"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:stratus_knife"
+			id: "3B262897AC3E785B"
+			optional: true
+			rewards: [{
+				id: "54DD57802BE6A1F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "017B8C4B300916E6"
+				item: "delightful:stratus_knife"
+				type: "item"
+			}]
+			title: "« Stratus Knife »"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:veridium_knife"
+			id: "6D63CB1DD17DEDE4"
+			optional: true
+			rewards: [{
+				id: "18F136B4CDB9A746"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F4F401B19FC36DC"
+				item: "delightful:veridium_knife"
+				type: "item"
+			}]
+			title: "« Veridium Knife »"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:warden_knife"
+			id: "5FF1BEDCF4F31D87"
+			optional: true
+			rewards: [{
+				id: "2C828481C8D79DE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65C7E7328D216047"
+				item: "delightful:warden_knife"
+				type: "item"
+			}]
+			title: "« Warden Knife »"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:zanite_knife"
+			id: "3413353C568FBC86"
+			optional: true
+			rewards: [{
+				id: "583CF40B451AA182"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "134EA40852DA145E"
+				item: "delightful:zanite_knife"
+				type: "item"
+			}]
+			title: "« Zanite Knife »"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bDelightful&r. À garder : la livraison n'est pas consommée."]
+			icon: "delightful:zinc_knife"
+			id: "622E5796A5B05465"
+			optional: true
+			rewards: [{
+				id: "3289884921E21881"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60C5AF88C49624D7"
+				item: "delightful:zinc_knife"
+				type: "item"
+			}]
+			title: "« Zinc Knife »"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bFarmer's Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "farmersdelight:diamond_knife"
+			id: "45E02395077E331E"
+			optional: true
+			rewards: [{
+				id: "194381DADDF3AD45"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27A50D13DAA07957"
+				item: "farmersdelight:diamond_knife"
+				type: "item"
+			}]
+			title: "Couteau en diamant"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bFarmer's Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "farmersdelight:flint_knife"
+			id: "6EA2BB93581EB61B"
+			optional: true
+			rewards: [{
+				id: "232BE85658890194"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52CF9663979F72F3"
+				item: "farmersdelight:flint_knife"
+				type: "item"
+			}]
+			title: "Couteau en silex"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bFarmer's Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "farmersdelight:golden_knife"
+			id: "045B358BDB243F82"
+			optional: true
+			rewards: [{
+				id: "600B7ECD8CC0D8AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5143799B25F5043D"
+				item: "farmersdelight:golden_knife"
+				type: "item"
+			}]
+			title: "Couteau en or"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bFarmer's Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "farmersdelight:iron_knife"
+			id: "3C5176A8B8DE34D2"
+			optional: true
+			rewards: [{
+				id: "2E171006EA43759E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58F87269B86E7DF5"
+				item: "farmersdelight:iron_knife"
+				type: "item"
+			}]
+			title: "Couteau en fer"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bFarmer's Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "farmersdelight:netherite_knife"
+			id: "088205FB4A408B42"
+			optional: true
+			rewards: [{
+				id: "10D21DA68278FED6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1434367480E9B21E"
+				item: "farmersdelight:netherite_knife"
+				type: "item"
+			}]
+			title: "Couteau en Netherite"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "hazennstuff:grimoire_staff"
+			id: "6CAD8E65C67A4A04"
+			optional: true
+			rewards: [{
+				id: "2B8EB6473949DACA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72BE20BD451D0F70"
+				item: "hazennstuff:grimoire_staff"
+				type: "item"
+			}]
+			title: "« Grimoire Staff »"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:blood_staff"
+			id: "3F7474A2A10B2A34"
+			optional: true
+			rewards: [{
+				id: "51FE63FE216D0E2E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A3AB3D5BCBB082A"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			title: "Le Bâton de Sang"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:graybeard_staff"
+			id: "6CEE153B513EE789"
+			optional: true
+			rewards: [{
+				id: "3170E955DC446B51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "620D67A473524A1B"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			title: "Bâton de Barbe-Grise"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:ice_staff"
+			id: "60A6BC4A9F672481"
+			optional: true
+			rewards: [{
+				id: "26664EC29F03CC2C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04A124A3C0090E59"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			title: "Bâton de Glace"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:pyrium_staff"
+			id: "3044E2B7629C841B"
+			optional: true
+			rewards: [{
+				id: "712CB2616C8D10F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "137C6569BA23CE90"
+				item: "irons_spellbooks:pyrium_staff"
+				type: "item"
+			}]
+			title: "Bâton de Pyrium"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:diamond_destructor_hammer"
+			id: "4F57CCAEA1C5CD77"
+			optional: true
+			rewards: [{
+				id: "61A8F56F7B54EAB2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "355F5B208CFBFB59"
+				item: "justhammers:diamond_destructor_hammer"
+				type: "item"
+			}]
+			title: "« Diamond Destructor Hammer »"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:diamond_hammer"
+			id: "31E20E9D3A0FE1AF"
+			optional: true
+			rewards: [{
+				id: "6C4EDA6B18BC15C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CB5EC7C601977DB"
+				item: "justhammers:diamond_hammer"
+				type: "item"
+			}]
+			title: "« Diamond Hammer »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:diamond_impact_hammer"
+			id: "427EBCBBEE8B7CEC"
+			optional: true
+			rewards: [{
+				id: "2B10282655FF0486"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B38E269D8A51096"
+				item: "justhammers:diamond_impact_hammer"
+				type: "item"
+			}]
+			title: "« Diamond Impact Hammer »"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:diamond_reinforced_hammer"
+			id: "0687CA7A5067D805"
+			optional: true
+			rewards: [{
+				id: "5D95DFA51397935D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "02EE54747C098F94"
+				item: "justhammers:diamond_reinforced_hammer"
+				type: "item"
+			}]
+			title: "« Diamond Reinforced Hammer »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:diamond_reinforced_impact_hammer"
+			id: "6241AC7B7BBF26C1"
+			optional: true
+			rewards: [{
+				id: "54554E815DE78330"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38DF8A2C48B1BFF3"
+				item: "justhammers:diamond_reinforced_impact_hammer"
+				type: "item"
+			}]
+			title: "« Diamond Reinforced Impact Hammer »"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:gold_destructor_hammer"
+			id: "767A07764AE602C0"
+			optional: true
+			rewards: [{
+				id: "1D5DD04D34E0F8B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "02EDD72BD87A806F"
+				item: "justhammers:gold_destructor_hammer"
+				type: "item"
+			}]
+			title: "« Gold Destructor Hammer »"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:gold_hammer"
+			id: "65994683FFC74602"
+			optional: true
+			rewards: [{
+				id: "1B1A0649663E4478"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "608340BB0AD6E79D"
+				item: "justhammers:gold_hammer"
+				type: "item"
+			}]
+			title: "« Gold Hammer »"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:gold_impact_hammer"
+			id: "32CCFD5F9D949678"
+			optional: true
+			rewards: [{
+				id: "10BE9397838789A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05EE7FC988794061"
+				item: "justhammers:gold_impact_hammer"
+				type: "item"
+			}]
+			title: "« Gold Impact Hammer »"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:gold_reinforced_hammer"
+			id: "46710F3F8591AFA5"
+			optional: true
+			rewards: [{
+				id: "09736E53D5DA7D10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41132960E5BDC548"
+				item: "justhammers:gold_reinforced_hammer"
+				type: "item"
+			}]
+			title: "« Gold Reinforced Hammer »"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:gold_reinforced_impact_hammer"
+			id: "72A70F6180E42075"
+			optional: true
+			rewards: [{
+				id: "3892C02FBBC3BD78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1234817E1EF91FA0"
+				item: "justhammers:gold_reinforced_impact_hammer"
+				type: "item"
+			}]
+			title: "« Gold Reinforced Impact Hammer »"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:iron_destructor_hammer"
+			id: "18088BBA8FBD5EF1"
+			optional: true
+			rewards: [{
+				id: "0F2C81B7950C8597"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12C2FD46D750B4C6"
+				item: "justhammers:iron_destructor_hammer"
+				type: "item"
+			}]
+			title: "« Iron Destructor Hammer »"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:iron_hammer"
+			id: "27DC886B08AD4785"
+			optional: true
+			rewards: [{
+				id: "0A473C79A267AE44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3148FD12513EF49D"
+				item: "justhammers:iron_hammer"
+				type: "item"
+			}]
+			title: "« Iron Hammer »"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:iron_impact_hammer"
+			id: "2F388D4EF3F5385F"
+			optional: true
+			rewards: [{
+				id: "6183267A298898B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46B08D70FF0D6A0E"
+				item: "justhammers:iron_impact_hammer"
+				type: "item"
+			}]
+			title: "« Iron Impact Hammer »"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:iron_reinforced_hammer"
+			id: "55B696899D25EC75"
+			optional: true
+			rewards: [{
+				id: "5AC85A8593D72237"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B7C78E4EC86F928"
+				item: "justhammers:iron_reinforced_hammer"
+				type: "item"
+			}]
+			title: "« Iron Reinforced Hammer »"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:iron_reinforced_impact_hammer"
+			id: "67BB4A2DBB82E0B4"
+			optional: true
+			rewards: [{
+				id: "3FDAA02AD0883679"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77D59EB0DB8B50A3"
+				item: "justhammers:iron_reinforced_impact_hammer"
+				type: "item"
+			}]
+			title: "« Iron Reinforced Impact Hammer »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:netherite_destructor_hammer"
+			id: "530FB12395EDB73D"
+			optional: true
+			rewards: [{
+				id: "502BB7BA2C573CF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1139C649916362EF"
+				item: "justhammers:netherite_destructor_hammer"
+				type: "item"
+			}]
+			title: "« Netherite Destructor Hammer »"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:netherite_hammer"
+			id: "6807F969C90CB4EF"
+			optional: true
+			rewards: [{
+				id: "3856A64D1F008897"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63E92A3D74FCD8FF"
+				item: "justhammers:netherite_hammer"
+				type: "item"
+			}]
+			title: "« Netherite Hammer »"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:netherite_impact_hammer"
+			id: "284A4AFD78CEB524"
+			optional: true
+			rewards: [{
+				id: "1C1521658001A478"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0BB9C0B96F2685D9"
+				item: "justhammers:netherite_impact_hammer"
+				type: "item"
+			}]
+			title: "« Netherite Impact Hammer »"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:netherite_reinforced_hammer"
+			id: "05E098FB5B5CC29D"
+			optional: true
+			rewards: [{
+				id: "76D71E734490E3B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EECE2581936E6CB"
+				item: "justhammers:netherite_reinforced_hammer"
+				type: "item"
+			}]
+			title: "« Netherite Reinforced Hammer »"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:netherite_reinforced_impact_hammer"
+			id: "17B696B0C6EC0836"
+			optional: true
+			rewards: [{
+				id: "51F79A7750684D1E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B2F923323F985DB"
+				item: "justhammers:netherite_reinforced_impact_hammer"
+				type: "item"
+			}]
+			title: "« Netherite Reinforced Impact Hammer »"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:stone_destructor_hammer"
+			id: "35BF041C21C59DF7"
+			optional: true
+			rewards: [{
+				id: "618985A79D65A40E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74D025481DBF2355"
+				item: "justhammers:stone_destructor_hammer"
+				type: "item"
+			}]
+			title: "« Stone Destructor Hammer »"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:stone_hammer"
+			id: "65F70A79345E85CB"
+			optional: true
+			rewards: [{
+				id: "78EF50CE8545D5F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E0204C77F9531D0"
+				item: "justhammers:stone_hammer"
+				type: "item"
+			}]
+			title: "« Stone Hammer »"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:stone_impact_hammer"
+			id: "395D5D7E8C3BCC34"
+			optional: true
+			rewards: [{
+				id: "67EA0675986981F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68E8D43299469A86"
+				item: "justhammers:stone_impact_hammer"
+				type: "item"
+			}]
+			title: "« Stone Impact Hammer »"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:stone_reinforced_hammer"
+			id: "278B8FD43C0DF1B2"
+			optional: true
+			rewards: [{
+				id: "1A3DBCAA6C04A385"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C3917F70BAEA8D6"
+				item: "justhammers:stone_reinforced_hammer"
+				type: "item"
+			}]
+			title: "« Stone Reinforced Hammer »"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bJust Hammers&r. À garder : la livraison n'est pas consommée."]
+			icon: "justhammers:stone_reinforced_impact_hammer"
+			id: "1A6BFCF3EFD57492"
+			optional: true
+			rewards: [{
+				id: "60389E5ED666A50E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F0669BF56F60902"
+				item: "justhammers:stone_reinforced_impact_hammer"
+				type: "item"
+			}]
+			title: "« Stone Reinforced Impact Hammer »"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bMowzie's Mobs&r. Ses paliers sont au chapitre &7Mowzie's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "mowziesmobs:naga_fang_dagger"
+			id: "2CDC2E6166E32F85"
+			optional: true
+			rewards: [{
+				id: "4A45DB8DACCD391C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B1EC59B2987EB8B"
+				item: "mowziesmobs:naga_fang_dagger"
+				type: "item"
+			}]
+			title: "Dague en dent de naga"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bMowzie's Mobs&r. Ses paliers sont au chapitre &7Mowzie's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "mowziesmobs:sculptor_staff"
+			id: "228731FACAD1F578"
+			optional: true
+			rewards: [{
+				id: "19C3ACCE160B40F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AC787DC3570724F"
+				item: "mowziesmobs:sculptor_staff"
+				type: "item"
+			}]
+			title: "« Geomancer Staff »"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_scythe"
+			id: "3F2192F9B58E2356"
+			optional: true
+			rewards: [{
+				id: "2BFC497564AC68BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17D629C321E468CA"
+				item: "mysticalagriculture:awakened_supremium_scythe"
+				type: "item"
+			}]
+			title: "Faux en Supremium Éveillé"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:awakened_supremium_sickle"
+			id: "036688819C2338EE"
+			optional: true
+			rewards: [{
+				id: "660A707E51E6A625"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B88DDD3B90AC4E5"
+				item: "mysticalagriculture:awakened_supremium_sickle"
+				type: "item"
+			}]
+			title: "Faucille en Supremium Éveillé"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:diamond_scythe"
+			id: "21731E209AC3050B"
+			optional: true
+			rewards: [{
+				id: "5477C90D2F970A12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D3C378E5D28B594"
+				item: "mysticalagriculture:diamond_scythe"
+				type: "item"
+			}]
+			title: "Faux en Diamant"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:diamond_sickle"
+			id: "1334626259F0DD38"
+			optional: true
+			rewards: [{
+				id: "5D3CF20C7E20C0D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F455E5B55D06C27"
+				item: "mysticalagriculture:diamond_sickle"
+				type: "item"
+			}]
+			title: "Faucille en Diamant"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_scythe"
+			id: "7A15D8C56A6ABAAF"
+			optional: true
+			rewards: [{
+				id: "64F4E8C1BDFA9403"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78566CFBF0A3E1F9"
+				item: "mysticalagriculture:imperium_scythe"
+				type: "item"
+			}]
+			title: "Faux en Imperium"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:imperium_sickle"
+			id: "44F98B6A9472E0F5"
+			optional: true
+			rewards: [{
+				id: "1BD5173FD2811AEC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "296500EF71D66B9A"
+				item: "mysticalagriculture:imperium_sickle"
+				type: "item"
+			}]
+			title: "Faucille en Imperium"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_scythe"
+			id: "23C7C9F643AA07D5"
+			optional: true
+			rewards: [{
+				id: "79A62DA061CF3A97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48384C16E55295C8"
+				item: "mysticalagriculture:inferium_scythe"
+				type: "item"
+			}]
+			title: "Faux en Inferium"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:inferium_sickle"
+			id: "3E9050179571F90D"
+			optional: true
+			rewards: [{
+				id: "0356AD8518FDAACE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08D8F6B39964F5CC"
+				item: "mysticalagriculture:inferium_sickle"
+				type: "item"
+			}]
+			title: "Faucille en Inferium"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_scythe"
+			id: "379F8DA29B861A9F"
+			optional: true
+			rewards: [{
+				id: "214C605EEC626A31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F342F4B93B7D9EB"
+				item: "mysticalagriculture:prudentium_scythe"
+				type: "item"
+			}]
+			title: "Faux en Prudentium"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:prudentium_sickle"
+			id: "0A60F8AA37B03380"
+			optional: true
+			rewards: [{
+				id: "1FDCA74BB03A932D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "18B745149ADC105D"
+				item: "mysticalagriculture:prudentium_sickle"
+				type: "item"
+			}]
+			title: "Faucille en Prudentium"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_scythe"
+			id: "6CD40F9F5D7CE644"
+			optional: true
+			rewards: [{
+				id: "0EBCBFEAA530674B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61FED24111E4D106"
+				item: "mysticalagriculture:supremium_scythe"
+				type: "item"
+			}]
+			title: "Faux en Supremium"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:supremium_sickle"
+			id: "204543F62BE9CF38"
+			optional: true
+			rewards: [{
+				id: "68FAE4861FC87234"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14B65170E7DEFB03"
+				item: "mysticalagriculture:supremium_sickle"
+				type: "item"
+			}]
+			title: "Faucille en Supremium"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_scythe"
+			id: "30184DF778248790"
+			optional: true
+			rewards: [{
+				id: "27E3EA4239835116"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "476B4D080ECB3AD4"
+				item: "mysticalagriculture:tertium_scythe"
+				type: "item"
+			}]
+			title: "Faux en Tertium"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée."]
+			icon: "mysticalagriculture:tertium_sickle"
+			id: "6D9B8C0B84A7C847"
+			optional: true
+			rewards: [{
+				id: "64D2EFDBCA595BF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7ED78A4141BC1260"
+				item: "mysticalagriculture:tertium_sickle"
+				type: "item"
+			}]
+			title: "Faucille en Tertium"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:awful_dagger"
+			id: "77BF47340303FD6B"
+			optional: true
+			rewards: [{
+				id: "3D14B717E62487EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35BBE52B0F14E3ED"
+				item: "stalwart_dungeons:awful_dagger"
+				type: "item"
+			}]
+			title: "« §cAwful Dagger »"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:diamond_hammer"
+			id: "75B033551468C01F"
+			optional: true
+			rewards: [{
+				id: "0D1C8AF194EFF0B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AE003698E796FBB"
+				item: "stalwart_dungeons:diamond_hammer"
+				type: "item"
+			}]
+			title: "« Diamond Hammer »"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:golden_hammer"
+			id: "5A13D7E010643CD9"
+			optional: true
+			rewards: [{
+				id: "1ABCA1246E29FB9D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42D43AB8E6E819AA"
+				item: "stalwart_dungeons:golden_hammer"
+				type: "item"
+			}]
+			title: "« Golden Hammer »"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:iron_hammer"
+			id: "63294B3A198B742C"
+			optional: true
+			rewards: [{
+				id: "0EE15A3FF589416E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A97DD95B9E98EC9"
+				item: "stalwart_dungeons:iron_hammer"
+				type: "item"
+			}]
+			title: "« Iron Hammer »"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:nether_hammer"
+			id: "66445C300407F12A"
+			optional: true
+			rewards: [{
+				id: "783542E55A5869B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C83288BB81F7C6B"
+				item: "stalwart_dungeons:nether_hammer"
+				type: "item"
+			}]
+			title: "« §cNether Hammer »"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:netherite_hammer"
+			id: "70027BD6B1CBDBEA"
+			optional: true
+			rewards: [{
+				id: "6CC5F99E145019EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D1C350608EA46B1"
+				item: "stalwart_dungeons:netherite_hammer"
+				type: "item"
+			}]
+			title: "« Netherite Hammer »"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:stone_hammer"
+			id: "4E979FE558388D6A"
+			optional: true
+			rewards: [{
+				id: "45B6F74C363807A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "721E049D88B45B3E"
+				item: "stalwart_dungeons:stone_hammer"
+				type: "item"
+			}]
+			title: "« Stone Hammer »"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:tungsten_hammer"
+			id: "27C4428EAB2C7B3E"
+			optional: true
+			rewards: [{
+				id: "568341B0E524FF44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33542F28DAF4718C"
+				item: "stalwart_dungeons:tungsten_hammer"
+				type: "item"
+			}]
+			title: "« §eTungsten Hammer »"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Arme de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée."]
+			icon: "stalwart_dungeons:wooden_hammer"
+			id: "015F44D8F05C8BEC"
+			optional: true
+			rewards: [{
+				id: "3785E161E1D0470B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "235CDC8906CA4221"
+				item: "stalwart_dungeons:wooden_hammer"
+				type: "item"
+			}]
+			title: "« Wooden Hammer »"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Arme de &bTwilight's Flavor & Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightdelight:fiery_knife"
+			id: "52DB1B7702C804BE"
+			optional: true
+			rewards: [{
+				id: "1A85243DBC7EC2EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F5B62E9EC1EED42"
+				item: "twilightdelight:fiery_knife"
+				type: "item"
+			}]
+			title: "« Fiery Knife »"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Arme de &bTwilight's Flavor & Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightdelight:ironwood_knife"
+			id: "20EF282BE7734071"
+			optional: true
+			rewards: [{
+				id: "6B8A7180A3FBC7FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6154508BA68CF338"
+				item: "twilightdelight:ironwood_knife"
+				type: "item"
+			}]
+			title: "« Ironwood Knife »"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Arme de &bTwilight's Flavor & Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightdelight:knightmetal_knife"
+			id: "50A9AF11158F549A"
+			optional: true
+			rewards: [{
+				id: "2D1CCE32DD66A420"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63DF7B45432192A7"
+				item: "twilightdelight:knightmetal_knife"
+				type: "item"
+			}]
+			title: "« Knightly Knife »"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["Arme de &bTwilight's Flavor & Delight&r. À garder : la livraison n'est pas consommée."]
+			icon: "twilightdelight:steeleaf_knife"
+			id: "0025A50E25423A83"
+			optional: true
+			rewards: [{
+				id: "411AD1AEA04CAFC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A6207EF5FF6CE1E"
+				item: "twilightdelight:steeleaf_knife"
+				type: "item"
+			}]
+			title: "« Steeleaf Knife »"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"29F026E7E261D5E0"
+				"4614E3C7BC2314E4"
+				"3DF9E72A94293D4A"
+				"0797B29E909FBBBF"
+				"63209BECC7C4AFAF"
+				"09870A10D0A4B480"
+				"14357BCB168E873A"
+				"320F8A5F1D63BB55"
+				"43C3A84044EB183D"
+				"1DB5A70FC465E833"
+				"11F72F29E3FCB947"
+				"75BED55F832E18B2"
+				"4F91E2B686068578"
+				"01A10454DBE138BC"
+				"237B700AFDF158A8"
+				"031C03EAED0BD790"
+				"0FF5EDB800E6BB8B"
+				"7D96CAD6050E6B19"
+				"16AF60051129826F"
+				"69A31FE97311B67C"
+				"1F217CF8A923493A"
+				"56275FA017B0FC91"
+				"1F6FEE566FB38739"
+				"6A69A0414890C508"
+				"348DFC3B8CE8FF9D"
+				"42093105C1DF59B2"
+				"5001C9947A9AB887"
+				"05FB376197F5AF31"
+				"402084D39167D29F"
+				"2058B75B9A41AAF9"
+				"18D88AD730ED8E1D"
+				"0951D6B71F49E3EE"
+				"14EF0BF2214B2F9E"
+				"3B262897AC3E785B"
+				"6D63CB1DD17DEDE4"
+				"5FF1BEDCF4F31D87"
+				"3413353C568FBC86"
+				"622E5796A5B05465"
+				"45E02395077E331E"
+				"6EA2BB93581EB61B"
+				"045B358BDB243F82"
+				"3C5176A8B8DE34D2"
+				"088205FB4A408B42"
+				"6CAD8E65C67A4A04"
+				"3F7474A2A10B2A34"
+				"6CEE153B513EE789"
+				"60A6BC4A9F672481"
+				"3044E2B7629C841B"
+				"4F57CCAEA1C5CD77"
+				"31E20E9D3A0FE1AF"
+				"427EBCBBEE8B7CEC"
+				"0687CA7A5067D805"
+				"6241AC7B7BBF26C1"
+				"767A07764AE602C0"
+				"65994683FFC74602"
+				"32CCFD5F9D949678"
+				"46710F3F8591AFA5"
+				"72A70F6180E42075"
+				"18088BBA8FBD5EF1"
+				"27DC886B08AD4785"
+				"2F388D4EF3F5385F"
+				"55B696899D25EC75"
+				"67BB4A2DBB82E0B4"
+				"530FB12395EDB73D"
+				"6807F969C90CB4EF"
+				"284A4AFD78CEB524"
+				"05E098FB5B5CC29D"
+				"17B696B0C6EC0836"
+				"35BF041C21C59DF7"
+				"65F70A79345E85CB"
+				"395D5D7E8C3BCC34"
+				"278B8FD43C0DF1B2"
+				"1A6BFCF3EFD57492"
+				"2CDC2E6166E32F85"
+				"228731FACAD1F578"
+				"3F2192F9B58E2356"
+				"036688819C2338EE"
+				"21731E209AC3050B"
+				"1334626259F0DD38"
+				"7A15D8C56A6ABAAF"
+				"44F98B6A9472E0F5"
+				"23C7C9F643AA07D5"
+				"3E9050179571F90D"
+				"379F8DA29B861A9F"
+				"0A60F8AA37B03380"
+				"6CD40F9F5D7CE644"
+				"204543F62BE9CF38"
+				"30184DF778248790"
+				"6D9B8C0B84A7C847"
+				"77BF47340303FD6B"
+				"75B033551468C01F"
+				"5A13D7E010643CD9"
+				"63294B3A198B742C"
+				"66445C300407F12A"
+				"70027BD6B1CBDBEA"
+				"4E979FE558388D6A"
+				"27C4428EAB2C7B3E"
+				"015F44D8F05C8BEC"
+				"52DB1B7702C804BE"
+				"20EF282BE7734071"
+				"50A9AF11158F549A"
+				"0025A50E25423A83"
+			]
+			description: ["Toutes les autres armes de ce chapitre réunies."]
+			icon: "minecraft:netherite_sword"
+			id: "75A16BA55745404A"
+			optional: true
+			rewards: [{
+				id: "624F29ECDE4D8D6D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3927696AC9AEE05F"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Toutes les autres armes"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"75A16BA55745404A"
+				"1B4EE2F9B753F571"
+				"2754843AEA72B929"
+				"2E435F8BA280A1A4"
+				"1656B3FFE66DC01F"
+				"44966DC9EB47DB8C"
+				"2ADAEEE083CB6958"
+				"41F4D183AB10312F"
+			]
+			description: ["Épées, pioches, haches, pelles, houes, armes à distance, boucliers et le reste : chaque arme et chaque outil du pack que ce serveur permet d'obtenir."]
+			icon: "minecraft:netherite_sword"
+			id: "0310494E3B0FD432"
+			optional: true
+			rewards: [{
+				id: "0A38EAC2DCB316A2"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4A02FC7DE3BC648D"
+				title: "Tout l'arsenal"
+				type: "checkmark"
+			}]
+			title: "&c&lTout l'arsenal"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&cAutres armes et outils"
+}

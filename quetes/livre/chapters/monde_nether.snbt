@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["5677A4079C8F5DE3"]
-			description: ["La &cforge de cincinnasite&r : le four du Nether, et les outils de cincinnasite sertis de diamant s'y fabriquent (progrès du mod)."]
+			description: ["La &cforge de cincinnasite&r : un bloc de cincinnasite forgée et des briques du Nether, le four du Nether."]
 			icon: "betternether:cincinnasite_forge"
 			id: "1537411249F9FCF9"
 			optional: true
@@ -250,7 +250,7 @@
 		}
 		{
 			dependencies: ["4B01BD15EA6AB69C"]
-			description: ["Le &crubis du Nether&r sort du minerai de rubis. Il sert aux outils et armures « flamboyants » du mod."]
+			description: ["Le &crubis du Nether&r sort du minerai de rubis. Il fait une armure et des outils, que le modèle « rubis flamboyant » améliore ensuite."]
 			icon: "betternether:nether_ruby"
 			id: "4BD354B63A1B19ED"
 			optional: true
@@ -744,6 +744,301 @@
 			}]
 			title: "Le médecin de peste"
 			x: 6.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["31FAD0CBCAB93E86"]
+			description: ["Trois crânes de wither squelette sur quatre sables des âmes, et c'est reparti. La quête ne compte que le combat livré après la première victoire : il faut le refaire. Chaque Wither donne une étoile du Nether, celle des balises et de la zénalite de Hazen 'n Stuff."]
+			icon: "minecraft:wither_spawn_egg"
+			id: "416AC1CF1E775130"
+			optional: true
+			rewards: [{
+				id: "2B7EFC5A59FFB716"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "42A5BBCDBFA13554"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8Invoquer le Wither une seconde fois"
+			x: 8.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5677A4079C8F5DE3"]
+			description: ["Des lingots de cincinnasite. C'est le premier palier de Better Nether."]
+			icon: "betternether:cincinnasite_helmet"
+			id: "14F988A51FE93C61"
+			optional: true
+			rewards: [{
+				id: "6F80AE4DF76998F0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "452D6DB4C1AD90DD"
+					item: "betternether:cincinnasite_helmet"
+					type: "item"
+				}
+				{
+					id: "5866A020353E2567"
+					item: "betternether:cincinnasite_chestplate"
+					type: "item"
+				}
+				{
+					id: "1A0B88E74E8E3947"
+					item: "betternether:cincinnasite_leggings"
+					type: "item"
+				}
+				{
+					id: "1B11DF11DA141E4A"
+					item: "betternether:cincinnasite_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure de cincinnasite"
+			x: 6.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["5677A4079C8F5DE3"]
+			description: ["Lingots de cincinnasite et tiges de roseau du Nether en manche."]
+			icon: "betternether:cincinnasite_sword"
+			id: "6136D6DD8C0AC074"
+			optional: true
+			rewards: [{
+				id: "5281F40159333C2E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0EFA0C5F133F9DAB"
+					item: "betternether:cincinnasite_sword"
+					type: "item"
+				}
+				{
+					id: "47DB5A25F33FA013"
+					item: "betternether:cincinnasite_pickaxe"
+					type: "item"
+				}
+				{
+					id: "3CB1098FB301C4F4"
+					item: "betternether:cincinnasite_axe"
+					type: "item"
+				}
+				{
+					id: "259E6317296B32C3"
+					item: "betternether:cincinnasite_shovel"
+					type: "item"
+				}
+				{
+					id: "76061B8DA771AF7A"
+					item: "betternether:cincinnasite_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils de cincinnasite"
+			x: 6.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["6136D6DD8C0AC074"]
+			description: ["À la table de forge : l'outil de cincinnasite, un diamant, et le modèle « cincinnasite sertie de diamant »."]
+			icon: "betternether:cincinnasite_sword_diamond"
+			id: "13E681152E5DD2B0"
+			optional: true
+			rewards: [{
+				id: "6331BDAB93017DAF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5CC4134278687CCD"
+					item: "betternether:cincinnasite_sword_diamond"
+					type: "item"
+				}
+				{
+					id: "30C8A410BE59F877"
+					item: "betternether:cincinnasite_pickaxe_diamond"
+					type: "item"
+				}
+				{
+					id: "6E114F2F5CA77B04"
+					item: "betternether:cincinnasite_axe_diamond"
+					type: "item"
+				}
+				{
+					id: "417AFB098F9B802C"
+					item: "betternether:cincinnasite_shovel_diamond"
+					type: "item"
+				}
+				{
+					id: "70B86D109B85DBE3"
+					item: "betternether:cincinnasite_hoe_diamond"
+					type: "item"
+				}
+			]
+			title: "Les outils de cincinnasite sertis de diamant"
+			x: 8.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["4BD354B63A1B19ED"]
+			description: ["Des rubis du Nether."]
+			icon: "betternether:nether_ruby_helmet"
+			id: "0FD900AF9B0F8FFE"
+			optional: true
+			rewards: [{
+				id: "7084BE0BA61E2527"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "49DCFB9F174086CF"
+					item: "betternether:nether_ruby_helmet"
+					type: "item"
+				}
+				{
+					id: "7235E89FFCBF0C58"
+					item: "betternether:nether_ruby_chestplate"
+					type: "item"
+				}
+				{
+					id: "3E7B869D18F8D3F1"
+					item: "betternether:nether_ruby_leggings"
+					type: "item"
+				}
+				{
+					id: "1EA53C0D6C110379"
+					item: "betternether:nether_ruby_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure de rubis du Nether"
+			x: 6.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["4BD354B63A1B19ED"]
+			description: ["Des rubis du Nether et des tiges de roseau du Nether."]
+			icon: "betternether:nether_ruby_sword"
+			id: "547C64747B2D5C4C"
+			optional: true
+			rewards: [{
+				id: "33B2BEC670DB2BD7"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2F52246ED4152F1B"
+					item: "betternether:nether_ruby_sword"
+					type: "item"
+				}
+				{
+					id: "7F9DB257FB3E8330"
+					item: "betternether:nether_ruby_pickaxe"
+					type: "item"
+				}
+				{
+					id: "00E2A50D0161C888"
+					item: "betternether:nether_ruby_axe"
+					type: "item"
+				}
+				{
+					id: "4A6126432FEA6A45"
+					item: "betternether:nether_ruby_shovel"
+					type: "item"
+				}
+				{
+					id: "4F6F057A4225A693"
+					item: "betternether:nether_ruby_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils de rubis du Nether"
+			x: 6.0d
+			y: 14.75d
+		}
+		{
+			dependencies: [
+				"0FD900AF9B0F8FFE"
+				"547C64747B2D5C4C"
+			]
+			description: ["À la table de forge, chaque pièce et chaque outil en rubis, un catalyseur de sculk et le modèle « rubis flamboyant » : le sommet de Better Nether. Le modèle se recopie avec un diamant et un rubis."]
+			icon: "betternether:flaming_ruby_helmet"
+			id: "4FD1C73B8883396A"
+			optional: true
+			rewards: [{
+				id: "397713A92509C60D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					id: "7A4F92143AA64214"
+					item: "betternether:flaming_ruby_helmet"
+					type: "item"
+				}
+				{
+					id: "56A634E0B3FD8440"
+					item: "betternether:flaming_ruby_chestplate"
+					type: "item"
+				}
+				{
+					id: "10D755CB2B577054"
+					item: "betternether:flaming_ruby_leggings"
+					type: "item"
+				}
+				{
+					id: "2AADD218EDE16394"
+					item: "betternether:flaming_ruby_boots"
+					type: "item"
+				}
+				{
+					id: "0764F8508230C723"
+					item: "betternether:flaming_ruby_sword"
+					type: "item"
+				}
+				{
+					id: "007585BEE73D107C"
+					item: "betternether:flaming_ruby_pickaxe"
+					type: "item"
+				}
+				{
+					id: "6881A6232D3C4E08"
+					item: "betternether:flaming_ruby_axe"
+					type: "item"
+				}
+				{
+					id: "33B71544BB48C07D"
+					item: "betternether:flaming_ruby_shovel"
+					type: "item"
+				}
+				{
+					id: "36F9B5CEEF0FB90B"
+					item: "betternether:flaming_ruby_hoe"
+					type: "item"
+				}
+			]
+			title: "&cTout en rubis flamboyant"
+			x: 8.0d
 			y: 8.75d
 		}
 		{

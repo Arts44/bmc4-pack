@@ -380,6 +380,167 @@
 			y: 5.25d
 		}
 		{
+			dependencies: ["74EFB4ECCBE9F293"]
+			description: ["Des cendres ardentes (« Burning Ashes ») posées sur l'autel de feu de l'arène l'invoquent de nouveau. Elles se fabriquent à partir de « Dying Ember ». La quête ne compte que le combat livré après la première victoire."]
+			icon: "cataclysm:ignis_spawn_egg"
+			id: "3C0A31F9DCE16F79"
+			optional: true
+			rewards: [{
+				id: "5DC4BA08C01BE297"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "62999D9F57F3BD06"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cRéveiller Ignis"
+			x: 6.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["1CCF7C7C6309E7F1"]
+			description: ["À sa mort, un bloc de réapparition se pose à son repaire. Un œil monstrueux utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire."]
+			icon: "cataclysm:netherite_monstrosity_spawn_egg"
+			id: "57653CF4997F2A42"
+			optional: true
+			rewards: [{
+				id: "6F6F104B100B107F"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "59CB67533D869BBB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4Réveiller la Monstruosité"
+			x: 6.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["41770722691919B0"]
+			description: ["À sa mort, un bloc de réapparition se pose à son repaire. Un œil du vide utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire."]
+			icon: "cataclysm:ender_guardian_spawn_egg"
+			id: "69AD97C60BD01A5D"
+			optional: true
+			rewards: [{
+				id: "0AE8D1A583447609"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "7D4667836F70AE21"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Réveiller le Gardien de l'Ender"
+			x: 6.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["2C43F99DA069D2C2"]
+			description: ["À sa mort, un bloc de réapparition se pose à son repaire. Un œil mécanique utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire."]
+			icon: "cataclysm:the_harbinger_spawn_egg"
+			id: "74839E2F6A2E25C7"
+			optional: true
+			rewards: [{
+				id: "44478D5B829CD519"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "6146AA2FC13D7A39"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8Réveiller le Harbinger"
+			x: 6.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["38041052F06CD388"]
+			description: ["Un sacrifice abyssal (« Abyssal Sacrifice ») posé sur l'autel des abysses de la cité engloutie l'invoque de nouveau. Il se fabrique avec des blocs de diamant, d'émeraude, de fer, d'or et d'améthyste, un cœur de la mer, une coquille de nautile, du corail et l'« Athame ». La quête ne compte que le combat livré après la première victoire."]
+			icon: "cataclysm:the_leviathan_spawn_egg"
+			id: "4B83261257EFCAD5"
+			optional: true
+			rewards: [{
+				id: "3EB187D54517C386"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "53D0E981FE2E508E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3Réveiller le Léviathan"
+			x: 6.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["7CE0D149B44CBA4E"]
+			description: ["À sa mort, un bloc de réapparition se pose à son repaire. Un œil du désert utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire."]
+			icon: "cataclysm:ancient_remnant_spawn_egg"
+			id: "50D7D6A85C2B48D1"
+			optional: true
+			rewards: [{
+				id: "576FE53AB21604B4"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "4CD86CBAC7CED3BA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Réveiller l'Ancien Remnant"
+			x: 6.0d
+			y: 14.75d
+		}
+		{
+			dependencies: ["2F128C64B2DD7470"]
+			description: ["À sa mort, un bloc de réapparition se pose à son repaire. Un œil de la tempête utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire."]
+			icon: "cataclysm:scylla_spawn_egg"
+			id: "0D29DB071B78652F"
+			optional: true
+			rewards: [{
+				id: "1071421E1FBDD28D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "266E5D31FED378E8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&bRéveiller Scylla"
+			x: 6.0d
+			y: 16.25d
+		}
+		{
 			dependencies: [
 				"74EFB4ECCBE9F293"
 				"1CCF7C7C6309E7F1"
@@ -398,6 +559,7 @@
 				type: "xp_levels"
 				xp_levels: 50
 			}]
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_all_bosses"
