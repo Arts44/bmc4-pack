@@ -595,6 +595,62 @@ def construire_tables(tables, verif):
     return out
 
 
+def controler_paliers(chapitres, verif):
+    """Contrôle « échelle complète » (BMC-89, 5 octobre). Chaque fichier de
+    donnees/paliers/ décrit l'échelle d'un chapitre, preuve à l'appui :
+        chapitre = "<fichier du chapitre>"
+        sommet = "<clé de la quête sommet>"
+        [[palier]]   echelle = "…", cle = "…", preuve = "…"  (dans l'ordre)
+        [[saute]]    objet = "…", raison = "…"   (palier désactivé, inobtenable, absent)
+    Vérifie : chaque palier a sa quête ; dans une même échelle, chaque palier
+    dépend (directement ou non) du précédent ; le sommet existe, il est le
+    dernier palier de son échelle et sa forme le distingue."""
+    dossier = os.path.join(DONNEES, 'paliers')
+    if not os.path.isdir(dossier):
+        return
+    par_fichier = {}
+    for c in chapitres:
+        d = tomllib.load(open(c, 'rb'))
+        par_fichier[d['chapitre']['fichier']] = {q['cle']: q for q in d.get('quete', [])}
+    for f in sorted(os.listdir(dossier)):
+        if not f.endswith('.toml'):
+            continue
+        ou = f'paliers/{f}'
+        p = tomllib.load(open(os.path.join(dossier, f), 'rb'))
+        quetes = par_fichier.get(p.get('chapitre'))
+        if quetes is None:
+            verif.erreurs.append(f"{ou} : chapitre inconnu « {p.get('chapitre')} »")
+            continue
+
+        def amont(cle, vus=None):
+            vus = set() if vus is None else vus
+            for d in quetes.get(cle, {}).get('deps', []):
+                if d not in vus:
+                    vus.add(d)
+                    amont(d, vus)
+            return vus
+
+        derniers = {}
+        for pl in p.get('palier', []):
+            cle, ech = pl.get('cle'), pl.get('echelle', '')
+            if not pl.get('preuve'):
+                verif.erreurs.append(f"{ou} : palier « {cle} » sans preuve")
+            if cle not in quetes:
+                verif.erreurs.append(f"{ou} : palier « {cle} » sans quête dans le chapitre")
+                continue
+            prec = derniers.get(ech)
+            if prec and prec not in amont(cle):
+                verif.erreurs.append(f"{ou} : échelle « {ech} » : « {cle} » ne dépend pas du palier précédent « {prec} »")
+            derniers[ech] = cle
+        s = p.get('sommet')
+        if s not in quetes:
+            verif.erreurs.append(f"{ou} : sommet « {s} » absent du chapitre")
+        elif s not in derniers.values():
+            verif.erreurs.append(f"{ou} : le sommet « {s} » n'est le dernier palier d'aucune échelle")
+        elif not quetes[s].get('forme') and not quetes[s].get('boss'):
+            verif.erreurs.append(f"{ou} : le sommet « {s} » n'a pas de forme distincte")
+
+
 def main(argv):
     verifier_seulement = '--verifier' in argv
     cibles = [a for a in argv if not a.startswith('--')]
@@ -604,7 +660,7 @@ def main(argv):
     groupes = tomllib.load(open(os.path.join(DONNEES, 'groupes.toml'), 'rb'))['groupe']
     chapitres = []
     for racine, _, fichiers in os.walk(DONNEES):
-        if os.path.basename(racine) == 'notes':
+        if os.path.basename(racine) in ('notes', 'paliers'):
             continue
         for f in sorted(fichiers):
             if f.endswith('.toml') and f not in ('tables.toml', 'groupes.toml', 'livre.toml', 'exclusions.toml'):
@@ -622,6 +678,8 @@ def main(argv):
     for ou, x in DEPS_EXTERNES:
         if x not in connues:
             verif.erreurs.append(f"{ou} : dépendance vers une quête d'un autre chapitre inconnue « {x} »")
+    if not cibles:
+        controler_paliers(chapitres, verif)
     tables_snbt = construire_tables(tables, verif)
     if verif.erreurs:
         print('\n'.join(verif.erreurs))
