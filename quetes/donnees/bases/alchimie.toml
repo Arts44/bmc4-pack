@@ -1,0 +1,289 @@
+# Chapitre « Alchimie » — cahier des charges §9.1.5
+# R0. Chaque potion vanilla dans ses variantes, par tâche « potion »
+# (objet avec NBT, comparé NBT compris ; liste vérifiée dans le jar
+# 1.20.1 : 42 potions). Progrès vanilla brew_potion, all_potions,
+# all_effects. Les ingrédients et les durées sont ceux du jeu de base.
+
+[chapitre]
+titre = "&5Alchimie"
+fichier = "bases_alchimie"
+groupe = "bases"
+icone = "minecraft:brewing_stand"
+ordre = 5
+
+[[quete]]
+cle = "intro"
+titre = "&5L'alambic"
+taille = 1.5
+icone = "minecraft:blaze_powder"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:glass_bottle 6"]
+description = """
+Un bâton de blaze sur trois pierres, de la poudre de blaze pour le chauffer, trois fioles d'eau, et la &lverrue du Nether&r d'abord : toute potion utile part de la potion étrange. Redstone prolonge, poudre lumineuse renforce, poudre à canon rend jetable, souffle de dragon rend persistante.
+"""
+
+[[quete]]
+cle = "alambic"
+titre = "Fabriquer l'alambic"
+deps = ["intro"]
+taches = ["item minecraft:brewing_stand", "item minecraft:blaze_powder 4"]
+recompenses = ["xp 2"]
+
+[[quete]]
+cle = "etrange"
+titre = "La potion étrange"
+deps = ["alambic"]
+taches = ["potion awkward normale 3"]
+recompenses = ["xp 2"]
+description = """
+Verrue du Nether sur eau. La base de tout. Première potion : progrès « Local Brewery ».
+"""
+
+[[quete]]
+cle = "premiere"
+titre = "Brasserie locale"
+deps = ["etrange"]
+taches = ["advancement minecraft:nether/brew_potion"]
+recompenses = ["xp 2"]
+
+# ---- potions de base
+[[quete]]
+cle = "soin"
+titre = "Soin"
+deps = ["etrange"]
+taches = ["potion healing", "potion strong_healing"]
+recompenses = ["xp 3"]
+description = """
+Melon scintillant. Renforcée : II, à la poudre lumineuse. Jetable, elle soigne tout le monde autour, et blesse les morts-vivants.
+"""
+
+[[quete]]
+cle = "regeneration"
+titre = "Régénération"
+deps = ["etrange"]
+taches = ["potion regeneration", "potion long_regeneration", "potion strong_regeneration"]
+recompenses = ["xp 4"]
+description = """
+Larme de ghast. Normale, prolongée (redstone), renforcée (poudre lumineuse).
+"""
+
+[[quete]]
+cle = "force"
+titre = "Force"
+deps = ["etrange"]
+taches = ["potion strength", "potion long_strength", "potion strong_strength"]
+recompenses = ["xp 4"]
+description = """
+Poudre de blaze.
+"""
+
+[[quete]]
+cle = "rapidite"
+titre = "Rapidité"
+deps = ["etrange"]
+taches = ["potion swiftness", "potion long_swiftness", "potion strong_swiftness"]
+recompenses = ["xp 4"]
+description = """
+Sucre.
+"""
+
+[[quete]]
+cle = "saut"
+titre = "Saut"
+deps = ["etrange"]
+taches = ["potion leaping", "potion long_leaping", "potion strong_leaping"]
+recompenses = ["xp 4"]
+description = """
+Patte de lapin.
+"""
+
+[[quete]]
+cle = "feu"
+titre = "Résistance au feu"
+deps = ["etrange"]
+taches = ["potion fire_resistance", "potion long_fire_resistance"]
+recompenses = ["xp 3"]
+description = """
+Crème de magma. Indispensable au Nether et face à Ignis.
+"""
+
+[[quete]]
+cle = "eau"
+titre = "Respiration aquatique"
+deps = ["etrange"]
+taches = ["potion water_breathing", "potion long_water_breathing"]
+recompenses = ["xp 3"]
+description = """
+Poisson-globe. Pour le Léviathan et le monument.
+"""
+
+[[quete]]
+cle = "nuit"
+titre = "Vision nocturne"
+deps = ["etrange"]
+taches = ["potion night_vision", "potion long_night_vision"]
+recompenses = ["xp 3"]
+description = """
+Carotte dorée.
+"""
+
+[[quete]]
+cle = "invisibilite"
+titre = "Invisibilité"
+deps = ["nuit"]
+taches = ["potion invisibility", "potion long_invisibility"]
+recompenses = ["xp 3"]
+description = """
+Œil d'araignée fermenté sur la vision nocturne. L'armure reste visible.
+"""
+
+[[quete]]
+cle = "chute"
+titre = "Chute lente"
+deps = ["etrange"]
+taches = ["potion slow_falling", "potion long_slow_falling"]
+recompenses = ["xp 3"]
+description = """
+Membrane de phantom.
+"""
+
+[[quete]]
+cle = "tortue"
+titre = "Maître des tortues"
+deps = ["etrange"]
+taches = ["potion turtle_master", "potion long_turtle_master", "potion strong_turtle_master"]
+recompenses = ["xp 4"]
+description = """
+Carapace de tortue : lenteur et résistance en même temps.
+"""
+
+# ---- potions nuisibles
+[[quete]]
+cle = "poison"
+titre = "Poison"
+deps = ["etrange"]
+optionnel = true
+taches = ["potion poison", "potion long_poison", "potion strong_poison"]
+recompenses = ["xp 3"]
+description = """
+Œil d'araignée.
+"""
+
+[[quete]]
+cle = "degats"
+titre = "Dégâts"
+deps = ["soin"]
+optionnel = true
+taches = ["potion harming", "potion strong_harming"]
+recompenses = ["xp 3"]
+description = """
+Œil fermenté sur le soin ou le poison. Jetable, elle blesse tout sauf les morts-vivants, qu'elle soigne.
+"""
+
+[[quete]]
+cle = "lenteur"
+titre = "Lenteur"
+deps = ["rapidite"]
+optionnel = true
+taches = ["potion slowness", "potion long_slowness", "potion strong_slowness"]
+recompenses = ["xp 3"]
+description = """
+Œil fermenté sur la rapidité ou le saut.
+"""
+
+[[quete]]
+cle = "faiblesse"
+titre = "Faiblesse"
+deps = ["intro"]
+optionnel = true
+taches = ["potion weakness", "potion long_weakness"]
+recompenses = ["xp 3"]
+description = """
+Œil fermenté directement sur l'eau. Jetée sur un villageois zombie avec une pomme dorée, elle le guérit.
+"""
+
+# ---- formes
+[[quete]]
+cle = "jetable"
+titre = "Une potion jetable"
+deps = ["soin"]
+taches = ["potion healing jetable"]
+recompenses = ["xp 2"]
+description = """
+Poudre à canon sur n'importe quelle potion.
+"""
+
+[[quete]]
+cle = "persistante"
+titre = "Une potion persistante"
+deps = ["jetable"]
+taches = ["potion healing persistante"]
+recompenses = ["xp 5"]
+description = """
+Souffle de dragon (ramassé en fiole sous l'Ender Dragon) sur une jetable : un nuage qui dure.
+"""
+
+[[quete]]
+cle = "fleches"
+titre = "Des flèches à effet"
+deps = ["persistante"]
+taches = ["potion harming fleche 8"]
+recompenses = ["xp 5"]
+description = """
+Huit flèches autour d'une potion persistante. Le fléchier en vend aussi.
+"""
+
+[[quete]]
+cle = "inutiles"
+titre = "Les trois potions sans effet"
+deps = ["alambic"]
+optionnel = true
+taches = ["potion mundane", "potion thick", "potion awkward"]
+recompenses = ["xp 2"]
+description = """
+Banale (sucre, melon, etc. sur l'eau), épaisse (poudre lumineuse sur l'eau), étrange. Seule l'étrange mène quelque part.
+"""
+
+[[quete]]
+cle = "chance"
+titre = "Chance"
+deps = ["intro"]
+optionnel = true
+taches = ["potion luck"]
+recompenses = ["xp 5"]
+description = """
+Pas de recette vanilla : elle se trouve, ou se vend. Elle améliore le butin de pêche.
+"""
+
+[[quete]]
+cle = "toutes"
+titre = "&5Toutes les potions"
+deps = ["regeneration", "force", "rapidite", "saut", "feu", "eau", "nuit", "invisibilite", "chute", "tortue"]
+optionnel = true
+taille = 1.3
+taches = ["advancement minecraft:nether/all_potions"]
+recompenses = ["xp 25"]
+description = """
+Tous les effets de potion en même temps (progrès « A Furious Cocktail »).
+"""
+
+[[quete]]
+cle = "effets"
+titre = "&5Comment est-on arrivé là ?"
+deps = ["toutes"]
+optionnel = true
+taille = 1.3
+taches = ["advancement minecraft:nether/all_effects"]
+recompenses = ["xp 40"]
+description = """
+Tous les effets du jeu à la fois, les bons et les mauvais (progrès vanilla).
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&5Alchimiste"
+deps = ["soin", "force", "feu", "fleches"]
+taille = 1.3
+icone = "minecraft:dragon_breath"
+taches = ["checkmark Alchimiste"]
+recompenses = ["xp 5"]

@@ -1,0 +1,1036 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bases_alchimie"
+	group: "00400F52F527AA36"
+	icon: "minecraft:brewing_stand"
+	id: "42F58DC3A4240428"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Un bâton de blaze sur trois pierres, de la poudre de blaze pour le chauffer, trois fioles d'eau, et la &lverrue du Nether&r d'abord : toute potion utile part de la potion étrange. Redstone prolonge, poudre lumineuse renforce, poudre à canon rend jetable, souffle de dragon rend persistante."]
+			icon: "minecraft:blaze_powder"
+			id: "1A4786D697DA7C7A"
+			rewards: [{
+				count: 6
+				id: "6F0BC6E7F259197D"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "291F782C5C2F975F"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&5L'alambic"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A4786D697DA7C7A"]
+			icon: "minecraft:brewing_stand"
+			id: "28600AE146356172"
+			rewards: [{
+				id: "26DDCD265E504CA8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "69143E42D5713123"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C76F1834A68DB00"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "Fabriquer l'alambic"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28600AE146356172"]
+			description: ["Verrue du Nether sur eau. La base de tout. Première potion : progrès « Local Brewery »."]
+			icon: "minecraft:potion"
+			id: "5C16F41EA88E6871"
+			rewards: [{
+				id: "7CF46875E7F9B8C6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 3L
+				id: "444FEED2545AB64F"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:awkward"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "La potion étrange"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			id: "3BBB35FE52DE3EFA"
+			rewards: [{
+				id: "6E3C33A21CB085A0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "3A21BA8D1EAB8DBE"
+				type: "advancement"
+			}]
+			title: "Brasserie locale"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Melon scintillant. Renforcée : II, à la poudre lumineuse. Jetable, elle soigne tout le monde autour, et blesse les morts-vivants."]
+			icon: "minecraft:potion"
+			id: "645961E801BEA279"
+			rewards: [{
+				id: "0B2B259CF7A2146E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "66CF02E64E687790"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4B209DB722132BB0"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Soin"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Larme de ghast. Normale, prolongée (redstone), renforcée (poudre lumineuse)."]
+			icon: "minecraft:potion"
+			id: "075C489FCC356644"
+			rewards: [{
+				id: "1A5C327D91CD5D29"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [
+				{
+					id: "4FBDD7154050D714"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "71B4707042B02AEA"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4AA8A682FBDE42FC"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Régénération"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Poudre de blaze."]
+			icon: "minecraft:potion"
+			id: "3649DA38D987A684"
+			rewards: [{
+				id: "23A8FFC7EF257638"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [
+				{
+					id: "7A65E11CAE749B20"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6EBF32069CB82135"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BF8012510322C2E"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Force"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Sucre."]
+			icon: "minecraft:potion"
+			id: "459D42D0E4A90473"
+			rewards: [{
+				id: "5063C5EB9BB9E976"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [
+				{
+					id: "0EE7A5BD5ED8C68D"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3B41D13BDCB67740"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53AF4D63E20102A7"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Rapidité"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Patte de lapin."]
+			icon: "minecraft:potion"
+			id: "5E599F9D9C682010"
+			rewards: [{
+				id: "75426BBE8696D91E"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [
+				{
+					id: "24762762EF78A193"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "11F1B9015EA5841E"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_leaping"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "00C1653B7ACB3D1D"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_leaping"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Saut"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Crème de magma. Indispensable au Nether et face à Ignis."]
+			icon: "minecraft:potion"
+			id: "095A6E983429C5FC"
+			rewards: [{
+				id: "54D1FCD426E92C02"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "27006C57413A9728"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "55395EA8701FD780"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Résistance au feu"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Poisson-globe. Pour le Léviathan et le monument."]
+			icon: "minecraft:potion"
+			id: "4694FA5E373FDF80"
+			rewards: [{
+				id: "6337EC65427AD476"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "32818A4A1E6592F4"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2A9FAF7596FD5CF9"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Respiration aquatique"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Carotte dorée."]
+			icon: "minecraft:potion"
+			id: "68F300ACE58CFB5B"
+			rewards: [{
+				id: "42C3D5E0B60CC777"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "54415CD1B22AA5DD"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:night_vision"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1EDACFCD314DFBA4"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Vision nocturne"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["68F300ACE58CFB5B"]
+			description: ["Œil d'araignée fermenté sur la vision nocturne. L'armure reste visible."]
+			icon: "minecraft:potion"
+			id: "7F1FFF69DF157D87"
+			rewards: [{
+				id: "793B60D356FC9CD4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "6716519E729D0FE3"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:invisibility"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7577AB022DABE4AE"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_invisibility"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Invisibilité"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Membrane de phantom."]
+			icon: "minecraft:potion"
+			id: "2A122869B919038C"
+			rewards: [{
+				id: "3C35A2A0688A7C75"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "41EBF9344E8CCDAA"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "374EE84CB85968C0"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Chute lente"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Carapace de tortue : lenteur et résistance en même temps."]
+			icon: "minecraft:potion"
+			id: "71FA3580A27A4DEC"
+			rewards: [{
+				id: "452D4FFD9C6B6E08"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [
+				{
+					id: "6685C9E11279C975"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:turtle_master"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4734AD4E17E42EAD"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_turtle_master"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "70C43C39A62C6EEC"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_turtle_master"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Maître des tortues"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C16F41EA88E6871"]
+			description: ["Œil d'araignée."]
+			icon: "minecraft:potion"
+			id: "0DB11CADE4123BB1"
+			optional: true
+			rewards: [{
+				id: "0249F81A60147668"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2CBEAEE6F6C394CB"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "52D06FB2777D7546"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "37207C141D004013"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_poison"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Poison"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["645961E801BEA279"]
+			description: ["Œil fermenté sur le soin ou le poison. Jetable, elle blesse tout sauf les morts-vivants, qu'elle soigne."]
+			icon: "minecraft:potion"
+			id: "2681D9EB29206815"
+			optional: true
+			rewards: [{
+				id: "4FB07E2440487BE2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7692D256EFED45DE"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:harming"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "42CF323D385DFAAE"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Dégâts"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["459D42D0E4A90473"]
+			description: ["Œil fermenté sur la rapidité ou le saut."]
+			icon: "minecraft:potion"
+			id: "024DDC52919386BC"
+			optional: true
+			rewards: [{
+				id: "7D089287A373BDD3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "072CC6686FEA2AA6"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7840397CCB5CEE47"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_slowness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "42A24117E0F0DF4E"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_slowness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Lenteur"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A4786D697DA7C7A"]
+			description: ["Œil fermenté directement sur l'eau. Jetée sur un villageois zombie avec une pomme dorée, elle le guérit."]
+			icon: "minecraft:potion"
+			id: "7D4999B8FDDD398F"
+			optional: true
+			rewards: [{
+				id: "1C8C3720EDD4BF78"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0D0473717B15FE14"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "47D95F7012449C44"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_weakness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Faiblesse"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["645961E801BEA279"]
+			description: ["Poudre à canon sur n'importe quelle potion."]
+			icon: "minecraft:splash_potion"
+			id: "7AF4B0DF09713E0E"
+			rewards: [{
+				id: "612E699049FDB3C2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4274BC9D4CF69FEA"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Une potion jetable"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7AF4B0DF09713E0E"]
+			description: ["Souffle de dragon (ramassé en fiole sous l'Ender Dragon) sur une jetable : un nuage qui dure."]
+			icon: "minecraft:lingering_potion"
+			id: "3F7B09FBD35829EC"
+			rewards: [{
+				id: "1E6EE6B21795A069"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "598609F28EC9D571"
+				item: {
+					Count: 1
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Une potion persistante"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F7B09FBD35829EC"]
+			description: ["Huit flèches autour d'une potion persistante. Le fléchier en vend aussi."]
+			icon: "minecraft:tipped_arrow"
+			id: "66848BEA5582055C"
+			rewards: [{
+				id: "7CDC6A002CF384EF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 8L
+				id: "38326737C04467CD"
+				item: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Des flèches à effet"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28600AE146356172"]
+			description: ["Banale (sucre, melon, etc. sur l'eau), épaisse (poudre lumineuse sur l'eau), étrange. Seule l'étrange mène quelque part."]
+			icon: "minecraft:potion"
+			id: "2C76648118910823"
+			optional: true
+			rewards: [{
+				id: "0FEF3E8AA88D81C5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1720171AC05E4964"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "713C38C4003AC176"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:thick"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C1B571445842592"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:awkward"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Les trois potions sans effet"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A4786D697DA7C7A"]
+			description: ["Pas de recette vanilla : elle se trouve, ou se vend. Elle améliore le butin de pêche."]
+			icon: "minecraft:potion"
+			id: "6B18D04AE62A81AE"
+			optional: true
+			rewards: [{
+				id: "436CFFEEFA46151E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E7804C5244600EB"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:luck"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Chance"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"075C489FCC356644"
+				"3649DA38D987A684"
+				"459D42D0E4A90473"
+				"5E599F9D9C682010"
+				"095A6E983429C5FC"
+				"4694FA5E373FDF80"
+				"68F300ACE58CFB5B"
+				"7F1FFF69DF157D87"
+				"2A122869B919038C"
+				"71FA3580A27A4DEC"
+			]
+			description: ["Tous les effets de potion en même temps (progrès « A Furious Cocktail »)."]
+			id: "3BC6D032AFD7E1EB"
+			optional: true
+			rewards: [{
+				id: "20BF89A5F4736B5D"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "2DBCE7A5F4503407"
+				type: "advancement"
+			}]
+			title: "&5Toutes les potions"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BC6D032AFD7E1EB"]
+			description: ["Tous les effets du jeu à la fois, les bons et les mauvais (progrès vanilla)."]
+			id: "65E532519217F80F"
+			optional: true
+			rewards: [{
+				id: "2F87FC3129A53C8E"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+				id: "47483DA4526E063B"
+				type: "advancement"
+			}]
+			title: "&5Comment est-on arrivé là ?"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"645961E801BEA279"
+				"3649DA38D987A684"
+				"095A6E983429C5FC"
+				"66848BEA5582055C"
+			]
+			icon: "minecraft:dragon_breath"
+			id: "5CF232F90186187D"
+			rewards: [{
+				id: "3E9C73FF8933B1D3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "1BD1354FFCA30B90"
+				title: "Alchimiste"
+				type: "checkmark"
+			}]
+			title: "&5Alchimiste"
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	title: "&5Alchimie"
+}
