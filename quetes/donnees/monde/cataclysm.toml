@@ -240,10 +240,110 @@ description = """
 L'impératrice des tempêtes (titre du progrès). Elle lâche l'essence de la tempête et la lacrima (table de butin) ; Ceraunus, l'ancre qui se lance, et Astrape, la lance d'éclair, s'en fabriquent. Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
 """
 
+# ---- Relances (BMC-89, 5 octobre) : Boss_Respawn_Spawner_Block (javap) — le
+# boss mort pose un bloc de réapparition à son repaire, qui consomme l'objet
+# enregistré (MONSTROUS_EYE, VOID_EYE, MECH_EYE, DESERT_EYE, STORM_EYE dans
+# chaque classe de boss) ; cataclysm.toml du serveur : les cinq « Respawner »
+# à true. Ignis et le Léviathan se ré-invoquent à leur autel
+# (AltarOfFire : cendres ardentes ; AltarOfAbyss : sacrifice abyssal).
+# Maledictus n'a aucun moyen d'être ré-invoqué. Une victoire n'est comptée
+# que si la quête est ouverte (FTB Quests, javap).
+[[quete]]
+cle = "ignis_relance"
+titre = "&cRéveiller Ignis"
+deps = ["ignis"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill cataclysm:ignis"]
+recompenses = ["xp 20"]
+description = """
+Des cendres ardentes (« Burning Ashes ») posées sur l'autel de feu de l'arène l'invoquent de nouveau. Elles se fabriquent à partir de « Dying Ember ». La quête ne compte que le combat livré après la première victoire.
+"""
+
+[[quete]]
+cle = "monstruosite_relance"
+titre = "&4Réveiller la Monstruosité"
+deps = ["monstruosite"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill cataclysm:netherite_monstrosity"]
+recompenses = ["xp 20"]
+description = """
+À sa mort, un bloc de réapparition se pose à son repaire. Un œil monstrueux utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+"""
+
+[[quete]]
+cle = "gardien_relance"
+titre = "&5Réveiller le Gardien de l'Ender"
+deps = ["gardien"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill cataclysm:ender_guardian"]
+recompenses = ["xp 20"]
+description = """
+À sa mort, un bloc de réapparition se pose à son repaire. Un œil du vide utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+"""
+
+[[quete]]
+cle = "harbinger_relance"
+titre = "&8Réveiller le Harbinger"
+deps = ["harbinger"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill cataclysm:the_harbinger"]
+recompenses = ["xp 20"]
+description = """
+À sa mort, un bloc de réapparition se pose à son repaire. Un œil mécanique utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+"""
+
+[[quete]]
+cle = "leviathan_relance"
+titre = "&3Réveiller le Léviathan"
+deps = ["leviathan"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill cataclysm:the_leviathan"]
+recompenses = ["xp 20"]
+description = """
+Un sacrifice abyssal (« Abyssal Sacrifice ») posé sur l'autel des abysses de la cité engloutie l'invoque de nouveau. Il se fabrique avec des blocs de diamant, d'émeraude, de fer, d'or et d'améthyste, un cœur de la mer, une coquille de nautile, du corail et l'« Athame ». La quête ne compte que le combat livré après la première victoire.
+"""
+
+[[quete]]
+cle = "remnant_relance"
+titre = "&6Réveiller l'Ancien Remnant"
+deps = ["remnant"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill cataclysm:ancient_remnant"]
+recompenses = ["xp 20"]
+description = """
+À sa mort, un bloc de réapparition se pose à son repaire. Un œil du désert utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+"""
+
+[[quete]]
+cle = "scylla_relance"
+titre = "&bRéveiller Scylla"
+deps = ["scylla"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill cataclysm:scylla"]
+recompenses = ["xp 20"]
+description = """
+À sa mort, un bloc de réapparition se pose à son repaire. Un œil de la tempête utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+"""
+
 [[quete]]
 cle = "tous"
 titre = "&4Tous les boss de Cataclysm"
 deps = ["ignis", "monstruosite", "gardien", "harbinger", "leviathan", "remnant", "maledictus", "scylla"]
+forme = "diamond"
 taille = 1.5
 icone = "cataclysm:witherite_ingot"
 taches = ["advancement cataclysm:kill_all_bosses"]

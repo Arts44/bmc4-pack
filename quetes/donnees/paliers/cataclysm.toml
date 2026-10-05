@@ -1,0 +1,87 @@
+# Échelle des paliers — Cataclysm (BMC-89, 5 octobre 2026).
+chapitre = "monde_cataclysm"
+sommet = "tous"
+
+[[palier]]
+echelle = "ignis"
+cle = "ignis"
+preuve = "victoire (progrès kill_*)"
+
+[[palier]]
+echelle = "ignis"
+cle = "ignis_relance"
+preuve = "Boss_Respawn_Spawner / autel (javap), config Respawner"
+
+[[palier]]
+echelle = "monstruosite"
+cle = "monstruosite"
+preuve = "victoire (progrès kill_*)"
+
+[[palier]]
+echelle = "monstruosite"
+cle = "monstruosite_relance"
+preuve = "Boss_Respawn_Spawner / autel (javap), config Respawner"
+
+[[palier]]
+echelle = "gardien"
+cle = "gardien"
+preuve = "victoire (progrès kill_*)"
+
+[[palier]]
+echelle = "gardien"
+cle = "gardien_relance"
+preuve = "Boss_Respawn_Spawner / autel (javap), config Respawner"
+
+[[palier]]
+echelle = "harbinger"
+cle = "harbinger"
+preuve = "victoire (progrès kill_*)"
+
+[[palier]]
+echelle = "harbinger"
+cle = "harbinger_relance"
+preuve = "Boss_Respawn_Spawner / autel (javap), config Respawner"
+
+[[palier]]
+echelle = "leviathan"
+cle = "leviathan"
+preuve = "victoire (progrès kill_*)"
+
+[[palier]]
+echelle = "leviathan"
+cle = "leviathan_relance"
+preuve = "Boss_Respawn_Spawner / autel (javap), config Respawner"
+
+[[palier]]
+echelle = "remnant"
+cle = "remnant"
+preuve = "victoire (progrès kill_*)"
+
+[[palier]]
+echelle = "remnant"
+cle = "remnant_relance"
+preuve = "Boss_Respawn_Spawner / autel (javap), config Respawner"
+
+[[palier]]
+echelle = "scylla"
+cle = "scylla"
+preuve = "victoire (progrès kill_*)"
+
+[[palier]]
+echelle = "scylla"
+cle = "scylla_relance"
+preuve = "Boss_Respawn_Spawner / autel (javap), config Respawner"
+
+[[palier]]
+echelle = "tous"
+cle = "scylla"
+preuve = "dernier boss"
+
+[[palier]]
+echelle = "tous"
+cle = "tous"
+preuve = "progrès kill_all_bosses"
+
+[[saute]]
+objet = "relancer Maledictus"
+raison = "aucun bloc de réapparition ni autel ne le ré-invoque (javap des classes de boss)"
