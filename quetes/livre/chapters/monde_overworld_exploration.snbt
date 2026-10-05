@@ -1,0 +1,579 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_overworld_exploration"
+	group: "17185D2694D86048"
+	icon: "minecraft:filled_map"
+	id: "65BD1F5FCA450972"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Le pack ajoute une dizaine de mods de structures : les villages de &bTowns & Towers&r, les temples, monuments, mines et donjons refaits par &bYUNG's&r, les variantes de &bRepurposed Structures&r, les ruines de &bPhilips&r, les bâtisses de &bMoog's&r, de &bFormations&r et de &bStructory&r. Les coffres sont &lpar joueur&r (Lootr) : ce qu'un autre a pris est encore là pour toi."
+				""
+				"Trois jalons de ce chapitre donnent un tirage dans la table &aExplorateur&r. Les boss et donjons à proprement parler ont leurs propres chapitres."
+			]
+			icon: "minecraft:compass"
+			id: "2688EF613B076FF9"
+			rewards: [
+				{
+					count: 8
+					id: "6CB47C5F43E314A9"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "26187D254A251468"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Guide dans #exploration sur le Discord."
+			tasks: [{
+				id: "2F2C87BE5B2C2515"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&2Un monde à piller"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["N'importe quel village compte : ceux du jeu, ceux de &bTowns & Towers&r (classique, ibérique, méditerranéen, nilotique, rustique, suédois, tudor…), ceux de &bRepurposed Structures&r (bambou, cerisier, marais, champignon, montagne…). Les villages ont des gardes : six par village."]
+			id: "55F7CB144EB0C67A"
+			rewards: [{
+				id: "7B9857115713E064"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "16882C4BB1ED9505"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			title: "Un village"
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["55F7CB144EB0C67A"]
+			description: ["&bTowns & Towers&r remplace les villages par des villes à l'architecture régionale, une par biome, et ajoute un campement de marchand ambulant. Toutes sont activées sur le serveur."]
+			id: "224AABCE67457888"
+			optional: true
+			rewards: [{
+				id: "375E84606C7A2E33"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16C82C8B82BCC810"
+				structure: "#towns_and_towers:town"
+				type: "structure"
+			}]
+			title: "Une ville de Towns & Towers"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55F7CB144EB0C67A"]
+			description: ["&bMoog's Missing Villages&r ajoute les trois villages que le jeu n'avait pas : jungle, forêt sombre, marais. Le livre ne peut pas en viser un seul à la fois : coche quand tu en as vu un. &bMoog's Voyager Structures&r sème aussi, partout, puits, étals, potences, statues et carrioles : du décor à fouiller."]
+			id: "4A5CE956B429209B"
+			optional: true
+			rewards: [{
+				id: "715DCCA70B0492B7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EE06A5FF89CEE8C"
+				title: "Village de jungle, de forêt sombre ou de marais trouvé"
+				type: "checkmark"
+			}]
+			title: "Les villages manquants de Moog's"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55F7CB144EB0C67A"]
+			description: ["Les &cavant-postes de pillards&r sont aussi refaits par Towns & Towers, un par biome, et Repurposed Structures en pose jusque dans la jungle et la mangrove. Cinq pillards tués valident la quête, d'où qu'ils viennent — avant-poste, patrouille ou raid."]
+			icon: "minecraft:pillager_spawn_egg"
+			id: "09F487A786A67A68"
+			rewards: [{
+				id: "126F339EBAE5EE9B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "319723CFD5B6339D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Piller un avant-poste"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["55F7CB144EB0C67A"]
+			description: ["Le manoir des forêts sombres : évocateurs, vindicateurs, et un totem d'immortalité à la clé. Repurposed Structures en fait des variantes en bouleau, désert, jungle, savane, neige et taïga. &aPremier jalon Explorateur.&r"]
+			id: "23F3317759194216"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59B1B085800E6F70"
+				table_id: 2972911916655707281L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DF04D990F0A6D6E"
+				structure: "minecraft:mansion"
+				type: "structure"
+			}]
+			title: "Le manoir des bois"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["09F487A786A67A68"]
+			description: ["Un raid de village, défendu jusqu'au bout. Sur ce serveur, les vagues comptent les illageois d'&bIllager Invasion&r et de &bIt Takes a Pillage&r ; l'&cInvoker&r y participe. Le progrès du jeu valide la quête."]
+			id: "008889543366B530"
+			rewards: [{
+				id: "74C4BC3BC95326DF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.3d
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "028571A902046074"
+				type: "advancement"
+			}]
+			title: "Héros du village"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["09F487A786A67A68"]
+			description: ["Une tour d'&bIllager Invasion&r : l'Illusionniste au sommet, ses copies autour. Le mod a aussi un fort, un labyrinthe et deux huttes de mages."]
+			id: "5040F5C1DDA19FE8"
+			optional: true
+			rewards: [{
+				id: "63221259EE7E3FD5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2EA6E81E93A1BAEF"
+				structure: "illagerinvasion:illusioner_tower"
+				type: "structure"
+			}]
+			title: "La tour de l'Illusionniste"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09F487A786A67A68"]
+			description: ["Le &5Conjurateur&r tient un théâtre dans les forêts de chênes noirs ; il apparaît sur la scène. Illusions, lapins explosifs, cartes : un spectacle qui se termine à l'épée."]
+			id: "1923C4D362B680D8"
+			optional: true
+			rewards: [{
+				id: "0FBB95ED7925DA36"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13E59ACA86AFCE01"
+				structure: "conjurer_illager:theatre"
+				type: "structure"
+			}]
+			title: "Le théâtre du Conjurateur"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["Quatre coffres sous la dalle bleue, et une plaque de pression sur la TNT. Depuis la 1.20, du gravier suspect à brosser dans les recoins."]
+			id: "76E47F9261CA0D7A"
+			rewards: [{
+				id: "532AB02DF35A3600"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "54E0903BC10BFAC0"
+				structure: "minecraft:desert_pyramid"
+				type: "structure"
+			}]
+			title: "Le temple du désert"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["76E47F9261CA0D7A"]
+			description: ["Refait par &bYUNG's Better Jungle Temples&r : plus grand, plus de pièges, des pièces cachées. Des crocodiles d'Alex's Mobs y sont posés."]
+			id: "45AA76AA2751508E"
+			rewards: [{
+				id: "4BF602C6F1CE3BF3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2C0CD0B73EEA43AF"
+				structure: "betterjungletemples:jungle_temple"
+				type: "structure"
+			}]
+			title: "Le temple de la jungle"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["&bYUNG's Better Ocean Monuments&r : des salles nouvelles, des gardiens anciens posés dans ses pièces, des éponges. Prévois la respiration aquatique ou une porte de conduits. &aDeuxième jalon Explorateur.&r"]
+			id: "1224156C11D4975F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BF432D177F1056C"
+				table_id: 2972911916655707281L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07B5C2D0BC1AC39A"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
+			}]
+			title: "Le monument océanique"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["Des ruines enterrées, à fouiller à la brosse : tessons, modèles de forge, et l'œuf de Sniffer dans les ruines océaniques chaudes."]
+			id: "585610CAAF0D2E4C"
+			optional: true
+			rewards: [{
+				id: "5AA6F3C0DCB338A9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D5256D9F7D0558F"
+				structure: "minecraft:trail_ruins"
+				type: "structure"
+			}]
+			title: "Les ruines des sentiers"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["&bYUNG's Better Mineshafts&r : des mines par biome (glace, jungle, désert, champignon, luxuriante…), avec des salles, des wagonnets, et un &7Sous-mineur&r d'Alex's Mobs qui disparaît quand on approche. Repurposed Structures en ajoute dans le bouleau, le marais, l'océan."]
+			id: "3090B61C665E1658"
+			rewards: [{
+				id: "694A37AE52292930"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0061ED81D65EB174"
+				structure: "#minecraft:mineshaft"
+				type: "structure"
+			}]
+			title: "Une mine abandonnée"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3090B61C665E1658"]
+			description: ["&bYUNG's Better Dungeons&r : un donjon de zombies, de squelettes ou d'araignées, à plusieurs étages, avec son générateur. Le petit donjon du jeu existe toujours."]
+			id: "307B66A82DC1B26A"
+			rewards: [{
+				id: "658A63163A07B479"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0C6B1BFC27F2483D"
+				structure: "#betterdungeons:better_dungeons"
+				type: "structure"
+			}]
+			title: "Un donjon"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["Refaite par &bYUNG's&r, avec un cercle de sorcières dans les marais ; Repurposed Structures en met dans le bouleau, la forêt sombre, la mangrove et la taïga. Le chat noir est à la sorcière."]
+			id: "0FA18A2BDD916850"
+			optional: true
+			rewards: [{
+				id: "4E509F5B4AC5B4DD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CE857142E97762B"
+				structure: "betterwitchhuts:witch_hut"
+				type: "structure"
+			}]
+			title: "La cabane de la sorcière"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["&bPhilips Ruins&r pose vingt-neuf sortes de ruines : cryptes, donjons anciens, tours, ruines de champ, de pierre, de citrouilles, forteresse et ruines des océans, cité des âmes perdues… Trop de variantes pour une seule tâche : coche après ta première."]
+			id: "593B815402CBC245"
+			optional: true
+			rewards: [{
+				id: "4404FA2540BCA9B7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D626777ACB135E9"
+				title: "Ruine explorée"
+				type: "checkmark"
+			}]
+			title: "Les ruines de Philips"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["&bStructory&r : un vieux manoir, une chapelle abandonnée, un cimetière, une tour de guet, des ruines de taïga, de jungle et de marais, un campement. Le manoir valide la quête ; &bStructory Towers&r ajoute ses tours."]
+			id: "0D87F11419E01F6C"
+			optional: true
+			rewards: [{
+				id: "76CEFF31CF80D7EC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D9013ACF39C8354"
+				structure: "structory:old_manor"
+				type: "structure"
+			}]
+			title: "Le vieux manoir de Structory"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["&bFormations&r sème trente petites choses : châteaux de glace, météore, trou de hobbit, temple mésoaméricain, cimetière, flèche de cuivre. La tour de la sorcière valide la quête."]
+			id: "58E4DBF3D759767D"
+			optional: true
+			rewards: [{
+				id: "6A8E3EAAA0CD613D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40B2CFCAA84E4207"
+				structure: "formationsoverworld:witch_tower"
+				type: "structure"
+			}]
+			title: "La tour de la sorcière (Formations)"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["&bExplorations&r : une île flottante, un puits oublié, un sanctuaire, une grotte de slimes, un temple souterrain, un campement."]
+			id: "04903112A92CCCCC"
+			optional: true
+			rewards: [{
+				id: "2E5D7099BE4E0B19"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "760092A3A1C335E1"
+				structure: "explorations:floating_island"
+				type: "structure"
+			}]
+			title: "L'île flottante (Explorations)"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["55F7CB144EB0C67A"]
+			description: ["&bRepurposed Structures&r redéploie les structures du jeu là où elles n'allaient pas : un igloo d'herbe, de pierre, de champignon ou de mangrove ; une cabane de sorcière de bouleau ou de taïga ; une &lcité&r de l'Overworld. Les trois valident la quête. &aTroisième jalon Explorateur.&r"]
+			id: "122CA7076E448858"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D1A720625101BAF"
+				table_id: 2972911916655707281L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "76973BEEE7D0C8BC"
+					structure: "#repurposed_structures:collections/igloos"
+					type: "structure"
+				}
+				{
+					id: "2EFB26D2BE9BCA8F"
+					structure: "#repurposed_structures:collections/witch_huts"
+					type: "structure"
+				}
+				{
+					id: "1DFBF153F8034A0D"
+					structure: "repurposed_structures:city_overworld"
+					type: "structure"
+				}
+			]
+			title: "Trois variantes de Repurposed Structures"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["Épaves, ruines océaniques, trésors enfouis : la mer vaut la terre. La carte au trésor des épaves mène à un coffre et un cœur de la mer."]
+			id: "177D819AA207FEBE"
+			optional: true
+			rewards: [{
+				id: "5F28180BB79C2C0A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09765353384893C4"
+				structure: "#minecraft:shipwreck"
+				type: "structure"
+			}]
+			title: "Une épave"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["Un portail à compléter, de l'obsidienne pleurante, un coffre. Vanilla Backport y glisse parfois une pierre d'aimantation."]
+			id: "69E699051785495B"
+			optional: true
+			rewards: [{
+				id: "29500E8AF48EE64E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58C91C7A1410F11B"
+				structure: "#minecraft:ruined_portal"
+				type: "structure"
+			}]
+			title: "Un portail en ruine"
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["Soixante-neuf biomes de &aBiomes O' Plenty&r dans le pack. Cinq à voir de ses yeux : le &dBosquet mystique&r, le &5Champ de lavande&r, la &6Forêt de séquoias&r, le &cVolcan&r, les &bTropiques&r. La boussole de la nature du chapitre Bienvenue les trouve."]
+			id: "4D2CB30D1145BAEB"
+			rewards: [{
+				id: "5F7EF37431134C27"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [
+				{
+					biome: "biomesoplenty:mystic_grove"
+					id: "11337B289E360274"
+					type: "biome"
+				}
+				{
+					biome: "biomesoplenty:lavender_field"
+					id: "24A6870E1BD2C3A3"
+					type: "biome"
+				}
+				{
+					biome: "biomesoplenty:redwood_forest"
+					id: "1E1F06916AC9327B"
+					type: "biome"
+				}
+				{
+					biome: "biomesoplenty:volcano"
+					id: "6EE2DA58739EFD4E"
+					type: "biome"
+				}
+				{
+					biome: "biomesoplenty:tropics"
+					id: "7D3C11245E8568AE"
+					type: "biome"
+				}
+			]
+			title: "Cinq biomes de Biomes O' Plenty"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2688EF613B076FF9"]
+			description: ["&bSerene Seasons&r, réglé sur le serveur : chaque sous-saison dure &l8 jours&r, donc 24 jours par saison et 96 par année, et le temps avance même serveur vide. L'hiver ne pose ni neige ni glace. Les cultures hors saison &lpoussent plus lentement&r, sans mourir ; l'infobulle de chaque graine dit ses saisons. Le &6calendrier&r se fabrique et le verre de serre fait un capteur de saison."]
+			icon: "sereneseasons:calendar"
+			id: "3E43A375BE8BC4EA"
+			rewards: [{
+				id: "4BD188A49E65B6CA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "72681E1B236C0FEE"
+					item: "sereneseasons:calendar"
+					type: "item"
+				}
+				{
+					id: "2963FAA6724E6065"
+					title: "Une saison complète vécue"
+					type: "checkmark"
+				}
+			]
+			title: "Passer une saison"
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"23F3317759194216"
+				"1224156C11D4975F"
+				"122CA7076E448858"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Un jalon suffit à fermer le chapitre. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre &7Lieux&r de l'Encyclopédie listera chaque structure."]
+			icon: "minecraft:spyglass"
+			id: "7B035FE23045D7FC"
+			rewards: [{
+				id: "526042A579B4C95F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2961BC575C50223F"
+				title: "J'ai pillé"
+				type: "checkmark"
+			}]
+			title: "&2La carte est pleine"
+			x: 6.0d
+			y: 0.75d
+		}
+	]
+	title: "&2Overworld — exploration"
+}

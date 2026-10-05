@@ -1195,3 +1195,59 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > L'émetteur sans fil donne une portée au réseau, et la grille sans fil l'ouvre depuis la main, n'importe où dans cette portée. La base entière dans la poche.
 - **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10 — après : controleur, requete, fabricateur
   > Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre Pipez relie tout ça aux machines.
+
+## Overworld — exploration  (`monde_overworld_exploration`, 26 quêtes)
+
+- **Un monde à piller** — tâches : checkmark Lu — récompense : item minecraft:bread 8, item minecraft:torch 16
+  > Le pack ajoute une dizaine de mods de structures : les villages de Towns Towers, les temples, monuments, mines et donjons refaits par YUNG's, les variantes de Repurposed Structures, les ruines de Philips, les bâtisses de Moog's, de Formations et de Structory. Les coffres sont par joueur (Lootr) : ce qu'un autre a pris est encore là pour toi.
+  >   > Trois jalons de ce chapitre donnent un tirage dans la table Explorateur. Les boss et donjons à proprement parler ont leurs propres chapitres.
+- **Un village** — tâches : structure #minecraft:village — récompense : xp 3 — après : intro
+  > N'importe quel village compte : ceux du jeu, ceux de Towns Towers (classique, ibérique, méditerranéen, nilotique, rustique, suédois, tudor…), ceux de Repurposed Structures (bambou, cerisier, marais, champignon, montagne…). Les villages ont des gardes : six par village.
+- **Une ville de Towns Towers** *(optionnelle)* — tâches : structure #towns_and_towers:town — récompense : xp 3 — après : village
+  > Towns Towers remplace les villages par des villes à l'architecture régionale, une par biome, et ajoute un campement de marchand ambulant. Toutes sont activées sur le serveur.
+- **Les villages manquants de Moog's** *(optionnelle)* — tâches : checkmark Village de jungle, de forêt sombre ou de marais trouvé — récompense : xp 2 — après : village
+  > Moog's Missing Villages ajoute les trois villages que le jeu n'avait pas : jungle, forêt sombre, marais. Le livre ne peut pas en viser un seul à la fois : coche quand tu en as vu un. Moog's Voyager Structures sème aussi, partout, puits, étals, potences, statues et carrioles : du décor à fouiller.
+- **Piller un avant-poste** — tâches : kill minecraft:pillager 5 — récompense : xp 5 — après : village
+  > Les avant-postes de pillards sont aussi refaits par Towns Towers, un par biome, et Repurposed Structures en pose jusque dans la jungle et la mangrove. Cinq pillards tués valident la quête, d'où qu'ils viennent — avant-poste, patrouille ou raid.
+- **Le manoir des bois** — tâches : structure minecraft:mansion — récompense : table explorateur — après : village
+  > Le manoir des forêts sombres : évocateurs, vindicateurs, et un totem d'immortalité à la clé. Repurposed Structures en fait des variantes en bouleau, désert, jungle, savane, neige et taïga. Premier jalon Explorateur.
+- **Héros du village** — tâches : advancement minecraft:adventure/hero_of_the_village — récompense : xp 10 — après : avant_poste
+  > Un raid de village, défendu jusqu'au bout. Sur ce serveur, les vagues comptent les illageois d'Illager Invasion et de It Takes a Pillage ; l'Invoker y participe. Le progrès du jeu valide la quête.
+- **La tour de l'Illusionniste** *(optionnelle)* — tâches : structure illagerinvasion:illusioner_tower — récompense : xp 5 — après : avant_poste
+  > Une tour d'Illager Invasion : l'Illusionniste au sommet, ses copies autour. Le mod a aussi un fort, un labyrinthe et deux huttes de mages.
+- **Le théâtre du Conjurateur** *(optionnelle)* — tâches : structure conjurer_illager:theatre — récompense : xp 5 — après : avant_poste
+  > Le Conjurateur tient un théâtre dans les forêts de chênes noirs ; il apparaît sur la scène. Illusions, lapins explosifs, cartes : un spectacle qui se termine à l'épée.
+- **Le temple du désert** — tâches : structure minecraft:desert_pyramid — récompense : xp 3 — après : intro
+  > Quatre coffres sous la dalle bleue, et une plaque de pression sur la TNT. Depuis la 1.20, du gravier suspect à brosser dans les recoins.
+- **Le temple de la jungle** — tâches : structure betterjungletemples:jungle_temple — récompense : xp 5 — après : temple_desert
+  > Refait par YUNG's Better Jungle Temples : plus grand, plus de pièges, des pièces cachées. Des crocodiles d'Alex's Mobs y sont posés.
+- **Le monument océanique** — tâches : structure betteroceanmonuments:ocean_monument — récompense : table explorateur — après : intro
+  > YUNG's Better Ocean Monuments : des salles nouvelles, des gardiens anciens posés dans ses pièces, des éponges. Prévois la respiration aquatique ou une porte de conduits. Deuxième jalon Explorateur.
+- **Les ruines des sentiers** *(optionnelle)* — tâches : structure minecraft:trail_ruins — récompense : xp 3 — après : intro
+  > Des ruines enterrées, à fouiller à la brosse : tessons, modèles de forge, et l'œuf de Sniffer dans les ruines océaniques chaudes.
+- **Une mine abandonnée** — tâches : structure #minecraft:mineshaft — récompense : xp 3 — après : intro
+  > YUNG's Better Mineshafts : des mines par biome (glace, jungle, désert, champignon, luxuriante…), avec des salles, des wagonnets, et un Sous-mineur d'Alex's Mobs qui disparaît quand on approche. Repurposed Structures en ajoute dans le bouleau, le marais, l'océan.
+- **Un donjon** — tâches : structure #betterdungeons:better_dungeons — récompense : xp 5 — après : mine
+  > YUNG's Better Dungeons : un donjon de zombies, de squelettes ou d'araignées, à plusieurs étages, avec son générateur. Le petit donjon du jeu existe toujours.
+- **La cabane de la sorcière** *(optionnelle)* — tâches : structure betterwitchhuts:witch_hut — récompense : xp 3 — après : intro
+  > Refaite par YUNG's, avec un cercle de sorcières dans les marais ; Repurposed Structures en met dans le bouleau, la forêt sombre, la mangrove et la taïga. Le chat noir est à la sorcière.
+- **Les ruines de Philips** *(optionnelle)* — tâches : checkmark Ruine explorée — récompense : xp 3 — après : intro
+  > Philips Ruins pose vingt-neuf sortes de ruines : cryptes, donjons anciens, tours, ruines de champ, de pierre, de citrouilles, forteresse et ruines des océans, cité des âmes perdues… Trop de variantes pour une seule tâche : coche après ta première.
+- **Le vieux manoir de Structory** *(optionnelle)* — tâches : structure structory:old_manor — récompense : xp 3 — après : intro
+  > Structory : un vieux manoir, une chapelle abandonnée, un cimetière, une tour de guet, des ruines de taïga, de jungle et de marais, un campement. Le manoir valide la quête ; Structory Towers ajoute ses tours.
+- **La tour de la sorcière (Formations)** *(optionnelle)* — tâches : structure formationsoverworld:witch_tower — récompense : xp 3 — après : intro
+  > Formations sème trente petites choses : châteaux de glace, météore, trou de hobbit, temple mésoaméricain, cimetière, flèche de cuivre. La tour de la sorcière valide la quête.
+- **L'île flottante (Explorations)** *(optionnelle)* — tâches : structure explorations:floating_island — récompense : xp 3 — après : intro
+  > Explorations : une île flottante, un puits oublié, un sanctuaire, une grotte de slimes, un temple souterrain, un campement.
+- **Trois variantes de Repurposed Structures** *(optionnelle)* — tâches : structure #repurposed_structures:collections/igloos, structure #repurposed_structures:collections/witch_huts, structure repurposed_structures:city_overworld — récompense : table explorateur — après : village
+  > Repurposed Structures redéploie les structures du jeu là où elles n'allaient pas : un igloo d'herbe, de pierre, de champignon ou de mangrove ; une cabane de sorcière de bouleau ou de taïga ; une cité de l'Overworld. Les trois valident la quête. Troisième jalon Explorateur.
+- **Une épave** *(optionnelle)* — tâches : structure #minecraft:shipwreck — récompense : xp 2 — après : intro
+  > Épaves, ruines océaniques, trésors enfouis : la mer vaut la terre. La carte au trésor des épaves mène à un coffre et un cœur de la mer.
+- **Un portail en ruine** *(optionnelle)* — tâches : structure #minecraft:ruined_portal — récompense : xp 2 — après : intro
+  > Un portail à compléter, de l'obsidienne pleurante, un coffre. Vanilla Backport y glisse parfois une pierre d'aimantation.
+- **Cinq biomes de Biomes O' Plenty** — tâches : biome biomesoplenty:mystic_grove, biome biomesoplenty:lavender_field, biome biomesoplenty:redwood_forest, biome biomesoplenty:volcano, biome biomesoplenty:tropics — récompense : xp 8 — après : intro
+  > Soixante-neuf biomes de Biomes O' Plenty dans le pack. Cinq à voir de ses yeux : le Bosquet mystique, le Champ de lavande, la Forêt de séquoias, le Volcan, les Tropiques. La boussole de la nature du chapitre Bienvenue les trouve.
+- **Passer une saison** — tâches : item sereneseasons:calendar, checkmark Une saison complète vécue — récompense : xp 5 — après : intro
+  > Serene Seasons, réglé sur le serveur : chaque sous-saison dure 8 jours, donc 24 jours par saison et 96 par année, et le temps avance même serveur vide. L'hiver ne pose ni neige ni glace. Les cultures hors saison poussent plus lentement, sans mourir ; l'infobulle de chaque graine dit ses saisons. Le calendrier se fabrique et le verre de serre fait un capteur de saison.
+- **La carte est pleine** — tâches : checkmark J'ai pillé — récompense : xp 10 — après : manoir, monument, repurposed
+  > Un jalon suffit à fermer le chapitre. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre Lieux de l'Encyclopédie listera chaque structure.

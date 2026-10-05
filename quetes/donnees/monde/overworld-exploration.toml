@@ -1,0 +1,306 @@
+# Chapitre « Overworld — exploration » — cahier des charges §4.1
+# Sources (5 octobre 2026) : identifiants et balises de structures lus dans
+# les jars de l'instance v61 (data/*/tags/worldgen/structure : #minecraft:village
+# inclut Towns & Towers et Repurposed Structures ; #minecraft:mineshaft inclut
+# YUNG's ; #betterdungeons:better_dungeons ; #towns_and_towers:town ; les
+# collections de Repurposed Structures), configs du serveur
+# (sereneseasons/seasons.toml : sub_season_duration = 8, generate_snow_ice =
+# false ; fertility.toml : seasonal_crops = true, out_of_season_crop_behavior
+# = 0, crop_tooltips = true). Quand une famille n'a ni identifiant unique ni
+# balise (Philips Ruins, Moog's, Formations), la quête est une case à cocher
+# ou vise une structure précise de la famille, et le dit.
+
+[chapitre]
+titre = "&2Overworld — exploration"
+fichier = "monde_overworld_exploration"
+groupe = "monde"
+icone = "minecraft:filled_map"
+ordre = 1
+
+[[quete]]
+cle = "intro"
+titre = "&2Un monde à piller"
+sous_titre = "Guide dans #exploration sur le Discord."
+taille = 1.5
+icone = "minecraft:compass"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:bread 8", "item minecraft:torch 16"]
+description = """
+Le pack ajoute une dizaine de mods de structures : les villages de &bTowns & Towers&r, les temples, monuments, mines et donjons refaits par &bYUNG's&r, les variantes de &bRepurposed Structures&r, les ruines de &bPhilips&r, les bâtisses de &bMoog's&r, de &bFormations&r et de &bStructory&r. Les coffres sont &lpar joueur&r (Lootr) : ce qu'un autre a pris est encore là pour toi.
+
+Trois jalons de ce chapitre donnent un tirage dans la table &aExplorateur&r. Les boss et donjons à proprement parler ont leurs propres chapitres.
+"""
+
+# ---- villages et illageois
+[[quete]]
+cle = "village"
+titre = "Un village"
+deps = ["intro"]
+taches = ["structure #minecraft:village"]
+recompenses = ["xp 3"]
+description = """
+N'importe quel village compte : ceux du jeu, ceux de &bTowns & Towers&r (classique, ibérique, méditerranéen, nilotique, rustique, suédois, tudor…), ceux de &bRepurposed Structures&r (bambou, cerisier, marais, champignon, montagne…). Les villages ont des gardes : six par village.
+"""
+
+[[quete]]
+cle = "towns"
+titre = "Une ville de Towns & Towers"
+deps = ["village"]
+optionnel = true
+taches = ["structure #towns_and_towers:town"]
+recompenses = ["xp 3"]
+description = """
+&bTowns & Towers&r remplace les villages par des villes à l'architecture régionale, une par biome, et ajoute un campement de marchand ambulant. Toutes sont activées sur le serveur.
+"""
+
+[[quete]]
+cle = "moogs"
+titre = "Les villages manquants de Moog's"
+deps = ["village"]
+optionnel = true
+taches = ["checkmark Village de jungle, de forêt sombre ou de marais trouvé"]
+recompenses = ["xp 2"]
+description = """
+&bMoog's Missing Villages&r ajoute les trois villages que le jeu n'avait pas : jungle, forêt sombre, marais. Le livre ne peut pas en viser un seul à la fois : coche quand tu en as vu un. &bMoog's Voyager Structures&r sème aussi, partout, puits, étals, potences, statues et carrioles : du décor à fouiller.
+"""
+
+[[quete]]
+cle = "avant_poste"
+titre = "Piller un avant-poste"
+deps = ["village"]
+taches = ["kill minecraft:pillager 5"]
+recompenses = ["xp 5"]
+description = """
+Les &cavant-postes de pillards&r sont aussi refaits par Towns & Towers, un par biome, et Repurposed Structures en pose jusque dans la jungle et la mangrove. Cinq pillards tués valident la quête, d'où qu'ils viennent — avant-poste, patrouille ou raid.
+"""
+
+[[quete]]
+cle = "manoir"
+titre = "Le manoir des bois"
+deps = ["village"]
+taches = ["structure minecraft:mansion"]
+recompenses = ["table explorateur"]
+description = """
+Le manoir des forêts sombres : évocateurs, vindicateurs, et un totem d'immortalité à la clé. Repurposed Structures en fait des variantes en bouleau, désert, jungle, savane, neige et taïga. &aPremier jalon Explorateur.&r
+"""
+
+[[quete]]
+cle = "heros"
+titre = "Héros du village"
+deps = ["avant_poste"]
+taille = 1.3
+taches = ["advancement minecraft:adventure/hero_of_the_village"]
+recompenses = ["xp 10"]
+description = """
+Un raid de village, défendu jusqu'au bout. Sur ce serveur, les vagues comptent les illageois d'&bIllager Invasion&r et de &bIt Takes a Pillage&r ; l'&cInvoker&r y participe. Le progrès du jeu valide la quête.
+"""
+
+[[quete]]
+cle = "tour_illusionniste"
+titre = "La tour de l'Illusionniste"
+deps = ["avant_poste"]
+optionnel = true
+taches = ["structure illagerinvasion:illusioner_tower"]
+recompenses = ["xp 5"]
+description = """
+Une tour d'&bIllager Invasion&r : l'Illusionniste au sommet, ses copies autour. Le mod a aussi un fort, un labyrinthe et deux huttes de mages.
+"""
+
+[[quete]]
+cle = "theatre"
+titre = "Le théâtre du Conjurateur"
+deps = ["avant_poste"]
+optionnel = true
+taches = ["structure conjurer_illager:theatre"]
+recompenses = ["xp 5"]
+description = """
+Le &5Conjurateur&r tient un théâtre dans les forêts de chênes noirs ; il apparaît sur la scène. Illusions, lapins explosifs, cartes : un spectacle qui se termine à l'épée.
+"""
+
+# ---- temples et monuments
+[[quete]]
+cle = "temple_desert"
+titre = "Le temple du désert"
+deps = ["intro"]
+taches = ["structure minecraft:desert_pyramid"]
+recompenses = ["xp 3"]
+description = """
+Quatre coffres sous la dalle bleue, et une plaque de pression sur la TNT. Depuis la 1.20, du gravier suspect à brosser dans les recoins.
+"""
+
+[[quete]]
+cle = "temple_jungle"
+titre = "Le temple de la jungle"
+deps = ["temple_desert"]
+taches = ["structure betterjungletemples:jungle_temple"]
+recompenses = ["xp 5"]
+description = """
+Refait par &bYUNG's Better Jungle Temples&r : plus grand, plus de pièges, des pièces cachées. Des crocodiles d'Alex's Mobs y sont posés.
+"""
+
+[[quete]]
+cle = "monument"
+titre = "Le monument océanique"
+deps = ["intro"]
+taches = ["structure betteroceanmonuments:ocean_monument"]
+recompenses = ["table explorateur"]
+description = """
+&bYUNG's Better Ocean Monuments&r : des salles nouvelles, des gardiens anciens posés dans ses pièces, des éponges. Prévois la respiration aquatique ou une porte de conduits. &aDeuxième jalon Explorateur.&r
+"""
+
+[[quete]]
+cle = "ruines_sentier"
+titre = "Les ruines des sentiers"
+deps = ["intro"]
+optionnel = true
+taches = ["structure minecraft:trail_ruins"]
+recompenses = ["xp 3"]
+description = """
+Des ruines enterrées, à fouiller à la brosse : tessons, modèles de forge, et l'œuf de Sniffer dans les ruines océaniques chaudes.
+"""
+
+# ---- souterrains
+[[quete]]
+cle = "mine"
+titre = "Une mine abandonnée"
+deps = ["intro"]
+taches = ["structure #minecraft:mineshaft"]
+recompenses = ["xp 3"]
+description = """
+&bYUNG's Better Mineshafts&r : des mines par biome (glace, jungle, désert, champignon, luxuriante…), avec des salles, des wagonnets, et un &7Sous-mineur&r d'Alex's Mobs qui disparaît quand on approche. Repurposed Structures en ajoute dans le bouleau, le marais, l'océan.
+"""
+
+[[quete]]
+cle = "donjon"
+titre = "Un donjon"
+deps = ["mine"]
+taches = ["structure #betterdungeons:better_dungeons"]
+recompenses = ["xp 5"]
+description = """
+&bYUNG's Better Dungeons&r : un donjon de zombies, de squelettes ou d'araignées, à plusieurs étages, avec son générateur. Le petit donjon du jeu existe toujours.
+"""
+
+[[quete]]
+cle = "sorciere"
+titre = "La cabane de la sorcière"
+deps = ["intro"]
+optionnel = true
+taches = ["structure betterwitchhuts:witch_hut"]
+recompenses = ["xp 3"]
+description = """
+Refaite par &bYUNG's&r, avec un cercle de sorcières dans les marais ; Repurposed Structures en met dans le bouleau, la forêt sombre, la mangrove et la taïga. Le chat noir est à la sorcière.
+"""
+
+# ---- ruines et bâtisses
+[[quete]]
+cle = "philips"
+titre = "Les ruines de Philips"
+deps = ["intro"]
+optionnel = true
+taches = ["checkmark Ruine explorée"]
+recompenses = ["xp 3"]
+description = """
+&bPhilips Ruins&r pose vingt-neuf sortes de ruines : cryptes, donjons anciens, tours, ruines de champ, de pierre, de citrouilles, forteresse et ruines des océans, cité des âmes perdues… Trop de variantes pour une seule tâche : coche après ta première.
+"""
+
+[[quete]]
+cle = "structory"
+titre = "Le vieux manoir de Structory"
+deps = ["intro"]
+optionnel = true
+taches = ["structure structory:old_manor"]
+recompenses = ["xp 3"]
+description = """
+&bStructory&r : un vieux manoir, une chapelle abandonnée, un cimetière, une tour de guet, des ruines de taïga, de jungle et de marais, un campement. Le manoir valide la quête ; &bStructory Towers&r ajoute ses tours.
+"""
+
+[[quete]]
+cle = "formations"
+titre = "La tour de la sorcière (Formations)"
+deps = ["intro"]
+optionnel = true
+taches = ["structure formationsoverworld:witch_tower"]
+recompenses = ["xp 3"]
+description = """
+&bFormations&r sème trente petites choses : châteaux de glace, météore, trou de hobbit, temple mésoaméricain, cimetière, flèche de cuivre. La tour de la sorcière valide la quête.
+"""
+
+[[quete]]
+cle = "ile_flottante"
+titre = "L'île flottante (Explorations)"
+deps = ["intro"]
+optionnel = true
+taches = ["structure explorations:floating_island"]
+recompenses = ["xp 3"]
+description = """
+&bExplorations&r : une île flottante, un puits oublié, un sanctuaire, une grotte de slimes, un temple souterrain, un campement.
+"""
+
+[[quete]]
+cle = "repurposed"
+titre = "Trois variantes de Repurposed Structures"
+deps = ["village"]
+optionnel = true
+taches = ["structure #repurposed_structures:collections/igloos", "structure #repurposed_structures:collections/witch_huts", "structure repurposed_structures:city_overworld"]
+recompenses = ["table explorateur"]
+description = """
+&bRepurposed Structures&r redéploie les structures du jeu là où elles n'allaient pas : un igloo d'herbe, de pierre, de champignon ou de mangrove ; une cabane de sorcière de bouleau ou de taïga ; une &lcité&r de l'Overworld. Les trois valident la quête. &aTroisième jalon Explorateur.&r
+"""
+
+# ---- mer
+[[quete]]
+cle = "epave"
+titre = "Une épave"
+deps = ["intro"]
+optionnel = true
+taches = ["structure #minecraft:shipwreck"]
+recompenses = ["xp 2"]
+description = """
+Épaves, ruines océaniques, trésors enfouis : la mer vaut la terre. La carte au trésor des épaves mène à un coffre et un cœur de la mer.
+"""
+
+[[quete]]
+cle = "portail_ruine"
+titre = "Un portail en ruine"
+deps = ["intro"]
+optionnel = true
+taches = ["structure #minecraft:ruined_portal"]
+recompenses = ["xp 2"]
+description = """
+Un portail à compléter, de l'obsidienne pleurante, un coffre. Vanilla Backport y glisse parfois une pierre d'aimantation.
+"""
+
+# ---- biomes et saisons
+[[quete]]
+cle = "bop"
+titre = "Cinq biomes de Biomes O' Plenty"
+deps = ["intro"]
+taille = 1.3
+taches = ["biome biomesoplenty:mystic_grove", "biome biomesoplenty:lavender_field", "biome biomesoplenty:redwood_forest", "biome biomesoplenty:volcano", "biome biomesoplenty:tropics"]
+recompenses = ["xp 8"]
+description = """
+Soixante-neuf biomes de &aBiomes O' Plenty&r dans le pack. Cinq à voir de ses yeux : le &dBosquet mystique&r, le &5Champ de lavande&r, la &6Forêt de séquoias&r, le &cVolcan&r, les &bTropiques&r. La boussole de la nature du chapitre Bienvenue les trouve.
+"""
+
+[[quete]]
+cle = "saisons"
+titre = "Passer une saison"
+deps = ["intro"]
+taches = ["item sereneseasons:calendar", "checkmark Une saison complète vécue"]
+recompenses = ["xp 5"]
+description = """
+&bSerene Seasons&r, réglé sur le serveur : chaque sous-saison dure &l8 jours&r, donc 24 jours par saison et 96 par année, et le temps avance même serveur vide. L'hiver ne pose ni neige ni glace. Les cultures hors saison &lpoussent plus lentement&r, sans mourir ; l'infobulle de chaque graine dit ses saisons. Le &6calendrier&r se fabrique et le verre de serre fait un capteur de saison.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&2La carte est pleine"
+deps = ["manoir", "monument", "repurposed"]
+exigence = "une"
+taille = 1.5
+icone = "minecraft:spyglass"
+taches = ["checkmark J'ai pillé"]
+recompenses = ["xp 10"]
+description = """
+Un jalon suffit à fermer le chapitre. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre &7Lieux&r de l'Encyclopédie listera chaque structure.
+"""
