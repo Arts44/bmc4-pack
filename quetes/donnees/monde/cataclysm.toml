@@ -1,0 +1,253 @@
+# Chapitre « Cataclysm » — cahier des charges §4.10
+# Sources (5 octobre 2026) : index du jar L_Enders_Cataclysm-3.31 (structures,
+# entités, progrès find_* et kill_*, recettes des yeux, des lingots ignitium
+# et cursium et de leurs armures), balises cataclysm:eye_of_*_located (quel
+# œil mène à quelle structure), infobulles des objets (en_us.json),
+# cataclysm.toml du serveur (multiplicateurs de vie et de dégâts à 1,0,
+# armures à durabilité infinie, boss qui se réinvoquent : Monstrosité,
+# Gardien, Harbinger, Remnant, Scylla ; Léviathan immunisé hors de l'eau ;
+# tables de butin des boss (data/cataclysm/loot_tables/entities). Scylla est
+# bien dans la 3.31.
+
+[chapitre]
+titre = "&4Cataclysm"
+fichier = "monde_cataclysm"
+groupe = "monde"
+icone = "cataclysm:void_eye"
+ordre = 10
+
+[[quete]]
+cle = "intro"
+titre = "&4Huit boss, huit structures"
+sous_titre = "Guide dans #cataclysm sur le Discord."
+taille = 1.5
+icone = "cataclysm:flame_eye"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:golden_apple 2"]
+description = """
+&4L'Ender's Cataclysm&r pose huit boss, chacun dans sa structure, et un &lœil&r qui y mène : il se fabrique, et il tourne dans la main comme un œil de l'Ender. Chaque boss lâche de quoi fabriquer un équipement. Sur ce serveur, les boss sont à leur force d'origine, leurs armures ont une &ldurabilité infinie&r, et cinq d'entre eux se réinvoquent dans leur arène (config).
+"""
+
+# ---- Ignis
+[[quete]]
+cle = "arene"
+titre = "L'Arène ardente"
+deps = ["intro"]
+taches = ["structure cataclysm:burning_arena"]
+recompenses = ["xp 5"]
+description = """
+L'&cŒil de flamme&r y mène. Des revenants et berserkers enflammés gardent l'arène ; &cIgnis&r attend à l'autel de feu.
+"""
+
+[[quete]]
+cle = "ignis"
+titre = "&cVaincre Ignis"
+deps = ["arene"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement cataclysm:kill_ignis"]
+recompenses = ["xp 25"]
+description = """
+Un chevalier de feu, invoqué à l'autel. Il lâche le &clingot d'ignitium&r et son disque (table de butin) ; le Rempart de la flamme et l'Incinérateur se fabriquent avec. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "ignitium"
+titre = "L'armure d'ignitium"
+deps = ["ignis"]
+taches = ["item cataclysm:ignitium_helmet"]
+recompenses = ["xp 10"]
+description = """
+Un modèle de forge d'ignitium sur un équipement de nétherite. Casque : regard de chaleur ; plastron : combinable avec des élytres ; jambières : réflexe de flamme ; bottes : marche sur la lave (infobulles du mod).
+"""
+
+# ---- Netherite Monstrosity
+[[quete]]
+cle = "forge_ames"
+titre = "La forge des âmes"
+deps = ["intro"]
+taches = ["structure cataclysm:soul_black_smith"]
+recompenses = ["xp 5"]
+description = """
+L'&8Œil du monstrueux&r y mène, dans le Nether. La &8Monstruosité de nétherite&r dort dans la forge.
+"""
+
+[[quete]]
+cle = "monstruosite"
+titre = "&8Vaincre la Monstruosité de nétherite"
+deps = ["forge_ames"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement cataclysm:kill_monstrosity"]
+recompenses = ["xp 25"]
+description = """
+Elle lâche la Forge infernale (une pioche qui frappe en zone), une cellule de lave et sa corne monstrueuse (table de butin). Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Ender Guardian
+[[quete]]
+cle = "citadelle"
+titre = "La citadelle en ruine"
+deps = ["intro"]
+taches = ["structure cataclysm:ruined_citadel"]
+recompenses = ["xp 5"]
+description = """
+L'&5Œil du vide&r y mène, dans l'End. Des golems de l'Ender et des endermapteras ; le &5Gardien de l'Ender&r au centre.
+"""
+
+[[quete]]
+cle = "gardien"
+titre = "&5Vaincre le Gardien de l'Ender"
+deps = ["citadelle"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement cataclysm:kill_ender_guardian"]
+recompenses = ["xp 25"]
+description = """
+Il lâche le Gantelet de garde, qui attire les entités (table de butin, infobulle). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Harbinger
+[[quete]]
+cle = "usine"
+titre = "L'usine ancienne"
+deps = ["intro"]
+taches = ["structure cataclysm:ancient_factory"]
+recompenses = ["xp 5"]
+description = """
+L'&7Œil mécanique&r y mène. Des Rôdeurs mécaniques, des Veilleurs, et le &7Harbinger&r.
+"""
+
+[[quete]]
+cle = "harbinger"
+titre = "&7Vaincre le Harbinger"
+deps = ["usine"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement cataclysm:kill_harbinger"]
+recompenses = ["xp 25"]
+description = """
+Le progrès dit : le réveiller et le vaincre. Il lâche un bloc de &7witherite&r (table de butin) ; l'arme d'épaule d'assaut du Wither et le Gatling laser (rechargé à la redstone) s'en fabriquent. Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Leviathan
+[[quete]]
+cle = "cite_engloutie"
+titre = "La cité engloutie"
+deps = ["intro"]
+taches = ["structure cataclysm:sunken_city"]
+recompenses = ["xp 5"]
+description = """
+L'&3Œil de l'abîme&r y mène, sous l'océan. Deeplings, golems de corail, et le &3Léviathan&r au fond.
+"""
+
+[[quete]]
+cle = "leviathan"
+titre = "&3Vaincre le Léviathan"
+deps = ["cite_engloutie"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement cataclysm:kill_leviathan"]
+recompenses = ["xp 30"]
+description = """
+Il est &limmunisé hors de l'eau&r (config du serveur) : le combat se fait en plongée. Il lâche les Griffes de marée et un œuf abyssal (table de butin). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Ancient Remnant
+[[quete]]
+cle = "pyramide"
+titre = "La pyramide maudite"
+deps = ["intro"]
+taches = ["structure cataclysm:cursed_pyramid"]
+recompenses = ["xp 5"]
+description = """
+L'&6Œil du désert&r y mène. Koboletons, Kobolédiateur, Wadjet, et le &6Vestige ancien&r.
+"""
+
+[[quete]]
+cle = "remnant"
+titre = "&6Vaincre le Vestige ancien"
+deps = ["pyramide"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement cataclysm:kill_remnant"]
+recompenses = ["xp 25"]
+description = """
+Le progrès dit : fouiller le sable suspect de la pyramide pour le réveiller. Il lâche son crâne, du métal ancien et une tempête de sable en bouteille (table de butin). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+# ---- Maledictus
+[[quete]]
+cle = "prison"
+titre = "La prison givrée"
+deps = ["intro"]
+taches = ["structure cataclysm:frosted_prison"]
+recompenses = ["xp 5"]
+description = """
+L'&bŒil de la malédiction&r y mène. Draugrs, draugrs royaux, Aptrgangr, et &bMaledictus&r.
+"""
+
+[[quete]]
+cle = "maledictus"
+titre = "&bVaincre Maledictus"
+deps = ["prison"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement cataclysm:kill_maledictus"]
+recompenses = ["xp 30"]
+description = """
+Invoqué dans la prison. Il lâche le &blingot de cursium&r (table de butin) ; l'Arc maudit et ses trois flèches fantômes s'en fabriquent. Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "cursium"
+titre = "L'armure de cursium"
+deps = ["maledictus"]
+taches = ["item cataclysm:cursium_helmet"]
+recompenses = ["xp 10"]
+description = """
+Modèle de forge de cursium sur de la nétherite. Casque : vision fantôme ; plastron : résurrection mort-vivante ; jambières : esquive fantôme ; bottes : apesanteur fantôme (infobulles du mod).
+"""
+
+# ---- Scylla
+[[quete]]
+cle = "acropole"
+titre = "L'acropole"
+deps = ["intro"]
+taches = ["structure cataclysm:acropolis"]
+recompenses = ["xp 5"]
+description = """
+L'&9Œil de la tempête&r y mène. Clawdian, Cindaria, Hippocamtus, Urchinkin, et &9Scylla&r, qui change le temps quand elle se bat (config du serveur).
+"""
+
+[[quete]]
+cle = "scylla"
+titre = "&9Vaincre Scylla"
+deps = ["acropole"]
+boss = true
+forme = "diamond"
+taille = 1.5
+taches = ["advancement cataclysm:kill_scylla"]
+recompenses = ["xp 30"]
+description = """
+L'impératrice des tempêtes (titre du progrès). Elle lâche l'essence de la tempête et la lacrima (table de butin) ; Ceraunus, l'ancre qui se lance, et Astrape, la lance d'éclair, s'en fabriquent. Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "tous"
+titre = "&4Tous les boss de Cataclysm"
+deps = ["ignis", "monstruosite", "gardien", "harbinger", "leviathan", "remnant", "maledictus", "scylla"]
+taille = 1.5
+icone = "cataclysm:witherite_ingot"
+taches = ["advancement cataclysm:kill_all_bosses"]
+recompenses = ["xp 50"]
+description = """
+Le progrès du mod pour les huit, « Cataclysmfarer ». Le Clawdian, le Golem de l'Ender et le Revenant enflammé ont leurs progrès à part.
+"""

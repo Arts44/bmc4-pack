@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_cataclysm"
+	group: "17185D2694D86048"
+	icon: "cataclysm:void_eye"
+	id: "2BCC3D3961E5DC10"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&4L'Ender's Cataclysm&r pose huit boss, chacun dans sa structure, et un &lœil&r qui y mène : il se fabrique, et il tourne dans la main comme un œil de l'Ender. Chaque boss lâche de quoi fabriquer un équipement. Sur ce serveur, les boss sont à leur force d'origine, leurs armures ont une &ldurabilité infinie&r, et cinq d'entre eux se réinvoquent dans leur arène (config)."]
+			icon: "cataclysm:flame_eye"
+			id: "66980A0A39E081A1"
+			rewards: [{
+				count: 2
+				id: "29296AA900B7C76D"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #cataclysm sur le Discord."
+			tasks: [{
+				id: "617BA536088E895A"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&4Huit boss, huit structures"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66980A0A39E081A1"]
+			description: ["L'&cŒil de flamme&r y mène. Des revenants et berserkers enflammés gardent l'arène ; &cIgnis&r attend à l'autel de feu."]
+			id: "1D0CBBA7C01EC2EA"
+			rewards: [{
+				id: "506F7922DD704156"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "470F657FA2E72F8B"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			title: "L'Arène ardente"
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1D0CBBA7C01EC2EA"]
+			description: ["Un chevalier de feu, invoqué à l'autel. Il lâche le &clingot d'ignitium&r et son disque (table de butin) ; le Rempart de la flamme et l'Incinérateur se fabriquent avec. Sa mort est annoncée dans #faits-d-armes."]
+			id: "74EFB4ECCBE9F293"
+			rewards: [{
+				id: "36B633F507BD63D3"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "7BDA4D709EDC1A0D"
+				type: "advancement"
+			}]
+			title: "&cVaincre Ignis"
+			x: 4.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["74EFB4ECCBE9F293"]
+			description: ["Un modèle de forge d'ignitium sur un équipement de nétherite. Casque : regard de chaleur ; plastron : combinable avec des élytres ; jambières : réflexe de flamme ; bottes : marche sur la lave (infobulles du mod)."]
+			icon: "cataclysm:ignitium_helmet"
+			id: "1131733DAF511FEC"
+			rewards: [{
+				id: "369CF79B64E238BB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "59C8DD2E15F20782"
+				item: "cataclysm:ignitium_helmet"
+				type: "item"
+			}]
+			title: "L'armure d'ignitium"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66980A0A39E081A1"]
+			description: ["L'&8Œil du monstrueux&r y mène, dans le Nether. La &8Monstruosité de nétherite&r dort dans la forge."]
+			id: "6B7FABCDB7B6181E"
+			rewards: [{
+				id: "233AB8EE63105E03"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "42133CA3C1F1C233"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "La forge des âmes"
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6B7FABCDB7B6181E"]
+			description: ["Elle lâche la Forge infernale (une pioche qui frappe en zone), une cellule de lave et sa corne monstrueuse (table de butin). Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes."]
+			id: "1CCF7C7C6309E7F1"
+			rewards: [{
+				id: "09D31C4D58CAD4BE"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "21F898864BDD4A1A"
+				type: "advancement"
+			}]
+			title: "&8Vaincre la Monstruosité de nétherite"
+			x: 4.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["66980A0A39E081A1"]
+			description: ["L'&5Œil du vide&r y mène, dans l'End. Des golems de l'Ender et des endermapteras ; le &5Gardien de l'Ender&r au centre."]
+			id: "3E3019B1E6667A11"
+			rewards: [{
+				id: "634778ED9D43C683"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1377EC77A3BCBBF7"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			title: "La citadelle en ruine"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3E3019B1E6667A11"]
+			description: ["Il lâche le Gantelet de garde, qui attire les entités (table de butin, infobulle). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes."]
+			id: "41770722691919B0"
+			rewards: [{
+				id: "600FCA1F35A006CE"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "219BE7D5844C74FA"
+				type: "advancement"
+			}]
+			title: "&5Vaincre le Gardien de l'Ender"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["66980A0A39E081A1"]
+			description: ["L'&7Œil mécanique&r y mène. Des Rôdeurs mécaniques, des Veilleurs, et le &7Harbinger&r."]
+			id: "20C71F4E3FB1E969"
+			rewards: [{
+				id: "3A75B13204022939"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0AA7811B8758A2AB"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "L'usine ancienne"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["20C71F4E3FB1E969"]
+			description: ["Le progrès dit : le réveiller et le vaincre. Il lâche un bloc de &7witherite&r (table de butin) ; l'arme d'épaule d'assaut du Wither et le Gatling laser (rechargé à la redstone) s'en fabriquent. Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes."]
+			id: "2C43F99DA069D2C2"
+			rewards: [{
+				id: "6D7EB4BBDB28EFB8"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "4B50DBD07ED8D5BD"
+				type: "advancement"
+			}]
+			title: "&7Vaincre le Harbinger"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["66980A0A39E081A1"]
+			description: ["L'&3Œil de l'abîme&r y mène, sous l'océan. Deeplings, golems de corail, et le &3Léviathan&r au fond."]
+			id: "711D3A3F85598C0E"
+			rewards: [{
+				id: "366F218F3F47D7F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4369419CFAE7B7E5"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "La cité engloutie"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["711D3A3F85598C0E"]
+			description: ["Il est &limmunisé hors de l'eau&r (config du serveur) : le combat se fait en plongée. Il lâche les Griffes de marée et un œuf abyssal (table de butin). Sa mort est annoncée dans #faits-d-armes."]
+			id: "38041052F06CD388"
+			rewards: [{
+				id: "1FAB0BAA51D81337"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "7A96DADD907ADF38"
+				type: "advancement"
+			}]
+			title: "&3Vaincre le Léviathan"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["66980A0A39E081A1"]
+			description: ["L'&6Œil du désert&r y mène. Koboletons, Kobolédiateur, Wadjet, et le &6Vestige ancien&r."]
+			id: "703A7A087EB52E86"
+			rewards: [{
+				id: "6E167406AA4CF948"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "30897764A4207CB5"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			title: "La pyramide maudite"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["703A7A087EB52E86"]
+			description: ["Le progrès dit : fouiller le sable suspect de la pyramide pour le réveiller. Il lâche son crâne, du métal ancien et une tempête de sable en bouteille (table de butin). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes."]
+			id: "7CE0D149B44CBA4E"
+			rewards: [{
+				id: "3DE2992BB2CD3759"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "35AD6174FC047535"
+				type: "advancement"
+			}]
+			title: "&6Vaincre le Vestige ancien"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["66980A0A39E081A1"]
+			description: ["L'&bŒil de la malédiction&r y mène. Draugrs, draugrs royaux, Aptrgangr, et &bMaledictus&r."]
+			id: "3FC9C0F129213B85"
+			rewards: [{
+				id: "6018D1605F66D6D7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6646D9C8B644404E"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			title: "La prison givrée"
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3FC9C0F129213B85"]
+			description: ["Invoqué dans la prison. Il lâche le &blingot de cursium&r (table de butin) ; l'Arc maudit et ses trois flèches fantômes s'en fabriquent. Sa mort est annoncée dans #faits-d-armes."]
+			id: "3AEABA01CB116BC7"
+			rewards: [{
+				id: "040606FD5C17A6CC"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "182F214126B8ECD7"
+				type: "advancement"
+			}]
+			title: "&bVaincre Maledictus"
+			x: 4.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3AEABA01CB116BC7"]
+			description: ["Modèle de forge de cursium sur de la nétherite. Casque : vision fantôme ; plastron : résurrection mort-vivante ; jambières : esquive fantôme ; bottes : apesanteur fantôme (infobulles du mod)."]
+			icon: "cataclysm:cursium_helmet"
+			id: "7ECC0CD6208F9CDD"
+			rewards: [{
+				id: "7161ACA466C85FD5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "2027D6ABEF9E8ABE"
+				item: "cataclysm:cursium_helmet"
+				type: "item"
+			}]
+			title: "L'armure de cursium"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66980A0A39E081A1"]
+			description: ["L'&9Œil de la tempête&r y mène. Clawdian, Cindaria, Hippocamtus, Urchinkin, et &9Scylla&r, qui change le temps quand elle se bat (config du serveur)."]
+			id: "54CDD4F43E585B43"
+			rewards: [{
+				id: "72529A7EE62B006F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1F8A8D56B0D783AC"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			title: "L'acropole"
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["54CDD4F43E585B43"]
+			description: ["L'impératrice des tempêtes (titre du progrès). Elle lâche l'essence de la tempête et la lacrima (table de butin) ; Ceraunus, l'ancre qui se lance, et Astrape, la lance d'éclair, s'en fabriquent. Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes."]
+			id: "2F128C64B2DD7470"
+			rewards: [{
+				id: "6DDA00CBF55BA0E7"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				id: "3539EC2F208680C7"
+				type: "advancement"
+			}]
+			title: "&9Vaincre Scylla"
+			x: 4.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"74EFB4ECCBE9F293"
+				"1CCF7C7C6309E7F1"
+				"41770722691919B0"
+				"2C43F99DA069D2C2"
+				"38041052F06CD388"
+				"7CE0D149B44CBA4E"
+				"3AEABA01CB116BC7"
+				"2F128C64B2DD7470"
+			]
+			description: ["Le progrès du mod pour les huit, « Cataclysmfarer ». Le Clawdian, le Golem de l'Ender et le Revenant enflammé ont leurs progrès à part."]
+			icon: "cataclysm:witherite_ingot"
+			id: "11D977677D020E8B"
+			rewards: [{
+				id: "5AA433476158C2AC"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				id: "785A402A712F39F1"
+				type: "advancement"
+			}]
+			title: "&4Tous les boss de Cataclysm"
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+	title: "&4Cataclysm"
+}
