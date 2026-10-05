@@ -262,6 +262,55 @@ description = """
 Le &7boîtier d'andésite&r se fait en frappant une bûche écorcée avec de l'alliage. Il encase les arbres et les engrenages, et entre dans la plupart des machines de ce chapitre.
 """
 
+# ---- Paliers complets (BMC-89, 5 octobre 2026) : progrès du jar
+# create-1.20.1-6.0.8 (data/create/advancements, textes en_us) ; un progrès
+# remplace une case à cocher dès qu'il existe.
+[[quete]]
+cle = "compactage"
+titre = "Compacter à la presse"
+deps = ["presse", "bassin"]
+optionnel = true
+taches = ["advancement create:compacting"]
+recompenses = ["xp 4"]
+description = """
+Une presse au-dessus d'un bassin réduit beaucoup d'objets en peu (progrès « Compactification »).
+"""
+
+[[quete]]
+cle = "ventilation"
+titre = "Traiter au ventilateur"
+deps = ["ventilateur"]
+optionnel = true
+taches = ["advancement create:fan_processing"]
+recompenses = ["xp 4"]
+description = """
+Lavage, fumage, hantise, fonte : le ventilateur traite les objets qui passent dans son flux (progrès « Processing by Particle »).
+"""
+
+[[quete]]
+cle = "concasseur_max"
+titre = "&6Des roues de concassage à pleine vitesse"
+deps = ["concasseur"]
+optionnel = true
+forme = "diamond"
+taches = ["advancement create:crusher_maxed_0000"]
+recompenses = ["xp 10"]
+description = """
+Une paire de roues de concassage à la vitesse maximale (progrès « Crushing It »). Il faut une source de rotation à la hauteur.
+"""
+
+[[quete]]
+cle = "moulin_max"
+titre = "&6Un moulin à vent au maximum"
+deps = ["moulin"]
+optionnel = true
+forme = "diamond"
+taches = ["advancement create:windmill_maxed"]
+recompenses = ["xp 10"]
+description = """
+Un moulin à vent à la force maximale (progrès « A strong Breeze ») : autant de voiles que le roulement en accepte.
+"""
+
 [[quete]]
 cle = "fin"
 titre = "&bPremière chaîne de production"
