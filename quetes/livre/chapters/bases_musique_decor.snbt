@@ -1,0 +1,486 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bases_musique_decor"
+	group: "00400F52F527AA36"
+	icon: "minecraft:jukebox"
+	id: "46A6B257ED41DB8B"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Les disques et où ils se trouvent, les têtes, les bannières. Le chapitre &7Construction&r des mods a le reste."]
+			icon: "minecraft:music_disc_cat"
+			id: "0B4AF3604335D847"
+			rewards: [{
+				count: 8
+				id: "5C25238C81F537D0"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "523483B6A02FF5D9"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&eDe quoi habiller la base"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B4AF3604335D847"]
+			description: ["Planches et un diamant. Il alimente un comparateur selon le disque."]
+			icon: "minecraft:jukebox"
+			id: "33CEA05FC2149AFC"
+			rewards: [{
+				id: "0E5D213F2BF0245E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "33C36B9BC6F12BA0"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			title: "Un juke-box"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["33CEA05FC2149AFC"]
+			description: ["Dans les coffres des donjons et des manoirs."]
+			icon: "minecraft:music_disc_cat"
+			id: "691A30CCD1EA3F7B"
+			rewards: [{
+				id: "06036E077E84B520"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "2319A2F04400A18D"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "0F843761B0B8D572"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+			]
+			title: "Cat et 13"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["33CEA05FC2149AFC"]
+			description: ["Un creeper tué par la flèche d'un squelette lâche un disque. Blocks, chirp, far, mall, mellohi, stal, strad, ward, wait, 11 : tous viennent de là."]
+			icon: "minecraft:music_disc_blocks"
+			id: "0BD2FC761E892301"
+			rewards: [{
+				id: "411A843CFEA5A5E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "7A399DF7ED75E703"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+				{
+					id: "04CBF170861F32D5"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					id: "7274C8EAA388A3E7"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+			]
+			title: "Le creeper et le squelette"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0BD2FC761E892301"]
+			icon: "minecraft:music_disc_mall"
+			id: "7C007DD6E9D2D6CB"
+			optional: true
+			rewards: [{
+				id: "55D5CD898F3D985A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "49956BADC086A126"
+					item: "minecraft:music_disc_mall"
+					type: "item"
+				}
+				{
+					id: "3B6849F075307ABB"
+					item: "minecraft:music_disc_mellohi"
+					type: "item"
+				}
+				{
+					id: "2A48A614D5B6E708"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					id: "022E2DC3B3F6AE6D"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+			]
+			title: "Mall, mellohi, stal, strad"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BD2FC761E892301"]
+			icon: "minecraft:music_disc_ward"
+			id: "7C23498879B65475"
+			optional: true
+			rewards: [{
+				id: "3DD296A43C6F10F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0C2E9DD3784E33BD"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					id: "7180157EA9155CAB"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					id: "4543715452EC3F27"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+			]
+			title: "Ward, wait, 11"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33CEA05FC2149AFC"]
+			description: ["Dans les coffres des bastions."]
+			icon: "minecraft:music_disc_pigstep"
+			id: "5617736F647B0275"
+			optional: true
+			rewards: [{
+				id: "786EC4756FCDC802"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12F8DE5EBF97A6D0"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			title: "Pigstep"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33CEA05FC2149AFC"]
+			description: ["Dans les forteresses de l'End et, rarement, les donjons."]
+			icon: "minecraft:music_disc_otherside"
+			id: "7A6DF11552027ED4"
+			optional: true
+			rewards: [{
+				id: "7CF9925390562D3C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77A5909793F31A52"
+				item: "minecraft:music_disc_otherside"
+				type: "item"
+			}]
+			title: "Otherside"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33CEA05FC2149AFC"]
+			description: ["Neuf fragments des cités anciennes, assemblés."]
+			icon: "minecraft:music_disc_5"
+			id: "558F9B85B9D4E15D"
+			optional: true
+			rewards: [{
+				id: "7808CED9D5EA50E8"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "175C6AC8470BF7E7"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			title: "5"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33CEA05FC2149AFC"]
+			description: ["Au pinceau, dans le gravier des ruines de sentier."]
+			icon: "minecraft:music_disc_relic"
+			id: "660FAA765ADD5DAB"
+			optional: true
+			rewards: [{
+				id: "7AE3D75B948D9349"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5713CD8A8F35F303"
+				item: "minecraft:music_disc_relic"
+				type: "item"
+			}]
+			title: "Relic"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33CEA05FC2149AFC"]
+			description: ["Un disque joué dans une prairie d'altitude (progrès vanilla)."]
+			id: "12045D6F78BB3753"
+			optional: true
+			rewards: [{
+				id: "1CB902CE2ACC4FFB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/play_jukebox_in_meadows"
+				criterion: ""
+				id: "482DF16D5DF4E8CE"
+				type: "advancement"
+			}]
+			title: "Sons de l'été"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0B4AF3604335D847"]
+			description: ["Le bloc dessous choisit l'instrument ; une tête dessus choisit le cri de la créature."]
+			icon: "minecraft:note_block"
+			id: "0DF7973C7408FB74"
+			optional: true
+			rewards: [{
+				id: "2D0BF408BFF60DCD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "4E15051CB1EDF336"
+				item: "minecraft:note_block"
+				type: "item"
+			}]
+			title: "Un bloc de note"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B4AF3604335D847"]
+			description: ["Un creeper chargé (foudre, ou paratonnerre et trident Canalisation) qui explose près d'un zombie, d'un squelette, d'un creeper ou d'un piglin laisse sa tête. Le squelette du Wither la lâche parfois seul ; le dragon en a une sur la proue des vaisseaux de l'End."]
+			icon: "minecraft:zombie_head"
+			id: "01CBFCFEE093FB0E"
+			optional: true
+			rewards: [{
+				id: "4255704AE53E01B4"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "40A819B65FAC0C55"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					id: "066B5F61E44BB0C1"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "61D17AF99B6533BE"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+			]
+			title: "Des têtes"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B4AF3604335D847"]
+			description: ["Six laines et un bâton. Le &lmétier à tisser&r y pose jusqu'à six couches de motifs, teinture par teinture."]
+			icon: "minecraft:loom"
+			id: "1668CCFE69C3DAAD"
+			rewards: [{
+				id: "29965EC6A143B02A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "5EEF10E10CE9CF4A"
+					item: "minecraft:loom"
+					type: "item"
+				}
+				{
+					id: "2E0E72FCD78BA4E6"
+					item: "minecraft:white_banner"
+					type: "item"
+				}
+			]
+			title: "Une bannière"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1668CCFE69C3DAAD"]
+			description: ["Creeper (tête de creeper), crâne (crâne de Wither), fleur (marguerite), Mojang (pomme dorée enchantée). Le globe vient du cartographe, le groin de piglin des bastions. La Twilight Forest ajoute un motif par boss."]
+			icon: "minecraft:creeper_banner_pattern"
+			id: "6DC6F01097BD2932"
+			optional: true
+			rewards: [{
+				id: "6D30DC52D18C27DF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2C0EEFB137136A57"
+					item: "minecraft:creeper_banner_pattern"
+					type: "item"
+				}
+				{
+					id: "5E0361683D6CCCC5"
+					item: "minecraft:skull_banner_pattern"
+					type: "item"
+				}
+				{
+					id: "09017E493A8375A4"
+					item: "minecraft:flower_banner_pattern"
+					type: "item"
+				}
+				{
+					id: "1CDA4323C7CEECC4"
+					item: "minecraft:mojang_banner_pattern"
+					type: "item"
+				}
+			]
+			title: "Les motifs à objet"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1668CCFE69C3DAAD"]
+			description: ["Sur le capitaine d'un avant-poste. La ramasser donne Mauvais présage : un raid au prochain village. Ne pas la rapporter au Marché."]
+			id: "1CEA27E5828EC9D8"
+			optional: true
+			rewards: [{
+				id: "49A529006410D911"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C44A28B93E5EC81"
+				title: "Capitaine abattu"
+				type: "checkmark"
+			}]
+			title: "La bannière sinistre"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0B4AF3604335D847"]
+			description: ["Six livres rangés, et un comparateur qui lit le dernier (progrès vanilla)."]
+			id: "33F54F3FF5703FB4"
+			optional: true
+			rewards: [{
+				id: "0FD6F5828C474BC9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/read_power_of_chiseled_bookshelf"
+				criterion: ""
+				id: "4702E3E224E9EDF3"
+				type: "advancement"
+			}]
+			title: "Une étagère sculptée"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B4AF3604335D847"]
+			description: ["Un sac d'encre lumineuse sur un panneau (progrès vanilla)."]
+			id: "3BF8170D5F6A127E"
+			optional: true
+			rewards: [{
+				id: "2D87A83BA722745E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/make_a_sign_glow"
+				criterion: ""
+				id: "2043906229661BAD"
+				type: "advancement"
+			}]
+			title: "Un panneau lumineux"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"691A30CCD1EA3F7B"
+				"1668CCFE69C3DAAD"
+			]
+			icon: "minecraft:painting"
+			id: "768F39381E9290A9"
+			rewards: [{
+				id: "64B5845E50ED6C1C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "60F9B4464B1C6D67"
+				title: "Décorateur"
+				type: "checkmark"
+			}]
+			title: "&eDécorateur"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&eMusique et décor"
+}

@@ -1,0 +1,211 @@
+# Chapitre « Musique et décor » — cahier des charges §9.1.7
+# R0. Seize disques vanilla et leur source (jeu de base), juke-box,
+# têtes, bannières et motifs (six objets de motif vanilla), progrès
+# play_jukebox_in_meadows, read_power_of_chiseled_bookshelf,
+# make_a_sign_glow. Le défi Collectionneur demande tous les disques.
+
+[chapitre]
+titre = "&eMusique et décor"
+fichier = "bases_musique_decor"
+groupe = "bases"
+icone = "minecraft:jukebox"
+ordre = 7
+
+[[quete]]
+cle = "intro"
+titre = "&eDe quoi habiller la base"
+taille = 1.5
+icone = "minecraft:music_disc_cat"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:white_wool 8"]
+description = """
+Les disques et où ils se trouvent, les têtes, les bannières. Le chapitre &7Construction&r des mods a le reste.
+"""
+
+[[quete]]
+cle = "jukebox"
+titre = "Un juke-box"
+deps = ["intro"]
+taches = ["item minecraft:jukebox"]
+recompenses = ["xp 2"]
+description = """
+Planches et un diamant. Il alimente un comparateur selon le disque.
+"""
+
+[[quete]]
+cle = "coffres"
+titre = "Cat et 13"
+deps = ["jukebox"]
+taches = ["item minecraft:music_disc_cat", "item minecraft:music_disc_13"]
+recompenses = ["xp 3"]
+description = """
+Dans les coffres des donjons et des manoirs.
+"""
+
+[[quete]]
+cle = "creeper"
+titre = "Le creeper et le squelette"
+deps = ["jukebox"]
+taches = ["item minecraft:music_disc_blocks", "item minecraft:music_disc_chirp", "item minecraft:music_disc_far"]
+recompenses = ["xp 5"]
+description = """
+Un creeper tué par la flèche d'un squelette lâche un disque. Blocks, chirp, far, mall, mellohi, stal, strad, ward, wait, 11 : tous viennent de là.
+"""
+
+[[quete]]
+cle = "creeper_suite"
+titre = "Mall, mellohi, stal, strad"
+deps = ["creeper"]
+optionnel = true
+taches = ["item minecraft:music_disc_mall", "item minecraft:music_disc_mellohi", "item minecraft:music_disc_stal", "item minecraft:music_disc_strad"]
+recompenses = ["xp 5"]
+
+[[quete]]
+cle = "creeper_fin"
+titre = "Ward, wait, 11"
+deps = ["creeper"]
+optionnel = true
+taches = ["item minecraft:music_disc_ward", "item minecraft:music_disc_wait", "item minecraft:music_disc_11"]
+recompenses = ["xp 5"]
+
+[[quete]]
+cle = "pigstep"
+titre = "Pigstep"
+deps = ["jukebox"]
+optionnel = true
+taches = ["item minecraft:music_disc_pigstep"]
+recompenses = ["xp 5"]
+description = """
+Dans les coffres des bastions.
+"""
+
+[[quete]]
+cle = "otherside"
+titre = "Otherside"
+deps = ["jukebox"]
+optionnel = true
+taches = ["item minecraft:music_disc_otherside"]
+recompenses = ["xp 5"]
+description = """
+Dans les forteresses de l'End et, rarement, les donjons.
+"""
+
+[[quete]]
+cle = "cinq"
+titre = "5"
+deps = ["jukebox"]
+optionnel = true
+taches = ["item minecraft:music_disc_5"]
+recompenses = ["xp 8"]
+description = """
+Neuf fragments des cités anciennes, assemblés.
+"""
+
+[[quete]]
+cle = "relic"
+titre = "Relic"
+deps = ["jukebox"]
+optionnel = true
+taches = ["item minecraft:music_disc_relic"]
+recompenses = ["xp 5"]
+description = """
+Au pinceau, dans le gravier des ruines de sentier.
+"""
+
+[[quete]]
+cle = "pres"
+titre = "Sons de l'été"
+deps = ["jukebox"]
+optionnel = true
+taches = ["advancement minecraft:adventure/play_jukebox_in_meadows"]
+recompenses = ["xp 3"]
+description = """
+Un disque joué dans une prairie d'altitude (progrès vanilla).
+"""
+
+[[quete]]
+cle = "bloc_note"
+titre = "Un bloc de note"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:note_block 4"]
+recompenses = ["xp 2"]
+description = """
+Le bloc dessous choisit l'instrument ; une tête dessus choisit le cri de la créature.
+"""
+
+# ---- têtes
+[[quete]]
+cle = "tetes"
+titre = "Des têtes"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:zombie_head", "item minecraft:skeleton_skull", "item minecraft:creeper_head"]
+recompenses = ["xp 8"]
+description = """
+Un creeper chargé (foudre, ou paratonnerre et trident Canalisation) qui explose près d'un zombie, d'un squelette, d'un creeper ou d'un piglin laisse sa tête. Le squelette du Wither la lâche parfois seul ; le dragon en a une sur la proue des vaisseaux de l'End.
+"""
+
+# ---- bannières
+[[quete]]
+cle = "banniere"
+titre = "Une bannière"
+deps = ["intro"]
+taches = ["item minecraft:loom", "item minecraft:white_banner"]
+recompenses = ["xp 2"]
+description = """
+Six laines et un bâton. Le &lmétier à tisser&r y pose jusqu'à six couches de motifs, teinture par teinture.
+"""
+
+[[quete]]
+cle = "motifs"
+titre = "Les motifs à objet"
+deps = ["banniere"]
+optionnel = true
+taches = ["item minecraft:creeper_banner_pattern", "item minecraft:skull_banner_pattern", "item minecraft:flower_banner_pattern", "item minecraft:mojang_banner_pattern"]
+recompenses = ["xp 5"]
+description = """
+Creeper (tête de creeper), crâne (crâne de Wither), fleur (marguerite), Mojang (pomme dorée enchantée). Le globe vient du cartographe, le groin de piglin des bastions. La Twilight Forest ajoute un motif par boss.
+"""
+
+[[quete]]
+cle = "banniere_sinistre"
+titre = "La bannière sinistre"
+deps = ["banniere"]
+optionnel = true
+taches = ["checkmark Capitaine abattu"]
+recompenses = ["xp 3"]
+description = """
+Sur le capitaine d'un avant-poste. La ramasser donne Mauvais présage : un raid au prochain village. Ne pas la rapporter au Marché.
+"""
+
+[[quete]]
+cle = "etagere"
+titre = "Une étagère sculptée"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement minecraft:adventure/read_power_of_chiseled_bookshelf"]
+recompenses = ["xp 3"]
+description = """
+Six livres rangés, et un comparateur qui lit le dernier (progrès vanilla).
+"""
+
+[[quete]]
+cle = "panneau"
+titre = "Un panneau lumineux"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement minecraft:husbandry/make_a_sign_glow"]
+recompenses = ["xp 2"]
+description = """
+Un sac d'encre lumineuse sur un panneau (progrès vanilla).
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&eDécorateur"
+deps = ["coffres", "banniere"]
+taille = 1.3
+icone = "minecraft:painting"
+taches = ["checkmark Décorateur"]
+recompenses = ["xp 5"]
