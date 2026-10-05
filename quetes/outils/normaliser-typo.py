@@ -25,7 +25,7 @@ NBSP = ' '
 CLES_INTOUCHEES = re.compile(r'^\s*(cle|fichier|groupe|icone|deps|recompenses|ordre|taille|forme|pos|exigence|optionnel|boss|repetable|delai_s|racine|doublon_voulu|kit_voulu|cache_avant|grille|lignes_cachees|apparition|titre_court)\s*=')
 
 
-NOMS_PROPRES = ('Aether: Treasure Reforging', 'Dragon Mounts: Legacy', 'CC: Tweaked', 'Snow! Real Magic!')
+NOMS_PROPRES = ('Aether: Treasure Reforging', 'Aether: Protect Your Moa', 'Dragon Mounts: Legacy', 'CC: Tweaked', 'Snow! Real Magic!')
 
 
 def normaliser_ligne(l):

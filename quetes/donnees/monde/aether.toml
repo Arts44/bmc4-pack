@@ -417,6 +417,76 @@ description = """
 Un anneau d'or jeté dans la lave du Nether : le progrès « Cast It into the Fire ! Destroy It ! ».
 """
 
+# Aether: Protect Your Moa 1.0.0 : six recettes du jar, un palier par
+# matériau (cinq unités du matériau et un cuir ; balise aether:processed/gravitite
+# = gravitite enchantée).
+[[quete]]
+cle = "moa_cuir"
+titre = "Une armure de moa en cuir"
+deps = ["incuber"]
+optionnel = true
+taches = ["item aether_protect_your_moa:leather_moa_armor"]
+recompenses = ["xp 5"]
+description = """
+&bAether: Protect Your Moa&r habille enfin les moas. Six cuirs : l'armure de moa en cuir. Le palier suivant passe au fer.
+"""
+
+[[quete]]
+cle = "moa_fer"
+titre = "Une armure de moa en fer"
+deps = ["moa_cuir"]
+optionnel = true
+taches = ["item aether_protect_your_moa:iron_moa_armor"]
+recompenses = ["xp 7"]
+description = """
+Cinq lingots de fer et un cuir : l'armure de moa en fer. Le palier suivant passe au or.
+"""
+
+[[quete]]
+cle = "moa_or"
+titre = "Une armure de moa en or"
+deps = ["moa_fer"]
+optionnel = true
+taches = ["item aether_protect_your_moa:golden_moa_armor"]
+recompenses = ["xp 9"]
+description = """
+Cinq lingots d'or et un cuir : l'armure de moa en or. Le palier suivant passe au zanite.
+"""
+
+[[quete]]
+cle = "moa_zanite"
+titre = "Une armure de moa en zanite"
+deps = ["moa_or"]
+optionnel = true
+taches = ["item aether_protect_your_moa:zanite_moa_armor"]
+recompenses = ["xp 11"]
+description = """
+Cinq gemmes de zanite et un cuir : l'armure de moa en zanite. Le palier suivant passe au diamant.
+"""
+
+[[quete]]
+cle = "moa_diamant"
+titre = "Une armure de moa en diamant"
+deps = ["moa_zanite"]
+optionnel = true
+taches = ["item aether_protect_your_moa:diamond_moa_armor"]
+recompenses = ["xp 13"]
+description = """
+Cinq diamants et un cuir : l'armure de moa en diamant. Le palier suivant passe au gravitite.
+"""
+
+[[quete]]
+cle = "moa_gravitite"
+titre = "&bUne armure de moa en gravitite"
+deps = ["moa_diamant"]
+optionnel = true
+forme = "diamond"
+taches = ["item aether_protect_your_moa:gravitite_moa_armor"]
+recompenses = ["xp 15"]
+description = """
+Cinq gravitites enchantées et un cuir : l'armure de moa en gravitite. C'est la plus haute des six.
+"""
+
 # ---- Lost Aether Content, villages, forge
 [[quete]]
 cle = "platine"
