@@ -11,7 +11,8 @@
 # <race> [pseudo] [dimension] » : le bot vérifie l'œuf, le retire et fait
 # apparaître le dragon), dragonloot-common du serveur (3 écailles garanties
 # sur l'Ender Dragon + 2 tirages par joueur à 80 %, enclume sans plafond),
-# progrès dragonloot:dragon_armor.
+# progrès dragonloot:dragon_armor ; datapack bmc4-fixes (load.mcfunction : équipe
+# bmc4_dragons, friendlyFire false ; tick.mcfunction : tout dragon y entre).
 
 [chapitre]
 titre = "&5Les dragons"
@@ -63,7 +64,7 @@ deps = ["eclosion"]
 taches = ["item minecraft:saddle"]
 recompenses = ["xp 5"]
 description = """
-Le bébé se nourrit et grandit ; adulte, une &lselle&r (chapitre &aAgriculture&r des bases) et il se monte.
+Le bébé se nourrit et grandit ; adulte, une &lselle&r (chapitre &aAgriculture&r des bases) et il se monte. Tous les dragons du serveur sont dans une même équipe sans tir allié (datapack du serveur) : le souffle d'un dragon ne lance plus de bagarre avec un autre.
 """
 
 [[quete]]
