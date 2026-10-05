@@ -1,0 +1,1399 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Structures — donjons, villes et tours"
+fichier = "enc_structures_donjons_villages"
+groupe = "encyclopedie"
+icone = "minecraft:bell"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Structures — donjons, villes et tours"
+taille = 1.5
+icone = "minecraft:bell"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+"""
+
+[[quete]]
+cle = "dungeons_arise_abandoned_temple"
+titre = "Visiter : « Abandoned temple »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:abandoned_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_aviary"
+titre = "Visiter : « Aviary »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:aviary"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_bandit_towers"
+titre = "Visiter : « Bandit towers »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:bandit_towers"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_bandit_village"
+titre = "Visiter : « Bandit village »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:bandit_village"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_bathhouse"
+titre = "Visiter : « Bathhouse »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:bathhouse"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_ceryneian_hind"
+titre = "Visiter : « Ceryneian hind »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:ceryneian_hind"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_coliseum"
+titre = "Visiter : « Coliseum »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:coliseum"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_fishing_hut"
+titre = "Visiter : « Fishing hut »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:fishing_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_giant_mushroom"
+titre = "Visiter : « Giant mushroom »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:giant_mushroom"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_greenwood_pub"
+titre = "Visiter : « Greenwood pub »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:greenwood_pub"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_illager_campsite"
+titre = "Visiter : « Illager campsite »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:illager_campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Hauts plateaux, Prairie, Plaines, Plaines de tournesols, Forêt venteuse et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_illager_corsair"
+titre = "Visiter : « Illager corsair »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:illager_corsair"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_illager_fort"
+titre = "Visiter : « Illager fort »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:illager_fort"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_illager_galley"
+titre = "Visiter : « Illager galley »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:illager_galley"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_illager_windmill"
+titre = "Visiter : « Illager windmill »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:illager_windmill"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_infested_temple"
+titre = "Visiter : « Infested temple »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:infested_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_jungle_tree_house"
+titre = "Visiter : « Jungle tree house »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:jungle_tree_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_keep_kayra"
+titre = "Visiter : « Keep kayra »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:keep_kayra"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Marais à mangroves, Marais (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_lighthouse"
+titre = "Visiter : « Lighthouse »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:lighthouse"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plaines, Plage enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_merchant_campsite"
+titre = "Visiter : « Merchant campsite »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:merchant_campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_mining_system"
+titre = "Visiter : « Mining system »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:mining_system"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_monastery"
+titre = "Visiter : « Monastery »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:monastery"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_mushroom_house"
+titre = "Visiter : « Mushroom house »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:mushroom_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_mushroom_mines"
+titre = "Visiter : « Mushroom mines »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:mushroom_mines"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_mushroom_village"
+titre = "Visiter : « Mushroom village »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:mushroom_village"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_plague_asylum"
+titre = "Visiter : « Plague asylum »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:plague_asylum"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_scorched_mines"
+titre = "Visiter : « Scorched mines »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:scorched_mines"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_shiraz_palace"
+titre = "Visiter : « Shiraz palace »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:shiraz_palace"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_thornborn_towers"
+titre = "Visiter : « Thornborn towers »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:thornborn_towers"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_typhon"
+titre = "Visiter : « Typhon »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:typhon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_undead_pirate_ship"
+titre = "Visiter : « Undead pirate ship »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:undead_pirate_ship"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "dungeons_arise_wishing_well"
+titre = "Visiter : « Wishing well »"
+sous_titre = "When Dungeons Arise"
+optionnel = true
+taches = ["structure dungeons_arise:wishing_well"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_abandoned_camp"
+titre = "Visiter : « Abandoned camp »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:abandoned_camp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_abandoned_chapel"
+titre = "Visiter : « Abandoned chapel »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:abandoned_chapel"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_boat"
+titre = "Visiter : « Boat »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:boat"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Océan froid, Océan froid profond, Océan tiède profond, Océan profond, Océan tiède et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_dense_forest_ruin"
+titre = "Visiter : « Dense forest ruin »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:dense_forest_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_firetower"
+titre = "Visiter : « Firetower »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:firetower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_graveyard"
+titre = "Visiter : « Graveyard »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:graveyard"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_jungle_ruin"
+titre = "Visiter : « Jungle ruin »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:jungle_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_northern_ruin"
+titre = "Visiter : « Northern ruin »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:northern_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Plaines, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_old_manor"
+titre = "Visiter : « Old manor »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:old_manor"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_outcast_villager_desert"
+titre = "Visiter : « Outcast villager desert »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:outcast_villager_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_outcast_villager_grassy"
+titre = "Visiter : « Outcast villager grassy »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:outcast_villager_grassy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_ruin_grassy"
+titre = "Visiter : « Ruin grassy »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:ruin_grassy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_swamp_ruin"
+titre = "Visiter : « Swamp ruin »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:swamp_ruin"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_taiga_ruin_surface"
+titre = "Visiter : « Taiga ruin surface »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:taiga_ruin_surface"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_taiga_ruin_underground"
+titre = "Visiter : « Taiga ruin underground »"
+sous_titre = "Structory"
+optionnel = true
+taches = ["structure structory:taiga_ruin_underground"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_ancient_temple"
+titre = "Visiter : « Ancient temple »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:ancient_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_end_end_tower"
+titre = "Visiter : « End tower »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:end/end_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_engineer_tower"
+titre = "Visiter : « Engineer tower »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:engineer_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_farmer_outpost"
+titre = "Visiter : « Farmer outpost »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:farmer_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Forêt fleurie, Forêt, Prairie, Plaines, Savane et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_foraging_outpost"
+titre = "Visiter : « Foraging outpost »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:foraging_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_great_toadstool"
+titre = "Visiter : « Great toadstool »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:great_toadstool"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Forêt sombre, Champs de champignons (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_lighthouse"
+titre = "Visiter : « Lighthouse »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:lighthouse"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Plage (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_mirage_outpost"
+titre = "Visiter : « Mirage outpost »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:mirage_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_nether_fortress_tower"
+titre = "Visiter : « Fortress tower »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:nether/fortress_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_nether_strange_outpost"
+titre = "Visiter : « Strange outpost »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:nether/strange_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_nether_warped_outpost"
+titre = "Visiter : « Warped outpost »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:nether/warped_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_nomad_outpost"
+titre = "Visiter : « Nomad outpost »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:nomad_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Badlands, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_ocean_pillar"
+titre = "Visiter : « Ocean pillar »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:ocean_pillar"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Océan froid, Océan tiède, Océan, Océan chaud (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_overgrown_mangrove"
+titre = "Visiter : « Overgrown mangrove »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:overgrown_mangrove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_pillager_lookout"
+titre = "Visiter : « Pillager lookout »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:pillager_lookout"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Plaines (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_quarter_outpost"
+titre = "Visiter : « Quarter outpost »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:quarter_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Jungle de bambous, Jungle (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_sacred_relic_temple"
+titre = "Visiter : « Sacred relic temple »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:sacred_relic_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Jungle clairsemée (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_small_firetower"
+titre = "Visiter : « Small firetower »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:small_firetower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_taiga_outpost"
+titre = "Visiter : « Taiga outpost »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:taiga_outpost"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Bosquet, Taïga enneigée, Taïga (données du serveur).
+"""
+
+[[quete]]
+cle = "structory_towers_warped_greatsword"
+titre = "Visiter : « Warped greatsword »"
+sous_titre = "Structory Towers"
+optionnel = true
+taches = ["structure structory_towers:warped_greatsword"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bStructory Towers&r. Se génère dans : Hauts plateaux, Forêt venteuse, Collines graveleuses venteuses, Collines venteuses, Savane venteuse (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_pillager_outpost_classic"
+titre = "Visiter : « Pillager outpost classic »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/pillager_outpost_classic"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Vallée originelle (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_pillager_outpost_iberian"
+titre = "Visiter : « Pillager outpost iberian »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/pillager_outpost_iberian"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Savane luxuriante (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_pillager_outpost_mediterranean"
+titre = "Visiter : « Pillager outpost mediterranean »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/pillager_outpost_mediterranean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt méditerranéenne, Fruticée rocailleuse, Brousse, Fruticée (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_pillager_outpost_oriental"
+titre = "Visiter : « Pillager outpost oriental »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/pillager_outpost_oriental"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Désert luxuriant (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_pillager_outpost_rustic"
+titre = "Visiter : « Pillager outpost rustic »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/pillager_outpost_rustic"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt saisonnière (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_pillager_outpost_swedish"
+titre = "Visiter : « Pillager outpost swedish »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/pillager_outpost_swedish"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Clairière de pins (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_pillager_outpost_tudor"
+titre = "Visiter : « Pillager outpost tudor »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/pillager_outpost_tudor"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Hauts plateaux (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_village_classic"
+titre = "Visiter : « Village classic »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/village_classic"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Vallée originelle (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_village_iberian"
+titre = "Visiter : « Village iberian »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/village_iberian"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Savane luxuriante (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_village_mediterranean"
+titre = "Visiter : « Village mediterranean »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/village_mediterranean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt méditerranéenne, Fruticée rocailleuse, Brousse, Fruticée (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_village_rustic"
+titre = "Visiter : « Village rustic »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/village_rustic"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt saisonnière (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_village_swedish"
+titre = "Visiter : « Village swedish »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/village_swedish"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Clairière de pins (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_village_tudor"
+titre = "Visiter : « Village tudor »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/village_tudor"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Hauts plateaux (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_exclusives_village_wandering_trader_camp"
+titre = "Visiter : « Village wandering trader camp »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:exclusives/village_wandering_trader_camp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Désert luxuriant (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_mimic_desert"
+titre = "Visiter : « Mimic desert »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:mimic_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_badlands"
+titre = "Visiter : « Pillager outpost badlands »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_badlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Badlands (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_beach"
+titre = "Visiter : « Pillager outpost beach »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_beach"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Plage de dunes, Plage (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_birch_forest"
+titre = "Visiter : « Pillager outpost birch forest »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_birch_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_desert"
+titre = "Visiter : « Pillager outpost desert »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_flower_forest"
+titre = "Visiter : « Pillager outpost flower forest »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_flower_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Bosquet de cerisiers, Forêt fleurie (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_forest"
+titre = "Visiter : « Pillager outpost forest »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt ancienne, Bois, Forêt (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_grove"
+titre = "Visiter : « Pillager outpost grove »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_grove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Bosquet (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_jungle"
+titre = "Visiter : « Pillager outpost jungle »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt tropicale, Forêt tropicale rocailleuse, Jungle (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_meadow"
+titre = "Visiter : « Pillager outpost meadow »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_meadow"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Champ, Prairie (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_mushroom_fields"
+titre = "Visiter : « Pillager outpost mushroom fields »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_mushroom_fields"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Champs de champignons (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_ocean"
+titre = "Visiter : « Pillager outpost ocean »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_old_growth_taiga"
+titre = "Visiter : « Pillager outpost old growth taiga »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_old_growth_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_savanna"
+titre = "Visiter : « Pillager outpost savanna »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_savanna"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Savane (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_savanna_plateau"
+titre = "Visiter : « Pillager outpost savanna plateau »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_savanna_plateau"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Plateau de savane (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_snowy_beach"
+titre = "Visiter : « Pillager outpost snowy beach »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_snowy_beach"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Plage enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_snowy_plains"
+titre = "Visiter : « Pillager outpost snowy plains »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_snowy_plains"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Désert froid, Fondrière, Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_snowy_slopes"
+titre = "Visiter : « Pillager outpost snowy slopes »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_snowy_slopes"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Pentes enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_snowy_taiga"
+titre = "Visiter : « Pillager outpost snowy taiga »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_snowy_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Taïga enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_sparse_jungle"
+titre = "Visiter : « Pillager outpost sparse jungle »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_sparse_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Plaine inondable, Tropiques, Jungle clairsemée (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_sunflower_plains"
+titre = "Visiter : « Pillager outpost sunflower plains »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_sunflower_plains"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Pâturage, Parcelle de citrouilles, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_swamp"
+titre = "Visiter : « Pillager outpost swamp »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_swamp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Marécages, Marais (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_taiga"
+titre = "Visiter : « Pillager outpost taiga »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt de conifères, Escarpée, Clairière de pins, Taïga (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_pillager_outpost_wooded_badlands"
+titre = "Visiter : « Pillager outpost wooded badlands »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:pillager_outpost_wooded_badlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_badlands"
+titre = "Visiter : « Village badlands »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_badlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Badlands (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_beach"
+titre = "Visiter : « Village beach »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_beach"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Plage de dunes, Plage (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_birch_forest"
+titre = "Visiter : « Village birch forest »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_birch_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_flower_forest"
+titre = "Visiter : « Village flower forest »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_flower_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Bosquet de cerisiers, Forêt fleurie (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_forest"
+titre = "Visiter : « Village forest »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt ancienne, Bois, Forêt (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_grove"
+titre = "Visiter : « Village grove »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_grove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Bosquet (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_jungle"
+titre = "Visiter : « Village jungle »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Forêt tropicale, Forêt tropicale rocailleuse, Jungle (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_meadow"
+titre = "Visiter : « Village meadow »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_meadow"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Champ, Prairie (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_mushroom_fields"
+titre = "Visiter : « Village mushroom fields »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_mushroom_fields"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Champs de champignons (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_ocean"
+titre = "Visiter : « Village ocean »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_old_growth_taiga"
+titre = "Visiter : « Village old growth taiga »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_old_growth_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_savanna_plateau"
+titre = "Visiter : « Village savanna plateau »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_savanna_plateau"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Plateau de savane (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_snowy_slopes"
+titre = "Visiter : « Village snowy slopes »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_snowy_slopes"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Pentes enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_snowy_taiga"
+titre = "Visiter : « Village snowy taiga »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_snowy_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Taïga enneigée (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_sparse_jungle"
+titre = "Visiter : « Village sparse jungle »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_sparse_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Plaine inondable, Tropiques, Jungle clairsemée (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_sunflower_plains"
+titre = "Visiter : « Village sunflower plains »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_sunflower_plains"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Pâturage, Parcelle de citrouilles, Plaines de tournesols (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_swamp"
+titre = "Visiter : « Village swamp »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_swamp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Marécages, Marais (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_village_wooded_badlands"
+titre = "Visiter : « Village wooded badlands »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:village_wooded_badlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "towns_and_towers_wreckage_ocean"
+titre = "Visiter : « Wreckage ocean »"
+sous_titre = "Towns and Towers"
+optionnel = true
+taches = ["structure towns_and_towers:wreckage_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTowns and Towers&r. Se génère dans : Océan froid, Océan tiède, Océan, Océan chaud (données du serveur).
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:filled_map"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["dungeons_arise_abandoned_temple", "dungeons_arise_aviary", "dungeons_arise_bandit_towers", "dungeons_arise_bandit_village", "dungeons_arise_bathhouse", "dungeons_arise_ceryneian_hind", "dungeons_arise_coliseum", "dungeons_arise_fishing_hut", "dungeons_arise_giant_mushroom", "dungeons_arise_greenwood_pub", "dungeons_arise_illager_campsite", "dungeons_arise_illager_corsair", "dungeons_arise_illager_fort", "dungeons_arise_illager_galley", "dungeons_arise_illager_windmill", "dungeons_arise_infested_temple", "dungeons_arise_jungle_tree_house", "dungeons_arise_keep_kayra", "dungeons_arise_lighthouse", "dungeons_arise_merchant_campsite", "dungeons_arise_mining_system", "dungeons_arise_monastery", "dungeons_arise_mushroom_house", "dungeons_arise_mushroom_mines", "dungeons_arise_mushroom_village", "dungeons_arise_plague_asylum", "dungeons_arise_scorched_mines", "dungeons_arise_shiraz_palace", "dungeons_arise_thornborn_towers", "dungeons_arise_typhon", "dungeons_arise_undead_pirate_ship", "dungeons_arise_wishing_well", "structory_abandoned_camp", "structory_abandoned_chapel", "structory_boat", "structory_dense_forest_ruin", "structory_firetower", "structory_graveyard", "structory_jungle_ruin", "structory_northern_ruin", "structory_old_manor", "structory_outcast_villager_desert", "structory_outcast_villager_grassy", "structory_ruin_grassy", "structory_swamp_ruin", "structory_taiga_ruin_surface", "structory_taiga_ruin_underground", "structory_towers_ancient_temple", "structory_towers_end_end_tower", "structory_towers_engineer_tower", "structory_towers_farmer_outpost", "structory_towers_foraging_outpost", "structory_towers_great_toadstool", "structory_towers_lighthouse", "structory_towers_mirage_outpost", "structory_towers_nether_fortress_tower", "structory_towers_nether_strange_outpost", "structory_towers_nether_warped_outpost", "structory_towers_nomad_outpost", "structory_towers_ocean_pillar", "structory_towers_overgrown_mangrove", "structory_towers_pillager_lookout", "structory_towers_quarter_outpost", "structory_towers_sacred_relic_temple", "structory_towers_small_firetower", "structory_towers_taiga_outpost", "structory_towers_warped_greatsword", "towns_and_towers_exclusives_pillager_outpost_classic", "towns_and_towers_exclusives_pillager_outpost_iberian", "towns_and_towers_exclusives_pillager_outpost_mediterranean", "towns_and_towers_exclusives_pillager_outpost_oriental", "towns_and_towers_exclusives_pillager_outpost_rustic", "towns_and_towers_exclusives_pillager_outpost_swedish", "towns_and_towers_exclusives_pillager_outpost_tudor", "towns_and_towers_exclusives_village_classic", "towns_and_towers_exclusives_village_iberian", "towns_and_towers_exclusives_village_mediterranean", "towns_and_towers_exclusives_village_rustic", "towns_and_towers_exclusives_village_swedish", "towns_and_towers_exclusives_village_tudor", "towns_and_towers_exclusives_village_wandering_trader_camp", "towns_and_towers_mimic_desert", "towns_and_towers_pillager_outpost_badlands", "towns_and_towers_pillager_outpost_beach", "towns_and_towers_pillager_outpost_birch_forest", "towns_and_towers_pillager_outpost_desert", "towns_and_towers_pillager_outpost_flower_forest", "towns_and_towers_pillager_outpost_forest", "towns_and_towers_pillager_outpost_grove", "towns_and_towers_pillager_outpost_jungle", "towns_and_towers_pillager_outpost_meadow", "towns_and_towers_pillager_outpost_mushroom_fields", "towns_and_towers_pillager_outpost_ocean", "towns_and_towers_pillager_outpost_old_growth_taiga", "towns_and_towers_pillager_outpost_savanna", "towns_and_towers_pillager_outpost_savanna_plateau", "towns_and_towers_pillager_outpost_snowy_beach", "towns_and_towers_pillager_outpost_snowy_plains", "towns_and_towers_pillager_outpost_snowy_slopes", "towns_and_towers_pillager_outpost_snowy_taiga", "towns_and_towers_pillager_outpost_sparse_jungle", "towns_and_towers_pillager_outpost_sunflower_plains", "towns_and_towers_pillager_outpost_swamp", "towns_and_towers_pillager_outpost_taiga", "towns_and_towers_pillager_outpost_wooded_badlands", "towns_and_towers_village_badlands", "towns_and_towers_village_beach", "towns_and_towers_village_birch_forest", "towns_and_towers_village_flower_forest", "towns_and_towers_village_forest", "towns_and_towers_village_grove", "towns_and_towers_village_jungle", "towns_and_towers_village_meadow", "towns_and_towers_village_mushroom_fields", "towns_and_towers_village_ocean", "towns_and_towers_village_old_growth_taiga", "towns_and_towers_village_savanna_plateau", "towns_and_towers_village_snowy_slopes", "towns_and_towers_village_snowy_taiga", "towns_and_towers_village_sparse_jungle", "towns_and_towers_village_sunflower_plains", "towns_and_towers_village_swamp", "towns_and_towers_village_wooded_badlands", "towns_and_towers_wreckage_ocean"]
+description = """
+Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+"""

@@ -1,0 +1,2659 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_structures_donjons_villages"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:bell"
+	id: "1A2A5AB35E10635E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			icon: "minecraft:bell"
+			id: "3DBD27B1C066ABE1"
+			rewards: [{
+				id: "603138F049AB1AD0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4F7B6F40776D09C5"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Structures — donjons, villes et tours"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "7FD76A9215781576"
+			optional: true
+			rewards: [{
+				id: "7BB6BF8921F05B65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "6BACDC7AD0C850FA"
+				structure: "dungeons_arise:abandoned_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Abandoned temple »"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur)."]
+			id: "7642678BD643CA28"
+			optional: true
+			rewards: [{
+				id: "76A29CDD71A34ECB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "6F50896182A2591F"
+				structure: "dungeons_arise:aviary"
+				type: "structure"
+			}]
+			title: "Visiter : « Aviary »"
+			x: 1.5d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "324FCB7AB9759764"
+			optional: true
+			rewards: [{
+				id: "6903196D9D36947B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "647D356978160C31"
+				structure: "dungeons_arise:bandit_towers"
+				type: "structure"
+			}]
+			title: "Visiter : « Bandit towers »"
+			x: 3.0d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "60431EE262D7C42F"
+			optional: true
+			rewards: [{
+				id: "0A73C05FBB4E21F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "0212A58777194E3D"
+				structure: "dungeons_arise:bandit_village"
+				type: "structure"
+			}]
+			title: "Visiter : « Bandit village »"
+			x: 4.5d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "477A83CBF1422DB9"
+			optional: true
+			rewards: [{
+				id: "54C30D6FBB90E72B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "6BD3AA5113D49098"
+				structure: "dungeons_arise:bathhouse"
+				type: "structure"
+			}]
+			title: "Visiter : « Bathhouse »"
+			x: 6.0d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur)."]
+			id: "3D4C1E9D91CA76E4"
+			optional: true
+			rewards: [{
+				id: "6263DC21608B247E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "0F72F7371F48B05C"
+				structure: "dungeons_arise:ceryneian_hind"
+				type: "structure"
+			}]
+			title: "Visiter : « Ceryneian hind »"
+			x: 7.5d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur)."]
+			id: "2615401DAAB56F14"
+			optional: true
+			rewards: [{
+				id: "54E64DE0AC22086B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "7D45CA3173BD9B64"
+				structure: "dungeons_arise:coliseum"
+				type: "structure"
+			}]
+			title: "Visiter : « Coliseum »"
+			x: 9.0d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur)."]
+			id: "50CCF80AA07DA955"
+			optional: true
+			rewards: [{
+				id: "0E9DDEA9A0C55B61"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "1018676CD0146479"
+				structure: "dungeons_arise:fishing_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Fishing hut »"
+			x: 10.5d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur)."]
+			id: "5AE7AD17526A4C3B"
+			optional: true
+			rewards: [{
+				id: "64264F4073732E80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "48A489D1C9D1B1F5"
+				structure: "dungeons_arise:giant_mushroom"
+				type: "structure"
+			}]
+			title: "Visiter : « Giant mushroom »"
+			x: 12.0d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "26446586A9549A6F"
+			optional: true
+			rewards: [{
+				id: "14C3764CBFC153E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "0E5B8292FE965EB7"
+				structure: "dungeons_arise:greenwood_pub"
+				type: "structure"
+			}]
+			title: "Visiter : « Greenwood pub »"
+			x: 13.5d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Hauts plateaux, Prairie, Plaines, Plaines de tournesols, Forêt venteuse et d'autres (données du serveur)."]
+			id: "10FEA4E46418CA35"
+			optional: true
+			rewards: [{
+				id: "28CD7A444948A03E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "1F0B8C236CBC2A72"
+				structure: "dungeons_arise:illager_campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Illager campsite »"
+			x: 15.0d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "2B861F6E7C43BE6B"
+			optional: true
+			rewards: [{
+				id: "6CE25F689C1613FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "675D67C10BF49A4E"
+				structure: "dungeons_arise:illager_corsair"
+				type: "structure"
+			}]
+			title: "Visiter : « Illager corsair »"
+			x: 16.5d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "612A86687EDB0230"
+			optional: true
+			rewards: [{
+				id: "0C69A5C974B139A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "40F402AC33E7CABF"
+				structure: "dungeons_arise:illager_fort"
+				type: "structure"
+			}]
+			title: "Visiter : « Illager fort »"
+			x: 18.0d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "304E2F2012BEB373"
+			optional: true
+			rewards: [{
+				id: "2127BCDD963834E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "7FDE054F3EFBFB90"
+				structure: "dungeons_arise:illager_galley"
+				type: "structure"
+			}]
+			title: "Visiter : « Illager galley »"
+			x: 19.5d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur)."]
+			id: "18E423C151C9DFA6"
+			optional: true
+			rewards: [{
+				id: "4F9706E840BCAA9E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "5F1D82C24FA249AF"
+				structure: "dungeons_arise:illager_windmill"
+				type: "structure"
+			}]
+			title: "Visiter : « Illager windmill »"
+			x: 21.0d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "0D5F408F3E510DCB"
+			optional: true
+			rewards: [{
+				id: "48FA3288F1D33C73"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "109C2FB9A92763FA"
+				structure: "dungeons_arise:infested_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Infested temple »"
+			x: 22.5d
+			y: -5.25d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "3C42B6D5CE1DAC46"
+			optional: true
+			rewards: [{
+				id: "1EBD6BB406A1AC2C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "05C59AB38F440884"
+				structure: "dungeons_arise:jungle_tree_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle tree house »"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Marais à mangroves, Marais (données du serveur)."]
+			id: "78A6E64FB0433CA9"
+			optional: true
+			rewards: [{
+				id: "1C42FF9A762064BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "7F8F98AB0DA2CE7F"
+				structure: "dungeons_arise:keep_kayra"
+				type: "structure"
+			}]
+			title: "Visiter : « Keep kayra »"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plaines, Plage enneigée (données du serveur)."]
+			id: "2B805CE6B7D1144A"
+			optional: true
+			rewards: [{
+				id: "5ACB5DB16D0F66BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "428E09686232B6E3"
+				structure: "dungeons_arise:lighthouse"
+				type: "structure"
+			}]
+			title: "Visiter : « Lighthouse »"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur)."]
+			id: "2239624813B2A9E7"
+			optional: true
+			rewards: [{
+				id: "740B3C065C3C01DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "420D6FAF415DA633"
+				structure: "dungeons_arise:merchant_campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Merchant campsite »"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "29E6F3FB854FB2C6"
+			optional: true
+			rewards: [{
+				id: "3BBEC6727BB20CA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "1435FA52F84F5B99"
+				structure: "dungeons_arise:mining_system"
+				type: "structure"
+			}]
+			title: "Visiter : « Mining system »"
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "7C038821C4062860"
+			optional: true
+			rewards: [{
+				id: "3D138E59687E3A7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "304E57125E82D1DA"
+				structure: "dungeons_arise:monastery"
+				type: "structure"
+			}]
+			title: "Visiter : « Monastery »"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "3F84291AB2EDA10A"
+			optional: true
+			rewards: [{
+				id: "6AE5F227E7C327B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "6D1CAFCDBCBE5AE2"
+				structure: "dungeons_arise:mushroom_house"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom house »"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "06780D06C69762BF"
+			optional: true
+			rewards: [{
+				id: "17C004D87C38C884"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "7710E153E1236B3D"
+				structure: "dungeons_arise:mushroom_mines"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom mines »"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "24F007C7E362A6F3"
+			optional: true
+			rewards: [{
+				id: "38771539389FC787"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "4BA290F2339E4782"
+				structure: "dungeons_arise:mushroom_village"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom village »"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "085016912E04CACD"
+			optional: true
+			rewards: [{
+				id: "758D86AD8EEFAA41"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "2BC526354FB92424"
+				structure: "dungeons_arise:plague_asylum"
+				type: "structure"
+			}]
+			title: "Visiter : « Plague asylum »"
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur)."]
+			id: "0E455EF64A16D1CC"
+			optional: true
+			rewards: [{
+				id: "5B817951D02EDEFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "70A84901ABA6498B"
+				structure: "dungeons_arise:scorched_mines"
+				type: "structure"
+			}]
+			title: "Visiter : « Scorched mines »"
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur)."]
+			id: "40B8E33FF77CE229"
+			optional: true
+			rewards: [{
+				id: "666F15E25383FC6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "4C3522E5E41175C8"
+				structure: "dungeons_arise:shiraz_palace"
+				type: "structure"
+			}]
+			title: "Visiter : « Shiraz palace »"
+			x: 16.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur)."]
+			id: "1F6F55F0B4323011"
+			optional: true
+			rewards: [{
+				id: "73CFC47CD324AB2F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "2182FD11DDCC05F1"
+				structure: "dungeons_arise:thornborn_towers"
+				type: "structure"
+			}]
+			title: "Visiter : « Thornborn towers »"
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "7D0190EA471EAEEC"
+			optional: true
+			rewards: [{
+				id: "49002AE7E2F299FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "49F597CEE5861841"
+				structure: "dungeons_arise:typhon"
+				type: "structure"
+			}]
+			title: "Visiter : « Typhon »"
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "3B675BEA35AA5C68"
+			optional: true
+			rewards: [{
+				id: "01CF4E3D953CE886"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "2CD27F9DB1E26D02"
+				structure: "dungeons_arise:undead_pirate_ship"
+				type: "structure"
+			}]
+			title: "Visiter : « Undead pirate ship »"
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur)."]
+			id: "74935DD906C1FABF"
+			optional: true
+			rewards: [{
+				id: "76055F27D457A445"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "When Dungeons Arise"
+			tasks: [{
+				id: "72749FD13AC78696"
+				structure: "dungeons_arise:wishing_well"
+				type: "structure"
+			}]
+			title: "Visiter : « Wishing well »"
+			x: 22.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur)."]
+			id: "3D1B25637AC61122"
+			optional: true
+			rewards: [{
+				id: "046445B906546CB2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "4916D6A2418738F6"
+				structure: "structory:abandoned_camp"
+				type: "structure"
+			}]
+			title: "Visiter : « Abandoned camp »"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur)."]
+			id: "2ABDED8A9B9DF119"
+			optional: true
+			rewards: [{
+				id: "7DDC2439D18FA12D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "2BAABD173BC3B522"
+				structure: "structory:abandoned_chapel"
+				type: "structure"
+			}]
+			title: "Visiter : « Abandoned chapel »"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Océan froid, Océan froid profond, Océan tiède profond, Océan profond, Océan tiède et d'autres (données du serveur)."]
+			id: "7BB4E25C2C334121"
+			optional: true
+			rewards: [{
+				id: "71F38A49D1805B8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "41BEDD59E6FA6B8D"
+				structure: "structory:boat"
+				type: "structure"
+			}]
+			title: "Visiter : « Boat »"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "649B3A296F1574B7"
+			optional: true
+			rewards: [{
+				id: "21E8829F5363890D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "1A9B7A24601AFB97"
+				structure: "structory:dense_forest_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Dense forest ruin »"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "7979B480524703BA"
+			optional: true
+			rewards: [{
+				id: "165A6A2AC2D4F273"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "518AD7FFDC1E4B7C"
+				structure: "structory:firetower"
+				type: "structure"
+			}]
+			title: "Visiter : « Firetower »"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur)."]
+			id: "7FFF08F2C44C9300"
+			optional: true
+			rewards: [{
+				id: "1634A0FDEE6EF7AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "44F6964A780A8A38"
+				structure: "structory:graveyard"
+				type: "structure"
+			}]
+			title: "Visiter : « Graveyard »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur)."]
+			id: "31C4D35821A7D1A5"
+			optional: true
+			rewards: [{
+				id: "3E7895E34BA150EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "7E67AE73439F5391"
+				structure: "structory:jungle_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle ruin »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Plaines, Plaines de tournesols (données du serveur)."]
+			id: "6FA69F6B29A38B64"
+			optional: true
+			rewards: [{
+				id: "2D6AE30E6860CDAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "039E83DEA79EDB4D"
+				structure: "structory:northern_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Northern ruin »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "50FACF9D7440545D"
+			optional: true
+			rewards: [{
+				id: "29EECD1A964A23F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "4148310867F0B6E7"
+				structure: "structory:old_manor"
+				type: "structure"
+			}]
+			title: "Visiter : « Old manor »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Désert (données du serveur)."]
+			id: "4D073AB9CE529744"
+			optional: true
+			rewards: [{
+				id: "670F99DB13369DB5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "7B4C0D87519CF6DF"
+				structure: "structory:outcast_villager_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Outcast villager desert »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins et d'autres (données du serveur)."]
+			id: "71BDDF990A8B65E3"
+			optional: true
+			rewards: [{
+				id: "0419FDCEC8A3F461"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "10FC43366A70CEBD"
+				structure: "structory:outcast_villager_grassy"
+				type: "structure"
+			}]
+			title: "Visiter : « Outcast villager grassy »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Forêt de bouleaux, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins et d'autres (données du serveur)."]
+			id: "6E4DECF5E787A20A"
+			optional: true
+			rewards: [{
+				id: "41B836ADCD3C764A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "4751930998043D40"
+				structure: "structory:ruin_grassy"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruin grassy »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "1D277157BB520B67"
+			optional: true
+			rewards: [{
+				id: "048422E3510C374C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "30112795E7B56736"
+				structure: "structory:swamp_ruin"
+				type: "structure"
+			}]
+			title: "Visiter : « Swamp ruin »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "64D73107325BAFAF"
+			optional: true
+			rewards: [{
+				id: "78D403388DDDD52A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "2A22F72DA0CCADB6"
+				structure: "structory:taiga_ruin_surface"
+				type: "structure"
+			}]
+			title: "Visiter : « Taiga ruin surface »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "6BFF6D4AF9445975"
+			optional: true
+			rewards: [{
+				id: "30C4FF2448957712"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory"
+			tasks: [{
+				id: "5DB7317D3A2E2508"
+				structure: "structory:taiga_ruin_underground"
+				type: "structure"
+			}]
+			title: "Visiter : « Taiga ruin underground »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur)."]
+			id: "3C25BDA71855C418"
+			optional: true
+			rewards: [{
+				id: "5F73094B59ABF451"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "7EBAA40269BDE198"
+				structure: "structory_towers:ancient_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient temple »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "343C166D82844111"
+			optional: true
+			rewards: [{
+				id: "56C16A99E743263F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "51854312CC439147"
+				structure: "structory_towers:end/end_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « End tower »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "5F60C808B40993D5"
+			optional: true
+			rewards: [{
+				id: "0CD5ADC82A9FFB19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "323628D2E474963C"
+				structure: "structory_towers:engineer_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Engineer tower »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Forêt fleurie, Forêt, Prairie, Plaines, Savane et d'autres (données du serveur)."]
+			id: "41254108ACED02BC"
+			optional: true
+			rewards: [{
+				id: "0094DCDEC82B3F26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "2DB2DC8EFF33CB16"
+				structure: "structory_towers:farmer_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Farmer outpost »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "283D504A440D24F0"
+			optional: true
+			rewards: [{
+				id: "4D56369D2C805D9D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "118CFBD3F80FCCC8"
+				structure: "structory_towers:foraging_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Foraging outpost »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Forêt sombre, Champs de champignons (données du serveur)."]
+			id: "589429FFE7153C35"
+			optional: true
+			rewards: [{
+				id: "66A82F14CA0AEE6D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "5DF1353A759780E8"
+				structure: "structory_towers:great_toadstool"
+				type: "structure"
+			}]
+			title: "Visiter : « Great toadstool »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Plage (données du serveur)."]
+			id: "1846525EF4FBB741"
+			optional: true
+			rewards: [{
+				id: "62399C7C4C470A1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "6732553304D3F5AF"
+				structure: "structory_towers:lighthouse"
+				type: "structure"
+			}]
+			title: "Visiter : « Lighthouse »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Désert (données du serveur)."]
+			id: "2E7D8FADA03DFC23"
+			optional: true
+			rewards: [{
+				id: "5CA85FE4B6DCB76D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "028033810230C12C"
+				structure: "structory_towers:mirage_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Mirage outpost »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "3AA456F032B4781A"
+			optional: true
+			rewards: [{
+				id: "55C716E2D688A01B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "5CB177AB13F46A73"
+				structure: "structory_towers:nether/fortress_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Fortress tower »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Vallée des âmes (données du serveur)."]
+			id: "25A968A4436AD0E3"
+			optional: true
+			rewards: [{
+				id: "0765D2E7EA40EA03"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "2FD0BB9BFA4D6EB1"
+				structure: "structory_towers:nether/strange_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Strange outpost »"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Forêt biscornue (données du serveur)."]
+			id: "6B3B127011B6CB14"
+			optional: true
+			rewards: [{
+				id: "3E1E548878580A54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "5F371FF32ECE87D7"
+				structure: "structory_towers:nether/warped_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Warped outpost »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Badlands, Badlands boisées (données du serveur)."]
+			id: "7AF89C1CF90983C2"
+			optional: true
+			rewards: [{
+				id: "71B4499BFA9475E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "7B064706D7FA9D27"
+				structure: "structory_towers:nomad_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Nomad outpost »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Océan froid, Océan tiède, Océan, Océan chaud (données du serveur)."]
+			id: "0BF2A2E7CC423A3E"
+			optional: true
+			rewards: [{
+				id: "2976574D197E99C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "4E18EE8C772E1AE8"
+				structure: "structory_towers:ocean_pillar"
+				type: "structure"
+			}]
+			title: "Visiter : « Ocean pillar »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "0E7A7585966196C8"
+			optional: true
+			rewards: [{
+				id: "683C5F85E9B39445"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "0E1265D04B2CC99B"
+				structure: "structory_towers:overgrown_mangrove"
+				type: "structure"
+			}]
+			title: "Visiter : « Overgrown mangrove »"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Plaines (données du serveur)."]
+			id: "0AD3C5F2AFE0045A"
+			optional: true
+			rewards: [{
+				id: "3091AE9094179014"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "29B3A6E5CAD6F103"
+				structure: "structory_towers:pillager_lookout"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager lookout »"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Jungle de bambous, Jungle (données du serveur)."]
+			id: "07CFE658EFCA2B0D"
+			optional: true
+			rewards: [{
+				id: "64175956F8FAD64E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "03D4E1C230FC3BF4"
+				structure: "structory_towers:quarter_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Quarter outpost »"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Jungle clairsemée (données du serveur)."]
+			id: "2A15F4F4F46D496B"
+			optional: true
+			rewards: [{
+				id: "7451200EFF705F63"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "1D57860614CC89EC"
+				structure: "structory_towers:sacred_relic_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Sacred relic temple »"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "3CCD729E31E7A92E"
+			optional: true
+			rewards: [{
+				id: "19E67C22384724DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "30C1CEC416A0EAD9"
+				structure: "structory_towers:small_firetower"
+				type: "structure"
+			}]
+			title: "Visiter : « Small firetower »"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Bosquet, Taïga enneigée, Taïga (données du serveur)."]
+			id: "0816CE1B89AC439D"
+			optional: true
+			rewards: [{
+				id: "648D76C3FEC60A18"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "37B59264C781E795"
+				structure: "structory_towers:taiga_outpost"
+				type: "structure"
+			}]
+			title: "Visiter : « Taiga outpost »"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bStructory Towers&r. Se génère dans : Hauts plateaux, Forêt venteuse, Collines graveleuses venteuses, Collines venteuses, Savane venteuse (données du serveur)."]
+			id: "0614207F872C25A1"
+			optional: true
+			rewards: [{
+				id: "403790A68DB79755"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Structory Towers"
+			tasks: [{
+				id: "52D6F32F0C9F2C9A"
+				structure: "structory_towers:warped_greatsword"
+				type: "structure"
+			}]
+			title: "Visiter : « Warped greatsword »"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Vallée originelle (données du serveur)."]
+			id: "3D2AAD56BF13C519"
+			optional: true
+			rewards: [{
+				id: "7F52454C205D680F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "5A7738D23A95B1FA"
+				structure: "towns_and_towers:exclusives/pillager_outpost_classic"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost classic »"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Savane luxuriante (données du serveur)."]
+			id: "32A61E79110B1B30"
+			optional: true
+			rewards: [{
+				id: "18B50CF124EDBDED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "341E4AC62557B9B2"
+				structure: "towns_and_towers:exclusives/pillager_outpost_iberian"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost iberian »"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt méditerranéenne, Fruticée rocailleuse, Brousse, Fruticée (données du serveur)."]
+			id: "110138AB4B7504C4"
+			optional: true
+			rewards: [{
+				id: "06EFBAFA431C8904"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "5692BEF56139DC3C"
+				structure: "towns_and_towers:exclusives/pillager_outpost_mediterranean"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost mediterranean »"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Désert luxuriant (données du serveur)."]
+			id: "25B6DED7FE31E5D5"
+			optional: true
+			rewards: [{
+				id: "7B1E139433AA3C67"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "31DB70A87C27E56D"
+				structure: "towns_and_towers:exclusives/pillager_outpost_oriental"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost oriental »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt saisonnière (données du serveur)."]
+			id: "53F4D87250708D6D"
+			optional: true
+			rewards: [{
+				id: "7908550BE3F20004"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "2728BCFE47ADBA8B"
+				structure: "towns_and_towers:exclusives/pillager_outpost_rustic"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost rustic »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Clairière de pins (données du serveur)."]
+			id: "75E57B7D3CCF8E6F"
+			optional: true
+			rewards: [{
+				id: "0799E56B0C05A870"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "399664BD3D2710CD"
+				structure: "towns_and_towers:exclusives/pillager_outpost_swedish"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost swedish »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Hauts plateaux (données du serveur)."]
+			id: "20BD40E126B2917F"
+			optional: true
+			rewards: [{
+				id: "2967C9146FBD3AAA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "469B2E40BDB42D57"
+				structure: "towns_and_towers:exclusives/pillager_outpost_tudor"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost tudor »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Vallée originelle (données du serveur)."]
+			id: "4C35D7BCDD7C611D"
+			optional: true
+			rewards: [{
+				id: "1A4BFF5C7D8A81D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "382D8B98A0242E2E"
+				structure: "towns_and_towers:exclusives/village_classic"
+				type: "structure"
+			}]
+			title: "Visiter : « Village classic »"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Savane luxuriante (données du serveur)."]
+			id: "1BDE19A00E619DC5"
+			optional: true
+			rewards: [{
+				id: "2D68C42764D640F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "2EFD7732BA1221BD"
+				structure: "towns_and_towers:exclusives/village_iberian"
+				type: "structure"
+			}]
+			title: "Visiter : « Village iberian »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt méditerranéenne, Fruticée rocailleuse, Brousse, Fruticée (données du serveur)."]
+			id: "63743077F3FC954F"
+			optional: true
+			rewards: [{
+				id: "5C46E555D5BB3C45"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "75D890136DCA7635"
+				structure: "towns_and_towers:exclusives/village_mediterranean"
+				type: "structure"
+			}]
+			title: "Visiter : « Village mediterranean »"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt saisonnière (données du serveur)."]
+			id: "478E8CED54CAEFC5"
+			optional: true
+			rewards: [{
+				id: "4F9B5F65F63B4D6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "1F9A33895BE8E2FC"
+				structure: "towns_and_towers:exclusives/village_rustic"
+				type: "structure"
+			}]
+			title: "Visiter : « Village rustic »"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Clairière de pins (données du serveur)."]
+			id: "7FD9D92A08D69638"
+			optional: true
+			rewards: [{
+				id: "131382445B4F2747"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "4A61947716E07DD6"
+				structure: "towns_and_towers:exclusives/village_swedish"
+				type: "structure"
+			}]
+			title: "Visiter : « Village swedish »"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Hauts plateaux (données du serveur)."]
+			id: "0CF86A803E5E22B6"
+			optional: true
+			rewards: [{
+				id: "3D2408198E899A98"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "23F0CD4A03A90903"
+				structure: "towns_and_towers:exclusives/village_tudor"
+				type: "structure"
+			}]
+			title: "Visiter : « Village tudor »"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Désert luxuriant (données du serveur)."]
+			id: "34FCDCAF739FC3E7"
+			optional: true
+			rewards: [{
+				id: "2C2227E34FFCABDE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "4E4569329ED3EF77"
+				structure: "towns_and_towers:exclusives/village_wandering_trader_camp"
+				type: "structure"
+			}]
+			title: "Visiter : « Village wandering trader camp »"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Désert (données du serveur)."]
+			id: "629F917AD7D975DA"
+			optional: true
+			rewards: [{
+				id: "70C2FDE0B2DD3D83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "277299A0AF18009C"
+				structure: "towns_and_towers:mimic_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Mimic desert »"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Badlands (données du serveur)."]
+			id: "4ABAB289331650C4"
+			optional: true
+			rewards: [{
+				id: "4FF6F6B645DAF16A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "729EE1F1C111F94E"
+				structure: "towns_and_towers:pillager_outpost_badlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost badlands »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Plage de dunes, Plage (données du serveur)."]
+			id: "78BB1EE64F1FBEC8"
+			optional: true
+			rewards: [{
+				id: "6116193AD6448B65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "30E6DAAD53625088"
+				structure: "towns_and_towers:pillager_outpost_beach"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost beach »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "1FA13194EF3FF360"
+			optional: true
+			rewards: [{
+				id: "3DAA7B907A360455"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "432B1E0F8C02C6BE"
+				structure: "towns_and_towers:pillager_outpost_birch_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost birch forest »"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Désert (données du serveur)."]
+			id: "79783C75F46EEE7C"
+			optional: true
+			rewards: [{
+				id: "32E6694283D92C7B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "46275B4655F9B0A0"
+				structure: "towns_and_towers:pillager_outpost_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost desert »"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Bosquet de cerisiers, Forêt fleurie (données du serveur)."]
+			id: "2D8295424F85E08F"
+			optional: true
+			rewards: [{
+				id: "4CA5BC746745F3AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "6E5F02759147FF0F"
+				structure: "towns_and_towers:pillager_outpost_flower_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost flower forest »"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt ancienne, Bois, Forêt (données du serveur)."]
+			id: "6B80052F28A5EB90"
+			optional: true
+			rewards: [{
+				id: "017916F4A004E8F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "25D786D384ADA482"
+				structure: "towns_and_towers:pillager_outpost_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost forest »"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Bosquet (données du serveur)."]
+			id: "6D14FBA42FF4DF4E"
+			optional: true
+			rewards: [{
+				id: "3D1F485E0F303A82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "050B2030F28F4626"
+				structure: "towns_and_towers:pillager_outpost_grove"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost grove »"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt tropicale, Forêt tropicale rocailleuse, Jungle (données du serveur)."]
+			id: "157A242B88233C1A"
+			optional: true
+			rewards: [{
+				id: "690BC1C178AE6056"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "59113A3F2835244C"
+				structure: "towns_and_towers:pillager_outpost_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost jungle »"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Champ, Prairie (données du serveur)."]
+			id: "097F92451A818726"
+			optional: true
+			rewards: [{
+				id: "43570197D507F2C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "211E74CB28DB8222"
+				structure: "towns_and_towers:pillager_outpost_meadow"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost meadow »"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Champs de champignons (données du serveur)."]
+			id: "1004839267740ADD"
+			optional: true
+			rewards: [{
+				id: "3498274AD9B402A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "4556A13C38C5A4C3"
+				structure: "towns_and_towers:pillager_outpost_mushroom_fields"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost mushroom fields »"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "672F6D0EEA2D2503"
+			optional: true
+			rewards: [{
+				id: "7170EAEE6D56E982"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "5AC2E3E672CEF1CC"
+				structure: "towns_and_towers:pillager_outpost_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost ocean »"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "0B5853164ECAD037"
+			optional: true
+			rewards: [{
+				id: "780B6C91549E644E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "04EDE74CF67031A2"
+				structure: "towns_and_towers:pillager_outpost_old_growth_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost old growth taiga »"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Savane (données du serveur)."]
+			id: "288EF0A65C5380BA"
+			optional: true
+			rewards: [{
+				id: "093A4D6421ECA681"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "75C434AC0A5E5D84"
+				structure: "towns_and_towers:pillager_outpost_savanna"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost savanna »"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Plateau de savane (données du serveur)."]
+			id: "0CAF29CA2970225F"
+			optional: true
+			rewards: [{
+				id: "06CF349447EF5611"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "589804817D83A619"
+				structure: "towns_and_towers:pillager_outpost_savanna_plateau"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost savanna plateau »"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Plage enneigée (données du serveur)."]
+			id: "6F647D885714C187"
+			optional: true
+			rewards: [{
+				id: "2329AF33D800DB7E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "12D43A245882473B"
+				structure: "towns_and_towers:pillager_outpost_snowy_beach"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost snowy beach »"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Désert froid, Fondrière, Plaines enneigées (données du serveur)."]
+			id: "51CFEB612FCC5061"
+			optional: true
+			rewards: [{
+				id: "782D62479A498A60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "43BC33F27F4EC538"
+				structure: "towns_and_towers:pillager_outpost_snowy_plains"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost snowy plains »"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Pentes enneigées (données du serveur)."]
+			id: "314E0E33C841C49D"
+			optional: true
+			rewards: [{
+				id: "3506DC60D90EF22C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "2DB8674DD1BB9657"
+				structure: "towns_and_towers:pillager_outpost_snowy_slopes"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost snowy slopes »"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Taïga enneigée (données du serveur)."]
+			id: "6B9BC93D973D4C08"
+			optional: true
+			rewards: [{
+				id: "12F550142574EA5B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "11D7613B3FCD30A0"
+				structure: "towns_and_towers:pillager_outpost_snowy_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost snowy taiga »"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Plaine inondable, Tropiques, Jungle clairsemée (données du serveur)."]
+			id: "3FD0588E7BA8B0B3"
+			optional: true
+			rewards: [{
+				id: "7A970E27AD551B96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "43EA10FFEF066B3F"
+				structure: "towns_and_towers:pillager_outpost_sparse_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost sparse jungle »"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Pâturage, Parcelle de citrouilles, Plaines de tournesols (données du serveur)."]
+			id: "6DF3B40C26BB1FEE"
+			optional: true
+			rewards: [{
+				id: "6DED88F70430F844"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "54DF1E78B9C9C30D"
+				structure: "towns_and_towers:pillager_outpost_sunflower_plains"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost sunflower plains »"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Marécages, Marais (données du serveur)."]
+			id: "64F5C13FB7930B02"
+			optional: true
+			rewards: [{
+				id: "1D06B90DC07D6A2E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "7FAB3A1231A4E8A6"
+				structure: "towns_and_towers:pillager_outpost_swamp"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost swamp »"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt de conifères, Escarpée, Clairière de pins, Taïga (données du serveur)."]
+			id: "7B8260773919BE1F"
+			optional: true
+			rewards: [{
+				id: "4E2915809E26073D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "4C21D8180A494CB0"
+				structure: "towns_and_towers:pillager_outpost_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost taiga »"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Badlands boisées (données du serveur)."]
+			id: "7AFB4A4E6B3C2056"
+			optional: true
+			rewards: [{
+				id: "5593E21A2F7C551C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "564A3579CD6610F2"
+				structure: "towns_and_towers:pillager_outpost_wooded_badlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillager outpost wooded badlands »"
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Badlands (données du serveur)."]
+			id: "798A8E6E5CCB0119"
+			optional: true
+			rewards: [{
+				id: "0385B577CE72907B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "1CFE4D75A0957B4F"
+				structure: "towns_and_towers:village_badlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Village badlands »"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Plage de dunes, Plage (données du serveur)."]
+			id: "60328EB776718E88"
+			optional: true
+			rewards: [{
+				id: "51C2503D3B9F24B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "459E62029B41F466"
+				structure: "towns_and_towers:village_beach"
+				type: "structure"
+			}]
+			title: "Visiter : « Village beach »"
+			x: 15.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "38E3C2E04D008B17"
+			optional: true
+			rewards: [{
+				id: "5AE0AEE1208FBE62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "0D4623F7A3DD7EF9"
+				structure: "towns_and_towers:village_birch_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Village birch forest »"
+			x: 16.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Bosquet de cerisiers, Forêt fleurie (données du serveur)."]
+			id: "0279C952869B6BFD"
+			optional: true
+			rewards: [{
+				id: "0FA1F6D8F528F77C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "4B948BA2E1A7EDBC"
+				structure: "towns_and_towers:village_flower_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Village flower forest »"
+			x: 18.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt ancienne, Bois, Forêt (données du serveur)."]
+			id: "186D9BB7AE005DC8"
+			optional: true
+			rewards: [{
+				id: "45AAD49E118207FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "0642B1EAC870A29F"
+				structure: "towns_and_towers:village_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Village forest »"
+			x: 19.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Bosquet (données du serveur)."]
+			id: "4647D132966A7F2E"
+			optional: true
+			rewards: [{
+				id: "195D8BF69DE6F828"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "3FDFB2119C39098F"
+				structure: "towns_and_towers:village_grove"
+				type: "structure"
+			}]
+			title: "Visiter : « Village grove »"
+			x: 21.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Forêt tropicale, Forêt tropicale rocailleuse, Jungle (données du serveur)."]
+			id: "30D1718E239AB362"
+			optional: true
+			rewards: [{
+				id: "583065D9E56196BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "43F20E4E66A8EFE4"
+				structure: "towns_and_towers:village_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Village jungle »"
+			x: 22.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Champ, Prairie (données du serveur)."]
+			id: "0C7916C0D7E3E546"
+			optional: true
+			rewards: [{
+				id: "2199EBE8518800DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "0C7DC51D1C903100"
+				structure: "towns_and_towers:village_meadow"
+				type: "structure"
+			}]
+			title: "Visiter : « Village meadow »"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Champs de champignons (données du serveur)."]
+			id: "78839970D8FF0FD5"
+			optional: true
+			rewards: [{
+				id: "6C0C4865915A9CFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "74ED8F4FCFE39F81"
+				structure: "towns_and_towers:village_mushroom_fields"
+				type: "structure"
+			}]
+			title: "Visiter : « Village mushroom fields »"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "02170D1AFAA16A19"
+			optional: true
+			rewards: [{
+				id: "73B65802DDEE3653"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "11A80D4DEA1EC704"
+				structure: "towns_and_towers:village_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Village ocean »"
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "0EBE7CD97CFDA0E5"
+			optional: true
+			rewards: [{
+				id: "2234F5EF1085EB57"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "37EEF29C493732BF"
+				structure: "towns_and_towers:village_old_growth_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Village old growth taiga »"
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Plateau de savane (données du serveur)."]
+			id: "216248F4ED67AD46"
+			optional: true
+			rewards: [{
+				id: "7066FF9FD44321A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "7FC8AFF93AC74DCA"
+				structure: "towns_and_towers:village_savanna_plateau"
+				type: "structure"
+			}]
+			title: "Visiter : « Village savanna plateau »"
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Pentes enneigées (données du serveur)."]
+			id: "2364CDA05EC018E1"
+			optional: true
+			rewards: [{
+				id: "681497A2AD21EDC0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "086DEC011E3561E2"
+				structure: "towns_and_towers:village_snowy_slopes"
+				type: "structure"
+			}]
+			title: "Visiter : « Village snowy slopes »"
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Taïga enneigée (données du serveur)."]
+			id: "281C86A87176DF58"
+			optional: true
+			rewards: [{
+				id: "541ABED3D07CB5C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "5EB6177FB6E66DF7"
+				structure: "towns_and_towers:village_snowy_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Village snowy taiga »"
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Plaine inondable, Tropiques, Jungle clairsemée (données du serveur)."]
+			id: "6F1567DF1E31CD08"
+			optional: true
+			rewards: [{
+				id: "2D54D6813ADD710E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "54EECE52E1E9FBAB"
+				structure: "towns_and_towers:village_sparse_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Village sparse jungle »"
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Pâturage, Parcelle de citrouilles, Plaines de tournesols (données du serveur)."]
+			id: "77EE5819B1A9ABF4"
+			optional: true
+			rewards: [{
+				id: "63CD63833E190DBA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "345289C91AB3B763"
+				structure: "towns_and_towers:village_sunflower_plains"
+				type: "structure"
+			}]
+			title: "Visiter : « Village sunflower plains »"
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Marécages, Marais (données du serveur)."]
+			id: "4D06C83D6785F205"
+			optional: true
+			rewards: [{
+				id: "6B757F237814CDC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "47EE76F297B0EB2D"
+				structure: "towns_and_towers:village_swamp"
+				type: "structure"
+			}]
+			title: "Visiter : « Village swamp »"
+			x: 13.5d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Badlands boisées (données du serveur)."]
+			id: "6AF91CB1A55E03EF"
+			optional: true
+			rewards: [{
+				id: "3D8BFA778ACFF72C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "5DF2B5BDDC18F05D"
+				structure: "towns_and_towers:village_wooded_badlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Village wooded badlands »"
+			x: 15.0d
+			y: 5.25d
+		}
+		{
+			description: ["Structure de &bTowns and Towers&r. Se génère dans : Océan froid, Océan tiède, Océan, Océan chaud (données du serveur)."]
+			id: "0AD5191CF65B2588"
+			optional: true
+			rewards: [{
+				id: "37B7FEBE3C762634"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Towns and Towers"
+			tasks: [{
+				id: "7D872710E2AEA157"
+				structure: "towns_and_towers:wreckage_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Wreckage ocean »"
+			x: 16.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"7FD76A9215781576"
+				"7642678BD643CA28"
+				"324FCB7AB9759764"
+				"60431EE262D7C42F"
+				"477A83CBF1422DB9"
+				"3D4C1E9D91CA76E4"
+				"2615401DAAB56F14"
+				"50CCF80AA07DA955"
+				"5AE7AD17526A4C3B"
+				"26446586A9549A6F"
+				"10FEA4E46418CA35"
+				"2B861F6E7C43BE6B"
+				"612A86687EDB0230"
+				"304E2F2012BEB373"
+				"18E423C151C9DFA6"
+				"0D5F408F3E510DCB"
+				"3C42B6D5CE1DAC46"
+				"78A6E64FB0433CA9"
+				"2B805CE6B7D1144A"
+				"2239624813B2A9E7"
+				"29E6F3FB854FB2C6"
+				"7C038821C4062860"
+				"3F84291AB2EDA10A"
+				"06780D06C69762BF"
+				"24F007C7E362A6F3"
+				"085016912E04CACD"
+				"0E455EF64A16D1CC"
+				"40B8E33FF77CE229"
+				"1F6F55F0B4323011"
+				"7D0190EA471EAEEC"
+				"3B675BEA35AA5C68"
+				"74935DD906C1FABF"
+				"3D1B25637AC61122"
+				"2ABDED8A9B9DF119"
+				"7BB4E25C2C334121"
+				"649B3A296F1574B7"
+				"7979B480524703BA"
+				"7FFF08F2C44C9300"
+				"31C4D35821A7D1A5"
+				"6FA69F6B29A38B64"
+				"50FACF9D7440545D"
+				"4D073AB9CE529744"
+				"71BDDF990A8B65E3"
+				"6E4DECF5E787A20A"
+				"1D277157BB520B67"
+				"64D73107325BAFAF"
+				"6BFF6D4AF9445975"
+				"3C25BDA71855C418"
+				"343C166D82844111"
+				"5F60C808B40993D5"
+				"41254108ACED02BC"
+				"283D504A440D24F0"
+				"589429FFE7153C35"
+				"1846525EF4FBB741"
+				"2E7D8FADA03DFC23"
+				"3AA456F032B4781A"
+				"25A968A4436AD0E3"
+				"6B3B127011B6CB14"
+				"7AF89C1CF90983C2"
+				"0BF2A2E7CC423A3E"
+				"0E7A7585966196C8"
+				"0AD3C5F2AFE0045A"
+				"07CFE658EFCA2B0D"
+				"2A15F4F4F46D496B"
+				"3CCD729E31E7A92E"
+				"0816CE1B89AC439D"
+				"0614207F872C25A1"
+				"3D2AAD56BF13C519"
+				"32A61E79110B1B30"
+				"110138AB4B7504C4"
+				"25B6DED7FE31E5D5"
+				"53F4D87250708D6D"
+				"75E57B7D3CCF8E6F"
+				"20BD40E126B2917F"
+				"4C35D7BCDD7C611D"
+				"1BDE19A00E619DC5"
+				"63743077F3FC954F"
+				"478E8CED54CAEFC5"
+				"7FD9D92A08D69638"
+				"0CF86A803E5E22B6"
+				"34FCDCAF739FC3E7"
+				"629F917AD7D975DA"
+				"4ABAB289331650C4"
+				"78BB1EE64F1FBEC8"
+				"1FA13194EF3FF360"
+				"79783C75F46EEE7C"
+				"2D8295424F85E08F"
+				"6B80052F28A5EB90"
+				"6D14FBA42FF4DF4E"
+				"157A242B88233C1A"
+				"097F92451A818726"
+				"1004839267740ADD"
+				"672F6D0EEA2D2503"
+				"0B5853164ECAD037"
+				"288EF0A65C5380BA"
+				"0CAF29CA2970225F"
+				"6F647D885714C187"
+				"51CFEB612FCC5061"
+				"314E0E33C841C49D"
+				"6B9BC93D973D4C08"
+				"3FD0588E7BA8B0B3"
+				"6DF3B40C26BB1FEE"
+				"64F5C13FB7930B02"
+				"7B8260773919BE1F"
+				"7AFB4A4E6B3C2056"
+				"798A8E6E5CCB0119"
+				"60328EB776718E88"
+				"38E3C2E04D008B17"
+				"0279C952869B6BFD"
+				"186D9BB7AE005DC8"
+				"4647D132966A7F2E"
+				"30D1718E239AB362"
+				"0C7916C0D7E3E546"
+				"78839970D8FF0FD5"
+				"02170D1AFAA16A19"
+				"0EBE7CD97CFDA0E5"
+				"216248F4ED67AD46"
+				"2364CDA05EC018E1"
+				"281C86A87176DF58"
+				"6F1567DF1E31CD08"
+				"77EE5819B1A9ABF4"
+				"4D06C83D6785F205"
+				"6AF91CB1A55E03EF"
+				"0AD5191CF65B2588"
+			]
+			description: ["Toutes les structures de ce chapitre visitées. La récompense est symbolique."]
+			icon: "minecraft:filled_map"
+			id: "66F543522F1660E2"
+			optional: true
+			rewards: [{
+				id: "79B87F863AF3A235"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3E8FE0F176911289"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Structures — donjons, villes et tours"
+}
