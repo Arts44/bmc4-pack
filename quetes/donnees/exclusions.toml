@@ -20,7 +20,9 @@
 #                          (ChaosCubedFeatureManager ; has_sulfur_cubes = true
 #                          sur le serveur) ;
 #   pet_cemetery:*       — ranimés avec le collier sur une ancre de
-#                          réapparition (PCEvents, progrès du mod).
+#                          réapparition (PCEvents, progrès du mod) ;
+#   alexsmobs:farseer    — décision d'Arthur du 5 octobre : gardé en défi
+#                          (bordure du monde à 30 millions de blocs).
 
 [exclusion]
 # Friends & Foes, friendsandfoes.json du serveur : enableIceologer = false,
@@ -33,9 +35,5 @@
 # pose (scan NBT) ; seul l'objet « ver mystérieux » l'invoque, et
 # voidWormSpawnDimensions = ["minecraft:the_end"] : à revoir au chapitre de l'End.
 "alexsmobs:void_worm" = "alexsmobs.toml : poids d'apparition 0 ; invocation réservée à l'End"
-# alexsmobs.toml serveur : restrictFarseerSpawns = true, à 100 blocs au plus
-# de la bordure du monde ; « worldborder get » le 5 octobre : 59 999 968 blocs
-# de large, soit une bordure à 30 millions de blocs. Hors d'atteinte.
-"alexsmobs:farseer" = "alexsmobs.toml : n'apparaît qu'à 100 blocs de la bordure du monde, qui est à 30 millions de blocs"
 # Entité d'exemple de GeckoLib : aucune donnée d'apparition, aucune structure, aucun objet.
 "geckolib:mutant_zombie" = "entité d'exemple de GeckoLib"

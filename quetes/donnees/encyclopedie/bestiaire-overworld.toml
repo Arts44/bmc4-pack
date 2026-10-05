@@ -277,6 +277,22 @@ Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) :
 """
 
 [[quete]]
+cle = "alexsmobs_farseer"
+titre = "Défi : le Voyant éloigné"
+sous_titre = "Voyant éloigné — alexsmobs"
+optionnel = true
+forme = "octagon"
+taille = 1.3
+icone = "alexsmobs:spawn_egg_farseer"
+taches = ["observation entity alexsmobs:farseer"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : partout (sauf Champs de champignons). Apparaît : à moins de 100 blocs de la bordure du monde, qui est à 30 millions de blocs du centre. Butin : Bras de voyant éloigné.
+
+Un défi d'exploration pour les plus têtus : le trajet est la récompense. Cette quête ne compte pas dans le chapitre complet.
+"""
+
+[[quete]]
 cle = "alexsmobs_flutter"
 titre = "Rencontre : Papilloneur"
 sous_titre = "Papilloneur — alexsmobs"

@@ -517,6 +517,34 @@
 			y: -6.75d
 		}
 		{
+			description: [
+				"Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : partout (sauf Champs de champignons). Apparaît : à moins de 100 blocs de la bordure du monde, qui est à 30 millions de blocs du centre. Butin : Bras de voyant éloigné."
+				""
+				"Un défi d'exploration pour les plus têtus : le trajet est la récompense. Cette quête ne compte pas dans le chapitre complet."
+			]
+			icon: "alexsmobs:spawn_egg_farseer"
+			id: "7E9F8AF274AFF400"
+			optional: true
+			rewards: [{
+				id: "1024F49D37B00DE5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "octagon"
+			size: 1.3d
+			subtitle: "Voyant éloigné — alexsmobs"
+			tasks: [{
+				id: "207CC889CA112500"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:farseer"
+				type: "observation"
+			}]
+			title: "Défi : le Voyant éloigné"
+			x: 7.5d
+			y: -6.75d
+		}
+		{
 			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Cavernes luxuriantes. Butin : Fleur sporifère."]
 			icon: "alexsmobs:spawn_egg_flutter"
 			id: "38D49E305A9C9590"
@@ -536,7 +564,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Papilloneur"
-			x: 7.5d
+			x: 9.0d
 			y: -6.75d
 		}
 		{
@@ -559,7 +587,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mouche"
-			x: 9.0d
+			x: 10.5d
 			y: -6.75d
 		}
 		{
@@ -582,7 +610,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poisson volant"
-			x: 10.5d
+			x: 12.0d
 			y: -6.75d
 		}
 		{
@@ -605,7 +633,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Requin frangé"
-			x: 12.0d
+			x: 13.5d
 			y: -6.75d
 		}
 		{
@@ -628,7 +656,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Traqueur givrant"
-			x: 13.5d
+			x: 15.0d
 			y: -6.75d
 		}
 		{
@@ -651,7 +679,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gazelle"
-			x: 15.0d
+			x: 16.5d
 			y: -6.75d
 		}
 		{
@@ -674,7 +702,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Singe-gélada"
-			x: 16.5d
+			x: 18.0d
 			y: -6.75d
 		}
 		{
@@ -697,7 +725,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Calmar géant"
-			x: 18.0d
+			x: 19.5d
 			y: -6.75d
 		}
 		{
@@ -720,7 +748,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gorille"
-			x: 19.5d
+			x: 21.0d
 			y: -6.75d
 		}
 		{
@@ -747,7 +775,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grizzly"
-			x: 21.0d
+			x: 22.5d
 			y: -6.75d
 		}
 		{
@@ -770,8 +798,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Rafalleur"
-			x: 22.5d
-			y: -6.75d
+			x: 0.0d
+			y: -5.25d
 		}
 		{
 			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : océans et hot/overworld."]
@@ -793,7 +821,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Requin-marteau"
-			x: 0.0d
+			x: 1.5d
 			y: -5.25d
 		}
 		{
@@ -816,7 +844,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Colibri"
-			x: 1.5d
+			x: 3.0d
 			y: -5.25d
 		}
 		{
@@ -839,7 +867,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gerboise"
-			x: 3.0d
+			x: 4.5d
 			y: -5.25d
 		}
 		{
@@ -862,7 +890,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Kangourou"
-			x: 4.5d
+			x: 6.0d
 			y: -5.25d
 		}
 		{
@@ -885,7 +913,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Dragon de Komodo"
-			x: 6.0d
+			x: 7.5d
 			y: -5.25d
 		}
 		{
@@ -908,7 +936,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Fourmi coupe-feuilles"
-			x: 7.5d
+			x: 9.0d
 			y: -5.25d
 		}
 		{
@@ -931,7 +959,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Homard"
-			x: 9.0d
+			x: 10.5d
 			y: -5.25d
 		}
 		{
@@ -954,7 +982,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Loup à crinière"
-			x: 10.5d
+			x: 12.0d
 			y: -5.25d
 		}
 		{
@@ -977,7 +1005,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Crevette mante"
-			x: 12.0d
+			x: 13.5d
 			y: -5.25d
 		}
 		{
@@ -1000,7 +1028,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poulpe imitant"
-			x: 13.5d
+			x: 15.0d
 			y: -5.25d
 		}
 		{
@@ -1023,7 +1051,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Élan"
-			x: 15.0d
+			x: 16.5d
 			y: -5.25d
 		}
 		{
@@ -1046,7 +1074,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gobie"
-			x: 16.5d
+			x: 18.0d
 			y: -5.25d
 		}
 		{
@@ -1069,7 +1097,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mongus"
-			x: 18.0d
+			x: 19.5d
 			y: -5.25d
 		}
 		{
@@ -1092,7 +1120,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Murmure"
-			x: 19.5d
+			x: 21.0d
 			y: -5.25d
 		}
 		{
@@ -1115,7 +1143,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Orque"
-			x: 21.0d
+			x: 22.5d
 			y: -5.25d
 		}
 		{
@@ -1138,8 +1166,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ornithorynque"
-			x: 22.5d
-			y: -5.25d
+			x: 0.0d
+			y: -3.75d
 		}
 		{
 			description: ["Créature d'&bAlex's Mobs&r. Apparition (config du serveur) : Forêt sombre. Butin : Plume."]
@@ -1161,7 +1189,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ibijau"
-			x: 0.0d
+			x: 1.5d
 			y: -3.75d
 		}
 		{
@@ -1184,7 +1212,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Raton laveur"
-			x: 1.5d
+			x: 3.0d
 			y: -3.75d
 		}
 		{
@@ -1207,7 +1235,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grenouille de pluie"
-			x: 3.0d
+			x: 4.5d
 			y: -3.75d
 		}
 		{
@@ -1230,7 +1258,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Crotale"
-			x: 4.5d
+			x: 6.0d
 			y: -3.75d
 		}
 		{
@@ -1253,7 +1281,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Rhinocéros"
-			x: 6.0d
+			x: 7.5d
 			y: -3.75d
 		}
 		{
@@ -1276,7 +1304,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Géocoucou"
-			x: 7.5d
+			x: 9.0d
 			y: -3.75d
 		}
 		{
@@ -1299,7 +1327,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Rouleau rocheux"
-			x: 9.0d
+			x: 10.5d
 			y: -3.75d
 		}
 		{
@@ -1322,7 +1350,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mouette"
-			x: 10.5d
+			x: 12.0d
 			y: -3.75d
 		}
 		{
@@ -1345,7 +1373,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Phoque"
-			x: 12.0d
+			x: 13.5d
 			y: -3.75d
 		}
 		{
@@ -1368,7 +1396,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Bec-en-sabot du Nil"
-			x: 13.5d
+			x: 15.0d
 			y: -3.75d
 		}
 		{
@@ -1391,7 +1419,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Squeladon"
-			x: 15.0d
+			x: 16.5d
 			y: -3.75d
 		}
 		{
@@ -1414,7 +1442,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Skreecher"
-			x: 16.5d
+			x: 18.0d
 			y: -3.75d
 		}
 		{
@@ -1437,7 +1465,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Moufette"
-			x: 18.0d
+			x: 19.5d
 			y: -3.75d
 		}
 		{
@@ -1460,7 +1488,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Léopard de neige"
-			x: 19.5d
+			x: 21.0d
 			y: -3.75d
 		}
 		{
@@ -1483,7 +1511,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Spectre"
-			x: 21.0d
+			x: 22.5d
 			y: -3.75d
 		}
 		{
@@ -1506,8 +1534,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Phalanger volant"
-			x: 22.5d
-			y: -3.75d
+			x: 0.0d
+			y: -2.25d
 		}
 		{
 			description: ["Créature d'&bAlex's Mobs&r. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et montagnes ; Pentes enneigées ; Pics gelés ; Pics dentelés."]
@@ -1529,7 +1557,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Oiseau de soleil"
-			x: 0.0d
+			x: 1.5d
 			y: -2.25d
 		}
 		{
@@ -1552,7 +1580,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Faucon tarentule"
-			x: 1.5d
+			x: 3.0d
 			y: -2.25d
 		}
 		{
@@ -1575,7 +1603,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Diable de Tasmanie"
-			x: 3.0d
+			x: 4.5d
 			y: -2.25d
 		}
 		{
@@ -1598,7 +1626,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tortue de rivière"
-			x: 4.5d
+			x: 6.0d
 			y: -2.25d
 		}
 		{
@@ -1621,7 +1649,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tigre"
-			x: 6.0d
+			x: 7.5d
 			y: -2.25d
 		}
 		{
@@ -1644,7 +1672,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Toucan"
-			x: 7.5d
+			x: 9.0d
 			y: -2.25d
 		}
 		{
@@ -1667,7 +1695,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Triops"
-			x: 9.0d
+			x: 10.5d
 			y: -2.25d
 		}
 		{
@@ -1690,7 +1718,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tusklin"
-			x: 10.5d
+			x: 12.0d
 			y: -2.25d
 		}
 		{
@@ -1713,7 +1741,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Sous-mineur"
-			x: 12.0d
+			x: 13.5d
 			y: -2.25d
 		}
 		{
@@ -1740,7 +1768,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Conjurateur"
-			x: 13.5d
+			x: 15.0d
 			y: -2.25d
 		}
 		{
@@ -1767,7 +1795,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : golem de cuivre"
-			x: 15.0d
+			x: 16.5d
 			y: -2.25d
 		}
 		{
@@ -1790,7 +1818,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Crabe"
-			x: 16.5d
+			x: 18.0d
 			y: -2.25d
 		}
 		{
@@ -1813,7 +1841,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Glare"
-			x: 18.0d
+			x: 19.5d
 			y: -2.25d
 		}
 		{
@@ -1836,7 +1864,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mauler"
-			x: 19.5d
+			x: 21.0d
 			y: -2.25d
 		}
 		{
@@ -1859,7 +1887,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Moobloom"
-			x: 21.0d
+			x: 22.5d
 			y: -2.25d
 		}
 		{
@@ -1882,8 +1910,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Rascal"
-			x: 22.5d
-			y: -2.25d
+			x: 0.0d
+			y: -0.75d
 		}
 		{
 			description: ["Créature de &bFriends & Foes&r, les candidats des votes de créature Minecraft. Apparaît : dans les forteresses de l'End, ou construit. Butin : Tuf."]
@@ -1905,7 +1933,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Golem de Tuf"
-			x: 0.0d
+			x: 1.5d
 			y: -0.75d
 		}
 		{
@@ -1932,7 +1960,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : marchand gobelin"
-			x: 1.5d
+			x: 3.0d
 			y: -0.75d
 		}
 		{
@@ -1959,7 +1987,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : garde villageois"
-			x: 3.0d
+			x: 4.5d
 			y: -0.75d
 		}
 		{
@@ -1982,7 +2010,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Alchemist"
-			x: 4.5d
+			x: 6.0d
 			y: -0.75d
 		}
 		{
@@ -2005,7 +2033,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Archivist"
-			x: 6.0d
+			x: 7.5d
 			y: -0.75d
 		}
 		{
@@ -2028,7 +2056,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Basher"
-			x: 7.5d
+			x: 9.0d
 			y: -0.75d
 		}
 		{
@@ -2051,7 +2079,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Firecaller"
-			x: 9.0d
+			x: 10.5d
 			y: -0.75d
 		}
 		{
@@ -2074,7 +2102,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Inquisitor"
-			x: 10.5d
+			x: 12.0d
 			y: -0.75d
 		}
 		{
@@ -2101,7 +2129,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Invoker"
-			x: 12.0d
+			x: 13.5d
 			y: -0.75d
 		}
 		{
@@ -2124,7 +2152,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Marauder"
-			x: 13.5d
+			x: 15.0d
 			y: -0.75d
 		}
 		{
@@ -2147,7 +2175,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Necromancer"
-			x: 15.0d
+			x: 16.5d
 			y: -0.75d
 		}
 		{
@@ -2170,7 +2198,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Provoker"
-			x: 16.5d
+			x: 18.0d
 			y: -0.75d
 		}
 		{
@@ -2193,7 +2221,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Sorcerer"
-			x: 18.0d
+			x: 19.5d
 			y: -0.75d
 		}
 		{
@@ -2216,7 +2244,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Surrendered"
-			x: 19.5d
+			x: 21.0d
 			y: -0.75d
 		}
 		{
@@ -2239,7 +2267,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Allay"
-			x: 21.0d
+			x: 22.5d
 			y: -0.75d
 		}
 		{
@@ -2262,8 +2290,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tatou"
-			x: 22.5d
-			y: -0.75d
+			x: 0.0d
+			y: 0.75d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : axolotl. Monde : Overworld. Biomes : Cavernes luxuriantes."]
@@ -2285,7 +2313,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Axolotl"
-			x: 0.0d
+			x: 1.5d
 			y: 0.75d
 		}
 		{
@@ -2308,7 +2336,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Chauve-souris"
-			x: 1.5d
+			x: 3.0d
 			y: 0.75d
 		}
 		{
@@ -2331,7 +2359,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Abeille"
-			x: 3.0d
+			x: 4.5d
 			y: 0.75d
 		}
 		{
@@ -2354,7 +2382,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Dromadaire"
-			x: 4.5d
+			x: 6.0d
 			y: 0.75d
 		}
 		{
@@ -2377,7 +2405,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Chat"
-			x: 6.0d
+			x: 7.5d
 			y: 0.75d
 		}
 		{
@@ -2400,7 +2428,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Araignée venimeuse"
-			x: 7.5d
+			x: 9.0d
 			y: 0.75d
 		}
 		{
@@ -2423,7 +2451,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poulet cru"
-			x: 9.0d
+			x: 10.5d
 			y: 0.75d
 		}
 		{
@@ -2446,7 +2474,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Morue crue"
-			x: 10.5d
+			x: 12.0d
 			y: 0.75d
 		}
 		{
@@ -2469,7 +2497,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Vache"
-			x: 12.0d
+			x: 13.5d
 			y: 0.75d
 		}
 		{
@@ -2492,7 +2520,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grinceur"
-			x: 13.5d
+			x: 15.0d
 			y: 0.75d
 		}
 		{
@@ -2515,7 +2543,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Creeper"
-			x: 15.0d
+			x: 16.5d
 			y: 0.75d
 		}
 		{
@@ -2538,7 +2566,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Dauphin"
-			x: 16.5d
+			x: 18.0d
 			y: 0.75d
 		}
 		{
@@ -2561,7 +2589,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Âne"
-			x: 18.0d
+			x: 19.5d
 			y: 0.75d
 		}
 		{
@@ -2584,7 +2612,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Noyé"
-			x: 19.5d
+			x: 21.0d
 			y: 0.75d
 		}
 		{
@@ -2607,7 +2635,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grand gardien"
-			x: 21.0d
+			x: 22.5d
 			y: 0.75d
 		}
 		{
@@ -2630,8 +2658,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Enderman"
-			x: 22.5d
-			y: 0.75d
+			x: 0.0d
+			y: 2.25d
 		}
 		{
 			description: ["Créature du jeu de base. Apparaît : dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures. Butin : Totem d'immortalité, Émeraude."]
@@ -2653,7 +2681,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Évocateur"
-			x: 0.0d
+			x: 1.5d
 			y: 2.25d
 		}
 		{
@@ -2676,7 +2704,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Renard"
-			x: 1.5d
+			x: 3.0d
 			y: 2.25d
 		}
 		{
@@ -2699,7 +2727,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grenouille"
-			x: 3.0d
+			x: 4.5d
 			y: 2.25d
 		}
 		{
@@ -2722,7 +2750,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poulpe luisant"
-			x: 4.5d
+			x: 6.0d
 			y: 2.25d
 		}
 		{
@@ -2745,7 +2773,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Chèvre"
-			x: 6.0d
+			x: 7.5d
 			y: 2.25d
 		}
 		{
@@ -2768,7 +2796,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Gardien"
-			x: 7.5d
+			x: 9.0d
 			y: 2.25d
 		}
 		{
@@ -2791,7 +2819,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cheval"
-			x: 9.0d
+			x: 10.5d
 			y: 2.25d
 		}
 		{
@@ -2814,7 +2842,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Momifié"
-			x: 10.5d
+			x: 12.0d
 			y: 2.25d
 		}
 		{
@@ -2837,7 +2865,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Golem de fer"
-			x: 12.0d
+			x: 13.5d
 			y: 2.25d
 		}
 		{
@@ -2860,7 +2888,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Lama"
-			x: 13.5d
+			x: 15.0d
 			y: 2.25d
 		}
 		{
@@ -2883,7 +2911,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mooshroom"
-			x: 15.0d
+			x: 16.5d
 			y: 2.25d
 		}
 		{
@@ -2906,7 +2934,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mule"
-			x: 16.5d
+			x: 18.0d
 			y: 2.25d
 		}
 		{
@@ -2929,7 +2957,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ocelot"
-			x: 18.0d
+			x: 19.5d
 			y: 2.25d
 		}
 		{
@@ -2952,7 +2980,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Panda"
-			x: 19.5d
+			x: 21.0d
 			y: 2.25d
 		}
 		{
@@ -2975,7 +3003,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Perroquet"
-			x: 21.0d
+			x: 22.5d
 			y: 2.25d
 		}
 		{
@@ -2998,8 +3026,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Phantom"
-			x: 22.5d
-			y: 2.25d
+			x: 0.0d
+			y: 3.75d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Bosquet de cerisiers, Forêt sombre, Forêt fleurie, Forêt et d'autres. Butin : Côtelette de porc crue."]
@@ -3021,7 +3049,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cochon"
-			x: 0.0d
+			x: 1.5d
 			y: 3.75d
 		}
 		{
@@ -3044,7 +3072,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Pillard"
-			x: 1.5d
+			x: 3.0d
 			y: 3.75d
 		}
 		{
@@ -3067,7 +3095,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ours blanc"
-			x: 3.0d
+			x: 4.5d
 			y: 3.75d
 		}
 		{
@@ -3090,7 +3118,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poisson-globe"
-			x: 4.5d
+			x: 6.0d
 			y: 3.75d
 		}
 		{
@@ -3113,7 +3141,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Lapin cru"
-			x: 6.0d
+			x: 7.5d
 			y: 3.75d
 		}
 		{
@@ -3136,7 +3164,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Ravageur"
-			x: 7.5d
+			x: 9.0d
 			y: 3.75d
 		}
 		{
@@ -3159,7 +3187,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Saumon cru"
-			x: 9.0d
+			x: 10.5d
 			y: 3.75d
 		}
 		{
@@ -3182,7 +3210,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Mouton"
-			x: 10.5d
+			x: 12.0d
 			y: 3.75d
 		}
 		{
@@ -3205,7 +3233,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poisson d'argent"
-			x: 12.0d
+			x: 13.5d
 			y: 3.75d
 		}
 		{
@@ -3228,7 +3256,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Squelette"
-			x: 13.5d
+			x: 15.0d
 			y: 3.75d
 		}
 		{
@@ -3251,7 +3279,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cheval-squelette"
-			x: 15.0d
+			x: 16.5d
 			y: 3.75d
 		}
 		{
@@ -3274,7 +3302,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Slime"
-			x: 16.5d
+			x: 18.0d
 			y: 3.75d
 		}
 		{
@@ -3297,7 +3325,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Renifleur"
-			x: 18.0d
+			x: 19.5d
 			y: 3.75d
 		}
 		{
@@ -3320,7 +3348,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Golem de neige"
-			x: 19.5d
+			x: 21.0d
 			y: 3.75d
 		}
 		{
@@ -3343,7 +3371,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Araignée"
-			x: 21.0d
+			x: 22.5d
 			y: 3.75d
 		}
 		{
@@ -3366,8 +3394,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poulpe"
-			x: 22.5d
-			y: 3.75d
+			x: 0.0d
+			y: 5.25d
 		}
 		{
 			description: ["Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Stalagmites de glace, Plaines enneigées. Butin : Flèche, Os, Flèche à effet."]
@@ -3389,7 +3417,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Vagabond"
-			x: 0.0d
+			x: 1.5d
 			y: 5.25d
 		}
 		{
@@ -3412,7 +3440,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cube de soufre"
-			x: 1.5d
+			x: 3.0d
 			y: 5.25d
 		}
 		{
@@ -3435,7 +3463,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Têtard"
-			x: 3.0d
+			x: 4.5d
 			y: 5.25d
 		}
 		{
@@ -3458,7 +3486,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Lama de marchand"
-			x: 4.5d
+			x: 6.0d
 			y: 5.25d
 		}
 		{
@@ -3481,7 +3509,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Poisson tropical"
-			x: 6.0d
+			x: 7.5d
 			y: 5.25d
 		}
 		{
@@ -3504,7 +3532,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tortue"
-			x: 7.5d
+			x: 9.0d
 			y: 5.25d
 		}
 		{
@@ -3527,7 +3555,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Vex"
-			x: 9.0d
+			x: 10.5d
 			y: 5.25d
 		}
 		{
@@ -3550,7 +3578,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Villageois"
-			x: 10.5d
+			x: 12.0d
 			y: 5.25d
 		}
 		{
@@ -3573,7 +3601,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Vindicateur"
-			x: 12.0d
+			x: 13.5d
 			y: 5.25d
 		}
 		{
@@ -3596,7 +3624,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Marchand ambulant"
-			x: 13.5d
+			x: 15.0d
 			y: 5.25d
 		}
 		{
@@ -3623,7 +3651,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Warden"
-			x: 15.0d
+			x: 16.5d
 			y: 5.25d
 		}
 		{
@@ -3646,7 +3674,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Sorcière"
-			x: 16.5d
+			x: 18.0d
 			y: 5.25d
 		}
 		{
@@ -3669,7 +3697,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Loup"
-			x: 18.0d
+			x: 19.5d
 			y: 5.25d
 		}
 		{
@@ -3692,7 +3720,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Zombie"
-			x: 19.5d
+			x: 21.0d
 			y: 5.25d
 		}
 		{
@@ -3715,7 +3743,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Cheval-zombie"
-			x: 21.0d
+			x: 22.5d
 			y: 5.25d
 		}
 		{
@@ -3738,8 +3766,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Zombie-villageois"
-			x: 22.5d
-			y: 5.25d
+			x: 0.0d
+			y: 6.75d
 		}
 		{
 			description: ["Créature de &bMowzie's Mobs&r. Apparition naturelle : aucune (config du serveur). Apparaît : dans le monastère du Sculpteur, où deux générateurs le font sortir. Butin : Bluff Rod."]
@@ -3761,7 +3789,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Bluff"
-			x: 0.0d
+			x: 1.5d
 			y: 6.75d
 		}
 		{
@@ -3784,7 +3812,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Elokosa Howler"
-			x: 1.5d
+			x: 3.0d
 			y: 6.75d
 		}
 		{
@@ -3807,7 +3835,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Foliaath"
-			x: 3.0d
+			x: 4.5d
 			y: 6.75d
 		}
 		{
@@ -3834,7 +3862,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Frostmaw"
-			x: 4.5d
+			x: 6.0d
 			y: 6.75d
 		}
 		{
@@ -3857,7 +3885,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Grottol"
-			x: 6.0d
+			x: 7.5d
 			y: 6.75d
 		}
 		{
@@ -3880,7 +3908,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Lanterne"
-			x: 7.5d
+			x: 9.0d
 			y: 6.75d
 		}
 		{
@@ -3903,7 +3931,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Naga"
-			x: 9.0d
+			x: 10.5d
 			y: 6.75d
 		}
 		{
@@ -3930,7 +3958,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Sculpteur"
-			x: 10.5d
+			x: 12.0d
 			y: 6.75d
 		}
 		{
@@ -3953,7 +3981,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Umvuthana"
-			x: 12.0d
+			x: 13.5d
 			y: 6.75d
 		}
 		{
@@ -3976,7 +4004,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Umvuthana Crane"
-			x: 13.5d
+			x: 15.0d
 			y: 6.75d
 		}
 		{
@@ -3999,7 +4027,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Umvuthana Raptor"
-			x: 15.0d
+			x: 16.5d
 			y: 6.75d
 		}
 		{
@@ -4026,7 +4054,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Umvuthi"
-			x: 16.5d
+			x: 18.0d
 			y: 6.75d
 		}
 		{
@@ -4049,7 +4077,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Skeleton Cat"
-			x: 18.0d
+			x: 19.5d
 			y: 6.75d
 		}
 		{
@@ -4072,7 +4100,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Skeleton Parrot"
-			x: 19.5d
+			x: 21.0d
 			y: 6.75d
 		}
 		{
@@ -4095,7 +4123,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Skeleton Wolf"
-			x: 21.0d
+			x: 22.5d
 			y: 6.75d
 		}
 		{
@@ -4118,8 +4146,8 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Zombie Cat"
-			x: 22.5d
-			y: 6.75d
+			x: 0.0d
+			y: 8.25d
 		}
 		{
 			description: ["Créature de &bPet Cemetery&r. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition."]
@@ -4141,7 +4169,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Zombie Parrot"
-			x: 0.0d
+			x: 1.5d
 			y: 8.25d
 		}
 		{
@@ -4164,7 +4192,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Zombie Wolf"
-			x: 1.5d
+			x: 3.0d
 			y: 8.25d
 		}
 		{
@@ -4187,7 +4215,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Crabe"
-			x: 3.0d
+			x: 4.5d
 			y: 8.25d
 		}
 		{
@@ -4210,7 +4238,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Oublié"
-			x: 4.5d
+			x: 6.0d
 			y: 8.25d
 		}
 		{
@@ -4233,7 +4261,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Shiba"
-			x: 6.0d
+			x: 7.5d
 			y: 8.25d
 		}
 		{
@@ -4256,7 +4284,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Stoneling"
-			x: 7.5d
+			x: 9.0d
 			y: 8.25d
 		}
 		{
@@ -4279,7 +4307,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Tortue"
-			x: 9.0d
+			x: 10.5d
 			y: 8.25d
 		}
 		{
@@ -4302,7 +4330,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Archer"
-			x: 10.5d
+			x: 12.0d
 			y: 8.25d
 		}
 		{
@@ -4325,7 +4353,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Legioner"
-			x: 12.0d
+			x: 13.5d
 			y: 8.25d
 		}
 		{
@@ -4348,7 +4376,7 @@
 				type: "observation"
 			}]
 			title: "Rencontre : Skirmisher"
-			x: 13.5d
+			x: 15.0d
 			y: 8.25d
 		}
 		{

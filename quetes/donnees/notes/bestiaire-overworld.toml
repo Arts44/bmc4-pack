@@ -200,3 +200,12 @@ apparition = "dans le bosquet des Umvuthana, autour du feu, et invoqué par Umvu
 # pièce : quark-common.toml du serveur, mobs.toretoise "Max Y Level" = 0
 [note."quark:toretoise"]
 apparition = "dans les grottes sous Y 0"
+
+# --- Défi (décision d'Arthur du 5 octobre). pièce : alexsmobs.toml du serveur,
+# restrictFarseerSpawns = true, farseerBorderSpawnDistance = 100 ; « worldborder
+# get » : 59 999 968 blocs de large. Hors de la quête « Tout le chapitre ».
+[note."alexsmobs:farseer"]
+titre = "Défi : le Voyant éloigné"
+defi = true
+apparition = "à moins de 100 blocs de la bordure du monde, qui est à 30 millions de blocs du centre"
+description = "Un défi d'exploration pour les plus têtus : le trajet est la récompense. Cette quête ne compte pas dans le chapitre complet."

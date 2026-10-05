@@ -254,8 +254,9 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
         mod = ent.split(':')[0]
         nom = nom_fr(ix, ent)
         cle = ent.replace(':', '_')
-        cles.append(cle)
         note = notes.get(ent, {})
+        if not note.get('defi'):
+            cles.append(cle)  # un défi ne compte pas dans « Tout le chapitre »
         lignes_fiche, voie = fiche(ent, ix, note)
         if not voie:
             sans_voie.append(ent)
@@ -263,7 +264,8 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
         if note.get('description'):
             desc += '\n\n' + note['description']
         titre_q = note.get('titre') or f"Rencontre : {nom}"
-        lignes.append(f'[[quete]]\ncle = "{cle}"\ntitre = "{t(titre_q)}"\nsous_titre = "{t(nom)} — {mod}"\noptionnel = true\n'
+        forme = 'forme = "octagon"\ntaille = 1.3\n' if note.get('defi') else ''
+        lignes.append(f'[[quete]]\ncle = "{cle}"\ntitre = "{t(titre_q)}"\nsous_titre = "{t(nom)} — {mod}"\noptionnel = true\n{forme}'
                       f'icone = "{oeuf}"\ntaches = ["observation entity {ent}"]\nrecompenses = ["xp 1"]\ndescription = """\n{t(desc)}\n"""\n')
     if sans_voie:
         raise SystemExit(f"{fichier} : {len(sans_voie)} créature(s) sans voie d'apparition vérifiée — à documenter "
