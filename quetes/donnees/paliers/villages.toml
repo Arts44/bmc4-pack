@@ -1,0 +1,43 @@
+# Échelle des paliers — Villages et commerce (BMC-89, 5 octobre 2026).
+# Statistiques vanilla traded_with_villager et raid_win.
+chapitre = "mods_villages"
+sommet = "echanges_250"
+
+[[palier]]
+echelle = "commerce"
+cle = "echange"
+preuve = "progrès adventure/trade"
+
+[[palier]]
+echelle = "commerce"
+cle = "bibliothecaire"
+preuve = "pupitre"
+
+[[palier]]
+echelle = "commerce"
+cle = "echanges_50"
+preuve = "stat traded_with_villager 50"
+
+[[palier]]
+echelle = "commerce"
+cle = "echanges_250"
+preuve = "stat traded_with_villager 250"
+
+[[palier]]
+echelle = "raids"
+cle = "exil"
+preuve = "progrès voluntary_exile"
+
+[[palier]]
+echelle = "raids"
+cle = "heros"
+preuve = "progrès hero_of_the_village"
+
+[[palier]]
+echelle = "raids"
+cle = "raids_5"
+preuve = "stat raid_win 5"
+
+[[saute]]
+objet = "villageois maître"
+raison = "le niveau d'un villageois ne se lit par aucune tâche FTB Quests : remplacé par le nombre d'échanges"

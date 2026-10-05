@@ -332,9 +332,42 @@ description = """
 """
 
 [[quete]]
+cle = "echanges_50"
+titre = "Cinquante échanges"
+deps = ["bibliothecaire"]
+taches = ["stat minecraft:traded_with_villager 50"]
+recompenses = ["xp 5"]
+description = """
+Cinquante échanges avec les villageois (statistique du jeu). Un villageois qui échange monte en niveau : novice, apprenti, compagnon, expert, maître.
+"""
+
+[[quete]]
+cle = "echanges_250"
+titre = "Deux cent cinquante échanges"
+deps = ["echanges_50", "comptoir"]
+taille = 1.5
+forme = "diamond"
+taches = ["stat minecraft:traded_with_villager 250"]
+recompenses = ["xp 10"]
+description = """
+Assez pour amener plusieurs villageois jusqu'au rang de maître. Le comptoir de Trading Post rassemble les offres des marchands proches.
+"""
+
+[[quete]]
+cle = "raids_5"
+titre = "Cinq raids gagnés"
+deps = ["heros"]
+optionnel = true
+taches = ["stat minecraft:raid_win 5"]
+recompenses = ["xp 15"]
+description = """
+Cinq raids repoussés (statistique du jeu). Les vagues comptent les illageois des mods du serveur.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&6Marchand"
-deps = ["bibliothecaire", "comptoir"]
+deps = ["echanges_250"]
 taille = 1.3
 icone = "minecraft:emerald_block"
 taches = ["checkmark Mon village tourne"]
