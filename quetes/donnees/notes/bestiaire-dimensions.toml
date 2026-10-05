@@ -1,0 +1,94 @@
+# Notes du Bestiaire — dimensions (5 octobre 2026). Une voie par créature
+# sans biome dans les données, avec sa pièce en commentaire.
+
+# ---- Twilight Forest : références TFEntities.<NOM> dans les classes de
+# structure du jar 4.3.2508 (javap, scan du 5 octobre).
+# HollowHillStructure / HollowHillComponent
+[note."twilightforest:redcap"]
+apparition = "dans les collines creuses"
+[note."twilightforest:redcap_sapper"]
+apparition = "dans les collines creuses et le bastion des Gobelins"
+[note."twilightforest:wraith"]
+apparition = "dans les collines creuses"
+[note."twilightforest:fire_beetle"]
+apparition = "dans les collines creuses et le labyrinthe du marais"
+[note."twilightforest:slime_beetle"]
+apparition = "dans les collines creuses, le labyrinthe et le bastion des Gobelins"
+[note."twilightforest:pinch_beetle"]
+apparition = "dans les collines creuses, le labyrinthe et la tour sombre"
+[note."twilightforest:swarm_spider"]
+apparition = "dans les collines creuses, le labyrinthe de haies et la tour de la Liche"
+# HedgeMazeComponent, lichtower/TowerWingComponent
+[note."twilightforest:hedge_spider"]
+apparition = "dans le labyrinthe de haies et la tour de la Liche"
+[note."twilightforest:hostile_wolf"]
+apparition = "dans le labyrinthe de haies"
+# LabyrinthStructure, minotaurmaze/MazeRoomSpawnerChestsComponent
+[note."twilightforest:minotaur"]
+apparition = "dans le labyrinthe du marais"
+[note."twilightforest:maze_slime"]
+apparition = "dans le labyrinthe du marais"
+# LichTowerStructure, TomeSpawnerBlockEntity
+[note."twilightforest:death_tome"]
+apparition = "dans la tour de la Liche, par ses générateurs de tomes"
+# KnightStrongholdStructure, StrongholdTreasureRoomComponent
+[note."twilightforest:blockchain_goblin"]
+apparition = "dans le bastion des Gobelins"
+[note."twilightforest:lower_goblin_knight"]
+apparition = "dans le bastion des Gobelins"
+[note."twilightforest:helmet_crab"]
+apparition = "dans le bastion des Gobelins"
+# DarkTowerStructure, darktower/*
+[note."twilightforest:carminite_broodling"]
+apparition = "dans la tour sombre"
+[note."twilightforest:carminite_ghastguard"]
+apparition = "dans la tour sombre"
+[note."twilightforest:carminite_ghastling"]
+apparition = "dans la tour sombre"
+[note."twilightforest:carminite_golem"]
+apparition = "dans la tour sombre"
+# InfestedTowerwoodBlock : le bois de tour infesté de la tour sombre.
+[note."twilightforest:towerwood_borer"]
+apparition = "en cassant du bois de tour infesté, dans la tour sombre"
+# AuroraPalaceStructure
+[note."twilightforest:snow_guardian"]
+apparition = "dans le palais des aurores"
+[note."twilightforest:stable_ice_core"]
+apparition = "dans le palais des aurores"
+[note."twilightforest:unstable_ice_core"]
+apparition = "dans le palais des aurores"
+# TrollCaveStructure, trollcave/CloudCastleComponent
+[note."twilightforest:troll"]
+apparition = "dans les grottes des trolls"
+[note."twilightforest:armored_giant"]
+apparition = "dans le château des nuages, au-dessus des grottes des trolls"
+[note."twilightforest:giant_miner"]
+apparition = "dans le château des nuages, au-dessus des grottes des trolls"
+# QuestGrove
+[note."twilightforest:quest_ram"]
+apparition = "dans la clairière des quêtes de la Forêt enchantée"
+
+# ---- Aether : classes du jar aether.
+# SunSpirit (dungeon/boss) invoque les serviteurs de feu.
+[note."aether:fire_minion"]
+apparition = "invoqué par l'Esprit du Soleil, dans le donjon d'or"
+# ChestMimicBlock (block/dungeon) : coffre des donjons qui se réveille.
+[note."aether:mimic"]
+apparition = "un coffre de donjon qui se réveille quand on l'ouvre"
+# BronzeDungeonRoomMixin (Aether Redux) et blocs de donjon : sentinelles du donjon de bronze.
+[note."aether:sentry"]
+apparition = "dans le donjon de bronze"
+# Chapitre Aether, quête « Le donjon d'argent » : les Valkyries le gardent.
+[note."aether:valkyrie"]
+apparition = "dans le donjon d'argent"
+
+# ---- Blue Skies : classes du jar.
+# GatekeeperHouseStructure$Piece
+[note."blue_skies:gatekeeper"]
+apparition = "dans sa maison, dans l'Overworld"
+
+# ---- Deeper and Darker : InfestedSculkBlock (le sculk infesté libère la créature).
+[note."deeperdarker:sculk_leech"]
+apparition = "en cassant du sculk infesté"
+[note."deeperdarker:shriek_worm"]
+apparition = "en cassant du sculk infesté"

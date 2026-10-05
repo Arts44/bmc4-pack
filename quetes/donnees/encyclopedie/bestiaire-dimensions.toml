@@ -1,0 +1,1237 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer : notes/bestiaire-dimensions.toml pour les textes.
+
+[chapitre]
+titre = "&7Bestiaire — dimensions"
+fichier = "enc_bestiaire_dimensions"
+groupe = "encyclopedie"
+icone = "aether:aechor_petal"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&7Bestiaire — dimensions"
+taille = 1.5
+icone = "aether:aechor_petal"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Les créatures de l'Aether (avec Deep Aether, Aether Redux et Lost Aether Content), de la Twilight Forest, de l'Everbright et de l'Everdawn, et de l'Otherside. Une quête se valide en &lregardant&r la créature.
+
+Chaque fiche dit ce que les données du pack disent. Les boss sont comptés au défi &cChasseur de boss&r, pas ici.
+"""
+
+[[quete]]
+cle = "aether_aechor_plant"
+titre = "Rencontre : Aechor Plant"
+sous_titre = "Aechor Plant — aether"
+optionnel = true
+icone = "aether:aechor_plant_spawn_egg"
+taches = ["observation entity aether:aechor_plant"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Gilded Grasslands et d'autres.
+"""
+
+[[quete]]
+cle = "aether_aerbunny"
+titre = "Rencontre : Aerbunny"
+sous_titre = "Aerbunny — aether"
+optionnel = true
+icone = "aether:aerbunny_spawn_egg"
+taches = ["observation entity aether:aerbunny"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Ficelle.
+"""
+
+[[quete]]
+cle = "aether_aerwhale"
+titre = "Rencontre : Aerwhale"
+sous_titre = "Aerwhale — aether"
+optionnel = true
+icone = "aether:aerwhale_spawn_egg"
+taches = ["observation entity aether:aerwhale"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : aérobaleine. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+"""
+
+[[quete]]
+cle = "aether_blue_swet"
+titre = "Rencontre : Blue Swet"
+sous_titre = "Blue Swet — aether"
+optionnel = true
+icone = "aether:blue_swet_spawn_egg"
+taches = ["observation entity aether:blue_swet"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+"""
+
+[[quete]]
+cle = "aether_cockatrice"
+titre = "Rencontre : Cockatrice"
+sous_titre = "Cockatrice — aether"
+optionnel = true
+icone = "aether:cockatrice_spawn_egg"
+taches = ["observation entity aether:cockatrice"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres. Butin : Plume.
+"""
+
+[[quete]]
+cle = "aether_evil_whirlwind"
+titre = "Rencontre : Evil Whirlwind"
+sous_titre = "Evil Whirlwind — aether"
+optionnel = true
+icone = "aether:evil_whirlwind_spawn_egg"
+taches = ["observation entity aether:evil_whirlwind"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+"""
+
+[[quete]]
+cle = "aether_fire_minion"
+titre = "Rencontre : Fire Minion"
+sous_titre = "Fire Minion — aether"
+optionnel = true
+icone = "aether:fire_minion_spawn_egg"
+taches = ["observation entity aether:fire_minion"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Apparaît : invoqué par l'Esprit du Soleil, dans le donjon d'or.
+"""
+
+[[quete]]
+cle = "aether_flying_cow"
+titre = "Rencontre : Flying Cow"
+sous_titre = "Flying Cow — aether"
+optionnel = true
+icone = "aether:flying_cow_spawn_egg"
+taches = ["observation entity aether:flying_cow"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Cuir, Boeuf cru.
+"""
+
+[[quete]]
+cle = "aether_golden_swet"
+titre = "Rencontre : Golden Swet"
+sous_titre = "Golden Swet — aether"
+optionnel = true
+icone = "aether:golden_swet_spawn_egg"
+taches = ["observation entity aether:golden_swet"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres. Butin : Pierre lumineuse.
+"""
+
+[[quete]]
+cle = "aether_mimic"
+titre = "Rencontre : Mimic"
+sous_titre = "Mimic — aether"
+optionnel = true
+icone = "aether:mimic_spawn_egg"
+taches = ["observation entity aether:mimic"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Apparaît : un coffre de donjon qui se réveille quand on l'ouvre. Butin : Coffre.
+"""
+
+[[quete]]
+cle = "aether_moa"
+titre = "Rencontre : Moa"
+sous_titre = "Moa — aether"
+optionnel = true
+icone = "aether:moa_spawn_egg"
+taches = ["observation entity aether:moa"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Plume.
+"""
+
+[[quete]]
+cle = "aether_phyg"
+titre = "Rencontre : Phyg"
+sous_titre = "Phyg — aether"
+optionnel = true
+icone = "aether:phyg_spawn_egg"
+taches = ["observation entity aether:phyg"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Côtelette de porc crue, Plume.
+"""
+
+[[quete]]
+cle = "aether_sentry"
+titre = "Rencontre : Sentry"
+sous_titre = "Sentry — aether"
+optionnel = true
+icone = "aether:sentry_spawn_egg"
+taches = ["observation entity aether:sentry"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Apparaît : dans le donjon de bronze.
+"""
+
+[[quete]]
+cle = "aether_sheepuff"
+titre = "Rencontre : Sheepuff"
+sous_titre = "Sheepuff — aether"
+optionnel = true
+icone = "aether:sheepuff_spawn_egg"
+taches = ["observation entity aether:sheepuff"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Mouton cru.
+"""
+
+[[quete]]
+cle = "aether_valkyrie"
+titre = "Rencontre : Valkyrie"
+sous_titre = "Valkyrie — aether"
+optionnel = true
+icone = "aether:valkyrie_spawn_egg"
+taches = ["observation entity aether:valkyrie"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Apparaît : dans le donjon d'argent.
+"""
+
+[[quete]]
+cle = "aether_whirlwind"
+titre = "Rencontre : Whirlwind"
+sous_titre = "Whirlwind — aether"
+optionnel = true
+icone = "aether:whirlwind_spawn_egg"
+taches = ["observation entity aether:whirlwind"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+"""
+
+[[quete]]
+cle = "aether_zephyr"
+titre = "Rencontre : Zephyr"
+sous_titre = "Zephyr — aether"
+optionnel = true
+icone = "aether:zephyr_spawn_egg"
+taches = ["observation entity aether:zephyr"]
+recompenses = ["xp 1"]
+description = """
+Créature de l'&bAether&r. Catégorie : monstre du ciel de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+"""
+
+[[quete]]
+cle = "aether_redux_blightbunny"
+titre = "Rencontre : Blightbunny"
+sous_titre = "Blightbunny — aether_redux"
+optionnel = true
+icone = "aether_redux:blightbunny_spawn_egg"
+taches = ["observation entity aether_redux:blightbunny"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAether Redux&r. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : The Blight.
+"""
+
+[[quete]]
+cle = "aether_redux_mykapod"
+titre = "Rencontre : Mykapod"
+sous_titre = "Mykapod — aether_redux"
+optionnel = true
+icone = "aether_redux:mykapod_spawn_egg"
+taches = ["observation entity aether_redux:mykapod"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAether Redux&r. Catégorie : animal. Monde : Aether. Biomes : Cloudcaps. Butin : Boule de slime.
+"""
+
+[[quete]]
+cle = "aether_redux_shimmercow"
+titre = "Rencontre : Shimmercow"
+sous_titre = "Shimmercow — aether_redux"
+optionnel = true
+icone = "aether_redux:shimmercow_spawn_egg"
+taches = ["observation entity aether_redux:shimmercow"]
+recompenses = ["xp 1"]
+description = """
+Créature d'&bAether Redux&r. Catégorie : animal. Monde : Aether. Biomes : Cloudcaps. Butin : Cuir, Boeuf cru.
+"""
+
+[[quete]]
+cle = "blue_skies_armored_frost_spirit"
+titre = "Rencontre : Esprit gelé renforcé"
+sous_titre = "Esprit gelé renforcé — blue_skies"
+optionnel = true
+icone = "blue_skies:armored_frost_spirit_spawn_egg"
+taches = ["observation entity blue_skies:armored_frost_spirit"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Récif de brimble, Cieux calmes, Océan brillant profond, Forêt oubligelée et d'autres. Butin : Glace.
+"""
+
+[[quete]]
+cle = "blue_skies_azulfo"
+titre = "Rencontre : Azélufo"
+sous_titre = "Azélufo — blue_skies"
+optionnel = true
+icone = "blue_skies:azulfo_spawn_egg"
+taches = ["observation entity blue_skies:azulfo"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Hautes-terres polaires, Terres détrempées, Pins neigeux. Butin : Caraboeuf cru, Corne d'azélufo.
+"""
+
+[[quete]]
+cle = "blue_skies_charscale_moki"
+titre = "Rencontre : Poisson moki"
+sous_titre = "Poisson moki — blue_skies"
+optionnel = true
+icone = "blue_skies:charscale_moki_spawn_egg"
+taches = ["observation entity blue_skies:charscale_moki"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson moki, Poudre d'os.
+"""
+
+[[quete]]
+cle = "blue_skies_cosmic_fox"
+titre = "Rencontre : Renard Cosmique"
+sous_titre = "Renard Cosmique — blue_skies"
+optionnel = true
+icone = "blue_skies:cosmic_fox_spawn_egg"
+taches = ["observation entity blue_skies:cosmic_fox"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Verger de crofruits, Prairie brûlante, Bosquets de l'ombre, Forêt d'érables, Vallée pas très orthodoxe. Butin : Fourrure de renard cosmique, Saumon cru.
+"""
+
+[[quete]]
+cle = "blue_skies_crogre"
+titre = "Rencontre : Crogre"
+sous_titre = "Crogre — blue_skies"
+optionnel = true
+icone = "blue_skies:crogre_spawn_egg"
+taches = ["observation entity blue_skies:crogre"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Bassin lunaire. Butin : Intestins d'instectes.
+"""
+
+[[quete]]
+cle = "blue_skies_crynocerous"
+titre = "Rencontre : Crynocère"
+sous_titre = "Crynocère — blue_skies"
+optionnel = true
+icone = "blue_skies:crynocerous_spawn_egg"
+taches = ["observation entity blue_skies:crynocerous"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Pins neigeux. Butin : Glace.
+"""
+
+[[quete]]
+cle = "blue_skies_crystal_camel"
+titre = "Rencontre : Chameau de cristal"
+sous_titre = "Chameau de cristal — blue_skies"
+optionnel = true
+icone = "blue_skies:crystal_camel_spawn_egg"
+taches = ["observation entity blue_skies:crystal_camel"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal. Butin : Pierre de lune vitreuse, Os.
+"""
+
+[[quete]]
+cle = "blue_skies_diophyde_prowler"
+titre = "Rencontre : Rôdeur diophyde"
+sous_titre = "Rôdeur diophyde — blue_skies"
+optionnel = true
+icone = "blue_skies:diophyde_prowler_spawn_egg"
+taches = ["observation entity blue_skies:diophyde_prowler"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Forêt oubligelée, Lisière de forêt oubligelée, Hautes-terres polaires et d'autres. Butin : Cuir, Poisson marosien.
+"""
+
+[[quete]]
+cle = "blue_skies_emberback"
+titre = "Rencontre : Rétourbeur"
+sous_titre = "Rétourbeur — blue_skies"
+optionnel = true
+icone = "blue_skies:emberback_spawn_egg"
+taches = ["observation entity blue_skies:emberback"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Prairie brûlante, Forêt d'érables, Vallée pas très orthodoxe. Butin : Intestins d'instectes.
+"""
+
+[[quete]]
+cle = "blue_skies_firefly"
+titre = "Rencontre : Luciole"
+sous_titre = "Luciole — blue_skies"
+optionnel = true
+icone = "blue_skies:firefly_spawn_egg"
+taches = ["observation entity blue_skies:firefly"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : créature d'ambiance. Monde : Blue Skies. Biomes : Bosquets de l'ombre. Butin : Poudre lumineuse.
+"""
+
+[[quete]]
+cle = "blue_skies_gatekeeper"
+titre = "Rencontre : Gardien du portail"
+sous_titre = "Gardien du portail — blue_skies"
+optionnel = true
+icone = "blue_skies:gatekeeper_spawn_egg"
+taches = ["observation entity blue_skies:gatekeeper"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Apparaît : dans sa maison, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "blue_skies_grittle_flatfish"
+titre = "Rencontre : Poisson plat"
+sous_titre = "Poisson plat — blue_skies"
+optionnel = true
+icone = "blue_skies:grittle_flatfish_spawn_egg"
+taches = ["observation entity blue_skies:grittle_flatfish"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson plat, Poudre d'os.
+"""
+
+[[quete]]
+cle = "blue_skies_horizofin_tunid"
+titre = "Rencontre : Poisson tunide"
+sous_titre = "Poisson tunide — blue_skies"
+optionnel = true
+icone = "blue_skies:horizofin_tunid_spawn_egg"
+taches = ["observation entity blue_skies:horizofin_tunid"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson tunide, Poudre d'os.
+"""
+
+[[quete]]
+cle = "blue_skies_infested_swarmer"
+titre = "Rencontre : Piqueur infecté"
+sous_titre = "Piqueur infecté — blue_skies"
+optionnel = true
+icone = "blue_skies:infested_swarmer_spawn_egg"
+taches = ["observation entity blue_skies:infested_swarmer"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Verger de crofruits, Lac de verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire et d'autres. Butin : Intestins d'instectes.
+"""
+
+[[quete]]
+cle = "blue_skies_jelly_drifter"
+titre = "Rencontre : Dériveur gélatineux"
+sous_titre = "Dériveur gélatineux — blue_skies"
+optionnel = true
+icone = "blue_skies:jelly_drifter_spawn_egg"
+taches = ["observation entity blue_skies:jelly_drifter"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant.
+"""
+
+[[quete]]
+cle = "blue_skies_municipal_monkfish"
+titre = "Rencontre : Poisson marosien"
+sous_titre = "Poisson marosien — blue_skies"
+optionnel = true
+icone = "blue_skies:municipal_monkfish_spawn_egg"
+taches = ["observation entity blue_skies:municipal_monkfish"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson marosien, Poudre d'os.
+"""
+
+[[quete]]
+cle = "blue_skies_nyctofly"
+titre = "Rencontre : Nycto-insecte"
+sous_titre = "Nycto-insecte — blue_skies"
+optionnel = true
+icone = "blue_skies:nyctofly_spawn_egg"
+taches = ["observation entity blue_skies:nyctofly"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Bassin lunaire, Bosquets de l'ombre. Butin : Intestins d'instectes, Boule de slime.
+"""
+
+[[quete]]
+cle = "blue_skies_polargeist"
+titre = "Rencontre : Polirours"
+sous_titre = "Polirours — blue_skies"
+optionnel = true
+icone = "blue_skies:polargeist_spawn_egg"
+taches = ["observation entity blue_skies:polargeist"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Forêt oubligelée, Lisière de forêt oubligelée, Hautes-terres polaires et d'autres. Butin : Éclat d'âme.
+"""
+
+[[quete]]
+cle = "blue_skies_reindeer"
+titre = "Rencontre : Renne"
+sous_titre = "Renne — blue_skies"
+optionnel = true
+icone = "blue_skies:reindeer_spawn_egg"
+taches = ["observation entity blue_skies:reindeer"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Pins neigeux. Butin : Gibier cru.
+"""
+
+[[quete]]
+cle = "blue_skies_seclam"
+titre = "Rencontre : Séclame"
+sous_titre = "Séclame — blue_skies"
+optionnel = true
+icone = "blue_skies:seclam_spawn_egg"
+taches = ["observation entity blue_skies:seclam"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant.
+"""
+
+[[quete]]
+cle = "blue_skies_shade_monitor"
+titre = "Rencontre : Cristodile"
+sous_titre = "Cristodile — blue_skies"
+optionnel = true
+icone = "blue_skies:shade_monitor_spawn_egg"
+taches = ["observation entity blue_skies:shade_monitor"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire, Prairie brûlante et d'autres. Butin : Viande de cristodile crue.
+"""
+
+[[quete]]
+cle = "blue_skies_shrumpty"
+titre = "Rencontre : Champistrêle"
+sous_titre = "Champistrêle — blue_skies"
+optionnel = true
+icone = "blue_skies:shrumpty_spawn_egg"
+taches = ["observation entity blue_skies:shrumpty"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Terres détrempées. Butin : Pinétête neigeuse.
+"""
+
+[[quete]]
+cle = "blue_skies_sliv"
+titre = "Rencontre : Silve"
+sous_titre = "Silve — blue_skies"
+optionnel = true
+icone = "blue_skies:sliv_spawn_egg"
+taches = ["observation entity blue_skies:sliv"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Prairie brûlante, Forêt d'érables.
+"""
+
+[[quete]]
+cle = "blue_skies_snow_owl"
+titre = "Rencontre : Chouette des neiges"
+sous_titre = "Chouette des neiges — blue_skies"
+optionnel = true
+icone = "blue_skies:snow_owl_spawn_egg"
+taches = ["observation entity blue_skies:snow_owl"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Forêt oubligelée, Lisière de forêt oubligelée. Butin : Plume.
+"""
+
+[[quete]]
+cle = "blue_skies_spewter"
+titre = "Rencontre : Prouteur"
+sous_titre = "Prouteur — blue_skies"
+optionnel = true
+icone = "blue_skies:spewter_spawn_egg"
+taches = ["observation entity blue_skies:spewter"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Apparaît : dans des structures de Blue Skies. Butin : Boule de slime.
+"""
+
+[[quete]]
+cle = "blue_skies_stardust_ram"
+titre = "Rencontre : Bélier des étoiles"
+sous_titre = "Bélier des étoiles — blue_skies"
+optionnel = true
+icone = "blue_skies:stardust_ram_spawn_egg"
+taches = ["observation entity blue_skies:stardust_ram"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Hautes-terres polaires, Terres détrempées, Pins neigeux. Butin : Mouton cru.
+"""
+
+[[quete]]
+cle = "blue_skies_stonelet"
+titre = "Rencontre : Automate"
+sous_titre = "Automate — blue_skies"
+optionnel = true
+icone = "blue_skies:stonelet_spawn_egg"
+taches = ["observation entity blue_skies:stonelet"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Apparaît : dans des structures de Blue Skies. Butin : Pierre naturelle, Lianes d'étoilibois.
+"""
+
+[[quete]]
+cle = "blue_skies_venom_spider"
+titre = "Rencontre : Araignée pérenne"
+sous_titre = "Araignée pérenne — blue_skies"
+optionnel = true
+icone = "blue_skies:venom_spider_spawn_egg"
+taches = ["observation entity blue_skies:venom_spider"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Verger de crofruits, Lac de verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire et d'autres. Butin : Ficelle, Oeil d'araignée, Intestins d'instectes.
+"""
+
+[[quete]]
+cle = "blue_skies_whistleshell_crab"
+titre = "Rencontre : Dobcrabe"
+sous_titre = "Dobcrabe — blue_skies"
+optionnel = true
+icone = "blue_skies:whistleshell_crab_spawn_egg"
+taches = ["observation entity blue_skies:whistleshell_crab"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Plages de demi-journée, Océan brillant.
+"""
+
+[[quete]]
+cle = "deep_aether_quail"
+titre = "Rencontre : Quail"
+sous_titre = "Quail — deep_aether"
+optionnel = true
+icone = "deep_aether:quail_spawn_egg"
+taches = ["observation entity deep_aether:quail"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bDeep Aether&r. Biomes : can quail spawn. Butin : Plume.
+"""
+
+[[quete]]
+cle = "deep_aether_venomite"
+titre = "Rencontre : Venomite"
+sous_titre = "Venomite — deep_aether"
+optionnel = true
+icone = "deep_aether:venomite_spawn_egg"
+taches = ["observation entity deep_aether:venomite"]
+recompenses = ["xp 1"]
+description = """
+Créature de &bDeep Aether&r. Catégorie : animal. Monde : Aether. Biomes : Yagroot Swamp.
+"""
+
+[[quete]]
+cle = "deeperdarker_angler_fish"
+titre = "Rencontre : Angler Fish"
+sous_titre = "Angler Fish — deeperdarker"
+optionnel = true
+icone = "deeperdarker:angler_fish_spawn_egg"
+taches = ["observation entity deeperdarker:angler_fish"]
+recompenses = ["xp 1"]
+description = """
+Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns.
+"""
+
+[[quete]]
+cle = "deeperdarker_sculk_centipede"
+titre = "Rencontre : Mille-pattes de sculk"
+sous_titre = "Mille-pattes de sculk — deeperdarker"
+optionnel = true
+icone = "deeperdarker:sculk_centipede_spawn_egg"
+taches = ["observation entity deeperdarker:sculk_centipede"]
+recompenses = ["xp 1"]
+description = """
+Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Deeplands. Butin : Ficelle.
+"""
+
+[[quete]]
+cle = "deeperdarker_sculk_leech"
+titre = "Rencontre : Sangsue de sculk"
+sous_titre = "Sangsue de sculk — deeperdarker"
+optionnel = true
+icone = "deeperdarker:sculk_leech_spawn_egg"
+taches = ["observation entity deeperdarker:sculk_leech"]
+recompenses = ["xp 1"]
+description = """
+Créature de &3Deeper and Darker&r. Apparaît : en cassant du sculk infesté. Butin : Poussière d'âmes.
+"""
+
+[[quete]]
+cle = "deeperdarker_sculk_snapper"
+titre = "Rencontre : Mordeur de sculk"
+sous_titre = "Mordeur de sculk — deeperdarker"
+optionnel = true
+icone = "deeperdarker:sculk_snapper_spawn_egg"
+taches = ["observation entity deeperdarker:sculk_snapper"]
+recompenses = ["xp 1"]
+description = """
+Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns, Deeplands, Echoing Forest. Butin : Poussière d'âmes.
+"""
+
+[[quete]]
+cle = "deeperdarker_shattered"
+titre = "Rencontre : Shattered"
+sous_titre = "Shattered — deeperdarker"
+optionnel = true
+icone = "deeperdarker:shattered_spawn_egg"
+taches = ["observation entity deeperdarker:shattered"]
+recompenses = ["xp 1"]
+description = """
+Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Deeplands, Echoing Forest. Butin : Os de sculk.
+"""
+
+[[quete]]
+cle = "deeperdarker_shriek_worm"
+titre = "Rencontre : Ver hurleur"
+sous_titre = "Ver hurleur — deeperdarker"
+optionnel = true
+icone = "deeperdarker:shriek_worm_spawn_egg"
+taches = ["observation entity deeperdarker:shriek_worm"]
+recompenses = ["xp 1"]
+description = """
+Créature de &3Deeper and Darker&r. Apparaît : en cassant du sculk infesté.
+"""
+
+[[quete]]
+cle = "deeperdarker_sludge"
+titre = "Rencontre : Sludge"
+sous_titre = "Sludge — deeperdarker"
+optionnel = true
+icone = "deeperdarker:sludge_spawn_egg"
+taches = ["observation entity deeperdarker:sludge"]
+recompenses = ["xp 1"]
+description = """
+Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns.
+"""
+
+[[quete]]
+cle = "twilightforest_armored_giant"
+titre = "Rencontre : Géant en armure"
+sous_titre = "Géant en armure — twilightforest"
+optionnel = true
+icone = "twilightforest:armored_giant_spawn_egg"
+taches = ["observation entity twilightforest:armored_giant"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le château des nuages, au-dessus des grottes des trolls. Butin : Épée de géant.
+"""
+
+[[quete]]
+cle = "twilightforest_bighorn_sheep"
+titre = "Rencontre : Mouflon d'Amérique"
+sous_titre = "Mouflon d'Amérique — twilightforest"
+optionnel = true
+icone = "twilightforest:bighorn_sheep_spawn_egg"
+taches = ["observation entity twilightforest:bighorn_sheep"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
+"""
+
+[[quete]]
+cle = "twilightforest_blockchain_goblin"
+titre = "Rencontre : Goblin de bloc et chaîne"
+sous_titre = "Goblin de bloc et chaîne — twilightforest"
+optionnel = true
+icone = "twilightforest:blockchain_goblin_spawn_egg"
+taches = ["observation entity twilightforest:blockchain_goblin"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure.
+"""
+
+[[quete]]
+cle = "twilightforest_boar"
+titre = "Rencontre : Boar"
+sous_titre = "Boar — twilightforest"
+optionnel = true
+icone = "twilightforest:boar_spawn_egg"
+taches = ["observation entity twilightforest:boar"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Côtelette de porc crue.
+"""
+
+[[quete]]
+cle = "twilightforest_carminite_broodling"
+titre = "Rencontre : Carminite couveuse"
+sous_titre = "Carminite couveuse — twilightforest"
+optionnel = true
+icone = "twilightforest:carminite_broodling_spawn_egg"
+taches = ["observation entity twilightforest:carminite_broodling"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans la tour sombre.
+"""
+
+[[quete]]
+cle = "twilightforest_carminite_ghastguard"
+titre = "Rencontre : Carminite Ghastguard"
+sous_titre = "Carminite Ghastguard — twilightforest"
+optionnel = true
+icone = "twilightforest:carminite_ghastguard_spawn_egg"
+taches = ["observation entity twilightforest:carminite_ghastguard"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans la tour sombre.
+"""
+
+[[quete]]
+cle = "twilightforest_carminite_ghastling"
+titre = "Rencontre : Carminite Ghastling"
+sous_titre = "Carminite Ghastling — twilightforest"
+optionnel = true
+icone = "twilightforest:carminite_ghastling_spawn_egg"
+taches = ["observation entity twilightforest:carminite_ghastling"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans la tour sombre.
+"""
+
+[[quete]]
+cle = "twilightforest_carminite_golem"
+titre = "Rencontre : Golem Carminite"
+sous_titre = "Golem Carminite — twilightforest"
+optionnel = true
+icone = "twilightforest:carminite_golem_spawn_egg"
+taches = ["observation entity twilightforest:carminite_golem"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans la tour sombre. Butin : Lingot de fer, Planches de Towerwood.
+"""
+
+[[quete]]
+cle = "twilightforest_death_tome"
+titre = "Rencontre : Tome de mort"
+sous_titre = "Tome de mort — twilightforest"
+optionnel = true
+icone = "twilightforest:death_tome_spawn_egg"
+taches = ["observation entity twilightforest:death_tome"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans la tour de la Liche, par ses générateurs de tomes. Butin : Papier, Livre et plume, Livre, Foyer de carte magique.
+"""
+
+[[quete]]
+cle = "twilightforest_deer"
+titre = "Rencontre : Deer"
+sous_titre = "Deer — twilightforest"
+optionnel = true
+icone = "twilightforest:deer_spawn_egg"
+taches = ["observation entity twilightforest:deer"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Cuir, Chevreuil cru.
+"""
+
+[[quete]]
+cle = "twilightforest_dwarf_rabbit"
+titre = "Rencontre : Lapin nain"
+sous_titre = "Lapin nain — twilightforest"
+optionnel = true
+icone = "twilightforest:dwarf_rabbit_spawn_egg"
+taches = ["observation entity twilightforest:dwarf_rabbit"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
+"""
+
+[[quete]]
+cle = "twilightforest_fire_beetle"
+titre = "Rencontre : Coléoptère de feu"
+sous_titre = "Coléoptère de feu — twilightforest"
+optionnel = true
+icone = "twilightforest:fire_beetle_spawn_egg"
+taches = ["observation entity twilightforest:fire_beetle"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses et le labyrinthe du marais.
+"""
+
+[[quete]]
+cle = "twilightforest_giant_miner"
+titre = "Rencontre : Mineur géant"
+sous_titre = "Mineur géant — twilightforest"
+optionnel = true
+icone = "twilightforest:giant_miner_spawn_egg"
+taches = ["observation entity twilightforest:giant_miner"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le château des nuages, au-dessus des grottes des trolls. Butin : Pioche de géant.
+"""
+
+[[quete]]
+cle = "twilightforest_hedge_spider"
+titre = "Rencontre : Araignée des haies"
+sous_titre = "Araignée des haies — twilightforest"
+optionnel = true
+icone = "twilightforest:hedge_spider_spawn_egg"
+taches = ["observation entity twilightforest:hedge_spider"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le labyrinthe de haies et la tour de la Liche.
+"""
+
+[[quete]]
+cle = "twilightforest_helmet_crab"
+titre = "Rencontre : Casque crabe"
+sous_titre = "Casque crabe — twilightforest"
+optionnel = true
+icone = "twilightforest:helmet_crab_spawn_egg"
+taches = ["observation entity twilightforest:helmet_crab"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure, Morue crue.
+"""
+
+[[quete]]
+cle = "twilightforest_hostile_wolf"
+titre = "Rencontre : Loup hostile"
+sous_titre = "Loup hostile — twilightforest"
+optionnel = true
+icone = "twilightforest:hostile_wolf_spawn_egg"
+taches = ["observation entity twilightforest:hostile_wolf"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le labyrinthe de haies.
+"""
+
+[[quete]]
+cle = "twilightforest_king_spider"
+titre = "Rencontre : Reine des araignées"
+sous_titre = "Reine des araignées — twilightforest"
+optionnel = true
+icone = "twilightforest:king_spider_spawn_egg"
+taches = ["observation entity twilightforest:king_spider"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre.
+"""
+
+[[quete]]
+cle = "twilightforest_kobold"
+titre = "Rencontre : Kobold"
+sous_titre = "Kobold — twilightforest"
+optionnel = true
+icone = "twilightforest:kobold_spawn_egg"
+taches = ["observation entity twilightforest:kobold"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre, Souterrain. Butin : Blé, Pépite d'or.
+"""
+
+[[quete]]
+cle = "twilightforest_lower_goblin_knight"
+titre = "Rencontre : Chevalier goblin inférieur"
+sous_titre = "Chevalier goblin inférieur — twilightforest"
+optionnel = true
+icone = "twilightforest:lower_goblin_knight_spawn_egg"
+taches = ["observation entity twilightforest:lower_goblin_knight"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure.
+"""
+
+[[quete]]
+cle = "twilightforest_maze_slime"
+titre = "Rencontre : Slime du labyrinthe"
+sous_titre = "Slime du labyrinthe — twilightforest"
+optionnel = true
+icone = "twilightforest:maze_slime_spawn_egg"
+taches = ["observation entity twilightforest:maze_slime"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le labyrinthe du marais. Butin : Boule de slime, Charme de Keeping I.
+"""
+
+[[quete]]
+cle = "twilightforest_minotaur"
+titre = "Rencontre : Minotaure"
+sous_titre = "Minotaure — twilightforest"
+optionnel = true
+icone = "twilightforest:minotaur_spawn_egg"
+taches = ["observation entity twilightforest:minotaur"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le labyrinthe du marais. Butin : Viande de Meef crue, Foyer de carte de labyrinthe.
+"""
+
+[[quete]]
+cle = "twilightforest_mist_wolf"
+titre = "Rencontre : Loup de la brume"
+sous_titre = "Loup de la brume — twilightforest"
+optionnel = true
+icone = "twilightforest:mist_wolf_spawn_egg"
+taches = ["observation entity twilightforest:mist_wolf"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre.
+"""
+
+[[quete]]
+cle = "twilightforest_mosquito_swarm"
+titre = "Rencontre : Essaim de moustiques"
+sous_titre = "Essaim de moustiques — twilightforest"
+optionnel = true
+icone = "twilightforest:mosquito_swarm_spawn_egg"
+taches = ["observation entity twilightforest:mosquito_swarm"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Marécage du Crépuscule.
+"""
+
+[[quete]]
+cle = "twilightforest_penguin"
+titre = "Rencontre : Manchot"
+sous_titre = "Manchot — twilightforest"
+optionnel = true
+icone = "twilightforest:penguin_spawn_egg"
+taches = ["observation entity twilightforest:penguin"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Glacier du Crépuscule. Butin : Plume.
+"""
+
+[[quete]]
+cle = "twilightforest_pinch_beetle"
+titre = "Rencontre : Coléoptère"
+sous_titre = "Coléoptère — twilightforest"
+optionnel = true
+icone = "twilightforest:pinch_beetle_spawn_egg"
+taches = ["observation entity twilightforest:pinch_beetle"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses, le labyrinthe et la tour sombre.
+"""
+
+[[quete]]
+cle = "twilightforest_quest_ram"
+titre = "Rencontre : Bélier de quête"
+sous_titre = "Bélier de quête — twilightforest"
+optionnel = true
+icone = "twilightforest:quest_ram_spawn_egg"
+taches = ["observation entity twilightforest:quest_ram"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans la clairière des quêtes de la Forêt enchantée.
+"""
+
+[[quete]]
+cle = "twilightforest_raven"
+titre = "Rencontre : Raven"
+sous_titre = "Raven — twilightforest"
+optionnel = true
+icone = "twilightforest:raven_spawn_egg"
+taches = ["observation entity twilightforest:raven"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Plateau Final, Forêt des Lucioles et d'autres. Butin : Plume de corbeau.
+"""
+
+[[quete]]
+cle = "twilightforest_redcap"
+titre = "Rencontre : Redcap"
+sous_titre = "Redcap — twilightforest"
+optionnel = true
+icone = "twilightforest:redcap_spawn_egg"
+taches = ["observation entity twilightforest:redcap"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses. Butin : Charbon.
+"""
+
+[[quete]]
+cle = "twilightforest_redcap_sapper"
+titre = "Rencontre : Sapeur à casquette rouge"
+sous_titre = "Sapeur à casquette rouge — twilightforest"
+optionnel = true
+icone = "twilightforest:redcap_sapper_spawn_egg"
+taches = ["observation entity twilightforest:redcap_sapper"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses et le bastion des Gobelins.
+"""
+
+[[quete]]
+cle = "twilightforest_skeleton_druid"
+titre = "Rencontre : Squelette de druide"
+sous_titre = "Squelette de druide — twilightforest"
+optionnel = true
+icone = "twilightforest:skeleton_druid_spawn_egg"
+taches = ["observation entity twilightforest:skeleton_druid"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre, Forêt effrayante. Butin : Os, Torche des baies.
+"""
+
+[[quete]]
+cle = "twilightforest_slime_beetle"
+titre = "Rencontre : Coléoptère visqueux"
+sous_titre = "Coléoptère visqueux — twilightforest"
+optionnel = true
+icone = "twilightforest:slime_beetle_spawn_egg"
+taches = ["observation entity twilightforest:slime_beetle"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses, le labyrinthe et le bastion des Gobelins. Butin : Boule de slime.
+"""
+
+[[quete]]
+cle = "twilightforest_snow_guardian"
+titre = "Rencontre : Gardin de la neige"
+sous_titre = "Gardin de la neige — twilightforest"
+optionnel = true
+icone = "twilightforest:snow_guardian_spawn_egg"
+taches = ["observation entity twilightforest:snow_guardian"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le palais des aurores. Butin : Boule de neige.
+"""
+
+[[quete]]
+cle = "twilightforest_squirrel"
+titre = "Rencontre : Squirrel"
+sous_titre = "Squirrel — twilightforest"
+optionnel = true
+icone = "twilightforest:squirrel_spawn_egg"
+taches = ["observation entity twilightforest:squirrel"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
+"""
+
+[[quete]]
+cle = "twilightforest_stable_ice_core"
+titre = "Rencontre : Coeur de glace stable"
+sous_titre = "Coeur de glace stable — twilightforest"
+optionnel = true
+icone = "twilightforest:stable_ice_core_spawn_egg"
+taches = ["observation entity twilightforest:stable_ice_core"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le palais des aurores. Butin : Boule de neige.
+"""
+
+[[quete]]
+cle = "twilightforest_swarm_spider"
+titre = "Rencontre : Essaim d'araignées"
+sous_titre = "Essaim d'araignées — twilightforest"
+optionnel = true
+icone = "twilightforest:swarm_spider_spawn_egg"
+taches = ["observation entity twilightforest:swarm_spider"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses, le labyrinthe de haies et la tour de la Liche.
+"""
+
+[[quete]]
+cle = "twilightforest_tiny_bird"
+titre = "Rencontre : Petit oiseau"
+sous_titre = "Petit oiseau — twilightforest"
+optionnel = true
+icone = "twilightforest:tiny_bird_spawn_egg"
+taches = ["observation entity twilightforest:tiny_bird"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Plume.
+"""
+
+[[quete]]
+cle = "twilightforest_towerwood_borer"
+titre = "Rencontre : Foreur de la Towerwood"
+sous_titre = "Foreur de la Towerwood — twilightforest"
+optionnel = true
+icone = "twilightforest:towerwood_borer_spawn_egg"
+taches = ["observation entity twilightforest:towerwood_borer"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : en cassant du bois de tour infesté, dans la tour sombre. Butin : Essence de foreur.
+"""
+
+[[quete]]
+cle = "twilightforest_troll"
+titre = "Rencontre : Troll"
+sous_titre = "Troll — twilightforest"
+optionnel = true
+icone = "twilightforest:troll_spawn_egg"
+taches = ["observation entity twilightforest:troll"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans les grottes des trolls. Butin : Haricots magiques.
+"""
+
+[[quete]]
+cle = "twilightforest_unstable_ice_core"
+titre = "Rencontre : Coeur de glace instable"
+sous_titre = "Coeur de glace instable — twilightforest"
+optionnel = true
+icone = "twilightforest:unstable_ice_core_spawn_egg"
+taches = ["observation entity twilightforest:unstable_ice_core"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans le palais des aurores. Butin : Boule de neige.
+"""
+
+[[quete]]
+cle = "twilightforest_winter_wolf"
+titre = "Rencontre : Loup d'hiver"
+sous_titre = "Loup d'hiver — twilightforest"
+optionnel = true
+icone = "twilightforest:winter_wolf_spawn_egg"
+taches = ["observation entity twilightforest:winter_wolf"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Enneigé. Butin : Fourrure arctique.
+"""
+
+[[quete]]
+cle = "twilightforest_wraith"
+titre = "Rencontre : Wraith"
+sous_titre = "Wraith — twilightforest"
+optionnel = true
+icone = "twilightforest:wraith_spawn_egg"
+taches = ["observation entity twilightforest:wraith"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses. Butin : Poudre lumineuse.
+"""
+
+[[quete]]
+cle = "twilightforest_yeti"
+titre = "Rencontre : Yéti"
+sous_titre = "Yéti — twilightforest"
+optionnel = true
+icone = "twilightforest:yeti_spawn_egg"
+taches = ["observation entity twilightforest:yeti"]
+recompenses = ["xp 1"]
+description = """
+Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Enneigé. Butin : Fourrure arctique.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "twilightforest:naga_trophy"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["aether_aechor_plant", "aether_aerbunny", "aether_aerwhale", "aether_blue_swet", "aether_cockatrice", "aether_evil_whirlwind", "aether_fire_minion", "aether_flying_cow", "aether_golden_swet", "aether_mimic", "aether_moa", "aether_phyg", "aether_sentry", "aether_sheepuff", "aether_valkyrie", "aether_whirlwind", "aether_zephyr", "aether_redux_blightbunny", "aether_redux_mykapod", "aether_redux_shimmercow", "blue_skies_armored_frost_spirit", "blue_skies_azulfo", "blue_skies_charscale_moki", "blue_skies_cosmic_fox", "blue_skies_crogre", "blue_skies_crynocerous", "blue_skies_crystal_camel", "blue_skies_diophyde_prowler", "blue_skies_emberback", "blue_skies_firefly", "blue_skies_gatekeeper", "blue_skies_grittle_flatfish", "blue_skies_horizofin_tunid", "blue_skies_infested_swarmer", "blue_skies_jelly_drifter", "blue_skies_municipal_monkfish", "blue_skies_nyctofly", "blue_skies_polargeist", "blue_skies_reindeer", "blue_skies_seclam", "blue_skies_shade_monitor", "blue_skies_shrumpty", "blue_skies_sliv", "blue_skies_snow_owl", "blue_skies_spewter", "blue_skies_stardust_ram", "blue_skies_stonelet", "blue_skies_venom_spider", "blue_skies_whistleshell_crab", "deep_aether_quail", "deep_aether_venomite", "deeperdarker_angler_fish", "deeperdarker_sculk_centipede", "deeperdarker_sculk_leech", "deeperdarker_sculk_snapper", "deeperdarker_shattered", "deeperdarker_shriek_worm", "deeperdarker_sludge", "twilightforest_armored_giant", "twilightforest_bighorn_sheep", "twilightforest_blockchain_goblin", "twilightforest_boar", "twilightforest_carminite_broodling", "twilightforest_carminite_ghastguard", "twilightforest_carminite_ghastling", "twilightforest_carminite_golem", "twilightforest_death_tome", "twilightforest_deer", "twilightforest_dwarf_rabbit", "twilightforest_fire_beetle", "twilightforest_giant_miner", "twilightforest_hedge_spider", "twilightforest_helmet_crab", "twilightforest_hostile_wolf", "twilightforest_king_spider", "twilightforest_kobold", "twilightforest_lower_goblin_knight", "twilightforest_maze_slime", "twilightforest_minotaur", "twilightforest_mist_wolf", "twilightforest_mosquito_swarm", "twilightforest_penguin", "twilightforest_pinch_beetle", "twilightforest_quest_ram", "twilightforest_raven", "twilightforest_redcap", "twilightforest_redcap_sapper", "twilightforest_skeleton_druid", "twilightforest_slime_beetle", "twilightforest_snow_guardian", "twilightforest_squirrel", "twilightforest_stable_ice_core", "twilightforest_swarm_spider", "twilightforest_tiny_bird", "twilightforest_towerwood_borer", "twilightforest_troll", "twilightforest_unstable_ice_core", "twilightforest_winter_wolf", "twilightforest_wraith", "twilightforest_yeti"]
+description = """
+Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
+"""

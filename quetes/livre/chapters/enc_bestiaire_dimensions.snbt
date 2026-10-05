@@ -1,0 +1,2459 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_bestiaire_dimensions"
+	group: "34D36ACF0DABCCEC"
+	icon: "aether:aechor_petal"
+	id: "61366177DEECE625"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Les créatures de l'Aether (avec Deep Aether, Aether Redux et Lost Aether Content), de la Twilight Forest, de l'Everbright et de l'Everdawn, et de l'Otherside. Une quête se valide en &lregardant&r la créature."
+				""
+				"Chaque fiche dit ce que les données du pack disent. Les boss sont comptés au défi &cChasseur de boss&r, pas ici."
+			]
+			icon: "aether:aechor_petal"
+			id: "129F06E0D6234BBB"
+			rewards: [{
+				id: "653B6C21B67DD4BC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "61A1F3E65C8FCFA5"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&7Bestiaire — dimensions"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Gilded Grasslands et d'autres."]
+			icon: "aether:aechor_plant_spawn_egg"
+			id: "23EFB5B5BA1239CD"
+			optional: true
+			rewards: [{
+				id: "367BD3677FA6530B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Aechor Plant — aether"
+			tasks: [{
+				id: "628DDDB4537E92FE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:aechor_plant"
+				type: "observation"
+			}]
+			title: "Rencontre : Aechor Plant"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Ficelle."]
+			icon: "aether:aerbunny_spawn_egg"
+			id: "0953B5ED960E9136"
+			optional: true
+			rewards: [{
+				id: "7E2BD9309A2D0303"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Aerbunny — aether"
+			tasks: [{
+				id: "20B26D1377BE322E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:aerbunny"
+				type: "observation"
+			}]
+			title: "Rencontre : Aerbunny"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : aérobaleine. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres."]
+			icon: "aether:aerwhale_spawn_egg"
+			id: "5A13D1A10C50DA0C"
+			optional: true
+			rewards: [{
+				id: "06E104385618326D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Aerwhale — aether"
+			tasks: [{
+				id: "3E91892D6A892E68"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:aerwhale"
+				type: "observation"
+			}]
+			title: "Rencontre : Aerwhale"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres."]
+			icon: "aether:blue_swet_spawn_egg"
+			id: "6047279A6A46F41C"
+			optional: true
+			rewards: [{
+				id: "07518443118FD821"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Swet — aether"
+			tasks: [{
+				id: "4F63CE7BB741BAE2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:blue_swet"
+				type: "observation"
+			}]
+			title: "Rencontre : Blue Swet"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres. Butin : Plume."]
+			icon: "aether:cockatrice_spawn_egg"
+			id: "45564BE8BC7D5A84"
+			optional: true
+			rewards: [{
+				id: "0C6C38BDC99CB9BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cockatrice — aether"
+			tasks: [{
+				id: "0C122537028E90E3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:cockatrice"
+				type: "observation"
+			}]
+			title: "Rencontre : Cockatrice"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres."]
+			icon: "aether:evil_whirlwind_spawn_egg"
+			id: "4B8CEFA528A6354F"
+			optional: true
+			rewards: [{
+				id: "68880513F562403D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Evil Whirlwind — aether"
+			tasks: [{
+				id: "29C44F1D9F751D97"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:evil_whirlwind"
+				type: "observation"
+			}]
+			title: "Rencontre : Evil Whirlwind"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Apparaît : invoqué par l'Esprit du Soleil, dans le donjon d'or."]
+			icon: "aether:fire_minion_spawn_egg"
+			id: "2C921EB6B5838FD5"
+			optional: true
+			rewards: [{
+				id: "4A36679F56FCBB36"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Fire Minion — aether"
+			tasks: [{
+				id: "08EC9FD92B73BF0F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:fire_minion"
+				type: "observation"
+			}]
+			title: "Rencontre : Fire Minion"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Cuir, Boeuf cru."]
+			icon: "aether:flying_cow_spawn_egg"
+			id: "192CF6C2A0129E8E"
+			optional: true
+			rewards: [{
+				id: "2B9E8E768214FB17"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Flying Cow — aether"
+			tasks: [{
+				id: "2CE285A5FB582B86"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:flying_cow"
+				type: "observation"
+			}]
+			title: "Rencontre : Flying Cow"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres. Butin : Pierre lumineuse."]
+			icon: "aether:golden_swet_spawn_egg"
+			id: "5F149CE553CE3E5B"
+			optional: true
+			rewards: [{
+				id: "49E74FA3986A5845"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Golden Swet — aether"
+			tasks: [{
+				id: "553186FC8847AA41"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:golden_swet"
+				type: "observation"
+			}]
+			title: "Rencontre : Golden Swet"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Apparaît : un coffre de donjon qui se réveille quand on l'ouvre. Butin : Coffre."]
+			icon: "aether:mimic_spawn_egg"
+			id: "7D99810ACD89DC3A"
+			optional: true
+			rewards: [{
+				id: "37887B834C363514"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mimic — aether"
+			tasks: [{
+				id: "2CF553B347A47A93"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:mimic"
+				type: "observation"
+			}]
+			title: "Rencontre : Mimic"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Plume."]
+			icon: "aether:moa_spawn_egg"
+			id: "280FDF686E2D3ED9"
+			optional: true
+			rewards: [{
+				id: "01BBBD8B36F91B72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Moa — aether"
+			tasks: [{
+				id: "47D1E1C44D6283B3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:moa"
+				type: "observation"
+			}]
+			title: "Rencontre : Moa"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Côtelette de porc crue, Plume."]
+			icon: "aether:phyg_spawn_egg"
+			id: "2C1F94FDCA61DCCD"
+			optional: true
+			rewards: [{
+				id: "637BC24B9BC0DEEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Phyg — aether"
+			tasks: [{
+				id: "2630894D215462B4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:phyg"
+				type: "observation"
+			}]
+			title: "Rencontre : Phyg"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Apparaît : dans le donjon de bronze."]
+			icon: "aether:sentry_spawn_egg"
+			id: "6941D798CC6ACCC7"
+			optional: true
+			rewards: [{
+				id: "2C0CBACDD5BB5029"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Sentry — aether"
+			tasks: [{
+				id: "1BB1F664ACDAE673"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:sentry"
+				type: "observation"
+			}]
+			title: "Rencontre : Sentry"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Mouton cru."]
+			icon: "aether:sheepuff_spawn_egg"
+			id: "4BE63EF5B0F4149B"
+			optional: true
+			rewards: [{
+				id: "1D0C1BC957AECB20"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Sheepuff — aether"
+			tasks: [{
+				id: "1ED89111D9F902E7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:sheepuff"
+				type: "observation"
+			}]
+			title: "Rencontre : Sheepuff"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Apparaît : dans le donjon d'argent."]
+			icon: "aether:valkyrie_spawn_egg"
+			id: "760358A40EA99831"
+			optional: true
+			rewards: [{
+				id: "0AA4CA9D425000C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Valkyrie — aether"
+			tasks: [{
+				id: "44A486C06BB850AA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:valkyrie"
+				type: "observation"
+			}]
+			title: "Rencontre : Valkyrie"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres."]
+			icon: "aether:whirlwind_spawn_egg"
+			id: "634F975905ADE1F6"
+			optional: true
+			rewards: [{
+				id: "49E41430367F5F12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Whirlwind — aether"
+			tasks: [{
+				id: "0BB1BA4571200241"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:whirlwind"
+				type: "observation"
+			}]
+			title: "Rencontre : Whirlwind"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Créature de l'&bAether&r. Catégorie : monstre du ciel de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres."]
+			icon: "aether:zephyr_spawn_egg"
+			id: "03FFB310A8D70E76"
+			optional: true
+			rewards: [{
+				id: "31CB76AE32956F95"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Zephyr — aether"
+			tasks: [{
+				id: "7DF2CEE36B14CA7B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:zephyr"
+				type: "observation"
+			}]
+			title: "Rencontre : Zephyr"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Créature d'&bAether Redux&r. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : The Blight."]
+			icon: "aether_redux:blightbunny_spawn_egg"
+			id: "2BF765114BB87B49"
+			optional: true
+			rewards: [{
+				id: "7CBBAF0C883E2234"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blightbunny — aether_redux"
+			tasks: [{
+				id: "17BCE7D61177D608"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether_redux:blightbunny"
+				type: "observation"
+			}]
+			title: "Rencontre : Blightbunny"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Créature d'&bAether Redux&r. Catégorie : animal. Monde : Aether. Biomes : Cloudcaps. Butin : Boule de slime."]
+			icon: "aether_redux:mykapod_spawn_egg"
+			id: "0D2F6A8C1C8CD593"
+			optional: true
+			rewards: [{
+				id: "3184D9A2927FA3D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mykapod — aether_redux"
+			tasks: [{
+				id: "54C7658CB60C26A9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether_redux:mykapod"
+				type: "observation"
+			}]
+			title: "Rencontre : Mykapod"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Créature d'&bAether Redux&r. Catégorie : animal. Monde : Aether. Biomes : Cloudcaps. Butin : Cuir, Boeuf cru."]
+			icon: "aether_redux:shimmercow_spawn_egg"
+			id: "1E205BB38939888E"
+			optional: true
+			rewards: [{
+				id: "022DA3CB21D1C499"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Shimmercow — aether_redux"
+			tasks: [{
+				id: "6D247EC18EB8E2CC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether_redux:shimmercow"
+				type: "observation"
+			}]
+			title: "Rencontre : Shimmercow"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Récif de brimble, Cieux calmes, Océan brillant profond, Forêt oubligelée et d'autres. Butin : Glace."]
+			icon: "blue_skies:armored_frost_spirit_spawn_egg"
+			id: "0274870132DF8556"
+			optional: true
+			rewards: [{
+				id: "4815A87BEB93F358"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Esprit gelé renforcé — blue_skies"
+			tasks: [{
+				id: "5A72015931C1D89B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:armored_frost_spirit"
+				type: "observation"
+			}]
+			title: "Rencontre : Esprit gelé renforcé"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Hautes-terres polaires, Terres détrempées, Pins neigeux. Butin : Caraboeuf cru, Corne d'azélufo."]
+			icon: "blue_skies:azulfo_spawn_egg"
+			id: "58A38CDE5C143CA8"
+			optional: true
+			rewards: [{
+				id: "335615ACB19987D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Azélufo — blue_skies"
+			tasks: [{
+				id: "0F33369036B236BA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:azulfo"
+				type: "observation"
+			}]
+			title: "Rencontre : Azélufo"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson moki, Poudre d'os."]
+			icon: "blue_skies:charscale_moki_spawn_egg"
+			id: "2FA2F8E2A28CFB1A"
+			optional: true
+			rewards: [{
+				id: "75C80350C8305296"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson moki — blue_skies"
+			tasks: [{
+				id: "5728671102157DB7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:charscale_moki"
+				type: "observation"
+			}]
+			title: "Rencontre : Poisson moki"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Verger de crofruits, Prairie brûlante, Bosquets de l'ombre, Forêt d'érables, Vallée pas très orthodoxe. Butin : Fourrure de renard cosmique, Saumon cru."]
+			icon: "blue_skies:cosmic_fox_spawn_egg"
+			id: "4D17802BB57A046A"
+			optional: true
+			rewards: [{
+				id: "0872CF35E358D6C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Renard Cosmique — blue_skies"
+			tasks: [{
+				id: "1FEA12BA690BF091"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:cosmic_fox"
+				type: "observation"
+			}]
+			title: "Rencontre : Renard Cosmique"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Bassin lunaire. Butin : Intestins d'instectes."]
+			icon: "blue_skies:crogre_spawn_egg"
+			id: "68B84EA89F86C186"
+			optional: true
+			rewards: [{
+				id: "4F3D12C72165B1E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crogre — blue_skies"
+			tasks: [{
+				id: "3DEF8031B8A1D24F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:crogre"
+				type: "observation"
+			}]
+			title: "Rencontre : Crogre"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Pins neigeux. Butin : Glace."]
+			icon: "blue_skies:crynocerous_spawn_egg"
+			id: "188E0D7CCB31670B"
+			optional: true
+			rewards: [{
+				id: "7CE4DE38DC6036BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Crynocère — blue_skies"
+			tasks: [{
+				id: "0715B531A086F336"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:crynocerous"
+				type: "observation"
+			}]
+			title: "Rencontre : Crynocère"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal. Butin : Pierre de lune vitreuse, Os."]
+			icon: "blue_skies:crystal_camel_spawn_egg"
+			id: "09BD8BAF90F6078C"
+			optional: true
+			rewards: [{
+				id: "4D056FA31485332A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Chameau de cristal — blue_skies"
+			tasks: [{
+				id: "441E1584241189EB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:crystal_camel"
+				type: "observation"
+			}]
+			title: "Rencontre : Chameau de cristal"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Forêt oubligelée, Lisière de forêt oubligelée, Hautes-terres polaires et d'autres. Butin : Cuir, Poisson marosien."]
+			icon: "blue_skies:diophyde_prowler_spawn_egg"
+			id: "6E18629BA74CE5A8"
+			optional: true
+			rewards: [{
+				id: "58203FC6BC2F58F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Rôdeur diophyde — blue_skies"
+			tasks: [{
+				id: "0788162D10717B5B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:diophyde_prowler"
+				type: "observation"
+			}]
+			title: "Rencontre : Rôdeur diophyde"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Prairie brûlante, Forêt d'érables, Vallée pas très orthodoxe. Butin : Intestins d'instectes."]
+			icon: "blue_skies:emberback_spawn_egg"
+			id: "24B0AF0C8A6F9B21"
+			optional: true
+			rewards: [{
+				id: "5340FE4AC1496B37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Rétourbeur — blue_skies"
+			tasks: [{
+				id: "2E32D957964B23D3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:emberback"
+				type: "observation"
+			}]
+			title: "Rencontre : Rétourbeur"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : créature d'ambiance. Monde : Blue Skies. Biomes : Bosquets de l'ombre. Butin : Poudre lumineuse."]
+			icon: "blue_skies:firefly_spawn_egg"
+			id: "1766DD029FD78223"
+			optional: true
+			rewards: [{
+				id: "6E71DE7AA7CB9DC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Luciole — blue_skies"
+			tasks: [{
+				id: "2D4A9EADFDEC470B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:firefly"
+				type: "observation"
+			}]
+			title: "Rencontre : Luciole"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Apparaît : dans sa maison, dans l'Overworld."]
+			icon: "blue_skies:gatekeeper_spawn_egg"
+			id: "1F60DEF87C560FAD"
+			optional: true
+			rewards: [{
+				id: "0BD7B02D69148818"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Gardien du portail — blue_skies"
+			tasks: [{
+				id: "4138BC066F372A9B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:gatekeeper"
+				type: "observation"
+			}]
+			title: "Rencontre : Gardien du portail"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson plat, Poudre d'os."]
+			icon: "blue_skies:grittle_flatfish_spawn_egg"
+			id: "62EEA0ED0CCB6D2E"
+			optional: true
+			rewards: [{
+				id: "6BDD4B9881C4C17F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson plat — blue_skies"
+			tasks: [{
+				id: "3DBAAC390997CE9A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:grittle_flatfish"
+				type: "observation"
+			}]
+			title: "Rencontre : Poisson plat"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson tunide, Poudre d'os."]
+			icon: "blue_skies:horizofin_tunid_spawn_egg"
+			id: "102C9ADE94EE84C2"
+			optional: true
+			rewards: [{
+				id: "39F8B1E7E39E6C29"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson tunide — blue_skies"
+			tasks: [{
+				id: "4B30A53C14BA21D0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:horizofin_tunid"
+				type: "observation"
+			}]
+			title: "Rencontre : Poisson tunide"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Verger de crofruits, Lac de verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire et d'autres. Butin : Intestins d'instectes."]
+			icon: "blue_skies:infested_swarmer_spawn_egg"
+			id: "7F8E922DB6ED4583"
+			optional: true
+			rewards: [{
+				id: "1A37F871109E5A9F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Piqueur infecté — blue_skies"
+			tasks: [{
+				id: "2562C363896907CF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:infested_swarmer"
+				type: "observation"
+			}]
+			title: "Rencontre : Piqueur infecté"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant."]
+			icon: "blue_skies:jelly_drifter_spawn_egg"
+			id: "5A6051694CB9E0C0"
+			optional: true
+			rewards: [{
+				id: "3A919F630803AFD0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Dériveur gélatineux — blue_skies"
+			tasks: [{
+				id: "101039F965FE2585"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:jelly_drifter"
+				type: "observation"
+			}]
+			title: "Rencontre : Dériveur gélatineux"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson marosien, Poudre d'os."]
+			icon: "blue_skies:municipal_monkfish_spawn_egg"
+			id: "322BA3319456E227"
+			optional: true
+			rewards: [{
+				id: "5CF66E00280870C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Poisson marosien — blue_skies"
+			tasks: [{
+				id: "5ACDEB48CAC9486C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:municipal_monkfish"
+				type: "observation"
+			}]
+			title: "Rencontre : Poisson marosien"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Bassin lunaire, Bosquets de l'ombre. Butin : Intestins d'instectes, Boule de slime."]
+			icon: "blue_skies:nyctofly_spawn_egg"
+			id: "0C8F6D2EF3FBAC46"
+			optional: true
+			rewards: [{
+				id: "462FFC4874C28B0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Nycto-insecte — blue_skies"
+			tasks: [{
+				id: "1F9050CBEA732C7B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:nyctofly"
+				type: "observation"
+			}]
+			title: "Rencontre : Nycto-insecte"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Forêt oubligelée, Lisière de forêt oubligelée, Hautes-terres polaires et d'autres. Butin : Éclat d'âme."]
+			icon: "blue_skies:polargeist_spawn_egg"
+			id: "7F7DEDF4B91B1456"
+			optional: true
+			rewards: [{
+				id: "1D3A42FF464E355C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Polirours — blue_skies"
+			tasks: [{
+				id: "4DA63BCEAE740562"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:polargeist"
+				type: "observation"
+			}]
+			title: "Rencontre : Polirours"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Pins neigeux. Butin : Gibier cru."]
+			icon: "blue_skies:reindeer_spawn_egg"
+			id: "71C5E1D65773A53B"
+			optional: true
+			rewards: [{
+				id: "540F8EC1EDC28B23"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Renne — blue_skies"
+			tasks: [{
+				id: "1ADEC24A626A4EC4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:reindeer"
+				type: "observation"
+			}]
+			title: "Rencontre : Renne"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant."]
+			icon: "blue_skies:seclam_spawn_egg"
+			id: "03482864FD9B0032"
+			optional: true
+			rewards: [{
+				id: "19E87FFF538DB40F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Séclame — blue_skies"
+			tasks: [{
+				id: "5E69C919ABB4B676"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:seclam"
+				type: "observation"
+			}]
+			title: "Rencontre : Séclame"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire, Prairie brûlante et d'autres. Butin : Viande de cristodile crue."]
+			icon: "blue_skies:shade_monitor_spawn_egg"
+			id: "7E024B449299A4A5"
+			optional: true
+			rewards: [{
+				id: "498D5F218F95B3AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cristodile — blue_skies"
+			tasks: [{
+				id: "6A7D938BB32B25E3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:shade_monitor"
+				type: "observation"
+			}]
+			title: "Rencontre : Cristodile"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Terres détrempées. Butin : Pinétête neigeuse."]
+			icon: "blue_skies:shrumpty_spawn_egg"
+			id: "5161CEB7CFD84F97"
+			optional: true
+			rewards: [{
+				id: "688DA1F3E9C90238"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Champistrêle — blue_skies"
+			tasks: [{
+				id: "4B58A3F1E1757F9F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:shrumpty"
+				type: "observation"
+			}]
+			title: "Rencontre : Champistrêle"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Prairie brûlante, Forêt d'érables."]
+			icon: "blue_skies:sliv_spawn_egg"
+			id: "49F76FA01FD9CBCE"
+			optional: true
+			rewards: [{
+				id: "1C1E54C09C1E46D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Silve — blue_skies"
+			tasks: [{
+				id: "1AD4BB80960C0BEA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:sliv"
+				type: "observation"
+			}]
+			title: "Rencontre : Silve"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Forêt oubligelée, Lisière de forêt oubligelée. Butin : Plume."]
+			icon: "blue_skies:snow_owl_spawn_egg"
+			id: "4953C5B2A3AD562B"
+			optional: true
+			rewards: [{
+				id: "19F55CF03C1C404E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Chouette des neiges — blue_skies"
+			tasks: [{
+				id: "3B5DD83BB84371F8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:snow_owl"
+				type: "observation"
+			}]
+			title: "Rencontre : Chouette des neiges"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Apparaît : dans des structures de Blue Skies. Butin : Boule de slime."]
+			icon: "blue_skies:spewter_spawn_egg"
+			id: "5CD8E39E255082FE"
+			optional: true
+			rewards: [{
+				id: "281E783EBB9CC79C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Prouteur — blue_skies"
+			tasks: [{
+				id: "4D53D10326C28824"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:spewter"
+				type: "observation"
+			}]
+			title: "Rencontre : Prouteur"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Hautes-terres polaires, Terres détrempées, Pins neigeux. Butin : Mouton cru."]
+			icon: "blue_skies:stardust_ram_spawn_egg"
+			id: "35F1B06F4C172861"
+			optional: true
+			rewards: [{
+				id: "5422E664080DDE84"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bélier des étoiles — blue_skies"
+			tasks: [{
+				id: "366BD65C26C16A33"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:stardust_ram"
+				type: "observation"
+			}]
+			title: "Rencontre : Bélier des étoiles"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Apparaît : dans des structures de Blue Skies. Butin : Pierre naturelle, Lianes d'étoilibois."]
+			icon: "blue_skies:stonelet_spawn_egg"
+			id: "043285AA4F2915BD"
+			optional: true
+			rewards: [{
+				id: "0F92B9D29B2DD3AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Automate — blue_skies"
+			tasks: [{
+				id: "72888C0C194962F4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:stonelet"
+				type: "observation"
+			}]
+			title: "Rencontre : Automate"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Verger de crofruits, Lac de verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire et d'autres. Butin : Ficelle, Oeil d'araignée, Intestins d'instectes."]
+			icon: "blue_skies:venom_spider_spawn_egg"
+			id: "0CB5000BE71B8BA6"
+			optional: true
+			rewards: [{
+				id: "2CB25C4CB80EB816"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Araignée pérenne — blue_skies"
+			tasks: [{
+				id: "184E43666F29C84B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:venom_spider"
+				type: "observation"
+			}]
+			title: "Rencontre : Araignée pérenne"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Créature de &bBlue Skies&r. Catégorie : monstre. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Plages de demi-journée, Océan brillant."]
+			icon: "blue_skies:whistleshell_crab_spawn_egg"
+			id: "0C54CCAE7E548DBB"
+			optional: true
+			rewards: [{
+				id: "3B6951F9B613A062"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Dobcrabe — blue_skies"
+			tasks: [{
+				id: "1F4A45AA4F007364"
+				observe_type: 5
+				timer: 0L
+				to_observe: "blue_skies:whistleshell_crab"
+				type: "observation"
+			}]
+			title: "Rencontre : Dobcrabe"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &bDeep Aether&r. Biomes : can quail spawn. Butin : Plume."]
+			icon: "deep_aether:quail_spawn_egg"
+			id: "73D7998302867A07"
+			optional: true
+			rewards: [{
+				id: "1ECAAE4C338BF6FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Quail — deep_aether"
+			tasks: [{
+				id: "2CC585B174AF3D7E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deep_aether:quail"
+				type: "observation"
+			}]
+			title: "Rencontre : Quail"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &bDeep Aether&r. Catégorie : animal. Monde : Aether. Biomes : Yagroot Swamp."]
+			icon: "deep_aether:venomite_spawn_egg"
+			id: "42B92AECADD3163D"
+			optional: true
+			rewards: [{
+				id: "7D9A4B23BDAB8F1E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Venomite — deep_aether"
+			tasks: [{
+				id: "4EA2C181CB546029"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deep_aether:venomite"
+				type: "observation"
+			}]
+			title: "Rencontre : Venomite"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns."]
+			icon: "deeperdarker:angler_fish_spawn_egg"
+			id: "2C9BB46436A13D87"
+			optional: true
+			rewards: [{
+				id: "6F3FC26AF74DF9EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Angler Fish — deeperdarker"
+			tasks: [{
+				id: "0E32FB4A85AD832F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:angler_fish"
+				type: "observation"
+			}]
+			title: "Rencontre : Angler Fish"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Deeplands. Butin : Ficelle."]
+			icon: "deeperdarker:sculk_centipede_spawn_egg"
+			id: "23D671354190D4BE"
+			optional: true
+			rewards: [{
+				id: "7BA78EDC208FBB62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mille-pattes de sculk — deeperdarker"
+			tasks: [{
+				id: "1E6AB6582C8C6DA1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:sculk_centipede"
+				type: "observation"
+			}]
+			title: "Rencontre : Mille-pattes de sculk"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &3Deeper and Darker&r. Apparaît : en cassant du sculk infesté. Butin : Poussière d'âmes."]
+			icon: "deeperdarker:sculk_leech_spawn_egg"
+			id: "1B51482A6C769F1F"
+			optional: true
+			rewards: [{
+				id: "7D3F86066129AECD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Sangsue de sculk — deeperdarker"
+			tasks: [{
+				id: "1BAF453E9B4809AD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:sculk_leech"
+				type: "observation"
+			}]
+			title: "Rencontre : Sangsue de sculk"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns, Deeplands, Echoing Forest. Butin : Poussière d'âmes."]
+			icon: "deeperdarker:sculk_snapper_spawn_egg"
+			id: "7627992EFFF90BFB"
+			optional: true
+			rewards: [{
+				id: "0570EC091A21A8D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mordeur de sculk — deeperdarker"
+			tasks: [{
+				id: "0E514A73CB205C6B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:sculk_snapper"
+				type: "observation"
+			}]
+			title: "Rencontre : Mordeur de sculk"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Deeplands, Echoing Forest. Butin : Os de sculk."]
+			icon: "deeperdarker:shattered_spawn_egg"
+			id: "4977DFFE6C33D0B1"
+			optional: true
+			rewards: [{
+				id: "49191F76280AB16A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Shattered — deeperdarker"
+			tasks: [{
+				id: "24A8EC537DE4D140"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:shattered"
+				type: "observation"
+			}]
+			title: "Rencontre : Shattered"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &3Deeper and Darker&r. Apparaît : en cassant du sculk infesté."]
+			icon: "deeperdarker:shriek_worm_spawn_egg"
+			id: "4524F8AC48042C0D"
+			optional: true
+			rewards: [{
+				id: "1F8948508883EE94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ver hurleur — deeperdarker"
+			tasks: [{
+				id: "62F8ECE9FE91F7B8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:shriek_worm"
+				type: "observation"
+			}]
+			title: "Rencontre : Ver hurleur"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de &3Deeper and Darker&r. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns."]
+			icon: "deeperdarker:sludge_spawn_egg"
+			id: "596E5090DC501F3F"
+			optional: true
+			rewards: [{
+				id: "3FAC4F6A86819BB1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Sludge — deeperdarker"
+			tasks: [{
+				id: "6AB9716DA5F62457"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:sludge"
+				type: "observation"
+			}]
+			title: "Rencontre : Sludge"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le château des nuages, au-dessus des grottes des trolls. Butin : Épée de géant."]
+			icon: "twilightforest:armored_giant_spawn_egg"
+			id: "410C15A1FF490D27"
+			optional: true
+			rewards: [{
+				id: "2239DBF78EDB6AE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Géant en armure — twilightforest"
+			tasks: [{
+				id: "79D490A03E6BC80E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:armored_giant"
+				type: "observation"
+			}]
+			title: "Rencontre : Géant en armure"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres."]
+			icon: "twilightforest:bighorn_sheep_spawn_egg"
+			id: "5401ACEEA1404C97"
+			optional: true
+			rewards: [{
+				id: "6C04F2ADF99D39CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mouflon d'Amérique — twilightforest"
+			tasks: [{
+				id: "7C39C9590ACAA697"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:bighorn_sheep"
+				type: "observation"
+			}]
+			title: "Rencontre : Mouflon d'Amérique"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure."]
+			icon: "twilightforest:blockchain_goblin_spawn_egg"
+			id: "0D4AB7982D6C9E54"
+			optional: true
+			rewards: [{
+				id: "29EB4002C721E169"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Goblin de bloc et chaîne — twilightforest"
+			tasks: [{
+				id: "20E1BB54BF19541E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:blockchain_goblin"
+				type: "observation"
+			}]
+			title: "Rencontre : Goblin de bloc et chaîne"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Côtelette de porc crue."]
+			icon: "twilightforest:boar_spawn_egg"
+			id: "2CC8600A7D3A4D18"
+			optional: true
+			rewards: [{
+				id: "75EEBCE89EE6572A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Boar — twilightforest"
+			tasks: [{
+				id: "1F90312A1AC8CCA4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:boar"
+				type: "observation"
+			}]
+			title: "Rencontre : Boar"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans la tour sombre."]
+			icon: "twilightforest:carminite_broodling_spawn_egg"
+			id: "7D2109F77D05FACB"
+			optional: true
+			rewards: [{
+				id: "6C6AF8FAF2C994EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Carminite couveuse — twilightforest"
+			tasks: [{
+				id: "7286525FB738FE27"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:carminite_broodling"
+				type: "observation"
+			}]
+			title: "Rencontre : Carminite couveuse"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans la tour sombre."]
+			icon: "twilightforest:carminite_ghastguard_spawn_egg"
+			id: "2D3F219F83ABBB2C"
+			optional: true
+			rewards: [{
+				id: "2A8B78508101B92F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Carminite Ghastguard — twilightforest"
+			tasks: [{
+				id: "1D17F4BF0ED5DDAF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:carminite_ghastguard"
+				type: "observation"
+			}]
+			title: "Rencontre : Carminite Ghastguard"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans la tour sombre."]
+			icon: "twilightforest:carminite_ghastling_spawn_egg"
+			id: "73559D221D13695B"
+			optional: true
+			rewards: [{
+				id: "4B79E7D9342CFA76"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Carminite Ghastling — twilightforest"
+			tasks: [{
+				id: "1017241518CD9060"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:carminite_ghastling"
+				type: "observation"
+			}]
+			title: "Rencontre : Carminite Ghastling"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans la tour sombre. Butin : Lingot de fer, Planches de Towerwood."]
+			icon: "twilightforest:carminite_golem_spawn_egg"
+			id: "04864584F915846A"
+			optional: true
+			rewards: [{
+				id: "0B3D79BDBCC38DB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Golem Carminite — twilightforest"
+			tasks: [{
+				id: "6BC27B9A154A8ECC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:carminite_golem"
+				type: "observation"
+			}]
+			title: "Rencontre : Golem Carminite"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans la tour de la Liche, par ses générateurs de tomes. Butin : Papier, Livre et plume, Livre, Foyer de carte magique."]
+			icon: "twilightforest:death_tome_spawn_egg"
+			id: "413A447EAC441BFA"
+			optional: true
+			rewards: [{
+				id: "6FC9D7DC33EE3487"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Tome de mort — twilightforest"
+			tasks: [{
+				id: "23BCBAC6C1C35DDC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:death_tome"
+				type: "observation"
+			}]
+			title: "Rencontre : Tome de mort"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Cuir, Chevreuil cru."]
+			icon: "twilightforest:deer_spawn_egg"
+			id: "46B88333AD56A3B0"
+			optional: true
+			rewards: [{
+				id: "0E30457F24259C56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Deer — twilightforest"
+			tasks: [{
+				id: "4CAB2095ABEE32DF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:deer"
+				type: "observation"
+			}]
+			title: "Rencontre : Deer"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres."]
+			icon: "twilightforest:dwarf_rabbit_spawn_egg"
+			id: "359E962ED5172952"
+			optional: true
+			rewards: [{
+				id: "3C5A576BA5A87003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Lapin nain — twilightforest"
+			tasks: [{
+				id: "6E4AF0DC2DE1154F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:dwarf_rabbit"
+				type: "observation"
+			}]
+			title: "Rencontre : Lapin nain"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses et le labyrinthe du marais."]
+			icon: "twilightforest:fire_beetle_spawn_egg"
+			id: "6A644D89BAA7ABB1"
+			optional: true
+			rewards: [{
+				id: "6B844A4828A0E0F3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Coléoptère de feu — twilightforest"
+			tasks: [{
+				id: "3EC552EDA4F7ED46"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:fire_beetle"
+				type: "observation"
+			}]
+			title: "Rencontre : Coléoptère de feu"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le château des nuages, au-dessus des grottes des trolls. Butin : Pioche de géant."]
+			icon: "twilightforest:giant_miner_spawn_egg"
+			id: "3D6B77B3D4913532"
+			optional: true
+			rewards: [{
+				id: "278E27AEDBEDD701"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Mineur géant — twilightforest"
+			tasks: [{
+				id: "164E884F8D822526"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:giant_miner"
+				type: "observation"
+			}]
+			title: "Rencontre : Mineur géant"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le labyrinthe de haies et la tour de la Liche."]
+			icon: "twilightforest:hedge_spider_spawn_egg"
+			id: "220B7135E34B3340"
+			optional: true
+			rewards: [{
+				id: "6597C054A484592F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Araignée des haies — twilightforest"
+			tasks: [{
+				id: "185A617B71120EDA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:hedge_spider"
+				type: "observation"
+			}]
+			title: "Rencontre : Araignée des haies"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure, Morue crue."]
+			icon: "twilightforest:helmet_crab_spawn_egg"
+			id: "7B35FA0126EB74FC"
+			optional: true
+			rewards: [{
+				id: "1E4B730A4C832C7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Casque crabe — twilightforest"
+			tasks: [{
+				id: "6E83ADE86CDB3F01"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:helmet_crab"
+				type: "observation"
+			}]
+			title: "Rencontre : Casque crabe"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le labyrinthe de haies."]
+			icon: "twilightforest:hostile_wolf_spawn_egg"
+			id: "0A78C2B78D55D324"
+			optional: true
+			rewards: [{
+				id: "7FB46B2ED92AFEFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Loup hostile — twilightforest"
+			tasks: [{
+				id: "632B83ACB803481F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:hostile_wolf"
+				type: "observation"
+			}]
+			title: "Rencontre : Loup hostile"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre."]
+			icon: "twilightforest:king_spider_spawn_egg"
+			id: "54699AC1BEF0AD92"
+			optional: true
+			rewards: [{
+				id: "0E322DEAB41E334A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Reine des araignées — twilightforest"
+			tasks: [{
+				id: "11A1FC686B052A61"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:king_spider"
+				type: "observation"
+			}]
+			title: "Rencontre : Reine des araignées"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre, Souterrain. Butin : Blé, Pépite d'or."]
+			icon: "twilightforest:kobold_spawn_egg"
+			id: "06301571B53D280D"
+			optional: true
+			rewards: [{
+				id: "77AC3C2B8C160930"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Kobold — twilightforest"
+			tasks: [{
+				id: "15D5C9FE186F552F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:kobold"
+				type: "observation"
+			}]
+			title: "Rencontre : Kobold"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure."]
+			icon: "twilightforest:lower_goblin_knight_spawn_egg"
+			id: "3757CDFA3B85B36A"
+			optional: true
+			rewards: [{
+				id: "50AFBE3D60957549"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Chevalier goblin inférieur — twilightforest"
+			tasks: [{
+				id: "79244E845BCCD01E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:lower_goblin_knight"
+				type: "observation"
+			}]
+			title: "Rencontre : Chevalier goblin inférieur"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le labyrinthe du marais. Butin : Boule de slime, Charme de Keeping I."]
+			icon: "twilightforest:maze_slime_spawn_egg"
+			id: "65F21166AD0E1393"
+			optional: true
+			rewards: [{
+				id: "3931F1201A0445CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Slime du labyrinthe — twilightforest"
+			tasks: [{
+				id: "3CB98EF65F0197D7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:maze_slime"
+				type: "observation"
+			}]
+			title: "Rencontre : Slime du labyrinthe"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le labyrinthe du marais. Butin : Viande de Meef crue, Foyer de carte de labyrinthe."]
+			icon: "twilightforest:minotaur_spawn_egg"
+			id: "7D69B4AD1E0C3BC5"
+			optional: true
+			rewards: [{
+				id: "45EE90B2186994BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Minotaure — twilightforest"
+			tasks: [{
+				id: "3C1EAACC19A91C55"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:minotaur"
+				type: "observation"
+			}]
+			title: "Rencontre : Minotaure"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre."]
+			icon: "twilightforest:mist_wolf_spawn_egg"
+			id: "1C90AA1EF6970805"
+			optional: true
+			rewards: [{
+				id: "712B63349C2CBE82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Loup de la brume — twilightforest"
+			tasks: [{
+				id: "170D78360CC1305E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:mist_wolf"
+				type: "observation"
+			}]
+			title: "Rencontre : Loup de la brume"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Marécage du Crépuscule."]
+			icon: "twilightforest:mosquito_swarm_spawn_egg"
+			id: "7036EFFA48CECFDC"
+			optional: true
+			rewards: [{
+				id: "61B93FC672B08C98"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Essaim de moustiques — twilightforest"
+			tasks: [{
+				id: "07F4655E935971AB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:mosquito_swarm"
+				type: "observation"
+			}]
+			title: "Rencontre : Essaim de moustiques"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Glacier du Crépuscule. Butin : Plume."]
+			icon: "twilightforest:penguin_spawn_egg"
+			id: "2755DDF20F1BBC62"
+			optional: true
+			rewards: [{
+				id: "4F7C31DD42B434BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Manchot — twilightforest"
+			tasks: [{
+				id: "4B766C6D6E5CA5B5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:penguin"
+				type: "observation"
+			}]
+			title: "Rencontre : Manchot"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses, le labyrinthe et la tour sombre."]
+			icon: "twilightforest:pinch_beetle_spawn_egg"
+			id: "5FCE27945FC8FD2E"
+			optional: true
+			rewards: [{
+				id: "5D78F210BEEB1415"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Coléoptère — twilightforest"
+			tasks: [{
+				id: "2F81539B64D6072A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:pinch_beetle"
+				type: "observation"
+			}]
+			title: "Rencontre : Coléoptère"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans la clairière des quêtes de la Forêt enchantée."]
+			icon: "twilightforest:quest_ram_spawn_egg"
+			id: "25A9B6559A42FC2B"
+			optional: true
+			rewards: [{
+				id: "5A5DCBCFCFD08D77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bélier de quête — twilightforest"
+			tasks: [{
+				id: "268D1DEEA8FCF10F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:quest_ram"
+				type: "observation"
+			}]
+			title: "Rencontre : Bélier de quête"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Plateau Final, Forêt des Lucioles et d'autres. Butin : Plume de corbeau."]
+			icon: "twilightforest:raven_spawn_egg"
+			id: "3299371960D7CE84"
+			optional: true
+			rewards: [{
+				id: "0BCEBD0B047808E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Raven — twilightforest"
+			tasks: [{
+				id: "326F2B2952E2998C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:raven"
+				type: "observation"
+			}]
+			title: "Rencontre : Raven"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses. Butin : Charbon."]
+			icon: "twilightforest:redcap_spawn_egg"
+			id: "503A8C54586A2EB2"
+			optional: true
+			rewards: [{
+				id: "5C69A78DB04F7944"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Redcap — twilightforest"
+			tasks: [{
+				id: "62157357A9A3554F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:redcap"
+				type: "observation"
+			}]
+			title: "Rencontre : Redcap"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses et le bastion des Gobelins."]
+			icon: "twilightforest:redcap_sapper_spawn_egg"
+			id: "2C339E9125D95D1A"
+			optional: true
+			rewards: [{
+				id: "4EA54A029A1181BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Sapeur à casquette rouge — twilightforest"
+			tasks: [{
+				id: "06970451074FF674"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:redcap_sapper"
+				type: "observation"
+			}]
+			title: "Rencontre : Sapeur à casquette rouge"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre, Forêt effrayante. Butin : Os, Torche des baies."]
+			icon: "twilightforest:skeleton_druid_spawn_egg"
+			id: "213DE25DD6128D22"
+			optional: true
+			rewards: [{
+				id: "22ED316D9DAD61E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Squelette de druide — twilightforest"
+			tasks: [{
+				id: "719CCDAA8FBEFB88"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:skeleton_druid"
+				type: "observation"
+			}]
+			title: "Rencontre : Squelette de druide"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses, le labyrinthe et le bastion des Gobelins. Butin : Boule de slime."]
+			icon: "twilightforest:slime_beetle_spawn_egg"
+			id: "24A1FD51817DA203"
+			optional: true
+			rewards: [{
+				id: "307D49163EC5E304"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Coléoptère visqueux — twilightforest"
+			tasks: [{
+				id: "096F58BB4A0EC756"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:slime_beetle"
+				type: "observation"
+			}]
+			title: "Rencontre : Coléoptère visqueux"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le palais des aurores. Butin : Boule de neige."]
+			icon: "twilightforest:snow_guardian_spawn_egg"
+			id: "4D2629D46A6CDE6F"
+			optional: true
+			rewards: [{
+				id: "1F260EF9EE2878B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Gardin de la neige — twilightforest"
+			tasks: [{
+				id: "13C753CA67E10986"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:snow_guardian"
+				type: "observation"
+			}]
+			title: "Rencontre : Gardin de la neige"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres."]
+			icon: "twilightforest:squirrel_spawn_egg"
+			id: "67FDF28DCBFF7069"
+			optional: true
+			rewards: [{
+				id: "7B1748DFF709ED62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Squirrel — twilightforest"
+			tasks: [{
+				id: "3B59F5A13473843A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:squirrel"
+				type: "observation"
+			}]
+			title: "Rencontre : Squirrel"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le palais des aurores. Butin : Boule de neige."]
+			icon: "twilightforest:stable_ice_core_spawn_egg"
+			id: "28432AEB651FE71F"
+			optional: true
+			rewards: [{
+				id: "7DA66924A12BAC42"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Coeur de glace stable — twilightforest"
+			tasks: [{
+				id: "4B663C5182BE16EF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:stable_ice_core"
+				type: "observation"
+			}]
+			title: "Rencontre : Coeur de glace stable"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses, le labyrinthe de haies et la tour de la Liche."]
+			icon: "twilightforest:swarm_spider_spawn_egg"
+			id: "45461A6CE5DA923F"
+			optional: true
+			rewards: [{
+				id: "5E2B98832DDA0B5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Essaim d'araignées — twilightforest"
+			tasks: [{
+				id: "0B6A0550F413FF5C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:swarm_spider"
+				type: "observation"
+			}]
+			title: "Rencontre : Essaim d'araignées"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Plume."]
+			icon: "twilightforest:tiny_bird_spawn_egg"
+			id: "0B1CE79A7009E16B"
+			optional: true
+			rewards: [{
+				id: "4889EE2A91B8D2BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Petit oiseau — twilightforest"
+			tasks: [{
+				id: "6884CADA91B585BC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:tiny_bird"
+				type: "observation"
+			}]
+			title: "Rencontre : Petit oiseau"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : en cassant du bois de tour infesté, dans la tour sombre. Butin : Essence de foreur."]
+			icon: "twilightforest:towerwood_borer_spawn_egg"
+			id: "40C654C42E14BB5B"
+			optional: true
+			rewards: [{
+				id: "65AF4C303F0F3881"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Foreur de la Towerwood — twilightforest"
+			tasks: [{
+				id: "076E19B93478A491"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:towerwood_borer"
+				type: "observation"
+			}]
+			title: "Rencontre : Foreur de la Towerwood"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans les grottes des trolls. Butin : Haricots magiques."]
+			icon: "twilightforest:troll_spawn_egg"
+			id: "0FAD8833396A879F"
+			optional: true
+			rewards: [{
+				id: "3340CB417804D6F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Troll — twilightforest"
+			tasks: [{
+				id: "342C7D23EB0BB6B2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:troll"
+				type: "observation"
+			}]
+			title: "Rencontre : Troll"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans le palais des aurores. Butin : Boule de neige."]
+			icon: "twilightforest:unstable_ice_core_spawn_egg"
+			id: "364D4006CA684F12"
+			optional: true
+			rewards: [{
+				id: "0780F24299423472"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Coeur de glace instable — twilightforest"
+			tasks: [{
+				id: "01722E73F02784A6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:unstable_ice_core"
+				type: "observation"
+			}]
+			title: "Rencontre : Coeur de glace instable"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Enneigé. Butin : Fourrure arctique."]
+			icon: "twilightforest:winter_wolf_spawn_egg"
+			id: "2117912BA235C74F"
+			optional: true
+			rewards: [{
+				id: "3C24E1323397735C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Loup d'hiver — twilightforest"
+			tasks: [{
+				id: "1AE1E7776FB3B7BD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:winter_wolf"
+				type: "observation"
+			}]
+			title: "Rencontre : Loup d'hiver"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Apparaît : dans les collines creuses. Butin : Poudre lumineuse."]
+			icon: "twilightforest:wraith_spawn_egg"
+			id: "38AE7B43CFC2FFA9"
+			optional: true
+			rewards: [{
+				id: "3E6D200917D8FFC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Wraith — twilightforest"
+			tasks: [{
+				id: "2E7EAF4049F62F7A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:wraith"
+				type: "observation"
+			}]
+			title: "Rencontre : Wraith"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Créature de la &aTwilight Forest&r. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Enneigé. Butin : Fourrure arctique."]
+			icon: "twilightforest:yeti_spawn_egg"
+			id: "38951FB81391E52C"
+			optional: true
+			rewards: [{
+				id: "085C3B6F0FAEE79A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Yéti — twilightforest"
+			tasks: [{
+				id: "4DFD357676497E7F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:yeti"
+				type: "observation"
+			}]
+			title: "Rencontre : Yéti"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"23EFB5B5BA1239CD"
+				"0953B5ED960E9136"
+				"5A13D1A10C50DA0C"
+				"6047279A6A46F41C"
+				"45564BE8BC7D5A84"
+				"4B8CEFA528A6354F"
+				"2C921EB6B5838FD5"
+				"192CF6C2A0129E8E"
+				"5F149CE553CE3E5B"
+				"7D99810ACD89DC3A"
+				"280FDF686E2D3ED9"
+				"2C1F94FDCA61DCCD"
+				"6941D798CC6ACCC7"
+				"4BE63EF5B0F4149B"
+				"760358A40EA99831"
+				"634F975905ADE1F6"
+				"03FFB310A8D70E76"
+				"2BF765114BB87B49"
+				"0D2F6A8C1C8CD593"
+				"1E205BB38939888E"
+				"0274870132DF8556"
+				"58A38CDE5C143CA8"
+				"2FA2F8E2A28CFB1A"
+				"4D17802BB57A046A"
+				"68B84EA89F86C186"
+				"188E0D7CCB31670B"
+				"09BD8BAF90F6078C"
+				"6E18629BA74CE5A8"
+				"24B0AF0C8A6F9B21"
+				"1766DD029FD78223"
+				"1F60DEF87C560FAD"
+				"62EEA0ED0CCB6D2E"
+				"102C9ADE94EE84C2"
+				"7F8E922DB6ED4583"
+				"5A6051694CB9E0C0"
+				"322BA3319456E227"
+				"0C8F6D2EF3FBAC46"
+				"7F7DEDF4B91B1456"
+				"71C5E1D65773A53B"
+				"03482864FD9B0032"
+				"7E024B449299A4A5"
+				"5161CEB7CFD84F97"
+				"49F76FA01FD9CBCE"
+				"4953C5B2A3AD562B"
+				"5CD8E39E255082FE"
+				"35F1B06F4C172861"
+				"043285AA4F2915BD"
+				"0CB5000BE71B8BA6"
+				"0C54CCAE7E548DBB"
+				"73D7998302867A07"
+				"42B92AECADD3163D"
+				"2C9BB46436A13D87"
+				"23D671354190D4BE"
+				"1B51482A6C769F1F"
+				"7627992EFFF90BFB"
+				"4977DFFE6C33D0B1"
+				"4524F8AC48042C0D"
+				"596E5090DC501F3F"
+				"410C15A1FF490D27"
+				"5401ACEEA1404C97"
+				"0D4AB7982D6C9E54"
+				"2CC8600A7D3A4D18"
+				"7D2109F77D05FACB"
+				"2D3F219F83ABBB2C"
+				"73559D221D13695B"
+				"04864584F915846A"
+				"413A447EAC441BFA"
+				"46B88333AD56A3B0"
+				"359E962ED5172952"
+				"6A644D89BAA7ABB1"
+				"3D6B77B3D4913532"
+				"220B7135E34B3340"
+				"7B35FA0126EB74FC"
+				"0A78C2B78D55D324"
+				"54699AC1BEF0AD92"
+				"06301571B53D280D"
+				"3757CDFA3B85B36A"
+				"65F21166AD0E1393"
+				"7D69B4AD1E0C3BC5"
+				"1C90AA1EF6970805"
+				"7036EFFA48CECFDC"
+				"2755DDF20F1BBC62"
+				"5FCE27945FC8FD2E"
+				"25A9B6559A42FC2B"
+				"3299371960D7CE84"
+				"503A8C54586A2EB2"
+				"2C339E9125D95D1A"
+				"213DE25DD6128D22"
+				"24A1FD51817DA203"
+				"4D2629D46A6CDE6F"
+				"67FDF28DCBFF7069"
+				"28432AEB651FE71F"
+				"45461A6CE5DA923F"
+				"0B1CE79A7009E16B"
+				"40C654C42E14BB5B"
+				"0FAD8833396A879F"
+				"364D4006CA684F12"
+				"2117912BA235C74F"
+				"38AE7B43CFC2FFA9"
+				"38951FB81391E52C"
+			]
+			description: ["Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte."]
+			icon: "twilightforest:naga_trophy"
+			id: "0AF877A62451C7C4"
+			optional: true
+			rewards: [{
+				id: "32FF29CA512D5846"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "68164947338F5602"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&7Bestiaire — dimensions"
+}
