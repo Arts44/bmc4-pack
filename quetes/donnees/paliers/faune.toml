@@ -1,0 +1,25 @@
+# Échelle des paliers — Faune (BMC-89, 5 octobre 2026).
+# Recettes du jar revampedwolf 6.1.0 ; armures activées
+# (revampedwolf-common.toml du serveur).
+chapitre = "faune"
+sommet = "loup_netherite"
+
+[[palier]]
+echelle = "loup"
+cle = "loup_cuir"
+preuve = "recette leather_wolf_armor"
+
+[[palier]]
+echelle = "loup"
+cle = "loup"
+preuve = "recette iron_wolf_armor"
+
+[[palier]]
+echelle = "loup"
+cle = "loup_diamant"
+preuve = "recette diamond_wolf_armor"
+
+[[palier]]
+echelle = "loup"
+cle = "loup_netherite"
+preuve = "smithing netherite_wolf_armor_smithing depuis le diamant"

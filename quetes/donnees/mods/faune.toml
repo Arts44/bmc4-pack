@@ -232,17 +232,60 @@ Chaque village a &lsix gardes&r (config du serveur). Ils défendent les villageo
 
 # ---- RevampedWolf
 [[quete]]
-cle = "loup"
-titre = "Une armure de loup"
+cle = "loup_cuir"
+titre = "Une armure de loup en cuir"
 deps = ["intro"]
+optionnel = true
+taches = ["item revampedwolf:leather_wolf_armor"]
+recompenses = ["xp 2"]
+description = """
+&bRevampedWolf&r : chaque armure de loup se fait avec une paire de bottes et quatre unités du même matériau. Cuir, fer, or, diamant, puis nétherite à la table de forge. Activées sur ce serveur.
+"""
+
+[[quete]]
+cle = "loup"
+titre = "Une armure de loup en fer"
+deps = ["loup_cuir"]
 optionnel = true
 taches = ["item revampedwolf:iron_wolf_armor"]
 recompenses = ["xp 3"]
 description = """
-&bRevampedWolf&r : des armures de loup en cuir, fer, or, diamant, et nétherite à la table de forge. Activées sur ce serveur.
+Des bottes de fer et quatre lingots. L'or est à côté de l'échelle : bottes d'or et quatre lingots d'or.
 """
 
 # ---- Incubation
+[[quete]]
+cle = "loup_or"
+titre = "Une armure de loup en or"
+deps = ["loup"]
+optionnel = true
+taches = ["item revampedwolf:golden_wolf_armor"]
+recompenses = ["xp 2"]
+
+[[quete]]
+cle = "loup_diamant"
+titre = "Une armure de loup en diamant"
+deps = ["loup"]
+optionnel = true
+taches = ["item revampedwolf:diamond_wolf_armor"]
+recompenses = ["xp 5"]
+description = """
+Des bottes de diamant et quatre diamants.
+"""
+
+[[quete]]
+cle = "loup_netherite"
+titre = "&8Une armure de loup en nétherite"
+deps = ["loup_diamant"]
+optionnel = true
+taille = 1.5
+forme = "diamond"
+taches = ["item revampedwolf:netherite_wolf_armor"]
+recompenses = ["xp 10"]
+description = """
+À la table de forge : l'armure de loup en diamant, un lingot de nétherite et un modèle d'amélioration. Le dernier palier.
+"""
+
 [[quete]]
 cle = "nid"
 titre = "Un nid"
