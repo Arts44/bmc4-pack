@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mods_deplacement"
+	group: "14858825A29975B1"
+	icon: "waystones:warp_stone"
+	id: "7B3ECB49C9B727F9"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Les &bwaystones&r sont &lgratuites&r sur ce serveur : aucun coût en XP, quelle que soit la distance ou la dimension (config). Le reste : des bateaux plus grands, porter un coffre sur son dos, une boussole des biomes, les élytres dans leur propre emplacement."]
+			icon: "waystones:waystone"
+			id: "146CEA013AF60E6A"
+			rewards: [{
+				count: 4
+				id: "3049FF48DAB982B7"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #deplacement sur le Discord."
+			tasks: [{
+				id: "7A93451D550A9793"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bAller vite, aller loin"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["146CEA013AF60E6A"]
+			description: ["À usage unique : il ouvre la liste des waystones activées. Le &lparchemin lié&r (bound scroll) se lie à une waystone précise ; le &lparchemin de retour&r ramène à la dernière activée."]
+			icon: "waystones:warp_scroll"
+			id: "55DC2540F5649663"
+			rewards: [{
+				id: "3A36FF8A8CC65493"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "375E1AD1C9CAAD99"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			title: "Un parchemin de téléportation"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["55DC2540F5649663"]
+			description: ["Réutilisable : 30 secondes de recharge, liée au joueur (config du serveur). Un peu plus d'une seconde à maintenir."]
+			icon: "waystones:warp_stone"
+			id: "07D3EAC43ADCBE2E"
+			rewards: [{
+				id: "19F5F36F7F1C389D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "748F6A0D4633159A"
+				item: "waystones:warp_stone"
+				type: "item"
+			}]
+			title: "Une pierre de téléportation"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07D3EAC43ADCBE2E"]
+			description: ["Les sharestones d'une même couleur se voient entre elles, pour tous : un réseau de faction, sans activation."]
+			icon: "waystones:sharestone"
+			id: "62442A38150EB73E"
+			optional: true
+			rewards: [{
+				id: "34D0FC106198BB0E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5476E7A31F8725F1"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			title: "Une sharestone"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07D3EAC43ADCBE2E"]
+			description: ["Une seconde debout dessus (config) et elle envoie vers la plaque à laquelle elle est liée par un éclat accordé."]
+			icon: "waystones:warp_plate"
+			id: "2D7FA1464C10380C"
+			optional: true
+			rewards: [{
+				id: "097024556428B60D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B8921F48B30AEF3"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			title: "Une plaque de téléportation"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07D3EAC43ADCBE2E"]
+			description: ["Un animal en laisse traverse avec toi, même entre dimensions (config). Sauf le Wither."]
+			icon: "minecraft:lead"
+			id: "1E2352FDD7FD3C29"
+			optional: true
+			rewards: [{
+				id: "22F363C6390D5202"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24E97F61EE3205DF"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			title: "Voyager avec ses bêtes"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["146CEA013AF60E6A"]
+			description: ["&bBoatload&r : un grand bateau dans chaque bois, et des bateaux à four qui avancent seuls au charbon. Les bois carmin et biscornu ont enfin leur bateau."]
+			icon: "boatload:large_oak_boat"
+			id: "6492C84DC048BB3A"
+			optional: true
+			rewards: [{
+				id: "5E7EFCA34D57EC45"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10D17F9E0DA1B598"
+				item: "boatload:large_oak_boat"
+				type: "item"
+			}]
+			title: "Un grand bateau"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6492C84DC048BB3A"]
+			icon: "boatload:oak_furnace_boat"
+			id: "1455DBF4A2C0B980"
+			optional: true
+			rewards: [{
+				id: "14FC555F2E47F596"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D6A28A1CE6718A0"
+				item: "boatload:oak_furnace_boat"
+				type: "item"
+			}]
+			title: "Un bateau à four"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["146CEA013AF60E6A"]
+			description: ["&6Carry On&r : accroupi, clic droit à mains nues sur un coffre, un four, un baril, et tu le portes avec son contenu. Ça ralentit. Interdits (config du serveur) : les lits, les portes, les chaudrons, tout ce qui vient de Create, de Refined Storage et des waystones."]
+			id: "1938E7C4891E4745"
+			rewards: [{
+				id: "344AE3E6F0B81C85"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "245474AC1E644FF4"
+				title: "J'ai porté un bloc"
+				type: "checkmark"
+			}]
+			title: "Porter un coffre"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1938E7C4891E4745"]
+			description: ["Même geste sur un animal. Pas les hostiles, pas les villageois, pas les gobelins, pas les joueurs (config). Deux bêtes empilées au plus."]
+			id: "6169A6F9E2455D9B"
+			optional: true
+			rewards: [{
+				id: "49A78AF6232CCF74"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78DDEB7B09C7A0FC"
+				title: "J'ai porté un animal"
+				type: "checkmark"
+			}]
+			title: "Porter une bête"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["146CEA013AF60E6A"]
+			description: ["Elle cherche un biome par son nom et pointe vers le plus proche. Les biomes des autres dimensions aussi, depuis là-bas."]
+			icon: "naturescompass:naturescompass"
+			id: "01F5592620501075"
+			optional: true
+			rewards: [{
+				id: "62F6254796C91C28"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2EC8DB82FD075049"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			title: "Une boussole de la nature"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["146CEA013AF60E6A"]
+			description: ["&bElytra Slot&r : les élytres se portent dans un emplacement Curios à part, en plus du plastron. Les fusées restent le moteur. Voir aussi le jetpack (chapitre &7Iron Jetpacks&r) et les élytres d'âme (&3Deeper and Darker&r)."]
+			icon: "minecraft:elytra"
+			id: "2D82812CFCCFD892"
+			optional: true
+			rewards: [{
+				id: "49B84E734C8CB6F7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "708BDB5FB3B05B98"
+				item: "minecraft:elytra"
+				type: "item"
+			}]
+			title: "Des élytres dans leur emplacement"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"07D3EAC43ADCBE2E"
+				"1938E7C4891E4745"
+			]
+			icon: "waystones:warp_plate"
+			id: "519033F7EC356F17"
+			rewards: [{
+				id: "5B3D0B565B94D350"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "285F79A4FDACE86C"
+				title: "Mon réseau est en place"
+				type: "checkmark"
+			}]
+			title: "&bPartout en un instant"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&bDéplacement"
+}

@@ -1,0 +1,159 @@
+# Chapitre « Déplacement » — cahier des charges §5.19
+# Sources (5 octobre 2026) : waystones-common.toml du serveur (tous les
+# multiplicateurs de coût en XP à 0,0 : téléportation gratuite ; passage
+# entre dimensions autorisé ; pierre de téléportation : 30 s de recharge ;
+# waystones de génération tous les 25 chunks et dans les villages ;
+# animaux en laisse transportés sauf le Wither), objets du mod dans
+# l'index ; Boatload (grands bateaux, bateaux avec four, bateaux carmin
+# et biscornu ; lang) ; carryon-common du serveur (portée 2,5 blocs,
+# pas les hostiles, pas les villageois ni les gobelins, deux entités
+# empilées au plus, listes noires) ; Nature's Compass (lang) ; Elytra
+# Slot. Grand Teleport : jar sans lang, une seule classe
+# TeleportCommandMatcher, non décrit.
+
+[chapitre]
+titre = "&bDéplacement"
+fichier = "mods_deplacement"
+groupe = "mods"
+icone = "waystones:warp_stone"
+ordre = 19
+
+[[quete]]
+cle = "intro"
+titre = "&bAller vite, aller loin"
+sous_titre = "Guide dans #deplacement sur le Discord."
+taille = 1.5
+icone = "waystones:waystone"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:ender_pearl 4"]
+description = """
+Les &bwaystones&r sont &lgratuites&r sur ce serveur : aucun coût en XP, quelle que soit la distance ou la dimension (config). Le reste : des bateaux plus grands, porter un coffre sur son dos, une boussole des biomes, les élytres dans leur propre emplacement.
+"""
+
+[[quete]]
+cle = "parchemin"
+titre = "Un parchemin de téléportation"
+deps = ["intro"]
+taches = ["item waystones:warp_scroll"]
+recompenses = ["xp 3"]
+description = """
+À usage unique : il ouvre la liste des waystones activées. Le &lparchemin lié&r (bound scroll) se lie à une waystone précise ; le &lparchemin de retour&r ramène à la dernière activée.
+"""
+
+[[quete]]
+cle = "pierre"
+titre = "Une pierre de téléportation"
+deps = ["parchemin"]
+taches = ["item waystones:warp_stone"]
+recompenses = ["xp 8"]
+description = """
+Réutilisable : 30 secondes de recharge, liée au joueur (config du serveur). Un peu plus d'une seconde à maintenir.
+"""
+
+[[quete]]
+cle = "sharestone"
+titre = "Une sharestone"
+deps = ["pierre"]
+optionnel = true
+taches = ["item waystones:sharestone"]
+recompenses = ["xp 5"]
+description = """
+Les sharestones d'une même couleur se voient entre elles, pour tous : un réseau de faction, sans activation.
+"""
+
+[[quete]]
+cle = "plaque"
+titre = "Une plaque de téléportation"
+deps = ["pierre"]
+optionnel = true
+taches = ["item waystones:warp_plate"]
+recompenses = ["xp 5"]
+description = """
+Une seconde debout dessus (config) et elle envoie vers la plaque à laquelle elle est liée par un éclat accordé.
+"""
+
+[[quete]]
+cle = "laisse"
+titre = "Voyager avec ses bêtes"
+deps = ["pierre"]
+optionnel = true
+taches = ["item minecraft:lead"]
+recompenses = ["xp 3"]
+description = """
+Un animal en laisse traverse avec toi, même entre dimensions (config). Sauf le Wither.
+"""
+
+# ---- bateaux
+[[quete]]
+cle = "grand_bateau"
+titre = "Un grand bateau"
+deps = ["intro"]
+optionnel = true
+taches = ["item boatload:large_oak_boat"]
+recompenses = ["xp 3"]
+description = """
+&bBoatload&r : un grand bateau dans chaque bois, et des bateaux à four qui avancent seuls au charbon. Les bois carmin et biscornu ont enfin leur bateau.
+"""
+
+[[quete]]
+cle = "bateau_four"
+titre = "Un bateau à four"
+deps = ["grand_bateau"]
+optionnel = true
+taches = ["item boatload:oak_furnace_boat"]
+recompenses = ["xp 3"]
+
+# ---- Carry On
+[[quete]]
+cle = "porter"
+titre = "Porter un coffre"
+deps = ["intro"]
+taches = ["checkmark J'ai porté un bloc"]
+recompenses = ["xp 3"]
+description = """
+&6Carry On&r : accroupi, clic droit à mains nues sur un coffre, un four, un baril, et tu le portes avec son contenu. Ça ralentit. Interdits (config du serveur) : les lits, les portes, les chaudrons, tout ce qui vient de Create, de Refined Storage et des waystones.
+"""
+
+[[quete]]
+cle = "porter_bete"
+titre = "Porter une bête"
+deps = ["porter"]
+optionnel = true
+taches = ["checkmark J'ai porté un animal"]
+recompenses = ["xp 3"]
+description = """
+Même geste sur un animal. Pas les hostiles, pas les villageois, pas les gobelins, pas les joueurs (config). Deux bêtes empilées au plus.
+"""
+
+# ---- Nature's Compass
+[[quete]]
+cle = "boussole"
+titre = "Une boussole de la nature"
+deps = ["intro"]
+optionnel = true
+taches = ["item naturescompass:naturescompass"]
+recompenses = ["xp 5"]
+description = """
+Elle cherche un biome par son nom et pointe vers le plus proche. Les biomes des autres dimensions aussi, depuis là-bas.
+"""
+
+# ---- élytres
+[[quete]]
+cle = "elytres"
+titre = "Des élytres dans leur emplacement"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:elytra"]
+recompenses = ["xp 10"]
+description = """
+&bElytra Slot&r : les élytres se portent dans un emplacement Curios à part, en plus du plastron. Les fusées restent le moteur. Voir aussi le jetpack (chapitre &7Iron Jetpacks&r) et les élytres d'âme (&3Deeper and Darker&r).
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&bPartout en un instant"
+deps = ["pierre", "porter"]
+taille = 1.3
+icone = "waystones:warp_plate"
+taches = ["checkmark Mon réseau est en place"]
+recompenses = ["xp 5"]
