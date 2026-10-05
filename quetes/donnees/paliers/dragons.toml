@@ -1,0 +1,615 @@
+# Échelle des paliers — Dragons (BMC-89, 5 octobre 2026). Sources : jar
+# dragonmounts-1.20.1-10018 (races, habitats, œuf, armure, javap), table de
+# croisement du datapack bmc4-fixes du serveur, DragonLoot 1.1.15 et DLxAN.
+chapitre = "monde_dragons"
+sommet = "races"
+
+[[palier]]
+echelle = "dragon"
+cle = "oeuf"
+preuve = "loot_modifiers dragonmounts/* (config use_loot_tables)"
+
+[[palier]]
+echelle = "dragon"
+cle = "eclosion"
+preuve = "observation de dragonmounts:dragon"
+
+[[palier]]
+echelle = "dragon"
+cle = "apprivoiser"
+preuve = "selle (Saddleable, javap)"
+
+[[palier]]
+echelle = "dragon"
+cle = "monter"
+preuve = "case à cocher : aucune tâche ne voit un joueur monté"
+
+[[palier]]
+echelle = "armure_dragon"
+cle = "armure_dragon_copper"
+preuve = "DragonArmorType COPPER (javap, mcp_config)"
+
+[[palier]]
+echelle = "armure_dragon"
+cle = "armure_dragon_gold"
+preuve = "DragonArmorType GOLD (javap, mcp_config)"
+
+[[palier]]
+echelle = "armure_dragon"
+cle = "armure_dragon_iron"
+preuve = "DragonArmorType IRON (javap, mcp_config)"
+
+[[palier]]
+echelle = "armure_dragon"
+cle = "armure_dragon_emerald"
+preuve = "DragonArmorType EMERALD (javap, mcp_config)"
+
+[[palier]]
+echelle = "armure_dragon"
+cle = "armure_dragon_diamond"
+preuve = "DragonArmorType DIAMOND (javap, mcp_config)"
+
+[[palier]]
+echelle = "armure_dragon"
+cle = "armure_dragon_netherite"
+preuve = "DragonArmorType NETHERITE (javap, mcp_config)"
+
+[[palier]]
+echelle = "race_fire"
+cle = "oeuf"
+preuve = "œufs de base"
+
+[[palier]]
+echelle = "race_fire"
+cle = "race_fire"
+preuve = "dragon_breeds/fire.json, loot_modifiers/fire"
+
+[[palier]]
+echelle = "race_fire"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_forest"
+cle = "oeuf"
+preuve = "œufs de base"
+
+[[palier]]
+echelle = "race_forest"
+cle = "race_forest"
+preuve = "dragon_breeds/forest.json, loot_modifiers/forest"
+
+[[palier]]
+echelle = "race_forest"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_ghost"
+cle = "oeuf"
+preuve = "œufs de base"
+
+[[palier]]
+echelle = "race_ghost"
+cle = "race_ghost"
+preuve = "dragon_breeds/ghost.json, loot_modifiers/ghost"
+
+[[palier]]
+echelle = "race_ghost"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_ice"
+cle = "oeuf"
+preuve = "œufs de base"
+
+[[palier]]
+echelle = "race_ice"
+cle = "race_ice"
+preuve = "dragon_breeds/ice.json, loot_modifiers/ice"
+
+[[palier]]
+echelle = "race_ice"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_nether"
+cle = "oeuf"
+preuve = "œufs de base"
+
+[[palier]]
+echelle = "race_nether"
+cle = "race_nether"
+preuve = "dragon_breeds/nether.json, loot_modifiers/nether"
+
+[[palier]]
+echelle = "race_nether"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_water"
+cle = "oeuf"
+preuve = "œufs de base"
+
+[[palier]]
+echelle = "race_water"
+cle = "race_water"
+preuve = "dragon_breeds/water.json, loot_modifiers/water"
+
+[[palier]]
+echelle = "race_water"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_aether"
+cle = "oeuf"
+preuve = "œufs de base"
+
+[[palier]]
+echelle = "race_aether"
+cle = "race_aether"
+preuve = "dragon_breeds/aether.json, loot_modifiers/aether"
+
+[[palier]]
+echelle = "race_aether"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_end"
+cle = "oeuf"
+preuve = "œufs de base"
+
+[[palier]]
+echelle = "race_end"
+cle = "race_end"
+preuve = "dragon_breeds/end.json, loot_modifiers/end"
+
+[[palier]]
+echelle = "race_end"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_aurora"
+cle = "race_aether"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_aurora"
+cle = "race_aurora"
+preuve = "cross_breeding/aether_ice.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_aurora"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_black_fire"
+cle = "race_fire"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_black_fire"
+cle = "race_black_fire"
+preuve = "cross_breeding/fire_ghost.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_black_fire"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_blood"
+cle = "race_nether"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_blood"
+cle = "race_blood"
+preuve = "cross_breeding/nether_water.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_blood"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_blue_fire"
+cle = "race_fire"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_blue_fire"
+cle = "race_blue_fire"
+preuve = "cross_breeding/fire_ice.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_blue_fire"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_bronze"
+cle = "race_aether"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_bronze"
+cle = "race_bronze"
+preuve = "cross_breeding/aether_nether.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_bronze"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_crystal"
+cle = "race_forest"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_crystal"
+cle = "race_crystal"
+preuve = "cross_breeding/forest_ice.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_crystal"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_dark"
+cle = "race_end"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_dark"
+cle = "race_dark"
+preuve = "cross_breeding/end_ghost.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_dark"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_eclipse"
+cle = "race_ghost"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_eclipse"
+cle = "race_eclipse"
+preuve = "cross_breeding/ghost_ice.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_eclipse"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_elder"
+cle = "race_aether"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_elder"
+cle = "race_elder"
+preuve = "cross_breeding/aether_end.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_elder"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_gale"
+cle = "race_aether"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_gale"
+cle = "race_gale"
+preuve = "cross_breeding/aether_forest.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_gale"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_jade"
+cle = "race_forest"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_jade"
+cle = "race_jade"
+preuve = "cross_breeding/forest_ghost.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_jade"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_light"
+cle = "race_aether"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_light"
+cle = "race_light"
+preuve = "cross_breeding/aether_ghost.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_light"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_lunar"
+cle = "race_ice"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_lunar"
+cle = "race_lunar"
+preuve = "cross_breeding/ice_water.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_lunar"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_magic"
+cle = "race_end"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_magic"
+cle = "race_magic"
+preuve = "cross_breeding/end_water.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_magic"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_monarch"
+cle = "race_forest"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_monarch"
+cle = "race_monarch"
+preuve = "cross_breeding/forest_nether.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_monarch"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_ocean"
+cle = "race_fire"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_ocean"
+cle = "race_ocean"
+preuve = "cross_breeding/fire_water.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_ocean"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_primal_end"
+cle = "race_end"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_primal_end"
+cle = "race_primal_end"
+preuve = "cross_breeding/end_fire.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_primal_end"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_primal_nether"
+cle = "race_end"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_primal_nether"
+cle = "race_primal_nether"
+preuve = "cross_breeding/end_nether.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_primal_nether"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_red"
+cle = "race_fire"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_red"
+cle = "race_red"
+preuve = "cross_breeding/fire_nether.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_red"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_sculk"
+cle = "race_end"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_sculk"
+cle = "race_sculk"
+preuve = "cross_breeding/end_forest.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_sculk"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_shadow"
+cle = "race_end"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_shadow"
+cle = "race_shadow"
+preuve = "cross_breeding/end_ice.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_shadow"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_solar"
+cle = "race_aether"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_solar"
+cle = "race_solar"
+preuve = "cross_breeding/aether_fire.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_solar"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_soul_nether"
+cle = "race_ice"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_soul_nether"
+cle = "race_soul_nether"
+preuve = "cross_breeding/ice_nether.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_soul_nether"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_storm"
+cle = "race_aether"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_storm"
+cle = "race_storm"
+preuve = "cross_breeding/aether_water.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_storm"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_sylphid"
+cle = "race_forest"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_sylphid"
+cle = "race_sylphid"
+preuve = "cross_breeding/forest_water.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_sylphid"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_terra"
+cle = "race_fire"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_terra"
+cle = "race_terra"
+preuve = "cross_breeding/fire_forest.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_terra"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_wither"
+cle = "race_ghost"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_wither"
+cle = "race_wither"
+preuve = "cross_breeding/ghost_nether.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_wither"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "race_zombie"
+cle = "race_ghost"
+preuve = "parent"
+
+[[palier]]
+echelle = "race_zombie"
+cle = "race_zombie"
+preuve = "cross_breeding/ghost_water.json (serveur), patch 25 %"
+
+[[palier]]
+echelle = "race_zombie"
+cle = "races"
+preuve = "les 36 races"
+
+[[palier]]
+echelle = "dragonloot"
+cle = "ecailles"
+preuve = "recettes DLxAN, CompatRecipes"
+
+[[palier]]
+echelle = "dragonloot"
+cle = "armure"
+preuve = "recettes DLxAN, CompatRecipes"
+
+[[palier]]
+echelle = "dragonloot"
+cle = "plastron_aile"
+preuve = "recettes DLxAN, CompatRecipes"
+
+
+[[saute]]
+objet = "monter un dragon (vérifié)"
+raison = "FTB Quests n'a aucune tâche qui voit un joueur en selle sur une créature d'un mod : la quête reste une case à cocher"

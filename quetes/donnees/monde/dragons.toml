@@ -13,6 +13,16 @@
 # sur l'Ender Dragon + 2 tirages par joueur à 80 %, enclume sans plafond),
 # progrès dragonloot:dragon_armor ; datapack bmc4-fixes (load.mcfunction : équipe
 # bmc4_dragons, friendlyFire false ; tick.mcfunction : tout dragon y entre).
+# Paliers (BMC-89, 5 octobre) : races et habitats lus dans
+# data/dragonmounts/dragonmounts/dragon_breeds et tags/blocks/*_habitat_blocks ;
+# œuf = dragonmounts:dragon_egg, NBT BlockEntityTag.Breed (tâche oeuf_dragon) ;
+# croisements : 28 fichiers bmc4-fixes/data/bmc4/dragonmounts/cross_breeding
+# du serveur (copie dans config/datapack) ; reproduction : pond un œuf de la
+# race de l'enfant (TameableDragon, javap) ; armure du dragon : blocs de
+# cuivre (4), or (6), fer (8), émeraude (10), diamant (12), nétherite (16)
+# (DragonArmorType, noms résolus par les correspondances mcp_config) ; selle
+# et coffre. DragonLoot : arc, arbalète, trident, armure de cheval et
+# plastron ailé par recettes générées (CompatRecipes, RecipeManagerMixin).
 
 [chapitre]
 titre = "&5Les dragons"
@@ -37,10 +47,11 @@ Trente-six races de dragons dans le pack : les huit de base — feu, eau, forê
 cle = "oeuf"
 titre = "Un œuf de dragon"
 deps = ["intro"]
-taches = ["checkmark Un œuf en poche"]
+exigence = "une"
+taches = ["oeuf_dragon fire", "oeuf_dragon forest", "oeuf_dragon ghost", "oeuf_dragon ice", "oeuf_dragon nether", "oeuf_dragon water", "oeuf_dragon aether", "oeuf_dragon end", "item minecraft:dragon_egg"]
 recompenses = ["xp 5"]
 description = """
-Les œufs sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi : il se renouvelle sur le portail après chaque dragon ré-invoqué (config).
+Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi : il se renouvelle sur le portail après chaque dragon ré-invoqué (config).
 """
 
 [[quete]]
@@ -48,19 +59,19 @@ cle = "eclosion"
 titre = "Faire éclore"
 deps = ["oeuf"]
 taille = 1.3
-taches = ["checkmark Un dragon est né"]
+taches = ["observation entity dragonmounts:dragon"]
 recompenses = ["xp 8"]
 description = """
-Posé, l'œuf couve et l'infobulle compte les secondes. Il &lchange de race selon son milieu&r (config : les habitats sont actifs) — un œuf posé dans la neige donne un dragon de glace.
+Posé, l'œuf couve et l'infobulle compte les secondes. Il &lchange de race selon son milieu&r (config : les habitats sont actifs). La quête se valide en regardant un dragon.
 
 Autre voie : dans &9#dragons&r, poste &l!dragon <x> <y> <z> <race>&r (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée.
 """
 
 [[quete]]
 cle = "apprivoiser"
-doublon_voulu = true
 titre = "Apprivoiser et seller"
 deps = ["eclosion"]
+doublon_voulu = true
 taches = ["item minecraft:saddle"]
 recompenses = ["xp 5"]
 description = """
@@ -74,18 +85,92 @@ deps = ["apprivoiser"]
 taches = ["checkmark J'ai volé"]
 recompenses = ["xp 10"]
 description = """
-Vol libre, souffle à la touche du mod. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler.
+Vol libre, souffle à la touche du mod. Aucune tâche ne sait voir un joueur en selle sur un dragon : celle-ci se coche. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler.
 """
 
 [[quete]]
-cle = "races"
-titre = "Une race de l'extension"
-deps = ["eclosion"]
+cle = "coffre_dragon"
+titre = "Un coffre sur le dos"
+deps = ["apprivoiser"]
 optionnel = true
-taches = ["checkmark Un dragon hors des huit races de base"]
-recompenses = ["xp 5"]
+doublon_voulu = true
+taches = ["item minecraft:chest"]
+recompenses = ["xp 3"]
 description = """
-Orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, bronze, Nether primordial, End primordial, monarque, aîné… Vingt-huit races au-delà des huit de base (lang du mod).
+Un coffre donné à un dragon apprivoisé lui fait porter un inventaire : le voyage de longue distance emporte son chargement.
+"""
+
+[[quete]]
+cle = "armure_dragon_copper"
+titre = "L'armure de dragon en cuivre"
+deps = ["apprivoiser"]
+optionnel = true
+doublon_voulu = true
+taches = ["item minecraft:copper_block"]
+recompenses = ["xp 4"]
+description = """
+Un bloc de cuivre donné au dragon apprivoisé l'habille d'une armure : 4 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+"""
+
+[[quete]]
+cle = "armure_dragon_gold"
+titre = "L'armure de dragon en or"
+deps = ["armure_dragon_copper"]
+optionnel = true
+doublon_voulu = true
+taches = ["item minecraft:gold_block"]
+recompenses = ["xp 6"]
+description = """
+Un bloc de or donné au dragon apprivoisé l'habille d'une armure : 6 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+"""
+
+[[quete]]
+cle = "armure_dragon_iron"
+titre = "L'armure de dragon en fer"
+deps = ["armure_dragon_gold"]
+optionnel = true
+doublon_voulu = true
+taches = ["item minecraft:iron_block"]
+recompenses = ["xp 8"]
+description = """
+Un bloc de fer donné au dragon apprivoisé l'habille d'une armure : 8 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+"""
+
+[[quete]]
+cle = "armure_dragon_emerald"
+titre = "L'armure de dragon en émeraude"
+deps = ["armure_dragon_iron"]
+optionnel = true
+doublon_voulu = true
+taches = ["item minecraft:emerald_block"]
+recompenses = ["xp 10"]
+description = """
+Un bloc de émeraude donné au dragon apprivoisé l'habille d'une armure : 10 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+"""
+
+[[quete]]
+cle = "armure_dragon_diamond"
+titre = "L'armure de dragon en diamant"
+deps = ["armure_dragon_emerald"]
+optionnel = true
+doublon_voulu = true
+taches = ["item minecraft:diamond_block"]
+recompenses = ["xp 12"]
+description = """
+Un bloc de diamant donné au dragon apprivoisé l'habille d'une armure : 12 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+"""
+
+[[quete]]
+cle = "armure_dragon_netherite"
+titre = "&5L'armure de dragon en nétherite"
+deps = ["armure_dragon_diamond"]
+optionnel = true
+forme = "diamond"
+doublon_voulu = true
+taches = ["item minecraft:netherite_block"]
+recompenses = ["xp 14"]
+description = """
+Un bloc de nétherite donné au dragon apprivoisé l'habille d'une armure : 16 points d'armure. C'est la plus solide : le dragon est équipé au maximum. Le bloc se reprend en lui en donnant un autre.
 """
 
 [[quete]]
@@ -93,10 +178,421 @@ cle = "croisement"
 titre = "Un croisement hybride"
 deps = ["apprivoiser"]
 optionnel = true
-taches = ["checkmark Croisement tenté"]
+exigence = "une"
+taches = ["oeuf_dragon aurora", "oeuf_dragon black_fire", "oeuf_dragon blood", "oeuf_dragon blue_fire", "oeuf_dragon bronze", "oeuf_dragon crystal", "oeuf_dragon dark", "oeuf_dragon eclipse", "oeuf_dragon elder", "oeuf_dragon gale", "oeuf_dragon jade", "oeuf_dragon light", "oeuf_dragon lunar", "oeuf_dragon magic", "oeuf_dragon monarch", "oeuf_dragon ocean", "oeuf_dragon primal_end", "oeuf_dragon primal_nether", "oeuf_dragon red", "oeuf_dragon sculk", "oeuf_dragon shadow", "oeuf_dragon solar", "oeuf_dragon soul_nether", "oeuf_dragon storm", "oeuf_dragon sylphid", "oeuf_dragon terra", "oeuf_dragon wither", "oeuf_dragon zombie"]
 recompenses = ["xp 8"]
 description = """
-Deux dragons adultes de races différentes peuvent donner un &lhybride&r. Sur BMC4, le jar du serveur est patché : &l25 % de chance&r d'obtenir la race hybride, sinon l'une des deux races parentes. Chaque race de base ne se reproduit que &ldeux fois&r (config du serveur).
+Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : &l25 % de chance&r que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Un œuf posé qui couve peut encore changer de race selon son milieu : à garder loin des habitats d'autres races.
+"""
+
+[[quete]]
+cle = "race_fire"
+titre = "Un œuf : Dragon de Feu"
+deps = ["oeuf"]
+optionnel = true
+taches = ["oeuf_dragon fire"]
+recompenses = ["xp 5"]
+description = """
+Le Dragon de Feu est une des huit races de base. Son œuf se trouve dans les coffres des temples du désert (5 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, feu, lave, bloc de magma. L'œuf ramassé garde sa race.
+"""
+
+[[quete]]
+cle = "race_forest"
+titre = "Un œuf : Dragon de la Forêt"
+deps = ["oeuf"]
+optionnel = true
+taches = ["oeuf_dragon forest"]
+recompenses = ["xp 5"]
+description = """
+Le Dragon de la Forêt est une des huit races de base. Son œuf se trouve dans les coffres des temples de la jungle (10 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, feuilles, pousses, fleurs. L'œuf ramassé garde sa race.
+"""
+
+[[quete]]
+cle = "race_ghost"
+titre = "Un œuf : Dragon Fantôme"
+deps = ["oeuf"]
+optionnel = true
+taches = ["oeuf_dragon ghost"]
+recompenses = ["xp 5"]
+description = """
+Le Dragon Fantôme est une des huit races de base. Son œuf se trouve dans les coffres des manoirs (7 %) et des mines abandonnées (5 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, sous la hauteur 0, dans le noir (lumière sous 3). L'œuf ramassé garde sa race.
+"""
+
+[[quete]]
+cle = "race_ice"
+titre = "Un œuf : Dragon de Glace"
+deps = ["oeuf"]
+optionnel = true
+taches = ["oeuf_dragon ice"]
+recompenses = ["xp 5"]
+description = """
+Le Dragon de Glace est une des huit races de base. Son œuf se trouve dans les coffres des igloos (7 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, glace, neige. L'œuf ramassé garde sa race.
+"""
+
+[[quete]]
+cle = "race_nether"
+titre = "Un œuf : Dragon du Nether"
+deps = ["oeuf"]
+optionnel = true
+taches = ["oeuf_dragon nether"]
+recompenses = ["xp 5"]
+description = """
+Le Dragon du Nether est une des huit races de base. Son œuf se trouve dans les trésors des bastions (10 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, roches du Nether, tiges biscornues, tiges carmin. L'œuf ramassé garde sa race.
+"""
+
+[[quete]]
+cle = "race_water"
+titre = "Un œuf : Dragon d'Eau"
+deps = ["oeuf"]
+optionnel = true
+taches = ["oeuf_dragon water"]
+recompenses = ["xp 5"]
+description = """
+Le Dragon d'Eau est une des huit races de base. Son œuf se trouve dans les trésors enfouis (7 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, coraux, blocs de corail. L'œuf ramassé garde sa race.
+"""
+
+[[quete]]
+cle = "race_aether"
+titre = "Un œuf : Dragon de l'Aether"
+deps = ["oeuf"]
+optionnel = true
+taches = ["oeuf_dragon aether"]
+recompenses = ["xp 5"]
+description = """
+Le Dragon de l'Aether est une des huit races de base. Son œuf se trouve dans les coffres des donjons de l'Aether (6 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, au-dessus de la hauteur 200, ou près de pierre lumineuse. L'œuf ramassé garde sa race.
+"""
+
+[[quete]]
+cle = "race_end"
+titre = "Un œuf : Dragon de l'End"
+deps = ["oeuf"]
+optionnel = true
+exigence = "une"
+taches = ["oeuf_dragon end", "item minecraft:dragon_egg"]
+recompenses = ["xp 5"]
+description = """
+Le Dragon de l'End est une des huit races de base. Son œuf se trouve l'œuf de l'Ender Dragon, qui revient sur le portail à chaque dragon ré-invoqué. Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, le souffle de dragon. L'œuf ramassé garde sa race.
+"""
+
+[[quete]]
+cle = "race_aurora"
+titre = "Un œuf : Dragon de l'Aurore"
+deps = ["race_aether", "race_ice", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon aurora"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'Aether et d'un Dragon de Glace donne un Dragon de l'Aurore une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de purpur, pilier de purpur.
+"""
+
+[[quete]]
+cle = "race_black_fire"
+titre = "Un œuf : Dragon de Feu Noir"
+deps = ["race_fire", "race_ghost", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon black_fire"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de Feu et d'un Dragon Fantôme donne un Dragon de Feu Noir une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton noir.
+"""
+
+[[quete]]
+cle = "race_blood"
+titre = "Un œuf : Dragon de Sang"
+deps = ["race_nether", "race_water", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon blood"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon du Nether et d'un Dragon d'Eau donne un Dragon de Sang une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de redstone.
+"""
+
+[[quete]]
+cle = "race_blue_fire"
+titre = "Un œuf : Dragon de Feu Bleu"
+deps = ["race_fire", "race_ice", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon blue_fire"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de Feu et d'un Dragon de Glace donne un Dragon de Feu Bleu une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne.
+"""
+
+[[quete]]
+cle = "race_bronze"
+titre = "Un œuf : Dragon de Bronze"
+deps = ["race_aether", "race_nether", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon bronze"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'Aether et d'un Dragon du Nether donne un Dragon de Bronze une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : lampe à redstone.
+"""
+
+[[quete]]
+cle = "race_crystal"
+titre = "Un œuf : Dragon de Cristal"
+deps = ["race_forest", "race_ice", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon crystal"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de la Forêt et d'un Dragon de Glace donne un Dragon de Cristal une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'améthyste, druse d'améthyste.
+"""
+
+[[quete]]
+cle = "race_dark"
+titre = "Un œuf : Dragon Sombre"
+deps = ["race_end", "race_ghost", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon dark"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'End et d'un Dragon Fantôme donne un Dragon Sombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite noire.
+"""
+
+[[quete]]
+cle = "race_eclipse"
+titre = "Un œuf : Dragon de l'Éclipse"
+deps = ["race_ghost", "race_ice", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon eclipse"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon Fantôme et d'un Dragon de Glace donne un Dragon de l'Éclipse une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite jaune.
+"""
+
+[[quete]]
+cle = "race_elder"
+titre = "Un œuf : Dragon Ancien"
+deps = ["race_aether", "race_end", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon elder"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'Aether et d'un Dragon de l'End donne un Dragon Ancien une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite grise.
+"""
+
+[[quete]]
+cle = "race_gale"
+titre = "Un œuf : Dragon des Bourrasques"
+deps = ["race_aether", "race_forest", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon gale"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'Aether et d'un Dragon de la Forêt donne un Dragon des Bourrasques une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleue.
+"""
+
+[[quete]]
+cle = "race_jade"
+titre = "Un œuf : Dragon de Jade"
+deps = ["race_forest", "race_ghost", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon jade"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de la Forêt et d'un Dragon Fantôme donne un Dragon de Jade une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'émeraude.
+"""
+
+[[quete]]
+cle = "race_light"
+titre = "Un œuf : Dragon de Lumière"
+deps = ["race_aether", "race_ghost", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon light"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'Aether et d'un Dragon Fantôme donne un Dragon de Lumière une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite blanche.
+"""
+
+[[quete]]
+cle = "race_lunar"
+titre = "Un œuf : Dragon Lunaire"
+deps = ["race_ice", "race_water", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon lunar"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de Glace et d'un Dragon d'Eau donne un Dragon Lunaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne pleureuse.
+"""
+
+[[quete]]
+cle = "race_magic"
+titre = "Un œuf : Dragon Magique"
+deps = ["race_end", "race_water", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon magic"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'End et d'un Dragon d'Eau donne un Dragon Magique une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : table d'enchantement.
+"""
+
+[[quete]]
+cle = "race_monarch"
+titre = "Un œuf : Dragon Monarque"
+deps = ["race_forest", "race_nether", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon monarch"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de la Forêt et d'un Dragon du Nether donne un Dragon Monarque une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée rouge.
+"""
+
+[[quete]]
+cle = "race_ocean"
+titre = "Un œuf : Dragon de l'Océan"
+deps = ["race_fire", "race_water", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon ocean"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de Feu et d'un Dragon d'Eau donne un Dragon de l'Océan une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : prismarine, lanterne aquatique.
+"""
+
+[[quete]]
+cle = "race_primal_end"
+titre = "Un œuf : Dragon de l'End Primordial"
+deps = ["race_end", "race_fire", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon primal_end"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'End et d'un Dragon de Feu donne un Dragon de l'End Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : pierre de l'end.
+"""
+
+[[quete]]
+cle = "race_primal_nether"
+titre = "Un œuf : Dragon du Nether Primordial"
+deps = ["race_end", "race_nether", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon primal_nether"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'End et d'un Dragon du Nether donne un Dragon du Nether Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite rouge.
+"""
+
+[[quete]]
+cle = "race_red"
+titre = "Un œuf : Dragon Rouge"
+deps = ["race_fire", "race_nether", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon red"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de Feu et d'un Dragon du Nether donne un Dragon Rouge une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton rouge.
+"""
+
+[[quete]]
+cle = "race_sculk"
+titre = "Un œuf : Dragon de Sculk"
+deps = ["race_end", "race_forest", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon sculk"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'End et d'un Dragon de la Forêt donne un Dragon de Sculk une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sculk, catalyseur de sculk, hurleur sculk.
+"""
+
+[[quete]]
+cle = "race_shadow"
+titre = "Un œuf : Dragon d'Ombre"
+deps = ["race_end", "race_ice", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon shadow"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'End et d'un Dragon de Glace donne un Dragon d'Ombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée noire.
+"""
+
+[[quete]]
+cle = "race_solar"
+titre = "Un œuf : Dragon Solaire"
+deps = ["race_aether", "race_fire", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon solar"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'Aether et d'un Dragon de Feu donne un Dragon Solaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'or.
+"""
+
+[[quete]]
+cle = "race_soul_nether"
+titre = "Un œuf : Dragon du Nether des Âmes"
+deps = ["race_ice", "race_nether", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon soul_nether"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de Glace et d'un Dragon du Nether donne un Dragon du Nether des Âmes une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sable et terre des âmes, feu des âmes, feu de camp des âmes.
+"""
+
+[[quete]]
+cle = "race_storm"
+titre = "Un œuf : Dragon de la Tempête"
+deps = ["race_aether", "race_water", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon storm"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de l'Aether et d'un Dragon d'Eau donne un Dragon de la Tempête une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de cuivre, cuivre exposé, cuivre érodé.
+"""
+
+[[quete]]
+cle = "race_sylphid"
+titre = "Un œuf : Dragon Sylphide"
+deps = ["race_forest", "race_water", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon sylphid"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de la Forêt et d'un Dragon d'Eau donne un Dragon Sylphide une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleu clair.
+"""
+
+[[quete]]
+cle = "race_terra"
+titre = "Un œuf : Dragon de Terre"
+deps = ["race_fire", "race_forest", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon terra"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon de Feu et d'un Dragon de la Forêt donne un Dragon de Terre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : andésite, granite, diorite.
+"""
+
+[[quete]]
+cle = "race_wither"
+titre = "Un œuf : Dragon Wither"
+deps = ["race_ghost", "race_nether", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon wither"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon Fantôme et d'un Dragon du Nether donne un Dragon Wither une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : crâne de wither squelette.
+"""
+
+[[quete]]
+cle = "race_zombie"
+titre = "Un œuf : Dragon Zombie"
+deps = ["race_ghost", "race_water", "croisement"]
+optionnel = true
+taches = ["oeuf_dragon zombie"]
+recompenses = ["xp 8"]
+description = """
+Le croisement d'un Dragon Fantôme et d'un Dragon d'Eau donne un Dragon Zombie une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'os.
+"""
+
+[[quete]]
+cle = "races"
+titre = "&5&lLes trente-six races"
+deps = ["race_fire", "race_forest", "race_ghost", "race_ice", "race_nether", "race_water", "race_aether", "race_end", "race_aurora", "race_black_fire", "race_blood", "race_blue_fire", "race_bronze", "race_crystal", "race_dark", "race_eclipse", "race_elder", "race_gale", "race_jade", "race_light", "race_lunar", "race_magic", "race_monarch", "race_ocean", "race_primal_end", "race_primal_nether", "race_red", "race_sculk", "race_shadow", "race_solar", "race_soul_nether", "race_storm", "race_sylphid", "race_terra", "race_wither", "race_zombie"]
+optionnel = true
+forme = "diamond"
+taille = 1.8
+taches = ["oeuf_dragon fire", "oeuf_dragon forest", "oeuf_dragon ghost", "oeuf_dragon ice", "oeuf_dragon nether", "oeuf_dragon water", "oeuf_dragon aether", "oeuf_dragon end", "oeuf_dragon aurora", "oeuf_dragon black_fire", "oeuf_dragon blood", "oeuf_dragon blue_fire", "oeuf_dragon bronze", "oeuf_dragon crystal", "oeuf_dragon dark", "oeuf_dragon eclipse", "oeuf_dragon elder", "oeuf_dragon gale", "oeuf_dragon jade", "oeuf_dragon light", "oeuf_dragon lunar", "oeuf_dragon magic", "oeuf_dragon monarch", "oeuf_dragon ocean", "oeuf_dragon primal_end", "oeuf_dragon primal_nether", "oeuf_dragon red", "oeuf_dragon sculk", "oeuf_dragon shadow", "oeuf_dragon solar", "oeuf_dragon soul_nether", "oeuf_dragon storm", "oeuf_dragon sylphid", "oeuf_dragon terra", "oeuf_dragon wither", "oeuf_dragon zombie"]
+recompenses = ["xp 30"]
+description = """
+Un œuf de chacune des trente-six races, ensemble dans l'inventaire : les huit de base et les vingt-huit hybrides. C'est le sommet du chapitre.
 """
 
 [[quete]]
@@ -107,7 +603,7 @@ optionnel = true
 taches = ["item dragonloot:dragon_scale 3"]
 recompenses = ["xp 5"]
 description = """
-&5DragonLoot&r : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font une armure, des outils et l'&lenclume de dragon&r, sans plafond de niveaux sur ce serveur.
+&5DragonLoot&r : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font l'armure, les outils et l'&lenclume de dragon&r, sans plafond de niveaux sur ce serveur.
 """
 
 [[quete]]
@@ -118,7 +614,63 @@ optionnel = true
 taches = ["advancement dragonloot:dragon_armor"]
 recompenses = ["xp 15"]
 description = """
-Les quatre pièces : progrès « Des écailles de la bête ».
+À la table de forge : un modèle d'amélioration en nétherite, une pièce en nétherite-diamant d'Advanced Netherite et une écaille, pour chaque pièce. Les quatre pièces : progrès « Des écailles de la bête ».
+"""
+
+[[quete]]
+cle = "outils_dragon"
+titre = "Les outils de dragon"
+deps = ["ecailles"]
+optionnel = true
+taches = ["item dragonloot:dragon_sword", "item dragonloot:dragon_pickaxe", "item dragonloot:dragon_axe", "item dragonloot:dragon_shovel", "item dragonloot:dragon_hoe"]
+recompenses = ["xp 10"]
+description = """
+Même recette pour l'épée, la pioche, la hache, la pelle et la houe : modèle en nétherite, outil en nétherite-diamant d'Advanced Netherite, écaille.
+"""
+
+[[quete]]
+cle = "armes_dragon"
+titre = "Arc, arbalète et trident de dragon"
+deps = ["ecailles"]
+optionnel = true
+taches = ["item dragonloot:dragon_bow", "item dragonloot:dragon_crossbow", "item dragonloot:dragon_trident"]
+recompenses = ["xp 10"]
+description = """
+Recettes créées par le code de DragonLoot : à la table de forge, le modèle en nétherite, l'arme du jeu de base et une écaille.
+"""
+
+[[quete]]
+cle = "cheval_dragon"
+titre = "L'armure de cheval de dragon"
+deps = ["ecailles"]
+optionnel = true
+taches = ["item dragonloot:dragon_horse_armor"]
+recompenses = ["xp 5"]
+description = """
+Le modèle en nétherite, une armure de cheval en diamant et une écaille.
+"""
+
+[[quete]]
+cle = "enclume"
+titre = "L'enclume de dragon"
+deps = ["ecailles"]
+optionnel = true
+taches = ["item dragonloot:dragon_anvil"]
+recompenses = ["xp 8"]
+description = """
+Le modèle en nétherite, une enclume et une écaille : une enclume sans plafond de niveaux sur ce serveur.
+"""
+
+[[quete]]
+cle = "plastron_aile"
+titre = "&5Le plastron ailé"
+deps = ["armure"]
+optionnel = true
+forme = "diamond"
+taches = ["item dragonloot:upgraded_dragon_chestplate"]
+recompenses = ["xp 20"]
+description = """
+Le plastron de dragon, des élytres et le modèle en nétherite : le plastron ailé, sommet de DragonLoot.
 """
 
 [[quete]]
@@ -143,3 +695,4 @@ recompenses = ["xp 5"]
 description = """
 Un dragon à soi, sellé, dans son hangar.
 """
+
