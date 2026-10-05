@@ -1,0 +1,1003 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Structures — autres mondes"
+fichier = "enc_structures_mondes"
+groupe = "encyclopedie"
+icone = "minecraft:ender_eye"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Structures — autres mondes"
+taille = 1.5
+icone = "minecraft:ender_eye"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+"""
+
+[[quete]]
+cle = "aether_bronze_dungeon"
+titre = "Visiter : « Bronze dungeon »"
+sous_titre = "Aether"
+optionnel = true
+taches = ["structure aether:bronze_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAether&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "aether_gold_dungeon"
+titre = "Visiter : « Gold dungeon »"
+sous_titre = "Aether"
+optionnel = true
+taches = ["structure aether:gold_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAether&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "aether_large_aercloud"
+titre = "Visiter : « Large aercloud »"
+sous_titre = "Aether"
+optionnel = true
+taches = ["structure aether:large_aercloud"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAether&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "aether_silver_dungeon"
+titre = "Visiter : « Silver dungeon »"
+sous_titre = "Aether"
+optionnel = true
+taches = ["structure aether:silver_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAether&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "aether_villages_olympic_citadel"
+titre = "Visiter : « Olympic citadel »"
+sous_titre = "Aether Villages"
+optionnel = true
+taches = ["structure aether_villages:olympic_citadel"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bAether Villages&r. Se génère dans : Forêt de skyroot, Prairie de skyroot, « Cloudcaps », « Frosted Forests », « Gilded Groves » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterend_end_village"
+titre = "Visiter : « End village »"
+sous_titre = "Better End"
+optionnel = true
+taches = ["structure betterend:end_village"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter End&r. Se génère dans : « Dust Wastelands », « Glowing Grasslands » (données du serveur).
+"""
+
+[[quete]]
+cle = "betterend_eternal_portal"
+titre = "Visiter : « Eternal portal »"
+sous_titre = "Better End"
+optionnel = true
+taches = ["structure betterend:eternal_portal"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter End&r. Se génère dans : « Chorus Forest », « Dragon Graveyards », « Dry Shrubland », « Dust Wastelands », « Foggy Mushroomland » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betterend_giant_ice_star"
+titre = "Visiter : « Giant ice star »"
+sous_titre = "Better End"
+optionnel = true
+taches = ["structure betterend:giant_ice_star"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter End&r. Se génère dans : « Ice Starfield » (données du serveur).
+"""
+
+[[quete]]
+cle = "betterend_giant_mossy_glowshroom"
+titre = "Visiter : « Giant mossy glowshroom »"
+sous_titre = "Better End"
+optionnel = true
+taches = ["structure betterend:giant_mossy_glowshroom"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter End&r. Se génère dans : « Foggy Mushroomland » (données du serveur).
+"""
+
+[[quete]]
+cle = "betterend_megalake"
+titre = "Visiter : « Megalake »"
+sous_titre = "Better End"
+optionnel = true
+taches = ["structure betterend:megalake"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter End&r. Se génère dans : « Megalake » (données du serveur).
+"""
+
+[[quete]]
+cle = "betterend_megalake_small"
+titre = "Visiter : « Megalake small »"
+sous_titre = "Better End"
+optionnel = true
+taches = ["structure betterend:megalake_small"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter End&r. Se génère dans : « Megalake Grove » (données du serveur).
+"""
+
+[[quete]]
+cle = "betterend_mountain"
+titre = "Visiter : « Mountain »"
+sous_titre = "Better End"
+optionnel = true
+taches = ["structure betterend:mountain"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter End&r. Se génère dans : « Crystal Mountains » (données du serveur).
+"""
+
+[[quete]]
+cle = "betterend_painted_mountain"
+titre = "Visiter : « Painted mountain »"
+sous_titre = "Better End"
+optionnel = true
+taches = ["structure betterend:painted_mountain"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter End&r. Se génère dans : « Painted Mountains » (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_altars"
+titre = "Visiter : « Altars »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:altars"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_gardens"
+titre = "Visiter : « Gardens »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:gardens"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_ghast_hive"
+titre = "Visiter : « Ghast hive »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:ghast_hive"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_jungle_temples"
+titre = "Visiter : « Jungle temples »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:jungle_temples"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_nether_city"
+titre = "Visiter : « Nether city »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:nether_city"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_pillars"
+titre = "Visiter : « Pillars »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:pillars"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_portals"
+titre = "Visiter : « Portals »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:portals"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_pyramid"
+titre = "Visiter : « Pyramid »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:pyramid"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_respawn_points"
+titre = "Visiter : « Respawn points »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:respawn_points"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "betternether_spawn_altar_ladder"
+titre = "Visiter : « Spawn altar ladder »"
+sous_titre = "Better Nether"
+optionnel = true
+taches = ["structure betternether:spawn_altar_ladder"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_everbright_blinding_dungeon"
+titre = "Visiter : « Everbright blinding dungeon »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:everbright_blinding_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Landes brillantes, Prairie brisegelée, Cieux calmes, Pins neigeux (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_everdawn_blinding_dungeon"
+titre = "Visiter : « Everdawn blinding dungeon »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:everdawn_blinding_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Verger de crofruits, Dunes cristallisées, Buttes de cristal, Prairie brûlante, Bosquets de l'ombre et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_frozen_bunker"
+titre = "Visiter : « Frozen bunker »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:frozen_bunker"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Terres détrempées (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_gatekeeper_house_mountain"
+titre = "Visiter : « Gatekeeper house mountain »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:gatekeeper_house_mountain"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_gatekeeper_house_plains"
+titre = "Visiter : « Gatekeeper house plains »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:gatekeeper_house_plains"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_gatekeeper_house_snowy"
+titre = "Visiter : « Gatekeeper house snowy »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:gatekeeper_house_snowy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r.
+"""
+
+[[quete]]
+cle = "blue_skies_nature_dungeon"
+titre = "Visiter : « Nature dungeon »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:nature_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Pins neigeux (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_poison_dungeon"
+titre = "Visiter : « Poison dungeon »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:poison_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Forêt d'érables (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_village_brightlands"
+titre = "Visiter : « Village brightlands »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:village_brightlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Pins neigeux (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_village_calming_skies"
+titre = "Visiter : « Village calming skies »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:village_calming_skies"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Cieux calmes (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_village_crystal_dunes"
+titre = "Visiter : « Village crystal dunes »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:village_crystal_dunes"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Dunes cristallisées (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_village_shaded_woodlands"
+titre = "Visiter : « Village shaded woodlands »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:village_shaded_woodlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Bosquets de l'ombre (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_village_slushlands"
+titre = "Visiter : « Village slushlands »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:village_slushlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Terres détrempées (données du serveur).
+"""
+
+[[quete]]
+cle = "blue_skies_village_sunset_maple_forest"
+titre = "Visiter : « Village sunset maple forest »"
+sous_titre = "Blue Skies"
+optionnel = true
+taches = ["structure blue_skies:village_sunset_maple_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBlue Skies&r. Se génère dans : Forêt d'érables (données du serveur).
+"""
+
+[[quete]]
+cle = "bygonenether_catacomb"
+titre = "Visiter : « Catacomb »"
+sous_titre = "Bygone Nether"
+optionnel = true
+taches = ["structure bygonenether:catacomb"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBygone Nether&r. Se génère dans : Abîme flétri, Vallée des âmes (données du serveur).
+"""
+
+[[quete]]
+cle = "bygonenether_citadel"
+titre = "Visiter : « Citadel »"
+sous_titre = "Bygone Nether"
+optionnel = true
+taches = ["structure bygonenether:citadel"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBygone Nether&r. Se génère dans : Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "bygonenether_piglin_manor"
+titre = "Visiter : « Piglin manor »"
+sous_titre = "Bygone Nether"
+optionnel = true
+taches = ["structure bygonenether:piglin_manor"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bBygone Nether&r. Se génère dans : Forêt carmin (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_abandoned_spire"
+titre = "Visiter : « Abandoned spire »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:abandoned_spire"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_abandoned_temple"
+titre = "Visiter : « Abandoned temple »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:abandoned_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_abandoned_village"
+titre = "Visiter : « Abandoned village »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:abandoned_village"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_acropolis"
+titre = "Visiter : « Acropolis »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:acropolis"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Océan chaud (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_amethyst_nest"
+titre = "Visiter : « Amethyst nest »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:amethyst_nest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Cavernes luxuriantes (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_ancient_factory"
+titre = "Visiter : « Ancient factory »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:ancient_factory"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Grotte lumineuse, Nid d'araignée, « Crystal Canyons », « Lichen Caves », « Pink Salt Caves » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_burning_arena"
+titre = "Visiter : « Burning arena »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:burning_arena"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Terres désolées du Nether (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_cursed_pyramid"
+titre = "Visiter : « Cursed pyramid »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:cursed_pyramid"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_desert_occupied_village"
+titre = "Visiter : « Desert occupied village »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:desert_occupied_village"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_desert_site"
+titre = "Visiter : « Desert site »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:desert_site"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_frosted_prison"
+titre = "Visiter : « Frosted prison »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:frosted_prison"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_ruined_citadel"
+titre = "Visiter : « Ruined citadel »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:ruined_citadel"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_soul_black_smith"
+titre = "Visiter : « Soul black smith »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:soul_black_smith"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+"""
+
+[[quete]]
+cle = "cataclysm_sunken_city"
+titre = "Visiter : « Sunken city »"
+sous_titre = "Cataclysm"
+optionnel = true
+taches = ["structure cataclysm:sunken_city"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bCataclysm&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "deep_aether_brass_dungeon"
+titre = "Visiter : « Brass dungeon »"
+sous_titre = "Deep Aether"
+optionnel = true
+taches = ["structure deep_aether:brass_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bDeep Aether&r. Se génère dans : « Cloud » (données du serveur).
+"""
+
+[[quete]]
+cle = "deeperdarker_ancient_temple"
+titre = "Visiter : « Ancient temple »"
+sous_titre = "Deeper and Darker"
+optionnel = true
+taches = ["structure deeperdarker:ancient_temple"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bDeeper and Darker&r. Se génère dans : « Deeplands » (données du serveur).
+"""
+
+[[quete]]
+cle = "endersdelight_end_house"
+titre = "Visiter : « End house »"
+sous_titre = "Ender's Delight"
+optionnel = true
+taches = ["structure endersdelight:end_house"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bEnder's Delight&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ancient_battleground"
+titre = "Visiter : « Ancient battleground »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:ancient_battleground"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_catacombs"
+titre = "Visiter : « Catacombs »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:catacombs"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_citadel"
+titre = "Visiter : « Citadel »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:citadel"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_evoker_fort"
+titre = "Visiter : « Evoker fort »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:evoker_fort"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : « Aspen Glade », Terre sèche, Prairies, Hauts plateaux, « Jacaranda Glade » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ice_spider_den"
+titre = "Visiter : « Ice spider den »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:ice_spider_den"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_impaled_icebreaker"
+titre = "Visiter : « Impaled icebreaker »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:impaled_icebreaker"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : Océan gelé profond, Océan gelé, Pics gelés, Stalagmites de glace (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_mangrove_hut"
+titre = "Visiter : « Mangrove hut »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:mangrove_hut"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_mountain_tower"
+titre = "Visiter : « Mountain tower »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:mountain_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : Escarpée, Falaises de jade, Bosquet de cerisiers, Pics gelés, Bosquet et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pyromancer_tower"
+titre = "Visiter : « Pyromancer tower »"
+sous_titre = "Iron's Spells"
+optionnel = true
+taches = ["structure irons_spellbooks:pyromancer_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bIron's Spells&r. Se génère dans : « Aspen Glade », Bayou, Tourbière, Plaine inondable, Prairies et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "lost_aether_content_platinum_dungeon"
+titre = "Visiter : « Platinum dungeon »"
+sous_titre = "Lost Aether Content"
+optionnel = true
+taches = ["structure lost_aether_content:platinum_dungeon"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bLost Aether Content&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "netherexp_chapel"
+titre = "Visiter : « Chapel »"
+sous_titre = "Jaden's Nether Expansion"
+optionnel = true
+taches = ["structure netherexp:chapel"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bJaden's Nether Expansion&r. Se génère dans : Gouffre crystallin, Sous-bois, « Soulblight Forest », Forêt carmin, Terres désolées du Nether et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "netherexp_devils_bluff"
+titre = "Visiter : « Devils bluff »"
+sous_titre = "Jaden's Nether Expansion"
+optionnel = true
+taches = ["structure netherexp:devils_bluff"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bJaden's Nether Expansion&r. Se génère dans : Gouffre crystallin, Tas de viscères, Terres désolées du Nether (données du serveur).
+"""
+
+[[quete]]
+cle = "netherexp_mega_fossil"
+titre = "Visiter : « Mega fossil »"
+sous_titre = "Jaden's Nether Expansion"
+optionnel = true
+taches = ["structure netherexp:mega_fossil"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bJaden's Nether Expansion&r. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur).
+"""
+
+[[quete]]
+cle = "netherexp_mega_fossil_campsite"
+titre = "Visiter : « Mega fossil campsite »"
+sous_titre = "Jaden's Nether Expansion"
+optionnel = true
+taches = ["structure netherexp:mega_fossil_campsite"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bJaden's Nether Expansion&r. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur).
+"""
+
+[[quete]]
+cle = "netherexp_sanctum"
+titre = "Visiter : « Sanctum »"
+sous_titre = "Jaden's Nether Expansion"
+optionnel = true
+taches = ["structure netherexp:sanctum"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bJaden's Nether Expansion&r. Se génère dans : « Soulblight Forest », Vallée des âmes, « Black Ice Glaciers », « Fright Forest » (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_aurora_palace"
+titre = "Visiter : « Aurora palace »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:aurora_palace"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Glacier du Crépuscule (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_dark_tower"
+titre = "Visiter : « Dark tower »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:dark_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Centre de la Forêt Sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_final_castle"
+titre = "Visiter : « Final castle »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:final_castle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Plateau Final (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_hedge_maze"
+titre = "Visiter : « Hedge maze »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:hedge_maze"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_hydra_lair"
+titre = "Visiter : « Hydra lair »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:hydra_lair"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Marécage de Feu (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_knight_stronghold"
+titre = "Visiter : « Knight stronghold »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:knight_stronghold"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Forêt Sombre (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_labyrinth"
+titre = "Visiter : « Labyrinth »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:labyrinth"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Marécage du Crépuscule (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_large_hollow_hill"
+titre = "Visiter : « Large hollow hill »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:large_hollow_hill"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_lich_tower"
+titre = "Visiter : « Lich tower »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:lich_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_medium_hollow_hill"
+titre = "Visiter : « Medium hollow hill »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:medium_hollow_hill"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_mushroom_tower"
+titre = "Visiter : « Mushroom tower »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:mushroom_tower"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Forêt de Champignons Dense (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_naga_courtyard"
+titre = "Visiter : « Naga courtyard »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:naga_courtyard"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_quest_grove"
+titre = "Visiter : « Quest grove »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:quest_grove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Forêt Enchantée (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_small_hollow_hill"
+titre = "Visiter : « Small hollow hill »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:small_hollow_hill"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_troll_cave"
+titre = "Visiter : « Troll cave »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:troll_cave"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Hauts plateaux du crépuscule (données du serveur).
+"""
+
+[[quete]]
+cle = "twilightforest_yeti_cave"
+titre = "Visiter : « Yeti cave »"
+sous_titre = "Twilight Forest"
+optionnel = true
+taches = ["structure twilightforest:yeti_cave"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bTwilight Forest&r. Se génère dans : Forêt Enneigé (données du serveur).
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:filled_map"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["aether_bronze_dungeon", "aether_gold_dungeon", "aether_large_aercloud", "aether_silver_dungeon", "aether_villages_olympic_citadel", "betterend_end_village", "betterend_eternal_portal", "betterend_giant_ice_star", "betterend_giant_mossy_glowshroom", "betterend_megalake", "betterend_megalake_small", "betterend_mountain", "betterend_painted_mountain", "betternether_altars", "betternether_gardens", "betternether_ghast_hive", "betternether_jungle_temples", "betternether_nether_city", "betternether_pillars", "betternether_portals", "betternether_pyramid", "betternether_respawn_points", "betternether_spawn_altar_ladder", "blue_skies_everbright_blinding_dungeon", "blue_skies_everdawn_blinding_dungeon", "blue_skies_frozen_bunker", "blue_skies_gatekeeper_house_mountain", "blue_skies_gatekeeper_house_plains", "blue_skies_gatekeeper_house_snowy", "blue_skies_nature_dungeon", "blue_skies_poison_dungeon", "blue_skies_village_brightlands", "blue_skies_village_calming_skies", "blue_skies_village_crystal_dunes", "blue_skies_village_shaded_woodlands", "blue_skies_village_slushlands", "blue_skies_village_sunset_maple_forest", "bygonenether_catacomb", "bygonenether_citadel", "bygonenether_piglin_manor", "cataclysm_abandoned_spire", "cataclysm_abandoned_temple", "cataclysm_abandoned_village", "cataclysm_acropolis", "cataclysm_amethyst_nest", "cataclysm_ancient_factory", "cataclysm_burning_arena", "cataclysm_cursed_pyramid", "cataclysm_desert_occupied_village", "cataclysm_desert_site", "cataclysm_frosted_prison", "cataclysm_ruined_citadel", "cataclysm_soul_black_smith", "cataclysm_sunken_city", "deep_aether_brass_dungeon", "deeperdarker_ancient_temple", "endersdelight_end_house", "irons_spellbooks_ancient_battleground", "irons_spellbooks_catacombs", "irons_spellbooks_citadel", "irons_spellbooks_evoker_fort", "irons_spellbooks_ice_spider_den", "irons_spellbooks_impaled_icebreaker", "irons_spellbooks_mangrove_hut", "irons_spellbooks_mountain_tower", "irons_spellbooks_pyromancer_tower", "lost_aether_content_platinum_dungeon", "netherexp_chapel", "netherexp_devils_bluff", "netherexp_mega_fossil", "netherexp_mega_fossil_campsite", "netherexp_sanctum", "twilightforest_aurora_palace", "twilightforest_dark_tower", "twilightforest_final_castle", "twilightforest_hedge_maze", "twilightforest_hydra_lair", "twilightforest_knight_stronghold", "twilightforest_labyrinth", "twilightforest_large_hollow_hill", "twilightforest_lich_tower", "twilightforest_medium_hollow_hill", "twilightforest_mushroom_tower", "twilightforest_naga_courtyard", "twilightforest_quest_grove", "twilightforest_small_hollow_hill", "twilightforest_troll_cave", "twilightforest_yeti_cave"]
+description = """
+Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+"""

@@ -1,0 +1,1903 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_structures_mondes"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:ender_eye"
+	id: "2B9C8779A8A7AB42"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			icon: "minecraft:ender_eye"
+			id: "62230CA0D060F420"
+			rewards: [{
+				id: "3D2ECF8DA6B4EBA1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "31E6FCDF691C3D1A"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Structures — autres mondes"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bAether&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur)."]
+			id: "7A5F2EA0C013D609"
+			optional: true
+			rewards: [{
+				id: "52BCED5ECAFE26ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Aether"
+			tasks: [{
+				id: "4F9F8F84A6902492"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Bronze dungeon »"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bAether&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur)."]
+			id: "562833227792635A"
+			optional: true
+			rewards: [{
+				id: "28634C5DDF058142"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Aether"
+			tasks: [{
+				id: "73821012B5FAC377"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Gold dungeon »"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bAether&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur)."]
+			id: "7473584720027B0F"
+			optional: true
+			rewards: [{
+				id: "17D6DC24683C5E00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Aether"
+			tasks: [{
+				id: "0BAFF111C670ED83"
+				structure: "aether:large_aercloud"
+				type: "structure"
+			}]
+			title: "Visiter : « Large aercloud »"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bAether&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur)."]
+			id: "5B0795FE824509D1"
+			optional: true
+			rewards: [{
+				id: "4DB263EEC8A0064E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Aether"
+			tasks: [{
+				id: "401DED27EF9F3393"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Silver dungeon »"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bAether Villages&r. Se génère dans : Forêt de skyroot, Prairie de skyroot, « Cloudcaps », « Frosted Forests », « Gilded Groves » et d'autres (données du serveur)."]
+			id: "679B1D524253DB9A"
+			optional: true
+			rewards: [{
+				id: "5B130893F3931724"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Aether Villages"
+			tasks: [{
+				id: "7772D520C9A4DAD1"
+				structure: "aether_villages:olympic_citadel"
+				type: "structure"
+			}]
+			title: "Visiter : « Olympic citadel »"
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter End&r. Se génère dans : « Dust Wastelands », « Glowing Grasslands » (données du serveur)."]
+			id: "620E9A43EA1DE69E"
+			optional: true
+			rewards: [{
+				id: "28EBA5040A3B3C8B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better End"
+			tasks: [{
+				id: "69F03F4617C3FC82"
+				structure: "betterend:end_village"
+				type: "structure"
+			}]
+			title: "Visiter : « End village »"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter End&r. Se génère dans : « Chorus Forest », « Dragon Graveyards », « Dry Shrubland », « Dust Wastelands », « Foggy Mushroomland » et d'autres (données du serveur)."]
+			id: "0AF458C5D05B7AD2"
+			optional: true
+			rewards: [{
+				id: "2BDBDA67B5652CFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better End"
+			tasks: [{
+				id: "40CFED2FD531E70D"
+				structure: "betterend:eternal_portal"
+				type: "structure"
+			}]
+			title: "Visiter : « Eternal portal »"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter End&r. Se génère dans : « Ice Starfield » (données du serveur)."]
+			id: "779B74D1458AF590"
+			optional: true
+			rewards: [{
+				id: "265D84A5485C0C97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better End"
+			tasks: [{
+				id: "31357E0EFC03D51C"
+				structure: "betterend:giant_ice_star"
+				type: "structure"
+			}]
+			title: "Visiter : « Giant ice star »"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter End&r. Se génère dans : « Foggy Mushroomland » (données du serveur)."]
+			id: "524839B06F477547"
+			optional: true
+			rewards: [{
+				id: "3E6D08D10E876C24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better End"
+			tasks: [{
+				id: "5A24809655C79E01"
+				structure: "betterend:giant_mossy_glowshroom"
+				type: "structure"
+			}]
+			title: "Visiter : « Giant mossy glowshroom »"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter End&r. Se génère dans : « Megalake » (données du serveur)."]
+			id: "3A891F1968CD54D5"
+			optional: true
+			rewards: [{
+				id: "057BB9F20B62003F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better End"
+			tasks: [{
+				id: "067C92FB9B5FCECA"
+				structure: "betterend:megalake"
+				type: "structure"
+			}]
+			title: "Visiter : « Megalake »"
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter End&r. Se génère dans : « Megalake Grove » (données du serveur)."]
+			id: "0FB55FC9D2EB787F"
+			optional: true
+			rewards: [{
+				id: "3C5ACF4094FC560F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better End"
+			tasks: [{
+				id: "41A80A8ACBA44C0D"
+				structure: "betterend:megalake_small"
+				type: "structure"
+			}]
+			title: "Visiter : « Megalake small »"
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter End&r. Se génère dans : « Crystal Mountains » (données du serveur)."]
+			id: "42161D20836E5CB8"
+			optional: true
+			rewards: [{
+				id: "016916575691134E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better End"
+			tasks: [{
+				id: "2FBCF28F3A006B27"
+				structure: "betterend:mountain"
+				type: "structure"
+			}]
+			title: "Visiter : « Mountain »"
+			x: 16.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter End&r. Se génère dans : « Painted Mountains » (données du serveur)."]
+			id: "12B38950B59B65DA"
+			optional: true
+			rewards: [{
+				id: "6B6520FB7C17B9A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better End"
+			tasks: [{
+				id: "47DAA0BB45CCD527"
+				structure: "betterend:painted_mountain"
+				type: "structure"
+			}]
+			title: "Visiter : « Painted mountain »"
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "01A7D5AE90A04BFF"
+			optional: true
+			rewards: [{
+				id: "10D47E2010EDC358"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "5389C52A4E4E9249"
+				structure: "betternether:altars"
+				type: "structure"
+			}]
+			title: "Visiter : « Altars »"
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "6B8F43858D3C870E"
+			optional: true
+			rewards: [{
+				id: "5598F8779869DBC6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "171819A1C49406A8"
+				structure: "betternether:gardens"
+				type: "structure"
+			}]
+			title: "Visiter : « Gardens »"
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "528ADF01EC7D6809"
+			optional: true
+			rewards: [{
+				id: "0A42FAA2721ABF80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "4CAD7B4EF5404E69"
+				structure: "betternether:ghast_hive"
+				type: "structure"
+			}]
+			title: "Visiter : « Ghast hive »"
+			x: 22.5d
+			y: -3.75d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "3796FF8C0E6DE79A"
+			optional: true
+			rewards: [{
+				id: "0ABBAFC7AC8CDD48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "0394B8727BF5596B"
+				structure: "betternether:jungle_temples"
+				type: "structure"
+			}]
+			title: "Visiter : « Jungle temples »"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur)."]
+			id: "52B80DAED252D3EE"
+			optional: true
+			rewards: [{
+				id: "66188753D8C8ED4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "1E4B4374EE4DBEB3"
+				structure: "betternether:nether_city"
+				type: "structure"
+			}]
+			title: "Visiter : « Nether city »"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "7F6A7B6966585C6D"
+			optional: true
+			rewards: [{
+				id: "7B6299098ACEB81A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "1A607DBB5082C9A1"
+				structure: "betternether:pillars"
+				type: "structure"
+			}]
+			title: "Visiter : « Pillars »"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "615C1BEC4AFBC1D9"
+			optional: true
+			rewards: [{
+				id: "618ABAA9CFA1F99E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "6FDBA15AE343D655"
+				structure: "betternether:portals"
+				type: "structure"
+			}]
+			title: "Visiter : « Portals »"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "7A767DAF35750BAA"
+			optional: true
+			rewards: [{
+				id: "1ADAFB05846786F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "73E8B5C38AC0F793"
+				structure: "betternether:pyramid"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid »"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "32CD89BD02C80B7F"
+			optional: true
+			rewards: [{
+				id: "45E950AA29428872"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "0D849C5DF2211003"
+				structure: "betternether:respawn_points"
+				type: "structure"
+			}]
+			title: "Visiter : « Respawn points »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "4E2FB23C3D3F05EF"
+			optional: true
+			rewards: [{
+				id: "67C7251EB7D57131"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Better Nether"
+			tasks: [{
+				id: "05E04BF522E88CDB"
+				structure: "betternether:spawn_altar_ladder"
+				type: "structure"
+			}]
+			title: "Visiter : « Spawn altar ladder »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Landes brillantes, Prairie brisegelée, Cieux calmes, Pins neigeux (données du serveur)."]
+			id: "730602825294C9C9"
+			optional: true
+			rewards: [{
+				id: "51CB5A18E489ABB3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "30CB52347C65D5A5"
+				structure: "blue_skies:everbright_blinding_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Everbright blinding dungeon »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Verger de crofruits, Dunes cristallisées, Buttes de cristal, Prairie brûlante, Bosquets de l'ombre et d'autres (données du serveur)."]
+			id: "1C6E6C436B0D9E25"
+			optional: true
+			rewards: [{
+				id: "0E0248FA277C6BB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "6B6F51FDC682B809"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Everdawn blinding dungeon »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Terres détrempées (données du serveur)."]
+			id: "52A55F420F5C064C"
+			optional: true
+			rewards: [{
+				id: "17CA86F148EF768D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "564C999FBF1C9A11"
+				structure: "blue_skies:frozen_bunker"
+				type: "structure"
+			}]
+			title: "Visiter : « Frozen bunker »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r."]
+			id: "2FCA889CBB4D1196"
+			optional: true
+			rewards: [{
+				id: "42C40E806DA843A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "7AAFBB288F0D7BD5"
+				structure: "blue_skies:gatekeeper_house_mountain"
+				type: "structure"
+			}]
+			title: "Visiter : « Gatekeeper house mountain »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r."]
+			id: "1514F75CF6D84665"
+			optional: true
+			rewards: [{
+				id: "2764A74A16ED2885"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "0C12C3409D4E1AC7"
+				structure: "blue_skies:gatekeeper_house_plains"
+				type: "structure"
+			}]
+			title: "Visiter : « Gatekeeper house plains »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r."]
+			id: "33A8F7DB9150DC2D"
+			optional: true
+			rewards: [{
+				id: "6A1490F7BAED7B35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "3AD28C53061F4A44"
+				structure: "blue_skies:gatekeeper_house_snowy"
+				type: "structure"
+			}]
+			title: "Visiter : « Gatekeeper house snowy »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Pins neigeux (données du serveur)."]
+			id: "60ED1854873F5992"
+			optional: true
+			rewards: [{
+				id: "5B19A8404C8F5E57"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "4B6CB5071765F6DA"
+				structure: "blue_skies:nature_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Nature dungeon »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Forêt d'érables (données du serveur)."]
+			id: "762BBC1A01BD3F0B"
+			optional: true
+			rewards: [{
+				id: "7B8E4AC37E14FA89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "07AFBEA1CEE9B366"
+				structure: "blue_skies:poison_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Poison dungeon »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Pins neigeux (données du serveur)."]
+			id: "7E6151A59561B40B"
+			optional: true
+			rewards: [{
+				id: "731DA7F412452940"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "57E771E4CDC5AE90"
+				structure: "blue_skies:village_brightlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Village brightlands »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Cieux calmes (données du serveur)."]
+			id: "5587F10240FE35A5"
+			optional: true
+			rewards: [{
+				id: "01BDAFD7B216597C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "0EF099AEB6131664"
+				structure: "blue_skies:village_calming_skies"
+				type: "structure"
+			}]
+			title: "Visiter : « Village calming skies »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Dunes cristallisées (données du serveur)."]
+			id: "2FB189D807449D25"
+			optional: true
+			rewards: [{
+				id: "0C10A25F9F9B49E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "54659FED72A12D64"
+				structure: "blue_skies:village_crystal_dunes"
+				type: "structure"
+			}]
+			title: "Visiter : « Village crystal dunes »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Bosquets de l'ombre (données du serveur)."]
+			id: "1966F5E173BAA527"
+			optional: true
+			rewards: [{
+				id: "732CD201E68427A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "7CB82C2C9950C41E"
+				structure: "blue_skies:village_shaded_woodlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Village shaded woodlands »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Terres détrempées (données du serveur)."]
+			id: "68EB11AE6AD8BAFD"
+			optional: true
+			rewards: [{
+				id: "38A6BD35723CA39B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "4649675992833BCF"
+				structure: "blue_skies:village_slushlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Village slushlands »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bBlue Skies&r. Se génère dans : Forêt d'érables (données du serveur)."]
+			id: "0D0AAE1E598BFE7F"
+			optional: true
+			rewards: [{
+				id: "731352017D6A78DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Blue Skies"
+			tasks: [{
+				id: "6494B802D28953DF"
+				structure: "blue_skies:village_sunset_maple_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Village sunset maple forest »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bBygone Nether&r. Se génère dans : Abîme flétri, Vallée des âmes (données du serveur)."]
+			id: "45DDD5429198A5AD"
+			optional: true
+			rewards: [{
+				id: "3904284A85E0F2F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bygone Nether"
+			tasks: [{
+				id: "34D35CD456331B82"
+				structure: "bygonenether:catacomb"
+				type: "structure"
+			}]
+			title: "Visiter : « Catacomb »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bBygone Nether&r. Se génère dans : Forêt biscornue (données du serveur)."]
+			id: "43167555F7719E3A"
+			optional: true
+			rewards: [{
+				id: "2C21C2132602EAA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bygone Nether"
+			tasks: [{
+				id: "3AC0434C825BF251"
+				structure: "bygonenether:citadel"
+				type: "structure"
+			}]
+			title: "Visiter : « Citadel »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bBygone Nether&r. Se génère dans : Forêt carmin (données du serveur)."]
+			id: "5B1CF778D1CE4C9A"
+			optional: true
+			rewards: [{
+				id: "3C4E78BE6B0FA5F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Bygone Nether"
+			tasks: [{
+				id: "2FC454FC39086239"
+				structure: "bygonenether:piglin_manor"
+				type: "structure"
+			}]
+			title: "Visiter : « Piglin manor »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur)."]
+			id: "679F032BC0C347FE"
+			optional: true
+			rewards: [{
+				id: "5FAA24A4EC515F96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "729E3A3062FE05FD"
+				structure: "cataclysm:abandoned_spire"
+				type: "structure"
+			}]
+			title: "Visiter : « Abandoned spire »"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur)."]
+			id: "7049A62CDADFC1A1"
+			optional: true
+			rewards: [{
+				id: "653277852719759D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "696A4792A8F9E335"
+				structure: "cataclysm:abandoned_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Abandoned temple »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur)."]
+			id: "5260439C6FC04707"
+			optional: true
+			rewards: [{
+				id: "1D2B51CEB85F7534"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "201B901AE2ED9C7E"
+				structure: "cataclysm:abandoned_village"
+				type: "structure"
+			}]
+			title: "Visiter : « Abandoned village »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Océan chaud (données du serveur)."]
+			id: "43089D1336152E00"
+			optional: true
+			rewards: [{
+				id: "2FBE1A2317BD52D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "05FF839B6CF9FE62"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			title: "Visiter : « Acropolis »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Cavernes luxuriantes (données du serveur)."]
+			id: "53B17A6BE3EFE7F2"
+			optional: true
+			rewards: [{
+				id: "3179C5F5DCA2B05A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "09589C2157E2CA30"
+				structure: "cataclysm:amethyst_nest"
+				type: "structure"
+			}]
+			title: "Visiter : « Amethyst nest »"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Grotte lumineuse, Nid d'araignée, « Crystal Canyons », « Lichen Caves », « Pink Salt Caves » et d'autres (données du serveur)."]
+			id: "44ABB563B71DE1F8"
+			optional: true
+			rewards: [{
+				id: "1247CF8E23B0D40B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "0F8E496DF5D251E1"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient factory »"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Terres désolées du Nether (données du serveur)."]
+			id: "25BE3C2FFD425F5F"
+			optional: true
+			rewards: [{
+				id: "7E8F8C00C6D8A38A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "16D806DE63666BA1"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			title: "Visiter : « Burning arena »"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Désert (données du serveur)."]
+			id: "31DF08C1A587C339"
+			optional: true
+			rewards: [{
+				id: "4C8501781545841C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "3ACCBBE32E715847"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			title: "Visiter : « Cursed pyramid »"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Désert (données du serveur)."]
+			id: "0725B6EF00937BF6"
+			optional: true
+			rewards: [{
+				id: "213842C312EB68D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "10D0DAB4A8B29ADB"
+				structure: "cataclysm:desert_occupied_village"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert occupied village »"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Désert (données du serveur)."]
+			id: "5C964C7B65D0EECD"
+			optional: true
+			rewards: [{
+				id: "6BDC152FF47A4B43"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "0BE1F6AE4E657E40"
+				structure: "cataclysm:desert_site"
+				type: "structure"
+			}]
+			title: "Visiter : « Desert site »"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur)."]
+			id: "09646C6915C2C1A5"
+			optional: true
+			rewards: [{
+				id: "6FF4D2C902FDE0A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "735F2FF16A5F46DD"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			title: "Visiter : « Frosted prison »"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur)."]
+			id: "547E97CB5A74A32C"
+			optional: true
+			rewards: [{
+				id: "37873CA2E4EE4AD0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "58B8CC3660736402"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined citadel »"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur)."]
+			id: "7FDED9AEB6CC2BAF"
+			optional: true
+			rewards: [{
+				id: "4BE6002A50A43E46"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "09E42DBADAB74A7A"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "Visiter : « Soul black smith »"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bCataclysm&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "01E7E9D12509E3B5"
+			optional: true
+			rewards: [{
+				id: "24D47F3745F0A194"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Cataclysm"
+			tasks: [{
+				id: "5DA26C807266DCFE"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "Visiter : « Sunken city »"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bDeep Aether&r. Se génère dans : « Cloud » (données du serveur)."]
+			id: "1A2457C10EDC1349"
+			optional: true
+			rewards: [{
+				id: "3AD3CC28BD02B232"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Deep Aether"
+			tasks: [{
+				id: "58597A6D2F34B2A9"
+				structure: "deep_aether:brass_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Brass dungeon »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bDeeper and Darker&r. Se génère dans : « Deeplands » (données du serveur)."]
+			id: "69E041390EA44FB3"
+			optional: true
+			rewards: [{
+				id: "06F46F000DA188C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Deeper and Darker"
+			tasks: [{
+				id: "61A39E0A383AE978"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient temple »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bEnder's Delight&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur)."]
+			id: "4EB9887AE9072C2C"
+			optional: true
+			rewards: [{
+				id: "7068646A8FE33B97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Ender's Delight"
+			tasks: [{
+				id: "795BE437C87D91F3"
+				structure: "endersdelight:end_house"
+				type: "structure"
+			}]
+			title: "Visiter : « End house »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur)."]
+			id: "23A18C4EE5251B86"
+			optional: true
+			rewards: [{
+				id: "6DBE5EBF1676F204"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "6141DAE3DAA84742"
+				structure: "irons_spellbooks:ancient_battleground"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient battleground »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur)."]
+			id: "7FFE70471D213425"
+			optional: true
+			rewards: [{
+				id: "3FCCE58B05676F05"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "1D1AC9EADA37D13E"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			title: "Visiter : « Catacombs »"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur)."]
+			id: "7FF1C2F165647678"
+			optional: true
+			rewards: [{
+				id: "1E2DA1D01A02FBF6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "5BA861DC845D7936"
+				structure: "irons_spellbooks:citadel"
+				type: "structure"
+			}]
+			title: "Visiter : « Citadel »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : « Aspen Glade », Terre sèche, Prairies, Hauts plateaux, « Jacaranda Glade » et d'autres (données du serveur)."]
+			id: "3C2CA2F76878DE66"
+			optional: true
+			rewards: [{
+				id: "16A014E06446FCAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "29FF05686601C430"
+				structure: "irons_spellbooks:evoker_fort"
+				type: "structure"
+			}]
+			title: "Visiter : « Evoker fort »"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur)."]
+			id: "409174D2B6C9EAA2"
+			optional: true
+			rewards: [{
+				id: "50236083437567E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "70B30EDDAB11619C"
+				structure: "irons_spellbooks:ice_spider_den"
+				type: "structure"
+			}]
+			title: "Visiter : « Ice spider den »"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : Océan gelé profond, Océan gelé, Pics gelés, Stalagmites de glace (données du serveur)."]
+			id: "4A18689FA18EACE2"
+			optional: true
+			rewards: [{
+				id: "7C138EA008BD403A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "127FFDEACA92F869"
+				structure: "irons_spellbooks:impaled_icebreaker"
+				type: "structure"
+			}]
+			title: "Visiter : « Impaled icebreaker »"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "483A8C886BB10671"
+			optional: true
+			rewards: [{
+				id: "4DF3EDEFDE9239F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "6C5D86FC9E01AB5E"
+				structure: "irons_spellbooks:mangrove_hut"
+				type: "structure"
+			}]
+			title: "Visiter : « Mangrove hut »"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : Escarpée, Falaises de jade, Bosquet de cerisiers, Pics gelés, Bosquet et d'autres (données du serveur)."]
+			id: "75CA3B8F1365D355"
+			optional: true
+			rewards: [{
+				id: "1166FA8E7AC1142D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "040896BF8BEF6162"
+				structure: "irons_spellbooks:mountain_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Mountain tower »"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bIron's Spells&r. Se génère dans : « Aspen Glade », Bayou, Tourbière, Plaine inondable, Prairies et d'autres (données du serveur)."]
+			id: "3F9FD04D4CD76292"
+			optional: true
+			rewards: [{
+				id: "2B07630896369616"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's Spells"
+			tasks: [{
+				id: "35A1D4BF0E6EC695"
+				structure: "irons_spellbooks:pyromancer_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyromancer tower »"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bLost Aether Content&r. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur)."]
+			id: "1BB7E546F25BA5B9"
+			optional: true
+			rewards: [{
+				id: "2AEA2BD08EE811D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Lost Aether Content"
+			tasks: [{
+				id: "4ABFFCD345D8A728"
+				structure: "lost_aether_content:platinum_dungeon"
+				type: "structure"
+			}]
+			title: "Visiter : « Platinum dungeon »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bJaden's Nether Expansion&r. Se génère dans : Gouffre crystallin, Sous-bois, « Soulblight Forest », Forêt carmin, Terres désolées du Nether et d'autres (données du serveur)."]
+			id: "3906566248F17BC6"
+			optional: true
+			rewards: [{
+				id: "01F913EA8A3DA0DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Jaden's Nether Expansion"
+			tasks: [{
+				id: "36F2D24EE959987B"
+				structure: "netherexp:chapel"
+				type: "structure"
+			}]
+			title: "Visiter : « Chapel »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bJaden's Nether Expansion&r. Se génère dans : Gouffre crystallin, Tas de viscères, Terres désolées du Nether (données du serveur)."]
+			id: "08FE2AA2ED6AE957"
+			optional: true
+			rewards: [{
+				id: "06172B85EC8C8ABD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Jaden's Nether Expansion"
+			tasks: [{
+				id: "5E44B8592BBFCDEC"
+				structure: "netherexp:devils_bluff"
+				type: "structure"
+			}]
+			title: "Visiter : « Devils bluff »"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bJaden's Nether Expansion&r. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur)."]
+			id: "327B0D74EA5F29F4"
+			optional: true
+			rewards: [{
+				id: "55BCCAE94F42A727"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Jaden's Nether Expansion"
+			tasks: [{
+				id: "4D703441742A02F5"
+				structure: "netherexp:mega_fossil"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega fossil »"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bJaden's Nether Expansion&r. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur)."]
+			id: "0B8B5316E1747F45"
+			optional: true
+			rewards: [{
+				id: "6F1E105AA8CD9E76"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Jaden's Nether Expansion"
+			tasks: [{
+				id: "3222D2C5AB2A9CDB"
+				structure: "netherexp:mega_fossil_campsite"
+				type: "structure"
+			}]
+			title: "Visiter : « Mega fossil campsite »"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bJaden's Nether Expansion&r. Se génère dans : « Soulblight Forest », Vallée des âmes, « Black Ice Glaciers », « Fright Forest » (données du serveur)."]
+			id: "4EAFC4D30B8339B9"
+			optional: true
+			rewards: [{
+				id: "693305E79F63545C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Jaden's Nether Expansion"
+			tasks: [{
+				id: "0997531BB44B4C15"
+				structure: "netherexp:sanctum"
+				type: "structure"
+			}]
+			title: "Visiter : « Sanctum »"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Glacier du Crépuscule (données du serveur)."]
+			id: "7232C7D0F1B55583"
+			optional: true
+			rewards: [{
+				id: "4227A3C03781EC25"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "57C365B835D493C9"
+				structure: "twilightforest:aurora_palace"
+				type: "structure"
+			}]
+			title: "Visiter : « Aurora palace »"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Centre de la Forêt Sombre (données du serveur)."]
+			id: "45644FA35FB155B6"
+			optional: true
+			rewards: [{
+				id: "766BB781FFBCD607"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "247C6E5844C560F8"
+				structure: "twilightforest:dark_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Dark tower »"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Plateau Final (données du serveur)."]
+			id: "20F8D7F8CDDA7486"
+			optional: true
+			rewards: [{
+				id: "6B6C12D25F32AED3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "3E17965916F14D35"
+				structure: "twilightforest:final_castle"
+				type: "structure"
+			}]
+			title: "Visiter : « Final castle »"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur)."]
+			id: "600100268AECB575"
+			optional: true
+			rewards: [{
+				id: "7D31F95B30F2A223"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "6DE8F7A1B5ECC527"
+				structure: "twilightforest:hedge_maze"
+				type: "structure"
+			}]
+			title: "Visiter : « Hedge maze »"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Marécage de Feu (données du serveur)."]
+			id: "31E9E38C9401DFB1"
+			optional: true
+			rewards: [{
+				id: "554D1475DE50AB9E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "3E9E521D46D5FA00"
+				structure: "twilightforest:hydra_lair"
+				type: "structure"
+			}]
+			title: "Visiter : « Hydra lair »"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Forêt Sombre (données du serveur)."]
+			id: "0632ED39FCE98CE7"
+			optional: true
+			rewards: [{
+				id: "74F7E840776BA187"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "71F192D13CF12E0B"
+				structure: "twilightforest:knight_stronghold"
+				type: "structure"
+			}]
+			title: "Visiter : « Knight stronghold »"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Marécage du Crépuscule (données du serveur)."]
+			id: "04B0E10FA5213FFF"
+			optional: true
+			rewards: [{
+				id: "2F0E71D51681DA5B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "16017E317D2E7AE5"
+				structure: "twilightforest:labyrinth"
+				type: "structure"
+			}]
+			title: "Visiter : « Labyrinth »"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur)."]
+			id: "1D92F9F1534A39DD"
+			optional: true
+			rewards: [{
+				id: "20B8F088A7901980"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "42E485A82ECEBF87"
+				structure: "twilightforest:large_hollow_hill"
+				type: "structure"
+			}]
+			title: "Visiter : « Large hollow hill »"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur)."]
+			id: "38EB08E3B1E8F354"
+			optional: true
+			rewards: [{
+				id: "4804F9C51CB31800"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "56EF9BDCF81501EC"
+				structure: "twilightforest:lich_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Lich tower »"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur)."]
+			id: "624BE1E5A904104F"
+			optional: true
+			rewards: [{
+				id: "2BEDEAB5CC3BEB17"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "39F1355B3074F18C"
+				structure: "twilightforest:medium_hollow_hill"
+				type: "structure"
+			}]
+			title: "Visiter : « Medium hollow hill »"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Forêt de Champignons Dense (données du serveur)."]
+			id: "5E45BD8631FB4DCA"
+			optional: true
+			rewards: [{
+				id: "61B6DC448D574925"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "2BDFC9F13AABA4AC"
+				structure: "twilightforest:mushroom_tower"
+				type: "structure"
+			}]
+			title: "Visiter : « Mushroom tower »"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur)."]
+			id: "16D7255CBED0F725"
+			optional: true
+			rewards: [{
+				id: "0630A4535477EE10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "1C31A9CB328200FD"
+				structure: "twilightforest:naga_courtyard"
+				type: "structure"
+			}]
+			title: "Visiter : « Naga courtyard »"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Forêt Enchantée (données du serveur)."]
+			id: "4AE207184F2ADA3D"
+			optional: true
+			rewards: [{
+				id: "10C3F5B1F8F83ACE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "39E9500CE2A40466"
+				structure: "twilightforest:quest_grove"
+				type: "structure"
+			}]
+			title: "Visiter : « Quest grove »"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur)."]
+			id: "2E25CA34D384372B"
+			optional: true
+			rewards: [{
+				id: "78EDD6BB6FE00399"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "284EBB4C392721D9"
+				structure: "twilightforest:small_hollow_hill"
+				type: "structure"
+			}]
+			title: "Visiter : « Small hollow hill »"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Hauts plateaux du crépuscule (données du serveur)."]
+			id: "60D550D89BF193CD"
+			optional: true
+			rewards: [{
+				id: "2763ADC9D4015F24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "07905566417EE7D5"
+				structure: "twilightforest:troll_cave"
+				type: "structure"
+			}]
+			title: "Visiter : « Troll cave »"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			description: ["Structure de &bTwilight Forest&r. Se génère dans : Forêt Enneigé (données du serveur)."]
+			id: "7482FF34A4FE5BAA"
+			optional: true
+			rewards: [{
+				id: "7A0FCBA89EE77CCB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "64C069313F055198"
+				structure: "twilightforest:yeti_cave"
+				type: "structure"
+			}]
+			title: "Visiter : « Yeti cave »"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"7A5F2EA0C013D609"
+				"562833227792635A"
+				"7473584720027B0F"
+				"5B0795FE824509D1"
+				"679B1D524253DB9A"
+				"620E9A43EA1DE69E"
+				"0AF458C5D05B7AD2"
+				"779B74D1458AF590"
+				"524839B06F477547"
+				"3A891F1968CD54D5"
+				"0FB55FC9D2EB787F"
+				"42161D20836E5CB8"
+				"12B38950B59B65DA"
+				"01A7D5AE90A04BFF"
+				"6B8F43858D3C870E"
+				"528ADF01EC7D6809"
+				"3796FF8C0E6DE79A"
+				"52B80DAED252D3EE"
+				"7F6A7B6966585C6D"
+				"615C1BEC4AFBC1D9"
+				"7A767DAF35750BAA"
+				"32CD89BD02C80B7F"
+				"4E2FB23C3D3F05EF"
+				"730602825294C9C9"
+				"1C6E6C436B0D9E25"
+				"52A55F420F5C064C"
+				"2FCA889CBB4D1196"
+				"1514F75CF6D84665"
+				"33A8F7DB9150DC2D"
+				"60ED1854873F5992"
+				"762BBC1A01BD3F0B"
+				"7E6151A59561B40B"
+				"5587F10240FE35A5"
+				"2FB189D807449D25"
+				"1966F5E173BAA527"
+				"68EB11AE6AD8BAFD"
+				"0D0AAE1E598BFE7F"
+				"45DDD5429198A5AD"
+				"43167555F7719E3A"
+				"5B1CF778D1CE4C9A"
+				"679F032BC0C347FE"
+				"7049A62CDADFC1A1"
+				"5260439C6FC04707"
+				"43089D1336152E00"
+				"53B17A6BE3EFE7F2"
+				"44ABB563B71DE1F8"
+				"25BE3C2FFD425F5F"
+				"31DF08C1A587C339"
+				"0725B6EF00937BF6"
+				"5C964C7B65D0EECD"
+				"09646C6915C2C1A5"
+				"547E97CB5A74A32C"
+				"7FDED9AEB6CC2BAF"
+				"01E7E9D12509E3B5"
+				"1A2457C10EDC1349"
+				"69E041390EA44FB3"
+				"4EB9887AE9072C2C"
+				"23A18C4EE5251B86"
+				"7FFE70471D213425"
+				"7FF1C2F165647678"
+				"3C2CA2F76878DE66"
+				"409174D2B6C9EAA2"
+				"4A18689FA18EACE2"
+				"483A8C886BB10671"
+				"75CA3B8F1365D355"
+				"3F9FD04D4CD76292"
+				"1BB7E546F25BA5B9"
+				"3906566248F17BC6"
+				"08FE2AA2ED6AE957"
+				"327B0D74EA5F29F4"
+				"0B8B5316E1747F45"
+				"4EAFC4D30B8339B9"
+				"7232C7D0F1B55583"
+				"45644FA35FB155B6"
+				"20F8D7F8CDDA7486"
+				"600100268AECB575"
+				"31E9E38C9401DFB1"
+				"0632ED39FCE98CE7"
+				"04B0E10FA5213FFF"
+				"1D92F9F1534A39DD"
+				"38EB08E3B1E8F354"
+				"624BE1E5A904104F"
+				"5E45BD8631FB4DCA"
+				"16D7255CBED0F725"
+				"4AE207184F2ADA3D"
+				"2E25CA34D384372B"
+				"60D550D89BF193CD"
+				"7482FF34A4FE5BAA"
+			]
+			description: ["Toutes les structures de ce chapitre visitées. La récompense est symbolique."]
+			icon: "minecraft:filled_map"
+			id: "3A31EC273310CDD8"
+			optional: true
+			rewards: [{
+				id: "66800F8EF63A627A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "038C6E02AE22E740"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Structures — autres mondes"
+}
