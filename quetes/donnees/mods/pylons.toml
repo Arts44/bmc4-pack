@@ -68,6 +68,50 @@ Un bloc d'émeraude au centre. Il applique, à n'importe quelle distance, l'effe
 """
 
 [[quete]]
+cle = "filtre_potion"
+titre = "Un filtre de potion"
+deps = ["infusion"]
+taches = ["item pylons:potion_filter"]
+recompenses = ["xp 3"]
+description = """
+Le filtre que lit le pylône d'infusion (infobulle : « à insérer dans un pylône »).
+"""
+
+[[quete]]
+cle = "filtre_monstre"
+titre = "Un filtre de créature"
+deps = ["interdiction"]
+optionnel = true
+taches = ["item pylons:mob_filter"]
+recompenses = ["xp 3"]
+description = """
+Un filtre de créature, à insérer dans un pylône (infobulle). Le pylône d'interdiction empêche l'apparition des créatures autour de lui.
+"""
+
+[[quete]]
+cle = "filtre_joueur"
+titre = "Un filtre de joueur"
+deps = ["expulsion"]
+optionnel = true
+taches = ["item pylons:player_filter"]
+recompenses = ["xp 3"]
+description = """
+Un filtre de joueur, à insérer dans un pylône (infobulle). Le pylône d'expulsion repousse les autres joueurs de ses chunks.
+"""
+
+[[quete]]
+cle = "infusion_active"
+titre = "&aUn effet permanent"
+deps = ["filtre_potion"]
+taille = 1.5
+forme = "diamond"
+taches = ["checkmark Mon filtre est activé"]
+recompenses = ["xp 10"]
+description = """
+Clic droit sur le filtre avec l'effet actif, encore et encore, jusqu'à ce que l'infobulle dise « Activé ». L'activation est inscrite dans le filtre lui-même : aucune tâche ne peut la lire, d'où la case à cocher. Un effet désactivé par la config du serveur le dit aussi dans l'infobulle.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&aLe champ se récolte seul"
 deps = ["recolte"]

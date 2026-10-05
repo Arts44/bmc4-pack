@@ -1,0 +1,19 @@
+# Échelle des paliers — Pylons (BMC-89, 5 octobre 2026). Lang et recettes
+# du jar pylons 4.3.0.
+chapitre = "pylons"
+sommet = "infusion_active"
+
+[[palier]]
+echelle = "infusion"
+cle = "infusion"
+preuve = "infusion_pylon"
+
+[[palier]]
+echelle = "infusion"
+cle = "filtre_potion"
+preuve = "potion_filter"
+
+[[palier]]
+echelle = "infusion"
+cle = "infusion_active"
+preuve = "infobulle « Activated » : NBT du filtre, case à cocher"
