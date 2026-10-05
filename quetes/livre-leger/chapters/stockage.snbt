@@ -403,6 +403,234 @@
 			x: 12.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["&6Storage Drawers&r : fer, or, diamant, émeraude, nétherite. Chaque palier multiplie la contenance du tiroir."]
+			icon: "storagedrawers:gold_storage_upgrade"
+			id: "64C408C252430522"
+			optional: true
+			rewards: [{
+				id: "75726866F935ECA0"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2B655311CC435CDF"
+					item: "storagedrawers:gold_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "537AB3FBD75881DE"
+					item: "storagedrawers:diamond_storage_upgrade"
+					type: "item"
+				}
+			]
+			title: "Des améliorations de stockage"
+			x: 6.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1D0E73A7C35E2E69"]
+			description: ["Un tiroir plein détruit ce qui arrive en trop : pour les fermes automatiques qui débordent."]
+			icon: "storagedrawers:void_upgrade"
+			id: "7F5A33D83CFE8B71"
+			optional: true
+			rewards: [{
+				id: "7EF1116A8B8D7D7C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E3DC4A768CBFA8A"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			title: "Une amélioration du vide"
+			x: 6.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["17FD9B5F111987DE"]
+			description: ["Des tiroirs habillés de n'importe quel bloc."]
+			icon: "storagedrawers:framing_table"
+			id: "7ADA1F2E081325D3"
+			optional: true
+			rewards: [{
+				id: "6093A7DAA11FFC08"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B7C0E2B994AFA75"
+				item: "storagedrawers:framing_table"
+				type: "item"
+			}]
+			title: "Une table d'encadrement"
+			x: 4.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6F1ED0766DB16596"]
+			description: ["&bRefined Storage&r : 1k, 4k, 16k, 64k objets, et des disques de fluides."]
+			icon: "refinedstorage:4k_storage_disk"
+			id: "0326FE4A288CDE66"
+			optional: true
+			rewards: [{
+				id: "26F134AF3206A80B"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3B451E622A06918E"
+					item: "refinedstorage:4k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "208ADF75D5A5F577"
+					item: "refinedstorage:16k_storage_disk"
+					type: "item"
+				}
+			]
+			title: "Des disques plus grands"
+			x: 6.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0326FE4A288CDE66"]
+			icon: "refinedstorage:64k_storage_disk"
+			id: "08E7DF84B5DDBED2"
+			optional: true
+			rewards: [{
+				id: "1945B93358F81154"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59F1CE4969513199"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			title: "Un disque de 64k"
+			x: 8.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["409451D8AC394F87"]
+			description: ["Il branche un coffre ou un tiroir existant sur le réseau, sans le vider."]
+			icon: "refinedstorage:external_storage"
+			id: "1FF9CF863224ACED"
+			optional: true
+			rewards: [{
+				id: "0C6579E3145E4C09"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D0188EFAEE8A750"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			title: "Un stockage externe"
+			x: 4.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["1886A360AA06D4C2"]
+			description: ["L'un pose des blocs du réseau, l'autre en casse pour les y ranger."]
+			icon: "refinedstorage:constructor"
+			id: "6851146329790E7A"
+			optional: true
+			rewards: [{
+				id: "3E1D64FB9FE5E3E1"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "361DC9825DCD6B9B"
+					item: "refinedstorage:constructor"
+					type: "item"
+				}
+				{
+					id: "34277C550CC782EB"
+					item: "refinedstorage:destructor"
+					type: "item"
+				}
+			]
+			title: "Constructeur et destructeur"
+			x: 6.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["5C39CC5E8A354E85"]
+			icon: "refinedstorage:crafting_monitor"
+			id: "17B227A006963B61"
+			optional: true
+			rewards: [{
+				id: "0FAFC43A968B1CD5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E1D090D067F3FA1"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			title: "Un moniteur de fabrication"
+			x: 12.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6B3F6338CDD4015E"]
+			description: ["&aSimple Storage Network&r : le réseau consultable à distance."]
+			icon: "storagenetwork:inventory_remote"
+			id: "6CDB67476671F2D6"
+			optional: true
+			rewards: [{
+				id: "334939092816F6FB"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D05DDA810884600"
+				item: "storagenetwork:inventory_remote"
+				type: "item"
+			}]
+			title: "Une télécommande d'inventaire"
+			x: 8.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2B7A85C26A972B5E"]
+			icon: "storagenetwork:collector"
+			id: "31464F089DE7091D"
+			optional: true
+			rewards: [{
+				id: "708F1EE8BF85565B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17FE0ADF27DD5302"
+				item: "storagenetwork:collector"
+				type: "item"
+			}]
+			title: "Un collecteur"
+			x: 8.0d
+			y: 8.75d
+		}
 	]
 	title: "&6Stockage"
 }

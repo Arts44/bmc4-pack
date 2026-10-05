@@ -191,3 +191,106 @@ recompenses = ["xp 10"]
 description = """
 Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre &bPipez&r relie tout ça aux machines.
 """
+
+# ---- §9.4 : chaque élément utile des trois systèmes (5 octobre 2026),
+# identifiants de l'index.
+[[quete]]
+cle = "amelioration_or"
+titre = "Des améliorations de stockage"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:gold_storage_upgrade", "item storagedrawers:diamond_storage_upgrade"]
+recompenses = ["xp 4"]
+description = """
+&6Storage Drawers&r : fer, or, diamant, émeraude, nétherite. Chaque palier multiplie la contenance du tiroir.
+"""
+
+[[quete]]
+cle = "vide"
+titre = "Une amélioration du vide"
+deps = ["ameliorations"]
+optionnel = true
+taches = ["item storagedrawers:void_upgrade"]
+recompenses = ["xp 3"]
+description = """
+Un tiroir plein détruit ce qui arrive en trop : pour les fermes automatiques qui débordent.
+"""
+
+[[quete]]
+cle = "table_cadre"
+titre = "Une table d'encadrement"
+deps = ["tiroir"]
+optionnel = true
+taches = ["item storagedrawers:framing_table"]
+recompenses = ["xp 3"]
+description = """
+Des tiroirs habillés de n'importe quel bloc.
+"""
+
+[[quete]]
+cle = "rs_disques"
+titre = "Des disques plus grands"
+deps = ["disques"]
+optionnel = true
+taches = ["item refinedstorage:4k_storage_disk", "item refinedstorage:16k_storage_disk"]
+recompenses = ["xp 4"]
+description = """
+&bRefined Storage&r : 1k, 4k, 16k, 64k objets, et des disques de fluides.
+"""
+
+[[quete]]
+cle = "rs_64k"
+titre = "Un disque de 64k"
+deps = ["rs_disques"]
+optionnel = true
+taches = ["item refinedstorage:64k_storage_disk"]
+recompenses = ["xp 6"]
+
+[[quete]]
+cle = "rs_externe"
+titre = "Un stockage externe"
+deps = ["rs_controleur"]
+optionnel = true
+taches = ["item refinedstorage:external_storage"]
+recompenses = ["xp 3"]
+description = """
+Il branche un coffre ou un tiroir existant sur le réseau, sans le vider.
+"""
+
+[[quete]]
+cle = "rs_constructeur"
+titre = "Constructeur et destructeur"
+deps = ["importeur"]
+optionnel = true
+taches = ["item refinedstorage:constructor", "item refinedstorage:destructor"]
+recompenses = ["xp 4"]
+description = """
+L'un pose des blocs du réseau, l'autre en casse pour les y ranger.
+"""
+
+[[quete]]
+cle = "rs_moniteur"
+titre = "Un moniteur de fabrication"
+deps = ["fabricateur"]
+optionnel = true
+taches = ["item refinedstorage:crafting_monitor"]
+recompenses = ["xp 3"]
+
+[[quete]]
+cle = "ssn_inventaire"
+titre = "Une télécommande d'inventaire"
+deps = ["requete"]
+optionnel = true
+taches = ["item storagenetwork:inventory_remote"]
+recompenses = ["xp 4"]
+description = """
+&aSimple Storage Network&r : le réseau consultable à distance.
+"""
+
+[[quete]]
+cle = "ssn_collecteur"
+titre = "Un collecteur"
+deps = ["import"]
+optionnel = true
+taches = ["item storagenetwork:collector"]
+recompenses = ["xp 3"]
