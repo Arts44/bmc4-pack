@@ -1,0 +1,1731 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Gastronomie"
+fichier = "enc_gastronomie"
+groupe = "encyclopedie"
+icone = "farmersdelight:cooking_pot"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Gastronomie"
+taille = 1.5
+icone = "farmersdelight:cooking_pot"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque plat, boisson et douceur de Farmer's Delight et de ses extensions présentes dans le pack. Une quête se valide en ayant le plat dans l'inventaire.
+
+La liste est celle des balises d'aliments du pack ; seuls les plats qu'une recette ou un butin donne vraiment y sont.
+"""
+
+[[quete]]
+cle = "crabbersdelight_cooked_crab"
+titre = "Goûter : « Cooked Crab »"
+optionnel = true
+icone = "crabbersdelight:cooked_crab"
+taches = ["item crabbersdelight:cooked_crab"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bCrabber's Delight&r.
+"""
+
+[[quete]]
+cle = "crabbersdelight_cooked_pufferfish_slice"
+titre = "Goûter : « Cooked Pufferfish Slice »"
+optionnel = true
+icone = "crabbersdelight:cooked_pufferfish_slice"
+taches = ["item crabbersdelight:cooked_pufferfish_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bCrabber's Delight&r.
+"""
+
+[[quete]]
+cle = "crabbersdelight_cooked_tropical_fish"
+titre = "Goûter : « Cooked Tropical Fish »"
+optionnel = true
+icone = "crabbersdelight:cooked_tropical_fish"
+taches = ["item crabbersdelight:cooked_tropical_fish"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bCrabber's Delight&r.
+"""
+
+[[quete]]
+cle = "crabbersdelight_cooked_tropical_fish_slice"
+titre = "Goûter : « Cooked Tropical Fish Slice »"
+optionnel = true
+icone = "crabbersdelight:cooked_tropical_fish_slice"
+taches = ["item crabbersdelight:cooked_tropical_fish_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bCrabber's Delight&r.
+"""
+
+[[quete]]
+cle = "crabbersdelight_crab"
+titre = "Goûter : « Crab »"
+optionnel = true
+icone = "crabbersdelight:crab"
+taches = ["item crabbersdelight:crab"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bCrabber's Delight&r.
+"""
+
+[[quete]]
+cle = "crabbersdelight_crab_legs"
+titre = "Goûter : « Crab Leg »"
+optionnel = true
+icone = "crabbersdelight:crab_legs"
+taches = ["item crabbersdelight:crab_legs"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bCrabber's Delight&r.
+"""
+
+[[quete]]
+cle = "crabbersdelight_pufferfish_slice"
+titre = "Goûter : « Raw Pufferfish Slice »"
+optionnel = true
+icone = "crabbersdelight:pufferfish_slice"
+taches = ["item crabbersdelight:pufferfish_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bCrabber's Delight&r.
+"""
+
+[[quete]]
+cle = "crabbersdelight_tropical_fish_slice"
+titre = "Goûter : « Raw Tropical Fish Slice »"
+optionnel = true
+icone = "crabbersdelight:tropical_fish_slice"
+taches = ["item crabbersdelight:tropical_fish_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bCrabber's Delight&r.
+"""
+
+[[quete]]
+cle = "delightful_aged_roe"
+titre = "Goûter : « Aged Roe »"
+optionnel = true
+icone = "delightful:aged_roe"
+taches = ["item delightful:aged_roe"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_azalea_tea"
+titre = "Goûter : « Azalea Tea »"
+optionnel = true
+icone = "delightful:azalea_tea"
+taches = ["item delightful:azalea_tea"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_baklava_slice"
+titre = "Goûter : « Slice of Baklava »"
+optionnel = true
+icone = "delightful:baklava_slice"
+taches = ["item delightful:baklava_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_berry_matcha_latte"
+titre = "Goûter : « Iced Berry Matcha Latte »"
+optionnel = true
+icone = "delightful:berry_matcha_latte"
+taches = ["item delightful:berry_matcha_latte"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_blueberry_pie_slice"
+titre = "Goûter : « Slice of Blueberry Pie »"
+optionnel = true
+icone = "delightful:blueberry_pie_slice"
+taches = ["item delightful:blueberry_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_cactus_chili"
+titre = "Goûter : « Cactus Chili »"
+optionnel = true
+icone = "delightful:cactus_chili"
+taches = ["item delightful:cactus_chili"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_cactus_soup"
+titre = "Goûter : « Cactus Soup »"
+optionnel = true
+icone = "delightful:cactus_soup"
+taches = ["item delightful:cactus_soup"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_cantaloupe_bread"
+titre = "Goûter : « Cantaloupe Bread »"
+optionnel = true
+icone = "delightful:cantaloupe_bread"
+taches = ["item delightful:cantaloupe_bread"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_cantaloupe_popsicle"
+titre = "Goûter : « Cantaloupe Popsicle »"
+optionnel = true
+icone = "delightful:cantaloupe_popsicle"
+taches = ["item delightful:cantaloupe_popsicle"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_caviar"
+titre = "Goûter : « Caviar »"
+optionnel = true
+icone = "delightful:caviar"
+taches = ["item delightful:caviar"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_cheeseburger"
+titre = "Goûter : « Cheeseburger »"
+optionnel = true
+icone = "delightful:cheeseburger"
+taches = ["item delightful:cheeseburger"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_chorus_muffin"
+titre = "Goûter : « Chorus Muffin »"
+optionnel = true
+icone = "delightful:chorus_muffin"
+taches = ["item delightful:chorus_muffin"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_chorus_pie_slice"
+titre = "Goûter : « Slice of Chorus Pie »"
+optionnel = true
+icone = "delightful:chorus_pie_slice"
+taches = ["item delightful:chorus_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_chunkwich"
+titre = "Goûter : « Chunkwich »"
+optionnel = true
+icone = "delightful:chunkwich"
+taches = ["item delightful:chunkwich"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_coconut_curry"
+titre = "Goûter : « Coconut Curry »"
+optionnel = true
+icone = "delightful:coconut_curry"
+taches = ["item delightful:coconut_curry"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_cooked_goat"
+titre = "Goûter : « Cooked Chevon »"
+optionnel = true
+icone = "delightful:cooked_goat"
+taches = ["item delightful:cooked_goat"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_cooked_marshmallow_stick"
+titre = "Goûter : « Roasted Marshmallow on a Stick »"
+optionnel = true
+icone = "delightful:cooked_marshmallow_stick"
+taches = ["item delightful:cooked_marshmallow_stick"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_cooked_venison_chops"
+titre = "Goûter : « Cooked Venison Chops »"
+optionnel = true
+icone = "delightful:cooked_venison_chops"
+taches = ["item delightful:cooked_venison_chops"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_crab_rangoon"
+titre = "Goûter : « Crab Rangoon »"
+optionnel = true
+icone = "delightful:crab_rangoon"
+taches = ["item delightful:crab_rangoon"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_deluxe_cheeseburger"
+titre = "Goûter : « Deluxe Cheeseburger »"
+optionnel = true
+icone = "delightful:deluxe_cheeseburger"
+taches = ["item delightful:deluxe_cheeseburger"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_ender_nectar"
+titre = "Goûter : « Ender Nectar »"
+optionnel = true
+icone = "delightful:ender_nectar"
+taches = ["item delightful:ender_nectar"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_field_salad"
+titre = "Goûter : « Field Salad »"
+optionnel = true
+icone = "delightful:field_salad"
+taches = ["item delightful:field_salad"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_gloomgourd_pie_slice"
+titre = "Goûter : « Slice of Gloomgourd Pie »"
+optionnel = true
+icone = "delightful:gloomgourd_pie_slice"
+taches = ["item delightful:gloomgourd_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_glow_jam_cookie"
+titre = "Goûter : « Glow Jam Cookie »"
+optionnel = true
+icone = "delightful:glow_jam_cookie"
+taches = ["item delightful:glow_jam_cookie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_green_apple_pie_slice"
+titre = "Goûter : « Slice of Green Apple Pie »"
+optionnel = true
+icone = "delightful:green_apple_pie_slice"
+taches = ["item delightful:green_apple_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_honey_glazed_walnut"
+titre = "Goûter : « Honey Glazed Walnut »"
+optionnel = true
+icone = "delightful:honey_glazed_walnut"
+taches = ["item delightful:honey_glazed_walnut"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_lavender_tea"
+titre = "Goûter : « Lavender Tea »"
+optionnel = true
+icone = "delightful:lavender_tea"
+taches = ["item delightful:lavender_tea"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_long_prickly_pear_juice"
+titre = "Goûter : « Prickly Pear Juice »"
+optionnel = true
+icone = "delightful:long_prickly_pear_juice"
+taches = ["item delightful:long_prickly_pear_juice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_marshmallow_stick"
+titre = "Goûter : « Marshmallow on a Stick »"
+optionnel = true
+icone = "delightful:marshmallow_stick"
+taches = ["item delightful:marshmallow_stick"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_matcha_latte"
+titre = "Goûter : « Matcha Latte »"
+optionnel = true
+icone = "delightful:matcha_latte"
+taches = ["item delightful:matcha_latte"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_mulberry_pie_slice"
+titre = "Goûter : « Slice of Mulberry Pie »"
+optionnel = true
+icone = "delightful:mulberry_pie_slice"
+taches = ["item delightful:mulberry_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_mutton_pie_slice"
+titre = "Goûter : « Slice of Mutton Pie »"
+optionnel = true
+icone = "delightful:mutton_pie_slice"
+taches = ["item delightful:mutton_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_nut_butter_and_jam_sandwich"
+titre = "Goûter : « Nut Butter and Jam Sandwich »"
+optionnel = true
+icone = "delightful:nut_butter_and_jam_sandwich"
+taches = ["item delightful:nut_butter_and_jam_sandwich"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_passion_fruit_tart_slice"
+titre = "Goûter : « Slice of Passion Fruit Tart »"
+optionnel = true
+icone = "delightful:passion_fruit_tart_slice"
+taches = ["item delightful:passion_fruit_tart_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_prickly_pear_juice"
+titre = "Goûter : « Prickly Pear Juice »"
+optionnel = true
+icone = "delightful:prickly_pear_juice"
+taches = ["item delightful:prickly_pear_juice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_roasted_acorn"
+titre = "Goûter : « Roasted Acorn »"
+optionnel = true
+icone = "delightful:roasted_acorn"
+taches = ["item delightful:roasted_acorn"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_rock_candy"
+titre = "Goûter : « Rose Rock Candy »"
+optionnel = true
+icone = "delightful:rock_candy"
+taches = ["item delightful:rock_candy"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_roe_blini"
+titre = "Goûter : « Roe Blini »"
+optionnel = true
+icone = "delightful:roe_blini"
+taches = ["item delightful:roe_blini"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_roe_roll"
+titre = "Goûter : « Roe Roll »"
+optionnel = true
+icone = "delightful:roe_roll"
+taches = ["item delightful:roe_roll"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_salmon_and_roe_blini"
+titre = "Goûter : « Salmon and Roe Blini »"
+optionnel = true
+icone = "delightful:salmon_and_roe_blini"
+taches = ["item delightful:salmon_and_roe_blini"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_salmonberry_pie_slice"
+titre = "Goûter : « Slice of Salmonberry Pie »"
+optionnel = true
+icone = "delightful:salmonberry_pie_slice"
+taches = ["item delightful:salmonberry_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_sinigang"
+titre = "Goûter : « Sinigang »"
+optionnel = true
+icone = "delightful:sinigang"
+taches = ["item delightful:sinigang"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_smore"
+titre = "Goûter : « S'more »"
+optionnel = true
+icone = "delightful:smore"
+taches = ["item delightful:smore"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_source_berry_cookie"
+titre = "Goûter : « Source Berry Cookie »"
+optionnel = true
+icone = "delightful:source_berry_cookie"
+taches = ["item delightful:source_berry_cookie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_stuffed_cantaloupe_block"
+titre = "Goûter : « Stuffed Cantaloupe »"
+optionnel = true
+icone = "delightful:stuffed_cantaloupe_block"
+taches = ["item delightful:stuffed_cantaloupe_block"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_venison_chops"
+titre = "Goûter : « Raw Venison Chops »"
+optionnel = true
+icone = "delightful:venison_chops"
+taches = ["item delightful:venison_chops"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_venison_stew"
+titre = "Goûter : « Venison Stew »"
+optionnel = true
+icone = "delightful:venison_stew"
+taches = ["item delightful:venison_stew"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "delightful_wrapped_cantaloupe"
+titre = "Goûter : « Wrapped Cantaloupe »"
+optionnel = true
+icone = "delightful:wrapped_cantaloupe"
+taches = ["item delightful:wrapped_cantaloupe"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bDelightful&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_apple_cider"
+titre = "Goûter : Cidre de pommes"
+optionnel = true
+icone = "farmersdelight:apple_cider"
+taches = ["item farmersdelight:apple_cider"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_apple_pie"
+titre = "Goûter : Tarte aux pommes"
+optionnel = true
+icone = "farmersdelight:apple_pie"
+taches = ["item farmersdelight:apple_pie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_apple_pie_slice"
+titre = "Goûter : Part de tarte aux pommes"
+optionnel = true
+icone = "farmersdelight:apple_pie_slice"
+taches = ["item farmersdelight:apple_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_bacon"
+titre = "Goûter : Bacon cru"
+optionnel = true
+icone = "farmersdelight:bacon"
+taches = ["item farmersdelight:bacon"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_bacon_and_eggs"
+titre = "Goûter : Bacon et œufs"
+optionnel = true
+icone = "farmersdelight:bacon_and_eggs"
+taches = ["item farmersdelight:bacon_and_eggs"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_bacon_sandwich"
+titre = "Goûter : Sandwich au bacon"
+optionnel = true
+icone = "farmersdelight:bacon_sandwich"
+taches = ["item farmersdelight:bacon_sandwich"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_baked_cod_stew"
+titre = "Goûter : Ragoût de morue"
+optionnel = true
+icone = "farmersdelight:baked_cod_stew"
+taches = ["item farmersdelight:baked_cod_stew"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_barbecue_stick"
+titre = "Goûter : Brochette"
+optionnel = true
+icone = "farmersdelight:barbecue_stick"
+taches = ["item farmersdelight:barbecue_stick"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_beef_patty"
+titre = "Goûter : Steack haché"
+optionnel = true
+icone = "farmersdelight:beef_patty"
+taches = ["item farmersdelight:beef_patty"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_beef_stew"
+titre = "Goûter : Ragoût de boeuf"
+optionnel = true
+icone = "farmersdelight:beef_stew"
+taches = ["item farmersdelight:beef_stew"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_bone_broth"
+titre = "Goûter : Bouillon d'os"
+optionnel = true
+icone = "farmersdelight:bone_broth"
+taches = ["item farmersdelight:bone_broth"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cabbage_rolls"
+titre = "Goûter : Rouleaux de chou"
+optionnel = true
+icone = "farmersdelight:cabbage_rolls"
+taches = ["item farmersdelight:cabbage_rolls"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cake_slice"
+titre = "Goûter : Part de gâteau"
+optionnel = true
+icone = "farmersdelight:cake_slice"
+taches = ["item farmersdelight:cake_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_chicken_cuts"
+titre = "Goûter : Escalopes de poulet crues"
+optionnel = true
+icone = "farmersdelight:chicken_cuts"
+taches = ["item farmersdelight:chicken_cuts"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_chicken_sandwich"
+titre = "Goûter : Sandwich au poulet"
+optionnel = true
+icone = "farmersdelight:chicken_sandwich"
+taches = ["item farmersdelight:chicken_sandwich"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_chicken_soup"
+titre = "Goûter : Soupe de poulet"
+optionnel = true
+icone = "farmersdelight:chicken_soup"
+taches = ["item farmersdelight:chicken_soup"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_chocolate_pie"
+titre = "Goûter : Tarte au chocolat"
+optionnel = true
+icone = "farmersdelight:chocolate_pie"
+taches = ["item farmersdelight:chocolate_pie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_chocolate_pie_slice"
+titre = "Goûter : Part de tarte au chocolat"
+optionnel = true
+icone = "farmersdelight:chocolate_pie_slice"
+taches = ["item farmersdelight:chocolate_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cod_roll"
+titre = "Goûter : Rouleau de morue"
+optionnel = true
+icone = "farmersdelight:cod_roll"
+taches = ["item farmersdelight:cod_roll"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cod_slice"
+titre = "Goûter : Filet de morue cru"
+optionnel = true
+icone = "farmersdelight:cod_slice"
+taches = ["item farmersdelight:cod_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cooked_bacon"
+titre = "Goûter : Bacon cuit"
+optionnel = true
+icone = "farmersdelight:cooked_bacon"
+taches = ["item farmersdelight:cooked_bacon"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cooked_chicken_cuts"
+titre = "Goûter : Escalopes de poulet cuites"
+optionnel = true
+icone = "farmersdelight:cooked_chicken_cuts"
+taches = ["item farmersdelight:cooked_chicken_cuts"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cooked_cod_slice"
+titre = "Goûter : Filet de morue cuit"
+optionnel = true
+icone = "farmersdelight:cooked_cod_slice"
+taches = ["item farmersdelight:cooked_cod_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cooked_mutton_chops"
+titre = "Goûter : Côtelettes de mouton cuites"
+optionnel = true
+icone = "farmersdelight:cooked_mutton_chops"
+taches = ["item farmersdelight:cooked_mutton_chops"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cooked_rice"
+titre = "Goûter : Riz cuit"
+optionnel = true
+icone = "farmersdelight:cooked_rice"
+taches = ["item farmersdelight:cooked_rice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_cooked_salmon_slice"
+titre = "Goûter : Filet de saumon cuit"
+optionnel = true
+icone = "farmersdelight:cooked_salmon_slice"
+taches = ["item farmersdelight:cooked_salmon_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_dumplings"
+titre = "Goûter : Raviolis"
+optionnel = true
+icone = "farmersdelight:dumplings"
+taches = ["item farmersdelight:dumplings"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_egg_sandwich"
+titre = "Goûter : Sandwich aux œufs"
+optionnel = true
+icone = "farmersdelight:egg_sandwich"
+taches = ["item farmersdelight:egg_sandwich"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_fish_stew"
+titre = "Goûter : Soupe de poisson"
+optionnel = true
+icone = "farmersdelight:fish_stew"
+taches = ["item farmersdelight:fish_stew"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_fried_rice"
+titre = "Goûter : Riz sauté"
+optionnel = true
+icone = "farmersdelight:fried_rice"
+taches = ["item farmersdelight:fried_rice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_fruit_salad"
+titre = "Goûter : Salade de fruits"
+optionnel = true
+icone = "farmersdelight:fruit_salad"
+taches = ["item farmersdelight:fruit_salad"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_gleaming_salad_block"
+titre = "Goûter : « Gleaming Salad »"
+optionnel = true
+icone = "farmersdelight:gleaming_salad_block"
+taches = ["item farmersdelight:gleaming_salad_block"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_glow_berry_custard"
+titre = "Goûter : Crème aux baies lumineuses"
+optionnel = true
+icone = "farmersdelight:glow_berry_custard"
+taches = ["item farmersdelight:glow_berry_custard"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_grilled_salmon"
+titre = "Goûter : Saumon grillé"
+optionnel = true
+icone = "farmersdelight:grilled_salmon"
+taches = ["item farmersdelight:grilled_salmon"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_hamburger"
+titre = "Goûter : Hamburger"
+optionnel = true
+icone = "farmersdelight:hamburger"
+taches = ["item farmersdelight:hamburger"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_honey_cookie"
+titre = "Goûter : Cookie au miel"
+optionnel = true
+icone = "farmersdelight:honey_cookie"
+taches = ["item farmersdelight:honey_cookie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_honey_glazed_ham_block"
+titre = "Goûter : Jambon laqué au miel"
+optionnel = true
+icone = "farmersdelight:honey_glazed_ham_block"
+taches = ["item farmersdelight:honey_glazed_ham_block"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_hot_cocoa"
+titre = "Goûter : Chocolat chaud"
+optionnel = true
+icone = "farmersdelight:hot_cocoa"
+taches = ["item farmersdelight:hot_cocoa"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_kelp_roll"
+titre = "Goûter : Rouleau aux algues"
+optionnel = true
+icone = "farmersdelight:kelp_roll"
+taches = ["item farmersdelight:kelp_roll"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_kelp_roll_slice"
+titre = "Goûter : Tranche de rouleau aux algues"
+optionnel = true
+icone = "farmersdelight:kelp_roll_slice"
+taches = ["item farmersdelight:kelp_roll_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_melon_juice"
+titre = "Goûter : Jus de melon"
+optionnel = true
+icone = "farmersdelight:melon_juice"
+taches = ["item farmersdelight:melon_juice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_melon_popsicle"
+titre = "Goûter : Glace à la pastèque"
+optionnel = true
+icone = "farmersdelight:melon_popsicle"
+taches = ["item farmersdelight:melon_popsicle"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_milk_bottle"
+titre = "Goûter : Bouteille de lait"
+optionnel = true
+icone = "farmersdelight:milk_bottle"
+taches = ["item farmersdelight:milk_bottle"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_minced_beef"
+titre = "Goûter : Bœuf haché"
+optionnel = true
+icone = "farmersdelight:minced_beef"
+taches = ["item farmersdelight:minced_beef"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_mixed_salad"
+titre = "Goûter : Salade composée"
+optionnel = true
+icone = "farmersdelight:mixed_salad"
+taches = ["item farmersdelight:mixed_salad"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_mushroom_rice"
+titre = "Goûter : Riz aux champignons"
+optionnel = true
+icone = "farmersdelight:mushroom_rice"
+taches = ["item farmersdelight:mushroom_rice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_mutton_chops"
+titre = "Goûter : Côtelettes de mouton crues"
+optionnel = true
+icone = "farmersdelight:mutton_chops"
+taches = ["item farmersdelight:mutton_chops"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_mutton_wrap"
+titre = "Goûter : Wrap de mouton"
+optionnel = true
+icone = "farmersdelight:mutton_wrap"
+taches = ["item farmersdelight:mutton_wrap"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_noodle_soup"
+titre = "Goûter : Soupe de nouilles"
+optionnel = true
+icone = "farmersdelight:noodle_soup"
+taches = ["item farmersdelight:noodle_soup"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_onion_soup"
+titre = "Goûter : « Onion Soup »"
+optionnel = true
+icone = "farmersdelight:onion_soup"
+taches = ["item farmersdelight:onion_soup"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_pasta_with_meatballs"
+titre = "Goûter : Spaghettis bolognaise"
+optionnel = true
+icone = "farmersdelight:pasta_with_meatballs"
+taches = ["item farmersdelight:pasta_with_meatballs"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_pasta_with_mutton_chop"
+titre = "Goûter : Spaghettis à l'agneau"
+optionnel = true
+icone = "farmersdelight:pasta_with_mutton_chop"
+taches = ["item farmersdelight:pasta_with_mutton_chop"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_pumpkin_pie_slice"
+titre = "Goûter : « Slice of Pumpkin Pie »"
+optionnel = true
+icone = "farmersdelight:pumpkin_pie_slice"
+taches = ["item farmersdelight:pumpkin_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_pumpkin_soup"
+titre = "Goûter : Soupe de citrouille"
+optionnel = true
+icone = "farmersdelight:pumpkin_soup"
+taches = ["item farmersdelight:pumpkin_soup"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_ratatouille"
+titre = "Goûter : Ratatouille"
+optionnel = true
+icone = "farmersdelight:ratatouille"
+taches = ["item farmersdelight:ratatouille"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_rice_roll_medley_block"
+titre = "Goûter : Assortiment de rouleaux de riz"
+optionnel = true
+icone = "farmersdelight:rice_roll_medley_block"
+taches = ["item farmersdelight:rice_roll_medley_block"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_roast_chicken_block"
+titre = "Goûter : Poulet rôti"
+optionnel = true
+icone = "farmersdelight:roast_chicken_block"
+taches = ["item farmersdelight:roast_chicken_block"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_roasted_mutton_chops"
+titre = "Goûter : Côtelettes de mouton rôties"
+optionnel = true
+icone = "farmersdelight:roasted_mutton_chops"
+taches = ["item farmersdelight:roasted_mutton_chops"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_salmon_roll"
+titre = "Goûter : Roulés au saumon"
+optionnel = true
+icone = "farmersdelight:salmon_roll"
+taches = ["item farmersdelight:salmon_roll"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_salmon_slice"
+titre = "Goûter : Filet de saumon cru"
+optionnel = true
+icone = "farmersdelight:salmon_slice"
+taches = ["item farmersdelight:salmon_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_shepherds_pie_block"
+titre = "Goûter : Pâté chinois"
+optionnel = true
+icone = "farmersdelight:shepherds_pie_block"
+taches = ["item farmersdelight:shepherds_pie_block"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_squid_ink_pasta"
+titre = "Goûter : Pâtes à l'encre de seiche"
+optionnel = true
+icone = "farmersdelight:squid_ink_pasta"
+taches = ["item farmersdelight:squid_ink_pasta"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_steak_and_potatoes"
+titre = "Goûter : Steak et pommes de terre"
+optionnel = true
+icone = "farmersdelight:steak_and_potatoes"
+taches = ["item farmersdelight:steak_and_potatoes"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_stuffed_potato"
+titre = "Goûter : Pomme de terre farcie"
+optionnel = true
+icone = "farmersdelight:stuffed_potato"
+taches = ["item farmersdelight:stuffed_potato"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_stuffed_pumpkin_block"
+titre = "Goûter : Citrouille farcie"
+optionnel = true
+icone = "farmersdelight:stuffed_pumpkin_block"
+taches = ["item farmersdelight:stuffed_pumpkin_block"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_sweet_berry_cheesecake"
+titre = "Goûter : Cheesecake aux fruits rouges"
+optionnel = true
+icone = "farmersdelight:sweet_berry_cheesecake"
+taches = ["item farmersdelight:sweet_berry_cheesecake"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_sweet_berry_cheesecake_slice"
+titre = "Goûter : Part de gâteau de baies sucrées"
+optionnel = true
+icone = "farmersdelight:sweet_berry_cheesecake_slice"
+taches = ["item farmersdelight:sweet_berry_cheesecake_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_sweet_berry_cookie"
+titre = "Goûter : Cookie aux baies sucrées"
+optionnel = true
+icone = "farmersdelight:sweet_berry_cookie"
+taches = ["item farmersdelight:sweet_berry_cookie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_vegetable_noodles"
+titre = "Goûter : Nouilles aux légumes"
+optionnel = true
+icone = "farmersdelight:vegetable_noodles"
+taches = ["item farmersdelight:vegetable_noodles"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "farmersdelight_vegetable_soup"
+titre = "Goûter : Soupe de légumes"
+optionnel = true
+icone = "farmersdelight:vegetable_soup"
+taches = ["item farmersdelight:vegetable_soup"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bFarmer's Delight&r.
+"""
+
+[[quete]]
+cle = "mynethersdelight_cooked_loin"
+titre = "Goûter : « Cooked Loin »"
+optionnel = true
+icone = "mynethersdelight:cooked_loin"
+taches = ["item mynethersdelight:cooked_loin"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bMy Nether's Delight&r.
+"""
+
+[[quete]]
+cle = "mynethersdelight_hoglin_loin"
+titre = "Goûter : « Hoglin Loin »"
+optionnel = true
+icone = "mynethersdelight:hoglin_loin"
+taches = ["item mynethersdelight:hoglin_loin"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bMy Nether's Delight&r.
+"""
+
+[[quete]]
+cle = "mynethersdelight_hoglin_sausage"
+titre = "Goûter : « Hoglin Sausage »"
+optionnel = true
+icone = "mynethersdelight:hoglin_sausage"
+taches = ["item mynethersdelight:hoglin_sausage"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bMy Nether's Delight&r.
+"""
+
+[[quete]]
+cle = "mynethersdelight_roasted_sausage"
+titre = "Goûter : « Roasted Sausage »"
+optionnel = true
+icone = "mynethersdelight:roasted_sausage"
+taches = ["item mynethersdelight:roasted_sausage"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bMy Nether's Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_aurora_cake_slice"
+titre = "Goûter : « Aurora Cake Slice »"
+optionnel = true
+icone = "twilightdelight:aurora_cake_slice"
+taches = ["item twilightdelight:aurora_cake_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_aurora_ice_cream"
+titre = "Goûter : « Aurora Ice Cream »"
+optionnel = true
+icone = "twilightdelight:aurora_ice_cream"
+taches = ["item twilightdelight:aurora_ice_cream"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_aurora_milkshake"
+titre = "Goûter : « Aurora Milkshake »"
+optionnel = true
+icone = "twilightdelight:aurora_milkshake"
+taches = ["item twilightdelight:aurora_milkshake"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_aurora_pie"
+titre = "Goûter : « Aurora Pie »"
+optionnel = true
+icone = "twilightdelight:aurora_pie"
+taches = ["item twilightdelight:aurora_pie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_aurora_pie_slice"
+titre = "Goûter : « Aurora Pie Slice »"
+optionnel = true
+icone = "twilightdelight:aurora_pie_slice"
+taches = ["item twilightdelight:aurora_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_chocolate_wafer"
+titre = "Goûter : « Chocolate Wafer »"
+optionnel = true
+icone = "twilightdelight:chocolate_wafer"
+taches = ["item twilightdelight:chocolate_wafer"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_cooked_venison_rib"
+titre = "Goûter : « Cooked Venison Rib »"
+optionnel = true
+icone = "twilightdelight:cooked_venison_rib"
+taches = ["item twilightdelight:cooked_venison_rib"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_glacier_cake_slice"
+titre = "Goûter : « Glacier Cake Slice »"
+optionnel = true
+icone = "twilightdelight:glacier_cake_slice"
+taches = ["item twilightdelight:glacier_cake_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_glacier_ice_cream"
+titre = "Goûter : « Glacier Ice Cream »"
+optionnel = true
+icone = "twilightdelight:glacier_ice_cream"
+taches = ["item twilightdelight:glacier_ice_cream"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_glacier_milkshake"
+titre = "Goûter : « Glacier Milkshake »"
+optionnel = true
+icone = "twilightdelight:glacier_milkshake"
+taches = ["item twilightdelight:glacier_milkshake"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_naga_chip"
+titre = "Goûter : « Naga Chip »"
+optionnel = true
+icone = "twilightdelight:naga_chip"
+taches = ["item twilightdelight:naga_chip"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_phytochemical_cake_slice"
+titre = "Goûter : « Phytochemical Cake Slice »"
+optionnel = true
+icone = "twilightdelight:phytochemical_cake_slice"
+taches = ["item twilightdelight:phytochemical_cake_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_phytochemical_ice_cream"
+titre = "Goûter : « Phytochemical Ice Cream »"
+optionnel = true
+icone = "twilightdelight:phytochemical_ice_cream"
+taches = ["item twilightdelight:phytochemical_ice_cream"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_phytochemical_milkshake"
+titre = "Goûter : « Phytochemical Milkshake »"
+optionnel = true
+icone = "twilightdelight:phytochemical_milkshake"
+taches = ["item twilightdelight:phytochemical_milkshake"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_rainbow_ice_cream"
+titre = "Goûter : « Rainbow Ice Cream »"
+optionnel = true
+icone = "twilightdelight:rainbow_ice_cream"
+taches = ["item twilightdelight:rainbow_ice_cream"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_raw_venison_rib"
+titre = "Goûter : « Raw Venison Rib »"
+optionnel = true
+icone = "twilightdelight:raw_venison_rib"
+taches = ["item twilightdelight:raw_venison_rib"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_refreshing_ice_cream"
+titre = "Goûter : « Refreshing Ice Cream »"
+optionnel = true
+icone = "twilightdelight:refreshing_ice_cream"
+taches = ["item twilightdelight:refreshing_ice_cream"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_torchberry_cake_slice"
+titre = "Goûter : « Torchberry Cake Slice »"
+optionnel = true
+icone = "twilightdelight:torchberry_cake_slice"
+taches = ["item twilightdelight:torchberry_cake_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_torchberry_cookie"
+titre = "Goûter : « Torchberry Cookie »"
+optionnel = true
+icone = "twilightdelight:torchberry_cookie"
+taches = ["item twilightdelight:torchberry_cookie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_torchberry_ice_cream"
+titre = "Goûter : « Torchberry Ice Cream »"
+optionnel = true
+icone = "twilightdelight:torchberry_ice_cream"
+taches = ["item twilightdelight:torchberry_ice_cream"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_torchberry_milkshake"
+titre = "Goûter : « Torchberry Milkshake »"
+optionnel = true
+icone = "twilightdelight:torchberry_milkshake"
+taches = ["item twilightdelight:torchberry_milkshake"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_torchberry_pie"
+titre = "Goûter : « Torchberry Pie »"
+optionnel = true
+icone = "twilightdelight:torchberry_pie"
+taches = ["item twilightdelight:torchberry_pie"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_torchberry_pie_slice"
+titre = "Goûter : « Torchberry Pie Slice »"
+optionnel = true
+icone = "twilightdelight:torchberry_pie_slice"
+taches = ["item twilightdelight:torchberry_pie_slice"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "twilightdelight_twilight_ice_cream"
+titre = "Goûter : « Twilight Ice Cream »"
+optionnel = true
+icone = "twilightdelight:twilight_ice_cream"
+taches = ["item twilightdelight:twilight_ice_cream"]
+recompenses = ["xp 1"]
+description = """
+Un plat de &bTwilight's Flavor & Delight&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "farmersdelight:beef_stew"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["crabbersdelight_cooked_crab", "crabbersdelight_cooked_pufferfish_slice", "crabbersdelight_cooked_tropical_fish", "crabbersdelight_cooked_tropical_fish_slice", "crabbersdelight_crab", "crabbersdelight_crab_legs", "crabbersdelight_pufferfish_slice", "crabbersdelight_tropical_fish_slice", "delightful_aged_roe", "delightful_azalea_tea", "delightful_baklava_slice", "delightful_berry_matcha_latte", "delightful_blueberry_pie_slice", "delightful_cactus_chili", "delightful_cactus_soup", "delightful_cantaloupe_bread", "delightful_cantaloupe_popsicle", "delightful_caviar", "delightful_cheeseburger", "delightful_chorus_muffin", "delightful_chorus_pie_slice", "delightful_chunkwich", "delightful_coconut_curry", "delightful_cooked_goat", "delightful_cooked_marshmallow_stick", "delightful_cooked_venison_chops", "delightful_crab_rangoon", "delightful_deluxe_cheeseburger", "delightful_ender_nectar", "delightful_field_salad", "delightful_gloomgourd_pie_slice", "delightful_glow_jam_cookie", "delightful_green_apple_pie_slice", "delightful_honey_glazed_walnut", "delightful_lavender_tea", "delightful_long_prickly_pear_juice", "delightful_marshmallow_stick", "delightful_matcha_latte", "delightful_mulberry_pie_slice", "delightful_mutton_pie_slice", "delightful_nut_butter_and_jam_sandwich", "delightful_passion_fruit_tart_slice", "delightful_prickly_pear_juice", "delightful_roasted_acorn", "delightful_rock_candy", "delightful_roe_blini", "delightful_roe_roll", "delightful_salmon_and_roe_blini", "delightful_salmonberry_pie_slice", "delightful_sinigang", "delightful_smore", "delightful_source_berry_cookie", "delightful_stuffed_cantaloupe_block", "delightful_venison_chops", "delightful_venison_stew", "delightful_wrapped_cantaloupe", "farmersdelight_apple_cider", "farmersdelight_apple_pie", "farmersdelight_apple_pie_slice", "farmersdelight_bacon", "farmersdelight_bacon_and_eggs", "farmersdelight_bacon_sandwich", "farmersdelight_baked_cod_stew", "farmersdelight_barbecue_stick", "farmersdelight_beef_patty", "farmersdelight_beef_stew", "farmersdelight_bone_broth", "farmersdelight_cabbage_rolls", "farmersdelight_cake_slice", "farmersdelight_chicken_cuts", "farmersdelight_chicken_sandwich", "farmersdelight_chicken_soup", "farmersdelight_chocolate_pie", "farmersdelight_chocolate_pie_slice", "farmersdelight_cod_roll", "farmersdelight_cod_slice", "farmersdelight_cooked_bacon", "farmersdelight_cooked_chicken_cuts", "farmersdelight_cooked_cod_slice", "farmersdelight_cooked_mutton_chops", "farmersdelight_cooked_rice", "farmersdelight_cooked_salmon_slice", "farmersdelight_dumplings", "farmersdelight_egg_sandwich", "farmersdelight_fish_stew", "farmersdelight_fried_rice", "farmersdelight_fruit_salad", "farmersdelight_gleaming_salad_block", "farmersdelight_glow_berry_custard", "farmersdelight_grilled_salmon", "farmersdelight_hamburger", "farmersdelight_honey_cookie", "farmersdelight_honey_glazed_ham_block", "farmersdelight_hot_cocoa", "farmersdelight_kelp_roll", "farmersdelight_kelp_roll_slice", "farmersdelight_melon_juice", "farmersdelight_melon_popsicle", "farmersdelight_milk_bottle", "farmersdelight_minced_beef", "farmersdelight_mixed_salad", "farmersdelight_mushroom_rice", "farmersdelight_mutton_chops", "farmersdelight_mutton_wrap", "farmersdelight_noodle_soup", "farmersdelight_onion_soup", "farmersdelight_pasta_with_meatballs", "farmersdelight_pasta_with_mutton_chop", "farmersdelight_pumpkin_pie_slice", "farmersdelight_pumpkin_soup", "farmersdelight_ratatouille", "farmersdelight_rice_roll_medley_block", "farmersdelight_roast_chicken_block", "farmersdelight_roasted_mutton_chops", "farmersdelight_salmon_roll", "farmersdelight_salmon_slice", "farmersdelight_shepherds_pie_block", "farmersdelight_squid_ink_pasta", "farmersdelight_steak_and_potatoes", "farmersdelight_stuffed_potato", "farmersdelight_stuffed_pumpkin_block", "farmersdelight_sweet_berry_cheesecake", "farmersdelight_sweet_berry_cheesecake_slice", "farmersdelight_sweet_berry_cookie", "farmersdelight_vegetable_noodles", "farmersdelight_vegetable_soup", "mynethersdelight_cooked_loin", "mynethersdelight_hoglin_loin", "mynethersdelight_hoglin_sausage", "mynethersdelight_roasted_sausage", "twilightdelight_aurora_cake_slice", "twilightdelight_aurora_ice_cream", "twilightdelight_aurora_milkshake", "twilightdelight_aurora_pie", "twilightdelight_aurora_pie_slice", "twilightdelight_chocolate_wafer", "twilightdelight_cooked_venison_rib", "twilightdelight_glacier_cake_slice", "twilightdelight_glacier_ice_cream", "twilightdelight_glacier_milkshake", "twilightdelight_naga_chip", "twilightdelight_phytochemical_cake_slice", "twilightdelight_phytochemical_ice_cream", "twilightdelight_phytochemical_milkshake", "twilightdelight_rainbow_ice_cream", "twilightdelight_raw_venison_rib", "twilightdelight_refreshing_ice_cream", "twilightdelight_torchberry_cake_slice", "twilightdelight_torchberry_cookie", "twilightdelight_torchberry_ice_cream", "twilightdelight_torchberry_milkshake", "twilightdelight_torchberry_pie", "twilightdelight_torchberry_pie_slice", "twilightdelight_twilight_ice_cream"]
+description = """
+Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+"""

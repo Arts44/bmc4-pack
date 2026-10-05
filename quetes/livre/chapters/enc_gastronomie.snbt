@@ -1,0 +1,3293 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_gastronomie"
+	group: "34D36ACF0DABCCEC"
+	icon: "farmersdelight:cooking_pot"
+	id: "1C19B39F7C342BE8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Chaque plat, boisson et douceur de Farmer's Delight et de ses extensions présentes dans le pack. Une quête se valide en ayant le plat dans l'inventaire."
+				""
+				"La liste est celle des balises d'aliments du pack ; seuls les plats qu'une recette ou un butin donne vraiment y sont."
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "35713E787EBCCB1E"
+			rewards: [{
+				id: "1437C6E2B63B5263"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6055AECD9CC2FDE1"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Gastronomie"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Un plat de &bCrabber's Delight&r."]
+			icon: "crabbersdelight:cooked_crab"
+			id: "6C06DF4C08926B0E"
+			optional: true
+			rewards: [{
+				id: "0F4306351F0280BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "163E011FC37B8E99"
+				item: "crabbersdelight:cooked_crab"
+				type: "item"
+			}]
+			title: "Goûter : « Cooked Crab »"
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bCrabber's Delight&r."]
+			icon: "crabbersdelight:cooked_pufferfish_slice"
+			id: "67220470874BDCB5"
+			optional: true
+			rewards: [{
+				id: "5C49E1CD147F6987"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0147652BB94D5B59"
+				item: "crabbersdelight:cooked_pufferfish_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Cooked Pufferfish Slice »"
+			x: 1.5d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bCrabber's Delight&r."]
+			icon: "crabbersdelight:cooked_tropical_fish"
+			id: "71AEE43C3D6A2C88"
+			optional: true
+			rewards: [{
+				id: "09D61E45E28A8A92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0694385D9952EA9C"
+				item: "crabbersdelight:cooked_tropical_fish"
+				type: "item"
+			}]
+			title: "Goûter : « Cooked Tropical Fish »"
+			x: 3.0d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bCrabber's Delight&r."]
+			icon: "crabbersdelight:cooked_tropical_fish_slice"
+			id: "69572F1BF81AB7BE"
+			optional: true
+			rewards: [{
+				id: "53612D15C79ABB20"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5144797B3E024FE6"
+				item: "crabbersdelight:cooked_tropical_fish_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Cooked Tropical Fish Slice »"
+			x: 4.5d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bCrabber's Delight&r."]
+			icon: "crabbersdelight:crab"
+			id: "41229448FEFD175C"
+			optional: true
+			rewards: [{
+				id: "70F045F67A1C4AD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15229EC98078C35B"
+				item: "crabbersdelight:crab"
+				type: "item"
+			}]
+			title: "Goûter : « Crab »"
+			x: 6.0d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bCrabber's Delight&r."]
+			icon: "crabbersdelight:crab_legs"
+			id: "528C5C5E17BC832A"
+			optional: true
+			rewards: [{
+				id: "02E2B0BD77E87C7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76C40C2EF979D694"
+				item: "crabbersdelight:crab_legs"
+				type: "item"
+			}]
+			title: "Goûter : « Crab Leg »"
+			x: 7.5d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bCrabber's Delight&r."]
+			icon: "crabbersdelight:pufferfish_slice"
+			id: "7153FF2B682F3804"
+			optional: true
+			rewards: [{
+				id: "2339C1F25B22CE27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B86F2C2EB7A52C5"
+				item: "crabbersdelight:pufferfish_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Raw Pufferfish Slice »"
+			x: 9.0d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bCrabber's Delight&r."]
+			icon: "crabbersdelight:tropical_fish_slice"
+			id: "106BB877AEB09466"
+			optional: true
+			rewards: [{
+				id: "165C3A9099694935"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41A7BEEC013630AA"
+				item: "crabbersdelight:tropical_fish_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Raw Tropical Fish Slice »"
+			x: 10.5d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:aged_roe"
+			id: "2AA4605A50B012C7"
+			optional: true
+			rewards: [{
+				id: "5F574C272AC31D67"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "145DAFC5C801B588"
+				item: "delightful:aged_roe"
+				type: "item"
+			}]
+			title: "Goûter : « Aged Roe »"
+			x: 12.0d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:azalea_tea"
+			id: "55B74953F6A0B34E"
+			optional: true
+			rewards: [{
+				id: "27B7893C8A5DD1F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7995D48C7DBEB6E7"
+				item: "delightful:azalea_tea"
+				type: "item"
+			}]
+			title: "Goûter : « Azalea Tea »"
+			x: 13.5d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:baklava_slice"
+			id: "3DED62205191EED7"
+			optional: true
+			rewards: [{
+				id: "0D915D324491B654"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C7514AC1971759C"
+				item: "delightful:baklava_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Baklava »"
+			x: 15.0d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:berry_matcha_latte"
+			id: "1C9733F2BE23867D"
+			optional: true
+			rewards: [{
+				id: "032CF4F220D3F098"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21BEC77014B512E1"
+				item: "delightful:berry_matcha_latte"
+				type: "item"
+			}]
+			title: "Goûter : « Iced Berry Matcha Latte »"
+			x: 16.5d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:blueberry_pie_slice"
+			id: "12700176C895BACE"
+			optional: true
+			rewards: [{
+				id: "0E449C2DA60B6994"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AEF3DDE91909736"
+				item: "delightful:blueberry_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Blueberry Pie »"
+			x: 18.0d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:cactus_chili"
+			id: "5BCB6CFF4D482113"
+			optional: true
+			rewards: [{
+				id: "5BDA57FE435F377B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24D5A93BFE92C206"
+				item: "delightful:cactus_chili"
+				type: "item"
+			}]
+			title: "Goûter : « Cactus Chili »"
+			x: 19.5d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:cactus_soup"
+			id: "788196695530BEB7"
+			optional: true
+			rewards: [{
+				id: "6FE43E90ADB0C00C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F5F262375D199EB"
+				item: "delightful:cactus_soup"
+				type: "item"
+			}]
+			title: "Goûter : « Cactus Soup »"
+			x: 21.0d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:cantaloupe_bread"
+			id: "3EA903981C13A1CA"
+			optional: true
+			rewards: [{
+				id: "1D6652580A4666E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38C8404EA4380815"
+				item: "delightful:cantaloupe_bread"
+				type: "item"
+			}]
+			title: "Goûter : « Cantaloupe Bread »"
+			x: 22.5d
+			y: -6.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:cantaloupe_popsicle"
+			id: "523DA60332A509D5"
+			optional: true
+			rewards: [{
+				id: "15AE5702E5673028"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DFB0CA9FCFB3C93"
+				item: "delightful:cantaloupe_popsicle"
+				type: "item"
+			}]
+			title: "Goûter : « Cantaloupe Popsicle »"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:caviar"
+			id: "4B26F2136C9CD1BD"
+			optional: true
+			rewards: [{
+				id: "1C4800F1A0A33433"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "464BC916C1BEB4E7"
+				item: "delightful:caviar"
+				type: "item"
+			}]
+			title: "Goûter : « Caviar »"
+			x: 1.5d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:cheeseburger"
+			id: "4F19FB7EE3E931C8"
+			optional: true
+			rewards: [{
+				id: "01C8FD33C17A6CF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54B168249C9996A9"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			title: "Goûter : « Cheeseburger »"
+			x: 3.0d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:chorus_muffin"
+			id: "7622F25F8892B66F"
+			optional: true
+			rewards: [{
+				id: "7310314E3977DAD4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C758A95C4C70D03"
+				item: "delightful:chorus_muffin"
+				type: "item"
+			}]
+			title: "Goûter : « Chorus Muffin »"
+			x: 4.5d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:chorus_pie_slice"
+			id: "73686CB90AABEF40"
+			optional: true
+			rewards: [{
+				id: "448A58F8D81DB243"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DA511655A707D9B"
+				item: "delightful:chorus_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Chorus Pie »"
+			x: 6.0d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:chunkwich"
+			id: "31FD1C7CA811F9D9"
+			optional: true
+			rewards: [{
+				id: "572F43E02A1D683F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "483E16D66E731BC9"
+				item: "delightful:chunkwich"
+				type: "item"
+			}]
+			title: "Goûter : « Chunkwich »"
+			x: 7.5d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:coconut_curry"
+			id: "30AC53FC5F856FC6"
+			optional: true
+			rewards: [{
+				id: "0445FE711AC894CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "650BB30421D8D02A"
+				item: "delightful:coconut_curry"
+				type: "item"
+			}]
+			title: "Goûter : « Coconut Curry »"
+			x: 9.0d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:cooked_goat"
+			id: "7CA8016016F71EC4"
+			optional: true
+			rewards: [{
+				id: "10992D86AC5BBB16"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "536D0966A3CDBBFA"
+				item: "delightful:cooked_goat"
+				type: "item"
+			}]
+			title: "Goûter : « Cooked Chevon »"
+			x: 10.5d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:cooked_marshmallow_stick"
+			id: "117B54B30AC4D642"
+			optional: true
+			rewards: [{
+				id: "26E72E8A53923507"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74A84D9BD365F9A3"
+				item: "delightful:cooked_marshmallow_stick"
+				type: "item"
+			}]
+			title: "Goûter : « Roasted Marshmallow on a Stick »"
+			x: 12.0d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:cooked_venison_chops"
+			id: "3840BA88150E10FF"
+			optional: true
+			rewards: [{
+				id: "121F8AFF1ECE2349"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06BA95A6F233E3F0"
+				item: "delightful:cooked_venison_chops"
+				type: "item"
+			}]
+			title: "Goûter : « Cooked Venison Chops »"
+			x: 13.5d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:crab_rangoon"
+			id: "7F2BA24DE9B22E5C"
+			optional: true
+			rewards: [{
+				id: "4EFAD7E5E3F5D7DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A9F49C27B626816"
+				item: "delightful:crab_rangoon"
+				type: "item"
+			}]
+			title: "Goûter : « Crab Rangoon »"
+			x: 15.0d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:deluxe_cheeseburger"
+			id: "4BC401A2DD8BFF59"
+			optional: true
+			rewards: [{
+				id: "256F6E1DA33DE5AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B298D3B83966B94"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			title: "Goûter : « Deluxe Cheeseburger »"
+			x: 16.5d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:ender_nectar"
+			id: "27BED8D97EB0D663"
+			optional: true
+			rewards: [{
+				id: "7739CD4733103D70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "024ABD90CB355F4A"
+				item: "delightful:ender_nectar"
+				type: "item"
+			}]
+			title: "Goûter : « Ender Nectar »"
+			x: 18.0d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:field_salad"
+			id: "38ACA8197B17212F"
+			optional: true
+			rewards: [{
+				id: "2642E2A73FE9B37D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "794BAC73049DC0BF"
+				item: "delightful:field_salad"
+				type: "item"
+			}]
+			title: "Goûter : « Field Salad »"
+			x: 19.5d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:gloomgourd_pie_slice"
+			id: "70191F5558A08AD4"
+			optional: true
+			rewards: [{
+				id: "30B18AAEEA8B53AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33F17D6E1FEC82F9"
+				item: "delightful:gloomgourd_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Gloomgourd Pie »"
+			x: 21.0d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:glow_jam_cookie"
+			id: "0D8507B849D2F17C"
+			optional: true
+			rewards: [{
+				id: "348086C5956173FC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3880816815E58197"
+				item: "delightful:glow_jam_cookie"
+				type: "item"
+			}]
+			title: "Goûter : « Glow Jam Cookie »"
+			x: 22.5d
+			y: -5.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:green_apple_pie_slice"
+			id: "2029A8F134EE72A6"
+			optional: true
+			rewards: [{
+				id: "1E87664690DD06BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DC749BE9989D7BE"
+				item: "delightful:green_apple_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Green Apple Pie »"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:honey_glazed_walnut"
+			id: "1F832E472EBB8025"
+			optional: true
+			rewards: [{
+				id: "7DD55DD62D4849DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3BD0CD0786B9A4C8"
+				item: "delightful:honey_glazed_walnut"
+				type: "item"
+			}]
+			title: "Goûter : « Honey Glazed Walnut »"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:lavender_tea"
+			id: "751703A1461A84FC"
+			optional: true
+			rewards: [{
+				id: "064567826703BD4F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32C64E6FD5760EA8"
+				item: "delightful:lavender_tea"
+				type: "item"
+			}]
+			title: "Goûter : « Lavender Tea »"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:long_prickly_pear_juice"
+			id: "3729E2FAD0450E96"
+			optional: true
+			rewards: [{
+				id: "03FBC73DACB6F102"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04F2C6E9ACE3413D"
+				item: "delightful:long_prickly_pear_juice"
+				type: "item"
+			}]
+			title: "Goûter : « Prickly Pear Juice »"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:marshmallow_stick"
+			id: "2F10CF0F8C824666"
+			optional: true
+			rewards: [{
+				id: "7B1295EC42CA952E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C80DDF3ED8EA7D5"
+				item: "delightful:marshmallow_stick"
+				type: "item"
+			}]
+			title: "Goûter : « Marshmallow on a Stick »"
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:matcha_latte"
+			id: "47C5A370901CD43B"
+			optional: true
+			rewards: [{
+				id: "1A661C45862BB9B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25F3CBCDB013C5D9"
+				item: "delightful:matcha_latte"
+				type: "item"
+			}]
+			title: "Goûter : « Matcha Latte »"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:mulberry_pie_slice"
+			id: "22DC6485DF84BB4F"
+			optional: true
+			rewards: [{
+				id: "625CC108F257CC1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E2B0916497BB9A1"
+				item: "delightful:mulberry_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Mulberry Pie »"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:mutton_pie_slice"
+			id: "52D38CBA01B3A679"
+			optional: true
+			rewards: [{
+				id: "77FE7C0200DFC095"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44DBCF6A6CC7CEAB"
+				item: "delightful:mutton_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Mutton Pie »"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:nut_butter_and_jam_sandwich"
+			id: "670EFDF737696595"
+			optional: true
+			rewards: [{
+				id: "7FA39873209AA7F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1951E1B1CA682E58"
+				item: "delightful:nut_butter_and_jam_sandwich"
+				type: "item"
+			}]
+			title: "Goûter : « Nut Butter and Jam Sandwich »"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:passion_fruit_tart_slice"
+			id: "47EF31DF1CB04B68"
+			optional: true
+			rewards: [{
+				id: "1E7D2859CD3937DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A48997484694669"
+				item: "delightful:passion_fruit_tart_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Passion Fruit Tart »"
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:prickly_pear_juice"
+			id: "2B5CFFD3C86B2540"
+			optional: true
+			rewards: [{
+				id: "55E701ADA0A13600"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1371B358D8BB0F81"
+				item: "delightful:prickly_pear_juice"
+				type: "item"
+			}]
+			title: "Goûter : « Prickly Pear Juice »"
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:roasted_acorn"
+			id: "0A2773E0A3CF7EBB"
+			optional: true
+			rewards: [{
+				id: "535FF4AB6ED4EFAA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1494710CB3033753"
+				item: "delightful:roasted_acorn"
+				type: "item"
+			}]
+			title: "Goûter : « Roasted Acorn »"
+			x: 16.5d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:rock_candy"
+			id: "0983653402EC5C1E"
+			optional: true
+			rewards: [{
+				id: "2ABE8544B022939D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6214809CB4ACA3F8"
+				item: "delightful:rock_candy"
+				type: "item"
+			}]
+			title: "Goûter : « Rose Rock Candy »"
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:roe_blini"
+			id: "086B7A94F12A1934"
+			optional: true
+			rewards: [{
+				id: "2F06798E4F57BECB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46CA18EA412FAEA2"
+				item: "delightful:roe_blini"
+				type: "item"
+			}]
+			title: "Goûter : « Roe Blini »"
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:roe_roll"
+			id: "2EC189A5D12C633C"
+			optional: true
+			rewards: [{
+				id: "1BB40CE1AFAE7D69"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C7D184BED3517AA"
+				item: "delightful:roe_roll"
+				type: "item"
+			}]
+			title: "Goûter : « Roe Roll »"
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:salmon_and_roe_blini"
+			id: "115389183D80FB35"
+			optional: true
+			rewards: [{
+				id: "4987A8F0B7C3AECA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62FCF86801045B9E"
+				item: "delightful:salmon_and_roe_blini"
+				type: "item"
+			}]
+			title: "Goûter : « Salmon and Roe Blini »"
+			x: 22.5d
+			y: -3.75d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:salmonberry_pie_slice"
+			id: "0D017D03E37F206A"
+			optional: true
+			rewards: [{
+				id: "181E958CFB35ED0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24E4DDD508852800"
+				item: "delightful:salmonberry_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Salmonberry Pie »"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:sinigang"
+			id: "297B592D6703842B"
+			optional: true
+			rewards: [{
+				id: "7440FDE778262DB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2AF4DBF651DFC99C"
+				item: "delightful:sinigang"
+				type: "item"
+			}]
+			title: "Goûter : « Sinigang »"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:smore"
+			id: "1876A95BBF0E4A92"
+			optional: true
+			rewards: [{
+				id: "20B14EF1A5B18FE7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A6C8A1B3302CE6F"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			title: "Goûter : « S'more »"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:source_berry_cookie"
+			id: "683479F6DCF5961D"
+			optional: true
+			rewards: [{
+				id: "5514F73EED172D6C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68D12B6585EFF86B"
+				item: "delightful:source_berry_cookie"
+				type: "item"
+			}]
+			title: "Goûter : « Source Berry Cookie »"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:stuffed_cantaloupe_block"
+			id: "0E7D9118307CA217"
+			optional: true
+			rewards: [{
+				id: "221D6EB2D56F0238"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B7F00704CE4626C"
+				item: "delightful:stuffed_cantaloupe_block"
+				type: "item"
+			}]
+			title: "Goûter : « Stuffed Cantaloupe »"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:venison_chops"
+			id: "05D0F7747A23D8AD"
+			optional: true
+			rewards: [{
+				id: "581DF18110BD32E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "795CAF568BDBC063"
+				item: "delightful:venison_chops"
+				type: "item"
+			}]
+			title: "Goûter : « Raw Venison Chops »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:venison_stew"
+			id: "2333ABC6F5A92835"
+			optional: true
+			rewards: [{
+				id: "41BF3A557A1E86C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F6CF83733C69407"
+				item: "delightful:venison_stew"
+				type: "item"
+			}]
+			title: "Goûter : « Venison Stew »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bDelightful&r."]
+			icon: "delightful:wrapped_cantaloupe"
+			id: "76083AC385DC0AAB"
+			optional: true
+			rewards: [{
+				id: "52F98C38A5ADFC28"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10E235971BAE7C42"
+				item: "delightful:wrapped_cantaloupe"
+				type: "item"
+			}]
+			title: "Goûter : « Wrapped Cantaloupe »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:apple_cider"
+			id: "46ED6E240BD0DF05"
+			optional: true
+			rewards: [{
+				id: "1EE902C380D5D651"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1CF506480D04BB93"
+				item: "farmersdelight:apple_cider"
+				type: "item"
+			}]
+			title: "Goûter : Cidre de pommes"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:apple_pie"
+			id: "0EF96A231ED411DA"
+			optional: true
+			rewards: [{
+				id: "4DFC33E33F440A92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56449D7776A5F8E1"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			title: "Goûter : Tarte aux pommes"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:apple_pie_slice"
+			id: "5E5EADA530D523EA"
+			optional: true
+			rewards: [{
+				id: "1D13E330F575DD46"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3838C6878CE5633A"
+				item: "farmersdelight:apple_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : Part de tarte aux pommes"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:bacon"
+			id: "7D19A978DD1ABF56"
+			optional: true
+			rewards: [{
+				id: "36FCFFCC8493C244"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62ED8CF03A94518C"
+				item: "farmersdelight:bacon"
+				type: "item"
+			}]
+			title: "Goûter : Bacon cru"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:bacon_and_eggs"
+			id: "30390BEE3DFF7F06"
+			optional: true
+			rewards: [{
+				id: "5E2AA5B6423ADB5A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73C995335B7DBEF5"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			title: "Goûter : Bacon et œufs"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:bacon_sandwich"
+			id: "6B8FFA2FBB736C0B"
+			optional: true
+			rewards: [{
+				id: "570900271FDE7BEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6384DED8AA67A226"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			title: "Goûter : Sandwich au bacon"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:baked_cod_stew"
+			id: "61CF36E448B8FD60"
+			optional: true
+			rewards: [{
+				id: "7A30DD0847AB77F8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CD1CD2615393973"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			title: "Goûter : Ragoût de morue"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:barbecue_stick"
+			id: "51A6D0A8F423EF4C"
+			optional: true
+			rewards: [{
+				id: "0E24B664C80A64E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B220383AC00B4DE"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			title: "Goûter : Brochette"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:beef_patty"
+			id: "6490BE695A70BB77"
+			optional: true
+			rewards: [{
+				id: "347D8B982AC0B42F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4DD66761A22728FE"
+				item: "farmersdelight:beef_patty"
+				type: "item"
+			}]
+			title: "Goûter : Steack haché"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:beef_stew"
+			id: "2872AB0C35ADE039"
+			optional: true
+			rewards: [{
+				id: "2EAE436CFA023A22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "142AC7378769ADB7"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			title: "Goûter : Ragoût de boeuf"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:bone_broth"
+			id: "5E8BEE95451967D2"
+			optional: true
+			rewards: [{
+				id: "6C051A9CB75F62B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F4D39F6B9A24253"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			title: "Goûter : Bouillon d'os"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cabbage_rolls"
+			id: "3399030EB055E672"
+			optional: true
+			rewards: [{
+				id: "77BDE32163373C2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "697F3EE66801F98A"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			title: "Goûter : Rouleaux de chou"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cake_slice"
+			id: "105413D9CC7339FB"
+			optional: true
+			rewards: [{
+				id: "64361525307D589E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32756B36499A71D7"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			title: "Goûter : Part de gâteau"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:chicken_cuts"
+			id: "28891DC8E8674F93"
+			optional: true
+			rewards: [{
+				id: "0A1F731CD03C43E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DCF1A5FCA58F6D8"
+				item: "farmersdelight:chicken_cuts"
+				type: "item"
+			}]
+			title: "Goûter : Escalopes de poulet crues"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:chicken_sandwich"
+			id: "00ACC6C04ECE2F44"
+			optional: true
+			rewards: [{
+				id: "3D46D2FD8A9F0298"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "164CF763DCA527A7"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			title: "Goûter : Sandwich au poulet"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:chicken_soup"
+			id: "1D864B300F893972"
+			optional: true
+			rewards: [{
+				id: "488473B593128876"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4428AA94895130E2"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			title: "Goûter : Soupe de poulet"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:chocolate_pie"
+			id: "319C0CAD14A4724B"
+			optional: true
+			rewards: [{
+				id: "51B8492D1504DEC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20406DEAB0EB5371"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			title: "Goûter : Tarte au chocolat"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:chocolate_pie_slice"
+			id: "1E1853C906B87ED7"
+			optional: true
+			rewards: [{
+				id: "19FD2F8EF4628E56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "175CA803B9943AD1"
+				item: "farmersdelight:chocolate_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : Part de tarte au chocolat"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cod_roll"
+			id: "4FBC434B1582F9D5"
+			optional: true
+			rewards: [{
+				id: "61C702DB7F394BA9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6541446458D5121C"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			title: "Goûter : Rouleau de morue"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cod_slice"
+			id: "2A25F69335CDE875"
+			optional: true
+			rewards: [{
+				id: "1D64CF65907538A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21F09E992BDC7871"
+				item: "farmersdelight:cod_slice"
+				type: "item"
+			}]
+			title: "Goûter : Filet de morue cru"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cooked_bacon"
+			id: "07585CAD4BD3C4A2"
+			optional: true
+			rewards: [{
+				id: "1E71A8B79DE9E0B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4AFF874A99555B39"
+				item: "farmersdelight:cooked_bacon"
+				type: "item"
+			}]
+			title: "Goûter : Bacon cuit"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cooked_chicken_cuts"
+			id: "2846891E952D5EFD"
+			optional: true
+			rewards: [{
+				id: "4B0543013BE5FB54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50DF598CE38A896E"
+				item: "farmersdelight:cooked_chicken_cuts"
+				type: "item"
+			}]
+			title: "Goûter : Escalopes de poulet cuites"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cooked_cod_slice"
+			id: "5E8543BE59B4F639"
+			optional: true
+			rewards: [{
+				id: "495EA20619A507A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B6F9B70EF417DE3"
+				item: "farmersdelight:cooked_cod_slice"
+				type: "item"
+			}]
+			title: "Goûter : Filet de morue cuit"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cooked_mutton_chops"
+			id: "0549BADA9511E4FA"
+			optional: true
+			rewards: [{
+				id: "711FE505E553EE26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "147C3C4A736C93B3"
+				item: "farmersdelight:cooked_mutton_chops"
+				type: "item"
+			}]
+			title: "Goûter : Côtelettes de mouton cuites"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cooked_rice"
+			id: "5C2D8F638D18A192"
+			optional: true
+			rewards: [{
+				id: "05D4F800C5CC728D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49C3C889D27C5E50"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			title: "Goûter : Riz cuit"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:cooked_salmon_slice"
+			id: "1B3A0FF1A1E29227"
+			optional: true
+			rewards: [{
+				id: "438483D5A8967B74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "738762BD99336E7D"
+				item: "farmersdelight:cooked_salmon_slice"
+				type: "item"
+			}]
+			title: "Goûter : Filet de saumon cuit"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:dumplings"
+			id: "00D9EE6268DB58A7"
+			optional: true
+			rewards: [{
+				id: "69C7A04AD18131FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "729949E381419DF3"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			title: "Goûter : Raviolis"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:egg_sandwich"
+			id: "6474215182767BAF"
+			optional: true
+			rewards: [{
+				id: "02468412B3312A96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "151693A61E639147"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			title: "Goûter : Sandwich aux œufs"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:fish_stew"
+			id: "6B5FFD10495FBBB4"
+			optional: true
+			rewards: [{
+				id: "41FBA1932054FAB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "710CB8860F72A8BD"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			title: "Goûter : Soupe de poisson"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:fried_rice"
+			id: "7B8C206CD5CA6F15"
+			optional: true
+			rewards: [{
+				id: "095BFD924473A856"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EF9819A79FA4653"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			title: "Goûter : Riz sauté"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:fruit_salad"
+			id: "034995E348F90111"
+			optional: true
+			rewards: [{
+				id: "4020A1FDDBD82BD5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7380AE02A49B609D"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			title: "Goûter : Salade de fruits"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:gleaming_salad_block"
+			id: "5CDF4A388FDEEFDF"
+			optional: true
+			rewards: [{
+				id: "6021913EA7B67BCD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C4635FD94A27574"
+				item: "farmersdelight:gleaming_salad_block"
+				type: "item"
+			}]
+			title: "Goûter : « Gleaming Salad »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:glow_berry_custard"
+			id: "1F64A48C402DCD0E"
+			optional: true
+			rewards: [{
+				id: "7B3E08CE627FE81F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "29A584F58B377495"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			title: "Goûter : Crème aux baies lumineuses"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:grilled_salmon"
+			id: "2B93E7AF8DBA8958"
+			optional: true
+			rewards: [{
+				id: "1E087DF583402612"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B948849ECC297C8"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			title: "Goûter : Saumon grillé"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:hamburger"
+			id: "7DAA627C598E91D1"
+			optional: true
+			rewards: [{
+				id: "09B85478B953FC68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "330F74309619343C"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			title: "Goûter : Hamburger"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:honey_cookie"
+			id: "1749ACD1D0535295"
+			optional: true
+			rewards: [{
+				id: "3DE97C14DFAE7A6C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15E3C35F756FC5A3"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			title: "Goûter : Cookie au miel"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:honey_glazed_ham_block"
+			id: "1B35A723C7B5D723"
+			optional: true
+			rewards: [{
+				id: "729B273B7D7A81EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3125151BB7479B5C"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			title: "Goûter : Jambon laqué au miel"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:hot_cocoa"
+			id: "27232472158D1C41"
+			optional: true
+			rewards: [{
+				id: "1F286C662359E501"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A216DEF82C45386"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			title: "Goûter : Chocolat chaud"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:kelp_roll"
+			id: "3D31726F5FB11F69"
+			optional: true
+			rewards: [{
+				id: "118210EFD097E337"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65F1E94821EBA301"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			title: "Goûter : Rouleau aux algues"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:kelp_roll_slice"
+			id: "70348D0A76F199C9"
+			optional: true
+			rewards: [{
+				id: "75D3C25E0AAED7B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B2E405649E57F41"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			title: "Goûter : Tranche de rouleau aux algues"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:melon_juice"
+			id: "49D390E7A1EC9489"
+			optional: true
+			rewards: [{
+				id: "62014AAB9F4BCF31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C220C9A4AE40A25"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			title: "Goûter : Jus de melon"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:melon_popsicle"
+			id: "5E9C6530603377A5"
+			optional: true
+			rewards: [{
+				id: "183987D45A56F651"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27DB6F5E8371463B"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			title: "Goûter : Glace à la pastèque"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:milk_bottle"
+			id: "59F16D639990E001"
+			optional: true
+			rewards: [{
+				id: "329F3E7A60B963EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11A511F137D41677"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			title: "Goûter : Bouteille de lait"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:minced_beef"
+			id: "7750059D1755683C"
+			optional: true
+			rewards: [{
+				id: "31A05E6957B3F2B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59BFE46F8280C203"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			title: "Goûter : Bœuf haché"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:mixed_salad"
+			id: "290866DE15895040"
+			optional: true
+			rewards: [{
+				id: "74931B7B109C34EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F0040D39BBFB6DE"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			title: "Goûter : Salade composée"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:mushroom_rice"
+			id: "355FD87567B8A8EB"
+			optional: true
+			rewards: [{
+				id: "0FBD2826E036A90E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FAED84644960B02"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			title: "Goûter : Riz aux champignons"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:mutton_chops"
+			id: "0803E525D769B333"
+			optional: true
+			rewards: [{
+				id: "72E060C101678A4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3BFF919A255DB13A"
+				item: "farmersdelight:mutton_chops"
+				type: "item"
+			}]
+			title: "Goûter : Côtelettes de mouton crues"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:mutton_wrap"
+			id: "06CF3502F5AFD8AA"
+			optional: true
+			rewards: [{
+				id: "7679D2A8F64775B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1BAAB9F662914BED"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			title: "Goûter : Wrap de mouton"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:noodle_soup"
+			id: "5BBFAD7304F388C4"
+			optional: true
+			rewards: [{
+				id: "3711274946BFF5D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "064EA555622E5C8C"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			title: "Goûter : Soupe de nouilles"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:onion_soup"
+			id: "2999C0B3FD05C6BF"
+			optional: true
+			rewards: [{
+				id: "733362691BBECAC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3309D8516CAC9DC0"
+				item: "farmersdelight:onion_soup"
+				type: "item"
+			}]
+			title: "Goûter : « Onion Soup »"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:pasta_with_meatballs"
+			id: "5ABB5BDBA9D33AB8"
+			optional: true
+			rewards: [{
+				id: "429297CA37BFBC8F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D44DC5ED3CB7400"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			title: "Goûter : Spaghettis bolognaise"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:pasta_with_mutton_chop"
+			id: "66FC0F32FBC84E66"
+			optional: true
+			rewards: [{
+				id: "2CBD66E1402113F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34266D9209B108FA"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			title: "Goûter : Spaghettis à l'agneau"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:pumpkin_pie_slice"
+			id: "6BC8951944F696B7"
+			optional: true
+			rewards: [{
+				id: "47CE62CE653D1145"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40864F3DFE96D3BF"
+				item: "farmersdelight:pumpkin_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Slice of Pumpkin Pie »"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:pumpkin_soup"
+			id: "44C8E92F78055669"
+			optional: true
+			rewards: [{
+				id: "1EC7ECF7169C29EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72E6225933289314"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			title: "Goûter : Soupe de citrouille"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:ratatouille"
+			id: "2AEC17BA45181B47"
+			optional: true
+			rewards: [{
+				id: "71A98802FBBAC7B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52746CC8AA1E425C"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			title: "Goûter : Ratatouille"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:rice_roll_medley_block"
+			id: "0EB553B561021A9E"
+			optional: true
+			rewards: [{
+				id: "68F4EFB3D1050630"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05CCA4EE935319D4"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			title: "Goûter : Assortiment de rouleaux de riz"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:roast_chicken_block"
+			id: "3E22E88B46B1D19D"
+			optional: true
+			rewards: [{
+				id: "0112886D8C8442C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3AF4EB6546D6352B"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			title: "Goûter : Poulet rôti"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:roasted_mutton_chops"
+			id: "37E9921E6BE0F08E"
+			optional: true
+			rewards: [{
+				id: "41FC2ABA4079982C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CB02319330A11DB"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			title: "Goûter : Côtelettes de mouton rôties"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:salmon_roll"
+			id: "280DCD03AFE5F7C3"
+			optional: true
+			rewards: [{
+				id: "3055705270FFB27A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47BF27855D145741"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			title: "Goûter : Roulés au saumon"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:salmon_slice"
+			id: "0977D3E43911EAD4"
+			optional: true
+			rewards: [{
+				id: "2325A2F9132D63F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "319E5A04B03B996D"
+				item: "farmersdelight:salmon_slice"
+				type: "item"
+			}]
+			title: "Goûter : Filet de saumon cru"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:shepherds_pie_block"
+			id: "456A3ED30C9488DD"
+			optional: true
+			rewards: [{
+				id: "72ADF45D74F9292F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "534145CB90D0D814"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			title: "Goûter : Pâté chinois"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:squid_ink_pasta"
+			id: "6BB126A2D626B06A"
+			optional: true
+			rewards: [{
+				id: "6E87E02A3AA1C558"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E013CA1A61A02E9"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			title: "Goûter : Pâtes à l'encre de seiche"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:steak_and_potatoes"
+			id: "39C5C0D6FBFC0866"
+			optional: true
+			rewards: [{
+				id: "0ABA870E9CB33B1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "602AD59B729530A2"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			title: "Goûter : Steak et pommes de terre"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:stuffed_potato"
+			id: "7B5F84A8A24CC079"
+			optional: true
+			rewards: [{
+				id: "4DCC6CF932276115"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6051FEDE99AB51CA"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			title: "Goûter : Pomme de terre farcie"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:stuffed_pumpkin_block"
+			id: "6DE6F85DBF77FC8A"
+			optional: true
+			rewards: [{
+				id: "7FB20869D01EF6E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6467DBB1A7ED8A51"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "Goûter : Citrouille farcie"
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:sweet_berry_cheesecake"
+			id: "535ADC5D4FF88C84"
+			optional: true
+			rewards: [{
+				id: "1B41E2E403B35786"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C036BAB2ED5DC0F"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			title: "Goûter : Cheesecake aux fruits rouges"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:sweet_berry_cheesecake_slice"
+			id: "046A0698341E9FA0"
+			optional: true
+			rewards: [{
+				id: "48C402393F04E4B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5526245BB96C9A29"
+				item: "farmersdelight:sweet_berry_cheesecake_slice"
+				type: "item"
+			}]
+			title: "Goûter : Part de gâteau de baies sucrées"
+			x: 15.0d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:sweet_berry_cookie"
+			id: "0B2640DBAE5B1C95"
+			optional: true
+			rewards: [{
+				id: "5D7BE76CCA89FAE8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B7A4FDF32D89FF9"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			title: "Goûter : Cookie aux baies sucrées"
+			x: 16.5d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:vegetable_noodles"
+			id: "5BCD9B388A1E316E"
+			optional: true
+			rewards: [{
+				id: "0703E1EB3C9D1AC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7077B16371E8DA65"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			title: "Goûter : Nouilles aux légumes"
+			x: 18.0d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bFarmer's Delight&r."]
+			icon: "farmersdelight:vegetable_soup"
+			id: "45790BB1105CD29D"
+			optional: true
+			rewards: [{
+				id: "2C02AA2A1FE61296"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E898273532138D3"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			title: "Goûter : Soupe de légumes"
+			x: 19.5d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bMy Nether's Delight&r."]
+			icon: "mynethersdelight:cooked_loin"
+			id: "32880C0FF912844C"
+			optional: true
+			rewards: [{
+				id: "009F2EC873514E7B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47E88661A73A0562"
+				item: "mynethersdelight:cooked_loin"
+				type: "item"
+			}]
+			title: "Goûter : « Cooked Loin »"
+			x: 21.0d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bMy Nether's Delight&r."]
+			icon: "mynethersdelight:hoglin_loin"
+			id: "16180DEB2CE31911"
+			optional: true
+			rewards: [{
+				id: "75761CF326ECE6BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2083057F7A5BC6CC"
+				item: "mynethersdelight:hoglin_loin"
+				type: "item"
+			}]
+			title: "Goûter : « Hoglin Loin »"
+			x: 22.5d
+			y: 3.75d
+		}
+		{
+			description: ["Un plat de &bMy Nether's Delight&r."]
+			icon: "mynethersdelight:hoglin_sausage"
+			id: "7A02CB793E4B318B"
+			optional: true
+			rewards: [{
+				id: "7D37FFF4FFC2765D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40A40A5A338F544C"
+				item: "mynethersdelight:hoglin_sausage"
+				type: "item"
+			}]
+			title: "Goûter : « Hoglin Sausage »"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bMy Nether's Delight&r."]
+			icon: "mynethersdelight:roasted_sausage"
+			id: "1B7BCA0AB714BF42"
+			optional: true
+			rewards: [{
+				id: "2F4623F7D84C41A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1CDE9A9DB16F33B2"
+				item: "mynethersdelight:roasted_sausage"
+				type: "item"
+			}]
+			title: "Goûter : « Roasted Sausage »"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:aurora_cake_slice"
+			id: "3744A66AA1347EF1"
+			optional: true
+			rewards: [{
+				id: "5C72962C660DA864"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "696F7599005F0C27"
+				item: "twilightdelight:aurora_cake_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Aurora Cake Slice »"
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:aurora_ice_cream"
+			id: "1A788DB664CA1E49"
+			optional: true
+			rewards: [{
+				id: "0E8B805E43AA9570"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40EA0A639BBD6A77"
+				item: "twilightdelight:aurora_ice_cream"
+				type: "item"
+			}]
+			title: "Goûter : « Aurora Ice Cream »"
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:aurora_milkshake"
+			id: "0A1D81BB3D5B600B"
+			optional: true
+			rewards: [{
+				id: "268527DDB14858BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "588B0E49600C57FA"
+				item: "twilightdelight:aurora_milkshake"
+				type: "item"
+			}]
+			title: "Goûter : « Aurora Milkshake »"
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:aurora_pie"
+			id: "49F0BED6FD7D1976"
+			optional: true
+			rewards: [{
+				id: "19645FBD4A513A5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33EFABF765D55D08"
+				item: "twilightdelight:aurora_pie"
+				type: "item"
+			}]
+			title: "Goûter : « Aurora Pie »"
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:aurora_pie_slice"
+			id: "1F36D7D7A9AFD4B6"
+			optional: true
+			rewards: [{
+				id: "3A3BC6E860AB67F3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B918A276051ADB4"
+				item: "twilightdelight:aurora_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Aurora Pie Slice »"
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:chocolate_wafer"
+			id: "4B91231A0FA477AC"
+			optional: true
+			rewards: [{
+				id: "64EEA171707750AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A2BA022505BBD50"
+				item: "twilightdelight:chocolate_wafer"
+				type: "item"
+			}]
+			title: "Goûter : « Chocolate Wafer »"
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:cooked_venison_rib"
+			id: "03A2898E87882932"
+			optional: true
+			rewards: [{
+				id: "578A7919C79A3CEC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45F5824778CB807E"
+				item: "twilightdelight:cooked_venison_rib"
+				type: "item"
+			}]
+			title: "Goûter : « Cooked Venison Rib »"
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:glacier_cake_slice"
+			id: "6CB71712F7D4CBE6"
+			optional: true
+			rewards: [{
+				id: "01AFC716104ADA42"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61F6E29707133264"
+				item: "twilightdelight:glacier_cake_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Glacier Cake Slice »"
+			x: 13.5d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:glacier_ice_cream"
+			id: "55BD0596807E340A"
+			optional: true
+			rewards: [{
+				id: "679CA134580A4638"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AF528CFDB7DCDBC"
+				item: "twilightdelight:glacier_ice_cream"
+				type: "item"
+			}]
+			title: "Goûter : « Glacier Ice Cream »"
+			x: 15.0d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:glacier_milkshake"
+			id: "103B6DE0FFC0C973"
+			optional: true
+			rewards: [{
+				id: "565576AE059AADBD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A596489F99E3E35"
+				item: "twilightdelight:glacier_milkshake"
+				type: "item"
+			}]
+			title: "Goûter : « Glacier Milkshake »"
+			x: 16.5d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:naga_chip"
+			id: "70AF056ECE06FB6E"
+			optional: true
+			rewards: [{
+				id: "5B15260849F6AE08"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B36B9E5C6A2414D"
+				item: "twilightdelight:naga_chip"
+				type: "item"
+			}]
+			title: "Goûter : « Naga Chip »"
+			x: 18.0d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:phytochemical_cake_slice"
+			id: "23278B8EF7D02B37"
+			optional: true
+			rewards: [{
+				id: "7D49E917D31C991D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7653A7A5918AEE33"
+				item: "twilightdelight:phytochemical_cake_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Phytochemical Cake Slice »"
+			x: 19.5d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:phytochemical_ice_cream"
+			id: "309E4F3388C85E8F"
+			optional: true
+			rewards: [{
+				id: "3C36B6F15A3135D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "315A36CB71C62A43"
+				item: "twilightdelight:phytochemical_ice_cream"
+				type: "item"
+			}]
+			title: "Goûter : « Phytochemical Ice Cream »"
+			x: 21.0d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:phytochemical_milkshake"
+			id: "647EF7D3B1A38D40"
+			optional: true
+			rewards: [{
+				id: "4EB662FE0EE76C8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6821568A9FC3E927"
+				item: "twilightdelight:phytochemical_milkshake"
+				type: "item"
+			}]
+			title: "Goûter : « Phytochemical Milkshake »"
+			x: 22.5d
+			y: 5.25d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:rainbow_ice_cream"
+			id: "1F7A79BBA45F13D5"
+			optional: true
+			rewards: [{
+				id: "5791DFC6EBBAEAF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A4CEAD6E762086A"
+				item: "twilightdelight:rainbow_ice_cream"
+				type: "item"
+			}]
+			title: "Goûter : « Rainbow Ice Cream »"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:raw_venison_rib"
+			id: "7B55C5009DBC58BE"
+			optional: true
+			rewards: [{
+				id: "3BEBF49BC66DA3B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6015E5EA93329DA3"
+				item: "twilightdelight:raw_venison_rib"
+				type: "item"
+			}]
+			title: "Goûter : « Raw Venison Rib »"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:refreshing_ice_cream"
+			id: "20A574C765275333"
+			optional: true
+			rewards: [{
+				id: "20E33BA018C0E403"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54A8668CCD22EBD8"
+				item: "twilightdelight:refreshing_ice_cream"
+				type: "item"
+			}]
+			title: "Goûter : « Refreshing Ice Cream »"
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:torchberry_cake_slice"
+			id: "3A0984596FDD86A7"
+			optional: true
+			rewards: [{
+				id: "18F123AD9FF70EBD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50A9A9525910321D"
+				item: "twilightdelight:torchberry_cake_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Torchberry Cake Slice »"
+			x: 4.5d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:torchberry_cookie"
+			id: "3AE0FB3F22D959EC"
+			optional: true
+			rewards: [{
+				id: "3F3C77D2B50B321E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C0792B5806F6AFA"
+				item: "twilightdelight:torchberry_cookie"
+				type: "item"
+			}]
+			title: "Goûter : « Torchberry Cookie »"
+			x: 6.0d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:torchberry_ice_cream"
+			id: "2814C3CEC9D26191"
+			optional: true
+			rewards: [{
+				id: "60E27C46F4FF3132"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21EB1CDFC894132F"
+				item: "twilightdelight:torchberry_ice_cream"
+				type: "item"
+			}]
+			title: "Goûter : « Torchberry Ice Cream »"
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:torchberry_milkshake"
+			id: "19BF49DF2EA1C26D"
+			optional: true
+			rewards: [{
+				id: "7621256A49C1C8D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F45A13703D33F95"
+				item: "twilightdelight:torchberry_milkshake"
+				type: "item"
+			}]
+			title: "Goûter : « Torchberry Milkshake »"
+			x: 9.0d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:torchberry_pie"
+			id: "2310087CA42535BD"
+			optional: true
+			rewards: [{
+				id: "0371DF0152E3F984"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06A091378E974D80"
+				item: "twilightdelight:torchberry_pie"
+				type: "item"
+			}]
+			title: "Goûter : « Torchberry Pie »"
+			x: 10.5d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:torchberry_pie_slice"
+			id: "5CED5CC31D630F62"
+			optional: true
+			rewards: [{
+				id: "23EC582703DD956C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D89E21AE754B993"
+				item: "twilightdelight:torchberry_pie_slice"
+				type: "item"
+			}]
+			title: "Goûter : « Torchberry Pie Slice »"
+			x: 12.0d
+			y: 6.75d
+		}
+		{
+			description: ["Un plat de &bTwilight's Flavor & Delight&r."]
+			icon: "twilightdelight:twilight_ice_cream"
+			id: "3942F661FABBB5E9"
+			optional: true
+			rewards: [{
+				id: "59316D2B379850CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D2468E1AEB43BE2"
+				item: "twilightdelight:twilight_ice_cream"
+				type: "item"
+			}]
+			title: "Goûter : « Twilight Ice Cream »"
+			x: 13.5d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"6C06DF4C08926B0E"
+				"67220470874BDCB5"
+				"71AEE43C3D6A2C88"
+				"69572F1BF81AB7BE"
+				"41229448FEFD175C"
+				"528C5C5E17BC832A"
+				"7153FF2B682F3804"
+				"106BB877AEB09466"
+				"2AA4605A50B012C7"
+				"55B74953F6A0B34E"
+				"3DED62205191EED7"
+				"1C9733F2BE23867D"
+				"12700176C895BACE"
+				"5BCB6CFF4D482113"
+				"788196695530BEB7"
+				"3EA903981C13A1CA"
+				"523DA60332A509D5"
+				"4B26F2136C9CD1BD"
+				"4F19FB7EE3E931C8"
+				"7622F25F8892B66F"
+				"73686CB90AABEF40"
+				"31FD1C7CA811F9D9"
+				"30AC53FC5F856FC6"
+				"7CA8016016F71EC4"
+				"117B54B30AC4D642"
+				"3840BA88150E10FF"
+				"7F2BA24DE9B22E5C"
+				"4BC401A2DD8BFF59"
+				"27BED8D97EB0D663"
+				"38ACA8197B17212F"
+				"70191F5558A08AD4"
+				"0D8507B849D2F17C"
+				"2029A8F134EE72A6"
+				"1F832E472EBB8025"
+				"751703A1461A84FC"
+				"3729E2FAD0450E96"
+				"2F10CF0F8C824666"
+				"47C5A370901CD43B"
+				"22DC6485DF84BB4F"
+				"52D38CBA01B3A679"
+				"670EFDF737696595"
+				"47EF31DF1CB04B68"
+				"2B5CFFD3C86B2540"
+				"0A2773E0A3CF7EBB"
+				"0983653402EC5C1E"
+				"086B7A94F12A1934"
+				"2EC189A5D12C633C"
+				"115389183D80FB35"
+				"0D017D03E37F206A"
+				"297B592D6703842B"
+				"1876A95BBF0E4A92"
+				"683479F6DCF5961D"
+				"0E7D9118307CA217"
+				"05D0F7747A23D8AD"
+				"2333ABC6F5A92835"
+				"76083AC385DC0AAB"
+				"46ED6E240BD0DF05"
+				"0EF96A231ED411DA"
+				"5E5EADA530D523EA"
+				"7D19A978DD1ABF56"
+				"30390BEE3DFF7F06"
+				"6B8FFA2FBB736C0B"
+				"61CF36E448B8FD60"
+				"51A6D0A8F423EF4C"
+				"6490BE695A70BB77"
+				"2872AB0C35ADE039"
+				"5E8BEE95451967D2"
+				"3399030EB055E672"
+				"105413D9CC7339FB"
+				"28891DC8E8674F93"
+				"00ACC6C04ECE2F44"
+				"1D864B300F893972"
+				"319C0CAD14A4724B"
+				"1E1853C906B87ED7"
+				"4FBC434B1582F9D5"
+				"2A25F69335CDE875"
+				"07585CAD4BD3C4A2"
+				"2846891E952D5EFD"
+				"5E8543BE59B4F639"
+				"0549BADA9511E4FA"
+				"5C2D8F638D18A192"
+				"1B3A0FF1A1E29227"
+				"00D9EE6268DB58A7"
+				"6474215182767BAF"
+				"6B5FFD10495FBBB4"
+				"7B8C206CD5CA6F15"
+				"034995E348F90111"
+				"5CDF4A388FDEEFDF"
+				"1F64A48C402DCD0E"
+				"2B93E7AF8DBA8958"
+				"7DAA627C598E91D1"
+				"1749ACD1D0535295"
+				"1B35A723C7B5D723"
+				"27232472158D1C41"
+				"3D31726F5FB11F69"
+				"70348D0A76F199C9"
+				"49D390E7A1EC9489"
+				"5E9C6530603377A5"
+				"59F16D639990E001"
+				"7750059D1755683C"
+				"290866DE15895040"
+				"355FD87567B8A8EB"
+				"0803E525D769B333"
+				"06CF3502F5AFD8AA"
+				"5BBFAD7304F388C4"
+				"2999C0B3FD05C6BF"
+				"5ABB5BDBA9D33AB8"
+				"66FC0F32FBC84E66"
+				"6BC8951944F696B7"
+				"44C8E92F78055669"
+				"2AEC17BA45181B47"
+				"0EB553B561021A9E"
+				"3E22E88B46B1D19D"
+				"37E9921E6BE0F08E"
+				"280DCD03AFE5F7C3"
+				"0977D3E43911EAD4"
+				"456A3ED30C9488DD"
+				"6BB126A2D626B06A"
+				"39C5C0D6FBFC0866"
+				"7B5F84A8A24CC079"
+				"6DE6F85DBF77FC8A"
+				"535ADC5D4FF88C84"
+				"046A0698341E9FA0"
+				"0B2640DBAE5B1C95"
+				"5BCD9B388A1E316E"
+				"45790BB1105CD29D"
+				"32880C0FF912844C"
+				"16180DEB2CE31911"
+				"7A02CB793E4B318B"
+				"1B7BCA0AB714BF42"
+				"3744A66AA1347EF1"
+				"1A788DB664CA1E49"
+				"0A1D81BB3D5B600B"
+				"49F0BED6FD7D1976"
+				"1F36D7D7A9AFD4B6"
+				"4B91231A0FA477AC"
+				"03A2898E87882932"
+				"6CB71712F7D4CBE6"
+				"55BD0596807E340A"
+				"103B6DE0FFC0C973"
+				"70AF056ECE06FB6E"
+				"23278B8EF7D02B37"
+				"309E4F3388C85E8F"
+				"647EF7D3B1A38D40"
+				"1F7A79BBA45F13D5"
+				"7B55C5009DBC58BE"
+				"20A574C765275333"
+				"3A0984596FDD86A7"
+				"3AE0FB3F22D959EC"
+				"2814C3CEC9D26191"
+				"19BF49DF2EA1C26D"
+				"2310087CA42535BD"
+				"5CED5CC31D630F62"
+				"3942F661FABBB5E9"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "farmersdelight:beef_stew"
+			id: "15ED78286AC69746"
+			optional: true
+			rewards: [{
+				id: "25F593354CAEB4DE"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3F81B9548609388B"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Gastronomie"
+}
