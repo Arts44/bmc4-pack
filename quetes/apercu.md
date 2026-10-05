@@ -5,7 +5,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 
 ## Agriculture et élevage  (`bases_agriculture`, 23 quêtes)
 
-- **Du champ à l'étable** — tâches : checkmark Lu — récompense : item minecraft:bone_meal 16
+- **Du champ à l'étable** — tâches : checkmark Lu — récompense : item minecraft:oak_sapling 4
   > Chaque culture, chaque bête, et les saisons qui décident de ce qui pousse. Le sol labouré à la houe reçoit les graines ; l'eau à quatre blocs le garde humide.
 - **Semer** — tâches : advancement minecraft:husbandry/plant_seed — récompense : xp 2 — après : intro
   > Planter une graine (progrès vanilla). Les graines de blé viennent des hautes herbes.
@@ -107,7 +107,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 
 ## Archéologie  (`bases_archeologie`, 11 quêtes)
 
-- **Ce que le sable cache** — tâches : checkmark Lu — récompense : item minecraft:brush
+- **Ce que le sable cache** — tâches : checkmark Lu — récompense : item minecraft:copper_ingot 4
   > Un pinceau, du sable suspect, et des tessons qui racontent. Le renifleur dort dans un œuf sous les ruines.
 - **Un pinceau** — tâches : item minecraft:brush, item minecraft:suspicious_sand — récompense : xp 2 — après : intro
   > Plume, lingot de cuivre, bâton. Le sable suspect est dans les temples du désert, les puits du désert et les ruines océaniques chaudes ; le gravier suspect dans les ruines de sentier et les ruines océaniques froides. Il tombe comme du sable : on le brosse par le haut ou de côté.
@@ -268,7 +268,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 
 ## Redstone  (`bases_redstone`, 17 quêtes)
 
-- **De la torche au comparateur** — tâches : checkmark Lu — récompense : item minecraft:redstone 32
+- **De la torche au comparateur** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 4
   > Un guide pas à pas. Sur ce serveur, Alternate Current calcule la poudre de redstone plus vite que le jeu de base : les grands circuits pèsent moins sur le tick. Les règles ne changent pas.
 - **Poudre et torche** — tâches : item minecraft:redstone 16, item minecraft:redstone_torch 2 — récompense : xp 2 — après : intro
   > La poudre porte le signal sur quinze blocs. La torche est une source, et s'éteint si le bloc qui la porte est alimenté : c'est un inverseur.
