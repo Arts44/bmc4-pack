@@ -1,0 +1,259 @@
+# Chapitre « Agriculture et élevage » — cahier des charges §9.1.1
+# R0 partout, R1 à l'ouverture. Sources (5 octobre 2026) : objets et
+# progrès vanilla de l'index (plant_seed, breed_an_animal, bred_all_animals,
+# balanced_diet, safely_harvest_honey, wax_on, tame_an_animal, silk_touch_nest),
+# fertility.toml du serveur (cultures de saison, infobulle), Just Enough
+# Breeding (onglet Reproduction de JEI). Les cultures de Farmer's Delight
+# sont au chapitre Cuisine.
+
+[chapitre]
+titre = "&aAgriculture et élevage"
+fichier = "bases_agriculture"
+groupe = "bases"
+icone = "minecraft:wheat"
+ordre = 1
+
+[[quete]]
+cle = "intro"
+titre = "&aDu champ à l'étable"
+taille = 1.5
+icone = "minecraft:iron_hoe"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:oak_sapling 4"]
+description = """
+Chaque culture, chaque bête, et les saisons qui décident de ce qui pousse. Le sol labouré à la houe reçoit les graines ; l'eau à quatre blocs le garde humide.
+"""
+
+[[quete]]
+cle = "semer"
+titre = "Semer"
+deps = ["intro"]
+taches = ["advancement minecraft:husbandry/plant_seed"]
+recompenses = ["xp 2"]
+description = """
+Planter une graine (progrès vanilla). Les graines de blé viennent des hautes herbes.
+"""
+
+[[quete]]
+cle = "ble"
+titre = "Le blé"
+deps = ["semer"]
+taches = ["item minecraft:wheat 16"]
+recompenses = ["xp 2"]
+description = """
+Pain, gâteau, et de quoi attirer vaches, moutons et chèvres.
+"""
+
+[[quete]]
+cle = "racines"
+titre = "Carottes, pommes de terre, betteraves"
+deps = ["semer"]
+taches = ["item minecraft:carrot 8", "item minecraft:potato 8", "item minecraft:beetroot 8"]
+recompenses = ["xp 3"]
+description = """
+Dans les villages ou sur les zombies. La pomme de terre se cuit ; la betterave fait une soupe.
+"""
+
+[[quete]]
+cle = "courges"
+titre = "Melons et citrouilles"
+deps = ["semer"]
+optionnel = true
+taches = ["item minecraft:melon_slice 9", "item minecraft:pumpkin 2"]
+recompenses = ["xp 2"]
+description = """
+La tige donne une courge à côté d'elle, et repousse.
+"""
+
+[[quete]]
+cle = "canne"
+titre = "Canne à sucre et bambou"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:sugar_cane 16", "item minecraft:bamboo 16"]
+recompenses = ["xp 2"]
+description = """
+La canne au bord de l'eau, sur sable ou terre ; le bambou pousse partout et vite.
+"""
+
+[[quete]]
+cle = "cacao"
+titre = "Du cacao"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:cocoa_beans 8"]
+recompenses = ["xp 2"]
+description = """
+Sur les troncs de la jungle. Pour les cookies et la teinture brune.
+"""
+
+[[quete]]
+cle = "baies"
+titre = "Baies sucrées et baies lumineuses"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:sweet_berries 8", "item minecraft:glow_berries 8"]
+recompenses = ["xp 2"]
+description = """
+Les baies sucrées piquent, les baies lumineuses éclairent et pendent des plafonds des grottes luxuriantes.
+"""
+
+[[quete]]
+cle = "champignons"
+titre = "Champignons et verrues"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:red_mushroom 4", "item minecraft:brown_mushroom 4", "item minecraft:nether_wart 8"]
+recompenses = ["xp 2"]
+description = """
+Les champignons dans l'ombre ; la verrue du Nether sur du sable des âmes, forteresses et bastions.
+"""
+
+[[quete]]
+cle = "fleurs_anciennes"
+titre = "Torchfleur et plante-pichet"
+deps = ["intro"]
+optionnel = true
+taches = ["item minecraft:torchflower_seeds", "item minecraft:pitcher_pod"]
+recompenses = ["xp 5"]
+description = """
+Les graines que le &lrenifleur&r déterre (chapitre &aArchéologie&r).
+"""
+
+[[quete]]
+cle = "saisons"
+titre = "Semer en saison"
+deps = ["semer"]
+taches = ["checkmark Infobulle lue"]
+recompenses = ["xp 2"]
+description = """
+Chaque culture a ses saisons fertiles, dans son &linfobulle&r (Serene Seasons, config du serveur). Hors saison, elle pousse lentement. Sous Y 48, toute l'année.
+"""
+
+[[quete]]
+cle = "composteur"
+titre = "Le composteur"
+deps = ["intro"]
+taches = ["item minecraft:composter", "item minecraft:bone_meal 16"]
+recompenses = ["xp 2"]
+description = """
+Graines, feuilles, restes de récolte : sept couches font une poudre d'os. La poudre d'os fait pousser d'un coup.
+"""
+
+# ---- élevage
+[[quete]]
+cle = "elever"
+titre = "Première portée"
+deps = ["intro"]
+taches = ["advancement minecraft:husbandry/breed_an_animal"]
+recompenses = ["xp 2"]
+description = """
+Deux bêtes nourries de ce qu'elles aiment (progrès vanilla). L'onglet &lReproduction&r de JEI (Just Enough Breeding) le dit pour chaque espèce, mods compris.
+"""
+
+[[quete]]
+cle = "vaches"
+titre = "Vaches et moutons"
+deps = ["elever"]
+taches = ["item minecraft:milk_bucket", "item minecraft:white_wool 8"]
+recompenses = ["xp 2"]
+description = """
+Le lait au seau soigne les effets ; la laine à la cisaille repousse.
+"""
+
+[[quete]]
+cle = "poules"
+titre = "Poules"
+deps = ["elever"]
+taches = ["item minecraft:egg 8"]
+recompenses = ["xp 2"]
+description = """
+Un œuf lancé peut donner un poussin.
+"""
+
+[[quete]]
+cle = "cochons"
+titre = "Cochons et chèvres"
+deps = ["elever"]
+optionnel = true
+taches = ["item minecraft:carrot_on_a_stick", "item minecraft:goat_horn"]
+recompenses = ["xp 3"]
+description = """
+Un cochon se monte avec une selle et se dirige à la carotte au bout d'un bâton. La chèvre perd sa corne en chargeant un bloc dur.
+"""
+
+[[quete]]
+cle = "chevaux"
+titre = "Chevaux, ânes, mules"
+deps = ["elever"]
+optionnel = true
+taches = ["item minecraft:saddle", "item minecraft:lead"]
+recompenses = ["xp 3"]
+description = """
+Apprivoiser en montant jusqu'à ce qu'il cède ; une selle, et la laisse pour le ramener. L'âne porte un coffre.
+"""
+
+[[quete]]
+cle = "apprivoiser"
+titre = "Apprivoiser"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement minecraft:husbandry/tame_an_animal"]
+recompenses = ["xp 2"]
+description = """
+Loup à l'os, chat au poisson, perroquet aux graines (progrès vanilla). L'armure de loup est au chapitre &aFaune&r.
+"""
+
+[[quete]]
+cle = "abeilles"
+titre = "Les abeilles"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement minecraft:husbandry/safely_harvest_honey"]
+recompenses = ["xp 3"]
+description = """
+Un feu de camp sous la ruche, et le miel se récolte sans piqûre (progrès vanilla). Le rayon cire le cuivre (progrès « Wax On »).
+"""
+
+[[quete]]
+cle = "nid"
+titre = "Déplacer un nid"
+deps = ["abeilles"]
+optionnel = true
+taches = ["advancement minecraft:husbandry/silk_touch_nest"]
+recompenses = ["xp 3"]
+description = """
+Un nid avec ses trois abeilles, à la soie (progrès vanilla).
+"""
+
+[[quete]]
+cle = "regime"
+titre = "Régime équilibré"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement minecraft:husbandry/balanced_diet"]
+recompenses = ["xp 10"]
+description = """
+Manger tout ce qui se mange en vanilla, même ce qui ne fait pas de bien (progrès vanilla).
+"""
+
+[[quete]]
+cle = "toutes"
+titre = "&aDeux par deux"
+deps = ["elever"]
+optionnel = true
+taille = 1.3
+taches = ["advancement minecraft:husbandry/bred_all_animals"]
+recompenses = ["xp 20"]
+description = """
+Chaque espèce vanilla qui se reproduit (progrès vanilla).
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&aFermier"
+deps = ["ble", "racines", "vaches", "composteur"]
+taille = 1.3
+icone = "minecraft:hay_block"
+taches = ["checkmark Ma ferme nourrit la faction"]
+recompenses = ["xp 5"]
