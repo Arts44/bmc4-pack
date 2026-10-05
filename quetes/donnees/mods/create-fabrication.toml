@@ -261,7 +261,7 @@ titre = "&bL'usine tourne"
 deps = ["bras", "vapeur"]
 taille = 1.5
 icone = "create:mechanical_arm"
-taches = ["checkmark Mon usine tourne à la vapeur"]
+taches = ["advancement create:steam_engine"]
 recompenses = ["xp 10"]
 description = """
 Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, &bCreate — logistique et trains&r, fait circuler ce que l'usine produit.
@@ -271,6 +271,179 @@ Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La su
 # identifiants de l'index. Le cahier prévoyait un chapitre à part ; la
 # branche latérale ici suffit, la liste exhaustive des machines ira dans
 # l'Atelier Create de l'Encyclopédie.
+# ---- Paliers complets (BMC-89, 5 octobre 2026) : progrès du jar
+# create-1.20.1-6.0.8 (data/create/advancements, textes en_us) ; un progrès
+# remplace une case à cocher dès qu'il existe.
+[[quete]]
+cle = "tole_robuste"
+titre = "Une tôle robuste"
+deps = ["deployeur"]
+optionnel = true
+taches = ["advancement create:sturdy_sheet"]
+recompenses = ["xp 6"]
+description = """
+De l'obsidienne en poudre, raffinée en tôle robuste : la matière des boîtiers ferroviaires (progrès « The Sturdiest Rocks »).
+"""
+
+[[quete]]
+cle = "bras_dix"
+titre = "Un bras à dix sorties"
+deps = ["bras"]
+optionnel = true
+taches = ["advancement create:arm_many_targets"]
+recompenses = ["xp 8"]
+description = """
+Un bras mécanique programmé avec dix emplacements de sortie ou plus (progrès « Organize-o-Tron »).
+"""
+
+[[quete]]
+cle = "bras_bruleur"
+titre = "Un bras qui nourrit le brûleur"
+deps = ["bras", "bruleur"]
+optionnel = true
+taches = ["advancement create:arm_blaze_burner"]
+recompenses = ["xp 5"]
+description = """
+Le bras mécanique alimente le brûleur à blaze (progrès « Combust-o-Tron »).
+"""
+
+[[quete]]
+cle = "bec"
+titre = "Un bec verseur"
+deps = ["pompe"]
+optionnel = true
+taches = ["advancement create:spout"]
+recompenses = ["xp 4"]
+description = """
+Remplir un objet de fluide sous un bec verseur (progrès « Sploosh »).
+"""
+
+[[quete]]
+cle = "egouttoir"
+titre = "Un égouttoir"
+deps = ["pompe"]
+optionnel = true
+taches = ["advancement create:drain"]
+recompenses = ["xp 4"]
+description = """
+Vider un objet de son fluide dans un égouttoir (progrès « Tumble Draining »).
+"""
+
+[[quete]]
+cle = "lave_infinie"
+titre = "Pomper une mer de lave"
+deps = ["pompe"]
+optionnel = true
+taches = ["advancement create:hose_pulley_lava"]
+recompenses = ["xp 10"]
+description = """
+Une poulie à tuyau dans une étendue de lave assez grande pour compter comme infinie (progrès « Tapping the Mantle ») : du combustible sans fin.
+"""
+
+[[quete]]
+cle = "contraption_outils"
+titre = "Une contraption qui travaille"
+deps = ["chassis"]
+optionnel = true
+taches = ["advancement create:contraption_actors"]
+recompenses = ["xp 5"]
+description = """
+Une contraption avec foreuses, scies ou moissonneuses à bord (progrès « Moving with Purpose »).
+"""
+
+[[quete]]
+cle = "wagon_200"
+titre = "&6Une contraption de 200 blocs"
+deps = ["chariot"]
+optionnel = true
+forme = "diamond"
+taches = ["advancement create:cart_pickup"]
+recompenses = ["xp 12"]
+description = """
+Ramasser une contraption sur wagonnet d'au moins 200 blocs (progrès « Strong Arms »).
+"""
+
+[[quete]]
+cle = "auto_rails"
+titre = "Un wagonnet qui pose ses rails"
+deps = ["chariot"]
+optionnel = true
+taches = ["advancement create:self_deploying"]
+recompenses = ["xp 10"]
+description = """
+Une contraption sur wagonnet qui pose les rails devant elle (progrès « Self-Driving Cart »).
+"""
+
+[[quete]]
+cle = "poulie_200"
+titre = "Une poulie de 200 blocs"
+deps = ["ascenseur"]
+optionnel = true
+taches = ["advancement create:pulley_maxed"]
+recompenses = ["xp 8"]
+description = """
+Une poulie à corde déroulée sur plus de 200 blocs de profondeur (progrès « Rope to Nowhere »).
+"""
+
+[[quete]]
+cle = "vapeur_max"
+titre = "&6La vapeur à pleine puissance"
+deps = ["vapeur"]
+optionnel = true
+forme = "diamond"
+taille = 1.3
+taches = ["advancement create:steam_engine_maxed"]
+recompenses = ["xp 15"]
+description = """
+Une chaudière au niveau de puissance maximal (progrès « Full Steam ») : le moteur d'une vraie usine.
+"""
+
+[[quete]]
+cle = "usine_rails"
+titre = "&6&lUne usine à mille rails"
+deps = ["vapeur_max", "tole_robuste"]
+optionnel = true
+forme = "diamond"
+taille = 1.6
+taches = ["advancement create:track_crafting_factory"]
+recompenses = ["xp 25"]
+description = """
+Plus de mille rails sortis de la même presse mécanique (progrès « Track Factory ») : une chaîne de production à grande échelle, le sommet de la fabrication avec Create.
+"""
+
+[[quete]]
+cle = "scaphandre_netherite"
+titre = "Un scaphandre en nétherite"
+deps = ["scaphandre"]
+optionnel = true
+taches = ["advancement create:diving_suit_lava"]
+recompenses = ["xp 10"]
+description = """
+Le scaphandre en nétherite permet de tenter la plongée dans la lave (progrès « Swimming with the Striders »).
+"""
+
+[[quete]]
+cle = "canon_victoire"
+titre = "Une victoire au canon à patates"
+deps = ["canon"]
+optionnel = true
+taches = ["advancement create:potato_cannon"]
+recompenses = ["xp 4"]
+description = """
+Vaincre un ennemi au canon à patates (progrès « Fwoomp ! »).
+"""
+
+[[quete]]
+cle = "telecommande"
+titre = "Une télécommande liée"
+deps = ["intro"]
+optionnel = true
+taches = ["advancement create:linked_controller"]
+recompenses = ["xp 4"]
+description = """
+Activer un lien de redstone avec une manette liée (progrès « Remote Activation »).
+"""
+
 [[quete]]
 cle = "chassis"
 titre = "Des châssis"
