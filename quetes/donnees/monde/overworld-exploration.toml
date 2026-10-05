@@ -87,7 +87,7 @@ Le manoir des forêts sombres : évocateurs, vindicateurs, et un totem d'immort
 [[quete]]
 cle = "heros"
 titre = "Héros du village"
-deps = ["avant_poste"]
+racine = true
 taille = 1.3
 taches = ["advancement minecraft:adventure/hero_of_the_village"]
 recompenses = ["xp 10"]
@@ -109,9 +109,9 @@ Une tour d'&bIllager Invasion&r : l'Illusionniste au sommet, ses copies autour.
 [[quete]]
 cle = "theatre"
 titre = "Le théâtre du Conjurateur"
-deps = ["avant_poste"]
+racine = true
 optionnel = true
-taches = ["structure conjurer_illager:theatre"]
+taches = ["advancement conjurer_illager:find_theatre"]
 recompenses = ["xp 5"]
 description = """
 Le &5Conjurateur&r tient un théâtre dans les forêts de chênes noirs ; il apparaît sur la scène. Illusions, lapins explosifs, cartes : un spectacle qui se termine à l'épée.
@@ -239,9 +239,9 @@ description = """
 [[quete]]
 cle = "repurposed"
 titre = "Trois variantes de Repurposed Structures"
-deps = ["village"]
+racine = true
 optionnel = true
-taches = ["structure #repurposed_structures:collections/igloos", "structure #repurposed_structures:collections/witch_huts", "structure repurposed_structures:city_overworld"]
+taches = ["structure #repurposed_structures:collections/igloos", "structure #repurposed_structures:collections/witch_huts", "advancement repurposed_structures:city_overworld"]
 recompenses = ["table explorateur"]
 description = """
 &bRepurposed Structures&r redéploie les structures du jeu là où elles n'allaient pas : un igloo d'herbe, de pierre, de champignon ou de mangrove ; une cabane de sorcière de bouleau ou de taïga ; une &lcité&r de l'Overworld. Les trois valident la quête. &aTroisième jalon Explorateur.&r
@@ -285,7 +285,7 @@ Soixante-neuf biomes de &aBiomes O' Plenty&r dans le pack. Cinq à voir de ses y
 [[quete]]
 cle = "saisons"
 titre = "Passer une saison"
-deps = ["intro"]
+racine = true
 taches = ["item sereneseasons:calendar", "checkmark Une saison complète vécue"]
 recompenses = ["xp 5"]
 description = """

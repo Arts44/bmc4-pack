@@ -17,7 +17,7 @@ icone = "minecraft:cracked_stone_bricks"
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 """
 
 [[quete]]
@@ -58,7 +58,7 @@ cle = "repurposed_structures_bastion_underground"
 titre = "Visiter : « Bastion underground »"
 sous_titre = "Repurposed Structures"
 optionnel = true
-taches = ["structure repurposed_structures:bastion_underground"]
+taches = ["advancement repurposed_structures:bastion_underground"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bRepurposed Structures&r. Se génère dans : « Aspen Glade », Bayou, Tourbière, Escarpée, Forêt morte et d'autres (données du serveur).
@@ -69,7 +69,7 @@ cle = "repurposed_structures_city_nether"
 titre = "Visiter : « City nether »"
 sous_titre = "Repurposed Structures"
 optionnel = true
-taches = ["structure repurposed_structures:city_nether"]
+taches = ["advancement repurposed_structures:city_nether"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
@@ -80,7 +80,7 @@ cle = "repurposed_structures_city_overworld"
 titre = "Visiter : « City overworld »"
 sous_titre = "Repurposed Structures"
 optionnel = true
-taches = ["structure repurposed_structures:city_overworld"]
+taches = ["advancement repurposed_structures:city_overworld"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bRepurposed Structures&r. Se génère dans : Forêt de conifères, Forêt de séquoias, Jungle de bambous, Jungle, Taïga ancienne de pins et d'autres (données du serveur).
@@ -696,7 +696,7 @@ cle = "repurposed_structures_ruined_portal_end"
 titre = "Visiter : « Ruined portal end »"
 sous_titre = "Repurposed Structures"
 optionnel = true
-taches = ["structure repurposed_structures:ruined_portal_end"]
+taches = ["advancement repurposed_structures:ruined_portal_end"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).

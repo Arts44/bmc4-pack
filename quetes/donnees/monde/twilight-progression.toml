@@ -51,7 +51,7 @@ Une cour de nagastone dans la forêt. La &2Naga&r y tourne ; c'est le premier b
 [[quete]]
 cle = "naga"
 titre = "&2Vaincre la Naga"
-deps = ["cour_naga"]
+deps = ["portail"]
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -85,7 +85,7 @@ Une tour de brique dans la forêt, pleine de tomes de la mort et de boucliers. L
 [[quete]]
 cle = "liche"
 titre = "&5Vaincre la Liche"
-deps = ["tour_liche"]
+deps = ["naga"]
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -131,7 +131,7 @@ Un minotaure-champignon à la hache. Il lâche le &6Stroganoff de Meef&r : c'es
 [[quete]]
 cle = "stroganoff"
 titre = "Manger le Stroganoff de Meef"
-deps = ["minoshroom"]
+deps = ["liche"]
 taches = ["advancement twilightforest:progress_labyrinth"]
 recompenses = ["xp 10"]
 description = """
@@ -152,7 +152,7 @@ Une colline creuse dans le Marais du feu. Trois têtes, puis plus.
 [[quete]]
 cle = "hydre"
 titre = "&cVaincre l'Hydre"
-deps = ["repaire_hydre"]
+deps = ["stroganoff"]
 boss = true
 forme = "diamond"
 taille = 1.5
@@ -196,7 +196,7 @@ Gobelins chevaliers, golems de carminite, et la tombe des &7Chevaliers fantômes
 [[quete]]
 cle = "chevaliers"
 titre = "&7Vaincre les Chevaliers fantômes"
-deps = ["bastion"]
+deps = ["piedestal"]
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -230,7 +230,7 @@ Dans la forêt sombre : du towerwood, des ghastlings et ghastguards de carminit
 [[quete]]
 cle = "piege_ghast"
 titre = "Activer le piège à Ghast"
-deps = ["tour_sombre"]
+deps = ["chevaliers"]
 taches = ["advancement twilightforest:ghast_trap"]
 recompenses = ["xp 8"]
 description = """
@@ -274,7 +274,7 @@ Dans la forêt enneigée, accessible une fois la Liche vaincue. Le &fYéti Alpha
 [[quete]]
 cle = "yeti"
 titre = "&fVaincre le Yéti Alpha"
-deps = ["grotte_yeti"]
+deps = ["liche"]
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -307,7 +307,7 @@ Sur le Glacier, un palais de glace. La &bReine des Neiges&r au sommet, protégé
 [[quete]]
 cle = "reine"
 titre = "&bVaincre la Reine des Neiges"
-deps = ["palais"]
+deps = ["yeti"]
 boss = true
 forme = "diamond"
 taille = 1.5

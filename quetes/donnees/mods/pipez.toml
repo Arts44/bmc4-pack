@@ -25,7 +25,7 @@ Le fer et le verre offerts font les premiers tuyaux.
 [[quete]]
 cle = "objets"
 titre = "Des tuyaux d'objets"
-deps = ["intro"]
+racine = true
 taches = ["item pipez:item_pipe 16"]
 recompenses = ["xp 3"]
 description = """
@@ -35,7 +35,7 @@ Le &7tuyau d'objets&r relie des inventaires. Son extrémité se règle en extrac
 [[quete]]
 cle = "fluides"
 titre = "Des tuyaux de fluides"
-deps = ["intro"]
+racine = true
 taches = ["item pipez:fluid_pipe 8"]
 recompenses = ["xp 3"]
 description = """
@@ -45,7 +45,7 @@ Même logique pour les liquides : une cuve, une source de lave, un bassin Creat
 [[quete]]
 cle = "energie"
 titre = "Des tuyaux d'énergie"
-deps = ["intro"]
+racine = true
 taches = ["item pipez:energy_pipe 8"]
 recompenses = ["xp 3"]
 description = """
@@ -75,7 +75,7 @@ Une &7amélioration&r se glisse dans l'extrémité d'un tuyau : un débit plus 
 [[quete]]
 cle = "cle"
 titre = "La clé de Pipez"
-deps = ["intro"]
+racine = true
 taches = ["item pipez:wrench"]
 recompenses = ["xp 2"]
 description = """

@@ -27,7 +27,7 @@ Redstone et vitres offertes : c'est le prix d'un premier ordinateur.
 [[quete]]
 cle = "ordinateur"
 titre = "Un ordinateur"
-deps = ["intro"]
+racine = true
 taches = ["item computercraft:computer_normal"]
 recompenses = ["xp 5"]
 description = """

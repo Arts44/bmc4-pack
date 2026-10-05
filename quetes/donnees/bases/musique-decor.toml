@@ -25,7 +25,7 @@ Les disques et où ils se trouvent, les têtes, les bannières. Le chapitre &7Co
 [[quete]]
 cle = "jukebox"
 titre = "Un juke-box"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:jukebox"]
 recompenses = ["xp 2"]
 description = """
@@ -125,9 +125,9 @@ Un disque joué dans une prairie d'altitude (progrès vanilla).
 
 [[quete]]
 cle = "bloc_note"
+racine = true
 doublon_voulu = true
 titre = "Un bloc de note"
-deps = ["intro"]
 optionnel = true
 taches = ["item minecraft:note_block 4"]
 recompenses = ["xp 2"]
@@ -139,7 +139,7 @@ Le bloc dessous choisit l'instrument ; une tête dessus choisit le cri de la cr
 [[quete]]
 cle = "tetes"
 titre = "Des têtes"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:zombie_head", "item minecraft:skeleton_skull", "item minecraft:creeper_head"]
 recompenses = ["xp 8"]
@@ -151,7 +151,7 @@ Un creeper chargé (foudre, ou paratonnerre et trident Canalisation) qui explose
 [[quete]]
 cle = "banniere"
 titre = "Une bannière"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:loom", "item minecraft:white_banner"]
 recompenses = ["xp 2"]
 description = """
@@ -183,7 +183,7 @@ Sur le capitaine d'un avant-poste. La ramasser donne Mauvais présage : un raid
 [[quete]]
 cle = "etagere"
 titre = "Une étagère sculptée"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement minecraft:adventure/read_power_of_chiseled_bookshelf"]
 recompenses = ["xp 3"]
@@ -194,7 +194,7 @@ Six livres rangés, et un comparateur qui lit le dernier (progrès vanilla).
 [[quete]]
 cle = "panneau"
 titre = "Un panneau lumineux"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement minecraft:husbandry/make_a_sign_glow"]
 recompenses = ["xp 2"]

@@ -32,9 +32,9 @@ Un hexagone par boss du serveur, dans l'ordre du bot. Tout est optionnel et ne c
 [[quete]]
 cle = "ender_dragon"
 titre = "L'Ender Dragon"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill minecraft:ender_dragon"]
+taches = ["advancement minecraft:end/kill_dragon"]
 recompenses = ["xp 20"]
 
 [[quete]]
@@ -48,9 +48,9 @@ recompenses = ["xp 20"]
 [[quete]]
 cle = "warden"
 titre = "Le Warden"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill minecraft:warden"]
+taches = ["advancement deeperdarker:main/kill_warden"]
 recompenses = ["xp 20"]
 
 [[quete]]
@@ -133,41 +133,41 @@ recompenses = ["xp 15"]
 [[quete]]
 cle = "slider"
 titre = "Le Slider"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill aether:slider"]
+taches = ["advancement aether:bronze_dungeon"]
 recompenses = ["xp 10"]
 
 [[quete]]
 cle = "valkyrie_queen"
 titre = "La Reine des Valkyries"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill aether:valkyrie_queen"]
+taches = ["advancement aether:silver_dungeon"]
 recompenses = ["xp 15"]
 
 [[quete]]
 cle = "sun_spirit"
 titre = "L'Esprit du Soleil"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill aether:sun_spirit"]
+taches = ["advancement aether:gold_dungeon"]
 recompenses = ["xp 20"]
 
 [[quete]]
 cle = "aerwhale_king"
 titre = "Le Roi des aérobaleines"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill lost_aether_content:aerwhale_king"]
+taches = ["advancement lost_aether_content:platinum_dungeon"]
 recompenses = ["xp 15"]
 
 [[quete]]
 cle = "oeil_tempete"
 titre = "L'Œil de la Tempête"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill deep_aether:eots_controller"]
+taches = ["advancement deep_aether:brass_dungeon"]
 recompenses = ["xp 15"]
 description = """
 Deep Aether. Pas dans la liste du bot : sa mort n'est pas annoncée.
@@ -177,98 +177,98 @@ Deep Aether. Pas dans la liste du bot : sa mort n'est pas annoncée.
 [[quete]]
 cle = "summoner"
 titre = "L'Invocateur"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill blue_skies:summoner"]
+taches = ["advancement blue_skies:everbright/kill_summoner"]
 recompenses = ["xp 15"]
 
 [[quete]]
 cle = "alchemist"
 titre = "L'Alchimiste"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill blue_skies:alchemist"]
+taches = ["advancement blue_skies:everdawn/kill_alchemist"]
 recompenses = ["xp 15"]
 
 [[quete]]
 cle = "arachnarch"
 titre = "L'Arachnarque"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill blue_skies:arachnarch"]
+taches = ["advancement blue_skies:everdawn/kill_arachnarch"]
 recompenses = ["xp 15"]
 
 [[quete]]
 cle = "starlit_crusher"
 titre = "Le Broyeur étoilé"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill blue_skies:starlit_crusher"]
+taches = ["advancement blue_skies:everbright/kill_starlit_crusher"]
 recompenses = ["xp 15"]
 
 # ---- Cataclysm
 [[quete]]
 cle = "ignis"
 titre = "Ignis"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill cataclysm:ignis"]
+taches = ["advancement cataclysm:kill_ignis"]
 recompenses = ["xp 20"]
 
 [[quete]]
 cle = "monstrosity"
 titre = "La Monstruosité de nétherite"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill cataclysm:netherite_monstrosity"]
+taches = ["advancement cataclysm:kill_monstrosity"]
 recompenses = ["xp 20"]
 
 [[quete]]
 cle = "ender_guardian"
 titre = "Le Gardien de l'Ender"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill cataclysm:ender_guardian"]
+taches = ["advancement cataclysm:kill_ender_guardian"]
 recompenses = ["xp 20"]
 
 [[quete]]
 cle = "harbinger"
 titre = "Le Harbinger"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill cataclysm:the_harbinger"]
+taches = ["advancement cataclysm:kill_harbinger"]
 recompenses = ["xp 20"]
 
 [[quete]]
 cle = "leviathan"
 titre = "Le Léviathan"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill cataclysm:the_leviathan"]
+taches = ["advancement cataclysm:kill_leviathan"]
 recompenses = ["xp 25"]
 
 [[quete]]
 cle = "remnant"
 titre = "Le Vestige ancien"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill cataclysm:ancient_remnant"]
+taches = ["advancement cataclysm:kill_remnant"]
 recompenses = ["xp 20"]
 
 [[quete]]
 cle = "maledictus"
 titre = "Maledictus"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill cataclysm:maledictus"]
+taches = ["advancement cataclysm:kill_maledictus"]
 recompenses = ["xp 25"]
 
 [[quete]]
 cle = "scylla"
 titre = "Scylla"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill cataclysm:scylla"]
+taches = ["advancement cataclysm:kill_scylla"]
 recompenses = ["xp 25"]
 
 # ---- autres mods
@@ -334,25 +334,25 @@ Deux formes : c'est la seconde, sans armure, qui compte, comme pour le bot.
 [[quete]]
 cle = "frostmaw"
 titre = "Le Frostmaw"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill mowziesmobs:frostmaw"]
+taches = ["advancement mowziesmobs:kill_frostmaw"]
 recompenses = ["xp 15"]
 
 [[quete]]
 cle = "wroughtnaut"
 titre = "Le Wroughtnaut ferreux"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill mowziesmobs:ferrous_wroughtnaut"]
+taches = ["advancement mowziesmobs:kill_ferrous_wroughtnaut"]
 recompenses = ["xp 15"]
 
 [[quete]]
 cle = "umvuthi"
 titre = "Umvuthi"
-deps = ["intro"]
+racine = true
 optionnel = true
-taches = ["kill mowziesmobs:umvuthi"]
+taches = ["advancement mowziesmobs:kill_umvuthi"]
 recompenses = ["xp 15"]
 
 [[quete]]
@@ -369,7 +369,7 @@ Galosphere. Pas dans la liste du bot.
 [[quete]]
 cle = "void_worm"
 titre = "Le Ver du vide"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item alexsmobs:void_worm_eye"]
 recompenses = ["xp 15"]

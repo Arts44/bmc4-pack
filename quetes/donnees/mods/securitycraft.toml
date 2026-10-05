@@ -26,7 +26,7 @@ C'est le chapitre qui compte le plus pour un raid, dans les deux sens.
 [[quete]]
 cle = "clavier"
 titre = "Un clavier à code"
-deps = ["intro"]
+racine = true
 taches = ["item securitycraft:keypad"]
 recompenses = ["xp 5"]
 description = """
@@ -46,7 +46,7 @@ La &cporte à clavier&r réunit un clavier et une porte de fer renforcée : il 
 [[quete]]
 cle = "renforce"
 titre = "Des blocs renforcés"
-deps = ["intro"]
+racine = true
 taille = 1.3
 taches = ["item securitycraft:universal_block_reinforcer_lvl1", "item securitycraft:reinforced_stone 16"]
 recompenses = ["xp 8"]
@@ -57,7 +57,7 @@ Le &lrenforceur universel&r convertit les blocs vanilla en blocs renforcés : c
 [[quete]]
 cle = "laser"
 titre = "Des blocs laser"
-deps = ["intro"]
+racine = true
 taches = ["item securitycraft:laser_block 2"]
 recompenses = ["xp 5"]
 description = """
@@ -67,7 +67,7 @@ Deux &cblocs laser&r à cinq blocs au plus l'un de l'autre tendent un rayon. Qua
 [[quete]]
 cle = "camera"
 titre = "Caméra et moniteur"
-deps = ["intro"]
+racine = true
 taches = ["item securitycraft:security_camera", "item securitycraft:portable_radar"]
 recompenses = ["xp 5"]
 description = """
@@ -87,7 +87,7 @@ Deux &cscanners d'inventaire&r face à face, à deux blocs au plus, tendent un c
 [[quete]]
 cle = "mines"
 titre = "Des mines"
-deps = ["intro"]
+racine = true
 taches = ["item securitycraft:mine 4"]
 recompenses = ["xp 5"]
 description = """
@@ -107,7 +107,7 @@ La &csentinelle&r tire sur les intrus, avec des munitions illimitées, ou avec l
 [[quete]]
 cle = "detecteur"
 titre = "Un détecteur de changement de bloc"
-deps = ["intro"]
+racine = true
 taches = ["item securitycraft:block_change_detector"]
 recompenses = ["xp 3"]
 description = """
@@ -117,7 +117,7 @@ Le &cdétecteur&r enregistre les blocs posés ou cassés à cinq blocs autour de
 [[quete]]
 cle = "piege"
 titre = "Un piège à cage"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item securitycraft:cage_trap"]
 recompenses = ["xp 5"]
@@ -209,7 +209,7 @@ Elle s'allume quand un joueur passe à portée.
 [[quete]]
 cle = "panique"
 titre = "Un bouton de panique"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item securitycraft:panic_button"]
 recompenses = ["xp 2"]
@@ -297,7 +297,7 @@ Il abat les flèches et les boules de feu ennemies avant qu'elles arrivent.
 [[quete]]
 cle = "projecteur"
 titre = "Un projecteur"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item securitycraft:projector"]
 recompenses = ["xp 4"]
@@ -308,7 +308,7 @@ Il projette des blocs holographiques : de quoi cacher une entrée derrière un 
 [[quete]]
 cle = "piege_sol"
 titre = "Un piège au sol"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item securitycraft:floor_trap 4"]
 recompenses = ["xp 3"]

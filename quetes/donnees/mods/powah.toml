@@ -25,7 +25,7 @@ Tout commence par une pâte diélectrique : charbon, argile et un seau de lave.
 [[quete]]
 cle = "pate"
 titre = "De la pâte diélectrique"
-deps = ["intro"]
+racine = true
 taches = ["item powah:dielectric_paste 24"]
 recompenses = ["xp 3"]
 description = """
@@ -179,7 +179,7 @@ Une étoile du Nether, deux blocs de redstone et un bloc de cristal Blazing dans
 [[quete]]
 cle = "uraninite"
 titre = "De l'uraninite"
-deps = ["intro"]
+racine = true
 taches = ["item powah:uraninite 9"]
 recompenses = ["xp 3"]
 description = """

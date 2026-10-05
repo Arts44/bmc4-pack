@@ -26,7 +26,7 @@ L'engrais mystique offert fait pousser n'importe quelle culture d'un coup. Garde
 [[quete]]
 cle = "prosperite"
 titre = "Des éclats de prospérité"
-deps = ["intro"]
+racine = true
 taches = ["item mysticalagriculture:prosperity_shard 16"]
 recompenses = ["xp 3"]
 description = """
@@ -36,7 +36,7 @@ Le &dminerai de prospérité&r se mine dans la pierre et donne des éclats. Ils 
 [[quete]]
 cle = "inferium"
 titre = "De l'essence d'inferium"
-deps = ["intro"]
+racine = true
 taches = ["item mysticalagriculture:inferium_essence 16"]
 recompenses = ["xp 3"]
 description = """
@@ -1510,7 +1510,7 @@ Quatre éclats et quatre lingots de prospérité autour d'un diamant : la base 
 [[quete]]
 cle = "arrosoir_simple"
 titre = "Un arrosoir"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item mysticalagriculture:watering_can"]
 recompenses = ["xp 2"]

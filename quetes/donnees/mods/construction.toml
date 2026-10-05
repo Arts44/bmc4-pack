@@ -32,7 +32,7 @@ Le pack empile une vingtaine de mods de blocs et de meubles. Ce chapitre en fait
 [[quete]]
 cle = "chipped"
 titre = "Chipped : les établis"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item chipped:carpenters_table", "item chipped:mason_table"]
 recompenses = ["xp 3"]
@@ -43,7 +43,7 @@ description = """
 [[quete]]
 cle = "dawn"
 titre = "Dawn of Time : colombages et toits"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item dawnoftimebuilder:waxed_oak_timber_frame 8", "item dawnoftimebuilder:thatch_bamboo 8"]
 recompenses = ["xp 3"]
@@ -54,7 +54,7 @@ description = """
 [[quete]]
 cle = "handcrafted"
 titre = "Handcrafted : du mobilier"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item handcrafted:hammer", "item handcrafted:oak_chair", "item handcrafted:oak_table"]
 recompenses = ["xp 3"]
@@ -65,7 +65,7 @@ description = """
 [[quete]]
 cle = "another"
 titre = "Another Furniture : volets et étagères"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item another_furniture:furniture_hammer", "item another_furniture:oak_shelf", "item another_furniture:oak_shutter"]
 recompenses = ["xp 3"]
@@ -76,7 +76,7 @@ description = """
 [[quete]]
 cle = "pfm"
 titre = "Paladin's Furniture : la cuisine"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item pfm:working_table"]
 recompenses = ["xp 3"]
@@ -87,7 +87,7 @@ description = """
 [[quete]]
 cle = "decorative"
 titre = "Decorative Blocks : poutres et palissades"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item decorative_blocks:oak_beam 4", "item decorative_blocks:oak_palisade 4", "item decorative_blocks:chain 4"]
 recompenses = ["xp 3"]
@@ -98,7 +98,7 @@ description = """
 [[quete]]
 cle = "supp_atelier"
 titre = "Supplementaries : l'atelier"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item supplementaries:blackboard", "item supplementaries:notice_board", "item supplementaries:item_shelf"]
 recompenses = ["xp 3"]
@@ -142,7 +142,7 @@ description = """
 [[quete]]
 cle = "quark_bois"
 titre = "Quark : les blocs de bois"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item quark:oak_vertical_slab 4", "item quark:oak_post 4", "item quark:hollow_oak_log"]
 recompenses = ["xp 3"]
@@ -164,7 +164,7 @@ description = """
 [[quete]]
 cle = "twigs"
 titre = "Twigs : lanternes de papier"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item twigs:paper_lantern", "item twigs:oak_table", "item twigs:smooth_basalt_bricks 4"]
 recompenses = ["xp 3"]
@@ -175,7 +175,7 @@ description = """
 [[quete]]
 cle = "stoneworks"
 titre = "Stoneworks : chaque pierre, chaque forme"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item stoneworks:andesite_bricks 8", "item stoneworks:andesite_pavers 8"]
 recompenses = ["xp 3"]
@@ -186,7 +186,7 @@ description = """
 [[quete]]
 cle = "hearth"
 titre = "Hearth & Home : parquet et cheminées"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item hearth_and_home:oak_parquet 8", "item hearth_and_home:polished_blackstone_chimney"]
 recompenses = ["xp 3"]
@@ -197,7 +197,7 @@ description = """
 [[quete]]
 cle = "sawmill"
 titre = "La scie"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item sawmill:sawmill"]
 recompenses = ["xp 3"]
@@ -208,7 +208,7 @@ description = """
 [[quete]]
 cle = "elevator"
 titre = "Un ascenseur"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item elevatorid:elevator_white 2"]
 recompenses = ["xp 3"]
@@ -219,7 +219,7 @@ description = """
 [[quete]]
 cle = "galerie"
 titre = "Tableaux et cadres"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:painting", "item quark:glass_item_frame"]
 recompenses = ["xp 2"]

@@ -27,7 +27,7 @@ Trois mods de stockage, trois philosophies. &6Storage Drawers&r : des tiroirs q
 [[quete]]
 cle = "tiroir"
 titre = "Un premier tiroir"
-deps = ["intro"]
+racine = true
 taches = ["item storagedrawers:oak_full_drawers_1"]
 recompenses = ["xp 3"]
 description = """
@@ -68,7 +68,7 @@ Les &7améliorations de stockage&r (fer, or, obsidienne, diamant, émeraude, né
 [[quete]]
 cle = "maitre"
 titre = "Un maître de réseau"
-deps = ["intro"]
+racine = true
 taches = ["item storagenetwork:master"]
 recompenses = ["xp 5"]
 description = """
@@ -110,7 +110,7 @@ Le &7câble d'import&r aspire ce qui arrive dans un coffre vers le réseau — l
 [[quete]]
 cle = "rs_controleur"
 titre = "Un contrôleur Refined Storage"
-deps = ["intro"]
+racine = true
 taches = ["item refinedstorage:controller"]
 recompenses = ["xp 5"]
 description = """
@@ -184,7 +184,7 @@ L'&bémetteur sans fil&r donne une portée au réseau, et la &bgrille sans fil&r
 [[quete]]
 cle = "coffre_nether"
 titre = "Un coffre du Nether"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item netherchested:nether_chest"]
 recompenses = ["xp 5"]

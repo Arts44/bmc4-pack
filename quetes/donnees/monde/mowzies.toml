@@ -37,7 +37,7 @@ Une salle souterraine, partout sauf sous les océans (config du serveur). Le &7W
 [[quete]]
 cle = "wroughtnaut"
 titre = "&7Vaincre le Wroughtnaut ferreux"
-deps = ["chambre"]
+racine = true
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -50,7 +50,7 @@ Son armure ne cède que par derrière. Il lâche son casque et la Hache des mill
 [[quete]]
 cle = "frostmaw"
 titre = "&bVaincre le Frostmaw"
-deps = ["intro"]
+racine = true
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -73,7 +73,7 @@ Dans la savane. Les Umvuthana portent des masques (peur, rage, misère, extase, 
 [[quete]]
 cle = "umvuthi"
 titre = "&6Vaincre Umvuthi"
-deps = ["bosquet"]
+racine = true
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -96,7 +96,7 @@ Sur les pics (config du serveur). Tongbi, le &7Sculpteur&r, propose une &lépreu
 [[quete]]
 cle = "sculpteur"
 titre = "&7L'épreuve du Sculpteur"
-deps = ["monastere"]
+racine = true
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -109,7 +109,7 @@ Soixante blocs à grimper en moins de 400 secondes (config du serveur). Échouer
 [[quete]]
 cle = "foliaath"
 titre = "Un Foliaath"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement mowziesmobs:kill_foliaath"]
 recompenses = ["xp 5"]
@@ -120,7 +120,7 @@ Une plante carnivore des jungles. Sa graine se plante dans l'herbe ; le bébé 
 [[quete]]
 cle = "grottol"
 titre = "Un Grottol"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement mowziesmobs:kill_grottol"]
 recompenses = ["xp 5"]
@@ -131,7 +131,7 @@ Une créature de cristal des grottes, sous Y 16, qui fuit. À la pioche &lsoie&r
 [[quete]]
 cle = "naga"
 titre = "La Naga des Côtes rocheuses"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement mowziesmobs:kill_naga"]
 recompenses = ["xp 5"]
@@ -145,9 +145,9 @@ Sur les Côtes rocheuses seulement (liste blanche de la config du serveur). Sa d
 [[quete]]
 cle = "yeux"
 titre = "Les yeux de Cataclysm"
-deps = ["intro"]
+racine = true
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item mowzies_cataclysm:wrought_eye", "item mowzies_cataclysm:frostmaw_eye", "item mowzies_cataclysm:sun_eye", "item mowzies_cataclysm:tongbi_eye"]
 recompenses = ["xp 5"]
 description = """
@@ -214,8 +214,8 @@ Un autre Frostmaw, ailleurs dans le froid. Seul un combat mené après cette qu�
 [[quete]]
 cle = "masque"
 titre = "Un masque d'Umvuthana"
-deps = ["bosquet"]
-exigence = "une"
+racine = true
+taches_une = true
 taches = ["item mowziesmobs:umvuthana_mask_fury", "item mowziesmobs:umvuthana_mask_fear", "item mowziesmobs:umvuthana_mask_rage", "item mowziesmobs:umvuthana_mask_bliss", "item mowziesmobs:umvuthana_mask_misery", "item mowziesmobs:umvuthana_mask_faith"]
 recompenses = ["xp 5"]
 description = """
@@ -236,7 +236,7 @@ Entrer dans un bosquet d'Umvuthana déguisé (progrès du mod).
 [[quete]]
 cle = "raptor"
 titre = "Le Raptor"
-deps = ["bosquet"]
+racine = true
 taches = ["advancement mowziesmobs:kill_umvuthana_raptor"]
 recompenses = ["xp 8"]
 description = """
@@ -290,7 +290,7 @@ La récompense du défi du Sculpteur (table de butin sculptor_test du jar).
 [[quete]]
 cle = "geomancien"
 titre = "La tenue du géomancien"
-deps = ["monastere"]
+racine = true
 optionnel = true
 taches = ["item mowziesmobs:geomancer_beads", "item mowziesmobs:geomancer_robe", "item mowziesmobs:geomancer_belt", "item mowziesmobs:geomancer_sandals", "item mowziesmobs:sculptor_staff"]
 recompenses = ["xp 10"]

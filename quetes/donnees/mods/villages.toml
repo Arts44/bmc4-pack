@@ -45,7 +45,7 @@ Un village, n'importe lequel (déjà demandé au chapitre &2Overworld — explor
 [[quete]]
 cle = "echange"
 titre = "Premier échange"
-deps = ["village"]
+racine = true
 taches = ["advancement minecraft:adventure/trade"]
 recompenses = ["xp 3"]
 description = """
@@ -241,7 +241,7 @@ Un &lbac à fleurs&r, dans n'importe quel bois.
 [[quete]]
 cle = "garde"
 titre = "Recruter un garde"
-deps = ["village"]
+racine = true
 optionnel = true
 taches = ["advancement minecraft:adventure/recruit_guard"]
 recompenses = ["xp 5"]
@@ -262,7 +262,7 @@ Le &6Trading Post&r regroupe les échanges de tous les villageois à portée dan
 [[quete]]
 cle = "troc"
 titre = "Une station de troc"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item barteringstation:bartering_station"]
 recompenses = ["xp 8"]
@@ -301,7 +301,7 @@ Son cousin du Nether, entre Y 0 et 128 (config).
 [[quete]]
 cle = "exil"
 titre = "Abattre un capitaine"
-deps = ["village"]
+racine = true
 optionnel = true
 taches = ["advancement minecraft:adventure/voluntary_exile"]
 recompenses = ["xp 5"]

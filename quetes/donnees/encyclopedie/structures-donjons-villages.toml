@@ -17,7 +17,7 @@ icone = "minecraft:bell"
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 """
 
 [[quete]]
@@ -25,7 +25,7 @@ cle = "dungeons_arise_abandoned_temple"
 titre = "Visiter : « Abandoned temple »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:abandoned_temple"]
+taches = ["advancement dungeons_arise:find_abandoned_temple"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
@@ -36,7 +36,7 @@ cle = "dungeons_arise_aviary"
 titre = "Visiter : « Aviary »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:aviary"]
+taches = ["advancement dungeons_arise:find_aviary"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
@@ -47,7 +47,7 @@ cle = "dungeons_arise_bandit_towers"
 titre = "Visiter : « Bandit towers »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:bandit_towers"]
+taches = ["advancement dungeons_arise:find_bandit_towers"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
@@ -58,7 +58,7 @@ cle = "dungeons_arise_bandit_village"
 titre = "Visiter : « Bandit village »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:bandit_village"]
+taches = ["advancement dungeons_arise:find_bandit_village"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
@@ -69,7 +69,7 @@ cle = "dungeons_arise_bathhouse"
 titre = "Visiter : « Bathhouse »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:bathhouse"]
+taches = ["advancement dungeons_arise:find_bathhouse"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
@@ -80,7 +80,7 @@ cle = "dungeons_arise_ceryneian_hind"
 titre = "Visiter : « Ceryneian hind »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:ceryneian_hind"]
+taches = ["advancement dungeons_arise:find_ceryneian_hind"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur).
@@ -91,7 +91,7 @@ cle = "dungeons_arise_coliseum"
 titre = "Visiter : « Coliseum »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:coliseum"]
+taches = ["advancement dungeons_arise:find_coliseum"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
@@ -102,7 +102,7 @@ cle = "dungeons_arise_fishing_hut"
 titre = "Visiter : « Fishing hut »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:fishing_hut"]
+taches = ["advancement dungeons_arise:find_fishing_hut"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
@@ -113,7 +113,7 @@ cle = "dungeons_arise_giant_mushroom"
 titre = "Visiter : « Giant mushroom »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:giant_mushroom"]
+taches = ["advancement dungeons_arise:find_giant_mushroom"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
@@ -124,7 +124,7 @@ cle = "dungeons_arise_greenwood_pub"
 titre = "Visiter : « Greenwood pub »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:greenwood_pub"]
+taches = ["advancement dungeons_arise:find_greenwood_pub"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
@@ -135,7 +135,7 @@ cle = "dungeons_arise_illager_campsite"
 titre = "Visiter : « Illager campsite »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:illager_campsite"]
+taches = ["advancement dungeons_arise:find_illager_campsite"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Hauts plateaux, Prairie, Plaines, Plaines de tournesols, Forêt venteuse et d'autres (données du serveur).
@@ -157,7 +157,7 @@ cle = "dungeons_arise_illager_fort"
 titre = "Visiter : « Illager fort »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:illager_fort"]
+taches = ["advancement dungeons_arise:find_illager_fort"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
@@ -179,7 +179,7 @@ cle = "dungeons_arise_illager_windmill"
 titre = "Visiter : « Illager windmill »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:illager_windmill"]
+taches = ["advancement dungeons_arise:find_illager_windmill"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
@@ -190,7 +190,7 @@ cle = "dungeons_arise_infested_temple"
 titre = "Visiter : « Infested temple »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:infested_temple"]
+taches = ["advancement dungeons_arise:find_infested_temple"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
@@ -212,7 +212,7 @@ cle = "dungeons_arise_keep_kayra"
 titre = "Visiter : « Keep kayra »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:keep_kayra"]
+taches = ["advancement dungeons_arise:find_keep_kayra"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Marais à mangroves, Marais (données du serveur).
@@ -223,7 +223,7 @@ cle = "dungeons_arise_lighthouse"
 titre = "Visiter : « Lighthouse »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:lighthouse"]
+taches = ["advancement dungeons_arise:find_lighthouse"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plaines, Plage enneigée (données du serveur).
@@ -234,7 +234,7 @@ cle = "dungeons_arise_merchant_campsite"
 titre = "Visiter : « Merchant campsite »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:merchant_campsite"]
+taches = ["advancement dungeons_arise:find_merchant_campsite"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
@@ -245,7 +245,7 @@ cle = "dungeons_arise_mining_system"
 titre = "Visiter : « Mining system »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:mining_system"]
+taches = ["advancement dungeons_arise:find_mining_system"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
@@ -256,7 +256,7 @@ cle = "dungeons_arise_monastery"
 titre = "Visiter : « Monastery »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:monastery"]
+taches = ["advancement dungeons_arise:find_monasteries"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
@@ -267,7 +267,7 @@ cle = "dungeons_arise_mushroom_house"
 titre = "Visiter : « Mushroom house »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:mushroom_house"]
+taches = ["advancement dungeons_arise:find_mushroom_house"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
@@ -278,7 +278,7 @@ cle = "dungeons_arise_mushroom_mines"
 titre = "Visiter : « Mushroom mines »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:mushroom_mines"]
+taches = ["advancement dungeons_arise:find_mushroom_mines"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
@@ -289,7 +289,7 @@ cle = "dungeons_arise_mushroom_village"
 titre = "Visiter : « Mushroom village »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:mushroom_village"]
+taches = ["advancement dungeons_arise:find_mushroom_village"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
@@ -300,7 +300,7 @@ cle = "dungeons_arise_plague_asylum"
 titre = "Visiter : « Plague asylum »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:plague_asylum"]
+taches = ["advancement dungeons_arise:find_plague_asylum"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
@@ -311,7 +311,7 @@ cle = "dungeons_arise_scorched_mines"
 titre = "Visiter : « Scorched mines »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:scorched_mines"]
+taches = ["advancement dungeons_arise:find_scorched_mines"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur).
@@ -322,7 +322,7 @@ cle = "dungeons_arise_shiraz_palace"
 titre = "Visiter : « Shiraz palace »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:shiraz_palace"]
+taches = ["advancement dungeons_arise:find_shiraz_palace"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Désert (données du serveur).
@@ -333,7 +333,7 @@ cle = "dungeons_arise_thornborn_towers"
 titre = "Visiter : « Thornborn towers »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:thornborn_towers"]
+taches = ["advancement dungeons_arise:find_thornborn_towers"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
@@ -344,7 +344,7 @@ cle = "dungeons_arise_typhon"
 titre = "Visiter : « Typhon »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:typhon"]
+taches = ["advancement dungeons_arise:find_typhon"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
@@ -355,7 +355,7 @@ cle = "dungeons_arise_undead_pirate_ship"
 titre = "Visiter : « Undead pirate ship »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:undead_pirate_ship"]
+taches = ["advancement dungeons_arise:find_undead_pirate_ship"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
@@ -366,7 +366,7 @@ cle = "dungeons_arise_wishing_well"
 titre = "Visiter : « Wishing well »"
 sous_titre = "When Dungeons Arise"
 optionnel = true
-taches = ["structure dungeons_arise:wishing_well"]
+taches = ["advancement dungeons_arise:find_wishing_well"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bWhen Dungeons Arise&r. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).

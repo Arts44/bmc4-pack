@@ -17,7 +17,7 @@ icone = "minecraft:chiseled_stone_bricks"
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 """
 
 [[quete]]
@@ -80,7 +80,7 @@ cle = "adorabuild_structures_acacia_well_1"
 titre = "Visiter : « Acacia well 1 »"
 sous_titre = "AdoraBuild"
 optionnel = true
-taches = ["structure adorabuild_structures:acacia_well_1"]
+taches = ["advancement adorabuild_structures:well_well"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bAdoraBuild&r. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
@@ -146,7 +146,7 @@ cle = "adorabuild_structures_basalt_chambers_large_1"
 titre = "Visiter : « Basalt chambers large 1 »"
 sous_titre = "AdoraBuild"
 optionnel = true
-taches = ["structure adorabuild_structures:basalt_chambers_large_1"]
+taches = ["advancement adorabuild_structures:trial_by_fire"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bAdoraBuild&r. Se génère dans : « Flooded Deltas », Deltas de basalte (données du serveur).
@@ -399,7 +399,7 @@ cle = "adorabuild_structures_end_gateway_large_1"
 titre = "Visiter : « End gateway large 1 »"
 sous_titre = "AdoraBuild"
 optionnel = true
-taches = ["structure adorabuild_structures:end_gateway_large_1"]
+taches = ["advancement adorabuild_structures:into_the_sky"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
@@ -487,7 +487,7 @@ cle = "adorabuild_structures_end_temple_large_1"
 titre = "Visiter : « End temple large 1 »"
 sous_titre = "AdoraBuild"
 optionnel = true
-taches = ["structure adorabuild_structures:end_temple_large_1"]
+taches = ["advancement adorabuild_structures:eyes_of_the_void"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bAdoraBuild&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
@@ -575,7 +575,7 @@ cle = "adorabuild_structures_library_large_1"
 titre = "Visiter : « Library large 1 »"
 sous_titre = "AdoraBuild"
 optionnel = true
-taches = ["structure adorabuild_structures:library_large_1"]
+taches = ["advancement adorabuild_structures:the_power_of_knowledge"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bAdoraBuild&r. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
@@ -652,7 +652,7 @@ cle = "adorabuild_structures_mushroom_large_1"
 titre = "Visiter : « Mushroom large 1 »"
 sous_titre = "AdoraBuild"
 optionnel = true
-taches = ["structure adorabuild_structures:mushroom_large_1"]
+taches = ["advancement adorabuild_structures:fungal_detective"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bAdoraBuild&r. Se génère dans : Champs de champignons (données du serveur).
@@ -663,7 +663,7 @@ cle = "adorabuild_structures_nether_fortress_large_1"
 titre = "Visiter : « Nether fortress large 1 »"
 sous_titre = "AdoraBuild"
 optionnel = true
-taches = ["structure adorabuild_structures:nether_fortress_large_1"]
+taches = ["advancement adorabuild_structures:the_lethal_towers"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bAdoraBuild&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
@@ -960,7 +960,7 @@ cle = "adorabuild_structures_sand_castle_tiny_1"
 titre = "Visiter : « Sand castle tiny 1 »"
 sous_titre = "AdoraBuild"
 optionnel = true
-taches = ["structure adorabuild_structures:sand_castle_tiny_1"]
+taches = ["advancement adorabuild_structures:turtle_kingdom"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bAdoraBuild&r. Se génère dans : Plage (données du serveur).

@@ -37,7 +37,7 @@ Quatre paliers au-dessus de la nétherite (&8Advanced Netherite&r), des bouclier
 [[quete]]
 cle = "fer"
 titre = "Nétherite-fer"
-deps = ["intro"]
+racine = true
 taches = ["advancement advancednetherite:nether/obtain_netherite_iron_ingot"]
 recompenses = ["xp 8"]
 description = """
@@ -176,7 +176,7 @@ Neuf lingots de nétherite-diamant (progrès « A very expensive block »).
 [[quete]]
 cle = "bouclier_bois"
 titre = "Un bouclier de bois"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item shieldexp:wooden_shield"]
 recompenses = ["xp 3"]
@@ -215,7 +215,7 @@ recompenses = ["xp 12"]
 [[quete]]
 cle = "totem"
 titre = "Un totem porté"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:totem_of_undying"]
 recompenses = ["xp 5"]
@@ -227,7 +227,7 @@ description = """
 [[quete]]
 cle = "marteau"
 titre = "Un marteau de fer"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item justhammers:iron_hammer"]
 recompenses = ["xp 5"]
@@ -251,7 +251,7 @@ cle = "marteau_impact"
 titre = "Un marteau d'impact"
 deps = ["marteau_nether"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item justhammers:stone_impact_hammer", "item justhammers:iron_impact_hammer", "item justhammers:gold_impact_hammer", "item justhammers:diamond_impact_hammer", "item justhammers:netherite_impact_hammer"]
 recompenses = ["xp 8"]
 description = """
@@ -263,7 +263,7 @@ cle = "marteau_renforce"
 titre = "Un marteau renforcé"
 deps = ["marteau_impact"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item justhammers:stone_reinforced_hammer", "item justhammers:iron_reinforced_hammer", "item justhammers:gold_reinforced_hammer", "item justhammers:diamond_reinforced_hammer", "item justhammers:netherite_reinforced_hammer"]
 recompenses = ["xp 10"]
 description = """
@@ -275,7 +275,7 @@ cle = "marteau_renforce_impact"
 titre = "Un marteau renforcé d'impact"
 deps = ["marteau_renforce"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item justhammers:stone_reinforced_impact_hammer", "item justhammers:iron_reinforced_impact_hammer", "item justhammers:gold_reinforced_impact_hammer", "item justhammers:diamond_reinforced_impact_hammer", "item justhammers:netherite_reinforced_impact_hammer"]
 recompenses = ["xp 12"]
 description = """

@@ -35,7 +35,7 @@ Il lui faut de l'énergie : le chapitre &ePowah&r en fournit. Les jetpacks ne s
 [[quete]]
 cle = "bobine"
 titre = "Une bobine basique"
-deps = ["intro"]
+racine = true
 taches = ["item ironjetpacks:basic_coil"]
 recompenses = ["xp 3"]
 description = """
@@ -45,7 +45,7 @@ Quatre lingots de fer, deux poudres de redstone et un bâton : la &bbobine basi
 [[quete]]
 cle = "cellule"
 titre = "Une cellule en bois"
-deps = ["intro"]
+racine = true
 taches = ["jetpack cell wood"]
 recompenses = ["xp 3"]
 description = """

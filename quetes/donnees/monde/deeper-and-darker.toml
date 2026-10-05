@@ -31,7 +31,7 @@ description = """
 [[quete]]
 cle = "cite"
 titre = "Une cité ancienne"
-deps = ["intro"]
+racine = true
 taches = ["advancement deeperdarker:main/find_ancient_city"]
 recompenses = ["xp 5"]
 description = """
@@ -97,7 +97,7 @@ Les Terres profondes, la Forêt résonnante, les Cavernes fleuries, les Colonnes
 [[quete]]
 cle = "echolocation"
 titre = "Écholocation"
-deps = ["biomes"]
+deps = ["portail"]
 optionnel = true
 taches = ["advancement deeperdarker:main/explore_otherside"]
 recompenses = ["table explorateur"]

@@ -31,7 +31,7 @@ Le lapis et les livres offerts sont pour la table, en attendant l'infuseur.
 [[quete]]
 cle = "table"
 titre = "La table, version Easy Magic"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:enchanting_table"]
 recompenses = ["xp 3"]
 description = """
@@ -63,7 +63,7 @@ Dix objets enchantés à la table. Si les trois propositions ne conviennent pas,
 [[quete]]
 cle = "enclume"
 titre = "L'enclume, version Easy Anvils"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:anvil"]
 recompenses = ["xp 3"]
 description = """
@@ -121,7 +121,7 @@ description = """
 [[quete]]
 cle = "tome"
 titre = "Un tome d'expérience"
-deps = ["intro"]
+racine = true
 taches = ["item xpbook:xp_tome"]
 recompenses = ["xp 5"]
 description = """
@@ -131,7 +131,7 @@ Le &5tome d'XP&r : accroupi, clic droit pour y verser toute l'expérience possi
 [[quete]]
 cle = "reforge"
 titre = "Les modèles de forge de l'Aether"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item aether_treasure_reforging:neptune_upgrade_smithing_template"]
 recompenses = ["xp 5"]

@@ -25,7 +25,7 @@ Un bâton de blaze sur trois pierres, de la poudre de blaze pour le chauffer, tr
 [[quete]]
 cle = "alambic"
 titre = "Fabriquer l'alambic"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:brewing_stand", "item minecraft:blaze_powder 4"]
 recompenses = ["xp 2"]
 
@@ -194,7 +194,7 @@ description = """
 [[quete]]
 cle = "faiblesse"
 titre = "Faiblesse"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["potion weakness", "potion long_weakness"]
 recompenses = ["xp 3"]
@@ -247,7 +247,7 @@ Banale (sucre, melon, etc. sur l'eau), épaisse (poudre lumineuse sur l'eau), é
 [[quete]]
 cle = "chance"
 titre = "Chance"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["potion luck"]
 recompenses = ["xp 5"]

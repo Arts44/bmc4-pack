@@ -48,8 +48,8 @@ Trente-six races de dragons dans le pack : les huit de base — feu, eau, forê
 [[quete]]
 cle = "oeuf"
 titre = "Un œuf de dragon"
-deps = ["intro"]
-exigence = "une"
+racine = true
+taches_une = true
 taches = ["oeuf_dragon fire", "oeuf_dragon forest", "oeuf_dragon ghost", "oeuf_dragon ice", "oeuf_dragon nether", "oeuf_dragon water", "oeuf_dragon aether", "oeuf_dragon end", "item minecraft:dragon_egg"]
 recompenses = ["xp 5"]
 description = """
@@ -72,7 +72,7 @@ Autre voie : dans &9#dragons&r, poste &l!dragon <x> <y> <z> <race>&r (pseudo et
 [[quete]]
 cle = "apprivoiser"
 titre = "Apprivoiser et seller"
-deps = ["eclosion"]
+deps = ["oeuf"]
 doublon_voulu = true
 taches = ["item minecraft:saddle"]
 recompenses = ["xp 5"]
@@ -180,7 +180,7 @@ cle = "croisement"
 titre = "Un croisement hybride"
 deps = ["apprivoiser"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["oeuf_dragon aurora", "oeuf_dragon black_fire", "oeuf_dragon blood", "oeuf_dragon blue_fire", "oeuf_dragon bronze", "oeuf_dragon crystal", "oeuf_dragon dark", "oeuf_dragon eclipse", "oeuf_dragon elder", "oeuf_dragon gale", "oeuf_dragon jade", "oeuf_dragon light", "oeuf_dragon lunar", "oeuf_dragon magic", "oeuf_dragon monarch", "oeuf_dragon ocean", "oeuf_dragon primal_end", "oeuf_dragon primal_nether", "oeuf_dragon red", "oeuf_dragon sculk", "oeuf_dragon shadow", "oeuf_dragon solar", "oeuf_dragon soul_nether", "oeuf_dragon storm", "oeuf_dragon sylphid", "oeuf_dragon terra", "oeuf_dragon wither", "oeuf_dragon zombie"]
 recompenses = ["xp 8"]
 description = """
@@ -269,7 +269,7 @@ cle = "race_end"
 titre = "Un œuf : Dragon de l'End"
 deps = ["oeuf"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["oeuf_dragon end", "item minecraft:dragon_egg"]
 recompenses = ["xp 5"]
 description = """
@@ -600,7 +600,7 @@ Un œuf de chacune des trente-six races, ensemble dans l'inventaire : les huit 
 [[quete]]
 cle = "ecailles"
 titre = "Des écailles de dragon"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item dragonloot:dragon_scale 3"]
 recompenses = ["xp 5"]

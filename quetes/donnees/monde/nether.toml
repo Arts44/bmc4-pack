@@ -23,7 +23,7 @@ titre = "&cEntrer dans le Nether"
 sous_titre = "Guide dans #nether sur le Discord."
 taille = 1.5
 icone = "minecraft:obsidian"
-taches = ["dimension minecraft:the_nether"]
+taches = ["advancement minecraft:story/enter_the_nether"]
 recompenses = ["item minecraft:gold_ingot 4", "item minecraft:cooked_porkchop 8"]
 description = """
 Dix blocs d'obsidienne, un briquet. Le Nether du pack a quatre mods de biomes — &cBetter Nether&r, &8Bygone Nether&r, &5Soulful Nether&r, &bJaden's Nether Expansion&r — et des forteresses refaites. Huit blocs ici valent soixante-quatre dehors : c'est aussi la route la plus courte entre deux bases.
@@ -42,7 +42,7 @@ Refaite par &bYUNG's Better Nether Fortresses&r : des salles, des coffres par j
 [[quete]]
 cle = "blaze"
 titre = "Des bâtons de blaze"
-deps = ["forteresse"]
+deps = ["entrer"]
 taches = ["item minecraft:blaze_rod 8"]
 recompenses = ["xp 3"]
 description = """
@@ -53,7 +53,7 @@ Les blazes gardent la forteresse. Leurs bâtons font la poudre des potions, les 
 cle = "bastion"
 titre = "Un bastion"
 deps = ["entrer"]
-taches = ["structure minecraft:bastion_remnant"]
+taches = ["advancement minecraft:nether/find_bastion"]
 recompenses = ["table aventurier"]
 description = """
 Piglins, brutes, et des coffres par joueur. De l'or sur soi pour ne pas être attaqué à vue, sauf par les brutes. Le modèle de forge de la nétherite se trouve ici.
@@ -62,7 +62,7 @@ Piglins, brutes, et des coffres par joueur. De l'or sur soi pour ne pas être at
 [[quete]]
 cle = "wither_skeleton"
 titre = "Trois têtes de squelette du Wither"
-deps = ["forteresse"]
+deps = ["entrer"]
 taille = 1.3
 taches = ["item minecraft:wither_skeleton_skull 3"]
 recompenses = ["xp 8"]
@@ -118,7 +118,7 @@ description = """
 [[quete]]
 cle = "cincinnasite"
 titre = "De la cincinnasite"
-deps = ["bn_biomes"]
+deps = ["entrer"]
 taches = ["item betternether:cincinnasite 8"]
 recompenses = ["xp 3"]
 description = """
@@ -139,7 +139,7 @@ La &cforge de cincinnasite&r : un bloc de cincinnasite forgée et des briques d
 [[quete]]
 cle = "rubis"
 titre = "Un rubis du Nether"
-deps = ["bn_biomes"]
+deps = ["entrer"]
 optionnel = true
 taches = ["item betternether:nether_ruby"]
 recompenses = ["xp 5"]
@@ -150,9 +150,9 @@ Le &crubis du Nether&r sort du minerai de rubis. Il fait une armure et des outil
 [[quete]]
 cle = "cite_nether"
 titre = "La cité du Nether"
-deps = ["bn_biomes"]
+deps = ["entrer"]
 optionnel = true
-taches = ["structure betternether:nether_city"]
+taches = ["advancement betternether:city"]
 recompenses = ["table aventurier"]
 description = """
 Une ville entière de Better Nether, avec ses coffres par joueur. Le mod pose aussi des pyramides, des autels, des temples de jungle et des piliers.
@@ -175,7 +175,7 @@ cle = "citadelle"
 titre = "La citadelle de Bygone Nether"
 deps = ["entrer"]
 optionnel = true
-taches = ["structure bygonenether:citadel"]
+taches = ["advancement bygonenether:citadel"]
 recompenses = ["xp 5"]
 description = """
 &8Bygone Nether&r : une citadelle, une catacombe, un manoir piglin. Dans la citadelle, des chevaliers squelettes du Wither et le Wraither ; des prisonniers piglins à libérer dans le manoir (progrès du mod).
@@ -186,7 +186,7 @@ cle = "catacombe"
 titre = "La catacombe"
 deps = ["citadelle"]
 optionnel = true
-taches = ["structure bygonenether:catacomb"]
+taches = ["advancement bygonenether:catacomb"]
 recompenses = ["xp 5"]
 description = """
 Des générateurs de squelettes du Wither, des débris flétris, et la pierre d'âme. Le disque « Wither Waltz » se trouve dans Bygone Nether.
@@ -241,9 +241,9 @@ Un fossile géant dans la vallée des âmes, parfois avec son campement. Le &7co
 [[quete]]
 cle = "sanctum"
 titre = "Le Sanctum"
-deps = ["jaden_vallee"]
+deps = ["entrer"]
 optionnel = true
-taches = ["structure netherexp:sanctum"]
+taches = ["advancement netherexp:nether/occult_manor"]
 recompenses = ["table aventurier"]
 description = """
 Le donjon de Jaden's : une bougie perfide à allumer et à défendre contre des vagues, des coffres-braseros ouverts par la flamme perfide, des statues de gargouilles à collectionner. Une boussole de sanctum y mène.
@@ -252,7 +252,7 @@ Le donjon de Jaden's : une bougie perfide à allumer et à défendre contre des
 [[quete]]
 cle = "exorcisme"
 titre = "Exorciser une apparition"
-deps = ["jaden_vallee"]
+deps = ["entrer"]
 optionnel = true
 taches = ["advancement netherexp:nether/exorcism"]
 recompenses = ["xp 5"]
@@ -263,7 +263,7 @@ Une &7apparition&r possède une créature ; une bouteille d'eau l'en délivre. 
 [[quete]]
 cle = "stampede"
 titre = "Apprivoiser un stampede"
-deps = ["jaden_vallee"]
+deps = ["entrer"]
 optionnel = true
 taches = ["advancement netherexp:nether/rodeo_stampede"]
 recompenses = ["xp 5"]
@@ -279,7 +279,7 @@ Le &cstampede&r naît quand une &7apparition&r possède une statue de gargouille
 [[quete]]
 cle = "jaden_sous_biomes"
 titre = "Tous les sous-biomes de la vallée"
-deps = ["jaden_vallee"]
+deps = ["entrer"]
 optionnel = true
 taches = ["advancement netherexp:nether/ssv_sub_biomes"]
 recompenses = ["xp 5"]
@@ -290,7 +290,7 @@ Le progrès « The Fright Before Xmas » demande de passer par chaque sous-bio
 [[quete]]
 cle = "jaden_boussole"
 titre = "La boussole du sanctum"
-deps = ["jaden_vallee"]
+deps = ["entrer"]
 optionnel = true
 taches = ["advancement netherexp:nether/emf_raider"]
 recompenses = ["xp 5"]
@@ -358,7 +358,7 @@ Les dix statues de gargouille du sanctum, à garder dans l'inventaire (progrès 
 [[quete]]
 cle = "jaden_antidote"
 titre = "Un antidote"
-deps = ["jaden_vallee"]
+deps = ["entrer"]
 optionnel = true
 taches = ["advancement netherexp:nether/the_caduceus"]
 recompenses = ["xp 5"]

@@ -31,7 +31,7 @@ Sur ce serveur, un &lrepas de Farmer's Delight&r (bol ou assiette) a une autre v
 [[quete]]
 cle = "couteau"
 titre = "Un couteau"
-deps = ["intro"]
+racine = true
 taches = ["item farmersdelight:flint_knife"]
 recompenses = ["xp 2"]
 description = """
@@ -92,7 +92,7 @@ Pose un ingrédient sur la &7planche&r, frappe-le avec le couteau — ou une hac
 [[quete]]
 cle = "fourneau"
 titre = "Un fourneau"
-deps = ["intro"]
+racine = true
 taches = ["item farmersdelight:stove"]
 recompenses = ["xp 3"]
 description = """
@@ -123,7 +123,7 @@ La &6marmite&r, sur une source de chaleur, combine jusqu'à six ingrédients en 
 [[quete]]
 cle = "legumes"
 titre = "Chou, tomate, oignon, riz"
-deps = ["intro"]
+racine = true
 taches = ["item farmersdelight:cabbage", "item farmersdelight:tomato", "item farmersdelight:onion", "item farmersdelight:rice"]
 recompenses = ["xp 5"]
 description = """
@@ -286,7 +286,7 @@ cle = "crabe_appat"
 titre = "Un seau d'appât"
 deps = ["crabe"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item crabbersdelight:bucket_of_crab_chum", "item crabbersdelight:bucket_of_shrimp_chum", "item crabbersdelight:bucket_of_clam_chum", "item crabbersdelight:bucket_of_clawster_chum"]
 recompenses = ["xp 5"]
 description = """
@@ -307,7 +307,7 @@ Une palourde passée au couteau sur la planche à découper donne sa chair, et u
 [[quete]]
 cle = "crabe_plage"
 titre = "Palmiers et noix de coco"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item crabbersdelight:coconut", "item crabbersdelight:palm_sapling"]
 recompenses = ["xp 3"]
@@ -467,7 +467,7 @@ titre = "Un couteau du Crépuscule"
 deps = ["couteau"]
 deps_externes = ["monde_twilight_progression/portail"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item twilightdelight:ironwood_knife", "item twilightdelight:steeleaf_knife", "item twilightdelight:knightmetal_knife", "item twilightdelight:fiery_knife"]
 recompenses = ["xp 5"]
 description = """
@@ -478,7 +478,7 @@ Quatre couteaux de la Twilight Forest : en bois de fer, en feuille d'acier, en 
 cle = "twilight_fourneau"
 titre = "Un fourneau du labyrinthe"
 deps = ["fourneau"]
-deps_externes = ["monde_twilight_progression/labyrinthe"]
+deps_externes = ["monde_twilight_progression/liche"]
 optionnel = true
 taches = ["item twilightdelight:maze_stove"]
 recompenses = ["xp 5"]
@@ -490,7 +490,7 @@ Trois lingots de métal de chevalier, quatre briques de labyrinthe, des baies-to
 cle = "twilight_hache"
 titre = "Le steak du minotaure"
 deps = ["twilight_couteau"]
-deps_externes = ["monde_twilight_progression/minoshroom"]
+deps_externes = ["monde_twilight_progression/liche"]
 optionnel = true
 taches = ["item twilightdelight:raw_tomahawk_smeak"]
 recompenses = ["xp 8"]

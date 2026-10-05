@@ -32,8 +32,8 @@ description = """
 [[quete]]
 cle = "arene"
 titre = "L'Arène ardente"
-deps = ["intro"]
-taches = ["structure cataclysm:burning_arena"]
+racine = true
+taches = ["advancement cataclysm:find_burning_arena"]
 recompenses = ["xp 5"]
 description = """
 L'&cŒil de flamme&r y mène. Des revenants et berserkers enflammés gardent l'arène ; &cIgnis&r attend à l'autel de feu.
@@ -66,8 +66,8 @@ Un modèle de forge d'ignitium sur un équipement de nétherite. Casque : regar
 [[quete]]
 cle = "forge_ames"
 titre = "La forge des âmes"
-deps = ["intro"]
-taches = ["structure cataclysm:soul_black_smith"]
+racine = true
+taches = ["advancement cataclysm:find_soul_black_smith"]
 recompenses = ["xp 5"]
 description = """
 L'&8Œil du monstrueux&r y mène, dans le Nether. La &8Monstruosité de nétherite&r dort dans la forge.
@@ -90,8 +90,8 @@ Elle lâche la Forge infernale (une pioche qui frappe en zone), une cellule de l
 [[quete]]
 cle = "citadelle"
 titre = "La citadelle en ruine"
-deps = ["intro"]
-taches = ["structure cataclysm:ruined_citadel"]
+racine = true
+taches = ["advancement cataclysm:find_ruined_citadel"]
 recompenses = ["xp 5"]
 description = """
 L'&5Œil du vide&r y mène, dans l'End. Des golems de l'Ender et des endermapteras ; le &5Gardien de l'Ender&r au centre.
@@ -114,8 +114,8 @@ Il lâche le Gantelet de garde, qui attire les entités (table de butin, infobul
 [[quete]]
 cle = "usine"
 titre = "L'usine ancienne"
-deps = ["intro"]
-taches = ["structure cataclysm:ancient_factory"]
+racine = true
+taches = ["advancement cataclysm:find_ancient_factory"]
 recompenses = ["xp 5"]
 description = """
 L'&7Œil mécanique&r y mène. Des Rôdeurs mécaniques, des Veilleurs, et le &7Harbinger&r.
@@ -138,8 +138,8 @@ Le progrès dit : le réveiller et le vaincre. Il lâche un bloc de &7witherite
 [[quete]]
 cle = "cite_engloutie"
 titre = "La cité engloutie"
-deps = ["intro"]
-taches = ["structure cataclysm:sunken_city"]
+racine = true
+taches = ["advancement cataclysm:find_sunken_city"]
 recompenses = ["xp 5"]
 description = """
 L'&3Œil de l'abîme&r y mène, sous l'océan. Deeplings, golems de corail, et le &3Léviathan&r au fond.
@@ -162,8 +162,8 @@ Il est &limmunisé hors de l'eau&r (config du serveur) : le combat se fait en p
 [[quete]]
 cle = "pyramide"
 titre = "La pyramide maudite"
-deps = ["intro"]
-taches = ["structure cataclysm:cursed_pyramid"]
+racine = true
+taches = ["advancement cataclysm:find_cursed_pyramid"]
 recompenses = ["xp 5"]
 description = """
 L'&6Œil du désert&r y mène. Koboletons, Kobolédiateur, Wadjet, et le &6Vestige ancien&r.
@@ -186,8 +186,8 @@ Le progrès dit : fouiller le sable suspect de la pyramide pour le réveiller. 
 [[quete]]
 cle = "prison"
 titre = "La prison givrée"
-deps = ["intro"]
-taches = ["structure cataclysm:frosted_prison"]
+racine = true
+taches = ["advancement cataclysm:find_frosted_prison"]
 recompenses = ["xp 5"]
 description = """
 L'&bŒil de la malédiction&r y mène. Draugrs, draugrs royaux, Aptrgangr, et &bMaledictus&r.
@@ -220,8 +220,8 @@ Modèle de forge de cursium sur de la nétherite. Casque : vision fantôme ; p
 [[quete]]
 cle = "acropole"
 titre = "L'acropole"
-deps = ["intro"]
-taches = ["structure cataclysm:acropolis"]
+racine = true
+taches = ["advancement cataclysm:find_acropolis"]
 recompenses = ["xp 5"]
 description = """
 L'&9Œil de la tempête&r y mène. Clawdian, Cindaria, Hippocamtus, Urchinkin, et &9Scylla&r, qui change le temps quand elle se bat (config du serveur).

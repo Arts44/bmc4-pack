@@ -34,7 +34,7 @@ Trois biomes de cavernes de &bYUNG's&r, trois de &bGalosphere&r, les géodes, la
 [[quete]]
 cle = "geode"
 titre = "Une géode d'améthyste"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:amethyst_shard 8"]
 recompenses = ["xp 3"]
 description = """
@@ -126,7 +126,7 @@ L'autre structure de Galosphere, sous terre, avec ses coffres et ses tessons.
 [[quete]]
 cle = "spectre"
 titre = "Un spectre en bouteille"
-deps = ["galo_cristal"]
+racine = true
 optionnel = true
 taches = ["advancement galosphere:adventure/watchfly"]
 recompenses = ["xp 5"]
@@ -137,7 +137,7 @@ Le &bSpectre&r de Galosphere vole dans les canyons de cristal. Attrapé dans une
 [[quete]]
 cle = "allurite"
 titre = "Une lampe d'allurite"
-deps = ["galo_cristal"]
+racine = true
 optionnel = true
 taches = ["item galosphere:allurite_lamp"]
 recompenses = ["xp 3"]
@@ -148,9 +148,9 @@ Des éclats d'allurite en lampe. Le mod ajoute aussi la lampe de lumière, le lu
 [[quete]]
 cle = "cite_ancienne"
 titre = "La cité ancienne"
-deps = ["intro"]
+racine = true
 taille = 1.3
-taches = ["structure minecraft:ancient_city"]
+taches = ["advancement deeperdarker:main/find_ancient_city"]
 recompenses = ["table explorateur"]
 description = """
 Refaite par &bDungeons and Taverns&r : plus grande, plus de salles, plus de coffres — par joueur. Marcher accroupi, poser de la laine sur les capteurs, ne pas déclencher trois fois un hurleur. Les cités donnent les éclats d'écho et les livres en ruine ; c'est de là que part le chemin vers l'&8Otherside&r.
@@ -163,7 +163,7 @@ deps = ["cite_ancienne"]
 boss = true
 forme = "diamond"
 taille = 1.5
-taches = ["kill minecraft:warden"]
+taches = ["advancement deeperdarker:main/kill_warden"]
 recompenses = ["xp 20"]
 description = """
 Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overworld : on ne le combat pas, on le piège ou on le fuit. Deeper and Darker lui fait lâcher le &8Cœur des profondeurs&r (progrès « Slay the Warden and take its heart »), et sa mort est annoncée dans #faits-d-armes.
@@ -172,7 +172,7 @@ Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overwo
 [[quete]]
 cle = "palladium"
 titre = "Du palladium"
-deps = ["intro"]
+racine = true
 taches = ["item galosphere:palladium_ingot"]
 recompenses = ["xp 5"]
 description = """
@@ -192,7 +192,7 @@ Cuir et palladium. Le casque peut porter une bannière (infobulle) : celle de t
 [[quete]]
 cle = "monstrometre"
 titre = "Le monstromètre"
-deps = ["palladium", "galo_lichen"]
+deps = ["palladium"]
 optionnel = true
 taches = ["item galosphere:monstrometer"]
 recompenses = ["xp 5"]

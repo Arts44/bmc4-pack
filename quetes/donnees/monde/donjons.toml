@@ -32,7 +32,7 @@ Les donjons de &bWhen Dungeons Arise&r, ceux de &cStalwart Dungeons&r et leurs t
 [[quete]]
 cle = "wda_fort"
 titre = "Le fort des illageois"
-deps = ["intro"]
+racine = true
 taches = ["advancement dungeons_arise:find_illager_fort"]
 recompenses = ["xp 5"]
 description = """
@@ -42,7 +42,7 @@ description = """
 [[quete]]
 cle = "wda_tours"
 titre = "Les tours des bandits"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement dungeons_arise:find_bandit_towers"]
 recompenses = ["xp 5"]
@@ -53,7 +53,7 @@ Les tours des bandits (progrès du mod).
 [[quete]]
 cle = "wda_asile"
 titre = "L'asile de la peste"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement dungeons_arise:find_plague_asylum"]
 recompenses = ["table aventurier"]
@@ -64,7 +64,7 @@ L'asile de la peste (progrès du mod). &aJalon Aventurier.&r
 [[quete]]
 cle = "wda_palais"
 titre = "Le palais de Shiraz"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement dungeons_arise:find_shiraz_palace"]
 recompenses = ["xp 5"]
@@ -75,7 +75,7 @@ Le palais de Shiraz, dans le désert (progrès « Enter Sandman »).
 [[quete]]
 cle = "wda_kayra"
 titre = "Le donjon de Kayra"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement dungeons_arise:find_keep_kayra"]
 recompenses = ["xp 5"]
@@ -86,7 +86,7 @@ Le donjon de Kayra (progrès du mod).
 [[quete]]
 cle = "wda_pirates"
 titre = "Le vaisseau des pirates morts-vivants"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement dungeons_arise:find_undead_pirate_ship"]
 recompenses = ["xp 5"]
@@ -97,7 +97,7 @@ En mer. Le mod a aussi des corsaires et galères illageoises, un phare, des bain
 [[quete]]
 cle = "wda_monastere"
 titre = "Le monastère"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement dungeons_arise:find_monasteries"]
 recompenses = ["xp 5"]
@@ -163,7 +163,7 @@ Le maître des illageois vient avec les &lraids de village&r (il fait partie des
 [[quete]]
 cle = "ver_vide"
 titre = "&5Vaincre le Ver du vide"
-deps = ["intro"]
+racine = true
 boss = true
 forme = "diamond"
 taille = 1.3
@@ -191,7 +191,7 @@ Le progrès du mod s'appelle « Règne de terreur » : invoquer le Berserker.
 [[quete]]
 cle = "primes"
 titre = "Le tableau de primes"
-deps = ["intro"]
+racine = true
 taches = ["item bountiful:bountyboard", "checkmark Trois primes prises"]
 recompenses = ["xp 8"]
 description = """
@@ -208,7 +208,7 @@ description = """
 [[quete]]
 cle = "fragments"
 titre = "Des fragments de générateur"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item spawnersplus:spawner_fragment 8"]
 recompenses = ["xp 5"]
@@ -232,7 +232,7 @@ cle = "ame"
 titre = "Une âme de monstre"
 deps = ["generateur_inactif"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item spawnersplus:zombie_soul", "item spawnersplus:skeleton_soul", "item spawnersplus:spider_soul", "item spawnersplus:cave_spider_soul", "item spawnersplus:husk_soul", "item spawnersplus:creeper_soul", "item spawnersplus:blaze_soul", "item spawnersplus:magma_cube_soul"]
 recompenses = ["xp 8"]
 description = """
@@ -244,7 +244,7 @@ cle = "ames_fabriquees"
 titre = "Les âmes qui ne tombent pas"
 deps = ["ame"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item spawnersplus:stray_soul", "item spawnersplus:drowned_soul", "item spawnersplus:wither_skeleton_soul"]
 recompenses = ["xp 10"]
 description = """
@@ -265,7 +265,7 @@ Huit fragments autour d'un totem d'immortalité. Tenu en main, il coupe les gén
 [[quete]]
 cle = "tungstene"
 titre = "Du tungstène"
-deps = ["intro"]
+racine = true
 taches = ["item stalwart_dungeons:tungsten_ingot"]
 recompenses = ["xp 5"]
 description = """
@@ -295,7 +295,7 @@ description = """
 [[quete]]
 cle = "chorundum_armure"
 titre = "L'armure de chorundum"
-deps = ["shelterer", "tungstene_armure"]
+deps = ["tungstene_armure"]
 taches = ["item stalwart_dungeons:chorundum_armor_helmet", "item stalwart_dungeons:chorundum_armor_chestplate", "item stalwart_dungeons:chorundum_armor_leggings", "item stalwart_dungeons:chorundum_armor_boots"]
 recompenses = ["xp 15"]
 description = """

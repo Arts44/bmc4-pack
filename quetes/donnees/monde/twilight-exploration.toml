@@ -29,7 +29,7 @@ Les collines creuses, les labyrinthes de haies, la clairière des quêtes, les a
 [[quete]]
 cle = "carte"
 titre = "Une carte magique"
-deps = ["intro"]
+racine = true
 taches = ["advancement twilightforest:magic_map_focus", "item twilightforest:filled_magic_map"]
 recompenses = ["xp 5"]
 description = """
@@ -39,7 +39,7 @@ Le &dfoyer de carte magique&r se fabrique avec une plume de corbeau, une torche 
 [[quete]]
 cle = "colline1"
 titre = "Une petite colline creuse"
-deps = ["intro"]
+racine = true
 taches = ["advancement twilightforest:hill1"]
 recompenses = ["xp 3"]
 description = """
@@ -69,7 +69,7 @@ Un &7spectre&r tué dans une grande colline creuse. Les grandes collines cachent
 [[quete]]
 cle = "haies"
 titre = "Le labyrinthe de haies"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement twilightforest:hedge"]
 recompenses = ["xp 3"]
@@ -80,7 +80,7 @@ Des haies qui piquent, des araignées de haie et d'essaim. En tuer une dans le l
 [[quete]]
 cle = "belier"
 titre = "Le Bélier des quêtes"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement twilightforest:quest_ram"]
 recompenses = ["xp 8"]
@@ -136,7 +136,7 @@ Sans le Stroganoff mangé, il brûle. Le repaire de l'Hydre est là.
 [[quete]]
 cle = "sceptres"
 titre = "Les quatre sceptres"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement twilightforest:lich_scepters"]
 recompenses = ["xp 10"]
@@ -147,7 +147,7 @@ Drainage de vie, zombie, fortification, Twilight : les sceptres de la Liche, to
 [[quete]]
 cle = "ardent"
 titre = "L'équipement ardent"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement twilightforest:fiery_set"]
 recompenses = ["xp 10"]
@@ -158,7 +158,7 @@ Le &clingot ardent&r vient du sang de l'Hydre. Tenir un outil ou une arme ardent
 [[quete]]
 cle = "bois_de_fer"
 titre = "Bois de fer et Steeleaf"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item twilightforest:ironwood_ingot 4", "item twilightforest:steeleaf_ingot 4"]
 recompenses = ["xp 5"]
@@ -169,7 +169,7 @@ Le &6bois de fer&r se fabrique avec la racine vivante ; le &aSteeleaf&r se trou
 [[quete]]
 cle = "knightmetal"
 titre = "Le métal de chevalier"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item twilightforest:knightmetal_ingot 4"]
 recompenses = ["xp 5"]
@@ -180,7 +180,7 @@ Les fragments d'armure des gobelins chevaliers et des chevaliers fantômes, en a
 [[quete]]
 cle = "naga_armure"
 titre = "L'armure en écailles de Naga"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement twilightforest:naga_armors"]
 recompenses = ["xp 5"]
@@ -286,7 +286,7 @@ Les deux outils ardents : ils enflamment et cuisent ce qu'ils touchent ou minen
 [[quete]]
 cle = "armure_arctique"
 titre = "L'armure arctique"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item twilightforest:arctic_helmet", "item twilightforest:arctic_chestplate", "item twilightforest:arctic_leggings", "item twilightforest:arctic_boots"]
 recompenses = ["xp 6"]
@@ -319,7 +319,7 @@ Le casque et le plastron fantômes ne se fabriquent pas : ils sont dans le coff
 [[quete]]
 cle = "arbres"
 titre = "Les arbres magiques"
-deps = ["intro"]
+racine = true
 optionnel = true
 taille = 1.3
 taches = ["item twilightforest:transformation_sapling", "item twilightforest:time_sapling", "item twilightforest:mining_sapling", "item twilightforest:sorting_sapling"]

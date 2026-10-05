@@ -25,9 +25,9 @@ Le vanilla, pas à pas. Ce que le pack y change (Easy Magic, Easy Anvils, l'infu
 
 [[quete]]
 cle = "table"
+racine = true
 doublon_voulu = true
 titre = "La table d'enchantement"
-deps = ["intro"]
 taches = ["item minecraft:enchanting_table", "item minecraft:bookshelf 15"]
 recompenses = ["xp 3"]
 description = """
@@ -58,7 +58,7 @@ Trois blocs de fer et quatre lingots. Elle combine, répare, renomme, et s'use.
 [[quete]]
 cle = "meule"
 titre = "La meule"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:grindstone"]
 recompenses = ["xp 2"]
 description = """
@@ -68,7 +68,7 @@ Elle retire les enchantements et rend un peu d'XP. Les malédictions restent.
 [[quete]]
 cle = "forgeron"
 titre = "La table de forgeron"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:smithing_table"]
 recompenses = ["xp 2"]
 description = """
@@ -264,7 +264,7 @@ Un objet enchanté à la table (progrès du jeu).
 [[quete]]
 cle = "armure_fer"
 titre = "Une pièce de fer"
-deps = ["intro"]
+racine = true
 taches = ["advancement minecraft:story/obtain_armor"]
 recompenses = ["xp 3"]
 description = """

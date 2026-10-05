@@ -33,7 +33,7 @@ Les sacs d'Inmis jusqu'au bout, dormir n'importe où, les touches qui font gagne
 [[quete]]
 cle = "dore"
 titre = "Le sac doré"
-deps = ["intro"]
+racine = true
 deps_externes = ["bienvenue/sac"]
 taches = ["advancement inmis:gilded_backpack"]
 recompenses = ["xp 5"]
@@ -87,7 +87,7 @@ Le sac flétri, une tête de dragon et sept pierres de l'End : six rangées de 
 [[quete]]
 cle = "bourse"
 titre = "Une bourse de l'Ender"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement inmis:ender_pouch"]
 recompenses = ["xp 5"]
@@ -98,7 +98,7 @@ La main dedans, et c'est ton coffre de l'Ender qui s'ouvre (texte du progrès).
 [[quete]]
 cle = "bebe"
 titre = "Un sac bébé"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement inmis:baby_backpack"]
 recompenses = ["xp 2"]
@@ -110,7 +110,7 @@ Parfait pour un cadeau (texte du progrès).
 [[quete]]
 cle = "sac_couchage"
 titre = "Un sac de couchage"
-deps = ["intro"]
+racine = true
 taches = ["tag comforts:sleeping_bags 1 Un sac de couchage"]
 recompenses = ["xp 3"]
 description = """
@@ -177,7 +177,7 @@ Carte &bXaero&r (touche &bM&r) : un point de passage se pose d'un clic, se nomm
 [[quete]]
 cle = "torche_magnum"
 titre = "Une torche Magnum en diamant"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item magnumtorch:diamond_magnum_torch"]
 recompenses = ["xp 8"]

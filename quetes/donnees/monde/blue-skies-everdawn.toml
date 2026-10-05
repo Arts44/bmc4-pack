@@ -15,7 +15,7 @@ titre = "&6Entrer dans l'Everdawn"
 sous_titre = "Guide dans #blue-skies sur le Discord."
 taille = 1.5
 icone = "blue_skies:lunar_stonebrick"
-taches = ["dimension blue_skies:everdawn"]
+taches = ["advancement blue_skies:everdawn/enter"]
 recompenses = ["xp 10"]
 description = """
 Le second monde de Blue Skies, par le portail de pierre lunaire de la maison du Gatekeeper, allumé au briquet zèle. Chaud, doré, plein d'insectes et d'araignées. Le progrès « Thinking with Portals » du mod salue ceux qui ont vu les deux mondes.
@@ -99,7 +99,7 @@ La tour d'illageois de l'Everdawn : une clé par étage, quatre clés sur la ke
 [[quete]]
 cle = "alchimiste"
 titre = "&cVaincre l'Alchimiste"
-deps = ["aveuglant"]
+deps = ["entrer"]
 boss = true
 forme = "diamond"
 taille = 1.5
@@ -113,7 +113,7 @@ Lui se bat seul : gerbes de flèches (un bouclier les arrête), nuages de potio
 cle = "poison"
 titre = "Le donjon du poison"
 deps = ["alchimiste"]
-taches = ["structure blue_skies:poison_dungeon"]
+taches = ["advancement blue_skies:everdawn/enter_poison_dungeon"]
 recompenses = ["xp 5"]
 description = """
 Un arbre couvert de toiles dans la &lForêt d'érables du couchant&r : un nid d'araignées venimeuses, une clé par étage, une keystone au bout. Les clés empoisonnées s'achètent au Gatekeeper une fois l'Alchimiste vaincu (progrès du mod).

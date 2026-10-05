@@ -29,7 +29,7 @@ description = """
 [[quete]]
 cle = "briquet"
 titre = "Un briquet zèle"
-deps = ["gatekeeper"]
+racine = true
 taches = ["item blue_skies:zeal_lighter"]
 recompenses = ["xp 3"]
 description = """
@@ -41,7 +41,7 @@ cle = "entrer"
 titre = "Entrer dans l'Everbright"
 deps = ["briquet"]
 taille = 1.3
-taches = ["dimension blue_skies:everbright"]
+taches = ["advancement blue_skies:everbright/enter"]
 recompenses = ["xp 10"]
 description = """
 Un monde de neige, de lacs et de forêts bleues. Les outils de l'Overworld y mordent mal : le mod le dit lui-même (« ce outil ne marche pas aussi bien ici »), il faut ses bois et ses pierres.
@@ -146,7 +146,7 @@ Une tour d'illageois. Chaque étage cache une &lclé&r ; &lquatre clés aveugla
 [[quete]]
 cle = "summoner"
 titre = "&5Vaincre le Summonateur"
-deps = ["aveuglant"]
+deps = ["entrer"]
 boss = true
 forme = "diamond"
 taille = 1.5
@@ -160,7 +160,7 @@ Il invoque des golems artificiels, à distance puis au corps à corps, et se té
 cle = "nature"
 titre = "Le donjon de la nature"
 deps = ["summoner"]
-taches = ["structure blue_skies:nature_dungeon"]
+taches = ["advancement blue_skies:everbright/enter_nature_dungeon"]
 recompenses = ["xp 5"]
 description = """
 Une pyramide verte dans les &lPins enneigés&r, gardée par des golems de pierre liés par des lianes étoilées. Une clé par étage, une keystone au bout. Le Gatekeeper vend les clés de la nature une fois le donjon aveuglant vaincu (progrès du mod).

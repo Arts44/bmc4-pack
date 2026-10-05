@@ -25,7 +25,7 @@ Le zinc et le cuivre offerts font les premiers lingots de laiton. Le brûleur à
 [[quete]]
 cle = "bruleur_vide"
 titre = "Un brûleur à Blaze vide"
-deps = ["intro"]
+racine = true
 taches = ["item create:empty_blaze_burner"]
 recompenses = ["xp 3"]
 description = """
@@ -69,7 +69,7 @@ Comme le boîtier d'andésite, mais au laiton : frapper une bûche écorcée av
 [[quete]]
 cle = "quartz_rose"
 titre = "Du quartz rose poli"
-deps = ["intro"]
+racine = true
 taches = ["item create:polished_rose_quartz 4"]
 recompenses = ["xp 3"]
 description = """
@@ -155,7 +155,7 @@ Tube électronique, boîtier de laiton, table d'artisanat : trois &bétablis m�
 [[quete]]
 cle = "scie"
 titre = "Une scie mécanique"
-deps = ["intro"]
+racine = true
 taches = ["item create:mechanical_saw"]
 recompenses = ["xp 5"]
 description = """
@@ -165,7 +165,7 @@ Plaques de fer, lingot de fer, boîtier d'andésite. Posée à l'horizontale, la
 [[quete]]
 cle = "foreuse"
 titre = "Une foreuse mécanique"
-deps = ["intro"]
+racine = true
 taches = ["item create:mechanical_drill"]
 recompenses = ["xp 5"]
 description = """
@@ -175,7 +175,7 @@ Alliage, lingot de fer, boîtier d'andésite. La &bforeuse&r casse le bloc devan
 [[quete]]
 cle = "piston"
 titre = "Un piston mécanique"
-deps = ["intro"]
+racine = true
 taches = ["item create:mechanical_piston", "item create:piston_extension_pole 4"]
 recompenses = ["xp 5"]
 description = """
@@ -185,7 +185,7 @@ Dalle de bois, boîtier d'andésite, tige d'extension. Le &bpiston mécanique&r 
 [[quete]]
 cle = "roulement"
 titre = "Un roulement mécanique"
-deps = ["intro"]
+racine = true
 taches = ["item create:mechanical_bearing"]
 recompenses = ["xp 5"]
 description = """
@@ -206,7 +206,6 @@ Les &7arbres de portique&r (alliage, redstone, alliage : huit d'un coup) formen
 cle = "colle"
 titre = "De la super colle"
 deps = ["piston"]
-exigence = "une"
 taches = ["item create:super_glue"]
 recompenses = ["xp 3"]
 description = """
@@ -216,7 +215,7 @@ La &esuper colle&r définit ce qu'une contraption emporte : clic sur deux coins
 [[quete]]
 cle = "pompe"
 titre = "Pompe, tuyaux et cuve"
-deps = ["intro"]
+racine = true
 taches = ["item create:mechanical_pump", "item create:fluid_pipe 8", "item create:fluid_tank"]
 recompenses = ["xp 5"]
 description = """
@@ -436,7 +435,7 @@ Vaincre un ennemi au canon à patates (progrès « Fwoomp ! »).
 [[quete]]
 cle = "telecommande"
 titre = "Une télécommande liée"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement create:linked_controller"]
 recompenses = ["xp 4"]
@@ -518,7 +517,7 @@ Ses aiguilles suivent l'heure du jeu.
 [[quete]]
 cle = "scaphandre"
 titre = "Un scaphandre de cuivre"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item create:copper_backtank", "item create:copper_diving_helmet", "item create:copper_diving_boots"]
 recompenses = ["xp 5"]

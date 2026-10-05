@@ -27,7 +27,7 @@ Chaque culture, chaque bête, et les saisons qui décident de ce qui pousse. Le 
 [[quete]]
 cle = "semer"
 titre = "Semer"
-deps = ["intro"]
+racine = true
 taches = ["advancement minecraft:husbandry/plant_seed"]
 recompenses = ["xp 2"]
 description = """
@@ -68,7 +68,7 @@ La tige donne une courge à côté d'elle, et repousse.
 [[quete]]
 cle = "canne"
 titre = "Canne à sucre et bambou"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:sugar_cane 16", "item minecraft:bamboo 16"]
 recompenses = ["xp 2"]
@@ -79,7 +79,7 @@ La canne au bord de l'eau, sur sable ou terre ; le bambou pousse partout et vit
 [[quete]]
 cle = "cacao"
 titre = "Du cacao"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:cocoa_beans 8"]
 recompenses = ["xp 2"]
@@ -90,7 +90,7 @@ Sur les troncs de la jungle. Pour les cookies et la teinture brune.
 [[quete]]
 cle = "baies"
 titre = "Baies sucrées et baies lumineuses"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:sweet_berries 8", "item minecraft:glow_berries 8"]
 recompenses = ["xp 2"]
@@ -101,7 +101,7 @@ Les baies sucrées piquent, les baies lumineuses éclairent et pendent des plafo
 [[quete]]
 cle = "champignons"
 titre = "Champignons et verrues"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:red_mushroom 4", "item minecraft:brown_mushroom 4", "item minecraft:nether_wart 8"]
 recompenses = ["xp 2"]
@@ -112,7 +112,7 @@ Les champignons dans l'ombre ; la verrue du Nether sur du sable des âmes, fort
 [[quete]]
 cle = "fleurs_anciennes"
 titre = "Torchfleur et plante-pichet"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:torchflower_seeds", "item minecraft:pitcher_pod"]
 recompenses = ["xp 5"]
@@ -133,7 +133,7 @@ Chaque culture a ses saisons fertiles, dans son &linfobulle&r (Serene Seasons, c
 [[quete]]
 cle = "composteur"
 titre = "Le composteur"
-deps = ["intro"]
+racine = true
 taches = ["item minecraft:composter", "item minecraft:bone_meal 16"]
 recompenses = ["xp 2"]
 description = """
@@ -144,7 +144,7 @@ Graines, feuilles, restes de récolte : sept couches font une poudre d'os. La p
 [[quete]]
 cle = "elever"
 titre = "Première portée"
-deps = ["intro"]
+racine = true
 taches = ["advancement minecraft:husbandry/breed_an_animal"]
 recompenses = ["xp 2"]
 description = """
@@ -196,7 +196,7 @@ Apprivoiser en montant jusqu'à ce qu'il cède ; une selle, et la laisse pour l
 [[quete]]
 cle = "apprivoiser"
 titre = "Apprivoiser"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement minecraft:husbandry/tame_an_animal"]
 recompenses = ["xp 2"]
@@ -207,7 +207,7 @@ Loup à l'os, chat au poisson, perroquet aux graines (progrès vanilla). L'armur
 [[quete]]
 cle = "abeilles"
 titre = "Les abeilles"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement minecraft:husbandry/safely_harvest_honey"]
 recompenses = ["xp 3"]
@@ -229,7 +229,7 @@ Un nid avec ses trois abeilles, à la soie (progrès vanilla).
 [[quete]]
 cle = "regime"
 titre = "Régime équilibré"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement minecraft:husbandry/balanced_diet"]
 recompenses = ["xp 10"]

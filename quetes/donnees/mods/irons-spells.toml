@@ -38,7 +38,7 @@ Sur ce serveur, les sorts &lne détruisent pas le terrain&r (spellGriefing désa
 [[quete]]
 cle = "parchemin"
 titre = "Un premier parchemin"
-deps = ["intro"]
+racine = true
 taches = ["item irons_spellbooks:scroll"]
 recompenses = ["xp 3"]
 description = """
@@ -405,7 +405,7 @@ L'&aArchévocateur&r tient un fort avec des villageois captifs. Les libérer vau
 cle = "catacombes"
 titre = "Les Catacombes"
 deps = ["enclume"]
-taches = ["structure irons_spellbooks:catacombs"]
+taches = ["advancement irons_spellbooks:irons_spellbooks/enter_catacombs"]
 recompenses = ["xp 8"]
 description = """
 Un labyrinthe souterrain de zombies, de pièges et de coffres fermés à clé — les &7clés d'os&r ouvrent ses chambres fortes. Au fond repose le corps du &4Roi Mort&r.
@@ -490,7 +490,7 @@ Le seul minerai de zénalite qui se génère est celui de la pierre de l'End, da
 cle = "hazen_zenalite"
 titre = "&dRéveiller la zénalite"
 deps = ["hazen_minerai"]
-deps_externes = ["monde_nether/wither"]
+deps_externes = ["monde_nether/wither_skeleton"]
 optionnel = true
 taches = ["item hazennstuff:zenalite_ingot 4"]
 recompenses = ["xp 10"]
@@ -501,7 +501,7 @@ Le mod le dit lui-même : ce minerai dort, et seule la chaleur d'une étoile le
 [[quete]]
 cle = "hazen_moule"
 titre = "Le Moule divin"
-deps = ["hazen_minerai", "tyros"]
+deps = ["hazen_minerai", "appel"]
 deps_externes = ["monde_end/dragon"]
 optionnel = true
 taches = ["item hazennstuff:divine_mold"]
@@ -515,7 +515,7 @@ cle = "hazen_armure"
 titre = "Une armure d'école divine"
 deps = ["hazen_moule", "hazen_zenalite"]
 optionnel = true
-exigence = "une"
+taches_une = true
 icone = "hazennstuff:seraph_helmet"
 taches = ["item hazennstuff:seraph_helmet", "item hazennstuff:blazeborne_helmet", "item hazennstuff:cryogenic_ruler_helmet", "item hazennstuff:ender_dragon_helmet", "item hazennstuff:alchemist_supreme_helmet", "item hazennstuff:creaking_sorcerer_helmet", "item hazennstuff:flesh_mass_helmet"]
 recompenses = ["xp 10"]
@@ -528,7 +528,7 @@ cle = "hazen_fusion"
 titre = "Deux armures en une"
 deps = ["hazen_armure"]
 optionnel = true
-exigence = "une"
+taches_une = true
 icone = "hazennstuff:fireblossom_battlemage_crown"
 taches = ["item hazennstuff:fireblossom_battlemage_crown", "item hazennstuff:fireblossom_battlemage_helmet", "item hazennstuff:atlas_helmet"]
 recompenses = ["xp 8"]
@@ -552,7 +552,7 @@ cle = "hazen_arme"
 titre = "&dUne arme de zénalite"
 deps = ["hazen_zenalite"]
 optionnel = true
-exigence = "une"
+taches_une = true
 icone = "hazennstuff:excalibur"
 taches = ["item hazennstuff:excalibur", "item hazennstuff:draconic_splitter", "item hazennstuff:fireblossom_rapier", "item hazennstuff:ice_pike", "item hazennstuff:umbranova", "item hazennstuff:the_devourer", "item hazennstuff:provocation", "item hazennstuff:o_fortuna", "item hazennstuff:ravens_bane"]
 recompenses = ["xp 10"]
@@ -576,7 +576,7 @@ cle = "hazen_legion"
 titre = "Une couronne de légionnaire"
 deps = ["hazen_pyrium"]
 optionnel = true
-exigence = "une"
+taches_une = true
 taches = ["item hazennstuff:legionnaire_ruler_helmet", "item hazennstuff:legionnaire_commander_helmet"]
 recompenses = ["xp 8"]
 description = """
@@ -872,7 +872,7 @@ Les évocateurs peuvent le lâcher.
 [[quete]]
 cle = "livre_necronomicon"
 titre = "&4Le Necronomicon"
-deps = ["roi_mort"]
+deps = ["catacombes"]
 optionnel = true
 taches = ["item irons_spellbooks:necronomicon_spell_book"]
 recompenses = ["xp 6"]

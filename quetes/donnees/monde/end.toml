@@ -51,9 +51,9 @@ Refaite par &bYUNG's Better Strongholds&r : bibliothèques, armureries, prisons
 [[quete]]
 cle = "entrer"
 titre = "Entrer dans l'End"
-deps = ["forteresse"]
+deps = ["oeil"]
 taille = 1.3
-taches = ["dimension minecraft:the_end"]
+taches = ["advancement minecraft:story/enter_the_end"]
 recompenses = ["xp 10"]
 description = """
 L'île centrale est refaite par &bYUNG's Better End Island&r, et la plate-forme d'arrivée aussi (config du serveur). Le dragon attend.
@@ -66,7 +66,7 @@ deps = ["entrer"]
 boss = true
 forme = "diamond"
 taille = 1.5
-taches = ["kill minecraft:ender_dragon"]
+taches = ["advancement minecraft:end/kill_dragon"]
 recompenses = ["xp 30"]
 description = """
 Les cristaux d'abord, le dragon ensuite. Sa mort est annoncée dans #faits-d-armes. Tué avec une arme d'essence enchantée Illumination mystique, il lâche de la &dpoussière cognizante&r de Mystical Agriculture (config du serveur) ; sa peau sert au grimoire en peau de dragon d'Iron's Spells. Un dragon ré-invoqué avec quatre cristaux &lne laisse pas d'œuf&r sur ce serveur.
@@ -76,7 +76,7 @@ Les cristaux d'abord, le dragon ensuite. Sa mort est annoncée dans #faits-d-arm
 cle = "cite"
 titre = "Une cité de l'End"
 deps = ["dragon"]
-taches = ["structure minecraft:end_city"]
+taches = ["advancement minecraft:end/find_end_city"]
 recompenses = ["xp 5"]
 description = """
 Par le portail de retour, puis les îles extérieures. Shulkers, coffres par joueur, et dans les trésors de ce serveur le &5Totem du vide&r.
@@ -172,9 +172,9 @@ Ambre, herbe d'ambre, et le minerai d'ambre.
 [[quete]]
 cle = "village_end"
 titre = "Un village de l'End"
-deps = ["be_brume"]
+deps = ["entrer"]
 optionnel = true
-taches = ["structure betterend:end_village"]
+taches = ["advancement betterend:village"]
 recompenses = ["xp 5"]
 description = """
 Better End pose des villages dans l'End (progrès « Enter a village in the End »).

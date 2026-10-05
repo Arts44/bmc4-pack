@@ -17,7 +17,7 @@ icone = "minecraft:mossy_cobblestone"
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 """
 
 [[quete]]
@@ -289,7 +289,7 @@ cle = "conjurer_illager_theatre"
 titre = "Visiter : « Theatre »"
 sous_titre = "The Conjurer"
 optionnel = true
-taches = ["structure conjurer_illager:theatre"]
+taches = ["advancement conjurer_illager:find_theatre"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bThe Conjurer&r. Se génère dans : Forêt sombre (données du serveur).
@@ -300,7 +300,7 @@ cle = "friendsandfoes_citadel"
 titre = "Visiter : « Citadel »"
 sous_titre = "Friends & Foes"
 optionnel = true
-taches = ["structure friendsandfoes:citadel"]
+taches = ["advancement friendsandfoes:nether/find_citadel"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bFriends & Foes&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
@@ -465,7 +465,7 @@ cle = "minecraft_ancient_city"
 titre = "Visiter : « Ancient city »"
 sous_titre = "jeu de base"
 optionnel = true
-taches = ["structure minecraft:ancient_city"]
+taches = ["advancement deeperdarker:main/find_ancient_city"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bjeu de base&r. Se génère dans : Abîmes (données du serveur).
@@ -476,7 +476,7 @@ cle = "minecraft_bastion_remnant"
 titre = "Visiter : « Bastion remnant »"
 sous_titre = "jeu de base"
 optionnel = true
-taches = ["structure minecraft:bastion_remnant"]
+taches = ["advancement minecraft:nether/find_bastion"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bjeu de base&r. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
@@ -509,7 +509,7 @@ cle = "minecraft_end_city"
 titre = "Visiter : « End city »"
 sous_titre = "jeu de base"
 optionnel = true
-taches = ["structure minecraft:end_city"]
+taches = ["advancement minecraft:end/find_end_city"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bjeu de base&r. Se génère dans : « Amber Land », « Chorus Forest », « Dry Shrubland », « Foggy Mushroomland », « Glowing Grasslands » et d'autres (données du serveur).
@@ -520,7 +520,7 @@ cle = "minecraft_fortress"
 titre = "Visiter : « Fortress »"
 sous_titre = "jeu de base"
 optionnel = true
-taches = ["structure minecraft:fortress"]
+taches = ["advancement minecraft:nether/find_fortress"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bjeu de base&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
@@ -740,7 +740,7 @@ cle = "minecraft_stronghold"
 titre = "Visiter : « Stronghold »"
 sous_titre = "jeu de base"
 optionnel = true
-taches = ["structure minecraft:stronghold"]
+taches = ["advancement minecraft:story/follow_ender_eye"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bjeu de base&r. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
@@ -905,7 +905,7 @@ cle = "takesapillage_bastille"
 titre = "Visiter : « Bastille »"
 sous_titre = "Takes a Pillage"
 optionnel = true
-taches = ["structure takesapillage:bastille"]
+taches = ["advancement takesapillage:bastille"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bTakes a Pillage&r. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur).
@@ -916,7 +916,7 @@ cle = "takesapillage_pillager_camp"
 titre = "Visiter : « Pillager camp »"
 sous_titre = "Takes a Pillage"
 optionnel = true
-taches = ["structure takesapillage:pillager_camp"]
+taches = ["advancement takesapillage:pillager_camp"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bTakes a Pillage&r. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur).

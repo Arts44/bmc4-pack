@@ -33,7 +33,7 @@ Les &bwaystones&r sont &lgratuites&r sur ce serveur : aucun coût en XP, quelle
 [[quete]]
 cle = "parchemin"
 titre = "Un parchemin de téléportation"
-deps = ["intro"]
+racine = true
 taches = ["item waystones:warp_scroll"]
 recompenses = ["xp 3"]
 description = """
@@ -87,7 +87,7 @@ Un animal en laisse traverse avec toi, même entre dimensions (config). Sauf le 
 [[quete]]
 cle = "grand_bateau"
 titre = "Un grand bateau"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item boatload:large_oak_boat"]
 recompenses = ["xp 3"]
@@ -128,9 +128,9 @@ Même geste sur un animal. Pas les hostiles, pas les villageois, pas les gobelin
 # ---- Nature's Compass
 [[quete]]
 cle = "boussole"
+racine = true
 doublon_voulu = true
 titre = "Une boussole de la nature"
-deps = ["intro"]
 optionnel = true
 taches = ["item naturescompass:naturescompass"]
 recompenses = ["xp 5"]
@@ -142,7 +142,7 @@ Elle cherche un biome par son nom et pointe vers le plus proche. Les biomes des 
 [[quete]]
 cle = "elytres"
 titre = "Des élytres dans leur emplacement"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:elytra"]
 recompenses = ["xp 10"]

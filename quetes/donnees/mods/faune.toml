@@ -34,7 +34,7 @@ Le blé et les laisses offerts servent à ramener les premières bêtes à la ba
 [[quete]]
 cle = "dictionnaire"
 titre = "Le Dictionnaire animal"
-deps = ["intro"]
+racine = true
 taille = 1.3
 taches = ["item alexsmobs:animal_dictionary"]
 recompenses = ["xp 3"]
@@ -156,7 +156,7 @@ La &dTable de transmutation&r d'Alex's Mobs échange un objet contre un autre, c
 [[quete]]
 cle = "golem_cuivre"
 titre = "Invoquer un golem de cuivre"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement friendsandfoes:adventure/summon_copper_golem"]
 recompenses = ["xp 5"]
@@ -167,7 +167,7 @@ Un bloc de cuivre et un paratonnerre : le &6golem de cuivre&r. Il appuie sur le
 [[quete]]
 cle = "ruches"
 titre = "Une ruche dans chaque bois"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement friendsandfoes:husbandry/beehive"]
 recompenses = ["xp 3"]
@@ -178,7 +178,7 @@ Friends & Foes fabrique la ruche dans chaque bois du jeu. Le progrès « toutes
 [[quete]]
 cle = "glare"
 titre = "Apprivoiser un glare"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement friendsandfoes:husbandry/tame_a_glare"]
 recompenses = ["xp 5"]
@@ -189,7 +189,7 @@ Le &2glare&r vit dans les cavernes luxuriantes. Apprivoisé, il suit son maître
 [[quete]]
 cle = "moobloom"
 titre = "Tondre un moobloom"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement friendsandfoes:husbandry/shear_a_moobloom"]
 recompenses = ["xp 3"]
@@ -200,7 +200,7 @@ Le &emoobloom&r, la vache à boutons d'or des prairies. Les cisailles le tondent
 [[quete]]
 cle = "totem"
 titre = "Un totem de gel ou d'illusion"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item friendsandfoes:totem_of_illusion"]
 recompenses = ["xp 5"]
@@ -211,7 +211,7 @@ Les mages illageois de Friends & Foes lâchent des totems. Celui d'&dillusion&r 
 [[quete]]
 cle = "cheval_zombie"
 titre = "Un piège de cheval zombie"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement friendsandfoes:adventure/activate_zombie_horse_trap"]
 recompenses = ["xp 3"]
@@ -234,7 +234,7 @@ Chaque village a &lsix gardes&r (config du serveur). Ils défendent les villageo
 [[quete]]
 cle = "loup_cuir"
 titre = "Une armure de loup en cuir"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item revampedwolf:leather_wolf_armor"]
 recompenses = ["xp 2"]
@@ -289,7 +289,7 @@ description = """
 [[quete]]
 cle = "nid"
 titre = "Un nid"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item incubation:hay_nest", "item incubation:chicken_egg_crate"]
 recompenses = ["xp 2"]
@@ -301,7 +301,7 @@ description = """
 [[quete]]
 cle = "collier"
 titre = "Ranimer un animal"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["advancement pet_cemetery:nether/respawn_pet"]
 recompenses = ["xp 5"]

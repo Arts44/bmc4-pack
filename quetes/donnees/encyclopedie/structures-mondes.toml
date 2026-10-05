@@ -17,7 +17,7 @@ icone = "minecraft:ender_eye"
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.
 """
 
 [[quete]]
@@ -80,7 +80,7 @@ cle = "betterend_end_village"
 titre = "Visiter : « End village »"
 sous_titre = "Better End"
 optionnel = true
-taches = ["structure betterend:end_village"]
+taches = ["advancement betterend:village"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bBetter End&r. Se génère dans : « Dust Wastelands », « Glowing Grasslands » (données du serveur).
@@ -91,7 +91,7 @@ cle = "betterend_eternal_portal"
 titre = "Visiter : « Eternal portal »"
 sous_titre = "Better End"
 optionnel = true
-taches = ["structure betterend:eternal_portal"]
+taches = ["advancement betterend:portal"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bBetter End&r. Se génère dans : « Chorus Forest », « Dragon Graveyards », « Dry Shrubland », « Dust Wastelands », « Foggy Mushroomland » et d'autres (données du serveur).
@@ -212,7 +212,7 @@ cle = "betternether_nether_city"
 titre = "Visiter : « Nether city »"
 sous_titre = "Better Nether"
 optionnel = true
-taches = ["structure betternether:nether_city"]
+taches = ["advancement betternether:city"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bBetter Nether&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
@@ -344,7 +344,7 @@ cle = "blue_skies_nature_dungeon"
 titre = "Visiter : « Nature dungeon »"
 sous_titre = "Blue Skies"
 optionnel = true
-taches = ["structure blue_skies:nature_dungeon"]
+taches = ["advancement blue_skies:everbright/enter_nature_dungeon"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bBlue Skies&r. Se génère dans : Pins neigeux (données du serveur).
@@ -355,7 +355,7 @@ cle = "blue_skies_poison_dungeon"
 titre = "Visiter : « Poison dungeon »"
 sous_titre = "Blue Skies"
 optionnel = true
-taches = ["structure blue_skies:poison_dungeon"]
+taches = ["advancement blue_skies:everdawn/enter_poison_dungeon"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bBlue Skies&r. Se génère dans : Forêt d'érables (données du serveur).
@@ -432,7 +432,7 @@ cle = "bygonenether_catacomb"
 titre = "Visiter : « Catacomb »"
 sous_titre = "Bygone Nether"
 optionnel = true
-taches = ["structure bygonenether:catacomb"]
+taches = ["advancement bygonenether:catacomb"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bBygone Nether&r. Se génère dans : Abîme flétri, Vallée des âmes (données du serveur).
@@ -443,7 +443,7 @@ cle = "bygonenether_citadel"
 titre = "Visiter : « Citadel »"
 sous_titre = "Bygone Nether"
 optionnel = true
-taches = ["structure bygonenether:citadel"]
+taches = ["advancement bygonenether:citadel"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bBygone Nether&r. Se génère dans : Forêt biscornue (données du serveur).
@@ -454,7 +454,7 @@ cle = "bygonenether_piglin_manor"
 titre = "Visiter : « Piglin manor »"
 sous_titre = "Bygone Nether"
 optionnel = true
-taches = ["structure bygonenether:piglin_manor"]
+taches = ["advancement bygonenether:piglin_manor"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bBygone Nether&r. Se génère dans : Forêt carmin (données du serveur).
@@ -498,7 +498,7 @@ cle = "cataclysm_acropolis"
 titre = "Visiter : « Acropolis »"
 sous_titre = "Cataclysm"
 optionnel = true
-taches = ["structure cataclysm:acropolis"]
+taches = ["advancement cataclysm:find_acropolis"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bCataclysm&r. Se génère dans : Océan chaud (données du serveur).
@@ -520,7 +520,7 @@ cle = "cataclysm_ancient_factory"
 titre = "Visiter : « Ancient factory »"
 sous_titre = "Cataclysm"
 optionnel = true
-taches = ["structure cataclysm:ancient_factory"]
+taches = ["advancement cataclysm:find_ancient_factory"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bCataclysm&r. Se génère dans : Grotte lumineuse, Nid d'araignée, « Crystal Canyons », « Lichen Caves », « Pink Salt Caves » et d'autres (données du serveur).
@@ -531,7 +531,7 @@ cle = "cataclysm_burning_arena"
 titre = "Visiter : « Burning arena »"
 sous_titre = "Cataclysm"
 optionnel = true
-taches = ["structure cataclysm:burning_arena"]
+taches = ["advancement cataclysm:find_burning_arena"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bCataclysm&r. Se génère dans : Terres désolées du Nether (données du serveur).
@@ -542,7 +542,7 @@ cle = "cataclysm_cursed_pyramid"
 titre = "Visiter : « Cursed pyramid »"
 sous_titre = "Cataclysm"
 optionnel = true
-taches = ["structure cataclysm:cursed_pyramid"]
+taches = ["advancement cataclysm:find_cursed_pyramid"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bCataclysm&r. Se génère dans : Désert (données du serveur).
@@ -575,7 +575,7 @@ cle = "cataclysm_frosted_prison"
 titre = "Visiter : « Frosted prison »"
 sous_titre = "Cataclysm"
 optionnel = true
-taches = ["structure cataclysm:frosted_prison"]
+taches = ["advancement cataclysm:find_frosted_prison"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bCataclysm&r. Se génère dans : Plaines enneigées (données du serveur).
@@ -586,7 +586,7 @@ cle = "cataclysm_ruined_citadel"
 titre = "Visiter : « Ruined citadel »"
 sous_titre = "Cataclysm"
 optionnel = true
-taches = ["structure cataclysm:ruined_citadel"]
+taches = ["advancement cataclysm:find_ruined_citadel"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bCataclysm&r. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
@@ -597,7 +597,7 @@ cle = "cataclysm_soul_black_smith"
 titre = "Visiter : « Soul black smith »"
 sous_titre = "Cataclysm"
 optionnel = true
-taches = ["structure cataclysm:soul_black_smith"]
+taches = ["advancement cataclysm:find_soul_black_smith"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bCataclysm&r. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
@@ -608,7 +608,7 @@ cle = "cataclysm_sunken_city"
 titre = "Visiter : « Sunken city »"
 sous_titre = "Cataclysm"
 optionnel = true
-taches = ["structure cataclysm:sunken_city"]
+taches = ["advancement cataclysm:find_sunken_city"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bCataclysm&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
@@ -630,7 +630,7 @@ cle = "deeperdarker_ancient_temple"
 titre = "Visiter : « Ancient temple »"
 sous_titre = "Deeper and Darker"
 optionnel = true
-taches = ["structure deeperdarker:ancient_temple"]
+taches = ["advancement deeperdarker:main/find_ancient_temple"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bDeeper and Darker&r. Se génère dans : « Deeplands » (données du serveur).
@@ -663,7 +663,7 @@ cle = "irons_spellbooks_catacombs"
 titre = "Visiter : « Catacombs »"
 sous_titre = "Iron's Spells"
 optionnel = true
-taches = ["structure irons_spellbooks:catacombs"]
+taches = ["advancement irons_spellbooks:irons_spellbooks/enter_catacombs"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bIron's Spells&r. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
@@ -795,7 +795,7 @@ cle = "netherexp_mega_fossil_campsite"
 titre = "Visiter : « Mega fossil campsite »"
 sous_titre = "Jaden's Nether Expansion"
 optionnel = true
-taches = ["structure netherexp:mega_fossil_campsite"]
+taches = ["advancement netherexp:nether/rattling_remnants"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bJaden's Nether Expansion&r. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur).
@@ -806,7 +806,7 @@ cle = "netherexp_sanctum"
 titre = "Visiter : « Sanctum »"
 sous_titre = "Jaden's Nether Expansion"
 optionnel = true
-taches = ["structure netherexp:sanctum"]
+taches = ["advancement netherexp:nether/occult_manor"]
 recompenses = ["xp 1"]
 description = """
 Structure de &bJaden's Nether Expansion&r. Se génère dans : « Soulblight Forest », Vallée des âmes, « Black Ice Glaciers », « Fright Forest » (données du serveur).

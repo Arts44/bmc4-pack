@@ -26,7 +26,7 @@ La canne, les trésors qui mordent, les bêtes de l'eau, et deux mods de cuisine
 [[quete]]
 cle = "pecher"
 titre = "Premier poisson"
-deps = ["intro"]
+racine = true
 taches = ["advancement minecraft:husbandry/fishy_business"]
 recompenses = ["xp 2"]
 description = """
@@ -79,7 +79,7 @@ Dans les grottes luxuriantes. En seau, il te suit ; au combat, il te soigne qua
 [[quete]]
 cle = "tortues"
 titre = "Les tortues"
-deps = ["intro"]
+racine = true
 optionnel = true
 taches = ["item minecraft:scute 5"]
 recompenses = ["xp 5"]
@@ -112,7 +112,7 @@ Gardiens, trois gardiens anciens, éponges et prismarine. YUNG's Better Ocean Mo
 [[quete]]
 cle = "conduit"
 titre = "Un conduit"
-deps = ["monument", "tresor"]
+deps = ["tresor"]
 optionnel = true
 taille = 1.3
 taches = ["item minecraft:conduit"]
@@ -123,9 +123,9 @@ Un cœur de la mer et huit coquilles de nautile. Entouré de prismarine, il donn
 
 [[quete]]
 cle = "casier"
+racine = true
 doublon_voulu = true
 titre = "Un casier à crabes"
-deps = ["intro"]
 optionnel = true
 taches = ["item crabbersdelight:crab_trap"]
 recompenses = ["xp 3"]
@@ -135,9 +135,9 @@ description = """
 
 [[quete]]
 cle = "soupe"
+racine = true
 doublon_voulu = true
 titre = "Une soupe de gardien"
-deps = ["monument"]
 optionnel = true
 taches = ["item oceansdelight:guardian_soup"]
 recompenses = ["xp 5"]

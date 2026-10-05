@@ -87,8 +87,8 @@ Par défaut on parle en maintenant une touche. Si l'icône en bas à gauche mont
 [[quete]]
 cle = "kit"
 titre = "Le kit de départ"
+racine = true
 sous_titre = "Le sac élimé est dans ton inventaire."
-deps = ["bienvenue"]
 kit_voulu = true
 taches = ["item inmis:frayed_backpack"]
 recompenses = ["xp 2"]
@@ -195,7 +195,7 @@ La boussole du kit pointe vers le point d'apparition du monde, c'est-à-dire le 
 [[quete]]
 cle = "natures_compass"
 titre = "Trouver un biome"
-deps = ["boussole", "fer"]
+deps = ["kit", "fer"]
 taches = ["item naturescompass:naturescompass"]
 recompenses = ["xp 5"]
 description = """

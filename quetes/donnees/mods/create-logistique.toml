@@ -25,7 +25,7 @@ Le papier offert devient de la pâte, puis du carton : c'est le premier maillon
 [[quete]]
 cle = "carton"
 titre = "Du carton"
-deps = ["intro"]
+racine = true
 taches = ["item create:cardboard 8"]
 recompenses = ["xp 3"]
 description = """
@@ -46,7 +46,7 @@ Bloc de carton, quatre lingots de fer, deux redstone. Collé à un coffre ou à 
 [[quete]]
 cle = "lien"
 titre = "Un lien de stock"
-deps = ["intro"]
+racine = true
 taches = ["item create:stock_link"]
 recompenses = ["xp 3"]
 description = """
@@ -107,7 +107,7 @@ Redstone, lien de stock, fer. Le &bdemandeur&r passe une commande fixe quand il 
 [[quete]]
 cle = "interrupteur"
 titre = "Un interrupteur de stock"
-deps = ["intro"]
+racine = true
 taches = ["item create:stockpile_switch"]
 recompenses = ["xp 3"]
 description = """
@@ -117,7 +117,7 @@ Tube électronique, boîtier de laiton, comparateur. L'&7interrupteur de stock&r
 [[quete]]
 cle = "boitier_rail"
 titre = "Des boîtiers ferroviaires"
-deps = ["intro"]
+racine = true
 taches = ["item create:railway_casing 4"]
 recompenses = ["xp 3"]
 description = """
@@ -190,7 +190,7 @@ Une porte en bois et un boîtier ferroviaire. Elle s'ouvre toute seule quand le 
 [[quete]]
 cle = "affichage"
 titre = "Un panneau d'affichage"
-deps = ["intro"]
+racine = true
 taches = ["item create:display_board 2", "item create:display_link"]
 recompenses = ["xp 3"]
 description = """

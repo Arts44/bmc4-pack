@@ -1,0 +1,18 @@
+# Exceptions au contrôle de rétroactivité (BMC-89, 6 octobre 2026) —
+# outils/retroactivite.py, appelé par generer.py --verifier.
+#
+# Règle : aucune quête dont une tâche est rétroactive (advancement, stat, objet
+# non consommé) n'attend une étape que le jeu ne peut pas prouver (structure,
+# biome, dimension, kill, case à cocher, observation, objet consommé). Sans
+# quoi un ancien joueur ne voit pas valider ce qu'il a déjà fait.
+#
+# Une exception se déclare une par une :
+#   [[exception]]
+#   quete = "fichier/cle"
+#   raison = "…"
+#
+# Aucune n'est nécessaire au 6 octobre. Les Contrats de la semaine et les
+# objectifs de faction (semaine/) ne sont pas concernés par construction :
+# leurs tâches sont des objets consommés et des kills, à refaire chaque
+# semaine après la case d'introduction — aucune n'est rétroactive, et c'est
+# voulu.
