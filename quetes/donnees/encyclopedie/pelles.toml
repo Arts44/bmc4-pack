@@ -1,0 +1,683 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&7Pelles"
+fichier = "enc_pelles"
+groupe = "encyclopedie"
+icone = "minecraft:iron_shovel"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&7Pelles"
+taille = 1.5
+icone = "minecraft:iron_shovel"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque pelle du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+"""
+
+[[quete]]
+cle = "minecraft_diamond_shovel"
+titre = "Pelle en diamant"
+optionnel = true
+icone = "minecraft:diamond_shovel"
+kit_voulu = true
+taches = ["item minecraft:diamond_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_golden_shovel"
+titre = "Pelle en or"
+optionnel = true
+icone = "minecraft:golden_shovel"
+kit_voulu = true
+taches = ["item minecraft:golden_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_iron_shovel"
+titre = "Pelle en fer"
+optionnel = true
+icone = "minecraft:iron_shovel"
+kit_voulu = true
+taches = ["item minecraft:iron_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_shovel"
+titre = "Pelle en netherite"
+optionnel = true
+icone = "minecraft:netherite_shovel"
+kit_voulu = true
+taches = ["item minecraft:netherite_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_stone_shovel"
+titre = "Pelle en pierre"
+optionnel = true
+icone = "minecraft:stone_shovel"
+kit_voulu = true
+taches = ["item minecraft:stone_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_wooden_shovel"
+titre = "Pelle en bois"
+optionnel = true
+icone = "minecraft:wooden_shovel"
+kit_voulu = true
+taches = ["item minecraft:wooden_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_shovel"
+titre = "« Netherite-Diamond Shovel »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_shovel"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_shovel"
+titre = "« Netherite-Emerald Shovel »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_shovel"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_shovel"
+titre = "« Netherite-Gold Shovel »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_shovel"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_iron_shovel"
+titre = "« Netherite-Iron Shovel »"
+optionnel = true
+icone = "advancednetherite:netherite_iron_shovel"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAdvanced Netherite&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_gravitite_shovel"
+titre = "« Gravitite Shovel »"
+optionnel = true
+icone = "aether:gravitite_shovel"
+kit_voulu = true
+taches = ["item aether:gravitite_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_holystone_shovel"
+titre = "« Holystone Shovel »"
+optionnel = true
+icone = "aether:holystone_shovel"
+kit_voulu = true
+taches = ["item aether:holystone_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_skyroot_shovel"
+titre = "« Skyroot Shovel »"
+optionnel = true
+icone = "aether:skyroot_shovel"
+kit_voulu = true
+taches = ["item aether:skyroot_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_valkyrie_shovel"
+titre = "« Valkyrie Shovel »"
+optionnel = true
+icone = "aether:valkyrie_shovel"
+kit_voulu = true
+taches = ["item aether:valkyrie_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_zanite_shovel"
+titre = "« Zanite Shovel »"
+optionnel = true
+icone = "aether:zanite_shovel"
+kit_voulu = true
+taches = ["item aether:zanite_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_infused_veridium_shovel"
+titre = "« Infused Veridium Shovel »"
+optionnel = true
+icone = "aether_redux:infused_veridium_shovel"
+kit_voulu = true
+taches = ["item aether_redux:infused_veridium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_shovel"
+titre = "« Veridium Shovel »"
+optionnel = true
+icone = "aether_redux:veridium_shovel"
+kit_voulu = true
+taches = ["item aether_redux:veridium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_aeternium_shovel"
+titre = "« Aeternium Shovel »"
+optionnel = true
+icone = "betterend:aeternium_shovel"
+kit_voulu = true
+taches = ["item betterend:aeternium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_terminite_shovel"
+titre = "« Terminite Shovel »"
+optionnel = true
+icone = "betterend:terminite_shovel"
+kit_voulu = true
+taches = ["item betterend:terminite_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betterend_thallasium_shovel"
+titre = "« Thallasium Shovel »"
+optionnel = true
+icone = "betterend:thallasium_shovel"
+kit_voulu = true
+taches = ["item betterend:thallasium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBetter End&r. Ses paliers sont au chapitre &7L'End&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_shovel"
+titre = "Cincinnasite Shovel"
+optionnel = true
+icone = "betternether:cincinnasite_shovel"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_cincinnasite_shovel_diamond"
+titre = "Cincinnasite-Diamond Shovel"
+optionnel = true
+icone = "betternether:cincinnasite_shovel_diamond"
+kit_voulu = true
+taches = ["item betternether:cincinnasite_shovel_diamond"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_flaming_ruby_shovel"
+titre = "« Fireruby Shovel »"
+optionnel = true
+icone = "betternether:flaming_ruby_shovel"
+kit_voulu = true
+taches = ["item betternether:flaming_ruby_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "betternether_nether_ruby_shovel"
+titre = "Nether Ruby Shovel"
+optionnel = true
+icone = "betternether:nether_ruby_shovel"
+kit_voulu = true
+taches = ["item betternether:nether_ruby_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBetter Nether&r. Ses paliers sont au chapitre &7Le Nether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_aquite_shovel"
+titre = "Pelle en aquite"
+optionnel = true
+icone = "blue_skies:aquite_shovel"
+kit_voulu = true
+taches = ["item blue_skies:aquite_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_bluebright_shovel"
+titre = "Pelle en bois de lumibleu"
+optionnel = true
+icone = "blue_skies:bluebright_shovel"
+kit_voulu = true
+taches = ["item blue_skies:bluebright_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_charoite_shovel"
+titre = "Pelle en charoite"
+optionnel = true
+icone = "blue_skies:charoite_shovel"
+kit_voulu = true
+taches = ["item blue_skies:charoite_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_comet_shovel"
+titre = "« Comet Wood Shovel »"
+optionnel = true
+icone = "blue_skies:comet_shovel"
+kit_voulu = true
+taches = ["item blue_skies:comet_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_diopside_shovel"
+titre = "Pelle en diopside"
+optionnel = true
+icone = "blue_skies:diopside_shovel"
+kit_voulu = true
+taches = ["item blue_skies:diopside_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_dusk_shovel"
+titre = "Pelle en crépuscubois"
+optionnel = true
+icone = "blue_skies:dusk_shovel"
+kit_voulu = true
+taches = ["item blue_skies:dusk_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_frostbright_shovel"
+titre = "Pelle en bois de nifrisque"
+optionnel = true
+icone = "blue_skies:frostbright_shovel"
+kit_voulu = true
+taches = ["item blue_skies:frostbright_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_horizonite_shovel"
+titre = "Pelle en horizonite"
+optionnel = true
+icone = "blue_skies:horizonite_shovel"
+kit_voulu = true
+taches = ["item blue_skies:horizonite_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_shovel"
+titre = "Pelle lunaire"
+optionnel = true
+icone = "blue_skies:lunar_shovel"
+kit_voulu = true
+taches = ["item blue_skies:lunar_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_lunar_stone_shovel"
+titre = "Pelle en pierre lunaire"
+optionnel = true
+icone = "blue_skies:lunar_stone_shovel"
+kit_voulu = true
+taches = ["item blue_skies:lunar_stone_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_maple_shovel"
+titre = "Pelle en bois d'érable"
+optionnel = true
+icone = "blue_skies:maple_shovel"
+kit_voulu = true
+taches = ["item blue_skies:maple_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_pyrope_shovel"
+titre = "Pelle en pyrope"
+optionnel = true
+icone = "blue_skies:pyrope_shovel"
+kit_voulu = true
+taches = ["item blue_skies:pyrope_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_starlit_shovel"
+titre = "Pelle en étoilibois"
+optionnel = true
+icone = "blue_skies:starlit_shovel"
+kit_voulu = true
+taches = ["item blue_skies:starlit_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_turquoise_stone_shovel"
+titre = "Pelle en pierre turquoise"
+optionnel = true
+icone = "blue_skies:turquoise_stone_shovel"
+kit_voulu = true
+taches = ["item blue_skies:turquoise_stone_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_black_steel_shovel"
+titre = "« Black Steel Shovel »"
+optionnel = true
+icone = "cataclysm:black_steel_shovel"
+kit_voulu = true
+taches = ["item cataclysm:black_steel_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_skyjade_shovel"
+titre = "« Skyjade Shovel »"
+optionnel = true
+icone = "deep_aether:skyjade_shovel"
+kit_voulu = true
+taches = ["item deep_aether:skyjade_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_stratus_shovel"
+titre = "« Stratus Shovel »"
+optionnel = true
+icone = "deep_aether:stratus_shovel"
+kit_voulu = true
+taches = ["item deep_aether:stratus_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_resonarium_shovel"
+titre = "« Resonarium Shovel »"
+optionnel = true
+icone = "deeperdarker:resonarium_shovel"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_shovel"
+titre = "Pelle du Warden"
+optionnel = true
+icone = "deeperdarker:warden_shovel"
+kit_voulu = true
+taches = ["item deeperdarker:warden_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bDeeper and Darker&r. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_shovel"
+titre = "« Dragon Shovel »"
+optionnel = true
+icone = "dragonloot:dragon_shovel"
+kit_voulu = true
+taches = ["item dragonloot:dragon_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_shovel"
+titre = "Pelle en Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_shovel"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_shovel"
+titre = "Pelle en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_shovel"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_shovel"
+titre = "Pelle en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_shovel"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_shovel"
+titre = "Pelle en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_shovel"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_shovel"
+titre = "Pelle en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_shovel"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_shovel"
+titre = "Pelle en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_shovel"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_shovel"
+titre = "« §eChorundum Shovel »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_shovel"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_shovel"
+titre = "« §eTungsten Shovel »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_shovel"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ironwood_shovel"
+titre = "Pelle en bois de fer"
+optionnel = true
+icone = "twilightforest:ironwood_shovel"
+kit_voulu = true
+taches = ["item twilightforest:ironwood_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_steeleaf_shovel"
+titre = "Pelle en Stealeaf"
+optionnel = true
+icone = "twilightforest:steeleaf_shovel"
+kit_voulu = true
+taches = ["item twilightforest:steeleaf_shovel"]
+recompenses = ["xp 1"]
+description = """
+Pelle de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Toutes les pelles"
+optionnel = true
+taille = 1.5
+icone = "minecraft:netherite_shovel"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["minecraft_diamond_shovel", "minecraft_golden_shovel", "minecraft_iron_shovel", "minecraft_netherite_shovel", "minecraft_stone_shovel", "minecraft_wooden_shovel", "advancednetherite_netherite_diamond_shovel", "advancednetherite_netherite_emerald_shovel", "advancednetherite_netherite_gold_shovel", "advancednetherite_netherite_iron_shovel", "aether_gravitite_shovel", "aether_holystone_shovel", "aether_skyroot_shovel", "aether_valkyrie_shovel", "aether_zanite_shovel", "aether_redux_infused_veridium_shovel", "aether_redux_veridium_shovel", "betterend_aeternium_shovel", "betterend_terminite_shovel", "betterend_thallasium_shovel", "betternether_cincinnasite_shovel", "betternether_cincinnasite_shovel_diamond", "betternether_flaming_ruby_shovel", "betternether_nether_ruby_shovel", "blue_skies_aquite_shovel", "blue_skies_bluebright_shovel", "blue_skies_charoite_shovel", "blue_skies_comet_shovel", "blue_skies_diopside_shovel", "blue_skies_dusk_shovel", "blue_skies_frostbright_shovel", "blue_skies_horizonite_shovel", "blue_skies_lunar_shovel", "blue_skies_lunar_stone_shovel", "blue_skies_maple_shovel", "blue_skies_pyrope_shovel", "blue_skies_starlit_shovel", "blue_skies_turquoise_stone_shovel", "cataclysm_black_steel_shovel", "deep_aether_skyjade_shovel", "deep_aether_stratus_shovel", "deeperdarker_resonarium_shovel", "deeperdarker_warden_shovel", "dragonloot_dragon_shovel", "mysticalagriculture_awakened_supremium_shovel", "mysticalagriculture_imperium_shovel", "mysticalagriculture_inferium_shovel", "mysticalagriculture_prudentium_shovel", "mysticalagriculture_supremium_shovel", "mysticalagriculture_tertium_shovel", "stalwart_dungeons_chorundum_shovel", "stalwart_dungeons_tungsten_shovel", "twilightforest_ironwood_shovel", "twilightforest_steeleaf_shovel"]
+description = """
+Toutes les pelles de ce chapitre réunies.
+"""
