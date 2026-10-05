@@ -1,0 +1,419 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&cArmes à distance"
+fichier = "enc_armes_distance"
+groupe = "encyclopedie"
+icone = "minecraft:bow"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&cArmes à distance"
+taille = 1.5
+icone = "minecraft:bow"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque armes à distance du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+"""
+
+[[quete]]
+cle = "minecraft_bow"
+titre = "Arc"
+optionnel = true
+icone = "minecraft:bow"
+kit_voulu = true
+taches = ["item minecraft:bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_crossbow"
+titre = "Arbalète"
+optionnel = true
+icone = "minecraft:crossbow"
+kit_voulu = true
+taches = ["item minecraft:crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_trident"
+titre = "Trident"
+optionnel = true
+icone = "minecraft:trident"
+kit_voulu = true
+taches = ["item minecraft:trident"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_enchanted_dart_shooter"
+titre = "« Enchanted Dart Shooter »"
+optionnel = true
+icone = "aether:enchanted_dart_shooter"
+kit_voulu = true
+taches = ["item aether:enchanted_dart_shooter"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_golden_dart_shooter"
+titre = "« Golden Dart Shooter »"
+optionnel = true
+icone = "aether:golden_dart_shooter"
+kit_voulu = true
+taches = ["item aether:golden_dart_shooter"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_phoenix_bow"
+titre = "« Phoenix Bow »"
+optionnel = true
+icone = "aether:phoenix_bow"
+kit_voulu = true
+taches = ["item aether:phoenix_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_poison_dart_shooter"
+titre = "« Poison Dart Shooter »"
+optionnel = true
+icone = "aether:poison_dart_shooter"
+kit_voulu = true
+taches = ["item aether:poison_dart_shooter"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bAether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_infused_veridium_dart_shooter"
+titre = "« Infused Veridium Dart Shooter »"
+optionnel = true
+icone = "aether_redux:infused_veridium_dart_shooter"
+kit_voulu = true
+taches = ["item aether_redux:infused_veridium_dart_shooter"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_subzero_crossbow"
+titre = "« Subzero Crossbow »"
+optionnel = true
+icone = "aether_redux:subzero_crossbow"
+kit_voulu = true
+taches = ["item aether_redux:subzero_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "aether_redux_veridium_dart_shooter"
+titre = "« Veridium Dart Shooter »"
+optionnel = true
+icone = "aether_redux:veridium_dart_shooter"
+kit_voulu = true
+taches = ["item aether_redux:veridium_dart_shooter"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bAether Redux&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_cursed_bow"
+titre = "« Cursed Bow »"
+optionnel = true
+icone = "cataclysm:cursed_bow"
+kit_voulu = true
+taches = ["item cataclysm:cursed_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_storm_bow"
+titre = "« Storm Bow »"
+optionnel = true
+icone = "deep_aether:storm_bow"
+kit_voulu = true
+taches = ["item deep_aether:storm_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_bow"
+titre = "« Dragon Bow »"
+optionnel = true
+icone = "dragonloot:dragon_bow"
+kit_voulu = true
+taches = ["item dragonloot:dragon_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_crossbow"
+titre = "« Dragon Crossbow »"
+optionnel = true
+icone = "dragonloot:dragon_crossbow"
+kit_voulu = true
+taches = ["item dragonloot:dragon_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_trident"
+titre = "« Dragon Trident »"
+optionnel = true
+icone = "dragonloot:dragon_trident"
+kit_voulu = true
+taches = ["item dragonloot:dragon_trident"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_autoloader_crossbow"
+titre = "Arbalète à Chargement Automatique"
+optionnel = true
+icone = "irons_spellbooks:autoloader_crossbow"
+kit_voulu = true
+taches = ["item irons_spellbooks:autoloader_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_bow"
+titre = "Arc en Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_bow"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_crossbow"
+titre = "Arbalète en Supremium Éveillé"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_crossbow"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_bow"
+titre = "Arc en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_bow"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_crossbow"
+titre = "Arbalète en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_crossbow"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_bow"
+titre = "Arc en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_bow"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_crossbow"
+titre = "Arbalète en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_crossbow"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_bow"
+titre = "Arc en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_bow"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_crossbow"
+titre = "Arbalète en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_crossbow"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_bow"
+titre = "Arc en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_bow"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_crossbow"
+titre = "Arbalète en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_crossbow"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_bow"
+titre = "Arc en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_bow"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_crossbow"
+titre = "Arbalète en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_crossbow"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_crossbow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bMystical Agriculture&r. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ender_bow"
+titre = "Arc de l'Ender"
+optionnel = true
+icone = "twilightforest:ender_bow"
+kit_voulu = true
+taches = ["item twilightforest:ender_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_ice_bow"
+titre = "Arc gelé"
+optionnel = true
+icone = "twilightforest:ice_bow"
+kit_voulu = true
+taches = ["item twilightforest:ice_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_seeker_bow"
+titre = "Arc du chercheur"
+optionnel = true
+icone = "twilightforest:seeker_bow"
+kit_voulu = true
+taches = ["item twilightforest:seeker_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_triple_bow"
+titre = "« Tri-Bow »"
+optionnel = true
+icone = "twilightforest:triple_bow"
+kit_voulu = true
+taches = ["item twilightforest:triple_bow"]
+recompenses = ["xp 1"]
+description = """
+Arme à distance de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Toutes les armes à distance"
+optionnel = true
+taille = 1.5
+icone = "minecraft:crossbow"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["minecraft_bow", "minecraft_crossbow", "minecraft_trident", "aether_enchanted_dart_shooter", "aether_golden_dart_shooter", "aether_phoenix_bow", "aether_poison_dart_shooter", "aether_redux_infused_veridium_dart_shooter", "aether_redux_subzero_crossbow", "aether_redux_veridium_dart_shooter", "cataclysm_cursed_bow", "deep_aether_storm_bow", "dragonloot_dragon_bow", "dragonloot_dragon_crossbow", "dragonloot_dragon_trident", "irons_spellbooks_autoloader_crossbow", "mysticalagriculture_awakened_supremium_bow", "mysticalagriculture_awakened_supremium_crossbow", "mysticalagriculture_imperium_bow", "mysticalagriculture_imperium_crossbow", "mysticalagriculture_inferium_bow", "mysticalagriculture_inferium_crossbow", "mysticalagriculture_prudentium_bow", "mysticalagriculture_prudentium_crossbow", "mysticalagriculture_supremium_bow", "mysticalagriculture_supremium_crossbow", "mysticalagriculture_tertium_bow", "mysticalagriculture_tertium_crossbow", "twilightforest_ender_bow", "twilightforest_ice_bow", "twilightforest_seeker_bow", "twilightforest_triple_bow"]
+description = """
+Toutes les armes à distance de ce chapitre réunies.
+"""
