@@ -13,8 +13,8 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Regarde la waystone du Marché pour l'activer. Une waystone activée reste accessible à vie : d'où que tu sois, tu pourras revenir ici.
   >   > Le parchemin de retour offert te ramène à la dernière waystone activée, une fois. Garde-le pour une mauvaise surprise loin de chez toi.
 - **Lire le règlement** — tâches : checkmark Lu et compris — récompense : xp 2 — après : bienvenue
-  > Le règlement complet est dans #règles sur le Discord. L'essentiel : pas de griefing hors raid déclaré, pas de triche, et deux zones neutres où l'on ne se bat pas, le Marché Flottant et ses 50 blocs autour.
-  >   > La trêve du Marché ne tient que sur la règle : aucune protection technique ne t'empêchera de frapper, c'est le staff qui sanctionne.
+  > Le règlement complet est dans #règles sur le Discord. L'essentiel : pas de griefing hors raid déclaré, pas de triche, et une seule zone neutre : le Marché Flottant, où tu apparais.
+  >   > Depuis le 5 octobre, le Marché est un claim du serveur, 49 chunks autour du point d'apparition : on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. Les waystones, portes, coffres et barils y restent utilisables par tous. Partout ailleurs hors claim, le PvP est libre — avec trois minutes et cent blocs de répit après une mort.
 - **Lier son compte Discord** — tâches : checkmark Compte lié — récompense : xp 3 — après : bienvenue
   > Tape /discord link en jeu : tu reçois un code à envoyer au bot sur le Discord. Une fois lié, ton pseudo apparaît dans #chat-ingame, tes faits d'armes sont publiés à ton nom et les commandes de faction te reconnaissent.
   >   > Sans ce lien, le bot ne sait pas qui tu es.
@@ -26,7 +26,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   >   > Les sacs ont des paliers : élimé, plaqué, doré, orné de gemmes, ardent, flétri, puis sans fin. Chaque palier ajoute des cases. Le suivant, le sac plaqué, est une quête plus loin.
 - **Choisir son camp** — tâches : checkmark Camp choisi — récompense : xp 2 — après : reglement
   > Trois chemins : rejoindre Apex, rejoindre Farmer's, ou rester indépendant. On peut aussi fonder sa propre faction en le demandant dans #diplomatie.
-  >   > Une faction partage ses claims, son salon privé, sa stratégie et ses quêtes. Un indépendant joue seul, mais le Marché et les zones neutres sont à lui autant qu'aux autres.
+  >   > Une faction partage ses claims, son salon privé, sa stratégie et ses quêtes. Un indépendant joue seul, mais le Marché, seule zone neutre, est à lui autant qu'aux autres.
 - **Du bois** — tâches : tag minecraft:logs 16 N'importe quelle bûche — récompense : item minecraft:torch 8 — après : kit
   > Seize bûches, de n'importe quel arbre. Sur ce serveur, casser une bûche abat tout l'arbre d'un coup, avec n'importe quel outil. Accroupi, on ne casse qu'un bloc.
   >   > Il y a bien plus d'essences que dans le jeu de base : chaque bois donne ses planches, ses portes, ses meubles.
@@ -67,11 +67,11 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Tu as vu l'essentiel. Le livre continue en sept groupes, dans l'ordre conseillé : Les bases du jeu (le vanilla que personne n'explique), Le monde (les dimensions et leurs boss), Les mods (Create, Mystical Agriculture, Iron's Spells, Powah, le stockage, SecurityCraft…), Les factions, Chaque semaine (les contrats répétables), Défis.
   >   > Le dernier groupe, l'Encyclopédie, est un catalogue facultatif : une quête par créature, biome, structure, plat ou sort. À remplir au fil du jeu, jamais à suivre.
 
-## Bestiaire — Overworld  (`enc_bestiaire_overworld`, 184 quêtes)
+## Bestiaire — Overworld  (`enc_bestiaire_overworld`, 189 quêtes)
 
 - **Bestiaire — Overworld** — tâches : checkmark Lu — récompense : xp 2
   > Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en regardant la créature : il suffit de l'avoir devant soi.
-  >   > Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin. Rien de plus.
+  >   > Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin — et, quand la créature ne vient pas d'un biome, la voie qui la fait apparaître. Rien de plus.
   >   > Ce chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet.
 - **Rencontre : Tortue alligator** *(optionnelle)* — tâches : observation entity alexsmobs:alligator_snapping_turtle — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et marais (sauf Marais à mangroves).
@@ -115,8 +115,9 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et savanes.
 - **Rencontre : Émeu** *(optionnelle)* — tâches : observation entity alexsmobs:emu — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et badlands ; tout l'Overworld et savanes ; Désert luxuriant. Butin : Plume d'émeu, Plume.
-- **Rencontre : Voyant éloigné** *(optionnelle)* — tâches : observation entity alexsmobs:farseer — récompense : xp 1
-  > Créature d'Alex's Mobs. Butin : Bras de voyant éloigné.
+- **Défi : le Voyant éloigné** *(optionnelle)* — tâches : observation entity alexsmobs:farseer — récompense : xp 1
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : partout (sauf Champs de champignons). Apparaît : à moins de 100 blocs de la bordure du monde, qui est à 30 millions de blocs du centre. Butin : Bras de voyant éloigné.
+  >   > Un défi d'exploration pour les plus têtus : le trajet est la récompense. Cette quête ne compte pas dans le chapitre complet.
 - **Rencontre : Papilloneur** *(optionnelle)* — tâches : observation entity alexsmobs:flutter — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : Cavernes luxuriantes. Butin : Fleur sporifère.
 - **Rencontre : Mouche** *(optionnelle)* — tâches : observation entity alexsmobs:fly — récompense : xp 1
@@ -151,7 +152,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Dragon de Komodo** *(optionnelle)* — tâches : observation entity alexsmobs:komodo_dragon — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : jungles (sauf dense/overworld) ; Tropiques.
 - **Rencontre : Fourmi coupe-feuilles** *(optionnelle)* — tâches : observation entity alexsmobs:leafcutter_ant — récompense : xp 1
-  > Créature d'Alex's Mobs.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et jungles (sauf Jungle de bambous). Apparaît : autour d'une fourmilière de jungle, une par 200 chunks environ.
 - **Rencontre : Homard** *(optionnelle)* — tâches : observation entity alexsmobs:lobster — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : plages ; Côte rocheuse. Butin : Queue de homard.
 - **Rencontre : Loup à crinière** *(optionnelle)* — tâches : observation entity alexsmobs:maned_wolf — récompense : xp 1
@@ -167,7 +168,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Mongus** *(optionnelle)* — tâches : observation entity alexsmobs:mungus — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et champs de champignons et rare.
 - **Rencontre : Murmure** *(optionnelle)* — tâches : observation entity alexsmobs:murmur — récompense : xp 1
-  > Créature d'Alex's Mobs. Butin : Kimono troublant, Laine rouge, Tendon elastique.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Apparaît : sous Y −30 seulement. Butin : Kimono troublant, Laine rouge, Tendon elastique.
 - **Rencontre : Orque** *(optionnelle)* — tâches : observation entity alexsmobs:orca — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : océans et cold/overworld.
 - **Rencontre : Ornithorynque** *(optionnelle)* — tâches : observation entity alexsmobs:platypus — récompense : xp 1
@@ -195,7 +196,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Squeladon** *(optionnelle)* — tâches : observation entity alexsmobs:skelewag — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et océans profonds. Butin : Crâne de squeladon, Chapeau de fantaisie, Os de poisson, Os.
 - **Rencontre : Skreecher** *(optionnelle)* — tâches : observation entity alexsmobs:skreecher — récompense : xp 1
-  > Créature d'Alex's Mobs. Butin : Âme de Skreecher.
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : skreechers can spawn wardens. Butin : Âme de Skreecher.
 - **Rencontre : Moufette** *(optionnelle)* — tâches : observation entity alexsmobs:skunk — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et forêts (sauf savanes, cold/overworld, Jungle clairsemée) ; Bosquet de cerisiers.
 - **Rencontre : Léopard de neige** *(optionnelle)* — tâches : observation entity alexsmobs:snow_leopard — récompense : xp 1
@@ -221,72 +222,68 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Tusklin** *(optionnelle)* — tâches : observation entity alexsmobs:tusklin — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : Stalagmites de glace ; tout l'Overworld et biomes enneigés et plaines. Butin : Côtelette de porc crue, Boule de neige.
 - **Rencontre : Sous-mineur** *(optionnelle)* — tâches : observation entity alexsmobs:underminer — récompense : xp 1
-  > Créature d'Alex's Mobs.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Apparaît : dans les mines abandonnées seulement ; il disparaît quand on approche à 8 blocs.
 - **Rencontre : Conjurateur** *(optionnelle)* — tâches : observation entity conjurer_illager:conjurer — récompense : xp 1
-  > Créature de The Conjurer. Butin : Émeraude, Chapeau de Magicien, throwable ball, Carte à jeter, music disc delve deeper.
+  > Créature de The Conjurer. Apparaît : sur la scène de son théâtre. Butin : Émeraude, Chapeau de Magicien, throwable ball, Carte à jeter, music disc delve deeper.
   >   > Il tient un théâtre dans les forêts de chênes noirs. Illusions, lapins explosifs, cartes : un spectacle qu'on finit à l'épée.
 - **Rencontre : golem de cuivre** *(optionnelle)* — tâches : observation entity friendsandfoes:copper_golem — récompense : xp 1
-  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Butin : Lingot de cuivre.
+  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparaît : dans les villages et les cités anciennes, ou construit : bloc de cuivre et paratonnerre. Butin : Lingot de cuivre.
   >   > Un golem qu'on fabrique : bloc de cuivre et paratonnerre. Il appuie sur les boutons de cuivre, et il s'oxyde avec le temps. Du miel le fige.
 - **Rencontre : Crabe** *(optionnelle)* — tâches : observation entity friendsandfoes:crab — récompense : xp 1
-  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Butin : Pince de crabe.
+  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Marais à mangroves ; Plage. Butin : Pince de crabe.
 - **Rencontre : Glare** *(optionnelle)* — tâches : observation entity friendsandfoes:glare — récompense : xp 1
-  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Butin : Baies lumineuses.
+  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Cavernes luxuriantes. Butin : Baies lumineuses.
 - **Rencontre : Mauler** *(optionnelle)* — tâches : observation entity friendsandfoes:mauler — récompense : xp 1
-  > Créature de Friends Foes, les candidats des votes de créature Minecraft.
+  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Désert ; déserts ; badlands ; savanes ; et d'autres.
 - **Rencontre : Moobloom** *(optionnelle)* — tâches : observation entity friendsandfoes:moobloom — récompense : xp 1
-  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Butin : Cuir, Boeuf cru.
+  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparition (config du serveur) : Forêt fleurie ; Bosquet de cerisiers ; Prairie ; Plaines de tournesols. Butin : Cuir, Boeuf cru.
 - **Rencontre : Rascal** *(optionnelle)* — tâches : observation entity friendsandfoes:rascal — récompense : xp 1
-  > Créature de Friends Foes, les candidats des votes de créature Minecraft.
+  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparition (config du serveur) : has structure/mineshaft ; has structure/mineshaft mesa.
 - **Rencontre : Golem de Tuf** *(optionnelle)* — tâches : observation entity friendsandfoes:tuff_golem — récompense : xp 1
-  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Butin : Tuf.
-- **Rencontre : Wildfire** *(optionnelle)* — tâches : observation entity friendsandfoes:wildfire — récompense : xp 1
-  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Butin : Fragment de Couronne du Wildfire.
+  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparaît : dans les forteresses de l'End, ou construit. Butin : Tuf.
 - **Rencontre : marchand gobelin** *(optionnelle)* — tâches : observation entity goblintraders:goblin_trader — récompense : xp 1
-  > Marchand de Goblin Traders. Butin : Pomme.
+  > Marchand de Goblin Traders. Apparaît : près des joueurs, sous Y 50, une chance sur quatre toutes les dix minutes ; il repart au bout d'un jour. Butin : Pomme.
   >   > Dans les grottes, un petit marchand qui vend des enchantements et des potions rares contre de l'émeraude et quelques objets. Son cousin des veines vit plus profond.
-- **Rencontre : Vein Goblin Trader** *(optionnelle)* — tâches : observation entity goblintraders:vein_goblin_trader — récompense : xp 1
-  > Marchand de Goblin Traders. Butin : Carotte.
 - **Rencontre : garde villageois** *(optionnelle)* — tâches : observation entity guardvillagers:guard — récompense : xp 1
-  > Créature de Guard Villagers.
+  > Créature de Guard Villagers. Apparaît : dans les villages, six par village.
   >   > Les villages ont des gardes armés. Ils défendent les villageois contre les pillards, et contre toi si tu frappes un villageois sous leurs yeux.
 - **Rencontre : Alchemist** *(optionnelle)* — tâches : observation entity illagerinvasion:alchemist — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Poudre à canon, Fiole.
+  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Poudre à canon, Fiole.
 - **Rencontre : Archivist** *(optionnelle)* — tâches : observation entity illagerinvasion:archivist — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Livre, Papier.
+  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Livre, Papier.
 - **Rencontre : Basher** *(optionnelle)* — tâches : observation entity illagerinvasion:basher — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Pépite de fer.
+  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Pépite de fer.
 - **Rencontre : Firecaller** *(optionnelle)* — tâches : observation entity illagerinvasion:firecaller — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Charge de feu.
+  > Illageois d'Illager Invasion. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Charge de feu.
 - **Rencontre : Inquisitor** *(optionnelle)* — tâches : observation entity illagerinvasion:inquisitor — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Lingot de fer, Cuir, Platinum Chunk.
+  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Lingot de fer, Cuir, Platinum Chunk.
 - **Rencontre : Invoker** *(optionnelle)* — tâches : observation entity illagerinvasion:invoker — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Primal Essence.
-  >   > Le maître des illageois, au sommet des tours d'Illager Invasion. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss.
+  > Illageois d'Illager Invasion. Apparaît : dans les raids de village, en dernière vague. Butin : Émeraude, Primal Essence.
+  >   > Le maître des illageois, dernière vague des raids de village. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss.
 - **Rencontre : Marauder** *(optionnelle)* — tâches : observation entity illagerinvasion:marauder — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude.
+  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude.
 - **Rencontre : Necromancer** *(optionnelle)* — tâches : observation entity illagerinvasion:necromancer — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Crâne de squelette, Tête de zombie.
+  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Crâne de squelette, Tête de zombie.
 - **Rencontre : Provoker** *(optionnelle)* — tâches : observation entity illagerinvasion:provoker — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Flèche.
+  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Flèche.
 - **Rencontre : Sorcerer** *(optionnelle)* — tâches : observation entity illagerinvasion:sorcerer — récompense : xp 1
-  > Illageois d'Illager Invasion. Butin : Émeraude, Livre, Unusual Dust.
+  > Illageois d'Illager Invasion. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Livre, Unusual Dust.
 - **Rencontre : Surrendered** *(optionnelle)* — tâches : observation entity illagerinvasion:surrendered — récompense : xp 1
-  > Illageois d'Illager Invasion.
+  > Illageois d'Illager Invasion. Apparaît : invoqué par l'Invoker.
 - **Rencontre : Allay** *(optionnelle)* — tâches : observation entity minecraft:allay — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Bosquet mystique.
 - **Rencontre : Tatou** *(optionnelle)* — tâches : observation entity minecraft:armadillo — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparition (config du serveur) : savanes ; badlands.
 - **Rencontre : Axolotl** *(optionnelle)* — tâches : observation entity minecraft:axolotl — récompense : xp 1
   > Créature du jeu de base. Catégorie : axolotl. Monde : Overworld. Biomes : Cavernes luxuriantes.
 - **Rencontre : Chauve-souris** *(optionnelle)* — tâches : observation entity minecraft:bat — récompense : xp 1
   > Créature du jeu de base. Catégorie : créature d'ambiance. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres.
 - **Rencontre : Abeille** *(optionnelle)* — tâches : observation entity minecraft:bee — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : dans les nids d'abeilles que portent certains arbres des plaines, forêts de fleurs, prairies et bosquets de cerisiers.
 - **Rencontre : Dromadaire** *(optionnelle)* — tâches : observation entity minecraft:camel — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparition (config du serveur) : déserts. Apparaît : dans les villages du désert, et dans les déserts.
 - **Rencontre : Chat** *(optionnelle)* — tâches : observation entity minecraft:cat — récompense : xp 1
-  > Créature du jeu de base. Butin : Ficelle.
+  > Créature du jeu de base. Apparaît : dans les villages (chats errants, apprivoisables) et les cabanes de sorcière. Butin : Ficelle.
 - **Rencontre : Araignée venimeuse** *(optionnelle)* — tâches : observation entity minecraft:cave_spider — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Nid d'araignée, Cavernes de soufre. Butin : Ficelle, Oeil d'araignée.
 - **Rencontre : Poulet cru** *(optionnelle)* — tâches : observation entity minecraft:chicken — récompense : xp 1
@@ -296,7 +293,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Vache** *(optionnelle)* — tâches : observation entity minecraft:cow — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt, Bosquet et d'autres. Butin : Cuir, Boeuf cru.
 - **Rencontre : Grinceur** *(optionnelle)* — tâches : observation entity minecraft:creaking — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : la nuit, près d'un cœur de Creaking dans les arbres du Jardin pâle.
 - **Rencontre : Creeper** *(optionnelle)* — tâches : observation entity minecraft:creeper — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Poudre à canon.
 - **Rencontre : Dauphin** *(optionnelle)* — tâches : observation entity minecraft:dolphin — récompense : xp 1
@@ -306,11 +303,11 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Noyé** *(optionnelle)* — tâches : observation entity minecraft:drowned — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond, Cavernes de spéléothèmes et d'autres. Butin : Chair putréfiée, Lingot de cuivre.
 - **Rencontre : Grand gardien** *(optionnelle)* — tâches : observation entity minecraft:elder_guardian — récompense : xp 1
-  > Créature du jeu de base. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine, Éponge mouillée, Modèle de forge.
+  > Créature du jeu de base. Apparaît : dans les monuments océaniques, trois par monument. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine, Éponge mouillée, Modèle de forge.
 - **Rencontre : Enderman** *(optionnelle)* — tâches : observation entity minecraft:enderman — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld, End, Nether. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Perle de l'Ender.
 - **Rencontre : Évocateur** *(optionnelle)* — tâches : observation entity minecraft:evoker — récompense : xp 1
-  > Créature du jeu de base. Butin : Totem d'immortalité, Émeraude.
+  > Créature du jeu de base. Apparaît : dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures. Butin : Totem d'immortalité, Émeraude.
 - **Rencontre : Renard** *(optionnelle)* — tâches : observation entity minecraft:fox — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Bosquet, Taïga ancienne de pins, Taïga ancienne de sapins, Taïga enneigée, Taïga.
 - **Rencontre : Grenouille** *(optionnelle)* — tâches : observation entity minecraft:frog — récompense : xp 1
@@ -320,19 +317,19 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Chèvre** *(optionnelle)* — tâches : observation entity minecraft:goat — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Pics gelés, Pics dentelés, Pentes enneigées.
 - **Rencontre : Gardien** *(optionnelle)* — tâches : observation entity minecraft:guardian — récompense : xp 1
-  > Créature du jeu de base. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine.
+  > Créature du jeu de base. Apparaît : autour des monuments océaniques, en continu. Butin : Éclat de prismarine, Morue crue, Cristaux de prismarine.
 - **Rencontre : Cheval** *(optionnelle)* — tâches : observation entity minecraft:horse — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Plaines, Savane, Plateau de savane, Plaines de tournesols, Savane venteuse. Butin : Cuir.
 - **Rencontre : Momifié** *(optionnelle)* — tâches : observation entity minecraft:husk — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Désert. Butin : Chair putréfiée, Lingot de fer, Carotte, Pomme de terre.
 - **Rencontre : Golem de fer** *(optionnelle)* — tâches : observation entity minecraft:iron_golem — récompense : xp 1
-  > Créature du jeu de base. Butin : Coquelicot, Lingot de fer.
+  > Créature du jeu de base. Apparaît : dans les villages, ou construit : quatre blocs de fer et une citrouille sculptée. Butin : Coquelicot, Lingot de fer.
 - **Rencontre : Lama** *(optionnelle)* — tâches : observation entity minecraft:llama — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Plateau de savane, Forêt venteuse, Collines graveleuses venteuses, Collines venteuses. Butin : Cuir.
 - **Rencontre : Mooshroom** *(optionnelle)* — tâches : observation entity minecraft:mooshroom — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Champs de champignons. Butin : Cuir, Boeuf cru.
 - **Rencontre : Mule** *(optionnelle)* — tâches : observation entity minecraft:mule — récompense : xp 1
-  > Créature du jeu de base. Butin : Cuir.
+  > Créature du jeu de base. Apparaît : en faisant se reproduire un cheval et un âne ; jamais sauvage. Butin : Cuir.
 - **Rencontre : Ocelot** *(optionnelle)* — tâches : observation entity minecraft:ocelot — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Jungle de bambous, Jungle.
 - **Rencontre : Panda** *(optionnelle)* — tâches : observation entity minecraft:panda — récompense : xp 1
@@ -344,7 +341,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Cochon** *(optionnelle)* — tâches : observation entity minecraft:pig — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Bosquet de cerisiers, Forêt sombre, Forêt fleurie, Forêt et d'autres. Butin : Côtelette de porc crue.
 - **Rencontre : Pillard** *(optionnelle)* — tâches : observation entity minecraft:pillager — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : dans les avant-postes de pillards, en patrouilles la nuit, et dans les raids.
 - **Rencontre : Ours blanc** *(optionnelle)* — tâches : observation entity minecraft:polar_bear — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Océan gelé profond, Océan gelé, Stalagmites de glace, Plaines enneigées. Butin : Morue crue, Saumon cru.
 - **Rencontre : Poisson-globe** *(optionnelle)* — tâches : observation entity minecraft:pufferfish — récompense : xp 1
@@ -352,47 +349,49 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Lapin cru** *(optionnelle)* — tâches : observation entity minecraft:rabbit — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Bosquet de cerisiers, Désert, Forêt fleurie, Bosquet, Stalagmites de glace, Prairie et d'autres. Butin : Peau de lapin, Lapin cru, Patte de lapin.
 - **Rencontre : Ravageur** *(optionnelle)* — tâches : observation entity minecraft:ravager — récompense : xp 1
-  > Créature du jeu de base. Butin : Ravager Horn.
+  > Créature du jeu de base. Apparaît : dans les raids de village, à partir de la troisième vague. Butin : Selle.
 - **Rencontre : Saumon cru** *(optionnelle)* — tâches : observation entity minecraft:salmon — récompense : xp 1
   > Créature du jeu de base. Catégorie : poisson. Monde : Overworld. Biomes : Océan froid, Océan froid profond, Océan gelé profond, Océan gelé, Rivière gelée, Rivière. Butin : Saumon cru, Poudre d'os.
 - **Rencontre : Mouton** *(optionnelle)* — tâches : observation entity minecraft:sheep — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Bosquet de cerisiers, Forêt sombre, Forêt fleurie, Forêt et d'autres. Butin : Mouton cru.
 - **Rencontre : Poisson d'argent** *(optionnelle)* — tâches : observation entity minecraft:silverfish — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : dans les forteresses de l'End (générateurs) et en cassant un bloc infesté.
 - **Rencontre : Squelette** *(optionnelle)* — tâches : observation entity minecraft:skeleton — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld, Nether. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Flèche, Os.
 - **Rencontre : Cheval-squelette** *(optionnelle)* — tâches : observation entity minecraft:skeleton_horse — récompense : xp 1
-  > Créature du jeu de base. Butin : Os.
+  > Créature du jeu de base. Apparaît : piège du cheval squelette : un éclair sous l'orage, puis quatre cavaliers. Butin : Os.
 - **Rencontre : Slime** *(optionnelle)* — tâches : observation entity minecraft:slime — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Boule de slime.
 - **Rencontre : Renifleur** *(optionnelle)* — tâches : observation entity minecraft:sniffer — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : éclos d'un œuf de Sniffer, brossé dans le gravier suspect des ruines océaniques chaudes.
 - **Rencontre : Golem de neige** *(optionnelle)* — tâches : observation entity minecraft:snow_golem — récompense : xp 1
-  > Créature du jeu de base. Butin : Boule de neige.
+  > Créature du jeu de base. Apparaît : construit : deux blocs de neige et une citrouille sculptée. Butin : Boule de neige.
 - **Rencontre : Araignée** *(optionnelle)* — tâches : observation entity minecraft:spider — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Ficelle, Oeil d'araignée.
 - **Rencontre : Poulpe** *(optionnelle)* — tâches : observation entity minecraft:squid — récompense : xp 1
   > Créature du jeu de base. Catégorie : créature aquatique. Monde : Overworld. Biomes : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond, Océan gelé et d'autres. Butin : Poche d'encre.
 - **Rencontre : Vagabond** *(optionnelle)* — tâches : observation entity minecraft:stray — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Stalagmites de glace, Plaines enneigées. Butin : Flèche, Os, Flèche à effet.
+- **Rencontre : Cube de soufre** *(optionnelle)* — tâches : observation entity minecraft:sulfur_cube — récompense : xp 1
+  > Créature du jeu de base. Apparition (config du serveur) : Cavernes de soufre.
 - **Rencontre : Têtard** *(optionnelle)* — tâches : observation entity minecraft:tadpole — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : éclos du frai que pondent les grenouilles.
 - **Rencontre : Lama de marchand** *(optionnelle)* — tâches : observation entity minecraft:trader_llama — récompense : xp 1
-  > Créature du jeu de base. Butin : Cuir.
+  > Créature du jeu de base. Apparaît : avec le marchand ambulant, par deux. Butin : Cuir.
 - **Rencontre : Poisson tropical** *(optionnelle)* — tâches : observation entity minecraft:tropical_fish — récompense : xp 1
   > Créature du jeu de base. Catégorie : poisson. Monde : Overworld. Biomes : Océan tiède profond, Océan tiède, Cavernes luxuriantes, Marais à mangroves, Océan chaud. Butin : Poisson tropical, Poudre d'os.
 - **Rencontre : Tortue** *(optionnelle)* — tâches : observation entity minecraft:turtle — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Plage. Butin : Herbe aquatique, Bol.
 - **Rencontre : Vex** *(optionnelle)* — tâches : observation entity minecraft:vex — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : invoqué par l'Évocateur, par trois.
 - **Rencontre : Villageois** *(optionnelle)* — tâches : observation entity minecraft:villager — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : dans les villages.
 - **Rencontre : Vindicateur** *(optionnelle)* — tâches : observation entity minecraft:vindicator — récompense : xp 1
-  > Créature du jeu de base. Butin : Émeraude.
+  > Créature du jeu de base. Apparaît : dans les manoirs des forêts sombres, dans les raids de village, et dans plusieurs donjons des mods de structures. Butin : Émeraude.
 - **Rencontre : Marchand ambulant** *(optionnelle)* — tâches : observation entity minecraft:wandering_trader — récompense : xp 1
-  > Créature du jeu de base.
+  > Créature du jeu de base. Apparaît : près des joueurs, de temps en temps, avec ses deux lamas ; il repart au bout de deux jours.
 - **Rencontre : Warden** *(optionnelle)* — tâches : observation entity minecraft:warden — récompense : xp 1
-  > Créature du jeu de base. Butin : Catalyseur de sculk.
+  > Créature du jeu de base. Apparaît : dans les cités anciennes, appelé par un hurleur de sculk déclenché trois fois. Butin : Catalyseur de sculk.
   >   > Aveugle, dans les cités anciennes des profondeurs. Il entend tout ; marcher accroupi et poser de la laine est la seule façon de passer. Le fuir vaut mieux que l'affronter.
 - **Rencontre : Sorcière** *(optionnelle)* — tâches : observation entity minecraft:witch — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Poudre lumineuse, Sucre, Poudre de redstone, Oeil d'araignée, Fiole, Poudre à canon, Bâton.
@@ -401,11 +400,13 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Zombie** *(optionnelle)* — tâches : observation entity minecraft:zombie — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Chair putréfiée, Lingot de fer, Carotte, Pomme de terre.
 - **Rencontre : Cheval-zombie** *(optionnelle)* — tâches : observation entity minecraft:zombie_horse — récompense : xp 1
-  > Créature du jeu de base. Butin : Chair putréfiée.
+  > Créature du jeu de base. Apparaît : piège du cheval zombie ajouté par Friends Foes, le pendant du cheval squelette. Butin : Chair putréfiée.
 - **Rencontre : Zombie-villageois** *(optionnelle)* — tâches : observation entity minecraft:zombie_villager — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Chair putréfiée, Lingot de fer, Carotte, Pomme de terre.
+- **Rencontre : Bluff** *(optionnelle)* — tâches : observation entity mowziesmobs:bluff — récompense : xp 1
+  > Créature de Mowzie's Mobs. Apparition naturelle : aucune (config du serveur). Apparaît : dans le monastère du Sculpteur, où deux générateurs le font sortir. Butin : Bluff Rod.
 - **Rencontre : Elokosa Howler** *(optionnelle)* — tâches : observation entity mowziesmobs:elokosa_howler — récompense : xp 1
-  > Créature de Mowzie's Mobs.
+  > Créature de Mowzie's Mobs. Apparition (config du serveur) : jungles.
 - **Rencontre : Foliaath** *(optionnelle)* — tâches : observation entity mowziesmobs:foliaath — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : jungles. Butin : Graine de Foliaath.
 - **Rencontre : Frostmaw** *(optionnelle)* — tâches : observation entity mowziesmobs:frostmaw — récompense : xp 1
@@ -415,38 +416,48 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : partout (sauf champs de champignons). Butin : Diamant.
 - **Rencontre : Lanterne** *(optionnelle)* — tâches : observation entity mowziesmobs:lantern — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : forêts et biomes magiques (sauf biomes enneigés). Butin : Gelée Lumineuse.
+- **Rencontre : Naga** *(optionnelle)* — tâches : observation entity mowziesmobs:naga — récompense : xp 1
+  > Créature de Mowzie's Mobs. Apparition (config du serveur) : Côte rocheuse. Butin : Dent de Naga.
 - **Rencontre : Sculpteur** *(optionnelle)* — tâches : observation entity mowziesmobs:sculptor — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : pics. Butin : Geomancer Staff, Geomancer Beads, Geomancer Robe, Geomancer Belt, Geomancer Sandals.
   >   > Tongbi, dans un monastère des pics gelés. Il propose une épreuve d'escalade plutôt qu'un combat.
 - **Rencontre : Umvuthana** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana — récompense : xp 1
-  > Créature de Mowzie's Mobs. Apparition (config du serveur) : savanes.
+  > Créature de Mowzie's Mobs. Apparaît : dans le bosquet des Umvuthana, autour du feu, et invoqué par Umvuthi.
 - **Rencontre : Umvuthana Crane** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana_crane — récompense : xp 1
-  > Créature de Mowzie's Mobs.
+  > Créature de Mowzie's Mobs. Apparaît : invoqué par Umvuthi pendant son combat, dans le bosquet des Umvuthana.
 - **Rencontre : Umvuthana Raptor** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana_raptor — récompense : xp 1
-  > Créature de Mowzie's Mobs.
+  > Créature de Mowzie's Mobs. Apparition (config du serveur) : savanes.
 - **Rencontre : Umvuthi** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthi — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : savanes. Butin : Sol Visage, Plume.
   >   > L'oiseau-soleil, sur son trône au cœur d'un village Umvuthana dans la savane. On peut lui parler avant de le combattre : ses fidèles vendent des masques.
+- **Rencontre : Skeleton Cat** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_cat — récompense : xp 1
+  > Créature de Pet Cemetery. Apparaît : en ranimant une seconde fois un animal déjà zombie.
+- **Rencontre : Skeleton Parrot** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_parrot — récompense : xp 1
+  > Créature de Pet Cemetery. Apparaît : en ranimant une seconde fois un animal déjà zombie.
+- **Rencontre : Skeleton Wolf** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_wolf — récompense : xp 1
+  > Créature de Pet Cemetery. Apparaît : en ranimant une seconde fois un animal déjà zombie.
+- **Rencontre : Zombie Cat** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_cat — récompense : xp 1
+  > Créature de Pet Cemetery. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
+- **Rencontre : Zombie Parrot** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_parrot — récompense : xp 1
+  > Créature de Pet Cemetery. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
+- **Rencontre : Zombie Wolf** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_wolf — récompense : xp 1
+  > Créature de Pet Cemetery. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
 - **Rencontre : Crabe** *(optionnelle)* — tâches : observation entity quark:crab — récompense : xp 1
-  > Créature de Quark. Butin : Carapace de crabe, Patte de crabe crue.
+  > Créature de Quark. Apparition (config du serveur) : plages. Butin : Carapace de crabe, Patte de crabe crue.
 - **Rencontre : Oublié** *(optionnelle)* — tâches : observation entity quark:forgotten — récompense : xp 1
-  > Créature de Quark. Butin : Flèche, Os, Chapeau d'Oublié.
-- **Rencontre : Renard de feu** *(optionnelle)* — tâches : observation entity quark:foxhound — récompense : xp 1
-  > Créature de Quark. Butin : Cuir, Charbon.
+  > Créature de Quark. Apparaît : à la place d'un squelette sur vingt sous Y 0. Butin : Flèche, Os, Chapeau d'Oublié.
 - **Rencontre : Shiba** *(optionnelle)* — tâches : observation entity quark:shiba — récompense : xp 1
-  > Créature de Quark.
+  > Créature de Quark. Apparition (config du serveur) : montagnes.
 - **Rencontre : Stoneling** *(optionnelle)* — tâches : observation entity quark:stoneling — récompense : xp 1
   > Créature de Quark. Catégorie : animal. Biomes : Forêt lumineuse. Butin : Coeur de diamant, Pathfinder's Quill.
 - **Rencontre : Tortue** *(optionnelle)* — tâches : observation entity quark:toretoise — récompense : xp 1
-  > Créature de Quark.
-- **Rencontre : Spectre** *(optionnelle)* — tâches : observation entity quark:wraith — récompense : xp 1
-  > Créature de Quark. Butin : Perle d'âme.
+  > Créature de Quark. Apparition (config du serveur) : partout (sauf le Vide, tout le Nether, tout l'End). Apparaît : dans les grottes sous Y 0.
 - **Rencontre : Archer** *(optionnelle)* — tâches : observation entity takesapillage:archer — récompense : xp 1
-  > Illageois de Takes a Pillage. Butin : Flèche, Émeraude.
+  > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Flèche, Émeraude.
 - **Rencontre : Legioner** *(optionnelle)* — tâches : observation entity takesapillage:legioner — récompense : xp 1
-  > Illageois de Takes a Pillage. Butin : Émeraude.
+  > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
 - **Rencontre : Skirmisher** *(optionnelle)* — tâches : observation entity takesapillage:skirmisher — récompense : xp 1
-  > Illageois de Takes a Pillage. Butin : Émeraude.
+  > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
 - **Tout le chapitre** — tâches : checkmark Chapitre complet — récompense : xp 20
   > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
 
@@ -498,9 +509,9 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Ouvrir une offre** — tâches : checkmark Offre publiée — récompense : xp 3 — après : intro
   > Le forum #commerce reçoit les offres : ce qu'on vend, ce qu'on cherche, à quel prix. Un fil par offre. Du blé contre du fer, une escorte contre un service, tout se négocie.
 - **Conclure un échange au Marché** — tâches : checkmark Échange fait — récompense : xp 3 — après : offre
-  > Les échanges se concluent au Marché Flottant, en zone neutre, par les barils des pavillons ou de la main à la main. Personne n'y attaque personne : la zone neutre est la règle, et le staff la fait respecter.
+  > Les échanges se concluent au Marché Flottant, la zone neutre, par les barils des pavillons ou de la main à la main. Personne n'y attaque personne : le Marché est un claim du serveur, le PvP y est coupé.
 - **Respecter la zone neutre** — tâches : checkmark Compris — récompense : xp 3 — après : echange
-  > Le Marché et ses abords sont neutres : PvP interdit, par le règlement. Aucune protection technique ne t'empêchera de frapper ; la trêve ne tient que sur la règle, et la sanction tombe après.
+  > Le Marché est la seule zone neutre du serveur, et c'est un claim du serveur (49 chunks autour du point d'apparition) : le PvP y est coupé, on n'y casse ni ne pose rien, les explosions y sont bloquées. Les blocs et les marchands restent utilisables par tous. Pas besoin de la règle pour tenir la trêve ; elle reste écrite dans #règles.
   >   > Trois minutes et cent blocs de répit après une mort, partout : pas de spawn-kill.
 - **Diplomate accompli** — tâches : checkmark Lu — récompense : xp 5 — après : trahir, neutre
   > Une alliance signée, une offre conclue, une trêve tenue. Le reste de l'histoire du serveur s'écrit dans #diplomatie.
@@ -525,8 +536,8 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Participer à un raid** — tâches : checkmark J'ai combattu — récompense : xp 5 — après : declarer, donjon
   > Pendant le créneau, PvP libre entre les deux factions, partout. Le bot inscrit les combattants dans une équipe et le serveur arbitre tout seul : chaque mort coûte cinq minutes en spectateur, attaquant comme défenseur. Personne ne gagne par usure.
 - **Mourir en raid coûte un cœur** — tâches : checkmark Compris — récompense : xp 3 — après : participer
-  > Pendant le créneau, le serveur passe en mediumcore : chaque mort retire aussi un cœur de vie maximale, jusqu'à un plancher de trois. Les cinq minutes punissent pendant, le cœur perdu punit ensuite — la perte survit au raid.
-  >   > Elle se récupère en mangeant un plat mijoté de Farmer's Delight ou une Pierre de Soin de l'Aether.
+  > Pendant le créneau, pour les membres des deux factions engagées et eux seuls, chaque mort retire aussi un cœur de vie maximale, jusqu'à un plancher de trois. Les cinq minutes punissent pendant, le cœur perdu punit ensuite — la perte survit au raid. Un joueur étranger au raid ne risque rien.
+  >   > Elle se récupère en mangeant un repas de Farmer's Delight — ragoût, soupe, riz, curry, salade, hachis : les plats servis en bol ou en assiette — ou une Pierre de Soin de l'Aether, un cœur par objet, à tout moment. Un steak ou un pain ne rendent rien.
 - **Gagner un raid** — tâches : checkmark Raid gagné — récompense : xp 10 — après : participer
   > Prendre le trophée adverse, c'est : deux chunks à choisir sur son territoire, le rôle 🏆 Vainqueur pendant sept jours, le plafond de chunks relevé pendant quatorze jours, et !raid butin pour choisir un tome ancien et une race d'œuf de dragon.
   >   > Le trophée pris revient chez lui après 24 h.
@@ -554,6 +565,54 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le haut-parleur joue des sons et des notes depuis un programme — une alarme, une mélodie. L'imprimante sort des pages écrites, qui se relient en livre.
 - **Un programme qui tourne** — tâches : checkmark Mon programme sert à quelque chose — récompense : xp 10 — après : moniteur, modem, tortue
   > Une porte à code, une alarme, un écran de stock, une tortue au travail : à toi de dire laquelle. Le salon #cc-tweaked reçoit les programmes à partager.
+
+## Construction et décoration  (`construction`, 22 quêtes)
+
+- **Bâtir avec vingt mods** — tâches : checkmark Lu — récompense : item minecraft:oak_log 16, item minecraft:stone_bricks 32
+  > Le pack empile une vingtaine de mods de blocs et de meubles. Ce chapitre en fait le tour, un mod par quête, chacune facultative : une seule pièce fabriquée suffit à savoir que le mod existe et où regarder dans JEI.
+  >   > Every Compat est le mod invisible de la liste : c'est lui qui décline les meubles, coffres et dalles des autres mods dans tous les bois du pack, ceux des autres mods compris.
+- **Chipped : les établis** *(optionnelle)* — tâches : item chipped:carpenters_table, item chipped:mason_table — récompense : xp 3 — après : intro
+  > Chipped ne s'affiche pas dans JEI bloc par bloc : il passe par sept établis — table du charpentier, table du maçon, souffleur de verre, métier à tisser, établi du botaniste, table d'alchimie, table de bricolage. Chaque établi transforme un bloc de base en ses dizaines de variantes, et retour. Près de 7 000 blocs dans le pack viennent de lui.
+- **Dawn of Time : colombages et toits** *(optionnelle)* — tâches : item dawnoftimebuilder:waxed_oak_timber_frame 8, item dawnoftimebuilder:thatch_bamboo 8 — récompense : xp 3 — après : intro
+  > Dawn of Time est le mod des architectures du monde : colombages, chaume de bambou, tuiles d'argile, chemins de pas japonais, planches calcinées, portes de papier. Le colombage en chêne ciré se fabrique déjà par centaines sur le serveur.
+- **Handcrafted : du mobilier** *(optionnelle)* — tâches : item handcrafted:hammer, item handcrafted:oak_chair, item handcrafted:oak_table — récompense : xp 3 — après : intro
+  > Handcrafted : chaises, tables, bancs, canapés, comptoirs, bureaux, étagères, lits à baldaquin dans chaque bois, plus la vaisselle, les coussins, les pots vernis et les trophées. Le marteau du mod agit sur les meubles posés (blocs « hammerable » du jar).
+- **Another Furniture : volets et étagères** *(optionnelle)* — tâches : item another_furniture:furniture_hammer, item another_furniture:oak_shelf, item another_furniture:oak_shutter — récompense : xp 3 — après : intro
+  > Another Furniture ajoute ce qui manque aux autres : volets, jardinières de fenêtre, rideaux, sofas, tabourets, tiroirs, étagères, dans chaque bois et chaque couleur, avec son propre marteau qui agit sur les blocs posés.
+- **Paladin's Furniture : la cuisine** *(optionnelle)* — tâches : item pfm:working_table — récompense : xp 3 — après : intro
+  > Paladin's Furniture se fabrique sur son propre établi à meubles : cuisinières, plaques de cuisson, éviers, réfrigérateurs, micro-ondes, douches, toilettes, fauteuils, lampes. Les recettes ne sont que là, pas sur la table d'artisanat.
+- **Decorative Blocks : poutres et palissades** *(optionnelle)* — tâches : item decorative_blocks:oak_beam 4, item decorative_blocks:oak_palisade 4, item decorative_blocks:chain 4 — récompense : xp 3 — après : intro
+  > Decorative Blocks : poutres, palissades, soutiens et sièges dans chaque bois, grandes chaînes, brasiers, chandeliers, treillis, piliers de pierre, terre rocailleuse. Le mod des charpentes apparentes et des remparts.
+- **Supplementaries : l'atelier** *(optionnelle)* — tâches : item supplementaries:blackboard, item supplementaries:notice_board, item supplementaries:item_shelf — récompense : xp 3 — après : intro
+  > Supplementaries est le plus gros des mods de décoration utile. Pour commencer : un tableau noir où dessiner, un tableau d'affichage qui expose un livre ou une carte, des étagères qui montrent un objet. Trois quêtes lui sont consacrées.
+- **Supplementaries : sacs, pots, cages** *(optionnelle)* — tâches : item supplementaries:sack, item supplementaries:jar, item supplementaries:cage — récompense : xp 3 — après : supp_atelier
+  > Un sac se porte et se pose, un pot expose ce qu'on y met, une cage enferme un animal. Le mod a aussi un coffre-fort à clé, un bloc de serrure et des portes en or ou en nétherite.
+- **Supplementaries : la mécanique** *(optionnelle)* — tâches : item supplementaries:bellows, item supplementaries:crank, item supplementaries:turn_table — récompense : xp 3 — après : supp_atelier
+  > Le soufflet, la manivelle, la table tournante, le lanceur à ressorts, le bloc d'horloge, le relayeur, l'illuminateur à redstone, la girouette, le sablier : la redstone de Supplementaries, à retrouver dans JEI.
+- **Amendments : lanternes murales** *(optionnelle)* — tâches : observation block amendments:wall_lantern — récompense : xp 2 — après : supp_atelier
+  > Amendments retouche le jeu de base : une lanterne se pose au mur, un tapis sur un escalier ou une dalle, un pot de fleurs se suspend, le chaudron prend des teintures. Rien à fabriquer : pose une lanterne contre un mur et regarde-la.
+- **Quark : les blocs de bois** *(optionnelle)* — tâches : item quark:oak_vertical_slab 4, item quark:oak_post 4, item quark:hollow_oak_log — récompense : xp 3 — après : intro
+  > Les modules de construction de Quark sont tous activés sur le serveur : dalles verticales, poteaux, bûches creuses, échelles, bibliothèques, coffres et fours de chaque bois, haies, chaume, cordage. Les dalles verticales se fabriquent aussi au tailleur de pierre.
+- **Quark : les blocs de pierre** *(optionnelle)* — tâches : item quark:framed_glass 4, item quark:shingles 4, item quark:trowel — récompense : xp 3 — après : quark_bois
+  > Verrière, tuiles de toit, purpur sombre, midori, grès des âmes, grilles et barreaux d'or, blindages de métal, blocs compressés, calcaire, jaspe, shale, myalite et permafrost dans le monde. La truelle est l'outil de pose du mod.
+- **Twigs : lanternes de papier** *(optionnelle)* — tâches : item twigs:paper_lantern, item twigs:oak_table, item twigs:smooth_basalt_bricks 4 — récompense : xp 3 — après : intro
+  > Twigs : lanternes de papier, lampes, tables, colonnes, briques de basalte, de gravier et de pierre lisse, chaume de bambou, et trois roches nouvelles dans le monde (rhyolite, schiste, pierre de sang). Brindilles et galets n'ont pas de recette : ils se trouvent dans le monde.
+- **Stoneworks : chaque pierre, chaque forme** *(optionnelle)* — tâches : item stoneworks:andesite_bricks 8, item stoneworks:andesite_pavers 8 — récompense : xp 3 — après : intro
+  > Stoneworks décline chaque pierre du jeu en briques, pavés, piliers, plaques et tuiles, avec dalles, escaliers et murets. Près de 600 blocs.
+- **Hearth Home : parquet et cheminées** *(optionnelle)* — tâches : item hearth_and_home:oak_parquet 8, item hearth_and_home:polished_blackstone_chimney — récompense : xp 3 — après : intro
+  > Hearth Home : parquet, lattis et bois poncé dans chaque essence, tuiles et bardeaux de toit colorés, verre à barreaux, lanternes de papier, chaume, cheminées. Le mod des intérieurs.
+- **La scie** *(optionnelle)* — tâches : item sawmill:sawmill — récompense : xp 3 — après : intro
+  > Universal Sawmill ajoute une scie : un tailleur de pierre pour le bois : bûches et planches y deviennent les blocs de bois du pack. Elle donne aussi un métier de villageois, le charpentier.
+- **Un ascenseur** *(optionnelle)* — tâches : item elevatorid:elevator_white 2 — récompense : xp 3 — après : intro
+  > Elevator Mod : deux blocs ascenseur l'un au-dessus de l'autre, et on se téléporte de l'un à l'autre. Clic droit pour les options : direction d'arrivée, flèche cachée, camouflage dans n'importe quel bloc.
+- **Tableaux et cadres** *(optionnelle)* — tâches : item minecraft:painting, item quark:glass_item_frame — récompense : xp 2 — après : intro
+  > Gallery ajoute vingt tableaux signés et un sélecteur pour choisir celui qu'on accroche, au lieu du hasard. Fast Paintings allège leur affichage. Le cadre en verre de Quark montre l'objet sans le cadre.
+- **Lanternes et bougeoirs** *(optionnelle)* — tâches : item supplementaries:candle_holder, item suppsquared:gold_candle_holder — récompense : xp 2 — après : supp_atelier
+  > Les bougeoirs de Supplementaries et ceux en or de Supplementaries Squared, les lampes de pierre, les lanternes de cuivre et de laiton. Immersive Lanterns, lui, ne fabrique rien : il affiche la lanterne qu'on tient à la main, qui se balance en marchant.
+- **Barrières en diagonale, demi-dalles** *(optionnelle)* — tâches : checkmark Compris — récompense : xp 2 — après : intro
+  > Trois mods discrets : Diagonal Fences et Diagonal Walls relient barrières et murets en diagonale ; KleeSlabs ne retire qu'une moitié quand on casse une double dalle, verticales de Quark comprises. Rien à fabriquer.
+- **Une base qui a de l'allure** — tâches : checkmark Ma base est décorée — récompense : xp 5 — après : chipped, supp_atelier, quark_bois
+  > Un seul des mods suffit pour fermer le chapitre ; les autres attendent dans JEI. Le chapitre Blocs de l'Encyclopédie listera chaque bloc du pack.
 
 ## Create — les bases  (`create_bases`, 24 quêtes)
 
@@ -717,7 +776,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 
 - **Farmer's Delight : cuisiner pour de vrai** — tâches : checkmark Lu — récompense : item minecraft:bowl 8, item farmersdelight:cabbage_seeds 4, item farmersdelight:tomato_seeds 4
   > Farmer's Delight remplace le steak-et-pain par une cuisine : des légumes nouveaux, une planche à découper, une poêle, une marmite, et des plats qui nourrissent longtemps et donnent des effets.
-  >   > Sur ce serveur, un repas en bol a une autre vertu : il rend un cœur de vie maximale perdu en raid. Les bols et graines offerts sont le début de la cuisine.
+  >   > Sur ce serveur, un repas de Farmer's Delight (bol ou assiette) a une autre vertu : il rend un cœur de vie maximale perdu en raid. Les bols et graines offerts sont le début de la cuisine.
 - **Un couteau** — tâches : item farmersdelight:flint_knife — récompense : xp 2 — après : intro
   > Le couteau se fait en silex, puis en fer, en or, en diamant, en nétherite. Sur la planche, il découpe ; en main, il récolte plus de viande et de cuir.
 - **Une planche à découper** — tâches : item farmersdelight:cutting_board — récompense : xp 3 — après : couteau
@@ -733,11 +792,11 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **De la terre riche** — tâches : item farmersdelight:rich_soil 8 — récompense : xp 3 — après : legumes
   > Le compost organique se fait avec des restes de cuisine et finit par devenir de la terre riche, qui fait pousser plus vite et plus fort que la terre labourée.
 - **Un premier ragoût** — tâches : item farmersdelight:beef_stew — récompense : xp 8 — après : marmite, legumes
-  > Bœuf, carotte, pomme de terre, dans la marmite, et un bol. Les plats de la marmite portent des effets, affichés dans leur infobulle : Confort régénère quelle que soit la faim, Nourriture empêche la faim de baisser. Et le ragoût de bœuf est un repas en bol : il rend un cœur perdu en raid.
+  > Bœuf, carotte, pomme de terre, dans la marmite, et un bol. Les plats de la marmite portent des effets, affichés dans leur infobulle : Confort régénère quelle que soit la faim, Nourriture empêche la faim de baisser. Et le ragoût de bœuf est un repas : il rend un cœur perdu en raid.
 - **Soupes et bouillons** — tâches : item farmersdelight:vegetable_soup, item farmersdelight:chicken_soup, item farmersdelight:fish_stew — récompense : xp 5 — après : ragout
   > La marmite fait toutes les soupes : légumes, poulet, poisson, citrouille, nouilles, oignon. Les trois demandées suffisent à prouver qu'on sait s'en servir ; l'Encyclopédie, chapitre Gastronomie, les compte toutes.
 - **Une salade et du riz sauté** — tâches : item farmersdelight:mixed_salad, item farmersdelight:fried_rice — récompense : xp 5 — après : marmite, legumes
-  > Pas tout passe par la marmite : la salade composée se fait à la table. Le riz sauté, lui, vient de la marmite. Les deux sont des repas en bol.
+  > Pas tout passe par la marmite : la salade composée se fait à la table. Le riz sauté, lui, vient de la marmite. Les deux sont des repas : ils rendent un cœur perdu en raid.
 - **Un festin** — tâches : item farmersdelight:shepherds_pie_block — récompense : xp 5 — après : ragout
   > Un festin se pose comme un bloc et se sert en parts : hachis parmentier, poulet rôti, citrouille farcie, jambon glacé au miel. Le repas d'une faction après un raid.
 - **Corde et panier** — tâches : item farmersdelight:rope 8, item farmersdelight:wooden_basket — récompense : xp 2 — après : legumes
@@ -779,6 +838,56 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **L'équipement est enchanté** — tâches : checkmark Mon équipement est prêt — récompense : xp 5 — après : infuseur, tome
   > Un infuseur, un tome, une enclume qui ne punit plus. Ce qu'il manque encore se trouve chez les marchands, dans les donjons, et dans les coffres par joueur.
 
+## Faune  (`faune`, 23 quêtes)
+
+- **Les bêtes du pack** — tâches : checkmark Lu — récompense : item minecraft:wheat 16, item minecraft:lead 2
+  > Près de cent créatures d'Alex's Mobs, les candidats des votes de Friends Foes, les gardes de Guard Villagers, les loups de RevampedWolf, les nids d'Incubation et les animaux ranimés de Pet Cemetery. Ce chapitre s'intéresse à ce qu'on en tire : objets, équipement, élevage. Les rencontres sont au Bestiaire de l'Encyclopédie.
+  >   > Le blé et les laisses offerts servent à ramener les premières bêtes à la base.
+- **Le Dictionnaire animal** — tâches : item alexsmobs:animal_dictionary — récompense : xp 3 — après : intro
+  > « Par le professeur Alex Khaan » : le Dictionnaire animal décrit chaque créature d'Alex's Mobs, ses biomes, ce qu'elle mange, ce qu'elle lâche. Il se fabrique dès le début et remplace le wiki.
+- **Just Enough Breeding** — tâches : checkmark Compris — récompense : xp 2 — après : intro
+  > Rien à fabriquer : Just Enough Breeding ajoute à JEI les onglets Élevage, Apprivoisement, Tempérament, Confiance et Transformation. Pour savoir ce que mange un animal — du pack ou d'un mod — c'est là qu'on regarde.
+- **Des Bottes de géocoucou** *(optionnelle)* — tâches : item alexsmobs:roadrunner_boots — récompense : xp 3 — après : dictionnaire
+  > Plumes de géocoucou : +0,1 de vitesse sur le sable. Le géocoucou court dans les déserts.
+- **Des Jambières en mille-pattes** *(optionnelle)* — tâches : item alexsmobs:centipede_leggings — récompense : xp 5 — après : dictionnaire
+  > Pattes de mille-pattes des cavernes : les jambières permettent de grimper aux murs. Pour un raid, c'est une entrée que les défenseurs n'ont pas prévue.
+- **Une Casquette de trappeur** *(optionnelle)* — tâches : item alexsmobs:frontier_cap — récompense : xp 3 — après : dictionnaire
+  > Queue de raton laveur : +0,1 de vitesse en étant accroupi.
+- **Des Jambières d'émeu** *(optionnelle)* — tâches : item alexsmobs:emu_leggings — récompense : xp 5 — après : dictionnaire
+  > Une chance d'esquiver les projectiles, comme l'émeu. Contre un archer en raid, ça compte.
+- **Un Plastron en carapace rocheuse** *(optionnelle)* — tâches : item alexsmobs:rocky_chestplate — récompense : xp 5 — après : dictionnaire
+  > Carapace de rouleau rocheux : sprinter fait rouler. Le rouleau vit dans les grottes.
+- **Des Bottes de poisson volant** *(optionnelle)* — tâches : item alexsmobs:flying_fish_boots — récompense : xp 3 — après : dictionnaire
+  > Sauter hors de l'eau fait planer.
+- **Un grappin de calmar** *(optionnelle)* — tâches : item alexsmobs:squid_grapple — récompense : xp 5 — après : dictionnaire
+  > Un tentacule de calmar géant qui s'accroche ; accroupi pour le détacher.
+- **Une Mangeoire à colibris** *(optionnelle)* — tâches : item alexsmobs:hummingbird_feeder — récompense : xp 2 — après : dictionnaire
+  > Du sucre dans l'eau : la mangeoire garde les colibris près de chez soi, dit le progrès du mod.
+- **Une Table de transmutation** *(optionnelle)* — tâches : item alexsmobs:transmutation_table — récompense : xp 5 — après : dictionnaire
+  > La Table de transmutation d'Alex's Mobs échange un objet contre un autre, contre de l'expérience (« Coût en expérience » dans son interface).
+- **Invoquer un golem de cuivre** *(optionnelle)* — tâches : advancement friendsandfoes:adventure/summon_copper_golem — récompense : xp 5 — après : intro
+  > Un bloc de cuivre et un paratonnerre : le golem de cuivre. Il appuie sur les boutons de cuivre du mod, et s'oxyde avec le temps ; de la cire l'arrête. Le progrès du mod valide la quête.
+- **Une ruche dans chaque bois** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/beehive — récompense : xp 3 — après : intro
+  > Friends Foes fabrique la ruche dans chaque bois du jeu. Le progrès « toutes les ruches » demande les dix.
+- **Apprivoiser un glare** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/tame_a_glare — récompense : xp 5 — après : intro
+  > Le glare vit dans les cavernes luxuriantes. Apprivoisé, il suit son maître ; le progrès du mod valide la quête.
+- **Tondre un moobloom** *(optionnelle)* — tâches : advancement friendsandfoes:husbandry/shear_a_moobloom — récompense : xp 3 — après : intro
+  > Le moobloom, la vache à boutons d'or des prairies. Les cisailles le tondent, et le progrès le note.
+- **Un totem de gel ou d'illusion** *(optionnelle)* — tâches : item friendsandfoes:totem_of_illusion — récompense : xp 5 — après : intro
+  > Les mages illageois de Friends Foes lâchent des totems. Celui d'illusion se déclenche quand on prend des dégâts sous la moitié de sa vie maximale (infobulle du mod). À garder en main secondaire pour un raid.
+- **Un piège de cheval zombie** *(optionnelle)* — tâches : advancement friendsandfoes:adventure/activate_zombie_horse_trap — récompense : xp 3 — après : intro
+  > Friends Foes ajoute le pendant du piège de cheval squelette ; il est activé sur ce serveur. Le progrès se valide en le déclenchant.
+- **Les gardes des villages** — tâches : observation entity guardvillagers:guard — récompense : xp 3 — après : intro
+  > Chaque village a six gardes (config du serveur). Ils défendent les villageois et les golems qu'on attaque (liste de protection de la config). Leur inventaire s'ouvre à partir de 15 de réputation, et ils ne suivent qu'un Héros du village.
+- **Une armure de loup** *(optionnelle)* — tâches : item revampedwolf:iron_wolf_armor — récompense : xp 3 — après : intro
+  > RevampedWolf : des armures de loup en cuir, fer, or, diamant, et nétherite à la table de forge. Activées sur ce serveur.
+- **Un nid** *(optionnelle)* — tâches : item incubation:hay_nest, item incubation:chicken_egg_crate — récompense : xp 2 — après : intro
+  > Incubation : cinq blés font un nid de foin ; les œufs s'y couvent au lieu de se jeter. Une caisse à œufs les stocke, et le mod ajoute l'œuf au plat et les œufs brouillés.
+- **Ranimer un animal** *(optionnelle)* — tâches : advancement pet_cemetery:nether/respawn_pet — récompense : xp 5 — après : intro
+  > Quand un animal apprivoisé meurt, il laisse son collier. Posé sur une ancre de réapparition, le collier le ramène en version zombie ; ranimé une seconde fois, il revient squelette. Un zombie se soigne comme un villageois : affaibli, puis guéri.
+- **Une ménagerie** — tâches : checkmark Mes bêtes sont à l'abri — récompense : xp 5 — après : dictionnaire, gardes
+  > Des bêtes dans l'enclos, un loup en armure, un chat ranimé. Le Bestiaire de l'Encyclopédie attend les rencontres.
+
 ## Iron Jetpacks  (`iron_jetpacks`, 7 quêtes)
 
 - **Voler, à l'énergie** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8
@@ -796,6 +905,93 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Cellule, condensateur, propulseur, sangle et bobine, dans le matériau du palier : un jetpack. Charge-le dans une cellule d'énergie, enfile-le, et saute. Le mode planeur et le vol stationnaire se règlent à la touche du mod.
 - **Les pieds ne touchent plus terre** — tâches : checkmark J'ai volé — récompense : xp 5 — après : jetpack
   > Un jetpack chargé vaut des élytres sans piste de décollage. Les paliers suivants s'obtiennent en refaisant la recette avec le matériau au-dessus.
+
+## Iron's Spells  (`irons_spells`, 41 quêtes)
+
+- **Devenir mage** — tâches : checkmark Lu — récompense : item minecraft:paper 16, item minecraft:book 2
+  > Iron's Spells 'n Spellbooks ajoute la magie : des parchemins trouvés dans le monde, des grimoires où les inscrire, dix écoles (feu, glace, foudre, sacré, End, sang, évocation, nature, vide, indicible), des mages dans leurs tours, deux boss. Le mana se régénère seul ; chaque sort a un coût et un temps de recharge.
+  >   > Sur ce serveur, les sorts ne détruisent pas le terrain (spellGriefing désactivé) : une boule de feu dans un claim adverse ne casse rien. Le papier offert fait les premiers grimoires.
+- **Un premier parchemin** — tâches : item irons_spellbooks:scroll — récompense : xp 3 — après : intro
+  > Les parchemins se trouvent dans les coffres, sur les mages tués, chez le marchand ambulant. Chacun porte un sort et un niveau. On peut le consommer pour lancer le sort une fois, sans mana ni recharge — mais mieux vaut le garder pour l'inscrire dans un grimoire, où il servira sans fin.
+- **Un Journal fragile** — tâches : item irons_spellbooks:copper_spell_book — récompense : xp 3 — après : parchemin
+  > Le premier grimoire : du cuivre, du papier, de la ficelle. Peu d'emplacements, mais c'est lui qui transforme un parchemin à usage unique en sort permanent. Chaque palier de grimoire ajoute des emplacements et souvent un bonus.
+- **Une Table d'inscription** — tâches : item irons_spellbooks:inscription_table — récompense : xp 5 — après : journal
+  > Un livre, trois dalles de bois, deux barrières : la Table d'inscription. On y pose un grimoire et un parchemin, et le sort passe dans le livre. Le parchemin se récupère en retirant le sort. C'est le geste de base de toute la magie du mod.
+- **La robe du Magicien errant** — tâches : item irons_spellbooks:wandering_magician_chestplate — récompense : xp 5 — après : table
+  > De l'essence arcanique autour d'une armure de cuir : la tenue du Magicien errant. Le guide du mod la recommande comme première source de mana maximum. L'essence ne se fabrique pas : elle se pille dans les structures magiques et sur les mages.
+- **Un Tome ferré** — tâches : item irons_spellbooks:iron_spell_book — récompense : xp 3 — après : journal
+  > Chaînes, cuir, papier : le Tome ferré, deuxième palier de grimoire, encore sans matière magique. Plus d'emplacements que le journal.
+- **Une Forge à parchemins** — tâches : item irons_spellbooks:scroll_forge — récompense : xp 8 — après : table
+  > Ardoise polie et obsidienne pleurante : la Forge à parchemins. Elle fabrique un parchemin avec du papier, une encre et un foyer : l'encre fixe la rareté (donc le niveau), le foyer fixe l'école. C'est le moment où l'on cesse de dépendre du hasard des coffres.
+- **De l'encre** — tâches : item irons_spellbooks:common_ink, item irons_spellbooks:uncommon_ink — récompense : xp 5 — après : forge
+  > Cinq encres, de la commune à la légendaire, qui ne se fabriquent pas : coffres des structures magiques, mages tués, marchand ambulant (activé sur ce serveur). Une encre ne fait que les sorts dont le premier niveau est de sa rareté ou moins. Les niveaux se répartissent ainsi : 30 % communs, 25 % peu communs, 20 % rares, 15 % épiques, 10 % légendaires.
+- **Le Grimoire de l'apprenti** — tâches : item irons_spellbooks:gold_spell_book — récompense : xp 5 — après : tome
+  > Or, essence arcanique et peau de hoglin : le premier grimoire qui demande le Nether. Les hoglins lâchent la peau.
+- **Du Tissu arcanique** — tâches : item irons_spellbooks:magic_cloth 4 — récompense : xp 5 — après : errant
+  > Huit essences autour d'un bloc de laine : un Tissu arcanique. Il entre dans les grimoires avancés, les robes de sorcier et l'amélioration d'emplacements. Pour en avoir beaucoup, il faut piller les structures magiques.
+- **Les Robes du sorcier** — tâches : item irons_spellbooks:wizard_chestplate — récompense : xp 5 — après : tissu
+  > Du tissu arcanique seul, en armure : la tenue du Sorcier. C'est la base de toutes les armures d'école : chaque robe d'école se fait à partir d'une pièce de sorcier.
+- **Les écoles et leurs foyers** — tâches : item irons_spellbooks:blank_rune — récompense : xp 5 — après : forge
+  > Chaque école a un foyer, l'objet qui la représente à la forge et dans les recettes : bâton de blaze pour le feu, os gelé pour la glace, bouteille d'éclair pour la foudre, perle divine pour le sacré, perle de l'End pour l'End, fiole de sang pour le sang, émeraude pour l'évocation, pomme de terre empoisonnée pour la nature, éclat d'écho pour l'indicible.
+  >   > Une pierre runique vierge entourée de huit foyers fait la rune de l'école. La pierre vierge ne se fabrique pas : elle se trouve dans les structures magiques, et chaque mage d'école lâche sa rune.
+- **Rune de Feu** *(optionnelle)* — tâches : item irons_spellbooks:fire_rune — récompense : xp 3 — après : ecoles
+  > Huit bâtons de blaze autour d'une pierre vierge. L'école du feu : dégâts directs et brûlures.
+- **Rune de Glace** *(optionnelle)* — tâches : item irons_spellbooks:ice_rune — récompense : xp 3 — après : ecoles
+  > Huit os gelés, lâchés par les vagabonds (strays). L'école de la glace : dégâts et contrôle.
+- **Rune de Foudre** *(optionnelle)* — tâches : item irons_spellbooks:lightning_rune — récompense : xp 3 — après : ecoles
+  > Huit bouteilles d'éclair : une bouteille vide sur un creeper chargé. L'école de la foudre : des dégâts concentrés.
+- **Rune Sacrée** *(optionnelle)* — tâches : item irons_spellbooks:holy_rune — récompense : xp 3 — après : ecoles
+  > Huit perles divines (un lingot d'or et une améthyste chacune). L'école sacrée : soins, soutien, renforts pour les alliés — l'école d'une faction.
+- **Rune de l'End** *(optionnelle)* — tâches : item irons_spellbooks:ender_rune — récompense : xp 3 — après : ecoles
+  > Huit perles de l'End. L'école de l'End : de l'arcane et du mystique, entre dégâts, utilité et déplacement.
+- **Rune de Sang** *(optionnelle)* — tâches : item irons_spellbooks:blood_rune — récompense : xp 3 — après : ecoles
+  > Huit fioles de sang : des créatures dans un chaudron chauffé par un feu de camp, ou dans le chaudron d'alchimiste. L'école du sang : nécromancie, flétrissement, dégâts qui renforcent le lanceur.
+- **Rune d'Évocation** *(optionnelle)* — tâches : item irons_spellbooks:evocation_rune — récompense : xp 3 — après : ecoles
+  > Huit émeraudes. L'école de l'évocation : illusions et conjurations, la plus large palette d'attaque, de défense et d'utilité.
+- **Rune de Nature** *(optionnelle)* — tâches : item irons_spellbooks:nature_rune — récompense : xp 3 — après : ecoles
+  > Huit pommes de terre empoisonnées. L'école de la nature : affaiblir l'ennemi, puis l'achever.
+- **Un Manuscrit indicible** *(optionnelle)* — tâches : item irons_spellbooks:eldritch_manuscript — récompense : xp 8 — après : ecoles
+  > L'école indicible ne se lance ni ne se forge sans l'avoir apprise. Huit fragments de savoir ancien, trouvés dans le monde, autour d'un éclat d'écho reconstituent un Manuscrit indicible ; le consommer apprend un sort indicible. Ensuite, l'éclat d'écho sert de foyer.
+- **Une robe d'école** — tâches : item irons_spellbooks:pyromancer_chestplate — récompense : xp 8 — après : sorcier, rune_feu
+  > Une pièce de sorcier, la rune de l'école et une essence arcanique : la robe de l'école, ici celle du Pyromancien. Même modèle pour le Cryomancien, l'Électromancien, le Prêtre, le Marchombre, le Cultiste, le Manteau pesteux et l'Archévocateur, chacun avec sa rune. L'armure d'école renforce les sorts de son école.
+- **Le Grimoire enchanté** — tâches : item irons_spellbooks:diamond_spell_book — récompense : xp 8 — après : apprenti, tissu
+  > Diamants, peau de hoglin, tissu arcanique et un livre enchanté : le Grimoire enchanté, l'avant-dernier des grimoires fabricables.
+- **Une Enclume arcanique** — tâches : item irons_spellbooks:arcane_anvil — récompense : xp 10 — après : enchante
+  > Trois blocs d'améthyste, un diamant, une enclume entre deux ardoises polies : l'Enclume arcanique, l'atelier de la fin de partie. Elle monte un parchemin d'un niveau avec l'encre de la rareté suivante, améliore armures et grimoires avec des orbes (trois améliorations au plus par pièce sur ce serveur), et imprègne une arme d'un sort — l'arme consomme alors du mana, avec une recharge réduite de moitié.
+- **Du Mithril** — tâches : item irons_spellbooks:mithril_ingot — récompense : xp 5 — après : enclume
+  > Le mithril est un minerai rare de l'Overworld ; le guide du mod le place sous Y −38, dans la roche non exposée à l'air. Le minerai brut se cuit en ferraille au haut-fourneau, quatre ferrailles font un lingot. Il entre dans les orbes, les cadres de portail, les anneaux.
+- **De l'Essence de braise** — tâches : item irons_spellbooks:cinder_essence 4 — récompense : xp 5 — après : enclume
+  > Les Chevaliers anciens la lâchent. Ils dorment dans les tas d'armure du Nether : casser le tas réveille le chevalier. L'essence de braise entre dans les orbes, le chaudron d'alchimiste et l'appel qui réveille Tyros.
+- **Un Orbe d'amélioration vide** — tâches : item irons_spellbooks:upgrade_orb — récompense : xp 8 — après : mithril, braise
+  > Quatre lingots arcaniques (huit essences autour d'un lingot de fer, de cuivre ou d'or), quatre essences de braise, un lingot de mithril : l'orbe vide. Seul, il ne sert à rien ; entouré de huit runes, il devient l'orbe d'un attribut.
+- **Un orbe d'école** — tâches : item irons_spellbooks:fire_upgrade_orb — récompense : xp 8 — après : orbe, rune_feu
+  > Huit runes autour d'un orbe vide : ici l'Orbe d'amélioration de feu. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut. Les orbes de mana, de récupération et de protection suivent la même recette avec leur rune.
+- **Le Codex ancien** — tâches : item irons_spellbooks:netherite_spell_book — récompense : xp 15 — après : enchante
+  > Un lingot de nétherite, un Livre en ruine des cités anciennes, du tissu arcanique, une fiole de sang et une bouteille d'éclair : le Codex ancien, le meilleur grimoire que l'on fabrique. Les autres grands grimoires ne se fabriquent pas : le Necronomicon se prend au Roi Mort, le Grimoire d'évocation aux évocateurs, le Manuel du Blaze aux blazes, le Grimoire en peau de dragon demande la peau de l'Ender Dragon.
+- **Les robes du Mage de guerre** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_chestplate — récompense : xp 8 — après : sorcier
+  > À la table de forge : une pièce de sorcier, un modèle d'amélioration en nétherite, un lingot de nétherite. Les robes du Mage de guerre, la version blindée de la tenue de sorcier.
+- **Un Chaudron d'alchimiste** *(optionnelle)* — tâches : item irons_spellbooks:alchemist_cauldron — récompense : xp 5 — après : braise
+  > Un chaudron, du fer, une essence arcanique et une essence de braise. Le Chaudron d'alchimiste recycle les parchemins inutiles (une chance sur deux sur ce serveur), tire le sang des créatures, et peut aussi brasser des potions (autorisé ici).
+- **Des Cadres de portail** *(optionnelle)* — tâches : item irons_spellbooks:portal_frame 2 — récompense : xp 5 — après : mithril
+  > Mithril, lingots arcaniques, perle de l'End : deux Cadres de portail par recette, que le sort Portail relie entre eux. Sur ce serveur, seul le propriétaire d'un cadre peut le teindre ; n'importe qui peut le casser — à poser dans le claim.
+- **Une carte enroulée** *(optionnelle)* — tâches : item irons_spellbooks:furled_map_citadel — récompense : xp 5 — après : braise
+  > Les cartes enroulées mènent à une structure donnée ; on les trouve, on les échange, ou on les fabrique. Celle de la Citadelle : du papier, deux essences de braise, deux fragments de savoir ancien. La citadelle est le repaire des Chevaliers anciens.
+- **Une tour de mage** *(optionnelle)* — tâches : structure irons_spellbooks:pyromancer_tower — récompense : xp 5 — après : parchemin
+  > Chaque structure magique abrite un mage qui ne te laissera pas faire : la tour du Pyromancien, la tour de montagne, la hutte des mangroves, la tanière des araignées de glace, le fort de l'Archévocateur. C'est là que sont l'essence, les encres, les runes et les parchemins.
+- **Le fort de l'Archévocateur** *(optionnelle)* — tâches : structure irons_spellbooks:evoker_fort — récompense : xp 5 — après : tour
+  > L'Archévocateur tient un fort avec des villageois captifs. Les libérer vaut la reconnaissance des villages — et, selon le guide du mod, finit par mettre une Bible du villageois entre tes mains, un grimoire sacré qui ne se fabrique pas.
+- **Les Catacombes** — tâches : structure irons_spellbooks:catacombs — récompense : xp 8 — après : enclume
+  > Un labyrinthe souterrain de zombies, de pièges et de coffres fermés à clé — les clés d'os ouvrent ses chambres fortes. Au fond repose le corps du Roi Mort.
+- **Vaincre le Roi Mort** — tâches : kill irons_spellbooks:dead_king — récompense : xp 20 — après : catacombes
+  > Un clic droit sur le corps le relève. Le Roi Mort est le mage du sang : nécromancie, barrages, deux phases. Il lâche le Necronomicon et son Bâton de sang, le sceptre d'invocation que le guide du mod qualifie d'inégalé. Sa mort est annoncée dans #faits-d-armes.
+- **Un Invocateur d'âme de braise** — tâches : item irons_spellbooks:cinderous_soulcaller — récompense : xp 8 — après : braise
+  > Quatre essences de braise, quatre fragments de nétherite, un éclat d'écho. L'Invocateur d'âme de braise appelle l'Écho de Tyros ; utilisé au mauvais endroit, il répond « rien ne fait écho ».
+- **Vaincre l'Écho de Tyros** — tâches : kill irons_spellbooks:fire_boss — récompense : xp 20 — après : appel
+  > Le Premier Porteur de flamme, mage de feu et combattant. Sa mort est annoncée dans #faits-d-armes. Le staff n'a pas touché à ses points de vie ni à sa puissance (config du serveur à zéro).
+- **Hazen 'n Stuff** *(optionnelle)* — tâches : item hazennstuff:eldritch_rune — récompense : xp 5 — après : orbe
+  > Hazen 'n Stuff prolonge Iron's Spells : des runes et des orbes d'attributs nouveaux (radiance, ombre, mêlée, archerie, santé, et une rune indicible), des armures de mage (Séraphin, Blazeborne, Souverain cryogénique, Rôdeur du tonnerre, Alchimiste suprême…) et des armes qui résonnent avec la forge à parchemins. Les recettes sont dans JEI.
+- **Archimage** — tâches : checkmark Mon grimoire est plein — récompense : xp 10 — après : codex, orbe_ecole, roi_mort
+  > Un Codex ancien plein, des robes d'école améliorées, deux boss au tableau. Le chapitre Grimoire de l'Encyclopédie liste chaque sort du pack ; l'Armurerie, chaque robe.
 
 ## Mystical Agriculture  (`mystical_agriculture`, 25 quêtes)
 
