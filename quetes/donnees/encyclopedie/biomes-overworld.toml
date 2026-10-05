@@ -1,0 +1,1327 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&2Biomes — Overworld"
+fichier = "enc_biomes_overworld"
+groupe = "encyclopedie"
+icone = "minecraft:grass_block"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&2Biomes — Overworld"
+taille = 1.5
+icone = "minecraft:grass_block"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque biome de l'Overworld que le serveur génère : le jeu de base, Biomes O' Plenty, les grottes de YUNG's et de Galosphere, les rivières de Climate Rivers, le Glimmering Weald de Quark. Une quête se valide en &lentrant&r dans le biome.
+
+Seuls les biomes que les configs du serveur laissent générer sont là (outils/generation.py).
+"""
+
+[[quete]]
+cle = "minecraft_badlands"
+titre = "Découvrir : Badlands"
+optionnel = true
+taches = ["biome minecraft:badlands"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_bamboo_jungle"
+titre = "Découvrir : Jungle de bambous"
+optionnel = true
+taches = ["biome minecraft:bamboo_jungle"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_beach"
+titre = "Découvrir : Plage"
+optionnel = true
+taches = ["biome minecraft:beach"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_birch_forest"
+titre = "Découvrir : Forêt de bouleaux"
+optionnel = true
+taches = ["biome minecraft:birch_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_cherry_grove"
+titre = "Découvrir : Bosquet de cerisiers"
+optionnel = true
+taches = ["biome minecraft:cherry_grove"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Araignée, Zombie, Zombie-villageois et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_cold_ocean"
+titre = "Découvrir : Océan froid"
+optionnel = true
+taches = ["biome minecraft:cold_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_dark_forest"
+titre = "Découvrir : Forêt sombre"
+optionnel = true
+taches = ["biome minecraft:dark_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_deep_cold_ocean"
+titre = "Découvrir : Océan froid profond"
+optionnel = true
+taches = ["biome minecraft:deep_cold_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_deep_dark"
+titre = "Découvrir : Abîmes"
+optionnel = true
+taches = ["biome minecraft:deep_dark"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "minecraft_deep_frozen_ocean"
+titre = "Découvrir : Océan gelé profond"
+optionnel = true
+taches = ["biome minecraft:deep_frozen_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_deep_lukewarm_ocean"
+titre = "Découvrir : Océan tiède profond"
+optionnel = true
+taches = ["biome minecraft:deep_lukewarm_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_deep_ocean"
+titre = "Découvrir : Océan profond"
+optionnel = true
+taches = ["biome minecraft:deep_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_desert"
+titre = "Découvrir : Désert"
+optionnel = true
+taches = ["biome minecraft:desert"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_dripstone_caves"
+titre = "Découvrir : Cavernes de spéléothèmes"
+optionnel = true
+taches = ["biome minecraft:dripstone_caves"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_eroded_badlands"
+titre = "Découvrir : Badlands érodées"
+optionnel = true
+taches = ["biome minecraft:eroded_badlands"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_flower_forest"
+titre = "Découvrir : Forêt fleurie"
+optionnel = true
+taches = ["biome minecraft:flower_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_forest"
+titre = "Découvrir : Forêt"
+optionnel = true
+taches = ["biome minecraft:forest"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_frozen_ocean"
+titre = "Découvrir : Océan gelé"
+optionnel = true
+taches = ["biome minecraft:frozen_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_frozen_peaks"
+titre = "Découvrir : Pics gelés"
+optionnel = true
+taches = ["biome minecraft:frozen_peaks"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_frozen_river"
+titre = "Découvrir : Rivière gelée"
+optionnel = true
+taches = ["biome minecraft:frozen_river"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_grove"
+titre = "Découvrir : Bosquet"
+optionnel = true
+taches = ["biome minecraft:grove"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_ice_spikes"
+titre = "Découvrir : Stalagmites de glace"
+optionnel = true
+taches = ["biome minecraft:ice_spikes"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_jagged_peaks"
+titre = "Découvrir : Pics dentelés"
+optionnel = true
+taches = ["biome minecraft:jagged_peaks"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_jungle"
+titre = "Découvrir : Jungle"
+optionnel = true
+taches = ["biome minecraft:jungle"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_lukewarm_ocean"
+titre = "Découvrir : Océan tiède"
+optionnel = true
+taches = ["biome minecraft:lukewarm_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_lush_caves"
+titre = "Découvrir : Cavernes luxuriantes"
+optionnel = true
+taches = ["biome minecraft:lush_caves"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_mangrove_swamp"
+titre = "Découvrir : Marais à mangroves"
+optionnel = true
+taches = ["biome minecraft:mangrove_swamp"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_meadow"
+titre = "Découvrir : Prairie"
+optionnel = true
+taches = ["biome minecraft:meadow"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Araignée, Zombie, Zombie-villageois, Squelette et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_mushroom_fields"
+titre = "Découvrir : Champs de champignons"
+optionnel = true
+taches = ["biome minecraft:mushroom_fields"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Poulpe luisant, Mooshroom (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_ocean"
+titre = "Découvrir : Océan"
+optionnel = true
+taches = ["biome minecraft:ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_old_growth_birch_forest"
+titre = "Découvrir : Forêt ancienne de bouleaux"
+optionnel = true
+taches = ["biome minecraft:old_growth_birch_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_old_growth_pine_taiga"
+titre = "Découvrir : Taïga ancienne de pins"
+optionnel = true
+taches = ["biome minecraft:old_growth_pine_taiga"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_old_growth_spruce_taiga"
+titre = "Découvrir : Taïga ancienne de sapins"
+optionnel = true
+taches = ["biome minecraft:old_growth_spruce_taiga"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_pale_garden"
+titre = "Découvrir : Jardin pâle"
+optionnel = true
+taches = ["biome minecraft:pale_garden"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "minecraft_plains"
+titre = "Découvrir : Plaines"
+optionnel = true
+taches = ["biome minecraft:plains"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_river"
+titre = "Découvrir : Rivière"
+optionnel = true
+taches = ["biome minecraft:river"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_savanna"
+titre = "Découvrir : Savane"
+optionnel = true
+taches = ["biome minecraft:savanna"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_savanna_plateau"
+titre = "Découvrir : Plateau de savane"
+optionnel = true
+taches = ["biome minecraft:savanna_plateau"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_snowy_beach"
+titre = "Découvrir : Plage enneigée"
+optionnel = true
+taches = ["biome minecraft:snowy_beach"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_snowy_plains"
+titre = "Découvrir : Plaines enneigées"
+optionnel = true
+taches = ["biome minecraft:snowy_plains"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_snowy_slopes"
+titre = "Découvrir : Pentes enneigées"
+optionnel = true
+taches = ["biome minecraft:snowy_slopes"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_snowy_taiga"
+titre = "Découvrir : Taïga enneigée"
+optionnel = true
+taches = ["biome minecraft:snowy_taiga"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_sparse_jungle"
+titre = "Découvrir : Jungle clairsemée"
+optionnel = true
+taches = ["biome minecraft:sparse_jungle"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_stony_peaks"
+titre = "Découvrir : Pics rocheux"
+optionnel = true
+taches = ["biome minecraft:stony_peaks"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_stony_shore"
+titre = "Découvrir : Côte rocheuse"
+optionnel = true
+taches = ["biome minecraft:stony_shore"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_sulfur_caves"
+titre = "Découvrir : Cavernes de soufre"
+optionnel = true
+taches = ["biome minecraft:sulfur_caves"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Araignée venimeuse (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_sunflower_plains"
+titre = "Découvrir : Plaines de tournesols"
+optionnel = true
+taches = ["biome minecraft:sunflower_plains"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_swamp"
+titre = "Découvrir : Marais"
+optionnel = true
+taches = ["biome minecraft:swamp"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_taiga"
+titre = "Découvrir : Taïga"
+optionnel = true
+taches = ["biome minecraft:taiga"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_warm_ocean"
+titre = "Découvrir : Océan chaud"
+optionnel = true
+taches = ["biome minecraft:warm_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_windswept_forest"
+titre = "Découvrir : Forêt venteuse"
+optionnel = true
+taches = ["biome minecraft:windswept_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_windswept_gravelly_hills"
+titre = "Découvrir : Collines graveleuses venteuses"
+optionnel = true
+taches = ["biome minecraft:windswept_gravelly_hills"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_windswept_hills"
+titre = "Découvrir : Collines venteuses"
+optionnel = true
+taches = ["biome minecraft:windswept_hills"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_windswept_savanna"
+titre = "Découvrir : Savane venteuse"
+optionnel = true
+taches = ["biome minecraft:windswept_savanna"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "minecraft_wooded_badlands"
+titre = "Découvrir : Badlands boisées"
+optionnel = true
+taches = ["biome minecraft:wooded_badlands"]
+recompenses = ["xp 1"]
+description = """
+Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "biomesoplenty_aspen_glade"
+titre = "Découvrir : « Aspen Glade »"
+optionnel = true
+taches = ["biome biomesoplenty:aspen_glade"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_auroral_garden"
+titre = "Découvrir : Jardin auroral"
+optionnel = true
+taches = ["biome biomesoplenty:auroral_garden"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_bayou"
+titre = "Découvrir : Bayou"
+optionnel = true
+taches = ["biome biomesoplenty:bayou"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_bog"
+titre = "Découvrir : Tourbière"
+optionnel = true
+taches = ["biome biomesoplenty:bog"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_cold_desert"
+titre = "Découvrir : Désert froid"
+optionnel = true
+taches = ["biome biomesoplenty:cold_desert"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_coniferous_forest"
+titre = "Découvrir : Forêt de conifères"
+optionnel = true
+taches = ["biome biomesoplenty:coniferous_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_crag"
+titre = "Découvrir : Escarpée"
+optionnel = true
+taches = ["biome biomesoplenty:crag"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_dead_forest"
+titre = "Découvrir : Forêt morte"
+optionnel = true
+taches = ["biome biomesoplenty:dead_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_dryland"
+titre = "Découvrir : Terre sèche"
+optionnel = true
+taches = ["biome biomesoplenty:dryland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_dune_beach"
+titre = "Découvrir : Plage de dunes"
+optionnel = true
+taches = ["biome biomesoplenty:dune_beach"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_end_corruption"
+titre = "Découvrir : « End corruption »"
+optionnel = true
+taches = ["biome biomesoplenty:end_corruption"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_end_reef"
+titre = "Découvrir : « End reef »"
+optionnel = true
+taches = ["biome biomesoplenty:end_reef"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_end_wilds"
+titre = "Découvrir : « End wilds »"
+optionnel = true
+taches = ["biome biomesoplenty:end_wilds"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_field"
+titre = "Découvrir : Champ"
+optionnel = true
+taches = ["biome biomesoplenty:field"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_fir_clearing"
+titre = "Découvrir : Clairière de pins"
+optionnel = true
+taches = ["biome biomesoplenty:fir_clearing"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_floodplain"
+titre = "Découvrir : Plaine inondable"
+optionnel = true
+taches = ["biome biomesoplenty:floodplain"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_forested_field"
+titre = "Découvrir : Champ forestier"
+optionnel = true
+taches = ["biome biomesoplenty:forested_field"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_fungal_jungle"
+titre = "Découvrir : Jungle fongique"
+optionnel = true
+taches = ["biome biomesoplenty:fungal_jungle"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_glowing_grotto"
+titre = "Découvrir : Grotte lumineuse"
+optionnel = true
+taches = ["biome biomesoplenty:glowing_grotto"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_grassland"
+titre = "Découvrir : Prairies"
+optionnel = true
+taches = ["biome biomesoplenty:grassland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_gravel_beach"
+titre = "Découvrir : « Gravel Beach »"
+optionnel = true
+taches = ["biome biomesoplenty:gravel_beach"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_highland"
+titre = "Découvrir : Hauts plateaux"
+optionnel = true
+taches = ["biome biomesoplenty:highland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_hot_springs"
+titre = "Découvrir : « Hot Springs »"
+optionnel = true
+taches = ["biome biomesoplenty:hot_springs"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_jacaranda_glade"
+titre = "Découvrir : « Jacaranda Glade »"
+optionnel = true
+taches = ["biome biomesoplenty:jacaranda_glade"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_jade_cliffs"
+titre = "Découvrir : Falaises de jade"
+optionnel = true
+taches = ["biome biomesoplenty:jade_cliffs"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_lavender_field"
+titre = "Découvrir : Champ de lavande"
+optionnel = true
+taches = ["biome biomesoplenty:lavender_field"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_lush_desert"
+titre = "Découvrir : Désert luxuriant"
+optionnel = true
+taches = ["biome biomesoplenty:lush_desert"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_lush_savanna"
+titre = "Découvrir : Savane luxuriante"
+optionnel = true
+taches = ["biome biomesoplenty:lush_savanna"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_maple_woods"
+titre = "Découvrir : Bois d'érables"
+optionnel = true
+taches = ["biome biomesoplenty:maple_woods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_marsh"
+titre = "Découvrir : Marais"
+optionnel = true
+taches = ["biome biomesoplenty:marsh"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_mediterranean_forest"
+titre = "Découvrir : Forêt méditerranéenne"
+optionnel = true
+taches = ["biome biomesoplenty:mediterranean_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_moor"
+titre = "Découvrir : « Moor »"
+optionnel = true
+taches = ["biome biomesoplenty:moor"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_muskeg"
+titre = "Découvrir : Fondrière"
+optionnel = true
+taches = ["biome biomesoplenty:muskeg"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_mystic_grove"
+titre = "Découvrir : Bosquet mystique"
+optionnel = true
+taches = ["biome biomesoplenty:mystic_grove"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Allay (données du pack).
+"""
+
+[[quete]]
+cle = "biomesoplenty_old_growth_dead_forest"
+titre = "Découvrir : Forêt morte ancienne"
+optionnel = true
+taches = ["biome biomesoplenty:old_growth_dead_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_old_growth_woodland"
+titre = "Découvrir : Forêt ancienne"
+optionnel = true
+taches = ["biome biomesoplenty:old_growth_woodland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_ominous_woods"
+titre = "Découvrir : Bois sinistres"
+optionnel = true
+taches = ["biome biomesoplenty:ominous_woods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Illusionniste (données du pack).
+"""
+
+[[quete]]
+cle = "biomesoplenty_orchard"
+titre = "Découvrir : Verger"
+optionnel = true
+taches = ["biome biomesoplenty:orchard"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_origin_valley"
+titre = "Découvrir : Vallée originelle"
+optionnel = true
+taches = ["biome biomesoplenty:origin_valley"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_overgrown_greens"
+titre = "Découvrir : « Overgrown Greens »"
+optionnel = true
+taches = ["biome biomesoplenty:overgrown_greens"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_pasture"
+titre = "Découvrir : Pâturage"
+optionnel = true
+taches = ["biome biomesoplenty:pasture"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_prairie"
+titre = "Découvrir : Prairie"
+optionnel = true
+taches = ["biome biomesoplenty:prairie"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_pumpkin_patch"
+titre = "Découvrir : Parcelle de citrouilles"
+optionnel = true
+taches = ["biome biomesoplenty:pumpkin_patch"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_rainforest"
+titre = "Découvrir : Forêt tropicale"
+optionnel = true
+taches = ["biome biomesoplenty:rainforest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_redwood_forest"
+titre = "Découvrir : Forêt de séquoias"
+optionnel = true
+taches = ["biome biomesoplenty:redwood_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_rocky_rainforest"
+titre = "Découvrir : Forêt tropicale rocailleuse"
+optionnel = true
+taches = ["biome biomesoplenty:rocky_rainforest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_rocky_shrubland"
+titre = "Découvrir : Fruticée rocailleuse"
+optionnel = true
+taches = ["biome biomesoplenty:rocky_shrubland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_scrubland"
+titre = "Découvrir : Brousse"
+optionnel = true
+taches = ["biome biomesoplenty:scrubland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_seasonal_forest"
+titre = "Découvrir : Forêt saisonnière"
+optionnel = true
+taches = ["biome biomesoplenty:seasonal_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_shrubland"
+titre = "Découvrir : Fruticée"
+optionnel = true
+taches = ["biome biomesoplenty:shrubland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_snowblossom_grove"
+titre = "Découvrir : « Snowblossom Grove »"
+optionnel = true
+taches = ["biome biomesoplenty:snowblossom_grove"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_snowy_coniferous_forest"
+titre = "Découvrir : Forêt de connifères enneigée"
+optionnel = true
+taches = ["biome biomesoplenty:snowy_coniferous_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_snowy_fir_clearing"
+titre = "Découvrir : Clairière de pins"
+optionnel = true
+taches = ["biome biomesoplenty:snowy_fir_clearing"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_snowy_maple_woods"
+titre = "Découvrir : Forêt d'érables enneigée"
+optionnel = true
+taches = ["biome biomesoplenty:snowy_maple_woods"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_spider_nest"
+titre = "Découvrir : Nid d'araignée"
+optionnel = true
+taches = ["biome biomesoplenty:spider_nest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Araignée venimeuse (données du pack).
+"""
+
+[[quete]]
+cle = "biomesoplenty_tropics"
+titre = "Découvrir : Tropiques"
+optionnel = true
+taches = ["biome biomesoplenty:tropics"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_tundra"
+titre = "Découvrir : Toundra"
+optionnel = true
+taches = ["biome biomesoplenty:tundra"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_volcanic_plains"
+titre = "Découvrir : Plaines volcaniques"
+optionnel = true
+taches = ["biome biomesoplenty:volcanic_plains"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_volcano"
+titre = "Découvrir : Volcan"
+optionnel = true
+taches = ["biome biomesoplenty:volcano"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_wasteland"
+titre = "Découvrir : Terres désolées"
+optionnel = true
+taches = ["biome biomesoplenty:wasteland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_wasteland_steppe"
+titre = "Découvrir : Steppe des terres désolées"
+optionnel = true
+taches = ["biome biomesoplenty:wasteland_steppe"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_wetland"
+titre = "Découvrir : Marécages"
+optionnel = true
+taches = ["biome biomesoplenty:wetland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_wintry_origin_valley"
+titre = "Découvrir : « Wintry Origin Valley »"
+optionnel = true
+taches = ["biome biomesoplenty:wintry_origin_valley"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "biomesoplenty_woodland"
+titre = "Découvrir : Bois"
+optionnel = true
+taches = ["biome biomesoplenty:woodland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Biomes O' Plenty, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "climaterivers_cold_river"
+titre = "Découvrir : « Cold river »"
+optionnel = true
+taches = ["biome climaterivers:cold_river"]
+recompenses = ["xp 1"]
+description = """
+Biome de Climate Rivers, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "climaterivers_lukewarm_river"
+titre = "Découvrir : « Lukewarm river »"
+optionnel = true
+taches = ["biome climaterivers:lukewarm_river"]
+recompenses = ["xp 1"]
+description = """
+Biome de Climate Rivers, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "climaterivers_warm_river"
+titre = "Découvrir : « Warm river »"
+optionnel = true
+taches = ["biome climaterivers:warm_river"]
+recompenses = ["xp 1"]
+description = """
+Biome de Climate Rivers, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "galosphere_crystal_canyons"
+titre = "Découvrir : « Crystal Canyons »"
+optionnel = true
+taches = ["biome galosphere:crystal_canyons"]
+recompenses = ["xp 1"]
+description = """
+Biome de Galosphere, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "galosphere_lichen_caves"
+titre = "Découvrir : « Lichen Caves »"
+optionnel = true
+taches = ["biome galosphere:lichen_caves"]
+recompenses = ["xp 1"]
+description = """
+Biome de Galosphere, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "galosphere_pink_salt_caves"
+titre = "Découvrir : « Pink Salt Caves »"
+optionnel = true
+taches = ["biome galosphere:pink_salt_caves"]
+recompenses = ["xp 1"]
+description = """
+Biome de Galosphere, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "quark_glimmering_weald"
+titre = "Découvrir : Forêt lumineuse"
+optionnel = true
+taches = ["biome quark:glimmering_weald"]
+recompenses = ["xp 1"]
+description = """
+Biome de Quark, dans l'Overworld. On y croise : Stoneling (données du pack).
+"""
+
+[[quete]]
+cle = "yungscavebiomes_frosted_caves"
+titre = "Découvrir : « Frosted Caves »"
+optionnel = true
+taches = ["biome yungscavebiomes:frosted_caves"]
+recompenses = ["xp 1"]
+description = """
+Biome de YUNG's Cave Biomes, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "yungscavebiomes_lost_caves"
+titre = "Découvrir : « Lost Caves »"
+optionnel = true
+taches = ["biome yungscavebiomes:lost_caves"]
+recompenses = ["xp 1"]
+description = """
+Biome de YUNG's Cave Biomes, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "yungscavebiomes_marble_caves"
+titre = "Découvrir : « Marble Caves »"
+optionnel = true
+taches = ["biome yungscavebiomes:marble_caves"]
+recompenses = ["xp 1"]
+description = """
+Biome de YUNG's Cave Biomes, dans l'Overworld.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:filled_map"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["minecraft_badlands", "minecraft_bamboo_jungle", "minecraft_beach", "minecraft_birch_forest", "minecraft_cherry_grove", "minecraft_cold_ocean", "minecraft_dark_forest", "minecraft_deep_cold_ocean", "minecraft_deep_dark", "minecraft_deep_frozen_ocean", "minecraft_deep_lukewarm_ocean", "minecraft_deep_ocean", "minecraft_desert", "minecraft_dripstone_caves", "minecraft_eroded_badlands", "minecraft_flower_forest", "minecraft_forest", "minecraft_frozen_ocean", "minecraft_frozen_peaks", "minecraft_frozen_river", "minecraft_grove", "minecraft_ice_spikes", "minecraft_jagged_peaks", "minecraft_jungle", "minecraft_lukewarm_ocean", "minecraft_lush_caves", "minecraft_mangrove_swamp", "minecraft_meadow", "minecraft_mushroom_fields", "minecraft_ocean", "minecraft_old_growth_birch_forest", "minecraft_old_growth_pine_taiga", "minecraft_old_growth_spruce_taiga", "minecraft_pale_garden", "minecraft_plains", "minecraft_river", "minecraft_savanna", "minecraft_savanna_plateau", "minecraft_snowy_beach", "minecraft_snowy_plains", "minecraft_snowy_slopes", "minecraft_snowy_taiga", "minecraft_sparse_jungle", "minecraft_stony_peaks", "minecraft_stony_shore", "minecraft_sulfur_caves", "minecraft_sunflower_plains", "minecraft_swamp", "minecraft_taiga", "minecraft_warm_ocean", "minecraft_windswept_forest", "minecraft_windswept_gravelly_hills", "minecraft_windswept_hills", "minecraft_windswept_savanna", "minecraft_wooded_badlands", "biomesoplenty_aspen_glade", "biomesoplenty_auroral_garden", "biomesoplenty_bayou", "biomesoplenty_bog", "biomesoplenty_cold_desert", "biomesoplenty_coniferous_forest", "biomesoplenty_crag", "biomesoplenty_dead_forest", "biomesoplenty_dryland", "biomesoplenty_dune_beach", "biomesoplenty_end_corruption", "biomesoplenty_end_reef", "biomesoplenty_end_wilds", "biomesoplenty_field", "biomesoplenty_fir_clearing", "biomesoplenty_floodplain", "biomesoplenty_forested_field", "biomesoplenty_fungal_jungle", "biomesoplenty_glowing_grotto", "biomesoplenty_grassland", "biomesoplenty_gravel_beach", "biomesoplenty_highland", "biomesoplenty_hot_springs", "biomesoplenty_jacaranda_glade", "biomesoplenty_jade_cliffs", "biomesoplenty_lavender_field", "biomesoplenty_lush_desert", "biomesoplenty_lush_savanna", "biomesoplenty_maple_woods", "biomesoplenty_marsh", "biomesoplenty_mediterranean_forest", "biomesoplenty_moor", "biomesoplenty_muskeg", "biomesoplenty_mystic_grove", "biomesoplenty_old_growth_dead_forest", "biomesoplenty_old_growth_woodland", "biomesoplenty_ominous_woods", "biomesoplenty_orchard", "biomesoplenty_origin_valley", "biomesoplenty_overgrown_greens", "biomesoplenty_pasture", "biomesoplenty_prairie", "biomesoplenty_pumpkin_patch", "biomesoplenty_rainforest", "biomesoplenty_redwood_forest", "biomesoplenty_rocky_rainforest", "biomesoplenty_rocky_shrubland", "biomesoplenty_scrubland", "biomesoplenty_seasonal_forest", "biomesoplenty_shrubland", "biomesoplenty_snowblossom_grove", "biomesoplenty_snowy_coniferous_forest", "biomesoplenty_snowy_fir_clearing", "biomesoplenty_snowy_maple_woods", "biomesoplenty_spider_nest", "biomesoplenty_tropics", "biomesoplenty_tundra", "biomesoplenty_volcanic_plains", "biomesoplenty_volcano", "biomesoplenty_wasteland", "biomesoplenty_wasteland_steppe", "biomesoplenty_wetland", "biomesoplenty_wintry_origin_valley", "biomesoplenty_woodland", "climaterivers_cold_river", "climaterivers_lukewarm_river", "climaterivers_warm_river", "galosphere_crystal_canyons", "galosphere_lichen_caves", "galosphere_pink_salt_caves", "quark_glimmering_weald", "yungscavebiomes_frosted_caves", "yungscavebiomes_lost_caves", "yungscavebiomes_marble_caves"]
+description = """
+Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.
+"""

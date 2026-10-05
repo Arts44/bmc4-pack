@@ -1,0 +1,2639 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_biomes_overworld"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:grass_block"
+	id: "0D870F7CA2366D0B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Chaque biome de l'Overworld que le serveur génère : le jeu de base, Biomes O' Plenty, les grottes de YUNG's et de Galosphere, les rivières de Climate Rivers, le Glimmering Weald de Quark. Une quête se valide en &lentrant&r dans le biome."
+				""
+				"Seuls les biomes que les configs du serveur laissent générer sont là (outils/generation.py)."
+			]
+			icon: "minecraft:grass_block"
+			id: "25A3C8EC53D3426B"
+			rewards: [{
+				id: "76743AA893B221D0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1F59A9A7D248A064"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&2Biomes — Overworld"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "529CBC4E828A7D49"
+			optional: true
+			rewards: [{
+				id: "7FD12BE48A7CCB3F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:badlands"
+				id: "625F3A858CB7CEF3"
+				type: "biome"
+			}]
+			title: "Découvrir : Badlands"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "5B6951339274D8F1"
+			optional: true
+			rewards: [{
+				id: "22289156AFE274B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:bamboo_jungle"
+				id: "6F8C5B0D01F5C034"
+				type: "biome"
+			}]
+			title: "Découvrir : Jungle de bambous"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "2DF8E6AF36E01F4A"
+			optional: true
+			rewards: [{
+				id: "2CEA7029F9AD4343"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:beach"
+				id: "7603D07D25806884"
+				type: "biome"
+			}]
+			title: "Découvrir : Plage"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "3E74331967A240AD"
+			optional: true
+			rewards: [{
+				id: "1A9D005723FB043A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:birch_forest"
+				id: "7137E715E90CFE69"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt de bouleaux"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Araignée, Zombie, Zombie-villageois et d'autres (données du pack)."]
+			id: "0DCCE265205C329C"
+			optional: true
+			rewards: [{
+				id: "2DA5FA936CF629A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				id: "31015677B3760653"
+				type: "biome"
+			}]
+			title: "Découvrir : Bosquet de cerisiers"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "6502DBC10C3A685E"
+			optional: true
+			rewards: [{
+				id: "7BBA248840D1D3CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:cold_ocean"
+				id: "1187D132F96C70D0"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan froid"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "75B59E22FD6D01CF"
+			optional: true
+			rewards: [{
+				id: "172DFB6B251C9E51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				id: "58B64EDE9C9ABEC8"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt sombre"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "093C21B0ECB7632C"
+			optional: true
+			rewards: [{
+				id: "7614E849EDD5C805"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:deep_cold_ocean"
+				id: "1B14DDEBD97263D9"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan froid profond"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld."]
+			id: "6DFEB6315049EF38"
+			optional: true
+			rewards: [{
+				id: "2150A53B6540E201"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				id: "06AF4AD0B20D8281"
+				type: "biome"
+			}]
+			title: "Découvrir : Abîmes"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "0C1B27CC6B0F1E61"
+			optional: true
+			rewards: [{
+				id: "49FB6AC27CFC2121"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				id: "1BBD2E1BFB2F0277"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan gelé profond"
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "41453549DE5C70A2"
+			optional: true
+			rewards: [{
+				id: "0E1B52531F1F3705"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:deep_lukewarm_ocean"
+				id: "7F16F4ADAD4DAAE3"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan tiède profond"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "2540316A9472AFAB"
+			optional: true
+			rewards: [{
+				id: "40585FBAF5DAFD5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:deep_ocean"
+				id: "3BC8E5FB234A7B17"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan profond"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "349D9636C6907DC0"
+			optional: true
+			rewards: [{
+				id: "0CABAA652E33A7B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:desert"
+				id: "68423A51C7B2B453"
+				type: "biome"
+			}]
+			title: "Découvrir : Désert"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "520E8B129A17C1B3"
+			optional: true
+			rewards: [{
+				id: "1DEC8767E9A2107F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:dripstone_caves"
+				id: "6F1305A7CC075012"
+				type: "biome"
+			}]
+			title: "Découvrir : Cavernes de spéléothèmes"
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "792FEAF21F333F74"
+			optional: true
+			rewards: [{
+				id: "28CCB31D3A2CA807"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:eroded_badlands"
+				id: "1D5186B7EB66CD6F"
+				type: "biome"
+			}]
+			title: "Découvrir : Badlands érodées"
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "54DC45D63FB06C7D"
+			optional: true
+			rewards: [{
+				id: "266AE73350FFA86D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:flower_forest"
+				id: "6C922AA7B41A393B"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt fleurie"
+			x: 22.5d
+			y: -6.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack)."]
+			id: "61A1341E85CD7891"
+			optional: true
+			rewards: [{
+				id: "51344CC712976F4A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:forest"
+				id: "5CE24C5E8C85097E"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "4B8AF623EE5DE721"
+			optional: true
+			rewards: [{
+				id: "7B57978D68ADB68C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:frozen_ocean"
+				id: "407E42C2C566D682"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan gelé"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "246F0D1DE4C9ABE8"
+			optional: true
+			rewards: [{
+				id: "4CCCA7F4AA6FAD33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:frozen_peaks"
+				id: "4C9068D8DFCBE4F3"
+				type: "biome"
+			}]
+			title: "Découvrir : Pics gelés"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "593DFA860B5DD8FD"
+			optional: true
+			rewards: [{
+				id: "7AB46AFB8D89DB49"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:frozen_river"
+				id: "78E6EDBAD2F8A865"
+				type: "biome"
+			}]
+			title: "Découvrir : Rivière gelée"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack)."]
+			id: "29938FC789ABA165"
+			optional: true
+			rewards: [{
+				id: "6CCDC4DB46F8D972"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:grove"
+				id: "6F0968FE6D001B76"
+				type: "biome"
+			}]
+			title: "Découvrir : Bosquet"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "0BE7D6B90E61624C"
+			optional: true
+			rewards: [{
+				id: "7B9ACD99DBDD0718"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:ice_spikes"
+				id: "512BC0D8004D83C3"
+				type: "biome"
+			}]
+			title: "Découvrir : Stalagmites de glace"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "421A4D3336377FB2"
+			optional: true
+			rewards: [{
+				id: "570154153A305D1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:jagged_peaks"
+				id: "7860F2CB32DCA26B"
+				type: "biome"
+			}]
+			title: "Découvrir : Pics dentelés"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "05C11FE36BDF8C39"
+			optional: true
+			rewards: [{
+				id: "67917526EE49E0DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:jungle"
+				id: "55D39D4C6870D93D"
+				type: "biome"
+			}]
+			title: "Découvrir : Jungle"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "73D3A457DC3383E5"
+			optional: true
+			rewards: [{
+				id: "17D46A5025F3DF8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:lukewarm_ocean"
+				id: "763DC58511DCDC67"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan tiède"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "415A5015F1E19E93"
+			optional: true
+			rewards: [{
+				id: "629F576C8ADCAC94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				id: "7F8215838945C007"
+				type: "biome"
+			}]
+			title: "Découvrir : Cavernes luxuriantes"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "41C92CA8D0236D3B"
+			optional: true
+			rewards: [{
+				id: "4295FC129F2BC08B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:mangrove_swamp"
+				id: "47A5B9230E55757D"
+				type: "biome"
+			}]
+			title: "Découvrir : Marais à mangroves"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Araignée, Zombie, Zombie-villageois, Squelette et d'autres (données du pack)."]
+			id: "1F0C96D59A199FC8"
+			optional: true
+			rewards: [{
+				id: "1365A64101AE4F54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:meadow"
+				id: "1E298A3855487EF6"
+				type: "biome"
+			}]
+			title: "Découvrir : Prairie"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Poulpe luisant, Mooshroom (données du pack)."]
+			id: "54E6D738EBBDF3EB"
+			optional: true
+			rewards: [{
+				id: "7C365D381F8AA39D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				id: "23D831800E78C7C3"
+				type: "biome"
+			}]
+			title: "Découvrir : Champs de champignons"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "58D4C44E6F46CF2B"
+			optional: true
+			rewards: [{
+				id: "5B85D69EB97E7434"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:ocean"
+				id: "1CA1BED09F6B214D"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "66EC5272F01814ED"
+			optional: true
+			rewards: [{
+				id: "28350C3C4887BBF5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:old_growth_birch_forest"
+				id: "278845C4F4C90570"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt ancienne de bouleaux"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack)."]
+			id: "69B99825E28CB8F6"
+			optional: true
+			rewards: [{
+				id: "174BF3E5B1974C54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:old_growth_pine_taiga"
+				id: "183195D4E76BB5BF"
+				type: "biome"
+			}]
+			title: "Découvrir : Taïga ancienne de pins"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack)."]
+			id: "41F050985E059994"
+			optional: true
+			rewards: [{
+				id: "75BFD0A7C7306874"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:old_growth_spruce_taiga"
+				id: "53DD3ACE248DE7C3"
+				type: "biome"
+			}]
+			title: "Découvrir : Taïga ancienne de sapins"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld."]
+			id: "5F50C601322D87AF"
+			optional: true
+			rewards: [{
+				id: "15968B57F4891971"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:pale_garden"
+				id: "76F2F1A3F6A83EB5"
+				type: "biome"
+			}]
+			title: "Découvrir : Jardin pâle"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "69C5988BA905FC0B"
+			optional: true
+			rewards: [{
+				id: "02E21F2B661904CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:plains"
+				id: "73A2A7B0FEB6DF09"
+				type: "biome"
+			}]
+			title: "Découvrir : Plaines"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "354AD3ECE82EEA6E"
+			optional: true
+			rewards: [{
+				id: "6FBF1F93CF7C6B37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:river"
+				id: "33C07F5E00C0E193"
+				type: "biome"
+			}]
+			title: "Découvrir : Rivière"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "54E1D2CABE7D476B"
+			optional: true
+			rewards: [{
+				id: "0A118FC18A7F4915"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:savanna"
+				id: "4F5ADC6BD1B9CA42"
+				type: "biome"
+			}]
+			title: "Découvrir : Savane"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "3EE10A1122385F5E"
+			optional: true
+			rewards: [{
+				id: "6B4A6440320A238C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:savanna_plateau"
+				id: "7CE3BE740D09B6A7"
+				type: "biome"
+			}]
+			title: "Découvrir : Plateau de savane"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "2724DCA7E79CBAF5"
+			optional: true
+			rewards: [{
+				id: "3DA645DF7BD8E96B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:snowy_beach"
+				id: "36E811BA7B376A9F"
+				type: "biome"
+			}]
+			title: "Découvrir : Plage enneigée"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "75E0D7CA0D6195FB"
+			optional: true
+			rewards: [{
+				id: "76413145568B1B0D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:snowy_plains"
+				id: "7B5E708BD7B4BED5"
+				type: "biome"
+			}]
+			title: "Découvrir : Plaines enneigées"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "49D95AE811D4291D"
+			optional: true
+			rewards: [{
+				id: "12B410896252ED34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:snowy_slopes"
+				id: "231FBDDD613198B9"
+				type: "biome"
+			}]
+			title: "Découvrir : Pentes enneigées"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack)."]
+			id: "1D88B06D10E335E3"
+			optional: true
+			rewards: [{
+				id: "410A775A23D4179D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:snowy_taiga"
+				id: "5E70B5869AA8DB08"
+				type: "biome"
+			}]
+			title: "Découvrir : Taïga enneigée"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "76777A0FBBE328E8"
+			optional: true
+			rewards: [{
+				id: "4BB4A5FB02DAF957"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:sparse_jungle"
+				id: "196EF991186D7457"
+				type: "biome"
+			}]
+			title: "Découvrir : Jungle clairsemée"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "09A9DD61FABB12A4"
+			optional: true
+			rewards: [{
+				id: "194431950A58C904"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:stony_peaks"
+				id: "0D1ECCFD3FB52B6E"
+				type: "biome"
+			}]
+			title: "Découvrir : Pics rocheux"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "72C07E400F1438CF"
+			optional: true
+			rewards: [{
+				id: "107C7D8283C788A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:stony_shore"
+				id: "1BA67A4C4BA5F606"
+				type: "biome"
+			}]
+			title: "Découvrir : Côte rocheuse"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Araignée venimeuse (données du pack)."]
+			id: "3AEBA2BE003D3283"
+			optional: true
+			rewards: [{
+				id: "36D0E54FBAB47063"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:sulfur_caves"
+				id: "2906497642EC9BA0"
+				type: "biome"
+			}]
+			title: "Découvrir : Cavernes de soufre"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "631015CDFF78737D"
+			optional: true
+			rewards: [{
+				id: "37E188B81426B008"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:sunflower_plains"
+				id: "0F8616CD21A20C6C"
+				type: "biome"
+			}]
+			title: "Découvrir : Plaines de tournesols"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "4CB63ADE4D05419E"
+			optional: true
+			rewards: [{
+				id: "5C25FBC2DC1DA4D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:swamp"
+				id: "58825795043DE6BE"
+				type: "biome"
+			}]
+			title: "Découvrir : Marais"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Loup et d'autres (données du pack)."]
+			id: "130CF49ACDC798A2"
+			optional: true
+			rewards: [{
+				id: "129F5321C18378E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:taiga"
+				id: "58C18E01D5CBD8AC"
+				type: "biome"
+			}]
+			title: "Découvrir : Taïga"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "7B2AD7127861530E"
+			optional: true
+			rewards: [{
+				id: "29F69BBD992078B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:warm_ocean"
+				id: "49473C93564F26FD"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan chaud"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "13CC4AF75AF2D735"
+			optional: true
+			rewards: [{
+				id: "3FBEFA75496F162B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:windswept_forest"
+				id: "1252A6F114BBEC04"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt venteuse"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "7A5A430590278C8A"
+			optional: true
+			rewards: [{
+				id: "31280E5CD5F53F23"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:windswept_gravelly_hills"
+				id: "39277B101D7EB66C"
+				type: "biome"
+			}]
+			title: "Découvrir : Collines graveleuses venteuses"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "1BCD77082FDE5638"
+			optional: true
+			rewards: [{
+				id: "7436B63AAF9F8963"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:windswept_hills"
+				id: "52D7C8C5FF84E3F2"
+				type: "biome"
+			}]
+			title: "Découvrir : Collines venteuses"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Mouton, Cochon, Poule, Vache, Araignée et d'autres (données du pack)."]
+			id: "18F22A76BC853A89"
+			optional: true
+			rewards: [{
+				id: "306BE1E98524EF19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:windswept_savanna"
+				id: "7C6FBBACEEFB5750"
+				type: "biome"
+			}]
+			title: "Découvrir : Savane venteuse"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome du jeu de base, dans l'Overworld. On y croise : Chauve-souris, Araignée, Zombie, Zombie-villageois, Squelette, Creeper et d'autres (données du pack)."]
+			id: "63D7A756F45535FD"
+			optional: true
+			rewards: [{
+				id: "138D564970E1D9BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:wooded_badlands"
+				id: "3416E50D44970603"
+				type: "biome"
+			}]
+			title: "Découvrir : Badlands boisées"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "599546F6C51320C3"
+			optional: true
+			rewards: [{
+				id: "555F0927C30AADF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:aspen_glade"
+				id: "7036C485B530446D"
+				type: "biome"
+			}]
+			title: "Découvrir : « Aspen Glade »"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "5E2D5B2C2CEEFDDE"
+			optional: true
+			rewards: [{
+				id: "09783F11F061CFE7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:auroral_garden"
+				id: "4B8076E5478ADD92"
+				type: "biome"
+			}]
+			title: "Découvrir : Jardin auroral"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "556A58B0B1B2E915"
+			optional: true
+			rewards: [{
+				id: "01F35FE55F65B0A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:bayou"
+				id: "38776E299DB00096"
+				type: "biome"
+			}]
+			title: "Découvrir : Bayou"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "09B015901883BEDD"
+			optional: true
+			rewards: [{
+				id: "1219DA09A6839AEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:bog"
+				id: "2C66DF4DC8BDC864"
+				type: "biome"
+			}]
+			title: "Découvrir : Tourbière"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "2221C8D10F17F125"
+			optional: true
+			rewards: [{
+				id: "1783123FDE7E1344"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "10301B1CCC7A5B68"
+				type: "biome"
+			}]
+			title: "Découvrir : Désert froid"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "39BD86279BA12977"
+			optional: true
+			rewards: [{
+				id: "6EBC7BF967A608FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:coniferous_forest"
+				id: "1D57314FE8F31AD1"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt de conifères"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "4A1DF7D369839348"
+			optional: true
+			rewards: [{
+				id: "65B168AA0A2C49D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:crag"
+				id: "52F61C6F2A434863"
+				type: "biome"
+			}]
+			title: "Découvrir : Escarpée"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "1C1F8B13F1409998"
+			optional: true
+			rewards: [{
+				id: "52C35BC781DDCBAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:dead_forest"
+				id: "051E8C959BCA1691"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt morte"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "3517D863CE5947AE"
+			optional: true
+			rewards: [{
+				id: "1AEB24B1026279DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:dryland"
+				id: "091FA6293DE614F2"
+				type: "biome"
+			}]
+			title: "Découvrir : Terre sèche"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "56640CF3B472CFD5"
+			optional: true
+			rewards: [{
+				id: "63B38A70BD8B35BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:dune_beach"
+				id: "6F6A6ACA14AC6E72"
+				type: "biome"
+			}]
+			title: "Découvrir : Plage de dunes"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "6A76DBDE6D70FC96"
+			optional: true
+			rewards: [{
+				id: "7DA1DFE010FDC50E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:end_corruption"
+				id: "2036F922AB18C1CF"
+				type: "biome"
+			}]
+			title: "Découvrir : « End corruption »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "7575E34BAAC0D3FF"
+			optional: true
+			rewards: [{
+				id: "0FC2FB3515672462"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:end_reef"
+				id: "2B8931FC7A306A7C"
+				type: "biome"
+			}]
+			title: "Découvrir : « End reef »"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "7DABF270AA328422"
+			optional: true
+			rewards: [{
+				id: "2C8AE4C39F26BA60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:end_wilds"
+				id: "28BA67C534DDE91F"
+				type: "biome"
+			}]
+			title: "Découvrir : « End wilds »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "0236C85A6BB14A17"
+			optional: true
+			rewards: [{
+				id: "6D9DE92A252A47D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:field"
+				id: "77B431A156DC38F8"
+				type: "biome"
+			}]
+			title: "Découvrir : Champ"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "0E7A284AED06E525"
+			optional: true
+			rewards: [{
+				id: "565272D7E785672D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:fir_clearing"
+				id: "31F336542BE8CF4A"
+				type: "biome"
+			}]
+			title: "Découvrir : Clairière de pins"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "08D2CA52DF630BE9"
+			optional: true
+			rewards: [{
+				id: "575522BF44EAEE78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:floodplain"
+				id: "6696BCCD598F84EF"
+				type: "biome"
+			}]
+			title: "Découvrir : Plaine inondable"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "190EC72D6F756988"
+			optional: true
+			rewards: [{
+				id: "4BE46E2060927F58"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:forested_field"
+				id: "7A3A9361767C5C83"
+				type: "biome"
+			}]
+			title: "Découvrir : Champ forestier"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "6B82CB8B5A70FA0F"
+			optional: true
+			rewards: [{
+				id: "15AE2B06E4BCE555"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:fungal_jungle"
+				id: "6ADD4B7821BB21D2"
+				type: "biome"
+			}]
+			title: "Découvrir : Jungle fongique"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "516621867F5427E2"
+			optional: true
+			rewards: [{
+				id: "3AC738039BD030D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:glowing_grotto"
+				id: "34DBEF7C095F50B2"
+				type: "biome"
+			}]
+			title: "Découvrir : Grotte lumineuse"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "08964C5608C039FF"
+			optional: true
+			rewards: [{
+				id: "6C2BE1F9036D1A1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:grassland"
+				id: "0CED34CD2DEFE42A"
+				type: "biome"
+			}]
+			title: "Découvrir : Prairies"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "47F5B3D1EB61EF99"
+			optional: true
+			rewards: [{
+				id: "082A2A2AFB86101C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:gravel_beach"
+				id: "7EFBA906D900BE62"
+				type: "biome"
+			}]
+			title: "Découvrir : « Gravel Beach »"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "71F1B1DBB2D99D71"
+			optional: true
+			rewards: [{
+				id: "36BFB05CA34A6DF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:highland"
+				id: "6CCD856484A37129"
+				type: "biome"
+			}]
+			title: "Découvrir : Hauts plateaux"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "5194BF151B2F1E52"
+			optional: true
+			rewards: [{
+				id: "3ECD47F6E3E2AE88"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:hot_springs"
+				id: "288141FDEED5B62D"
+				type: "biome"
+			}]
+			title: "Découvrir : « Hot Springs »"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "082C0E5CC89812AB"
+			optional: true
+			rewards: [{
+				id: "24771D230D58899D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:jacaranda_glade"
+				id: "4D84880B5F3B56A7"
+				type: "biome"
+			}]
+			title: "Découvrir : « Jacaranda Glade »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "466130401AC68081"
+			optional: true
+			rewards: [{
+				id: "61CDDEBBECD368D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:jade_cliffs"
+				id: "0B2DC54F84624AA4"
+				type: "biome"
+			}]
+			title: "Découvrir : Falaises de jade"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "1975CA9D43F1753C"
+			optional: true
+			rewards: [{
+				id: "460A3BDED87B49BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:lavender_field"
+				id: "730DC5767BDFBC23"
+				type: "biome"
+			}]
+			title: "Découvrir : Champ de lavande"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "45685ECF0CBA7037"
+			optional: true
+			rewards: [{
+				id: "5D3F2E87F876F6F3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:lush_desert"
+				id: "4B17CB47D461496A"
+				type: "biome"
+			}]
+			title: "Découvrir : Désert luxuriant"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "113969B379067527"
+			optional: true
+			rewards: [{
+				id: "128D9115B5311870"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:lush_savanna"
+				id: "3CEA34812BC4392F"
+				type: "biome"
+			}]
+			title: "Découvrir : Savane luxuriante"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "17A9513526032D21"
+			optional: true
+			rewards: [{
+				id: "6CE5EF9F4354EE75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:maple_woods"
+				id: "08CFDF49C9805433"
+				type: "biome"
+			}]
+			title: "Découvrir : Bois d'érables"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "760EC82CEDDE7A20"
+			optional: true
+			rewards: [{
+				id: "1714AB1E88EBCAF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:marsh"
+				id: "7FFD1C6306149EF9"
+				type: "biome"
+			}]
+			title: "Découvrir : Marais"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "1021717D4EB45DB7"
+			optional: true
+			rewards: [{
+				id: "4FB459C63C07B48B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:mediterranean_forest"
+				id: "56F03CAA65C3ECB9"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt méditerranéenne"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "533FD19DD74534C2"
+			optional: true
+			rewards: [{
+				id: "11D2F1310C4C6F3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:moor"
+				id: "5D8397010712A7C0"
+				type: "biome"
+			}]
+			title: "Découvrir : « Moor »"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "137FB3B9DE41109D"
+			optional: true
+			rewards: [{
+				id: "2666CD1483914AC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:muskeg"
+				id: "193EA6AF11208443"
+				type: "biome"
+			}]
+			title: "Découvrir : Fondrière"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Allay (données du pack)."]
+			id: "5EB49206CFB6CE1E"
+			optional: true
+			rewards: [{
+				id: "236920A4B0A070DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:mystic_grove"
+				id: "602638FF18C1C0AC"
+				type: "biome"
+			}]
+			title: "Découvrir : Bosquet mystique"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "5890702F240AD6AF"
+			optional: true
+			rewards: [{
+				id: "5DA0606A45D0F492"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:old_growth_dead_forest"
+				id: "7FA6A9BAFD0F3660"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt morte ancienne"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "451E1C23254C2A48"
+			optional: true
+			rewards: [{
+				id: "02344906FDD30F52"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:old_growth_woodland"
+				id: "7064F5D852654F13"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt ancienne"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Illusionniste (données du pack)."]
+			id: "2AA13D53D81C0DAC"
+			optional: true
+			rewards: [{
+				id: "34DE4AFC1BE1D4A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:ominous_woods"
+				id: "4D158675BC37C14A"
+				type: "biome"
+			}]
+			title: "Découvrir : Bois sinistres"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "68A250CAD82C5292"
+			optional: true
+			rewards: [{
+				id: "36D8F7CABDF5A6C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:orchard"
+				id: "79D7373FE13BD67B"
+				type: "biome"
+			}]
+			title: "Découvrir : Verger"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "670409B5BD9C017D"
+			optional: true
+			rewards: [{
+				id: "38D45F14C6D0F881"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:origin_valley"
+				id: "3071F224164B591F"
+				type: "biome"
+			}]
+			title: "Découvrir : Vallée originelle"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "55E2FBA623687BF2"
+			optional: true
+			rewards: [{
+				id: "2298D52DA1EA93FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:overgrown_greens"
+				id: "3D563036FB4FB156"
+				type: "biome"
+			}]
+			title: "Découvrir : « Overgrown Greens »"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "1825D2B7ACB43FF6"
+			optional: true
+			rewards: [{
+				id: "4A645F3C18995FB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:pasture"
+				id: "7EB4C95C706FBEA3"
+				type: "biome"
+			}]
+			title: "Découvrir : Pâturage"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "0DF2B327B6F5666C"
+			optional: true
+			rewards: [{
+				id: "0BEC411578ACD6F3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:prairie"
+				id: "4279E2267AD81E42"
+				type: "biome"
+			}]
+			title: "Découvrir : Prairie"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "319D2D729CEB3275"
+			optional: true
+			rewards: [{
+				id: "740151E5F7DE0E50"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:pumpkin_patch"
+				id: "437F1DA96B0A8EA4"
+				type: "biome"
+			}]
+			title: "Découvrir : Parcelle de citrouilles"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "316BD2A1AC5C7987"
+			optional: true
+			rewards: [{
+				id: "3B8396462635118B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:rainforest"
+				id: "4FC5D98C21BF9990"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt tropicale"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "63851270F2BB8B26"
+			optional: true
+			rewards: [{
+				id: "6D00AB8806F848D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:redwood_forest"
+				id: "0B7CC2127B566459"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt de séquoias"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "51979445D70F1A29"
+			optional: true
+			rewards: [{
+				id: "31264376AB74498F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:rocky_rainforest"
+				id: "52B78A3E0C26296F"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt tropicale rocailleuse"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "7546393F090382B1"
+			optional: true
+			rewards: [{
+				id: "3ED73C9DDDF31958"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:rocky_shrubland"
+				id: "21617EDA2AED8243"
+				type: "biome"
+			}]
+			title: "Découvrir : Fruticée rocailleuse"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "33CB896F919D31DD"
+			optional: true
+			rewards: [{
+				id: "63A05CF7147B8F79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:scrubland"
+				id: "31B4C4CA178E7C0E"
+				type: "biome"
+			}]
+			title: "Découvrir : Brousse"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "72FA1FF56778D11A"
+			optional: true
+			rewards: [{
+				id: "0028507C7B09FCE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:seasonal_forest"
+				id: "4795E33B12D45EEA"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt saisonnière"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "73F307E10E9583EF"
+			optional: true
+			rewards: [{
+				id: "5C255511D4FA4B3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:shrubland"
+				id: "0AF2FC7AF7937FF8"
+				type: "biome"
+			}]
+			title: "Découvrir : Fruticée"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "55286C4277E2D054"
+			optional: true
+			rewards: [{
+				id: "2B64D739579ABCCE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:snowblossom_grove"
+				id: "61F4E29D4BEF4C7C"
+				type: "biome"
+			}]
+			title: "Découvrir : « Snowblossom Grove »"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "0255FC5B6D371EAA"
+			optional: true
+			rewards: [{
+				id: "7147FDF6527F1B39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:snowy_coniferous_forest"
+				id: "42A568E95B2ACBB3"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt de connifères enneigée"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "59364696DCB61537"
+			optional: true
+			rewards: [{
+				id: "209BBF5E49750C7C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:snowy_fir_clearing"
+				id: "115C834F715D01B4"
+				type: "biome"
+			}]
+			title: "Découvrir : Clairière de pins"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "2195F8D7025052F3"
+			optional: true
+			rewards: [{
+				id: "4EF17CDF294596E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:snowy_maple_woods"
+				id: "299899D4A71ACD83"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt d'érables enneigée"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld. On y croise : Araignée venimeuse (données du pack)."]
+			id: "5B8A97518965E0BD"
+			optional: true
+			rewards: [{
+				id: "2BF0F53CDBA51F9F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:spider_nest"
+				id: "68092765FAE7AD9A"
+				type: "biome"
+			}]
+			title: "Découvrir : Nid d'araignée"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "03EA15EBA72FDB14"
+			optional: true
+			rewards: [{
+				id: "099DB72376202BDB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:tropics"
+				id: "60E15BF6F3E1D0F6"
+				type: "biome"
+			}]
+			title: "Découvrir : Tropiques"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "50B61872B02075E1"
+			optional: true
+			rewards: [{
+				id: "4300391B5E2F57BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:tundra"
+				id: "064C0F04B2789D28"
+				type: "biome"
+			}]
+			title: "Découvrir : Toundra"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "7DEB60FE5ABA425B"
+			optional: true
+			rewards: [{
+				id: "1C9BED03FA527EFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:volcanic_plains"
+				id: "3AB88E55713703F7"
+				type: "biome"
+			}]
+			title: "Découvrir : Plaines volcaniques"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "1F008BD923085644"
+			optional: true
+			rewards: [{
+				id: "4BEB7A5352D20148"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:volcano"
+				id: "7CB1DA2FB79682F2"
+				type: "biome"
+			}]
+			title: "Découvrir : Volcan"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "1B5A54425CCB23AD"
+			optional: true
+			rewards: [{
+				id: "6A7E01D3DBDBE7AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:wasteland"
+				id: "6A1D91D7FB2CAD8E"
+				type: "biome"
+			}]
+			title: "Découvrir : Terres désolées"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "68DFA8159C0D236B"
+			optional: true
+			rewards: [{
+				id: "10690A24211F7D11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:wasteland_steppe"
+				id: "54340E525CA348DB"
+				type: "biome"
+			}]
+			title: "Découvrir : Steppe des terres désolées"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "2B20ABA9A523BF56"
+			optional: true
+			rewards: [{
+				id: "33FAD69B98BCA7B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:wetland"
+				id: "13E027A725022000"
+				type: "biome"
+			}]
+			title: "Découvrir : Marécages"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "42B218CB38932817"
+			optional: true
+			rewards: [{
+				id: "708A3C22775DE912"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:wintry_origin_valley"
+				id: "481A050CB5BEA45A"
+				type: "biome"
+			}]
+			title: "Découvrir : « Wintry Origin Valley »"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Biomes O' Plenty, dans l'Overworld."]
+			id: "26CD7BB8D12ECDF2"
+			optional: true
+			rewards: [{
+				id: "23A68D0AA0F5FD78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "biomesoplenty:woodland"
+				id: "6A75A25093CA02E9"
+				type: "biome"
+			}]
+			title: "Découvrir : Bois"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Climate Rivers, dans l'Overworld."]
+			id: "38FA6629414EFB13"
+			optional: true
+			rewards: [{
+				id: "55DE9321A36372B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "climaterivers:cold_river"
+				id: "5340A4EEB72A3B8F"
+				type: "biome"
+			}]
+			title: "Découvrir : « Cold river »"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Climate Rivers, dans l'Overworld."]
+			id: "276F21A5D663335B"
+			optional: true
+			rewards: [{
+				id: "69B0DE3B6E523986"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "climaterivers:lukewarm_river"
+				id: "771F0527E0864326"
+				type: "biome"
+			}]
+			title: "Découvrir : « Lukewarm river »"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Climate Rivers, dans l'Overworld."]
+			id: "2EA2ADE85F1479E2"
+			optional: true
+			rewards: [{
+				id: "36D2C2A7688512EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "climaterivers:warm_river"
+				id: "370D430DADD1DE6D"
+				type: "biome"
+			}]
+			title: "Découvrir : « Warm river »"
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Galosphere, dans l'Overworld."]
+			id: "7ED77A1E7A2C9B64"
+			optional: true
+			rewards: [{
+				id: "6B5F03B6958F0BAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "galosphere:crystal_canyons"
+				id: "3535FFA0231DF817"
+				type: "biome"
+			}]
+			title: "Découvrir : « Crystal Canyons »"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Galosphere, dans l'Overworld."]
+			id: "33998189FD5BF0BE"
+			optional: true
+			rewards: [{
+				id: "336F141FD2F74828"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "galosphere:lichen_caves"
+				id: "70626E37331BC4F8"
+				type: "biome"
+			}]
+			title: "Découvrir : « Lichen Caves »"
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Galosphere, dans l'Overworld."]
+			id: "51B5722CDC9129E4"
+			optional: true
+			rewards: [{
+				id: "712007E62D591339"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "galosphere:pink_salt_caves"
+				id: "7FAC68B846CA49B9"
+				type: "biome"
+			}]
+			title: "Découvrir : « Pink Salt Caves »"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de Quark, dans l'Overworld. On y croise : Stoneling (données du pack)."]
+			id: "427C9AAE13454B3F"
+			optional: true
+			rewards: [{
+				id: "2DF9647633813093"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "quark:glimmering_weald"
+				id: "4D048FA7A0F93264"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt lumineuse"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de YUNG's Cave Biomes, dans l'Overworld."]
+			id: "3538FD8246C8E271"
+			optional: true
+			rewards: [{
+				id: "1E2E837C14A64FD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "yungscavebiomes:frosted_caves"
+				id: "1AE6A24862CBC3A0"
+				type: "biome"
+			}]
+			title: "Découvrir : « Frosted Caves »"
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de YUNG's Cave Biomes, dans l'Overworld."]
+			id: "3B43DB63977B0C34"
+			optional: true
+			rewards: [{
+				id: "390CA7D391667CA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "yungscavebiomes:lost_caves"
+				id: "5C34DE0727AEFF28"
+				type: "biome"
+			}]
+			title: "Découvrir : « Lost Caves »"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			description: ["Biome de YUNG's Cave Biomes, dans l'Overworld."]
+			id: "460A13552E845758"
+			optional: true
+			rewards: [{
+				id: "70F6C04D27882F54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "yungscavebiomes:marble_caves"
+				id: "37F400D7317C8874"
+				type: "biome"
+			}]
+			title: "Découvrir : « Marble Caves »"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"529CBC4E828A7D49"
+				"5B6951339274D8F1"
+				"2DF8E6AF36E01F4A"
+				"3E74331967A240AD"
+				"0DCCE265205C329C"
+				"6502DBC10C3A685E"
+				"75B59E22FD6D01CF"
+				"093C21B0ECB7632C"
+				"6DFEB6315049EF38"
+				"0C1B27CC6B0F1E61"
+				"41453549DE5C70A2"
+				"2540316A9472AFAB"
+				"349D9636C6907DC0"
+				"520E8B129A17C1B3"
+				"792FEAF21F333F74"
+				"54DC45D63FB06C7D"
+				"61A1341E85CD7891"
+				"4B8AF623EE5DE721"
+				"246F0D1DE4C9ABE8"
+				"593DFA860B5DD8FD"
+				"29938FC789ABA165"
+				"0BE7D6B90E61624C"
+				"421A4D3336377FB2"
+				"05C11FE36BDF8C39"
+				"73D3A457DC3383E5"
+				"415A5015F1E19E93"
+				"41C92CA8D0236D3B"
+				"1F0C96D59A199FC8"
+				"54E6D738EBBDF3EB"
+				"58D4C44E6F46CF2B"
+				"66EC5272F01814ED"
+				"69B99825E28CB8F6"
+				"41F050985E059994"
+				"5F50C601322D87AF"
+				"69C5988BA905FC0B"
+				"354AD3ECE82EEA6E"
+				"54E1D2CABE7D476B"
+				"3EE10A1122385F5E"
+				"2724DCA7E79CBAF5"
+				"75E0D7CA0D6195FB"
+				"49D95AE811D4291D"
+				"1D88B06D10E335E3"
+				"76777A0FBBE328E8"
+				"09A9DD61FABB12A4"
+				"72C07E400F1438CF"
+				"3AEBA2BE003D3283"
+				"631015CDFF78737D"
+				"4CB63ADE4D05419E"
+				"130CF49ACDC798A2"
+				"7B2AD7127861530E"
+				"13CC4AF75AF2D735"
+				"7A5A430590278C8A"
+				"1BCD77082FDE5638"
+				"18F22A76BC853A89"
+				"63D7A756F45535FD"
+				"599546F6C51320C3"
+				"5E2D5B2C2CEEFDDE"
+				"556A58B0B1B2E915"
+				"09B015901883BEDD"
+				"2221C8D10F17F125"
+				"39BD86279BA12977"
+				"4A1DF7D369839348"
+				"1C1F8B13F1409998"
+				"3517D863CE5947AE"
+				"56640CF3B472CFD5"
+				"6A76DBDE6D70FC96"
+				"7575E34BAAC0D3FF"
+				"7DABF270AA328422"
+				"0236C85A6BB14A17"
+				"0E7A284AED06E525"
+				"08D2CA52DF630BE9"
+				"190EC72D6F756988"
+				"6B82CB8B5A70FA0F"
+				"516621867F5427E2"
+				"08964C5608C039FF"
+				"47F5B3D1EB61EF99"
+				"71F1B1DBB2D99D71"
+				"5194BF151B2F1E52"
+				"082C0E5CC89812AB"
+				"466130401AC68081"
+				"1975CA9D43F1753C"
+				"45685ECF0CBA7037"
+				"113969B379067527"
+				"17A9513526032D21"
+				"760EC82CEDDE7A20"
+				"1021717D4EB45DB7"
+				"533FD19DD74534C2"
+				"137FB3B9DE41109D"
+				"5EB49206CFB6CE1E"
+				"5890702F240AD6AF"
+				"451E1C23254C2A48"
+				"2AA13D53D81C0DAC"
+				"68A250CAD82C5292"
+				"670409B5BD9C017D"
+				"55E2FBA623687BF2"
+				"1825D2B7ACB43FF6"
+				"0DF2B327B6F5666C"
+				"319D2D729CEB3275"
+				"316BD2A1AC5C7987"
+				"63851270F2BB8B26"
+				"51979445D70F1A29"
+				"7546393F090382B1"
+				"33CB896F919D31DD"
+				"72FA1FF56778D11A"
+				"73F307E10E9583EF"
+				"55286C4277E2D054"
+				"0255FC5B6D371EAA"
+				"59364696DCB61537"
+				"2195F8D7025052F3"
+				"5B8A97518965E0BD"
+				"03EA15EBA72FDB14"
+				"50B61872B02075E1"
+				"7DEB60FE5ABA425B"
+				"1F008BD923085644"
+				"1B5A54425CCB23AD"
+				"68DFA8159C0D236B"
+				"2B20ABA9A523BF56"
+				"42B218CB38932817"
+				"26CD7BB8D12ECDF2"
+				"38FA6629414EFB13"
+				"276F21A5D663335B"
+				"2EA2ADE85F1479E2"
+				"7ED77A1E7A2C9B64"
+				"33998189FD5BF0BE"
+				"51B5722CDC9129E4"
+				"427C9AAE13454B3F"
+				"3538FD8246C8E271"
+				"3B43DB63977B0C34"
+				"460A13552E845758"
+			]
+			description: ["Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte."]
+			icon: "minecraft:filled_map"
+			id: "70A50ED6DCF6D564"
+			optional: true
+			rewards: [{
+				id: "4B2A87EA13128723"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6D929ED3BC7A1A8A"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&2Biomes — Overworld"
+}
