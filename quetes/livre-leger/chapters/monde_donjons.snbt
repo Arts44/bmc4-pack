@@ -46,7 +46,7 @@
 			}]
 			title: "Le fort des illageois"
 			x: 2.0d
-			y: -4.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -67,7 +67,7 @@
 			}]
 			title: "Les tours des bandits"
 			x: 2.0d
-			y: 6.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -89,7 +89,7 @@
 			}]
 			title: "L'asile de la peste"
 			x: 2.0d
-			y: 8.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -110,7 +110,7 @@
 			}]
 			title: "Le palais de Shiraz"
 			x: 2.0d
-			y: 9.5d
+			y: 10.25d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -131,7 +131,7 @@
 			}]
 			title: "Le donjon de Kayra"
 			x: 2.0d
-			y: 11.0d
+			y: 11.75d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -152,7 +152,7 @@
 			}]
 			title: "Le vaisseau des pirates morts-vivants"
 			x: 2.0d
-			y: 12.5d
+			y: 13.25d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -173,7 +173,7 @@
 			}]
 			title: "Le monastère"
 			x: 2.0d
-			y: 14.0d
+			y: 14.75d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -195,7 +195,7 @@
 			}]
 			title: "&cVaincre l'Awful Ghast"
 			x: 2.0d
-			y: -3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -217,7 +217,7 @@
 			}]
 			title: "&cVaincre le Nether Keeper"
 			x: 2.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -239,7 +239,7 @@
 			}]
 			title: "&dVaincre le Shelterer"
 			x: 2.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -261,7 +261,7 @@
 			}]
 			title: "&cVaincre l'Invoker"
 			x: 2.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -282,7 +282,7 @@
 			}]
 			title: "&5Vaincre le Ver du vide"
 			x: 2.0d
-			y: 3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -305,7 +305,7 @@
 			}]
 			title: "&dVaincre le Berserker"
 			x: 2.0d
-			y: 15.5d
+			y: 16.25d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -331,7 +331,7 @@
 			]
 			title: "Le tableau de primes"
 			x: 2.0d
-			y: 4.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["0C43CBB0FAD54E4D"]
@@ -353,7 +353,7 @@
 			}]
 			title: "Des fragments de générateur"
 			x: 2.0d
-			y: 17.0d
+			y: 17.75d
 		}
 		{
 			dependencies: ["0130B24E5E753562"]
@@ -374,7 +374,7 @@
 			}]
 			title: "Un générateur inactif"
 			x: 4.0d
-			y: 6.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["73264E7BC87CF953"]
@@ -433,7 +433,7 @@
 			]
 			title: "Une âme de monstre"
 			x: 6.0d
-			y: 6.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["688DA2E0B7F436AF"]
@@ -467,7 +467,7 @@
 			]
 			title: "Les âmes qui ne tombent pas"
 			x: 8.0d
-			y: 6.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["0130B24E5E753562"]
@@ -488,15 +488,283 @@
 			}]
 			title: "Un silencieux de générateur"
 			x: 4.0d
-			y: 8.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0C43CBB0FAD54E4D"]
+			description: ["Le minerai de tungstène de &cStalwart Dungeons&r, fondu en lingots."]
+			icon: "stalwart_dungeons:tungsten_ingot"
+			id: "638942A63E3DDE2A"
+			rewards: [{
+				id: "1736A4E0FFFB8B8F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "36AA9AED5A475749"
+				item: "stalwart_dungeons:tungsten_ingot"
+				type: "item"
+			}]
+			title: "Du tungstène"
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["638942A63E3DDE2A"]
+			description: ["Chaque pièce demande des lingots de tungstène et un &ldébris d'armure de blaze&r, lâché par les blazes renforcés (table de butin du jar)."]
+			icon: "stalwart_dungeons:tungsten_helmet"
+			id: "74438424EDCF1E53"
+			rewards: [{
+				id: "66B8BF4A9AE876B9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "50EAC7769F369561"
+					item: "stalwart_dungeons:tungsten_helmet"
+					type: "item"
+				}
+				{
+					id: "420D3BB35E309059"
+					item: "stalwart_dungeons:tungsten_chestplate"
+					type: "item"
+				}
+				{
+					id: "309DB8D20E5C9785"
+					item: "stalwart_dungeons:tungsten_leggings"
+					type: "item"
+				}
+				{
+					id: "79A8FAFD95C4ED0D"
+					item: "stalwart_dungeons:tungsten_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure de tungstène"
+			x: 4.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["638942A63E3DDE2A"]
+			description: ["Épée, pioche, hache, pelle et houe de tungstène."]
+			icon: "stalwart_dungeons:tungsten_sword"
+			id: "101E9A9974A7DF5E"
+			rewards: [{
+				id: "6DBA1F2FB99F1FEF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [
+				{
+					id: "476ED05934C722E0"
+					item: "stalwart_dungeons:tungsten_sword"
+					type: "item"
+				}
+				{
+					id: "4598759B8D449F5B"
+					item: "stalwart_dungeons:tungsten_pickaxe"
+					type: "item"
+				}
+				{
+					id: "37597F54AD88AF20"
+					item: "stalwart_dungeons:tungsten_axe"
+					type: "item"
+				}
+				{
+					id: "69AAD848EA2C2C44"
+					item: "stalwart_dungeons:tungsten_shovel"
+					type: "item"
+				}
+				{
+					id: "07C1A354302B9F67"
+					item: "stalwart_dungeons:tungsten_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils de tungstène"
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"6F3BEE2872452357"
+				"74438424EDCF1E53"
+			]
+			description: ["Le chorundum, et le &lcristal du vide&r que lâche le Shelterer (table de butin du jar) dans chaque pièce. Le dernier palier de Stalwart Dungeons ; chaque pièce est à l'Armurerie de l'Encyclopédie."]
+			icon: "stalwart_dungeons:chorundum_armor_helmet"
+			id: "272EFE567D8B79D5"
+			rewards: [{
+				id: "7E672DEE594096FB"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [
+				{
+					id: "036425BA2EBF5A24"
+					item: "stalwart_dungeons:chorundum_armor_helmet"
+					type: "item"
+				}
+				{
+					id: "114663F7B79E3C2E"
+					item: "stalwart_dungeons:chorundum_armor_chestplate"
+					type: "item"
+				}
+				{
+					id: "736988E3A1AC2306"
+					item: "stalwart_dungeons:chorundum_armor_leggings"
+					type: "item"
+				}
+				{
+					id: "0B0792F96225ACE3"
+					item: "stalwart_dungeons:chorundum_armor_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure de chorundum"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["101E9A9974A7DF5E"]
+			description: ["Le minerai de chorundum, fondu, et un bâton."]
+			icon: "stalwart_dungeons:chorundum_sword"
+			id: "6259EEFEF6EA86DD"
+			rewards: [{
+				id: "3729898B16EADD85"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [
+				{
+					id: "1A7755D0163D5D5D"
+					item: "stalwart_dungeons:chorundum_sword"
+					type: "item"
+				}
+				{
+					id: "53C22841BD45E2C0"
+					item: "stalwart_dungeons:chorundum_pickaxe"
+					type: "item"
+				}
+				{
+					id: "6AD27E0A509E653D"
+					item: "stalwart_dungeons:chorundum_axe"
+					type: "item"
+				}
+				{
+					id: "46A33E207E757004"
+					item: "stalwart_dungeons:chorundum_shovel"
+					type: "item"
+				}
+				{
+					id: "6831EE19C96B707C"
+					item: "stalwart_dungeons:chorundum_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils de chorundum"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["37F30AA45854BCC0"]
+			description: ["Un autre combat, dans un autre donjon. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "stalwart_dungeons:awful_ghast_spawn_egg"
+			id: "2ABC4AD6E1C83ED9"
+			rewards: [{
+				id: "4708C341F31DADEF"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				id: "73B3DC090208D8FC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cUn autre Awful Ghast"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6036422E1AE7AFD4"]
+			description: ["Un autre combat, dans un autre château. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "stalwart_dungeons:nether_keeper_spawn_egg"
+			id: "565EEEDDF8B208DA"
+			rewards: [{
+				id: "1DE7CAB166EE6860"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				id: "1B97BDA444A5D04A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cUn autre Nether Keeper"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6F3BEE2872452357"]
+			description: ["Un autre combat, dans un autre donjon de l'End. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "stalwart_dungeons:shelterer_spawn_egg"
+			id: "39A9665173F8A414"
+			rewards: [{
+				id: "1D3BD2F34C3200E2"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer"
+				id: "3D5B17D104B6CE70"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Un autre Shelterer"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["705D9ACC103B6150"]
+			description: ["Il revient dans les raids. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "illagerinvasion:invoker_spawn_egg"
+			id: "511D36F5450ECF07"
+			rewards: [{
+				id: "1248812EF8ED91E6"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				id: "711BF4F384FD2D1B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Un autre Invoker"
+			x: 4.0d
+			y: 3.75d
 		}
 		{
 			dependencies: [
 				"07DE5A18A6297E4D"
-				"37F30AA45854BCC0"
+				"272EFE567D8B79D5"
+				"6259EEFEF6EA86DD"
+				"2ABC4AD6E1C83ED9"
+				"565EEEDDF8B208DA"
+				"39A9665173F8A414"
+				"511D36F5450ECF07"
 			]
-			dependency_requirement: "one_completed"
-			description: ["Un fort ou un boss suffit. Le chapitre &7Chasseur de boss&r des Défis compte tous les boss du serveur."]
+			description: ["Le fort des illageois, l'équipement de chorundum, et chaque boss de donjon battu deux fois. Le chapitre &7Chasseur de boss&r des Défis compte tous les boss du serveur."]
 			icon: "stalwart_dungeons:tungsten_sword"
 			id: "24FFFF95B769EA5A"
 			rewards: [{
@@ -504,14 +772,15 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			size: 1.3d
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "7E29098FEDBB6036"
 				title: "Un donjon vidé"
 				type: "checkmark"
 			}]
 			title: "&8Chasseur de donjons"
-			x: 4.0d
+			x: 8.0d
 			y: 0.0d
 		}
 	]

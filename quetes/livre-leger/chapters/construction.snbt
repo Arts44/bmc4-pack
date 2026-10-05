@@ -626,6 +626,270 @@
 			y: 24.0d
 		}
 		{
+			dependencies: ["2F9349C401B7AE6F"]
+			description: ["Premier bâtiment : la cuisine. Cuisinière (huit lingots de fer et un fourneau), réfrigérateur, plaque de cuisson, micro-ondes et hotte, à l'établi à meubles. Rien n'est consommé : on montre ce qu'on a posé, puis on le garde."]
+			icon: "pfm:iron_stove"
+			id: "729CFF018796EFA5"
+			optional: true
+			rewards: [{
+				id: "3BAE11B99631C049"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4CED8F72813470B8"
+					item: "pfm:iron_stove"
+					type: "item"
+				}
+				{
+					id: "564A76BD5912B326"
+					item: "pfm:iron_fridge"
+					type: "item"
+				}
+				{
+					id: "662E13DC836BBD66"
+					item: "pfm:kitchen_stovetop"
+					type: "item"
+				}
+				{
+					id: "03C4806AFA19BDB5"
+					item: "pfm:iron_microwave"
+					type: "item"
+				}
+				{
+					id: "41FEE3462E64CA50"
+					item: "pfm:iron_oven_range_hood"
+					type: "item"
+				}
+			]
+			title: "Une cuisine équipée"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["729CFF018796EFA5"]
+			description: ["Toilettes (quatre blocs de quartz, un seau, un bouton), baignoire, lavabo, pommeau et robinet de douche, papier toilette et miroir. Les meubles restent dans l'inventaire."]
+			icon: "pfm:basic_toilet"
+			id: "1D1770A0723D2EEF"
+			optional: true
+			rewards: [{
+				id: "51878482D19E41AC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "39E3F9363227E2EE"
+					item: "pfm:basic_toilet"
+					type: "item"
+				}
+				{
+					id: "6C27796E74872C65"
+					item: "pfm:basic_bathtub"
+					type: "item"
+				}
+				{
+					id: "071B57913F6C0A0F"
+					item: "pfm:basic_sink"
+					type: "item"
+				}
+				{
+					id: "260C34DA25B84A8A"
+					item: "pfm:basic_shower_head"
+					type: "item"
+				}
+				{
+					id: "50466FC4B897074D"
+					item: "pfm:basic_shower_handle"
+					type: "item"
+				}
+				{
+					id: "42E2D481CFF3195C"
+					item: "pfm:wall_toilet_paper"
+					type: "item"
+				}
+				{
+					id: "04E1BF1F8BF5F8BA"
+					item: "pfm:gray_mirror"
+					type: "item"
+				}
+			]
+			title: "Une salle de bain"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D1770A0723D2EEF"]
+			description: ["Deux suspensions modernes et un interrupteur. Les fauteuils, lits, tables de nuit et comptoirs existent dans chaque bois et chaque pierre du pack : choisis les tiens à l'établi."]
+			icon: "pfm:gray_modern_pendant"
+			id: "548472D639F5817A"
+			optional: true
+			rewards: [{
+				id: "77B3D278A7E4E8BD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "0459C8DD9B2ABE01"
+					item: "pfm:gray_modern_pendant"
+					type: "item"
+				}
+				{
+					id: "1534D5858BD2EF23"
+					item: "pfm:light_switch"
+					type: "item"
+				}
+			]
+			title: "Un salon éclairé"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5AD4C2F84590E5A0"]
+			description: ["De quoi monter une vraie maison Dawn of Time : colombages, torchis encadré, portes, fenêtres à croisillons, volets, un toit d'ardoises et une cheminée. Livraison non consommée."]
+			icon: "dawnoftimebuilder:waxed_oak_timber_frame"
+			id: "7020DB50C08EED63"
+			optional: true
+			rewards: [{
+				id: "23966819F830684F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 64L
+					id: "293B28D9884E4E57"
+					item: "dawnoftimebuilder:waxed_oak_timber_frame"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6E42A333ED467C68"
+					item: "dawnoftimebuilder:waxed_oak_framed_rammed_dirt"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "400473E28C527D1A"
+					item: "dawnoftimebuilder:waxed_oak_door"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0BE3D1B11CC70794"
+					item: "dawnoftimebuilder:lattice_waxed_oak_window"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7F81687C2049CAC5"
+					item: "dawnoftimebuilder:waxed_oak_shutters"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "381FDAC21521E376"
+					item: "dawnoftimebuilder:roofing_slates_stairs"
+					type: "item"
+				}
+				{
+					id: "04CA328B28859E87"
+					item: "dawnoftimebuilder:stone_bricks_chimney"
+					type: "item"
+				}
+			]
+			title: "Une maison à colombages"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7020DB50C08EED63"]
+			description: ["Plusieurs maisons, des toits d'ardoise et de chaume, des lanternes dans les rues. Les quantités sont celles d'un quartier ; rien n'est consommé."]
+			icon: "dawnoftimebuilder:waxed_oak_timber_frame"
+			id: "26C105D48F5AC32E"
+			optional: true
+			rewards: [{
+				id: "3872F42854708867"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 256L
+					id: "391E2FCCC111D744"
+					item: "dawnoftimebuilder:waxed_oak_timber_frame"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1E945127E53D6A70"
+					item: "dawnoftimebuilder:waxed_oak_timber_frame_crossed"
+					type: "item"
+				}
+				{
+					count: 192L
+					id: "18C7787DF3A5237E"
+					item: "dawnoftimebuilder:roofing_slates_stairs"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "37D88D1A81F0D5BC"
+					item: "dawnoftimebuilder:thatch_wheat"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "31A17632D1659929"
+					item: "dawnoftimebuilder:iron_fancy_lantern"
+					type: "item"
+				}
+			]
+			title: "Un quartier"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"548472D639F5817A"
+				"26C105D48F5AC32E"
+			]
+			description: ["Le sommet de la construction : une capture de ta maison meublée ou de ton quartier, postée dans &b#screenshots&r sur le Discord. Le tableau est pour l'accrocher chez toi."]
+			icon: "minecraft:painting"
+			id: "776833CF0E8D8BA3"
+			optional: true
+			rewards: [
+				{
+					id: "7BFA405D88EF2155"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0AF77DFE593F1F20"
+					item: "minecraft:painting"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2568A20B750AAD0F"
+				title: "Capture postée"
+				type: "checkmark"
+			}]
+			title: "&6Ma base dans #screenshots"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
 			dependencies: [
 				"040E08F990FE7566"
 				"06F0708D8D28A305"

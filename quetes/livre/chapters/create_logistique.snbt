@@ -303,9 +303,10 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "072DE8C2A2652FE8"
-				title: "Mon train roule"
-				type: "checkmark"
+				advancement: "create:train"
+				criterion: ""
+				id: "4E7107243CC37D89"
+				type: "advancement"
 			}]
 			title: "Assembler un train"
 			x: 10.0d
@@ -384,6 +385,226 @@
 			title: "Un panneau d'affichage"
 			x: 2.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["3F96B8313940C433"]
+			description: ["Donner un horaire à un conducteur de train (progrès « Conductor Instructor ») : le train circule seul entre les gares."]
+			id: "63EC7B91D203A2CB"
+			optional: true
+			rewards: [{
+				id: "08E13A35FE3FA77E"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:conductor"
+				criterion: ""
+				id: "0BE8C7BC906CD1C2"
+				type: "advancement"
+			}]
+			title: "Un horaire de train"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0DF06D78E18EEEFF"
+				"63EC7B91D203A2CB"
+			]
+			description: ["Annoncer l'arrivée d'un train sur un tableau d'affichage, avec un lien d'affichage (progrès « Dynamic Timetables »)."]
+			id: "493D7630FACAE2C5"
+			optional: true
+			rewards: [{
+				id: "19F07195BC039281"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:display_board_0"
+				criterion: ""
+				id: "64046A8B83AF64AD"
+				type: "advancement"
+			}]
+			title: "Un tableau des arrivées"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F96B8313940C433"]
+			description: ["Un sifflet à vapeur monté sur le train, actionné en roulant (progrès « Choo Choo ! »)."]
+			id: "78975320FCDB755C"
+			optional: true
+			rewards: [{
+				id: "0C96C95C48A2807B"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:train_whistle"
+				criterion: ""
+				id: "2A032AA4B5CCE864"
+				type: "advancement"
+			}]
+			title: "Un sifflet de train"
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F96B8313940C433"]
+			description: ["Passer un portail à bord d'un train (progrès « Dimensional Commuter ») : les lignes peuvent relier le Nether."]
+			id: "6C0FD5E6CEE3EB52"
+			optional: true
+			rewards: [{
+				id: "08C84E9862B43BDE"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:train_portal"
+				criterion: ""
+				id: "1F28D09396C72A2E"
+				type: "advancement"
+			}]
+			title: "Un train à travers un portail"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["63EC7B91D203A2CB"]
+			description: ["Un train d'au moins six wagons (progrès « Ambitious Endeavours »)."]
+			id: "5B5EE584A4DB2FA8"
+			optional: true
+			rewards: [{
+				id: "68A88959E9EC5319"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "create:long_train"
+				criterion: ""
+				id: "3A319F96B1656E3D"
+				type: "advancement"
+			}]
+			title: "&6Un train de six wagons"
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5B5EE584A4DB2FA8"
+				"39FF612C1F3665C4"
+			]
+			description: ["Quitter un siège de train à plus de 5 000 blocs du point de départ (progrès « Field Trip ») : un vrai réseau ferré, signalisé, le sommet de la logistique avec Create."]
+			id: "45CAE8A6C560D70D"
+			optional: true
+			rewards: [{
+				id: "2A3CC006231F62D6"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.6d
+			tasks: [{
+				advancement: "create:long_travel"
+				criterion: ""
+				id: "6A8C335413B3472F"
+				type: "advancement"
+			}]
+			title: "&6&lUn réseau de 5 000 blocs"
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F55B8C292C796E4"]
+			description: ["Déclencher une commande de colis automatique avec des jauges d'usine (progrès « High Logistics »)."]
+			id: "6A6AC8E9F0157592"
+			optional: true
+			rewards: [{
+				id: "508069B18AC915DF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:factory_gauge"
+				criterion: ""
+				id: "533D0CCE7F9CCBF5"
+				type: "advancement"
+			}]
+			title: "Une commande automatique"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"33E59ADA233300A1"
+				"5BF122DEB978FAB6"
+			]
+			description: ["Une grenouille portuaire attrape un colis sur un convoyeur à chaîne (progrès « Hungry hoppers »)."]
+			id: "54DE5BA897DC6978"
+			optional: true
+			rewards: [{
+				id: "4B6852FE9AF89C62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:frogport"
+				criterion: ""
+				id: "38E0ABDCC2BBF037"
+				type: "advancement"
+			}]
+			title: "La grenouille attrape un colis"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2EB0AC178E0B19FB"]
+			description: ["Placer une créature au guichet de stock et passer les premières commandes (progrès « Order Up ! »)."]
+			id: "115108D9B8F4AED5"
+			optional: true
+			rewards: [{
+				id: "62AF6C6D6486A874"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:stock_ticker"
+				criterion: ""
+				id: "148F5C4575DA655A"
+				type: "advancement"
+			}]
+			title: "Un employé au guichet"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25A6A9FD7FFC9272"]
+			description: ["Mettre des objets en vente sur une nappe (progrès « Open for business »)."]
+			id: "1BCB10D080798666"
+			optional: true
+			rewards: [{
+				id: "02EE33296CFDD6A2"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:table_cloth_shop"
+				criterion: ""
+				id: "54CD1D0D746655CC"
+				type: "advancement"
+			}]
+			title: "Une boutique sur nappe"
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [

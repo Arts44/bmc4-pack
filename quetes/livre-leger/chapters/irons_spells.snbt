@@ -159,7 +159,7 @@
 		}
 		{
 			dependencies: ["4072F0E6AF3C03A6"]
-			description: ["Cinq encres, de la &fcommune&r à la &6légendaire&r, qui ne se fabriquent pas : coffres des structures magiques, mages tués, marchand ambulant (activé sur ce serveur). Une encre ne fait que les sorts dont le premier niveau est de sa rareté ou moins. Les niveaux se répartissent ainsi : 30 % communs, 25 % peu communs, 20 % rares, 15 % épiques, 10 % légendaires."]
+			description: ["Cinq encres, de la &fcommune&r à la &6légendaire&r. On les trouve dans les coffres des structures magiques, sur les mages et chez le marchand ambulant (activé sur ce serveur), et chaque encre se brasse à partir de la précédente au Chaudron d'alchimiste. Une encre ne fait que les sorts dont le premier niveau est de sa rareté ou moins. Les niveaux se répartissent ainsi : 30 % communs, 25 % peu communs, 20 % rares, 15 % épiques, 10 % légendaires."]
 			icon: "irons_spellbooks:common_ink"
 			id: "3D3C52776DCD6F9D"
 			rewards: [{
@@ -1169,6 +1169,1069 @@
 			title: "Une couronne de légionnaire"
 			x: 22.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3D3C52776DCD6F9D"
+				"22A761A9DF1CA351"
+			]
+			description: ["Au Chaudron d'alchimiste : un litre d'encre peu commune et un lingot de fer donnent de l'encre &9rare&r, à recueillir en flacon."]
+			icon: "irons_spellbooks:rare_ink"
+			id: "2DAC6486D28D892E"
+			optional: true
+			rewards: [{
+				id: "5CC52E7912FF1B86"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21487870AF9A2C42"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			title: "Une encre rare"
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DAC6486D28D892E"]
+			description: ["Un litre d'encre rare et un lingot d'or : de l'encre &5épique&r."]
+			icon: "irons_spellbooks:epic_ink"
+			id: "6DDCC76D30862984"
+			optional: true
+			rewards: [{
+				id: "2C89372165C6CB81"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D18B9385C83DED3"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			title: "Une encre épique"
+			x: 22.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6DDCC76D30862984"]
+			description: ["Un litre d'encre épique et une améthyste : de l'encre &6légendaire&r, celle des parchemins au plus haut niveau à la forge à parchemins."]
+			icon: "irons_spellbooks:legendary_ink"
+			id: "3FC8FF3791E0133A"
+			optional: true
+			rewards: [{
+				id: "2EF72E9F1CB07A18"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "74711FBD0D4BA30C"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			title: "&6Une encre légendaire"
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D25D3F3BB348035"]
+			description: ["Les quatre pièces de l'école (Pyromancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique."]
+			icon: "irons_spellbooks:pyromancer_helmet"
+			id: "2B7853B61165388C"
+			optional: true
+			rewards: [{
+				id: "5E01A7521156CF57"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6CA82E266696248E"
+					item: "irons_spellbooks:pyromancer_helmet"
+					type: "item"
+				}
+				{
+					id: "0C955E9CC14B1AF7"
+					item: "irons_spellbooks:pyromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "28EC790482A78187"
+					item: "irons_spellbooks:pyromancer_leggings"
+					type: "item"
+				}
+				{
+					id: "1DE9479C807EB777"
+					item: "irons_spellbooks:pyromancer_boots"
+					type: "item"
+				}
+			]
+			title: "Les robes : Pyromancien"
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0BC893FE39B5D400"
+				"60CE3D0858F1F63C"
+			]
+			description: ["Les quatre pièces de l'école (Cryomancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique."]
+			icon: "irons_spellbooks:cryomancer_helmet"
+			id: "6F21A5AD5403D999"
+			optional: true
+			rewards: [{
+				id: "76A429CE2F43123B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "15B808814BE5875C"
+					item: "irons_spellbooks:cryomancer_helmet"
+					type: "item"
+				}
+				{
+					id: "056311D5EE7ED494"
+					item: "irons_spellbooks:cryomancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "608343FE40062A23"
+					item: "irons_spellbooks:cryomancer_leggings"
+					type: "item"
+				}
+				{
+					id: "377F79CC490C01A5"
+					item: "irons_spellbooks:cryomancer_boots"
+					type: "item"
+				}
+			]
+			title: "Les robes : Cryomancien"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2E672E935920AF5F"
+				"60CE3D0858F1F63C"
+			]
+			description: ["Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur."]
+			icon: "irons_spellbooks:ice_upgrade_orb"
+			id: "3B438F5A08C73730"
+			optional: true
+			rewards: [{
+				id: "2973584D501BFEDE"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "279A8C591F88A103"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe : Cryomancien"
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0BC893FE39B5D400"
+				"404356AB1248E27D"
+			]
+			description: ["Les quatre pièces de l'école (Électromancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique."]
+			icon: "irons_spellbooks:electromancer_helmet"
+			id: "210ED877253CF4DE"
+			optional: true
+			rewards: [{
+				id: "02410B02EFF36777"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "76D5782F4AFA7020"
+					item: "irons_spellbooks:electromancer_helmet"
+					type: "item"
+				}
+				{
+					id: "1F8405EF935B9AD3"
+					item: "irons_spellbooks:electromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "53803B7111E75AE0"
+					item: "irons_spellbooks:electromancer_leggings"
+					type: "item"
+				}
+				{
+					id: "1E64395DB5FF913E"
+					item: "irons_spellbooks:electromancer_boots"
+					type: "item"
+				}
+			]
+			title: "Les robes : Électromancien"
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2E672E935920AF5F"
+				"404356AB1248E27D"
+			]
+			description: ["Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur."]
+			icon: "irons_spellbooks:lightning_upgrade_orb"
+			id: "0EF0CF09279B704C"
+			optional: true
+			rewards: [{
+				id: "567EE651D77AFCC9"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "650B3E8F15E89703"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe : Électromancien"
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0BC893FE39B5D400"
+				"63EB3CB92BBD7B70"
+			]
+			description: ["Les quatre pièces de l'école (Prêtre), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique."]
+			icon: "irons_spellbooks:priest_helmet"
+			id: "644BEABEBF47B84E"
+			optional: true
+			rewards: [{
+				id: "1F9856B11AC39CF8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4921ED028A79231A"
+					item: "irons_spellbooks:priest_helmet"
+					type: "item"
+				}
+				{
+					id: "226D22AAB5875D86"
+					item: "irons_spellbooks:priest_chestplate"
+					type: "item"
+				}
+				{
+					id: "057B6DE7B523E1F4"
+					item: "irons_spellbooks:priest_leggings"
+					type: "item"
+				}
+				{
+					id: "0A5B2A5E709EF498"
+					item: "irons_spellbooks:priest_boots"
+					type: "item"
+				}
+			]
+			title: "Les robes : Prêtre"
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2E672E935920AF5F"
+				"63EB3CB92BBD7B70"
+			]
+			description: ["Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur."]
+			icon: "irons_spellbooks:holy_upgrade_orb"
+			id: "5013AB6989593D64"
+			optional: true
+			rewards: [{
+				id: "02F3F1DBEF6ED9D6"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EAE123A75299640"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe : Prêtre"
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0BC893FE39B5D400"
+				"77FFDDE262ED5796"
+			]
+			description: ["Les quatre pièces de l'école (Marchombre), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique."]
+			icon: "irons_spellbooks:shadowwalker_helmet"
+			id: "04C9B8FAE4EBB0AE"
+			optional: true
+			rewards: [{
+				id: "6C404B574AD1FE91"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "79EBA63299B2BFC2"
+					item: "irons_spellbooks:shadowwalker_helmet"
+					type: "item"
+				}
+				{
+					id: "5A52F552AFB29DE7"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "4BF05BA2043462AD"
+					item: "irons_spellbooks:shadowwalker_leggings"
+					type: "item"
+				}
+				{
+					id: "37175B6BFACD5AE9"
+					item: "irons_spellbooks:shadowwalker_boots"
+					type: "item"
+				}
+			]
+			title: "Les robes : Marchombre"
+			x: 14.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"2E672E935920AF5F"
+				"77FFDDE262ED5796"
+			]
+			description: ["Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur."]
+			icon: "irons_spellbooks:ender_upgrade_orb"
+			id: "4A14163AC35EB37B"
+			optional: true
+			rewards: [{
+				id: "13AC6296A4964B7A"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E37072DED8686B3"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe : Marchombre"
+			x: 20.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"0BC893FE39B5D400"
+				"45914493128DC3C8"
+			]
+			description: ["Les quatre pièces de l'école (Cultiste), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique."]
+			icon: "irons_spellbooks:cultist_helmet"
+			id: "0EF6108631B8A9DC"
+			optional: true
+			rewards: [{
+				id: "388D8783070FAAB6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "50AFC9EF02453C0E"
+					item: "irons_spellbooks:cultist_helmet"
+					type: "item"
+				}
+				{
+					id: "32E0796661D3E16D"
+					item: "irons_spellbooks:cultist_chestplate"
+					type: "item"
+				}
+				{
+					id: "4F0E65DB0A72697A"
+					item: "irons_spellbooks:cultist_leggings"
+					type: "item"
+				}
+				{
+					id: "02B9B431629E64A1"
+					item: "irons_spellbooks:cultist_boots"
+					type: "item"
+				}
+			]
+			title: "Les robes : Cultiste"
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"2E672E935920AF5F"
+				"45914493128DC3C8"
+			]
+			description: ["Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur."]
+			icon: "irons_spellbooks:blood_upgrade_orb"
+			id: "3B5FFF647FF587EA"
+			optional: true
+			rewards: [{
+				id: "437A1B4DDAD283D1"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05BC3E0AD2ADCC08"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe : Cultiste"
+			x: 20.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0BC893FE39B5D400"
+				"3C8440486CD5D5BA"
+			]
+			description: ["Les quatre pièces de l'école (Archévocateur), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique."]
+			icon: "irons_spellbooks:archevoker_helmet"
+			id: "21E7B3177E1256EE"
+			optional: true
+			rewards: [{
+				id: "506CF9BAA971A997"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0B3D289620FCE96D"
+					item: "irons_spellbooks:archevoker_helmet"
+					type: "item"
+				}
+				{
+					id: "2FD0AC0841F91939"
+					item: "irons_spellbooks:archevoker_chestplate"
+					type: "item"
+				}
+				{
+					id: "0D159FA204A6E991"
+					item: "irons_spellbooks:archevoker_leggings"
+					type: "item"
+				}
+				{
+					id: "6AB797C8E220E4D0"
+					item: "irons_spellbooks:archevoker_boots"
+					type: "item"
+				}
+			]
+			title: "Les robes : Archévocateur"
+			x: 14.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"2E672E935920AF5F"
+				"3C8440486CD5D5BA"
+			]
+			description: ["Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur."]
+			icon: "irons_spellbooks:evocation_upgrade_orb"
+			id: "58A1EEB4315EC039"
+			optional: true
+			rewards: [{
+				id: "427A7D71D8CB4EE5"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23404A47924357BE"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe : Archévocateur"
+			x: 20.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"0BC893FE39B5D400"
+				"1E420B11A016D786"
+			]
+			description: ["Les quatre pièces de l'école (Manteau pesteux), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique."]
+			icon: "irons_spellbooks:plagued_helmet"
+			id: "26B254FEA705D0A6"
+			optional: true
+			rewards: [{
+				id: "4A2FBF650E13886F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4E88A73C9CC6CC7E"
+					item: "irons_spellbooks:plagued_helmet"
+					type: "item"
+				}
+				{
+					id: "7888FA059A3698D1"
+					item: "irons_spellbooks:plagued_chestplate"
+					type: "item"
+				}
+				{
+					id: "69EEDD747B4A189E"
+					item: "irons_spellbooks:plagued_leggings"
+					type: "item"
+				}
+				{
+					id: "109B068007D387CE"
+					item: "irons_spellbooks:plagued_boots"
+					type: "item"
+				}
+			]
+			title: "Les robes : Manteau pesteux"
+			x: 14.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"2E672E935920AF5F"
+				"1E420B11A016D786"
+			]
+			description: ["Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur."]
+			icon: "irons_spellbooks:nature_upgrade_orb"
+			id: "0913CB25E4F34EA8"
+			optional: true
+			rewards: [{
+				id: "6D6C6F62EC899C13"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76B3B6B324619FA7"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe : nature"
+			x: 20.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2E672E935920AF5F"]
+			description: ["Huit runes (arcaniques) autour d'un orbe vide."]
+			icon: "irons_spellbooks:mana_upgrade_orb"
+			id: "0053CD5D0B99774B"
+			optional: true
+			rewards: [{
+				id: "0996678E5114546B"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00B8CAA1D8D621F8"
+				item: "irons_spellbooks:mana_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe de mana"
+			x: 20.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2E672E935920AF5F"]
+			description: ["Huit runes (de récupération) autour d'un orbe vide."]
+			icon: "irons_spellbooks:cooldown_upgrade_orb"
+			id: "4486BE1CE44D216A"
+			optional: true
+			rewards: [{
+				id: "21673008DF634304"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12591D89948D89B2"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe de récupération"
+			x: 20.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["2E672E935920AF5F"]
+			description: ["Huit runes (de protection) autour d'un orbe vide."]
+			icon: "irons_spellbooks:protection_upgrade_orb"
+			id: "32C3B9F32F139E33"
+			optional: true
+			rewards: [{
+				id: "22FD449B6B9CF6F8"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F93B605C0B76973"
+				item: "irons_spellbooks:protection_upgrade_orb"
+				type: "item"
+			}]
+			title: "L'orbe de protection"
+			x: 20.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2B7853B61165388C"
+				"6F21A5AD5403D999"
+				"210ED877253CF4DE"
+				"644BEABEBF47B84E"
+				"04C9B8FAE4EBB0AE"
+				"0EF6108631B8A9DC"
+				"21E7B3177E1256EE"
+				"26B254FEA705D0A6"
+			]
+			description: ["Un plastron de chaque école, les huit ensemble."]
+			icon: "irons_spellbooks:pyromancer_chestplate"
+			id: "035D607ECD6AE744"
+			optional: true
+			rewards: [{
+				id: "4BDFC7B7A57AF662"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0BCEA7D97214F6F2"
+					item: "irons_spellbooks:pyromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "1A8FC4A8CFBA092A"
+					item: "irons_spellbooks:cryomancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "5331BCC7EBF21B8C"
+					item: "irons_spellbooks:electromancer_chestplate"
+					type: "item"
+				}
+				{
+					id: "7DA310D34186849C"
+					item: "irons_spellbooks:priest_chestplate"
+					type: "item"
+				}
+				{
+					id: "16CAE1656B5C9E8B"
+					item: "irons_spellbooks:shadowwalker_chestplate"
+					type: "item"
+				}
+				{
+					id: "7E64C052456AB405"
+					item: "irons_spellbooks:cultist_chestplate"
+					type: "item"
+				}
+				{
+					id: "15F5AD1153DAF939"
+					item: "irons_spellbooks:archevoker_chestplate"
+					type: "item"
+				}
+				{
+					id: "4691385E87A79ECE"
+					item: "irons_spellbooks:plagued_chestplate"
+					type: "item"
+				}
+			]
+			title: "&dToutes les robes d'école"
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4C7F7EA397066D22"
+				"3B438F5A08C73730"
+				"0EF0CF09279B704C"
+				"5013AB6989593D64"
+				"4A14163AC35EB37B"
+				"3B5FFF647FF587EA"
+				"58A1EEB4315EC039"
+				"0913CB25E4F34EA8"
+				"0053CD5D0B99774B"
+				"4486BE1CE44D216A"
+				"32C3B9F32F139E33"
+			]
+			description: ["Les onze orbes d'amélioration réunis."]
+			icon: "irons_spellbooks:fire_upgrade_orb"
+			id: "243E3A1235D26247"
+			optional: true
+			rewards: [{
+				id: "6E8A8DC5C285F347"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0E3DCAAEB1689850"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "74E1CCBDD44D656D"
+					item: "irons_spellbooks:ice_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "6CBD93A73496E972"
+					item: "irons_spellbooks:lightning_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "4902FD560320CD21"
+					item: "irons_spellbooks:holy_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "22A37449A6203ED6"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "44CD3AD9B669A081"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "4FEBF24060B18AB1"
+					item: "irons_spellbooks:evocation_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "7473961FA1698BE1"
+					item: "irons_spellbooks:nature_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "57DEAD7092B6D656"
+					item: "irons_spellbooks:mana_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "0D222C413B31B47A"
+					item: "irons_spellbooks:cooldown_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "7C3426BD081C7D25"
+					item: "irons_spellbooks:protection_upgrade_orb"
+					type: "item"
+				}
+			]
+			title: "&dTous les orbes"
+			x: 22.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["07EE9D4E8544943A"]
+			description: ["Les blazes peuvent le lâcher (table de butin ajoutée par le mod)."]
+			icon: "irons_spellbooks:blaze_spell_book"
+			id: "2E0897090EB8D6DF"
+			optional: true
+			rewards: [{
+				id: "644D38B160B49402"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E2AE87805D29876"
+				item: "irons_spellbooks:blaze_spell_book"
+				type: "item"
+			}]
+			title: "Le Manuel du Blaze"
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3C8440486CD5D5BA"]
+			description: ["Les évocateurs peuvent le lâcher."]
+			icon: "irons_spellbooks:evoker_spell_book"
+			id: "5F8289DFF713016A"
+			optional: true
+			rewards: [{
+				id: "0442A87E60246351"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73C42A74A331F0A5"
+				item: "irons_spellbooks:evoker_spell_book"
+				type: "item"
+			}]
+			title: "Le Grimoire d'évocation"
+			x: 14.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0E4E9FD2F907073F"]
+			description: ["Le Roi Mort le lâche."]
+			icon: "irons_spellbooks:necronomicon_spell_book"
+			id: "326146006D206EBD"
+			optional: true
+			rewards: [{
+				id: "4C59A1DA3436BE77"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AB6F852E8B736B6"
+				item: "irons_spellbooks:necronomicon_spell_book"
+				type: "item"
+			}]
+			title: "&4Le Necronomicon"
+			x: 20.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["085B1B1D1EAB17A8"]
+			description: ["Il se fabrique avec la peau de l'Ender Dragon."]
+			icon: "irons_spellbooks:dragonskin_spell_book"
+			id: "26E3A0E03DDA2A99"
+			optional: true
+			rewards: [{
+				id: "2AD72BF593BAD087"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1659B720BE488B71"
+				item: "irons_spellbooks:dragonskin_spell_book"
+				type: "item"
+			}]
+			title: "Le Grimoire en peau de dragon"
+			x: 14.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1E420B11A016D786"]
+			description: ["Il se fabrique (recette du mod)."]
+			icon: "irons_spellbooks:druidic_spell_book"
+			id: "10E7A91C2E271F1F"
+			optional: true
+			rewards: [{
+				id: "66A2FDBB5172400C"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2204DF83837B904C"
+				item: "irons_spellbooks:druidic_spell_book"
+				type: "item"
+			}]
+			title: "Le Grimoire druidique"
+			x: 14.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["60CE3D0858F1F63C"]
+			description: ["Il se fabrique (recette du mod)."]
+			icon: "irons_spellbooks:ice_spell_book"
+			id: "7538A54036CF09C9"
+			optional: true
+			rewards: [{
+				id: "487B46DC1D89E9DF"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E336F96BFA3108E"
+				item: "irons_spellbooks:ice_spell_book"
+				type: "item"
+			}]
+			title: "Le Grimoire de givre"
+			x: 14.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["74716CCF47DE7839"]
+			description: ["Dans les coffres, et les cercueils des catacombes."]
+			icon: "irons_spellbooks:rotten_spell_book"
+			id: "72C0A8A1A7B3E67B"
+			optional: true
+			rewards: [{
+				id: "695622EA7533E27C"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14542C2F9187ADD4"
+				item: "irons_spellbooks:rotten_spell_book"
+				type: "item"
+			}]
+			title: "Le Grimoire pourri"
+			x: 18.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["085B1B1D1EAB17A8"]
+			description: ["Les bijoux d'Iron's Spells se portent dans les emplacements Curios : anneaux de mana, de récupération, de lancement, de protection contre le feu, le gel et le poison, et le reste. Seize en tout."]
+			icon: "irons_spellbooks:silver_ring"
+			id: "186582ACC3309F55"
+			optional: true
+			rewards: [{
+				id: "2651184D7F8CDBAC"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1C2B2B6A46B54D1F"
+					item: "irons_spellbooks:silver_ring"
+					type: "item"
+				}
+				{
+					id: "0B78C2B6AD576FCE"
+					item: "irons_spellbooks:mana_ring"
+					type: "item"
+				}
+				{
+					id: "541517F4F0955C27"
+					item: "irons_spellbooks:cooldown_ring"
+					type: "item"
+				}
+				{
+					id: "030D91B593106AFD"
+					item: "irons_spellbooks:cast_time_ring"
+					type: "item"
+				}
+				{
+					id: "1EABC8E0F74D0C25"
+					item: "irons_spellbooks:fireward_ring"
+					type: "item"
+				}
+				{
+					id: "791AFD92C4CC598C"
+					item: "irons_spellbooks:frostward_ring"
+					type: "item"
+				}
+				{
+					id: "77F84CB5BEA0029E"
+					item: "irons_spellbooks:poisonward_ring"
+					type: "item"
+				}
+				{
+					id: "6C596A11E3B91A31"
+					item: "irons_spellbooks:emerald_stoneplate_ring"
+					type: "item"
+				}
+				{
+					id: "066B0BB7D31E6303"
+					item: "irons_spellbooks:invisibility_ring"
+					type: "item"
+				}
+				{
+					id: "7F4D90644D46505B"
+					item: "irons_spellbooks:visibility_ring"
+					type: "item"
+				}
+				{
+					id: "1C706E78C64EA7FB"
+					item: "irons_spellbooks:affinity_ring"
+					type: "item"
+				}
+				{
+					id: "125C64AC23BCB828"
+					item: "irons_spellbooks:wicked_bone_ring"
+					type: "item"
+				}
+				{
+					id: "7A77843210F25DE2"
+					item: "irons_spellbooks:concentration_amulet"
+					type: "item"
+				}
+				{
+					id: "77A5E4F1FE0CFC68"
+					item: "irons_spellbooks:heavy_chain_necklace"
+					type: "item"
+				}
+				{
+					id: "5FE08F46DFCC6E11"
+					item: "irons_spellbooks:teleportation_amulet"
+					type: "item"
+				}
+				{
+					id: "326C774811D52D56"
+					item: "irons_spellbooks:amethyst_resonance_charm"
+					type: "item"
+				}
+			]
+			title: "Les anneaux et amulettes"
+			x: 14.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["085B1B1D1EAB17A8"]
+			description: ["Le bâton du Barbe-Grise, celui de glace, celui de pyrium, le bâton de sang du Roi Mort et la canne de l'artificier."]
+			icon: "irons_spellbooks:graybeard_staff"
+			id: "121357B56D02005F"
+			optional: true
+			rewards: [{
+				id: "33BEBA1C13569299"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3E1EF1ECE49A8765"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "45BAE5AA6ED10856"
+					item: "irons_spellbooks:ice_staff"
+					type: "item"
+				}
+				{
+					id: "5864654CD78A218D"
+					item: "irons_spellbooks:pyrium_staff"
+					type: "item"
+				}
+				{
+					id: "728D115B1F0333BD"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+				{
+					id: "7A4C26F7C7AFB622"
+					item: "irons_spellbooks:artificer_cane"
+					type: "item"
+				}
+			]
+			title: "Les bâtons de mage"
+			x: 14.0d
+			y: 26.0d
 		}
 		{
 			dependencies: [

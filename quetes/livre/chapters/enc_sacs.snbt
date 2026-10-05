@@ -1,0 +1,286 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_sacs"
+	group: "34D36ACF0DABCCEC"
+	icon: "inmis:frayed_backpack"
+	id: "50E6D4485CFB2778"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque sac du pack, une quête par sac. Rien n'est consommé ; les sacs d'Inmis montent palier par palier au chapitre &7Confort&r."]
+			icon: "inmis:frayed_backpack"
+			id: "13DA010927B94457"
+			rewards: [{
+				id: "0BE46B9D5521578E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6FEAFF8D32CE2074"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Sacs"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:baby_backpack"
+			id: "728EC1C6F5FC4E83"
+			optional: true
+			rewards: [{
+				id: "51E62DFAD96AD459"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1582042CEC8279CB"
+				item: "inmis:baby_backpack"
+				type: "item"
+			}]
+			title: "« Baby Backpack »"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:bejeweled_backpack"
+			id: "6A9E0F96CBFF7B9C"
+			optional: true
+			rewards: [{
+				id: "38E08F4D2F34975B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19D62C96334BF0CE"
+				item: "inmis:bejeweled_backpack"
+				type: "item"
+			}]
+			title: "« Bejeweled Backpack »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:blazing_backpack"
+			id: "75E0DB8AE0DD1F75"
+			optional: true
+			rewards: [{
+				id: "320DE83C74C7A2CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FD3FD3FEEB88A18"
+				item: "inmis:blazing_backpack"
+				type: "item"
+			}]
+			title: "« Blazing Backpack »"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:ender_pouch"
+			id: "2BA00711580D95CA"
+			optional: true
+			rewards: [{
+				id: "74D244503172886D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24864306523BCECC"
+				item: "inmis:ender_pouch"
+				type: "item"
+			}]
+			title: "« Ender Pouch »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:endless_backpack"
+			id: "3327A1C8656DDBC1"
+			optional: true
+			rewards: [{
+				id: "2379413FFBB8D192"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B600A615F241909"
+				item: "inmis:endless_backpack"
+				type: "item"
+			}]
+			title: "« Endless Backpack »"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:frayed_backpack"
+			id: "77052B56CA68FA94"
+			optional: true
+			rewards: [{
+				id: "09879D110B7E41F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58568D7DF34B6773"
+				item: "inmis:frayed_backpack"
+				type: "item"
+			}]
+			title: "« Frayed Backpack »"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:gilded_backpack"
+			id: "433CBF3507BFA5FE"
+			optional: true
+			rewards: [{
+				id: "38A94EFCE73C72F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19F594CF533CC341"
+				item: "inmis:gilded_backpack"
+				type: "item"
+			}]
+			title: "« Gilded Backpack »"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:plated_backpack"
+			id: "4CF6BE8C4C7FE5A8"
+			optional: true
+			rewards: [{
+				id: "4BF215402E3C2F00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "249BAB4AD7342A1E"
+				item: "inmis:plated_backpack"
+				type: "item"
+			}]
+			title: "« Plated Backpack »"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &binmis&r. Ses paliers sont au chapitre &7Confort&r. À garder : la livraison n'est pas consommée."]
+			icon: "inmis:withered_backpack"
+			id: "7FC41FA22F0A71CA"
+			optional: true
+			rewards: [{
+				id: "3B455ED969E97D74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C486E147E6FB6A3"
+				item: "inmis:withered_backpack"
+				type: "item"
+			}]
+			title: "« Withered Backpack »"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &bQuark&r. À garder : la livraison n'est pas consommée."]
+			icon: "quark:backpack"
+			id: "1624620E33CE6D55"
+			optional: true
+			rewards: [{
+				id: "0C354898BEAEE0E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "363CF32409D9A6C4"
+				item: "quark:backpack"
+				type: "item"
+			}]
+			title: "Sac à dos"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sac de &bQuark&r. À garder : la livraison n'est pas consommée."]
+			icon: "quark:seed_pouch"
+			id: "5849CD1DCD6838A5"
+			optional: true
+			rewards: [{
+				id: "1FC3CF6D86D47745"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B704711CA8F0CF5"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			title: "Sac de graines"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"728EC1C6F5FC4E83"
+				"6A9E0F96CBFF7B9C"
+				"75E0DB8AE0DD1F75"
+				"2BA00711580D95CA"
+				"3327A1C8656DDBC1"
+				"77052B56CA68FA94"
+				"433CBF3507BFA5FE"
+				"4CF6BE8C4C7FE5A8"
+				"7FC41FA22F0A71CA"
+				"1624620E33CE6D55"
+				"5849CD1DCD6838A5"
+			]
+			description: ["Chaque sac de ce chapitre."]
+			icon: "inmis:endless_backpack"
+			id: "51DFEBB2B04C563F"
+			optional: true
+			rewards: [{
+				id: "2B79D27D9DCF4D57"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "63268EEDE99CC1E2"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Tous les sacs"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Sacs"
+}

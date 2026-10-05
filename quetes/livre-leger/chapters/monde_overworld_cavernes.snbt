@@ -55,7 +55,7 @@
 			}]
 			title: "Une géode d'améthyste"
 			x: 2.0d
-			y: -5.25d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6E5161095738E9F8"]
@@ -73,7 +73,7 @@
 			}]
 			title: "Les Cavernes givrées"
 			x: 2.0d
-			y: -3.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6E5161095738E9F8"]
@@ -91,7 +91,7 @@
 			}]
 			title: "Les Cavernes de marbre"
 			x: 2.0d
-			y: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6E5161095738E9F8"]
@@ -109,7 +109,7 @@
 			}]
 			title: "Les Cavernes perdues"
 			x: 2.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6E5161095738E9F8"]
@@ -127,7 +127,7 @@
 			}]
 			title: "Les Canyons de cristal"
 			x: 2.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6E5161095738E9F8"]
@@ -145,7 +145,7 @@
 			}]
 			title: "Les Cavernes de lichen"
 			x: 2.0d
-			y: 2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6E5161095738E9F8"]
@@ -163,7 +163,7 @@
 			}]
 			title: "Les Cavernes de sel rose"
 			x: 2.0d
-			y: 3.75d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0A45F4AE2BDFA068"]
@@ -183,7 +183,7 @@
 			}]
 			title: "Le Sanctuaire du sel rose"
 			x: 4.0d
-			y: 7.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7F25BE89D2838422"]
@@ -203,7 +203,7 @@
 			}]
 			title: "Les Ruines oubliées"
 			x: 4.0d
-			y: 8.75d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7F25BE89D2838422"]
@@ -224,7 +224,7 @@
 			}]
 			title: "Un spectre en bouteille"
 			x: 4.0d
-			y: 10.25d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7F25BE89D2838422"]
@@ -245,7 +245,7 @@
 			}]
 			title: "Une lampe d'allurite"
 			x: 4.0d
-			y: 11.75d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6E5161095738E9F8"]
@@ -265,7 +265,7 @@
 			}]
 			title: "La cité ancienne"
 			x: 2.0d
-			y: 5.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3F24DA257655F529"]
@@ -290,8 +290,112 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["3F24DA257655F529"]
-			description: ["Six biomes de cavernes et une cité. Le portail de l'Otherside se construit au chapitre &7Deeper and Darker&r."]
+			dependencies: ["6E5161095738E9F8"]
+			description: ["Le minerai de &lpalladium&r de Galosphere, sous terre. Les pillards en lâchent aussi des pépites (config du serveur)."]
+			icon: "galosphere:palladium_ingot"
+			id: "53DAABDB4DB96837"
+			rewards: [{
+				id: "2E46528EF8CCDD67"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0CF0389611616C6A"
+				item: "galosphere:palladium_ingot"
+				type: "item"
+			}]
+			title: "Du palladium"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["53DAABDB4DB96837"]
+			description: ["Cuir et palladium. Le casque peut porter une bannière (infobulle) : celle de ta faction."]
+			icon: "galosphere:sterling_helmet"
+			id: "497508C94193777E"
+			rewards: [{
+				id: "7AD6A319DF613CC8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "36EBD2BC53020C50"
+					item: "galosphere:sterling_helmet"
+					type: "item"
+				}
+				{
+					id: "26479F8CD5B7647C"
+					item: "galosphere:sterling_chestplate"
+					type: "item"
+				}
+				{
+					id: "538E22243A0A4615"
+					item: "galosphere:sterling_leggings"
+					type: "item"
+				}
+				{
+					id: "58214D4AB789DD3C"
+					item: "galosphere:sterling_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure sterling"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"53DAABDB4DB96837"
+				"386302B701C7FBAC"
+			]
+			description: ["Quatre lingots de palladium autour d'un éclat de lumière (« Lumiere Shard »)."]
+			icon: "galosphere:monstrometer"
+			id: "5181B58410F58A6C"
+			optional: true
+			rewards: [{
+				id: "25EA71369BCB3B2D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78871245AF08D548"
+				item: "galosphere:monstrometer"
+				type: "item"
+			}]
+			title: "Le monstromètre"
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["53DAABDB4DB96837"]
+			description: ["Quatre lingots de palladium autour d'une poudre à canon : deux bombes."]
+			icon: "galosphere:palladium_bomb"
+			id: "347B6E3B65F96281"
+			optional: true
+			rewards: [{
+				id: "628EB73D3E2B4667"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B007D3A9C69196B"
+				item: "galosphere:palladium_bomb"
+				type: "item"
+			}]
+			title: "Des bombes de palladium"
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"3F24DA257655F529"
+				"497508C94193777E"
+				"60D79E7CB38AAF59"
+			]
+			description: ["Les cavernes, une cité, le Warden, et l'armure sterling sur le dos. Le portail de l'Otherside se construit au chapitre &7Deeper and Darker&r."]
 			icon: "minecraft:echo_shard"
 			id: "56DD480004BEAAF4"
 			rewards: [{
@@ -299,15 +403,16 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			size: 1.3d
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "5A98603B11AE6DED"
 				title: "Les cavernes sont explorées"
 				type: "checkmark"
 			}]
 			title: "&3Le fond est atteint"
-			x: 4.0d
-			y: 0.75d
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 	title: "&3Overworld — cavernes"

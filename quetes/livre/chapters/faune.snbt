@@ -417,7 +417,28 @@
 		}
 		{
 			dependencies: ["2EBB9E3B3EEC9AA5"]
-			description: ["&bRevampedWolf&r : des armures de loup en cuir, fer, or, diamant, et nétherite à la table de forge. Activées sur ce serveur."]
+			description: ["&bRevampedWolf&r : chaque armure de loup se fait avec une paire de bottes et quatre unités du même matériau. Cuir, fer, or, diamant, puis nétherite à la table de forge. Activées sur ce serveur."]
+			icon: "revampedwolf:leather_wolf_armor"
+			id: "1FAED8C5CC30828B"
+			optional: true
+			rewards: [{
+				id: "07580454E733AD44"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C1E03D3692741C4"
+				item: "revampedwolf:leather_wolf_armor"
+				type: "item"
+			}]
+			title: "Une armure de loup en cuir"
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1FAED8C5CC30828B"]
+			description: ["Des bottes de fer et quatre lingots. L'or est à côté de l'échelle : bottes d'or et quatre lingots d'or."]
 			icon: "revampedwolf:iron_wolf_armor"
 			id: "4C04D007948EAF44"
 			optional: true
@@ -432,9 +453,72 @@
 				item: "revampedwolf:iron_wolf_armor"
 				type: "item"
 			}]
-			title: "Une armure de loup"
-			x: 2.0d
-			y: 12.5d
+			title: "Une armure de loup en fer"
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4C04D007948EAF44"]
+			icon: "revampedwolf:golden_wolf_armor"
+			id: "28FBBEAF29C05EDF"
+			optional: true
+			rewards: [{
+				id: "34004019ABAD95F8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DC1F4EE72BFCF81"
+				item: "revampedwolf:golden_wolf_armor"
+				type: "item"
+			}]
+			title: "Une armure de loup en or"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C04D007948EAF44"]
+			description: ["Des bottes de diamant et quatre diamants."]
+			icon: "revampedwolf:diamond_wolf_armor"
+			id: "2A22B88D62F6BAFD"
+			optional: true
+			rewards: [{
+				id: "4E232361B7BEB359"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AE68A4FA170BBC9"
+				item: "revampedwolf:diamond_wolf_armor"
+				type: "item"
+			}]
+			title: "Une armure de loup en diamant"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A22B88D62F6BAFD"]
+			description: ["À la table de forge : l'armure de loup en diamant, un lingot de nétherite et un modèle d'amélioration. Le dernier palier ; chaque selle et chaque armure de monture est à la collection &7Montures et compagnons&r de l'Encyclopédie."]
+			icon: "revampedwolf:netherite_wolf_armor"
+			id: "11865663E929B7DE"
+			optional: true
+			rewards: [{
+				id: "354735E3A16F84DC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4573B15E7CA0F5CA"
+				item: "revampedwolf:netherite_wolf_armor"
+				type: "item"
+			}]
+			title: "&8Une armure de loup en nétherite"
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2EBB9E3B3EEC9AA5"]

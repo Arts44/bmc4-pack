@@ -61,6 +61,50 @@
 			y: -2.25d
 		}
 		{
+			dependencies: ["35C37D4049A8C144"]
+			description: [
+				"&b15 étagères&r, c'est la puissance maximale partout dans le pack : la table d'Easy Magic plafonne à 15, et les deux infuseurs demandent 15 étagères pour leurs niveaux maximaux. Posées autour du bloc avec un espace d'un bloc, sur deux hauteurs ; les coins comptent."
+				""
+				"Les étagères ciselées comptent aussi, une par trois livres, à condition de faire face à la table."
+			]
+			icon: "minecraft:bookshelf"
+			id: "2387CE463C05DFBC"
+			rewards: [{
+				id: "610D2A162D62EBAA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 15L
+				id: "09423C230ADE3654"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			title: "Quinze étagères"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2387CE463C05DFBC"]
+			description: ["Dix objets enchantés à la table. Si les trois propositions ne conviennent pas, le bouton de relance les retire contre &b5 points&r d'expérience et un lapis."]
+			id: "5084D918046E5B4C"
+			rewards: [{
+				count: 16
+				id: "6CCFB584DACBEF03"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69DE76467D4E5781"
+				stat: "minecraft:enchant_item"
+				type: "stat"
+				value: 10L
+			}]
+			title: "Dix enchantements à la table"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
 			dependencies: ["076B18B95D2ED04B"]
 			description: ["Avec &bEasy Anvils&r, la pénalité de travaux antérieurs est &lfixe&r (4), plus de « trop cher », les livres coûtent moitié moins, renommer est gratuit, et l'enclume ne casse qu'une fois sur vingt. Réparer et renommer ne comptent pas comme travaux."]
 			icon: "minecraft:anvil"
@@ -81,7 +125,11 @@
 		}
 		{
 			dependencies: ["35C37D4049A8C144"]
-			description: ["L'&dinfuseur&r laisse &lchoisir&r les enchantements de l'objet, et leur niveau, contre de l'expérience. Sa puissance vient des étagères posées en carré autour de lui, sur deux hauteurs : plus d'étagères, plus d'enchantements accessibles."]
+			description: [
+				"L'&dinfuseur&r laisse &lchoisir&r les enchantements de l'objet, et leur niveau, contre de l'expérience. Sa puissance vient des étagères posées en carré autour de lui, sur deux hauteurs : plus d'étagères, plus d'enchantements accessibles."
+				""
+				"Sur ce serveur, l'infuseur simple n'enchante que des objets &lsans&r enchantement, ne prend pas les livres et ne répare pas."
+			]
 			icon: "enchantinginfuser:enchanting_infuser"
 			id: "6E97165F3E7D865E"
 			rewards: [{
@@ -97,11 +145,11 @@
 			}]
 			title: "Un infuseur d'enchantement"
 			x: 4.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["6E97165F3E7D865E"]
-			description: ["L'&dinfuseur avancé&r choisit, modifie &let retire&r les enchantements, et &lrépare&r l'objet contre des niveaux. La fin de l'enclume pour les outils de valeur."]
+			description: ["L'&dinfuseur avancé&r choisit, modifie &let retire&r les enchantements, même sur un objet déjà enchanté, et &lrépare&r outils et armures contre des niveaux, &b25 %&r de durabilité par étape. Il enchante aussi les &llivres&r, et accepte les enchantements d'enclume, comme Tranchant sur une hache. La fin de l'enclume pour les outils de valeur."]
 			icon: "enchantinginfuser:advanced_enchanting_infuser"
 			id: "6AEBECC7CA80D342"
 			rewards: [{
@@ -116,11 +164,49 @@
 			}]
 			title: "L'infuseur avancé"
 			x: 6.0d
-			y: -0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"6AEBECC7CA80D342"
+				"2387CE463C05DFBC"
+			]
+			description: [
+				"Un infuseur avancé posé, et ses &b15 étagères&r. D'après la config du serveur, les enchantements s'ouvrent ainsi : les communs tout de suite, les peu communs à 3 étagères, les rares à 6, les très rares à 9 ; leur niveau maximal arrive 6 étagères plus loin, donc à 15 pour les très rares."
+				""
+				"Ce que l'infuseur ne donne jamais ici : les enchantements de &ltrésor&r (Raccommodage), les &lmalédictions&r, et ceux qu'on ne trouve ni à la table ni chez les marchands (Agilité des âmes). Ceux-là viennent des coffres, des marchands et de la pêche."
+			]
+			icon: "enchantinginfuser:advanced_enchanting_infuser"
+			id: "5DFBB7156A534523"
+			rewards: [{
+				id: "1460A0C867ADEB9A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "18BF40663C77C45E"
+					observe_type: 0
+					timer: 0L
+					to_observe: "enchantinginfuser:advanced_enchanting_infuser"
+					type: "observation"
+				}
+				{
+					count: 15L
+					id: "222AEF91734755ED"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "&dL'infuseur au maximum"
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["076B18B95D2ED04B"]
-			description: ["&bEasy Disenchanting&r permet de retirer un enchantement d'un objet pour le récupérer sur un livre, à la meule. Le coût en expérience est fixé par la config du serveur, un enchantement rendu par opération."]
+			description: ["&bEasy Disenchanting&r se fait à l'&lenclume&r : l'objet enchanté d'un côté, un livre de l'autre. Le livre repart avec &ltous&r les enchantements de l'objet, et l'objet est rendu, sans eux. Le coût en niveaux dépend des enchantements transférés."]
 			id: "46C32D1A51DB0CEB"
 			rewards: [{
 				id: "261713FCDD026D1C"
@@ -178,7 +264,8 @@
 		}
 		{
 			dependencies: [
-				"6E97165F3E7D865E"
+				"5DFBB7156A534523"
+				"5084D918046E5B4C"
 				"6627CABC93264599"
 			]
 			description: ["Un infuseur, un tome, une enclume qui ne punit plus. Ce qu'il manque encore se trouve chez les marchands, dans les donjons, et dans les coffres par joueur."]
@@ -196,8 +283,8 @@
 				type: "checkmark"
 			}]
 			title: "&dL'équipement est enchanté"
-			x: 6.0d
-			y: 0.75d
+			x: 10.0d
+			y: 0.0d
 		}
 	]
 	title: "&dEnchantement"

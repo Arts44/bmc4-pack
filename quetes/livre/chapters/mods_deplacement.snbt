@@ -93,13 +93,11 @@
 			description: ["Une seconde debout dessus (config) et elle envoie vers la plaque à laquelle elle est liée par un éclat accordé."]
 			icon: "waystones:warp_plate"
 			id: "2D7FA1464C10380C"
-			optional: true
 			rewards: [{
 				id: "097024556428B60D"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "hexagon"
 			tasks: [{
 				id: "7B8921F48B30AEF3"
 				item: "waystones:warp_plate"
@@ -107,7 +105,7 @@
 			}]
 			title: "Une plaque de téléportation"
 			x: 6.0d
-			y: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["07D3EAC43ADCBE2E"]
@@ -128,7 +126,7 @@
 			}]
 			title: "Voyager avec ses bêtes"
 			x: 6.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["146CEA013AF60E6A"]
@@ -252,8 +250,78 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["2D7FA1464C10380C"]
+			description: ["Un &léclat accordé&r se fabrique dans la plaque elle-même : un silex et quatre poussières de téléportation. Une plaque sans éclat lié n'a pas de destination (message du mod) ; deux plaques accordées font une liaison fixe entre deux bases."]
+			icon: "waystones:warp_plate"
+			id: "4DC0118D193B9AA5"
+			rewards: [{
+				id: "1A31EA0C211C00C3"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "73B326CB8C50BE1D"
+					item: "waystones:warp_plate"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "078911DC1BC55F65"
+					item: "waystones:attuned_shard"
+					type: "item"
+				}
+			]
+			title: "Deux plaques liées"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07D3EAC43ADCBE2E"]
+			description: ["La &lportstone&r se fait autour d'une pierre de téléportation. On en part, mais on ne peut pas s'y téléporter (infobulle)."]
+			icon: "waystones:portstone"
+			id: "0DD89CF424B6F0C6"
+			optional: true
+			rewards: [{
+				id: "5A48B5F9DE60C6D4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F363917AEC83945"
+				item: "waystones:portstone"
+				type: "item"
+			}]
+			title: "Une pierre de départ"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D82812CFCCFD892"]
+			description: ["Mille mètres en vol plané, au total (statistique du jeu). Les cent kilomètres sont au chapitre des Défis."]
+			id: "055567B43DBDF96E"
+			optional: true
+			rewards: [{
+				id: "12C35EABAA0079BC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00D7E775F9DCA09F"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 100000L
+			}]
+			title: "Un kilomètre en élytres"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
 			dependencies: [
-				"07D3EAC43ADCBE2E"
+				"4DC0118D193B9AA5"
 				"1938E7C4891E4745"
 			]
 			icon: "waystones:warp_plate"
@@ -263,14 +331,15 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			size: 1.3d
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "285F79A4FDACE86C"
 				title: "Mon réseau est en place"
 				type: "checkmark"
 			}]
 			title: "&bPartout en un instant"
-			x: 6.0d
+			x: 10.0d
 			y: 0.0d
 		}
 	]

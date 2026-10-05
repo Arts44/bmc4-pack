@@ -65,7 +65,7 @@
 			}]
 			title: "&7Vaincre le Wroughtnaut ferreux"
 			x: 4.0d
-			y: -1.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["220425544206A882"]
@@ -125,7 +125,7 @@
 			}]
 			title: "&6Vaincre Umvuthi"
 			x: 4.0d
-			y: 0.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["220425544206A882"]
@@ -164,7 +164,7 @@
 			}]
 			title: "&7L'épreuve du Sculpteur"
 			x: 4.0d
-			y: 1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["220425544206A882"]
@@ -185,7 +185,7 @@
 			}]
 			title: "Un Foliaath"
 			x: 2.0d
-			y: 4.25d
+			y: 5.75d
 		}
 		{
 			dependencies: ["220425544206A882"]
@@ -206,7 +206,7 @@
 			}]
 			title: "Un Grottol"
 			x: 2.0d
-			y: 5.75d
+			y: 7.25d
 		}
 		{
 			dependencies: ["220425544206A882"]
@@ -227,7 +227,7 @@
 			}]
 			title: "La Naga des Côtes rocheuses"
 			x: 2.0d
-			y: 7.25d
+			y: 8.75d
 		}
 		{
 			dependencies: ["220425544206A882"]
@@ -266,16 +266,339 @@
 			]
 			title: "Les yeux de Cataclysm"
 			x: 2.0d
-			y: 8.75d
+			y: 10.25d
+		}
+		{
+			dependencies: ["3715DEAEFE686843"]
+			description: ["Les deux pièces de sa table de butin : la hache et le casque du Wroughtnaut."]
+			icon: "mowziesmobs:wrought_axe"
+			id: "03166E83DD76F04B"
+			rewards: [{
+				id: "6ADA6C2BC11CB5C3"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [
+				{
+					id: "4835296822E7715E"
+					item: "mowziesmobs:wrought_axe"
+					type: "item"
+				}
+				{
+					id: "7E45244D0320FF5F"
+					item: "mowziesmobs:wrought_helmet"
+					type: "item"
+				}
+			]
+			title: "La hache et le casque"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["03166E83DD76F04B"]
+			description: ["Chaque chambre forgée a son Wroughtnaut. Trouve-en une autre et recommence : seul un combat mené après cette quête compte."]
+			id: "13EBFEE1EAD954F4"
+			rewards: [{
+				id: "15865A2899EE28DE"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "45FE316C1093B3EC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7Un autre Wroughtnaut"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6753EF5A06F8ACC5"]
+			description: ["Le cristal du Frostmaw, dans sa table de butin. Le lui voler sans le tuer vaut un progrès à part."]
+			icon: "mowziesmobs:ice_crystal"
+			id: "0A7613B8FFCD6F9B"
+			rewards: [{
+				id: "0345BA78F6CB812B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "601F2B8B8A95F143"
+				item: "mowziesmobs:ice_crystal"
+				type: "item"
+			}]
+			title: "Le cristal de glace"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6753EF5A06F8ACC5"]
+			description: ["Prendre le cristal à un Frostmaw sans le tuer (progrès du mod)."]
+			id: "1C7B8BB1C410517D"
+			optional: true
+			rewards: [{
+				id: "54F34A1ADA047D33"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:steal_ice_crystal"
+				criterion: ""
+				id: "41DA3C26A78993C4"
+				type: "advancement"
+			}]
+			title: "Voler le cristal"
+			x: 4.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["0A7613B8FFCD6F9B"]
+			description: ["Un autre Frostmaw, ailleurs dans le froid. Seul un combat mené après cette quête compte."]
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "260F19230EE8DAFE"
+			rewards: [{
+				id: "0026458CADB7224E"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "47F1E6E93C2D7364"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&bUn autre Frostmaw"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["54E4A56D901F419E"]
+			dependency_requirement: "one_completed"
+			description: ["Six masques, sur les Umvuthana ou dans les coffres du bosquet."]
+			icon: "mowziesmobs:umvuthana_mask_fury"
+			id: "29CE83514D7C2392"
+			rewards: [{
+				id: "3B3105724A75E231"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "66FBE5E02F961D81"
+					item: "mowziesmobs:umvuthana_mask_fury"
+					type: "item"
+				}
+				{
+					id: "6A155F00CEFE43CB"
+					item: "mowziesmobs:umvuthana_mask_fear"
+					type: "item"
+				}
+				{
+					id: "4A74BEBB4EA0EFE2"
+					item: "mowziesmobs:umvuthana_mask_rage"
+					type: "item"
+				}
+				{
+					id: "51262FC01CD012B2"
+					item: "mowziesmobs:umvuthana_mask_bliss"
+					type: "item"
+				}
+				{
+					id: "49EB5AC7FC08F21E"
+					item: "mowziesmobs:umvuthana_mask_misery"
+					type: "item"
+				}
+				{
+					id: "4D9919E729D27802"
+					item: "mowziesmobs:umvuthana_mask_faith"
+					type: "item"
+				}
+			]
+			title: "Un masque d'Umvuthana"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["29CE83514D7C2392"]
+			description: ["Entrer dans un bosquet d'Umvuthana déguisé (progrès du mod)."]
+			id: "4ACE5A398AD30F4C"
+			optional: true
+			rewards: [{
+				id: "4BDE823C52BE1B23"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:sneak_grove"
+				criterion: ""
+				id: "632868592AD95517"
+				type: "advancement"
+			}]
+			title: "Déguisé dans le bosquet"
+			x: 6.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["54E4A56D901F419E"]
+			description: ["Le chef des Umvuthana d'un bosquet (progrès du mod)."]
+			id: "64288CA528AF3558"
+			rewards: [{
+				id: "56D3F924405566BE"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthana_raptor"
+				criterion: ""
+				id: "31CE88C6AED2A61B"
+				type: "advancement"
+			}]
+			title: "Le Raptor"
+			x: 4.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0B9B2DDF557DBAE7"]
+			description: ["Le masque d'Umvuthi, dans sa table de butin."]
+			icon: "mowziesmobs:sol_visage"
+			id: "385CCF2C791823A8"
+			rewards: [{
+				id: "7B9AD5A1592B4AFC"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "5B6E2F6E802A20DB"
+				item: "mowziesmobs:sol_visage"
+				type: "item"
+			}]
+			title: "Le Visage du Sol"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0B9B2DDF557DBAE7"]
+			description: ["Sept blocs d'or apportés à Umvuthi (config du serveur)."]
+			id: "203219689BC5C0FB"
+			optional: true
+			rewards: [{
+				id: "4557441F93FF1195"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:suns_blessing"
+				criterion: ""
+				id: "5B2C253725782BEA"
+				type: "advancement"
+			}]
+			title: "La Bénédiction du Soleil"
+			x: 6.0d
+			y: 7.25d
 		}
 		{
 			dependencies: [
-				"3715DEAEFE686843"
-				"6753EF5A06F8ACC5"
-				"0B9B2DDF557DBAE7"
-				"13A1A40F39DEC61A"
+				"385CCF2C791823A8"
+				"64288CA528AF3558"
 			]
-			description: ["Wroughtnaut, Frostmaw, Umvuthi, Sculpteur. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont &lincassables&r sur ce serveur (config)."]
+			description: ["Chaque bosquet a son Umvuthi. Seul un combat mené après cette quête compte."]
+			icon: "mowziesmobs:umvuthi_spawn_egg"
+			id: "74FFCE9E192ED94F"
+			rewards: [{
+				id: "28F754D406940D0B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "5D9078FF4DAE1DE2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Un autre Umvuthi"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["13A1A40F39DEC61A"]
+			description: ["La récompense du défi du Sculpteur (table de butin sculptor_test du jar)."]
+			icon: "mowziesmobs:earthrend_gauntlet"
+			id: "0160BDDACC431226"
+			rewards: [{
+				id: "4D3F434A9E4151F7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "241D954D84E644CD"
+				item: "mowziesmobs:earthrend_gauntlet"
+				type: "item"
+			}]
+			title: "Le Gantelet fendeur de terre"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["49E15BD8BDD5AEAD"]
+			description: ["Perles, robe, ceinture, sandales et bâton du Sculpteur : dans les coffres du monastère ou sur le Sculpteur lui-même."]
+			icon: "mowziesmobs:geomancer_beads"
+			id: "20745941566918EA"
+			optional: true
+			rewards: [{
+				id: "47D2F7D2DFF558F1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "17F957724CF1632E"
+					item: "mowziesmobs:geomancer_beads"
+					type: "item"
+				}
+				{
+					id: "1A5E970D59680D0A"
+					item: "mowziesmobs:geomancer_robe"
+					type: "item"
+				}
+				{
+					id: "024C81DDC6ADFC9B"
+					item: "mowziesmobs:geomancer_belt"
+					type: "item"
+				}
+				{
+					id: "6E916C7222551939"
+					item: "mowziesmobs:geomancer_sandals"
+					type: "item"
+				}
+				{
+					id: "6033411EAB9225F0"
+					item: "mowziesmobs:sculptor_staff"
+					type: "item"
+				}
+			]
+			title: "La tenue du géomancien"
+			x: 4.0d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"13EBFEE1EAD954F4"
+				"260F19230EE8DAFE"
+				"74FFCE9E192ED94F"
+				"0160BDDACC431226"
+			]
+			description: ["Wroughtnaut, Frostmaw et Umvuthi battus deux fois, le défi du Sculpteur relevé. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont &lincassables&r sur ce serveur (config)."]
 			icon: "mowziesmobs:earthrend_gauntlet"
 			id: "0DE0DB4345A2242A"
 			rewards: [{
@@ -283,6 +606,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "26613F3D9DBAB0AF"
@@ -290,7 +614,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Les quatre géants"
-			x: 6.0d
+			x: 10.0d
 			y: 0.0d
 		}
 	]

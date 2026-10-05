@@ -1,0 +1,335 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_jetpacks"
+	group: "34D36ACF0DABCCEC"
+	icon: "ironjetpacks:jetpack"
+	id: "6568D86C2997416B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque jetpack qu'Iron Jetpacks permet de fabriquer sur ce serveur, une quête par jetpack. Bronze, argent, électrum, invar et platine n'ont pas de matériau dans le pack, le créatif n'a pas de recette : ils n'y sont pas."]
+			icon: "ironjetpacks:jetpack"
+			id: "4155EAF454F6DD2C"
+			rewards: [{
+				id: "78E524594B08FD6C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1F1F61432577F4D2"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bJetpacks"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Le jetpack en bois d'Iron Jetpacks (palier 0). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:wood"
+				}
+			}
+			id: "4508E1F89DDC524A"
+			optional: true
+			rewards: [{
+				id: "78B27DAE42B3BD51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E8C14A3D45D5332"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Jetpack en bois"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Le jetpack en cuivre d'Iron Jetpacks (palier 1). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:copper"
+				}
+			}
+			id: "0203524E2614DB86"
+			optional: true
+			rewards: [{
+				id: "729D74E319A42376"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E9A95CA67DA0D87"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:copper"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Jetpack en cuivre"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Le jetpack en pierre d'Iron Jetpacks (palier 1). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:stone"
+				}
+			}
+			id: "38A5BCA89696FE8D"
+			optional: true
+			rewards: [{
+				id: "3BD5D17D04DE5C60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25553CBB86CE86E3"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:stone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Jetpack en pierre"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Le jetpack en fer d'Iron Jetpacks (palier 2). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:iron"
+				}
+			}
+			id: "6D7FD79F8CB2425C"
+			optional: true
+			rewards: [{
+				id: "623A8F7071069B03"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C0FE789BD8FE011"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:iron"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Jetpack en fer"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Le jetpack en or d'Iron Jetpacks (palier 3). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:gold"
+				}
+			}
+			id: "2E512622A3666BB5"
+			optional: true
+			rewards: [{
+				id: "07AB9E392642E6D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73A5B41F55937FE1"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:gold"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Jetpack en or"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Le jetpack en acier d'Iron Jetpacks (palier 3). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:steel"
+				}
+			}
+			id: "7E4FE794D7A973E4"
+			optional: true
+			rewards: [{
+				id: "4D3EA42A7484C528"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "615CD6880EB4867E"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:steel"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Jetpack en acier"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Le jetpack en diamant d'Iron Jetpacks (palier 4). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:diamond"
+				}
+			}
+			id: "3852D5DFE9B6F707"
+			optional: true
+			rewards: [{
+				id: "624EEFCBBB378260"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50AF2973706E3D2C"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:diamond"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Jetpack en diamant"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Le jetpack en émeraude d'Iron Jetpacks (palier 5). Ses paliers sont au chapitre &7Iron Jetpacks&r. À garder : la livraison n'est pas consommée."]
+			icon: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:emerald"
+				}
+			}
+			id: "6A2C84B2EEBDE0A8"
+			optional: true
+			rewards: [{
+				id: "000D0D7AFBB5A47E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B894FF49CE71FC0"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:emerald"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Jetpack en émeraude"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4508E1F89DDC524A"
+				"0203524E2614DB86"
+				"38A5BCA89696FE8D"
+				"6D7FD79F8CB2425C"
+				"2E512622A3666BB5"
+				"7E4FE794D7A973E4"
+				"3852D5DFE9B6F707"
+				"6A2C84B2EEBDE0A8"
+			]
+			description: ["Les huit jetpacks fabricables."]
+			icon: "ironjetpacks:jetpack"
+			id: "79FCAA61283508FC"
+			optional: true
+			rewards: [{
+				id: "31E8FDB3FA2F3360"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "56313D3E34F87F0F"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Tous les jetpacks"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&bJetpacks"
+}

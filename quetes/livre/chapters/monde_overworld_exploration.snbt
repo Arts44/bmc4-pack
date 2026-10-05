@@ -117,7 +117,7 @@
 			}]
 			title: "Piller un avant-poste"
 			x: 4.0d
-			y: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["55F7CB144EB0C67A"]
@@ -136,7 +136,7 @@
 			}]
 			title: "Le manoir des bois"
 			x: 4.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["09F487A786A67A68"]
@@ -156,7 +156,7 @@
 			}]
 			title: "Héros du village"
 			x: 6.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["09F487A786A67A68"]
@@ -232,7 +232,7 @@
 			}]
 			title: "Le temple de la jungle"
 			x: 4.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -307,7 +307,7 @@
 			}]
 			title: "Un donjon"
 			x: 4.0d
-			y: 2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2688EF613B076FF9"]
@@ -550,13 +550,80 @@
 			y: 3.75d
 		}
 		{
+			dependencies: ["1224156C11D4975F"]
+			description: ["Le gardien du monument, celui qui lance la fatigue de minage. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "2ED7F1A18B4C9240"
+			rewards: [{
+				id: "0262F0CB25421B31"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "0126414F6C52612B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3Un gardien ancien"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2ED7F1A18B4C9240"]
+			description: ["Trois de plus, dans ce monument ou un autre."]
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "62539253F310BC43"
+			rewards: [{
+				id: "3B0EBD561FB4438D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "6E333F8371B19420"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&3Trois gardiens anciens"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23F3317759194216"]
+			description: ["Dans le manoir des bois. Il lâche le totem d'immortalité, qui se porte au chapitre &8Équipement de fin de partie&r."]
+			icon: "minecraft:evoker_spawn_egg"
+			id: "1339045534233C0F"
+			rewards: [{
+				id: "2F8FB64CF4B44590"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "2BA7699D7E336293"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8L'évocateur"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
 			dependencies: [
-				"23F3317759194216"
-				"1224156C11D4975F"
-				"122CA7076E448858"
+				"62539253F310BC43"
+				"1339045534233C0F"
+				"008889543366B530"
+				"45AA76AA2751508E"
+				"307B66A82DC1B26A"
 			]
-			dependency_requirement: "one_completed"
-			description: ["Un jalon suffit à fermer le chapitre. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre &7Lieux&r de l'Encyclopédie listera chaque structure."]
+			description: ["Les gardiens du monument, l'évocateur du manoir, un raid repoussé, les temples et les donjons. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre &7Lieux&r de l'Encyclopédie listera chaque structure."]
 			icon: "minecraft:spyglass"
 			id: "7B035FE23045D7FC"
 			rewards: [{
@@ -564,6 +631,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "2961BC575C50223F"
@@ -571,8 +639,8 @@
 				type: "checkmark"
 			}]
 			title: "&2La carte est pleine"
-			x: 6.0d
-			y: 0.75d
+			x: 8.0d
+			y: 0.0d
 		}
 	]
 	title: "&2Overworld — exploration"

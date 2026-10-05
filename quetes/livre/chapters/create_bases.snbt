@@ -561,6 +561,93 @@
 		}
 		{
 			dependencies: [
+				"7860B5E09501EEF6"
+				"67C4A22BB63DEE36"
+			]
+			description: ["Une presse au-dessus d'un bassin réduit beaucoup d'objets en peu (progrès « Compactification »)."]
+			id: "67D57AFC5B9A5D6A"
+			optional: true
+			rewards: [{
+				id: "5BD6AF3A0F4FD9E3"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:compacting"
+				criterion: ""
+				id: "7DDB12F773B40636"
+				type: "advancement"
+			}]
+			title: "Compacter à la presse"
+			x: 16.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["42EFCEBE28FB79E2"]
+			description: ["Lavage, fumage, hantise, fonte : le ventilateur traite les objets qui passent dans son flux (progrès « Processing by Particle »)."]
+			id: "642A378207D3896D"
+			optional: true
+			rewards: [{
+				id: "686326D8E32D84F4"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:fan_processing"
+				criterion: ""
+				id: "6004A06136A014F4"
+				type: "advancement"
+			}]
+			title: "Traiter au ventilateur"
+			x: 12.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["24201345002DA676"]
+			description: ["Une paire de roues de concassage à la vitesse maximale (progrès « Crushing It »). Il faut une source de rotation à la hauteur."]
+			id: "7A6AEF0CC9B92C51"
+			optional: true
+			rewards: [{
+				id: "42EEB4475C170B52"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "create:crusher_maxed_0000"
+				criterion: ""
+				id: "01058FFA4B8D2E13"
+				type: "advancement"
+			}]
+			title: "&6Des roues de concassage à pleine vitesse"
+			x: 16.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["4E76D78B815BCE0C"]
+			description: ["Un moulin à vent à la force maximale (progrès « A strong Breeze ») : autant de voiles que le roulement en accepte."]
+			id: "12A2DBFA97F40F9A"
+			optional: true
+			rewards: [{
+				id: "246F6C54C0C5713B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "create:windmill_maxed"
+				criterion: ""
+				id: "2014BD5E2D56FC62"
+				type: "advancement"
+			}]
+			title: "&6Un moulin à vent au maximum"
+			x: 12.0d
+			y: 7.25d
+		}
+		{
+			dependencies: [
 				"24201345002DA676"
 				"380A3313B8FD6C2A"
 				"3ED55B5357CAF201"

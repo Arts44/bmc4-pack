@@ -67,7 +67,7 @@
 			}]
 			title: "Tueur de sculk"
 			x: 4.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7A6233A9E7C0B9F1"]
@@ -88,7 +88,7 @@
 			}]
 			title: "&3Vaincre le Warden"
 			x: 4.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["75E507F0F34750F8"]
@@ -107,7 +107,7 @@
 			}]
 			title: "Un éclat d'écho renforcé"
 			x: 6.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["75E507F0F34750F8"]
@@ -127,7 +127,7 @@
 			}]
 			title: "Le portail de l'Otherside"
 			x: 6.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2400DC337F1CFD44"]
@@ -164,7 +164,7 @@
 			]
 			title: "Les quatre biomes"
 			x: 8.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6DED01D530CFEB9C"]
@@ -186,7 +186,7 @@
 			}]
 			title: "Écholocation"
 			x: 10.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2400DC337F1CFD44"]
@@ -235,7 +235,7 @@
 			]
 			title: "Les bois de l'Otherside"
 			x: 8.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2400DC337F1CFD44"]
@@ -256,7 +256,7 @@
 			}]
 			title: "Un transmetteur sculk"
 			x: 8.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4320FAF832E203FA"]
@@ -277,7 +277,7 @@
 			}]
 			title: "Le bâton sonore"
 			x: 8.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4320FAF832E203FA"]
@@ -298,11 +298,15 @@
 			}]
 			title: "Les élytres d'âme"
 			x: 8.0d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["4320FAF832E203FA"]
-			description: ["Le &lmodèle de forge du Warden&r s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Il y a aussi le résonarium, un palier intermédiaire, par plaques."]
+			dependencies: [
+				"4320FAF832E203FA"
+				"61BF93E6AC8EDC97"
+				"228ADABE9A8C6DC2"
+			]
+			description: ["Le &lmodèle de forge du Warden&r s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Chaque pièce, une par une, est à l'Armurerie de l'Encyclopédie."]
 			id: "0BFC4D9F9E9B9BA7"
 			rewards: [{
 				id: "23DA9641AE742DFD"
@@ -317,12 +321,218 @@
 				type: "advancement"
 			}]
 			title: "&3L'armure du Warden"
+			x: 14.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2400DC337F1CFD44"]
+			description: ["Le &lrésonarium&r tombe des &lSludges&r de l'Otherside (table de butin du jar)."]
+			icon: "deeperdarker:resonarium"
+			id: "6616B50C898527C8"
+			rewards: [{
+				id: "65FD980C24537DF9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5DC31DC310D13F9F"
+				item: "deeperdarker:resonarium"
+				type: "item"
+			}]
+			title: "Du résonarium"
 			x: 8.0d
 			y: 0.75d
 		}
 		{
-			dependencies: ["548CF50C19E91929"]
-			description: ["Le temple trouvé, le cœur en main. La suite est au chapitre &4Cataclysm&r."]
+			dependencies: ["6616B50C898527C8"]
+			description: ["Quatre résonariums et quatre écailles de tortue."]
+			icon: "deeperdarker:resonarium_plate"
+			id: "4451491C993BC334"
+			rewards: [{
+				id: "426702CE75FA3E86"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3725B323C3E09F87"
+				item: "deeperdarker:resonarium_plate"
+				type: "item"
+			}]
+			title: "Une plaque de résonarium"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4451491C993BC334"]
+			description: ["Le palier intermédiaire : une plaque sur chaque pièce d'armure en &lfer&r, à la table de forge."]
+			icon: "deeperdarker:resonarium_helmet"
+			id: "228ADABE9A8C6DC2"
+			rewards: [{
+				id: "506CC278CFC8F20B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "1FA16A9A320DA81D"
+					item: "deeperdarker:resonarium_helmet"
+					type: "item"
+				}
+				{
+					id: "4DE70F5F2B84CE17"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "62A778FAB46F246A"
+					item: "deeperdarker:resonarium_leggings"
+					type: "item"
+				}
+				{
+					id: "35E3797B6A600E77"
+					item: "deeperdarker:resonarium_boots"
+					type: "item"
+				}
+			]
+			title: "L'armure de résonarium"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4451491C993BC334"]
+			description: ["Une plaque sur chaque outil en fer, à la table de forge."]
+			icon: "deeperdarker:resonarium_sword"
+			id: "006BED1590CF9453"
+			rewards: [{
+				id: "4F6273B1A321D25E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "2FF35B71903ED4AD"
+					item: "deeperdarker:resonarium_sword"
+					type: "item"
+				}
+				{
+					id: "33508989431683FE"
+					item: "deeperdarker:resonarium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "46F1CF39AF45768D"
+					item: "deeperdarker:resonarium_axe"
+					type: "item"
+				}
+				{
+					id: "6976DA3C0BA4CDF1"
+					item: "deeperdarker:resonarium_shovel"
+					type: "item"
+				}
+				{
+					id: "581F5266FDA9B337"
+					item: "deeperdarker:resonarium_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils de résonarium"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7A6233A9E7C0B9F1"]
+			description: ["Un coffre de cité antique sur deux environ en contient un (45 %, modificateur de butin du jar). Sept diamants et un bloc de sculk autour d'un modèle en font deux."]
+			icon: "deeperdarker:warden_upgrade_smithing_template"
+			id: "61BF93E6AC8EDC97"
+			rewards: [{
+				id: "3E3EC05FA636F973"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "3C403D6B00702C27"
+				item: "deeperdarker:warden_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Le modèle du Warden"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"4320FAF832E203FA"
+				"61BF93E6AC8EDC97"
+				"006BED1590CF9453"
+			]
+			description: ["Un modèle et un éclat d'écho renforcé sur chaque outil de &lnétherite&r. Un par un, ils sont à l'Arsenal de l'Encyclopédie."]
+			icon: "deeperdarker:warden_sword"
+			id: "14D63B618F38DFBA"
+			rewards: [{
+				id: "546E059C7E361789"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [
+				{
+					id: "182AAFF681DB0D83"
+					item: "deeperdarker:warden_sword"
+					type: "item"
+				}
+				{
+					id: "2B88D0BA409F2A83"
+					item: "deeperdarker:warden_pickaxe"
+					type: "item"
+				}
+				{
+					id: "5F92217680901F02"
+					item: "deeperdarker:warden_axe"
+					type: "item"
+				}
+				{
+					id: "798D07BE47BFF800"
+					item: "deeperdarker:warden_shovel"
+					type: "item"
+				}
+				{
+					id: "4F98100996E2DB67"
+					item: "deeperdarker:warden_hoe"
+					type: "item"
+				}
+			]
+			title: "Les outils du Warden"
+			x: 14.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["75E507F0F34750F8"]
+			description: ["Les hurleurs de sculk le rappellent. Seul un combat mené après cette quête compte."]
+			icon: "minecraft:warden_spawn_egg"
+			id: "0A459F17DCE6F333"
+			rewards: [{
+				id: "709B2B71180B01B1"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "2511124F1F26EF20"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3Un autre Warden"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"548CF50C19E91929"
+				"0BFC4D9F9E9B9BA7"
+				"14D63B618F38DFBA"
+				"0A459F17DCE6F333"
+			]
+			description: ["Le temple trouvé, l'équipement du Warden au complet, le Warden battu deux fois. La suite est au chapitre &4Cataclysm&r."]
 			icon: "deeperdarker:warden_helmet"
 			id: "7D46D2F989B8A372"
 			rewards: [{
@@ -330,14 +540,15 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			size: 1.3d
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "48B0191CE7F67223"
 				title: "De retour"
 				type: "checkmark"
 			}]
 			title: "&3Revenu de l'Otherside"
-			x: 10.0d
+			x: 16.0d
 			y: 0.0d
 		}
 	]

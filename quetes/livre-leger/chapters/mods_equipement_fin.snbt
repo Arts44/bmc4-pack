@@ -31,7 +31,11 @@
 		}
 		{
 			dependencies: ["2630576F04857580"]
-			description: ["Le premier palier : nétherite et fer. L'armure complète rend les &lphantoms&r neutres (config du serveur). Les paliers s'appliquent sur un équipement de nétherite par modèle de forge."]
+			description: [
+				"Le premier palier : un lingot de nétherite et quatre de fer. L'armure complète rend les &lphantoms&r neutres (config du serveur)."
+				""
+				"Chaque palier s'applique à la table de forge, avec un &lmodèle d'amélioration en nétherite&r, sur la pièce du palier d'en dessous : nétherite → fer → or → émeraude → diamant. Il faut donc un modèle par pièce et par palier."
+			]
 			id: "73568B3D68D1490D"
 			rewards: [{
 				id: "2B7046BDAC57264C"
@@ -50,28 +54,67 @@
 		}
 		{
 			dependencies: ["73568B3D68D1490D"]
-			description: ["L'armure complète de nétherite-fer (progrès « No More Phantoms »)."]
+			description: ["Les quatre pièces de nétherite-fer, forgées sur l'armure de nétherite (progrès du mod)."]
 			id: "637B80C145C52BF3"
-			optional: true
 			rewards: [{
 				id: "7774C178DA8B4768"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "hexagon"
 			tasks: [{
 				advancement: "advancednetherite:nether/netherite_iron_armor"
 				criterion: ""
 				id: "70F0ED6E67D94F25"
 				type: "advancement"
 			}]
-			title: "Plus de phantoms"
+			title: "Armure de nétherite-fer"
 			x: 4.0d
-			y: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["73568B3D68D1490D"]
-			description: ["L'armure complète rend les &lpiglins&r neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle)."]
+			description: ["Épée, pioche, hache, pelle et houe de nétherite-fer, forgées sur les outils de nétherite."]
+			icon: "advancednetherite:netherite_iron_sword"
+			id: "60358E3222451214"
+			rewards: [{
+				id: "557D772E9BF90A5A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "1ECC8C6F4EAEE993"
+					item: "advancednetherite:netherite_iron_sword"
+					type: "item"
+				}
+				{
+					id: "48786921379C574B"
+					item: "advancednetherite:netherite_iron_pickaxe"
+					type: "item"
+				}
+				{
+					id: "6C49A46270908D68"
+					item: "advancednetherite:netherite_iron_axe"
+					type: "item"
+				}
+				{
+					id: "638AD5586839B440"
+					item: "advancednetherite:netherite_iron_shovel"
+					type: "item"
+				}
+				{
+					id: "4686CDDFB0AF38C9"
+					item: "advancednetherite:netherite_iron_hoe"
+					type: "item"
+				}
+			]
+			title: "Outils de nétherite-fer"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73568B3D68D1490D"]
+			description: ["Un lingot de nétherite-fer et quatre d'or. L'armure complète rend les &lpiglins&r neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle)."]
 			icon: "advancednetherite:netherite_gold_ingot"
 			id: "035BECEC7DB1A17D"
 			rewards: [{
@@ -86,11 +129,77 @@
 			}]
 			title: "Nétherite-or"
 			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"035BECEC7DB1A17D"
+				"637B80C145C52BF3"
+			]
+			description: ["Les quatre pièces de nétherite-or, forgées sur l'armure du palier d'avant (progrès du mod)."]
+			id: "735A79EF7FE92093"
+			rewards: [{
+				id: "10037737D00BDABC"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				advancement: "advancednetherite:nether/netherite_gold_armor"
+				criterion: ""
+				id: "3D05081FE8F42915"
+				type: "advancement"
+			}]
+			title: "Armure de nétherite-or"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"035BECEC7DB1A17D"
+				"60358E3222451214"
+			]
+			description: ["Épée, pioche, hache, pelle et houe de nétherite-or, forgées sur ceux du palier d'avant."]
+			icon: "advancednetherite:netherite_gold_sword"
+			id: "3306F83D3A490C5D"
+			rewards: [{
+				id: "19E7AB6AC23F2866"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [
+				{
+					id: "1B119E7F95B9A646"
+					item: "advancednetherite:netherite_gold_sword"
+					type: "item"
+				}
+				{
+					id: "3273E2F5CE42B4AF"
+					item: "advancednetherite:netherite_gold_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7CFCCBB5F9A7994B"
+					item: "advancednetherite:netherite_gold_axe"
+					type: "item"
+				}
+				{
+					id: "595781DA5C1C8005"
+					item: "advancednetherite:netherite_gold_shovel"
+					type: "item"
+				}
+				{
+					id: "46ED24FDFAA4A7BD"
+					item: "advancednetherite:netherite_gold_hoe"
+					type: "item"
+				}
+			]
+			title: "Outils de nétherite-or"
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["035BECEC7DB1A17D"]
-			description: ["L'armure complète rend les &lendermen&r neutres (config). L'épée donne une chance de perle en plus (infobulle)."]
+			description: ["Un lingot de nétherite-or et quatre émeraudes. L'armure complète rend les &lendermen&r neutres (config). L'épée donne une chance de perle en plus (infobulle)."]
 			icon: "advancednetherite:netherite_emerald_ingot"
 			id: "3C800DF1D92E9325"
 			rewards: [{
@@ -105,11 +214,77 @@
 			}]
 			title: "Nétherite-émeraude"
 			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3C800DF1D92E9325"
+				"735A79EF7FE92093"
+			]
+			description: ["Les quatre pièces de nétherite-émeraude, forgées sur l'armure du palier d'avant (progrès du mod)."]
+			id: "001DAD03D17D0129"
+			rewards: [{
+				id: "355679BD01C04E9A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "advancednetherite:nether/netherite_emerald_armor"
+				criterion: ""
+				id: "408EDA67E88BBB3F"
+				type: "advancement"
+			}]
+			title: "Armure de nétherite-émeraude"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3C800DF1D92E9325"
+				"3306F83D3A490C5D"
+			]
+			description: ["Épée, pioche, hache, pelle et houe de nétherite-émeraude, forgées sur ceux du palier d'avant."]
+			icon: "advancednetherite:netherite_emerald_sword"
+			id: "10A42E7D91D0872A"
+			rewards: [{
+				id: "245C733AB2AAA06E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [
+				{
+					id: "09D2AAE44C3651F2"
+					item: "advancednetherite:netherite_emerald_sword"
+					type: "item"
+				}
+				{
+					id: "2793F8FF3EE377B2"
+					item: "advancednetherite:netherite_emerald_pickaxe"
+					type: "item"
+				}
+				{
+					id: "3446FA306DA30CB0"
+					item: "advancednetherite:netherite_emerald_axe"
+					type: "item"
+				}
+				{
+					id: "1ADE5D820EE66324"
+					item: "advancednetherite:netherite_emerald_shovel"
+					type: "item"
+				}
+				{
+					id: "53B7E5F13F8ABEEF"
+					item: "advancednetherite:netherite_emerald_hoe"
+					type: "item"
+				}
+			]
+			title: "Outils de nétherite-émeraude"
+			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3C800DF1D92E9325"]
-			description: ["Le dernier palier : phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur)."]
+			description: ["Le dernier palier : un lingot de nétherite-émeraude et quatre diamants. Phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur)."]
 			icon: "advancednetherite:netherite_diamond_ingot"
 			id: "5B6E6FDD9B85BC79"
 			rewards: [{
@@ -125,19 +300,26 @@
 			}]
 			title: "Nétherite-diamant"
 			x: 8.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["5B6E6FDD9B85BC79"]
-			description: ["L'armure complète (progrès du mod)."]
+			dependencies: [
+				"5B6E6FDD9B85BC79"
+				"001DAD03D17D0129"
+			]
+			description: [
+				"L'armure complète de nétherite-diamant (progrès du mod), forgée pièce par pièce sur l'armure de nétherite-émeraude. Le sommet du chapitre : les trois neutralités à la fois."
+				""
+				"Chaque pièce, une par une, est à l'&lArmurerie&r de l'Encyclopédie."
+			]
 			id: "6664C75EBD9BED3B"
-			optional: true
 			rewards: [{
 				id: "7F00EEDBCD75C32B"
 				type: "xp_levels"
 				xp_levels: 25
 			}]
-			shape: "hexagon"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				advancement: "advancednetherite:nether/netherite_diamond_armor"
 				criterion: ""
@@ -146,7 +328,51 @@
 			}]
 			title: "&8Couvert de nétherite-diamant"
 			x: 10.0d
-			y: 3.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"5B6E6FDD9B85BC79"
+				"10A42E7D91D0872A"
+			]
+			description: ["Épée, pioche, hache, pelle et houe de nétherite-diamant, forgées sur ceux du palier d'avant. Chaque outil, un par un, est à l'&lArsenal&r de l'Encyclopédie."]
+			icon: "advancednetherite:netherite_diamond_sword"
+			id: "2618F29F9A2EF1C7"
+			rewards: [{
+				id: "7F7355F5AF882886"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [
+				{
+					id: "76564121E1FD9807"
+					item: "advancednetherite:netherite_diamond_sword"
+					type: "item"
+				}
+				{
+					id: "428ED575DAE7FBAF"
+					item: "advancednetherite:netherite_diamond_pickaxe"
+					type: "item"
+				}
+				{
+					id: "54EDC86A1E941F72"
+					item: "advancednetherite:netherite_diamond_axe"
+					type: "item"
+				}
+				{
+					id: "7F5380E10498FFA4"
+					item: "advancednetherite:netherite_diamond_shovel"
+					type: "item"
+				}
+				{
+					id: "7A1723B29D4DB938"
+					item: "advancednetherite:netherite_diamond_hoe"
+					type: "item"
+				}
+			]
+			title: "Outils de nétherite-diamant"
+			x: 10.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5B6E6FDD9B85BC79"]
@@ -167,10 +393,31 @@
 			}]
 			title: "Un bloc très cher"
 			x: 10.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2630576F04857580"]
+			description: ["Le premier bouclier de &7Shield Expansion&r : huit planches et un bâton. Puis fer, diamant et nétherite ; l'or est à part (huit lingots). Tous sont à la collection &lBoucliers&r de l'Encyclopédie."]
+			icon: "shieldexp:wooden_shield"
+			id: "05EA903F1B7CB605"
+			optional: true
+			rewards: [{
+				id: "0D7F6B3CFC9D2828"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79A5DD310243DEE5"
+				item: "shieldexp:wooden_shield"
+				type: "item"
+			}]
+			title: "Un bouclier de bois"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05EA903F1B7CB605"]
 			description: ["&7Shield Expansion&r : des boucliers de bois, fer, or, diamant et nétherite, avec une &lparade&r au bon moment et une endurance de blocage (options du mod)."]
 			icon: "shieldexp:iron_shield"
 			id: "527FA08DCEC7F0E1"
@@ -187,8 +434,8 @@
 				type: "item"
 			}]
 			title: "Un bouclier de fer"
-			x: 2.0d
-			y: 3.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["527FA08DCEC7F0E1"]
@@ -207,8 +454,8 @@
 				type: "advancement"
 			}]
 			title: "Un bouclier de diamant"
-			x: 4.0d
-			y: 4.5d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["28026AF035200528"]
@@ -227,8 +474,8 @@
 				type: "advancement"
 			}]
 			title: "Un bouclier de nétherite"
-			x: 6.0d
-			y: 3.0d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2630576F04857580"]
@@ -249,11 +496,11 @@
 			}]
 			title: "Un totem porté"
 			x: 2.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2630576F04857580"]
-			description: ["&7Just Hammers&r : un marteau creuse une zone. Pierre, fer, or, diamant, nétherite ; et des variantes par cœur — &lrenforcé&r, &ld'impact&r, &ldestructeur&r."]
+			description: ["&7Just Hammers&r : un marteau creuse une zone de &b3×3&r. Pierre, fer, or, diamant, nétherite ; puis chaque cœur agrandit la zone. Les cœurs se fabriquent l'un dans l'autre, et le premier consomme un marteau de nétherite."]
 			icon: "justhammers:iron_hammer"
 			id: "39F329A3E852AEA0"
 			optional: true
@@ -270,10 +517,164 @@
 			}]
 			title: "Un marteau de fer"
 			x: 2.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["39F329A3E852AEA0"]
+			description: ["Trois lingots de nétherite. Il sert de matériau au &lcœur d'impact&r : redstone, un bloc de fer, un bloc d'or et ce marteau."]
+			icon: "justhammers:netherite_hammer"
+			id: "20B4BF8D85986B7E"
+			optional: true
+			rewards: [{
+				id: "41A399459FD8B2E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B521BB80BAD9F42"
+				item: "justhammers:netherite_hammer"
+				type: "item"
+			}]
+			title: "Un marteau de nétherite"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20B4BF8D85986B7E"]
+			dependency_requirement: "one_completed"
+			description: ["Le cœur d'impact entre deux blocs du matériau : la zone passe à &b3×3×3&r."]
+			icon: "justhammers:stone_impact_hammer"
+			id: "3DBD473B7CF0EE29"
+			optional: true
+			rewards: [{
+				id: "3738EFC12ECE93BF"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "512021DE162B96B1"
+					item: "justhammers:stone_impact_hammer"
+					type: "item"
+				}
+				{
+					id: "789CAA922B61A435"
+					item: "justhammers:iron_impact_hammer"
+					type: "item"
+				}
+				{
+					id: "48C74991AD9F544F"
+					item: "justhammers:gold_impact_hammer"
+					type: "item"
+				}
+				{
+					id: "74C214F0DDCF9868"
+					item: "justhammers:diamond_impact_hammer"
+					type: "item"
+				}
+				{
+					id: "7F1903B7E2E7E21C"
+					item: "justhammers:netherite_impact_hammer"
+					type: "item"
+				}
+			]
+			title: "Un marteau d'impact"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3DBD473B7CF0EE29"]
+			dependency_requirement: "one_completed"
+			description: ["Le &lcœur renforcé&r se fait autour du cœur d'impact, avec des blocs de redstone et d'or : la zone passe à &b5×5&r."]
+			icon: "justhammers:stone_reinforced_hammer"
+			id: "7CB137FFDE64164D"
+			optional: true
+			rewards: [{
+				id: "5C32EE78AAA9BEE1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "58E9378FFCA895C6"
+					item: "justhammers:stone_reinforced_hammer"
+					type: "item"
+				}
+				{
+					id: "11FE1B7728E525E5"
+					item: "justhammers:iron_reinforced_hammer"
+					type: "item"
+				}
+				{
+					id: "57BF0122F276A114"
+					item: "justhammers:gold_reinforced_hammer"
+					type: "item"
+				}
+				{
+					id: "5B1F1CE7A056F07D"
+					item: "justhammers:diamond_reinforced_hammer"
+					type: "item"
+				}
+				{
+					id: "5731B70B0F8BCD24"
+					item: "justhammers:netherite_reinforced_hammer"
+					type: "item"
+				}
+			]
+			title: "Un marteau renforcé"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CB137FFDE64164D"]
+			dependency_requirement: "one_completed"
+			description: ["Le &lcœur renforcé d'impact&r se fait autour du cœur renforcé, avec redstone, diamant et or : &b5×5×3&r."]
+			icon: "justhammers:stone_reinforced_impact_hammer"
+			id: "756CA0B394D4710C"
+			optional: true
+			rewards: [{
+				id: "25E19CA7B7B5DE5E"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "564740792C34C04C"
+					item: "justhammers:stone_reinforced_impact_hammer"
+					type: "item"
+				}
+				{
+					id: "6C2E4998CCE78DB6"
+					item: "justhammers:iron_reinforced_impact_hammer"
+					type: "item"
+				}
+				{
+					id: "04582D6FE0222265"
+					item: "justhammers:gold_reinforced_impact_hammer"
+					type: "item"
+				}
+				{
+					id: "0D210034DAB5B0BA"
+					item: "justhammers:diamond_reinforced_impact_hammer"
+					type: "item"
+				}
+				{
+					id: "7C5DD739DA77D502"
+					item: "justhammers:netherite_reinforced_impact_hammer"
+					type: "item"
+				}
+			]
+			title: "Un marteau renforcé d'impact"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["756CA0B394D4710C"]
+			description: ["Le &lcœur destructeur&r (autour du cœur renforcé d'impact, avec blocs de redstone et de diamant) entre deux blocs de nétherite : &b5×5×5&r, le plus grand marteau du pack."]
 			icon: "justhammers:netherite_destructor_hammer"
 			id: "279DDDEF72D1BED5"
 			optional: true
@@ -283,14 +684,15 @@
 				xp_levels: 15
 			}]
 			shape: "hexagon"
+			size: 1.3d
 			tasks: [{
 				id: "4FF9B3CFB7FD5421"
 				item: "justhammers:netherite_destructor_hammer"
 				type: "item"
 			}]
 			title: "Un marteau destructeur de nétherite"
-			x: 4.0d
-			y: 6.0d
+			x: 12.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2630576F04857580"]
@@ -328,10 +730,13 @@
 			}]
 			title: "La Lame de fleurs"
 			x: 2.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["5B6E6FDD9B85BC79"]
+			dependencies: [
+				"6664C75EBD9BED3B"
+				"2618F29F9A2EF1C7"
+			]
 			description: ["Le reste : les armures de boss, au chapitre &4Cataclysm&r, &3Deeper and Darker&r, &dIron's Spells&r et &bAether&r."]
 			icon: "advancednetherite:netherite_diamond_block"
 			id: "57F8FE4E5C59C46F"
@@ -347,7 +752,7 @@
 				type: "checkmark"
 			}]
 			title: "&8Équipé pour la fin"
-			x: 10.0d
+			x: 12.0d
 			y: 0.0d
 		}
 	]

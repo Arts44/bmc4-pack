@@ -554,13 +554,337 @@
 			}]
 			size: 1.5d
 			tasks: [{
-				id: "234C946AEF953EE2"
-				title: "Mon usine tourne à la vapeur"
-				type: "checkmark"
+				advancement: "create:steam_engine"
+				criterion: ""
+				id: "52DF68C3ECB30272"
+				type: "advancement"
 			}]
 			title: "&bL'usine tourne"
 			x: 14.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["67166E08215B7EC0"]
+			description: ["De l'obsidienne en poudre, raffinée en tôle robuste : la matière des boîtiers ferroviaires (progrès « The Sturdiest Rocks »)."]
+			id: "5A0CE847215BDFE1"
+			optional: true
+			rewards: [{
+				id: "5F5745E6445D85E9"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:sturdy_sheet"
+				criterion: ""
+				id: "2CAA778327BFC119"
+				type: "advancement"
+			}]
+			title: "Une tôle robuste"
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F40B748B212C67C"]
+			description: ["Un bras mécanique programmé avec dix emplacements de sortie ou plus (progrès « Organize-o-Tron »)."]
+			id: "7B795C17665E6E65"
+			optional: true
+			rewards: [{
+				id: "2EAD368C669880E9"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:arm_many_targets"
+				criterion: ""
+				id: "091C19BD61A3A75F"
+				type: "advancement"
+			}]
+			title: "Un bras à dix sorties"
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5F40B748B212C67C"
+				"21D067244E8FF425"
+			]
+			description: ["Le bras mécanique alimente le brûleur à blaze (progrès « Combust-o-Tron »)."]
+			id: "6F068E4A7D263D23"
+			optional: true
+			rewards: [{
+				id: "1E65D96FBDB7DD68"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:arm_blaze_burner"
+				criterion: ""
+				id: "12A92CB592C3EC00"
+				type: "advancement"
+			}]
+			title: "Un bras qui nourrit le brûleur"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0354142EDB38C0B5"]
+			description: ["Remplir un objet de fluide sous un bec verseur (progrès « Sploosh »)."]
+			id: "0948F23B76051AD3"
+			optional: true
+			rewards: [{
+				id: "27D306B5FF87A27F"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:spout"
+				criterion: ""
+				id: "13FCDEAA71D0E3B5"
+				type: "advancement"
+			}]
+			title: "Un bec verseur"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0354142EDB38C0B5"]
+			description: ["Vider un objet de son fluide dans un égouttoir (progrès « Tumble Draining »)."]
+			id: "615A63759639E21E"
+			optional: true
+			rewards: [{
+				id: "0819E6ADCB8E5EB0"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:drain"
+				criterion: ""
+				id: "2A8B4B58986C200B"
+				type: "advancement"
+			}]
+			title: "Un égouttoir"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0354142EDB38C0B5"]
+			description: ["Une poulie à tuyau dans une étendue de lave assez grande pour compter comme infinie (progrès « Tapping the Mantle ») : du combustible sans fin."]
+			id: "0555DF0109AB8F46"
+			optional: true
+			rewards: [{
+				id: "56401E9F380FE5E2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:hose_pulley_lava"
+				criterion: ""
+				id: "4942BFE765C1800A"
+				type: "advancement"
+			}]
+			title: "Pomper une mer de lave"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59B4A259DBF1792B"]
+			description: ["Une contraption avec foreuses, scies ou moissonneuses à bord (progrès « Moving with Purpose »)."]
+			id: "54700F80B59A0F43"
+			optional: true
+			rewards: [{
+				id: "08F429AA77461BCB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:contraption_actors"
+				criterion: ""
+				id: "41618624A90B9E77"
+				type: "advancement"
+			}]
+			title: "Une contraption qui travaille"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["39DFA1D30FF613A4"]
+			description: ["Ramasser une contraption sur wagonnet d'au moins 200 blocs (progrès « Strong Arms »)."]
+			id: "68478B73B84FD5DB"
+			optional: true
+			rewards: [{
+				id: "69DE46CA569C8F38"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "create:cart_pickup"
+				criterion: ""
+				id: "38BCC4D699833D31"
+				type: "advancement"
+			}]
+			title: "&6Une contraption de 200 blocs"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["39DFA1D30FF613A4"]
+			description: ["Une contraption sur wagonnet qui pose les rails devant elle (progrès « Self-Driving Cart »)."]
+			id: "5307AB2325ED24EE"
+			optional: true
+			rewards: [{
+				id: "46D949BF2ED3BC6A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:self_deploying"
+				criterion: ""
+				id: "21E3C7324BD48CF6"
+				type: "advancement"
+			}]
+			title: "Un wagonnet qui pose ses rails"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38E444B220D0680C"]
+			description: ["Une poulie à corde déroulée sur plus de 200 blocs de profondeur (progrès « Rope to Nowhere »)."]
+			id: "595F81A198DCF3E1"
+			optional: true
+			rewards: [{
+				id: "42F99135B115E710"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:pulley_maxed"
+				criterion: ""
+				id: "59072C453162B1D7"
+				type: "advancement"
+			}]
+			title: "Une poulie de 200 blocs"
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["39CE5DA1787E2CD6"]
+			description: ["Une chaudière au niveau de puissance maximal (progrès « Full Steam ») : le moteur d'une vraie usine."]
+			id: "53B1FF38A0001625"
+			optional: true
+			rewards: [{
+				id: "5AF6C503D7733E31"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "create:steam_engine_maxed"
+				criterion: ""
+				id: "363F493FF2EB267B"
+				type: "advancement"
+			}]
+			title: "&6La vapeur à pleine puissance"
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"53B1FF38A0001625"
+				"5A0CE847215BDFE1"
+			]
+			description: ["Plus de mille rails sortis de la même presse mécanique (progrès « Track Factory ») : une chaîne de production à grande échelle, le sommet de la fabrication avec Create."]
+			id: "153DB7970511D3DC"
+			optional: true
+			rewards: [{
+				id: "1DC53658DF15B2A6"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			size: 1.6d
+			tasks: [{
+				advancement: "create:track_crafting_factory"
+				criterion: ""
+				id: "734DE3CCE0A2FC98"
+				type: "advancement"
+			}]
+			title: "&6&lUne usine à mille rails"
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29CF0239B691AB2D"]
+			description: ["Le scaphandre en nétherite permet de tenter la plongée dans la lave (progrès « Swimming with the Striders »)."]
+			id: "6A7C4DBF078B7CAF"
+			optional: true
+			rewards: [{
+				id: "726CFBEB470E1EDF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:diving_suit_lava"
+				criterion: ""
+				id: "3EA3119DE4267BBF"
+				type: "advancement"
+			}]
+			title: "Un scaphandre en nétherite"
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["708DB848275EF06A"]
+			description: ["Vaincre un ennemi au canon à patates (progrès « Fwoomp ! »)."]
+			id: "3B900A609C3A4AD2"
+			optional: true
+			rewards: [{
+				id: "61B444992F46AA82"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:potato_cannon"
+				criterion: ""
+				id: "4E9F73E487EDAD83"
+				type: "advancement"
+			}]
+			title: "Une victoire au canon à patates"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6D5CCFAB7E6EF69C"]
+			description: ["Activer un lien de redstone avec une manette liée (progrès « Remote Activation »)."]
+			id: "391A9DC54BB94083"
+			optional: true
+			rewards: [{
+				id: "0B51F8B5C0D7EDCC"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:linked_controller"
+				criterion: ""
+				id: "2648CF4D3FEAD641"
+				type: "advancement"
+			}]
+			title: "Une télécommande liée"
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["74EEC07055B2D8AF"]
@@ -589,7 +913,7 @@
 			]
 			title: "Des châssis"
 			x: 4.0d
-			y: 6.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -614,7 +938,7 @@
 			}]
 			title: "Une foreuse mobile"
 			x: 6.0d
-			y: 6.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["59B4A259DBF1792B"]
@@ -641,7 +965,7 @@
 			]
 			title: "Moissonneuse et charrue"
 			x: 6.0d
-			y: 8.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["59B4A259DBF1792B"]
@@ -662,7 +986,7 @@
 			}]
 			title: "Un rouleau mécanique"
 			x: 6.0d
-			y: 9.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["59B4A259DBF1792B"]
@@ -690,7 +1014,7 @@
 			]
 			title: "Un ascenseur"
 			x: 6.0d
-			y: 11.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["59B4A259DBF1792B"]
@@ -710,7 +1034,7 @@
 			}]
 			title: "Un chariot assembleur"
 			x: 6.0d
-			y: 12.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["74EEC07055B2D8AF"]
@@ -731,7 +1055,7 @@
 			}]
 			title: "Un roulement d'horloge"
 			x: 4.0d
-			y: 8.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6D5CCFAB7E6EF69C"]
@@ -764,7 +1088,7 @@
 			]
 			title: "Un scaphandre de cuivre"
 			x: 2.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["29CF0239B691AB2D"]
@@ -785,7 +1109,7 @@
 			}]
 			title: "Un canon à patates"
 			x: 4.0d
-			y: 9.5d
+			y: 15.5d
 		}
 	]
 	title: "&bCreate — fabrication avancée"

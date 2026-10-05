@@ -123,6 +123,87 @@
 			y: 2.25d
 		}
 		{
+			dependencies: ["6B5DFF2F1228D8FF"]
+			description: ["Le filtre que lit le pylône d'infusion (infobulle : « à insérer dans un pylône »)."]
+			icon: "pylons:potion_filter"
+			id: "68812C34F32811E8"
+			rewards: [{
+				id: "3D53A7444337D7A2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1E19223302A44F2F"
+				item: "pylons:potion_filter"
+				type: "item"
+			}]
+			title: "Un filtre de potion"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3A47FC84DEC64A98"]
+			description: ["Un filtre de créature, à insérer dans un pylône (infobulle). Le pylône d'interdiction empêche l'apparition des créatures autour de lui."]
+			icon: "pylons:mob_filter"
+			id: "741570E7EEE27F47"
+			optional: true
+			rewards: [{
+				id: "3CF2B5AD58EA6999"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69094990EEE8F8C5"
+				item: "pylons:mob_filter"
+				type: "item"
+			}]
+			title: "Un filtre de créature"
+			x: 4.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["4373192231EDD11E"]
+			description: ["Un filtre de joueur, à insérer dans un pylône (infobulle). Le pylône d'expulsion repousse les autres joueurs de ses chunks."]
+			icon: "pylons:player_filter"
+			id: "71C494269BA20EAE"
+			optional: true
+			rewards: [{
+				id: "05B16E7D7B9CF1CA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3720B93AB02B6720"
+				item: "pylons:player_filter"
+				type: "item"
+			}]
+			title: "Un filtre de joueur"
+			x: 4.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["68812C34F32811E8"]
+			description: ["Clic droit sur le filtre avec l'effet actif, encore et encore, jusqu'à ce que l'infobulle dise « Activé ». L'activation est inscrite dans le filtre lui-même : aucune tâche ne peut la lire, d'où la case à cocher. Un effet désactivé par la config du serveur le dit aussi dans l'infobulle."]
+			id: "28A006ECD5692320"
+			rewards: [{
+				id: "7C3C27BEF824A1AD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "17C62587F5F59D0F"
+				title: "Mon filtre est activé"
+				type: "checkmark"
+			}]
+			title: "&aUn effet permanent"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
 			dependencies: ["5B709FE6E3800F39"]
 			description: ["Un pylône de récolte, sa houe, et les champs de Mystical Agriculture se vident tout seuls dans un coffre. Il reste à sortir ce qui pousse : c'est le chapitre &bPipez&r."]
 			icon: "minecraft:hay_block"
@@ -140,7 +221,7 @@
 			}]
 			title: "&aLe champ se récolte seul"
 			x: 4.0d
-			y: 0.0d
+			y: 0.75d
 		}
 	]
 	title: "&aPylons"

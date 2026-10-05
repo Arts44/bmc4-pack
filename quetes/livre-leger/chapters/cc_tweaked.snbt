@@ -161,7 +161,7 @@
 			}]
 			title: "Une tortue minière"
 			x: 6.0d
-			y: -0.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["02CCFA8128407E6E"]
@@ -194,8 +194,95 @@
 		{
 			dependencies: [
 				"2F4A343BE2164652"
-				"38C2E4507CE2EF2A"
+				"422E9B5001FBC9C6"
+			]
+			description: ["Huit lingots d'or autour d'une vitre : quatre moniteurs avancés, qui affichent la couleur."]
+			icon: "computercraft:monitor_advanced"
+			id: "5B4F567DC7343A6E"
+			rewards: [{
+				id: "1746331995F20F79"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "1D0BDB1B529CCD02"
+				item: "computercraft:monitor_advanced"
+				type: "item"
+			}]
+			title: "Des moniteurs avancés"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["38C2E4507CE2EF2A"]
+			description: ["Huit lingots d'or autour d'un œil de l'Ender : un modem sans fil avancé."]
+			icon: "computercraft:wireless_modem_advanced"
+			id: "72C856296711D1E9"
+			rewards: [{
+				id: "652FEE3738B77DA4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "02C61B571E7038D3"
+				item: "computercraft:wireless_modem_advanced"
+				type: "item"
+			}]
+			title: "Un modem ender"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["422E9B5001FBC9C6"]
+			description: ["Or, une pomme dorée et une vitre."]
+			icon: "computercraft:pocket_computer_advanced"
+			id: "51C2874EF0B47BD8"
+			optional: true
+			rewards: [{
+				id: "1B64789D3D8D9007"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08541B793BDFB0F8"
+				item: "computercraft:pocket_computer_advanced"
+				type: "item"
+			}]
+			title: "Un ordinateur de poche avancé"
+			x: 6.0d
+			y: 4.25d
+		}
+		{
+			dependencies: [
 				"3014EB43234C12C8"
+				"422E9B5001FBC9C6"
+			]
+			description: ["Un ordinateur avancé dans une carcasse d'or, avec un coffre. Le dernier palier de CC: Tweaked."]
+			icon: "computercraft:turtle_advanced"
+			id: "238532D4BCA40E7E"
+			rewards: [{
+				id: "5319FA408A3FDFEF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4908508B7A95A444"
+				item: "computercraft:turtle_advanced"
+				type: "item"
+			}]
+			title: "&dUne tortue avancée"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"238532D4BCA40E7E"
+				"5B4F567DC7343A6E"
+				"72C856296711D1E9"
 			]
 			dependency_requirement: "one_completed"
 			description: ["Une porte à code, une alarme, un écran de stock, une tortue au travail : à toi de dire laquelle. Le salon &9#cc-tweaked&r reçoit les programmes à partager."]
@@ -213,8 +300,8 @@
 				type: "checkmark"
 			}]
 			title: "&dUn programme qui tourne"
-			x: 6.0d
-			y: 0.75d
+			x: 8.0d
+			y: 0.0d
 		}
 	]
 	title: "&dCC: Tweaked"

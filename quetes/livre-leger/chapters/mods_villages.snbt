@@ -616,10 +616,71 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["3EE9C39D835FA34F"]
+			description: ["Cinquante échanges avec les villageois (statistique du jeu). Un villageois qui échange monte en niveau : novice, apprenti, compagnon, expert, maître."]
+			id: "2B1132FA38234234"
+			rewards: [{
+				id: "7434A572B596AFE6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4AAA6260B9B8495B"
+				stat: "minecraft:traded_with_villager"
+				type: "stat"
+				value: 50L
+			}]
+			title: "Cinquante échanges"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
 			dependencies: [
-				"3EE9C39D835FA34F"
+				"2B1132FA38234234"
 				"52A663196A8570C8"
 			]
+			description: ["Assez pour amener plusieurs villageois jusqu'au rang de maître. Le comptoir de Trading Post rassemble les offres des marchands proches."]
+			id: "14B0B88F0FB4F305"
+			rewards: [{
+				id: "3FFA3D4068590CC9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "234C24FDE764AF80"
+				stat: "minecraft:traded_with_villager"
+				type: "stat"
+				value: 250L
+			}]
+			title: "Deux cent cinquante échanges"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09CB3321C66F7428"]
+			description: ["Cinq raids repoussés (statistique du jeu). Les vagues comptent les illageois des mods du serveur."]
+			id: "6400F2FD21538E49"
+			optional: true
+			rewards: [{
+				id: "223F7F8CDEB33F9E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41B8259CB3E908BE"
+				stat: "minecraft:raid_win"
+				type: "stat"
+				value: 5L
+			}]
+			title: "Cinq raids gagnés"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["14B0B88F0FB4F305"]
 			icon: "minecraft:emerald_block"
 			id: "6DA18ECE834BDBB0"
 			rewards: [{
@@ -634,7 +695,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Marchand"
-			x: 8.0d
+			x: 12.0d
 			y: 0.0d
 		}
 	]

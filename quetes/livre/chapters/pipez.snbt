@@ -127,7 +127,7 @@
 		}
 		{
 			dependencies: ["7F445F93973327E7"]
-			description: ["Une &7amélioration&r se glisse dans l'extrémité d'un tuyau : un débit plus grand, un &lfiltre&r (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime, infinie."]
+			description: ["Une &7amélioration&r se glisse dans l'extrémité d'un tuyau : un débit plus grand, un &lfiltre&r (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime : chacune se fabrique autour de la précédente. L'infinie existe dans le mod mais ne se fabrique pas ici."]
 			icon: "pipez:basic_upgrade"
 			id: "0CB45D78CC24C20B"
 			rewards: [{
@@ -171,9 +171,49 @@
 			y: 2.25d
 		}
 		{
+			dependencies: ["0CB45D78CC24C20B"]
+			description: ["L'amélioration améliorée, entourée de diamants et de blocs de redstone."]
+			icon: "pipez:advanced_upgrade"
+			id: "313DF0649E98A397"
+			rewards: [{
+				id: "14D0E9B20ABDB401"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0E334EC39721C9C7"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			title: "Une amélioration avancée"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["313DF0649E98A397"]
+			description: ["L'amélioration avancée, entourée de lingots de nétherite et de blocs de redstone. Le dernier palier fabricable de Pipez."]
+			icon: "pipez:ultimate_upgrade"
+			id: "50F5998846ED7F81"
+			rewards: [{
+				id: "731550A7EBF62CCB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "18588AFD550AEECE"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			title: "&8Une amélioration ultime"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
 			dependencies: [
 				"4068729D91A15B87"
-				"0CB45D78CC24C20B"
+				"50F5998846ED7F81"
 			]
 			description: ["Fermes, machines et stockage reliés par des tuyaux. Les filtres de &bFTB Filter System&r et d'&bItem Filters&r se glissent dans les améliorations pour trier plus finement."]
 			icon: "pipez:ultimate_upgrade"
@@ -190,7 +230,7 @@
 				type: "checkmark"
 			}]
 			title: "&7Tout circule"
-			x: 6.0d
+			x: 10.0d
 			y: 0.0d
 		}
 	]

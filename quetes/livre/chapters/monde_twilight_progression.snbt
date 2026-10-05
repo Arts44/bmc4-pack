@@ -128,7 +128,7 @@
 			}]
 			title: "&5Vaincre la Liche"
 			x: 8.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["40403E97C09902E0"]
@@ -224,7 +224,7 @@
 			}]
 			title: "Le repaire de l'Hydre"
 			x: 16.0d
-			y: -2.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["3ACAA0E95785B149"]
@@ -245,7 +245,7 @@
 			}]
 			title: "&cVaincre l'Hydre"
 			x: 18.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["24285F86951D46F9"]
@@ -264,7 +264,7 @@
 			}]
 			title: "Le trophée de l'Hydre"
 			x: 20.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["40403E97C09902E0"]
@@ -341,7 +341,7 @@
 			}]
 			title: "Le trophée des Chevaliers fantômes"
 			x: 16.0d
-			y: -0.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["0C51B66D576042E1"]
@@ -359,7 +359,7 @@
 			}]
 			title: "La tour sombre"
 			x: 16.0d
-			y: 0.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0BB2DAFA79C8A020"]
@@ -378,7 +378,7 @@
 			}]
 			title: "Activer le piège à Ghast"
 			x: 18.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["05120D47943F441C"]
@@ -399,7 +399,7 @@
 			}]
 			title: "&cVaincre l'Ur-Ghast"
 			x: 20.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["171CC396EA14354E"]
@@ -418,7 +418,7 @@
 			}]
 			title: "Le trophée de l'Ur-Ghast"
 			x: 22.0d
-			y: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["40403E97C09902E0"]
@@ -515,7 +515,7 @@
 			}]
 			title: "&bVaincre la Reine des Neiges"
 			x: 16.0d
-			y: 2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["083EC3B1654007F9"]
@@ -534,7 +534,7 @@
 			}]
 			title: "Le trophée de la Reine des Neiges"
 			x: 18.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -558,7 +558,7 @@
 			}]
 			title: "&6Les trois piliers"
 			x: 22.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2B5304413608F168"]
@@ -577,7 +577,7 @@
 			}]
 			title: "La grotte des trolls"
 			x: 24.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["341FAE8191C7F128"]
@@ -639,8 +639,171 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["44218DDF1148BAB4"]
-			description: ["Sept boss, sept trophées, une lampe. Le chapitre &7Exploration&r de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques."]
+			dependencies: ["2657F719328B2C86"]
+			description: ["Les repaires des boss reviennent dans toute la forêt : une autre cour de la Naga. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "twilightforest:naga_spawn_egg"
+			id: "2916BBD7EA4067F4"
+			rewards: [{
+				id: "79A3A2CA8F5DA672"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "2D2E4059C3278335"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Une autre Naga"
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["226E59C08320F06E"]
+			description: ["Les repaires des boss reviennent dans toute la forêt : un autre labyrinthe. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "twilightforest:minoshroom_spawn_egg"
+			id: "46C279EEAC5B4EC7"
+			rewards: [{
+				id: "076D6588030DD055"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "2AAF218C5E745438"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Un autre Minoshroom"
+			x: 16.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6B0EAD443978034B"]
+			description: ["Les repaires des boss reviennent dans toute la forêt : un autre repaire. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "twilightforest:hydra_spawn_egg"
+			id: "09618B6DA202DE94"
+			rewards: [{
+				id: "218A9EAF9BAED1B9"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "68DF0E952ADE339F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Une autre Hydre"
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01CAB6108DB622D7"]
+			description: ["Les repaires des boss reviennent dans toute la forêt : un autre bastion ; il y en a six par combat. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "twilightforest:knight_phantom_spawn_egg"
+			id: "6C04514FF1155F6E"
+			rewards: [{
+				id: "65622F9EF304A7B3"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "49796CB4E09BF981"
+				type: "kill"
+				value: 6L
+			}]
+			title: "&2D'autres chevaliers fantômes"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["54F12401D56BF9E4"]
+			description: ["Les repaires des boss reviennent dans toute la forêt : une autre tour sombre. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "twilightforest:ur_ghast_spawn_egg"
+			id: "02696EEBA00A4F9E"
+			rewards: [{
+				id: "65C628CD9EC2E81A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "675D82010CD66420"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Un autre Ur-Ghast"
+			x: 24.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1D142BB890CA7643"]
+			description: ["Les repaires des boss reviennent dans toute la forêt : une autre grotte. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "twilightforest:alpha_yeti_spawn_egg"
+			id: "3A00B391946D19C9"
+			rewards: [{
+				id: "7C2F67607A4CE0AA"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "2A009DFDA5AA47DA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Un autre Yéti alpha"
+			x: 16.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0CD802C9E7D7AC73"]
+			description: ["Les repaires des boss reviennent dans toute la forêt : un autre palais. Seul un combat mené après l'ouverture de cette quête compte."]
+			icon: "twilightforest:snow_queen_spawn_egg"
+			id: "6C7D242BE01195B8"
+			rewards: [{
+				id: "4F004C7086715297"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "1D0249537F230B91"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Une autre Reine des neiges"
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"44218DDF1148BAB4"
+				"2916BBD7EA4067F4"
+				"46C279EEAC5B4EC7"
+				"09618B6DA202DE94"
+				"6C04514FF1155F6E"
+				"02696EEBA00A4F9E"
+				"3A00B391946D19C9"
+				"6C7D242BE01195B8"
+			]
+			description: ["Sept boss, sept trophées, une lampe, et chaque boss battu une seconde fois, sauf la Liche. Le chapitre &7Exploration&r de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques."]
 			icon: "twilightforest:lich_trophy"
 			id: "294F3D284E2CDD4F"
 			rewards: [{
@@ -648,6 +811,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "3BA6D3A552B4EE6C"

@@ -1,0 +1,475 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_montures"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:saddle"
+	id: "23B0C4F9107F1C1D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Selles et armures des montures et des compagnons : chevaux, loups, moas. Une quête par objet ; rien n'est consommé. Les armures de dragon de Dragon Mounts ne sont pas des objets mais des blocs donnés au dragon : elles sont au chapitre &7Les dragons&r, palier par palier."]
+			icon: "minecraft:saddle"
+			id: "0797A615ABD6B93D"
+			rewards: [{
+				id: "3C66A30B7BDA4471"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6522E681372BA143"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Montures et compagnons"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:diamond_horse_armor"
+			id: "4DCEEF74F108571B"
+			optional: true
+			rewards: [{
+				id: "248428C15F88B70A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AC94CBB591B4B8F"
+				item: "minecraft:diamond_horse_armor"
+				type: "item"
+			}]
+			title: "Armure en diamant pour cheval"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:golden_horse_armor"
+			id: "3A3DBD560E6683B5"
+			optional: true
+			rewards: [{
+				id: "2EAC4B5DB12EDCB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36F3A902CD7E4CDC"
+				item: "minecraft:golden_horse_armor"
+				type: "item"
+			}]
+			title: "Armure en or pour cheval"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:iron_horse_armor"
+			id: "21FC790CDF86C83B"
+			optional: true
+			rewards: [{
+				id: "485A7DFE2F756564"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27C67CB2CB21AD3A"
+				item: "minecraft:iron_horse_armor"
+				type: "item"
+			}]
+			title: "Armure en fer pour cheval"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:leather_horse_armor"
+			id: "12009EC54AC5E6C5"
+			optional: true
+			rewards: [{
+				id: "207E56E8240924B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EDE4FB6782BC08D"
+				item: "minecraft:leather_horse_armor"
+				type: "item"
+			}]
+			title: "Armure en cuir pour cheval"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:saddle"
+			id: "146059531A1CD539"
+			optional: true
+			rewards: [{
+				id: "57804C198CE291D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55AD854E09E7141C"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Selle"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bMinecraft&r. À garder : la livraison n'est pas consommée."]
+			icon: "minecraft:wolf_armor"
+			id: "106C975ED12ABCD1"
+			optional: true
+			rewards: [{
+				id: "5DBE5F9ABEF5F0CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CCC1F577A33C89D"
+				item: "minecraft:wolf_armor"
+				type: "item"
+			}]
+			title: "Armure pour loup"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_protect_your_moa:diamond_moa_armor"
+			id: "3A692C5A421CCCC8"
+			optional: true
+			rewards: [{
+				id: "4295433624B19EBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50CEC6B3FA7E502C"
+				item: "aether_protect_your_moa:diamond_moa_armor"
+				type: "item"
+			}]
+			title: "« Diamond Moa Armor »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_protect_your_moa:golden_moa_armor"
+			id: "0615FCE127CAB8DA"
+			optional: true
+			rewards: [{
+				id: "5D2AEFB9A8CFC4C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BFADFD40E406DE0"
+				item: "aether_protect_your_moa:golden_moa_armor"
+				type: "item"
+			}]
+			title: "« Golden Moa Armor »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_protect_your_moa:gravitite_moa_armor"
+			id: "2AAF21E94F5D4743"
+			optional: true
+			rewards: [{
+				id: "7417FB1FDF58B084"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49F3128702A8172C"
+				item: "aether_protect_your_moa:gravitite_moa_armor"
+				type: "item"
+			}]
+			title: "« Gravitite Moa Armor »"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_protect_your_moa:iron_moa_armor"
+			id: "0299C6D8AB5BB789"
+			optional: true
+			rewards: [{
+				id: "5C34BDC4934B1EC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D1396DC5C9F4BEA"
+				item: "aether_protect_your_moa:iron_moa_armor"
+				type: "item"
+			}]
+			title: "« Iron Moa Armor »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_protect_your_moa:leather_moa_armor"
+			id: "04707458BA316970"
+			optional: true
+			rewards: [{
+				id: "66AABD4F024AA6CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FFB40D06A65C7B9"
+				item: "aether_protect_your_moa:leather_moa_armor"
+				type: "item"
+			}]
+			title: "« Leather Moa Armor »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &baether_protect_your_moa&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée."]
+			icon: "aether_protect_your_moa:zanite_moa_armor"
+			id: "75786055EF4442F1"
+			optional: true
+			rewards: [{
+				id: "169FBEA6631432C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3675D669A778020B"
+				item: "aether_protect_your_moa:zanite_moa_armor"
+				type: "item"
+			}]
+			title: "« Zanite Moa Armor »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée."]
+			icon: "alexsmobs:straddle_saddle"
+			id: "1D2A7CE4A69A308A"
+			optional: true
+			rewards: [{
+				id: "151527240BF26A48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C5D3E8C433A1038"
+				item: "alexsmobs:straddle_saddle"
+				type: "item"
+			}]
+			title: "Selle de Straddlite"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée."]
+			icon: "blue_skies:camel_saddle"
+			id: "3D2FFC3F3CD64B25"
+			optional: true
+			rewards: [{
+				id: "22A041B6C10BBF2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07B019F44E4C3604"
+				item: "blue_skies:camel_saddle"
+				type: "item"
+			}]
+			title: "Selle de chameau"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée."]
+			icon: "dragonloot:dragon_horse_armor"
+			id: "28BA130546646BD3"
+			optional: true
+			rewards: [{
+				id: "406F768ADD635ACF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FD7838E870B7A23"
+				item: "dragonloot:dragon_horse_armor"
+				type: "item"
+			}]
+			title: "« Dragon Horse Armor »"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée."]
+			icon: "revampedwolf:diamond_wolf_armor"
+			id: "2D03FA0A5E7C2D2C"
+			optional: true
+			rewards: [{
+				id: "022B0914CEE9E8AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AD9FAB8B7D9C546"
+				item: "revampedwolf:diamond_wolf_armor"
+				type: "item"
+			}]
+			title: "« Diamond Wolf Armor »"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée."]
+			icon: "revampedwolf:golden_wolf_armor"
+			id: "4CF40EAF1F772954"
+			optional: true
+			rewards: [{
+				id: "6CEBAA9A2CEE7345"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CE65280E35797E7"
+				item: "revampedwolf:golden_wolf_armor"
+				type: "item"
+			}]
+			title: "« Golden Wolf Armor »"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée."]
+			icon: "revampedwolf:iron_wolf_armor"
+			id: "05E2A23DD765F37A"
+			optional: true
+			rewards: [{
+				id: "038522291476B2AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BC97356697E2706"
+				item: "revampedwolf:iron_wolf_armor"
+				type: "item"
+			}]
+			title: "« Iron Wolf Armor »"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée."]
+			icon: "revampedwolf:leather_wolf_armor"
+			id: "5B1A298DFA397FCC"
+			optional: true
+			rewards: [{
+				id: "614841DE6F65DD49"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CA86F844C9F403A"
+				item: "revampedwolf:leather_wolf_armor"
+				type: "item"
+			}]
+			title: "« Leather Wolf Armor »"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Équipement de monture ou de compagnon de &brevampedwolf&r. Ses paliers sont au chapitre &7Faune&r. À garder : la livraison n'est pas consommée."]
+			icon: "revampedwolf:netherite_wolf_armor"
+			id: "16C3AA697101E75F"
+			optional: true
+			rewards: [{
+				id: "22A53C94DE0EF9C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55C43FB3E84C5209"
+				item: "revampedwolf:netherite_wolf_armor"
+				type: "item"
+			}]
+			title: "« Netherite Wolf Armor »"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"4DCEEF74F108571B"
+				"3A3DBD560E6683B5"
+				"21FC790CDF86C83B"
+				"12009EC54AC5E6C5"
+				"146059531A1CD539"
+				"106C975ED12ABCD1"
+				"3A692C5A421CCCC8"
+				"0615FCE127CAB8DA"
+				"2AAF21E94F5D4743"
+				"0299C6D8AB5BB789"
+				"04707458BA316970"
+				"75786055EF4442F1"
+				"1D2A7CE4A69A308A"
+				"3D2FFC3F3CD64B25"
+				"28BA130546646BD3"
+				"2D03FA0A5E7C2D2C"
+				"4CF40EAF1F772954"
+				"05E2A23DD765F37A"
+				"5B1A298DFA397FCC"
+				"16C3AA697101E75F"
+			]
+			description: ["Chaque selle et chaque armure de monture de ce chapitre."]
+			icon: "minecraft:diamond_horse_armor"
+			id: "265211E87FB8919A"
+			optional: true
+			rewards: [{
+				id: "6BEFBEF8D1F49708"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "05D01A0673C50697"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Toutes les montures équipées"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Montures et compagnons"
+}

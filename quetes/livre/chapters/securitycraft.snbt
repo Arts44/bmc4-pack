@@ -77,7 +77,7 @@
 			}]
 			title: "Une porte à clavier"
 			x: 4.0d
-			y: -1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["48AAB8914728A8BD"]
@@ -177,7 +177,7 @@
 			]
 			title: "Scanner d'inventaire et scanner rétinien"
 			x: 4.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["48AAB8914728A8BD"]
@@ -216,7 +216,7 @@
 			}]
 			title: "Une sentinelle"
 			x: 4.0d
-			y: 1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["48AAB8914728A8BD"]
@@ -301,7 +301,71 @@
 			}]
 			title: "&cLe donjon est prêt"
 			x: 6.0d
-			y: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"03B1014F45B0E7AF"
+				"61FCF090082E733A"
+			]
+			description: ["Un bloc de diamant renforcé, du verre teinté renforcé, un bloc laser et de la redstone (recette du jar)."]
+			icon: "securitycraft:universal_block_reinforcer_lvl2"
+			id: "60E4983374C6002F"
+			rewards: [{
+				id: "6450E4BA77EF1087"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7D8A959054BC73AC"
+				item: "securitycraft:universal_block_reinforcer_lvl2"
+				type: "item"
+			}]
+			title: "Le renforçateur, niveau 2"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["60E4983374C6002F"]
+			description: ["Une &létoile du Nether&r, des blocs d'émeraude et de redstone renforcés, du verre teinté renforcé. Le dernier renforçateur ; l'étoile se gagne au chapitre du Nether."]
+			icon: "securitycraft:universal_block_reinforcer_lvl3"
+			id: "2EFEBCF688C6E8B9"
+			rewards: [{
+				id: "485CE67AEAD453B2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "30EEE2CDFE08A334"
+				item: "securitycraft:universal_block_reinforcer_lvl3"
+				type: "item"
+			}]
+			title: "&8Le renforçateur, niveau 3"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5CF5D93222D889A7"]
+			description: ["Les cartes vont du niveau 1 au niveau 5 ; chacune se fait avec trois lingots de fer et une teinte ou un matériau propre à son niveau."]
+			icon: "securitycraft:keycard_lv5"
+			id: "1ED215D65095F0E7"
+			optional: true
+			rewards: [{
+				id: "5AB7892A6182008A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62FBA6BB4A34DD37"
+				item: "securitycraft:keycard_lv5"
+				type: "item"
+			}]
+			title: "Une carte de niveau 5"
+			x: 6.0d
+			y: 7.25d
 		}
 		{
 			dependencies: ["3ECA0DED5659A468"]
@@ -413,7 +477,7 @@
 			}]
 			title: "Une porte à scanner"
 			x: 6.0d
-			y: 7.25d
+			y: 8.75d
 		}
 		{
 			dependencies: ["3FAFD6D766E2FB68"]
@@ -498,7 +562,7 @@
 			}]
 			title: "Un système de munitions intelligent"
 			x: 6.0d
-			y: 8.75d
+			y: 10.25d
 		}
 		{
 			dependencies: ["51B9AA507C069047"]
@@ -519,7 +583,7 @@
 			}]
 			title: "Un système trophée"
 			x: 6.0d
-			y: 10.25d
+			y: 11.75d
 		}
 		{
 			dependencies: ["48AAB8914728A8BD"]
@@ -604,7 +668,7 @@
 			}]
 			title: "Un système de sécurité sonique"
 			x: 6.0d
-			y: 11.75d
+			y: 13.25d
 		}
 		{
 			dependencies: ["03B1014F45B0E7AF"]

@@ -68,6 +68,84 @@
 		}
 		{
 			dependencies: ["1A130310904C2A41"]
+			description: ["Deux lingots de fer en moins qu'une épée, et une lame qui dure."]
+			icon: "farmersdelight:iron_knife"
+			id: "09C63AB6FB54D06E"
+			rewards: [{
+				id: "70F53CEF33846BAE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7BD0BBB5FEE6CEF4"
+				item: "farmersdelight:iron_knife"
+				type: "item"
+			}]
+			title: "Un couteau en fer"
+			x: 4.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["09C63AB6FB54D06E"]
+			description: ["À côté de l'échelle : rapide, fragile."]
+			icon: "farmersdelight:golden_knife"
+			id: "1092983AC82560BC"
+			optional: true
+			rewards: [{
+				id: "3914E5EC3587C661"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F224E504E884E4A"
+				item: "farmersdelight:golden_knife"
+				type: "item"
+			}]
+			title: "Un couteau en or"
+			x: 6.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["09C63AB6FB54D06E"]
+			description: ["Un diamant et un bâton."]
+			icon: "farmersdelight:diamond_knife"
+			id: "123B352FBE2CDFA8"
+			rewards: [{
+				id: "0DF87CEF9A4C9E88"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3AE8F9C53A7DE717"
+				item: "farmersdelight:diamond_knife"
+				type: "item"
+			}]
+			title: "Un couteau en diamant"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["123B352FBE2CDFA8"]
+			description: ["À la table de forge : le couteau en diamant, un lingot de nétherite et un modèle d'amélioration. Le dernier couteau de Farmer's Delight ; les autres matériaux du pack sont à l'Arsenal de l'Encyclopédie."]
+			icon: "farmersdelight:netherite_knife"
+			id: "41F36AD1854F5EC3"
+			rewards: [{
+				id: "799349DAA4D66BB8"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "1DDB4504A5B5BF66"
+				item: "farmersdelight:netherite_knife"
+				type: "item"
+			}]
+			title: "Un couteau en nétherite"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A130310904C2A41"]
 			description: ["Pose un ingrédient sur la &7planche&r, frappe-le avec le couteau — ou une hache, une pioche selon la recette. Un chou devient des feuilles, une viande des tranches, un cactus un fruit."]
 			icon: "farmersdelight:cutting_board"
 			id: "01A6896BBEC77631"
@@ -83,7 +161,7 @@
 			}]
 			title: "Une planche à découper"
 			x: 4.0d
-			y: -3.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["678176FB7936539B"]
@@ -121,7 +199,7 @@
 			}]
 			title: "Une poêle"
 			x: 4.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["144789BF076634AF"]
@@ -141,7 +219,7 @@
 			}]
 			title: "Une marmite"
 			x: 4.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["678176FB7936539B"]
@@ -197,7 +275,7 @@
 			}]
 			title: "De la terre riche"
 			x: 4.0d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -220,7 +298,7 @@
 			}]
 			title: "Un premier ragoût"
 			x: 6.0d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2DDDFAA1B247FA21"]
@@ -251,7 +329,7 @@
 			]
 			title: "Soupes et bouillons"
 			x: 8.0d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -280,7 +358,7 @@
 			]
 			title: "Une salade et du riz sauté"
 			x: 6.0d
-			y: 0.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2DDDFAA1B247FA21"]
@@ -299,7 +377,129 @@
 			}]
 			title: "Un festin"
 			x: 8.0d
-			y: 0.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CE87D93CDE8408B"]
+			description: ["Poulet cuit, pain, œuf, oignon, carottes et pommes de terre cuites, sur un bol."]
+			icon: "farmersdelight:roast_chicken_block"
+			id: "096CE343227E09BA"
+			rewards: [{
+				id: "1BFB418442BF6089"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "536B2CFA3B2C1A06"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			title: "Poulet rôti"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CE87D93CDE8408B"]
+			description: ["À la &lmarmite&r : une citrouille garnie de riz, oignon, champignon, pomme de terre, baies et légumes."]
+			icon: "farmersdelight:stuffed_pumpkin_block"
+			id: "19A9C63D2757E198"
+			rewards: [{
+				id: "408C383509E0C472"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2E1BEC121D6F5C5D"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "Citrouille farcie"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CE87D93CDE8408B"]
+			description: ["Un jambon fumé, du miel, des baies sucrées et du riz cuit, sur un bol."]
+			icon: "farmersdelight:honey_glazed_ham_block"
+			id: "223CD43025ECDBA6"
+			rewards: [{
+				id: "43EC7B1458438F06"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1171EA75164CF2AC"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			title: "Jambon laqué au miel"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CE87D93CDE8408B"]
+			description: ["Trois tranches de rouleau d'algues, trois rouleaux de saumon, deux de morue, sur un bol."]
+			icon: "farmersdelight:rice_roll_medley_block"
+			id: "73281E26A7B0C5B1"
+			rewards: [{
+				id: "3925F88B838C917E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "665BAE2325DB3D93"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			title: "Assortiment de rouleaux de riz"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CE87D93CDE8408B"]
+			description: ["Baies lumineuses, miel, tomate, carotte dorée, betterave et chou, sur un bol."]
+			icon: "farmersdelight:gleaming_salad_block"
+			id: "34816C3A4DF72CCE"
+			rewards: [{
+				id: "10375B2BB2DEA5FB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1F05E7FD758278E6"
+				item: "farmersdelight:gleaming_salad_block"
+				type: "item"
+			}]
+			title: "Salade scintillante"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"096CE343227E09BA"
+				"19A9C63D2757E198"
+				"223CD43025ECDBA6"
+				"73281E26A7B0C5B1"
+				"34816C3A4DF72CCE"
+			]
+			description: ["Les six festins de Farmer's Delight. Ceux du Nether, de l'End, de la Forêt du crépuscule et de Delightful sont dans leurs branches."]
+			icon: "farmersdelight:roast_chicken_block"
+			id: "69B4071DD83448C4"
+			rewards: [{
+				id: "74325B3CD0262FDA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "57AA19284A941C4F"
+				title: "Six festins servis"
+				type: "checkmark"
+			}]
+			title: "&6Tous les festins"
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["695D9659C003D7ED"]
@@ -326,7 +526,7 @@
 			]
 			title: "Corde et panier"
 			x: 4.0d
-			y: 3.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["59AA569134B40C26"]
@@ -347,7 +547,7 @@
 			}]
 			title: "Ocean's Delight"
 			x: 6.0d
-			y: 5.0d
+			y: 7.25d
 		}
 		{
 			dependencies: ["59AA569134B40C26"]
@@ -368,7 +568,7 @@
 			}]
 			title: "Crabber's Delight : le casier"
 			x: 6.0d
-			y: 6.5d
+			y: 8.75d
 		}
 		{
 			dependencies: ["0B02110E3144B9AE"]
@@ -407,7 +607,7 @@
 			]
 			title: "Un seau d'appât"
 			x: 8.0d
-			y: 5.0d
+			y: 5.75d
 		}
 		{
 			dependencies: ["0B02110E3144B9AE"]
@@ -429,7 +629,7 @@
 			}]
 			title: "Des perles"
 			x: 8.0d
-			y: 6.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["678176FB7936539B"]
@@ -457,7 +657,7 @@
 			]
 			title: "Palmiers et noix de coco"
 			x: 2.0d
-			y: 5.0d
+			y: 5.75d
 		}
 		{
 			dependencies: [
@@ -488,7 +688,7 @@
 			]
 			title: "Une bisque"
 			x: 8.0d
-			y: 8.0d
+			y: 8.75d
 		}
 		{
 			dependencies: [
@@ -512,7 +712,7 @@
 			}]
 			title: "My Nether's Delight : le fourneau"
 			x: 6.0d
-			y: 8.0d
+			y: 10.25d
 		}
 		{
 			dependencies: ["4D8A1D0FDFA44FC9"]
@@ -534,7 +734,7 @@
 			}]
 			title: "La canne poudreuse"
 			x: 8.0d
-			y: 9.5d
+			y: 10.25d
 		}
 		{
 			dependencies: ["4D8A1D0FDFA44FC9"]
@@ -562,7 +762,7 @@
 			]
 			title: "Chasser le hoglin au couteau"
 			x: 8.0d
-			y: 11.0d
+			y: 11.75d
 		}
 		{
 			dependencies: ["4D8A1D0FDFA44FC9"]
@@ -583,7 +783,7 @@
 			}]
 			title: "Un ragoût de strider"
 			x: 8.0d
-			y: 12.5d
+			y: 13.25d
 		}
 		{
 			dependencies: ["15062E707A39002C"]
@@ -604,7 +804,7 @@
 			}]
 			title: "&cLe hoglin farci"
 			x: 10.0d
-			y: 5.0d
+			y: 5.75d
 		}
 		{
 			dependencies: [
@@ -628,7 +828,7 @@
 			}]
 			title: "Ender's Delight"
 			x: 6.0d
-			y: 9.5d
+			y: 11.75d
 		}
 		{
 			dependencies: ["13B60358BDB680A2"]
@@ -649,7 +849,7 @@
 			}]
 			title: "Un fourneau de pierre de l'End"
 			x: 8.0d
-			y: 14.0d
+			y: 14.75d
 		}
 		{
 			dependencies: ["13B60358BDB680A2"]
@@ -677,7 +877,7 @@
 			]
 			title: "Chasser dans l'End au couteau"
 			x: 8.0d
-			y: 15.5d
+			y: 16.25d
 		}
 		{
 			dependencies: ["13B60358BDB680A2"]
@@ -698,7 +898,7 @@
 			}]
 			title: "&dLes épices de l'End"
 			x: 8.0d
-			y: 17.0d
+			y: 17.75d
 		}
 		{
 			dependencies: ["13B60358BDB680A2"]
@@ -718,7 +918,7 @@
 			}]
 			title: "La maison de l'End"
 			x: 8.0d
-			y: 18.5d
+			y: 19.25d
 		}
 		{
 			dependencies: [
@@ -742,7 +942,7 @@
 			}]
 			title: "Twilight's Flavor & Delight"
 			x: 6.0d
-			y: 11.0d
+			y: 13.25d
 		}
 		{
 			dependencies: [
@@ -784,7 +984,7 @@
 			]
 			title: "Un couteau du Crépuscule"
 			x: 4.0d
-			y: 5.0d
+			y: 5.75d
 		}
 		{
 			dependencies: [
@@ -808,7 +1008,7 @@
 			}]
 			title: "Un fourneau du labyrinthe"
 			x: 4.0d
-			y: 6.5d
+			y: 7.25d
 		}
 		{
 			dependencies: [
@@ -832,7 +1032,7 @@
 			}]
 			title: "Le steak du minotaure"
 			x: 6.0d
-			y: 12.5d
+			y: 14.75d
 		}
 		{
 			dependencies: ["14E8391AAC5909F2"]
@@ -853,7 +1053,7 @@
 			}]
 			title: "Un burger d'hydre"
 			x: 8.0d
-			y: 20.0d
+			y: 20.75d
 		}
 		{
 			dependencies: ["59AA569134B40C26"]
@@ -874,7 +1074,7 @@
 			}]
 			title: "Delightful"
 			x: 6.0d
-			y: 14.0d
+			y: 16.25d
 		}
 		{
 			dependencies: ["009EB35E6ABDAA5E"]
@@ -907,7 +1107,7 @@
 			]
 			title: "Trois plantes sauvages"
 			x: 8.0d
-			y: 21.5d
+			y: 22.25d
 		}
 		{
 			dependencies: [
@@ -943,7 +1143,7 @@
 			]
 			title: "Le couteau, outil de cueillette"
 			x: 8.0d
-			y: 23.0d
+			y: 23.75d
 		}
 		{
 			dependencies: ["608FB4C82DC77713"]
@@ -971,12 +1171,162 @@
 			]
 			title: "Une tarte aux baies de saumon"
 			x: 10.0d
-			y: 6.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["3281E36B9F78F98A"]
+			description: ["Une tranche de strider et trois de strider haché, sur un bol : un festin du Nether."]
+			icon: "mynethersdelight:striderloaf"
+			id: "1CC8367930EA0112"
+			optional: true
+			rewards: [{
+				id: "47A6D26A05A46FC6"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61721F160155FD48"
+				item: "mynethersdelight:striderloaf"
+				type: "item"
+			}]
+			title: "&cPain de strider"
+			x: 10.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4D8A1D0FDFA44FC9"]
+			description: ["Un ghasta, du ghasmati, une crème de magma et une larme de ghast, sur un bol."]
+			icon: "mynethersdelight:ghasta_with_cream"
+			id: "3F5AF9AA7335F445"
+			optional: true
+			rewards: [{
+				id: "6CF49B5E35AA2AEA"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "040931B9B36ACF2F"
+				item: "mynethersdelight:ghasta_with_cream"
+				type: "item"
+			}]
+			title: "&cGhasta à la crème"
+			x: 8.0d
+			y: 25.25d
+		}
+		{
+			dependencies: ["51FD12E4EB2293D9"]
+			description: ["À la marmite, servi dans une carapace de shulker : mollusque de shulker, fruit de chorus, riz, tomate et champignon."]
+			icon: "endersdelight:stuffed_shulker"
+			id: "00241DDC3C0BE0B3"
+			optional: true
+			rewards: [{
+				id: "110A241FF4A2CBA4"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A8633FE78C2183F"
+				item: "endersdelight:stuffed_shulker"
+				type: "item"
+			}]
+			title: "&5Shulker farci"
+			x: 10.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["14E8391AAC5909F2"]
+			description: ["À la marmite : viande d'hydre, fiole ardente, écaille de naga, sauce tomate et baies-torches."]
+			icon: "twilightdelight:fiery_snakes_block"
+			id: "408F8F8FFAD4FD41"
+			optional: true
+			rewards: [{
+				id: "26A543CD79D7D44E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32996C5311A1777E"
+				item: "twilightdelight:fiery_snakes_block"
+				type: "item"
+			}]
+			title: "&2Serpents ardents"
+			x: 8.0d
+			y: 26.75d
+		}
+		{
+			dependencies: [
+				"14E8391AAC5909F2"
+				"096CE343227E09BA"
+			]
+			description: ["À la marmite, autour d'un &lpoulet rôti&r : un grand nénuphar et un grand lis d'eau de la Forêt du crépuscule."]
+			icon: "twilightdelight:lily_chicken_block"
+			id: "235D0623D28C8653"
+			optional: true
+			rewards: [{
+				id: "47251AE0248788DA"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CE53E6012D9253F"
+				item: "twilightdelight:lily_chicken_block"
+				type: "item"
+			}]
+			title: "&2Poulet aux nénuphars"
+			x: 12.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["14E8391AAC5909F2"]
+			description: ["Pâte à tarte, œuf, sauce de mushgloom, meef cuit et bacon, sur un bol."]
+			icon: "twilightdelight:meef_wellington_block"
+			id: "28342CA217083266"
+			optional: true
+			rewards: [{
+				id: "5DC5350E7F93F2ED"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5462E8152132E2DA"
+				item: "twilightdelight:meef_wellington_block"
+				type: "item"
+			}]
+			title: "&2Meef Wellington"
+			x: 8.0d
+			y: 28.25d
+		}
+		{
+			dependencies: ["608FB4C82DC77713"]
+			description: ["À la marmite, servi dans un cantaloup : riz, mouton cuit, oignon, baies et graines."]
+			icon: "delightful:stuffed_cantaloupe_block"
+			id: "3DFEE0574D0D342E"
+			optional: true
+			rewards: [{
+				id: "5F49FBEAAD0D67CA"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35566E93BC71C44A"
+				item: "delightful:stuffed_cantaloupe_block"
+				type: "item"
+			}]
+			title: "&aCantaloup farci"
+			x: 10.0d
+			y: 11.75d
 		}
 		{
 			dependencies: [
 				"2DDDFAA1B247FA21"
-				"1CE87D93CDE8408B"
+				"69B4071DD83448C4"
 			]
 			description: ["Une marmite qui tourne, des ragoûts en réserve pour l'après-raid, un festin pour la victoire. Le chapitre &7Gastronomie&r de l'Encyclopédie liste chaque plat du pack."]
 			icon: "farmersdelight:shepherds_pie"
@@ -993,7 +1343,7 @@
 				type: "checkmark"
 			}]
 			title: "&6La table est mise"
-			x: 10.0d
+			x: 14.0d
 			y: 0.0d
 		}
 	]

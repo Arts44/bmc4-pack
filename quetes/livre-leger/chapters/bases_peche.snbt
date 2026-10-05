@@ -276,6 +276,27 @@
 		}
 		{
 			dependencies: ["391A43A18F9C0F23"]
+			description: ["Cent prises au total (statistique du jeu). Les trésors, livres enchantés et coquilles de nautile sortent de la même canne."]
+			id: "1EF8931CCF6583D4"
+			rewards: [{
+				id: "07467653B57F8721"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0BCBC81626258258"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 100L
+			}]
+			title: "&bCent poissons"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EF8931CCF6583D4"]
 			icon: "minecraft:heart_of_the_sea"
 			id: "59DE0D282C265865"
 			rewards: [{
@@ -290,7 +311,7 @@
 				type: "checkmark"
 			}]
 			title: "&bMarin"
-			x: 6.0d
+			x: 8.0d
 			y: 0.0d
 		}
 	]
