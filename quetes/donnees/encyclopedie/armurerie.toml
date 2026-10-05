@@ -1,2267 +1,1953 @@
 # GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
 
 [chapitre]
-titre = "&cArmurerie"
+titre = "&cArmurerie — base et aventure"
 fichier = "enc_armurerie"
 groupe = "encyclopedie"
-icone = "minecraft:netherite_chestplate"
+icone = "minecraft:iron_chestplate"
 ordre = 0
 lignes_cachees = true
 grille = 16
 
 [[quete]]
 cle = "intro"
-titre = "&cArmurerie"
+titre = "&cArmurerie — base et aventure"
 taille = 1.5
-icone = "minecraft:netherite_chestplate"
+icone = "minecraft:iron_chestplate"
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Chaque armure (son casque la représente) et chaque arme des mods d'aventure du pack : Aether, Twilight Forest, Blue Skies, Cataclysm, Iron's Spells, Advanced Netherite, Deeper and Darker, et les autres. Une quête se valide en ayant l'objet dans l'inventaire.
-"""
+Chaque pièce d'armure des mods de base et d'aventure, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé.
 
-[[quete]]
-cle = "advancednetherite_netherite_diamond_axe"
-titre = "Obtenir : « Netherite-Diamond Axe »"
-optionnel = true
-icone = "advancednetherite:netherite_diamond_axe"
-taches = ["item advancednetherite:netherite_diamond_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &badvancednetherite&r.
+Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre.
 """
 
 [[quete]]
 cle = "advancednetherite_netherite_diamond_helmet"
-titre = "Obtenir : « Netherite-Diamond Helmet »"
+titre = "« Netherite-Diamond Helmet »"
 optionnel = true
 icone = "advancednetherite:netherite_diamond_helmet"
+kit_voulu = true
 taches = ["item advancednetherite:netherite_diamond_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "advancednetherite_netherite_diamond_sword"
-titre = "Obtenir : « Netherite-Diamond Sword »"
+cle = "advancednetherite_netherite_diamond_chestplate"
+titre = "« Netherite-Diamond Chestplate »"
 optionnel = true
-icone = "advancednetherite:netherite_diamond_sword"
-taches = ["item advancednetherite:netherite_diamond_sword"]
+icone = "advancednetherite:netherite_diamond_chestplate"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "advancednetherite_netherite_emerald_axe"
-titre = "Obtenir : « Netherite-Emerald Axe »"
+cle = "advancednetherite_netherite_diamond_leggings"
+titre = "« Netherite-Diamond Leggings »"
 optionnel = true
-icone = "advancednetherite:netherite_emerald_axe"
-taches = ["item advancednetherite:netherite_emerald_axe"]
+icone = "advancednetherite:netherite_diamond_leggings"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_diamond_boots"
+titre = "« Netherite-Diamond Boots »"
+optionnel = true
+icone = "advancednetherite:netherite_diamond_boots"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_advancednetherite_netherite_diamond"
+titre = "Ensemble « Netherite-Diamond »"
+optionnel = true
+deps = ["advancednetherite_netherite_diamond_helmet", "advancednetherite_netherite_diamond_chestplate", "advancednetherite_netherite_diamond_leggings", "advancednetherite_netherite_diamond_boots"]
+forme = "hexagon"
+icone = "advancednetherite:netherite_diamond_chestplate"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_diamond_helmet", "item advancednetherite:netherite_diamond_chestplate", "item advancednetherite:netherite_diamond_leggings", "item advancednetherite:netherite_diamond_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Netherite-Diamond » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "advancednetherite_netherite_emerald_helmet"
-titre = "Obtenir : « Netherite-Emerald Helmet »"
+titre = "« Netherite-Emerald Helmet »"
 optionnel = true
 icone = "advancednetherite:netherite_emerald_helmet"
+kit_voulu = true
 taches = ["item advancednetherite:netherite_emerald_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "advancednetherite_netherite_emerald_sword"
-titre = "Obtenir : « Netherite-Emerald Sword »"
+cle = "advancednetherite_netherite_emerald_chestplate"
+titre = "« Netherite-Emerald Chestplate »"
 optionnel = true
-icone = "advancednetherite:netherite_emerald_sword"
-taches = ["item advancednetherite:netherite_emerald_sword"]
+icone = "advancednetherite:netherite_emerald_chestplate"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "advancednetherite_netherite_gold_axe"
-titre = "Obtenir : « Netherite-Gold Axe »"
+cle = "advancednetherite_netherite_emerald_leggings"
+titre = "« Netherite-Emerald Leggings »"
 optionnel = true
-icone = "advancednetherite:netherite_gold_axe"
-taches = ["item advancednetherite:netherite_gold_axe"]
+icone = "advancednetherite:netherite_emerald_leggings"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_emerald_boots"
+titre = "« Netherite-Emerald Boots »"
+optionnel = true
+icone = "advancednetherite:netherite_emerald_boots"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_advancednetherite_netherite_emerald"
+titre = "Ensemble « Netherite-Emerald »"
+optionnel = true
+deps = ["advancednetherite_netherite_emerald_helmet", "advancednetherite_netherite_emerald_chestplate", "advancednetherite_netherite_emerald_leggings", "advancednetherite_netherite_emerald_boots"]
+forme = "hexagon"
+icone = "advancednetherite:netherite_emerald_chestplate"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_emerald_helmet", "item advancednetherite:netherite_emerald_chestplate", "item advancednetherite:netherite_emerald_leggings", "item advancednetherite:netherite_emerald_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Netherite-Emerald » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "advancednetherite_netherite_gold_helmet"
-titre = "Obtenir : « Netherite-Gold Helmet »"
+titre = "« Netherite-Gold Helmet »"
 optionnel = true
 icone = "advancednetherite:netherite_gold_helmet"
+kit_voulu = true
 taches = ["item advancednetherite:netherite_gold_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "advancednetherite_netherite_gold_sword"
-titre = "Obtenir : « Netherite-Gold Sword »"
+cle = "advancednetherite_netherite_gold_chestplate"
+titre = "« Netherite-Gold Chestplate »"
 optionnel = true
-icone = "advancednetherite:netherite_gold_sword"
-taches = ["item advancednetherite:netherite_gold_sword"]
+icone = "advancednetherite:netherite_gold_chestplate"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "advancednetherite_netherite_iron_axe"
-titre = "Obtenir : « Netherite-Iron Axe »"
+cle = "advancednetherite_netherite_gold_leggings"
+titre = "« Netherite-Gold Leggings »"
 optionnel = true
-icone = "advancednetherite:netherite_iron_axe"
-taches = ["item advancednetherite:netherite_iron_axe"]
+icone = "advancednetherite:netherite_gold_leggings"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "advancednetherite_netherite_gold_boots"
+titre = "« Netherite-Gold Boots »"
+optionnel = true
+icone = "advancednetherite:netherite_gold_boots"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_advancednetherite_netherite_gold"
+titre = "Ensemble « Netherite-Gold »"
+optionnel = true
+deps = ["advancednetherite_netherite_gold_helmet", "advancednetherite_netherite_gold_chestplate", "advancednetherite_netherite_gold_leggings", "advancednetherite_netherite_gold_boots"]
+forme = "hexagon"
+icone = "advancednetherite:netherite_gold_chestplate"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_gold_helmet", "item advancednetherite:netherite_gold_chestplate", "item advancednetherite:netherite_gold_leggings", "item advancednetherite:netherite_gold_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Netherite-Gold » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "advancednetherite_netherite_iron_helmet"
-titre = "Obtenir : « Netherite-Iron Helmet »"
+titre = "« Netherite-Iron Helmet »"
 optionnel = true
 icone = "advancednetherite:netherite_iron_helmet"
+kit_voulu = true
 taches = ["item advancednetherite:netherite_iron_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "advancednetherite_netherite_iron_sword"
-titre = "Obtenir : « Netherite-Iron Sword »"
+cle = "advancednetherite_netherite_iron_chestplate"
+titre = "« Netherite-Iron Chestplate »"
 optionnel = true
-icone = "advancednetherite:netherite_iron_sword"
-taches = ["item advancednetherite:netherite_iron_sword"]
+icone = "advancednetherite:netherite_iron_chestplate"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &badvancednetherite&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "aether_candy_cane_sword"
-titre = "Obtenir : « Candy Cane Sword »"
+cle = "advancednetherite_netherite_iron_leggings"
+titre = "« Netherite-Iron Leggings »"
 optionnel = true
-icone = "aether:candy_cane_sword"
-taches = ["item aether:candy_cane_sword"]
+icone = "advancednetherite:netherite_iron_leggings"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bAether&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "aether_cloud_staff"
-titre = "Obtenir : « Cloud Staff »"
+cle = "advancednetherite_netherite_iron_boots"
+titre = "« Netherite-Iron Boots »"
 optionnel = true
-icone = "aether:cloud_staff"
-taches = ["item aether:cloud_staff"]
+icone = "advancednetherite:netherite_iron_boots"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bAether&r.
+Pièce d'armure de &bAdvanced Netherite&r. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "aether_flaming_sword"
-titre = "Obtenir : « Flaming Sword »"
+cle = "ensemble_advancednetherite_netherite_iron"
+titre = "Ensemble « Netherite-Iron »"
 optionnel = true
-icone = "aether:flaming_sword"
-taches = ["item aether:flaming_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_gravitite_axe"
-titre = "Obtenir : « Gravitite Axe »"
-optionnel = true
-icone = "aether:gravitite_axe"
-taches = ["item aether:gravitite_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_gravitite_helmet"
-titre = "Obtenir : « Gravitite Helmet »"
-optionnel = true
-icone = "aether:gravitite_helmet"
-taches = ["item aether:gravitite_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_gravitite_sword"
-titre = "Obtenir : « Gravitite Sword »"
-optionnel = true
-icone = "aether:gravitite_sword"
-taches = ["item aether:gravitite_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_holy_sword"
-titre = "Obtenir : « Holy Sword »"
-optionnel = true
-icone = "aether:holy_sword"
-taches = ["item aether:holy_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_holystone_axe"
-titre = "Obtenir : « Holystone Axe »"
-optionnel = true
-icone = "aether:holystone_axe"
-taches = ["item aether:holystone_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_holystone_sword"
-titre = "Obtenir : « Holystone Sword »"
-optionnel = true
-icone = "aether:holystone_sword"
-taches = ["item aether:holystone_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_lightning_sword"
-titre = "Obtenir : « Lightning Sword »"
-optionnel = true
-icone = "aether:lightning_sword"
-taches = ["item aether:lightning_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_nature_staff"
-titre = "Obtenir : « Nature Staff »"
-optionnel = true
-icone = "aether:nature_staff"
-taches = ["item aether:nature_staff"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_neptune_helmet"
-titre = "Obtenir : « Neptune Helmet »"
-optionnel = true
-icone = "aether:neptune_helmet"
-taches = ["item aether:neptune_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_phoenix_bow"
-titre = "Obtenir : « Phoenix Bow »"
-optionnel = true
-icone = "aether:phoenix_bow"
-taches = ["item aether:phoenix_bow"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_phoenix_helmet"
-titre = "Obtenir : « Phoenix Helmet »"
-optionnel = true
-icone = "aether:phoenix_helmet"
-taches = ["item aether:phoenix_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_skyroot_axe"
-titre = "Obtenir : « Skyroot Axe »"
-optionnel = true
-icone = "aether:skyroot_axe"
-taches = ["item aether:skyroot_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_skyroot_sword"
-titre = "Obtenir : « Skyroot Sword »"
-optionnel = true
-icone = "aether:skyroot_sword"
-taches = ["item aether:skyroot_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_valkyrie_axe"
-titre = "Obtenir : « Valkyrie Axe »"
-optionnel = true
-icone = "aether:valkyrie_axe"
-taches = ["item aether:valkyrie_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_valkyrie_helmet"
-titre = "Obtenir : « Valkyrie Helmet »"
-optionnel = true
-icone = "aether:valkyrie_helmet"
-taches = ["item aether:valkyrie_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_valkyrie_lance"
-titre = "Obtenir : « Valkyrie Lance »"
-optionnel = true
-icone = "aether:valkyrie_lance"
-taches = ["item aether:valkyrie_lance"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_zanite_axe"
-titre = "Obtenir : « Zanite Axe »"
-optionnel = true
-icone = "aether:zanite_axe"
-taches = ["item aether:zanite_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_zanite_helmet"
-titre = "Obtenir : « Zanite Helmet »"
-optionnel = true
-icone = "aether:zanite_helmet"
-taches = ["item aether:zanite_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_zanite_sword"
-titre = "Obtenir : « Zanite Sword »"
-optionnel = true
-icone = "aether:zanite_sword"
-taches = ["item aether:zanite_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether&r.
-"""
-
-[[quete]]
-cle = "aether_redux_infused_veridium_axe"
-titre = "Obtenir : « Infused Veridium Axe »"
-optionnel = true
-icone = "aether_redux:infused_veridium_axe"
-taches = ["item aether_redux:infused_veridium_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether Redux&r.
-"""
-
-[[quete]]
-cle = "aether_redux_infused_veridium_sword"
-titre = "Obtenir : « Infused Veridium Sword »"
-optionnel = true
-icone = "aether_redux:infused_veridium_sword"
-taches = ["item aether_redux:infused_veridium_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether Redux&r.
-"""
-
-[[quete]]
-cle = "aether_redux_snailshell_shield"
-titre = "Obtenir : « Snailshell Shield »"
-optionnel = true
-icone = "aether_redux:snailshell_shield"
-taches = ["item aether_redux:snailshell_shield"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether Redux&r.
-"""
-
-[[quete]]
-cle = "aether_redux_subzero_crossbow"
-titre = "Obtenir : « Subzero Crossbow »"
-optionnel = true
-icone = "aether_redux:subzero_crossbow"
-taches = ["item aether_redux:subzero_crossbow"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether Redux&r.
-"""
-
-[[quete]]
-cle = "aether_redux_veridium_axe"
-titre = "Obtenir : « Veridium Axe »"
-optionnel = true
-icone = "aether_redux:veridium_axe"
-taches = ["item aether_redux:veridium_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether Redux&r.
-"""
-
-[[quete]]
-cle = "aether_redux_veridium_sword"
-titre = "Obtenir : « Veridium Sword »"
-optionnel = true
-icone = "aether_redux:veridium_sword"
-taches = ["item aether_redux:veridium_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bAether Redux&r.
-"""
-
-[[quete]]
-cle = "betterend_aeternium_axe"
-titre = "Obtenir : « Aeternium Axe »"
-optionnel = true
-icone = "betterend:aeternium_axe"
-taches = ["item betterend:aeternium_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_aeternium_hammer"
-titre = "Obtenir : « Aeternium Smith Hammer »"
-optionnel = true
-icone = "betterend:aeternium_hammer"
-taches = ["item betterend:aeternium_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_aeternium_helmet"
-titre = "Obtenir : « Aeternium Helmet »"
-optionnel = true
-icone = "betterend:aeternium_helmet"
-taches = ["item betterend:aeternium_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_aeternium_sword"
-titre = "Obtenir : « Aeternium Sword »"
-optionnel = true
-icone = "betterend:aeternium_sword"
-taches = ["item betterend:aeternium_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_crystalite_helmet"
-titre = "Obtenir : « Crystalite Helmet »"
-optionnel = true
-icone = "betterend:crystalite_helmet"
-taches = ["item betterend:crystalite_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_diamond_hammer"
-titre = "Obtenir : « Diamond Smith Hammer »"
-optionnel = true
-icone = "betterend:diamond_hammer"
-taches = ["item betterend:diamond_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_golden_hammer"
-titre = "Obtenir : « Golden Smith Hammer »"
-optionnel = true
-icone = "betterend:golden_hammer"
-taches = ["item betterend:golden_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_iron_hammer"
-titre = "Obtenir : « Iron Smith Hammer »"
-optionnel = true
-icone = "betterend:iron_hammer"
-taches = ["item betterend:iron_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_netherite_hammer"
-titre = "Obtenir : « Netherite Smith Hammer »"
-optionnel = true
-icone = "betterend:netherite_hammer"
-taches = ["item betterend:netherite_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_terminite_axe"
-titre = "Obtenir : « Terminite Axe »"
-optionnel = true
-icone = "betterend:terminite_axe"
-taches = ["item betterend:terminite_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_terminite_hammer"
-titre = "Obtenir : « Terminite Smith Hammer »"
-optionnel = true
-icone = "betterend:terminite_hammer"
-taches = ["item betterend:terminite_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_terminite_helmet"
-titre = "Obtenir : « Terminite Helmet »"
-optionnel = true
-icone = "betterend:terminite_helmet"
-taches = ["item betterend:terminite_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_terminite_sword"
-titre = "Obtenir : « Terminite Sword »"
-optionnel = true
-icone = "betterend:terminite_sword"
-taches = ["item betterend:terminite_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_thallasium_axe"
-titre = "Obtenir : « Thallasium Axe »"
-optionnel = true
-icone = "betterend:thallasium_axe"
-taches = ["item betterend:thallasium_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_thallasium_hammer"
-titre = "Obtenir : « Thallasium Hammer »"
-optionnel = true
-icone = "betterend:thallasium_hammer"
-taches = ["item betterend:thallasium_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_thallasium_helmet"
-titre = "Obtenir : « Thallasium Helmet »"
-optionnel = true
-icone = "betterend:thallasium_helmet"
-taches = ["item betterend:thallasium_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betterend_thallasium_sword"
-titre = "Obtenir : « Thallasium Sword »"
-optionnel = true
-icone = "betterend:thallasium_sword"
-taches = ["item betterend:thallasium_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter End&r.
-"""
-
-[[quete]]
-cle = "betternether_cincinnasite_axe"
-titre = "Obtenir : Hache en Cincinnasite"
-optionnel = true
-icone = "betternether:cincinnasite_axe"
-taches = ["item betternether:cincinnasite_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "betternether_cincinnasite_helmet"
-titre = "Obtenir : Cincinnasite Helmet"
-optionnel = true
-icone = "betternether:cincinnasite_helmet"
-taches = ["item betternether:cincinnasite_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "betternether_cincinnasite_sword"
-titre = "Obtenir : Cincinnasite Sword"
-optionnel = true
-icone = "betternether:cincinnasite_sword"
-taches = ["item betternether:cincinnasite_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "betternether_flaming_ruby_axe"
-titre = "Obtenir : « Fireruby Axe »"
-optionnel = true
-icone = "betternether:flaming_ruby_axe"
-taches = ["item betternether:flaming_ruby_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "betternether_flaming_ruby_helmet"
-titre = "Obtenir : « Fireruby Helmet »"
-optionnel = true
-icone = "betternether:flaming_ruby_helmet"
-taches = ["item betternether:flaming_ruby_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "betternether_flaming_ruby_sword"
-titre = "Obtenir : « Fireruby Sword »"
-optionnel = true
-icone = "betternether:flaming_ruby_sword"
-taches = ["item betternether:flaming_ruby_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "betternether_nether_ruby_axe"
-titre = "Obtenir : Nether Ruby Axe"
-optionnel = true
-icone = "betternether:nether_ruby_axe"
-taches = ["item betternether:nether_ruby_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "betternether_nether_ruby_helmet"
-titre = "Obtenir : Nether Ruby Helmet"
-optionnel = true
-icone = "betternether:nether_ruby_helmet"
-taches = ["item betternether:nether_ruby_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "betternether_nether_ruby_sword"
-titre = "Obtenir : Nether Ruby Sword"
-optionnel = true
-icone = "betternether:nether_ruby_sword"
-taches = ["item betternether:nether_ruby_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBetter Nether&r.
-"""
-
-[[quete]]
-cle = "blue_skies_aquite_axe"
-titre = "Obtenir : Hache en aquite"
-optionnel = true
-icone = "blue_skies:aquite_axe"
-taches = ["item blue_skies:aquite_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_aquite_helmet"
-titre = "Obtenir : Casque en aquite"
-optionnel = true
-icone = "blue_skies:aquite_helmet"
-taches = ["item blue_skies:aquite_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_aquite_sword"
-titre = "Obtenir : Épée en aquite"
-optionnel = true
-icone = "blue_skies:aquite_sword"
-taches = ["item blue_skies:aquite_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_bluebright_axe"
-titre = "Obtenir : Hache en bois de lumibleu"
-optionnel = true
-icone = "blue_skies:bluebright_axe"
-taches = ["item blue_skies:bluebright_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_bluebright_spear"
-titre = "Obtenir : Lance en lumibleu"
-optionnel = true
-icone = "blue_skies:bluebright_spear"
-taches = ["item blue_skies:bluebright_spear"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_bluebright_sword"
-titre = "Obtenir : Épée en bois lumibleu"
-optionnel = true
-icone = "blue_skies:bluebright_sword"
-taches = ["item blue_skies:bluebright_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_charoite_axe"
-titre = "Obtenir : Hache en charoite"
-optionnel = true
-icone = "blue_skies:charoite_axe"
-taches = ["item blue_skies:charoite_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_charoite_helmet"
-titre = "Obtenir : Casque en charoite"
-optionnel = true
-icone = "blue_skies:charoite_helmet"
-taches = ["item blue_skies:charoite_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_charoite_sword"
-titre = "Obtenir : Épée en charoite"
-optionnel = true
-icone = "blue_skies:charoite_sword"
-taches = ["item blue_skies:charoite_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_comet_axe"
-titre = "Obtenir : « Comet Wood Axe »"
-optionnel = true
-icone = "blue_skies:comet_axe"
-taches = ["item blue_skies:comet_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_comet_spear"
-titre = "Obtenir : « Comet Spear »"
-optionnel = true
-icone = "blue_skies:comet_spear"
-taches = ["item blue_skies:comet_spear"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_comet_sword"
-titre = "Obtenir : « Comet Wood Sword »"
-optionnel = true
-icone = "blue_skies:comet_sword"
-taches = ["item blue_skies:comet_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_crushing_hammer"
-titre = "Obtenir : Marteau écraseur"
-optionnel = true
-icone = "blue_skies:crushing_hammer"
-taches = ["item blue_skies:crushing_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_different_sword"
-titre = "Obtenir : Épée différente"
-optionnel = true
-icone = "blue_skies:different_sword"
-taches = ["item blue_skies:different_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_diopside_axe"
-titre = "Obtenir : Hache en diopside"
-optionnel = true
-icone = "blue_skies:diopside_axe"
-taches = ["item blue_skies:diopside_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_diopside_helmet"
-titre = "Obtenir : Casque en diopside"
-optionnel = true
-icone = "blue_skies:diopside_helmet"
-taches = ["item blue_skies:diopside_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_diopside_sword"
-titre = "Obtenir : Épée en diopside"
-optionnel = true
-icone = "blue_skies:diopside_sword"
-taches = ["item blue_skies:diopside_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_dusk_axe"
-titre = "Obtenir : Hache en crépuscubois"
-optionnel = true
-icone = "blue_skies:dusk_axe"
-taches = ["item blue_skies:dusk_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_dusk_spear"
-titre = "Obtenir : Lance en crépuscubois"
-optionnel = true
-icone = "blue_skies:dusk_spear"
-taches = ["item blue_skies:dusk_spear"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_dusk_sword"
-titre = "Obtenir : Épée en crépuscubois"
-optionnel = true
-icone = "blue_skies:dusk_sword"
-taches = ["item blue_skies:dusk_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_frostbright_axe"
-titre = "Obtenir : Hache en bois de nifrisque"
-optionnel = true
-icone = "blue_skies:frostbright_axe"
-taches = ["item blue_skies:frostbright_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_frostbright_spear"
-titre = "Obtenir : lance en nifrisque"
-optionnel = true
-icone = "blue_skies:frostbright_spear"
-taches = ["item blue_skies:frostbright_spear"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_frostbright_sword"
-titre = "Obtenir : Épée en bois de nifrisque"
-optionnel = true
-icone = "blue_skies:frostbright_sword"
-taches = ["item blue_skies:frostbright_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_horizonite_axe"
-titre = "Obtenir : Hache en horizonite"
-optionnel = true
-icone = "blue_skies:horizonite_axe"
-taches = ["item blue_skies:horizonite_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_horizonite_helmet"
-titre = "Obtenir : Casque en horizonite"
-optionnel = true
-icone = "blue_skies:horizonite_helmet"
-taches = ["item blue_skies:horizonite_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_horizonite_sword"
-titre = "Obtenir : Épée en horizonite"
-optionnel = true
-icone = "blue_skies:horizonite_sword"
-taches = ["item blue_skies:horizonite_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_lunar_axe"
-titre = "Obtenir : Hache lunaire"
-optionnel = true
-icone = "blue_skies:lunar_axe"
-taches = ["item blue_skies:lunar_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_lunar_spear"
-titre = "Obtenir : Lance lunaire"
-optionnel = true
-icone = "blue_skies:lunar_spear"
-taches = ["item blue_skies:lunar_spear"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_lunar_stone_axe"
-titre = "Obtenir : Hache en pierre lunaire"
-optionnel = true
-icone = "blue_skies:lunar_stone_axe"
-taches = ["item blue_skies:lunar_stone_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_lunar_stone_sword"
-titre = "Obtenir : Épée en pierre lunaire"
-optionnel = true
-icone = "blue_skies:lunar_stone_sword"
-taches = ["item blue_skies:lunar_stone_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_lunar_sword"
-titre = "Obtenir : Épée lunaire"
-optionnel = true
-icone = "blue_skies:lunar_sword"
-taches = ["item blue_skies:lunar_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_maple_axe"
-titre = "Obtenir : Hache en bois d'érable"
-optionnel = true
-icone = "blue_skies:maple_axe"
-taches = ["item blue_skies:maple_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_maple_spear"
-titre = "Obtenir : Lance en érable"
-optionnel = true
-icone = "blue_skies:maple_spear"
-taches = ["item blue_skies:maple_spear"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_maple_sword"
-titre = "Obtenir : Épée en bois d'érable"
-optionnel = true
-icone = "blue_skies:maple_sword"
-taches = ["item blue_skies:maple_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_moonstone_shield"
-titre = "Obtenir : Bouclier en pierre de lune"
-optionnel = true
-icone = "blue_skies:moonstone_shield"
-taches = ["item blue_skies:moonstone_shield"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bBlue Skies&r.
-"""
-
-[[quete]]
-cle = "blue_skies_pyrope_axe"
-titre = "Obtenir : Hache en pyrope"
-optionnel = true
-icone = "blue_skies:pyrope_axe"
-taches = ["item blue_skies:pyrope_axe"]
-recompenses = ["xp 1"]
+deps = ["advancednetherite_netherite_iron_helmet", "advancednetherite_netherite_iron_chestplate", "advancednetherite_netherite_iron_leggings", "advancednetherite_netherite_iron_boots"]
+forme = "hexagon"
+icone = "advancednetherite:netherite_iron_chestplate"
+kit_voulu = true
+taches = ["item advancednetherite:netherite_iron_helmet", "item advancednetherite:netherite_iron_chestplate", "item advancednetherite:netherite_iron_leggings", "item advancednetherite:netherite_iron_boots"]
+recompenses = ["xp 5"]
 description = """
-Objet de &bBlue Skies&r.
+Toutes les pièces de l'ensemble « Netherite-Iron » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
-cle = "blue_skies_pyrope_helmet"
-titre = "Obtenir : Casque en pyrope"
+cle = "alexsmobs_centipede_leggings"
+titre = "Jambières en mille-pattes"
 optionnel = true
-icone = "blue_skies:pyrope_helmet"
-taches = ["item blue_skies:pyrope_helmet"]
+icone = "alexsmobs:centipede_leggings"
+kit_voulu = true
+taches = ["item alexsmobs:centipede_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "blue_skies_pyrope_sword"
-titre = "Obtenir : Épée en pyrope"
+cle = "alexsmobs_crocodile_chestplate"
+titre = "Plastron de crocodile"
 optionnel = true
-icone = "blue_skies:pyrope_sword"
-taches = ["item blue_skies:pyrope_sword"]
+icone = "alexsmobs:crocodile_chestplate"
+kit_voulu = true
+taches = ["item alexsmobs:crocodile_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "blue_skies_soulbound_spear"
-titre = "Obtenir : Lance de garde"
+cle = "alexsmobs_emu_leggings"
+titre = "Jambières d'émeu"
 optionnel = true
-icone = "blue_skies:soulbound_spear"
-taches = ["item blue_skies:soulbound_spear"]
+icone = "alexsmobs:emu_leggings"
+kit_voulu = true
+taches = ["item alexsmobs:emu_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "blue_skies_spike_shield"
-titre = "Obtenir : Bouclier spéléothème"
+cle = "alexsmobs_fedora"
+titre = "Feutre"
 optionnel = true
-icone = "blue_skies:spike_shield"
-taches = ["item blue_skies:spike_shield"]
+icone = "alexsmobs:fedora"
+kit_voulu = true
+taches = ["item alexsmobs:fedora"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "blue_skies_starlit_axe"
-titre = "Obtenir : Hache en étoilibois"
+cle = "alexsmobs_flying_fish_boots"
+titre = "Bottes de poisson volant"
 optionnel = true
-icone = "blue_skies:starlit_axe"
-taches = ["item blue_skies:starlit_axe"]
+icone = "alexsmobs:flying_fish_boots"
+kit_voulu = true
+taches = ["item alexsmobs:flying_fish_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "blue_skies_starlit_spear"
-titre = "Obtenir : Lance en étoilibois"
+cle = "alexsmobs_frontier_cap"
+titre = "Casquette de Frontiersman"
 optionnel = true
-icone = "blue_skies:starlit_spear"
-taches = ["item blue_skies:starlit_spear"]
+icone = "alexsmobs:frontier_cap"
+kit_voulu = true
+taches = ["item alexsmobs:frontier_cap"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "blue_skies_starlit_sword"
-titre = "Obtenir : Épée en étoilibois"
+cle = "alexsmobs_froststalker_helmet"
+titre = "Casque de traqueur givrant"
 optionnel = true
-icone = "blue_skies:starlit_sword"
-taches = ["item blue_skies:starlit_sword"]
+icone = "alexsmobs:froststalker_helmet"
+kit_voulu = true
+taches = ["item alexsmobs:froststalker_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "blue_skies_turquoise_stone_axe"
-titre = "Obtenir : Hache en pierre turquoise"
+cle = "alexsmobs_moose_headgear"
+titre = "Casque d'antler"
 optionnel = true
-icone = "blue_skies:turquoise_stone_axe"
-taches = ["item blue_skies:turquoise_stone_axe"]
+icone = "alexsmobs:moose_headgear"
+kit_voulu = true
+taches = ["item alexsmobs:moose_headgear"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "blue_skies_turquoise_stone_sword"
-titre = "Obtenir : Épée en pierre turquoise"
+cle = "alexsmobs_roadrunner_boots"
+titre = "Bottes de géocoucou"
 optionnel = true
-icone = "blue_skies:turquoise_stone_sword"
-taches = ["item blue_skies:turquoise_stone_sword"]
+icone = "alexsmobs:roadrunner_boots"
+kit_voulu = true
+taches = ["item alexsmobs:roadrunner_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bBlue Skies&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "cataclysm_ancient_spear"
-titre = "Obtenir : « Ancient Spear »"
+cle = "alexsmobs_rocky_chestplate"
+titre = "Plastron en carapace rocheuse"
 optionnel = true
-icone = "cataclysm:ancient_spear"
-taches = ["item cataclysm:ancient_spear"]
+icone = "alexsmobs:rocky_chestplate"
+kit_voulu = true
+taches = ["item alexsmobs:rocky_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bCataclysm&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "cataclysm_azure_sea_shield"
-titre = "Obtenir : « Azure Sea Shield »"
+cle = "alexsmobs_sombrero"
+titre = "Sombrero"
 optionnel = true
-icone = "cataclysm:azure_sea_shield"
-taches = ["item cataclysm:azure_sea_shield"]
+icone = "alexsmobs:sombrero"
+kit_voulu = true
+taches = ["item alexsmobs:sombrero"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bCataclysm&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "cataclysm_black_steel_axe"
-titre = "Obtenir : « Black Steel Axe »"
+cle = "alexsmobs_straddle_helmet"
+titre = "Coque de Straddlite"
 optionnel = true
-icone = "cataclysm:black_steel_axe"
-taches = ["item cataclysm:black_steel_axe"]
+icone = "alexsmobs:straddle_helmet"
+kit_voulu = true
+taches = ["item alexsmobs:straddle_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bCataclysm&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "cataclysm_black_steel_sword"
-titre = "Obtenir : « Black Steel Sword »"
+cle = "alexsmobs_unsettling_kimono"
+titre = "Kimono troublant"
 optionnel = true
-icone = "cataclysm:black_steel_sword"
-taches = ["item cataclysm:black_steel_sword"]
+icone = "alexsmobs:unsettling_kimono"
+kit_voulu = true
+taches = ["item alexsmobs:unsettling_kimono"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bCataclysm&r.
+Pièce d'armure de &bAlex's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
 cle = "cataclysm_bone_reptile_helmet"
-titre = "Obtenir : « Bone Reptile Helmet »"
+titre = "« Bone Reptile Helmet »"
 optionnel = true
 icone = "cataclysm:bone_reptile_helmet"
+kit_voulu = true
 taches = ["item cataclysm:bone_reptile_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bCataclysm&r.
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Bone Reptile ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "cataclysm_cursed_bow"
-titre = "Obtenir : « Cursed Bow »"
+cle = "cataclysm_bone_reptile_chestplate"
+titre = "« Bone Reptile Chestplate »"
 optionnel = true
-icone = "cataclysm:cursed_bow"
-taches = ["item cataclysm:cursed_bow"]
+icone = "cataclysm:bone_reptile_chestplate"
+kit_voulu = true
+taches = ["item cataclysm:bone_reptile_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bCataclysm&r.
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Bone Reptile ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_cataclysm_bone_reptile"
+titre = "Ensemble « Bone Reptile »"
+optionnel = true
+deps = ["cataclysm_bone_reptile_helmet", "cataclysm_bone_reptile_chestplate"]
+forme = "hexagon"
+icone = "cataclysm:bone_reptile_chestplate"
+kit_voulu = true
+taches = ["item cataclysm:bone_reptile_helmet", "item cataclysm:bone_reptile_chestplate"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Bone Reptile » (2), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "cataclysm_cursium_helmet"
-titre = "Obtenir : « Cursium Helmet »"
+titre = "« Cursium Helmet »"
 optionnel = true
 icone = "cataclysm:cursium_helmet"
+kit_voulu = true
 taches = ["item cataclysm:cursium_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bCataclysm&r.
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_cursium_chestplate"
+titre = "« Cursium Chestplate »"
+optionnel = true
+icone = "cataclysm:cursium_chestplate"
+kit_voulu = true
+taches = ["item cataclysm:cursium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_cursium_leggings"
+titre = "« Cursium Leggings »"
+optionnel = true
+icone = "cataclysm:cursium_leggings"
+kit_voulu = true
+taches = ["item cataclysm:cursium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_cursium_boots"
+titre = "« Cursium Boots »"
+optionnel = true
+icone = "cataclysm:cursium_boots"
+kit_voulu = true
+taches = ["item cataclysm:cursium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_cataclysm_cursium"
+titre = "Ensemble « Cursium »"
+optionnel = true
+deps = ["cataclysm_cursium_helmet", "cataclysm_cursium_chestplate", "cataclysm_cursium_leggings", "cataclysm_cursium_boots"]
+forme = "hexagon"
+icone = "cataclysm:cursium_chestplate"
+kit_voulu = true
+taches = ["item cataclysm:cursium_helmet", "item cataclysm:cursium_chestplate", "item cataclysm:cursium_leggings", "item cataclysm:cursium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Cursium » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "cataclysm_ignitium_helmet"
-titre = "Obtenir : « Ignitium Helmet »"
+titre = "« Ignitium Helmet »"
 optionnel = true
 icone = "cataclysm:ignitium_helmet"
+kit_voulu = true
 taches = ["item cataclysm:ignitium_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bCataclysm&r.
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_skyjade_axe"
-titre = "Obtenir : « Skyjade Axe »"
+cle = "cataclysm_ignitium_chestplate"
+titre = "« Ignitium Chestplate »"
 optionnel = true
-icone = "deep_aether:skyjade_axe"
-taches = ["item deep_aether:skyjade_axe"]
+icone = "cataclysm:ignitium_chestplate"
+kit_voulu = true
+taches = ["item cataclysm:ignitium_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_skyjade_helmet"
-titre = "Obtenir : « Skyjade Helmet »"
+cle = "cataclysm_ignitium_leggings"
+titre = "« Ignitium Leggings »"
 optionnel = true
-icone = "deep_aether:skyjade_helmet"
-taches = ["item deep_aether:skyjade_helmet"]
+icone = "cataclysm:ignitium_leggings"
+kit_voulu = true
+taches = ["item cataclysm:ignitium_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_skyjade_sword"
-titre = "Obtenir : « Skyjade Sword »"
+cle = "cataclysm_ignitium_boots"
+titre = "« Ignitium Boots »"
 optionnel = true
-icone = "deep_aether:skyjade_sword"
-taches = ["item deep_aether:skyjade_sword"]
+icone = "cataclysm:ignitium_boots"
+kit_voulu = true
+taches = ["item cataclysm:ignitium_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCataclysm&r. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_storm_bow"
-titre = "Obtenir : « Storm Bow »"
+cle = "ensemble_cataclysm_ignitium"
+titre = "Ensemble « Ignitium »"
 optionnel = true
-icone = "deep_aether:storm_bow"
-taches = ["item deep_aether:storm_bow"]
-recompenses = ["xp 1"]
+deps = ["cataclysm_ignitium_helmet", "cataclysm_ignitium_chestplate", "cataclysm_ignitium_leggings", "cataclysm_ignitium_boots"]
+forme = "hexagon"
+icone = "cataclysm:ignitium_chestplate"
+kit_voulu = true
+taches = ["item cataclysm:ignitium_helmet", "item cataclysm:ignitium_chestplate", "item cataclysm:ignitium_leggings", "item cataclysm:ignitium_boots"]
+recompenses = ["xp 5"]
 description = """
-Objet de &bDeep Aether&r.
+Toutes les pièces de l'ensemble « Ignitium » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
-cle = "deep_aether_storm_sword"
-titre = "Obtenir : « Storm Sword »"
+cle = "cataclysm_ignitium_elytra_chestplate"
+titre = "« Ignitium Elytra Chestplate »"
 optionnel = true
-icone = "deep_aether:storm_sword"
-taches = ["item deep_aether:storm_sword"]
+icone = "cataclysm:ignitium_elytra_chestplate"
+kit_voulu = true
+taches = ["item cataclysm:ignitium_elytra_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_stormforged_helmet"
-titre = "Obtenir : « Stormforged Helmet »"
+cle = "cataclysm_sticky_gloves"
+titre = "« Sticky Gloves »"
 optionnel = true
-icone = "deep_aether:stormforged_helmet"
-taches = ["item deep_aether:stormforged_helmet"]
+icone = "cataclysm:sticky_gloves"
+kit_voulu = true
+taches = ["item cataclysm:sticky_gloves"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_stratus_axe"
-titre = "Obtenir : « Stratus Axe »"
+cle = "cataclysm_sturdy_boots"
+titre = "« Sturdy Boots »"
 optionnel = true
-icone = "deep_aether:stratus_axe"
-taches = ["item deep_aether:stratus_axe"]
+icone = "cataclysm:sturdy_boots"
+kit_voulu = true
+taches = ["item cataclysm:sturdy_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_stratus_helmet"
-titre = "Obtenir : « Stratus Helmet »"
+cle = "create_cardboard_helmet"
+titre = "Casque en carton"
 optionnel = true
-icone = "deep_aether:stratus_helmet"
-taches = ["item deep_aether:stratus_helmet"]
+icone = "create:cardboard_helmet"
+kit_voulu = true
+taches = ["item create:cardboard_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_stratus_sword"
-titre = "Obtenir : « Stratus Sword »"
+cle = "create_cardboard_chestplate"
+titre = "Plastron en carton"
 optionnel = true
-icone = "deep_aether:stratus_sword"
-taches = ["item deep_aether:stratus_sword"]
+icone = "create:cardboard_chestplate"
+kit_voulu = true
+taches = ["item create:cardboard_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deep_aether_wind_shield"
-titre = "Obtenir : « Wind Shield »"
+cle = "create_cardboard_leggings"
+titre = "Jambières en carton"
 optionnel = true
-icone = "deep_aether:wind_shield"
-taches = ["item deep_aether:wind_shield"]
+icone = "create:cardboard_leggings"
+kit_voulu = true
+taches = ["item create:cardboard_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeep Aether&r.
+Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deeperdarker_resonarium_axe"
-titre = "Obtenir : « Resonarium Axe »"
+cle = "create_cardboard_boots"
+titre = "Bottes en carton"
 optionnel = true
-icone = "deeperdarker:resonarium_axe"
-taches = ["item deeperdarker:resonarium_axe"]
+icone = "create:cardboard_boots"
+kit_voulu = true
+taches = ["item create:cardboard_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeeper and Darker&r.
+Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_create_cardboard"
+titre = "Ensemble en carton"
+optionnel = true
+deps = ["create_cardboard_helmet", "create_cardboard_chestplate", "create_cardboard_leggings", "create_cardboard_boots"]
+forme = "hexagon"
+icone = "create:cardboard_chestplate"
+kit_voulu = true
+taches = ["item create:cardboard_helmet", "item create:cardboard_chestplate", "item create:cardboard_leggings", "item create:cardboard_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en carton (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "create_copper_backtank"
+titre = "Réservoir dorsal en cuivre"
+optionnel = true
+icone = "create:copper_backtank"
+kit_voulu = true
+taches = ["item create:copper_backtank"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCreate&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "create_copper_diving_helmet"
+titre = "Casque de plongée en cuivre"
+optionnel = true
+icone = "create:copper_diving_helmet"
+kit_voulu = true
+taches = ["item create:copper_diving_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble de plongée en cuivre. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "create_copper_diving_boots"
+titre = "Bottes de plongée en cuivre"
+optionnel = true
+icone = "create:copper_diving_boots"
+kit_voulu = true
+taches = ["item create:copper_diving_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble de plongée en cuivre. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_create_copper_diving"
+titre = "Ensemble de plongée en cuivre"
+optionnel = true
+deps = ["create_copper_diving_helmet", "create_copper_diving_boots"]
+forme = "hexagon"
+icone = "create:copper_diving_boots"
+kit_voulu = true
+taches = ["item create:copper_diving_helmet", "item create:copper_diving_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble de plongée en cuivre (2), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "create_netherite_backtank"
+titre = "Réservoir dorsal en Netherite"
+optionnel = true
+icone = "create:netherite_backtank"
+kit_voulu = true
+taches = ["item create:netherite_backtank"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCreate&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "create_netherite_diving_helmet"
+titre = "Casque de plongée en Netherite"
+optionnel = true
+icone = "create:netherite_diving_helmet"
+kit_voulu = true
+taches = ["item create:netherite_diving_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble de plongée en Netherite. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "create_netherite_diving_boots"
+titre = "Bottes de plongée en Netherite"
+optionnel = true
+icone = "create:netherite_diving_boots"
+kit_voulu = true
+taches = ["item create:netherite_diving_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bCreate&r. Elle fait partie de l'ensemble de plongée en Netherite. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_create_netherite_diving"
+titre = "Ensemble de plongée en Netherite"
+optionnel = true
+deps = ["create_netherite_diving_helmet", "create_netherite_diving_boots"]
+forme = "hexagon"
+icone = "create:netherite_diving_boots"
+kit_voulu = true
+taches = ["item create:netherite_diving_helmet", "item create:netherite_diving_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble de plongée en Netherite (2), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "deeperdarker_resonarium_helmet"
-titre = "Obtenir : « Resonarium Helmet »"
+titre = "« Resonarium Helmet »"
 optionnel = true
 icone = "deeperdarker:resonarium_helmet"
+kit_voulu = true
 taches = ["item deeperdarker:resonarium_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeeper and Darker&r.
+Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deeperdarker_resonarium_sword"
-titre = "Obtenir : « Resonarium Sword »"
+cle = "deeperdarker_resonarium_chestplate"
+titre = "« Resonarium Chestplate »"
 optionnel = true
-icone = "deeperdarker:resonarium_sword"
-taches = ["item deeperdarker:resonarium_sword"]
+icone = "deeperdarker:resonarium_chestplate"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeeper and Darker&r.
+Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deeperdarker_sonorous_staff"
-titre = "Obtenir : « Sonorous Staff »"
+cle = "deeperdarker_resonarium_leggings"
+titre = "« Resonarium Leggings »"
 optionnel = true
-icone = "deeperdarker:sonorous_staff"
-taches = ["item deeperdarker:sonorous_staff"]
+icone = "deeperdarker:resonarium_leggings"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeeper and Darker&r.
+Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deeperdarker_warden_axe"
-titre = "Obtenir : Hache du Warden"
+cle = "deeperdarker_resonarium_boots"
+titre = "« Resonarium Boots »"
 optionnel = true
-icone = "deeperdarker:warden_axe"
-taches = ["item deeperdarker:warden_axe"]
+icone = "deeperdarker:resonarium_boots"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeeper and Darker&r.
+Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_deeperdarker_resonarium"
+titre = "Ensemble « Resonarium »"
+optionnel = true
+deps = ["deeperdarker_resonarium_helmet", "deeperdarker_resonarium_chestplate", "deeperdarker_resonarium_leggings", "deeperdarker_resonarium_boots"]
+forme = "hexagon"
+icone = "deeperdarker:resonarium_chestplate"
+kit_voulu = true
+taches = ["item deeperdarker:resonarium_helmet", "item deeperdarker:resonarium_chestplate", "item deeperdarker:resonarium_leggings", "item deeperdarker:resonarium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Resonarium » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "deeperdarker_warden_helmet"
-titre = "Obtenir : Casque du Warden"
+titre = "Casque du Warden"
 optionnel = true
 icone = "deeperdarker:warden_helmet"
+kit_voulu = true
 taches = ["item deeperdarker:warden_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeeper and Darker&r.
+Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "deeperdarker_warden_sword"
-titre = "Obtenir : Épée du Warden"
+cle = "deeperdarker_warden_chestplate"
+titre = "Plastron du Warden"
 optionnel = true
-icone = "deeperdarker:warden_sword"
-taches = ["item deeperdarker:warden_sword"]
+icone = "deeperdarker:warden_chestplate"
+kit_voulu = true
+taches = ["item deeperdarker:warden_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bDeeper and Darker&r.
+Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "dragonloot_dragon_axe"
-titre = "Obtenir : « Dragon Axe »"
+cle = "deeperdarker_warden_leggings"
+titre = "Jambières du Warden"
 optionnel = true
-icone = "dragonloot:dragon_axe"
-taches = ["item dragonloot:dragon_axe"]
+icone = "deeperdarker:warden_leggings"
+kit_voulu = true
+taches = ["item deeperdarker:warden_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bdragonloot&r.
+Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deeperdarker_warden_boots"
+titre = "Bottes du Warden"
+optionnel = true
+icone = "deeperdarker:warden_boots"
+kit_voulu = true
+taches = ["item deeperdarker:warden_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDeeper and Darker&r. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre &7Deeper and Darker&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_deeperdarker_warden"
+titre = "Ensemble du Warden"
+optionnel = true
+deps = ["deeperdarker_warden_helmet", "deeperdarker_warden_chestplate", "deeperdarker_warden_leggings", "deeperdarker_warden_boots"]
+forme = "hexagon"
+icone = "deeperdarker:warden_chestplate"
+kit_voulu = true
+taches = ["item deeperdarker:warden_helmet", "item deeperdarker:warden_chestplate", "item deeperdarker:warden_leggings", "item deeperdarker:warden_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Warden (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "dragonloot_dragon_helmet"
-titre = "Obtenir : « Dragon Scale Helmet »"
+titre = "« Dragon Scale Helmet »"
 optionnel = true
 icone = "dragonloot:dragon_helmet"
+kit_voulu = true
 taches = ["item dragonloot:dragon_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bdragonloot&r.
+Pièce d'armure de &bDragonLoot&r. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "dragonloot_dragon_sword"
-titre = "Obtenir : « Dragon Sword »"
+cle = "dragonloot_dragon_chestplate"
+titre = "« Dragon Scale Chestplate »"
 optionnel = true
-icone = "dragonloot:dragon_sword"
-taches = ["item dragonloot:dragon_sword"]
+icone = "dragonloot:dragon_chestplate"
+kit_voulu = true
+taches = ["item dragonloot:dragon_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bdragonloot&r.
+Pièce d'armure de &bDragonLoot&r. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_leggings"
+titre = "« Dragon Scale Leggings »"
+optionnel = true
+icone = "dragonloot:dragon_leggings"
+kit_voulu = true
+taches = ["item dragonloot:dragon_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDragonLoot&r. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "dragonloot_dragon_boots"
+titre = "« Dragon Scale Boots »"
+optionnel = true
+icone = "dragonloot:dragon_boots"
+kit_voulu = true
+taches = ["item dragonloot:dragon_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDragonLoot&r. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_dragonloot_dragon"
+titre = "Ensemble « Dragon Scale »"
+optionnel = true
+deps = ["dragonloot_dragon_helmet", "dragonloot_dragon_chestplate", "dragonloot_dragon_leggings", "dragonloot_dragon_boots"]
+forme = "hexagon"
+icone = "dragonloot:dragon_chestplate"
+kit_voulu = true
+taches = ["item dragonloot:dragon_helmet", "item dragonloot:dragon_chestplate", "item dragonloot:dragon_leggings", "item dragonloot:dragon_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Dragon Scale » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "dragonloot_upgraded_dragon_chestplate"
+titre = "« Winged Dragon Scale Chestplate »"
+optionnel = true
+icone = "dragonloot:upgraded_dragon_chestplate"
+kit_voulu = true
+taches = ["item dragonloot:upgraded_dragon_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bDragonLoot&r. Ses paliers sont au chapitre &7Les dragons&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
 cle = "galosphere_sterling_helmet"
-titre = "Obtenir : « Sterling Helmet »"
+titre = "« Sterling Helmet »"
 optionnel = true
 icone = "galosphere:sterling_helmet"
+kit_voulu = true
 taches = ["item galosphere:sterling_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bGalosphere&r.
+Pièce d'armure de &bGalosphere&r. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_archevoker_helmet"
-titre = "Obtenir : Chapeau de l'Archévocateur"
+cle = "galosphere_sterling_chestplate"
+titre = "« Sterling Chestplate »"
 optionnel = true
-icone = "irons_spellbooks:archevoker_helmet"
-taches = ["item irons_spellbooks:archevoker_helmet"]
+icone = "galosphere:sterling_chestplate"
+kit_voulu = true
+taches = ["item galosphere:sterling_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bGalosphere&r. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_autoloader_crossbow"
-titre = "Obtenir : Arbalète à Chargement Automatique"
+cle = "galosphere_sterling_leggings"
+titre = "« Sterling Leggings »"
 optionnel = true
-icone = "irons_spellbooks:autoloader_crossbow"
-taches = ["item irons_spellbooks:autoloader_crossbow"]
+icone = "galosphere:sterling_leggings"
+kit_voulu = true
+taches = ["item galosphere:sterling_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bGalosphere&r. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_blood_staff"
-titre = "Obtenir : Le Bâton de Sang"
+cle = "galosphere_sterling_boots"
+titre = "« Sterling Boots »"
 optionnel = true
-icone = "irons_spellbooks:blood_staff"
-taches = ["item irons_spellbooks:blood_staff"]
+icone = "galosphere:sterling_boots"
+kit_voulu = true
+taches = ["item galosphere:sterling_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bGalosphere&r. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_cryomancer_helmet"
-titre = "Obtenir : Capuche du Cryomancien"
+cle = "ensemble_galosphere_sterling"
+titre = "Ensemble « Sterling »"
 optionnel = true
-icone = "irons_spellbooks:cryomancer_helmet"
-taches = ["item irons_spellbooks:cryomancer_helmet"]
-recompenses = ["xp 1"]
+deps = ["galosphere_sterling_helmet", "galosphere_sterling_chestplate", "galosphere_sterling_leggings", "galosphere_sterling_boots"]
+forme = "hexagon"
+icone = "galosphere:sterling_chestplate"
+kit_voulu = true
+taches = ["item galosphere:sterling_helmet", "item galosphere:sterling_chestplate", "item galosphere:sterling_leggings", "item galosphere:sterling_boots"]
+recompenses = ["xp 5"]
 description = """
-Objet de &bIron's Spells&r.
+Toutes les pièces de l'ensemble « Sterling » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
-cle = "irons_spellbooks_cultist_helmet"
-titre = "Obtenir : Capuche du Cultiste"
+cle = "minecraft_chainmail_helmet"
+titre = "Casque de mailles"
 optionnel = true
-icone = "irons_spellbooks:cultist_helmet"
-taches = ["item irons_spellbooks:cultist_helmet"]
+icone = "minecraft:chainmail_helmet"
+kit_voulu = true
+taches = ["item minecraft:chainmail_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_decrepit_scythe"
-titre = "Obtenir : Faux Décrépite"
+cle = "minecraft_chainmail_chestplate"
+titre = "Cotte de mailles"
 optionnel = true
-icone = "irons_spellbooks:decrepit_scythe"
-taches = ["item irons_spellbooks:decrepit_scythe"]
+icone = "minecraft:chainmail_chestplate"
+kit_voulu = true
+taches = ["item minecraft:chainmail_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_electromancer_helmet"
-titre = "Obtenir : Chapeau de l'Électromancien"
+cle = "minecraft_chainmail_leggings"
+titre = "Jambières de mailles"
 optionnel = true
-icone = "irons_spellbooks:electromancer_helmet"
-taches = ["item irons_spellbooks:electromancer_helmet"]
+icone = "minecraft:chainmail_leggings"
+kit_voulu = true
+taches = ["item minecraft:chainmail_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_graybeard_staff"
-titre = "Obtenir : Bâton de Barbe-Grise"
+cle = "minecraft_chainmail_boots"
+titre = "Bottes de mailles"
 optionnel = true
-icone = "irons_spellbooks:graybeard_staff"
-taches = ["item irons_spellbooks:graybeard_staff"]
+icone = "minecraft:chainmail_boots"
+kit_voulu = true
+taches = ["item minecraft:chainmail_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_ice_staff"
-titre = "Obtenir : Bâton de Glace"
+cle = "ensemble_minecraft_chainmail"
+titre = "Ensemble « Cotte de mailles »"
 optionnel = true
-icone = "irons_spellbooks:ice_staff"
-taches = ["item irons_spellbooks:ice_staff"]
-recompenses = ["xp 1"]
+deps = ["minecraft_chainmail_helmet", "minecraft_chainmail_chestplate", "minecraft_chainmail_leggings", "minecraft_chainmail_boots"]
+forme = "hexagon"
+icone = "minecraft:chainmail_chestplate"
+kit_voulu = true
+taches = ["item minecraft:chainmail_helmet", "item minecraft:chainmail_chestplate", "item minecraft:chainmail_leggings", "item minecraft:chainmail_boots"]
+recompenses = ["xp 5"]
 description = """
-Objet de &bIron's Spells&r.
+Toutes les pièces de l'ensemble « Cotte de mailles » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
-cle = "irons_spellbooks_netherite_mage_helmet"
-titre = "Obtenir : Chapeau du Mage de Guerre en Nétherite"
+cle = "minecraft_diamond_helmet"
+titre = "Casque en diamant"
 optionnel = true
-icone = "irons_spellbooks:netherite_mage_helmet"
-taches = ["item irons_spellbooks:netherite_mage_helmet"]
+icone = "minecraft:diamond_helmet"
+kit_voulu = true
+taches = ["item minecraft:diamond_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_plagued_helmet"
-titre = "Obtenir : Masque Pesteux"
+cle = "minecraft_diamond_chestplate"
+titre = "Plastron en diamant"
 optionnel = true
-icone = "irons_spellbooks:plagued_helmet"
-taches = ["item irons_spellbooks:plagued_helmet"]
+icone = "minecraft:diamond_chestplate"
+kit_voulu = true
+taches = ["item minecraft:diamond_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_priest_helmet"
-titre = "Obtenir : Masque du Prêtre"
+cle = "minecraft_diamond_leggings"
+titre = "Jambières en diamant"
 optionnel = true
-icone = "irons_spellbooks:priest_helmet"
-taches = ["item irons_spellbooks:priest_helmet"]
+icone = "minecraft:diamond_leggings"
+kit_voulu = true
+taches = ["item minecraft:diamond_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_pumpkin_helmet"
-titre = "Obtenir : Chapeau d'Épouvantail"
+cle = "minecraft_diamond_boots"
+titre = "Bottes en diamant"
 optionnel = true
-icone = "irons_spellbooks:pumpkin_helmet"
-taches = ["item irons_spellbooks:pumpkin_helmet"]
+icone = "minecraft:diamond_boots"
+kit_voulu = true
+taches = ["item minecraft:diamond_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_pyrium_staff"
-titre = "Obtenir : Bâton de Pyrium"
+cle = "ensemble_minecraft_diamond"
+titre = "Ensemble en diamant"
 optionnel = true
-icone = "irons_spellbooks:pyrium_staff"
-taches = ["item irons_spellbooks:pyrium_staff"]
-recompenses = ["xp 1"]
+deps = ["minecraft_diamond_helmet", "minecraft_diamond_chestplate", "minecraft_diamond_leggings", "minecraft_diamond_boots"]
+forme = "hexagon"
+icone = "minecraft:diamond_chestplate"
+kit_voulu = true
+taches = ["item minecraft:diamond_helmet", "item minecraft:diamond_chestplate", "item minecraft:diamond_leggings", "item minecraft:diamond_boots"]
+recompenses = ["xp 5"]
 description = """
-Objet de &bIron's Spells&r.
+Toutes les pièces de l'ensemble en diamant (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
-cle = "irons_spellbooks_pyromancer_helmet"
-titre = "Obtenir : Chapeau du Pyromancien"
+cle = "minecraft_golden_helmet"
+titre = "Casque en or"
 optionnel = true
-icone = "irons_spellbooks:pyromancer_helmet"
-taches = ["item irons_spellbooks:pyromancer_helmet"]
+icone = "minecraft:golden_helmet"
+kit_voulu = true
+taches = ["item minecraft:golden_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_shadowwalker_helmet"
-titre = "Obtenir : Masque du Marchombre"
+cle = "minecraft_golden_chestplate"
+titre = "Plastron en or"
 optionnel = true
-icone = "irons_spellbooks:shadowwalker_helmet"
-taches = ["item irons_spellbooks:shadowwalker_helmet"]
+icone = "minecraft:golden_chestplate"
+kit_voulu = true
+taches = ["item minecraft:golden_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_wandering_magician_helmet"
-titre = "Obtenir : Capuche du Magicien Errant"
+cle = "minecraft_golden_leggings"
+titre = "Jambières en or"
 optionnel = true
-icone = "irons_spellbooks:wandering_magician_helmet"
-taches = ["item irons_spellbooks:wandering_magician_helmet"]
+icone = "minecraft:golden_leggings"
+kit_voulu = true
+taches = ["item minecraft:golden_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "irons_spellbooks_wizard_helmet"
-titre = "Obtenir : Casque du Sorcier"
+cle = "minecraft_golden_boots"
+titre = "Bottes en or"
 optionnel = true
-icone = "irons_spellbooks:wizard_helmet"
-taches = ["item irons_spellbooks:wizard_helmet"]
+icone = "minecraft:golden_boots"
+kit_voulu = true
+taches = ["item minecraft:golden_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bIron's Spells&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "mowziesmobs_naga_fang_dagger"
-titre = "Obtenir : Dague en dent de naga"
+cle = "ensemble_minecraft_golden"
+titre = "Ensemble en or"
 optionnel = true
-icone = "mowziesmobs:naga_fang_dagger"
-taches = ["item mowziesmobs:naga_fang_dagger"]
-recompenses = ["xp 1"]
+deps = ["minecraft_golden_helmet", "minecraft_golden_chestplate", "minecraft_golden_leggings", "minecraft_golden_boots"]
+forme = "hexagon"
+icone = "minecraft:golden_chestplate"
+kit_voulu = true
+taches = ["item minecraft:golden_helmet", "item minecraft:golden_chestplate", "item minecraft:golden_leggings", "item minecraft:golden_boots"]
+recompenses = ["xp 5"]
 description = """
-Objet de &bMowzie's Mobs&r.
+Toutes les pièces de l'ensemble en or (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
-cle = "mowziesmobs_sculptor_staff"
-titre = "Obtenir : « Geomancer Staff »"
+cle = "minecraft_iron_helmet"
+titre = "Casque en fer"
 optionnel = true
-icone = "mowziesmobs:sculptor_staff"
-taches = ["item mowziesmobs:sculptor_staff"]
+icone = "minecraft:iron_helmet"
+kit_voulu = true
+taches = ["item minecraft:iron_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bMowzie's Mobs&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "mowziesmobs_wrought_axe"
-titre = "Obtenir : Hache des milles métaux"
+cle = "minecraft_iron_chestplate"
+titre = "Plastron en fer"
 optionnel = true
-icone = "mowziesmobs:wrought_axe"
-taches = ["item mowziesmobs:wrought_axe"]
+icone = "minecraft:iron_chestplate"
+kit_voulu = true
+taches = ["item minecraft:iron_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bMowzie's Mobs&r.
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_iron_leggings"
+titre = "Jambières en fer"
+optionnel = true
+icone = "minecraft:iron_leggings"
+kit_voulu = true
+taches = ["item minecraft:iron_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_iron_boots"
+titre = "Bottes en fer"
+optionnel = true
+icone = "minecraft:iron_boots"
+kit_voulu = true
+taches = ["item minecraft:iron_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_minecraft_iron"
+titre = "Ensemble en fer"
+optionnel = true
+deps = ["minecraft_iron_helmet", "minecraft_iron_chestplate", "minecraft_iron_leggings", "minecraft_iron_boots"]
+forme = "hexagon"
+icone = "minecraft:iron_chestplate"
+kit_voulu = true
+taches = ["item minecraft:iron_helmet", "item minecraft:iron_chestplate", "item minecraft:iron_leggings", "item minecraft:iron_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en fer (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "minecraft_leather_helmet"
+titre = "Chapeau en cuir"
+optionnel = true
+icone = "minecraft:leather_helmet"
+kit_voulu = true
+taches = ["item minecraft:leather_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_leather_chestplate"
+titre = "Tunique en cuir"
+optionnel = true
+icone = "minecraft:leather_chestplate"
+kit_voulu = true
+taches = ["item minecraft:leather_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_leather_leggings"
+titre = "Pantalon en cuir"
+optionnel = true
+icone = "minecraft:leather_leggings"
+kit_voulu = true
+taches = ["item minecraft:leather_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_leather_boots"
+titre = "Bottes en cuir"
+optionnel = true
+icone = "minecraft:leather_boots"
+kit_voulu = true
+taches = ["item minecraft:leather_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_minecraft_leather"
+titre = "Ensemble en cuir"
+optionnel = true
+deps = ["minecraft_leather_helmet", "minecraft_leather_chestplate", "minecraft_leather_leggings", "minecraft_leather_boots"]
+forme = "hexagon"
+icone = "minecraft:leather_chestplate"
+kit_voulu = true
+taches = ["item minecraft:leather_helmet", "item minecraft:leather_chestplate", "item minecraft:leather_leggings", "item minecraft:leather_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en cuir (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_helmet"
+titre = "Casque en netherite"
+optionnel = true
+icone = "minecraft:netherite_helmet"
+kit_voulu = true
+taches = ["item minecraft:netherite_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_chestplate"
+titre = "Plastron en netherite"
+optionnel = true
+icone = "minecraft:netherite_chestplate"
+kit_voulu = true
+taches = ["item minecraft:netherite_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_leggings"
+titre = "Jambières en netherite"
+optionnel = true
+icone = "minecraft:netherite_leggings"
+kit_voulu = true
+taches = ["item minecraft:netherite_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "minecraft_netherite_boots"
+titre = "Bottes en netherite"
+optionnel = true
+icone = "minecraft:netherite_boots"
+kit_voulu = true
+taches = ["item minecraft:netherite_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_minecraft_netherite"
+titre = "Ensemble en netherite"
+optionnel = true
+deps = ["minecraft_netherite_helmet", "minecraft_netherite_chestplate", "minecraft_netherite_leggings", "minecraft_netherite_boots"]
+forme = "hexagon"
+icone = "minecraft:netherite_chestplate"
+kit_voulu = true
+taches = ["item minecraft:netherite_helmet", "item minecraft:netherite_chestplate", "item minecraft:netherite_leggings", "item minecraft:netherite_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en netherite (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "minecraft_turtle_helmet"
+titre = "Carapace de tortue"
+optionnel = true
+icone = "minecraft:turtle_helmet"
+kit_voulu = true
+taches = ["item minecraft:turtle_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMinecraft&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
 cle = "mowziesmobs_wrought_helmet"
-titre = "Obtenir : Casque de Chevalier Forgé"
+titre = "Casque de Chevalier Forgé"
 optionnel = true
 icone = "mowziesmobs:wrought_helmet"
+kit_voulu = true
 taches = ["item mowziesmobs:wrought_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bMowzie's Mobs&r.
+Pièce d'armure de &bMowzie's Mobs&r. Ses paliers sont au chapitre &7Mowzie's Mobs&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_awful_dagger"
-titre = "Obtenir : « §cAwful Dagger »"
+cle = "mysticalagriculture_awakened_supremium_helmet"
+titre = "Casque en Awakened Supremium"
 optionnel = true
-icone = "stalwart_dungeons:awful_dagger"
-taches = ["item stalwart_dungeons:awful_dagger"]
+icone = "mysticalagriculture:awakened_supremium_helmet"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_chestplate"
+titre = "Plastron en Awakened Supremium"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_leggings"
+titre = "Jambières en Awakened Supremium"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_leggings"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_awakened_supremium_boots"
+titre = "Bottes en Awakened Supremium"
+optionnel = true
+icone = "mysticalagriculture:awakened_supremium_boots"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_mysticalagriculture_awakened_supremium"
+titre = "Ensemble en Awakened Supremium"
+optionnel = true
+deps = ["mysticalagriculture_awakened_supremium_helmet", "mysticalagriculture_awakened_supremium_chestplate", "mysticalagriculture_awakened_supremium_leggings", "mysticalagriculture_awakened_supremium_boots"]
+forme = "hexagon"
+icone = "mysticalagriculture:awakened_supremium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:awakened_supremium_helmet", "item mysticalagriculture:awakened_supremium_chestplate", "item mysticalagriculture:awakened_supremium_leggings", "item mysticalagriculture:awakened_supremium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en Awakened Supremium (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_helmet"
+titre = "Casque en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_helmet"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_chestplate"
+titre = "Plastron en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_leggings"
+titre = "Jambières en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_leggings"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_imperium_boots"
+titre = "Bottes en Imperium"
+optionnel = true
+icone = "mysticalagriculture:imperium_boots"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_mysticalagriculture_imperium"
+titre = "Ensemble en Imperium"
+optionnel = true
+deps = ["mysticalagriculture_imperium_helmet", "mysticalagriculture_imperium_chestplate", "mysticalagriculture_imperium_leggings", "mysticalagriculture_imperium_boots"]
+forme = "hexagon"
+icone = "mysticalagriculture:imperium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:imperium_helmet", "item mysticalagriculture:imperium_chestplate", "item mysticalagriculture:imperium_leggings", "item mysticalagriculture:imperium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en Imperium (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_helmet"
+titre = "Casque en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_helmet"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_chestplate"
+titre = "Plastron en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_leggings"
+titre = "Jambières en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_leggings"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_boots"
+titre = "Bottes en Inferium"
+optionnel = true
+icone = "mysticalagriculture:inferium_boots"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_mysticalagriculture_inferium"
+titre = "Ensemble en Inferium"
+optionnel = true
+deps = ["mysticalagriculture_inferium_helmet", "mysticalagriculture_inferium_chestplate", "mysticalagriculture_inferium_leggings", "mysticalagriculture_inferium_boots"]
+forme = "hexagon"
+icone = "mysticalagriculture:inferium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:inferium_helmet", "item mysticalagriculture:inferium_chestplate", "item mysticalagriculture:inferium_leggings", "item mysticalagriculture:inferium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en Inferium (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_helmet"
+titre = "Casque en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_helmet"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_chestplate"
+titre = "Plastron en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_leggings"
+titre = "Jambières en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_leggings"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prudentium_boots"
+titre = "Bottes en Prudentium"
+optionnel = true
+icone = "mysticalagriculture:prudentium_boots"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_mysticalagriculture_prudentium"
+titre = "Ensemble en Prudentium"
+optionnel = true
+deps = ["mysticalagriculture_prudentium_helmet", "mysticalagriculture_prudentium_chestplate", "mysticalagriculture_prudentium_leggings", "mysticalagriculture_prudentium_boots"]
+forme = "hexagon"
+icone = "mysticalagriculture:prudentium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:prudentium_helmet", "item mysticalagriculture:prudentium_chestplate", "item mysticalagriculture:prudentium_leggings", "item mysticalagriculture:prudentium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en Prudentium (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_helmet"
+titre = "Casque en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_helmet"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_chestplate"
+titre = "Plastron en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_leggings"
+titre = "Jambières en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_leggings"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_supremium_boots"
+titre = "Bottes en Supremium"
+optionnel = true
+icone = "mysticalagriculture:supremium_boots"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_mysticalagriculture_supremium"
+titre = "Ensemble en Supremium"
+optionnel = true
+deps = ["mysticalagriculture_supremium_helmet", "mysticalagriculture_supremium_chestplate", "mysticalagriculture_supremium_leggings", "mysticalagriculture_supremium_boots"]
+forme = "hexagon"
+icone = "mysticalagriculture:supremium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:supremium_helmet", "item mysticalagriculture:supremium_chestplate", "item mysticalagriculture:supremium_leggings", "item mysticalagriculture:supremium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en Supremium (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_helmet"
+titre = "Casque en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_helmet"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_chestplate"
+titre = "Plastron en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_leggings"
+titre = "Jambières en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_leggings"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_tertium_boots"
+titre = "Bottes en Tertium"
+optionnel = true
+icone = "mysticalagriculture:tertium_boots"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bMystical Agriculture&r. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre &7Mystical Agriculture&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_mysticalagriculture_tertium"
+titre = "Ensemble en Tertium"
+optionnel = true
+deps = ["mysticalagriculture_tertium_helmet", "mysticalagriculture_tertium_chestplate", "mysticalagriculture_tertium_leggings", "mysticalagriculture_tertium_boots"]
+forme = "hexagon"
+icone = "mysticalagriculture:tertium_chestplate"
+kit_voulu = true
+taches = ["item mysticalagriculture:tertium_helmet", "item mysticalagriculture:tertium_chestplate", "item mysticalagriculture:tertium_leggings", "item mysticalagriculture:tertium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble en Tertium (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "quark_forgotten_hat"
+titre = "Chapeau d'Oublié"
+optionnel = true
+icone = "quark:forgotten_hat"
+kit_voulu = true
+taches = ["item quark:forgotten_hat"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bQuark&r. À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
 cle = "stalwart_dungeons_chorundum_armor_helmet"
-titre = "Obtenir : « §eChorundum Helmet »"
+titre = "« §eChorundum Helmet »"
 optionnel = true
 icone = "stalwart_dungeons:chorundum_armor_helmet"
+kit_voulu = true
 taches = ["item stalwart_dungeons:chorundum_armor_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_chorundum_axe"
-titre = "Obtenir : « §eChorundum Axe »"
+cle = "stalwart_dungeons_chorundum_armor_chestplate"
+titre = "« §eChorundum Chestplate »"
 optionnel = true
-icone = "stalwart_dungeons:chorundum_axe"
-taches = ["item stalwart_dungeons:chorundum_axe"]
+icone = "stalwart_dungeons:chorundum_armor_chestplate"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_armor_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_chorundum_shield"
-titre = "Obtenir : « §eChorundum Shield »"
+cle = "stalwart_dungeons_chorundum_armor_leggings"
+titre = "« §eChorundum Leggings »"
 optionnel = true
-icone = "stalwart_dungeons:chorundum_shield"
-taches = ["item stalwart_dungeons:chorundum_shield"]
+icone = "stalwart_dungeons:chorundum_armor_leggings"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_armor_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_chorundum_sword"
-titre = "Obtenir : « §eChorundum Sword »"
+cle = "stalwart_dungeons_chorundum_armor_boots"
+titre = "« §eChorundum Boots »"
 optionnel = true
-icone = "stalwart_dungeons:chorundum_sword"
-taches = ["item stalwart_dungeons:chorundum_sword"]
+icone = "stalwart_dungeons:chorundum_armor_boots"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_armor_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_diamond_hammer"
-titre = "Obtenir : « Diamond Hammer »"
+cle = "ensemble_stalwart_dungeons_chorundum_armor"
+titre = "Ensemble « §eChorundum »"
 optionnel = true
-icone = "stalwart_dungeons:diamond_hammer"
-taches = ["item stalwart_dungeons:diamond_hammer"]
-recompenses = ["xp 1"]
+deps = ["stalwart_dungeons_chorundum_armor_helmet", "stalwart_dungeons_chorundum_armor_chestplate", "stalwart_dungeons_chorundum_armor_leggings", "stalwart_dungeons_chorundum_armor_boots"]
+forme = "hexagon"
+icone = "stalwart_dungeons:chorundum_armor_chestplate"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_armor_helmet", "item stalwart_dungeons:chorundum_armor_chestplate", "item stalwart_dungeons:chorundum_armor_leggings", "item stalwart_dungeons:chorundum_armor_boots"]
+recompenses = ["xp 5"]
 description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "stalwart_dungeons_golden_hammer"
-titre = "Obtenir : « Golden Hammer »"
-optionnel = true
-icone = "stalwart_dungeons:golden_hammer"
-taches = ["item stalwart_dungeons:golden_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "stalwart_dungeons_iron_hammer"
-titre = "Obtenir : « Iron Hammer »"
-optionnel = true
-icone = "stalwart_dungeons:iron_hammer"
-taches = ["item stalwart_dungeons:iron_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "stalwart_dungeons_nether_hammer"
-titre = "Obtenir : « §cNether Hammer »"
-optionnel = true
-icone = "stalwart_dungeons:nether_hammer"
-taches = ["item stalwart_dungeons:nether_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "stalwart_dungeons_netherite_hammer"
-titre = "Obtenir : « Netherite Hammer »"
-optionnel = true
-icone = "stalwart_dungeons:netherite_hammer"
-taches = ["item stalwart_dungeons:netherite_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "stalwart_dungeons_stone_hammer"
-titre = "Obtenir : « Stone Hammer »"
-optionnel = true
-icone = "stalwart_dungeons:stone_hammer"
-taches = ["item stalwart_dungeons:stone_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "stalwart_dungeons_tungsten_axe"
-titre = "Obtenir : « §eTungsten Axe »"
-optionnel = true
-icone = "stalwart_dungeons:tungsten_axe"
-taches = ["item stalwart_dungeons:tungsten_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "stalwart_dungeons_tungsten_hammer"
-titre = "Obtenir : « §eTungsten Hammer »"
-optionnel = true
-icone = "stalwart_dungeons:tungsten_hammer"
-taches = ["item stalwart_dungeons:tungsten_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bStalwart Dungeons&r.
+Toutes les pièces de l'ensemble « §eChorundum » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
 cle = "stalwart_dungeons_tungsten_helmet"
-titre = "Obtenir : « §eTungsten Helmet »"
+titre = "« §eTungsten Helmet »"
 optionnel = true
 icone = "stalwart_dungeons:tungsten_helmet"
+kit_voulu = true
 taches = ["item stalwart_dungeons:tungsten_helmet"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_tungsten_shield"
-titre = "Obtenir : « §eTungsten Shield »"
+cle = "stalwart_dungeons_tungsten_chestplate"
+titre = "« §eTungsten Chestplate »"
 optionnel = true
-icone = "stalwart_dungeons:tungsten_shield"
-taches = ["item stalwart_dungeons:tungsten_shield"]
+icone = "stalwart_dungeons:tungsten_chestplate"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_chestplate"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_tungsten_sword"
-titre = "Obtenir : « §eTungsten Sword »"
+cle = "stalwart_dungeons_tungsten_leggings"
+titre = "« §eTungsten Leggings »"
 optionnel = true
-icone = "stalwart_dungeons:tungsten_sword"
-taches = ["item stalwart_dungeons:tungsten_sword"]
+icone = "stalwart_dungeons:tungsten_leggings"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_leggings"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_warted_tungsten_helmet"
-titre = "Obtenir : « §eWarted Helmet »"
+cle = "stalwart_dungeons_tungsten_boots"
+titre = "« §eTungsten Boots »"
 optionnel = true
-icone = "stalwart_dungeons:warted_tungsten_helmet"
-taches = ["item stalwart_dungeons:warted_tungsten_helmet"]
+icone = "stalwart_dungeons:tungsten_boots"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_boots"]
 recompenses = ["xp 1"]
 description = """
-Objet de &bStalwart Dungeons&r.
+Pièce d'armure de &bStalwart Dungeons&r. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée.
 """
 
 [[quete]]
-cle = "stalwart_dungeons_warted_tungsten_shield"
-titre = "Obtenir : « §eWarted Shield »"
+cle = "ensemble_stalwart_dungeons_tungsten"
+titre = "Ensemble « §eTungsten »"
 optionnel = true
-icone = "stalwart_dungeons:warted_tungsten_shield"
-taches = ["item stalwart_dungeons:warted_tungsten_shield"]
-recompenses = ["xp 1"]
+deps = ["stalwart_dungeons_tungsten_helmet", "stalwart_dungeons_tungsten_chestplate", "stalwart_dungeons_tungsten_leggings", "stalwart_dungeons_tungsten_boots"]
+forme = "hexagon"
+icone = "stalwart_dungeons:tungsten_chestplate"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_helmet", "item stalwart_dungeons:tungsten_chestplate", "item stalwart_dungeons:tungsten_leggings", "item stalwart_dungeons:tungsten_boots"]
+recompenses = ["xp 5"]
 description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "stalwart_dungeons_wooden_hammer"
-titre = "Obtenir : « Wooden Hammer »"
-optionnel = true
-icone = "stalwart_dungeons:wooden_hammer"
-taches = ["item stalwart_dungeons:wooden_hammer"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bStalwart Dungeons&r.
-"""
-
-[[quete]]
-cle = "twilightforest_arctic_helmet"
-titre = "Obtenir : Capuche arctique"
-optionnel = true
-icone = "twilightforest:arctic_helmet"
-taches = ["item twilightforest:arctic_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_diamond_minotaur_axe"
-titre = "Obtenir : Hache en diamant du Minotaure"
-optionnel = true
-icone = "twilightforest:diamond_minotaur_axe"
-taches = ["item twilightforest:diamond_minotaur_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_ender_bow"
-titre = "Obtenir : Arc de l'Ender"
-optionnel = true
-icone = "twilightforest:ender_bow"
-taches = ["item twilightforest:ender_bow"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_fiery_helmet"
-titre = "Obtenir : Casque ardent"
-optionnel = true
-icone = "twilightforest:fiery_helmet"
-taches = ["item twilightforest:fiery_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_fiery_sword"
-titre = "Obtenir : Épée ardente"
-optionnel = true
-icone = "twilightforest:fiery_sword"
-taches = ["item twilightforest:fiery_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_giant_sword"
-titre = "Obtenir : Épée de géant"
-optionnel = true
-icone = "twilightforest:giant_sword"
-taches = ["item twilightforest:giant_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_glass_sword"
-titre = "Obtenir : Épée en verre"
-optionnel = true
-icone = "twilightforest:glass_sword"
-taches = ["item twilightforest:glass_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_ice_bow"
-titre = "Obtenir : Arc gelé"
-optionnel = true
-icone = "twilightforest:ice_bow"
-taches = ["item twilightforest:ice_bow"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_ice_sword"
-titre = "Obtenir : Épée gelée"
-optionnel = true
-icone = "twilightforest:ice_sword"
-taches = ["item twilightforest:ice_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_ironwood_axe"
-titre = "Obtenir : Hache en bois de fer"
-optionnel = true
-icone = "twilightforest:ironwood_axe"
-taches = ["item twilightforest:ironwood_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_ironwood_helmet"
-titre = "Obtenir : Casque en bois de fer"
-optionnel = true
-icone = "twilightforest:ironwood_helmet"
-taches = ["item twilightforest:ironwood_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_ironwood_sword"
-titre = "Obtenir : Épée en bois de fer"
-optionnel = true
-icone = "twilightforest:ironwood_sword"
-taches = ["item twilightforest:ironwood_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_knightmetal_axe"
-titre = "Obtenir : Hache chevaleresque"
-optionnel = true
-icone = "twilightforest:knightmetal_axe"
-taches = ["item twilightforest:knightmetal_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_knightmetal_helmet"
-titre = "Obtenir : Casque chevaleresque"
-optionnel = true
-icone = "twilightforest:knightmetal_helmet"
-taches = ["item twilightforest:knightmetal_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_knightmetal_shield"
-titre = "Obtenir : Bouclier chevaleresque"
-optionnel = true
-icone = "twilightforest:knightmetal_shield"
-taches = ["item twilightforest:knightmetal_shield"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_knightmetal_sword"
-titre = "Obtenir : Épée chevaleresque"
-optionnel = true
-icone = "twilightforest:knightmetal_sword"
-taches = ["item twilightforest:knightmetal_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_phantom_helmet"
-titre = "Obtenir : Casque de fantôme"
-optionnel = true
-icone = "twilightforest:phantom_helmet"
-taches = ["item twilightforest:phantom_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_seeker_bow"
-titre = "Obtenir : Arc du chercheur"
-optionnel = true
-icone = "twilightforest:seeker_bow"
-taches = ["item twilightforest:seeker_bow"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_steeleaf_axe"
-titre = "Obtenir : Hache en Stealeaf"
-optionnel = true
-icone = "twilightforest:steeleaf_axe"
-taches = ["item twilightforest:steeleaf_axe"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_steeleaf_helmet"
-titre = "Obtenir : Casque en Stealeaf"
-optionnel = true
-icone = "twilightforest:steeleaf_helmet"
-taches = ["item twilightforest:steeleaf_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_steeleaf_sword"
-titre = "Obtenir : Épée en Stealeaf"
-optionnel = true
-icone = "twilightforest:steeleaf_sword"
-taches = ["item twilightforest:steeleaf_sword"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_triple_bow"
-titre = "Obtenir : « Tri-Bow »"
-optionnel = true
-icone = "twilightforest:triple_bow"
-taches = ["item twilightforest:triple_bow"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
-"""
-
-[[quete]]
-cle = "twilightforest_yeti_helmet"
-titre = "Obtenir : Casque orné de Yéti"
-optionnel = true
-icone = "twilightforest:yeti_helmet"
-taches = ["item twilightforest:yeti_helmet"]
-recompenses = ["xp 1"]
-description = """
-Objet de &bTwilight Forest&r.
+Toutes les pièces de l'ensemble « §eTungsten » (4), ensemble dans l'inventaire.
 """
 
 [[quete]]
@@ -2269,11 +1955,26 @@ cle = "complet"
 titre = "&7Tout le chapitre"
 optionnel = true
 taille = 1.5
-icone = "cataclysm:ignitium_helmet"
+icone = "minecraft:netherite_chestplate"
 forme = "gear"
-taches = ["checkmark Chapitre complet"]
+taches = ["checkmark Collection complète"]
 recompenses = ["xp 20"]
-deps = ["advancednetherite_netherite_diamond_axe", "advancednetherite_netherite_diamond_helmet", "advancednetherite_netherite_diamond_sword", "advancednetherite_netherite_emerald_axe", "advancednetherite_netherite_emerald_helmet", "advancednetherite_netherite_emerald_sword", "advancednetherite_netherite_gold_axe", "advancednetherite_netherite_gold_helmet", "advancednetherite_netherite_gold_sword", "advancednetherite_netherite_iron_axe", "advancednetherite_netherite_iron_helmet", "advancednetherite_netherite_iron_sword", "aether_candy_cane_sword", "aether_cloud_staff", "aether_flaming_sword", "aether_gravitite_axe", "aether_gravitite_helmet", "aether_gravitite_sword", "aether_holy_sword", "aether_holystone_axe", "aether_holystone_sword", "aether_lightning_sword", "aether_nature_staff", "aether_neptune_helmet", "aether_phoenix_bow", "aether_phoenix_helmet", "aether_skyroot_axe", "aether_skyroot_sword", "aether_valkyrie_axe", "aether_valkyrie_helmet", "aether_valkyrie_lance", "aether_zanite_axe", "aether_zanite_helmet", "aether_zanite_sword", "aether_redux_infused_veridium_axe", "aether_redux_infused_veridium_sword", "aether_redux_snailshell_shield", "aether_redux_subzero_crossbow", "aether_redux_veridium_axe", "aether_redux_veridium_sword", "betterend_aeternium_axe", "betterend_aeternium_hammer", "betterend_aeternium_helmet", "betterend_aeternium_sword", "betterend_crystalite_helmet", "betterend_diamond_hammer", "betterend_golden_hammer", "betterend_iron_hammer", "betterend_netherite_hammer", "betterend_terminite_axe", "betterend_terminite_hammer", "betterend_terminite_helmet", "betterend_terminite_sword", "betterend_thallasium_axe", "betterend_thallasium_hammer", "betterend_thallasium_helmet", "betterend_thallasium_sword", "betternether_cincinnasite_axe", "betternether_cincinnasite_helmet", "betternether_cincinnasite_sword", "betternether_flaming_ruby_axe", "betternether_flaming_ruby_helmet", "betternether_flaming_ruby_sword", "betternether_nether_ruby_axe", "betternether_nether_ruby_helmet", "betternether_nether_ruby_sword", "blue_skies_aquite_axe", "blue_skies_aquite_helmet", "blue_skies_aquite_sword", "blue_skies_bluebright_axe", "blue_skies_bluebright_spear", "blue_skies_bluebright_sword", "blue_skies_charoite_axe", "blue_skies_charoite_helmet", "blue_skies_charoite_sword", "blue_skies_comet_axe", "blue_skies_comet_spear", "blue_skies_comet_sword", "blue_skies_crushing_hammer", "blue_skies_different_sword", "blue_skies_diopside_axe", "blue_skies_diopside_helmet", "blue_skies_diopside_sword", "blue_skies_dusk_axe", "blue_skies_dusk_spear", "blue_skies_dusk_sword", "blue_skies_frostbright_axe", "blue_skies_frostbright_spear", "blue_skies_frostbright_sword", "blue_skies_horizonite_axe", "blue_skies_horizonite_helmet", "blue_skies_horizonite_sword", "blue_skies_lunar_axe", "blue_skies_lunar_spear", "blue_skies_lunar_stone_axe", "blue_skies_lunar_stone_sword", "blue_skies_lunar_sword", "blue_skies_maple_axe", "blue_skies_maple_spear", "blue_skies_maple_sword", "blue_skies_moonstone_shield", "blue_skies_pyrope_axe", "blue_skies_pyrope_helmet", "blue_skies_pyrope_sword", "blue_skies_soulbound_spear", "blue_skies_spike_shield", "blue_skies_starlit_axe", "blue_skies_starlit_spear", "blue_skies_starlit_sword", "blue_skies_turquoise_stone_axe", "blue_skies_turquoise_stone_sword", "cataclysm_ancient_spear", "cataclysm_azure_sea_shield", "cataclysm_black_steel_axe", "cataclysm_black_steel_sword", "cataclysm_bone_reptile_helmet", "cataclysm_cursed_bow", "cataclysm_cursium_helmet", "cataclysm_ignitium_helmet", "deep_aether_skyjade_axe", "deep_aether_skyjade_helmet", "deep_aether_skyjade_sword", "deep_aether_storm_bow", "deep_aether_storm_sword", "deep_aether_stormforged_helmet", "deep_aether_stratus_axe", "deep_aether_stratus_helmet", "deep_aether_stratus_sword", "deep_aether_wind_shield", "deeperdarker_resonarium_axe", "deeperdarker_resonarium_helmet", "deeperdarker_resonarium_sword", "deeperdarker_sonorous_staff", "deeperdarker_warden_axe", "deeperdarker_warden_helmet", "deeperdarker_warden_sword", "dragonloot_dragon_axe", "dragonloot_dragon_helmet", "dragonloot_dragon_sword", "galosphere_sterling_helmet", "irons_spellbooks_archevoker_helmet", "irons_spellbooks_autoloader_crossbow", "irons_spellbooks_blood_staff", "irons_spellbooks_cryomancer_helmet", "irons_spellbooks_cultist_helmet", "irons_spellbooks_decrepit_scythe", "irons_spellbooks_electromancer_helmet", "irons_spellbooks_graybeard_staff", "irons_spellbooks_ice_staff", "irons_spellbooks_netherite_mage_helmet", "irons_spellbooks_plagued_helmet", "irons_spellbooks_priest_helmet", "irons_spellbooks_pumpkin_helmet", "irons_spellbooks_pyrium_staff", "irons_spellbooks_pyromancer_helmet", "irons_spellbooks_shadowwalker_helmet", "irons_spellbooks_wandering_magician_helmet", "irons_spellbooks_wizard_helmet", "mowziesmobs_naga_fang_dagger", "mowziesmobs_sculptor_staff", "mowziesmobs_wrought_axe", "mowziesmobs_wrought_helmet", "stalwart_dungeons_awful_dagger", "stalwart_dungeons_chorundum_armor_helmet", "stalwart_dungeons_chorundum_axe", "stalwart_dungeons_chorundum_shield", "stalwart_dungeons_chorundum_sword", "stalwart_dungeons_diamond_hammer", "stalwart_dungeons_golden_hammer", "stalwart_dungeons_iron_hammer", "stalwart_dungeons_nether_hammer", "stalwart_dungeons_netherite_hammer", "stalwart_dungeons_stone_hammer", "stalwart_dungeons_tungsten_axe", "stalwart_dungeons_tungsten_hammer", "stalwart_dungeons_tungsten_helmet", "stalwart_dungeons_tungsten_shield", "stalwart_dungeons_tungsten_sword", "stalwart_dungeons_warted_tungsten_helmet", "stalwart_dungeons_warted_tungsten_shield", "stalwart_dungeons_wooden_hammer", "twilightforest_arctic_helmet", "twilightforest_diamond_minotaur_axe", "twilightforest_ender_bow", "twilightforest_fiery_helmet", "twilightforest_fiery_sword", "twilightforest_giant_sword", "twilightforest_glass_sword", "twilightforest_ice_bow", "twilightforest_ice_sword", "twilightforest_ironwood_axe", "twilightforest_ironwood_helmet", "twilightforest_ironwood_sword", "twilightforest_knightmetal_axe", "twilightforest_knightmetal_helmet", "twilightforest_knightmetal_shield", "twilightforest_knightmetal_sword", "twilightforest_phantom_helmet", "twilightforest_seeker_bow", "twilightforest_steeleaf_axe", "twilightforest_steeleaf_helmet", "twilightforest_steeleaf_sword", "twilightforest_triple_bow", "twilightforest_yeti_helmet"]
+deps = ["advancednetherite_netherite_diamond_helmet", "advancednetherite_netherite_diamond_chestplate", "advancednetherite_netherite_diamond_leggings", "advancednetherite_netherite_diamond_boots", "ensemble_advancednetherite_netherite_diamond", "advancednetherite_netherite_emerald_helmet", "advancednetherite_netherite_emerald_chestplate", "advancednetherite_netherite_emerald_leggings", "advancednetherite_netherite_emerald_boots", "ensemble_advancednetherite_netherite_emerald", "advancednetherite_netherite_gold_helmet", "advancednetherite_netherite_gold_chestplate", "advancednetherite_netherite_gold_leggings", "advancednetherite_netherite_gold_boots", "ensemble_advancednetherite_netherite_gold", "advancednetherite_netherite_iron_helmet", "advancednetherite_netherite_iron_chestplate", "advancednetherite_netherite_iron_leggings", "advancednetherite_netherite_iron_boots", "ensemble_advancednetherite_netherite_iron", "alexsmobs_centipede_leggings", "alexsmobs_crocodile_chestplate", "alexsmobs_emu_leggings", "alexsmobs_fedora", "alexsmobs_flying_fish_boots", "alexsmobs_frontier_cap", "alexsmobs_froststalker_helmet", "alexsmobs_moose_headgear", "alexsmobs_roadrunner_boots", "alexsmobs_rocky_chestplate", "alexsmobs_sombrero", "alexsmobs_straddle_helmet", "alexsmobs_unsettling_kimono", "cataclysm_bone_reptile_helmet", "cataclysm_bone_reptile_chestplate", "ensemble_cataclysm_bone_reptile", "cataclysm_cursium_helmet", "cataclysm_cursium_chestplate", "cataclysm_cursium_leggings", "cataclysm_cursium_boots", "ensemble_cataclysm_cursium", "cataclysm_ignitium_helmet", "cataclysm_ignitium_chestplate", "cataclysm_ignitium_leggings", "cataclysm_ignitium_boots", "ensemble_cataclysm_ignitium", "cataclysm_ignitium_elytra_chestplate", "cataclysm_sticky_gloves", "cataclysm_sturdy_boots", "create_cardboard_helmet", "create_cardboard_chestplate", "create_cardboard_leggings", "create_cardboard_boots", "ensemble_create_cardboard", "create_copper_backtank", "create_copper_diving_helmet", "create_copper_diving_boots", "ensemble_create_copper_diving", "create_netherite_backtank", "create_netherite_diving_helmet", "create_netherite_diving_boots", "ensemble_create_netherite_diving", "deeperdarker_resonarium_helmet", "deeperdarker_resonarium_chestplate", "deeperdarker_resonarium_leggings", "deeperdarker_resonarium_boots", "ensemble_deeperdarker_resonarium", "deeperdarker_warden_helmet", "deeperdarker_warden_chestplate", "deeperdarker_warden_leggings", "deeperdarker_warden_boots", "ensemble_deeperdarker_warden", "dragonloot_dragon_helmet", "dragonloot_dragon_chestplate", "dragonloot_dragon_leggings", "dragonloot_dragon_boots", "ensemble_dragonloot_dragon", "dragonloot_upgraded_dragon_chestplate", "galosphere_sterling_helmet", "galosphere_sterling_chestplate", "galosphere_sterling_leggings", "galosphere_sterling_boots", "ensemble_galosphere_sterling", "minecraft_chainmail_helmet", "minecraft_chainmail_chestplate", "minecraft_chainmail_leggings", "minecraft_chainmail_boots", "ensemble_minecraft_chainmail", "minecraft_diamond_helmet", "minecraft_diamond_chestplate", "minecraft_diamond_leggings", "minecraft_diamond_boots", "ensemble_minecraft_diamond", "minecraft_golden_helmet", "minecraft_golden_chestplate", "minecraft_golden_leggings", "minecraft_golden_boots", "ensemble_minecraft_golden", "minecraft_iron_helmet", "minecraft_iron_chestplate", "minecraft_iron_leggings", "minecraft_iron_boots", "ensemble_minecraft_iron", "minecraft_leather_helmet", "minecraft_leather_chestplate", "minecraft_leather_leggings", "minecraft_leather_boots", "ensemble_minecraft_leather", "minecraft_netherite_helmet", "minecraft_netherite_chestplate", "minecraft_netherite_leggings", "minecraft_netherite_boots", "ensemble_minecraft_netherite", "minecraft_turtle_helmet", "mowziesmobs_wrought_helmet", "mysticalagriculture_awakened_supremium_helmet", "mysticalagriculture_awakened_supremium_chestplate", "mysticalagriculture_awakened_supremium_leggings", "mysticalagriculture_awakened_supremium_boots", "ensemble_mysticalagriculture_awakened_supremium", "mysticalagriculture_imperium_helmet", "mysticalagriculture_imperium_chestplate", "mysticalagriculture_imperium_leggings", "mysticalagriculture_imperium_boots", "ensemble_mysticalagriculture_imperium", "mysticalagriculture_inferium_helmet", "mysticalagriculture_inferium_chestplate", "mysticalagriculture_inferium_leggings", "mysticalagriculture_inferium_boots", "ensemble_mysticalagriculture_inferium", "mysticalagriculture_prudentium_helmet", "mysticalagriculture_prudentium_chestplate", "mysticalagriculture_prudentium_leggings", "mysticalagriculture_prudentium_boots", "ensemble_mysticalagriculture_prudentium", "mysticalagriculture_supremium_helmet", "mysticalagriculture_supremium_chestplate", "mysticalagriculture_supremium_leggings", "mysticalagriculture_supremium_boots", "ensemble_mysticalagriculture_supremium", "mysticalagriculture_tertium_helmet", "mysticalagriculture_tertium_chestplate", "mysticalagriculture_tertium_leggings", "mysticalagriculture_tertium_boots", "ensemble_mysticalagriculture_tertium", "quark_forgotten_hat", "stalwart_dungeons_chorundum_armor_helmet", "stalwart_dungeons_chorundum_armor_chestplate", "stalwart_dungeons_chorundum_armor_leggings", "stalwart_dungeons_chorundum_armor_boots", "ensemble_stalwart_dungeons_chorundum_armor", "stalwart_dungeons_tungsten_helmet", "stalwart_dungeons_tungsten_chestplate", "stalwart_dungeons_tungsten_leggings", "stalwart_dungeons_tungsten_boots", "ensemble_stalwart_dungeons_tungsten"]
 description = """
-Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+Toutes les pièces et tous les ensembles de ce chapitre.
+"""
+
+[[quete]]
+cle = "toute_armurerie"
+titre = "&c&lToute l'Armurerie"
+optionnel = true
+taille = 2.0
+forme = "gear"
+icone = "minecraft:netherite_chestplate"
+deps = ["complet"]
+deps_externes = ["enc_armurerie_dimensions/complet", "enc_armurerie_magie/complet"]
+taches = ["checkmark Toute l'Armurerie"]
+recompenses = ["xp 50"]
+description = """
+Les trois chapitres de l'Armurerie complets : chaque pièce d'armure du pack que ce serveur permet d'obtenir.
 """
