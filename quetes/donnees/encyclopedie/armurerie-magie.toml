@@ -1,0 +1,1895 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&cArmurerie — magie"
+fichier = "enc_armurerie_magie"
+groupe = "encyclopedie"
+icone = "minecraft:iron_chestplate"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&cArmurerie — magie"
+taille = 1.5
+icone = "minecraft:iron_chestplate"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque pièce d'armure des mods de magie, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé.
+
+Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre.
+"""
+
+[[quete]]
+cle = "hazennstuff_alchemist_supreme_helmet"
+titre = "« Alchemist Supreme Hat »"
+optionnel = true
+icone = "hazennstuff:alchemist_supreme_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:alchemist_supreme_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_alchemist_supreme_chestplate"
+titre = "« Alchemist Supreme Robes »"
+optionnel = true
+icone = "hazennstuff:alchemist_supreme_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:alchemist_supreme_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_alchemist_supreme_leggings"
+titre = "« Alchemist Supreme Leggings »"
+optionnel = true
+icone = "hazennstuff:alchemist_supreme_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:alchemist_supreme_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_alchemist_supreme_boots"
+titre = "« Alchemist Supreme Boots »"
+optionnel = true
+icone = "hazennstuff:alchemist_supreme_boots"
+kit_voulu = true
+taches = ["item hazennstuff:alchemist_supreme_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_alchemist_supreme"
+titre = "Ensemble « Alchemist Supreme »"
+optionnel = true
+deps = ["hazennstuff_alchemist_supreme_helmet", "hazennstuff_alchemist_supreme_chestplate", "hazennstuff_alchemist_supreme_leggings", "hazennstuff_alchemist_supreme_boots"]
+forme = "hexagon"
+icone = "hazennstuff:alchemist_supreme_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:alchemist_supreme_helmet", "item hazennstuff:alchemist_supreme_chestplate", "item hazennstuff:alchemist_supreme_leggings", "item hazennstuff:alchemist_supreme_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Alchemist Supreme » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_atlas_helmet"
+titre = "« Atlas's Helmet »"
+optionnel = true
+icone = "hazennstuff:atlas_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:atlas_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_atlas_chestplate"
+titre = "« Atlas's Chestplate »"
+optionnel = true
+icone = "hazennstuff:atlas_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:atlas_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_atlas_leggings"
+titre = "« Atlas's Leggings »"
+optionnel = true
+icone = "hazennstuff:atlas_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:atlas_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_atlas_boots"
+titre = "« Atlas's Boots »"
+optionnel = true
+icone = "hazennstuff:atlas_boots"
+kit_voulu = true
+taches = ["item hazennstuff:atlas_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_atlas"
+titre = "Ensemble « Atlas's »"
+optionnel = true
+deps = ["hazennstuff_atlas_helmet", "hazennstuff_atlas_chestplate", "hazennstuff_atlas_leggings", "hazennstuff_atlas_boots"]
+forme = "hexagon"
+icone = "hazennstuff:atlas_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:atlas_helmet", "item hazennstuff:atlas_chestplate", "item hazennstuff:atlas_leggings", "item hazennstuff:atlas_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Atlas's » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_blazeborne_helmet"
+titre = "« Blazeborne Helmet »"
+optionnel = true
+icone = "hazennstuff:blazeborne_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:blazeborne_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_blazeborne_chestplate"
+titre = "« Blazeborne Chestplate »"
+optionnel = true
+icone = "hazennstuff:blazeborne_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:blazeborne_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_blazeborne_leggings"
+titre = "« Blazeborne Leggings »"
+optionnel = true
+icone = "hazennstuff:blazeborne_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:blazeborne_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_blazeborne_boots"
+titre = "« Blazeborne Boots »"
+optionnel = true
+icone = "hazennstuff:blazeborne_boots"
+kit_voulu = true
+taches = ["item hazennstuff:blazeborne_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_blazeborne"
+titre = "Ensemble « Blazeborne »"
+optionnel = true
+deps = ["hazennstuff_blazeborne_helmet", "hazennstuff_blazeborne_chestplate", "hazennstuff_blazeborne_leggings", "hazennstuff_blazeborne_boots"]
+forme = "hexagon"
+icone = "hazennstuff:blazeborne_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:blazeborne_helmet", "item hazennstuff:blazeborne_chestplate", "item hazennstuff:blazeborne_leggings", "item hazennstuff:blazeborne_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Blazeborne » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_creaking_sorcerer_helmet"
+titre = "« Creaking Sorcerer Mask »"
+optionnel = true
+icone = "hazennstuff:creaking_sorcerer_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:creaking_sorcerer_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_creaking_sorcerer_chestplate"
+titre = "« Creaking Sorcerer Chestplate »"
+optionnel = true
+icone = "hazennstuff:creaking_sorcerer_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:creaking_sorcerer_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_creaking_sorcerer_leggings"
+titre = "« Creaking Sorcerer Leggings »"
+optionnel = true
+icone = "hazennstuff:creaking_sorcerer_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:creaking_sorcerer_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_creaking_sorcerer_boots"
+titre = "« Creaking Sorcerer Boots »"
+optionnel = true
+icone = "hazennstuff:creaking_sorcerer_boots"
+kit_voulu = true
+taches = ["item hazennstuff:creaking_sorcerer_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_creaking_sorcerer"
+titre = "Ensemble « Creaking Sorcerer »"
+optionnel = true
+deps = ["hazennstuff_creaking_sorcerer_helmet", "hazennstuff_creaking_sorcerer_chestplate", "hazennstuff_creaking_sorcerer_leggings", "hazennstuff_creaking_sorcerer_boots"]
+forme = "hexagon"
+icone = "hazennstuff:creaking_sorcerer_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:creaking_sorcerer_helmet", "item hazennstuff:creaking_sorcerer_chestplate", "item hazennstuff:creaking_sorcerer_leggings", "item hazennstuff:creaking_sorcerer_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Creaking Sorcerer » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_cryogenic_ruler_helmet"
+titre = "« Cryogenic Ruler's Crown »"
+optionnel = true
+icone = "hazennstuff:cryogenic_ruler_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:cryogenic_ruler_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_cryogenic_ruler_chestplate"
+titre = "« Cryogenic Ruler's Chestplate »"
+optionnel = true
+icone = "hazennstuff:cryogenic_ruler_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:cryogenic_ruler_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_cryogenic_ruler_leggings"
+titre = "« Cryogenic Ruler's Leggings »"
+optionnel = true
+icone = "hazennstuff:cryogenic_ruler_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:cryogenic_ruler_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_cryogenic_ruler_boots"
+titre = "« Flurry Boots »"
+optionnel = true
+icone = "hazennstuff:cryogenic_ruler_boots"
+kit_voulu = true
+taches = ["item hazennstuff:cryogenic_ruler_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_cryogenic_ruler"
+titre = "Ensemble « Cryogenic Ruler's »"
+optionnel = true
+deps = ["hazennstuff_cryogenic_ruler_helmet", "hazennstuff_cryogenic_ruler_chestplate", "hazennstuff_cryogenic_ruler_leggings", "hazennstuff_cryogenic_ruler_boots"]
+forme = "hexagon"
+icone = "hazennstuff:cryogenic_ruler_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:cryogenic_ruler_helmet", "item hazennstuff:cryogenic_ruler_chestplate", "item hazennstuff:cryogenic_ruler_leggings", "item hazennstuff:cryogenic_ruler_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Cryogenic Ruler's » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_ender_dragon_helmet"
+titre = "« Ender Dragon Horns »"
+optionnel = true
+icone = "hazennstuff:ender_dragon_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:ender_dragon_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_ender_dragon_chestplate"
+titre = "« Ender Dragon Chestplate »"
+optionnel = true
+icone = "hazennstuff:ender_dragon_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:ender_dragon_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_ender_dragon_leggings"
+titre = "« Ender Dragon Leggings »"
+optionnel = true
+icone = "hazennstuff:ender_dragon_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:ender_dragon_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_ender_dragon_boots"
+titre = "« Ender Dragon Boots »"
+optionnel = true
+icone = "hazennstuff:ender_dragon_boots"
+kit_voulu = true
+taches = ["item hazennstuff:ender_dragon_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_ender_dragon"
+titre = "Ensemble « Ender Dragon »"
+optionnel = true
+deps = ["hazennstuff_ender_dragon_helmet", "hazennstuff_ender_dragon_chestplate", "hazennstuff_ender_dragon_leggings", "hazennstuff_ender_dragon_boots"]
+forme = "hexagon"
+icone = "hazennstuff:ender_dragon_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:ender_dragon_helmet", "item hazennstuff:ender_dragon_chestplate", "item hazennstuff:ender_dragon_leggings", "item hazennstuff:ender_dragon_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Ender Dragon » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_fireblossom_battlemage_helmet"
+titre = "« Fireblossom Battlemage Helmet »"
+optionnel = true
+icone = "hazennstuff:fireblossom_battlemage_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:fireblossom_battlemage_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_fireblossom_battlemage_chestplate"
+titre = "« Fireblossom Battlemage Chestplate »"
+optionnel = true
+icone = "hazennstuff:fireblossom_battlemage_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:fireblossom_battlemage_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_fireblossom_battlemage_leggings"
+titre = "« Fireblossom Battlemage Leggings »"
+optionnel = true
+icone = "hazennstuff:fireblossom_battlemage_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:fireblossom_battlemage_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_fireblossom_battlemage_boots"
+titre = "« Fireblossom Battlemage Boots »"
+optionnel = true
+icone = "hazennstuff:fireblossom_battlemage_boots"
+kit_voulu = true
+taches = ["item hazennstuff:fireblossom_battlemage_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_fireblossom_battlemage"
+titre = "Ensemble « Fireblossom Battlemage »"
+optionnel = true
+deps = ["hazennstuff_fireblossom_battlemage_helmet", "hazennstuff_fireblossom_battlemage_chestplate", "hazennstuff_fireblossom_battlemage_leggings", "hazennstuff_fireblossom_battlemage_boots"]
+forme = "hexagon"
+icone = "hazennstuff:fireblossom_battlemage_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:fireblossom_battlemage_helmet", "item hazennstuff:fireblossom_battlemage_chestplate", "item hazennstuff:fireblossom_battlemage_leggings", "item hazennstuff:fireblossom_battlemage_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Fireblossom Battlemage » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_fireblossom_battlemage_crown"
+titre = "« Fireblossom Battlemage Crown »"
+optionnel = true
+icone = "hazennstuff:fireblossom_battlemage_crown"
+kit_voulu = true
+taches = ["item hazennstuff:fireblossom_battlemage_crown"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_flesh_mass_helmet"
+titre = "« Flesh Mass Helmet »"
+optionnel = true
+icone = "hazennstuff:flesh_mass_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:flesh_mass_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_flesh_mass_chestplate"
+titre = "« Flesh Mass Chestplate »"
+optionnel = true
+icone = "hazennstuff:flesh_mass_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:flesh_mass_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_flesh_mass_leggings"
+titre = "« Flesh Mass Leggings »"
+optionnel = true
+icone = "hazennstuff:flesh_mass_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:flesh_mass_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_flesh_mass_boots"
+titre = "« Flesh Mass Boots »"
+optionnel = true
+icone = "hazennstuff:flesh_mass_boots"
+kit_voulu = true
+taches = ["item hazennstuff:flesh_mass_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_flesh_mass"
+titre = "Ensemble « Flesh Mass »"
+optionnel = true
+deps = ["hazennstuff_flesh_mass_helmet", "hazennstuff_flesh_mass_chestplate", "hazennstuff_flesh_mass_leggings", "hazennstuff_flesh_mass_boots"]
+forme = "hexagon"
+icone = "hazennstuff:flesh_mass_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:flesh_mass_helmet", "item hazennstuff:flesh_mass_chestplate", "item hazennstuff:flesh_mass_leggings", "item hazennstuff:flesh_mass_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Flesh Mass » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_hazel_helmet"
+titre = "« Hazel's Hat »"
+optionnel = true
+icone = "hazennstuff:hazel_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:hazel_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_hazel_chestplate"
+titre = "« Hazel's Jacket »"
+optionnel = true
+icone = "hazennstuff:hazel_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:hazel_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_hazel_leggings"
+titre = "« Hazel's Pants »"
+optionnel = true
+icone = "hazennstuff:hazel_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:hazel_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_hazel_boots"
+titre = "« Hazel's Boots »"
+optionnel = true
+icone = "hazennstuff:hazel_boots"
+kit_voulu = true
+taches = ["item hazennstuff:hazel_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_hazel"
+titre = "Ensemble « Hazel's »"
+optionnel = true
+deps = ["hazennstuff_hazel_helmet", "hazennstuff_hazel_chestplate", "hazennstuff_hazel_leggings", "hazennstuff_hazel_boots"]
+forme = "hexagon"
+icone = "hazennstuff:hazel_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:hazel_helmet", "item hazennstuff:hazel_chestplate", "item hazennstuff:hazel_leggings", "item hazennstuff:hazel_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Hazel's » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_how_did_you_find_the_hazel_chestplate"
+titre = "« Hazel's Jacket »"
+optionnel = true
+icone = "hazennstuff:how_did_you_find_the_hazel_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:how_did_you_find_the_hazel_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_infestation_helmet"
+titre = "« Infestation Mask »"
+optionnel = true
+icone = "hazennstuff:infestation_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:infestation_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_infestation_chestplate"
+titre = "« Infestation Chestplate »"
+optionnel = true
+icone = "hazennstuff:infestation_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:infestation_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_infestation_leggings"
+titre = "« Infestation Leggings »"
+optionnel = true
+icone = "hazennstuff:infestation_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:infestation_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_infestation_boots"
+titre = "« Infestation Boots »"
+optionnel = true
+icone = "hazennstuff:infestation_boots"
+kit_voulu = true
+taches = ["item hazennstuff:infestation_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_infestation"
+titre = "Ensemble « Infestation »"
+optionnel = true
+deps = ["hazennstuff_infestation_helmet", "hazennstuff_infestation_chestplate", "hazennstuff_infestation_leggings", "hazennstuff_infestation_boots"]
+forme = "hexagon"
+icone = "hazennstuff:infestation_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:infestation_helmet", "item hazennstuff:infestation_chestplate", "item hazennstuff:infestation_leggings", "item hazennstuff:infestation_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Infestation » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_commander_helmet"
+titre = "« Legionnaire Commander Helmet »"
+optionnel = true
+icone = "hazennstuff:legionnaire_commander_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_commander_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_commander_chestplate"
+titre = "« Legionnaire Commander Chestplate »"
+optionnel = true
+icone = "hazennstuff:legionnaire_commander_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_commander_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_commander_leggings"
+titre = "« Legionnaire Commander Leggings »"
+optionnel = true
+icone = "hazennstuff:legionnaire_commander_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_commander_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_commander_boots"
+titre = "« Legionnaire Commander Boots »"
+optionnel = true
+icone = "hazennstuff:legionnaire_commander_boots"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_commander_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_legionnaire_commander"
+titre = "Ensemble « Legionnaire Commander »"
+optionnel = true
+deps = ["hazennstuff_legionnaire_commander_helmet", "hazennstuff_legionnaire_commander_chestplate", "hazennstuff_legionnaire_commander_leggings", "hazennstuff_legionnaire_commander_boots"]
+forme = "hexagon"
+icone = "hazennstuff:legionnaire_commander_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_commander_helmet", "item hazennstuff:legionnaire_commander_chestplate", "item hazennstuff:legionnaire_commander_leggings", "item hazennstuff:legionnaire_commander_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Legionnaire Commander » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_ruler_helmet"
+titre = "« Legionnaire Ruler Crown »"
+optionnel = true
+icone = "hazennstuff:legionnaire_ruler_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_ruler_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_ruler_chestplate"
+titre = "« Legionnaire Ruler Chestplate »"
+optionnel = true
+icone = "hazennstuff:legionnaire_ruler_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_ruler_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_ruler_leggings"
+titre = "« Legionnaire Ruler Leggings »"
+optionnel = true
+icone = "hazennstuff:legionnaire_ruler_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_ruler_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_legionnaire_ruler_boots"
+titre = "« Legionnaire Ruler Boots »"
+optionnel = true
+icone = "hazennstuff:legionnaire_ruler_boots"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_ruler_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_legionnaire_ruler"
+titre = "Ensemble « Legionnaire Ruler »"
+optionnel = true
+deps = ["hazennstuff_legionnaire_ruler_helmet", "hazennstuff_legionnaire_ruler_chestplate", "hazennstuff_legionnaire_ruler_leggings", "hazennstuff_legionnaire_ruler_boots"]
+forme = "hexagon"
+icone = "hazennstuff:legionnaire_ruler_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:legionnaire_ruler_helmet", "item hazennstuff:legionnaire_ruler_chestplate", "item hazennstuff:legionnaire_ruler_leggings", "item hazennstuff:legionnaire_ruler_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Legionnaire Ruler » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_mithril_battlemage_helmet"
+titre = "« Mithril Battlemage Hat »"
+optionnel = true
+icone = "hazennstuff:mithril_battlemage_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:mithril_battlemage_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_mithril_battlemage_chestplate"
+titre = "« Mithril Battlemage Chestplate »"
+optionnel = true
+icone = "hazennstuff:mithril_battlemage_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:mithril_battlemage_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_mithril_battlemage_leggings"
+titre = "« Mithril Battlemage Leggings »"
+optionnel = true
+icone = "hazennstuff:mithril_battlemage_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:mithril_battlemage_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_mithril_battlemage_boots"
+titre = "« Mithril Battlemage Boots »"
+optionnel = true
+icone = "hazennstuff:mithril_battlemage_boots"
+kit_voulu = true
+taches = ["item hazennstuff:mithril_battlemage_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_mithril_battlemage"
+titre = "Ensemble « Mithril Battlemage »"
+optionnel = true
+deps = ["hazennstuff_mithril_battlemage_helmet", "hazennstuff_mithril_battlemage_chestplate", "hazennstuff_mithril_battlemage_leggings", "hazennstuff_mithril_battlemage_boots"]
+forme = "hexagon"
+icone = "hazennstuff:mithril_battlemage_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:mithril_battlemage_helmet", "item hazennstuff:mithril_battlemage_chestplate", "item hazennstuff:mithril_battlemage_leggings", "item hazennstuff:mithril_battlemage_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Mithril Battlemage » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_pyrium_helmet"
+titre = "« Pyrium Helmet »"
+optionnel = true
+icone = "hazennstuff:pyrium_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_pyrium_chestplate"
+titre = "« Pyrium Chestplate »"
+optionnel = true
+icone = "hazennstuff:pyrium_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_pyrium_leggings"
+titre = "« Pyrium Leggings »"
+optionnel = true
+icone = "hazennstuff:pyrium_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_pyrium_boots"
+titre = "« Pyrium Boots »"
+optionnel = true
+icone = "hazennstuff:pyrium_boots"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_pyrium"
+titre = "Ensemble « Pyrium »"
+optionnel = true
+deps = ["hazennstuff_pyrium_helmet", "hazennstuff_pyrium_chestplate", "hazennstuff_pyrium_leggings", "hazennstuff_pyrium_boots"]
+forme = "hexagon"
+icone = "hazennstuff:pyrium_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_helmet", "item hazennstuff:pyrium_chestplate", "item hazennstuff:pyrium_leggings", "item hazennstuff:pyrium_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Pyrium » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_pyrium_battlemage_helmet"
+titre = "« Pyrium Battlemage Crown »"
+optionnel = true
+icone = "hazennstuff:pyrium_battlemage_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_battlemage_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_pyrium_battlemage_chestplate"
+titre = "« Pyrium Battlemage Chestplate »"
+optionnel = true
+icone = "hazennstuff:pyrium_battlemage_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_battlemage_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_pyrium_battlemage_leggings"
+titre = "« Pyrium Battlemage Leggings »"
+optionnel = true
+icone = "hazennstuff:pyrium_battlemage_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_battlemage_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_pyrium_battlemage_boots"
+titre = "« Pyrium Battlemage Boots »"
+optionnel = true
+icone = "hazennstuff:pyrium_battlemage_boots"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_battlemage_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_pyrium_battlemage"
+titre = "Ensemble « Pyrium Battlemage »"
+optionnel = true
+deps = ["hazennstuff_pyrium_battlemage_helmet", "hazennstuff_pyrium_battlemage_chestplate", "hazennstuff_pyrium_battlemage_leggings", "hazennstuff_pyrium_battlemage_boots"]
+forme = "hexagon"
+icone = "hazennstuff:pyrium_battlemage_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:pyrium_battlemage_helmet", "item hazennstuff:pyrium_battlemage_chestplate", "item hazennstuff:pyrium_battlemage_leggings", "item hazennstuff:pyrium_battlemage_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Pyrium Battlemage » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_seraph_helmet"
+titre = "« Seraph Visor »"
+optionnel = true
+icone = "hazennstuff:seraph_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:seraph_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_seraph_chestplate"
+titre = "« Seraph Breastplate »"
+optionnel = true
+icone = "hazennstuff:seraph_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:seraph_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_seraph_leggings"
+titre = "« Seraph Leggings »"
+optionnel = true
+icone = "hazennstuff:seraph_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:seraph_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_seraph_boots"
+titre = "« Seraph Tracers »"
+optionnel = true
+icone = "hazennstuff:seraph_boots"
+kit_voulu = true
+taches = ["item hazennstuff:seraph_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_seraph"
+titre = "Ensemble « Seraph »"
+optionnel = true
+deps = ["hazennstuff_seraph_helmet", "hazennstuff_seraph_chestplate", "hazennstuff_seraph_leggings", "hazennstuff_seraph_boots"]
+forme = "hexagon"
+icone = "hazennstuff:seraph_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:seraph_helmet", "item hazennstuff:seraph_chestplate", "item hazennstuff:seraph_leggings", "item hazennstuff:seraph_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Seraph » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "hazennstuff_thunder_prowler_helmet"
+titre = "« Thunder Prowler Mask »"
+optionnel = true
+icone = "hazennstuff:thunder_prowler_helmet"
+kit_voulu = true
+taches = ["item hazennstuff:thunder_prowler_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_thunder_prowler_chestplate"
+titre = "« Thunder Prowler Chestplate »"
+optionnel = true
+icone = "hazennstuff:thunder_prowler_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:thunder_prowler_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_thunder_prowler_leggings"
+titre = "« Thunder Prowler Leggings »"
+optionnel = true
+icone = "hazennstuff:thunder_prowler_leggings"
+kit_voulu = true
+taches = ["item hazennstuff:thunder_prowler_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "hazennstuff_thunder_prowler_boots"
+titre = "« Thunder Prowler Boots »"
+optionnel = true
+icone = "hazennstuff:thunder_prowler_boots"
+kit_voulu = true
+taches = ["item hazennstuff:thunder_prowler_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bHazen 'n Stuff&r. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_hazennstuff_thunder_prowler"
+titre = "Ensemble « Thunder Prowler »"
+optionnel = true
+deps = ["hazennstuff_thunder_prowler_helmet", "hazennstuff_thunder_prowler_chestplate", "hazennstuff_thunder_prowler_leggings", "hazennstuff_thunder_prowler_boots"]
+forme = "hexagon"
+icone = "hazennstuff:thunder_prowler_chestplate"
+kit_voulu = true
+taches = ["item hazennstuff:thunder_prowler_helmet", "item hazennstuff:thunder_prowler_chestplate", "item hazennstuff:thunder_prowler_leggings", "item hazennstuff:thunder_prowler_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Thunder Prowler » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_archevoker_helmet"
+titre = "Chapeau de l'Archévocateur"
+optionnel = true
+icone = "irons_spellbooks:archevoker_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:archevoker_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_archevoker_chestplate"
+titre = "Manteau de l'Archévocateur"
+optionnel = true
+icone = "irons_spellbooks:archevoker_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:archevoker_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_archevoker_leggings"
+titre = "Jambières de l'Archévocateur"
+optionnel = true
+icone = "irons_spellbooks:archevoker_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:archevoker_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_archevoker_boots"
+titre = "Bottes de l'Archévocateur"
+optionnel = true
+icone = "irons_spellbooks:archevoker_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:archevoker_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_archevoker"
+titre = "Ensemble de l'Archévocateur"
+optionnel = true
+deps = ["irons_spellbooks_archevoker_helmet", "irons_spellbooks_archevoker_chestplate", "irons_spellbooks_archevoker_leggings", "irons_spellbooks_archevoker_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:archevoker_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:archevoker_helmet", "item irons_spellbooks:archevoker_chestplate", "item irons_spellbooks:archevoker_leggings", "item irons_spellbooks:archevoker_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble de l'Archévocateur (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cryomancer_helmet"
+titre = "Capuche du Cryomancien"
+optionnel = true
+icone = "irons_spellbooks:cryomancer_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:cryomancer_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cryomancer_chestplate"
+titre = "Manteau du Cryomancien"
+optionnel = true
+icone = "irons_spellbooks:cryomancer_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:cryomancer_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cryomancer_leggings"
+titre = "Jambières du Cryomancien"
+optionnel = true
+icone = "irons_spellbooks:cryomancer_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:cryomancer_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cryomancer_boots"
+titre = "Bottes du Cryomancien"
+optionnel = true
+icone = "irons_spellbooks:cryomancer_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:cryomancer_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_cryomancer"
+titre = "Ensemble du Cryomancien"
+optionnel = true
+deps = ["irons_spellbooks_cryomancer_helmet", "irons_spellbooks_cryomancer_chestplate", "irons_spellbooks_cryomancer_leggings", "irons_spellbooks_cryomancer_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:cryomancer_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:cryomancer_helmet", "item irons_spellbooks:cryomancer_chestplate", "item irons_spellbooks:cryomancer_leggings", "item irons_spellbooks:cryomancer_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Cryomancien (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cultist_helmet"
+titre = "Capuche du Cultiste"
+optionnel = true
+icone = "irons_spellbooks:cultist_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:cultist_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cultist_chestplate"
+titre = "Armure du Cultiste"
+optionnel = true
+icone = "irons_spellbooks:cultist_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:cultist_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cultist_leggings"
+titre = "Jambières du Cultiste"
+optionnel = true
+icone = "irons_spellbooks:cultist_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:cultist_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cultist_boots"
+titre = "Bottes du Cultiste"
+optionnel = true
+icone = "irons_spellbooks:cultist_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:cultist_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_cultist"
+titre = "Ensemble du Cultiste"
+optionnel = true
+deps = ["irons_spellbooks_cultist_helmet", "irons_spellbooks_cultist_chestplate", "irons_spellbooks_cultist_leggings", "irons_spellbooks_cultist_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:cultist_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:cultist_helmet", "item irons_spellbooks:cultist_chestplate", "item irons_spellbooks:cultist_leggings", "item irons_spellbooks:cultist_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Cultiste (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_electromancer_helmet"
+titre = "Chapeau de l'Électromancien"
+optionnel = true
+icone = "irons_spellbooks:electromancer_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:electromancer_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_electromancer_chestplate"
+titre = "Robe de l'Électromancien"
+optionnel = true
+icone = "irons_spellbooks:electromancer_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:electromancer_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_electromancer_leggings"
+titre = "Jambières de l'Électromancien"
+optionnel = true
+icone = "irons_spellbooks:electromancer_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:electromancer_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_electromancer_boots"
+titre = "Bottes de l'Électromancien"
+optionnel = true
+icone = "irons_spellbooks:electromancer_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:electromancer_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_electromancer"
+titre = "Ensemble de l'Électromancien"
+optionnel = true
+deps = ["irons_spellbooks_electromancer_helmet", "irons_spellbooks_electromancer_chestplate", "irons_spellbooks_electromancer_leggings", "irons_spellbooks_electromancer_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:electromancer_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:electromancer_helmet", "item irons_spellbooks:electromancer_chestplate", "item irons_spellbooks:electromancer_leggings", "item irons_spellbooks:electromancer_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble de l'Électromancien (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_infernal_sorcerer_chestplate"
+titre = "Plastron du Sorcier Infernal"
+optionnel = true
+icone = "irons_spellbooks:infernal_sorcerer_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:infernal_sorcerer_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_netherite_mage_helmet"
+titre = "Chapeau du Mage de Guerre en Nétherite"
+optionnel = true
+icone = "irons_spellbooks:netherite_mage_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:netherite_mage_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_netherite_mage_chestplate"
+titre = "Robes du Mage de Guerre en Nétherite"
+optionnel = true
+icone = "irons_spellbooks:netherite_mage_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:netherite_mage_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_netherite_mage_leggings"
+titre = "Jambières du Mage de Guerre en Nétherite"
+optionnel = true
+icone = "irons_spellbooks:netherite_mage_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:netherite_mage_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_netherite_mage_boots"
+titre = "Bottes du Mage de Guerre en Nétherite"
+optionnel = true
+icone = "irons_spellbooks:netherite_mage_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:netherite_mage_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_netherite_mage"
+titre = "Ensemble du Mage de Guerre en Nétherite"
+optionnel = true
+deps = ["irons_spellbooks_netherite_mage_helmet", "irons_spellbooks_netherite_mage_chestplate", "irons_spellbooks_netherite_mage_leggings", "irons_spellbooks_netherite_mage_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:netherite_mage_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:netherite_mage_helmet", "item irons_spellbooks:netherite_mage_chestplate", "item irons_spellbooks:netherite_mage_leggings", "item irons_spellbooks:netherite_mage_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Mage de Guerre en Nétherite (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_paladin_chestplate"
+titre = "Plastron de Porteur de Lumière"
+optionnel = true
+icone = "irons_spellbooks:paladin_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:paladin_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_plagued_helmet"
+titre = "Masque Pesteux"
+optionnel = true
+icone = "irons_spellbooks:plagued_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:plagued_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_plagued_chestplate"
+titre = "Manteau Pesteux"
+optionnel = true
+icone = "irons_spellbooks:plagued_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:plagued_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_plagued_leggings"
+titre = "Jambières Pesteuses"
+optionnel = true
+icone = "irons_spellbooks:plagued_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:plagued_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_plagued_boots"
+titre = "Bottes Pesteuses"
+optionnel = true
+icone = "irons_spellbooks:plagued_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:plagued_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_plagued"
+titre = "Ensemble « Pesteux »"
+optionnel = true
+deps = ["irons_spellbooks_plagued_helmet", "irons_spellbooks_plagued_chestplate", "irons_spellbooks_plagued_leggings", "irons_spellbooks_plagued_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:plagued_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:plagued_helmet", "item irons_spellbooks:plagued_chestplate", "item irons_spellbooks:plagued_leggings", "item irons_spellbooks:plagued_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble « Pesteux » (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_priest_helmet"
+titre = "Masque du Prêtre"
+optionnel = true
+icone = "irons_spellbooks:priest_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:priest_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_priest_chestplate"
+titre = "Robes du Prêtre"
+optionnel = true
+icone = "irons_spellbooks:priest_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:priest_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_priest_leggings"
+titre = "Jambières du Prêtre"
+optionnel = true
+icone = "irons_spellbooks:priest_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:priest_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_priest_boots"
+titre = "Bottes du Prêtre"
+optionnel = true
+icone = "irons_spellbooks:priest_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:priest_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_priest"
+titre = "Ensemble du Prêtre"
+optionnel = true
+deps = ["irons_spellbooks_priest_helmet", "irons_spellbooks_priest_chestplate", "irons_spellbooks_priest_leggings", "irons_spellbooks_priest_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:priest_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:priest_helmet", "item irons_spellbooks:priest_chestplate", "item irons_spellbooks:priest_leggings", "item irons_spellbooks:priest_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Prêtre (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pumpkin_helmet"
+titre = "Chapeau d'Épouvantail"
+optionnel = true
+icone = "irons_spellbooks:pumpkin_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:pumpkin_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pumpkin_chestplate"
+titre = "Manteau d'Épouvantail"
+optionnel = true
+icone = "irons_spellbooks:pumpkin_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:pumpkin_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pumpkin_leggings"
+titre = "Jambières d'Épouvantail"
+optionnel = true
+icone = "irons_spellbooks:pumpkin_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:pumpkin_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pumpkin_boots"
+titre = "Bottes d'Épouvantail"
+optionnel = true
+icone = "irons_spellbooks:pumpkin_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:pumpkin_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_pumpkin"
+titre = "Ensemble d'Épouvantail"
+optionnel = true
+deps = ["irons_spellbooks_pumpkin_helmet", "irons_spellbooks_pumpkin_chestplate", "irons_spellbooks_pumpkin_leggings", "irons_spellbooks_pumpkin_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:pumpkin_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:pumpkin_helmet", "item irons_spellbooks:pumpkin_chestplate", "item irons_spellbooks:pumpkin_leggings", "item irons_spellbooks:pumpkin_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble d'Épouvantail (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pyromancer_helmet"
+titre = "Chapeau du Pyromancien"
+optionnel = true
+icone = "irons_spellbooks:pyromancer_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:pyromancer_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pyromancer_chestplate"
+titre = "Robe du Pyromancien"
+optionnel = true
+icone = "irons_spellbooks:pyromancer_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:pyromancer_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pyromancer_leggings"
+titre = "Jambières du Pyromancien"
+optionnel = true
+icone = "irons_spellbooks:pyromancer_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:pyromancer_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pyromancer_boots"
+titre = "Bottes du Pyromancien"
+optionnel = true
+icone = "irons_spellbooks:pyromancer_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:pyromancer_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_pyromancer"
+titre = "Ensemble du Pyromancien"
+optionnel = true
+deps = ["irons_spellbooks_pyromancer_helmet", "irons_spellbooks_pyromancer_chestplate", "irons_spellbooks_pyromancer_leggings", "irons_spellbooks_pyromancer_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:pyromancer_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:pyromancer_helmet", "item irons_spellbooks:pyromancer_chestplate", "item irons_spellbooks:pyromancer_leggings", "item irons_spellbooks:pyromancer_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Pyromancien (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_shadowwalker_helmet"
+titre = "Masque du Marchombre"
+optionnel = true
+icone = "irons_spellbooks:shadowwalker_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:shadowwalker_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_shadowwalker_chestplate"
+titre = "Armure du Marchombre"
+optionnel = true
+icone = "irons_spellbooks:shadowwalker_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:shadowwalker_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_shadowwalker_leggings"
+titre = "Jambières du Marchombre"
+optionnel = true
+icone = "irons_spellbooks:shadowwalker_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:shadowwalker_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_shadowwalker_boots"
+titre = "Bottes du Marchombre"
+optionnel = true
+icone = "irons_spellbooks:shadowwalker_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:shadowwalker_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_shadowwalker"
+titre = "Ensemble du Marchombre"
+optionnel = true
+deps = ["irons_spellbooks_shadowwalker_helmet", "irons_spellbooks_shadowwalker_chestplate", "irons_spellbooks_shadowwalker_leggings", "irons_spellbooks_shadowwalker_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:shadowwalker_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:shadowwalker_helmet", "item irons_spellbooks:shadowwalker_chestplate", "item irons_spellbooks:shadowwalker_leggings", "item irons_spellbooks:shadowwalker_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Marchombre (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_speed_boots"
+titre = "Bottes de Vitesse"
+optionnel = true
+icone = "irons_spellbooks:speed_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:speed_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wandering_magician_helmet"
+titre = "Capuche du Magicien Errant"
+optionnel = true
+icone = "irons_spellbooks:wandering_magician_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:wandering_magician_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wandering_magician_chestplate"
+titre = "Robe du Magicien Errant"
+optionnel = true
+icone = "irons_spellbooks:wandering_magician_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:wandering_magician_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wandering_magician_leggings"
+titre = "Pantalon du Magicien Errant"
+optionnel = true
+icone = "irons_spellbooks:wandering_magician_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:wandering_magician_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wandering_magician_boots"
+titre = "Chaussures du Magicien Errant"
+optionnel = true
+icone = "irons_spellbooks:wandering_magician_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:wandering_magician_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_wandering_magician"
+titre = "Ensemble du Magicien Errant"
+optionnel = true
+deps = ["irons_spellbooks_wandering_magician_helmet", "irons_spellbooks_wandering_magician_chestplate", "irons_spellbooks_wandering_magician_leggings", "irons_spellbooks_wandering_magician_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:wandering_magician_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:wandering_magician_helmet", "item irons_spellbooks:wandering_magician_chestplate", "item irons_spellbooks:wandering_magician_leggings", "item irons_spellbooks:wandering_magician_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Magicien Errant (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wizard_helmet"
+titre = "Casque du Sorcier"
+optionnel = true
+icone = "irons_spellbooks:wizard_helmet"
+kit_voulu = true
+taches = ["item irons_spellbooks:wizard_helmet"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wizard_chestplate"
+titre = "Robes du Sorcier"
+optionnel = true
+icone = "irons_spellbooks:wizard_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:wizard_chestplate"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wizard_leggings"
+titre = "Jambières du Sorcier"
+optionnel = true
+icone = "irons_spellbooks:wizard_leggings"
+kit_voulu = true
+taches = ["item irons_spellbooks:wizard_leggings"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wizard_boots"
+titre = "Bottes du Sorcier"
+optionnel = true
+icone = "irons_spellbooks:wizard_boots"
+kit_voulu = true
+taches = ["item irons_spellbooks:wizard_boots"]
+recompenses = ["xp 1"]
+description = """
+Pièce d'armure de &bIron's Spells&r. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre &7Iron's Spells&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "ensemble_irons_spellbooks_wizard"
+titre = "Ensemble du Sorcier"
+optionnel = true
+deps = ["irons_spellbooks_wizard_helmet", "irons_spellbooks_wizard_chestplate", "irons_spellbooks_wizard_leggings", "irons_spellbooks_wizard_boots"]
+forme = "hexagon"
+icone = "irons_spellbooks:wizard_chestplate"
+kit_voulu = true
+taches = ["item irons_spellbooks:wizard_helmet", "item irons_spellbooks:wizard_chestplate", "item irons_spellbooks:wizard_leggings", "item irons_spellbooks:wizard_boots"]
+recompenses = ["xp 5"]
+description = """
+Toutes les pièces de l'ensemble du Sorcier (4), ensemble dans l'inventaire.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:netherite_chestplate"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["hazennstuff_alchemist_supreme_helmet", "hazennstuff_alchemist_supreme_chestplate", "hazennstuff_alchemist_supreme_leggings", "hazennstuff_alchemist_supreme_boots", "ensemble_hazennstuff_alchemist_supreme", "hazennstuff_atlas_helmet", "hazennstuff_atlas_chestplate", "hazennstuff_atlas_leggings", "hazennstuff_atlas_boots", "ensemble_hazennstuff_atlas", "hazennstuff_blazeborne_helmet", "hazennstuff_blazeborne_chestplate", "hazennstuff_blazeborne_leggings", "hazennstuff_blazeborne_boots", "ensemble_hazennstuff_blazeborne", "hazennstuff_creaking_sorcerer_helmet", "hazennstuff_creaking_sorcerer_chestplate", "hazennstuff_creaking_sorcerer_leggings", "hazennstuff_creaking_sorcerer_boots", "ensemble_hazennstuff_creaking_sorcerer", "hazennstuff_cryogenic_ruler_helmet", "hazennstuff_cryogenic_ruler_chestplate", "hazennstuff_cryogenic_ruler_leggings", "hazennstuff_cryogenic_ruler_boots", "ensemble_hazennstuff_cryogenic_ruler", "hazennstuff_ender_dragon_helmet", "hazennstuff_ender_dragon_chestplate", "hazennstuff_ender_dragon_leggings", "hazennstuff_ender_dragon_boots", "ensemble_hazennstuff_ender_dragon", "hazennstuff_fireblossom_battlemage_helmet", "hazennstuff_fireblossom_battlemage_chestplate", "hazennstuff_fireblossom_battlemage_leggings", "hazennstuff_fireblossom_battlemage_boots", "ensemble_hazennstuff_fireblossom_battlemage", "hazennstuff_fireblossom_battlemage_crown", "hazennstuff_flesh_mass_helmet", "hazennstuff_flesh_mass_chestplate", "hazennstuff_flesh_mass_leggings", "hazennstuff_flesh_mass_boots", "ensemble_hazennstuff_flesh_mass", "hazennstuff_hazel_helmet", "hazennstuff_hazel_chestplate", "hazennstuff_hazel_leggings", "hazennstuff_hazel_boots", "ensemble_hazennstuff_hazel", "hazennstuff_how_did_you_find_the_hazel_chestplate", "hazennstuff_infestation_helmet", "hazennstuff_infestation_chestplate", "hazennstuff_infestation_leggings", "hazennstuff_infestation_boots", "ensemble_hazennstuff_infestation", "hazennstuff_legionnaire_commander_helmet", "hazennstuff_legionnaire_commander_chestplate", "hazennstuff_legionnaire_commander_leggings", "hazennstuff_legionnaire_commander_boots", "ensemble_hazennstuff_legionnaire_commander", "hazennstuff_legionnaire_ruler_helmet", "hazennstuff_legionnaire_ruler_chestplate", "hazennstuff_legionnaire_ruler_leggings", "hazennstuff_legionnaire_ruler_boots", "ensemble_hazennstuff_legionnaire_ruler", "hazennstuff_mithril_battlemage_helmet", "hazennstuff_mithril_battlemage_chestplate", "hazennstuff_mithril_battlemage_leggings", "hazennstuff_mithril_battlemage_boots", "ensemble_hazennstuff_mithril_battlemage", "hazennstuff_pyrium_helmet", "hazennstuff_pyrium_chestplate", "hazennstuff_pyrium_leggings", "hazennstuff_pyrium_boots", "ensemble_hazennstuff_pyrium", "hazennstuff_pyrium_battlemage_helmet", "hazennstuff_pyrium_battlemage_chestplate", "hazennstuff_pyrium_battlemage_leggings", "hazennstuff_pyrium_battlemage_boots", "ensemble_hazennstuff_pyrium_battlemage", "hazennstuff_seraph_helmet", "hazennstuff_seraph_chestplate", "hazennstuff_seraph_leggings", "hazennstuff_seraph_boots", "ensemble_hazennstuff_seraph", "hazennstuff_thunder_prowler_helmet", "hazennstuff_thunder_prowler_chestplate", "hazennstuff_thunder_prowler_leggings", "hazennstuff_thunder_prowler_boots", "ensemble_hazennstuff_thunder_prowler", "irons_spellbooks_archevoker_helmet", "irons_spellbooks_archevoker_chestplate", "irons_spellbooks_archevoker_leggings", "irons_spellbooks_archevoker_boots", "ensemble_irons_spellbooks_archevoker", "irons_spellbooks_cryomancer_helmet", "irons_spellbooks_cryomancer_chestplate", "irons_spellbooks_cryomancer_leggings", "irons_spellbooks_cryomancer_boots", "ensemble_irons_spellbooks_cryomancer", "irons_spellbooks_cultist_helmet", "irons_spellbooks_cultist_chestplate", "irons_spellbooks_cultist_leggings", "irons_spellbooks_cultist_boots", "ensemble_irons_spellbooks_cultist", "irons_spellbooks_electromancer_helmet", "irons_spellbooks_electromancer_chestplate", "irons_spellbooks_electromancer_leggings", "irons_spellbooks_electromancer_boots", "ensemble_irons_spellbooks_electromancer", "irons_spellbooks_infernal_sorcerer_chestplate", "irons_spellbooks_netherite_mage_helmet", "irons_spellbooks_netherite_mage_chestplate", "irons_spellbooks_netherite_mage_leggings", "irons_spellbooks_netherite_mage_boots", "ensemble_irons_spellbooks_netherite_mage", "irons_spellbooks_paladin_chestplate", "irons_spellbooks_plagued_helmet", "irons_spellbooks_plagued_chestplate", "irons_spellbooks_plagued_leggings", "irons_spellbooks_plagued_boots", "ensemble_irons_spellbooks_plagued", "irons_spellbooks_priest_helmet", "irons_spellbooks_priest_chestplate", "irons_spellbooks_priest_leggings", "irons_spellbooks_priest_boots", "ensemble_irons_spellbooks_priest", "irons_spellbooks_pumpkin_helmet", "irons_spellbooks_pumpkin_chestplate", "irons_spellbooks_pumpkin_leggings", "irons_spellbooks_pumpkin_boots", "ensemble_irons_spellbooks_pumpkin", "irons_spellbooks_pyromancer_helmet", "irons_spellbooks_pyromancer_chestplate", "irons_spellbooks_pyromancer_leggings", "irons_spellbooks_pyromancer_boots", "ensemble_irons_spellbooks_pyromancer", "irons_spellbooks_shadowwalker_helmet", "irons_spellbooks_shadowwalker_chestplate", "irons_spellbooks_shadowwalker_leggings", "irons_spellbooks_shadowwalker_boots", "ensemble_irons_spellbooks_shadowwalker", "irons_spellbooks_speed_boots", "irons_spellbooks_wandering_magician_helmet", "irons_spellbooks_wandering_magician_chestplate", "irons_spellbooks_wandering_magician_leggings", "irons_spellbooks_wandering_magician_boots", "ensemble_irons_spellbooks_wandering_magician", "irons_spellbooks_wizard_helmet", "irons_spellbooks_wizard_chestplate", "irons_spellbooks_wizard_leggings", "irons_spellbooks_wizard_boots", "ensemble_irons_spellbooks_wizard"]
+description = """
+Toutes les pièces et tous les ensembles de ce chapitre.
+"""
