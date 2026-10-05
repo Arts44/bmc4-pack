@@ -1,0 +1,1966 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_arsenal"
+	group: "34D36ACF0DABCCEC"
+	icon: "securitycraft:keypad"
+	id: "7FD7C3FAD0EF56CA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque bloc et chaque outil de SecurityCraft, hors blocs renforcés et variantes déguisées. Une quête se valide en ayant l'objet dans l'inventaire."]
+			icon: "securitycraft:keypad"
+			id: "21728D1D42EAF13A"
+			rewards: [{
+				id: "57552782ADC8D31D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1C4721F61ADE46C1"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cArsenal de défense"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:acacia_security_sea_boat"
+			id: "67EEE73AF0390769"
+			optional: true
+			rewards: [{
+				id: "5BFCC400B7D9339B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27C0077AB10D70AE"
+				item: "securitycraft:acacia_security_sea_boat"
+				type: "item"
+			}]
+			title: "Obtenir : Bateau sécurisé en acacia"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:alarm"
+			id: "4B6B3336B41914F4"
+			optional: true
+			rewards: [{
+				id: "61F09D0638C1A4FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CBB44EFD3BD9143"
+				item: "securitycraft:alarm"
+				type: "item"
+			}]
+			title: "Obtenir : Alarme"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:bamboo_security_sea_raft"
+			id: "67D5F416DB43BB10"
+			optional: true
+			rewards: [{
+				id: "7CB46FA4DAB88566"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D6FDB4A17FF720C"
+				item: "securitycraft:bamboo_security_sea_raft"
+				type: "item"
+			}]
+			title: "Obtenir : Radeau sécurisé en bambou"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:birch_security_sea_boat"
+			id: "669A6DE7611F9AD9"
+			optional: true
+			rewards: [{
+				id: "2DDC848A345963E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5BECFEFB4E43CA62"
+				item: "securitycraft:birch_security_sea_boat"
+				type: "item"
+			}]
+			title: "Obtenir : Bateau sécurisé en bouleau"
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:blacklist_module"
+			id: "67FC21A8E96B0B7D"
+			optional: true
+			rewards: [{
+				id: "08A1EEE1B06A353E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3813C94ADB895A87"
+				item: "securitycraft:blacklist_module"
+				type: "item"
+			}]
+			title: "Obtenir : Module de liste de refus"
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:block_change_detector"
+			id: "30C191151A3DEAD2"
+			optional: true
+			rewards: [{
+				id: "4F3B811426E88D97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5408D2B85F189389"
+				item: "securitycraft:block_change_detector"
+				type: "item"
+			}]
+			title: "Obtenir : Détecteur de changements de blocs"
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:block_pocket_manager"
+			id: "6F9FF3FA4D939014"
+			optional: true
+			rewards: [{
+				id: "728311A7A1C164BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16591997F2C16D3E"
+				item: "securitycraft:block_pocket_manager"
+				type: "item"
+			}]
+			title: "Obtenir : Gestionnaire de Bloc de Poche"
+			x: 9.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:bouncing_betty"
+			id: "47E7BAF2940DADF2"
+			optional: true
+			rewards: [{
+				id: "06208FDFB7E010B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3851C9ECCB370A07"
+				item: "securitycraft:bouncing_betty"
+				type: "item"
+			}]
+			title: "Obtenir : Mine sauteuse"
+			x: 10.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:briefcase"
+			id: "7BC72E0F0FD54D83"
+			optional: true
+			rewards: [{
+				id: "67A38162D96CF41F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7703D00AB28A1B5A"
+				item: "securitycraft:briefcase"
+				type: "item"
+			}]
+			title: "Obtenir : Malette"
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:cage_trap"
+			id: "79E464CFF259488D"
+			optional: true
+			rewards: [{
+				id: "3684219EBA852DD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75B0AA8EE93E666B"
+				item: "securitycraft:cage_trap"
+				type: "item"
+			}]
+			title: "Obtenir : Piège à cages"
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:camera_monitor"
+			id: "4D3ABF85AEF78A5E"
+			optional: true
+			rewards: [{
+				id: "712826A7A2F9F0B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03DFBB1AA9D0C91E"
+				item: "securitycraft:camera_monitor"
+				type: "item"
+			}]
+			title: "Obtenir : Moniteur de caméra"
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:cherry_security_sea_boat"
+			id: "0EA5D8C3616DCFFA"
+			optional: true
+			rewards: [{
+				id: "46490B25BD52368F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33DCAC17E0995272"
+				item: "securitycraft:cherry_security_sea_boat"
+				type: "item"
+			}]
+			title: "Obtenir : Bateau sécurisé en cerisier"
+			x: 16.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:chiseled_crystal_quartz"
+			id: "6F808F9C0B8712B7"
+			optional: true
+			rewards: [{
+				id: "70793A7D56F3AEBA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "67540ECFEE4158A6"
+				item: "securitycraft:chiseled_crystal_quartz"
+				type: "item"
+			}]
+			title: "Obtenir : Bloc de cristal de quartz sculpté"
+			x: 18.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:claymore"
+			id: "6D34A9BC53E2C820"
+			optional: true
+			rewards: [{
+				id: "2197308FEBF6AFE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "453ABCA3FAA5DFF6"
+				item: "securitycraft:claymore"
+				type: "item"
+			}]
+			title: "Obtenir : Mine à détecteur"
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:codebreaker"
+			id: "69E1813A260B6B36"
+			optional: true
+			rewards: [{
+				id: "6E50139F86932956"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5776823164AF9C15"
+				item: "securitycraft:codebreaker"
+				type: "item"
+			}]
+			title: "Obtenir : Décrypteur de code"
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:crystal_quartz"
+			id: "237D6AE0AE2855BF"
+			optional: true
+			rewards: [{
+				id: "2F99D1D6169E7A10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22F21080F6249CF0"
+				item: "securitycraft:crystal_quartz"
+				type: "item"
+			}]
+			title: "Obtenir : Bloc de cristal de quartz"
+			x: 22.5d
+			y: -3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:crystal_quartz_bricks"
+			id: "274BAB054A7A5734"
+			optional: true
+			rewards: [{
+				id: "493AB50CDDC98B8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B85E9C0470F245E"
+				item: "securitycraft:crystal_quartz_bricks"
+				type: "item"
+			}]
+			title: "Obtenir : Briques de cristal de quartz"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:crystal_quartz_pillar"
+			id: "2D364CFA94C4781F"
+			optional: true
+			rewards: [{
+				id: "01186BBDFFCFBEA3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EB87AF24070D064"
+				item: "securitycraft:crystal_quartz_pillar"
+				type: "item"
+			}]
+			title: "Obtenir : Pilier en cristal de quartz"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:crystal_quartz_slab"
+			id: "5A28456DE8D7F699"
+			optional: true
+			rewards: [{
+				id: "1FFDDBBD46FE057A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5807B419148BB0DD"
+				item: "securitycraft:crystal_quartz_slab"
+				type: "item"
+			}]
+			title: "Obtenir : Dalle en cristal de quartz"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:crystal_quartz_stairs"
+			id: "2493ACC1BB30C6A1"
+			optional: true
+			rewards: [{
+				id: "0BFCE87B17B8D4A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64765D6CF4C0EE3F"
+				item: "securitycraft:crystal_quartz_stairs"
+				type: "item"
+			}]
+			title: "Obtenir : Escalier en cristal de quartz"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:dark_oak_security_sea_boat"
+			id: "7085A058A2FD70DB"
+			optional: true
+			rewards: [{
+				id: "34B6FD9469C1E928"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11D935800D0B036F"
+				item: "securitycraft:dark_oak_security_sea_boat"
+				type: "item"
+			}]
+			title: "Obtenir : Bateau sécurisé en chêne noir"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:disguise_module"
+			id: "39629C62DF8AA972"
+			optional: true
+			rewards: [{
+				id: "6374636D8C7F687B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58E6F3D658AE1F66"
+				item: "securitycraft:disguise_module"
+				type: "item"
+			}]
+			title: "Obtenir : Module de déguisement"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:display_case"
+			id: "728752B80BD2799A"
+			optional: true
+			rewards: [{
+				id: "28692B1ECFF6C73A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "454883B0A8E34B10"
+				item: "securitycraft:display_case"
+				type: "item"
+			}]
+			title: "Obtenir : Vitrine"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:electrified_iron_fence"
+			id: "422A031917ADADB5"
+			optional: true
+			rewards: [{
+				id: "3BAEF3FCB76D6B74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A9EDFF376F0DB54"
+				item: "securitycraft:electrified_iron_fence"
+				type: "item"
+			}]
+			title: "Obtenir : Barrière en fer électrifiée"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:floor_trap"
+			id: "557F6B1E9A4295E2"
+			optional: true
+			rewards: [{
+				id: "21EB8DC4D8122E5D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "585B12D7BB8179D8"
+				item: "securitycraft:floor_trap"
+				type: "item"
+			}]
+			title: "Obtenir : sol piégé"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:glow_display_case"
+			id: "165D8B3393A78F28"
+			optional: true
+			rewards: [{
+				id: "1CD6D02E3C589B96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "714038FAC8EFCE18"
+				item: "securitycraft:glow_display_case"
+				type: "item"
+			}]
+			title: "Obtenir : Vitrine luisante"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:harming_module"
+			id: "71EE1D7228D99963"
+			optional: true
+			rewards: [{
+				id: "7BD471B0179D9C4D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F98483B3C862005"
+				item: "securitycraft:harming_module"
+				type: "item"
+			}]
+			title: "Obtenir : Module de dégâts"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:ims"
+			id: "45E450CC3E31CBD4"
+			optional: true
+			rewards: [{
+				id: "6248B0DD8B9FF7A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3250B0497E19C74C"
+				item: "securitycraft:ims"
+				type: "item"
+			}]
+			title: "Obtenir : Système de Munitions Intelligent"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:incognito_mask"
+			id: "5EAD068D854F945D"
+			optional: true
+			rewards: [{
+				id: "2583E0ADD4C14FAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51099530AF49448F"
+				item: "securitycraft:incognito_mask"
+				type: "item"
+			}]
+			title: "Obtenir : Masque Incognito"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:inventory_scanner"
+			id: "295FDB91E3DAC37C"
+			optional: true
+			rewards: [{
+				id: "6AA1DE0888373A9E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58F940B11719B38C"
+				item: "securitycraft:inventory_scanner"
+				type: "item"
+			}]
+			title: "Obtenir : Scanner d'inventaire"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:jungle_security_sea_boat"
+			id: "42DED9206CBB6022"
+			optional: true
+			rewards: [{
+				id: "08C1143337C0F6EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0620F471AA05F23A"
+				item: "securitycraft:jungle_security_sea_boat"
+				type: "item"
+			}]
+			title: "Obtenir : Bateau sécurisé en acajou"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keycard_holder"
+			id: "243786A1F2633CFC"
+			optional: true
+			rewards: [{
+				id: "507F58A3779D7514"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3323F5DEB687540D"
+				item: "securitycraft:keycard_holder"
+				type: "item"
+			}]
+			title: "Obtenir : Porte-cartes"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keycard_lock"
+			id: "7FA67FAC1D25352F"
+			optional: true
+			rewards: [{
+				id: "2C236CFB1F72F448"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3757291B4102C324"
+				item: "securitycraft:keycard_lock"
+				type: "item"
+			}]
+			title: "Obtenir : Serrure à cartes d'accès"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keycard_lv1"
+			id: "22A65A96978DFF56"
+			optional: true
+			rewards: [{
+				id: "5CD13F93AF51CD55"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44C62F70DFFAB8AB"
+				item: "securitycraft:keycard_lv1"
+				type: "item"
+			}]
+			title: "Obtenir : Carte d'accès de niveau 1"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keycard_lv2"
+			id: "24841E9E6BAC0A5D"
+			optional: true
+			rewards: [{
+				id: "40983B3828EC098F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4242C2F912C39BFB"
+				item: "securitycraft:keycard_lv2"
+				type: "item"
+			}]
+			title: "Obtenir : Carte d'accès de niveau 2"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keycard_lv3"
+			id: "1439483A965348B3"
+			optional: true
+			rewards: [{
+				id: "63CA5164BACDEA50"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17A9EA4F8FC20497"
+				item: "securitycraft:keycard_lv3"
+				type: "item"
+			}]
+			title: "Obtenir : Carte d'accès de niveau 3"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keycard_lv4"
+			id: "2374074655FA0048"
+			optional: true
+			rewards: [{
+				id: "2ECDA3A34FAD640A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7512111761044FEE"
+				item: "securitycraft:keycard_lv4"
+				type: "item"
+			}]
+			title: "Obtenir : Carte d'accès de niveau 4"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keycard_lv5"
+			id: "2F034E12C9F1519E"
+			optional: true
+			rewards: [{
+				id: "35AD7DBA6E03407C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AE48271A79EEF26"
+				item: "securitycraft:keycard_lv5"
+				type: "item"
+			}]
+			title: "Obtenir : Carte d'accès de niveau 5"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keycard_reader"
+			id: "1DD7ABA344D869E8"
+			optional: true
+			rewards: [{
+				id: "75685649EB306DD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15DD58C62A5A4D4F"
+				item: "securitycraft:keycard_reader"
+				type: "item"
+			}]
+			title: "Obtenir : Lecteur de carte d'accès"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad"
+			id: "64AF4EED7D969C22"
+			optional: true
+			rewards: [{
+				id: "2DDB333B7BCEE06C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "182A01871C3007EE"
+				item: "securitycraft:keypad"
+				type: "item"
+			}]
+			title: "Obtenir : Clavier à code"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad_barrel"
+			id: "291DCD68C8BFD156"
+			optional: true
+			rewards: [{
+				id: "00226D1068347DD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17540B7B51B6F188"
+				item: "securitycraft:keypad_barrel"
+				type: "item"
+			}]
+			title: "Obtenir : Tonneau protégé par un code d'accès"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad_blast_furnace"
+			id: "6FCB49DEF1425CA6"
+			optional: true
+			rewards: [{
+				id: "6272951AEE8C0DEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "539CB619E3ED903F"
+				item: "securitycraft:keypad_blast_furnace"
+				type: "item"
+			}]
+			title: "Obtenir : Haut fourneau protégé par un code d'accès"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad_chest"
+			id: "741EBA72417FE0B6"
+			optional: true
+			rewards: [{
+				id: "201E2EE667E55E33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FE683EB57C393F7"
+				item: "securitycraft:keypad_chest"
+				type: "item"
+			}]
+			title: "Obtenir : Coffre protégé par un code d'accès"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad_door_item"
+			id: "20FB7F07CC04211E"
+			optional: true
+			rewards: [{
+				id: "45126D33371FB5B2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3273204BC11A0A93"
+				item: "securitycraft:keypad_door_item"
+				type: "item"
+			}]
+			title: "Obtenir : Porte à code"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad_frame"
+			id: "0793019F2E731043"
+			optional: true
+			rewards: [{
+				id: "3886C4385F0FEFEC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0EBD69ED340E205A"
+				item: "securitycraft:keypad_frame"
+				type: "item"
+			}]
+			title: "Obtenir : Cadre"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad_furnace"
+			id: "11876DE1477182D8"
+			optional: true
+			rewards: [{
+				id: "20045F5512EE4FAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3248974CE37DF77F"
+				item: "securitycraft:keypad_furnace"
+				type: "item"
+			}]
+			title: "Obtenir : Fourneau protégé par un code d'accès"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad_smoker"
+			id: "37412C16CA5BAE43"
+			optional: true
+			rewards: [{
+				id: "3244415EA1197017"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "552DB935F96E791F"
+				item: "securitycraft:keypad_smoker"
+				type: "item"
+			}]
+			title: "Obtenir : Fumoir protégé par un code d'accès"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:keypad_trapdoor"
+			id: "3079533D2F19AFA3"
+			optional: true
+			rewards: [{
+				id: "0195308C4B95D636"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03648919B039F0D8"
+				item: "securitycraft:keypad_trapdoor"
+				type: "item"
+			}]
+			title: "Obtenir : Trappe avec clavier à code"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:laser_block"
+			id: "4745ED8CE13F250E"
+			optional: true
+			rewards: [{
+				id: "480A35C5CF80DE5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5FFC6D91C5EB92E8"
+				item: "securitycraft:laser_block"
+				type: "item"
+			}]
+			title: "Obtenir : Bloc laser"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:lens"
+			id: "7B12ED6A4F0AB203"
+			optional: true
+			rewards: [{
+				id: "3B44FB34458910A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CB8560FC899F849"
+				item: "securitycraft:lens"
+				type: "item"
+			}]
+			title: "Obtenir : Lentille"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:limited_use_keycard"
+			id: "58737F637BEECA20"
+			optional: true
+			rewards: [{
+				id: "79B0BBC8B71DEC5B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D845BA666F77668"
+				item: "securitycraft:limited_use_keycard"
+				type: "item"
+			}]
+			title: "Obtenir : Carte d'accès à utilisations limitées"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:mangrove_security_sea_boat"
+			id: "608E69F21A453976"
+			optional: true
+			rewards: [{
+				id: "3422356A7C3A81CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "036FE2381F789708"
+				item: "securitycraft:mangrove_security_sea_boat"
+				type: "item"
+			}]
+			title: "Obtenir : Bateau sécurisé en palétuvier"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:mine"
+			id: "54BD53F46C12AAC2"
+			optional: true
+			rewards: [{
+				id: "05CF4ADED66812ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2771AAB6A73C6D44"
+				item: "securitycraft:mine"
+				type: "item"
+			}]
+			title: "Obtenir : Mine"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:motion_activated_light"
+			id: "193062A7888F1830"
+			optional: true
+			rewards: [{
+				id: "4008F8850CB95499"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14A3079EB666AED9"
+				item: "securitycraft:motion_activated_light"
+				type: "item"
+			}]
+			title: "Obtenir : Lumière à détection de mouvement"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:oak_security_sea_boat"
+			id: "472040A5FEC760CB"
+			optional: true
+			rewards: [{
+				id: "47F88BDE773078CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2165488699369286"
+				item: "securitycraft:oak_security_sea_boat"
+				type: "item"
+			}]
+			title: "Obtenir : Bateau sécurisé en chêne"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:panic_button"
+			id: "2715F59295D6BC04"
+			optional: true
+			rewards: [{
+				id: "334E057C641A10E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CA0AB8509DED85C"
+				item: "securitycraft:panic_button"
+				type: "item"
+			}]
+			title: "Obtenir : Bouton de panique"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:portable_radar"
+			id: "5768E3564B9FC63E"
+			optional: true
+			rewards: [{
+				id: "37FD2097138D137A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0278C8AFB496030D"
+				item: "securitycraft:portable_radar"
+				type: "item"
+			}]
+			title: "Obtenir : Radar portable"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:portable_tune_player"
+			id: "67AD1AEE6769E71F"
+			optional: true
+			rewards: [{
+				id: "4B625F21A869359F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DDD72C7922B6FBB"
+				item: "securitycraft:portable_tune_player"
+				type: "item"
+			}]
+			title: "Obtenir : Lecteur de mélodie portable"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:projector"
+			id: "614AFCA8FE4045EB"
+			optional: true
+			rewards: [{
+				id: "4587E030D9356D9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "273CAB4C9CE9DF68"
+				item: "securitycraft:projector"
+				type: "item"
+			}]
+			title: "Obtenir : Projecteur"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:protecto"
+			id: "4B4E81732AC00940"
+			optional: true
+			rewards: [{
+				id: "6F661B81EF29A2A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2500AA114386CB86"
+				item: "securitycraft:protecto"
+				type: "item"
+			}]
+			title: "Obtenir : Protecto"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:redstone_module"
+			id: "693695B9062D0280"
+			optional: true
+			rewards: [{
+				id: "35C2F8A80D0ABB79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0288BF6FD9E14747"
+				item: "securitycraft:redstone_module"
+				type: "item"
+			}]
+			title: "Obtenir : Module de redstone"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:remote_access_sentry"
+			id: "543C68002EF21DB0"
+			optional: true
+			rewards: [{
+				id: "255DE164A5674ECA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "322C8B07FE39D2E2"
+				item: "securitycraft:remote_access_sentry"
+				type: "item"
+			}]
+			title: "Obtenir : Outil d'accès aux sentinelles à distance"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:retinal_scanner"
+			id: "4F9F83774286B90D"
+			optional: true
+			rewards: [{
+				id: "533A0CB59BA9972F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "372B792FBB1CC459"
+				item: "securitycraft:retinal_scanner"
+				type: "item"
+			}]
+			title: "Obtenir : Scanner rétinien"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:rift_stabilizer"
+			id: "59F186B60FE9F704"
+			optional: true
+			rewards: [{
+				id: "1C5AC19917CE33E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F66F00A817F6CE0"
+				item: "securitycraft:rift_stabilizer"
+				type: "item"
+			}]
+			title: "Obtenir : Stabilisateur de faille"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:sc_manual"
+			id: "4375C7B5074712A3"
+			optional: true
+			rewards: [{
+				id: "18F632CC3D4EA669"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6631F94136A0A7E0"
+				item: "securitycraft:sc_manual"
+				type: "item"
+			}]
+			title: "Obtenir : Manuel de SecurityCraft"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:scanner_door_item"
+			id: "47CACC785CB61892"
+			optional: true
+			rewards: [{
+				id: "00EA11EAC98BDF69"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D6D4D0FEE92DAD6"
+				item: "securitycraft:scanner_door_item"
+				type: "item"
+			}]
+			title: "Obtenir : Porte avec scanner rétinien"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:scanner_trapdoor"
+			id: "3F146E829AC8EC69"
+			optional: true
+			rewards: [{
+				id: "5AFD2CAE3B902079"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "368B1CAB125F7242"
+				item: "securitycraft:scanner_trapdoor"
+				type: "item"
+			}]
+			title: "Obtenir : Trappe avec scanner rétinien"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:secure_redstone_interface"
+			id: "0AEC6B464DE04BB4"
+			optional: true
+			rewards: [{
+				id: "6DA297219838A5F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "017A0578E1F1BF18"
+				item: "securitycraft:secure_redstone_interface"
+				type: "item"
+			}]
+			title: "Obtenir : Interface Redstone Sécurisée"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:secure_trading_station"
+			id: "672F0CD52C4142C9"
+			optional: true
+			rewards: [{
+				id: "3303DBD98D414C64"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40D3D1ACE99CFF2F"
+				item: "securitycraft:secure_trading_station"
+				type: "item"
+			}]
+			title: "Obtenir : Station d'échange sécurisée"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:security_camera"
+			id: "664D93630D8E3734"
+			optional: true
+			rewards: [{
+				id: "0C6539A06A846733"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41C55C355872A3FD"
+				item: "securitycraft:security_camera"
+				type: "item"
+			}]
+			title: "Obtenir : Caméra de sécurité"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:sentry"
+			id: "52CD6F871016C4B3"
+			optional: true
+			rewards: [{
+				id: "6878D8023ABD0504"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "695AEDB7D283649E"
+				item: "securitycraft:sentry"
+				type: "item"
+			}]
+			title: "Obtenir : Sentinelle"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:smart_module"
+			id: "5DB21D5C42A01FDE"
+			optional: true
+			rewards: [{
+				id: "25576B8420A8F270"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CD404A0AB2EFB13"
+				item: "securitycraft:smart_module"
+				type: "item"
+			}]
+			title: "Obtenir : Module intelligent"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:smooth_crystal_quartz"
+			id: "1EAEFCA2D44012F6"
+			optional: true
+			rewards: [{
+				id: "712631EF8EAB82E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65E126F64DCE3B5A"
+				item: "securitycraft:smooth_crystal_quartz"
+				type: "item"
+			}]
+			title: "Obtenir : Bloc de cristal de quartz lisse"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:smooth_crystal_quartz_slab"
+			id: "609F90E005C68709"
+			optional: true
+			rewards: [{
+				id: "09CA24F9E8F57CFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41D88B7CCBA2239B"
+				item: "securitycraft:smooth_crystal_quartz_slab"
+				type: "item"
+			}]
+			title: "Obtenir : Dalle en cristal de quartz lisse"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:smooth_crystal_quartz_stairs"
+			id: "50656C85DDACEFDC"
+			optional: true
+			rewards: [{
+				id: "721F3D945D9CBE24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58421A611CED2FB9"
+				item: "securitycraft:smooth_crystal_quartz_stairs"
+				type: "item"
+			}]
+			title: "Obtenir : Escalier en cristal de quartz lisse"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:sonic_security_system"
+			id: "7FBAFE732B6DE179"
+			optional: true
+			rewards: [{
+				id: "0B9A553C434F0A65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "798F82288643502C"
+				item: "securitycraft:sonic_security_system"
+				type: "item"
+			}]
+			title: "Obtenir : Système de sécurité sonique"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:speed_module"
+			id: "4C4CE0553C26D64C"
+			optional: true
+			rewards: [{
+				id: "214BF9BD37BB0E0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EA74F32F687CE34"
+				item: "securitycraft:speed_module"
+				type: "item"
+			}]
+			title: "Obtenir : Module de vitesse"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:spruce_security_sea_boat"
+			id: "17A5F02A8BD7E4CA"
+			optional: true
+			rewards: [{
+				id: "41FF010676639641"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52205D2F6F52BC6C"
+				item: "securitycraft:spruce_security_sea_boat"
+				type: "item"
+			}]
+			title: "Obtenir : Bateau sécurisé en sapin"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:storage_module"
+			id: "233920E406266D90"
+			optional: true
+			rewards: [{
+				id: "5C9F046BA6162B56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52CF0EC957EB70EC"
+				item: "securitycraft:storage_module"
+				type: "item"
+			}]
+			title: "Obtenir : Module de stockage"
+			x: 21.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:taser"
+			id: "26A58B4B1F4E5727"
+			optional: true
+			rewards: [{
+				id: "1C57F06D3AD26F31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17A60C79E64E4570"
+				item: "securitycraft:taser"
+				type: "item"
+			}]
+			title: "Obtenir : Taser"
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:trophy_system"
+			id: "66F7F076BC61E524"
+			optional: true
+			rewards: [{
+				id: "38D8ACB5D0E02492"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32EFF5C64D157D64"
+				item: "securitycraft:trophy_system"
+				type: "item"
+			}]
+			title: "Obtenir : Système Trophée"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:universal_block_modifier"
+			id: "4F57A65FAAC02EDF"
+			optional: true
+			rewards: [{
+				id: "7E9853DDE64E068C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "01055CD497791405"
+				item: "securitycraft:universal_block_modifier"
+				type: "item"
+			}]
+			title: "Obtenir : Modificateur de blocs universel"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:universal_block_reinforcer_lvl1"
+			id: "2C9C6944DA16422E"
+			optional: true
+			rewards: [{
+				id: "5807A3C54C9E65EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26C89473021C9F48"
+				item: "securitycraft:universal_block_reinforcer_lvl1"
+				type: "item"
+			}]
+			title: "Obtenir : Outil de blindage universel (Niv1)"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:universal_block_reinforcer_lvl2"
+			id: "7EB4E5234AE2CC2B"
+			optional: true
+			rewards: [{
+				id: "064245DD2AE89DBD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A3B369174028C7C"
+				item: "securitycraft:universal_block_reinforcer_lvl2"
+				type: "item"
+			}]
+			title: "Obtenir : Outil de blindage universel (Niv2)"
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:universal_block_reinforcer_lvl3"
+			id: "2B19B26FB91145C4"
+			optional: true
+			rewards: [{
+				id: "77862CD23938DB56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "638274CF0D7B2148"
+				item: "securitycraft:universal_block_reinforcer_lvl3"
+				type: "item"
+			}]
+			title: "Obtenir : Outil de blindage universel (Niv3)"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:universal_block_remover"
+			id: "7100533AA6D81807"
+			optional: true
+			rewards: [{
+				id: "626C613CE1394DAF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78A42C1A562BBD71"
+				item: "securitycraft:universal_block_remover"
+				type: "item"
+			}]
+			title: "Obtenir : Démonte-blocs universel"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:universal_key_changer"
+			id: "79E84E76CF385FBB"
+			optional: true
+			rewards: [{
+				id: "58E4E0F240CC3180"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36626DEC9E6ED16C"
+				item: "securitycraft:universal_key_changer"
+				type: "item"
+			}]
+			title: "Obtenir : Modificateur de code universel"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:universal_owner_changer"
+			id: "4A1513E6532BA20D"
+			optional: true
+			rewards: [{
+				id: "6A4CF7A4A1C211EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69D15DC9398F0FA0"
+				item: "securitycraft:universal_owner_changer"
+				type: "item"
+			}]
+			title: "Obtenir : Modificateur de propriétaire universel"
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:username_logger"
+			id: "2F06FC5E6917A54A"
+			optional: true
+			rewards: [{
+				id: "051427A911D61B48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EE1E2BDF768EC75"
+				item: "securitycraft:username_logger"
+				type: "item"
+			}]
+			title: "Obtenir : Enregistreur de nom d'utilisateur"
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:whitelist_module"
+			id: "571CFA5EBB287DE1"
+			optional: true
+			rewards: [{
+				id: "21F2D83DB7A6C474"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46C8A111488B4F99"
+				item: "securitycraft:whitelist_module"
+				type: "item"
+			}]
+			title: "Obtenir : Module de liste d'autorisation"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			description: ["Objet de &bsecuritycraft&r."]
+			icon: "securitycraft:wire_cutters"
+			id: "38D003095C485F84"
+			optional: true
+			rewards: [{
+				id: "1E6394BEC44D1210"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F54A6C9FAFF2495"
+				item: "securitycraft:wire_cutters"
+				type: "item"
+			}]
+			title: "Obtenir : Pince coupante"
+			x: 15.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"67EEE73AF0390769"
+				"4B6B3336B41914F4"
+				"67D5F416DB43BB10"
+				"669A6DE7611F9AD9"
+				"67FC21A8E96B0B7D"
+				"30C191151A3DEAD2"
+				"6F9FF3FA4D939014"
+				"47E7BAF2940DADF2"
+				"7BC72E0F0FD54D83"
+				"79E464CFF259488D"
+				"4D3ABF85AEF78A5E"
+				"0EA5D8C3616DCFFA"
+				"6F808F9C0B8712B7"
+				"6D34A9BC53E2C820"
+				"69E1813A260B6B36"
+				"237D6AE0AE2855BF"
+				"274BAB054A7A5734"
+				"2D364CFA94C4781F"
+				"5A28456DE8D7F699"
+				"2493ACC1BB30C6A1"
+				"7085A058A2FD70DB"
+				"39629C62DF8AA972"
+				"728752B80BD2799A"
+				"422A031917ADADB5"
+				"557F6B1E9A4295E2"
+				"165D8B3393A78F28"
+				"71EE1D7228D99963"
+				"45E450CC3E31CBD4"
+				"5EAD068D854F945D"
+				"295FDB91E3DAC37C"
+				"42DED9206CBB6022"
+				"243786A1F2633CFC"
+				"7FA67FAC1D25352F"
+				"22A65A96978DFF56"
+				"24841E9E6BAC0A5D"
+				"1439483A965348B3"
+				"2374074655FA0048"
+				"2F034E12C9F1519E"
+				"1DD7ABA344D869E8"
+				"64AF4EED7D969C22"
+				"291DCD68C8BFD156"
+				"6FCB49DEF1425CA6"
+				"741EBA72417FE0B6"
+				"20FB7F07CC04211E"
+				"0793019F2E731043"
+				"11876DE1477182D8"
+				"37412C16CA5BAE43"
+				"3079533D2F19AFA3"
+				"4745ED8CE13F250E"
+				"7B12ED6A4F0AB203"
+				"58737F637BEECA20"
+				"608E69F21A453976"
+				"54BD53F46C12AAC2"
+				"193062A7888F1830"
+				"472040A5FEC760CB"
+				"2715F59295D6BC04"
+				"5768E3564B9FC63E"
+				"67AD1AEE6769E71F"
+				"614AFCA8FE4045EB"
+				"4B4E81732AC00940"
+				"693695B9062D0280"
+				"543C68002EF21DB0"
+				"4F9F83774286B90D"
+				"59F186B60FE9F704"
+				"4375C7B5074712A3"
+				"47CACC785CB61892"
+				"3F146E829AC8EC69"
+				"0AEC6B464DE04BB4"
+				"672F0CD52C4142C9"
+				"664D93630D8E3734"
+				"52CD6F871016C4B3"
+				"5DB21D5C42A01FDE"
+				"1EAEFCA2D44012F6"
+				"609F90E005C68709"
+				"50656C85DDACEFDC"
+				"7FBAFE732B6DE179"
+				"4C4CE0553C26D64C"
+				"17A5F02A8BD7E4CA"
+				"233920E406266D90"
+				"26A58B4B1F4E5727"
+				"66F7F076BC61E524"
+				"4F57A65FAAC02EDF"
+				"2C9C6944DA16422E"
+				"7EB4E5234AE2CC2B"
+				"2B19B26FB91145C4"
+				"7100533AA6D81807"
+				"79E84E76CF385FBB"
+				"4A1513E6532BA20D"
+				"2F06FC5E6917A54A"
+				"571CFA5EBB287DE1"
+				"38D003095C485F84"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "securitycraft:sentry"
+			id: "04C8048CD9323388"
+			optional: true
+			rewards: [{
+				id: "0B34363D748EAC18"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "78DB508595E63E4D"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&cArsenal de défense"
+}
