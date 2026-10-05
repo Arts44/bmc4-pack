@@ -1,0 +1,217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "factions_histoire"
+	group: "261CC511CD09A07E"
+	icon: "minecraft:written_book"
+	id: "1CC0468773CD2DB3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Le récit de BMC4, page par page. Chaque quête est une date, et ce qu'elle a changé pour toi en jeu. Le chapitre grandit avec le serveur : après chaque événement marquant, une page s'ajoute."]
+			icon: "minecraft:written_book"
+			id: "1B457102B1586818"
+			rewards: [{
+				id: "3D43019F1F40CD0C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "019F9AF4C00B9EFF"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cCe qui s'est passé ici"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B457102B1586818"]
+			description: ["La difficulté passe en &lnormal&r, la distance de simulation à six chunks, et huit dimensions sont prégénérées pour que l'exploration ne fasse plus ramer le serveur. Le même jour, le bot apprend à tenir les &lraids&r."]
+			id: "64742BAD01CCFDB3"
+			rewards: [{
+				id: "6EBD7AF7C7E8FBF6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "14032EEE122C3FB0"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "7 septembre : les règles du monde"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64742BAD01CCFDB3"]
+			description: ["Deux systèmes de claims tournaient en même temps. Tout passe sur &lFTB Chunks&r, et la règle de raid sait enfin ce qui est « hors claim »."]
+			id: "6CE66D1660142A2C"
+			rewards: [{
+				id: "36C72E4E5D280E36"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1A44C55E9EAAE019"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "8 septembre : un seul système de claims"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CE66D1660142A2C"]
+			description: ["Le mod Theft contredisait la règle « pas de vol ». Après discussion, c'est le règlement qui change : &lhors claim&r, le gant de voleur est permis. La frontière est le claim, pas l'objet."]
+			id: "4DAF9B1D1126C9D1"
+			rewards: [{
+				id: "468714809B0D54EF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "264D870BA49354F8"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "8 septembre : le vol devient légal"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DAF9B1D1126C9D1"]
+			description: ["Jusque-là, chacun voyait les claims de tous sur la carte. Ils passent en privé : le secret des coordonnées devient tenable. Le même jour, une alliance que personne n'avait décidée est retirée, et les dragons entrent dans une équipe commune, sans tir allié."]
+			id: "31C30ABA6027FE91"
+			rewards: [{
+				id: "6EC925026F66467F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6776F80A56F00AD9"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "9 septembre : les claims deviennent secrets"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31C30ABA6027FE91"]
+			description: ["Six mods arrivent dans le pack, dont &dCC: Tweaked&r, qui fera tomber le serveur une fois avant d'être réglé."]
+			id: "21498CAE4C0D08FA"
+			rewards: [{
+				id: "191D803FBD511F75"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1D9EFE36F30026E3"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "20 septembre : la version 60"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21498CAE4C0D08FA"]
+			description: ["Le vocal de proximité et les coffres par joueur. Ce qui avait été pillé avant ce jour le reste."]
+			id: "1C126C28F169135A"
+			rewards: [{
+				id: "011DA8ED864FDEF1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6169C99CC68D8332"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "4 octobre : la version 61"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C126C28F169135A"]
+			description: ["Quarante-neuf chunks autour du point d'apparition : on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. C'est la seule zone neutre du serveur."]
+			id: "0AB6E1AA29E6D7E4"
+			rewards: [{
+				id: "417A7D60DF99E078"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2AEBA5AB6BD84B02"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "5 octobre : le Marché devient un claim du serveur"
+			x: 14.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1C126C28F169135A"]
+			description: ["Mourir pendant un raid coûtait un cœur à tout le monde. Désormais, seuls les membres des deux factions engagées le perdent, et les repas le rendent à tout moment."]
+			id: "3AD6A43AA29D5FEA"
+			rewards: [{
+				id: "3F7936ECD723DB9B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "419CEF9894FD8207"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "5 octobre : le cœur perdu"
+			x: 14.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0AB6E1AA29E6D7E4"]
+			description: ["Le Marché Flottant, autour du point d'apparition : la waystone, les pavillons, les barils d'échange. Le seul lieu que tout le monde partage."]
+			id: "5417F0CFDEF61363"
+			rewards: [{
+				id: "2D8E4918C18AC5F3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "239A4119ABA747C8"
+				title: "Je suis passé au Marché"
+				type: "checkmark"
+			}]
+			title: "Une visite au Marché"
+			x: 16.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"0AB6E1AA29E6D7E4"
+				"3AD6A43AA29D5FEA"
+			]
+			description: ["Les prochaines pages : le premier raid gagné, une nouvelle faction, la battle royale. Elles s'ajouteront ici."]
+			icon: "minecraft:writable_book"
+			id: "6A0ECC69FB678D7E"
+			rewards: [{
+				id: "52506A2927B96711"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "02FA94DA8B7C3211"
+				title: "À suivre"
+				type: "checkmark"
+			}]
+			title: "&cLa suite s'écrit"
+			x: 16.0d
+			y: 0.75d
+		}
+	]
+	title: "&cHistoire du serveur"
+}

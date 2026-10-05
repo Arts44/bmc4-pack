@@ -1,0 +1,133 @@
+# Chapitre « Histoire du serveur » — cahier des charges §9.5
+# Cases à cocher, récompenses S (XP). Un récit, pas une tâche de jeu.
+# N'y entre que ce qui est daté par une pièce (5 octobre 2026) :
+# decisions.md du dépôt (7, 8, 9 et 20 septembre, 4 octobre), l'historique
+# git du bot (système de raid le 7 septembre), le journal de migration
+# (Marché claim serveur et cœur perdu le 5 octobre).
+# ABSENT faute de pièce, à fournir par Arthur : la date d'ouverture, la
+# création d'Apex et des Farmer's, la construction du Marché Flottant, le
+# premier raid gagné. Les quêtes se rajoutent à la fin, dans l'ordre des
+# dates, sans renommer les clés existantes (une clé renommée efface la
+# progression). Le 5 janvier (battle royale) s'écrira après l'événement.
+# Aucun lieu de faction n'y est cité : le règlement interdit de divulguer
+# les coordonnées d'une faction.
+
+[chapitre]
+titre = "&cHistoire du serveur"
+fichier = "factions_histoire"
+groupe = "factions"
+icone = "minecraft:written_book"
+ordre = 4
+
+[[quete]]
+cle = "intro"
+titre = "&cCe qui s'est passé ici"
+taille = 1.5
+icone = "minecraft:written_book"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Le récit de BMC4, page par page. Chaque quête est une date, et ce qu'elle a changé pour toi en jeu. Le chapitre grandit avec le serveur : après chaque événement marquant, une page s'ajoute.
+"""
+
+[[quete]]
+cle = "sept_07"
+titre = "7 septembre : les règles du monde"
+deps = ["intro"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+La difficulté passe en &lnormal&r, la distance de simulation à six chunks, et huit dimensions sont prégénérées pour que l'exploration ne fasse plus ramer le serveur. Le même jour, le bot apprend à tenir les &lraids&r.
+"""
+
+[[quete]]
+cle = "sept_08_claims"
+titre = "8 septembre : un seul système de claims"
+deps = ["sept_07"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Deux systèmes de claims tournaient en même temps. Tout passe sur &lFTB Chunks&r, et la règle de raid sait enfin ce qui est « hors claim ».
+"""
+
+[[quete]]
+cle = "sept_08_vol"
+titre = "8 septembre : le vol devient légal"
+deps = ["sept_08_claims"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Le mod Theft contredisait la règle « pas de vol ». Après discussion, c'est le règlement qui change : &lhors claim&r, le gant de voleur est permis. La frontière est le claim, pas l'objet.
+"""
+
+[[quete]]
+cle = "sept_09"
+titre = "9 septembre : les claims deviennent secrets"
+deps = ["sept_08_vol"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Jusque-là, chacun voyait les claims de tous sur la carte. Ils passent en privé : le secret des coordonnées devient tenable. Le même jour, une alliance que personne n'avait décidée est retirée, et les dragons entrent dans une équipe commune, sans tir allié.
+"""
+
+[[quete]]
+cle = "sept_20"
+titre = "20 septembre : la version 60"
+deps = ["sept_09"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Six mods arrivent dans le pack, dont &dCC: Tweaked&r : sa première version a empêché le serveur de démarrer, incompatible avec Create 6, avant d'être remplacée par une version corrigée.
+"""
+
+[[quete]]
+cle = "oct_04"
+titre = "4 octobre : la version 61"
+deps = ["sept_20"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Le vocal de proximité et les coffres par joueur. Ce qui avait été pillé avant ce jour le reste.
+"""
+
+[[quete]]
+cle = "oct_05_marche"
+titre = "5 octobre : le Marché devient un claim du serveur"
+deps = ["oct_04"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Quarante-neuf chunks autour du point d'apparition : on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. C'est la seule zone neutre du serveur.
+"""
+
+[[quete]]
+cle = "oct_05_coeur"
+titre = "5 octobre : le cœur perdu"
+deps = ["oct_04"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Mourir pendant un raid coûtait un cœur à tout le monde. Désormais, seuls les membres des deux factions engagées le perdent, et les repas le rendent à tout moment.
+"""
+
+[[quete]]
+cle = "marche"
+titre = "Une visite au Marché"
+deps = ["oct_05_marche"]
+taches = ["checkmark Je suis passé au Marché"]
+recompenses = ["xp 3"]
+description = """
+Le Marché Flottant, autour du point d'apparition : la waystone, les pavillons, les barils d'échange. Le seul lieu que tout le monde partage.
+"""
+
+[[quete]]
+cle = "suite"
+titre = "&cLa suite s'écrit"
+deps = ["oct_05_marche", "oct_05_coeur"]
+taille = 1.3
+icone = "minecraft:writable_book"
+taches = ["checkmark À suivre"]
+recompenses = ["xp 5"]
+description = """
+Les prochaines pages : le premier raid gagné, une nouvelle faction, la battle royale. Elles s'ajouteront ici.
+"""
