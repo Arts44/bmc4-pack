@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bases_archeologie"
+	group: "00400F52F527AA36"
+	icon: "minecraft:brush"
+	id: "0A79D2516718865A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Un pinceau, du sable suspect, et des tessons qui racontent. Le renifleur dort dans un œuf sous les ruines."]
+			icon: "minecraft:decorated_pot"
+			id: "4C3B062E56A66A7D"
+			rewards: [{
+				count: 4
+				id: "7F4E6696782FB253"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "47BB328B3BF811D6"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Ce que le sable cache"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3B062E56A66A7D"]
+			description: ["Plume, lingot de cuivre, bâton. Le &lsable suspect&r est dans les temples du désert, les puits du désert et les ruines océaniques chaudes ; le &lgravier suspect&r dans les ruines de sentier et les ruines océaniques froides. Il tombe comme du sable : on le brosse par le haut ou de côté."]
+			icon: "minecraft:brush"
+			id: "772A14A653325A6D"
+			rewards: [{
+				id: "14750D122EDD68B5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "5E0579E8A30DD608"
+					item: "minecraft:brush"
+					type: "item"
+				}
+				{
+					id: "371A877B8E383FAB"
+					item: "minecraft:suspicious_sand"
+					type: "item"
+				}
+			]
+			title: "Un pinceau"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["772A14A653325A6D"]
+			description: ["Brosser un bloc suspect jusqu'au bout (progrès vanilla). Le sable peut aussi donner des émeraudes, des diamants, des modèles d'ornement."]
+			id: "0376387E73476D08"
+			rewards: [{
+				id: "5E3598EBAABDFDBF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/salvage_sherd"
+				criterion: ""
+				id: "2F12BC4EC2D2B638"
+				type: "advancement"
+			}]
+			title: "Un premier tesson"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0376387E73476D08"]
+			description: ["Quatre briques, ou quatre tessons, ou un mélange. Le progrès « Careful Restoration » veut quatre tessons."]
+			icon: "minecraft:decorated_pot"
+			id: "18CE461E3ED2F939"
+			rewards: [{
+				id: "47C888B5A2B46694"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "75784CE3D94DDE88"
+				item: "minecraft:decorated_pot"
+				type: "item"
+			}]
+			title: "Un pot décoré"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["18CE461E3ED2F939"]
+			id: "08FBD8AE96C80569"
+			optional: true
+			rewards: [{
+				id: "34CFF1F9B616ADE7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/craft_decorated_pot_using_only_sherds"
+				criterion: ""
+				id: "28D4D5DAEB17CFEE"
+				type: "advancement"
+			}]
+			title: "Restauration soignée"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C3B062E56A66A7D"]
+			description: ["Enfouies dans les taïgas, les forêts de bouleaux et les clairières de cerisiers : du gravier suspect, et des tessons qu'on ne trouve que là."]
+			id: "579F8518C04F4B32"
+			rewards: [{
+				id: "3D8AC31B764175C2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2B378C7DAC5A71E8"
+				structure: "minecraft:trail_ruins"
+				type: "structure"
+			}]
+			title: "Les ruines de sentier"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3B062E56A66A7D"]
+			description: ["Dans le sable suspect des &lruines océaniques chaudes&r (progrès vanilla). Il éclôt plus vite sur de la mousse."]
+			id: "37C515B906C2FE50"
+			rewards: [{
+				id: "35242E16E1554E97"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_sniffer_egg"
+				criterion: ""
+				id: "269969F4D829EE03"
+				type: "advancement"
+			}]
+			title: "Un œuf de renifleur"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37C515B906C2FE50"]
+			description: ["Des graines de torchfleur (progrès vanilla)."]
+			id: "205343A8EE896C9B"
+			rewards: [{
+				id: "67D2F7C06C95A6A4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/feed_snifflet"
+				criterion: ""
+				id: "7ACBE16AD0BF0211"
+				type: "advancement"
+			}]
+			title: "Nourrir un reniflet"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["205343A8EE896C9B"]
+			description: ["Le renifleur fouille l'herbe et sort des graines de torchfleur et des gousses de pichet (progrès vanilla)."]
+			id: "4E9334D639EAD7F2"
+			rewards: [{
+				id: "0F04CCA52C3FDDD1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_any_sniffer_seed"
+				criterion: ""
+				id: "1A3FAC3C66651CA3"
+				type: "advancement"
+			}]
+			title: "Planter ce qu'il déterre"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0376387E73476D08"]
+			description: ["Dix des vingt. Les vingt sont au défi &6Collectionneur&r."]
+			icon: "minecraft:archer_pottery_sherd"
+			id: "2B90A23473865EBE"
+			optional: true
+			rewards: [{
+				id: "75CF140E24C0F5D4"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "21B62CDFAAB6EEA5"
+					item: "minecraft:archer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "08EAD97307268296"
+					item: "minecraft:arms_up_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "561C7C23373B76F2"
+					item: "minecraft:brewer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "11714EB93430C4F7"
+					item: "minecraft:miner_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "7D67111E05D559F9"
+					item: "minecraft:prize_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "3822F8AC15DE2DE2"
+					item: "minecraft:skull_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "55D139D245F1C732"
+					item: "minecraft:angler_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "1C410EE36738CBC5"
+					item: "minecraft:blade_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "615F9A6D7729D6C6"
+					item: "minecraft:explorer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "5CCA5A78B1D1EA22"
+					item: "minecraft:shelter_pottery_sherd"
+					type: "item"
+				}
+			]
+			title: "Dix tessons"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"18CE461E3ED2F939"
+				"579F8518C04F4B32"
+				"37C515B906C2FE50"
+			]
+			icon: "minecraft:sniffer_egg"
+			id: "0C0ABD891D127463"
+			rewards: [{
+				id: "6F91B28706493C08"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "0A6F6FD569B10FF1"
+				title: "Archéologue"
+				type: "checkmark"
+			}]
+			title: "&6Archéologue"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&6Archéologie"
+}

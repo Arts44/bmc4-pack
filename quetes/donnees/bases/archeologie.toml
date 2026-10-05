@@ -1,0 +1,122 @@
+# Chapitre « Archéologie » — cahier des charges §9.1.3
+# R0. Sources (5 octobre 2026) : objets et progrès vanilla de l'index
+# (salvage_sherd, craft_decorated_pot_using_only_sherds, obtain_sniffer_egg,
+# feed_snifflet, plant_any_sniffer_seed), vingt tessons, structure
+# trail_ruins. Le défi Collectionneur demande les vingt tessons.
+
+[chapitre]
+titre = "&6Archéologie"
+fichier = "bases_archeologie"
+groupe = "bases"
+icone = "minecraft:brush"
+ordre = 3
+
+[[quete]]
+cle = "intro"
+titre = "&6Ce que le sable cache"
+taille = 1.5
+icone = "minecraft:decorated_pot"
+taches = ["checkmark Lu"]
+recompenses = ["item minecraft:copper_ingot 4"]
+description = """
+Un pinceau, du sable suspect, et des tessons qui racontent. Le renifleur dort dans un œuf sous les ruines.
+"""
+
+[[quete]]
+cle = "pinceau"
+titre = "Un pinceau"
+deps = ["intro"]
+taches = ["item minecraft:brush", "item minecraft:suspicious_sand"]
+recompenses = ["xp 2"]
+description = """
+Plume, lingot de cuivre, bâton. Le &lsable suspect&r est dans les temples du désert, les puits du désert et les ruines océaniques chaudes ; le &lgravier suspect&r dans les ruines de sentier et les ruines océaniques froides. Il tombe comme du sable : on le brosse par le haut ou de côté.
+"""
+
+[[quete]]
+cle = "tesson"
+titre = "Un premier tesson"
+deps = ["pinceau"]
+taches = ["advancement minecraft:adventure/salvage_sherd"]
+recompenses = ["xp 3"]
+description = """
+Brosser un bloc suspect jusqu'au bout (progrès vanilla). Le sable peut aussi donner des émeraudes, des diamants, des modèles d'ornement.
+"""
+
+[[quete]]
+cle = "pot"
+titre = "Un pot décoré"
+deps = ["tesson"]
+taches = ["item minecraft:decorated_pot"]
+recompenses = ["xp 2"]
+description = """
+Quatre briques, ou quatre tessons, ou un mélange. Le progrès « Careful Restoration » veut quatre tessons.
+"""
+
+[[quete]]
+cle = "pot_tessons"
+titre = "Restauration soignée"
+deps = ["pot"]
+optionnel = true
+taches = ["advancement minecraft:adventure/craft_decorated_pot_using_only_sherds"]
+recompenses = ["xp 5"]
+
+[[quete]]
+cle = "ruines"
+titre = "Les ruines de sentier"
+deps = ["intro"]
+taches = ["structure minecraft:trail_ruins"]
+recompenses = ["xp 5"]
+description = """
+Enfouies dans les taïgas, les forêts de bouleaux et les clairières de cerisiers : du gravier suspect, et des tessons qu'on ne trouve que là.
+"""
+
+[[quete]]
+cle = "oeuf"
+titre = "Un œuf de renifleur"
+deps = ["intro"]
+taches = ["advancement minecraft:husbandry/obtain_sniffer_egg"]
+recompenses = ["xp 8"]
+description = """
+Dans le sable suspect des &lruines océaniques chaudes&r (progrès vanilla). Il éclôt plus vite sur de la mousse.
+"""
+
+[[quete]]
+cle = "renifleur"
+titre = "Nourrir un reniflet"
+deps = ["oeuf"]
+taches = ["advancement minecraft:husbandry/feed_snifflet"]
+recompenses = ["xp 5"]
+description = """
+Des graines de torchfleur (progrès vanilla).
+"""
+
+[[quete]]
+cle = "graines"
+titre = "Planter ce qu'il déterre"
+deps = ["renifleur"]
+taches = ["advancement minecraft:husbandry/plant_any_sniffer_seed"]
+recompenses = ["xp 5"]
+description = """
+Le renifleur fouille l'herbe et sort des graines de torchfleur et des gousses de pichet (progrès vanilla).
+"""
+
+[[quete]]
+cle = "vingt"
+titre = "Dix tessons"
+deps = ["tesson"]
+optionnel = true
+taille = 1.3
+taches = ["item minecraft:archer_pottery_sherd", "item minecraft:arms_up_pottery_sherd", "item minecraft:brewer_pottery_sherd", "item minecraft:miner_pottery_sherd", "item minecraft:prize_pottery_sherd", "item minecraft:skull_pottery_sherd", "item minecraft:angler_pottery_sherd", "item minecraft:blade_pottery_sherd", "item minecraft:explorer_pottery_sherd", "item minecraft:shelter_pottery_sherd"]
+recompenses = ["xp 15"]
+description = """
+Dix des vingt. Les vingt sont au défi &6Collectionneur&r.
+"""
+
+[[quete]]
+cle = "fin"
+titre = "&6Archéologue"
+deps = ["pot", "ruines", "oeuf"]
+taille = 1.3
+icone = "minecraft:sniffer_egg"
+taches = ["checkmark Archéologue"]
+recompenses = ["xp 5"]
