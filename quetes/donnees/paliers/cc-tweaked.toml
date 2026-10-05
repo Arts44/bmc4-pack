@@ -1,0 +1,39 @@
+# Échelle des paliers — CC: Tweaked (BMC-89, 5 octobre 2026). Recettes du
+# jar « CC Tweaked 1.20.1.jar ».
+chapitre = "cc_tweaked"
+sommet = "tortue_avancee"
+
+[[palier]]
+echelle = "tortue"
+cle = "ordinateur"
+preuve = "computer_normal"
+
+[[palier]]
+echelle = "tortue"
+cle = "tortue"
+preuve = "turtle_normal"
+
+[[palier]]
+echelle = "tortue"
+cle = "tortue_avancee"
+preuve = "recette computercraft:turtle (computer_advanced + or + coffre)"
+
+[[palier]]
+echelle = "ecran"
+cle = "moniteur"
+preuve = "monitor_normal"
+
+[[palier]]
+echelle = "ecran"
+cle = "moniteur_avance"
+preuve = "recette monitor_advanced"
+
+[[palier]]
+echelle = "reseau"
+cle = "modem"
+preuve = "wireless_modem_normal, wired_modem"
+
+[[palier]]
+echelle = "reseau"
+cle = "modem_ender"
+preuve = "recette wireless_modem_advanced"

@@ -97,9 +97,52 @@ Le &dhaut-parleur&r joue des sons et des notes depuis un programme — une alarm
 """
 
 [[quete]]
+cle = "moniteur_avance"
+titre = "Des moniteurs avancés"
+deps = ["moniteur", "avance"]
+taches = ["item computercraft:monitor_advanced 4"]
+recompenses = ["xp 5"]
+description = """
+Huit lingots d'or autour d'une vitre : quatre moniteurs avancés, qui affichent la couleur.
+"""
+
+[[quete]]
+cle = "modem_ender"
+titre = "Un modem ender"
+deps = ["modem"]
+taches = ["item computercraft:wireless_modem_advanced"]
+recompenses = ["xp 5"]
+description = """
+Huit lingots d'or autour d'un œil de l'Ender : un modem sans fil avancé.
+"""
+
+[[quete]]
+cle = "poche_avancee"
+titre = "Un ordinateur de poche avancé"
+deps = ["avance"]
+optionnel = true
+taches = ["item computercraft:pocket_computer_advanced"]
+recompenses = ["xp 5"]
+description = """
+Or, une pomme dorée et une vitre.
+"""
+
+[[quete]]
+cle = "tortue_avancee"
+titre = "&dUne tortue avancée"
+deps = ["tortue", "avance"]
+taille = 1.5
+forme = "diamond"
+taches = ["item computercraft:turtle_advanced"]
+recompenses = ["xp 10"]
+description = """
+Un ordinateur avancé dans une carcasse d'or, avec un coffre. Le dernier palier de CC: Tweaked.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&dUn programme qui tourne"
-deps = ["moniteur", "modem", "tortue"]
+deps = ["tortue_avancee", "moniteur_avance", "modem_ender"]
 exigence = "une"
 taille = 1.5
 icone = "computercraft:turtle_advanced"
