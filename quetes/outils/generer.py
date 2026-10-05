@@ -81,7 +81,12 @@ class Verif:
             return False
         return True
 
-    def item(self, i, ou): return self._ok('items', i, ou)
+    # Objets enregistrés sans clé de langue à leur nom (l'index les tire des
+    # fichiers de langue) : leur nom dépend du NBT.
+    SANS_LANGUE = {'dragonmounts:dragon_egg': "DMLRegistry (javap) : « dragon_egg », nom par race"}
+
+    def item(self, i, ou):
+        return True if i in self.SANS_LANGUE else self._ok('items', i, ou)
     def tag_item(self, t, ou): return self._ok('tags_items', t, ou)
     def entite(self, e, ou): return self._ok('entities', e, ou)
     def tag_entite(self, t, ou): return self._ok('tags_entities', t, ou)
@@ -108,6 +113,14 @@ class Verif:
         'ironjetpacks:capacitor': "recettes créées par le code d'Iron Jetpacks",
         'mysticalagriculture:cognizant_dust': "Wither ou Ender Dragon tué avec une arme d'essence enchantée d'Illumination mystique (guide du mod)",
         'dragonloot:dragon_scale': "butin de l'Ender Dragon ajouté par le code de DragonLoot (dragonloot-common.toml du serveur)",
+        # DragonLoot 1.1.15 : CompatRecipes (javap) — sans Netherite Plus, recettes de forge
+        # générées par le code et injectées par RecipeManagerMixin (modèle d'amélioration
+        # en nétherite + écaille sur l'objet vanilla ; plastron ailé = plastron de dragon + élytres).
+        'dragonloot:dragon_bow': "recette générée par le code de DragonLoot (arc + écaille)",
+        'dragonloot:dragon_crossbow': "recette générée par le code de DragonLoot (arbalète + écaille)",
+        'dragonloot:dragon_trident': "recette générée par le code de DragonLoot (trident + écaille)",
+        'dragonloot:dragon_horse_armor': "recette générée par le code de DragonLoot (armure de cheval en diamant + écaille)",
+        'dragonloot:upgraded_dragon_chestplate': "recette générée par le code de DragonLoot (plastron de dragon + élytres)",
     }
 
     def obtenable(self, i, ou):
@@ -249,6 +262,13 @@ def tache(spec, ou, verif, quete_id, idx):
     return t
 
 
+# Dragon Mounts: Legacy 10018 : data/dragonmounts/dragonmounts/dragon_breeds/*.json
+RACES_DRAGON = {'aether', 'aurora', 'black_fire', 'blood', 'blue_fire', 'bronze', 'crystal', 'dark', 'eclipse',
+                'elder', 'end', 'fire', 'forest', 'gale', 'ghost', 'ice', 'jade', 'light', 'lunar', 'magic',
+                'monarch', 'nether', 'ocean', 'primal_end', 'primal_nether', 'red', 'sculk', 'shadow', 'solar',
+                'soul_nether', 'storm', 'sylphid', 'terra', 'water', 'wither', 'zombie'}
+
+
 def _tache(spec, ou, verif, quete_id, idx, tid):
     mots = spec.split(' ')
     genre = mots[0]
@@ -300,6 +320,17 @@ def _tache(spec, ou, verif, quete_id, idx, tid):
         if len(mots) > 3 and int(mots[3]) > 1:
             t['count'] = Long(mots[3])
         return t
+    if genre == 'oeuf_dragon':
+        # oeuf_dragon <race> : l'œuf de Dragon Mounts d'une race donnée, NBT
+        # BlockEntityTag.Breed (DragonEggSubtypeInterpreter, table de butin
+        # blocks/dragon_egg : copy_nbt Breed). Comparaison partielle (weak) :
+        # l'œuf ramassé porte aussi son nom et son stade d'éclosion.
+        race = mots[1]
+        if race not in RACES_DRAGON:
+            raise SystemExit(f"{ou} : race de dragon inconnue « {race} »")
+        return {'id': tid, 'type': 'item', 'match_nbt': True, 'weak_nbt_match': True,
+                'item': {'Count': 1, 'id': 'dragonmounts:dragon_egg',
+                         'tag': {'BlockEntityTag': {'Breed': f'dragonmounts:{race}'}}}}
     if genre == 'stat':
         # stat <identifiant de statistique vanilla> <valeur>
         if not re.match(r'^minecraft:[a-z_]+$', mots[1]):
