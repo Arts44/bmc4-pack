@@ -1,0 +1,205 @@
+# Chapitre « Contrats de la semaine » — cahier des charges §9.3
+# Répétables, délai 7 jours. Vérifié dans le jar FTB Quests 2001.4.22
+# (5 octobre 2026) : can_repeat est un booléen ; repeat_cooldown un entier
+# en secondes, qui court depuis la RÉCLAMATION (TeamData : délai × 1000
+# ajouté à l'heure de la réclamation). Un calage sur le dimanche 20 h du
+# classement n'est donc pas possible : chaque contrat revient sept jours
+# après avoir été réclamé.
+# Une répétable n'a que des livraisons consommées (!consommer) et des
+# tâches « tuer » : une statistique, un progrès ou un objet gardé en poche
+# se revalideraient aussitôt (KillTask : entité exacte, pas de balise).
+# La progression est celle de l'équipe FTB : en faction, le contrat est
+# commun à la faction ; un indépendant le remplit seul.
+# Récompenses : XP (R0) et un tirage de la table « Contrat » (pain,
+# torches, poudre d'os, poulet cuit, flèches).
+
+[chapitre]
+titre = "&6Contrats de la semaine"
+fichier = "semaine_contrats"
+groupe = "semaine"
+icone = "minecraft:writable_book"
+ordre = 1
+
+[[quete]]
+cle = "intro"
+titre = "&6Le tableau des contrats"
+taille = 1.5
+icone = "minecraft:writable_book"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Vingt contrats qui reviennent chaque semaine : livrer, chasser, ramener. Chacun se réclame une fois, puis revient &lsept jours après la réclamation&r. Les objets livrés sont &lretirés&r de l'inventaire. En faction, le contrat est commun : une livraison compte pour toute l'équipe.
+
+La récompense est modeste, exprès : de l'expérience et un tirage de la table &6Contrat&r.
+"""
+
+# ---- livraisons
+[[quete]]
+cle = "ble"
+titre = "Livrer du blé"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:wheat 64 !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "carottes"
+titre = "Livrer des carottes"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:carrot 64 !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "pommes_de_terre"
+titre = "Livrer des pommes de terre"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:potato 64 !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "poissons"
+titre = "Livrer du poisson"
+deps = ["intro"]
+repetable = true
+taches = ["tag minecraft:fishes 20 Vingt poissons !consommer"]
+recompenses = ["xp 3", "table contrat"]
+description = """
+N'importe quel poisson, cru ou cuit.
+"""
+
+[[quete]]
+cle = "repas"
+titre = "Livrer des repas"
+deps = ["intro"]
+repetable = true
+taches = ["tag farmersdelight:meals 10 Dix repas de Farmer's Delight !consommer"]
+recompenses = ["xp 5", "table contrat"]
+description = """
+Dix repas de Farmer's Delight, en bol ou en assiette : ceux qui rendent un cœur au raid.
+"""
+
+[[quete]]
+cle = "pierre"
+titre = "Livrer de la pierre"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:cobblestone 256 !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "buches"
+titre = "Livrer du bois"
+deps = ["intro"]
+repetable = true
+taches = ["tag minecraft:logs 64 Soixante-quatre bûches !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "laine"
+titre = "Livrer de la laine"
+deps = ["intro"]
+repetable = true
+taches = ["tag minecraft:wool 32 Trente-deux laines !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "cuir"
+titre = "Livrer du cuir"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:leather 16 !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "os"
+titre = "Livrer des os"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:bone 32 !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "poudre"
+titre = "Livrer de la poudre à canon"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:gunpowder 16 !consommer"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "fer"
+titre = "Livrer du fer"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:iron_ingot 16 !consommer"]
+recompenses = ["xp 5", "table contrat"]
+
+# ---- chasse
+[[quete]]
+cle = "zombies"
+titre = "Chasser les zombies"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:zombie 30"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "squelettes"
+titre = "Chasser les squelettes"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:skeleton 30"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "araignees"
+titre = "Chasser les araignées"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:spider 20"]
+recompenses = ["xp 3", "table contrat"]
+
+[[quete]]
+cle = "creepers"
+titre = "Chasser les creepers"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:creeper 20"]
+recompenses = ["xp 4", "table contrat"]
+
+[[quete]]
+cle = "endermen"
+titre = "Chasser les endermen"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:enderman 10"]
+recompenses = ["xp 5", "table contrat"]
+
+[[quete]]
+cle = "pillards"
+titre = "Chasser les pillards"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:pillager 10"]
+recompenses = ["xp 5", "table contrat"]
+
+[[quete]]
+cle = "blazes"
+titre = "Chasser les blazes"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:blaze 10"]
+recompenses = ["xp 5", "table contrat"]
+description = """
+Dans les forteresses du Nether.
+"""
+
+[[quete]]
+cle = "sorcieres"
+titre = "Chasser les sorcières"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:witch 5"]
+recompenses = ["xp 5", "table contrat"]

@@ -1,0 +1,655 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "semaine_contrats"
+	group: "1362B365ED26473C"
+	icon: "minecraft:writable_book"
+	id: "08604FB04D9EBE04"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Vingt contrats qui reviennent chaque semaine : livrer, chasser, ramener. Chacun se réclame une fois, puis revient &lsept jours après la réclamation&r. Les objets livrés sont &lretirés&r de l'inventaire. En faction, le contrat est commun : une livraison compte pour toute l'équipe."
+				""
+				"La récompense est modeste, exprès : de l'expérience et un tirage de la table &6Contrat&r."
+			]
+			icon: "minecraft:writable_book"
+			id: "785FFBB6FA3191BC"
+			rewards: [{
+				id: "4117B48FDBE2F527"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "491784BEE0919466"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Le tableau des contrats"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:wheat"
+			id: "51D9E44FF84460A6"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "0395B745C8CA486E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "640A82B35C5F9CBF"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "65EF4F19CC14B376"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Livrer du blé"
+			x: 2.0d
+			y: -14.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:carrot"
+			id: "253199A0C1F0925C"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "600641E112113DAA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75FBF3C4124A8E31"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "24E90FA0F3D85471"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "Livrer des carottes"
+			x: 2.0d
+			y: -12.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:potato"
+			id: "215B3E1780C21A9D"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "03CD752A8246735D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E7BA608180B3647"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5C1DA1ED32FC78A2"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "Livrer des pommes de terre"
+			x: 2.0d
+			y: -11.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			description: ["N'importe quel poisson, cru ou cuit."]
+			id: "09DC4BB248332A37"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "711EC832F93B5E4E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37046D9C3F596D1E"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "13A0FEAFB051FDDE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:fishes"
+					}
+				}
+				title: "Vingt poissons"
+				type: "item"
+			}]
+			title: "Livrer du poisson"
+			x: 2.0d
+			y: -9.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			description: ["Dix repas de Farmer's Delight, en bol ou en assiette : ceux qui rendent un cœur au raid."]
+			id: "12EFECB7F628597A"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "24C81AD355CAA31E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DACCEAD282B0318"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "60B60D205B5D892E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:meals"
+					}
+				}
+				title: "Dix repas de Farmer's Delight"
+				type: "item"
+			}]
+			title: "Livrer des repas"
+			x: 2.0d
+			y: -8.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:cobblestone"
+			id: "3EC947823250E699"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "1683689BECA702C7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB10D7D34673ED5"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "7C66EE2D6A887F09"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Livrer de la pierre"
+			x: 2.0d
+			y: -6.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			id: "2EF8CBEA1F8F03CB"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "415E94F1807BD4F7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3772B915C1458B33"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "604990E829EFB447"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Soixante-quatre bûches"
+				type: "item"
+			}]
+			title: "Livrer du bois"
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			id: "4425685BF44CBA24"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "23D96909BC43F01F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3168F805CC8BF67C"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "087B1F3E76E55D80"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Trente-deux laines"
+				type: "item"
+			}]
+			title: "Livrer de la laine"
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:leather"
+			id: "4DFA676FA05624FE"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "60321B26D828B97C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "042187A6AF1B0FAB"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "039D21CE9025D8BE"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "Livrer du cuir"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:bone"
+			id: "3DA85EA7ECA4D19B"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "3D5C125D396B303A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E239AA1B6E3A42F"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "70769B13C1105E3B"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "Livrer des os"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:gunpowder"
+			id: "305EF0DEBCBEEC48"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "5705C9BA6E0A9178"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39B11FD4FDB61788"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "277047214B85F51D"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Livrer de la poudre à canon"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:iron_ingot"
+			id: "7C2D99B2E48B9F6A"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "60D78F246B2EF14E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AFC0AAA2F47D730"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3174083C5DE2244A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Livrer du fer"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:zombie_spawn_egg"
+			id: "3CB5481C2BD9B260"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "303E12E2BA100200"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2141E06B742727A2"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5592D35ABD138B1B"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Chasser les zombies"
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:skeleton_spawn_egg"
+			id: "63250D0CB147D8D1"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "71C68EDF7E669DEA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14477A06B0177BDD"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "714295E1BAFD4A12"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Chasser les squelettes"
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:spider_spawn_egg"
+			id: "49CB51759511FD48"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "3B44D33A0B773002"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61727307B9B05959"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "1E9F7B46349FB848"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Chasser les araignées"
+			x: 2.0d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:creeper_spawn_egg"
+			id: "548949D21EB16F9F"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "02EC935F7B188F70"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6ACE2E82E0131EC9"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "761FF061671ECA11"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Chasser les creepers"
+			x: 2.0d
+			y: 8.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:enderman_spawn_egg"
+			id: "64F737CA99EF9363"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "04C0CA9D8DD7A6E2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0797C7135E06CD81"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "0F277A13A2D3AF73"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Chasser les endermen"
+			x: 2.0d
+			y: 9.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:pillager_spawn_egg"
+			id: "5EC5FA992AE7CA3D"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "6DD0E6E12BE67C3A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "351DDCA69A93B98E"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "00E4858B0070DAAB"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Chasser les pillards"
+			x: 2.0d
+			y: 11.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			description: ["Dans les forteresses du Nether."]
+			icon: "minecraft:blaze_spawn_egg"
+			id: "2BC1497732825816"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "5ABDDF6461E79605"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F605346970EB19"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "30A82901FEAD5A13"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Chasser les blazes"
+			x: 2.0d
+			y: 12.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["785FFBB6FA3191BC"]
+			icon: "minecraft:witch_spawn_egg"
+			id: "00B7087A7F22DE04"
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "5975669E842FA086"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CD9352DAC811F61"
+					table_id: 6105661877083297031L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "1FE9C80C059D21C2"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Chasser les sorcières"
+			x: 2.0d
+			y: 14.25d
+		}
+	]
+	title: "&6Contrats de la semaine"
+}
