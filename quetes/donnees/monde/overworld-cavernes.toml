@@ -170,13 +170,56 @@ Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overwo
 """
 
 [[quete]]
+cle = "palladium"
+titre = "Du palladium"
+deps = ["intro"]
+taches = ["item galosphere:palladium_ingot"]
+recompenses = ["xp 5"]
+description = """
+Le minerai de &lpalladium&r de Galosphere, sous terre. Les pillards en lâchent aussi des pépites (config du serveur).
+"""
+
+[[quete]]
+cle = "sterling"
+titre = "L'armure sterling"
+deps = ["palladium"]
+taches = ["item galosphere:sterling_helmet", "item galosphere:sterling_chestplate", "item galosphere:sterling_leggings", "item galosphere:sterling_boots"]
+recompenses = ["xp 10"]
+description = """
+Cuir et palladium. Le casque peut porter une bannière (infobulle) : celle de ta faction.
+"""
+
+[[quete]]
+cle = "monstrometre"
+titre = "Le monstromètre"
+deps = ["palladium", "galo_lichen"]
+optionnel = true
+taches = ["item galosphere:monstrometer"]
+recompenses = ["xp 5"]
+description = """
+Quatre lingots de palladium autour d'un éclat de lumière (« Lumiere Shard »).
+"""
+
+[[quete]]
+cle = "bombe"
+titre = "Des bombes de palladium"
+deps = ["palladium"]
+optionnel = true
+taches = ["item galosphere:palladium_bomb"]
+recompenses = ["xp 3"]
+description = """
+Quatre lingots de palladium autour d'une poudre à canon : deux bombes.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&3Le fond est atteint"
-deps = ["cite_ancienne"]
-taille = 1.3
+deps = ["cite_ancienne", "sterling", "warden"]
+taille = 1.5
+forme = "diamond"
 icone = "minecraft:echo_shard"
 taches = ["checkmark Les cavernes sont explorées"]
 recompenses = ["xp 5"]
 description = """
-Six biomes de cavernes et une cité. Le portail de l'Otherside se construit au chapitre &7Deeper and Darker&r.
+Les cavernes, une cité, le Warden, et l'armure sterling sur le dos. Le portail de l'Otherside se construit au chapitre &7Deeper and Darker&r.
 """

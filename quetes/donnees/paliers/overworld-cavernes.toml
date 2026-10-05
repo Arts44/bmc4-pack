@@ -1,0 +1,38 @@
+# Échelle des paliers — Overworld, cavernes (BMC-89, 5 octobre 2026).
+# Recettes du jar Galosphere 1.5.2 ; galosphere-common.toml du serveur.
+chapitre = "monde_overworld_cavernes"
+sommet = "fin"
+
+[[palier]]
+echelle = "palladium"
+cle = "palladium"
+preuve = "minerai et pépites de pillard (pillagerDropPalladiumNugget true)"
+
+[[palier]]
+echelle = "palladium"
+cle = "sterling"
+preuve = "recettes sterling_* (cuir + palladium)"
+
+[[palier]]
+echelle = "palladium"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "cite"
+cle = "cite_ancienne"
+preuve = "structure minecraft:ancient_city"
+
+[[palier]]
+echelle = "cite"
+cle = "warden"
+preuve = "kill minecraft:warden"
+
+[[palier]]
+echelle = "cite"
+cle = "fin"
+preuve = "sommet"
+
+[[saute]]
+objet = "progrès de Galosphere (opalising, summon_berserker, attached_sterling_horse…)"
+raison = "icônes en échec au chargement sur le serveur (console du 5 octobre) : non utilisés"
