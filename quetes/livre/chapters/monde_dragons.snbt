@@ -1,0 +1,234 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monde_dragons"
+	group: "17185D2694D86048"
+	icon: "dragonloot:dragon_scale"
+	id: "463E7FDC560514A1"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Trente-six races de dragons dans le pack : les huit de base — feu, eau, forêt, glace, fantôme, Nether, End, Aether — et vingt-huit de l'extension : orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, jade, sang, ombre, lumière… Un dragon se monte, vole, et souffle (3 de dégâts sur 40 blocs, config du serveur). En patrouille, il reste à 8 blocs de son poste."]
+			icon: "dragonloot:dragon_scale"
+			id: "0D96FCAF5494ADC9"
+			rewards: [{
+				id: "34AA81F54C4B9C56"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Guide dans #dragons sur le Discord."
+			tasks: [{
+				id: "500CC85B99188C3F"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&5Dragon Mounts: Legacy"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D96FCAF5494ADC9"]
+			description: ["Les œufs sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi : il se renouvelle sur le portail après chaque dragon ré-invoqué (config)."]
+			id: "642D1D4BD0DB3C7F"
+			rewards: [{
+				id: "1B400E33BF617E6A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1A07A8FB6F036F5C"
+				title: "Un œuf en poche"
+				type: "checkmark"
+			}]
+			title: "Un œuf de dragon"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["642D1D4BD0DB3C7F"]
+			description: [
+				"Posé, l'œuf couve et l'infobulle compte les secondes. Il &lchange de race selon son milieu&r (config : les habitats sont actifs) — un œuf posé dans la neige donne un dragon de glace."
+				""
+				"Autre voie : dans &9#dragons&r, poste &l!dragon <x> <y> <z> <race>&r (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée."
+			]
+			id: "2F6C9321525A6C79"
+			rewards: [{
+				id: "3285C2CC9BA9D252"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "5945EB0C8CA9D174"
+				title: "Un dragon est né"
+				type: "checkmark"
+			}]
+			title: "Faire éclore"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F6C9321525A6C79"]
+			description: ["Le bébé se nourrit et grandit ; adulte, une &lselle&r et il se monte."]
+			icon: "minecraft:saddle"
+			id: "6DCDC72E69E3EB5D"
+			rewards: [{
+				id: "0A06FB7203FF92FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "70270393957DC015"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Apprivoiser et seller"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DCDC72E69E3EB5D"]
+			description: ["Vol libre, souffle à la touche du mod. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler."]
+			id: "797E47855840E5A8"
+			rewards: [{
+				id: "4AA6D623B62F3435"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "1132260C858EB97C"
+				title: "J'ai volé"
+				type: "checkmark"
+			}]
+			title: "Monter un dragon"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F6C9321525A6C79"]
+			description: ["Orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, bronze, Nether primordial, End primordial, monarque, aîné… Vingt-huit races au-delà des huit de base (lang du mod)."]
+			id: "235C227FFFDF58A1"
+			optional: true
+			rewards: [{
+				id: "6C2ADEE8864F535E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2766FEE31C688585"
+				title: "Un dragon hors des huit races de base"
+				type: "checkmark"
+			}]
+			title: "Une race de l'extension"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DCDC72E69E3EB5D"]
+			description: ["Deux dragons adultes de races différentes peuvent donner un &lhybride&r. Sur BMC4, le jar du serveur est patché : &l25 % de chance&r d'obtenir la race hybride, sinon l'une des deux races parentes. Chaque race de base ne se reproduit que &ldeux fois&r (config du serveur)."]
+			id: "1E68BFC9704EEE72"
+			optional: true
+			rewards: [{
+				id: "6C9A0A2EB10E884C"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13462D8DFF1F66CE"
+				title: "Croisement tenté"
+				type: "checkmark"
+			}]
+			title: "Un croisement hybride"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D96FCAF5494ADC9"]
+			description: ["&5DragonLoot&r : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font une armure, des outils et l'&lenclume de dragon&r, sans plafond de niveaux sur ce serveur."]
+			icon: "dragonloot:dragon_scale"
+			id: "2BB89154F5D63BFD"
+			optional: true
+			rewards: [{
+				id: "4F340AE5DE01CB5C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 3L
+				id: "7FEEA76F97F46264"
+				item: "dragonloot:dragon_scale"
+				type: "item"
+			}]
+			title: "Des écailles de dragon"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2BB89154F5D63BFD"]
+			description: ["Les quatre pièces : progrès « Des écailles de la bête »."]
+			id: "18943C690DB8E5C2"
+			optional: true
+			rewards: [{
+				id: "5EF6FFB44B34DC31"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dragonloot:dragon_armor"
+				criterion: ""
+				id: "2EB40E072EA1EF5E"
+				type: "advancement"
+			}]
+			title: "L'armure de dragon"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DCDC72E69E3EB5D"]
+			description: ["Un dragon en patrouille reste à 8 blocs (config) : un hangar dans le claim le garde à l'abri."]
+			id: "64F87D2E76FD3E20"
+			optional: true
+			rewards: [{
+				id: "07E3C5C7DBD6BE7A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51DBFCC59B3B3E98"
+				title: "Mes dragons ont un toit"
+				type: "checkmark"
+			}]
+			title: "Un hangar"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["797E47855840E5A8"]
+			description: ["Un dragon à soi, sellé, dans son hangar."]
+			icon: "dragonloot:dragon_helmet"
+			id: "0CB3BB07A1C0F231"
+			rewards: [{
+				id: "739037BD75BDEFC0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "56D0056213289A35"
+				title: "Dragonnier"
+				type: "checkmark"
+			}]
+			title: "&5Dragonnier"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "&5Les dragons"
+}

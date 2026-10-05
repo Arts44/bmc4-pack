@@ -1333,6 +1333,145 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Les deux cieux** — tâches : checkmark Quatre boss au tableau — récompense : xp 10 — après : arachnarque
   > Summonateur, Déstructeur des Étoiles, Alchimiste, Arachnarque. Le journal bleu garde le reste : villages, Stargazers, sac du Veilleur, lances et boucliers.
 
+## Cataclysm  (`monde_cataclysm`, 20 quêtes)
+
+- **Huit boss, huit structures** — tâches : checkmark Lu — récompense : item minecraft:golden_apple 2
+  > L'Ender's Cataclysm pose huit boss, chacun dans sa structure, et un œil qui y mène : il se fabrique, et il tourne dans la main comme un œil de l'Ender. Chaque boss lâche de quoi fabriquer un équipement. Sur ce serveur, les boss sont à leur force d'origine, leurs armures ont une durabilité infinie, et cinq d'entre eux se réinvoquent dans leur arène (config).
+- **L'Arène ardente** — tâches : structure cataclysm:burning_arena — récompense : xp 5 — après : intro
+  > L'Œil de flamme y mène. Des revenants et berserkers enflammés gardent l'arène ; Ignis attend à l'autel de feu.
+- **Vaincre Ignis** — tâches : advancement cataclysm:kill_ignis — récompense : xp 25 — après : arene
+  > Un chevalier de feu, invoqué à l'autel. Il lâche le lingot d'ignitium et son disque (table de butin) ; le Rempart de la flamme et l'Incinérateur se fabriquent avec. Sa mort est annoncée dans #faits-d-armes.
+- **L'armure d'ignitium** — tâches : item cataclysm:ignitium_helmet — récompense : xp 10 — après : ignis
+  > Un modèle de forge d'ignitium sur un équipement de nétherite. Casque : regard de chaleur ; plastron : combinable avec des élytres ; jambières : réflexe de flamme ; bottes : marche sur la lave (infobulles du mod).
+- **La forge des âmes** — tâches : structure cataclysm:soul_black_smith — récompense : xp 5 — après : intro
+  > L'Œil du monstrueux y mène, dans le Nether. La Monstruosité de nétherite dort dans la forge.
+- **Vaincre la Monstruosité de nétherite** — tâches : advancement cataclysm:kill_monstrosity — récompense : xp 25 — après : forge_ames
+  > Elle lâche la Forge infernale (une pioche qui frappe en zone), une cellule de lave et sa corne monstrueuse (table de butin). Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+- **La citadelle en ruine** — tâches : structure cataclysm:ruined_citadel — récompense : xp 5 — après : intro
+  > L'Œil du vide y mène, dans l'End. Des golems de l'Ender et des endermapteras ; le Gardien de l'Ender au centre.
+- **Vaincre le Gardien de l'Ender** — tâches : advancement cataclysm:kill_ender_guardian — récompense : xp 25 — après : citadelle
+  > Il lâche le Gantelet de garde, qui attire les entités (table de butin, infobulle). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+- **L'usine ancienne** — tâches : structure cataclysm:ancient_factory — récompense : xp 5 — après : intro
+  > L'Œil mécanique y mène. Des Rôdeurs mécaniques, des Veilleurs, et le Harbinger.
+- **Vaincre le Harbinger** — tâches : advancement cataclysm:kill_harbinger — récompense : xp 25 — après : usine
+  > Le progrès dit : le réveiller et le vaincre. Il lâche un bloc de witherite (table de butin) ; l'arme d'épaule d'assaut du Wither et le Gatling laser (rechargé à la redstone) s'en fabriquent. Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+- **La cité engloutie** — tâches : structure cataclysm:sunken_city — récompense : xp 5 — après : intro
+  > L'Œil de l'abîme y mène, sous l'océan. Deeplings, golems de corail, et le Léviathan au fond.
+- **Vaincre le Léviathan** — tâches : advancement cataclysm:kill_leviathan — récompense : xp 30 — après : cite_engloutie
+  > Il est immunisé hors de l'eau (config du serveur) : le combat se fait en plongée. Il lâche les Griffes de marée et un œuf abyssal (table de butin). Sa mort est annoncée dans #faits-d-armes.
+- **La pyramide maudite** — tâches : structure cataclysm:cursed_pyramid — récompense : xp 5 — après : intro
+  > L'Œil du désert y mène. Koboletons, Kobolédiateur, Wadjet, et le Vestige ancien.
+- **Vaincre le Vestige ancien** — tâches : advancement cataclysm:kill_remnant — récompense : xp 25 — après : pyramide
+  > Le progrès dit : fouiller le sable suspect de la pyramide pour le réveiller. Il lâche son crâne, du métal ancien et une tempête de sable en bouteille (table de butin). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+- **La prison givrée** — tâches : structure cataclysm:frosted_prison — récompense : xp 5 — après : intro
+  > L'Œil de la malédiction y mène. Draugrs, draugrs royaux, Aptrgangr, et Maledictus.
+- **Vaincre Maledictus** — tâches : advancement cataclysm:kill_maledictus — récompense : xp 30 — après : prison
+  > Invoqué dans la prison. Il lâche le lingot de cursium (table de butin) ; l'Arc maudit et ses trois flèches fantômes s'en fabriquent. Sa mort est annoncée dans #faits-d-armes.
+- **L'armure de cursium** — tâches : item cataclysm:cursium_helmet — récompense : xp 10 — après : maledictus
+  > Modèle de forge de cursium sur de la nétherite. Casque : vision fantôme ; plastron : résurrection mort-vivante ; jambières : esquive fantôme ; bottes : apesanteur fantôme (infobulles du mod).
+- **L'acropole** — tâches : structure cataclysm:acropolis — récompense : xp 5 — après : intro
+  > L'Œil de la tempête y mène. Clawdian, Cindaria, Hippocamtus, Urchinkin, et Scylla, qui change le temps quand elle se bat (config du serveur).
+- **Vaincre Scylla** — tâches : advancement cataclysm:kill_scylla — récompense : xp 30 — après : acropole
+  > L'impératrice des tempêtes (titre du progrès). Elle lâche l'essence de la tempête et la lacrima (table de butin) ; Ceraunus, l'ancre qui se lance, et Astrape, la lance d'éclair, s'en fabriquent. Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+- **Tous les boss de Cataclysm** — tâches : advancement cataclysm:kill_all_bosses — récompense : xp 50 — après : ignis, monstruosite, gardien, harbinger, leviathan, remnant, maledictus, scylla
+  > Le progrès du mod pour les huit, « Cataclysmfarer ». Le Clawdian, le Golem de l'Ender et le Revenant enflammé ont leurs progrès à part.
+
+## Deeper and Darker  (`monde_deeper_and_darker`, 15 quêtes)
+
+- **Sous la bedrock** — tâches : checkmark Lu — récompense : item minecraft:torch 16
+  > Deeper and Darker prolonge le sculk : de nouvelles créatures dans les cités anciennes, un cœur du Warden, et une dimension sous la bedrock — l'Otherside — avec ses quatre biomes et son temple. Le progrès de départ du mod dit : quelque chose t'attire vers la source.
+- **Une cité ancienne** — tâches : advancement deeperdarker:main/find_ancient_city — récompense : xp 5 — après : intro
+  > Les cités anciennes sous l'Overworld, dans les Profondeurs sombres (Dungeons Taverns les remanie). Les monstres sculk du mod y rôdent : Harceleur, Mille-pattes, Sangsue, Happeur, Brisé, Ver hurleur, Boue.
+- **Tueur de sculk** *(optionnelle)* — tâches : advancement deeperdarker:main/kill_all_sculk_mobs — récompense : xp 10 — après : cite
+  > Un de chaque monstre sculk du mod (progrès « Sculk Slayer »).
+- **Vaincre le Warden** — tâches : advancement deeperdarker:main/kill_warden — récompense : xp 25 — après : cite
+  > Le progrès du mod s'appelle « Voleur fantôme » : tuer le Warden et prendre son cœur. Le Warden lâche aussi sa carapace. Sa mort est annoncée dans #faits-d-armes.
+- **Un éclat d'écho renforcé** — tâches : advancement deeperdarker:main/obtain_reinforced_echo_shard — récompense : xp 8 — après : warden
+  > Carapace du Warden, éclat d'écho et membranes de phantom (recette du mod). C'est l'ingrédient du modèle de forge du Warden et des élytres d'âme.
+- **Le portail de l'Otherside** — tâches : advancement deeperdarker:main/enter_otherside — récompense : xp 15 — après : warden
+  > Un cadre en deepslate renforcée (celle des cités anciennes), et le cœur du Warden pour l'allumer (code du mod). Progrès « Sous la bedrock ».
+- **Les quatre biomes** *(optionnelle)* — tâches : biome deeperdarker:deeplands, biome deeperdarker:echoing_forest, biome deeperdarker:blooming_caverns, biome deeperdarker:overcast_columns — récompense : xp 10 — après : portail
+  > Les Terres profondes, la Forêt résonnante, les Cavernes fleuries, les Colonnes couvertes. Le progrès « Écholocation » demande les quatre.
+- **Écholocation** *(optionnelle)* — tâches : advancement deeperdarker:main/explore_otherside — récompense : table explorateur — après : biomes
+  > Tous les biomes de l'Otherside (progrès du mod). Jalon Explorateur.
+- **Le temple ancien** — tâches : advancement deeperdarker:main/find_ancient_temple — récompense : xp 10 — après : portail
+  > La structure de l'Otherside : cinq tables de butin (sommet, sous-sol, fontaine, réserve, cache secrète), coffres par joueur.
+- **Les bois de l'Otherside** *(optionnelle)* — tâches : item deeperdarker:echo_log 8, item deeperdarker:blooming_stem 8 — récompense : xp 5 — après : portail
+  > L'écho et le bloom : planches, portes, bateaux, panneaux suspendus.
+- **Un transmetteur sculk** *(optionnelle)* — tâches : advancement deeperdarker:main/obtain_sculk_transmitter — récompense : xp 8 — après : portail
+  > Lié à un conteneur, il l'ouvre à distance (progrès « Stockage à distance »).
+- **Le bâton sonore** *(optionnelle)* — tâches : advancement deeperdarker:main/obtain_sonorous_staff — récompense : xp 8 — après : eclat
+  > Progrès « Plainte pour tapage ». Le bâton se fabrique (recette du mod).
+- **Les élytres d'âme** *(optionnelle)* — tâches : item deeperdarker:soul_elytra — récompense : xp 15 — après : eclat
+  > Des élytres renforcées par l'éclat d'écho (recette du mod). Les ailes de l'Aether et les jetpacks sont les autres façons de voler.
+- **L'armure du Warden** — tâches : advancement deeperdarker:main/warden_armor — récompense : xp 25 — après : eclat
+  > Le modèle de forge du Warden s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Il y a aussi le résonarium, un palier intermédiaire, par plaques.
+- **Revenu de l'Otherside** — tâches : checkmark De retour — récompense : xp 5 — après : temple
+  > Le temple trouvé, le cœur en main. La suite est au chapitre Cataclysm.
+
+## Donjons et autres boss  (`monde_donjons`, 17 quêtes)
+
+- **Ce qui reste à abattre** — tâches : checkmark Lu — récompense : item minecraft:arrow 32
+  > Les donjons de When Dungeons Arise, ceux de Stalwart Dungeons et leurs trois boss, l'Invoker d'Illager Invasion, le Ver du vide, le Berserker de Galosphere, et les primes de Bountiful. Le Roi Mort et Tyros sont au chapitre Iron's Spells.
+- **Le fort des illageois** — tâches : advancement dungeons_arise:find_illager_fort — récompense : xp 5 — après : intro
+  > When Dungeons Arise pose trente-neuf structures. Le fort des illageois est l'une des grandes : plusieurs étages, des générateurs, des coffres par joueur.
+- **Les tours des bandits** *(optionnelle)* — tâches : advancement dungeons_arise:find_bandit_towers — récompense : xp 5 — après : intro
+  > Les tours des bandits (progrès du mod).
+- **La fonderie** *(optionnelle)* — tâches : advancement dungeons_arise:find_foundry — récompense : xp 5 — après : intro
+  > Une fonderie (progrès « Iron Maiden »).
+- **L'asile de la peste** *(optionnelle)* — tâches : advancement dungeons_arise:find_plague_asylum — récompense : table aventurier — après : intro
+  > L'asile de la peste (progrès du mod). Jalon Aventurier.
+- **Le palais de Shiraz** *(optionnelle)* — tâches : advancement dungeons_arise:find_shiraz_palace — récompense : xp 5 — après : intro
+  > Le palais de Shiraz, dans le désert (progrès « Enter Sandman »).
+- **Le donjon de Kayra** *(optionnelle)* — tâches : advancement dungeons_arise:find_keep_kayra — récompense : xp 5 — après : intro
+  > Le donjon de Kayra (progrès du mod).
+- **Le vaisseau des pirates morts-vivants** *(optionnelle)* — tâches : advancement dungeons_arise:find_undead_pirate_ship — récompense : xp 5 — après : intro
+  > En mer. Le mod a aussi des corsaires et galères illageoises, un phare, des bains, une tour de Typhon (liste des progrès).
+- **Le monastère** *(optionnelle)* — tâches : advancement dungeons_arise:find_monasteries — récompense : xp 5 — après : intro
+  > Un monastère (progrès « A Quiet Place »).
+- **Vaincre l'Awful Ghast** — tâches : kill stalwart_dungeons:awful_ghast — récompense : xp 20 — après : intro
+  > Stalwart Dungeons : un autel de l'Awful Ghast (bloc du mod) l'invoque dans son donjon du Nether. Sa mort est annoncée dans #faits-d-armes.
+- **Vaincre le Nether Keeper** — tâches : kill stalwart_dungeons:nether_keeper — récompense : xp 20 — après : intro
+  > Dans le Nether, derrière l'autel du Nether Keeper (bloc du mod). Sa mort est annoncée dans #faits-d-armes.
+- **Vaincre le Shelterer** — tâches : kill stalwart_dungeons:shelterer — récompense : xp 20 — après : intro
+  > Le boss de l'End de Stalwart Dungeons, derrière son autel (bloc du mod). Sa mort est annoncée dans #faits-d-armes. Le tungstène et le chorundum du mod font armures, boucliers et outils.
+- **Vaincre l'Invoker** — tâches : kill illagerinvasion:invoker — récompense : xp 25 — après : intro
+  > Le maître des illageois vient avec les raids de village (il fait partie des vagues, code du mod). Sa mort est annoncée dans #faits-d-armes.
+- **Vaincre le Ver du vide** — tâches : item alexsmobs:void_worm_eye — récompense : xp 25 — après : intro
+  > Il n'apparaît pas seul : un ver mystérieux, jeté dans l'End (seule dimension autorisée sur ce serveur), l'invoque. Le ver est fait de plusieurs entités : c'est son œil, qu'il lâche, qui valide la quête. Sa mort est annoncée dans #faits-d-armes.
+- **Vaincre le Berserker** *(optionnelle)* — tâches : kill galosphere:berserker — récompense : xp 15 — après : intro
+  > Le progrès du mod s'appelle « Règne de terreur » : invoquer le Berserker. Il se joue autour du Sanctuaire du sel rose et de sa Tablette liée au sel. Sa mort est annoncée dans #faits-d-armes.
+- **Le tableau de primes** — tâches : item bountiful:bountyboard, checkmark Trois primes prises — récompense : xp 8 — après : intro
+  > Bountiful : un tableau de primes propose des contrats à délai. Un décret posé dans le tableau oriente les primes (« Royal Mandate »). Trois primes prises, et la case se coche.
+- **Chasseur de donjons** — tâches : checkmark Un donjon vidé — récompense : xp 5 — après : wda_fort, awful_ghast
+  > Un fort ou un boss suffit. Le chapitre Chasseur de boss des Défis compte tous les boss du serveur.
+
+## Les dragons  (`monde_dragons`, 11 quêtes)
+
+- **Dragon Mounts: Legacy** — tâches : checkmark Lu — récompense : xp 2
+  > Trente-six races de dragons dans le pack : les huit de base — feu, eau, forêt, glace, fantôme, Nether, End, Aether — et vingt-huit de l'extension : orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, jade, sang, ombre, lumière… Un dragon se monte, vole, et souffle (3 de dégâts sur 40 blocs, config du serveur). En patrouille, il reste à 8 blocs de son poste.
+- **Un œuf de dragon** — tâches : checkmark Un œuf en poche — récompense : xp 5 — après : intro
+  > Les œufs sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi : il se renouvelle sur le portail après chaque dragon ré-invoqué (config).
+- **Faire éclore** — tâches : checkmark Un dragon est né — récompense : xp 8 — après : oeuf
+  > Posé, l'œuf couve et l'infobulle compte les secondes. Il change de race selon son milieu (config : les habitats sont actifs) — un œuf posé dans la neige donne un dragon de glace.
+  >   > Autre voie : dans #dragons, poste !dragon <x> <y> <z> <race> (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée.
+- **Apprivoiser et seller** — tâches : item minecraft:saddle — récompense : xp 5 — après : eclosion
+  > Le bébé se nourrit et grandit ; adulte, une selle et il se monte.
+- **Monter un dragon** — tâches : checkmark J'ai volé — récompense : xp 10 — après : apprivoiser
+  > Vol libre, souffle à la touche du mod. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler.
+- **Une race de l'extension** *(optionnelle)* — tâches : checkmark Un dragon hors des huit races de base — récompense : xp 5 — après : eclosion
+  > Orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, bronze, Nether primordial, End primordial, monarque, aîné… Vingt-huit races au-delà des huit de base (lang du mod).
+- **Un croisement hybride** *(optionnelle)* — tâches : checkmark Croisement tenté — récompense : xp 8 — après : apprivoiser
+  > Deux dragons adultes de races différentes peuvent donner un hybride. Sur BMC4, le jar du serveur est patché : 25 % de chance d'obtenir la race hybride, sinon l'une des deux races parentes. Chaque race de base ne se reproduit que deux fois (config du serveur).
+- **Des écailles de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_scale 3 — récompense : xp 5 — après : intro
+  > DragonLoot : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font une armure, des outils et l'enclume de dragon, sans plafond de niveaux sur ce serveur.
+- **L'armure de dragon** *(optionnelle)* — tâches : advancement dragonloot:dragon_armor — récompense : xp 15 — après : ecailles
+  > Les quatre pièces : progrès « Des écailles de la bête ».
+- **Un hangar** *(optionnelle)* — tâches : checkmark Mes dragons ont un toit — récompense : xp 3 — après : apprivoiser
+  > Un dragon en patrouille reste à 8 blocs (config) : un hangar dans le claim le garde à l'abri.
+- **Dragonnier** — tâches : checkmark Dragonnier — récompense : xp 5 — après : monter
+  > Un dragon à soi, sellé, dans son hangar.
+
 ## L'End  (`monde_end`, 23 quêtes)
 
 - **Des yeux de l'Ender** — tâches : item minecraft:ender_eye 12 — récompense : item minecraft:ender_pearl 4
@@ -1381,6 +1520,33 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Moog's End Structures : vaisseaux géants, citadelle fantôme, tour de guet de l'Ender, jardin mythique, repaire astral, monolithe. La tour de guet valide la quête.
 - **Le vide est franchi** — tâches : checkmark Je vole — récompense : xp 10 — après : elytres, totem_vide
   > Des élytres, un totem du vide, un dragon au tableau. Les mondes des mods — Aether, Blue Skies, Twilight Forest, Otherside — ont chacun leur chapitre.
+
+## Mowzie's Mobs  (`monde_mowzies`, 12 quêtes)
+
+- **Les géants de Mowzie's** — tâches : checkmark Lu — récompense : xp 2
+  > Quatre boss à leur place dans le monde — le Wroughtnaut ferreux, le Frostmaw, Umvuthi, le Sculpteur — et des créatures qui valent le détour. La Naga de Mowzie's est un oiseau-serpent des Côtes rocheuses : rien à voir avec la Naga de la Twilight Forest (boss) ni celle de Better Nether.
+- **La chambre du Wroughtnaut** — tâches : structure mowziesmobs:wrought_chamber — récompense : xp 5 — après : intro
+  > Une salle souterraine, partout sauf sous les océans (config du serveur). Le Wroughtnaut ferreux y est immobile tant qu'on n'entre pas.
+- **Vaincre le Wroughtnaut ferreux** — tâches : advancement mowziesmobs:kill_ferrous_wroughtnaut — récompense : xp 20 — après : chambre
+  > Son armure ne cède que par derrière. Il lâche son casque et la Hache des mille métaux. Sa mort est annoncée dans #faits-d-armes.
+- **Vaincre le Frostmaw** — tâches : advancement mowziesmobs:kill_frostmaw — récompense : xp 20 — après : intro
+  > Un colosse endormi dans les biomes enneigés, hors océans, rivières, plages, forêts et taïgas (config du serveur). Il garde un cristal de glace : le lui voler sans le réveiller est un progrès du mod. Sa mort est annoncée dans #faits-d-armes.
+- **Le bosquet des Umvuthana** — tâches : structure mowziesmobs:umvuthana_grove — récompense : xp 5 — après : intro
+  > Dans la savane. Les Umvuthana portent des masques (peur, rage, misère, extase, fureur, foi) ; avec un masque, on entre déguisé (progrès du mod). Umvuthi trône au centre.
+- **Vaincre Umvuthi** — tâches : advancement mowziesmobs:kill_umvuthi — récompense : xp 20 — après : bosquet
+  > Il appelle des soigneurs à chaque palier de vie perdu (config du serveur). Lui apporter sept blocs d'or vaut la Bénédiction du Soleil (config, progrès). Il lâche le Visage du Sol, qui invoque des Umvuthana à partir de masques (infobulle). Sa mort est annoncée dans #faits-d-armes.
+- **Le monastère du Sculpteur** — tâches : structure mowziesmobs:monastery — récompense : xp 5 — après : intro
+  > Sur les pics (config du serveur). Tongbi, le Sculpteur, propose une épreuve d'escalade contre un bâton de Bluff. Le monastère cache aussi deux générateurs de Bluff.
+- **L'épreuve du Sculpteur** — tâches : advancement mowziesmobs:sculptor_challenge — récompense : xp 20 — après : monastere
+  > Soixante blocs à grimper en moins de 400 secondes (config du serveur). Échouer vaut l'autre progrès, moins glorieux. Le Sculpteur disparaît une fois la récompense réclamée (config).
+- **Un Foliaath** *(optionnelle)* — tâches : advancement mowziesmobs:kill_foliaath — récompense : xp 5 — après : intro
+  > Une plante carnivore des jungles. Sa graine se plante dans l'herbe ; le bébé a faim chaque demi-journée et grandit en deux jours (infobulle).
+- **Un Grottol** *(optionnelle)* — tâches : advancement mowziesmobs:kill_grottol — récompense : xp 5 — après : intro
+  > Une créature de cristal des grottes, sous Y 16, qui fuit. À la pioche soie, on le capture ; à la pioche fortune, il lâche plus (progrès du mod).
+- **La Naga des Côtes rocheuses** *(optionnelle)* — tâches : advancement mowziesmobs:kill_naga — récompense : xp 5 — après : intro
+  > Sur les Côtes rocheuses seulement (liste blanche de la config du serveur). Sa dent fait une dague qui empoisonne et double les dégâts par derrière (infobulle).
+- **Les quatre géants** — tâches : checkmark Les quatre sont tombés — récompense : xp 10 — après : wroughtnaut, frostmaw, umvuthi, sculpteur
+  > Wroughtnaut, Frostmaw, Umvuthi, Sculpteur. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont incassables sur ce serveur (config).
 
 ## Le Nether  (`monde_nether`, 25 quêtes)
 
