@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mods_nouveautes"
+	group: "14858825A29975B1"
+	icon: "minecraft:nether_star"
+	id: "1D73211C685AA1DB"
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque mod ajouté après un vote arrive d'abord ici, avec sa quête. À la version suivante, elle rejoint son chapitre définitif et un renvoi reste à sa place."]
+			icon: "minecraft:nether_star"
+			id: "13BF0C3A1FC5E4DF"
+			rewards: [{
+				id: "4ACADB9427BC1D27"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Le vote du dimanche décide. Annonces dans #annonces."
+			tasks: [{
+				id: "59F0D30825A068E1"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&dCe qui vient d'arriver"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13BF0C3A1FC5E4DF"]
+			description: ["Vocal de proximité (Simple Voice Chat) et coffres par joueur (Lootr). Les claims passent entièrement par FTB Chunks : Open Parties and Claims est retiré."]
+			icon: "lootr:lootr_chest"
+			id: "65EADD909A0CAA3E"
+			rewards: [{
+				id: "08F12F023A288DEA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "5E334824BA90CF26"
+				title: "Mis à jour en v61"
+				type: "checkmark"
+			}]
+			title: "&dVersion 61"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65EADD909A0CAA3E"]
+			description: ["On s'entend à &l48 blocs&r, 24 en chuchotant (config du serveur). Les &lgroupes&r sont autorisés : un groupe de faction s'entend à toute distance. Le réglage de la touche et du micro est au chapitre &eBienvenue&r."]
+			id: "355123127961667D"
+			rewards: [{
+				id: "0AFC5459AF415472"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "73B136C9B5599CFF"
+				title: "Vocal testé"
+				type: "checkmark"
+			}]
+			title: "Parler à côté"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["65EADD909A0CAA3E"]
+			description: ["&6Lootr&r convertit coffres, barils, coffres piégés et wagonnets de mine des structures : chacun y trouve &lson&r butin. Un coffre déjà ouvert avant la v61 n'est pas converti (le jeu a effacé sa table). Pas de réassort ni de disparition sur ce serveur (config). Le coffre d'élytres des cités de l'End devient un coffre, avec des élytres garanties."]
+			id: "01C2711CC34C9176"
+			rewards: [{
+				id: "5600AFD2C1AE944B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3D63056D0F6B9166"
+				observe_type: 0
+				timer: 0L
+				to_observe: "lootr:lootr_barrel"
+				type: "observation"
+			}]
+			title: "Un baril par joueur"
+			x: 4.0d
+			y: 0.75d
+		}
+	]
+	title: "&dNouveautés du pack"
+}
