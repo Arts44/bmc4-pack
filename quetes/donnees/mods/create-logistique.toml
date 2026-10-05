@@ -161,7 +161,7 @@ titre = "Assembler un train"
 deps = ["commandes"]
 boss = true
 forme = "diamond"
-taches = ["checkmark Mon train roule"]
+taches = ["advancement create:train"]
 recompenses = ["xp 10"]
 description = """
 Un bogie sur la voie à la station, des blocs collés dessus, des commandes, et le bouton d'assemblage de la station. Le train existe. Il avance avec les commandes ou avec un &7horaire&r (plaque d'obsidienne et papier) glissé dans les commandes.
@@ -195,6 +195,122 @@ taches = ["item create:display_board 2", "item create:display_link"]
 recompenses = ["xp 3"]
 description = """
 Tube électronique entre deux alliages : deux &7panneaux&r. Avec un &7lien d'affichage&r, ils montrent le contenu d'un coffre, l'heure, les trains attendus en gare, ou le stock d'un guichet.
+"""
+
+# ---- Paliers complets (BMC-89, 5 octobre 2026) : progrès du jar
+# create-1.20.1-6.0.8 (data/create/advancements, textes en_us) ; un progrès
+# remplace une case à cocher dès qu'il existe.
+[[quete]]
+cle = "horaire"
+titre = "Un horaire de train"
+deps = ["train"]
+optionnel = true
+taches = ["advancement create:conductor"]
+recompenses = ["xp 6"]
+description = """
+Donner un horaire à un conducteur de train (progrès « Conductor Instructor ») : le train circule seul entre les gares.
+"""
+
+[[quete]]
+cle = "tableau_horaire"
+titre = "Un tableau des arrivées"
+deps = ["affichage", "horaire"]
+optionnel = true
+taches = ["advancement create:display_board_0"]
+recompenses = ["xp 6"]
+description = """
+Annoncer l'arrivée d'un train sur un tableau d'affichage, avec un lien d'affichage (progrès « Dynamic Timetables »).
+"""
+
+[[quete]]
+cle = "sifflet_train"
+titre = "Un sifflet de train"
+deps = ["train"]
+optionnel = true
+taches = ["advancement create:train_whistle"]
+recompenses = ["xp 4"]
+description = """
+Un sifflet à vapeur monté sur le train, actionné en roulant (progrès « Choo Choo ! »).
+"""
+
+[[quete]]
+cle = "train_portail"
+titre = "Un train à travers un portail"
+deps = ["train"]
+optionnel = true
+taches = ["advancement create:train_portal"]
+recompenses = ["xp 8"]
+description = """
+Passer un portail à bord d'un train (progrès « Dimensional Commuter ») : les lignes peuvent relier le Nether.
+"""
+
+[[quete]]
+cle = "train_long"
+titre = "&6Un train de six wagons"
+deps = ["horaire"]
+optionnel = true
+forme = "diamond"
+taches = ["advancement create:long_train"]
+recompenses = ["xp 12"]
+description = """
+Un train d'au moins six wagons (progrès « Ambitious Endeavours »).
+"""
+
+[[quete]]
+cle = "grand_voyage"
+titre = "&6&lUn réseau de 5 000 blocs"
+deps = ["train_long", "signal"]
+optionnel = true
+forme = "diamond"
+taille = 1.6
+taches = ["advancement create:long_travel"]
+recompenses = ["xp 25"]
+description = """
+Quitter un siège de train à plus de 5 000 blocs du point de départ (progrès « Field Trip ») : un vrai réseau ferré, signalisé, le sommet de la logistique avec Create.
+"""
+
+[[quete]]
+cle = "demande_auto"
+titre = "Une commande automatique"
+deps = ["jauge"]
+optionnel = true
+taches = ["advancement create:factory_gauge"]
+recompenses = ["xp 8"]
+description = """
+Déclencher une commande de colis automatique avec des jauges d'usine (progrès « High Logistics »).
+"""
+
+[[quete]]
+cle = "grenouille_attrape"
+titre = "La grenouille attrape un colis"
+deps = ["grenouille", "chaine"]
+optionnel = true
+taches = ["advancement create:frogport"]
+recompenses = ["xp 5"]
+description = """
+Une grenouille portuaire attrape un colis sur un convoyeur à chaîne (progrès « Hungry hoppers »).
+"""
+
+[[quete]]
+cle = "guichet_employe"
+titre = "Un employé au guichet"
+deps = ["guichet"]
+optionnel = true
+taches = ["advancement create:stock_ticker"]
+recompenses = ["xp 5"]
+description = """
+Placer une créature au guichet de stock et passer les premières commandes (progrès « Order Up ! »).
+"""
+
+[[quete]]
+cle = "nappe"
+titre = "Une boutique sur nappe"
+deps = ["carton"]
+optionnel = true
+taches = ["advancement create:table_cloth_shop"]
+recompenses = ["xp 4"]
+description = """
+Mettre des objets en vente sur une nappe (progrès « Open for business »).
 """
 
 [[quete]]
