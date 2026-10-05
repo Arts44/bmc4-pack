@@ -135,7 +135,7 @@ def controler_textes(quetes, fichier, erreurs):
 
 def signature_tache(t):
     """Ce qu'une tâche demande, sans sa quantité ni son libellé."""
-    m = t.split()
+    m = t.replace(' !consommer', '').split()
     if m[0] in ('item', 'kill', 'dimension', 'advancement', 'structure', 'biome', 'stat'):
         return f"{m[0]} {m[1]}"
     if m[0] == 'tag':

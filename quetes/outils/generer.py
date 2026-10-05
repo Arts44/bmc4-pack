@@ -194,7 +194,16 @@ POTION_FORMES = {'normale': 'minecraft:potion', 'jetable': 'minecraft:splash_pot
 
 def tache(spec, ou, verif, quete_id, idx):
     tid = hid(quete_id, 't', str(idx), spec)
-    mots = spec.split()
+    t = _tache(spec.replace(' !consommer', ''), ou, verif, quete_id, idx, tid)
+    if spec.endswith(' !consommer'):
+        if t['type'] != 'item':
+            raise SystemExit(f"{ou} : « !consommer » ne vaut que pour une tâche item ou tag")
+        t['consume_items'] = True   # champ lu dans ItemTask du jar FTB Quests 2001.4.22
+    return t
+
+
+def _tache(spec, ou, verif, quete_id, idx, tid):
+    mots = spec.split(' ')
     genre = mots[0]
     if genre == 'checkmark':
         t = {'id': tid, 'type': 'checkmark'}
@@ -395,8 +404,13 @@ def construire_chapitre(toml_path, verif, tables, ix):
         if qd.get('taille') and not qd.get('boss'):
             qs['size'] = Double(qd['taille'])
         if qd.get('repetable'):
+            # Quest.class : can_repeat lu par Tristate.read (booléen) ;
+            # repeat_cooldown est un int en SECONDES (TeamData : × 1000 puis
+            # ajouté à currentTimeMillis à la réclamation). Le délai court
+            # donc depuis la réclamation, pas depuis un jour de la semaine.
             qs['can_repeat'] = True
-            qs['repeat_cooldown'] = Long(qd.get('delai_s', 7 * 24 * 3600))
+            qs['repeat_cooldown'] = int(qd.get('delai_s', 7 * 24 * 3600))
+            controler_repetable(qd, ou, verif)
         ic = icone_de(qd, taches, verif, ix, ou)
         if ic:
             qs['icon'] = ic
@@ -427,6 +441,22 @@ def construire_chapitre(toml_path, verif, tables, ix):
     return ch, chapitre
 
 # ---------------------------------------------------------------- contrôles
+
+def controler_repetable(qd, ou, verif):
+    """Une répétable doit pouvoir se refaire : sa progression est remise à
+    zéro à la réclamation, mais une tâche « stat » (valeur cumulée du
+    joueur), « advancement » (acquis pour toujours) ou « item » non
+    consommée (l'objet est encore là) se revaliderait aussitôt."""
+    for t in qd.get('taches', []):
+        g = t.split(' ')[0]
+        if g in ('stat', 'advancement', 'dimension', 'structure', 'biome'):
+            verif.erreurs.append(f"{ou} : tâche « {g} » dans une répétable : elle se revaliderait aussitôt")
+        if g in ('item', 'tag', 'potion') and not t.endswith(' !consommer'):
+            verif.erreurs.append(f"{ou} : tâche « {t} » non consommée dans une répétable (ajouter !consommer)")
+    for r in qd.get('recompenses', []):
+        if not (r.startswith('xp ') or r == 'table contrat'):
+            verif.erreurs.append(f"{ou} : récompense « {r} » dans une répétable (XP ou table contrat seulement)")
+
 
 def objets_demandes(qd, ix):
     """Les objets qu'une tâche `item` ou `tag` de la quête peut compter."""
