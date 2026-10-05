@@ -5,7 +5,8 @@
 # devils_bluff/chapel ; biomes betternether:*, soulfulnether:*, netherexp:* ;
 # progrès netherexp:nether/* et betternether:* présents dans l'index),
 # textes des jars (progrès de Jaden's Nether Expansion, Bygone Nether,
-# Soulful Nether). Les explosions bloquées par un claim : contrôle FTB
+# Soulful Nether), netherexp-common.toml du serveur (lu le 5 octobre).
+# Les explosions bloquées par un claim : contrôle FTB
 # Chunks du 4 octobre (chapitre Bienvenue). Nether's Delight est au chapitre
 # Cuisine ; Stalwart Dungeons et le Nether Keeper au chapitre Donjons.
 
@@ -267,7 +268,113 @@ optionnel = true
 taches = ["advancement netherexp:nether/rodeo_stampede"]
 recompenses = ["xp 5"]
 description = """
-Le &cstampede&r se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »).
+Le &cstampede&r naît quand une &7apparition&r possède une statue de gargouille « Trample » : posée dans la vallée des âmes, non salée, elle attire les apparitions. Il se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »).
+"""
+
+# ---- Jaden's Nether Expansion 2.3.5, la suite (progrès netherexp:nether/*,
+# tables brazier_chest/*, TreacherousCandleBlockEntity : la bougie défendue
+# donne des flammes perfides aux joueurs présents ; netherexp-common.toml du
+# serveur : treacherous_candle_completion_cooldown 1800,
+# brazier_chest_refill_cooldown 3600, shotgun_fist_bullets 25).
+[[quete]]
+cle = "jaden_sous_biomes"
+titre = "Tous les sous-biomes de la vallée"
+deps = ["jaden_vallee"]
+optionnel = true
+taches = ["advancement netherexp:nether/ssv_sub_biomes"]
+recompenses = ["xp 5"]
+description = """
+Le progrès « The Fright Before Xmas » demande de passer par chaque sous-biome de la vallée des âmes. Les glaciers de glace noire sont les plus rares.
+"""
+
+[[quete]]
+cle = "jaden_boussole"
+titre = "La boussole du sanctum"
+deps = ["jaden_vallee"]
+optionnel = true
+taches = ["advancement netherexp:nether/emf_raider"]
+recompenses = ["xp 5"]
+description = """
+La « Sanctum Locator Compass » se trouve dans les coffres des chapelles de la vallée des âmes. Active-la et suis-la jusqu'au sanctum (progrès « EMF-Raider »).
+"""
+
+[[quete]]
+cle = "jaden_bougie"
+titre = "&cDéfendre la bougie perfide"
+deps = ["sanctum"]
+optionnel = true
+taches = ["advancement netherexp:nether/rekindled_betrayal"]
+recompenses = ["xp 10"]
+description = """
+Au cœur du sanctum, une bougie perfide s'allume au briquet et déclenche des vagues de monstres. Tiens jusqu'au bout : elle récompense les joueurs présents en &cflammes perfides&r. Sur ce serveur, elle se rallume 30 minutes après avoir été vaincue.
+"""
+
+[[quete]]
+cle = "jaden_brasero"
+titre = "Ouvrir un coffre-brasero"
+deps = ["jaden_bougie"]
+optionnel = true
+taches = ["advancement netherexp:nether/eldritch_manipulation"]
+recompenses = ["xp 8"]
+description = """
+Les coffres-braseros du sanctum ne s'ouvrent qu'avec une flamme perfide. Ils gardent du débris antique, des diamants, des tessons de poterie, le noyau de fusil et le modèle d'amélioration « Pump-Charge ». Sur ce serveur, un coffre ouvert se remplit de nouveau au bout d'une heure.
+"""
+
+[[quete]]
+cle = "jaden_fusil"
+titre = "Un poing-fusil"
+deps = ["jaden_brasero"]
+optionnel = true
+taches = ["item netherexp:shotgun_fist"]
+recompenses = ["xp 10"]
+description = """
+Le noyau de fusil (« Shotgun Core ») des coffres-braseros, deux lingots de nétherite et un crâne de squelette font le « Shotgun-Fist ». Sur ce serveur, il tire 25 plombs.
+"""
+
+[[quete]]
+cle = "jaden_pompe"
+titre = "&cLe fusil à pompe"
+deps = ["jaden_fusil"]
+optionnel = true
+forme = "diamond"
+taches = ["advancement netherexp:nether/the_nether_is_full"]
+recompenses = ["xp 15"]
+description = """
+À la table de forge : le modèle « Pump-Charge » sur le poing-fusil, avec une flamme perfide. Le « Pump-Charge Shotgun » est le sommet de l'arsenal de Jaden's. Le modèle se recopie avec une flamme perfide et sept blocs d'os.
+"""
+
+[[quete]]
+cle = "jaden_statues"
+titre = "&5Toutes les statues de gargouille"
+deps = ["sanctum"]
+optionnel = true
+forme = "diamond"
+taches = ["item netherexp:ossified_gargoyle_statue", "item netherexp:trample_gargoyle_statue", "item netherexp:phase_gargoyle_statue", "item netherexp:ghoul_gargoyle_statue", "item netherexp:wretched_gargoyle_statue", "item netherexp:sealed_gargoyle_statue", "item netherexp:occult_gargoyle_statue", "item netherexp:treacherous_gargoyle_statue", "item netherexp:cirripedia_gargoyle_statue", "item netherexp:obfuscated_gargoyle_statue"]
+recompenses = ["xp 15"]
+description = """
+Les dix statues de gargouille du sanctum, à garder dans l'inventaire (progrès « Lorekeeper »). Quatre d'entre elles attirent les apparitions, qui les changent en créatures : « Trample » en stampede, « Phase » en ecto slab, « Ghoul » en banshee, « Ossified » en vessel. Une statue salée ne se laisse plus posséder.
+"""
+
+[[quete]]
+cle = "jaden_antidote"
+titre = "Un antidote"
+deps = ["jaden_vallee"]
+optionnel = true
+taches = ["advancement netherexp:nether/the_caduceus"]
+recompenses = ["xp 5"]
+description = """
+Les verrues biscornues (« Warped Wart ») brassent des &aantidotes&r, un par effet de potion : « Antidote for Poison », « Antidote for Weakness »… (progrès « The Caduceus »).
+"""
+
+[[quete]]
+cle = "jaden_peste"
+titre = "Le médecin de peste"
+deps = ["jaden_antidote"]
+optionnel = true
+taches = ["advancement netherexp:nether/plague_doctor"]
+recompenses = ["xp 10"]
+description = """
+Tous les effets d'antidote actifs en même temps (progrès « Plague-Doctor »). Sur ce serveur, potions et antidotes s'empilent par 16.
 """
 
 [[quete]]
