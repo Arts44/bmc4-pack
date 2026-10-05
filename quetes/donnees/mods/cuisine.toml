@@ -39,6 +39,47 @@ Le &7couteau&r se fait en silex, puis en fer, en or, en diamant, en nétherite. 
 """
 
 [[quete]]
+cle = "couteau_fer"
+titre = "Un couteau en fer"
+deps = ["couteau"]
+taches = ["item farmersdelight:iron_knife"]
+recompenses = ["xp 3"]
+description = """
+Deux lingots de fer en moins qu'une épée, et une lame qui dure.
+"""
+
+[[quete]]
+cle = "couteau_or"
+titre = "Un couteau en or"
+deps = ["couteau_fer"]
+optionnel = true
+taches = ["item farmersdelight:golden_knife"]
+recompenses = ["xp 3"]
+description = """
+À côté de l'échelle : rapide, fragile.
+"""
+
+[[quete]]
+cle = "couteau_diamant"
+titre = "Un couteau en diamant"
+deps = ["couteau_fer"]
+taches = ["item farmersdelight:diamond_knife"]
+recompenses = ["xp 5"]
+description = """
+Un diamant et un bâton.
+"""
+
+[[quete]]
+cle = "couteau_netherite"
+titre = "Un couteau en nétherite"
+deps = ["couteau_diamant"]
+taches = ["item farmersdelight:netherite_knife"]
+recompenses = ["xp 8"]
+description = """
+À la table de forge : le couteau en diamant, un lingot de nétherite et un modèle d'amélioration. Le dernier couteau de Farmer's Delight ; les autres matériaux du pack sont à l'Arsenal de l'Encyclopédie.
+"""
+
+[[quete]]
 cle = "planche"
 titre = "Une planche à découper"
 deps = ["couteau"]
@@ -138,6 +179,69 @@ taches = ["item farmersdelight:shepherds_pie_block"]
 recompenses = ["xp 5"]
 description = """
 Un &6festin&r se pose comme un bloc et se sert en parts : hachis parmentier, poulet rôti, citrouille farcie, jambon glacé au miel. Le repas d'une faction après un raid.
+"""
+
+[[quete]]
+cle = "poulet_roti"
+titre = "Poulet rôti"
+deps = ["festin"]
+taches = ["item farmersdelight:roast_chicken_block"]
+recompenses = ["xp 5"]
+description = """
+Poulet cuit, pain, œuf, oignon, carottes et pommes de terre cuites, sur un bol.
+"""
+
+[[quete]]
+cle = "citrouille_farcie"
+titre = "Citrouille farcie"
+deps = ["festin"]
+taches = ["item farmersdelight:stuffed_pumpkin_block"]
+recompenses = ["xp 5"]
+description = """
+À la &lmarmite&r : une citrouille garnie de riz, oignon, champignon, pomme de terre, baies et légumes.
+"""
+
+[[quete]]
+cle = "jambon_miel"
+titre = "Jambon laqué au miel"
+deps = ["festin"]
+taches = ["item farmersdelight:honey_glazed_ham_block"]
+recompenses = ["xp 5"]
+description = """
+Un jambon fumé, du miel, des baies sucrées et du riz cuit, sur un bol.
+"""
+
+[[quete]]
+cle = "rouleaux_riz"
+titre = "Assortiment de rouleaux de riz"
+deps = ["festin"]
+taches = ["item farmersdelight:rice_roll_medley_block"]
+recompenses = ["xp 5"]
+description = """
+Trois tranches de rouleau d'algues, trois rouleaux de saumon, deux de morue, sur un bol.
+"""
+
+[[quete]]
+cle = "salade_scintillante"
+titre = "Salade scintillante"
+deps = ["festin"]
+taches = ["item farmersdelight:gleaming_salad_block"]
+recompenses = ["xp 5"]
+description = """
+Baies lumineuses, miel, tomate, carotte dorée, betterave et chou, sur un bol.
+"""
+
+[[quete]]
+cle = "tous_festins"
+titre = "&6Tous les festins"
+deps = ["poulet_roti", "citrouille_farcie", "jambon_miel", "rouleaux_riz", "salade_scintillante"]
+taille = 1.5
+forme = "diamond"
+icone = "farmersdelight:roast_chicken_block"
+taches = ["checkmark Six festins servis"]
+recompenses = ["xp 15"]
+description = """
+Les six festins de Farmer's Delight. Ceux du Nether, de l'End, de la Forêt du crépuscule et de Delightful sont dans leurs branches.
 """
 
 [[quete]]
@@ -453,9 +557,86 @@ Les baies font une tarte, le cantaloup un pain.
 """
 
 [[quete]]
+cle = "nether_pain_strider"
+titre = "&cPain de strider"
+deps = ["nether_strider"]
+optionnel = true
+taches = ["item mynethersdelight:striderloaf"]
+recompenses = ["xp 8"]
+description = """
+Une tranche de strider et trois de strider haché, sur un bol : un festin du Nether.
+"""
+
+[[quete]]
+cle = "nether_ghasta"
+titre = "&cGhasta à la crème"
+deps = ["nether"]
+optionnel = true
+taches = ["item mynethersdelight:ghasta_with_cream"]
+recompenses = ["xp 8"]
+description = """
+Un ghasta, du ghasmati, une crème de magma et une larme de ghast, sur un bol.
+"""
+
+[[quete]]
+cle = "end_shulker"
+titre = "&5Shulker farci"
+deps = ["end_couteau"]
+optionnel = true
+taches = ["item endersdelight:stuffed_shulker"]
+recompenses = ["xp 8"]
+description = """
+À la marmite, servi dans une carapace de shulker : mollusque de shulker, fruit de chorus, riz, tomate et champignon.
+"""
+
+[[quete]]
+cle = "twilight_serpents"
+titre = "&2Serpents ardents"
+deps = ["twilight"]
+optionnel = true
+taches = ["item twilightdelight:fiery_snakes_block"]
+recompenses = ["xp 8"]
+description = """
+À la marmite : viande d'hydre, fiole ardente, écaille de naga, sauce tomate et baies-torches.
+"""
+
+[[quete]]
+cle = "twilight_poulet"
+titre = "&2Poulet aux nénuphars"
+deps = ["twilight", "poulet_roti"]
+optionnel = true
+taches = ["item twilightdelight:lily_chicken_block"]
+recompenses = ["xp 8"]
+description = """
+À la marmite, autour d'un &lpoulet rôti&r : un grand nénuphar et un grand lis d'eau de la Forêt du crépuscule.
+"""
+
+[[quete]]
+cle = "twilight_wellington"
+titre = "&2Meef Wellington"
+deps = ["twilight"]
+optionnel = true
+taches = ["item twilightdelight:meef_wellington_block"]
+recompenses = ["xp 8"]
+description = """
+Pâte à tarte, œuf, sauce de mushgloom, meef cuit et bacon, sur un bol.
+"""
+
+[[quete]]
+cle = "delightful_cantaloup"
+titre = "&aCantaloup farci"
+deps = ["delightful_cueillette"]
+optionnel = true
+taches = ["item delightful:stuffed_cantaloupe_block"]
+recompenses = ["xp 8"]
+description = """
+À la marmite, servi dans un cantaloup : riz, mouton cuit, oignon, baies et graines.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&6La table est mise"
-deps = ["ragout", "festin"]
+deps = ["ragout", "tous_festins"]
 taille = 1.5
 icone = "farmersdelight:shepherds_pie"
 taches = ["checkmark Ma faction mange chaud"]

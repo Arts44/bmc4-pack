@@ -1,0 +1,53 @@
+# Échelle des paliers — Cuisine (BMC-89, 5 octobre 2026).
+# Festins : blocs à propriété « servings » des jars Farmer's Delight 1.3.2
+# et extensions ; recettes lues dans les jars.
+chapitre = "cuisine"
+sommet = "tous_festins"
+
+[[palier]]
+echelle = "couteaux"
+cle = "couteau"
+preuve = "recette flint_knife"
+
+[[palier]]
+echelle = "couteaux"
+cle = "couteau_fer"
+preuve = "recette iron_knife"
+
+[[palier]]
+echelle = "couteaux"
+cle = "couteau_diamant"
+preuve = "recette diamond_knife"
+
+[[palier]]
+echelle = "couteaux"
+cle = "couteau_netherite"
+preuve = "smithing_transform depuis diamond_knife"
+
+[[palier]]
+echelle = "festins"
+cle = "marmite"
+preuve = "recette cooking_pot"
+
+[[palier]]
+echelle = "festins"
+cle = "ragout"
+preuve = "cuisson beef_stew à la marmite"
+
+[[palier]]
+echelle = "festins"
+cle = "festin"
+preuve = "shepherds_pie_block, propriété servings"
+
+[[palier]]
+echelle = "festins"
+cle = "tous_festins"
+preuve = "six blocs à servings de farmersdelight"
+
+[[saute]]
+objet = "pain de strider froid (cold_striderloaf_block)"
+raison = "aucune recette ; seul le butin de son propre bloc le donne, et la façon d'obtenir ce bloc n'est lue nulle part"
+
+[[saute]]
+objet = "plate_of_stuffed_hoglin"
+raison = "butin du bloc stuffed_hoglin : couvert par la quête du hoglin farci"
