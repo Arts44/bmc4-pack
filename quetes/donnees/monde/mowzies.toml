@@ -155,13 +155,158 @@ Un œil de l'Ender au centre d'une recette, et le lancer file vers un repaire de
 """
 
 [[quete]]
+cle = "wrought_butin"
+titre = "La hache et le casque"
+deps = ["wroughtnaut"]
+taches = ["item mowziesmobs:wrought_axe", "item mowziesmobs:wrought_helmet"]
+recompenses = ["xp 8"]
+description = """
+Les deux pièces de sa table de butin : la hache et le casque du Wroughtnaut.
+"""
+
+[[quete]]
+cle = "wrought_relance"
+titre = "&7Un autre Wroughtnaut"
+deps = ["wrought_butin"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill mowziesmobs:ferrous_wroughtnaut"]
+recompenses = ["xp 20"]
+description = """
+Chaque chambre forgée a son Wroughtnaut. Trouve-en une autre et recommence : seul un combat mené après cette quête compte.
+"""
+
+[[quete]]
+cle = "frostmaw_cristal"
+titre = "Le cristal de glace"
+deps = ["frostmaw"]
+taches = ["item mowziesmobs:ice_crystal"]
+recompenses = ["xp 8"]
+description = """
+Le cristal du Frostmaw, dans sa table de butin. Le lui voler sans le tuer vaut un progrès à part.
+"""
+
+[[quete]]
+cle = "frostmaw_vol"
+titre = "Voler le cristal"
+deps = ["frostmaw"]
+optionnel = true
+taches = ["advancement mowziesmobs:steal_ice_crystal"]
+recompenses = ["xp 8"]
+description = """
+Prendre le cristal à un Frostmaw sans le tuer (progrès du mod).
+"""
+
+[[quete]]
+cle = "frostmaw_relance"
+titre = "&bUn autre Frostmaw"
+deps = ["frostmaw_cristal"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill mowziesmobs:frostmaw"]
+recompenses = ["xp 20"]
+description = """
+Un autre Frostmaw, ailleurs dans le froid. Seul un combat mené après cette quête compte.
+"""
+
+[[quete]]
+cle = "masque"
+titre = "Un masque d'Umvuthana"
+deps = ["bosquet"]
+exigence = "une"
+taches = ["item mowziesmobs:umvuthana_mask_fury", "item mowziesmobs:umvuthana_mask_fear", "item mowziesmobs:umvuthana_mask_rage", "item mowziesmobs:umvuthana_mask_bliss", "item mowziesmobs:umvuthana_mask_misery", "item mowziesmobs:umvuthana_mask_faith"]
+recompenses = ["xp 5"]
+description = """
+Six masques, sur les Umvuthana ou dans les coffres du bosquet.
+"""
+
+[[quete]]
+cle = "deguise"
+titre = "Déguisé dans le bosquet"
+deps = ["masque"]
+optionnel = true
+taches = ["advancement mowziesmobs:sneak_grove"]
+recompenses = ["xp 5"]
+description = """
+Entrer dans un bosquet d'Umvuthana déguisé (progrès du mod).
+"""
+
+[[quete]]
+cle = "raptor"
+titre = "Le Raptor"
+deps = ["bosquet"]
+taches = ["advancement mowziesmobs:kill_umvuthana_raptor"]
+recompenses = ["xp 8"]
+description = """
+Le chef des Umvuthana d'un bosquet (progrès du mod).
+"""
+
+[[quete]]
+cle = "visage"
+titre = "Le Visage du Sol"
+deps = ["umvuthi"]
+taches = ["item mowziesmobs:sol_visage"]
+recompenses = ["xp 8"]
+description = """
+Le masque d'Umvuthi, dans sa table de butin.
+"""
+
+[[quete]]
+cle = "benediction"
+titre = "La Bénédiction du Soleil"
+deps = ["umvuthi"]
+optionnel = true
+taches = ["advancement mowziesmobs:suns_blessing"]
+recompenses = ["xp 10"]
+description = """
+Sept blocs d'or apportés à Umvuthi (config du serveur).
+"""
+
+[[quete]]
+cle = "umvuthi_relance"
+titre = "&6Un autre Umvuthi"
+deps = ["visage", "raptor"]
+boss = true
+forme = "gear"
+taille = 1.3
+taches = ["kill mowziesmobs:umvuthi"]
+recompenses = ["xp 20"]
+description = """
+Chaque bosquet a son Umvuthi. Seul un combat mené après cette quête compte.
+"""
+
+[[quete]]
+cle = "gantelet"
+titre = "Le Gantelet fendeur de terre"
+deps = ["sculpteur"]
+taches = ["item mowziesmobs:earthrend_gauntlet"]
+recompenses = ["xp 10"]
+description = """
+La récompense du défi du Sculpteur (table de butin sculptor_test du jar).
+"""
+
+[[quete]]
+cle = "geomancien"
+titre = "La tenue du géomancien"
+deps = ["monastere"]
+optionnel = true
+taches = ["item mowziesmobs:geomancer_beads", "item mowziesmobs:geomancer_robe", "item mowziesmobs:geomancer_belt", "item mowziesmobs:geomancer_sandals", "item mowziesmobs:sculptor_staff"]
+recompenses = ["xp 10"]
+description = """
+Perles, robe, ceinture, sandales et bâton du Sculpteur : dans les coffres du monastère ou sur le Sculpteur lui-même.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&6Les quatre géants"
-deps = ["wroughtnaut", "frostmaw", "umvuthi", "sculpteur"]
+deps = ["wrought_relance", "frostmaw_relance", "umvuthi_relance", "gantelet"]
 taille = 1.5
+forme = "diamond"
 icone = "mowziesmobs:earthrend_gauntlet"
 taches = ["checkmark Les quatre sont tombés"]
 recompenses = ["xp 10"]
 description = """
-Wroughtnaut, Frostmaw, Umvuthi, Sculpteur. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont &lincassables&r sur ce serveur (config).
+Wroughtnaut, Frostmaw et Umvuthi battus deux fois, le défi du Sculpteur relevé. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont &lincassables&r sur ce serveur (config).
 """

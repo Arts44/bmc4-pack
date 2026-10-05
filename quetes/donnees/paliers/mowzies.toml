@@ -1,0 +1,108 @@
+# Échelle des paliers — Mowzie's Mobs (BMC-89, 5 octobre 2026).
+# Tables de butin et progrès du jar mowziesmobs 1.8.2. Relances : un combat
+# n'est compté par FTB Quests que si la quête peut démarrer (TeamData.
+# canStartTasks), donc après la quête de la première victoire.
+chapitre = "monde_mowzies"
+sommet = "fin"
+
+[[palier]]
+echelle = "wroughtnaut"
+cle = "chambre"
+preuve = "structure wrought_chamber"
+
+[[palier]]
+echelle = "wroughtnaut"
+cle = "wroughtnaut"
+preuve = "progrès kill_ferrous_wroughtnaut"
+
+[[palier]]
+echelle = "wroughtnaut"
+cle = "wrought_butin"
+preuve = "loot_tables/entities/ferrous_wroughtnaut"
+
+[[palier]]
+echelle = "wroughtnaut"
+cle = "wrought_relance"
+preuve = "kill après la première victoire"
+
+[[palier]]
+echelle = "wroughtnaut"
+cle = "fin"
+preuve = "les quatre sommets"
+
+[[palier]]
+echelle = "frostmaw"
+cle = "frostmaw"
+preuve = "progrès kill_frostmaw"
+
+[[palier]]
+echelle = "frostmaw"
+cle = "frostmaw_cristal"
+preuve = "loot_tables/entities/frostmaw"
+
+[[palier]]
+echelle = "frostmaw"
+cle = "frostmaw_relance"
+preuve = "kill après la première victoire"
+
+[[palier]]
+echelle = "frostmaw"
+cle = "fin"
+preuve = "les quatre sommets"
+
+[[palier]]
+echelle = "umvuthi"
+cle = "bosquet"
+preuve = "structure umvuthana_grove"
+
+[[palier]]
+echelle = "umvuthi"
+cle = "umvuthi"
+preuve = "progrès kill_umvuthi"
+
+[[palier]]
+echelle = "umvuthi"
+cle = "visage"
+preuve = "loot_tables/entities/umvuthi"
+
+[[palier]]
+echelle = "umvuthi"
+cle = "umvuthi_relance"
+preuve = "kill après la première victoire"
+
+[[palier]]
+echelle = "umvuthi"
+cle = "fin"
+preuve = "les quatre sommets"
+
+[[palier]]
+echelle = "sculpteur"
+cle = "monastere"
+preuve = "structure monastery"
+
+[[palier]]
+echelle = "sculpteur"
+cle = "sculpteur"
+preuve = "progrès sculptor_challenge"
+
+[[palier]]
+echelle = "sculpteur"
+cle = "gantelet"
+preuve = "loot_tables/entities/sculptor_test"
+
+[[palier]]
+echelle = "sculpteur"
+cle = "fin"
+preuve = "les quatre sommets"
+
+[[saute]]
+objet = "relance du Sculpteur"
+raison = "la victoire est un défi (progrès sculptor_challenge), pas une mise à mort : un second défi n'est pas vérifiable par une tâche"
+
+[[saute]]
+objet = "Elokosa (pattes, hurleur)"
+raison = "progrès kill_elokosa_howler absent du jar (seulement dans la lang) ; apparition non vérifiée"
+
+[[saute]]
+objet = "grottol capturé"
+raison = "non obtenable en chaîne"
