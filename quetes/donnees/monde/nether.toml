@@ -133,7 +133,7 @@ optionnel = true
 taches = ["item betternether:cincinnasite_forge"]
 recompenses = ["xp 5"]
 description = """
-La &cforge de cincinnasite&r : le four du Nether, et les outils de cincinnasite sertis de diamant s'y fabriquent (progrès du mod).
+La &cforge de cincinnasite&r : un bloc de cincinnasite forgée et des briques du Nether, le four du Nether.
 """
 
 [[quete]]
@@ -144,7 +144,7 @@ optionnel = true
 taches = ["item betternether:nether_ruby"]
 recompenses = ["xp 5"]
 description = """
-Le &crubis du Nether&r sort du minerai de rubis. Il sert aux outils et armures « flamboyants » du mod.
+Le &crubis du Nether&r sort du minerai de rubis. Il fait une armure et des outils, que le modèle « rubis flamboyant » améliore ensuite.
 """
 
 [[quete]]
@@ -375,6 +375,91 @@ taches = ["advancement netherexp:nether/plague_doctor"]
 recompenses = ["xp 10"]
 description = """
 Tous les effets d'antidote actifs en même temps (progrès « Plague-Doctor »). Sur ce serveur, potions et antidotes s'empilent par 16.
+"""
+
+# ---- Paliers d'équipement Better Nether et relance du Wither (BMC-89,
+# 5 octobre). Recettes du jar better-nether-9.0.10 (smithing_transform :
+# modèles cincinnasite_diamond_upgrade et flaming_ruby_upgrade) ; une victoire
+# n'est comptée que si la quête est ouverte (FTB Quests, javap).
+[[quete]]
+cle = "wither_relance"
+titre = "&8Invoquer le Wither une seconde fois"
+deps = ["wither"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill minecraft:wither"]
+recompenses = ["xp 20"]
+description = """
+Trois crânes de wither squelette sur quatre sables des âmes, et c'est reparti. La quête ne compte que le combat livré après la première victoire : il faut le refaire. Chaque Wither donne une étoile du Nether, celle des balises et de la zénalite de Hazen 'n Stuff.
+"""
+
+[[quete]]
+cle = "armure_cincinnasite"
+titre = "L'armure de cincinnasite"
+deps = ["cincinnasite"]
+optionnel = true
+taches = ["item betternether:cincinnasite_helmet", "item betternether:cincinnasite_chestplate", "item betternether:cincinnasite_leggings", "item betternether:cincinnasite_boots"]
+recompenses = ["xp 5"]
+description = """
+Des lingots de cincinnasite. C'est le premier palier de Better Nether.
+"""
+
+[[quete]]
+cle = "outils_cincinnasite"
+titre = "Les outils de cincinnasite"
+deps = ["cincinnasite"]
+optionnel = true
+taches = ["item betternether:cincinnasite_sword", "item betternether:cincinnasite_pickaxe", "item betternether:cincinnasite_axe", "item betternether:cincinnasite_shovel", "item betternether:cincinnasite_hoe"]
+recompenses = ["xp 5"]
+description = """
+Lingots de cincinnasite et tiges de roseau du Nether en manche.
+"""
+
+[[quete]]
+cle = "outils_cincinnasite_diamant"
+titre = "Les outils de cincinnasite sertis de diamant"
+deps = ["outils_cincinnasite"]
+optionnel = true
+taches = ["item betternether:cincinnasite_sword_diamond", "item betternether:cincinnasite_pickaxe_diamond", "item betternether:cincinnasite_axe_diamond", "item betternether:cincinnasite_shovel_diamond", "item betternether:cincinnasite_hoe_diamond"]
+recompenses = ["xp 8"]
+description = """
+À la table de forge : l'outil de cincinnasite, un diamant, et le modèle « cincinnasite sertie de diamant ».
+"""
+
+[[quete]]
+cle = "armure_rubis"
+titre = "L'armure de rubis du Nether"
+deps = ["rubis"]
+optionnel = true
+taches = ["item betternether:nether_ruby_helmet", "item betternether:nether_ruby_chestplate", "item betternether:nether_ruby_leggings", "item betternether:nether_ruby_boots"]
+recompenses = ["xp 8"]
+description = """
+Des rubis du Nether.
+"""
+
+[[quete]]
+cle = "outils_rubis"
+titre = "Les outils de rubis du Nether"
+deps = ["rubis"]
+optionnel = true
+taches = ["item betternether:nether_ruby_sword", "item betternether:nether_ruby_pickaxe", "item betternether:nether_ruby_axe", "item betternether:nether_ruby_shovel", "item betternether:nether_ruby_hoe"]
+recompenses = ["xp 8"]
+description = """
+Des rubis du Nether et des tiges de roseau du Nether.
+"""
+
+[[quete]]
+cle = "rubis_flamboyant"
+titre = "&cTout en rubis flamboyant"
+deps = ["armure_rubis", "outils_rubis"]
+optionnel = true
+forme = "diamond"
+taille = 1.3
+taches = ["item betternether:flaming_ruby_helmet", "item betternether:flaming_ruby_chestplate", "item betternether:flaming_ruby_leggings", "item betternether:flaming_ruby_boots", "item betternether:flaming_ruby_sword", "item betternether:flaming_ruby_pickaxe", "item betternether:flaming_ruby_axe", "item betternether:flaming_ruby_shovel", "item betternether:flaming_ruby_hoe"]
+recompenses = ["xp 20"]
+description = """
+À la table de forge, chaque pièce et chaque outil en rubis, un catalyseur de sculk et le modèle « rubis flamboyant » : le sommet de Better Nether. Le modèle se recopie avec un diamant et un rubis.
 """
 
 [[quete]]
