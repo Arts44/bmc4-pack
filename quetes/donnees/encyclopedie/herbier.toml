@@ -43,17 +43,6 @@ Graine de &aMystical Agriculture&r.
 """
 
 [[quete]]
-cle = "mysticalagriculture_basalt_seeds"
-titre = "Cultiver : « Basalt seeds »"
-optionnel = true
-icone = "mysticalagriculture:basalt_seeds"
-taches = ["item mysticalagriculture:basalt_seeds"]
-recompenses = ["xp 1"]
-description = """
-Graine de &aMystical Agriculture&r.
-"""
-
-[[quete]]
 cle = "mysticalagriculture_blaze_seeds"
 titre = "Cultiver : « Blaze seeds »"
 optionnel = true
@@ -373,17 +362,6 @@ Graine de &aMystical Agriculture&r.
 """
 
 [[quete]]
-cle = "mysticalagriculture_lead_seeds"
-titre = "Cultiver : « Lead seeds »"
-optionnel = true
-icone = "mysticalagriculture:lead_seeds"
-taches = ["item mysticalagriculture:lead_seeds"]
-recompenses = ["xp 1"]
-description = """
-Graine de &aMystical Agriculture&r.
-"""
-
-[[quete]]
 cle = "mysticalagriculture_limestone_seeds"
 titre = "Cultiver : « Limestone seeds »"
 optionnel = true
@@ -626,17 +604,6 @@ Graine de &aMystical Agriculture&r.
 """
 
 [[quete]]
-cle = "mysticalagriculture_sulfur_seeds"
-titre = "Cultiver : « Sulfur seeds »"
-optionnel = true
-icone = "mysticalagriculture:sulfur_seeds"
-taches = ["item mysticalagriculture:sulfur_seeds"]
-recompenses = ["xp 1"]
-description = """
-Graine de &aMystical Agriculture&r.
-"""
-
-[[quete]]
 cle = "mysticalagriculture_turtle_seeds"
 titre = "Cultiver : « Turtle seeds »"
 optionnel = true
@@ -711,7 +678,7 @@ icone = "mysticalagriculture:supremium_essence"
 forme = "gear"
 taches = ["checkmark Chapitre complet"]
 recompenses = ["xp 20"]
-deps = ["mysticalagriculture_air_seeds", "mysticalagriculture_amethyst_seeds", "mysticalagriculture_basalt_seeds", "mysticalagriculture_blaze_seeds", "mysticalagriculture_brass_seeds", "mysticalagriculture_chicken_seeds", "mysticalagriculture_coal_seeds", "mysticalagriculture_copper_seeds", "mysticalagriculture_coral_seeds", "mysticalagriculture_cow_seeds", "mysticalagriculture_creeper_seeds", "mysticalagriculture_deepslate_seeds", "mysticalagriculture_diamond_seeds", "mysticalagriculture_dirt_seeds", "mysticalagriculture_dye_seeds", "mysticalagriculture_earth_seeds", "mysticalagriculture_emerald_seeds", "mysticalagriculture_end_seeds", "mysticalagriculture_enderman_seeds", "mysticalagriculture_experience_seeds", "mysticalagriculture_fire_seeds", "mysticalagriculture_fish_seeds", "mysticalagriculture_ghast_seeds", "mysticalagriculture_glowstone_seeds", "mysticalagriculture_gold_seeds", "mysticalagriculture_honey_seeds", "mysticalagriculture_ice_seeds", "mysticalagriculture_inferium_seeds", "mysticalagriculture_iron_seeds", "mysticalagriculture_ironwood_seeds", "mysticalagriculture_knightmetal_seeds", "mysticalagriculture_lapis_lazuli_seeds", "mysticalagriculture_lead_seeds", "mysticalagriculture_limestone_seeds", "mysticalagriculture_marble_seeds", "mysticalagriculture_mithril_seeds", "mysticalagriculture_mystical_flower_seeds", "mysticalagriculture_nature_seeds", "mysticalagriculture_nether_quartz_seeds", "mysticalagriculture_nether_seeds", "mysticalagriculture_netherite_seeds", "mysticalagriculture_obsidian_seeds", "mysticalagriculture_pig_seeds", "mysticalagriculture_prismarine_seeds", "mysticalagriculture_rabbit_seeds", "mysticalagriculture_redstone_seeds", "mysticalagriculture_sheep_seeds", "mysticalagriculture_skeleton_seeds", "mysticalagriculture_slime_seeds", "mysticalagriculture_soulium_seeds", "mysticalagriculture_spider_seeds", "mysticalagriculture_squid_seeds", "mysticalagriculture_steel_seeds", "mysticalagriculture_steeleaf_seeds", "mysticalagriculture_stone_seeds", "mysticalagriculture_sulfur_seeds", "mysticalagriculture_turtle_seeds", "mysticalagriculture_water_seeds", "mysticalagriculture_wither_skeleton_seeds", "mysticalagriculture_wood_seeds", "mysticalagriculture_zinc_seeds", "mysticalagriculture_zombie_seeds"]
+deps = ["mysticalagriculture_air_seeds", "mysticalagriculture_amethyst_seeds", "mysticalagriculture_blaze_seeds", "mysticalagriculture_brass_seeds", "mysticalagriculture_chicken_seeds", "mysticalagriculture_coal_seeds", "mysticalagriculture_copper_seeds", "mysticalagriculture_coral_seeds", "mysticalagriculture_cow_seeds", "mysticalagriculture_creeper_seeds", "mysticalagriculture_deepslate_seeds", "mysticalagriculture_diamond_seeds", "mysticalagriculture_dirt_seeds", "mysticalagriculture_dye_seeds", "mysticalagriculture_earth_seeds", "mysticalagriculture_emerald_seeds", "mysticalagriculture_end_seeds", "mysticalagriculture_enderman_seeds", "mysticalagriculture_experience_seeds", "mysticalagriculture_fire_seeds", "mysticalagriculture_fish_seeds", "mysticalagriculture_ghast_seeds", "mysticalagriculture_glowstone_seeds", "mysticalagriculture_gold_seeds", "mysticalagriculture_honey_seeds", "mysticalagriculture_ice_seeds", "mysticalagriculture_inferium_seeds", "mysticalagriculture_iron_seeds", "mysticalagriculture_ironwood_seeds", "mysticalagriculture_knightmetal_seeds", "mysticalagriculture_lapis_lazuli_seeds", "mysticalagriculture_limestone_seeds", "mysticalagriculture_marble_seeds", "mysticalagriculture_mithril_seeds", "mysticalagriculture_mystical_flower_seeds", "mysticalagriculture_nature_seeds", "mysticalagriculture_nether_quartz_seeds", "mysticalagriculture_nether_seeds", "mysticalagriculture_netherite_seeds", "mysticalagriculture_obsidian_seeds", "mysticalagriculture_pig_seeds", "mysticalagriculture_prismarine_seeds", "mysticalagriculture_rabbit_seeds", "mysticalagriculture_redstone_seeds", "mysticalagriculture_sheep_seeds", "mysticalagriculture_skeleton_seeds", "mysticalagriculture_slime_seeds", "mysticalagriculture_soulium_seeds", "mysticalagriculture_spider_seeds", "mysticalagriculture_squid_seeds", "mysticalagriculture_steel_seeds", "mysticalagriculture_steeleaf_seeds", "mysticalagriculture_stone_seeds", "mysticalagriculture_turtle_seeds", "mysticalagriculture_water_seeds", "mysticalagriculture_wither_skeleton_seeds", "mysticalagriculture_wood_seeds", "mysticalagriculture_zinc_seeds", "mysticalagriculture_zombie_seeds"]
 description = """
 Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 """

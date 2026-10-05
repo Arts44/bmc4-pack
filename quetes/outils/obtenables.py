@@ -117,8 +117,10 @@ def condition(c, ctx):
     if t == 'forge:item_exists':
         return c.get('item') in ctx['objets']
     if t == 'forge:tag_empty':
-        m = ctx['tags'].get(c.get('tag'))
-        return None if m is None else not m
+        m = membres_tag(ctx['tags'], c.get('tag'))
+        if not m and not ctx.get('tags_complets') and c.get('tag') not in ctx['tags']:
+            return None
+        return not m
     if t == 'forge:not':
         v = condition(c.get('value'), ctx)
         return None if v is None else not v
@@ -134,6 +136,17 @@ def condition(c, ctx):
     if t == 'delightful:enabled':
         return c.get('value') not in DELIGHTFUL_DESACTIVES
     return None
+
+
+def membres_tag(tags, t, vus=None):
+    vus = set() if vus is None else vus
+    if t in vus:
+        return set()
+    vus.add(t)
+    out = set()
+    for v in tags.get(t, []):
+        out |= membres_tag(tags, v[1:], vus) if v.startswith('#') else {v}
+    return out
 
 
 def passe(conds, ctx):
@@ -201,9 +214,38 @@ def butin(d, out):
             butin(x, out)
 
 
+FORGE = os.path.expanduser('~/curseforge/minecraft/Install/libraries/net/minecraftforge/forge/'
+                           '1.20.1-47.4.20/forge-1.20.1-47.4.20-universal.jar')   # version du serveur
+
+
+def balises_objets(zs):
+    """Toutes les balises d'objets du pack : jeu de base, jar Forge, mods,
+    datapacks Paxi, dans l'ordre de chargement (« replace » respecté)."""
+    tags = {}
+    for z in zs:
+        for n in z.namelist():
+            m = re.match(r'data/([^/]+)/tags/items/(.+)\.json$', n)
+            if not m:
+                continue
+            try:
+                d = json_tolerant(z.read(n))
+            except Exception:
+                continue
+            if not isinstance(d, dict):
+                continue
+            cle = f'{m.group(1)}:{m.group(2)}'
+            vals = [v['id'] if isinstance(v, dict) else v for v in d.get('values', []) if isinstance(v, (str, dict))]
+            tags[cle] = vals if d.get('replace') else tags.get(cle, []) + vals
+    return tags
+
+
 def main(mods, vanilla, paxi):
     fichiers = {}
-    for z in sources(mods, vanilla, paxi):
+    zs = sources(mods, vanilla, paxi)
+    if os.path.exists(FORGE):
+        zs.insert(1, zipfile.ZipFile(FORGE))
+    tags_obj = balises_objets(zs)
+    for z in zs:
         for n in z.namelist():
             if n.startswith('data/') and n.endswith('.json') and ('/recipes/' in n or '/loot_tables/' in n or '/loot_modifiers/' in n or '/worldgen/configured_feature/' in n):
                 if n.endswith('/global_loot_modifiers.json'):
@@ -211,6 +253,8 @@ def main(mods, vanilla, paxi):
                 fichiers[n] = (z, n.split('@')[0])   # le dernier (datapack) l'emporte
     rec, but, monde = set(), set(), set()
     ctx = contexte()
+    ctx['tags'] = tags_obj      # complètes : une balise absente est vide
+    ctx['tags_complets'] = True
     ecartees = 0
     actifs, modifs = set(), {}   # loot modifiers déclarés / leur contenu
     graphe = {}   # résultat -> [[ingrédient obligatoire, sous forme de liste d'alternatives], ...]
@@ -259,7 +303,7 @@ def main(mods, vanilla, paxi):
                 and 'remove' not in str(d.get('type', ''))          # retire, n'ajoute pas
                 and d.get('mod_dependency', 'minecraft') in ctx['mods']):
             objets_ajoutes(d, but)
-    out = {'recette': sorted(rec), 'butin': sorted(but), 'monde': sorted(monde), 'graphe': graphe}
+    out = {'tags': tags_obj, 'recette': sorted(rec), 'butin': sorted(but), 'monde': sorted(monde), 'graphe': graphe}
     json.dump(out, open(os.path.join(ICI, '..', 'index', 'obtenables.json'), 'w', encoding='utf-8'), indent=0)
     print({k: len(v) for k, v in out.items()}, 'recettes écartées par leurs conditions :', ecartees)
 
