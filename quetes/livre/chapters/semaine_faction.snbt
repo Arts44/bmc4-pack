@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "semaine_faction"
+	group: "1362B365ED26473C"
+	icon: "minecraft:white_banner"
+	id: "1E750169EFB94AD5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Des objectifs collectifs : chaque membre de la faction fait avancer le même compteur. Chaque défi revient &lsept jours après sa réclamation&r, et ne rapporte que de l'expérience. Un indépendant peut les faire seul, s'il en a le courage."]
+			icon: "minecraft:white_banner"
+			id: "0B68206C234D36B1"
+			rewards: [{
+				id: "65A9AB7565516C0B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "06ED6D3C8CF313E6"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&cL'effort de la semaine"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			description: ["Deux mille quarante-huit pierres livrées : de quoi remplir un mur de faction."]
+			icon: "minecraft:cobblestone"
+			id: "746F8E850BD7C476"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "0A555E5326781F7F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "3D0883D0C7822A68"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Une carrière"
+			x: 2.0d
+			y: -6.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			id: "67E9802EBEE9E7B9"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "05FCA8B331F7852B"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "584CF460DA69D506"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Cinq cent douze bûches"
+				type: "item"
+			}]
+			title: "Une forêt"
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			icon: "minecraft:iron_ingot"
+			id: "380559EDAF062122"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "3EA56277071718AC"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "5298D854AB0EAFDE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Une fonderie"
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			id: "787ED799979D026E"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "0B7D26DC65280257"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2DDCA10AF6E36ACE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:meals"
+					}
+				}
+				title: "Soixante-quatre repas"
+				type: "item"
+			}]
+			title: "Un banquet"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			icon: "minecraft:zombie_spawn_egg"
+			id: "16D98EE195CA3A15"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "533FD5E39C8EAD9A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5778A6938C1411C6"
+				type: "kill"
+				value: 200L
+			}]
+			title: "Une horde"
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			icon: "minecraft:skeleton_spawn_egg"
+			id: "5BAF5DFFBBFB600E"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "5551B4550AD8FA91"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "57EA136EAE4DC4B9"
+				type: "kill"
+				value: 200L
+			}]
+			title: "Un ossuaire"
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			icon: "minecraft:pillager_spawn_egg"
+			id: "7BAEB7300A9CCF32"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "7189B17EF821E9C6"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					id: "36FC56897709F80F"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "minecraft:vindicator"
+					id: "19CFC28141FE845F"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Une campagne contre les illageois"
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			description: ["Loin de toute base : hors claim, il rase tout autour de lui."]
+			icon: "minecraft:wither_spawn_egg"
+			id: "2B5DFDFAC609AEA2"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "130222E1A0231711"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "29C884464D15E163"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le Wither de la semaine"
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			description: ["Ré-invoqué avec quatre cristaux de l'End sur le portail. Il laisse un œuf à chaque fois sur ce serveur."]
+			icon: "minecraft:ender_dragon_spawn_egg"
+			id: "36F0E063420457DA"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "3EFAE1D1C21243C9"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "2C147D9E4E031E18"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Le dragon de la semaine"
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B68206C234D36B1"]
+			description: ["Les trois gardiens anciens d'un monument."]
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "69CC38AA671A4B8B"
+			repeat_cooldown: 604800
+			rewards: [{
+				id: "62E8EF5DFE5B6C07"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "6F046684956D133D"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Un monument vidé"
+			x: 2.0d
+			y: 6.75d
+		}
+	]
+	title: "&cDéfis de faction"
+}

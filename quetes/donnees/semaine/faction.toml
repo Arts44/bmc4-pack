@@ -1,0 +1,120 @@
+# Chapitre « Défis de faction » — cahier des charges §9.3
+# Répétables, délai 7 jours depuis la réclamation (voir contrats.toml pour
+# la vérification dans le jar). Progression d'équipe : c'est le
+# fonctionnement de FTB Quests (TeamData), l'équipe FTB de la faction
+# avance ensemble. Récompense S seulement : de l'XP. La « bannière de la
+# semaine » du cahier n'est pas faite : un motif de bannière porté en NBT
+# serait un objet, donc une récompense R1, contraire au cahier.
+# « Tuer trois boss différents » n'est pas faisable : une quête FTB n'a pas
+# de « l'une ou l'autre » entre ses tâches, et KillTask ne prend qu'une
+# entité exacte. Remplacé par des boss nommés, un défi chacun.
+
+[chapitre]
+titre = "&cDéfis de faction"
+fichier = "semaine_faction"
+groupe = "semaine"
+icone = "minecraft:white_banner"
+ordre = 2
+
+[[quete]]
+cle = "intro"
+titre = "&cL'effort de la semaine"
+taille = 1.5
+icone = "minecraft:white_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Des objectifs collectifs : chaque membre de la faction fait avancer le même compteur. Chaque défi revient &lsept jours après sa réclamation&r, et ne rapporte que de l'expérience. Un indépendant peut les faire seul, s'il en a le courage.
+"""
+
+[[quete]]
+cle = "pierre"
+titre = "Une carrière"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:cobblestone 2048 !consommer"]
+recompenses = ["xp 15"]
+description = """
+Deux mille quarante-huit pierres livrées : de quoi remplir un mur de faction.
+"""
+
+[[quete]]
+cle = "bois"
+titre = "Une forêt"
+deps = ["intro"]
+repetable = true
+taches = ["tag minecraft:logs 512 Cinq cent douze bûches !consommer"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "fer"
+titre = "Une fonderie"
+deps = ["intro"]
+repetable = true
+taches = ["item minecraft:iron_ingot 128 !consommer"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "repas"
+titre = "Un banquet"
+deps = ["intro"]
+repetable = true
+taches = ["tag farmersdelight:meals 64 Soixante-quatre repas !consommer"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "zombies"
+titre = "Une horde"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:zombie 200"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "squelettes"
+titre = "Un ossuaire"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:skeleton 200"]
+recompenses = ["xp 15"]
+
+[[quete]]
+cle = "pillards"
+titre = "Une campagne contre les illageois"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:pillager 50", "kill minecraft:vindicator 10"]
+recompenses = ["xp 20"]
+
+[[quete]]
+cle = "wither"
+titre = "Le Wither de la semaine"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:wither"]
+recompenses = ["xp 30"]
+description = """
+Loin de toute base : hors claim, il rase tout autour de lui.
+"""
+
+[[quete]]
+cle = "dragon"
+titre = "Le dragon de la semaine"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:ender_dragon"]
+recompenses = ["xp 30"]
+description = """
+Ré-invoqué avec quatre cristaux de l'End sur le portail. Il laisse un œuf à chaque fois sur ce serveur.
+"""
+
+[[quete]]
+cle = "gardiens"
+titre = "Un monument vidé"
+deps = ["intro"]
+repetable = true
+taches = ["kill minecraft:elder_guardian 3"]
+recompenses = ["xp 25"]
+description = """
+Les trois gardiens anciens d'un monument.
+"""
