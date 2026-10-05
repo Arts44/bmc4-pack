@@ -91,7 +91,7 @@ give Arts_Vio minecraft:wheat 64
 
 Console : `deop Arts_Vio`. Après le test : `op Arts_Vio` (rend le niveau 4, celui d'avant, `op-permission-level=4`).
 
-### Les sept essais
+### Les huit essais
 
 | # | Chapitre → quête | Ce qu'on fait | Résultat attendu |
 |---|---|---|---|
@@ -102,6 +102,7 @@ Console : `deop Arts_Vio`. Après le test : `op Arts_Vio` (rend le niveau 4, cel
 | 5 | **Villages et commerce** → « Le village, version BMC4 », puis « Trouver un village » | entrer dans un village | la quête se valide à l'entrée. La balise `#minecraft:village` compte 38 structures : villages du jeu de base, de Towns and Towers, de Blue Skies et de Repurposed Structures |
 | 6 | **Contrats de la semaine** → « Le tableau des contrats », puis « Livrer du blé » | 64 blés en poche ; cliquer la tâche pour livrer | les 64 blés **disparaissent**, la quête se termine ; on réclame 3 niveaux et un tirage « Contrat » ; ensuite la quête affiche un délai d'environ 7 jours avant de revenir (`repeat_cooldown: 604800` secondes, compté depuis la réclamation) |
 | 7 | **Twilight Forest — la progression**, avec le compte d'un ancien joueur qui a fini la Twilight (Arts_Vio) | se connecter, ouvrir le chapitre, ne rien faire | dans les secondes qui suivent la connexion, sans rien refaire : le portail, les sept boss (Naga, Liche, Hydre, Chevaliers fantômes, Ur-Ghast, Yéti alpha, Reine des neiges), le stroganoff, le piédestal, le piège à Ghast, les trolls, les géants, la lampe et le Plateau final sont cochés — 16 quêtes sur 40. Restent ouvertes, et c'est voulu : les huit visites de structures, les relances, le Minoshroom (aucun progrès de victoire dans le jar), la case finale ; les trophées se cochent dès qu'ils sont en poche. Simulation : `python3 quetes/outils/simuler_connexion.py quetes/livre quetes/tests/arts_vio_twilight.json monde_twilight_progression` |
+| 8 | **L'Aether** et **Les dragons**, avec le compte d'un ancien joueur qui a vaincu la Reine des Valkyries, sans glowstone ni œuf en poche | se connecter ; dans les Dragons, regarder son dragon | « Entrer dans l'Aether », « Vaincre le Slider » et « Vaincre la Reine des Valkyries » se cochent sans rien en poche ; dans les Dragons, « Un œuf de dragon » puis « Faire éclore » se cochent en regardant le dragon, et le reste du chapitre s'ouvre. Simulation : `python3 quetes/tests/test_retroactivite.py` |
 
 Si un essai échoue : noter le chapitre, la quête, ce qui s'est passé, et passer au retour arrière (§ 5) ou à la variante légère.
 
@@ -129,7 +130,7 @@ Le livre léger fait 54 chapitres et 1 541 quêtes, sans l'Encyclopédie. Rien n
 
 ### Lecture du NBT pour le Grimoire et les Dragons
 
-Lecture seule, après les sept essais et **après** `op Arts_Vio` (la commande `data` demande l'op). Elle sert à générer plus tard les chapitres Grimoire et Dragons ; ils ne partiront qu'au déploiement suivant.
+Lecture seule, après les huit essais et **après** `op Arts_Vio` (la commande `data` demande l'op). Elle sert à générer plus tard les chapitres Grimoire et Dragons ; ils ne partiront qu'au déploiement suivant.
 
 1. Prendre en main un vrai **parchemin de sort** d'Iron's Spells, puis taper en console :
 
@@ -193,7 +194,8 @@ whitelist remove Arts_Vio
   - les tâches **statistique** (`stat`) : le compteur est cumulé depuis le début du serveur. Vérifiées à la connexion, puis toutes les 3 ticks ;
   - les tâches **objet non consommé** : seulement ce que le joueur **a sur lui** — à la connexion, puis à chaque changement d'inventaire. Un objet rangé dans un coffre ne compte pas tant qu'il n'est pas repris.
 - **Ce qui ne se valide jamais tout seul** : visiter une structure ou un biome, être dans une dimension (seule la position *actuelle* compte), tuer une créature (seulement après l'ouverture de la quête), cocher une case, observer, remettre des objets consommés.
-- **La cascade** : une quête ne démarre que quand ses dépendances sont finies (mode « linear »). Depuis le 6 octobre, aucune étape rétroactive n'attend une étape non rétroactive : les cases « Lu », les visites de structures, les kills de défi et les relances sont des branches latérales, et le contrôle `retroactivite` du générateur fait échouer `--verifier` sinon. Quand le mod donne un progrès équivalent (entrée de dimension, découverte de structure, boss tué), c'est lui qui est demandé. À la connexion, la colonne vertébrale de chaque chapitre se coche donc d'un coup, jusqu'au premier objet que le joueur n'a pas sur lui ; la suite se coche au premier changement d'inventaire.
+- **La cascade** : une quête ne démarre que quand ses dépendances sont finies (mode « linear »). Deux niveaux de preuve (6 octobre) : **forte** — progrès et statistiques, acquis pour toujours ; **faible** — objet en poche, qui dépend de l'inventaire du moment. Une quête à preuve forte ne dépend que de quêtes prouvées fortement ; une quête d'objet peut suivre une quête d'objet (paliers d'outils, d'armure). Les objets en poche, les cases « Lu », les visites, les kills de défi et les relances sont donc des branches latérales, et le contrôle `retroactivite` du générateur fait échouer `--verifier` sinon. Quand le mod donne un progrès équivalent (entrée de dimension, découverte de structure, boss tué), c'est lui qui est demandé. À la connexion, toute la colonne vertébrale des progrès et statistiques se coche d'un coup ; les quêtes d'objets se cochent pour ce que le joueur a sur lui, et à chaque changement d'inventaire.
+- **Dragons** : la première quête accepte un œuf **ou** la vue d'un dragon. Un joueur qui a déjà fait éclore ses œufs regarde son dragon, et le chapitre s'ouvre.
 - Ce qui s'est passé le 5 octobre (Arts_Vio) : seul le portail de la Twilight s'est validé, parce que « La cour de la Naga » (visite) précédait « Vaincre la Naga ». Le simulateur reproduit exactement ce résultat sur l'ancien livre (3411210).
 - Les fichiers d'équipe ne sont pas à toucher.
 
