@@ -188,6 +188,134 @@ description = """
 Plastron et jambières en écailles de Naga, les deux (progrès du mod).
 """
 
+# ---- Paliers d'équipement (BMC-89, 5 octobre) : objets obtenables en chaîne
+# (outils/chaine.py) ; tables de butin du jar : fourrure arctique (yéti, loup
+# d'hiver), fourrure de yéti alpha (Yéti alpha), armure fantôme (coffre du boss
+# de la forteresse des chevaliers, avec épée, pioche et hache en métal de
+# chevalier).
+[[quete]]
+cle = "armure_bois_de_fer"
+titre = "L'armure en bois de fer"
+deps = ["bois_de_fer"]
+optionnel = true
+taches = ["item twilightforest:ironwood_helmet", "item twilightforest:ironwood_chestplate", "item twilightforest:ironwood_leggings", "item twilightforest:ironwood_boots"]
+recompenses = ["xp 5"]
+description = """
+Le premier palier de la Twilight Forest, en lingots de bois de fer.
+"""
+
+[[quete]]
+cle = "outils_bois_de_fer"
+titre = "Les outils en bois de fer"
+deps = ["bois_de_fer"]
+optionnel = true
+taches = ["item twilightforest:ironwood_sword", "item twilightforest:ironwood_pickaxe", "item twilightforest:ironwood_axe", "item twilightforest:ironwood_shovel", "item twilightforest:ironwood_hoe"]
+recompenses = ["xp 5"]
+description = """
+Épée, pioche, hache, pelle et houe en bois de fer, déjà enchantés à la fabrication.
+"""
+
+[[quete]]
+cle = "armure_steeleaf"
+titre = "L'armure en Steeleaf"
+deps = ["armure_bois_de_fer"]
+optionnel = true
+taches = ["item twilightforest:steeleaf_helmet", "item twilightforest:steeleaf_chestplate", "item twilightforest:steeleaf_leggings", "item twilightforest:steeleaf_boots"]
+recompenses = ["xp 6"]
+description = """
+Le deuxième palier, en lingots de Steeleaf.
+"""
+
+[[quete]]
+cle = "outils_steeleaf"
+titre = "Les outils en Steeleaf"
+deps = ["outils_bois_de_fer"]
+optionnel = true
+taches = ["item twilightforest:steeleaf_sword", "item twilightforest:steeleaf_pickaxe", "item twilightforest:steeleaf_axe", "item twilightforest:steeleaf_shovel", "item twilightforest:steeleaf_hoe"]
+recompenses = ["xp 6"]
+description = """
+Les mêmes outils en Steeleaf.
+"""
+
+[[quete]]
+cle = "armure_knightmetal"
+titre = "L'armure en métal de chevalier"
+deps = ["knightmetal", "armure_steeleaf"]
+optionnel = true
+taches = ["item twilightforest:knightmetal_helmet", "item twilightforest:knightmetal_chestplate", "item twilightforest:knightmetal_leggings", "item twilightforest:knightmetal_boots"]
+recompenses = ["xp 8"]
+description = """
+Le troisième palier, en lingots de métal de chevalier.
+"""
+
+[[quete]]
+cle = "armes_knightmetal"
+titre = "Les armes en métal de chevalier"
+deps = ["knightmetal", "outils_steeleaf"]
+optionnel = true
+taches = ["item twilightforest:knightmetal_sword", "item twilightforest:knightmetal_pickaxe", "item twilightforest:knightmetal_axe", "item twilightforest:knightmetal_shield", "item twilightforest:block_and_chain"]
+recompenses = ["xp 8"]
+description = """
+Épée, pioche, hache, bouclier et boulet à chaîne. L'épée, la pioche et la hache sortent aussi du coffre des chevaliers fantômes.
+"""
+
+[[quete]]
+cle = "armure_ardente"
+titre = "L'armure ardente"
+deps = ["armure_knightmetal", "ardent"]
+optionnel = true
+forme = "diamond"
+taille = 1.3
+taches = ["item twilightforest:fiery_helmet", "item twilightforest:fiery_chestplate", "item twilightforest:fiery_leggings", "item twilightforest:fiery_boots"]
+recompenses = ["xp 12"]
+description = """
+Le sommet de l'armure forgée de la Twilight Forest : des lingots ardents, faits du sang ou des larmes de l'Hydre et du Ur-Ghast.
+"""
+
+[[quete]]
+cle = "armes_ardentes"
+titre = "L'épée et la pioche ardentes"
+deps = ["armes_knightmetal", "ardent"]
+optionnel = true
+taches = ["item twilightforest:fiery_sword", "item twilightforest:fiery_pickaxe"]
+recompenses = ["xp 10"]
+description = """
+Les deux outils ardents : ils enflamment et cuisent ce qu'ils touchent ou minent.
+"""
+
+[[quete]]
+cle = "armure_arctique"
+titre = "L'armure arctique"
+deps = ["intro"]
+optionnel = true
+taches = ["item twilightforest:arctic_helmet", "item twilightforest:arctic_chestplate", "item twilightforest:arctic_leggings", "item twilightforest:arctic_boots"]
+recompenses = ["xp 6"]
+description = """
+En fourrure arctique, que lâchent les yétis et les loups d'hiver des Glaciers.
+"""
+
+[[quete]]
+cle = "armure_yeti"
+titre = "L'armure de yéti"
+deps = ["armure_arctique"]
+optionnel = true
+taches = ["item twilightforest:yeti_helmet", "item twilightforest:yeti_chestplate", "item twilightforest:yeti_leggings", "item twilightforest:yeti_boots"]
+recompenses = ["xp 10"]
+description = """
+En fourrure de yéti alpha : il faut abattre le Yéti alpha de sa grotte.
+"""
+
+[[quete]]
+cle = "armure_fantome"
+titre = "L'armure fantôme"
+deps = ["armure_knightmetal"]
+optionnel = true
+taches = ["item twilightforest:phantom_helmet", "item twilightforest:phantom_chestplate"]
+recompenses = ["xp 10"]
+description = """
+Le casque et le plastron fantômes ne se fabriquent pas : ils sont dans le coffre que laissent les chevaliers fantômes de la forteresse.
+"""
+
 [[quete]]
 cle = "arbres"
 titre = "Les arbres magiques"
