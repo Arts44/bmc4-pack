@@ -431,8 +431,8 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Toutes les races de dragons** *(optionnelle)* — tâches : checkmark Trente-six races vues chez moi — récompense : xp 40 — après : intro
   > Trente-six races (chapitre Les dragons). L'œuf porte sa race en NBT : le livre ne peut pas le compter, la case est sur l'honneur et le Bestiaire fait foi.
 - **Les seize disques vanilla** *(optionnelle)* — tâches : item minecraft:music_disc_13, item minecraft:music_disc_cat, item minecraft:music_disc_blocks, item minecraft:music_disc_chirp, item minecraft:music_disc_far, item minecraft:music_disc_mall, item minecraft:music_disc_mellohi, item minecraft:music_disc_stal, item minecraft:music_disc_strad, item minecraft:music_disc_ward, item minecraft:music_disc_11, item minecraft:music_disc_wait, item minecraft:music_disc_otherside, item minecraft:music_disc_5, item minecraft:music_disc_pigstep, item minecraft:music_disc_relic — récompense : xp 30 — après : intro
-- **Les disques de Cataclysm** *(optionnelle)* — tâches : item cataclysm:music_disc_ignis, item cataclysm:music_disc_netherite_monstrosity, item cataclysm:music_disc_ender_guardian, item cataclysm:music_disc_the_harbinger, item cataclysm:music_disc_the_leviathan, item cataclysm:music_disc_ancient_remnant, item cataclysm:music_disc_maledictus, item cataclysm:music_disc_scylla, item cataclysm:music_disc_the_cataclysmfarer — récompense : xp 30 — après : disques_vanilla
-  > Un par boss (tables de butin), plus celui du Cataclysmfarer.
+- **Les disques de Cataclysm** *(optionnelle)* — tâches : item cataclysm:music_disc_ignis, item cataclysm:music_disc_netherite_monstrosity, item cataclysm:music_disc_ender_guardian, item cataclysm:music_disc_the_harbinger, item cataclysm:music_disc_the_leviathan, item cataclysm:music_disc_ancient_remnant, item cataclysm:music_disc_maledictus, item cataclysm:music_disc_scylla — récompense : xp 30 — après : disques_vanilla
+  > Un par boss (tables de butin). Le disque « The Cataclysmfarer » n'est que l'icône d'un progrès : aucune source ne le donne.
 - **Les disques de la Twilight Forest** *(optionnelle)* — tâches : item twilightforest:music_disc_findings, item twilightforest:music_disc_home, item twilightforest:music_disc_maker, item twilightforest:music_disc_motion, item twilightforest:music_disc_radiance, item twilightforest:music_disc_steps, item twilightforest:music_disc_superstitious, item twilightforest:music_disc_thread, item twilightforest:music_disc_wayfarer — récompense : xp 25 — après : disques_vanilla
 - **Les seize ornements d'armure** *(optionnelle)* — tâches : item minecraft:coast_armor_trim_smithing_template, item minecraft:dune_armor_trim_smithing_template, item minecraft:eye_armor_trim_smithing_template, item minecraft:host_armor_trim_smithing_template, item minecraft:raiser_armor_trim_smithing_template, item minecraft:rib_armor_trim_smithing_template, item minecraft:sentry_armor_trim_smithing_template, item minecraft:shaper_armor_trim_smithing_template, item minecraft:silence_armor_trim_smithing_template, item minecraft:snout_armor_trim_smithing_template, item minecraft:spire_armor_trim_smithing_template, item minecraft:tide_armor_trim_smithing_template, item minecraft:vex_armor_trim_smithing_template, item minecraft:ward_armor_trim_smithing_template, item minecraft:wayfinder_armor_trim_smithing_template, item minecraft:wild_armor_trim_smithing_template — récompense : xp 40 — après : intro
   > Les seize modèles vanilla, chacun dans sa structure (chapitre Enchantement et forge des bases).
@@ -468,6 +468,938 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Du sommet au fond** *(optionnelle)* — tâches : advancement minecraft:adventure/fall_from_world_height — récompense : xp 10 — après : intro
   > Tomber du haut du monde jusqu'en bas et survivre (progrès vanilla).
 - **Le monde est petit** *(optionnelle)* — tâches : checkmark Fait — récompense : xp 50 — après : dimensions, marche_100, aventure
+
+## L'Encyclopédie complète  (`enc_zz_complete`, 1 quêtes)
+
+- **L'Encyclopédie complète** *(optionnelle)* — tâches : checkmark Toute l'Encyclopédie — récompense : xp 100
+  > Chaque créature rencontrée, chaque biome visité, chaque structure, chaque plat, chaque disque, chaque trophée, chaque bûche, chaque arme. La récompense la plus rare du serveur, et elle ne vaut rien d'autre que l'avoir fait.
+
+## Armurerie  (`enc_armurerie`, 205 quêtes)
+
+- **Armurerie** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque armure (son casque la représente) et chaque arme des mods d'aventure du pack : Aether, Twilight Forest, Blue Skies, Cataclysm, Iron's Spells, Advanced Netherite, Deeper and Darker, et les autres. Une quête se valide en ayant l'objet dans l'inventaire.
+- **Obtenir : « Netherite-Diamond Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_axe — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Diamond Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_helmet — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Diamond Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_sword — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Emerald Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_axe — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Emerald Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_helmet — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Emerald Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_sword — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Gold Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_axe — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Gold Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_helmet — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Gold Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_sword — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Iron Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_axe — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Iron Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_helmet — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Netherite-Iron Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_sword — récompense : xp 1
+  > Objet de advancednetherite.
+- **Obtenir : « Candy Cane Sword »** *(optionnelle)* — tâches : item aether:candy_cane_sword — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Cloud Staff »** *(optionnelle)* — tâches : item aether:cloud_staff — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Flaming Sword »** *(optionnelle)* — tâches : item aether:flaming_sword — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Gravitite Axe »** *(optionnelle)* — tâches : item aether:gravitite_axe — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Gravitite Helmet »** *(optionnelle)* — tâches : item aether:gravitite_helmet — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Gravitite Sword »** *(optionnelle)* — tâches : item aether:gravitite_sword — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Holy Sword »** *(optionnelle)* — tâches : item aether:holy_sword — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Holystone Axe »** *(optionnelle)* — tâches : item aether:holystone_axe — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Holystone Sword »** *(optionnelle)* — tâches : item aether:holystone_sword — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Lightning Sword »** *(optionnelle)* — tâches : item aether:lightning_sword — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Nature Staff »** *(optionnelle)* — tâches : item aether:nature_staff — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Neptune Helmet »** *(optionnelle)* — tâches : item aether:neptune_helmet — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Phoenix Bow »** *(optionnelle)* — tâches : item aether:phoenix_bow — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Phoenix Helmet »** *(optionnelle)* — tâches : item aether:phoenix_helmet — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Skyroot Axe »** *(optionnelle)* — tâches : item aether:skyroot_axe — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Skyroot Sword »** *(optionnelle)* — tâches : item aether:skyroot_sword — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Valkyrie Axe »** *(optionnelle)* — tâches : item aether:valkyrie_axe — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Valkyrie Helmet »** *(optionnelle)* — tâches : item aether:valkyrie_helmet — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Valkyrie Lance »** *(optionnelle)* — tâches : item aether:valkyrie_lance — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Zanite Axe »** *(optionnelle)* — tâches : item aether:zanite_axe — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Zanite Helmet »** *(optionnelle)* — tâches : item aether:zanite_helmet — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Zanite Sword »** *(optionnelle)* — tâches : item aether:zanite_sword — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Infused Veridium Axe »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_axe — récompense : xp 1
+  > Objet de Aether Redux.
+- **Obtenir : « Infused Veridium Sword »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_sword — récompense : xp 1
+  > Objet de Aether Redux.
+- **Obtenir : « Snailshell Shield »** *(optionnelle)* — tâches : item aether_redux:snailshell_shield — récompense : xp 1
+  > Objet de Aether Redux.
+- **Obtenir : « Veridium Axe »** *(optionnelle)* — tâches : item aether_redux:veridium_axe — récompense : xp 1
+  > Objet de Aether Redux.
+- **Obtenir : « Veridium Sword »** *(optionnelle)* — tâches : item aether_redux:veridium_sword — récompense : xp 1
+  > Objet de Aether Redux.
+- **Obtenir : « Aeternium Axe »** *(optionnelle)* — tâches : item betterend:aeternium_axe — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Aeternium Smith Hammer »** *(optionnelle)* — tâches : item betterend:aeternium_hammer — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Aeternium Helmet »** *(optionnelle)* — tâches : item betterend:aeternium_helmet — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Aeternium Sword »** *(optionnelle)* — tâches : item betterend:aeternium_sword — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Crystalite Helmet »** *(optionnelle)* — tâches : item betterend:crystalite_helmet — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Diamond Smith Hammer »** *(optionnelle)* — tâches : item betterend:diamond_hammer — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Golden Smith Hammer »** *(optionnelle)* — tâches : item betterend:golden_hammer — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Iron Smith Hammer »** *(optionnelle)* — tâches : item betterend:iron_hammer — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Netherite Smith Hammer »** *(optionnelle)* — tâches : item betterend:netherite_hammer — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Terminite Axe »** *(optionnelle)* — tâches : item betterend:terminite_axe — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Terminite Smith Hammer »** *(optionnelle)* — tâches : item betterend:terminite_hammer — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Terminite Helmet »** *(optionnelle)* — tâches : item betterend:terminite_helmet — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Terminite Sword »** *(optionnelle)* — tâches : item betterend:terminite_sword — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Thallasium Axe »** *(optionnelle)* — tâches : item betterend:thallasium_axe — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Thallasium Hammer »** *(optionnelle)* — tâches : item betterend:thallasium_hammer — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Thallasium Helmet »** *(optionnelle)* — tâches : item betterend:thallasium_helmet — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : « Thallasium Sword »** *(optionnelle)* — tâches : item betterend:thallasium_sword — récompense : xp 1
+  > Objet de Better End.
+- **Obtenir : Hache en Cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_axe — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : Cincinnasite Helmet** *(optionnelle)* — tâches : item betternether:cincinnasite_helmet — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : Cincinnasite Sword** *(optionnelle)* — tâches : item betternether:cincinnasite_sword — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : « Fireruby Axe »** *(optionnelle)* — tâches : item betternether:flaming_ruby_axe — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : « Fireruby Helmet »** *(optionnelle)* — tâches : item betternether:flaming_ruby_helmet — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : « Fireruby Sword »** *(optionnelle)* — tâches : item betternether:flaming_ruby_sword — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : Nether Ruby Axe** *(optionnelle)* — tâches : item betternether:nether_ruby_axe — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : Nether Ruby Helmet** *(optionnelle)* — tâches : item betternether:nether_ruby_helmet — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : Nether Ruby Sword** *(optionnelle)* — tâches : item betternether:nether_ruby_sword — récompense : xp 1
+  > Objet de Better Nether.
+- **Obtenir : Hache en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Casque en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_helmet — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en bois de lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Lance en lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_spear — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en bois lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Casque en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_helmet — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : « Comet Wood Axe »** *(optionnelle)* — tâches : item blue_skies:comet_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : « Comet Spear »** *(optionnelle)* — tâches : item blue_skies:comet_spear — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : « Comet Wood Sword »** *(optionnelle)* — tâches : item blue_skies:comet_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Marteau écraseur** *(optionnelle)* — tâches : item blue_skies:crushing_hammer — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée différente** *(optionnelle)* — tâches : item blue_skies:different_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Casque en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_helmet — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Lance en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_spear — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : lance en nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_spear — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Casque en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_helmet — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Lance lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_spear — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Lance en érable** *(optionnelle)* — tâches : item blue_skies:maple_spear — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Bouclier en pierre de lune** *(optionnelle)* — tâches : item blue_skies:moonstone_shield — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Casque en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_helmet — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Lance de garde** *(optionnelle)* — tâches : item blue_skies:soulbound_spear — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Bouclier spéléothème** *(optionnelle)* — tâches : item blue_skies:spike_shield — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Lance en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_spear — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Hache en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_axe — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Épée en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_sword — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : « Ancient Spear »** *(optionnelle)* — tâches : item cataclysm:ancient_spear — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Azure Sea Shield »** *(optionnelle)* — tâches : item cataclysm:azure_sea_shield — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Black Steel Axe »** *(optionnelle)* — tâches : item cataclysm:black_steel_axe — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Black Steel Sword »** *(optionnelle)* — tâches : item cataclysm:black_steel_sword — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Bone Reptile Helmet »** *(optionnelle)* — tâches : item cataclysm:bone_reptile_helmet — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Cursed Bow »** *(optionnelle)* — tâches : item cataclysm:cursed_bow — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Cursium Helmet »** *(optionnelle)* — tâches : item cataclysm:cursium_helmet — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Ignitium Helmet »** *(optionnelle)* — tâches : item cataclysm:ignitium_helmet — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Skyjade Axe »** *(optionnelle)* — tâches : item deep_aether:skyjade_axe — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Skyjade Helmet »** *(optionnelle)* — tâches : item deep_aether:skyjade_helmet — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Skyjade Sword »** *(optionnelle)* — tâches : item deep_aether:skyjade_sword — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Storm Bow »** *(optionnelle)* — tâches : item deep_aether:storm_bow — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Storm Sword »** *(optionnelle)* — tâches : item deep_aether:storm_sword — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Stormforged Helmet »** *(optionnelle)* — tâches : item deep_aether:stormforged_helmet — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Stratus Axe »** *(optionnelle)* — tâches : item deep_aether:stratus_axe — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Stratus Helmet »** *(optionnelle)* — tâches : item deep_aether:stratus_helmet — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Stratus Sword »** *(optionnelle)* — tâches : item deep_aether:stratus_sword — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Wind Shield »** *(optionnelle)* — tâches : item deep_aether:wind_shield — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Resonarium Axe »** *(optionnelle)* — tâches : item deeperdarker:resonarium_axe — récompense : xp 1
+  > Objet de Deeper and Darker.
+- **Obtenir : « Resonarium Helmet »** *(optionnelle)* — tâches : item deeperdarker:resonarium_helmet — récompense : xp 1
+  > Objet de Deeper and Darker.
+- **Obtenir : « Resonarium Sword »** *(optionnelle)* — tâches : item deeperdarker:resonarium_sword — récompense : xp 1
+  > Objet de Deeper and Darker.
+- **Obtenir : « Sonorous Staff »** *(optionnelle)* — tâches : item deeperdarker:sonorous_staff — récompense : xp 1
+  > Objet de Deeper and Darker.
+- **Obtenir : Hache du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_axe — récompense : xp 1
+  > Objet de Deeper and Darker.
+- **Obtenir : Casque du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_helmet — récompense : xp 1
+  > Objet de Deeper and Darker.
+- **Obtenir : Épée du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_sword — récompense : xp 1
+  > Objet de Deeper and Darker.
+- **Obtenir : « Dragon Axe »** *(optionnelle)* — tâches : item dragonloot:dragon_axe — récompense : xp 1
+  > Objet de dragonloot.
+- **Obtenir : « Dragon Scale Helmet »** *(optionnelle)* — tâches : item dragonloot:dragon_helmet — récompense : xp 1
+  > Objet de dragonloot.
+- **Obtenir : « Dragon Sword »** *(optionnelle)* — tâches : item dragonloot:dragon_sword — récompense : xp 1
+  > Objet de dragonloot.
+- **Obtenir : « Sterling Helmet »** *(optionnelle)* — tâches : item galosphere:sterling_helmet — récompense : xp 1
+  > Objet de Galosphere.
+- **Obtenir : Chapeau de l'Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:archevoker_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Arbalète à Chargement Automatique** *(optionnelle)* — tâches : item irons_spellbooks:autoloader_crossbow — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Le Bâton de Sang** *(optionnelle)* — tâches : item irons_spellbooks:blood_staff — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Capuche du Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:cryomancer_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Capuche du Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:cultist_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Faux Décrépite** *(optionnelle)* — tâches : item irons_spellbooks:decrepit_scythe — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Chapeau de l'Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:electromancer_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Bâton de Barbe-Grise** *(optionnelle)* — tâches : item irons_spellbooks:graybeard_staff — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Bâton de Glace** *(optionnelle)* — tâches : item irons_spellbooks:ice_staff — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Chapeau du Mage de Guerre en Nétherite** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Masque Pesteux** *(optionnelle)* — tâches : item irons_spellbooks:plagued_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Masque du Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:priest_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Chapeau d'Épouvantail** *(optionnelle)* — tâches : item irons_spellbooks:pumpkin_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Bâton de Pyrium** *(optionnelle)* — tâches : item irons_spellbooks:pyrium_staff — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Chapeau du Pyromancien** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Masque du Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:shadowwalker_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Capuche du Magicien Errant** *(optionnelle)* — tâches : item irons_spellbooks:wandering_magician_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Casque du Sorcier** *(optionnelle)* — tâches : item irons_spellbooks:wizard_helmet — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Dague en dent de naga** *(optionnelle)* — tâches : item mowziesmobs:naga_fang_dagger — récompense : xp 1
+  > Objet de Mowzie's Mobs.
+- **Obtenir : « Geomancer Staff »** *(optionnelle)* — tâches : item mowziesmobs:sculptor_staff — récompense : xp 1
+  > Objet de Mowzie's Mobs.
+- **Obtenir : Hache des milles métaux** *(optionnelle)* — tâches : item mowziesmobs:wrought_axe — récompense : xp 1
+  > Objet de Mowzie's Mobs.
+- **Obtenir : Casque de Chevalier Forgé** *(optionnelle)* — tâches : item mowziesmobs:wrought_helmet — récompense : xp 1
+  > Objet de Mowzie's Mobs.
+- **Obtenir : « §cAwful Dagger »** *(optionnelle)* — tâches : item stalwart_dungeons:awful_dagger — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eChorundum Helmet »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_armor_helmet — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eChorundum Axe »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_axe — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eChorundum Shield »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_shield — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eChorundum Sword »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_sword — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « Diamond Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:diamond_hammer — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « Golden Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:golden_hammer — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « Iron Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:iron_hammer — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §cNether Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:nether_hammer — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « Netherite Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:netherite_hammer — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « Stone Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:stone_hammer — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eTungsten Axe »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_axe — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eTungsten Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_hammer — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eTungsten Helmet »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_helmet — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eTungsten Shield »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_shield — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eTungsten Sword »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_sword — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eWarted Helmet »** *(optionnelle)* — tâches : item stalwart_dungeons:warted_tungsten_helmet — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « §eWarted Shield »** *(optionnelle)* — tâches : item stalwart_dungeons:warted_tungsten_shield — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : « Wooden Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:wooden_hammer — récompense : xp 1
+  > Objet de Stalwart Dungeons.
+- **Obtenir : Capuche arctique** *(optionnelle)* — tâches : item twilightforest:arctic_helmet — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Hache en diamant du Minotaure** *(optionnelle)* — tâches : item twilightforest:diamond_minotaur_axe — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Arc de l'Ender** *(optionnelle)* — tâches : item twilightforest:ender_bow — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Casque ardent** *(optionnelle)* — tâches : item twilightforest:fiery_helmet — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Épée ardente** *(optionnelle)* — tâches : item twilightforest:fiery_sword — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Épée de géant** *(optionnelle)* — tâches : item twilightforest:giant_sword — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Épée en verre** *(optionnelle)* — tâches : item twilightforest:glass_sword — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Arc gelé** *(optionnelle)* — tâches : item twilightforest:ice_bow — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Épée gelée** *(optionnelle)* — tâches : item twilightforest:ice_sword — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Hache en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_axe — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Casque en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_helmet — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Épée en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_sword — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Hache chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_axe — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Casque chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_helmet — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Bouclier chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_shield — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Épée chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_sword — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Casque de fantôme** *(optionnelle)* — tâches : item twilightforest:phantom_helmet — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Arc du chercheur** *(optionnelle)* — tâches : item twilightforest:seeker_bow — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Hache en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_axe — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Casque en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_helmet — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Épée en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_sword — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : « Tri-Bow »** *(optionnelle)* — tâches : item twilightforest:triple_bow — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Casque orné de Yéti** *(optionnelle)* — tâches : item twilightforest:yeti_helmet — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Arsenal de défense  (`enc_arsenal`, 93 quêtes)
+
+- **Arsenal de défense** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque bloc et chaque outil de SecurityCraft, hors blocs renforcés et variantes déguisées. Une quête se valide en ayant l'objet dans l'inventaire.
+- **Obtenir : Bateau sécurisé en acacia** *(optionnelle)* — tâches : item securitycraft:acacia_security_sea_boat — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Alarme** *(optionnelle)* — tâches : item securitycraft:alarm — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Radeau sécurisé en bambou** *(optionnelle)* — tâches : item securitycraft:bamboo_security_sea_raft — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bateau sécurisé en bouleau** *(optionnelle)* — tâches : item securitycraft:birch_security_sea_boat — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Module de liste de refus** *(optionnelle)* — tâches : item securitycraft:blacklist_module — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Détecteur de changements de blocs** *(optionnelle)* — tâches : item securitycraft:block_change_detector — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Gestionnaire de Bloc de Poche** *(optionnelle)* — tâches : item securitycraft:block_pocket_manager — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Mine sauteuse** *(optionnelle)* — tâches : item securitycraft:bouncing_betty — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Malette** *(optionnelle)* — tâches : item securitycraft:briefcase — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Piège à cages** *(optionnelle)* — tâches : item securitycraft:cage_trap — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Moniteur de caméra** *(optionnelle)* — tâches : item securitycraft:camera_monitor — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bateau sécurisé en cerisier** *(optionnelle)* — tâches : item securitycraft:cherry_security_sea_boat — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bloc de cristal de quartz sculpté** *(optionnelle)* — tâches : item securitycraft:chiseled_crystal_quartz — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Mine à détecteur** *(optionnelle)* — tâches : item securitycraft:claymore — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Décrypteur de code** *(optionnelle)* — tâches : item securitycraft:codebreaker — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bloc de cristal de quartz** *(optionnelle)* — tâches : item securitycraft:crystal_quartz — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Briques de cristal de quartz** *(optionnelle)* — tâches : item securitycraft:crystal_quartz_bricks — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Pilier en cristal de quartz** *(optionnelle)* — tâches : item securitycraft:crystal_quartz_pillar — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Dalle en cristal de quartz** *(optionnelle)* — tâches : item securitycraft:crystal_quartz_slab — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Escalier en cristal de quartz** *(optionnelle)* — tâches : item securitycraft:crystal_quartz_stairs — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bateau sécurisé en chêne noir** *(optionnelle)* — tâches : item securitycraft:dark_oak_security_sea_boat — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Module de déguisement** *(optionnelle)* — tâches : item securitycraft:disguise_module — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Vitrine** *(optionnelle)* — tâches : item securitycraft:display_case — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Barrière en fer électrifiée** *(optionnelle)* — tâches : item securitycraft:electrified_iron_fence — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : sol piégé** *(optionnelle)* — tâches : item securitycraft:floor_trap — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Vitrine luisante** *(optionnelle)* — tâches : item securitycraft:glow_display_case — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Module de dégâts** *(optionnelle)* — tâches : item securitycraft:harming_module — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Système de Munitions Intelligent** *(optionnelle)* — tâches : item securitycraft:ims — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Masque Incognito** *(optionnelle)* — tâches : item securitycraft:incognito_mask — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Scanner d'inventaire** *(optionnelle)* — tâches : item securitycraft:inventory_scanner — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bateau sécurisé en acajou** *(optionnelle)* — tâches : item securitycraft:jungle_security_sea_boat — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Porte-cartes** *(optionnelle)* — tâches : item securitycraft:keycard_holder — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Serrure à cartes d'accès** *(optionnelle)* — tâches : item securitycraft:keycard_lock — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Carte d'accès de niveau 1** *(optionnelle)* — tâches : item securitycraft:keycard_lv1 — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Carte d'accès de niveau 2** *(optionnelle)* — tâches : item securitycraft:keycard_lv2 — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Carte d'accès de niveau 3** *(optionnelle)* — tâches : item securitycraft:keycard_lv3 — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Carte d'accès de niveau 4** *(optionnelle)* — tâches : item securitycraft:keycard_lv4 — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Carte d'accès de niveau 5** *(optionnelle)* — tâches : item securitycraft:keycard_lv5 — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Lecteur de carte d'accès** *(optionnelle)* — tâches : item securitycraft:keycard_reader — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Clavier à code** *(optionnelle)* — tâches : item securitycraft:keypad — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Tonneau protégé par un code d'accès** *(optionnelle)* — tâches : item securitycraft:keypad_barrel — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Haut fourneau protégé par un code d'accès** *(optionnelle)* — tâches : item securitycraft:keypad_blast_furnace — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Coffre protégé par un code d'accès** *(optionnelle)* — tâches : item securitycraft:keypad_chest — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Porte à code** *(optionnelle)* — tâches : item securitycraft:keypad_door_item — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Cadre** *(optionnelle)* — tâches : item securitycraft:keypad_frame — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Fourneau protégé par un code d'accès** *(optionnelle)* — tâches : item securitycraft:keypad_furnace — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Fumoir protégé par un code d'accès** *(optionnelle)* — tâches : item securitycraft:keypad_smoker — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Trappe avec clavier à code** *(optionnelle)* — tâches : item securitycraft:keypad_trapdoor — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bloc laser** *(optionnelle)* — tâches : item securitycraft:laser_block — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Lentille** *(optionnelle)* — tâches : item securitycraft:lens — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Carte d'accès à utilisations limitées** *(optionnelle)* — tâches : item securitycraft:limited_use_keycard — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bateau sécurisé en palétuvier** *(optionnelle)* — tâches : item securitycraft:mangrove_security_sea_boat — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Mine** *(optionnelle)* — tâches : item securitycraft:mine — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Lumière à détection de mouvement** *(optionnelle)* — tâches : item securitycraft:motion_activated_light — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bateau sécurisé en chêne** *(optionnelle)* — tâches : item securitycraft:oak_security_sea_boat — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bouton de panique** *(optionnelle)* — tâches : item securitycraft:panic_button — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Radar portable** *(optionnelle)* — tâches : item securitycraft:portable_radar — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Lecteur de mélodie portable** *(optionnelle)* — tâches : item securitycraft:portable_tune_player — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Projecteur** *(optionnelle)* — tâches : item securitycraft:projector — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Protecto** *(optionnelle)* — tâches : item securitycraft:protecto — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Module de redstone** *(optionnelle)* — tâches : item securitycraft:redstone_module — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Outil d'accès aux sentinelles à distance** *(optionnelle)* — tâches : item securitycraft:remote_access_sentry — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Scanner rétinien** *(optionnelle)* — tâches : item securitycraft:retinal_scanner — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Stabilisateur de faille** *(optionnelle)* — tâches : item securitycraft:rift_stabilizer — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Manuel de SecurityCraft** *(optionnelle)* — tâches : item securitycraft:sc_manual — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Porte avec scanner rétinien** *(optionnelle)* — tâches : item securitycraft:scanner_door_item — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Trappe avec scanner rétinien** *(optionnelle)* — tâches : item securitycraft:scanner_trapdoor — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Interface Redstone Sécurisée** *(optionnelle)* — tâches : item securitycraft:secure_redstone_interface — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Station d'échange sécurisée** *(optionnelle)* — tâches : item securitycraft:secure_trading_station — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Caméra de sécurité** *(optionnelle)* — tâches : item securitycraft:security_camera — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Sentinelle** *(optionnelle)* — tâches : item securitycraft:sentry — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Module intelligent** *(optionnelle)* — tâches : item securitycraft:smart_module — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bloc de cristal de quartz lisse** *(optionnelle)* — tâches : item securitycraft:smooth_crystal_quartz — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Dalle en cristal de quartz lisse** *(optionnelle)* — tâches : item securitycraft:smooth_crystal_quartz_slab — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Escalier en cristal de quartz lisse** *(optionnelle)* — tâches : item securitycraft:smooth_crystal_quartz_stairs — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Système de sécurité sonique** *(optionnelle)* — tâches : item securitycraft:sonic_security_system — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Module de vitesse** *(optionnelle)* — tâches : item securitycraft:speed_module — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Bateau sécurisé en sapin** *(optionnelle)* — tâches : item securitycraft:spruce_security_sea_boat — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Module de stockage** *(optionnelle)* — tâches : item securitycraft:storage_module — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Taser** *(optionnelle)* — tâches : item securitycraft:taser — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Système Trophée** *(optionnelle)* — tâches : item securitycraft:trophy_system — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Modificateur de blocs universel** *(optionnelle)* — tâches : item securitycraft:universal_block_modifier — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Outil de blindage universel (Niv1)** *(optionnelle)* — tâches : item securitycraft:universal_block_reinforcer_lvl1 — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Outil de blindage universel (Niv2)** *(optionnelle)* — tâches : item securitycraft:universal_block_reinforcer_lvl2 — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Outil de blindage universel (Niv3)** *(optionnelle)* — tâches : item securitycraft:universal_block_reinforcer_lvl3 — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Démonte-blocs universel** *(optionnelle)* — tâches : item securitycraft:universal_block_remover — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Modificateur de code universel** *(optionnelle)* — tâches : item securitycraft:universal_key_changer — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Modificateur de propriétaire universel** *(optionnelle)* — tâches : item securitycraft:universal_owner_changer — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Enregistreur de nom d'utilisateur** *(optionnelle)* — tâches : item securitycraft:username_logger — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Module de liste d'autorisation** *(optionnelle)* — tâches : item securitycraft:whitelist_module — récompense : xp 1
+  > Objet de securitycraft.
+- **Obtenir : Pince coupante** *(optionnelle)* — tâches : item securitycraft:wire_cutters — récompense : xp 1
+  > Objet de securitycraft.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Atelier Create  (`enc_atelier_create`, 161 quêtes)
+
+- **Atelier Create** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque machine et chaque composant de Create, hors blocs de décoration, couleurs et matériaux. Une quête se valide en ayant l'objet dans l'inventaire.
+- **Fabriquer : Chaine de transmission ajustable** *(optionnelle)* — tâches : item create:adjustable_chain_gearshift — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Levier analogique** *(optionnelle)* — tâches : item create:analog_lever — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Filtre d'attribut** *(optionnelle)* — tâches : item create:attribute_filter — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Bassin** *(optionnelle)* — tâches : item create:basin — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Tapis roulant** *(optionnelle)* — tâches : item create:belt_connector — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Brûleur à Blaze** *(optionnelle)* — tâches : item create:blaze_burner — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Boitier de laiton** *(optionnelle)* — tâches : item create:brass_casing — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Entonnoir de laiton** *(optionnelle)* — tâches : item create:brass_funnel — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Main de laiton** *(optionnelle)* — tâches : item create:brass_hand — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Tunnel de laiton** *(optionnelle)* — tâches : item create:brass_tunnel — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Carton** *(optionnelle)* — tâches : item create:cardboard — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Bottes en carton** *(optionnelle)* — tâches : item create:cardboard_boots — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Plastron en carton** *(optionnelle)* — tâches : item create:cardboard_chestplate — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Casque en carton** *(optionnelle)* — tâches : item create:cardboard_helmet — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Jambières en carton** *(optionnelle)* — tâches : item create:cardboard_leggings — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Épée en carton** *(optionnelle)* — tâches : item create:cardboard_sword — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Assembleur de wagonnet** *(optionnelle)* — tâches : item create:cart_assembler — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Roue à chaîne roulante** *(optionnelle)* — tâches : item create:chain_conveyor — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Chute** *(optionnelle)* — tâches : item create:chute — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Farine de braise** *(optionnelle)* — tâches : item create:cinder_flour — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Presse-papiers** *(optionnelle)* — tâches : item create:clipboard — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Roulement mécanique horloger** *(optionnelle)* — tâches : item create:clockwork_bearing — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Embrayage** *(optionnelle)* — tâches : item create:clutch — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Roue dentée** *(optionnelle)* — tâches : item create:cogwheel — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Observateur intelligent** *(optionnelle)* — tâches : item create:content_observer — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Contrôles de machine** *(optionnelle)* — tâches : item create:contraption_controls — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Rails contrôleurs** *(optionnelle)* — tâches : item create:controller_rail — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Contrôles de train** *(optionnelle)* — tâches : item create:controls — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Marche imitatrice** *(optionnelle)* — tâches : item create:copycat_step — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Couvercle d'emplacement d'établi** *(optionnelle)* — tâches : item create:crafter_slot_cover — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Plan de fabrication** *(optionnelle)* — tâches : item create:crafting_blueprint — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Réservoir à fluide créatif** *(optionnelle)* — tâches : item create:creative_fluid_tank — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Moteur créatif** *(optionnelle)* — tâches : item create:creative_motor — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Roue de concassage** *(optionnelle)* — tâches : item create:crushing_wheel — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Horloge à coucou** *(optionnelle)* — tâches : item create:cuckoo_clock — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Déployeur** *(optionnelle)* — tâches : item create:deployer — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Dépôt** *(optionnelle)* — tâches : item create:depot — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Clochette** *(optionnelle)* — tâches : item create:desk_bell — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Panneau d'affichage** *(optionnelle)* — tâches : item create:display_board — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Liaison d'affichage** *(optionnelle)* — tâches : item create:display_link — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Poulie d'ascenseur** *(optionnelle)* — tâches : item create:elevator_pulley — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Brûleur à Blaze vide** *(optionnelle)* — tâches : item create:empty_blaze_burner — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Schéma vide** *(optionnelle)* — tâches : item create:empty_schematic — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Chaine de transmission** *(optionnelle)* — tâches : item create:encased_chain_drive — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Ventilateur enchâssé** *(optionnelle)* — tâches : item create:encased_fan — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Main extensible** *(optionnelle)* — tâches : item create:extendo_grip — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Jauge d'usine** *(optionnelle)* — tâches : item create:factory_gauge — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Filtre de liste** *(optionnelle)* — tâches : item create:filter — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Tuyau à fluide** *(optionnelle)* — tâches : item create:fluid_pipe — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Réservoir à fluide** *(optionnelle)* — tâches : item create:fluid_tank — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Vanne à fluide** *(optionnelle)* — tâches : item create:fluid_valve — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Volant d'inertie** *(optionnelle)* — tâches : item create:flywheel — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Chariot de portique** *(optionnelle)* — tâches : item create:gantry_carriage — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Rotor de portique** *(optionnelle)* — tâches : item create:gantry_shaft — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Boîte à roues dentées** *(optionnelle)* — tâches : item create:gearbox — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Inverseur de rotation** *(optionnelle)* — tâches : item create:gearshift — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Lunettes d'ingénieur** *(optionnelle)* — tâches : item create:goggles — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Manivelle** *(optionnelle)* — tâches : item create:hand_crank — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Cloche hantée** *(optionnelle)* — tâches : item create:haunted_bell — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Poulie à tuyau** *(optionnelle)* — tâches : item create:hose_pulley — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Bloc de fer industriel** *(optionnelle)* — tâches : item create:industrial_iron_block — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Égouttoir à objets** *(optionnelle)* — tâches : item create:item_drain — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Trappe à objets** *(optionnelle)* — tâches : item create:item_hatch — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Coffre à objet renforcé** *(optionnelle)* — tâches : item create:item_vault — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Grande roue dentée** *(optionnelle)* — tâches : item create:large_cogwheel — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Grande roue à eau** *(optionnelle)* — tâches : item create:large_water_wheel — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Châssis linéaire** *(optionnelle)* — tâches : item create:linear_chassis — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Télécommande** *(optionnelle)* — tâches : item create:linked_controller — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Bras mécanique** *(optionnelle)* — tâches : item create:mechanical_arm — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Roulement mécanique** *(optionnelle)* — tâches : item create:mechanical_bearing — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Établi mécanique** *(optionnelle)* — tâches : item create:mechanical_crafter — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Perceuse mécanique** *(optionnelle)* — tâches : item create:mechanical_drill — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Récolteur mécanique** *(optionnelle)* — tâches : item create:mechanical_harvester — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Mixeur mécanique** *(optionnelle)* — tâches : item create:mechanical_mixer — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Piston mécanique** *(optionnelle)* — tâches : item create:mechanical_piston — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Charrue mécanique** *(optionnelle)* — tâches : item create:mechanical_plough — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Presse mécanique** *(optionnelle)* — tâches : item create:mechanical_press — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Pompe mécanique** *(optionnelle)* — tâches : item create:mechanical_pump — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Rouleau mécanique** *(optionnelle)* — tâches : item create:mechanical_roller — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Scie mécanique** *(optionnelle)* — tâches : item create:mechanical_saw — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Support en métal** *(optionnelle)* — tâches : item create:metal_bracket — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Poutre en métal** *(optionnelle)* — tâches : item create:metal_girder — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Meule** *(optionnelle)* — tâches : item create:millstone — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Lien pour wagonnet** *(optionnelle)* — tâches : item create:minecart_coupling — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Horloge à coucou** *(optionnelle)* — tâches : item create:mysterious_cuckoo_clock — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Réservoir dorsal en Netherite** *(optionnelle)* — tâches : item create:netherite_backtank — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Bottes de plongée en Netherite** *(optionnelle)* — tâches : item create:netherite_diving_boots — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Casque de plongée en Netherite** *(optionnelle)* — tâches : item create:netherite_diving_helmet — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Buse** *(optionnelle)* — tâches : item create:nozzle — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Filtre de colis** *(optionnelle)* — tâches : item create:package_filter — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Crapauport à colis** *(optionnelle)* — tâches : item create:package_frogport — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Emballeur** *(optionnelle)* — tâches : item create:packager — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Cloche particulière** *(optionnelle)* — tâches : item create:peculiar_bell — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Barre d'extension de piston** *(optionnelle)* — tâches : item create:piston_extension_pole — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Panneau** *(optionnelle)* — tâches : item create:placard — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Interface de fluide portable** *(optionnelle)* — tâches : item create:portable_fluid_interface — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Interface de stockage portable** *(optionnelle)* — tâches : item create:portable_storage_interface — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Canon à pomme de terre** *(optionnelle)* — tâches : item create:potato_cannon — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Verrou alimenté** *(optionnelle)* — tâches : item create:powered_latch — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Verrou alimenté à bascule** *(optionnelle)* — tâches : item create:powered_toggle_latch — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Mécanisme de précision** *(optionnelle)* — tâches : item create:precision_mechanism — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Hélice** *(optionnelle)* — tâches : item create:propeller — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Pulpe** *(optionnelle)* — tâches : item create:pulp — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Extenseur d'impulsions** *(optionnelle)* — tâches : item create:pulse_extender — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Répéteur d'impulsions** *(optionnelle)* — tâches : item create:pulse_repeater — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Minuteur à impulsions** *(optionnelle)* — tâches : item create:pulse_timer — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Châssis radial** *(optionnelle)* — tâches : item create:radial_chassis — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Boitier de train** *(optionnelle)* — tâches : item create:railway_casing — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Contact de redstone** *(optionnelle)* — tâches : item create:redstone_contact — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Liaison de redstone** *(optionnelle)* — tâches : item create:redstone_link — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Commandeur à redstone** *(optionnelle)* — tâches : item create:redstone_requester — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Boitier en radiance raffinée** *(optionnelle)* — tâches : item create:refined_radiance_casing — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Réemballeur** *(optionnelle)* — tâches : item create:repackager — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Poulie à corde** *(optionnelle)* — tâches : item create:rope_pulley — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Quartz rose** *(optionnelle)* — tâches : item create:rose_quartz — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Bloc de quartz rose** *(optionnelle)* — tâches : item create:rose_quartz_block — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Lampe à quartz rose** *(optionnelle)* — tâches : item create:rose_quartz_lamp — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Contrôleur de vitesse de rotation** *(optionnelle)* — tâches : item create:rotation_speed_controller — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Cadre de voile de moulin à vent** *(optionnelle)* — tâches : item create:sail_frame — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Papier de verre** *(optionnelle)* — tâches : item create:sand_paper — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Planning de train** *(optionnelle)* — tâches : item create:schedule — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Schéma et plume** *(optionnelle)* — tâches : item create:schematic_and_quill — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Table à schéma** *(optionnelle)* — tâches : item create:schematic_table — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Schémacanon** *(optionnelle)* — tâches : item create:schematicannon — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Châssis linéaire secondaire** *(optionnelle)* — tâches : item create:secondary_linear_chassis — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Inverseur de rotation séquencé** *(optionnelle)* — tâches : item create:sequenced_gearshift — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Boitier en acier sombre** *(optionnelle)* — tâches : item create:shadow_steel_casing — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Rotor** *(optionnelle)* — tâches : item create:shaft — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Chute intelligente** *(optionnelle)* — tâches : item create:smart_chute — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Tuyau à fluide intelligent** *(optionnelle)* — tâches : item create:smart_fluid_pipe — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Compteur de vitesse** *(optionnelle)* — tâches : item create:speedometer — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Bec verseur** *(optionnelle)* — tâches : item create:spout — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Moteur à vapeur** *(optionnelle)* — tâches : item create:steam_engine — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Sifflet à vapeur** *(optionnelle)* — tâches : item create:steam_whistle — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Colleur** *(optionnelle)* — tâches : item create:sticker — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Piston mécanique collant** *(optionnelle)* — tâches : item create:sticky_mechanical_piston — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Liaison de stock** *(optionnelle)* — tâches : item create:stock_link — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Téléscripteur de stock** *(optionnelle)* — tâches : item create:stock_ticker — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Détecteur de seuil** *(optionnelle)* — tâches : item create:stockpile_switch — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Stressomètre** *(optionnelle)* — tâches : item create:stressometer — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Colle extra-forte** *(optionnelle)* — tâches : item create:super_glue — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Rail de train** *(optionnelle)* — tâches : item create:track — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Observateur de train** *(optionnelle)* — tâches : item create:track_observer — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Signal de train** *(optionnelle)* — tâches : item create:track_signal — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Station de train** *(optionnelle)* — tâches : item create:track_station — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Transmetteur** *(optionnelle)* — tâches : item create:transmitter — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Engrais pour arbres** *(optionnelle)* — tâches : item create:tree_fertilizer — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Plaque tournante** *(optionnelle)* — tâches : item create:turntable — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Boîte à roues dentées verticale** *(optionnelle)* — tâches : item create:vertical_gearbox — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Baguette de symétrie** *(optionnelle)* — tâches : item create:wand_of_symmetry — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Roue à eau** *(optionnelle)* — tâches : item create:water_wheel — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Bloc de fer érodé** *(optionnelle)* — tâches : item create:weathered_iron_block — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Éjecteur** *(optionnelle)* — tâches : item create:weighted_ejector — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Farine de blé** *(optionnelle)* — tâches : item create:wheat_flour — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Fouet** *(optionnelle)* — tâches : item create:whisk — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Support de moulin à vent** *(optionnelle)* — tâches : item create:windmill_bearing — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Support en bois** *(optionnelle)* — tâches : item create:wooden_bracket — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Clé** *(optionnelle)* — tâches : item create:wrench — récompense : xp 1
+  > Objet de create.
+- **Fabriquer : Minerai de zinc** *(optionnelle)* — tâches : item create:zinc_ore — récompense : xp 1
+  > Objet de create.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 
 ## Bestiaire — dimensions  (`enc_bestiaire_dimensions`, 102 quêtes)
 
@@ -1764,6 +2696,804 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Biome de YUNG's Cave Biomes, dans l'Overworld.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.
+
+## Bois  (`enc_bois`, 74 quêtes)
+
+- **Bois** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque bûche et chaque tige d'arbre du pack. Une quête se valide en ayant la bûche dans l'inventaire.
+- **Récolter : « Golden Oak Log »** *(optionnelle)* — tâches : item aether:golden_oak_log — récompense : xp 1
+  > Objet de Aether.
+- **Récolter : « Skyroot Log »** *(optionnelle)* — tâches : item aether:skyroot_log — récompense : xp 1
+  > Objet de Aether.
+- **Récolter : « Dragon Tree Log »** *(optionnelle)* — tâches : item betterend:dragon_tree_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Endlotus Log »** *(optionnelle)* — tâches : item betterend:end_lotus_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Helix Tree Log »** *(optionnelle)* — tâches : item betterend:helix_tree_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Jellyshroom Log »** *(optionnelle)* — tâches : item betterend:jellyshroom_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Lacugrove Log »** *(optionnelle)* — tâches : item betterend:lacugrove_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Lucernia Log »** *(optionnelle)* — tâches : item betterend:lucernia_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Mossy Glowshroom Log »** *(optionnelle)* — tâches : item betterend:mossy_glowshroom_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Pythadendron Log »** *(optionnelle)* — tâches : item betterend:pythadendron_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Tenanea Log »** *(optionnelle)* — tâches : item betterend:tenanea_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : « Umbrella Tree Log »** *(optionnelle)* — tâches : item betterend:umbrella_tree_log — récompense : xp 1
+  > Objet de Better End.
+- **Récolter : Anchor Tree Log** *(optionnelle)* — tâches : item betternether:anchor_tree_log — récompense : xp 1
+  > Objet de Better Nether.
+- **Récolter : Mushroom Fir Log** *(optionnelle)* — tâches : item betternether:mushroom_fir_log — récompense : xp 1
+  > Objet de Better Nether.
+- **Récolter : Nether Sakura Log** *(optionnelle)* — tâches : item betternether:nether_sakura_log — récompense : xp 1
+  > Objet de Better Nether.
+- **Récolter : Rubeus Log** *(optionnelle)* — tâches : item betternether:rubeus_log — récompense : xp 1
+  > Objet de Better Nether.
+- **Récolter : Stalagnate Log** *(optionnelle)* — tâches : item betternether:stalagnate_log — récompense : xp 1
+  > Objet de Better Nether.
+- **Récolter : Wart Log** *(optionnelle)* — tâches : item betternether:wart_log — récompense : xp 1
+  > Objet de Better Nether.
+- **Récolter : Willow Log** *(optionnelle)* — tâches : item betternether:willow_log — récompense : xp 1
+  > Objet de Better Nether.
+- **Récolter : Bûche de bois mort** *(optionnelle)* — tâches : item biomesoplenty:dead_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : « Empyreal Log »** *(optionnelle)* — tâches : item biomesoplenty:empyreal_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche de pin** *(optionnelle)* — tâches : item biomesoplenty:fir_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche d'écorce de l'enfer** *(optionnelle)* — tâches : item biomesoplenty:hellbark_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche de jacaranda** *(optionnelle)* — tâches : item biomesoplenty:jacaranda_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche de bois magique** *(optionnelle)* — tâches : item biomesoplenty:magic_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche d'acajou d'amérique** *(optionnelle)* — tâches : item biomesoplenty:mahogany_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : « Maple Log »** *(optionnelle)* — tâches : item biomesoplenty:maple_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche de palmier** *(optionnelle)* — tâches : item biomesoplenty:palm_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : « Pine Log »** *(optionnelle)* — tâches : item biomesoplenty:pine_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche de séquoia** *(optionnelle)* — tâches : item biomesoplenty:redwood_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche de bois de l'ombre** *(optionnelle)* — tâches : item biomesoplenty:umbran_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche de saule** *(optionnelle)* — tâches : item biomesoplenty:willow_log — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Récolter : Bûche de lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_log — récompense : xp 1
+  > Objet de Blue Skies.
+- **Récolter : « Comet Log »** *(optionnelle)* — tâches : item blue_skies:comet_log — récompense : xp 1
+  > Objet de Blue Skies.
+- **Récolter : Bûche cristallisée** *(optionnelle)* — tâches : item blue_skies:crystallized_log — récompense : xp 1
+  > Objet de Blue Skies.
+- **Récolter : Bûche de crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_log — récompense : xp 1
+  > Objet de Blue Skies.
+- **Récolter : Bûche de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_log — récompense : xp 1
+  > Objet de Blue Skies.
+- **Récolter : Bûche lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_log — récompense : xp 1
+  > Objet de Blue Skies.
+- **Récolter : Bûche d'érable** *(optionnelle)* — tâches : item blue_skies:maple_log — récompense : xp 1
+  > Objet de Blue Skies.
+- **Récolter : Bûche d'étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_log — récompense : xp 1
+  > Objet de Blue Skies.
+- **Récolter : « Palm Log »** *(optionnelle)* — tâches : item crabbersdelight:palm_log — récompense : xp 1
+  > Objet de crabbersdelight.
+- **Récolter : « Conberry Log »** *(optionnelle)* — tâches : item deep_aether:conberry_log — récompense : xp 1
+  > Objet de Deep Aether.
+- **Récolter : « Cruderoot Log »** *(optionnelle)* — tâches : item deep_aether:cruderoot_log — récompense : xp 1
+  > Objet de Deep Aether.
+- **Récolter : « Roseroot Log »** *(optionnelle)* — tâches : item deep_aether:roseroot_log — récompense : xp 1
+  > Objet de Deep Aether.
+- **Récolter : « Sunroot Log »** *(optionnelle)* — tâches : item deep_aether:sunroot_log — récompense : xp 1
+  > Objet de Deep Aether.
+- **Récolter : « Yagroot Log »** *(optionnelle)* — tâches : item deep_aether:yagroot_log — récompense : xp 1
+  > Objet de Deep Aether.
+- **Récolter : « Soulblight Stem »** *(optionnelle)* — tâches : item gardens_of_the_dead:soulblight_stem — récompense : xp 1
+  > Objet de gardens_of_the_dead.
+- **Récolter : Bûche d'acacia** *(optionnelle)* — tâches : item minecraft:acacia_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche de bouleau** *(optionnelle)* — tâches : item minecraft:birch_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche de cerisier** *(optionnelle)* — tâches : item minecraft:cherry_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Tige carmin** *(optionnelle)* — tâches : item minecraft:crimson_stem — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche de chêne noir** *(optionnelle)* — tâches : item minecraft:dark_oak_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche d'acajou** *(optionnelle)* — tâches : item minecraft:jungle_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche de palétuvier** *(optionnelle)* — tâches : item minecraft:mangrove_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche de chêne** *(optionnelle)* — tâches : item minecraft:oak_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche de chêne pâle** *(optionnelle)* — tâches : item minecraft:pale_oak_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche de sapin** *(optionnelle)* — tâches : item minecraft:spruce_log — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Tige biscornue** *(optionnelle)* — tâches : item minecraft:warped_stem — récompense : xp 1
+  > Objet de jeu de base.
+- **Récolter : Bûche ancienne** *(optionnelle)* — tâches : item quark:ancient_log — récompense : xp 1
+  > Objet de quark.
+- **Récolter : Bûche d'azalée** *(optionnelle)* — tâches : item quark:azalea_log — récompense : xp 1
+  > Objet de quark.
+- **Récolter : Bûche de cerisier** *(optionnelle)* — tâches : item quark:blossom_log — récompense : xp 1
+  > Objet de quark.
+- **Récolter : « Fright Stem »** *(optionnelle)* — tâches : item soulfulnether:fright_stem — récompense : xp 1
+  > Objet de Soulful Nether.
+- **Récolter : « Gloom Fungus Stem »** *(optionnelle)* — tâches : item soulfulnether:gloom_fungus_stem — récompense : xp 1
+  > Objet de Soulful Nether.
+- **Récolter : « Ironwood Log »** *(optionnelle)* — tâches : item twilightdelight:ironwood_log — récompense : xp 1
+  > Objet de twilightdelight.
+- **Récolter : Bûche d'arbre canopée** *(optionnelle)* — tâches : item twilightforest:canopy_log — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Récolter : Bûche de bois sombre** *(optionnelle)* — tâches : item twilightforest:dark_log — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Récolter : Bûche de Mangrove** *(optionnelle)* — tâches : item twilightforest:mangrove_log — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Récolter : « Minewood Log »** *(optionnelle)* — tâches : item twilightforest:mining_log — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Récolter : « Sortingwood Log »** *(optionnelle)* — tâches : item twilightforest:sorting_log — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Récolter : « Timewood Log »** *(optionnelle)* — tâches : item twilightforest:time_log — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Récolter : « Transwood Log »** *(optionnelle)* — tâches : item twilightforest:transformation_log — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Récolter : Bûche de bois du Crépuscule** *(optionnelle)* — tâches : item twilightforest:twilight_oak_log — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Disques et musiques  (`enc_disques`, 59 quêtes)
+
+- **Disques et musiques** — tâches : checkmark Lu — récompense : xp 2
+  > Tous les disques que le pack permet d'obtenir, de tous les mods. Une quête se valide en ayant le disque dans l'inventaire.
+- **Trouver : « Blue Music Disc »** *(optionnelle)* — tâches : item aether:music_disc_aether_tune — récompense : xp 1
+  > Objet de Aether.
+- **Trouver : « Valkyrie Music Disc »** *(optionnelle)* — tâches : item aether:music_disc_ascending_dawn — récompense : xp 1
+  > Objet de Aether.
+- **Trouver : « Sepia Music Disc »** *(optionnelle)* — tâches : item aether:music_disc_chinchilla — récompense : xp 1
+  > Objet de Aether.
+- **Trouver : « Super Music Disc »** *(optionnelle)* — tâches : item aether:music_disc_high — récompense : xp 1
+  > Objet de Aether.
+- **Trouver : Disque de musique terni** *(optionnelle)* — tâches : item aether:music_disc_klepto — récompense : xp 1
+  > Objet de Aether.
+- **Trouver : « Carved Music Disc »** *(optionnelle)* — tâches : item aether:music_disc_sliders_wrath — récompense : xp 1
+  > Objet de Aether.
+- **Trouver : Disque de musique** *(optionnelle)* — tâches : item alexsmobs:music_disc_thime — récompense : xp 1
+  > Objet de alexsmobs.
+- **Trouver : « §bMusic Disc§r »** *(optionnelle)* — tâches : item betterend:music_disc_endseeker — récompense : xp 1
+  > Objet de Better End.
+- **Trouver : « §bMusic Disc§r »** *(optionnelle)* — tâches : item betterend:music_disc_eo_dracona — récompense : xp 1
+  > Objet de Better End.
+- **Trouver : « §bMusic Disc§r »** *(optionnelle)* — tâches : item betterend:music_disc_grasping_at_stars — récompense : xp 1
+  > Objet de Better End.
+- **Trouver : « §bMusic Disc§r »** *(optionnelle)* — tâches : item betterend:music_disc_strange_and_alien — récompense : xp 1
+  > Objet de Better End.
+- **Trouver : Disque de musique** *(optionnelle)* — tâches : item biomesoplenty:music_disc_wanderer — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item bygonenether:wither_waltz_music_disc — récompense : xp 1
+  > Objet de Bygone Nether.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item cataclysm:music_disc_ancient_remnant — récompense : xp 1
+  > Objet de Cataclysm.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item cataclysm:music_disc_ender_guardian — récompense : xp 1
+  > Objet de Cataclysm.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item cataclysm:music_disc_ignis — récompense : xp 1
+  > Objet de Cataclysm.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item cataclysm:music_disc_maledictus — récompense : xp 1
+  > Objet de Cataclysm.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item cataclysm:music_disc_netherite_monstrosity — récompense : xp 1
+  > Objet de Cataclysm.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item cataclysm:music_disc_scylla — récompense : xp 1
+  > Objet de Cataclysm.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item cataclysm:music_disc_the_harbinger — récompense : xp 1
+  > Objet de Cataclysm.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item cataclysm:music_disc_the_leviathan — récompense : xp 1
+  > Objet de Cataclysm.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_a_morning_wish — récompense : xp 1
+  > Objet de Deep Aether.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_cyclone — récompense : xp 1
+  > Objet de Deep Aether.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_nabooru — récompense : xp 1
+  > Objet de Deep Aether.
+- **Trouver : Disque de Musique** *(optionnelle)* — tâches : item irons_spellbooks:music_disc_dead_king_lullaby — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Trouver : Disque de Musique** *(optionnelle)* — tâches : item irons_spellbooks:music_disc_flame_still_burns — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Trouver : « Duck Music Disc »** *(optionnelle)* — tâches : item lost_aether_content:music_disc_legacy — récompense : xp 1
+  > Objet de Lost Aether Content.
+- **Trouver : « Royal Music Disc »** *(optionnelle)* — tâches : item lost_aether_content:music_disc_sovereign_of_the_skies — récompense : xp 1
+  > Objet de Lost Aether Content.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_11 — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_13 — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_5 — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_blocks — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_cat — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_chirp — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_far — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_mall — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_mellohi — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_otherside — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_pigstep — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_relic — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_stal — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_strad — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_wait — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Disque** *(optionnelle)* — tâches : item minecraft:music_disc_ward — récompense : xp 1
+  > Objet de jeu de base.
+- **Trouver : Music Disc** *(optionnelle)* — tâches : item mowziesmobs:music_disc_petiole — récompense : xp 1
+  > Objet de Mowzie's Mobs.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item netherexp:music_disc_buckshot_wonderland — récompense : xp 1
+  > Objet de Jaden's Nether Expansion.
+- **Trouver : Pancake** *(optionnelle)* — tâches : item supplementaries:pancake — récompense : xp 1
+  > Objet de supplementaries.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item takesapillage:bastille_blues_music_disc — récompense : xp 1
+  > Objet de Takes a Pillage.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_findings — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_home — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_maker — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_motion — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_radiance — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_steps — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_superstitious — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_thread — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_wayfarer — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : aether_music_disc_aether_tune, aether_music_disc_ascending_dawn, aether_music_disc_chinchilla, aether_music_disc_high, aether_music_disc_klepto, aether_music_disc_sliders_wrath, alexsmobs_music_disc_thime, betterend_music_disc_endseeker, betterend_music_disc_eo_dracona, betterend_music_disc_grasping_at_stars, betterend_music_disc_strange_and_alien, biomesoplenty_music_disc_wanderer, bygonenether_wither_waltz_music_disc, cataclysm_music_disc_ancient_remnant, cataclysm_music_disc_ender_guardian, cataclysm_music_disc_ignis, cataclysm_music_disc_maledictus, cataclysm_music_disc_netherite_monstrosity, cataclysm_music_disc_scylla, cataclysm_music_disc_the_harbinger, cataclysm_music_disc_the_leviathan, deep_aether_music_disc_a_morning_wish, deep_aether_music_disc_cyclone, deep_aether_music_disc_nabooru, irons_spellbooks_music_disc_dead_king_lullaby, irons_spellbooks_music_disc_flame_still_burns, lost_aether_content_music_disc_legacy, lost_aether_content_music_disc_sovereign_of_the_skies, minecraft_music_disc_11, minecraft_music_disc_13, minecraft_music_disc_5, minecraft_music_disc_blocks, minecraft_music_disc_cat, minecraft_music_disc_chirp, minecraft_music_disc_far, minecraft_music_disc_mall, minecraft_music_disc_mellohi, minecraft_music_disc_otherside, minecraft_music_disc_pigstep, minecraft_music_disc_relic, minecraft_music_disc_stal, minecraft_music_disc_strad, minecraft_music_disc_wait, minecraft_music_disc_ward, mowziesmobs_music_disc_petiole, netherexp_music_disc_buckshot_wonderland, supplementaries_pancake, takesapillage_bastille_blues_music_disc, twilightforest_music_disc_findings, twilightforest_music_disc_home, twilightforest_music_disc_maker, twilightforest_music_disc_motion, twilightforest_music_disc_radiance, twilightforest_music_disc_steps, twilightforest_music_disc_superstitious, twilightforest_music_disc_thread, twilightforest_music_disc_wayfarer
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Gastronomie  (`enc_gastronomie`, 156 quêtes)
+
+- **Gastronomie** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque plat, boisson et douceur de Farmer's Delight et de ses extensions présentes dans le pack. Une quête se valide en ayant le plat dans l'inventaire.
+  >   > La liste est celle des balises d'aliments du pack ; seuls les plats qu'une recette ou un butin donne vraiment y sont.
+- **Goûter : « Cooked Crab »** *(optionnelle)* — tâches : item crabbersdelight:cooked_crab — récompense : xp 1
+  > Un plat de Crabber's Delight.
+- **Goûter : « Cooked Pufferfish Slice »** *(optionnelle)* — tâches : item crabbersdelight:cooked_pufferfish_slice — récompense : xp 1
+  > Un plat de Crabber's Delight.
+- **Goûter : « Cooked Tropical Fish »** *(optionnelle)* — tâches : item crabbersdelight:cooked_tropical_fish — récompense : xp 1
+  > Un plat de Crabber's Delight.
+- **Goûter : « Cooked Tropical Fish Slice »** *(optionnelle)* — tâches : item crabbersdelight:cooked_tropical_fish_slice — récompense : xp 1
+  > Un plat de Crabber's Delight.
+- **Goûter : « Crab »** *(optionnelle)* — tâches : item crabbersdelight:crab — récompense : xp 1
+  > Un plat de Crabber's Delight.
+- **Goûter : « Crab Leg »** *(optionnelle)* — tâches : item crabbersdelight:crab_legs — récompense : xp 1
+  > Un plat de Crabber's Delight.
+- **Goûter : « Raw Pufferfish Slice »** *(optionnelle)* — tâches : item crabbersdelight:pufferfish_slice — récompense : xp 1
+  > Un plat de Crabber's Delight.
+- **Goûter : « Raw Tropical Fish Slice »** *(optionnelle)* — tâches : item crabbersdelight:tropical_fish_slice — récompense : xp 1
+  > Un plat de Crabber's Delight.
+- **Goûter : « Aged Roe »** *(optionnelle)* — tâches : item delightful:aged_roe — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Azalea Tea »** *(optionnelle)* — tâches : item delightful:azalea_tea — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Baklava »** *(optionnelle)* — tâches : item delightful:baklava_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Iced Berry Matcha Latte »** *(optionnelle)* — tâches : item delightful:berry_matcha_latte — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Blueberry Pie »** *(optionnelle)* — tâches : item delightful:blueberry_pie_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Cactus Chili »** *(optionnelle)* — tâches : item delightful:cactus_chili — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Cactus Soup »** *(optionnelle)* — tâches : item delightful:cactus_soup — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Cantaloupe Bread »** *(optionnelle)* — tâches : item delightful:cantaloupe_bread — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Cantaloupe Popsicle »** *(optionnelle)* — tâches : item delightful:cantaloupe_popsicle — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Caviar »** *(optionnelle)* — tâches : item delightful:caviar — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Cheeseburger »** *(optionnelle)* — tâches : item delightful:cheeseburger — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Chorus Muffin »** *(optionnelle)* — tâches : item delightful:chorus_muffin — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Chorus Pie »** *(optionnelle)* — tâches : item delightful:chorus_pie_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Chunkwich »** *(optionnelle)* — tâches : item delightful:chunkwich — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Coconut Curry »** *(optionnelle)* — tâches : item delightful:coconut_curry — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Cooked Chevon »** *(optionnelle)* — tâches : item delightful:cooked_goat — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Roasted Marshmallow on a Stick »** *(optionnelle)* — tâches : item delightful:cooked_marshmallow_stick — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Cooked Venison Chops »** *(optionnelle)* — tâches : item delightful:cooked_venison_chops — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Crab Rangoon »** *(optionnelle)* — tâches : item delightful:crab_rangoon — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Deluxe Cheeseburger »** *(optionnelle)* — tâches : item delightful:deluxe_cheeseburger — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Ender Nectar »** *(optionnelle)* — tâches : item delightful:ender_nectar — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Field Salad »** *(optionnelle)* — tâches : item delightful:field_salad — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Gloomgourd Pie »** *(optionnelle)* — tâches : item delightful:gloomgourd_pie_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Glow Jam Cookie »** *(optionnelle)* — tâches : item delightful:glow_jam_cookie — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Green Apple Pie »** *(optionnelle)* — tâches : item delightful:green_apple_pie_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Honey Glazed Walnut »** *(optionnelle)* — tâches : item delightful:honey_glazed_walnut — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Lavender Tea »** *(optionnelle)* — tâches : item delightful:lavender_tea — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Prickly Pear Juice »** *(optionnelle)* — tâches : item delightful:long_prickly_pear_juice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Marshmallow on a Stick »** *(optionnelle)* — tâches : item delightful:marshmallow_stick — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Matcha Latte »** *(optionnelle)* — tâches : item delightful:matcha_latte — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Mulberry Pie »** *(optionnelle)* — tâches : item delightful:mulberry_pie_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Mutton Pie »** *(optionnelle)* — tâches : item delightful:mutton_pie_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Nut Butter and Jam Sandwich »** *(optionnelle)* — tâches : item delightful:nut_butter_and_jam_sandwich — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Passion Fruit Tart »** *(optionnelle)* — tâches : item delightful:passion_fruit_tart_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Prickly Pear Juice »** *(optionnelle)* — tâches : item delightful:prickly_pear_juice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Roasted Acorn »** *(optionnelle)* — tâches : item delightful:roasted_acorn — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Rose Rock Candy »** *(optionnelle)* — tâches : item delightful:rock_candy — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Roe Blini »** *(optionnelle)* — tâches : item delightful:roe_blini — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Roe Roll »** *(optionnelle)* — tâches : item delightful:roe_roll — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Salmon and Roe Blini »** *(optionnelle)* — tâches : item delightful:salmon_and_roe_blini — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Slice of Salmonberry Pie »** *(optionnelle)* — tâches : item delightful:salmonberry_pie_slice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Sinigang »** *(optionnelle)* — tâches : item delightful:sinigang — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « S'more »** *(optionnelle)* — tâches : item delightful:smore — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Source Berry Cookie »** *(optionnelle)* — tâches : item delightful:source_berry_cookie — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Stuffed Cantaloupe »** *(optionnelle)* — tâches : item delightful:stuffed_cantaloupe_block — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Raw Venison Chops »** *(optionnelle)* — tâches : item delightful:venison_chops — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Venison Stew »** *(optionnelle)* — tâches : item delightful:venison_stew — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Wrapped Cantaloupe »** *(optionnelle)* — tâches : item delightful:wrapped_cantaloupe — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : Cidre de pommes** *(optionnelle)* — tâches : item farmersdelight:apple_cider — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Tarte aux pommes** *(optionnelle)* — tâches : item farmersdelight:apple_pie — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Part de tarte aux pommes** *(optionnelle)* — tâches : item farmersdelight:apple_pie_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Bacon cru** *(optionnelle)* — tâches : item farmersdelight:bacon — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Bacon et œufs** *(optionnelle)* — tâches : item farmersdelight:bacon_and_eggs — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Sandwich au bacon** *(optionnelle)* — tâches : item farmersdelight:bacon_sandwich — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Ragoût de morue** *(optionnelle)* — tâches : item farmersdelight:baked_cod_stew — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Brochette** *(optionnelle)* — tâches : item farmersdelight:barbecue_stick — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Steack haché** *(optionnelle)* — tâches : item farmersdelight:beef_patty — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Ragoût de boeuf** *(optionnelle)* — tâches : item farmersdelight:beef_stew — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Bouillon d'os** *(optionnelle)* — tâches : item farmersdelight:bone_broth — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Rouleaux de chou** *(optionnelle)* — tâches : item farmersdelight:cabbage_rolls — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Part de gâteau** *(optionnelle)* — tâches : item farmersdelight:cake_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Escalopes de poulet crues** *(optionnelle)* — tâches : item farmersdelight:chicken_cuts — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Sandwich au poulet** *(optionnelle)* — tâches : item farmersdelight:chicken_sandwich — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Soupe de poulet** *(optionnelle)* — tâches : item farmersdelight:chicken_soup — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Tarte au chocolat** *(optionnelle)* — tâches : item farmersdelight:chocolate_pie — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Part de tarte au chocolat** *(optionnelle)* — tâches : item farmersdelight:chocolate_pie_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Rouleau de morue** *(optionnelle)* — tâches : item farmersdelight:cod_roll — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Filet de morue cru** *(optionnelle)* — tâches : item farmersdelight:cod_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Bacon cuit** *(optionnelle)* — tâches : item farmersdelight:cooked_bacon — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Escalopes de poulet cuites** *(optionnelle)* — tâches : item farmersdelight:cooked_chicken_cuts — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Filet de morue cuit** *(optionnelle)* — tâches : item farmersdelight:cooked_cod_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Côtelettes de mouton cuites** *(optionnelle)* — tâches : item farmersdelight:cooked_mutton_chops — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Riz cuit** *(optionnelle)* — tâches : item farmersdelight:cooked_rice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Filet de saumon cuit** *(optionnelle)* — tâches : item farmersdelight:cooked_salmon_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Raviolis** *(optionnelle)* — tâches : item farmersdelight:dumplings — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Sandwich aux œufs** *(optionnelle)* — tâches : item farmersdelight:egg_sandwich — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Soupe de poisson** *(optionnelle)* — tâches : item farmersdelight:fish_stew — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Riz sauté** *(optionnelle)* — tâches : item farmersdelight:fried_rice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Salade de fruits** *(optionnelle)* — tâches : item farmersdelight:fruit_salad — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : « Gleaming Salad »** *(optionnelle)* — tâches : item farmersdelight:gleaming_salad_block — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Crème aux baies lumineuses** *(optionnelle)* — tâches : item farmersdelight:glow_berry_custard — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Saumon grillé** *(optionnelle)* — tâches : item farmersdelight:grilled_salmon — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Hamburger** *(optionnelle)* — tâches : item farmersdelight:hamburger — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Cookie au miel** *(optionnelle)* — tâches : item farmersdelight:honey_cookie — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Jambon laqué au miel** *(optionnelle)* — tâches : item farmersdelight:honey_glazed_ham_block — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Chocolat chaud** *(optionnelle)* — tâches : item farmersdelight:hot_cocoa — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Rouleau aux algues** *(optionnelle)* — tâches : item farmersdelight:kelp_roll — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Tranche de rouleau aux algues** *(optionnelle)* — tâches : item farmersdelight:kelp_roll_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Jus de melon** *(optionnelle)* — tâches : item farmersdelight:melon_juice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Glace à la pastèque** *(optionnelle)* — tâches : item farmersdelight:melon_popsicle — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Bouteille de lait** *(optionnelle)* — tâches : item farmersdelight:milk_bottle — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Bœuf haché** *(optionnelle)* — tâches : item farmersdelight:minced_beef — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Salade composée** *(optionnelle)* — tâches : item farmersdelight:mixed_salad — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Riz aux champignons** *(optionnelle)* — tâches : item farmersdelight:mushroom_rice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Côtelettes de mouton crues** *(optionnelle)* — tâches : item farmersdelight:mutton_chops — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Wrap de mouton** *(optionnelle)* — tâches : item farmersdelight:mutton_wrap — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Soupe de nouilles** *(optionnelle)* — tâches : item farmersdelight:noodle_soup — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : « Onion Soup »** *(optionnelle)* — tâches : item farmersdelight:onion_soup — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Spaghettis bolognaise** *(optionnelle)* — tâches : item farmersdelight:pasta_with_meatballs — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Spaghettis à l'agneau** *(optionnelle)* — tâches : item farmersdelight:pasta_with_mutton_chop — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : « Slice of Pumpkin Pie »** *(optionnelle)* — tâches : item farmersdelight:pumpkin_pie_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Soupe de citrouille** *(optionnelle)* — tâches : item farmersdelight:pumpkin_soup — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Ratatouille** *(optionnelle)* — tâches : item farmersdelight:ratatouille — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Assortiment de rouleaux de riz** *(optionnelle)* — tâches : item farmersdelight:rice_roll_medley_block — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Poulet rôti** *(optionnelle)* — tâches : item farmersdelight:roast_chicken_block — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Côtelettes de mouton rôties** *(optionnelle)* — tâches : item farmersdelight:roasted_mutton_chops — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Roulés au saumon** *(optionnelle)* — tâches : item farmersdelight:salmon_roll — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Filet de saumon cru** *(optionnelle)* — tâches : item farmersdelight:salmon_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Pâté chinois** *(optionnelle)* — tâches : item farmersdelight:shepherds_pie_block — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Pâtes à l'encre de seiche** *(optionnelle)* — tâches : item farmersdelight:squid_ink_pasta — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Steak et pommes de terre** *(optionnelle)* — tâches : item farmersdelight:steak_and_potatoes — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Pomme de terre farcie** *(optionnelle)* — tâches : item farmersdelight:stuffed_potato — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Citrouille farcie** *(optionnelle)* — tâches : item farmersdelight:stuffed_pumpkin_block — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Cheesecake aux fruits rouges** *(optionnelle)* — tâches : item farmersdelight:sweet_berry_cheesecake — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Part de gâteau de baies sucrées** *(optionnelle)* — tâches : item farmersdelight:sweet_berry_cheesecake_slice — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Cookie aux baies sucrées** *(optionnelle)* — tâches : item farmersdelight:sweet_berry_cookie — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Nouilles aux légumes** *(optionnelle)* — tâches : item farmersdelight:vegetable_noodles — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : Soupe de légumes** *(optionnelle)* — tâches : item farmersdelight:vegetable_soup — récompense : xp 1
+  > Un plat de Farmer's Delight.
+- **Goûter : « Cooked Loin »** *(optionnelle)* — tâches : item mynethersdelight:cooked_loin — récompense : xp 1
+  > Un plat de My Nether's Delight.
+- **Goûter : « Hoglin Loin »** *(optionnelle)* — tâches : item mynethersdelight:hoglin_loin — récompense : xp 1
+  > Un plat de My Nether's Delight.
+- **Goûter : « Hoglin Sausage »** *(optionnelle)* — tâches : item mynethersdelight:hoglin_sausage — récompense : xp 1
+  > Un plat de My Nether's Delight.
+- **Goûter : « Roasted Sausage »** *(optionnelle)* — tâches : item mynethersdelight:roasted_sausage — récompense : xp 1
+  > Un plat de My Nether's Delight.
+- **Goûter : « Aurora Cake Slice »** *(optionnelle)* — tâches : item twilightdelight:aurora_cake_slice — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Aurora Ice Cream »** *(optionnelle)* — tâches : item twilightdelight:aurora_ice_cream — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Aurora Milkshake »** *(optionnelle)* — tâches : item twilightdelight:aurora_milkshake — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Aurora Pie »** *(optionnelle)* — tâches : item twilightdelight:aurora_pie — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Aurora Pie Slice »** *(optionnelle)* — tâches : item twilightdelight:aurora_pie_slice — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Chocolate Wafer »** *(optionnelle)* — tâches : item twilightdelight:chocolate_wafer — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Cooked Venison Rib »** *(optionnelle)* — tâches : item twilightdelight:cooked_venison_rib — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Glacier Cake Slice »** *(optionnelle)* — tâches : item twilightdelight:glacier_cake_slice — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Glacier Ice Cream »** *(optionnelle)* — tâches : item twilightdelight:glacier_ice_cream — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Glacier Milkshake »** *(optionnelle)* — tâches : item twilightdelight:glacier_milkshake — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Naga Chip »** *(optionnelle)* — tâches : item twilightdelight:naga_chip — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Phytochemical Cake Slice »** *(optionnelle)* — tâches : item twilightdelight:phytochemical_cake_slice — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Phytochemical Ice Cream »** *(optionnelle)* — tâches : item twilightdelight:phytochemical_ice_cream — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Phytochemical Milkshake »** *(optionnelle)* — tâches : item twilightdelight:phytochemical_milkshake — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Rainbow Ice Cream »** *(optionnelle)* — tâches : item twilightdelight:rainbow_ice_cream — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Raw Venison Rib »** *(optionnelle)* — tâches : item twilightdelight:raw_venison_rib — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Refreshing Ice Cream »** *(optionnelle)* — tâches : item twilightdelight:refreshing_ice_cream — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Torchberry Cake Slice »** *(optionnelle)* — tâches : item twilightdelight:torchberry_cake_slice — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Torchberry Cookie »** *(optionnelle)* — tâches : item twilightdelight:torchberry_cookie — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Torchberry Ice Cream »** *(optionnelle)* — tâches : item twilightdelight:torchberry_ice_cream — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Torchberry Milkshake »** *(optionnelle)* — tâches : item twilightdelight:torchberry_milkshake — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Torchberry Pie »** *(optionnelle)* — tâches : item twilightdelight:torchberry_pie — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Torchberry Pie Slice »** *(optionnelle)* — tâches : item twilightdelight:torchberry_pie_slice — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Goûter : « Twilight Ice Cream »** *(optionnelle)* — tâches : item twilightdelight:twilight_ice_cream — récompense : xp 1
+  > Un plat de Twilight's Flavor Delight.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Herbier  (`enc_herbier`, 64 quêtes)
+
+- **Herbier** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion.
+- **Cultiver : « Air seeds »** *(optionnelle)* — tâches : item mysticalagriculture:air_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Amethyst seeds »** *(optionnelle)* — tâches : item mysticalagriculture:amethyst_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Basalt seeds »** *(optionnelle)* — tâches : item mysticalagriculture:basalt_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Blaze seeds »** *(optionnelle)* — tâches : item mysticalagriculture:blaze_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Brass seeds »** *(optionnelle)* — tâches : item mysticalagriculture:brass_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Chicken seeds »** *(optionnelle)* — tâches : item mysticalagriculture:chicken_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Coal seeds »** *(optionnelle)* — tâches : item mysticalagriculture:coal_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Copper seeds »** *(optionnelle)* — tâches : item mysticalagriculture:copper_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Coral seeds »** *(optionnelle)* — tâches : item mysticalagriculture:coral_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Cow seeds »** *(optionnelle)* — tâches : item mysticalagriculture:cow_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Creeper seeds »** *(optionnelle)* — tâches : item mysticalagriculture:creeper_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Deepslate seeds »** *(optionnelle)* — tâches : item mysticalagriculture:deepslate_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Diamond seeds »** *(optionnelle)* — tâches : item mysticalagriculture:diamond_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Dirt seeds »** *(optionnelle)* — tâches : item mysticalagriculture:dirt_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Dye seeds »** *(optionnelle)* — tâches : item mysticalagriculture:dye_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Earth seeds »** *(optionnelle)* — tâches : item mysticalagriculture:earth_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Emerald seeds »** *(optionnelle)* — tâches : item mysticalagriculture:emerald_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « End seeds »** *(optionnelle)* — tâches : item mysticalagriculture:end_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Enderman seeds »** *(optionnelle)* — tâches : item mysticalagriculture:enderman_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Experience seeds »** *(optionnelle)* — tâches : item mysticalagriculture:experience_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Fire seeds »** *(optionnelle)* — tâches : item mysticalagriculture:fire_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Fish seeds »** *(optionnelle)* — tâches : item mysticalagriculture:fish_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Ghast seeds »** *(optionnelle)* — tâches : item mysticalagriculture:ghast_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Glowstone seeds »** *(optionnelle)* — tâches : item mysticalagriculture:glowstone_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Gold seeds »** *(optionnelle)* — tâches : item mysticalagriculture:gold_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Honey seeds »** *(optionnelle)* — tâches : item mysticalagriculture:honey_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Ice seeds »** *(optionnelle)* — tâches : item mysticalagriculture:ice_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Inferium seeds »** *(optionnelle)* — tâches : item mysticalagriculture:inferium_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Iron seeds »** *(optionnelle)* — tâches : item mysticalagriculture:iron_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Ironwood seeds »** *(optionnelle)* — tâches : item mysticalagriculture:ironwood_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Knightmetal seeds »** *(optionnelle)* — tâches : item mysticalagriculture:knightmetal_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Lapis lazuli seeds »** *(optionnelle)* — tâches : item mysticalagriculture:lapis_lazuli_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Lead seeds »** *(optionnelle)* — tâches : item mysticalagriculture:lead_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Limestone seeds »** *(optionnelle)* — tâches : item mysticalagriculture:limestone_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Marble seeds »** *(optionnelle)* — tâches : item mysticalagriculture:marble_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Mithril seeds »** *(optionnelle)* — tâches : item mysticalagriculture:mithril_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Mystical flower seeds »** *(optionnelle)* — tâches : item mysticalagriculture:mystical_flower_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Nature seeds »** *(optionnelle)* — tâches : item mysticalagriculture:nature_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Nether quartz seeds »** *(optionnelle)* — tâches : item mysticalagriculture:nether_quartz_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Nether seeds »** *(optionnelle)* — tâches : item mysticalagriculture:nether_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Netherite seeds »** *(optionnelle)* — tâches : item mysticalagriculture:netherite_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Obsidian seeds »** *(optionnelle)* — tâches : item mysticalagriculture:obsidian_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Pig seeds »** *(optionnelle)* — tâches : item mysticalagriculture:pig_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Prismarine seeds »** *(optionnelle)* — tâches : item mysticalagriculture:prismarine_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Rabbit seeds »** *(optionnelle)* — tâches : item mysticalagriculture:rabbit_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Redstone seeds »** *(optionnelle)* — tâches : item mysticalagriculture:redstone_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Sheep seeds »** *(optionnelle)* — tâches : item mysticalagriculture:sheep_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Skeleton seeds »** *(optionnelle)* — tâches : item mysticalagriculture:skeleton_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Slime seeds »** *(optionnelle)* — tâches : item mysticalagriculture:slime_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Soulium seeds »** *(optionnelle)* — tâches : item mysticalagriculture:soulium_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Spider seeds »** *(optionnelle)* — tâches : item mysticalagriculture:spider_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Squid seeds »** *(optionnelle)* — tâches : item mysticalagriculture:squid_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Steel seeds »** *(optionnelle)* — tâches : item mysticalagriculture:steel_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Steeleaf seeds »** *(optionnelle)* — tâches : item mysticalagriculture:steeleaf_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Stone seeds »** *(optionnelle)* — tâches : item mysticalagriculture:stone_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Sulfur seeds »** *(optionnelle)* — tâches : item mysticalagriculture:sulfur_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Turtle seeds »** *(optionnelle)* — tâches : item mysticalagriculture:turtle_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Water seeds »** *(optionnelle)* — tâches : item mysticalagriculture:water_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Wither skeleton seeds »** *(optionnelle)* — tâches : item mysticalagriculture:wither_skeleton_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Wood seeds »** *(optionnelle)* — tâches : item mysticalagriculture:wood_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Zinc seeds »** *(optionnelle)* — tâches : item mysticalagriculture:zinc_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Cultiver : « Zombie seeds »** *(optionnelle)* — tâches : item mysticalagriculture:zombie_seeds — récompense : xp 1
+  > Graine de Mystical Agriculture.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Minerais et lingots  (`enc_minerais`, 38 quêtes)
+
+- **Minerais et lingots** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque lingot et chaque gemme du pack, d'après les balises de lingots et de gemmes. Une quête se valide en ayant l'objet dans l'inventaire.
+- **Obtenir : « Zanite Gemstone »** *(optionnelle)* — tâches : item aether:zanite_gemstone — récompense : xp 1
+  > Objet de Aether.
+- **Obtenir : « Gravitite Ingot »** *(optionnelle)* — tâches : item aether_redux:gravitite_ingot — récompense : xp 1
+  > Objet de Aether Redux.
+- **Obtenir : « Veridium Ingot »** *(optionnelle)* — tâches : item aether_redux:veridium_ingot — récompense : xp 1
+  > Objet de Aether Redux.
+- **Obtenir : « Rose Quartz Chunk »** *(optionnelle)* — tâches : item biomesoplenty:rose_quartz_chunk — récompense : xp 1
+  > Objet de biomesoplenty.
+- **Obtenir : Lingot de laiton** *(optionnelle)* — tâches : item create:brass_ingot — récompense : xp 1
+  > Objet de create.
+- **Obtenir : Quartz rose** *(optionnelle)* — tâches : item create:rose_quartz — récompense : xp 1
+  > Objet de create.
+- **Obtenir : Lingot de zinc** *(optionnelle)* — tâches : item create:zinc_ingot — récompense : xp 1
+  > Objet de create.
+- **Obtenir : « Skyjade Gemstone »** *(optionnelle)* — tâches : item deep_aether:skyjade — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Stratus Ingot »** *(optionnelle)* — tâches : item deep_aether:stratus_ingot — récompense : xp 1
+  > Objet de Deep Aether.
+- **Obtenir : « Palladium Ingot »** *(optionnelle)* — tâches : item galosphere:palladium_ingot — récompense : xp 1
+  > Objet de Galosphere.
+- **Obtenir : « Steel Ingot »** *(optionnelle)* — tâches : item hazennstuff:steel_ingot — récompense : xp 1
+  > Objet de hazennstuff.
+- **Obtenir : Lingot de Mithril** *(optionnelle)* — tâches : item irons_spellbooks:mithril_ingot — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Lingot de Pyrium** *(optionnelle)* — tâches : item irons_spellbooks:pyrium_ingot — récompense : xp 1
+  > Objet de Iron's Spells.
+- **Obtenir : Lingot de cuivre** *(optionnelle)* — tâches : item minecraft:copper_ingot — récompense : xp 1
+  > Objet de jeu de base.
+- **Obtenir : Gemme de Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_gemstone — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Lingot de Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_ingot — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Gemme d'Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_gemstone — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Lingot d'Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_ingot — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Gemme d'Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_gemstone — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Lingot d'Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_ingot — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Gemme de prospérité** *(optionnelle)* — tâches : item mysticalagriculture:prosperity_gemstone — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Lingot de prospérité** *(optionnelle)* — tâches : item mysticalagriculture:prosperity_ingot — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Gemme de Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_gemstone — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Lingot de Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_ingot — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Gemme de Soulium** *(optionnelle)* — tâches : item mysticalagriculture:soulium_gemstone — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Lingot de Soulium** *(optionnelle)* — tâches : item mysticalagriculture:soulium_ingot — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Gemme de Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_gemstone — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Lingot de Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_ingot — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Gemme de Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_gemstone — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Lingot de Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_ingot — récompense : xp 1
+  > Objet de mysticalagriculture.
+- **Obtenir : Brique en cendres** *(optionnelle)* — tâches : item supplementaries:ash_brick — récompense : xp 1
+  > Objet de supplementaries.
+- **Obtenir : « Carminite »** *(optionnelle)* — tâches : item twilightforest:carminite — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Lingot ardent** *(optionnelle)* — tâches : item twilightforest:fiery_ingot — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Lingot en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_ingot — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Lingot de métal de chevalier** *(optionnelle)* — tâches : item twilightforest:knightmetal_ingot — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : « Steeleaf »** *(optionnelle)* — tâches : item twilightforest:steeleaf_ingot — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : aether_zanite_gemstone, aether_redux_gravitite_ingot, aether_redux_veridium_ingot, biomesoplenty_rose_quartz_chunk, create_brass_ingot, create_rose_quartz, create_zinc_ingot, deep_aether_skyjade, deep_aether_stratus_ingot, galosphere_palladium_ingot, hazennstuff_steel_ingot, irons_spellbooks_mithril_ingot, irons_spellbooks_pyrium_ingot, minecraft_copper_ingot, mysticalagriculture_awakened_supremium_gemstone, mysticalagriculture_awakened_supremium_ingot, mysticalagriculture_imperium_gemstone, mysticalagriculture_imperium_ingot, mysticalagriculture_inferium_gemstone, mysticalagriculture_inferium_ingot, mysticalagriculture_prosperity_gemstone, mysticalagriculture_prosperity_ingot, mysticalagriculture_prudentium_gemstone, mysticalagriculture_prudentium_ingot, mysticalagriculture_soulium_gemstone, mysticalagriculture_soulium_ingot, mysticalagriculture_supremium_gemstone, mysticalagriculture_supremium_ingot, mysticalagriculture_tertium_gemstone, mysticalagriculture_tertium_ingot, supplementaries_ash_brick, twilightforest_carminite, twilightforest_fiery_ingot, twilightforest_ironwood_ingot, twilightforest_knightmetal_ingot, twilightforest_steeleaf_ingot
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 
 ## Structures — donjons, villes et tours  (`enc_structures_donjons_villages`, 126 quêtes)
 
@@ -3399,6 +5129,115 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Toutes les structures de ce chapitre visitées. La récompense est symbolique.
 
+## Trophées et têtes  (`enc_trophees`, 53 quêtes)
+
+- **Trophées et têtes** — tâches : checkmark Lu — récompense : xp 2
+  > Les trophées des boss, les têtes de créatures et les trophées de décoration. Une quête se valide en ayant l'objet dans l'inventaire.
+- **Obtenir : Trophée de l'Alchimiste** *(optionnelle)* — tâches : item blue_skies:alchemist_trophy — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Trophée de l'Arachnarque** *(optionnelle)* — tâches : item blue_skies:arachnarch_trophy — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Trophée du Déstructeur des Étoiles** *(optionnelle)* — tâches : item blue_skies:starlit_crusher_trophy — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : Trophée du Summonateur** *(optionnelle)* — tâches : item blue_skies:summoner_trophy — récompense : xp 1
+  > Objet de Blue Skies.
+- **Obtenir : « Aptrgangr Head »** *(optionnelle)* — tâches : item cataclysm:aptrgangr_head — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Draugr Head »** *(optionnelle)* — tâches : item cataclysm:draugr_head — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Kobolediator Skull »** *(optionnelle)* — tâches : item cataclysm:kobolediator_skull — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Remnant's Skull »** *(optionnelle)* — tâches : item cataclysm:remnant_skull — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Unbreakable Skull »** *(optionnelle)* — tâches : item cataclysm:unbreakable_skull — récompense : xp 1
+  > Objet de Cataclysm.
+- **Obtenir : « Bear Trophy »** *(optionnelle)* — tâches : item handcrafted:bear_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Blaze Trophy »** *(optionnelle)* — tâches : item handcrafted:blaze_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Creeper Trophy »** *(optionnelle)* — tâches : item handcrafted:creeper_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Evoker Trophy »** *(optionnelle)* — tâches : item handcrafted:evoker_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Fox Trophy »** *(optionnelle)* — tâches : item handcrafted:fox_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Goat Trophy »** *(optionnelle)* — tâches : item handcrafted:goat_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Phantom Trophy »** *(optionnelle)* — tâches : item handcrafted:phantom_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Pillager Trophy »** *(optionnelle)* — tâches : item handcrafted:pillager_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Pufferfish Trophy »** *(optionnelle)* — tâches : item handcrafted:pufferfish_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Salmon Trophy »** *(optionnelle)* — tâches : item handcrafted:salmon_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Silverfish Trophy »** *(optionnelle)* — tâches : item handcrafted:silverfish_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Skeleton Horse Trophy »** *(optionnelle)* — tâches : item handcrafted:skeleton_horse_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Skeleton Trophy »** *(optionnelle)* — tâches : item handcrafted:skeleton_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Spider Trophy »** *(optionnelle)* — tâches : item handcrafted:spider_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Tropical Fish Trophy »** *(optionnelle)* — tâches : item handcrafted:tropical_fish_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Vindicator Trophy »** *(optionnelle)* — tâches : item handcrafted:vindicator_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Witch Trophy »** *(optionnelle)* — tâches : item handcrafted:witch_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Wither Skeleton Trophy »** *(optionnelle)* — tâches : item handcrafted:wither_skeleton_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : « Wolf Trophy »** *(optionnelle)* — tâches : item handcrafted:wolf_trophy — récompense : xp 1
+  > Objet de handcrafted.
+- **Obtenir : Tête de Creeper** *(optionnelle)* — tâches : item minecraft:creeper_head — récompense : xp 1
+  > Objet de jeu de base.
+- **Obtenir : Tête de dragon** *(optionnelle)* — tâches : item minecraft:dragon_head — récompense : xp 1
+  > Objet de jeu de base.
+- **Obtenir : Tête de Piglin** *(optionnelle)* — tâches : item minecraft:piglin_head — récompense : xp 1
+  > Objet de jeu de base.
+- **Obtenir : Crâne de squelette** *(optionnelle)* — tâches : item minecraft:skeleton_skull — récompense : xp 1
+  > Objet de jeu de base.
+- **Obtenir : Crâne de Wither squelette** *(optionnelle)* — tâches : item minecraft:wither_skeleton_skull — récompense : xp 1
+  > Objet de jeu de base.
+- **Obtenir : Tête de zombie** *(optionnelle)* — tâches : item minecraft:zombie_head — récompense : xp 1
+  > Objet de jeu de base.
+- **Obtenir : « Hoglin Trophy »** *(optionnelle)* — tâches : item mynethersdelight:hoglin_trophy — récompense : xp 1
+  > Objet de mynethersdelight.
+- **Obtenir : « Skoglin Trophy »** *(optionnelle)* — tâches : item mynethersdelight:skoglin_trophy — récompense : xp 1
+  > Objet de mynethersdelight.
+- **Obtenir : « Waxed Hoglin Trophy »** *(optionnelle)* — tâches : item mynethersdelight:waxed_hoglin_trophy — récompense : xp 1
+  > Objet de mynethersdelight.
+- **Obtenir : « Zoglin Trophy »** *(optionnelle)* — tâches : item mynethersdelight:zoglin_trophy — récompense : xp 1
+  > Objet de mynethersdelight.
+- **Obtenir : Tête d'enderman** *(optionnelle)* — tâches : item supplementaries:enderman_head — récompense : xp 1
+  > Objet de supplementaries.
+- **Obtenir : « Alpha Yeti Trophy »** *(optionnelle)* — tâches : item twilightforest:alpha_yeti_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Trophée d'Hydre** *(optionnelle)* — tâches : item twilightforest:hydra_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : « Knight Phantom Trophy »** *(optionnelle)* — tâches : item twilightforest:knight_phantom_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Trophée de Liche** *(optionnelle)* — tâches : item twilightforest:lich_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : « Minoshroom Trophy »** *(optionnelle)* — tâches : item twilightforest:minoshroom_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Trophée de Nâga** *(optionnelle)* — tâches : item twilightforest:naga_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : « Quest Ram Trophy »** *(optionnelle)* — tâches : item twilightforest:quest_ram_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Trophée de la Reine des Neiges** *(optionnelle)* — tâches : item twilightforest:snow_queen_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : Trophée d'Ur-Ghast** *(optionnelle)* — tâches : item twilightforest:ur_ghast_trophy — récompense : xp 1
+  > Objet de Twilight Forest.
+- **Obtenir : « Slider Trophy »** *(optionnelle)* — tâches : item umbral_skies:slider_trophy — récompense : xp 1
+  > Objet de umbral_skies.
+- **Obtenir : « Sun Spirit Trophy »** *(optionnelle)* — tâches : item umbral_skies:sun_spirit_trophy — récompense : xp 1
+  > Objet de umbral_skies.
+- **Obtenir : « Valkyrie Queen Trophy »** *(optionnelle)* — tâches : item umbral_skies:valkyrie_queen_trophy — récompense : xp 1
+  > Objet de umbral_skies.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : blue_skies_alchemist_trophy, blue_skies_arachnarch_trophy, blue_skies_starlit_crusher_trophy, blue_skies_summoner_trophy, cataclysm_aptrgangr_head, cataclysm_draugr_head, cataclysm_kobolediator_skull, cataclysm_remnant_skull, cataclysm_unbreakable_skull, handcrafted_bear_trophy, handcrafted_blaze_trophy, handcrafted_creeper_trophy, handcrafted_evoker_trophy, handcrafted_fox_trophy, handcrafted_goat_trophy, handcrafted_phantom_trophy, handcrafted_pillager_trophy, handcrafted_pufferfish_trophy, handcrafted_salmon_trophy, handcrafted_silverfish_trophy, handcrafted_skeleton_horse_trophy, handcrafted_skeleton_trophy, handcrafted_spider_trophy, handcrafted_tropical_fish_trophy, handcrafted_vindicator_trophy, handcrafted_witch_trophy, handcrafted_wither_skeleton_trophy, handcrafted_wolf_trophy, minecraft_creeper_head, minecraft_dragon_head, minecraft_piglin_head, minecraft_skeleton_skull, minecraft_wither_skeleton_skull, minecraft_zombie_head, mynethersdelight_hoglin_trophy, mynethersdelight_skoglin_trophy, mynethersdelight_waxed_hoglin_trophy, mynethersdelight_zoglin_trophy, supplementaries_enderman_head, twilightforest_alpha_yeti_trophy, twilightforest_hydra_trophy, twilightforest_knight_phantom_trophy, twilightforest_lich_trophy, twilightforest_minoshroom_trophy, twilightforest_naga_trophy, twilightforest_quest_ram_trophy, twilightforest_snow_queen_trophy, twilightforest_ur_ghast_trophy, umbral_skies_slider_trophy, umbral_skies_sun_spirit_trophy, umbral_skies_valkyrie_queen_trophy
+  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
 ## Bâtir sa faction  (`factions_batir`, 11 quêtes)
 
 - **Une faction, c'est quoi** — tâches : checkmark Lu — récompense : xp 2
@@ -3631,7 +5470,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   >   > La laine fait aussi des voiles, dans n'importe quelle couleur.
 - **Boîte de vitesses, embrayage, inverseur** — tâches : item create:gearbox, item create:clutch, item create:gearshift — récompense : xp 3 — après : engrenage
   > La boîte de vitesses sort la rotation sur quatre faces. L'embrayage la coupe sur un signal redstone, l'inverseur la retourne. Avec ces trois blocs, on pilote une machine depuis un levier.
-- **Une courroie** — tâches : item create:belt 4 — récompense : xp 3 — après : arbre
+- **Une courroie** — tâches : item create:belt_connector 4 — récompense : xp 3 — après : arbre
   > Une courroie relie deux arbres distants et transporte des objets dessus. Clic droit avec la courroie sur le premier arbre, puis sur le second, jusqu'à vingt blocs.
   >   > Sans courroie, il n'y a pas de chaîne de production.
 - **La clé et les lunettes** — tâches : item create:wrench, item create:goggles — récompense : xp 3 — après : alliage
@@ -3813,7 +5652,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Ocean's Delight cuisine ce que l'océan donne : tentacules, gardiens, concombres de mer. La soupe de gardien se fait à la marmite.
 - **Crabber's Delight** *(optionnelle)* — tâches : item crabbersdelight:crab_trap, item crabbersdelight:bisque — récompense : xp 5 — après : marmite
   > Crabber's Delight : un casier à crabes posé dans l'eau attrape crabes, crevettes et palourdes, et la marmite en fait une bisque.
-- **My Nether's Delight** *(optionnelle)* — tâches : item mynethersdelight:nether_stove — récompense : xp 5 — après : marmite
+- **My Nether's Delight** *(optionnelle)* — tâches : item mynethersdelight:nether_bricks_stove — récompense : xp 5 — après : marmite
   > My Nether's Delight : un fourneau du Nether, des cannes poudreuses, du piment, et des plats de hoglin et de strider. La cuisine continue de l'autre côté du portail.
 - **Ender's Delight** *(optionnelle)* — tâches : item endersdelight:chorus_stew — récompense : xp 5 — après : marmite
   > Ender's Delight : le chorus se cuisine, le shulker aussi. Le ragoût de chorus se fait à la marmite, avec ce que l'End donne.
@@ -4248,7 +6087,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un signal de redstone selon la saison : de quoi changer un circuit à l'hiver.
 - **Passer l'hiver** *(optionnelle)* — tâches : checkmark Un hiver passé — récompense : xp 3 — après : intro
   > Vingt-quatre jours de froid. Les biomes refroidissent, il neige plus souvent, mais le sol ne se couvre pas de neige ni de glace de lui-même (config). Les cultures d'été dorment.
-- **La neige qui s'accroche** *(optionnelle)* — tâches : item snowrealmagic:slab — récompense : xp 3 — après : intro
+- **La neige qui s'accroche** *(optionnelle)* — tâches : checkmark J'ai vu la neige couvrir une dalle — récompense : xp 3 — après : intro
   > Snow! Real Magic! : la neige recouvre dalles, escaliers, murs et barrières au lieu de rester à côté. Climate Rivers, lui, trace les rivières selon le climat.
 
 ## SecurityCraft  (`securitycraft`, 28 quêtes)
@@ -4258,7 +6097,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   >   > C'est le chapitre qui compte le plus pour un raid, dans les deux sens.
 - **Un clavier à code** — tâches : item securitycraft:keypad — récompense : xp 5 — après : intro
   > Le clavier émet un signal redstone quand on tape le bon code : clic droit après la pose pour fixer un code numérique, clic droit ensuite pour le taper. Posé contre une porte de fer, c'est une porte à code.
-- **Une porte à clavier** — tâches : item securitycraft:keypad_door — récompense : xp 5 — après : clavier
+- **Une porte à clavier** — tâches : item securitycraft:keypad_door_item — récompense : xp 5 — après : clavier
   > La porte à clavier réunit un clavier et une porte de fer renforcée : il faut le code pour l'ouvrir. Ou un casseur de code, avec de la chance.
 - **Des blocs renforcés** — tâches : item securitycraft:universal_block_reinforcer_lvl1, item securitycraft:reinforced_stone 16 — récompense : xp 8 — après : intro
   > Le renforceur universel convertit les blocs vanilla en blocs renforcés : clic droit, le bloc dans la case du haut, ou bien casser un bloc en le tenant. Un bloc renforcé appartient à qui l'a posé. Un donjon de trophée en pierre renforcée n'a qu'une entrée : celle que tu as laissée, puisque le règlement exige un chemin atteignable sans rien casser.
