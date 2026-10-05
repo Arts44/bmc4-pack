@@ -1,0 +1,53 @@
+# Échelle des paliers — Enchantement (BMC-89, 5 octobre 2026).
+# Valeurs lues sur le serveur 486488 : enchantinginfuser-server.toml,
+# easymagic-server.toml, easyanvils-server.toml,
+# easydisenchanting-common.toml.
+chapitre = "enchantement"
+sommet = "infuseur_max"
+
+[[palier]]
+echelle = "infuseur"
+cle = "table"
+preuve = "Easy Magic, max_enchanting_power 15"
+
+[[palier]]
+echelle = "infuseur"
+cle = "infuseur"
+preuve = "normal_infuser : objets sans enchantement, pas de livres, pas de réparation"
+
+[[palier]]
+echelle = "infuseur"
+cle = "infuseur_avance"
+preuve = "advanced_infuser : allow_modifying_enchantments ALL, allow_books, réparation TOOLS_AND_ARMOR"
+
+[[palier]]
+echelle = "infuseur"
+cle = "infuseur_max"
+preuve = "advanced_infuser.maximum_bookshelves 15"
+
+[[palier]]
+echelle = "table"
+cle = "table"
+preuve = "table d'enchantement"
+
+[[palier]]
+echelle = "table"
+cle = "etageres"
+preuve = "max_enchanting_power 15"
+
+[[palier]]
+echelle = "table"
+cle = "enchanter"
+preuve = "statistique minecraft:enchant_item (ModEnchantmentMenu appelle le clic vanilla)"
+
+[[saute]]
+objet = "enchantements de trésor, malédictions, intransmissibles à l'infuseur"
+raison = "allow_treasure/curses/untradeable/undiscoverable_enchantments false sur le serveur"
+
+[[saute]]
+objet = "niveau maximal d'un enchantement précis"
+raison = "FTB Quests compare les listes NBT position par position et type exact : une tâche sur Enchantments serait fausse"
+
+[[saute]]
+objet = "tome d'XP plein"
+raison = "un seul objet (xp_tome), sans palier ; xp_book est l'ancien objet à convertir"

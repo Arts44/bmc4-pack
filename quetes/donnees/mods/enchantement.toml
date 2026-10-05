@@ -1,7 +1,10 @@
 # Chapitre « Magie : enchantement » — cahier des charges §5.14
 # Sources : lang d'Enchanting Infuser, de XP Tome et d'Aether: Treasure
 # Reforging ; easyanvils-server.toml, easymagic-server.toml et
-# easydisenchanting-common.toml de l'instance v61. Soulbound est retiré
+# easydisenchanting-common.toml et enchantinginfuser-server.toml lus sur
+# le serveur 486488 (5 octobre 2026) ; classes d'Easy Disenchanting 1.0.1
+# (désenchantement à l'enclume) et d'Easy Magic 8.0.1 (la table garde le
+# clic vanilla, donc la statistique enchant_item). Soulbound est retiré
 # (BMC-82) : aucune quête n'en parle.
 
 [chapitre]
@@ -36,6 +39,28 @@ Avec &bEasy Magic&r, la table affiche un indice de l'enchantement proposé, et u
 """
 
 [[quete]]
+cle = "etageres"
+titre = "Quinze étagères"
+deps = ["table"]
+taches = ["item minecraft:bookshelf 15"]
+recompenses = ["xp 3"]
+description = """
+&b15 étagères&r, c'est la puissance maximale partout dans le pack : la table d'Easy Magic plafonne à 15, et les deux infuseurs demandent 15 étagères pour leurs niveaux maximaux. Posées autour du bloc avec un espace d'un bloc, sur deux hauteurs ; les coins comptent.
+
+Les étagères ciselées comptent aussi, une par trois livres, à condition de faire face à la table.
+"""
+
+[[quete]]
+cle = "enchanter"
+titre = "Dix enchantements à la table"
+deps = ["etageres"]
+taches = ["stat minecraft:enchant_item 10"]
+recompenses = ["item minecraft:lapis_lazuli 16"]
+description = """
+Dix objets enchantés à la table. Si les trois propositions ne conviennent pas, le bouton de relance les retire contre &b5 points&r d'expérience et un lapis.
+"""
+
+[[quete]]
 cle = "enclume"
 titre = "L'enclume, version Easy Anvils"
 deps = ["intro"]
@@ -54,6 +79,8 @@ taches = ["item enchantinginfuser:enchanting_infuser"]
 recompenses = ["xp 8"]
 description = """
 L'&dinfuseur&r laisse &lchoisir&r les enchantements de l'objet, et leur niveau, contre de l'expérience. Sa puissance vient des étagères posées en carré autour de lui, sur deux hauteurs : plus d'étagères, plus d'enchantements accessibles.
+
+Sur ce serveur, l'infuseur simple n'enchante que des objets &lsans&r enchantement, ne prend pas les livres et ne répare pas.
 """
 
 [[quete]]
@@ -63,7 +90,22 @@ deps = ["infuseur"]
 taches = ["item enchantinginfuser:advanced_enchanting_infuser"]
 recompenses = ["xp 8"]
 description = """
-L'&dinfuseur avancé&r choisit, modifie &let retire&r les enchantements, et &lrépare&r l'objet contre des niveaux. La fin de l'enclume pour les outils de valeur.
+L'&dinfuseur avancé&r choisit, modifie &let retire&r les enchantements, même sur un objet déjà enchanté, et &lrépare&r outils et armures contre des niveaux, &b25 %&r de durabilité par étape. Il enchante aussi les &llivres&r, et accepte les enchantements d'enclume, comme Tranchant sur une hache. La fin de l'enclume pour les outils de valeur.
+"""
+
+[[quete]]
+cle = "infuseur_max"
+titre = "&dL'infuseur au maximum"
+deps = ["infuseur_avance", "etageres"]
+taille = 1.5
+forme = "diamond"
+icone = "enchantinginfuser:advanced_enchanting_infuser"
+taches = ["observation block enchantinginfuser:advanced_enchanting_infuser", "item minecraft:bookshelf 15"]
+recompenses = ["xp 10"]
+description = """
+Un infuseur avancé posé, et ses &b15 étagères&r. D'après la config du serveur, les enchantements s'ouvrent ainsi : les communs tout de suite, les peu communs à 3 étagères, les rares à 6, les très rares à 9 ; leur niveau maximal arrive 6 étagères plus loin, donc à 15 pour les très rares.
+
+Ce que l'infuseur ne donne jamais ici : les enchantements de &ltrésor&r (Raccommodage), les &lmalédictions&r, et ceux qu'on ne trouve ni à la table ni chez les marchands (Agilité des âmes). Ceux-là viennent des coffres, des marchands et de la pêche.
 """
 
 [[quete]]
@@ -73,7 +115,7 @@ deps = ["intro"]
 taches = ["checkmark Compris"]
 recompenses = ["xp 2"]
 description = """
-&bEasy Disenchanting&r permet de retirer un enchantement d'un objet pour le récupérer sur un livre, à la meule. Le coût en expérience est fixé par la config du serveur, un enchantement rendu par opération.
+&bEasy Disenchanting&r se fait à l'&lenclume&r : l'objet enchanté d'un côté, un livre de l'autre. Le livre repart avec &ltous&r les enchantements de l'objet, et l'objet est rendu, sans eux. Le coût en niveaux dépend des enchantements transférés.
 """
 
 [[quete]]
@@ -100,7 +142,7 @@ description = """
 [[quete]]
 cle = "fin"
 titre = "&dL'équipement est enchanté"
-deps = ["infuseur", "tome"]
+deps = ["infuseur_max", "enchanter", "tome"]
 taille = 1.3
 icone = "minecraft:enchanted_book"
 taches = ["checkmark Mon équipement est prêt"]
