@@ -563,6 +563,103 @@ description = """
 Des gants d'Aether faits de la Twilight Forest : deux lingots de bois de fer, de feuille d'acier ou de métal de chevalier, deux écailles de naga, deux fourrures arctiques, deux fourrures de yéti alpha. Les gants ardents : des gants de fer de l'Aether et deux fioles ardentes. Les gantelets fantômes sont dans le coffre du boss de la forteresse des chevaliers.
 """
 
+# ---- Paliers d'équipement et relance (BMC-89, 5 octobre) : objets obtenables
+# en chaîne ; tables de butin du jar aether (Valkyrie : coffres du donjon
+# d'argent ; Neptune : du donjon de bronze ; Phénix : trésor du donjon d'or) ;
+# Grande médaille de la victoire d'Aether Redux : « rejouer le combat contre
+# la Reine » (lang du jar). Une victoire n'est comptée que quête ouverte.
+[[quete]]
+cle = "outils_skyroot"
+titre = "Les outils en skyroot"
+deps = ["skyroot"]
+optionnel = true
+taches = ["item aether:skyroot_sword", "item aether:skyroot_pickaxe", "item aether:skyroot_axe", "item aether:skyroot_shovel", "item aether:skyroot_hoe"]
+recompenses = ["xp 2"]
+description = """
+Le premier palier de l'Aether, en bois de skyroot : ils récoltent les blocs en double (astuce du mod).
+"""
+
+[[quete]]
+cle = "outils_holystone"
+titre = "Les outils en holystone"
+deps = ["outils_skyroot", "holystone"]
+optionnel = true
+taches = ["item aether:holystone_sword", "item aether:holystone_pickaxe", "item aether:holystone_axe", "item aether:holystone_shovel", "item aether:holystone_hoe"]
+recompenses = ["xp 3"]
+description = """
+Le deuxième palier : ils produisent parfois des éclats d'ambrosium (astuce du mod).
+"""
+
+[[quete]]
+cle = "equipement_zanite"
+titre = "L'équipement en zanite"
+deps = ["outils_holystone", "zanite"]
+optionnel = true
+taches = ["item aether:zanite_helmet", "item aether:zanite_chestplate", "item aether:zanite_leggings", "item aether:zanite_boots", "item aether:zanite_gloves", "item aether:zanite_sword", "item aether:zanite_pickaxe", "item aether:zanite_axe", "item aether:zanite_shovel", "item aether:zanite_hoe"]
+recompenses = ["xp 6"]
+description = """
+Armure, gants et outils en zanite : ils gagnent en force à mesure qu'on s'en sert (astuce du mod).
+"""
+
+[[quete]]
+cle = "equipement_gravitite"
+titre = "&dL'équipement en gravitite"
+deps = ["equipement_zanite", "gravitite"]
+optionnel = true
+forme = "diamond"
+taille = 1.3
+taches = ["item aether:gravitite_helmet", "item aether:gravitite_chestplate", "item aether:gravitite_leggings", "item aether:gravitite_boots", "item aether:gravitite_gloves", "item aether:gravitite_sword", "item aether:gravitite_pickaxe", "item aether:gravitite_axe", "item aether:gravitite_shovel", "item aether:gravitite_hoe"]
+recompenses = ["xp 10"]
+description = """
+Armure, gants et outils en gravitite enchantée : l'armure fait sauter plus haut et annule les dégâts de chute, les outils soulèvent les blocs d'un clic droit (astuces du mod). C'est le sommet de l'équipement forgé de l'Aether.
+"""
+
+[[quete]]
+cle = "equipement_neptune"
+titre = "L'armure de Neptune"
+deps = ["slider"]
+optionnel = true
+taches = ["item aether:neptune_helmet", "item aether:neptune_chestplate", "item aether:neptune_leggings", "item aether:neptune_boots", "item aether:neptune_gloves"]
+recompenses = ["xp 8"]
+description = """
+Dans les coffres du donjon de bronze.
+"""
+
+[[quete]]
+cle = "equipement_valkyrie"
+titre = "L'armure des Valkyries"
+deps = ["reine"]
+optionnel = true
+taches = ["item aether:valkyrie_helmet", "item aether:valkyrie_chestplate", "item aether:valkyrie_leggings", "item aether:valkyrie_boots", "item aether:valkyrie_gloves", "item aether:valkyrie_lance"]
+recompenses = ["xp 10"]
+description = """
+L'armure dans les coffres du donjon d'argent ; la lance, dans ceux du donjon de bronze.
+"""
+
+[[quete]]
+cle = "equipement_phenix"
+titre = "L'armure du Phénix"
+deps = ["esprit"]
+optionnel = true
+taches = ["item aether:phoenix_helmet", "item aether:phoenix_chestplate", "item aether:phoenix_leggings", "item aether:phoenix_boots", "item aether:phoenix_gloves"]
+recompenses = ["xp 12"]
+description = """
+Dans le trésor du donjon d'or. Le mod conseille de plonger dans l'eau en la portant.
+"""
+
+[[quete]]
+cle = "reine_relance"
+titre = "&eRejouer le combat contre la Reine"
+deps = ["redux_medaille"]
+optionnel = true
+boss = true
+forme = "diamond"
+taches = ["kill aether:valkyrie_queen"]
+recompenses = ["xp 15"]
+description = """
+Avec la Grande médaille de la victoire, la Reine des Valkyries accepte un nouveau combat sans demander de médailles. La quête ne compte que le combat livré après la première victoire.
+"""
+
 # ---- Lost Aether Content, villages, forge
 [[quete]]
 cle = "platine"
