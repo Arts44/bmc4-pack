@@ -9,6 +9,13 @@
 # ré-invoqué ne laisse pas d'œuf, plate-forme refaite ; voidtotem : totem
 # ajouté aux trésors des cités de l'End, totem obligatoire, pas depuis
 # l'inventaire ; mysticalagriculture : dragonDropsCognizant = true).
+# Paliers (BMC-89, 5 octobre) : FTB Quests ne compte une victoire que si la
+# quête est ouverte (FTBQuestsEventHandler → TeamData.canStartTasks, javap) :
+# « dragon_relance » exige un nouveau combat. EndDragonFightMixin de YUNG's
+# Better End Island (javap) : un dragon ré-invoqué ne laisse pas d'œuf.
+# Recettes Better End : bclib:alloying (terminite, aeternium), bclib:smithing
+# (plaques forgées, enclume niveau 3), betterend:infusion (crystalite),
+# smithing_transform (aeternium).
 # betterend-crashed-ships est un correctif de la génération des vaisseaux
 # échoués de Better End (une seule classe), pas une structure à part.
 
@@ -261,6 +268,99 @@ taches = ["structure mes:enderwatch_tower"]
 recompenses = ["xp 5"]
 description = """
 &bMoog's End Structures&r : vaisseaux géants, citadelle fantôme, tour de guet de l'Ender, jardin mythique, repaire astral, monolithe. La tour de guet valide la quête.
+"""
+
+[[quete]]
+cle = "dragon_relance"
+titre = "&5Ré-invoquer l'Ender Dragon"
+deps = ["dragon"]
+optionnel = true
+boss = true
+forme = "diamond"
+taille = 1.3
+taches = ["kill minecraft:ender_dragon"]
+recompenses = ["xp 20"]
+description = """
+Quatre cristaux de l'End, un sur chaque côté du portail de sortie, ré-invoquent le dragon. Cette quête ne compte que le combat livré après la première victoire. Sur ce serveur, un dragon ré-invoqué ne laisse pas d'œuf ; ses écailles de dragon (DragonLoot) et, avec une arme d'essence enchantée, sa poussière cognizante tombent à chaque fois.
+"""
+
+[[quete]]
+cle = "armure_thallasium"
+titre = "L'armure en thallasium"
+deps = ["thallasium"]
+optionnel = true
+taches = ["item betterend:thallasium_helmet", "item betterend:thallasium_chestplate", "item betterend:thallasium_leggings", "item betterend:thallasium_boots"]
+recompenses = ["xp 6"]
+description = """
+Better End forge ses armures : un lingot posé sur une de ses enclumes devient, au marteau, une plaque forgée ; les plaques font les pièces. Le thallasium est le premier métal.
+"""
+
+[[quete]]
+cle = "outils_thallasium"
+titre = "Les outils en thallasium"
+deps = ["thallasium"]
+optionnel = true
+taches = ["item betterend:thallasium_hammer", "item betterend:thallasium_sword", "item betterend:thallasium_pickaxe", "item betterend:thallasium_axe", "item betterend:thallasium_shovel", "item betterend:thallasium_hoe"]
+recompenses = ["xp 6"]
+description = """
+Le marteau d'abord : un bloc de thallasium et un bâton, avec le modèle d'emmanchement, à la table de forge. Il forge les plaques et les têtes des autres outils.
+"""
+
+[[quete]]
+cle = "armure_terminite"
+titre = "L'armure en terminite"
+deps = ["terminite", "armure_thallasium"]
+optionnel = true
+taches = ["item betterend:terminite_helmet", "item betterend:terminite_chestplate", "item betterend:terminite_leggings", "item betterend:terminite_boots"]
+recompenses = ["xp 8"]
+description = """
+La terminite s'allie dans la fondeuse de pierre de l'End : un lingot de fer et de la poudre de l'End. Ses plaques demandent une enclume et un marteau de niveau 3.
+"""
+
+[[quete]]
+cle = "outils_terminite"
+titre = "Les outils en terminite"
+deps = ["terminite", "outils_thallasium"]
+optionnel = true
+taches = ["item betterend:terminite_hammer", "item betterend:terminite_sword", "item betterend:terminite_pickaxe", "item betterend:terminite_axe", "item betterend:terminite_shovel", "item betterend:terminite_hoe"]
+recompenses = ["xp 8"]
+description = """
+Même chemin qu'en thallasium, en terminite.
+"""
+
+[[quete]]
+cle = "armure_crystalite"
+titre = "L'armure en crystalite"
+deps = ["armure_terminite", "infusion"]
+optionnel = true
+taches = ["item betterend:crystalite_helmet", "item betterend:crystalite_chestplate", "item betterend:crystalite_leggings", "item betterend:crystalite_boots"]
+recompenses = ["xp 10"]
+description = """
+Une branche : chaque pièce en terminite, intacte, passe sur l'autel d'infusion avec des éclats de cristal et une gemme d'ambre.
+"""
+
+[[quete]]
+cle = "armure_aeternium"
+titre = "&5L'armure en aeternium"
+deps = ["aeternium", "armure_terminite"]
+optionnel = true
+forme = "diamond"
+taille = 1.3
+taches = ["item betterend:aeternium_helmet", "item betterend:aeternium_chestplate", "item betterend:aeternium_leggings", "item betterend:aeternium_boots"]
+recompenses = ["xp 15"]
+description = """
+L'aeternium s'allie à partir d'un lingot de terminite et d'un lingot de nétherite. À la table de forge, le modèle d'amélioration de plaque change chaque pièce en terminite en aeternium avec une plaque forgée. C'est le sommet de Better End.
+"""
+
+[[quete]]
+cle = "outils_aeternium"
+titre = "Les outils en aeternium"
+deps = ["aeternium", "outils_terminite"]
+optionnel = true
+taches = ["item betterend:aeternium_hammer", "item betterend:aeternium_sword", "item betterend:aeternium_pickaxe", "item betterend:aeternium_axe", "item betterend:aeternium_shovel", "item betterend:aeternium_hoe"]
+recompenses = ["xp 12"]
+description = """
+Les outils en aeternium prennent un manche gainé de cuir.
 """
 
 [[quete]]

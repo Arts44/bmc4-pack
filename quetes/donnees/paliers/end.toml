@@ -1,0 +1,63 @@
+# Échelle des paliers — L'End (BMC-89, 5 octobre 2026).
+chapitre = "monde_end"
+sommet = "armure_aeternium"
+
+[[palier]]
+echelle = "dragon"
+cle = "entrer"
+preuve = "dimension minecraft:the_end"
+
+[[palier]]
+echelle = "dragon"
+cle = "dragon"
+preuve = "kill minecraft:ender_dragon"
+
+[[palier]]
+echelle = "dragon"
+cle = "dragon_relance"
+preuve = "kill compté seulement quête ouverte (canStartTasks)"
+
+[[palier]]
+echelle = "metaux"
+cle = "thallasium"
+preuve = "bclib:alloying"
+
+[[palier]]
+echelle = "metaux"
+cle = "terminite"
+preuve = "recettes/terminite_ingot (fer + poudre de l'End)"
+
+[[palier]]
+echelle = "metaux"
+cle = "aeternium"
+preuve = "recettes/aeternium_ingot (terminite + nétherite)"
+
+[[palier]]
+echelle = "armure"
+cle = "armure_thallasium"
+preuve = "plaques forgées thallasium"
+
+[[palier]]
+echelle = "armure"
+cle = "armure_terminite"
+preuve = "recettes/terminite_helmet…"
+
+[[palier]]
+echelle = "armure"
+cle = "armure_aeternium"
+preuve = "recettes/aeternium_helmet (smithing_transform)"
+
+[[palier]]
+echelle = "outils"
+cle = "outils_thallasium"
+preuve = "marteau, épée, pioche, hache, pelle, houe"
+
+[[palier]]
+echelle = "outils"
+cle = "outils_terminite"
+preuve = "idem en terminite"
+
+[[palier]]
+echelle = "outils"
+cle = "outils_aeternium"
+preuve = "idem en aeternium"
