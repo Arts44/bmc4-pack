@@ -352,7 +352,8 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
 
 def bestiaire_overworld(ix, exclusions, notes):
     mods = ['minecraft', 'alexsmobs', 'friendsandfoes', 'mowziesmobs', 'guardvillagers', 'conjurer_illager',
-            'illagerinvasion', 'takesapillage', 'goblintraders', 'quark', 'pet_cemetery']
+            'illagerinvasion', 'takesapillage', 'goblintraders', 'quark', 'pet_cemetery',
+            'raided', 'whatareyouvotingfor', 'supplementaries']
     intro = ("Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en &lregardant&r la créature : il suffit de l'avoir devant soi.\n\n"
              "Chaque fiche dit ce que les données du pack disent : la catégorie d'apparition, le monde, les biomes, le butin — et, quand la créature ne vient pas d'un biome, la voie qui la fait apparaître. Rien de plus.\n\n"
              "Ce chapitre est facultatif, un catalogue à remplir au fil des rencontres. La dernière quête récompense le bestiaire complet.")

@@ -2257,6 +2257,78 @@ Créature de &bQuark&r. Apparition (config du serveur) : partout (sauf le Vide,
 """
 
 [[quete]]
+cle = "raided_electromancer"
+titre = "Rencontre : « Electromancer »"
+sous_titre = "« Electromancer » — raided"
+optionnel = true
+icone = "raided:electromancer_spawn_egg"
+taches = ["observation entity raided:electromancer"]
+recompenses = ["xp 1"]
+description = """
+ Apparaît : dans les raids, dès la première vague.
+"""
+
+[[quete]]
+cle = "raided_incinerator"
+titre = "Rencontre : « Incinerator »"
+sous_titre = "« Incinerator » — raided"
+optionnel = true
+icone = "raided:incinerator_spawn_egg"
+taches = ["observation entity raided:incinerator"]
+recompenses = ["xp 1"]
+description = """
+ Apparaît : dans les raids, à la quatrième vague.
+"""
+
+[[quete]]
+cle = "raided_inquisitor"
+titre = "Rencontre : « Inquisitor »"
+sous_titre = "« Inquisitor » — raided"
+optionnel = true
+icone = "raided:inquisitor_spawn_egg"
+taches = ["observation entity raided:inquisitor"]
+recompenses = ["xp 1"]
+description = """
+ Apparaît : dans les raids, à la troisième vague.
+"""
+
+[[quete]]
+cle = "raided_necromancer"
+titre = "Rencontre : « Necromancer »"
+sous_titre = "« Necromancer » — raided"
+optionnel = true
+icone = "raided:necromancer_spawn_egg"
+taches = ["observation entity raided:necromancer"]
+recompenses = ["xp 1"]
+description = """
+ Apparaît : dans les raids, à partir de la deuxième vague.
+"""
+
+[[quete]]
+cle = "raided_savager"
+titre = "Rencontre : « Savager »"
+sous_titre = "« Savager » — raided"
+optionnel = true
+icone = "raided:savager_spawn_egg"
+taches = ["observation entity raided:savager"]
+recompenses = ["xp 1"]
+description = """
+ Apparaît : dans les raids, à la troisième vague.
+"""
+
+[[quete]]
+cle = "supplementaries_red_merchant"
+titre = "Rencontre : Marchand rouge"
+sous_titre = "Marchand rouge — supplementaries"
+optionnel = true
+icone = "supplementaries:red_merchant_spawn_egg"
+taches = ["observation entity supplementaries:red_merchant"]
+recompenses = ["xp 1"]
+description = """
+ Apparaît : comme le marchand ambulant, plus rarement.
+"""
+
+[[quete]]
 cle = "takesapillage_archer"
 titre = "Rencontre : « Archer »"
 sous_titre = "« Archer » — takesapillage"
@@ -2293,6 +2365,42 @@ Illageois de &bTakes a Pillage&r. Apparaît : dans les raids et les sièges noc
 """
 
 [[quete]]
+cle = "whatareyouvotingfor_armadillo"
+titre = "Rencontre : « Armadillo »"
+sous_titre = "« Armadillo » — whatareyouvotingfor"
+optionnel = true
+icone = "whatareyouvotingfor:armadillo_spawn_egg"
+taches = ["observation entity whatareyouvotingfor:armadillo"]
+recompenses = ["xp 1"]
+description = """
+ Biomes : savanes.
+"""
+
+[[quete]]
+cle = "whatareyouvotingfor_crab"
+titre = "Rencontre : « Crab »"
+sous_titre = "« Crab » — whatareyouvotingfor"
+optionnel = true
+icone = "whatareyouvotingfor:crab_spawn_egg"
+taches = ["observation entity whatareyouvotingfor:crab"]
+recompenses = ["xp 1"]
+description = """
+ Monde : Overworld. Biomes : Marais à mangroves.
+"""
+
+[[quete]]
+cle = "whatareyouvotingfor_penguin"
+titre = "Rencontre : « Penguin »"
+sous_titre = "« Penguin » — whatareyouvotingfor"
+optionnel = true
+icone = "whatareyouvotingfor:penguin_spawn_egg"
+taches = ["observation entity whatareyouvotingfor:penguin"]
+recompenses = ["xp 1"]
+description = """
+ Monde : Overworld. Biomes : Côte rocheuse.
+"""
+
+[[quete]]
 cle = "complet"
 titre = "&7Tout le chapitre"
 optionnel = true
@@ -2301,7 +2409,7 @@ icone = "minecraft:creeper_head"
 forme = "gear"
 taches = ["checkmark Chapitre complet"]
 recompenses = ["xp 20"]
-deps = ["alexsmobs_alligator_snapping_turtle", "alexsmobs_anaconda", "alexsmobs_anteater", "alexsmobs_bald_eagle", "alexsmobs_banana_slug", "alexsmobs_bison", "alexsmobs_blobfish", "alexsmobs_blue_jay", "alexsmobs_bunfungus", "alexsmobs_cachalot_whale", "alexsmobs_caiman", "alexsmobs_capuchin_monkey", "alexsmobs_catfish", "alexsmobs_cockroach", "alexsmobs_comb_jelly", "alexsmobs_crocodile", "alexsmobs_crow", "alexsmobs_devils_hole_pupfish", "alexsmobs_dropbear", "alexsmobs_elephant", "alexsmobs_emu", "alexsmobs_flutter", "alexsmobs_fly", "alexsmobs_flying_fish", "alexsmobs_frilled_shark", "alexsmobs_froststalker", "alexsmobs_gazelle", "alexsmobs_gelada_monkey", "alexsmobs_giant_squid", "alexsmobs_gorilla", "alexsmobs_grizzly_bear", "alexsmobs_guster", "alexsmobs_hammerhead_shark", "alexsmobs_hummingbird", "alexsmobs_jerboa", "alexsmobs_kangaroo", "alexsmobs_komodo_dragon", "alexsmobs_leafcutter_ant", "alexsmobs_lobster", "alexsmobs_maned_wolf", "alexsmobs_mantis_shrimp", "alexsmobs_mimic_octopus", "alexsmobs_moose", "alexsmobs_mudskipper", "alexsmobs_mungus", "alexsmobs_murmur", "alexsmobs_orca", "alexsmobs_platypus", "alexsmobs_potoo", "alexsmobs_raccoon", "alexsmobs_rain_frog", "alexsmobs_rattlesnake", "alexsmobs_rhinoceros", "alexsmobs_roadrunner", "alexsmobs_rocky_roller", "alexsmobs_seagull", "alexsmobs_seal", "alexsmobs_shoebill", "alexsmobs_skelewag", "alexsmobs_skreecher", "alexsmobs_skunk", "alexsmobs_snow_leopard", "alexsmobs_spectre", "alexsmobs_sugar_glider", "alexsmobs_sunbird", "alexsmobs_tarantula_hawk", "alexsmobs_tasmanian_devil", "alexsmobs_terrapin", "alexsmobs_tiger", "alexsmobs_toucan", "alexsmobs_triops", "alexsmobs_tusklin", "alexsmobs_underminer", "conjurer_illager_conjurer", "friendsandfoes_copper_golem", "friendsandfoes_crab", "friendsandfoes_glare", "friendsandfoes_mauler", "friendsandfoes_moobloom", "friendsandfoes_rascal", "friendsandfoes_tuff_golem", "goblintraders_goblin_trader", "guardvillagers_guard", "illagerinvasion_alchemist", "illagerinvasion_archivist", "illagerinvasion_basher", "illagerinvasion_firecaller", "illagerinvasion_inquisitor", "illagerinvasion_invoker", "illagerinvasion_marauder", "illagerinvasion_necromancer", "illagerinvasion_provoker", "illagerinvasion_sorcerer", "illagerinvasion_surrendered", "minecraft_allay", "minecraft_armadillo", "minecraft_axolotl", "minecraft_bat", "minecraft_bee", "minecraft_camel", "minecraft_cat", "minecraft_cave_spider", "minecraft_chicken", "minecraft_cod", "minecraft_cow", "minecraft_creaking", "minecraft_creeper", "minecraft_dolphin", "minecraft_donkey", "minecraft_drowned", "minecraft_elder_guardian", "minecraft_enderman", "minecraft_evoker", "minecraft_fox", "minecraft_frog", "minecraft_glow_squid", "minecraft_goat", "minecraft_guardian", "minecraft_horse", "minecraft_husk", "minecraft_iron_golem", "minecraft_llama", "minecraft_mooshroom", "minecraft_mule", "minecraft_ocelot", "minecraft_panda", "minecraft_parrot", "minecraft_phantom", "minecraft_pig", "minecraft_pillager", "minecraft_polar_bear", "minecraft_pufferfish", "minecraft_rabbit", "minecraft_ravager", "minecraft_salmon", "minecraft_sheep", "minecraft_silverfish", "minecraft_skeleton", "minecraft_skeleton_horse", "minecraft_slime", "minecraft_sniffer", "minecraft_snow_golem", "minecraft_spider", "minecraft_squid", "minecraft_stray", "minecraft_sulfur_cube", "minecraft_tadpole", "minecraft_trader_llama", "minecraft_tropical_fish", "minecraft_turtle", "minecraft_vex", "minecraft_villager", "minecraft_vindicator", "minecraft_wandering_trader", "minecraft_warden", "minecraft_witch", "minecraft_wolf", "minecraft_zombie", "minecraft_zombie_horse", "minecraft_zombie_villager", "mowziesmobs_bluff", "mowziesmobs_elokosa_howler", "mowziesmobs_foliaath", "mowziesmobs_frostmaw", "mowziesmobs_grottol", "mowziesmobs_lantern", "mowziesmobs_naga", "mowziesmobs_sculptor", "mowziesmobs_umvuthana", "mowziesmobs_umvuthana_crane", "mowziesmobs_umvuthana_raptor", "mowziesmobs_umvuthi", "pet_cemetery_skeleton_cat", "pet_cemetery_skeleton_parrot", "pet_cemetery_skeleton_wolf", "pet_cemetery_zombie_cat", "pet_cemetery_zombie_parrot", "pet_cemetery_zombie_wolf", "quark_crab", "quark_forgotten", "quark_shiba", "quark_stoneling", "quark_toretoise", "takesapillage_archer", "takesapillage_legioner", "takesapillage_skirmisher"]
+deps = ["alexsmobs_alligator_snapping_turtle", "alexsmobs_anaconda", "alexsmobs_anteater", "alexsmobs_bald_eagle", "alexsmobs_banana_slug", "alexsmobs_bison", "alexsmobs_blobfish", "alexsmobs_blue_jay", "alexsmobs_bunfungus", "alexsmobs_cachalot_whale", "alexsmobs_caiman", "alexsmobs_capuchin_monkey", "alexsmobs_catfish", "alexsmobs_cockroach", "alexsmobs_comb_jelly", "alexsmobs_crocodile", "alexsmobs_crow", "alexsmobs_devils_hole_pupfish", "alexsmobs_dropbear", "alexsmobs_elephant", "alexsmobs_emu", "alexsmobs_flutter", "alexsmobs_fly", "alexsmobs_flying_fish", "alexsmobs_frilled_shark", "alexsmobs_froststalker", "alexsmobs_gazelle", "alexsmobs_gelada_monkey", "alexsmobs_giant_squid", "alexsmobs_gorilla", "alexsmobs_grizzly_bear", "alexsmobs_guster", "alexsmobs_hammerhead_shark", "alexsmobs_hummingbird", "alexsmobs_jerboa", "alexsmobs_kangaroo", "alexsmobs_komodo_dragon", "alexsmobs_leafcutter_ant", "alexsmobs_lobster", "alexsmobs_maned_wolf", "alexsmobs_mantis_shrimp", "alexsmobs_mimic_octopus", "alexsmobs_moose", "alexsmobs_mudskipper", "alexsmobs_mungus", "alexsmobs_murmur", "alexsmobs_orca", "alexsmobs_platypus", "alexsmobs_potoo", "alexsmobs_raccoon", "alexsmobs_rain_frog", "alexsmobs_rattlesnake", "alexsmobs_rhinoceros", "alexsmobs_roadrunner", "alexsmobs_rocky_roller", "alexsmobs_seagull", "alexsmobs_seal", "alexsmobs_shoebill", "alexsmobs_skelewag", "alexsmobs_skreecher", "alexsmobs_skunk", "alexsmobs_snow_leopard", "alexsmobs_spectre", "alexsmobs_sugar_glider", "alexsmobs_sunbird", "alexsmobs_tarantula_hawk", "alexsmobs_tasmanian_devil", "alexsmobs_terrapin", "alexsmobs_tiger", "alexsmobs_toucan", "alexsmobs_triops", "alexsmobs_tusklin", "alexsmobs_underminer", "conjurer_illager_conjurer", "friendsandfoes_copper_golem", "friendsandfoes_crab", "friendsandfoes_glare", "friendsandfoes_mauler", "friendsandfoes_moobloom", "friendsandfoes_rascal", "friendsandfoes_tuff_golem", "goblintraders_goblin_trader", "guardvillagers_guard", "illagerinvasion_alchemist", "illagerinvasion_archivist", "illagerinvasion_basher", "illagerinvasion_firecaller", "illagerinvasion_inquisitor", "illagerinvasion_invoker", "illagerinvasion_marauder", "illagerinvasion_necromancer", "illagerinvasion_provoker", "illagerinvasion_sorcerer", "illagerinvasion_surrendered", "minecraft_allay", "minecraft_armadillo", "minecraft_axolotl", "minecraft_bat", "minecraft_bee", "minecraft_camel", "minecraft_cat", "minecraft_cave_spider", "minecraft_chicken", "minecraft_cod", "minecraft_cow", "minecraft_creaking", "minecraft_creeper", "minecraft_dolphin", "minecraft_donkey", "minecraft_drowned", "minecraft_elder_guardian", "minecraft_enderman", "minecraft_evoker", "minecraft_fox", "minecraft_frog", "minecraft_glow_squid", "minecraft_goat", "minecraft_guardian", "minecraft_horse", "minecraft_husk", "minecraft_iron_golem", "minecraft_llama", "minecraft_mooshroom", "minecraft_mule", "minecraft_ocelot", "minecraft_panda", "minecraft_parrot", "minecraft_phantom", "minecraft_pig", "minecraft_pillager", "minecraft_polar_bear", "minecraft_pufferfish", "minecraft_rabbit", "minecraft_ravager", "minecraft_salmon", "minecraft_sheep", "minecraft_silverfish", "minecraft_skeleton", "minecraft_skeleton_horse", "minecraft_slime", "minecraft_sniffer", "minecraft_snow_golem", "minecraft_spider", "minecraft_squid", "minecraft_stray", "minecraft_sulfur_cube", "minecraft_tadpole", "minecraft_trader_llama", "minecraft_tropical_fish", "minecraft_turtle", "minecraft_vex", "minecraft_villager", "minecraft_vindicator", "minecraft_wandering_trader", "minecraft_warden", "minecraft_witch", "minecraft_wolf", "minecraft_zombie", "minecraft_zombie_horse", "minecraft_zombie_villager", "mowziesmobs_bluff", "mowziesmobs_elokosa_howler", "mowziesmobs_foliaath", "mowziesmobs_frostmaw", "mowziesmobs_grottol", "mowziesmobs_lantern", "mowziesmobs_naga", "mowziesmobs_sculptor", "mowziesmobs_umvuthana", "mowziesmobs_umvuthana_crane", "mowziesmobs_umvuthana_raptor", "mowziesmobs_umvuthi", "pet_cemetery_skeleton_cat", "pet_cemetery_skeleton_parrot", "pet_cemetery_skeleton_wolf", "pet_cemetery_zombie_cat", "pet_cemetery_zombie_parrot", "pet_cemetery_zombie_wolf", "quark_crab", "quark_forgotten", "quark_shiba", "quark_stoneling", "quark_toretoise", "raided_electromancer", "raided_incinerator", "raided_inquisitor", "raided_necromancer", "raided_savager", "supplementaries_red_merchant", "takesapillage_archer", "takesapillage_legioner", "takesapillage_skirmisher", "whatareyouvotingfor_armadillo", "whatareyouvotingfor_crab", "whatareyouvotingfor_penguin"]
 description = """
 Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
 """

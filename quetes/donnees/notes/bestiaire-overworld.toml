@@ -209,3 +209,25 @@ titre = "Défi : le Voyant éloigné"
 defi = true
 apparition = "à moins de 100 blocs de la bordure du monde, qui est à 30 millions de blocs du centre"
 description = "Un défi d'exploration pour les plus têtus : le trajet est la récompense. Cette quête ne compte pas dans le chapitre complet."
+
+# Raided 0.1.6 : raided-common.toml du serveur, spawn* = true et
+# *SpawnsPerWave (vague d'arrivée en difficulté normale).
+[note."raided:electromancer"]
+apparition = "dans les raids, dès la première vague"
+[note."raided:necromancer"]
+apparition = "dans les raids, à partir de la deuxième vague"
+[note."raided:inquisitor"]
+apparition = "dans les raids, à la troisième vague"
+[note."raided:savager"]
+apparition = "dans les raids, à la troisième vague"
+[note."raided:incinerator"]
+apparition = "dans les raids, à la quatrième vague"
+
+# Supplementaries : RedMerchantSpawnerMixin s'accroche au WanderingTraderSpawner
+# du jeu ; supplementaries-common.toml du serveur : red_merchant_spawn_multiplier = 1.0.
+[note."supplementaries:red_merchant"]
+apparition = "comme le marchand ambulant, plus rarement"
+
+# What Are You Voting For 2023 : biome_modifier du jar (armadillo :
+# #minecraft:is_savanna ; crab : mangrove_swamp ; penguin : stony_shore),
+# pas de config sur le serveur. Biomes lus par l'index (spawns).
