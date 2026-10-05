@@ -30,6 +30,7 @@ Contenu de ce dossier :
    ```
 
    Sortie attendue : deux lignes, `livre-complet-…zip : 89 chapitres` et `livre-leger-…zip : 54 chapitres`. Le script s'arrête si un contrôle du générateur échoue.
+   Vérifier aussi que le dépôt par SFTP répond, sans rien laisser sur le serveur : `sh quetes/deploiement/deposer.sh --essai` (un petit fichier texte est déposé dans `/config/ftbquests/`, vu, puis supprimé ; sortie attendue « présent puis supprimé — OK »).
 3. Bot de connexions : la retouche « serveur fermé pour maintenance » est en production depuis le 5 octobre (commit `fe1b79c`). Rien à faire.
 
 ## 1. Sauvegarde (avant toute modification)
@@ -57,7 +58,14 @@ Bot de connexions : chaque joueur refusé produit **un** message dans #connexion
 ## 3. Déploiement
 
 1. Renommer `/config/ftbquests/quests` en `/config/ftbquests/quests-ancien` (outil `move_files`). Le mod ne lira plus l'ancien livre ; rien n'est supprimé.
-2. Déposer **les deux** archives dans `/config/ftbquests/` (la légère servira peut-être à la bascule), puis extraire `livre-complet-…zip` (`extract_archive`) : elle crée `/config/ftbquests/quests/`. On commence par le livre complet, 4 688 quêtes.
+2. Déposer **les deux** archives dans `/config/ftbquests/` (la légère servira peut-être à la bascule), sur le feu vert d'Arthur :
+
+   ```bash
+   sh quetes/deploiement/deposer.sh
+   ```
+
+   Le script dépose les archives du jour par SFTP (identifiants lus dans le trousseau macOS, élément `bmc4-minestrator-sftp`, jamais dans le dépôt), refuse d'écraser un fichier du même nom, ne supprime rien et ne touche pas à `quests/`. Il affiche ensuite, pour chaque archive, la taille en octets sur le serveur et en local : les deux doivent être « identique ». Pour des archives d'un autre jour : `sh quetes/deploiement/deposer.sh AAAA-MM-JJ`.
+   Puis extraire `livre-complet-…zip` (`extract_archive`) : elle crée `/config/ftbquests/quests/`. On commence par le livre complet, 4 688 quêtes.
 3. Vérifier la présence de `quests/data.snbt`, `quests/chapter_groups.snbt`, `quests/chapters/` (89 fichiers en complet, 54 en léger) et `quests/reward_tables/` (5 fichiers).
 4. **Redémarrer** le serveur (`power_action restart`). Pas de `/ftbquests reload` : le jar lui-même l'annonce comme « non recommandé sur un serveur en service » (message `commands.ftbquests.command.feedback.reloaded.disclaimer`).
 
