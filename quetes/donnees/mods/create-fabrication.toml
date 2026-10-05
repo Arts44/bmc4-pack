@@ -266,3 +266,100 @@ recompenses = ["xp 10"]
 description = """
 Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, &bCreate — logistique et trains&r, fait circuler ce que l'usine produit.
 """
+
+# ---- §9.4 : machines mobiles et contraptions (5 octobre 2026),
+# identifiants de l'index. Le cahier prévoyait un chapitre à part ; la
+# branche latérale ici suffit, la liste exhaustive des machines ira dans
+# l'Atelier Create de l'Encyclopédie.
+[[quete]]
+cle = "chassis"
+titre = "Des châssis"
+deps = ["roulement"]
+optionnel = true
+taches = ["item create:linear_chassis 4", "item create:sticker"]
+recompenses = ["xp 3"]
+description = """
+Un roulement, un piston ou un portique ne déplacent que ce qui est collé à eux : châssis, colle extra-forte et collant décident de ce qui fait partie de la machine.
+"""
+
+[[quete]]
+cle = "foreuse_mobile"
+titre = "Une foreuse mobile"
+deps = ["chassis", "foreuse"]
+optionnel = true
+taches = ["item create:portable_storage_interface 2"]
+recompenses = ["xp 5"]
+description = """
+Une foreuse sur un piston ou un roulement qui avance, et une interface de stockage portable pour décharger ce qu'elle ramasse en route.
+"""
+
+[[quete]]
+cle = "moissonneuse"
+titre = "Moissonneuse et charrue"
+deps = ["chassis"]
+optionnel = true
+taches = ["item create:mechanical_harvester", "item create:mechanical_plough"]
+recompenses = ["xp 4"]
+
+[[quete]]
+cle = "rouleau"
+titre = "Un rouleau mécanique"
+deps = ["chassis"]
+optionnel = true
+taches = ["item create:mechanical_roller"]
+recompenses = ["xp 4"]
+description = """
+Il pave la route sous un train ou un chariot qui avance.
+"""
+
+[[quete]]
+cle = "ascenseur"
+titre = "Un ascenseur"
+deps = ["chassis"]
+optionnel = true
+taches = ["item create:elevator_pulley", "item create:contraption_controls"]
+recompenses = ["xp 5"]
+description = """
+La poulie d'ascenseur et ses commandes : une cabine qui s'arrête aux étages.
+"""
+
+[[quete]]
+cle = "chariot"
+titre = "Un chariot assembleur"
+deps = ["chassis"]
+optionnel = true
+taches = ["item create:cart_assembler"]
+recompenses = ["xp 4"]
+
+[[quete]]
+cle = "horloge"
+titre = "Un roulement d'horloge"
+deps = ["roulement"]
+optionnel = true
+taches = ["item create:clockwork_bearing"]
+recompenses = ["xp 4"]
+description = """
+Ses aiguilles suivent l'heure du jeu.
+"""
+
+[[quete]]
+cle = "scaphandre"
+titre = "Un scaphandre de cuivre"
+deps = ["intro"]
+optionnel = true
+taches = ["item create:copper_backtank", "item create:copper_diving_helmet", "item create:copper_diving_boots"]
+recompenses = ["xp 5"]
+description = """
+La bouteille d'air se remplit sur un arbre en rotation ; le casque respire sous l'eau, les bottes font marcher au fond.
+"""
+
+[[quete]]
+cle = "canon"
+titre = "Un canon à patates"
+deps = ["scaphandre"]
+optionnel = true
+taches = ["item create:potato_cannon"]
+recompenses = ["xp 4"]
+description = """
+Il tire ce qu'on lui donne à manger, nourri par la bouteille d'air.
+"""
