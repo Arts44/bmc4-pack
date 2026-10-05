@@ -469,6 +469,328 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Tomber du haut du monde jusqu'en bas et survivre (progrès vanilla).
 - **Le monde est petit** *(optionnelle)* — tâches : checkmark Fait — récompense : xp 50 — après : dimensions, marche_100, aventure
 
+## Bestiaire — dimensions  (`enc_bestiaire_dimensions`, 102 quêtes)
+
+- **Bestiaire — dimensions** — tâches : checkmark Lu — récompense : xp 2
+  > Les créatures de l'Aether (avec Deep Aether, Aether Redux et Lost Aether Content), de la Twilight Forest, de l'Everbright et de l'Everdawn, et de l'Otherside. Une quête se valide en regardant la créature.
+  >   > Chaque fiche dit ce que les données du pack disent. Les boss sont comptés au défi Chasseur de boss, pas ici.
+- **Rencontre : Aechor Plant** *(optionnelle)* — tâches : observation entity aether:aechor_plant — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Gilded Grasslands et d'autres.
+- **Rencontre : Aerbunny** *(optionnelle)* — tâches : observation entity aether:aerbunny — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Ficelle.
+- **Rencontre : Aerwhale** *(optionnelle)* — tâches : observation entity aether:aerwhale — récompense : xp 1
+  > Créature de l'Aether. Catégorie : aérobaleine. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+- **Rencontre : Blue Swet** *(optionnelle)* — tâches : observation entity aether:blue_swet — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+- **Rencontre : Cockatrice** *(optionnelle)* — tâches : observation entity aether:cockatrice — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres. Butin : Plume.
+- **Rencontre : Evil Whirlwind** *(optionnelle)* — tâches : observation entity aether:evil_whirlwind — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+- **Rencontre : Fire Minion** *(optionnelle)* — tâches : observation entity aether:fire_minion — récompense : xp 1
+  > Créature de l'Aether. Apparaît : invoqué par l'Esprit du Soleil, dans le donjon d'or.
+- **Rencontre : Flying Cow** *(optionnelle)* — tâches : observation entity aether:flying_cow — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Cuir, Boeuf cru.
+- **Rencontre : Golden Swet** *(optionnelle)* — tâches : observation entity aether:golden_swet — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres. Butin : Pierre lumineuse.
+- **Rencontre : Mimic** *(optionnelle)* — tâches : observation entity aether:mimic — récompense : xp 1
+  > Créature de l'Aether. Apparaît : un coffre de donjon qui se réveille quand on l'ouvre. Butin : Coffre.
+- **Rencontre : Moa** *(optionnelle)* — tâches : observation entity aether:moa — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Plume.
+- **Rencontre : Phyg** *(optionnelle)* — tâches : observation entity aether:phyg — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Côtelette de porc crue, Plume.
+- **Rencontre : Sentry** *(optionnelle)* — tâches : observation entity aether:sentry — récompense : xp 1
+  > Créature de l'Aether. Apparaît : dans le donjon de bronze.
+- **Rencontre : Sheepuff** *(optionnelle)* — tâches : observation entity aether:sheepuff — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Mouton cru.
+- **Rencontre : Valkyrie** *(optionnelle)* — tâches : observation entity aether:valkyrie — récompense : xp 1
+  > Créature de l'Aether. Apparaît : dans le donjon d'argent.
+- **Rencontre : Whirlwind** *(optionnelle)* — tâches : observation entity aether:whirlwind — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+- **Rencontre : Zephyr** *(optionnelle)* — tâches : observation entity aether:zephyr — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre du ciel de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
+- **Rencontre : Blightbunny** *(optionnelle)* — tâches : observation entity aether_redux:blightbunny — récompense : xp 1
+  > Créature d'Aether Redux. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : The Blight.
+- **Rencontre : Mykapod** *(optionnelle)* — tâches : observation entity aether_redux:mykapod — récompense : xp 1
+  > Créature d'Aether Redux. Catégorie : animal. Monde : Aether. Biomes : Cloudcaps. Butin : Boule de slime.
+- **Rencontre : Shimmercow** *(optionnelle)* — tâches : observation entity aether_redux:shimmercow — récompense : xp 1
+  > Créature d'Aether Redux. Catégorie : animal. Monde : Aether. Biomes : Cloudcaps. Butin : Cuir, Boeuf cru.
+- **Rencontre : Esprit gelé renforcé** *(optionnelle)* — tâches : observation entity blue_skies:armored_frost_spirit — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Récif de brimble, Cieux calmes, Océan brillant profond, Forêt oubligelée et d'autres. Butin : Glace.
+- **Rencontre : Azélufo** *(optionnelle)* — tâches : observation entity blue_skies:azulfo — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Hautes-terres polaires, Terres détrempées, Pins neigeux. Butin : Caraboeuf cru, Corne d'azélufo.
+- **Rencontre : Poisson moki** *(optionnelle)* — tâches : observation entity blue_skies:charscale_moki — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson moki, Poudre d'os.
+- **Rencontre : Renard Cosmique** *(optionnelle)* — tâches : observation entity blue_skies:cosmic_fox — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Verger de crofruits, Prairie brûlante, Bosquets de l'ombre, Forêt d'érables, Vallée pas très orthodoxe. Butin : Fourrure de renard cosmique, Saumon cru.
+- **Rencontre : Crogre** *(optionnelle)* — tâches : observation entity blue_skies:crogre — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Bassin lunaire. Butin : Intestins d'instectes.
+- **Rencontre : Crynocère** *(optionnelle)* — tâches : observation entity blue_skies:crynocerous — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Pins neigeux. Butin : Glace.
+- **Rencontre : Chameau de cristal** *(optionnelle)* — tâches : observation entity blue_skies:crystal_camel — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal. Butin : Pierre de lune vitreuse, Os.
+- **Rencontre : Rôdeur diophyde** *(optionnelle)* — tâches : observation entity blue_skies:diophyde_prowler — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Forêt oubligelée, Lisière de forêt oubligelée, Hautes-terres polaires et d'autres. Butin : Cuir, Poisson marosien.
+- **Rencontre : Rétourbeur** *(optionnelle)* — tâches : observation entity blue_skies:emberback — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Prairie brûlante, Forêt d'érables, Vallée pas très orthodoxe. Butin : Intestins d'instectes.
+- **Rencontre : Luciole** *(optionnelle)* — tâches : observation entity blue_skies:firefly — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : créature d'ambiance. Monde : Blue Skies. Biomes : Bosquets de l'ombre. Butin : Poudre lumineuse.
+- **Rencontre : Gardien du portail** *(optionnelle)* — tâches : observation entity blue_skies:gatekeeper — récompense : xp 1
+  > Créature de Blue Skies. Apparaît : dans sa maison, dans l'Overworld.
+- **Rencontre : Poisson plat** *(optionnelle)* — tâches : observation entity blue_skies:grittle_flatfish — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson plat, Poudre d'os.
+- **Rencontre : Poisson tunide** *(optionnelle)* — tâches : observation entity blue_skies:horizofin_tunid — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Lac de verger de crofruits, Bassin lunaire, Crête du crépuscule. Butin : Poisson tunide, Poudre d'os.
+- **Rencontre : Piqueur infecté** *(optionnelle)* — tâches : observation entity blue_skies:infested_swarmer — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Verger de crofruits, Lac de verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire et d'autres. Butin : Intestins d'instectes.
+- **Rencontre : Dériveur gélatineux** *(optionnelle)* — tâches : observation entity blue_skies:jelly_drifter — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant.
+- **Rencontre : Poisson marosien** *(optionnelle)* — tâches : observation entity blue_skies:municipal_monkfish — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : poisson. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant. Butin : Poisson marosien, Poudre d'os.
+- **Rencontre : Nycto-insecte** *(optionnelle)* — tâches : observation entity blue_skies:nyctofly — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Bassin lunaire, Bosquets de l'ombre. Butin : Intestins d'instectes, Boule de slime.
+- **Rencontre : Polirours** *(optionnelle)* — tâches : observation entity blue_skies:polargeist — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Forêt oubligelée, Lisière de forêt oubligelée, Hautes-terres polaires et d'autres. Butin : Éclat d'âme.
+- **Rencontre : Renne** *(optionnelle)* — tâches : observation entity blue_skies:reindeer — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Pins neigeux. Butin : Gibier cru.
+- **Rencontre : Séclame** *(optionnelle)* — tâches : observation entity blue_skies:seclam — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Océan brillant.
+- **Rencontre : Cristodile** *(optionnelle)* — tâches : observation entity blue_skies:shade_monitor — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire, Prairie brûlante et d'autres. Butin : Viande de cristodile crue.
+- **Rencontre : Champistrêle** *(optionnelle)* — tâches : observation entity blue_skies:shrumpty — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Terres détrempées. Butin : Pinétête neigeuse.
+- **Rencontre : Silve** *(optionnelle)* — tâches : observation entity blue_skies:sliv — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Prairie brûlante, Forêt d'érables.
+- **Rencontre : Chouette des neiges** *(optionnelle)* — tâches : observation entity blue_skies:snow_owl — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Forêt oubligelée, Lisière de forêt oubligelée. Butin : Plume.
+- **Rencontre : Prouteur** *(optionnelle)* — tâches : observation entity blue_skies:spewter — récompense : xp 1
+  > Créature de Blue Skies. Apparaît : dans des structures de Blue Skies. Butin : Boule de slime.
+- **Rencontre : Bélier des étoiles** *(optionnelle)* — tâches : observation entity blue_skies:stardust_ram — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : animal. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Cieux calmes, Hautes-terres polaires, Terres détrempées, Pins neigeux. Butin : Mouton cru.
+- **Rencontre : Automate** *(optionnelle)* — tâches : observation entity blue_skies:stonelet — récompense : xp 1
+  > Créature de Blue Skies. Apparaît : dans des structures de Blue Skies. Butin : Pierre naturelle, Lianes d'étoilibois.
+- **Rencontre : Araignée pérenne** *(optionnelle)* — tâches : observation entity blue_skies:venom_spider — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Verger de crofruits, Lac de verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire et d'autres. Butin : Ficelle, Oeil d'araignée, Intestins d'instectes.
+- **Rencontre : Dobcrabe** *(optionnelle)* — tâches : observation entity blue_skies:whistleshell_crab — récompense : xp 1
+  > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Plages de demi-journée, Océan brillant.
+- **Rencontre : Quail** *(optionnelle)* — tâches : observation entity deep_aether:quail — récompense : xp 1
+  > Créature de Deep Aether. Biomes : can quail spawn. Butin : Plume.
+- **Rencontre : Venomite** *(optionnelle)* — tâches : observation entity deep_aether:venomite — récompense : xp 1
+  > Créature de Deep Aether. Catégorie : animal. Monde : Aether. Biomes : Yagroot Swamp.
+- **Rencontre : Angler Fish** *(optionnelle)* — tâches : observation entity deeperdarker:angler_fish — récompense : xp 1
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns.
+- **Rencontre : Mille-pattes de sculk** *(optionnelle)* — tâches : observation entity deeperdarker:sculk_centipede — récompense : xp 1
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Deeplands. Butin : Ficelle.
+- **Rencontre : Sangsue de sculk** *(optionnelle)* — tâches : observation entity deeperdarker:sculk_leech — récompense : xp 1
+  > Créature de Deeper and Darker. Apparaît : en cassant du sculk infesté. Butin : Poussière d'âmes.
+- **Rencontre : Mordeur de sculk** *(optionnelle)* — tâches : observation entity deeperdarker:sculk_snapper — récompense : xp 1
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns, Deeplands, Echoing Forest. Butin : Poussière d'âmes.
+- **Rencontre : Shattered** *(optionnelle)* — tâches : observation entity deeperdarker:shattered — récompense : xp 1
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Deeplands, Echoing Forest. Butin : Os de sculk.
+- **Rencontre : Ver hurleur** *(optionnelle)* — tâches : observation entity deeperdarker:shriek_worm — récompense : xp 1
+  > Créature de Deeper and Darker. Apparaît : en cassant du sculk infesté.
+- **Rencontre : Sludge** *(optionnelle)* — tâches : observation entity deeperdarker:sludge — récompense : xp 1
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns.
+- **Rencontre : Géant en armure** *(optionnelle)* — tâches : observation entity twilightforest:armored_giant — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le château des nuages, au-dessus des grottes des trolls. Butin : Épée de géant.
+- **Rencontre : Mouflon d'Amérique** *(optionnelle)* — tâches : observation entity twilightforest:bighorn_sheep — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
+- **Rencontre : Goblin de bloc et chaîne** *(optionnelle)* — tâches : observation entity twilightforest:blockchain_goblin — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure.
+- **Rencontre : Boar** *(optionnelle)* — tâches : observation entity twilightforest:boar — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Côtelette de porc crue.
+- **Rencontre : Carminite couveuse** *(optionnelle)* — tâches : observation entity twilightforest:carminite_broodling — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans la tour sombre.
+- **Rencontre : Carminite Ghastguard** *(optionnelle)* — tâches : observation entity twilightforest:carminite_ghastguard — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans la tour sombre.
+- **Rencontre : Carminite Ghastling** *(optionnelle)* — tâches : observation entity twilightforest:carminite_ghastling — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans la tour sombre.
+- **Rencontre : Golem Carminite** *(optionnelle)* — tâches : observation entity twilightforest:carminite_golem — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans la tour sombre. Butin : Lingot de fer, Planches de Towerwood.
+- **Rencontre : Tome de mort** *(optionnelle)* — tâches : observation entity twilightforest:death_tome — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans la tour de la Liche, par ses générateurs de tomes. Butin : Papier, Livre et plume, Livre, Foyer de carte magique.
+- **Rencontre : Deer** *(optionnelle)* — tâches : observation entity twilightforest:deer — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Cuir, Chevreuil cru.
+- **Rencontre : Lapin nain** *(optionnelle)* — tâches : observation entity twilightforest:dwarf_rabbit — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
+- **Rencontre : Coléoptère de feu** *(optionnelle)* — tâches : observation entity twilightforest:fire_beetle — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans les collines creuses et le labyrinthe du marais.
+- **Rencontre : Mineur géant** *(optionnelle)* — tâches : observation entity twilightforest:giant_miner — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le château des nuages, au-dessus des grottes des trolls. Butin : Pioche de géant.
+- **Rencontre : Araignée des haies** *(optionnelle)* — tâches : observation entity twilightforest:hedge_spider — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le labyrinthe de haies et la tour de la Liche.
+- **Rencontre : Casque crabe** *(optionnelle)* — tâches : observation entity twilightforest:helmet_crab — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure, Morue crue.
+- **Rencontre : Loup hostile** *(optionnelle)* — tâches : observation entity twilightforest:hostile_wolf — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le labyrinthe de haies.
+- **Rencontre : Reine des araignées** *(optionnelle)* — tâches : observation entity twilightforest:king_spider — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre.
+- **Rencontre : Kobold** *(optionnelle)* — tâches : observation entity twilightforest:kobold — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre, Souterrain. Butin : Blé, Pépite d'or.
+- **Rencontre : Chevalier goblin inférieur** *(optionnelle)* — tâches : observation entity twilightforest:lower_goblin_knight — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure.
+- **Rencontre : Slime du labyrinthe** *(optionnelle)* — tâches : observation entity twilightforest:maze_slime — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le labyrinthe du marais. Butin : Boule de slime, Charme de Keeping I.
+- **Rencontre : Minotaure** *(optionnelle)* — tâches : observation entity twilightforest:minotaur — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le labyrinthe du marais. Butin : Viande de Meef crue, Foyer de carte de labyrinthe.
+- **Rencontre : Loup de la brume** *(optionnelle)* — tâches : observation entity twilightforest:mist_wolf — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre.
+- **Rencontre : Essaim de moustiques** *(optionnelle)* — tâches : observation entity twilightforest:mosquito_swarm — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Marécage du Crépuscule.
+- **Rencontre : Manchot** *(optionnelle)* — tâches : observation entity twilightforest:penguin — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Glacier du Crépuscule. Butin : Plume.
+- **Rencontre : Coléoptère** *(optionnelle)* — tâches : observation entity twilightforest:pinch_beetle — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans les collines creuses, le labyrinthe et la tour sombre.
+- **Rencontre : Bélier de quête** *(optionnelle)* — tâches : observation entity twilightforest:quest_ram — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans la clairière des quêtes de la Forêt enchantée.
+- **Rencontre : Raven** *(optionnelle)* — tâches : observation entity twilightforest:raven — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Plateau Final, Forêt des Lucioles et d'autres. Butin : Plume de corbeau.
+- **Rencontre : Redcap** *(optionnelle)* — tâches : observation entity twilightforest:redcap — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans les collines creuses. Butin : Charbon.
+- **Rencontre : Sapeur à casquette rouge** *(optionnelle)* — tâches : observation entity twilightforest:redcap_sapper — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans les collines creuses et le bastion des Gobelins.
+- **Rencontre : Squelette de druide** *(optionnelle)* — tâches : observation entity twilightforest:skeleton_druid — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre, Forêt effrayante. Butin : Os, Torche des baies.
+- **Rencontre : Coléoptère visqueux** *(optionnelle)* — tâches : observation entity twilightforest:slime_beetle — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans les collines creuses, le labyrinthe et le bastion des Gobelins. Butin : Boule de slime.
+- **Rencontre : Gardin de la neige** *(optionnelle)* — tâches : observation entity twilightforest:snow_guardian — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le palais des aurores. Butin : Boule de neige.
+- **Rencontre : Squirrel** *(optionnelle)* — tâches : observation entity twilightforest:squirrel — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
+- **Rencontre : Coeur de glace stable** *(optionnelle)* — tâches : observation entity twilightforest:stable_ice_core — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le palais des aurores. Butin : Boule de neige.
+- **Rencontre : Essaim d'araignées** *(optionnelle)* — tâches : observation entity twilightforest:swarm_spider — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans les collines creuses, le labyrinthe de haies et la tour de la Liche.
+- **Rencontre : Petit oiseau** *(optionnelle)* — tâches : observation entity twilightforest:tiny_bird — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Plume.
+- **Rencontre : Foreur de la Towerwood** *(optionnelle)* — tâches : observation entity twilightforest:towerwood_borer — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : en cassant du bois de tour infesté, dans la tour sombre. Butin : Essence de foreur.
+- **Rencontre : Troll** *(optionnelle)* — tâches : observation entity twilightforest:troll — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans les grottes des trolls. Butin : Haricots magiques.
+- **Rencontre : Coeur de glace instable** *(optionnelle)* — tâches : observation entity twilightforest:unstable_ice_core — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans le palais des aurores. Butin : Boule de neige.
+- **Rencontre : Loup d'hiver** *(optionnelle)* — tâches : observation entity twilightforest:winter_wolf — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Enneigé. Butin : Fourrure arctique.
+- **Rencontre : Wraith** *(optionnelle)* — tâches : observation entity twilightforest:wraith — récompense : xp 1
+  > Créature de la Twilight Forest. Apparaît : dans les collines creuses. Butin : Poudre lumineuse.
+- **Rencontre : Yéti** *(optionnelle)* — tâches : observation entity twilightforest:yeti — récompense : xp 1
+  > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Enneigé. Butin : Fourrure arctique.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
+
+## Bestiaire — Nether et End  (`enc_bestiaire_nether_end`, 55 quêtes)
+
+- **Bestiaire — Nether et End** — tâches : checkmark Lu — récompense : xp 2
+  > Les créatures du Nether et de l'End : le jeu de base, Better Nether, Bygone Nether, Soulful Nether, Jaden's Nether Expansion, Better End, et celles des mods de faune qui y vivent. Une quête se valide en regardant la créature.
+  >   > Chaque fiche dit ce que les données du pack disent : biomes, structure ou voie qui la fait apparaître, butin. Les boss sont comptés au défi Chasseur de boss, pas ici.
+- **Rencontre : Serpent d'os** *(optionnelle)* — tâches : observation entity alexsmobs:bone_serpent — récompense : xp 1
+  > Créature d'Alex's Mobs. Monde : Nether. Apparition (config du serveur) : tout le Nether. Butin : Dent de serpent d'os, Os, Bloc d'os.
+- **Rencontre : Cosmaw** *(optionnelle)* — tâches : observation entity alexsmobs:cosmaw — récompense : xp 1
+  > Créature d'Alex's Mobs. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End, Petites îles de l'End). Butin : Chorus.
+- **Rencontre : Morue cosmique** *(optionnelle)* — tâches : observation entity alexsmobs:cosmic_cod — récompense : xp 1
+  > Créature d'Alex's Mobs. Monde : End. Apparition (config du serveur) : tout l'End. Butin : Morue cosmique, Poudre d'os.
+- **Rencontre : Moustique cramoisi** *(optionnelle)* — tâches : observation entity alexsmobs:crimson_mosquito — récompense : xp 1
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Forêt carmin ; Tas de viscères. Butin : Proboscis de moustique cramoisi.
+- **Rencontre : Endergrade** *(optionnelle)* — tâches : observation entity alexsmobs:endergrade — récompense : xp 1
+  > Créature d'Alex's Mobs. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End).
+- **Rencontre : Enderiophage** *(optionnelle)* — tâches : observation entity alexsmobs:enderiophage — récompense : xp 1
+  > Créature d'Alex's Mobs. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End, Terres stériles de l'End, Hautes terres de l'End, Petites îles de l'End). Butin : Capside.
+- **Rencontre : Laviethan** *(optionnelle)* — tâches : observation entity alexsmobs:laviathan — récompense : xp 1
+  > Créature d'Alex's Mobs. Monde : Nether. Apparition (config du serveur) : tout le Nether. Butin : Bloc de magma, Roche noire.
+- **Rencontre : Imicube** *(optionnelle)* — tâches : observation entity alexsmobs:mimicube — récompense : xp 1
+  > Créature d'Alex's Mobs. Monde : End. Apparition (config du serveur) : tout l'End (sauf L'End). Butin : Imicrème.
+- **Rencontre : Vautour des âmes** *(optionnelle)* — tâches : observation entity alexsmobs:soul_vulture — récompense : xp 1
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Vallée des âmes. Butin : Os, Charbon.
+- **Rencontre : Straddler** *(optionnelle)* — tâches : observation entity alexsmobs:straddler — récompense : xp 1
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Deltas de basalte ; Abîme flétri. Butin : Straddlite, Basalte.
+- **Rencontre : Stradpole** *(optionnelle)* — tâches : observation entity alexsmobs:stradpole — récompense : xp 1
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Deltas de basalte ; Abîme flétri.
+- **Rencontre : Mosco biscornu** *(optionnelle)* — tâches : observation entity alexsmobs:warped_mosco — récompense : xp 1
+  > Créature d'Alex's Mobs. Apparition naturelle : aucune (config du serveur). Apparaît : un moustique cramoisi qui attaque un Mungus se transforme (config du serveur). Butin : Muscle déformé, Sac à hémolymphe.
+- **Rencontre : Crapaud biscornu** *(optionnelle)* — tâches : observation entity alexsmobs:warped_toad — récompense : xp 1
+  > Créature d'Alex's Mobs. Apparition (config du serveur) : Forêt biscornue. Butin : Champilampe, Verrues du Nether.
+- **Rencontre : Cubozoa** *(optionnelle)* — tâches : observation entity betterend:cubozoa — récompense : xp 1
+  > Créature de Better End. Catégorie : poisson. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove, Sulfur Springs.
+- **Rencontre : Dragonfly** *(optionnelle)* — tâches : observation entity betterend:dragonfly — récompense : xp 1
+  > Créature de Better End. Catégorie : créature d'ambiance. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove.
+- **Rencontre : End Fish** *(optionnelle)* — tâches : observation entity betterend:end_fish — récompense : xp 1
+  > Créature de Better End. Catégorie : poisson. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove, Sulfur Springs.
+- **Rencontre : End Slime** *(optionnelle)* — tâches : observation entity betterend:end_slime — récompense : xp 1
+  > Créature de Better End. Catégorie : monstre. Monde : End. Biomes : Amber Land, Chorus Forest, Foggy Mushroomland, Megalake, Megalake Grove.
+- **Rencontre : Shadow Walker** *(optionnelle)* — tâches : observation entity betterend:shadow_walker — récompense : xp 1
+  > Créature de Better End. Catégorie : monstre. Monde : End. Biomes : Shadow Forest.
+- **Rencontre : Silk Moth** *(optionnelle)* — tâches : observation entity betterend:silk_moth — récompense : xp 1
+  > Créature de Better End. Catégorie : créature d'ambiance. Monde : End. Biomes : Blossoming Spires.
+- **Rencontre : Luciole** *(optionnelle)* — tâches : observation entity betternether:firefly — récompense : xp 1
+  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Poudre lumineuse.
+- **Rencontre : Cochon volant** *(optionnelle)* — tâches : observation entity betternether:flying_pig — récompense : xp 1
+  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Côtelette de porc crue.
+- **Rencontre : Méduse à hydrogène** *(optionnelle)* — tâches : observation entity betternether:hydrogen_jellyfish — récompense : xp 1
+  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres.
+- **Rencontre : Squelette de la jungle** *(optionnelle)* — tâches : observation entity betternether:jungle_skeleton — récompense : xp 1
+  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Flèche, Os.
+- **Rencontre : Naga** *(optionnelle)* — tâches : observation entity betternether:naga — récompense : xp 1
+  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette.
+- **Rencontre : Crâne** *(optionnelle)* — tâches : observation entity betternether:skull — récompense : xp 1
+  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette.
+- **Rencontre : Corpor** *(optionnelle)* — tâches : observation entity bygonenether:corpor — récompense : xp 1
+  > Créature de Bygone Nether. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
+- **Rencontre : Piglin Hunter** *(optionnelle)* — tâches : observation entity bygonenether:piglin_hunter — récompense : xp 1
+  > Créature de Bygone Nether. Apparaît : dans des structures de Bygone Nether.
+- **Rencontre : Warped Enderman** *(optionnelle)* — tâches : observation entity bygonenether:warped_enderman — récompense : xp 1
+  > Créature de Bygone Nether. Apparaît : dans des structures de Bygone Nether.
+- **Rencontre : Wex** *(optionnelle)* — tâches : observation entity bygonenether:wex — récompense : xp 1
+  > Créature de Bygone Nether. Apparaît : invoqué par le Wraither, dans les catacombes.
+- **Rencontre : Wither Skeleton Knight** *(optionnelle)* — tâches : observation entity bygonenether:wither_skeleton_knight — récompense : xp 1
+  > Créature de Bygone Nether. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
+- **Rencontre : Wraither** *(optionnelle)* — tâches : observation entity bygonenether:wraither — récompense : xp 1
+  > Créature de Bygone Nether. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
+- **Rencontre : Wildfire** *(optionnelle)* — tâches : observation entity friendsandfoes:wildfire — récompense : xp 1
+  > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparaît : dans des structures de friendsandfoes. Butin : Fragment de Couronne du Wildfire.
+- **Rencontre : Vein Goblin Trader** *(optionnelle)* — tâches : observation entity goblintraders:vein_goblin_trader — récompense : xp 1
+  > Marchand de Goblin Traders. Apparaît : dans le Nether, entre Y 0 et 128 (config du serveur). Butin : Carotte.
+- **Rencontre : Blaze** *(optionnelle)* — tâches : observation entity minecraft:blaze — récompense : xp 1
+  > Créature du jeu de base. Apparaît : dans des structures de hearths, betterfortresses, AdoraBuild, friendsandfoes et d'autres. Butin : Bâton de Blaze.
+- **Rencontre : Endermite** *(optionnelle)* — tâches : observation entity minecraft:endermite — récompense : xp 1
+  > Créature du jeu de base. Apparaît : dans des structures de Repurposed Structures, Philip's Ruins, Formations Nether.
+- **Rencontre : Ghast** *(optionnelle)* — tâches : observation entity minecraft:ghast — récompense : xp 1
+  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Deltas de basalte, Terres désolées du Nether, Vallée des âmes. Butin : Larme de Ghast, Poudre à canon.
+- **Rencontre : Ghast joyeux** *(optionnelle)* — tâches : observation entity minecraft:happy_ghast — récompense : xp 1
+  > Créature du jeu de base. Apparaît : d'un bloc de ghast desséché remis dans l'eau (Vanilla Backport).
+- **Rencontre : Hoglin** *(optionnelle)* — tâches : observation entity minecraft:hoglin — récompense : xp 1
+  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin. Butin : Côtelette de porc crue, Cuir.
+- **Rencontre : Cube de magma** *(optionnelle)* — tâches : observation entity minecraft:magma_cube — récompense : xp 1
+  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Deltas de basalte, Terres désolées du Nether. Butin : Crème de magma, Grelampe nacrée, Grelampe verdoyante, Grelampe ocrée.
+- **Rencontre : Piglin** *(optionnelle)* — tâches : observation entity minecraft:piglin — récompense : xp 1
+  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin, Terres désolées du Nether.
+- **Rencontre : Piglin barbare** *(optionnelle)* — tâches : observation entity minecraft:piglin_brute — récompense : xp 1
+  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres.
+- **Rencontre : Shulker** *(optionnelle)* — tâches : observation entity minecraft:shulker — récompense : xp 1
+  > Créature du jeu de base. Apparaît : dans les cités de l'End, et dans des structures de Moog's End Structures. Butin : Carapace de Shulker.
+- **Rencontre : Arpenteur** *(optionnelle)* — tâches : observation entity minecraft:strider — récompense : xp 1
+  > Créature du jeu de base. Catégorie : animal. Monde : Nether. Biomes : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue. Butin : Ficelle.
+- **Rencontre : Wither squelette** *(optionnelle)* — tâches : observation entity minecraft:wither_skeleton — récompense : xp 1
+  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Abîme flétri. Butin : Charbon, Os, Crâne de Wither squelette.
+- **Rencontre : Zoglin** *(optionnelle)* — tâches : observation entity minecraft:zoglin — récompense : xp 1
+  > Créature du jeu de base. Apparaît : dans des structures de Philip's Ruins, Repurposed Structures. Butin : Chair putréfiée.
+- **Rencontre : Piglin zombifié** *(optionnelle)* — tâches : observation entity minecraft:zombified_piglin — récompense : xp 1
+  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin, Terres désolées du Nether. Butin : Chair putréfiée, Pépite d'or, Lingot d'or.
+- **Rencontre : Apparition** *(optionnelle)* — tâches : observation entity netherexp:apparition — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Monde : Nether. Biomes : Vallée des âmes, Black Ice Glaciers. Butin : Chaîne.
+- **Rencontre : Banshee** *(optionnelle)* — tâches : observation entity netherexp:banshee — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Apparaît : dans des structures de Jaden's Nether Expansion.
+- **Rencontre : Carcass** *(optionnelle)* — tâches : observation entity netherexp:carcass — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Apparaît : dans des structures de Jaden's Nether Expansion.
+- **Rencontre : Vessel** *(optionnelle)* — tâches : observation entity netherexp:vessel — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Monde : Nether. Biomes : Black Ice Glaciers, Vallée des âmes. Butin : Os.
+- **Rencontre : Renard de feu** *(optionnelle)* — tâches : observation entity quark:foxhound — récompense : xp 1
+  > Créature de Quark. Apparition (config du serveur) : Terres désolées du Nether ; Deltas de basalte ; Vallée des âmes. Butin : Cuir, Charbon.
+- **Rencontre : Spectre** *(optionnelle)* — tâches : observation entity quark:wraith — récompense : xp 1
+  > Créature de Quark. Apparition (config du serveur) : Vallée des âmes. Butin : Perle d'âme.
+- **Rencontre : Bone Wyrm** *(optionnelle)* — tâches : observation entity soulfulnether:bone_wyrm — récompense : xp 1
+  > Créature de Soulful Nether. Apparaît : d'un nid de wyrm d'os, dans les vallées des âmes.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : alexsmobs_bone_serpent, alexsmobs_cosmaw, alexsmobs_cosmic_cod, alexsmobs_crimson_mosquito, alexsmobs_endergrade, alexsmobs_enderiophage, alexsmobs_laviathan, alexsmobs_mimicube, alexsmobs_soul_vulture, alexsmobs_straddler, alexsmobs_stradpole, alexsmobs_warped_mosco, alexsmobs_warped_toad, betterend_cubozoa, betterend_dragonfly, betterend_end_fish, betterend_end_slime, betterend_shadow_walker, betterend_silk_moth, betternether_firefly, betternether_flying_pig, betternether_hydrogen_jellyfish, betternether_jungle_skeleton, betternether_naga, betternether_skull, bygonenether_corpor, bygonenether_piglin_hunter, bygonenether_warped_enderman, bygonenether_wex, bygonenether_wither_skeleton_knight, bygonenether_wraither, friendsandfoes_wildfire, goblintraders_vein_goblin_trader, minecraft_blaze, minecraft_endermite, minecraft_ghast, minecraft_happy_ghast, minecraft_hoglin, minecraft_magma_cube, minecraft_piglin, minecraft_piglin_brute, minecraft_shulker, minecraft_strider, minecraft_wither_skeleton, minecraft_zoglin, minecraft_zombified_piglin, netherexp_apparition, netherexp_banshee, netherexp_carcass, netherexp_vessel, quark_foxhound, quark_wraith, soulfulnether_bone_wyrm
+  > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
+
 ## Bestiaire — Overworld  (`enc_bestiaire_overworld`, 189 quêtes)
 
 - **Bestiaire — Overworld** — tâches : checkmark Lu — récompense : xp 2
@@ -486,7 +808,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Limace banane** *(optionnelle)* — tâches : observation entity alexsmobs:banana_slug — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : Taïga ancienne de pins ; Taïga ancienne de sapins ; taïgas et dense/overworld et rare ; Forêt de séquoias ; et d'autres. Butin : Slime de limace banane.
 - **Rencontre : Bison** *(optionnelle)* — tâches : observation entity alexsmobs:bison — récompense : xp 1
-  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plaines (sauf savanes, hot/overworld) ; Prairie ; Champ ; Champ forestier ; et d'autres. Butin : Boeuf cru, Bison Fur.
+  > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld et plaines (sauf savanes, hot/overworld) ; Prairie ; Champ ; Champ forestier ; et d'autres. Butin : Boeuf cru.
 - **Rencontre : Blobfish** *(optionnelle)* — tâches : observation entity alexsmobs:blobfish — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : océans profonds. Butin : Blobfish, Poudre d'os.
 - **Rencontre : Geai bleu** *(optionnelle)* — tâches : observation entity alexsmobs:blue_jay — récompense : xp 1
@@ -626,7 +948,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Sous-mineur** *(optionnelle)* — tâches : observation entity alexsmobs:underminer — récompense : xp 1
   > Créature d'Alex's Mobs. Monde : Overworld. Apparition (config du serveur) : tout l'Overworld (sauf océans, champs de champignons, Abîmes). Apparaît : dans les mines abandonnées seulement ; il disparaît quand on approche à 8 blocs.
 - **Rencontre : Conjurateur** *(optionnelle)* — tâches : observation entity conjurer_illager:conjurer — récompense : xp 1
-  > Créature de The Conjurer. Apparaît : sur la scène de son théâtre. Butin : Émeraude, Chapeau de Magicien, throwable ball, Carte à jeter, music disc delve deeper.
+  > Créature de The Conjurer. Apparaît : sur la scène de son théâtre. Butin : Émeraude, Chapeau de Magicien, Carte à jeter.
   >   > Il tient un théâtre dans les forêts de chênes noirs. Illusions, lapins explosifs, cartes : un spectacle qu'on finit à l'épée.
 - **Rencontre : golem de cuivre** *(optionnelle)* — tâches : observation entity friendsandfoes:copper_golem — récompense : xp 1
   > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparaît : dans les villages et les cités anciennes, ou construit : bloc de cuivre et paratonnerre. Butin : Lingot de cuivre.
@@ -658,9 +980,9 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Firecaller** *(optionnelle)* — tâches : observation entity illagerinvasion:firecaller — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Charge de feu.
 - **Rencontre : Inquisitor** *(optionnelle)* — tâches : observation entity illagerinvasion:inquisitor — récompense : xp 1
-  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Lingot de fer, Cuir, Platinum Chunk.
+  > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Lingot de fer, Cuir.
 - **Rencontre : Invoker** *(optionnelle)* — tâches : observation entity illagerinvasion:invoker — récompense : xp 1
-  > Illageois d'Illager Invasion. Apparaît : dans les raids de village, en dernière vague. Butin : Émeraude, Primal Essence.
+  > Illageois d'Illager Invasion. Apparaît : dans les raids de village, en dernière vague. Butin : Émeraude.
   >   > Le maître des illageois, dernière vague des raids de village. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss.
 - **Rencontre : Marauder** *(optionnelle)* — tâches : observation entity illagerinvasion:marauder — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude.
@@ -669,7 +991,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Provoker** *(optionnelle)* — tâches : observation entity illagerinvasion:provoker — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Flèche.
 - **Rencontre : Sorcerer** *(optionnelle)* — tâches : observation entity illagerinvasion:sorcerer — récompense : xp 1
-  > Illageois d'Illager Invasion. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Livre, Unusual Dust.
+  > Illageois d'Illager Invasion. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Livre.
 - **Rencontre : Surrendered** *(optionnelle)* — tâches : observation entity illagerinvasion:surrendered — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : invoqué par l'Invoker.
 - **Rencontre : Allay** *(optionnelle)* — tâches : observation entity minecraft:allay — récompense : xp 1
@@ -806,7 +1128,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Zombie-villageois** *(optionnelle)* — tâches : observation entity minecraft:zombie_villager — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Chair putréfiée, Lingot de fer, Carotte, Pomme de terre.
 - **Rencontre : Bluff** *(optionnelle)* — tâches : observation entity mowziesmobs:bluff — récompense : xp 1
-  > Créature de Mowzie's Mobs. Apparition naturelle : aucune (config du serveur). Apparaît : dans le monastère du Sculpteur, où deux générateurs le font sortir. Butin : Bluff Rod.
+  > Créature de Mowzie's Mobs. Apparition naturelle : aucune (config du serveur). Apparaît : dans le monastère du Sculpteur, où deux générateurs le font sortir.
 - **Rencontre : Elokosa Howler** *(optionnelle)* — tâches : observation entity mowziesmobs:elokosa_howler — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : jungles.
 - **Rencontre : Foliaath** *(optionnelle)* — tâches : observation entity mowziesmobs:foliaath — récompense : xp 1
@@ -821,7 +1143,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Naga** *(optionnelle)* — tâches : observation entity mowziesmobs:naga — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : Côte rocheuse. Butin : Dent de Naga.
 - **Rencontre : Sculpteur** *(optionnelle)* — tâches : observation entity mowziesmobs:sculptor — récompense : xp 1
-  > Créature de Mowzie's Mobs. Apparition (config du serveur) : pics. Butin : Geomancer Staff, Geomancer Beads, Geomancer Robe, Geomancer Belt, Geomancer Sandals.
+  > Créature de Mowzie's Mobs. Apparition (config du serveur) : pics.
   >   > Tongbi, dans un monastère des pics gelés. Il propose une épreuve d'escalade plutôt qu'un combat.
 - **Rencontre : Umvuthana** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparaît : dans le bosquet des Umvuthana, autour du feu, et invoqué par Umvuthi.
@@ -830,7 +1152,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Umvuthana Raptor** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana_raptor — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : savanes.
 - **Rencontre : Umvuthi** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthi — récompense : xp 1
-  > Créature de Mowzie's Mobs. Apparition (config du serveur) : savanes. Butin : Sol Visage, Plume.
+  > Créature de Mowzie's Mobs. Apparition (config du serveur) : savanes. Butin : Plume.
   >   > L'oiseau-soleil, sur son trône au cœur d'un village Umvuthana dans la savane. On peut lui parler avant de le combattre : ses fidèles vendent des masques.
 - **Rencontre : Skeleton Cat** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_cat — récompense : xp 1
   > Créature de Pet Cemetery. Apparaît : en ranimant une seconde fois un animal déjà zombie.
@@ -851,7 +1173,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Shiba** *(optionnelle)* — tâches : observation entity quark:shiba — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : montagnes.
 - **Rencontre : Stoneling** *(optionnelle)* — tâches : observation entity quark:stoneling — récompense : xp 1
-  > Créature de Quark. Catégorie : animal. Biomes : Forêt lumineuse. Butin : Coeur de diamant, Pathfinder's Quill.
+  > Créature de Quark. Catégorie : animal. Biomes : Forêt lumineuse. Butin : Coeur de diamant.
 - **Rencontre : Tortue** *(optionnelle)* — tâches : observation entity quark:toretoise — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : partout (sauf le Vide, tout le Nether, tout l'End). Apparaît : dans les grottes sous Y 0.
 - **Rencontre : Archer** *(optionnelle)* — tâches : observation entity takesapillage:archer — récompense : xp 1
@@ -917,6 +1239,31 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   >   > Trois minutes et cent blocs de répit après une mort, partout : pas de spawn-kill.
 - **Diplomate accompli** — tâches : checkmark Lu — récompense : xp 5 — après : trahir, neutre
   > Une alliance signée, une offre conclue, une trêve tenue. Le reste de l'histoire du serveur s'écrit dans #diplomatie.
+
+## Histoire du serveur  (`factions_histoire`, 11 quêtes)
+
+- **Ce qui s'est passé ici** — tâches : checkmark Lu — récompense : xp 2
+  > Le récit de BMC4, page par page. Chaque quête est une date, et ce qu'elle a changé pour toi en jeu. Le chapitre grandit avec le serveur : après chaque événement marquant, une page s'ajoute.
+- **7 septembre : les règles du monde** — tâches : checkmark Lu — récompense : xp 2 — après : intro
+  > La difficulté passe en normal, la distance de simulation à six chunks, et huit dimensions sont prégénérées pour que l'exploration ne fasse plus ramer le serveur. Le même jour, le bot apprend à tenir les raids.
+- **8 septembre : un seul système de claims** — tâches : checkmark Lu — récompense : xp 2 — après : sept_07
+  > Deux systèmes de claims tournaient en même temps. Tout passe sur FTB Chunks, et la règle de raid sait enfin ce qui est « hors claim ».
+- **8 septembre : le vol devient légal** — tâches : checkmark Lu — récompense : xp 2 — après : sept_08_claims
+  > Le mod Theft contredisait la règle « pas de vol ». Après discussion, c'est le règlement qui change : hors claim, le gant de voleur est permis. La frontière est le claim, pas l'objet.
+- **9 septembre : les claims deviennent secrets** — tâches : checkmark Lu — récompense : xp 2 — après : sept_08_vol
+  > Jusque-là, chacun voyait les claims de tous sur la carte. Ils passent en privé : le secret des coordonnées devient tenable. Le même jour, une alliance que personne n'avait décidée est retirée, et les dragons entrent dans une équipe commune, sans tir allié.
+- **20 septembre : la version 60** — tâches : checkmark Lu — récompense : xp 2 — après : sept_09
+  > Six mods arrivent dans le pack, dont CC: Tweaked : sa première version a empêché le serveur de démarrer, incompatible avec Create 6, avant d'être remplacée par une version corrigée.
+- **4 octobre : la version 61** — tâches : checkmark Lu — récompense : xp 2 — après : sept_20
+  > Le vocal de proximité et les coffres par joueur. Ce qui avait été pillé avant ce jour le reste.
+- **5 octobre : le Marché devient un claim du serveur** — tâches : checkmark Lu — récompense : xp 2 — après : oct_04
+  > Quarante-neuf chunks autour du point d'apparition : on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. C'est la seule zone neutre du serveur.
+- **5 octobre : le cœur perdu** — tâches : checkmark Lu — récompense : xp 2 — après : oct_04
+  > Mourir pendant un raid coûtait un cœur à tout le monde. Désormais, seuls les membres des deux factions engagées le perdent, et les repas le rendent à tout moment.
+- **Une visite au Marché** — tâches : checkmark Je suis passé au Marché — récompense : xp 3 — après : oct_05_marche
+  > Le Marché Flottant, autour du point d'apparition : la waystone, les pavillons, les barils d'échange. Le seul lieu que tout le monde partage.
+- **La suite s'écrit** — tâches : checkmark À suivre — récompense : xp 5 — après : oct_05_marche, oct_05_coeur
+  > Les prochaines pages : le premier raid gagné, une nouvelle faction, la battle royale. Elles s'ajouteront ici.
 
 ## Le trophée et les raids  (`factions_raids`, 9 quêtes)
 
@@ -1107,7 +1454,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un concasseur, un lavage, des entonnoirs et une courroie : la mine rend davantage sans que personne ne touche à rien. C'est le cœur de Create, et le reste n'est que des machines en plus.
   >   > La suite, Create — fabrication avancée : le laiton, le mécanisme de précision, le bras mécanique, le moteur à vapeur.
 
-## Create — fabrication avancée  (`create_fabrication`, 24 quêtes)
+## Create — fabrication avancée  (`create_fabrication`, 33 quêtes)
 
 - **Create : le laiton et la précision** — tâches : checkmark Lu — récompense : item create:zinc_ingot 8, item minecraft:copper_ingot 8
   > Les bases tournaient à l'andésite. La suite tourne au laiton : un alliage de cuivre et de zinc qui ne se fait qu'au mélangeur chauffé, et qui ouvre les machines qui pensent un peu — le bras mécanique, le déployeur, les établis mécaniques.
@@ -1160,6 +1507,22 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > La table à schémas charge un plan de construction ; le Schematicannon le bâtit bloc par bloc, à partir de ce qu'on met dans l'inventaire à côté de lui. On copie une base, on la reconstruit ailleurs.
 - **L'usine tourne** — tâches : checkmark Mon usine tourne à la vapeur — récompense : xp 10 — après : bras, vapeur
   > Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, Create — logistique et trains, fait circuler ce que l'usine produit.
+- **Des châssis** *(optionnelle)* — tâches : item create:linear_chassis 4, item create:sticker — récompense : xp 3 — après : roulement
+  > Un roulement, un piston ou un portique ne déplacent que ce qui est collé à eux : châssis, colle extra-forte et collant décident de ce qui fait partie de la machine.
+- **Une foreuse mobile** *(optionnelle)* — tâches : item create:portable_storage_interface 2 — récompense : xp 5 — après : chassis, foreuse
+  > Une foreuse sur un piston ou un roulement qui avance, et une interface de stockage portable pour décharger ce qu'elle ramasse en route.
+- **Moissonneuse et charrue** *(optionnelle)* — tâches : item create:mechanical_harvester, item create:mechanical_plough — récompense : xp 4 — après : chassis
+- **Un rouleau mécanique** *(optionnelle)* — tâches : item create:mechanical_roller — récompense : xp 4 — après : chassis
+  > Il pave la route sous un train ou un chariot qui avance.
+- **Un ascenseur** *(optionnelle)* — tâches : item create:elevator_pulley, item create:contraption_controls — récompense : xp 5 — après : chassis
+  > La poulie d'ascenseur et ses commandes : une cabine qui s'arrête aux étages.
+- **Un chariot assembleur** *(optionnelle)* — tâches : item create:cart_assembler — récompense : xp 4 — après : chassis
+- **Un roulement d'horloge** *(optionnelle)* — tâches : item create:clockwork_bearing — récompense : xp 4 — après : roulement
+  > Ses aiguilles suivent l'heure du jeu.
+- **Un scaphandre de cuivre** *(optionnelle)* — tâches : item create:copper_backtank, item create:copper_diving_helmet, item create:copper_diving_boots — récompense : xp 5 — après : intro
+  > La bouteille d'air se remplit sur un arbre en rotation ; le casque respire sous l'eau, les bottes font marcher au fond.
+- **Un canon à patates** *(optionnelle)* — tâches : item create:potato_cannon — récompense : xp 4 — après : scaphandre
+  > Il tire ce qu'on lui donne à manger, nourri par la bouteille d'air.
 
 ## Create — logistique et trains  (`create_logistique`, 19 quêtes)
 
@@ -1485,7 +1848,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Archimage** — tâches : checkmark Mon grimoire est plein — récompense : xp 10 — après : codex, orbe_ecole, roi_mort
   > Un Codex ancien plein, des robes d'école améliorées, deux boss au tableau. Le chapitre Grimoire de l'Encyclopédie liste chaque sort du pack ; l'Armurerie, chaque robe.
 
-## Mystical Agriculture  (`mystical_agriculture`, 25 quêtes)
+## Mystical Agriculture  (`mystical_agriculture`, 35 quêtes)
 
 - **Cultiver des ressources** — tâches : checkmark Lu — récompense : item mysticalagriculture:mystical_fertilizer 4, item minecraft:bone_meal 16
   > Mystical Agriculture fait pousser le fer, le diamant, la nétherite : une graine par ressource, et des champs qui remplacent la mine. Tout part de deux minerais, la prospérité et l'inferium, et de cinq paliers d'essence qui se fabriquent les uns à partir des autres.
@@ -1538,6 +1901,18 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le Wither et l'Ender Dragon lâchent de la poussière cognizante quand ils sont tués avec une arme d'essence enchantée Mystical Enlightenment. Les deux sont activés sur le serveur. Elle sert aux éveils les plus avancés.
 - **La ferme remplace la mine** — tâches : checkmark Mes champs tournent — récompense : xp 10 — après : netherite, eveille
   > Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre Pylons ajoute la récolte automatique sans énergie, à une condition près.
+- **Des outils d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_pickaxe, item mysticalagriculture:inferium_sword — récompense : xp 3 — après : inferium
+  > Chaque palier d'essence fait ses outils et son armure, plus solides de palier en palier. Les arrosoirs font pousser ce qu'ils arrosent.
+- **Un arrosoir d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_watering_can — récompense : xp 3 — après : inferium
+- **Une armure de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_helmet, item mysticalagriculture:prudentium_chestplate — récompense : xp 4 — après : prudentium
+- **Des outils de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_pickaxe, item mysticalagriculture:tertium_sword — récompense : xp 5 — après : tertium
+- **Une armure d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_helmet, item mysticalagriculture:imperium_chestplate — récompense : xp 6 — après : imperium
+- **Des outils de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_pickaxe, item mysticalagriculture:supremium_sword — récompense : xp 8 — après : supremium
+- **Des outils de supremium éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_pickaxe, item mysticalagriculture:awakened_supremium_sword — récompense : xp 15 — après : eveille
+- **Une dague de soulium** *(optionnelle)* — tâches : item mysticalagriculture:soulium_dagger — récompense : xp 4 — après : prosperite
+  > Les graines de créatures se nourrissent d'âmes. La dague de soulium les récolte en tuant, dans un bocal d'âme ; l'extracteur d'âme les tire des objets.
+- **Un bocal d'âme** *(optionnelle)* — tâches : item mysticalagriculture:soul_jar — récompense : xp 3 — après : soulium
+- **Un extracteur d'âme** *(optionnelle)* — tâches : item mysticalagriculture:soul_extractor — récompense : xp 5 — après : bocal
 
 ## Nouveautés du pack  (`mods_nouveautes`, 4 quêtes)
 
@@ -1570,7 +1945,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout circule** — tâches : checkmark Ma base est reliée — récompense : xp 5 — après : universel, ameliorations
   > Fermes, machines et stockage reliés par des tuyaux. Les filtres de FTB Filter System et d'Item Filters se glissent dans les améliorations pour trier plus finement.
 
-## Powah — l'énergie  (`powah`, 20 quêtes)
+## Powah — l'énergie  (`powah`, 31 quêtes)
 
 - **Powah : produire et stocker** — tâches : checkmark Lu — récompense : item minecraft:clay_ball 8, item minecraft:lava_bucket 1
   > Powah produit, stocke et transporte de l'énergie (FE), celle que demandent la moissonneuse de Mystical Agriculture, Refined Storage ou les jetpacks. Sept paliers, du Starter au Nitro, chacun avec ses générateurs, ses cellules et ses câbles.
@@ -1613,6 +1988,22 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Obsidienne, pépites de fer, et un cœur d'Ender au centre. La cellule d'Ender partage son énergie avec toutes les cellules d'Ender du même canal, où qu'elles soient : la base principale alimente l'avant-poste sans un câble.
 - **La base est alimentée** — tâches : checkmark Ma base a du courant — récompense : xp 10 — après : blazing, reacteur
   > Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack.
+- **Une cellule basique** *(optionnelle)* — tâches : item powah:energy_cell_basic — récompense : xp 3 — après : cellule
+  > Chaque appareil de Powah existe en sept paliers : départ, basique, renforcé, ardent, niotique, spirituel, nitro. On monte d'un palier en fabriquant l'appareil avec celui du palier d'avant, un condensateur et le matériau du palier.
+- **Une cellule renforcée** *(optionnelle)* — tâches : item powah:energy_cell_hardened — récompense : xp 4 — après : palier_basique, acier
+- **Une cellule ardente** *(optionnelle)* — tâches : item powah:energy_cell_blazing — récompense : xp 5 — après : palier_renforce, blazing
+- **Une cellule niotique** *(optionnelle)* — tâches : item powah:energy_cell_niotic — récompense : xp 6 — après : palier_ardent, niotic
+- **Une cellule spirituelle** *(optionnelle)* — tâches : item powah:energy_cell_spirited — récompense : xp 8 — après : palier_niotique, spirited
+- **Une cellule nitro** *(optionnelle)* — tâches : item powah:energy_cell_nitro — récompense : xp 15 — après : palier_spirituel, nitro
+- **Des câbles nitro** *(optionnelle)* — tâches : item powah:energy_cable_nitro 8 — récompense : xp 5 — après : palier_nitro, cable
+- **Un transmetteur personnel** *(optionnelle)* — tâches : item powah:player_transmitter_starter — récompense : xp 4 — après : cellule
+  > Il recharge sans fil l'équipement des joueurs autour de lui.
+- **Une batterie** *(optionnelle)* — tâches : item powah:battery_starter — récompense : xp 3 — après : cellule
+  > Un bloc de redstone, un condensateur basique et de la pâte diélectrique : de l'énergie à emporter.
+- **Un entonnoir énergétique** *(optionnelle)* — tâches : item powah:energy_hopper_starter — récompense : xp 3 — après : cellule
+  > Un entonnoir, un condensateur minuscule, de la pâte et un boîtier : il recharge les objets qu'on met dans le conteneur qu'il touche.
+- **Un déchargeur** *(optionnelle)* — tâches : item powah:energy_discharger_starter — récompense : xp 3 — après : cellule
+  > L'inverse de l'entonnoir : il vide l'énergie des objets dans le réseau.
 
 ## Pylons  (`pylons`, 6 quêtes)
 
@@ -1646,7 +2037,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **La neige qui s'accroche** *(optionnelle)* — tâches : item snowrealmagic:slab — récompense : xp 3 — après : intro
   > Snow! Real Magic! : la neige recouvre dalles, escaliers, murs et barrières au lieu de rester à côté. Climate Rivers, lui, trace les rivières selon le climat.
 
-## SecurityCraft  (`securitycraft`, 13 quêtes)
+## SecurityCraft  (`securitycraft`, 28 quêtes)
 
 - **Protéger ce qui est hors claim** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8, item minecraft:redstone 8
   > Un claim protège l'intérieur de la base. SecurityCraft protège ce qui est hors claim : le donjon du trophée, un avant-poste, un coffre caché. Portes à code, lasers, caméras, mines, pièges — et des blocs renforcés que personne d'autre que leur propriétaire ne casse.
@@ -1675,8 +2066,38 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le casseur de code tente d'ouvrir un clavier, un lecteur de carte ou un coffre à code qui n'est pas à toi. Cinq utilisations, une chance sur trois à chaque fois. C'est l'outil de l'attaquant.
 - **Le donjon est prêt** — tâches : checkmark Mon trophée est gardé — récompense : xp 10 — après : renforce, porte, mines
   > Une porte à code, des blocs renforcés, des pièges, et un chemin qui reste atteignable sans rien casser. Le trophée attend son premier raid.
+- **Une alarme** *(optionnelle)* — tâches : item securitycraft:alarm — récompense : xp 3 — après : detecteur
+  > Une sirène et une lumière rouge tant qu'elle reçoit de la redstone.
+- **Une lumière à détection** *(optionnelle)* — tâches : item securitycraft:motion_activated_light — récompense : xp 3 — après : detecteur
+  > Elle s'allume quand un joueur passe à portée.
+- **Un bouton de panique** *(optionnelle)* — tâches : item securitycraft:panic_button — récompense : xp 2 — après : intro
+  > Il a l'air d'un bouton, et marche comme un levier.
+- **Lecteur de cartes** *(optionnelle)* — tâches : item securitycraft:keycard_reader, item securitycraft:keycard_lv1 — récompense : xp 4 — après : clavier
+  > Le lecteur émet un signal quand on y glisse une carte du bon niveau : un badge par rang de la faction.
+- **Une porte à scanner** *(optionnelle)* — tâches : item securitycraft:scanner_door_item — récompense : xp 4 — après : scanner
+  > Un scanner rétinien et une porte de fer renforcée en un seul bloc : le propriétaire regarde le haut, elle s'ouvre.
+- **Un moniteur de caméras** *(optionnelle)* — tâches : item securitycraft:camera_monitor — récompense : xp 3 — après : camera
+  > Jusqu'à trente caméras liées, regardées en direct d'où l'on veut.
+- **Une clôture électrifiée** *(optionnelle)* — tâches : item securitycraft:electrified_iron_fence 8 — récompense : xp 3 — après : renforce
+  > Incassable, et elle blesse tous ceux qui la touchent sauf son propriétaire.
+- **Une claymore** *(optionnelle)* — tâches : item securitycraft:claymore — récompense : xp 3 — après : mines
+  > Elle explose une seconde après qu'une créature ou un joueur passe à moins de cinq blocs devant elle. La pince coupante la désamorce.
+- **Un système de munitions intelligent** *(optionnelle)* — tâches : item securitycraft:ims — récompense : xp 5 — après : claymore
+  > L'I.M.S. : une mine qui contient jusqu'à quatre bouncing betties et les lance sur ceux qui entrent dans son rayon. Elle se recharge.
+- **Un système trophée** *(optionnelle)* — tâches : item securitycraft:trophy_system — récompense : xp 5 — après : sentinelle
+  > Il abat les flèches et les boules de feu ennemies avant qu'elles arrivent.
+- **Un projecteur** *(optionnelle)* — tâches : item securitycraft:projector — récompense : xp 4 — après : intro
+  > Il projette des blocs holographiques : de quoi cacher une entrée derrière un faux mur.
+- **Un piège au sol** *(optionnelle)* — tâches : item securitycraft:floor_trap 4 — récompense : xp 3 — après : intro
+  > Le bloc disparaît un instant quand on marche dessus.
+- **Une mallette** *(optionnelle)* — tâches : item securitycraft:briefcase — récompense : xp 3 — après : clavier
+  > Douze emplacements verrouillés par un code à quatre chiffres, à emporter.
+- **Un système de sécurité sonique** *(optionnelle)* — tâches : item securitycraft:sonic_security_system — récompense : xp 5 — après : scanner
+  > Il verrouille les blocs SecurityCraft liés tant qu'on ne joue pas la bonne mélodie.
+- **Une poche de blocs** *(optionnelle)* — tâches : item securitycraft:block_pocket_manager — récompense : xp 8 — après : renforce
+  > Une pièce cubique où n'entrent que le propriétaire et les joueurs de la liste autorisée.
 
-## Stockage  (`stockage`, 17 quêtes)
+## Stockage  (`stockage`, 27 quêtes)
 
 - **Trois façons de ranger** — tâches : checkmark Lu — récompense : item minecraft:chest 4
   > Trois mods de stockage, trois philosophies. Storage Drawers : des tiroirs qui montrent ce qu'ils contiennent, parfaits pour les ressources en masse. Simple Storage Network : un maître, des câbles, une table de requête, et tous les coffres existants deviennent un seul inventaire. Refined Storage : des disques, une grille, de la fabrication automatique, et de l'énergie.
@@ -1713,6 +2134,23 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > L'émetteur sans fil donne une portée au réseau, et la grille sans fil l'ouvre depuis la main, n'importe où dans cette portée. La base entière dans la poche.
 - **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10 — après : controleur, requete, fabricateur
   > Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre Pipez relie tout ça aux machines.
+- **Des améliorations de stockage** *(optionnelle)* — tâches : item storagedrawers:gold_storage_upgrade, item storagedrawers:diamond_storage_upgrade — récompense : xp 4 — après : ameliorations
+  > Storage Drawers : fer, or, diamant, émeraude, nétherite. Chaque palier multiplie la contenance du tiroir.
+- **Une amélioration du vide** *(optionnelle)* — tâches : item storagedrawers:void_upgrade — récompense : xp 3 — après : ameliorations
+  > Un tiroir plein détruit ce qui arrive en trop : pour les fermes automatiques qui débordent.
+- **Une table d'encadrement** *(optionnelle)* — tâches : item storagedrawers:framing_table — récompense : xp 3 — après : tiroir
+  > Des tiroirs habillés de n'importe quel bloc.
+- **Des disques plus grands** *(optionnelle)* — tâches : item refinedstorage:4k_storage_disk, item refinedstorage:16k_storage_disk — récompense : xp 4 — après : disques
+  > Refined Storage : 1k, 4k, 16k, 64k objets, et des disques de fluides.
+- **Un disque de 64k** *(optionnelle)* — tâches : item refinedstorage:64k_storage_disk — récompense : xp 6 — après : rs_disques
+- **Un stockage externe** *(optionnelle)* — tâches : item refinedstorage:external_storage — récompense : xp 3 — après : rs_controleur
+  > Il branche un coffre ou un tiroir existant sur le réseau, sans le vider.
+- **Constructeur et destructeur** *(optionnelle)* — tâches : item refinedstorage:constructor, item refinedstorage:destructor — récompense : xp 4 — après : importeur
+  > L'un pose des blocs du réseau, l'autre en casse pour les y ranger.
+- **Un moniteur de fabrication** *(optionnelle)* — tâches : item refinedstorage:crafting_monitor — récompense : xp 3 — après : fabricateur
+- **Une télécommande d'inventaire** *(optionnelle)* — tâches : item storagenetwork:inventory_remote — récompense : xp 4 — après : requete
+  > Simple Storage Network : le réseau consultable à distance.
+- **Un collecteur** *(optionnelle)* — tâches : item storagenetwork:collector — récompense : xp 3 — après : import
 
 ## Villages et commerce  (`mods_villages`, 26 quêtes)
 
@@ -1978,7 +2416,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Revenu de l'Otherside** — tâches : checkmark De retour — récompense : xp 5 — après : temple
   > Le temple trouvé, le cœur en main. La suite est au chapitre Cataclysm.
 
-## Donjons et autres boss  (`monde_donjons`, 17 quêtes)
+## Donjons et autres boss  (`monde_donjons`, 16 quêtes)
 
 - **Ce qui reste à abattre** — tâches : checkmark Lu — récompense : item minecraft:arrow 32
   > Les donjons de When Dungeons Arise, ceux de Stalwart Dungeons et leurs trois boss, l'Invoker d'Illager Invasion, le Ver du vide, le Berserker de Galosphere, et les primes de Bountiful. Le Roi Mort et Tyros sont au chapitre Iron's Spells.
@@ -1986,8 +2424,6 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > When Dungeons Arise pose trente-neuf structures. Le fort des illageois est l'une des grandes : plusieurs étages, des générateurs, des coffres par joueur.
 - **Les tours des bandits** *(optionnelle)* — tâches : advancement dungeons_arise:find_bandit_towers — récompense : xp 5 — après : intro
   > Les tours des bandits (progrès du mod).
-- **La fonderie** *(optionnelle)* — tâches : advancement dungeons_arise:find_foundry — récompense : xp 5 — après : intro
-  > Une fonderie (progrès « Iron Maiden »).
 - **L'asile de la peste** *(optionnelle)* — tâches : advancement dungeons_arise:find_plague_asylum — récompense : table aventurier — après : intro
   > L'asile de la peste (progrès du mod). Jalon Aventurier.
 - **Le palais de Shiraz** *(optionnelle)* — tâches : advancement dungeons_arise:find_shiraz_palace — récompense : xp 5 — après : intro
@@ -2025,7 +2461,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Posé, l'œuf couve et l'infobulle compte les secondes. Il change de race selon son milieu (config : les habitats sont actifs) — un œuf posé dans la neige donne un dragon de glace.
   >   > Autre voie : dans #dragons, poste !dragon <x> <y> <z> <race> (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée.
 - **Apprivoiser et seller** — tâches : item minecraft:saddle — récompense : xp 5 — après : eclosion
-  > Le bébé se nourrit et grandit ; adulte, une selle (chapitre Agriculture des bases) et il se monte.
+  > Le bébé se nourrit et grandit ; adulte, une selle (chapitre Agriculture des bases) et il se monte. Tous les dragons du serveur sont dans une même équipe sans tir allié (datapack du serveur) : le souffle d'un dragon ne lance plus de bagarre avec un autre.
 - **Monter un dragon** — tâches : checkmark J'ai volé — récompense : xp 10 — après : apprivoiser
   > Vol libre, souffle à la touche du mod. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler.
 - **Une race de l'extension** *(optionnelle)* — tâches : checkmark Un dragon hors des huit races de base — récompense : xp 5 — après : eclosion
@@ -2242,8 +2678,8 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Philips Ruins pose vingt-neuf sortes de ruines : cryptes, donjons anciens, tours, ruines de champ, de pierre, de citrouilles, forteresse et ruines des océans, cité des âmes perdues… Trop de variantes pour une seule tâche : coche après ta première.
 - **Le vieux manoir de Structory** *(optionnelle)* — tâches : structure structory:old_manor — récompense : xp 3 — après : intro
   > Structory : un vieux manoir, une chapelle abandonnée, un cimetière, une tour de guet, des ruines de taïga, de jungle et de marais, un campement. Le manoir valide la quête ; Structory Towers ajoute ses tours.
-- **La tour de la sorcière (Formations)** *(optionnelle)* — tâches : structure formationsoverworld:witch_tower — récompense : xp 3 — après : intro
-  > Formations sème trente petites choses : châteaux de glace, météore, trou de hobbit, temple mésoaméricain, cimetière, flèche de cuivre. La tour de la sorcière valide la quête.
+- **Le trou de hobbit (Formations)** *(optionnelle)* — tâches : structure formationsoverworld:hobbit_hole — récompense : xp 3 — après : intro
+  > Formations sème une trentaine de petites choses : châteaux de glace, météore, trou de hobbit, temple mésoaméricain, cimetière, flèche de cuivre. Le trou de hobbit valide la quête. La tour de la sorcière du mod, elle, ne se génère pas sur ce serveur (datapack formationsoverworldconfig).
 - **L'île flottante (Explorations)** *(optionnelle)* — tâches : structure explorations:floating_island — récompense : xp 3 — après : intro
   > Explorations : une île flottante, un puits oublié, un sanctuaire, une grotte de slimes, un temple souterrain, un campement.
 - **Trois variantes de Repurposed Structures** *(optionnelle)* — tâches : structure #repurposed_structures:collections/igloos, structure #repurposed_structures:collections/witch_huts, structure repurposed_structures:city_overworld — récompense : table explorateur — après : village
@@ -2369,3 +2805,51 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le château final se dresse là. Le mod le dit lui-même : « tout ce qui est au-delà est en travaux, à finir dans une future version ». Y arriver est la fin de la progression actuelle.
 - **Seigneur de la forêt** — tâches : checkmark Tous les trophées sont chez moi — récompense : xp 10 — après : plateau
   > Sept boss, sept trophées, une lampe. Le chapitre Exploration de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques.
+
+## Contrats de la semaine  (`semaine_contrats`, 21 quêtes)
+
+- **Le tableau des contrats** — tâches : checkmark Lu — récompense : xp 2
+  > Vingt contrats qui reviennent chaque semaine : livrer, chasser, ramener. Chacun se réclame une fois, puis revient sept jours après la réclamation. Les objets livrés sont retirés de l'inventaire. En faction, le contrat est commun : une livraison compte pour toute l'équipe.
+  >   > La récompense est modeste, exprès : de l'expérience et un tirage de la table Contrat.
+- **Livrer du blé** — tâches : item minecraft:wheat 64 !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer des carottes** — tâches : item minecraft:carrot 64 !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer des pommes de terre** — tâches : item minecraft:potato 64 !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer du poisson** — tâches : tag minecraft:fishes 20 Vingt poissons !consommer — récompense : xp 3, table contrat — après : intro
+  > N'importe quel poisson, cru ou cuit.
+- **Livrer des repas** — tâches : tag farmersdelight:meals 10 Dix repas de Farmer's Delight !consommer — récompense : xp 5, table contrat — après : intro
+  > Dix repas de Farmer's Delight, en bol ou en assiette : ceux qui rendent un cœur au raid.
+- **Livrer de la pierre** — tâches : item minecraft:cobblestone 256 !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer du bois** — tâches : tag minecraft:logs 64 Soixante-quatre bûches !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer de la laine** — tâches : tag minecraft:wool 32 Trente-deux laines !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer du cuir** — tâches : item minecraft:leather 16 !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer des os** — tâches : item minecraft:bone 32 !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer de la poudre à canon** — tâches : item minecraft:gunpowder 16 !consommer — récompense : xp 3, table contrat — après : intro
+- **Livrer du fer** — tâches : item minecraft:iron_ingot 16 !consommer — récompense : xp 5, table contrat — après : intro
+- **Chasser les zombies** — tâches : kill minecraft:zombie 30 — récompense : xp 3, table contrat — après : intro
+- **Chasser les squelettes** — tâches : kill minecraft:skeleton 30 — récompense : xp 3, table contrat — après : intro
+- **Chasser les araignées** — tâches : kill minecraft:spider 20 — récompense : xp 3, table contrat — après : intro
+- **Chasser les creepers** — tâches : kill minecraft:creeper 20 — récompense : xp 4, table contrat — après : intro
+- **Chasser les endermen** — tâches : kill minecraft:enderman 10 — récompense : xp 5, table contrat — après : intro
+- **Chasser les pillards** — tâches : kill minecraft:pillager 10 — récompense : xp 5, table contrat — après : intro
+- **Chasser les blazes** — tâches : kill minecraft:blaze 10 — récompense : xp 5, table contrat — après : intro
+  > Dans les forteresses du Nether.
+- **Chasser les sorcières** — tâches : kill minecraft:witch 5 — récompense : xp 5, table contrat — après : intro
+
+## Défis de faction  (`semaine_faction`, 11 quêtes)
+
+- **L'effort de la semaine** — tâches : checkmark Lu — récompense : xp 2
+  > Des objectifs collectifs : chaque membre de la faction fait avancer le même compteur. Chaque défi revient sept jours après sa réclamation, et ne rapporte que de l'expérience. Un indépendant peut les faire seul, s'il en a le courage.
+- **Une carrière** — tâches : item minecraft:cobblestone 2048 !consommer — récompense : xp 15 — après : intro
+  > Deux mille quarante-huit pierres livrées : de quoi remplir un mur de faction.
+- **Une forêt** — tâches : tag minecraft:logs 512 Cinq cent douze bûches !consommer — récompense : xp 15 — après : intro
+- **Une fonderie** — tâches : item minecraft:iron_ingot 128 !consommer — récompense : xp 20 — après : intro
+- **Un banquet** — tâches : tag farmersdelight:meals 64 Soixante-quatre repas !consommer — récompense : xp 20 — après : intro
+- **Une horde** — tâches : kill minecraft:zombie 200 — récompense : xp 15 — après : intro
+- **Un ossuaire** — tâches : kill minecraft:skeleton 200 — récompense : xp 15 — après : intro
+- **Une campagne contre les illageois** — tâches : kill minecraft:pillager 50, kill minecraft:vindicator 10 — récompense : xp 20 — après : intro
+- **Le Wither de la semaine** — tâches : kill minecraft:wither — récompense : xp 30 — après : intro
+  > Loin de toute base : hors claim, il rase tout autour de lui.
+- **Le dragon de la semaine** — tâches : kill minecraft:ender_dragon — récompense : xp 30 — après : intro
+  > Ré-invoqué avec quatre cristaux de l'End sur le portail. Il laisse un œuf à chaque fois sur ce serveur.
+- **Un monument vidé** — tâches : kill minecraft:elder_guardian 3 — récompense : xp 25 — après : intro
+  > Les trois gardiens anciens d'un monument.
