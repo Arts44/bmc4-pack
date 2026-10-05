@@ -155,6 +155,32 @@ description = """
 Carte &bXaero&r (touche &bM&r) : un point de passage se pose d'un clic, se nomme, se colore. La minicarte en haut à gauche les montre.
 """
 
+# Magnum Torch 8.0.2 : recettes du jar ; magnumtorch-server.toml du serveur
+# (diamant : MONSTER, 64 × 32, NATURAL/PATROL/STRUCTURE/JOCKEY ; émeraude :
+# CREATURE, 128 × 64, NATURAL/EVENT ; améthyste : créatures aquatiques et
+# ambiantes, 64 × 32, NATURAL).
+[[quete]]
+cle = "torche_magnum"
+titre = "Une torche Magnum en diamant"
+deps = ["intro"]
+optionnel = true
+taches = ["item magnumtorch:diamond_magnum_torch"]
+recompenses = ["xp 8"]
+description = """
+Deux lingots d'or, une boule de feu, deux bûches et quatre diamants. Posée, la torche Magnum en diamant empêche les monstres d'apparaître d'eux-mêmes sur 64 blocs autour d'elle, et 32 en hauteur. Elle bloque aussi les patrouilles. Elle n'arrête ni les générateurs de monstres ni les raids : une base de faction reste attaquable.
+"""
+
+[[quete]]
+cle = "torches_magnum"
+titre = "Les deux autres torches Magnum"
+deps = ["torche_magnum"]
+optionnel = true
+taches = ["item magnumtorch:emerald_magnum_torch", "item magnumtorch:amethyst_magnum_torch"]
+recompenses = ["xp 5"]
+description = """
+Même recette, avec des émeraudes ou des éclats d'améthyste. Celle en émeraude empêche les animaux d'apparaître sur 128 blocs. Celle en améthyste empêche les poissons, calamars, axolotls et chauves-souris sur 64 blocs.
+"""
+
 [[quete]]
 cle = "fin"
 titre = "&eConfortable"
