@@ -1,14 +1,24 @@
 # Chapitre « Histoire du serveur » — cahier des charges §9.5
 # Cases à cocher, récompenses S (XP). Un récit, pas une tâche de jeu.
-# N'y entre que ce qui est daté par une pièce (5 octobre 2026) :
-# decisions.md du dépôt (7, 8, 9 et 20 septembre, 4 octobre), l'historique
-# git du bot (système de raid le 7 septembre), le journal de migration
-# (Marché claim serveur et cœur perdu le 5 octobre).
-# ABSENT faute de pièce, à fournir par Arthur : la date d'ouverture, la
-# création d'Apex et des Farmer's, la construction du Marché Flottant, le
-# premier raid gagné. Les quêtes se rajoutent à la fin, dans l'ordre des
-# dates, sans renommer les clés existantes (une clé renommée efface la
-# progression). Le 5 janvier (battle royale) s'écrira après l'événement.
+# N'y entre que ce qui est daté par une source (5 octobre 2026) :
+#   24 août : ouverture, Discord, rôles Apex (9 h 20 UTC) et Farmer's
+#     (10 h 35 UTC) — donnés par Arthur ;
+#   15 septembre : #annonces 1549361114251272243 (Marché décidé, sans claim,
+#     « la protection ici est la règle, pas le bloc. C'est un pari sur vous. ») ;
+#   24 septembre : #annonces 1552725271663345756 (le Marché ouvre) ;
+#   2 octobre : registre <!--RAIDS--> de #logs (historique : attaquant apex,
+#     défenseur farmers, résultat forfait, raison « trophée non déclaré ») et
+#     #faits-d-armes 1555526176577949777 ;
+#   7, 8, 9, 20 septembre, 4 octobre : decisions.md du dépôt et historique
+#     git du bot ; 5 octobre : journal de migration (BMC-86, BMC-90) ;
+#   victoires : #faits-d-armes, à la date du message, ou à la date que le
+#     message donne quand il a été publié après coup (Naga et Liche le 5,
+#     Invocateur le 9, Broyeur et Umvuthi le 11, Alchimiste le 19).
+# Écartées faute de date : les victoires publiées « après coup » sans date
+# (Scylla, Frostmaw, Yéti Alpha, Invoker, Chevaliers fantômes, les huit
+# boss de la Twilight Forest).
+# Les clés ne changent jamais (une clé renommée efface la progression) ;
+# une page nouvelle s'insère par ses dépendances.
 # Aucun lieu de faction n'y est cité : le règlement interdit de divulguer
 # les coordonnées d'une faction.
 
@@ -31,9 +41,29 @@ Le récit de BMC4, page par page. Chaque quête est une date, et ce qu'elle a ch
 """
 
 [[quete]]
+cle = "aout_24"
+titre = "24 août : l'ouverture"
+deps = ["intro"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Le serveur Minecraft ouvre, et le Discord avec lui. Le même matin naissent les deux factions : ⚔️ Apex à 9 h 20, 🌾 Farmer's à 10 h 35 (heure UTC).
+"""
+
+[[quete]]
+cle = "sept_05"
+titre = "5 septembre : les premiers boss"
+deps = ["aout_24"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Dans la Twilight Forest, Humaga et Arts_Vio abattent la Naga, et Arts_Vio vainc la Liche. Ce sont les premières victoires que #faits-d-armes a datées.
+"""
+
+[[quete]]
 cle = "sept_07"
 titre = "7 septembre : les règles du monde"
-deps = ["intro"]
+deps = ["sept_05"]
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
@@ -71,9 +101,49 @@ Jusque-là, chacun voyait les claims de tous sur la carte. Ils passent en privé
 """
 
 [[quete]]
+cle = "sept_blue_skies"
+titre = "9 au 19 septembre : Blue Skies tombe"
+deps = ["sept_09"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Arts_Vio vainc l'Invocateur d'Everbright le 9, le Broyeur étoilé le 11, l'Alchimiste d'Everdawn le 19 (dates publiées par #faits-d-armes).
+"""
+
+[[quete]]
+cle = "sept_11"
+titre = "11 septembre : l'Oiseau-Soleil et la Valkyrie"
+deps = ["sept_blue_skies"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Arts_Vio renverse Umvuthi, puis vainc la Valkyrie de l'Aether le soir même. Le même jour, Apex gagne un nouveau membre.
+"""
+
+[[quete]]
+cle = "sept_13"
+titre = "13 septembre : le premier Wither"
+deps = ["sept_11"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+HelXo1 vainc le Wither, le premier du serveur annoncé dans #faits-d-armes.
+"""
+
+[[quete]]
+cle = "sept_15"
+titre = "15 septembre : le Marché Flottant est décidé"
+deps = ["sept_13"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+La suggestion la mieux votée du salon des mods est acceptée : un point de rendez-vous commun, en pleine mer, au point zéro. Premier chantier commun du serveur. Il est annoncé &lsans claim&r : « la protection ici est la règle, pas le bloc. C'est un pari sur vous. »
+"""
+
+[[quete]]
 cle = "sept_20"
 titre = "20 septembre : la version 60"
-deps = ["sept_09"]
+deps = ["sept_15"]
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
@@ -81,9 +151,49 @@ Six mods arrivent dans le pack, dont &dCC: Tweaked&r : sa première version a e
 """
 
 [[quete]]
+cle = "sept_20_end"
+titre = "20 septembre : l'End est ouvert"
+deps = ["sept_20"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Arts_Vio vainc l'Ender Dragon et ouvre l'End au serveur.
+"""
+
+[[quete]]
+cle = "sept_24"
+titre = "24 septembre : le Marché Flottant ouvre"
+deps = ["sept_20_end"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une esplanade de 49 blocs de côté au point zéro, une waystone gratuite, un pavillon par camp et un baril ouvert à tous. La zone neutre ne tient que sur la parole donnée : ni claim, ni protection. Le même soir, Arts_Vio vainc le Gardien de l'Ender.
+"""
+
+[[quete]]
+cle = "oct_02_raid"
+titre = "2 octobre : le premier raid réglé"
+deps = ["sept_24"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Farmer's n'a pas déclaré son trophée à temps : &l⚔️ Apex l'emporte par forfait&r, sans combat. Le rôle 🏆 Vainqueur pour sept jours, et aucun chunk ni objet ne change de main.
+"""
+
+[[quete]]
+cle = "oct_02_twilight"
+titre = "2 octobre : la Twilight Forest tombe"
+deps = ["oct_02_raid"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Dans la même journée, Arts_Vio tue le Minoshroom, terrasse l'Hydre, vainc la Reine des Neiges et détruit l'Ur-Ghast.
+"""
+
+[[quete]]
 cle = "oct_04"
 titre = "4 octobre : la version 61"
-deps = ["sept_20"]
+deps = ["oct_02_twilight"]
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
@@ -91,19 +201,29 @@ Le vocal de proximité et les coffres par joueur. Ce qui avait été pillé avan
 """
 
 [[quete]]
-cle = "oct_05_marche"
-titre = "5 octobre : le Marché devient un claim du serveur"
+cle = "oct_04_netherite"
+titre = "4 octobre : la nétherite"
 deps = ["oct_04"]
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Quarante-neuf chunks autour du point d'apparition : on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. C'est la seule zone neutre du serveur.
+GhostFrost016 forge son premier lingot de nétherite. Le soir, Arts_Vio vainc le Wither à son tour.
+"""
+
+[[quete]]
+cle = "oct_05_marche"
+titre = "5 octobre : la fin du pari"
+deps = ["oct_04_netherite"]
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Le Marché devient un claim d'une équipe du serveur : quarante-neuf chunks autour du point d'apparition, on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. Le « pari sur vous » du 15 septembre s'arrête là : la règle est désormais aussi le bloc.
 """
 
 [[quete]]
 cle = "oct_05_coeur"
 titre = "5 octobre : le cœur perdu"
-deps = ["oct_04"]
+deps = ["oct_05_marche"]
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
@@ -123,11 +243,11 @@ Le Marché Flottant, autour du point d'apparition : la waystone, les pavillons,
 [[quete]]
 cle = "suite"
 titre = "&cLa suite s'écrit"
-deps = ["oct_05_marche", "oct_05_coeur"]
+deps = ["oct_05_coeur"]
 taille = 1.3
 icone = "minecraft:writable_book"
 taches = ["checkmark À suivre"]
 recompenses = ["xp 5"]
 description = """
-Les prochaines pages : le premier raid gagné, une nouvelle faction, la battle royale. Elles s'ajouteront ici.
+Les prochaines pages : une nouvelle faction, le premier raid combattu, la battle royale. Elles s'ajouteront ici.
 """

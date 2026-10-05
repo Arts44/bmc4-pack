@@ -29,6 +29,42 @@
 		}
 		{
 			dependencies: ["1B457102B1586818"]
+			description: ["Le serveur Minecraft ouvre, et le Discord avec lui. Le même matin naissent les deux factions : ⚔️ Apex à 9 h 20, 🌾 Farmer's à 10 h 35 (heure UTC)."]
+			id: "56FF0D8566B0B202"
+			rewards: [{
+				id: "440DD7F769AC9DFD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "71F6A68D5773DEDA"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "24 août : l'ouverture"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56FF0D8566B0B202"]
+			description: ["Dans la Twilight Forest, Humaga et Arts_Vio abattent la Naga, et Arts_Vio vainc la Liche. Ce sont les premières victoires que #faits-d-armes a datées."]
+			id: "653CE6EFEDE5EF36"
+			rewards: [{
+				id: "456066DADD717A17"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1DD73829D1805829"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "5 septembre : les premiers boss"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["653CE6EFEDE5EF36"]
 			description: ["La difficulté passe en &lnormal&r, la distance de simulation à six chunks, et huit dimensions sont prégénérées pour que l'exploration ne fasse plus ramer le serveur. Le même jour, le bot apprend à tenir les &lraids&r."]
 			id: "64742BAD01CCFDB3"
 			rewards: [{
@@ -42,7 +78,7 @@
 				type: "checkmark"
 			}]
 			title: "7 septembre : les règles du monde"
-			x: 2.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -60,7 +96,7 @@
 				type: "checkmark"
 			}]
 			title: "8 septembre : un seul système de claims"
-			x: 4.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -78,7 +114,7 @@
 				type: "checkmark"
 			}]
 			title: "8 septembre : le vol devient légal"
-			x: 6.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -96,11 +132,83 @@
 				type: "checkmark"
 			}]
 			title: "9 septembre : les claims deviennent secrets"
-			x: 8.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31C30ABA6027FE91"]
+			description: ["Arts_Vio vainc l'Invocateur d'Everbright le 9, le Broyeur étoilé le 11, l'Alchimiste d'Everdawn le 19 (dates publiées par #faits-d-armes)."]
+			id: "5184EF2D448A8671"
+			rewards: [{
+				id: "22E360586F9783F9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "479062192C182264"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "9 au 19 septembre : Blue Skies tombe"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5184EF2D448A8671"]
+			description: ["Arts_Vio renverse Umvuthi, puis vainc la Valkyrie de l'Aether le soir même. Le même jour, Apex gagne un nouveau membre."]
+			id: "1BA0E5F116BBAB4C"
+			rewards: [{
+				id: "36AB44849081BBCB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5538ABAAD01E0C1E"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "11 septembre : l'Oiseau-Soleil et la Valkyrie"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BA0E5F116BBAB4C"]
+			description: ["HelXo1 vainc le Wither, le premier du serveur annoncé dans #faits-d-armes."]
+			id: "4A6FDF5F68FC2389"
+			rewards: [{
+				id: "3C4EDFD429C6D046"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6AB1764DAF1E9D69"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "13 septembre : le premier Wither"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A6FDF5F68FC2389"]
+			description: ["La suggestion la mieux votée du salon des mods est acceptée : un point de rendez-vous commun, en pleine mer, au point zéro. Premier chantier commun du serveur. Il est annoncé &lsans claim&r : « la protection ici est la règle, pas le bloc. C'est un pari sur vous. »"]
+			id: "337DAC39CE7506E5"
+			rewards: [{
+				id: "42CEC73B3632DF80"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6F871EE1A5AFC04E"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "15 septembre : le Marché Flottant est décidé"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["337DAC39CE7506E5"]
 			description: ["Six mods arrivent dans le pack, dont &dCC: Tweaked&r : sa première version a empêché le serveur de démarrer, incompatible avec Create 6, avant d'être remplacée par une version corrigée."]
 			id: "21498CAE4C0D08FA"
 			rewards: [{
@@ -114,11 +222,83 @@
 				type: "checkmark"
 			}]
 			title: "20 septembre : la version 60"
-			x: 10.0d
+			x: 22.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["21498CAE4C0D08FA"]
+			description: ["Arts_Vio vainc l'Ender Dragon et ouvre l'End au serveur."]
+			id: "6117846A093EDC7F"
+			rewards: [{
+				id: "0F1B84A51B023DA4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "17ADF81AEF7714A0"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "20 septembre : l'End est ouvert"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6117846A093EDC7F"]
+			description: ["Une esplanade de 49 blocs de côté au point zéro, une waystone gratuite, un pavillon par camp et un baril ouvert à tous. La zone neutre ne tient que sur la parole donnée : ni claim, ni protection. Le même soir, Arts_Vio vainc le Gardien de l'Ender."]
+			id: "425CA765E05DC4AC"
+			rewards: [{
+				id: "336110E74277D11B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "783FDABB3293E63C"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "24 septembre : le Marché Flottant ouvre"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["425CA765E05DC4AC"]
+			description: ["Farmer's n'a pas déclaré son trophée à temps : &l⚔️ Apex l'emporte par forfait&r, sans combat. Le rôle 🏆 Vainqueur pour sept jours, et aucun chunk ni objet ne change de main."]
+			id: "495353A13812ADCA"
+			rewards: [{
+				id: "0CB3921B3D986DEB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "37211B8336FF9652"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "2 octobre : le premier raid réglé"
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["495353A13812ADCA"]
+			description: ["Dans la même journée, Arts_Vio tue le Minoshroom, terrasse l'Hydre, vainc la Reine des Neiges et détruit l'Ur-Ghast."]
+			id: "2F7F5CD025DA779B"
+			rewards: [{
+				id: "3D5A1F72D8E15B94"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3577A341FD56550E"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "2 octobre : la Twilight Forest tombe"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F7F5CD025DA779B"]
 			description: ["Le vocal de proximité et les coffres par joueur. Ce qui avait été pillé avant ce jour le reste."]
 			id: "1C126C28F169135A"
 			rewards: [{
@@ -132,12 +312,30 @@
 				type: "checkmark"
 			}]
 			title: "4 octobre : la version 61"
-			x: 12.0d
+			x: 32.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1C126C28F169135A"]
-			description: ["Quarante-neuf chunks autour du point d'apparition : on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. C'est la seule zone neutre du serveur."]
+			description: ["GhostFrost016 forge son premier lingot de nétherite. Le soir, Arts_Vio vainc le Wither à son tour."]
+			id: "7FF6098AF5528575"
+			rewards: [{
+				id: "46B477F1C0ED5107"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7F45F2CD3887D0CD"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "4 octobre : la nétherite"
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FF6098AF5528575"]
+			description: ["Le Marché devient un claim d'une équipe du serveur : quarante-neuf chunks autour du point d'apparition, on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. Le « pari sur vous » du 15 septembre s'arrête là : la règle est désormais aussi le bloc."]
 			id: "0AB6E1AA29E6D7E4"
 			rewards: [{
 				id: "417A7D60DF99E078"
@@ -149,12 +347,12 @@
 				title: "Lu"
 				type: "checkmark"
 			}]
-			title: "5 octobre : le Marché devient un claim du serveur"
-			x: 14.0d
-			y: -0.75d
+			title: "5 octobre : la fin du pari"
+			x: 36.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1C126C28F169135A"]
+			dependencies: ["0AB6E1AA29E6D7E4"]
 			description: ["Mourir pendant un raid coûtait un cœur à tout le monde. Désormais, seuls les membres des deux factions engagées le perdent, et les repas le rendent à tout moment."]
 			id: "3AD6A43AA29D5FEA"
 			rewards: [{
@@ -168,8 +366,8 @@
 				type: "checkmark"
 			}]
 			title: "5 octobre : le cœur perdu"
-			x: 14.0d
-			y: 0.75d
+			x: 38.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0AB6E1AA29E6D7E4"]
@@ -186,15 +384,12 @@
 				type: "checkmark"
 			}]
 			title: "Une visite au Marché"
-			x: 16.0d
-			y: -0.75d
+			x: 38.0d
+			y: 0.75d
 		}
 		{
-			dependencies: [
-				"0AB6E1AA29E6D7E4"
-				"3AD6A43AA29D5FEA"
-			]
-			description: ["Les prochaines pages : le premier raid gagné, une nouvelle faction, la battle royale. Elles s'ajouteront ici."]
+			dependencies: ["3AD6A43AA29D5FEA"]
+			description: ["Les prochaines pages : une nouvelle faction, le premier raid combattu, la battle royale. Elles s'ajouteront ici."]
 			icon: "minecraft:writable_book"
 			id: "6A0ECC69FB678D7E"
 			rewards: [{
@@ -209,8 +404,8 @@
 				type: "checkmark"
 			}]
 			title: "&cLa suite s'écrit"
-			x: 16.0d
-			y: 0.75d
+			x: 40.0d
+			y: 0.0d
 		}
 	]
 	title: "&cHistoire du serveur"

@@ -5293,11 +5293,15 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Diplomate accompli** — tâches : checkmark Lu — récompense : xp 5 — après : trahir, neutre
   > Une alliance signée, une offre conclue, une trêve tenue. Le reste de l'histoire du serveur s'écrit dans #diplomatie.
 
-## Histoire du serveur  (`factions_histoire`, 11 quêtes)
+## Histoire du serveur  (`factions_histoire`, 22 quêtes)
 
 - **Ce qui s'est passé ici** — tâches : checkmark Lu — récompense : xp 2
   > Le récit de BMC4, page par page. Chaque quête est une date, et ce qu'elle a changé pour toi en jeu. Le chapitre grandit avec le serveur : après chaque événement marquant, une page s'ajoute.
-- **7 septembre : les règles du monde** — tâches : checkmark Lu — récompense : xp 2 — après : intro
+- **24 août : l'ouverture** — tâches : checkmark Lu — récompense : xp 2 — après : intro
+  > Le serveur Minecraft ouvre, et le Discord avec lui. Le même matin naissent les deux factions : ⚔️ Apex à 9 h 20, 🌾 Farmer's à 10 h 35 (heure UTC).
+- **5 septembre : les premiers boss** — tâches : checkmark Lu — récompense : xp 2 — après : aout_24
+  > Dans la Twilight Forest, Humaga et Arts_Vio abattent la Naga, et Arts_Vio vainc la Liche. Ce sont les premières victoires que #faits-d-armes a datées.
+- **7 septembre : les règles du monde** — tâches : checkmark Lu — récompense : xp 2 — après : sept_05
   > La difficulté passe en normal, la distance de simulation à six chunks, et huit dimensions sont prégénérées pour que l'exploration ne fasse plus ramer le serveur. Le même jour, le bot apprend à tenir les raids.
 - **8 septembre : un seul système de claims** — tâches : checkmark Lu — récompense : xp 2 — après : sept_07
   > Deux systèmes de claims tournaient en même temps. Tout passe sur FTB Chunks, et la règle de raid sait enfin ce qui est « hors claim ».
@@ -5305,18 +5309,36 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le mod Theft contredisait la règle « pas de vol ». Après discussion, c'est le règlement qui change : hors claim, le gant de voleur est permis. La frontière est le claim, pas l'objet.
 - **9 septembre : les claims deviennent secrets** — tâches : checkmark Lu — récompense : xp 2 — après : sept_08_vol
   > Jusque-là, chacun voyait les claims de tous sur la carte. Ils passent en privé : le secret des coordonnées devient tenable. Le même jour, une alliance que personne n'avait décidée est retirée, et les dragons entrent dans une équipe commune, sans tir allié.
-- **20 septembre : la version 60** — tâches : checkmark Lu — récompense : xp 2 — après : sept_09
+- **9 au 19 septembre : Blue Skies tombe** — tâches : checkmark Lu — récompense : xp 2 — après : sept_09
+  > Arts_Vio vainc l'Invocateur d'Everbright le 9, le Broyeur étoilé le 11, l'Alchimiste d'Everdawn le 19 (dates publiées par #faits-d-armes).
+- **11 septembre : l'Oiseau-Soleil et la Valkyrie** — tâches : checkmark Lu — récompense : xp 2 — après : sept_blue_skies
+  > Arts_Vio renverse Umvuthi, puis vainc la Valkyrie de l'Aether le soir même. Le même jour, Apex gagne un nouveau membre.
+- **13 septembre : le premier Wither** — tâches : checkmark Lu — récompense : xp 2 — après : sept_11
+  > HelXo1 vainc le Wither, le premier du serveur annoncé dans #faits-d-armes.
+- **15 septembre : le Marché Flottant est décidé** — tâches : checkmark Lu — récompense : xp 2 — après : sept_13
+  > La suggestion la mieux votée du salon des mods est acceptée : un point de rendez-vous commun, en pleine mer, au point zéro. Premier chantier commun du serveur. Il est annoncé sans claim : « la protection ici est la règle, pas le bloc. C'est un pari sur vous. »
+- **20 septembre : la version 60** — tâches : checkmark Lu — récompense : xp 2 — après : sept_15
   > Six mods arrivent dans le pack, dont CC: Tweaked : sa première version a empêché le serveur de démarrer, incompatible avec Create 6, avant d'être remplacée par une version corrigée.
-- **4 octobre : la version 61** — tâches : checkmark Lu — récompense : xp 2 — après : sept_20
+- **20 septembre : l'End est ouvert** — tâches : checkmark Lu — récompense : xp 2 — après : sept_20
+  > Arts_Vio vainc l'Ender Dragon et ouvre l'End au serveur.
+- **24 septembre : le Marché Flottant ouvre** — tâches : checkmark Lu — récompense : xp 2 — après : sept_20_end
+  > Une esplanade de 49 blocs de côté au point zéro, une waystone gratuite, un pavillon par camp et un baril ouvert à tous. La zone neutre ne tient que sur la parole donnée : ni claim, ni protection. Le même soir, Arts_Vio vainc le Gardien de l'Ender.
+- **2 octobre : le premier raid réglé** — tâches : checkmark Lu — récompense : xp 2 — après : sept_24
+  > Farmer's n'a pas déclaré son trophée à temps : ⚔️ Apex l'emporte par forfait, sans combat. Le rôle 🏆 Vainqueur pour sept jours, et aucun chunk ni objet ne change de main.
+- **2 octobre : la Twilight Forest tombe** — tâches : checkmark Lu — récompense : xp 2 — après : oct_02_raid
+  > Dans la même journée, Arts_Vio tue le Minoshroom, terrasse l'Hydre, vainc la Reine des Neiges et détruit l'Ur-Ghast.
+- **4 octobre : la version 61** — tâches : checkmark Lu — récompense : xp 2 — après : oct_02_twilight
   > Le vocal de proximité et les coffres par joueur. Ce qui avait été pillé avant ce jour le reste.
-- **5 octobre : le Marché devient un claim du serveur** — tâches : checkmark Lu — récompense : xp 2 — après : oct_04
-  > Quarante-neuf chunks autour du point d'apparition : on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. C'est la seule zone neutre du serveur.
-- **5 octobre : le cœur perdu** — tâches : checkmark Lu — récompense : xp 2 — après : oct_04
+- **4 octobre : la nétherite** — tâches : checkmark Lu — récompense : xp 2 — après : oct_04
+  > GhostFrost016 forge son premier lingot de nétherite. Le soir, Arts_Vio vainc le Wither à son tour.
+- **5 octobre : la fin du pari** — tâches : checkmark Lu — récompense : xp 2 — après : oct_04_netherite
+  > Le Marché devient un claim d'une équipe du serveur : quarante-neuf chunks autour du point d'apparition, on n'y casse ni ne pose rien, le PvP y est coupé, les explosions sont bloquées. Le « pari sur vous » du 15 septembre s'arrête là : la règle est désormais aussi le bloc.
+- **5 octobre : le cœur perdu** — tâches : checkmark Lu — récompense : xp 2 — après : oct_05_marche
   > Mourir pendant un raid coûtait un cœur à tout le monde. Désormais, seuls les membres des deux factions engagées le perdent, et les repas le rendent à tout moment.
 - **Une visite au Marché** — tâches : checkmark Je suis passé au Marché — récompense : xp 3 — après : oct_05_marche
   > Le Marché Flottant, autour du point d'apparition : la waystone, les pavillons, les barils d'échange. Le seul lieu que tout le monde partage.
-- **La suite s'écrit** — tâches : checkmark À suivre — récompense : xp 5 — après : oct_05_marche, oct_05_coeur
-  > Les prochaines pages : le premier raid gagné, une nouvelle faction, la battle royale. Elles s'ajouteront ici.
+- **La suite s'écrit** — tâches : checkmark À suivre — récompense : xp 5 — après : oct_05_coeur
+  > Les prochaines pages : une nouvelle faction, le premier raid combattu, la battle royale. Elles s'ajouteront ici.
 
 ## Le trophée et les raids  (`factions_raids`, 9 quêtes)
 
