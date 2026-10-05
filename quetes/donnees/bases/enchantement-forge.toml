@@ -25,6 +25,7 @@ Le vanilla, pas à pas. Ce que le pack y change (Easy Magic, Easy Anvils, l'infu
 
 [[quete]]
 cle = "table"
+doublon_voulu = true
 titre = "La table d'enchantement"
 deps = ["intro"]
 taches = ["item minecraft:enchanting_table", "item minecraft:bookshelf 15"]
@@ -45,6 +46,7 @@ Enchanter un livre garde l'enchantement pour plus tard. Les bibliothécaires en 
 
 [[quete]]
 cle = "enclume"
+doublon_voulu = true
 titre = "L'enclume"
 deps = ["livre"]
 taches = ["item minecraft:anvil"]

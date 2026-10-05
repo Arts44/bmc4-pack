@@ -125,13 +125,14 @@ Un disque joué dans une prairie d'altitude (progrès vanilla).
 
 [[quete]]
 cle = "bloc_note"
+doublon_voulu = true
 titre = "Un bloc de note"
 deps = ["intro"]
 optionnel = true
 taches = ["item minecraft:note_block 4"]
 recompenses = ["xp 2"]
 description = """
-Le bloc dessous choisit l'instrument ; une tête dessus choisit le cri de la créature.
+Le bloc dessous choisit l'instrument ; une tête dessus choisit le cri de la créature. Sa redstone est au chapitre &cRedstone&r.
 """
 
 # ---- têtes

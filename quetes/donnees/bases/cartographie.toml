@@ -55,13 +55,14 @@ Papier pour agrandir (quatre fois), carte vierge pour copier, cadre de verre pou
 
 [[quete]]
 cle = "marqueur"
+doublon_voulu = true
 titre = "Un marqueur"
 deps = ["remplie"]
 optionnel = true
 taches = ["item minecraft:white_banner"]
 recompenses = ["xp 2"]
 description = """
-Une bannière nommée, cliquée avec la carte, y apparaît avec son nom et sa couleur.
+Une bannière nommée (chapitre &eMusique et décor&r), cliquée avec la carte, y apparaît avec son nom et sa couleur.
 """
 
 [[quete]]
@@ -105,7 +106,7 @@ optionnel = true
 taches = ["item minecraft:recovery_compass"]
 recompenses = ["xp 5"]
 description = """
-Huit éclats d'écho des cités anciennes : elle pointe vers ta dernière mort. Sur ce serveur, la tombe (You're in Grave Danger) garde tes affaires et sa propre boussole.
+Huit éclats d'écho des cités anciennes : elle pointe vers ta dernière mort. Sur ce serveur, la tombe (You're in Grave Danger) garde tes affaires, et le jeu en donne les coordonnées à la mort.
 """
 
 [[quete]]

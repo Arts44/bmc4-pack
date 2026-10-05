@@ -30,12 +30,13 @@ description = """
 
 [[quete]]
 cle = "calendrier"
+doublon_voulu = true
 titre = "Un calendrier"
 deps = ["intro"]
 taches = ["item sereneseasons:calendar"]
 recompenses = ["xp 3"]
 description = """
-Il affiche la sous-saison et le jour.
+Il affiche la sous-saison et le jour. Déjà demandé au chapitre &2Overworld — exploration&r : il compte ici aussi.
 """
 
 [[quete]]

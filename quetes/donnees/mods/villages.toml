@@ -33,12 +33,13 @@ Treize métiers vanilla, quatre de &6VillagersPlus&r, des gardes à recruter, de
 
 [[quete]]
 cle = "village"
+doublon_voulu = true
 titre = "Trouver un village"
 deps = ["intro"]
 taches = ["structure #minecraft:village"]
 recompenses = ["xp 3"]
 description = """
-Un village, n'importe lequel. &6Villages & Pillages&r en ajoute, dont un village de sorcières ; Towns & Towers et Moog's en remanient d'autres.
+Un village, n'importe lequel (déjà demandé au chapitre &2Overworld — exploration&r). &6Villages & Pillages&r en ajoute, dont un village de sorcières ; Towns & Towers et Moog's en remanient d'autres.
 """
 
 [[quete]]
@@ -75,57 +76,62 @@ Un &lhaut fourneau&r : armures de fer puis de diamant.
 
 [[quete]]
 cle = "forgeron_armes"
+doublon_voulu = true
 titre = "Un forgeron d'armes"
 deps = ["echange"]
 optionnel = true
 taches = ["item minecraft:grindstone"]
 recompenses = ["xp 3"]
 description = """
-Une &lmeule&r : épées et haches, enchantées aux niveaux hauts.
+Une &lmeule&r (chapitre &dEnchantement et forge&r des bases) : épées et haches, enchantées aux niveaux hauts.
 """
 
 [[quete]]
 cle = "forgeron_outils"
+doublon_voulu = true
 titre = "Un forgeron d'outils"
 deps = ["echange"]
 optionnel = true
 taches = ["item minecraft:smithing_table"]
 recompenses = ["xp 3"]
 description = """
-Une &ltable de forgeron&r : pioches, pelles, houes.
+Une &ltable de forgeron&r (chapitre &dEnchantement et forge&r des bases) : pioches, pelles, houes.
 """
 
 [[quete]]
 cle = "cartographe"
+doublon_voulu = true
 titre = "Un cartographe"
 deps = ["echange"]
 optionnel = true
 taches = ["item minecraft:cartography_table"]
 recompenses = ["xp 3"]
 description = """
-Une &ltable de cartographie&r : cartes d'exploration vers les monuments et les manoirs.
+Une &ltable de cartographie&r (chapitre &2Cartographie&r des bases) : cartes d'exploration vers les monuments et les manoirs.
 """
 
 [[quete]]
 cle = "clerc"
+doublon_voulu = true
 titre = "Un clerc"
 deps = ["echange"]
 optionnel = true
 taches = ["item minecraft:brewing_stand"]
 recompenses = ["xp 3"]
 description = """
-Un &lalambic&r : redstone, lapis, perles de l'Ender, poudre de blaze.
+Un &lalambic&r (chapitre &5Alchimie&r des bases) : redstone, lapis, perles de l'Ender, poudre de blaze.
 """
 
 [[quete]]
 cle = "fermier"
+doublon_voulu = true
 titre = "Un fermier"
 deps = ["echange"]
 optionnel = true
 taches = ["item minecraft:composter"]
 recompenses = ["xp 3"]
 description = """
-Un &lcomposteur&r. &aSmarter Farmers&r rend les fermiers plus efficaces dans leurs champs.
+Un &lcomposteur&r (aussi au chapitre &aAgriculture&r des bases). &aSmarter Farmers&r rend les fermiers plus efficaces dans leurs champs.
 """
 
 [[quete]]
@@ -149,11 +155,15 @@ Une &ltable de fléchier&r : flèches, arcs, arbalètes, et des flèches à eff
 
 [[quete]]
 cle = "berger"
+doublon_voulu = true
 titre = "Un berger"
 deps = ["echange"]
 optionnel = true
 taches = ["item minecraft:loom"]
 recompenses = ["xp 3"]
+description = """
+Un &lmétier à tisser&r (chapitre &eMusique et décor&r des bases) : laines, tapis, lits, bannières.
+"""
 
 [[quete]]
 cle = "tailleur"

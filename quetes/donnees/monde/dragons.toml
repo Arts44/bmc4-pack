@@ -57,12 +57,13 @@ Autre voie : dans &9#dragons&r, poste &l!dragon <x> <y> <z> <race>&r (pseudo et
 
 [[quete]]
 cle = "apprivoiser"
+doublon_voulu = true
 titre = "Apprivoiser et seller"
 deps = ["eclosion"]
 taches = ["item minecraft:saddle"]
 recompenses = ["xp 5"]
 description = """
-Le bébé se nourrit et grandit ; adulte, une &lselle&r et il se monte.
+Le bébé se nourrit et grandit ; adulte, une &lselle&r (chapitre &aAgriculture&r des bases) et il se monte.
 """
 
 [[quete]]

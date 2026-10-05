@@ -74,13 +74,14 @@ Une seconde debout dessus (config) et elle envoie vers la plaque à laquelle ell
 
 [[quete]]
 cle = "laisse"
+doublon_voulu = true
 titre = "Voyager avec ses bêtes"
 deps = ["pierre"]
 optionnel = true
 taches = ["item minecraft:lead"]
 recompenses = ["xp 3"]
 description = """
-Un animal en laisse traverse avec toi, même entre dimensions (config). Sauf le Wither.
+Un animal en laisse traverse avec toi, même entre dimensions (config). Sauf le Wither. La laisse elle-même est au chapitre &aAgriculture&r des bases.
 """
 
 # ---- bateaux
@@ -128,13 +129,14 @@ Même geste sur un animal. Pas les hostiles, pas les villageois, pas les gobelin
 # ---- Nature's Compass
 [[quete]]
 cle = "boussole"
+doublon_voulu = true
 titre = "Une boussole de la nature"
 deps = ["intro"]
 optionnel = true
 taches = ["item naturescompass:naturescompass"]
 recompenses = ["xp 5"]
 description = """
-Elle cherche un biome par son nom et pointe vers le plus proche. Les biomes des autres dimensions aussi, depuis là-bas.
+Elle cherche un biome par son nom et pointe vers le plus proche. Les biomes des autres dimensions aussi, depuis là-bas. Déjà demandée au chapitre &eBienvenue&r.
 """
 
 # ---- élytres
