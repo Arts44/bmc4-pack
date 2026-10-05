@@ -1,0 +1,40 @@
+# Échelle des paliers — Déplacement (BMC-89, 5 octobre 2026).
+# Recettes et lang du jar waystones 14.1.20 ; waystones-common.toml du
+# serveur.
+chapitre = "mods_deplacement"
+sommet = "fin"
+
+[[palier]]
+echelle = "waystones"
+cle = "parchemin"
+preuve = "warp_scroll"
+
+[[palier]]
+echelle = "waystones"
+cle = "pierre"
+preuve = "warp_stone"
+
+[[palier]]
+echelle = "waystones"
+cle = "plaque"
+preuve = "recette warp_plate"
+
+[[palier]]
+echelle = "waystones"
+cle = "plaques_liees"
+preuve = "recette waystones:warp_plate → attuned_shard"
+
+[[palier]]
+echelle = "waystones"
+cle = "fin"
+preuve = "sommet"
+
+[[palier]]
+echelle = "vol"
+cle = "elytres"
+preuve = "minecraft:elytra"
+
+[[palier]]
+echelle = "vol"
+cle = "vol"
+preuve = "stat aviate_one_cm 100000"

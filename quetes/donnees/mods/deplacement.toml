@@ -65,7 +65,6 @@ Les sharestones d'une même couleur se voient entre elles, pour tous : un rése
 cle = "plaque"
 titre = "Une plaque de téléportation"
 deps = ["pierre"]
-optionnel = true
 taches = ["item waystones:warp_plate"]
 recompenses = ["xp 5"]
 description = """
@@ -152,10 +151,43 @@ description = """
 """
 
 [[quete]]
+cle = "plaques_liees"
+titre = "Deux plaques liées"
+deps = ["plaque"]
+taches = ["item waystones:warp_plate 2", "item waystones:attuned_shard 2"]
+recompenses = ["xp 8"]
+description = """
+Un &léclat accordé&r se fabrique dans la plaque elle-même : un silex et quatre poussières de téléportation. Une plaque sans éclat lié n'a pas de destination (message du mod) ; deux plaques accordées font une liaison fixe entre deux bases.
+"""
+
+[[quete]]
+cle = "portstone"
+titre = "Une pierre de départ"
+deps = ["pierre"]
+optionnel = true
+taches = ["item waystones:portstone"]
+recompenses = ["xp 3"]
+description = """
+La &lportstone&r se fait autour d'une pierre de téléportation. On en part, mais on ne peut pas s'y téléporter (infobulle).
+"""
+
+[[quete]]
+cle = "vol"
+titre = "Un kilomètre en élytres"
+deps = ["elytres"]
+optionnel = true
+taches = ["stat minecraft:aviate_one_cm 100000"]
+recompenses = ["xp 5"]
+description = """
+Mille mètres en vol plané, au total (statistique du jeu). Les cent kilomètres sont au chapitre des Défis.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&bPartout en un instant"
-deps = ["pierre", "porter"]
-taille = 1.3
+deps = ["plaques_liees", "porter"]
+taille = 1.5
+forme = "diamond"
 icone = "waystones:warp_plate"
 taches = ["checkmark Mon réseau est en place"]
 recompenses = ["xp 5"]
