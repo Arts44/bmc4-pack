@@ -474,46 +474,46 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Bestiaire — dimensions** — tâches : checkmark Lu — récompense : xp 2
   > Les créatures de l'Aether (avec Deep Aether, Aether Redux et Lost Aether Content), de la Twilight Forest, de l'Everbright et de l'Everdawn, et de l'Otherside. Une quête se valide en regardant la créature.
   >   > Chaque fiche dit ce que les données du pack disent. Les boss sont comptés au défi Chasseur de boss, pas ici.
-- **Rencontre : Aechor Plant** *(optionnelle)* — tâches : observation entity aether:aechor_plant — récompense : xp 1
-  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Gilded Grasslands et d'autres.
-- **Rencontre : Aerbunny** *(optionnelle)* — tâches : observation entity aether:aerbunny — récompense : xp 1
-  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Ficelle.
-- **Rencontre : Aerwhale** *(optionnelle)* — tâches : observation entity aether:aerwhale — récompense : xp 1
-  > Créature de l'Aether. Catégorie : aérobaleine. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
-- **Rencontre : Blue Swet** *(optionnelle)* — tâches : observation entity aether:blue_swet — récompense : xp 1
-  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
-- **Rencontre : Cockatrice** *(optionnelle)* — tâches : observation entity aether:cockatrice — récompense : xp 1
-  > Créature de l'Aether. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres. Butin : Plume.
-- **Rencontre : Evil Whirlwind** *(optionnelle)* — tâches : observation entity aether:evil_whirlwind — récompense : xp 1
-  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
-- **Rencontre : Fire Minion** *(optionnelle)* — tâches : observation entity aether:fire_minion — récompense : xp 1
+- **Rencontre : « Aechor Plant »** *(optionnelle)* — tâches : observation entity aether:aechor_plant — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps », « Gilded Grasslands » et d'autres.
+- **Rencontre : « Aerbunny »** *(optionnelle)* — tâches : observation entity aether:aerbunny — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Frosted Forests », « Gilded Grasslands » et d'autres. Butin : Ficelle.
+- **Rencontre : « Aerwhale »** *(optionnelle)* — tâches : observation entity aether:aerwhale — récompense : xp 1
+  > Créature de l'Aether. Catégorie : aérobaleine. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps », « Frosted Forests » et d'autres.
+- **Rencontre : « Blue Swet »** *(optionnelle)* — tâches : observation entity aether:blue_swet — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps », « Frosted Forests » et d'autres.
+- **Rencontre : « Cockatrice »** *(optionnelle)* — tâches : observation entity aether:cockatrice — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps », « Frosted Forests » et d'autres. Butin : Plume.
+- **Rencontre : « Evil Whirlwind »** *(optionnelle)* — tâches : observation entity aether:evil_whirlwind — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps », « Frosted Forests » et d'autres.
+- **Rencontre : « Fire Minion »** *(optionnelle)* — tâches : observation entity aether:fire_minion — récompense : xp 1
   > Créature de l'Aether. Apparaît : invoqué par l'Esprit du Soleil, dans le donjon d'or.
-- **Rencontre : Flying Cow** *(optionnelle)* — tâches : observation entity aether:flying_cow — récompense : xp 1
-  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Cuir, Boeuf cru.
-- **Rencontre : Golden Swet** *(optionnelle)* — tâches : observation entity aether:golden_swet — récompense : xp 1
-  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres. Butin : Pierre lumineuse.
-- **Rencontre : Mimic** *(optionnelle)* — tâches : observation entity aether:mimic — récompense : xp 1
+- **Rencontre : « Flying Cow »** *(optionnelle)* — tâches : observation entity aether:flying_cow — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Frosted Forests », « Gilded Grasslands » et d'autres. Butin : Cuir, Boeuf cru.
+- **Rencontre : « Golden Swet »** *(optionnelle)* — tâches : observation entity aether:golden_swet — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps », « Frosted Forests » et d'autres. Butin : Pierre lumineuse.
+- **Rencontre : « Mimic »** *(optionnelle)* — tâches : observation entity aether:mimic — récompense : xp 1
   > Créature de l'Aether. Apparaît : un coffre de donjon qui se réveille quand on l'ouvre. Butin : Coffre.
-- **Rencontre : Moa** *(optionnelle)* — tâches : observation entity aether:moa — récompense : xp 1
-  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Plume.
-- **Rencontre : Phyg** *(optionnelle)* — tâches : observation entity aether:phyg — récompense : xp 1
-  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Côtelette de porc crue, Plume.
-- **Rencontre : Sentry** *(optionnelle)* — tâches : observation entity aether:sentry — récompense : xp 1
+- **Rencontre : « Moa »** *(optionnelle)* — tâches : observation entity aether:moa — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Frosted Forests », « Gilded Grasslands » et d'autres. Butin : Plume.
+- **Rencontre : « Phyg »** *(optionnelle)* — tâches : observation entity aether:phyg — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Frosted Forests », « Gilded Grasslands » et d'autres. Butin : Côtelette de porc crue, Plume.
+- **Rencontre : « Sentry »** *(optionnelle)* — tâches : observation entity aether:sentry — récompense : xp 1
   > Créature de l'Aether. Apparaît : dans le donjon de bronze.
-- **Rencontre : Sheepuff** *(optionnelle)* — tâches : observation entity aether:sheepuff — récompense : xp 1
-  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Frosted Forests, Gilded Grasslands et d'autres. Butin : Mouton cru.
-- **Rencontre : Valkyrie** *(optionnelle)* — tâches : observation entity aether:valkyrie — récompense : xp 1
+- **Rencontre : « Sheepuff »** *(optionnelle)* — tâches : observation entity aether:sheepuff — récompense : xp 1
+  > Créature de l'Aether. Catégorie : animal. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Frosted Forests », « Gilded Grasslands » et d'autres. Butin : Mouton cru.
+- **Rencontre : « Valkyrie »** *(optionnelle)* — tâches : observation entity aether:valkyrie — récompense : xp 1
   > Créature de l'Aether. Apparaît : dans le donjon d'argent.
-- **Rencontre : Whirlwind** *(optionnelle)* — tâches : observation entity aether:whirlwind — récompense : xp 1
-  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
-- **Rencontre : Zephyr** *(optionnelle)* — tâches : observation entity aether:zephyr — récompense : xp 1
-  > Créature de l'Aether. Catégorie : monstre du ciel de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, Cloudcaps, Frosted Forests et d'autres.
-- **Rencontre : Blightbunny** *(optionnelle)* — tâches : observation entity aether_redux:blightbunny — récompense : xp 1
-  > Créature d'Aether Redux. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : The Blight.
-- **Rencontre : Mykapod** *(optionnelle)* — tâches : observation entity aether_redux:mykapod — récompense : xp 1
-  > Créature d'Aether Redux. Catégorie : animal. Monde : Aether. Biomes : Cloudcaps. Butin : Boule de slime.
-- **Rencontre : Shimmercow** *(optionnelle)* — tâches : observation entity aether_redux:shimmercow — récompense : xp 1
-  > Créature d'Aether Redux. Catégorie : animal. Monde : Aether. Biomes : Cloudcaps. Butin : Cuir, Boeuf cru.
+- **Rencontre : « Whirlwind »** *(optionnelle)* — tâches : observation entity aether:whirlwind — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre de surface de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps », « Frosted Forests » et d'autres.
+- **Rencontre : « Zephyr »** *(optionnelle)* — tâches : observation entity aether:zephyr — récompense : xp 1
+  > Créature de l'Aether. Catégorie : monstre du ciel de l'Aether. Monde : Aether. Biomes : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps », « Frosted Forests » et d'autres.
+- **Rencontre : « Blightbunny »** *(optionnelle)* — tâches : observation entity aether_redux:blightbunny — récompense : xp 1
+  > Créature d'Aether Redux. Catégorie : monstre de l'ombre de l'Aether. Monde : Aether. Biomes : « The Blight ».
+- **Rencontre : « Mykapod »** *(optionnelle)* — tâches : observation entity aether_redux:mykapod — récompense : xp 1
+  > Créature d'Aether Redux. Catégorie : animal. Monde : Aether. Biomes : « Cloudcaps ». Butin : Boule de slime.
+- **Rencontre : « Shimmercow »** *(optionnelle)* — tâches : observation entity aether_redux:shimmercow — récompense : xp 1
+  > Créature d'Aether Redux. Catégorie : animal. Monde : Aether. Biomes : « Cloudcaps ». Butin : Cuir, Boeuf cru.
 - **Rencontre : Esprit gelé renforcé** *(optionnelle)* — tâches : observation entity blue_skies:armored_frost_spirit — récompense : xp 1
   > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Landes brillantes, Prairie brisegelée, Récif de brimble, Cieux calmes, Océan brillant profond, Forêt oubligelée et d'autres. Butin : Glace.
 - **Rencontre : Azélufo** *(optionnelle)* — tâches : observation entity blue_skies:azulfo — récompense : xp 1
@@ -572,43 +572,43 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Verger de crofruits, Lac de verger de crofruits, Dunes cristallisées, Pics des dunes cristallisées, Buttes de cristal, Bassin lunaire et d'autres. Butin : Ficelle, Oeil d'araignée, Intestins d'instectes.
 - **Rencontre : Dobcrabe** *(optionnelle)* — tâches : observation entity blue_skies:whistleshell_crab — récompense : xp 1
   > Créature de Blue Skies. Catégorie : monstre. Monde : Blue Skies. Biomes : Récif de brimble, Océan brillant profond, Plages de demi-journée, Océan brillant.
-- **Rencontre : Quail** *(optionnelle)* — tâches : observation entity deep_aether:quail — récompense : xp 1
+- **Rencontre : « Quail »** *(optionnelle)* — tâches : observation entity deep_aether:quail — récompense : xp 1
   > Créature de Deep Aether. Biomes : can quail spawn. Butin : Plume.
-- **Rencontre : Venomite** *(optionnelle)* — tâches : observation entity deep_aether:venomite — récompense : xp 1
-  > Créature de Deep Aether. Catégorie : animal. Monde : Aether. Biomes : Yagroot Swamp.
-- **Rencontre : Angler Fish** *(optionnelle)* — tâches : observation entity deeperdarker:angler_fish — récompense : xp 1
-  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns.
+- **Rencontre : « Venomite »** *(optionnelle)* — tâches : observation entity deep_aether:venomite — récompense : xp 1
+  > Créature de Deep Aether. Catégorie : animal. Monde : Aether. Biomes : « Yagroot Swamp ».
+- **Rencontre : « Angler Fish »** *(optionnelle)* — tâches : observation entity deeperdarker:angler_fish — récompense : xp 1
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : « Blooming Caverns ».
 - **Rencontre : Mille-pattes de sculk** *(optionnelle)* — tâches : observation entity deeperdarker:sculk_centipede — récompense : xp 1
-  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Deeplands. Butin : Ficelle.
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : « Deeplands ». Butin : Ficelle.
 - **Rencontre : Sangsue de sculk** *(optionnelle)* — tâches : observation entity deeperdarker:sculk_leech — récompense : xp 1
   > Créature de Deeper and Darker. Apparaît : en cassant du sculk infesté. Butin : Poussière d'âmes.
 - **Rencontre : Mordeur de sculk** *(optionnelle)* — tâches : observation entity deeperdarker:sculk_snapper — récompense : xp 1
-  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns, Deeplands, Echoing Forest. Butin : Poussière d'âmes.
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : « Blooming Caverns », « Deeplands », « Echoing Forest ». Butin : Poussière d'âmes.
 - **Rencontre : Shattered** *(optionnelle)* — tâches : observation entity deeperdarker:shattered — récompense : xp 1
-  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Deeplands, Echoing Forest. Butin : Os de sculk.
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : « Deeplands », « Echoing Forest ». Butin : Os de sculk.
 - **Rencontre : Ver hurleur** *(optionnelle)* — tâches : observation entity deeperdarker:shriek_worm — récompense : xp 1
   > Créature de Deeper and Darker. Apparaît : en cassant du sculk infesté.
-- **Rencontre : Sludge** *(optionnelle)* — tâches : observation entity deeperdarker:sludge — récompense : xp 1
-  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : Blooming Caverns.
+- **Rencontre : « Sludge »** *(optionnelle)* — tâches : observation entity deeperdarker:sludge — récompense : xp 1
+  > Créature de Deeper and Darker. Catégorie : monstre. Monde : Otherside. Biomes : « Blooming Caverns ».
 - **Rencontre : Géant en armure** *(optionnelle)* — tâches : observation entity twilightforest:armored_giant — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans le château des nuages, au-dessus des grottes des trolls. Butin : Épée de géant.
 - **Rencontre : Mouflon d'Amérique** *(optionnelle)* — tâches : observation entity twilightforest:bighorn_sheep — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
 - **Rencontre : Goblin de bloc et chaîne** *(optionnelle)* — tâches : observation entity twilightforest:blockchain_goblin — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure.
-- **Rencontre : Boar** *(optionnelle)* — tâches : observation entity twilightforest:boar — récompense : xp 1
+- **Rencontre : « Boar »** *(optionnelle)* — tâches : observation entity twilightforest:boar — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Côtelette de porc crue.
 - **Rencontre : Carminite couveuse** *(optionnelle)* — tâches : observation entity twilightforest:carminite_broodling — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans la tour sombre.
-- **Rencontre : Carminite Ghastguard** *(optionnelle)* — tâches : observation entity twilightforest:carminite_ghastguard — récompense : xp 1
+- **Rencontre : « Carminite Ghastguard »** *(optionnelle)* — tâches : observation entity twilightforest:carminite_ghastguard — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans la tour sombre.
-- **Rencontre : Carminite Ghastling** *(optionnelle)* — tâches : observation entity twilightforest:carminite_ghastling — récompense : xp 1
+- **Rencontre : « Carminite Ghastling »** *(optionnelle)* — tâches : observation entity twilightforest:carminite_ghastling — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans la tour sombre.
 - **Rencontre : Golem Carminite** *(optionnelle)* — tâches : observation entity twilightforest:carminite_golem — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans la tour sombre. Butin : Lingot de fer, Planches de Towerwood.
 - **Rencontre : Tome de mort** *(optionnelle)* — tâches : observation entity twilightforest:death_tome — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans la tour de la Liche, par ses générateurs de tomes. Butin : Papier, Livre et plume, Livre, Foyer de carte magique.
-- **Rencontre : Deer** *(optionnelle)* — tâches : observation entity twilightforest:deer — récompense : xp 1
+- **Rencontre : « Deer »** *(optionnelle)* — tâches : observation entity twilightforest:deer — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Cuir, Chevreuil cru.
 - **Rencontre : Lapin nain** *(optionnelle)* — tâches : observation entity twilightforest:dwarf_rabbit — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
@@ -624,7 +624,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de la Twilight Forest. Apparaît : dans le labyrinthe de haies.
 - **Rencontre : Reine des araignées** *(optionnelle)* — tâches : observation entity twilightforest:king_spider — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre.
-- **Rencontre : Kobold** *(optionnelle)* — tâches : observation entity twilightforest:kobold — récompense : xp 1
+- **Rencontre : « Kobold »** *(optionnelle)* — tâches : observation entity twilightforest:kobold — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Sombre, Souterrain. Butin : Blé, Pépite d'or.
 - **Rencontre : Chevalier goblin inférieur** *(optionnelle)* — tâches : observation entity twilightforest:lower_goblin_knight — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans le bastion des Gobelins. Butin : Fragment d'armure.
@@ -642,9 +642,9 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de la Twilight Forest. Apparaît : dans les collines creuses, le labyrinthe et la tour sombre.
 - **Rencontre : Bélier de quête** *(optionnelle)* — tâches : observation entity twilightforest:quest_ram — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans la clairière des quêtes de la Forêt enchantée.
-- **Rencontre : Raven** *(optionnelle)* — tâches : observation entity twilightforest:raven — récompense : xp 1
+- **Rencontre : « Raven »** *(optionnelle)* — tâches : observation entity twilightforest:raven — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Plateau Final, Forêt des Lucioles et d'autres. Butin : Plume de corbeau.
-- **Rencontre : Redcap** *(optionnelle)* — tâches : observation entity twilightforest:redcap — récompense : xp 1
+- **Rencontre : « Redcap »** *(optionnelle)* — tâches : observation entity twilightforest:redcap — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans les collines creuses. Butin : Charbon.
 - **Rencontre : Sapeur à casquette rouge** *(optionnelle)* — tâches : observation entity twilightforest:redcap_sapper — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans les collines creuses et le bastion des Gobelins.
@@ -654,7 +654,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de la Twilight Forest. Apparaît : dans les collines creuses, le labyrinthe et le bastion des Gobelins. Butin : Boule de slime.
 - **Rencontre : Gardin de la neige** *(optionnelle)* — tâches : observation entity twilightforest:snow_guardian — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans le palais des aurores. Butin : Boule de neige.
-- **Rencontre : Squirrel** *(optionnelle)* — tâches : observation entity twilightforest:squirrel — récompense : xp 1
+- **Rencontre : « Squirrel »** *(optionnelle)* — tâches : observation entity twilightforest:squirrel — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres.
 - **Rencontre : Coeur de glace stable** *(optionnelle)* — tâches : observation entity twilightforest:stable_ice_core — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans le palais des aurores. Butin : Boule de neige.
@@ -664,13 +664,13 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de la Twilight Forest. Catégorie : animal. Monde : Twilight Forest. Biomes : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt Enchantée, Forêt des Lucioles, Forêt du Crépuscule et d'autres. Butin : Plume.
 - **Rencontre : Foreur de la Towerwood** *(optionnelle)* — tâches : observation entity twilightforest:towerwood_borer — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : en cassant du bois de tour infesté, dans la tour sombre. Butin : Essence de foreur.
-- **Rencontre : Troll** *(optionnelle)* — tâches : observation entity twilightforest:troll — récompense : xp 1
+- **Rencontre : « Troll »** *(optionnelle)* — tâches : observation entity twilightforest:troll — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans les grottes des trolls. Butin : Haricots magiques.
 - **Rencontre : Coeur de glace instable** *(optionnelle)* — tâches : observation entity twilightforest:unstable_ice_core — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans le palais des aurores. Butin : Boule de neige.
 - **Rencontre : Loup d'hiver** *(optionnelle)* — tâches : observation entity twilightforest:winter_wolf — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Enneigé. Butin : Fourrure arctique.
-- **Rencontre : Wraith** *(optionnelle)* — tâches : observation entity twilightforest:wraith — récompense : xp 1
+- **Rencontre : « Wraith »** *(optionnelle)* — tâches : observation entity twilightforest:wraith — récompense : xp 1
   > Créature de la Twilight Forest. Apparaît : dans les collines creuses. Butin : Poudre lumineuse.
 - **Rencontre : Yéti** *(optionnelle)* — tâches : observation entity twilightforest:yeti — récompense : xp 1
   > Créature de la Twilight Forest. Catégorie : monstre. Monde : Twilight Forest. Biomes : Forêt Enneigé. Butin : Fourrure arctique.
@@ -708,45 +708,45 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature d'Alex's Mobs. Apparition naturelle : aucune (config du serveur). Apparaît : un moustique cramoisi qui attaque un Mungus se transforme (config du serveur). Butin : Muscle déformé, Sac à hémolymphe.
 - **Rencontre : Crapaud biscornu** *(optionnelle)* — tâches : observation entity alexsmobs:warped_toad — récompense : xp 1
   > Créature d'Alex's Mobs. Apparition (config du serveur) : Forêt biscornue. Butin : Champilampe, Verrues du Nether.
-- **Rencontre : Cubozoa** *(optionnelle)* — tâches : observation entity betterend:cubozoa — récompense : xp 1
-  > Créature de Better End. Catégorie : poisson. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove, Sulfur Springs.
-- **Rencontre : Dragonfly** *(optionnelle)* — tâches : observation entity betterend:dragonfly — récompense : xp 1
-  > Créature de Better End. Catégorie : créature d'ambiance. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove.
-- **Rencontre : End Fish** *(optionnelle)* — tâches : observation entity betterend:end_fish — récompense : xp 1
-  > Créature de Better End. Catégorie : poisson. Monde : End. Biomes : Foggy Mushroomland, Megalake, Megalake Grove, Sulfur Springs.
-- **Rencontre : End Slime** *(optionnelle)* — tâches : observation entity betterend:end_slime — récompense : xp 1
-  > Créature de Better End. Catégorie : monstre. Monde : End. Biomes : Amber Land, Chorus Forest, Foggy Mushroomland, Megalake, Megalake Grove.
-- **Rencontre : Shadow Walker** *(optionnelle)* — tâches : observation entity betterend:shadow_walker — récompense : xp 1
-  > Créature de Better End. Catégorie : monstre. Monde : End. Biomes : Shadow Forest.
-- **Rencontre : Silk Moth** *(optionnelle)* — tâches : observation entity betterend:silk_moth — récompense : xp 1
-  > Créature de Better End. Catégorie : créature d'ambiance. Monde : End. Biomes : Blossoming Spires.
+- **Rencontre : « Cubozoa »** *(optionnelle)* — tâches : observation entity betterend:cubozoa — récompense : xp 1
+  > Créature de Better End. Catégorie : poisson. Monde : End. Biomes : « Foggy Mushroomland », « Megalake », « Megalake Grove », « Sulfur Springs ».
+- **Rencontre : « Dragonfly »** *(optionnelle)* — tâches : observation entity betterend:dragonfly — récompense : xp 1
+  > Créature de Better End. Catégorie : créature d'ambiance. Monde : End. Biomes : « Foggy Mushroomland », « Megalake », « Megalake Grove ».
+- **Rencontre : « End Fish »** *(optionnelle)* — tâches : observation entity betterend:end_fish — récompense : xp 1
+  > Créature de Better End. Catégorie : poisson. Monde : End. Biomes : « Foggy Mushroomland », « Megalake », « Megalake Grove », « Sulfur Springs ».
+- **Rencontre : « End Slime »** *(optionnelle)* — tâches : observation entity betterend:end_slime — récompense : xp 1
+  > Créature de Better End. Catégorie : monstre. Monde : End. Biomes : « Amber Land », « Chorus Forest », « Foggy Mushroomland », « Megalake », « Megalake Grove ».
+- **Rencontre : « Shadow Walker »** *(optionnelle)* — tâches : observation entity betterend:shadow_walker — récompense : xp 1
+  > Créature de Better End. Catégorie : monstre. Monde : End. Biomes : « Shadow Forest ».
+- **Rencontre : « Silk Moth »** *(optionnelle)* — tâches : observation entity betterend:silk_moth — récompense : xp 1
+  > Créature de Better End. Catégorie : créature d'ambiance. Monde : End. Biomes : « Blossoming Spires ».
 - **Rencontre : Luciole** *(optionnelle)* — tâches : observation entity betternether:firefly — récompense : xp 1
-  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Poudre lumineuse.
+  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert, Magma Land et d'autres. Butin : Poudre lumineuse.
 - **Rencontre : Cochon volant** *(optionnelle)* — tâches : observation entity betternether:flying_pig — récompense : xp 1
-  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Côtelette de porc crue.
+  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert, Magma Land et d'autres. Butin : Côtelette de porc crue.
 - **Rencontre : Méduse à hydrogène** *(optionnelle)* — tâches : observation entity betternether:hydrogen_jellyfish — récompense : xp 1
-  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres.
+  > Créature de Better Nether. Catégorie : créature d'ambiance. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert, Magma Land et d'autres.
 - **Rencontre : Squelette de la jungle** *(optionnelle)* — tâches : observation entity betternether:jungle_skeleton — récompense : xp 1
-  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Flèche, Os.
+  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert, Magma Land et d'autres. Butin : Flèche, Os.
 - **Rencontre : Naga** *(optionnelle)* — tâches : observation entity betternether:naga — récompense : xp 1
-  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette.
+  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette.
 - **Rencontre : Crâne** *(optionnelle)* — tâches : observation entity betternether:skull — récompense : xp 1
-  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette.
-- **Rencontre : Corpor** *(optionnelle)* — tâches : observation entity bygonenether:corpor — récompense : xp 1
+  > Créature de Better Nether. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert, Magma Land et d'autres. Butin : Charbon, Os, Crâne de Wither squelette.
+- **Rencontre : « Corpor »** *(optionnelle)* — tâches : observation entity bygonenether:corpor — récompense : xp 1
   > Créature de Bygone Nether. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
-- **Rencontre : Piglin Hunter** *(optionnelle)* — tâches : observation entity bygonenether:piglin_hunter — récompense : xp 1
+- **Rencontre : « Piglin Hunter »** *(optionnelle)* — tâches : observation entity bygonenether:piglin_hunter — récompense : xp 1
   > Créature de Bygone Nether. Apparaît : dans des structures de Bygone Nether.
-- **Rencontre : Warped Enderman** *(optionnelle)* — tâches : observation entity bygonenether:warped_enderman — récompense : xp 1
+- **Rencontre : « Warped Enderman »** *(optionnelle)* — tâches : observation entity bygonenether:warped_enderman — récompense : xp 1
   > Créature de Bygone Nether. Apparaît : dans des structures de Bygone Nether.
-- **Rencontre : Wex** *(optionnelle)* — tâches : observation entity bygonenether:wex — récompense : xp 1
+- **Rencontre : « Wex »** *(optionnelle)* — tâches : observation entity bygonenether:wex — récompense : xp 1
   > Créature de Bygone Nether. Apparaît : invoqué par le Wraither, dans les catacombes.
-- **Rencontre : Wither Skeleton Knight** *(optionnelle)* — tâches : observation entity bygonenether:wither_skeleton_knight — récompense : xp 1
+- **Rencontre : « Wither Skeleton Knight »** *(optionnelle)* — tâches : observation entity bygonenether:wither_skeleton_knight — récompense : xp 1
   > Créature de Bygone Nether. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
-- **Rencontre : Wraither** *(optionnelle)* — tâches : observation entity bygonenether:wraither — récompense : xp 1
+- **Rencontre : « Wraither »** *(optionnelle)* — tâches : observation entity bygonenether:wraither — récompense : xp 1
   > Créature de Bygone Nether. Apparaît : dans les catacombes de Bygone Nether. Butin : Charbon, Os, Crâne de Wither squelette.
 - **Rencontre : Wildfire** *(optionnelle)* — tâches : observation entity friendsandfoes:wildfire — récompense : xp 1
   > Créature de Friends Foes, les candidats des votes de créature Minecraft. Apparaît : dans des structures de friendsandfoes. Butin : Fragment de Couronne du Wildfire.
-- **Rencontre : Vein Goblin Trader** *(optionnelle)* — tâches : observation entity goblintraders:vein_goblin_trader — récompense : xp 1
+- **Rencontre : « Vein Goblin Trader »** *(optionnelle)* — tâches : observation entity goblintraders:vein_goblin_trader — récompense : xp 1
   > Marchand de Goblin Traders. Apparaît : dans le Nether, entre Y 0 et 128 (config du serveur). Butin : Carotte.
 - **Rencontre : Blaze** *(optionnelle)* — tâches : observation entity minecraft:blaze — récompense : xp 1
   > Créature du jeu de base. Apparaît : dans des structures de hearths, betterfortresses, AdoraBuild, friendsandfoes et d'autres. Butin : Bâton de Blaze.
@@ -763,7 +763,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Piglin** *(optionnelle)* — tâches : observation entity minecraft:piglin — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin, Terres désolées du Nether.
 - **Rencontre : Piglin barbare** *(optionnelle)* — tâches : observation entity minecraft:piglin_brute — récompense : xp 1
-  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Flooded Deltas, Gravel Desert, Magma Land et d'autres.
+  > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert, Magma Land et d'autres.
 - **Rencontre : Shulker** *(optionnelle)* — tâches : observation entity minecraft:shulker — récompense : xp 1
   > Créature du jeu de base. Apparaît : dans les cités de l'End, et dans des structures de Moog's End Structures. Butin : Carapace de Shulker.
 - **Rencontre : Arpenteur** *(optionnelle)* — tâches : observation entity minecraft:strider — récompense : xp 1
@@ -774,19 +774,19 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature du jeu de base. Apparaît : dans des structures de Philip's Ruins, Repurposed Structures. Butin : Chair putréfiée.
 - **Rencontre : Piglin zombifié** *(optionnelle)* — tâches : observation entity minecraft:zombified_piglin — récompense : xp 1
   > Créature du jeu de base. Catégorie : monstre. Monde : Nether. Biomes : Forêt carmin, Terres désolées du Nether. Butin : Chair putréfiée, Pépite d'or, Lingot d'or.
-- **Rencontre : Apparition** *(optionnelle)* — tâches : observation entity netherexp:apparition — récompense : xp 1
-  > Créature de Jaden's Nether Expansion. Monde : Nether. Biomes : Vallée des âmes, Black Ice Glaciers. Butin : Chaîne.
-- **Rencontre : Banshee** *(optionnelle)* — tâches : observation entity netherexp:banshee — récompense : xp 1
+- **Rencontre : « Apparition »** *(optionnelle)* — tâches : observation entity netherexp:apparition — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Monde : Nether. Biomes : Vallée des âmes, « Black Ice Glaciers ». Butin : Chaîne.
+- **Rencontre : « Banshee »** *(optionnelle)* — tâches : observation entity netherexp:banshee — récompense : xp 1
   > Créature de Jaden's Nether Expansion. Apparaît : dans des structures de Jaden's Nether Expansion.
-- **Rencontre : Carcass** *(optionnelle)* — tâches : observation entity netherexp:carcass — récompense : xp 1
+- **Rencontre : « Carcass »** *(optionnelle)* — tâches : observation entity netherexp:carcass — récompense : xp 1
   > Créature de Jaden's Nether Expansion. Apparaît : dans des structures de Jaden's Nether Expansion.
-- **Rencontre : Vessel** *(optionnelle)* — tâches : observation entity netherexp:vessel — récompense : xp 1
-  > Créature de Jaden's Nether Expansion. Monde : Nether. Biomes : Black Ice Glaciers, Vallée des âmes. Butin : Os.
+- **Rencontre : « Vessel »** *(optionnelle)* — tâches : observation entity netherexp:vessel — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Monde : Nether. Biomes : « Black Ice Glaciers », Vallée des âmes. Butin : Os.
 - **Rencontre : Renard de feu** *(optionnelle)* — tâches : observation entity quark:foxhound — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : Terres désolées du Nether ; Deltas de basalte ; Vallée des âmes. Butin : Cuir, Charbon.
 - **Rencontre : Spectre** *(optionnelle)* — tâches : observation entity quark:wraith — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : Vallée des âmes. Butin : Perle d'âme.
-- **Rencontre : Bone Wyrm** *(optionnelle)* — tâches : observation entity soulfulnether:bone_wyrm — récompense : xp 1
+- **Rencontre : « Bone Wyrm »** *(optionnelle)* — tâches : observation entity soulfulnether:bone_wyrm — récompense : xp 1
   > Créature de Soulful Nether. Apparaît : d'un nid de wyrm d'os, dans les vallées des âmes.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : alexsmobs_bone_serpent, alexsmobs_cosmaw, alexsmobs_cosmic_cod, alexsmobs_crimson_mosquito, alexsmobs_endergrade, alexsmobs_enderiophage, alexsmobs_laviathan, alexsmobs_mimicube, alexsmobs_soul_vulture, alexsmobs_straddler, alexsmobs_stradpole, alexsmobs_warped_mosco, alexsmobs_warped_toad, betterend_cubozoa, betterend_dragonfly, betterend_end_fish, betterend_end_slime, betterend_shadow_walker, betterend_silk_moth, betternether_firefly, betternether_flying_pig, betternether_hydrogen_jellyfish, betternether_jungle_skeleton, betternether_naga, betternether_skull, bygonenether_corpor, bygonenether_piglin_hunter, bygonenether_warped_enderman, bygonenether_wex, bygonenether_wither_skeleton_knight, bygonenether_wraither, friendsandfoes_wildfire, goblintraders_vein_goblin_trader, minecraft_blaze, minecraft_endermite, minecraft_ghast, minecraft_happy_ghast, minecraft_hoglin, minecraft_magma_cube, minecraft_piglin, minecraft_piglin_brute, minecraft_shulker, minecraft_strider, minecraft_wither_skeleton, minecraft_zoglin, minecraft_zombified_piglin, netherexp_apparition, netherexp_banshee, netherexp_carcass, netherexp_vessel, quark_foxhound, quark_wraith, soulfulnether_bone_wyrm
   > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
@@ -971,28 +971,28 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : garde villageois** *(optionnelle)* — tâches : observation entity guardvillagers:guard — récompense : xp 1
   > Créature de Guard Villagers. Apparaît : dans les villages, six par village.
   >   > Les villages ont des gardes armés. Ils défendent les villageois contre les pillards, et contre toi si tu frappes un villageois sous leurs yeux.
-- **Rencontre : Alchemist** *(optionnelle)* — tâches : observation entity illagerinvasion:alchemist — récompense : xp 1
+- **Rencontre : « Alchemist »** *(optionnelle)* — tâches : observation entity illagerinvasion:alchemist — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Poudre à canon, Fiole.
-- **Rencontre : Archivist** *(optionnelle)* — tâches : observation entity illagerinvasion:archivist — récompense : xp 1
+- **Rencontre : « Archivist »** *(optionnelle)* — tâches : observation entity illagerinvasion:archivist — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Livre, Papier.
-- **Rencontre : Basher** *(optionnelle)* — tâches : observation entity illagerinvasion:basher — récompense : xp 1
+- **Rencontre : « Basher »** *(optionnelle)* — tâches : observation entity illagerinvasion:basher — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Pépite de fer.
-- **Rencontre : Firecaller** *(optionnelle)* — tâches : observation entity illagerinvasion:firecaller — récompense : xp 1
+- **Rencontre : « Firecaller »** *(optionnelle)* — tâches : observation entity illagerinvasion:firecaller — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Charge de feu.
-- **Rencontre : Inquisitor** *(optionnelle)* — tâches : observation entity illagerinvasion:inquisitor — récompense : xp 1
+- **Rencontre : « Inquisitor »** *(optionnelle)* — tâches : observation entity illagerinvasion:inquisitor — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Lingot de fer, Cuir.
 - **Rencontre : Invoker** *(optionnelle)* — tâches : observation entity illagerinvasion:invoker — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les raids de village, en dernière vague. Butin : Émeraude.
   >   > Le maître des illageois, dernière vague des raids de village. Un boss : sa mort est annoncée dans #faits-d-armes, et sa quête de combat est dans le chapitre Donjons et autres boss.
-- **Rencontre : Marauder** *(optionnelle)* — tâches : observation entity illagerinvasion:marauder — récompense : xp 1
+- **Rencontre : « Marauder »** *(optionnelle)* — tâches : observation entity illagerinvasion:marauder — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude.
-- **Rencontre : Necromancer** *(optionnelle)* — tâches : observation entity illagerinvasion:necromancer — récompense : xp 1
+- **Rencontre : « Necromancer »** *(optionnelle)* — tâches : observation entity illagerinvasion:necromancer — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Crâne de squelette, Tête de zombie.
-- **Rencontre : Provoker** *(optionnelle)* — tâches : observation entity illagerinvasion:provoker — récompense : xp 1
+- **Rencontre : « Provoker »** *(optionnelle)* — tâches : observation entity illagerinvasion:provoker — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans les structures d'Illager Invasion et dans les raids. Butin : Émeraude, Flèche.
-- **Rencontre : Sorcerer** *(optionnelle)* — tâches : observation entity illagerinvasion:sorcerer — récompense : xp 1
+- **Rencontre : « Sorcerer »** *(optionnelle)* — tâches : observation entity illagerinvasion:sorcerer — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : dans sa hutte et dans les raids. Butin : Émeraude, Livre.
-- **Rencontre : Surrendered** *(optionnelle)* — tâches : observation entity illagerinvasion:surrendered — récompense : xp 1
+- **Rencontre : « Surrendered »** *(optionnelle)* — tâches : observation entity illagerinvasion:surrendered — récompense : xp 1
   > Illageois d'Illager Invasion. Apparaît : invoqué par l'Invoker.
 - **Rencontre : Allay** *(optionnelle)* — tâches : observation entity minecraft:allay — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Bosquet mystique.
@@ -1061,7 +1061,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Perroquet** *(optionnelle)* — tâches : observation entity minecraft:parrot — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Jungle. Butin : Plume.
 - **Rencontre : Phantom** *(optionnelle)* — tâches : observation entity minecraft:phantom — récompense : xp 1
-  > Créature du jeu de base. Catégorie : monstre. Monde : End, Otherside. Biomes : Shadow Forest, Deeplands. Butin : Membrane de Phantom.
+  > Créature du jeu de base. Catégorie : monstre. Monde : End, Otherside. Biomes : « Shadow Forest », « Deeplands ». Butin : Membrane de Phantom.
 - **Rencontre : Cochon** *(optionnelle)* — tâches : observation entity minecraft:pig — récompense : xp 1
   > Créature du jeu de base. Catégorie : animal. Monde : Overworld. Biomes : Jungle de bambous, Forêt de bouleaux, Bosquet de cerisiers, Forêt sombre, Forêt fleurie, Forêt et d'autres. Butin : Côtelette de porc crue.
 - **Rencontre : Pillard** *(optionnelle)* — tâches : observation entity minecraft:pillager — récompense : xp 1
@@ -1129,7 +1129,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature du jeu de base. Catégorie : monstre. Monde : Overworld. Biomes : Badlands, Jungle de bambous, Plage, Forêt de bouleaux, Bosquet de cerisiers, Océan froid et d'autres. Butin : Chair putréfiée, Lingot de fer, Carotte, Pomme de terre.
 - **Rencontre : Bluff** *(optionnelle)* — tâches : observation entity mowziesmobs:bluff — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition naturelle : aucune (config du serveur). Apparaît : dans le monastère du Sculpteur, où deux générateurs le font sortir.
-- **Rencontre : Elokosa Howler** *(optionnelle)* — tâches : observation entity mowziesmobs:elokosa_howler — récompense : xp 1
+- **Rencontre : « Elokosa Howler »** *(optionnelle)* — tâches : observation entity mowziesmobs:elokosa_howler — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : jungles.
 - **Rencontre : Foliaath** *(optionnelle)* — tâches : observation entity mowziesmobs:foliaath — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : jungles. Butin : Graine de Foliaath.
@@ -1145,26 +1145,26 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Rencontre : Sculpteur** *(optionnelle)* — tâches : observation entity mowziesmobs:sculptor — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : pics.
   >   > Tongbi, dans un monastère des pics gelés. Il propose une épreuve d'escalade plutôt qu'un combat.
-- **Rencontre : Umvuthana** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana — récompense : xp 1
+- **Rencontre : « Umvuthana »** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparaît : dans le bosquet des Umvuthana, autour du feu, et invoqué par Umvuthi.
-- **Rencontre : Umvuthana Crane** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana_crane — récompense : xp 1
+- **Rencontre : « Umvuthana Crane »** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana_crane — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparaît : invoqué par Umvuthi pendant son combat, dans le bosquet des Umvuthana.
-- **Rencontre : Umvuthana Raptor** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana_raptor — récompense : xp 1
+- **Rencontre : « Umvuthana Raptor »** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthana_raptor — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : savanes.
 - **Rencontre : Umvuthi** *(optionnelle)* — tâches : observation entity mowziesmobs:umvuthi — récompense : xp 1
   > Créature de Mowzie's Mobs. Apparition (config du serveur) : savanes. Butin : Plume.
   >   > L'oiseau-soleil, sur son trône au cœur d'un village Umvuthana dans la savane. On peut lui parler avant de le combattre : ses fidèles vendent des masques.
-- **Rencontre : Skeleton Cat** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_cat — récompense : xp 1
+- **Rencontre : « Skeleton Cat »** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_cat — récompense : xp 1
   > Créature de Pet Cemetery. Apparaît : en ranimant une seconde fois un animal déjà zombie.
-- **Rencontre : Skeleton Parrot** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_parrot — récompense : xp 1
+- **Rencontre : « Skeleton Parrot »** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_parrot — récompense : xp 1
   > Créature de Pet Cemetery. Apparaît : en ranimant une seconde fois un animal déjà zombie.
-- **Rencontre : Skeleton Wolf** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_wolf — récompense : xp 1
+- **Rencontre : « Skeleton Wolf »** *(optionnelle)* — tâches : observation entity pet_cemetery:skeleton_wolf — récompense : xp 1
   > Créature de Pet Cemetery. Apparaît : en ranimant une seconde fois un animal déjà zombie.
-- **Rencontre : Zombie Cat** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_cat — récompense : xp 1
+- **Rencontre : « Zombie Cat »** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_cat — récompense : xp 1
   > Créature de Pet Cemetery. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
-- **Rencontre : Zombie Parrot** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_parrot — récompense : xp 1
+- **Rencontre : « Zombie Parrot »** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_parrot — récompense : xp 1
   > Créature de Pet Cemetery. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
-- **Rencontre : Zombie Wolf** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_wolf — récompense : xp 1
+- **Rencontre : « Zombie Wolf »** *(optionnelle)* — tâches : observation entity pet_cemetery:zombie_wolf — récompense : xp 1
   > Créature de Pet Cemetery. Apparaît : en ranimant un animal apprivoisé mort : son collier sur une ancre de réapparition.
 - **Rencontre : Crabe** *(optionnelle)* — tâches : observation entity quark:crab — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : plages. Butin : Carapace de crabe, Patte de crabe crue.
@@ -1176,11 +1176,11 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de Quark. Catégorie : animal. Biomes : Forêt lumineuse. Butin : Coeur de diamant.
 - **Rencontre : Tortue** *(optionnelle)* — tâches : observation entity quark:toretoise — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : partout (sauf le Vide, tout le Nether, tout l'End). Apparaît : dans les grottes sous Y 0.
-- **Rencontre : Archer** *(optionnelle)* — tâches : observation entity takesapillage:archer — récompense : xp 1
+- **Rencontre : « Archer »** *(optionnelle)* — tâches : observation entity takesapillage:archer — récompense : xp 1
   > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Flèche, Émeraude.
-- **Rencontre : Legioner** *(optionnelle)* — tâches : observation entity takesapillage:legioner — récompense : xp 1
+- **Rencontre : « Legioner »** *(optionnelle)* — tâches : observation entity takesapillage:legioner — récompense : xp 1
   > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
-- **Rencontre : Skirmisher** *(optionnelle)* — tâches : observation entity takesapillage:skirmisher — récompense : xp 1
+- **Rencontre : « Skirmisher »** *(optionnelle)* — tâches : observation entity takesapillage:skirmisher — récompense : xp 1
   > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
@@ -1764,6 +1764,1640 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Biome de YUNG's Cave Biomes, dans l'Overworld.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.
+
+## Structures — donjons, villes et tours  (`enc_structures_donjons_villages`, 126 quêtes)
+
+- **Structures — donjons, villes et tours** — tâches : checkmark Lu — récompense : xp 2
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+- **Visiter : « Abandoned temple »** *(optionnelle)* — tâches : structure dungeons_arise:abandoned_temple — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Aviary »** *(optionnelle)* — tâches : structure dungeons_arise:aviary — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+- **Visiter : « Bandit towers »** *(optionnelle)* — tâches : structure dungeons_arise:bandit_towers — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Bandit village »** *(optionnelle)* — tâches : structure dungeons_arise:bandit_village — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Bathhouse »** *(optionnelle)* — tâches : structure dungeons_arise:bathhouse — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Ceryneian hind »** *(optionnelle)* — tâches : structure dungeons_arise:ceryneian_hind — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Désert (données du serveur).
+- **Visiter : « Coliseum »** *(optionnelle)* — tâches : structure dungeons_arise:coliseum — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+- **Visiter : « Fishing hut »** *(optionnelle)* — tâches : structure dungeons_arise:fishing_hut — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+- **Visiter : « Giant mushroom »** *(optionnelle)* — tâches : structure dungeons_arise:giant_mushroom — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+- **Visiter : « Greenwood pub »** *(optionnelle)* — tâches : structure dungeons_arise:greenwood_pub — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Illager campsite »** *(optionnelle)* — tâches : structure dungeons_arise:illager_campsite — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Hauts plateaux, Prairie, Plaines, Plaines de tournesols, Forêt venteuse et d'autres (données du serveur).
+- **Visiter : « Illager corsair »** *(optionnelle)* — tâches : structure dungeons_arise:illager_corsair — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Illager fort »** *(optionnelle)* — tâches : structure dungeons_arise:illager_fort — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Illager galley »** *(optionnelle)* — tâches : structure dungeons_arise:illager_galley — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Illager windmill »** *(optionnelle)* — tâches : structure dungeons_arise:illager_windmill — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+- **Visiter : « Infested temple »** *(optionnelle)* — tâches : structure dungeons_arise:infested_temple — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Jungle tree house »** *(optionnelle)* — tâches : structure dungeons_arise:jungle_tree_house — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Keep kayra »** *(optionnelle)* — tâches : structure dungeons_arise:keep_kayra — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Marais à mangroves, Marais (données du serveur).
+- **Visiter : « Lighthouse »** *(optionnelle)* — tâches : structure dungeons_arise:lighthouse — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plaines, Plage enneigée (données du serveur).
+- **Visiter : « Merchant campsite »** *(optionnelle)* — tâches : structure dungeons_arise:merchant_campsite — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+- **Visiter : « Mining system »** *(optionnelle)* — tâches : structure dungeons_arise:mining_system — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Monastery »** *(optionnelle)* — tâches : structure dungeons_arise:monastery — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Tourbière, Forêt de conifères, Escarpée, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Mushroom house »** *(optionnelle)* — tâches : structure dungeons_arise:mushroom_house — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Mushroom mines »** *(optionnelle)* — tâches : structure dungeons_arise:mushroom_mines — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Mushroom village »** *(optionnelle)* — tâches : structure dungeons_arise:mushroom_village — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Plague asylum »** *(optionnelle)* — tâches : structure dungeons_arise:plague_asylum — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Scorched mines »** *(optionnelle)* — tâches : structure dungeons_arise:scorched_mines — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Désert (données du serveur).
+- **Visiter : « Shiraz palace »** *(optionnelle)* — tâches : structure dungeons_arise:shiraz_palace — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Désert (données du serveur).
+- **Visiter : « Thornborn towers »** *(optionnelle)* — tâches : structure dungeons_arise:thornborn_towers — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Typhon »** *(optionnelle)* — tâches : structure dungeons_arise:typhon — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Undead pirate ship »** *(optionnelle)* — tâches : structure dungeons_arise:undead_pirate_ship — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Wishing well »** *(optionnelle)* — tâches : structure dungeons_arise:wishing_well — récompense : xp 1
+  > Structure de When Dungeons Arise. Se génère dans : Prairie, Plaines, Plaines de tournesols (données du serveur).
+- **Visiter : « Abandoned camp »** *(optionnelle)* — tâches : structure structory:abandoned_camp — récompense : xp 1
+  > Structure de Structory. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur).
+- **Visiter : « Abandoned chapel »** *(optionnelle)* — tâches : structure structory:abandoned_chapel — récompense : xp 1
+  > Structure de Structory. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur).
+- **Visiter : « Boat »** *(optionnelle)* — tâches : structure structory:boat — récompense : xp 1
+  > Structure de Structory. Se génère dans : Océan froid, Océan froid profond, Océan tiède profond, Océan profond, Océan tiède et d'autres (données du serveur).
+- **Visiter : « Dense forest ruin »** *(optionnelle)* — tâches : structure structory:dense_forest_ruin — récompense : xp 1
+  > Structure de Structory. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Firetower »** *(optionnelle)* — tâches : structure structory:firetower — récompense : xp 1
+  > Structure de Structory. Se génère dans : Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Graveyard »** *(optionnelle)* — tâches : structure structory:graveyard — récompense : xp 1
+  > Structure de Structory. Se génère dans : Forêt de bouleaux, Forêt sombre, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins et d'autres (données du serveur).
+- **Visiter : « Jungle ruin »** *(optionnelle)* — tâches : structure structory:jungle_ruin — récompense : xp 1
+  > Structure de Structory. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur).
+- **Visiter : « Northern ruin »** *(optionnelle)* — tâches : structure structory:northern_ruin — récompense : xp 1
+  > Structure de Structory. Se génère dans : Plaines, Plaines de tournesols (données du serveur).
+- **Visiter : « Old manor »** *(optionnelle)* — tâches : structure structory:old_manor — récompense : xp 1
+  > Structure de Structory. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Outcast villager desert »** *(optionnelle)* — tâches : structure structory:outcast_villager_desert — récompense : xp 1
+  > Structure de Structory. Se génère dans : Désert (données du serveur).
+- **Visiter : « Outcast villager grassy »** *(optionnelle)* — tâches : structure structory:outcast_villager_grassy — récompense : xp 1
+  > Structure de Structory. Se génère dans : Forêt de bouleaux, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins et d'autres (données du serveur).
+- **Visiter : « Ruin grassy »** *(optionnelle)* — tâches : structure structory:ruin_grassy — récompense : xp 1
+  > Structure de Structory. Se génère dans : Forêt de bouleaux, Forêt, Forêt ancienne de bouleaux, Taïga ancienne de pins, Taïga ancienne de sapins et d'autres (données du serveur).
+- **Visiter : « Swamp ruin »** *(optionnelle)* — tâches : structure structory:swamp_ruin — récompense : xp 1
+  > Structure de Structory. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Taiga ruin surface »** *(optionnelle)* — tâches : structure structory:taiga_ruin_surface — récompense : xp 1
+  > Structure de Structory. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Taiga ruin underground »** *(optionnelle)* — tâches : structure structory:taiga_ruin_underground — récompense : xp 1
+  > Structure de Structory. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Ancient temple »** *(optionnelle)* — tâches : structure structory_towers:ancient_temple — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur).
+- **Visiter : « End tower »** *(optionnelle)* — tâches : structure structory_towers:end/end_tower — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Engineer tower »** *(optionnelle)* — tâches : structure structory_towers:engineer_tower — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Farmer outpost »** *(optionnelle)* — tâches : structure structory_towers:farmer_outpost — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Forêt fleurie, Forêt, Prairie, Plaines, Savane et d'autres (données du serveur).
+- **Visiter : « Foraging outpost »** *(optionnelle)* — tâches : structure structory_towers:foraging_outpost — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Great toadstool »** *(optionnelle)* — tâches : structure structory_towers:great_toadstool — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Forêt sombre, Champs de champignons (données du serveur).
+- **Visiter : « Lighthouse »** *(optionnelle)* — tâches : structure structory_towers:lighthouse — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Plage (données du serveur).
+- **Visiter : « Mirage outpost »** *(optionnelle)* — tâches : structure structory_towers:mirage_outpost — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Désert (données du serveur).
+- **Visiter : « Fortress tower »** *(optionnelle)* — tâches : structure structory_towers:nether/fortress_tower — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Strange outpost »** *(optionnelle)* — tâches : structure structory_towers:nether/strange_outpost — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Vallée des âmes (données du serveur).
+- **Visiter : « Warped outpost »** *(optionnelle)* — tâches : structure structory_towers:nether/warped_outpost — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Forêt biscornue (données du serveur).
+- **Visiter : « Nomad outpost »** *(optionnelle)* — tâches : structure structory_towers:nomad_outpost — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Badlands, Badlands boisées (données du serveur).
+- **Visiter : « Ocean pillar »** *(optionnelle)* — tâches : structure structory_towers:ocean_pillar — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Océan froid, Océan tiède, Océan, Océan chaud (données du serveur).
+- **Visiter : « Overgrown mangrove »** *(optionnelle)* — tâches : structure structory_towers:overgrown_mangrove — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Pillager lookout »** *(optionnelle)* — tâches : structure structory_towers:pillager_lookout — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Plaines (données du serveur).
+- **Visiter : « Quarter outpost »** *(optionnelle)* — tâches : structure structory_towers:quarter_outpost — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Jungle de bambous, Jungle (données du serveur).
+- **Visiter : « Sacred relic temple »** *(optionnelle)* — tâches : structure structory_towers:sacred_relic_temple — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Jungle clairsemée (données du serveur).
+- **Visiter : « Small firetower »** *(optionnelle)* — tâches : structure structory_towers:small_firetower — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Taiga outpost »** *(optionnelle)* — tâches : structure structory_towers:taiga_outpost — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Bosquet, Taïga enneigée, Taïga (données du serveur).
+- **Visiter : « Warped greatsword »** *(optionnelle)* — tâches : structure structory_towers:warped_greatsword — récompense : xp 1
+  > Structure de Structory Towers. Se génère dans : Hauts plateaux, Forêt venteuse, Collines graveleuses venteuses, Collines venteuses, Savane venteuse (données du serveur).
+- **Visiter : « Pillager outpost classic »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/pillager_outpost_classic — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Vallée originelle (données du serveur).
+- **Visiter : « Pillager outpost iberian »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/pillager_outpost_iberian — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Savane luxuriante (données du serveur).
+- **Visiter : « Pillager outpost mediterranean »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/pillager_outpost_mediterranean — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt méditerranéenne, Fruticée rocailleuse, Brousse, Fruticée (données du serveur).
+- **Visiter : « Pillager outpost oriental »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/pillager_outpost_oriental — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Désert luxuriant (données du serveur).
+- **Visiter : « Pillager outpost rustic »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/pillager_outpost_rustic — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt saisonnière (données du serveur).
+- **Visiter : « Pillager outpost swedish »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/pillager_outpost_swedish — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Clairière de pins (données du serveur).
+- **Visiter : « Pillager outpost tudor »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/pillager_outpost_tudor — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Hauts plateaux (données du serveur).
+- **Visiter : « Village classic »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/village_classic — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Vallée originelle (données du serveur).
+- **Visiter : « Village iberian »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/village_iberian — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Savane luxuriante (données du serveur).
+- **Visiter : « Village mediterranean »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/village_mediterranean — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt méditerranéenne, Fruticée rocailleuse, Brousse, Fruticée (données du serveur).
+- **Visiter : « Village rustic »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/village_rustic — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt saisonnière (données du serveur).
+- **Visiter : « Village swedish »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/village_swedish — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Clairière de pins (données du serveur).
+- **Visiter : « Village tudor »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/village_tudor — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Hauts plateaux (données du serveur).
+- **Visiter : « Village wandering trader camp »** *(optionnelle)* — tâches : structure towns_and_towers:exclusives/village_wandering_trader_camp — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Désert luxuriant (données du serveur).
+- **Visiter : « Mimic desert »** *(optionnelle)* — tâches : structure towns_and_towers:mimic_desert — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Désert (données du serveur).
+- **Visiter : « Pillager outpost badlands »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_badlands — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Badlands (données du serveur).
+- **Visiter : « Pillager outpost beach »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_beach — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Plage de dunes, Plage (données du serveur).
+- **Visiter : « Pillager outpost birch forest »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_birch_forest — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Pillager outpost desert »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_desert — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Désert (données du serveur).
+- **Visiter : « Pillager outpost flower forest »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_flower_forest — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Bosquet de cerisiers, Forêt fleurie (données du serveur).
+- **Visiter : « Pillager outpost forest »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_forest — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt ancienne, Bois, Forêt (données du serveur).
+- **Visiter : « Pillager outpost grove »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_grove — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Bosquet (données du serveur).
+- **Visiter : « Pillager outpost jungle »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_jungle — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt tropicale, Forêt tropicale rocailleuse, Jungle (données du serveur).
+- **Visiter : « Pillager outpost meadow »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_meadow — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Champ, Prairie (données du serveur).
+- **Visiter : « Pillager outpost mushroom fields »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_mushroom_fields — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Champs de champignons (données du serveur).
+- **Visiter : « Pillager outpost ocean »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_ocean — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Pillager outpost old growth taiga »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_old_growth_taiga — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Pillager outpost savanna »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_savanna — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Savane (données du serveur).
+- **Visiter : « Pillager outpost savanna plateau »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_savanna_plateau — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Plateau de savane (données du serveur).
+- **Visiter : « Pillager outpost snowy beach »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_snowy_beach — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Plage enneigée (données du serveur).
+- **Visiter : « Pillager outpost snowy plains »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_snowy_plains — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Désert froid, Fondrière, Plaines enneigées (données du serveur).
+- **Visiter : « Pillager outpost snowy slopes »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_snowy_slopes — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Pentes enneigées (données du serveur).
+- **Visiter : « Pillager outpost snowy taiga »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_snowy_taiga — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Taïga enneigée (données du serveur).
+- **Visiter : « Pillager outpost sparse jungle »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_sparse_jungle — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Plaine inondable, Tropiques, Jungle clairsemée (données du serveur).
+- **Visiter : « Pillager outpost sunflower plains »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_sunflower_plains — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Pâturage, Parcelle de citrouilles, Plaines de tournesols (données du serveur).
+- **Visiter : « Pillager outpost swamp »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_swamp — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Marécages, Marais (données du serveur).
+- **Visiter : « Pillager outpost taiga »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_taiga — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt de conifères, Escarpée, Clairière de pins, Taïga (données du serveur).
+- **Visiter : « Pillager outpost wooded badlands »** *(optionnelle)* — tâches : structure towns_and_towers:pillager_outpost_wooded_badlands — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Badlands boisées (données du serveur).
+- **Visiter : « Village badlands »** *(optionnelle)* — tâches : structure towns_and_towers:village_badlands — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Badlands (données du serveur).
+- **Visiter : « Village beach »** *(optionnelle)* — tâches : structure towns_and_towers:village_beach — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Plage de dunes, Plage (données du serveur).
+- **Visiter : « Village birch forest »** *(optionnelle)* — tâches : structure towns_and_towers:village_birch_forest — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Village flower forest »** *(optionnelle)* — tâches : structure towns_and_towers:village_flower_forest — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Bosquet de cerisiers, Forêt fleurie (données du serveur).
+- **Visiter : « Village forest »** *(optionnelle)* — tâches : structure towns_and_towers:village_forest — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt ancienne, Bois, Forêt (données du serveur).
+- **Visiter : « Village grove »** *(optionnelle)* — tâches : structure towns_and_towers:village_grove — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Bosquet (données du serveur).
+- **Visiter : « Village jungle »** *(optionnelle)* — tâches : structure towns_and_towers:village_jungle — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Forêt tropicale, Forêt tropicale rocailleuse, Jungle (données du serveur).
+- **Visiter : « Village meadow »** *(optionnelle)* — tâches : structure towns_and_towers:village_meadow — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Champ, Prairie (données du serveur).
+- **Visiter : « Village mushroom fields »** *(optionnelle)* — tâches : structure towns_and_towers:village_mushroom_fields — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Champs de champignons (données du serveur).
+- **Visiter : « Village ocean »** *(optionnelle)* — tâches : structure towns_and_towers:village_ocean — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Village old growth taiga »** *(optionnelle)* — tâches : structure towns_and_towers:village_old_growth_taiga — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Village savanna plateau »** *(optionnelle)* — tâches : structure towns_and_towers:village_savanna_plateau — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Plateau de savane (données du serveur).
+- **Visiter : « Village snowy slopes »** *(optionnelle)* — tâches : structure towns_and_towers:village_snowy_slopes — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Pentes enneigées (données du serveur).
+- **Visiter : « Village snowy taiga »** *(optionnelle)* — tâches : structure towns_and_towers:village_snowy_taiga — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Taïga enneigée (données du serveur).
+- **Visiter : « Village sparse jungle »** *(optionnelle)* — tâches : structure towns_and_towers:village_sparse_jungle — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Plaine inondable, Tropiques, Jungle clairsemée (données du serveur).
+- **Visiter : « Village sunflower plains »** *(optionnelle)* — tâches : structure towns_and_towers:village_sunflower_plains — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Pâturage, Parcelle de citrouilles, Plaines de tournesols (données du serveur).
+- **Visiter : « Village swamp »** *(optionnelle)* — tâches : structure towns_and_towers:village_swamp — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Marécages, Marais (données du serveur).
+- **Visiter : « Village wooded badlands »** *(optionnelle)* — tâches : structure towns_and_towers:village_wooded_badlands — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Badlands boisées (données du serveur).
+- **Visiter : « Wreckage ocean »** *(optionnelle)* — tâches : structure towns_and_towers:wreckage_ocean — récompense : xp 1
+  > Structure de Towns and Towers. Se génère dans : Océan froid, Océan tiède, Océan, Océan chaud (données du serveur).
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+
+## Structures — autres mondes  (`enc_structures_mondes`, 90 quêtes)
+
+- **Structures — autres mondes** — tâches : checkmark Lu — récompense : xp 2
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+- **Visiter : « Bronze dungeon »** *(optionnelle)* — tâches : structure aether:bronze_dungeon — récompense : xp 1
+  > Structure de Aether. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+- **Visiter : « Gold dungeon »** *(optionnelle)* — tâches : structure aether:gold_dungeon — récompense : xp 1
+  > Structure de Aether. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+- **Visiter : « Large aercloud »** *(optionnelle)* — tâches : structure aether:large_aercloud — récompense : xp 1
+  > Structure de Aether. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+- **Visiter : « Silver dungeon »** *(optionnelle)* — tâches : structure aether:silver_dungeon — récompense : xp 1
+  > Structure de Aether. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+- **Visiter : « Olympic citadel »** *(optionnelle)* — tâches : structure aether_villages:olympic_citadel — récompense : xp 1
+  > Structure de Aether Villages. Se génère dans : Forêt de skyroot, Prairie de skyroot, « Cloudcaps », « Frosted Forests », « Gilded Groves » et d'autres (données du serveur).
+- **Visiter : « End village »** *(optionnelle)* — tâches : structure betterend:end_village — récompense : xp 1
+  > Structure de Better End. Se génère dans : « Dust Wastelands », « Glowing Grasslands » (données du serveur).
+- **Visiter : « Eternal portal »** *(optionnelle)* — tâches : structure betterend:eternal_portal — récompense : xp 1
+  > Structure de Better End. Se génère dans : « Chorus Forest », « Dragon Graveyards », « Dry Shrubland », « Dust Wastelands », « Foggy Mushroomland » et d'autres (données du serveur).
+- **Visiter : « Giant ice star »** *(optionnelle)* — tâches : structure betterend:giant_ice_star — récompense : xp 1
+  > Structure de Better End. Se génère dans : « Ice Starfield » (données du serveur).
+- **Visiter : « Giant mossy glowshroom »** *(optionnelle)* — tâches : structure betterend:giant_mossy_glowshroom — récompense : xp 1
+  > Structure de Better End. Se génère dans : « Foggy Mushroomland » (données du serveur).
+- **Visiter : « Megalake »** *(optionnelle)* — tâches : structure betterend:megalake — récompense : xp 1
+  > Structure de Better End. Se génère dans : « Megalake » (données du serveur).
+- **Visiter : « Megalake small »** *(optionnelle)* — tâches : structure betterend:megalake_small — récompense : xp 1
+  > Structure de Better End. Se génère dans : « Megalake Grove » (données du serveur).
+- **Visiter : « Mountain »** *(optionnelle)* — tâches : structure betterend:mountain — récompense : xp 1
+  > Structure de Better End. Se génère dans : « Crystal Mountains » (données du serveur).
+- **Visiter : « Painted mountain »** *(optionnelle)* — tâches : structure betterend:painted_mountain — récompense : xp 1
+  > Structure de Better End. Se génère dans : « Painted Mountains » (données du serveur).
+- **Visiter : « Altars »** *(optionnelle)* — tâches : structure betternether:altars — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Gardens »** *(optionnelle)* — tâches : structure betternether:gardens — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Ghast hive »** *(optionnelle)* — tâches : structure betternether:ghast_hive — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Jungle temples »** *(optionnelle)* — tâches : structure betternether:jungle_temples — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Nether city »** *(optionnelle)* — tâches : structure betternether:nether_city — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Pillars »** *(optionnelle)* — tâches : structure betternether:pillars — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Portals »** *(optionnelle)* — tâches : structure betternether:portals — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Pyramid »** *(optionnelle)* — tâches : structure betternether:pyramid — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Respawn points »** *(optionnelle)* — tâches : structure betternether:respawn_points — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Spawn altar ladder »** *(optionnelle)* — tâches : structure betternether:spawn_altar_ladder — récompense : xp 1
+  > Structure de Better Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Everbright blinding dungeon »** *(optionnelle)* — tâches : structure blue_skies:everbright_blinding_dungeon — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Landes brillantes, Prairie brisegelée, Cieux calmes, Pins neigeux (données du serveur).
+- **Visiter : « Everdawn blinding dungeon »** *(optionnelle)* — tâches : structure blue_skies:everdawn_blinding_dungeon — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Verger de crofruits, Dunes cristallisées, Buttes de cristal, Prairie brûlante, Bosquets de l'ombre et d'autres (données du serveur).
+- **Visiter : « Frozen bunker »** *(optionnelle)* — tâches : structure blue_skies:frozen_bunker — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Terres détrempées (données du serveur).
+- **Visiter : « Gatekeeper house mountain »** *(optionnelle)* — tâches : structure blue_skies:gatekeeper_house_mountain — récompense : xp 1
+  > Structure de Blue Skies.
+- **Visiter : « Gatekeeper house plains »** *(optionnelle)* — tâches : structure blue_skies:gatekeeper_house_plains — récompense : xp 1
+  > Structure de Blue Skies.
+- **Visiter : « Gatekeeper house snowy »** *(optionnelle)* — tâches : structure blue_skies:gatekeeper_house_snowy — récompense : xp 1
+  > Structure de Blue Skies.
+- **Visiter : « Nature dungeon »** *(optionnelle)* — tâches : structure blue_skies:nature_dungeon — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Pins neigeux (données du serveur).
+- **Visiter : « Poison dungeon »** *(optionnelle)* — tâches : structure blue_skies:poison_dungeon — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Forêt d'érables (données du serveur).
+- **Visiter : « Village brightlands »** *(optionnelle)* — tâches : structure blue_skies:village_brightlands — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Pins neigeux (données du serveur).
+- **Visiter : « Village calming skies »** *(optionnelle)* — tâches : structure blue_skies:village_calming_skies — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Cieux calmes (données du serveur).
+- **Visiter : « Village crystal dunes »** *(optionnelle)* — tâches : structure blue_skies:village_crystal_dunes — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Dunes cristallisées (données du serveur).
+- **Visiter : « Village shaded woodlands »** *(optionnelle)* — tâches : structure blue_skies:village_shaded_woodlands — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Bosquets de l'ombre (données du serveur).
+- **Visiter : « Village slushlands »** *(optionnelle)* — tâches : structure blue_skies:village_slushlands — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Terres détrempées (données du serveur).
+- **Visiter : « Village sunset maple forest »** *(optionnelle)* — tâches : structure blue_skies:village_sunset_maple_forest — récompense : xp 1
+  > Structure de Blue Skies. Se génère dans : Forêt d'érables (données du serveur).
+- **Visiter : « Catacomb »** *(optionnelle)* — tâches : structure bygonenether:catacomb — récompense : xp 1
+  > Structure de Bygone Nether. Se génère dans : Abîme flétri, Vallée des âmes (données du serveur).
+- **Visiter : « Citadel »** *(optionnelle)* — tâches : structure bygonenether:citadel — récompense : xp 1
+  > Structure de Bygone Nether. Se génère dans : Forêt biscornue (données du serveur).
+- **Visiter : « Piglin manor »** *(optionnelle)* — tâches : structure bygonenether:piglin_manor — récompense : xp 1
+  > Structure de Bygone Nether. Se génère dans : Forêt carmin (données du serveur).
+- **Visiter : « Abandoned spire »** *(optionnelle)* — tâches : structure cataclysm:abandoned_spire — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Plaines enneigées (données du serveur).
+- **Visiter : « Abandoned temple »** *(optionnelle)* — tâches : structure cataclysm:abandoned_temple — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Plaines enneigées (données du serveur).
+- **Visiter : « Abandoned village »** *(optionnelle)* — tâches : structure cataclysm:abandoned_village — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Plaines enneigées (données du serveur).
+- **Visiter : « Acropolis »** *(optionnelle)* — tâches : structure cataclysm:acropolis — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Océan chaud (données du serveur).
+- **Visiter : « Amethyst nest »** *(optionnelle)* — tâches : structure cataclysm:amethyst_nest — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Cavernes luxuriantes (données du serveur).
+- **Visiter : « Ancient factory »** *(optionnelle)* — tâches : structure cataclysm:ancient_factory — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Grotte lumineuse, Nid d'araignée, « Crystal Canyons », « Lichen Caves », « Pink Salt Caves » et d'autres (données du serveur).
+- **Visiter : « Burning arena »** *(optionnelle)* — tâches : structure cataclysm:burning_arena — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Terres désolées du Nether (données du serveur).
+- **Visiter : « Cursed pyramid »** *(optionnelle)* — tâches : structure cataclysm:cursed_pyramid — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Désert (données du serveur).
+- **Visiter : « Desert occupied village »** *(optionnelle)* — tâches : structure cataclysm:desert_occupied_village — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Désert (données du serveur).
+- **Visiter : « Desert site »** *(optionnelle)* — tâches : structure cataclysm:desert_site — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Désert (données du serveur).
+- **Visiter : « Frosted prison »** *(optionnelle)* — tâches : structure cataclysm:frosted_prison — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Plaines enneigées (données du serveur).
+- **Visiter : « Ruined citadel »** *(optionnelle)* — tâches : structure cataclysm:ruined_citadel — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+- **Visiter : « Soul black smith »** *(optionnelle)* — tâches : structure cataclysm:soul_black_smith — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+- **Visiter : « Sunken city »** *(optionnelle)* — tâches : structure cataclysm:sunken_city — récompense : xp 1
+  > Structure de Cataclysm. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Brass dungeon »** *(optionnelle)* — tâches : structure deep_aether:brass_dungeon — récompense : xp 1
+  > Structure de Deep Aether. Se génère dans : « Cloud » (données du serveur).
+- **Visiter : « Ancient temple »** *(optionnelle)* — tâches : structure deeperdarker:ancient_temple — récompense : xp 1
+  > Structure de Deeper and Darker. Se génère dans : « Deeplands » (données du serveur).
+- **Visiter : « End house »** *(optionnelle)* — tâches : structure endersdelight:end_house — récompense : xp 1
+  > Structure de Ender's Delight. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+- **Visiter : « Ancient battleground »** *(optionnelle)* — tâches : structure irons_spellbooks:ancient_battleground — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
+- **Visiter : « Catacombs »** *(optionnelle)* — tâches : structure irons_spellbooks:catacombs — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Citadel »** *(optionnelle)* — tâches : structure irons_spellbooks:citadel — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
+- **Visiter : « Evoker fort »** *(optionnelle)* — tâches : structure irons_spellbooks:evoker_fort — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : « Aspen Glade », Terre sèche, Prairies, Hauts plateaux, « Jacaranda Glade » et d'autres (données du serveur).
+- **Visiter : « Ice spider den »** *(optionnelle)* — tâches : structure irons_spellbooks:ice_spider_den — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+- **Visiter : « Impaled icebreaker »** *(optionnelle)* — tâches : structure irons_spellbooks:impaled_icebreaker — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : Océan gelé profond, Océan gelé, Pics gelés, Stalagmites de glace (données du serveur).
+- **Visiter : « Mangrove hut »** *(optionnelle)* — tâches : structure irons_spellbooks:mangrove_hut — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Mountain tower »** *(optionnelle)* — tâches : structure irons_spellbooks:mountain_tower — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : Escarpée, Falaises de jade, Bosquet de cerisiers, Pics gelés, Bosquet et d'autres (données du serveur).
+- **Visiter : « Pyromancer tower »** *(optionnelle)* — tâches : structure irons_spellbooks:pyromancer_tower — récompense : xp 1
+  > Structure de Iron's Spells. Se génère dans : « Aspen Glade », Bayou, Tourbière, Plaine inondable, Prairies et d'autres (données du serveur).
+- **Visiter : « Platinum dungeon »** *(optionnelle)* — tâches : structure lost_aether_content:platinum_dungeon — récompense : xp 1
+  > Structure de Lost Aether Content. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot, « Cloudcaps » et d'autres (données du serveur).
+- **Visiter : « Chapel »** *(optionnelle)* — tâches : structure netherexp:chapel — récompense : xp 1
+  > Structure de Jaden's Nether Expansion. Se génère dans : Gouffre crystallin, Sous-bois, « Soulblight Forest », Forêt carmin, Terres désolées du Nether et d'autres (données du serveur).
+- **Visiter : « Devils bluff »** *(optionnelle)* — tâches : structure netherexp:devils_bluff — récompense : xp 1
+  > Structure de Jaden's Nether Expansion. Se génère dans : Gouffre crystallin, Tas de viscères, Terres désolées du Nether (données du serveur).
+- **Visiter : « Mega fossil »** *(optionnelle)* — tâches : structure netherexp:mega_fossil — récompense : xp 1
+  > Structure de Jaden's Nether Expansion. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur).
+- **Visiter : « Mega fossil campsite »** *(optionnelle)* — tâches : structure netherexp:mega_fossil_campsite — récompense : xp 1
+  > Structure de Jaden's Nether Expansion. Se génère dans : Vallée des âmes, « Black Ice Glaciers » (données du serveur).
+- **Visiter : « Sanctum »** *(optionnelle)* — tâches : structure netherexp:sanctum — récompense : xp 1
+  > Structure de Jaden's Nether Expansion. Se génère dans : « Soulblight Forest », Vallée des âmes, « Black Ice Glaciers », « Fright Forest » (données du serveur).
+- **Visiter : « Aurora palace »** *(optionnelle)* — tâches : structure twilightforest:aurora_palace — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Glacier du Crépuscule (données du serveur).
+- **Visiter : « Dark tower »** *(optionnelle)* — tâches : structure twilightforest:dark_tower — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Centre de la Forêt Sombre (données du serveur).
+- **Visiter : « Final castle »** *(optionnelle)* — tâches : structure twilightforest:final_castle — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Plateau Final (données du serveur).
+- **Visiter : « Hedge maze »** *(optionnelle)* — tâches : structure twilightforest:hedge_maze — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+- **Visiter : « Hydra lair »** *(optionnelle)* — tâches : structure twilightforest:hydra_lair — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Marécage de Feu (données du serveur).
+- **Visiter : « Knight stronghold »** *(optionnelle)* — tâches : structure twilightforest:knight_stronghold — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Forêt Sombre (données du serveur).
+- **Visiter : « Labyrinth »** *(optionnelle)* — tâches : structure twilightforest:labyrinth — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Marécage du Crépuscule (données du serveur).
+- **Visiter : « Large hollow hill »** *(optionnelle)* — tâches : structure twilightforest:large_hollow_hill — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+- **Visiter : « Lich tower »** *(optionnelle)* — tâches : structure twilightforest:lich_tower — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+- **Visiter : « Medium hollow hill »** *(optionnelle)* — tâches : structure twilightforest:medium_hollow_hill — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+- **Visiter : « Mushroom tower »** *(optionnelle)* — tâches : structure twilightforest:mushroom_tower — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Forêt de Champignons Dense (données du serveur).
+- **Visiter : « Naga courtyard »** *(optionnelle)* — tâches : structure twilightforest:naga_courtyard — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+- **Visiter : « Quest grove »** *(optionnelle)* — tâches : structure twilightforest:quest_grove — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Forêt Enchantée (données du serveur).
+- **Visiter : « Small hollow hill »** *(optionnelle)* — tâches : structure twilightforest:small_hollow_hill — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Clairière du Crépuscule, Forêt dense, Forêt de Champignons Dense, Forêt des Lucioles, Forêt du Crépuscule et d'autres (données du serveur).
+- **Visiter : « Troll cave »** *(optionnelle)* — tâches : structure twilightforest:troll_cave — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Hauts plateaux du crépuscule (données du serveur).
+- **Visiter : « Yeti cave »** *(optionnelle)* — tâches : structure twilightforest:yeti_cave — récompense : xp 1
+  > Structure de Twilight Forest. Se génère dans : Forêt Enneigé (données du serveur).
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+
+## Structures — Moog's  (`enc_structures_moogs`, 200 quêtes)
+
+- **Structures — Moog's** — tâches : checkmark Lu — récompense : xp 2
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+- **Visiter : « Astral hideaway »** *(optionnelle)* — tâches : structure mes:astral_hideaway — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Astral meteorite »** *(optionnelle)* — tâches : structure mes:astral_meteorite — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Ender spire »** *(optionnelle)* — tâches : structure mes:ender_spire — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Enderbloom grove »** *(optionnelle)* — tâches : structure mes:enderbloom_grove — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Enderkeep courtyard »** *(optionnelle)* — tâches : structure mes:enderkeep_courtyard — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Enderpin spikes »** *(optionnelle)* — tâches : structure mes:enderpin_spikes — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Enderskog »** *(optionnelle)* — tâches : structure mes:enderskog — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Enderwatch tower »** *(optionnelle)* — tâches : structure mes:enderwatch_tower — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Endscraps »** *(optionnelle)* — tâches : structure mes:endscraps — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Manuscript shrine »** *(optionnelle)* — tâches : structure mes:manuscript_shrine — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mega ship »** *(optionnelle)* — tâches : structure mes:mega_ship — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mega ship basic »** *(optionnelle)* — tâches : structure mes:mega_ship_basic — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mega ship crashed »** *(optionnelle)* — tâches : structure mes:mega_ship_crashed — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mega ship crashed 2 »** *(optionnelle)* — tâches : structure mes:mega_ship_crashed_2 — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mega ship crashed deepslate »** *(optionnelle)* — tâches : structure mes:mega_ship_crashed_deepslate — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mega ship deepslate »** *(optionnelle)* — tâches : structure mes:mega_ship_deepslate — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mega ship deepslate 2 »** *(optionnelle)* — tâches : structure mes:mega_ship_deepslate_2 — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mega ship deepslate 3 »** *(optionnelle)* — tâches : structure mes:mega_ship_deepslate_3 — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Monolith »** *(optionnelle)* — tâches : structure mes:monolith — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mythic garden »** *(optionnelle)* — tâches : structure mes:mythic_garden — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Phantom citadel »** *(optionnelle)* — tâches : structure mes:phantom_citadel — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Placid prairie »** *(optionnelle)* — tâches : structure mes:placid_prairie — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Ruined pillar »** *(optionnelle)* — tâches : structure mes:ruined_pillar — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Starlight voyager »** *(optionnelle)* — tâches : structure mes:starlight_voyager — récompense : xp 1
+  > Structure de Moog's End Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Bridge 1 »** *(optionnelle)* — tâches : structure mns:bridge_1 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Bridge 2 »** *(optionnelle)* — tâches : structure mns:bridge_2 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Bridge 3 »** *(optionnelle)* — tâches : structure mns:bridge_3 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Bridge 4 »** *(optionnelle)* — tâches : structure mns:bridge_4 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Bridge 5 »** *(optionnelle)* — tâches : structure mns:bridge_5 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Bridge 6 »** *(optionnelle)* — tâches : structure mns:bridge_6 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Circle blackstone »** *(optionnelle)* — tâches : structure mns:circle_blackstone — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Gravel Desert, Poor Nether Grasslands, Soul Plain, Sulfuric Bone Reef, Vallée des âmes (données du serveur).
+- **Visiter : « Circle nether brick »** *(optionnelle)* — tâches : structure mns:circle_nether_brick — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Copper tower »** *(optionnelle)* — tâches : structure mns:copper_tower — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Giant skull »** *(optionnelle)* — tâches : structure mns:giant_skull — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Nether Grasslands, Nether Jungle, Nether Swampland, Nether Swampland Terraces, Old Swampland et d'autres (données du serveur).
+- **Visiter : « Grave yard »** *(optionnelle)* — tâches : structure mns:grave_yard — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Gravel Desert, Poor Nether Grasslands, Soul Plain, Sulfuric Bone Reef, Vallée des âmes (données du serveur).
+- **Visiter : « Large blackstone pillars »** *(optionnelle)* — tâches : structure mns:large_blackstone_pillars — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Large blackstone walls »** *(optionnelle)* — tâches : structure mns:large_blackstone_walls — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Large nether brick »** *(optionnelle)* — tâches : structure mns:large_nether_brick — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Lava pool »** *(optionnelle)* — tâches : structure mns:lava_pool — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Leafy rubble »** *(optionnelle)* — tâches : structure mns:leafy_rubble — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Medium blackstone »** *(optionnelle)* — tâches : structure mns:medium_blackstone — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Medium crimson fungus »** *(optionnelle)* — tâches : structure mns:medium_crimson_fungus — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur).
+- **Visiter : « Medium crimson fungus 2 »** *(optionnelle)* — tâches : structure mns:medium_crimson_fungus_2 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur).
+- **Visiter : « Medium crimson well »** *(optionnelle)* — tâches : structure mns:medium_crimson_well — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur).
+- **Visiter : « Medium house »** *(optionnelle)* — tâches : structure mns:medium_house — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Medium house 2 »** *(optionnelle)* — tâches : structure mns:medium_house_2 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Medium warped fungus »** *(optionnelle)* — tâches : structure mns:medium_warped_fungus — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+- **Visiter : « Medium warped fungus 2 »** *(optionnelle)* — tâches : structure mns:medium_warped_fungus_2 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+- **Visiter : « Medium warped well »** *(optionnelle)* — tâches : structure mns:medium_warped_well — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+- **Visiter : « Nether tower »** *(optionnelle)* — tâches : structure mns:nether_tower — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Nether wart farm »** *(optionnelle)* — tâches : structure mns:nether_wart_farm — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Ruined portal »** *(optionnelle)* — tâches : structure mns:ruined_portal — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Sandy skull »** *(optionnelle)* — tâches : structure mns:sandy_skull — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Shrine »** *(optionnelle)* — tâches : structure mns:shrine — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Small nether brick »** *(optionnelle)* — tâches : structure mns:small_nether_brick — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Smoking shrine »** *(optionnelle)* — tâches : structure mns:smoking_shrine — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Soul fire »** *(optionnelle)* — tâches : structure mns:soul_fire — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Sword »** *(optionnelle)* — tâches : structure mns:sword — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Wart Forest, Wart Forest Edge, Forêt carmin (données du serveur).
+- **Visiter : « Train »** *(optionnelle)* — tâches : structure mns:train — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Very small blackstone »** *(optionnelle)* — tâches : structure mns:very_small_blackstone — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Very small blackstone 2 »** *(optionnelle)* — tâches : structure mns:very_small_blackstone_2 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Very small blackstone 3 »** *(optionnelle)* — tâches : structure mns:very_small_blackstone_3 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Very small blackstone 4 »** *(optionnelle)* — tâches : structure mns:very_small_blackstone_4 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Very small nether brick »** *(optionnelle)* — tâches : structure mns:very_small_nether_brick — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Very small nether brick 2 »** *(optionnelle)* — tâches : structure mns:very_small_nether_brick_2 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Very small nether brick 3 »** *(optionnelle)* — tâches : structure mns:very_small_nether_brick_3 — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Warped dome »** *(optionnelle)* — tâches : structure mns:warped_dome — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+- **Visiter : « Warped pool »** *(optionnelle)* — tâches : structure mns:warped_pool — récompense : xp 1
+  > Structure de Moog's Nether Structures. Se génère dans : Nether Mushroom Forest, Nether Mushroom Forest Edge, Old Fungiwoods, Old Warped Woods, Upside Down Forest et d'autres (données du serveur).
+- **Visiter : « Acacia log pile »** *(optionnelle)* — tâches : structure mvs:acacia_log_pile — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+- **Visiter : « Acacia tree »** *(optionnelle)* — tâches : structure mvs:acacia_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+- **Visiter : « Acacia well »** *(optionnelle)* — tâches : structure mvs:acacia_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+- **Visiter : « Azelea house »** *(optionnelle)* — tâches : structure mvs:azelea_house — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Barn »** *(optionnelle)* — tâches : structure mvs:barn — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Beach bar »** *(optionnelle)* — tâches : structure mvs:beach_bar — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+- **Visiter : « Bee dome »** *(optionnelle)* — tâches : structure mvs:bee_dome — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Bench »** *(optionnelle)* — tâches : structure mvs:bench — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Big oak tree »** *(optionnelle)* — tâches : structure mvs:big_oak_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur).
+- **Visiter : « Birch log pile »** *(optionnelle)* — tâches : structure mvs:birch_log_pile — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Birch tree »** *(optionnelle)* — tâches : structure mvs:birch_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Birch well »** *(optionnelle)* — tâches : structure mvs:birch_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Blue stall »** *(optionnelle)* — tâches : structure mvs:blue_stall — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Boulder »** *(optionnelle)* — tâches : structure mvs:boulder — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Campsite »** *(optionnelle)* — tâches : structure mvs:campsite — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Cart »** *(optionnelle)* — tâches : structure mvs:cart — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Cartographer tower »** *(optionnelle)* — tâches : structure mvs:cartographer_tower — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Castle ruins »** *(optionnelle)* — tâches : structure mvs:castle_ruins — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Cathedral »** *(optionnelle)* — tâches : structure mvs:cathedral — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Cherry tree »** *(optionnelle)* — tâches : structure mvs:cherry_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Bosquet de cerisiers (données du serveur).
+- **Visiter : « Crimson enchanting table »** *(optionnelle)* — tâches : structure mvs:crimson_enchanting_table — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt carmin (données du serveur).
+- **Visiter : « Crystal »** *(optionnelle)* — tâches : structure mvs:crystal — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Dark oak log pile »** *(optionnelle)* — tâches : structure mvs:dark_oak_log_pile — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Dark oak tree »** *(optionnelle)* — tâches : structure mvs:dark_oak_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Dark oak well »** *(optionnelle)* — tâches : structure mvs:dark_oak_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Dead tree acacia »** *(optionnelle)* — tâches : structure mvs:dead_tree_acacia — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+- **Visiter : « Dead tree birch »** *(optionnelle)* — tâches : structure mvs:dead_tree_birch — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Dead tree cherry »** *(optionnelle)* — tâches : structure mvs:dead_tree_cherry — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Bosquet de cerisiers (données du serveur).
+- **Visiter : « Dead tree dark oak »** *(optionnelle)* — tâches : structure mvs:dead_tree_dark_oak — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Dead tree jungle »** *(optionnelle)* — tâches : structure mvs:dead_tree_jungle — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Dead tree mangrove »** *(optionnelle)* — tâches : structure mvs:dead_tree_mangrove — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Dead tree oak »** *(optionnelle)* — tâches : structure mvs:dead_tree_oak — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Dead tree spruce »** *(optionnelle)* — tâches : structure mvs:dead_tree_spruce — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Deepslate house »** *(optionnelle)* — tâches : structure mvs:deepslate_house — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Desert house »** *(optionnelle)* — tâches : structure mvs:desert_house — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Desert pump »** *(optionnelle)* — tâches : structure mvs:desert_pump — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Desert well »** *(optionnelle)* — tâches : structure mvs:desert_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Duck »** *(optionnelle)* — tâches : structure mvs:duck — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « End scraps 1 »** *(optionnelle)* — tâches : structure mvs:end_scraps_1 — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « End scraps 2 »** *(optionnelle)* — tâches : structure mvs:end_scraps_2 — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « End scraps 3 »** *(optionnelle)* — tâches : structure mvs:end_scraps_3 — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « End scraps 4 »** *(optionnelle)* — tâches : structure mvs:end_scraps_4 — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « End well »** *(optionnelle)* — tâches : structure mvs:end_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Fire camp »** *(optionnelle)* — tâches : structure mvs:fire_camp — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Floating islands »** *(optionnelle)* — tâches : structure mvs:floating_islands — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Flower hole »** *(optionnelle)* — tâches : structure mvs:flower_hole — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt fleurie, Prairie, Plaines de tournesols (données du serveur).
+- **Visiter : « Fox hut »** *(optionnelle)* — tâches : structure mvs:fox_hut — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Gallows »** *(optionnelle)* — tâches : structure mvs:gallows — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Haystack »** *(optionnelle)* — tâches : structure mvs:haystack — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Horse campsite »** *(optionnelle)* — tâches : structure mvs:horse_campsite — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Horse pen »** *(optionnelle)* — tâches : structure mvs:horse_pen — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « House »** *(optionnelle)* — tâches : structure mvs:house — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Jungle log pile »** *(optionnelle)* — tâches : structure mvs:jungle_log_pile — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Jungle palm tree »** *(optionnelle)* — tâches : structure mvs:jungle_palm_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Jungle tower »** *(optionnelle)* — tâches : structure mvs:jungle_tower — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Jungle tree »** *(optionnelle)* — tâches : structure mvs:jungle_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Jungle well »** *(optionnelle)* — tâches : structure mvs:jungle_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Lamp chest »** *(optionnelle)* — tâches : structure mvs:lamp_chest — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Large cart 1 »** *(optionnelle)* — tâches : structure mvs:large_cart_1 — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Large cart 2 »** *(optionnelle)* — tâches : structure mvs:large_cart_2 — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Large floating island »** *(optionnelle)* — tâches : structure mvs:large_floating_island — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Large mushroom »** *(optionnelle)* — tâches : structure mvs:large_mushroom — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+- **Visiter : « Large warped tower »** *(optionnelle)* — tâches : structure mvs:large_warped_tower — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Lecturn garden »** *(optionnelle)* — tâches : structure mvs:lecturn_garden — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Log ruin »** *(optionnelle)* — tâches : structure mvs:log_ruin — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Medium bamboo cart »** *(optionnelle)* — tâches : structure mvs:medium_bamboo_cart — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Medium igloo 1 »** *(optionnelle)* — tâches : structure mvs:medium_igloo_1 — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+- **Visiter : « Medium igloo 2 »** *(optionnelle)* — tâches : structure mvs:medium_igloo_2 — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+- **Visiter : « Medium oak lantern »** *(optionnelle)* — tâches : structure mvs:medium_oak_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur).
+- **Visiter : « Mine with campsite »** *(optionnelle)* — tâches : structure mvs:mine_with_campsite — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Mineshaft »** *(optionnelle)* — tâches : structure mvs:mineshaft — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Mushroom pond »** *(optionnelle)* — tâches : structure mvs:mushroom_pond — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Mushroom statue »** *(optionnelle)* — tâches : structure mvs:mushroom_statue — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+- **Visiter : « Mushroom well »** *(optionnelle)* — tâches : structure mvs:mushroom_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+- **Visiter : « Nether devil »** *(optionnelle)* — tâches : structure mvs:nether_devil — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Nether well »** *(optionnelle)* — tâches : structure mvs:nether_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Oak log pile »** *(optionnelle)* — tâches : structure mvs:oak_log_pile — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Oak tree »** *(optionnelle)* — tâches : structure mvs:oak_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur).
+- **Visiter : « Oak well »** *(optionnelle)* — tâches : structure mvs:oak_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Ocean tower »** *(optionnelle)* — tâches : structure mvs:ocean_tower — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Orange stall »** *(optionnelle)* — tâches : structure mvs:orange_stall — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Out house »** *(optionnelle)* — tâches : structure mvs:out_house — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Paths »** *(optionnelle)* — tâches : structure mvs:paths — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Pile »** *(optionnelle)* — tâches : structure mvs:pile — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Pink stall »** *(optionnelle)* — tâches : structure mvs:pink_stall — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Railway »** *(optionnelle)* — tâches : structure mvs:railway — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Rare well »** *(optionnelle)* — tâches : structure mvs:rare_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Red stall »** *(optionnelle)* — tâches : structure mvs:red_stall — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Red tower »** *(optionnelle)* — tâches : structure mvs:red_tower — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Rocky well »** *(optionnelle)* — tâches : structure mvs:rocky_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Escarpée, Hauts plateaux, Falaises de jade, « Moor », Volcan et d'autres (données du serveur).
+- **Visiter : « Ruined beacon »** *(optionnelle)* — tâches : structure mvs:ruined_beacon — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Shed »** *(optionnelle)* — tâches : structure mvs:shed — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Small acacia lantern »** *(optionnelle)* — tâches : structure mvs:small_acacia_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+- **Visiter : « Small bamboo lantern »** *(optionnelle)* — tâches : structure mvs:small_bamboo_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Small birch lantern »** *(optionnelle)* — tâches : structure mvs:small_birch_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Small campfire lantern »** *(optionnelle)* — tâches : structure mvs:small_campfire_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Prairies, Hauts plateaux, Champ de lavande, Savane luxuriante, Verger et d'autres (données du serveur).
+- **Visiter : « Small cherry lantern »** *(optionnelle)* — tâches : structure mvs:small_cherry_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Bosquet de cerisiers (données du serveur).
+- **Visiter : « Small copper well »** *(optionnelle)* — tâches : structure mvs:small_copper_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Small dark oak lantern »** *(optionnelle)* — tâches : structure mvs:small_dark_oak_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Small igloo »** *(optionnelle)* — tâches : structure mvs:small_igloo — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+- **Visiter : « Small jungle lantern »** *(optionnelle)* — tâches : structure mvs:small_jungle_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Small mangrove lantern »** *(optionnelle)* — tâches : structure mvs:small_mangrove_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Small oak lantern »** *(optionnelle)* — tâches : structure mvs:small_oak_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Small oak pond »** *(optionnelle)* — tâches : structure mvs:small_oak_pond — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Small pillager tower »** *(optionnelle)* — tâches : structure mvs:small_pillager_tower — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Small ruin »** *(optionnelle)* — tâches : structure mvs:small_ruin — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Small ship »** *(optionnelle)* — tâches : structure mvs:small_ship — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Small spruce lantern »** *(optionnelle)* — tâches : structure mvs:small_spruce_lantern — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Small swamp house »** *(optionnelle)* — tâches : structure mvs:small_swamp_house — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Small tower well »** *(optionnelle)* — tâches : structure mvs:small_tower_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Small well »** *(optionnelle)* — tâches : structure mvs:small_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Snowy dog hut »** *(optionnelle)* — tâches : structure mvs:snowy_dog_hut — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+- **Visiter : « Snowy fossil »** *(optionnelle)* — tâches : structure mvs:snowy_fossil — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+- **Visiter : « Snowy well »** *(optionnelle)* — tâches : structure mvs:snowy_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Jardin auroral, Désert froid, Fondrière, « Snowblossom Grove », Forêt de connifères enneigée et d'autres (données du serveur).
+- **Visiter : « Spruce log pile »** *(optionnelle)* — tâches : structure mvs:spruce_log_pile — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Spruce tree »** *(optionnelle)* — tâches : structure mvs:spruce_tree — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Spruce well »** *(optionnelle)* — tâches : structure mvs:spruce_well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Statue ruins »** *(optionnelle)* — tâches : structure mvs:statue_ruins — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Stone fountain »** *(optionnelle)* — tâches : structure mvs:stone_fountain — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Stone pillars »** *(optionnelle)* — tâches : structure mvs:stone_pillars — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Stone rock »** *(optionnelle)* — tâches : structure mvs:stone_rock — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Sunzi gate »** *(optionnelle)* — tâches : structure mvs:sunzi_gate — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Tall house »** *(optionnelle)* — tâches : structure mvs:tall_house — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Tree monument »** *(optionnelle)* — tâches : structure mvs:tree_monument — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Villager statue »** *(optionnelle)* — tâches : structure mvs:villager_statue — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Warped house »** *(optionnelle)* — tâches : structure mvs:warped_house — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Well »** *(optionnelle)* — tâches : structure mvs:well — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Wheat grain bin »** *(optionnelle)* — tâches : structure mvs:wheat_grain_bin — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Windmill »** *(optionnelle)* — tâches : structure mvs:windmill — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Wooden wheat farm »** *(optionnelle)* — tâches : structure mvs:wooden_wheat_farm — récompense : xp 1
+  > Structure de Moog's Voyager Structures. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+
+## Structures — Repurposed Structures  (`enc_structures_repurposed`, 102 quêtes)
+
+- **Structures — Repurposed Structures** — tâches : checkmark Lu — récompense : xp 2
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+- **Visiter : « Ancient city end »** *(optionnelle)* — tâches : structure repurposed_structures:ancient_city_end — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Ancient city nether »** *(optionnelle)* — tâches : structure repurposed_structures:ancient_city_nether — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Ancient city ocean »** *(optionnelle)* — tâches : structure repurposed_structures:ancient_city_ocean — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Bastion underground »** *(optionnelle)* — tâches : structure repurposed_structures:bastion_underground — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Aspen Glade », Bayou, Tourbière, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « City nether »** *(optionnelle)* — tâches : structure repurposed_structures:city_nether — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « City overworld »** *(optionnelle)* — tâches : structure repurposed_structures:city_overworld — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de conifères, Forêt de séquoias, Jungle de bambous, Jungle, Taïga ancienne de pins et d'autres (données du serveur).
+- **Visiter : « Igloo grassy »** *(optionnelle)* — tâches : structure repurposed_structures:igloo_grassy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Champ, Hauts plateaux, Forêt ancienne, Verger, Fruticée rocailleuse et d'autres (données du serveur).
+- **Visiter : « Igloo mangrove »** *(optionnelle)* — tâches : structure repurposed_structures:igloo_mangrove — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Igloo mushroom »** *(optionnelle)* — tâches : structure repurposed_structures:igloo_mushroom — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+- **Visiter : « Igloo stone »** *(optionnelle)* — tâches : structure repurposed_structures:igloo_stone — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Escarpée, Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Mansion birch »** *(optionnelle)* — tâches : structure repurposed_structures:mansion_birch — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Mansion desert »** *(optionnelle)* — tâches : structure repurposed_structures:mansion_desert — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Mansion jungle »** *(optionnelle)* — tâches : structure repurposed_structures:mansion_jungle — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Mansion mangrove »** *(optionnelle)* — tâches : structure repurposed_structures:mansion_mangrove — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Mansion oak »** *(optionnelle)* — tâches : structure repurposed_structures:mansion_oak — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur).
+- **Visiter : « Mansion savanna »** *(optionnelle)* — tâches : structure repurposed_structures:mansion_savanna — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+- **Visiter : « Mansion snowy »** *(optionnelle)* — tâches : structure repurposed_structures:mansion_snowy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Clairière de pins, Plaines enneigées (données du serveur).
+- **Visiter : « Mansion taiga »** *(optionnelle)* — tâches : structure repurposed_structures:mansion_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur).
+- **Visiter : « Mineshaft birch »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_birch — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Mineshaft crimson »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_crimson — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+- **Visiter : « Mineshaft dark forest »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_dark_forest — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur).
+- **Visiter : « Mineshaft desert »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_desert — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Mineshaft end »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_end — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Mineshaft icy »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_icy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Pics gelés et d'autres (données du serveur).
+- **Visiter : « Mineshaft jungle »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_jungle — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Mineshaft nether »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_nether — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Mineshaft ocean »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_ocean — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Mineshaft savanna »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_savanna — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+- **Visiter : « Mineshaft stone »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_stone — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Désert froid, Escarpée, Champ, Hauts plateaux, Falaises de jade et d'autres (données du serveur).
+- **Visiter : « Mineshaft swamp »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_swamp — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Mineshaft taiga »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Forêt de séquoias, Taïga ancienne de pins et d'autres (données du serveur).
+- **Visiter : « Mineshaft warped »** *(optionnelle)* — tâches : structure repurposed_structures:mineshaft_warped — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+- **Visiter : « Monument desert »** *(optionnelle)* — tâches : structure repurposed_structures:monument_desert — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Monument icy »** *(optionnelle)* — tâches : structure repurposed_structures:monument_icy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur).
+- **Visiter : « Monument jungle »** *(optionnelle)* — tâches : structure repurposed_structures:monument_jungle — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Monument nether »** *(optionnelle)* — tâches : structure repurposed_structures:monument_nether — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Outpost badlands »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_badlands — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Outpost birch »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_birch — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Outpost crimson »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_crimson — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+- **Visiter : « Outpost desert »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_desert — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Outpost end »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_end — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Outpost giant tree taiga »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_giant_tree_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Outpost icy »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_icy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur).
+- **Visiter : « Outpost jungle »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_jungle — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Outpost mangrove »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_mangrove — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Outpost nether brick »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_nether_brick — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Outpost oak »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_oak — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur).
+- **Visiter : « Outpost snowy »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_snowy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur).
+- **Visiter : « Outpost taiga »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur).
+- **Visiter : « Outpost warped »** *(optionnelle)* — tâches : structure repurposed_structures:outpost_warped — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+- **Visiter : « Pyramid badlands »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_badlands — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Pyramid dark forest »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_dark_forest — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur).
+- **Visiter : « Pyramid end »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_end — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Pyramid flower forest »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_flower_forest — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Champ de lavande, Bosquet de cerisiers, Forêt fleurie (données du serveur).
+- **Visiter : « Pyramid giant tree taiga »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_giant_tree_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Pyramid icy »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_icy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur).
+- **Visiter : « Pyramid jungle »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_jungle — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Pyramid mushroom »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_mushroom — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+- **Visiter : « Pyramid nether »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_nether — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Pyramid ocean »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_ocean — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Pyramid snowy »** *(optionnelle)* — tâches : structure repurposed_structures:pyramid_snowy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur).
+- **Visiter : « Ruined portal end »** *(optionnelle)* — tâches : structure repurposed_structures:ruined_portal_end — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Ruins land cold »** *(optionnelle)* — tâches : structure repurposed_structures:ruins_land_cold — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt morte, Champ, Hauts plateaux, Falaises de jade, Forêt morte ancienne et d'autres (données du serveur).
+- **Visiter : « Ruins land hot »** *(optionnelle)* — tâches : structure repurposed_structures:ruins_land_hot — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Ruins land icy »** *(optionnelle)* — tâches : structure repurposed_structures:ruins_land_icy — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Pics gelés et d'autres (données du serveur).
+- **Visiter : « Ruins land warm »** *(optionnelle)* — tâches : structure repurposed_structures:ruins_land_warm — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Ruins nether »** *(optionnelle)* — tâches : structure repurposed_structures:ruins_nether — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Shipwreck crimson »** *(optionnelle)* — tâches : structure repurposed_structures:shipwreck_crimson — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+- **Visiter : « Shipwreck end »** *(optionnelle)* — tâches : structure repurposed_structures:shipwreck_end — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Shipwreck nether bricks »** *(optionnelle)* — tâches : structure repurposed_structures:shipwreck_nether_bricks — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Shipwreck warped »** *(optionnelle)* — tâches : structure repurposed_structures:shipwreck_warped — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+- **Visiter : « Stronghold end »** *(optionnelle)* — tâches : structure repurposed_structures:stronghold_end — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+- **Visiter : « Stronghold nether »** *(optionnelle)* — tâches : structure repurposed_structures:stronghold_nether — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Temple nether basalt »** *(optionnelle)* — tâches : structure repurposed_structures:temple_nether_basalt — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : « Flooded Deltas », Gravel Desert, Magma Land, Abîme flétri, Deltas de basalte (données du serveur).
+- **Visiter : « Temple nether crimson »** *(optionnelle)* — tâches : structure repurposed_structures:temple_nether_crimson — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+- **Visiter : « Temple nether soul »** *(optionnelle)* — tâches : structure repurposed_structures:temple_nether_soul — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Nether Grasslands, Poor Nether Grasslands, Soul Plain, Wart Forest, Wart Forest Edge et d'autres (données du serveur).
+- **Visiter : « Temple nether warped »** *(optionnelle)* — tâches : structure repurposed_structures:temple_nether_warped — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+- **Visiter : « Temple nether wasteland »** *(optionnelle)* — tâches : structure repurposed_structures:temple_nether_wasteland — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Temple ocean »** *(optionnelle)* — tâches : structure repurposed_structures:temple_ocean — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Temple taiga »** *(optionnelle)* — tâches : structure repurposed_structures:temple_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Village badlands »** *(optionnelle)* — tâches : structure repurposed_structures:village_badlands — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Village bamboo »** *(optionnelle)* — tâches : structure repurposed_structures:village_bamboo — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Jungle de bambous (données du serveur).
+- **Visiter : « Village birch »** *(optionnelle)* — tâches : structure repurposed_structures:village_birch — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Village cherry »** *(optionnelle)* — tâches : structure repurposed_structures:village_cherry — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Champ de lavande, Bosquet de cerisiers, Forêt fleurie (données du serveur).
+- **Visiter : « Village crimson »** *(optionnelle)* — tâches : structure repurposed_structures:village_crimson — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+- **Visiter : « Village dark forest »** *(optionnelle)* — tâches : structure repurposed_structures:village_dark_forest — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur).
+- **Visiter : « Village giant taiga »** *(optionnelle)* — tâches : structure repurposed_structures:village_giant_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Village jungle »** *(optionnelle)* — tâches : structure repurposed_structures:village_jungle — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Village mountains »** *(optionnelle)* — tâches : structure repurposed_structures:village_mountains — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Hauts plateaux, Pics dentelés, Forêt venteuse, Collines graveleuses venteuses, Collines venteuses (données du serveur).
+- **Visiter : « Village mushroom »** *(optionnelle)* — tâches : structure repurposed_structures:village_mushroom — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+- **Visiter : « Village oak »** *(optionnelle)* — tâches : structure repurposed_structures:village_oak — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur).
+- **Visiter : « Village ocean »** *(optionnelle)* — tâches : structure repurposed_structures:village_ocean — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Village swamp »** *(optionnelle)* — tâches : structure repurposed_structures:village_swamp — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Village warped »** *(optionnelle)* — tâches : structure repurposed_structures:village_warped — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+- **Visiter : « Witch hut birch »** *(optionnelle)* — tâches : structure repurposed_structures:witch_hut_birch — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+- **Visiter : « Witch hut dark forest »** *(optionnelle)* — tâches : structure repurposed_structures:witch_hut_dark_forest — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur).
+- **Visiter : « Witch hut giant tree taiga »** *(optionnelle)* — tâches : structure repurposed_structures:witch_hut_giant_tree_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Witch hut mangrove »** *(optionnelle)* — tâches : structure repurposed_structures:witch_hut_mangrove — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Witch hut oak »** *(optionnelle)* — tâches : structure repurposed_structures:witch_hut_oak — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur).
+- **Visiter : « Witch hut taiga »** *(optionnelle)* — tâches : structure repurposed_structures:witch_hut_taiga — récompense : xp 1
+  > Structure de Repurposed Structures. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur).
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+
+## Structures — ruines et petites choses  (`enc_structures_ruines`, 204 quêtes)
+
+- **Structures — ruines et petites choses** — tâches : checkmark Lu — récompense : xp 2
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+- **Visiter : « Acacia house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+- **Visiter : « Acacia house medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_house_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+- **Visiter : « Acacia house medium 3 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_house_medium_3 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+- **Visiter : « Acacia house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+- **Visiter : « Acacia house small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_house_small_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+- **Visiter : « Acacia well 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:acacia_well_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Terre sèche, Savane luxuriante, Savane (données du serveur).
+- **Visiter : « Ancient palace 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:ancient_palace_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « Ancient palace 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:ancient_palace_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « Bamboo campfire 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:bamboo_campfire_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Jungle de bambous, Jungle (données du serveur).
+- **Visiter : « Bamboo house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:bamboo_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Jungle de bambous, Jungle (données du serveur).
+- **Visiter : « Bamboo raft 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:bamboo_raft_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
+- **Visiter : « Basalt chambers large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:basalt_chambers_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Flooded Deltas », Deltas de basalte (données du serveur).
+- **Visiter : « Birch beehive 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:birch_beehive_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+- **Visiter : « Birch house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:birch_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+- **Visiter : « Birch house medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:birch_house_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+- **Visiter : « Birch house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:birch_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+- **Visiter : « Birch house small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:birch_house_small_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+- **Visiter : « Birch tree 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:birch_tree_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt saisonnière, Forêt de bouleaux, Forêt sombre, Forêt fleurie, Forêt et d'autres (données du serveur).
+- **Visiter : « Blackstone bastion medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:blackstone_bastion_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Blackstone bastion medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:blackstone_bastion_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Blackstone bastion small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:blackstone_bastion_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Blackstone temple small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:blackstone_temple_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Cherry house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:cherry_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur).
+- **Visiter : « Cherry house medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:cherry_house_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur).
+- **Visiter : « Cherry raft 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:cherry_raft_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
+- **Visiter : « Cherry tree 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:cherry_tree_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Snowblossom Grove », Bosquet de cerisiers (données du serveur).
+- **Visiter : « Crimson house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:crimson_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Forêt carmin (données du serveur).
+- **Visiter : « Crimson house medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:crimson_house_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Forêt carmin (données du serveur).
+- **Visiter : « Dark oak house large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:dark_oak_house_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Dark oak house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:dark_oak_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Dark oak ship 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:dark_oak_ship_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan froid, Océan froid profond, Océan tiède profond, Océan profond, Océan tiède et d'autres (données du serveur).
+- **Visiter : « End bubble large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_bubble_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End bubble medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_bubble_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End bubble medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_bubble_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End gateway large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_gateway_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End gateway small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_gateway_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End house medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_house_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End house medium 3 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_house_medium_3 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End house small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_house_small_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End ship small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_ship_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End temple large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_temple_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « End temple small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:end_temple_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Dragon Graveyards », « Dry Shrubland » et d'autres (données du serveur).
+- **Visiter : « Frozen house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:frozen_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan gelé, Rivière gelée (données du serveur).
+- **Visiter : « Frozen hut 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:frozen_hut_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan gelé, Rivière gelée (données du serveur).
+- **Visiter : « Frozen hut 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:frozen_hut_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan gelé, Rivière gelée (données du serveur).
+- **Visiter : « Jungle boat 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:jungle_boat_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
+- **Visiter : « Jungle house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:jungle_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur).
+- **Visiter : « Jungle tree house 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:jungle_tree_house_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Jungle de bambous, Jungle, Jungle clairsemée (données du serveur).
+- **Visiter : « Library large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:library_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Library small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:library_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Mangrove house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:mangrove_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Mangrove tree house 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:mangrove_tree_house_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Mangrove tree house 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:mangrove_tree_house_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Marais à mangroves (données du serveur).
+- **Visiter : « Mountain mine 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:mountain_mine_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur).
+- **Visiter : « Mountain mine 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:mountain_mine_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Pics gelés, Bosquet, Pics dentelés, Pentes enneigées, Pics rocheux (données du serveur).
+- **Visiter : « Mushroom large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:mushroom_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Champs de champignons (données du serveur).
+- **Visiter : « Nether fortress large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:nether_fortress_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Nether fortress large 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:nether_fortress_large_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Nether fortress medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:nether_fortress_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Nether fossil 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:nether_fossil_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Nether Grasslands, Nether Jungle, Nether Swampland, Nether Swampland Terraces et d'autres (données du serveur).
+- **Visiter : « Nether portal small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:nether_portal_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Nether temple medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:nether_temple_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, Gravel Desert, Magma Land et d'autres (données du serveur).
+- **Visiter : « Oak house large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_house_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Oak house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Oak house medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_house_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Oak house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Oak house small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_house_small_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Oak house small 3 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_house_small_3 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Oak hut 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_hut_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Oak ship 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_ship_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan tiède profond, Océan profond, Océan tiède, Océan, Océan chaud (données du serveur).
+- **Visiter : « Oak tree 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:oak_tree_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Forêt morte, Plaine inondable, Bois d'érables, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Ocean bubble 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:ocean_bubble_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Ocean temple medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:ocean_temple_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Ocean temple medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:ocean_temple_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Ocean temple small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:ocean_temple_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Ocean temple small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:ocean_temple_small_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan froid profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Prison large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:prison_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Tourbière, Forêt morte, Terre sèche, Champ, Plaine inondable et d'autres (données du serveur).
+- **Visiter : « Prison small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:prison_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Tourbière, Forêt morte, Terre sèche, Champ, Plaine inondable et d'autres (données du serveur).
+- **Visiter : « Red sand house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:red_sand_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Red sand house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:red_sand_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Red sand temple medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:red_sand_temple_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Red sand temple small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:red_sand_temple_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Sand castle small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_castle_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
+- **Visiter : « Sand castle tiny 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_castle_tiny_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Plage (données du serveur).
+- **Visiter : « Sand house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
+- **Visiter : « Sand house medium 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_house_medium_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
+- **Visiter : « Sand house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
+- **Visiter : « Sand house small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_house_small_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
+- **Visiter : « Sand pyramid 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_pyramid_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
+- **Visiter : « Sand underground castle 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:sand_underground_castle_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Désert (données du serveur).
+- **Visiter : « Spruce house large 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:spruce_house_large_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+- **Visiter : « Spruce house medium 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:spruce_house_medium_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+- **Visiter : « Spruce house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:spruce_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+- **Visiter : « Spruce house small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:spruce_house_small_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+- **Visiter : « Spruce house small 3 »** *(optionnelle)* — tâches : structure adorabuild_structures:spruce_house_small_3 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Tourbière, Forêt morte, Champ, Champ forestier, Falaises de jade et d'autres (données du serveur).
+- **Visiter : « Spruce ship 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:spruce_ship_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Océan froid, Océan froid profond, Océan profond, Océan (données du serveur).
+- **Visiter : « Warped house small 1 »** *(optionnelle)* — tâches : structure adorabuild_structures:warped_house_small_1 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Old Warped Woods, Forêt biscornue (données du serveur).
+- **Visiter : « Warped house small 2 »** *(optionnelle)* — tâches : structure adorabuild_structures:warped_house_small_2 — récompense : xp 1
+  > Structure de AdoraBuild. Se génère dans : Old Warped Woods, Forêt biscornue (données du serveur).
+- **Visiter : « Campsite »** *(optionnelle)* — tâches : structure explorations:campsite — récompense : xp 1
+  > Structure de Explorations. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Desert ruin »** *(optionnelle)* — tâches : structure explorations:desert_ruin — récompense : xp 1
+  > Structure de Explorations. Se génère dans : Désert (données du serveur).
+- **Visiter : « Floating island »** *(optionnelle)* — tâches : structure explorations:floating_island — récompense : xp 1
+  > Structure de Explorations. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Forgotten well »** *(optionnelle)* — tâches : structure explorations:forgotten_well — récompense : xp 1
+  > Structure de Explorations. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Jungle temple »** *(optionnelle)* — tâches : structure explorations:jungle_temple — récompense : xp 1
+  > Structure de Explorations. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Large oak tree »** *(optionnelle)* — tâches : structure explorations:large_oak_tree — récompense : xp 1
+  > Structure de Explorations. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Logs »** *(optionnelle)* — tâches : structure explorations:logs — récompense : xp 1
+  > Structure de Explorations. Se génère dans : « Aspen Glade », Plaine inondable, Jungle fongique, « Jacaranda Glade », Forêt méditerranéenne et d'autres (données du serveur).
+- **Visiter : « Shrine »** *(optionnelle)* — tâches : structure explorations:shrine — récompense : xp 1
+  > Structure de Explorations. Se génère dans : « Aspen Glade », Plaine inondable, Jungle fongique, « Jacaranda Glade », Forêt méditerranéenne et d'autres (données du serveur).
+- **Visiter : « Slime cave »** *(optionnelle)* — tâches : structure explorations:slime_cave — récompense : xp 1
+  > Structure de Explorations. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Underground temple »** *(optionnelle)* — tâches : structure explorations:underground_temple — récompense : xp 1
+  > Structure de Explorations. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Aether »** *(optionnelle)* — tâches : structure farmers_structures:aether — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Forêt de skyroot, Bosquet de skyroot, Prairie de skyroot, Bois de skyroot (données du serveur).
+- **Visiter : « Aquaculture beach »** *(optionnelle)* — tâches : structure farmers_structures:aquaculture_beach — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+- **Visiter : « Aquaculture carp »** *(optionnelle)* — tâches : structure farmers_structures:aquaculture_carp — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : « Aspen Glade », Hauts plateaux, « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur).
+- **Visiter : « Aquaculture common »** *(optionnelle)* — tâches : structure farmers_structures:aquaculture_common — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : « Aspen Glade », Hauts plateaux, « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur).
+- **Visiter : « Cook »** *(optionnelle)* — tâches : structure farmers_structures:cook — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Hauts plateaux, Plaines, Savane, Plaines de tournesols, Forêt venteuse et d'autres (données du serveur).
+- **Visiter : « Cook moss »** *(optionnelle)* — tâches : structure farmers_structures:cook_moss — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Bosquet de cerisiers (données du serveur).
+- **Visiter : « Cook nether 1 »** *(optionnelle)* — tâches : structure farmers_structures:cook_nether_1 — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+- **Visiter : « Cook nether 2 »** *(optionnelle)* — tâches : structure farmers_structures:cook_nether_2 — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Terres désolées du Nether (données du serveur).
+- **Visiter : « Quark glimer »** *(optionnelle)* — tâches : structure farmers_structures:quark_glimer — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Forêt lumineuse (données du serveur).
+- **Visiter : « Quark jungle »** *(optionnelle)* — tâches : structure farmers_structures:quark_jungle — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Jungle, Jungle clairsemée (données du serveur).
+- **Visiter : « Quark moss »** *(optionnelle)* — tâches : structure farmers_structures:quark_moss — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Jungle, Jungle clairsemée (données du serveur).
+- **Visiter : « Quark slime »** *(optionnelle)* — tâches : structure farmers_structures:quark_slime — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Sushi »** *(optionnelle)* — tâches : structure farmers_structures:sushi — récompense : xp 1
+  > Structure de Farmer's Structures. Se génère dans : « Cold river », « Lukewarm river », « Warm river », Rivière gelée, Rivière (données du serveur).
+- **Visiter : « Basalt hut »** *(optionnelle)* — tâches : structure formationsnether:basalt_hut — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Deltas de basalte (données du serveur).
+- **Visiter : « Blackstone castle »** *(optionnelle)* — tâches : structure formationsnether:blackstone_castle — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Blackstone remnant »** *(optionnelle)* — tâches : structure formationsnether:blackstone_remnant — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Campsite »** *(optionnelle)* — tâches : structure formationsnether:campsite — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+- **Visiter : « Checkerboard temple »** *(optionnelle)* — tâches : structure formationsnether:checkerboard_temple — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur).
+- **Visiter : « Flaming pillar »** *(optionnelle)* — tâches : structure formationsnether:flaming_pillar — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Terres désolées du Nether (données du serveur).
+- **Visiter : « Large house »** *(optionnelle)* — tâches : structure formationsnether:large_house — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+- **Visiter : « Large pedestal »** *(optionnelle)* — tâches : structure formationsnether:large_pedestal — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur).
+- **Visiter : « Large tree »** *(optionnelle)* — tâches : structure formationsnether:large_tree — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+- **Visiter : « Nether wart field »** *(optionnelle)* — tâches : structure formationsnether:nether_wart_field — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Terres désolées du Nether, Vallée des âmes (données du serveur).
+- **Visiter : « Obsidian pillar »** *(optionnelle)* — tâches : structure formationsnether:obsidian_pillar — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+- **Visiter : « Ore shard »** *(optionnelle)* — tâches : structure formationsnether:ore_shard — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Parkour challenge »** *(optionnelle)* — tâches : structure formationsnether:parkour_challenge — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Terres désolées du Nether (données du serveur).
+- **Visiter : « Quartz spikes »** *(optionnelle)* — tâches : structure formationsnether:quartz_spikes — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Terres désolées du Nether, Vallée des âmes (données du serveur).
+- **Visiter : « Respawn anchor altar »** *(optionnelle)* — tâches : structure formationsnether:respawn_anchor_altar — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Rib cage »** *(optionnelle)* — tâches : structure formationsnether:rib_cage — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+- **Visiter : « Small fire arena »** *(optionnelle)* — tâches : structure formationsnether:small_fire_arena — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Deltas de basalte, Terres désolées du Nether, Vallée des âmes (données du serveur).
+- **Visiter : « Small lava arena »** *(optionnelle)* — tâches : structure formationsnether:small_lava_arena — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Small lava shrine »** *(optionnelle)* — tâches : structure formationsnether:small_lava_shrine — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Terres désolées du Nether (données du serveur).
+- **Visiter : « Small pedestal »** *(optionnelle)* — tâches : structure formationsnether:small_pedestal — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Forêt carmin, Forêt biscornue (données du serveur).
+- **Visiter : « Sphere cage »** *(optionnelle)* — tâches : structure formationsnether:sphere_cage — récompense : xp 1
+  > Structure de Formations Nether. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Bamboo hut »** *(optionnelle)* — tâches : structure formationsoverworld:bamboo_hut — récompense : xp 1
+  > Structure de Formations. Se génère dans : Jungle de bambous (données du serveur).
+- **Visiter : « Campsite »** *(optionnelle)* — tâches : structure formationsoverworld:campsite — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », « Jacaranda Glade », Savane luxuriante, Forêt méditerranéenne, Bosquet mystique et d'autres (données du serveur).
+- **Visiter : « Cobble hole »** *(optionnelle)* — tâches : structure formationsoverworld:cobble_hole — récompense : xp 1
+  > Structure de Formations. Se génère dans : Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+- **Visiter : « Copper spire »** *(optionnelle)* — tâches : structure formationsoverworld:copper_spire — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Desert houses »** *(optionnelle)* — tâches : structure formationsoverworld:desert_houses — récompense : xp 1
+  > Structure de Formations. Se génère dans : Désert (données du serveur).
+- **Visiter : « Farmland field »** *(optionnelle)* — tâches : structure formationsoverworld:farmland_field — récompense : xp 1
+  > Structure de Formations. Se génère dans : Désert, Plaines (données du serveur).
+- **Visiter : « Fountain »** *(optionnelle)* — tâches : structure formationsoverworld:fountain — récompense : xp 1
+  > Structure de Formations. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Graveyard »** *(optionnelle)* — tâches : structure formationsoverworld:graveyard — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Hobbit hole »** *(optionnelle)* — tâches : structure formationsoverworld:hobbit_hole — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Ice castle »** *(optionnelle)* — tâches : structure formationsoverworld:ice_castle — récompense : xp 1
+  > Structure de Formations. Se génère dans : Océan gelé profond, Océan gelé, Rivière gelée (données du serveur).
+- **Visiter : « Ice spire »** *(optionnelle)* — tâches : structure formationsoverworld:ice_spire — récompense : xp 1
+  > Structure de Formations. Se génère dans : Océan gelé profond, Océan gelé, Stalagmites de glace (données du serveur).
+- **Visiter : « Igloo »** *(optionnelle)* — tâches : structure formationsoverworld:igloo — récompense : xp 1
+  > Structure de Formations. Se génère dans : Plaines enneigées, Taïga enneigée (données du serveur).
+- **Visiter : « Large temple »** *(optionnelle)* — tâches : structure formationsoverworld:large_temple — récompense : xp 1
+  > Structure de Formations. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur).
+- **Visiter : « Log shelter »** *(optionnelle)* — tâches : structure formationsoverworld:log_shelter — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Log spikes »** *(optionnelle)* — tâches : structure formationsoverworld:log_spikes — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Mesoamerican temple »** *(optionnelle)* — tâches : structure formationsoverworld:mesoamerican_temple — récompense : xp 1
+  > Structure de Formations. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur).
+- **Visiter : « Meteor »** *(optionnelle)* — tâches : structure formationsoverworld:meteor — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Mushroom hut »** *(optionnelle)* — tâches : structure formationsoverworld:mushroom_hut — récompense : xp 1
+  > Structure de Formations. Se génère dans : Champs de champignons (données du serveur).
+- **Visiter : « Offering »** *(optionnelle)* — tâches : structure formationsoverworld:offering — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Verger et d'autres (données du serveur).
+- **Visiter : « Raft »** *(optionnelle)* — tâches : structure formationsoverworld:raft — récompense : xp 1
+  > Structure de Formations. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Small house »** *(optionnelle)* — tâches : structure formationsoverworld:small_house — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Small statue »** *(optionnelle)* — tâches : structure formationsoverworld:small_statue — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Small temple »** *(optionnelle)* — tâches : structure formationsoverworld:small_temple — récompense : xp 1
+  > Structure de Formations. Se génère dans : Plaine inondable, Jungle fongique, Savane luxuriante, Forêt tropicale, Forêt tropicale rocailleuse et d'autres (données du serveur).
+- **Visiter : « Stone ore spikes »** *(optionnelle)* — tâches : structure formationsoverworld:stone_ore_spikes — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Stone tower »** *(optionnelle)* — tâches : structure formationsoverworld:stone_tower — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Escarpée, « Jacaranda Glade », Falaises de jade, Savane luxuriante et d'autres (données du serveur).
+- **Visiter : « Tiny house »** *(optionnelle)* — tâches : structure formationsoverworld:tiny_house — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Tower remnant »** *(optionnelle)* — tâches : structure formationsoverworld:tower_remnant — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Wagon »** *(optionnelle)* — tâches : structure formationsoverworld:wagon — récompense : xp 1
+  > Structure de Formations. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Well »** *(optionnelle)* — tâches : structure formationsoverworld:well — récompense : xp 1
+  > Structure de Formations. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Ancient crypt »** *(optionnelle)* — tâches : structure philipsruins:ancient_crypt — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Marais à mangroves, Plaines, Savane, Plaines enneigées, Plaines de tournesols et d'autres (données du serveur).
+- **Visiter : « Ancient dungeon »** *(optionnelle)* — tâches : structure philipsruins:ancient_dungeon — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Ancient ruins »** *(optionnelle)* — tâches : structure philipsruins:ancient_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Ancient towers »** *(optionnelle)* — tâches : structure philipsruins:ancient_towers — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Antiquus crypta »** *(optionnelle)* — tâches : structure philipsruins:antiquus_crypta — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Marais à mangroves, Plaines, Savane, Plaines enneigées, Plaines de tournesols et d'autres (données du serveur).
+- **Visiter : « Badlands start dungeon »** *(optionnelle)* — tâches : structure philipsruins:badlands_start_dungeon — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Badlands structures »** *(optionnelle)* — tâches : structure philipsruins:badlands_structures — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Bone dungeon »** *(optionnelle)* — tâches : structure philipsruins:bone_dungeon — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Desert structures »** *(optionnelle)* — tâches : structure philipsruins:desert_structures — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Désert (données du serveur).
+- **Visiter : « End gate fortress »** *(optionnelle)* — tâches : structure philipsruins:end_gate_fortress — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+- **Visiter : « End ruins »** *(optionnelle)* — tâches : structure philipsruins:end_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Hautes terres de l'End, Terres moyennes de l'End (données du serveur).
+- **Visiter : « Field stone ruins »** *(optionnelle)* — tâches : structure philipsruins:field_stone_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+- **Visiter : « Field stone ruins rocks »** *(optionnelle)* — tâches : structure philipsruins:field_stone_ruins_rocks — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Level one ruins »** *(optionnelle)* — tâches : structure philipsruins:level_one_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+- **Visiter : « Level three ruins »** *(optionnelle)* — tâches : structure philipsruins:level_three_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+- **Visiter : « Level two ruins »** *(optionnelle)* — tâches : structure philipsruins:level_two_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+- **Visiter : « Level two ruins pool »** *(optionnelle)* — tâches : structure philipsruins:level_two_ruins_pool — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+- **Visiter : « Lost soul city »** *(optionnelle)* — tâches : structure philipsruins:lost_soul_city — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Lost soul dungeon »** *(optionnelle)* — tâches : structure philipsruins:lost_soul_dungeon — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Abîmes (données du serveur).
+- **Visiter : « Nether lava ruins »** *(optionnelle)* — tâches : structure philipsruins:nether_lava_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+- **Visiter : « Ocean fortress »** *(optionnelle)* — tâches : structure philipsruins:ocean_fortress — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Ocean ruins »** *(optionnelle)* — tâches : structure philipsruins:ocean_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Pumpkin ruins »** *(optionnelle)* — tâches : structure philipsruins:pumpkin_ruins — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Rare ruin »** *(optionnelle)* — tâches : structure philipsruins:rare_ruin — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Jungle, Marais à mangroves (données du serveur).
+- **Visiter : « Sculk dungeon »** *(optionnelle)* — tâches : structure philipsruins:sculk_dungeon — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Abîmes (données du serveur).
+- **Visiter : « Sealedruinedghaststatue1 »** *(optionnelle)* — tâches : structure philipsruins:sealedruinedghaststatue1 — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+- **Visiter : « Start nether dungeon »** *(optionnelle)* — tâches : structure philipsruins:start_nether_dungeon — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Deltas de basalte, Forêt carmin, Terres désolées du Nether, Vallée des âmes, Forêt biscornue (données du serveur).
+- **Visiter : « Start nether ruin »** *(optionnelle)* — tâches : structure philipsruins:start_nether_ruin — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Forêt sombre, Pics gelés, Jungle, Marais à mangroves, Prairie et d'autres (données du serveur).
+- **Visiter : « Underground structures »** *(optionnelle)* — tâches : structure philipsruins:underground_structures — récompense : xp 1
+  > Structure de Philip's Ruins. Se génère dans : Abîmes (données du serveur).
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+
+## Structures — jeu de base et YUNG  (`enc_structures_vanilla`, 86 quêtes)
+
+- **Structures — jeu de base et YUNG** — tâches : checkmark Lu — récompense : xp 2
+  > Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en entrant dans la structure. Les noms sont ceux du mod, entre guillemets.
+- **Visiter : « Skeleton dungeon »** *(optionnelle)* — tâches : structure betterdungeons:skeleton_dungeon — récompense : xp 1
+  > Structure de YUNG's Better Dungeons. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Small dungeon »** *(optionnelle)* — tâches : structure betterdungeons:small_dungeon — récompense : xp 1
+  > Structure de YUNG's Better Dungeons. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Small nether dungeon »** *(optionnelle)* — tâches : structure betterdungeons:small_nether_dungeon — récompense : xp 1
+  > Structure de YUNG's Better Dungeons. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Spider dungeon »** *(optionnelle)* — tâches : structure betterdungeons:spider_dungeon — récompense : xp 1
+  > Structure de YUNG's Better Dungeons. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Zombie dungeon »** *(optionnelle)* — tâches : structure betterdungeons:zombie_dungeon — récompense : xp 1
+  > Structure de YUNG's Better Dungeons. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Fortress »** *(optionnelle)* — tâches : structure betterfortresses:fortress — récompense : xp 1
+  > Structure de YUNG's Better Nether Fortresses. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Jungle temple »** *(optionnelle)* — tâches : structure betterjungletemples:jungle_temple — récompense : xp 1
+  > Structure de YUNG's Better Jungle Temples. Se génère dans : Plaine inondable, Forêt tropicale, Jungle de bambous, Jungle (données du serveur).
+- **Visiter : « Mineshaft acacia »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_acacia — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Savane, Plateau de savane (données du serveur).
+- **Visiter : « Mineshaft desert »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_desert — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Mineshaft dripstone »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_dripstone — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Cavernes de spéléothèmes (données du serveur).
+- **Visiter : « Mineshaft ice »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_ice — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur).
+- **Visiter : « Mineshaft jungle »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_jungle — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Mineshaft lush »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_lush — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Cavernes luxuriantes (données du serveur).
+- **Visiter : « Mineshaft mesa »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_mesa — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Mineshaft mushroom »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_mushroom — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+- **Visiter : « Mineshaft oak »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_oak — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Prairie, Plaines, Plaines de tournesols, Marais (données du serveur).
+- **Visiter : « Mineshaft overgrown »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_overgrown — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : « Aspen Glade », « Jacaranda Glade », Forêt méditerranéenne, Bosquet mystique, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Mineshaft red desert »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_red_desert — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Mineshaft spruce »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_spruce — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Mineshaft spruce snowy »** *(optionnelle)* — tâches : structure bettermineshafts:mineshaft_spruce_snowy — récompense : xp 1
+  > Structure de YUNG's Better Mineshafts. Se génère dans : Pics dentelés, Plaines enneigées, Pentes enneigées, Taïga enneigée (données du serveur).
+- **Visiter : « Ocean monument »** *(optionnelle)* — tâches : structure betteroceanmonuments:ocean_monument — récompense : xp 1
+  > Structure de YUNG's Better Ocean Monuments. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Stronghold »** *(optionnelle)* — tâches : structure betterstrongholds:stronghold — récompense : xp 1
+  > Structure de YUNG's Better Strongholds. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Witch circle »** *(optionnelle)* — tâches : structure betterwitchhuts:witch_circle — récompense : xp 1
+  > Structure de YUNG's Better Witch Huts. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Witch hut »** *(optionnelle)* — tâches : structure betterwitchhuts:witch_hut — récompense : xp 1
+  > Structure de YUNG's Better Witch Huts. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Visiter : « Theatre »** *(optionnelle)* — tâches : structure conjurer_illager:theatre — récompense : xp 1
+  > Structure de The Conjurer. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Citadel »** *(optionnelle)* — tâches : structure friendsandfoes:citadel — récompense : xp 1
+  > Structure de Friends Foes. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Iceologer cabin »** *(optionnelle)* — tâches : structure friendsandfoes:iceologer_cabin — récompense : xp 1
+  > Structure de Friends Foes. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur).
+- **Visiter : « Illusioner shack »** *(optionnelle)* — tâches : structure friendsandfoes:illusioner_shack — récompense : xp 1
+  > Structure de Friends Foes. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Illusioner training grounds »** *(optionnelle)* — tâches : structure friendsandfoes:illusioner_training_grounds — récompense : xp 1
+  > Structure de Friends Foes. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Forgotten ruins »** *(optionnelle)* — tâches : structure galosphere:forgotten_ruins — récompense : xp 1
+  > Structure de Galosphere. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Escarpée, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Pink salt shrine »** *(optionnelle)* — tâches : structure galosphere:pink_salt_shrine — récompense : xp 1
+  > Structure de Galosphere. Se génère dans : « Pink Salt Caves » (données du serveur).
+- **Visiter : « Crimson tower »** *(optionnelle)* — tâches : structure hearths:crimson_tower — récompense : xp 1
+  > Structure de Hearths. Se génère dans : Forêt carmin (données du serveur).
+- **Visiter : « Netherrack spiral »** *(optionnelle)* — tâches : structure hearths:netherrack_spiral — récompense : xp 1
+  > Structure de Hearths. Se génère dans : Terres désolées du Nether (données du serveur).
+- **Visiter : « Warped tower »** *(optionnelle)* — tâches : structure hearths:warped_tower — récompense : xp 1
+  > Structure de Hearths. Se génère dans : Forêt biscornue (données du serveur).
+- **Visiter : « Firecaller hut »** *(optionnelle)* — tâches : structure illagerinvasion:firecaller_hut — récompense : xp 1
+  > Structure de Illager Invasion. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Illager fort »** *(optionnelle)* — tâches : structure illagerinvasion:illager_fort — récompense : xp 1
+  > Structure de Illager Invasion. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+- **Visiter : « Illusioner tower »** *(optionnelle)* — tâches : structure illagerinvasion:illusioner_tower — récompense : xp 1
+  > Structure de Illager Invasion. Se génère dans : Forêt sombre, Taïga ancienne de pins, Taïga ancienne de sapins, Marais, Taïga (données du serveur).
+- **Visiter : « Labyrinth »** *(optionnelle)* — tâches : structure illagerinvasion:labyrinth — récompense : xp 1
+  > Structure de Illager Invasion. Se génère dans : « Aspen Glade », Tourbière, Forêt de conifères, Forêt morte, Champ et d'autres (données du serveur).
+- **Visiter : « Sorcerer hut »** *(optionnelle)* — tâches : structure illagerinvasion:sorcerer_hut — récompense : xp 1
+  > Structure de Illager Invasion. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Blossom blade »** *(optionnelle)* — tâches : structure joshie:blossom_blade — récompense : xp 1
+  > Structure de Blossom Blade. Se génère dans : Bosquet de cerisiers (données du serveur).
+- **Visiter : « Ancient city »** *(optionnelle)* — tâches : structure minecraft:ancient_city — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Abîmes (données du serveur).
+- **Visiter : « Bastion remnant »** *(optionnelle)* — tâches : structure minecraft:bastion_remnant — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Gravel Desert, Nether Grasslands, Nether Jungle, Nether Mushroom Forest, Nether Swampland et d'autres (données du serveur).
+- **Visiter : « Buried treasure »** *(optionnelle)* — tâches : structure minecraft:buried_treasure — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+- **Visiter : « Desert pyramid »** *(optionnelle)* — tâches : structure minecraft:desert_pyramid — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Désert (données du serveur).
+- **Visiter : « End city »** *(optionnelle)* — tâches : structure minecraft:end_city — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : « Amber Land », « Chorus Forest », « Dry Shrubland », « Foggy Mushroomland », « Glowing Grasslands » et d'autres (données du serveur).
+- **Visiter : « Fortress »** *(optionnelle)* — tâches : structure minecraft:fortress — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Igloo »** *(optionnelle)* — tâches : structure minecraft:igloo — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Désert froid, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Plaines enneigées et d'autres (données du serveur).
+- **Visiter : « Jungle pyramid »** *(optionnelle)* — tâches : structure minecraft:jungle_pyramid — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Plaine inondable, Forêt tropicale, Jungle de bambous, Jungle (données du serveur).
+- **Visiter : « Mansion »** *(optionnelle)* — tâches : structure minecraft:mansion — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Forêt morte, Bois sinistres, Bois, Forêt sombre, Jardin pâle (données du serveur).
+- **Visiter : « Mineshaft »** *(optionnelle)* — tâches : structure minecraft:mineshaft — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : « Aspen Glade », Tourbière, Désert froid, Forêt de conifères, Escarpée et d'autres (données du serveur).
+- **Visiter : « Mineshaft mesa »** *(optionnelle)* — tâches : structure minecraft:mineshaft_mesa — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+- **Visiter : « Monument »** *(optionnelle)* — tâches : structure minecraft:monument — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+- **Visiter : « Nether fossil »** *(optionnelle)* — tâches : structure minecraft:nether_fossil — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Soul Plain, Upside Down Forest, Terre sèche, « Soulblight Forest », Vallée des âmes et d'autres (données du serveur).
+- **Visiter : « Ocean ruin cold »** *(optionnelle)* — tâches : structure minecraft:ocean_ruin_cold — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan profond, Océan gelé et d'autres (données du serveur).
+- **Visiter : « Ocean ruin warm »** *(optionnelle)* — tâches : structure minecraft:ocean_ruin_warm — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Océan tiède profond, Océan tiède, Océan chaud (données du serveur).
+- **Visiter : « Pillager outpost »** *(optionnelle)* — tâches : structure minecraft:pillager_outpost — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Plaines (données du serveur).
+- **Visiter : « Ruined portal »** *(optionnelle)* — tâches : structure minecraft:ruined_portal — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : « Aspen Glade », Jardin auroral, Tourbière, Forêt de conifères, Forêt morte et d'autres (données du serveur).
+- **Visiter : « Ruined portal desert »** *(optionnelle)* — tâches : structure minecraft:ruined_portal_desert — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Désert froid, Terre sèche, Désert luxuriant, Savane luxuriante, Plaines volcaniques et d'autres (données du serveur).
+- **Visiter : « Ruined portal jungle »** *(optionnelle)* — tâches : structure minecraft:ruined_portal_jungle — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Ruined portal mountain »** *(optionnelle)* — tâches : structure minecraft:ruined_portal_mountain — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Escarpée, Hauts plateaux, Falaises de jade, Badlands, Bosquet de cerisiers et d'autres (données du serveur).
+- **Visiter : « Ruined portal nether »** *(optionnelle)* — tâches : structure minecraft:ruined_portal_nether — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+- **Visiter : « Ruined portal ocean »** *(optionnelle)* — tâches : structure minecraft:ruined_portal_ocean — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Ruined portal swamp »** *(optionnelle)* — tâches : structure minecraft:ruined_portal_swamp — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Bayou, Tourbière, Marais, Marécages, Marais à mangroves (données du serveur).
+- **Visiter : « Shipwreck »** *(optionnelle)* — tâches : structure minecraft:shipwreck — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+- **Visiter : « Shipwreck beached »** *(optionnelle)* — tâches : structure minecraft:shipwreck_beached — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Plage de dunes, « Gravel Beach », Plage, Plage enneigée (données du serveur).
+- **Visiter : « Stronghold »** *(optionnelle)* — tâches : structure minecraft:stronghold — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Swamp hut »** *(optionnelle)* — tâches : structure minecraft:swamp_hut — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Bayou, Tourbière, Marais, Marécages (données du serveur).
+- **Visiter : « Trail ruins »** *(optionnelle)* — tâches : structure minecraft:trail_ruins — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Terre sèche, « Hot Springs », Forêt méditerranéenne, Forêt morte ancienne, Forêt ancienne et d'autres (données du serveur).
+- **Visiter : « Village desert »** *(optionnelle)* — tâches : structure minecraft:village_desert — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Désert luxuriant, Désert (données du serveur).
+- **Visiter : « Village plains »** *(optionnelle)* — tâches : structure minecraft:village_plains — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Prairies, Prairie, Plaines (données du serveur).
+- **Visiter : « Village savanna »** *(optionnelle)* — tâches : structure minecraft:village_savanna — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Terre sèche, Savane (données du serveur).
+- **Visiter : « Village snowy »** *(optionnelle)* — tâches : structure minecraft:village_snowy — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Désert froid, Forêt de connifères enneigée, Plaines enneigées (données du serveur).
+- **Visiter : « Village taiga »** *(optionnelle)* — tâches : structure minecraft:village_taiga — récompense : xp 1
+  > Structure de jeu de base. Se génère dans : Forêt de conifères, Forêt morte, Bois d'érables, Taïga (données du serveur).
+- **Visiter : « Village dark forest »** *(optionnelle)* — tâches : structure mmv:village_dark_forest — récompense : xp 1
+  > Structure de Moog's Missing Villages. Se génère dans : Forêt sombre (données du serveur).
+- **Visiter : « Village jungle »** *(optionnelle)* — tâches : structure mmv:village_jungle — récompense : xp 1
+  > Structure de Moog's Missing Villages. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+- **Visiter : « Village swamp »** *(optionnelle)* — tâches : structure mmv:village_swamp — récompense : xp 1
+  > Structure de Moog's Missing Villages. Se génère dans : Marais (données du serveur).
+- **Visiter : « Frostmaw spawn »** *(optionnelle)* — tâches : structure mowziesmobs:frostmaw_spawn — récompense : xp 1
+  > Structure de Mowzie's Mobs. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Monastery »** *(optionnelle)* — tâches : structure mowziesmobs:monastery — récompense : xp 1
+  > Structure de Mowzie's Mobs. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Umvuthana grove »** *(optionnelle)* — tâches : structure mowziesmobs:umvuthana_grove — récompense : xp 1
+  > Structure de Mowzie's Mobs. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Wrought chamber »** *(optionnelle)* — tâches : structure mowziesmobs:wrought_chamber — récompense : xp 1
+  > Structure de Mowzie's Mobs. Se génère dans : « Aspen Glade », Jardin auroral, Bayou, Tourbière, Désert froid et d'autres (données du serveur).
+- **Visiter : « Bastille »** *(optionnelle)* — tâches : structure takesapillage:bastille — récompense : xp 1
+  > Structure de Takes a Pillage. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur).
+- **Visiter : « Pillager camp »** *(optionnelle)* — tâches : structure takesapillage:pillager_camp — récompense : xp 1
+  > Structure de Takes a Pillage. Se génère dans : Tourbière, Terre sèche, Clairière de pins, Prairies, Savane luxuriante et d'autres (données du serveur).
+- **Visiter : « Bloodstone obelisk »** *(optionnelle)* — tâches : structure twigs:bloodstone_obelisk — récompense : xp 1
+  > Structure de Twigs. Se génère dans : Forêt carmin, Terres désolées du Nether (données du serveur).
+- **Visiter : « Village witch »** *(optionnelle)* — tâches : structure villagesandpillages:village_witch — récompense : xp 1
+  > Structure de Villages Pillages. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
+  > Toutes les structures de ce chapitre visitées. La récompense est symbolique.
 
 ## Bâtir sa faction  (`factions_batir`, 11 quêtes)
 
