@@ -1,0 +1,263 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&7Boucliers"
+fichier = "enc_boucliers"
+groupe = "encyclopedie"
+icone = "minecraft:shield"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&7Boucliers"
+taille = 1.5
+icone = "minecraft:shield"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque bouclier du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+"""
+
+[[quete]]
+cle = "minecraft_shield"
+titre = "Bouclier"
+optionnel = true
+icone = "minecraft:shield"
+kit_voulu = true
+taches = ["item minecraft:shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bMinecraft&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_moonstone_shield"
+titre = "Bouclier en pierre de lune"
+optionnel = true
+icone = "blue_skies:moonstone_shield"
+kit_voulu = true
+taches = ["item blue_skies:moonstone_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "blue_skies_spike_shield"
+titre = "Bouclier spéléothème"
+optionnel = true
+icone = "blue_skies:spike_shield"
+kit_voulu = true
+taches = ["item blue_skies:spike_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bBlue Skies&r. Ses paliers sont au chapitre &7Blue Skies&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_azure_sea_shield"
+titre = "« Azure Sea Shield »"
+optionnel = true
+icone = "cataclysm:azure_sea_shield"
+kit_voulu = true
+taches = ["item cataclysm:azure_sea_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_black_steel_targe"
+titre = "« Black Steel Targe »"
+optionnel = true
+icone = "cataclysm:black_steel_targe"
+kit_voulu = true
+taches = ["item cataclysm:black_steel_targe"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "cataclysm_bulwark_of_the_flame"
+titre = "« Bulwark of the Flame »"
+optionnel = true
+icone = "cataclysm:bulwark_of_the_flame"
+kit_voulu = true
+taches = ["item cataclysm:bulwark_of_the_flame"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bCataclysm&r. Ses paliers sont au chapitre &7Cataclysm&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "deep_aether_wind_shield"
+titre = "« Wind Shield »"
+optionnel = true
+icone = "deep_aether:wind_shield"
+kit_voulu = true
+taches = ["item deep_aether:wind_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bDeep Aether&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "lost_aether_content_gravitite_shield"
+titre = "Bouclier en Gravitite"
+optionnel = true
+icone = "lost_aether_content:gravitite_shield"
+kit_voulu = true
+taches = ["item lost_aether_content:gravitite_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "lost_aether_content_sentry_shield"
+titre = "Bouclier Sentinelle"
+optionnel = true
+icone = "lost_aether_content:sentry_shield"
+kit_voulu = true
+taches = ["item lost_aether_content:sentry_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "lost_aether_content_shield_of_emile"
+titre = "« Shield of Emile »"
+optionnel = true
+icone = "lost_aether_content:shield_of_emile"
+kit_voulu = true
+taches = ["item lost_aether_content:shield_of_emile"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "lost_aether_content_zanite_shield"
+titre = "Bouclier en Zanite"
+optionnel = true
+icone = "lost_aether_content:zanite_shield"
+kit_voulu = true
+taches = ["item lost_aether_content:zanite_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bLost Aether Content&r. Ses paliers sont au chapitre &7L'Aether&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "shieldexp_diamond_shield"
+titre = "« Diamond Shield »"
+optionnel = true
+icone = "shieldexp:diamond_shield"
+kit_voulu = true
+taches = ["item shieldexp:diamond_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "shieldexp_golden_shield"
+titre = "« Golden Shield »"
+optionnel = true
+icone = "shieldexp:golden_shield"
+kit_voulu = true
+taches = ["item shieldexp:golden_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "shieldexp_iron_shield"
+titre = "« Iron Shield »"
+optionnel = true
+icone = "shieldexp:iron_shield"
+kit_voulu = true
+taches = ["item shieldexp:iron_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "shieldexp_netherite_shield"
+titre = "« Netherite Shield »"
+optionnel = true
+icone = "shieldexp:netherite_shield"
+kit_voulu = true
+taches = ["item shieldexp:netherite_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "shieldexp_wooden_shield"
+titre = "« Wooden Shield »"
+optionnel = true
+icone = "shieldexp:wooden_shield"
+kit_voulu = true
+taches = ["item shieldexp:wooden_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bShield Expansion&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_chorundum_shield"
+titre = "« §eChorundum Shield »"
+optionnel = true
+icone = "stalwart_dungeons:chorundum_shield"
+kit_voulu = true
+taches = ["item stalwart_dungeons:chorundum_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "stalwart_dungeons_tungsten_shield"
+titre = "« §eTungsten Shield »"
+optionnel = true
+icone = "stalwart_dungeons:tungsten_shield"
+kit_voulu = true
+taches = ["item stalwart_dungeons:tungsten_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bStalwart Dungeons&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "twilightforest_knightmetal_shield"
+titre = "Bouclier chevaleresque"
+optionnel = true
+icone = "twilightforest:knightmetal_shield"
+kit_voulu = true
+taches = ["item twilightforest:knightmetal_shield"]
+recompenses = ["xp 1"]
+description = """
+Bouclier de &bTwilight Forest&r. Ses paliers sont au chapitre &7Twilight Forest&r. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tous les boucliers"
+optionnel = true
+taille = 1.5
+icone = "minecraft:shield"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["minecraft_shield", "blue_skies_moonstone_shield", "blue_skies_spike_shield", "cataclysm_azure_sea_shield", "cataclysm_black_steel_targe", "cataclysm_bulwark_of_the_flame", "deep_aether_wind_shield", "lost_aether_content_gravitite_shield", "lost_aether_content_sentry_shield", "lost_aether_content_shield_of_emile", "lost_aether_content_zanite_shield", "shieldexp_diamond_shield", "shieldexp_golden_shield", "shieldexp_iron_shield", "shieldexp_netherite_shield", "shieldexp_wooden_shield", "stalwart_dungeons_chorundum_shield", "stalwart_dungeons_tungsten_shield", "twilightforest_knightmetal_shield"]
+description = """
+Tous les boucliers de ce chapitre réunies.
+"""
