@@ -1,0 +1,2155 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_structures_repurposed"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:cracked_stone_bricks"
+	id: "1D5501C873ACA50E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets."]
+			icon: "minecraft:cracked_stone_bricks"
+			id: "4A13867C1F2294C9"
+			rewards: [{
+				id: "60F6344592D958D7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "779B9CA30B916155"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Structures — Repurposed Structures"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "5B18510B479FDCDC"
+			optional: true
+			rewards: [{
+				id: "100CCFE3337556C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "27B310876DB8AE85"
+				structure: "repurposed_structures:ancient_city_end"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient city end »"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "2159B1D7757D6691"
+			optional: true
+			rewards: [{
+				id: "4BF1B4F647FB2B8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "712A6B4B1A6E75DD"
+				structure: "repurposed_structures:ancient_city_nether"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient city nether »"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "5C8FA4252996B5FA"
+			optional: true
+			rewards: [{
+				id: "16E53B1D91CF32D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "6FFA5C401487CFCE"
+				structure: "repurposed_structures:ancient_city_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Ancient city ocean »"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Aspen Glade », Bayou, Tourbière, Escarpée, Forêt morte et d'autres (données du serveur)."]
+			id: "1BDAC3B263E17C32"
+			optional: true
+			rewards: [{
+				id: "77E1AB898489735A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "1A3800C8B6CCF6DA"
+				structure: "repurposed_structures:bastion_underground"
+				type: "structure"
+			}]
+			title: "Visiter : « Bastion underground »"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "0909842740E9B933"
+			optional: true
+			rewards: [{
+				id: "29E9821A223776C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "13976AC84584BF29"
+				structure: "repurposed_structures:city_nether"
+				type: "structure"
+			}]
+			title: "Visiter : « City nether »"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de conifères, Forêt de séquoias, Jungle de bambous, Jungle, Taïga ancienne de pins et d'autres (données du serveur)."]
+			id: "1C3BBF62009D67EA"
+			optional: true
+			rewards: [{
+				id: "565BF63794277548"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "0C4CB935E94F15A1"
+				structure: "repurposed_structures:city_overworld"
+				type: "structure"
+			}]
+			title: "Visiter : « City overworld »"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Champ, Hauts plateaux, Forêt ancienne, Verger, Fruticée rocailleuse et d'autres (données du serveur)."]
+			id: "7EEBFC5FE4A3C82C"
+			optional: true
+			rewards: [{
+				id: "53356C15E606C009"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "022135483165DAA9"
+				structure: "repurposed_structures:igloo_grassy"
+				type: "structure"
+			}]
+			title: "Visiter : « Igloo grassy »"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "0C18572EC93AD496"
+			optional: true
+			rewards: [{
+				id: "0E795FB2A161173D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "57F1BEED6606C8EE"
+				structure: "repurposed_structures:igloo_mangrove"
+				type: "structure"
+			}]
+			title: "Visiter : « Igloo mangrove »"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur)."]
+			id: "4FDCF6F1ACAF26C8"
+			optional: true
+			rewards: [{
+				id: "7D9C51ED5509DE35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "3A3CC22D61CE6A42"
+				structure: "repurposed_structures:igloo_mushroom"
+				type: "structure"
+			}]
+			title: "Visiter : « Igloo mushroom »"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Escarpée, Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "5C72E11A9D8B5866"
+			optional: true
+			rewards: [{
+				id: "358692B43EEE9BB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "02CE8D8D3AC35F21"
+				structure: "repurposed_structures:igloo_stone"
+				type: "structure"
+			}]
+			title: "Visiter : « Igloo stone »"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "2E822EACDFF2776C"
+			optional: true
+			rewards: [{
+				id: "13438FD097064F4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "72F2F41DE3904D98"
+				structure: "repurposed_structures:mansion_birch"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion birch »"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "1B1D44EC23BCFE17"
+			optional: true
+			rewards: [{
+				id: "569E04E4B3715AC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "26C345C558E8D907"
+				structure: "repurposed_structures:mansion_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion desert »"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "7132CE317EBC02AD"
+			optional: true
+			rewards: [{
+				id: "70BDEE16DF51F388"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "47F3DE25D95EF675"
+				structure: "repurposed_structures:mansion_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion jungle »"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "59ED30F2E226FA7A"
+			optional: true
+			rewards: [{
+				id: "317C54E7A9C7B2F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "2C04FD1ECEA1D1B1"
+				structure: "repurposed_structures:mansion_mangrove"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion mangrove »"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur)."]
+			id: "5A7FBAD029C5049D"
+			optional: true
+			rewards: [{
+				id: "5AB7F4B4715E1FE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "2A2DBC4A4C5034A4"
+				structure: "repurposed_structures:mansion_oak"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion oak »"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur)."]
+			id: "077814B7A998EBBA"
+			optional: true
+			rewards: [{
+				id: "253A88AD282AB094"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "4E4A089738932645"
+				structure: "repurposed_structures:mansion_savanna"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion savanna »"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Clairière de pins, Plaines enneigées (données du serveur)."]
+			id: "0DE86C837C9F465C"
+			optional: true
+			rewards: [{
+				id: "4FD37C8F2BC67928"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "700A578230BBF07B"
+				structure: "repurposed_structures:mansion_snowy"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion snowy »"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur)."]
+			id: "08B54EB889181339"
+			optional: true
+			rewards: [{
+				id: "5BCF2E709CA81258"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "7A938D479DC1B16D"
+				structure: "repurposed_structures:mansion_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Mansion taiga »"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "3B867B07018DF278"
+			optional: true
+			rewards: [{
+				id: "26FC8A3ABE529796"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "5C1F720258278BE6"
+				structure: "repurposed_structures:mineshaft_birch"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft birch »"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur)."]
+			id: "5F3716249A1A3640"
+			optional: true
+			rewards: [{
+				id: "22890E686322C70C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "7F638A7C5D374180"
+				structure: "repurposed_structures:mineshaft_crimson"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft crimson »"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur)."]
+			id: "5AA09C1DF83D7F81"
+			optional: true
+			rewards: [{
+				id: "3DC7F59780B4691D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "5B23F75E2CFED52B"
+				structure: "repurposed_structures:mineshaft_dark_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft dark forest »"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "35F1267E5103A8E8"
+			optional: true
+			rewards: [{
+				id: "31C11291A623F1AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "5765878F138981BD"
+				structure: "repurposed_structures:mineshaft_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft desert »"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "56B04884C4510653"
+			optional: true
+			rewards: [{
+				id: "5E1CC97A5F52047D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "77CB3BAB1547F4A6"
+				structure: "repurposed_structures:mineshaft_end"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft end »"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Pics gelés et d'autres (données du serveur)."]
+			id: "07B9AA0E200E88E1"
+			optional: true
+			rewards: [{
+				id: "035DF8CCAF1CE2CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "2CF16B35F0AA3957"
+				structure: "repurposed_structures:mineshaft_icy"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft icy »"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "17955ECB7780F089"
+			optional: true
+			rewards: [{
+				id: "782AFDEFBFB375A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "7F95CFD7299E790A"
+				structure: "repurposed_structures:mineshaft_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft jungle »"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "20649074CFBE2531"
+			optional: true
+			rewards: [{
+				id: "70E20C4C44A5DD7B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "5347B3543481015D"
+				structure: "repurposed_structures:mineshaft_nether"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft nether »"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "1B052FEDE9429EF5"
+			optional: true
+			rewards: [{
+				id: "54916836C61C3479"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "319E2EBD694B9C98"
+				structure: "repurposed_structures:mineshaft_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft ocean »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur)."]
+			id: "708A93E55EFC100F"
+			optional: true
+			rewards: [{
+				id: "34481914D141E64A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "47D61F3AB3A84917"
+				structure: "repurposed_structures:mineshaft_savanna"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft savanna »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Désert froid, Escarpée, Champ, Hauts plateaux, Falaises de jade et d'autres (données du serveur)."]
+			id: "07EAE5C3A7D227B6"
+			optional: true
+			rewards: [{
+				id: "37734772C8BEE53A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "72B304E840BFC563"
+				structure: "repurposed_structures:mineshaft_stone"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft stone »"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "5C0014D0D97FFDC7"
+			optional: true
+			rewards: [{
+				id: "22AA2FB1C9938981"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "692353966CB2BE3A"
+				structure: "repurposed_structures:mineshaft_swamp"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft swamp »"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Forêt de séquoias, Taïga ancienne de pins et d'autres (données du serveur)."]
+			id: "41AB5EF26BFC40E0"
+			optional: true
+			rewards: [{
+				id: "3C25667D80A86B97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "2CC4AA8386B98944"
+				structure: "repurposed_structures:mineshaft_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft taiga »"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur)."]
+			id: "0A6DE0DA4D86BB9E"
+			optional: true
+			rewards: [{
+				id: "4F36FB68EE160AC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "3C7C3311E614D9D1"
+				structure: "repurposed_structures:mineshaft_warped"
+				type: "structure"
+			}]
+			title: "Visiter : « Mineshaft warped »"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "7FAA65F01D160F81"
+			optional: true
+			rewards: [{
+				id: "64B3CC51D4F14014"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "3199E659EC5BF2C8"
+				structure: "repurposed_structures:monument_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Monument desert »"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur)."]
+			id: "5162FA56F85B24E6"
+			optional: true
+			rewards: [{
+				id: "6AA9407A7D27487D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "4E23EE9A939E9456"
+				structure: "repurposed_structures:monument_icy"
+				type: "structure"
+			}]
+			title: "Visiter : « Monument icy »"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "664662C5241C3527"
+			optional: true
+			rewards: [{
+				id: "16EABDF6A9222729"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "0CB2DB3B40749CD8"
+				structure: "repurposed_structures:monument_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Monument jungle »"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "145C7207F403E80F"
+			optional: true
+			rewards: [{
+				id: "1B7CF6897D31889B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "49DC294945F458DC"
+				structure: "repurposed_structures:monument_nether"
+				type: "structure"
+			}]
+			title: "Visiter : « Monument nether »"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "0F1A80E417C0C5A5"
+			optional: true
+			rewards: [{
+				id: "472AC3E23DC0EAC4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "400CBD947B2344EE"
+				structure: "repurposed_structures:outpost_badlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost badlands »"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "098B20E8E397C255"
+			optional: true
+			rewards: [{
+				id: "27D7E845C029BEAF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "04E7FCCBF0D8172C"
+				structure: "repurposed_structures:outpost_birch"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost birch »"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur)."]
+			id: "4285F74B0F267C08"
+			optional: true
+			rewards: [{
+				id: "07EB20B34AC0A381"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "4BF635933E38F13A"
+				structure: "repurposed_structures:outpost_crimson"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost crimson »"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "6273AC61146D6CA6"
+			optional: true
+			rewards: [{
+				id: "52B8215F767015E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "4323FFD552810300"
+				structure: "repurposed_structures:outpost_desert"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost desert »"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "656013338C8D9E48"
+			optional: true
+			rewards: [{
+				id: "539090B9029D27E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "0138BDE4B0CFEFF0"
+				structure: "repurposed_structures:outpost_end"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost end »"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "0C240EA692335446"
+			optional: true
+			rewards: [{
+				id: "0F16AA9E994534B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "5AD9916649947A66"
+				structure: "repurposed_structures:outpost_giant_tree_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost giant tree taiga »"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur)."]
+			id: "74FA3D5AE24599C7"
+			optional: true
+			rewards: [{
+				id: "69464C209CD4AA93"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "511AB725EB33E8B8"
+				structure: "repurposed_structures:outpost_icy"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost icy »"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "6F649E0498CFD150"
+			optional: true
+			rewards: [{
+				id: "28998FA000F5DA89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "74BE1B6D2928AABD"
+				structure: "repurposed_structures:outpost_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost jungle »"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "5376E24A39E7B70A"
+			optional: true
+			rewards: [{
+				id: "31AFCFBD3AD2F9BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "59D1DB96809FDCA6"
+				structure: "repurposed_structures:outpost_mangrove"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost mangrove »"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "4B66AD806C59E8D1"
+			optional: true
+			rewards: [{
+				id: "6D7D42F13A122421"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "681C16722FF25FF5"
+				structure: "repurposed_structures:outpost_nether_brick"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost nether brick »"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur)."]
+			id: "6EA7199E069F92BE"
+			optional: true
+			rewards: [{
+				id: "7AD94255AE72F952"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "2817DB620E7029F4"
+				structure: "repurposed_structures:outpost_oak"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost oak »"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur)."]
+			id: "20A1E0E960FFAE7F"
+			optional: true
+			rewards: [{
+				id: "6EC9A8C320EE8A7E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "7E9C59BEF6C4A656"
+				structure: "repurposed_structures:outpost_snowy"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost snowy »"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur)."]
+			id: "3938278F19FD3789"
+			optional: true
+			rewards: [{
+				id: "1BDD0F2AB29E351B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "49DB89895326BAC4"
+				structure: "repurposed_structures:outpost_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost taiga »"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur)."]
+			id: "0ADF900CDBB023FE"
+			optional: true
+			rewards: [{
+				id: "522C70B12653D8B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "69BA341EEFBB8370"
+				structure: "repurposed_structures:outpost_warped"
+				type: "structure"
+			}]
+			title: "Visiter : « Outpost warped »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "3B7ACD3A3F5488F9"
+			optional: true
+			rewards: [{
+				id: "4BA1E26CE9A6FCBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "756EE147706649F9"
+				structure: "repurposed_structures:pyramid_badlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid badlands »"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur)."]
+			id: "245248FD7DAF644C"
+			optional: true
+			rewards: [{
+				id: "3F72B42E14C8FCD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "0DDDDFAD898A8F3D"
+				structure: "repurposed_structures:pyramid_dark_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid dark forest »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "169E6A0EE59D66CF"
+			optional: true
+			rewards: [{
+				id: "55261789057C9099"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "32AFBF2784E7800D"
+				structure: "repurposed_structures:pyramid_end"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid end »"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Champ de lavande, Bosquet de cerisiers, Forêt fleurie (données du serveur)."]
+			id: "65095E504C8B1F4A"
+			optional: true
+			rewards: [{
+				id: "1E0D5C950C356246"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "0EC98E9E312F1E21"
+				structure: "repurposed_structures:pyramid_flower_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid flower forest »"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "550E3FB6990B11C9"
+			optional: true
+			rewards: [{
+				id: "25F23D5205E19DA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "44C04ABAA0DF6048"
+				structure: "repurposed_structures:pyramid_giant_tree_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid giant tree taiga »"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur)."]
+			id: "7D02456D67A78CBF"
+			optional: true
+			rewards: [{
+				id: "45DEB56E40F842DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "3E823FE1BE6A653F"
+				structure: "repurposed_structures:pyramid_icy"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid icy »"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "61A452806C55D532"
+			optional: true
+			rewards: [{
+				id: "4E7176577E6878EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "719CE6167D788D48"
+				structure: "repurposed_structures:pyramid_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid jungle »"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur)."]
+			id: "2748D42F6BF12441"
+			optional: true
+			rewards: [{
+				id: "014252C2EF5DC2C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "75E03FC64A7AC881"
+				structure: "repurposed_structures:pyramid_mushroom"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid mushroom »"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "644D4A99DA60BDC2"
+			optional: true
+			rewards: [{
+				id: "5300209FC0004847"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "5A76074D564CC6DC"
+				structure: "repurposed_structures:pyramid_nether"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid nether »"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur)."]
+			id: "60C0864216E2CCAB"
+			optional: true
+			rewards: [{
+				id: "53E94CA0E03DB2FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "1D9B440665A8BAAB"
+				structure: "repurposed_structures:pyramid_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid ocean »"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur)."]
+			id: "6013654A36937BFE"
+			optional: true
+			rewards: [{
+				id: "05C647EB2B4262AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "6AEDD4C93AD376FA"
+				structure: "repurposed_structures:pyramid_snowy"
+				type: "structure"
+			}]
+			title: "Visiter : « Pyramid snowy »"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "30FEEA954B7F24A0"
+			optional: true
+			rewards: [{
+				id: "31B524877EB20EAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "1C78F94EC0739276"
+				structure: "repurposed_structures:ruined_portal_end"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruined portal end »"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Champ, Hauts plateaux, Falaises de jade, Forêt morte ancienne et d'autres (données du serveur)."]
+			id: "7436CADD6033CE65"
+			optional: true
+			rewards: [{
+				id: "14DA973A61B87276"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "6927EE4808A9F031"
+				structure: "repurposed_structures:ruins_land_cold"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruins land cold »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur)."]
+			id: "379CF5B48EFD2D62"
+			optional: true
+			rewards: [{
+				id: "071F7446E70F7605"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "68FA29A0C1E54B7C"
+				structure: "repurposed_structures:ruins_land_hot"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruins land hot »"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Pics gelés et d'autres (données du serveur)."]
+			id: "002E7D17590F581A"
+			optional: true
+			rewards: [{
+				id: "354A849A87C6DED9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "251010F7D025D411"
+				structure: "repurposed_structures:ruins_land_icy"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruins land icy »"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "7AE55E25A13150FC"
+			optional: true
+			rewards: [{
+				id: "59103678B75C2BC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "3652C80CB1FBA3B5"
+				structure: "repurposed_structures:ruins_land_warm"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruins land warm »"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "1D127CBB7E7A43EB"
+			optional: true
+			rewards: [{
+				id: "47D0B367DFE35106"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "1BE12CEAA61C9009"
+				structure: "repurposed_structures:ruins_nether"
+				type: "structure"
+			}]
+			title: "Visiter : « Ruins nether »"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur)."]
+			id: "6FEF44073E155AD8"
+			optional: true
+			rewards: [{
+				id: "6206202347391CCC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "44853323AF93FC4D"
+				structure: "repurposed_structures:shipwreck_crimson"
+				type: "structure"
+			}]
+			title: "Visiter : « Shipwreck crimson »"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "7516E65F92E57DAC"
+			optional: true
+			rewards: [{
+				id: "29F4DC2F716A6BE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "2CEA88DCF4382128"
+				structure: "repurposed_structures:shipwreck_end"
+				type: "structure"
+			}]
+			title: "Visiter : « Shipwreck end »"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "5A464D1D79C2B6D1"
+			optional: true
+			rewards: [{
+				id: "7D274B06CB31F5A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "0025D33C75F5E540"
+				structure: "repurposed_structures:shipwreck_nether_bricks"
+				type: "structure"
+			}]
+			title: "Visiter : « Shipwreck nether bricks »"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur)."]
+			id: "3D54074297D3CD2F"
+			optional: true
+			rewards: [{
+				id: "504A89858A6A5784"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "31C383D08C5754E2"
+				structure: "repurposed_structures:shipwreck_warped"
+				type: "structure"
+			}]
+			title: "Visiter : « Shipwreck warped »"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur)."]
+			id: "1CE2F31EC511F74D"
+			optional: true
+			rewards: [{
+				id: "2FA94DEAFB28B775"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "5C58E067F8E6902F"
+				structure: "repurposed_structures:stronghold_end"
+				type: "structure"
+			}]
+			title: "Visiter : « Stronghold end »"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "17FBD0BC33AEC804"
+			optional: true
+			rewards: [{
+				id: "11E3140BF3B70D44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "53CA24B97C406A98"
+				structure: "repurposed_structures:stronghold_nether"
+				type: "structure"
+			}]
+			title: "Visiter : « Stronghold nether »"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : « Flooded Deltas », Gravel Desert, Magma Land, Abîme flétri, Deltas de basalte (données du serveur)."]
+			id: "7C22030A3654CAE6"
+			optional: true
+			rewards: [{
+				id: "58D880D365FE48FE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "11355812AA878ECA"
+				structure: "repurposed_structures:temple_nether_basalt"
+				type: "structure"
+			}]
+			title: "Visiter : « Temple nether basalt »"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur)."]
+			id: "4CEAA60B3C0EF98A"
+			optional: true
+			rewards: [{
+				id: "4993BE014F9E2BB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "6AF93D2CA4EE0E7E"
+				structure: "repurposed_structures:temple_nether_crimson"
+				type: "structure"
+			}]
+			title: "Visiter : « Temple nether crimson »"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Nether Grasslands, Poor Nether Grasslands, Soul Plain, Wart Forest, Wart Forest Edge et d'autres (données du serveur)."]
+			id: "21248856E58B2FEC"
+			optional: true
+			rewards: [{
+				id: "6A5D1CAE962BC9D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "3E23A649486A67A2"
+				structure: "repurposed_structures:temple_nether_soul"
+				type: "structure"
+			}]
+			title: "Visiter : « Temple nether soul »"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur)."]
+			id: "59FEC22111FEEA42"
+			optional: true
+			rewards: [{
+				id: "22278E91F94CCFB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "4877E51642FFA671"
+				structure: "repurposed_structures:temple_nether_warped"
+				type: "structure"
+			}]
+			title: "Visiter : « Temple nether warped »"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur)."]
+			id: "557DA3DD9EE1FC74"
+			optional: true
+			rewards: [{
+				id: "729286E1F69F1B11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "20957D13C8B60430"
+				structure: "repurposed_structures:temple_nether_wasteland"
+				type: "structure"
+			}]
+			title: "Visiter : « Temple nether wasteland »"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "6EC5713A6C9878AF"
+			optional: true
+			rewards: [{
+				id: "3AD0AB3D068E319E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "38902DB0DD799B00"
+				structure: "repurposed_structures:temple_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Temple ocean »"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur)."]
+			id: "6272F129A92B8C72"
+			optional: true
+			rewards: [{
+				id: "2449AA314E1A5EDA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "10D4E8644DC4A65C"
+				structure: "repurposed_structures:temple_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Temple taiga »"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur)."]
+			id: "46AFFD44FB106956"
+			optional: true
+			rewards: [{
+				id: "19F5104076247A01"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "67B0BF91D3AD75A9"
+				structure: "repurposed_structures:village_badlands"
+				type: "structure"
+			}]
+			title: "Visiter : « Village badlands »"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Jungle de bambous (données du serveur)."]
+			id: "239C9F27136F1202"
+			optional: true
+			rewards: [{
+				id: "488CB6A317F467EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "4FA2D85E6B23D65A"
+				structure: "repurposed_structures:village_bamboo"
+				type: "structure"
+			}]
+			title: "Visiter : « Village bamboo »"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "7363B4ACC0590938"
+			optional: true
+			rewards: [{
+				id: "17B74918D0AA44EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "4D3418D8C598766C"
+				structure: "repurposed_structures:village_birch"
+				type: "structure"
+			}]
+			title: "Visiter : « Village birch »"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Champ de lavande, Bosquet de cerisiers, Forêt fleurie (données du serveur)."]
+			id: "45A0F3188F932791"
+			optional: true
+			rewards: [{
+				id: "7B41670D5081F20A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "378EB8D48D4BB88D"
+				structure: "repurposed_structures:village_cherry"
+				type: "structure"
+			}]
+			title: "Visiter : « Village cherry »"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur)."]
+			id: "192702F755199A57"
+			optional: true
+			rewards: [{
+				id: "7C53879F385EF18F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "6E056F6F3194C1A9"
+				structure: "repurposed_structures:village_crimson"
+				type: "structure"
+			}]
+			title: "Visiter : « Village crimson »"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur)."]
+			id: "44D481A08949A447"
+			optional: true
+			rewards: [{
+				id: "716A580D01C52D5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "1A59B1FF8EFAB7A8"
+				structure: "repurposed_structures:village_dark_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Village dark forest »"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "3D8B6F2EBA01B14D"
+			optional: true
+			rewards: [{
+				id: "3E57C318AA40AB5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "37612035D36250AB"
+				structure: "repurposed_structures:village_giant_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Village giant taiga »"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur)."]
+			id: "53C08802C3510793"
+			optional: true
+			rewards: [{
+				id: "05E9D39B22B1FC2C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "57F26294A40BFCD9"
+				structure: "repurposed_structures:village_jungle"
+				type: "structure"
+			}]
+			title: "Visiter : « Village jungle »"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Hauts plateaux, Pics dentelés, Forêt venteuse, Collines graveleuses venteuses, Collines venteuses (données du serveur)."]
+			id: "25D295DF828BBA76"
+			optional: true
+			rewards: [{
+				id: "068ACA4D4267A2B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "005BFD744F59E394"
+				structure: "repurposed_structures:village_mountains"
+				type: "structure"
+			}]
+			title: "Visiter : « Village mountains »"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur)."]
+			id: "3A9DD6FA01E9446A"
+			optional: true
+			rewards: [{
+				id: "3CE492043CED50B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "592084B359D709CB"
+				structure: "repurposed_structures:village_mushroom"
+				type: "structure"
+			}]
+			title: "Visiter : « Village mushroom »"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur)."]
+			id: "540F29AFF02F4B1B"
+			optional: true
+			rewards: [{
+				id: "088C0FB91FD7C927"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "436546BB2607E4DA"
+				structure: "repurposed_structures:village_oak"
+				type: "structure"
+			}]
+			title: "Visiter : « Village oak »"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur)."]
+			id: "593B1A2B2C4A4CD7"
+			optional: true
+			rewards: [{
+				id: "41C04A3C736B54D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "2E0C77FD68049E80"
+				structure: "repurposed_structures:village_ocean"
+				type: "structure"
+			}]
+			title: "Visiter : « Village ocean »"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur)."]
+			id: "0BB8ED93A93B9D10"
+			optional: true
+			rewards: [{
+				id: "2B5E06C4627ADB3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "05132D209AEF37CD"
+				structure: "repurposed_structures:village_swamp"
+				type: "structure"
+			}]
+			title: "Visiter : « Village swamp »"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur)."]
+			id: "5EBF9C7D2D8FF08E"
+			optional: true
+			rewards: [{
+				id: "5E20B69ECCB88571"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "3B116BE9EE7BBA59"
+				structure: "repurposed_structures:village_warped"
+				type: "structure"
+			}]
+			title: "Visiter : « Village warped »"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur)."]
+			id: "7AD2D98A3E8A41EA"
+			optional: true
+			rewards: [{
+				id: "440AB569583CFA1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "07537576D3BF69A5"
+				structure: "repurposed_structures:witch_hut_birch"
+				type: "structure"
+			}]
+			title: "Visiter : « Witch hut birch »"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur)."]
+			id: "3C06CB0914C93AAF"
+			optional: true
+			rewards: [{
+				id: "6B9B034292613529"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "025F759CA8479D10"
+				structure: "repurposed_structures:witch_hut_dark_forest"
+				type: "structure"
+			}]
+			title: "Visiter : « Witch hut dark forest »"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur)."]
+			id: "680E9BCAC82CA42A"
+			optional: true
+			rewards: [{
+				id: "13058C777C90DEC4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "28C805E30E32B7CB"
+				structure: "repurposed_structures:witch_hut_giant_tree_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Witch hut giant tree taiga »"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Marais à mangroves (données du serveur)."]
+			id: "508D93FD4F89A190"
+			optional: true
+			rewards: [{
+				id: "3F8A73DEF5473AB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "060BC69373B208BC"
+				structure: "repurposed_structures:witch_hut_mangrove"
+				type: "structure"
+			}]
+			title: "Visiter : « Witch hut mangrove »"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur)."]
+			id: "5F5F836E4AD67971"
+			optional: true
+			rewards: [{
+				id: "3B5479E633EA9CDE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "4335F5E30C07D0A1"
+				structure: "repurposed_structures:witch_hut_oak"
+				type: "structure"
+			}]
+			title: "Visiter : « Witch hut oak »"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur)."]
+			id: "05FDDD2666D2ED9F"
+			optional: true
+			rewards: [{
+				id: "784BD7B47C85D7D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Repurposed Structures"
+			tasks: [{
+				id: "67C001797920641A"
+				structure: "repurposed_structures:witch_hut_taiga"
+				type: "structure"
+			}]
+			title: "Visiter : « Witch hut taiga »"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5B18510B479FDCDC"
+				"2159B1D7757D6691"
+				"5C8FA4252996B5FA"
+				"1BDAC3B263E17C32"
+				"0909842740E9B933"
+				"1C3BBF62009D67EA"
+				"7EEBFC5FE4A3C82C"
+				"0C18572EC93AD496"
+				"4FDCF6F1ACAF26C8"
+				"5C72E11A9D8B5866"
+				"2E822EACDFF2776C"
+				"1B1D44EC23BCFE17"
+				"7132CE317EBC02AD"
+				"59ED30F2E226FA7A"
+				"5A7FBAD029C5049D"
+				"077814B7A998EBBA"
+				"0DE86C837C9F465C"
+				"08B54EB889181339"
+				"3B867B07018DF278"
+				"5F3716249A1A3640"
+				"5AA09C1DF83D7F81"
+				"35F1267E5103A8E8"
+				"56B04884C4510653"
+				"07B9AA0E200E88E1"
+				"17955ECB7780F089"
+				"20649074CFBE2531"
+				"1B052FEDE9429EF5"
+				"708A93E55EFC100F"
+				"07EAE5C3A7D227B6"
+				"5C0014D0D97FFDC7"
+				"41AB5EF26BFC40E0"
+				"0A6DE0DA4D86BB9E"
+				"7FAA65F01D160F81"
+				"5162FA56F85B24E6"
+				"664662C5241C3527"
+				"145C7207F403E80F"
+				"0F1A80E417C0C5A5"
+				"098B20E8E397C255"
+				"4285F74B0F267C08"
+				"6273AC61146D6CA6"
+				"656013338C8D9E48"
+				"0C240EA692335446"
+				"74FA3D5AE24599C7"
+				"6F649E0498CFD150"
+				"5376E24A39E7B70A"
+				"4B66AD806C59E8D1"
+				"6EA7199E069F92BE"
+				"20A1E0E960FFAE7F"
+				"3938278F19FD3789"
+				"0ADF900CDBB023FE"
+				"3B7ACD3A3F5488F9"
+				"245248FD7DAF644C"
+				"169E6A0EE59D66CF"
+				"65095E504C8B1F4A"
+				"550E3FB6990B11C9"
+				"7D02456D67A78CBF"
+				"61A452806C55D532"
+				"2748D42F6BF12441"
+				"644D4A99DA60BDC2"
+				"60C0864216E2CCAB"
+				"6013654A36937BFE"
+				"30FEEA954B7F24A0"
+				"7436CADD6033CE65"
+				"379CF5B48EFD2D62"
+				"002E7D17590F581A"
+				"7AE55E25A13150FC"
+				"1D127CBB7E7A43EB"
+				"6FEF44073E155AD8"
+				"7516E65F92E57DAC"
+				"5A464D1D79C2B6D1"
+				"3D54074297D3CD2F"
+				"1CE2F31EC511F74D"
+				"17FBD0BC33AEC804"
+				"7C22030A3654CAE6"
+				"4CEAA60B3C0EF98A"
+				"21248856E58B2FEC"
+				"59FEC22111FEEA42"
+				"557DA3DD9EE1FC74"
+				"6EC5713A6C9878AF"
+				"6272F129A92B8C72"
+				"46AFFD44FB106956"
+				"239C9F27136F1202"
+				"7363B4ACC0590938"
+				"45A0F3188F932791"
+				"192702F755199A57"
+				"44D481A08949A447"
+				"3D8B6F2EBA01B14D"
+				"53C08802C3510793"
+				"25D295DF828BBA76"
+				"3A9DD6FA01E9446A"
+				"540F29AFF02F4B1B"
+				"593B1A2B2C4A4CD7"
+				"0BB8ED93A93B9D10"
+				"5EBF9C7D2D8FF08E"
+				"7AD2D98A3E8A41EA"
+				"3C06CB0914C93AAF"
+				"680E9BCAC82CA42A"
+				"508D93FD4F89A190"
+				"5F5F836E4AD67971"
+				"05FDDD2666D2ED9F"
+			]
+			description: ["Toutes les structures de ce chapitre visitées. La récompense est symbolique."]
+			icon: "minecraft:filled_map"
+			id: "61442B9FF476BF9C"
+			optional: true
+			rewards: [{
+				id: "707ECE6759694828"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "68F9E64AFFB23B66"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Structures — Repurposed Structures"
+}

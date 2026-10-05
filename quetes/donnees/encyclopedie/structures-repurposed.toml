@@ -1,0 +1,1135 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&6Structures — Repurposed Structures"
+fichier = "enc_structures_repurposed"
+groupe = "encyclopedie"
+icone = "minecraft:cracked_stone_bricks"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&6Structures — Repurposed Structures"
+taille = 1.5
+icone = "minecraft:cracked_stone_bricks"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.
+"""
+
+[[quete]]
+cle = "repurposed_structures_ancient_city_end"
+titre = "Visiter : « Ancient city end »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ancient_city_end"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_ancient_city_nether"
+titre = "Visiter : « Ancient city nether »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ancient_city_nether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_ancient_city_ocean"
+titre = "Visiter : « Ancient city ocean »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ancient_city_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_bastion_underground"
+titre = "Visiter : « Bastion underground »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:bastion_underground"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Aspen Glade », Bayou, Tourbière, Escarpée, Forêt morte et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_city_nether"
+titre = "Visiter : « City nether »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:city_nether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_city_overworld"
+titre = "Visiter : « City overworld »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:city_overworld"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de conifères, Forêt de séquoias, Jungle de bambous, Jungle, Taïga ancienne de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_igloo_grassy"
+titre = "Visiter : « Igloo grassy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:igloo_grassy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Champ, Hauts plateaux, Forêt ancienne, Verger, Fruticée rocailleuse et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_igloo_mangrove"
+titre = "Visiter : « Igloo mangrove »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:igloo_mangrove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_igloo_mushroom"
+titre = "Visiter : « Igloo mushroom »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:igloo_mushroom"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_igloo_stone"
+titre = "Visiter : « Igloo stone »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:igloo_stone"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Escarpée, Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mansion_birch"
+titre = "Visiter : « Mansion birch »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mansion_birch"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mansion_desert"
+titre = "Visiter : « Mansion desert »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mansion_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mansion_jungle"
+titre = "Visiter : « Mansion jungle »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mansion_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mansion_mangrove"
+titre = "Visiter : « Mansion mangrove »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mansion_mangrove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mansion_oak"
+titre = "Visiter : « Mansion oak »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mansion_oak"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mansion_savanna"
+titre = "Visiter : « Mansion savanna »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mansion_savanna"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mansion_snowy"
+titre = "Visiter : « Mansion snowy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mansion_snowy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Clairière de pins, Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mansion_taiga"
+titre = "Visiter : « Mansion taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mansion_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_birch"
+titre = "Visiter : « Mineshaft birch »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_birch"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_crimson"
+titre = "Visiter : « Mineshaft crimson »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_crimson"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_dark_forest"
+titre = "Visiter : « Mineshaft dark forest »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_dark_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_desert"
+titre = "Visiter : « Mineshaft desert »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_end"
+titre = "Visiter : « Mineshaft end »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_end"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_icy"
+titre = "Visiter : « Mineshaft icy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_icy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Pics gelés et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_jungle"
+titre = "Visiter : « Mineshaft jungle »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_nether"
+titre = "Visiter : « Mineshaft nether »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_nether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_ocean"
+titre = "Visiter : « Mineshaft ocean »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_savanna"
+titre = "Visiter : « Mineshaft savanna »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_savanna"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Savane luxuriante, Brousse, Savane, Plateau de savane, Savane venteuse (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_stone"
+titre = "Visiter : « Mineshaft stone »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_stone"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Désert froid, Escarpée, Champ, Hauts plateaux, Falaises de jade et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_swamp"
+titre = "Visiter : « Mineshaft swamp »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_swamp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_taiga"
+titre = "Visiter : « Mineshaft taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Forêt de séquoias, Taïga ancienne de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_mineshaft_warped"
+titre = "Visiter : « Mineshaft warped »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:mineshaft_warped"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_monument_desert"
+titre = "Visiter : « Monument desert »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:monument_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_monument_icy"
+titre = "Visiter : « Monument icy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:monument_icy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_monument_jungle"
+titre = "Visiter : « Monument jungle »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:monument_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_monument_nether"
+titre = "Visiter : « Monument nether »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:monument_nether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_badlands"
+titre = "Visiter : « Outpost badlands »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_badlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_birch"
+titre = "Visiter : « Outpost birch »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_birch"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_crimson"
+titre = "Visiter : « Outpost crimson »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_crimson"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_desert"
+titre = "Visiter : « Outpost desert »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_desert"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_end"
+titre = "Visiter : « Outpost end »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_end"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_giant_tree_taiga"
+titre = "Visiter : « Outpost giant tree taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_giant_tree_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_icy"
+titre = "Visiter : « Outpost icy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_icy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_jungle"
+titre = "Visiter : « Outpost jungle »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_mangrove"
+titre = "Visiter : « Outpost mangrove »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_mangrove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_nether_brick"
+titre = "Visiter : « Outpost nether brick »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_nether_brick"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_oak"
+titre = "Visiter : « Outpost oak »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_oak"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_snowy"
+titre = "Visiter : « Outpost snowy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_snowy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_taiga"
+titre = "Visiter : « Outpost taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_outpost_warped"
+titre = "Visiter : « Outpost warped »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:outpost_warped"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_badlands"
+titre = "Visiter : « Pyramid badlands »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_badlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_dark_forest"
+titre = "Visiter : « Pyramid dark forest »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_dark_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_end"
+titre = "Visiter : « Pyramid end »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_end"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_flower_forest"
+titre = "Visiter : « Pyramid flower forest »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_flower_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Champ de lavande, Bosquet de cerisiers, Forêt fleurie (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_giant_tree_taiga"
+titre = "Visiter : « Pyramid giant tree taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_giant_tree_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_icy"
+titre = "Visiter : « Pyramid icy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_icy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Pics gelés, Stalagmites de glace, Plaines enneigées (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_jungle"
+titre = "Visiter : « Pyramid jungle »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_mushroom"
+titre = "Visiter : « Pyramid mushroom »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_mushroom"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_nether"
+titre = "Visiter : « Pyramid nether »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_nether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_ocean"
+titre = "Visiter : « Pyramid ocean »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Océan froid, Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_pyramid_snowy"
+titre = "Visiter : « Pyramid snowy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:pyramid_snowy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Bosquet et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_ruined_portal_end"
+titre = "Visiter : « Ruined portal end »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ruined_portal_end"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_ruins_land_cold"
+titre = "Visiter : « Ruins land cold »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ruins_land_cold"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Champ, Hauts plateaux, Falaises de jade, Forêt morte ancienne et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_ruins_land_hot"
+titre = "Visiter : « Ruins land hot »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ruins_land_hot"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Terre sèche, Désert luxuriant, Désert (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_ruins_land_icy"
+titre = "Visiter : « Ruins land icy »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ruins_land_icy"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Fondrière, Forêt de connifères enneigée, Clairière de pins, Forêt d'érables enneigée, Pics gelés et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_ruins_land_warm"
+titre = "Visiter : « Ruins land warm »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ruins_land_warm"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_ruins_nether"
+titre = "Visiter : « Ruins nether »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:ruins_nether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_shipwreck_crimson"
+titre = "Visiter : « Shipwreck crimson »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:shipwreck_crimson"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_shipwreck_end"
+titre = "Visiter : « Shipwreck end »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:shipwreck_end"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_shipwreck_nether_bricks"
+titre = "Visiter : « Shipwreck nether bricks »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:shipwreck_nether_bricks"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_shipwreck_warped"
+titre = "Visiter : « Shipwreck warped »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:shipwreck_warped"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_stronghold_end"
+titre = "Visiter : « Stronghold end »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:stronghold_end"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Amber Land », « Blossoming Spires », « Chorus Forest », « Crystal Mountains », « Dragon Graveyards » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_stronghold_nether"
+titre = "Visiter : « Stronghold nether »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:stronghold_nether"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_temple_nether_basalt"
+titre = "Visiter : « Temple nether basalt »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:temple_nether_basalt"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : « Flooded Deltas », Gravel Desert, Magma Land, Abîme flétri, Deltas de basalte (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_temple_nether_crimson"
+titre = "Visiter : « Temple nether crimson »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:temple_nether_crimson"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_temple_nether_soul"
+titre = "Visiter : « Temple nether soul »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:temple_nether_soul"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Nether Grasslands, Poor Nether Grasslands, Soul Plain, Wart Forest, Wart Forest Edge et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_temple_nether_warped"
+titre = "Visiter : « Temple nether warped »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:temple_nether_warped"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_temple_nether_wasteland"
+titre = "Visiter : « Temple nether wasteland »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:temple_nether_wasteland"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Crimson Glowing Woods, Crimson Pinewood, « Flooded Deltas », Gravel Desert et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_temple_ocean"
+titre = "Visiter : « Temple ocean »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:temple_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_temple_taiga"
+titre = "Visiter : « Temple taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:temple_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Tourbière, Forêt de conifères, Forêt morte, Champ, Clairière de pins et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_badlands"
+titre = "Visiter : « Village badlands »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_badlands"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Badlands, Badlands érodées, Badlands boisées (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_bamboo"
+titre = "Visiter : « Village bamboo »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_bamboo"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Jungle de bambous (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_birch"
+titre = "Visiter : « Village birch »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_birch"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_cherry"
+titre = "Visiter : « Village cherry »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_cherry"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Champ de lavande, Bosquet de cerisiers, Forêt fleurie (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_crimson"
+titre = "Visiter : « Village crimson »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_crimson"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Crimson Glowing Woods, Crimson Pinewood, Nether Swampland, Old Swampland, « Whistling Woods » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_dark_forest"
+titre = "Visiter : « Village dark forest »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_dark_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_giant_taiga"
+titre = "Visiter : « Village giant taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_giant_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_jungle"
+titre = "Visiter : « Village jungle »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_jungle"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Plaine inondable, Jungle fongique, Forêt tropicale, Forêt tropicale rocailleuse, Jungle de bambous et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_mountains"
+titre = "Visiter : « Village mountains »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_mountains"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Hauts plateaux, Pics dentelés, Forêt venteuse, Collines graveleuses venteuses, Collines venteuses (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_mushroom"
+titre = "Visiter : « Village mushroom »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_mushroom"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Jungle fongique, Grotte lumineuse, Champs de champignons, Forêt lumineuse (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_oak"
+titre = "Visiter : « Village oak »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_oak"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_ocean"
+titre = "Visiter : « Village ocean »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_ocean"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Océan froid profond, Océan gelé profond, Océan tiède profond, Océan profond (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_swamp"
+titre = "Visiter : « Village swamp »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_swamp"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bayou, Tourbière, Plaine inondable, Marais, « Moor » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_village_warped"
+titre = "Visiter : « Village warped »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:village_warped"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bone Reef, Nether Jungle, Old Warped Woods, Upside Down Forest, « Dead Upside Down Forest » et d'autres (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_witch_hut_birch"
+titre = "Visiter : « Witch hut birch »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:witch_hut_birch"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de bouleaux, Forêt ancienne de bouleaux (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_witch_hut_dark_forest"
+titre = "Visiter : « Witch hut dark forest »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:witch_hut_dark_forest"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Bois sinistres, Nid d'araignée, Forêt sombre, Jardin pâle (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_witch_hut_giant_tree_taiga"
+titre = "Visiter : « Witch hut giant tree taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:witch_hut_giant_tree_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt de séquoias, Taïga ancienne de pins, Taïga ancienne de sapins (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_witch_hut_mangrove"
+titre = "Visiter : « Witch hut mangrove »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:witch_hut_mangrove"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Marais à mangroves (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_witch_hut_oak"
+titre = "Visiter : « Witch hut oak »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:witch_hut_oak"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt ancienne, Verger, Forêt saisonnière, Bois, Forêt (données du serveur).
+"""
+
+[[quete]]
+cle = "repurposed_structures_witch_hut_taiga"
+titre = "Visiter : « Witch hut taiga »"
+sous_titre = "Repurposed Structures"
+optionnel = true
+taches = ["structure repurposed_structures:witch_hut_taiga"]
+recompenses = ["xp 1"]
+description = """
+Structure de &bRepurposed Structures&r. Se génère dans : Forêt morte, Falaises de jade, Forêt morte ancienne, Taïga (données du serveur).
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:filled_map"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["repurposed_structures_ancient_city_end", "repurposed_structures_ancient_city_nether", "repurposed_structures_ancient_city_ocean", "repurposed_structures_bastion_underground", "repurposed_structures_city_nether", "repurposed_structures_city_overworld", "repurposed_structures_igloo_grassy", "repurposed_structures_igloo_mangrove", "repurposed_structures_igloo_mushroom", "repurposed_structures_igloo_stone", "repurposed_structures_mansion_birch", "repurposed_structures_mansion_desert", "repurposed_structures_mansion_jungle", "repurposed_structures_mansion_mangrove", "repurposed_structures_mansion_oak", "repurposed_structures_mansion_savanna", "repurposed_structures_mansion_snowy", "repurposed_structures_mansion_taiga", "repurposed_structures_mineshaft_birch", "repurposed_structures_mineshaft_crimson", "repurposed_structures_mineshaft_dark_forest", "repurposed_structures_mineshaft_desert", "repurposed_structures_mineshaft_end", "repurposed_structures_mineshaft_icy", "repurposed_structures_mineshaft_jungle", "repurposed_structures_mineshaft_nether", "repurposed_structures_mineshaft_ocean", "repurposed_structures_mineshaft_savanna", "repurposed_structures_mineshaft_stone", "repurposed_structures_mineshaft_swamp", "repurposed_structures_mineshaft_taiga", "repurposed_structures_mineshaft_warped", "repurposed_structures_monument_desert", "repurposed_structures_monument_icy", "repurposed_structures_monument_jungle", "repurposed_structures_monument_nether", "repurposed_structures_outpost_badlands", "repurposed_structures_outpost_birch", "repurposed_structures_outpost_crimson", "repurposed_structures_outpost_desert", "repurposed_structures_outpost_end", "repurposed_structures_outpost_giant_tree_taiga", "repurposed_structures_outpost_icy", "repurposed_structures_outpost_jungle", "repurposed_structures_outpost_mangrove", "repurposed_structures_outpost_nether_brick", "repurposed_structures_outpost_oak", "repurposed_structures_outpost_snowy", "repurposed_structures_outpost_taiga", "repurposed_structures_outpost_warped", "repurposed_structures_pyramid_badlands", "repurposed_structures_pyramid_dark_forest", "repurposed_structures_pyramid_end", "repurposed_structures_pyramid_flower_forest", "repurposed_structures_pyramid_giant_tree_taiga", "repurposed_structures_pyramid_icy", "repurposed_structures_pyramid_jungle", "repurposed_structures_pyramid_mushroom", "repurposed_structures_pyramid_nether", "repurposed_structures_pyramid_ocean", "repurposed_structures_pyramid_snowy", "repurposed_structures_ruined_portal_end", "repurposed_structures_ruins_land_cold", "repurposed_structures_ruins_land_hot", "repurposed_structures_ruins_land_icy", "repurposed_structures_ruins_land_warm", "repurposed_structures_ruins_nether", "repurposed_structures_shipwreck_crimson", "repurposed_structures_shipwreck_end", "repurposed_structures_shipwreck_nether_bricks", "repurposed_structures_shipwreck_warped", "repurposed_structures_stronghold_end", "repurposed_structures_stronghold_nether", "repurposed_structures_temple_nether_basalt", "repurposed_structures_temple_nether_crimson", "repurposed_structures_temple_nether_soul", "repurposed_structures_temple_nether_warped", "repurposed_structures_temple_nether_wasteland", "repurposed_structures_temple_ocean", "repurposed_structures_temple_taiga", "repurposed_structures_village_badlands", "repurposed_structures_village_bamboo", "repurposed_structures_village_birch", "repurposed_structures_village_cherry", "repurposed_structures_village_crimson", "repurposed_structures_village_dark_forest", "repurposed_structures_village_giant_taiga", "repurposed_structures_village_jungle", "repurposed_structures_village_mountains", "repurposed_structures_village_mushroom", "repurposed_structures_village_oak", "repurposed_structures_village_ocean", "repurposed_structures_village_swamp", "repurposed_structures_village_warped", "repurposed_structures_witch_hut_birch", "repurposed_structures_witch_hut_dark_forest", "repurposed_structures_witch_hut_giant_tree_taiga", "repurposed_structures_witch_hut_mangrove", "repurposed_structures_witch_hut_oak", "repurposed_structures_witch_hut_taiga"]
+description = """
+Toutes les structures de ce chapitre visitées. La récompense est symbolique.
+"""
