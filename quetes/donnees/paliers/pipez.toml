@@ -1,0 +1,22 @@
+# Échelle des paliers — Pipez (BMC-89, 5 octobre 2026). Recettes du jar.
+chapitre = "pipez"
+sommet = "amelioration_ultime"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "ameliorations"
+preuve = "basic_upgrade, improved_upgrade (autour de la basique)"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "amelioration_avancee"
+preuve = "advanced_upgrade (autour de l'améliorée)"
+
+[[palier]]
+echelle = "ameliorations"
+cle = "amelioration_ultime"
+preuve = "ultimate_upgrade (autour de l'avancée)"
+
+[[saute]]
+objet = "infinity_upgrade"
+raison = "ni recette ni butin : non obtenable en chaîne"
