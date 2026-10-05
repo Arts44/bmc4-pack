@@ -48,6 +48,8 @@ def charger_index():
                 ix.setdefault(k, {}).update(v)
     p = os.path.join(INDEX, 'apparitions.json')
     ix['apparitions'] = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {'butin': {}, 'biomes_config': {}}
+    p = os.path.join(INDEX, 'noms_fr.json')  # outils/noms-fr.py : noms séparés objet / créature / biome
+    ix['noms'] = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {'entite': {}, 'objet': {}, 'biome': {}}
     p = os.path.join(INDEX, 'voies.json')   # outils/voies.py : biome_modifier, spawn_overrides, NBT
     ix['voies'] = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {}
     return ix
@@ -81,8 +83,12 @@ def t(s):
     return s.replace('\\', '\\\\').replace('"', '\\"')
 
 
-def nom_fr(ix, ident):
-    return (ix['fr'].get(ident) or ix['entities'].get(ident) or ix['items'].get(ident)
+def nom_fr(ix, ident, genre=None):
+    """genre : 'entite', 'objet' ou 'biome'. Sans genre, on le devine par le
+    registre — une créature d'abord, puisque c'est l'usage le plus fréquent."""
+    if genre is None:
+        genre = 'entite' if ident in ix['entities'] else 'biome' if ident in ix['biomes'] else 'objet'
+    return (ix['noms'][genre].get(ident) or ix['fr'].get(ident) or ix['entities'].get(ident) or ix['items'].get(ident)
             or ix['biomes'].get(ident) or ident.split(':', 1)[-1].replace('_', ' '))
 
 
@@ -162,7 +168,7 @@ def connu(c, ix):
 def biome_fr(b, ix):
     if b.startswith('#'):
         return TAG_FR.get(b[1:], b[1:].split(':')[-1].replace('is_', '').replace('_', ' '))
-    return nom_fr(ix, b)
+    return nom_fr(ix, b, 'biome')
 
 
 def regles_fr(regles, ix):
@@ -246,9 +252,9 @@ def fiche(ent, ix, note=None):
         voie = True
     # Butin : seulement les objets qui ont un nom français dans le pack (le
     # reste serait de l'anglais brut dans une fiche française).
-    butin = [b for b in ix['apparitions']['butin'].get(ent, []) if not b.startswith('#') and ix['fr'].get(b)]
+    butin = [b for b in ix['apparitions']['butin'].get(ent, []) if not b.startswith('#') and ix['noms']['objet'].get(b)]
     if butin:
-        lignes.append('Butin : ' + ', '.join(dict.fromkeys(nom_fr(ix, b) for b in butin)) + '.')
+        lignes.append('Butin : ' + ', '.join(dict.fromkeys(nom_fr(ix, b, 'objet') for b in butin)) + '.')
     return lignes, voie
 
 
@@ -349,6 +355,96 @@ def bestiaire_overworld(ix, exclusions, notes):
                               '&7Bestiaire — Overworld', 'minecraft:zombie_head', 'minecraft:creeper_head', intro)
 
 
+# ------------------------------------------------------------- catalogues
+
+def libelle(ix, ident, genre='objet'):
+    """Nom affichable : le nom français du pack, sinon le nom du mod entre
+    guillemets (un nom propre cité, jamais une traduction inventée)."""
+    fr = ix['noms'][genre].get(ident)
+    if fr:
+        return fr
+    brut = ix['items'].get(ident) or ix['biomes'].get(ident) or ix['entities'].get(ident)
+    if not isinstance(brut, str) or not brut or ':' in brut:
+        brut = ident.split(':', 1)[1].split('/')[-1].replace('_', ' ').strip().capitalize()
+    return f"«{chr(160)}{brut}{chr(160)}»"
+
+
+def chapitre_catalogue(fichier, titre, icone, icone_fin, intro, entrees, fin="Tout le chapitre rempli."):
+    """entrees : [{cle, titre, sous_titre, tache, icone?, description}]."""
+    lignes = [f'# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.\n']
+    lignes.append(f'[chapitre]\ntitre = "{t(titre)}"\nfichier = "enc_{fichier.replace("-", "_")}"\ngroupe = "encyclopedie"\n'
+                  f'icone = "{icone}"\nordre = 0\nlignes_cachees = true\ngrille = 16\n')
+    lignes.append(f'[[quete]]\ncle = "intro"\ntitre = "{t(titre)}"\ntaille = 1.5\nicone = "{icone}"\ntaches = ["checkmark Lu"]\n'
+                  f'recompenses = ["xp 2"]\ndescription = """\n{t(intro)}\n"""\n')
+    cles = []
+    for e in entrees:
+        cles.append(e['cle'])
+        ic = f'icone = "{e["icone"]}"\n' if e.get('icone') else ''
+        st = f'sous_titre = "{t(e["sous_titre"])}"\n' if e.get('sous_titre') else ''
+        lignes.append(f'[[quete]]\ncle = "{e["cle"]}"\ntitre = "{t(e["titre"])}"\n{st}optionnel = true\n{ic}'
+                      f'taches = ["{t(e["tache"])}"]\nrecompenses = ["xp 1"]\ndescription = """\n{t(e["description"])}\n"""\n')
+    deps = ', '.join(f'"{c}"' for c in cles)
+    lignes.append(f'[[quete]]\ncle = "complet"\ntitre = "&7Tout le chapitre"\noptionnel = true\ntaille = 1.5\nicone = "{icone_fin}"\nforme = "gear"\n'
+                  f'taches = ["checkmark Chapitre complet"]\nrecompenses = ["xp 20"]\ndeps = [{deps}]\ndescription = """\n{t(fin)}\n"""\n')
+    return '\n'.join(lignes), len(cles), []
+
+
+def _generation():
+    return json.load(open(os.path.join(INDEX, 'generation.json'), encoding='utf-8'))
+
+
+DIM_TEXTE = {'minecraft:overworld': "l'Overworld", 'minecraft:the_nether': 'le Nether', 'minecraft:the_end': "l'End",
+             'aether:the_aether': "l'Aether", 'twilightforest:twilight_forest': 'la Twilight Forest',
+             'blue_skies:everbright': "l'Everbright", 'blue_skies:everdawn': "l'Everdawn", 'deeperdarker:otherside': "l'Otherside"}
+MOD_BIOMES = {'minecraft': 'du jeu de base', 'biomesoplenty': "de Biomes O' Plenty", 'galosphere': 'de Galosphere',
+              'yungscavebiomes': "de YUNG's Cave Biomes", 'climaterivers': 'de Climate Rivers', 'quark': 'de Quark',
+              'betternether': 'de Better Nether', 'netherexp': "de Jaden's Nether Expansion", 'soulfulnether': 'de Soulful Nether',
+              'gardens_of_the_dead': 'de Gardens of the Dead', 'betterend': 'de Better End', 'aether': "de l'Aether",
+              'deep_aether': 'de Deep Aether', 'aether_redux': "d'Aether Redux", 'twilightforest': 'de la Twilight Forest',
+              'blue_skies': 'de Blue Skies', 'deeperdarker': 'de Deeper and Darker'}
+
+
+def chapitre_biomes(ix, fichier, titre, icone, icone_fin, dims, intro):
+    gen = _generation()['biomes']
+    habitants = {}
+    for ent, sp in ix.get('spawns', {}).items():
+        for b in sp['biomes']:
+            if ix['noms']['entite'].get(ent):
+                habitants.setdefault(b, []).append(ix['noms']['entite'][ent])
+    entrees = []
+    for b in sorted(gen, key=lambda x: (x.split(':')[0] != 'minecraft', x)):
+        if gen[b] not in dims:
+            continue
+        mod = b.split(':')[0]
+        desc = f"Biome {MOD_BIOMES.get(mod, 'de ' + mod)}, dans {DIM_TEXTE.get(gen[b], gen[b])}."
+        h = list(dict.fromkeys(habitants.get(b, [])))
+        if h:
+            desc += ' On y croise : ' + ', '.join(h[:6]) + (" et d'autres" if len(h) > 6 else '') + ' (données du pack).'
+        entrees.append({'cle': b.replace(':', '_').replace('/', '_'), 'titre': f"Découvrir : {libelle(ix, b, 'biome')}",
+                        'tache': f"biome {b}", 'description': desc})
+    return chapitre_catalogue(fichier, titre, icone, icone_fin, intro, entrees,
+                              "Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.")
+
+
+def biomes_overworld(ix, exclusions, notes):
+    return chapitre_biomes(ix, 'biomes-overworld', '&2Biomes — Overworld', 'minecraft:grass_block', 'minecraft:filled_map',
+                           {'minecraft:overworld'},
+                           "Chaque biome de l'Overworld que le serveur génère : le jeu de base, Biomes O' Plenty, les grottes de YUNG's et de Galosphere, les rivières de Climate Rivers, le Glimmering Weald de Quark. Une quête se valide en &lentrant&r dans le biome.\n\n"
+                           "Seuls les biomes que les configs du serveur laissent générer sont là (outils/generation.py).")
+
+
+def biomes_nether_end(ix, exclusions, notes):
+    return chapitre_biomes(ix, 'biomes-nether-end', '&4Biomes — Nether et End', 'minecraft:netherrack', 'minecraft:end_stone',
+                           {'minecraft:the_nether', 'minecraft:the_end'},
+                           "Chaque biome du Nether et de l'End que le serveur génère : le jeu de base, Biomes O' Plenty, Better Nether, Gardens of the Dead, Jaden's Nether Expansion, Soulful Nether, Better End. Une quête se valide en &lentrant&r dans le biome.")
+
+
+def biomes_dimensions(ix, exclusions, notes):
+    return chapitre_biomes(ix, 'biomes-dimensions', '&bBiomes — dimensions', 'aether:aether_grass_block', 'minecraft:compass',
+                           {'aether:the_aether', 'twilightforest:twilight_forest', 'blue_skies:everbright', 'blue_skies:everdawn', 'deeperdarker:otherside'},
+                           "Chaque biome de l'Aether, de la Twilight Forest, de l'Everbright, de l'Everdawn et de l'Otherside que le serveur génère. Une quête se valide en &lentrant&r dans le biome.")
+
+
 MODS_NETHER_END = ['betternether', 'bygonenether', 'netherexp', 'soulfulnether', 'betterend']
 MODS_DIMENSIONS = ['aether', 'deep_aether', 'aether_redux', 'lost_aether_content', 'twilightforest', 'blue_skies', 'deeperdarker']
 
@@ -378,7 +474,9 @@ BOSS = {'minecraft:ender_dragon', 'minecraft:wither', 'twilightforest:naga', 'tw
         'blue_skies:arachnarch', 'blue_skies:starlit_crusher', 'deeperdarker:stalker', 'alexsmobs:void_worm'}
 
 CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end': bestiaire_nether_end,
-             'bestiaire-dimensions': bestiaire_dimensions}
+             'bestiaire-dimensions': bestiaire_dimensions,
+             'biomes-overworld': biomes_overworld, 'biomes-nether-end': biomes_nether_end,
+             'biomes-dimensions': biomes_dimensions}
 
 
 def main(argv):
