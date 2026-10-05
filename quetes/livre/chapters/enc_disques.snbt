@@ -1,0 +1,1252 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_disques"
+	group: "34D36ACF0DABCCEC"
+	icon: "minecraft:jukebox"
+	id: "55B84024CDB2525F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Tous les disques que le pack permet d'obtenir, de tous les mods. Une quête se valide en ayant le disque dans l'inventaire."]
+			icon: "minecraft:jukebox"
+			id: "3EEE41A52AEAF05A"
+			rewards: [{
+				id: "62B9AD0F9F950D08"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0805342421624CF8"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&dDisques et musiques"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:music_disc_aether_tune"
+			id: "57C55FF18D5A7F72"
+			optional: true
+			rewards: [{
+				id: "7FEEEED01E695735"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15FCFBF516629174"
+				item: "aether:music_disc_aether_tune"
+				type: "item"
+			}]
+			title: "Trouver : « Blue Music Disc »"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:music_disc_ascending_dawn"
+			id: "7955D73F4B82B0F5"
+			optional: true
+			rewards: [{
+				id: "3CC18EEE01EEA0D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "405871D5E08C3FF4"
+				item: "aether:music_disc_ascending_dawn"
+				type: "item"
+			}]
+			title: "Trouver : « Valkyrie Music Disc »"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:music_disc_chinchilla"
+			id: "52FB4F4BBA796A05"
+			optional: true
+			rewards: [{
+				id: "4D892520443F632C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "713CF05E9CD3DF54"
+				item: "aether:music_disc_chinchilla"
+				type: "item"
+			}]
+			title: "Trouver : « Sepia Music Disc »"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:music_disc_high"
+			id: "494D19033833599A"
+			optional: true
+			rewards: [{
+				id: "728201E45B744B22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22EBAB2131C80AD5"
+				item: "aether:music_disc_high"
+				type: "item"
+			}]
+			title: "Trouver : « Super Music Disc »"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:music_disc_klepto"
+			id: "61F150C6CA0AB928"
+			optional: true
+			rewards: [{
+				id: "0A6A3F4735BE5A79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26A9E8712A73A272"
+				item: "aether:music_disc_klepto"
+				type: "item"
+			}]
+			title: "Trouver : Disque de musique terni"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bAether&r."]
+			icon: "aether:music_disc_sliders_wrath"
+			id: "4F022A101F3F4A75"
+			optional: true
+			rewards: [{
+				id: "15B53AA15D671144"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "363D0ADBA676CC9F"
+				item: "aether:music_disc_sliders_wrath"
+				type: "item"
+			}]
+			title: "Trouver : « Carved Music Disc »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &balexsmobs&r."]
+			icon: "alexsmobs:music_disc_thime"
+			id: "5842BF7B93FC04EE"
+			optional: true
+			rewards: [{
+				id: "441AC9073F60D829"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56481F045166EBE3"
+				item: "alexsmobs:music_disc_thime"
+				type: "item"
+			}]
+			title: "Trouver : Disque de musique"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:music_disc_endseeker"
+			id: "4524EB1FE01431FD"
+			optional: true
+			rewards: [{
+				id: "3A6F0C954658A8C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05D35DE670EB0F0B"
+				item: "betterend:music_disc_endseeker"
+				type: "item"
+			}]
+			title: "Trouver : « §bMusic Disc§r »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:music_disc_eo_dracona"
+			id: "6BE50E118503D0C2"
+			optional: true
+			rewards: [{
+				id: "4D27314EBD37F18F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C271B54AEE3B45F"
+				item: "betterend:music_disc_eo_dracona"
+				type: "item"
+			}]
+			title: "Trouver : « §bMusic Disc§r »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:music_disc_grasping_at_stars"
+			id: "51A192119D370BD3"
+			optional: true
+			rewards: [{
+				id: "7658DD5B35E4C9A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "362FF2142D560338"
+				item: "betterend:music_disc_grasping_at_stars"
+				type: "item"
+			}]
+			title: "Trouver : « §bMusic Disc§r »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bBetter End&r."]
+			icon: "betterend:music_disc_strange_and_alien"
+			id: "2B84D5933ACC3098"
+			optional: true
+			rewards: [{
+				id: "16AAFCE7CE2C5A3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2381B3BEF081C3A8"
+				item: "betterend:music_disc_strange_and_alien"
+				type: "item"
+			}]
+			title: "Trouver : « §bMusic Disc§r »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bbiomesoplenty&r."]
+			icon: "biomesoplenty:music_disc_wanderer"
+			id: "3C982A287669249C"
+			optional: true
+			rewards: [{
+				id: "4ADC0D556A6DE741"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28194E266C046A94"
+				item: "biomesoplenty:music_disc_wanderer"
+				type: "item"
+			}]
+			title: "Trouver : Disque de musique"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bBygone Nether&r."]
+			icon: "bygonenether:wither_waltz_music_disc"
+			id: "68574012921B6AA4"
+			optional: true
+			rewards: [{
+				id: "561A577FB7A9A67A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1162C4C75C1802EE"
+				item: "bygonenether:wither_waltz_music_disc"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:music_disc_ancient_remnant"
+			id: "4D9C272C678C0218"
+			optional: true
+			rewards: [{
+				id: "08D0753A8048E17B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7010008D42221DC7"
+				item: "cataclysm:music_disc_ancient_remnant"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:music_disc_ender_guardian"
+			id: "2418EB397E45073F"
+			optional: true
+			rewards: [{
+				id: "2242C2758B175A14"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "767FF73ADE2B2844"
+				item: "cataclysm:music_disc_ender_guardian"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:music_disc_ignis"
+			id: "3EF52564AF3DF585"
+			optional: true
+			rewards: [{
+				id: "5196204028F67CFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F4FFDBE77871A70"
+				item: "cataclysm:music_disc_ignis"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:music_disc_maledictus"
+			id: "42869094372D3E10"
+			optional: true
+			rewards: [{
+				id: "3FA966F65759F03A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DAC28F06604CF43"
+				item: "cataclysm:music_disc_maledictus"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:music_disc_netherite_monstrosity"
+			id: "76D27FABF0F51473"
+			optional: true
+			rewards: [{
+				id: "0BC9A4BD1F608B11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "054E07A7C77FF6C3"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:music_disc_scylla"
+			id: "7663D6CC1AA4E8D3"
+			optional: true
+			rewards: [{
+				id: "7C4418E4BCB37715"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A7FCA2EFC87A78F"
+				item: "cataclysm:music_disc_scylla"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:music_disc_the_harbinger"
+			id: "16DA785BB22E8354"
+			optional: true
+			rewards: [{
+				id: "04C00EF362FFECD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C913EC0555F9BE0"
+				item: "cataclysm:music_disc_the_harbinger"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bCataclysm&r."]
+			icon: "cataclysm:music_disc_the_leviathan"
+			id: "13569F50EDE66517"
+			optional: true
+			rewards: [{
+				id: "39C60C9AF0A4906B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F6FB3F79D4EBACF"
+				item: "cataclysm:music_disc_the_leviathan"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:music_disc_a_morning_wish"
+			id: "45B75FCC9A56C18D"
+			optional: true
+			rewards: [{
+				id: "4283BB5E578AAF0F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62DF51D1DCB51854"
+				item: "deep_aether:music_disc_a_morning_wish"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:music_disc_cyclone"
+			id: "5A3CAD99CE2DDB0B"
+			optional: true
+			rewards: [{
+				id: "190DD365F29A5D39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "01B5FDE649ED616A"
+				item: "deep_aether:music_disc_cyclone"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bDeep Aether&r."]
+			icon: "deep_aether:music_disc_nabooru"
+			id: "395B34AEDE65CE4A"
+			optional: true
+			rewards: [{
+				id: "0E5723A03F609ADF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "424EBCD018358AA4"
+				item: "deep_aether:music_disc_nabooru"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:music_disc_dead_king_lullaby"
+			id: "2442EED09BAA0718"
+			optional: true
+			rewards: [{
+				id: "63AC4C07DA983DA9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32BE891CCDF72CC8"
+				item: "irons_spellbooks:music_disc_dead_king_lullaby"
+				type: "item"
+			}]
+			title: "Trouver : Disque de Musique"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bIron's Spells&r."]
+			icon: "irons_spellbooks:music_disc_flame_still_burns"
+			id: "7DE28FE4FA29EE77"
+			optional: true
+			rewards: [{
+				id: "0080938001E09346"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73EBB91E514DC493"
+				item: "irons_spellbooks:music_disc_flame_still_burns"
+				type: "item"
+			}]
+			title: "Trouver : Disque de Musique"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bLost Aether Content&r."]
+			icon: "lost_aether_content:music_disc_legacy"
+			id: "09F2B7C89E205C93"
+			optional: true
+			rewards: [{
+				id: "0B4FB1C08582690B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4732C92500364B91"
+				item: "lost_aether_content:music_disc_legacy"
+				type: "item"
+			}]
+			title: "Trouver : « Duck Music Disc »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bLost Aether Content&r."]
+			icon: "lost_aether_content:music_disc_sovereign_of_the_skies"
+			id: "0023C8596C62412D"
+			optional: true
+			rewards: [{
+				id: "3206B1DE7D8AB6B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58C32F633A6A6A2D"
+				item: "lost_aether_content:music_disc_sovereign_of_the_skies"
+				type: "item"
+			}]
+			title: "Trouver : « Royal Music Disc »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_11"
+			id: "29015D673166991F"
+			optional: true
+			rewards: [{
+				id: "3A5DE1DB7148088B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CEC7A5E60CFC5F8"
+				item: "minecraft:music_disc_11"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_13"
+			id: "3A2C2458F069E67F"
+			optional: true
+			rewards: [{
+				id: "1301EC5BFDCBBD4B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3166A1034335BD0C"
+				item: "minecraft:music_disc_13"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_5"
+			id: "32C19E5D4A0A56FE"
+			optional: true
+			rewards: [{
+				id: "51080B5BCF4BD513"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B815B0292D1D094"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_blocks"
+			id: "2F8E05BE0E2CCC96"
+			optional: true
+			rewards: [{
+				id: "638EE6BA06F94789"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D0E0D64089149C8"
+				item: "minecraft:music_disc_blocks"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_cat"
+			id: "5B8CCD8C46F01C75"
+			optional: true
+			rewards: [{
+				id: "120672C542C465A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F37A495007CAE98"
+				item: "minecraft:music_disc_cat"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_chirp"
+			id: "6DADDB2A3DE5595C"
+			optional: true
+			rewards: [{
+				id: "7967E94285603A89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06B0A5A2E3CD6330"
+				item: "minecraft:music_disc_chirp"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_far"
+			id: "6268D56E7C052332"
+			optional: true
+			rewards: [{
+				id: "5E813B128E4A4363"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "357AB4765618B210"
+				item: "minecraft:music_disc_far"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_mall"
+			id: "6B2046F02416D6D7"
+			optional: true
+			rewards: [{
+				id: "58E18758E6C99A71"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BF6D71E14B4EF39"
+				item: "minecraft:music_disc_mall"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_mellohi"
+			id: "47D956AECAC855A1"
+			optional: true
+			rewards: [{
+				id: "15D4673AA68BB636"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C08AD49E713A37F"
+				item: "minecraft:music_disc_mellohi"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_otherside"
+			id: "456D5DDBE49B8927"
+			optional: true
+			rewards: [{
+				id: "389B2C31CA4F3AF9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "570AD76D4AC5AD61"
+				item: "minecraft:music_disc_otherside"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_pigstep"
+			id: "36E802B1C602F02B"
+			optional: true
+			rewards: [{
+				id: "12C80DC3E41C5D70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1CEFCBF04658C956"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_relic"
+			id: "38FF31FB6B405C0A"
+			optional: true
+			rewards: [{
+				id: "6D6DF757BE281D96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F8D2C95DBD7E85E"
+				item: "minecraft:music_disc_relic"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_stal"
+			id: "51B7AA9BB3FE7DA0"
+			optional: true
+			rewards: [{
+				id: "669A33D637F03EB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48ED00365A7C6BF9"
+				item: "minecraft:music_disc_stal"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_strad"
+			id: "67F8BF98AA5D6345"
+			optional: true
+			rewards: [{
+				id: "7647AC87EAE12061"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26D87DC3B4FDFC21"
+				item: "minecraft:music_disc_strad"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_wait"
+			id: "656EA3E13D9BEF7A"
+			optional: true
+			rewards: [{
+				id: "220B8A1E0DC7B610"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "270D5FAB49DC1ACF"
+				item: "minecraft:music_disc_wait"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bjeu de base&r."]
+			icon: "minecraft:music_disc_ward"
+			id: "4EA4911F528C77AB"
+			optional: true
+			rewards: [{
+				id: "3DC3CCE6FE5F6926"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0080E2C09AD47B89"
+				item: "minecraft:music_disc_ward"
+				type: "item"
+			}]
+			title: "Trouver : Disque"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bMowzie's Mobs&r."]
+			icon: "mowziesmobs:music_disc_petiole"
+			id: "4036BBD6BF97E543"
+			optional: true
+			rewards: [{
+				id: "1E914768BF42B8A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6831B4D05ADF007D"
+				item: "mowziesmobs:music_disc_petiole"
+				type: "item"
+			}]
+			title: "Trouver : Music Disc"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bJaden's Nether Expansion&r."]
+			icon: "netherexp:music_disc_buckshot_wonderland"
+			id: "0282E6681ED69ECF"
+			optional: true
+			rewards: [{
+				id: "73BDA5857C4DBDA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "672A66C05D76C5ED"
+				item: "netherexp:music_disc_buckshot_wonderland"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bsupplementaries&r."]
+			icon: "supplementaries:pancake"
+			id: "593B194F50821ED5"
+			optional: true
+			rewards: [{
+				id: "13471459A41CA675"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A13952DC670C15C"
+				item: "supplementaries:pancake"
+				type: "item"
+			}]
+			title: "Trouver : Pancake"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTakes a Pillage&r."]
+			icon: "takesapillage:bastille_blues_music_disc"
+			id: "6AB64ABC47632BA7"
+			optional: true
+			rewards: [{
+				id: "586F472ABEB4A158"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "098866EB6E028448"
+				item: "takesapillage:bastille_blues_music_disc"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_findings"
+			id: "6040157EAE0EB7EC"
+			optional: true
+			rewards: [{
+				id: "09A1F95D5610A20F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "250EDD8C7F529C8A"
+				item: "twilightforest:music_disc_findings"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_home"
+			id: "6019EF0EC4DA72CB"
+			optional: true
+			rewards: [{
+				id: "00CDAF18DE5F72F8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B74FB3904034B84"
+				item: "twilightforest:music_disc_home"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_maker"
+			id: "2CE47CDCD637B274"
+			optional: true
+			rewards: [{
+				id: "5099A6FA5E4EAF94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BD91018E3D07E0A"
+				item: "twilightforest:music_disc_maker"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_motion"
+			id: "6393F53D35C33154"
+			optional: true
+			rewards: [{
+				id: "02909404D7C7B8EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32B47DF30A7F6820"
+				item: "twilightforest:music_disc_motion"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_radiance"
+			id: "577B10015B6207D8"
+			optional: true
+			rewards: [{
+				id: "488A24E77F96E185"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "510BBD537854498E"
+				item: "twilightforest:music_disc_radiance"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_steps"
+			id: "5EC56F6E07A194FD"
+			optional: true
+			rewards: [{
+				id: "1725A544BA885CEB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25A9D0CD6AA517D1"
+				item: "twilightforest:music_disc_steps"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_superstitious"
+			id: "7505273F2CD49576"
+			optional: true
+			rewards: [{
+				id: "1DD19599B8708D3D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1DCD53FB9CF6D6C3"
+				item: "twilightforest:music_disc_superstitious"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_thread"
+			id: "749EBDFFA81C2498"
+			optional: true
+			rewards: [{
+				id: "230C590C4BC1D8DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "640CC090DB55EA00"
+				item: "twilightforest:music_disc_thread"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Objet de &bTwilight Forest&r."]
+			icon: "twilightforest:music_disc_wayfarer"
+			id: "1FF9E390E27A936F"
+			optional: true
+			rewards: [{
+				id: "4B8B698833C588CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E19A4D600C6020B"
+				item: "twilightforest:music_disc_wayfarer"
+				type: "item"
+			}]
+			title: "Trouver : « Music Disc »"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"57C55FF18D5A7F72"
+				"7955D73F4B82B0F5"
+				"52FB4F4BBA796A05"
+				"494D19033833599A"
+				"61F150C6CA0AB928"
+				"4F022A101F3F4A75"
+				"5842BF7B93FC04EE"
+				"4524EB1FE01431FD"
+				"6BE50E118503D0C2"
+				"51A192119D370BD3"
+				"2B84D5933ACC3098"
+				"3C982A287669249C"
+				"68574012921B6AA4"
+				"4D9C272C678C0218"
+				"2418EB397E45073F"
+				"3EF52564AF3DF585"
+				"42869094372D3E10"
+				"76D27FABF0F51473"
+				"7663D6CC1AA4E8D3"
+				"16DA785BB22E8354"
+				"13569F50EDE66517"
+				"45B75FCC9A56C18D"
+				"5A3CAD99CE2DDB0B"
+				"395B34AEDE65CE4A"
+				"2442EED09BAA0718"
+				"7DE28FE4FA29EE77"
+				"09F2B7C89E205C93"
+				"0023C8596C62412D"
+				"29015D673166991F"
+				"3A2C2458F069E67F"
+				"32C19E5D4A0A56FE"
+				"2F8E05BE0E2CCC96"
+				"5B8CCD8C46F01C75"
+				"6DADDB2A3DE5595C"
+				"6268D56E7C052332"
+				"6B2046F02416D6D7"
+				"47D956AECAC855A1"
+				"456D5DDBE49B8927"
+				"36E802B1C602F02B"
+				"38FF31FB6B405C0A"
+				"51B7AA9BB3FE7DA0"
+				"67F8BF98AA5D6345"
+				"656EA3E13D9BEF7A"
+				"4EA4911F528C77AB"
+				"4036BBD6BF97E543"
+				"0282E6681ED69ECF"
+				"593B194F50821ED5"
+				"6AB64ABC47632BA7"
+				"6040157EAE0EB7EC"
+				"6019EF0EC4DA72CB"
+				"2CE47CDCD637B274"
+				"6393F53D35C33154"
+				"577B10015B6207D8"
+				"5EC56F6E07A194FD"
+				"7505273F2CD49576"
+				"749EBDFFA81C2498"
+				"1FF9E390E27A936F"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "minecraft:music_disc_pigstep"
+			id: "63EBFC627F954E85"
+			optional: true
+			rewards: [{
+				id: "609F93FBA22D6804"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1C1D0F4470846248"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&dDisques et musiques"
+}

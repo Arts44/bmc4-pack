@@ -1,0 +1,662 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&dDisques et musiques"
+fichier = "enc_disques"
+groupe = "encyclopedie"
+icone = "minecraft:jukebox"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&dDisques et musiques"
+taille = 1.5
+icone = "minecraft:jukebox"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Tous les disques que le pack permet d'obtenir, de tous les mods. Une quête se valide en ayant le disque dans l'inventaire.
+"""
+
+[[quete]]
+cle = "aether_music_disc_aether_tune"
+titre = "Trouver : « Blue Music Disc »"
+optionnel = true
+icone = "aether:music_disc_aether_tune"
+taches = ["item aether:music_disc_aether_tune"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_music_disc_ascending_dawn"
+titre = "Trouver : « Valkyrie Music Disc »"
+optionnel = true
+icone = "aether:music_disc_ascending_dawn"
+taches = ["item aether:music_disc_ascending_dawn"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_music_disc_chinchilla"
+titre = "Trouver : « Sepia Music Disc »"
+optionnel = true
+icone = "aether:music_disc_chinchilla"
+taches = ["item aether:music_disc_chinchilla"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_music_disc_high"
+titre = "Trouver : « Super Music Disc »"
+optionnel = true
+icone = "aether:music_disc_high"
+taches = ["item aether:music_disc_high"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_music_disc_klepto"
+titre = "Trouver : Disque de musique terni"
+optionnel = true
+icone = "aether:music_disc_klepto"
+taches = ["item aether:music_disc_klepto"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "aether_music_disc_sliders_wrath"
+titre = "Trouver : « Carved Music Disc »"
+optionnel = true
+icone = "aether:music_disc_sliders_wrath"
+taches = ["item aether:music_disc_sliders_wrath"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bAether&r.
+"""
+
+[[quete]]
+cle = "alexsmobs_music_disc_thime"
+titre = "Trouver : Disque de musique"
+optionnel = true
+icone = "alexsmobs:music_disc_thime"
+taches = ["item alexsmobs:music_disc_thime"]
+recompenses = ["xp 1"]
+description = """
+Objet de &balexsmobs&r.
+"""
+
+[[quete]]
+cle = "betterend_music_disc_endseeker"
+titre = "Trouver : « §bMusic Disc§r »"
+optionnel = true
+icone = "betterend:music_disc_endseeker"
+taches = ["item betterend:music_disc_endseeker"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_music_disc_eo_dracona"
+titre = "Trouver : « §bMusic Disc§r »"
+optionnel = true
+icone = "betterend:music_disc_eo_dracona"
+taches = ["item betterend:music_disc_eo_dracona"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_music_disc_grasping_at_stars"
+titre = "Trouver : « §bMusic Disc§r »"
+optionnel = true
+icone = "betterend:music_disc_grasping_at_stars"
+taches = ["item betterend:music_disc_grasping_at_stars"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "betterend_music_disc_strange_and_alien"
+titre = "Trouver : « §bMusic Disc§r »"
+optionnel = true
+icone = "betterend:music_disc_strange_and_alien"
+taches = ["item betterend:music_disc_strange_and_alien"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBetter End&r.
+"""
+
+[[quete]]
+cle = "biomesoplenty_music_disc_wanderer"
+titre = "Trouver : Disque de musique"
+optionnel = true
+icone = "biomesoplenty:music_disc_wanderer"
+taches = ["item biomesoplenty:music_disc_wanderer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bbiomesoplenty&r.
+"""
+
+[[quete]]
+cle = "bygonenether_wither_waltz_music_disc"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "bygonenether:wither_waltz_music_disc"
+taches = ["item bygonenether:wither_waltz_music_disc"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bBygone Nether&r.
+"""
+
+[[quete]]
+cle = "cataclysm_music_disc_ancient_remnant"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "cataclysm:music_disc_ancient_remnant"
+taches = ["item cataclysm:music_disc_ancient_remnant"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_music_disc_ender_guardian"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "cataclysm:music_disc_ender_guardian"
+taches = ["item cataclysm:music_disc_ender_guardian"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_music_disc_ignis"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "cataclysm:music_disc_ignis"
+taches = ["item cataclysm:music_disc_ignis"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_music_disc_maledictus"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "cataclysm:music_disc_maledictus"
+taches = ["item cataclysm:music_disc_maledictus"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_music_disc_netherite_monstrosity"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "cataclysm:music_disc_netherite_monstrosity"
+taches = ["item cataclysm:music_disc_netherite_monstrosity"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_music_disc_scylla"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "cataclysm:music_disc_scylla"
+taches = ["item cataclysm:music_disc_scylla"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_music_disc_the_harbinger"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "cataclysm:music_disc_the_harbinger"
+taches = ["item cataclysm:music_disc_the_harbinger"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "cataclysm_music_disc_the_leviathan"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "cataclysm:music_disc_the_leviathan"
+taches = ["item cataclysm:music_disc_the_leviathan"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bCataclysm&r.
+"""
+
+[[quete]]
+cle = "deep_aether_music_disc_a_morning_wish"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "deep_aether:music_disc_a_morning_wish"
+taches = ["item deep_aether:music_disc_a_morning_wish"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_music_disc_cyclone"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "deep_aether:music_disc_cyclone"
+taches = ["item deep_aether:music_disc_cyclone"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "deep_aether_music_disc_nabooru"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "deep_aether:music_disc_nabooru"
+taches = ["item deep_aether:music_disc_nabooru"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bDeep Aether&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_music_disc_dead_king_lullaby"
+titre = "Trouver : Disque de Musique"
+optionnel = true
+icone = "irons_spellbooks:music_disc_dead_king_lullaby"
+taches = ["item irons_spellbooks:music_disc_dead_king_lullaby"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_music_disc_flame_still_burns"
+titre = "Trouver : Disque de Musique"
+optionnel = true
+icone = "irons_spellbooks:music_disc_flame_still_burns"
+taches = ["item irons_spellbooks:music_disc_flame_still_burns"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bIron's Spells&r.
+"""
+
+[[quete]]
+cle = "lost_aether_content_music_disc_legacy"
+titre = "Trouver : « Duck Music Disc »"
+optionnel = true
+icone = "lost_aether_content:music_disc_legacy"
+taches = ["item lost_aether_content:music_disc_legacy"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bLost Aether Content&r.
+"""
+
+[[quete]]
+cle = "lost_aether_content_music_disc_sovereign_of_the_skies"
+titre = "Trouver : « Royal Music Disc »"
+optionnel = true
+icone = "lost_aether_content:music_disc_sovereign_of_the_skies"
+taches = ["item lost_aether_content:music_disc_sovereign_of_the_skies"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bLost Aether Content&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_11"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_11"
+taches = ["item minecraft:music_disc_11"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_13"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_13"
+taches = ["item minecraft:music_disc_13"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_5"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_5"
+taches = ["item minecraft:music_disc_5"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_blocks"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_blocks"
+taches = ["item minecraft:music_disc_blocks"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_cat"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_cat"
+taches = ["item minecraft:music_disc_cat"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_chirp"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_chirp"
+taches = ["item minecraft:music_disc_chirp"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_far"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_far"
+taches = ["item minecraft:music_disc_far"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_mall"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_mall"
+taches = ["item minecraft:music_disc_mall"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_mellohi"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_mellohi"
+taches = ["item minecraft:music_disc_mellohi"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_otherside"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_otherside"
+taches = ["item minecraft:music_disc_otherside"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_pigstep"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_pigstep"
+taches = ["item minecraft:music_disc_pigstep"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_relic"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_relic"
+taches = ["item minecraft:music_disc_relic"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_stal"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_stal"
+taches = ["item minecraft:music_disc_stal"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_strad"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_strad"
+taches = ["item minecraft:music_disc_strad"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_wait"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_wait"
+taches = ["item minecraft:music_disc_wait"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "minecraft_music_disc_ward"
+titre = "Trouver : Disque"
+optionnel = true
+icone = "minecraft:music_disc_ward"
+taches = ["item minecraft:music_disc_ward"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bjeu de base&r.
+"""
+
+[[quete]]
+cle = "mowziesmobs_music_disc_petiole"
+titre = "Trouver : Music Disc"
+optionnel = true
+icone = "mowziesmobs:music_disc_petiole"
+taches = ["item mowziesmobs:music_disc_petiole"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bMowzie's Mobs&r.
+"""
+
+[[quete]]
+cle = "netherexp_music_disc_buckshot_wonderland"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "netherexp:music_disc_buckshot_wonderland"
+taches = ["item netherexp:music_disc_buckshot_wonderland"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bJaden's Nether Expansion&r.
+"""
+
+[[quete]]
+cle = "supplementaries_pancake"
+titre = "Trouver : Pancake"
+optionnel = true
+icone = "supplementaries:pancake"
+taches = ["item supplementaries:pancake"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bsupplementaries&r.
+"""
+
+[[quete]]
+cle = "takesapillage_bastille_blues_music_disc"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "takesapillage:bastille_blues_music_disc"
+taches = ["item takesapillage:bastille_blues_music_disc"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTakes a Pillage&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_findings"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_findings"
+taches = ["item twilightforest:music_disc_findings"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_home"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_home"
+taches = ["item twilightforest:music_disc_home"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_maker"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_maker"
+taches = ["item twilightforest:music_disc_maker"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_motion"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_motion"
+taches = ["item twilightforest:music_disc_motion"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_radiance"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_radiance"
+taches = ["item twilightforest:music_disc_radiance"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_steps"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_steps"
+taches = ["item twilightforest:music_disc_steps"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_superstitious"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_superstitious"
+taches = ["item twilightforest:music_disc_superstitious"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_thread"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_thread"
+taches = ["item twilightforest:music_disc_thread"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "twilightforest_music_disc_wayfarer"
+titre = "Trouver : « Music Disc »"
+optionnel = true
+icone = "twilightforest:music_disc_wayfarer"
+taches = ["item twilightforest:music_disc_wayfarer"]
+recompenses = ["xp 1"]
+description = """
+Objet de &bTwilight Forest&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:music_disc_pigstep"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["aether_music_disc_aether_tune", "aether_music_disc_ascending_dawn", "aether_music_disc_chinchilla", "aether_music_disc_high", "aether_music_disc_klepto", "aether_music_disc_sliders_wrath", "alexsmobs_music_disc_thime", "betterend_music_disc_endseeker", "betterend_music_disc_eo_dracona", "betterend_music_disc_grasping_at_stars", "betterend_music_disc_strange_and_alien", "biomesoplenty_music_disc_wanderer", "bygonenether_wither_waltz_music_disc", "cataclysm_music_disc_ancient_remnant", "cataclysm_music_disc_ender_guardian", "cataclysm_music_disc_ignis", "cataclysm_music_disc_maledictus", "cataclysm_music_disc_netherite_monstrosity", "cataclysm_music_disc_scylla", "cataclysm_music_disc_the_harbinger", "cataclysm_music_disc_the_leviathan", "deep_aether_music_disc_a_morning_wish", "deep_aether_music_disc_cyclone", "deep_aether_music_disc_nabooru", "irons_spellbooks_music_disc_dead_king_lullaby", "irons_spellbooks_music_disc_flame_still_burns", "lost_aether_content_music_disc_legacy", "lost_aether_content_music_disc_sovereign_of_the_skies", "minecraft_music_disc_11", "minecraft_music_disc_13", "minecraft_music_disc_5", "minecraft_music_disc_blocks", "minecraft_music_disc_cat", "minecraft_music_disc_chirp", "minecraft_music_disc_far", "minecraft_music_disc_mall", "minecraft_music_disc_mellohi", "minecraft_music_disc_otherside", "minecraft_music_disc_pigstep", "minecraft_music_disc_relic", "minecraft_music_disc_stal", "minecraft_music_disc_strad", "minecraft_music_disc_wait", "minecraft_music_disc_ward", "mowziesmobs_music_disc_petiole", "netherexp_music_disc_buckshot_wonderland", "supplementaries_pancake", "takesapillage_bastille_blues_music_disc", "twilightforest_music_disc_findings", "twilightforest_music_disc_home", "twilightforest_music_disc_maker", "twilightforest_music_disc_motion", "twilightforest_music_disc_radiance", "twilightforest_music_disc_steps", "twilightforest_music_disc_superstitious", "twilightforest_music_disc_thread", "twilightforest_music_disc_wayfarer"]
+description = """
+Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+"""
