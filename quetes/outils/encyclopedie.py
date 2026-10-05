@@ -35,6 +35,8 @@ import importlib.util as _ilu
 ICI = os.path.dirname(os.path.abspath(__file__))
 _spec = _ilu.spec_from_file_location('typo', os.path.join(ICI, 'normaliser-typo.py'))
 TYPO = _ilu.module_from_spec(_spec); _spec.loader.exec_module(TYPO)
+sys.path.insert(0, ICI)
+import retroactivite  # noqa: E402
 DONNEES = os.path.join(ICI, '..', 'donnees')
 NOTES = os.path.join(DONNEES, 'notes')
 INDEX = os.path.join(ICI, '..', 'index')
@@ -477,15 +479,18 @@ def chapitre_structures(ix, fichier, titre, icone, icone_fin, mods, intro):
             vus = list(dict.fromkeys(bs))
             desc += ' Se génère dans : ' + ', '.join(vus[:5]) + (" et d'autres" if len(vus) > 5 else '') + ' (données du serveur).'
         nom = st.split(':', 1)[1].split('/')[-1].replace('_', ' ').strip().capitalize()
+        # Rétroactivité (BMC-89) : le progrès « entrer dans la structure » du
+        # mod, quand il existe, valide aussi une visite d'avant le livre.
+        adv = retroactivite.progres_equivalent(f"structure {st}")
         entrees.append({'cle': st.replace(':', '_').replace('/', '_'), 'titre': f"Visiter : «{chr(160)}{nom}{chr(160)}»",
-                        'sous_titre': NOM_MOD_STRUCT.get(mod, mod), 'tache': f"structure {st}", 'description': desc})
+                        'sous_titre': NOM_MOD_STRUCT.get(mod, mod), 'tache': f"advancement {adv}" if adv else f"structure {st}", 'description': desc})
     texte, n, _ = chapitre_catalogue(fichier, titre, icone, icone_fin, intro, entrees,
                                      "Toutes les structures de ce chapitre visitées. La récompense est symbolique.")
     return texte, n, exclues
 
 
 INTRO_STRUCT = ("Une quête par structure que le serveur génère vraiment : placée par la génération du monde, dans au moins un biome qui existe ici (outils/generation.py, datapacks du serveur compris). "
-                "Elle se valide en &lentrant&r dans la structure. Les noms sont ceux du mod, entre guillemets.")
+                "Elle se valide en &lentrant&r dans la structure ; quand le mod a un progrès de découverte, une visite d'avant le livre compte aussi. Les noms sont ceux du mod, entre guillemets.")
 
 
 def structures_vanilla(ix, e, n):

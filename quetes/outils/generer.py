@@ -36,6 +36,7 @@ import tomllib
 ICI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ICI)
 import controles  # noqa: E402
+import retroactivite  # noqa: E402
 DONNEES = os.path.join(ICI, '..', 'donnees')
 LIVRE = os.path.join(ICI, '..', 'livre')            # livre complet
 LIVRE_LEGER = os.path.join(ICI, '..', 'livre-leger')  # sans l'Encyclopédie
@@ -443,7 +444,12 @@ def disposer(quetes, cle_rang):
         if c in pile:
             raise SystemExit(f"dépendance circulaire sur « {c} »")
         deps = quetes[c].get('deps', [])
-        rang[c] = 0 if not deps else 1 + max(r(d, pile + (c,)) for d in deps)
+        # Rétroactivité (BMC-89) : une étape qui ne dépend plus de la case
+        # d'introduction se place quand même juste après elle.
+        if not deps:
+            rang[c] = 1 if (quetes[c].get('racine') and 'intro' in quetes and c != 'intro') else 0
+        else:
+            rang[c] = 1 + max(r(d, pile + (c,)) for d in deps)
         return rang[c]
 
     for c in quetes:
@@ -516,6 +522,18 @@ def construire_chapitre(toml_path, verif, tables, ix):
         taches = [tache(t, ou, verif, qid, i) for i, t in enumerate(qd.get('taches', []))]
         if not taches:
             raise SystemExit(f"{ou} : aucune tâche")
+        # « Une tâche parmi N » : chaque tâche est optionnelle. Quest.isCompletedRaw
+        # (QuestObject) termine la quête dès qu'une tâche est faite quand toutes
+        # sont optionnelles (jar 2001.4.22). exigence = "une" vise, elle, les
+        # dépendances (dependency_requirement one_completed).
+        if qd.get('taches_une'):
+            if len(taches) < 2:
+                verif.erreurs.append(f"{ou} : taches_une avec une seule tâche")
+            for tt in taches:
+                tt['optional_task'] = True
+        if qd.get('exigence') == 'une' and len(qd.get('deps', [])) + len(qd.get('deps_externes', [])) < 2:
+            verif.erreurs.append(f"{ou} : exigence = \"une\" porte sur les dépendances et il y en a moins de deux"
+                                 " (pour « une tâche parmi N », écrire taches_une = true)")
         recs = [recompense(s, ou, verif, tables, qid, i) for i, s in enumerate(qd.get('recompenses', []))]
         if qd.get('equipe'):
             for rc in recs:
@@ -713,7 +731,7 @@ def controler_paliers(chapitres, verif):
                     amont(d, vus)
             return vus
 
-        derniers = {}
+        derniers, derniers_prouves = {}, {}
         for pl in p.get('palier', []):
             cle, ech = pl.get('cle'), pl.get('echelle', '')
             if not pl.get('preuve'):
@@ -722,9 +740,16 @@ def controler_paliers(chapitres, verif):
                 verif.erreurs.append(f"{ou} : palier « {cle} » sans quête dans le chapitre")
                 continue
             prec = derniers.get(ech)
+            # Rétroactivité (BMC-89, 6 octobre) : un palier rétroactif ne dépend
+            # pas d'un palier que le jeu ne peut pas prouver (visite, kill,
+            # case) ; il doit alors dépendre du dernier palier prouvable.
+            if prec and retroactivite.a_tache_retroactive(quetes[cle]) and not retroactivite.prouvable_seule(quetes[prec]):
+                prec = derniers_prouves.get(ech)
             if prec and prec not in amont(cle):
                 verif.erreurs.append(f"{ou} : échelle « {ech} » : « {cle} » ne dépend pas du palier précédent « {prec} »")
             derniers[ech] = cle
+            if retroactivite.prouvable_seule(quetes[cle]):
+                derniers_prouves[ech] = cle
         s = p.get('sommet')
         if s not in quetes:
             verif.erreurs.append(f"{ou} : sommet « {s} » absent du chapitre")
@@ -746,7 +771,7 @@ def main(argv):
         if os.path.basename(racine) in ('notes', 'paliers'):
             continue
         for f in sorted(fichiers):
-            if f.endswith('.toml') and f not in ('tables.toml', 'groupes.toml', 'livre.toml', 'exclusions.toml'):
+            if f.endswith('.toml') and f not in ('tables.toml', 'groupes.toml', 'livre.toml', 'exclusions.toml', 'retroactivite.toml'):
                 chapitres.append(os.path.join(racine, f))
     if cibles:
         chapitres = [c for c in chapitres if os.path.splitext(os.path.basename(c))[0] in cibles]
@@ -763,6 +788,7 @@ def main(argv):
             verif.erreurs.append(f"{ou} : dépendance vers une quête d'un autre chapitre inconnue « {x} »")
     if not cibles:
         controler_paliers(chapitres, verif)
+        retroactivite.controler(chapitres, verif)
     tables_snbt = construire_tables(tables, verif)
     if verif.erreurs:
         print('\n'.join(verif.erreurs))

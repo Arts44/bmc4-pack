@@ -215,7 +215,7 @@ def charger_chapitres():
         if os.path.basename(racine) == 'notes':
             continue
         for f in sorted(fichiers):
-            if f.endswith('.toml') and f not in ('tables.toml', 'groupes.toml', 'livre.toml', 'exclusions.toml'):
+            if f.endswith('.toml') and f not in ('tables.toml', 'groupes.toml', 'livre.toml', 'exclusions.toml', 'retroactivite.toml'):
                 d = tomllib.load(open(os.path.join(racine, f), 'rb'))
                 ch = d['chapitre']
                 out.append((ch['fichier'], ch.get('groupe', ''), {q['cle']: q for q in d.get('quete', [])}))
