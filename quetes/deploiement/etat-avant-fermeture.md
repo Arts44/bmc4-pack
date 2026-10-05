@@ -27,7 +27,7 @@ le niveau 4, donc l'état d'avant à l'identique.
 
 ⚠️ Dans Minecraft, un opérateur peut entrer même s'il n'est pas sur la
 liste blanche. HelXo1 pourrait donc se connecter pendant la fermeture
-(voir la question 1 du LISEZ-MOI).
+(décision d'Arthur : il garde son op, rien n'est fait).
 
 ## Livre de quêtes en place
 
@@ -43,6 +43,6 @@ a été reprise telle qu'elle est sur le serveur (6 622 octets, identique).
 
 `/world/ftbquests/` : 10 fichiers d'équipe (un par équipe FTB). Ils ne
 contiennent que des identifiants de quêtes et de tâches. Aucun des 471
-identifiants de l'ancien livre ne se retrouve parmi les 10 498 du livre
-complet ni les 3 446 du livre léger : rien de l'ancienne progression ne
+identifiants de l'ancien livre ne se retrouve parmi les 10 531 du livre
+complet ni les 3 479 du livre léger : rien de l'ancienne progression ne
 se reportera sur le nouveau livre.

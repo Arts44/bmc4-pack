@@ -30,7 +30,7 @@ Contenu de ce dossier :
    ```
 
    Sortie attendue : deux lignes, `livre-complet-…zip : 76 chapitres` et `livre-leger-…zip : 54 chapitres`. Le script s'arrête si un contrôle du générateur échoue.
-3. Décider des questions 1 et 2 en fin de fichier (HelXo1, bot de connexions).
+3. Bot de connexions : la retouche « serveur fermé pour maintenance » est en production depuis le 5 octobre (commit `fe1b79c`). Rien à faire.
 
 ## 1. Sauvegarde (avant toute modification)
 
@@ -50,14 +50,14 @@ kick @a[name=!Arts_Vio] Le serveur ferme un moment pour une maintenance. Réouve
 
 - `whitelist on` enregistre `white-list=true` dans `server.properties` : la fermeture tient au redémarrage.
 - `enforce-whitelist` reste à `false` : personne n'est éjecté automatiquement, d'où le `kick`.
-- **Un opérateur entre malgré la liste blanche.** HelXo1 est op niveau 4 : voir la question 1. Si la réponse est de le retirer le temps du test : `deop HelXo1`.
+- Un op (HelXo1) peut entrer malgré la whitelist ; si quelqu'un d'autre qu'Arts_Vio apparaît dans `list`, c'est lui.
 
-Bot de connexions : sans la retouche de la question 2, chaque joueur refusé produit un message dans #connexions toutes les 15 minutes tant qu'il réessaie, avec un conseil faux (« la liste blanche est normalement désactivée ici »).
+Bot de connexions : chaque joueur refusé produit **un** message dans #connexions, « Serveur fermé pour maintenance », puis plus rien pendant six heures.
 
 ## 3. Déploiement
 
 1. Renommer `/config/ftbquests/quests` en `/config/ftbquests/quests-ancien` (outil `move_files`). Le mod ne lira plus l'ancien livre ; rien n'est supprimé.
-2. Déposer l'archive choisie dans `/config/ftbquests/` et l'extraire (`extract_archive`) : elle crée `/config/ftbquests/quests/`. Commencer par **le livre complet** (question 3).
+2. Déposer **les deux** archives dans `/config/ftbquests/` (la légère servira peut-être à la bascule), puis extraire `livre-complet-…zip` (`extract_archive`) : elle crée `/config/ftbquests/quests/`. On commence par le livre complet, 3 364 quêtes.
 3. Vérifier la présence de `quests/data.snbt`, `quests/chapter_groups.snbt`, `quests/chapters/` (76 fichiers en complet, 54 en léger) et `quests/reward_tables/` (5 fichiers).
 4. **Redémarrer** le serveur (`power_action restart`). Pas de `/ftbquests reload` : le jar lui-même l'annonce comme « non recommandé sur un serveur en service » (message `commands.ftbquests.command.feedback.reloaded.disclaimer`).
 
@@ -104,9 +104,63 @@ Console : `deop Arts_Vio`. Après le test : `op Arts_Vio` (rend le niveau 4, cel
 
 Si un essai échoue : noter le chapitre, la quête, ce qui s'est passé, et passer au retour arrière (§ 5) ou à la variante légère.
 
-### Le livre rame ?
+### Critère de bascule vers le livre léger
 
-Si l'ouverture ou le défilement est lent avec le livre complet : refaire le § 3 avec `livre-leger-…zip` (54 chapitres, 1 010 quêtes, sans l'Encyclopédie). Rien n'est à réécrire : les deux variantes sortent de la même commande, les quêtes communes ont les mêmes identifiants, et la progression faite pendant le test est conservée.
+Avant d'ouvrir le livre, noter les FPS affichés par F3, immobile au Marché. On bascule si **une seule** de ces trois conditions est vraie :
+
+1. **Ouverture lente** : plus de **5 secondes** entre le clic sur le bouton du livre et l'affichage des chapitres, chronométrées, à la deuxième ouverture (la première peut charger des textures).
+2. **FPS en chute** : en faisant défiler les chapitres de l'Encyclopédie (Structures — Moog's, 200 quêtes, est le plus lourd), les FPS tombent **sous la moitié** de la valeur notée avant, ou le jeu se fige plus d'une seconde.
+3. **Journal** : au démarrage, une seule des lignes de la liste ci-dessus, ou toute ligne `WARN` ou `ERROR` de FTB Quests.
+
+Sinon, on garde le livre complet.
+
+### La bascule, en trois opérations
+
+Serveur toujours fermé, l'archive légère déjà déposée à l'étape 2 :
+
+```
+move_files      /config/ftbquests/quests  →  /config/ftbquests/quests-complet
+extract_archive /config/ftbquests/livre-leger-AAAA-MM-JJ.zip  dans  /config/ftbquests/
+power_action    restart
+```
+
+Le livre léger fait 54 chapitres et 1 021 quêtes, sans l'Encyclopédie. Rien n'est à réécrire : les quêtes communes ont les mêmes identifiants, et la progression faite pendant le test est conservée.
+
+### Lecture du NBT pour le Grimoire et les Dragons
+
+Lecture seule, après les six essais et **après** `op Arts_Vio` (la commande `data` demande l'op). Elle sert à générer plus tard les chapitres Grimoire et Dragons ; ils ne partiront qu'au déploiement suivant.
+
+1. Prendre en main un vrai **parchemin de sort** d'Iron's Spells, puis taper en console :
+
+   ```
+   data get entity Arts_Vio SelectedItem
+   ```
+
+2. Si la ligne est coupée par la console MineStrator, lire un sous-chemin à la fois :
+
+   ```
+   data get entity Arts_Vio SelectedItem.id
+   data get entity Arts_Vio SelectedItem.tag
+   data get entity Arts_Vio SelectedItem.tag.ISB_Spells
+   data get entity Arts_Vio SelectedItem.tag.ISB_Spells.data
+   data get entity Arts_Vio SelectedItem.tag.ISB_Spells.data[0]
+   data get entity Arts_Vio SelectedItem.tag.ISB_Spells.data[0].id
+   data get entity Arts_Vio SelectedItem.tag.ISB_Spells.data[0].level
+   ```
+
+   Si `tag.ISB_Spells` n'existe pas, la sortie de `SelectedItem.tag` donne les vrais noms : descendre champ par champ de la même façon.
+3. Recommencer avec **un second parchemin du même sort, à un autre niveau**. C'est la comparaison des deux qui dira si une quête peut ignorer le niveau (la comparaison NBT « faible » de FTB Quests) ou s'il faut une quête par niveau.
+4. Prendre en main un vrai **œuf de dragon** de Dragon Mounts :
+
+   ```
+   data get entity Arts_Vio SelectedItem
+   data get entity Arts_Vio SelectedItem.id
+   data get entity Arts_Vio SelectedItem.tag
+   data get entity Arts_Vio SelectedItem.tag.BlockEntityTag
+   ```
+
+   Même méthode si la ligne est coupée.
+5. Copier les sorties telles quelles (une capture d'écran de la console suffit) dans BMC-89.
 
 ## 5. Retour arrière
 
@@ -125,7 +179,6 @@ whitelist off
 whitelist remove Arts_Vio
 ```
 
-- Si HelXo1 a été retiré des opérateurs : `op HelXo1`.
 - Si Arts_Vio n'a pas récupéré son op : `op Arts_Vio`.
 - Vérifier : `whitelist.json` vaut `[]`, `white-list=false`, `ops.json` contient HelXo1 et Arts_Vio au niveau 4. C'est l'état noté dans `etat-avant-fermeture.md`.
 - Poster le texte de `annonce-reouverture.md` dans #annonces (Arthur, pas le bot).
@@ -133,28 +186,15 @@ whitelist remove Arts_Vio
 ## 7. La progression des joueurs
 
 - Le remplacement efface la progression sur l'ancien livre : c'est accepté.
-- **Aucun recouvrement d'identifiants** : les 471 identifiants de l'ancien livre ne figurent ni parmi les 10 498 du livre complet ni parmi les 3 446 du léger, et le nouveau livre n'a aucun doublon interne. Les fichiers `/world/ftbquests/<équipe>.snbt` ne gardent que des identifiants ; ceux de l'ancien livre n'existent plus et ne font rien. Une ancienne quête ne peut donc pas apparaître comme « déjà faite » dans le nouveau livre.
+- **Aucun recouvrement d'identifiants** : les 471 identifiants de l'ancien livre ne figurent ni parmi les 10 531 du livre complet ni parmi les 3 479 du léger, et le nouveau livre n'a aucun doublon interne. Les fichiers `/world/ftbquests/<équipe>.snbt` ne gardent que des identifiants ; ceux de l'ancien livre n'existent plus et ne font rien. Une ancienne quête ne peut donc pas apparaître comme « déjà faite » dans le nouveau livre.
 - Ce qui se validera tout seul pour un joueur ancien : les quêtes d'objets qu'il a déjà en poche, les progrès déjà obtenus, les statistiques de distance. C'est l'annonce qui le dit.
 - Les fichiers d'équipe ne sont pas à toucher.
 
 ---
 
-## Questions pour Arthur
+## Décisions d'Arthur (5 octobre)
 
-**1. HelXo1 pendant la fermeture.**
-Situation : HelXo1 est opérateur niveau 4, et un opérateur entre même quand la liste blanche est active. La fermeture « Arts_Vio seul » n'est donc pas étanche.
-Options : (a) le retirer des opérateurs le temps du test (`deop HelXo1`, puis `op HelXo1` à la réouverture) ; (b) le prévenir et lui demander de ne pas se connecter ; (c) ne rien faire.
-Conséquences : (a) ferme vraiment le serveur, au prix d'un retrait de droits temporaire qu'il faut lui expliquer ; (b) repose sur sa parole ; (c) laisse une porte ouverte pendant un déploiement.
-Recommandation : (a), en le prévenant avant.
-
-**2. Le bot de connexions.**
-Situation : pendant la fermeture, chaque refus de la liste blanche produit un message dans #connexions, répété toutes les 15 minutes par joueur, avec un conseil devenu faux.
-Options : (a) fusionner la branche locale `bmc89-fermeture-whitelist` du dépôt `discord-factions` avant la fermeture (un message par joueur et par fermeture, titre « Serveur fermé pour maintenance », renvoi à #annonces) ; (b) laisser le bot tel quel ; (c) couper le module de connexions le temps du test.
-Conséquences : (a) se déploie sur Railway au push sur `main` (audit 0 grave, vérificateur 94/94) ; (b) quelques messages trompeurs pendant le test ; (c) on perd aussi les vraies alertes de connexion.
-Recommandation : (a). La retouche est inoffensive hors fermeture : elle ne change que le cas « pas sur la liste blanche ».
-
-**3. Quelle variante déployer d'abord.**
-Situation : le livre complet fait 3 353 quêtes, dont 2 343 dans l'Encyclopédie ; personne ne sait s'il s'ouvre sans ramer. Le léger en fait 1 010.
-Options : (a) complet d'abord, léger si ça rame ; (b) léger d'abord, complet si ça tient.
-Conséquences : (a) mesure directement le cas le plus lourd ; (b) donne un premier livre sûr, mais ne dit rien du complet.
-Recommandation : (a). Le passage à la variante légère prend un redémarrage et ne perd rien.
+1. HelXo1 garde son op pendant la maintenance ; rien n'est fait pour lui.
+2. La retouche du bot de connexions est en production (`fe1b79c`).
+3. Le livre complet est déployé en premier ; la bascule suit le critère ci-dessus.
+4. Le NBT des parchemins et des œufs est lu pendant la maintenance ; Grimoire et Dragons sont générés après, pour le déploiement suivant.
