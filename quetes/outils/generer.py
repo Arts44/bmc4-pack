@@ -7,6 +7,10 @@ FTB Quests (format SNBT de la version 2001.4.22) dans ../livre/.
     python3 generer.py                 # tout le livre
     python3 generer.py bienvenue       # un seul chapitre (nom de fichier)
     python3 generer.py --verifier      # vérifie les identifiants, n'écrit rien
+    python3 generer.py --rapport       # ajoute le rapport des récompenses
+
+Produit deux variantes : ../livre/ (complet) et ../livre-leger/ (sans
+l'Encyclopédie), pour déployer la légère si la complète rame.
 
 Règles tenues par le générateur, pour qu'un humain n'ait pas à les tenir :
   · identifiants FTB Quests stables : dérivés du nom du chapitre et de la
@@ -30,8 +34,12 @@ import sys
 import tomllib
 
 ICI = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, ICI)
+import controles  # noqa: E402
 DONNEES = os.path.join(ICI, '..', 'donnees')
-LIVRE = os.path.join(ICI, '..', 'livre')
+LIVRE = os.path.join(ICI, '..', 'livre')            # livre complet
+LIVRE_LEGER = os.path.join(ICI, '..', 'livre-leger')  # sans l'Encyclopédie
+GROUPES_LEGER_EXCLUS = {'encyclopedie'}
 INDEX = [os.environ.get('QUETES_INDEX', os.path.join(ICI, '..', 'index', 'index.json')),
          os.environ.get('QUETES_INDEX_VANILLA', os.path.join(ICI, '..', 'index', 'index_vanilla.json'))]
 
@@ -302,12 +310,17 @@ def disposer(quetes, cle_rang):
             continue
         colonnes.setdefault((rang[c], bool(quetes[c].get('optionnel'))), []).append(c)
     pos = {}
+    # Les optionnelles de chaque rang partent sous la plus basse quête
+    # obligatoire de TOUT le chapitre : jamais deux quêtes au même endroit,
+    # et la branche optionnelle forme une bande lisible sous la ligne principale.
+    bas = max([((n - 1) / 2) * 1.5 for (rg, opt), cl in colonnes.items() if not opt
+               for n in [len(cl)]] or [0.0])
     for (rg, opt), cles in colonnes.items():
         n = len(cles)
         for i, c in enumerate(cles):
             y = (i - (n - 1) / 2) * 1.5
             if opt:
-                y = 3.0 + i * 1.5
+                y = max(3.0, bas + 2.0) + i * 1.5
             pos[c] = (rg * 2.0, y)
     for c in quetes:
         if 'pos' in quetes[c]:
@@ -391,6 +404,8 @@ def construire_chapitre(toml_path, verif, tables, ix):
             qs['hide_until_deps_visible'] = True
         sortie.append(qs)
     controler_recompenses(quetes, fichier, verif, tables, ix)
+    controles.controler_graphe(quetes, fichier, pos, verif.erreurs, catalogue=bool(ch.get('grille')))
+    controles.controler_textes(quetes, fichier, verif.erreurs)
     chapitre = {
         'default_hide_dependency_lines': bool(ch.get('lignes_cachees', False)),
         'default_quest_shape': ch.get('forme_defaut', ''),
@@ -517,28 +532,40 @@ def main(argv):
     tables_snbt = construire_tables(tables, verif)
     if verif.erreurs:
         print('\n'.join(verif.erreurs))
-        raise SystemExit(f"{len(verif.erreurs)} identifiant(s) introuvable(s) : rien n'est écrit.")
+        raise SystemExit(f"{len(verif.erreurs)} erreur(s) : rien n'est écrit.")
     total = sum(len(s['quests']) for _, s in produits)
     print(f"{len(produits)} chapitre(s), {total} quête(s), {len(tables_snbt)} table(s) — identifiants tous vérifiés")
+    if '--rapport' in argv:
+        print(controles.rapport_recompenses(
+            [(ch['fichier'], ch.get('groupe', ''), tomllib.load(open(c, 'rb')).get('quete', []) and
+              {q['cle']: q for q in tomllib.load(open(c, 'rb')).get('quete', [])}) for c, (ch, _) in zip(sorted(chapitres), produits)],
+            tables))
     if verifier_seulement:
         return
-    os.makedirs(os.path.join(LIVRE, 'chapters'), exist_ok=True)
-    os.makedirs(os.path.join(LIVRE, 'reward_tables'), exist_ok=True)
-    for ch, s in produits:
-        with open(os.path.join(LIVRE, 'chapters', ch['fichier'] + '.snbt'), 'w', encoding='utf-8') as f:
-            f.write(snbt(s) + '\n')
-    for fichier, t in tables_snbt.items():
-        with open(os.path.join(LIVRE, 'reward_tables', fichier + '.snbt'), 'w', encoding='utf-8') as f:
-            f.write(snbt(t) + '\n')
     livre = tomllib.load(open(os.path.join(DONNEES, 'livre.toml'), 'rb'))
-    with open(os.path.join(LIVRE, 'chapter_groups.snbt'), 'w', encoding='utf-8') as f:
-        f.write(snbt({'chapter_groups': [{'id': hid('groupe', g['cle']), 'title': g['titre']} for g in groupes]}) + '\n')
-    with open(os.path.join(LIVRE, 'data.snbt'), 'w', encoding='utf-8') as f:
-        d = dict(livre['data'])
-        for k in list(d):
-            if isinstance(d[k], float):
-                d[k] = Double(d[k])
-        f.write(snbt(d) + '\n')
+    # Deux variantes d'une seule commande : le livre complet, et le livre
+    # léger sans l'Encyclopédie (à déployer si le complet rame).
+    for dossier, exclus in ((LIVRE, set()), (LIVRE_LEGER, GROUPES_LEGER_EXCLUS)):
+        os.makedirs(os.path.join(dossier, 'chapters'), exist_ok=True)
+        os.makedirs(os.path.join(dossier, 'reward_tables'), exist_ok=True)
+        for f in os.listdir(os.path.join(dossier, 'chapters')):
+            os.remove(os.path.join(dossier, 'chapters', f))   # un chapitre retiré des données disparaît du livre
+        retenus = [(ch, s) for ch, s in produits if ch.get('groupe') not in exclus]
+        for ch, s in retenus:
+            with open(os.path.join(dossier, 'chapters', ch['fichier'] + '.snbt'), 'w', encoding='utf-8') as f:
+                f.write(snbt(s) + '\n')
+        for fichier, t in tables_snbt.items():
+            with open(os.path.join(dossier, 'reward_tables', fichier + '.snbt'), 'w', encoding='utf-8') as f:
+                f.write(snbt(t) + '\n')
+        with open(os.path.join(dossier, 'chapter_groups.snbt'), 'w', encoding='utf-8') as f:
+            f.write(snbt({'chapter_groups': [{'id': hid('groupe', g['cle']), 'title': g['titre']} for g in groupes if g['cle'] not in exclus]}) + '\n')
+        with open(os.path.join(dossier, 'data.snbt'), 'w', encoding='utf-8') as f:
+            d = dict(livre['data'])
+            for k in list(d):
+                if isinstance(d[k], float):
+                    d[k] = Double(d[k])
+            f.write(snbt(d) + '\n')
+        print(f"{os.path.relpath(dossier, os.path.join(ICI, '..'))} : {len(retenus)} chapitres, {sum(len(s['quests']) for _, s in retenus)} quêtes")
     for ch, s in produits:
         print(f"  {ch['fichier']:<28} {len(s['quests']):>4} quêtes   groupe {ch.get('groupe','—')}")
 

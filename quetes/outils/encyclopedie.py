@@ -29,8 +29,11 @@ import json
 import os
 import sys
 import tomllib
+import importlib.util as _ilu
 
 ICI = os.path.dirname(os.path.abspath(__file__))
+_spec = _ilu.spec_from_file_location('typo', os.path.join(ICI, 'normaliser-typo.py'))
+TYPO = _ilu.module_from_spec(_spec); _spec.loader.exec_module(TYPO)
 DONNEES = os.path.join(ICI, '..', 'donnees')
 NOTES = os.path.join(DONNEES, 'notes')
 INDEX = os.path.join(ICI, '..', 'index')
@@ -271,7 +274,9 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
         raise SystemExit(f"{fichier} : {len(sans_voie)} créature(s) sans voie d'apparition vérifiée — à documenter "
                          f"(notes, clé apparition) ou à exclure (exclusions.toml) :\n  " + '\n  '.join(sans_voie))
     deps = ', '.join(f'"{c}"' for c in cles)
-    lignes.append(f'[[quete]]\ncle = "complet"\ntitre = "&7Tout le chapitre"\ntaille = 1.5\nicone = "{icone_fin}"\nforme = "gear"\n'
+    # optionnel comme les fiches : l'Encyclopédie entière reste hors du
+    # pourcentage du livre, et aucune quête obligatoire n'attend une optionnelle.
+    lignes.append(f'[[quete]]\ncle = "complet"\ntitre = "&7Tout le chapitre"\noptionnel = true\ntaille = 1.5\nicone = "{icone_fin}"\nforme = "gear"\n'
                   f'taches = ["checkmark Chapitre complet"]\nrecompenses = ["xp 20"]\ndeps = [{deps}]\ndescription = """\n'
                   f"Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.\n\"\"\"\n")
     return '\n'.join(lignes), len(cles), exclues
@@ -300,7 +305,8 @@ def main(argv):
         texte, n, exclues = CHAPITRES[c](ix, exclusions, notes)
         os.makedirs(os.path.join(DONNEES, 'encyclopedie'), exist_ok=True)
         with open(os.path.join(DONNEES, 'encyclopedie', c + '.toml'), 'w', encoding='utf-8') as f:
-            f.write(texte)
+            # même typographie que les chapitres écrits à la main (normaliser-typo.py)
+            f.write('\n'.join(TYPO.normaliser_ligne(l) for l in texte.split('\n')))
         print(f"{c} : {n} entrées, {len(exclues)} exclue(s)")
         for e, r in exclues:
             print(f"   exclu {e} — {r}")
