@@ -60,6 +60,9 @@ def charger_index():
         d = json.load(open(chemin, encoding='utf-8'))
         for k, v in d.items():
             ix.setdefault(k, {}).update(v)
+    g = os.path.join(os.path.dirname(INDEX[0]), 'generation.json')
+    if os.path.exists(g):
+        ix['_generation'] = json.load(open(g, encoding='utf-8'))
     return ix
 
 
@@ -81,7 +84,26 @@ class Verif:
     def dimension(self, d, ou): return self._ok('dimensions', d, ou)
     def progres(self, a, ou): return self._ok('advancements', a, ou)
     def structure(self, s, ou): return self._ok('structures', s, ou)
-    def biome(self, b, ou): return self._ok('biomes', b, ou)
+    def biome(self, b, ou):
+        if not self._ok('biomes', b, ou):
+            return False
+        gen = self.ix.get('_generation', {}).get('biomes')
+        if gen is not None and b not in gen:
+            self.erreurs.append(f"{ou} : le biome « {b} » ne se génère pas sur le serveur (outils/generation.py)")
+            return False
+        return True
+
+    def generee(self, st, ou, seulement_si_connue=False):
+        """Garde-fou : la structure doit se générer sur le serveur
+        (index/generation.json, produit par outils/generation.py)."""
+        gen = self.ix.get('_generation', {}).get('structures', {})
+        e = gen.get(st)
+        if e is None:
+            return seulement_si_connue or not gen
+        if not e['generee']:
+            self.erreurs.append(f"{ou} : la structure « {st} » ne se génère pas sur le serveur — {e['raison']}")
+            return False
+        return True
 
 # ---------------------------------------------------------------- identifiants
 
@@ -233,6 +255,9 @@ def _tache(spec, ou, verif, quete_id, idx, tid):
         return {'id': tid, 'type': 'dimension', 'dimension': mots[1]}
     if genre == 'advancement':
         verif.progres(mots[1], ou)
+        m = re.match(r'^([a-z0-9_]+):(?:[a-z_]+/)?find_([a-z0-9_]+)$', mots[1])
+        if m:   # progrès « trouver X » : X doit se générer sur le serveur
+            verif.generee(f"{m.group(1)}:{m.group(2)}", ou, seulement_si_connue=True)
         return {'id': tid, 'type': 'advancement', 'advancement': mots[1], 'criterion': ''}
     if genre == 'potion':
         # potion <nom> [normale|jetable|persistante|fleche] [nombre]
@@ -259,6 +284,7 @@ def _tache(spec, ou, verif, quete_id, idx, tid):
             pass  # tag de structure : non vérifiable par l'index, l'auteur assume
         else:
             verif.structure(mots[1], ou)
+            verif.generee(mots[1], ou)
         return {'id': tid, 'type': 'structure', 'structure': mots[1]}
     if genre == 'biome':
         verif.biome(mots[1], ou)

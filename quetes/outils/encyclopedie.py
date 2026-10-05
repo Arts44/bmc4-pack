@@ -48,7 +48,33 @@ def charger_index():
                 ix.setdefault(k, {}).update(v)
     p = os.path.join(INDEX, 'apparitions.json')
     ix['apparitions'] = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {'butin': {}, 'biomes_config': {}}
+    p = os.path.join(INDEX, 'voies.json')   # outils/voies.py : biome_modifier, spawn_overrides, NBT
+    ix['voies'] = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {}
     return ix
+
+
+def nom_structure(ix, st):
+    """« mod:chemin » d'une structure ou d'un NBT -> un nom lisible."""
+    if st in ix['structures']:
+        n = ix['fr'].get(st) or ix['structures'].get(st)
+        if isinstance(n, str) and n and ':' not in n:
+            return n
+    mod, chemin = st.split(':', 1)
+    base = chemin.split('/')[0].replace('_', ' ')
+    return f"{base} ({MOD_FR.get(mod, mod)})"
+
+
+MOD_FR = {'aether': 'Aether', 'deep_aether': 'Deep Aether', 'aether_redux': 'Aether Redux', 'blue_skies': 'Blue Skies',
+          'twilightforest': 'Twilight Forest', 'betternether': 'Better Nether', 'bygonenether': 'Bygone Nether',
+          'netherexp': "Jaden's Nether Expansion", 'betterend': 'Better End', 'deeperdarker': 'Deeper and Darker',
+          'farmers_structures': "Farmer's Structures", 'soulfulnether': 'Soulful Nether', 'minecraft': 'jeu de base',
+          'mes': "Moog's End Structures", 'mns': "Moog's Nether Structures", 'mvs': "Moog's Voyager Structures",
+          'philipsruins': "Philip's Ruins", 'adorabuild_structures': 'AdoraBuild', 'repurposed_structures': 'Repurposed Structures',
+          'towns_and_towers': 'Towns and Towers', 'dungeons_arise': 'When Dungeons Arise', 'structory': 'Structory',
+          'structory_towers': 'Structory Towers', 'explorations': 'Explorations', 'cataclysm': 'Cataclysm',
+          'betterdungeons': "YUNG's Better Dungeons", 'bettermineshafts': "YUNG's Better Mineshafts",
+          'illagerinvasion': 'Illager Invasion', 'irons_spellbooks': "Iron's Spells", 'stalwart_dungeons': 'Stalwart Dungeons',
+          'formationsoverworld': 'Formations', 'formationsnether': 'Formations Nether', 'galosphere': 'Galosphere'}
 
 
 def t(s):
@@ -198,10 +224,29 @@ def fiche(ent, ix, note=None):
         voie = True
     elif cfg is not None:
         lignes.append("Apparition naturelle : aucune (config du serveur).")
+    vo = ix.get('voies', {}).get(ent, {})
+    if not biomes and vo.get('biomes'):
+        bm = [biome_fr(x, ix) for x in vo['biomes'] if connu(x.lstrip('#') if not x.startswith('#') else x, ix)]
+        if bm:
+            lignes.append('Biomes : ' + ', '.join(list(dict.fromkeys(bm))[:6]) + '.')
+            voie = True
+    # Structures : seulement pour une créature sans biome ni config, et
+    # nommées par le mod qui les pose (un chemin de fichier NBT ne dit rien
+    # au joueur). Les pièces de compatibilité (« integration », « compat »)
+    # ne comptent pas : elles ne se génèrent que si l'autre mod est là.
+    if not voie and not note.get('apparition'):
+        mods_st = [MOD_FR.get(x.split(':')[0], x.split(':')[0]) for x in vo.get('structures_spawn', []) + vo.get('nbt', [])
+                   if not any(k in x for k in ('integration', 'compat', 'farmers_structures:'))]
+        mods_st = list(dict.fromkeys(mods_st))
+        if mods_st:
+            lignes.append('Apparaît : dans des structures de ' + ', '.join(mods_st[:4]) + ('' if len(mods_st) <= 4 else ' et d\'autres') + '.')
+            voie = True
     if note.get('apparition'):
         lignes.append('Apparaît : ' + note['apparition'] + '.')
         voie = True
-    butin = [b for b in ix['apparitions']['butin'].get(ent, []) if not b.startswith('#')]
+    # Butin : seulement les objets qui ont un nom français dans le pack (le
+    # reste serait de l'anglais brut dans une fiche française).
+    butin = [b for b in ix['apparitions']['butin'].get(ent, []) if not b.startswith('#') and ix['fr'].get(b)]
     if butin:
         lignes.append('Butin : ' + ', '.join(dict.fromkeys(nom_fr(ix, b) for b in butin)) + '.')
     return lignes, voie
@@ -219,6 +264,18 @@ MODELES = {
     'goblintraders': "Marchand de &bGoblin Traders&r.",
     'quark': "Créature de &bQuark&r.",
     'pet_cemetery': "Créature de &bPet Cemetery&r.",
+    'betternether': "Créature de &bBetter Nether&r.",
+    'bygonenether': "Créature de &bBygone Nether&r.",
+    'netherexp': "Créature de &bJaden's Nether Expansion&r.",
+    'soulfulnether': "Créature de &bSoulful Nether&r.",
+    'betterend': "Créature de &bBetter End&r.",
+    'aether': "Créature de l'&bAether&r.",
+    'deep_aether': "Créature de &bDeep Aether&r.",
+    'aether_redux': "Créature d'&bAether Redux&r.",
+    'lost_aether_content': "Créature de &bLost Aether Content&r.",
+    'twilightforest': "Créature de la &aTwilight Forest&r.",
+    'blue_skies': "Créature de &bBlue Skies&r.",
+    'deeperdarker': "Créature de &3Deeper and Darker&r.",
 }
 
 # Créatures vanilla qui ne vivent pas dans l'Overworld (Bestiaire Nether/End).
@@ -241,7 +298,7 @@ VANILLA_HORS_OVERWORLD = {
 }
 
 
-def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone, icone_fin, intro):
+def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone, icone_fin, intro, seulement=None):
     lignes = [f'# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer : notes/{fichier}.toml pour les textes.\n']
     lignes.append(f'[chapitre]\ntitre = "{t(titre)}"\nfichier = "enc_{fichier.replace("-", "_")}"\ngroupe = "encyclopedie"\n'
                   f'icone = "{icone}"\nordre = 0\nlignes_cachees = true\ngrille = 16\n')
@@ -249,7 +306,7 @@ def chapitre_bestiaire(ix, exclusions, notes, mods, hors, fichier, titre, icone,
                   f'recompenses = ["xp 2"]\ndescription = """\n{t(intro)}\n"""\n')
     exclues, cles, sans_voie = [], [], []
     for ent, oeuf in mobs_avec_oeuf(ix, mods):
-        if ent in hors:
+        if ent in hors or (seulement is not None and not seulement(ent)):
             continue
         if ent in exclusions:
             exclues.append((ent, exclusions[ent]))
@@ -292,7 +349,36 @@ def bestiaire_overworld(ix, exclusions, notes):
                               '&7Bestiaire — Overworld', 'minecraft:zombie_head', 'minecraft:creeper_head', intro)
 
 
-CHAPITRES = {'bestiaire-overworld': bestiaire_overworld}
+MODS_NETHER_END = ['betternether', 'bygonenether', 'netherexp', 'soulfulnether', 'betterend']
+MODS_DIMENSIONS = ['aether', 'deep_aether', 'aether_redux', 'lost_aether_content', 'twilightforest', 'blue_skies', 'deeperdarker']
+
+
+def bestiaire_nether_end(ix, exclusions, notes):
+    mods = ['minecraft', 'alexsmobs', 'friendsandfoes', 'goblintraders', 'quark'] + MODS_NETHER_END
+    intro = ("Les créatures du Nether et de l'End : le jeu de base, Better Nether, Bygone Nether, Soulful Nether, Jaden's Nether Expansion, Better End, et celles des mods de faune qui y vivent. Une quête se valide en &lregardant&r la créature.\n\n"
+             "Chaque fiche dit ce que les données du pack disent : biomes, structure ou voie qui la fait apparaître, butin. Les boss sont comptés au défi &cChasseur de boss&r, pas ici.")
+    return chapitre_bestiaire(ix, exclusions, notes, mods, BOSS, 'bestiaire-nether-end', '&7Bestiaire — Nether et End',
+                              'minecraft:wither_skeleton_skull', 'minecraft:dragon_head', intro,
+                              seulement=lambda e: e.split(':')[0] in MODS_NETHER_END or e in VANILLA_HORS_OVERWORLD)
+
+
+def bestiaire_dimensions(ix, exclusions, notes):
+    intro = ("Les créatures de l'Aether (avec Deep Aether, Aether Redux et Lost Aether Content), de la Twilight Forest, de l'Everbright et de l'Everdawn, et de l'Otherside. Une quête se valide en &lregardant&r la créature.\n\n"
+             "Chaque fiche dit ce que les données du pack disent. Les boss sont comptés au défi &cChasseur de boss&r, pas ici.")
+    return chapitre_bestiaire(ix, exclusions, notes, MODS_DIMENSIONS, BOSS, 'bestiaire-dimensions', '&7Bestiaire — dimensions',
+                              'aether:aechor_petal', 'twilightforest:naga_trophy', intro)
+
+
+# Les boss ont leur hexagone au défi Chasseur de boss (même liste que le
+# bot) : pas de doublon dans les bestiaires des autres mondes.
+BOSS = {'minecraft:ender_dragon', 'minecraft:wither', 'twilightforest:naga', 'twilightforest:lich', 'twilightforest:minoshroom',
+        'twilightforest:hydra', 'twilightforest:knight_phantom', 'twilightforest:ur_ghast', 'twilightforest:alpha_yeti',
+        'twilightforest:snow_queen', 'aether:slider', 'aether:valkyrie_queen', 'aether:sun_spirit',
+        'lost_aether_content:aerwhale_king', 'deep_aether:eots_controller', 'blue_skies:summoner', 'blue_skies:alchemist',
+        'blue_skies:arachnarch', 'blue_skies:starlit_crusher', 'deeperdarker:stalker', 'alexsmobs:void_worm'}
+
+CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end': bestiaire_nether_end,
+             'bestiaire-dimensions': bestiaire_dimensions}
 
 
 def main(argv):
