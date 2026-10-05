@@ -1,0 +1,1495 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_biomes_dimensions"
+	group: "34D36ACF0DABCCEC"
+	icon: "aether:aether_grass_block"
+	id: "6E32DCF356935402"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque biome de l'Aether, de la Twilight Forest, de l'Everbright, de l'Everdawn et de l'Otherside que le serveur génère. Une quête se valide en &lentrant&r dans le biome."]
+			icon: "aether:aether_grass_block"
+			id: "4BBED3479CBEC902"
+			rewards: [{
+				id: "07169841A1A87934"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "391961B727433F40"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bBiomes — dimensions"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de l'Aether, dans l'Aether."]
+			id: "6E35850806F64D2D"
+			optional: true
+			rewards: [{
+				id: "238D5B7B4A0FD270"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether:skyroot_forest"
+				id: "47A38AA221C59BAF"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt de skyroot"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de l'Aether, dans l'Aether."]
+			id: "05FD3AFA65D3F07F"
+			optional: true
+			rewards: [{
+				id: "081454650B8A6DE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether:skyroot_grove"
+				id: "39AA4AB53A689814"
+				type: "biome"
+			}]
+			title: "Découvrir : Bosquet de skyroot"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de l'Aether, dans l'Aether."]
+			id: "39036E0C347DF8B4"
+			optional: true
+			rewards: [{
+				id: "225D3301E9B16C56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether:skyroot_meadow"
+				id: "1702AE109D0C019A"
+				type: "biome"
+			}]
+			title: "Découvrir : Prairie de skyroot"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de l'Aether, dans l'Aether."]
+			id: "7068DEC0881D35D4"
+			optional: true
+			rewards: [{
+				id: "60FCCC573DCE2D39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether:skyroot_woodland"
+				id: "5F5718F477ACD872"
+				type: "biome"
+			}]
+			title: "Découvrir : Bois de skyroot"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome d'Aether Redux, dans l'Aether."]
+			id: "6684792243714B40"
+			optional: true
+			rewards: [{
+				id: "3BE96725DA1C2A53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether_redux:cloudcaps"
+				id: "3244B0E1669EC5E5"
+				type: "biome"
+			}]
+			title: "Découvrir : « Cloudcaps »"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome d'Aether Redux, dans l'Aether."]
+			id: "24C22C509C7B2080"
+			optional: true
+			rewards: [{
+				id: "6F44B149E7CF10AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether_redux:frosted_forests"
+				id: "3CEECC418DA11136"
+				type: "biome"
+			}]
+			title: "Découvrir : « Frosted Forests »"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome d'Aether Redux, dans l'Aether."]
+			id: "68DD579D676E9226"
+			optional: true
+			rewards: [{
+				id: "5558745E0CFBE5EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether_redux:gilded_grasslands"
+				id: "4B57B214824461D5"
+				type: "biome"
+			}]
+			title: "Découvrir : « Gilded Grasslands »"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome d'Aether Redux, dans l'Aether."]
+			id: "315FB746B379D2BB"
+			optional: true
+			rewards: [{
+				id: "13B3FCFCA7C4E59D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether_redux:gilded_groves"
+				id: "42422BB29A6F6F77"
+				type: "biome"
+			}]
+			title: "Découvrir : « Gilded Groves »"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome d'Aether Redux, dans l'Aether."]
+			id: "547EB6D4B79497F1"
+			optional: true
+			rewards: [{
+				id: "6BDCAF3090B774EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether_redux:glacial_tundra"
+				id: "44360FB021691D66"
+				type: "biome"
+			}]
+			title: "Découvrir : « Glacial Tundra »"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome d'Aether Redux, dans l'Aether."]
+			id: "58842428F4F31FC4"
+			optional: true
+			rewards: [{
+				id: "7ED0A198FACA2770"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether_redux:skyfields"
+				id: "7E423C815309F22C"
+				type: "biome"
+			}]
+			title: "Découvrir : « Skyfields »"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome d'Aether Redux, dans l'Aether."]
+			id: "2EE5B0F6D6B8B087"
+			optional: true
+			rewards: [{
+				id: "1A707203E83F1507"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether_redux:skyroot_shrublands"
+				id: "05822B9BE80B4E1C"
+				type: "biome"
+			}]
+			title: "Découvrir : « Skyroot Shrublands »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome d'Aether Redux, dans l'Aether."]
+			id: "7ECE8C5DD89E3CDB"
+			optional: true
+			rewards: [{
+				id: "3170A92606262D7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "aether_redux:the_blight"
+				id: "1F36E5FE09433B33"
+				type: "biome"
+			}]
+			title: "Découvrir : « The Blight »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Renne, Azélufo, Esprit gelé renforcé, Crynocère, Polirours et d'autres (données du pack)."]
+			id: "715E30362D3219BB"
+			optional: true
+			rewards: [{
+				id: "157F9CBE1C87C666"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:brightlands"
+				id: "5FDC5B5DF72579D8"
+				type: "biome"
+			}]
+			title: "Découvrir : Landes brillantes"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack)."]
+			id: "20D461CCDDD69A1D"
+			optional: true
+			rewards: [{
+				id: "0B93EEBDE44D7977"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:brisk_meadow"
+				id: "7249234C659B4802"
+				type: "biome"
+			}]
+			title: "Découvrir : Prairie brisegelée"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack)."]
+			id: "5365D32DD3F2C11F"
+			optional: true
+			rewards: [{
+				id: "0D83414E80AA5A7B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:brumble_forest"
+				id: "339B222DF89E5EBB"
+				type: "biome"
+			}]
+			title: "Découvrir : Récif de brimble"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack)."]
+			id: "212854CCC45A5989"
+			optional: true
+			rewards: [{
+				id: "7C24B711E276D3C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:calming_skies"
+				id: "1FE62FB8E6B306BD"
+				type: "biome"
+			}]
+			title: "Découvrir : Cieux calmes"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté (données du pack)."]
+			id: "4F1E6BEDFC9D932C"
+			optional: true
+			rewards: [{
+				id: "2F523DCD6F2CDEAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:crescent_orchard"
+				id: "6A9955B02EED226E"
+				type: "biome"
+			}]
+			title: "Découvrir : Verger de crofruits"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Araignée pérenne, Piqueur infecté, Poisson moki, Poisson tunide (données du pack)."]
+			id: "4C85A71EDAE16BED"
+			optional: true
+			rewards: [{
+				id: "2FF1C5667B67F1F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:crescent_orchard_lake"
+				id: "4A0616C64EEA57D4"
+				type: "biome"
+			}]
+			title: "Découvrir : Lac de verger de crofruits"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack)."]
+			id: "3862C79A1B9FA7A7"
+			optional: true
+			rewards: [{
+				id: "105E2C55947C8387"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:crystal_dunes"
+				id: "5DE3637E48C8D459"
+				type: "biome"
+			}]
+			title: "Découvrir : Dunes cristallisées"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack)."]
+			id: "7AE65820DFACF185"
+			optional: true
+			rewards: [{
+				id: "1BB1070B61469DE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:crystal_dunes_spikes"
+				id: "5BD49B1300599F6E"
+				type: "biome"
+			}]
+			title: "Découvrir : Pics des dunes cristallisées"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack)."]
+			id: "7DFE0FE70F438BC3"
+			optional: true
+			rewards: [{
+				id: "2CCBEE48823D1C73"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:crystal_roughs"
+				id: "1DB1C88FEBE6557E"
+				type: "biome"
+			}]
+			title: "Découvrir : Buttes de cristal"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack)."]
+			id: "1CE3FA874D06EEDA"
+			optional: true
+			rewards: [{
+				id: "154AB09FA283EC75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:deep_peeking_ocean"
+				id: "0AE00F419F8FACAB"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan brillant profond"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Polirours, Rôdeur diophyde, Chouette des neiges (données du pack)."]
+			id: "2807BEEC290DABEE"
+			optional: true
+			rewards: [{
+				id: "1DC573799213AE18"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:frostbitten_forest"
+				id: "73B6E3804E82203B"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt oubligelée"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Polirours, Rôdeur diophyde, Chouette des neiges (données du pack)."]
+			id: "53F66B670B0E619F"
+			optional: true
+			rewards: [{
+				id: "020AE0DDF41B725E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:frostbitten_forest_clearing"
+				id: "7021643BDFC13A67"
+				type: "biome"
+			}]
+			title: "Découvrir : Lisière de forêt oubligelée"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Dobcrabe (données du pack)."]
+			id: "6088ED3FDD7E60D3"
+			optional: true
+			rewards: [{
+				id: "6994BCB4BF5A762D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:midday_shore"
+				id: "333B627E4BD934E2"
+				type: "biome"
+			}]
+			title: "Découvrir : Plages de demi-journée"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Poisson moki, Poisson tunide, Crogre et d'autres (données du pack)."]
+			id: "10C7CF92196D2C21"
+			optional: true
+			rewards: [{
+				id: "0B0BF94855AA5C9D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:moonlit_reservoir"
+				id: "1A6AB21E9E6396FE"
+				type: "biome"
+			}]
+			title: "Découvrir : Bassin lunaire"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack)."]
+			id: "620B488E6138B9F5"
+			optional: true
+			rewards: [{
+				id: "7784C4ECFF493305"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:peeking_ocean"
+				id: "3F11E16C67345E20"
+				type: "biome"
+			}]
+			title: "Découvrir : Océan brillant"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack)."]
+			id: "0744C73E3DC77055"
+			optional: true
+			rewards: [{
+				id: "26D79465E7C485C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:polar_highland"
+				id: "4CDEA85090CDEC0C"
+				type: "biome"
+			}]
+			title: "Découvrir : Hautes-terres polaires"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Piqueur infecté, Poisson moki, Poisson tunide (données du pack)."]
+			id: "3D7E6ADCE52C65C2"
+			optional: true
+			rewards: [{
+				id: "5522D914C48F750F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:rising_creek"
+				id: "33AE1D0DC1AFB0DB"
+				type: "biome"
+			}]
+			title: "Découvrir : Crête du crépuscule"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur, Silve (données du pack)."]
+			id: "6121251123F13510"
+			optional: true
+			rewards: [{
+				id: "2B30367822976978"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:searing_grassland"
+				id: "56950EC5B99C85A6"
+				type: "biome"
+			}]
+			title: "Découvrir : Prairie brûlante"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Nycto-insecte, Luciole (données du pack)."]
+			id: "080880478380D046"
+			optional: true
+			rewards: [{
+				id: "1D366D8F331CAEC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:shaded_woodlands"
+				id: "318F95156DD7FDD5"
+				type: "biome"
+			}]
+			title: "Découvrir : Bosquets de l'ombre"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Champistrêle (données du pack)."]
+			id: "7C2F006AE8124E85"
+			optional: true
+			rewards: [{
+				id: "12E057ACE5C0F7D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:slushlands"
+				id: "5040244534CDBC51"
+				type: "biome"
+			}]
+			title: "Découvrir : Terres détrempées"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Renne, Azélufo, Esprit gelé renforcé, Crynocère, Polirours et d'autres (données du pack)."]
+			id: "78168EE7D3DBE283"
+			optional: true
+			rewards: [{
+				id: "311915983F17FE5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:snow_covered_pines"
+				id: "097EA3980C3770B9"
+				type: "biome"
+			}]
+			title: "Découvrir : Pins neigeux"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur, Silve (données du pack)."]
+			id: "56F3F758E826A671"
+			optional: true
+			rewards: [{
+				id: "7CDA65EAE28627D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:sunset_maple_forest"
+				id: "525D6F919D9E6E31"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt d'érables"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur (données du pack)."]
+			id: "1BD011BE8F5DA84D"
+			optional: true
+			rewards: [{
+				id: "094A88C2F676C8D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "blue_skies:unorthodox_valley"
+				id: "240FB8626A2C5984"
+				type: "biome"
+			}]
+			title: "Découvrir : Vallée pas très orthodoxe"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "0715DE9D55ADC576"
+			optional: true
+			rewards: [{
+				id: "49A48D0678DEC5BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:aerglow_forest"
+				id: "638A4792FE3C47EA"
+				type: "biome"
+			}]
+			title: "Découvrir : « Aerglow Forest »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "7679BB87C0BFBDF9"
+			optional: true
+			rewards: [{
+				id: "6A958F33B4118EA4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:aerlavender_fields"
+				id: "4DF71184813F6D6C"
+				type: "biome"
+			}]
+			title: "Découvrir : « Aerlavender Fields »"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "7F70E2B6AE920CE1"
+			optional: true
+			rewards: [{
+				id: "35A56D66DAFEB362"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:blue_aerglow_forest"
+				id: "20280124714CC618"
+				type: "biome"
+			}]
+			title: "Découvrir : « Blue Aerglow Forest »"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "279A4802E52F2331"
+			optional: true
+			rewards: [{
+				id: "7ADD8AEE0871F24B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:cloud"
+				id: "1A157960037E67E6"
+				type: "biome"
+			}]
+			title: "Découvrir : « Cloud »"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "1805A4B7E632F021"
+			optional: true
+			rewards: [{
+				id: "6C2A325345C27C8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:golden_grove"
+				id: "77F63EAF4A4999D3"
+				type: "biome"
+			}]
+			title: "Découvrir : « Golden grove »"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "4EF89CBF87609798"
+			optional: true
+			rewards: [{
+				id: "650EEA2F3C9677FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:golden_grow"
+				id: "3D03F10D6E251DA0"
+				type: "biome"
+			}]
+			title: "Découvrir : « Golden Heights »"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "7553FC1B7859706D"
+			optional: true
+			rewards: [{
+				id: "44BBDDA9B1DD3EEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:golden_heights"
+				id: "0432378D2E1D898A"
+				type: "biome"
+			}]
+			title: "Découvrir : « Golden Heights »"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "0C1CF28F955D6F0B"
+			optional: true
+			rewards: [{
+				id: "12EA38DD7A3DA372"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:luminescent_forest"
+				id: "1B890B7C70864CAE"
+				type: "biome"
+			}]
+			title: "Découvrir : « Luminescent Forest »"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "505FEAB3AECEF471"
+			optional: true
+			rewards: [{
+				id: "40C2E315F86525B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:mystic_aerglow_forest"
+				id: "3F8CCD1E52D5C32D"
+				type: "biome"
+			}]
+			title: "Découvrir : « Mystic Aerglow Forest »"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "643A5C8818A06C8B"
+			optional: true
+			rewards: [{
+				id: "08739B9A78B75421"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:overgrown_cloud"
+				id: "3089EC5844761442"
+				type: "biome"
+			}]
+			title: "Découvrir : « Overgrown Cloud »"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "3B42B0C845D333BA"
+			optional: true
+			rewards: [{
+				id: "44DF0B00DF6DA463"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:storm_cloud"
+				id: "65E02C315B580F07"
+				type: "biome"
+			}]
+			title: "Découvrir : « Storm Cloud »"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deep Aether, dans l'Aether."]
+			id: "155EFE41D943157E"
+			optional: true
+			rewards: [{
+				id: "28AAAEC90D0C3A02"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deep_aether:yagroot_swamp"
+				id: "5DC0C0199AC9B68D"
+				type: "biome"
+			}]
+			title: "Découvrir : « Yagroot Swamp »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deeper and Darker, dans l'Otherside. On y croise : Mordeur de sculk (données du pack)."]
+			id: "56A138381B284A71"
+			optional: true
+			rewards: [{
+				id: "3F3CA4BB857FCAE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deeperdarker:blooming_caverns"
+				id: "3BC1E5F39E35F9AD"
+				type: "biome"
+			}]
+			title: "Découvrir : « Blooming Caverns »"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Biome de Deeper and Darker, dans l'Otherside. On y croise : Phantom, Mordeur de sculk, Mille-pattes de sculk, Shattered (données du pack)."]
+			id: "03CD41CD13E357E5"
+			optional: true
+			rewards: [{
+				id: "4DE33D2B244E293D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deeperdarker:deeplands"
+				id: "1126A5763CAB08C9"
+				type: "biome"
+			}]
+			title: "Découvrir : « Deeplands »"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Deeper and Darker, dans l'Otherside. On y croise : Mordeur de sculk, Shattered (données du pack)."]
+			id: "3903F00670D3444C"
+			optional: true
+			rewards: [{
+				id: "785319EC58F37ED1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				id: "37A16F1961A0EAC9"
+				type: "biome"
+			}]
+			title: "Découvrir : « Echoing Forest »"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de Deeper and Darker, dans l'Otherside."]
+			id: "76AE44C71A0058F4"
+			optional: true
+			rewards: [{
+				id: "33FBBB6256DE2E2F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				id: "487B63666C050581"
+				type: "biome"
+			}]
+			title: "Découvrir : « Overcast Columns »"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "060F2F70BDABE0AD"
+			optional: true
+			rewards: [{
+				id: "3C5D05D3117A4D6A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:clearing"
+				id: "56B925EAF0F204CA"
+				type: "biome"
+			}]
+			title: "Découvrir : Clairière du Crépuscule"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Loup de la brume, Squelette de druide, Reine des araignées (données du pack)."]
+			id: "2477828863FA741F"
+			optional: true
+			rewards: [{
+				id: "03F107BE2B6AA875"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				id: "56BD36C89C9A53B2"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt Sombre"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest."]
+			id: "6C9682D3B6D57BB7"
+			optional: true
+			rewards: [{
+				id: "78A553653A3430A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:dark_forest_center"
+				id: "1EA4FB177D6434F9"
+				type: "biome"
+			}]
+			title: "Découvrir : Centre de la Forêt Sombre"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "2AFB68A0AAD6A8A8"
+			optional: true
+			rewards: [{
+				id: "0F90351E90A76C59"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:dense_forest"
+				id: "42701E65EDB335A5"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt dense"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "712F929509D68E76"
+			optional: true
+			rewards: [{
+				id: "603028DF9657C835"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:dense_mushroom_forest"
+				id: "6D58C10BFB7F9243"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt de Champignons Dense"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "03BEDE58BB6A1837"
+			optional: true
+			rewards: [{
+				id: "77040C180F3BC9F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:enchanted_forest"
+				id: "47B87FFC4D435795"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt Enchantée"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest."]
+			id: "006ECE0AFC181D31"
+			optional: true
+			rewards: [{
+				id: "2FCDA72A512F3E25"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:final_plateau"
+				id: "6737CAE65F54BA5A"
+				type: "biome"
+			}]
+			title: "Découvrir : Plateau Final"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest."]
+			id: "35F6DC252EF74FEE"
+			optional: true
+			rewards: [{
+				id: "62C73E7BDD45C267"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:fire_swamp"
+				id: "49030DA83D45B148"
+				type: "biome"
+			}]
+			title: "Découvrir : Marécage de Feu"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "7B7390F47CCCF307"
+			optional: true
+			rewards: [{
+				id: "3A6F40E839BD9A9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:firefly_forest"
+				id: "2CD93DC639C96507"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt des Lucioles"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "7A604828C7E17894"
+			optional: true
+			rewards: [{
+				id: "1E77999BCFBEF895"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:forest"
+				id: "6BF5A835E89DB66C"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt du Crépuscule"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Manchot (données du pack)."]
+			id: "595565B85EDC30A8"
+			optional: true
+			rewards: [{
+				id: "38DA166298DE03AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:glacier"
+				id: "13B06C3DA0EC1BB6"
+				type: "biome"
+			}]
+			title: "Découvrir : Glacier du Crépuscule"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "0E5A53B27739AB29"
+			optional: true
+			rewards: [{
+				id: "41CE626F1B7BC159"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:highlands"
+				id: "67111B7B90CBFD1D"
+				type: "biome"
+			}]
+			title: "Découvrir : Hauts plateaux du crépuscule"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "6C526F1100691D41"
+			optional: true
+			rewards: [{
+				id: "38BA7725BCA2CDA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:lake"
+				id: "07D58875EA071164"
+				type: "biome"
+			}]
+			title: "Découvrir : Lac du Crépuscule"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "482874CAFF0F3D99"
+			optional: true
+			rewards: [{
+				id: "03BBE6B85FB2194D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:mushroom_forest"
+				id: "52F0F142BA0D7BB7"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt de Champignons"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "75A69F207BF5CFF1"
+			optional: true
+			rewards: [{
+				id: "38EAAC618A0DB842"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:oak_savannah"
+				id: "20E4FC5A135F564D"
+				type: "biome"
+			}]
+			title: "Découvrir : Savane de chêne"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Loup d'hiver, Yéti (données du pack)."]
+			id: "620AD10A09B2A5C3"
+			optional: true
+			rewards: [{
+				id: "18EC4E67E527394A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				id: "32D1A9828B66946D"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt Enneigé"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Squelette de druide (données du pack)."]
+			id: "06A8B74F3093E987"
+			optional: true
+			rewards: [{
+				id: "25831ED0C2A92988"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:spooky_forest"
+				id: "5FDFEDA0C5139DF4"
+				type: "biome"
+			}]
+			title: "Découvrir : Forêt effrayante"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack)."]
+			id: "0BF9A91B676BABDA"
+			optional: true
+			rewards: [{
+				id: "21F3B99D58896DD5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:stream"
+				id: "221BD48027FDE445"
+				type: "biome"
+			}]
+			title: "Découvrir : Rivière du Crépuscule"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Essaim de moustiques (données du pack)."]
+			id: "518FABD4861B4257"
+			optional: true
+			rewards: [{
+				id: "3C028F40FD116759"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:swamp"
+				id: "2F5A948CFC77D864"
+				type: "biome"
+			}]
+			title: "Découvrir : Marécage du Crépuscule"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest."]
+			id: "45778941E35C7723"
+			optional: true
+			rewards: [{
+				id: "61BD4D8424CF466C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:thornlands"
+				id: "7664088F4381E784"
+				type: "biome"
+			}]
+			title: "Découvrir : Terres épineuses"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Biome de la Twilight Forest, dans la Twilight Forest."]
+			id: "318ADBEC626B58C6"
+			optional: true
+			rewards: [{
+				id: "3645051419DC1FC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "twilightforest:underground"
+				id: "57AF4342C6E22451"
+				type: "biome"
+			}]
+			title: "Découvrir : Souterrain"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6E35850806F64D2D"
+				"05FD3AFA65D3F07F"
+				"39036E0C347DF8B4"
+				"7068DEC0881D35D4"
+				"6684792243714B40"
+				"24C22C509C7B2080"
+				"68DD579D676E9226"
+				"315FB746B379D2BB"
+				"547EB6D4B79497F1"
+				"58842428F4F31FC4"
+				"2EE5B0F6D6B8B087"
+				"7ECE8C5DD89E3CDB"
+				"715E30362D3219BB"
+				"20D461CCDDD69A1D"
+				"5365D32DD3F2C11F"
+				"212854CCC45A5989"
+				"4F1E6BEDFC9D932C"
+				"4C85A71EDAE16BED"
+				"3862C79A1B9FA7A7"
+				"7AE65820DFACF185"
+				"7DFE0FE70F438BC3"
+				"1CE3FA874D06EEDA"
+				"2807BEEC290DABEE"
+				"53F66B670B0E619F"
+				"6088ED3FDD7E60D3"
+				"10C7CF92196D2C21"
+				"620B488E6138B9F5"
+				"0744C73E3DC77055"
+				"3D7E6ADCE52C65C2"
+				"6121251123F13510"
+				"080880478380D046"
+				"7C2F006AE8124E85"
+				"78168EE7D3DBE283"
+				"56F3F758E826A671"
+				"1BD011BE8F5DA84D"
+				"0715DE9D55ADC576"
+				"7679BB87C0BFBDF9"
+				"7F70E2B6AE920CE1"
+				"279A4802E52F2331"
+				"1805A4B7E632F021"
+				"4EF89CBF87609798"
+				"7553FC1B7859706D"
+				"0C1CF28F955D6F0B"
+				"505FEAB3AECEF471"
+				"643A5C8818A06C8B"
+				"3B42B0C845D333BA"
+				"155EFE41D943157E"
+				"56A138381B284A71"
+				"03CD41CD13E357E5"
+				"3903F00670D3444C"
+				"76AE44C71A0058F4"
+				"060F2F70BDABE0AD"
+				"2477828863FA741F"
+				"6C9682D3B6D57BB7"
+				"2AFB68A0AAD6A8A8"
+				"712F929509D68E76"
+				"03BEDE58BB6A1837"
+				"006ECE0AFC181D31"
+				"35F6DC252EF74FEE"
+				"7B7390F47CCCF307"
+				"7A604828C7E17894"
+				"595565B85EDC30A8"
+				"0E5A53B27739AB29"
+				"6C526F1100691D41"
+				"482874CAFF0F3D99"
+				"75A69F207BF5CFF1"
+				"620AD10A09B2A5C3"
+				"06A8B74F3093E987"
+				"0BF9A91B676BABDA"
+				"518FABD4861B4257"
+				"45778941E35C7723"
+				"318ADBEC626B58C6"
+			]
+			description: ["Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte."]
+			icon: "minecraft:compass"
+			id: "6DCCDE3C8CD34FA9"
+			optional: true
+			rewards: [{
+				id: "0767D129122E5918"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "09C34148FD4D055C"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&bBiomes — dimensions"
+}

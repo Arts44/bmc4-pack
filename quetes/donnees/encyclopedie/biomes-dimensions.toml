@@ -1,0 +1,755 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&bBiomes — dimensions"
+fichier = "enc_biomes_dimensions"
+groupe = "encyclopedie"
+icone = "aether:aether_grass_block"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&bBiomes — dimensions"
+taille = 1.5
+icone = "aether:aether_grass_block"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque biome de l'Aether, de la Twilight Forest, de l'Everbright, de l'Everdawn et de l'Otherside que le serveur génère. Une quête se valide en &lentrant&r dans le biome.
+"""
+
+[[quete]]
+cle = "aether_skyroot_forest"
+titre = "Découvrir : Forêt de skyroot"
+optionnel = true
+taches = ["biome aether:skyroot_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de l'Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_skyroot_grove"
+titre = "Découvrir : Bosquet de skyroot"
+optionnel = true
+taches = ["biome aether:skyroot_grove"]
+recompenses = ["xp 1"]
+description = """
+Biome de l'Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_skyroot_meadow"
+titre = "Découvrir : Prairie de skyroot"
+optionnel = true
+taches = ["biome aether:skyroot_meadow"]
+recompenses = ["xp 1"]
+description = """
+Biome de l'Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_skyroot_woodland"
+titre = "Découvrir : Bois de skyroot"
+optionnel = true
+taches = ["biome aether:skyroot_woodland"]
+recompenses = ["xp 1"]
+description = """
+Biome de l'Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_redux_cloudcaps"
+titre = "Découvrir : « Cloudcaps »"
+optionnel = true
+taches = ["biome aether_redux:cloudcaps"]
+recompenses = ["xp 1"]
+description = """
+Biome d'Aether Redux, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_redux_frosted_forests"
+titre = "Découvrir : « Frosted Forests »"
+optionnel = true
+taches = ["biome aether_redux:frosted_forests"]
+recompenses = ["xp 1"]
+description = """
+Biome d'Aether Redux, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_redux_gilded_grasslands"
+titre = "Découvrir : « Gilded Grasslands »"
+optionnel = true
+taches = ["biome aether_redux:gilded_grasslands"]
+recompenses = ["xp 1"]
+description = """
+Biome d'Aether Redux, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_redux_gilded_groves"
+titre = "Découvrir : « Gilded Groves »"
+optionnel = true
+taches = ["biome aether_redux:gilded_groves"]
+recompenses = ["xp 1"]
+description = """
+Biome d'Aether Redux, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_redux_glacial_tundra"
+titre = "Découvrir : « Glacial Tundra »"
+optionnel = true
+taches = ["biome aether_redux:glacial_tundra"]
+recompenses = ["xp 1"]
+description = """
+Biome d'Aether Redux, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_redux_skyfields"
+titre = "Découvrir : « Skyfields »"
+optionnel = true
+taches = ["biome aether_redux:skyfields"]
+recompenses = ["xp 1"]
+description = """
+Biome d'Aether Redux, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_redux_skyroot_shrublands"
+titre = "Découvrir : « Skyroot Shrublands »"
+optionnel = true
+taches = ["biome aether_redux:skyroot_shrublands"]
+recompenses = ["xp 1"]
+description = """
+Biome d'Aether Redux, dans l'Aether.
+"""
+
+[[quete]]
+cle = "aether_redux_the_blight"
+titre = "Découvrir : « The Blight »"
+optionnel = true
+taches = ["biome aether_redux:the_blight"]
+recompenses = ["xp 1"]
+description = """
+Biome d'Aether Redux, dans l'Aether.
+"""
+
+[[quete]]
+cle = "blue_skies_brightlands"
+titre = "Découvrir : Landes brillantes"
+optionnel = true
+taches = ["biome blue_skies:brightlands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Renne, Azélufo, Esprit gelé renforcé, Crynocère, Polirours et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_brisk_meadow"
+titre = "Découvrir : Prairie brisegelée"
+optionnel = true
+taches = ["biome blue_skies:brisk_meadow"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_brumble_forest"
+titre = "Découvrir : Récif de brimble"
+optionnel = true
+taches = ["biome blue_skies:brumble_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_calming_skies"
+titre = "Découvrir : Cieux calmes"
+optionnel = true
+taches = ["biome blue_skies:calming_skies"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_crescent_orchard"
+titre = "Découvrir : Verger de crofruits"
+optionnel = true
+taches = ["biome blue_skies:crescent_orchard"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_crescent_orchard_lake"
+titre = "Découvrir : Lac de verger de crofruits"
+optionnel = true
+taches = ["biome blue_skies:crescent_orchard_lake"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Araignée pérenne, Piqueur infecté, Poisson moki, Poisson tunide (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_crystal_dunes"
+titre = "Découvrir : Dunes cristallisées"
+optionnel = true
+taches = ["biome blue_skies:crystal_dunes"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_crystal_dunes_spikes"
+titre = "Découvrir : Pics des dunes cristallisées"
+optionnel = true
+taches = ["biome blue_skies:crystal_dunes_spikes"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_crystal_roughs"
+titre = "Découvrir : Buttes de cristal"
+optionnel = true
+taches = ["biome blue_skies:crystal_roughs"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Chameau de cristal, Rétourbeur (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_deep_peeking_ocean"
+titre = "Découvrir : Océan brillant profond"
+optionnel = true
+taches = ["biome blue_skies:deep_peeking_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_frostbitten_forest"
+titre = "Découvrir : Forêt oubligelée"
+optionnel = true
+taches = ["biome blue_skies:frostbitten_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Polirours, Rôdeur diophyde, Chouette des neiges (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_frostbitten_forest_clearing"
+titre = "Découvrir : Lisière de forêt oubligelée"
+optionnel = true
+taches = ["biome blue_skies:frostbitten_forest_clearing"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Polirours, Rôdeur diophyde, Chouette des neiges (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_midday_shore"
+titre = "Découvrir : Plages de demi-journée"
+optionnel = true
+taches = ["biome blue_skies:midday_shore"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Dobcrabe (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_moonlit_reservoir"
+titre = "Découvrir : Bassin lunaire"
+optionnel = true
+taches = ["biome blue_skies:moonlit_reservoir"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Cristodile, Araignée pérenne, Piqueur infecté, Poisson moki, Poisson tunide, Crogre et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_peeking_ocean"
+titre = "Découvrir : Océan brillant"
+optionnel = true
+taches = ["biome blue_skies:peeking_ocean"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Esprit gelé renforcé, Dobcrabe, Séclame, Dériveur gélatineux, Poisson plat, Poisson marosien (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_polar_highland"
+titre = "Découvrir : Hautes-terres polaires"
+optionnel = true
+taches = ["biome blue_skies:polar_highland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Rôdeur diophyde (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_rising_creek"
+titre = "Découvrir : Crête du crépuscule"
+optionnel = true
+taches = ["biome blue_skies:rising_creek"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Piqueur infecté, Poisson moki, Poisson tunide (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_searing_grassland"
+titre = "Découvrir : Prairie brûlante"
+optionnel = true
+taches = ["biome blue_skies:searing_grassland"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur, Silve (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_shaded_woodlands"
+titre = "Découvrir : Bosquets de l'ombre"
+optionnel = true
+taches = ["biome blue_skies:shaded_woodlands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Nycto-insecte, Luciole (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_slushlands"
+titre = "Découvrir : Terres détrempées"
+optionnel = true
+taches = ["biome blue_skies:slushlands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Azélufo, Esprit gelé renforcé, Polirours, Champistrêle (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_snow_covered_pines"
+titre = "Découvrir : Pins neigeux"
+optionnel = true
+taches = ["biome blue_skies:snow_covered_pines"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everbright. On y croise : Bélier des étoiles, Renne, Azélufo, Esprit gelé renforcé, Crynocère, Polirours et d'autres (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_sunset_maple_forest"
+titre = "Découvrir : Forêt d'érables"
+optionnel = true
+taches = ["biome blue_skies:sunset_maple_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur, Silve (données du pack).
+"""
+
+[[quete]]
+cle = "blue_skies_unorthodox_valley"
+titre = "Découvrir : Vallée pas très orthodoxe"
+optionnel = true
+taches = ["biome blue_skies:unorthodox_valley"]
+recompenses = ["xp 1"]
+description = """
+Biome de Blue Skies, dans l'Everdawn. On y croise : Renard Cosmique, Cristodile, Araignée pérenne, Piqueur infecté, Rétourbeur (données du pack).
+"""
+
+[[quete]]
+cle = "deep_aether_aerglow_forest"
+titre = "Découvrir : « Aerglow Forest »"
+optionnel = true
+taches = ["biome deep_aether:aerglow_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_aerlavender_fields"
+titre = "Découvrir : « Aerlavender Fields »"
+optionnel = true
+taches = ["biome deep_aether:aerlavender_fields"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_blue_aerglow_forest"
+titre = "Découvrir : « Blue Aerglow Forest »"
+optionnel = true
+taches = ["biome deep_aether:blue_aerglow_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_cloud"
+titre = "Découvrir : « Cloud »"
+optionnel = true
+taches = ["biome deep_aether:cloud"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_golden_grove"
+titre = "Découvrir : « Golden grove »"
+optionnel = true
+taches = ["biome deep_aether:golden_grove"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_golden_grow"
+titre = "Découvrir : « Golden Heights »"
+optionnel = true
+taches = ["biome deep_aether:golden_grow"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_golden_heights"
+titre = "Découvrir : « Golden Heights »"
+optionnel = true
+taches = ["biome deep_aether:golden_heights"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_luminescent_forest"
+titre = "Découvrir : « Luminescent Forest »"
+optionnel = true
+taches = ["biome deep_aether:luminescent_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_mystic_aerglow_forest"
+titre = "Découvrir : « Mystic Aerglow Forest »"
+optionnel = true
+taches = ["biome deep_aether:mystic_aerglow_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_overgrown_cloud"
+titre = "Découvrir : « Overgrown Cloud »"
+optionnel = true
+taches = ["biome deep_aether:overgrown_cloud"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_storm_cloud"
+titre = "Découvrir : « Storm Cloud »"
+optionnel = true
+taches = ["biome deep_aether:storm_cloud"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deep_aether_yagroot_swamp"
+titre = "Découvrir : « Yagroot Swamp »"
+optionnel = true
+taches = ["biome deep_aether:yagroot_swamp"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deep Aether, dans l'Aether.
+"""
+
+[[quete]]
+cle = "deeperdarker_blooming_caverns"
+titre = "Découvrir : « Blooming Caverns »"
+optionnel = true
+taches = ["biome deeperdarker:blooming_caverns"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deeper and Darker, dans l'Otherside. On y croise : Mordeur de sculk (données du pack).
+"""
+
+[[quete]]
+cle = "deeperdarker_deeplands"
+titre = "Découvrir : « Deeplands »"
+optionnel = true
+taches = ["biome deeperdarker:deeplands"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deeper and Darker, dans l'Otherside. On y croise : Phantom, Mordeur de sculk, Mille-pattes de sculk, Shattered (données du pack).
+"""
+
+[[quete]]
+cle = "deeperdarker_echoing_forest"
+titre = "Découvrir : « Echoing Forest »"
+optionnel = true
+taches = ["biome deeperdarker:echoing_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deeper and Darker, dans l'Otherside. On y croise : Mordeur de sculk, Shattered (données du pack).
+"""
+
+[[quete]]
+cle = "deeperdarker_overcast_columns"
+titre = "Découvrir : « Overcast Columns »"
+optionnel = true
+taches = ["biome deeperdarker:overcast_columns"]
+recompenses = ["xp 1"]
+description = """
+Biome de Deeper and Darker, dans l'Otherside.
+"""
+
+[[quete]]
+cle = "twilightforest_clearing"
+titre = "Découvrir : Clairière du Crépuscule"
+optionnel = true
+taches = ["biome twilightforest:clearing"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_dark_forest"
+titre = "Découvrir : Forêt Sombre"
+optionnel = true
+taches = ["biome twilightforest:dark_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Loup de la brume, Squelette de druide, Reine des araignées (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_dark_forest_center"
+titre = "Découvrir : Centre de la Forêt Sombre"
+optionnel = true
+taches = ["biome twilightforest:dark_forest_center"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest.
+"""
+
+[[quete]]
+cle = "twilightforest_dense_forest"
+titre = "Découvrir : Forêt dense"
+optionnel = true
+taches = ["biome twilightforest:dense_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_dense_mushroom_forest"
+titre = "Découvrir : Forêt de Champignons Dense"
+optionnel = true
+taches = ["biome twilightforest:dense_mushroom_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_enchanted_forest"
+titre = "Découvrir : Forêt Enchantée"
+optionnel = true
+taches = ["biome twilightforest:enchanted_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_final_plateau"
+titre = "Découvrir : Plateau Final"
+optionnel = true
+taches = ["biome twilightforest:final_plateau"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest.
+"""
+
+[[quete]]
+cle = "twilightforest_fire_swamp"
+titre = "Découvrir : Marécage de Feu"
+optionnel = true
+taches = ["biome twilightforest:fire_swamp"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest.
+"""
+
+[[quete]]
+cle = "twilightforest_firefly_forest"
+titre = "Découvrir : Forêt des Lucioles"
+optionnel = true
+taches = ["biome twilightforest:firefly_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_forest"
+titre = "Découvrir : Forêt du Crépuscule"
+optionnel = true
+taches = ["biome twilightforest:forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_glacier"
+titre = "Découvrir : Glacier du Crépuscule"
+optionnel = true
+taches = ["biome twilightforest:glacier"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Manchot (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_highlands"
+titre = "Découvrir : Hauts plateaux du crépuscule"
+optionnel = true
+taches = ["biome twilightforest:highlands"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_lake"
+titre = "Découvrir : Lac du Crépuscule"
+optionnel = true
+taches = ["biome twilightforest:lake"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_mushroom_forest"
+titre = "Découvrir : Forêt de Champignons"
+optionnel = true
+taches = ["biome twilightforest:mushroom_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_oak_savannah"
+titre = "Découvrir : Savane de chêne"
+optionnel = true
+taches = ["biome twilightforest:oak_savannah"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_snowy_forest"
+titre = "Découvrir : Forêt Enneigé"
+optionnel = true
+taches = ["biome twilightforest:snowy_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Loup d'hiver, Yéti (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_spooky_forest"
+titre = "Découvrir : Forêt effrayante"
+optionnel = true
+taches = ["biome twilightforest:spooky_forest"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Squelette de druide (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_stream"
+titre = "Découvrir : Rivière du Crépuscule"
+optionnel = true
+taches = ["biome twilightforest:stream"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Mouflon d'Amérique, Petit oiseau, Lapin nain (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_swamp"
+titre = "Découvrir : Marécage du Crépuscule"
+optionnel = true
+taches = ["biome twilightforest:swamp"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest. On y croise : Essaim de moustiques (données du pack).
+"""
+
+[[quete]]
+cle = "twilightforest_thornlands"
+titre = "Découvrir : Terres épineuses"
+optionnel = true
+taches = ["biome twilightforest:thornlands"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest.
+"""
+
+[[quete]]
+cle = "twilightforest_underground"
+titre = "Découvrir : Souterrain"
+optionnel = true
+taches = ["biome twilightforest:underground"]
+recompenses = ["xp 1"]
+description = """
+Biome de la Twilight Forest, dans la Twilight Forest.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "minecraft:compass"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["aether_skyroot_forest", "aether_skyroot_grove", "aether_skyroot_meadow", "aether_skyroot_woodland", "aether_redux_cloudcaps", "aether_redux_frosted_forests", "aether_redux_gilded_grasslands", "aether_redux_gilded_groves", "aether_redux_glacial_tundra", "aether_redux_skyfields", "aether_redux_skyroot_shrublands", "aether_redux_the_blight", "blue_skies_brightlands", "blue_skies_brisk_meadow", "blue_skies_brumble_forest", "blue_skies_calming_skies", "blue_skies_crescent_orchard", "blue_skies_crescent_orchard_lake", "blue_skies_crystal_dunes", "blue_skies_crystal_dunes_spikes", "blue_skies_crystal_roughs", "blue_skies_deep_peeking_ocean", "blue_skies_frostbitten_forest", "blue_skies_frostbitten_forest_clearing", "blue_skies_midday_shore", "blue_skies_moonlit_reservoir", "blue_skies_peeking_ocean", "blue_skies_polar_highland", "blue_skies_rising_creek", "blue_skies_searing_grassland", "blue_skies_shaded_woodlands", "blue_skies_slushlands", "blue_skies_snow_covered_pines", "blue_skies_sunset_maple_forest", "blue_skies_unorthodox_valley", "deep_aether_aerglow_forest", "deep_aether_aerlavender_fields", "deep_aether_blue_aerglow_forest", "deep_aether_cloud", "deep_aether_golden_grove", "deep_aether_golden_grow", "deep_aether_golden_heights", "deep_aether_luminescent_forest", "deep_aether_mystic_aerglow_forest", "deep_aether_overgrown_cloud", "deep_aether_storm_cloud", "deep_aether_yagroot_swamp", "deeperdarker_blooming_caverns", "deeperdarker_deeplands", "deeperdarker_echoing_forest", "deeperdarker_overcast_columns", "twilightforest_clearing", "twilightforest_dark_forest", "twilightforest_dark_forest_center", "twilightforest_dense_forest", "twilightforest_dense_mushroom_forest", "twilightforest_enchanted_forest", "twilightforest_final_plateau", "twilightforest_fire_swamp", "twilightforest_firefly_forest", "twilightforest_forest", "twilightforest_glacier", "twilightforest_highlands", "twilightforest_lake", "twilightforest_mushroom_forest", "twilightforest_oak_savannah", "twilightforest_snowy_forest", "twilightforest_spooky_forest", "twilightforest_stream", "twilightforest_swamp", "twilightforest_thornlands", "twilightforest_underground"]
+description = """
+Tous les biomes de ce chapitre visités. La récompense est symbolique : c'est la carte qui compte.
+"""
