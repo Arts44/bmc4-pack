@@ -60,6 +60,10 @@ def charger_index():
         d = json.load(open(chemin, encoding='utf-8'))
         for k, v in d.items():
             ix.setdefault(k, {}).update(v)
+    o = os.path.join(os.path.dirname(INDEX[0]), 'obtenables.json')
+    if os.path.exists(o):
+        d = json.load(open(o, encoding='utf-8'))
+        ix['_obtenables'] = set(d['recette']) | set(d['butin']) | set(d['monde'])
     g = os.path.join(os.path.dirname(INDEX[0]), 'generation.json')
     if os.path.exists(g):
         ix['_generation'] = json.load(open(g, encoding='utf-8'))
@@ -92,6 +96,27 @@ class Verif:
             self.erreurs.append(f"{ou} : le biome « {b} » ne se génère pas sur le serveur (outils/generation.py)")
             return False
         return True
+
+    # Objets qu'aucune recette, table de butin ni génération ne donne, mais
+    # qu'un joueur obtient quand même — chacun avec sa pièce.
+    OBTENUS_AUTREMENT = {
+        'minecraft:filled_map': "en utilisant une carte vierge",
+        'twilightforest:filled_magic_map': "en utilisant une carte magique vierge",
+        'ironjetpacks:jetpack': "recettes créées par le code d'Iron Jetpacks ; NBT non comparé (balise ftbquests:check_nbt absente)",
+        'ironjetpacks:cell': "recettes créées par le code d'Iron Jetpacks",
+        'ironjetpacks:thruster': "recettes créées par le code d'Iron Jetpacks",
+        'ironjetpacks:capacitor': "recettes créées par le code d'Iron Jetpacks",
+        'mysticalagriculture:cognizant_dust': "Wither ou Ender Dragon tué avec une arme d'essence enchantée d'Illumination mystique (guide du mod)",
+        'dragonloot:dragon_scale': "butin de l'Ender Dragon ajouté par le code de DragonLoot (dragonloot-common.toml du serveur)",
+    }
+
+    def obtenable(self, i, ou):
+        ob = self.ix.get('_obtenables')
+        if ob is None or i in ob or i in self.OBTENUS_AUTREMENT:
+            return True
+        self.erreurs.append(f"{ou} : « {i} » ne sort d'aucune recette, table de butin ni génération (outils/obtenables.py) ; "
+                            f"si un joueur l'obtient autrement, l'ajouter à OBTENUS_AUTREMENT avec sa pièce")
+        return False
 
     def generee(self, st, ou, seulement_si_connue=False):
         """Garde-fou : la structure doit se générer sur le serveur
@@ -234,6 +259,7 @@ def _tache(spec, ou, verif, quete_id, idx, tid):
         return t
     if genre == 'item':
         verif.item(mots[1], ou)
+        verif.obtenable(mots[1], ou)
         t = {'id': tid, 'type': 'item', 'item': mots[1]}
         if len(mots) > 2 and int(mots[2]) > 1:
             t['count'] = Long(mots[2])
