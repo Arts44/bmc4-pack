@@ -9,18 +9,18 @@ ordre = 0
 
 [[quete]]
 cle = "intro"
-titre = "&bCreate : la force de rotation"
+titre = "&bCreate : la force de rotation"
 sous_titre = "Guide complet dans #create sur le Discord."
 taille = 1.5
 icone = "create:cogwheel"
 taches = ["checkmark Lu"]
 recompenses = ["item minecraft:andesite 32", "item minecraft:iron_nugget 32"]
 description = """
-&bCreate&r remplace l'électricité par la &lrotation&r : une roue tourne, un arbre transmet, une machine travaille. Tout se voit, tout s'entend, et tout se construit avec de l'andésite et du cuivre.
+&bCreate&r remplace l'électricité par la &lrotation&r : une roue tourne, un arbre transmet, une machine travaille. Tout se voit, tout s'entend, et tout se construit avec de l'andésite et du cuivre.
 
-Deux réflexes à prendre : la touche &bW&r en survolant un bloc Create ouvre &lPonder&r, une animation qui montre comment il s'utilise ; et la &6clé&r (wrench) tourne ou démonte n'importe quel composant.
+Deux réflexes à prendre : la touche &bW&r en survolant un bloc Create ouvre &lPonder&r, une animation qui montre comment il s'utilise ; et la &6clé&r (wrench) tourne ou démonte n'importe quel composant.
 
-L'andésite et les pépites de fer offertes font seize alliages : de quoi fabriquer les premiers arbres et engrenages.
+L'andésite et les pépites de fer offertes font seize alliages : de quoi fabriquer les premiers arbres et engrenages.
 """
 
 [[quete]]
@@ -30,7 +30,7 @@ deps = ["intro"]
 taches = ["item create:raw_zinc 4"]
 recompenses = ["xp 3"]
 description = """
-Le &7zinc&r est le minerai propre à Create. Il se trouve dans la pierre comme le fer, souvent en veines près de la surface. Avec le cuivre, il donne le laiton ; seul, il entre dans l'alliage d'andésite.
+Le &7zinc&r est le minerai propre à Create. Il se trouve dans la pierre comme le fer, souvent en veines près de la surface. Avec le cuivre, il donne le laiton ; seul, il entre dans l'alliage d'andésite.
 """
 
 [[quete]]
@@ -40,9 +40,9 @@ deps = ["zinc"]
 taches = ["item create:andesite_alloy 16"]
 recompenses = ["xp 3"]
 description = """
-L'&7alliage d'andésite&r se fabrique à la table : deux andésites et deux pépites de fer, en diagonale, pour un alliage. C'est la matière première de presque tout le début de Create : arbres, engrenages, boîtiers, courroies.
+L'&7alliage d'andésite&r se fabrique à la table : deux andésites et deux pépites de fer, en diagonale, pour un alliage. C'est la matière première de presque tout le début de Create : arbres, engrenages, boîtiers, courroies.
 
-Plus tard, un mélangeur le produira en quantité ; pour l'instant, la table suffit.
+Plus tard, un mélangeur le produira en quantité ; pour l'instant, la table suffit.
 """
 
 [[quete]]
@@ -62,7 +62,7 @@ deps = ["arbre"]
 taches = ["item create:cogwheel 4", "item create:large_cogwheel 2"]
 recompenses = ["xp 3"]
 description = """
-Deux &7engrenages&r côte à côte tournent en sens inverse. Un petit contre un grand change la vitesse : &lpetit vers grand&r divise par deux, grand vers petit double. C'est la seule boîte de vitesses des débuts.
+Deux &7engrenages&r côte à côte tournent en sens inverse. Un petit contre un grand change la vitesse : &lpetit vers grand&r divise par deux, grand vers petit double. C'est la seule boîte de vitesses des débuts.
 """
 
 [[quete]]
@@ -72,7 +72,7 @@ deps = ["arbre"]
 taches = ["item create:hand_crank"]
 recompenses = ["xp 2"]
 description = """
-La &7manivelle&r se tourne à la main (clic droit maintenu) et donne un peu de rotation, le temps de tester une machine ou de dépanner. Elle creuse la faim : ce n'est pas une source d'énergie, c'est un outil.
+La &7manivelle&r se tourne à la main (clic droit maintenu) et donne un peu de rotation, le temps de tester une machine ou de dépanner. Elle creuse la faim : ce n'est pas une source d'énergie, c'est un outil.
 """
 
 [[quete]]
@@ -82,7 +82,7 @@ deps = ["engrenage"]
 taches = ["item create:water_wheel"]
 recompenses = ["xp 5"]
 description = """
-La &broue hydraulique&r est la première vraie source : un courant d'eau qui la frôle la fait tourner. Plus d'eau sur ses pales, plus de force. La &lgrande roue&r (large water wheel) se fabrique à partir d'une petite roue entourée de huit planches.
+La &broue hydraulique&r est la première vraie source : un courant d'eau qui la frôle la fait tourner. Plus d'eau sur ses pales, plus de force. La &lgrande roue&r (large water wheel) se fabrique à partir d'une petite roue entourée de huit planches.
 
 Un seau d'eau au-dessus d'une roue de 1 bloc suffit à lancer un moulin ou une presse.
 """
@@ -94,7 +94,7 @@ deps = ["engrenage"]
 taches = ["item create:windmill_bearing", "item create:white_sail 8"]
 recompenses = ["xp 5"]
 description = """
-Le &bpalier de moulin&r assemble les blocs posés dessus en une roue de voiles. Au moins huit &fvoiles&r, et il tourne tout seul, sans eau. Plus de voiles, plus de force : c'est la source gratuite des grandes bases, à condition d'avoir le ciel.
+Le &bpalier de moulin&r assemble les blocs posés dessus en une roue de voiles. Au moins huit &fvoiles&r, et il tourne tout seul, sans eau. Plus de voiles, plus de force : c'est la source gratuite des grandes bases, à condition d'avoir le ciel.
 
 La laine fait aussi des voiles, dans n'importe quelle couleur.
 """
@@ -130,7 +130,7 @@ recompenses = ["xp 3"]
 description = """
 La &6clé&r démonte un composant Create d'un clic et le tourne d'un clic accroupi. Les &6lunettes&r, portées, affichent la vitesse et la contrainte d'un réseau quand on le regarde.
 
-La &ccontrainte&r est la notion à comprendre : chaque machine consomme de la force, chaque source en fournit une quantité limitée. Trop de machines sur une roue, et tout s'arrête.
+La &ccontrainte&r est la notion à comprendre : chaque machine consomme de la force, chaque source en fournit une quantité limitée. Trop de machines sur une roue, et tout s'arrête.
 """
 
 [[quete]]
@@ -142,7 +142,7 @@ taille = 1.3
 taches = ["item create:mechanical_press"]
 recompenses = ["xp 8"]
 description = """
-La &bpresse mécanique&r écrase ce qui passe dessous : un lingot devient une &7plaque&r, et au-dessus d'un bassin elle compacte (neuf lingots en un bloc, ou de la pâte en briques). C'est la première machine qui transforme vraiment.
+La &bpresse mécanique&r écrase ce qui passe dessous : un lingot devient une &7plaque&r, et au-dessus d'un bassin elle compacte (neuf lingots en un bloc, ou de la pâte en briques). C'est la première machine qui transforme vraiment.
 
 Elle se pose au-dessus d'un dépôt ou d'une courroie, alimentée par un engrenage sur le côté.
 """
@@ -154,7 +154,7 @@ deps = ["presse"]
 taches = ["item create:mechanical_mixer"]
 recompenses = ["xp 8"]
 description = """
-Le &bmélangeur&r, posé au-dessus d'un &7bassin&r, combine des objets et des liquides : alliage d'andésite en série, laiton, pâte, et bien d'autres recettes qui n'existent que là. Il demande plus de vitesse qu'une presse.
+Le &bmélangeur&r, posé au-dessus d'un &7bassin&r, combine des objets et des liquides : alliage d'andésite en série, laiton, pâte, et bien d'autres recettes qui n'existent que là. Il demande plus de vitesse qu'une presse.
 """
 
 [[quete]]
@@ -164,7 +164,7 @@ deps = ["presse"]
 taches = ["item create:basin", "item create:depot"]
 recompenses = ["xp 3"]
 description = """
-Le &7bassin&r reçoit objets et liquides pour la presse et le mélangeur, et vide son résultat sur le côté vers une courroie ou un dépôt. Le &7dépôt&r, lui, est un simple plateau : une courroie y dépose, une machine y travaille.
+Le &7bassin&r reçoit objets et liquides pour la presse et le mélangeur, et vide son résultat sur le côté vers une courroie ou un dépôt. Le &7dépôt&r, lui, est un simple plateau : une courroie y dépose, une machine y travaille.
 """
 
 [[quete]]
@@ -174,7 +174,7 @@ deps = ["engrenage"]
 taches = ["item create:millstone"]
 recompenses = ["xp 5"]
 description = """
-La &bmeule&r moud lentement : blé en farine, os en poudre, gravier en silex. On y verse à la main ou par entonnoir, et un entonnoir en dessous récupère.
+La &bmeule&r moud lentement : blé en farine, os en poudre, gravier en silex. On y verse à la main ou par entonnoir, et un entonnoir en dessous récupère.
 
 C'est la machine la plus simple de Create, et une manivelle suffit à la lancer.
 """
@@ -189,7 +189,7 @@ recompenses = ["xp 8"]
 description = """
 Deux &broues de broyage&r face à face, tournant l'une vers l'autre, broient ce qu'on jette entre elles. Un minerai brut donne du &7minerai concassé&r, et le concassé lavé donne &lplus de lingots&r que la cuisson directe.
 
-C'est ici que Create rentabilise la mine. Les deux roues doivent tourner en sens opposé : vérifie avec les lunettes.
+C'est ici que Create rentabilise la mine. Les deux roues doivent tourner en sens opposé : vérifie avec les lunettes.
 """
 
 [[quete]]
@@ -199,7 +199,7 @@ deps = ["engrenage"]
 taches = ["item create:encased_fan"]
 recompenses = ["xp 3"]
 description = """
-Le &7ventilateur encastré&r souffle de l'air à travers le bloc qu'il a devant lui. Ce que l'air traverse décide de l'effet : de l'eau lave, du feu cuit, la flamme d'âme hante. Trois quêtes suivent, une par effet.
+Le &7ventilateur encastré&r souffle de l'air à travers le bloc qu'il a devant lui. Ce que l'air traverse décide de l'effet : de l'eau lave, du feu cuit, la flamme d'âme hante. Trois quêtes suivent, une par effet.
 """
 
 [[quete]]
@@ -229,7 +229,7 @@ deps = ["ventilateur"]
 taches = ["item minecraft:soul_sand 4"]
 recompenses = ["xp 3"]
 description = """
-À travers un &3feu d'âme&r, l'air hante : du sable ordinaire devient du &3sable des âmes&r, et quelques objets changent de nature. Le feu d'âme se fait avec du sable des âmes sous la flamme, ramené du Nether une première fois ; ensuite, le ventilateur en produit.
+À travers un &3feu d'âme&r, l'air hante : du sable ordinaire devient du &3sable des âmes&r, et quelques objets changent de nature. Le feu d'âme se fait avec du sable des âmes sous la flamme, ramené du Nether une première fois ; ensuite, le ventilateur en produit.
 """
 
 [[quete]]
@@ -271,7 +271,7 @@ icone = "create:mechanical_press"
 taches = ["checkmark Ma chaîne tourne"]
 recompenses = ["xp 10"]
 description = """
-Un concasseur, un lavage, des entonnoirs et une courroie : la mine rend davantage sans que personne ne touche à rien. C'est le cœur de Create, et le reste n'est que des machines en plus.
+Un concasseur, un lavage, des entonnoirs et une courroie : la mine rend davantage sans que personne ne touche à rien. C'est le cœur de Create, et le reste n'est que des machines en plus.
 
-La suite, &bCreate — fabrication avancée&r : le laiton, le mécanisme de précision, le bras mécanique, le moteur à vapeur.
+La suite, &bCreate — fabrication avancée&r : le laiton, le mécanisme de précision, le bras mécanique, le moteur à vapeur.
 """

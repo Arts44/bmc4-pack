@@ -20,9 +20,9 @@ icone = "minecraft:white_banner"
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Une faction, c'est une &léquipe FTB&r : un territoire claim en commun, des salons privés sur le Discord, un diplomate qui parle en son nom, un trophée à défendre. On est dans une faction à la fois, ou &7indépendant&r.
+Une faction, c'est une &léquipe FTB&r : un territoire claim en commun, des salons privés sur le Discord, un diplomate qui parle en son nom, un trophée à défendre. On est dans une faction à la fois, ou &7indépendant&r.
 
-Ce chapitre ne demande rien en jeu : il te fait faire le tour des outils, et tu coches quand c'est fait. Les récompenses sont symboliques, c'est voulu.
+Ce chapitre ne demande rien en jeu : il te fait faire le tour des outils, et tu coches quand c'est fait. Les récompenses sont symboliques, c'est voulu.
 """
 
 [[quete]]
@@ -32,7 +32,7 @@ deps = ["intro"]
 taches = ["checkmark Je suis dans une faction"]
 recompenses = ["xp 3"]
 description = """
-Pour rejoindre Apex ou Farmer's, demande à l'un de leurs membres : c'est l'équipe FTB qui t'invite (menu FTB Teams en haut à gauche de l'inventaire). Pour en fonder une, la demande se fait dans &9#diplomatie&r : le staff crée l'équipe, les salons et les rôles.
+Pour rejoindre Apex ou Farmer's, demande à l'un de leurs membres : c'est l'équipe FTB qui t'invite (menu FTB Teams en haut à gauche de l'inventaire). Pour en fonder une, la demande se fait dans &9#diplomatie&r : le staff crée l'équipe, les salons et les rôles.
 
 Une faction à la fois. En changer, c'est repartir sans ses claims.
 """
@@ -44,7 +44,7 @@ deps = ["rejoindre"]
 taches = ["checkmark Base claim"]
 recompenses = ["xp 3"]
 description = """
-Touche &bM&r, puis le bouton de claim. Une faction dispose de &l40 chunks&r, quel que soit son nombre de membres. Le règlement dit : claim ce qu'on occupe réellement, une seule base par faction, pas de réserve foncière, pas d'encerclement.
+Touche &bM&r, puis le bouton de claim. Une faction dispose de &l40 chunks&r, quel que soit son nombre de membres. Le règlement dit : claim ce qu'on occupe réellement, une seule base par faction, pas de réserve foncière, pas d'encerclement.
 
 Dans un claim, les autres ne cassent rien, ne posent rien, et les explosions sont bloquées. Le combat, lui, reste possible.
 """
@@ -80,9 +80,9 @@ deps = ["rejoindre"]
 taches = ["checkmark Salon trouvé"]
 recompenses = ["xp 2"]
 description = """
-Chaque faction a son &9#stratégie&r sur le Discord : c'est là que se tapent les commandes de faction, et que rien ne sort. Les coordonnées vont dans &9#coordonnées&r, une par message ; les stocks dans &9#ressources&r.
+Chaque faction a son &9#stratégie&r sur le Discord : c'est là que se tapent les commandes de faction, et que rien ne sort. Les coordonnées vont dans &9#coordonnées&r, une par message ; les stocks dans &9#ressources&r.
 
-Le règlement est clair : les coordonnées d'une faction ne se partagent pas, même après l'avoir quittée.
+Le règlement est clair : les coordonnées d'une faction ne se partagent pas, même après l'avoir quittée.
 """
 
 [[quete]]
@@ -102,7 +102,7 @@ deps = ["aide"]
 taches = ["checkmark Une tâche créée"]
 recompenses = ["xp 3"]
 description = """
-&b!tache ajouter <titre>&r crée une tâche pour la faction. Ensuite, par son numéro : &b!tache 12 encours&r, &b!tache 12 fait&r, &b!tache 12 bloque <raison>&r, &b!tache 12 qui @quelqu'un&r pour l'attribuer, &b!tache 12 priorite urgente&r. Le tableau se republie avec &b!tache tableau&r.
+&b!tache ajouter <titre>&r crée une tâche pour la faction. Ensuite, par son numéro : &b!tache 12 encours&r, &b!tache 12 fait&r, &b!tache 12 bloque <raison>&r, &b!tache 12 qui @quelqu'un&r pour l'attribuer, &b!tache 12 priorite urgente&r. Le tableau se republie avec &b!tache tableau&r.
 
 C'est la mémoire de la faction entre deux soirées.
 """
@@ -114,7 +114,7 @@ deps = ["aide"]
 taches = ["checkmark Un lieu enregistré"]
 recompenses = ["xp 3"]
 description = """
-&b!lieu ajouter <nom> <x> <y> <z> [dimension]&r enregistre un point pour toute la faction ; &b!lieu&r les liste par dimension. Une mine, un portail, un donjon repéré : ça ne se perd plus dans le chat.
+&b!lieu ajouter <nom> <x> <y> <z> [dimension]&r enregistre un point pour toute la faction ; &b!lieu&r les liste par dimension. Une mine, un portail, un donjon repéré : ça ne se perd plus dans le chat.
 """
 
 [[quete]]
@@ -124,7 +124,7 @@ deps = ["rejoindre"]
 taches = ["checkmark Compris"]
 recompenses = ["xp 3"]
 description = """
-Seul le &b🕊️ diplomate&r engage sa faction : déclarer un raid, signer une alliance, poser le trophée. Ce qu'il écrit dans &9#diplomatie&r est contraignant ; le vocal et les messages privés ne font pas foi.
+Seul le &b🕊️ diplomate&r engage sa faction : déclarer un raid, signer une alliance, poser le trophée. Ce qu'il écrit dans &9#diplomatie&r est contraignant ; le vocal et les messages privés ne font pas foi.
 
 Trahir est un acte de jeu légitime. Mais le staff n'arbitre que l'écrit.
 """

@@ -19,7 +19,7 @@ icone = "minecraft:blaze_powder"
 taches = ["checkmark Lu"]
 recompenses = ["item minecraft:glass_bottle 6"]
 description = """
-Un bâton de blaze sur trois pierres, de la poudre de blaze pour le chauffer, trois fioles d'eau, et la &lverrue du Nether&r d'abord : toute potion utile part de la potion étrange. Redstone prolonge, poudre lumineuse renforce, poudre à canon rend jetable, souffle de dragon rend persistante.
+Un bâton de blaze sur trois pierres, de la poudre de blaze pour le chauffer, trois fioles d'eau, et la &lverrue du Nether&r d'abord : toute potion utile part de la potion étrange. Redstone prolonge, poudre lumineuse renforce, poudre à canon rend jetable, souffle de dragon rend persistante.
 """
 
 [[quete]]
@@ -36,7 +36,7 @@ deps = ["alambic"]
 taches = ["potion awkward normale 3"]
 recompenses = ["xp 2"]
 description = """
-Verrue du Nether sur eau. La base de tout. Première potion : progrès « Local Brewery ».
+Verrue du Nether sur eau. La base de tout. Première potion : progrès « Local Brewery ».
 """
 
 [[quete]]
@@ -54,7 +54,7 @@ deps = ["etrange"]
 taches = ["potion healing", "potion strong_healing"]
 recompenses = ["xp 3"]
 description = """
-Melon scintillant. Renforcée : II, à la poudre lumineuse. Jetable, elle soigne tout le monde autour, et blesse les morts-vivants.
+Melon scintillant. Renforcée : II, à la poudre lumineuse. Jetable, elle soigne tout le monde autour, et blesse les morts-vivants.
 """
 
 [[quete]]
@@ -154,7 +154,7 @@ deps = ["etrange"]
 taches = ["potion turtle_master", "potion long_turtle_master", "potion strong_turtle_master"]
 recompenses = ["xp 4"]
 description = """
-Carapace de tortue : lenteur et résistance en même temps.
+Carapace de tortue : lenteur et résistance en même temps.
 """
 
 # ---- potions nuisibles
@@ -220,7 +220,7 @@ deps = ["jetable"]
 taches = ["potion healing persistante"]
 recompenses = ["xp 5"]
 description = """
-Souffle de dragon (ramassé en fiole sous l'Ender Dragon) sur une jetable : un nuage qui dure.
+Souffle de dragon (ramassé en fiole sous l'Ender Dragon) sur une jetable : un nuage qui dure.
 """
 
 [[quete]]
@@ -252,7 +252,7 @@ optionnel = true
 taches = ["potion luck"]
 recompenses = ["xp 5"]
 description = """
-Pas de recette vanilla : elle se trouve, ou se vend. Elle améliore le butin de pêche.
+Pas de recette vanilla : elle se trouve, ou se vend. Elle améliore le butin de pêche.
 """
 
 [[quete]]
@@ -264,12 +264,12 @@ taille = 1.3
 taches = ["advancement minecraft:nether/all_potions"]
 recompenses = ["xp 25"]
 description = """
-Tous les effets de potion en même temps (progrès « A Furious Cocktail »).
+Tous les effets de potion en même temps (progrès « A Furious Cocktail »).
 """
 
 [[quete]]
 cle = "effets"
-titre = "&5Comment est-on arrivé là ?"
+titre = "&5Comment est-on arrivé là ?"
 deps = ["toutes"]
 optionnel = true
 taille = 1.3

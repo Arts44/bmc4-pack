@@ -20,9 +20,9 @@ icone = "minecraft:player_head"
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Une base claim est &linviolable&r : personne ne perd des semaines de travail en une soirée. Mais chaque faction expose un &6trophée&r hors claim, et celui-là se prend.
+Une base claim est &linviolable&r : personne ne perd des semaines de travail en une soirée. Mais chaque faction expose un &6trophée&r hors claim, et celui-là se prend.
 
-Le trophée est une tête au nom de la faction, remise par le staff. Sans aucune fonction : tout est dans ce qu'on construit autour.
+Le trophée est une tête au nom de la faction, remise par le staff. Sans aucune fonction : tout est dans ce qu'on construit autour.
 """
 
 [[quete]]
@@ -32,9 +32,9 @@ deps = ["intro"]
 taches = ["checkmark Lues"]
 recompenses = ["xp 3"]
 description = """
-Les chiffres qui comptent : &b40&r chunks de plafond, &b5&r de plancher, &b7 jours&r entre deux raids d'une même faction, &b24 h&r d'immunité pour le défenseur après un raid, &b1 h&r de possession maximum du trophée adverse, en ligne seulement.
+Les chiffres qui comptent : &b40&r chunks de plafond, &b5&r de plancher, &b7 jours&r entre deux raids d'une même faction, &b24 h&r d'immunité pour le défenseur après un raid, &b1 h&r de possession maximum du trophée adverse, en ligne seulement.
 
-Placement tricheur, trophée inatteignable, déconnexion pour éviter la défaite : raid annulé en faveur de l'autre camp.
+Placement tricheur, trophée inatteignable, déconnexion pour éviter la défaite : raid annulé en faveur de l'autre camp.
 """
 
 [[quete]]
@@ -44,9 +44,9 @@ deps = ["regles"]
 taches = ["checkmark Trophée déclaré"]
 recompenses = ["xp 3"]
 description = """
-Le diplomate tape &b!trophee poser <x> <y> <z>&r dans le salon stratégie. Le bot vérifie le placement : &lhors claim&r, à moins de &b50 blocs&r du bord du claim, atteignable sans rien casser ni déplacer, et &caucun lit ni ancre&r de réapparition à moins de 50 blocs.
+Le diplomate tape &b!trophee poser <x> <y> <z>&r dans le salon stratégie. Le bot vérifie le placement : &lhors claim&r, à moins de &b50 blocs&r du bord du claim, atteignable sans rien casser ni déplacer, et &caucun lit ni ancre&r de réapparition à moins de 50 blocs.
 
-Rendre son trophée inatteignable ne coûte pas moins cher que de perdre : le raid est compté perdu.
+Rendre son trophée inatteignable ne coûte pas moins cher que de perdre : le raid est compté perdu.
 """
 
 [[quete]]
@@ -56,9 +56,9 @@ deps = ["poser"]
 taches = ["checkmark Défense construite"]
 recompenses = ["xp 5"]
 description = """
-La défense se construit, elle ne se campe pas : labyrinthe, chutes, eau, créatures, portes à séquence. Le chapitre &bSecurityCraft&r donne les outils — portes à clavier, lasers, pièges — et c'est exactement là qu'ils servent, puisque le trophée est hors claim.
+La défense se construit, elle ne se campe pas : labyrinthe, chutes, eau, créatures, portes à séquence. Le chapitre &bSecurityCraft&r donne les outils — portes à clavier, lasers, pièges — et c'est exactement là qu'ils servent, puisque le trophée est hors claim.
 
-La seule contrainte : qu'un attaquant puisse arriver au trophée sans casser ni déplacer un bloc.
+La seule contrainte : qu'un attaquant puisse arriver au trophée sans casser ni déplacer un bloc.
 """
 
 [[quete]]
@@ -81,7 +81,7 @@ exigence = "une"
 taches = ["checkmark J'ai combattu"]
 recompenses = ["xp 5"]
 description = """
-Pendant le créneau, PvP libre entre les deux factions, partout. Le bot inscrit les combattants dans une équipe et le serveur arbitre tout seul : chaque mort coûte &lcinq minutes en spectateur&r, attaquant comme défenseur. Personne ne gagne par usure.
+Pendant le créneau, PvP libre entre les deux factions, partout. Le bot inscrit les combattants dans une équipe et le serveur arbitre tout seul : chaque mort coûte &lcinq minutes en spectateur&r, attaquant comme défenseur. Personne ne gagne par usure.
 """
 
 [[quete]]
@@ -95,7 +95,7 @@ recompenses = ["xp 3"]
 description = """
 Pendant le créneau, pour les &lmembres des deux factions engagées&r et eux seuls, chaque mort retire aussi &cun cœur de vie maximale&r, jusqu'à un plancher de trois. Les cinq minutes punissent pendant, le cœur perdu punit ensuite — la perte survit au raid. Un joueur étranger au raid ne risque rien.
 
-Elle se récupère en mangeant un &6repas de Farmer's Delight&r — ragoût, soupe, riz, curry, salade, hachis : les plats servis en bol ou en assiette — ou une &bPierre de Soin&r de l'Aether, un cœur par objet, à tout moment. Un steak ou un pain ne rendent rien.
+Elle se récupère en mangeant un &6repas de Farmer's Delight&r — ragoût, soupe, riz, curry, salade, hachis : les plats servis en bol ou en assiette — ou une &bPierre de Soin&r de l'Aether, un cœur par objet, à tout moment. Un steak ou un pain ne rendent rien.
 """
 
 [[quete]]
@@ -108,7 +108,7 @@ icone = "minecraft:golden_apple"
 taches = ["checkmark Raid gagné"]
 recompenses = ["xp 10"]
 description = """
-Prendre le trophée adverse, c'est : &ldeux chunks&r à choisir sur son territoire, le rôle &6🏆 Vainqueur&r pendant sept jours, le plafond de chunks relevé pendant quatorze jours, et &b!raid butin&r pour choisir un tome ancien et une race d'œuf de dragon.
+Prendre le trophée adverse, c'est : &ldeux chunks&r à choisir sur son territoire, le rôle &6🏆 Vainqueur&r pendant sept jours, le plafond de chunks relevé pendant quatorze jours, et &b!raid butin&r pour choisir un tome ancien et une race d'œuf de dragon.
 
 Le trophée pris revient chez lui après 24 h.
 """

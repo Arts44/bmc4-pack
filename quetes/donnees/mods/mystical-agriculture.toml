@@ -18,7 +18,7 @@ icone = "mysticalagriculture:inferium_seeds"
 taches = ["checkmark Lu"]
 recompenses = ["item mysticalagriculture:mystical_fertilizer 4", "item minecraft:bone_meal 16"]
 description = """
-&aMystical Agriculture&r fait pousser le fer, le diamant, la nétherite : une graine par ressource, et des champs qui remplacent la mine. Tout part de deux minerais, la &dprospérité&r et l'&ainferium&r, et de cinq paliers d'essence qui se fabriquent les uns à partir des autres.
+&aMystical Agriculture&r fait pousser le fer, le diamant, la nétherite : une graine par ressource, et des champs qui remplacent la mine. Tout part de deux minerais, la &dprospérité&r et l'&ainferium&r, et de cinq paliers d'essence qui se fabriquent les uns à partir des autres.
 
 L'engrais mystique offert fait pousser n'importe quelle culture d'un coup. Garde-le pour les premières graines d'essence.
 """
@@ -30,7 +30,7 @@ deps = ["intro"]
 taches = ["item mysticalagriculture:prosperity_shard 16"]
 recompenses = ["xp 3"]
 description = """
-Le &dminerai de prospérité&r se mine dans la pierre et donne des éclats. Ils entrent dans la base de graine, le cristal d'infusion et les lingots de prospérité : c'est la monnaie du mod.
+Le &dminerai de prospérité&r se mine dans la pierre et donne des éclats. Ils entrent dans la base de graine, le cristal d'infusion et les lingots de prospérité : c'est la monnaie du mod.
 """
 
 [[quete]]
@@ -40,7 +40,7 @@ deps = ["intro"]
 taches = ["item mysticalagriculture:inferium_essence 16"]
 recompenses = ["xp 3"]
 description = """
-Le &aminerai d'inferium&r se mine comme le charbon. Son essence est le premier palier : tout ce qui suit en consomme, et les champs d'inferium en produiront bien plus que la mine.
+Le &aminerai d'inferium&r se mine comme le charbon. Son essence est le premier palier : tout ce qui suit en consomme, et les champs d'inferium en produiront bien plus que la mine.
 """
 
 [[quete]]
@@ -51,7 +51,7 @@ taille = 1.3
 taches = ["item mysticalagriculture:inferium_seeds 4"]
 recompenses = ["xp 5"]
 description = """
-Huit essences d'inferium autour de graines de blé. Plantées, elles donnent de l'inferium à chaque récolte et se replantent : c'est la première culture qui rapporte, et la seule qui se fabrique sans autel.
+Huit essences d'inferium autour de graines de blé. Plantées, elles donnent de l'inferium à chaque récolte et se replantent : c'est la première culture qui rapporte, et la seule qui se fabrique sans autel.
 """
 
 [[quete]]
@@ -61,7 +61,7 @@ deps = ["graines_inferium"]
 taches = ["item mysticalagriculture:inferium_farmland 8"]
 recompenses = ["xp 3"]
 description = """
-Une essence d'inferium et une terre labourée, à la table ou d'un clic droit sur le champ. La &aterre d'inferium&r fait pousser plus vite ; chaque palier d'essence a la sienne, plus rapide encore.
+Une essence d'inferium et une terre labourée, à la table ou d'un clic droit sur le champ. La &aterre d'inferium&r fait pousser plus vite ; chaque palier d'essence a la sienne, plus rapide encore.
 """
 
 [[quete]]
@@ -71,7 +71,7 @@ deps = ["prosperite", "inferium"]
 taches = ["item mysticalagriculture:infusion_crystal"]
 recompenses = ["xp 5"]
 description = """
-Un diamant au centre, quatre éclats de prospérité et quatre essences d'inferium. Le &bcristal d'infusion&r est l'outil qui fait monter l'essence de palier ; il s'use, et le cristal maître, en supremium, ne s'use plus.
+Un diamant au centre, quatre éclats de prospérité et quatre essences d'inferium. Le &bcristal d'infusion&r est l'outil qui fait monter l'essence de palier ; il s'use, et le cristal maître, en supremium, ne s'use plus.
 """
 
 [[quete]]
@@ -81,7 +81,7 @@ deps = ["cristal"]
 taches = ["item mysticalagriculture:prudentium_essence 8"]
 recompenses = ["xp 5"]
 description = """
-Quatre essences d'inferium autour du cristal d'infusion : une essence de &2prudentium&r. C'est la règle de tous les paliers : quatre du palier d'avant, et le cristal.
+Quatre essences d'inferium autour du cristal d'infusion : une essence de &2prudentium&r. C'est la règle de tous les paliers : quatre du palier d'avant, et le cristal.
 """
 
 [[quete]]
@@ -91,7 +91,7 @@ deps = ["prudentium"]
 taches = ["item mysticalagriculture:tertium_essence 8"]
 recompenses = ["xp 5"]
 description = """
-Quatre prudentium et le cristal. Le &6tertium&r ouvre les cultures du milieu : or, redstone, et les premiers outils sérieux.
+Quatre prudentium et le cristal. Le &6tertium&r ouvre les cultures du milieu : or, redstone, et les premiers outils sérieux.
 """
 
 [[quete]]
@@ -112,7 +112,7 @@ taille = 1.3
 taches = ["item mysticalagriculture:supremium_essence 8"]
 recompenses = ["xp 8"]
 description = """
-Quatre imperium et le cristal. Le &csupremium&r est le dernier palier ordinaire : nétherite, outils et armure de supremium, cristal maître. Au-delà, il y a l'éveil.
+Quatre imperium et le cristal. Le &csupremium&r est le dernier palier ordinaire : nétherite, outils et armure de supremium, cristal maître. Au-delà, il y a l'éveil.
 """
 
 [[quete]]
@@ -123,7 +123,7 @@ taille = 1.3
 taches = ["item mysticalagriculture:infusion_altar", "item mysticalagriculture:infusion_pedestal 8"]
 recompenses = ["xp 8"]
 description = """
-Lingots d'or, laine rouge et pierre : un &bautel&r et huit &bpiédestaux&r, de la même recette moins une pierre. Posés en cercle autour de l'autel, ils reçoivent les ingrédients ; un clic sur l'autel lance l'infusion. C'est là que naissent toutes les graines de ressources.
+Lingots d'or, laine rouge et pierre : un &bautel&r et huit &bpiédestaux&r, de la même recette moins une pierre. Posés en cercle autour de l'autel, ils reçoivent les ingrédients ; un clic sur l'autel lance l'infusion. C'est là que naissent toutes les graines de ressources.
 """
 
 [[quete]]
@@ -133,7 +133,7 @@ deps = ["prosperite"]
 taches = ["item mysticalagriculture:prosperity_seed_base 4"]
 recompenses = ["xp 3"]
 description = """
-Quatre éclats de prospérité autour de graines de blé. La &dbase de graine&r va au centre de l'autel : les piédestaux autour reçoivent l'essence du palier et le matériau à cultiver, en alternance.
+Quatre éclats de prospérité autour de graines de blé. La &dbase de graine&r va au centre de l'autel : les piédestaux autour reçoivent l'essence du palier et le matériau à cultiver, en alternance.
 """
 
 [[quete]]
@@ -143,7 +143,7 @@ deps = ["autel", "base", "graines_inferium"]
 taches = ["item mysticalagriculture:wood_seeds"]
 recompenses = ["xp 5"]
 description = """
-Première infusion : la base de graine, de l'essence d'inferium et du bois sur les piédestaux. Les &agraines de bois&r sont du premier palier, comme la terre et la pierre.
+Première infusion : la base de graine, de l'essence d'inferium et du bois sur les piédestaux. Les &agraines de bois&r sont du premier palier, comme la terre et la pierre.
 """
 
 [[quete]]
@@ -163,7 +163,7 @@ deps = ["bois", "prudentium"]
 taches = ["item mysticalagriculture:iron_seeds"]
 recompenses = ["xp 5"]
 description = """
-Le fer est du deuxième palier : essence de &2prudentium&r et lingots de fer sur les piédestaux. Un champ de fer est la fin de la mine de fer.
+Le fer est du deuxième palier : essence de &2prudentium&r et lingots de fer sur les piédestaux. Un champ de fer est la fin de la mine de fer.
 """
 
 [[quete]]
@@ -173,7 +173,7 @@ deps = ["fer", "tertium"]
 taches = ["item mysticalagriculture:gold_seeds"]
 recompenses = ["xp 5"]
 description = """
-Troisième palier : &6tertium&r et lingots d'or.
+Troisième palier : &6tertium&r et lingots d'or.
 """
 
 [[quete]]
@@ -183,7 +183,7 @@ deps = ["or", "imperium"]
 taches = ["item mysticalagriculture:diamond_seeds"]
 recompenses = ["xp 8"]
 description = """
-Quatrième palier : &bimperium&r et diamants. Le champ paiera les diamants mis à l'infusion, puis tous les suivants.
+Quatrième palier : &bimperium&r et diamants. Le champ paiera les diamants mis à l'infusion, puis tous les suivants.
 """
 
 [[quete]]
@@ -195,7 +195,7 @@ forme = "diamond"
 taches = ["item mysticalagriculture:netherite_seeds"]
 recompenses = ["xp 10"]
 description = """
-Cinquième palier : &csupremium&r et lingots de nétherite, en alternance sur les piédestaux. Ce que le Nether rendait au compte-gouttes pousse dans un champ. La nétherite ne se donne pas en quête sur ce serveur ; ici, elle se cultive.
+Cinquième palier : &csupremium&r et lingots de nétherite, en alternance sur les piédestaux. Ce que le Nether rendait au compte-gouttes pousse dans un champ. La nétherite ne se donne pas en quête sur ce serveur ; ici, elle se cultive.
 """
 
 [[quete]]
@@ -205,7 +205,7 @@ deps = ["graines_inferium"]
 taches = ["item mysticalagriculture:inferium_growth_accelerator 3"]
 recompenses = ["xp 3"]
 description = """
-Quatre essences d'inferium, quatre pierres, une gemme d'inferium au centre : trois &aaccélérateurs&r. Posés sous la terre d'essence, ils font pousser plus vite ; empilés, ils s'additionnent. Chaque palier a le sien.
+Quatre essences d'inferium, quatre pierres, une gemme d'inferium au centre : trois &aaccélérateurs&r. Posés sous la terre d'essence, ils font pousser plus vite ; empilés, ils s'additionnent. Chaque palier a le sien.
 """
 
 [[quete]]
@@ -225,7 +225,7 @@ deps = ["autel"]
 taches = ["item mysticalagriculture:air_seeds", "item mysticalagriculture:earth_seeds", "item mysticalagriculture:water_seeds", "item mysticalagriculture:fire_seeds"]
 recompenses = ["xp 5"]
 description = """
-Air, terre, eau, feu : quatre cultures à part, infusées avec des &dagglomérats&r (une bouteille, du gravier, de la terre, de l'argile pour l'air). Leur essence ne sert qu'à une chose : l'éveil du supremium.
+Air, terre, eau, feu : quatre cultures à part, infusées avec des &dagglomérats&r (une bouteille, du gravier, de la terre, de l'argile pour l'air). Leur essence ne sert qu'à une chose : l'éveil du supremium.
 """
 
 [[quete]]
@@ -248,7 +248,7 @@ forme = "diamond"
 taches = ["item mysticalagriculture:awakened_supremium_essence 9"]
 recompenses = ["xp 10"]
 description = """
-Un bloc éveillé se défait en neuf essences de &csupremium éveillé&r. C'est le sommet du mod : outils, armure, et la &lhoue éveillée&r qui ne s'use pas — celle que demande le pylône de récolte.
+Un bloc éveillé se défait en neuf essences de &csupremium éveillé&r. C'est le sommet du mod : outils, armure, et la &lhoue éveillée&r qui ne s'use pas — celle que demande le pylône de récolte.
 """
 
 [[quete]]

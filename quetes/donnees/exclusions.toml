@@ -30,10 +30,10 @@
 # generateIceologerCabinStructure = false. La seule structure qui le pose
 # (iceologer_cabin/entity/iceologer.nbt) est donc désactivée ; Bad Mobs
 # (badmobs-common.toml) coupe aussi son apparition naturelle.
-"friendsandfoes:iceologer" = "Friends & Foes : créature, apparition, raids et cabane désactivés dans friendsandfoes.json du serveur"
+"friendsandfoes:iceologer" = "Friends & Foes : créature, apparition, raids et cabane désactivés dans friendsandfoes.json du serveur"
 # alexsmobs.toml serveur : voidWormSpawnWeight = 0 ; aucune structure ne le
 # pose (scan NBT) ; seul l'objet « ver mystérieux » l'invoque, et
 # voidWormSpawnDimensions = ["minecraft:the_end"] : à revoir au chapitre de l'End.
-"alexsmobs:void_worm" = "alexsmobs.toml : poids d'apparition 0 ; invocation réservée à l'End"
+"alexsmobs:void_worm" = "alexsmobs.toml : poids d'apparition 0 ; invocation réservée à l'End"
 # Entité d'exemple de GeckoLib : aucune donnée d'apparition, aucune structure, aucun objet.
 "geckolib:mutant_zombie" = "entité d'exemple de GeckoLib"

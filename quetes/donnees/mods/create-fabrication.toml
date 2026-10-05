@@ -10,14 +10,14 @@ ordre = 1
 
 [[quete]]
 cle = "intro"
-titre = "&bCreate : le laiton et la précision"
-sous_titre = "Après les bases : #create sur le Discord."
+titre = "&bCreate : le laiton et la précision"
+sous_titre = "Après les bases : #create sur le Discord."
 taille = 1.5
 icone = "create:brass_ingot"
 taches = ["checkmark Lu"]
 recompenses = ["item create:zinc_ingot 8", "item minecraft:copper_ingot 8"]
 description = """
-Les bases tournaient à l'andésite. La suite tourne au &6laiton&r : un alliage de cuivre et de zinc qui ne se fait qu'au mélangeur chauffé, et qui ouvre les machines qui pensent un peu — le bras mécanique, le déployeur, les établis mécaniques.
+Les bases tournaient à l'andésite. La suite tourne au &6laiton&r : un alliage de cuivre et de zinc qui ne se fait qu'au mélangeur chauffé, et qui ouvre les machines qui pensent un peu — le bras mécanique, le déployeur, les établis mécaniques.
 
 Le zinc et le cuivre offerts font les premiers lingots de laiton. Le brûleur à Blaze, lui, demandera un voyage au Nether.
 """
@@ -29,7 +29,7 @@ deps = ["intro"]
 taches = ["item create:empty_blaze_burner"]
 recompenses = ["xp 3"]
 description = """
-Quatre plaques de fer autour d'un bloc de netherrack. Vide, il ne chauffe rien : il faut lui donner un &cBlaze&r. Clic droit sur un Blaze vivant avec le brûleur vide, dans une forteresse du Nether, et le Blaze y reste.
+Quatre plaques de fer autour d'un bloc de netherrack. Vide, il ne chauffe rien : il faut lui donner un &cBlaze&r. Clic droit sur un Blaze vivant avec le brûleur vide, dans une forteresse du Nether, et le Blaze y reste.
 """
 
 [[quete]]
@@ -40,7 +40,7 @@ taille = 1.3
 taches = ["item create:blaze_burner"]
 recompenses = ["xp 8"]
 description = """
-Un &cbrûleur à Blaze&r habité chauffe le bassin posé dessus : c'est lui qui rend possible le laiton, et plus tard le moteur à vapeur. Il se nourrit de combustible ordinaire ; nourri d'un gâteau de Blaze, il surchauffe, et certaines recettes l'exigent.
+Un &cbrûleur à Blaze&r habité chauffe le bassin posé dessus : c'est lui qui rend possible le laiton, et plus tard le moteur à vapeur. Il se nourrit de combustible ordinaire ; nourri d'un gâteau de Blaze, il surchauffe, et certaines recettes l'exigent.
 """
 
 [[quete]]
@@ -51,7 +51,7 @@ taille = 1.3
 taches = ["item create:brass_ingot 8"]
 recompenses = ["xp 8"]
 description = """
-Dans un bassin chauffé par un brûleur, le mélangeur combine un lingot de cuivre et un lingot de zinc en &6deux lingots de laiton&r. Pas de laiton sans chaleur : le mélangeur seul ne suffit pas.
+Dans un bassin chauffé par un brûleur, le mélangeur combine un lingot de cuivre et un lingot de zinc en &6deux lingots de laiton&r. Pas de laiton sans chaleur : le mélangeur seul ne suffit pas.
 
 Le laiton fait les plaques, les boîtiers et les mains de laiton de tout ce chapitre.
 """
@@ -63,7 +63,7 @@ deps = ["laiton"]
 taches = ["item create:brass_casing 4"]
 recompenses = ["xp 3"]
 description = """
-Comme le boîtier d'andésite, mais au laiton : frapper une bûche écorcée avec un lingot de laiton. Le régulateur de vitesse, le bras et les établis mécaniques en demandent.
+Comme le boîtier d'andésite, mais au laiton : frapper une bûche écorcée avec un lingot de laiton. Le régulateur de vitesse, le bras et les établis mécaniques en demandent.
 """
 
 [[quete]]
@@ -83,7 +83,7 @@ deps = ["quartz_rose"]
 taches = ["item create:electron_tube 4"]
 recompenses = ["xp 3"]
 description = """
-Un quartz rose poli sur une plaque de fer : un &btube électronique&r. Le déployeur, les établis mécaniques et la liaison redstone en ont besoin.
+Un quartz rose poli sur une plaque de fer : un &btube électronique&r. Le déployeur, les établis mécaniques et la liaison redstone en ont besoin.
 """
 
 [[quete]]
@@ -94,7 +94,7 @@ taille = 1.3
 taches = ["item create:deployer"]
 recompenses = ["xp 8"]
 description = """
-Tube électronique, boîtier d'andésite et main de laiton. Le &bdéployeur&r fait un clic droit à ta place, en boucle, avec l'objet qu'on lui donne : il plante, récolte, polit le quartz, et c'est lui qui assemble le mécanisme de précision.
+Tube électronique, boîtier d'andésite et main de laiton. Le &bdéployeur&r fait un clic droit à ta place, en boucle, avec l'objet qu'on lui donne : il plante, récolte, polit le quartz, et c'est lui qui assemble le mécanisme de précision.
 """
 
 [[quete]]
@@ -106,7 +106,7 @@ forme = "diamond"
 taches = ["item create:precision_mechanism"]
 recompenses = ["xp 10"]
 description = """
-Le premier &lassemblage séquencé&r. Une plaque d'or part sur une courroie, et &l5 fois&r de suite elle passe sous un déployeur qui pose un engrenage, puis un grand engrenage, puis une pépite de fer. Au bout, un &bmécanisme de précision&r — ou, parfois, un rebut : plaque d'or, alliage, engrenage, pépite. La recette l'assume.
+Le premier &lassemblage séquencé&r. Une plaque d'or part sur une courroie, et &l5 fois&r de suite elle passe sous un déployeur qui pose un engrenage, puis un grand engrenage, puis une pépite de fer. Au bout, un &bmécanisme de précision&r — ou, parfois, un rebut : plaque d'or, alliage, engrenage, pépite. La recette l'assume.
 
 Ce mécanisme ouvre le régulateur de vitesse, le bras mécanique et les trains.
 """
@@ -128,7 +128,7 @@ deps = ["laiton"]
 taches = ["item create:speedometer", "item create:stressometer"]
 recompenses = ["xp 3"]
 description = """
-Le &7compteur de vitesse&r affiche la rotation d'un réseau, le &7stressomètre&r la part de contrainte utilisée. Avec les lunettes, on lit les deux en les regardant. Un réseau à plus de 100 % s'arrête net : le stressomètre le dit avant.
+Le &7compteur de vitesse&r affiche la rotation d'un réseau, le &7stressomètre&r la part de contrainte utilisée. Avec les lunettes, on lit les deux en les regardant. Un réseau à plus de 100 % s'arrête net : le stressomètre le dit avant.
 """
 
 [[quete]]
@@ -139,7 +139,7 @@ taille = 1.3
 taches = ["item create:mechanical_arm"]
 recompenses = ["xp 8"]
 description = """
-Plaques de laiton, alliage, mécanisme de précision, boîtier de laiton. Le &bbras mécanique&r prend des objets à des points d'entrée et les dépose à des points de sortie qu'on lui désigne avec le bras en main avant de le poser : dépôts, courroies, bassins, brûleurs. C'est le premier bloc qui remplace un entonnoir et une courroie à la fois.
+Plaques de laiton, alliage, mécanisme de précision, boîtier de laiton. Le &bbras mécanique&r prend des objets à des points d'entrée et les dépose à des points de sortie qu'on lui désigne avec le bras en main avant de le poser : dépôts, courroies, bassins, brûleurs. C'est le premier bloc qui remplace un entonnoir et une courroie à la fois.
 """
 
 [[quete]]
@@ -149,7 +149,7 @@ deps = ["tube", "boitier_laiton"]
 taches = ["item create:mechanical_crafter 9"]
 recompenses = ["xp 5"]
 description = """
-Tube électronique, boîtier de laiton, table d'artisanat : trois &bétablis mécaniques&r par recette. Posés en grille et reliés par des engrenages, ils fabriquent une recette à la fois, chaque case étant alimentée par un entonnoir ou un bras. Neuf établis font une grille complète.
+Tube électronique, boîtier de laiton, table d'artisanat : trois &bétablis mécaniques&r par recette. Posés en grille et reliés par des engrenages, ils fabriquent une recette à la fois, chaque case étant alimentée par un entonnoir ou un bras. Neuf établis font une grille complète.
 """
 
 [[quete]]
@@ -169,7 +169,7 @@ deps = ["intro"]
 taches = ["item create:mechanical_drill"]
 recompenses = ["xp 5"]
 description = """
-Alliage, lingot de fer, boîtier d'andésite. La &bforeuse&r casse le bloc devant elle, en continu. Sur un piston ou un portique, elle creuse un tunnel ; sur un roulement, elle creuse un puits.
+Alliage, lingot de fer, boîtier d'andésite. La &bforeuse&r casse le bloc devant elle, en continu. Sur un piston ou un portique, elle creuse un tunnel ; sur un roulement, elle creuse un puits.
 """
 
 [[quete]]
@@ -189,7 +189,7 @@ deps = ["intro"]
 taches = ["item create:mechanical_bearing"]
 recompenses = ["xp 5"]
 description = """
-Dalle de bois, boîtier d'andésite, arbre. Le &broulement&r fait tourner la contraption posée dessus : une porte qui pivote, une moissonneuse circulaire, un moulin décoratif.
+Dalle de bois, boîtier d'andésite, arbre. Le &broulement&r fait tourner la contraption posée dessus : une porte qui pivote, une moissonneuse circulaire, un moulin décoratif.
 """
 
 [[quete]]
@@ -199,7 +199,7 @@ deps = ["piston"]
 taches = ["item create:gantry_shaft 8", "item create:gantry_carriage"]
 recompenses = ["xp 5"]
 description = """
-Les &7arbres de portique&r (alliage, redstone, alliage : huit d'un coup) forment un rail ; le &7chariot de portique&r roule dessus et emporte sa contraption. Plus long qu'un piston, et sans tiges à empiler.
+Les &7arbres de portique&r (alliage, redstone, alliage : huit d'un coup) forment un rail ; le &7chariot de portique&r roule dessus et emporte sa contraption. Plus long qu'un piston, et sans tiges à empiler.
 """
 
 [[quete]]
@@ -210,7 +210,7 @@ exigence = "une"
 taches = ["item create:super_glue"]
 recompenses = ["xp 3"]
 description = """
-La &esuper colle&r définit ce qu'une contraption emporte : clic sur deux coins, tout le volume entre les deux est collé. Sans elle, un piston ne pousse que les blocs directement attachés.
+La &esuper colle&r définit ce qu'une contraption emporte : clic sur deux coins, tout le volume entre les deux est collé. Sans elle, un piston ne pousse que les blocs directement attachés.
 """
 
 [[quete]]
@@ -220,7 +220,7 @@ deps = ["intro"]
 taches = ["item create:mechanical_pump", "item create:fluid_pipe 8", "item create:fluid_tank"]
 recompenses = ["xp 5"]
 description = """
-La &bpompe&r (un engrenage et un tuyau) pousse les liquides dans les &7tuyaux&r ; la &7cuve&r (deux plaques de cuivre autour d'un tonneau) les stocke, et plusieurs cuves côte à côte n'en font qu'une. C'est la plomberie dont la vapeur aura besoin.
+La &bpompe&r (un engrenage et un tuyau) pousse les liquides dans les &7tuyaux&r ; la &7cuve&r (deux plaques de cuivre autour d'un tonneau) les stocke, et plusieurs cuves côte à côte n'en font qu'une. C'est la plomberie dont la vapeur aura besoin.
 """
 
 [[quete]]
@@ -232,7 +232,7 @@ forme = "diamond"
 taches = ["item create:steam_engine"]
 recompenses = ["xp 10"]
 description = """
-Plaque d'or, alliage, bloc de cuivre. Le &bmoteur à vapeur&r se monte sur une cuve remplie d'eau et chauffée par des brûleurs à Blaze : la cuve devient une chaudière, et chaque moteur sort une rotation forte. C'est la source d'énergie des grandes usines, bien au-delà de la roue et du moulin.
+Plaque d'or, alliage, bloc de cuivre. Le &bmoteur à vapeur&r se monte sur une cuve remplie d'eau et chauffée par des brûleurs à Blaze : la cuve devient une chaudière, et chaque moteur sort une rotation forte. C'est la source d'énergie des grandes usines, bien au-delà de la roue et du moulin.
 """
 
 [[quete]]
@@ -242,7 +242,7 @@ deps = ["bruleur"]
 taches = ["item create:blaze_cake"]
 recompenses = ["xp 3"]
 description = """
-Œuf, sucre et farine de cendre compactés dans un bassin donnent la base du gâteau ; remplie de lave, elle devient un &6gâteau de Blaze&r. Donné à un brûleur, il le fait &lsurchauffer&r le temps d'une recette qui l'exige.
+Œuf, sucre et farine de cendre compactés dans un bassin donnent la base du gâteau ; remplie de lave, elle devient un &6gâteau de Blaze&r. Donné à un brûleur, il le fait &lsurchauffer&r le temps d'une recette qui l'exige.
 """
 
 [[quete]]
@@ -252,7 +252,7 @@ deps = ["laiton"]
 taches = ["item create:schematic_table", "item create:schematicannon"]
 recompenses = ["xp 5"]
 description = """
-La &7table à schémas&r charge un plan de construction ; le &7Schematicannon&r le bâtit bloc par bloc, à partir de ce qu'on met dans l'inventaire à côté de lui. On copie une base, on la reconstruit ailleurs.
+La &7table à schémas&r charge un plan de construction ; le &7Schematicannon&r le bâtit bloc par bloc, à partir de ce qu'on met dans l'inventaire à côté de lui. On copie une base, on la reconstruit ailleurs.
 """
 
 [[quete]]

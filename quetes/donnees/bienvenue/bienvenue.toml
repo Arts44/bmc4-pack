@@ -23,12 +23,12 @@ titre = "&eBienvenue sur BMC4"
 sous_titre = "Clique sur la quête, lis, coche."
 taille = 1.5
 icone = "ftbquests:book"
-taches = ["checkmark Lu !"]
+taches = ["checkmark Lu !"]
 recompenses = ["xp 2"]
 description = """
-Tu es au &6Marché Flottant&r, le centre neutre du serveur. BMC4 est un serveur en &cfactions&r : deux camps, Apex et Farmer's, des indépendants, des raids déclarés à l'avance et un trophée à défendre.
+Tu es au &6Marché Flottant&r, le centre neutre du serveur. BMC4 est un serveur en &cfactions&r : deux camps, Apex et Farmer's, des indépendants, des raids déclarés à l'avance et un trophée à défendre.
 
-Ce livre te guide : d'abord les premiers pas ici, puis le monde, les mods, la vie de faction. Tout ce qui ne se passe pas en jeu vit sur le &9Discord&r du serveur.
+Ce livre te guide : d'abord les premiers pas ici, puis le monde, les mods, la vie de faction. Tout ce qui ne se passe pas en jeu vit sur le &9Discord&r du serveur.
 
 Chaque quête se valide dans l'onglet &9Tâches&r, puis on réclame la &6Récompense&r.
 """
@@ -41,7 +41,7 @@ deps = ["bienvenue"]
 taches = ["observation block waystones:waystone"]
 recompenses = ["item waystones:return_scroll 1"]
 description = """
-Regarde la &bwaystone&r du Marché pour l'activer. Une waystone activée reste accessible &là vie&r : d'où que tu sois, tu pourras revenir ici.
+Regarde la &bwaystone&r du Marché pour l'activer. Une waystone activée reste accessible &là vie&r : d'où que tu sois, tu pourras revenir ici.
 
 Le parchemin de retour offert te ramène à la dernière waystone activée, une fois. Garde-le pour une mauvaise surprise loin de chez toi.
 """
@@ -53,9 +53,9 @@ deps = ["bienvenue"]
 taches = ["checkmark Lu et compris"]
 recompenses = ["xp 2"]
 description = """
-Le règlement complet est dans &9#règles&r sur le Discord. L'essentiel : pas de griefing hors raid déclaré, pas de triche, et une seule &azone neutre&r : le &6Marché Flottant&r, où tu apparais.
+Le règlement complet est dans &9#règles&r sur le Discord. L'essentiel : pas de griefing hors raid déclaré, pas de triche, et une seule &azone neutre&r : le &6Marché Flottant&r, où tu apparais.
 
-Depuis le 5 octobre, le Marché est un claim du serveur, 49 chunks autour du point d'apparition : on n'y casse ni ne pose rien, le &lPvP y est coupé&r, les explosions sont bloquées. Les waystones, portes, coffres et barils y restent utilisables par tous. Partout ailleurs hors claim, le PvP est libre — avec trois minutes et cent blocs de répit après une mort.
+Depuis le 5 octobre, le Marché est un claim du serveur, 49 chunks autour du point d'apparition : on n'y casse ni ne pose rien, le &lPvP y est coupé&r, les explosions sont bloquées. Les waystones, portes, coffres et barils y restent utilisables par tous. Partout ailleurs hors claim, le PvP est libre — avec trois minutes et cent blocs de répit après une mort.
 """
 
 [[quete]]
@@ -66,7 +66,7 @@ icone = "minecraft:writable_book"
 taches = ["checkmark Compte lié"]
 recompenses = ["xp 3"]
 description = """
-Tape &b/discord link&r en jeu : tu reçois un code à envoyer au bot sur le Discord. Une fois lié, ton pseudo apparaît dans &9#chat-ingame&r, tes faits d'armes sont publiés à ton nom et les commandes de faction te reconnaissent.
+Tape &b/discord link&r en jeu : tu reçois un code à envoyer au bot sur le Discord. Une fois lié, ton pseudo apparaît dans &9#chat-ingame&r, tes faits d'armes sont publiés à ton nom et les commandes de faction te reconnaissent.
 
 Sans ce lien, le bot ne sait pas qui tu es.
 """
@@ -79,9 +79,9 @@ icone = "minecraft:note_block"
 taches = ["checkmark Micro réglé"]
 recompenses = ["xp 3"]
 description = """
-Le serveur a un vocal de proximité : on s'entend jusqu'à &b48 blocs&r, 24 en chuchotant. La touche &bV&r ouvre son menu : choix du micro, de la sortie son, et de la touche pour parler.
+Le serveur a un vocal de proximité : on s'entend jusqu'à &b48 blocs&r, 24 en chuchotant. La touche &bV&r ouvre son menu : choix du micro, de la sortie son, et de la touche pour parler.
 
-Par défaut on parle en maintenant une touche. Si l'icône en bas à gauche montre une prise barrée, le vocal n'est pas connecté : dis-le dans &9#général&r.
+Par défaut on parle en maintenant une touche. Si l'icône en bas à gauche montre une prise barrée, le vocal n'est pas connecté : dis-le dans &9#général&r.
 """
 
 [[quete]]
@@ -95,7 +95,7 @@ recompenses = ["xp 2"]
 description = """
 Tu arrives avec un &asac élimé&r (Inmis). Il s'ouvre d'un clic droit et se porte dans la main ou dans l'inventaire.
 
-Les sacs ont des paliers : élimé, plaqué, doré, orné de gemmes, ardent, flétri, puis sans fin. Chaque palier ajoute des cases. Le suivant, le &asac plaqué&r, est une quête plus loin.
+Les sacs ont des paliers : élimé, plaqué, doré, orné de gemmes, ardent, flétri, puis sans fin. Chaque palier ajoute des cases. Le suivant, le &asac plaqué&r, est une quête plus loin.
 """
 
 [[quete]]
@@ -106,7 +106,7 @@ icone = "minecraft:white_banner"
 taches = ["checkmark Camp choisi"]
 recompenses = ["xp 2"]
 description = """
-Trois chemins : rejoindre &cApex&r, rejoindre &aFarmer's&r, ou rester &7indépendant&r. On peut aussi fonder sa propre faction en le demandant dans &9#diplomatie&r.
+Trois chemins : rejoindre &cApex&r, rejoindre &aFarmer's&r, ou rester &7indépendant&r. On peut aussi fonder sa propre faction en le demandant dans &9#diplomatie&r.
 
 Une faction partage ses claims, son salon privé, sa stratégie et ses quêtes. Un indépendant joue seul, mais le Marché, seule zone neutre, est à lui autant qu'aux autres.
 """
@@ -120,7 +120,7 @@ recompenses = ["item minecraft:torch 8"]
 description = """
 Seize bûches, de n'importe quel arbre. Sur ce serveur, casser une bûche abat &ltout l'arbre&r d'un coup, avec n'importe quel outil. Accroupi, on ne casse qu'un bloc.
 
-Il y a bien plus d'essences que dans le jeu de base : chaque bois donne ses planches, ses portes, ses meubles.
+Il y a bien plus d'essences que dans le jeu de base : chaque bois donne ses planches, ses portes, ses meubles.
 """
 
 [[quete]]
@@ -140,7 +140,7 @@ deps = ["kit"]
 taches = ["item minecraft:iron_ingot"]
 recompenses = ["item minecraft:bucket 1"]
 description = """
-Le fer ouvre les outils, le seau, le bouclier. Les minerais sont plus variés qu'en vanilla : garde les minerais bruts, le mod &bCreate&r saura les concasser pour en tirer davantage.
+Le fer ouvre les outils, le seau, le bouclier. Les minerais sont plus variés qu'en vanilla : garde les minerais bruts, le mod &bCreate&r saura les concasser pour en tirer davantage.
 """
 
 [[quete]]
@@ -151,9 +151,9 @@ exigence = "une"
 taches = ["tag minecraft:beds 1 Un lit"]
 recompenses = ["xp 3"]
 description = """
-Un lit fixe ton point de réapparition. Attention en raid : un lit à moins de 50 blocs d'un trophée est interdit par le règlement.
+Un lit fixe ton point de réapparition. Attention en raid : un lit à moins de 50 blocs d'un trophée est interdit par le règlement.
 
-Pose-le dans un endroit fermé : les nuits sont peuplées, et pas seulement de zombies.
+Pose-le dans un endroit fermé : les nuits sont peuplées, et pas seulement de zombies.
 """
 
 [[quete]]
@@ -164,9 +164,9 @@ icone = "minecraft:filled_map"
 taches = ["checkmark Claim posé"]
 recompenses = ["table debutant"]
 description = """
-Touche &bM&r : la carte. En haut, le bouton de claim de &bFTB Chunks&r. Clique sur les chunks à protéger : &l40 chunks par équipe&r, quel que soit le nombre de membres.
+Touche &bM&r : la carte. En haut, le bouton de claim de &bFTB Chunks&r. Clique sur les chunks à protéger : &l40 chunks par équipe&r, quel que soit le nombre de membres.
 
-Un claim empêche les autres de casser et de poser chez toi, et il &aarrête les explosions&r et les dégâts des créatures, tant que ton équipe ne l'autorise pas dans ses réglages. Il &cn'empêche pas le combat&r : le PvP reste possible dans un claim.
+Un claim empêche les autres de casser et de poser chez toi, et il &aarrête les explosions&r et les dégâts des créatures, tant que ton équipe ne l'autorise pas dans ses réglages. Il &cn'empêche pas le combat&r : le PvP reste possible dans un claim.
 """
 
 [[quete]]
@@ -176,9 +176,9 @@ deps = ["abri"]
 taches = ["item waystones:waystone"]
 recompenses = ["xp 5"]
 description = """
-Fabrique une &bwaystone&r et pose-la chez toi : tu pourras y revenir depuis n'importe quelle autre waystone.
+Fabrique une &bwaystone&r et pose-la chez toi : tu pourras y revenir depuis n'importe quelle autre waystone.
 
-Prudence : quiconque l'a activée une fois peut y revenir &là vie&r, même ennemi. Une waystone dans une base est une porte d'entrée. Les factions les mettent hors des murs.
+Prudence : quiconque l'a activée une fois peut y revenir &là vie&r, même ennemi. Une waystone dans une base est une porte d'entrée. Les factions les mettent hors des murs.
 """
 
 [[quete]]
@@ -199,7 +199,7 @@ deps = ["boussole", "fer"]
 taches = ["item naturescompass:naturescompass"]
 recompenses = ["xp 5"]
 description = """
-La &aboussole de la nature&r cherche n'importe quel biome et t'indique sa direction et sa distance. Avec Biomes O' Plenty et les dimensions, le serveur en compte plusieurs centaines : c'est l'outil de l'explorateur.
+La &aboussole de la nature&r cherche n'importe quel biome et t'indique sa direction et sa distance. Avec Biomes O' Plenty et les dimensions, le serveur en compte plusieurs centaines : c'est l'outil de l'explorateur.
 """
 
 [[quete]]
@@ -209,7 +209,7 @@ deps = ["abri"]
 taches = ["kill minecraft:zombie 5"]
 recompenses = ["xp 3"]
 description = """
-Cinq zombies. Les nuits de BMC4 ont des variantes et des visiteurs que le jeu de base ne connaît pas ; le chapitre &7Bestiaire&r de l'Encyclopédie les recense.
+Cinq zombies. Les nuits de BMC4 ont des variantes et des visiteurs que le jeu de base ne connaît pas ; le chapitre &7Bestiaire&r de l'Encyclopédie les recense.
 """
 
 [[quete]]
@@ -219,7 +219,7 @@ deps = ["fer"]
 taches = ["item minecraft:diamond"]
 recompenses = ["table debutant"]
 description = """
-Sous Y 16, et plus encore vers le fond. Le diamant ouvre l'enchantement et le passage vers la nétherite. Il &lne se donne pas&r en récompense de quête sur ce serveur : ce que tu as, tu l'as creusé.
+Sous Y 16, et plus encore vers le fond. Le diamant ouvre l'enchantement et le passage vers la nétherite. Il &lne se donne pas&r en récompense de quête sur ce serveur : ce que tu as, tu l'as creusé.
 """
 
 [[quete]]
@@ -229,7 +229,7 @@ deps = ["kit", "fer"]
 taches = ["item inmis:plated_backpack"]
 recompenses = ["xp 5"]
 description = """
-Le &asac plaqué&r se fabrique à partir du sac élimé et de fer. Chaque palier suivant demande le précédent : rien ne se perd.
+Le &asac plaqué&r se fabrique à partir du sac élimé et de fer. Chaque palier suivant demande le précédent : rien ne se perd.
 """
 
 [[quete]]
@@ -240,11 +240,11 @@ icone = "yigd:grave"
 taches = ["checkmark Compris"]
 recompenses = ["xp 2"]
 description = """
-Quand tu meurs, tes affaires et ton expérience ne tombent pas au sol : une &7tombe&r se dresse à l'endroit de la mort, à ton nom, et le jeu t'en donne les coordonnées. Un &lclic droit&r dessus rend tout dans l'inventaire. Elle n'expire pas.
+Quand tu meurs, tes affaires et ton expérience ne tombent pas au sol : une &7tombe&r se dresse à l'endroit de la mort, à ton nom, et le jeu t'en donne les coordonnées. Un &lclic droit&r dessus rend tout dans l'inventaire. Elle n'expire pas.
 
 Mais au bout d'&cune heure&r, n'importe qui peut la piller, et tu seras prévenu de qui l'a fait.
 
-Pendant une heure de raid, mourir coûte en plus un &ccœur&r : c'est la règle mediumcore, expliquée dans l'arc Factions.
+Pendant une heure de raid, mourir coûte en plus un &ccœur&r : c'est la règle mediumcore, expliquée dans l'arc Factions.
 """
 
 [[quete]]
@@ -254,7 +254,7 @@ deps = ["natures_compass"]
 taches = ["observation block lootr:lootr_chest"]
 recompenses = ["xp 3"]
 description = """
-Les coffres de structure sont &lpar joueur&r : le premier passage ne vide pas le donjon pour les suivants, chacun génère son propre butin dans le même coffre. Un coffre déjà ouvert par toi change d'apparence.
+Les coffres de structure sont &lpar joueur&r : le premier passage ne vide pas le donjon pour les suivants, chacun génère son propre butin dans le même coffre. Un coffre déjà ouvert par toi change d'apparence.
 
 Les coffres propres à certains mods restent partagés. Et ce qui a été pillé avant le 4 octobre reste pillé.
 """
@@ -267,9 +267,9 @@ icone = "minecraft:emerald"
 taches = ["checkmark Compris"]
 recompenses = ["xp 3"]
 description = """
-Les échanges entre joueurs passent par le Marché Flottant : les &6barils des pavillons&r, et les offres publiées dans le forum &9#commerce&r du Discord. On y vend aussi bien du blé qu'un service.
+Les échanges entre joueurs passent par le Marché Flottant : les &6barils des pavillons&r, et les offres publiées dans le forum &9#commerce&r du Discord. On y vend aussi bien du blé qu'un service.
 
-Les quêtes ne donnent presque rien de revendable : la richesse d'une faction vient du jeu, pas du livre.
+Les quêtes ne donnent presque rien de revendable : la richesse d'une faction vient du jeu, pas du livre.
 """
 
 [[quete]]
@@ -282,7 +282,7 @@ taille = 1.3
 taches = ["checkmark Lu"]
 recompenses = ["xp 2"]
 description = """
-Tu as vu l'essentiel. Le livre continue en sept groupes, dans l'ordre conseillé : &aLes bases du jeu&r (le vanilla que personne n'explique), &5Le monde&r (les dimensions et leurs boss), &bLes mods&r (Create, Mystical Agriculture, Iron's Spells, Powah, le stockage, SecurityCraft…), &cLes factions&r, &6Chaque semaine&r (les contrats répétables), &dDéfis&r.
+Tu as vu l'essentiel. Le livre continue en sept groupes, dans l'ordre conseillé : &aLes bases du jeu&r (le vanilla que personne n'explique), &5Le monde&r (les dimensions et leurs boss), &bLes mods&r (Create, Mystical Agriculture, Iron's Spells, Powah, le stockage, SecurityCraft…), &cLes factions&r, &6Chaque semaine&r (les contrats répétables), &dDéfis&r.
 
-Le dernier groupe, l'&7Encyclopédie&r, est un catalogue facultatif : une quête par créature, biome, structure, plat ou sort. À remplir au fil du jeu, jamais à suivre.
+Le dernier groupe, l'&7Encyclopédie&r, est un catalogue facultatif : une quête par créature, biome, structure, plat ou sort. À remplir au fil du jeu, jamais à suivre.
 """

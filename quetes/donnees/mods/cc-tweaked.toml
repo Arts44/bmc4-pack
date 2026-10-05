@@ -19,9 +19,9 @@ icone = "computercraft:computer_advanced"
 taches = ["checkmark Lu"]
 recompenses = ["item minecraft:redstone 16", "item minecraft:glass_pane 8"]
 description = """
-&dCC: Tweaked&r met des ordinateurs dans le jeu, programmables en &bLua&r. Une alarme quand quelqu'un passe la porte, une porte à code, un écran qui affiche les stocks, une tortue qui creuse pendant que tu fais autre chose : rien d'autre dans le pack ne permet d'écrire ses propres règles.
+&dCC: Tweaked&r met des ordinateurs dans le jeu, programmables en &bLua&r. Une alarme quand quelqu'un passe la porte, une porte à code, un écran qui affiche les stocks, une tortue qui creuse pendant que tu fais autre chose : rien d'autre dans le pack ne permet d'écrire ses propres règles.
 
-Redstone et vitres offertes : c'est le prix d'un premier ordinateur.
+Redstone et vitres offertes : c'est le prix d'un premier ordinateur.
 """
 
 [[quete]]
@@ -51,7 +51,7 @@ deps = ["ordinateur"]
 taches = ["item computercraft:monitor_normal 4"]
 recompenses = ["xp 3"]
 description = """
-Les &dmoniteurs&r s'assemblent en mur d'écrans collés les uns aux autres. Un ordinateur à côté écrit dessus : l'heure, un compteur, l'état d'une porte, le stock d'un coffre.
+Les &dmoniteurs&r s'assemblent en mur d'écrans collés les uns aux autres. Un ordinateur à côté écrit dessus : l'heure, un compteur, l'état d'une porte, le stock d'un coffre.
 """
 
 [[quete]]
@@ -61,7 +61,7 @@ deps = ["ordinateur"]
 taches = ["item computercraft:wireless_modem_normal", "item computercraft:wired_modem"]
 recompenses = ["xp 3"]
 description = """
-Le &dmodem sans fil&r fait parler deux ordinateurs à distance ; le &dmodem filaire&r et son câble relient des périphériques — moniteurs, coffres, lecteurs — à un ordinateur qui n'est pas collé contre eux.
+Le &dmodem sans fil&r fait parler deux ordinateurs à distance ; le &dmodem filaire&r et son câble relient des périphériques — moniteurs, coffres, lecteurs — à un ordinateur qui n'est pas collé contre eux.
 """
 
 [[quete]]
@@ -106,5 +106,5 @@ icone = "computercraft:turtle_advanced"
 taches = ["checkmark Mon programme sert à quelque chose"]
 recompenses = ["xp 10"]
 description = """
-Une porte à code, une alarme, un écran de stock, une tortue au travail : à toi de dire laquelle. Le salon &9#cc-tweaked&r reçoit les programmes à partager.
+Une porte à code, une alarme, un écran de stock, une tortue au travail : à toi de dire laquelle. Le salon &9#cc-tweaked&r reçoit les programmes à partager.
 """

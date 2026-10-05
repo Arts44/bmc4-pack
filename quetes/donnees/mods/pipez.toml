@@ -10,14 +10,14 @@ ordre = 7
 
 [[quete]]
 cle = "intro"
-titre = "&7Pipez : des tuyaux simples"
+titre = "&7Pipez : des tuyaux simples"
 sous_titre = "Objets, fluides, énergie, en un bloc."
 taille = 1.5
 icone = "pipez:universal_pipe"
 taches = ["checkmark Lu"]
 recompenses = ["item minecraft:iron_ingot 6", "item minecraft:glass 8"]
 description = """
-&7Pipez&r fait une chose et la fait bien : déplacer. Un tuyau d'objets sort d'un coffre et entre dans un autre ; un tuyau de fluide vide une cuve ; un tuyau d'énergie relie une cellule à une machine. Clic droit avec la clé sur l'extrémité d'un tuyau pour dire s'il aspire ou s'il pousse.
+&7Pipez&r fait une chose et la fait bien : déplacer. Un tuyau d'objets sort d'un coffre et entre dans un autre ; un tuyau de fluide vide une cuve ; un tuyau d'énergie relie une cellule à une machine. Clic droit avec la clé sur l'extrémité d'un tuyau pour dire s'il aspire ou s'il pousse.
 
 Le fer et le verre offerts font les premiers tuyaux.
 """
@@ -29,7 +29,7 @@ deps = ["intro"]
 taches = ["item pipez:item_pipe 16"]
 recompenses = ["xp 3"]
 description = """
-Le &7tuyau d'objets&r relie des inventaires. Son extrémité se règle en extraction : il tire d'un coffre et pousse dans tout ce qui est relié. Sans amélioration il est lent, et sans filtre.
+Le &7tuyau d'objets&r relie des inventaires. Son extrémité se règle en extraction : il tire d'un coffre et pousse dans tout ce qui est relié. Sans amélioration il est lent, et sans filtre.
 """
 
 [[quete]]
@@ -39,7 +39,7 @@ deps = ["intro"]
 taches = ["item pipez:fluid_pipe 8"]
 recompenses = ["xp 3"]
 description = """
-Même logique pour les liquides : une cuve, une source de lave, un bassin Create. C'est lui qui nourrit le Magmator de Powah.
+Même logique pour les liquides : une cuve, une source de lave, un bassin Create. C'est lui qui nourrit le Magmator de Powah.
 """
 
 [[quete]]
@@ -49,7 +49,7 @@ deps = ["intro"]
 taches = ["item pipez:energy_pipe 8"]
 recompenses = ["xp 3"]
 description = """
-Le &7tuyau d'énergie&r remplace les câbles de Powah entre une cellule et une machine. Moins cher, moins rapide ; les améliorations règlent ça.
+Le &7tuyau d'énergie&r remplace les câbles de Powah entre une cellule et une machine. Moins cher, moins rapide ; les améliorations règlent ça.
 """
 
 [[quete]]
@@ -69,7 +69,7 @@ deps = ["objets"]
 taches = ["item pipez:basic_upgrade", "item pipez:improved_upgrade"]
 recompenses = ["xp 5"]
 description = """
-Une &7amélioration&r se glisse dans l'extrémité d'un tuyau : un débit plus grand, un &lfiltre&r (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime, infinie.
+Une &7amélioration&r se glisse dans l'extrémité d'un tuyau : un débit plus grand, un &lfiltre&r (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime, infinie.
 """
 
 [[quete]]
@@ -79,7 +79,7 @@ deps = ["intro"]
 taches = ["item pipez:wrench"]
 recompenses = ["xp 2"]
 description = """
-La &7clé&r ouvre le menu d'une extrémité : mode (extraire ou pousser), filtres, redstone. Accroupi, elle détache un tuyau.
+La &7clé&r ouvre le menu d'une extrémité : mode (extraire ou pousser), filtres, redstone. Accroupi, elle détache un tuyau.
 """
 
 [[quete]]

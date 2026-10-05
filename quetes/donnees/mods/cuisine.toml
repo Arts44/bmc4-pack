@@ -16,16 +16,16 @@ ordre = 11
 
 [[quete]]
 cle = "intro"
-titre = "&6Farmer's Delight : cuisiner pour de vrai"
+titre = "&6Farmer's Delight : cuisiner pour de vrai"
 sous_titre = "Guide dans #farmers-delight sur le Discord."
 taille = 1.5
 icone = "farmersdelight:skillet"
 taches = ["checkmark Lu"]
 recompenses = ["item minecraft:bowl 8", "item farmersdelight:cabbage_seeds 4", "item farmersdelight:tomato_seeds 4"]
 description = """
-&6Farmer's Delight&r remplace le steak-et-pain par une cuisine : des légumes nouveaux, une planche à découper, une poêle, une marmite, et des plats qui nourrissent longtemps et donnent des effets.
+&6Farmer's Delight&r remplace le steak-et-pain par une cuisine : des légumes nouveaux, une planche à découper, une poêle, une marmite, et des plats qui nourrissent longtemps et donnent des effets.
 
-Sur ce serveur, un &lrepas de Farmer's Delight&r (bol ou assiette) a une autre vertu : il rend un &ccœur de vie maximale&r perdu en raid. Les bols et graines offerts sont le début de la cuisine.
+Sur ce serveur, un &lrepas de Farmer's Delight&r (bol ou assiette) a une autre vertu : il rend un &ccœur de vie maximale&r perdu en raid. Les bols et graines offerts sont le début de la cuisine.
 """
 
 [[quete]]
@@ -35,7 +35,7 @@ deps = ["intro"]
 taches = ["item farmersdelight:flint_knife"]
 recompenses = ["xp 2"]
 description = """
-Le &7couteau&r se fait en silex, puis en fer, en or, en diamant, en nétherite. Sur la planche, il découpe ; en main, il récolte plus de viande et de cuir.
+Le &7couteau&r se fait en silex, puis en fer, en or, en diamant, en nétherite. Sur la planche, il découpe ; en main, il récolte plus de viande et de cuir.
 """
 
 [[quete]]
@@ -76,7 +76,7 @@ taille = 1.3
 taches = ["item farmersdelight:cooking_pot"]
 recompenses = ["xp 8"]
 description = """
-La &6marmite&r, sur une source de chaleur, combine jusqu'à six ingrédients en un plat : soupe, ragoût, riz, curry. Elle sert dans un bol ou une assiette posée dans sa case. C'est le cœur de tout ce chapitre.
+La &6marmite&r, sur une source de chaleur, combine jusqu'à six ingrédients en un plat : soupe, ragoût, riz, curry. Elle sert dans un bol ou une assiette posée dans sa case. C'est le cœur de tout ce chapitre.
 """
 
 [[quete]]
@@ -86,7 +86,7 @@ deps = ["intro"]
 taches = ["item farmersdelight:cabbage", "item farmersdelight:tomato", "item farmersdelight:onion", "item farmersdelight:rice"]
 recompenses = ["xp 5"]
 description = """
-Quatre cultures nouvelles. Les versions sauvages poussent dans les biomes ; le riz se plante dans l'eau, la tomate grimpe sur une corde. Les graines des pavillons du Marché sont une autre source.
+Quatre cultures nouvelles. Les versions sauvages poussent dans les biomes ; le riz se plante dans l'eau, la tomate grimpe sur une corde. Les graines des pavillons du Marché sont une autre source.
 """
 
 [[quete]]
@@ -107,7 +107,7 @@ taille = 1.3
 taches = ["item farmersdelight:beef_stew"]
 recompenses = ["xp 8"]
 description = """
-Bœuf, carotte, pomme de terre, dans la marmite, et un bol. Les plats de la marmite portent des effets, affichés dans leur infobulle : &bConfort&r régénère quelle que soit la faim, &bNourriture&r empêche la faim de baisser. Et le &6ragoût de bœuf&r est un repas : il rend un cœur perdu en raid.
+Bœuf, carotte, pomme de terre, dans la marmite, et un bol. Les plats de la marmite portent des effets, affichés dans leur infobulle : &bConfort&r régénère quelle que soit la faim, &bNourriture&r empêche la faim de baisser. Et le &6ragoût de bœuf&r est un repas : il rend un cœur perdu en raid.
 """
 
 [[quete]]
@@ -117,7 +117,7 @@ deps = ["ragout"]
 taches = ["item farmersdelight:vegetable_soup", "item farmersdelight:chicken_soup", "item farmersdelight:fish_stew"]
 recompenses = ["xp 5"]
 description = """
-La marmite fait toutes les soupes : légumes, poulet, poisson, citrouille, nouilles, oignon. Les trois demandées suffisent à prouver qu'on sait s'en servir ; l'Encyclopédie, chapitre &7Gastronomie&r, les compte toutes.
+La marmite fait toutes les soupes : légumes, poulet, poisson, citrouille, nouilles, oignon. Les trois demandées suffisent à prouver qu'on sait s'en servir ; l'Encyclopédie, chapitre &7Gastronomie&r, les compte toutes.
 """
 
 [[quete]]
@@ -127,7 +127,7 @@ deps = ["marmite", "legumes"]
 taches = ["item farmersdelight:mixed_salad", "item farmersdelight:fried_rice"]
 recompenses = ["xp 5"]
 description = """
-Pas tout passe par la marmite : la &asalade composée&r se fait à la table. Le &6riz sauté&r, lui, vient de la marmite. Les deux sont des repas : ils rendent un cœur perdu en raid.
+Pas tout passe par la marmite : la &asalade composée&r se fait à la table. Le &6riz sauté&r, lui, vient de la marmite. Les deux sont des repas : ils rendent un cœur perdu en raid.
 """
 
 [[quete]]
@@ -137,7 +137,7 @@ deps = ["ragout"]
 taches = ["item farmersdelight:shepherds_pie_block"]
 recompenses = ["xp 5"]
 description = """
-Un &6festin&r se pose comme un bloc et se sert en parts : hachis parmentier, poulet rôti, citrouille farcie, jambon glacé au miel. Le repas d'une faction après un raid.
+Un &6festin&r se pose comme un bloc et se sert en parts : hachis parmentier, poulet rôti, citrouille farcie, jambon glacé au miel. Le repas d'une faction après un raid.
 """
 
 [[quete]]
@@ -159,7 +159,7 @@ optionnel = true
 taches = ["item oceansdelight:guardian_soup"]
 recompenses = ["xp 5"]
 description = """
-&bOcean's Delight&r cuisine ce que l'océan donne : tentacules, gardiens, concombres de mer. La &bsoupe de gardien&r se fait à la marmite.
+&bOcean's Delight&r cuisine ce que l'océan donne : tentacules, gardiens, concombres de mer. La &bsoupe de gardien&r se fait à la marmite.
 """
 
 [[quete]]
@@ -170,7 +170,7 @@ optionnel = true
 taches = ["item crabbersdelight:crab_trap", "item crabbersdelight:bisque"]
 recompenses = ["xp 5"]
 description = """
-&bCrabber's Delight&r : un &7casier à crabes&r posé dans l'eau attrape crabes, crevettes et palourdes, et la marmite en fait une &6bisque&r.
+&bCrabber's Delight&r : un &7casier à crabes&r posé dans l'eau attrape crabes, crevettes et palourdes, et la marmite en fait une &6bisque&r.
 """
 
 [[quete]]
@@ -181,7 +181,7 @@ optionnel = true
 taches = ["item mynethersdelight:nether_stove"]
 recompenses = ["xp 5"]
 description = """
-&cMy Nether's Delight&r : un fourneau du Nether, des cannes poudreuses, du piment, et des plats de hoglin et de strider. La cuisine continue de l'autre côté du portail.
+&cMy Nether's Delight&r : un fourneau du Nether, des cannes poudreuses, du piment, et des plats de hoglin et de strider. La cuisine continue de l'autre côté du portail.
 """
 
 [[quete]]
@@ -192,7 +192,7 @@ optionnel = true
 taches = ["item endersdelight:chorus_stew"]
 recompenses = ["xp 5"]
 description = """
-&dEnder's Delight&r : le chorus se cuisine, le shulker aussi. Le &dragoût de chorus&r se fait à la marmite, avec ce que l'End donne.
+&dEnder's Delight&r : le chorus se cuisine, le shulker aussi. Le &dragoût de chorus&r se fait à la marmite, avec ce que l'End donne.
 """
 
 [[quete]]
@@ -203,7 +203,7 @@ optionnel = true
 taches = ["item twilightdelight:fiery_cooking_pot"]
 recompenses = ["xp 5"]
 description = """
-&5Twilight's Flavor & Delight&r : une &cmarmite ardente&r pour les ingrédients de la Twilight Forest, des gâteaux d'aurore, des tartes de baies de torche.
+&5Twilight's Flavor & Delight&r : une &cmarmite ardente&r pour les ingrédients de la Twilight Forest, des gâteaux d'aurore, des tartes de baies de torche.
 """
 
 [[quete]]
@@ -214,7 +214,7 @@ optionnel = true
 taches = ["item delightful:cactus_soup"]
 recompenses = ["xp 5"]
 description = """
-&aDelightful&r relie Farmer's Delight aux autres mods du pack : baies, fruits, soupes et tartes faites avec ce que les biomes des autres mods produisent. La &asoupe de cactus&r est l'une des plus simples.
+&aDelightful&r relie Farmer's Delight aux autres mods du pack : baies, fruits, soupes et tartes faites avec ce que les biomes des autres mods produisent. La &asoupe de cactus&r est l'une des plus simples.
 """
 
 [[quete]]

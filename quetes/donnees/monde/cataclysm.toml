@@ -25,7 +25,7 @@ icone = "cataclysm:flame_eye"
 taches = ["checkmark Lu"]
 recompenses = ["item minecraft:golden_apple 2"]
 description = """
-&4L'Ender's Cataclysm&r pose huit boss, chacun dans sa structure, et un &lœil&r qui y mène : il se fabrique, et il tourne dans la main comme un œil de l'Ender. Chaque boss lâche de quoi fabriquer un équipement. Sur ce serveur, les boss sont à leur force d'origine, leurs armures ont une &ldurabilité infinie&r, et cinq d'entre eux se réinvoquent dans leur arène (config).
+&4L'Ender's Cataclysm&r pose huit boss, chacun dans sa structure, et un &lœil&r qui y mène : il se fabrique, et il tourne dans la main comme un œil de l'Ender. Chaque boss lâche de quoi fabriquer un équipement. Sur ce serveur, les boss sont à leur force d'origine, leurs armures ont une &ldurabilité infinie&r, et cinq d'entre eux se réinvoquent dans leur arène (config).
 """
 
 # ---- Ignis
@@ -36,7 +36,7 @@ deps = ["intro"]
 taches = ["structure cataclysm:burning_arena"]
 recompenses = ["xp 5"]
 description = """
-L'&cŒil de flamme&r y mène. Des revenants et berserkers enflammés gardent l'arène ; &cIgnis&r attend à l'autel de feu.
+L'&cŒil de flamme&r y mène. Des revenants et berserkers enflammés gardent l'arène ; &cIgnis&r attend à l'autel de feu.
 """
 
 [[quete]]
@@ -49,7 +49,7 @@ taille = 1.5
 taches = ["advancement cataclysm:kill_ignis"]
 recompenses = ["xp 25"]
 description = """
-Un chevalier de feu, invoqué à l'autel. Il lâche le &clingot d'ignitium&r et son disque (table de butin) ; le Rempart de la flamme et l'Incinérateur se fabriquent avec. Sa mort est annoncée dans #faits-d-armes.
+Un chevalier de feu, invoqué à l'autel. Il lâche le &clingot d'ignitium&r et son disque (table de butin) ; le Rempart de la flamme et l'Incinérateur se fabriquent avec. Sa mort est annoncée dans #faits-d-armes.
 """
 
 [[quete]]
@@ -59,7 +59,7 @@ deps = ["ignis"]
 taches = ["item cataclysm:ignitium_helmet"]
 recompenses = ["xp 10"]
 description = """
-Un modèle de forge d'ignitium sur un équipement de nétherite. Casque : regard de chaleur ; plastron : combinable avec des élytres ; jambières : réflexe de flamme ; bottes : marche sur la lave (infobulles du mod).
+Un modèle de forge d'ignitium sur un équipement de nétherite. Casque : regard de chaleur ; plastron : combinable avec des élytres ; jambières : réflexe de flamme ; bottes : marche sur la lave (infobulles du mod).
 """
 
 # ---- Netherite Monstrosity
@@ -94,7 +94,7 @@ deps = ["intro"]
 taches = ["structure cataclysm:ruined_citadel"]
 recompenses = ["xp 5"]
 description = """
-L'&5Œil du vide&r y mène, dans l'End. Des golems de l'Ender et des endermapteras ; le &5Gardien de l'Ender&r au centre.
+L'&5Œil du vide&r y mène, dans l'End. Des golems de l'Ender et des endermapteras ; le &5Gardien de l'Ender&r au centre.
 """
 
 [[quete]]
@@ -131,7 +131,7 @@ taille = 1.5
 taches = ["advancement cataclysm:kill_harbinger"]
 recompenses = ["xp 25"]
 description = """
-Le progrès dit : le réveiller et le vaincre. Il lâche un bloc de &7witherite&r (table de butin) ; l'arme d'épaule d'assaut du Wither et le Gatling laser (rechargé à la redstone) s'en fabriquent. Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+Le progrès dit : le réveiller et le vaincre. Il lâche un bloc de &7witherite&r (table de butin) ; l'arme d'épaule d'assaut du Wither et le Gatling laser (rechargé à la redstone) s'en fabriquent. Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
 """
 
 # ---- Leviathan
@@ -155,7 +155,7 @@ taille = 1.5
 taches = ["advancement cataclysm:kill_leviathan"]
 recompenses = ["xp 30"]
 description = """
-Il est &limmunisé hors de l'eau&r (config du serveur) : le combat se fait en plongée. Il lâche les Griffes de marée et un œuf abyssal (table de butin). Sa mort est annoncée dans #faits-d-armes.
+Il est &limmunisé hors de l'eau&r (config du serveur) : le combat se fait en plongée. Il lâche les Griffes de marée et un œuf abyssal (table de butin). Sa mort est annoncée dans #faits-d-armes.
 """
 
 # ---- Ancient Remnant
@@ -179,7 +179,7 @@ taille = 1.5
 taches = ["advancement cataclysm:kill_remnant"]
 recompenses = ["xp 25"]
 description = """
-Le progrès dit : fouiller le sable suspect de la pyramide pour le réveiller. Il lâche son crâne, du métal ancien et une tempête de sable en bouteille (table de butin). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+Le progrès dit : fouiller le sable suspect de la pyramide pour le réveiller. Il lâche son crâne, du métal ancien et une tempête de sable en bouteille (table de butin). Il se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
 """
 
 # ---- Maledictus
@@ -203,7 +203,7 @@ taille = 1.5
 taches = ["advancement cataclysm:kill_maledictus"]
 recompenses = ["xp 30"]
 description = """
-Invoqué dans la prison. Il lâche le &blingot de cursium&r (table de butin) ; l'Arc maudit et ses trois flèches fantômes s'en fabriquent. Sa mort est annoncée dans #faits-d-armes.
+Invoqué dans la prison. Il lâche le &blingot de cursium&r (table de butin) ; l'Arc maudit et ses trois flèches fantômes s'en fabriquent. Sa mort est annoncée dans #faits-d-armes.
 """
 
 [[quete]]
@@ -213,7 +213,7 @@ deps = ["maledictus"]
 taches = ["item cataclysm:cursium_helmet"]
 recompenses = ["xp 10"]
 description = """
-Modèle de forge de cursium sur de la nétherite. Casque : vision fantôme ; plastron : résurrection mort-vivante ; jambières : esquive fantôme ; bottes : apesanteur fantôme (infobulles du mod).
+Modèle de forge de cursium sur de la nétherite. Casque : vision fantôme ; plastron : résurrection mort-vivante ; jambières : esquive fantôme ; bottes : apesanteur fantôme (infobulles du mod).
 """
 
 # ---- Scylla
@@ -237,7 +237,7 @@ taille = 1.5
 taches = ["advancement cataclysm:kill_scylla"]
 recompenses = ["xp 30"]
 description = """
-L'impératrice des tempêtes (titre du progrès). Elle lâche l'essence de la tempête et la lacrima (table de butin) ; Ceraunus, l'ancre qui se lance, et Astrape, la lance d'éclair, s'en fabriquent. Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+L'impératrice des tempêtes (titre du progrès). Elle lâche l'essence de la tempête et la lacrima (table de butin) ; Ceraunus, l'ancre qui se lance, et Astrape, la lance d'éclair, s'en fabriquent. Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
 """
 
 [[quete]]
@@ -249,5 +249,5 @@ icone = "cataclysm:witherite_ingot"
 taches = ["advancement cataclysm:kill_all_bosses"]
 recompenses = ["xp 50"]
 description = """
-Le progrès du mod pour les huit, « Cataclysmfarer ». Le Clawdian, le Golem de l'Ender et le Revenant enflammé ont leurs progrès à part.
+Le progrès du mod pour les huit, « Cataclysmfarer ». Le Clawdian, le Golem de l'Ender et le Revenant enflammé ont leurs progrès à part.
 """

@@ -32,9 +32,9 @@ icone = "twilightforest:twilight_portal_miniature_structure"
 taches = ["advancement twilightforest:root"]
 recompenses = ["item minecraft:diamond 1"]
 description = """
-Un bassin d'eau de 2×2 entouré de fleurs, un &bdiamant&r jeté dedans, un éclair. La progression de la forêt est &lverrouillée par ses boss&r sur ce serveur : un biome dont le boss précédent n'est pas tombé inflige des malus. Le butin des boss va dans un &lcoffre&r posé là où le boss est apparu (config du serveur), et le portail de retour est utilisable sans objet.
+Un bassin d'eau de 2×2 entouré de fleurs, un &bdiamant&r jeté dedans, un éclair. La progression de la forêt est &lverrouillée par ses boss&r sur ce serveur : un biome dont le boss précédent n'est pas tombé inflige des malus. Le butin des boss va dans un &lcoffre&r posé là où le boss est apparu (config du serveur), et le portail de retour est utilisable sans objet.
 
-Sur Mac : désactive les shaders près des portails, ils font planter le jeu.
+Sur Mac : désactive les shaders près des portails, ils font planter le jeu.
 """
 
 # ---- Naga
@@ -45,7 +45,7 @@ deps = ["portail"]
 taches = ["structure twilightforest:naga_courtyard"]
 recompenses = ["xp 5"]
 description = """
-Une cour de nagastone dans la forêt. La &2Naga&r y tourne ; c'est le premier boss, et rien d'autre n'est accessible avant elle.
+Une cour de nagastone dans la forêt. La &2Naga&r y tourne ; c'est le premier boss, et rien d'autre n'est accessible avant elle.
 """
 
 [[quete]]
@@ -58,7 +58,7 @@ taille = 1.3
 taches = ["advancement twilightforest:progress_naga"]
 recompenses = ["xp 15"]
 description = """
-Un serpent géant qui charge ; les pilonnes de la cour le ralentissent. Sa mort lève la barrière magique de la tour de la Liche (texte du progrès). Ses écailles font un plastron et des jambières. Sa mort est annoncée dans #faits-d-armes.
+Un serpent géant qui charge ; les pilonnes de la cour le ralentissent. Sa mort lève la barrière magique de la tour de la Liche (texte du progrès). Ses écailles font un plastron et des jambières. Sa mort est annoncée dans #faits-d-armes.
 """
 
 [[quete]]
@@ -92,7 +92,7 @@ taille = 1.3
 taches = ["advancement twilightforest:progress_lich"]
 recompenses = ["xp 20"]
 description = """
-Une seule Liche est réelle ; les autres sont des clones d'ombre, invulnérables. Casse d'abord ses &lsix boucliers&r : chaque coup en retire un, une boule de neige suffit. Puis les sceptres : vie, zombie, fortification, Twilight. Le progrès du mod dit que sa mort chasse les moustiques du marais, la malédiction de la forêt sombre et le froid de la forêt enneigée.
+Une seule Liche est réelle ; les autres sont des clones d'ombre, invulnérables. Casse d'abord ses &lsix boucliers&r : chaque coup en retire un, une boule de neige suffit. Puis les sceptres : vie, zombie, fortification, Twilight. Le progrès du mod dit que sa mort chasse les moustiques du marais, la malédiction de la forêt sombre et le froid de la forêt enneigée.
 """
 
 [[quete]]
@@ -113,7 +113,7 @@ deps = ["liche"]
 taches = ["structure twilightforest:labyrinth"]
 recompenses = ["xp 5"]
 description = """
-Sous le marais : des minotaures, des slimes de labyrinthe, des coffres par joueur. La salle du &cMinoshroom&r est à l'étage &linférieur&r. La pioche Mazebreaker dort dans la chambre forte secrète.
+Sous le marais : des minotaures, des slimes de labyrinthe, des coffres par joueur. La salle du &cMinoshroom&r est à l'étage &linférieur&r. La pioche Mazebreaker dort dans la chambre forte secrète.
 """
 
 [[quete]]
@@ -125,7 +125,7 @@ forme = "diamond"
 taches = ["kill twilightforest:minoshroom"]
 recompenses = ["xp 15"]
 description = """
-Un minotaure-champignon à la hache. Il lâche le &6Stroganoff de Meef&r : c'est en le mangeant que la progression passe, pas en le tuant.
+Un minotaure-champignon à la hache. Il lâche le &6Stroganoff de Meef&r : c'est en le mangeant que la progression passe, pas en le tuant.
 """
 
 [[quete]]
@@ -135,7 +135,7 @@ deps = ["minoshroom"]
 taches = ["advancement twilightforest:progress_labyrinth"]
 recompenses = ["xp 10"]
 description = """
-Le progrès du mod : « manger le Stroganoff de Meef pour acclimater le corps à la chaleur du Marais du feu ». Sans lui, le marais brûle.
+Le progrès du mod : « manger le Stroganoff de Meef pour acclimater le corps à la chaleur du Marais du feu ». Sans lui, le marais brûle.
 """
 
 # ---- Hydre
@@ -159,7 +159,7 @@ taille = 1.5
 taches = ["advancement twilightforest:progress_hydra"]
 recompenses = ["xp 25"]
 description = """
-Frappe dans la gueule ouverte, esquive le feu et les mortiers. Son sang ardent fait les lingots ardents (épée, pioche, armure : progrès « fiery set »), et une tranche d'Hydre mangée affamé vaut un progrès. Sa mort est annoncée dans #faits-d-armes.
+Frappe dans la gueule ouverte, esquive le feu et les mortiers. Son sang ardent fait les lingots ardents (épée, pioche, armure : progrès « fiery set »), et une tranche d'Hydre mangée affamé vaut un progrès. Sa mort est annoncée dans #faits-d-armes.
 """
 
 [[quete]]
@@ -180,7 +180,7 @@ deps = ["liche"]
 taches = ["advancement twilightforest:progress_trophy_pedestal"]
 recompenses = ["xp 8"]
 description = """
-Dans les ruines de la forêt sombre, un &lpiédestal à trophée&r à l'entrée du bastion des Gobelins : y poser un trophée de boss dissout les boucliers. Il faut avoir vaincu la Liche (parent du progrès).
+Dans les ruines de la forêt sombre, un &lpiédestal à trophée&r à l'entrée du bastion des Gobelins : y poser un trophée de boss dissout les boucliers. Il faut avoir vaincu la Liche (parent du progrès).
 """
 
 [[quete]]
@@ -203,7 +203,7 @@ taille = 1.3
 taches = ["advancement twilightforest:progress_knights"]
 recompenses = ["xp 20"]
 description = """
-Tous les fantômes de la tombe, jusqu'au dernier (progrès « kill all phantoms »). Leur butin ne va pas dans un coffre, contrairement aux autres boss (config du serveur). Ensuite, les dispositifs de la tour de carminite t'obéissent.
+Tous les fantômes de la tombe, jusqu'au dernier (progrès « kill all phantoms »). Leur butin ne va pas dans un coffre, contrairement aux autres boss (config du serveur). Ensuite, les dispositifs de la tour de carminite t'obéissent.
 """
 
 [[quete]]
@@ -224,7 +224,7 @@ deps = ["chevaliers"]
 taches = ["structure twilightforest:dark_tower"]
 recompenses = ["xp 5"]
 description = """
-Dans la forêt sombre : du towerwood, des ghastlings et ghastguards de carminite, des pièges. Au sommet, un &lpiège à Ghast&r.
+Dans la forêt sombre : du towerwood, des ghastlings et ghastguards de carminite, des pièges. Au sommet, un &lpiège à Ghast&r.
 """
 
 [[quete]]
@@ -281,7 +281,7 @@ taille = 1.3
 taches = ["advancement twilightforest:progress_yeti"]
 recompenses = ["xp 20"]
 description = """
-Sa fourrure double les vêtements contre le froid du Glacier (texte du progrès) : l'armure de Yéti ouvre la suite.
+Sa fourrure double les vêtements contre le froid du Glacier (texte du progrès) : l'armure de Yéti ouvre la suite.
 """
 
 [[quete]]
@@ -336,7 +336,7 @@ taille = 1.3
 taches = ["advancement twilightforest:progress_merge"]
 recompenses = ["xp 15"]
 description = """
-Hydre, Ur-Ghast et Reine des Neiges vaincus : la pluie acide des Hautes terres cesse (texte du progrès). Les grottes des trolls et le haricot magique s'ouvrent.
+Hydre, Ur-Ghast et Reine des Neiges vaincus : la pluie acide des Hautes terres cesse (texte du progrès). Les grottes des trolls et le haricot magique s'ouvrent.
 """
 
 [[quete]]
@@ -379,7 +379,7 @@ taille = 1.5
 taches = ["advancement twilightforest:progression_end"]
 recompenses = ["xp 20"]
 description = """
-Le château final se dresse là. Le mod le dit lui-même : « tout ce qui est au-delà est en travaux, à finir dans une future version ». Y arriver est la fin de la progression actuelle.
+Le château final se dresse là. Le mod le dit lui-même : « tout ce qui est au-delà est en travaux, à finir dans une future version ». Y arriver est la fin de la progression actuelle.
 """
 
 [[quete]]
@@ -391,5 +391,5 @@ icone = "twilightforest:lich_trophy"
 taches = ["checkmark Tous les trophées sont chez moi"]
 recompenses = ["xp 10"]
 description = """
-Sept boss, sept trophées, une lampe. Le chapitre &7Exploration&r de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques.
+Sept boss, sept trophées, une lampe. Le chapitre &7Exploration&r de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques.
 """

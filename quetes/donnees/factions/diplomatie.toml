@@ -30,7 +30,7 @@ recompenses = ["xp 3"]
 description = """
 Le diplomate propose, dans &9#diplomatie&r, et le bot enregistre ce que les deux factions signent. &b!help alliance&r dans le salon stratégie dit comment.
 
-Seul le diplomate engage sa faction. Ce qui est signé dans &9#diplomatie&r est contraignant ; ce qui est dit en vocal ne l'est pas.
+Seul le diplomate engage sa faction. Ce qui est signé dans &9#diplomatie&r est contraignant ; ce qui est dit en vocal ne l'est pas.
 """
 
 [[quete]]
@@ -40,7 +40,7 @@ deps = ["alliance"]
 taches = ["checkmark Compris"]
 recompenses = ["xp 3"]
 description = """
-&9#table-des-négociations&r est réservé aux diplomates. Ce qui s'y écrit engage les deux factions : trêve, partage d'un territoire, prix d'une paix. C'est là qu'on négocie avant de signer.
+&9#table-des-négociations&r est réservé aux diplomates. Ce qui s'y écrit engage les deux factions : trêve, partage d'un territoire, prix d'une paix. C'est là qu'on négocie avant de signer.
 """
 
 [[quete]]
@@ -50,7 +50,7 @@ deps = ["table"]
 taches = ["checkmark Compris"]
 recompenses = ["xp 2"]
 description = """
-Trahir un accord est un acte de jeu légitime : le règlement le dit. Mais le staff n'arbitre que l'écrit. Un traité rompu se juge sur ce qui était signé dans &9#diplomatie&r, pas sur ce qui avait été promis ailleurs.
+Trahir un accord est un acte de jeu légitime : le règlement le dit. Mais le staff n'arbitre que l'écrit. Un traité rompu se juge sur ce qui était signé dans &9#diplomatie&r, pas sur ce qui avait été promis ailleurs.
 
 Trahir de l'intérieur de sa propre faction, en revanche, est sanctionné sans avertissement.
 """
@@ -62,7 +62,7 @@ deps = ["intro"]
 taches = ["checkmark Offre publiée"]
 recompenses = ["xp 3"]
 description = """
-Le forum &9#commerce&r reçoit les offres : ce qu'on vend, ce qu'on cherche, à quel prix. Un fil par offre. Du blé contre du fer, une escorte contre un service, tout se négocie.
+Le forum &9#commerce&r reçoit les offres : ce qu'on vend, ce qu'on cherche, à quel prix. Un fil par offre. Du blé contre du fer, une escorte contre un service, tout se négocie.
 """
 
 [[quete]]
@@ -72,7 +72,7 @@ deps = ["offre"]
 taches = ["checkmark Échange fait"]
 recompenses = ["xp 3"]
 description = """
-Les échanges se concluent au &6Marché Flottant&r, la zone neutre, par les barils des pavillons ou de la main à la main. Personne n'y attaque personne : le Marché est un claim du serveur, le PvP y est coupé.
+Les échanges se concluent au &6Marché Flottant&r, la zone neutre, par les barils des pavillons ou de la main à la main. Personne n'y attaque personne : le Marché est un claim du serveur, le PvP y est coupé.
 """
 
 [[quete]]
@@ -82,9 +82,9 @@ deps = ["echange"]
 taches = ["checkmark Compris"]
 recompenses = ["xp 3"]
 description = """
-Le Marché est la seule zone neutre du serveur, et c'est un claim du serveur (49 chunks autour du point d'apparition) : le &lPvP y est coupé&r, on n'y casse ni ne pose rien, les explosions y sont bloquées. Les blocs et les marchands restent utilisables par tous. Pas besoin de la règle pour tenir la trêve ; elle reste écrite dans &9#règles&r.
+Le Marché est la seule zone neutre du serveur, et c'est un claim du serveur (49 chunks autour du point d'apparition) : le &lPvP y est coupé&r, on n'y casse ni ne pose rien, les explosions y sont bloquées. Les blocs et les marchands restent utilisables par tous. Pas besoin de la règle pour tenir la trêve ; elle reste écrite dans &9#règles&r.
 
-Trois minutes et cent blocs de répit après une mort, partout : pas de spawn-kill.
+Trois minutes et cent blocs de répit après une mort, partout : pas de spawn-kill.
 """
 
 [[quete]]

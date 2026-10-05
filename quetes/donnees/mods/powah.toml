@@ -10,7 +10,7 @@ ordre = 5
 
 [[quete]]
 cle = "intro"
-titre = "&ePowah : produire et stocker"
+titre = "&ePowah : produire et stocker"
 sous_titre = "Guide dans #powah sur le Discord."
 taille = 1.5
 icone = "powah:energy_cell_starter"
@@ -19,7 +19,7 @@ recompenses = ["item minecraft:clay_ball 8", "item minecraft:lava_bucket 1"]
 description = """
 &ePowah&r produit, stocke et transporte de l'énergie (FE), celle que demandent la moissonneuse de Mystical Agriculture, Refined Storage ou les jetpacks. Sept paliers, du &7Starter&r au &cNitro&r, chacun avec ses générateurs, ses cellules et ses câbles.
 
-Tout commence par une pâte diélectrique : charbon, argile et un seau de lave. L'argile et la lave sont offertes.
+Tout commence par une pâte diélectrique : charbon, argile et un seau de lave. L'argile et la lave sont offertes.
 """
 
 [[quete]]
@@ -29,7 +29,7 @@ deps = ["intro"]
 taches = ["item powah:dielectric_paste 24"]
 recompenses = ["xp 3"]
 description = """
-Trois charbons, deux argiles, un seau de lave : &l24 pâtes&r. Elle entre dans presque tout — tiges, boîtiers, panneaux, générateurs.
+Trois charbons, deux argiles, un seau de lave : &l24 pâtes&r. Elle entre dans presque tout — tiges, boîtiers, panneaux, générateurs.
 """
 
 [[quete]]
@@ -39,7 +39,7 @@ deps = ["pate"]
 taches = ["item powah:dielectric_rod 8", "item powah:dielectric_casing 2"]
 recompenses = ["xp 3"]
 description = """
-Pâte et barreaux de fer en colonnes : huit &7tiges&r. Deux tiges verticales, deux horizontales et quatre lingots de fer : un &7boîtier&r. Chaque machine de Powah a un boîtier au centre.
+Pâte et barreaux de fer en colonnes : huit &7tiges&r. Deux tiges verticales, deux horizontales et quatre lingots de fer : un &7boîtier&r. Chaque machine de Powah a un boîtier au centre.
 """
 
 [[quete]]
@@ -49,7 +49,7 @@ deps = ["pate"]
 taches = ["item powah:capacitor_basic_tiny 8"]
 recompenses = ["xp 3"]
 description = """
-Les &7condensateurs&r sont les composants de palier. Le minuscule sert au palier Starter ; les suivants demandent les cristaux énergisés de chaque palier.
+Les &7condensateurs&r sont les composants de palier. Le minuscule sert au palier Starter ; les suivants demandent les cristaux énergisés de chaque palier.
 """
 
 [[quete]]
@@ -60,7 +60,7 @@ taille = 1.3
 taches = ["item powah:furnator_starter"]
 recompenses = ["xp 8"]
 description = """
-Un four au centre, un boîtier, deux condensateurs, de la pâte. Le &6Furnator&r brûle n'importe quel combustible et en fait de l'énergie : c'est le générateur de départ, le plus simple à nourrir.
+Un four au centre, un boîtier, deux condensateurs, de la pâte. Le &6Furnator&r brûle n'importe quel combustible et en fait de l'énergie : c'est le générateur de départ, le plus simple à nourrir.
 """
 
 [[quete]]
@@ -110,7 +110,7 @@ deps = ["furnator"]
 taches = ["item powah:magmator_starter"]
 recompenses = ["xp 5"]
 description = """
-Un seau au centre. Le &cMagmator&r brûle de la lave qu'on lui apporte par tuyau : avec une source de lave au Nether et un tuyau de fluide Pipez, c'est l'énergie des grandes bases avant le réacteur.
+Un seau au centre. Le &cMagmator&r brûle de la lave qu'on lui apporte par tuyau : avec une source de lave au Nether et un tuyau de fluide Pipez, c'est l'énergie des grandes bases avant le réacteur.
 """
 
 [[quete]]
@@ -121,7 +121,7 @@ taille = 1.3
 taches = ["item powah:energizing_orb", "item powah:energizing_rod_starter 2"]
 recompenses = ["xp 8"]
 description = """
-Verre, boîtier, tiges horizontales : l'&dorbe&r. Autour d'elle, des &dtiges d'énergisation&r (quartz, condensateurs, boîtier, tige) lui envoient de l'énergie, et l'orbe transforme ce qu'on met dedans : c'est la machine qui fabrique les composants des paliers suivants.
+Verre, boîtier, tiges horizontales : l'&dorbe&r. Autour d'elle, des &dtiges d'énergisation&r (quartz, condensateurs, boîtier, tige) lui envoient de l'énergie, et l'orbe transforme ce qu'on met dedans : c'est la machine qui fabrique les composants des paliers suivants.
 """
 
 [[quete]]
@@ -131,7 +131,7 @@ deps = ["orbe"]
 taches = ["item powah:steel_energized 8"]
 recompenses = ["xp 5"]
 description = """
-Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : &l2 aciers énergisés&r. Premier produit de l'orbe, et matière du palier Basic.
+Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : &l2 aciers énergisés&r. Premier produit de l'orbe, et matière du palier Basic.
 """
 
 [[quete]]
@@ -141,7 +141,7 @@ deps = ["acier"]
 taches = ["item powah:crystal_blazing"]
 recompenses = ["xp 5"]
 description = """
-Quatre poudres de Blaze dans l'orbe, 120 000 FE. Le &6cristal Blazing&r ouvre le quatrième palier : la vraie puissance commence là, et il faut déjà un stock d'énergie pour le fabriquer.
+Quatre poudres de Blaze dans l'orbe, 120 000 FE. Le &6cristal Blazing&r ouvre le quatrième palier : la vraie puissance commence là, et il faut déjà un stock d'énergie pour le fabriquer.
 """
 
 [[quete]]
@@ -173,7 +173,7 @@ forme = "diamond"
 taches = ["item powah:crystal_nitro 4"]
 recompenses = ["xp 10"]
 description = """
-Une étoile du Nether, deux blocs de redstone et un bloc de cristal Blazing dans l'orbe, &l20 millions de FE&r : seize cristaux &cNitro&r. Le dernier palier. L'étoile vient du Wither : c'est une quête du chapitre Nether.
+Une étoile du Nether, deux blocs de redstone et un bloc de cristal Blazing dans l'orbe, &l20 millions de FE&r : seize cristaux &cNitro&r. Le dernier palier. L'étoile vient du Wither : c'est une quête du chapitre Nether.
 """
 
 [[quete]]
@@ -183,7 +183,7 @@ deps = ["intro"]
 taches = ["item powah:uraninite 9"]
 recompenses = ["xp 3"]
 description = """
-Le &2minerai d'uraninite&r se mine en profondeur, en veines pauvres, normales ou denses. Neuf uraninites pour un bloc, un bloc pour neuf : c'est le combustible du réacteur.
+Le &2minerai d'uraninite&r se mine en profondeur, en veines pauvres, normales ou denses. Neuf uraninites pour un bloc, un bloc pour neuf : c'est le combustible du réacteur.
 """
 
 [[quete]]
@@ -195,7 +195,7 @@ forme = "diamond"
 taches = ["item powah:reactor_starter 4"]
 recompenses = ["xp 10"]
 description = """
-Uraninite, condensateurs, boîtier : quatre blocs de &2réacteur&r par recette, et il en faut plusieurs pour assembler la structure complète (le livre du mod, &ePowah Book&r, montre le plan). Il brûle l'uraninite, se refroidit à l'eau ou mieux, et produit plus que tout le reste réuni.
+Uraninite, condensateurs, boîtier : quatre blocs de &2réacteur&r par recette, et il en faut plusieurs pour assembler la structure complète (le livre du mod, &ePowah Book&r, montre le plan). Il brûle l'uraninite, se refroidit à l'eau ou mieux, et produit plus que tout le reste réuni.
 """
 
 [[quete]]
@@ -205,7 +205,7 @@ deps = ["cellule"]
 taches = ["item powah:ender_cell_starter"]
 recompenses = ["xp 5"]
 description = """
-Obsidienne, pépites de fer, et un &5cœur d'Ender&r au centre. La &5cellule d'Ender&r partage son énergie avec toutes les cellules d'Ender du même canal, où qu'elles soient : la base principale alimente l'avant-poste sans un câble.
+Obsidienne, pépites de fer, et un &5cœur d'Ender&r au centre. La &5cellule d'Ender&r partage son énergie avec toutes les cellules d'Ender du même canal, où qu'elles soient : la base principale alimente l'avant-poste sans un câble.
 """
 
 [[quete]]
@@ -218,5 +218,5 @@ icone = "powah:reactor_starter"
 taches = ["checkmark Ma base a du courant"]
 recompenses = ["xp 10"]
 description = """
-Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack.
+Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack.
 """

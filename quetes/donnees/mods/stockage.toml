@@ -18,9 +18,9 @@ icone = "minecraft:chest"
 taches = ["checkmark Lu"]
 recompenses = ["item minecraft:chest 4"]
 description = """
-Trois mods de stockage, trois philosophies. &6Storage Drawers&r : des tiroirs qui montrent ce qu'ils contiennent, parfaits pour les ressources en masse. &aSimple Storage Network&r : un maître, des câbles, une table de requête, et tous les coffres existants deviennent un seul inventaire. &bRefined Storage&r : des disques, une grille, de la fabrication automatique, et de l'énergie.
+Trois mods de stockage, trois philosophies. &6Storage Drawers&r : des tiroirs qui montrent ce qu'ils contiennent, parfaits pour les ressources en masse. &aSimple Storage Network&r : un maître, des câbles, une table de requête, et tous les coffres existants deviennent un seul inventaire. &bRefined Storage&r : des disques, une grille, de la fabrication automatique, et de l'énergie.
 
-&lN'en choisis qu'un par base&r : ils ne se parlent pas bien entre eux, et une base qui mélange les trois ne retrouve plus rien.
+&lN'en choisis qu'un par base&r : ils ne se parlent pas bien entre eux, et une base qui mélange les trois ne retrouve plus rien.
 """
 
 # ---- Storage Drawers
@@ -51,7 +51,7 @@ deps = ["tiroir"]
 taches = ["item storagedrawers:controller"]
 recompenses = ["xp 5"]
 description = """
-Le &6contrôleur&r voit tous les tiroirs qui lui sont reliés par contact. Clic droit dessus avec un objet, et il va dans le bon tiroir ; clic avec les mains vides, et il range tout l'inventaire d'un coup. C'est aussi par lui qu'un tuyau ou un réseau accède à la banque de tiroirs.
+Le &6contrôleur&r voit tous les tiroirs qui lui sont reliés par contact. Clic droit dessus avec un objet, et il va dans le bon tiroir ; clic avec les mains vides, et il range tout l'inventaire d'un coup. C'est aussi par lui qu'un tuyau ou un réseau accède à la banque de tiroirs.
 """
 
 [[quete]]
@@ -61,7 +61,7 @@ deps = ["tiroir"]
 taches = ["item storagedrawers:iron_storage_upgrade", "item storagedrawers:drawer_key"]
 recompenses = ["xp 3"]
 description = """
-Les &7améliorations de stockage&r (fer, or, obsidienne, diamant, émeraude, nétherite) multiplient la capacité ; la &7clé de tiroir&r verrouille le contenu sur son type, même vide. Il y a aussi le vide (ce qui déborde disparaît) et la lumière.
+Les &7améliorations de stockage&r (fer, or, obsidienne, diamant, émeraude, nétherite) multiplient la capacité ; la &7clé de tiroir&r verrouille le contenu sur son type, même vide. Il y a aussi le vide (ce qui déborde disparaît) et la lumière.
 """
 
 # ---- Simple Storage Network
@@ -82,7 +82,7 @@ deps = ["maitre"]
 taches = ["item storagenetwork:storage_kabel 8", "item storagenetwork:kabel 16"]
 recompenses = ["xp 3"]
 description = """
-Le &7câble&r relie ; le &acâble de stockage&r, posé contre un coffre, un tonneau ou un contrôleur de tiroirs, met son contenu dans le réseau. Les coffres que tu as déjà deviennent le stockage.
+Le &7câble&r relie ; le &acâble de stockage&r, posé contre un coffre, un tonneau ou un contrôleur de tiroirs, met son contenu dans le réseau. Les coffres que tu as déjà deviennent le stockage.
 """
 
 [[quete]]
@@ -103,7 +103,7 @@ deps = ["cables"]
 taches = ["item storagenetwork:import_kabel", "item storagenetwork:export_kabel"]
 recompenses = ["xp 3"]
 description = """
-Le &7câble d'import&r aspire ce qui arrive dans un coffre vers le réseau — la sortie d'une ferme, par exemple ; le &7câble d'export&r pousse un objet choisi vers une machine. Les filtres se règlent dans le câble.
+Le &7câble d'import&r aspire ce qui arrive dans un coffre vers le réseau — la sortie d'une ferme, par exemple ; le &7câble d'export&r pousse un objet choisi vers une machine. Les filtres se règlent dans le câble.
 """
 
 # ---- Refined Storage
@@ -124,7 +124,7 @@ deps = ["rs_controleur"]
 taches = ["item refinedstorage:disk_drive", "item refinedstorage:1k_storage_disk"]
 recompenses = ["xp 5"]
 description = """
-Le &blecteur de disques&r reçoit jusqu'à huit &bdisques&r, et les disques stockent : 1k, 4k, 16k, 64k objets. Tout le stockage d'une base dans un bloc.
+Le &blecteur de disques&r reçoit jusqu'à huit &bdisques&r, et les disques stockent : 1k, 4k, 16k, 64k objets. Tout le stockage d'une base dans un bloc.
 """
 
 [[quete]]
@@ -135,7 +135,7 @@ taille = 1.3
 taches = ["item refinedstorage:grid"]
 recompenses = ["xp 8"]
 description = """
-La &bgrille&r est l'écran du réseau : tout ce qui est stocké, avec recherche et tri. La &bgrille de fabrication&r y ajoute une table d'artisanat branchée sur le stock.
+La &bgrille&r est l'écran du réseau : tout ce qui est stocké, avec recherche et tri. La &bgrille de fabrication&r y ajoute une table d'artisanat branchée sur le stock.
 """
 
 [[quete]]
@@ -156,7 +156,7 @@ taille = 1.3
 taches = ["item refinedstorage:crafter"]
 recompenses = ["xp 8"]
 description = """
-Le &bfabricateur&r exécute les patrons : demande 64 pistons à la grille, et il fabrique la chaîne entière à partir du stock. Posé contre une machine, il lui envoie les ingrédients d'un patron de traitement.
+Le &bfabricateur&r exécute les patrons : demande 64 pistons à la grille, et il fabrique la chaîne entière à partir du stock. Posé contre une machine, il lui envoie les ingrédients d'un patron de traitement.
 """
 
 [[quete]]
@@ -189,5 +189,5 @@ icone = "storagedrawers:controller"
 taches = ["checkmark Ma base est rangée"]
 recompenses = ["xp 10"]
 description = """
-Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre &bPipez&r relie tout ça aux machines.
+Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre &bPipez&r relie tout ça aux machines.
 """
