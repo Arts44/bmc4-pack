@@ -115,6 +115,19 @@ class Verif:
     # Objets qu'aucune recette, table de butin ni génération ne donne, mais
     # qu'un joueur obtient quand même — chacun avec sa pièce.
     OBTENUS_AUTREMENT = {
+        'pfm:iron_stove': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:iron_fridge': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:kitchen_stovetop': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:iron_microwave': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:iron_oven_range_hood': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:basic_toilet': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:basic_bathtub': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:basic_sink': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:basic_shower_head': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:basic_shower_handle': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:wall_toilet_paper': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:gray_mirror': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
+        'pfm:light_switch': "recette pfm:simple_furniture générée au démarrage (PFMRuntimeResources), lue dans /pfm/cache/pfm-datapack du serveur",
         'minecraft:filled_map': "en utilisant une carte vierge",
         'twilightforest:filled_magic_map': "en utilisant une carte magique vierge",
         'ironjetpacks:jetpack': "recettes créées par le code d'Iron Jetpacks ; NBT non comparé (balise ftbquests:check_nbt absente)",

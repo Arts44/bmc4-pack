@@ -1,0 +1,55 @@
+# Échelle des paliers — Construction (BMC-89, 5 octobre 2026).
+# Meubles Paladin's : recettes pfm:simple_furniture générées au démarrage,
+# lues dans /pfm/cache/pfm-datapack du serveur 486488. Livraisons non
+# consommées (pas de « !consommer »).
+chapitre = "construction"
+sommet = "vitrine"
+
+[[palier]]
+echelle = "paladin"
+cle = "pfm"
+preuve = "pfm:working_table"
+
+[[palier]]
+echelle = "paladin"
+cle = "pfm_cuisine"
+preuve = "recettes iron_stove, iron_fridge, kitchen_stovetop, iron_microwave, iron_oven_range_hood"
+
+[[palier]]
+echelle = "paladin"
+cle = "pfm_salle_de_bain"
+preuve = "recettes basic_toilet, basic_bathtub, basic_sink, basic_shower_*, wall_toilet_paper, gray_mirror"
+
+[[palier]]
+echelle = "paladin"
+cle = "pfm_salon"
+preuve = "recettes gray_modern_pendant, light_switch"
+
+[[palier]]
+echelle = "paladin"
+cle = "vitrine"
+preuve = "case à cocher, renvoi vers #screenshots, récompense S"
+
+[[palier]]
+echelle = "colombages"
+cle = "dawn"
+preuve = "waxed_oak_timber_frame"
+
+[[palier]]
+echelle = "colombages"
+cle = "dawn_maison"
+preuve = "blocs Dawn of Time obtenables en chaîne"
+
+[[palier]]
+echelle = "colombages"
+cle = "dawn_quartier"
+preuve = "blocs Dawn of Time obtenables en chaîne"
+
+[[palier]]
+echelle = "colombages"
+cle = "vitrine"
+preuve = "case à cocher, renvoi vers #screenshots, récompense S"
+
+[[saute]]
+objet = "lits, tables de nuit, comptoirs, éviers de cuisine Paladin's"
+raison = "identifiants créés au démarrage par variante (pfm:acacia_kitchen_sink…), absents de l'index : une tâche sur un seul bois serait arbitraire"

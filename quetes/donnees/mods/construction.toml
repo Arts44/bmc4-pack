@@ -250,6 +250,75 @@ Trois mods discrets : &6Diagonal Fences&r et &6Diagonal Walls&r relient barriè
 """
 
 [[quete]]
+cle = "pfm_cuisine"
+titre = "Une cuisine équipée"
+deps = ["pfm"]
+optionnel = true
+taches = ["item pfm:iron_stove", "item pfm:iron_fridge", "item pfm:kitchen_stovetop", "item pfm:iron_microwave", "item pfm:iron_oven_range_hood"]
+recompenses = ["xp 5"]
+description = """
+Premier bâtiment : la cuisine. Cuisinière (huit lingots de fer et un fourneau), réfrigérateur, plaque de cuisson, micro-ondes et hotte, à l'établi à meubles. Rien n'est consommé : on montre ce qu'on a posé, puis on le garde.
+"""
+
+[[quete]]
+cle = "pfm_salle_de_bain"
+titre = "Une salle de bain"
+deps = ["pfm_cuisine"]
+optionnel = true
+taches = ["item pfm:basic_toilet", "item pfm:basic_bathtub", "item pfm:basic_sink", "item pfm:basic_shower_head", "item pfm:basic_shower_handle", "item pfm:wall_toilet_paper", "item pfm:gray_mirror"]
+recompenses = ["xp 5"]
+description = """
+Toilettes (quatre blocs de quartz, un seau, un bouton), baignoire, lavabo, pommeau et robinet de douche, papier toilette et miroir. Les meubles restent dans l'inventaire.
+"""
+
+[[quete]]
+cle = "pfm_salon"
+titre = "Un salon éclairé"
+deps = ["pfm_salle_de_bain"]
+optionnel = true
+taches = ["item pfm:gray_modern_pendant 2", "item pfm:light_switch"]
+recompenses = ["xp 5"]
+description = """
+Deux suspensions modernes et un interrupteur. Les fauteuils, lits, tables de nuit et comptoirs existent dans chaque bois et chaque pierre du pack : choisis les tiens à l'établi.
+"""
+
+[[quete]]
+cle = "dawn_maison"
+titre = "Une maison à colombages"
+deps = ["dawn"]
+optionnel = true
+taches = ["item dawnoftimebuilder:waxed_oak_timber_frame 64", "item dawnoftimebuilder:waxed_oak_framed_rammed_dirt 32", "item dawnoftimebuilder:waxed_oak_door 2", "item dawnoftimebuilder:lattice_waxed_oak_window 8", "item dawnoftimebuilder:waxed_oak_shutters 8", "item dawnoftimebuilder:roofing_slates_stairs 64", "item dawnoftimebuilder:stone_bricks_chimney"]
+recompenses = ["xp 8"]
+description = """
+De quoi monter une vraie maison Dawn of Time : colombages, torchis encadré, portes, fenêtres à croisillons, volets, un toit d'ardoises et une cheminée. Livraison non consommée.
+"""
+
+[[quete]]
+cle = "dawn_quartier"
+titre = "Un quartier"
+deps = ["dawn_maison"]
+optionnel = true
+taches = ["item dawnoftimebuilder:waxed_oak_timber_frame 256", "item dawnoftimebuilder:waxed_oak_timber_frame_crossed 64", "item dawnoftimebuilder:roofing_slates_stairs 192", "item dawnoftimebuilder:thatch_wheat 64", "item dawnoftimebuilder:iron_fancy_lantern 8"]
+recompenses = ["xp 10"]
+description = """
+Plusieurs maisons, des toits d'ardoise et de chaume, des lanternes dans les rues. Les quantités sont celles d'un quartier ; rien n'est consommé.
+"""
+
+[[quete]]
+cle = "vitrine"
+titre = "&6Ma base dans #screenshots"
+deps = ["pfm_salon", "dawn_quartier"]
+optionnel = true
+taille = 1.5
+forme = "diamond"
+icone = "minecraft:painting"
+taches = ["checkmark Capture postée"]
+recompenses = ["xp 10", "item minecraft:painting"]
+description = """
+Le sommet de la construction : une capture de ta maison meublée ou de ton quartier, postée dans &b#screenshots&r sur le Discord. Le tableau est pour l'accrocher chez toi.
+"""
+
+[[quete]]
 cle = "fin"
 titre = "&6Une base qui a de l'allure"
 deps = ["chipped", "supp_atelier", "quark_bois"]
