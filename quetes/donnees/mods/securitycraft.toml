@@ -152,6 +152,39 @@ Une porte à code, des blocs renforcés, des pièges, et un chemin qui reste att
 # du jar (lang en_us, clés *.info). Rien dans le règlement ne restreint
 # ces blocs ; ils restent soumis aux règles de raid.
 [[quete]]
+cle = "renforce_2"
+titre = "Le renforçateur, niveau 2"
+deps = ["renforce", "laser"]
+taches = ["item securitycraft:universal_block_reinforcer_lvl2"]
+recompenses = ["xp 5"]
+description = """
+Un bloc de diamant renforcé, du verre teinté renforcé, un bloc laser et de la redstone (recette du jar).
+"""
+
+[[quete]]
+cle = "renforce_3"
+titre = "&8Le renforçateur, niveau 3"
+deps = ["renforce_2"]
+taille = 1.5
+forme = "diamond"
+taches = ["item securitycraft:universal_block_reinforcer_lvl3"]
+recompenses = ["xp 10"]
+description = """
+Une &létoile du Nether&r, des blocs d'émeraude et de redstone renforcés, du verre teinté renforcé. Le dernier renforçateur ; l'étoile se gagne au chapitre du Nether.
+"""
+
+[[quete]]
+cle = "cartes_5"
+titre = "Une carte de niveau 5"
+deps = ["cartes"]
+optionnel = true
+taches = ["item securitycraft:keycard_lv5"]
+recompenses = ["xp 3"]
+description = """
+Les cartes vont du niveau 1 au niveau 5 ; chacune se fait avec trois lingots de fer et une teinte ou un matériau propre à son niveau.
+"""
+
+[[quete]]
 cle = "alarme"
 titre = "Une alarme"
 deps = ["detecteur"]
