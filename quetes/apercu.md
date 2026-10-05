@@ -2,6 +2,8 @@
 
 Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis quetes/donnees/ par outils/apercu.py.
 
+Livre complet : 89 chapitres, 4 688 quêtes.
+
 
 ## Agriculture et élevage  (`bases_agriculture`, 23 quêtes)
 
@@ -152,7 +154,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Touche M : tout ce que tu as vu, les waystones, les claims. Un point de passage se pose d'un clic ; partagé dans le chat, il arrive chez les autres. La minicarte montre les joueurs proches.
 - **Cartographe** — tâches : checkmark Cartographe — récompense : xp 5 — après : table, xaero
 
-## Enchantement et forge  (`bases_enchantement_forge`, 23 quêtes)
+## Enchantement et forge  (`bases_enchantement_forge`, 27 quêtes)
 
 - **La table, l'enclume, la forge** — tâches : checkmark Lu — récompense : item minecraft:lapis_lazuli 16
   > Le vanilla, pas à pas. Ce que le pack y change (Easy Magic, Easy Anvils, l'infuseur) est au chapitre Enchantement des mods.
@@ -198,7 +200,15 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Guide, Façonneur, Éleveur, Hôte : au pinceau, dans le gravier suspect.
 - **Les ornements exclusifs** *(optionnelle)* — tâches : advancement minecraft:adventure/trim_with_all_exclusive_armor_patterns — récompense : xp 30 — après : ornement
   > Les huit modèles qui ne se trouvent qu'une fois par structure, tous posés (progrès « Smithing with Style »).
-- **Forgeron** — tâches : checkmark Forgeron — récompense : xp 5 — après : enclume, netherite, ornement
+- **Un premier enchantement** — tâches : advancement minecraft:story/enchant_item — récompense : xp 3 — après : table
+  > Un objet enchanté à la table (progrès du jeu).
+- **Une pièce de fer** — tâches : advancement minecraft:story/obtain_armor — récompense : xp 3 — après : intro
+  > Une pièce d'armure en fer (progrès du jeu).
+- **Une pièce de diamant** — tâches : advancement minecraft:story/shiny_gear — récompense : xp 5 — après : armure_fer
+  > Une pièce d'armure en diamant (progrès du jeu).
+- **L'armure de nétherite complète** — tâches : advancement minecraft:nether/netherite_armor — récompense : xp 10 — après : armure_diamant, netherite
+  > Les quatre pièces en nétherite (progrès du jeu), chacune forgée sur la pièce de diamant avec un lingot et un modèle. Au-delà, les paliers d'Advanced Netherite sont au chapitre Équipement de fin de partie.
+- **Forgeron** — tâches : checkmark Forgeron — récompense : xp 5 — après : enclume, enchanter, armure_netherite, ornement
 
 ## Musique et décor  (`bases_musique_decor`, 19 quêtes)
 
@@ -238,7 +248,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un sac d'encre lumineuse sur un panneau (progrès vanilla).
 - **Décorateur** — tâches : checkmark Décorateur — récompense : xp 5 — après : coffres, banniere
 
-## Pêche et océan  (`bases_peche`, 13 quêtes)
+## Pêche et océan  (`bases_peche`, 14 quêtes)
 
 - **Au bord de l'eau** — tâches : checkmark Lu — récompense : item minecraft:fishing_rod
   > La canne, les trésors qui mordent, les bêtes de l'eau, et deux mods de cuisine marine. Sous la pluie, ça mord plus vite.
@@ -264,7 +274,9 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Crabber's Delight : corde, dalles, bâtons (progrès du mod). Posé dans l'eau, il attrape crabes, crevettes, palourdes. Une palourde sur la planche à découper peut donner une perle (progrès du mod).
 - **Une soupe de gardien** *(optionnelle)* — tâches : item oceansdelight:guardian_soup — récompense : xp 5 — après : monument
   > Ocean's Delight cuisine les gardiens, les tentacules et les concombres de mer. Le détail au chapitre Cuisine.
-- **Marin** — tâches : checkmark Marin — récompense : xp 5 — après : quatre
+- **Cent poissons** — tâches : stat minecraft:fish_caught 100 — récompense : xp 10 — après : quatre
+  > Cent prises au total (statistique du jeu). Les trésors, livres enchantés et coquilles de nautile sortent de la même canne.
+- **Marin** — tâches : checkmark Marin — récompense : xp 5 — après : cent
 
 ## Redstone  (`bases_redstone`, 17 quêtes)
 
@@ -474,418 +486,1251 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **L'Encyclopédie complète** *(optionnelle)* — tâches : checkmark Toute l'Encyclopédie — récompense : xp 100
   > Chaque créature rencontrée, chaque biome visité, chaque structure, chaque plat, chaque disque, chaque trophée, chaque bûche, chaque arme. La récompense la plus rare du serveur, et elle ne vaut rien d'autre que l'avoir fait.
 
-## Armurerie  (`enc_armurerie`, 205 quêtes)
+## Autres armes et outils  (`enc_armes_autres`, 105 quêtes)
 
-- **Armurerie** — tâches : checkmark Lu — récompense : xp 2
-  > Chaque armure (son casque la représente) et chaque arme des mods d'aventure du pack : Aether, Twilight Forest, Blue Skies, Cataclysm, Iron's Spells, Advanced Netherite, Deeper and Darker, et les autres. Une quête se valide en ayant l'objet dans l'inventaire.
-- **Obtenir : « Netherite-Diamond Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_axe — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Diamond Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_helmet — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Diamond Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_sword — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Emerald Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_axe — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Emerald Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_helmet — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Emerald Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_sword — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Gold Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_axe — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Gold Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_helmet — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Gold Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_sword — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Iron Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_axe — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Iron Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_helmet — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Netherite-Iron Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_sword — récompense : xp 1
-  > Objet de advancednetherite.
-- **Obtenir : « Candy Cane Sword »** *(optionnelle)* — tâches : item aether:candy_cane_sword — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Cloud Staff »** *(optionnelle)* — tâches : item aether:cloud_staff — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Flaming Sword »** *(optionnelle)* — tâches : item aether:flaming_sword — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Gravitite Axe »** *(optionnelle)* — tâches : item aether:gravitite_axe — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Gravitite Helmet »** *(optionnelle)* — tâches : item aether:gravitite_helmet — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Gravitite Sword »** *(optionnelle)* — tâches : item aether:gravitite_sword — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Holy Sword »** *(optionnelle)* — tâches : item aether:holy_sword — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Holystone Axe »** *(optionnelle)* — tâches : item aether:holystone_axe — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Holystone Sword »** *(optionnelle)* — tâches : item aether:holystone_sword — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Lightning Sword »** *(optionnelle)* — tâches : item aether:lightning_sword — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Nature Staff »** *(optionnelle)* — tâches : item aether:nature_staff — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Neptune Helmet »** *(optionnelle)* — tâches : item aether:neptune_helmet — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Phoenix Bow »** *(optionnelle)* — tâches : item aether:phoenix_bow — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Phoenix Helmet »** *(optionnelle)* — tâches : item aether:phoenix_helmet — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Skyroot Axe »** *(optionnelle)* — tâches : item aether:skyroot_axe — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Skyroot Sword »** *(optionnelle)* — tâches : item aether:skyroot_sword — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Valkyrie Axe »** *(optionnelle)* — tâches : item aether:valkyrie_axe — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Valkyrie Helmet »** *(optionnelle)* — tâches : item aether:valkyrie_helmet — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Valkyrie Lance »** *(optionnelle)* — tâches : item aether:valkyrie_lance — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Zanite Axe »** *(optionnelle)* — tâches : item aether:zanite_axe — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Zanite Helmet »** *(optionnelle)* — tâches : item aether:zanite_helmet — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Zanite Sword »** *(optionnelle)* — tâches : item aether:zanite_sword — récompense : xp 1
-  > Objet de Aether.
-- **Obtenir : « Infused Veridium Axe »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_axe — récompense : xp 1
-  > Objet de Aether Redux.
-- **Obtenir : « Infused Veridium Sword »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_sword — récompense : xp 1
-  > Objet de Aether Redux.
-- **Obtenir : « Snailshell Shield »** *(optionnelle)* — tâches : item aether_redux:snailshell_shield — récompense : xp 1
-  > Objet de Aether Redux.
-- **Obtenir : « Veridium Axe »** *(optionnelle)* — tâches : item aether_redux:veridium_axe — récompense : xp 1
-  > Objet de Aether Redux.
-- **Obtenir : « Veridium Sword »** *(optionnelle)* — tâches : item aether_redux:veridium_sword — récompense : xp 1
-  > Objet de Aether Redux.
-- **Obtenir : « Aeternium Axe »** *(optionnelle)* — tâches : item betterend:aeternium_axe — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Aeternium Smith Hammer »** *(optionnelle)* — tâches : item betterend:aeternium_hammer — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Aeternium Helmet »** *(optionnelle)* — tâches : item betterend:aeternium_helmet — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Aeternium Sword »** *(optionnelle)* — tâches : item betterend:aeternium_sword — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Crystalite Helmet »** *(optionnelle)* — tâches : item betterend:crystalite_helmet — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Diamond Smith Hammer »** *(optionnelle)* — tâches : item betterend:diamond_hammer — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Golden Smith Hammer »** *(optionnelle)* — tâches : item betterend:golden_hammer — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Iron Smith Hammer »** *(optionnelle)* — tâches : item betterend:iron_hammer — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Netherite Smith Hammer »** *(optionnelle)* — tâches : item betterend:netherite_hammer — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Terminite Axe »** *(optionnelle)* — tâches : item betterend:terminite_axe — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Terminite Smith Hammer »** *(optionnelle)* — tâches : item betterend:terminite_hammer — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Terminite Helmet »** *(optionnelle)* — tâches : item betterend:terminite_helmet — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Terminite Sword »** *(optionnelle)* — tâches : item betterend:terminite_sword — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Thallasium Axe »** *(optionnelle)* — tâches : item betterend:thallasium_axe — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Thallasium Hammer »** *(optionnelle)* — tâches : item betterend:thallasium_hammer — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Thallasium Helmet »** *(optionnelle)* — tâches : item betterend:thallasium_helmet — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : « Thallasium Sword »** *(optionnelle)* — tâches : item betterend:thallasium_sword — récompense : xp 1
-  > Objet de Better End.
-- **Obtenir : Hache en Cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_axe — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : Cincinnasite Helmet** *(optionnelle)* — tâches : item betternether:cincinnasite_helmet — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : Cincinnasite Sword** *(optionnelle)* — tâches : item betternether:cincinnasite_sword — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : « Fireruby Axe »** *(optionnelle)* — tâches : item betternether:flaming_ruby_axe — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : « Fireruby Helmet »** *(optionnelle)* — tâches : item betternether:flaming_ruby_helmet — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : « Fireruby Sword »** *(optionnelle)* — tâches : item betternether:flaming_ruby_sword — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : Nether Ruby Axe** *(optionnelle)* — tâches : item betternether:nether_ruby_axe — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : Nether Ruby Helmet** *(optionnelle)* — tâches : item betternether:nether_ruby_helmet — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : Nether Ruby Sword** *(optionnelle)* — tâches : item betternether:nether_ruby_sword — récompense : xp 1
-  > Objet de Better Nether.
-- **Obtenir : Hache en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Casque en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_helmet — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en bois de lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Lance en lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_spear — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en bois lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Casque en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_helmet — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : « Comet Wood Axe »** *(optionnelle)* — tâches : item blue_skies:comet_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : « Comet Spear »** *(optionnelle)* — tâches : item blue_skies:comet_spear — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : « Comet Wood Sword »** *(optionnelle)* — tâches : item blue_skies:comet_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Marteau écraseur** *(optionnelle)* — tâches : item blue_skies:crushing_hammer — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée différente** *(optionnelle)* — tâches : item blue_skies:different_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Casque en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_helmet — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Lance en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_spear — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : lance en nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_spear — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Casque en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_helmet — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Lance lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_spear — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Lance en érable** *(optionnelle)* — tâches : item blue_skies:maple_spear — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Bouclier en pierre de lune** *(optionnelle)* — tâches : item blue_skies:moonstone_shield — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Casque en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_helmet — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Lance de garde** *(optionnelle)* — tâches : item blue_skies:soulbound_spear — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Bouclier spéléothème** *(optionnelle)* — tâches : item blue_skies:spike_shield — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Lance en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_spear — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Hache en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_axe — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : Épée en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_sword — récompense : xp 1
-  > Objet de Blue Skies.
-- **Obtenir : « Ancient Spear »** *(optionnelle)* — tâches : item cataclysm:ancient_spear — récompense : xp 1
-  > Objet de Cataclysm.
-- **Obtenir : « Azure Sea Shield »** *(optionnelle)* — tâches : item cataclysm:azure_sea_shield — récompense : xp 1
-  > Objet de Cataclysm.
-- **Obtenir : « Black Steel Axe »** *(optionnelle)* — tâches : item cataclysm:black_steel_axe — récompense : xp 1
-  > Objet de Cataclysm.
-- **Obtenir : « Black Steel Sword »** *(optionnelle)* — tâches : item cataclysm:black_steel_sword — récompense : xp 1
-  > Objet de Cataclysm.
-- **Obtenir : « Bone Reptile Helmet »** *(optionnelle)* — tâches : item cataclysm:bone_reptile_helmet — récompense : xp 1
-  > Objet de Cataclysm.
-- **Obtenir : « Cursed Bow »** *(optionnelle)* — tâches : item cataclysm:cursed_bow — récompense : xp 1
-  > Objet de Cataclysm.
-- **Obtenir : « Cursium Helmet »** *(optionnelle)* — tâches : item cataclysm:cursium_helmet — récompense : xp 1
-  > Objet de Cataclysm.
-- **Obtenir : « Ignitium Helmet »** *(optionnelle)* — tâches : item cataclysm:ignitium_helmet — récompense : xp 1
-  > Objet de Cataclysm.
-- **Obtenir : « Skyjade Axe »** *(optionnelle)* — tâches : item deep_aether:skyjade_axe — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Skyjade Helmet »** *(optionnelle)* — tâches : item deep_aether:skyjade_helmet — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Skyjade Sword »** *(optionnelle)* — tâches : item deep_aether:skyjade_sword — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Storm Bow »** *(optionnelle)* — tâches : item deep_aether:storm_bow — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Storm Sword »** *(optionnelle)* — tâches : item deep_aether:storm_sword — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Stormforged Helmet »** *(optionnelle)* — tâches : item deep_aether:stormforged_helmet — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Stratus Axe »** *(optionnelle)* — tâches : item deep_aether:stratus_axe — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Stratus Helmet »** *(optionnelle)* — tâches : item deep_aether:stratus_helmet — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Stratus Sword »** *(optionnelle)* — tâches : item deep_aether:stratus_sword — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Wind Shield »** *(optionnelle)* — tâches : item deep_aether:wind_shield — récompense : xp 1
-  > Objet de Deep Aether.
-- **Obtenir : « Resonarium Axe »** *(optionnelle)* — tâches : item deeperdarker:resonarium_axe — récompense : xp 1
-  > Objet de Deeper and Darker.
-- **Obtenir : « Resonarium Helmet »** *(optionnelle)* — tâches : item deeperdarker:resonarium_helmet — récompense : xp 1
-  > Objet de Deeper and Darker.
-- **Obtenir : « Resonarium Sword »** *(optionnelle)* — tâches : item deeperdarker:resonarium_sword — récompense : xp 1
-  > Objet de Deeper and Darker.
-- **Obtenir : « Sonorous Staff »** *(optionnelle)* — tâches : item deeperdarker:sonorous_staff — récompense : xp 1
-  > Objet de Deeper and Darker.
-- **Obtenir : Hache du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_axe — récompense : xp 1
-  > Objet de Deeper and Darker.
-- **Obtenir : Casque du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_helmet — récompense : xp 1
-  > Objet de Deeper and Darker.
-- **Obtenir : Épée du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_sword — récompense : xp 1
-  > Objet de Deeper and Darker.
-- **Obtenir : « Dragon Axe »** *(optionnelle)* — tâches : item dragonloot:dragon_axe — récompense : xp 1
-  > Objet de dragonloot.
-- **Obtenir : « Dragon Scale Helmet »** *(optionnelle)* — tâches : item dragonloot:dragon_helmet — récompense : xp 1
-  > Objet de dragonloot.
-- **Obtenir : « Dragon Sword »** *(optionnelle)* — tâches : item dragonloot:dragon_sword — récompense : xp 1
-  > Objet de dragonloot.
-- **Obtenir : « Sterling Helmet »** *(optionnelle)* — tâches : item galosphere:sterling_helmet — récompense : xp 1
-  > Objet de Galosphere.
-- **Obtenir : Chapeau de l'Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:archevoker_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Arbalète à Chargement Automatique** *(optionnelle)* — tâches : item irons_spellbooks:autoloader_crossbow — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Le Bâton de Sang** *(optionnelle)* — tâches : item irons_spellbooks:blood_staff — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Capuche du Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:cryomancer_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Capuche du Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:cultist_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Faux Décrépite** *(optionnelle)* — tâches : item irons_spellbooks:decrepit_scythe — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Chapeau de l'Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:electromancer_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Bâton de Barbe-Grise** *(optionnelle)* — tâches : item irons_spellbooks:graybeard_staff — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Bâton de Glace** *(optionnelle)* — tâches : item irons_spellbooks:ice_staff — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Chapeau du Mage de Guerre en Nétherite** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Masque Pesteux** *(optionnelle)* — tâches : item irons_spellbooks:plagued_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Masque du Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:priest_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Chapeau d'Épouvantail** *(optionnelle)* — tâches : item irons_spellbooks:pumpkin_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Bâton de Pyrium** *(optionnelle)* — tâches : item irons_spellbooks:pyrium_staff — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Chapeau du Pyromancien** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Masque du Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:shadowwalker_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Capuche du Magicien Errant** *(optionnelle)* — tâches : item irons_spellbooks:wandering_magician_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Casque du Sorcier** *(optionnelle)* — tâches : item irons_spellbooks:wizard_helmet — récompense : xp 1
-  > Objet de Iron's Spells.
-- **Obtenir : Dague en dent de naga** *(optionnelle)* — tâches : item mowziesmobs:naga_fang_dagger — récompense : xp 1
-  > Objet de Mowzie's Mobs.
-- **Obtenir : « Geomancer Staff »** *(optionnelle)* — tâches : item mowziesmobs:sculptor_staff — récompense : xp 1
-  > Objet de Mowzie's Mobs.
-- **Obtenir : Hache des milles métaux** *(optionnelle)* — tâches : item mowziesmobs:wrought_axe — récompense : xp 1
-  > Objet de Mowzie's Mobs.
-- **Obtenir : Casque de Chevalier Forgé** *(optionnelle)* — tâches : item mowziesmobs:wrought_helmet — récompense : xp 1
-  > Objet de Mowzie's Mobs.
-- **Obtenir : « §cAwful Dagger »** *(optionnelle)* — tâches : item stalwart_dungeons:awful_dagger — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eChorundum Helmet »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_armor_helmet — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eChorundum Axe »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_axe — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eChorundum Shield »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_shield — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eChorundum Sword »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_sword — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « Diamond Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:diamond_hammer — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « Golden Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:golden_hammer — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « Iron Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:iron_hammer — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §cNether Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:nether_hammer — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « Netherite Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:netherite_hammer — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « Stone Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:stone_hammer — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eTungsten Axe »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_axe — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eTungsten Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_hammer — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eTungsten Helmet »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_helmet — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eTungsten Shield »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_shield — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eTungsten Sword »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_sword — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eWarted Helmet »** *(optionnelle)* — tâches : item stalwart_dungeons:warted_tungsten_helmet — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « §eWarted Shield »** *(optionnelle)* — tâches : item stalwart_dungeons:warted_tungsten_shield — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : « Wooden Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:wooden_hammer — récompense : xp 1
-  > Objet de Stalwart Dungeons.
-- **Obtenir : Capuche arctique** *(optionnelle)* — tâches : item twilightforest:arctic_helmet — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Hache en diamant du Minotaure** *(optionnelle)* — tâches : item twilightforest:diamond_minotaur_axe — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Arc de l'Ender** *(optionnelle)* — tâches : item twilightforest:ender_bow — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Casque ardent** *(optionnelle)* — tâches : item twilightforest:fiery_helmet — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Épée ardente** *(optionnelle)* — tâches : item twilightforest:fiery_sword — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Épée de géant** *(optionnelle)* — tâches : item twilightforest:giant_sword — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Épée en verre** *(optionnelle)* — tâches : item twilightforest:glass_sword — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Arc gelé** *(optionnelle)* — tâches : item twilightforest:ice_bow — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Épée gelée** *(optionnelle)* — tâches : item twilightforest:ice_sword — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Hache en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_axe — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Casque en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_helmet — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Épée en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_sword — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Hache chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_axe — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Casque chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_helmet — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Bouclier chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_shield — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Épée chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_sword — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Casque de fantôme** *(optionnelle)* — tâches : item twilightforest:phantom_helmet — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Arc du chercheur** *(optionnelle)* — tâches : item twilightforest:seeker_bow — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Hache en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_axe — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Casque en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_helmet — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Épée en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_sword — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : « Tri-Bow »** *(optionnelle)* — tâches : item twilightforest:triple_bow — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Obtenir : Casque orné de Yéti** *(optionnelle)* — tâches : item twilightforest:yeti_helmet — récompense : xp 1
-  > Objet de Twilight Forest.
-- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
-  > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+- **Autres armes et outils** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque autres arme du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+- **« Cloud Staff »** *(optionnelle)* — tâches : item aether:cloud_staff — récompense : xp 1
+  > Arme de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Lightning Knife »** *(optionnelle)* — tâches : item aether:lightning_knife — récompense : xp 1
+  > Arme de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Nature Staff »** *(optionnelle)* — tâches : item aether:nature_staff — récompense : xp 1
+  > Arme de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Fouet de tendon** *(optionnelle)* — tâches : item alexsmobs:tendon_whip — récompense : xp 1
+  > Arme de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **« Hammer »** *(optionnelle)* — tâches : item another_furniture:furniture_hammer — récompense : xp 1
+  > Arme de Another Furniture. À garder : la livraison n'est pas consommée.
+- **« Aeternium Smith Hammer »** *(optionnelle)* — tâches : item betterend:aeternium_hammer — récompense : xp 1
+  > Arme de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Diamond Smith Hammer »** *(optionnelle)* — tâches : item betterend:diamond_hammer — récompense : xp 1
+  > Arme de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Golden Smith Hammer »** *(optionnelle)* — tâches : item betterend:golden_hammer — récompense : xp 1
+  > Arme de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Iron Smith Hammer »** *(optionnelle)* — tâches : item betterend:iron_hammer — récompense : xp 1
+  > Arme de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Netherite Smith Hammer »** *(optionnelle)* — tâches : item betterend:netherite_hammer — récompense : xp 1
+  > Arme de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Smith Hammer »** *(optionnelle)* — tâches : item betterend:terminite_hammer — récompense : xp 1
+  > Arme de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Hammer »** *(optionnelle)* — tâches : item betterend:thallasium_hammer — récompense : xp 1
+  > Arme de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Lance en lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_spear — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Comet Spear »** *(optionnelle)* — tâches : item blue_skies:comet_spear — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Marteau écraseur** *(optionnelle)* — tâches : item blue_skies:crushing_hammer — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Lance en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_spear — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Lance en nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_spear — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Lance lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_spear — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Lance en érable** *(optionnelle)* — tâches : item blue_skies:maple_spear — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Lance de garde** *(optionnelle)* — tâches : item blue_skies:soulbound_spear — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Lance en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_spear — récompense : xp 1
+  > Arme de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Ancient Spear »** *(optionnelle)* — tâches : item cataclysm:ancient_spear — récompense : xp 1
+  > Arme de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Sonorous Staff »** *(optionnelle)* — tâches : item deeperdarker:sonorous_staff — récompense : xp 1
+  > Arme de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Bone Knife »** *(optionnelle)* — tâches : item delightful:bone_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Brass Knife »** *(optionnelle)* — tâches : item delightful:brass_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Gravitite Knife »** *(optionnelle)* — tâches : item delightful:gravitite_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Holystone Knife »** *(optionnelle)* — tâches : item delightful:holystone_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Infused Veridium Knife »** *(optionnelle)* — tâches : item delightful:infused_veridium_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Nether Quartz Knife »** *(optionnelle)* — tâches : item delightful:nether_quartz_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Resonarium Knife »** *(optionnelle)* — tâches : item delightful:resonarium_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Skyjade Knife »** *(optionnelle)* — tâches : item delightful:skyjade_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Skyroot Knife »** *(optionnelle)* — tâches : item delightful:skyroot_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Steel Knife »** *(optionnelle)* — tâches : item delightful:steel_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Stratus Knife »** *(optionnelle)* — tâches : item delightful:stratus_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Veridium Knife »** *(optionnelle)* — tâches : item delightful:veridium_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Warden Knife »** *(optionnelle)* — tâches : item delightful:warden_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Zanite Knife »** *(optionnelle)* — tâches : item delightful:zanite_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **« Zinc Knife »** *(optionnelle)* — tâches : item delightful:zinc_knife — récompense : xp 1
+  > Arme de Delightful. À garder : la livraison n'est pas consommée.
+- **Couteau en diamant** *(optionnelle)* — tâches : item farmersdelight:diamond_knife — récompense : xp 1
+  > Arme de Farmer's Delight. À garder : la livraison n'est pas consommée.
+- **Couteau en silex** *(optionnelle)* — tâches : item farmersdelight:flint_knife — récompense : xp 1
+  > Arme de Farmer's Delight. À garder : la livraison n'est pas consommée.
+- **Couteau en or** *(optionnelle)* — tâches : item farmersdelight:golden_knife — récompense : xp 1
+  > Arme de Farmer's Delight. À garder : la livraison n'est pas consommée.
+- **Couteau en fer** *(optionnelle)* — tâches : item farmersdelight:iron_knife — récompense : xp 1
+  > Arme de Farmer's Delight. À garder : la livraison n'est pas consommée.
+- **Couteau en Netherite** *(optionnelle)* — tâches : item farmersdelight:netherite_knife — récompense : xp 1
+  > Arme de Farmer's Delight. À garder : la livraison n'est pas consommée.
+- **« Grimoire Staff »** *(optionnelle)* — tâches : item hazennstuff:grimoire_staff — récompense : xp 1
+  > Arme de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Le Bâton de Sang** *(optionnelle)* — tâches : item irons_spellbooks:blood_staff — récompense : xp 1
+  > Arme de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bâton de Barbe-Grise** *(optionnelle)* — tâches : item irons_spellbooks:graybeard_staff — récompense : xp 1
+  > Arme de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bâton de Glace** *(optionnelle)* — tâches : item irons_spellbooks:ice_staff — récompense : xp 1
+  > Arme de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bâton de Pyrium** *(optionnelle)* — tâches : item irons_spellbooks:pyrium_staff — récompense : xp 1
+  > Arme de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Diamond Destructor Hammer »** *(optionnelle)* — tâches : item justhammers:diamond_destructor_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Diamond Hammer »** *(optionnelle)* — tâches : item justhammers:diamond_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Diamond Impact Hammer »** *(optionnelle)* — tâches : item justhammers:diamond_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Diamond Reinforced Hammer »** *(optionnelle)* — tâches : item justhammers:diamond_reinforced_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Diamond Reinforced Impact Hammer »** *(optionnelle)* — tâches : item justhammers:diamond_reinforced_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Gold Destructor Hammer »** *(optionnelle)* — tâches : item justhammers:gold_destructor_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Gold Hammer »** *(optionnelle)* — tâches : item justhammers:gold_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Gold Impact Hammer »** *(optionnelle)* — tâches : item justhammers:gold_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Gold Reinforced Hammer »** *(optionnelle)* — tâches : item justhammers:gold_reinforced_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Gold Reinforced Impact Hammer »** *(optionnelle)* — tâches : item justhammers:gold_reinforced_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Iron Destructor Hammer »** *(optionnelle)* — tâches : item justhammers:iron_destructor_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Iron Hammer »** *(optionnelle)* — tâches : item justhammers:iron_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Iron Impact Hammer »** *(optionnelle)* — tâches : item justhammers:iron_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Iron Reinforced Hammer »** *(optionnelle)* — tâches : item justhammers:iron_reinforced_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Iron Reinforced Impact Hammer »** *(optionnelle)* — tâches : item justhammers:iron_reinforced_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Netherite Destructor Hammer »** *(optionnelle)* — tâches : item justhammers:netherite_destructor_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Netherite Hammer »** *(optionnelle)* — tâches : item justhammers:netherite_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Netherite Impact Hammer »** *(optionnelle)* — tâches : item justhammers:netherite_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Netherite Reinforced Hammer »** *(optionnelle)* — tâches : item justhammers:netherite_reinforced_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Netherite Reinforced Impact Hammer »** *(optionnelle)* — tâches : item justhammers:netherite_reinforced_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Stone Destructor Hammer »** *(optionnelle)* — tâches : item justhammers:stone_destructor_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Stone Hammer »** *(optionnelle)* — tâches : item justhammers:stone_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Stone Impact Hammer »** *(optionnelle)* — tâches : item justhammers:stone_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Stone Reinforced Hammer »** *(optionnelle)* — tâches : item justhammers:stone_reinforced_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **« Stone Reinforced Impact Hammer »** *(optionnelle)* — tâches : item justhammers:stone_reinforced_impact_hammer — récompense : xp 1
+  > Arme de Just Hammers. À garder : la livraison n'est pas consommée.
+- **Dague en dent de naga** *(optionnelle)* — tâches : item mowziesmobs:naga_fang_dagger — récompense : xp 1
+  > Arme de Mowzie's Mobs. Ses paliers sont au chapitre Mowzie's Mobs. À garder : la livraison n'est pas consommée.
+- **« Geomancer Staff »** *(optionnelle)* — tâches : item mowziesmobs:sculptor_staff — récompense : xp 1
+  > Arme de Mowzie's Mobs. Ses paliers sont au chapitre Mowzie's Mobs. À garder : la livraison n'est pas consommée.
+- **Faux en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_scythe — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faucille en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_sickle — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faux en Diamant** *(optionnelle)* — tâches : item mysticalagriculture:diamond_scythe — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faucille en Diamant** *(optionnelle)* — tâches : item mysticalagriculture:diamond_sickle — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faux en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_scythe — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faucille en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_sickle — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faux en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_scythe — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faucille en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_sickle — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faux en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_scythe — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faucille en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_sickle — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faux en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_scythe — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faucille en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_sickle — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faux en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_scythe — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Faucille en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_sickle — récompense : xp 1
+  > Arme de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **« §cAwful Dagger »** *(optionnelle)* — tâches : item stalwart_dungeons:awful_dagger — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« Diamond Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:diamond_hammer — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« Golden Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:golden_hammer — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« Iron Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:iron_hammer — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« §cNether Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:nether_hammer — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« Netherite Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:netherite_hammer — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« Stone Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:stone_hammer — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« §eTungsten Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_hammer — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« Wooden Hammer »** *(optionnelle)* — tâches : item stalwart_dungeons:wooden_hammer — récompense : xp 1
+  > Arme de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« Fiery Knife »** *(optionnelle)* — tâches : item twilightdelight:fiery_knife — récompense : xp 1
+  > Arme de Twilight's Flavor Delight. À garder : la livraison n'est pas consommée.
+- **« Ironwood Knife »** *(optionnelle)* — tâches : item twilightdelight:ironwood_knife — récompense : xp 1
+  > Arme de Twilight's Flavor Delight. À garder : la livraison n'est pas consommée.
+- **« Knightly Knife »** *(optionnelle)* — tâches : item twilightdelight:knightmetal_knife — récompense : xp 1
+  > Arme de Twilight's Flavor Delight. À garder : la livraison n'est pas consommée.
+- **« Steeleaf Knife »** *(optionnelle)* — tâches : item twilightdelight:steeleaf_knife — récompense : xp 1
+  > Arme de Twilight's Flavor Delight. À garder : la livraison n'est pas consommée.
+- **Toutes les autres armes** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20
+  > Toutes les autres armes de ce chapitre réunies.
+- **Tout l'arsenal** *(optionnelle)* — tâches : checkmark Tout l'arsenal — récompense : xp 50
+  > Épées, pioches, haches, pelles, houes, armes à distance, boucliers et le reste : chaque arme et chaque outil du pack que ce serveur permet d'obtenir.
+
+## Armes à distance  (`enc_armes_distance`, 34 quêtes)
+
+- **Armes à distance** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque armes à distance du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+- **Arc** *(optionnelle)* — tâches : item minecraft:bow — récompense : xp 1
+  > Arme à distance de Minecraft. À garder : la livraison n'est pas consommée.
+- **Arbalète** *(optionnelle)* — tâches : item minecraft:crossbow — récompense : xp 1
+  > Arme à distance de Minecraft. À garder : la livraison n'est pas consommée.
+- **Trident** *(optionnelle)* — tâches : item minecraft:trident — récompense : xp 1
+  > Arme à distance de Minecraft. À garder : la livraison n'est pas consommée.
+- **« Enchanted Dart Shooter »** *(optionnelle)* — tâches : item aether:enchanted_dart_shooter — récompense : xp 1
+  > Arme à distance de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Golden Dart Shooter »** *(optionnelle)* — tâches : item aether:golden_dart_shooter — récompense : xp 1
+  > Arme à distance de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Phoenix Bow »** *(optionnelle)* — tâches : item aether:phoenix_bow — récompense : xp 1
+  > Arme à distance de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Poison Dart Shooter »** *(optionnelle)* — tâches : item aether:poison_dart_shooter — récompense : xp 1
+  > Arme à distance de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Infused Veridium Dart Shooter »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_dart_shooter — récompense : xp 1
+  > Arme à distance de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Subzero Crossbow »** *(optionnelle)* — tâches : item aether_redux:subzero_crossbow — récompense : xp 1
+  > Arme à distance de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Veridium Dart Shooter »** *(optionnelle)* — tâches : item aether_redux:veridium_dart_shooter — récompense : xp 1
+  > Arme à distance de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Cursed Bow »** *(optionnelle)* — tâches : item cataclysm:cursed_bow — récompense : xp 1
+  > Arme à distance de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Storm Bow »** *(optionnelle)* — tâches : item deep_aether:storm_bow — récompense : xp 1
+  > Arme à distance de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Dragon Bow »** *(optionnelle)* — tâches : item dragonloot:dragon_bow — récompense : xp 1
+  > Arme à distance de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **« Dragon Crossbow »** *(optionnelle)* — tâches : item dragonloot:dragon_crossbow — récompense : xp 1
+  > Arme à distance de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **« Dragon Trident »** *(optionnelle)* — tâches : item dragonloot:dragon_trident — récompense : xp 1
+  > Arme à distance de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **Arbalète à Chargement Automatique** *(optionnelle)* — tâches : item irons_spellbooks:autoloader_crossbow — récompense : xp 1
+  > Arme à distance de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Arc en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_bow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arbalète en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_crossbow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arc en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_bow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arbalète en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_crossbow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arc en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_bow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arbalète en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_crossbow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arc en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_bow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arbalète en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_crossbow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arc en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_bow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arbalète en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_crossbow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arc en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_bow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arbalète en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_crossbow — récompense : xp 1
+  > Arme à distance de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Arc de l'Ender** *(optionnelle)* — tâches : item twilightforest:ender_bow — récompense : xp 1
+  > Arme à distance de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Arc gelé** *(optionnelle)* — tâches : item twilightforest:ice_bow — récompense : xp 1
+  > Arme à distance de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Arc du chercheur** *(optionnelle)* — tâches : item twilightforest:seeker_bow — récompense : xp 1
+  > Arme à distance de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **« Tri-Bow »** *(optionnelle)* — tâches : item twilightforest:triple_bow — récompense : xp 1
+  > Arme à distance de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Toutes les armes à distance** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20 — après : minecraft_bow, minecraft_crossbow, minecraft_trident, aether_enchanted_dart_shooter, aether_golden_dart_shooter, aether_phoenix_bow, aether_poison_dart_shooter, aether_redux_infused_veridium_dart_shooter, aether_redux_subzero_crossbow, aether_redux_veridium_dart_shooter, cataclysm_cursed_bow, deep_aether_storm_bow, dragonloot_dragon_bow, dragonloot_dragon_crossbow, dragonloot_dragon_trident, irons_spellbooks_autoloader_crossbow, mysticalagriculture_awakened_supremium_bow, mysticalagriculture_awakened_supremium_crossbow, mysticalagriculture_imperium_bow, mysticalagriculture_imperium_crossbow, mysticalagriculture_inferium_bow, mysticalagriculture_inferium_crossbow, mysticalagriculture_prudentium_bow, mysticalagriculture_prudentium_crossbow, mysticalagriculture_supremium_bow, mysticalagriculture_supremium_crossbow, mysticalagriculture_tertium_bow, mysticalagriculture_tertium_crossbow, twilightforest_ender_bow, twilightforest_ice_bow, twilightforest_seeker_bow, twilightforest_triple_bow
+  > Toutes les armes à distance de ce chapitre réunies.
+
+## Armurerie — dimensions  (`enc_armurerie_dimensions`, 164 quêtes)
+
+- **Armurerie — dimensions** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque pièce d'armure des dimensions, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé.
+  >   > Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre.
+- **« Chainmail Gloves »** *(optionnelle)* — tâches : item aether:chainmail_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Diamond Gloves »** *(optionnelle)* — tâches : item aether:diamond_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Golden Gloves »** *(optionnelle)* — tâches : item aether:golden_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Gravitite Helmet »** *(optionnelle)* — tâches : item aether:gravitite_helmet — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Gravitite Chestplate »** *(optionnelle)* — tâches : item aether:gravitite_chestplate — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Gravitite Leggings »** *(optionnelle)* — tâches : item aether:gravitite_leggings — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Gravitite Boots »** *(optionnelle)* — tâches : item aether:gravitite_boots — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Gravitite Gloves »** *(optionnelle)* — tâches : item aether:gravitite_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Gravitite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Gravitite »** *(optionnelle)* — tâches : item aether:gravitite_helmet, item aether:gravitite_chestplate, item aether:gravitite_leggings, item aether:gravitite_boots, item aether:gravitite_gloves — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Gravitite » (5), ensemble dans l'inventaire.
+- **« Iron Gloves »** *(optionnelle)* — tâches : item aether:iron_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Leather Gloves »** *(optionnelle)* — tâches : item aether:leather_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Neptune Helmet »** *(optionnelle)* — tâches : item aether:neptune_helmet — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Neptune Chestplate »** *(optionnelle)* — tâches : item aether:neptune_chestplate — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Neptune Leggings »** *(optionnelle)* — tâches : item aether:neptune_leggings — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Neptune Boots »** *(optionnelle)* — tâches : item aether:neptune_boots — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Neptune Gloves »** *(optionnelle)* — tâches : item aether:neptune_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Neptune ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Neptune »** *(optionnelle)* — tâches : item aether:neptune_helmet, item aether:neptune_chestplate, item aether:neptune_leggings, item aether:neptune_boots, item aether:neptune_gloves — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Neptune » (5), ensemble dans l'inventaire.
+- **« Netherite Gloves »** *(optionnelle)* — tâches : item aether:netherite_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Phoenix Helmet »** *(optionnelle)* — tâches : item aether:phoenix_helmet — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Phoenix Chestplate »** *(optionnelle)* — tâches : item aether:phoenix_chestplate — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Phoenix Leggings »** *(optionnelle)* — tâches : item aether:phoenix_leggings — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Phoenix Boots »** *(optionnelle)* — tâches : item aether:phoenix_boots — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Phoenix Gloves »** *(optionnelle)* — tâches : item aether:phoenix_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Phoenix ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Phoenix »** *(optionnelle)* — tâches : item aether:phoenix_helmet, item aether:phoenix_chestplate, item aether:phoenix_leggings, item aether:phoenix_boots, item aether:phoenix_gloves — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Phoenix » (5), ensemble dans l'inventaire.
+- **« Sentry Boots »** *(optionnelle)* — tâches : item aether:sentry_boots — récompense : xp 1
+  > Pièce d'armure de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Helmet »** *(optionnelle)* — tâches : item aether:valkyrie_helmet — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Chestplate »** *(optionnelle)* — tâches : item aether:valkyrie_chestplate — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Leggings »** *(optionnelle)* — tâches : item aether:valkyrie_leggings — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Boots »** *(optionnelle)* — tâches : item aether:valkyrie_boots — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Gloves »** *(optionnelle)* — tâches : item aether:valkyrie_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Valkyrie ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Valkyrie »** *(optionnelle)* — tâches : item aether:valkyrie_helmet, item aether:valkyrie_chestplate, item aether:valkyrie_leggings, item aether:valkyrie_boots, item aether:valkyrie_gloves — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Valkyrie » (5), ensemble dans l'inventaire.
+- **« Zanite Helmet »** *(optionnelle)* — tâches : item aether:zanite_helmet — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Chestplate »** *(optionnelle)* — tâches : item aether:zanite_chestplate — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Leggings »** *(optionnelle)* — tâches : item aether:zanite_leggings — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Boots »** *(optionnelle)* — tâches : item aether:zanite_boots — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Gloves »** *(optionnelle)* — tâches : item aether:zanite_gloves — récompense : xp 1
+  > Pièce d'armure de Aether. Elle fait partie de l'ensemble « Zanite ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Zanite »** *(optionnelle)* — tâches : item aether:zanite_helmet, item aether:zanite_chestplate, item aether:zanite_leggings, item aether:zanite_boots, item aether:zanite_gloves — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Zanite » (5), ensemble dans l'inventaire.
+- **« Aeternium Helmet »** *(optionnelle)* — tâches : item betterend:aeternium_helmet — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Aeternium Chestplate »** *(optionnelle)* — tâches : item betterend:aeternium_chestplate — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Aeternium Leggings »** *(optionnelle)* — tâches : item betterend:aeternium_leggings — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Aeternium Boots »** *(optionnelle)* — tâches : item betterend:aeternium_boots — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Aeternium ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Ensemble « Aeternium »** *(optionnelle)* — tâches : item betterend:aeternium_helmet, item betterend:aeternium_chestplate, item betterend:aeternium_leggings, item betterend:aeternium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Aeternium » (4), ensemble dans l'inventaire.
+- **« Crystalite Helmet »** *(optionnelle)* — tâches : item betterend:crystalite_helmet — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Crystalite Chestplate »** *(optionnelle)* — tâches : item betterend:crystalite_chestplate — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Crystalite Leggings »** *(optionnelle)* — tâches : item betterend:crystalite_leggings — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Crystalite Boots »** *(optionnelle)* — tâches : item betterend:crystalite_boots — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Crystalite ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Ensemble « Crystalite »** *(optionnelle)* — tâches : item betterend:crystalite_helmet, item betterend:crystalite_chestplate, item betterend:crystalite_leggings, item betterend:crystalite_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Crystalite » (4), ensemble dans l'inventaire.
+- **« Terminite Helmet »** *(optionnelle)* — tâches : item betterend:terminite_helmet — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Chestplate »** *(optionnelle)* — tâches : item betterend:terminite_chestplate — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Leggings »** *(optionnelle)* — tâches : item betterend:terminite_leggings — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Boots »** *(optionnelle)* — tâches : item betterend:terminite_boots — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Terminite ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Ensemble « Terminite »** *(optionnelle)* — tâches : item betterend:terminite_helmet, item betterend:terminite_chestplate, item betterend:terminite_leggings, item betterend:terminite_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Terminite » (4), ensemble dans l'inventaire.
+- **« Thallasium Helmet »** *(optionnelle)* — tâches : item betterend:thallasium_helmet — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Chestplate »** *(optionnelle)* — tâches : item betterend:thallasium_chestplate — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Leggings »** *(optionnelle)* — tâches : item betterend:thallasium_leggings — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Boots »** *(optionnelle)* — tâches : item betterend:thallasium_boots — récompense : xp 1
+  > Pièce d'armure de Better End. Elle fait partie de l'ensemble « Thallasium ». Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Ensemble « Thallasium »** *(optionnelle)* — tâches : item betterend:thallasium_helmet, item betterend:thallasium_chestplate, item betterend:thallasium_leggings, item betterend:thallasium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Thallasium » (4), ensemble dans l'inventaire.
+- **Cincinnasite Helmet** *(optionnelle)* — tâches : item betternether:cincinnasite_helmet — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Cincinnasite Chestplate** *(optionnelle)* — tâches : item betternether:cincinnasite_chestplate — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Cincinnasite Leggings** *(optionnelle)* — tâches : item betternether:cincinnasite_leggings — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Cincinnasite Boots** *(optionnelle)* — tâches : item betternether:cincinnasite_boots — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Cincinnasite ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Cincinnasite »** *(optionnelle)* — tâches : item betternether:cincinnasite_helmet, item betternether:cincinnasite_chestplate, item betternether:cincinnasite_leggings, item betternether:cincinnasite_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Cincinnasite » (4), ensemble dans l'inventaire.
+- **« Fireruby Helmet »** *(optionnelle)* — tâches : item betternether:flaming_ruby_helmet — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **« Fireruby Chestplate »** *(optionnelle)* — tâches : item betternether:flaming_ruby_chestplate — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **« Fireruby Leggings »** *(optionnelle)* — tâches : item betternether:flaming_ruby_leggings — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **« Fireruby Boots »** *(optionnelle)* — tâches : item betternether:flaming_ruby_boots — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Fireruby ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Fireruby »** *(optionnelle)* — tâches : item betternether:flaming_ruby_helmet, item betternether:flaming_ruby_chestplate, item betternether:flaming_ruby_leggings, item betternether:flaming_ruby_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Fireruby » (4), ensemble dans l'inventaire.
+- **Nether Ruby Helmet** *(optionnelle)* — tâches : item betternether:nether_ruby_helmet — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Nether Ruby Chestplate** *(optionnelle)* — tâches : item betternether:nether_ruby_chestplate — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Nether Ruby Leggings** *(optionnelle)* — tâches : item betternether:nether_ruby_leggings — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Nether Ruby Boots** *(optionnelle)* — tâches : item betternether:nether_ruby_boots — récompense : xp 1
+  > Pièce d'armure de Better Nether. Elle fait partie de l'ensemble « Nether Ruby ». Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Nether Ruby »** *(optionnelle)* — tâches : item betternether:nether_ruby_helmet, item betternether:nether_ruby_chestplate, item betternether:nether_ruby_leggings, item betternether:nether_ruby_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Nether Ruby » (4), ensemble dans l'inventaire.
+- **Casque en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_helmet — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Plastron en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_chestplate — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Jambières en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_leggings — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Bottes en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_boots — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en aquite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Ensemble en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_helmet, item blue_skies:aquite_chestplate, item blue_skies:aquite_leggings, item blue_skies:aquite_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en aquite (4), ensemble dans l'inventaire.
+- **Casque en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_helmet — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Plastron en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_chestplate — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Jambières en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_leggings — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Bottes en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_boots — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en charoite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Ensemble en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_helmet, item blue_skies:charoite_chestplate, item blue_skies:charoite_leggings, item blue_skies:charoite_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en charoite (4), ensemble dans l'inventaire.
+- **Casque en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_helmet — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Plastron en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_chestplate — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Jambières en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_leggings — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Bottes en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_boots — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en diopside. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Ensemble en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_helmet, item blue_skies:diopside_chestplate, item blue_skies:diopside_leggings, item blue_skies:diopside_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en diopside (4), ensemble dans l'inventaire.
+- **Casque en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_helmet — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Plastron en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_chestplate — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Jambières en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_leggings — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Bottes en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_boots — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en horizonite. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Ensemble en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_helmet, item blue_skies:horizonite_chestplate, item blue_skies:horizonite_leggings, item blue_skies:horizonite_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en horizonite (4), ensemble dans l'inventaire.
+- **Casque en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_helmet — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Plastron en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_chestplate — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Jambières en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_leggings — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Bottes en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_boots — récompense : xp 1
+  > Pièce d'armure de Blue Skies. Elle fait partie de l'ensemble en pyrope. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Ensemble en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_helmet, item blue_skies:pyrope_chestplate, item blue_skies:pyrope_leggings, item blue_skies:pyrope_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en pyrope (4), ensemble dans l'inventaire.
+- **« Skyjade Helmet »** *(optionnelle)* — tâches : item deep_aether:skyjade_helmet — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyjade Chestplate »** *(optionnelle)* — tâches : item deep_aether:skyjade_chestplate — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyjade Leggings »** *(optionnelle)* — tâches : item deep_aether:skyjade_leggings — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyjade Boots »** *(optionnelle)* — tâches : item deep_aether:skyjade_boots — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyjade Gloves »** *(optionnelle)* — tâches : item deep_aether:skyjade_gloves — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Skyjade ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Skyjade »** *(optionnelle)* — tâches : item deep_aether:skyjade_helmet, item deep_aether:skyjade_chestplate, item deep_aether:skyjade_leggings, item deep_aether:skyjade_boots, item deep_aether:skyjade_gloves — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Skyjade » (5), ensemble dans l'inventaire.
+- **« Stormforged Helmet »** *(optionnelle)* — tâches : item deep_aether:stormforged_helmet — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stormforged Chestplate »** *(optionnelle)* — tâches : item deep_aether:stormforged_chestplate — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stormforged Leggings »** *(optionnelle)* — tâches : item deep_aether:stormforged_leggings — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stormforged Boots »** *(optionnelle)* — tâches : item deep_aether:stormforged_boots — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stormforged Gloves »** *(optionnelle)* — tâches : item deep_aether:stormforged_gloves — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stormforged ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Stormforged »** *(optionnelle)* — tâches : item deep_aether:stormforged_helmet, item deep_aether:stormforged_chestplate, item deep_aether:stormforged_leggings, item deep_aether:stormforged_boots, item deep_aether:stormforged_gloves — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Stormforged » (5), ensemble dans l'inventaire.
+- **« Stratus Helmet »** *(optionnelle)* — tâches : item deep_aether:stratus_helmet — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Chestplate »** *(optionnelle)* — tâches : item deep_aether:stratus_chestplate — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Leggings »** *(optionnelle)* — tâches : item deep_aether:stratus_leggings — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Boots »** *(optionnelle)* — tâches : item deep_aether:stratus_boots — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Gloves »** *(optionnelle)* — tâches : item deep_aether:stratus_gloves — récompense : xp 1
+  > Pièce d'armure de Deep Aether. Elle fait partie de l'ensemble « Stratus ». Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Ensemble « Stratus »** *(optionnelle)* — tâches : item deep_aether:stratus_helmet, item deep_aether:stratus_chestplate, item deep_aether:stratus_leggings, item deep_aether:stratus_boots, item deep_aether:stratus_gloves — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Stratus » (5), ensemble dans l'inventaire.
+- **Bottes d'Agilité** *(optionnelle)* — tâches : item lost_aether_content:agility_boots — récompense : xp 1
+  > Pièce d'armure de Lost Aether Content. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Gants de Puissance** *(optionnelle)* — tâches : item lost_aether_content:power_gloves — récompense : xp 1
+  > Pièce d'armure de Lost Aether Content. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Masque doux** *(optionnelle)* — tâches : item lost_aether_content:swetty_mask — récompense : xp 1
+  > Pièce d'armure de Lost Aether Content. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Capuche arctique** *(optionnelle)* — tâches : item twilightforest:arctic_helmet — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Manteau arctique** *(optionnelle)* — tâches : item twilightforest:arctic_chestplate — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Jambières arctiques** *(optionnelle)* — tâches : item twilightforest:arctic_leggings — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Bottes arctiques** *(optionnelle)* — tâches : item twilightforest:arctic_boots — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble arctique. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Ensemble arctique** *(optionnelle)* — tâches : item twilightforest:arctic_helmet, item twilightforest:arctic_chestplate, item twilightforest:arctic_leggings, item twilightforest:arctic_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble arctique (4), ensemble dans l'inventaire.
+- **Casque ardent** *(optionnelle)* — tâches : item twilightforest:fiery_helmet — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Plastron ardent** *(optionnelle)* — tâches : item twilightforest:fiery_chestplate — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Jambières ardentes** *(optionnelle)* — tâches : item twilightforest:fiery_leggings — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Bottes ardentes** *(optionnelle)* — tâches : item twilightforest:fiery_boots — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble ardent. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Ensemble ardent** *(optionnelle)* — tâches : item twilightforest:fiery_helmet, item twilightforest:fiery_chestplate, item twilightforest:fiery_leggings, item twilightforest:fiery_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble ardent (4), ensemble dans l'inventaire.
+- **Casque en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_helmet — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Plastron en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_chestplate — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Jambières en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_leggings — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Bottes en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_boots — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en bois de fer. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Ensemble en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_helmet, item twilightforest:ironwood_chestplate, item twilightforest:ironwood_leggings, item twilightforest:ironwood_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en bois de fer (4), ensemble dans l'inventaire.
+- **Casque chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_helmet — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Plastron chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_chestplate — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Jambières chevaleresques** *(optionnelle)* — tâches : item twilightforest:knightmetal_leggings — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Bottes chevaleresques** *(optionnelle)* — tâches : item twilightforest:knightmetal_boots — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble chevaleresque. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Ensemble chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_helmet, item twilightforest:knightmetal_chestplate, item twilightforest:knightmetal_leggings, item twilightforest:knightmetal_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble chevaleresque (4), ensemble dans l'inventaire.
+- **Plastron en écailles de Nâga** *(optionnelle)* — tâches : item twilightforest:naga_chestplate — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en écailles de Nâga. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Jambières en écailles de Nâga** *(optionnelle)* — tâches : item twilightforest:naga_leggings — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en écailles de Nâga. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Ensemble en écailles de Nâga** *(optionnelle)* — tâches : item twilightforest:naga_chestplate, item twilightforest:naga_leggings — récompense : xp 5
+  > Toutes les pièces de l'ensemble en écailles de Nâga (2), ensemble dans l'inventaire.
+- **Casque de fantôme** *(optionnelle)* — tâches : item twilightforest:phantom_helmet — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble de fantôme. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Plastron de fantôme** *(optionnelle)* — tâches : item twilightforest:phantom_chestplate — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble de fantôme. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Ensemble de fantôme** *(optionnelle)* — tâches : item twilightforest:phantom_helmet, item twilightforest:phantom_chestplate — récompense : xp 5
+  > Toutes les pièces de l'ensemble de fantôme (2), ensemble dans l'inventaire.
+- **Casque en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_helmet — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Plastron en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_chestplate — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Jambières en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_leggings — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Bottes en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_boots — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble en Stealeaf. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Ensemble en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_helmet, item twilightforest:steeleaf_chestplate, item twilightforest:steeleaf_leggings, item twilightforest:steeleaf_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en Stealeaf (4), ensemble dans l'inventaire.
+- **Casque orné de Yéti** *(optionnelle)* — tâches : item twilightforest:yeti_helmet — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Veste de Yéti** *(optionnelle)* — tâches : item twilightforest:yeti_chestplate — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Jambières de Yéti** *(optionnelle)* — tâches : item twilightforest:yeti_leggings — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Bottes de Yéti** *(optionnelle)* — tâches : item twilightforest:yeti_boots — récompense : xp 1
+  > Pièce d'armure de Twilight Forest. Elle fait partie de l'ensemble de Yéti. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Ensemble de Yéti** *(optionnelle)* — tâches : item twilightforest:yeti_helmet, item twilightforest:yeti_chestplate, item twilightforest:yeti_leggings, item twilightforest:yeti_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble de Yéti (4), ensemble dans l'inventaire.
+- **« Arctic Mittens »** *(optionnelle)* — tâches : item umbral_skies:arctic_gloves — récompense : xp 1
+  > Pièce d'armure de Umbral Skies. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Fiery Gloves »** *(optionnelle)* — tâches : item umbral_skies:fiery_gloves — récompense : xp 1
+  > Pièce d'armure de Umbral Skies. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Ironwood Gloves »** *(optionnelle)* — tâches : item umbral_skies:ironwood_gloves — récompense : xp 1
+  > Pièce d'armure de Umbral Skies. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Knightmetal Gauntlets »** *(optionnelle)* — tâches : item umbral_skies:knightmetal_gloves — récompense : xp 1
+  > Pièce d'armure de Umbral Skies. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Naga Scale Gloves »** *(optionnelle)* — tâches : item umbral_skies:naga_gloves — récompense : xp 1
+  > Pièce d'armure de Umbral Skies. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Phantom Gauntlets »** *(optionnelle)* — tâches : item umbral_skies:phantom_gloves — récompense : xp 1
+  > Pièce d'armure de Umbral Skies. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Steeleaf Gloves »** *(optionnelle)* — tâches : item umbral_skies:steeleaf_gloves — récompense : xp 1
+  > Pièce d'armure de Umbral Skies. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Yeti Gloves »** *(optionnelle)* — tâches : item umbral_skies:yeti_gloves — récompense : xp 1
+  > Pièce d'armure de Umbral Skies. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20
+  > Toutes les pièces et tous les ensembles de ce chapitre.
+
+## Armurerie — magie  (`enc_armurerie_magie`, 152 quêtes)
+
+- **Armurerie — magie** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque pièce d'armure des mods de magie, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé.
+  >   > Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre.
+- **« Alchemist Supreme Hat »** *(optionnelle)* — tâches : item hazennstuff:alchemist_supreme_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Alchemist Supreme Robes »** *(optionnelle)* — tâches : item hazennstuff:alchemist_supreme_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Alchemist Supreme Leggings »** *(optionnelle)* — tâches : item hazennstuff:alchemist_supreme_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Alchemist Supreme Boots »** *(optionnelle)* — tâches : item hazennstuff:alchemist_supreme_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Alchemist Supreme ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Alchemist Supreme »** *(optionnelle)* — tâches : item hazennstuff:alchemist_supreme_helmet, item hazennstuff:alchemist_supreme_chestplate, item hazennstuff:alchemist_supreme_leggings, item hazennstuff:alchemist_supreme_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Alchemist Supreme » (4), ensemble dans l'inventaire.
+- **« Atlas's Helmet »** *(optionnelle)* — tâches : item hazennstuff:atlas_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Atlas's Chestplate »** *(optionnelle)* — tâches : item hazennstuff:atlas_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Atlas's Leggings »** *(optionnelle)* — tâches : item hazennstuff:atlas_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Atlas's Boots »** *(optionnelle)* — tâches : item hazennstuff:atlas_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Atlas's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Atlas's »** *(optionnelle)* — tâches : item hazennstuff:atlas_helmet, item hazennstuff:atlas_chestplate, item hazennstuff:atlas_leggings, item hazennstuff:atlas_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Atlas's » (4), ensemble dans l'inventaire.
+- **« Blazeborne Helmet »** *(optionnelle)* — tâches : item hazennstuff:blazeborne_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Blazeborne Chestplate »** *(optionnelle)* — tâches : item hazennstuff:blazeborne_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Blazeborne Leggings »** *(optionnelle)* — tâches : item hazennstuff:blazeborne_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Blazeborne Boots »** *(optionnelle)* — tâches : item hazennstuff:blazeborne_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Blazeborne ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Blazeborne »** *(optionnelle)* — tâches : item hazennstuff:blazeborne_helmet, item hazennstuff:blazeborne_chestplate, item hazennstuff:blazeborne_leggings, item hazennstuff:blazeborne_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Blazeborne » (4), ensemble dans l'inventaire.
+- **« Creaking Sorcerer Mask »** *(optionnelle)* — tâches : item hazennstuff:creaking_sorcerer_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Creaking Sorcerer Chestplate »** *(optionnelle)* — tâches : item hazennstuff:creaking_sorcerer_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Creaking Sorcerer Leggings »** *(optionnelle)* — tâches : item hazennstuff:creaking_sorcerer_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Creaking Sorcerer Boots »** *(optionnelle)* — tâches : item hazennstuff:creaking_sorcerer_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Creaking Sorcerer ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Creaking Sorcerer »** *(optionnelle)* — tâches : item hazennstuff:creaking_sorcerer_helmet, item hazennstuff:creaking_sorcerer_chestplate, item hazennstuff:creaking_sorcerer_leggings, item hazennstuff:creaking_sorcerer_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Creaking Sorcerer » (4), ensemble dans l'inventaire.
+- **« Cryogenic Ruler's Crown »** *(optionnelle)* — tâches : item hazennstuff:cryogenic_ruler_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Cryogenic Ruler's Chestplate »** *(optionnelle)* — tâches : item hazennstuff:cryogenic_ruler_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Cryogenic Ruler's Leggings »** *(optionnelle)* — tâches : item hazennstuff:cryogenic_ruler_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Flurry Boots »** *(optionnelle)* — tâches : item hazennstuff:cryogenic_ruler_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Cryogenic Ruler's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Cryogenic Ruler's »** *(optionnelle)* — tâches : item hazennstuff:cryogenic_ruler_helmet, item hazennstuff:cryogenic_ruler_chestplate, item hazennstuff:cryogenic_ruler_leggings, item hazennstuff:cryogenic_ruler_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Cryogenic Ruler's » (4), ensemble dans l'inventaire.
+- **« Ender Dragon Horns »** *(optionnelle)* — tâches : item hazennstuff:ender_dragon_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Ender Dragon Chestplate »** *(optionnelle)* — tâches : item hazennstuff:ender_dragon_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Ender Dragon Leggings »** *(optionnelle)* — tâches : item hazennstuff:ender_dragon_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Ender Dragon Boots »** *(optionnelle)* — tâches : item hazennstuff:ender_dragon_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Ender Dragon ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Ender Dragon »** *(optionnelle)* — tâches : item hazennstuff:ender_dragon_helmet, item hazennstuff:ender_dragon_chestplate, item hazennstuff:ender_dragon_leggings, item hazennstuff:ender_dragon_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Ender Dragon » (4), ensemble dans l'inventaire.
+- **« Fireblossom Battlemage Helmet »** *(optionnelle)* — tâches : item hazennstuff:fireblossom_battlemage_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Fireblossom Battlemage Chestplate »** *(optionnelle)* — tâches : item hazennstuff:fireblossom_battlemage_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Fireblossom Battlemage Leggings »** *(optionnelle)* — tâches : item hazennstuff:fireblossom_battlemage_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Fireblossom Battlemage Boots »** *(optionnelle)* — tâches : item hazennstuff:fireblossom_battlemage_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Fireblossom Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Fireblossom Battlemage »** *(optionnelle)* — tâches : item hazennstuff:fireblossom_battlemage_helmet, item hazennstuff:fireblossom_battlemage_chestplate, item hazennstuff:fireblossom_battlemage_leggings, item hazennstuff:fireblossom_battlemage_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Fireblossom Battlemage » (4), ensemble dans l'inventaire.
+- **« Fireblossom Battlemage Crown »** *(optionnelle)* — tâches : item hazennstuff:fireblossom_battlemage_crown — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Flesh Mass Helmet »** *(optionnelle)* — tâches : item hazennstuff:flesh_mass_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Flesh Mass Chestplate »** *(optionnelle)* — tâches : item hazennstuff:flesh_mass_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Flesh Mass Leggings »** *(optionnelle)* — tâches : item hazennstuff:flesh_mass_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Flesh Mass Boots »** *(optionnelle)* — tâches : item hazennstuff:flesh_mass_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Flesh Mass ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Flesh Mass »** *(optionnelle)* — tâches : item hazennstuff:flesh_mass_helmet, item hazennstuff:flesh_mass_chestplate, item hazennstuff:flesh_mass_leggings, item hazennstuff:flesh_mass_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Flesh Mass » (4), ensemble dans l'inventaire.
+- **« Hazel's Hat »** *(optionnelle)* — tâches : item hazennstuff:hazel_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Hazel's Jacket »** *(optionnelle)* — tâches : item hazennstuff:hazel_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Hazel's Pants »** *(optionnelle)* — tâches : item hazennstuff:hazel_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Hazel's Boots »** *(optionnelle)* — tâches : item hazennstuff:hazel_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Hazel's ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Hazel's »** *(optionnelle)* — tâches : item hazennstuff:hazel_helmet, item hazennstuff:hazel_chestplate, item hazennstuff:hazel_leggings, item hazennstuff:hazel_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Hazel's » (4), ensemble dans l'inventaire.
+- **« Hazel's Jacket »** *(optionnelle)* — tâches : item hazennstuff:how_did_you_find_the_hazel_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Infestation Mask »** *(optionnelle)* — tâches : item hazennstuff:infestation_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Infestation Chestplate »** *(optionnelle)* — tâches : item hazennstuff:infestation_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Infestation Leggings »** *(optionnelle)* — tâches : item hazennstuff:infestation_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Infestation Boots »** *(optionnelle)* — tâches : item hazennstuff:infestation_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Infestation ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Infestation »** *(optionnelle)* — tâches : item hazennstuff:infestation_helmet, item hazennstuff:infestation_chestplate, item hazennstuff:infestation_leggings, item hazennstuff:infestation_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Infestation » (4), ensemble dans l'inventaire.
+- **« Legionnaire Commander Helmet »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_commander_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Legionnaire Commander Chestplate »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_commander_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Legionnaire Commander Leggings »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_commander_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Legionnaire Commander Boots »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_commander_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Legionnaire Commander ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Legionnaire Commander »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_commander_helmet, item hazennstuff:legionnaire_commander_chestplate, item hazennstuff:legionnaire_commander_leggings, item hazennstuff:legionnaire_commander_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Legionnaire Commander » (4), ensemble dans l'inventaire.
+- **« Legionnaire Ruler Crown »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_ruler_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Legionnaire Ruler Chestplate »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_ruler_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Legionnaire Ruler Leggings »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_ruler_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Legionnaire Ruler Boots »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_ruler_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Legionnaire Ruler ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Legionnaire Ruler »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_ruler_helmet, item hazennstuff:legionnaire_ruler_chestplate, item hazennstuff:legionnaire_ruler_leggings, item hazennstuff:legionnaire_ruler_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Legionnaire Ruler » (4), ensemble dans l'inventaire.
+- **« Mithril Battlemage Hat »** *(optionnelle)* — tâches : item hazennstuff:mithril_battlemage_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Mithril Battlemage Chestplate »** *(optionnelle)* — tâches : item hazennstuff:mithril_battlemage_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Mithril Battlemage Leggings »** *(optionnelle)* — tâches : item hazennstuff:mithril_battlemage_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Mithril Battlemage Boots »** *(optionnelle)* — tâches : item hazennstuff:mithril_battlemage_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Mithril Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Mithril Battlemage »** *(optionnelle)* — tâches : item hazennstuff:mithril_battlemage_helmet, item hazennstuff:mithril_battlemage_chestplate, item hazennstuff:mithril_battlemage_leggings, item hazennstuff:mithril_battlemage_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Mithril Battlemage » (4), ensemble dans l'inventaire.
+- **« Pyrium Helmet »** *(optionnelle)* — tâches : item hazennstuff:pyrium_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Pyrium Chestplate »** *(optionnelle)* — tâches : item hazennstuff:pyrium_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Pyrium Leggings »** *(optionnelle)* — tâches : item hazennstuff:pyrium_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Pyrium Boots »** *(optionnelle)* — tâches : item hazennstuff:pyrium_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Pyrium ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Pyrium »** *(optionnelle)* — tâches : item hazennstuff:pyrium_helmet, item hazennstuff:pyrium_chestplate, item hazennstuff:pyrium_leggings, item hazennstuff:pyrium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Pyrium » (4), ensemble dans l'inventaire.
+- **« Pyrium Battlemage Crown »** *(optionnelle)* — tâches : item hazennstuff:pyrium_battlemage_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Pyrium Battlemage Chestplate »** *(optionnelle)* — tâches : item hazennstuff:pyrium_battlemage_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Pyrium Battlemage Leggings »** *(optionnelle)* — tâches : item hazennstuff:pyrium_battlemage_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Pyrium Battlemage Boots »** *(optionnelle)* — tâches : item hazennstuff:pyrium_battlemage_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Pyrium Battlemage ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Pyrium Battlemage »** *(optionnelle)* — tâches : item hazennstuff:pyrium_battlemage_helmet, item hazennstuff:pyrium_battlemage_chestplate, item hazennstuff:pyrium_battlemage_leggings, item hazennstuff:pyrium_battlemage_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Pyrium Battlemage » (4), ensemble dans l'inventaire.
+- **« Seraph Visor »** *(optionnelle)* — tâches : item hazennstuff:seraph_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Seraph Breastplate »** *(optionnelle)* — tâches : item hazennstuff:seraph_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Seraph Leggings »** *(optionnelle)* — tâches : item hazennstuff:seraph_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Seraph Tracers »** *(optionnelle)* — tâches : item hazennstuff:seraph_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Seraph ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Seraph »** *(optionnelle)* — tâches : item hazennstuff:seraph_helmet, item hazennstuff:seraph_chestplate, item hazennstuff:seraph_leggings, item hazennstuff:seraph_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Seraph » (4), ensemble dans l'inventaire.
+- **« Thunder Prowler Mask »** *(optionnelle)* — tâches : item hazennstuff:thunder_prowler_helmet — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Thunder Prowler Chestplate »** *(optionnelle)* — tâches : item hazennstuff:thunder_prowler_chestplate — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Thunder Prowler Leggings »** *(optionnelle)* — tâches : item hazennstuff:thunder_prowler_leggings — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Thunder Prowler Boots »** *(optionnelle)* — tâches : item hazennstuff:thunder_prowler_boots — récompense : xp 1
+  > Pièce d'armure de Hazen 'n Stuff. Elle fait partie de l'ensemble « Thunder Prowler ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Thunder Prowler »** *(optionnelle)* — tâches : item hazennstuff:thunder_prowler_helmet, item hazennstuff:thunder_prowler_chestplate, item hazennstuff:thunder_prowler_leggings, item hazennstuff:thunder_prowler_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Thunder Prowler » (4), ensemble dans l'inventaire.
+- **Chapeau de l'Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:archevoker_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Manteau de l'Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:archevoker_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières de l'Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:archevoker_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes de l'Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:archevoker_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble de l'Archévocateur. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble de l'Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:archevoker_helmet, item irons_spellbooks:archevoker_chestplate, item irons_spellbooks:archevoker_leggings, item irons_spellbooks:archevoker_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble de l'Archévocateur (4), ensemble dans l'inventaire.
+- **Capuche du Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:cryomancer_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Manteau du Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:cryomancer_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières du Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:cryomancer_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes du Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:cryomancer_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Cryomancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble du Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:cryomancer_helmet, item irons_spellbooks:cryomancer_chestplate, item irons_spellbooks:cryomancer_leggings, item irons_spellbooks:cryomancer_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Cryomancien (4), ensemble dans l'inventaire.
+- **Capuche du Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:cultist_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Armure du Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:cultist_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières du Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:cultist_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes du Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:cultist_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Cultiste. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble du Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:cultist_helmet, item irons_spellbooks:cultist_chestplate, item irons_spellbooks:cultist_leggings, item irons_spellbooks:cultist_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Cultiste (4), ensemble dans l'inventaire.
+- **Chapeau de l'Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:electromancer_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Robe de l'Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:electromancer_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières de l'Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:electromancer_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes de l'Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:electromancer_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble de l'Électromancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble de l'Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:electromancer_helmet, item irons_spellbooks:electromancer_chestplate, item irons_spellbooks:electromancer_leggings, item irons_spellbooks:electromancer_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble de l'Électromancien (4), ensemble dans l'inventaire.
+- **Plastron du Sorcier Infernal** *(optionnelle)* — tâches : item irons_spellbooks:infernal_sorcerer_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Chapeau du Mage de Guerre en Nétherite** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Robes du Mage de Guerre en Nétherite** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières du Mage de Guerre en Nétherite** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes du Mage de Guerre en Nétherite** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Mage de Guerre en Nétherite. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble du Mage de Guerre en Nétherite** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_helmet, item irons_spellbooks:netherite_mage_chestplate, item irons_spellbooks:netherite_mage_leggings, item irons_spellbooks:netherite_mage_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Mage de Guerre en Nétherite (4), ensemble dans l'inventaire.
+- **Plastron de Porteur de Lumière** *(optionnelle)* — tâches : item irons_spellbooks:paladin_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Masque Pesteux** *(optionnelle)* — tâches : item irons_spellbooks:plagued_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Manteau Pesteux** *(optionnelle)* — tâches : item irons_spellbooks:plagued_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières Pesteuses** *(optionnelle)* — tâches : item irons_spellbooks:plagued_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes Pesteuses** *(optionnelle)* — tâches : item irons_spellbooks:plagued_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble « Pesteux ». Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble « Pesteux »** *(optionnelle)* — tâches : item irons_spellbooks:plagued_helmet, item irons_spellbooks:plagued_chestplate, item irons_spellbooks:plagued_leggings, item irons_spellbooks:plagued_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Pesteux » (4), ensemble dans l'inventaire.
+- **Masque du Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:priest_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Robes du Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:priest_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières du Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:priest_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes du Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:priest_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Prêtre. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble du Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:priest_helmet, item irons_spellbooks:priest_chestplate, item irons_spellbooks:priest_leggings, item irons_spellbooks:priest_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Prêtre (4), ensemble dans l'inventaire.
+- **Chapeau d'Épouvantail** *(optionnelle)* — tâches : item irons_spellbooks:pumpkin_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Manteau d'Épouvantail** *(optionnelle)* — tâches : item irons_spellbooks:pumpkin_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières d'Épouvantail** *(optionnelle)* — tâches : item irons_spellbooks:pumpkin_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes d'Épouvantail** *(optionnelle)* — tâches : item irons_spellbooks:pumpkin_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble d'Épouvantail. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble d'Épouvantail** *(optionnelle)* — tâches : item irons_spellbooks:pumpkin_helmet, item irons_spellbooks:pumpkin_chestplate, item irons_spellbooks:pumpkin_leggings, item irons_spellbooks:pumpkin_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble d'Épouvantail (4), ensemble dans l'inventaire.
+- **Chapeau du Pyromancien** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Robe du Pyromancien** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières du Pyromancien** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes du Pyromancien** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Pyromancien. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble du Pyromancien** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_helmet, item irons_spellbooks:pyromancer_chestplate, item irons_spellbooks:pyromancer_leggings, item irons_spellbooks:pyromancer_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Pyromancien (4), ensemble dans l'inventaire.
+- **Masque du Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:shadowwalker_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Armure du Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:shadowwalker_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières du Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:shadowwalker_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes du Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:shadowwalker_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Marchombre. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble du Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:shadowwalker_helmet, item irons_spellbooks:shadowwalker_chestplate, item irons_spellbooks:shadowwalker_leggings, item irons_spellbooks:shadowwalker_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Marchombre (4), ensemble dans l'inventaire.
+- **Bottes de Vitesse** *(optionnelle)* — tâches : item irons_spellbooks:speed_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Capuche du Magicien Errant** *(optionnelle)* — tâches : item irons_spellbooks:wandering_magician_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Robe du Magicien Errant** *(optionnelle)* — tâches : item irons_spellbooks:wandering_magician_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Pantalon du Magicien Errant** *(optionnelle)* — tâches : item irons_spellbooks:wandering_magician_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Chaussures du Magicien Errant** *(optionnelle)* — tâches : item irons_spellbooks:wandering_magician_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Magicien Errant. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble du Magicien Errant** *(optionnelle)* — tâches : item irons_spellbooks:wandering_magician_helmet, item irons_spellbooks:wandering_magician_chestplate, item irons_spellbooks:wandering_magician_leggings, item irons_spellbooks:wandering_magician_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Magicien Errant (4), ensemble dans l'inventaire.
+- **Casque du Sorcier** *(optionnelle)* — tâches : item irons_spellbooks:wizard_helmet — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Robes du Sorcier** *(optionnelle)* — tâches : item irons_spellbooks:wizard_chestplate — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Jambières du Sorcier** *(optionnelle)* — tâches : item irons_spellbooks:wizard_leggings — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Bottes du Sorcier** *(optionnelle)* — tâches : item irons_spellbooks:wizard_boots — récompense : xp 1
+  > Pièce d'armure de Iron's Spells. Elle fait partie de l'ensemble du Sorcier. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Ensemble du Sorcier** *(optionnelle)* — tâches : item irons_spellbooks:wizard_helmet, item irons_spellbooks:wizard_chestplate, item irons_spellbooks:wizard_leggings, item irons_spellbooks:wizard_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Sorcier (4), ensemble dans l'inventaire.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20
+  > Toutes les pièces et tous les ensembles de ce chapitre.
+
+## Armurerie — base et aventure  (`enc_armurerie`, 159 quêtes)
+
+- **Armurerie — base et aventure** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque pièce d'armure des mods de base et d'aventure, une quête par pièce, et une quête par ensemble complet. Une quête se valide en ayant la pièce dans l'inventaire ; rien n'est consommé.
+  >   > Seules les pièces qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là. Les paliers de chaque mod, eux, sont dans son chapitre.
+- **« Netherite-Diamond Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_helmet — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Diamond Chestplate »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_chestplate — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Diamond Leggings »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_leggings — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Diamond Boots »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_boots — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Diamond ». À garder : la livraison n'est pas consommée.
+- **Ensemble « Netherite-Diamond »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_helmet, item advancednetherite:netherite_diamond_chestplate, item advancednetherite:netherite_diamond_leggings, item advancednetherite:netherite_diamond_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Netherite-Diamond » (4), ensemble dans l'inventaire.
+- **« Netherite-Emerald Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_helmet — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Emerald Chestplate »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_chestplate — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Emerald Leggings »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_leggings — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Emerald Boots »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_boots — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Emerald ». À garder : la livraison n'est pas consommée.
+- **Ensemble « Netherite-Emerald »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_helmet, item advancednetherite:netherite_emerald_chestplate, item advancednetherite:netherite_emerald_leggings, item advancednetherite:netherite_emerald_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Netherite-Emerald » (4), ensemble dans l'inventaire.
+- **« Netherite-Gold Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_helmet — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Gold Chestplate »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_chestplate — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Gold Leggings »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_leggings — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Gold Boots »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_boots — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Gold ». À garder : la livraison n'est pas consommée.
+- **Ensemble « Netherite-Gold »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_helmet, item advancednetherite:netherite_gold_chestplate, item advancednetherite:netherite_gold_leggings, item advancednetherite:netherite_gold_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Netherite-Gold » (4), ensemble dans l'inventaire.
+- **« Netherite-Iron Helmet »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_helmet — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Iron Chestplate »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_chestplate — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Iron Leggings »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_leggings — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée.
+- **« Netherite-Iron Boots »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_boots — récompense : xp 1
+  > Pièce d'armure de Advanced Netherite. Elle fait partie de l'ensemble « Netherite-Iron ». À garder : la livraison n'est pas consommée.
+- **Ensemble « Netherite-Iron »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_helmet, item advancednetherite:netherite_iron_chestplate, item advancednetherite:netherite_iron_leggings, item advancednetherite:netherite_iron_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Netherite-Iron » (4), ensemble dans l'inventaire.
+- **Jambières en mille-pattes** *(optionnelle)* — tâches : item alexsmobs:centipede_leggings — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Plastron de crocodile** *(optionnelle)* — tâches : item alexsmobs:crocodile_chestplate — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Jambières d'émeu** *(optionnelle)* — tâches : item alexsmobs:emu_leggings — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Feutre** *(optionnelle)* — tâches : item alexsmobs:fedora — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Bottes de poisson volant** *(optionnelle)* — tâches : item alexsmobs:flying_fish_boots — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Casquette de Frontiersman** *(optionnelle)* — tâches : item alexsmobs:frontier_cap — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Casque de traqueur givrant** *(optionnelle)* — tâches : item alexsmobs:froststalker_helmet — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Casque d'antler** *(optionnelle)* — tâches : item alexsmobs:moose_headgear — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Bottes de géocoucou** *(optionnelle)* — tâches : item alexsmobs:roadrunner_boots — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Plastron en carapace rocheuse** *(optionnelle)* — tâches : item alexsmobs:rocky_chestplate — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Sombrero** *(optionnelle)* — tâches : item alexsmobs:sombrero — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Coque de Straddlite** *(optionnelle)* — tâches : item alexsmobs:straddle_helmet — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Kimono troublant** *(optionnelle)* — tâches : item alexsmobs:unsettling_kimono — récompense : xp 1
+  > Pièce d'armure de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **« Bone Reptile Helmet »** *(optionnelle)* — tâches : item cataclysm:bone_reptile_helmet — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Bone Reptile ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Bone Reptile Chestplate »** *(optionnelle)* — tâches : item cataclysm:bone_reptile_chestplate — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Bone Reptile ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **Ensemble « Bone Reptile »** *(optionnelle)* — tâches : item cataclysm:bone_reptile_helmet, item cataclysm:bone_reptile_chestplate — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Bone Reptile » (2), ensemble dans l'inventaire.
+- **« Cursium Helmet »** *(optionnelle)* — tâches : item cataclysm:cursium_helmet — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Cursium Chestplate »** *(optionnelle)* — tâches : item cataclysm:cursium_chestplate — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Cursium Leggings »** *(optionnelle)* — tâches : item cataclysm:cursium_leggings — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Cursium Boots »** *(optionnelle)* — tâches : item cataclysm:cursium_boots — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Cursium ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **Ensemble « Cursium »** *(optionnelle)* — tâches : item cataclysm:cursium_helmet, item cataclysm:cursium_chestplate, item cataclysm:cursium_leggings, item cataclysm:cursium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Cursium » (4), ensemble dans l'inventaire.
+- **« Ignitium Helmet »** *(optionnelle)* — tâches : item cataclysm:ignitium_helmet — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Ignitium Chestplate »** *(optionnelle)* — tâches : item cataclysm:ignitium_chestplate — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Ignitium Leggings »** *(optionnelle)* — tâches : item cataclysm:ignitium_leggings — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Ignitium Boots »** *(optionnelle)* — tâches : item cataclysm:ignitium_boots — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Elle fait partie de l'ensemble « Ignitium ». Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **Ensemble « Ignitium »** *(optionnelle)* — tâches : item cataclysm:ignitium_helmet, item cataclysm:ignitium_chestplate, item cataclysm:ignitium_leggings, item cataclysm:ignitium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Ignitium » (4), ensemble dans l'inventaire.
+- **« Ignitium Elytra Chestplate »** *(optionnelle)* — tâches : item cataclysm:ignitium_elytra_chestplate — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Sticky Gloves »** *(optionnelle)* — tâches : item cataclysm:sticky_gloves — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Sturdy Boots »** *(optionnelle)* — tâches : item cataclysm:sturdy_boots — récompense : xp 1
+  > Pièce d'armure de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **Casque en carton** *(optionnelle)* — tâches : item create:cardboard_helmet — récompense : xp 1
+  > Pièce d'armure de Create. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée.
+- **Plastron en carton** *(optionnelle)* — tâches : item create:cardboard_chestplate — récompense : xp 1
+  > Pièce d'armure de Create. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée.
+- **Jambières en carton** *(optionnelle)* — tâches : item create:cardboard_leggings — récompense : xp 1
+  > Pièce d'armure de Create. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée.
+- **Bottes en carton** *(optionnelle)* — tâches : item create:cardboard_boots — récompense : xp 1
+  > Pièce d'armure de Create. Elle fait partie de l'ensemble en carton. À garder : la livraison n'est pas consommée.
+- **Ensemble en carton** *(optionnelle)* — tâches : item create:cardboard_helmet, item create:cardboard_chestplate, item create:cardboard_leggings, item create:cardboard_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en carton (4), ensemble dans l'inventaire.
+- **Réservoir dorsal en cuivre** *(optionnelle)* — tâches : item create:copper_backtank — récompense : xp 1
+  > Pièce d'armure de Create. À garder : la livraison n'est pas consommée.
+- **Casque de plongée en cuivre** *(optionnelle)* — tâches : item create:copper_diving_helmet — récompense : xp 1
+  > Pièce d'armure de Create. Elle fait partie de l'ensemble de plongée en cuivre. À garder : la livraison n'est pas consommée.
+- **Bottes de plongée en cuivre** *(optionnelle)* — tâches : item create:copper_diving_boots — récompense : xp 1
+  > Pièce d'armure de Create. Elle fait partie de l'ensemble de plongée en cuivre. À garder : la livraison n'est pas consommée.
+- **Ensemble de plongée en cuivre** *(optionnelle)* — tâches : item create:copper_diving_helmet, item create:copper_diving_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble de plongée en cuivre (2), ensemble dans l'inventaire.
+- **Réservoir dorsal en Netherite** *(optionnelle)* — tâches : item create:netherite_backtank — récompense : xp 1
+  > Pièce d'armure de Create. À garder : la livraison n'est pas consommée.
+- **Casque de plongée en Netherite** *(optionnelle)* — tâches : item create:netherite_diving_helmet — récompense : xp 1
+  > Pièce d'armure de Create. Elle fait partie de l'ensemble de plongée en Netherite. À garder : la livraison n'est pas consommée.
+- **Bottes de plongée en Netherite** *(optionnelle)* — tâches : item create:netherite_diving_boots — récompense : xp 1
+  > Pièce d'armure de Create. Elle fait partie de l'ensemble de plongée en Netherite. À garder : la livraison n'est pas consommée.
+- **Ensemble de plongée en Netherite** *(optionnelle)* — tâches : item create:netherite_diving_helmet, item create:netherite_diving_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble de plongée en Netherite (2), ensemble dans l'inventaire.
+- **« Resonarium Helmet »** *(optionnelle)* — tâches : item deeperdarker:resonarium_helmet — récompense : xp 1
+  > Pièce d'armure de Deeper and Darker. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Resonarium Chestplate »** *(optionnelle)* — tâches : item deeperdarker:resonarium_chestplate — récompense : xp 1
+  > Pièce d'armure de Deeper and Darker. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Resonarium Leggings »** *(optionnelle)* — tâches : item deeperdarker:resonarium_leggings — récompense : xp 1
+  > Pièce d'armure de Deeper and Darker. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Resonarium Boots »** *(optionnelle)* — tâches : item deeperdarker:resonarium_boots — récompense : xp 1
+  > Pièce d'armure de Deeper and Darker. Elle fait partie de l'ensemble « Resonarium ». Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Ensemble « Resonarium »** *(optionnelle)* — tâches : item deeperdarker:resonarium_helmet, item deeperdarker:resonarium_chestplate, item deeperdarker:resonarium_leggings, item deeperdarker:resonarium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Resonarium » (4), ensemble dans l'inventaire.
+- **Casque du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_helmet — récompense : xp 1
+  > Pièce d'armure de Deeper and Darker. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Plastron du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_chestplate — récompense : xp 1
+  > Pièce d'armure de Deeper and Darker. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Jambières du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_leggings — récompense : xp 1
+  > Pièce d'armure de Deeper and Darker. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Bottes du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_boots — récompense : xp 1
+  > Pièce d'armure de Deeper and Darker. Elle fait partie de l'ensemble du Warden. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Ensemble du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_helmet, item deeperdarker:warden_chestplate, item deeperdarker:warden_leggings, item deeperdarker:warden_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble du Warden (4), ensemble dans l'inventaire.
+- **« Dragon Scale Helmet »** *(optionnelle)* — tâches : item dragonloot:dragon_helmet — récompense : xp 1
+  > Pièce d'armure de DragonLoot. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **« Dragon Scale Chestplate »** *(optionnelle)* — tâches : item dragonloot:dragon_chestplate — récompense : xp 1
+  > Pièce d'armure de DragonLoot. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **« Dragon Scale Leggings »** *(optionnelle)* — tâches : item dragonloot:dragon_leggings — récompense : xp 1
+  > Pièce d'armure de DragonLoot. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **« Dragon Scale Boots »** *(optionnelle)* — tâches : item dragonloot:dragon_boots — récompense : xp 1
+  > Pièce d'armure de DragonLoot. Elle fait partie de l'ensemble « Dragon Scale ». Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **Ensemble « Dragon Scale »** *(optionnelle)* — tâches : item dragonloot:dragon_helmet, item dragonloot:dragon_chestplate, item dragonloot:dragon_leggings, item dragonloot:dragon_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Dragon Scale » (4), ensemble dans l'inventaire.
+- **« Winged Dragon Scale Chestplate »** *(optionnelle)* — tâches : item dragonloot:upgraded_dragon_chestplate — récompense : xp 1
+  > Pièce d'armure de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **« Sterling Helmet »** *(optionnelle)* — tâches : item galosphere:sterling_helmet — récompense : xp 1
+  > Pièce d'armure de Galosphere. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée.
+- **« Sterling Chestplate »** *(optionnelle)* — tâches : item galosphere:sterling_chestplate — récompense : xp 1
+  > Pièce d'armure de Galosphere. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée.
+- **« Sterling Leggings »** *(optionnelle)* — tâches : item galosphere:sterling_leggings — récompense : xp 1
+  > Pièce d'armure de Galosphere. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée.
+- **« Sterling Boots »** *(optionnelle)* — tâches : item galosphere:sterling_boots — récompense : xp 1
+  > Pièce d'armure de Galosphere. Elle fait partie de l'ensemble « Sterling ». À garder : la livraison n'est pas consommée.
+- **Ensemble « Sterling »** *(optionnelle)* — tâches : item galosphere:sterling_helmet, item galosphere:sterling_chestplate, item galosphere:sterling_leggings, item galosphere:sterling_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Sterling » (4), ensemble dans l'inventaire.
+- **Casque de mailles** *(optionnelle)* — tâches : item minecraft:chainmail_helmet — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée.
+- **Cotte de mailles** *(optionnelle)* — tâches : item minecraft:chainmail_chestplate — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée.
+- **Jambières de mailles** *(optionnelle)* — tâches : item minecraft:chainmail_leggings — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée.
+- **Bottes de mailles** *(optionnelle)* — tâches : item minecraft:chainmail_boots — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble « Cotte de mailles ». À garder : la livraison n'est pas consommée.
+- **Ensemble « Cotte de mailles »** *(optionnelle)* — tâches : item minecraft:chainmail_helmet, item minecraft:chainmail_chestplate, item minecraft:chainmail_leggings, item minecraft:chainmail_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « Cotte de mailles » (4), ensemble dans l'inventaire.
+- **Casque en diamant** *(optionnelle)* — tâches : item minecraft:diamond_helmet — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée.
+- **Plastron en diamant** *(optionnelle)* — tâches : item minecraft:diamond_chestplate — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée.
+- **Jambières en diamant** *(optionnelle)* — tâches : item minecraft:diamond_leggings — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée.
+- **Bottes en diamant** *(optionnelle)* — tâches : item minecraft:diamond_boots — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en diamant. À garder : la livraison n'est pas consommée.
+- **Ensemble en diamant** *(optionnelle)* — tâches : item minecraft:diamond_helmet, item minecraft:diamond_chestplate, item minecraft:diamond_leggings, item minecraft:diamond_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en diamant (4), ensemble dans l'inventaire.
+- **Casque en or** *(optionnelle)* — tâches : item minecraft:golden_helmet — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée.
+- **Plastron en or** *(optionnelle)* — tâches : item minecraft:golden_chestplate — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée.
+- **Jambières en or** *(optionnelle)* — tâches : item minecraft:golden_leggings — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée.
+- **Bottes en or** *(optionnelle)* — tâches : item minecraft:golden_boots — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en or. À garder : la livraison n'est pas consommée.
+- **Ensemble en or** *(optionnelle)* — tâches : item minecraft:golden_helmet, item minecraft:golden_chestplate, item minecraft:golden_leggings, item minecraft:golden_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en or (4), ensemble dans l'inventaire.
+- **Casque en fer** *(optionnelle)* — tâches : item minecraft:iron_helmet — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée.
+- **Plastron en fer** *(optionnelle)* — tâches : item minecraft:iron_chestplate — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée.
+- **Jambières en fer** *(optionnelle)* — tâches : item minecraft:iron_leggings — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée.
+- **Bottes en fer** *(optionnelle)* — tâches : item minecraft:iron_boots — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en fer. À garder : la livraison n'est pas consommée.
+- **Ensemble en fer** *(optionnelle)* — tâches : item minecraft:iron_helmet, item minecraft:iron_chestplate, item minecraft:iron_leggings, item minecraft:iron_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en fer (4), ensemble dans l'inventaire.
+- **Chapeau en cuir** *(optionnelle)* — tâches : item minecraft:leather_helmet — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée.
+- **Tunique en cuir** *(optionnelle)* — tâches : item minecraft:leather_chestplate — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée.
+- **Pantalon en cuir** *(optionnelle)* — tâches : item minecraft:leather_leggings — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée.
+- **Bottes en cuir** *(optionnelle)* — tâches : item minecraft:leather_boots — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en cuir. À garder : la livraison n'est pas consommée.
+- **Ensemble en cuir** *(optionnelle)* — tâches : item minecraft:leather_helmet, item minecraft:leather_chestplate, item minecraft:leather_leggings, item minecraft:leather_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en cuir (4), ensemble dans l'inventaire.
+- **Casque en netherite** *(optionnelle)* — tâches : item minecraft:netherite_helmet — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée.
+- **Plastron en netherite** *(optionnelle)* — tâches : item minecraft:netherite_chestplate — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée.
+- **Jambières en netherite** *(optionnelle)* — tâches : item minecraft:netherite_leggings — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée.
+- **Bottes en netherite** *(optionnelle)* — tâches : item minecraft:netherite_boots — récompense : xp 1
+  > Pièce d'armure de Minecraft. Elle fait partie de l'ensemble en netherite. À garder : la livraison n'est pas consommée.
+- **Ensemble en netherite** *(optionnelle)* — tâches : item minecraft:netherite_helmet, item minecraft:netherite_chestplate, item minecraft:netherite_leggings, item minecraft:netherite_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en netherite (4), ensemble dans l'inventaire.
+- **Carapace de tortue** *(optionnelle)* — tâches : item minecraft:turtle_helmet — récompense : xp 1
+  > Pièce d'armure de Minecraft. À garder : la livraison n'est pas consommée.
+- **Casque de Chevalier Forgé** *(optionnelle)* — tâches : item mowziesmobs:wrought_helmet — récompense : xp 1
+  > Pièce d'armure de Mowzie's Mobs. Ses paliers sont au chapitre Mowzie's Mobs. À garder : la livraison n'est pas consommée.
+- **Casque en Awakened Supremium** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_helmet — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Plastron en Awakened Supremium** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_chestplate — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Jambières en Awakened Supremium** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_leggings — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Bottes en Awakened Supremium** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_boots — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Awakened Supremium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Ensemble en Awakened Supremium** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_helmet, item mysticalagriculture:awakened_supremium_chestplate, item mysticalagriculture:awakened_supremium_leggings, item mysticalagriculture:awakened_supremium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en Awakened Supremium (4), ensemble dans l'inventaire.
+- **Casque en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_helmet — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Plastron en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_chestplate — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Jambières en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_leggings — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Bottes en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_boots — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Imperium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Ensemble en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_helmet, item mysticalagriculture:imperium_chestplate, item mysticalagriculture:imperium_leggings, item mysticalagriculture:imperium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en Imperium (4), ensemble dans l'inventaire.
+- **Casque en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_helmet — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Plastron en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_chestplate — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Jambières en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_leggings — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Bottes en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_boots — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Inferium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Ensemble en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_helmet, item mysticalagriculture:inferium_chestplate, item mysticalagriculture:inferium_leggings, item mysticalagriculture:inferium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en Inferium (4), ensemble dans l'inventaire.
+- **Casque en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_helmet — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Plastron en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_chestplate — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Jambières en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_leggings — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Bottes en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_boots — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Prudentium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Ensemble en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_helmet, item mysticalagriculture:prudentium_chestplate, item mysticalagriculture:prudentium_leggings, item mysticalagriculture:prudentium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en Prudentium (4), ensemble dans l'inventaire.
+- **Casque en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_helmet — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Plastron en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_chestplate — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Jambières en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_leggings — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Bottes en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_boots — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Supremium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Ensemble en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_helmet, item mysticalagriculture:supremium_chestplate, item mysticalagriculture:supremium_leggings, item mysticalagriculture:supremium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en Supremium (4), ensemble dans l'inventaire.
+- **Casque en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_helmet — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Plastron en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_chestplate — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Jambières en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_leggings — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Bottes en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_boots — récompense : xp 1
+  > Pièce d'armure de Mystical Agriculture. Elle fait partie de l'ensemble en Tertium. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Ensemble en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_helmet, item mysticalagriculture:tertium_chestplate, item mysticalagriculture:tertium_leggings, item mysticalagriculture:tertium_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble en Tertium (4), ensemble dans l'inventaire.
+- **Chapeau d'Oublié** *(optionnelle)* — tâches : item quark:forgotten_hat — récompense : xp 1
+  > Pièce d'armure de Quark. À garder : la livraison n'est pas consommée.
+- **« §eChorundum Helmet »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_armor_helmet — récompense : xp 1
+  > Pièce d'armure de Stalwart Dungeons. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée.
+- **« §eChorundum Chestplate »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_armor_chestplate — récompense : xp 1
+  > Pièce d'armure de Stalwart Dungeons. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée.
+- **« §eChorundum Leggings »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_armor_leggings — récompense : xp 1
+  > Pièce d'armure de Stalwart Dungeons. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée.
+- **« §eChorundum Boots »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_armor_boots — récompense : xp 1
+  > Pièce d'armure de Stalwart Dungeons. Elle fait partie de l'ensemble « §eChorundum ». À garder : la livraison n'est pas consommée.
+- **Ensemble « §eChorundum »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_armor_helmet, item stalwart_dungeons:chorundum_armor_chestplate, item stalwart_dungeons:chorundum_armor_leggings, item stalwart_dungeons:chorundum_armor_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « §eChorundum » (4), ensemble dans l'inventaire.
+- **« §eTungsten Helmet »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_helmet — récompense : xp 1
+  > Pièce d'armure de Stalwart Dungeons. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée.
+- **« §eTungsten Chestplate »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_chestplate — récompense : xp 1
+  > Pièce d'armure de Stalwart Dungeons. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée.
+- **« §eTungsten Leggings »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_leggings — récompense : xp 1
+  > Pièce d'armure de Stalwart Dungeons. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée.
+- **« §eTungsten Boots »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_boots — récompense : xp 1
+  > Pièce d'armure de Stalwart Dungeons. Elle fait partie de l'ensemble « §eTungsten ». À garder : la livraison n'est pas consommée.
+- **Ensemble « §eTungsten »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_helmet, item stalwart_dungeons:tungsten_chestplate, item stalwart_dungeons:tungsten_leggings, item stalwart_dungeons:tungsten_boots — récompense : xp 5
+  > Toutes les pièces de l'ensemble « §eTungsten » (4), ensemble dans l'inventaire.
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20
+  > Toutes les pièces et tous les ensembles de ce chapitre.
+- **Toute l'Armurerie** *(optionnelle)* — tâches : checkmark Toute l'Armurerie — récompense : xp 50
+  > Les trois chapitres de l'Armurerie complets : chaque pièce d'armure du pack que ce serveur permet d'obtenir.
 
 ## Arsenal de défense  (`enc_arsenal`, 93 quêtes)
 
@@ -1609,7 +2454,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
 
-## Bestiaire — Nether et End  (`enc_bestiaire_nether_end`, 55 quêtes)
+## Bestiaire — Nether et End  (`enc_bestiaire_nether_end`, 58 quêtes)
 
 - **Bestiaire — Nether et End** — tâches : checkmark Lu — récompense : xp 2
   > Les créatures du Nether et de l'End : le jeu de base, Better Nether, Bygone Nether, Soulful Nether, Jaden's Nether Expansion, Better End, et celles des mods de faune qui y vivent. Une quête se valide en regardant la créature.
@@ -1712,18 +2557,24 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de Jaden's Nether Expansion. Apparaît : dans des structures de Jaden's Nether Expansion.
 - **Rencontre : « Carcass »** *(optionnelle)* — tâches : observation entity netherexp:carcass — récompense : xp 1
   > Créature de Jaden's Nether Expansion. Apparaît : dans des structures de Jaden's Nether Expansion.
+- **Rencontre : « Ecto Slab »** *(optionnelle)* — tâches : observation entity netherexp:ecto_slab — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Apparaît : d'un tourbillon d'âmes traversé sous Vitesse débridée, ou quand une apparition possède une statue « Phase ».
+- **Rencontre : « Stampede »** *(optionnelle)* — tâches : observation entity netherexp:stampede — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Apparaît : quand une apparition possède une statue de gargouille « Trample ».
 - **Rencontre : « Vessel »** *(optionnelle)* — tâches : observation entity netherexp:vessel — récompense : xp 1
   > Créature de Jaden's Nether Expansion. Monde : Nether. Biomes : « Black Ice Glaciers », Vallée des âmes. Butin : Os.
+- **Rencontre : « Wisp »** *(optionnelle)* — tâches : observation entity netherexp:wisp — récompense : xp 1
+  > Créature de Jaden's Nether Expansion. Apparaît : du sable des âmes ectoplasmique de la vallée des âmes.
 - **Rencontre : Renard de feu** *(optionnelle)* — tâches : observation entity quark:foxhound — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : Terres désolées du Nether ; Deltas de basalte ; Vallée des âmes. Butin : Cuir, Charbon.
 - **Rencontre : Spectre** *(optionnelle)* — tâches : observation entity quark:wraith — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : Vallée des âmes. Butin : Perle d'âme.
 - **Rencontre : « Bone Wyrm »** *(optionnelle)* — tâches : observation entity soulfulnether:bone_wyrm — récompense : xp 1
   > Créature de Soulful Nether. Apparaît : d'un nid de wyrm d'os, dans les vallées des âmes.
-- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : alexsmobs_bone_serpent, alexsmobs_cosmaw, alexsmobs_cosmic_cod, alexsmobs_crimson_mosquito, alexsmobs_endergrade, alexsmobs_enderiophage, alexsmobs_laviathan, alexsmobs_mimicube, alexsmobs_soul_vulture, alexsmobs_straddler, alexsmobs_stradpole, alexsmobs_warped_mosco, alexsmobs_warped_toad, betterend_cubozoa, betterend_dragonfly, betterend_end_fish, betterend_end_slime, betterend_shadow_walker, betterend_silk_moth, betternether_firefly, betternether_flying_pig, betternether_hydrogen_jellyfish, betternether_jungle_skeleton, betternether_naga, betternether_skull, bygonenether_corpor, bygonenether_piglin_hunter, bygonenether_warped_enderman, bygonenether_wex, bygonenether_wither_skeleton_knight, bygonenether_wraither, friendsandfoes_wildfire, goblintraders_vein_goblin_trader, minecraft_blaze, minecraft_endermite, minecraft_ghast, minecraft_happy_ghast, minecraft_hoglin, minecraft_magma_cube, minecraft_piglin, minecraft_piglin_brute, minecraft_shulker, minecraft_strider, minecraft_wither_skeleton, minecraft_zoglin, minecraft_zombified_piglin, netherexp_apparition, netherexp_banshee, netherexp_carcass, netherexp_vessel, quark_foxhound, quark_wraith, soulfulnether_bone_wyrm
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : alexsmobs_bone_serpent, alexsmobs_cosmaw, alexsmobs_cosmic_cod, alexsmobs_crimson_mosquito, alexsmobs_endergrade, alexsmobs_enderiophage, alexsmobs_laviathan, alexsmobs_mimicube, alexsmobs_soul_vulture, alexsmobs_straddler, alexsmobs_stradpole, alexsmobs_warped_mosco, alexsmobs_warped_toad, betterend_cubozoa, betterend_dragonfly, betterend_end_fish, betterend_end_slime, betterend_shadow_walker, betterend_silk_moth, betternether_firefly, betternether_flying_pig, betternether_hydrogen_jellyfish, betternether_jungle_skeleton, betternether_naga, betternether_skull, bygonenether_corpor, bygonenether_piglin_hunter, bygonenether_warped_enderman, bygonenether_wex, bygonenether_wither_skeleton_knight, bygonenether_wraither, friendsandfoes_wildfire, goblintraders_vein_goblin_trader, minecraft_blaze, minecraft_endermite, minecraft_ghast, minecraft_happy_ghast, minecraft_hoglin, minecraft_magma_cube, minecraft_piglin, minecraft_piglin_brute, minecraft_shulker, minecraft_strider, minecraft_wither_skeleton, minecraft_zoglin, minecraft_zombified_piglin, netherexp_apparition, netherexp_banshee, netherexp_carcass, netherexp_ecto_slab, netherexp_stampede, netherexp_vessel, netherexp_wisp, quark_foxhound, quark_wraith, soulfulnether_bone_wyrm
   > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
 
-## Bestiaire — Overworld  (`enc_bestiaire_overworld`, 189 quêtes)
+## Bestiaire — Overworld  (`enc_bestiaire_overworld`, 198 quêtes)
 
 - **Bestiaire — Overworld** — tâches : checkmark Lu — récompense : xp 2
   > Chaque créature de l'Overworld, du jeu de base et des mods de faune. Une quête se valide en regardant la créature : il suffit de l'avoir devant soi.
@@ -2108,12 +2959,30 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Créature de Quark. Catégorie : animal. Biomes : Forêt lumineuse. Butin : Coeur de diamant.
 - **Rencontre : Tortue** *(optionnelle)* — tâches : observation entity quark:toretoise — récompense : xp 1
   > Créature de Quark. Apparition (config du serveur) : partout (sauf le Vide, tout le Nether, tout l'End). Apparaît : dans les grottes sous Y 0.
+- **Rencontre : « Electromancer »** *(optionnelle)* — tâches : observation entity raided:electromancer — récompense : xp 1
+  > Apparaît : dans les raids, dès la première vague.
+- **Rencontre : « Incinerator »** *(optionnelle)* — tâches : observation entity raided:incinerator — récompense : xp 1
+  > Apparaît : dans les raids, à la quatrième vague.
+- **Rencontre : « Inquisitor »** *(optionnelle)* — tâches : observation entity raided:inquisitor — récompense : xp 1
+  > Apparaît : dans les raids, à la troisième vague.
+- **Rencontre : « Necromancer »** *(optionnelle)* — tâches : observation entity raided:necromancer — récompense : xp 1
+  > Apparaît : dans les raids, à partir de la deuxième vague.
+- **Rencontre : « Savager »** *(optionnelle)* — tâches : observation entity raided:savager — récompense : xp 1
+  > Apparaît : dans les raids, à la troisième vague.
+- **Rencontre : Marchand rouge** *(optionnelle)* — tâches : observation entity supplementaries:red_merchant — récompense : xp 1
+  > Apparaît : comme le marchand ambulant, plus rarement.
 - **Rencontre : « Archer »** *(optionnelle)* — tâches : observation entity takesapillage:archer — récompense : xp 1
   > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Flèche, Émeraude.
 - **Rencontre : « Legioner »** *(optionnelle)* — tâches : observation entity takesapillage:legioner — récompense : xp 1
   > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
 - **Rencontre : « Skirmisher »** *(optionnelle)* — tâches : observation entity takesapillage:skirmisher — récompense : xp 1
   > Illageois de Takes a Pillage. Apparaît : dans les raids et les sièges nocturnes, et dans les camps de pillards et les bastilles. Butin : Émeraude.
+- **Rencontre : « Armadillo »** *(optionnelle)* — tâches : observation entity whatareyouvotingfor:armadillo — récompense : xp 1
+  > Biomes : savanes.
+- **Rencontre : « Crab »** *(optionnelle)* — tâches : observation entity whatareyouvotingfor:crab — récompense : xp 1
+  > Monde : Overworld. Biomes : Marais à mangroves.
+- **Rencontre : « Penguin »** *(optionnelle)* — tâches : observation entity whatareyouvotingfor:penguin — récompense : xp 1
+  > Monde : Overworld. Biomes : Côte rocheuse.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Toutes les créatures de ce chapitre rencontrées. La récompense est symbolique : c'est la quête qui compte.
 
@@ -2848,7 +3717,52 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 
-## Disques et musiques  (`enc_disques`, 59 quêtes)
+## Boucliers  (`enc_boucliers`, 21 quêtes)
+
+- **Boucliers** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque bouclier du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+- **Bouclier** *(optionnelle)* — tâches : item minecraft:shield — récompense : xp 1
+  > Bouclier de Minecraft. À garder : la livraison n'est pas consommée.
+- **Bouclier en pierre de lune** *(optionnelle)* — tâches : item blue_skies:moonstone_shield — récompense : xp 1
+  > Bouclier de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Bouclier spéléothème** *(optionnelle)* — tâches : item blue_skies:spike_shield — récompense : xp 1
+  > Bouclier de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Azure Sea Shield »** *(optionnelle)* — tâches : item cataclysm:azure_sea_shield — récompense : xp 1
+  > Bouclier de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Black Steel Targe »** *(optionnelle)* — tâches : item cataclysm:black_steel_targe — récompense : xp 1
+  > Bouclier de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Bulwark of the Flame »** *(optionnelle)* — tâches : item cataclysm:bulwark_of_the_flame — récompense : xp 1
+  > Bouclier de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Wind Shield »** *(optionnelle)* — tâches : item deep_aether:wind_shield — récompense : xp 1
+  > Bouclier de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Bouclier en Gravitite** *(optionnelle)* — tâches : item lost_aether_content:gravitite_shield — récompense : xp 1
+  > Bouclier de Lost Aether Content. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Bouclier Sentinelle** *(optionnelle)* — tâches : item lost_aether_content:sentry_shield — récompense : xp 1
+  > Bouclier de Lost Aether Content. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Shield of Emile »** *(optionnelle)* — tâches : item lost_aether_content:shield_of_emile — récompense : xp 1
+  > Bouclier de Lost Aether Content. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Bouclier en Zanite** *(optionnelle)* — tâches : item lost_aether_content:zanite_shield — récompense : xp 1
+  > Bouclier de Lost Aether Content. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Diamond Shield »** *(optionnelle)* — tâches : item shieldexp:diamond_shield — récompense : xp 1
+  > Bouclier de Shield Expansion. À garder : la livraison n'est pas consommée.
+- **« Golden Shield »** *(optionnelle)* — tâches : item shieldexp:golden_shield — récompense : xp 1
+  > Bouclier de Shield Expansion. À garder : la livraison n'est pas consommée.
+- **« Iron Shield »** *(optionnelle)* — tâches : item shieldexp:iron_shield — récompense : xp 1
+  > Bouclier de Shield Expansion. À garder : la livraison n'est pas consommée.
+- **« Netherite Shield »** *(optionnelle)* — tâches : item shieldexp:netherite_shield — récompense : xp 1
+  > Bouclier de Shield Expansion. À garder : la livraison n'est pas consommée.
+- **« Wooden Shield »** *(optionnelle)* — tâches : item shieldexp:wooden_shield — récompense : xp 1
+  > Bouclier de Shield Expansion. À garder : la livraison n'est pas consommée.
+- **« §eChorundum Shield »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_shield — récompense : xp 1
+  > Bouclier de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« §eTungsten Shield »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_shield — récompense : xp 1
+  > Bouclier de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **Bouclier chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_shield — récompense : xp 1
+  > Bouclier de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Tous les boucliers** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20 — après : minecraft_shield, blue_skies_moonstone_shield, blue_skies_spike_shield, cataclysm_azure_sea_shield, cataclysm_black_steel_targe, cataclysm_bulwark_of_the_flame, deep_aether_wind_shield, lost_aether_content_gravitite_shield, lost_aether_content_sentry_shield, lost_aether_content_shield_of_emile, lost_aether_content_zanite_shield, shieldexp_diamond_shield, shieldexp_golden_shield, shieldexp_iron_shield, shieldexp_netherite_shield, shieldexp_wooden_shield, stalwart_dungeons_chorundum_shield, stalwart_dungeons_tungsten_shield, twilightforest_knightmetal_shield
+  > Tous les boucliers de ce chapitre réunies.
+
+## Disques et musiques  (`enc_disques`, 64 quêtes)
 
 - **Disques et musiques** — tâches : checkmark Lu — récompense : xp 2
   > Tous les disques que le pack permet d'obtenir, de tous les mods. Une quête se valide en ayant le disque dans l'inventaire.
@@ -2864,6 +3778,8 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Objet de Aether.
 - **Trouver : « Carved Music Disc »** *(optionnelle)* — tâches : item aether:music_disc_sliders_wrath — récompense : xp 1
   > Objet de Aether.
+- **Trouver : « Ancient Sentrite Music Disc »** *(optionnelle)* — tâches : item aether_redux:ancient_sentrite_music_disc — récompense : xp 1
+  > Objet de Aether Redux.
 - **Trouver : Disque de musique** *(optionnelle)* — tâches : item alexsmobs:music_disc_thime — récompense : xp 1
   > Objet de alexsmobs.
 - **Trouver : « §bMusic Disc§r »** *(optionnelle)* — tâches : item betterend:music_disc_endseeker — récompense : xp 1
@@ -2896,7 +3812,15 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Objet de Cataclysm.
 - **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_a_morning_wish — récompense : xp 1
   > Objet de Deep Aether.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_above_the_rain — récompense : xp 1
+  > Objet de Deep Aether.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_atta — récompense : xp 1
+  > Objet de Deep Aether.
 - **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_cyclone — récompense : xp 1
+  > Objet de Deep Aether.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_faent — récompense : xp 1
+  > Objet de Deep Aether.
+- **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_himininn — récompense : xp 1
   > Objet de Deep Aether.
 - **Trouver : « Music Disc »** *(optionnelle)* — tâches : item deep_aether:music_disc_nabooru — récompense : xp 1
   > Objet de Deep Aether.
@@ -2966,10 +3890,207 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Objet de Twilight Forest.
 - **Trouver : « Music Disc »** *(optionnelle)* — tâches : item twilightforest:music_disc_wayfarer — récompense : xp 1
   > Objet de Twilight Forest.
-- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : aether_music_disc_aether_tune, aether_music_disc_ascending_dawn, aether_music_disc_chinchilla, aether_music_disc_high, aether_music_disc_klepto, aether_music_disc_sliders_wrath, alexsmobs_music_disc_thime, betterend_music_disc_endseeker, betterend_music_disc_eo_dracona, betterend_music_disc_grasping_at_stars, betterend_music_disc_strange_and_alien, biomesoplenty_music_disc_wanderer, bygonenether_wither_waltz_music_disc, cataclysm_music_disc_ancient_remnant, cataclysm_music_disc_ender_guardian, cataclysm_music_disc_ignis, cataclysm_music_disc_maledictus, cataclysm_music_disc_netherite_monstrosity, cataclysm_music_disc_scylla, cataclysm_music_disc_the_harbinger, cataclysm_music_disc_the_leviathan, deep_aether_music_disc_a_morning_wish, deep_aether_music_disc_cyclone, deep_aether_music_disc_nabooru, irons_spellbooks_music_disc_dead_king_lullaby, irons_spellbooks_music_disc_flame_still_burns, lost_aether_content_music_disc_legacy, lost_aether_content_music_disc_sovereign_of_the_skies, minecraft_music_disc_11, minecraft_music_disc_13, minecraft_music_disc_5, minecraft_music_disc_blocks, minecraft_music_disc_cat, minecraft_music_disc_chirp, minecraft_music_disc_far, minecraft_music_disc_mall, minecraft_music_disc_mellohi, minecraft_music_disc_otherside, minecraft_music_disc_pigstep, minecraft_music_disc_relic, minecraft_music_disc_stal, minecraft_music_disc_strad, minecraft_music_disc_wait, minecraft_music_disc_ward, mowziesmobs_music_disc_petiole, netherexp_music_disc_buckshot_wonderland, supplementaries_pancake, takesapillage_bastille_blues_music_disc, twilightforest_music_disc_findings, twilightforest_music_disc_home, twilightforest_music_disc_maker, twilightforest_music_disc_motion, twilightforest_music_disc_radiance, twilightforest_music_disc_steps, twilightforest_music_disc_superstitious, twilightforest_music_disc_thread, twilightforest_music_disc_wayfarer
+- **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 
-## Gastronomie  (`enc_gastronomie`, 156 quêtes)
+## Épées  (`enc_epees`, 97 quêtes)
+
+- **Épées** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque épée du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+- **Épée en diamant** *(optionnelle)* — tâches : item minecraft:diamond_sword — récompense : xp 1
+  > Épée de Minecraft. À garder : la livraison n'est pas consommée.
+- **Épée en or** *(optionnelle)* — tâches : item minecraft:golden_sword — récompense : xp 1
+  > Épée de Minecraft. À garder : la livraison n'est pas consommée.
+- **Épée en fer** *(optionnelle)* — tâches : item minecraft:iron_sword — récompense : xp 1
+  > Épée de Minecraft. À garder : la livraison n'est pas consommée.
+- **Épée en netherite** *(optionnelle)* — tâches : item minecraft:netherite_sword — récompense : xp 1
+  > Épée de Minecraft. À garder : la livraison n'est pas consommée.
+- **Épée en pierre** *(optionnelle)* — tâches : item minecraft:stone_sword — récompense : xp 1
+  > Épée de Minecraft. À garder : la livraison n'est pas consommée.
+- **Épée en bois** *(optionnelle)* — tâches : item minecraft:wooden_sword — récompense : xp 1
+  > Épée de Minecraft. À garder : la livraison n'est pas consommée.
+- **« Netherite-Diamond Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_sword — récompense : xp 1
+  > Épée de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Emerald Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_sword — récompense : xp 1
+  > Épée de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Gold Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_sword — récompense : xp 1
+  > Épée de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Iron Sword »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_sword — récompense : xp 1
+  > Épée de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Candy Cane Sword »** *(optionnelle)* — tâches : item aether:candy_cane_sword — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Flaming Sword »** *(optionnelle)* — tâches : item aether:flaming_sword — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Gravitite Sword »** *(optionnelle)* — tâches : item aether:gravitite_sword — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Holy Sword »** *(optionnelle)* — tâches : item aether:holy_sword — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Holystone Sword »** *(optionnelle)* — tâches : item aether:holystone_sword — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Lightning Sword »** *(optionnelle)* — tâches : item aether:lightning_sword — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Pig Slayer »** *(optionnelle)* — tâches : item aether:pig_slayer — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyroot Sword »** *(optionnelle)* — tâches : item aether:skyroot_sword — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Lance »** *(optionnelle)* — tâches : item aether:valkyrie_lance — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Vampire Blade »** *(optionnelle)* — tâches : item aether:vampire_blade — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Sword »** *(optionnelle)* — tâches : item aether:zanite_sword — récompense : xp 1
+  > Épée de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Infused Veridium Sword »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_sword — récompense : xp 1
+  > Épée de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Veridium Sword »** *(optionnelle)* — tâches : item aether_redux:veridium_sword — récompense : xp 1
+  > Épée de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Crâne de squeladon** *(optionnelle)* — tâches : item alexsmobs:skelewag_sword — récompense : xp 1
+  > Épée de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **« Aeternium Sword »** *(optionnelle)* — tâches : item betterend:aeternium_sword — récompense : xp 1
+  > Épée de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Aeternium Sword Blade »** *(optionnelle)* — tâches : item betterend:aeternium_sword_blade — récompense : xp 1
+  > Épée de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Sword »** *(optionnelle)* — tâches : item betterend:terminite_sword — récompense : xp 1
+  > Épée de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Sword Blade »** *(optionnelle)* — tâches : item betterend:terminite_sword_blade — récompense : xp 1
+  > Épée de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Sword »** *(optionnelle)* — tâches : item betterend:thallasium_sword — récompense : xp 1
+  > Épée de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Sword Blade »** *(optionnelle)* — tâches : item betterend:thallasium_sword_blade — récompense : xp 1
+  > Épée de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Cincinnasite Sword** *(optionnelle)* — tâches : item betternether:cincinnasite_sword — récompense : xp 1
+  > Épée de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Cincinnasite-Diamond Sword** *(optionnelle)* — tâches : item betternether:cincinnasite_sword_diamond — récompense : xp 1
+  > Épée de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **« Fireruby Sword »** *(optionnelle)* — tâches : item betternether:flaming_ruby_sword — récompense : xp 1
+  > Épée de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Nether Ruby Sword** *(optionnelle)* — tâches : item betternether:nether_ruby_sword — récompense : xp 1
+  > Épée de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Épée en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en bois lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Comet Wood Sword »** *(optionnelle)* — tâches : item blue_skies:comet_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée différente** *(optionnelle)* — tâches : item blue_skies:different_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Épée en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_sword — récompense : xp 1
+  > Épée de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Black Steel Sword »** *(optionnelle)* — tâches : item cataclysm:black_steel_sword — récompense : xp 1
+  > Épée de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **Épée en carton** *(optionnelle)* — tâches : item create:cardboard_sword — récompense : xp 1
+  > Épée de Create. À garder : la livraison n'est pas consommée.
+- **« Skyjade Sword »** *(optionnelle)* — tâches : item deep_aether:skyjade_sword — récompense : xp 1
+  > Épée de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Storm Sword »** *(optionnelle)* — tâches : item deep_aether:storm_sword — récompense : xp 1
+  > Épée de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Sword »** *(optionnelle)* — tâches : item deep_aether:stratus_sword — récompense : xp 1
+  > Épée de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Resonarium Sword »** *(optionnelle)* — tâches : item deeperdarker:resonarium_sword — récompense : xp 1
+  > Épée de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Épée du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_sword — récompense : xp 1
+  > Épée de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Dragon Sword »** *(optionnelle)* — tâches : item dragonloot:dragon_sword — récompense : xp 1
+  > Épée de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **« Draconic Splitter »** *(optionnelle)* — tâches : item hazennstuff:draconic_splitter — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Excalibur »** *(optionnelle)* — tâches : item hazennstuff:excalibur — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Fireblossom Rapier »** *(optionnelle)* — tâches : item hazennstuff:fireblossom_rapier — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Ice Pike »** *(optionnelle)* — tâches : item hazennstuff:ice_pike — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Ionic Splitter »** *(optionnelle)* — tâches : item hazennstuff:ionic_splitter — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Legionnaire Warlock Axe »** *(optionnelle)* — tâches : item hazennstuff:legionnaire_warlock_axe — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« O' Fortuna »** *(optionnelle)* — tâches : item hazennstuff:o_fortuna — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Provocation »** *(optionnelle)* — tâches : item hazennstuff:provocation — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Raven's Bane »** *(optionnelle)* — tâches : item hazennstuff:ravens_bane — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« The Devourer »** *(optionnelle)* — tâches : item hazennstuff:the_devourer — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **« Umbranova »** *(optionnelle)* — tâches : item hazennstuff:umbranova — récompense : xp 1
+  > Épée de Hazen 'n Stuff. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Rapière en Améthyste** *(optionnelle)* — tâches : item irons_spellbooks:amethyst_rapier — récompense : xp 1
+  > Épée de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Lame Boréale** *(optionnelle)* — tâches : item irons_spellbooks:boreal_blade — récompense : xp 1
+  > Épée de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Faux Décrépite** *(optionnelle)* — tâches : item irons_spellbooks:decrepit_scythe — récompense : xp 1
+  > Épée de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Tranchefer Infernal** *(optionnelle)* — tâches : item irons_spellbooks:hellrazor — récompense : xp 1
+  > Épée de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Flamberge Décrépite** *(optionnelle)* — tâches : item irons_spellbooks:keeper_flamberge — récompense : xp 1
+  > Épée de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Flamberge du Légionnaire** *(optionnelle)* — tâches : item irons_spellbooks:legionnaire_flamberge — récompense : xp 1
+  > Épée de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Brise-Sort** *(optionnelle)* — tâches : item irons_spellbooks:spellbreaker — récompense : xp 1
+  > Épée de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Rafale du Crépuscule** *(optionnelle)* — tâches : item irons_spellbooks:twilight_gale — récompense : xp 1
+  > Épée de Iron's Spells. Ses paliers sont au chapitre Iron's Spells. À garder : la livraison n'est pas consommée.
+- **Épée en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_sword — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **« Hostile soulium dagger »** *(optionnelle)* — tâches : item mysticalagriculture:hostile_soulium_dagger — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Épée en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_sword — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Épée en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_sword — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **« Passive soulium dagger »** *(optionnelle)* — tâches : item mysticalagriculture:passive_soulium_dagger — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Épée en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_sword — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Dague en Soulium** *(optionnelle)* — tâches : item mysticalagriculture:soulium_dagger — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Épée en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_sword — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Épée en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_sword — récompense : xp 1
+  > Épée de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **« §eChorundum Sword »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_sword — récompense : xp 1
+  > Épée de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« §eTungsten Sword »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_sword — récompense : xp 1
+  > Épée de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« Teardrop Sword »** *(optionnelle)* — tâches : item twilightdelight:teardrop_sword — récompense : xp 1
+  > Épée de Twilight's Flavor Delight. À garder : la livraison n'est pas consommée.
+- **Épée ardente** *(optionnelle)* — tâches : item twilightforest:fiery_sword — récompense : xp 1
+  > Épée de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Épée de géant** *(optionnelle)* — tâches : item twilightforest:giant_sword — récompense : xp 1
+  > Épée de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Épée en verre** *(optionnelle)* — tâches : item twilightforest:glass_sword — récompense : xp 1
+  > Épée de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Épée gelée** *(optionnelle)* — tâches : item twilightforest:ice_sword — récompense : xp 1
+  > Épée de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Épée en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_sword — récompense : xp 1
+  > Épée de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Épée chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_sword — récompense : xp 1
+  > Épée de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Épée en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_sword — récompense : xp 1
+  > Épée de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Toutes les épées** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20
+  > Toutes les épées de ce chapitre réunies.
+
+## Gastronomie  (`enc_gastronomie`, 143 quêtes)
 
 - **Gastronomie** — tâches : checkmark Lu — récompense : xp 2
   > Chaque plat, boisson et douceur de Farmer's Delight et de ses extensions présentes dans le pack. Une quête se valide en ayant le plat dans l'inventaire.
@@ -2990,15 +4111,11 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un plat de Crabber's Delight.
 - **Goûter : « Raw Tropical Fish Slice »** *(optionnelle)* — tâches : item crabbersdelight:tropical_fish_slice — récompense : xp 1
   > Un plat de Crabber's Delight.
-- **Goûter : « Aged Roe »** *(optionnelle)* — tâches : item delightful:aged_roe — récompense : xp 1
-  > Un plat de Delightful.
 - **Goûter : « Azalea Tea »** *(optionnelle)* — tâches : item delightful:azalea_tea — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Slice of Baklava »** *(optionnelle)* — tâches : item delightful:baklava_slice — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Iced Berry Matcha Latte »** *(optionnelle)* — tâches : item delightful:berry_matcha_latte — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Slice of Blueberry Pie »** *(optionnelle)* — tâches : item delightful:blueberry_pie_slice — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Cactus Chili »** *(optionnelle)* — tâches : item delightful:cactus_chili — récompense : xp 1
   > Un plat de Delightful.
@@ -3008,15 +4125,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un plat de Delightful.
 - **Goûter : « Cantaloupe Popsicle »** *(optionnelle)* — tâches : item delightful:cantaloupe_popsicle — récompense : xp 1
   > Un plat de Delightful.
-- **Goûter : « Caviar »** *(optionnelle)* — tâches : item delightful:caviar — récompense : xp 1
-  > Un plat de Delightful.
 - **Goûter : « Cheeseburger »** *(optionnelle)* — tâches : item delightful:cheeseburger — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Chorus Muffin »** *(optionnelle)* — tâches : item delightful:chorus_muffin — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Slice of Chorus Pie »** *(optionnelle)* — tâches : item delightful:chorus_pie_slice — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Chunkwich »** *(optionnelle)* — tâches : item delightful:chunkwich — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Coconut Curry »** *(optionnelle)* — tâches : item delightful:coconut_curry — récompense : xp 1
   > Un plat de Delightful.
@@ -3034,41 +4143,25 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un plat de Delightful.
 - **Goûter : « Field Salad »** *(optionnelle)* — tâches : item delightful:field_salad — récompense : xp 1
   > Un plat de Delightful.
-- **Goûter : « Slice of Gloomgourd Pie »** *(optionnelle)* — tâches : item delightful:gloomgourd_pie_slice — récompense : xp 1
-  > Un plat de Delightful.
 - **Goûter : « Glow Jam Cookie »** *(optionnelle)* — tâches : item delightful:glow_jam_cookie — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Slice of Green Apple Pie »** *(optionnelle)* — tâches : item delightful:green_apple_pie_slice — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Honey Glazed Walnut »** *(optionnelle)* — tâches : item delightful:honey_glazed_walnut — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Lavender Tea »** *(optionnelle)* — tâches : item delightful:lavender_tea — récompense : xp 1
   > Un plat de Delightful.
-- **Goûter : « Prickly Pear Juice »** *(optionnelle)* — tâches : item delightful:long_prickly_pear_juice — récompense : xp 1
-  > Un plat de Delightful.
 - **Goûter : « Marshmallow on a Stick »** *(optionnelle)* — tâches : item delightful:marshmallow_stick — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Matcha Latte »** *(optionnelle)* — tâches : item delightful:matcha_latte — récompense : xp 1
   > Un plat de Delightful.
-- **Goûter : « Slice of Mulberry Pie »** *(optionnelle)* — tâches : item delightful:mulberry_pie_slice — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Slice of Mutton Pie »** *(optionnelle)* — tâches : item delightful:mutton_pie_slice — récompense : xp 1
-  > Un plat de Delightful.
 - **Goûter : « Nut Butter and Jam Sandwich »** *(optionnelle)* — tâches : item delightful:nut_butter_and_jam_sandwich — récompense : xp 1
   > Un plat de Delightful.
-- **Goûter : « Slice of Passion Fruit Tart »** *(optionnelle)* — tâches : item delightful:passion_fruit_tart_slice — récompense : xp 1
-  > Un plat de Delightful.
 - **Goûter : « Prickly Pear Juice »** *(optionnelle)* — tâches : item delightful:prickly_pear_juice — récompense : xp 1
+  > Un plat de Delightful.
+- **Goûter : « Raw Chevon »** *(optionnelle)* — tâches : item delightful:raw_goat — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Roasted Acorn »** *(optionnelle)* — tâches : item delightful:roasted_acorn — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Rose Rock Candy »** *(optionnelle)* — tâches : item delightful:rock_candy — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Roe Blini »** *(optionnelle)* — tâches : item delightful:roe_blini — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Roe Roll »** *(optionnelle)* — tâches : item delightful:roe_roll — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Salmon and Roe Blini »** *(optionnelle)* — tâches : item delightful:salmon_and_roe_blini — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Slice of Salmonberry Pie »** *(optionnelle)* — tâches : item delightful:salmonberry_pie_slice — récompense : xp 1
   > Un plat de Delightful.
@@ -3079,8 +4172,6 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Goûter : « Source Berry Cookie »** *(optionnelle)* — tâches : item delightful:source_berry_cookie — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Stuffed Cantaloupe »** *(optionnelle)* — tâches : item delightful:stuffed_cantaloupe_block — récompense : xp 1
-  > Un plat de Delightful.
-- **Goûter : « Raw Venison Chops »** *(optionnelle)* — tâches : item delightful:venison_chops — récompense : xp 1
   > Un plat de Delightful.
 - **Goûter : « Venison Stew »** *(optionnelle)* — tâches : item delightful:venison_stew — récompense : xp 1
   > Un plat de Delightful.
@@ -3234,6 +4325,10 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un plat de My Nether's Delight.
 - **Goûter : « Roasted Sausage »** *(optionnelle)* — tâches : item mynethersdelight:roasted_sausage — récompense : xp 1
   > Un plat de My Nether's Delight.
+- **Goûter : « Strider Slice »** *(optionnelle)* — tâches : item mynethersdelight:strider_slice — récompense : xp 1
+  > Un plat de My Nether's Delight.
+- **Goûter : « Tentacles »** *(optionnelle)* — tâches : item oceansdelight:tentacles — récompense : xp 1
+  > Un plat de Ocean's Delight.
 - **Goûter : « Aurora Cake Slice »** *(optionnelle)* — tâches : item twilightdelight:aurora_cake_slice — récompense : xp 1
   > Un plat de Twilight's Flavor Delight.
 - **Goûter : « Aurora Ice Cream »** *(optionnelle)* — tâches : item twilightdelight:aurora_ice_cream — récompense : xp 1
@@ -3285,15 +4380,134 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 
-## Herbier  (`enc_herbier`, 64 quêtes)
+## Haches  (`enc_haches`, 59 quêtes)
+
+- **Haches** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque hache du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+- **Hache en diamant** *(optionnelle)* — tâches : item minecraft:diamond_axe — récompense : xp 1
+  > Hache de Minecraft. À garder : la livraison n'est pas consommée.
+- **Hache en or** *(optionnelle)* — tâches : item minecraft:golden_axe — récompense : xp 1
+  > Hache de Minecraft. À garder : la livraison n'est pas consommée.
+- **Hache en fer** *(optionnelle)* — tâches : item minecraft:iron_axe — récompense : xp 1
+  > Hache de Minecraft. À garder : la livraison n'est pas consommée.
+- **Hache en netherite** *(optionnelle)* — tâches : item minecraft:netherite_axe — récompense : xp 1
+  > Hache de Minecraft. À garder : la livraison n'est pas consommée.
+- **Hache en pierre** *(optionnelle)* — tâches : item minecraft:stone_axe — récompense : xp 1
+  > Hache de Minecraft. À garder : la livraison n'est pas consommée.
+- **Hache en bois** *(optionnelle)* — tâches : item minecraft:wooden_axe — récompense : xp 1
+  > Hache de Minecraft. À garder : la livraison n'est pas consommée.
+- **« Netherite-Diamond Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_axe — récompense : xp 1
+  > Hache de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Emerald Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_axe — récompense : xp 1
+  > Hache de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Gold Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_axe — récompense : xp 1
+  > Hache de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Iron Axe »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_axe — récompense : xp 1
+  > Hache de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Gravitite Axe »** *(optionnelle)* — tâches : item aether:gravitite_axe — récompense : xp 1
+  > Hache de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Holystone Axe »** *(optionnelle)* — tâches : item aether:holystone_axe — récompense : xp 1
+  > Hache de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyroot Axe »** *(optionnelle)* — tâches : item aether:skyroot_axe — récompense : xp 1
+  > Hache de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Axe »** *(optionnelle)* — tâches : item aether:valkyrie_axe — récompense : xp 1
+  > Hache de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Axe »** *(optionnelle)* — tâches : item aether:zanite_axe — récompense : xp 1
+  > Hache de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Infused Veridium Axe »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_axe — récompense : xp 1
+  > Hache de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Veridium Axe »** *(optionnelle)* — tâches : item aether_redux:veridium_axe — récompense : xp 1
+  > Hache de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Aeternium Axe »** *(optionnelle)* — tâches : item betterend:aeternium_axe — récompense : xp 1
+  > Hache de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Axe »** *(optionnelle)* — tâches : item betterend:terminite_axe — récompense : xp 1
+  > Hache de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Axe »** *(optionnelle)* — tâches : item betterend:thallasium_axe — récompense : xp 1
+  > Hache de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Hache en Cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_axe — récompense : xp 1
+  > Hache de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Hache en Cincinnasite diamantée** *(optionnelle)* — tâches : item betternether:cincinnasite_axe_diamond — récompense : xp 1
+  > Hache de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **« Fireruby Axe »** *(optionnelle)* — tâches : item betternether:flaming_ruby_axe — récompense : xp 1
+  > Hache de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Nether Ruby Axe** *(optionnelle)* — tâches : item betternether:nether_ruby_axe — récompense : xp 1
+  > Hache de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Hache en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en bois de lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Comet Wood Axe »** *(optionnelle)* — tâches : item blue_skies:comet_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Hache en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_axe — récompense : xp 1
+  > Hache de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Black Steel Axe »** *(optionnelle)* — tâches : item cataclysm:black_steel_axe — récompense : xp 1
+  > Hache de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Skyjade Axe »** *(optionnelle)* — tâches : item deep_aether:skyjade_axe — récompense : xp 1
+  > Hache de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Axe »** *(optionnelle)* — tâches : item deep_aether:stratus_axe — récompense : xp 1
+  > Hache de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Resonarium Axe »** *(optionnelle)* — tâches : item deeperdarker:resonarium_axe — récompense : xp 1
+  > Hache de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Hache du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_axe — récompense : xp 1
+  > Hache de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Dragon Axe »** *(optionnelle)* — tâches : item dragonloot:dragon_axe — récompense : xp 1
+  > Hache de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **Hache des milles métaux** *(optionnelle)* — tâches : item mowziesmobs:wrought_axe — récompense : xp 1
+  > Hache de Mowzie's Mobs. Ses paliers sont au chapitre Mowzie's Mobs. À garder : la livraison n'est pas consommée.
+- **Hache en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_axe — récompense : xp 1
+  > Hache de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Hache en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_axe — récompense : xp 1
+  > Hache de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Hache en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_axe — récompense : xp 1
+  > Hache de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Hache en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_axe — récompense : xp 1
+  > Hache de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Hache en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_axe — récompense : xp 1
+  > Hache de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Hache en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_axe — récompense : xp 1
+  > Hache de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **« §eChorundum Axe »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_axe — récompense : xp 1
+  > Hache de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« §eTungsten Axe »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_axe — récompense : xp 1
+  > Hache de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **Hache en diamant du Minotaure** *(optionnelle)* — tâches : item twilightforest:diamond_minotaur_axe — récompense : xp 1
+  > Hache de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Hache en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_axe — récompense : xp 1
+  > Hache de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Hache chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_axe — récompense : xp 1
+  > Hache de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Hache en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_axe — récompense : xp 1
+  > Hache de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Toutes les haches** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20 — après : minecraft_diamond_axe, minecraft_golden_axe, minecraft_iron_axe, minecraft_netherite_axe, minecraft_stone_axe, minecraft_wooden_axe, advancednetherite_netherite_diamond_axe, advancednetherite_netherite_emerald_axe, advancednetherite_netherite_gold_axe, advancednetherite_netherite_iron_axe, aether_gravitite_axe, aether_holystone_axe, aether_skyroot_axe, aether_valkyrie_axe, aether_zanite_axe, aether_redux_infused_veridium_axe, aether_redux_veridium_axe, betterend_aeternium_axe, betterend_terminite_axe, betterend_thallasium_axe, betternether_cincinnasite_axe, betternether_cincinnasite_axe_diamond, betternether_flaming_ruby_axe, betternether_nether_ruby_axe, blue_skies_aquite_axe, blue_skies_bluebright_axe, blue_skies_charoite_axe, blue_skies_comet_axe, blue_skies_diopside_axe, blue_skies_dusk_axe, blue_skies_frostbright_axe, blue_skies_horizonite_axe, blue_skies_lunar_axe, blue_skies_lunar_stone_axe, blue_skies_maple_axe, blue_skies_pyrope_axe, blue_skies_starlit_axe, blue_skies_turquoise_stone_axe, cataclysm_black_steel_axe, deep_aether_skyjade_axe, deep_aether_stratus_axe, deeperdarker_resonarium_axe, deeperdarker_warden_axe, dragonloot_dragon_axe, mowziesmobs_wrought_axe, mysticalagriculture_awakened_supremium_axe, mysticalagriculture_imperium_axe, mysticalagriculture_inferium_axe, mysticalagriculture_prudentium_axe, mysticalagriculture_supremium_axe, mysticalagriculture_tertium_axe, stalwart_dungeons_chorundum_axe, stalwart_dungeons_tungsten_axe, twilightforest_diamond_minotaur_axe, twilightforest_ironwood_axe, twilightforest_knightmetal_axe, twilightforest_steeleaf_axe
+  > Toutes les haches de ce chapitre réunies.
+
+## Herbier  (`enc_herbier`, 61 quêtes)
 
 - **Herbier** — tâches : checkmark Lu — récompense : xp 2
-  > Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion.
+  > Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion. Les paliers d'essence, d'équipement et d'augments sont au chapitre Mystical Agriculture.
 - **Cultiver : « Air seeds »** *(optionnelle)* — tâches : item mysticalagriculture:air_seeds — récompense : xp 1
   > Graine de Mystical Agriculture.
 - **Cultiver : « Amethyst seeds »** *(optionnelle)* — tâches : item mysticalagriculture:amethyst_seeds — récompense : xp 1
-  > Graine de Mystical Agriculture.
-- **Cultiver : « Basalt seeds »** *(optionnelle)* — tâches : item mysticalagriculture:basalt_seeds — récompense : xp 1
   > Graine de Mystical Agriculture.
 - **Cultiver : « Blaze seeds »** *(optionnelle)* — tâches : item mysticalagriculture:blaze_seeds — récompense : xp 1
   > Graine de Mystical Agriculture.
@@ -3353,8 +4567,6 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Graine de Mystical Agriculture.
 - **Cultiver : « Lapis lazuli seeds »** *(optionnelle)* — tâches : item mysticalagriculture:lapis_lazuli_seeds — récompense : xp 1
   > Graine de Mystical Agriculture.
-- **Cultiver : « Lead seeds »** *(optionnelle)* — tâches : item mysticalagriculture:lead_seeds — récompense : xp 1
-  > Graine de Mystical Agriculture.
 - **Cultiver : « Limestone seeds »** *(optionnelle)* — tâches : item mysticalagriculture:limestone_seeds — récompense : xp 1
   > Graine de Mystical Agriculture.
 - **Cultiver : « Marble seeds »** *(optionnelle)* — tâches : item mysticalagriculture:marble_seeds — récompense : xp 1
@@ -3399,8 +4611,6 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Graine de Mystical Agriculture.
 - **Cultiver : « Stone seeds »** *(optionnelle)* — tâches : item mysticalagriculture:stone_seeds — récompense : xp 1
   > Graine de Mystical Agriculture.
-- **Cultiver : « Sulfur seeds »** *(optionnelle)* — tâches : item mysticalagriculture:sulfur_seeds — récompense : xp 1
-  > Graine de Mystical Agriculture.
 - **Cultiver : « Turtle seeds »** *(optionnelle)* — tâches : item mysticalagriculture:turtle_seeds — récompense : xp 1
   > Graine de Mystical Agriculture.
 - **Cultiver : « Water seeds »** *(optionnelle)* — tâches : item mysticalagriculture:water_seeds — récompense : xp 1
@@ -3415,6 +4625,144 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Graine de Mystical Agriculture.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Houes  (`enc_houes`, 56 quêtes)
+
+- **Houes** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque houe du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+- **Houe en diamant** *(optionnelle)* — tâches : item minecraft:diamond_hoe — récompense : xp 1
+  > Houe de Minecraft. À garder : la livraison n'est pas consommée.
+- **Houe en or** *(optionnelle)* — tâches : item minecraft:golden_hoe — récompense : xp 1
+  > Houe de Minecraft. À garder : la livraison n'est pas consommée.
+- **Houe en fer** *(optionnelle)* — tâches : item minecraft:iron_hoe — récompense : xp 1
+  > Houe de Minecraft. À garder : la livraison n'est pas consommée.
+- **Houe en netherite** *(optionnelle)* — tâches : item minecraft:netherite_hoe — récompense : xp 1
+  > Houe de Minecraft. À garder : la livraison n'est pas consommée.
+- **Houe en pierre** *(optionnelle)* — tâches : item minecraft:stone_hoe — récompense : xp 1
+  > Houe de Minecraft. À garder : la livraison n'est pas consommée.
+- **Houe en bois** *(optionnelle)* — tâches : item minecraft:wooden_hoe — récompense : xp 1
+  > Houe de Minecraft. À garder : la livraison n'est pas consommée.
+- **« Netherite-Diamond Hoe »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_hoe — récompense : xp 1
+  > Houe de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Emerald Hoe »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_hoe — récompense : xp 1
+  > Houe de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Gold Hoe »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_hoe — récompense : xp 1
+  > Houe de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Iron Hoe »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_hoe — récompense : xp 1
+  > Houe de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Gravitite Hoe »** *(optionnelle)* — tâches : item aether:gravitite_hoe — récompense : xp 1
+  > Houe de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Holystone Hoe »** *(optionnelle)* — tâches : item aether:holystone_hoe — récompense : xp 1
+  > Houe de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyroot Hoe »** *(optionnelle)* — tâches : item aether:skyroot_hoe — récompense : xp 1
+  > Houe de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Hoe »** *(optionnelle)* — tâches : item aether:valkyrie_hoe — récompense : xp 1
+  > Houe de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Hoe »** *(optionnelle)* — tâches : item aether:zanite_hoe — récompense : xp 1
+  > Houe de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Infused Veridium Hoe »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_hoe — récompense : xp 1
+  > Houe de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Veridium Hoe »** *(optionnelle)* — tâches : item aether_redux:veridium_hoe — récompense : xp 1
+  > Houe de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Aeternium Hoe »** *(optionnelle)* — tâches : item betterend:aeternium_hoe — récompense : xp 1
+  > Houe de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Hoe »** *(optionnelle)* — tâches : item betterend:terminite_hoe — récompense : xp 1
+  > Houe de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Hoe »** *(optionnelle)* — tâches : item betterend:thallasium_hoe — récompense : xp 1
+  > Houe de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Cincinnasite Hoe** *(optionnelle)* — tâches : item betternether:cincinnasite_hoe — récompense : xp 1
+  > Houe de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Cincinnasite-Diamond Hoe** *(optionnelle)* — tâches : item betternether:cincinnasite_hoe_diamond — récompense : xp 1
+  > Houe de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **« Fireruby Hoe »** *(optionnelle)* — tâches : item betternether:flaming_ruby_hoe — récompense : xp 1
+  > Houe de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Nether Ruby Hoe** *(optionnelle)* — tâches : item betternether:nether_ruby_hoe — récompense : xp 1
+  > Houe de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Houe en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en bois de lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Comet Wood Hoe »** *(optionnelle)* — tâches : item blue_skies:comet_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Houe en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_hoe — récompense : xp 1
+  > Houe de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Black Steel Hoe »** *(optionnelle)* — tâches : item cataclysm:black_steel_hoe — récompense : xp 1
+  > Houe de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Skyjade Hoe »** *(optionnelle)* — tâches : item deep_aether:skyjade_hoe — récompense : xp 1
+  > Houe de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Hoe »** *(optionnelle)* — tâches : item deep_aether:stratus_hoe — récompense : xp 1
+  > Houe de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Resonarium Hoe »** *(optionnelle)* — tâches : item deeperdarker:resonarium_hoe — récompense : xp 1
+  > Houe de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Houe en Warden** *(optionnelle)* — tâches : item deeperdarker:warden_hoe — récompense : xp 1
+  > Houe de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Dragon Hoe »** *(optionnelle)* — tâches : item dragonloot:dragon_hoe — récompense : xp 1
+  > Houe de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **Houe en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_hoe — récompense : xp 1
+  > Houe de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Houe en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_hoe — récompense : xp 1
+  > Houe de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Houe en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_hoe — récompense : xp 1
+  > Houe de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Houe en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_hoe — récompense : xp 1
+  > Houe de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Houe en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_hoe — récompense : xp 1
+  > Houe de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Houe en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_hoe — récompense : xp 1
+  > Houe de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **« §eChorundum Hoe »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_hoe — récompense : xp 1
+  > Houe de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« §eTungsten Hoe »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_hoe — récompense : xp 1
+  > Houe de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **Houe en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_hoe — récompense : xp 1
+  > Houe de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Houe en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_hoe — récompense : xp 1
+  > Houe de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Toutes les houes** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20 — après : minecraft_diamond_hoe, minecraft_golden_hoe, minecraft_iron_hoe, minecraft_netherite_hoe, minecraft_stone_hoe, minecraft_wooden_hoe, advancednetherite_netherite_diamond_hoe, advancednetherite_netherite_emerald_hoe, advancednetherite_netherite_gold_hoe, advancednetherite_netherite_iron_hoe, aether_gravitite_hoe, aether_holystone_hoe, aether_skyroot_hoe, aether_valkyrie_hoe, aether_zanite_hoe, aether_redux_infused_veridium_hoe, aether_redux_veridium_hoe, betterend_aeternium_hoe, betterend_terminite_hoe, betterend_thallasium_hoe, betternether_cincinnasite_hoe, betternether_cincinnasite_hoe_diamond, betternether_flaming_ruby_hoe, betternether_nether_ruby_hoe, blue_skies_aquite_hoe, blue_skies_bluebright_hoe, blue_skies_charoite_hoe, blue_skies_comet_hoe, blue_skies_diopside_hoe, blue_skies_dusk_hoe, blue_skies_frostbright_hoe, blue_skies_horizonite_hoe, blue_skies_lunar_hoe, blue_skies_lunar_stone_hoe, blue_skies_maple_hoe, blue_skies_pyrope_hoe, blue_skies_starlit_hoe, blue_skies_turquoise_stone_hoe, cataclysm_black_steel_hoe, deep_aether_skyjade_hoe, deep_aether_stratus_hoe, deeperdarker_resonarium_hoe, deeperdarker_warden_hoe, dragonloot_dragon_hoe, mysticalagriculture_awakened_supremium_hoe, mysticalagriculture_imperium_hoe, mysticalagriculture_inferium_hoe, mysticalagriculture_prudentium_hoe, mysticalagriculture_supremium_hoe, mysticalagriculture_tertium_hoe, stalwart_dungeons_chorundum_hoe, stalwart_dungeons_tungsten_hoe, twilightforest_ironwood_hoe, twilightforest_steeleaf_hoe
+  > Toutes les houes de ce chapitre réunies.
+
+## Jetpacks  (`enc_jetpacks`, 10 quêtes)
+
+- **Jetpacks** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque jetpack qu'Iron Jetpacks permet de fabriquer sur ce serveur, une quête par jetpack. Bronze, argent, électrum, invar et platine n'ont pas de matériau dans le pack, le créatif n'a pas de recette : ils n'y sont pas.
+- **Jetpack en bois** *(optionnelle)* — tâches : jetpack jetpack wood — récompense : xp 1
+  > Le jetpack en bois d'Iron Jetpacks (palier 0). Ses paliers sont au chapitre Iron Jetpacks. À garder : la livraison n'est pas consommée.
+- **Jetpack en cuivre** *(optionnelle)* — tâches : jetpack jetpack copper — récompense : xp 1
+  > Le jetpack en cuivre d'Iron Jetpacks (palier 1). Ses paliers sont au chapitre Iron Jetpacks. À garder : la livraison n'est pas consommée.
+- **Jetpack en pierre** *(optionnelle)* — tâches : jetpack jetpack stone — récompense : xp 1
+  > Le jetpack en pierre d'Iron Jetpacks (palier 1). Ses paliers sont au chapitre Iron Jetpacks. À garder : la livraison n'est pas consommée.
+- **Jetpack en fer** *(optionnelle)* — tâches : jetpack jetpack iron — récompense : xp 1
+  > Le jetpack en fer d'Iron Jetpacks (palier 2). Ses paliers sont au chapitre Iron Jetpacks. À garder : la livraison n'est pas consommée.
+- **Jetpack en or** *(optionnelle)* — tâches : jetpack jetpack gold — récompense : xp 1
+  > Le jetpack en or d'Iron Jetpacks (palier 3). Ses paliers sont au chapitre Iron Jetpacks. À garder : la livraison n'est pas consommée.
+- **Jetpack en acier** *(optionnelle)* — tâches : jetpack jetpack steel — récompense : xp 1
+  > Le jetpack en acier d'Iron Jetpacks (palier 3). Ses paliers sont au chapitre Iron Jetpacks. À garder : la livraison n'est pas consommée.
+- **Jetpack en diamant** *(optionnelle)* — tâches : jetpack jetpack diamond — récompense : xp 1
+  > Le jetpack en diamant d'Iron Jetpacks (palier 4). Ses paliers sont au chapitre Iron Jetpacks. À garder : la livraison n'est pas consommée.
+- **Jetpack en émeraude** *(optionnelle)* — tâches : jetpack jetpack emerald — récompense : xp 1
+  > Le jetpack en émeraude d'Iron Jetpacks (palier 5). Ses paliers sont au chapitre Iron Jetpacks. À garder : la livraison n'est pas consommée.
+- **Tous les jetpacks** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20 — après : jetpack_wood, jetpack_copper, jetpack_stone, jetpack_iron, jetpack_gold, jetpack_steel, jetpack_diamond, jetpack_emerald
+  > Les huit jetpacks fabricables.
 
 ## Minerais et lingots  (`enc_minerais`, 38 quêtes)
 
@@ -3494,6 +4842,320 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Objet de Twilight Forest.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : aether_zanite_gemstone, aether_redux_gravitite_ingot, aether_redux_veridium_ingot, biomesoplenty_rose_quartz_chunk, create_brass_ingot, create_rose_quartz, create_zinc_ingot, deep_aether_skyjade, deep_aether_stratus_ingot, galosphere_palladium_ingot, hazennstuff_steel_ingot, irons_spellbooks_mithril_ingot, irons_spellbooks_pyrium_ingot, minecraft_copper_ingot, mysticalagriculture_awakened_supremium_gemstone, mysticalagriculture_awakened_supremium_ingot, mysticalagriculture_imperium_gemstone, mysticalagriculture_imperium_ingot, mysticalagriculture_inferium_gemstone, mysticalagriculture_inferium_ingot, mysticalagriculture_prosperity_gemstone, mysticalagriculture_prosperity_ingot, mysticalagriculture_prudentium_gemstone, mysticalagriculture_prudentium_ingot, mysticalagriculture_soulium_gemstone, mysticalagriculture_soulium_ingot, mysticalagriculture_supremium_gemstone, mysticalagriculture_supremium_ingot, mysticalagriculture_tertium_gemstone, mysticalagriculture_tertium_ingot, supplementaries_ash_brick, twilightforest_carminite, twilightforest_fiery_ingot, twilightforest_ironwood_ingot, twilightforest_knightmetal_ingot, twilightforest_steeleaf_ingot
   > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Montures et compagnons  (`enc_montures`, 22 quêtes)
+
+- **Montures et compagnons** — tâches : checkmark Lu — récompense : xp 2
+  > Selles et armures des montures et des compagnons : chevaux, loups, moas. Une quête par objet ; rien n'est consommé. Les armures de dragon de Dragon Mounts ne sont pas des objets mais des blocs donnés au dragon : elles sont au chapitre Les dragons, palier par palier.
+- **Armure en diamant pour cheval** *(optionnelle)* — tâches : item minecraft:diamond_horse_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de Minecraft. À garder : la livraison n'est pas consommée.
+- **Armure en or pour cheval** *(optionnelle)* — tâches : item minecraft:golden_horse_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de Minecraft. À garder : la livraison n'est pas consommée.
+- **Armure en fer pour cheval** *(optionnelle)* — tâches : item minecraft:iron_horse_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de Minecraft. À garder : la livraison n'est pas consommée.
+- **Armure en cuir pour cheval** *(optionnelle)* — tâches : item minecraft:leather_horse_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de Minecraft. À garder : la livraison n'est pas consommée.
+- **Selle** *(optionnelle)* — tâches : item minecraft:saddle — récompense : xp 1
+  > Équipement de monture ou de compagnon de Minecraft. À garder : la livraison n'est pas consommée.
+- **Armure pour loup** *(optionnelle)* — tâches : item minecraft:wolf_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de Minecraft. À garder : la livraison n'est pas consommée.
+- **« Diamond Moa Armor »** *(optionnelle)* — tâches : item aether_protect_your_moa:diamond_moa_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de aether_protect_your_moa. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Golden Moa Armor »** *(optionnelle)* — tâches : item aether_protect_your_moa:golden_moa_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de aether_protect_your_moa. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Gravitite Moa Armor »** *(optionnelle)* — tâches : item aether_protect_your_moa:gravitite_moa_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de aether_protect_your_moa. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Iron Moa Armor »** *(optionnelle)* — tâches : item aether_protect_your_moa:iron_moa_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de aether_protect_your_moa. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Leather Moa Armor »** *(optionnelle)* — tâches : item aether_protect_your_moa:leather_moa_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de aether_protect_your_moa. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Moa Armor »** *(optionnelle)* — tâches : item aether_protect_your_moa:zanite_moa_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de aether_protect_your_moa. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **Selle de Straddlite** *(optionnelle)* — tâches : item alexsmobs:straddle_saddle — récompense : xp 1
+  > Équipement de monture ou de compagnon de Alex's Mobs. À garder : la livraison n'est pas consommée.
+- **Selle de chameau** *(optionnelle)* — tâches : item blue_skies:camel_saddle — récompense : xp 1
+  > Équipement de monture ou de compagnon de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Dragon Horse Armor »** *(optionnelle)* — tâches : item dragonloot:dragon_horse_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **« Diamond Wolf Armor »** *(optionnelle)* — tâches : item revampedwolf:diamond_wolf_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de revampedwolf. Ses paliers sont au chapitre Faune. À garder : la livraison n'est pas consommée.
+- **« Golden Wolf Armor »** *(optionnelle)* — tâches : item revampedwolf:golden_wolf_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de revampedwolf. Ses paliers sont au chapitre Faune. À garder : la livraison n'est pas consommée.
+- **« Iron Wolf Armor »** *(optionnelle)* — tâches : item revampedwolf:iron_wolf_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de revampedwolf. Ses paliers sont au chapitre Faune. À garder : la livraison n'est pas consommée.
+- **« Leather Wolf Armor »** *(optionnelle)* — tâches : item revampedwolf:leather_wolf_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de revampedwolf. Ses paliers sont au chapitre Faune. À garder : la livraison n'est pas consommée.
+- **« Netherite Wolf Armor »** *(optionnelle)* — tâches : item revampedwolf:netherite_wolf_armor — récompense : xp 1
+  > Équipement de monture ou de compagnon de revampedwolf. Ses paliers sont au chapitre Faune. À garder : la livraison n'est pas consommée.
+- **Toutes les montures équipées** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20 — après : minecraft_diamond_horse_armor, minecraft_golden_horse_armor, minecraft_iron_horse_armor, minecraft_leather_horse_armor, minecraft_saddle, minecraft_wolf_armor, aether_protect_your_moa_diamond_moa_armor, aether_protect_your_moa_golden_moa_armor, aether_protect_your_moa_gravitite_moa_armor, aether_protect_your_moa_iron_moa_armor, aether_protect_your_moa_leather_moa_armor, aether_protect_your_moa_zanite_moa_armor, alexsmobs_straddle_saddle, blue_skies_camel_saddle, dragonloot_dragon_horse_armor, revampedwolf_diamond_wolf_armor, revampedwolf_golden_wolf_armor, revampedwolf_iron_wolf_armor, revampedwolf_leather_wolf_armor, revampedwolf_netherite_wolf_armor
+  > Chaque selle et chaque armure de monture de ce chapitre.
+
+## Pelles  (`enc_pelles`, 56 quêtes)
+
+- **Pelles** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque pelle du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+- **Pelle en diamant** *(optionnelle)* — tâches : item minecraft:diamond_shovel — récompense : xp 1
+  > Pelle de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pelle en or** *(optionnelle)* — tâches : item minecraft:golden_shovel — récompense : xp 1
+  > Pelle de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pelle en fer** *(optionnelle)* — tâches : item minecraft:iron_shovel — récompense : xp 1
+  > Pelle de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pelle en netherite** *(optionnelle)* — tâches : item minecraft:netherite_shovel — récompense : xp 1
+  > Pelle de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pelle en pierre** *(optionnelle)* — tâches : item minecraft:stone_shovel — récompense : xp 1
+  > Pelle de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pelle en bois** *(optionnelle)* — tâches : item minecraft:wooden_shovel — récompense : xp 1
+  > Pelle de Minecraft. À garder : la livraison n'est pas consommée.
+- **« Netherite-Diamond Shovel »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_shovel — récompense : xp 1
+  > Pelle de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Emerald Shovel »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_shovel — récompense : xp 1
+  > Pelle de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Gold Shovel »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_shovel — récompense : xp 1
+  > Pelle de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Iron Shovel »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_shovel — récompense : xp 1
+  > Pelle de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Gravitite Shovel »** *(optionnelle)* — tâches : item aether:gravitite_shovel — récompense : xp 1
+  > Pelle de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Holystone Shovel »** *(optionnelle)* — tâches : item aether:holystone_shovel — récompense : xp 1
+  > Pelle de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyroot Shovel »** *(optionnelle)* — tâches : item aether:skyroot_shovel — récompense : xp 1
+  > Pelle de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Shovel »** *(optionnelle)* — tâches : item aether:valkyrie_shovel — récompense : xp 1
+  > Pelle de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Shovel »** *(optionnelle)* — tâches : item aether:zanite_shovel — récompense : xp 1
+  > Pelle de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Infused Veridium Shovel »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_shovel — récompense : xp 1
+  > Pelle de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Veridium Shovel »** *(optionnelle)* — tâches : item aether_redux:veridium_shovel — récompense : xp 1
+  > Pelle de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Aeternium Shovel »** *(optionnelle)* — tâches : item betterend:aeternium_shovel — récompense : xp 1
+  > Pelle de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Shovel »** *(optionnelle)* — tâches : item betterend:terminite_shovel — récompense : xp 1
+  > Pelle de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Shovel »** *(optionnelle)* — tâches : item betterend:thallasium_shovel — récompense : xp 1
+  > Pelle de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Cincinnasite Shovel** *(optionnelle)* — tâches : item betternether:cincinnasite_shovel — récompense : xp 1
+  > Pelle de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Cincinnasite-Diamond Shovel** *(optionnelle)* — tâches : item betternether:cincinnasite_shovel_diamond — récompense : xp 1
+  > Pelle de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **« Fireruby Shovel »** *(optionnelle)* — tâches : item betternether:flaming_ruby_shovel — récompense : xp 1
+  > Pelle de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Nether Ruby Shovel** *(optionnelle)* — tâches : item betternether:nether_ruby_shovel — récompense : xp 1
+  > Pelle de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Pelle en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en bois de lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Comet Wood Shovel »** *(optionnelle)* — tâches : item blue_skies:comet_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pelle en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_shovel — récompense : xp 1
+  > Pelle de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Black Steel Shovel »** *(optionnelle)* — tâches : item cataclysm:black_steel_shovel — récompense : xp 1
+  > Pelle de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Skyjade Shovel »** *(optionnelle)* — tâches : item deep_aether:skyjade_shovel — récompense : xp 1
+  > Pelle de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Shovel »** *(optionnelle)* — tâches : item deep_aether:stratus_shovel — récompense : xp 1
+  > Pelle de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Resonarium Shovel »** *(optionnelle)* — tâches : item deeperdarker:resonarium_shovel — récompense : xp 1
+  > Pelle de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Pelle du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_shovel — récompense : xp 1
+  > Pelle de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Dragon Shovel »** *(optionnelle)* — tâches : item dragonloot:dragon_shovel — récompense : xp 1
+  > Pelle de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **Pelle en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_shovel — récompense : xp 1
+  > Pelle de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pelle en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_shovel — récompense : xp 1
+  > Pelle de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pelle en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_shovel — récompense : xp 1
+  > Pelle de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pelle en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_shovel — récompense : xp 1
+  > Pelle de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pelle en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_shovel — récompense : xp 1
+  > Pelle de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pelle en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_shovel — récompense : xp 1
+  > Pelle de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **« §eChorundum Shovel »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_shovel — récompense : xp 1
+  > Pelle de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« §eTungsten Shovel »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_shovel — récompense : xp 1
+  > Pelle de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **Pelle en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_shovel — récompense : xp 1
+  > Pelle de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Pelle en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_shovel — récompense : xp 1
+  > Pelle de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Toutes les pelles** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20 — après : minecraft_diamond_shovel, minecraft_golden_shovel, minecraft_iron_shovel, minecraft_netherite_shovel, minecraft_stone_shovel, minecraft_wooden_shovel, advancednetherite_netherite_diamond_shovel, advancednetherite_netherite_emerald_shovel, advancednetherite_netherite_gold_shovel, advancednetherite_netherite_iron_shovel, aether_gravitite_shovel, aether_holystone_shovel, aether_skyroot_shovel, aether_valkyrie_shovel, aether_zanite_shovel, aether_redux_infused_veridium_shovel, aether_redux_veridium_shovel, betterend_aeternium_shovel, betterend_terminite_shovel, betterend_thallasium_shovel, betternether_cincinnasite_shovel, betternether_cincinnasite_shovel_diamond, betternether_flaming_ruby_shovel, betternether_nether_ruby_shovel, blue_skies_aquite_shovel, blue_skies_bluebright_shovel, blue_skies_charoite_shovel, blue_skies_comet_shovel, blue_skies_diopside_shovel, blue_skies_dusk_shovel, blue_skies_frostbright_shovel, blue_skies_horizonite_shovel, blue_skies_lunar_shovel, blue_skies_lunar_stone_shovel, blue_skies_maple_shovel, blue_skies_pyrope_shovel, blue_skies_starlit_shovel, blue_skies_turquoise_stone_shovel, cataclysm_black_steel_shovel, deep_aether_skyjade_shovel, deep_aether_stratus_shovel, deeperdarker_resonarium_shovel, deeperdarker_warden_shovel, dragonloot_dragon_shovel, mysticalagriculture_awakened_supremium_shovel, mysticalagriculture_imperium_shovel, mysticalagriculture_inferium_shovel, mysticalagriculture_prudentium_shovel, mysticalagriculture_supremium_shovel, mysticalagriculture_tertium_shovel, stalwart_dungeons_chorundum_shovel, stalwart_dungeons_tungsten_shovel, twilightforest_ironwood_shovel, twilightforest_steeleaf_shovel
+  > Toutes les pelles de ce chapitre réunies.
+
+## Pioches  (`enc_pioches`, 60 quêtes)
+
+- **Pioches** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque pioche du pack, mod par mod, une quête par objet. Une quête se valide en ayant l'objet dans l'inventaire ; rien n'est consommé. Seuls les objets qu'une recette, un butin ou la génération donnent vraiment sur ce serveur sont là.
+- **Pioche en diamant** *(optionnelle)* — tâches : item minecraft:diamond_pickaxe — récompense : xp 1
+  > Pioche de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pioche en or** *(optionnelle)* — tâches : item minecraft:golden_pickaxe — récompense : xp 1
+  > Pioche de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pioche en fer** *(optionnelle)* — tâches : item minecraft:iron_pickaxe — récompense : xp 1
+  > Pioche de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pioche en netherite** *(optionnelle)* — tâches : item minecraft:netherite_pickaxe — récompense : xp 1
+  > Pioche de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pioche en pierre** *(optionnelle)* — tâches : item minecraft:stone_pickaxe — récompense : xp 1
+  > Pioche de Minecraft. À garder : la livraison n'est pas consommée.
+- **Pioche en bois** *(optionnelle)* — tâches : item minecraft:wooden_pickaxe — récompense : xp 1
+  > Pioche de Minecraft. À garder : la livraison n'est pas consommée.
+- **« Netherite-Diamond Pickaxe »** *(optionnelle)* — tâches : item advancednetherite:netherite_diamond_pickaxe — récompense : xp 1
+  > Pioche de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Emerald Pickaxe »** *(optionnelle)* — tâches : item advancednetherite:netherite_emerald_pickaxe — récompense : xp 1
+  > Pioche de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Gold Pickaxe »** *(optionnelle)* — tâches : item advancednetherite:netherite_gold_pickaxe — récompense : xp 1
+  > Pioche de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Netherite-Iron Pickaxe »** *(optionnelle)* — tâches : item advancednetherite:netherite_iron_pickaxe — récompense : xp 1
+  > Pioche de Advanced Netherite. À garder : la livraison n'est pas consommée.
+- **« Gravitite Pickaxe »** *(optionnelle)* — tâches : item aether:gravitite_pickaxe — récompense : xp 1
+  > Pioche de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Holystone Pickaxe »** *(optionnelle)* — tâches : item aether:holystone_pickaxe — récompense : xp 1
+  > Pioche de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Skyroot Pickaxe »** *(optionnelle)* — tâches : item aether:skyroot_pickaxe — récompense : xp 1
+  > Pioche de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Valkyrie Pickaxe »** *(optionnelle)* — tâches : item aether:valkyrie_pickaxe — récompense : xp 1
+  > Pioche de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Zanite Pickaxe »** *(optionnelle)* — tâches : item aether:zanite_pickaxe — récompense : xp 1
+  > Pioche de Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Infused Veridium Pickaxe »** *(optionnelle)* — tâches : item aether_redux:infused_veridium_pickaxe — récompense : xp 1
+  > Pioche de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Veridium Pickaxe »** *(optionnelle)* — tâches : item aether_redux:veridium_pickaxe — récompense : xp 1
+  > Pioche de Aether Redux. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Aeternium Pickaxe »** *(optionnelle)* — tâches : item betterend:aeternium_pickaxe — récompense : xp 1
+  > Pioche de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Terminite Pickaxe »** *(optionnelle)* — tâches : item betterend:terminite_pickaxe — récompense : xp 1
+  > Pioche de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **« Thallasium Pickaxe »** *(optionnelle)* — tâches : item betterend:thallasium_pickaxe — récompense : xp 1
+  > Pioche de Better End. Ses paliers sont au chapitre L'End. À garder : la livraison n'est pas consommée.
+- **Pioche en Cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_pickaxe — récompense : xp 1
+  > Pioche de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Pioche en Cincinnasite diamantée** *(optionnelle)* — tâches : item betternether:cincinnasite_pickaxe_diamond — récompense : xp 1
+  > Pioche de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **« Fireruby Pickaxe »** *(optionnelle)* — tâches : item betternether:flaming_ruby_pickaxe — récompense : xp 1
+  > Pioche de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Nether Ruby Pickaxe** *(optionnelle)* — tâches : item betternether:nether_ruby_pickaxe — récompense : xp 1
+  > Pioche de Better Nether. Ses paliers sont au chapitre Le Nether. À garder : la livraison n'est pas consommée.
+- **Pioche en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en bois de lumibleu** *(optionnelle)* — tâches : item blue_skies:bluebright_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Comet Wood Pickaxe »** *(optionnelle)* — tâches : item blue_skies:comet_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en crépuscubois** *(optionnelle)* — tâches : item blue_skies:dusk_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en bois de nifrisque** *(optionnelle)* — tâches : item blue_skies:frostbright_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche lunaie** *(optionnelle)* — tâches : item blue_skies:lunar_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en pierre lunaire** *(optionnelle)* — tâches : item blue_skies:lunar_stone_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en bois d'érable** *(optionnelle)* — tâches : item blue_skies:maple_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en étoilibois** *(optionnelle)* — tâches : item blue_skies:starlit_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **Pioche en pierre turquoise** *(optionnelle)* — tâches : item blue_skies:turquoise_stone_pickaxe — récompense : xp 1
+  > Pioche de Blue Skies. Ses paliers sont au chapitre Blue Skies. À garder : la livraison n'est pas consommée.
+- **« Black Steel Pickaxe »** *(optionnelle)* — tâches : item cataclysm:black_steel_pickaxe — récompense : xp 1
+  > Pioche de Cataclysm. Ses paliers sont au chapitre Cataclysm. À garder : la livraison n'est pas consommée.
+- **« Skyjade Pickaxe »** *(optionnelle)* — tâches : item deep_aether:skyjade_pickaxe — récompense : xp 1
+  > Pioche de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Stratus Pickaxe »** *(optionnelle)* — tâches : item deep_aether:stratus_pickaxe — récompense : xp 1
+  > Pioche de Deep Aether. Ses paliers sont au chapitre L'Aether. À garder : la livraison n'est pas consommée.
+- **« Resonarium Pickaxe »** *(optionnelle)* — tâches : item deeperdarker:resonarium_pickaxe — récompense : xp 1
+  > Pioche de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **Pioche du Warden** *(optionnelle)* — tâches : item deeperdarker:warden_pickaxe — récompense : xp 1
+  > Pioche de Deeper and Darker. Ses paliers sont au chapitre Deeper and Darker. À garder : la livraison n'est pas consommée.
+- **« Dragon Pickaxe »** *(optionnelle)* — tâches : item dragonloot:dragon_pickaxe — récompense : xp 1
+  > Pioche de DragonLoot. Ses paliers sont au chapitre Les dragons. À garder : la livraison n'est pas consommée.
+- **Pioche en Supremium Éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_pickaxe — récompense : xp 1
+  > Pioche de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pioche en Imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_pickaxe — récompense : xp 1
+  > Pioche de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pioche en Inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_pickaxe — récompense : xp 1
+  > Pioche de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pioche en Prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_pickaxe — récompense : xp 1
+  > Pioche de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pioche en Supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_pickaxe — récompense : xp 1
+  > Pioche de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **Pioche en Tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_pickaxe — récompense : xp 1
+  > Pioche de Mystical Agriculture. Ses paliers sont au chapitre Mystical Agriculture. À garder : la livraison n'est pas consommée.
+- **« §eChorundum Pickaxe »** *(optionnelle)* — tâches : item stalwart_dungeons:chorundum_pickaxe — récompense : xp 1
+  > Pioche de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **« §eTungsten Pickaxe »** *(optionnelle)* — tâches : item stalwart_dungeons:tungsten_pickaxe — récompense : xp 1
+  > Pioche de Stalwart Dungeons. À garder : la livraison n'est pas consommée.
+- **Pioche ardente** *(optionnelle)* — tâches : item twilightforest:fiery_pickaxe — récompense : xp 1
+  > Pioche de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Pioche de géant** *(optionnelle)* — tâches : item twilightforest:giant_pickaxe — récompense : xp 1
+  > Pioche de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Pioche en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_pickaxe — récompense : xp 1
+  > Pioche de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Pioche chevaleresque** *(optionnelle)* — tâches : item twilightforest:knightmetal_pickaxe — récompense : xp 1
+  > Pioche de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **« Mazebreaker »** *(optionnelle)* — tâches : item twilightforest:mazebreaker_pickaxe — récompense : xp 1
+  > Pioche de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Pioche en Stealeaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_pickaxe — récompense : xp 1
+  > Pioche de Twilight Forest. Ses paliers sont au chapitre Twilight Forest. À garder : la livraison n'est pas consommée.
+- **Toutes les pioches** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20
+  > Toutes les pioches de ce chapitre réunies.
+
+## Sacs  (`enc_sacs`, 13 quêtes)
+
+- **Sacs** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque sac du pack, une quête par sac. Rien n'est consommé ; les sacs d'Inmis montent palier par palier au chapitre Confort.
+- **« Baby Backpack »** *(optionnelle)* — tâches : item inmis:baby_backpack — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **« Bejeweled Backpack »** *(optionnelle)* — tâches : item inmis:bejeweled_backpack — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **« Blazing Backpack »** *(optionnelle)* — tâches : item inmis:blazing_backpack — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **« Ender Pouch »** *(optionnelle)* — tâches : item inmis:ender_pouch — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **« Endless Backpack »** *(optionnelle)* — tâches : item inmis:endless_backpack — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **« Frayed Backpack »** *(optionnelle)* — tâches : item inmis:frayed_backpack — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **« Gilded Backpack »** *(optionnelle)* — tâches : item inmis:gilded_backpack — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **« Plated Backpack »** *(optionnelle)* — tâches : item inmis:plated_backpack — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **« Withered Backpack »** *(optionnelle)* — tâches : item inmis:withered_backpack — récompense : xp 1
+  > Sac de inmis. Ses paliers sont au chapitre Confort. À garder : la livraison n'est pas consommée.
+- **Sac à dos** *(optionnelle)* — tâches : item quark:backpack — récompense : xp 1
+  > Sac de Quark. À garder : la livraison n'est pas consommée.
+- **Sac de graines** *(optionnelle)* — tâches : item quark:seed_pouch — récompense : xp 1
+  > Sac de Quark. À garder : la livraison n'est pas consommée.
+- **Tous les sacs** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20 — après : inmis_baby_backpack, inmis_bejeweled_backpack, inmis_blazing_backpack, inmis_ender_pouch, inmis_endless_backpack, inmis_frayed_backpack, inmis_gilded_backpack, inmis_plated_backpack, inmis_withered_backpack, quark_backpack, quark_seed_pouch
+  > Chaque sac de ce chapitre.
 
 ## Structures — donjons, villes et tours  (`enc_structures_donjons_villages`, 126 quêtes)
 
@@ -5238,7 +6900,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20 — après : blue_skies_alchemist_trophy, blue_skies_arachnarch_trophy, blue_skies_starlit_crusher_trophy, blue_skies_summoner_trophy, cataclysm_aptrgangr_head, cataclysm_draugr_head, cataclysm_kobolediator_skull, cataclysm_remnant_skull, cataclysm_unbreakable_skull, handcrafted_bear_trophy, handcrafted_blaze_trophy, handcrafted_creeper_trophy, handcrafted_evoker_trophy, handcrafted_fox_trophy, handcrafted_goat_trophy, handcrafted_phantom_trophy, handcrafted_pillager_trophy, handcrafted_pufferfish_trophy, handcrafted_salmon_trophy, handcrafted_silverfish_trophy, handcrafted_skeleton_horse_trophy, handcrafted_skeleton_trophy, handcrafted_spider_trophy, handcrafted_tropical_fish_trophy, handcrafted_vindicator_trophy, handcrafted_witch_trophy, handcrafted_wither_skeleton_trophy, handcrafted_wolf_trophy, minecraft_creeper_head, minecraft_dragon_head, minecraft_piglin_head, minecraft_skeleton_skull, minecraft_wither_skeleton_skull, minecraft_zombie_head, mynethersdelight_hoglin_trophy, mynethersdelight_skoglin_trophy, mynethersdelight_waxed_hoglin_trophy, mynethersdelight_zoglin_trophy, supplementaries_enderman_head, twilightforest_alpha_yeti_trophy, twilightforest_hydra_trophy, twilightforest_knight_phantom_trophy, twilightforest_lich_trophy, twilightforest_minoshroom_trophy, twilightforest_naga_trophy, twilightforest_quest_ram_trophy, twilightforest_snow_queen_trophy, twilightforest_ur_ghast_trophy, umbral_skies_slider_trophy, umbral_skies_sun_spirit_trophy, umbral_skies_valkyrie_queen_trophy
   > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
 
-## Bâtir sa faction  (`factions_batir`, 11 quêtes)
+## Bâtir sa faction  (`factions_batir`, 14 quêtes)
 
 - **Une faction, c'est quoi** — tâches : checkmark Lu — récompense : xp 2
   > Une faction, c'est une équipe FTB : un territoire claim en commun, des salons privés sur le Discord, un diplomate qui parle en son nom, un trophée à défendre. On est dans une faction à la fois, ou indépendant.
@@ -5270,6 +6932,15 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   >   > Trahir est un acte de jeu légitime. Mais le staff n'arbitre que l'écrit.
 - **La faction est en place** — tâches : checkmark Prêts — récompense : xp 5 — après : taches, lieux, waystones, diplomate
   > Un territoire, un salon, des tâches, des lieux, un diplomate. Le chapitre suivant, Le trophée et les raids, est celui où ça se joue.
+- **Le gant de voleur** *(optionnelle)* — tâches : item theft:glove — récompense : xp 3 — après : rejoindre
+  > Huit cuirs en forme de gant (recette du mod). On en trouve aussi dans les coffres des épaves, des avant-postes de pillards et des puits de mine.
+  >   > Accroupi, un clic droit dans le dos d'un joueur ouvre son inventaire. Le gant s'use à chaque vol.
+- **La règle du vol** *(optionnelle)* — tâches : checkmark Compris — récompense : xp 2 — après : gant
+  > Le vol est permis hors claim, sans l'accord de la victime (règlement). Le serveur le borne : cinq objets au plus, seize secondes pour les prendre, puis dix secondes d'attente avant le vol suivant (config du serveur).
+  >   > La victime voit ce qu'on lui prend : l'emplacement volé est marqué dans son inventaire.
+- **Se protéger du vol** *(optionnelle)* — tâches : checkmark Compris — récompense : xp 2 — après : regle_vol
+  > Dans un claim, personne ne vole. Dehors, ne pas tourner le dos à un inconnu : le gant ne prend que par derrière.
+  >   > Un objet enchanté de Pocket Chain ne peut pas être volé : sur ce serveur, l'enchantement protège bien (config et code du mod).
 
 ## Diplomatie et commerce  (`factions_diplomatie`, 8 quêtes)
 
@@ -5368,7 +7039,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Une faction qui tient** — tâches : checkmark Lu — récompense : xp 5 — après : mediumcore, gagner
   > Un trophée déclaré, un donjon, un raid vécu. Le dernier chapitre de l'arc, Diplomatie et commerce, est celui où l'on gagne sans se battre.
 
-## CC: Tweaked  (`cc_tweaked`, 9 quêtes)
+## CC: Tweaked  (`cc_tweaked`, 13 quêtes)
 
 - **Écrire ses propres règles** — tâches : checkmark Lu — récompense : item minecraft:redstone 16, item minecraft:glass_pane 8
   > CC: Tweaked met des ordinateurs dans le jeu, programmables en Lua. Une alarme quand quelqu'un passe la porte, une porte à code, un écran qui affiche les stocks, une tortue qui creuse pendant que tu fais autre chose : rien d'autre dans le pack ne permet d'écrire ses propres règles.
@@ -5387,20 +7058,31 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Une tortue avec une pioche en diamant sur le côté creuse. Le programme excavate 8, livré avec le mod, lui fait vider un carré de 8 sur 8 jusqu'au fond et revenir. La mine se fait sans toi.
 - **Haut-parleur et imprimante** *(optionnelle)* — tâches : item computercraft:speaker, item computercraft:printer — récompense : xp 3 — après : ordinateur
   > Le haut-parleur joue des sons et des notes depuis un programme — une alarme, une mélodie. L'imprimante sort des pages écrites, qui se relient en livre.
-- **Un programme qui tourne** — tâches : checkmark Mon programme sert à quelque chose — récompense : xp 10 — après : moniteur, modem, tortue
+- **Des moniteurs avancés** — tâches : item computercraft:monitor_advanced 4 — récompense : xp 5 — après : moniteur, avance
+  > Huit lingots d'or autour d'une vitre : quatre moniteurs avancés, qui affichent la couleur.
+- **Un modem ender** — tâches : item computercraft:wireless_modem_advanced — récompense : xp 5 — après : modem
+  > Huit lingots d'or autour d'un œil de l'Ender : un modem sans fil avancé.
+- **Un ordinateur de poche avancé** *(optionnelle)* — tâches : item computercraft:pocket_computer_advanced — récompense : xp 5 — après : avance
+  > Or, une pomme dorée et une vitre.
+- **Une tortue avancée** — tâches : item computercraft:turtle_advanced — récompense : xp 10 — après : tortue, avance
+  > Un ordinateur avancé dans une carcasse d'or, avec un coffre. Le dernier palier de CC: Tweaked.
+- **Un programme qui tourne** — tâches : checkmark Mon programme sert à quelque chose — récompense : xp 10 — après : tortue_avancee, moniteur_avance, modem_ender
   > Une porte à code, une alarme, un écran de stock, une tortue au travail : à toi de dire laquelle. Le salon #cc-tweaked reçoit les programmes à partager.
 
-## Confort  (`mods_confort`, 15 quêtes)
+## Confort  (`mods_confort`, 17 quêtes)
 
 - **Les petits mods qui changent tout** — tâches : checkmark Lu — récompense : xp 2
   > Les sacs d'Inmis jusqu'au bout, dormir n'importe où, les touches qui font gagner du temps. Le sac élimé et le sac plaqué sont au chapitre Bienvenue.
 - **Le sac doré** — tâches : advancement inmis:gilded_backpack — récompense : xp 5 — après : intro
-  > Le sac plaqué entouré d'or (progrès du mod). Chaque palier demande le précédent.
+  > Le sac plaqué entouré de huit lingots d'or : trois rangées de neuf cases (config du serveur). Chaque palier se fabrique autour du sac d'avant, qui garde son contenu. Sur ce serveur, une boîte de Shulker n'entre pas dans un sac.
 - **Le sac orné de gemmes** — tâches : advancement inmis:bejeweled_backpack — récompense : xp 8 — après : dore
-- **Le sac ardent** — tâches : advancement inmis:blazing_backpack — récompense : xp 10 — après : gemmes
-- **Le sac flétri** — tâches : advancement inmis:withered_backpack — récompense : xp 12 — après : ardent
+  > Le sac doré, quatre diamants et quatre émeraudes : cinq rangées de neuf cases. De lui partent deux branches, le sac ardent et le sac flétri.
+- **Le sac ardent** *(optionnelle)* — tâches : advancement inmis:blazing_backpack — récompense : xp 10 — après : gemmes
+  > Une branche à part : le sac orné de gemmes, quatre lingots de nétherite et quatre blocs de magma. Six rangées de neuf cases, et il ne brûle pas dans la lave.
+- **Le sac flétri** — tâches : advancement inmis:withered_backpack — récompense : xp 12 — après : gemmes
+  > Le sac orné de gemmes, une étoile du Nether et sept sables des âmes : six rangées de onze cases.
 - **Le sac sans fin** — tâches : advancement inmis:endless_backpack — récompense : xp 20 — après : fletri
-  > Le dernier palier d'Inmis.
+  > Le sac flétri, une tête de dragon et sept pierres de l'End : six rangées de quinze cases, le dernier palier d'Inmis. Chaque sac du pack, Inmis et Quark, est aussi à la collection Sacs de l'Encyclopédie.
 - **Une bourse de l'Ender** *(optionnelle)* — tâches : advancement inmis:ender_pouch — récompense : xp 5 — après : intro
   > La main dedans, et c'est ton coffre de l'Ender qui s'ouvre (texte du progrès).
 - **Un sac bébé** *(optionnelle)* — tâches : advancement inmis:baby_backpack — récompense : xp 2 — après : intro
@@ -5417,9 +7099,13 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Ping Wheel : une touche pose un marqueur visible par les autres joueurs du même canal. Règle le canal au nom de ta faction dans les options du mod, et le ping ne sort pas de la faction.
 - **Un point de passage** — tâches : checkmark Un point posé — récompense : xp 2 — après : intro
   > Carte Xaero (touche M) : un point de passage se pose d'un clic, se nomme, se colore. La minicarte en haut à gauche les montre.
+- **Une torche Magnum en diamant** *(optionnelle)* — tâches : item magnumtorch:diamond_magnum_torch — récompense : xp 8 — après : intro
+  > Deux lingots d'or, une boule de feu, deux bûches et quatre diamants. Posée, la torche Magnum en diamant empêche les monstres d'apparaître d'eux-mêmes sur 64 blocs autour d'elle, et 32 en hauteur. Elle bloque aussi les patrouilles. Elle n'arrête ni les générateurs de monstres ni les raids : une base de faction reste attaquable.
+- **Les deux autres torches Magnum** *(optionnelle)* — tâches : item magnumtorch:emerald_magnum_torch, item magnumtorch:amethyst_magnum_torch — récompense : xp 5 — après : torche_magnum
+  > Même recette, avec des émeraudes ou des éclats d'améthyste. Celle en émeraude empêche les animaux d'apparaître sur 128 blocs. Celle en améthyste empêche les poissons, calamars, axolotls et chauves-souris sur 64 blocs.
 - **Confortable** — tâches : checkmark Installé — récompense : xp 5 — après : sans_fin, sac_couchage
 
-## Construction et décoration  (`construction`, 22 quêtes)
+## Construction et décoration  (`construction`, 28 quêtes)
 
 - **Bâtir avec vingt mods** — tâches : checkmark Lu — récompense : item minecraft:oak_log 16, item minecraft:stone_bricks 32
   > Le pack empile une vingtaine de mods de blocs et de meubles. Ce chapitre en fait le tour, un mod par quête, chacune facultative : une seule pièce fabriquée suffit à savoir que le mod existe et où regarder dans JEI.
@@ -5464,10 +7150,22 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Les bougeoirs de Supplementaries et ceux en or de Supplementaries Squared, les lampes de pierre, les lanternes de cuivre et de laiton. Immersive Lanterns, lui, ne fabrique rien : il affiche la lanterne qu'on tient à la main, qui se balance en marchant.
 - **Barrières en diagonale, demi-dalles** *(optionnelle)* — tâches : checkmark Compris — récompense : xp 2 — après : intro
   > Trois mods discrets : Diagonal Fences et Diagonal Walls relient barrières et murets en diagonale ; KleeSlabs ne retire qu'une moitié quand on casse une double dalle, verticales de Quark comprises. Rien à fabriquer.
+- **Une cuisine équipée** *(optionnelle)* — tâches : item pfm:iron_stove, item pfm:iron_fridge, item pfm:kitchen_stovetop, item pfm:iron_microwave, item pfm:iron_oven_range_hood — récompense : xp 5 — après : pfm
+  > Premier bâtiment : la cuisine. Cuisinière (huit lingots de fer et un fourneau), réfrigérateur, plaque de cuisson, micro-ondes et hotte, à l'établi à meubles. Rien n'est consommé : on montre ce qu'on a posé, puis on le garde.
+- **Une salle de bain** *(optionnelle)* — tâches : item pfm:basic_toilet, item pfm:basic_bathtub, item pfm:basic_sink, item pfm:basic_shower_head, item pfm:basic_shower_handle, item pfm:wall_toilet_paper, item pfm:gray_mirror — récompense : xp 5 — après : pfm_cuisine
+  > Toilettes (quatre blocs de quartz, un seau, un bouton), baignoire, lavabo, pommeau et robinet de douche, papier toilette et miroir. Les meubles restent dans l'inventaire.
+- **Un salon éclairé** *(optionnelle)* — tâches : item pfm:gray_modern_pendant 2, item pfm:light_switch — récompense : xp 5 — après : pfm_salle_de_bain
+  > Deux suspensions modernes et un interrupteur. Les fauteuils, lits, tables de nuit et comptoirs existent dans chaque bois et chaque pierre du pack : choisis les tiens à l'établi.
+- **Une maison à colombages** *(optionnelle)* — tâches : item dawnoftimebuilder:waxed_oak_timber_frame 64, item dawnoftimebuilder:waxed_oak_framed_rammed_dirt 32, item dawnoftimebuilder:waxed_oak_door 2, item dawnoftimebuilder:lattice_waxed_oak_window 8, item dawnoftimebuilder:waxed_oak_shutters 8, item dawnoftimebuilder:roofing_slates_stairs 64, item dawnoftimebuilder:stone_bricks_chimney — récompense : xp 8 — après : dawn
+  > De quoi monter une vraie maison Dawn of Time : colombages, torchis encadré, portes, fenêtres à croisillons, volets, un toit d'ardoises et une cheminée. Livraison non consommée.
+- **Un quartier** *(optionnelle)* — tâches : item dawnoftimebuilder:waxed_oak_timber_frame 256, item dawnoftimebuilder:waxed_oak_timber_frame_crossed 64, item dawnoftimebuilder:roofing_slates_stairs 192, item dawnoftimebuilder:thatch_wheat 64, item dawnoftimebuilder:iron_fancy_lantern 8 — récompense : xp 10 — après : dawn_maison
+  > Plusieurs maisons, des toits d'ardoise et de chaume, des lanternes dans les rues. Les quantités sont celles d'un quartier ; rien n'est consommé.
+- **Ma base dans #screenshots** *(optionnelle)* — tâches : checkmark Capture postée — récompense : xp 10, item minecraft:painting — après : pfm_salon, dawn_quartier
+  > Le sommet de la construction : une capture de ta maison meublée ou de ton quartier, postée dans #screenshots sur le Discord. Le tableau est pour l'accrocher chez toi.
 - **Une base qui a de l'allure** — tâches : checkmark Ma base est décorée — récompense : xp 5 — après : chipped, supp_atelier, quark_bois
   > Un seul des mods suffit pour fermer le chapitre ; les autres attendent dans JEI. Le chapitre Blocs de l'Encyclopédie listera chaque bloc du pack.
 
-## Create — les bases  (`create_bases`, 24 quêtes)
+## Create — les bases  (`create_bases`, 28 quêtes)
 
 - **Create : la force de rotation** — tâches : checkmark Lu — récompense : item minecraft:andesite 32, item minecraft:iron_nugget 32
   > Create remplace l'électricité par la rotation : une roue tourne, un arbre transmet, une machine travaille. Tout se voit, tout s'entend, et tout se construit avec de l'andésite et du cuivre.
@@ -5525,11 +7223,19 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > La goulotte fait descendre les objets d'un bloc à l'autre à la verticale, sans courroie. Sous une meule ou un concasseur, elle amène tout dans un coffre.
 - **Des boîtiers d'andésite** — tâches : item create:andesite_casing 8 — récompense : xp 3 — après : alliage
   > Le boîtier d'andésite se fait en frappant une bûche écorcée avec de l'alliage. Il encase les arbres et les engrenages, et entre dans la plupart des machines de ce chapitre.
+- **Compacter à la presse** *(optionnelle)* — tâches : advancement create:compacting — récompense : xp 4 — après : presse, bassin
+  > Une presse au-dessus d'un bassin réduit beaucoup d'objets en peu (progrès « Compactification »).
+- **Traiter au ventilateur** *(optionnelle)* — tâches : advancement create:fan_processing — récompense : xp 4 — après : ventilateur
+  > Lavage, fumage, hantise, fonte : le ventilateur traite les objets qui passent dans son flux (progrès « Processing by Particle »).
+- **Des roues de concassage à pleine vitesse** *(optionnelle)* — tâches : advancement create:crusher_maxed_0000 — récompense : xp 10 — après : concasseur
+  > Une paire de roues de concassage à la vitesse maximale (progrès « Crushing It »). Il faut une source de rotation à la hauteur.
+- **Un moulin à vent au maximum** *(optionnelle)* — tâches : advancement create:windmill_maxed — récompense : xp 10 — après : moulin
+  > Un moulin à vent à la force maximale (progrès « A strong Breeze ») : autant de voiles que le roulement en accepte.
 - **Première chaîne de production** — tâches : checkmark Ma chaîne tourne — récompense : xp 10 — après : concasseur, lavage, entonnoir
   > Un concasseur, un lavage, des entonnoirs et une courroie : la mine rend davantage sans que personne ne touche à rien. C'est le cœur de Create, et le reste n'est que des machines en plus.
   >   > La suite, Create — fabrication avancée : le laiton, le mécanisme de précision, le bras mécanique, le moteur à vapeur.
 
-## Create — fabrication avancée  (`create_fabrication`, 33 quêtes)
+## Create — fabrication avancée  (`create_fabrication`, 48 quêtes)
 
 - **Create : le laiton et la précision** — tâches : checkmark Lu — récompense : item create:zinc_ingot 8, item minecraft:copper_ingot 8
   > Les bases tournaient à l'andésite. La suite tourne au laiton : un alliage de cuivre et de zinc qui ne se fait qu'au mélangeur chauffé, et qui ouvre les machines qui pensent un peu — le bras mécanique, le déployeur, les établis mécaniques.
@@ -5580,8 +7286,38 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Œuf, sucre et farine de cendre compactés dans un bassin donnent la base du gâteau ; remplie de lave, elle devient un gâteau de Blaze. Donné à un brûleur, il le fait surchauffer le temps d'une recette qui l'exige.
 - **Table à schémas et Schematicannon** — tâches : item create:schematic_table, item create:schematicannon — récompense : xp 5 — après : laiton
   > La table à schémas charge un plan de construction ; le Schematicannon le bâtit bloc par bloc, à partir de ce qu'on met dans l'inventaire à côté de lui. On copie une base, on la reconstruit ailleurs.
-- **L'usine tourne** — tâches : checkmark Mon usine tourne à la vapeur — récompense : xp 10 — après : bras, vapeur
+- **L'usine tourne** — tâches : advancement create:steam_engine — récompense : xp 10 — après : bras, vapeur
   > Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La suite, Create — logistique et trains, fait circuler ce que l'usine produit.
+- **Une tôle robuste** *(optionnelle)* — tâches : advancement create:sturdy_sheet — récompense : xp 6 — après : deployeur
+  > De l'obsidienne en poudre, raffinée en tôle robuste : la matière des boîtiers ferroviaires (progrès « The Sturdiest Rocks »).
+- **Un bras à dix sorties** *(optionnelle)* — tâches : advancement create:arm_many_targets — récompense : xp 8 — après : bras
+  > Un bras mécanique programmé avec dix emplacements de sortie ou plus (progrès « Organize-o-Tron »).
+- **Un bras qui nourrit le brûleur** *(optionnelle)* — tâches : advancement create:arm_blaze_burner — récompense : xp 5 — après : bras, bruleur
+  > Le bras mécanique alimente le brûleur à blaze (progrès « Combust-o-Tron »).
+- **Un bec verseur** *(optionnelle)* — tâches : advancement create:spout — récompense : xp 4 — après : pompe
+  > Remplir un objet de fluide sous un bec verseur (progrès « Sploosh »).
+- **Un égouttoir** *(optionnelle)* — tâches : advancement create:drain — récompense : xp 4 — après : pompe
+  > Vider un objet de son fluide dans un égouttoir (progrès « Tumble Draining »).
+- **Pomper une mer de lave** *(optionnelle)* — tâches : advancement create:hose_pulley_lava — récompense : xp 10 — après : pompe
+  > Une poulie à tuyau dans une étendue de lave assez grande pour compter comme infinie (progrès « Tapping the Mantle ») : du combustible sans fin.
+- **Une contraption qui travaille** *(optionnelle)* — tâches : advancement create:contraption_actors — récompense : xp 5 — après : chassis
+  > Une contraption avec foreuses, scies ou moissonneuses à bord (progrès « Moving with Purpose »).
+- **Une contraption de 200 blocs** *(optionnelle)* — tâches : advancement create:cart_pickup — récompense : xp 12 — après : chariot
+  > Ramasser une contraption sur wagonnet d'au moins 200 blocs (progrès « Strong Arms »).
+- **Un wagonnet qui pose ses rails** *(optionnelle)* — tâches : advancement create:self_deploying — récompense : xp 10 — après : chariot
+  > Une contraption sur wagonnet qui pose les rails devant elle (progrès « Self-Driving Cart »).
+- **Une poulie de 200 blocs** *(optionnelle)* — tâches : advancement create:pulley_maxed — récompense : xp 8 — après : ascenseur
+  > Une poulie à corde déroulée sur plus de 200 blocs de profondeur (progrès « Rope to Nowhere »).
+- **La vapeur à pleine puissance** *(optionnelle)* — tâches : advancement create:steam_engine_maxed — récompense : xp 15 — après : vapeur
+  > Une chaudière au niveau de puissance maximal (progrès « Full Steam ») : le moteur d'une vraie usine.
+- **Une usine à mille rails** *(optionnelle)* — tâches : advancement create:track_crafting_factory — récompense : xp 25 — après : vapeur_max, tole_robuste
+  > Plus de mille rails sortis de la même presse mécanique (progrès « Track Factory ») : une chaîne de production à grande échelle, le sommet de la fabrication avec Create.
+- **Un scaphandre en nétherite** *(optionnelle)* — tâches : advancement create:diving_suit_lava — récompense : xp 10 — après : scaphandre
+  > Le scaphandre en nétherite permet de tenter la plongée dans la lave (progrès « Swimming with the Striders »).
+- **Une victoire au canon à patates** *(optionnelle)* — tâches : advancement create:potato_cannon — récompense : xp 4 — après : canon
+  > Vaincre un ennemi au canon à patates (progrès « Fwoomp ! »).
+- **Une télécommande liée** *(optionnelle)* — tâches : advancement create:linked_controller — récompense : xp 4 — après : intro
+  > Activer un lien de redstone avec une manette liée (progrès « Remote Activation »).
 - **Des châssis** *(optionnelle)* — tâches : item create:linear_chassis 4, item create:sticker — récompense : xp 3 — après : roulement
   > Un roulement, un piston ou un portique ne déplacent que ce qui est collé à eux : châssis, colle extra-forte et collant décident de ce qui fait partie de la machine.
 - **Une foreuse mobile** *(optionnelle)* — tâches : item create:portable_storage_interface 2 — récompense : xp 5 — après : chassis, foreuse
@@ -5599,7 +7335,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Un canon à patates** *(optionnelle)* — tâches : item create:potato_cannon — récompense : xp 4 — après : scaphandre
   > Il tire ce qu'on lui donne à manger, nourri par la bouteille d'air.
 
-## Create — logistique et trains  (`create_logistique`, 19 quêtes)
+## Create — logistique et trains  (`create_logistique`, 29 quêtes)
 
 - **Create 6 : des colis et des rails** — tâches : checkmark Lu — récompense : item minecraft:paper 16
   > Create 6 ajoute une poste : des colis en carton qui circulent sur les courroies, des emballeurs qui les font, des liens de stock qui savent ce que contient chaque coffre, et un guichet pour commander. Puis les trains, pour relier deux bases.
@@ -5630,7 +7366,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Boîtier ferroviaire et boussole : deux stations. Posée au bord d'une voie, c'est là qu'on assemble un train, qu'il s'arrête et que l'horaire lui dit où aller.
 - **Des commandes de train** — tâches : item create:controls — récompense : xp 5 — après : station
   > Levier, boîtier ferroviaire, mécanisme de précision. Les commandes se posent sur le train assemblé : on monte, on conduit. Sans elles, le train ne part qu'avec un horaire.
-- **Assembler un train** — tâches : checkmark Mon train roule — récompense : xp 10 — après : commandes
+- **Assembler un train** — tâches : advancement create:train — récompense : xp 10 — après : commandes
   > Un bogie sur la voie à la station, des blocs collés dessus, des commandes, et le bouton d'assemblage de la station. Le train existe. Il avance avec les commandes ou avec un horaire (plaque d'obsidienne et papier) glissé dans les commandes.
 - **Des signaux** — tâches : item create:track_signal 4, item create:track_observer 2 — récompense : xp 5 — après : voie
   > Boîtier ferroviaire et tube électronique : quatre signaux. Ils découpent la voie en sections et empêchent deux trains d'y entrer ensemble. L'observateur de voie, lui, émet un signal redstone au passage d'un train.
@@ -5638,16 +7374,44 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Une porte en bois et un boîtier ferroviaire. Elle s'ouvre toute seule quand le train est à quai, et reste fermée en route.
 - **Un panneau d'affichage** — tâches : item create:display_board 2, item create:display_link — récompense : xp 3 — après : intro
   > Tube électronique entre deux alliages : deux panneaux. Avec un lien d'affichage, ils montrent le contenu d'un coffre, l'heure, les trains attendus en gare, ou le stock d'un guichet.
+- **Un horaire de train** *(optionnelle)* — tâches : advancement create:conductor — récompense : xp 6 — après : train
+  > Donner un horaire à un conducteur de train (progrès « Conductor Instructor ») : le train circule seul entre les gares.
+- **Un tableau des arrivées** *(optionnelle)* — tâches : advancement create:display_board_0 — récompense : xp 6 — après : affichage, horaire
+  > Annoncer l'arrivée d'un train sur un tableau d'affichage, avec un lien d'affichage (progrès « Dynamic Timetables »).
+- **Un sifflet de train** *(optionnelle)* — tâches : advancement create:train_whistle — récompense : xp 4 — après : train
+  > Un sifflet à vapeur monté sur le train, actionné en roulant (progrès « Choo Choo ! »).
+- **Un train à travers un portail** *(optionnelle)* — tâches : advancement create:train_portal — récompense : xp 8 — après : train
+  > Passer un portail à bord d'un train (progrès « Dimensional Commuter ») : les lignes peuvent relier le Nether.
+- **Un train de six wagons** *(optionnelle)* — tâches : advancement create:long_train — récompense : xp 12 — après : horaire
+  > Un train d'au moins six wagons (progrès « Ambitious Endeavours »).
+- **Un réseau de 5 000 blocs** *(optionnelle)* — tâches : advancement create:long_travel — récompense : xp 25 — après : train_long, signal
+  > Quitter un siège de train à plus de 5 000 blocs du point de départ (progrès « Field Trip ») : un vrai réseau ferré, signalisé, le sommet de la logistique avec Create.
+- **Une commande automatique** *(optionnelle)* — tâches : advancement create:factory_gauge — récompense : xp 8 — après : jauge
+  > Déclencher une commande de colis automatique avec des jauges d'usine (progrès « High Logistics »).
+- **La grenouille attrape un colis** *(optionnelle)* — tâches : advancement create:frogport — récompense : xp 5 — après : grenouille, chaine
+  > Une grenouille portuaire attrape un colis sur un convoyeur à chaîne (progrès « Hungry hoppers »).
+- **Un employé au guichet** *(optionnelle)* — tâches : advancement create:stock_ticker — récompense : xp 5 — après : guichet
+  > Placer une créature au guichet de stock et passer les premières commandes (progrès « Order Up ! »).
+- **Une boutique sur nappe** *(optionnelle)* — tâches : advancement create:table_cloth_shop — récompense : xp 4 — après : carton
+  > Mettre des objets en vente sur une nappe (progrès « Open for business »).
 - **La poste et le chemin de fer** — tâches : checkmark Colis livrés, train parti — récompense : xp 10 — après : guichet, train
   > Un guichet qui commande, des colis qui arrivent, un train qui relie. C'est tout Create 6. Le reste du mod se découvre dans l'Encyclopédie, chapitre Atelier Create.
 
-## Cuisine  (`cuisine`, 20 quêtes)
+## Cuisine  (`cuisine`, 56 quêtes)
 
 - **Farmer's Delight : cuisiner pour de vrai** — tâches : checkmark Lu — récompense : item minecraft:bowl 8, item farmersdelight:cabbage_seeds 4, item farmersdelight:tomato_seeds 4
   > Farmer's Delight remplace le steak-et-pain par une cuisine : des légumes nouveaux, une planche à découper, une poêle, une marmite, et des plats qui nourrissent longtemps et donnent des effets.
   >   > Sur ce serveur, un repas de Farmer's Delight (bol ou assiette) a une autre vertu : il rend un cœur de vie maximale perdu en raid. Les bols et graines offerts sont le début de la cuisine.
 - **Un couteau** — tâches : item farmersdelight:flint_knife — récompense : xp 2 — après : intro
   > Le couteau se fait en silex, puis en fer, en or, en diamant, en nétherite. Sur la planche, il découpe ; en main, il récolte plus de viande et de cuir.
+- **Un couteau en fer** — tâches : item farmersdelight:iron_knife — récompense : xp 3 — après : couteau
+  > Deux lingots de fer en moins qu'une épée, et une lame qui dure.
+- **Un couteau en or** *(optionnelle)* — tâches : item farmersdelight:golden_knife — récompense : xp 3 — après : couteau_fer
+  > À côté de l'échelle : rapide, fragile.
+- **Un couteau en diamant** — tâches : item farmersdelight:diamond_knife — récompense : xp 5 — après : couteau_fer
+  > Un diamant et un bâton.
+- **Un couteau en nétherite** — tâches : item farmersdelight:netherite_knife — récompense : xp 8 — après : couteau_diamant
+  > À la table de forge : le couteau en diamant, un lingot de nétherite et un modèle d'amélioration. Le dernier couteau de Farmer's Delight ; les autres matériaux du pack sont à l'Arsenal de l'Encyclopédie.
 - **Une planche à découper** — tâches : item farmersdelight:cutting_board — récompense : xp 3 — après : couteau
   > Pose un ingrédient sur la planche, frappe-le avec le couteau — ou une hache, une pioche selon la recette. Un chou devient des feuilles, une viande des tranches, un cactus un fruit.
 - **Un fourneau** — tâches : item farmersdelight:stove — récompense : xp 3 — après : intro
@@ -5668,24 +7432,88 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Pas tout passe par la marmite : la salade composée se fait à la table. Le riz sauté, lui, vient de la marmite. Les deux sont des repas : ils rendent un cœur perdu en raid.
 - **Un festin** — tâches : item farmersdelight:shepherds_pie_block — récompense : xp 5 — après : ragout
   > Un festin se pose comme un bloc et se sert en parts : hachis parmentier, poulet rôti, citrouille farcie, jambon glacé au miel. Le repas d'une faction après un raid.
+- **Poulet rôti** — tâches : item farmersdelight:roast_chicken_block — récompense : xp 5 — après : festin
+  > Poulet cuit, pain, œuf, oignon, carottes et pommes de terre cuites, sur un bol.
+- **Citrouille farcie** — tâches : item farmersdelight:stuffed_pumpkin_block — récompense : xp 5 — après : festin
+  > À la marmite : une citrouille garnie de riz, oignon, champignon, pomme de terre, baies et légumes.
+- **Jambon laqué au miel** — tâches : item farmersdelight:honey_glazed_ham_block — récompense : xp 5 — après : festin
+  > Un jambon fumé, du miel, des baies sucrées et du riz cuit, sur un bol.
+- **Assortiment de rouleaux de riz** — tâches : item farmersdelight:rice_roll_medley_block — récompense : xp 5 — après : festin
+  > Trois tranches de rouleau d'algues, trois rouleaux de saumon, deux de morue, sur un bol.
+- **Salade scintillante** — tâches : item farmersdelight:gleaming_salad_block — récompense : xp 5 — après : festin
+  > Baies lumineuses, miel, tomate, carotte dorée, betterave et chou, sur un bol.
+- **Tous les festins** — tâches : checkmark Six festins servis — récompense : xp 15 — après : poulet_roti, citrouille_farcie, jambon_miel, rouleaux_riz, salade_scintillante
+  > Les six festins de Farmer's Delight. Ceux du Nether, de l'End, de la Forêt du crépuscule et de Delightful sont dans leurs branches.
 - **Corde et panier** — tâches : item farmersdelight:rope 8, item farmersdelight:wooden_basket — récompense : xp 2 — après : legumes
   > La corde sert de tuteur aux tomates et de liane à descendre. Le panier posé sous un arbre ramasse ce qui en tombe.
 - **Ocean's Delight** *(optionnelle)* — tâches : item oceansdelight:guardian_soup — récompense : xp 5 — après : marmite
   > Ocean's Delight cuisine ce que l'océan donne : tentacules, gardiens, concombres de mer. La soupe de gardien se fait à la marmite.
-- **Crabber's Delight** *(optionnelle)* — tâches : item crabbersdelight:crab_trap, item crabbersdelight:bisque — récompense : xp 5 — après : marmite
-  > Crabber's Delight : un casier à crabes posé dans l'eau attrape crabes, crevettes et palourdes, et la marmite en fait une bisque.
-- **My Nether's Delight** *(optionnelle)* — tâches : item mynethersdelight:nether_bricks_stove — récompense : xp 5 — après : marmite
+- **Crabber's Delight : le casier** *(optionnelle)* — tâches : item crabbersdelight:crab_trap — récompense : xp 5 — après : marmite
+  > Crabber's Delight pêche sans canne. Deux filets de sécurité, des bâtons et trois dalles de bois font un casier à crabes. Sur ce serveur, il lui faut de l'eau libre tout autour, sur trois blocs sur trois. Il se remplit toutes les 200 à 400 secondes. Sans appât, il ramène un peu de tout : crabes, crevettes, palourdes, et beaucoup de bâtons, de varech et de boîtes de conserve.
+- **Un seau d'appât** *(optionnelle)* — tâches : item crabbersdelight:bucket_of_crab_chum, item crabbersdelight:bucket_of_shrimp_chum, item crabbersdelight:bucket_of_clam_chum, item crabbersdelight:bucket_of_clawster_chum — récompense : xp 5 — après : crabe
+  > L'appât décide de la prise. Un seau d'appât à crabes (un seau, quatre morues, quatre poudres d'os) ne ramène que des crabes ; il en existe un pour les crevettes, les palourdes et les « Clawster ». Une morue en appât donne un mélange, avec parfois une coquille de nautile.
+- **Des perles** *(optionnelle)* — tâches : item crabbersdelight:pearl 4 — récompense : xp 5 — après : crabe
+  > Une palourde passée au couteau sur la planche à découper donne sa chair, et une fois sur deux une perle. Les perles décorent les armures à la table de forge, font un collier, et sur ce serveur le marchand ambulant vend des objets contre des perles.
+- **Palmiers et noix de coco** *(optionnelle)* — tâches : item crabbersdelight:coconut, item crabbersdelight:palm_sapling — récompense : xp 3 — après : intro
+  > Les plages ont maintenant leurs palmiers, leurs coquillages et leurs crabes, qui vivent aussi dans les marais et les côtes rocheuses. Attention sous les palmiers : le jeu prévoit une mort « écrasé par une noix de coco ». Le lait de coco efface un effet.
+- **Une bisque** *(optionnelle)* — tâches : item crabbersdelight:bisque, item crabbersdelight:seafood_gumbo — récompense : xp 5 — après : crabe, marmite
+  > La marmite fait le reste : une bisque de crabe et un gombo de la mer.
+- **My Nether's Delight : le fourneau** *(optionnelle)* — tâches : item mynethersdelight:nether_bricks_stove — récompense : xp 5 — après : marmite
   > My Nether's Delight : un fourneau du Nether, des cannes poudreuses, du piment, et des plats de hoglin et de strider. La cuisine continue de l'autre côté du portail.
+- **La canne poudreuse** *(optionnelle)* — tâches : item mynethersdelight:bullet_pepper 4 — récompense : xp 5 — après : nether
+  > La canne poudreuse pousse à l'état sauvage dans les forêts carmin. Le mod prévient : ses baies explosent au contact, il conseille de couper la tige rouge. Elle peut donner deux ou trois piments, « Bullet Pepper ». Le troc des piglins peut aussi en donner.
+- **Chasser le hoglin au couteau** *(optionnelle)* — tâches : item mynethersdelight:hoglin_loin, item mynethersdelight:hoglin_hide — récompense : xp 5 — après : nether
+  > Les hoglins lâchent de la longe de hoglin à la place du porc. Tués au couteau, et sans brûler, ils lâchent une fois sur deux une peau de hoglin, plus avec Butin. Les écuries des bastions cachent de la longe, des œufs de strider et de la terre résurgente.
+- **Un ragoût de strider** *(optionnelle)* — tâches : item mynethersdelight:strider_stew — récompense : xp 5 — après : nether
+  > Chaque strider tué lâche deux tranches de strider. À la marmite, avec des champignons et des racines du Nether, elles font un ragoût de strider.
+- **Le hoglin farci** *(optionnelle)* — tâches : item mynethersdelight:roast_stuffed_hoglin — récompense : xp 8 — après : nether_hoglin
+  > Quatre jambons, deux longes, une peau de hoglin, une colonie de champignons carmin et une colonie de champignons biscornus : un hoglin farci cru. Les colonies naissent de certains champignons du Nether posés sur de la terre résurgente (« Resurgent Soil »). À la marmite, avec une épice forte (poudre de blaze ou piment), un champignon carmin et deux salades du Nether, il devient un hoglin farci rôti.
 - **Ender's Delight** *(optionnelle)* — tâches : item endersdelight:chorus_stew — récompense : xp 5 — après : marmite
   > Ender's Delight : le chorus se cuisine, le shulker aussi. Le ragoût de chorus se fait à la marmite, avec ce que l'End donne.
+- **Un fourneau de pierre de l'End** *(optionnelle)* — tâches : item endersdelight:endstone_stove — récompense : xp 5 — après : end
+  > Trois blocs d'obsidienne, quatre briques de l'End, un souffle de dragon et un feu de camp : le fourneau de l'End. Le souffle se recueille en flacon près de l'Ender Dragon.
+- **Chasser dans l'End au couteau** *(optionnelle)* — tâches : item endersdelight:shulker_mollusk, item endersdelight:enderman_sight — récompense : xp 5 — après : end
+  > Tué au couteau, un shulker lâche un « Shulker Mollusk », un enderman un « Enderman Sight » et un endermite une « Mite Crust ». Ce sont les viandes de l'End.
+- **Les épices de l'End** *(optionnelle)* — tâches : item endersdelight:amberveil_stew — récompense : xp 8 — après : end
+  > Quatre plantes poussent sur les îles extérieures de l'End : « Ethereal Saffron », « Void Pepper », « Amberveils » et « Chorusflame ». Les trois premières, avec une fleur de chorus, font à la marmite un « Amberveil Stew », servi dans un « Shulker Bowl ».
+- **La maison de l'End** *(optionnelle)* — tâches : structure endersdelight:end_house — récompense : xp 5 — après : end
+  > Ender's Delight ajoute une structure, la « End House », sur les hautes terres et les terres moyennes de l'End. Elle est rare : une au plus par carré de 25 tronçons de côté.
 - **Twilight's Flavor Delight** *(optionnelle)* — tâches : item twilightdelight:fiery_cooking_pot — récompense : xp 5 — après : marmite
-  > Twilight's Flavor Delight : une marmite ardente pour les ingrédients de la Twilight Forest, des gâteaux d'aurore, des tartes de baies de torche.
+  > Twilight's Flavor Delight cuisine la Twilight Forest. La marmite ardente se chauffe toute seule et cuit vite les plats du Crépuscule : cinq lingots ardents, des briques de labyrinthe, une pelle en bois de fer et un seau d'eau.
+- **Un couteau du Crépuscule** *(optionnelle)* — tâches : item twilightdelight:ironwood_knife, item twilightdelight:steeleaf_knife, item twilightdelight:knightmetal_knife, item twilightdelight:fiery_knife — récompense : xp 5 — après : couteau
+  > Quatre couteaux de la Twilight Forest : en bois de fer, en feuille d'acier, en métal de chevalier et ardent. Celui de chevalier frappe plus fort les cibles en armure. L'ardent enflamme et cuit ce qu'il découpe.
+- **Un fourneau du labyrinthe** *(optionnelle)* — tâches : item twilightdelight:maze_stove — récompense : xp 5 — après : fourneau
+  > Trois lingots de métal de chevalier, quatre briques de labyrinthe, des baies-torches et un feu de camp : un fourneau qui cuit plus vite les plats du Crépuscule.
+- **Le steak du minotaure** *(optionnelle)* — tâches : item twilightdelight:raw_tomahawk_smeak — récompense : xp 8 — après : twilight_couteau
+  > La hache de minotaure en diamant découpe ce que les couteaux ne savent pas couper. Un Minoshroom qu'elle achève lâche toujours un steak tomahawk, un minotaure trois fois sur dix ; cuit s'il brûlait. Sur la planche, elle tranche aussi une écaille de naga en quatre chips.
+- **Un burger d'hydre** *(optionnelle)* — tâches : item twilightdelight:hydra_burger — récompense : xp 8 — après : twilight
+  > La côtelette d'hydre, coupée au couteau, donne deux morceaux d'hydre. Avec du pain, de la salade, une tomate et un oignon : un burger d'hydre.
 - **Delightful** *(optionnelle)* — tâches : item delightful:cactus_soup — récompense : xp 5 — après : marmite
-  > Delightful relie Farmer's Delight aux autres mods du pack : baies, fruits, soupes et tartes faites avec ce que les biomes des autres mods produisent. La soupe de cactus est l'une des plus simples.
-- **La table est mise** — tâches : checkmark Ma faction mange chaud — récompense : xp 10 — après : ragout, festin
+  > Delightful relie Farmer's Delight aux autres mods du pack et ajoute ses propres plantes. Premier plat : la soupe de cactus.
+- **Trois plantes sauvages** *(optionnelle)* — tâches : item delightful:salmonberries, item delightful:cantaloupe, item delightful:mini_melon — récompense : xp 5 — après : delightful
+  > Des buissons de baies de saumon poussent dans toutes les forêts, des cantaloups sur les plages, des mini-melons dans les plaines. Un couteau change un cantaloup en quatre tranches et un mini-melon en quatre tranches de pastèque.
+- **Le couteau, outil de cueillette** *(optionnelle)* — tâches : item delightful:green_tea_leaf, item delightful:acorn, item delightful:animal_fat — récompense : xp 5 — après : delightful, couteau
+  > Des feuilles coupées au couteau donnent souvent une feuille de thé vert, et celles du chêne, parfois un gland. Un animal gras achevé au couteau (poissons, calmars, chevaux, chats…) lâche souvent de la graisse animale.
+- **Une tarte aux baies de saumon** *(optionnelle)* — tâches : item delightful:salmonberry_pie, item delightful:cantaloupe_bread — récompense : xp 5 — après : delightful_cueillette
+  > Les baies font une tarte, le cantaloup un pain.
+- **Pain de strider** *(optionnelle)* — tâches : item mynethersdelight:striderloaf — récompense : xp 8 — après : nether_strider
+  > Une tranche de strider et trois de strider haché, sur un bol : un festin du Nether.
+- **Ghasta à la crème** *(optionnelle)* — tâches : item mynethersdelight:ghasta_with_cream — récompense : xp 8 — après : nether
+  > Un ghasta, du ghasmati, une crème de magma et une larme de ghast, sur un bol.
+- **Shulker farci** *(optionnelle)* — tâches : item endersdelight:stuffed_shulker — récompense : xp 8 — après : end_couteau
+  > À la marmite, servi dans une carapace de shulker : mollusque de shulker, fruit de chorus, riz, tomate et champignon.
+- **Serpents ardents** *(optionnelle)* — tâches : item twilightdelight:fiery_snakes_block — récompense : xp 8 — après : twilight
+  > À la marmite : viande d'hydre, fiole ardente, écaille de naga, sauce tomate et baies-torches.
+- **Poulet aux nénuphars** *(optionnelle)* — tâches : item twilightdelight:lily_chicken_block — récompense : xp 8 — après : twilight, poulet_roti
+  > À la marmite, autour d'un poulet rôti : un grand nénuphar et un grand lis d'eau de la Forêt du crépuscule.
+- **Meef Wellington** *(optionnelle)* — tâches : item twilightdelight:meef_wellington_block — récompense : xp 8 — après : twilight
+  > Pâte à tarte, œuf, sauce de mushgloom, meef cuit et bacon, sur un bol.
+- **Cantaloup farci** *(optionnelle)* — tâches : item delightful:stuffed_cantaloupe_block — récompense : xp 8 — après : delightful_cueillette
+  > À la marmite, servi dans un cantaloup : riz, mouton cuit, oignon, baies et graines.
+- **La table est mise** — tâches : checkmark Ma faction mange chaud — récompense : xp 10 — après : ragout, tous_festins
   > Une marmite qui tourne, des ragoûts en réserve pour l'après-raid, un festin pour la victoire. Le chapitre Gastronomie de l'Encyclopédie liste chaque plat du pack.
 
-## Déplacement  (`mods_deplacement`, 13 quêtes)
+## Déplacement  (`mods_deplacement`, 16 quêtes)
 
 - **Aller vite, aller loin** — tâches : checkmark Lu — récompense : item minecraft:ender_pearl 4
   > Les waystones sont gratuites sur ce serveur : aucun coût en XP, quelle que soit la distance ou la dimension (config). Le reste : des bateaux plus grands, porter un coffre sur son dos, une boussole des biomes, les élytres dans leur propre emplacement.
@@ -5695,7 +7523,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Réutilisable : 30 secondes de recharge, liée au joueur (config du serveur). Un peu plus d'une seconde à maintenir.
 - **Une sharestone** *(optionnelle)* — tâches : item waystones:sharestone — récompense : xp 5 — après : pierre
   > Les sharestones d'une même couleur se voient entre elles, pour tous : un réseau de faction, sans activation.
-- **Une plaque de téléportation** *(optionnelle)* — tâches : item waystones:warp_plate — récompense : xp 5 — après : pierre
+- **Une plaque de téléportation** — tâches : item waystones:warp_plate — récompense : xp 5 — après : pierre
   > Une seconde debout dessus (config) et elle envoie vers la plaque à laquelle elle est liée par un éclat accordé.
 - **Voyager avec ses bêtes** *(optionnelle)* — tâches : item minecraft:lead — récompense : xp 3 — après : pierre
   > Un animal en laisse traverse avec toi, même entre dimensions (config). Sauf le Wither. La laisse elle-même est au chapitre Agriculture des bases.
@@ -5710,65 +7538,105 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Elle cherche un biome par son nom et pointe vers le plus proche. Les biomes des autres dimensions aussi, depuis là-bas. Déjà demandée au chapitre Bienvenue.
 - **Des élytres dans leur emplacement** *(optionnelle)* — tâches : item minecraft:elytra — récompense : xp 10 — après : intro
   > Elytra Slot : les élytres se portent dans un emplacement Curios à part, en plus du plastron. Les fusées restent le moteur. Voir aussi le jetpack (chapitre Iron Jetpacks) et les élytres d'âme (Deeper and Darker).
-- **Partout en un instant** — tâches : checkmark Mon réseau est en place — récompense : xp 5 — après : pierre, porter
+- **Deux plaques liées** — tâches : item waystones:warp_plate 2, item waystones:attuned_shard 2 — récompense : xp 8 — après : plaque
+  > Un éclat accordé se fabrique dans la plaque elle-même : un silex et quatre poussières de téléportation. Une plaque sans éclat lié n'a pas de destination (message du mod) ; deux plaques accordées font une liaison fixe entre deux bases.
+- **Une pierre de départ** *(optionnelle)* — tâches : item waystones:portstone — récompense : xp 3 — après : pierre
+  > La portstone se fait autour d'une pierre de téléportation. On en part, mais on ne peut pas s'y téléporter (infobulle).
+- **Un kilomètre en élytres** *(optionnelle)* — tâches : stat minecraft:aviate_one_cm 100000 — récompense : xp 5 — après : elytres
+  > Mille mètres en vol plané, au total (statistique du jeu). Les cent kilomètres sont au chapitre des Défis.
+- **Partout en un instant** — tâches : checkmark Mon réseau est en place — récompense : xp 5 — après : plaques_liees, porter
 
-## Enchantement  (`enchantement`, 9 quêtes)
+## Enchantement  (`enchantement`, 12 quêtes)
 
 - **Enchanter autrement** — tâches : checkmark Lu — récompense : item minecraft:lapis_lazuli 16, item minecraft:book 4
   > Le pack change l'enchantement en profondeur : la table vanilla montre ses enchantements et se relance, l'enclume ne punit plus les travaux répétés, un infuseur laisse choisir ses enchantements, et un tome stocke l'expérience.
   >   > Le lapis et les livres offerts sont pour la table, en attendant l'infuseur.
 - **La table, version Easy Magic** — tâches : item minecraft:enchanting_table — récompense : xp 3 — après : intro
   > Avec Easy Magic, la table affiche un indice de l'enchantement proposé, et un bouton relance les trois propositions pour 5 points d'expérience et un lapis. Les étagères comptent même avec un bloc entre elles. Jusqu'à 15 de puissance.
+- **Quinze étagères** — tâches : item minecraft:bookshelf 15 — récompense : xp 3 — après : table
+  > 15 étagères, c'est la puissance maximale partout dans le pack : la table d'Easy Magic plafonne à 15, et les deux infuseurs demandent 15 étagères pour leurs niveaux maximaux. Posées autour du bloc avec un espace d'un bloc, sur deux hauteurs ; les coins comptent.
+  >   > Les étagères ciselées comptent aussi, une par trois livres, à condition de faire face à la table.
+- **Dix enchantements à la table** — tâches : stat minecraft:enchant_item 10 — récompense : item minecraft:lapis_lazuli 16 — après : etageres
+  > Dix objets enchantés à la table. Si les trois propositions ne conviennent pas, le bouton de relance les retire contre 5 points d'expérience et un lapis.
 - **L'enclume, version Easy Anvils** — tâches : item minecraft:anvil — récompense : xp 3 — après : intro
   > Avec Easy Anvils, la pénalité de travaux antérieurs est fixe (4), plus de « trop cher », les livres coûtent moitié moins, renommer est gratuit, et l'enclume ne casse qu'une fois sur vingt. Réparer et renommer ne comptent pas comme travaux.
 - **Un infuseur d'enchantement** — tâches : item enchantinginfuser:enchanting_infuser — récompense : xp 8 — après : table
   > L'infuseur laisse choisir les enchantements de l'objet, et leur niveau, contre de l'expérience. Sa puissance vient des étagères posées en carré autour de lui, sur deux hauteurs : plus d'étagères, plus d'enchantements accessibles.
+  >   > Sur ce serveur, l'infuseur simple n'enchante que des objets sans enchantement, ne prend pas les livres et ne répare pas.
 - **L'infuseur avancé** — tâches : item enchantinginfuser:advanced_enchanting_infuser — récompense : xp 8 — après : infuseur
-  > L'infuseur avancé choisit, modifie et retire les enchantements, et répare l'objet contre des niveaux. La fin de l'enclume pour les outils de valeur.
+  > L'infuseur avancé choisit, modifie et retire les enchantements, même sur un objet déjà enchanté, et répare outils et armures contre des niveaux, 25 % de durabilité par étape. Il enchante aussi les livres, et accepte les enchantements d'enclume, comme Tranchant sur une hache. La fin de l'enclume pour les outils de valeur.
+- **L'infuseur au maximum** — tâches : observation block enchantinginfuser:advanced_enchanting_infuser, item minecraft:bookshelf 15 — récompense : xp 10 — après : infuseur_avance, etageres
+  > Un infuseur avancé posé, et ses 15 étagères. D'après la config du serveur, les enchantements s'ouvrent ainsi : les communs tout de suite, les peu communs à 3 étagères, les rares à 6, les très rares à 9 ; leur niveau maximal arrive 6 étagères plus loin, donc à 15 pour les très rares.
+  >   > Ce que l'infuseur ne donne jamais ici : les enchantements de trésor (Raccommodage), les malédictions, et ceux qu'on ne trouve ni à la table ni chez les marchands (Agilité des âmes). Ceux-là viennent des coffres, des marchands et de la pêche.
 - **Désenchanter** — tâches : checkmark Compris — récompense : xp 2 — après : intro
-  > Easy Disenchanting permet de retirer un enchantement d'un objet pour le récupérer sur un livre, à la meule. Le coût en expérience est fixé par la config du serveur, un enchantement rendu par opération.
+  > Easy Disenchanting se fait à l'enclume : l'objet enchanté d'un côté, un livre de l'autre. Le livre repart avec tous les enchantements de l'objet, et l'objet est rendu, sans eux. Le coût en niveaux dépend des enchantements transférés.
 - **Un tome d'expérience** — tâches : item xpbook:xp_tome — récompense : xp 5 — après : intro
   > Le tome d'XP : accroupi, clic droit pour y verser toute l'expérience possible ; clic droit pour la reprendre. On ne meurt plus avec ses niveaux sur soi — ni en raid, ni ailleurs.
 - **Les modèles de forge de l'Aether** *(optionnelle)* — tâches : item aether_treasure_reforging:neptune_upgrade_smithing_template — récompense : xp 5 — après : intro
   > Aether: Treasure Reforging ajoute trois modèles de forge : Neptune (armure de zanite + maille de Neptune), Phénix (armure de gravitite + lingot pyral), Valkyrie (équipement de gravitite + lingot de valkyrum). Les trésors des donjons de l'Aether, refondus en équipement.
-- **L'équipement est enchanté** — tâches : checkmark Mon équipement est prêt — récompense : xp 5 — après : infuseur, tome
+- **L'équipement est enchanté** — tâches : checkmark Mon équipement est prêt — récompense : xp 5 — après : infuseur_max, enchanter, tome
   > Un infuseur, un tome, une enclume qui ne punit plus. Ce qu'il manque encore se trouve chez les marchands, dans les donjons, et dans les coffres par joueur.
 
-## Équipement de fin de partie  (`mods_equipement_fin`, 17 quêtes)
+## Équipement de fin de partie  (`mods_equipement_fin`, 28 quêtes)
 
 - **Au-delà de la nétherite** — tâches : checkmark Lu — récompense : item minecraft:experience_bottle 4
   > Quatre paliers au-dessus de la nétherite (Advanced Netherite), des boucliers qui parent, un totem porté, des marteaux, et l'enchantement de minage en veine. Rien ici ne se donne : tout se gagne.
 - **Nétherite-fer** — tâches : advancement advancednetherite:nether/obtain_netherite_iron_ingot — récompense : xp 8 — après : intro
-  > Le premier palier : nétherite et fer. L'armure complète rend les phantoms neutres (config du serveur). Les paliers s'appliquent sur un équipement de nétherite par modèle de forge.
-- **Plus de phantoms** *(optionnelle)* — tâches : advancement advancednetherite:nether/netherite_iron_armor — récompense : xp 10 — après : fer
-  > L'armure complète de nétherite-fer (progrès « No More Phantoms »).
+  > Le premier palier : un lingot de nétherite et quatre de fer. L'armure complète rend les phantoms neutres (config du serveur).
+  >   > Chaque palier s'applique à la table de forge, avec un modèle d'amélioration en nétherite, sur la pièce du palier d'en dessous : nétherite → fer → or → émeraude → diamant. Il faut donc un modèle par pièce et par palier.
+- **Armure de nétherite-fer** — tâches : advancement advancednetherite:nether/netherite_iron_armor — récompense : xp 10 — après : fer
+  > Les quatre pièces de nétherite-fer, forgées sur l'armure de nétherite (progrès du mod).
+- **Outils de nétherite-fer** — tâches : item advancednetherite:netherite_iron_sword, item advancednetherite:netherite_iron_pickaxe, item advancednetherite:netherite_iron_axe, item advancednetherite:netherite_iron_shovel, item advancednetherite:netherite_iron_hoe — récompense : xp 10 — après : fer
+  > Épée, pioche, hache, pelle et houe de nétherite-fer, forgées sur les outils de nétherite.
 - **Nétherite-or** — tâches : item advancednetherite:netherite_gold_ingot — récompense : xp 8 — après : fer
-  > L'armure complète rend les piglins neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle).
+  > Un lingot de nétherite-fer et quatre d'or. L'armure complète rend les piglins neutres (config). L'épée donne une chance de lingot d'or en plus sur un piglin (infobulle).
+- **Armure de nétherite-or** — tâches : advancement advancednetherite:nether/netherite_gold_armor — récompense : xp 12 — après : or, fer_armure
+  > Les quatre pièces de nétherite-or, forgées sur l'armure du palier d'avant (progrès du mod).
+- **Outils de nétherite-or** — tâches : item advancednetherite:netherite_gold_sword, item advancednetherite:netherite_gold_pickaxe, item advancednetherite:netherite_gold_axe, item advancednetherite:netherite_gold_shovel, item advancednetherite:netherite_gold_hoe — récompense : xp 12 — après : or, fer_outils
+  > Épée, pioche, hache, pelle et houe de nétherite-or, forgées sur ceux du palier d'avant.
 - **Nétherite-émeraude** — tâches : item advancednetherite:netherite_emerald_ingot — récompense : xp 10 — après : or
-  > L'armure complète rend les endermen neutres (config). L'épée donne une chance de perle en plus (infobulle).
+  > Un lingot de nétherite-or et quatre émeraudes. L'armure complète rend les endermen neutres (config). L'épée donne une chance de perle en plus (infobulle).
+- **Armure de nétherite-émeraude** — tâches : advancement advancednetherite:nether/netherite_emerald_armor — récompense : xp 15 — après : emeraude, or_armure
+  > Les quatre pièces de nétherite-émeraude, forgées sur l'armure du palier d'avant (progrès du mod).
+- **Outils de nétherite-émeraude** — tâches : item advancednetherite:netherite_emerald_sword, item advancednetherite:netherite_emerald_pickaxe, item advancednetherite:netherite_emerald_axe, item advancednetherite:netherite_emerald_shovel, item advancednetherite:netherite_emerald_hoe — récompense : xp 15 — après : emeraude, or_outils
+  > Épée, pioche, hache, pelle et houe de nétherite-émeraude, forgées sur ceux du palier d'avant.
 - **Nétherite-diamant** — tâches : item advancednetherite:netherite_diamond_ingot — récompense : xp 15 — après : emeraude
-  > Le dernier palier : phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur).
-- **Couvert de nétherite-diamant** *(optionnelle)* — tâches : advancement advancednetherite:nether/netherite_diamond_armor — récompense : xp 25 — après : diamant
-  > L'armure complète (progrès du mod).
+  > Le dernier palier : un lingot de nétherite-émeraude et quatre diamants. Phantoms, piglins et endermen neutres à la fois (config). La pioche donne une chance de diamant en plus sur le minerai, la houe des récoltes en plus (infobulles ; activé sur ce serveur).
+- **Couvert de nétherite-diamant** — tâches : advancement advancednetherite:nether/netherite_diamond_armor — récompense : xp 25 — après : diamant, emeraude_armure
+  > L'armure complète de nétherite-diamant (progrès du mod), forgée pièce par pièce sur l'armure de nétherite-émeraude. Le sommet du chapitre : les trois neutralités à la fois.
+  >   > Chaque pièce, une par une, est à l'Armurerie de l'Encyclopédie.
+- **Outils de nétherite-diamant** — tâches : item advancednetherite:netherite_diamond_sword, item advancednetherite:netherite_diamond_pickaxe, item advancednetherite:netherite_diamond_axe, item advancednetherite:netherite_diamond_shovel, item advancednetherite:netherite_diamond_hoe — récompense : xp 20 — après : diamant, emeraude_outils
+  > Épée, pioche, hache, pelle et houe de nétherite-diamant, forgées sur ceux du palier d'avant. Chaque outil, un par un, est à l'Arsenal de l'Encyclopédie.
 - **Un bloc très cher** *(optionnelle)* — tâches : advancement advancednetherite:nether/obtain_netherite_diamond_block — récompense : xp 10 — après : diamant
   > Neuf lingots de nétherite-diamant (progrès « A very expensive block »).
-- **Un bouclier de fer** *(optionnelle)* — tâches : item shieldexp:iron_shield — récompense : xp 5 — après : intro
+- **Un bouclier de bois** *(optionnelle)* — tâches : item shieldexp:wooden_shield — récompense : xp 3 — après : intro
+  > Le premier bouclier de Shield Expansion : huit planches et un bâton. Puis fer, diamant et nétherite ; l'or est à part (huit lingots). Tous sont à la collection Boucliers de l'Encyclopédie.
+- **Un bouclier de fer** *(optionnelle)* — tâches : item shieldexp:iron_shield — récompense : xp 5 — après : bouclier_bois
   > Shield Expansion : des boucliers de bois, fer, or, diamant et nétherite, avec une parade au bon moment et une endurance de blocage (options du mod).
 - **Un bouclier de diamant** *(optionnelle)* — tâches : advancement shieldexp:get_diamond_shield — récompense : xp 8 — après : bouclier
 - **Un bouclier de nétherite** *(optionnelle)* — tâches : advancement shieldexp:get_netherite_shield — récompense : xp 12 — après : bouclier_diamant
 - **Un totem porté** *(optionnelle)* — tâches : item minecraft:totem_of_undying — récompense : xp 5 — après : intro
   > Charm of Undying : le totem d'immortalité se porte dans l'emplacement charme des Curios, et agit depuis là. Le Totem du vide (Void Totem) sauve d'une chute dans le vide, en main ou en charme (infobulle).
 - **Un marteau de fer** *(optionnelle)* — tâches : item justhammers:iron_hammer — récompense : xp 5 — après : intro
-  > Just Hammers : un marteau creuse une zone. Pierre, fer, or, diamant, nétherite ; et des variantes par cœur — renforcé, d'impact, destructeur.
-- **Un marteau destructeur de nétherite** *(optionnelle)* — tâches : item justhammers:netherite_destructor_hammer — récompense : xp 15 — après : marteau
+  > Just Hammers : un marteau creuse une zone de 3×3. Pierre, fer, or, diamant, nétherite ; puis chaque cœur agrandit la zone. Les cœurs se fabriquent l'un dans l'autre, et le premier consomme un marteau de nétherite.
+- **Un marteau de nétherite** *(optionnelle)* — tâches : item justhammers:netherite_hammer — récompense : xp 5 — après : marteau
+  > Trois lingots de nétherite. Il sert de matériau au cœur d'impact : redstone, un bloc de fer, un bloc d'or et ce marteau.
+- **Un marteau d'impact** *(optionnelle)* — tâches : item justhammers:stone_impact_hammer, item justhammers:iron_impact_hammer, item justhammers:gold_impact_hammer, item justhammers:diamond_impact_hammer, item justhammers:netherite_impact_hammer — récompense : xp 8 — après : marteau_nether
+  > Le cœur d'impact entre deux blocs du matériau : la zone passe à 3×3×3.
+- **Un marteau renforcé** *(optionnelle)* — tâches : item justhammers:stone_reinforced_hammer, item justhammers:iron_reinforced_hammer, item justhammers:gold_reinforced_hammer, item justhammers:diamond_reinforced_hammer, item justhammers:netherite_reinforced_hammer — récompense : xp 10 — après : marteau_impact
+  > Le cœur renforcé se fait autour du cœur d'impact, avec des blocs de redstone et d'or : la zone passe à 5×5.
+- **Un marteau renforcé d'impact** *(optionnelle)* — tâches : item justhammers:stone_reinforced_impact_hammer, item justhammers:iron_reinforced_impact_hammer, item justhammers:gold_reinforced_impact_hammer, item justhammers:diamond_reinforced_impact_hammer, item justhammers:netherite_reinforced_impact_hammer — récompense : xp 12 — après : marteau_renforce
+  > Le cœur renforcé d'impact se fait autour du cœur renforcé, avec redstone, diamant et or : 5×5×3.
+- **Un marteau destructeur de nétherite** *(optionnelle)* — tâches : item justhammers:netherite_destructor_hammer — récompense : xp 15 — après : marteau_renforce_impact
+  > Le cœur destructeur (autour du cœur renforcé d'impact, avec blocs de redstone et de diamant) entre deux blocs de nétherite : 5×5×5, le plus grand marteau du pack.
 - **Minage en veine** — tâches : checkmark Enchantement obtenu — récompense : xp 8 — après : intro
   > L'enchantement Vein Mining (rare, un seul niveau) se trouve à la table, chez les villageois ou dans les coffres (config du serveur). Avec lui, un bloc cassé entraîne jusqu'à 50 blocs identiques connectés, tous les blocs confondus. L'outil s'use pour chacun mais ne casse jamais. Accroupi ou touche dédiée, selon tes réglages client.
 - **La Lame de fleurs** *(optionnelle)* — tâches : structure joshie:blossom_blade — récompense : xp 10 — après : intro
   > Blossom Blade est une structure cachée dans le monde, avec une épée. La trouver est la seule indication que ce livre donnera.
-- **Équipé pour la fin** — tâches : checkmark Paré — récompense : xp 5 — après : diamant
+- **Équipé pour la fin** — tâches : checkmark Paré — récompense : xp 5 — après : diamant_armure, diamant_outils
   > Le reste : les armures de boss, au chapitre Cataclysm, Deeper and Darker, Iron's Spells et Aether.
 
-## Faune  (`faune`, 23 quêtes)
+## Faune  (`faune`, 27 quêtes)
 
 - **Les bêtes du pack** — tâches : checkmark Lu — récompense : item minecraft:wheat 16, item minecraft:lead 2
   > Près de cent créatures d'Alex's Mobs, les candidats des votes de Friends Foes, les gardes de Guard Villagers, les loups de RevampedWolf, les nids d'Incubation et les animaux ranimés de Pet Cemetery. Ce chapitre s'intéresse à ce qu'on en tire : objets, équipement, élevage. Les rencontres sont au Bestiaire de l'Encyclopédie.
@@ -5809,8 +7677,15 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Friends Foes ajoute le pendant du piège de cheval squelette ; il est activé sur ce serveur. Le progrès se valide en le déclenchant.
 - **Les gardes des villages** — tâches : observation entity guardvillagers:guard — récompense : xp 3 — après : intro
   > Chaque village a six gardes (config du serveur). Ils défendent les villageois et les golems qu'on attaque (liste de protection de la config). Leur inventaire s'ouvre à partir de 15 de réputation, et ils ne suivent qu'un Héros du village.
-- **Une armure de loup** *(optionnelle)* — tâches : item revampedwolf:iron_wolf_armor — récompense : xp 3 — après : intro
-  > RevampedWolf : des armures de loup en cuir, fer, or, diamant, et nétherite à la table de forge. Activées sur ce serveur.
+- **Une armure de loup en cuir** *(optionnelle)* — tâches : item revampedwolf:leather_wolf_armor — récompense : xp 2 — après : intro
+  > RevampedWolf : chaque armure de loup se fait avec une paire de bottes et quatre unités du même matériau. Cuir, fer, or, diamant, puis nétherite à la table de forge. Activées sur ce serveur.
+- **Une armure de loup en fer** *(optionnelle)* — tâches : item revampedwolf:iron_wolf_armor — récompense : xp 3 — après : loup_cuir
+  > Des bottes de fer et quatre lingots. L'or est à côté de l'échelle : bottes d'or et quatre lingots d'or.
+- **Une armure de loup en or** *(optionnelle)* — tâches : item revampedwolf:golden_wolf_armor — récompense : xp 2 — après : loup
+- **Une armure de loup en diamant** *(optionnelle)* — tâches : item revampedwolf:diamond_wolf_armor — récompense : xp 5 — après : loup
+  > Des bottes de diamant et quatre diamants.
+- **Une armure de loup en nétherite** *(optionnelle)* — tâches : item revampedwolf:netherite_wolf_armor — récompense : xp 10 — après : loup_diamant
+  > À la table de forge : l'armure de loup en diamant, un lingot de nétherite et un modèle d'amélioration. Le dernier palier ; chaque selle et chaque armure de monture est à la collection Montures et compagnons de l'Encyclopédie.
 - **Un nid** *(optionnelle)* — tâches : item incubation:hay_nest, item incubation:chicken_egg_crate — récompense : xp 2 — après : intro
   > Incubation : cinq blés font un nid de foin ; les œufs s'y couvent au lieu de se jeter. Une caisse à œufs les stocke, et le mod ajoute l'œuf au plat et les œufs brouillés.
 - **Ranimer un animal** *(optionnelle)* — tâches : advancement pet_cemetery:nether/respawn_pet — récompense : xp 5 — après : intro
@@ -5818,176 +7693,508 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Une ménagerie** — tâches : checkmark Mes bêtes sont à l'abri — récompense : xp 5 — après : dictionnaire, gardes
   > Des bêtes dans l'enclos, un loup en armure, un chat ranimé. Le Bestiaire de l'Encyclopédie attend les rencontres.
 
-## Iron Jetpacks  (`iron_jetpacks`, 7 quêtes)
+## Iron Jetpacks  (`iron_jetpacks`, 17 quêtes)
 
 - **Voler, à l'énergie** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8
-  > Iron Jetpacks : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Chaque palier — fer, or, diamant, émeraude, nétherite — a plus d'autonomie et de vitesse, et se fabrique avec les composants du palier.
-  >   > Il lui faut de l'énergie : le chapitre Powah en fournit.
-- **Une cellule** — tâches : item ironjetpacks:cell — récompense : xp 3 — après : intro
-  > La cellule stocke l'énergie du jetpack. Elle entre dans chaque palier.
-- **Un propulseur et une sangle** — tâches : item ironjetpacks:thruster, item ironjetpacks:strap — récompense : xp 3 — après : intro
-  > Le propulseur pousse, la sangle tient. Avec la cellule et le condensateur, c'est tout ce qu'un jetpack demande, dans le matériau du palier.
-- **Un condensateur** — tâches : item ironjetpacks:capacitor — récompense : xp 3 — après : intro
-  > Le condensateur accumule l'énergie entre deux coups de propulseur.
-- **Des bobines** — tâches : item ironjetpacks:basic_coil — récompense : xp 3 — après : cellule
-  > Les bobines — basique, avancée, élite, ultime — font les paliers supérieurs. La première se contente de fer et de redstone.
-- **Fabriquer un jetpack** — tâches : item ironjetpacks:jetpack — récompense : xp 10 — après : propulseur, condensateur, bobine
-  > Cellule, condensateur, propulseur, sangle et bobine, dans le matériau du palier : un jetpack. Charge-le dans une cellule d'énergie, enfile-le, et saute. Le mode planeur et le vol stationnaire se règlent à la touche du mod.
-- **Les pieds ne touchent plus terre** — tâches : checkmark J'ai volé — récompense : xp 5 — après : jetpack
-  > Un jetpack chargé vaut des élytres sans piste de décollage. Les paliers suivants s'obtiennent en refaisant la recette avec le matériau au-dessus.
+  > Iron Jetpacks : un jetpack qui se porte dans la case de plastron, se recharge en énergie, et vole. Huit paliers sur ce serveur : bois, pierre, cuivre, fer, or, acier, diamant, émeraude. Chacun a plus d'autonomie et de vitesse, et se fabrique à partir du jetpack d'en dessous.
+  >   > Il lui faut de l'énergie : le chapitre Powah en fournit. Les jetpacks ne s'enchantent pas (config du serveur).
+- **Une bobine basique** — tâches : item ironjetpacks:basic_coil — récompense : xp 3 — après : intro
+  > Quatre lingots de fer, deux poudres de redstone et un bâton : la bobine basique, celle des propulseurs en bois, en pierre et en cuivre.
+- **Une cellule en bois** — tâches : jetpack cell wood — récompense : xp 3 — après : intro
+  > La cellule stocke l'énergie. Chaque palier a la sienne, faite de redstone et du matériau du palier : on commence en bois.
+- **Un propulseur en bois et une sangle** — tâches : jetpack thruster wood, item ironjetpacks:strap — récompense : xp 3 — après : cellule, bobine
+  > Le propulseur pousse : une cellule, une bobine et le matériau du palier. La sangle (trois cuirs, deux pépites de fer) tient le tout.
+- **Un condensateur en bois** — tâches : jetpack capacitor wood — récompense : xp 3 — après : cellule
+  > Le condensateur accumule l'énergie entre deux coups de propulseur : une cellule et le matériau du palier.
+- **Un jetpack en bois** — tâches : jetpack jetpack wood — récompense : xp 8 — après : propulseur, condensateur
+  > Condensateur, propulseur, sangle et planches : le premier jetpack. Charge-le, enfile-le, et saute. Le vol stationnaire se règle à la touche du mod. Les paliers suivants partent tous de celui-ci.
+- **Une bobine avancée** — tâches : item ironjetpacks:advanced_coil — récompense : xp 4 — après : bobine
+  > La même recette avec des lingots d'or : la bobine des propulseurs en fer, en or et en acier.
+- **Une bobine élite** — tâches : item ironjetpacks:elite_coil — récompense : xp 5 — après : bobine_avancee
+  > Avec des diamants : la bobine du propulseur en diamant.
+- **Une bobine ultime** — tâches : item ironjetpacks:ultimate_coil — récompense : xp 6 — après : bobine_elite
+  > Avec des émeraudes : la bobine du propulseur en émeraude, le dernier.
+- **Un jetpack en pierre** — tâches : jetpack jetpack stone — récompense : xp 8 — après : jetpack, bobine
+  > Palier 1. On repart d'un jetpack du palier inférieur (bois) : avec de la pierre, une nouvelle cellule, un propulseur à bobine basique et un condensateur en pierre, l'établi le change en jetpack en pierre.
+- **Un jetpack en cuivre** — tâches : jetpack jetpack copper — récompense : xp 8 — après : jetpack, bobine
+  > Palier 1. On repart d'un jetpack du palier inférieur (bois) : avec des lingots de cuivre, une nouvelle cellule, un propulseur à bobine basique et un condensateur en cuivre, l'établi le change en jetpack en cuivre.
+- **Un jetpack en fer** — tâches : jetpack jetpack iron — récompense : xp 10 — après : jetpack_stone, jetpack_copper, bobine_avancee
+  > Palier 2. On repart d'un jetpack en pierre ou en cuivre : avec des lingots de fer, une nouvelle cellule, un propulseur à bobine avancée et un condensateur en fer, l'établi le change en jetpack en fer.
+- **Un jetpack en or** — tâches : jetpack jetpack gold — récompense : xp 12 — après : jetpack_iron, bobine_avancee
+  > Palier 3. On repart d'un jetpack en fer : avec des lingots d'or, une nouvelle cellule, un propulseur à bobine avancée et un condensateur en or, l'établi le change en jetpack en or.
+- **Un jetpack en acier** — tâches : jetpack jetpack steel — récompense : xp 12 — après : jetpack_iron, bobine_avancee
+  > Palier 3. On repart d'un jetpack en fer : avec des lingots d'acier (Hazen 'n Stuff), une nouvelle cellule, un propulseur à bobine avancée et un condensateur en acier, l'établi le change en jetpack en acier.
+- **Un jetpack en diamant** — tâches : jetpack jetpack diamond — récompense : xp 14 — après : jetpack_gold, jetpack_steel, bobine_elite
+  > Palier 4. On repart d'un jetpack en or ou en acier : avec des diamants, une nouvelle cellule, un propulseur à bobine élite et un condensateur en diamant, l'établi le change en jetpack en diamant.
+- **Un jetpack en émeraude** — tâches : jetpack jetpack emerald — récompense : xp 16 — après : jetpack_diamond, bobine_ultime
+  > Palier 5. On repart d'un jetpack en diamant : avec des émeraudes, une nouvelle cellule, un propulseur à bobine ultime et un condensateur en émeraude, l'établi le change en jetpack en émeraude. C'est le plus haut palier du serveur : platine et les autres métaux n'existent pas dans le pack. Les huit jetpacks forment la collection Jetpacks de l'Encyclopédie.
+- **Les pieds ne touchent plus terre** — tâches : checkmark J'ai volé — récompense : xp 5 — après : jetpack_emerald
+  > Un jetpack chargé vaut des élytres sans piste de décollage. L'Encyclopédie garde la collection des jetpacks ; ici, chaque palier est une marche.
 
-## Iron's Spells  (`irons_spells`, 41 quêtes)
+## Iron's Spells  (`irons_spells`, 83 quêtes)
 
 - **Devenir mage** — tâches : checkmark Lu — récompense : item minecraft:paper 16, item minecraft:book 2
   > Iron's Spells 'n Spellbooks ajoute la magie : des parchemins trouvés dans le monde, des grimoires où les inscrire, dix écoles (feu, glace, foudre, sacré, End, sang, évocation, nature, vide, indicible), des mages dans leurs tours, deux boss. Le mana se régénère seul ; chaque sort a un coût et un temps de recharge.
   >   > Sur ce serveur, les sorts ne détruisent pas le terrain (spellGriefing désactivé) : une boule de feu dans un claim adverse ne casse rien. Le papier offert fait les premiers grimoires.
-- **Un premier parchemin** — tâches : item irons_spellbooks:scroll — récompense : xp 3 — après : intro
+- **Un premier parchemin** — tâches : item irons_spellbooks:scroll — récompense : xp 3
   > Les parchemins se trouvent dans les coffres, sur les mages tués, chez le marchand ambulant. Chacun porte un sort et un niveau. On peut le consommer pour lancer le sort une fois, sans mana ni recharge — mais mieux vaut le garder pour l'inscrire dans un grimoire, où il servira sans fin.
-- **Un Journal fragile** — tâches : item irons_spellbooks:copper_spell_book — récompense : xp 3 — après : parchemin
+- **Un Journal fragile** — tâches : item irons_spellbooks:copper_spell_book — récompense : xp 3
   > Le premier grimoire : du cuivre, du papier, de la ficelle. Peu d'emplacements, mais c'est lui qui transforme un parchemin à usage unique en sort permanent. Chaque palier de grimoire ajoute des emplacements et souvent un bonus.
-- **Une Table d'inscription** — tâches : item irons_spellbooks:inscription_table — récompense : xp 5 — après : journal
+- **Une Table d'inscription** — tâches : item irons_spellbooks:inscription_table — récompense : xp 5
   > Un livre, trois dalles de bois, deux barrières : la Table d'inscription. On y pose un grimoire et un parchemin, et le sort passe dans le livre. Le parchemin se récupère en retirant le sort. C'est le geste de base de toute la magie du mod.
-- **La robe du Magicien errant** — tâches : item irons_spellbooks:wandering_magician_chestplate — récompense : xp 5 — après : table
+- **La robe du Magicien errant** — tâches : item irons_spellbooks:wandering_magician_chestplate — récompense : xp 5
   > De l'essence arcanique autour d'une armure de cuir : la tenue du Magicien errant. Le guide du mod la recommande comme première source de mana maximum. L'essence ne se fabrique pas : elle se pille dans les structures magiques et sur les mages.
-- **Un Tome ferré** — tâches : item irons_spellbooks:iron_spell_book — récompense : xp 3 — après : journal
+- **Un Tome ferré** — tâches : item irons_spellbooks:iron_spell_book — récompense : xp 3
   > Chaînes, cuir, papier : le Tome ferré, deuxième palier de grimoire, encore sans matière magique. Plus d'emplacements que le journal.
-- **Une Forge à parchemins** — tâches : item irons_spellbooks:scroll_forge — récompense : xp 8 — après : table
+- **Une Forge à parchemins** — tâches : item irons_spellbooks:scroll_forge — récompense : xp 8
   > Ardoise polie et obsidienne pleurante : la Forge à parchemins. Elle fabrique un parchemin avec du papier, une encre et un foyer : l'encre fixe la rareté (donc le niveau), le foyer fixe l'école. C'est le moment où l'on cesse de dépendre du hasard des coffres.
-- **De l'encre** — tâches : item irons_spellbooks:common_ink, item irons_spellbooks:uncommon_ink — récompense : xp 5 — après : forge
-  > Cinq encres, de la commune à la légendaire, qui ne se fabriquent pas : coffres des structures magiques, mages tués, marchand ambulant (activé sur ce serveur). Une encre ne fait que les sorts dont le premier niveau est de sa rareté ou moins. Les niveaux se répartissent ainsi : 30 % communs, 25 % peu communs, 20 % rares, 15 % épiques, 10 % légendaires.
-- **Le Grimoire de l'apprenti** — tâches : item irons_spellbooks:gold_spell_book — récompense : xp 5 — après : tome
+- **De l'encre** — tâches : item irons_spellbooks:common_ink, item irons_spellbooks:uncommon_ink — récompense : xp 5
+  > Cinq encres, de la commune à la légendaire. On les trouve dans les coffres des structures magiques, sur les mages et chez le marchand ambulant (activé sur ce serveur), et chaque encre se brasse à partir de la précédente au Chaudron d'alchimiste. Une encre ne fait que les sorts dont le premier niveau est de sa rareté ou moins. Les niveaux se répartissent ainsi : 30 % communs, 25 % peu communs, 20 % rares, 15 % épiques, 10 % légendaires.
+- **Le Grimoire de l'apprenti** — tâches : item irons_spellbooks:gold_spell_book — récompense : xp 5
   > Or, essence arcanique et peau de hoglin : le premier grimoire qui demande le Nether. Les hoglins lâchent la peau.
-- **Du Tissu arcanique** — tâches : item irons_spellbooks:magic_cloth 4 — récompense : xp 5 — après : errant
+- **Du Tissu arcanique** — tâches : item irons_spellbooks:magic_cloth 4 — récompense : xp 5
   > Huit essences autour d'un bloc de laine : un Tissu arcanique. Il entre dans les grimoires avancés, les robes de sorcier et l'amélioration d'emplacements. Pour en avoir beaucoup, il faut piller les structures magiques.
-- **Les Robes du sorcier** — tâches : item irons_spellbooks:wizard_chestplate — récompense : xp 5 — après : tissu
+- **Les Robes du sorcier** — tâches : item irons_spellbooks:wizard_chestplate — récompense : xp 5
   > Du tissu arcanique seul, en armure : la tenue du Sorcier. C'est la base de toutes les armures d'école : chaque robe d'école se fait à partir d'une pièce de sorcier.
-- **Les écoles et leurs foyers** — tâches : item irons_spellbooks:blank_rune — récompense : xp 5 — après : forge
+- **Les écoles et leurs foyers** — tâches : item irons_spellbooks:blank_rune — récompense : xp 5
   > Chaque école a un foyer, l'objet qui la représente à la forge et dans les recettes : bâton de blaze pour le feu, os gelé pour la glace, bouteille d'éclair pour la foudre, perle divine pour le sacré, perle de l'End pour l'End, fiole de sang pour le sang, émeraude pour l'évocation, pomme de terre empoisonnée pour la nature, éclat d'écho pour l'indicible.
   >   > Une pierre runique vierge entourée de huit foyers fait la rune de l'école. La pierre vierge ne se fabrique pas : elle se trouve dans les structures magiques, et chaque mage d'école lâche sa rune.
-- **Rune de Feu** — tâches : item irons_spellbooks:fire_rune — récompense : xp 3 — après : ecoles
+- **Rune de Feu** — tâches : item irons_spellbooks:fire_rune — récompense : xp 3
   > Huit bâtons de blaze autour d'une pierre vierge. L'école du feu : dégâts directs et brûlures.
-- **Rune de Glace** *(optionnelle)* — tâches : item irons_spellbooks:ice_rune — récompense : xp 3 — après : ecoles
+- **Rune de Glace** *(optionnelle)* — tâches : item irons_spellbooks:ice_rune — récompense : xp 3
   > Huit os gelés, lâchés par les vagabonds (strays). L'école de la glace : dégâts et contrôle.
-- **Rune de Foudre** *(optionnelle)* — tâches : item irons_spellbooks:lightning_rune — récompense : xp 3 — après : ecoles
+- **Rune de Foudre** *(optionnelle)* — tâches : item irons_spellbooks:lightning_rune — récompense : xp 3
   > Huit bouteilles d'éclair : une bouteille vide sur un creeper chargé. L'école de la foudre : des dégâts concentrés.
-- **Rune Sacrée** *(optionnelle)* — tâches : item irons_spellbooks:holy_rune — récompense : xp 3 — après : ecoles
+- **Rune Sacrée** *(optionnelle)* — tâches : item irons_spellbooks:holy_rune — récompense : xp 3
   > Huit perles divines (un lingot d'or et une améthyste chacune). L'école sacrée : soins, soutien, renforts pour les alliés — l'école d'une faction.
-- **Rune de l'End** *(optionnelle)* — tâches : item irons_spellbooks:ender_rune — récompense : xp 3 — après : ecoles
+- **Rune de l'End** *(optionnelle)* — tâches : item irons_spellbooks:ender_rune — récompense : xp 3
   > Huit perles de l'End. L'école de l'End : de l'arcane et du mystique, entre dégâts, utilité et déplacement.
-- **Rune de Sang** *(optionnelle)* — tâches : item irons_spellbooks:blood_rune — récompense : xp 3 — après : ecoles
+- **Rune de Sang** *(optionnelle)* — tâches : item irons_spellbooks:blood_rune — récompense : xp 3
   > Huit fioles de sang : des créatures dans un chaudron chauffé par un feu de camp, ou dans le chaudron d'alchimiste. L'école du sang : nécromancie, flétrissement, dégâts qui renforcent le lanceur.
-- **Rune d'Évocation** *(optionnelle)* — tâches : item irons_spellbooks:evocation_rune — récompense : xp 3 — après : ecoles
+- **Rune d'Évocation** *(optionnelle)* — tâches : item irons_spellbooks:evocation_rune — récompense : xp 3
   > Huit émeraudes. L'école de l'évocation : illusions et conjurations, la plus large palette d'attaque, de défense et d'utilité.
-- **Rune de Nature** *(optionnelle)* — tâches : item irons_spellbooks:nature_rune — récompense : xp 3 — après : ecoles
+- **Rune de Nature** *(optionnelle)* — tâches : item irons_spellbooks:nature_rune — récompense : xp 3
   > Huit pommes de terre empoisonnées. L'école de la nature : affaiblir l'ennemi, puis l'achever.
-- **Un Manuscrit indicible** *(optionnelle)* — tâches : item irons_spellbooks:eldritch_manuscript — récompense : xp 8 — après : ecoles
+- **Un Manuscrit indicible** *(optionnelle)* — tâches : item irons_spellbooks:eldritch_manuscript — récompense : xp 8
   > L'école indicible ne se lance ni ne se forge sans l'avoir apprise. Huit fragments de savoir ancien, trouvés dans le monde, autour d'un éclat d'écho reconstituent un Manuscrit indicible ; le consommer apprend un sort indicible. Ensuite, l'éclat d'écho sert de foyer.
-- **Une robe d'école** — tâches : item irons_spellbooks:pyromancer_chestplate — récompense : xp 8 — après : sorcier, rune_feu
+- **Une robe d'école** — tâches : item irons_spellbooks:pyromancer_chestplate — récompense : xp 8
   > Une pièce de sorcier, la rune de l'école et une essence arcanique : la robe de l'école, ici celle du Pyromancien. Même modèle pour le Cryomancien, l'Électromancien, le Prêtre, le Marchombre, le Cultiste, le Manteau pesteux et l'Archévocateur, chacun avec sa rune. L'armure d'école renforce les sorts de son école.
-- **Le Grimoire enchanté** — tâches : item irons_spellbooks:diamond_spell_book — récompense : xp 8 — après : apprenti, tissu
+- **Le Grimoire enchanté** — tâches : item irons_spellbooks:diamond_spell_book — récompense : xp 8
   > Diamants, peau de hoglin, tissu arcanique et un livre enchanté : le Grimoire enchanté, l'avant-dernier des grimoires fabricables.
-- **Une Enclume arcanique** — tâches : item irons_spellbooks:arcane_anvil — récompense : xp 10 — après : enchante
+- **Une Enclume arcanique** — tâches : item irons_spellbooks:arcane_anvil — récompense : xp 10
   > Trois blocs d'améthyste, un diamant, une enclume entre deux ardoises polies : l'Enclume arcanique, l'atelier de la fin de partie. Elle monte un parchemin d'un niveau avec l'encre de la rareté suivante, améliore armures et grimoires avec des orbes (trois améliorations au plus par pièce sur ce serveur), et imprègne une arme d'un sort — l'arme consomme alors du mana, avec une recharge réduite de moitié.
-- **Du Mithril** — tâches : item irons_spellbooks:mithril_ingot — récompense : xp 5 — après : enclume
+- **Du Mithril** — tâches : item irons_spellbooks:mithril_ingot — récompense : xp 5
   > Le mithril est un minerai rare de l'Overworld ; le guide du mod le place sous Y −38, dans la roche non exposée à l'air. Le minerai brut se cuit en ferraille au haut-fourneau, quatre ferrailles font un lingot. Il entre dans les orbes, les cadres de portail, les anneaux.
-- **De l'Essence de braise** — tâches : item irons_spellbooks:cinder_essence 4 — récompense : xp 5 — après : enclume
+- **De l'Essence de braise** — tâches : item irons_spellbooks:cinder_essence 4 — récompense : xp 5
   > Les Chevaliers anciens la lâchent. Ils dorment dans les tas d'armure du Nether : casser le tas réveille le chevalier. L'essence de braise entre dans les orbes, le chaudron d'alchimiste et l'appel qui réveille Tyros.
-- **Un Orbe d'amélioration vide** — tâches : item irons_spellbooks:upgrade_orb — récompense : xp 8 — après : mithril, braise
+- **Un Orbe d'amélioration vide** — tâches : item irons_spellbooks:upgrade_orb — récompense : xp 8
   > Quatre lingots arcaniques (huit essences autour d'un lingot de fer, de cuivre ou d'or), quatre essences de braise, un lingot de mithril : l'orbe vide. Seul, il ne sert à rien ; entouré de huit runes, il devient l'orbe d'un attribut.
-- **Un orbe d'école** — tâches : item irons_spellbooks:fire_upgrade_orb — récompense : xp 8 — après : orbe, rune_feu
+- **Un orbe d'école** — tâches : item irons_spellbooks:fire_upgrade_orb — récompense : xp 8
   > Huit runes autour d'un orbe vide : ici l'Orbe d'amélioration de feu. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut. Les orbes de mana, de récupération et de protection suivent la même recette avec leur rune.
-- **Le Codex ancien** — tâches : item irons_spellbooks:netherite_spell_book — récompense : xp 15 — après : enchante
+- **Le Codex ancien** — tâches : item irons_spellbooks:netherite_spell_book — récompense : xp 15
   > Un lingot de nétherite, un Livre en ruine des cités anciennes, du tissu arcanique, une fiole de sang et une bouteille d'éclair : le Codex ancien, le meilleur grimoire que l'on fabrique. Les autres grands grimoires ne se fabriquent pas : le Necronomicon se prend au Roi Mort, le Grimoire d'évocation aux évocateurs, le Manuel du Blaze aux blazes, le Grimoire en peau de dragon demande la peau de l'Ender Dragon.
-- **Les robes du Mage de guerre** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_chestplate — récompense : xp 8 — après : sorcier
+- **Les robes du Mage de guerre** *(optionnelle)* — tâches : item irons_spellbooks:netherite_mage_chestplate — récompense : xp 8
   > À la table de forge : une pièce de sorcier, un modèle d'amélioration en nétherite, un lingot de nétherite. Les robes du Mage de guerre, la version blindée de la tenue de sorcier.
-- **Un Chaudron d'alchimiste** *(optionnelle)* — tâches : item irons_spellbooks:alchemist_cauldron — récompense : xp 5 — après : braise
+- **Un Chaudron d'alchimiste** *(optionnelle)* — tâches : item irons_spellbooks:alchemist_cauldron — récompense : xp 5
   > Un chaudron, du fer, une essence arcanique et une essence de braise. Le Chaudron d'alchimiste recycle les parchemins inutiles (une chance sur deux sur ce serveur), tire le sang des créatures, et peut aussi brasser des potions (autorisé ici).
-- **Des Cadres de portail** *(optionnelle)* — tâches : item irons_spellbooks:portal_frame 2 — récompense : xp 5 — après : mithril
+- **Des Cadres de portail** *(optionnelle)* — tâches : item irons_spellbooks:portal_frame 2 — récompense : xp 5
   > Mithril, lingots arcaniques, perle de l'End : deux Cadres de portail par recette, que le sort Portail relie entre eux. Sur ce serveur, seul le propriétaire d'un cadre peut le teindre ; n'importe qui peut le casser — à poser dans le claim.
-- **Une carte enroulée** *(optionnelle)* — tâches : item irons_spellbooks:furled_map_citadel — récompense : xp 5 — après : braise
+- **Une carte enroulée** *(optionnelle)* — tâches : item irons_spellbooks:furled_map_citadel — récompense : xp 5
   > Les cartes enroulées mènent à une structure donnée ; on les trouve, on les échange, ou on les fabrique. Celle de la Citadelle : du papier, deux essences de braise, deux fragments de savoir ancien. La citadelle est le repaire des Chevaliers anciens.
-- **Une tour de mage** *(optionnelle)* — tâches : structure irons_spellbooks:pyromancer_tower — récompense : xp 5 — après : parchemin
+- **Une tour de mage** *(optionnelle)* — tâches : structure irons_spellbooks:pyromancer_tower — récompense : xp 5
   > Chaque structure magique abrite un mage qui ne te laissera pas faire : la tour du Pyromancien, la tour de montagne, la hutte des mangroves, la tanière des araignées de glace, le fort de l'Archévocateur. C'est là que sont l'essence, les encres, les runes et les parchemins.
-- **Le fort de l'Archévocateur** *(optionnelle)* — tâches : structure irons_spellbooks:evoker_fort — récompense : xp 5 — après : tour
+- **Le fort de l'Archévocateur** *(optionnelle)* — tâches : structure irons_spellbooks:evoker_fort — récompense : xp 5
   > L'Archévocateur tient un fort avec des villageois captifs. Les libérer vaut la reconnaissance des villages — et, selon le guide du mod, finit par mettre une Bible du villageois entre tes mains, un grimoire sacré qui ne se fabrique pas.
-- **Les Catacombes** — tâches : structure irons_spellbooks:catacombs — récompense : xp 8 — après : enclume
+- **Les Catacombes** — tâches : structure irons_spellbooks:catacombs — récompense : xp 8
   > Un labyrinthe souterrain de zombies, de pièges et de coffres fermés à clé — les clés d'os ouvrent ses chambres fortes. Au fond repose le corps du Roi Mort.
-- **Vaincre le Roi Mort** — tâches : kill irons_spellbooks:dead_king — récompense : xp 20 — après : catacombes
+- **Vaincre le Roi Mort** — tâches : kill irons_spellbooks:dead_king — récompense : xp 20
   > Un clic droit sur le corps le relève. Le Roi Mort est le mage du sang : nécromancie, barrages, deux phases. Il lâche le Necronomicon et son Bâton de sang, le sceptre d'invocation que le guide du mod qualifie d'inégalé. Sa mort est annoncée dans #faits-d-armes.
-- **Un Invocateur d'âme de braise** — tâches : item irons_spellbooks:cinderous_soulcaller — récompense : xp 8 — après : braise
+- **Un Invocateur d'âme de braise** — tâches : item irons_spellbooks:cinderous_soulcaller — récompense : xp 8
   > Quatre essences de braise, quatre fragments de nétherite, un éclat d'écho. L'Invocateur d'âme de braise appelle l'Écho de Tyros ; utilisé au mauvais endroit, il répond « rien ne fait écho ».
-- **Vaincre l'Écho de Tyros** — tâches : kill irons_spellbooks:fire_boss — récompense : xp 20 — après : appel
+- **Vaincre l'Écho de Tyros** — tâches : kill irons_spellbooks:fire_boss — récompense : xp 20
   > Le Premier Porteur de flamme, mage de feu et combattant. Sa mort est annoncée dans #faits-d-armes. Le staff n'a pas touché à ses points de vie ni à sa puissance (config du serveur à zéro).
-- **Hazen 'n Stuff** *(optionnelle)* — tâches : item hazennstuff:eldritch_rune — récompense : xp 5 — après : orbe
-  > Hazen 'n Stuff prolonge Iron's Spells : des runes et des orbes d'attributs nouveaux (radiance, ombre, mêlée, archerie, santé, et une rune indicible), des armures de mage (Séraphin, Blazeborne, Souverain cryogénique, Rôdeur du tonnerre, Alchimiste suprême…) et des armes qui résonnent avec la forge à parchemins. Les recettes sont dans JEI.
-- **Archimage** — tâches : checkmark Mon grimoire est plein — récompense : xp 10 — après : codex, orbe_ecole, roi_mort
+- **Hazen 'n Stuff : la rune indicible** *(optionnelle)* — tâches : item hazennstuff:eldritch_rune — récompense : xp 5
+  > Hazen 'n Stuff prolonge Iron's Spells avec des armures et des armes de mage. Sa porte d'entrée : huit éclats d'écho, ceux des cités anciennes, autour d'une pierre runique vierge donnent la « Eldritch Rune ». Deux d'entre elles entrent dans la lame « The Devourer ». Le reste du mod repose sur un métal de l'End, la zénalite.
+- **De l'acier** *(optionnelle)* — tâches : item hazennstuff:steel_ingot — récompense : xp 3
+  > Trois lingots de fer et deux charbons donnent deux « Crude Metal ». Au four ou au haut fourneau, chacun devient un lingot d'acier, la « Steel Ingot » de l'épée « Provocation ».
+- **Le minerai de zénalite** *(optionnelle)* — tâches : item hazennstuff:raw_zenalite 4 — récompense : xp 5
+  > Le seul minerai de zénalite qui se génère est celui de la pierre de l'End, dans tous les biomes de l'End : douze filons par tronçon, jusqu'à neuf blocs chacun, sous la hauteur 80. Il lâche de la « Raw Zenalite », que Fortune multiplie. Il en faut quatre pour les moules divins.
+- **Réveiller la zénalite** *(optionnelle)* — tâches : item hazennstuff:zenalite_ingot 4 — récompense : xp 10
+  > Le mod le dit lui-même : ce minerai dort, et seule la chaleur d'une étoile le réveille. Une zénalite brute et une étoile du Nether donnent quatre « Starkissed Zenalite », que le four change chacune en lingot de zénalite. Un Wither vaincu, quatre lingots : toutes les pièces qui suivent en demandent.
+- **Le Moule divin** *(optionnelle)* — tâches : item hazennstuff:divine_mold — récompense : xp 10
+  > Quatre zénalites brutes, une pierre runique vierge, un lingot de pyrium, deux peaux de dragon et un éclat d'âme divine donnent quatre « Divine Mold ». L'Ender Dragon lâche de six à dix peaux en plus de son butin. L'éclat tombe de l'Écho de Tyros, seulement s'il meurt de la main d'un joueur.
+- **Une armure d'école divine** *(optionnelle)* — tâches : item hazennstuff:seraph_helmet, item hazennstuff:blazeborne_helmet, item hazennstuff:cryogenic_ruler_helmet, item hazennstuff:ender_dragon_helmet, item hazennstuff:alchemist_supreme_helmet, item hazennstuff:creaking_sorcerer_helmet, item hazennstuff:flesh_mass_helmet — récompense : xp 10
+  > Chaque robe d'école d'Iron's a sa version divine. Pour le casque : le casque de l'école, deux runes de cette école, trois lingots de zénalite et un moule divin. Le Masque du Prêtre et deux runes sacrées donnent le « Seraph Visor » ; le Chapeau du Pyromancien et deux runes de feu, le « Blazeborne Helmet ». Les autres pièces suivent le même principe, avec plus de zénalite.
+- **Deux armures en une** *(optionnelle)* — tâches : item hazennstuff:fireblossom_battlemage_crown, item hazennstuff:fireblossom_battlemage_helmet, item hazennstuff:atlas_helmet — récompense : xp 8
+  > À la table de forge, un casque divin sert de modèle à un autre. Le « Creaking Sorcerer Mask » en modèle et un « Blazeborne Helmet » en base donnent la « Fireblossom Battlemage Crown » avec une Rune Arcanique, tournée vers la magie. Avec une Rune de Protection, c'est le « Fireblossom Battlemage Helmet », tourné vers l'épée. Sur un « Alchemist Supreme Hat » avec une pierre runique vierge, on obtient le « Atlas's Helmet ».
+- **La veste de Hazel** *(optionnelle)* — tâches : item hazennstuff:how_did_you_find_the_hazel_chestplate — récompense : xp 5
+  > Du cuir en modèle et de la poudre de blaze sur une pièce Blazeborne donnent la tenue de Hazel, casque, veste, jambières ou bottes. La veste, « Hazel's Jacket », cache une seconde version : repasse-la à la table de forge, cuir en modèle, avec une pastèque. Elle porte le même nom, mais pas le même identifiant.
+- **Une arme de zénalite** *(optionnelle)* — tâches : item hazennstuff:excalibur, item hazennstuff:draconic_splitter, item hazennstuff:fireblossom_rapier, item hazennstuff:ice_pike, item hazennstuff:umbranova, item hazennstuff:the_devourer, item hazennstuff:provocation, item hazennstuff:o_fortuna, item hazennstuff:ravens_bane — récompense : xp 10
+  > Toutes les armes du mod demandent deux ou trois lingots de zénalite, des Pièces d'Arme et des runes d'école. La plupart partent d'une épée en nétherite : « Excalibur » avec une Perle Divine et deux runes sacrées, « Draconic Splitter » avec un bâton de blaze et deux runes de feu. « O' Fortuna » part d'une hache en nétherite, « Raven's Bane » du Tranchefer Infernal. Le reste est dans JEI.
+- **Le casque de pyrium** *(optionnelle)* — tâches : item hazennstuff:pyrium_helmet — récompense : xp 8
+  > Le lingot de pyrium se trouve dans le coffre-fort de la Citadelle. À la table de forge, avec une Boue Intemporelle en modèle, il change un casque en nétherite en « Pyrium Helmet ». La boue se brasse au Chaudron d'alchimiste : une potion banale versée dedans, un éclat d'écho jeté dans la potion, puis un flacon vide pour recueillir la boue.
+- **Une couronne de légionnaire** *(optionnelle)* — tâches : item hazennstuff:legionnaire_ruler_helmet, item hazennstuff:legionnaire_commander_helmet — récompense : xp 8
+  > Une pépite de pyrium sert de modèle à la table de forge, sur un « Pyrium Helmet ». Avec du Tissu Arcanique, on obtient le « Legionnaire Ruler Crown ». Avec du Tissu de Mithril, c'est le « Legionnaire Commander Helmet ».
+- **Une encre rare** *(optionnelle)* — tâches : item irons_spellbooks:rare_ink — récompense : xp 5
+  > Au Chaudron d'alchimiste : un litre d'encre peu commune et un lingot de fer donnent de l'encre rare, à recueillir en flacon.
+- **Une encre épique** *(optionnelle)* — tâches : item irons_spellbooks:epic_ink — récompense : xp 7
+  > Un litre d'encre rare et un lingot d'or : de l'encre épique.
+- **Une encre légendaire** *(optionnelle)* — tâches : item irons_spellbooks:legendary_ink — récompense : xp 12
+  > Un litre d'encre épique et une améthyste : de l'encre légendaire, celle des parchemins au plus haut niveau à la forge à parchemins.
+- **Les robes : Pyromancien** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_helmet, item irons_spellbooks:pyromancer_chestplate, item irons_spellbooks:pyromancer_leggings, item irons_spellbooks:pyromancer_boots — récompense : xp 5
+  > Les quatre pièces de l'école (Pyromancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+- **Les robes : Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:cryomancer_helmet, item irons_spellbooks:cryomancer_chestplate, item irons_spellbooks:cryomancer_leggings, item irons_spellbooks:cryomancer_boots — récompense : xp 5
+  > Les quatre pièces de l'école (Cryomancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+- **L'orbe : Cryomancien** *(optionnelle)* — tâches : item irons_spellbooks:ice_upgrade_orb — récompense : xp 4
+  > Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+- **Les robes : Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:electromancer_helmet, item irons_spellbooks:electromancer_chestplate, item irons_spellbooks:electromancer_leggings, item irons_spellbooks:electromancer_boots — récompense : xp 5
+  > Les quatre pièces de l'école (Électromancien), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+- **L'orbe : Électromancien** *(optionnelle)* — tâches : item irons_spellbooks:lightning_upgrade_orb — récompense : xp 4
+  > Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+- **Les robes : Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:priest_helmet, item irons_spellbooks:priest_chestplate, item irons_spellbooks:priest_leggings, item irons_spellbooks:priest_boots — récompense : xp 5
+  > Les quatre pièces de l'école (Prêtre), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+- **L'orbe : Prêtre** *(optionnelle)* — tâches : item irons_spellbooks:holy_upgrade_orb — récompense : xp 4
+  > Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+- **Les robes : Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:shadowwalker_helmet, item irons_spellbooks:shadowwalker_chestplate, item irons_spellbooks:shadowwalker_leggings, item irons_spellbooks:shadowwalker_boots — récompense : xp 5
+  > Les quatre pièces de l'école (Marchombre), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+- **L'orbe : Marchombre** *(optionnelle)* — tâches : item irons_spellbooks:ender_upgrade_orb — récompense : xp 4
+  > Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+- **Les robes : Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:cultist_helmet, item irons_spellbooks:cultist_chestplate, item irons_spellbooks:cultist_leggings, item irons_spellbooks:cultist_boots — récompense : xp 5
+  > Les quatre pièces de l'école (Cultiste), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+- **L'orbe : Cultiste** *(optionnelle)* — tâches : item irons_spellbooks:blood_upgrade_orb — récompense : xp 4
+  > Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+- **Les robes : Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:archevoker_helmet, item irons_spellbooks:archevoker_chestplate, item irons_spellbooks:archevoker_leggings, item irons_spellbooks:archevoker_boots — récompense : xp 5
+  > Les quatre pièces de l'école (Archévocateur), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+- **L'orbe : Archévocateur** *(optionnelle)* — tâches : item irons_spellbooks:evocation_upgrade_orb — récompense : xp 4
+  > Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+- **Les robes : Manteau pesteux** *(optionnelle)* — tâches : item irons_spellbooks:plagued_helmet, item irons_spellbooks:plagued_chestplate, item irons_spellbooks:plagued_leggings, item irons_spellbooks:plagued_boots — récompense : xp 5
+  > Les quatre pièces de l'école (Manteau pesteux), chacune faite d'une pièce de sorcier, de la rune de l'école et d'une essence arcanique.
+- **L'orbe : nature** *(optionnelle)* — tâches : item irons_spellbooks:nature_upgrade_orb — récompense : xp 4
+  > Huit runes de l'école autour d'un orbe vide. À l'enclume arcanique, il améliore une armure ou un grimoire dans cet attribut ; trois améliorations au plus par objet sur ce serveur.
+- **L'orbe de mana** *(optionnelle)* — tâches : item irons_spellbooks:mana_upgrade_orb — récompense : xp 4
+  > Huit runes (arcaniques) autour d'un orbe vide.
+- **L'orbe de récupération** *(optionnelle)* — tâches : item irons_spellbooks:cooldown_upgrade_orb — récompense : xp 4
+  > Huit runes (de récupération) autour d'un orbe vide.
+- **L'orbe de protection** *(optionnelle)* — tâches : item irons_spellbooks:protection_upgrade_orb — récompense : xp 4
+  > Huit runes (de protection) autour d'un orbe vide.
+- **Toutes les robes d'école** *(optionnelle)* — tâches : item irons_spellbooks:pyromancer_chestplate, item irons_spellbooks:cryomancer_chestplate, item irons_spellbooks:electromancer_chestplate, item irons_spellbooks:priest_chestplate, item irons_spellbooks:shadowwalker_chestplate, item irons_spellbooks:cultist_chestplate, item irons_spellbooks:archevoker_chestplate, item irons_spellbooks:plagued_chestplate — récompense : xp 15
+  > Un plastron de chaque école, les huit ensemble.
+- **Tous les orbes** *(optionnelle)* — tâches : item irons_spellbooks:fire_upgrade_orb, item irons_spellbooks:ice_upgrade_orb, item irons_spellbooks:lightning_upgrade_orb, item irons_spellbooks:holy_upgrade_orb, item irons_spellbooks:ender_upgrade_orb, item irons_spellbooks:blood_upgrade_orb, item irons_spellbooks:evocation_upgrade_orb, item irons_spellbooks:nature_upgrade_orb, item irons_spellbooks:mana_upgrade_orb, item irons_spellbooks:cooldown_upgrade_orb, item irons_spellbooks:protection_upgrade_orb — récompense : xp 15
+  > Les onze orbes d'amélioration réunis.
+- **Le Manuel du Blaze** *(optionnelle)* — tâches : item irons_spellbooks:blaze_spell_book — récompense : xp 6
+  > Les blazes peuvent le lâcher (table de butin ajoutée par le mod).
+- **Le Grimoire d'évocation** *(optionnelle)* — tâches : item irons_spellbooks:evoker_spell_book — récompense : xp 6
+  > Les évocateurs peuvent le lâcher.
+- **Le Necronomicon** *(optionnelle)* — tâches : item irons_spellbooks:necronomicon_spell_book — récompense : xp 6
+  > Le Roi Mort le lâche.
+- **Le Grimoire en peau de dragon** *(optionnelle)* — tâches : item irons_spellbooks:dragonskin_spell_book — récompense : xp 6
+  > Il se fabrique avec la peau de l'Ender Dragon.
+- **Le Grimoire druidique** *(optionnelle)* — tâches : item irons_spellbooks:druidic_spell_book — récompense : xp 6
+  > Il se fabrique (recette du mod).
+- **Le Grimoire de givre** *(optionnelle)* — tâches : item irons_spellbooks:ice_spell_book — récompense : xp 6
+  > Il se fabrique (recette du mod).
+- **Le Grimoire pourri** *(optionnelle)* — tâches : item irons_spellbooks:rotten_spell_book — récompense : xp 6
+  > Dans les coffres, et les cercueils des catacombes.
+- **Les anneaux et amulettes** *(optionnelle)* — tâches : item irons_spellbooks:silver_ring, item irons_spellbooks:mana_ring, item irons_spellbooks:cooldown_ring, item irons_spellbooks:cast_time_ring, item irons_spellbooks:fireward_ring, item irons_spellbooks:frostward_ring, item irons_spellbooks:poisonward_ring, item irons_spellbooks:emerald_stoneplate_ring, item irons_spellbooks:invisibility_ring, item irons_spellbooks:visibility_ring, item irons_spellbooks:affinity_ring, item irons_spellbooks:wicked_bone_ring, item irons_spellbooks:concentration_amulet, item irons_spellbooks:heavy_chain_necklace, item irons_spellbooks:teleportation_amulet, item irons_spellbooks:amethyst_resonance_charm — récompense : xp 12
+  > Les bijoux d'Iron's Spells se portent dans les emplacements Curios : anneaux de mana, de récupération, de lancement, de protection contre le feu, le gel et le poison, et le reste. Seize en tout.
+- **Les bâtons de mage** *(optionnelle)* — tâches : item irons_spellbooks:graybeard_staff, item irons_spellbooks:ice_staff, item irons_spellbooks:pyrium_staff, item irons_spellbooks:blood_staff, item irons_spellbooks:artificer_cane — récompense : xp 12
+  > Le bâton du Barbe-Grise, celui de glace, celui de pyrium, le bâton de sang du Roi Mort et la canne de l'artificier.
+- **Archimage** — tâches : checkmark Mon grimoire est plein — récompense : xp 10
   > Un Codex ancien plein, des robes d'école améliorées, deux boss au tableau. Le chapitre Grimoire de l'Encyclopédie liste chaque sort du pack ; l'Armurerie, chaque robe.
 
-## Mystical Agriculture  (`mystical_agriculture`, 35 quêtes)
+## Mystical Agriculture  (`mystical_agriculture`, 146 quêtes)
 
 - **Cultiver des ressources** — tâches : checkmark Lu — récompense : item mysticalagriculture:mystical_fertilizer 4, item minecraft:bone_meal 16
   > Mystical Agriculture fait pousser le fer, le diamant, la nétherite : une graine par ressource, et des champs qui remplacent la mine. Tout part de deux minerais, la prospérité et l'inferium, et de cinq paliers d'essence qui se fabriquent les uns à partir des autres.
   >   > L'engrais mystique offert fait pousser n'importe quelle culture d'un coup. Garde-le pour les premières graines d'essence.
-- **Des éclats de prospérité** — tâches : item mysticalagriculture:prosperity_shard 16 — récompense : xp 3 — après : intro
+- **Des éclats de prospérité** — tâches : item mysticalagriculture:prosperity_shard 16 — récompense : xp 3
   > Le minerai de prospérité se mine dans la pierre et donne des éclats. Ils entrent dans la base de graine, le cristal d'infusion et les lingots de prospérité : c'est la monnaie du mod.
-- **De l'essence d'inferium** — tâches : item mysticalagriculture:inferium_essence 16 — récompense : xp 3 — après : intro
+- **De l'essence d'inferium** — tâches : item mysticalagriculture:inferium_essence 16 — récompense : xp 3
   > Le minerai d'inferium se mine comme le charbon. Son essence est le premier palier : tout ce qui suit en consomme, et les champs d'inferium en produiront bien plus que la mine.
-- **Des graines d'inferium** — tâches : item mysticalagriculture:inferium_seeds 4 — récompense : xp 5 — après : inferium
+- **Des graines d'inferium** — tâches : item mysticalagriculture:inferium_seeds 4 — récompense : xp 5
   > Huit essences d'inferium autour de graines de blé. Plantées, elles donnent de l'inferium à chaque récolte et se replantent : c'est la première culture qui rapporte, et la seule qui se fabrique sans autel.
-- **De la terre d'essence** — tâches : item mysticalagriculture:inferium_farmland 8 — récompense : xp 3 — après : graines_inferium
+- **De la terre d'essence** — tâches : item mysticalagriculture:inferium_farmland 8 — récompense : xp 3
   > Une essence d'inferium et une terre labourée, à la table ou d'un clic droit sur le champ. La terre d'inferium fait pousser plus vite ; chaque palier d'essence a la sienne, plus rapide encore.
-- **Un cristal d'infusion** — tâches : item mysticalagriculture:infusion_crystal — récompense : xp 5 — après : prosperite, inferium
+- **Un cristal d'infusion** — tâches : item mysticalagriculture:infusion_crystal — récompense : xp 5
   > Un diamant au centre, quatre éclats de prospérité et quatre essences d'inferium. Le cristal d'infusion est l'outil qui fait monter l'essence de palier ; il s'use, et le cristal maître, en supremium, ne s'use plus.
-- **Du prudentium** — tâches : item mysticalagriculture:prudentium_essence 8 — récompense : xp 5 — après : cristal
+- **Du prudentium** — tâches : item mysticalagriculture:prudentium_essence 8 — récompense : xp 5
   > Quatre essences d'inferium autour du cristal d'infusion : une essence de prudentium. C'est la règle de tous les paliers : quatre du palier d'avant, et le cristal.
-- **Du tertium** — tâches : item mysticalagriculture:tertium_essence 8 — récompense : xp 5 — après : prudentium
+- **Du tertium** — tâches : item mysticalagriculture:tertium_essence 8 — récompense : xp 5
   > Quatre prudentium et le cristal. Le tertium ouvre les cultures du milieu : or, redstone, et les premiers outils sérieux.
-- **De l'imperium** — tâches : item mysticalagriculture:imperium_essence 8 — récompense : xp 5 — après : tertium
+- **De l'imperium** — tâches : item mysticalagriculture:imperium_essence 8 — récompense : xp 5
   > Quatre tertium et le cristal. L'imperium, c'est le diamant et l'émeraude en culture.
-- **Du supremium** — tâches : item mysticalagriculture:supremium_essence 8 — récompense : xp 8 — après : imperium
+- **Du supremium** — tâches : item mysticalagriculture:supremium_essence 8 — récompense : xp 8
   > Quatre imperium et le cristal. Le supremium est le dernier palier ordinaire : nétherite, outils et armure de supremium, cristal maître. Au-delà, il y a l'éveil.
-- **L'autel d'infusion** — tâches : item mysticalagriculture:infusion_altar, item mysticalagriculture:infusion_pedestal 8 — récompense : xp 8 — après : prosperite
+- **L'autel d'infusion** — tâches : item mysticalagriculture:infusion_altar, item mysticalagriculture:infusion_pedestal 8 — récompense : xp 8
   > Lingots d'or, laine rouge et pierre : un autel et huit piédestaux, de la même recette moins une pierre. Posés en cercle autour de l'autel, ils reçoivent les ingrédients ; un clic sur l'autel lance l'infusion. C'est là que naissent toutes les graines de ressources.
-- **Des bases de graine** — tâches : item mysticalagriculture:prosperity_seed_base 4 — récompense : xp 3 — après : prosperite
+- **Des bases de graine** — tâches : item mysticalagriculture:prosperity_seed_base 4 — récompense : xp 3
   > Quatre éclats de prospérité autour de graines de blé. La base de graine va au centre de l'autel : les piédestaux autour reçoivent l'essence du palier et le matériau à cultiver, en alternance.
-- **Cultiver du bois** — tâches : item mysticalagriculture:wood_seeds — récompense : xp 5 — après : autel, base, graines_inferium
+- **Cultiver du bois** — tâches : item mysticalagriculture:wood_seeds — récompense : xp 5
   > Première infusion : la base de graine, de l'essence d'inferium et du bois sur les piédestaux. Les graines de bois sont du premier palier, comme la terre et la pierre.
-- **Cultiver de la pierre** — tâches : item mysticalagriculture:stone_seeds — récompense : xp 3 — après : bois
+- **Cultiver de la pierre** — tâches : item mysticalagriculture:stone_seeds — récompense : xp 3
   > Même infusion, avec de la pierre. Les cultures de premier palier ne demandent que de l'inferium.
-- **Cultiver du fer** — tâches : item mysticalagriculture:iron_seeds — récompense : xp 5 — après : bois, prudentium
+- **Cultiver du fer** — tâches : item mysticalagriculture:iron_seeds — récompense : xp 5
   > Le fer est du deuxième palier : essence de prudentium et lingots de fer sur les piédestaux. Un champ de fer est la fin de la mine de fer.
-- **Cultiver de l'or** — tâches : item mysticalagriculture:gold_seeds — récompense : xp 5 — après : fer, tertium
+- **Cultiver de l'or** — tâches : item mysticalagriculture:gold_seeds — récompense : xp 5
   > Troisième palier : tertium et lingots d'or.
-- **Cultiver du diamant** — tâches : item mysticalagriculture:diamond_seeds — récompense : xp 8 — après : or, imperium
+- **Cultiver du diamant** — tâches : item mysticalagriculture:diamond_seeds — récompense : xp 8
   > Quatrième palier : imperium et diamants. Le champ paiera les diamants mis à l'infusion, puis tous les suivants.
-- **Des graines de nétherite** — tâches : item mysticalagriculture:netherite_seeds — récompense : xp 10 — après : diamant, supremium
+- **Des graines de nétherite** — tâches : item mysticalagriculture:netherite_seeds — récompense : xp 10
   > Cinquième palier : supremium et lingots de nétherite, en alternance sur les piédestaux. Ce que le Nether rendait au compte-gouttes pousse dans un champ. La nétherite ne se donne pas en quête sur ce serveur ; ici, elle se cultive.
-- **Des accélérateurs de croissance** — tâches : item mysticalagriculture:inferium_growth_accelerator 3 — récompense : xp 3 — après : graines_inferium
+- **Des accélérateurs de croissance** — tâches : item mysticalagriculture:inferium_growth_accelerator 3 — récompense : xp 3
   > Quatre essences d'inferium, quatre pierres, une gemme d'inferium au centre : trois accélérateurs. Posés sous la terre d'essence, ils font pousser plus vite ; empilés, ils s'additionnent. Chaque palier a le sien.
-- **Une moissonneuse** — tâches : item mysticalagriculture:harvester — récompense : xp 5 — après : fer
-  > Lingots de fer, lingots de soulium, deux faux en diamant et un châssis de machine. La moissonneuse récolte et replante devant elle, en continu, avec un peu d'énergie. Le chapitre Powah dit d'où vient l'énergie.
-- **Les quatre éléments** — tâches : item mysticalagriculture:air_seeds, item mysticalagriculture:earth_seeds, item mysticalagriculture:water_seeds, item mysticalagriculture:fire_seeds — récompense : xp 5 — après : autel
+- **Une moissonneuse** — tâches : item mysticalagriculture:harvester — récompense : xp 5
+  > Lingots de fer, lingots de soulium, deux faux en diamant et un châssis de machine. La moissonneuse récolte et replante devant elle, en continu. Elle brûle du combustible solide, garde une réserve d'énergie interne et accepte les améliorations de machine. Un signal de redstone l'arrête.
+- **Les quatre éléments** — tâches : item mysticalagriculture:air_seeds, item mysticalagriculture:earth_seeds, item mysticalagriculture:water_seeds, item mysticalagriculture:fire_seeds — récompense : xp 5
   > Air, terre, eau, feu : quatre cultures à part, infusées avec des agglomérats (une bouteille, du gravier, de la terre, de l'argile pour l'air). Leur essence ne sert qu'à une chose : l'éveil du supremium.
-- **L'autel d'éveil** — tâches : item mysticalagriculture:awakening_altar, item mysticalagriculture:awakening_pedestal 8 — récompense : xp 8 — après : supremium, elements
-  > Comme l'autel d'infusion, mais en pierre d'âme et laine orange. À l'autel d'éveil, un bloc de supremium et dix essences de chaque élément deviennent un bloc de supremium éveillé.
-- **Du supremium éveillé** — tâches : item mysticalagriculture:awakened_supremium_essence 9 — récompense : xp 10 — après : eveil
-  > Un bloc éveillé se défait en neuf essences de supremium éveillé. C'est le sommet du mod : outils, armure, et la houe éveillée qui ne s'use pas — celle que demande le pylône de récolte.
-- **La poussière cognizante** *(optionnelle)* — tâches : item mysticalagriculture:cognizant_dust — récompense : xp 10 — après : eveil
-  > Le Wither et l'Ender Dragon lâchent de la poussière cognizante quand ils sont tués avec une arme d'essence enchantée Mystical Enlightenment. Les deux sont activés sur le serveur. Elle sert aux éveils les plus avancés.
-- **La ferme remplace la mine** — tâches : checkmark Mes champs tournent — récompense : xp 10 — après : netherite, eveille
-  > Du fer à la nétherite en graines, un autel, des accélérateurs. Le chapitre Pylons ajoute la récolte automatique sans énergie, à une condition près.
-- **Des outils d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_pickaxe, item mysticalagriculture:inferium_sword — récompense : xp 3 — après : inferium
-  > Chaque palier d'essence fait ses outils et son armure, plus solides de palier en palier. Les arrosoirs font pousser ce qu'ils arrosent.
-- **Un arrosoir d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_watering_can — récompense : xp 3 — après : inferium
-- **Une armure de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_helmet, item mysticalagriculture:prudentium_chestplate — récompense : xp 4 — après : prudentium
-- **Des outils de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_pickaxe, item mysticalagriculture:tertium_sword — récompense : xp 5 — après : tertium
-- **Une armure d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_helmet, item mysticalagriculture:imperium_chestplate — récompense : xp 6 — après : imperium
-- **Des outils de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_pickaxe, item mysticalagriculture:supremium_sword — récompense : xp 8 — après : supremium
-- **Des outils de supremium éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_pickaxe, item mysticalagriculture:awakened_supremium_sword — récompense : xp 15 — après : eveille
-- **Une dague de soulium** *(optionnelle)* — tâches : item mysticalagriculture:soulium_dagger — récompense : xp 4 — après : prosperite
+- **L'autel d'éveil** — tâches : item mysticalagriculture:awakening_altar, item mysticalagriculture:awakening_pedestal 4, item mysticalagriculture:essence_vessel 4 — récompense : xp 8
+  > Autel et piédestaux en pierre d'âme, laine orange et or, plus quatre récipients d'essence (or, verre, pierre d'âme) qui tiennent chacun quarante essences d'un élément. L'autel montre où poser le reste, et un signal de redstone le lance. Un bloc de supremium, quatre poussières cognizantes et dix essences de chaque élément deviennent un bloc de supremium éveillé.
+- **Du supremium éveillé** — tâches : item mysticalagriculture:awakened_supremium_essence 9 — récompense : xp 10
+  > Un bloc éveillé se défait en neuf essences de supremium éveillé ; un lingot de prospérité et deux essences font un lingot éveillé. Le reste du chapitre éveille chaque pièce, jusqu'à la houe éveillée qui ne s'use pas — celle que demande le pylône de récolte.
+- **La poussière cognizante** — tâches : item mysticalagriculture:cognizant_dust — récompense : xp 10
+  > Le Wither et l'Ender Dragon lâchent de la poussière cognizante quand ils sont tués avec une arme d'essence enchantée Mystical Enlightenment. Les deux sont activés sur le serveur. Il en faut quatre pour chaque bloc de supremium éveillé.
+- **La ferme remplace la mine** — tâches : checkmark Mes champs tournent — récompense : xp 10
+  > Du fer à la nétherite en graines, un autel, des accélérateurs. Chaque graine du pack a sa quête à l'Herbier de l'Encyclopédie ; ici, ce sont les paliers. Le chapitre Pylons ajoute la récolte automatique sans énergie, à une condition près.
+- **L'armure d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_helmet, item mysticalagriculture:inferium_chestplate, item mysticalagriculture:inferium_leggings, item mysticalagriculture:inferium_boots — récompense : xp 3
+  > Chaque pièce d'armure d'essence part de la pièce du palier d'avant (les pièces en diamant pour l'inferium), avec deux lingots et deux gemmes d'inferium. Un lingot : un lingot de prospérité et deux essences ; une gemme : une gemme de prospérité et deux essences. Les quatre pièces, à garder. Chaque pièce porte un augment de palier Inferium au plus.
+- **Les outils d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_sword, item mysticalagriculture:inferium_pickaxe, item mysticalagriculture:inferium_axe, item mysticalagriculture:inferium_shovel, item mysticalagriculture:inferium_hoe, item mysticalagriculture:inferium_sickle, item mysticalagriculture:inferium_scythe, item mysticalagriculture:inferium_bow, item mysticalagriculture:inferium_crossbow, item mysticalagriculture:inferium_shears, item mysticalagriculture:inferium_fishing_rod — récompense : xp 3
+  > Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Au premier palier, on part des outils en diamant, d'un arc, d'une arbalète, de cisailles, d'une canne à pêche, et de la faux et de la faucille en diamant du mod. La faucille fauche les plantes sur une zone, la faux récolte sans arracher et frappe large ; plus le palier monte, plus la zone grandit. Chaque outil porte un augment de palier Inferium au plus.
+- **Un arrosoir d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_watering_can — récompense : xp 3
+  > L'arrosoir du palier d'avant, quatre lingots d'inferium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+- **Un four d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_furnace — récompense : xp 3
+  > Le four d'avant (un four ordinaire), deux lingots, une essence et un bloc d'inferium. Chaque palier cuit plus vite et use moins de combustible.
+- **L'amélioration d'inferium** *(optionnelle)* — tâches : item mysticalagriculture:inferium_upgrade — récompense : xp 3
+  > Quatre essences et quatre lingots d'inferium autour de l'amélioration d'avant (la base d'amélioration). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+- **L'armure de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_helmet, item mysticalagriculture:prudentium_chestplate, item mysticalagriculture:prudentium_leggings, item mysticalagriculture:prudentium_boots — récompense : xp 5
+  > Casque, plastron, jambières, bottes : chaque pièce d'inferium, deux lingots et deux gemmes de prudentium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Prudentium au plus.
+- **Les outils de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_sword, item mysticalagriculture:prudentium_pickaxe, item mysticalagriculture:prudentium_axe, item mysticalagriculture:prudentium_shovel, item mysticalagriculture:prudentium_hoe, item mysticalagriculture:prudentium_sickle, item mysticalagriculture:prudentium_scythe, item mysticalagriculture:prudentium_bow, item mysticalagriculture:prudentium_crossbow, item mysticalagriculture:prudentium_shears, item mysticalagriculture:prudentium_fishing_rod — récompense : xp 5
+  > Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Prudentium au plus.
+- **Un arrosoir de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_watering_can — récompense : xp 5
+  > L'arrosoir du palier d'avant, quatre lingots de prudentium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+- **Un four de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_furnace — récompense : xp 5
+  > Le four d'avant (celui d'inferium), deux lingots, une essence et un bloc de prudentium. Chaque palier cuit plus vite et use moins de combustible.
+- **Un accélérateur de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_growth_accelerator — récompense : xp 5
+  > Quatre essences de prudentium, quatre pierres et une gemme de prudentium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers.
+- **De la terre de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_farmland 8 — récompense : xp 5
+  > Un clic droit avec une essence de prudentium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine.
+- **L'amélioration de prudentium** *(optionnelle)* — tâches : item mysticalagriculture:prudentium_upgrade — récompense : xp 5
+  > Quatre essences et quatre lingots de prudentium autour de l'amélioration d'avant (celle d'inferium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+- **L'armure de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_helmet, item mysticalagriculture:tertium_chestplate, item mysticalagriculture:tertium_leggings, item mysticalagriculture:tertium_boots — récompense : xp 7
+  > Casque, plastron, jambières, bottes : chaque pièce de prudentium, deux lingots et deux gemmes de tertium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Tertium au plus.
+- **Les outils de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_sword, item mysticalagriculture:tertium_pickaxe, item mysticalagriculture:tertium_axe, item mysticalagriculture:tertium_shovel, item mysticalagriculture:tertium_hoe, item mysticalagriculture:tertium_sickle, item mysticalagriculture:tertium_scythe, item mysticalagriculture:tertium_bow, item mysticalagriculture:tertium_crossbow, item mysticalagriculture:tertium_shears, item mysticalagriculture:tertium_fishing_rod — récompense : xp 7
+  > Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Tertium au plus.
+- **Un arrosoir de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_watering_can — récompense : xp 7
+  > L'arrosoir du palier d'avant, quatre lingots de tertium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+- **Un four de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_furnace — récompense : xp 7
+  > Le four d'avant (celui de prudentium), deux lingots, une essence et un bloc de tertium. Chaque palier cuit plus vite et use moins de combustible.
+- **Un accélérateur de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_growth_accelerator — récompense : xp 7
+  > Quatre essences de tertium, quatre pierres et une gemme de tertium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers.
+- **De la terre de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_farmland 8 — récompense : xp 7
+  > Un clic droit avec une essence de tertium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine.
+- **L'amélioration de tertium** *(optionnelle)* — tâches : item mysticalagriculture:tertium_upgrade — récompense : xp 7
+  > Quatre essences et quatre lingots de tertium autour de l'amélioration d'avant (celle de prudentium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+- **L'armure d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_helmet, item mysticalagriculture:imperium_chestplate, item mysticalagriculture:imperium_leggings, item mysticalagriculture:imperium_boots — récompense : xp 9
+  > Casque, plastron, jambières, bottes : chaque pièce de tertium, deux lingots et deux gemmes d'imperium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Imperium au plus.
+- **Les outils d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_sword, item mysticalagriculture:imperium_pickaxe, item mysticalagriculture:imperium_axe, item mysticalagriculture:imperium_shovel, item mysticalagriculture:imperium_hoe, item mysticalagriculture:imperium_sickle, item mysticalagriculture:imperium_scythe, item mysticalagriculture:imperium_bow, item mysticalagriculture:imperium_crossbow, item mysticalagriculture:imperium_shears, item mysticalagriculture:imperium_fishing_rod — récompense : xp 9
+  > Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Imperium au plus.
+- **Un arrosoir d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_watering_can — récompense : xp 9
+  > L'arrosoir du palier d'avant, quatre lingots d'imperium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+- **Un four d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_furnace — récompense : xp 9
+  > Le four d'avant (celui de tertium), deux lingots, une essence et un bloc d'imperium. Chaque palier cuit plus vite et use moins de combustible.
+- **Un accélérateur d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_growth_accelerator — récompense : xp 9
+  > Quatre essences d'imperium, quatre pierres et une gemme d'imperium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers.
+- **De la terre d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_farmland 8 — récompense : xp 9
+  > Un clic droit avec une essence d'imperium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine.
+- **L'amélioration d'imperium** *(optionnelle)* — tâches : item mysticalagriculture:imperium_upgrade — récompense : xp 9
+  > Quatre essences et quatre lingots d'imperium autour de l'amélioration d'avant (celle de tertium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+- **L'armure de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_helmet, item mysticalagriculture:supremium_chestplate, item mysticalagriculture:supremium_leggings, item mysticalagriculture:supremium_boots — récompense : xp 11
+  > Casque, plastron, jambières, bottes : chaque pièce d'imperium, deux lingots et deux gemmes de supremium. L'enchantement, la durabilité et les augments déjà posés suivent la pièce. Chaque pièce porte un augment de palier Supremium au plus.
+- **Les outils de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_sword, item mysticalagriculture:supremium_pickaxe, item mysticalagriculture:supremium_axe, item mysticalagriculture:supremium_shovel, item mysticalagriculture:supremium_hoe, item mysticalagriculture:supremium_sickle, item mysticalagriculture:supremium_scythe, item mysticalagriculture:supremium_bow, item mysticalagriculture:supremium_crossbow, item mysticalagriculture:supremium_shears, item mysticalagriculture:supremium_fishing_rod — récompense : xp 11
+  > Épée, pioche, hache, pelle, houe, faucille, faux, arc, arbalète, cisailles et canne à pêche : onze outils, chacun fait de l'outil du palier d'avant, de deux lingots et de deux gemmes. Plus le palier monte, plus ils sont solides et plus la faux et la faucille portent loin. Chaque outil porte un augment de palier Supremium au plus.
+- **Un arrosoir de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_watering_can — récompense : xp 11
+  > L'arrosoir du palier d'avant, quatre lingots de supremium et quatre engrais mystiques. Il arrose plus loin et fait pousser plus vite ; accroupi, un clic droit dans le vide le met en arrosage automatique.
+- **Un four de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_furnace — récompense : xp 11
+  > Le four d'avant (celui d'imperium), deux lingots, une essence et un bloc de supremium. Chaque palier cuit plus vite et use moins de combustible.
+- **Un accélérateur de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_growth_accelerator — récompense : xp 11
+  > Quatre essences de supremium, quatre pierres et une gemme de supremium. Posé sous la terre, il fait pousser plus vite la culture au-dessus ; les accélérateurs s'empilent, de tous paliers.
+- **De la terre de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_farmland 8 — récompense : xp 11
+  > Un clic droit avec une essence de supremium sur de la terre labourée. Une culture du même palier y a dix chances sur cent de plus de rendre une seconde graine.
+- **L'amélioration de supremium** *(optionnelle)* — tâches : item mysticalagriculture:supremium_upgrade — récompense : xp 11
+  > Quatre essences et quatre lingots de supremium autour de l'amélioration d'avant (celle d'imperium). Posée dans une machine du mod, elle la fait travailler plus vite, et consommer plus vite.
+- **Le casque éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_helmet — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **Le plastron éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_chestplate — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **Les jambières éveillées** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_leggings — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **Les bottes éveillées** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_boots — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La épée éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_sword — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La pioche éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_pickaxe — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La hache éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_axe — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La pelle éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_shovel — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La houe éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_hoe — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La faucille éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_sickle — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La faux éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_scythe — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **Le arc éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_bow — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La arbalète éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_crossbow — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **Les cisailles éveillées** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_shears — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **La canne à pêche éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_fishing_rod — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, deux lingots et deux gemmes de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **L'arrosoir éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_watering_can — récompense : xp 15
+  > À l'autel d'éveil : la pièce en supremium au centre, quatre lingots de supremium éveillé sur les piédestaux, et quarante essences de chaque élément dans les récipients. Enchantements et augments suivent la pièce.
+- **Le four éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_furnace — récompense : xp 12
+  > Le four de supremium, deux lingots et deux gemmes de supremium éveillé, quarante essences de chaque élément : le dernier four du mod.
+- **L'amélioration éveillée** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_upgrade — récompense : xp 12
+  > L'amélioration de supremium, quatre lingots de supremium éveillé et vingt essences de chaque élément : la dernière amélioration de machine.
+- **Tout en supremium éveillé** *(optionnelle)* — tâches : item mysticalagriculture:awakened_supremium_helmet, item mysticalagriculture:awakened_supremium_chestplate, item mysticalagriculture:awakened_supremium_leggings, item mysticalagriculture:awakened_supremium_boots, item mysticalagriculture:awakened_supremium_sword, item mysticalagriculture:awakened_supremium_pickaxe, item mysticalagriculture:awakened_supremium_axe, item mysticalagriculture:awakened_supremium_shovel, item mysticalagriculture:awakened_supremium_hoe, item mysticalagriculture:awakened_supremium_sickle, item mysticalagriculture:awakened_supremium_scythe, item mysticalagriculture:awakened_supremium_bow, item mysticalagriculture:awakened_supremium_crossbow, item mysticalagriculture:awakened_supremium_shears, item mysticalagriculture:awakened_supremium_fishing_rod, item mysticalagriculture:awakened_supremium_watering_can — récompense : xp 30
+  > Les quatre pièces d'armure, les onze outils et l'arrosoir, tous éveillés, ensemble dans l'inventaire. L'armure complète portée donne, sur ce serveur, le bonus d'ensemble : elle fait pousser les cultures autour de soi. C'est le sommet de Mystical Agriculture.
+- **Une table de bricolage** *(optionnelle)* — tâches : item mysticalagriculture:tinkering_table — récompense : xp 5
+  > Sept pierres et deux poussières de soulium. La table de bricolage pose les augments sur l'armure et les outils d'essence : un emplacement par pièce. Chaque augment a un palier : il ne se pose que sur une pièce de ce palier ou plus haut.
+- **Une amélioration vierge** *(optionnelle)* — tâches : item mysticalagriculture:unattuned_augment — récompense : xp 3
+  > Six éclats de prospérité et trois lingots de fer : l'augment non accordé (« amélioration vierge »). C'est le cœur de chaque augment : il s'infuse à l'autel d'infusion, entouré de ses ingrédients.
+- **Augment : Absorption I** *(optionnelle)* — tâches : item mysticalagriculture:absorption_i_augment — récompense : xp 4
+  > Donne 2 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+- **Augment : Absorption II** *(optionnelle)* — tâches : item mysticalagriculture:absorption_ii_augment — récompense : xp 6
+  > Donne 4 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Absorption III** *(optionnelle)* — tâches : item mysticalagriculture:absorption_iii_augment — récompense : xp 8
+  > Donne 6 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Absorption IV** *(optionnelle)* — tâches : item mysticalagriculture:absorption_iv_augment — récompense : xp 10
+  > Donne 8 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Absorption V** *(optionnelle)* — tâches : item mysticalagriculture:absorption_v_augment — récompense : xp 12
+  > Donne 10 cœurs d'absorption, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Attaque de zone I** *(optionnelle)* — tâches : item mysticalagriculture:attack_aoe_i_augment — récompense : xp 8
+  > Frappe sur 3×3, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Attaque de zone II** *(optionnelle)* — tâches : item mysticalagriculture:attack_aoe_ii_augment — récompense : xp 10
+  > Frappe sur 5×5, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en fer (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Attaque de zone III** *(optionnelle)* — tâches : item mysticalagriculture:attack_aoe_iii_augment — récompense : xp 12
+  > Frappe sur 7×7, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Épée en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Résistance à la cécité** *(optionnelle)* — tâches : item mysticalagriculture:blindness_resistance_augment — récompense : xp 6
+  > Empêche l'effet Cécité, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Torche (×2), Pierre lumineuse (×2), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Résistance au feu** *(optionnelle)* — tâches : item mysticalagriculture:fire_resistance_augment — récompense : xp 8
+  > Donne Résistance au feu, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Crème de magma (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Vol** *(optionnelle)* — tâches : item mysticalagriculture:flight_augment — récompense : xp 12
+  > Donne le vol comme en créatif, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Étoile du Nether (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Célérité I** *(optionnelle)* — tâches : item mysticalagriculture:haste_i_augment — récompense : xp 8
+  > Donne Célérité I, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Célérité II** *(optionnelle)* — tâches : item mysticalagriculture:haste_ii_augment — récompense : xp 10
+  > Donne Célérité II, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Célérité III** *(optionnelle)* — tâches : item mysticalagriculture:haste_iii_augment — récompense : xp 12
+  > Donne Célérité III, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Poudre de redstone (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Bonus de vie I** *(optionnelle)* — tâches : item mysticalagriculture:health_boost_i_augment — récompense : xp 4
+  > Ajoute 2 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+- **Augment : Bonus de vie II** *(optionnelle)* — tâches : item mysticalagriculture:health_boost_ii_augment — récompense : xp 6
+  > Ajoute 4 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Bonus de vie III** *(optionnelle)* — tâches : item mysticalagriculture:health_boost_iii_augment — récompense : xp 8
+  > Ajoute 6 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Bonus de vie IV** *(optionnelle)* — tâches : item mysticalagriculture:health_boost_iv_augment — récompense : xp 10
+  > Ajoute 8 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Bonus de vie V** *(optionnelle)* — tâches : item mysticalagriculture:health_boost_v_augment — récompense : xp 12
+  > Ajoute 10 cœurs de vie maximale, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Pomme dorée (×2), Crâne de Wither squelette (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Résistance à la faim** *(optionnelle)* — tâches : item mysticalagriculture:hunger_resistance_augment — récompense : xp 10
+  > Empêche l'effet Faim, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Tarte à la citrouille (×2), Soupe de champignons (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Saut amélioré I** *(optionnelle)* — tâches : item mysticalagriculture:jump_boost_i_augment — récompense : xp 6
+  > Donne Saut amélioré I, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Saut amélioré II** *(optionnelle)* — tâches : item mysticalagriculture:jump_boost_ii_augment — récompense : xp 8
+  > Donne Saut amélioré II, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Saut amélioré III** *(optionnelle)* — tâches : item mysticalagriculture:jump_boost_iii_augment — récompense : xp 10
+  > Donne Saut amélioré III, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Chance I** *(optionnelle)* — tâches : item mysticalagriculture:luck_i_augment — récompense : xp 4
+  > Donne Chance I, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+- **Augment : Chance II** *(optionnelle)* — tâches : item mysticalagriculture:luck_ii_augment — récompense : xp 8
+  > Donne Chance II, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Chance III** *(optionnelle)* — tâches : item mysticalagriculture:luck_iii_augment — récompense : xp 12
+  > Donne Chance III, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Zone de minage I** *(optionnelle)* — tâches : item mysticalagriculture:mining_aoe_i_augment — récompense : xp 6
+  > Mine sur 3×3, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Zone de minage II** *(optionnelle)* — tâches : item mysticalagriculture:mining_aoe_ii_augment — récompense : xp 8
+  > Mine sur 5×5, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Zone de minage III** *(optionnelle)* — tâches : item mysticalagriculture:mining_aoe_iii_augment — récompense : xp 10
+  > Mine sur 7×7, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Zone de minage IV** *(optionnelle)* — tâches : item mysticalagriculture:mining_aoe_iv_augment — récompense : xp 12
+  > Mine sur 9×9, posé sur une pioche, une hache ou une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pioche en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Résistance à la fatigue de minage** *(optionnelle)* — tâches : item mysticalagriculture:mining_fatigue_resistance_augment — récompense : xp 10
+  > Empêche l'effet Fatigue de minage, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Lingot d'or (×2), Pioche en or (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Résistance à la nausée** *(optionnelle)* — tâches : item mysticalagriculture:nausea_resistance_augment — récompense : xp 4
+  > Empêche l'effet Nausée, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Cuir (×2), Seau de lait (×2), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+- **Augment : Vision nocturne** *(optionnelle)* — tâches : item mysticalagriculture:night_vision_augment — récompense : xp 6
+  > Donne Vision nocturne, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Carotte dorée (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Sans dégâts de chute** *(optionnelle)* — tâches : item mysticalagriculture:no_fall_damage_augment — récompense : xp 8
+  > Annule tous les dégâts de chute, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Diamant (×2), laine (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Zone de chemin I** *(optionnelle)* — tâches : item mysticalagriculture:pathing_aoe_i_augment — récompense : xp 4
+  > Trace des chemins sur 3×3 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en fer (×4), Essence d'Inferium (×4). Palier Inferium : il demande une pièce d'inferium au moins.
+- **Augment : Zone de chemin II** *(optionnelle)* — tâches : item mysticalagriculture:pathing_aoe_ii_augment — récompense : xp 6
+  > Trace des chemins sur 5×5 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Zone de chemin III** *(optionnelle)* — tâches : item mysticalagriculture:pathing_aoe_iii_augment — récompense : xp 8
+  > Trace des chemins sur 7×7 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en diamant (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Zone de chemin IV** *(optionnelle)* — tâches : item mysticalagriculture:pathing_aoe_iv_augment — récompense : xp 10
+  > Trace des chemins sur 9×9 en étant accroupi, posé sur une pelle. À l'autel d'infusion, autour d'une amélioration vierge : Pelle en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Résistance au poison** *(optionnelle)* — tâches : item mysticalagriculture:poison_resistance_augment — récompense : xp 10
+  > Empêche l'effet Poison, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Seau de lait (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Chute lente** *(optionnelle)* — tâches : item mysticalagriculture:slow_falling_augment — récompense : xp 8
+  > Donne Chute lente, posé sur des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Membrane de Phantom (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Résistance à la lenteur** *(optionnelle)* — tâches : item mysticalagriculture:slowness_resistance_augment — récompense : xp 8
+  > Empêche l'effet Lenteur, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Patte de lapin (×2), Sucre (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Vitesse I** *(optionnelle)* — tâches : item mysticalagriculture:speed_i_augment — récompense : xp 6
+  > Donne Vitesse I, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Vitesse II** *(optionnelle)* — tâches : item mysticalagriculture:speed_ii_augment — récompense : xp 8
+  > Donne Vitesse II, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Vitesse III** *(optionnelle)* — tâches : item mysticalagriculture:speed_iii_augment — récompense : xp 10
+  > Donne Vitesse III, posé sur des jambières. À l'autel d'infusion, autour d'une amélioration vierge : Sucre (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Assistance à la montée** *(optionnelle)* — tâches : item mysticalagriculture:step_assist_augment — récompense : xp 8
+  > Fait monter les marches d'un bloc sans sauter, posé sur des jambières ou des bottes. À l'autel d'infusion, autour d'une amélioration vierge : Escalier (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Force I** *(optionnelle)* — tâches : item mysticalagriculture:strength_i_augment — récompense : xp 8
+  > Donne Force I, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en fer (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Force II** *(optionnelle)* — tâches : item mysticalagriculture:strength_ii_augment — récompense : xp 10
+  > Donne Force II, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en fer (×2), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Force III** *(optionnelle)* — tâches : item mysticalagriculture:strength_iii_augment — récompense : xp 12
+  > Donne Force III, posé sur une épée. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Épée en diamant (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Zone de labour I** *(optionnelle)* — tâches : item mysticalagriculture:tilling_aoe_i_augment — récompense : xp 6
+  > Laboure sur 3×3 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en fer (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Zone de labour II** *(optionnelle)* — tâches : item mysticalagriculture:tilling_aoe_ii_augment — récompense : xp 8
+  > Laboure sur 5×5 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en fer (×4), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Zone de labour III** *(optionnelle)* — tâches : item mysticalagriculture:tilling_aoe_iii_augment — récompense : xp 10
+  > Laboure sur 7×7 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en diamant (×4), Essence d'Imperium (×4). Palier Imperium : il demande une pièce d'imperium au moins.
+- **Augment : Zone de labour IV** *(optionnelle)* — tâches : item mysticalagriculture:tilling_aoe_iv_augment — récompense : xp 12
+  > Laboure sur 9×9 en étant accroupi, posé sur une houe. À l'autel d'infusion, autour d'une amélioration vierge : Houe en diamant (×4), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Augment : Respiration aquatique** *(optionnelle)* — tâches : item mysticalagriculture:water_breathing_augment — récompense : xp 6
+  > Donne Respiration aquatique, posé sur un casque. À l'autel d'infusion, autour d'une amélioration vierge : Poisson-globe (×4), Essence de Prudentium (×4). Palier Prudentium : il demande une pièce de prudentium au moins.
+- **Augment : Résistance à la faiblesse** *(optionnelle)* — tâches : item mysticalagriculture:weakness_resistance_augment — récompense : xp 8
+  > Empêche l'effet Faiblesse, posé sur un plastron. À l'autel d'infusion, autour d'une amélioration vierge : Bloc de quartz (×2), Hache en fer (×2), Essence de Tertium (×4). Palier Tertium : il demande une pièce de tertium au moins.
+- **Augment : Résistance au Wither** *(optionnelle)* — tâches : item mysticalagriculture:wither_resistance_augment — récompense : xp 12
+  > Empêche l'effet Wither, posé sur n'importe quelle pièce d'armure. À l'autel d'infusion, autour d'une amélioration vierge : Crâne de Wither squelette (×2), Étoile du Nether (×2), Essence de Supremium (×4). Palier Supremium : il demande une pièce de supremium au moins.
+- **Tous les augments** *(optionnelle)* — tâches : item mysticalagriculture:absorption_i_augment, item mysticalagriculture:absorption_ii_augment, item mysticalagriculture:absorption_iii_augment, item mysticalagriculture:absorption_iv_augment, item mysticalagriculture:absorption_v_augment, item mysticalagriculture:attack_aoe_i_augment, item mysticalagriculture:attack_aoe_ii_augment, item mysticalagriculture:attack_aoe_iii_augment, item mysticalagriculture:blindness_resistance_augment, item mysticalagriculture:fire_resistance_augment, item mysticalagriculture:flight_augment, item mysticalagriculture:haste_i_augment, item mysticalagriculture:haste_ii_augment, item mysticalagriculture:haste_iii_augment, item mysticalagriculture:health_boost_i_augment, item mysticalagriculture:health_boost_ii_augment, item mysticalagriculture:health_boost_iii_augment, item mysticalagriculture:health_boost_iv_augment, item mysticalagriculture:health_boost_v_augment, item mysticalagriculture:hunger_resistance_augment, item mysticalagriculture:jump_boost_i_augment, item mysticalagriculture:jump_boost_ii_augment, item mysticalagriculture:jump_boost_iii_augment, item mysticalagriculture:luck_i_augment, item mysticalagriculture:luck_ii_augment, item mysticalagriculture:luck_iii_augment, item mysticalagriculture:mining_aoe_i_augment, item mysticalagriculture:mining_aoe_ii_augment, item mysticalagriculture:mining_aoe_iii_augment, item mysticalagriculture:mining_aoe_iv_augment, item mysticalagriculture:mining_fatigue_resistance_augment, item mysticalagriculture:nausea_resistance_augment, item mysticalagriculture:night_vision_augment, item mysticalagriculture:no_fall_damage_augment, item mysticalagriculture:pathing_aoe_i_augment, item mysticalagriculture:pathing_aoe_ii_augment, item mysticalagriculture:pathing_aoe_iii_augment, item mysticalagriculture:pathing_aoe_iv_augment, item mysticalagriculture:poison_resistance_augment, item mysticalagriculture:slow_falling_augment, item mysticalagriculture:slowness_resistance_augment, item mysticalagriculture:speed_i_augment, item mysticalagriculture:speed_ii_augment, item mysticalagriculture:speed_iii_augment, item mysticalagriculture:step_assist_augment, item mysticalagriculture:strength_i_augment, item mysticalagriculture:strength_ii_augment, item mysticalagriculture:strength_iii_augment, item mysticalagriculture:tilling_aoe_i_augment, item mysticalagriculture:tilling_aoe_ii_augment, item mysticalagriculture:tilling_aoe_iii_augment, item mysticalagriculture:tilling_aoe_iv_augment, item mysticalagriculture:water_breathing_augment, item mysticalagriculture:weakness_resistance_augment, item mysticalagriculture:wither_resistance_augment — récompense : xp 25
+  > Les cinquante-cinq augments du mod, à garder. Il n'y a qu'un emplacement par pièce : le choix se fait ensuite, pièce par pièce.
+- **Une base d'amélioration** *(optionnelle)* — tâches : item mysticalagriculture:upgrade_base — récompense : xp 3
+  > Quatre éclats et quatre lingots de prospérité autour d'un diamant : la base de toutes les améliorations de machine.
+- **Un arrosoir** *(optionnelle)* — tâches : item mysticalagriculture:watering_can — récompense : xp 2
+  > Quatre lingots de fer, un bol, une poudre d'os. Rempli à une source d'eau, l'arrosoir fait pousser ce qu'il arrose, à la main. Chaque palier d'essence l'améliore.
+- **Un châssis de machine** *(optionnelle)* — tâches : item mysticalagriculture:machine_frame — récompense : xp 3
+  > Quatre lingots de fer, quatre poudres de redstone, une pierre. La base de la moissonneuse, de l'extracteur d'âme, du retransformateur et du générateur de soulium.
+- **Un retransformateur de graines** *(optionnelle)* — tâches : item mysticalagriculture:seed_reprocessor — récompense : xp 5
+  > Lingots de fer, de soulium, deux houes en fer et un châssis. Il change les graines en trop en leur essence. Il brûle du combustible solide et accepte les améliorations.
+- **Un générateur de soulium** *(optionnelle)* — tâches : item mysticalagriculture:soulium_spawner — récompense : xp 8
+  > Lingots de fer et de soulium, deux crânes de wither squelette, un châssis. Il fait apparaître des créatures, hostiles ou passives, à partir d'essences, dans un rayon de trois blocs. Combustible solide, améliorations acceptées, coupé par un signal de redstone.
+- **Un enchanteur** *(optionnelle)* — tâches : item mysticalagriculture:enchanter — récompense : xp 6
+  > Une table d'enchantement, trois pierres d'âme, un lingot de soulium. Il enchante livres, outils et armures avec des matériaux et de l'essence d'expérience, comme une enclume.
+- **Une capsule d'expérience** *(optionnelle)* — tâches : item mysticalagriculture:experience_capsule — récompense : xp 4
+  > Deux lingots de soulium et deux verres d'âme. Dans l'inventaire, elle recueille les orbes d'expérience ramassés : c'est ce qu'il faut pour les graines d'expérience.
+- **Le cristal d'infusion maître** *(optionnelle)* — tâches : item mysticalagriculture:master_infusion_crystal — récompense : xp 10
+  > Quatre éclats de prospérité, quatre essences et une gemme de supremium : un cristal d'infusion qui ne s'use jamais. Sur ce serveur, le cristal simple tient mille usages.
+- **Une dague de soulium** *(optionnelle)* — tâches : item mysticalagriculture:soulium_dagger — récompense : xp 4
   > Les graines de créatures se nourrissent d'âmes. La dague de soulium les récolte en tuant, dans un bocal d'âme ; l'extracteur d'âme les tire des objets.
-- **Un bocal d'âme** *(optionnelle)* — tâches : item mysticalagriculture:soul_jar — récompense : xp 3 — après : soulium
-- **Un extracteur d'âme** *(optionnelle)* — tâches : item mysticalagriculture:soul_extractor — récompense : xp 5 — après : bocal
+- **Un bocal d'âme** *(optionnelle)* — tâches : item mysticalagriculture:soul_jar — récompense : xp 3
+- **Un extracteur d'âme** *(optionnelle)* — tâches : item mysticalagriculture:soul_extractor — récompense : xp 5
 
 ## Nouveautés du pack  (`mods_nouveautes`, 4 quêtes)
 
@@ -6000,7 +8207,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Un baril par joueur** — tâches : observation block lootr:lootr_barrel — récompense : xp 3 — après : v61
   > Lootr convertit coffres, barils, coffres piégés et wagonnets de mine des structures : chacun y trouve son butin. Un coffre déjà ouvert avant la v61 n'est pas converti (le jeu a effacé sa table). Pas de réassort ni de disparition sur ce serveur (config). Le coffre d'élytres des cités de l'End devient un coffre, avec des élytres garanties.
 
-## Pipez  (`pipez`, 8 quêtes)
+## Pipez  (`pipez`, 10 quêtes)
 
 - **Pipez : des tuyaux simples** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 6, item minecraft:glass 8
   > Pipez fait une chose et la fait bien : déplacer. Un tuyau d'objets sort d'un coffre et entre dans un autre ; un tuyau de fluide vide une cuve ; un tuyau d'énergie relie une cellule à une machine. Clic droit avec la clé sur l'extrémité d'un tuyau pour dire s'il aspire ou s'il pousse.
@@ -6014,13 +8221,17 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Un tuyau universel** — tâches : item pipez:universal_pipe 4 — récompense : xp 5 — après : objets, fluides, energie
   > Le tuyau universel transporte les trois à la fois, chaque face réglée indépendamment. Pratique quand une machine reçoit des objets, un fluide et de l'énergie par le même mur.
 - **Des améliorations** — tâches : item pipez:basic_upgrade, item pipez:improved_upgrade — récompense : xp 5 — après : objets
-  > Une amélioration se glisse dans l'extrémité d'un tuyau : un débit plus grand, un filtre (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime, infinie.
+  > Une amélioration se glisse dans l'extrémité d'un tuyau : un débit plus grand, un filtre (liste blanche ou noire, par objet ou par tag), un mode redstone, une règle de distribution. Basique, améliorée, avancée, ultime : chacune se fabrique autour de la précédente. L'infinie existe dans le mod mais ne se fabrique pas ici.
 - **La clé de Pipez** — tâches : item pipez:wrench — récompense : xp 2 — après : intro
   > La clé ouvre le menu d'une extrémité : mode (extraire ou pousser), filtres, redstone. Accroupi, elle détache un tuyau.
-- **Tout circule** — tâches : checkmark Ma base est reliée — récompense : xp 5 — après : universel, ameliorations
+- **Une amélioration avancée** — tâches : item pipez:advanced_upgrade — récompense : xp 5 — après : ameliorations
+  > L'amélioration améliorée, entourée de diamants et de blocs de redstone.
+- **Une amélioration ultime** — tâches : item pipez:ultimate_upgrade — récompense : xp 10 — après : amelioration_avancee
+  > L'amélioration avancée, entourée de lingots de nétherite et de blocs de redstone. Le dernier palier fabricable de Pipez.
+- **Tout circule** — tâches : checkmark Ma base est reliée — récompense : xp 5 — après : universel, amelioration_ultime
   > Fermes, machines et stockage reliés par des tuyaux. Les filtres de FTB Filter System et d'Item Filters se glissent dans les améliorations pour trier plus finement.
 
-## Powah — l'énergie  (`powah`, 31 quêtes)
+## Powah — l'énergie  (`powah`, 48 quêtes)
 
 - **Powah : produire et stocker** — tâches : checkmark Lu — récompense : item minecraft:clay_ball 8, item minecraft:lava_bucket 1
   > Powah produit, stocke et transporte de l'énergie (FE), celle que demandent la moissonneuse de Mystical Agriculture, Refined Storage ou les jetpacks. Sept paliers, du Starter au Nitro, chacun avec ses générateurs, ses cellules et ses câbles.
@@ -6046,7 +8257,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **L'orbe d'énergisation** — tâches : item powah:energizing_orb, item powah:energizing_rod_starter 2 — récompense : xp 8 — après : tige
   > Verre, boîtier, tiges horizontales : l'orbe. Autour d'elle, des tiges d'énergisation (quartz, condensateurs, boîtier, tige) lui envoient de l'énergie, et l'orbe transforme ce qu'on met dedans : c'est la machine qui fabrique les composants des paliers suivants.
 - **De l'acier énergisé** — tâches : item powah:steel_energized 8 — récompense : xp 5 — après : orbe
-  > Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : 2 aciers énergisés. Premier produit de l'orbe, et matière du palier Basic.
+  > Un lingot de fer et un lingot d'or dans l'orbe, 10 000 FE : 2 aciers énergisés. Premier produit de l'orbe, et matière du palier renforcé.
 - **Un cristal Blazing** — tâches : item powah:crystal_blazing — récompense : xp 5 — après : acier
   > Quatre poudres de Blaze dans l'orbe, 120 000 FE. Le cristal Blazing ouvre le quatrième palier : la vraie puissance commence là, et il faut déjà un stock d'énergie pour le fabriquer.
 - **Un cristal Niotic** — tâches : item powah:crystal_niotic — récompense : xp 5 — après : blazing
@@ -6063,14 +8274,54 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Obsidienne, pépites de fer, et un cœur d'Ender au centre. La cellule d'Ender partage son énergie avec toutes les cellules d'Ender du même canal, où qu'elles soient : la base principale alimente l'avant-poste sans un câble.
 - **La base est alimentée** — tâches : checkmark Ma base a du courant — récompense : xp 10 — après : blazing, reacteur
   > Un générateur, une cellule, des câbles, et l'orbe qui fabrique les paliers suivants. Tout ce qui demande de l'énergie dans le pack peut maintenant tourner : moissonneuse, Refined Storage, jetpack.
-- **Une cellule basique** *(optionnelle)* — tâches : item powah:energy_cell_basic — récompense : xp 3 — après : cellule
-  > Chaque appareil de Powah existe en sept paliers : départ, basique, renforcé, ardent, niotique, spirituel, nitro. On monte d'un palier en fabriquant l'appareil avec celui du palier d'avant, un condensateur et le matériau du palier.
-- **Une cellule renforcée** *(optionnelle)* — tâches : item powah:energy_cell_hardened — récompense : xp 4 — après : palier_basique, acier
-- **Une cellule ardente** *(optionnelle)* — tâches : item powah:energy_cell_blazing — récompense : xp 5 — après : palier_renforce, blazing
-- **Une cellule niotique** *(optionnelle)* — tâches : item powah:energy_cell_niotic — récompense : xp 6 — après : palier_ardent, niotic
-- **Une cellule spirituelle** *(optionnelle)* — tâches : item powah:energy_cell_spirited — récompense : xp 8 — après : palier_niotique, spirited
-- **Une cellule nitro** *(optionnelle)* — tâches : item powah:energy_cell_nitro — récompense : xp 15 — après : palier_spirituel, nitro
-- **Des câbles nitro** *(optionnelle)* — tâches : item powah:energy_cable_nitro 8 — récompense : xp 5 — après : palier_nitro, cable
+- **Un condensateur basique** *(optionnelle)* — tâches : item powah:capacitor_basic — récompense : xp 3 — après : condensateur
+  > Le condensateur du palier basique, avec du fer. Il entre dans chaque appareil de ce palier.
+- **Les générateurs basiques** *(optionnelle)* — tâches : item powah:furnator_basic, item powah:magmator_basic, item powah:thermo_generator_basic, item powah:solar_panel_basic, item powah:reactor_basic — récompense : xp 5 — après : furnator, magmator, thermo, solaire, reacteur, condensateur_basique
+  > Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier basique : chacun à partir du même générateur du palier d'avant.
+- **Le stockage basique** *(optionnelle)* — tâches : item powah:energy_cell_basic, item powah:battery_basic, item powah:energy_cable_basic 8 — récompense : xp 4 — après : cellule, cable, batterie, condensateur_basique
+  > Cellule d'énergie, batterie et câbles du palier basique.
+- **Le réseau basique** *(optionnelle)* — tâches : item powah:energizing_rod_basic, item powah:energy_hopper_basic, item powah:energy_discharger_basic, item powah:player_transmitter_basic, item powah:ender_cell_basic, item powah:ender_gate_basic 4 — récompense : xp 4 — après : orbe, entonnoir, dechargeur, transmetteur, ender, condensateur_basique
+  > Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier basique.
+- **Un condensateur renforcé** *(optionnelle)* — tâches : item powah:capacitor_hardened — récompense : xp 4 — après : condensateur_basique, acier
+  > Le condensateur du palier renforcé, avec de l'acier énergisé. Il entre dans chaque appareil de ce palier.
+- **Les générateurs renforcés** *(optionnelle)* — tâches : item powah:furnator_hardened, item powah:magmator_hardened, item powah:thermo_generator_hardened, item powah:solar_panel_hardened, item powah:reactor_hardened — récompense : xp 7 — après : generateurs_basique, condensateur_renforce
+  > Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier renforcé : chacun à partir du même générateur du palier d'avant.
+- **Le stockage renforcé** *(optionnelle)* — tâches : item powah:energy_cell_hardened, item powah:battery_hardened, item powah:energy_cable_hardened 8 — récompense : xp 6 — après : palier_basique, condensateur_renforce
+  > Cellule d'énergie, batterie et câbles du palier renforcé.
+- **Le réseau renforcé** *(optionnelle)* — tâches : item powah:energizing_rod_hardened, item powah:energy_hopper_hardened, item powah:energy_discharger_hardened, item powah:player_transmitter_hardened, item powah:ender_cell_hardened, item powah:ender_gate_hardened 4 — récompense : xp 6 — après : reseau_basique, condensateur_renforce
+  > Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier renforcé.
+- **Un condensateur ardent** *(optionnelle)* — tâches : item powah:capacitor_blazing — récompense : xp 5 — après : condensateur_renforce, blazing
+  > Le condensateur du palier ardent, avec des cristaux Blazing. Il entre dans chaque appareil de ce palier.
+- **Les générateurs ardents** *(optionnelle)* — tâches : item powah:furnator_blazing, item powah:magmator_blazing, item powah:thermo_generator_blazing, item powah:solar_panel_blazing, item powah:reactor_blazing — récompense : xp 9 — après : generateurs_renforce, condensateur_ardent
+  > Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier ardent : chacun à partir du même générateur du palier d'avant.
+- **Le stockage ardent** *(optionnelle)* — tâches : item powah:energy_cell_blazing, item powah:battery_blazing, item powah:energy_cable_blazing 8 — récompense : xp 8 — après : palier_renforce, condensateur_ardent
+  > Cellule d'énergie, batterie et câbles du palier ardent.
+- **Le réseau ardent** *(optionnelle)* — tâches : item powah:energizing_rod_blazing, item powah:energy_hopper_blazing, item powah:energy_discharger_blazing, item powah:player_transmitter_blazing, item powah:ender_cell_blazing, item powah:ender_gate_blazing 4 — récompense : xp 8 — après : reseau_renforce, condensateur_ardent
+  > Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier ardent.
+- **Un condensateur niotique** *(optionnelle)* — tâches : item powah:capacitor_niotic — récompense : xp 6 — après : condensateur_ardent, niotic
+  > Le condensateur du palier niotique, avec des cristaux niotiques. Il entre dans chaque appareil de ce palier.
+- **Les générateurs niotiques** *(optionnelle)* — tâches : item powah:furnator_niotic, item powah:magmator_niotic, item powah:thermo_generator_niotic, item powah:solar_panel_niotic, item powah:reactor_niotic — récompense : xp 11 — après : generateurs_ardent, condensateur_niotique
+  > Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier niotique : chacun à partir du même générateur du palier d'avant.
+- **Le stockage niotique** *(optionnelle)* — tâches : item powah:energy_cell_niotic, item powah:battery_niotic, item powah:energy_cable_niotic 8 — récompense : xp 10 — après : palier_ardent, condensateur_niotique
+  > Cellule d'énergie, batterie et câbles du palier niotique.
+- **Le réseau niotique** *(optionnelle)* — tâches : item powah:energizing_rod_niotic, item powah:energy_hopper_niotic, item powah:energy_discharger_niotic, item powah:player_transmitter_niotic, item powah:ender_cell_niotic, item powah:ender_gate_niotic 4 — récompense : xp 10 — après : reseau_ardent, condensateur_niotique
+  > Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier niotique.
+- **Un condensateur spirituel** *(optionnelle)* — tâches : item powah:capacitor_spirited — récompense : xp 7 — après : condensateur_niotique, spirited
+  > Le condensateur du palier spirituel, avec des cristaux spirituels. Il entre dans chaque appareil de ce palier.
+- **Les générateurs spirituels** *(optionnelle)* — tâches : item powah:furnator_spirited, item powah:magmator_spirited, item powah:thermo_generator_spirited, item powah:solar_panel_spirited, item powah:reactor_spirited — récompense : xp 13 — après : generateurs_niotique, condensateur_spirituel
+  > Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier spirituel : chacun à partir du même générateur du palier d'avant.
+- **Le stockage spirituel** *(optionnelle)* — tâches : item powah:energy_cell_spirited, item powah:battery_spirited, item powah:energy_cable_spirited 8 — récompense : xp 12 — après : palier_niotique, condensateur_spirituel
+  > Cellule d'énergie, batterie et câbles du palier spirituel.
+- **Le réseau spirituel** *(optionnelle)* — tâches : item powah:energizing_rod_spirited, item powah:energy_hopper_spirited, item powah:energy_discharger_spirited, item powah:player_transmitter_spirited, item powah:ender_cell_spirited, item powah:ender_gate_spirited 4 — récompense : xp 12 — après : reseau_niotique, condensateur_spirituel
+  > Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier spirituel.
+- **Un condensateur nitro** *(optionnelle)* — tâches : item powah:capacitor_nitro — récompense : xp 8 — après : condensateur_spirituel, nitro
+  > Le condensateur du palier nitro, avec des cristaux nitro. Il entre dans chaque appareil de ce palier.
+- **Les générateurs nitro** *(optionnelle)* — tâches : item powah:furnator_nitro, item powah:magmator_nitro, item powah:thermo_generator_nitro, item powah:solar_panel_nitro, item powah:reactor_nitro — récompense : xp 15 — après : generateurs_spirituel, condensateur_nitro
+  > Fournaise, magmator, générateur thermique, panneau solaire et réacteur du palier nitro : chacun à partir du même générateur du palier d'avant. C'est le dernier palier de Powah.
+- **Le stockage nitro** *(optionnelle)* — tâches : item powah:energy_cell_nitro, item powah:battery_nitro, item powah:energy_cable_nitro 8 — récompense : xp 14 — après : palier_spirituel, condensateur_nitro
+  > Cellule d'énergie, batterie et câbles du palier nitro.
+- **Le réseau nitro** *(optionnelle)* — tâches : item powah:energizing_rod_nitro, item powah:energy_hopper_nitro, item powah:energy_discharger_nitro, item powah:player_transmitter_nitro, item powah:ender_cell_nitro, item powah:ender_gate_nitro 4 — récompense : xp 14 — après : reseau_spirituel, condensateur_nitro
+  > Tige d'énergisation, entonnoir, déchargeur, transmetteur personnel, cellule et portes d'Ender du palier nitro.
 - **Un transmetteur personnel** *(optionnelle)* — tâches : item powah:player_transmitter_starter — récompense : xp 4 — après : cellule
   > Il recharge sans fil l'équipement des joueurs autour de lui.
 - **Une batterie** *(optionnelle)* — tâches : item powah:battery_starter — récompense : xp 3 — après : cellule
@@ -6080,7 +8331,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Un déchargeur** *(optionnelle)* — tâches : item powah:energy_discharger_starter — récompense : xp 3 — après : cellule
   > L'inverse de l'entonnoir : il vide l'énergie des objets dans le réseau.
 
-## Pylons  (`pylons`, 6 quêtes)
+## Pylons  (`pylons`, 10 quêtes)
 
 - **Les pylônes** — tâches : checkmark Lu — récompense : item minecraft:quartz_slab 6, item minecraft:iron_bars 4
   > Pylons ajoute quatre pylônes qui agissent dans un rayon autour d'eux : récolter, repousser les joueurs, empêcher les apparitions, appliquer un effet de potion. Même recette pour les quatre — dalles de quartz, barreaux de fer, pierre noire polie — et un bloc au centre qui change tout.
@@ -6094,6 +8345,14 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Un bloc de nétherite au centre. Il empêche les apparitions de créatures dans un rayon autour de lui, celles que son filtre de créature désigne. Une base sans torches, un champ sans phantoms.
 - **Un pylône d'infusion** — tâches : item pylons:infusion_pylon — récompense : xp 5 — après : intro
   > Un bloc d'émeraude au centre. Il applique, à n'importe quelle distance, l'effet de potion inscrit sur son filtre de potion : clic droit avec l'effet actif pour l'inscrire, et encore pour allonger sa durée.
+- **Un filtre de potion** — tâches : item pylons:potion_filter — récompense : xp 3 — après : infusion
+  > Le filtre que lit le pylône d'infusion (infobulle : « à insérer dans un pylône »).
+- **Un filtre de créature** *(optionnelle)* — tâches : item pylons:mob_filter — récompense : xp 3 — après : interdiction
+  > Un filtre de créature, à insérer dans un pylône (infobulle). Le pylône d'interdiction empêche l'apparition des créatures autour de lui.
+- **Un filtre de joueur** *(optionnelle)* — tâches : item pylons:player_filter — récompense : xp 3 — après : expulsion
+  > Un filtre de joueur, à insérer dans un pylône (infobulle). Le pylône d'expulsion repousse les autres joueurs de ses chunks.
+- **Un effet permanent** — tâches : checkmark Mon filtre est activé — récompense : xp 10 — après : filtre_potion
+  > Clic droit sur le filtre avec l'effet actif, encore et encore, jusqu'à ce que l'infobulle dise « Activé ». L'activation est inscrite dans le filtre lui-même : aucune tâche ne peut la lire, d'où la case à cocher. Un effet désactivé par la config du serveur le dit aussi dans l'infobulle.
 - **Le champ se récolte seul** — tâches : checkmark Houe en place — récompense : xp 5 — après : recolte
   > Un pylône de récolte, sa houe, et les champs de Mystical Agriculture se vident tout seuls dans un coffre. Il reste à sortir ce qui pousse : c'est le chapitre Pipez.
 
@@ -6112,7 +8371,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **La neige qui s'accroche** *(optionnelle)* — tâches : checkmark J'ai vu la neige couvrir une dalle — récompense : xp 3 — après : intro
   > Snow! Real Magic! : la neige recouvre dalles, escaliers, murs et barrières au lieu de rester à côté. Climate Rivers, lui, trace les rivières selon le climat.
 
-## SecurityCraft  (`securitycraft`, 28 quêtes)
+## SecurityCraft  (`securitycraft`, 31 quêtes)
 
 - **Protéger ce qui est hors claim** — tâches : checkmark Lu — récompense : item minecraft:iron_ingot 8, item minecraft:redstone 8
   > Un claim protège l'intérieur de la base. SecurityCraft protège ce qui est hors claim : le donjon du trophée, un avant-poste, un coffre caché. Portes à code, lasers, caméras, mines, pièges — et des blocs renforcés que personne d'autre que leur propriétaire ne casse.
@@ -6141,6 +8400,12 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le casseur de code tente d'ouvrir un clavier, un lecteur de carte ou un coffre à code qui n'est pas à toi. Cinq utilisations, une chance sur trois à chaque fois. C'est l'outil de l'attaquant.
 - **Le donjon est prêt** — tâches : checkmark Mon trophée est gardé — récompense : xp 10 — après : renforce, porte, mines
   > Une porte à code, des blocs renforcés, des pièges, et un chemin qui reste atteignable sans rien casser. Le trophée attend son premier raid.
+- **Le renforçateur, niveau 2** — tâches : item securitycraft:universal_block_reinforcer_lvl2 — récompense : xp 5 — après : renforce, laser
+  > Un bloc de diamant renforcé, du verre teinté renforcé, un bloc laser et de la redstone (recette du jar).
+- **Le renforçateur, niveau 3** — tâches : item securitycraft:universal_block_reinforcer_lvl3 — récompense : xp 10 — après : renforce_2
+  > Une étoile du Nether, des blocs d'émeraude et de redstone renforcés, du verre teinté renforcé. Le dernier renforçateur ; l'étoile se gagne au chapitre du Nether.
+- **Une carte de niveau 5** *(optionnelle)* — tâches : item securitycraft:keycard_lv5 — récompense : xp 3 — après : cartes
+  > Les cartes vont du niveau 1 au niveau 5 ; chacune se fait avec trois lingots de fer et une teinte ou un matériau propre à son niveau.
 - **Une alarme** *(optionnelle)* — tâches : item securitycraft:alarm — récompense : xp 3 — après : detecteur
   > Une sirène et une lumière rouge tant qu'elle reçoit de la redstone.
 - **Une lumière à détection** *(optionnelle)* — tâches : item securitycraft:motion_activated_light — récompense : xp 3 — après : detecteur
@@ -6172,62 +8437,148 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Une poche de blocs** *(optionnelle)* — tâches : item securitycraft:block_pocket_manager — récompense : xp 8 — après : renforce
   > Une pièce cubique où n'entrent que le propriétaire et les joueurs de la liste autorisée.
 
-## Stockage  (`stockage`, 27 quêtes)
+## Stockage  (`stockage`, 70 quêtes)
 
 - **Trois façons de ranger** — tâches : checkmark Lu — récompense : item minecraft:chest 4
   > Trois mods de stockage, trois philosophies. Storage Drawers : des tiroirs qui montrent ce qu'ils contiennent, parfaits pour les ressources en masse. Simple Storage Network : un maître, des câbles, une table de requête, et tous les coffres existants deviennent un seul inventaire. Refined Storage : des disques, une grille, de la fabrication automatique, et de l'énergie.
   >   > N'en choisis qu'un par base : ils ne se parlent pas bien entre eux, et une base qui mélange les trois ne retrouve plus rien.
-- **Un premier tiroir** — tâches : item storagedrawers:oak_full_drawers_1 — récompense : xp 3 — après : intro
+- **Un premier tiroir** — tâches : item storagedrawers:oak_full_drawers_1 — récompense : xp 3
   > Un tiroir à une case stocke un seul type d'objet, en grande quantité, et l'affiche sur sa face. Clic droit pour déposer, clic gauche pour prendre. Il existe en 1, 2 ou 4 cases, et dans chaque bois.
-- **Un tiroir de compactage** — tâches : item storagedrawers:compacting_drawers_3 — récompense : xp 5 — après : tiroir
+- **Un tiroir de compactage** — tâches : item storagedrawers:compacting_drawers_3 — récompense : xp 5
   > Le tiroir de compactage range un même matériau sous ses trois formes à la fois — pépite, lingot, bloc — et convertit tout seul. Du fer entre, du fer sort dans la forme demandée.
-- **Un contrôleur de tiroirs** — tâches : item storagedrawers:controller — récompense : xp 5 — après : tiroir
+- **Un contrôleur de tiroirs** — tâches : item storagedrawers:controller — récompense : xp 5
   > Le contrôleur voit tous les tiroirs qui lui sont reliés par contact. Clic droit dessus avec un objet, et il va dans le bon tiroir ; clic avec les mains vides, et il range tout l'inventaire d'un coup. C'est aussi par lui qu'un tuyau ou un réseau accède à la banque de tiroirs.
-- **Améliorer un tiroir** — tâches : item storagedrawers:iron_storage_upgrade, item storagedrawers:drawer_key — récompense : xp 3 — après : tiroir
+- **Améliorer un tiroir** — tâches : item storagedrawers:iron_storage_upgrade — récompense : xp 3
   > Les améliorations de stockage (fer, or, obsidienne, diamant, émeraude, nétherite) multiplient la capacité ; la clé de tiroir verrouille le contenu sur son type, même vide. Il y a aussi le vide (ce qui déborde disparaît) et la lumière.
-- **Un maître de réseau** — tâches : item storagenetwork:master — récompense : xp 5 — après : intro
+- **Un maître de réseau** — tâches : item storagenetwork:master — récompense : xp 5
   > Le maître est le cœur d'un réseau Simple Storage Network. Un seul par réseau, sans énergie. Tout ce qui lui est relié par câble fait partie du même inventaire.
-- **Des câbles de stockage** — tâches : item storagenetwork:storage_kabel 8, item storagenetwork:kabel 16 — récompense : xp 3 — après : maitre
+- **Des câbles de stockage** — tâches : item storagenetwork:storage_kabel 8, item storagenetwork:kabel 16 — récompense : xp 3
   > Le câble relie ; le câble de stockage, posé contre un coffre, un tonneau ou un contrôleur de tiroirs, met son contenu dans le réseau. Les coffres que tu as déjà deviennent le stockage.
-- **Une table de requête** — tâches : item storagenetwork:request — récompense : xp 8 — après : cables
+- **Une table de requête** — tâches : item storagenetwork:request — récompense : xp 8
   > La table de requête montre tout ce que le réseau contient, avec une recherche, et fabrique à partir de ce stock. Un seul bloc pour tous les coffres de la base.
-- **Câbles d'import et d'export** — tâches : item storagenetwork:import_kabel, item storagenetwork:export_kabel — récompense : xp 3 — après : cables
+- **Câbles d'import et d'export** — tâches : item storagenetwork:import_kabel, item storagenetwork:export_kabel — récompense : xp 3
   > Le câble d'import aspire ce qui arrive dans un coffre vers le réseau — la sortie d'une ferme, par exemple ; le câble d'export pousse un objet choisi vers une machine. Les filtres se règlent dans le câble.
-- **Un contrôleur Refined Storage** — tâches : item refinedstorage:controller — récompense : xp 5 — après : intro
+- **Un contrôleur Refined Storage** — tâches : item refinedstorage:controller — récompense : xp 5
   > Le contrôleur alimente le réseau Refined Storage en énergie — il lui en faut, voir le chapitre Powah — et compte ce que chaque bloc consomme. Un seul par réseau.
-- **Lecteur et disques** — tâches : item refinedstorage:disk_drive, item refinedstorage:1k_storage_disk — récompense : xp 5 — après : rs_controleur
+- **Lecteur et disques** — tâches : item refinedstorage:disk_drive, item refinedstorage:1k_storage_disk — récompense : xp 5
   > Le lecteur de disques reçoit jusqu'à huit disques, et les disques stockent : 1k, 4k, 16k, 64k objets. Tout le stockage d'une base dans un bloc.
-- **Une grille** — tâches : item refinedstorage:grid — récompense : xp 8 — après : disques
+- **Une grille** — tâches : item refinedstorage:grid — récompense : xp 8
   > La grille est l'écran du réseau : tout ce qui est stocké, avec recherche et tri. La grille de fabrication y ajoute une table d'artisanat branchée sur le stock.
-- **Grille de fabrication et de patrons** — tâches : item refinedstorage:crafting_grid, item refinedstorage:pattern_grid, item refinedstorage:pattern 4 — récompense : xp 5 — après : grille
+- **Grille de fabrication et de patrons** — tâches : item refinedstorage:crafting_grid, item refinedstorage:pattern_grid, item refinedstorage:pattern 4 — récompense : xp 5
   > La grille de patrons enregistre une recette sur un patron. Mis dans un fabricateur, le patron permet au réseau de fabriquer l'objet à la demande, en allant chercher les ingrédients tout seul.
-- **Un fabricateur** — tâches : item refinedstorage:crafter — récompense : xp 8 — après : fabrication
+- **Un fabricateur** — tâches : item refinedstorage:crafter — récompense : xp 8
   > Le fabricateur exécute les patrons : demande 64 pistons à la grille, et il fabrique la chaîne entière à partir du stock. Posé contre une machine, il lui envoie les ingrédients d'un patron de traitement.
-- **Importeur et exportateur** — tâches : item refinedstorage:importer, item refinedstorage:exporter — récompense : xp 3 — après : rs_controleur
+- **Importeur et exportateur** — tâches : item refinedstorage:importer, item refinedstorage:exporter — récompense : xp 3
   > L'importeur tire ce qui arrive dans un bloc vers le réseau, l'exportateur pousse un objet filtré vers un bloc. Les deux côtés de toute automatisation.
-- **Une grille sans fil** — tâches : item refinedstorage:wireless_grid, item refinedstorage:wireless_transmitter — récompense : xp 5 — après : grille
+- **Une grille sans fil** — tâches : item refinedstorage:wireless_grid, item refinedstorage:wireless_transmitter — récompense : xp 5
   > L'émetteur sans fil donne une portée au réseau, et la grille sans fil l'ouvre depuis la main, n'importe où dans cette portée. La base entière dans la poche.
-- **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10 — après : controleur, requete, fabricateur
+- **Un coffre du Nether** *(optionnelle)* — tâches : item netherchested:nether_chest — récompense : xp 5
+  > Quatre fragments de netherite, quatre briques du Nether et un coffre. Sur ce serveur, le coffre du Nether empile chaque objet huit fois plus haut qu'un coffre ordinaire (sauf les objets déjà abîmés). Il ne s'ouvre pas si un bloc est posé juste au-dessus. Il n'explose pas dans le Nether.
+- **Tout est rangé** — tâches : checkmark Ma base est rangée — récompense : xp 10
   > Des tiroirs, un réseau, ou des disques : la base retrouve ce qu'elle possède. Le chapitre Pipez relie tout ça aux machines.
-- **Des améliorations de stockage** *(optionnelle)* — tâches : item storagedrawers:gold_storage_upgrade, item storagedrawers:diamond_storage_upgrade — récompense : xp 4 — après : ameliorations
+- **Des améliorations de stockage** *(optionnelle)* — tâches : item storagedrawers:gold_storage_upgrade — récompense : xp 4
   > Storage Drawers : fer, or, diamant, émeraude, nétherite. Chaque palier multiplie la contenance du tiroir.
-- **Une amélioration du vide** *(optionnelle)* — tâches : item storagedrawers:void_upgrade — récompense : xp 3 — après : ameliorations
+- **Une amélioration du vide** *(optionnelle)* — tâches : item storagedrawers:void_upgrade — récompense : xp 3
   > Un tiroir plein détruit ce qui arrive en trop : pour les fermes automatiques qui débordent.
-- **Une table d'encadrement** *(optionnelle)* — tâches : item storagedrawers:framing_table — récompense : xp 3 — après : tiroir
+- **Une table d'encadrement** *(optionnelle)* — tâches : item storagedrawers:framing_table — récompense : xp 3
   > Des tiroirs habillés de n'importe quel bloc.
-- **Des disques plus grands** *(optionnelle)* — tâches : item refinedstorage:4k_storage_disk, item refinedstorage:16k_storage_disk — récompense : xp 4 — après : disques
+- **Des disques plus grands** *(optionnelle)* — tâches : item refinedstorage:4k_storage_disk — récompense : xp 4
   > Refined Storage : 1k, 4k, 16k, 64k objets, et des disques de fluides.
-- **Un disque de 64k** *(optionnelle)* — tâches : item refinedstorage:64k_storage_disk — récompense : xp 6 — après : rs_disques
-- **Un stockage externe** *(optionnelle)* — tâches : item refinedstorage:external_storage — récompense : xp 3 — après : rs_controleur
+- **Un disque de 64k** *(optionnelle)* — tâches : item refinedstorage:64k_storage_disk — récompense : xp 6
+- **Un stockage externe** *(optionnelle)* — tâches : item refinedstorage:external_storage — récompense : xp 3
   > Il branche un coffre ou un tiroir existant sur le réseau, sans le vider.
-- **Constructeur et destructeur** *(optionnelle)* — tâches : item refinedstorage:constructor, item refinedstorage:destructor — récompense : xp 4 — après : importeur
+- **Constructeur et destructeur** *(optionnelle)* — tâches : item refinedstorage:constructor, item refinedstorage:destructor — récompense : xp 4
   > L'un pose des blocs du réseau, l'autre en casse pour les y ranger.
-- **Un moniteur de fabrication** *(optionnelle)* — tâches : item refinedstorage:crafting_monitor — récompense : xp 3 — après : fabricateur
-- **Une télécommande d'inventaire** *(optionnelle)* — tâches : item storagenetwork:inventory_remote — récompense : xp 4 — après : requete
+- **Un moniteur de fabrication** *(optionnelle)* — tâches : item refinedstorage:crafting_monitor — récompense : xp 3
+- **Une télécommande d'inventaire** *(optionnelle)* — tâches : item storagenetwork:inventory_remote — récompense : xp 4
   > Simple Storage Network : le réseau consultable à distance.
-- **Un collecteur** *(optionnelle)* — tâches : item storagenetwork:collector — récompense : xp 3 — après : import
+- **Un collecteur** *(optionnelle)* — tâches : item storagenetwork:collector — récompense : xp 3
+- **Une amélioration en obsidienne** — tâches : item storagedrawers:obsidian_storage_upgrade — récompense : xp 3
+  > Les améliorations de stockage se fabriquent sur un modèle d'amélioration, avec des bâtons et le matériau. Celle en obsidienne double la capacité d'un tiroir. Plusieurs améliorations dans un même tiroir additionnent leurs multiplicateurs (config du serveur).
+- **Une amélioration en cuivre** — tâches : item storagedrawers:copper_storage_upgrade — récompense : xp 3
+  > En cuivre : capacité ×4.
+- **Une amélioration en émeraude** *(optionnelle)* — tâches : item storagedrawers:emerald_storage_upgrade — récompense : xp 5
+  > En émeraude : capacité ×64 sur ce serveur.
+- **Une amélioration en diamant** *(optionnelle)* — tâches : item storagedrawers:diamond_storage_upgrade — récompense : xp 6
+  > En diamant : capacité ×256 sur ce serveur.
+- **Une amélioration en nétherite** *(optionnelle)* — tâches : item storagedrawers:netherite_storage_upgrade — récompense : xp 10
+  > En nétherite : capacité ×2048 sur ce serveur, le plus haut palier.
+- **L'amélioration de conversion** *(optionnelle)* — tâches : item storagedrawers:conversion_upgrade — récompense : xp 3
+  > Convertit les objets compatibles : lingots, pépites et blocs des métaux de la liste du serveur.
+- **L'amélioration de niveau** *(optionnelle)* — tâches : item storagedrawers:fill_level_upgrade — récompense : xp 3
+  > Affiche une jauge de remplissage sur la façade.
+- **L'amélioration d'éclairage** *(optionnelle)* — tâches : item storagedrawers:illumination_upgrade — récompense : xp 3
+  > Éclaire les étiquettes des tiroirs dans le noir.
+- **L'amélioration entonnoir** *(optionnelle)* — tâches : item storagedrawers:hopper_upgrade — récompense : xp 3
+  > Ramasse les objets correspondants par le dessus, comme un entonnoir.
+- **L'amélioration d'équilibre** *(optionnelle)* — tâches : item storagedrawers:balance_fill_upgrade — récompense : xp 3
+  > Répartit les objets à parts égales entre les cases.
+- **L'amélioration à une pile** *(optionnelle)* — tâches : item storagedrawers:one_stack_upgrade — récompense : xp 3
+  > Ramène la capacité de base à une seule pile.
+- **L'amélioration de portabilité** *(optionnelle)* — tâches : item storagedrawers:portability_upgrade — récompense : xp 3
+  > Permet de transporter un tiroir plein. Sur ce serveur, les tiroirs pleins ne ralentissent pas : elle n'est pas nécessaire.
+- **Les améliorations de redstone** *(optionnelle)* — tâches : item storagedrawers:redstone_upgrade, item storagedrawers:min_redstone_upgrade, item storagedrawers:max_redstone_upgrade — récompense : xp 3
+  > Émet un signal selon le remplissage total ; les variantes « min » et « max » suivent la case la moins pleine ou la plus pleine.
+- **Les améliorations à distance** *(optionnelle)* — tâches : item storagedrawers:remote_upgrade, item storagedrawers:remote_group_upgrade — récompense : xp 3
+  > Relient un tiroir, ou un groupe de tiroirs, au contrôleur sans contact. Portée : celle du contrôleur, 50 blocs sur ce serveur.
+- **Les aimants, palier par palier** *(optionnelle)* — tâches : item storagedrawers:magnet_upgrade, item storagedrawers:magnet_upgrade_2, item storagedrawers:magnet_upgrade_3 — récompense : xp 5
+  > Ils attirent les objets autour du tiroir : 1, puis 4, puis 8 blocs à l'horizontale (config du serveur). Le deuxième et le troisième se fabriquent à partir du précédent.
+- **Les clés des tiroirs** *(optionnelle)* — tâches : item storagedrawers:drawer_key, item storagedrawers:quantify_key, item storagedrawers:shroud_key, item storagedrawers:personal_key, item storagedrawers:priority_key, item storagedrawers:suspend_key, item storagedrawers:keyring — récompense : xp 5
+  > Verrouiller un tiroir sur son contenu, afficher les quantités, cacher les étiquettes, réserver l'accès à son propriétaire (la clé personnelle ne protège pas de la casse : le claim, si), changer la priorité, suspendre les échanges du contrôleur. Le trousseau les range toutes.
+- **Tirer un tiroir** *(optionnelle)* — tâches : item storagedrawers:drawer_puller, item storagedrawers:detached_drawer — récompense : xp 3
+  > L'extracteur retire une case d'un bloc de tiroirs en gardant son contenu ; la case détachée se remet dans un bloc où il manque une case.
+- **Un disque de 16k** *(optionnelle)* — tâches : item refinedstorage:16k_storage_disk — récompense : xp 4
+  > Le palier suivant : seize mille objets par disque. Chaque disque se fait d'un boîtier et d'une pièce de stockage du palier.
+- **Les disques de fluides** *(optionnelle)* — tâches : item refinedstorage:64k_fluid_storage_disk, item refinedstorage:256k_fluid_storage_disk, item refinedstorage:1024k_fluid_storage_disk — récompense : xp 8
+  > Les fluides ont leurs propres disques : 64k, 256k, 1024k.
+- **Le disque de fluides de 4096k** *(optionnelle)* — tâches : item refinedstorage:4096k_fluid_storage_disk — récompense : xp 12
+  > Le plus grand disque de fluides de Refined Storage.
+- **Les blocs de stockage** *(optionnelle)* — tâches : item refinedstorage:1k_storage_block, item refinedstorage:4k_storage_block, item refinedstorage:16k_storage_block, item refinedstorage:64k_storage_block — récompense : xp 6
+  > Les mêmes pièces de stockage en blocs posés sur le réseau, sans lecteur de disques.
+- **Les trois processeurs** *(optionnelle)* — tâches : item refinedstorage:basic_processor, item refinedstorage:improved_processor, item refinedstorage:advanced_processor — récompense : xp 4
+  > Basique, amélioré, avancé : les processeurs des machines du réseau, du plus simple au plus avancé.
+- **Une amélioration vierge** *(optionnelle)* — tâches : item refinedstorage:upgrade — récompense : xp 3
+  > Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+- **L'amélioration de vitesse** *(optionnelle)* — tâches : item refinedstorage:speed_upgrade — récompense : xp 3
+  > Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+- **L'amélioration de portée** *(optionnelle)* — tâches : item refinedstorage:range_upgrade — récompense : xp 3
+  > Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+- **L'amélioration de fabrication** *(optionnelle)* — tâches : item refinedstorage:crafting_upgrade — récompense : xp 3
+  > Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+- **L'amélioration de pile** *(optionnelle)* — tâches : item refinedstorage:stack_upgrade — récompense : xp 3
+  > Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+- **L'amélioration toucher de soie** *(optionnelle)* — tâches : item refinedstorage:silk_touch_upgrade — récompense : xp 3
+  > Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+- **L'amélioration régulatrice** *(optionnelle)* — tâches : item refinedstorage:regulator_upgrade — récompense : xp 3
+  > Les améliorations de Refined Storage partent d'une amélioration vierge et se posent dans les machines du réseau.
+- **Les améliorations Fortune I à III** *(optionnelle)* — tâches : item refinedstorage:fortune_1_upgrade, item refinedstorage:fortune_2_upgrade, item refinedstorage:fortune_3_upgrade — récompense : xp 6
+  > Pour le destructeur : trois paliers de Fortune.
+- **Étendre le réseau** *(optionnelle)* — tâches : item refinedstorage:network_transmitter, item refinedstorage:network_receiver, item refinedstorage:network_card, item refinedstorage:relay — récompense : xp 6
+  > Un émetteur, un récepteur et une carte réseau relient deux réseaux éloignés ; le relais coupe ou rétablit la liaison selon un signal de redstone.
+- **Tout en sans-fil** *(optionnelle)* — tâches : item refinedstorage:wireless_fluid_grid, item refinedstorage:wireless_crafting_monitor, item refinedstorage:portable_grid — récompense : xp 6
+  > Grille de fluides et moniteur de fabrication sans fil, et la grille portable, qui lit les disques sans réseau.
+- **La sécurité du réseau** *(optionnelle)* — tâches : item refinedstorage:security_manager, item refinedstorage:security_card — récompense : xp 5
+  > Le gestionnaire de sécurité et ses cartes décident qui peut faire quoi sur le réseau.
+- **Interfaces et détecteurs** *(optionnelle)* — tâches : item refinedstorage:interface, item refinedstorage:fluid_interface, item refinedstorage:detector, item refinedstorage:storage_monitor, item refinedstorage:disk_manipulator, item refinedstorage:crafter_manager, item refinedstorage:fluid_grid — récompense : xp 8
+  > L'interface importe et exporte à la fois, le détecteur émet un signal selon un stock, le moniteur affiche un objet, le manipulateur de disques modifie un disque, le gestionnaire de fabricateurs les réunit, la grille de fluides montre les fluides.
+- **SSN : l'amélioration de vitesse** *(optionnelle)* — tâches : item storagenetwork:speed_upgrade — récompense : xp 3
+  > Dans un câble d'export ou d'import filtré, elle accélère l'import et l'export.
+- **SSN : l'amélioration de pile** *(optionnelle)* — tâches : item storagenetwork:stack_upgrade — récompense : xp 3
+  > Dans un câble d'export ou d'import filtré, elle augmente la taille de chaque transfert.
+- **SSN : l'amélioration de lenteur** *(optionnelle)* — tâches : item storagenetwork:slow_upgrade — récompense : xp 3
+  > Dans un câble d'export ou d'import filtré, elle ralentit l'import et l'export.
+- **SSN : l'amélioration unitaire** *(optionnelle)* — tâches : item storagenetwork:single_upgrade — récompense : xp 3
+  > Dans un câble d'export ou d'import filtré, elle transfère un objet à la fois.
+- **SSN : l'amélioration d'opération** *(optionnelle)* — tâches : item storagenetwork:operation_upgrade — récompense : xp 3
+  > Dans un câble d'export ou d'import filtré, elle traite la quantité indiquée dans le filtre.
+- **SSN : l'amélioration de stock** *(optionnelle)* — tâches : item storagenetwork:stock_upgrade — récompense : xp 3
+  > Dans un câble d'export ou d'import filtré, elle garde un stock constant dans l'inventaire relié.
+- **SSN : toutes les télécommandes** *(optionnelle)* — tâches : item storagenetwork:crafting_remote, item storagenetwork:expanded_remote, item storagenetwork:picker_remote, item storagenetwork:builder_remote, item storagenetwork:collector_remote — récompense : xp 8
+  > Liées à la racine du réseau : fabrication à distance, inventaire étendu, cueillette des blocs correspondants, construction, collecte des objets ramassés.
+- **SSN : câbles filtrés et échangeur** *(optionnelle)* — tâches : item storagenetwork:filter_kabel, item storagenetwork:import_filter_kabel, item storagenetwork:exchange, item storagenetwork:request_expanded — récompense : xp 5
+  > Câbles avec filtres, l'échangeur (point de sortie du réseau vers un inventaire) et le terminal de requête étendu.
 
-## Villages et commerce  (`mods_villages`, 26 quêtes)
+## Villages et commerce  (`mods_villages`, 32 quêtes)
 
 - **Le village, version BMC4** — tâches : checkmark Lu — récompense : item minecraft:emerald 4
   > Treize métiers vanilla, quatre de VillagersPlus, des gardes à recruter, deux gobelins marchands, et deux blocs pour commercer sans courir : le comptoir d'échange et la station de troc. L'onglet Métiers de JEI (Just Enough Professions) dit quel bloc fait quel métier.
@@ -6276,78 +8627,146 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Goblin Traders : un gobelin sous terre, entre Y -64 et 50 (config du serveur), avec des échanges rares, dont des potions de hâte, d'absorption et de grâce du dauphin. Il se réassortit tous les deux jours. On ne peut pas le porter (Carry On).
 - **Le gobelin des veines** *(optionnelle)* — tâches : observation entity goblintraders:vein_goblin_trader — récompense : xp 5 — après : gobelin
   > Son cousin du Nether, entre Y 0 et 128 (config).
-- **Marchand** — tâches : checkmark Mon village tourne — récompense : xp 5 — après : bibliothecaire, comptoir
+- **Abattre un capitaine** *(optionnelle)* — tâches : advancement minecraft:adventure/voluntary_exile — récompense : xp 5 — après : village
+  > Le capitaine d'une patrouille ou d'un avant-poste porte une bannière. L'abattre donne le Mauvais présage : la prochaine entrée dans un village déclenche un raid.
+- **Héros du village** *(optionnelle)* — tâches : advancement minecraft:adventure/hero_of_the_village — récompense : xp 10 — après : exil
+  > Repousser toutes les vagues d'un raid. Sur ce serveur, en difficulté normale, un raid compte cinq vagues, plus une vague bonus quand le présage est renforcé.
+- **Les illageois de Raided** *(optionnelle)* — tâches : kill raided:electromancer, kill raided:necromancer, kill raided:inquisitor, kill raided:savager, kill raided:incinerator — récompense : xp 15 — après : heros
+  > Raided ajoute cinq illageois aux raids, activés sur ce serveur. L'électromancien arrive dès la première vague, le nécromancien à la deuxième, l'inquisiteur et le « Savager » à la troisième, l'incinérateur à la quatrième. Il faut donc tenir au moins quatre vagues pour les croiser tous.
+- **Cinquante échanges** — tâches : stat minecraft:traded_with_villager 50 — récompense : xp 5 — après : bibliothecaire
+  > Cinquante échanges avec les villageois (statistique du jeu). Un villageois qui échange monte en niveau : novice, apprenti, compagnon, expert, maître.
+- **Deux cent cinquante échanges** — tâches : stat minecraft:traded_with_villager 250 — récompense : xp 10 — après : echanges_50, comptoir
+  > Assez pour amener plusieurs villageois jusqu'au rang de maître. Le comptoir de Trading Post rassemble les offres des marchands proches.
+- **Cinq raids gagnés** *(optionnelle)* — tâches : stat minecraft:raid_win 5 — récompense : xp 15 — après : heros
+  > Cinq raids repoussés (statistique du jeu). Les vagues comptent les illageois des mods du serveur.
+- **Marchand** — tâches : checkmark Mon village tourne — récompense : xp 5 — après : echanges_250
 
-## L'Aether  (`monde_aether`, 33 quêtes)
+## L'Aether  (`monde_aether`, 61 quêtes)
 
 - **Un portail de glowstone** — tâches : item minecraft:glowstone 10 — récompense : item minecraft:water_bucket
   > Un cadre de glowstone, comme un portail du Nether, allumé avec un seau d'eau. L'Aether est un ciel d'îles flottantes : sans parachute, la chute ramène dans l'Overworld.
-- **Entrer dans l'Aether** — tâches : dimension aether:the_aether — récompense : xp 10 — après : portail
+- **Entrer dans l'Aether** — tâches : dimension aether:the_aether — récompense : xp 10
   > À l'arrivée, le serveur offre un Livre de savoir et des parachutes dorés (config du serveur). Le livre explique les objets du mod ; les parachutes sauvent d'une chute.
-- **Du bois de Skyroot** — tâches : item aether:skyroot_planks 16 — récompense : xp 2 — après : entrer
+- **Du bois de Skyroot** — tâches : item aether:skyroot_planks 16 — récompense : xp 2
   > Le bois de l'Aether. Un seau de skyroot ne garde pas la lave, mais il fait des outils et un lit.
-- **Une pioche en holystone** — tâches : item aether:holystone_pickaxe — récompense : xp 3 — après : skyroot
+- **Une pioche en holystone** — tâches : item aether:holystone_pickaxe — récompense : xp 3
   > La holystone est la pierre de l'Aether ; ses outils valent la pierre. Il en faut pour les minerais : ambrosium, zanite, gravitite.
-- **Des éclats d'ambrosium** — tâches : item aether:ambrosium_shard 8 — récompense : xp 3 — après : holystone
+- **Des éclats d'ambrosium** — tâches : item aether:ambrosium_shard 8 — récompense : xp 3
   > L'ambrosium se mange, fait des torches, et infuse les outils de veridium d'Aether Redux (clic droit avec un éclat).
-- **Une gemme de zanite** — tâches : advancement aether:zanite — récompense : xp 5 — après : holystone
+- **Une gemme de zanite** — tâches : advancement aether:zanite — récompense : xp 5
   > La zanite fait des outils qui minent plus vite à mesure qu'ils s'usent, et une armure. Le progrès du mod valide la quête.
-- **Un autel** — tâches : advancement aether:craft_altar — récompense : xp 5 — après : zanite
+- **Un autel** — tâches : advancement aether:craft_altar — récompense : xp 5
   > L'autel de l'Aether enchante avec de l'ambrosium : c'est lui qui transforme le minerai de gravitite en gravitite enchantée, et qui fait les lingots de gravitite d'Aether Redux.
-- **De la gravitite enchantée** — tâches : advancement aether:enchanted_gravitite — récompense : xp 8 — après : autel
+- **De la gravitite enchantée** — tâches : advancement aether:enchanted_gravitite — récompense : xp 8
   > Le métal du haut de l'Aether. Ses outils font léviter les blocs minés, son armure donne un saut plus haut.
-- **L'armure de gravitite** *(optionnelle)* — tâches : advancement aether:gravitite_armor — récompense : xp 10 — après : gravitite
+- **L'armure de gravitite** *(optionnelle)* — tâches : advancement aether:gravitite_armor — récompense : xp 10
   > Les quatre pièces dans l'inventaire (progrès du mod).
-- **Un œuf de Moa** — tâches : advancement aether:obtain_egg — récompense : xp 3 — après : entrer
+- **Un œuf de Moa** — tâches : advancement aether:obtain_egg — récompense : xp 3
   > Les Moas pondent ; bleu, blanc, noir, et orange ou marron avec Lost Aether Content. L'œuf se couve dans un incubateur.
-- **Couver un Moa** — tâches : item aether:incubator, advancement aether:incubate_moa — récompense : xp 8 — après : oeuf_moa
+- **Couver un Moa** — tâches : item aether:incubator, advancement aether:incubate_moa — récompense : xp 8
   > L'incubateur marche aux torches d'ambrosium. Le Moa éclos s'apprivoise, grandit, et vole : plus de sauts pour le noir que pour le bleu. Protect Your Moa lui fait des armures, du cuir à la gravitite.
-- **Voler sur un Phyg** *(optionnelle)* — tâches : advancement aether:mount_phyg — récompense : xp 3 — après : entrer
+- **Voler sur un Phyg** *(optionnelle)* — tâches : advancement aether:mount_phyg — récompense : xp 3
   > Le cochon ailé de l'Aether, sellé, vole — mal, mais il vole (progrès du mod).
-- **Une Pierre de Soin** — tâches : item aether:healing_stone — récompense : xp 5 — après : entrer
+- **Une Pierre de Soin** — tâches : item aether:healing_stone — récompense : xp 5
   > La Pierre de Soin se mange et soigne. Sur ce serveur elle a une autre vertu : elle rend un cœur de vie maximale perdu en raid, un cœur par pierre, à tout moment. C'est l'autre voie avec les repas de Farmer's Delight.
-- **Icestone et congélateur** *(optionnelle)* — tâches : advancement aether:icestone, item aether:freezer — récompense : xp 5 — après : entrer
+- **Icestone et congélateur** *(optionnelle)* — tâches : advancement aether:icestone, item aether:freezer — récompense : xp 5
   > L'icestone gèle l'eau et la lave autour d'elle. Le congélateur en fait de la glace, et gèle un accessoire (anneau, pendentif de glace).
-- **Rebondir sur un aérnuage** *(optionnelle)* — tâches : advancement aether:blue_aercloud — récompense : xp 2 — après : entrer
+- **Rebondir sur un aérnuage** *(optionnelle)* — tâches : advancement aether:blue_aercloud — récompense : xp 2
   > Le bleu fait rebondir, le froid amortit, le doré — sur ce serveur — projette vers le bas (Aether Redux). Un parachute doré se fabrique avec de l'aérnuage doré.
-- **Le donjon de bronze** — tâches : structure aether:bronze_dungeon — récompense : xp 5 — après : entrer
+- **Le donjon de bronze** — tâches : structure aether:bronze_dungeon — récompense : xp 5
   > Dans une île de pierre sculptée : des sentinelles, des mimics (plus petits sur ce serveur, Aether Redux), des coffres en skyroot. Le Slider attend derrière la porte verrouillée ; on ne le blesse qu'à la pioche.
-- **Vaincre le Slider** — tâches : advancement aether:bronze_dungeon — récompense : xp 15 — après : bronze
+- **Vaincre le Slider** — tâches : advancement aether:bronze_dungeon — récompense : xp 15
   > Un cube de pierre qui charge. Sa mort ouvre le trésor du donjon : le Marteau de Kingbdogz, la Lance de Valkyrie qui mène au donjon d'argent, la Cape aérienne d'Aether Redux (double saut). Vaincu sans prendre un coup, il laisse l'Œil du Slider (Deep Aether, config du serveur).
-- **Le donjon d'argent** — tâches : structure aether:silver_dungeon — récompense : xp 5 — après : slider
+- **Le donjon d'argent** — tâches : structure aether:silver_dungeon — récompense : xp 5
   > Un temple sur une île haute. Les Valkyries le gardent ; la Reine ne combat que si on lui montre dix médaillons de victoire pris sur ses sœurs.
-- **Vaincre la Reine des Valkyries** — tâches : advancement aether:silver_dungeon — récompense : xp 20 — après : argent
+- **Vaincre la Reine des Valkyries** — tâches : advancement aether:silver_dungeon — récompense : xp 20
   > Son trésor : l'équipement de Valkyrie, la Pierre de régénération qui mène au donjon d'or, et la Grande Médaille de victoire d'Aether Redux. Sans faute : la Médaille d'honneur (Deep Aether).
-- **Le donjon d'or** — tâches : structure aether:gold_dungeon — récompense : xp 5 — après : reine
+- **Le donjon d'or** — tâches : structure aether:gold_dungeon — récompense : xp 5
   > Une île de pierre infernale. L'Esprit du Soleil y attend, et son dialogue se rejoue à chaque visite (config du serveur). Il ne se bat que si on l'y pousse.
-- **Vaincre l'Esprit du Soleil** — tâches : advancement aether:gold_dungeon — récompense : xp 25 — après : or
+- **Vaincre l'Esprit du Soleil** — tâches : advancement aether:gold_dungeon — récompense : xp 25
   > Le dernier boss de l'Aether de base. Son trésor : l'armure du Phénix, l'Emblème solaire et l'Arbalète subzéro d'Aether Redux. Sans faute : le Cœur de soleil (Deep Aether). Sa mort est annoncée dans #faits-d-armes.
-- **Les biomes de Deep Aether** *(optionnelle)* — tâches : biome deep_aether:aerlavender_fields, biome deep_aether:golden_heights, biome deep_aether:yagroot_swamp — récompense : xp 5 — après : entrer
+- **Les biomes de Deep Aether** *(optionnelle)* — tâches : biome deep_aether:aerlavender_fields, biome deep_aether:golden_heights, biome deep_aether:yagroot_swamp — récompense : xp 5
   > Deep Aether ajoute les champs d'aérlavande, les hauteurs dorées, le marais de yagroot (ses sables mouvants virulents sont un piège), les forêts aérluisantes, les nuages d'orage. Tous activés sur le serveur.
-- **Une gemme de skyjade** *(optionnelle)* — tâches : item deep_aether:skyjade — récompense : xp 5 — après : deep_biomes
+- **Une gemme de skyjade** *(optionnelle)* — tâches : item deep_aether:skyjade — récompense : xp 5
   > La skyjade de Deep Aether fait des outils et une armure. Sur ce serveur, ses outils ne s'enchantent pas (config).
-- **Le donjon de laiton** *(optionnelle)* — tâches : structure deep_aether:brass_dungeon — récompense : xp 5 — après : esprit
+- **Le donjon de laiton** *(optionnelle)* — tâches : structure deep_aether:brass_dungeon — récompense : xp 5
   > Le quatrième donjon, de Deep Aether, dans les nuages d'orage : l'Œil de la Tempête y règne.
-- **Vaincre l'Œil de la Tempête** *(optionnelle)* — tâches : advancement deep_aether:brass_dungeon — récompense : xp 20 — après : laiton
+- **Vaincre l'Œil de la Tempête** *(optionnelle)* — tâches : advancement deep_aether:brass_dungeon — récompense : xp 20
   > Le boss de laiton (progrès « Defeat the brass boss »). Sans faute : l'écharpe flottante. Le modèle de forge Stratus et l'armure Stratus (progrès du mod) sont la fin de Deep Aether.
-- **Les biomes d'Aether Redux** *(optionnelle)* — tâches : biome aether_redux:gilded_groves, biome aether_redux:the_blight — récompense : xp 5 — après : entrer
+- **Les biomes d'Aether Redux** *(optionnelle)* — tâches : biome aether_redux:gilded_groves, biome aether_redux:the_blight — récompense : xp 5
   > Aether Redux : bosquets dorés, forêts givrées, champs du ciel, cloudcaps, et le Fléau, zone de plantes et de bêtes dangereuses où la Plume de garde protège. Tous activés sur le serveur.
-- **Du veridium infusé** *(optionnelle)* — tâches : advancement aether_redux:infuse_veridium — récompense : xp 5 — après : redux_biomes
+- **Du veridium infusé** *(optionnelle)* — tâches : advancement aether_redux:infuse_veridium — récompense : xp 5
   > Le veridium d'Aether Redux fait des outils qu'on infuse d'un clic droit avec un éclat d'ambrosium (progrès du mod).
-- **Un double saut** *(optionnelle)* — tâches : advancement aether_redux:double_jump — récompense : xp 5 — après : slider
-  > La Cape aérienne du donjon de bronze donne le double saut (progrès du mod).
-- **Le donjon de platine** *(optionnelle)* — tâches : structure lost_aether_content:platinum_dungeon — récompense : xp 5 — après : esprit
+- **Un double saut** *(optionnelle)* — tâches : advancement aether_redux:double_jump — récompense : xp 5
+  > La Cape aérienne (« Aerbound Cape ») est dans le coffre du donjon de bronze trois fois sur quatre. Portée, elle donne le double saut (progrès du mod).
+- **Du veridium** *(optionnelle)* — tâches : item aether_redux:veridium_ingot 4 — récompense : xp 5
+  > Le minerai de veridium d'Aether Redux donne du veridium brut, que Fortune multiplie. Au four ou au haut fourneau, il devient un lingot.
+- **Des outils en veridium** *(optionnelle)* — tâches : item aether_redux:veridium_pickaxe, item aether_redux:veridium_sword, item aether_redux:veridium_axe, item aether_redux:veridium_dart_shooter — récompense : xp 5
+  > Pioche, épée, hache, pelle, houe et sarbacane à fléchettes en veridium. Un éclat d'ambrosium les infuse ensuite (quête suivante).
+- **La Plume de garde** *(optionnelle)* — tâches : advancement aether_redux:obtain_feather_of_warding — récompense : xp 8
+  > Une plume de cockatrice, des spores de saule du Fléau, un éclat d'ambrosium et quatre blocs de veridium : la « Feather of Warding », l'accessoire qui protège de presque tout ce que le Fléau inflige (progrès « Blight's Bane »).
+- **La Lance du Fléau** *(optionnelle)* — tâches : item aether_redux:spear_of_the_blight — récompense : xp 5
+  > Le croc d'un « Blightbunny », un bâton de skyroot et une gemme de zanite : la « Spear of the Blight ».
+- **Les anneaux de Redux** *(optionnelle)* — tâches : item aether_redux:ring_of_wisdom, item aether_redux:shroom_ring, item aether_redux:sentry_ring — récompense : xp 5
+  > Tous partent d'un anneau enchanté. Holystone et zanite font l'« Ring of Wisdom » ; « Shimmerstool », « Cloudcap Mushling » et « Lightroot Clump », l'« Adrenaline Ring » ; la sentrite raffinée et un circuit de sentinelle, que les sentinelles lâchent une fois sur quatre, le « Sentry Ring ».
+- **La Grande médaille de la victoire** *(optionnelle)* — tâches : advancement aether_redux:obtain_grand_medal — récompense : xp 10
+  > La Reine des Valkyries lâche, deux fois sur trois, la « Grand Victory Medal » : une régénération qui grandit à mesure que la vie baisse (progrès « Valkyrie Champion »). Avec elle, on peut rejouer le combat contre la Reine sans devoir réunir de nouveau les médailles.
+- **L'arbalète Subzero** *(optionnelle)* — tâches : item aether_redux:subzero_crossbow — récompense : xp 10
+  > Le coffre du donjon d'or garde, presque toujours, la « Subzero Crossbow », et une fois sur trois l'emblème solaire (« Solar Emblem »), qui lance des boules de feu sur une touche. Avec l'emblème, tuer un Sheepuff d'une boule de feu vaut le progrès « Pyromaniac ».
+- **Jette-le dans le feu !** *(optionnelle)* — tâches : advancement aether_redux:throw_ring_in_lava — récompense : xp 3
+  > Un anneau d'or jeté dans la lave du Nether : le progrès « Cast It into the Fire ! Destroy It ! ».
+- **Une armure de moa en cuir** *(optionnelle)* — tâches : item aether_protect_your_moa:leather_moa_armor — récompense : xp 5
+  > Aether: Protect Your Moa habille enfin les moas. Six cuirs : l'armure de moa en cuir. Le palier suivant passe au fer.
+- **Une armure de moa en fer** *(optionnelle)* — tâches : item aether_protect_your_moa:iron_moa_armor — récompense : xp 7
+  > Cinq lingots de fer et un cuir : l'armure de moa en fer. Le palier suivant passe au or.
+- **Une armure de moa en or** *(optionnelle)* — tâches : item aether_protect_your_moa:golden_moa_armor — récompense : xp 9
+  > Cinq lingots d'or et un cuir : l'armure de moa en or. Le palier suivant passe au zanite.
+- **Une armure de moa en zanite** *(optionnelle)* — tâches : item aether_protect_your_moa:zanite_moa_armor — récompense : xp 11
+  > Cinq gemmes de zanite et un cuir : l'armure de moa en zanite. Le palier suivant passe au diamant.
+- **Une armure de moa en diamant** *(optionnelle)* — tâches : item aether_protect_your_moa:diamond_moa_armor — récompense : xp 13
+  > Cinq diamants et un cuir : l'armure de moa en diamant. Le palier suivant passe au gravitite.
+- **Une armure de moa en gravitite** *(optionnelle)* — tâches : item aether_protect_your_moa:gravitite_moa_armor — récompense : xp 15
+  > Cinq gravitites enchantées et un cuir : l'armure de moa en gravitite. C'est la plus haute des six.
+- **Un four en holystone** *(optionnelle)* — tâches : item ascended_quark:holystone_furnace — récompense : xp 3
+  > Ascended Quark porte les ajouts de Quark dans l'Aether. Son four en holystone brûle aussi l'ambrosium comme combustible.
+- **Un pickarang des Valkyries** *(optionnelle)* — tâches : item ascended_quark:valkyrie_pickarang, item ascended_quark:phoenix_flamerang — récompense : xp 10
+  > Un coffre de donjon de bronze ou d'argent cache, très rarement, un « Valkyrie Pickarang ». Le donjon d'argent peut aussi donner le « Phoenix Flamerang ». Comme le pickarang de Quark, il se lance et revient en minant ce qu'il touche.
+- **Le trophée du Slider** *(optionnelle)* — tâches : item umbral_skies:slider_trophy — récompense : xp 5
+  > Umbral Skies ajoute aux boss de l'Aether des trophées comme ceux de la Twilight Forest. Celui du Slider est dans le coffre de récompense du donjon de bronze.
+- **Le trophée de la Reine des Valkyries** *(optionnelle)* — tâches : item umbral_skies:valkyrie_queen_trophy — récompense : xp 5
+  > Dans le coffre de récompense du donjon d'argent.
+- **Le trophée de l'Esprit du Soleil** *(optionnelle)* — tâches : item umbral_skies:sun_spirit_trophy — récompense : xp 5
+  > Dans le coffre de récompense du donjon d'or.
+- **Les gants du Crépuscule** *(optionnelle)* — tâches : item umbral_skies:ironwood_gloves, item umbral_skies:steeleaf_gloves, item umbral_skies:naga_gloves, item umbral_skies:knightmetal_gloves, item umbral_skies:arctic_gloves, item umbral_skies:yeti_gloves, item umbral_skies:fiery_gloves, item umbral_skies:phantom_gloves — récompense : xp 15
+  > Des gants d'Aether faits de la Twilight Forest : deux lingots de bois de fer, de feuille d'acier ou de métal de chevalier, deux écailles de naga, deux fourrures arctiques, deux fourrures de yéti alpha. Les gants ardents : des gants de fer de l'Aether et deux fioles ardentes. Les gantelets fantômes sont dans le coffre du boss de la forteresse des chevaliers.
+- **Les outils en skyroot** *(optionnelle)* — tâches : item aether:skyroot_sword, item aether:skyroot_pickaxe, item aether:skyroot_axe, item aether:skyroot_shovel, item aether:skyroot_hoe — récompense : xp 2
+  > Le premier palier de l'Aether, en bois de skyroot : ils récoltent les blocs en double (astuce du mod).
+- **Les outils en holystone** *(optionnelle)* — tâches : item aether:holystone_sword, item aether:holystone_pickaxe, item aether:holystone_axe, item aether:holystone_shovel, item aether:holystone_hoe — récompense : xp 3
+  > Le deuxième palier : ils produisent parfois des éclats d'ambrosium (astuce du mod).
+- **L'équipement en zanite** *(optionnelle)* — tâches : item aether:zanite_helmet, item aether:zanite_chestplate, item aether:zanite_leggings, item aether:zanite_boots, item aether:zanite_gloves, item aether:zanite_sword, item aether:zanite_pickaxe, item aether:zanite_axe, item aether:zanite_shovel, item aether:zanite_hoe — récompense : xp 6
+  > Armure, gants et outils en zanite : ils gagnent en force à mesure qu'on s'en sert (astuce du mod).
+- **L'équipement en gravitite** *(optionnelle)* — tâches : item aether:gravitite_helmet, item aether:gravitite_chestplate, item aether:gravitite_leggings, item aether:gravitite_boots, item aether:gravitite_gloves, item aether:gravitite_sword, item aether:gravitite_pickaxe, item aether:gravitite_axe, item aether:gravitite_shovel, item aether:gravitite_hoe — récompense : xp 10
+  > Armure, gants et outils en gravitite enchantée : l'armure fait sauter plus haut et annule les dégâts de chute, les outils soulèvent les blocs d'un clic droit (astuces du mod). C'est le sommet de l'équipement forgé de l'Aether.
+- **L'armure de Neptune** *(optionnelle)* — tâches : item aether:neptune_helmet, item aether:neptune_chestplate, item aether:neptune_leggings, item aether:neptune_boots, item aether:neptune_gloves — récompense : xp 8
+  > Dans les coffres du donjon de bronze.
+- **L'armure des Valkyries** *(optionnelle)* — tâches : item aether:valkyrie_helmet, item aether:valkyrie_chestplate, item aether:valkyrie_leggings, item aether:valkyrie_boots, item aether:valkyrie_gloves, item aether:valkyrie_lance — récompense : xp 10
+  > L'armure dans les coffres du donjon d'argent ; la lance, dans ceux du donjon de bronze.
+- **L'armure du Phénix** *(optionnelle)* — tâches : item aether:phoenix_helmet, item aether:phoenix_chestplate, item aether:phoenix_leggings, item aether:phoenix_boots, item aether:phoenix_gloves — récompense : xp 12
+  > Dans le trésor du donjon d'or. Le mod conseille de plonger dans l'eau en la portant.
+- **Rejouer le combat contre la Reine** *(optionnelle)* — tâches : kill aether:valkyrie_queen — récompense : xp 15
+  > Avec la Grande médaille de la victoire, la Reine des Valkyries accepte un nouveau combat sans demander de médailles. La quête ne compte que le combat livré après la première victoire.
+- **Le donjon de platine** *(optionnelle)* — tâches : structure lost_aether_content:platinum_dungeon — récompense : xp 5
   > Lost Aether Content ajoute un donjon de pierre de Gale et son boss, le Roi des aérobaleines. Sans faute : une selle d'aérobaleine (Deep Aether).
-- **Vaincre le Roi des aérobaleines** *(optionnelle)* — tâches : advancement lost_aether_content:platinum_dungeon — récompense : xp 20 — après : platine
+- **Vaincre le Roi des aérobaleines** *(optionnelle)* — tâches : advancement lost_aether_content:platinum_dungeon — récompense : xp 20
   > Le boss de platine (progrès « Defeat the Platinum Dungeon boss »). Lost Aether Content ajoute aussi les boucliers de zanite et de gravitite, et l'équipement du Phénix.
-- **La citadelle olympique** *(optionnelle)* — tâches : structure aether_villages:olympic_citadel — récompense : xp 5 — après : entrer
+- **La citadelle olympique** *(optionnelle)* — tâches : structure aether_villages:olympic_citadel — récompense : xp 5
   > Aether Villages pose des villages dans l'Aether, dont la citadelle olympique.
-- **Un lingot pyral** *(optionnelle)* — tâches : item aether_treasure_reforging:pyral_ingot — récompense : xp 5 — après : esprit
+- **Un lingot pyral** *(optionnelle)* — tâches : item aether_treasure_reforging:pyral_ingot — récompense : xp 5
   > Aether: Treasure Reforging refond les trésors des donjons en modèles de forge : Neptune, Phénix (lingot pyral), Valkyrie (lingot de valkyrum). Le détail est au chapitre Enchantement.
-- **Maître du ciel** — tâches : checkmark Les trois donjons sont tombés — récompense : xp 10 — après : esprit, incuber
+- **Maître du ciel** — tâches : checkmark Les trois donjons sont tombés — récompense : xp 10
   > Bronze, argent, or ; un Moa à soi ; des Pierres de Soin en réserve pour les raids. Le progrès « Aether Champion » de Deep Aether récompense les quatre boss vaincus sans un coup reçu.
 
-## Blue Skies — Everbright  (`monde_everbright`, 17 quêtes)
+## Blue Skies — Everbright  (`monde_everbright`, 22 quêtes)
 
 - **La maison du Gatekeeper** — tâches : structure blue_skies:gatekeeper_house_plains — récompense : item minecraft:emerald 8
   > Blue Skies, ce sont deux mondes : l'Everbright, froid et bleu, l'Everdawn, chaud et doré. Les deux s'ouvrent dans la maison du Gatekeeper, dans l'Overworld : le portail y est déjà construit, et le Gatekeeper vend le Journal bleu — le guide du mod — et le briquet zèle, huit émeraudes sur ce serveur. Les émeraudes offertes sont pour lui.
@@ -6381,10 +8800,20 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Quatre murs de bois le protègent ; il fait pousser racines, Spewters et hiboux de bois. Abats un mur à la hache : il martèle le sol, vulnérable aux projectiles — une lance l'étourdit, puis la hache. Son artéfact relance le combat sur la keystone, après un temps de recharge. Sa mort est annoncée dans #faits-d-armes.
 - **Invoquer un golem artificiel** *(optionnelle)* — tâches : advancement blue_skies:everbright/summon_artificial_golem — récompense : xp 5 — après : summoner
   > La table d'invocation du Summonateur règle le tome d'invocation : une sphère fluctuante à tirer, ou un golem artificiel qui se bat à tes côtés, un seul à la fois.
+- **Ré-invoquer le Summonateur** *(optionnelle)* — tâches : kill blue_skies:summoner — récompense : xp 15 — après : summoner
+  > Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire.
+- **Ré-invoquer le Starlit Crusher** *(optionnelle)* — tâches : kill blue_skies:starlit_crusher — récompense : xp 15 — après : crusher
+  > Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire.
+- **L'équipement en pyrope** *(optionnelle)* — tâches : item blue_skies:pyrope_helmet, item blue_skies:pyrope_chestplate, item blue_skies:pyrope_leggings, item blue_skies:pyrope_boots, item blue_skies:pyrope_sword, item blue_skies:pyrope_pickaxe, item blue_skies:pyrope_axe, item blue_skies:pyrope_shovel, item blue_skies:pyrope_hoe — récompense : xp 6 — après : gemmes
+  > Armure et outils en pyrope, la première gemme de l'Everbright.
+- **L'équipement en aquite** *(optionnelle)* — tâches : item blue_skies:aquite_helmet, item blue_skies:aquite_chestplate, item blue_skies:aquite_leggings, item blue_skies:aquite_boots, item blue_skies:aquite_sword, item blue_skies:aquite_pickaxe, item blue_skies:aquite_axe, item blue_skies:aquite_shovel, item blue_skies:aquite_hoe — récompense : xp 8 — après : equipement_pyrope
+  > Le palier suivant, en aquite.
+- **L'équipement en diopside** *(optionnelle)* — tâches : item blue_skies:diopside_helmet, item blue_skies:diopside_chestplate, item blue_skies:diopside_leggings, item blue_skies:diopside_boots, item blue_skies:diopside_sword, item blue_skies:diopside_pickaxe, item blue_skies:diopside_axe, item blue_skies:diopside_shovel, item blue_skies:diopside_hoe — récompense : xp 10 — après : equipement_aquite
+  > Le plus haut palier de l'Everbright, en diopside.
 - **L'Everbright est vaincu** — tâches : checkmark Deux artéfacts en poche — récompense : xp 10 — après : crusher
   > Le Summonateur et le Déstructeur des Étoiles au tableau. L'Everdawn attend de l'autre côté de la maison du Gatekeeper.
 
-## Blue Skies — Everdawn  (`monde_everdawn`, 14 quêtes)
+## Blue Skies — Everdawn  (`monde_everdawn`, 18 quêtes)
 
 - **Entrer dans l'Everdawn** — tâches : dimension blue_skies:everdawn — récompense : xp 10
   > Le second monde de Blue Skies, par le portail de pierre lunaire de la maison du Gatekeeper, allumé au briquet zèle. Chaud, doré, plein d'insectes et d'araignées. Le progrès « Thinking with Portals » du mod salue ceux qui ont vu les deux mondes.
@@ -6412,10 +8841,18 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > La table d'alchimie convertit les matières brutes de l'Everdawn en celles de l'Everbright et inversement, fait de l'or, et combine la pierre avec un artéfact pour obtenir la pierre de donjon.
 - **Les quatre artéfacts** *(optionnelle)* — tâches : item blue_skies:ethereal_arc, item blue_skies:dusk_arc, item blue_skies:nature_arc, item blue_skies:poison_arc — récompense : xp 15 — après : arachnarque
   > Chaque gardien de donjon porte son artéfact, qui donne un pouvoir à qui le porte. Posé sur la keystone de son donjon, l'artéfact relance le boss, avec un temps de recharge ; les clés ne servent qu'à la première fois.
+- **Ré-invoquer l'Alchimiste** *(optionnelle)* — tâches : kill blue_skies:alchemist — récompense : xp 15 — après : alchimiste
+  > Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire.
+- **Ré-invoquer l'Arachnarque** *(optionnelle)* — tâches : kill blue_skies:arachnarch — récompense : xp 15 — après : arachnarque
+  > Un arc (artéfact de boss) utilisé sur le keystone du donjon se vide pour ré-invoquer le boss, puis doit se recharger avant de resservir (KeystoneBlock du jar). La quête ne compte que le combat livré après la première victoire.
+- **L'équipement en horizonite** *(optionnelle)* — tâches : item blue_skies:horizonite_helmet, item blue_skies:horizonite_chestplate, item blue_skies:horizonite_leggings, item blue_skies:horizonite_boots, item blue_skies:horizonite_sword, item blue_skies:horizonite_pickaxe, item blue_skies:horizonite_axe, item blue_skies:horizonite_shovel, item blue_skies:horizonite_hoe — récompense : xp 8 — après : forge
+  > Armure et outils en horizonite, le métal de l'Everdawn, qui se fond à la forge d'horizonite.
+- **L'équipement en charoite** *(optionnelle)* — tâches : item blue_skies:charoite_helmet, item blue_skies:charoite_chestplate, item blue_skies:charoite_leggings, item blue_skies:charoite_boots, item blue_skies:charoite_sword, item blue_skies:charoite_pickaxe, item blue_skies:charoite_axe, item blue_skies:charoite_shovel, item blue_skies:charoite_hoe — récompense : xp 12 — après : equipement_horizonite, charoite
+  > Armure et outils en charoite, la gemme de l'Everdawn : le sommet de Blue Skies.
 - **Les deux cieux** — tâches : checkmark Quatre boss au tableau — récompense : xp 10 — après : arachnarque
   > Summonateur, Déstructeur des Étoiles, Alchimiste, Arachnarque. Le journal bleu garde le reste : villages, Stargazers, sac du Veilleur, lances et boucliers.
 
-## Cataclysm  (`monde_cataclysm`, 20 quêtes)
+## Cataclysm  (`monde_cataclysm`, 27 quêtes)
 
 - **Huit boss, huit structures** — tâches : checkmark Lu — récompense : item minecraft:golden_apple 2
   > L'Ender's Cataclysm pose huit boss, chacun dans sa structure, et un œil qui y mène : il se fabrique, et il tourne dans la main comme un œil de l'Ender. Chaque boss lâche de quoi fabriquer un équipement. Sur ce serveur, les boss sont à leur force d'origine, leurs armures ont une durabilité infinie, et cinq d'entre eux se réinvoquent dans leur arène (config).
@@ -6455,10 +8892,24 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > L'Œil de la tempête y mène. Clawdian, Cindaria, Hippocamtus, Urchinkin, et Scylla, qui change le temps quand elle se bat (config du serveur).
 - **Vaincre Scylla** — tâches : advancement cataclysm:kill_scylla — récompense : xp 30 — après : acropole
   > L'impératrice des tempêtes (titre du progrès). Elle lâche l'essence de la tempête et la lacrima (table de butin) ; Ceraunus, l'ancre qui se lance, et Astrape, la lance d'éclair, s'en fabriquent. Elle se réinvoque (config du serveur). Sa mort est annoncée dans #faits-d-armes.
+- **Réveiller Ignis** *(optionnelle)* — tâches : kill cataclysm:ignis — récompense : xp 20 — après : ignis
+  > Des cendres ardentes (« Burning Ashes ») posées sur l'autel de feu de l'arène l'invoquent de nouveau. Elles se fabriquent à partir de « Dying Ember ». La quête ne compte que le combat livré après la première victoire.
+- **Réveiller la Monstruosité** *(optionnelle)* — tâches : kill cataclysm:netherite_monstrosity — récompense : xp 20 — après : monstruosite
+  > À sa mort, un bloc de réapparition se pose à son repaire. Un œil monstrueux utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+- **Réveiller le Gardien de l'Ender** *(optionnelle)* — tâches : kill cataclysm:ender_guardian — récompense : xp 20 — après : gardien
+  > À sa mort, un bloc de réapparition se pose à son repaire. Un œil du vide utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+- **Réveiller le Harbinger** *(optionnelle)* — tâches : kill cataclysm:the_harbinger — récompense : xp 20 — après : harbinger
+  > À sa mort, un bloc de réapparition se pose à son repaire. Un œil mécanique utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+- **Réveiller le Léviathan** *(optionnelle)* — tâches : kill cataclysm:the_leviathan — récompense : xp 20 — après : leviathan
+  > Un sacrifice abyssal (« Abyssal Sacrifice ») posé sur l'autel des abysses de la cité engloutie l'invoque de nouveau. Il se fabrique avec des blocs de diamant, d'émeraude, de fer, d'or et d'améthyste, un cœur de la mer, une coquille de nautile, du corail et l'« Athame ». La quête ne compte que le combat livré après la première victoire.
+- **Réveiller l'Ancien Remnant** *(optionnelle)* — tâches : kill cataclysm:ancient_remnant — récompense : xp 20 — après : remnant
+  > À sa mort, un bloc de réapparition se pose à son repaire. Un œil du désert utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
+- **Réveiller Scylla** *(optionnelle)* — tâches : kill cataclysm:scylla — récompense : xp 20 — après : scylla
+  > À sa mort, un bloc de réapparition se pose à son repaire. Un œil de la tempête utilisé dessus, et consommé, le réveille (config du serveur : réapparition activée). La quête ne compte que le combat livré après la première victoire.
 - **Tous les boss de Cataclysm** — tâches : advancement cataclysm:kill_all_bosses — récompense : xp 50 — après : ignis, monstruosite, gardien, harbinger, leviathan, remnant, maledictus, scylla
   > Le progrès du mod pour les huit, « Cataclysmfarer ». Le Clawdian, le Golem de l'Ender et le Revenant enflammé ont leurs progrès à part.
 
-## Deeper and Darker  (`monde_deeper_and_darker`, 15 quêtes)
+## Deeper and Darker  (`monde_deeper_and_darker`, 22 quêtes)
 
 - **Sous la bedrock** — tâches : checkmark Lu — récompense : item minecraft:torch 16
   > Deeper and Darker prolonge le sculk : de nouvelles créatures dans les cités anciennes, un cœur du Warden, et une dimension sous la bedrock — l'Otherside — avec ses quatre biomes et son temple. Le progrès de départ du mod dit : quelque chose t'attire vers la source.
@@ -6486,12 +8937,26 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Progrès « Plainte pour tapage ». Le bâton se fabrique (recette du mod).
 - **Les élytres d'âme** *(optionnelle)* — tâches : item deeperdarker:soul_elytra — récompense : xp 15 — après : eclat
   > Des élytres renforcées par l'éclat d'écho (recette du mod). Les ailes de l'Aether et les jetpacks sont les autres façons de voler.
-- **L'armure du Warden** — tâches : advancement deeperdarker:main/warden_armor — récompense : xp 25 — après : eclat
-  > Le modèle de forge du Warden s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Il y a aussi le résonarium, un palier intermédiaire, par plaques.
-- **Revenu de l'Otherside** — tâches : checkmark De retour — récompense : xp 5 — après : temple
-  > Le temple trouvé, le cœur en main. La suite est au chapitre Cataclysm.
+- **L'armure du Warden** — tâches : advancement deeperdarker:main/warden_armor — récompense : xp 25 — après : eclat, modele, resonarium_armure
+  > Le modèle de forge du Warden s'applique sur un équipement de nétherite avec un éclat d'écho renforcé (infobulle). Les quatre pièces : progrès « Couvre-moi de sculk ». Chaque pièce, une par une, est à l'Armurerie de l'Encyclopédie.
+- **Du résonarium** — tâches : item deeperdarker:resonarium — récompense : xp 5 — après : portail
+  > Le résonarium tombe des Sludges de l'Otherside (table de butin du jar).
+- **Une plaque de résonarium** — tâches : item deeperdarker:resonarium_plate — récompense : xp 5 — après : resonarium
+  > Quatre résonariums et quatre écailles de tortue.
+- **L'armure de résonarium** — tâches : item deeperdarker:resonarium_helmet, item deeperdarker:resonarium_chestplate, item deeperdarker:resonarium_leggings, item deeperdarker:resonarium_boots — récompense : xp 10 — après : plaque
+  > Le palier intermédiaire : une plaque sur chaque pièce d'armure en fer, à la table de forge.
+- **Les outils de résonarium** — tâches : item deeperdarker:resonarium_sword, item deeperdarker:resonarium_pickaxe, item deeperdarker:resonarium_axe, item deeperdarker:resonarium_shovel, item deeperdarker:resonarium_hoe — récompense : xp 10 — après : plaque
+  > Une plaque sur chaque outil en fer, à la table de forge.
+- **Le modèle du Warden** — tâches : item deeperdarker:warden_upgrade_smithing_template — récompense : xp 8 — après : cite
+  > Un coffre de cité antique sur deux environ en contient un (45 %, modificateur de butin du jar). Sept diamants et un bloc de sculk autour d'un modèle en font deux.
+- **Les outils du Warden** — tâches : item deeperdarker:warden_sword, item deeperdarker:warden_pickaxe, item deeperdarker:warden_axe, item deeperdarker:warden_shovel, item deeperdarker:warden_hoe — récompense : xp 15 — après : eclat, modele, resonarium_outils
+  > Un modèle et un éclat d'écho renforcé sur chaque outil de nétherite. Un par un, ils sont à l'Arsenal de l'Encyclopédie.
+- **Un autre Warden** — tâches : kill minecraft:warden — récompense : xp 25 — après : warden
+  > Les hurleurs de sculk le rappellent. Seul un combat mené après cette quête compte.
+- **Revenu de l'Otherside** — tâches : checkmark De retour — récompense : xp 5 — après : temple, armure, warden_outils, warden_relance
+  > Le temple trouvé, l'équipement du Warden au complet, le Warden battu deux fois. La suite est au chapitre Cataclysm.
 
-## Donjons et autres boss  (`monde_donjons`, 16 quêtes)
+## Donjons et autres boss  (`monde_donjons`, 30 quêtes)
 
 - **Ce qui reste à abattre** — tâches : checkmark Lu — récompense : item minecraft:arrow 32
   > Les donjons de When Dungeons Arise, ceux de Stalwart Dungeons et leurs trois boss, l'Invoker d'Illager Invasion, le Ver du vide, le Berserker de Galosphere, et les primes de Bountiful. Le Roi Mort et Tyros sont au chapitre Iron's Spells.
@@ -6523,36 +8988,160 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Le progrès du mod s'appelle « Règne de terreur » : invoquer le Berserker. Il se joue autour du Sanctuaire du sel rose et de sa Tablette liée au sel. Sa mort est annoncée dans #faits-d-armes.
 - **Le tableau de primes** — tâches : item bountiful:bountyboard, checkmark Trois primes prises — récompense : xp 8 — après : intro
   > Bountiful : un tableau de primes propose des contrats à délai. Un décret posé dans le tableau oriente les primes (« Royal Mandate »). Trois primes prises, et la case se coche.
-- **Chasseur de donjons** — tâches : checkmark Un donjon vidé — récompense : xp 5 — après : wda_fort, awful_ghast
-  > Un fort ou un boss suffit. Le chapitre Chasseur de boss des Défis compte tous les boss du serveur.
+- **Des fragments de générateur** *(optionnelle)* — tâches : item spawnersplus:spawner_fragment 8 — récompense : xp 5 — après : intro
+  > Avec Spawners+, un générateur de monstres cassé à la pioche ne disparaît plus : il lâche des fragments de générateur, plus avec Fortune. Les donjons en sont pleins.
+- **Un générateur inactif** *(optionnelle)* — tâches : item spawnersplus:inactive_spawner — récompense : xp 8 — après : fragments
+  > Huit fragments en anneau : un générateur inactif, qui se casse à la pioche en fer au moins. Il attend une âme.
+- **Une âme de monstre** *(optionnelle)* — tâches : item spawnersplus:zombie_soul, item spawnersplus:skeleton_soul, item spawnersplus:spider_soul, item spawnersplus:cave_spider_soul, item spawnersplus:husk_soul, item spawnersplus:creeper_soul, item spawnersplus:blaze_soul, item spawnersplus:magma_cube_soul — récompense : xp 8 — après : generateur_inactif
+  > Une créature tuée avec une arme enchantée « Soul Stealing » peut lâcher son âme : quatre fois sur cent pour un zombie, un squelette, une araignée ou un zombie momifié, cinq pour un blaze ou un creeper, sept pour une araignée venimeuse, deux pour un cube de magma (config du serveur). L'âme utilisée sur un générateur inactif le réveille pour cette créature.
+- **Les âmes qui ne tombent pas** *(optionnelle)* — tâches : item spawnersplus:stray_soul, item spawnersplus:drowned_soul, item spawnersplus:wither_skeleton_soul — récompense : xp 10 — après : ame
+  > Trois âmes ne tombent jamais sur ce serveur : elles se fabriquent. Une âme de squelette entourée de huit seaux de neige poudreuse donne celle du vagabond ; une âme de zombie et huit cœurs de la mer, celle du noyé ; une âme de squelette et huit étoiles du Nether, celle du wither squelette.
+- **Un silencieux de générateur** *(optionnelle)* — tâches : item spawnersplus:spawner_silencer — récompense : xp 5 — après : fragments
+  > Huit fragments autour d'un totem d'immortalité. Tenu en main, il coupe les générateurs proches : de quoi vider un donjon sans vagues sans fin.
+- **Du tungstène** — tâches : item stalwart_dungeons:tungsten_ingot — récompense : xp 5 — après : intro
+  > Le minerai de tungstène de Stalwart Dungeons, fondu en lingots.
+- **L'armure de tungstène** — tâches : item stalwart_dungeons:tungsten_helmet, item stalwart_dungeons:tungsten_chestplate, item stalwart_dungeons:tungsten_leggings, item stalwart_dungeons:tungsten_boots — récompense : xp 10 — après : tungstene
+  > Chaque pièce demande des lingots de tungstène et un débris d'armure de blaze, lâché par les blazes renforcés (table de butin du jar).
+- **Les outils de tungstène** — tâches : item stalwart_dungeons:tungsten_sword, item stalwart_dungeons:tungsten_pickaxe, item stalwart_dungeons:tungsten_axe, item stalwart_dungeons:tungsten_shovel, item stalwart_dungeons:tungsten_hoe — récompense : xp 8 — après : tungstene
+  > Épée, pioche, hache, pelle et houe de tungstène.
+- **L'armure de chorundum** — tâches : item stalwart_dungeons:chorundum_armor_helmet, item stalwart_dungeons:chorundum_armor_chestplate, item stalwart_dungeons:chorundum_armor_leggings, item stalwart_dungeons:chorundum_armor_boots — récompense : xp 15 — après : shelterer, tungstene_armure
+  > Le chorundum, et le cristal du vide que lâche le Shelterer (table de butin du jar) dans chaque pièce. Le dernier palier de Stalwart Dungeons ; chaque pièce est à l'Armurerie de l'Encyclopédie.
+- **Les outils de chorundum** — tâches : item stalwart_dungeons:chorundum_sword, item stalwart_dungeons:chorundum_pickaxe, item stalwart_dungeons:chorundum_axe, item stalwart_dungeons:chorundum_shovel, item stalwart_dungeons:chorundum_hoe — récompense : xp 12 — après : tungstene_outils
+  > Le minerai de chorundum, fondu, et un bâton.
+- **Un autre Awful Ghast** — tâches : kill stalwart_dungeons:awful_ghast — récompense : xp 20 — après : awful_ghast
+  > Un autre combat, dans un autre donjon. Seul un combat mené après l'ouverture de cette quête compte.
+- **Un autre Nether Keeper** — tâches : kill stalwart_dungeons:nether_keeper — récompense : xp 20 — après : nether_keeper
+  > Un autre combat, dans un autre château. Seul un combat mené après l'ouverture de cette quête compte.
+- **Un autre Shelterer** — tâches : kill stalwart_dungeons:shelterer — récompense : xp 20 — après : shelterer
+  > Un autre combat, dans un autre donjon de l'End. Seul un combat mené après l'ouverture de cette quête compte.
+- **Un autre Invoker** — tâches : kill illagerinvasion:invoker — récompense : xp 20 — après : invoker
+  > Il revient dans les raids. Seul un combat mené après l'ouverture de cette quête compte.
+- **Chasseur de donjons** — tâches : checkmark Un donjon vidé — récompense : xp 5 — après : wda_fort, chorundum_armure, chorundum_outils, awful_ghast_relance, nether_keeper_relance, shelterer_relance, invoker_relance
+  > Le fort des illageois, l'équipement de chorundum, et chaque boss de donjon battu deux fois. Le chapitre Chasseur de boss des Défis compte tous les boss du serveur.
 
-## Les dragons  (`monde_dragons`, 11 quêtes)
+## Les dragons  (`monde_dragons`, 59 quêtes)
 
 - **Dragon Mounts: Legacy** — tâches : checkmark Lu — récompense : xp 2
   > Trente-six races de dragons dans le pack : les huit de base — feu, eau, forêt, glace, fantôme, Nether, End, Aether — et vingt-huit de l'extension : orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, jade, sang, ombre, lumière… Un dragon se monte, vole, et souffle (3 de dégâts sur 40 blocs, config du serveur). En patrouille, il reste à 8 blocs de son poste.
-- **Un œuf de dragon** — tâches : checkmark Un œuf en poche — récompense : xp 5 — après : intro
-  > Les œufs sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi : il se renouvelle sur le portail après chaque dragon ré-invoqué (config).
-- **Faire éclore** — tâches : checkmark Un dragon est né — récompense : xp 8 — après : oeuf
-  > Posé, l'œuf couve et l'infobulle compte les secondes. Il change de race selon son milieu (config : les habitats sont actifs) — un œuf posé dans la neige donne un dragon de glace.
+- **Un œuf de dragon** — tâches : oeuf_dragon fire, oeuf_dragon forest, oeuf_dragon ghost, oeuf_dragon ice, oeuf_dragon nether, oeuf_dragon water, oeuf_dragon aether, oeuf_dragon end, item minecraft:dragon_egg — récompense : xp 5 — après : intro
+  > Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts).
+- **Faire éclore** — tâches : observation entity dragonmounts:dragon — récompense : xp 8 — après : oeuf
+  > Posé, l'œuf couve et l'infobulle compte les secondes. Il change de race selon son milieu (config : les habitats sont actifs). La quête se valide en regardant un dragon.
   >   > Autre voie : dans #dragons, poste !dragon <x> <y> <z> <race> (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée.
 - **Apprivoiser et seller** — tâches : item minecraft:saddle — récompense : xp 5 — après : eclosion
   > Le bébé se nourrit et grandit ; adulte, une selle (chapitre Agriculture des bases) et il se monte. Tous les dragons du serveur sont dans une même équipe sans tir allié (datapack du serveur) : le souffle d'un dragon ne lance plus de bagarre avec un autre.
 - **Monter un dragon** — tâches : checkmark J'ai volé — récompense : xp 10 — après : apprivoiser
-  > Vol libre, souffle à la touche du mod. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler.
-- **Une race de l'extension** *(optionnelle)* — tâches : checkmark Un dragon hors des huit races de base — récompense : xp 5 — après : eclosion
-  > Orage, solaire, lunaire, éclipse, sculk, Wither, zombie, cristal, bronze, Nether primordial, End primordial, monarque, aîné… Vingt-huit races au-delà des huit de base (lang du mod).
-- **Un croisement hybride** *(optionnelle)* — tâches : checkmark Croisement tenté — récompense : xp 8 — après : apprivoiser
-  > Deux dragons adultes de races différentes peuvent donner un hybride. Sur BMC4, le jar du serveur est patché : 25 % de chance d'obtenir la race hybride, sinon l'une des deux races parentes. Chaque race de base ne se reproduit que deux fois (config du serveur).
+  > Vol libre, souffle à la touche du mod. Aucune tâche ne sait voir un joueur en selle sur un dragon : celle-ci se coche. Le Moa de l'Aether, les élytres et les jetpacks sont les autres façons de voler.
+- **Un coffre sur le dos** *(optionnelle)* — tâches : item minecraft:chest — récompense : xp 3 — après : apprivoiser
+  > Un coffre donné à un dragon apprivoisé lui fait porter un inventaire : le voyage de longue distance emporte son chargement.
+- **L'armure de dragon en cuivre** *(optionnelle)* — tâches : item minecraft:copper_block — récompense : xp 4 — après : apprivoiser
+  > Un bloc de cuivre donné au dragon apprivoisé l'habille d'une armure : 4 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+- **L'armure de dragon en or** *(optionnelle)* — tâches : item minecraft:gold_block — récompense : xp 6 — après : armure_dragon_copper
+  > Un bloc d'or donné au dragon apprivoisé l'habille d'une armure : 6 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+- **L'armure de dragon en fer** *(optionnelle)* — tâches : item minecraft:iron_block — récompense : xp 8 — après : armure_dragon_gold
+  > Un bloc de fer donné au dragon apprivoisé l'habille d'une armure : 8 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+- **L'armure de dragon en émeraude** *(optionnelle)* — tâches : item minecraft:emerald_block — récompense : xp 10 — après : armure_dragon_iron
+  > Un bloc d'émeraude donné au dragon apprivoisé l'habille d'une armure : 10 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+- **L'armure de dragon en diamant** *(optionnelle)* — tâches : item minecraft:diamond_block — récompense : xp 12 — après : armure_dragon_emerald
+  > Un bloc de diamant donné au dragon apprivoisé l'habille d'une armure : 12 points d'armure. Le palier suivant protège mieux. Le bloc se reprend en lui en donnant un autre.
+- **L'armure de dragon en nétherite** *(optionnelle)* — tâches : item minecraft:netherite_block — récompense : xp 14 — après : armure_dragon_diamond
+  > Un bloc de nétherite donné au dragon apprivoisé l'habille d'une armure : 16 points d'armure. C'est la plus solide : le dragon est équipé au maximum. Le bloc se reprend en lui en donnant un autre.
+- **Un croisement hybride** *(optionnelle)* — tâches : oeuf_dragon aurora, oeuf_dragon black_fire, oeuf_dragon blood, oeuf_dragon blue_fire, oeuf_dragon bronze, oeuf_dragon crystal, oeuf_dragon dark, oeuf_dragon eclipse, oeuf_dragon elder, oeuf_dragon gale, oeuf_dragon jade, oeuf_dragon light, oeuf_dragon lunar, oeuf_dragon magic, oeuf_dragon monarch, oeuf_dragon ocean, oeuf_dragon primal_end, oeuf_dragon primal_nether, oeuf_dragon red, oeuf_dragon sculk, oeuf_dragon shadow, oeuf_dragon solar, oeuf_dragon soul_nether, oeuf_dragon storm, oeuf_dragon sylphid, oeuf_dragon terra, oeuf_dragon wither, oeuf_dragon zombie — récompense : xp 8 — après : apprivoiser
+  > Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : 25 % de chance que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Un œuf posé qui couve peut encore changer de race selon son milieu : à garder loin des habitats d'autres races.
+- **Un œuf : Dragon de Feu** *(optionnelle)* — tâches : oeuf_dragon fire — récompense : xp 5 — après : oeuf
+  > Le Dragon de Feu est une des huit races de base. Son œuf se trouve dans les coffres des temples du désert (5 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, feu, lave, bloc de magma. L'œuf ramassé garde sa race.
+- **Un œuf : Dragon de la Forêt** *(optionnelle)* — tâches : oeuf_dragon forest — récompense : xp 5 — après : oeuf
+  > Le Dragon de la Forêt est une des huit races de base. Son œuf se trouve dans les coffres des temples de la jungle (10 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, feuilles, pousses, fleurs. L'œuf ramassé garde sa race.
+- **Un œuf : Dragon Fantôme** *(optionnelle)* — tâches : oeuf_dragon ghost — récompense : xp 5 — après : oeuf
+  > Le Dragon Fantôme est une des huit races de base. Son œuf se trouve dans les coffres des manoirs (7 %) et des mines abandonnées (5 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, sous la hauteur 0, dans le noir (lumière sous 3). L'œuf ramassé garde sa race.
+- **Un œuf : Dragon de Glace** *(optionnelle)* — tâches : oeuf_dragon ice — récompense : xp 5 — après : oeuf
+  > Le Dragon de Glace est une des huit races de base. Son œuf se trouve dans les coffres des igloos (7 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, glace, neige. L'œuf ramassé garde sa race.
+- **Un œuf : Dragon du Nether** *(optionnelle)* — tâches : oeuf_dragon nether — récompense : xp 5 — après : oeuf
+  > Le Dragon du Nether est une des huit races de base. Son œuf se trouve dans les trésors des bastions (10 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, roches du Nether, tiges biscornues, tiges carmin. L'œuf ramassé garde sa race.
+- **Un œuf : Dragon d'Eau** *(optionnelle)* — tâches : oeuf_dragon water — récompense : xp 5 — après : oeuf
+  > Le Dragon d'Eau est une des huit races de base. Son œuf se trouve dans les trésors enfouis (7 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, coraux, blocs de corail. L'œuf ramassé garde sa race.
+- **Un œuf : Dragon de l'Aether** *(optionnelle)* — tâches : oeuf_dragon aether — récompense : xp 5 — après : oeuf
+  > Le Dragon de l'Aether est une des huit races de base. Son œuf se trouve dans les coffres des donjons de l'Aether (6 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, au-dessus de la hauteur 200, ou près de pierre lumineuse. L'œuf ramassé garde sa race.
+- **Un œuf : Dragon de l'End** *(optionnelle)* — tâches : oeuf_dragon end, item minecraft:dragon_egg — récompense : xp 5 — après : oeuf
+  > Le Dragon de l'End est une des huit races de base. Aucun coffre ne le donne. L'œuf de l'Ender Dragon (un seul, à la première victoire du serveur) éclôt en Dragon de l'End. Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, le souffle de dragon. L'œuf ramassé garde sa race.
+- **Un œuf : Dragon de l'Aurore** *(optionnelle)* — tâches : oeuf_dragon aurora — récompense : xp 8 — après : race_aether, race_ice, croisement
+  > Le croisement d'un Dragon de l'Aether et d'un Dragon de Glace donne un Dragon de l'Aurore une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de purpur, pilier de purpur. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Feu Noir** *(optionnelle)* — tâches : oeuf_dragon black_fire — récompense : xp 8 — après : race_fire, race_ghost, croisement
+  > Le croisement d'un Dragon de Feu et d'un Dragon Fantôme donne un Dragon de Feu Noir une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton noir. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Sang** *(optionnelle)* — tâches : oeuf_dragon blood — récompense : xp 8 — après : race_nether, race_water, croisement
+  > Le croisement d'un Dragon du Nether et d'un Dragon d'Eau donne un Dragon de Sang une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de redstone. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Feu Bleu** *(optionnelle)* — tâches : oeuf_dragon blue_fire — récompense : xp 8 — après : race_fire, race_ice, croisement
+  > Le croisement d'un Dragon de Feu et d'un Dragon de Glace donne un Dragon de Feu Bleu une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Bronze** *(optionnelle)* — tâches : oeuf_dragon bronze — récompense : xp 8 — après : race_aether, race_nether, croisement
+  > Le croisement d'un Dragon de l'Aether et d'un Dragon du Nether donne un Dragon de Bronze une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : lampe à redstone. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Cristal** *(optionnelle)* — tâches : oeuf_dragon crystal — récompense : xp 8 — après : race_forest, race_ice, croisement
+  > Le croisement d'un Dragon de la Forêt et d'un Dragon de Glace donne un Dragon de Cristal une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'améthyste, druse d'améthyste. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur.
+- **Un œuf : Dragon Sombre** *(optionnelle)* — tâches : oeuf_dragon dark — récompense : xp 8 — après : race_end, race_ghost, croisement
+  > Le croisement d'un Dragon de l'End et d'un Dragon Fantôme donne un Dragon Sombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite noire. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon de l'Éclipse** *(optionnelle)* — tâches : oeuf_dragon eclipse — récompense : xp 8 — après : race_ghost, race_ice, croisement
+  > Le croisement d'un Dragon Fantôme et d'un Dragon de Glace donne un Dragon de l'Éclipse une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite jaune. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon Ancien** *(optionnelle)* — tâches : oeuf_dragon elder — récompense : xp 8 — après : race_aether, race_end, croisement
+  > Le croisement d'un Dragon de l'Aether et d'un Dragon de l'End donne un Dragon Ancien une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite grise. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon des Bourrasques** *(optionnelle)* — tâches : oeuf_dragon gale — récompense : xp 8 — après : race_aether, race_forest, croisement
+  > Le croisement d'un Dragon de l'Aether et d'un Dragon de la Forêt donne un Dragon des Bourrasques une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleue. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Jade** *(optionnelle)* — tâches : oeuf_dragon jade — récompense : xp 8 — après : race_forest, race_ghost, croisement
+  > Le croisement d'un Dragon de la Forêt et d'un Dragon Fantôme donne un Dragon de Jade une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'émeraude. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Lumière** *(optionnelle)* — tâches : oeuf_dragon light — récompense : xp 8 — après : race_aether, race_ghost, croisement
+  > Le croisement d'un Dragon de l'Aether et d'un Dragon Fantôme donne un Dragon de Lumière une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite blanche. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur.
+- **Un œuf : Dragon Lunaire** *(optionnelle)* — tâches : oeuf_dragon lunar — récompense : xp 8 — après : race_ice, race_water, croisement
+  > Le croisement d'un Dragon de Glace et d'un Dragon d'Eau donne un Dragon Lunaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : obsidienne pleureuse. Son œuf peut aussi sortir des coffres des igloos (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon Magique** *(optionnelle)* — tâches : oeuf_dragon magic — récompense : xp 8 — après : race_end, race_water, croisement
+  > Le croisement d'un Dragon de l'End et d'un Dragon d'Eau donne un Dragon Magique une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : table d'enchantement. Son œuf peut aussi sortir des coffres des manoirs (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon Monarque** *(optionnelle)* — tâches : oeuf_dragon monarch — récompense : xp 8 — après : race_forest, race_nether, croisement
+  > Le croisement d'un Dragon de la Forêt et d'un Dragon du Nether donne un Dragon Monarque une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée rouge. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur.
+- **Un œuf : Dragon de l'Océan** *(optionnelle)* — tâches : oeuf_dragon ocean — récompense : xp 8 — après : race_fire, race_water, croisement
+  > Le croisement d'un Dragon de Feu et d'un Dragon d'Eau donne un Dragon de l'Océan une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : prismarine, lanterne aquatique. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon de l'End Primordial** *(optionnelle)* — tâches : oeuf_dragon primal_end — récompense : xp 8 — après : race_end, race_fire, croisement
+  > Le croisement d'un Dragon de l'End et d'un Dragon de Feu donne un Dragon de l'End Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : pierre de l'end. Son œuf peut aussi sortir des coffres des donjons (6 %). Chances de la config du serveur.
+- **Un œuf : Dragon du Nether Primordial** *(optionnelle)* — tâches : oeuf_dragon primal_nether — récompense : xp 8 — après : race_end, race_nether, croisement
+  > Le croisement d'un Dragon de l'End et d'un Dragon du Nether donne un Dragon du Nether Primordial une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite rouge. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur.
+- **Un œuf : Dragon Rouge** *(optionnelle)* — tâches : oeuf_dragon red — récompense : xp 8 — après : race_fire, race_nether, croisement
+  > Le croisement d'un Dragon de Feu et d'un Dragon du Nether donne un Dragon Rouge une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : béton rouge. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Sculk** *(optionnelle)* — tâches : oeuf_dragon sculk — récompense : xp 8 — après : race_end, race_forest, croisement
+  > Le croisement d'un Dragon de l'End et d'un Dragon de la Forêt donne un Dragon de Sculk une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sculk, catalyseur de sculk, hurleur sculk. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
+- **Un œuf : Dragon d'Ombre** *(optionnelle)* — tâches : oeuf_dragon shadow — récompense : xp 8 — après : race_end, race_ice, croisement
+  > Le croisement d'un Dragon de l'End et d'un Dragon de Glace donne un Dragon d'Ombre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite émaillée noire. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
+- **Un œuf : Dragon Solaire** *(optionnelle)* — tâches : oeuf_dragon solar — récompense : xp 8 — après : race_aether, race_fire, croisement
+  > Le croisement d'un Dragon de l'Aether et d'un Dragon de Feu donne un Dragon Solaire une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'or. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur.
+- **Un œuf : Dragon du Nether des Âmes** *(optionnelle)* — tâches : oeuf_dragon soul_nether — récompense : xp 8 — après : race_ice, race_nether, croisement
+  > Le croisement d'un Dragon de Glace et d'un Dragon du Nether donne un Dragon du Nether des Âmes une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : sable et terre des âmes, feu des âmes, feu de camp des âmes. Son œuf peut aussi sortir des coffres des trésors des bastions (10 %). Chances de la config du serveur.
+- **Un œuf : Dragon de la Tempête** *(optionnelle)* — tâches : oeuf_dragon storm — récompense : xp 8 — après : race_aether, race_water, croisement
+  > Le croisement d'un Dragon de l'Aether et d'un Dragon d'Eau donne un Dragon de la Tempête une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc de cuivre, cuivre exposé, cuivre érodé. Son œuf peut aussi sortir des coffres des temples de la jungle (10 %). Chances de la config du serveur.
+- **Un œuf : Dragon Sylphide** *(optionnelle)* — tâches : oeuf_dragon sylphid — récompense : xp 8 — après : race_forest, race_water, croisement
+  > Le croisement d'un Dragon de la Forêt et d'un Dragon d'Eau donne un Dragon Sylphide une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : terre cuite bleu clair. Son œuf peut aussi sortir des coffres des trésors enfouis (7 %). Chances de la config du serveur.
+- **Un œuf : Dragon de Terre** *(optionnelle)* — tâches : oeuf_dragon terra — récompense : xp 8 — après : race_fire, race_forest, croisement
+  > Le croisement d'un Dragon de Feu et d'un Dragon de la Forêt donne un Dragon de Terre une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : andésite, granite, diorite. Son œuf peut aussi sortir des coffres des temples du désert (5 %). Chances de la config du serveur.
+- **Un œuf : Dragon Wither** *(optionnelle)* — tâches : oeuf_dragon wither — récompense : xp 8 — après : race_ghost, race_nether, croisement
+  > Le croisement d'un Dragon Fantôme et d'un Dragon du Nether donne un Dragon Wither une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : crâne de wither squelette. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
+- **Un œuf : Dragon Zombie** *(optionnelle)* — tâches : oeuf_dragon zombie — récompense : xp 8 — après : race_ghost, race_water, croisement
+  > Le croisement d'un Dragon Fantôme et d'un Dragon d'Eau donne un Dragon Zombie une fois sur quatre (jar du serveur). L'œuf peut aussi changer de race en couvant au milieu de : bloc d'os. Son œuf peut aussi sortir des coffres des mines abandonnées (5 %). Chances de la config du serveur.
+- **Les trente-six races** *(optionnelle)* — tâches : oeuf_dragon fire, oeuf_dragon forest, oeuf_dragon ghost, oeuf_dragon ice, oeuf_dragon nether, oeuf_dragon water, oeuf_dragon aether, oeuf_dragon end, oeuf_dragon aurora, oeuf_dragon black_fire, oeuf_dragon blood, oeuf_dragon blue_fire, oeuf_dragon bronze, oeuf_dragon crystal, oeuf_dragon dark, oeuf_dragon eclipse, oeuf_dragon elder, oeuf_dragon gale, oeuf_dragon jade, oeuf_dragon light, oeuf_dragon lunar, oeuf_dragon magic, oeuf_dragon monarch, oeuf_dragon ocean, oeuf_dragon primal_end, oeuf_dragon primal_nether, oeuf_dragon red, oeuf_dragon sculk, oeuf_dragon shadow, oeuf_dragon solar, oeuf_dragon soul_nether, oeuf_dragon storm, oeuf_dragon sylphid, oeuf_dragon terra, oeuf_dragon wither, oeuf_dragon zombie — récompense : xp 30 — après : race_fire, race_forest, race_ghost, race_ice, race_nether, race_water, race_aether, race_end, race_aurora, race_black_fire, race_blood, race_blue_fire, race_bronze, race_crystal, race_dark, race_eclipse, race_elder, race_gale, race_jade, race_light, race_lunar, race_magic, race_monarch, race_ocean, race_primal_end, race_primal_nether, race_red, race_sculk, race_shadow, race_solar, race_soul_nether, race_storm, race_sylphid, race_terra, race_wither, race_zombie
+  > Un œuf de chacune des trente-six races, ensemble dans l'inventaire : les huit de base et les vingt-huit hybrides. C'est le sommet du chapitre.
 - **Des écailles de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_scale 3 — récompense : xp 5 — après : intro
-  > DragonLoot : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font une armure, des outils et l'enclume de dragon, sans plafond de niveaux sur ce serveur.
+  > DragonLoot : l'Ender Dragon lâche au moins trois écailles, plus deux tirages par joueur présent (config du serveur). Elles font l'armure, les outils et l'enclume de dragon, sans plafond de niveaux sur ce serveur.
 - **L'armure de dragon** *(optionnelle)* — tâches : advancement dragonloot:dragon_armor — récompense : xp 15 — après : ecailles
-  > Les quatre pièces : progrès « Des écailles de la bête ».
+  > À la table de forge : un modèle d'amélioration en nétherite, une pièce en nétherite-diamant d'Advanced Netherite et une écaille, pour chaque pièce. Les quatre pièces : progrès « Des écailles de la bête ».
+- **Les outils de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_sword, item dragonloot:dragon_pickaxe, item dragonloot:dragon_axe, item dragonloot:dragon_shovel, item dragonloot:dragon_hoe — récompense : xp 10 — après : ecailles
+  > Même recette pour l'épée, la pioche, la hache, la pelle et la houe : modèle en nétherite, outil en nétherite-diamant d'Advanced Netherite, écaille.
+- **Arc, arbalète et trident de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_bow, item dragonloot:dragon_crossbow, item dragonloot:dragon_trident — récompense : xp 10 — après : ecailles
+  > Recettes créées par le code de DragonLoot : à la table de forge, le modèle en nétherite, l'arme du jeu de base et une écaille.
+- **L'armure de cheval de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_horse_armor — récompense : xp 5 — après : ecailles
+  > Le modèle en nétherite, une armure de cheval en diamant et une écaille.
+- **L'enclume de dragon** *(optionnelle)* — tâches : item dragonloot:dragon_anvil — récompense : xp 8 — après : ecailles
+  > Le modèle en nétherite, une enclume et une écaille : une enclume sans plafond de niveaux sur ce serveur.
+- **Le plastron ailé** *(optionnelle)* — tâches : item dragonloot:upgraded_dragon_chestplate — récompense : xp 20 — après : armure
+  > Le plastron de dragon, des élytres et le modèle en nétherite : le plastron ailé, sommet de DragonLoot.
 - **Un hangar** *(optionnelle)* — tâches : checkmark Mes dragons ont un toit — récompense : xp 3 — après : apprivoiser
   > Un dragon en patrouille reste à 8 blocs (config) : un hangar dans le claim le garde à l'abri.
 - **Dragonnier** — tâches : checkmark Dragonnier — récompense : xp 5 — après : monter
   > Un dragon à soi, sellé, dans son hangar.
 
-## L'End  (`monde_end`, 23 quêtes)
+## L'End  (`monde_end`, 31 quêtes)
 
 - **Des yeux de l'Ender** — tâches : item minecraft:ender_eye 12 — récompense : item minecraft:ender_pearl 4
   > Perle de l'End et poudre de blaze. Douze pour le portail, quelques-uns pour chercher la forteresse. L'End du pack est celui de Better End : vingt-huit biomes, des villages, des métaux, et les structures de Moog's.
@@ -6598,10 +9187,26 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > L'obélisque de réapparition de Better End : un point de réapparition dans l'End, où le lit explose.
 - **Les structures de Moog's End** *(optionnelle)* — tâches : structure mes:enderwatch_tower — récompense : xp 5 — après : cite
   > Moog's End Structures : vaisseaux géants, citadelle fantôme, tour de guet de l'Ender, jardin mythique, repaire astral, monolithe. La tour de guet valide la quête.
+- **Ré-invoquer l'Ender Dragon** *(optionnelle)* — tâches : kill minecraft:ender_dragon — récompense : xp 20 — après : dragon
+  > Quatre cristaux de l'End, un sur chaque côté du portail de sortie, ré-invoquent le dragon. Cette quête ne compte que le combat livré après la première victoire. Sur ce serveur, un dragon ré-invoqué ne laisse pas d'œuf ; ses écailles de dragon (DragonLoot) et, avec une arme d'essence enchantée, sa poussière cognizante tombent à chaque fois.
+- **L'armure en thallasium** *(optionnelle)* — tâches : item betterend:thallasium_helmet, item betterend:thallasium_chestplate, item betterend:thallasium_leggings, item betterend:thallasium_boots — récompense : xp 6 — après : thallasium
+  > Better End forge ses armures : un lingot posé sur une de ses enclumes devient, au marteau, une plaque forgée ; les plaques font les pièces. Le thallasium est le premier métal.
+- **Les outils en thallasium** *(optionnelle)* — tâches : item betterend:thallasium_hammer, item betterend:thallasium_sword, item betterend:thallasium_pickaxe, item betterend:thallasium_axe, item betterend:thallasium_shovel, item betterend:thallasium_hoe — récompense : xp 6 — après : thallasium
+  > Le marteau d'abord : un bloc de thallasium et un bâton, avec le modèle d'emmanchement, à la table de forge. Il forge les plaques et les têtes des autres outils.
+- **L'armure en terminite** *(optionnelle)* — tâches : item betterend:terminite_helmet, item betterend:terminite_chestplate, item betterend:terminite_leggings, item betterend:terminite_boots — récompense : xp 8 — après : terminite, armure_thallasium
+  > La terminite s'allie dans la fondeuse de pierre de l'End : un lingot de fer et de la poudre de l'End. Ses plaques demandent une enclume et un marteau de niveau 3.
+- **Les outils en terminite** *(optionnelle)* — tâches : item betterend:terminite_hammer, item betterend:terminite_sword, item betterend:terminite_pickaxe, item betterend:terminite_axe, item betterend:terminite_shovel, item betterend:terminite_hoe — récompense : xp 8 — après : terminite, outils_thallasium
+  > Même chemin qu'en thallasium, en terminite.
+- **L'armure en crystalite** *(optionnelle)* — tâches : item betterend:crystalite_helmet, item betterend:crystalite_chestplate, item betterend:crystalite_leggings, item betterend:crystalite_boots — récompense : xp 10 — après : armure_terminite, infusion
+  > Une branche : chaque pièce en terminite, intacte, passe sur l'autel d'infusion avec des éclats de cristal et une gemme d'ambre.
+- **L'armure en aeternium** *(optionnelle)* — tâches : item betterend:aeternium_helmet, item betterend:aeternium_chestplate, item betterend:aeternium_leggings, item betterend:aeternium_boots — récompense : xp 15 — après : aeternium, armure_terminite
+  > L'aeternium s'allie à partir d'un lingot de terminite et d'un lingot de nétherite. À la table de forge, le modèle d'amélioration de plaque change chaque pièce en terminite en aeternium avec une plaque forgée. C'est le sommet de Better End.
+- **Les outils en aeternium** *(optionnelle)* — tâches : item betterend:aeternium_hammer, item betterend:aeternium_sword, item betterend:aeternium_pickaxe, item betterend:aeternium_axe, item betterend:aeternium_shovel, item betterend:aeternium_hoe — récompense : xp 12 — après : aeternium, outils_terminite
+  > Les outils en aeternium prennent un manche gainé de cuir.
 - **Le vide est franchi** — tâches : checkmark Je vole — récompense : xp 10 — après : elytres, totem_vide
   > Des élytres, un totem du vide, un dragon au tableau. Les mondes des mods — Aether, Blue Skies, Twilight Forest, Otherside — ont chacun leur chapitre.
 
-## Mowzie's Mobs  (`monde_mowzies`, 12 quêtes)
+## Mowzie's Mobs  (`monde_mowzies`, 26 quêtes)
 
 - **Les géants de Mowzie's** — tâches : checkmark Lu — récompense : xp 2
   > Quatre boss à leur place dans le monde — le Wroughtnaut ferreux, le Frostmaw, Umvuthi, le Sculpteur — et des créatures qui valent le détour. La Naga de Mowzie's est un oiseau-serpent des Côtes rocheuses : rien à voir avec la Naga de la Twilight Forest (boss) ni celle de Better Nether.
@@ -6625,10 +9230,38 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Une créature de cristal des grottes, sous Y 16, qui fuit. À la pioche soie, on le capture ; à la pioche fortune, il lâche plus (progrès du mod).
 - **La Naga des Côtes rocheuses** *(optionnelle)* — tâches : advancement mowziesmobs:kill_naga — récompense : xp 5 — après : intro
   > Sur les Côtes rocheuses seulement (liste blanche de la config du serveur). Sa dent fait une dague qui empoisonne et double les dégâts par derrière (infobulle).
-- **Les quatre géants** — tâches : checkmark Les quatre sont tombés — récompense : xp 10 — après : wroughtnaut, frostmaw, umvuthi, sculpteur
-  > Wroughtnaut, Frostmaw, Umvuthi, Sculpteur. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont incassables sur ce serveur (config).
+- **Les yeux de Cataclysm** *(optionnelle)* — tâches : item mowzies_cataclysm:wrought_eye, item mowzies_cataclysm:frostmaw_eye, item mowzies_cataclysm:sun_eye, item mowzies_cataclysm:tongbi_eye — récompense : xp 5 — après : intro
+  > Un œil de l'Ender au centre d'une recette, et le lancer file vers un repaire de Mowzie's, comme les yeux de Cataclysm. L'« Eye of Wrought » mène à la chambre du Wroughtnaut, l'« Eye of Frost » au Frostmaw, l'« Eye of the Sunbird » au bosquet d'Umvuthana, l'« Eye of the Sculptor » au monastère.
+- **La hache et le casque** — tâches : item mowziesmobs:wrought_axe, item mowziesmobs:wrought_helmet — récompense : xp 8 — après : wroughtnaut
+  > Les deux pièces de sa table de butin : la hache et le casque du Wroughtnaut.
+- **Un autre Wroughtnaut** — tâches : kill mowziesmobs:ferrous_wroughtnaut — récompense : xp 20 — après : wrought_butin
+  > Chaque chambre forgée a son Wroughtnaut. Trouve-en une autre et recommence : seul un combat mené après cette quête compte.
+- **Le cristal de glace** — tâches : item mowziesmobs:ice_crystal — récompense : xp 8 — après : frostmaw
+  > Le cristal du Frostmaw, dans sa table de butin. Le lui voler sans le tuer vaut un progrès à part.
+- **Voler le cristal** *(optionnelle)* — tâches : advancement mowziesmobs:steal_ice_crystal — récompense : xp 8 — après : frostmaw
+  > Prendre le cristal à un Frostmaw sans le tuer (progrès du mod).
+- **Un autre Frostmaw** — tâches : kill mowziesmobs:frostmaw — récompense : xp 20 — après : frostmaw_cristal
+  > Un autre Frostmaw, ailleurs dans le froid. Seul un combat mené après cette quête compte.
+- **Un masque d'Umvuthana** — tâches : item mowziesmobs:umvuthana_mask_fury, item mowziesmobs:umvuthana_mask_fear, item mowziesmobs:umvuthana_mask_rage, item mowziesmobs:umvuthana_mask_bliss, item mowziesmobs:umvuthana_mask_misery, item mowziesmobs:umvuthana_mask_faith — récompense : xp 5 — après : bosquet
+  > Six masques, sur les Umvuthana ou dans les coffres du bosquet.
+- **Déguisé dans le bosquet** *(optionnelle)* — tâches : advancement mowziesmobs:sneak_grove — récompense : xp 5 — après : masque
+  > Entrer dans un bosquet d'Umvuthana déguisé (progrès du mod).
+- **Le Raptor** — tâches : advancement mowziesmobs:kill_umvuthana_raptor — récompense : xp 8 — après : bosquet
+  > Le chef des Umvuthana d'un bosquet (progrès du mod).
+- **Le Visage du Sol** — tâches : item mowziesmobs:sol_visage — récompense : xp 8 — après : umvuthi
+  > Le masque d'Umvuthi, dans sa table de butin.
+- **La Bénédiction du Soleil** *(optionnelle)* — tâches : advancement mowziesmobs:suns_blessing — récompense : xp 10 — après : umvuthi
+  > Sept blocs d'or apportés à Umvuthi (config du serveur).
+- **Un autre Umvuthi** — tâches : kill mowziesmobs:umvuthi — récompense : xp 20 — après : visage, raptor
+  > Chaque bosquet a son Umvuthi. Seul un combat mené après cette quête compte.
+- **Le Gantelet fendeur de terre** — tâches : item mowziesmobs:earthrend_gauntlet — récompense : xp 10 — après : sculpteur
+  > La récompense du défi du Sculpteur (table de butin sculptor_test du jar).
+- **La tenue du géomancien** *(optionnelle)* — tâches : item mowziesmobs:geomancer_beads, item mowziesmobs:geomancer_robe, item mowziesmobs:geomancer_belt, item mowziesmobs:geomancer_sandals, item mowziesmobs:sculptor_staff — récompense : xp 10 — après : monastere
+  > Perles, robe, ceinture, sandales et bâton du Sculpteur : dans les coffres du monastère ou sur le Sculpteur lui-même.
+- **Les quatre géants** — tâches : checkmark Les quatre sont tombés — récompense : xp 10 — après : wrought_relance, frostmaw_relance, umvuthi_relance, gantelet
+  > Wroughtnaut, Frostmaw et Umvuthi battus deux fois, le défi du Sculpteur relevé. Le casque du Wroughtnaut, sa hache, le Visage du Sol et le Gantelet fendeur de terre sont incassables sur ce serveur (config).
 
-## Le Nether  (`monde_nether`, 25 quêtes)
+## Le Nether  (`monde_nether`, 41 quêtes)
 
 - **Entrer dans le Nether** — tâches : dimension minecraft:the_nether — récompense : item minecraft:gold_ingot 4, item minecraft:cooked_porkchop 8
   > Dix blocs d'obsidienne, un briquet. Le Nether du pack a quatre mods de biomes — Better Nether, Bygone Nether, Soulful Nether, Jaden's Nether Expansion — et des forteresses refaites. Huit blocs ici valent soixante-quatre dehors : c'est aussi la route la plus courte entre deux bases.
@@ -6651,9 +9284,9 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **De la cincinnasite** — tâches : item betternether:cincinnasite 8 — récompense : xp 3 — après : bn_biomes
   > Le métal de Better Nether, dans son minerai du Nether. Il fait des outils, des lanternes, une enclume et une forge qui remplace le four.
 - **Une forge de cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_forge — récompense : xp 5 — après : cincinnasite
-  > La forge de cincinnasite : le four du Nether, et les outils de cincinnasite sertis de diamant s'y fabriquent (progrès du mod).
+  > La forge de cincinnasite : un bloc de cincinnasite forgée et des briques du Nether, le four du Nether.
 - **Un rubis du Nether** *(optionnelle)* — tâches : item betternether:nether_ruby — récompense : xp 5 — après : bn_biomes
-  > Le rubis du Nether sort du minerai de rubis. Il sert aux outils et armures « flamboyants » du mod.
+  > Le rubis du Nether sort du minerai de rubis. Il fait une armure et des outils, que le modèle « rubis flamboyant » améliore ensuite.
 - **La cité du Nether** *(optionnelle)* — tâches : structure betternether:nether_city — récompense : table aventurier — après : bn_biomes
   > Une ville entière de Better Nether, avec ses coffres par joueur. Le mod pose aussi des pyramides, des autels, des temples de jungle et des piliers.
 - **La Naga de Better Nether** *(optionnelle)* — tâches : kill betternether:naga — récompense : xp 5 — après : bn_biomes
@@ -6675,13 +9308,45 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **Exorciser une apparition** *(optionnelle)* — tâches : advancement netherexp:nether/exorcism — récompense : xp 5 — après : jaden_vallee
   > Une apparition possède une créature ; une bouteille d'eau l'en délivre. Le progrès du mod valide la quête.
 - **Apprivoiser un stampede** *(optionnelle)* — tâches : advancement netherexp:nether/rodeo_stampede — récompense : xp 5 — après : jaden_vallee
-  > Le stampede se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »).
+  > Le stampede naît quand une apparition possède une statue de gargouille « Trample » : posée dans la vallée des âmes, non salée, elle attire les apparitions. Il se laisse apprivoiser avec des os rôtis, et se monte (progrès « Rodeo Stampede »).
+- **Tous les sous-biomes de la vallée** *(optionnelle)* — tâches : advancement netherexp:nether/ssv_sub_biomes — récompense : xp 5 — après : jaden_vallee
+  > Le progrès « The Fright Before Xmas » demande de passer par chaque sous-biome de la vallée des âmes. Les glaciers de glace noire sont les plus rares.
+- **La boussole du sanctum** *(optionnelle)* — tâches : advancement netherexp:nether/emf_raider — récompense : xp 5 — après : jaden_vallee
+  > La « Sanctum Locator Compass » se trouve dans les coffres des chapelles de la vallée des âmes. Active-la et suis-la jusqu'au sanctum (progrès « EMF-Raider »).
+- **Défendre la bougie perfide** *(optionnelle)* — tâches : advancement netherexp:nether/rekindled_betrayal — récompense : xp 10 — après : sanctum
+  > Au cœur du sanctum, une bougie perfide s'allume au briquet et déclenche des vagues de monstres. Tiens jusqu'au bout : elle récompense les joueurs présents en flammes perfides. Sur ce serveur, elle se rallume 30 minutes après avoir été vaincue.
+- **Ouvrir un coffre-brasero** *(optionnelle)* — tâches : advancement netherexp:nether/eldritch_manipulation — récompense : xp 8 — après : jaden_bougie
+  > Les coffres-braseros du sanctum ne s'ouvrent qu'avec une flamme perfide. Ils gardent du débris antique, des diamants, des tessons de poterie, le noyau de fusil et le modèle d'amélioration « Pump-Charge ». Sur ce serveur, un coffre ouvert se remplit de nouveau au bout d'une heure.
+- **Un poing-fusil** *(optionnelle)* — tâches : item netherexp:shotgun_fist — récompense : xp 10 — après : jaden_brasero
+  > Le noyau de fusil (« Shotgun Core ») des coffres-braseros, deux lingots de nétherite et un crâne de squelette font le « Shotgun-Fist ». Sur ce serveur, il tire 25 plombs.
+- **Le fusil à pompe** *(optionnelle)* — tâches : advancement netherexp:nether/the_nether_is_full — récompense : xp 15 — après : jaden_fusil
+  > À la table de forge : le modèle « Pump-Charge » sur le poing-fusil, avec une flamme perfide. Le « Pump-Charge Shotgun » est le sommet de l'arsenal de Jaden's. Le modèle se recopie avec une flamme perfide et sept blocs d'os.
+- **Toutes les statues de gargouille** *(optionnelle)* — tâches : item netherexp:ossified_gargoyle_statue, item netherexp:trample_gargoyle_statue, item netherexp:phase_gargoyle_statue, item netherexp:ghoul_gargoyle_statue, item netherexp:wretched_gargoyle_statue, item netherexp:sealed_gargoyle_statue, item netherexp:occult_gargoyle_statue, item netherexp:treacherous_gargoyle_statue, item netherexp:cirripedia_gargoyle_statue, item netherexp:obfuscated_gargoyle_statue — récompense : xp 15 — après : sanctum
+  > Les dix statues de gargouille du sanctum, à garder dans l'inventaire (progrès « Lorekeeper »). Quatre d'entre elles attirent les apparitions, qui les changent en créatures : « Trample » en stampede, « Phase » en ecto slab, « Ghoul » en banshee, « Ossified » en vessel. Une statue salée ne se laisse plus posséder.
+- **Un antidote** *(optionnelle)* — tâches : advancement netherexp:nether/the_caduceus — récompense : xp 5 — après : jaden_vallee
+  > Les verrues biscornues (« Warped Wart ») brassent des antidotes, un par effet de potion : « Antidote for Poison », « Antidote for Weakness »… (progrès « The Caduceus »).
+- **Le médecin de peste** *(optionnelle)* — tâches : advancement netherexp:nether/plague_doctor — récompense : xp 10 — après : jaden_antidote
+  > Tous les effets d'antidote actifs en même temps (progrès « Plague-Doctor »). Sur ce serveur, potions et antidotes s'empilent par 16.
+- **Invoquer le Wither une seconde fois** *(optionnelle)* — tâches : kill minecraft:wither — récompense : xp 20 — après : wither
+  > Trois crânes de wither squelette sur quatre sables des âmes, et c'est reparti. La quête ne compte que le combat livré après la première victoire : il faut le refaire. Chaque Wither donne une étoile du Nether, celle des balises et de la zénalite de Hazen 'n Stuff.
+- **L'armure de cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_helmet, item betternether:cincinnasite_chestplate, item betternether:cincinnasite_leggings, item betternether:cincinnasite_boots — récompense : xp 5 — après : cincinnasite
+  > Des lingots de cincinnasite. C'est le premier palier de Better Nether.
+- **Les outils de cincinnasite** *(optionnelle)* — tâches : item betternether:cincinnasite_sword, item betternether:cincinnasite_pickaxe, item betternether:cincinnasite_axe, item betternether:cincinnasite_shovel, item betternether:cincinnasite_hoe — récompense : xp 5 — après : cincinnasite
+  > Lingots de cincinnasite et tiges de roseau du Nether en manche.
+- **Les outils de cincinnasite sertis de diamant** *(optionnelle)* — tâches : item betternether:cincinnasite_sword_diamond, item betternether:cincinnasite_pickaxe_diamond, item betternether:cincinnasite_axe_diamond, item betternether:cincinnasite_shovel_diamond, item betternether:cincinnasite_hoe_diamond — récompense : xp 8 — après : outils_cincinnasite
+  > À la table de forge : l'outil de cincinnasite, un diamant, et le modèle « cincinnasite sertie de diamant ».
+- **L'armure de rubis du Nether** *(optionnelle)* — tâches : item betternether:nether_ruby_helmet, item betternether:nether_ruby_chestplate, item betternether:nether_ruby_leggings, item betternether:nether_ruby_boots — récompense : xp 8 — après : rubis
+  > Des rubis du Nether.
+- **Les outils de rubis du Nether** *(optionnelle)* — tâches : item betternether:nether_ruby_sword, item betternether:nether_ruby_pickaxe, item betternether:nether_ruby_axe, item betternether:nether_ruby_shovel, item betternether:nether_ruby_hoe — récompense : xp 8 — après : rubis
+  > Des rubis du Nether et des tiges de roseau du Nether.
+- **Tout en rubis flamboyant** *(optionnelle)* — tâches : item betternether:flaming_ruby_helmet, item betternether:flaming_ruby_chestplate, item betternether:flaming_ruby_leggings, item betternether:flaming_ruby_boots, item betternether:flaming_ruby_sword, item betternether:flaming_ruby_pickaxe, item betternether:flaming_ruby_axe, item betternether:flaming_ruby_shovel, item betternether:flaming_ruby_hoe — récompense : xp 20 — après : armure_rubis, outils_rubis
+  > À la table de forge, chaque pièce et chaque outil en rubis, un catalyseur de sculk et le modèle « rubis flamboyant » : le sommet de Better Nether. Le modèle se recopie avec un diamant et un rubis.
 - **Un trophée de hoglin** *(optionnelle)* — tâches : item mynethersdelight:hoglin_trophy — récompense : xp 3 — après : entrer
   > Nether's Delight : un trophée de hoglin pour le mur, et toute une cuisine du Nether au chapitre Cuisine.
 - **Le Nether est dompté** — tâches : checkmark J'en suis revenu — récompense : xp 10 — après : wither, netherite
   > Le Wither vaincu, la nétherite en poche. L'End attend, et les chapitres Cuisine et Équipement de fin de partie prolongent celui-ci.
 
-## Overworld — cavernes  (`monde_overworld_cavernes`, 15 quêtes)
+## Overworld — cavernes  (`monde_overworld_cavernes`, 19 quêtes)
 
 - **Sous la surface** — tâches : checkmark Lu — récompense : item minecraft:torch 32, item minecraft:cooked_cod 8
   > Trois biomes de cavernes de YUNG's, trois de Galosphere, les géodes, la cité ancienne refaite par Dungeons and Taverns et, tout au fond, le Warden. C'est aussi par là qu'on descend dans l'Otherside de Deeper and Darker, qui a son chapitre.
@@ -6711,10 +9376,18 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Refaite par Dungeons and Taverns : plus grande, plus de salles, plus de coffres — par joueur. Marcher accroupi, poser de la laine sur les capteurs, ne pas déclencher trois fois un hurleur. Les cités donnent les éclats d'écho et les livres en ruine ; c'est de là que part le chemin vers l'Otherside.
 - **Vaincre le Warden** — tâches : kill minecraft:warden — récompense : xp 20 — après : cite_ancienne
   > Aveugle, il entend tout, et il frappe plus fort que n'importe quoi dans l'Overworld : on ne le combat pas, on le piège ou on le fuit. Deeper and Darker lui fait lâcher le Cœur des profondeurs (progrès « Slay the Warden and take its heart »), et sa mort est annoncée dans #faits-d-armes.
-- **Le fond est atteint** — tâches : checkmark Les cavernes sont explorées — récompense : xp 5 — après : cite_ancienne
-  > Six biomes de cavernes et une cité. Le portail de l'Otherside se construit au chapitre Deeper and Darker.
+- **Du palladium** — tâches : item galosphere:palladium_ingot — récompense : xp 5 — après : intro
+  > Le minerai de palladium de Galosphere, sous terre. Les pillards en lâchent aussi des pépites (config du serveur).
+- **L'armure sterling** — tâches : item galosphere:sterling_helmet, item galosphere:sterling_chestplate, item galosphere:sterling_leggings, item galosphere:sterling_boots — récompense : xp 10 — après : palladium
+  > Cuir et palladium. Le casque peut porter une bannière (infobulle) : celle de ta faction.
+- **Le monstromètre** *(optionnelle)* — tâches : item galosphere:monstrometer — récompense : xp 5 — après : palladium, galo_lichen
+  > Quatre lingots de palladium autour d'un éclat de lumière (« Lumiere Shard »).
+- **Des bombes de palladium** *(optionnelle)* — tâches : item galosphere:palladium_bomb — récompense : xp 3 — après : palladium
+  > Quatre lingots de palladium autour d'une poudre à canon : deux bombes.
+- **Le fond est atteint** — tâches : checkmark Les cavernes sont explorées — récompense : xp 5 — après : cite_ancienne, sterling, warden
+  > Les cavernes, une cité, le Warden, et l'armure sterling sur le dos. Le portail de l'Otherside se construit au chapitre Deeper and Darker.
 
-## Overworld — exploration  (`monde_overworld_exploration`, 26 quêtes)
+## Overworld — exploration  (`monde_overworld_exploration`, 29 quêtes)
 
 - **Un monde à piller** — tâches : checkmark Lu — récompense : item minecraft:bread 8, item minecraft:torch 16
   > Le pack ajoute une dizaine de mods de structures : les villages de Towns Towers, les temples, monuments, mines et donjons refaits par YUNG's, les variantes de Repurposed Structures, les ruines de Philips, les bâtisses de Moog's, de Formations et de Structory. Les coffres sont par joueur (Lootr) : ce qu'un autre a pris est encore là pour toi.
@@ -6767,10 +9440,16 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Soixante-neuf biomes de Biomes O' Plenty dans le pack. Cinq à voir de ses yeux : le Bosquet mystique, le Champ de lavande, la Forêt de séquoias, le Volcan, les Tropiques. La boussole de la nature du chapitre Bienvenue les trouve.
 - **Passer une saison** — tâches : item sereneseasons:calendar, checkmark Une saison complète vécue — récompense : xp 5 — après : intro
   > Serene Seasons, réglé sur le serveur : chaque sous-saison dure 8 jours, donc 24 jours par saison et 96 par année, et le temps avance même serveur vide. L'hiver ne pose ni neige ni glace. Les cultures hors saison poussent plus lentement, sans mourir ; l'infobulle de chaque graine dit ses saisons. Le calendrier se fabrique et le verre de serre fait un capteur de saison.
-- **La carte est pleine** — tâches : checkmark J'ai pillé — récompense : xp 10 — après : manoir, monument, repurposed
-  > Un jalon suffit à fermer le chapitre. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre Lieux de l'Encyclopédie listera chaque structure.
+- **Un gardien ancien** — tâches : kill minecraft:elder_guardian — récompense : xp 15 — après : monument
+  > Le gardien du monument, celui qui lance la fatigue de minage. Seul un combat mené après l'ouverture de cette quête compte.
+- **Trois gardiens anciens** — tâches : kill minecraft:elder_guardian 3 — récompense : xp 20 — après : gardien
+  > Trois de plus, dans ce monument ou un autre.
+- **L'évocateur** — tâches : kill minecraft:evoker — récompense : xp 15 — après : manoir
+  > Dans le manoir des bois. Il lâche le totem d'immortalité, qui se porte au chapitre Équipement de fin de partie.
+- **La carte est pleine** — tâches : checkmark J'ai pillé — récompense : xp 10 — après : gardiens, evocateur, heros, temple_jungle, donjon
+  > Les gardiens du monument, l'évocateur du manoir, un raid repoussé, les temples et les donjons. Les cavernes, le Nether, l'End et les mondes des mods suivent ; le chapitre Lieux de l'Encyclopédie listera chaque structure.
 
-## Twilight Forest — exploration  (`monde_twilight_exploration`, 19 quêtes)
+## Twilight Forest — exploration  (`monde_twilight_exploration`, 30 quêtes)
 
 - **La forêt, hors des boss** — tâches : checkmark Lu — récompense : item minecraft:torch 16
   > Les collines creuses, les labyrinthes de haies, la clairière des quêtes, les arbres magiques : tout ce que la Twilight Forest offre sans boss. Une table de dé-fabrication s'y trouve aussi, mais sa fonction de dé-fabrication est désactivée sur ce serveur ; ses recettes spéciales restent.
@@ -6804,6 +9483,28 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Les fragments d'armure des gobelins chevaliers et des chevaliers fantômes, en amas puis en lingots. Armure, épée, bouclier, et la boucle de métal de chevalier.
 - **L'armure en écailles de Naga** *(optionnelle)* — tâches : advancement twilightforest:naga_armors — récompense : xp 5 — après : intro
   > Plastron et jambières en écailles de Naga, les deux (progrès du mod).
+- **L'armure en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_helmet, item twilightforest:ironwood_chestplate, item twilightforest:ironwood_leggings, item twilightforest:ironwood_boots — récompense : xp 5 — après : bois_de_fer
+  > Le premier palier de la Twilight Forest, en lingots de bois de fer.
+- **Les outils en bois de fer** *(optionnelle)* — tâches : item twilightforest:ironwood_sword, item twilightforest:ironwood_pickaxe, item twilightforest:ironwood_axe, item twilightforest:ironwood_shovel, item twilightforest:ironwood_hoe — récompense : xp 5 — après : bois_de_fer
+  > Épée, pioche, hache, pelle et houe en bois de fer, déjà enchantés à la fabrication.
+- **L'armure en Steeleaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_helmet, item twilightforest:steeleaf_chestplate, item twilightforest:steeleaf_leggings, item twilightforest:steeleaf_boots — récompense : xp 6 — après : armure_bois_de_fer
+  > Le deuxième palier, en lingots de Steeleaf.
+- **Les outils en Steeleaf** *(optionnelle)* — tâches : item twilightforest:steeleaf_sword, item twilightforest:steeleaf_pickaxe, item twilightforest:steeleaf_axe, item twilightforest:steeleaf_shovel, item twilightforest:steeleaf_hoe — récompense : xp 6 — après : outils_bois_de_fer
+  > Les mêmes outils en Steeleaf.
+- **L'armure en métal de chevalier** *(optionnelle)* — tâches : item twilightforest:knightmetal_helmet, item twilightforest:knightmetal_chestplate, item twilightforest:knightmetal_leggings, item twilightforest:knightmetal_boots — récompense : xp 8 — après : knightmetal, armure_steeleaf
+  > Le troisième palier, en lingots de métal de chevalier.
+- **Les armes en métal de chevalier** *(optionnelle)* — tâches : item twilightforest:knightmetal_sword, item twilightforest:knightmetal_pickaxe, item twilightforest:knightmetal_axe, item twilightforest:knightmetal_shield, item twilightforest:block_and_chain — récompense : xp 8 — après : knightmetal, outils_steeleaf
+  > Épée, pioche, hache, bouclier et boulet à chaîne. L'épée, la pioche et la hache sortent aussi du coffre des chevaliers fantômes.
+- **L'armure ardente** *(optionnelle)* — tâches : item twilightforest:fiery_helmet, item twilightforest:fiery_chestplate, item twilightforest:fiery_leggings, item twilightforest:fiery_boots — récompense : xp 12 — après : armure_knightmetal, ardent
+  > Le sommet de l'armure forgée de la Twilight Forest : des lingots ardents, faits du sang ou des larmes de l'Hydre et du Ur-Ghast.
+- **L'épée et la pioche ardentes** *(optionnelle)* — tâches : item twilightforest:fiery_sword, item twilightforest:fiery_pickaxe — récompense : xp 10 — après : armes_knightmetal, ardent
+  > Les deux outils ardents : ils enflamment et cuisent ce qu'ils touchent ou minent.
+- **L'armure arctique** *(optionnelle)* — tâches : item twilightforest:arctic_helmet, item twilightforest:arctic_chestplate, item twilightforest:arctic_leggings, item twilightforest:arctic_boots — récompense : xp 6 — après : intro
+  > En fourrure arctique, que lâchent les yétis et les loups d'hiver des Glaciers.
+- **L'armure de yéti** *(optionnelle)* — tâches : item twilightforest:yeti_helmet, item twilightforest:yeti_chestplate, item twilightforest:yeti_leggings, item twilightforest:yeti_boots — récompense : xp 10 — après : armure_arctique
+  > En fourrure de yéti alpha : il faut abattre le Yéti alpha de sa grotte.
+- **L'armure fantôme** *(optionnelle)* — tâches : item twilightforest:phantom_helmet, item twilightforest:phantom_chestplate — récompense : xp 10 — après : armure_knightmetal
+  > Le casque et le plastron fantômes ne se fabriquent pas : ils sont dans le coffre que laissent les chevaliers fantômes de la forteresse.
 - **Les arbres magiques** *(optionnelle)* — tâches : item twilightforest:transformation_sapling, item twilightforest:time_sapling, item twilightforest:mining_sapling, item twilightforest:sorting_sapling — récompense : xp 10 — après : intro
   > Quatre arbres dont le cœur agit à seize blocs (config du serveur) : Transformation change les biomes, Temps accélère les ticks, Minage tire les minerais, Tri range les coffres. Leurs pousses se trouvent dans les coffres de la forêt.
 - **Arboriste** *(optionnelle)* — tâches : advancement twilightforest:arborist — récompense : xp 15 — après : arbres
@@ -6811,7 +9512,7 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
 - **La forêt n'a plus de secret** — tâches : checkmark Exploré — récompense : xp 5 — après : colline3, belier
   > Une grande colline ou le Bélier suffisent. La cuisine de la forêt est au chapitre Cuisine (Twilight's Flavor Delight).
 
-## Twilight Forest — la progression  (`monde_twilight_progression`, 33 quêtes)
+## Twilight Forest — la progression  (`monde_twilight_progression`, 40 quêtes)
 
 - **Le portail de la Twilight Forest** — tâches : advancement twilightforest:root — récompense : item minecraft:diamond 1
   > Un bassin d'eau de 2×2 entouré de fleurs, un diamant jeté dedans, un éclair. La progression de la forêt est verrouillée par ses boss sur ce serveur : un biome dont le boss précédent n'est pas tombé inflige des malus. Le butin des boss va dans un coffre posé là où le boss est apparu (config du serveur), et le portail de retour est utilisable sans objet.
@@ -6878,8 +9579,22 @@ Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis qu
   > Dans les grottes des trolls, la Lampe de cendres brûle les barrières d'épines (texte du progrès). Elle ouvre le Plateau final.
 - **Le Plateau final** — tâches : advancement twilightforest:progression_end — récompense : xp 20 — après : lampe
   > Le château final se dresse là. Le mod le dit lui-même : « tout ce qui est au-delà est en travaux, à finir dans une future version ». Y arriver est la fin de la progression actuelle.
-- **Seigneur de la forêt** — tâches : checkmark Tous les trophées sont chez moi — récompense : xp 10 — après : plateau
-  > Sept boss, sept trophées, une lampe. Le chapitre Exploration de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques.
+- **Une autre Naga** — tâches : kill twilightforest:naga — récompense : xp 20 — après : trophee_naga
+  > Les repaires des boss reviennent dans toute la forêt : une autre cour de la Naga. Seul un combat mené après l'ouverture de cette quête compte.
+- **Un autre Minoshroom** — tâches : kill twilightforest:minoshroom — récompense : xp 20 — après : stroganoff
+  > Les repaires des boss reviennent dans toute la forêt : un autre labyrinthe. Seul un combat mené après l'ouverture de cette quête compte.
+- **Une autre Hydre** — tâches : kill twilightforest:hydra — récompense : xp 20 — après : trophee_hydre
+  > Les repaires des boss reviennent dans toute la forêt : un autre repaire. Seul un combat mené après l'ouverture de cette quête compte.
+- **D'autres chevaliers fantômes** — tâches : kill twilightforest:knight_phantom 6 — récompense : xp 20 — après : trophee_chevaliers
+  > Les repaires des boss reviennent dans toute la forêt : un autre bastion ; il y en a six par combat. Seul un combat mené après l'ouverture de cette quête compte.
+- **Un autre Ur-Ghast** — tâches : kill twilightforest:ur_ghast — récompense : xp 20 — après : trophee_ur_ghast
+  > Les repaires des boss reviennent dans toute la forêt : une autre tour sombre. Seul un combat mené après l'ouverture de cette quête compte.
+- **Un autre Yéti alpha** — tâches : kill twilightforest:alpha_yeti — récompense : xp 20 — après : trophee_yeti
+  > Les repaires des boss reviennent dans toute la forêt : une autre grotte. Seul un combat mené après l'ouverture de cette quête compte.
+- **Une autre Reine des neiges** — tâches : kill twilightforest:snow_queen — récompense : xp 20 — après : trophee_reine
+  > Les repaires des boss reviennent dans toute la forêt : un autre palais. Seul un combat mené après l'ouverture de cette quête compte.
+- **Seigneur de la forêt** — tâches : checkmark Tous les trophées sont chez moi — récompense : xp 10 — après : plateau, naga_relance, minoshroom_relance, hydre_relance, chevaliers_relance, ur_ghast_relance, yeti_relance, reine_relance
+  > Sept boss, sept trophées, une lampe, et chaque boss battu une seconde fois, sauf la Liche. Le chapitre Exploration de la Twilight Forest reste à remplir : collines creuses, clairière des quêtes, arbres magiques.
 
 ## Contrats de la semaine  (`semaine_contrats`, 21 quêtes)
 
