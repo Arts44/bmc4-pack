@@ -334,7 +334,7 @@ description = """
 [[quete]]
 cle = "echanges_50"
 titre = "Cinquante échanges"
-deps = ["bibliothecaire"]
+deps = ["echange"]
 taches = ["stat minecraft:traded_with_villager 50"]
 recompenses = ["xp 5"]
 description = """
@@ -344,7 +344,7 @@ Cinquante échanges avec les villageois (statistique du jeu). Un villageois qui 
 [[quete]]
 cle = "echanges_250"
 titre = "Deux cent cinquante échanges"
-deps = ["echanges_50", "comptoir"]
+deps = ["echanges_50", "echange"]
 taille = 1.5
 forme = "diamond"
 taches = ["stat minecraft:traded_with_villager 250"]

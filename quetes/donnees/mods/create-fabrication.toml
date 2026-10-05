@@ -256,8 +256,8 @@ La &7table à schémas&r charge un plan de construction ; le &7Schematicannon&r
 
 [[quete]]
 cle = "fin"
+racine = true
 titre = "&bL'usine tourne"
-deps = ["bras", "vapeur"]
 taille = 1.5
 icone = "create:mechanical_arm"
 taches = ["advancement create:steam_engine"]
@@ -275,8 +275,8 @@ Du laiton, un bras, des établis, et de la vapeur pour tout faire tourner. La su
 # remplace une case à cocher dès qu'il existe.
 [[quete]]
 cle = "tole_robuste"
+racine = true
 titre = "Une tôle robuste"
-deps = ["deployeur"]
 optionnel = true
 taches = ["advancement create:sturdy_sheet"]
 recompenses = ["xp 6"]
@@ -286,8 +286,8 @@ De l'obsidienne en poudre, raffinée en tôle robuste : la matière des boîtie
 
 [[quete]]
 cle = "bras_dix"
+racine = true
 titre = "Un bras à dix sorties"
-deps = ["bras"]
 optionnel = true
 taches = ["advancement create:arm_many_targets"]
 recompenses = ["xp 8"]
@@ -297,8 +297,8 @@ Un bras mécanique programmé avec dix emplacements de sortie ou plus (progrès 
 
 [[quete]]
 cle = "bras_bruleur"
+racine = true
 titre = "Un bras qui nourrit le brûleur"
-deps = ["bras", "bruleur"]
 optionnel = true
 taches = ["advancement create:arm_blaze_burner"]
 recompenses = ["xp 5"]
@@ -308,8 +308,8 @@ Le bras mécanique alimente le brûleur à blaze (progrès « Combust-o-Tron �
 
 [[quete]]
 cle = "bec"
+racine = true
 titre = "Un bec verseur"
-deps = ["pompe"]
 optionnel = true
 taches = ["advancement create:spout"]
 recompenses = ["xp 4"]
@@ -319,8 +319,8 @@ Remplir un objet de fluide sous un bec verseur (progrès « Sploosh »).
 
 [[quete]]
 cle = "egouttoir"
+racine = true
 titre = "Un égouttoir"
-deps = ["pompe"]
 optionnel = true
 taches = ["advancement create:drain"]
 recompenses = ["xp 4"]
@@ -330,8 +330,8 @@ Vider un objet de son fluide dans un égouttoir (progrès « Tumble Draining �
 
 [[quete]]
 cle = "lave_infinie"
+racine = true
 titre = "Pomper une mer de lave"
-deps = ["pompe"]
 optionnel = true
 taches = ["advancement create:hose_pulley_lava"]
 recompenses = ["xp 10"]
@@ -341,8 +341,8 @@ Une poulie à tuyau dans une étendue de lave assez grande pour compter comme in
 
 [[quete]]
 cle = "contraption_outils"
+racine = true
 titre = "Une contraption qui travaille"
-deps = ["chassis"]
 optionnel = true
 taches = ["advancement create:contraption_actors"]
 recompenses = ["xp 5"]
@@ -352,8 +352,8 @@ Une contraption avec foreuses, scies ou moissonneuses à bord (progrès « Movi
 
 [[quete]]
 cle = "wagon_200"
+racine = true
 titre = "&6Une contraption de 200 blocs"
-deps = ["chariot"]
 optionnel = true
 forme = "diamond"
 taches = ["advancement create:cart_pickup"]
@@ -364,8 +364,8 @@ Ramasser une contraption sur wagonnet d'au moins 200 blocs (progrès « Strong 
 
 [[quete]]
 cle = "auto_rails"
+racine = true
 titre = "Un wagonnet qui pose ses rails"
-deps = ["chariot"]
 optionnel = true
 taches = ["advancement create:self_deploying"]
 recompenses = ["xp 10"]
@@ -375,8 +375,8 @@ Une contraption sur wagonnet qui pose les rails devant elle (progrès « Self-D
 
 [[quete]]
 cle = "poulie_200"
+racine = true
 titre = "Une poulie de 200 blocs"
-deps = ["ascenseur"]
 optionnel = true
 taches = ["advancement create:pulley_maxed"]
 recompenses = ["xp 8"]
@@ -386,8 +386,8 @@ Une poulie à corde déroulée sur plus de 200 blocs de profondeur (progrès «�
 
 [[quete]]
 cle = "vapeur_max"
+racine = true
 titre = "&6La vapeur à pleine puissance"
-deps = ["vapeur"]
 optionnel = true
 forme = "diamond"
 taille = 1.3
@@ -412,8 +412,8 @@ Plus de mille rails sortis de la même presse mécanique (progrès « Track Fac
 
 [[quete]]
 cle = "scaphandre_netherite"
+racine = true
 titre = "Un scaphandre en nétherite"
-deps = ["scaphandre"]
 optionnel = true
 taches = ["advancement create:diving_suit_lava"]
 recompenses = ["xp 10"]
@@ -423,8 +423,8 @@ Le scaphandre en nétherite permet de tenter la plongée dans la lave (progrès 
 
 [[quete]]
 cle = "canon_victoire"
+racine = true
 titre = "Une victoire au canon à patates"
-deps = ["canon"]
 optionnel = true
 taches = ["advancement create:potato_cannon"]
 recompenses = ["xp 4"]

@@ -79,7 +79,7 @@ Un lingot de nétherite-fer et quatre d'or. L'armure complète rend les &lpiglin
 [[quete]]
 cle = "or_armure"
 titre = "Armure de nétherite-or"
-deps = ["or", "fer_armure"]
+deps = ["fer", "fer_armure"]
 taches = ["advancement advancednetherite:nether/netherite_gold_armor"]
 recompenses = ["xp 12"]
 description = """
@@ -109,7 +109,7 @@ Un lingot de nétherite-or et quatre émeraudes. L'armure complète rend les &le
 [[quete]]
 cle = "emeraude_armure"
 titre = "Armure de nétherite-émeraude"
-deps = ["emeraude", "or_armure"]
+deps = ["fer", "or_armure"]
 taches = ["advancement advancednetherite:nether/netherite_emerald_armor"]
 recompenses = ["xp 15"]
 description = """
@@ -140,7 +140,7 @@ Le dernier palier : un lingot de nétherite-émeraude et quatre diamants. Phant
 [[quete]]
 cle = "diamant_armure"
 titre = "&8Couvert de nétherite-diamant"
-deps = ["diamant", "emeraude_armure"]
+deps = ["fer", "emeraude_armure"]
 taille = 1.5
 forme = "gear"
 taches = ["advancement advancednetherite:nether/netherite_diamond_armor"]
@@ -164,7 +164,7 @@ description = """
 [[quete]]
 cle = "bloc"
 titre = "Un bloc très cher"
-deps = ["diamant"]
+deps = ["fer"]
 optionnel = true
 taches = ["advancement advancednetherite:nether/obtain_netherite_diamond_block"]
 recompenses = ["xp 10"]
@@ -197,8 +197,8 @@ description = """
 
 [[quete]]
 cle = "bouclier_diamant"
+racine = true
 titre = "Un bouclier de diamant"
-deps = ["bouclier"]
 optionnel = true
 taches = ["advancement shieldexp:get_diamond_shield"]
 recompenses = ["xp 8"]

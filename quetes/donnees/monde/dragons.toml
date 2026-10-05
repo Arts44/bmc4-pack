@@ -50,10 +50,12 @@ cle = "oeuf"
 titre = "Un œuf de dragon"
 racine = true
 taches_une = true
-taches = ["oeuf_dragon fire", "oeuf_dragon forest", "oeuf_dragon ghost", "oeuf_dragon ice", "oeuf_dragon nether", "oeuf_dragon water", "oeuf_dragon aether", "oeuf_dragon end", "item minecraft:dragon_egg"]
+taches = ["oeuf_dragon fire", "oeuf_dragon forest", "oeuf_dragon ghost", "oeuf_dragon ice", "oeuf_dragon nether", "oeuf_dragon water", "oeuf_dragon aether", "oeuf_dragon end", "item minecraft:dragon_egg", "observation entity dragonmounts:dragon"]
 recompenses = ["xp 5"]
 description = """
 Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts).
+
+Tu as déjà un dragon et plus d'œuf ? &lRegarde ton dragon&r : la quête accepte l'œuf &lou&r la vue d'un dragon, et le reste du chapitre s'ouvre.
 """
 
 [[quete]]
@@ -610,8 +612,8 @@ description = """
 
 [[quete]]
 cle = "armure"
+racine = true
 titre = "L'armure de dragon"
-deps = ["ecailles"]
 optionnel = true
 taches = ["advancement dragonloot:dragon_armor"]
 recompenses = ["xp 15"]

@@ -87,8 +87,8 @@ Dans les bastions. Il se recopie : sept diamants et un bloc de roche du Nether 
 
 [[quete]]
 cle = "ornement"
+racine = true
 titre = "Un premier ornement"
-deps = ["forgeron"]
 taches = ["advancement minecraft:adventure/trim_with_any_armor_pattern"]
 recompenses = ["xp 3"]
 description = """
@@ -253,8 +253,8 @@ Les huit modèles qui ne se trouvent qu'une fois par structure, tous posés (pro
 
 [[quete]]
 cle = "enchanter"
+racine = true
 titre = "Un premier enchantement"
-deps = ["table"]
 taches = ["advancement minecraft:story/enchant_item"]
 recompenses = ["xp 3"]
 description = """
@@ -284,7 +284,7 @@ Une pièce d'armure en diamant (progrès du jeu).
 [[quete]]
 cle = "armure_netherite"
 titre = "&8L'armure de nétherite complète"
-deps = ["armure_diamant", "netherite"]
+deps = ["armure_diamant"]
 taille = 1.5
 forme = "diamond"
 taches = ["advancement minecraft:nether/netherite_armor"]

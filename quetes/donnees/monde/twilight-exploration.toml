@@ -330,8 +330,8 @@ Quatre arbres dont le cœur agit à seize blocs (config du serveur) : &dTransfo
 
 [[quete]]
 cle = "arboriste"
+racine = true
 titre = "Arboriste"
-deps = ["arbres"]
 optionnel = true
 taches = ["advancement twilightforest:arborist"]
 recompenses = ["xp 15"]

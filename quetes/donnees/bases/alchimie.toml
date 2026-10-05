@@ -41,8 +41,8 @@ Verrue du Nether sur eau. La base de tout. Première potion : progrès « Loca
 
 [[quete]]
 cle = "premiere"
+racine = true
 titre = "Brasserie locale"
-deps = ["etrange"]
 taches = ["advancement minecraft:nether/brew_potion"]
 recompenses = ["xp 2"]
 
@@ -257,8 +257,8 @@ Pas de recette vanilla : elle se trouve, ou se vend. Elle améliore le butin de
 
 [[quete]]
 cle = "toutes"
+racine = true
 titre = "&5Toutes les potions"
-deps = ["regeneration", "force", "rapidite", "saut", "feu", "eau", "nuit", "invisibilite", "chute", "tortue"]
 optionnel = true
 taille = 1.3
 taches = ["advancement minecraft:nether/all_potions"]

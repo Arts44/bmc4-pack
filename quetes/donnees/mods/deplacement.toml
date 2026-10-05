@@ -173,8 +173,8 @@ La &lportstone&r se fait autour d'une pierre de téléportation. On en part, mai
 
 [[quete]]
 cle = "vol"
+racine = true
 titre = "Un kilomètre en élytres"
-deps = ["elytres"]
 optionnel = true
 taches = ["stat minecraft:aviate_one_cm 100000"]
 recompenses = ["xp 5"]

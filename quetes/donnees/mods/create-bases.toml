@@ -267,8 +267,8 @@ Le &7boîtier d'andésite&r se fait en frappant une bûche écorcée avec de l'a
 # remplace une case à cocher dès qu'il existe.
 [[quete]]
 cle = "compactage"
+racine = true
 titre = "Compacter à la presse"
-deps = ["presse", "bassin"]
 optionnel = true
 taches = ["advancement create:compacting"]
 recompenses = ["xp 4"]
@@ -278,8 +278,8 @@ Une presse au-dessus d'un bassin réduit beaucoup d'objets en peu (progrès « 
 
 [[quete]]
 cle = "ventilation"
+racine = true
 titre = "Traiter au ventilateur"
-deps = ["ventilateur"]
 optionnel = true
 taches = ["advancement create:fan_processing"]
 recompenses = ["xp 4"]
@@ -289,8 +289,8 @@ Lavage, fumage, hantise, fonte : le ventilateur traite les objets qui passent d
 
 [[quete]]
 cle = "concasseur_max"
+racine = true
 titre = "&6Des roues de concassage à pleine vitesse"
-deps = ["concasseur"]
 optionnel = true
 forme = "diamond"
 taches = ["advancement create:crusher_maxed_0000"]
@@ -301,8 +301,8 @@ Une paire de roues de concassage à la vitesse maximale (progrès « Crushing I
 
 [[quete]]
 cle = "moulin_max"
+racine = true
 titre = "&6Un moulin à vent au maximum"
-deps = ["moulin"]
 optionnel = true
 forme = "diamond"
 taches = ["advancement create:windmill_maxed"]

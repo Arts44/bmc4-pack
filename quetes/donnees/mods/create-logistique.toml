@@ -157,8 +157,8 @@ Levier, boîtier ferroviaire, mécanisme de précision. Les &bcommandes&r se pos
 
 [[quete]]
 cle = "train"
+racine = true
 titre = "Assembler un train"
-deps = ["commandes"]
 boss = true
 forme = "diamond"
 taches = ["advancement create:train"]
@@ -214,7 +214,7 @@ Donner un horaire à un conducteur de train (progrès « Conductor Instructor 
 [[quete]]
 cle = "tableau_horaire"
 titre = "Un tableau des arrivées"
-deps = ["affichage", "horaire"]
+deps = ["horaire"]
 optionnel = true
 taches = ["advancement create:display_board_0"]
 recompenses = ["xp 6"]
@@ -259,7 +259,7 @@ Un train d'au moins six wagons (progrès « Ambitious Endeavours »).
 [[quete]]
 cle = "grand_voyage"
 titre = "&6&lUn réseau de 5 000 blocs"
-deps = ["train_long", "signal"]
+deps = ["train_long"]
 optionnel = true
 forme = "diamond"
 taille = 1.6
@@ -271,8 +271,8 @@ Quitter un siège de train à plus de 5 000 blocs du point de départ (progrès 
 
 [[quete]]
 cle = "demande_auto"
+racine = true
 titre = "Une commande automatique"
-deps = ["jauge"]
 optionnel = true
 taches = ["advancement create:factory_gauge"]
 recompenses = ["xp 8"]
@@ -282,8 +282,8 @@ Déclencher une commande de colis automatique avec des jauges d'usine (progrès 
 
 [[quete]]
 cle = "grenouille_attrape"
+racine = true
 titre = "La grenouille attrape un colis"
-deps = ["grenouille", "chaine"]
 optionnel = true
 taches = ["advancement create:frogport"]
 recompenses = ["xp 5"]
@@ -293,8 +293,8 @@ Une grenouille portuaire attrape un colis sur un convoyeur à chaîne (progrès 
 
 [[quete]]
 cle = "guichet_employe"
+racine = true
 titre = "Un employé au guichet"
-deps = ["guichet"]
 optionnel = true
 taches = ["advancement create:stock_ticker"]
 recompenses = ["xp 5"]
@@ -304,8 +304,8 @@ Placer une créature au guichet de stock et passer les premières commandes (pro
 
 [[quete]]
 cle = "nappe"
+racine = true
 titre = "Une boutique sur nappe"
-deps = ["carton"]
 optionnel = true
 taches = ["advancement create:table_cloth_shop"]
 recompenses = ["xp 4"]

@@ -52,8 +52,8 @@ Les étagères ciselées comptent aussi, une par trois livres, à condition de f
 
 [[quete]]
 cle = "enchanter"
+racine = true
 titre = "Dix enchantements à la table"
-deps = ["etageres"]
 taches = ["stat minecraft:enchant_item 10"]
 recompenses = ["item minecraft:lapis_lazuli 16"]
 description = """

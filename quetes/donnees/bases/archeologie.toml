@@ -34,8 +34,8 @@ Plume, lingot de cuivre, bâton. Le &lsable suspect&r est dans les temples du d�
 
 [[quete]]
 cle = "tesson"
+racine = true
 titre = "Un premier tesson"
-deps = ["pinceau"]
 taches = ["advancement minecraft:adventure/salvage_sherd"]
 recompenses = ["xp 3"]
 description = """
@@ -55,7 +55,7 @@ Quatre briques, ou quatre tessons, ou un mélange. Le progrès « Careful Resto
 [[quete]]
 cle = "pot_tessons"
 titre = "Restauration soignée"
-deps = ["pot"]
+deps = ["tesson"]
 optionnel = true
 taches = ["advancement minecraft:adventure/craft_decorated_pot_using_only_sherds"]
 recompenses = ["xp 5"]
