@@ -173,6 +173,23 @@ def contexte():
     return ctx
 
 
+def objets_ajoutes(d, out):
+    """Objets qu'un loot modifier ajoute, quelle que soit sa forme
+    (« item », « added_item », « entries » [{"data": {"id": …}}]…).
+    Les conditions et les tables citées (loot_table_id) ne comptent pas."""
+    if isinstance(d, dict):
+        for k, v in d.items():
+            if k in ('conditions', 'removed_item', 'replaces', 'loot_table_id', 'type', 'lootTable'):
+                continue
+            if k in ('item', 'id', 'name', 'added_item', 'result', 'replacement', 'addition') and isinstance(v, str) and ID.match(v):
+                out.add(v)
+            else:
+                objets_ajoutes(v, out)
+    elif isinstance(d, list):
+        for x in d:
+            objets_ajoutes(x, out)
+
+
 def butin(d, out):
     if isinstance(d, dict):
         if d.get('type') in ('minecraft:item', 'item') and isinstance(d.get('name'), str):
@@ -238,14 +255,10 @@ def main(mods, vanilla, paxi):
     # pas moins leur objet de remplacement, lu de la même façon.
     for k in actifs:
         d = modifs.get(k)
-        if isinstance(d, dict) and passe(d.get('conditions'), ctx):
-            for cle in ('item', 'result', 'addition', 'replacement', 'added_item'):
-                v = d.get(cle)
-                if isinstance(v, str) and ID.match(v):
-                    but.add(v)
-                elif isinstance(v, dict):
-                    tous(v, but)
-            butin(d, but)
+        if (isinstance(d, dict) and passe(d.get('conditions'), ctx)
+                and 'remove' not in str(d.get('type', ''))          # retire, n'ajoute pas
+                and d.get('mod_dependency', 'minecraft') in ctx['mods']):
+            objets_ajoutes(d, but)
     out = {'recette': sorted(rec), 'butin': sorted(but), 'monde': sorted(monde), 'graphe': graphe}
     json.dump(out, open(os.path.join(ICI, '..', 'index', 'obtenables.json'), 'w', encoding='utf-8'), indent=0)
     print({k: len(v) for k, v in out.items()}, 'recettes écartées par leurs conditions :', ecartees)

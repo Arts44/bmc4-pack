@@ -12056,6 +12056,7 @@
 "aether:crystal_fruit_leaves",
 "aether:crystal_leaves",
 "aether:decorated_holiday_leaves",
+"aether:diamond_gloves",
 "aether:enchanted_aether_grass_block",
 "aether:enchanted_berry",
 "aether:enchanted_dart",
@@ -12070,6 +12071,7 @@
 "aether:golden_dart",
 "aether:golden_dart_shooter",
 "aether:golden_feather",
+"aether:golden_gloves",
 "aether:golden_gummy_swet",
 "aether:golden_oak_leaves",
 "aether:golden_oak_log",
@@ -12119,6 +12121,7 @@
 "aether:iron_gloves",
 "aether:iron_pendant",
 "aether:iron_ring",
+"aether:leather_gloves",
 "aether:life_shard",
 "aether:light_angelic_stone",
 "aether:light_hellfire_stone",
@@ -12136,6 +12139,7 @@
 "aether:neptune_gloves",
 "aether:neptune_helmet",
 "aether:neptune_leggings",
+"aether:netherite_gloves",
 "aether:phoenix_boots",
 "aether:phoenix_bow",
 "aether:phoenix_chestplate",
@@ -12216,6 +12220,7 @@
 "aether:zanite_ring",
 "aether:zanite_shovel",
 "aether:zanite_sword",
+"aether_redux:airbound_cape",
 "aether_redux:ancient_sentrite_music_disc",
 "aether_redux:aurum",
 "aether_redux:avelium",
@@ -12423,6 +12428,7 @@
 "aether_redux:shimmerstool",
 "aether_redux:short_aether_grass",
 "aether_redux:skysprouts",
+"aether_redux:solar_emblem",
 "aether_redux:spirolyctil",
 "aether_redux:splitfern",
 "aether_redux:sporing_blightwillow_log",
@@ -12447,7 +12453,10 @@
 "aether_redux:stripped_glacia_log_wall",
 "aether_redux:stripped_glacia_wood",
 "aether_redux:stripped_glacia_wood_wall",
+"aether_redux:subzero_crossbow",
 "aether_redux:theratip",
+"aether_redux:vampire_amulet",
+"aether_redux:vanilla_gummy_swet",
 "aether_redux:vanilla_swet_ball",
 "aether_redux:veridium_block",
 "aether_redux:veridium_chain",
@@ -12461,7 +12470,10 @@
 "aether_redux:zanberry_bush",
 "aether_redux:zanberry_bush_stem",
 "aether_redux:zyatrix",
+"aether_treasure_reforging:neptune_upgrade_smithing_template",
+"aether_treasure_reforging:phoenix_upgrade_smithing_template",
 "aether_treasure_reforging:pyral_block",
+"aether_treasure_reforging:valkyrie_upgrade_smithing_template",
 "aether_treasure_reforging:valkyrum_block",
 "alexsmobs:acacia_blossom",
 "alexsmobs:animal_dictionary",
@@ -12769,6 +12781,7 @@
 "ascended_quark:icestone_vertical_slab",
 "ascended_quark:mossy_holystone_tile_vertical_slab",
 "ascended_quark:mossy_holystone_vertical_slab",
+"ascended_quark:phoenix_flamerang",
 "ascended_quark:polished_aseterite_vertical_slab",
 "ascended_quark:polished_clorite_vertical_slab",
 "ascended_quark:polished_icestone",
@@ -12816,6 +12829,7 @@
 "ascended_quark:sunroot_post",
 "ascended_quark:sunroot_trapped_chest",
 "ascended_quark:sunroot_vertical_slab",
+"ascended_quark:valkyrie_pickarang",
 "ascended_quark:vertical_conberry_planks",
 "ascended_quark:vertical_cruderoot_planks",
 "ascended_quark:vertical_roseroot_planks",
@@ -15842,7 +15856,11 @@
 "deep_aether:mossy_holystone_tile_wall",
 "deep_aether:mossy_holystone_tiles",
 "deep_aether:muddy_yagroot_roots",
+"deep_aether:music_disc_above_the_rain",
+"deep_aether:music_disc_atta",
 "deep_aether:music_disc_cyclone",
+"deep_aether:music_disc_faent",
+"deep_aether:music_disc_himininn",
 "deep_aether:nimbus_pillar",
 "deep_aether:nimbus_slab",
 "deep_aether:nimbus_stairs",
@@ -15910,7 +15928,10 @@
 "deep_aether:stormforged_gloves",
 "deep_aether:stormforged_helmet",
 "deep_aether:stormforged_leggings",
+"deep_aether:stormforged_smithing_template",
 "deep_aether:stratus_block",
+"deep_aether:stratus_ingot",
+"deep_aether:stratus_smithing_template",
 "deep_aether:stripped_conberry_log",
 "deep_aether:stripped_conberry_log_wall",
 "deep_aether:stripped_conberry_wall",
@@ -22117,6 +22138,7 @@
 "twilightforest:zombie_scepter",
 "umbral_skies:hollow_golden_oak_log",
 "umbral_skies:hollow_skyroot_log",
+"umbral_skies:phantom_gloves",
 "umbral_skies:skyroot_banister",
 "umbral_skies:slider_trophy",
 "umbral_skies:sun_spirit_trophy",
@@ -48730,6 +48752,18 @@
 ]
 ]
 ],
+"minecraft:porkchop": [
+[
+[
+"farmersdelight:ham"
+]
+],
+[
+[
+"mysticalagriculture:pig_essence"
+]
+]
+],
 "minecraft:bone": [
 [
 [
@@ -48749,18 +48783,6 @@
 [
 [
 "philipsruins:broken_bone"
-]
-]
-],
-"minecraft:porkchop": [
-[
-[
-"farmersdelight:ham"
-]
-],
-[
-[
-"mysticalagriculture:pig_essence"
 ]
 ]
 ],
@@ -49015,6 +49037,23 @@
 ]
 ]
 ],
+"farmersdelight:tomato": [
+[
+[
+"farmersdelight:wild_tomatoes"
+]
+],
+[
+[
+"farmersdelight:tomato_seeds"
+]
+],
+[
+[
+"farmersdelight:tomato_crate"
+]
+]
+],
 "farmersdelight:tomato_seeds": [
 [
 [
@@ -49035,23 +49074,6 @@
 [
 "farmersdelight:tomato",
 "farmersdelight:rotten_tomato"
-]
-]
-],
-"farmersdelight:tomato": [
-[
-[
-"farmersdelight:wild_tomatoes"
-]
-],
-[
-[
-"farmersdelight:tomato_seeds"
-]
-],
-[
-[
-"farmersdelight:tomato_crate"
 ]
 ]
 ],
@@ -57293,6 +57315,13 @@
 ]
 ]
 ],
+"mynethersdelight:minced_strider": [
+[
+[
+"mynethersdelight:strider_slice"
+]
+]
+],
 "minecraft:string": [
 [
 [
@@ -57342,13 +57371,6 @@
 [
 [
 "supplementaries:flax"
-]
-]
-],
-"mynethersdelight:minced_strider": [
-[
-[
-"mynethersdelight:strider_slice"
 ]
 ]
 ],
@@ -123998,38 +124020,6 @@
 ]
 ]
 ],
-"bygonenether:crushed_withered_debris": [
-[
-[
-"bygonenether:withered_basalt"
-]
-],
-[
-[
-"bygonenether:withered_coal_block"
-]
-],
-[
-[
-"bygonenether:withered_debris"
-]
-],
-[
-[
-"bygonenether:withered_quartz_block"
-]
-],
-[
-[
-"#bygonenether:withered_stone"
-]
-],
-[
-[
-"#bygonenether:withered_stone_slab"
-]
-]
-],
 "bygonenether:netherite_scrap_nugget": [
 [
 [
@@ -124064,6 +124054,38 @@
 [
 [
 "bygonenether:crushed_withered_debris"
+]
+]
+],
+"bygonenether:crushed_withered_debris": [
+[
+[
+"bygonenether:withered_basalt"
+]
+],
+[
+[
+"bygonenether:withered_coal_block"
+]
+],
+[
+[
+"bygonenether:withered_debris"
+]
+],
+[
+[
+"bygonenether:withered_quartz_block"
+]
+],
+[
+[
+"#bygonenether:withered_stone"
+]
+],
+[
+[
+"#bygonenether:withered_stone_slab"
 ]
 ]
 ],
@@ -131661,6 +131683,13 @@
 ]
 ]
 ],
+"biomeswevegone:anthracite": [
+[
+[
+"#forge:ores/anthracite"
+]
+]
+],
 "biomeswevegone:brimstone": [
 [
 [
@@ -131675,13 +131704,6 @@
 [
 [
 "biomeswevegone:brimstone_nether_quartz_ore"
-]
-]
-],
-"biomeswevegone:anthracite": [
-[
-[
-"#forge:ores/anthracite"
 ]
 ]
 ],
@@ -131704,14 +131726,14 @@
 ]
 ]
 ],
-"biomeswevegone:scoria_cobblestone": [
+"biomeswevegone:emeraldite_shards": [
 [
 [
 "#forge:ores/emeraldite"
 ]
 ]
 ],
-"biomeswevegone:emeraldite_shards": [
+"biomeswevegone:scoria_cobblestone": [
 [
 [
 "#forge:ores/emeraldite"
@@ -132197,13 +132219,6 @@
 ]
 ]
 ],
-"simplefarming:barley_seeds": [
-[
-[
-"simplefarming:barley"
-]
-]
-],
 "create:wheat_flour": [
 [
 [
@@ -132228,6 +132243,13 @@
 [
 [
 "minecraft:wheat"
+]
+]
+],
+"simplefarming:barley_seeds": [
+[
+[
+"simplefarming:barley"
 ]
 ]
 ],
@@ -136258,14 +136280,14 @@
 ]
 ]
 ],
-"create:track": [
+"create:incomplete_track": [
 [
 [
 "#create:sleepers"
 ]
 ]
 ],
-"create:incomplete_track": [
+"create:track": [
 [
 [
 "#create:sleepers"
@@ -148070,14 +148092,14 @@
 ]
 ]
 ],
-"aromatic:cinnamon_bark": [
+"aromatic:stripped_cinnamon_log_thin": [
 [
 [
 "aromatic:cinnamon_log_thin"
 ]
 ]
 ],
-"aromatic:stripped_cinnamon_log_thin": [
+"aromatic:cinnamon_bark": [
 [
 [
 "aromatic:cinnamon_log_thin"
@@ -161958,16 +161980,16 @@
 "frostrealm:snowpile_quail_egg": [
 []
 ],
-"iceandfire:dragonegg_gray": [
-[]
-],
 "iceandfire:dragonegg_red": [
 []
 ],
-"iceandfire:dragonegg_green": [
+"iceandfire:dragonegg_gray": [
 []
 ],
 "iceandfire:dragonegg_bronze": [
+[]
+],
+"iceandfire:dragonegg_green": [
 []
 ],
 "iceandfire:hippogryph_egg": [
@@ -161976,25 +161998,25 @@
 "iceandfire:dragonegg_silver": [
 []
 ],
-"iceandfire:dragonegg_white": [
+"iceandfire:dragonegg_blue": [
 []
 ],
 "iceandfire:dragonegg_sapphire": [
 []
 ],
-"iceandfire:dragonegg_blue": [
-[]
-],
-"iceandfire:dragonegg_black": [
-[]
-],
-"iceandfire:dragonegg_amythest": [
+"iceandfire:dragonegg_white": [
 []
 ],
 "iceandfire:dragonegg_electric": [
 []
 ],
+"iceandfire:dragonegg_black": [
+[]
+],
 "iceandfire:dragonegg_copper": [
+[]
+],
+"iceandfire:dragonegg_amythest": [
 []
 ],
 "marineiguana:marineiguana_egg": [
@@ -162211,19 +162233,19 @@
 "prehistoricfauna:zhenyuanlong_egg": [
 []
 ],
+"quark:egg_parrot_grey": [
+[]
+],
 "quark:egg_parrot_green": [
 []
 ],
 "quark:egg_parrot_red_blue": [
 []
 ],
-"quark:egg_parrot_yellow_blue": [
-[]
-],
-"quark:egg_parrot_grey": [
-[]
-],
 "quark:egg_parrot_blue": [
+[]
+],
+"quark:egg_parrot_yellow_blue": [
 []
 ],
 "recrafted_creatures:chameleon_egg": [
@@ -172775,6 +172797,21 @@
 ]
 ]
 ],
+"twilightforest:twilight_scepter": [
+[
+[
+"twilightforest:lich_trophy"
+]
+],
+[
+[
+"twilightforest:twilight_scepter"
+],
+[
+"#forge:ender_pearls"
+]
+]
+],
 "twilightforest:zombie_scepter": [
 [
 [
@@ -172792,21 +172829,6 @@
 ],
 [
 "minecraft:rotten_flesh"
-]
-]
-],
-"twilightforest:twilight_scepter": [
-[
-[
-"twilightforest:lich_trophy"
-]
-],
-[
-[
-"twilightforest:twilight_scepter"
-],
-[
-"#forge:ender_pearls"
 ]
 ]
 ],
