@@ -1,0 +1,717 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&aHerbier"
+fichier = "enc_herbier"
+groupe = "encyclopedie"
+icone = "mysticalagriculture:inferium_seeds"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&aHerbier"
+taille = 1.5
+icone = "mysticalagriculture:inferium_seeds"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_air_seeds"
+titre = "Cultiver : « Air seeds »"
+optionnel = true
+icone = "mysticalagriculture:air_seeds"
+taches = ["item mysticalagriculture:air_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_amethyst_seeds"
+titre = "Cultiver : « Amethyst seeds »"
+optionnel = true
+icone = "mysticalagriculture:amethyst_seeds"
+taches = ["item mysticalagriculture:amethyst_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_basalt_seeds"
+titre = "Cultiver : « Basalt seeds »"
+optionnel = true
+icone = "mysticalagriculture:basalt_seeds"
+taches = ["item mysticalagriculture:basalt_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_blaze_seeds"
+titre = "Cultiver : « Blaze seeds »"
+optionnel = true
+icone = "mysticalagriculture:blaze_seeds"
+taches = ["item mysticalagriculture:blaze_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_brass_seeds"
+titre = "Cultiver : « Brass seeds »"
+optionnel = true
+icone = "mysticalagriculture:brass_seeds"
+taches = ["item mysticalagriculture:brass_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_chicken_seeds"
+titre = "Cultiver : « Chicken seeds »"
+optionnel = true
+icone = "mysticalagriculture:chicken_seeds"
+taches = ["item mysticalagriculture:chicken_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_coal_seeds"
+titre = "Cultiver : « Coal seeds »"
+optionnel = true
+icone = "mysticalagriculture:coal_seeds"
+taches = ["item mysticalagriculture:coal_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_copper_seeds"
+titre = "Cultiver : « Copper seeds »"
+optionnel = true
+icone = "mysticalagriculture:copper_seeds"
+taches = ["item mysticalagriculture:copper_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_coral_seeds"
+titre = "Cultiver : « Coral seeds »"
+optionnel = true
+icone = "mysticalagriculture:coral_seeds"
+taches = ["item mysticalagriculture:coral_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_cow_seeds"
+titre = "Cultiver : « Cow seeds »"
+optionnel = true
+icone = "mysticalagriculture:cow_seeds"
+taches = ["item mysticalagriculture:cow_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_creeper_seeds"
+titre = "Cultiver : « Creeper seeds »"
+optionnel = true
+icone = "mysticalagriculture:creeper_seeds"
+taches = ["item mysticalagriculture:creeper_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_deepslate_seeds"
+titre = "Cultiver : « Deepslate seeds »"
+optionnel = true
+icone = "mysticalagriculture:deepslate_seeds"
+taches = ["item mysticalagriculture:deepslate_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_diamond_seeds"
+titre = "Cultiver : « Diamond seeds »"
+optionnel = true
+icone = "mysticalagriculture:diamond_seeds"
+taches = ["item mysticalagriculture:diamond_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_dirt_seeds"
+titre = "Cultiver : « Dirt seeds »"
+optionnel = true
+icone = "mysticalagriculture:dirt_seeds"
+taches = ["item mysticalagriculture:dirt_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_dye_seeds"
+titre = "Cultiver : « Dye seeds »"
+optionnel = true
+icone = "mysticalagriculture:dye_seeds"
+taches = ["item mysticalagriculture:dye_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_earth_seeds"
+titre = "Cultiver : « Earth seeds »"
+optionnel = true
+icone = "mysticalagriculture:earth_seeds"
+taches = ["item mysticalagriculture:earth_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_emerald_seeds"
+titre = "Cultiver : « Emerald seeds »"
+optionnel = true
+icone = "mysticalagriculture:emerald_seeds"
+taches = ["item mysticalagriculture:emerald_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_end_seeds"
+titre = "Cultiver : « End seeds »"
+optionnel = true
+icone = "mysticalagriculture:end_seeds"
+taches = ["item mysticalagriculture:end_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_enderman_seeds"
+titre = "Cultiver : « Enderman seeds »"
+optionnel = true
+icone = "mysticalagriculture:enderman_seeds"
+taches = ["item mysticalagriculture:enderman_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_experience_seeds"
+titre = "Cultiver : « Experience seeds »"
+optionnel = true
+icone = "mysticalagriculture:experience_seeds"
+taches = ["item mysticalagriculture:experience_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_fire_seeds"
+titre = "Cultiver : « Fire seeds »"
+optionnel = true
+icone = "mysticalagriculture:fire_seeds"
+taches = ["item mysticalagriculture:fire_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_fish_seeds"
+titre = "Cultiver : « Fish seeds »"
+optionnel = true
+icone = "mysticalagriculture:fish_seeds"
+taches = ["item mysticalagriculture:fish_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_ghast_seeds"
+titre = "Cultiver : « Ghast seeds »"
+optionnel = true
+icone = "mysticalagriculture:ghast_seeds"
+taches = ["item mysticalagriculture:ghast_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_glowstone_seeds"
+titre = "Cultiver : « Glowstone seeds »"
+optionnel = true
+icone = "mysticalagriculture:glowstone_seeds"
+taches = ["item mysticalagriculture:glowstone_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_gold_seeds"
+titre = "Cultiver : « Gold seeds »"
+optionnel = true
+icone = "mysticalagriculture:gold_seeds"
+taches = ["item mysticalagriculture:gold_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_honey_seeds"
+titre = "Cultiver : « Honey seeds »"
+optionnel = true
+icone = "mysticalagriculture:honey_seeds"
+taches = ["item mysticalagriculture:honey_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_ice_seeds"
+titre = "Cultiver : « Ice seeds »"
+optionnel = true
+icone = "mysticalagriculture:ice_seeds"
+taches = ["item mysticalagriculture:ice_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_inferium_seeds"
+titre = "Cultiver : « Inferium seeds »"
+optionnel = true
+icone = "mysticalagriculture:inferium_seeds"
+taches = ["item mysticalagriculture:inferium_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_iron_seeds"
+titre = "Cultiver : « Iron seeds »"
+optionnel = true
+icone = "mysticalagriculture:iron_seeds"
+taches = ["item mysticalagriculture:iron_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_ironwood_seeds"
+titre = "Cultiver : « Ironwood seeds »"
+optionnel = true
+icone = "mysticalagriculture:ironwood_seeds"
+taches = ["item mysticalagriculture:ironwood_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_knightmetal_seeds"
+titre = "Cultiver : « Knightmetal seeds »"
+optionnel = true
+icone = "mysticalagriculture:knightmetal_seeds"
+taches = ["item mysticalagriculture:knightmetal_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_lapis_lazuli_seeds"
+titre = "Cultiver : « Lapis lazuli seeds »"
+optionnel = true
+icone = "mysticalagriculture:lapis_lazuli_seeds"
+taches = ["item mysticalagriculture:lapis_lazuli_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_lead_seeds"
+titre = "Cultiver : « Lead seeds »"
+optionnel = true
+icone = "mysticalagriculture:lead_seeds"
+taches = ["item mysticalagriculture:lead_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_limestone_seeds"
+titre = "Cultiver : « Limestone seeds »"
+optionnel = true
+icone = "mysticalagriculture:limestone_seeds"
+taches = ["item mysticalagriculture:limestone_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_marble_seeds"
+titre = "Cultiver : « Marble seeds »"
+optionnel = true
+icone = "mysticalagriculture:marble_seeds"
+taches = ["item mysticalagriculture:marble_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_mithril_seeds"
+titre = "Cultiver : « Mithril seeds »"
+optionnel = true
+icone = "mysticalagriculture:mithril_seeds"
+taches = ["item mysticalagriculture:mithril_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_mystical_flower_seeds"
+titre = "Cultiver : « Mystical flower seeds »"
+optionnel = true
+icone = "mysticalagriculture:mystical_flower_seeds"
+taches = ["item mysticalagriculture:mystical_flower_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_nature_seeds"
+titre = "Cultiver : « Nature seeds »"
+optionnel = true
+icone = "mysticalagriculture:nature_seeds"
+taches = ["item mysticalagriculture:nature_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_nether_quartz_seeds"
+titre = "Cultiver : « Nether quartz seeds »"
+optionnel = true
+icone = "mysticalagriculture:nether_quartz_seeds"
+taches = ["item mysticalagriculture:nether_quartz_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_nether_seeds"
+titre = "Cultiver : « Nether seeds »"
+optionnel = true
+icone = "mysticalagriculture:nether_seeds"
+taches = ["item mysticalagriculture:nether_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_netherite_seeds"
+titre = "Cultiver : « Netherite seeds »"
+optionnel = true
+icone = "mysticalagriculture:netherite_seeds"
+taches = ["item mysticalagriculture:netherite_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_obsidian_seeds"
+titre = "Cultiver : « Obsidian seeds »"
+optionnel = true
+icone = "mysticalagriculture:obsidian_seeds"
+taches = ["item mysticalagriculture:obsidian_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_pig_seeds"
+titre = "Cultiver : « Pig seeds »"
+optionnel = true
+icone = "mysticalagriculture:pig_seeds"
+taches = ["item mysticalagriculture:pig_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_prismarine_seeds"
+titre = "Cultiver : « Prismarine seeds »"
+optionnel = true
+icone = "mysticalagriculture:prismarine_seeds"
+taches = ["item mysticalagriculture:prismarine_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_rabbit_seeds"
+titre = "Cultiver : « Rabbit seeds »"
+optionnel = true
+icone = "mysticalagriculture:rabbit_seeds"
+taches = ["item mysticalagriculture:rabbit_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_redstone_seeds"
+titre = "Cultiver : « Redstone seeds »"
+optionnel = true
+icone = "mysticalagriculture:redstone_seeds"
+taches = ["item mysticalagriculture:redstone_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_sheep_seeds"
+titre = "Cultiver : « Sheep seeds »"
+optionnel = true
+icone = "mysticalagriculture:sheep_seeds"
+taches = ["item mysticalagriculture:sheep_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_skeleton_seeds"
+titre = "Cultiver : « Skeleton seeds »"
+optionnel = true
+icone = "mysticalagriculture:skeleton_seeds"
+taches = ["item mysticalagriculture:skeleton_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_slime_seeds"
+titre = "Cultiver : « Slime seeds »"
+optionnel = true
+icone = "mysticalagriculture:slime_seeds"
+taches = ["item mysticalagriculture:slime_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_soulium_seeds"
+titre = "Cultiver : « Soulium seeds »"
+optionnel = true
+icone = "mysticalagriculture:soulium_seeds"
+taches = ["item mysticalagriculture:soulium_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_spider_seeds"
+titre = "Cultiver : « Spider seeds »"
+optionnel = true
+icone = "mysticalagriculture:spider_seeds"
+taches = ["item mysticalagriculture:spider_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_squid_seeds"
+titre = "Cultiver : « Squid seeds »"
+optionnel = true
+icone = "mysticalagriculture:squid_seeds"
+taches = ["item mysticalagriculture:squid_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_steel_seeds"
+titre = "Cultiver : « Steel seeds »"
+optionnel = true
+icone = "mysticalagriculture:steel_seeds"
+taches = ["item mysticalagriculture:steel_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_steeleaf_seeds"
+titre = "Cultiver : « Steeleaf seeds »"
+optionnel = true
+icone = "mysticalagriculture:steeleaf_seeds"
+taches = ["item mysticalagriculture:steeleaf_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_stone_seeds"
+titre = "Cultiver : « Stone seeds »"
+optionnel = true
+icone = "mysticalagriculture:stone_seeds"
+taches = ["item mysticalagriculture:stone_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_sulfur_seeds"
+titre = "Cultiver : « Sulfur seeds »"
+optionnel = true
+icone = "mysticalagriculture:sulfur_seeds"
+taches = ["item mysticalagriculture:sulfur_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_turtle_seeds"
+titre = "Cultiver : « Turtle seeds »"
+optionnel = true
+icone = "mysticalagriculture:turtle_seeds"
+taches = ["item mysticalagriculture:turtle_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_water_seeds"
+titre = "Cultiver : « Water seeds »"
+optionnel = true
+icone = "mysticalagriculture:water_seeds"
+taches = ["item mysticalagriculture:water_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_wither_skeleton_seeds"
+titre = "Cultiver : « Wither skeleton seeds »"
+optionnel = true
+icone = "mysticalagriculture:wither_skeleton_seeds"
+taches = ["item mysticalagriculture:wither_skeleton_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_wood_seeds"
+titre = "Cultiver : « Wood seeds »"
+optionnel = true
+icone = "mysticalagriculture:wood_seeds"
+taches = ["item mysticalagriculture:wood_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_zinc_seeds"
+titre = "Cultiver : « Zinc seeds »"
+optionnel = true
+icone = "mysticalagriculture:zinc_seeds"
+taches = ["item mysticalagriculture:zinc_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "mysticalagriculture_zombie_seeds"
+titre = "Cultiver : « Zombie seeds »"
+optionnel = true
+icone = "mysticalagriculture:zombie_seeds"
+taches = ["item mysticalagriculture:zombie_seeds"]
+recompenses = ["xp 1"]
+description = """
+Graine de &aMystical Agriculture&r.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le chapitre"
+optionnel = true
+taille = 1.5
+icone = "mysticalagriculture:supremium_essence"
+forme = "gear"
+taches = ["checkmark Chapitre complet"]
+recompenses = ["xp 20"]
+deps = ["mysticalagriculture_air_seeds", "mysticalagriculture_amethyst_seeds", "mysticalagriculture_basalt_seeds", "mysticalagriculture_blaze_seeds", "mysticalagriculture_brass_seeds", "mysticalagriculture_chicken_seeds", "mysticalagriculture_coal_seeds", "mysticalagriculture_copper_seeds", "mysticalagriculture_coral_seeds", "mysticalagriculture_cow_seeds", "mysticalagriculture_creeper_seeds", "mysticalagriculture_deepslate_seeds", "mysticalagriculture_diamond_seeds", "mysticalagriculture_dirt_seeds", "mysticalagriculture_dye_seeds", "mysticalagriculture_earth_seeds", "mysticalagriculture_emerald_seeds", "mysticalagriculture_end_seeds", "mysticalagriculture_enderman_seeds", "mysticalagriculture_experience_seeds", "mysticalagriculture_fire_seeds", "mysticalagriculture_fish_seeds", "mysticalagriculture_ghast_seeds", "mysticalagriculture_glowstone_seeds", "mysticalagriculture_gold_seeds", "mysticalagriculture_honey_seeds", "mysticalagriculture_ice_seeds", "mysticalagriculture_inferium_seeds", "mysticalagriculture_iron_seeds", "mysticalagriculture_ironwood_seeds", "mysticalagriculture_knightmetal_seeds", "mysticalagriculture_lapis_lazuli_seeds", "mysticalagriculture_lead_seeds", "mysticalagriculture_limestone_seeds", "mysticalagriculture_marble_seeds", "mysticalagriculture_mithril_seeds", "mysticalagriculture_mystical_flower_seeds", "mysticalagriculture_nature_seeds", "mysticalagriculture_nether_quartz_seeds", "mysticalagriculture_nether_seeds", "mysticalagriculture_netherite_seeds", "mysticalagriculture_obsidian_seeds", "mysticalagriculture_pig_seeds", "mysticalagriculture_prismarine_seeds", "mysticalagriculture_rabbit_seeds", "mysticalagriculture_redstone_seeds", "mysticalagriculture_sheep_seeds", "mysticalagriculture_skeleton_seeds", "mysticalagriculture_slime_seeds", "mysticalagriculture_soulium_seeds", "mysticalagriculture_spider_seeds", "mysticalagriculture_squid_seeds", "mysticalagriculture_steel_seeds", "mysticalagriculture_steeleaf_seeds", "mysticalagriculture_stone_seeds", "mysticalagriculture_sulfur_seeds", "mysticalagriculture_turtle_seeds", "mysticalagriculture_water_seeds", "mysticalagriculture_wither_skeleton_seeds", "mysticalagriculture_wood_seeds", "mysticalagriculture_zinc_seeds", "mysticalagriculture_zombie_seeds"]
+description = """
+Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+"""

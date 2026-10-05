@@ -1,0 +1,1357 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_herbier"
+	group: "34D36ACF0DABCCEC"
+	icon: "mysticalagriculture:inferium_seeds"
+	id: "5CAF8C7503A1AD12"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque graine de Mystical Agriculture dont le matériau existe dans le pack. Une quête se valide en ayant la graine dans l'inventaire ; les graines se fabriquent à l'autel d'infusion."]
+			icon: "mysticalagriculture:inferium_seeds"
+			id: "69A59E566A4D22A9"
+			rewards: [{
+				id: "68E033C21CF0B645"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4628F430A7DB4748"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&aHerbier"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:air_seeds"
+			id: "4F964F4522BA6BEE"
+			optional: true
+			rewards: [{
+				id: "37570F0F08DD87C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AD5C70BB672786A"
+				item: "mysticalagriculture:air_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Air seeds »"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:amethyst_seeds"
+			id: "0C0DE041A7A1AB92"
+			optional: true
+			rewards: [{
+				id: "02121F2FA5A0B93D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AC5C49A6162CF10"
+				item: "mysticalagriculture:amethyst_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Amethyst seeds »"
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:basalt_seeds"
+			id: "28E9E1D460D627DB"
+			optional: true
+			rewards: [{
+				id: "5B4D94BD5D3C68CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C2EF4DF71A1BDC4"
+				item: "mysticalagriculture:basalt_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Basalt seeds »"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:blaze_seeds"
+			id: "108B03404C61A613"
+			optional: true
+			rewards: [{
+				id: "36CDEDFF7D342BE8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21A08394DAE1EC02"
+				item: "mysticalagriculture:blaze_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Blaze seeds »"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:brass_seeds"
+			id: "2F49B877ED94FE93"
+			optional: true
+			rewards: [{
+				id: "2D60AE9DB6BDAEA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F2679A768D91C34"
+				item: "mysticalagriculture:brass_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Brass seeds »"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:chicken_seeds"
+			id: "75FDDED0A81CE00F"
+			optional: true
+			rewards: [{
+				id: "7D5CFAAFDF50BDA5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "422B765E1F024E6D"
+				item: "mysticalagriculture:chicken_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Chicken seeds »"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:coal_seeds"
+			id: "376D5FC80EBADD65"
+			optional: true
+			rewards: [{
+				id: "1F12874FC4FB3C9E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0166EB75738C676E"
+				item: "mysticalagriculture:coal_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Coal seeds »"
+			x: 9.0d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:copper_seeds"
+			id: "20AC54F3B4ED8F57"
+			optional: true
+			rewards: [{
+				id: "4E5500BB9D3414DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44013B1D08B26F56"
+				item: "mysticalagriculture:copper_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Copper seeds »"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:coral_seeds"
+			id: "7DE4EC96B05B4F8B"
+			optional: true
+			rewards: [{
+				id: "4083473720ABE770"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "436A4C8A84EC0839"
+				item: "mysticalagriculture:coral_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Coral seeds »"
+			x: 12.0d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:cow_seeds"
+			id: "25423F7A8341CA4A"
+			optional: true
+			rewards: [{
+				id: "1CC74BD9A2058152"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E44E7B89CD3E63C"
+				item: "mysticalagriculture:cow_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Cow seeds »"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:creeper_seeds"
+			id: "2272B57995ACD7E2"
+			optional: true
+			rewards: [{
+				id: "37749A252F7A9C08"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "059805C89970D1EE"
+				item: "mysticalagriculture:creeper_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Creeper seeds »"
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:deepslate_seeds"
+			id: "242F4641BE15D098"
+			optional: true
+			rewards: [{
+				id: "4D1E1E2153E29276"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C3344E104AAFDFF"
+				item: "mysticalagriculture:deepslate_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Deepslate seeds »"
+			x: 16.5d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:diamond_seeds"
+			id: "680C3F9B6CAAAF1C"
+			optional: true
+			rewards: [{
+				id: "071619D92491C32C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C221E68BDC4246E"
+				item: "mysticalagriculture:diamond_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Diamond seeds »"
+			x: 18.0d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:dirt_seeds"
+			id: "151697DC7E92371E"
+			optional: true
+			rewards: [{
+				id: "1606927FEEADE0E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71FCA1653989D7B6"
+				item: "mysticalagriculture:dirt_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Dirt seeds »"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:dye_seeds"
+			id: "2BACD128C28ED34A"
+			optional: true
+			rewards: [{
+				id: "3903053D367E8573"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78AA284FABD53A25"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Dye seeds »"
+			x: 21.0d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:earth_seeds"
+			id: "7EF97003BFE471D4"
+			optional: true
+			rewards: [{
+				id: "0FBEEA70464AF540"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6988C2C7DA20B0E4"
+				item: "mysticalagriculture:earth_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Earth seeds »"
+			x: 22.5d
+			y: -2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:emerald_seeds"
+			id: "619E207F972A0B4B"
+			optional: true
+			rewards: [{
+				id: "05C77B6AF4DD70EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DC642029F1EADB6"
+				item: "mysticalagriculture:emerald_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Emerald seeds »"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:end_seeds"
+			id: "6889F431D9BFF4CA"
+			optional: true
+			rewards: [{
+				id: "15FD521243390BF7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D22C091D1207940"
+				item: "mysticalagriculture:end_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « End seeds »"
+			x: 1.5d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:enderman_seeds"
+			id: "65C5EE2B8E3A0E00"
+			optional: true
+			rewards: [{
+				id: "4E3F3564B6E0B316"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1CD0763BB9B983F1"
+				item: "mysticalagriculture:enderman_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Enderman seeds »"
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:experience_seeds"
+			id: "638E2E97FADB7BE4"
+			optional: true
+			rewards: [{
+				id: "1EA2C87F22BF527C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "462E4995CCA79871"
+				item: "mysticalagriculture:experience_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Experience seeds »"
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:fire_seeds"
+			id: "5C370B521D1B979D"
+			optional: true
+			rewards: [{
+				id: "6B9333854034FD74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "368A20519B4988B9"
+				item: "mysticalagriculture:fire_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Fire seeds »"
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:fish_seeds"
+			id: "5BA7872150A991A5"
+			optional: true
+			rewards: [{
+				id: "328C0F14294FEDD9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "217A5A3BF252B317"
+				item: "mysticalagriculture:fish_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Fish seeds »"
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:ghast_seeds"
+			id: "2FF0962986471CCF"
+			optional: true
+			rewards: [{
+				id: "37583954B3A6085F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E9B55AFFD282B50"
+				item: "mysticalagriculture:ghast_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Ghast seeds »"
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:glowstone_seeds"
+			id: "632108D1F610CE80"
+			optional: true
+			rewards: [{
+				id: "166B477A90C7841C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5704DB7937FF103F"
+				item: "mysticalagriculture:glowstone_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Glowstone seeds »"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:gold_seeds"
+			id: "0A62CAC9E9CBBF63"
+			optional: true
+			rewards: [{
+				id: "6C7EE0D6220CA9F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CD55EF219803119"
+				item: "mysticalagriculture:gold_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Gold seeds »"
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:honey_seeds"
+			id: "2ECB433B0CD2E391"
+			optional: true
+			rewards: [{
+				id: "556EEA4B4E551B79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DE6CCEA654BFF08"
+				item: "mysticalagriculture:honey_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Honey seeds »"
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:ice_seeds"
+			id: "7672C55F7DA7CD89"
+			optional: true
+			rewards: [{
+				id: "0CB9AB9BAB2C774B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07E31DF65695023C"
+				item: "mysticalagriculture:ice_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Ice seeds »"
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:inferium_seeds"
+			id: "6651E27A8FC43201"
+			optional: true
+			rewards: [{
+				id: "075FFE8370505D6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FB12C466D0B1BDC"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Inferium seeds »"
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:iron_seeds"
+			id: "54E3BB9E889167DC"
+			optional: true
+			rewards: [{
+				id: "0EC5ED0F5A3A6087"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "217D2FF0F38BFB43"
+				item: "mysticalagriculture:iron_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Iron seeds »"
+			x: 18.0d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:ironwood_seeds"
+			id: "10A15489EDC1B763"
+			optional: true
+			rewards: [{
+				id: "4019E4ED44770B8C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FCD226F093354A9"
+				item: "mysticalagriculture:ironwood_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Ironwood seeds »"
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:knightmetal_seeds"
+			id: "4A93813466AF8F3E"
+			optional: true
+			rewards: [{
+				id: "6240D284F09BB9A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3319BE1C6EBBD4DA"
+				item: "mysticalagriculture:knightmetal_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Knightmetal seeds »"
+			x: 21.0d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:lapis_lazuli_seeds"
+			id: "01E4933E02391B41"
+			optional: true
+			rewards: [{
+				id: "3C633F22E87036D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BB4228919C9A28A"
+				item: "mysticalagriculture:lapis_lazuli_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Lapis lazuli seeds »"
+			x: 22.5d
+			y: -0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:lead_seeds"
+			id: "1A232CE2937E4C46"
+			optional: true
+			rewards: [{
+				id: "5BCEE6B858A970BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "051527F87A8E38D0"
+				item: "mysticalagriculture:lead_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Lead seeds »"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:limestone_seeds"
+			id: "16ACFA2A5213F86F"
+			optional: true
+			rewards: [{
+				id: "4A38E411D2B96291"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B628F1B8B28C2DE"
+				item: "mysticalagriculture:limestone_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Limestone seeds »"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:marble_seeds"
+			id: "7ABA14C410C0F4AA"
+			optional: true
+			rewards: [{
+				id: "2CCC033E56037403"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F1D01512FADF07D"
+				item: "mysticalagriculture:marble_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Marble seeds »"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:mithril_seeds"
+			id: "74D2D87E1463BADD"
+			optional: true
+			rewards: [{
+				id: "7AA6CC2CFF1D13C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19CD2DDD8918B700"
+				item: "mysticalagriculture:mithril_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Mithril seeds »"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:mystical_flower_seeds"
+			id: "6C410DC91095B968"
+			optional: true
+			rewards: [{
+				id: "28EBB8DFA65AB6B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1885D2148E138E1D"
+				item: "mysticalagriculture:mystical_flower_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Mystical flower seeds »"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:nature_seeds"
+			id: "76C4B65E2B1DD006"
+			optional: true
+			rewards: [{
+				id: "32A7BA5D6A133FEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A920C9C2C6A767B"
+				item: "mysticalagriculture:nature_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Nature seeds »"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:nether_quartz_seeds"
+			id: "44E6970AED4E7617"
+			optional: true
+			rewards: [{
+				id: "237528244E89AF2A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5AC6DC28EC23EB26"
+				item: "mysticalagriculture:nether_quartz_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Nether quartz seeds »"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:nether_seeds"
+			id: "7E89FD94C11804A0"
+			optional: true
+			rewards: [{
+				id: "757C520338F51B2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C49FF8AF921E8A7"
+				item: "mysticalagriculture:nether_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Nether seeds »"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:netherite_seeds"
+			id: "77055A9608EDF807"
+			optional: true
+			rewards: [{
+				id: "3A463CB74473B50C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52D325FBD75C596C"
+				item: "mysticalagriculture:netherite_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Netherite seeds »"
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:obsidian_seeds"
+			id: "3C399109C1963B16"
+			optional: true
+			rewards: [{
+				id: "6E60ECD6D3540871"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A58E58927096B67"
+				item: "mysticalagriculture:obsidian_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Obsidian seeds »"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:pig_seeds"
+			id: "4405695C1EBCCF9E"
+			optional: true
+			rewards: [{
+				id: "27E5E6F73EEF5529"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4598649C2EEF02F1"
+				item: "mysticalagriculture:pig_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Pig seeds »"
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:prismarine_seeds"
+			id: "2A9BD599886E8F95"
+			optional: true
+			rewards: [{
+				id: "7F02C4247F035066"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64658CB8CC7F4611"
+				item: "mysticalagriculture:prismarine_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Prismarine seeds »"
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:rabbit_seeds"
+			id: "7FE3A9F693A5AF8F"
+			optional: true
+			rewards: [{
+				id: "0001E8C5A6CF05F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16361D35B8DB51EC"
+				item: "mysticalagriculture:rabbit_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Rabbit seeds »"
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:redstone_seeds"
+			id: "2B556576B6563F0A"
+			optional: true
+			rewards: [{
+				id: "6447F8768E98587A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A56517ABC8C8FDB"
+				item: "mysticalagriculture:redstone_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Redstone seeds »"
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:sheep_seeds"
+			id: "5AAAB5F1C6E3E211"
+			optional: true
+			rewards: [{
+				id: "49CB79746EB9DC11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C200FEB544F29E3"
+				item: "mysticalagriculture:sheep_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Sheep seeds »"
+			x: 21.0d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:skeleton_seeds"
+			id: "141D0705AF1DD259"
+			optional: true
+			rewards: [{
+				id: "536F9F226D0C3981"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42E0F96DC1B6C31D"
+				item: "mysticalagriculture:skeleton_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Skeleton seeds »"
+			x: 22.5d
+			y: 0.75d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:slime_seeds"
+			id: "41D99F7CBFA5AE88"
+			optional: true
+			rewards: [{
+				id: "007AEE70AA596C1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5260797EFA5067F5"
+				item: "mysticalagriculture:slime_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Slime seeds »"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:soulium_seeds"
+			id: "33AE021F17F33198"
+			optional: true
+			rewards: [{
+				id: "285EBCE6D0C54CF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0BDDF0F97314E1C2"
+				item: "mysticalagriculture:soulium_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Soulium seeds »"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:spider_seeds"
+			id: "596627828DA5CC09"
+			optional: true
+			rewards: [{
+				id: "5C461E3D84712677"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13541BCA57DD8EEC"
+				item: "mysticalagriculture:spider_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Spider seeds »"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:squid_seeds"
+			id: "5EF6D0CF0ABABE76"
+			optional: true
+			rewards: [{
+				id: "3F1F0DB4918EFC0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0EA7D1FB5FD13D93"
+				item: "mysticalagriculture:squid_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Squid seeds »"
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:steel_seeds"
+			id: "2541E06DFE4CB9A6"
+			optional: true
+			rewards: [{
+				id: "792A6E058136E00F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24A6CF60F767B7C2"
+				item: "mysticalagriculture:steel_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Steel seeds »"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:steeleaf_seeds"
+			id: "2D2BF30B8A2A1590"
+			optional: true
+			rewards: [{
+				id: "0B6480BE4F7AB924"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79752861578F719F"
+				item: "mysticalagriculture:steeleaf_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Steeleaf seeds »"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:stone_seeds"
+			id: "25DD5EDDE0BC9452"
+			optional: true
+			rewards: [{
+				id: "3C3840FB6A32629C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1BD5625C261D14EF"
+				item: "mysticalagriculture:stone_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Stone seeds »"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:sulfur_seeds"
+			id: "49475864E879C343"
+			optional: true
+			rewards: [{
+				id: "57D9497663F11563"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7602C15720594EC8"
+				item: "mysticalagriculture:sulfur_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Sulfur seeds »"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:turtle_seeds"
+			id: "38CECA831FB16AB7"
+			optional: true
+			rewards: [{
+				id: "03B06E23B2D760AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F88DE967881CF95"
+				item: "mysticalagriculture:turtle_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Turtle seeds »"
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:water_seeds"
+			id: "4E72B3013C7C0C80"
+			optional: true
+			rewards: [{
+				id: "04876CC76740EA74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D7B9597C4B3C424"
+				item: "mysticalagriculture:water_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Water seeds »"
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:wither_skeleton_seeds"
+			id: "11972CBECDE4A864"
+			optional: true
+			rewards: [{
+				id: "02FF9A9D9145E2A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5ED003C4237FA0C3"
+				item: "mysticalagriculture:wither_skeleton_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Wither skeleton seeds »"
+			x: 15.0d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:wood_seeds"
+			id: "59D73EC984717C9B"
+			optional: true
+			rewards: [{
+				id: "3C1E3A38F9573704"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76EAB2B396B21530"
+				item: "mysticalagriculture:wood_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Wood seeds »"
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:zinc_seeds"
+			id: "500DBD9FB1C93A87"
+			optional: true
+			rewards: [{
+				id: "20940A08A27B3ED0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D834C2899FB3043"
+				item: "mysticalagriculture:zinc_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Zinc seeds »"
+			x: 18.0d
+			y: 2.25d
+		}
+		{
+			description: ["Graine de &aMystical Agriculture&r."]
+			icon: "mysticalagriculture:zombie_seeds"
+			id: "07C819A70D91A659"
+			optional: true
+			rewards: [{
+				id: "34595474FB966223"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03E1D7939422F520"
+				item: "mysticalagriculture:zombie_seeds"
+				type: "item"
+			}]
+			title: "Cultiver : « Zombie seeds »"
+			x: 19.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"4F964F4522BA6BEE"
+				"0C0DE041A7A1AB92"
+				"28E9E1D460D627DB"
+				"108B03404C61A613"
+				"2F49B877ED94FE93"
+				"75FDDED0A81CE00F"
+				"376D5FC80EBADD65"
+				"20AC54F3B4ED8F57"
+				"7DE4EC96B05B4F8B"
+				"25423F7A8341CA4A"
+				"2272B57995ACD7E2"
+				"242F4641BE15D098"
+				"680C3F9B6CAAAF1C"
+				"151697DC7E92371E"
+				"2BACD128C28ED34A"
+				"7EF97003BFE471D4"
+				"619E207F972A0B4B"
+				"6889F431D9BFF4CA"
+				"65C5EE2B8E3A0E00"
+				"638E2E97FADB7BE4"
+				"5C370B521D1B979D"
+				"5BA7872150A991A5"
+				"2FF0962986471CCF"
+				"632108D1F610CE80"
+				"0A62CAC9E9CBBF63"
+				"2ECB433B0CD2E391"
+				"7672C55F7DA7CD89"
+				"6651E27A8FC43201"
+				"54E3BB9E889167DC"
+				"10A15489EDC1B763"
+				"4A93813466AF8F3E"
+				"01E4933E02391B41"
+				"1A232CE2937E4C46"
+				"16ACFA2A5213F86F"
+				"7ABA14C410C0F4AA"
+				"74D2D87E1463BADD"
+				"6C410DC91095B968"
+				"76C4B65E2B1DD006"
+				"44E6970AED4E7617"
+				"7E89FD94C11804A0"
+				"77055A9608EDF807"
+				"3C399109C1963B16"
+				"4405695C1EBCCF9E"
+				"2A9BD599886E8F95"
+				"7FE3A9F693A5AF8F"
+				"2B556576B6563F0A"
+				"5AAAB5F1C6E3E211"
+				"141D0705AF1DD259"
+				"41D99F7CBFA5AE88"
+				"33AE021F17F33198"
+				"596627828DA5CC09"
+				"5EF6D0CF0ABABE76"
+				"2541E06DFE4CB9A6"
+				"2D2BF30B8A2A1590"
+				"25DD5EDDE0BC9452"
+				"49475864E879C343"
+				"38CECA831FB16AB7"
+				"4E72B3013C7C0C80"
+				"11972CBECDE4A864"
+				"59D73EC984717C9B"
+				"500DBD9FB1C93A87"
+				"07C819A70D91A659"
+			]
+			description: ["Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte."]
+			icon: "mysticalagriculture:supremium_essence"
+			id: "5428219A99D3A911"
+			optional: true
+			rewards: [{
+				id: "7FF0F1772275E65E"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "499183316F530333"
+				title: "Chapitre complet"
+				type: "checkmark"
+			}]
+			title: "&7Tout le chapitre"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&aHerbier"
+}
