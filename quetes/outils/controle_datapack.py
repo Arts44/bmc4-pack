@@ -20,7 +20,13 @@ vérifie :
      RCON ou à la console) — ce fichier garde le datapack identique, octet
      pour octet, à celui du serveur. Un appel d'une fonction à elle-même
      (« schedule function » de sa propre boucle) ne compte pas : il faut
-     encore que quelque chose la démarre.
+     encore que quelque chose la démarre ;
+  5. une commande de mod qui prend un joueur (MODS_JOUEUR) n'est pas appelée
+     avec un @s ou un @p nu (BMC-91, 6 octobre : « ftbranks add @s » a fait
+     rejeter toute la fonction au chargement, « Only players may be affected
+     by this command, but the provided selector includes entities » ; ces
+     mods lisent le joueur en GameProfileArgument, qui n'exempte pas @s comme
+     le fait EntityArgument). Le sélecteur doit porter type=minecraft:player.
 
 Un outil autonome peut créer son propre objectif avant de s'en servir. Un
 défaut réel de la production, qu'on ne corrige pas sur place, se déclare dans
@@ -41,6 +47,21 @@ APPELS_TICK = {
     'bmc4:raid_tick': "l'arbitrage des raids (cinq minutes en spectateur, perte de cœur)",
     'bmc4:coeur_tick': 'le cœur perdu : soins, vie maximale réappliquée après la mort',
 }
+
+# Les commandes de mods qui prennent un joueur, et le sélecteur qui y est refusé.
+MODS_JOUEUR = ('ftbranks', 'ftbquests', 'ftbteams', 'ftbchunks', 'ftblibrary', 'ftbessentials')
+RE_MOD = re.compile(r'(?:^|\brun\s+)(' + '|'.join(MODS_JOUEUR) + r')\b(.*)$')
+RE_SELECTEUR = re.compile(r'@[sp](\[[^\]]*\])?')
+
+
+def selecteurs_nus(ligne):
+    """Les @s / @p d'une commande de mod qui ne se limitent pas aux joueurs."""
+    m = RE_MOD.search(ligne)
+    if not m:
+        return []
+    return [x.group(0) for x in RE_SELECTEUR.finditer(m.group(2))
+            if not re.search(r'type=(minecraft:)?player\b', x.group(1) or '')]
+
 
 RE_APPEL = re.compile(r'(?:^|\s)function\s+(#?[a-z0-9_.\-]+:[a-z0-9_./\-]+)')
 RE_AJOUT = re.compile(r'scoreboard\s+objectives\s+add\s+(\S+)')
@@ -150,6 +171,14 @@ def controler(dp=DEFAUT):
         propres = {m.group(1) for l in lignes_actives(t) for m in RE_AJOUT.finditer(l)}
         for o in sorted(objectifs_utilises(t) - crees - propres):
             err.append(f"{f} : objectif « {o} » utilisé, jamais créé depuis load")
+    # 5. sélecteurs nus dans une commande de mod qui prend un joueur
+    for f, t in sorted(F.items()):
+        for n, l in enumerate(t.split('\n'), 1):
+            if l.strip().startswith('#'):
+                continue
+            for sel in selecteurs_nus(l):
+                err.append(f"{f} ligne {n} : « {sel} » dans une commande de mod qui prend un joueur — "
+                           "écrire @s[type=minecraft:player] (sinon la fonction entière est rejetée au chargement)")
     # 4. orphelines
     ext = os.path.join(os.path.dirname(dp), 'appels-externes.toml')
     conf = tomllib.load(open(ext, 'rb')) if os.path.exists(ext) else {}

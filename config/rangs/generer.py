@@ -210,9 +210,11 @@ def datapack(d, rangs, base):
 
     # Rangs FTB Ranks (permissions) : ré-ajoute tous ceux qui sont acquis.
     lignes = [ENTETE_MC, "# Les rangs FTB Ranks acquis (permissions des commandes). Ré-ajouter un rang\n"
-                          "# déjà présent ne change rien : appelée à l'achat et à chaque connexion.\n"]
+                          "# déjà présent ne change rien : appelée à l'achat et à chaque connexion.\n"
+                          "# Le sélecteur porte type=minecraft:player : l'argument joueur de FTB Ranks\n"
+                          "# refuse un @s nu au chargement (« Only players may be affected »).\n"]
     for r in rangs[:base]:
-        lignes.append(f"execute if score @s bmc4_rangs matches {r['numero']}.. run ftbranks add @s {r['id']}")
+        lignes.append(f"execute if score @s bmc4_rangs matches {r['numero']}.. run ftbranks add @s[type=minecraft:player] {r['id']}")
     f['g_ftbranks'] = '\n'.join(lignes) + '\n'
 
     # Équipe du rang le plus haut (préfixe et couleur au-dessus de la tête et dans Tab).
