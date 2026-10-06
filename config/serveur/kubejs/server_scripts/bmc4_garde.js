@@ -603,14 +603,21 @@ ServerEvents.tick(event => {
       let nom = ACCES.nom(p)
       let cle = String(ACCES.uuid(p))
       let reste = combatRestant(p)
+      // AUCUNE commande dans cette boucle (6 octobre au soir) : le pont Discord
+      // publie dans #console chaque commande lancée par le serveur, et
+      // « title … » ou « execute if entity … » chaque seconde l'inondaient.
+      // Barre d'action : PlayerKJS.java:95 (kjs$setStatusMessage), texte par
+      // TextWrapper (Text.red, Text.of).
       if (reste > 0) {
-        server.runCommandSilent('title ' + nom + ' actionbar ' + JSON.stringify({ text: '⚔ En combat : ' + secondes(reste) + ' s', color: 'red' }))
+        p.setStatusMessage(Text.red('⚔ En combat : ' + secondes(reste) + ' s'))
         compteurAffiche[cle] = true
       } else if (compteurAffiche[cle]) {
-        server.runCommandSilent('title ' + nom + ' actionbar ""')
+        p.setStatusMessage(Text.of(''))
         delete compteurAffiche[cle]
       }
-      if (server.runCommandSilent('execute if entity @a[name=' + nom + ',tag=bmc4_resync]') > 0) {
+      // L'étiquette du datapack, lue dans le NBT du joueur (EntityKJS.java:247,
+      // kjs$getNbt) ; la commande de retrait ne part qu'une fois, après un achat.
+      if (String(p.getNbt()).indexOf('"bmc4_resync"') >= 0) {
         server.runCommandSilent('tag ' + nom + ' remove bmc4_resync')
         ACCES.renvoyerCommandes(server, p)
       }
