@@ -28,9 +28,13 @@ Ranks (`ftbranks remove <pseudo> rang_<n>` pour chaque n) et
       `bmc4_dragons.js`, chacun « Loaded ».
 - [ ] Aucune ligne `Failed to load function bmc4:` (le datapack entier se
       charge ; `datapack list` montre `file/bmc4-fixes`).
-- [ ] Un client du **pack v61 sans aucun des quatre mods** se connecte sans
-      « Mod rejections », « mismatched mod channel list » ni « Incompatible
-      FML modded server ».
+- [ ] Un client du **pack v62** (v61 plus KubeJS et Rhino, sans FTB Ranks ni
+      FTB Essentials) se connecte sans « Mod rejections », « mismatched mod
+      channel list », « Incompatible FML modded server » ni « Failed to
+      synchronize registry data ». KubeJS et Rhino vont des deux côtés ; FTB
+      Ranks et FTB Essentials restent sur le serveur seul. Un client v61 est
+      refusé, c'est attendu depuis le 6 octobre (« KubeJS — Vous avez besoin
+      de 2001.6.5-build.26 »).
 
 ### Liste rouge : une seule de ces lignes, et c'est le retour arrière A ou B
 
@@ -40,7 +44,7 @@ Ranks (`ftbranks remove <pseudo> rang_<n>` pour chaque n) et
   pas les toucher : ce sont des mods Forge).
 - `Error loading` ou `Error in` dans `/logs/kubejs/server.log`.
 - Le serveur ne passe pas `Done (` ; ou un crash-report qui cite un des quatre.
-- Un client v61 refusé à la connexion.
+- Un client v62 refusé à la connexion.
 
 ---
 

@@ -278,3 +278,45 @@ versions connues (original 3 136 744, patch v1 3 123 256, v2 3 136 837).
 La release v61 est en brouillon sur GitHub. Le test de connexion réel
 avec l'instance d'Arthur n'a pas été fait — personne d'autre ne peut
 lancer son client. Tant qu'il n'est pas passé, ni release ni annonce.
+
+## La v62 — 6 octobre
+
+### KubeJS ne tient pas sur le serveur seul
+
+Le kit de BMC-91 l'affirmait, en lisant le code : KubeJS déclare
+`IGNORESERVERONLY` et ses canaux réseau acceptent un client sans lui. Le
+premier essai de la maintenance l'a démenti. Arthur, avec le pack v61,
+s'est vu refuser la connexion : « Failed to synchronize registry data from
+server, closing connection », puis « Votre client n'a pas les mods
+suivants… KubeJS — Vous avez besoin de 2001.6.5-build.26 ».
+
+La cause : KubeJS enregistre des entrées dans les registres du jeu, et
+Forge synchronise les registres à la connexion. `IGNORESERVERONLY` ne
+règle que l'affichage de la vérification de version, pas les registres.
+FTB Ranks et FTB Essentials, eux, sont bien passés : seul KubeJS est cité.
+
+La décision d'Arthur : on garde KubeJS et on l'ajoute au pack client,
+avec Rhino, sa dépendance. Pas de retour arrière. D'où la v62.
+
+### Les jars du serveur, pas ceux de CurseForge
+
+Les fichiers CurseForge de ces deux versions (KubeJS projet 238086,
+fichier 8020595 ; Rhino projet 416294, fichier 6186971) ne sont pas
+octet pour octet ceux du serveur, venus du Maven des auteurs : même
+build, mais deux empaquetages (horodatage du manifeste, ordre de deux
+lignes de l'`accesstransformer.cfg` de KubeJS). Pour que client et serveur
+aient les mêmes empreintes SHA-1, les deux jars vont dans
+`overrides/mods/`, comme CC: Tweaked, et non dans le manifeste.
+
+### Ce que KubeJS crée côté client
+
+Lu dans son code : un dossier `kubejs/` avec un `README.txt`, des
+sous-dossiers vides (`data`, `assets`, `config`), et un `example.js` dans
+`startup_scripts` et `client_scripts` qui écrit « Hello, World! » dans
+le journal, sans rien montrer au joueur ni toucher aux recettes. Rien à
+retirer du pack.
+
+### Publication retenue
+
+La release v62 est en brouillon. Ni publication ni annonce tant que le test
+de connexion d'Arthur n'est pas passé.

@@ -24,8 +24,8 @@ Ce qui part sur le serveur :
 |---|---|---|
 | FTB Ranks | 2001.1.7, maven.ftb.dev, SHA-1 `1ef101b4…`, 87 362 o | `/mods/` |
 | FTB Essentials | 2001.2.4, maven.ftb.dev, SHA-1 `4f898578…`, 157 732 o | `/mods/` |
-| KubeJS | 2001.6.5-build.26, maven.latvian.dev, SHA-1 `6986aef8…`, 1 658 792 o | `/mods/` |
-| Rhino | 2001.2.3-build.10, maven.latvian.dev, SHA-1 `54db3943…`, 1 798 243 o | `/mods/` |
+| KubeJS | 2001.6.5-build.26, maven.latvian.dev, SHA-1 `6986aef8…`, 1 658 792 o | `/mods/` **et pack client (v62)** |
+| Rhino | 2001.2.3-build.10, maven.latvian.dev, SHA-1 `54db3943…`, 1 798 243 o | `/mods/` **et pack client (v62)** |
 | Scripts KubeJS | `config/serveur/kubejs/server_scripts/` (3 fichiers) | `/kubejs/server_scripts/` |
 | FTB Essentials | `config/serveur/ftbessentials.snbt` | `/world/serverconfig/ftbessentials.snbt` |
 | FTB Ranks | `config/serveur/ftbranks/ranks.snbt` | `/world/serverconfig/ftbranks/ranks.snbt` |
@@ -33,11 +33,18 @@ Ce qui part sur le serveur :
 | Livre | Grimoire (`2c6f2b3`) et chapitre « Rangs » | `/config/ftbquests/quests/` |
 | Bot | branche `bmc91-rangs` de discord-factions | Railway, à la fusion dans `main` |
 
-Rien ne touche au pack client. Les quatre mods sont prévus pour tourner sur
-le serveur seul : FTB Ranks, FTB Essentials et KubeJS déclarent
-`IGNORESERVERONLY` (lu dans leur code), et leurs canaux réseau (Architectury)
-acceptent un client qui ne les a pas. **La connexion d'un client du pack v61
-sans ces mods est le premier essai** (`ESSAIS-BMC-91.md`, A).
+**FTB Ranks et FTB Essentials restent sur le serveur seul ; KubeJS et Rhino
+vont des deux côtés.** Corrigé le 6 octobre pendant la maintenance : le kit
+disait que les quatre tenaient sur le serveur seul, parce que FTB Ranks,
+FTB Essentials et KubeJS déclarent `IGNORESERVERONLY` et que leurs canaux
+réseau acceptent un client qui ne les a pas. C'est vrai pour les deux mods
+FTB. Pour KubeJS, non : il enregistre des entrées dans les registres du jeu,
+que Forge synchronise à la connexion. Un client v61 est refusé (« Failed to
+synchronize registry data from server », « KubeJS — Vous avez besoin de
+2001.6.5-build.26 »). `IGNORESERVERONLY` ne couvre que la vérification de
+version, pas les registres. D'où la **v62 du pack** : la v61 plus KubeJS et
+Rhino, les mêmes jars que le serveur (voir `decisions.md`, « La v62 »).
+**La connexion d'un client v62 est le premier essai** (`ESSAIS-BMC-91.md`, A).
 
 ---
 
@@ -132,6 +139,11 @@ attendu, mot pour mot à la ponctuation près.
 ## Retour arrière
 
 ### A. KubeJS ne cohabite pas avec Connector (ou un script casse)
+
+_Écarté par Arthur le 6 octobre : KubeJS est gardé, et ajouté au pack client
+(v62). Si on y revenait un jour, les clients auraient KubeJS et le serveur
+non : ce cas n'a pas été essayé, il faudrait tester la connexion d'un client
+v62 avant de rouvrir._
 
 On retire les deux jars et on redémarre (consigne d'Arthur), **et** on ferme
 les téléportations : sans KubeJS, aucun blocage (combat, raid, claim) ne tient
