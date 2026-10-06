@@ -306,7 +306,18 @@ les joueurs en ligne (correctif d'Arthur, gardé). Le diagnostic teste la voie
 retenue (ligne OK/ÉCHEC) et affiche les cinq en INFO. Le devis de
 `/prestige acheter` finit maintenant par un point.
 
-Dépôt : `/bmc4-depot/bmc91-2026-10-06-nickname/` (`bmc4_garde.js`,
-`bmc4-fixes.zip`). Remplacer le script, extraire le datapack comme § 4,
-`reload` ou redémarrage, puis `/prestige diagnostic`.
+Dépôt : **`/bmc4-depot/bmc91-2026-10-06-final/`**, qui remplace
+`bmc91-2026-10-06-nickname/` (déposé avant la décision sur les opérateurs).
+
+### Le 6 octobre, 22 h 28 : un opérateur n'a que ce que son rang donne
+
+Décision d'Arthur, déjà appliquée par lui sur le serveur, reportée au dépôt :
+`bmc4_staff` sans aucune permission de prestige, plus d'exemption d'op dans
+`bmc4_garde.js` hors de `/prestige diagnostic` (règle 9 du contrôle).
+
+Dans `/bmc4-depot/bmc91-2026-10-06-final/` : `bmc4_garde.js` (cinq voies de
+`/nickname` et opérateurs), `bmc4-fixes.zip` (devis avec son point),
+`ranks.snbt`, `ranks-sans-kubejs.snbt`. Remplacer le script et `ranks.snbt`,
+extraire le datapack comme § 4, `ftbranks reload`, redémarrage (ou `reload`),
+puis `/prestige diagnostic`.
 
