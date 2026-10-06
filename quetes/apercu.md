@@ -2,7 +2,7 @@
 
 Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis quetes/donnees/ par outils/apercu.py.
 
-Livre complet : 89 chapitres, 4 688 quêtes.
+Livre complet : 90 chapitres, 4 802 quêtes.
 
 
 ## Agriculture et élevage  (`bases_agriculture`, 23 quêtes)
@@ -4379,6 +4379,237 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Un plat de Twilight's Flavor Delight.
 - **Tout le chapitre** *(optionnelle)* — tâches : checkmark Chapitre complet — récompense : xp 20
   > Tout le chapitre réuni. La récompense est symbolique : c'est la collection qui compte.
+
+## Grimoire  (`enc_grimoire`, 114 quêtes)
+
+- **Grimoire** — tâches : checkmark Lu — récompense : xp 2
+  > Chaque sort d'Iron's Spells qu'un parchemin peut porter sur ce serveur, une quête par sort. N'importe quel niveau compte : le niveau d'un parchemin trouvé est tiré au hasard, et l'enclume arcanique les fusionne. Une quête se valide en ayant le parchemin dans l'inventaire ; rien n'est consommé. Les paliers de la magie sont au chapitre Iron's Spells.
+- **Parchemin : « Barrage Enflammé »** *(optionnelle)* — tâches : parchemin irons_spellbooks:flaming_barrage — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Bombe de Magma »** *(optionnelle)* — tâches : parchemin irons_spellbooks:magma_bomb — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Boule de Feu »** *(optionnelle)* — tâches : parchemin irons_spellbooks:fireball — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Brûlure »** *(optionnelle)* — tâches : parchemin irons_spellbooks:scorch — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Déchaîner l'Enfer »** *(optionnelle)* — tâches : parchemin irons_spellbooks:raise_hell — récompense : xp 1
+  > Sort de l'école Feu. Ce parchemin ne s'obtient seulement dans le coffre-fort de la citadelle du Nether. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Flèche de Feu »** *(optionnelle)* — tâches : parchemin irons_spellbooks:fire_arrow — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Flèche de Feu »** *(optionnelle)* — tâches : parchemin irons_spellbooks:firebolt — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Frappe Enflammée »** *(optionnelle)* — tâches : parchemin irons_spellbooks:flaming_strike — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Mur de Feu »** *(optionnelle)* — tâches : parchemin irons_spellbooks:wall_of_fire — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Ruée Enflammée »** *(optionnelle)* — tâches : parchemin irons_spellbooks:burning_dash — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Souffle de Feu »** *(optionnelle)* — tâches : parchemin irons_spellbooks:fire_breath — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Tempête de Blaze »** *(optionnelle)* — tâches : parchemin irons_spellbooks:blaze_storm — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Vague de Chaleur »** *(optionnelle)* — tâches : parchemin irons_spellbooks:heat_surge — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « irons_spellbooks:soulfire_ray »** *(optionnelle)* — tâches : parchemin irons_spellbooks:soulfire_ray — récompense : xp 1
+  > Sort de l'école Feu. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Blizzard »** *(optionnelle)* — tâches : parchemin irons_spellbooks:blizzard — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Bloc de Glace »** *(optionnelle)* — tâches : parchemin irons_spellbooks:ice_block — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Boule de Neige »** *(optionnelle)* — tâches : parchemin irons_spellbooks:snowball — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Cône de Froid »** *(optionnelle)* — tâches : parchemin irons_spellbooks:cone_of_cold — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Gelure »** *(optionnelle)* — tâches : parchemin irons_spellbooks:frostbite — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Invoquer un Ours Polaire »** *(optionnelle)* — tâches : parchemin irons_spellbooks:summon_polar_bear — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Pas de Givre »** *(optionnelle)* — tâches : parchemin irons_spellbooks:frost_step — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Piques de Glace »** *(optionnelle)* — tâches : parchemin irons_spellbooks:ice_spikes — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Rayon de Givre »** *(optionnelle)* — tâches : parchemin irons_spellbooks:ray_of_frost — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Stalactite de Glace »** *(optionnelle)* — tâches : parchemin irons_spellbooks:icicle — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Tombeau de Glace »** *(optionnelle)* — tâches : parchemin irons_spellbooks:ice_tomb — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Vague de Givre »** *(optionnelle)* — tâches : parchemin irons_spellbooks:frostwave — récompense : xp 1
+  > Sort de l'école Glace. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Ascension »** *(optionnelle)* — tâches : parchemin irons_spellbooks:ascension — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Charge »** *(optionnelle)* — tâches : parchemin irons_spellbooks:charge — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Foudre en Boule »** *(optionnelle)* — tâches : parchemin irons_spellbooks:ball_lightning — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Foudre en Chaîne »** *(optionnelle)* — tâches : parchemin irons_spellbooks:chain_lightning — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Frappe Voltaïque »** *(optionnelle)* — tâches : parchemin irons_spellbooks:volt_strike — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Lance d'Éclair »** *(optionnelle)* — tâches : parchemin irons_spellbooks:lightning_lance — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Onde de Choc »** *(optionnelle)* — tâches : parchemin irons_spellbooks:shockwave — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Orage »** *(optionnelle)* — tâches : parchemin irons_spellbooks:thunderstorm — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Pas du Tonnerre »** *(optionnelle)* — tâches : parchemin irons_spellbooks:thunder_step — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Éclair »** *(optionnelle)* — tâches : parchemin irons_spellbooks:lightning_bolt — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Électrocution »** *(optionnelle)* — tâches : parchemin irons_spellbooks:electrocute — récompense : xp 1
+  > Sort de l'école Foudre. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Ailes d'Ange »** *(optionnelle)* — tâches : parchemin irons_spellbooks:angel_wing — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Bénédiction de Vie »** *(optionnelle)* — tâches : parchemin irons_spellbooks:blessing_of_life — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Cercle de Soin »** *(optionnelle)* — tâches : parchemin irons_spellbooks:healing_circle — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Châtiment Divin »** *(optionnelle)* — tâches : parchemin irons_spellbooks:divine_smite — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Feu Follet »** *(optionnelle)* — tâches : parchemin irons_spellbooks:wisp — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Fortifier »** *(optionnelle)* — tâches : parchemin irons_spellbooks:fortify — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Grand Soin »** *(optionnelle)* — tâches : parchemin irons_spellbooks:greater_heal — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Hâte »** *(optionnelle)* — tâches : parchemin irons_spellbooks:haste — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Purification »** *(optionnelle)* — tâches : parchemin irons_spellbooks:cleanse — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Rayon de Soleil »** *(optionnelle)* — tâches : parchemin irons_spellbooks:sunbeam — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Soin »** *(optionnelle)* — tâches : parchemin irons_spellbooks:heal — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Éclair Guidé »** *(optionnelle)* — tâches : parchemin irons_spellbooks:guiding_bolt — récompense : xp 1
+  > Sort de l'école Sacré. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Arcane Shackle »** *(optionnelle)* — tâches : parchemin irons_spellbooks:arcane_shackle — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Chute d'Étoiles »** *(optionnelle)* — tâches : parchemin irons_spellbooks:starfall — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Contre-Sort »** *(optionnelle)* — tâches : parchemin irons_spellbooks:counterspell — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Esquive »** *(optionnelle)* — tâches : parchemin irons_spellbooks:evasion — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Flèche Magique »** *(optionnelle)* — tâches : parchemin irons_spellbooks:magic_arrow — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Frappes en Écho »** *(optionnelle)* — tâches : parchemin irons_spellbooks:echoing_strikes — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Gravity Fissure »** *(optionnelle)* — tâches : parchemin irons_spellbooks:gravity_fissure — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Invoquer des Épées »** *(optionnelle)* — tâches : parchemin irons_spellbooks:summon_swords — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Invoquer un Coffre de l'Ender »** *(optionnelle)* — tâches : parchemin irons_spellbooks:summon_ender_chest — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Missile Magique »** *(optionnelle)* — tâches : parchemin irons_spellbooks:magic_missile — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Portail »** *(optionnelle)* — tâches : parchemin irons_spellbooks:portal — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Rappel »** *(optionnelle)* — tâches : parchemin irons_spellbooks:recall — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Souffle de Dragon »** *(optionnelle)* — tâches : parchemin irons_spellbooks:dragon_breath — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Taillade d'Ombre »** *(optionnelle)* — tâches : parchemin irons_spellbooks:shadow_slash — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Trou Noir »** *(optionnelle)* — tâches : parchemin irons_spellbooks:black_hole — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Téléportation »** *(optionnelle)* — tâches : parchemin irons_spellbooks:teleport — récompense : xp 1
+  > Sort de l'école Ender. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Acupuncture »** *(optionnelle)* — tâches : parchemin irons_spellbooks:acupuncture — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Aiguilles de Sang »** *(optionnelle)* — tâches : parchemin irons_spellbooks:blood_needles — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Arrêt Cardiaque »** *(optionnelle)* — tâches : parchemin irons_spellbooks:heartstop — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Crâne de Wither »** *(optionnelle)* — tâches : parchemin irons_spellbooks:wither_skull — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Dévorer »** *(optionnelle)* — tâches : parchemin irons_spellbooks:devour — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Pas de Sang »** *(optionnelle)* — tâches : parchemin irons_spellbooks:blood_step — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Rayon de Siphon »** *(optionnelle)* — tâches : parchemin irons_spellbooks:ray_of_siphoning — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Ressusciter les Morts »** *(optionnelle)* — tâches : parchemin irons_spellbooks:raise_dead — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Sacrifice »** *(optionnelle)* — tâches : parchemin irons_spellbooks:sacrifice — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Taillade de Sang »** *(optionnelle)* — tâches : parchemin irons_spellbooks:blood_slash — récompense : xp 1
+  > Sort de l'école Sang. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Bouclier »** *(optionnelle)* — tâches : parchemin irons_spellbooks:shield — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Creeper en Chaîne »** *(optionnelle)* — tâches : parchemin irons_spellbooks:chain_creeper — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Fang Swirl »** *(optionnelle)* — tâches : parchemin irons_spellbooks:fang_swirl — récompense : xp 1
+  > Sort de l'école Évocation. Ce parchemin ne s'obtient seulement sur le Roi Mort en version ominous (sa table de butin). N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Frappe de Crocs »** *(optionnelle)* — tâches : parchemin irons_spellbooks:fang_strike — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Garde de Crocs »** *(optionnelle)* — tâches : parchemin irons_spellbooks:fang_ward — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Invisibilité »** *(optionnelle)* — tâches : parchemin irons_spellbooks:invisibility — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Invoquer un Cheval »** *(optionnelle)* — tâches : parchemin irons_spellbooks:summon_horse — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Invoquer un Vex »** *(optionnelle)* — tâches : parchemin irons_spellbooks:summon_vex — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Lancer »** *(optionnelle)* — tâches : parchemin irons_spellbooks:throw — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Lancer de Creeper »** *(optionnelle)* — tâches : parchemin irons_spellbooks:lob_creeper — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Marteau Spectral »** *(optionnelle)* — tâches : parchemin irons_spellbooks:spectral_hammer — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Pétard »** *(optionnelle)* — tâches : parchemin irons_spellbooks:firecracker — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Rafale »** *(optionnelle)* — tâches : parchemin irons_spellbooks:gust — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Ralentissement »** *(optionnelle)* — tâches : parchemin irons_spellbooks:slow — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Scapegoat »** *(optionnelle)* — tâches : parchemin irons_spellbooks:scapegoat — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Volée de Flèches »** *(optionnelle)* — tâches : parchemin irons_spellbooks:arrow_volley — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Wololo »** *(optionnelle)* — tâches : parchemin irons_spellbooks:wololo — récompense : xp 1
+  > Sort de l'école Évocation. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Aspect de l'Araignée »** *(optionnelle)* — tâches : parchemin irons_spellbooks:spider_aspect — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Crachat Acide »** *(optionnelle)* — tâches : parchemin irons_spellbooks:acid_orb — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Creuser au Toucher »** *(optionnelle)* — tâches : parchemin irons_spellbooks:touch_dig — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Enracinement »** *(optionnelle)* — tâches : parchemin irons_spellbooks:root — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Essaim de Lucioles »** *(optionnelle)* — tâches : parchemin irons_spellbooks:firefly_swarm — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Flèche Empoisonnée »** *(optionnelle)* — tâches : parchemin irons_spellbooks:poison_arrow — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Flétrissure »** *(optionnelle)* — tâches : parchemin irons_spellbooks:blight — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Gloutonnerie »** *(optionnelle)* — tâches : parchemin irons_spellbooks:gluttony — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Peau de Chêne »** *(optionnelle)* — tâches : parchemin irons_spellbooks:oakskin — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Piétinement »** *(optionnelle)* — tâches : parchemin irons_spellbooks:stomp — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Tremblement de Terre »** *(optionnelle)* — tâches : parchemin irons_spellbooks:earthquake — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Vaporisation de Poison »** *(optionnelle)* — tâches : parchemin irons_spellbooks:poison_breath — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Éclaboussure de Poison »** *(optionnelle)* — tâches : parchemin irons_spellbooks:poison_splash — récompense : xp 1
+  > Sort de l'école Nature. Il sort des parchemins tirés au hasard du butin, et se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Dimension de Poche »** *(optionnelle)* — tâches : parchemin irons_spellbooks:pocket_dimension — récompense : xp 1
+  > Sort de l'école Eldritch. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Explosion Indicible »** *(optionnelle)* — tâches : parchemin irons_spellbooks:eldritch_blast — récompense : xp 1
+  > Sort de l'école Eldritch. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Linceul Abyssal »** *(optionnelle)* — tâches : parchemin irons_spellbooks:abyssal_shroud — récompense : xp 1
+  > Sort de l'école Eldritch. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Onde de Choc Sonique »** *(optionnelle)* — tâches : parchemin irons_spellbooks:sonic_boom — récompense : xp 1
+  > Sort de l'école Eldritch. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Tentacules de Sculk »** *(optionnelle)* — tâches : parchemin irons_spellbooks:sculk_tentacles — récompense : xp 1
+  > Sort de l'école Eldritch. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Télékinésie »** *(optionnelle)* — tâches : parchemin irons_spellbooks:telekinesis — récompense : xp 1
+  > Sort de l'école Eldritch. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Parchemin : « Vue Planaire »** *(optionnelle)* — tâches : parchemin irons_spellbooks:planar_sight — récompense : xp 1
+  > Sort de l'école Eldritch. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la Scroll Forge. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+- **Tout le Grimoire** *(optionnelle)* — tâches : checkmark Collection complète — récompense : xp 20
+  > Chaque sort de ce chapitre, en parchemin.
 
 ## Haches  (`enc_haches`, 59 quêtes)
 
@@ -9027,8 +9258,8 @@ Livre complet : 89 chapitres, 4 688 quêtes.
   > Les œufs des huit races de base sont dans les coffres (config du serveur) : Aether dans les donjons (6 %), feu dans les temples du désert (5 %), forêt dans les temples de la jungle (10 %), fantôme dans les manoirs (7 %) et les mines (5 %), glace dans les igloos (7 %), Nether dans les trésors des bastions (10 %), eau dans les trésors enfouis (7 %). L'œuf de l'Ender Dragon compte aussi, mais il n'y en a qu'un : un dragon ré-invoqué n'en laisse pas sur ce serveur (Better End Island, dont le code passe avant celui de Dragon Mounts).
   >   > Tu as déjà un dragon et plus d'œuf ? Regarde ton dragon : la quête accepte l'œuf ou la vue d'un dragon, et le reste du chapitre s'ouvre.
 - **Faire éclore** — tâches : observation entity dragonmounts:dragon — récompense : xp 8 — après : oeuf
-  > Posé, l'œuf couve et l'infobulle compte les secondes. Il change de race selon son milieu (config : les habitats sont actifs). La quête se valide en regardant un dragon.
-  >   > Autre voie : dans #dragons, poste !dragon <x> <y> <z> <race> (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée.
+  > Sur BMC4, l'éclosion passe par le bot. Pose l'œuf, relève ses coordonnées avec F3 en le regardant, puis poste dans #dragons : !dragon <x> <y> <z> <race> (pseudo et dimension en option).
+  >   > Le bot cherche l'œuf posé aux coordonnées données, le retire et fait apparaître à côté un dragon adulte et déjà apprivoisé. Attention : c'est l'œuf qui décide de la race, pas celle que tu tapes. La quête se valide en regardant un dragon.
 - **Apprivoiser et seller** — tâches : item minecraft:saddle — récompense : xp 5 — après : oeuf
   > Le bébé se nourrit et grandit ; adulte, une selle (chapitre Agriculture des bases) et il se monte. Tous les dragons du serveur sont dans une même équipe sans tir allié (datapack du serveur) : le souffle d'un dragon ne lance plus de bagarre avec un autre.
 - **Monter un dragon** — tâches : checkmark J'ai volé — récompense : xp 10 — après : apprivoiser
@@ -9048,7 +9279,7 @@ Livre complet : 89 chapitres, 4 688 quêtes.
 - **L'armure de dragon en nétherite** *(optionnelle)* — tâches : item minecraft:netherite_block — récompense : xp 14 — après : armure_dragon_diamond
   > Un bloc de nétherite donné au dragon apprivoisé l'habille d'une armure : 16 points d'armure. C'est la plus solide : le dragon est équipé au maximum. Le bloc se reprend en lui en donnant un autre.
 - **Un croisement hybride** *(optionnelle)* — tâches : oeuf_dragon aurora, oeuf_dragon black_fire, oeuf_dragon blood, oeuf_dragon blue_fire, oeuf_dragon bronze, oeuf_dragon crystal, oeuf_dragon dark, oeuf_dragon eclipse, oeuf_dragon elder, oeuf_dragon gale, oeuf_dragon jade, oeuf_dragon light, oeuf_dragon lunar, oeuf_dragon magic, oeuf_dragon monarch, oeuf_dragon ocean, oeuf_dragon primal_end, oeuf_dragon primal_nether, oeuf_dragon red, oeuf_dragon sculk, oeuf_dragon shadow, oeuf_dragon solar, oeuf_dragon soul_nether, oeuf_dragon storm, oeuf_dragon sylphid, oeuf_dragon terra, oeuf_dragon wither, oeuf_dragon zombie — récompense : xp 8 — après : apprivoiser
-  > Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : 25 % de chance que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Un œuf posé qui couve peut encore changer de race selon son milieu : à garder loin des habitats d'autres races.
+  > Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : 25 % de chance que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Pour faire éclore un œuf hybride, même chemin qu'au début du chapitre : pose-le et passe par !dragon dans #dragons.
 - **Un œuf : Dragon de Feu** *(optionnelle)* — tâches : oeuf_dragon fire — récompense : xp 5 — après : oeuf
   > Le Dragon de Feu est une des huit races de base. Son œuf se trouve dans les coffres des temples du désert (5 %). Un œuf posé change aussi de race selon ce qui l'entoure : pour celle-ci, feu, lave, bloc de magma. L'œuf ramassé garde sa race.
 - **Un œuf : Dragon de la Forêt** *(optionnelle)* — tâches : oeuf_dragon forest — récompense : xp 5 — après : oeuf

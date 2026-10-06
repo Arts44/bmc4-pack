@@ -216,7 +216,8 @@ def snbt(v, ind=0):
             return '[' + snbt(v[0], ind) + ']'
         return '[\n' + '\n'.join(t + '\t' + snbt(x, ind + 1) for x in v) + '\n' + t + ']'
     if isinstance(v, dict):
-        lignes = [t + '\t' + k + ': ' + snbt(v[k], ind + 1) for k in sorted(v)]
+        # Une clé hors [A-Za-z0-9._+-] (« irons_spellbooks:spell_container ») se cite.
+        lignes = [t + '\t' + (k if re.fullmatch(r'[A-Za-z0-9._+\-]+', k) else q(k)) + ': ' + snbt(v[k], ind + 1) for k in sorted(v)]
         return '{\n' + '\n'.join(lignes) + '\n' + t + '}'
     raise TypeError(type(v))
 
@@ -307,6 +308,10 @@ RACES_DRAGON = {'aether', 'aurora', 'black_fire', 'blood', 'blue_fire', 'bronze'
 # recettes créées par le code seulement si le matériau existe. Bronze,
 # argent, électrum, invar et platine : balises vides dans le pack ; créatif :
 # sans recette.
+# Sorts d'Iron's Spells (outils/sorts-irons.py, lu dans le jar le 6 octobre).
+_p_sorts = os.path.join(ICI, '..', 'index', 'sorts_irons.json')
+SORTS_IRONS = json.load(open(_p_sorts, encoding='utf-8')) if os.path.exists(_p_sorts) else {}
+
 JETPACKS_OBTENABLES = {'wood': 0, 'stone': 1, 'copper': 1, 'iron': 2, 'gold': 3, 'steel': 3, 'diamond': 4, 'emerald': 5}
 
 
@@ -372,6 +377,21 @@ def _tache(spec, ou, verif, quete_id, idx, tid):
         return {'id': tid, 'type': 'item', 'match_nbt': True, 'weak_nbt_match': True,
                 'item': {'Count': 1, 'id': 'dragonmounts:dragon_egg',
                          'tag': {'BlockEntityTag': {'Breed': f'dragonmounts:{race}'}}}}
+    if genre == 'parchemin':
+        # parchemin <sort> : un parchemin d'Iron's Spells de ce sort, à n'importe
+        # quel niveau. NBT lu le 6 octobre sur deux parchemins réels :
+        # {"irons_spellbooks:spell_container":{data:[{id,level,index,locked}],
+        # maxSpells,mustEquip,spellWheel}} (codec SpellContainer ; « improved »
+        # n'est écrit que s'il est vrai). FTB Quests 2001.4.22 compare en souple
+        # (NBTUtils.compareNbt(tâche, objet, true, true) via ItemMatchingSystem) :
+        # clés de la tâche incluses dans l'objet, listes de même taille comparées
+        # rang par rang. Un parchemin ne porte qu'un sort : data a un élément.
+        sid = mots[1]
+        if sid not in SORTS_IRONS or not SORTS_IRONS[sid]['obtenable']:
+            raise SystemExit(f"{ou} : sort inconnu ou non obtenable « {sid} » (index/sorts_irons.json)")
+        return {'id': tid, 'type': 'item', 'match_nbt': True, 'weak_nbt_match': True,
+                'item': {'Count': 1, 'id': 'irons_spellbooks:scroll',
+                         'tag': {'irons_spellbooks:spell_container': {'data': [{'id': sid}]}}}}
     if genre == 'jetpack':
         # jetpack <jetpack|cell|thruster|capacitor> <palier> : Iron Jetpacks porte
         # le palier dans le NBT {Id:"ironjetpacks:<palier>"} (JetpackUtils.makeTag,

@@ -55,7 +55,7 @@ DONNEES = os.path.join(ICI, '..', 'donnees')
 # quêtes prouvables fortement. Une quête d'objet peut dépendre d'une quête
 # d'objet (paliers d'outils, d'armure).
 TYPES_FORTS = {'advancement', 'stat'}
-TYPES_FAIBLES = {'item', 'tag', 'potion', 'oeuf_dragon', 'jetpack'}
+TYPES_FAIBLES = {'item', 'tag', 'potion', 'oeuf_dragon', 'jetpack', 'parchemin'}
 TYPES_RETROACTIFS = TYPES_FORTS | TYPES_FAIBLES
 RANG = {'fort': 2, 'faible': 1}
 

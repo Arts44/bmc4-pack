@@ -1,0 +1,1379 @@
+# GÉNÉRÉ par outils/encyclopedie.py — ne pas éditer.
+
+[chapitre]
+titre = "&dGrimoire"
+fichier = "enc_grimoire"
+groupe = "encyclopedie"
+icone = "irons_spellbooks:scroll"
+ordre = 0
+lignes_cachees = true
+grille = 16
+
+[[quete]]
+cle = "intro"
+titre = "&dGrimoire"
+taille = 1.5
+icone = "irons_spellbooks:scroll"
+taches = ["checkmark Lu"]
+recompenses = ["xp 2"]
+description = """
+Chaque sort d'Iron's Spells qu'un parchemin peut porter sur ce serveur, une quête par sort. N'importe quel niveau compte : le niveau d'un parchemin trouvé est tiré au hasard, et l'enclume arcanique les fusionne. Une quête se valide en ayant le parchemin dans l'inventaire ; rien n'est consommé. Les paliers de la magie sont au chapitre &7Iron's Spells&r.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_flaming_barrage"
+titre = "Parchemin : « Barrage Enflammé »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:flaming_barrage"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_magma_bomb"
+titre = "Parchemin : « Bombe de Magma »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:magma_bomb"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_fireball"
+titre = "Parchemin : « Boule de Feu »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:fireball"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_scorch"
+titre = "Parchemin : « Brûlure »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:scorch"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_raise_hell"
+titre = "Parchemin : « Déchaîner l'Enfer »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:raise_hell"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Ce parchemin ne s'obtient seulement dans le &lcoffre-fort de la citadelle&r du Nether. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_fire_arrow"
+titre = "Parchemin : « Flèche de Feu »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:fire_arrow"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_firebolt"
+titre = "Parchemin : « Flèche de Feu »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:firebolt"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_flaming_strike"
+titre = "Parchemin : « Frappe Enflammée »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:flaming_strike"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wall_of_fire"
+titre = "Parchemin : « Mur de Feu »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:wall_of_fire"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_burning_dash"
+titre = "Parchemin : « Ruée Enflammée »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:burning_dash"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_fire_breath"
+titre = "Parchemin : « Souffle de Feu »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:fire_breath"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_blaze_storm"
+titre = "Parchemin : « Tempête de Blaze »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:blaze_storm"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_heat_surge"
+titre = "Parchemin : « Vague de Chaleur »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:heat_surge"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_soulfire_ray"
+titre = "Parchemin : « irons_spellbooks:soulfire_ray »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:soulfire_ray"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_blizzard"
+titre = "Parchemin : « Blizzard »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:blizzard"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ice_block"
+titre = "Parchemin : « Bloc de Glace »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:ice_block"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_snowball"
+titre = "Parchemin : « Boule de Neige »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:snowball"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cone_of_cold"
+titre = "Parchemin : « Cône de Froid »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:cone_of_cold"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_frostbite"
+titre = "Parchemin : « Gelure »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:frostbite"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_summon_polar_bear"
+titre = "Parchemin : « Invoquer un Ours Polaire »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:summon_polar_bear"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_frost_step"
+titre = "Parchemin : « Pas de Givre »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:frost_step"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ice_spikes"
+titre = "Parchemin : « Piques de Glace »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:ice_spikes"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ray_of_frost"
+titre = "Parchemin : « Rayon de Givre »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:ray_of_frost"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_icicle"
+titre = "Parchemin : « Stalactite de Glace »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:icicle"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ice_tomb"
+titre = "Parchemin : « Tombeau de Glace »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:ice_tomb"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_frostwave"
+titre = "Parchemin : « Vague de Givre »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:frostwave"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ascension"
+titre = "Parchemin : « Ascension »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:ascension"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_charge"
+titre = "Parchemin : « Charge »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:charge"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ball_lightning"
+titre = "Parchemin : « Foudre en Boule »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:ball_lightning"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_chain_lightning"
+titre = "Parchemin : « Foudre en Chaîne »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:chain_lightning"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_volt_strike"
+titre = "Parchemin : « Frappe Voltaïque »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:volt_strike"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_lightning_lance"
+titre = "Parchemin : « Lance d'Éclair »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:lightning_lance"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_shockwave"
+titre = "Parchemin : « Onde de Choc »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:shockwave"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_thunderstorm"
+titre = "Parchemin : « Orage »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:thunderstorm"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_thunder_step"
+titre = "Parchemin : « Pas du Tonnerre »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:thunder_step"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_lightning_bolt"
+titre = "Parchemin : « Éclair »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:lightning_bolt"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_electrocute"
+titre = "Parchemin : « Électrocution »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:electrocute"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_angel_wing"
+titre = "Parchemin : « Ailes d'Ange »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:angel_wing"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_blessing_of_life"
+titre = "Parchemin : « Bénédiction de Vie »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:blessing_of_life"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_healing_circle"
+titre = "Parchemin : « Cercle de Soin »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:healing_circle"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_divine_smite"
+titre = "Parchemin : « Châtiment Divin »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:divine_smite"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wisp"
+titre = "Parchemin : « Feu Follet »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:wisp"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_fortify"
+titre = "Parchemin : « Fortifier »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:fortify"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_greater_heal"
+titre = "Parchemin : « Grand Soin »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:greater_heal"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_haste"
+titre = "Parchemin : « Hâte »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:haste"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_cleanse"
+titre = "Parchemin : « Purification »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:cleanse"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_sunbeam"
+titre = "Parchemin : « Rayon de Soleil »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:sunbeam"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_heal"
+titre = "Parchemin : « Soin »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:heal"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_guiding_bolt"
+titre = "Parchemin : « Éclair Guidé »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:guiding_bolt"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_arcane_shackle"
+titre = "Parchemin : « Arcane Shackle »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:arcane_shackle"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_starfall"
+titre = "Parchemin : « Chute d'Étoiles »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:starfall"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_counterspell"
+titre = "Parchemin : « Contre-Sort »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:counterspell"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_evasion"
+titre = "Parchemin : « Esquive »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:evasion"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_magic_arrow"
+titre = "Parchemin : « Flèche Magique »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:magic_arrow"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_echoing_strikes"
+titre = "Parchemin : « Frappes en Écho »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:echoing_strikes"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_gravity_fissure"
+titre = "Parchemin : « Gravity Fissure »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:gravity_fissure"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_summon_swords"
+titre = "Parchemin : « Invoquer des Épées »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:summon_swords"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_summon_ender_chest"
+titre = "Parchemin : « Invoquer un Coffre de l'Ender »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:summon_ender_chest"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_magic_missile"
+titre = "Parchemin : « Missile Magique »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:magic_missile"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_portal"
+titre = "Parchemin : « Portail »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:portal"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_recall"
+titre = "Parchemin : « Rappel »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:recall"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_dragon_breath"
+titre = "Parchemin : « Souffle de Dragon »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:dragon_breath"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_shadow_slash"
+titre = "Parchemin : « Taillade d'Ombre »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:shadow_slash"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_black_hole"
+titre = "Parchemin : « Trou Noir »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:black_hole"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_teleport"
+titre = "Parchemin : « Téléportation »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:teleport"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_acupuncture"
+titre = "Parchemin : « Acupuncture »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:acupuncture"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_blood_needles"
+titre = "Parchemin : « Aiguilles de Sang »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:blood_needles"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_heartstop"
+titre = "Parchemin : « Arrêt Cardiaque »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:heartstop"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wither_skull"
+titre = "Parchemin : « Crâne de Wither »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:wither_skull"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_devour"
+titre = "Parchemin : « Dévorer »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:devour"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_blood_step"
+titre = "Parchemin : « Pas de Sang »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:blood_step"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_ray_of_siphoning"
+titre = "Parchemin : « Rayon de Siphon »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:ray_of_siphoning"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_raise_dead"
+titre = "Parchemin : « Ressusciter les Morts »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:raise_dead"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_sacrifice"
+titre = "Parchemin : « Sacrifice »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:sacrifice"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_blood_slash"
+titre = "Parchemin : « Taillade de Sang »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:blood_slash"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_shield"
+titre = "Parchemin : « Bouclier »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:shield"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_chain_creeper"
+titre = "Parchemin : « Creeper en Chaîne »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:chain_creeper"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_fang_swirl"
+titre = "Parchemin : « Fang Swirl »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:fang_swirl"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Ce parchemin ne s'obtient seulement sur le &lRoi Mort en version ominous&r (sa table de butin). N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_fang_strike"
+titre = "Parchemin : « Frappe de Crocs »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:fang_strike"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_fang_ward"
+titre = "Parchemin : « Garde de Crocs »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:fang_ward"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_invisibility"
+titre = "Parchemin : « Invisibilité »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:invisibility"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_summon_horse"
+titre = "Parchemin : « Invoquer un Cheval »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:summon_horse"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_summon_vex"
+titre = "Parchemin : « Invoquer un Vex »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:summon_vex"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_throw"
+titre = "Parchemin : « Lancer »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:throw"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_lob_creeper"
+titre = "Parchemin : « Lancer de Creeper »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:lob_creeper"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_spectral_hammer"
+titre = "Parchemin : « Marteau Spectral »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:spectral_hammer"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_firecracker"
+titre = "Parchemin : « Pétard »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:firecracker"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_gust"
+titre = "Parchemin : « Rafale »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:gust"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_slow"
+titre = "Parchemin : « Ralentissement »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:slow"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_scapegoat"
+titre = "Parchemin : « Scapegoat »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:scapegoat"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_arrow_volley"
+titre = "Parchemin : « Volée de Flèches »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:arrow_volley"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_wololo"
+titre = "Parchemin : « Wololo »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:wololo"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_spider_aspect"
+titre = "Parchemin : « Aspect de l'Araignée »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:spider_aspect"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_acid_orb"
+titre = "Parchemin : « Crachat Acide »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:acid_orb"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_touch_dig"
+titre = "Parchemin : « Creuser au Toucher »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:touch_dig"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_root"
+titre = "Parchemin : « Enracinement »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:root"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_firefly_swarm"
+titre = "Parchemin : « Essaim de Lucioles »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:firefly_swarm"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_poison_arrow"
+titre = "Parchemin : « Flèche Empoisonnée »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:poison_arrow"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_blight"
+titre = "Parchemin : « Flétrissure »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:blight"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_gluttony"
+titre = "Parchemin : « Gloutonnerie »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:gluttony"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_oakskin"
+titre = "Parchemin : « Peau de Chêne »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:oakskin"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_stomp"
+titre = "Parchemin : « Piétinement »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:stomp"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_earthquake"
+titre = "Parchemin : « Tremblement de Terre »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:earthquake"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_poison_breath"
+titre = "Parchemin : « Vaporisation de Poison »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:poison_breath"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_poison_splash"
+titre = "Parchemin : « Éclaboussure de Poison »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:poison_splash"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_pocket_dimension"
+titre = "Parchemin : « Dimension de Poche »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:pocket_dimension"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_eldritch_blast"
+titre = "Parchemin : « Explosion Indicible »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:eldritch_blast"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_abyssal_shroud"
+titre = "Parchemin : « Linceul Abyssal »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:abyssal_shroud"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_sonic_boom"
+titre = "Parchemin : « Onde de Choc Sonique »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:sonic_boom"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_sculk_tentacles"
+titre = "Parchemin : « Tentacules de Sculk »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:sculk_tentacles"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_telekinesis"
+titre = "Parchemin : « Télékinésie »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:telekinesis"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "irons_spellbooks_planar_sight"
+titre = "Parchemin : « Vue Planaire »"
+optionnel = true
+icone = "irons_spellbooks:scroll"
+kit_voulu = true
+taches = ["parchemin irons_spellbooks:planar_sight"]
+recompenses = ["xp 1"]
+description = """
+Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée.
+"""
+
+[[quete]]
+cle = "complet"
+titre = "&7Tout le Grimoire"
+optionnel = true
+taille = 1.5
+icone = "irons_spellbooks:scroll"
+forme = "gear"
+taches = ["checkmark Collection complète"]
+recompenses = ["xp 20"]
+deps = ["irons_spellbooks_flaming_barrage", "irons_spellbooks_magma_bomb", "irons_spellbooks_fireball", "irons_spellbooks_scorch", "irons_spellbooks_raise_hell", "irons_spellbooks_fire_arrow", "irons_spellbooks_firebolt", "irons_spellbooks_flaming_strike", "irons_spellbooks_wall_of_fire", "irons_spellbooks_burning_dash", "irons_spellbooks_fire_breath", "irons_spellbooks_blaze_storm", "irons_spellbooks_heat_surge", "irons_spellbooks_soulfire_ray", "irons_spellbooks_blizzard", "irons_spellbooks_ice_block", "irons_spellbooks_snowball", "irons_spellbooks_cone_of_cold", "irons_spellbooks_frostbite", "irons_spellbooks_summon_polar_bear", "irons_spellbooks_frost_step", "irons_spellbooks_ice_spikes", "irons_spellbooks_ray_of_frost", "irons_spellbooks_icicle", "irons_spellbooks_ice_tomb", "irons_spellbooks_frostwave", "irons_spellbooks_ascension", "irons_spellbooks_charge", "irons_spellbooks_ball_lightning", "irons_spellbooks_chain_lightning", "irons_spellbooks_volt_strike", "irons_spellbooks_lightning_lance", "irons_spellbooks_shockwave", "irons_spellbooks_thunderstorm", "irons_spellbooks_thunder_step", "irons_spellbooks_lightning_bolt", "irons_spellbooks_electrocute", "irons_spellbooks_angel_wing", "irons_spellbooks_blessing_of_life", "irons_spellbooks_healing_circle", "irons_spellbooks_divine_smite", "irons_spellbooks_wisp", "irons_spellbooks_fortify", "irons_spellbooks_greater_heal", "irons_spellbooks_haste", "irons_spellbooks_cleanse", "irons_spellbooks_sunbeam", "irons_spellbooks_heal", "irons_spellbooks_guiding_bolt", "irons_spellbooks_arcane_shackle", "irons_spellbooks_starfall", "irons_spellbooks_counterspell", "irons_spellbooks_evasion", "irons_spellbooks_magic_arrow", "irons_spellbooks_echoing_strikes", "irons_spellbooks_gravity_fissure", "irons_spellbooks_summon_swords", "irons_spellbooks_summon_ender_chest", "irons_spellbooks_magic_missile", "irons_spellbooks_portal", "irons_spellbooks_recall", "irons_spellbooks_dragon_breath", "irons_spellbooks_shadow_slash", "irons_spellbooks_black_hole", "irons_spellbooks_teleport", "irons_spellbooks_acupuncture", "irons_spellbooks_blood_needles", "irons_spellbooks_heartstop", "irons_spellbooks_wither_skull", "irons_spellbooks_devour", "irons_spellbooks_blood_step", "irons_spellbooks_ray_of_siphoning", "irons_spellbooks_raise_dead", "irons_spellbooks_sacrifice", "irons_spellbooks_blood_slash", "irons_spellbooks_shield", "irons_spellbooks_chain_creeper", "irons_spellbooks_fang_swirl", "irons_spellbooks_fang_strike", "irons_spellbooks_fang_ward", "irons_spellbooks_invisibility", "irons_spellbooks_summon_horse", "irons_spellbooks_summon_vex", "irons_spellbooks_throw", "irons_spellbooks_lob_creeper", "irons_spellbooks_spectral_hammer", "irons_spellbooks_firecracker", "irons_spellbooks_gust", "irons_spellbooks_slow", "irons_spellbooks_scapegoat", "irons_spellbooks_arrow_volley", "irons_spellbooks_wololo", "irons_spellbooks_spider_aspect", "irons_spellbooks_acid_orb", "irons_spellbooks_touch_dig", "irons_spellbooks_root", "irons_spellbooks_firefly_swarm", "irons_spellbooks_poison_arrow", "irons_spellbooks_blight", "irons_spellbooks_gluttony", "irons_spellbooks_oakskin", "irons_spellbooks_stomp", "irons_spellbooks_earthquake", "irons_spellbooks_poison_breath", "irons_spellbooks_poison_splash", "irons_spellbooks_pocket_dimension", "irons_spellbooks_eldritch_blast", "irons_spellbooks_abyssal_shroud", "irons_spellbooks_sonic_boom", "irons_spellbooks_sculk_tentacles", "irons_spellbooks_telekinesis", "irons_spellbooks_planar_sight"]
+description = """
+Chaque sort de ce chapitre, en parchemin.
+"""

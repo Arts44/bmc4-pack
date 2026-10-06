@@ -1006,6 +1006,49 @@ def jetpacks(ix, e, n):
     return texte, k, exclus
 
 
+# ---- Grimoire (BMC-89, 6 octobre 2026)
+ECOLES_FR = {'fire': 'Feu', 'ice': 'Glace', 'lightning': 'Foudre', 'holy': 'Sacré', 'ender': 'Ender',
+             'blood': 'Sang', 'evocation': 'Évocation', 'nature': 'Nature', 'eldritch': 'Eldritch'}
+SOURCES_UNIQUES = {'entities/dead_king_ominous': "seulement sur le &lRoi Mort en version ominous&r (sa table de butin)",
+                   'chests/citadel/citadel_vault': "seulement dans le &lcoffre-fort de la citadelle&r du Nether"}
+
+
+def grimoire(ix, e, n):
+    """Une quête par sort d'Iron's Spells réellement obtenable en parchemin
+    (index/sorts_irons.json, lu dans le jar par outils/sorts-irons.py), à
+    n'importe quel niveau : tâche « parchemin <sort> », comparaison souple sur
+    data[0].id."""
+    sorts = json.load(open(os.path.join(INDEX, 'sorts_irons.json'), encoding='utf-8'))
+    ordre = list(ECOLES_FR)
+    entrees, exclus = [], []
+    for sid, s in sorted(sorts.items(), key=lambda kv: (ordre.index(kv[1]['ecole']) if kv[1]['ecole'] in ordre else 99, kv[1]['nom'])):
+        if not s['obtenable']:
+            if sid.split(':')[1] != 'none':
+                exclus.append((sid, 'désactivé par sa config par défaut (setDeprecated)' if not s['active'] else 'ni butin, ni forge'))
+            continue
+        ecole = ECOLES_FR.get(s['ecole'], s['ecole'])
+        tables = [x for x in s.get('tables', []) if not x.startswith('test/')]
+        if s['appris']:
+            source = "École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r."
+        elif not s['butin'] and not s['forge'] and tables:
+            source = "Ce parchemin ne s'obtient " + ' ou '.join(SOURCES_UNIQUES.get(x, x) for x in tables) + '.'
+        elif s['butin'] and s['forge']:
+            source = "Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r."
+        elif s['butin']:
+            source = "Il sort des parchemins tirés au hasard du butin."
+        else:
+            source = "Il se fabrique à la &lScroll Forge&r."
+        entrees.append({'cle': sid.replace(':', '_'), 'titre': f"Parchemin\u00a0: «\u00a0{s['nom']}\u00a0»",
+                        'taches': [f'parchemin {sid}'], 'icone': 'irons_spellbooks:scroll',
+                        'description': f"Sort de l'école &b{ecole}&r. {source} N'importe quel niveau compte. À garder : la livraison n'est pas consommée."})
+    intro = ("Chaque sort d'Iron's Spells qu'un parchemin peut porter sur ce serveur, une quête par sort. "
+             "N'importe quel niveau compte : le niveau d'un parchemin trouvé est tiré au hasard, et l'enclume arcanique les fusionne. "
+             "Une quête se valide en ayant le parchemin dans l'inventaire ; rien n'est consommé. Les paliers de la magie sont au chapitre &7Iron's Spells&r.")
+    texte, k, _ = chapitre_collection('grimoire', '&dGrimoire', 'irons_spellbooks:scroll', 'irons_spellbooks:scroll', intro, entrees,
+                                      '&7Tout le Grimoire', 'Chaque sort de ce chapitre, en parchemin.')
+    return texte, k, exclus
+
+
 CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end': bestiaire_nether_end,
              'bestiaire-dimensions': bestiaire_dimensions,
              'biomes-overworld': biomes_overworld, 'biomes-nether-end': biomes_nether_end,
@@ -1019,7 +1062,7 @@ CHAPITRES = {'bestiaire-overworld': bestiaire_overworld, 'bestiaire-nether-end':
              'armurerie-magie': lambda ix, e, n: chapitre_armurerie(ix, 'armurerie-magie'),
              **{s[0]: (lambda f: (lambda ix, e, n: chapitre_armes(ix, f)))(s[0]) for s in TYPES_ARMES},
              'arsenal': arsenal, 'atelier-create': atelier_create, 'herbier': herbier,
-             'montures': montures, 'sacs': sacs, 'jetpacks': jetpacks}
+             'montures': montures, 'sacs': sacs, 'jetpacks': jetpacks, 'grimoire': grimoire}
 
 
 def main(argv):

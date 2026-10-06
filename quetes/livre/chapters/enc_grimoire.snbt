@@ -1,0 +1,3751 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enc_grimoire"
+	group: "34D36ACF0DABCCEC"
+	icon: "irons_spellbooks:scroll"
+	id: "3FDFAEBE899DA1EF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Chaque sort d'Iron's Spells qu'un parchemin peut porter sur ce serveur, une quête par sort. N'importe quel niveau compte : le niveau d'un parchemin trouvé est tiré au hasard, et l'enclume arcanique les fusionne. Une quête se valide en ayant le parchemin dans l'inventaire ; rien n'est consommé. Les paliers de la magie sont au chapitre &7Iron's Spells&r."]
+			icon: "irons_spellbooks:scroll"
+			id: "7BA4575B5AA375D5"
+			rewards: [{
+				id: "2831C299243E22CD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "46116745724E0165"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&dGrimoire"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "55E8B9F281A5EEA9"
+			optional: true
+			rewards: [{
+				id: "6B6403933EDA6860"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D09B78713060BDF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:flaming_barrage"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Barrage Enflammé »"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "574A945EED1BF395"
+			optional: true
+			rewards: [{
+				id: "3D3FD507FA4F7D74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A3AD260DA605AC0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:magma_bomb"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Bombe de Magma »"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "427FE0715A1BE9DB"
+			optional: true
+			rewards: [{
+				id: "0856A4C256CA4612"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48A2A316E1D9294F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fireball"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Boule de Feu »"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "73A2200CC6F3171B"
+			optional: true
+			rewards: [{
+				id: "0BD0777869F29922"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "462DD3A510692871"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:scorch"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Brûlure »"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Ce parchemin ne s'obtient seulement dans le &lcoffre-fort de la citadelle&r du Nether. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "1AD486379949BE39"
+			optional: true
+			rewards: [{
+				id: "3B3A78227AB4336E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77E9370BB216E1EB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:raise_hell"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Déchaîner l'Enfer »"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "349C1E6AA1529B6C"
+			optional: true
+			rewards: [{
+				id: "7A4929616546B817"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15A5C30111034DBF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fire_arrow"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Flèche de Feu »"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "33F0A54C852AE542"
+			optional: true
+			rewards: [{
+				id: "4784A567F549404D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CFDE284BB53C348"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:firebolt"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Flèche de Feu »"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "301CA422DC5F5197"
+			optional: true
+			rewards: [{
+				id: "0731D9AE55B4C9A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D2CDB3641A8949E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:flaming_strike"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Frappe Enflammée »"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "46AD31F8A5D7B745"
+			optional: true
+			rewards: [{
+				id: "57A125290400A0BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05391ECAEF576021"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:wall_of_fire"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Mur de Feu »"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "4BEB4523D0B125AB"
+			optional: true
+			rewards: [{
+				id: "513746FCBB584962"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E27562D77CED46A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:burning_dash"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Ruée Enflammée »"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "4C526A8B13346FA1"
+			optional: true
+			rewards: [{
+				id: "74FB572A8927181F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F741457F8982F59"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fire_breath"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Souffle de Feu »"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "257BB5A8FE8CB3B0"
+			optional: true
+			rewards: [{
+				id: "0A2C014D1440AB1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "200CC94D223768C9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blaze_storm"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Tempête de Blaze »"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "140C83C4E7B839BD"
+			optional: true
+			rewards: [{
+				id: "05AFED3253A22E45"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47FA8E5B5B30B034"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:heat_surge"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Vague de Chaleur »"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bFeu&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "5A04F9FA089DA0C1"
+			optional: true
+			rewards: [{
+				id: "735DA41F2B871C58"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CC76BADB5264650"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:soulfire_ray"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « irons_spellbooks:soulfire_ray »"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "1A2ABF10827FC64B"
+			optional: true
+			rewards: [{
+				id: "3B332FAD4554FA9F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "217A2214B7778910"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blizzard"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Blizzard »"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "56FAC6C386F48459"
+			optional: true
+			rewards: [{
+				id: "575C704EBC49FE5D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25B8407231C6D5CD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ice_block"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Bloc de Glace »"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "79F171CA663C3293"
+			optional: true
+			rewards: [{
+				id: "3B63D3CE018E5548"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F20E55116CAE90C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:snowball"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Boule de Neige »"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "3D6BB0BC99E086C7"
+			optional: true
+			rewards: [{
+				id: "134955F9A35C9AEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6128FF82EF4479B6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:cone_of_cold"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Cône de Froid »"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "31DBE15EAE2FC623"
+			optional: true
+			rewards: [{
+				id: "1F6B603AF4E61C35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5057F1926F25BD92"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:frostbite"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Gelure »"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "55007B2E74CB193C"
+			optional: true
+			rewards: [{
+				id: "15AA56BFFE1B5248"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "143638979A7994C3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:summon_polar_bear"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Invoquer un Ours Polaire »"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "24B9398848038F00"
+			optional: true
+			rewards: [{
+				id: "749D8A5FA14E17D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2CAE99F97B520CB4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:frost_step"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Pas de Givre »"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "013AA88BE0EB24A8"
+			optional: true
+			rewards: [{
+				id: "0ED4657E1D06E12B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33BFF5981630BBE0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ice_spikes"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Piques de Glace »"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "329581A09C8D8FE9"
+			optional: true
+			rewards: [{
+				id: "1ACF5D0428AF8A28"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B58CC54EB4A91B9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ray_of_frost"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Rayon de Givre »"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "3EA9C5865EA57C6E"
+			optional: true
+			rewards: [{
+				id: "653CB25226227ACD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C08D71E76A38D3C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:icicle"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Stalactite de Glace »"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "3BF0494B332FA0A0"
+			optional: true
+			rewards: [{
+				id: "76D474B907003EAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FD3F8F7A4C052B8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ice_tomb"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Tombeau de Glace »"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bGlace&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "5EAE8391002214D2"
+			optional: true
+			rewards: [{
+				id: "786FB6E54FB3F225"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12F49DD672AB73A7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:frostwave"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Vague de Givre »"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "2AD5859EC576B2C2"
+			optional: true
+			rewards: [{
+				id: "776F02C0E4B90D6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1779582E9AF23802"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ascension"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Ascension »"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "121942B611F583DC"
+			optional: true
+			rewards: [{
+				id: "1C6C125171461F1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61B29E06AD99FB82"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:charge"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Charge »"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "539B09A31A37A53A"
+			optional: true
+			rewards: [{
+				id: "5F6ADAFB8B954DFE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B84F8825D983F51"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ball_lightning"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Foudre en Boule »"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "066BEA92AC6E7EB6"
+			optional: true
+			rewards: [{
+				id: "45AD6D9895800FD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "046294DA7711C60B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:chain_lightning"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Foudre en Chaîne »"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "07426DAF27BB6124"
+			optional: true
+			rewards: [{
+				id: "4862B505E4939C4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09D2F0EB092DAF4A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:volt_strike"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Frappe Voltaïque »"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "0A86ED680F603631"
+			optional: true
+			rewards: [{
+				id: "03AD69DB0B7D1804"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35705F209F6F4317"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:lightning_lance"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Lance d'Éclair »"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "047EE67800CDFDC6"
+			optional: true
+			rewards: [{
+				id: "26E4FD0FC842BAA6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72B61FC3D70BFFE6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:shockwave"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Onde de Choc »"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "767C47BD3038AB44"
+			optional: true
+			rewards: [{
+				id: "6395666A2C636A11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "634297AE3AA08914"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:thunderstorm"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Orage »"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "17DC47A32A448C01"
+			optional: true
+			rewards: [{
+				id: "76A7F235777690CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E199EF2CE3EBE0D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:thunder_step"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Pas du Tonnerre »"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "0C5B4558490E0058"
+			optional: true
+			rewards: [{
+				id: "2BCFA263E73991B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04C648FB63261D6A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:lightning_bolt"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Éclair »"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bFoudre&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "6A2FE3E9C2067970"
+			optional: true
+			rewards: [{
+				id: "0E78D9CD70E5DFCB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7666CECB7544F05B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:electrocute"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Électrocution »"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "21A3F8355D308BD8"
+			optional: true
+			rewards: [{
+				id: "16E1A0B9A475AA58"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CF5C0768DAD4644"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:angel_wing"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Ailes d'Ange »"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "2B0C89D52952D14B"
+			optional: true
+			rewards: [{
+				id: "6D5103669FFB3B6D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60F16C188FC8532D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blessing_of_life"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Bénédiction de Vie »"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "7407F6C2B18406C5"
+			optional: true
+			rewards: [{
+				id: "7180E48E1E381D3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57A3929025123353"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:healing_circle"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Cercle de Soin »"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "056B569C5AC77706"
+			optional: true
+			rewards: [{
+				id: "38165FDDF6DCAECA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42684144778757EF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:divine_smite"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Châtiment Divin »"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "26A761BF3B3D6292"
+			optional: true
+			rewards: [{
+				id: "6E63F1DBDA321F21"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0917FB24E752E9E2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:wisp"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Feu Follet »"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "768F000E83C1B7F4"
+			optional: true
+			rewards: [{
+				id: "43BBFCA181E46C3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EFD5A38A30028A0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fortify"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Fortifier »"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "1E89DC60A7E624A4"
+			optional: true
+			rewards: [{
+				id: "2ACEAE7F086CE726"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A7ED4996D61D9A7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:greater_heal"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Grand Soin »"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "10DB9AC7236D478F"
+			optional: true
+			rewards: [{
+				id: "0269A9066A2E00A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "013DFD61750047BD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:haste"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Hâte »"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "34129450C528CBC7"
+			optional: true
+			rewards: [{
+				id: "2E887F59887309FC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "741F6BBE45B0A375"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:cleanse"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Purification »"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "769D0931A3FE2A21"
+			optional: true
+			rewards: [{
+				id: "4900C9E03B0DF2EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32C4590650FF67DB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:sunbeam"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Rayon de Soleil »"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "4EE9B4CB90B22EC7"
+			optional: true
+			rewards: [{
+				id: "1B229FE3D4FAF701"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41555C34E2859105"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:heal"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Soin »"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sort de l'école &bSacré&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "1F7CF7652A308362"
+			optional: true
+			rewards: [{
+				id: "45D3EB2ABAF5BA59"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6BB0260E613EC4CD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:guiding_bolt"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Éclair Guidé »"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "35DC52288CDAE904"
+			optional: true
+			rewards: [{
+				id: "517ACF6416CB6582"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4170F1660284F5C1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:arcane_shackle"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Arcane Shackle »"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "2E194D258678B14D"
+			optional: true
+			rewards: [{
+				id: "272E178E5FB8806C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B929D2F6A29E103"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:starfall"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Chute d'Étoiles »"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "5769EB532FC298DA"
+			optional: true
+			rewards: [{
+				id: "6BB798463636A56E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16A0AC8F99DA4C8E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Contre-Sort »"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "173503C1CC139195"
+			optional: true
+			rewards: [{
+				id: "04922E4CA696BF80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EA9E8115283092D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:evasion"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Esquive »"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "00C4E61E348E567D"
+			optional: true
+			rewards: [{
+				id: "53F79BB27391E8CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AB507EEE34EAEB2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:magic_arrow"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Flèche Magique »"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "6486D2D975AA5BB9"
+			optional: true
+			rewards: [{
+				id: "57009E36EE4ADF45"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "143456970176EC91"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Frappes en Écho »"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "462DB8EF0BD3FCA7"
+			optional: true
+			rewards: [{
+				id: "6F5333AA1E44225A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A6D117A77CA9C19"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:gravity_fissure"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Gravity Fissure »"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "7535BBF915DD022A"
+			optional: true
+			rewards: [{
+				id: "51022C1FD7748F95"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "491422FB232B6C29"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:summon_swords"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Invoquer des Épées »"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "17F98F3E19B35E70"
+			optional: true
+			rewards: [{
+				id: "0CFE42D9CE0EF687"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4103BFD54A5B28BE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:summon_ender_chest"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Invoquer un Coffre de l'Ender »"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "087B0E06016D881F"
+			optional: true
+			rewards: [{
+				id: "6CA1C984C2F582CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07479C6B21FE5430"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:magic_missile"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Missile Magique »"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "6EFD405E2F7E9340"
+			optional: true
+			rewards: [{
+				id: "6C1528E1FBDE6C33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "577B2D44DF71D02E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:portal"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Portail »"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "24DE8D9C711A29FE"
+			optional: true
+			rewards: [{
+				id: "14DB53842EE05973"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DBF5905C3D8E9A0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:recall"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Rappel »"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "1958A0B5AEDF4CEB"
+			optional: true
+			rewards: [{
+				id: "1F6047B84A25FD73"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D81E64D74592B18"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:dragon_breath"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Souffle de Dragon »"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "31A166C811D7DBE2"
+			optional: true
+			rewards: [{
+				id: "59358AE0D8624856"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "146343B7F4F10060"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:shadow_slash"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Taillade d'Ombre »"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "20E0BEBAC0906EC9"
+			optional: true
+			rewards: [{
+				id: "07549993028B12AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72AA30DD5E3035CF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:black_hole"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Trou Noir »"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sort de l'école &bEnder&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "5C7826F87ED7797C"
+			optional: true
+			rewards: [{
+				id: "5BBC2723AF18C207"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "273E8686DEFA5300"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:teleport"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Téléportation »"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "7D5509465A239521"
+			optional: true
+			rewards: [{
+				id: "52998222F78452B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "533C643250154BA4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:acupuncture"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Acupuncture »"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "38469DEE23B1B36D"
+			optional: true
+			rewards: [{
+				id: "10AB92E392D6EE72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C26EDE8991EC2B8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blood_needles"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Aiguilles de Sang »"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "702FE5E059310400"
+			optional: true
+			rewards: [{
+				id: "12557D768E05DF10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "600F17A6452536AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:heartstop"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Arrêt Cardiaque »"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "4B646E3F079970A8"
+			optional: true
+			rewards: [{
+				id: "3C795D7BD3570259"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2676F49173586688"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:wither_skull"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Crâne de Wither »"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "4F93EFE42A4A799F"
+			optional: true
+			rewards: [{
+				id: "3DBEAAFCFE2107D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72B7F32F6ADF511B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:devour"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Dévorer »"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "7F8C896E9872B447"
+			optional: true
+			rewards: [{
+				id: "5F5960B93679AEA6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2663DD5B34354D47"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blood_step"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Pas de Sang »"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "4EE2D6965E1ABD46"
+			optional: true
+			rewards: [{
+				id: "2819EB1853B4CB32"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1986235FB63339DD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ray_of_siphoning"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Rayon de Siphon »"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "462DD414F70B57F4"
+			optional: true
+			rewards: [{
+				id: "7C093901A5646539"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41243B76E21B4879"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:raise_dead"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Ressusciter les Morts »"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "5F851E6398F358A5"
+			optional: true
+			rewards: [{
+				id: "75FED4CE2096C9A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11B19020D59A1EC7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:sacrifice"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Sacrifice »"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bSang&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "4E37DEFA09A9D6E6"
+			optional: true
+			rewards: [{
+				id: "6B1C1EEC165CA4AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CB4C10C4D36C99B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blood_slash"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Taillade de Sang »"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "0832D092D6DF1478"
+			optional: true
+			rewards: [{
+				id: "3D3630AC04DE56D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CB3C50A79911C14"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:shield"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Bouclier »"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "03B1EE9164E99662"
+			optional: true
+			rewards: [{
+				id: "2BCAC561CB7183B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13FECAC4A07796BF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:chain_creeper"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Creeper en Chaîne »"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Ce parchemin ne s'obtient seulement sur le &lRoi Mort en version ominous&r (sa table de butin). N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "70235E0C06E54713"
+			optional: true
+			rewards: [{
+				id: "45FD453CA5428208"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4335FC041FAC7783"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fang_swirl"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Fang Swirl »"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "4D448EFF40660DDE"
+			optional: true
+			rewards: [{
+				id: "0CCE988D48170761"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "348B77F83CFD580A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fang_strike"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Frappe de Crocs »"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "1475E709B67B02A5"
+			optional: true
+			rewards: [{
+				id: "1FDBAB3F3837CE96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25BCA8B11877C760"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fang_ward"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Garde de Crocs »"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "2D6088C590D20693"
+			optional: true
+			rewards: [{
+				id: "637E59BE1CC7B624"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "568B52B2D2DCFB08"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:invisibility"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Invisibilité »"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "6AE4F9FE11CC6CBE"
+			optional: true
+			rewards: [{
+				id: "6E2498BC4D236710"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B75F553853D612A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:summon_horse"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Invoquer un Cheval »"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "55F6A4FFEAADF718"
+			optional: true
+			rewards: [{
+				id: "54AC453F225ADA48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28D56FEBD4F9188E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:summon_vex"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Invoquer un Vex »"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "541B11C866A7E3D2"
+			optional: true
+			rewards: [{
+				id: "537FE626C82B6A81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F8323AD196F031B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:throw"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Lancer »"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "1E1655B67A4E53CD"
+			optional: true
+			rewards: [{
+				id: "1C4FE6363EBA7590"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "381F56D74E5FF175"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:lob_creeper"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Lancer de Creeper »"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "7D9BF3F868BA36BB"
+			optional: true
+			rewards: [{
+				id: "549AE67955ABAC8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51F0E7C82468DE2A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:spectral_hammer"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Marteau Spectral »"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "05D639B256611FBA"
+			optional: true
+			rewards: [{
+				id: "1F190B91507E674A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "116DEE9AEC8A3571"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:firecracker"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Pétard »"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "729F20DFA49CC54E"
+			optional: true
+			rewards: [{
+				id: "60777ABB38D6741D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13B5FA184DC7B9C6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:gust"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Rafale »"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "227D20830110C7A9"
+			optional: true
+			rewards: [{
+				id: "6BA4AA561B072D10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "764D300F5E946083"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:slow"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Ralentissement »"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "794D373C32193A9A"
+			optional: true
+			rewards: [{
+				id: "0BE8788EEDC66F39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4742A2518DDD0203"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:scapegoat"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Scapegoat »"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "49925453D1C4CBBE"
+			optional: true
+			rewards: [{
+				id: "206EC41BFCD6C0D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "191AFA54C7F49631"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:arrow_volley"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Volée de Flèches »"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bÉvocation&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "3DEBAD4A65059D91"
+			optional: true
+			rewards: [{
+				id: "0A11A6D0FF178375"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2ACB42B21863C3C9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:wololo"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Wololo »"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "7666FD17E647026C"
+			optional: true
+			rewards: [{
+				id: "6D20944A45A998B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21915CB08341AD56"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:spider_aspect"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Aspect de l'Araignée »"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "404FB2AD3F6A89F4"
+			optional: true
+			rewards: [{
+				id: "2F4A51930AF17374"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E77BEED34FB593F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:acid_orb"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Crachat Acide »"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "303720E27ECF4F63"
+			optional: true
+			rewards: [{
+				id: "25250D78FC686EA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "163A51833FFD6898"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:touch_dig"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Creuser au Toucher »"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "7346F6CC3520BFC0"
+			optional: true
+			rewards: [{
+				id: "5BCB5800FF7D7F8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "368137960BD7AFC0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:root"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Enracinement »"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "35A15327EF278AFF"
+			optional: true
+			rewards: [{
+				id: "0518B411A1EC721F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "349BC44BD8A222DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:firefly_swarm"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Essaim de Lucioles »"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "39307FBAC90435F8"
+			optional: true
+			rewards: [{
+				id: "175765EB4F3ADEC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40F7CB22A054A05C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:poison_arrow"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Flèche Empoisonnée »"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "6A5CFD6FD71CE748"
+			optional: true
+			rewards: [{
+				id: "067A6FA6935179AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15623E277D6C26F7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blight"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Flétrissure »"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "54296F8C362894C8"
+			optional: true
+			rewards: [{
+				id: "585EDF9BE829F268"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "398609ADB83D9DE7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:gluttony"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Gloutonnerie »"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "3DB7DEBEEFE90B19"
+			optional: true
+			rewards: [{
+				id: "5F9132F292B2592A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "657C9295707BDC3E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:oakskin"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Peau de Chêne »"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "42C736A3A4FD4925"
+			optional: true
+			rewards: [{
+				id: "3E7B2EB1C5182CC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E7C2DA2AC08D37F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:stomp"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Piétinement »"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "0769AAAED5EEF3DB"
+			optional: true
+			rewards: [{
+				id: "29EFC70BB04AA68A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5714EE35B33E9419"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:earthquake"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Tremblement de Terre »"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "60F4E038E1CCF5F6"
+			optional: true
+			rewards: [{
+				id: "6DF71A3E5C8D6AB2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "612DC4255D97D077"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:poison_breath"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Vaporisation de Poison »"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bNature&r. Il sort des parchemins tirés au hasard du butin, et se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "46A73E35E6EE4D5D"
+			optional: true
+			rewards: [{
+				id: "1D66E0BDE05D3387"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FFD569807E855BC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:poison_splash"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Éclaboussure de Poison »"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "1EA68A7FE32787F5"
+			optional: true
+			rewards: [{
+				id: "1024C28BF4165A30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AF69237D86A6F30"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:pocket_dimension"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Dimension de Poche »"
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "3C46B4D2061FC5FA"
+			optional: true
+			rewards: [{
+				id: "36648359826DC601"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1923ED7E8BE64660"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:eldritch_blast"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Explosion Indicible »"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "5CE79BE06A1C4DA9"
+			optional: true
+			rewards: [{
+				id: "563E2D74155C1046"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B28D48EEE551AFF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:abyssal_shroud"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Linceul Abyssal »"
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "5BBB4DD405F5A6D6"
+			optional: true
+			rewards: [{
+				id: "5499896101D2E39D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47B1261FBD337BF1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:sonic_boom"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Onde de Choc Sonique »"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "3086CFBCFD4A3DED"
+			optional: true
+			rewards: [{
+				id: "48DA14F846B2380E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48C6607F57792E7B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:sculk_tentacles"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Tentacules de Sculk »"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "17CFDF444A2E6E4E"
+			optional: true
+			rewards: [{
+				id: "318B59F16DBBCE2B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EBFBB4BD8C4E344"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:telekinesis"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Télékinésie »"
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sort de l'école &bEldritch&r. École eldritch : ce sort ne sort jamais du butin. Une fois appris, il se fabrique à la &lScroll Forge&r. N'importe quel niveau compte. À garder : la livraison n'est pas consommée."]
+			icon: "irons_spellbooks:scroll"
+			id: "5F0E152D8E5FE617"
+			optional: true
+			rewards: [{
+				id: "7F2E274AB15A5B5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C595B1F071A16D0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:planar_sight"
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Parchemin : « Vue Planaire »"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"55E8B9F281A5EEA9"
+				"574A945EED1BF395"
+				"427FE0715A1BE9DB"
+				"73A2200CC6F3171B"
+				"1AD486379949BE39"
+				"349C1E6AA1529B6C"
+				"33F0A54C852AE542"
+				"301CA422DC5F5197"
+				"46AD31F8A5D7B745"
+				"4BEB4523D0B125AB"
+				"4C526A8B13346FA1"
+				"257BB5A8FE8CB3B0"
+				"140C83C4E7B839BD"
+				"5A04F9FA089DA0C1"
+				"1A2ABF10827FC64B"
+				"56FAC6C386F48459"
+				"79F171CA663C3293"
+				"3D6BB0BC99E086C7"
+				"31DBE15EAE2FC623"
+				"55007B2E74CB193C"
+				"24B9398848038F00"
+				"013AA88BE0EB24A8"
+				"329581A09C8D8FE9"
+				"3EA9C5865EA57C6E"
+				"3BF0494B332FA0A0"
+				"5EAE8391002214D2"
+				"2AD5859EC576B2C2"
+				"121942B611F583DC"
+				"539B09A31A37A53A"
+				"066BEA92AC6E7EB6"
+				"07426DAF27BB6124"
+				"0A86ED680F603631"
+				"047EE67800CDFDC6"
+				"767C47BD3038AB44"
+				"17DC47A32A448C01"
+				"0C5B4558490E0058"
+				"6A2FE3E9C2067970"
+				"21A3F8355D308BD8"
+				"2B0C89D52952D14B"
+				"7407F6C2B18406C5"
+				"056B569C5AC77706"
+				"26A761BF3B3D6292"
+				"768F000E83C1B7F4"
+				"1E89DC60A7E624A4"
+				"10DB9AC7236D478F"
+				"34129450C528CBC7"
+				"769D0931A3FE2A21"
+				"4EE9B4CB90B22EC7"
+				"1F7CF7652A308362"
+				"35DC52288CDAE904"
+				"2E194D258678B14D"
+				"5769EB532FC298DA"
+				"173503C1CC139195"
+				"00C4E61E348E567D"
+				"6486D2D975AA5BB9"
+				"462DB8EF0BD3FCA7"
+				"7535BBF915DD022A"
+				"17F98F3E19B35E70"
+				"087B0E06016D881F"
+				"6EFD405E2F7E9340"
+				"24DE8D9C711A29FE"
+				"1958A0B5AEDF4CEB"
+				"31A166C811D7DBE2"
+				"20E0BEBAC0906EC9"
+				"5C7826F87ED7797C"
+				"7D5509465A239521"
+				"38469DEE23B1B36D"
+				"702FE5E059310400"
+				"4B646E3F079970A8"
+				"4F93EFE42A4A799F"
+				"7F8C896E9872B447"
+				"4EE2D6965E1ABD46"
+				"462DD414F70B57F4"
+				"5F851E6398F358A5"
+				"4E37DEFA09A9D6E6"
+				"0832D092D6DF1478"
+				"03B1EE9164E99662"
+				"70235E0C06E54713"
+				"4D448EFF40660DDE"
+				"1475E709B67B02A5"
+				"2D6088C590D20693"
+				"6AE4F9FE11CC6CBE"
+				"55F6A4FFEAADF718"
+				"541B11C866A7E3D2"
+				"1E1655B67A4E53CD"
+				"7D9BF3F868BA36BB"
+				"05D639B256611FBA"
+				"729F20DFA49CC54E"
+				"227D20830110C7A9"
+				"794D373C32193A9A"
+				"49925453D1C4CBBE"
+				"3DEBAD4A65059D91"
+				"7666FD17E647026C"
+				"404FB2AD3F6A89F4"
+				"303720E27ECF4F63"
+				"7346F6CC3520BFC0"
+				"35A15327EF278AFF"
+				"39307FBAC90435F8"
+				"6A5CFD6FD71CE748"
+				"54296F8C362894C8"
+				"3DB7DEBEEFE90B19"
+				"42C736A3A4FD4925"
+				"0769AAAED5EEF3DB"
+				"60F4E038E1CCF5F6"
+				"46A73E35E6EE4D5D"
+				"1EA68A7FE32787F5"
+				"3C46B4D2061FC5FA"
+				"5CE79BE06A1C4DA9"
+				"5BBB4DD405F5A6D6"
+				"3086CFBCFD4A3DED"
+				"17CFDF444A2E6E4E"
+				"5F0E152D8E5FE617"
+			]
+			description: ["Chaque sort de ce chapitre, en parchemin."]
+			icon: "irons_spellbooks:scroll"
+			id: "05EA6F3F70CB30D3"
+			optional: true
+			rewards: [{
+				id: "7AD3CA6FD10520D7"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2D81D555EF669B7D"
+				title: "Collection complète"
+				type: "checkmark"
+			}]
+			title: "&7Tout le Grimoire"
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+	title: "&dGrimoire"
+}
