@@ -21,6 +21,9 @@ execute as @e[type=dragonmounts:dragon,team=] run team join bmc4_dragons @s
 execute if score #etat bmc4_raid matches 1 run function bmc4:raid_tick
 # Hors créneau : libère un joueur resté ancré (déconnecté pendant son décompte).
 execute if score #etat bmc4_raid matches 0 as @a[tag=bmc4_ancre] run function bmc4:ancre_sortie
+# Hors créneau : libère aussi celui qui s'est déconnecté sur l'écran de mort
+# (spectateur sans ancre, BMC-90, 6 octobre).
+execute if score #etat bmc4_raid matches 0 as @a[tag=bmc4_spectateur] run function bmc4:spectateur_sortie
 
 # --- Le cœur perdu (BMC-90) : soins à tout moment, migration ---
 function bmc4:coeur_tick

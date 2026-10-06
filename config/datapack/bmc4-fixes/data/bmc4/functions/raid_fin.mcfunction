@@ -10,7 +10,11 @@ scoreboard players set #etat bmc4_raid 0
 execute as @a[team=bmc4_raid_actif,scores={bmc4_morts=1..}] run function bmc4:coeur_perte
 
 execute as @a[tag=bmc4_ancre] run function bmc4:ancre_lever
+# Les ancres des joueurs absents restaient au sol : on tue toutes celles
+# qui sont chargées (BMC-90, 6 octobre).
+kill @e[type=minecraft:marker,tag=bmc4_ancre]
 gamemode survival @a[gamemode=spectator]
+tag @a remove bmc4_spectateur
 scoreboard players reset * bmc4_spec
 scoreboard players set @a bmc4_morts 0
 

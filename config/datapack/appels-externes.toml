@@ -3,7 +3,9 @@
 #
 # Le datapack du dépôt est une copie octet pour octet de celui du serveur
 # (/world/datapacks/bmc4-fixes) : les raisons vivent ici plutôt qu'en
-# commentaire dans les fonctions. Chaque raison vient de l'en-tête de la
+# commentaire dans les fonctions. Exception en attente de déploiement : les
+# trois corrections BMC-90 du 6 octobre (raid_debut, raid_tick, raid_fin,
+# tick, spectateur_sortie), préparées dans le dépôt, pas encore sur le serveur. Chaque raison vient de l'en-tête de la
 # fonction ou d'un appel trouvé dans le code du bot ; rien n'est supposé.
 
 [fonction]

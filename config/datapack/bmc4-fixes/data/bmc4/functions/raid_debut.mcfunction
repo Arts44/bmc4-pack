@@ -8,7 +8,10 @@
 # Le bot remplit l'équipe juste avant d'appeler cette fonction.
 
 scoreboard players set #etat bmc4_raid 1
-scoreboard players set @a bmc4_morts 0
+# « * » vise tous les joueurs suivis, connectés ou non : avec @a, un joueur
+# mort hors ligne entre deux créneaux gardait son compteur et perdait cinq
+# minutes dès sa reconnexion (BMC-90, 6 octobre).
+scoreboard players set * bmc4_morts 0
 scoreboard players reset * bmc4_spec
 
 tellraw @a[team=bmc4_raid_actif] ["",{"text":"\n⚔️ Le raid commence.","color":"red","bold":true},{"text":"\nChaque mort coûte cinq minutes en spectateur, dans les deux camps.\n","color":"gray"}]
