@@ -142,29 +142,14 @@ const ACCES = {
 // ------------------------------------------------------------
 //  Un pseudo connu du serveur, même hors ligne (/nickname)
 // ------------------------------------------------------------
-// MinecraftServer.getProfileCache() était en ÉCHEC dans /prestige diagnostic
-// le 6 octobre au soir. Cinq voies, essayées dans l'ordre ; chacune rend le
-// pseudo exact s'il est connu, null s'il ne l'est pas, et lève une erreur si
-// elle ne fonctionne pas sur ce serveur. /prestige diagnostic les affiche toutes.
+// Un pseudo connu du serveur, même hors ligne. Les voies par le cache des profils
+// du jeu sont prouvées absentes au runtime par /prestige diagnostic le 6 octobre
+// au soir (getProfileCache(), la propriété profileCache, les noms SRG bruts) :
+// retirées, et refusées par la règle 8 du contrôle. Restent deux voies, essayées
+// dans l'ordre ; chacune rend le pseudo exact s'il est connu, null s'il ne l'est
+// pas, et lève une erreur si elle ne fonctionne pas.
 const VOIES_PROFIL = [
-  // 1. MinecraftServer.getProfileCache() (m_129927_) puis GameProfileCache.get(String)
-  //    (m_10996_) : noms Mojang traduits par la table de Rhino (mm.jsmappings).
-  { nom: 'getProfileCache()', essai: (server, nom) => {
-    let o = server.getProfileCache().get(nom)
-    return o != null && o.isPresent() ? String(o.get().getName()) : null
-  } },
-  // 2. La même chose en propriété : Rhino expose un getX() comme x, s'il le traduit.
-  { nom: 'server.profileCache', essai: (server, nom) => {
-    let o = server.profileCache.get(nom)
-    return o != null && o.isPresent() ? String(o.get().getName()) : null
-  } },
-  // 3. Les noms SRG bruts, ceux que portent réellement les méthodes au runtime
-  //    (javap du jar 1.20.1 : MinecraftServer.m_129927_(), GameProfileCache.m_10996_(String)).
-  { nom: 'm_129927_().m_10996_()', essai: (server, nom) => {
-    let o = server.m_129927_().m_10996_(nom)
-    return o != null && o.isPresent() ? String(o.get().getName()) : null
-  } },
-  // 4. usercache.json, à la racine du serveur, par JsonIO de KubeJS (liaison
+  // 1. usercache.json, à la racine du serveur, par JsonIO de KubeJS (liaison
   //    BuiltinKubeJSPlugin.java:377). Un chemin texte devient un Path relatif au
   //    dossier du jeu (BuiltinKubeJSPlugin.java:431, UtilsJS.java:224-231), refusé
   //    seulement hors de ce dossier (KubeJS.java:190-196).
@@ -176,7 +161,7 @@ const VOIES_PROFIL = [
     for (let i = 0; i < liste.length; i++) if (String(liste[i].name).toLowerCase() == bas) return String(liste[i].name)
     return null
   } },
-  // 5. FTB Teams 2001.3.2 (javap) : TeamManager.getKnownPlayerTeams() rend l'équipe
+  // 2. FTB Teams 2001.3.2 (javap) : TeamManager.getKnownPlayerTeams() rend l'équipe
   //    personnelle de chaque joueur connu, hors ligne compris ; son nom affiché
   //    (TeamProperties.DISPLAY_NAME, un String) est celui du joueur.
   { nom: 'FTB Teams getKnownPlayerTeams()', essai: (server, nom) => {
@@ -487,7 +472,7 @@ function garderNickname(server, joueur, args) {
   let enLigne = joueurNomme(server, nom)
   if (enLigne != null) pris = ACCES.nom(enLigne)
   else {
-    // Hors ligne : la première des cinq voies qui fonctionne (VOIES_PROFIL).
+    // Hors ligne : la première des deux voies qui fonctionne (VOIES_PROFIL).
     // Si aucune ne fonctionne, on se rabat sur les joueurs en ligne seuls : seule
     // exception au fail-closed (correctif d'Arthur, 6 octobre au soir), car
     // /nickname ne touche ni aux raids ni aux téléportations et le règlement
@@ -681,7 +666,8 @@ ServerEvents.commandRegistry(event => {
       if (r == null) throw 'aucune des ' + VOIES_PROFIL.length + ' voies ne fonctionne (repli : joueurs en ligne seuls)'
       return 'voie « ' + r.voie + ' », ' + (r.pris == null ? 'pseudo introuvable' : 'trouvé : ' + r.pris)
     })
-    // Les cinq voies, une ligne d'information chacune.
+    // Les deux voies, une ligne d'information chacune (les trois voies du cache des
+    // profils du jeu, prouvées absentes le 6 octobre, ne sont plus essayées).
     for (let i = 0; i < VOIES_PROFIL.length; i++) {
       let v = VOIES_PROFIL[i]
       let texte

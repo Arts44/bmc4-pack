@@ -92,6 +92,10 @@ FORMES_ABSENTES = {
     r'\.getUUID\(': "getUuid() (EntityMixin.java:79)",
     r'getSource\(\)\.getEntity\(': "getSource().getActual() (DamageSourceMixin.java:24)",
     r'\.dimension\(\)': "getDimensionKey() (LevelMixin.java:32) ; level.dimension est un ResourceLocation",
+    # Prouvées absentes par /prestige diagnostic le 6 octobre au soir (voies 1 à 3 de /nickname) :
+    r'getProfileCache\(': "usercache.json par JsonIO, ou FTB Teams getKnownPlayerTeams()",
+    r'\.profileCache\b': "usercache.json par JsonIO, ou FTB Teams getKnownPlayerTeams()",
+    r'm_129927_': "usercache.json par JsonIO, ou FTB Teams getKnownPlayerTeams()",
 }
 
 

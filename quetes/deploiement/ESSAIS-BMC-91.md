@@ -126,13 +126,12 @@ Ranks (`ftbranks remove <pseudo> rang_<n>` pour chaque n) et
       d'un coup (après un coup donné à une créature : « 1 coup(s) suivi(s),
       0 erreur(s) »), combat restant, **pseudo connu hors ligne (/nickname)**
       (« voie « … », trouvé : <ton pseudo> »), arbre des commandes.
-      Suivent cinq lignes **INFO**, une par voie essayée pour retrouver un
-      pseudo hors ligne : getProfileCache(), server.profileCache,
-      m_129927_().m_10996_(), usercache.json (JsonIO), FTB Teams
-      getKnownPlayerTeams(). Chacune dit « fonctionne » ou « ne fonctionne
-      pas : <classe Java : message> ». Ce ne sont pas des échecs : la ligne OK
-      ci-dessus dit laquelle est retenue. **Relever les textes des voies qui ne
-      fonctionnent pas** : ils iront dans la règle 8 du contrôle.
+      Suivent deux lignes **INFO**, une par voie pour retrouver un pseudo
+      hors ligne : usercache.json (JsonIO), FTB Teams getKnownPlayerTeams() ;
+      chacune « fonctionne » (essai du 6 octobre au soir). Les trois voies par
+      le cache des profils du jeu (getProfileCache(), server.profileCache,
+      m_129927_()) ont été prouvées absentes ce soir-là : retirées, et
+      refusées par la règle 8 du contrôle.
 - [ ] **`/nickname` d'un joueur hors ligne** : `/nickname <pseudo d'un joueur
       déconnecté>` → ligne 26 du tableau. Si aucune voie ne fonctionne, le repli
       ne vérifie que les joueurs en ligne (exception voulue au fail-closed).
