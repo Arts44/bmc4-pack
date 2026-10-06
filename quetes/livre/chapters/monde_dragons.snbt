@@ -200,9 +200,9 @@
 		{
 			dependencies: ["642D1D4BD0DB3C7F"]
 			description: [
-				"Posé, l'œuf couve et l'infobulle compte les secondes. Il &lchange de race selon son milieu&r (config : les habitats sont actifs). La quête se valide en regardant un dragon."
+				"Sur BMC4, l'éclosion passe par le bot. Pose l'œuf, relève ses coordonnées avec &lF3&r en le regardant, puis poste dans &9#dragons&r : &l!dragon <x> <y> <z> <race>&r (pseudo et dimension en option)."
 				""
-				"Autre voie : dans &9#dragons&r, poste &l!dragon <x> <y> <z> <race>&r (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée."
+				"Le bot cherche l'œuf &lposé&r aux coordonnées données, le retire et fait apparaître à côté un dragon &ladulte et déjà apprivoisé&r. Attention : c'est l'œuf qui décide de la race, pas celle que tu tapes. La quête se valide en regardant un dragon."
 			]
 			id: "2F6C9321525A6C79"
 			rewards: [{
@@ -408,7 +408,7 @@
 		}
 		{
 			dependencies: ["6DCDC72E69E3EB5D"]
-			description: ["Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : &l25 % de chance&r que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Un œuf posé qui couve peut encore changer de race selon son milieu : à garder loin des habitats d'autres races."]
+			description: ["Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : &l25 % de chance&r que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Pour faire éclore un œuf hybride, même chemin qu'au début du chapitre : pose-le et passe par &l!dragon&r dans #dragons."]
 			icon: {
 				Count: 1
 				id: "dragonmounts:dragon_egg"

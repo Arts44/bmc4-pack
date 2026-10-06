@@ -66,9 +66,9 @@ taille = 1.3
 taches = ["observation entity dragonmounts:dragon"]
 recompenses = ["xp 8"]
 description = """
-Posé, l'œuf couve et l'infobulle compte les secondes. Il &lchange de race selon son milieu&r (config : les habitats sont actifs). La quête se valide en regardant un dragon.
+Sur BMC4, l'éclosion passe par le bot. Pose l'œuf, relève ses coordonnées avec &lF3&r en le regardant, puis poste dans &9#dragons&r : &l!dragon <x> <y> <z> <race>&r (pseudo et dimension en option).
 
-Autre voie : dans &9#dragons&r, poste &l!dragon <x> <y> <z> <race>&r (pseudo et dimension en option). Le bot vérifie que tu as l'œuf, le retire, et fait apparaître le dragon à la position donnée.
+Le bot cherche l'œuf &lposé&r aux coordonnées données, le retire et fait apparaître à côté un dragon &ladulte et déjà apprivoisé&r. Attention : c'est l'œuf qui décide de la race, pas celle que tu tapes. La quête se valide en regardant un dragon.
 """
 
 [[quete]]
@@ -186,7 +186,7 @@ taches_une = true
 taches = ["oeuf_dragon aurora", "oeuf_dragon black_fire", "oeuf_dragon blood", "oeuf_dragon blue_fire", "oeuf_dragon bronze", "oeuf_dragon crystal", "oeuf_dragon dark", "oeuf_dragon eclipse", "oeuf_dragon elder", "oeuf_dragon gale", "oeuf_dragon jade", "oeuf_dragon light", "oeuf_dragon lunar", "oeuf_dragon magic", "oeuf_dragon monarch", "oeuf_dragon ocean", "oeuf_dragon primal_end", "oeuf_dragon primal_nether", "oeuf_dragon red", "oeuf_dragon sculk", "oeuf_dragon shadow", "oeuf_dragon solar", "oeuf_dragon soul_nether", "oeuf_dragon storm", "oeuf_dragon sylphid", "oeuf_dragon terra", "oeuf_dragon wither", "oeuf_dragon zombie"]
 recompenses = ["xp 8"]
 description = """
-Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : &l25 % de chance&r que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Un œuf posé qui couve peut encore changer de race selon son milieu : à garder loin des habitats d'autres races.
+Deux dragons adultes de races de base différentes pondent un œuf. Sur BMC4, le serveur a une table de vingt-huit croisements (un par paire de races de base) et son jar est patché : &l25 % de chance&r que l'œuf soit de la race hybride, sinon de l'une des deux races parentes. Chaque race ne se reproduit qu'un nombre limité de fois (config du serveur). Pour faire éclore un œuf hybride, même chemin qu'au début du chapitre : pose-le et passe par &l!dragon&r dans #dragons.
 """
 
 [[quete]]
