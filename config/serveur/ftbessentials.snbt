@@ -1,0 +1,58 @@
+# FTB Essentials 2001.2.4 sur BMC4 (BMC-91, 6 octobre 2026).
+# Va dans <monde>/serverconfig/ftbessentials.snbt (sur MineStrator :
+# /world/serverconfig/ftbessentials.snbt).
+#
+# Fichier partiel, voulu : FTB Library ne lit que les clés présentes
+# (SNBTConfig.read teste contains() avant chaque valeur, lu dans le jar
+# 2001.2.13) et garde la valeur par défaut des autres, puis réécrit le fichier
+# complet au démarrage.
+#
+# Ce qui change, et pourquoi :
+#  - délais et préchauffages de /home, /back, /tpa à 0 : le message de délai
+#    de FTB Essentials est en anglais (« Can't teleport yet! Cooldown »), et un
+#    préchauffage laisserait partir une téléportation commencée avant un coup.
+#    Les délais (10 s, 30 s, 10 s) sont tenus par KubeJS, en français ;
+#  - coupées : /spawn, /playerspawn, /warp (et /listwarps) permettraient de
+#    quitter un raid ; /rtp ignore les claims ; /near (déjà réservée à l'op),
+#    /kickme et /leaderboard n'ont pas d'usage ici.
+# Les permissions par rang (commandes, nombre de homes) sont dans
+# ftbranks/ranks.snbt, générées depuis config/rangs/rangs.toml.
+{
+	teleportation: {
+		back: {
+			cooldown: 0
+			warmup: 0
+		}
+		home: {
+			cooldown: 0
+			warmup: 0
+		}
+		tpa: {
+			cooldown: 0
+			warmup: 0
+		}
+		spawn: {
+			enabled: false
+		}
+		playerspawn: {
+			enabled: false
+		}
+		warp: {
+			enabled: false
+		}
+		rtp: {
+			enabled: false
+		}
+	}
+	misc: {
+		kickme: {
+			enabled: false
+		}
+		near: {
+			enabled: false
+		}
+		leaderboard: {
+			enabled: false
+		}
+	}
+}

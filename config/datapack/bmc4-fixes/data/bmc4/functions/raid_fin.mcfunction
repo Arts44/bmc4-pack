@@ -18,4 +18,8 @@ tag @a remove bmc4_spectateur
 scoreboard players reset * bmc4_spec
 scoreboard players set @a bmc4_morts 0
 
+# Chacun retrouve l'équipe de son rang (BMC-91) : par le datapack, pour que ça
+# marche même bot arrêté. Un absent la retrouve à sa connexion (rangs/tick).
+execute as @a[team=bmc4_raid_actif] if score @s bmc4_rangs matches 1.. run function bmc4:rangs/g_equipe
+
 team empty bmc4_raid_actif

@@ -1,0 +1,278 @@
+# Rangs de prestige BMC4 (BMC-91, 6 octobre 2026) — source unique.
+#
+# Échelle arrêtée avec Arthur. Tout le reste en est tiré par
+# config/rangs/generer.py : fonctions du datapack (achat, kits, équipes,
+# messages), ranks.snbt de FTB Ranks, table des rangs de KubeJS, rangs.json du
+# bot, chapitre « Rangs » du livre. Modifier ici, puis :
+#
+#     python3 config/rangs/generer.py
+#
+# Coûts en NIVEAUX d'XP, retirés au moment de l'achat. Un rang s'achète après
+# le précédent ; on garde tous les rangs achetés.
+#
+# couleur : couleur du préfixe, en hexadécimal (rendue en jeu dans le chat,
+#   la liste Tab et au-dessus de la tête) ;
+# nom_couleur : couleur du pseudo, une des seize couleurs nommées de Minecraft
+#   (une équipe n'accepte pas l'hexadécimal pour le pseudo) ;
+# banniere : l'étendard décoratif du kit.
+
+[infini]
+nom = "Infini"
+symbole = "∞"
+couleur = "#C77DFF"
+nom_couleur = "light_purple"
+gras = true
+cout_depart = 10000
+hausse = 2500
+paliers = 30
+banniere = "minecraft:magenta_banner"
+kit = ["minecraft:firework_rocket 16"]
+
+[[rang]]
+nom = "Cuivre"
+article = "du"
+symbole = "⬩"
+couleur = "#E07B39"
+nom_couleur = "gold"
+cout = 50
+banniere = "minecraft:orange_banner"
+kit = ["minecraft:torch 32", "minecraft:bread 16"]
+avantages = ["Préfixe en jeu, rôle Discord et kit de rang"]
+
+[[rang]]
+nom = "Fer"
+article = "du"
+symbole = "⬩"
+couleur = "#E6E6E6"
+nom_couleur = "white"
+cout = 100
+banniere = "minecraft:white_banner"
+kit = ["minecraft:cooked_beef 16", "minecraft:lantern 4"]
+avantages = ["/hat", "1 home"]
+
+[[rang]]
+nom = "Or"
+article = "de l'"
+symbole = "⬩"
+couleur = "#FFD93D"
+nom_couleur = "yellow"
+cout = 200
+banniere = "minecraft:yellow_banner"
+kit = ["minecraft:golden_carrot 16", "minecraft:clock 1"]
+avantages = ["/trashcan"]
+
+[[rang]]
+nom = "Émeraude"
+article = "de l'"
+symbole = "⬩"
+couleur = "#2ECC71"
+nom_couleur = "green"
+cout = 350
+banniere = "minecraft:lime_banner"
+kit = ["minecraft:name_tag 2", "minecraft:golden_carrot 16"]
+avantages = ["/nickname (sans couleur), vrai pseudo visible au survol"]
+
+[[rang]]
+nom = "Diamant"
+article = "du"
+symbole = "⬩"
+couleur = "#4DE8E8"
+nom_couleur = "aqua"
+cout = 500
+banniere = "minecraft:cyan_banner"
+kit = ["minecraft:spyglass 1", "minecraft:golden_carrot 32"]
+avantages = ["Aura de particules au choix, à couper d'une commande", "2 homes"]
+
+[[rang]]
+nom = "Nétherite"
+article = "de la"
+symbole = "⬩"
+couleur = "#6B6B6B"
+nom_couleur = "dark_gray"
+cout = 750
+banniere = "minecraft:gray_banner"
+kit = ["minecraft:cooked_porkchop 32", "minecraft:soul_lantern 4"]
+avantages = ["/feed toutes les 30 minutes"]
+
+[[rang]]
+nom = "Ender"
+article = "de l'"
+symbole = "✦"
+couleur = "#7B2CBF"
+nom_couleur = "dark_purple"
+gras = true
+cout = 1000
+banniere = "minecraft:purple_banner"
+kit = ["minecraft:ender_pearl 8", "minecraft:end_rod 8"]
+avantages = ["/enderchest", "3 homes"]
+
+[[rang]]
+nom = "Abyssal"
+article = "de l'"
+symbole = "✦"
+couleur = "#2B3A8C"
+nom_couleur = "dark_blue"
+gras = true
+cout = 1250
+banniere = "minecraft:blue_banner"
+kit = ["minecraft:sea_lantern 8", "minecraft:prismarine_shard 4"]
+avantages = ["/back"]
+
+[[rang]]
+nom = "Draconique"
+article = "du"
+symbole = "✦"
+couleur = "#A23BEC"
+nom_couleur = "light_purple"
+gras = true
+cout = 1500
+banniere = "minecraft:magenta_banner"
+kit = ["minecraft:golden_apple 2", "minecraft:dragon_breath 1"]
+avantages = ["Résurrection draconique, une fois par semaine (!resurrection sur Discord)"]
+
+[[rang]]
+nom = "Céleste"
+article = "du"
+symbole = "✦"
+couleur = "#87CEEB"
+nom_couleur = "aqua"
+gras = true
+cout = 2000
+banniere = "minecraft:light_blue_banner"
+kit = ["minecraft:feather 16", "minecraft:glowstone 8"]
+avantages = ["/tpa et /tpahere", "4 homes"]
+
+[[rang]]
+nom = "Suprême"
+article = "du"
+symbole = "✦"
+couleur = "#E02424"
+nom_couleur = "red"
+gras = true
+cout = 2500
+banniere = "minecraft:red_banner"
+kit = ["minecraft:golden_apple 3", "minecraft:redstone_lamp 4"]
+avantages = ["Tête et nom dans l'Allée des Légendes du Marché Flottant (posées par le staff)"]
+
+[[rang]]
+nom = "Éternel"
+article = "de l'"
+symbole = "♛"
+couleur = "#FFB300"
+nom_couleur = "gold"
+gras = true
+cout = 3000
+banniere = "minecraft:yellow_banner"
+kit = ["minecraft:golden_apple 4", "minecraft:gold_block 2"]
+avantages = ["Annonce à la connexion"]
+
+[[rang]]
+nom = "Primordial"
+article = "du"
+symbole = "♛"
+couleur = "#1E7B34"
+nom_couleur = "dark_green"
+gras = true
+cout = 4000
+banniere = "minecraft:green_banner"
+kit = ["minecraft:golden_apple 4", "minecraft:moss_block 8"]
+avantages = ["Salon Discord réservé aux rangs 13 et plus", "5 homes", "Annonce à la connexion"]
+
+[[rang]]
+nom = "Divin"
+article = "du"
+symbole = "♛"
+couleur = "#FFFFFF"
+nom_couleur = "white"
+gras = true
+cout = 5000
+banniere = "minecraft:white_banner"
+kit = ["minecraft:golden_apple 5", "minecraft:bell 1"]
+avantages = ["Aura exclusive", "6 homes", "Annonce à la connexion"]
+
+[[rang]]
+nom = "Absolu"
+article = "de l'"
+symbole = "♛"
+couleur = "#9B111E"
+nom_couleur = "dark_red"
+gras = true
+cout = 7500
+banniere = "minecraft:red_banner"
+kit = ["minecraft:golden_apple 6", "minecraft:lightning_rod 1"]
+avantages = ["Statue dans l'Allée des Légendes (posée par le staff)", "Annonce à la connexion"]
+
+# Les commandes de FTB Essentials ouvertes par rang (numéro du rang à partir
+# duquel la commande est donnée). Lu par FTB Ranks (nœuds command.*) et par
+# KubeJS (message « /x s'obtient au rang … »).
+[commandes]
+hat = 2
+home = 2
+sethome = 2
+delhome = 2
+listhomes = 2
+trashcan = 3
+nickname = 4
+feed = 6
+enderchest = 7
+back = 8
+tpa = 10
+tpahere = 10
+# Accepter ou refuser une demande reste ouvert à tous : sans ça, un Céleste ne
+# pourrait demander qu'à un autre Céleste. Les blocages s'appliquent quand même.
+tpaccept = 0
+tpdeny = 0
+
+# Nombre de homes par rang (le plus haut rang acquis l'emporte).
+[homes]
+2 = 1
+5 = 2
+7 = 3
+10 = 4
+13 = 5
+14 = 6
+
+# Délais entre deux téléportations, en secondes, appliqués par KubeJS (ceux
+# de FTB Essentials sont mis à 0 : son message est en anglais).
+[delais]
+home = 10
+back = 30
+tpa = 10
+
+# Les auras : /trigger bmc4_aura set <n>. Les numéros 1 à 6 viennent au rang
+# Diamant (5), le 7 est l'aura exclusive du rang Divin (14).
+# /trigger bmc4_aura set 10 coupe l'aura.
+[[aura]]
+nom = "Étincelles d'enchantement"
+particule = "minecraft:enchant ~ ~1 ~ 0.4 0.6 0.4 0.4 6"
+rang = 5
+
+[[aura]]
+nom = "Bâtons de l'End"
+particule = "minecraft:end_rod ~ ~1 ~ 0.4 0.6 0.4 0.01 2"
+rang = 5
+
+[[aura]]
+nom = "Flammes d'âme"
+particule = "minecraft:soul_fire_flame ~ ~0.2 ~ 0.3 0.1 0.3 0.01 2"
+rang = 5
+
+[[aura]]
+nom = "Pétales de cerisier"
+particule = "minecraft:cherry_leaves ~ ~1.8 ~ 0.4 0.2 0.4 0 2"
+rang = 5
+
+[[aura]]
+nom = "Lueurs"
+particule = "minecraft:glow ~ ~1 ~ 0.4 0.6 0.4 0 2"
+rang = 5
+
+[[aura]]
+nom = "Notes"
+particule = "minecraft:note ~ ~2.2 ~ 0.3 0 0.3 1 1"
+rang = 5
+
+[[aura]]
+nom = "Halo divin"
+particule = "minecraft:dust 1.0 0.85 0.3 1.0 ~ ~2.1 ~ 0.25 0 0.25 0 4"
+rang = 14

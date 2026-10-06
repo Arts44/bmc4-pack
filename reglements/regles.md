@@ -13,6 +13,13 @@ espionner, contourner une sanction, occuper deux camps ou gonfler un
 effectif. Plusieurs personnes depuis la même connexion : prévenir le staff
 avant, les adresses identiques déclenchent une alerte.
 
+**Pas de pseudo d'emprunt.** `/nickname` (rang Émeraude) change le nom
+affiché, pas l'identité : prendre le pseudo d'un autre joueur, ou un nom qui
+s'en approche pour tromper, est interdit et sanctionné comme une usurpation.
+Le vrai pseudo reste visible au survol.
+<!-- BMC-91, 6 octobre 2026 : ajouté au dépôt, PAS ENCORE POSTÉ dans #règles.
+     À poster par Arthur avec le déploiement des rangs. -->
+
 ## Le respect
 
 Insultes, harcèlement, menaces, propos discriminatoires : interdits, sans

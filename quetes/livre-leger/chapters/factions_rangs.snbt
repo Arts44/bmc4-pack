@@ -1,0 +1,477 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "factions_rangs"
+	group: "261CC511CD09A07E"
+	icon: "minecraft:experience_bottle"
+	id: "39AAEADBF1D077C4"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Les niveaux d'XP qui ne servent plus s'échangent contre un &lrang de prestige&r. Chaque rang &lretire&r des niveaux, s'affiche devant ton pseudo (chat, liste Tab, au-dessus de la tête) et donne des avantages de &lconfort et de prestige&r : jamais de force au combat, jamais de claims en plus."
+				""
+				"&bAcheter le rang suivant :&r tape &e/trigger bmc4_rang&r. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien."
+				"&bOù j'en suis :&r &e/trigger bmc4_rang set 2&r."
+				""
+				"Les rangs s'achètent dans l'ordre. Chacun donne son &lkit une seule fois&r, à l'achat. Le rang est personnel : il ne se partage pas avec la faction, même si ce livre, lui, l'est."
+				""
+				"&7Pendant un raid, l'équipe du raid remplace l'affichage du rang. /home, /back et /tpa sont bloqués en combat (15 s après un coup pris ou donné), pendant un raid de ta faction, et dans le claim d'une autre faction."
+			]
+			icon: "minecraft:experience_bottle"
+			id: "168121A4F5DF9AD6"
+			rewards: [{
+				id: "07E69A17744F61FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			subtitle: "Quinze rangs, puis l'Infini. Confort et prestige, jamais de force."
+			tasks: [{
+				id: "17BDE5BD0FFCBDC6"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&dDépenser ses niveaux"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["168121A4F5DF9AD6"]
+			description: [
+				"Rang 1 sur 15. Prix : &l50 niveaux&r, retirés à l'achat (cumul depuis le début : 50)."
+				""
+				"· Préfixe en jeu, rôle Discord et kit de rang"
+				""
+				"&7Kit, une seule fois :&r l'étendard du Cuivre, 32 × Torche, 16 × Pain."
+			]
+			icon: "minecraft:orange_banner"
+			id: "6336116F5F24AED4"
+			rewards: [{
+				id: "06117D98E8AC6484"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "50 niveaux (cumul 50)"
+			tasks: [{
+				id: "1202B120376FF8EF"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6Cuivre ⬩"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6336116F5F24AED4"]
+			description: [
+				"Rang 2 sur 15. Prix : &l100 niveaux&r, retirés à l'achat (cumul depuis le début : 150)."
+				""
+				"· /hat"
+				"· 1 home"
+				""
+				"&7Kit, une seule fois :&r l'étendard du Fer, 16 × Steak, 4 × Lanterne."
+			]
+			icon: "minecraft:white_banner"
+			id: "3EEF65665E549783"
+			rewards: [{
+				id: "263AC020CC03CBFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "100 niveaux (cumul 150)"
+			tasks: [{
+				id: "2C5BD3F7A023812B"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&fFer ⬩"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EEF65665E549783"]
+			description: [
+				"Rang 3 sur 15. Prix : &l200 niveaux&r, retirés à l'achat (cumul depuis le début : 350)."
+				""
+				"· /trashcan"
+				""
+				"&7Kit, une seule fois :&r l'étendard de l'Or, 16 × Carotte dorée, 1 × Montre."
+			]
+			icon: "minecraft:yellow_banner"
+			id: "4D72FB431141C08C"
+			rewards: [{
+				id: "6EA9FA0643573D0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "200 niveaux (cumul 350)"
+			tasks: [{
+				id: "37351972BCC98175"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&eOr ⬩"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D72FB431141C08C"]
+			description: [
+				"Rang 4 sur 15. Prix : &l350 niveaux&r, retirés à l'achat (cumul depuis le début : 700)."
+				""
+				"· /nickname (sans couleur), vrai pseudo visible au survol"
+				""
+				"&7Kit, une seule fois :&r l'étendard de l'Émeraude, 2 × Étiquette, 16 × Carotte dorée."
+			]
+			icon: "minecraft:lime_banner"
+			id: "03F5B08A8F3F4318"
+			rewards: [{
+				id: "072A6FF886183F2E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "350 niveaux (cumul 700)"
+			tasks: [{
+				id: "62056822DD37C748"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&aÉmeraude ⬩"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03F5B08A8F3F4318"]
+			description: [
+				"Rang 5 sur 15. Prix : &l500 niveaux&r, retirés à l'achat (cumul depuis le début : 1 200)."
+				""
+				"· Aura de particules au choix, à couper d'une commande"
+				"· 2 homes"
+				""
+				"&7Kit, une seule fois :&r l'étendard du Diamant, 1 × Longue-vue, 32 × Carotte dorée."
+				""
+				"&bAuras :&r 1 Étincelles d'enchantement · 2 Bâtons de l'End · 3 Flammes d'âme · 4 Pétales de cerisier · 5 Lueurs · 6 Notes. Choisir : &e/trigger bmc4_aura set <numéro>&r ; couper : &e/trigger bmc4_aura set 10&r."
+			]
+			icon: "minecraft:cyan_banner"
+			id: "4831CD35ECEB3C2E"
+			rewards: [{
+				id: "614ABE1A4C6F76BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "500 niveaux (cumul 1 200)"
+			tasks: [{
+				id: "66106BA1320DBADA"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&bDiamant ⬩"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4831CD35ECEB3C2E"]
+			description: [
+				"Rang 6 sur 15. Prix : &l750 niveaux&r, retirés à l'achat (cumul depuis le début : 1 950)."
+				""
+				"· /feed toutes les 30 minutes"
+				""
+				"&7Kit, une seule fois :&r l'étendard de la Nétherite, 32 × Côtelette de porc cuite, 4 × Lanterne des âmes."
+				""
+				"&e/feed&r (ou &e/trigger bmc4_manger&r) te rassasie, une fois toutes les 30 minutes."
+			]
+			icon: "minecraft:gray_banner"
+			id: "107B0A82E7088AD5"
+			rewards: [{
+				id: "7A0249AF7D3CC7CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "750 niveaux (cumul 1 950)"
+			tasks: [{
+				id: "75C522E0DFA9E2E3"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&8Nétherite ⬩"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["107B0A82E7088AD5"]
+			description: [
+				"Rang 7 sur 15. Prix : &l1 000 niveaux&r, retirés à l'achat (cumul depuis le début : 2 950)."
+				""
+				"· /enderchest"
+				"· 3 homes"
+				""
+				"&7Kit, une seule fois :&r l'étendard de l'Ender, 8 × Perle de l'Ender, 8 × Barre de l'End."
+			]
+			icon: "minecraft:purple_banner"
+			id: "316DB3092FD588AC"
+			rewards: [{
+				id: "5CFFFC31999829A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "1 000 niveaux (cumul 2 950)"
+			tasks: [{
+				id: "098261C1D562F64E"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&5&lEnder ✦"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["316DB3092FD588AC"]
+			description: [
+				"Rang 8 sur 15. Prix : &l1 250 niveaux&r, retirés à l'achat (cumul depuis le début : 4 200)."
+				""
+				"· /back"
+				""
+				"&7Kit, une seule fois :&r l'étendard de l'Abyssal, 8 × Lanterne aquatique, 4 × Éclat de prismarine."
+			]
+			icon: "minecraft:blue_banner"
+			id: "084079A4E86795D4"
+			rewards: [{
+				id: "3F31FAD5B7998998"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "1 250 niveaux (cumul 4 200)"
+			tasks: [{
+				id: "13044743C8A06DE3"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&1&lAbyssal ✦"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["084079A4E86795D4"]
+			description: [
+				"Rang 9 sur 15. Prix : &l1 500 niveaux&r, retirés à l'achat (cumul depuis le début : 5 700)."
+				""
+				"· Résurrection draconique, une fois par semaine (!resurrection sur Discord)"
+				""
+				"&7Kit, une seule fois :&r l'étendard du Draconique, 2 × Pomme dorée, 1 × Souffle de dragon."
+				""
+				"Sur Discord, &e!resurrection <nom>&r ramène un de tes dragons morts : même race, même nom, adulte, apprivoisé et lié à toi, à tes pieds (tu dois être connecté). Une fois par semaine, remise à zéro le lundi à 0 h. &lSans équipement&r : selle, armure et coffre sont tombés au sol à sa mort."
+			]
+			icon: "minecraft:magenta_banner"
+			id: "6BCB461A6A550542"
+			rewards: [{
+				id: "424DB6C40224CEDB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "1 500 niveaux (cumul 5 700)"
+			tasks: [{
+				id: "62D256C3D45F6406"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&d&lDraconique ✦"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BCB461A6A550542"]
+			description: [
+				"Rang 10 sur 15. Prix : &l2 000 niveaux&r, retirés à l'achat (cumul depuis le début : 7 700)."
+				""
+				"· /tpa et /tpahere"
+				"· 4 homes"
+				""
+				"&7Kit, une seule fois :&r l'étendard du Céleste, 16 × Plume, 8 × Pierre lumineuse."
+			]
+			icon: "minecraft:light_blue_banner"
+			id: "5B2337920CE68697"
+			rewards: [{
+				id: "4B8B7FB9229D3192"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "2 000 niveaux (cumul 7 700)"
+			tasks: [{
+				id: "667067227047FE60"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&b&lCéleste ✦"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B2337920CE68697"]
+			description: [
+				"Rang 11 sur 15. Prix : &l2 500 niveaux&r, retirés à l'achat (cumul depuis le début : 10 200)."
+				""
+				"· Tête et nom dans l'Allée des Légendes du Marché Flottant (posées par le staff)"
+				""
+				"&7Kit, une seule fois :&r l'étendard du Suprême, 3 × Pomme dorée, 4 × Lampe à redstone."
+			]
+			icon: "minecraft:red_banner"
+			id: "772A3D935DE8930B"
+			rewards: [{
+				id: "09DBC1DA01D89C0F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "2 500 niveaux (cumul 10 200)"
+			tasks: [{
+				id: "222C33D4BD644E08"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&c&lSuprême ✦"
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["772A3D935DE8930B"]
+			description: [
+				"Rang 12 sur 15. Prix : &l3 000 niveaux&r, retirés à l'achat (cumul depuis le début : 13 200)."
+				""
+				"· Annonce à la connexion"
+				""
+				"&7Kit, une seule fois :&r l'étendard de l'Éternel, 4 × Pomme dorée, 2 × Bloc d'or."
+			]
+			icon: "minecraft:yellow_banner"
+			id: "1DCDA1743120291A"
+			rewards: [{
+				id: "132457AE5D4CD686"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "3 000 niveaux (cumul 13 200)"
+			tasks: [{
+				id: "6A1E41984269605C"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&6&lÉternel ♛"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DCDA1743120291A"]
+			description: [
+				"Rang 13 sur 15. Prix : &l4 000 niveaux&r, retirés à l'achat (cumul depuis le début : 17 200)."
+				""
+				"· Salon Discord réservé aux rangs 13 et plus"
+				"· 5 homes"
+				"· Annonce à la connexion"
+				""
+				"&7Kit, une seule fois :&r l'étendard du Primordial, 4 × Pomme dorée, 8 × Bloc de mousse."
+			]
+			icon: "minecraft:green_banner"
+			id: "21BAA17D92D2F3A6"
+			rewards: [{
+				id: "3765E841714752DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "4 000 niveaux (cumul 17 200)"
+			tasks: [{
+				id: "11685A36FCD9F863"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&2&lPrimordial ♛"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21BAA17D92D2F3A6"]
+			description: [
+				"Rang 14 sur 15. Prix : &l5 000 niveaux&r, retirés à l'achat (cumul depuis le début : 22 200)."
+				""
+				"· Aura exclusive"
+				"· 6 homes"
+				"· Annonce à la connexion"
+				""
+				"&7Kit, une seule fois :&r l'étendard du Divin, 5 × Pomme dorée, 1 × Cloche."
+				""
+				"&bAura exclusive :&r &e/trigger bmc4_aura set 7&r."
+			]
+			icon: "minecraft:white_banner"
+			id: "30CF7EA9978FEEFB"
+			rewards: [{
+				id: "7F6178BC3C570C72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "5 000 niveaux (cumul 22 200)"
+			tasks: [{
+				id: "59A1F7B7130C1A61"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&f&lDivin ♛"
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30CF7EA9978FEEFB"]
+			description: [
+				"Rang 15 sur 15. Prix : &l7 500 niveaux&r, retirés à l'achat (cumul depuis le début : 29 700)."
+				""
+				"· Statue dans l'Allée des Légendes (posée par le staff)"
+				"· Annonce à la connexion"
+				""
+				"&7Kit, une seule fois :&r l'étendard de l'Absolu, 6 × Pomme dorée, 1 × Paratonnerre."
+			]
+			icon: "minecraft:red_banner"
+			id: "094B9D3DB9BE74BB"
+			rewards: [{
+				id: "2C5225D6BC696E38"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "7 500 niveaux (cumul 29 700)"
+			tasks: [{
+				id: "099FE32EDE8333B9"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&4&lAbsolu ♛"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["094B9D3DB9BE74BB"]
+			description: [
+				"Après l'Absolu, les paliers de l'Infini : I : 10 000, II : 12 500, III : 15 000, IV : 17 500… jusqu'au palier XXX. Le palier s'affiche dans le préfixe (&d∞ Infini IV&r), chaque palier est annoncé dans &9#faits-d-armes&r et à ta connexion."
+				""
+				"Même commande : &e/trigger bmc4_rang&r."
+				""
+				"&7Kit à chaque palier :&r un étendard de l'Infini, 16 × Fusée de feu d'artifice."
+			]
+			icon: "minecraft:magenta_banner"
+			id: "43C5095DF47AD1A0"
+			rewards: [{
+				id: "1306A4B56C866F65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "10 000 niveaux, puis 2 500 de plus à chaque palier"
+			tasks: [{
+				id: "1FEE82A2E50F914C"
+				title: "Lu"
+				type: "checkmark"
+			}]
+			title: "&d&lInfini ∞"
+			x: 32.0d
+			y: 0.0d
+		}
+	]
+	title: "&dLes rangs de prestige"
+}

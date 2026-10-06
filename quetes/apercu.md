@@ -2,7 +2,7 @@
 
 Relecture humaine : titre, tâches, récompense, par chapitre. Produit depuis quetes/donnees/ par outils/apercu.py.
 
-Livre complet : 90 chapitres, 4 802 quêtes.
+Livre complet : 91 chapitres, 4 819 quêtes.
 
 
 ## Agriculture et élevage  (`bases_agriculture`, 23 quêtes)
@@ -7269,6 +7269,92 @@ Livre complet : 90 chapitres, 4 802 quêtes.
   >   > Le trophée pris revient chez lui après 24 h.
 - **Une faction qui tient** — tâches : checkmark Lu — récompense : xp 5 — après : mediumcore, gagner
   > Un trophée déclaré, un donjon, un raid vécu. Le dernier chapitre de l'arc, Diplomatie et commerce, est celui où l'on gagne sans se battre.
+
+## Les rangs de prestige  (`factions_rangs`, 17 quêtes)
+
+- **Dépenser ses niveaux** — tâches : checkmark Lu — récompense : xp 1
+  > Les niveaux d'XP qui ne servent plus s'échangent contre un rang de prestige. Chaque rang retire des niveaux, s'affiche devant ton pseudo (chat, liste Tab, au-dessus de la tête) et donne des avantages de confort et de prestige : jamais de force au combat, jamais de claims en plus.
+  >   > Acheter le rang suivant : tape /trigger bmc4_rang. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien.
+  > Où j'en suis : /trigger bmc4_rang set 2.
+  >   > Les rangs s'achètent dans l'ordre. Chacun donne son kit une seule fois, à l'achat. Le rang est personnel : il ne se partage pas avec la faction, même si ce livre, lui, l'est.
+  >   > Pendant un raid, l'équipe du raid remplace l'affichage du rang. /home, /back et /tpa sont bloqués en combat (15 s après un coup pris ou donné), pendant un raid de ta faction, et dans le claim d'une autre faction.
+- **Cuivre ⬩** — tâches : checkmark Lu — récompense : xp 1 — après : intro
+  > Rang 1 sur 15. Prix : 50 niveaux, retirés à l'achat (cumul depuis le début : 50).
+  >   > · Préfixe en jeu, rôle Discord et kit de rang
+  >   > Kit, une seule fois : l'étendard du Cuivre, 32 × Torche, 16 × Pain.
+- **Fer ⬩** — tâches : checkmark Lu — récompense : xp 1 — après : rang_1
+  > Rang 2 sur 15. Prix : 100 niveaux, retirés à l'achat (cumul depuis le début : 150).
+  >   > · /hat
+  > · 1 home
+  >   > Kit, une seule fois : l'étendard du Fer, 16 × Steak, 4 × Lanterne.
+- **Or ⬩** — tâches : checkmark Lu — récompense : xp 1 — après : rang_2
+  > Rang 3 sur 15. Prix : 200 niveaux, retirés à l'achat (cumul depuis le début : 350).
+  >   > · /trashcan
+  >   > Kit, une seule fois : l'étendard de l'Or, 16 × Carotte dorée, 1 × Montre.
+- **Émeraude ⬩** — tâches : checkmark Lu — récompense : xp 1 — après : rang_3
+  > Rang 4 sur 15. Prix : 350 niveaux, retirés à l'achat (cumul depuis le début : 700).
+  >   > · /nickname (sans couleur), vrai pseudo visible au survol
+  >   > Kit, une seule fois : l'étendard de l'Émeraude, 2 × Étiquette, 16 × Carotte dorée.
+- **Diamant ⬩** — tâches : checkmark Lu — récompense : xp 1 — après : rang_4
+  > Rang 5 sur 15. Prix : 500 niveaux, retirés à l'achat (cumul depuis le début : 1 200).
+  >   > · Aura de particules au choix, à couper d'une commande
+  > · 2 homes
+  >   > Kit, une seule fois : l'étendard du Diamant, 1 × Longue-vue, 32 × Carotte dorée.
+  >   > Auras : 1 Étincelles d'enchantement · 2 Bâtons de l'End · 3 Flammes d'âme · 4 Pétales de cerisier · 5 Lueurs · 6 Notes. Choisir : /trigger bmc4_aura set <numéro> ; couper : /trigger bmc4_aura set 10.
+- **Nétherite ⬩** — tâches : checkmark Lu — récompense : xp 1 — après : rang_5
+  > Rang 6 sur 15. Prix : 750 niveaux, retirés à l'achat (cumul depuis le début : 1 950).
+  >   > · /feed toutes les 30 minutes
+  >   > Kit, une seule fois : l'étendard de la Nétherite, 32 × Côtelette de porc cuite, 4 × Lanterne des âmes.
+  >   > /feed (ou /trigger bmc4_manger) te rassasie, une fois toutes les 30 minutes.
+- **Ender ✦** — tâches : checkmark Lu — récompense : xp 1 — après : rang_6
+  > Rang 7 sur 15. Prix : 1 000 niveaux, retirés à l'achat (cumul depuis le début : 2 950).
+  >   > · /enderchest
+  > · 3 homes
+  >   > Kit, une seule fois : l'étendard de l'Ender, 8 × Perle de l'Ender, 8 × Barre de l'End.
+- **Abyssal ✦** — tâches : checkmark Lu — récompense : xp 1 — après : rang_7
+  > Rang 8 sur 15. Prix : 1 250 niveaux, retirés à l'achat (cumul depuis le début : 4 200).
+  >   > · /back
+  >   > Kit, une seule fois : l'étendard de l'Abyssal, 8 × Lanterne aquatique, 4 × Éclat de prismarine.
+- **Draconique ✦** — tâches : checkmark Lu — récompense : xp 1 — après : rang_8
+  > Rang 9 sur 15. Prix : 1 500 niveaux, retirés à l'achat (cumul depuis le début : 5 700).
+  >   > · Résurrection draconique, une fois par semaine (!resurrection sur Discord)
+  >   > Kit, une seule fois : l'étendard du Draconique, 2 × Pomme dorée, 1 × Souffle de dragon.
+  >   > Sur Discord, !resurrection <nom> ramène un de tes dragons morts : même race, même nom, adulte, apprivoisé et lié à toi, à tes pieds (tu dois être connecté). Une fois par semaine, remise à zéro le lundi à 0 h. Sans équipement : selle, armure et coffre sont tombés au sol à sa mort.
+- **Céleste ✦** — tâches : checkmark Lu — récompense : xp 1 — après : rang_9
+  > Rang 10 sur 15. Prix : 2 000 niveaux, retirés à l'achat (cumul depuis le début : 7 700).
+  >   > · /tpa et /tpahere
+  > · 4 homes
+  >   > Kit, une seule fois : l'étendard du Céleste, 16 × Plume, 8 × Pierre lumineuse.
+- **Suprême ✦** — tâches : checkmark Lu — récompense : xp 1 — après : rang_10
+  > Rang 11 sur 15. Prix : 2 500 niveaux, retirés à l'achat (cumul depuis le début : 10 200).
+  >   > · Tête et nom dans l'Allée des Légendes du Marché Flottant (posées par le staff)
+  >   > Kit, une seule fois : l'étendard du Suprême, 3 × Pomme dorée, 4 × Lampe à redstone.
+- **Éternel ♛** — tâches : checkmark Lu — récompense : xp 1 — après : rang_11
+  > Rang 12 sur 15. Prix : 3 000 niveaux, retirés à l'achat (cumul depuis le début : 13 200).
+  >   > · Annonce à la connexion
+  >   > Kit, une seule fois : l'étendard de l'Éternel, 4 × Pomme dorée, 2 × Bloc d'or.
+- **Primordial ♛** — tâches : checkmark Lu — récompense : xp 1 — après : rang_12
+  > Rang 13 sur 15. Prix : 4 000 niveaux, retirés à l'achat (cumul depuis le début : 17 200).
+  >   > · Salon Discord réservé aux rangs 13 et plus
+  > · 5 homes
+  > · Annonce à la connexion
+  >   > Kit, une seule fois : l'étendard du Primordial, 4 × Pomme dorée, 8 × Bloc de mousse.
+- **Divin ♛** — tâches : checkmark Lu — récompense : xp 1 — après : rang_13
+  > Rang 14 sur 15. Prix : 5 000 niveaux, retirés à l'achat (cumul depuis le début : 22 200).
+  >   > · Aura exclusive
+  > · 6 homes
+  > · Annonce à la connexion
+  >   > Kit, une seule fois : l'étendard du Divin, 5 × Pomme dorée, 1 × Cloche.
+  >   > Aura exclusive : /trigger bmc4_aura set 7.
+- **Absolu ♛** — tâches : checkmark Lu — récompense : xp 1 — après : rang_14
+  > Rang 15 sur 15. Prix : 7 500 niveaux, retirés à l'achat (cumul depuis le début : 29 700).
+  >   > · Statue dans l'Allée des Légendes (posée par le staff)
+  > · Annonce à la connexion
+  >   > Kit, une seule fois : l'étendard de l'Absolu, 6 × Pomme dorée, 1 × Paratonnerre.
+- **Infini ∞** — tâches : checkmark Lu — récompense : xp 1 — après : rang_15
+  > Après l'Absolu, les paliers de l'Infini : I : 10 000, II : 12 500, III : 15 000, IV : 17 500… jusqu'au palier XXX. Le palier s'affiche dans le préfixe (∞ Infini IV), chaque palier est annoncé dans #faits-d-armes et à ta connexion.
+  >   > Même commande : /trigger bmc4_rang.
+  >   > Kit à chaque palier : un étendard de l'Infini, 16 × Fusée de feu d'artifice.
 
 ## CC: Tweaked  (`cc_tweaked`, 13 quêtes)
 

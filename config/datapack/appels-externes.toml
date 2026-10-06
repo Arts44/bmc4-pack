@@ -5,8 +5,11 @@
 # (/world/datapacks/bmc4-fixes) : les raisons vivent ici plutôt qu'en
 # commentaire dans les fonctions. Exception en attente de déploiement : les
 # trois corrections BMC-90 du 6 octobre (raid_debut, raid_tick, raid_fin,
-# tick, spectateur_sortie), préparées dans le dépôt, pas encore sur le serveur. Chaque raison vient de l'en-tête de la
-# fonction ou d'un appel trouvé dans le code du bot ; rien n'est supposé.
+# tick, spectateur_sortie), les rangs de prestige BMC-91 (rangs/, load, tick,
+# raid_fin) et le repeuplement des animaux relancé par load (bmc4_anim),
+# préparés dans le dépôt, pas encore sur le serveur. Chaque raison vient de
+# l'en-tête de la fonction ou d'un appel trouvé dans le code du bot ; rien
+# n'est supposé.
 
 [fonction]
 # Le bot (discord-factions, raids.js) les lance par RCON.
@@ -42,17 +45,3 @@
 "bmc4:zero" = "diagnostic : relief et waystone au point zéro"
 "bmc4:roses" = "réparation : retirer les roses de Wither autour de la base"
 "bmc4:souffle" = "réparation : dégâts du souffle du Wither Dragon"
-
-# Défauts réels de la production, relevés le 6 octobre et NON corrigés sur
-# place (consigne : ne rien corriger en production). Ils restent affichés.
-[[connu]]
-debut = "bmc4:animaux/joueur : objectif « bmc4_anim »"
-raison = "bmc4_anim n'est créé par aucune fonction : le repeuplement des animaux échoue, sauf si l'objectif a été créé un jour à la console (à vérifier : scoreboard objectives list)"
-
-[[connu]]
-debut = "bmc4:animaux/poser : objectif « bmc4_anim »"
-raison = "même défaut que animaux/joueur"
-
-[[connu]]
-debut = "bmc4:animaux/cycle : orpheline"
-raison = "la boucle se relance par schedule, mais rien ne la démarre (ni load, ni le bot) : à vérifier si elle tourne (schedule enregistré dans le monde)"

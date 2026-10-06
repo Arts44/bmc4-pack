@@ -1,0 +1,29 @@
+# Généré par config/rangs/generer.py depuis config/rangs/rangs.toml : ne pas
+# modifier à la main.
+
+# /trigger bmc4_aura set <n> : choisir (1 à 7), 10 pour couper.
+
+execute if score @s bmc4_aura matches 10 run scoreboard players set @s bmc4_aura_choix 0
+execute if score @s bmc4_aura matches 10 run tellraw @s ["", {"text": "Aura coupée. ", "color": "gray"}, {"text": "La remettre : /trigger bmc4_aura set <numéro>", "color": "aqua"}]
+execute if score @s bmc4_aura matches 1 if score @s bmc4_rangs matches 5.. run scoreboard players set @s bmc4_aura_choix 1
+execute if score @s bmc4_aura matches 1 if score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura choisie : ", "color": "green"}, {"text": "Étincelles d'enchantement", "color": "white"}, {"text": ". Couper : /trigger bmc4_aura set 10", "color": "gray"}]
+execute if score @s bmc4_aura matches 1 unless score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura refusée : ", "color": "red"}, {"text": "« Étincelles d'enchantement » s'obtient au rang ", "color": "red"}, {"text": "⬩ Diamant", "color": "#4DE8E8", "bold": false}, {"text": ". ", "color": "red"}, {"text": "Voir ton rang : /trigger bmc4_rang set 2", "color": "gray"}]
+execute if score @s bmc4_aura matches 2 if score @s bmc4_rangs matches 5.. run scoreboard players set @s bmc4_aura_choix 2
+execute if score @s bmc4_aura matches 2 if score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura choisie : ", "color": "green"}, {"text": "Bâtons de l'End", "color": "white"}, {"text": ". Couper : /trigger bmc4_aura set 10", "color": "gray"}]
+execute if score @s bmc4_aura matches 2 unless score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura refusée : ", "color": "red"}, {"text": "« Bâtons de l'End » s'obtient au rang ", "color": "red"}, {"text": "⬩ Diamant", "color": "#4DE8E8", "bold": false}, {"text": ". ", "color": "red"}, {"text": "Voir ton rang : /trigger bmc4_rang set 2", "color": "gray"}]
+execute if score @s bmc4_aura matches 3 if score @s bmc4_rangs matches 5.. run scoreboard players set @s bmc4_aura_choix 3
+execute if score @s bmc4_aura matches 3 if score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura choisie : ", "color": "green"}, {"text": "Flammes d'âme", "color": "white"}, {"text": ". Couper : /trigger bmc4_aura set 10", "color": "gray"}]
+execute if score @s bmc4_aura matches 3 unless score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura refusée : ", "color": "red"}, {"text": "« Flammes d'âme » s'obtient au rang ", "color": "red"}, {"text": "⬩ Diamant", "color": "#4DE8E8", "bold": false}, {"text": ". ", "color": "red"}, {"text": "Voir ton rang : /trigger bmc4_rang set 2", "color": "gray"}]
+execute if score @s bmc4_aura matches 4 if score @s bmc4_rangs matches 5.. run scoreboard players set @s bmc4_aura_choix 4
+execute if score @s bmc4_aura matches 4 if score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura choisie : ", "color": "green"}, {"text": "Pétales de cerisier", "color": "white"}, {"text": ". Couper : /trigger bmc4_aura set 10", "color": "gray"}]
+execute if score @s bmc4_aura matches 4 unless score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura refusée : ", "color": "red"}, {"text": "« Pétales de cerisier » s'obtient au rang ", "color": "red"}, {"text": "⬩ Diamant", "color": "#4DE8E8", "bold": false}, {"text": ". ", "color": "red"}, {"text": "Voir ton rang : /trigger bmc4_rang set 2", "color": "gray"}]
+execute if score @s bmc4_aura matches 5 if score @s bmc4_rangs matches 5.. run scoreboard players set @s bmc4_aura_choix 5
+execute if score @s bmc4_aura matches 5 if score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura choisie : ", "color": "green"}, {"text": "Lueurs", "color": "white"}, {"text": ". Couper : /trigger bmc4_aura set 10", "color": "gray"}]
+execute if score @s bmc4_aura matches 5 unless score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura refusée : ", "color": "red"}, {"text": "« Lueurs » s'obtient au rang ", "color": "red"}, {"text": "⬩ Diamant", "color": "#4DE8E8", "bold": false}, {"text": ". ", "color": "red"}, {"text": "Voir ton rang : /trigger bmc4_rang set 2", "color": "gray"}]
+execute if score @s bmc4_aura matches 6 if score @s bmc4_rangs matches 5.. run scoreboard players set @s bmc4_aura_choix 6
+execute if score @s bmc4_aura matches 6 if score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura choisie : ", "color": "green"}, {"text": "Notes", "color": "white"}, {"text": ". Couper : /trigger bmc4_aura set 10", "color": "gray"}]
+execute if score @s bmc4_aura matches 6 unless score @s bmc4_rangs matches 5.. run tellraw @s ["", {"text": "Aura refusée : ", "color": "red"}, {"text": "« Notes » s'obtient au rang ", "color": "red"}, {"text": "⬩ Diamant", "color": "#4DE8E8", "bold": false}, {"text": ". ", "color": "red"}, {"text": "Voir ton rang : /trigger bmc4_rang set 2", "color": "gray"}]
+execute if score @s bmc4_aura matches 7 if score @s bmc4_rangs matches 14.. run scoreboard players set @s bmc4_aura_choix 7
+execute if score @s bmc4_aura matches 7 if score @s bmc4_rangs matches 14.. run tellraw @s ["", {"text": "Aura choisie : ", "color": "green"}, {"text": "Halo divin", "color": "white"}, {"text": ". Couper : /trigger bmc4_aura set 10", "color": "gray"}]
+execute if score @s bmc4_aura matches 7 unless score @s bmc4_rangs matches 14.. run tellraw @s ["", {"text": "Aura refusée : ", "color": "red"}, {"text": "« Halo divin » s'obtient au rang ", "color": "red"}, {"text": "♛ Divin", "color": "#FFFFFF", "bold": true}, {"text": ". ", "color": "red"}, {"text": "Voir ton rang : /trigger bmc4_rang set 2", "color": "gray"}]
+execute unless score @s bmc4_aura matches 1..7 unless score @s bmc4_aura matches 10 run tellraw @s ["", {"text": "Aura inconnue. ", "color": "red"}, {"text": "Les numéros vont de 1 à 7 (voir le chapitre Rangs du livre) ; 10 coupe l'aura.", "color": "gray"}]

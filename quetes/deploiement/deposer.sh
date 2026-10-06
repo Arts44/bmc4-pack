@@ -4,8 +4,10 @@
 #
 #     sh quetes/deploiement/deposer.sh [AAAA-MM-JJ]   # les archives de ce jour (défaut : aujourd'hui)
 #     sh quetes/deploiement/deposer.sh --essai        # essai à blanc : un petit fichier texte, déposé, vu, supprimé
+#     sh quetes/deploiement/deposer.sh --bmc91 [AAAA-MM-JJ]  # BMC-91 : jars, scripts, configs, datapack
+#                                                           # dans /bmc4-depot/bmc91-<date>/ (rien de mis en place)
 #
-# Ce que fait le script, et rien d'autre :
+# Ce que fait le script (mode livre), et rien d'autre :
 #   - dépose livre-complet-<date>.zip et livre-leger-<date>.zip (produits par
 #     preparer.sh) dans /config/ftbquests/ ;
 #   - refuse de partir si un fichier du même nom y est déjà : il n'écrase rien ;
@@ -82,6 +84,42 @@ if [ "${1:-}" = "--essai" ]; then
     echo "essai : ÉCHEC (taille ${vu:-absente}, encore présent : ${encore:-non})" >&2
     exit 1
   fi
+  exit 0
+fi
+
+if [ "${1:-}" = "--bmc91" ]; then
+  # BMC-91 : le dossier de preparer-bmc91.sh, déposé tel quel dans
+  # /bmc4-depot/bmc91-<date>/. Rien n'est mis en place ici : les déplacements
+  # vers /mods, /kubejs, /world/... se font ensuite avec les outils
+  # MineStrator (BMC-91.md, étapes 2 à 4). Refuse si le dossier existe déjà.
+  date=${2:-$(date +%Y-%m-%d)}
+  src="quetes/deploiement/bmc91-$date"
+  [ -d "$src" ] || { echo "Dossier absent : $src (lancer d'abord preparer-bmc91.sh)" >&2; exit 1; }
+  cible="/bmc4-depot/bmc91-$date"
+  # « cd » puis « ls -l » : les noms sortent nus, comme dans le mode livre.
+  printf -- '-mkdir /bmc4-depot\ncd /bmc4-depot\nls -l\n' > "$lot"
+  lancer "$lot" > "$liste"
+  if [ -n "$(taille_distante "$liste" "bmc91-$date")" ]; then
+    echo "$cible existe déjà : rien n'est déposé." >&2
+    exit 1
+  fi
+  {
+    printf 'mkdir %s\n' "$cible"
+    (cd "$src" && find . -mindepth 1 -type d | sed 's|^\./||' | sort) | while read -r d; do printf 'mkdir %s/%s\n' "$cible" "$d"; done
+    (cd "$src" && find . -type f ! -name .DS_Store | sed 's|^\./||' | sort) | while read -r f; do printf 'put %s/%s %s/%s\n' "$src" "$f" "$cible" "$f"; done
+  } > "$lot"
+  lancer "$lot" > /dev/null
+  ok=1
+  for f in $(cd "$src" && find . -type f ! -name .DS_Store | sed 's|^\./||' | sort); do
+    printf 'cd %s/%s\nls -l\n' "$cible" "$(dirname "$f")" > "$lot"
+    lancer "$lot" > "$liste"
+    s=$(taille_distante "$liste" "$(basename "$f")")
+    l=$(stat -f %z "$src/$f")
+    if [ "${s:-}" = "$l" ]; then etat=identique; else etat=DIFFÉRENT; ok=0; fi
+    printf '%-58s serveur %10s o   local %10s o   %s\n' "$f" "${s:-absent}" "$l" "$etat"
+  done
+  rm -f "$liste"
+  [ "$ok" = 1 ] && echo "Dépôt vérifié dans $cible. Suite : BMC-91.md, étapes 2 à 4." || { echo "Dépôt incomplet." >&2; exit 1; }
   exit 0
 fi
 

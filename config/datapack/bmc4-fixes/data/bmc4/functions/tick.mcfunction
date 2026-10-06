@@ -25,5 +25,8 @@ execute if score #etat bmc4_raid matches 0 as @a[tag=bmc4_ancre] run function bm
 # (spectateur sans ancre, BMC-90, 6 octobre).
 execute if score #etat bmc4_raid matches 0 as @a[tag=bmc4_spectateur] run function bmc4:spectateur_sortie
 
+# --- Les rangs de prestige (BMC-91) : achat, /feed, auras, équipes ---
+function bmc4:rangs/tick
+
 # --- Le cœur perdu (BMC-90) : soins à tout moment, migration ---
 function bmc4:coeur_tick

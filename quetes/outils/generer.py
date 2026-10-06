@@ -31,6 +31,7 @@ import json
 import os
 import re
 import sys
+import importlib.util
 import tomllib
 
 ICI = os.path.dirname(os.path.abspath(__file__))
@@ -817,6 +818,14 @@ def main(argv):
         verif.erreurs.extend(f"datapack : {e}" for e in graves)
         for e in connus:
             print(f"datapack, défaut connu : {e}")
+        # Rangs de prestige (BMC-91) : les fichiers tirés de config/rangs/rangs.toml
+        # (datapack, FTB Ranks, KubeJS, bot, chapitre) doivent être à jour.
+        rangs_gen = os.path.join(ICI, '..', '..', 'config', 'rangs', 'generer.py')
+        spec = importlib.util.spec_from_file_location('rangs_generer', rangs_gen)
+        rangs_mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(rangs_mod)
+        if rangs_mod.main(['--verifier']):
+            verif.erreurs.append("rangs : fichiers générés en retard sur config/rangs/rangs.toml")
     tables_snbt = construire_tables(tables, verif)
     if verif.erreurs:
         print('\n'.join(verif.erreurs))

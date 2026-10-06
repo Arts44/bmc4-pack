@@ -1,0 +1,123 @@
+# Généré par config/rangs/generer.py depuis config/rangs/rangs.toml.
+# Va dans <monde>/serverconfig/ftbranks/ranks.snbt. VARIANTE DE RETOUR ARRIÈRE : sans KubeJS, les blocages
+# (combat, raid, claim) ne sont plus garantis, donc /home, /back et /tpa sont fermés à tous.
+{
+	bmc4_joueur: {
+		name: "Joueur"
+		power: 1
+		condition: "always_active"
+		"command.back": false
+		"command.delhome": false
+		"command.enderchest": false
+		"command.hat": false
+		"command.home": false
+		"command.listhomes": false
+		"command.nickname": false
+		"command.sethome": false
+		"command.tpa": false
+		"command.tpaccept": false
+		"command.tpahere": false
+		"command.tpdeny": false
+		"command.trashcan": false
+		"ftbessentials.home.max": 0
+	}
+	rang_1: {
+		name: "⬩ Cuivre"
+		power: 10
+		condition: "rank_added"
+	}
+	rang_2: {
+		name: "⬩ Fer"
+		power: 20
+		condition: "rank_added"
+		"command.hat": true
+	}
+	rang_3: {
+		name: "⬩ Or"
+		power: 30
+		condition: "rank_added"
+		"command.trashcan": true
+	}
+	rang_4: {
+		name: "⬩ Émeraude"
+		power: 40
+		condition: "rank_added"
+		"command.nickname": true
+	}
+	rang_5: {
+		name: "⬩ Diamant"
+		power: 50
+		condition: "rank_added"
+	}
+	rang_6: {
+		name: "⬩ Nétherite"
+		power: 60
+		condition: "rank_added"
+	}
+	rang_7: {
+		name: "✦ Ender"
+		power: 70
+		condition: "rank_added"
+		"command.enderchest": true
+	}
+	rang_8: {
+		name: "✦ Abyssal"
+		power: 80
+		condition: "rank_added"
+	}
+	rang_9: {
+		name: "✦ Draconique"
+		power: 90
+		condition: "rank_added"
+	}
+	rang_10: {
+		name: "✦ Céleste"
+		power: 100
+		condition: "rank_added"
+	}
+	rang_11: {
+		name: "✦ Suprême"
+		power: 110
+		condition: "rank_added"
+	}
+	rang_12: {
+		name: "♛ Éternel"
+		power: 120
+		condition: "rank_added"
+	}
+	rang_13: {
+		name: "♛ Primordial"
+		power: 130
+		condition: "rank_added"
+	}
+	rang_14: {
+		name: "♛ Divin"
+		power: 140
+		condition: "rank_added"
+	}
+	rang_15: {
+		name: "♛ Absolu"
+		power: 150
+		condition: "rank_added"
+	}
+	bmc4_staff: {
+		name: "Staff"
+		power: 1000
+		condition: "op"
+		"command.back": true
+		"command.delhome": true
+		"command.enderchest": true
+		"command.feed": true
+		"command.hat": true
+		"command.home": true
+		"command.listhomes": true
+		"command.nickname": true
+		"command.sethome": true
+		"command.tpa": true
+		"command.tpaccept": true
+		"command.tpahere": true
+		"command.tpdeny": true
+		"command.trashcan": true
+		"ftbessentials.home.max": 10
+	}
+}

@@ -1,0 +1,305 @@
+# Chapitre « Rangs » — généré par config/rangs/generer.py depuis config/rangs/rangs.toml
+# (BMC-91). Catalogue : on achète en jeu avec /trigger bmc4_rang, pas dans le
+# livre (la progression du livre est partagée par faction, un rang ne l'est pas).
+
+[chapitre]
+titre = "&dLes rangs de prestige"
+fichier = "factions_rangs"
+groupe = "factions"
+icone = "minecraft:experience_bottle"
+ordre = 5
+
+[[quete]]
+cle = "intro"
+titre = "&dDépenser ses niveaux"
+sous_titre = "Quinze rangs, puis l'Infini. Confort et prestige, jamais de force."
+taille = 1.5
+icone = "minecraft:experience_bottle"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Les niveaux d'XP qui ne servent plus s'échangent contre un &lrang de prestige&r. Chaque rang &lretire&r des niveaux, s'affiche devant ton pseudo (chat, liste Tab, au-dessus de la tête) et donne des avantages de &lconfort et de prestige&r : jamais de force au combat, jamais de claims en plus.
+
+&bAcheter le rang suivant :&r tape &e/trigger bmc4_rang&r. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien.
+&bOù j'en suis :&r &e/trigger bmc4_rang set 2&r.
+
+Les rangs s'achètent dans l'ordre. Chacun donne son &lkit une seule fois&r, à l'achat. Le rang est personnel : il ne se partage pas avec la faction, même si ce livre, lui, l'est.
+
+&7Pendant un raid, l'équipe du raid remplace l'affichage du rang. /home, /back et /tpa sont bloqués en combat (15 s après un coup pris ou donné), pendant un raid de ta faction, et dans le claim d'une autre faction.
+"""
+
+[[quete]]
+cle = "rang_1"
+titre = "&6Cuivre ⬩"
+sous_titre = "50 niveaux (cumul 50)"
+deps = ["intro"]
+icone = "minecraft:orange_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 1 sur 15. Prix : &l50 niveaux&r, retirés à l'achat (cumul depuis le début : 50).
+
+· Préfixe en jeu, rôle Discord et kit de rang
+
+&7Kit, une seule fois :&r l'étendard du Cuivre, 32 × Torche, 16 × Pain.
+"""
+
+[[quete]]
+cle = "rang_2"
+titre = "&fFer ⬩"
+sous_titre = "100 niveaux (cumul 150)"
+deps = ["rang_1"]
+icone = "minecraft:white_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 2 sur 15. Prix : &l100 niveaux&r, retirés à l'achat (cumul depuis le début : 150).
+
+· /hat
+· 1 home
+
+&7Kit, une seule fois :&r l'étendard du Fer, 16 × Steak, 4 × Lanterne.
+"""
+
+[[quete]]
+cle = "rang_3"
+titre = "&eOr ⬩"
+sous_titre = "200 niveaux (cumul 350)"
+deps = ["rang_2"]
+icone = "minecraft:yellow_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 3 sur 15. Prix : &l200 niveaux&r, retirés à l'achat (cumul depuis le début : 350).
+
+· /trashcan
+
+&7Kit, une seule fois :&r l'étendard de l'Or, 16 × Carotte dorée, 1 × Montre.
+"""
+
+[[quete]]
+cle = "rang_4"
+titre = "&aÉmeraude ⬩"
+sous_titre = "350 niveaux (cumul 700)"
+deps = ["rang_3"]
+icone = "minecraft:lime_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 4 sur 15. Prix : &l350 niveaux&r, retirés à l'achat (cumul depuis le début : 700).
+
+· /nickname (sans couleur), vrai pseudo visible au survol
+
+&7Kit, une seule fois :&r l'étendard de l'Émeraude, 2 × Étiquette, 16 × Carotte dorée.
+"""
+
+[[quete]]
+cle = "rang_5"
+titre = "&bDiamant ⬩"
+sous_titre = "500 niveaux (cumul 1 200)"
+deps = ["rang_4"]
+icone = "minecraft:cyan_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 5 sur 15. Prix : &l500 niveaux&r, retirés à l'achat (cumul depuis le début : 1 200).
+
+· Aura de particules au choix, à couper d'une commande
+· 2 homes
+
+&7Kit, une seule fois :&r l'étendard du Diamant, 1 × Longue-vue, 32 × Carotte dorée.
+
+&bAuras :&r 1 Étincelles d'enchantement · 2 Bâtons de l'End · 3 Flammes d'âme · 4 Pétales de cerisier · 5 Lueurs · 6 Notes. Choisir : &e/trigger bmc4_aura set <numéro>&r ; couper : &e/trigger bmc4_aura set 10&r.
+"""
+
+[[quete]]
+cle = "rang_6"
+titre = "&8Nétherite ⬩"
+sous_titre = "750 niveaux (cumul 1 950)"
+deps = ["rang_5"]
+icone = "minecraft:gray_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 6 sur 15. Prix : &l750 niveaux&r, retirés à l'achat (cumul depuis le début : 1 950).
+
+· /feed toutes les 30 minutes
+
+&7Kit, une seule fois :&r l'étendard de la Nétherite, 32 × Côtelette de porc cuite, 4 × Lanterne des âmes.
+
+&e/feed&r (ou &e/trigger bmc4_manger&r) te rassasie, une fois toutes les 30 minutes.
+"""
+
+[[quete]]
+cle = "rang_7"
+titre = "&5&lEnder ✦"
+sous_titre = "1 000 niveaux (cumul 2 950)"
+deps = ["rang_6"]
+icone = "minecraft:purple_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 7 sur 15. Prix : &l1 000 niveaux&r, retirés à l'achat (cumul depuis le début : 2 950).
+
+· /enderchest
+· 3 homes
+
+&7Kit, une seule fois :&r l'étendard de l'Ender, 8 × Perle de l'Ender, 8 × Barre de l'End.
+"""
+
+[[quete]]
+cle = "rang_8"
+titre = "&1&lAbyssal ✦"
+sous_titre = "1 250 niveaux (cumul 4 200)"
+deps = ["rang_7"]
+icone = "minecraft:blue_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 8 sur 15. Prix : &l1 250 niveaux&r, retirés à l'achat (cumul depuis le début : 4 200).
+
+· /back
+
+&7Kit, une seule fois :&r l'étendard de l'Abyssal, 8 × Lanterne aquatique, 4 × Éclat de prismarine.
+"""
+
+[[quete]]
+cle = "rang_9"
+titre = "&d&lDraconique ✦"
+sous_titre = "1 500 niveaux (cumul 5 700)"
+deps = ["rang_8"]
+icone = "minecraft:magenta_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 9 sur 15. Prix : &l1 500 niveaux&r, retirés à l'achat (cumul depuis le début : 5 700).
+
+· Résurrection draconique, une fois par semaine (!resurrection sur Discord)
+
+&7Kit, une seule fois :&r l'étendard du Draconique, 2 × Pomme dorée, 1 × Souffle de dragon.
+
+Sur Discord, &e!resurrection <nom>&r ramène un de tes dragons morts : même race, même nom, adulte, apprivoisé et lié à toi, à tes pieds (tu dois être connecté). Une fois par semaine, remise à zéro le lundi à 0 h. &lSans équipement&r : selle, armure et coffre sont tombés au sol à sa mort.
+"""
+
+[[quete]]
+cle = "rang_10"
+titre = "&b&lCéleste ✦"
+sous_titre = "2 000 niveaux (cumul 7 700)"
+deps = ["rang_9"]
+icone = "minecraft:light_blue_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 10 sur 15. Prix : &l2 000 niveaux&r, retirés à l'achat (cumul depuis le début : 7 700).
+
+· /tpa et /tpahere
+· 4 homes
+
+&7Kit, une seule fois :&r l'étendard du Céleste, 16 × Plume, 8 × Pierre lumineuse.
+"""
+
+[[quete]]
+cle = "rang_11"
+titre = "&c&lSuprême ✦"
+sous_titre = "2 500 niveaux (cumul 10 200)"
+deps = ["rang_10"]
+icone = "minecraft:red_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 11 sur 15. Prix : &l2 500 niveaux&r, retirés à l'achat (cumul depuis le début : 10 200).
+
+· Tête et nom dans l'Allée des Légendes du Marché Flottant (posées par le staff)
+
+&7Kit, une seule fois :&r l'étendard du Suprême, 3 × Pomme dorée, 4 × Lampe à redstone.
+"""
+
+[[quete]]
+cle = "rang_12"
+titre = "&6&lÉternel ♛"
+sous_titre = "3 000 niveaux (cumul 13 200)"
+deps = ["rang_11"]
+icone = "minecraft:yellow_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 12 sur 15. Prix : &l3 000 niveaux&r, retirés à l'achat (cumul depuis le début : 13 200).
+
+· Annonce à la connexion
+
+&7Kit, une seule fois :&r l'étendard de l'Éternel, 4 × Pomme dorée, 2 × Bloc d'or.
+"""
+
+[[quete]]
+cle = "rang_13"
+titre = "&2&lPrimordial ♛"
+sous_titre = "4 000 niveaux (cumul 17 200)"
+deps = ["rang_12"]
+icone = "minecraft:green_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 13 sur 15. Prix : &l4 000 niveaux&r, retirés à l'achat (cumul depuis le début : 17 200).
+
+· Salon Discord réservé aux rangs 13 et plus
+· 5 homes
+· Annonce à la connexion
+
+&7Kit, une seule fois :&r l'étendard du Primordial, 4 × Pomme dorée, 8 × Bloc de mousse.
+"""
+
+[[quete]]
+cle = "rang_14"
+titre = "&f&lDivin ♛"
+sous_titre = "5 000 niveaux (cumul 22 200)"
+deps = ["rang_13"]
+icone = "minecraft:white_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 14 sur 15. Prix : &l5 000 niveaux&r, retirés à l'achat (cumul depuis le début : 22 200).
+
+· Aura exclusive
+· 6 homes
+· Annonce à la connexion
+
+&7Kit, une seule fois :&r l'étendard du Divin, 5 × Pomme dorée, 1 × Cloche.
+
+&bAura exclusive :&r &e/trigger bmc4_aura set 7&r.
+"""
+
+[[quete]]
+cle = "rang_15"
+titre = "&4&lAbsolu ♛"
+sous_titre = "7 500 niveaux (cumul 29 700)"
+deps = ["rang_14"]
+icone = "minecraft:red_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Rang 15 sur 15. Prix : &l7 500 niveaux&r, retirés à l'achat (cumul depuis le début : 29 700).
+
+· Statue dans l'Allée des Légendes (posée par le staff)
+· Annonce à la connexion
+
+&7Kit, une seule fois :&r l'étendard de l'Absolu, 6 × Pomme dorée, 1 × Paratonnerre.
+"""
+
+[[quete]]
+cle = "infini"
+titre = "&d&lInfini ∞"
+sous_titre = "10 000 niveaux, puis 2 500 de plus à chaque palier"
+deps = ["rang_15"]
+taille = 1.5
+forme = "diamond"
+icone = "minecraft:magenta_banner"
+taches = ["checkmark Lu"]
+recompenses = ["xp 1"]
+description = """
+Après l'Absolu, les paliers de l'Infini : I : 10 000, II : 12 500, III : 15 000, IV : 17 500… jusqu'au palier XXX. Le palier s'affiche dans le préfixe (&d∞ Infini IV&r), chaque palier est annoncé dans &9#faits-d-armes&r et à ta connexion.
+
+Même commande : &e/trigger bmc4_rang&r.
+
+&7Kit à chaque palier :&r un étendard de l'Infini, 16 × Fusée de feu d'artifice.
+"""
+
