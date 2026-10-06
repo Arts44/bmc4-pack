@@ -40,7 +40,13 @@ vérifie :
   8. les scripts KubeJS n'emploient aucune des formes Java qui n'existent pas
      au runtime sur ce serveur (FORMES_ABSENTES), relevées dans latest.log le
      6 octobre : un mixin de KubeJS renomme la méthode (@RemapForJS), ou la
-     propriété n'est pas ce que l'on croit.
+     propriété n'est pas ce que l'on croit ;
+  9. un opérateur n'a que ce que son rang donne (décision d'Arthur, 6 octobre
+     au soir) : dans les scripts KubeJS, estOp( ou isOp( n'apparaît que dans
+     sa définition (« estOp: ») et dans le bloc de /prestige diagnostic (après
+     « ServerEvents.commandRegistry ») ; dans ranks.snbt et
+     ranks-sans-kubejs.snbt, bmc4_staff ne porte aucune clé command.* ni
+     ftbessentials.*.
 
 Un outil autonome peut créer son propre objectif avant de s'en servir. Un
 défaut réel de la production, qu'on ne corrige pas sur place, se déclare dans
@@ -261,6 +267,30 @@ def controler(dp=DEFAUT):
                 for motif, forme in FORMES_ABSENTES.items():
                     if re.search(motif, code):
                         err.append(f"{nom} ligne {n} : forme absente au runtime ({motif}) — employer {forme}")
+    # 9. aucune exemption d'opérateur hors du diagnostic
+    if os.path.isdir(scripts):
+        for nom in sorted(os.listdir(scripts)):
+            if not nom.endswith('.js'):
+                continue
+            lignes = open(os.path.join(scripts, nom), encoding='utf-8').read().split('\n')
+            diag = next((i for i, l in enumerate(lignes, 1) if 'ServerEvents.commandRegistry' in l
+                         and any('diagnostic' in x for x in lignes[i - 1:])), None)
+            for n, l in enumerate(lignes, 1):
+                code = l.split('//')[0]
+                if not re.search(r'\bestOp\(|\.isOp\(', code) or re.search(r'\bestOp\s*:', code):
+                    continue
+                if diag is not None and n > diag:
+                    continue
+                err.append(f"{nom} ligne {n} : exemption d'opérateur hors de /prestige diagnostic "
+                           "(un opérateur n'a que ce que son rang donne)")
+    for fichier in ('ranks.snbt', 'ranks-sans-kubejs.snbt'):
+        chemin = os.path.join(dossier_rangs, fichier)
+        if not os.path.exists(chemin):
+            continue
+        bloc = re.search(r'^\tbmc4_staff: \{\n(.*?)^\t\}', open(chemin, encoding='utf-8').read(), re.M | re.S)
+        if bloc:
+            for cle in re.findall(r'^\t\t"?((?:command|ftbessentials)\.[^":]+)"?\s*:', bloc.group(1), re.M):
+                err.append(f"{fichier} : bmc4_staff porte « {cle} » : un opérateur n'a que ce que son rang donne")
     # 4. orphelines
     ext = os.path.join(os.path.dirname(dp), 'appels-externes.toml')
     conf = tomllib.load(open(ext, 'rb')) if os.path.exists(ext) else {}

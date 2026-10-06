@@ -393,11 +393,10 @@ def snbt_ranks(d, rangs, base, sans_kubejs=False):
         if r['numero'] in homes and not sans_kubejs:
             lignes.append(f'\t\t"ftbessentials.home.max": {homes[r["numero"]]}')
         out += [f"\t{r['id']}: {{", *lignes, "\t}"]
-    # Le staff (op) garde tout, y compris /feed d'Essentials.
+    # Le staff (op) : aucune permission de prestige. Un opérateur n'a que ce que son
+    # rang donne (décision d'Arthur, 6 octobre au soir) ; il garde les commandes
+    # vanilla de modération, que ce fichier ne touche pas. Règle 9 du contrôle.
     lignes = ['\t\tname: "Staff"', '\t\tpower: 1000', '\t\tcondition: "op"']
-    for c in sorted(d['commandes']):
-        lignes.append(f'\t\t"command.{c}": true')
-    lignes.append('\t\t"ftbessentials.home.max": 10')
     out += ["\tbmc4_staff: {", *lignes, "\t}", "}"]
     return '\n'.join(out) + '\n'
 

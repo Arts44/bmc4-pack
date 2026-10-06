@@ -87,7 +87,9 @@ const ACCES = {
   uuid: e => e.getUuid(),
   // EntityKJS.java:93, kjs$isPlayer (préfixe kjs$ retiré par @RemapPrefixForJS)
   estJoueur: e => e.isPlayer() == true,
-  // ServerPlayerKJS.java:77, kjs$isOp : la liste des opérateurs du serveur
+  // ServerPlayerKJS.java:77, kjs$isOp : la liste des opérateurs du serveur. Ne sert
+  // qu'à réserver /prestige diagnostic : un opérateur n'a que ce que son rang donne
+  // (décision d'Arthur, 6 octobre au soir ; règle 9 du contrôle).
   estOp: p => p.isOp() == true,
   // EntityKJS.java:228, kjs$isOnScoreboardTeam : l'équipe vanilla du raid
   enRaid: p => p.isOnScoreboardTeam('bmc4_raid_actif') == true,
@@ -270,7 +272,7 @@ function homeNomme(d, nom) {
 }
 
 function maxHomes(joueur, rang) {
-  if (ACCES.estOp(joueur)) return 10
+  // 6 octobre au soir (Arthur) : les opérateurs n'ont que ce que leur rang donne.
   let max = 0
   for (const n in global.BMC4.homes) {
     if (rang >= Number(n)) max = Math.max(max, global.BMC4.homes[n])
@@ -539,14 +541,14 @@ ServerEvents.command(event => {
       dire(server, nomJ, '/' + commande, 'commande coupée sur BMC4, ' + COUPEES[commande] + '.',
         commande == 'spawn' || commande == 'playerspawn' || commande == 'warp' ? 'Les waystones restent là pour voyager.' : null)
       refuse = true
-    } else if (commande == 'feed' && !ACCES.estOp(joueur)) {
+    } else if (commande == 'feed') {
       // /feed des joueurs : le datapack (rang, 30 minutes, messages).
       server.runCommandSilent('execute as ' + nomJ + ' run function bmc4:rangs/g_manger')
       refuse = true
     } else {
       let requis = global.BMC4.commandes[commande]
       let rang = ACCES.score(server, nomJ, 'bmc4_rangs') || 0
-      if (requis != null && requis > 0 && rang < requis && !ACCES.estOp(joueur)) {
+      if (requis != null && requis > 0 && rang < requis) {
         dire(server, nomJ, '/' + commande, 'elle s\'obtient au rang ' + nomRang(requis) + ' (ton rang : ' + nomRang(rang) + ').', 'Voir ce qu\'il te manque : /prestige.')
         refuse = true
       } else if (commande == 'home') refuse = garderHome(server, joueur, args)

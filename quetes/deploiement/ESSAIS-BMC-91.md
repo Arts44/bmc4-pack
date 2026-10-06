@@ -145,6 +145,13 @@ Ranks (`ftbranks remove <pseudo> rang_<n>` pour chaque n) et
       et `logs/kubejs/server.log` porte une seule ligne « bmc4_garde : /home : … ».
 - [ ] **Autocomplétion après l'achat** : acheter le Fer ; dans la seconde,
       `/home` n'est plus en rouge dans le chat et se complète, sans reconnexion.
+- [ ] **Op au rang Diamant : `/feed` et `/enderchest` refusés** (décision
+      d'Arthur, 6 octobre au soir : un opérateur n'a que ce que son rang donne).
+      Arthur, op, rang ⬩ Diamant (score 5) : `/feed` → « /feed refusé : il s'obtient au rang ⬩ Nétherite. Voir ce qu'il te manque : [Où j'en suis] » ;
+      `/enderchest` → « /enderchest refusé : elle s'obtient au rang ✦ Ender (ton rang : ⬩ Diamant). Voir ce qu'il te manque : /prestige. » ;
+      `/sethome` au-delà de 2 homes → la ligne 19 du tableau (maximum du rang,
+      pas 10). `/prestige diagnostic` reste ouvert à l'op ; `/tp` et
+      `/gamemode` aussi.
 - [ ] **Les rangs s'activent** : après l'achat, `ftbranks list_ranks_of <joueur>`
       montre « ⬩ Cuivre » (et pas seulement « Joueur ») ; aucun rang_1 à rang_15
       ne porte de `condition` dans `/world/serverconfig/ftbranks/ranks.snbt`.
