@@ -1,4 +1,5 @@
-# /trigger bmc4_rang set 2 : le rang actuel, le suivant, son prix, ce qui manque.
+# /prestige (et /trigger bmc4_rang set 2) : le rang actuel, le suivant, son prix,
+# ce qui manque, et les boutons [Acheter] et [Voir l'échelle].
 execute unless score @s bmc4_rangs matches 0.. run scoreboard players set @s bmc4_rangs 0
 scoreboard players operation @s bmc4_cible = @s bmc4_rangs
 scoreboard players add @s bmc4_cible 1

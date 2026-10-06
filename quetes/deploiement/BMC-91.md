@@ -26,7 +26,7 @@ Ce qui part sur le serveur :
 | FTB Essentials | 2001.2.4, maven.ftb.dev, SHA-1 `4f898578…`, 157 732 o | `/mods/` |
 | KubeJS | 2001.6.5-build.26, maven.latvian.dev, SHA-1 `6986aef8…`, 1 658 792 o | `/mods/` **et pack client (v62)** |
 | Rhino | 2001.2.3-build.10, maven.latvian.dev, SHA-1 `54db3943…`, 1 798 243 o | `/mods/` **et pack client (v62)** |
-| Scripts KubeJS | `config/serveur/kubejs/server_scripts/` (3 fichiers) | `/kubejs/server_scripts/` |
+| Scripts KubeJS | `config/serveur/kubejs/server_scripts/` (4 fichiers depuis `/prestige`) | `/kubejs/server_scripts/` |
 | FTB Essentials | `config/serveur/ftbessentials.snbt` | `/world/serverconfig/ftbessentials.snbt` |
 | FTB Ranks | `config/serveur/ftbranks/ranks.snbt` | `/world/serverconfig/ftbranks/ranks.snbt` |
 | Datapack | `config/datapack/bmc4-fixes/` : rangs, BMC-90 (`044b818`), `bmc4_anim` | `/world/datapacks/bmc4-fixes/` |
@@ -207,3 +207,48 @@ des joueurs à l'instant de la sauvegarde.
   « Request sent! », « Request denied! ». Leurs textes sont écrits en dur dans
   le jar (`Component.literal`), sans fichier de langue à traduire. Tous les
   refus passent par KubeJS, en français.
+
+---
+
+## Mise à jour du 6 octobre au soir : `/prestige`
+
+Décision d'Arthur : `/trigger bmc4_rang` est trop obscur ; la commande s'appelle
+`/prestige`, et l'achat passe par une confirmation.
+
+| Commande | Effet | Fonction lancée « as » le joueur |
+|---|---|---|
+| `/prestige` | rang, suivant, prix, niveaux, manque ; [Acheter] [Voir l'échelle] | `bmc4:rangs/etat` |
+| `/prestige acheter` | devis : prix, apport, reste ; [Confirmer l'achat], ou le manque | `bmc4:rangs/devis` |
+| `/prestige confirmer` | achète si le devis a moins de 30 s et vise le même rang | `bmc4:rangs/confirmer`, puis `acheter` |
+| `/prestige liste` | l'échelle, ✔ rangs acquis, ◀ rang actuel | `bmc4:rangs/g_liste` |
+| `/prestige aura <n\|couper>` | choisir ou couper son aura | `bmc4:rangs/aura_demande` |
+
+Le script `bmc4_prestige.js` ne fait que lancer ces fonctions ; l'achat est celui
+de `/trigger bmc4_rang`, qui marche toujours. Le devis est noté dans deux scores
+(`bmc4_devis` : rang visé, `bmc4_devis_t` : heure du monde), créés par `g_init`.
+
+**Permissions** : aucune ligne à ajouter dans `ranks.snbt`. FTB Ranks emballe
+chaque nœud de commande à la fin du constructeur de `Commands`
+(`CommandsMixin.java:13-15`, FTB Ranks 2001.1.7), donc aussi `/prestige`, sous
+`command.prestige`. Aucun rang ne définit ce nœud ni `command` : la recherche
+remonte jusqu'à « absent » (`RankManagerImpl.java:161-180`) et le prédicat
+retombe sur l'exigence d'origine (`RankCommandPredicate.java`,
+`orElseGet(() -> original.test(source))`), vide pour une commande KubeJS. À
+chaque `/reload`, `Commands` est recréé, KubeJS réenregistre `/prestige`
+(`CommandRegistrationEvent`) et FTB Ranks l'emballe de nouveau.
+
+**Ce qui part** (déposé dans `/bmc4-depot/bmc91-<date>-prestige/`) :
+`kubejs/server_scripts/` (les quatre scripts, dont `bmc4_prestige.js` nouveau et
+`bmc4_garde.js` modifié), `bmc4-fixes.zip`, et les deux archives du livre.
+`ranks.snbt` ne change pas.
+
+1. Scripts : déplacer les quatre dans `/kubejs/server_scripts/` (remplacer).
+2. Datapack : comme § 4, l'actuel rangé dans `/bmc4-depot/bmc91-<date>-prestige/ancien/`.
+3. Livre : comme § 5, avec `quests-avant-prestige`.
+4. Redémarrer : le livre l'exige (§ 3 de `LISEZ-MOI.md`), et un nouveau script
+   qui enregistre une commande n'est pas garanti au premier `reload` (l'ordre
+   entre le rechargement des scripts et la reconstruction des commandes n'a pas
+   été vérifié). L'essai « Après `/reload` » vérifie ensuite qu'elle survit.
+5. Essais : `ESSAIS-BMC-91.md`, section Datapack, de « Sans aucun rang » à
+   « L'Infini », et lignes 42 à 47 du tableau.
+

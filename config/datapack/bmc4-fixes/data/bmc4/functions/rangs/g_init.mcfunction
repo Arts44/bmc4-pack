@@ -12,6 +12,8 @@ scoreboard objectives add bmc4_manger_t dummy
 scoreboard objectives add bmc4_niveaux dummy
 scoreboard objectives add bmc4_cible dummy
 scoreboard objectives add bmc4_calc dummy
+scoreboard objectives add bmc4_devis dummy
+scoreboard objectives add bmc4_devis_t dummy
 scoreboard objectives add bmc4_depart minecraft.custom:minecraft.leave_game
 
 team add bmc4_r1

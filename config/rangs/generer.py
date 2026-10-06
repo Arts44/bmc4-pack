@@ -143,8 +143,20 @@ def rang_txt(r):
     return t(r['affiche'], color=r['couleur'], bold=r['gras'])
 
 
+def bouton(texte, commande, survol, couleur="aqua"):
+    """Un bouton cliquable qui lance une commande (clickEvent run_command)."""
+    return dict(text=texte, color=couleur, bold=True,
+                clickEvent=dict(action="run_command", value=commande),
+                hoverEvent=dict(action="show_text", contents=survol))
+
+
 def score(obj):
     return {"score": {"name": "@s", "objective": obj}}
+
+
+B_ACHETER = bouton("[Acheter]", "/prestige acheter", "Voir le prix et ce qu'apporte le rang suivant, puis confirmer", "green")
+B_ECHELLE = bouton("[Voir l'échelle]", "/prestige liste", "Les quinze rangs, puis l'Infini")
+B_ETAT = bouton("[Où j'en suis]", "/prestige", "Ton rang, le suivant, ce qu'il te manque")
 
 
 def ligne_si(n, commande):
@@ -164,6 +176,7 @@ def datapack(d, rangs, base):
     for o, crit in [('bmc4_rang', 'trigger'), ('bmc4_aura', 'trigger'), ('bmc4_manger', 'trigger'),
                     ('bmc4_rangs', 'dummy'), ('bmc4_aura_choix', 'dummy'), ('bmc4_manger_t', 'dummy'),
                     ('bmc4_niveaux', 'dummy'), ('bmc4_cible', 'dummy'), ('bmc4_calc', 'dummy'),
+                    ('bmc4_devis', 'dummy'), ('bmc4_devis_t', 'dummy'),
                     ('bmc4_depart', 'minecraft.custom:minecraft.leave_game')]:
         lignes.append(f"scoreboard objectives add {o} {crit}")
     lignes.append("")
@@ -193,7 +206,7 @@ def datapack(d, rangs, base):
             dict(score('bmc4_calc'), color="white", bold=True), t(" niveaux (", color="red"),
             t(f"{milliers(r['cout'])} requis", color="white"), t(", tu en as ", color="red"),
             dict(score('bmc4_niveaux'), color="white"), t("). ", color="red"),
-            t("Rien n'a été retiré.", color="gray", italic=True))))
+            t("Rien n'a été retiré. Retape /prestige acheter quand tu les auras.", color="gray"))))
     f['g_manque'] = '\n'.join(lignes) + '\n'
 
     # Message : rang obtenu (bmc4_cible vient d'être payé).
@@ -247,19 +260,58 @@ def datapack(d, rangs, base):
         f"execute if score @s bmc4_rangs matches {seuil}.. store result storage bmc4:rangs annonces[-1].Rang int 1 run scoreboard players get @s bmc4_rangs\n")
 
     # État : rang actuel, prochain rang, prix, ce qui manque.
-    lignes = [ENTETE_MC, "# /trigger bmc4_rang set 2 : où j'en suis. @s bmc4_cible = rang suivant,\n"
+    lignes = [ENTETE_MC, "# /prestige : où j'en suis. @s bmc4_cible = rang suivant,\n"
                           "# bmc4_niveaux = niveaux actuels, bmc4_calc = ce qui manque (0 si assez).\n",
               "execute if score @s bmc4_rangs matches 0 run tellraw @s " + j(t("Tu n'as pas encore de rang de prestige.", color="gray"))]
     for r in rangs:
         lignes.append(f"execute if score @s bmc4_rangs matches {r['numero']} run tellraw @s " + j(
             t("Ton rang : ", color="gray"), rang_txt(r), t(f" ({r['numero']}/{base}{' + Infini' if r['numero'] > base else ''}).", color="gray")))
     for r in rangs:
-        lignes.append(ligne_si(r['numero'], "tellraw @s " + j(
+        n = r['numero']
+        lignes.append(f"execute if score @s bmc4_cible matches {n} if score @s bmc4_calc matches 1.. run tellraw @s " + j(
             t("Prochain : ", color="gray"), rang_txt(r), t(f", {milliers(r['cout'])} niveaux ; tu en as ", color="gray"),
             dict(score('bmc4_niveaux'), color="white"), t(", il t'en manque ", color="gray"),
-            dict(score('bmc4_calc'), color="white"), t(". ", color="gray"),
-            t("Acheter : /trigger bmc4_rang", color="aqua"))))
+            dict(score('bmc4_calc'), color="white"), t(". ", color="gray"), B_ECHELLE))
+        lignes.append(f"execute if score @s bmc4_cible matches {n} if score @s bmc4_calc matches ..0 run tellraw @s " + j(
+            t("Prochain : ", color="gray"), rang_txt(r), t(f", {milliers(r['cout'])} niveaux ; tu en as ", color="gray"),
+            dict(score('bmc4_niveaux'), color="white"), t(". ", color="gray"), B_ACHETER, t(" "), B_ECHELLE))
     f['g_etat'] = '\n'.join(lignes) + '\n'
+
+    # /prestige acheter : le devis (assez de niveaux). bmc4_calc = ce qui restera.
+    lignes = [ENTETE_MC, "# /prestige acheter, niveaux suffisants : le rang visé (@s bmc4_cible), son prix,\n"
+                          "# ce qu'il apporte, ce qui restera (@s bmc4_calc), et le bouton de confirmation.\n"]
+    for r in rangs:
+        apport = (' · '.join(r['avantages']) if r['avantages']
+                  else f"le palier {r['nom']} dans ton préfixe, une annonce dans #faits-d-armes et à ta connexion")
+        lignes.append(ligne_si(r['numero'], "tellraw @s " + j(
+            t("Rang ", color="gold"), rang_txt(r), t(f" : {milliers(r['cout'])} niveaux.\n", color="gold"),
+            t("Il apporte : ", color="gray"), t(apport, color="white"),
+            t("\nAprès l'achat, il te restera ", color="gray"), dict(score('bmc4_calc'), color="white"),
+            t(" niveaux. ", color="gray"),
+            bouton("[Confirmer l'achat]", "/prestige confirmer", "Retire les niveaux et donne le rang", "green"),
+            t(" (valable 30 secondes)", color="gray"))))
+    f['g_devis'] = '\n'.join(lignes) + '\n'
+
+    # /prestige liste : l'échelle, avec ✔ pour les rangs acquis et ◀ pour le rang actuel.
+    inf = d['infini']
+    lignes = [ENTETE_MC, "# /prestige liste : l'échelle complète, la marque du joueur, ses boutons.\n",
+              "execute unless score @s bmc4_rangs matches 0.. run scoreboard players set @s bmc4_rangs 0",
+              "tellraw @s " + j(t("Les rangs de prestige", color="gold", bold=True), t(" (prix en niveaux, retirés à l'achat)", color="gray"))]
+    for r in rangs[:base]:
+        n = r['numero']
+        corps = [rang_txt(r), t(f" — {milliers(r['cout'])}", color="white")]
+        lignes.append(f"execute if score @s bmc4_rangs matches {n + 1}.. run tellraw @s " + j(t("✔ ", color="green"), *corps))
+        lignes.append(f"execute if score @s bmc4_rangs matches {n} run tellraw @s " + j(t("✔ ", color="green"), *corps, t("  ◀ ton rang", color="yellow", bold=True)))
+        lignes.append(f"execute if score @s bmc4_rangs matches ..{n - 1} run tellraw @s " + j(t("· ", color="dark_gray"), *corps))
+    infini = [t(f"{inf['symbole']} {inf['nom']} I, II, III…", color=inf['couleur'], bold=inf['gras']),
+              t(f" — {milliers(inf['cout_depart'])}, puis {milliers(inf['hausse'])} de plus à chaque palier (jusqu'à {romain(inf['paliers'])})", color="white")]
+    lignes.append(f"execute if score @s bmc4_rangs matches {base + 1}.. run tellraw @s " + j(t("✔ ", color="green"), *infini))
+    lignes.append(f"execute if score @s bmc4_rangs matches ..{base} run tellraw @s " + j(t("· ", color="dark_gray"), *infini))
+    for r in rangs[base:]:
+        lignes.append(f"execute if score @s bmc4_rangs matches {r['numero']} run tellraw @s " + j(
+            t("  ◀ ton palier : ", color="yellow", bold=True), rang_txt(r)))
+    lignes.append("tellraw @s " + j(B_ETAT, t(" "), B_ACHETER))
+    f['g_liste'] = '\n'.join(lignes) + '\n'
 
     # Auras : affichage (toutes les 10 ticks) et choix.
     lignes = [ENTETE_MC, "# Les auras, toutes les 10 ticks. Rien pour un spectateur ni un invisible.\n"]
@@ -269,30 +321,30 @@ def datapack(d, rangs, base):
     f['g_aura'] = '\n'.join(lignes) + '\n'
 
     rangs_par_num = {r['numero']: r for r in rangs}
-    lignes = [ENTETE_MC, "# /trigger bmc4_aura set <n> : choisir (1 à " + str(len(d['aura'])) + "), 10 pour couper.\n",
+    lignes = [ENTETE_MC, "# /prestige aura <n> (ou /trigger bmc4_aura set <n>) : choisir (1 à " + str(len(d['aura'])) + "), 10 pour couper.\n",
               "execute if score @s bmc4_aura matches 10 run scoreboard players set @s bmc4_aura_choix 0",
-              "execute if score @s bmc4_aura matches 10 run tellraw @s " + j(t("Aura coupée. ", color="gray"), t("La remettre : /trigger bmc4_aura set <numéro>", color="aqua"))]
+              "execute if score @s bmc4_aura matches 10 run tellraw @s " + j(t("Aura coupée. ", color="gray"), t("La remettre : /prestige aura <numéro>", color="aqua"))]
     for i, a in enumerate(d['aura'], 1):
         r = rangs_par_num[a['rang']]
         lignes += [
             f"execute if score @s bmc4_aura matches {i} if score @s bmc4_rangs matches {a['rang']}.. run scoreboard players set @s bmc4_aura_choix {i}",
             f"execute if score @s bmc4_aura matches {i} if score @s bmc4_rangs matches {a['rang']}.. run tellraw @s " + j(
-                t("Aura choisie : ", color="green"), t(a['nom'], color="white"), t(". Couper : /trigger bmc4_aura set 10", color="gray")),
+                t("Aura choisie : ", color="green"), t(a['nom'], color="white"), t(". Couper : /prestige aura couper", color="gray")),
             f"execute if score @s bmc4_aura matches {i} unless score @s bmc4_rangs matches {a['rang']}.. run tellraw @s " + j(
                 t("Aura refusée : ", color="red"), t(f"« {a['nom']} » s'obtient au rang ", color="red"), rang_txt(r),
-                t(". ", color="red"), t("Voir ton rang : /trigger bmc4_rang set 2", color="gray")),
+                t(". ", color="red"), t("Voir ce qu'il te manque : ", color="gray"), B_ETAT),
         ]
     lignes.append(f"execute unless score @s bmc4_aura matches 1..{len(d['aura'])} unless score @s bmc4_aura matches 10 run tellraw @s " + j(
-        t("Aura inconnue. ", color="red"), t(f"Les numéros vont de 1 à {len(d['aura'])} (voir le chapitre Rangs du livre) ; 10 coupe l'aura.", color="gray")))
+        t("Aura inconnue. ", color="red"), t(f"Les numéros vont de 1 à {len(d['aura'])} (voir le chapitre Rangs du livre) ; /prestige aura couper la coupe.", color="gray")))
     f['g_aura_choix'] = '\n'.join(lignes) + '\n'
 
     # /feed : réservé à un rang (voir manger.mcfunction pour le délai).
     rf = rangs_par_num[d['commandes']['feed']]
     f['g_manger'] = ENTETE_MC + (
-        f"\n# /trigger bmc4_manger (ou /feed, que KubeJS renvoie ici) : rang {rf['numero']} et plus.\n"
+        f"\n# /feed (KubeJS le renvoie ici) ou /trigger bmc4_manger : rang {rf['numero']} et plus.\n"
         f"execute unless score @s bmc4_rangs matches {rf['numero']}.. run tellraw @s " + j(
             t("/feed refusé : ", color="red"), t("il s'obtient au rang ", color="red"), rang_txt(rf), t(". ", color="red"),
-            t("Voir ton rang : /trigger bmc4_rang set 2", color="gray")) + "\n"
+            t("Voir ce qu'il te manque : ", color="gray"), B_ETAT) + "\n"
         f"execute if score @s bmc4_rangs matches {rf['numero']}.. run function bmc4:rangs/manger\n"
         "scoreboard players set @s bmc4_manger 0\n")
 
@@ -300,7 +352,7 @@ def datapack(d, rangs, base):
     f['g_plafond'] = ENTETE_MC + "\n# Le dernier palier préparé est atteint.\n" + "tellraw @s " + j(
         t("Achat refusé : ", color="red"), t("tu as atteint ", color="red"), rang_txt(dernier),
         t(", le dernier palier préparé. ", color="red"),
-        t("Préviens le staff : les suivants seront ajoutés. Rien n'a été retiré.", color="gray")) + "\n"
+        t("Préviens le staff : les suivants seront ajoutés. Rien n'a été retiré. ", color="gray"), B_ECHELLE) + "\n"
     return f
 
 
@@ -381,7 +433,7 @@ def code_couleur(r):
 def chapitre(d, rangs, base):
     inf = d['infini']
     q = ['# Chapitre « Rangs » — généré par config/rangs/generer.py depuis config/rangs/rangs.toml',
-         '# (BMC-91). Catalogue : on achète en jeu avec /trigger bmc4_rang, pas dans le',
+         '# (BMC-91). Catalogue : on achète en jeu avec /prestige, pas dans le',
          '# livre (la progression du livre est partagée par faction, un rang ne l\'est pas).',
          '', '[chapitre]', 'titre = "&dLes rangs de prestige"', 'fichier = "factions_rangs"',
          'groupe = "factions"', 'icone = "minecraft:experience_bottle"', 'ordre = 5', '',
@@ -391,8 +443,9 @@ def chapitre(d, rangs, base):
          'recompenses = ["xp 1"]', 'description = """',
          "Les niveaux d'XP qui ne servent plus s'échangent contre un &lrang de prestige&r. Chaque rang &lretire&r des niveaux, s'affiche devant ton pseudo (chat, liste Tab, au-dessus de la tête) et donne des avantages de &lconfort et de prestige&r : jamais de force au combat, jamais de claims en plus.",
          '',
-         "&bAcheter le rang suivant :&r tape &e/trigger bmc4_rang&r. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien.",
-         "&bOù j'en suis :&r &e/trigger bmc4_rang set 2&r.",
+         "&bOù j'en suis :&r &e/prestige&r. Le rang actuel, le suivant, son prix et ce qu'il te manque.",
+         "&bAcheter le rang suivant :&r &e/prestige acheter&r montre le prix et ce qu'apporte le rang, puis un bouton &e[Confirmer l'achat]&r, valable 30 secondes. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien.",
+         "&bL'échelle :&r &e/prestige liste&r.",
          '',
          "Les rangs s'achètent dans l'ordre. Chacun donne son &lkit une seule fois&r, à l'achat. Le rang est personnel : il ne se partage pas avec la faction, même si ce livre, lui, l'est.",
          '',
@@ -406,12 +459,12 @@ def chapitre(d, rangs, base):
         extra = ''
         if r['nom'] == 'Diamant':
             extra = '\n\n&bAuras :&r ' + ' · '.join(f"{i} {a['nom']}" for i, a in enumerate(d['aura'], 1) if a['rang'] <= 5) + \
-                    ". Choisir : &e/trigger bmc4_aura set <numéro>&r ; couper : &e/trigger bmc4_aura set 10&r."
+                    ". Choisir : &e/prestige aura <numéro>&r ; couper : &e/prestige aura couper&r."
         if r['nom'] == 'Divin':
             n = next(i for i, a in enumerate(d['aura'], 1) if a['rang'] == 14)
-            extra = f"\n\n&bAura exclusive :&r &e/trigger bmc4_aura set {n}&r."
+            extra = f"\n\n&bAura exclusive :&r &e/prestige aura {n}&r."
         if r['nom'] == 'Nétherite':
-            extra = "\n\n&e/feed&r (ou &e/trigger bmc4_manger&r) te rassasie, une fois toutes les 30 minutes."
+            extra = "\n\n&e/feed&r te rassasie, une fois toutes les 30 minutes."
         if r['nom'] == 'Draconique':
             extra = ("\n\nSur Discord, &e!resurrection <nom>&r ramène un de tes dragons morts : même race, même nom, adulte, "
                      "apprivoisé et lié à toi, à tes pieds (tu dois être connecté). Une fois par semaine, remise à zéro le lundi à 0 h. "
@@ -431,7 +484,7 @@ def chapitre(d, rangs, base):
           f'deps = ["{prec}"]', 'taille = 1.5', 'forme = "diamond"', f'icone = "{inf["banniere"]}"',
           'taches = ["checkmark Lu"]', 'recompenses = ["xp 1"]', 'description = """',
           f"Après l'Absolu, les paliers de l'Infini : {exemples}… jusqu'au palier {romain(inf['paliers'])}. Le palier s'affiche dans le préfixe (&d∞ Infini IV&r), chaque palier est annoncé dans &9#faits-d-armes&r et à ta connexion.",
-          '', "Même commande : &e/trigger bmc4_rang&r.", '',
+          '', "Même commande : &e/prestige acheter&r.", '',
           f"&7Kit à chaque palier :&r un étendard de l'Infini, {kit_lisible(inf['kit'])}.",
           '"""', '']
     return ''.join(normaliser_typo.normaliser_ligne(l) for l in ('\n'.join(q) + '\n').splitlines(keepends=True))

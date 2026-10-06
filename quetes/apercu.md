@@ -7274,8 +7274,9 @@ Livre complet : 91 chapitres, 4 819 quêtes.
 
 - **Dépenser ses niveaux** — tâches : checkmark Lu — récompense : xp 1
   > Les niveaux d'XP qui ne servent plus s'échangent contre un rang de prestige. Chaque rang retire des niveaux, s'affiche devant ton pseudo (chat, liste Tab, au-dessus de la tête) et donne des avantages de confort et de prestige : jamais de force au combat, jamais de claims en plus.
-  >   > Acheter le rang suivant : tape /trigger bmc4_rang. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien.
-  > Où j'en suis : /trigger bmc4_rang set 2.
+  >   > Où j'en suis : /prestige. Le rang actuel, le suivant, son prix et ce qu'il te manque.
+  > Acheter le rang suivant : /prestige acheter montre le prix et ce qu'apporte le rang, puis un bouton [Confirmer l'achat], valable 30 secondes. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien.
+  > L'échelle : /prestige liste.
   >   > Les rangs s'achètent dans l'ordre. Chacun donne son kit une seule fois, à l'achat. Le rang est personnel : il ne se partage pas avec la faction, même si ce livre, lui, l'est.
   >   > Pendant un raid, l'équipe du raid remplace l'affichage du rang. /home, /back et /tpa sont bloqués en combat (15 s après un coup pris ou donné), pendant un raid de ta faction, et dans le claim d'une autre faction.
 - **Cuivre ⬩** — tâches : checkmark Lu — récompense : xp 1 — après : intro
@@ -7300,12 +7301,12 @@ Livre complet : 91 chapitres, 4 819 quêtes.
   >   > · Aura de particules au choix, à couper d'une commande
   > · 2 homes
   >   > Kit, une seule fois : l'étendard du Diamant, 1 × Longue-vue, 32 × Carotte dorée.
-  >   > Auras : 1 Étincelles d'enchantement · 2 Bâtons de l'End · 3 Flammes d'âme · 4 Pétales de cerisier · 5 Lueurs · 6 Notes. Choisir : /trigger bmc4_aura set <numéro> ; couper : /trigger bmc4_aura set 10.
+  >   > Auras : 1 Étincelles d'enchantement · 2 Bâtons de l'End · 3 Flammes d'âme · 4 Pétales de cerisier · 5 Lueurs · 6 Notes. Choisir : /prestige aura <numéro> ; couper : /prestige aura couper.
 - **Nétherite ⬩** — tâches : checkmark Lu — récompense : xp 1 — après : rang_5
   > Rang 6 sur 15. Prix : 750 niveaux, retirés à l'achat (cumul depuis le début : 1 950).
   >   > · /feed toutes les 30 minutes
   >   > Kit, une seule fois : l'étendard de la Nétherite, 32 × Côtelette de porc cuite, 4 × Lanterne des âmes.
-  >   > /feed (ou /trigger bmc4_manger) te rassasie, une fois toutes les 30 minutes.
+  >   > /feed te rassasie, une fois toutes les 30 minutes.
 - **Ender ✦** — tâches : checkmark Lu — récompense : xp 1 — après : rang_6
   > Rang 7 sur 15. Prix : 1 000 niveaux, retirés à l'achat (cumul depuis le début : 2 950).
   >   > · /enderchest
@@ -7345,7 +7346,7 @@ Livre complet : 91 chapitres, 4 819 quêtes.
   > · 6 homes
   > · Annonce à la connexion
   >   > Kit, une seule fois : l'étendard du Divin, 5 × Pomme dorée, 1 × Cloche.
-  >   > Aura exclusive : /trigger bmc4_aura set 7.
+  >   > Aura exclusive : /prestige aura 7.
 - **Absolu ♛** — tâches : checkmark Lu — récompense : xp 1 — après : rang_14
   > Rang 15 sur 15. Prix : 7 500 niveaux, retirés à l'achat (cumul depuis le début : 29 700).
   >   > · Statue dans l'Allée des Légendes (posée par le staff)
@@ -7353,7 +7354,7 @@ Livre complet : 91 chapitres, 4 819 quêtes.
   >   > Kit, une seule fois : l'étendard de l'Absolu, 6 × Pomme dorée, 1 × Paratonnerre.
 - **Infini ∞** — tâches : checkmark Lu — récompense : xp 1 — après : rang_15
   > Après l'Absolu, les paliers de l'Infini : I : 10 000, II : 12 500, III : 15 000, IV : 17 500… jusqu'au palier XXX. Le palier s'affiche dans le préfixe (∞ Infini IV), chaque palier est annoncé dans #faits-d-armes et à ta connexion.
-  >   > Même commande : /trigger bmc4_rang.
+  >   > Même commande : /prestige acheter.
   >   > Kit à chaque palier : un étendard de l'Infini, 16 × Fusée de feu d'artifice.
 
 ## CC: Tweaked  (`cc_tweaked`, 13 quêtes)

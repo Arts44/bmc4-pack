@@ -12,8 +12,9 @@
 			description: [
 				"Les niveaux d'XP qui ne servent plus s'échangent contre un &lrang de prestige&r. Chaque rang &lretire&r des niveaux, s'affiche devant ton pseudo (chat, liste Tab, au-dessus de la tête) et donne des avantages de &lconfort et de prestige&r : jamais de force au combat, jamais de claims en plus."
 				""
-				"&bAcheter le rang suivant :&r tape &e/trigger bmc4_rang&r. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien."
-				"&bOù j'en suis :&r &e/trigger bmc4_rang set 2&r."
+				"&bOù j'en suis :&r &e/prestige&r. Le rang actuel, le suivant, son prix et ce qu'il te manque."
+				"&bAcheter le rang suivant :&r &e/prestige acheter&r montre le prix et ce qu'apporte le rang, puis un bouton &e[Confirmer l'achat]&r, valable 30 secondes. Les niveaux sont vérifiés puis retirés d'un seul coup ; s'il en manque, rien n'est retiré et le message dit combien."
+				"&bL'échelle :&r &e/prestige liste&r."
 				""
 				"Les rangs s'achètent dans l'ordre. Chacun donne son &lkit une seule fois&r, à l'achat. Le rang est personnel : il ne se partage pas avec la faction, même si ce livre, lui, l'est."
 				""
@@ -152,7 +153,7 @@
 				""
 				"&7Kit, une seule fois :&r l'étendard du Diamant, 1 × Longue-vue, 32 × Carotte dorée."
 				""
-				"&bAuras :&r 1 Étincelles d'enchantement · 2 Bâtons de l'End · 3 Flammes d'âme · 4 Pétales de cerisier · 5 Lueurs · 6 Notes. Choisir : &e/trigger bmc4_aura set <numéro>&r ; couper : &e/trigger bmc4_aura set 10&r."
+				"&bAuras :&r 1 Étincelles d'enchantement · 2 Bâtons de l'End · 3 Flammes d'âme · 4 Pétales de cerisier · 5 Lueurs · 6 Notes. Choisir : &e/prestige aura <numéro>&r ; couper : &e/prestige aura couper&r."
 			]
 			icon: "minecraft:cyan_banner"
 			id: "4831CD35ECEB3C2E"
@@ -180,7 +181,7 @@
 				""
 				"&7Kit, une seule fois :&r l'étendard de la Nétherite, 32 × Côtelette de porc cuite, 4 × Lanterne des âmes."
 				""
-				"&e/feed&r (ou &e/trigger bmc4_manger&r) te rassasie, une fois toutes les 30 minutes."
+				"&e/feed&r te rassasie, une fois toutes les 30 minutes."
 			]
 			icon: "minecraft:gray_banner"
 			id: "107B0A82E7088AD5"
@@ -398,7 +399,7 @@
 				""
 				"&7Kit, une seule fois :&r l'étendard du Divin, 5 × Pomme dorée, 1 × Cloche."
 				""
-				"&bAura exclusive :&r &e/trigger bmc4_aura set 7&r."
+				"&bAura exclusive :&r &e/prestige aura 7&r."
 			]
 			icon: "minecraft:white_banner"
 			id: "30CF7EA9978FEEFB"
@@ -449,7 +450,7 @@
 			description: [
 				"Après l'Absolu, les paliers de l'Infini : I : 10 000, II : 12 500, III : 15 000, IV : 17 500… jusqu'au palier XXX. Le palier s'affiche dans le préfixe (&d∞ Infini IV&r), chaque palier est annoncé dans &9#faits-d-armes&r et à ta connexion."
 				""
-				"Même commande : &e/trigger bmc4_rang&r."
+				"Même commande : &e/prestige acheter&r."
 				""
 				"&7Kit à chaque palier :&r un étendard de l'Infini, 16 × Fusée de feu d'artifice."
 			]

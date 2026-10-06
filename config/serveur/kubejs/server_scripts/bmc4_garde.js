@@ -427,7 +427,7 @@ ServerEvents.command(event => {
   if (requis > 0 && rang < requis && !estStaff(joueur)) {
     dire(server, joueur, '/' + commande, 'elle s\'obtient au rang ' + nomRang(requis)
       + ' (ton rang : ' + nomRang(rang) + ').',
-      'Voir ce qu\'il te manque : /trigger bmc4_rang set 2.')
+      'Voir ce qu\'il te manque : /prestige.')
     event.cancel()
   }
 

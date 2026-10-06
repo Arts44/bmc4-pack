@@ -26,7 +26,11 @@ vérifie :
      rejeter toute la fonction au chargement, « Only players may be affected
      by this command, but the provided selector includes entities » ; ces
      mods lisent le joueur en GameProfileArgument, qui n'exempte pas @s comme
-     le fait EntityArgument). Le sélecteur doit porter type=minecraft:player.
+     le fait EntityArgument). Le sélecteur doit porter type=minecraft:player ;
+  6. chaque fonction que les scripts KubeJS lancent (« function bmc4:… » dans
+     config/serveur/kubejs/server_scripts/*.js, à côté du dépôt) existe, et
+     compte comme appelée : /prestige lance devis, confirmer, g_liste…
+     (BMC-91, 6 octobre).
 
 Un outil autonome peut créer son propre objectif avant de s'en servir. Un
 défaut réel de la production, qu'on ne corrige pas sur place, se déclare dans
@@ -179,6 +183,25 @@ def controler(dp=DEFAUT):
             for sel in selecteurs_nus(l):
                 err.append(f"{f} ligne {n} : « {sel} » dans une commande de mod qui prend un joueur — "
                            "écrire @s[type=minecraft:player] (sinon la fonction entière est rejetée au chargement)")
+    # 6. fonctions lancées par KubeJS
+    scripts = os.path.normpath(os.path.join(os.path.dirname(dp), '..', 'serveur', 'kubejs', 'server_scripts'))
+    par_kubejs = set()
+    if os.path.isdir(scripts):
+        for nom in sorted(os.listdir(scripts)):
+            if not nom.endswith('.js'):
+                continue
+            texte = open(os.path.join(scripts, nom), encoding='utf-8').read()
+            # « function bmc4:rangs/g_manger » en entier, ou « function bmc4:rangs/ ' + nom » en morceaux
+            for m in re.finditer(r"function (bmc4:[a-z0-9_/]+)", texte):
+                f = m.group(1)
+                if f.endswith('/'):
+                    for mm in re.finditer(r"lancer\(ctx, '([a-z0-9_]+)'\)", texte):
+                        par_kubejs.add(f + mm.group(1))
+                else:
+                    par_kubejs.add(f)
+        for f in sorted(par_kubejs):
+            if f not in F:
+                err.append(f"KubeJS ({os.path.basename(scripts)}) lance « {f} », qui n'existe pas")
     # 4. orphelines
     ext = os.path.join(os.path.dirname(dp), 'appels-externes.toml')
     conf = tomllib.load(open(ext, 'rb')) if os.path.exists(ext) else {}
@@ -188,7 +211,7 @@ def controler(dp=DEFAUT):
             err.append(f"appels-externes.toml : « {f} » n'existe pas dans le datapack")
         elif not str(r).strip():
             err.append(f"appels-externes.toml : « {f} » sans raison")
-    appelees = depuis_tick | depuis_load | {a for f, t in F.items() for a in appels(t) if a != f}
+    appelees = depuis_tick | depuis_load | par_kubejs | {a for f, t in F.items() for a in appels(t) if a != f}
     for f, t in sorted(F.items()):
         if f in appelees or f in externes or re.search(r'(?m)^#\s*orpheline\s*:\s*\S', t):
             continue

@@ -18,10 +18,11 @@ Sources : `config/rangs/rangs.toml` (échelle, avantages, kits), datapack
 
 Tes niveaux d'XP qui dorment s'échangent contre un **rang**. Chaque rang **retire** des niveaux, s'affiche devant ton pseudo (chat, liste Tab, au-dessus de la tête) et donne du **confort et du prestige**. Jamais de force au combat, jamais de claims en plus.
 
-**Acheter** le rang suivant : `/trigger bmc4_rang`
-**Où j'en suis** : `/trigger bmc4_rang set 2`
+**Où j'en suis** : `/prestige` (ton rang, le suivant, son prix, ce qu'il te manque)
+**Acheter** le rang suivant : `/prestige acheter`, puis le bouton **[Confirmer l'achat]**, valable 30 secondes
+**L'échelle** : `/prestige liste`
 
-Les niveaux sont vérifiés puis retirés d'un seul coup. S'il en manque, **rien n'est retiré** et le message dit combien il en manque. Les rangs s'achètent dans l'ordre, chacun donne son **kit une seule fois**, à l'achat. Le rang est personnel : il ne se partage pas avec ta faction.
+Rien n'est acheté sans confirmation. À la confirmation, les niveaux sont vérifiés puis retirés d'un seul coup. S'il en manque, **rien n'est retiré** et le message dit combien il en manque. Les rangs s'achètent dans l'ordre, chacun donne son **kit une seule fois**, à l'achat. Le rang est personnel : il ne se partage pas avec ta faction.
 
 Le détail de chaque rang est dans le livre de quêtes, chapitre **Les rangs de prestige** (groupe Factions).
 
@@ -46,7 +47,7 @@ Le détail de chaque rang est dans le livre de quêtes, chapitre **Les rangs de 
 ♛ Absolu 7 500 (29 700) · ta statue dans l'Allée
 ∞ Infini I, II, III… · 10 000, puis 2 500 de plus à chaque palier
 
-**Auras** (Diamant) : `/trigger bmc4_aura set 1` à `6`, `set 10` pour couper. Le Divin a la `7`.
+**Auras** (Diamant) : `/prestige aura 1` à `6`, `/prestige aura couper` pour l'éteindre. Le Divin a la `7`.
 **`/home`** : `/sethome <nom>`, `/home <nom>`, `/delhome <nom>`, `/listhomes`.
 
 ## Message 3/3
