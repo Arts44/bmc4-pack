@@ -44,6 +44,7 @@ const ChunkPos = Java.loadClass('net.minecraft.world.level.ChunkPos')
 const TeamProperties = Java.loadClass('dev.ftb.mods.ftbteams.api.property.TeamProperties')
 const FTBEPlayerData = Java.loadClass('dev.ftb.mods.ftbessentials.util.FTBEPlayerData')
 const TPACommands = Java.loadClass('dev.ftb.mods.ftbessentials.command.TPACommands')
+const FTBTeamsAPI = Java.loadClass('dev.ftb.mods.ftbteams.api.FTBTeamsAPI')
 
 const COMBAT_MS = 15000
 
@@ -134,6 +135,77 @@ const ACCES = {
   // (m_82095_) : noms Mojang traduits par Rhino (mm.jsmappings), qu'aucun mixin
   // de KubeJS ne renomme. Renvoie l'arbre des commandes au client.
   renvoyerCommandes: (server, p) => server.getCommands().sendCommands(p),
+}
+
+// ------------------------------------------------------------
+//  Un pseudo connu du serveur, même hors ligne (/nickname)
+// ------------------------------------------------------------
+// MinecraftServer.getProfileCache() était en ÉCHEC dans /prestige diagnostic
+// le 6 octobre au soir. Cinq voies, essayées dans l'ordre ; chacune rend le
+// pseudo exact s'il est connu, null s'il ne l'est pas, et lève une erreur si
+// elle ne fonctionne pas sur ce serveur. /prestige diagnostic les affiche toutes.
+const VOIES_PROFIL = [
+  // 1. MinecraftServer.getProfileCache() (m_129927_) puis GameProfileCache.get(String)
+  //    (m_10996_) : noms Mojang traduits par la table de Rhino (mm.jsmappings).
+  { nom: 'getProfileCache()', essai: (server, nom) => {
+    let o = server.getProfileCache().get(nom)
+    return o != null && o.isPresent() ? String(o.get().getName()) : null
+  } },
+  // 2. La même chose en propriété : Rhino expose un getX() comme x, s'il le traduit.
+  { nom: 'server.profileCache', essai: (server, nom) => {
+    let o = server.profileCache.get(nom)
+    return o != null && o.isPresent() ? String(o.get().getName()) : null
+  } },
+  // 3. Les noms SRG bruts, ceux que portent réellement les méthodes au runtime
+  //    (javap du jar 1.20.1 : MinecraftServer.m_129927_(), GameProfileCache.m_10996_(String)).
+  { nom: 'm_129927_().m_10996_()', essai: (server, nom) => {
+    let o = server.m_129927_().m_10996_(nom)
+    return o != null && o.isPresent() ? String(o.get().getName()) : null
+  } },
+  // 4. usercache.json, à la racine du serveur, par JsonIO de KubeJS (liaison
+  //    BuiltinKubeJSPlugin.java:377). Un chemin texte devient un Path relatif au
+  //    dossier du jeu (BuiltinKubeJSPlugin.java:431, UtilsJS.java:224-231), refusé
+  //    seulement hors de ce dossier (KubeJS.java:190-196).
+  { nom: 'usercache.json (JsonIO)', essai: (server, nom) => {
+    let texte = JsonIO.readString('usercache.json')
+    if (texte == null) throw 'usercache.json illisible'
+    let liste = JSON.parse(String(texte))
+    let bas = String(nom).toLowerCase()
+    for (let i = 0; i < liste.length; i++) if (String(liste[i].name).toLowerCase() == bas) return String(liste[i].name)
+    return null
+  } },
+  // 5. FTB Teams 2001.3.2 (javap) : TeamManager.getKnownPlayerTeams() rend l'équipe
+  //    personnelle de chaque joueur connu, hors ligne compris ; son nom affiché
+  //    (TeamProperties.DISPLAY_NAME, un String) est celui du joueur.
+  { nom: 'FTB Teams getKnownPlayerTeams()', essai: (server, nom) => {
+    let bas = String(nom).toLowerCase()
+    let it = FTBTeamsAPI.api().getManager().getKnownPlayerTeams().values().iterator()
+    while (it.hasNext()) {
+      let n = String(it.next().getProperty(TeamProperties.DISPLAY_NAME))
+      if (n.toLowerCase() == bas) return n
+    }
+    return null
+  } },
+]
+
+// Le texte complet d'une erreur : la classe Java et son message s'il y en a une
+// (Rhino la range dans e.javaException, ScriptRuntime.newCatchScope), sinon
+// l'erreur JavaScript (TypeError…).
+function texteErreur(e) {
+  if (e != null && e.javaException != null) return String(e.javaException)
+  return String(e)
+}
+
+// La première voie qui fonctionne : { voie, pris } ; null si aucune ne fonctionne.
+function pseudoConnu(server, nom) {
+  for (let i = 0; i < VOIES_PROFIL.length; i++) {
+    try {
+      return { voie: VOIES_PROFIL[i].nom, pris: VOIES_PROFIL[i].essai(server, nom) }
+    } catch (e) {
+      journal('voie ' + VOIES_PROFIL[i].nom, texteErreur(e))
+    }
+  }
+  return null
 }
 
 // ------------------------------------------------------------
@@ -413,9 +485,15 @@ function garderNickname(server, joueur, args) {
   let enLigne = joueurNomme(server, nom)
   if (enLigne != null) pris = ACCES.nom(enLigne)
   else {
-    // MinecraftServer.getProfileCache() (m_129927_) : nom Mojang traduit par Rhino.
-    let trouve = server.getProfileCache().get(nom)
-    if (trouve != null && trouve.isPresent()) pris = String(trouve.get().getName())
+    // Hors ligne : la première des cinq voies qui fonctionne (VOIES_PROFIL).
+    // Si aucune ne fonctionne, on se rabat sur les joueurs en ligne seuls : seule
+    // exception au fail-closed (correctif d'Arthur, 6 octobre au soir), car
+    // /nickname ne touche ni aux raids ni aux téléportations et le règlement
+    // interdit déjà l'usurpation.
+    try {
+      let r = pseudoConnu(server, nom)
+      if (r != null) pris = r.pris
+    } catch (e) { pris = null }
   }
   if (pris != null && pris.toLowerCase() != ACCES.nom(joueur).toLowerCase()) {
     dire(server, ACCES.nom(joueur), '/nickname', '« ' + nom + ' » est le pseudo d\'un autre joueur.',
@@ -595,7 +673,22 @@ ServerEvents.commandRegistry(event => {
     essai('FTB Essentials : demandes TPA', () => TPACommands.REQUESTS.size() + ' en attente')
     essai('auteur d\'un coup (DamageSource.getActual())', () => suiviCoups.vus + ' coup(s) suivi(s), ' + suiviCoups.erreurs + ' erreur(s), dernier : ' + (suiviCoups.dernierAuteur || 'aucun encore'))
     essai('combat restant', () => (combatRestant(p) > 0 ? secondes(combatRestant(p)) + ' s' : 'hors combat'))
-    essai('cache des profils (getProfileCache)', () => server.getProfileCache().get(nom).isPresent())
+    // La voie retenue pour /nickname : la première qui fonctionne, essayée sur son propre pseudo.
+    essai('pseudo connu hors ligne (/nickname)', () => {
+      let r = pseudoConnu(server, nom)
+      if (r == null) throw 'aucune des ' + VOIES_PROFIL.length + ' voies ne fonctionne (repli : joueurs en ligne seuls)'
+      return 'voie « ' + r.voie + ' », ' + (r.pris == null ? 'pseudo introuvable' : 'trouvé : ' + r.pris)
+    })
+    // Les cinq voies, une ligne d'information chacune.
+    for (let i = 0; i < VOIES_PROFIL.length; i++) {
+      let v = VOIES_PROFIL[i]
+      let texte
+      try { let r = v.essai(server, nom); texte = 'fonctionne, ' + (r == null ? 'pseudo introuvable' : 'trouvé : ' + r) }
+      catch (e) { texte = 'ne fonctionne pas : ' + texteErreur(e) }
+      server.runCommandSilent('tellraw ' + nom + ' ' + JSON.stringify(['',
+        { text: 'INFO   ', color: 'aqua', bold: true }, { text: 'voie ' + (i + 1) + ' ' + v.nom + ' : ', color: 'gray' },
+        { text: texte, color: 'white' }]))
+    }
     essai('arbre des commandes renvoyé (sendCommands)', () => { ACCES.renvoyerCommandes(server, p); return 'envoyé' })
     return 1
   })))

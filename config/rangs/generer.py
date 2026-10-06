@@ -285,7 +285,7 @@ def datapack(d, rangs, base):
                   else f"le palier {r['nom']} dans ton préfixe, une annonce dans #faits-d-armes et à ta connexion")
         lignes.append(ligne_si(r['numero'], "tellraw @s " + j(
             t("Rang ", color="gold"), rang_txt(r), t(f" : {milliers(r['cout'])} niveaux.\n", color="gold"),
-            t("Il apporte : ", color="gray"), t(apport, color="white"),
+            t("Il apporte : ", color="gray"), t(apport.rstrip('.') + '.', color="white"),
             t("\nAprès l'achat, il te restera ", color="gray"), dict(score('bmc4_calc'), color="white"),
             t(" niveaux. ", color="gray"),
             bouton("[Confirmer l'achat]", "/prestige confirmer", "Retire les niveaux et donne le rang", "green"),

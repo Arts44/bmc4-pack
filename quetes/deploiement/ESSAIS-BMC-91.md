@@ -124,7 +124,18 @@ Ranks (`ftbranks remove <pseudo> rang_<n>` pour chaque n) et
       case actuelle (« aucun claim étranger ici », puis « claim de <faction> »),
       case d'une position, FTB Essentials (homes, /back, demandes TPA), auteur
       d'un coup (après un coup donné à une créature : « 1 coup(s) suivi(s),
-      0 erreur(s) »), combat restant, cache des profils, arbre des commandes.
+      0 erreur(s) »), combat restant, **pseudo connu hors ligne (/nickname)**
+      (« voie « … », trouvé : <ton pseudo> »), arbre des commandes.
+      Suivent cinq lignes **INFO**, une par voie essayée pour retrouver un
+      pseudo hors ligne : getProfileCache(), server.profileCache,
+      m_129927_().m_10996_(), usercache.json (JsonIO), FTB Teams
+      getKnownPlayerTeams(). Chacune dit « fonctionne » ou « ne fonctionne
+      pas : <classe Java : message> ». Ce ne sont pas des échecs : la ligne OK
+      ci-dessus dit laquelle est retenue. **Relever les textes des voies qui ne
+      fonctionnent pas** : ils iront dans la règle 8 du contrôle.
+- [ ] **`/nickname` d'un joueur hors ligne** : `/nickname <pseudo d'un joueur
+      déconnecté>` → ligne 26 du tableau. Si aucune voie ne fonctionne, le repli
+      ne vérifie que les joueurs en ligne (exception voulue au fail-closed).
       Un joueur sans op : « /prestige diagnostic refusé : réservé aux opérateurs. Pour ton rang : /prestige. »
 - [ ] **Le combat se voit** : frapper une créature → dans la barre d'action,
       « ⚔ En combat : 15 s », puis 14, 13… ; à 0, la barre se vide. `/home` pendant

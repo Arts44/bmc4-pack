@@ -294,3 +294,19 @@ change pas.
    Sinon, `ranks-sans-kubejs.snbt` à la place de `ranks.snbt`, `ftbranks reload` :
    `/home`, `/back`, `/tpa` fermés à tous, `/prestige` reste actif.
 
+### Le 6 octobre, 22 h 30 : `getProfileCache` en ÉCHEC
+
+`/prestige diagnostic` a tout donné en OK, sauf « cache des profils
+(getProfileCache) ». `/nickname` essaie désormais cinq voies dans l'ordre et
+garde la première qui fonctionne : `getProfileCache()`, `server.profileCache`,
+les noms SRG bruts `m_129927_().m_10996_()`, `usercache.json` lu par `JsonIO`
+(KubeJS autorise la lecture dans le dossier du jeu, `KubeJS.java:190-196`), et
+FTB Teams `getKnownPlayerTeams()`. Si aucune ne fonctionne, il ne vérifie que
+les joueurs en ligne (correctif d'Arthur, gardé). Le diagnostic teste la voie
+retenue (ligne OK/ÉCHEC) et affiche les cinq en INFO. Le devis de
+`/prestige acheter` finit maintenant par un point.
+
+Dépôt : `/bmc4-depot/bmc91-2026-10-06-nickname/` (`bmc4_garde.js`,
+`bmc4-fixes.zip`). Remplacer le script, extraire le datapack comme § 4,
+`reload` ou redémarrage, puis `/prestige diagnostic`.
+
