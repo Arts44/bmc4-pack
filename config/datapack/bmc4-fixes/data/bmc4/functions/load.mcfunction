@@ -17,3 +17,7 @@ team modify bmc4_dragons displayName "Dragons"
 
 # Le cœur perdu (BMC-90)
 function bmc4:coeur_init
+
+# L'arbitrage des raids : compteurs, équipe, numéros de joueur.
+# Toutes ses commandes sont sans effet si l'objet existe déjà.
+function bmc4:raid_init

@@ -6,11 +6,14 @@
 
 scoreboard players set @s bmc4_kit 1
 
+# Outils en pierre : de quoi tenir la première soirée,
+# pas de quoi sauter les premières heures de jeu.
 give @s minecraft:stone_pickaxe
 give @s minecraft:stone_axe
 give @s minecraft:stone_shovel
 give @s minecraft:stone_sword
 
+# Survie immédiate
 give @s minecraft:cooked_beef 32
 give @s minecraft:torch 64
 give @s minecraft:oak_planks 64

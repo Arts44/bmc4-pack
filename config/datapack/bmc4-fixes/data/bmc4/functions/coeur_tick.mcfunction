@@ -3,6 +3,14 @@
 # --- Migration (une fois par joueur) ---
 execute as @a[tag=!bmc4_hp_migre] run function bmc4:coeur_migration
 
+# --- La vie maximale : le score bmc4_pvmax fait foi (6 octobre) ---
+# La valeur de base retombe à 20 à chaque réapparition. On la repose
+# d'après le score dès que le joueur est vivant (@e[type=player] ignore
+# l'écran de mort). Premier passage : le score prend la valeur actuelle.
+execute as @e[type=minecraft:player] unless score @s bmc4_pvmax matches 1.. store result score @s bmc4_pvmax run attribute @s minecraft:generic.max_health base get
+execute as @e[type=minecraft:player] store result score @s bmc4_hp run attribute @s minecraft:generic.max_health base get
+execute as @e[type=minecraft:player] unless score @s bmc4_hp = @s bmc4_pvmax run function bmc4:coeur_fixer
+
 # --- Soins : un objet consommé = un cœur ---
 execute as @a[scores={bmc4_repas1=1..}] run function bmc4:coeur_soin
 scoreboard players reset @a[scores={bmc4_repas1=1..}] bmc4_repas1

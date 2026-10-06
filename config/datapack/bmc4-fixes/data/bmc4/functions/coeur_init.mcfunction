@@ -15,6 +15,10 @@
 # Vie maximale lue à l'instant (copie de travail)
 scoreboard objectives add bmc4_hp dummy
 
+# Vie maximale de référence, en PV (20 = dix cœurs). Contrairement à la
+# valeur de base de l'attribut, un score survit à la mort (6 octobre).
+scoreboard objectives add bmc4_pvmax dummy
+
 # Un compteur « objet consommé » par plat de la balise #farmersdelight:meals
 # (37 plats, lus dans l'index des jars le 5 octobre) et pour la Pierre de Soin.
 scoreboard objectives add bmc4_repas1 minecraft.used:delightful.cactus_chili

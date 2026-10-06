@@ -37,6 +37,7 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ICI)
 import controles  # noqa: E402
 import retroactivite  # noqa: E402
+import controle_datapack  # noqa: E402
 DONNEES = os.path.join(ICI, '..', 'donnees')
 LIVRE = os.path.join(ICI, '..', 'livre')            # livre complet
 LIVRE_LEGER = os.path.join(ICI, '..', 'livre-leger')  # sans l'Encyclopédie
@@ -791,6 +792,11 @@ def main(argv):
     if not cibles:
         controler_paliers(chapitres, verif)
         retroactivite.controler(chapitres, verif)
+        # Datapack bmc4-fixes (BMC-90, 6 octobre) : appels, tick, objectifs, orphelines.
+        graves, connus = controle_datapack.controler()
+        verif.erreurs.extend(f"datapack : {e}" for e in graves)
+        for e in connus:
+            print(f"datapack, défaut connu : {e}")
     tables_snbt = construire_tables(tables, verif)
     if verif.erreurs:
         print('\n'.join(verif.erreurs))

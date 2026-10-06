@@ -1,13 +1,15 @@
 # Prépare l'arbitrage des raids.
 #
-# Trois compteurs et une équipe :
-#   bmc4_raid   drapeau global, 1 pendant un créneau
-#   bmc4_morts  les morts de chaque joueur (deathCount)
+# Trois compteurs :
+#   bmc4_raid   drapeau global, 1 pendant un créneau de raid
+#   bmc4_morts  les morts de chaque joueur, remis à zéro
 #   bmc4_spec   décompte en ticks avant le retour en survie
 
 scoreboard objectives add bmc4_raid dummy
 scoreboard objectives add bmc4_morts deathCount
 scoreboard objectives add bmc4_spec dummy
+# Numéro de joueur, pour relier un spectateur à son ancre (6 octobre)
+scoreboard objectives add bmc4_id dummy
 
 scoreboard players add #etat bmc4_raid 0
 

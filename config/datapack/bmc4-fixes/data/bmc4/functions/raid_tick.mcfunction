@@ -22,6 +22,14 @@ execute as @a[scores={bmc4_morts=1..}] run scoreboard players set @s bmc4_morts 
 # --- Le décompte tourne ---
 execute as @a[scores={bmc4_spec=1..}] run scoreboard players remove @s bmc4_spec 1
 
-# --- Retour en survie ---
+# --- Le spectateur reste à son point de réapparition (6 octobre) ---
+# @e[type=player] ignore les joueurs encore sur l'écran de mort : l'ancre
+# se pose donc au premier tick après la réapparition, pas sur le lieu de
+# la mort.
+execute as @e[type=minecraft:player,scores={bmc4_spec=1..},tag=!bmc4_ancre] at @s run function bmc4:ancre_poser
+execute as @e[type=minecraft:marker,tag=bmc4_ancre] at @s run function bmc4:ancre_tenir
+
+# --- Retour en survie, sur place : c'est-à-dire sur l'ancre ---
+execute as @a[scores={bmc4_spec=0},tag=bmc4_ancre] run function bmc4:ancre_lever
 execute as @a[scores={bmc4_spec=0},gamemode=spectator] run gamemode survival @s
 execute as @a[scores={bmc4_spec=0}] run scoreboard players reset @s bmc4_spec

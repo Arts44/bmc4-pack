@@ -1,0 +1,56 @@
+# Fonctions de bmc4-fixes lancées de l'extérieur (BMC-90, 6 octobre 2026) —
+# lu par quetes/outils/controle_datapack.py.
+#
+# Le datapack du dépôt est une copie octet pour octet de celui du serveur
+# (/world/datapacks/bmc4-fixes) : les raisons vivent ici plutôt qu'en
+# commentaire dans les fonctions. Chaque raison vient de l'en-tête de la
+# fonction ou d'un appel trouvé dans le code du bot ; rien n'est supposé.
+
+[fonction]
+# Le bot (discord-factions, raids.js) les lance par RCON.
+"bmc4:raid_debut" = "ouverture du créneau : raids.js l'appelle par RCON après avoir rempli l'équipe bmc4_raid_actif"
+"bmc4:raid_fin" = "fermeture du créneau : raids.js (conclureRaid) l'appelle par RCON"
+
+# Le Marché Flottant (BMC-09), construit une fois à la console.
+"bmc4:marche/construire" = "construction du Marché Flottant (BMC-09), lancée une fois à la console"
+"bmc4:marche/pont" = "construction du Marché Flottant (BMC-09), lancée une fois à la console"
+"bmc4:marche/hub" = "Marché Flottant, version hub : construction lancée une fois à la console"
+"bmc4:marche/extension" = "Marché Flottant, extension : construction lancée une fois à la console"
+"bmc4:marche/etals" = "Marché Flottant, les quatre étals : construction lancée une fois à la console"
+"bmc4:marche/panneaux" = "Marché Flottant, la signalétique : construction lancée une fois à la console"
+"bmc4:marche/deco" = "Marché Flottant, passe déco : construction lancée une fois à la console"
+"bmc4:marche/correction" = "Marché Flottant, correction du 24 septembre : lancée une fois à la console"
+
+# Outils de diagnostic et de réparation, lancés à la console (d'après leur en-tête).
+"bmc4:anneau" = "diagnostic : anneau de sondes autour du joueur"
+"bmc4:arc" = "diagnostic : recherche de l'épée en Supremium dans toutes les dimensions"
+"bmc4:epee" = "diagnostic : recherche de l'épée en Supremium éveillé"
+"bmc4:pioche" = "diagnostic : objets au sol, recherche d'une pioche perdue"
+"bmc4:dragons" = "diagnostic : recensement des dragons par dimension et par race"
+"bmc4:mesdragons" = "diagnostic : recensement des dragons d'Arts_Vio"
+"bmc4:race" = "diagnostic : recherche de la clé NBT de la race d'un dragon"
+"bmc4:sonde_dragon" = "diagnostic : lecture des champs d'un dragon"
+"bmc4:verif_dragons" = "diagnostic : l'équipe des dragons est-elle en place"
+"bmc4:verif_trophee" = "diagnostic : qui détient les têtes-trophées"
+"bmc4:forteresse" = "diagnostic : localiser la forteresse la plus proche"
+"bmc4:inspect" = "diagnostic temporaire autour de la base des Farmer's (« à supprimer après diagnostic », dit l'en-tête)"
+"bmc4:ou" = "diagnostic : position d'Arts_Vio dans un score (crée lui-même bmc4_pos)"
+"bmc4:sol" = "diagnostic : identifier les blocs sombres autour du joueur"
+"bmc4:sonde" = "diagnostic : sonder la colonne au-dessus du joueur"
+"bmc4:zero" = "diagnostic : relief et waystone au point zéro"
+"bmc4:roses" = "réparation : retirer les roses de Wither autour de la base"
+"bmc4:souffle" = "réparation : dégâts du souffle du Wither Dragon"
+
+# Défauts réels de la production, relevés le 6 octobre et NON corrigés sur
+# place (consigne : ne rien corriger en production). Ils restent affichés.
+[[connu]]
+debut = "bmc4:animaux/joueur : objectif « bmc4_anim »"
+raison = "bmc4_anim n'est créé par aucune fonction : le repeuplement des animaux échoue, sauf si l'objectif a été créé un jour à la console (à vérifier : scoreboard objectives list)"
+
+[[connu]]
+debut = "bmc4:animaux/poser : objectif « bmc4_anim »"
+raison = "même défaut que animaux/joueur"
+
+[[connu]]
+debut = "bmc4:animaux/cycle : orpheline"
+raison = "la boucle se relance par schedule, mais rien ne la démarre (ni load, ni le bot) : à vérifier si elle tourne (schedule enregistré dans le monde)"
