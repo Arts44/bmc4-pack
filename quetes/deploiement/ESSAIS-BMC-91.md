@@ -197,7 +197,7 @@ claim, les nombres sont des exemples.
 | 32 | aura d'un rang trop bas (`/prestige aura 7` sans Divin) | Aura refusée : « Halo divin » s'obtient au rang ♛ Divin. Voir ce qu'il te manque : [Où j'en suis] |
 | 33 | aura inconnue (`/prestige aura 8`) | Aura inconnue. Les numéros vont de 1 à 7 (voir le chapitre Rangs du livre) ; /prestige aura couper la coupe. |
 | 34 | `!resurrection` sans compte lié | **Résurrection draconique refusée** : ton compte Discord n'est pas lié à ton compte Minecraft. Lie-le en jeu avec `/discord link`, puis relance. |
-| 35 | `!resurrection` sous Draconique | **Résurrection draconique refusée** : elle s'obtient au rang **✦ Draconique** (ton rang : ⬩ Fer). En jeu : `/trigger bmc4_rang set 2` pour voir ce qu'il te manque. |
+| 35 | `!resurrection` sous Draconique | **Résurrection draconique refusée** : elle s'obtient au rang **✦ Draconique** (ton rang : ⬩ Fer). En jeu : `/prestige` pour voir ce qu'il te manque. (Avec la branche `bmc91-prestige` du bot, pas encore fusionnée ; avant : « `/trigger bmc4_rang set 2` ».) |
 | 36 | `!resurrection` une deuxième fois la même semaine | **Résurrection draconique refusée** : déjà utilisée cette semaine. Prochaine disponible lundi 12 octobre à 00 h 00. |
 | 37 | `!resurrection` hors ligne | **Résurrection draconique refusée** : **X** n'est pas connecté. Le dragon revient à tes pieds : connecte-toi, puis relance. |
 | 38 | `!resurrection` pendant un raid | **Résurrection draconique refusée** : tu es engagé dans un raid. Relance après la fin du raid ; rien n'a été utilisé. |
