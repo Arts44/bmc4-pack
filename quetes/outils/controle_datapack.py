@@ -30,7 +30,17 @@ vérifie :
   6. chaque fonction que les scripts KubeJS lancent (« function bmc4:… » dans
      config/serveur/kubejs/server_scripts/*.js, à côté du dépôt) existe, et
      compte comme appelée : /prestige lance devis, confirmer, g_liste…
-     (BMC-91, 6 octobre).
+     (BMC-91, 6 octobre) ;
+  7. chaque rang que le datapack ajoute (« ftbranks add … <rang> ») existe dans
+     config/serveur/ftbranks/ranks.snbt et ranks-sans-kubejs.snbt, sans clé
+     « condition » (ou « default ») : FTB Ranks n'active un rang ajouté à la
+     main qu'avec la condition par défaut (RankImpl.java:32-35). Le 6 octobre,
+     « condition: "rank_added" » sans champ « rank » rendait les quinze rangs
+     inactifs : achetés, mais sans aucune permission ;
+  8. les scripts KubeJS n'emploient aucune des formes Java qui n'existent pas
+     au runtime sur ce serveur (FORMES_ABSENTES), relevées dans latest.log le
+     6 octobre : un mixin de KubeJS renomme la méthode (@RemapForJS), ou la
+     propriété n'est pas ce que l'on croit.
 
 Un outil autonome peut créer son propre objectif avant de s'en servir. Un
 défaut réel de la production, qu'on ne corrige pas sur place, se déclare dans
@@ -65,6 +75,18 @@ def selecteurs_nus(ligne):
         return []
     return [x.group(0) for x in RE_SELECTEUR.finditer(m.group(2))
             if not re.search(r'type=(minecraft:)?player\b', x.group(1) or '')]
+
+
+# Formes Java absentes au runtime (KubeJS 2001.6.5, Rhino 2001.2.3, Forge), et la
+# forme qui existe : seulement celles que latest.log a prouvées le 6 octobre
+# (« Cannot find function getEntity in object DamageSource », « … getUUID … »,
+# « Cannot call property dimension … it is "object" »). Source des remplaçantes :
+# les mixins de KubeJS (@RemapForJS), lus dans le jar.
+FORMES_ABSENTES = {
+    r'\.getUUID\(': "getUuid() (EntityMixin.java:79)",
+    r'getSource\(\)\.getEntity\(': "getSource().getActual() (DamageSourceMixin.java:24)",
+    r'\.dimension\(\)': "getDimensionKey() (LevelMixin.java:32) ; level.dimension est un ResourceLocation",
+}
 
 
 RE_APPEL = re.compile(r'(?:^|\s)function\s+(#?[a-z0-9_.\-]+:[a-z0-9_./\-]+)')
@@ -202,6 +224,43 @@ def controler(dp=DEFAUT):
         for f in sorted(par_kubejs):
             if f not in F:
                 err.append(f"KubeJS ({os.path.basename(scripts)}) lance « {f} », qui n'existe pas")
+    # 7. rangs ajoutés par le datapack : présents, et sans condition
+    ajoutes = set()
+    for f, t in F.items():
+        for l in lignes_actives(t):
+            m = re.search(r'\bftbranks\s+add\s+\S+\s+([a-z0-9_]+)', l)
+            if m:
+                ajoutes.add(m.group(1))
+    dossier_rangs = os.path.normpath(os.path.join(os.path.dirname(dp), '..', 'serveur', 'ftbranks'))
+    for fichier in ('ranks.snbt', 'ranks-sans-kubejs.snbt'):
+        chemin = os.path.join(dossier_rangs, fichier)
+        if not ajoutes:
+            break
+        if not os.path.exists(chemin):
+            err.append(f"le datapack ajoute des rangs FTB Ranks, mais {fichier} est absent")
+            continue
+        texte = open(chemin, encoding='utf-8').read()
+        blocs = dict(re.findall(r'^\t(\w+): \{\n(.*?)^\t\}', texte, re.M | re.S))
+        for r in sorted(ajoutes):
+            if r not in blocs:
+                err.append(f"{fichier} : le rang « {r} », ajouté par le datapack, n'existe pas")
+                continue
+            c = re.search(r'^\t\tcondition:\s*"?([a-z_]+)', blocs[r], re.M)
+            if c and c.group(1) != 'default':
+                err.append(f"{fichier} : le rang « {r} » porte « condition: {c.group(1)} » : ajouté par "
+                           "ftbranks add, il ne serait jamais actif (retirer la clé)")
+    # 8. formes Java absentes au runtime dans les scripts KubeJS
+    if os.path.isdir(scripts):
+        for nom in sorted(os.listdir(scripts)):
+            if not nom.endswith('.js'):
+                continue
+            for n, l in enumerate(open(os.path.join(scripts, nom), encoding='utf-8').read().split('\n'), 1):
+                if l.strip().startswith('//'):
+                    continue
+                code = l.split('//')[0]
+                for motif, forme in FORMES_ABSENTES.items():
+                    if re.search(motif, code):
+                        err.append(f"{nom} ligne {n} : forme absente au runtime ({motif}) — employer {forme}")
     # 4. orphelines
     ext = os.path.join(os.path.dirname(dp), 'appels-externes.toml')
     conf = tomllib.load(open(ext, 'rb')) if os.path.exists(ext) else {}

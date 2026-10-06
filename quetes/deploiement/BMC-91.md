@@ -252,3 +252,45 @@ chaque `/reload`, `Commands` est recréé, KubeJS réenregistre `/prestige`
 5. Essais : `ESSAIS-BMC-91.md`, section Datapack, de « Sans aucun rang » à
    « L'Infini », et lignes 42 à 47 du tableau.
 
+---
+
+## Correctifs du 6 octobre au soir, avant la réouverture du 7
+
+Les essais en jeu du 6 au soir ont montré quatre défauts.
+
+1. **`bmc4_garde.js` appelait des noms Java absents au runtime.** Ce n'est pas la
+   table de Rhino qui manque (`latest.log` : « Loading mappings for 1.20.1 …
+   Done ») : les mixins de KubeJS donnent leur propre nom à certaines méthodes
+   (`@RemapForJS`), et ce nom l'emporte. `getUUID()` est `getUuid()`,
+   `DamageSource.getEntity()` est `getActual()`, la clé de dimension est
+   `getDimensionKey()` (`level.dimension` est un `ResourceLocation`). Le script
+   est réécrit autour d'un objet `ACCES` (une forme justifiée par appel),
+   **fail-closed** (toute erreur refuse la commande gardée), et
+   `/prestige diagnostic` (op) essaie chaque appel. `bmc4_dragons.js` lit le NBT
+   par son texte SNBT. Règle 8 du contrôle : les formes prouvées absentes sont
+   refusées.
+2. **Les quinze rangs FTB Ranks ne s'activaient jamais** : `condition:
+   "rank_added"` veut dire « actif si un autre rang, nommé dans `rank`, est
+   ajouté » (`RankAddedCondition.java:12-27`) ; sans `rank`, jamais. Sans clé
+   `condition`, FTB Ranks pose la condition par défaut, active si ajouté
+   (`RankImpl.java:32-35`, `DefaultCondition.java:27-30`). `ftbranks add`, lui,
+   ajoute toujours (`PlayerRankData.java:39-46`). Générateur corrigé ; règle 7
+   du contrôle.
+3. **L'autocomplétion** : le datapack pose l'étiquette `bmc4_resync` à l'achat
+   et à la connexion ; `bmc4_garde.js` renvoie l'arbre des commandes
+   (`server.getCommands().sendCommands(joueur)`) dans la seconde.
+4. **Le compteur de combat** : « ⚔ En combat : 12 s » dans la barre d'action,
+   chaque seconde, effacé à 0.
+
+**Ce qui part** (`/bmc4-depot/bmc91-2026-10-06-correctifs/`) : les quatre scripts
+KubeJS, `bmc4-fixes.zip`, `ranks.snbt` et `ranks-sans-kubejs.snbt`. Le livre ne
+change pas.
+
+1. Scripts : remplacer les quatre dans `/kubejs/server_scripts/`.
+2. Rangs : remplacer `/world/serverconfig/ftbranks/ranks.snbt`, puis
+   `ftbranks reload`.
+3. Datapack : comme § 4.
+4. Redémarrer, puis **`/prestige diagnostic`** : toutes les lignes en OK.
+   Sinon, `ranks-sans-kubejs.snbt` à la place de `ranks.snbt`, `ftbranks reload` :
+   `/home`, `/back`, `/tpa` fermés à tous, `/prestige` reste actif.
+

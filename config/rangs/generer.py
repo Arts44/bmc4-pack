@@ -381,7 +381,12 @@ def snbt_ranks(d, rangs, base, sans_kubejs=False):
     lignes.append('\t\t"ftbessentials.home.max": 0')
     out += ["\tbmc4_joueur: {", *lignes, "\t}"]
     for r in rangs[:base]:
-        lignes = [f'\t\tname: "{r["affiche"]}"', f'\t\tpower: {10 * r["numero"]}', '\t\tcondition: "rank_added"']
+        # Pas de clé « condition » : FTB Ranks pose alors la condition par défaut,
+        # « actif si ajouté » (RankImpl.java:32-35, DefaultCondition.java:27-30).
+        # « rank_added » voulait dire autre chose : actif si un AUTRE rang, nommé
+        # dans le champ « rank », est ajouté (RankAddedCondition.java:12-27) ;
+        # sans ce champ, jamais actif — le défaut vu en jeu le 6 octobre.
+        lignes = [f'\t\tname: "{r["affiche"]}"', f'\t\tpower: {10 * r["numero"]}']
         for c, n in sorted(cmds.items()):
             if n == r['numero'] and n > 0 and ouvert(c, n):
                 lignes.append(f'\t\t"command.{c}": true')

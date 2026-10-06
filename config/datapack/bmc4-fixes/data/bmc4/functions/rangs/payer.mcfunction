@@ -47,6 +47,9 @@ scoreboard players add @s bmc4_rangs 1
 # Permissions (FTB Ranks), équipe du rang (sauf en plein raid : l'équipe du
 # raid reste prioritaire, tick la rendra à la fin), kit, message, annonce.
 function bmc4:rangs/g_ftbranks
+# Le client garde l'ancienne liste de commandes (/home en rouge) : KubeJS
+# (bmc4_garde.js) renvoie l'arbre aux joueurs portant cette étiquette.
+tag @s add bmc4_resync
 execute unless entity @s[team=bmc4_raid_actif] run function bmc4:rangs/g_equipe
 function bmc4:rangs/g_kit
 function bmc4:rangs/g_obtenu

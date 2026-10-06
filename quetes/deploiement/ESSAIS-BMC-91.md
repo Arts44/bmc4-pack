@@ -116,6 +116,28 @@ Ranks (`ftbranks remove <pseudo> rang_<n>` pour chaque n) et
 
 ### KubeJS : `bmc4_garde.js`
 
+- [ ] **D'abord, `/prestige diagnostic`** (op), debout hors claim puis dans un
+      claim d'une autre faction : **toutes les lignes en OK**. Une seule ligne
+      ÉCHEC, et les téléportations restent fermées (`ranks-sans-kubejs.snbt`).
+      Les lignes : getUsername(), getUuid(), isPlayer(), isOp(), équipe du raid,
+      score bmc4_rangs, getPlayers(), dimension, position, case FTB, claim de la
+      case actuelle (« aucun claim étranger ici », puis « claim de <faction> »),
+      case d'une position, FTB Essentials (homes, /back, demandes TPA), auteur
+      d'un coup (après un coup donné à une créature : « 1 coup(s) suivi(s),
+      0 erreur(s) »), combat restant, cache des profils, arbre des commandes.
+      Un joueur sans op : « /prestige diagnostic refusé : réservé aux opérateurs. Pour ton rang : /prestige. »
+- [ ] **Le combat se voit** : frapper une créature → dans la barre d'action,
+      « ⚔ En combat : 15 s », puis 14, 13… ; à 0, la barre se vide. `/home` pendant
+      ce temps → la ligne 3 du tableau.
+- [ ] **Fail-closed** : rien à provoquer en jeu ; si une vérification lève une
+      erreur, le joueur lit « /home refusé : la vérification de sécurité a échoué. Réessaie dans un instant ; si ça se répète, préviens le staff. »
+      et `logs/kubejs/server.log` porte une seule ligne « bmc4_garde : /home : … ».
+- [ ] **Autocomplétion après l'achat** : acheter le Fer ; dans la seconde,
+      `/home` n'est plus en rouge dans le chat et se complète, sans reconnexion.
+- [ ] **Les rangs s'activent** : après l'achat, `ftbranks list_ranks_of <joueur>`
+      montre « ⬩ Cuivre » (et pas seulement « Joueur ») ; aucun rang_1 à rang_15
+      ne porte de `condition` dans `/world/serverconfig/ftbranks/ranks.snbt`.
+
 - [ ] Un joueur sans rang tape `/home` → le message de rang (§ C), pas
       « Unknown or incomplete command ».
 - [ ] B au rang Fer, hors claim, hors combat : `/sethome base` → « Home set! »
@@ -210,6 +232,8 @@ claim, les nombres sont des exemples.
 | 45 | `/prestige acheter` sans assez de niveaux | (comme la ligne 30, sans bouton de confirmation) |
 | 46 | `/prestige truc` | /prestige refusé : « truc » n'existe pas. Essaie [/prestige] [/prestige acheter] [/prestige liste] |
 | 47 | `/trigger bmc4_rang set 7` | /trigger bmc4_rang refusé : cette valeur n'existe pas. Utilise plutôt /prestige. [Où j'en suis] |
+| 48 | une vérification lève une erreur (fail-closed) | /home refusé : la vérification de sécurité a échoué. Réessaie dans un instant ; si ça se répète, préviens le staff. |
+| 49 | `/prestige diagnostic` sans op | /prestige diagnostic refusé : réservé aux opérateurs. Pour ton rang : /prestige. |
 
 Les chiffres de Minecraft s'affichent sans espace des milliers (« 1588 ») : un
 score ne se met pas en forme dans `tellraw`. Les prix, écrits dans le texte,
