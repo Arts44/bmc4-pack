@@ -191,7 +191,7 @@ des joueurs à l'instant de la sauvegarde.
   l'aurait affiché deux fois, il n'est donc pas utilisé. Pendant un raid,
   l'équipe « En raid » remplace le préfixe partout, chat compris.
 - **Les messages de FTB Essentials qui restent en anglais** ne sont pas des
-  refus : « Home set! », « Home deleted! », « TPA request! [ Accept ✔ | Deny ❌ ] »,
+  refus : « Home set! », « Home deleted! », « TPA request! » (avec ses boutons « Accept ✔ » et « Deny ❌ »),
   « Request sent! », « Request denied! ». Leurs textes sont écrits en dur dans
   le jar (`Component.literal`), sans fichier de langue à traduire. Tous les
   refus passent par KubeJS, en français.
