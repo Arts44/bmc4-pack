@@ -59,7 +59,7 @@ Le détail de chaque rang est dans le livre de quêtes, chapitre **Les rangs de 
 • **pendant un raid**, pour les membres des deux factions engagées ;
 • **dans le claim d'une autre faction**. Ton claim, le Marché Flottant et la nature restent permis.
 
-**En combat et en raid, les autres téléportations aussi** : waystones (pierres, parchemins, plaques), sorts qui téléportent (Téléportation, Pas de sang, de givre, de foudre, Esquive, Portail, Rappel, Dimension de poche), fruit de chorus, portails de dimension. **Seule la perle de l'Ender reste permise.**
+**En combat et en raid, les autres téléportations aussi** : waystones (pierres, parchemins, plaques), sorts qui téléportent (Téléportation, Pas de sang, de givre, de foudre, Esquive, Portail, Rappel, Dimension de poche), fruit de chorus, portails vers le Twilight, l'Aether et les autres dimensions. **Restent permis : la perle de l'Ender, les portails du Nether et les ascenseurs.**
 
 On ne pose pas non plus de home dans le claim d'une autre faction, et ni `/home`, ni `/back`, ni `/tpa` ne t'y emmènent. Chaque refus dit pourquoi et quand réessayer.
 

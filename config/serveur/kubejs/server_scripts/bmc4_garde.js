@@ -580,6 +580,102 @@ global.bmc4GardeTeleport = (joueur, refus) => {
 }
 
 // ------------------------------------------------------------
+//  Les coffres des autres factions (BMC-94, décision 11 d'Arthur, 7 octobre).
+//
+//  Mesure du 7 octobre (world/ftbteams/party/*.snbt) : les deux factions sont
+//  en « ftbchunks:block_interact_mode: public » : n'importe qui ouvrait leurs
+//  coffres. FTB Chunks reste en « public », et la garde restreint : dans le
+//  claim d'une autre faction, un bloc à inventaire (un bloc qui porte une
+//  BlockEntity) ne s'ouvre plus, sauf pendant un raid, pour les membres des
+//  deux factions engagées. Restreindre ce que FTB Chunks autorise est sûr :
+//  on annule l'événement, quel que soit l'ordre des écouteurs.
+//
+//  Toujours utilisables, même avec une BlockEntity : portes, trappes,
+//  portillons, boutons, leviers, plaques de pression, et le tag de FTB Chunks
+//  ftbchunks:interact_whitelist (établi, cloche, waystones ; lu dans le jar
+//  2001.3.8). Les claims de l'équipe serveur ne sont pas concernés.
+//
+//  Engagée dans un raid = un membre de l'équipe propriétaire figure dans
+//  l'équipe vanilla bmc4_raid_actif, que le bot remplit avec les pseudos des
+//  deux factions, connectés ou non (raids.js, « team join »). Les pseudos des
+//  membres viennent de usercache.json (JsonIO, la voie de /nickname).
+//  Noms SRG publics, sans traduction Rhino (javap du jar srg 1.20.1) :
+//  MinecraftServer.m_129896_ getScoreboard, Scoreboard.m_83489_ getPlayerTeam,
+//  PlayerTeam.m_6809_ getPlayers.
+//  FAIL-CLOSED : une erreur refuse l'ouverture, avec un message.
+// ------------------------------------------------------------
+const TOUJOURS_OUVERTS = ['minecraft:doors', 'minecraft:trapdoors', 'minecraft:fence_gates',
+  'minecraft:buttons', 'minecraft:pressure_plates', 'ftbchunks:interact_whitelist']
+const dernierRefusCoffre = {}
+let pseudosParUuid = null
+let pseudosLus = 0
+
+function pseudoDeUuid(uuid) {
+  if (pseudosParUuid == null || Date.now() - pseudosLus > 60000) {
+    let liste = JSON.parse(String(JsonIO.readString('usercache.json')))
+    pseudosParUuid = {}
+    for (let i = 0; i < liste.length; i++) {
+      let u = String(liste[i].uuid).toLowerCase()
+      if (!(u in pseudosParUuid)) pseudosParUuid[u] = String(liste[i].name)
+    }
+    pseudosLus = Date.now()
+  }
+  return pseudosParUuid[String(uuid).toLowerCase()] || null
+}
+
+function equipeEngagee(server, equipe) {
+  let raid = server.m_129896_().m_83489_('bmc4_raid_actif')
+  if (raid == null) return false
+  let noms = raid.m_6809_()
+  let membres = equipe.getMembers().toArray()
+  for (let i = 0; i < membres.length; i++) {
+    let p = pseudoDeUuid(membres[i])
+    if (p != null && noms.contains(p)) return true
+  }
+  return false
+}
+
+// null si l'ouverture est permise, sinon le nom de la faction propriétaire.
+function coffreInterdit(server, joueur, bloc) {
+  if (bloc.getEntity() == null) return null
+  if (String(bloc.getId()) == 'minecraft:lever') return null
+  for (let i = 0; i < TOUJOURS_OUVERTS.length; i++) if (bloc.hasTag(TOUJOURS_OUVERTS[i])) return null
+  let cdp = new ChunkDimPos(bloc.getLevel().getDimensionKey(), new ChunkPos(bloc.getPos()))
+  let chunk = FTBChunksAPI.api().getManager().getChunk(cdp)
+  if (chunk == null) return null
+  let donnees = chunk.getTeamData()
+  let equipe = donnees.getTeam()
+  if (equipe.isServerTeam() || donnees.isTeamMember(ACCES.uuid(joueur))) return null
+  if (ACCES.enRaid(joueur) && equipeEngagee(server, equipe)) return null
+  return String(equipe.getProperty(TeamProperties.DISPLAY_NAME))
+}
+
+BlockEvents.rightClicked(event => {
+  let joueur = event.getPlayer()
+  if (joueur == null) return
+  let server = joueur.getServer()
+  let faction = null
+  try {
+    faction = coffreInterdit(server, joueur, event.getBlock())
+  } catch (e) {
+    journal('coffres', e)
+    faction = '?'
+  }
+  if (faction == null) return
+  event.cancel()
+  let cle = String(ACCES.uuid(joueur))
+  if (Date.now() - (dernierRefusCoffre[cle] || 0) < 1000) return
+  dernierRefusCoffre[cle] = Date.now()
+  try {
+    if (faction == '?') dire(server, ACCES.nom(joueur), 'Ouvrir ce bloc', 'la garde ne répond pas.', 'Préviens le staff.')
+    else dire(server, ACCES.nom(joueur), 'Ouvrir ce bloc', 'il est dans le claim de ' + faction + '.',
+      'Les coffres des autres factions ne s\'ouvrent que pendant un raid entre vos deux factions. Portes, boutons et leviers restent utilisables.')
+  } catch (e) {
+    journal('message des coffres', e)
+  }
+})
+
+// ------------------------------------------------------------
 //  Le combat : un coup pris d'une créature ou d'un joueur, ou donné.
 //  Jamais une exception qui remonte (le gestionnaire est appelé à
 //  chaque dégât du serveur, une erreur ici inonde le journal).
@@ -692,6 +788,18 @@ ServerEvents.commandRegistry(event => {
     essai('FTB Essentials : demandes TPA', () => TPACommands.REQUESTS.size() + ' en attente')
     essai('auteur d\'un coup (DamageSource.getActual())', () => suiviCoups.vus + ' coup(s) suivi(s), ' + suiviCoups.erreurs + ' erreur(s), dernier : ' + (suiviCoups.dernierAuteur || 'aucun encore'))
     essai('combat restant', () => (combatRestant(p) > 0 ? secondes(combatRestant(p)) + ' s' : 'hors combat'))
+    // BMC-94 : ce que le refus des mods, les coffres et le journal des ops supposent.
+    essai('mods du client (NetworkHooks, f_8906_.f_9742_)', () => {
+      if (typeof global.bmc4ModsDuClient !== 'function') throw 'bmc4_triche.js non chargé'
+      let m = global.bmc4ModsDuClient(p)
+      return m == null ? 'aucune donnée de connexion' : m.length + ' mod(s), dont minecraft : ' + (m.indexOf('minecraft') >= 0)
+    })
+    essai('équipe bmc4_raid_actif (m_129896_, m_83489_, m_6809_)', () => {
+      let t = server.m_129896_().m_83489_('bmc4_raid_actif')
+      return t == null ? 'équipe absente' : t.m_6809_().size() + ' pseudo(s)'
+    })
+    essai('usercache (pseudo de son UUID)', () => pseudoDeUuid(ACCES.uuid(p)) || 'absent')
+    essai('source de commande (m_6761_, m_81368_)', () => 'niveau 2 : ' + source.m_6761_(2) + ', nom : ' + source.m_81368_())
     // La voie retenue pour /nickname : la première qui fonctionne, essayée sur son propre pseudo.
     essai('pseudo connu hors ligne (/nickname)', () => {
       let r = pseudoConnu(server, nom)

@@ -68,12 +68,23 @@ téléportent plus, sauf à la **perle de l'Ender** (BMC-94, décision du
   sang, Pas de givre, Pas de foudre, Esquive, Portail, Rappel, Dimension
   de poche ;
 - le **fruit de chorus** ;
-- les **portails** vers une autre dimension _(à confirmer en jeu, et hors
-  portails du Nether pour l'instant)_.
+- les **portails** vers le Twilight Forest, l'Aether et les autres
+  dimensions _(à confirmer en jeu)_.
 
-Chaque refus dit pourquoi, et jusqu'à quelle heure. La même règle vaut
-pour tout le monde, raid ou non, pendant les **15 secondes** qui suivent
-un coup pris ou donné.
+Restent permis : la **perle de l'Ender**, les **portails du Nether** et
+les **ascenseurs** (décisions du 7 octobre). Chaque refus dit pourquoi,
+et jusqu'à quelle heure. La même règle vaut pour tout le monde, raid ou
+non, pendant les **15 secondes** qui suivent un coup pris ou donné.
+
+### Les coffres
+
+Hors raid, les **coffres et autres blocs à inventaire** (fours, barils,
+tonneaux, établis à inventaire, blocs de Create…) d'une autre faction
+**ne s'ouvrent pas**. Pendant le créneau, ceux des **deux factions
+engagées** s'ouvrent pour les membres de ces deux factions, et pour eux
+seuls. **Portes, trappes, portillons, boutons, leviers et plaques de
+pression** restent utilisables en tout temps. Casser un bloc dans un
+claim reste interdit, raid ou non.
 
 ## Ce que ça rapporte
 
