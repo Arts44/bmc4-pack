@@ -64,6 +64,7 @@ B dans le claim de F1 :
 | 26 | Établi, cloche, waystone | marche | marche |
 | 27 | Casser le coffre | refus (FTB Chunks, comme avant) | refus |
 | 28 | Un joueur C d'une **troisième** faction ou indépendant, pendant le raid | refus | **refus** |
+| 28b | Un **allié** de F1 (allié FTB Teams de l'équipe de F1, membre d'une autre faction) | **s'ouvre** | **s'ouvre** |
 
 Et A dans son propre claim : tout s'ouvre (contrôle).
 

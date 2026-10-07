@@ -594,14 +594,15 @@ global.bmc4GardeTeleport = (joueur, refus) => {
 //  portillons, boutons, leviers, plaques de pression, et le tag de FTB Chunks
 //  ftbchunks:interact_whitelist (établi, cloche, waystones ; lu dans le jar
 //  2001.3.8). Les claims de l'équipe serveur ne sont pas concernés.
+//  Les alliés de la faction propriétaire (FTB Teams) ouvrent ses blocs à
+//  inventaire, en raid ou non (décision d'Arthur, 7 octobre au soir).
 //
 //  Engagée dans un raid = un membre de l'équipe propriétaire figure dans
 //  l'équipe vanilla bmc4_raid_actif, que le bot remplit avec les pseudos des
 //  deux factions, connectés ou non (raids.js, « team join »). Les pseudos des
 //  membres viennent de usercache.json (JsonIO, la voie de /nickname).
-//  Noms SRG publics, sans traduction Rhino (javap du jar srg 1.20.1) :
-//  MinecraftServer.m_129896_ getScoreboard, Scoreboard.m_83489_ getPlayerTeam,
-//  PlayerTeam.m_6809_ getPlayers.
+//  getScoreboard().getPlayerTeam(nom).getPlayers() : noms Mojang, traduits par
+//  Rhino (mm.jsmappings) ; jamais les noms SRG bruts (règle 8 du contrôle).
 //  FAIL-CLOSED : une erreur refuse l'ouverture, avec un message.
 // ------------------------------------------------------------
 const TOUJOURS_OUVERTS = ['minecraft:doors', 'minecraft:trapdoors', 'minecraft:fence_gates',
@@ -624,9 +625,9 @@ function pseudoDeUuid(uuid) {
 }
 
 function equipeEngagee(server, equipe) {
-  let raid = server.m_129896_().m_83489_('bmc4_raid_actif')
+  let raid = server.getScoreboard().getPlayerTeam('bmc4_raid_actif')
   if (raid == null) return false
-  let noms = raid.m_6809_()
+  let noms = raid.getPlayers()
   let membres = equipe.getMembers().toArray()
   for (let i = 0; i < membres.length; i++) {
     let p = pseudoDeUuid(membres[i])
@@ -646,6 +647,10 @@ function coffreInterdit(server, joueur, bloc) {
   let donnees = chunk.getTeamData()
   let equipe = donnees.getTeam()
   if (equipe.isServerTeam() || donnees.isTeamMember(ACCES.uuid(joueur))) return null
+  // Les alliés (décision d'Arthur, 7 octobre au soir) : au sens de FTB Teams,
+  // Team.getRankForPlayer(UUID).isAllyOrBetter() (javap, ftb-teams 2001.3.2),
+  // en raid ou non.
+  if (equipe.getRankForPlayer(ACCES.uuid(joueur)).isAllyOrBetter()) return null
   if (ACCES.enRaid(joueur) && equipeEngagee(server, equipe)) return null
   return String(equipe.getProperty(TeamProperties.DISPLAY_NAME))
 }
@@ -789,17 +794,17 @@ ServerEvents.commandRegistry(event => {
     essai('auteur d\'un coup (DamageSource.getActual())', () => suiviCoups.vus + ' coup(s) suivi(s), ' + suiviCoups.erreurs + ' erreur(s), dernier : ' + (suiviCoups.dernierAuteur || 'aucun encore'))
     essai('combat restant', () => (combatRestant(p) > 0 ? secondes(combatRestant(p)) + ' s' : 'hors combat'))
     // BMC-94 : ce que le refus des mods, les coffres et le journal des ops supposent.
-    essai('mods du client (NetworkHooks, f_8906_.f_9742_)', () => {
+    essai('mods du client (NetworkHooks, connection.connection)', () => {
       if (typeof global.bmc4ModsDuClient !== 'function') throw 'bmc4_triche.js non chargé'
       let m = global.bmc4ModsDuClient(p)
       return m == null ? 'aucune donnée de connexion' : m.length + ' mod(s), dont minecraft : ' + (m.indexOf('minecraft') >= 0)
     })
-    essai('équipe bmc4_raid_actif (m_129896_, m_83489_, m_6809_)', () => {
-      let t = server.m_129896_().m_83489_('bmc4_raid_actif')
-      return t == null ? 'équipe absente' : t.m_6809_().size() + ' pseudo(s)'
+    essai('équipe bmc4_raid_actif (getScoreboard().getPlayerTeam().getPlayers())', () => {
+      let t = server.getScoreboard().getPlayerTeam('bmc4_raid_actif')
+      return t == null ? 'équipe absente' : t.getPlayers().size() + ' pseudo(s)'
     })
     essai('usercache (pseudo de son UUID)', () => pseudoDeUuid(ACCES.uuid(p)) || 'absent')
-    essai('source de commande (m_6761_, m_81368_)', () => 'niveau 2 : ' + source.m_6761_(2) + ', nom : ' + source.m_81368_())
+    essai('source de commande (hasPermission, getPlayer)', () => 'niveau 2 : ' + source.hasPermission(2) + ', joueur : ' + (source.getPlayer() != null))
     // La voie retenue pour /nickname : la première qui fonctionne, essayée sur son propre pseudo.
     essai('pseudo connu hors ligne (/nickname)', () => {
       let r = pseudoConnu(server, nom)

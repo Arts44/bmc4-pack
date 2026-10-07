@@ -22,17 +22,19 @@
 //     Le niveau, pas isOp() : c'est ce que le jeu vérifie pour une
 //     commande, et la règle 9 du contrôle garde isOp() pour les exemptions
 //     (il n'y en a aucune ici : on écrit, on ne laisse rien passer).
-//     Noms SRG publics de CommandSourceStack (javap du jar srg 1.20.1) :
-//     m_230896_ getPlayer (null si ce n'est pas un joueur), m_6761_
-//     hasPermission.
+//     CommandSourceStack.getPlayer() (null si ce n'est pas un joueur) et
+//     hasPermission(int) : noms Mojang, traduits par Rhino (mm.jsmappings).
+//     Les noms SRG bruts n'existent pas pour Rhino sur ce serveur : le
+//     7 octobre à 16 h 03, « Cannot find function m_230896_ » (règle 8).
 //
 //  2. LES MODS DE TRICHE. À la connexion, la liste des identifiants de mods
 //     que le client a déclarés (handshake FML) : Forge 47.4.20,
 //     NetworkHooks.getConnectionData(Connection).getModList(). La Connection
-//     du joueur : ServerPlayer.f_8906_ (connection) puis
-//     ServerGamePacketListenerImpl.f_9742_ (connection), rendu public par
-//     l'accesstransformer de Forge (« public …ServerGamePacketListenerImpl
-//     f_9742_ # connection »).
+//     du joueur : ServerPlayer.connection puis
+//     ServerGamePacketListenerImpl.connection, champ privé dans le jeu mais
+//     rendu public par l'accesstransformer de Forge (« public
+//     …ServerGamePacketListenerImpl … # connection ») ; noms Mojang, traduits
+//     par Rhino.
 //     REFUS : trois identifiants seulement, prouvés « triche seule » par le
 //     mods.toml de leur source (point d'étape BMC-94, 7 octobre). Le joueur
 //     est déconnecté avec le nom du mod et la marche à suivre ; le staff est
@@ -68,7 +70,7 @@ function bmc4Alerte(objet) {
 // La liste des identifiants de mods déclarés par le client, ou null.
 global.bmc4ModsDuClient = p => {
   let NetworkHooks = Java.loadClass('net.minecraftforge.network.NetworkHooks')
-  let donnees = NetworkHooks.getConnectionData(p.f_8906_.f_9742_)
+  let donnees = NetworkHooks.getConnectionData(p.connection.connection)
   if (donnees == null) return null
   let liste = donnees.getModList()
   let out = []
@@ -80,8 +82,8 @@ global.bmc4ModsDuClient = p => {
 ServerEvents.command(event => {
   try {
     let source = event.getParseResults().getContext().getSource()
-    let joueur = source.m_230896_()
-    if (joueur == null || !source.m_6761_(2)) return
+    let joueur = source.getPlayer()
+    if (joueur == null || !source.hasPermission(2)) return
     console.info('[bmc4-ops] ' + JSON.stringify({ qui: String(joueur.getUsername()), commande: String(event.getInput()), heure: Date.now() }))
   } catch (e) {
     bmc4TricheJournal('journal des ops', e)

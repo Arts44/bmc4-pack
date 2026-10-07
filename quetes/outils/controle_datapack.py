@@ -96,6 +96,9 @@ FORMES_ABSENTES = {
     r'getProfileCache\(': "usercache.json par JsonIO, ou FTB Teams getKnownPlayerTeams()",
     r'\.profileCache\b': "usercache.json par JsonIO, ou FTB Teams getKnownPlayerTeams()",
     r'm_129927_': "usercache.json par JsonIO, ou FTB Teams getKnownPlayerTeams()",
+    # Tout nom SRG brut : Rhino ne les traduit pas sur ce serveur (7 octobre, 16 h 03 :
+    # « Cannot find function m_230896_ in object …CommandSourceStack », bmc4_triche.js).
+    r'\b[mf]_\d+_\b': "le nom Mojang (getPlayer, hasPermission, connection…), que Rhino traduit",
 }
 
 

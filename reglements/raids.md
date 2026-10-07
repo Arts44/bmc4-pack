@@ -80,7 +80,8 @@ non, pendant les **15 secondes** qui suivent un coup pris ou donné.
 
 Hors raid, les **coffres et autres blocs à inventaire** (fours, barils,
 tonneaux, établis à inventaire, blocs de Create…) d'une autre faction
-**ne s'ouvrent pas**. Pendant le créneau, ceux des **deux factions
+**ne s'ouvrent pas**, sauf pour ses **alliés** (au sens des équipes
+FTB), en raid ou non. Pendant le créneau, ceux des **deux factions
 engagées** s'ouvrent pour les membres de ces deux factions, et pour eux
 seuls. **Portes, trappes, portillons, boutons, leviers et plaques de
 pression** restent utilisables en tout temps. Casser un bloc dans un

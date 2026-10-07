@@ -8,6 +8,7 @@
 #                                                           # dans /bmc4-depot/bmc91-<date>/ (rien de mis en place)
 #     sh quetes/deploiement/deposer.sh --lot <nom>           # un lot préparé, quetes/deploiement/<nom>/,
 #                                                           # dans /bmc4-depot/<nom>/ (rien de mis en place)
+#     sh quetes/deploiement/deposer.sh --maj <nom> <chemin>… # remplace ces fichiers dans un lot déjà déposé
 #
 # Ce que fait le script (mode livre), et rien d'autre :
 #   - dépose livre-complet-<date>.zip et livre-leger-<date>.zip (produits par
@@ -86,6 +87,46 @@ if [ "${1:-}" = "--essai" ]; then
     echo "essai : ÉCHEC (taille ${vu:-absente}, encore présent : ${encore:-non})" >&2
     exit 1
   fi
+  exit 0
+fi
+
+if [ "${1:-}" = "--maj" ]; then
+  # --maj <nom> <chemin>... : remplace des fichiers précis d'un lot DÉJÀ
+  # déposé dans /bmc4-depot/<nom>/, depuis quetes/deploiement/<nom>/<chemin>
+  # (BMC-94, 7 octobre au soir : garde.js corrigé, triche.js corrigé, SHA1SUMS).
+  # N'écrit que dans ce lot, ne supprime rien, puis compare les tailles.
+  nomlot=${2:?"--maj attend le nom du lot puis les chemins à remplacer"}
+  case "$nomlot" in */*|.*) echo "Nom de lot invalide : $nomlot" >&2; exit 1 ;; esac
+  shift 2
+  [ "$#" -gt 0 ] || { echo "--maj : aucun fichier donné" >&2; exit 1; }
+  src="quetes/deploiement/$nomlot"
+  cible="/bmc4-depot/$nomlot"
+  printf 'cd /bmc4-depot\nls -l\n' > "$lot"
+  lancer "$lot" > "$liste"
+  [ -n "$(taille_distante "$liste" "$nomlot")" ] || { echo "$cible n'existe pas : déposer d'abord le lot (--lot)." >&2; exit 1; }
+  for f in "$@"; do
+    case "$f" in /*|*..*) echo "Chemin invalide : $f" >&2; exit 1 ;; esac
+    [ -f "$src/$f" ] || { echo "Absent en local : $src/$f" >&2; exit 1; }
+  done
+  {
+    for f in "$@"; do
+      d=$(dirname "$f")
+      [ "$d" = "." ] || printf -- '-mkdir %s/%s\n' "$cible" "$d"
+      printf 'put %s/%s %s/%s\n' "$src" "$f" "$cible" "$f"
+    done
+  } > "$lot"
+  lancer "$lot" > /dev/null
+  ok=1
+  for f in "$@"; do
+    printf 'cd %s/%s\nls -l\n' "$cible" "$(dirname "$f")" > "$lot"
+    lancer "$lot" > "$liste"
+    s=$(taille_distante "$liste" "$(basename "$f")")
+    l=$(stat -f %z "$src/$f")
+    if [ "${s:-}" = "$l" ]; then etat=identique; else etat=DIFFÉRENT; ok=0; fi
+    printf '%-58s serveur %10s o   local %10s o   %s\n' "$f" "${s:-absent}" "$l" "$etat"
+  done
+  rm -f "$liste"
+  [ "$ok" = 1 ] && echo "Lot $cible mis à jour." || { echo "Mise à jour incomplète." >&2; exit 1; }
   exit 0
 fi
 
