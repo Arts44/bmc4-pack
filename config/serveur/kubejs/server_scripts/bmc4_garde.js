@@ -555,6 +555,31 @@ ServerEvents.command(event => {
 })
 
 // ------------------------------------------------------------
+//  Les téléportations sans commande (BMC-94, 7 octobre) : waystones,
+//  sorts d'Iron's Spells, fruit de chorus, portails. Les événements de
+//  Forge ne s'écoutent qu'en startup_scripts (bmc4_teleportations.js),
+//  qui appelle ici la même règle que pour /home : refusé pendant les
+//  15 s de combat et pendant un créneau de raid, avec le même message.
+//  Rend true quand c'est refusé (le message est déjà envoyé).
+//  FAIL-CLOSED : une erreur refuse, et le dit.
+// ------------------------------------------------------------
+global.bmc4GardeTeleport = (joueur, refus) => {
+  let server = null
+  try {
+    server = joueur.getServer()
+    return bloque(server, joueur, refus)
+  } catch (e) {
+    journal('téléportation (' + refus + ')', e)
+    try {
+      if (server != null) dire(server, ACCES.nom(joueur), refus, 'la garde ne répond pas.', 'Préviens le staff.')
+    } catch (e2) {
+      journal('message de refus', e2)
+    }
+    return true
+  }
+}
+
+// ------------------------------------------------------------
 //  Le combat : un coup pris d'une créature ou d'un joueur, ou donné.
 //  Jamais une exception qui remonte (le gestionnaire est appelé à
 //  chaque dégât du serveur, une erreur ici inonde le journal).

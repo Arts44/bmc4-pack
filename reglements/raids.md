@@ -56,6 +56,25 @@ minutes en spectateur. Un joueur étranger au raid ne risque rien.
   consommé**, jusqu'aux dix cœurs d'origine. Un steak, un pain ou une
   potion ne rendent rien.
 
+### Pas de fuite par téléportation
+
+Pendant le créneau, les **membres des deux factions engagées** ne se
+téléportent plus, sauf à la **perle de l'Ender** (BMC-94, décision du
+7 octobre) :
+
+- `/home`, `/back`, `/tpa`, `/tpahere`, `/tpaccept` ;
+- les **waystones** : pierres, parchemins, warp stone, plaques ;
+- les **sorts** d'Iron's Spells qui téléportent : Téléportation, Pas de
+  sang, Pas de givre, Pas de foudre, Esquive, Portail, Rappel, Dimension
+  de poche ;
+- le **fruit de chorus** ;
+- les **portails** vers une autre dimension _(à confirmer en jeu, et hors
+  portails du Nether pour l'instant)_.
+
+Chaque refus dit pourquoi, et jusqu'à quelle heure. La même règle vaut
+pour tout le monde, raid ou non, pendant les **15 secondes** qui suivent
+un coup pris ou donné.
+
 ## Ce que ça rapporte
 
 - le trophée adverse, qui revient chez lui après 24 h
