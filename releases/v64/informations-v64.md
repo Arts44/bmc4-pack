@@ -7,8 +7,7 @@ ligne qui change :
 devient
     **github.com/Arts44/bmc4-pack/releases/latest** — version actuelle : **v64**
 
-À décider par Arthur : « ~380 mods » (non modifié ici ; la v64 ajoute 5 mods
-et une bibliothèque, et retire XaeroPlus).
+« ~380 mods » reste tel quel (décision d'Arthur, 10 octobre).
 
 ---
 # 🔗 Tout ce qu'il faut sous la main

@@ -11,10 +11,11 @@
 #    ajouter      [{projectID, fileID, nom, url}]     entrées ajoutées (CurseForge)
 #    overrides_retirer   [chemin sous overrides/]
 #    overrides_ajouter   {chemin sous overrides/: fichier du dépôt}
+#    overrides_remplacer {chemin sous overrides/: fichier du dépôt}  (déjà présent)
 #  Le zip de base n'est jamais modifié. Le zip exporté est ensuite passé à
 #  migration/assembler.py, qui ajoute le script de migration (BMC-93).
 #  Refuse : une entrée à retirer absente, un projet ajouté déjà présent, un
-#  override à retirer absent ou à ajouter déjà présent.
+#  override à retirer ou à remplacer absent, ou à ajouter déjà présent.
 # ============================================================
 import html, json, os, re, sys, zipfile
 
@@ -41,6 +42,10 @@ def main(chg_chemin, base, sortie):
         for p in chg.get('overrides_ajouter', {}):
             if 'overrides/' + p in noms:
                 raise SystemExit(f"override à ajouter déjà présent : {p}")
+        remp = {'overrides/' + p: src for p, src in chg.get('overrides_remplacer', {}).items()}
+        for p in remp:
+            if p not in noms:
+                raise SystemExit(f"override à remplacer absent : {p}")
         ret = {r['projectID'] for r in chg.get('retirer', [])}
         manifest['files'] = [f for f in fichiers if f['projectID'] not in ret] + \
             [{'projectID': a['projectID'], 'fileID': a['fileID'], 'required': True, 'isLocked': False} for a in chg.get('ajouter', [])]
@@ -65,6 +70,8 @@ def main(chg_chemin, base, sortie):
                     out.writestr(info, json.dumps(manifest, indent=2, ensure_ascii=False))
                 elif info.filename == 'modlist.html':
                     out.writestr(info, '﻿' + '\n'.join(lignes))
+                elif info.filename in remp:
+                    out.writestr(info, open(os.path.join(racine, remp[info.filename]), 'rb').read())
                 else:
                     out.writestr(info, z.read(info))
             for p, src in chg.get('overrides_ajouter', {}).items():
@@ -73,7 +80,7 @@ def main(chg_chemin, base, sortie):
                 info.compress_type = zipfile.ZIP_DEFLATED
                 out.writestr(info, open(os.path.join(racine, src), 'rb').read())
     print(f"{sortie} : {chg['nom']}, {len(manifest['files'])} entrées de manifest "
-          f"(−{len(ret)}, +{len(chg.get('ajouter', []))}), overrides −{len(ot)} +{len(chg.get('overrides_ajouter', {}))}")
+          f"(−{len(ret)}, +{len(chg.get('ajouter', []))}), overrides −{len(ot)} +{len(chg.get('overrides_ajouter', {}))} ~{len(remp)}")
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:

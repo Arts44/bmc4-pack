@@ -128,3 +128,25 @@ lisible qu'avec l'API officielle et une clé ; l'API de projet du site répond
 10. **Distribution** : non établie pour les 10 nouveaux mods. L'import par l'app CurseForge télécharge tout ; vérifier par un import réel avant publication.
 11. **Crash Assistant** : `config/crash_assistant/modlist.json` des overrides est périmé depuis avant la v62 (364 entrées, XaeroPlus 2.31.5). On le laisse ?
 12. **Ordre de sortie** : serveur et release dans la même maintenance (JOS, Connectible Chains et Placebo rendent v62 et v64 incompatibles).
+
+## Décisions d'Arthur (10 octobre, soir) et ce qui en découle
+
+1. **Steve Goes Fishing** : abandonné pour la v64.
+2. **Voxy** : rien ; Farsight reste.
+3. **Studious Keybinds** (StudiousGoose, CurseForge 1731572/9107028, client) : intégré.
+   - Aucune touche par défaut : le jar n'enregistre aucun `KeyMapping`. Il ajoute un bouton « Keyboard » à l'écran Contrôles (`ControlsScreenMixin`, son seul mixin) ; la liste vanilla « Assignation des touches… » reste.
+   - Il modifie les touches par les méthodes vanilla (`setKeyModifierAndCode`, `setToDefault`) et les enregistre dans `options.txt` par `Options.save` : même format, donc ni le script de migration ni ConfiguredDefaults ne sont touchés. Sa seule écriture propre est `config/studiouskeybinds.properties` (disposition 60/75/100 %), hors du filtre du script de migration.
+   - modId `studiouskeybinds` : absent de `BMC4_MODS_REFUSES` et `BMC4_MODS_ALERTE`.
+   - `clientSideOnly=true`, `displayTest="IGNORE_ALL_VERSION"` : pas sur le serveur.
+   - Bêta, licence « Unspecified » : l'étape 21 de `MAINTENANCE-v64.md` le retire si l'import CurseForge le refuse ou le passe en manuel.
+4. **Leawind** : configuration par défaut du mod, aide à la visée comprise. Aucune configuration livrée.
+5. **Do a Barrel Roll** : intégré ; essai avec Elytra Slot pendant la maintenance.
+6. **Connectible Chains** : intégré ; le serveur n'ouvre qu'après l'essai de dupe (`MAINTENANCE-v64.md`, essai 2 : issues #78 et #86 rejouées).
+7. **#mods**
+   - Maps 3D refusé : message prêt dans `releases/v64/mods-refus-maps3d.md`. Sa configuration (grille, hauteur, placement) n'a aucune option sur les joueurs.
+   - Kaleidoscope Tavern : **aucune option de configuration** ne coupe les effets (sa `GeneralConfig` ne règle que la cuve, le robinet de lave et la pose des bouteilles). Les effets sont des données de datapack, donc le datapack serveur `config/datapack/bmc4-taverne/` les remplace : Emerald (Long Reach), Brass Heart et Depth Charge (Ardent Heat), Godfather (Zenith) donnent « Slightly Tipsy » 30 s. Les cocktails ne font que fusionner les effets de leurs ingrédients, ils n'en héritent donc plus. Non essayé en jeu.
+   - Le reste attend la revue de 20 h 30.
+8. **Touches** : validées. Le changelog dit aux joueurs qui migrent où remettre FTB Chunks / Open Map sur ù et Chat vocal / Couper le microphone sur ². Le menu s'appelle **Options → Contrôles… → Assignation des touches…** en français (lang vanilla `fr_fr`), pas « Commandes ». FTB Chunks n'a pas de traduction française : ses libellés restent en anglais.
+9. **#informations** : « ~380 mods » gardé.
+10. **Crash Assistant** : `config/crash_assistant/modlist.json` regénéré pour la v64 par `releases/liste-crash-assistant.py` (une version sans B, une avec B), et remplacé dans le zip par `overrides_remplacer` (nouveau dans `construire.py`). Le script de migration ne recopie pas ce fichier.
+11. **Ordre** : serveur et release dans la même maintenance (`quetes/deploiement/MAINTENANCE-v64.md`). Branche v64 poussée, aucune release créée.

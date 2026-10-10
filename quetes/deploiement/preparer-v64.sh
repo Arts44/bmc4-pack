@@ -10,6 +10,8 @@
 #                            serveur), d'après releases/v64/changements.json
 #     mods-si-b-valides/     les mods de #mods (revue du 11 octobre), à ne
 #                            mettre en place que s'ils sont validés
+#     datapack-si-b-valides/bmc4-taverne/   coupe trois effets de Kaleidoscope
+#                            Tavern (config/datapack/bmc4-taverne/README.md)
 #     A-RETIRER.txt          ce qui part du serveur (XaeroPlus, inactif)
 #     MISE-EN-PLACE.md, SHA1SUMS
 # Les jars viennent de quetes/deploiement/jars-v64/ (*.jar ignoré par git) ;
@@ -40,6 +42,8 @@ for m in tous:
     shutil.copyfile(src, f"{D}/{dossier}/{m['jar'].replace(' ', '-')}")
     print(f"  {dossier}/{m['jar'].replace(' ', '-')}  ({m['nom']}, CurseForge {m['projectID']}/{m['fileID']})")
 PY
+mkdir -p "$D/datapack-si-b-valides"
+cp -R config/datapack/bmc4-taverne "$D/datapack-si-b-valides/"
 cat > "$D/A-RETIRER.txt" <<'TXT'
 À retirer du serveur pour la v64 (BMC-95 : XaeroPlus quitte le pack).
 Aucun de ces fichiers n'est chargé par le serveur (XaeroPlus est un mod client,

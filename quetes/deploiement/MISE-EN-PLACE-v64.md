@@ -25,13 +25,14 @@ release dans la même maintenance.
 | `mods/Placebo-1.20.1-8.6.3.jar` | `/mods/` (dépendance de FastFurnace) |
 | `mods/Connectible-Chains-forge-1.20.1-1.1.1.jar` | `/mods/` |
 | `mods-si-b-valides/*.jar` | `/mods/` — **seulement** si la revue de #mods les valide (Kaleidoscope Tavern, Kaleidoscope Cookery, Kaleidoscope Immersive Eating, Create: Steam 'n' Rails), et seulement avec la release « avec B » |
+| `datapack-si-b-valides/bmc4-taverne/` | `/world/datapacks/` — **seulement** avec Kaleidoscope Tavern : coupe l'allonge, le minage 3×3 et la téléportation (`config/datapack/bmc4-taverne/README.md`) |
 
 Aucun jar existant n'est remplacé : il n'y a rien à sauvegarder dans `/mods`.
 Puis le rangement de `A-RETIRER.txt` (XaeroPlus, inactif sur le serveur) :
 déplacer, ne pas supprimer, vers `/bmc4-depot/sauvegarde-v64/`.
 
-Les mods client seul de la v64 (Do a Barrel Roll, Leawind's Third Person) ne
-vont **pas** sur le serveur. Do a Barrel Roll accepte un serveur sans lui
+Les mods client seul de la v64 (Do a Barrel Roll, Leawind's Third Person,
+Studious Keybinds) ne vont **pas** sur le serveur. Do a Barrel Roll accepte un serveur sans lui
 (prédicats de canal réseau toujours vrais, lus dans le jar) ; sans lui,
 l'accélération en élytre reste refusée aux clients.
 
@@ -42,8 +43,12 @@ l'accélération en élytre reste refusée aux clients.
 2. KubeJS : `bmc4_triche.js` toujours chargé (aucun de ces modIds n'est dans
    `BMC4_MODS_REFUSES` ni `BMC4_MODS_ALERTE`).
 3. Un client v64 se connecte ; un client v62 est refusé avec la liste des mods.
+4. Si B : `datapack list` montre `[file/bmc4-taverne]` parmi les packs activés.
+
+L'ordre complet de la maintenance, essais en jeu compris, est dans
+`MAINTENANCE-v64.md`.
 
 ## Retour arrière
 
-Retirer les jars ajoutés de `/mods`, remettre le snapshot si besoin, et
+Retirer les jars ajoutés de `/mods` (et `bmc4-taverne` de `/world/datapacks`), remettre le snapshot si besoin, et
 republier la v62 comme dernière release.

@@ -69,6 +69,16 @@
       "cote": "client",
       "jar": "leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar",
       "sha1": "acd53eaae56f6bc0b3b60b9cda1f37dcc71ec9d3"
+    },
+    {
+      "projectID": 1731572,
+      "fileID": 9107028,
+      "nom": "Studious Keybinds",
+      "auteur": "StudiousGoose",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/studious-keybinds",
+      "cote": "client",
+      "jar": "studious-keybinds-forge-1.20.1-1.0.10-beta.1.jar",
+      "sha1": "eaf3b7a9e6d133cdfa180ae66f25fcc092ad4d2c"
     }
   ],
   "overrides_retirer": [
@@ -76,5 +86,8 @@
   ],
   "overrides_ajouter": {
     "configureddefaults/options.txt": "releases/v64/configureddefaults/options.txt"
+  },
+  "overrides_remplacer": {
+    "config/crash_assistant/modlist.json": "releases/v64/crash_assistant/modlist.json"
   }
 }
