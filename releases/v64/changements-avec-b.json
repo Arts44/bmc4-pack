@@ -1,0 +1,120 @@
+{
+  "version": "v64",
+  "nom": "BMC4 v64",
+  "retirer": [
+    {
+      "projectID": 866084,
+      "nom": "XaeroPlus",
+      "raison": "BMC-95 : retiré du pack"
+    }
+  ],
+  "ajouter": [
+    {
+      "projectID": 896219,
+      "fileID": 4693390,
+      "nom": "Just Outdoor Stuffs",
+      "auteur": "Hyenify",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-outdoor-stuffs",
+      "cote": "les deux",
+      "jar": "JustOutdoorStuffs-1.20.1-forge-v1.0.2.jar",
+      "sha1": "e628b555ed05a71dc92ec6e24056661188f89cfa"
+    },
+    {
+      "projectID": 299540,
+      "fileID": 5181098,
+      "nom": "FastFurnace",
+      "auteur": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace",
+      "cote": "les deux",
+      "jar": "FastFurnace-1.20.1-8.0.2.jar",
+      "sha1": "b144b8599acd3fac3f8f9d31fa217a4a5b942f61"
+    },
+    {
+      "projectID": 283644,
+      "fileID": 6274231,
+      "nom": "Placebo",
+      "auteur": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/placebo",
+      "cote": "les deux",
+      "jar": "Placebo-1.20.1-8.6.3.jar",
+      "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+      "raison": "dépendance de FastFurnace"
+    },
+    {
+      "projectID": 418514,
+      "fileID": 6142294,
+      "nom": "Connectible Chains [FORGE]",
+      "auteur": "Mysticpasta1",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/connectible-chains-forge",
+      "cote": "les deux",
+      "jar": "Connectible Chains-forge-1.20.1-1.1.1.jar",
+      "sha1": "c2d46c7d488623a65df0225459231d0b0102c0f9"
+    },
+    {
+      "projectID": 663658,
+      "fileID": 5326142,
+      "nom": "Do a Barrel Roll",
+      "auteur": "enjarai",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/do-a-barrel-roll",
+      "cote": "client",
+      "jar": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+      "sha1": "08b58bfbdf20660bdc5a0c4a0b088f7d89f40a38"
+    },
+    {
+      "projectID": 930880,
+      "fileID": 5961735,
+      "nom": "Leawind's Third Person",
+      "auteur": "Leawind",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/leawind-third-person",
+      "cote": "client",
+      "jar": "leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar",
+      "sha1": "acd53eaae56f6bc0b3b60b9cda1f37dcc71ec9d3"
+    },
+    {
+      "projectID": 1475175,
+      "fileID": 8350841,
+      "nom": "Kaleidoscope Tavern",
+      "auteur": "TartaricAcid",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kaleidoscope-tavern",
+      "cote": "les deux",
+      "jar": "kaleidoscopetavern-1.2.0-forge+mc1.20.1.jar",
+      "sha1": "2e8f6370fb4acae9796705b6e84716c4a398b9c5"
+    },
+    {
+      "projectID": 1309203,
+      "fileID": 9019240,
+      "nom": "Kaleidoscope Cookery",
+      "auteur": "YSBB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kaleidoscope-cookery",
+      "cote": "les deux",
+      "jar": "kaleidoscopecookery-1.6.0-forge+mc1.20.1.jar",
+      "sha1": "e44b450aa485b1474eaf13981790e2d80c7c72b6"
+    },
+    {
+      "projectID": 1659858,
+      "fileID": 9068150,
+      "nom": "Kaleidoscope: Immersive Eating",
+      "auteur": "MemoryToame",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kaleidoscope-immersive-eating",
+      "cote": "les deux",
+      "jar": "kaleidoscope_immersiveEating-forge1.20.1-1.5.0.jar",
+      "sha1": "74d81fede4223c5090f4f8f3806468585ca099cf"
+    },
+    {
+      "projectID": 688231,
+      "fileID": 8745475,
+      "nom": "Create: Steam 'n' Rails",
+      "auteur": "IThundxr",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails",
+      "cote": "les deux",
+      "jar": "Steam_Rails-1.7.3+forge-mc1.20.1.jar",
+      "sha1": "5f904126d942cdbd272a5254ec6145851e5e1e7a"
+    }
+  ],
+  "overrides_retirer": [
+    "config/xaeroplus.txt"
+  ],
+  "overrides_ajouter": {
+    "configureddefaults/options.txt": "releases/v64/configureddefaults/options-avec-b.txt"
+  }
+}

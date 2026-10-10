@@ -6,6 +6,9 @@
 #     sh quetes/deploiement/deposer.sh --essai        # essai à blanc : un petit fichier texte, déposé, vu, supprimé
 #     sh quetes/deploiement/deposer.sh --bmc91 [AAAA-MM-JJ]  # BMC-91 : jars, scripts, configs, datapack
 #                                                           # dans /bmc4-depot/bmc91-<date>/ (rien de mis en place)
+#     sh quetes/deploiement/deposer.sh --lot <nom>           # un lot préparé, quetes/deploiement/<nom>/,
+#                                                           # dans /bmc4-depot/<nom>/ (rien de mis en place)
+#     sh quetes/deploiement/deposer.sh --maj <nom> <chemin>… # remplace ces fichiers dans un lot déjà déposé
 #
 # Ce que fait le script (mode livre), et rien d'autre :
 #   - dépose livre-complet-<date>.zip et livre-leger-<date>.zip (produits par
@@ -87,19 +90,67 @@ if [ "${1:-}" = "--essai" ]; then
   exit 0
 fi
 
-if [ "${1:-}" = "--bmc91" ]; then
-  # BMC-91 : le dossier de preparer-bmc91.sh, déposé tel quel dans
-  # /bmc4-depot/bmc91-<date>/. Rien n'est mis en place ici : les déplacements
-  # vers /mods, /kubejs, /world/... se font ensuite avec les outils
-  # MineStrator (BMC-91.md, étapes 2 à 4). Refuse si le dossier existe déjà.
-  date=${2:-$(date +%Y-%m-%d)}
-  src="quetes/deploiement/bmc91-$date"
-  [ -d "$src" ] || { echo "Dossier absent : $src (lancer d'abord preparer-bmc91.sh)" >&2; exit 1; }
-  cible="/bmc4-depot/bmc91-$date"
+if [ "${1:-}" = "--maj" ]; then
+  # --maj <nom> <chemin>... : remplace des fichiers précis d'un lot DÉJÀ
+  # déposé dans /bmc4-depot/<nom>/, depuis quetes/deploiement/<nom>/<chemin>
+  # (BMC-94, 7 octobre au soir : garde.js corrigé, triche.js corrigé, SHA1SUMS).
+  # N'écrit que dans ce lot, ne supprime rien, puis compare les tailles.
+  nomlot=${2:?"--maj attend le nom du lot puis les chemins à remplacer"}
+  case "$nomlot" in */*|.*) echo "Nom de lot invalide : $nomlot" >&2; exit 1 ;; esac
+  shift 2
+  [ "$#" -gt 0 ] || { echo "--maj : aucun fichier donné" >&2; exit 1; }
+  src="quetes/deploiement/$nomlot"
+  cible="/bmc4-depot/$nomlot"
+  printf 'cd /bmc4-depot\nls -l\n' > "$lot"
+  lancer "$lot" > "$liste"
+  [ -n "$(taille_distante "$liste" "$nomlot")" ] || { echo "$cible n'existe pas : déposer d'abord le lot (--lot)." >&2; exit 1; }
+  for f in "$@"; do
+    case "$f" in /*|*..*) echo "Chemin invalide : $f" >&2; exit 1 ;; esac
+    [ -f "$src/$f" ] || { echo "Absent en local : $src/$f" >&2; exit 1; }
+  done
+  {
+    for f in "$@"; do
+      d=$(dirname "$f")
+      [ "$d" = "." ] || printf -- '-mkdir %s/%s\n' "$cible" "$d"
+      printf 'put %s/%s %s/%s\n' "$src" "$f" "$cible" "$f"
+    done
+  } > "$lot"
+  lancer "$lot" > /dev/null
+  ok=1
+  for f in "$@"; do
+    printf 'cd %s/%s\nls -l\n' "$cible" "$(dirname "$f")" > "$lot"
+    lancer "$lot" > "$liste"
+    s=$(taille_distante "$liste" "$(basename "$f")")
+    l=$(stat -f %z "$src/$f")
+    if [ "${s:-}" = "$l" ]; then etat=identique; else etat=DIFFÉRENT; ok=0; fi
+    printf '%-58s serveur %10s o   local %10s o   %s\n' "$f" "${s:-absent}" "$l" "$etat"
+  done
+  rm -f "$liste"
+  [ "$ok" = 1 ] && echo "Lot $cible mis à jour." || { echo "Mise à jour incomplète." >&2; exit 1; }
+  exit 0
+fi
+
+if [ "${1:-}" = "--bmc91" ] || [ "${1:-}" = "--lot" ]; then
+  # --bmc91 [date] : le dossier de preparer-bmc91.sh, bmc91-<date>.
+  # --lot <nom>    : n'importe quel dossier quetes/deploiement/<nom>/ préparé
+  #                  par un preparer-*.sh (BMC-94 : bmc94-<date>).
+  # Déposé tel quel dans /bmc4-depot/<nom>/. Rien n'est mis en place ici : les
+  # déplacements vers /mods, /kubejs, /world/... se font ensuite avec les
+  # outils MineStrator (voir le MISE-EN-PLACE du lot). Refuse si le dossier
+  # existe déjà.
+  if [ "$1" = "--lot" ]; then
+    nomlot=${2:?"--lot attend le nom d’un dossier de quetes/deploiement/"}
+    case "$nomlot" in */*|.*) echo "Nom de lot invalide : $nomlot" >&2; exit 1 ;; esac
+  else
+    nomlot="bmc91-${2:-$(date +%Y-%m-%d)}"
+  fi
+  src="quetes/deploiement/$nomlot"
+  [ -d "$src" ] || { echo "Dossier absent : $src (lancer d'abord le preparer-*.sh du lot)" >&2; exit 1; }
+  cible="/bmc4-depot/$nomlot"
   # « cd » puis « ls -l » : les noms sortent nus, comme dans le mode livre.
   printf -- '-mkdir /bmc4-depot\ncd /bmc4-depot\nls -l\n' > "$lot"
   lancer "$lot" > "$liste"
-  if [ -n "$(taille_distante "$liste" "bmc91-$date")" ]; then
+  if [ -n "$(taille_distante "$liste" "$nomlot")" ]; then
     echo "$cible existe déjà : rien n'est déposé." >&2
     exit 1
   fi
@@ -119,7 +170,7 @@ if [ "${1:-}" = "--bmc91" ]; then
     printf '%-58s serveur %10s o   local %10s o   %s\n' "$f" "${s:-absent}" "$l" "$etat"
   done
   rm -f "$liste"
-  [ "$ok" = 1 ] && echo "Dépôt vérifié dans $cible. Suite : BMC-91.md, étapes 2 à 4." || { echo "Dépôt incomplet." >&2; exit 1; }
+  [ "$ok" = 1 ] && echo "Dépôt vérifié dans $cible. Suite : la mise en place du lot (MISE-EN-PLACE.md ou BMC-91.md)." || { echo "Dépôt incomplet." >&2; exit 1; }
   exit 0
 fi
 

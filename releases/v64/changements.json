@@ -1,0 +1,80 @@
+{
+  "version": "v64",
+  "nom": "BMC4 v64",
+  "retirer": [
+    {
+      "projectID": 866084,
+      "nom": "XaeroPlus",
+      "raison": "BMC-95 : retiré du pack"
+    }
+  ],
+  "ajouter": [
+    {
+      "projectID": 896219,
+      "fileID": 4693390,
+      "nom": "Just Outdoor Stuffs",
+      "auteur": "Hyenify",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-outdoor-stuffs",
+      "cote": "les deux",
+      "jar": "JustOutdoorStuffs-1.20.1-forge-v1.0.2.jar",
+      "sha1": "e628b555ed05a71dc92ec6e24056661188f89cfa"
+    },
+    {
+      "projectID": 299540,
+      "fileID": 5181098,
+      "nom": "FastFurnace",
+      "auteur": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace",
+      "cote": "les deux",
+      "jar": "FastFurnace-1.20.1-8.0.2.jar",
+      "sha1": "b144b8599acd3fac3f8f9d31fa217a4a5b942f61"
+    },
+    {
+      "projectID": 283644,
+      "fileID": 6274231,
+      "nom": "Placebo",
+      "auteur": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/placebo",
+      "cote": "les deux",
+      "jar": "Placebo-1.20.1-8.6.3.jar",
+      "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+      "raison": "dépendance de FastFurnace"
+    },
+    {
+      "projectID": 418514,
+      "fileID": 6142294,
+      "nom": "Connectible Chains [FORGE]",
+      "auteur": "Mysticpasta1",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/connectible-chains-forge",
+      "cote": "les deux",
+      "jar": "Connectible Chains-forge-1.20.1-1.1.1.jar",
+      "sha1": "c2d46c7d488623a65df0225459231d0b0102c0f9"
+    },
+    {
+      "projectID": 663658,
+      "fileID": 5326142,
+      "nom": "Do a Barrel Roll",
+      "auteur": "enjarai",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/do-a-barrel-roll",
+      "cote": "client",
+      "jar": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+      "sha1": "08b58bfbdf20660bdc5a0c4a0b088f7d89f40a38"
+    },
+    {
+      "projectID": 930880,
+      "fileID": 5961735,
+      "nom": "Leawind's Third Person",
+      "auteur": "Leawind",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/leawind-third-person",
+      "cote": "client",
+      "jar": "leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar",
+      "sha1": "acd53eaae56f6bc0b3b60b9cda1f37dcc71ec9d3"
+    }
+  ],
+  "overrides_retirer": [
+    "config/xaeroplus.txt"
+  ],
+  "overrides_ajouter": {
+    "configureddefaults/options.txt": "releases/v64/configureddefaults/options.txt"
+  }
+}
