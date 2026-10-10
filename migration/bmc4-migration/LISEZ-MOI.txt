@@ -1,0 +1,19 @@
+BMC4 — Reprendre ses réglages d'une version du pack à l'autre
+
+À faire une fois par nouvelle version, juste après l'import du zip dans
+CurseForge, AVANT de cliquer sur Jouer.
+
+1. CurseForge → clic droit sur la nouvelle instance BMC4 → Ouvrir le dossier.
+2. macOS : double-clic sur migrer-bmc4.command.
+   Windows : double-clic sur migrer-bmc4.bat.
+3. Lis le bilan : nombre de waypoints, langue, touches. Puis lance le jeu.
+
+Ce qui est repris de l'ancienne instance : réglages du jeu (touches, langue,
+vidéo), liste des serveurs, waypoints et cartes Xaero et FTB Chunks, packs de
+ressources que tu avais ajoutés, et tes réglages client (vidéo de Xenon, son de
+Sound Physics, shader, JEI, Xaero…) seulement si tu les avais changés. L'ancienne instance n'est pas modifiée.
+Ce qui existait déjà dans la nouvelle est renommé « .avant-migration ».
+Tout est écrit dans migration-bmc4.log.
+
+Si le script refuse : la nouvelle instance a déjà été lancée. Supprime-la
+dans CurseForge, réimporte le zip, et relance le script avant de jouer.
