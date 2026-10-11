@@ -1,0 +1,21 @@
+{
+  "version": "v65",
+  "nom": "BMC4 v65",
+  "base": "BMC4 v64 avec B (zip exporté, avant migration)",
+  "retirer": [
+    {
+      "projectID": 1269169,
+      "nom": "Krypton Reno",
+      "raison": "BMC-104 : son décodeur de paquets client (Varint21FrameDecoderMixin) écrase les limites de Connectivity et Packet Fixer ; avec la v64, « VarInt too big » 0,12 s après l'authentification. Le serveur le garde."
+    }
+  ],
+  "ajouter": [],
+  "overrides_retirer": [
+    "config/kreno.yaml",
+    "config/krypton_fnp.yaml"
+  ],
+  "overrides_ajouter": {},
+  "overrides_remplacer": {
+    "config/crash_assistant/modlist.json": "releases/v65/crash_assistant/modlist.json"
+  }
+}
