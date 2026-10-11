@@ -1,0 +1,23 @@
+# Distant Horizons 3.3.3 — configuration livrée par BMC4 (v65, BMC-105).
+# Seules les clés ci-dessous s'écartent des valeurs du jar ; Distant Horizons
+# complète le reste au premier lancement. Noms et version de fichier lus dans
+# le jar (ConfigHandler, ConfigFileHandler, Config$…).
+_version = 5
+
+[client.advanced.graphics.quality]
+	# 128 chunks (2 048 blocs) au lieu de 256 : la mémoire des LOD croît avec
+	# la distance, et le pack tourne avec 6 à 8 Go.
+	lodChunkRenderDistanceRadius = 128
+	# Conseil du jar pour les mods à plusieurs caméras (Immersive Portals).
+	useCameraPositionForQualityDropOff = false
+
+[client.advanced.autoUpdater]
+	# Pas de proposition de mise à jour : le jar est celui du pack.
+	enableAutoUpdater = false
+	enableSilentUpdates = false
+
+[common.worldGenerator]
+	# Aucune génération lointaine : les LOD ne viennent que des chunks
+	# chargés par le joueur.
+	generatorPlan = "DISABLED"
+	chunkGeneratorMode = "PRE_EXISTING_ONLY"

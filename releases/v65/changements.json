@@ -9,12 +9,25 @@
       "raison": "BMC-104 : son décodeur de paquets client (Varint21FrameDecoderMixin) écrase les limites de Connectivity et Packet Fixer ; avec la v64, « VarInt too big » 0,12 s après l'authentification. Le serveur le garde."
     }
   ],
-  "ajouter": [],
+  "ajouter": [
+    {
+      "projectID": 508933,
+      "fileID": 9004753,
+      "nom": "Distant Horizons: A Level of Detail mod",
+      "auteur": "James_Seibel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/distant-horizons",
+      "cote": "client",
+      "jar": "DistantHorizons-3.3.3-1.20.1-fabric-forge.jar",
+      "sha1": "5447c4716571bfdba817c85278a9ce0d411573ec"
+    }
+  ],
   "overrides_retirer": [
     "config/kreno.yaml",
     "config/krypton_fnp.yaml"
   ],
-  "overrides_ajouter": {},
+  "overrides_ajouter": {
+    "config/DistantHorizons.toml": "releases/v65/overrides/config/DistantHorizons.toml"
+  },
   "overrides_remplacer": {
     "config/crash_assistant/modlist.json": "releases/v65/crash_assistant/modlist.json"
   }
