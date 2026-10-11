@@ -35,11 +35,7 @@ Redstone Link donné au conducteur : il pilote à distance
 
 ⚠️ **N'importe qui peut lier un sifflet au conducteur d'un train**, le vôtre compris. Un train sans horaire en cours peut être appelé par l'adversaire.
 
-## ⚠️ Le conducteur espion
-
-**Des lunettes d'ingénieur données à un conducteur en font un espion.** Une **lentille à distance** liée à lui montre ce qu'il voit, à n'importe quelle distance dans la même dimension — et permet de le faire marcher, et d'actionner boutons, trappes et leviers.
-
-💡 **La parade** : accroupi, main vide, clic droit sur le conducteur. Il rend ses lunettes et la lentille ne sert plus à rien. Un conducteur inconnu près de votre base, désarmez-le.
+⚠️ **La Lentille à distance est désactivée sur BMC4** : liée à un conducteur, elle montrait l'intérieur des bases à n'importe quelle distance.
 
 ## Les touches
 

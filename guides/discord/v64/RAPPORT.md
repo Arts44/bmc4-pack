@@ -6,52 +6,50 @@ Rédigé le 11 octobre 2026. Rien n'est publié. Les longueurs sont comptées co
 
 | Fichier | Salon | Message | Longueur |
 |---|---|---|---|
-| `create-5-steam-n-rails.md` | #create | nouveau | 1 959 |
-| `farmers-delight-kaleidoscope-3.md` | #farmers-delight | nouveau | 1 829 |
+| `create-5-steam-n-rails.md` | #create | nouveau | 1 630 |
+| `create-titres-1-a-4.md` | #create | première ligne des messages 1 à 4 | — |
+| `farmers-delight-kaleidoscope-3-cuisine.md` | #farmers-delight | nouveau | 1 296 |
+| `farmers-delight-kaleidoscope-4-taverne.md` | #farmers-delight | nouveau | 1 423 |
 | `petits-mods-arrive-avec-la-v64.md` | #petits-mods | nouveau | 1 512 |
 | `paladins-furniture-2-sa-place-dans-le-pack.md` | #paladins-furniture | remplace 1552649978336518165 | 1 944 |
 | `presentation-le-jeu-en-factions.md` | #présentation | remplace 1549323902201626667 | 1 971 |
 | `ftb-2-ce-qu-un-claim-protege.md` | #ftb | remplace 1552643914341814293 | 1 969 |
 | `guide-4-les-guides-par-mod.md` | #guide | remplace 1552653532648181775 | 1 984 |
 
+## BMC-101 (décisions du 11 octobre) : ce que les guides supposent
+
+Les guides #create et #farmers-delight décrivent le serveur **après** la mise en place du lot `bmc101-2026-10-11` (`quetes/deploiement/MISE-EN-PLACE-bmc101.md`, branche `bmc101-retraits`) :
+
+- **Lentille à distance** : recette retirée (`/reload`).
+- **Molotov Cocktail** : recette retirée (`/reload`).
+- **Robinet** : `InfiniteLavaFromTap = false` (rechargement automatique de la config).
+- **Satiation Shield** : `SatiatedShieldAbsorbEnabled = false` (rechargement automatique de la config).
+  - Il ne vient que des plats de Cookery, d'aucune boisson : le datapack `bmc4-taverne` n'y pouvait rien.
+- **Cri du Sculk Special** : 8 points au plus contre un joueur, jamais mortel.
+  - Script de démarrage : il ne s'applique qu'**après un redémarrage**.
+  - **Ne publiez pas le message 4/4 avant.**
+
+Vérifié dans les jars :
+- **Spirit Vision** met bien **Glowing** (`MobEffects.f_19619_` = « glowing » dans le jar 1.20.1) toutes les 50 ticks, pour 60 ticks.
+  - Cibles : toute entité vivante autre que le buveur, joueurs compris.
+  - Portée : la boîte du buveur élargie de 6 × min(niveau, 3) blocs, soit 6, 12 ou 18.
+- **Le cri** frappe dans l'axe du regard jusqu'à 32 blocs.
+  - Dégâts : 1,2 × la vie actuelle du buveur (`getHealth`).
+  - Type `sonic_boom`, qui figure dans `bypasses_armor`.
+
 ## À savoir avant de publier
 
-### Le conducteur espion de Steam 'n' Rails (#create)
+### Le conducteur espion de Steam 'n' Rails
 
-**Oui, il permet d'espionner une base à distance.** Ce qui suit vient du code du jar, sans essai en jeu.
+- **Résolu par BMC-101** : la recette de la Lentille à distance est retirée. Le guide le dit en une ligne.
+- **Lentilles déjà fabriquées** : celles qui existent avant le retrait restent utilisables.
+- **Sifflet** : `mustOwnBoundTrain = false`. N'importe qui peut appeler le train d'un autre, s'il n'a pas d'horaire en cours. Le guide le dit.
 
-- **Comment ça marche.**
-  - On donne des lunettes d'ingénieur à un conducteur : il passe en mode espion.
-  - Une Lentille à distance liée à ce conducteur montre ce qu'il voit, sans limite de distance dans la même dimension.
-  - Le conducteur doit être chargé au départ.
-- **Ce n'est pas qu'une vue.**
-  - Les touches de déplacement le font marcher.
-  - « Utiliser » lui fait actionner boutons, trappes et leviers, à environ 4,7 blocs, avec un faux joueur « [Conductor] ».
-- **Le mod ne prévoit aucune protection.**
-  - Aucune option, serveur ni commune, ne le coupe.
-  - Rien ne vérifie le propriétaire : n'importe qui lie sa lentille à n'importe quel conducteur espion.
-  - Rien dans Steam 'n' Rails ne consulte les claims.
-  - Je n'ai pas lu le code de FTB Chunks pour savoir s'il bloque le faux joueur. Côté serveur : `fake_players: "check"`, et `allow_fake_players` est à faux pour les deux factions.
-- **Le conducteur est difficile à neutraliser.**
-  - Assis dans un wagon, il est invulnérable.
-  - Accroupi, main vide, n'importe qui lui retire ses lunettes : c'est la parade écrite dans le guide.
-- **Charge serveur.** Pendant la vue, le mod pose chaque tick des tickets de chunk forcés sur 21 × 21 chunks autour du conducteur (`view-distance=10`). Il ne les retire jamais dans son code.
-- **Pour le couper.** Il n'y a pas d'option : il faudrait retirer la recette de la Lentille à distance (`railways:crafting/remote_lens`) par KubeJS ou par datapack.
-- **Le guide tel qu'écrit.** Il décrit l'espion et sa parade. Si tu coupes la lentille, il faut retirer la section « Le conducteur espion ».
+### Kaleidoscope
 
-**Autre point :** `mustOwnBoundTrain = false`. N'importe qui peut lier un sifflet au conducteur d'un train adverse et appeler ce train s'il n'a pas d'horaire en cours. Le guide le dit.
-
-### Kaleidoscope : ce que le datapack ne couvre pas (#farmers-delight)
-
-Je n'en parle pas dans le guide. Ce sont des décisions pour toi.
-
-- **Sculk Special** (cocktail) : effet Shriek Attack. C'est un rayon de 32 blocs dans la direction du regard, qui blesse aussi les joueurs (1,2 × une valeur de vie du buveur, avec recul).
-- **Molotov Cocktail** : il se lance (lave seule dans le tonneau, 16 par tonneau). `InfiniteLavaFromTap = true` sur le serveur.
-  - Je n'ai pas vérifié s'il abîme quoi que ce soit dans un claim.
-- **Satiation Shield** (Cookery) : la jauge de faim absorbe 100 % des dégâts, jusqu'à 64. Le serveur garde la config par défaut.
-- **Millstone** (Cookery) : 1 bloc de minerai donne 3 bruts de fer ou d'or, 5 de cuivre, 2 diamants, 7 redstone ou lapis. Il faut avoir les blocs de minerai, donc Toucher de soie.
-- **Spirit Vision** (Glowflower Brew, Mojito) : il applique un effet aux entités proches, probablement Glowing (en surbrillance). Cela pourrait révéler les joueurs, ce qui contredit le radar privé.
-- **Rum** : Mauvais présage V.
+- **Gardés et décrits dans le 4/4** : Sculk Special (bridé), Spirit Vision, la meule (dans le 3/4).
+- **Désactivés et signalés** : Molotov, robinet de lave infinie, Satiation Shield.
+- **Non signalé dans le guide** : Rum donne Mauvais présage V.
 
 ### Les claims (#présentation, #ftb)
 
@@ -117,5 +115,5 @@ Inchangés et revérifiés :
 ## Changements de forme à valider
 
 - **#paladins-furniture 2/2 :** la section « Corrigé le 24 septembre » est retirée pour tenir sous 2 000 caractères. Le message 1/2 dit déjà « Le frigo ne conserve rien ».
-- **#create :** la série passe à « 5/5 », mais les messages 1 à 4 portent encore « /4 ».
+- **#create :** titres des messages 1 à 4 en « /5 » dans `create-titres-1-a-4.md`.
 - **#guide :** trois lignes complétées (Create, Farmer's Delight, Paladin's) et une ajoutée (#petits-mods).
