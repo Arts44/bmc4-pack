@@ -12,6 +12,14 @@ server before opening anything. `StationEvents` ends that event where it ends a 
 use, so listeners after it do not run for a use that is not happening. A refusal
 closes the scene and any session the player still had.
 
+The probe flag is only read on the server side: in singleplayer the client and the
+integrated server share `Sessions`' static fields.
+
+Known limit: `valid()` does not ask again. A session opened while the player was
+allowed (during a raid, on our server) survives the end of that permission as long
+as the player stays within 6 blocks. Asking on every tick would fire the listeners
+every time, so this change leaves it.
+
 Forge only, in `//? if forge` blocks. Fabric and NeoForge are not changed; they may
 need the same check.
 

@@ -1,14 +1,18 @@
 # BMC-103, partie 1 — Audit de Cinematic Interactions (Forge 1.20.1)
 
-Fork `Arts44/CinematicInteractions`, branche `bmc4`, commit `f88a182`, sur
+Fork `Arts44/CinematicInteractions`, branche `bmc4`, commit `e492fee`, sur
 `bb1bca1` (amont, 0.18.30, dernier commit au 30 octobre). SHA-1 du jar :
-`1e997add34030ef010c7246fc63cff29a108f335`.
+`7347340db99202e5a4781c1c2ba832485520e077`.
 
 Tout vient de la lecture du code et des jars du pack (instance `BMC4 v65`).
 **Rien n'a tourné en jeu ni sur un serveur** ; le projet n'a pas de tests
 unitaires (`test NO-SOURCE`).
 
-## 1. À trancher avant de déployer : l'établi
+## 1. L'établi : décision d'Arthur du 30 octobre
+
+**Il reste ouvert** : ni `bmc4_garde.js` ni le tag ne changent. La règle est écrite
+aux joueurs (notes v66 et guide) : un objet posé sur un établi peut être pris par
+n'importe qui, même dans un claim. Même remarque pour Visual Workbench. Le constat :
 
 Le patch ne protège pas les objets posés sur un établi dans un claim :
 
@@ -25,13 +29,7 @@ Le patch ne protège pas les objets posés sur un établi dans un claim :
 Visual Workbench, déjà dans le pack, pose le même problème aujourd'hui : il met
 une BlockEntity sur l'établi et y garde la grille, exemptée par le même tag.
 
-Solution proposée : dans `bmc4_garde.js`, traiter `minecraft:crafting_table`
-comme un bloc à inventaire (fermé aux autres factions, sauf alliés et raid). Une
-condition de plus dans `coffreInterdit`, avant le test des `TOUJOURS_OUVERTS`.
-Effet : on ne peut plus crafter sur l'établi d'une autre faction. Le patch et la
-fenêtre vanilla passent par la même garde, donc les deux chemins sont couverts.
-
-## 2. Le patch (`f88a182`)
+## 2. Le patch (`f88a182`, puis `e492fee`)
 
 - `begin()` et `openWindow()` appellent `mayUse()` : `player.mayInteract`, puis
   un `RightClickBlock` serveur. Un refus envoie `SessionClosePayload`.
@@ -141,7 +139,7 @@ Défauts du mod : `key.cinematic.sit` sur H, `key.cinematic.look` sur Alt gauche
 - H sert déjà à 5 actions : `hide_icons`, jetpack, `cycleRight`, Aether Redux, inventaire du dragon.
 - Alt gauche à 7 : sorts d'Iron, Deep Aether, Steam 'n' Rails (2), ramper, Create (2).
 
-Proposé, pour `configureddefaults/options.txt` :
+Retenu (Arthur, 30 octobre), dans `configureddefaults/options.txt` :
 
     key_key.cinematic.sit:key.keyboard.left.bracket
     key_key.cinematic.look:key.keyboard.backslash
@@ -161,9 +159,7 @@ le bug de rendu est connu (`CHANGELOG.md`).
 
 - Lot serveur prêt en local : `preparer-cinematic.sh`, `MISE-EN-PLACE-cinematic.md`.
   Non déposé.
-- Zip client **non construit** : il faut une version v66 et le jar peut encore
-  changer (point 1, et les suites du patch). La base serait la v65 ; `overrides/mods`
-  pour le jar, `overrides/licenses/` pour la licence.
+- Zip client : v66, `overrides/mods` pour le jar, `overrides/licenses/` pour la licence.
 - Le jar d'origine a des espaces dans son nom, que `deposer.sh` refuse ; je l'ai
   renommé `…-0.18.30-bmc4.jar`. Il annonce toujours `0.18.30`, comme l'amont.
 

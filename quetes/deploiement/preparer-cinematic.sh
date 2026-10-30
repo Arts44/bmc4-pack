@@ -12,7 +12,7 @@
 # doivent porter le même jar.
 set -eu
 cd "$(dirname "$0")/../.."
-ATTENDU=1e997add34030ef010c7246fc63cff29a108f335
+ATTENDU=7347340db99202e5a4781c1c2ba832485520e077
 SOURCE=${1:?"chemin du jar construit attendu"}
 s=$(shasum -a 1 "$SOURCE" | cut -d' ' -f1)
 [ "$s" = "$ATTENDU" ] || { echo "SHA-1 inattendu : $s (attendu $ATTENDU)" >&2; exit 1; }

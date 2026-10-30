@@ -4,29 +4,28 @@ Lot : `/bmc4-depot/cinematic-<date>/`, déposé par
 `sh quetes/deploiement/deposer.sh --lot cinematic-<date>`, sur le feu vert
 d'Arthur seulement. Le dépôt ne met rien en place. Une action par ligne.
 
-Jar : fork `Arts44/CinematicInteractions`, branche `bmc4`, commit `f88a182`
+Jar : fork `Arts44/CinematicInteractions`, branche `bmc4`, commit `e492fee`
 (amont `bb1bca1`, 0.18.30, plus le patch de protection), SHA-1
-`1e997add34030ef010c7246fc63cff29a108f335`. Le jar client du pack doit être le
+`7347340db99202e5a4781c1c2ba832485520e077`. Le jar client du pack doit être le
 même : un serveur sans ce patch rouvre la faille, un client sans le mod reste
 accepté.
 
 ## Avant tout
 
-1. Trancher la question de l'établi (voir `AUDIT-cinematic.md`, point 1).
-2. `create_snapshot`, nom `avant-cinematic`. Attendre qu'il soit terminé.
+1. `create_snapshot`, nom `avant-cinematic`. Attendre qu'il soit terminé.
 
 ## Mise en place
 
-3. Arrêter le serveur (`power_action stop`).
-4. `move_files` : `/bmc4-depot/cinematic-<date>/mods/Cinematic-Interaction-Forge-1.20.1-0.18.30-bmc4.jar` vers `/mods/`.
-5. Démarrer le serveur (`power_action start`). Un mod ne se charge pas sans redémarrage.
+2. Arrêter le serveur (`power_action stop`).
+3. `move_files` : `/bmc4-depot/cinematic-<date>/mods/Cinematic-Interaction-Forge-1.20.1-0.18.30-bmc4.jar` vers `/mods/`.
+4. Démarrer le serveur (`power_action start`). Un mod ne se charge pas sans redémarrage.
 
 ## Vérifications
 
-6. `latest.log` : `cinematic` dans la liste des mods, aucune erreur de mixin, démarrage jusqu'à « Done ».
-7. KubeJS : `bmc4_garde.js` et `bmc4_triche.js` chargés sans erreur.
-8. Première connexion d'un client : voir « Ce qu'on surveille ».
-9. Essais à deux joueurs de factions différentes, dans un claim :
+5. `latest.log` : `cinematic` dans la liste des mods, aucune erreur de mixin, démarrage jusqu'à « Done ».
+6. KubeJS : `bmc4_garde.js` et `bmc4_triche.js` chargés sans erreur.
+7. Première connexion d'un client : voir « Ce qu'on surveille ».
+8. Essais à deux joueurs de factions différentes, dans un claim :
    - four, alambic, juke-box, bibliothèque ciselée, lutrin, balise : la scène se ferme et rien ne s'ouvre ;
    - touche du feu de camp (s'asseoir) sur un feu du claim adverse : refusé ;
    - le propriétaire et ses alliés : tout s'ouvre ;
