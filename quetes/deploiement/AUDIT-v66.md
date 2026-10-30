@@ -1,4 +1,4 @@
-# BMC-103, partie 3 — Audit de la v66
+# BMC-106, partie 3 — Audit de la v66
 
 Tout vient du bytecode des jars, des issues publiques et de la lecture seule du
 serveur. **Rien n'a tourné en jeu.**
@@ -13,8 +13,18 @@ est appliqué : `electricity.cheats.everythingIsPowered = true`, `mailing.delive
 (`config/refurbished_furniture.server.toml`, type `SERVER_SYNC` de Framework, comme
 `backpacked.server.toml` sur le serveur) et les recettes `refurbished_furniture:wrench`,
 `refurbished_furniture:constructing/computer` et `refurbished_furniture:television_remote`
-retirées (`bmc4_v66_retraits.js`). Restent ouverts : l'envoi par Post Box (seulement borné) et
+retirées, avec celles des ventilateurs de plafond (`bmc4_v66_retraits.js`). Restent ouverts : l'envoi par Post Box (seulement borné) et
 l'établi du mod en limite de claim.
+
+**Ventilateurs de plafond : retirés.** `CeilingFanBlockEntity.moduleTick` appelle `performDamage` côté
+serveur. Sa seule condition est `isNodePowered()`, donc toujours vraie avec `everythingIsPowered` ; le
+clic sur le bloc ne bascule que `LIT`, sa lumière. Il frappe toute `LivingEntity` de sa zone :
+`hurt(ceiling_fan, 0.5)`, joueurs compris. La zone est une tranche de 2,25 × 2,25 × 0,125 bloc,
+centrée sur le ventilateur, dans sa hauteur. Avec les 10 ticks d'invulnérabilité de Minecraft, cela
+fait **0,5 point toutes les demi-secondes, avant armure, sans limite** : mortel pour qui reste dedans.
+Un ventilateur hors de portée de tête ne touche personne, mais un ventilateur mural ou bas forme un
+piège sans redstone. Recettes retirées : 20 de l'établi, 10 de teinture. Seules sources elles aussi
+(même crible, 366 308 fichiers) ; hors recettes : avancements, modèles, loot du bloc lui-même.
 
 **Seule source de ces trois objets : ces recettes.** 407 jars, 366 301 fichiers, données, `.nbt`
 décompressés et classes. Hors recettes : tags (`c:tools/wrench`, `electronics`, `items`),
@@ -27,9 +37,7 @@ Non passés : les jars présents seulement sur le serveur.
 - marchent sans générateur : cuisinière, micro-ondes, congélateur, grille-pain, Recycle Bin,
   établi du mod, sonnette, télévision ;
 - lampes et plafonniers (`LightingBlockEntity`) : `POWERED` toujours vrai, **toujours allumés** ;
-- ventilateur : `moduleTick` tourne dès que le bloc est alimenté, le clic ne bascule que sa lumière.
-  Il **tourne sans arrêt** et blesse (0,5) dans sa zone, sauf si `performDamage` a une autre condition,
-  non lue ;
+- ventilateur : **recettes retirées**, voir plus bas ;
 - interrupteur : il bascule son propre état, sans lien il ne commande plus rien ;
 - générateur : inutile.
 Le commentaire du mod avertit que « certains blocs peuvent ne plus marcher comme prévu ».
@@ -97,19 +105,23 @@ Estimation : 150 à 200 Ko bruts, 40 à 60 Ko compressés (non mesuré). Le paqu
 recettes pèse le plus lourd. Avec l'historique « VarInt too big » de la v64→v65 (Krypton),
 **à vérifier sur une vraie connexion avant l'ouverture**.
 
-**Cette estimation ne compte pas Every Compat.** Il contient un `RefurbishedFurnitureModule`
-qui ajoute 20 familles de meubles en bois (tables, chaises, cuisines, boîtes aux lettres…)
-pour chaque essence moddée, plus une famille de feuilles. Le module Farmer's Delight (une
-famille) enregistre 74 blocs : compter de l'ordre de **1 500 blocs de plus**, avec objets et
-recettes. Every Compat en enregistre 16 570 aujourd'hui. Le coupe-circuit, à mettre à
-l'identique sur le serveur et dans le pack, et avant l'ouverture car un retrait ultérieur
-effacerait les blocs posés : `[module] blacklist = ["refurbished_furniture"]` dans
-`config/everycomp-hazardous.toml` (identifiant du module à confirmer au lancement). **Non appliqué.**
+**Every Compat : module coupé, décision d'Arthur du 30 octobre.** Son `RefurbishedFurnitureModule`
+aurait ajouté 20 familles de meubles par essence moddée, plus une famille de feuilles, soit de
+l'ordre de 1 500 blocs (déduit des 74 blocs du module Farmer's Delight, une famille).
+`[module] blacklist = ["refurbished_furniture"]` dans `config/everycomp-hazardous.toml`, identique dans
+le pack et le lot. L'identifiant est le bon : `EveryCompatCommon` appelle
+`addIfLoaded("refurbished_furniture", …)`, et `EveryCompat.addIfLoaded` commence par
+`MODULES_BLACKLIST.contains(modId)`. Le fichier avertit qu'un écart entre client et serveur
+empêche de rejoindre.
+
+**Ce qui reste comme bois** : les blocs du mod lui-même, en 10 essences vanilla (chêne, sapin,
+bouleau, jungle, acacia, chêne noir, palétuvier, cerisier, carmin, biscornu). Rien pour les essences
+moddées, ni pour le bambou.
 
 ### Autres
 
 Trampoline : 8 blocs de rebond, franchit les murs bas (`trampoline.maxBounceHeight`).
-Ventilateur : 0,5 de dégât dans sa zone. Baignoire de lave : brûle. Pas de téléportation.
+Baignoire de lave : brûle. Pas de téléportation.
 
 **Non vérifiable** : tag `ftbchunks:right_click_blacklist` du serveur ; limite du paquet
 d'ouverture de Post Box avec beaucoup de boîtes ; résultat d'établi obsolète entre deux

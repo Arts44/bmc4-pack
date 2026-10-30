@@ -22,7 +22,8 @@ done <<'L'
 ffb68135b88bdbb25224378c76daf922c3f4c322 refurbished_furniture-forge-1.20.1-1.0.20.jar
 L
 cp releases/v66/overrides/licenses/CinematicInteractions-LICENSE.txt "$D/licenses/"
-cp config/serveur/mods-config/refurbished_furniture.server.toml "$D/config/"
+cp config/serveur/mods-config/refurbished_furniture.server.toml config/serveur/mods-config/everycomp-hazardous.toml "$D/config/"
+cmp config/serveur/mods-config/everycomp-hazardous.toml releases/v66/overrides/config/everycomp-hazardous.toml
 cp config/serveur/kubejs/server_scripts/bmc4_v66_retraits.js "$D/kubejs/server_scripts/"
 cp quetes/deploiement/MISE-EN-PLACE-v66.md "$D/MISE-EN-PLACE.md"
 (cd "$D" && find . -type f ! -name .DS_Store ! -name SHA1SUMS | sort | while read -r f; do printf '%s  %s\n' "$(shasum -a 1 "$f" | cut -d' ' -f1)" "$f"; done) > "$D/SHA1SUMS"

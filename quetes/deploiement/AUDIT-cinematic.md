@@ -1,4 +1,4 @@
-# BMC-103, partie 1 — Audit de Cinematic Interactions (Forge 1.20.1)
+# BMC-106, partie 1 — Audit de Cinematic Interactions (Forge 1.20.1)
 
 Fork `Arts44/CinematicInteractions`, branche `bmc4`, commit `e492fee`, sur
 `bb1bca1` (amont, 0.18.30, dernier commit au 30 octobre). SHA-1 du jar :

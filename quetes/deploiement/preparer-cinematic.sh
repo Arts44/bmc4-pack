@@ -1,5 +1,5 @@
 #!/bin/sh
-# BMC-103 : prépare le lot serveur de Cinematic Interactions dans
+# BMC-106 : prépare le lot serveur de Cinematic Interactions dans
 # quetes/deploiement/cinematic-AAAA-MM-JJ/ (ignoré par git). Ne touche à rien
 # sur le serveur. Depuis la racine du dépôt :
 #

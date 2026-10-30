@@ -1,4 +1,4 @@
-# BMC-103 — Cinematic Interactions : mise en place côté serveur
+# BMC-106 — Cinematic Interactions : mise en place côté serveur
 
 Lot : `/bmc4-depot/cinematic-<date>/`, déposé par
 `sh quetes/deploiement/deposer.sh --lot cinematic-<date>`, sur le feu vert
