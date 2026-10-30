@@ -1,0 +1,51 @@
+{
+  "version": "v66",
+  "nom": "BMC4 v66",
+  "base": "BMC4 v65 de la release, sans la migration",
+  "retirer": [],
+  "ajouter": [
+    {
+      "projectID": 897116,
+      "fileID": 7110922,
+      "nom": "MrCrayfish's Furniture Mod: Refurbished",
+      "auteur": "MrCrayfish",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
+      "cote": "les deux",
+      "jar": "refurbished_furniture-forge-1.20.1-1.0.20.jar",
+      "sha1": "ffb68135b88bdbb25224378c76daf922c3f4c322"
+    },
+    {
+      "projectID": 325492,
+      "fileID": 4573178,
+      "nom": "Light Overlay",
+      "auteur": "shedaniel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/light-overlay",
+      "cote": "client",
+      "jar": "light-overlay-8.0.0-forge.jar",
+      "sha1": "f0b73885662b8ffbc448623d1d117b663673f35e"
+    },
+    {
+      "projectID": 1122678,
+      "fileID": 6726028,
+      "nom": "ClickThrough Plus",
+      "auteur": "cassiancc",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/clickthrough-plus",
+      "cote": "client",
+      "jar": "clickthrough-plus-forge-3.5.1+1.20.1.jar",
+      "sha1": "90211f07d6f87ce9c5a3c63f53aa07ebd8546610"
+    }
+  ],
+  "overrides_retirer": [],
+  "overrides_ajouter": {
+    "mods/Cinematic-Interaction-Forge-1.20.1-0.18.30-bmc4.jar": "quetes/deploiement/jars-v66/Cinematic-Interaction-Forge-1.20.1-0.18.30-bmc4.jar",
+    "mods/AFKcamera-forge.jar": "quetes/deploiement/jars-v66/AFKcamera-forge.jar",
+    "licenses/CinematicInteractions-LICENSE.txt": "releases/v66/overrides/licenses/CinematicInteractions-LICENSE.txt",
+    "licenses/AFKcamera-LICENSE.txt": "releases/v66/overrides/licenses/AFKcamera-LICENSE.txt",
+    "licenses/AFKcamera-CREDITS.txt": "releases/v66/overrides/licenses/AFKcamera-CREDITS.txt",
+    "config/clickthrough.json": "releases/v66/overrides/config/clickthrough.json"
+  },
+  "overrides_remplacer": {
+    "config/crash_assistant/modlist.json": "releases/v66/crash_assistant/modlist.json",
+    "configureddefaults/options.txt": "releases/v66/configureddefaults/options.txt"
+  }
+}
