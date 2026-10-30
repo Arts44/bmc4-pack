@@ -6,7 +6,33 @@ serveur. **Rien n'a tourné en jeu.**
 ## MrCrayfish's Furniture Mod: Refurbished 1.0.20
 
 Framework : `[0.7.15,)` demandé, 0.8.0 dans le pack et sur le serveur, pas de mise à
-jour. Les fermetures sont **à proposer, aucune n'est appliquée**.
+jour.
+
+**Décision d'Arthur du 30 octobre : tout fermer.** Le tableau reste le constat ; ce qui
+est appliqué : `electricity.cheats.everythingIsPowered = true`, `mailing.deliveryQueueSize = 8`
+(`config/refurbished_furniture.server.toml`, type `SERVER_SYNC` de Framework, comme
+`backpacked.server.toml` sur le serveur) et les recettes `refurbished_furniture:wrench`,
+`refurbished_furniture:constructing/computer` et `refurbished_furniture:television_remote`
+retirées (`bmc4_v66_retraits.js`). Restent ouverts : l'envoi par Post Box (seulement borné) et
+l'établi du mod en limite de claim.
+
+**Seule source de ces trois objets : ces recettes.** 407 jars, 366 301 fichiers, données, `.nbt`
+décompressés et classes. Hors recettes : tags (`c:tools/wrench`, `electronics`, `items`),
+avancements de recette et le loot du bloc ordinateur lui-même. Aucun loot de coffre, aucun échange.
+Les classes qui citent ces objets ne les donnent pas (registres, onglet créatif, clé en main).
+Non passés : les jars présents seulement sur le serveur.
+
+**Ce que change `everythingIsPowered`** (`IModuleNode.updateNodePoweredState` force
+`setNodePowered(true)`) :
+- marchent sans générateur : cuisinière, micro-ondes, congélateur, grille-pain, Recycle Bin,
+  établi du mod, sonnette, télévision ;
+- lampes et plafonniers (`LightingBlockEntity`) : `POWERED` toujours vrai, **toujours allumés** ;
+- ventilateur : `moduleTick` tourne dès que le bloc est alimenté, le clic ne bascule que sa lumière.
+  Il **tourne sans arrêt** et blesse (0,5) dans sa zone, sauf si `performDamage` a une autre condition,
+  non lue ;
+- interrupteur : il bascule son propre état, sans lien il ne commande plus rien ;
+- générateur : inutile.
+Le commentaire du mod avertit que « certains blocs peuvent ne plus marcher comme prévu ».
 
 | Point | FTB Chunks | Garde | Faille | Fermeture proposée |
 |---|---|---|---|---|
@@ -68,8 +94,17 @@ Jar et Cutting Board (qui sort un objet), mais FTB applique alors `block_edit_mo
 
 449 blocs, 470 objets, 32 BlockEntityType, 59 sons, 709 recettes, 44 fichiers de tags.
 Estimation : 150 à 200 Ko bruts, 40 à 60 Ko compressés (non mesuré). Le paquet de
-recettes pèse le plus lourd. Avec l'historique « VarInt too big » (BMC-104), **à mesurer
-sur une vraie connexion avant l'ouverture**.
+recettes pèse le plus lourd. Avec l'historique « VarInt too big » de la v64→v65 (Krypton),
+**à vérifier sur une vraie connexion avant l'ouverture**.
+
+**Cette estimation ne compte pas Every Compat.** Il contient un `RefurbishedFurnitureModule`
+qui ajoute 20 familles de meubles en bois (tables, chaises, cuisines, boîtes aux lettres…)
+pour chaque essence moddée, plus une famille de feuilles. Le module Farmer's Delight (une
+famille) enregistre 74 blocs : compter de l'ordre de **1 500 blocs de plus**, avec objets et
+recettes. Every Compat en enregistre 16 570 aujourd'hui. Le coupe-circuit, à mettre à
+l'identique sur le serveur et dans le pack, et avant l'ouverture car un retrait ultérieur
+effacerait les blocs posés : `[module] blacklist = ["refurbished_furniture"]` dans
+`config/everycomp-hazardous.toml` (identifiant du module à confirmer au lancement). **Non appliqué.**
 
 ### Autres
 
@@ -140,36 +175,40 @@ donc pas ajouté (pas d'écran de réglages). Licence CC BY-ND 4.0, sans modific
 tel quel, licence et crédit dans `overrides/licenses/`. Cinq mixins client avec
 `defaultRequire: 1` : une injection ratée ferait planter le client, à voir à l'essai.
 
-## Connector et Pulse Trims
+## Connector et Pulse Trims : hors v66
 
-**Aucune incompatibilité documentée ne vise Pulse Trims ni beta.49**. Le jar n'embarque
-aucune liste ; Immersive Portals et Distant Horizons tournent en Forge natif.
+Décision d'Arthur du 30 octobre : Pulse Trims abandonné, Connector reste en beta.48 (fichier
+7594389), Forgified Fabric API inchangé. Raison : son shader ne reconnaît que des atlas de
+1024 ou 2048 de large, et l'atlas de trims du pack fait 4096.
 
-| Mod | Éléments | État |
+## Glowing Trims
+
+Modrinth 1.0.0+1.20.1, SHA-1 `a7e60bb3…`, MinionDude19, MIT. **Absent de CurseForge** : jar dans
+`overrides/mods`, texte MIT dans `overrides/licenses/` (le jar n'en contient pas, la licence
+est déclarée dans `mods.toml` et sur Modrinth). Client seul (`clientSideOnly`, `IGNORE_ALL_VERSION`),
+aucune dépendance, aucun réseau, aucune touche.
+
+Un seul mixin, `@ModifyArg` (index 2, la lumière) sur `Model.renderToBuffer` dans le `renderTrim` ajouté
+par Forge à `HumanoidArmorLayer` (méthode présente dans 47.4.20). Il renvoie toujours 15728880.
+
+| Mod | Sur `renderTrim` | Conflit |
 |---|---|---|
-| Oculus | ConnectorExtras #52 | ouverte (11/2024) : crash Oculus 1.7 avec JEI et Quark, sans diagnostic ; combinaison déjà en v65 |
-| Oculus | Connector #1083, #1504 | fermées |
-| Xenon | aucune issue dédiée | - |
-| Embeddium | #1777, #2061 | ouvertes, sur des mods absents du pack |
-| Immersive Portals | #665, #1789, #1819 | fermées, version Fabric ou invalid |
-| Distant Horizons 3.3.3 | aucune | - |
-| Cinematic Interactions | aucune | - |
+| Glow Up | `@ModifyArg` sur le **même argument du même appel** | non : les deux s'enchaînent, et il rend la valeur reçue pour une armure sans son NBT |
+| Oculus | `@Inject` HEAD et TAIL de `renderTrim` | non, pas sur cet appel |
+| Structure Gel | `@ModifyVariable` | non, autre variable |
+| Cinematic Interactions | rien : son mixin vise `renderArmorPiece` (`setPartVisibility`) | non |
+| Xenon | ne vise pas `HumanoidArmorLayer` | non |
 
-- **beta.48 → 49** : Fabric Loader passe de 0.16.5 à 0.19.3 sous le capot, 23 fichiers
-  sur 1126. Forge inchangé (`[47,)`). Risque modéré, aucune régression signalée.
-- **Forgified Fabric API** : aucune mise à jour exigée, reste 6885853.
-- **Pulse Trims ne produira très probablement aucun effet** : son shader ne reconnaît
-  que des atlas de 1024 ou 2048 de large, et l'atlas de trims du pack fait 4096
-  (`logs/latest.log` de l'instance v65). Armure rendue normalement, pas de crash.
-- Il écrase le core shader `rendertype_armor_cutout_no_cull` et remplace le set des
-  sources de packs par un `HashSet`. Sans effet avec un shader Oculus actif.
-- Distribution tierce de CurseForge non confirmée (API officielle sans clé).
-- Connector 1.20.1 ne reçoit plus que des correctifs critiques (#2272).
+- Pas de `@Redirect` ni d'`@Overwrite` sur cet appel dans le pack : pas le cas de GlitchCore.
+- **Glow Up** propose déjà des garnitures brillantes à l'encre luisante. Avec Glowing Trims,
+  toutes brillent : cette fonction de Glow Up ne se voit plus.
+- **En faction** : on verra mieux les garnitures des autres joueurs dans le noir, chez ceux qui
+  ont le mod. Rien de plus qu'un rendu client.
+- L'effet avec un shader Oculus actif n'est pas vérifié.
 
 ## Touches
 
-Aucune touche par défaut chez Refurbished et AFK Camera. Pulse Trims : `key.pulse-trims.config`,
-non assignée. **Light Overlay est par défaut sur F7 (code 296), pas F4 : conflit avec Do a
+Aucune touche par défaut chez Refurbished, AFK Camera et Glowing Trims. **Light Overlay est par défaut sur F7 (code 296), pas F4 : conflit avec Do a
 Barrel Roll.** Mise sur F4, libre, dans `configureddefaults/options.txt`. ClickThrough Plus :
 F9 par défaut, mis sur F10. Les joueurs migrés gardent leur fichier et voient ces conflits.
 
@@ -177,5 +216,4 @@ F9 par défaut, mis sur F10. Les joueurs migrés gardent leur fichier et voient 
 
 Light Overlay est le projet **325492**, pas 312870 (Curse Maven : 200 contre 404).
 Connector est 890127. Vérifiés sur Curse Maven (200) : Refurbished 897116/7110922, Light
-Overlay 325492/4573178, ClickThrough Plus 1122678/6726028, Connector 890127/8367974, Pulse
-Trims 1625738/8848576.
+Overlay 325492/4573178, ClickThrough Plus 1122678/6726028.
