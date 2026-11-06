@@ -20,6 +20,25 @@ allowed (during a raid, on our server) survives the end of that permission as lo
 as the player stays within 6 blocks. Asking on every tick would fire the listeners
 every time, so this change leaves it.
 
+Pitfall (found on our server, BMC-108): on Forge 47.4.20,
+`PlayerInteractEvent.RightClickBlock.setCanceled(true)` also sets `useBlock` and
+`useItem` to `DENY`. The first version read `event.getUseBlock()` after the post,
+so it saw the `DENY` written by its own cancel and refused every station, even an
+empty-handed player at a crafting table in their own claim. `StationEvents` now
+reads `useBlock` before it cancels (`probeDenied`), and `mayUse` returns
+`probeReached && !probeDenied`. A listener that sets `useBlock` to `DENY` without
+cancelling still refuses the scene; one that cancels before ours still does too.
+
+Diagnostic log from that server (06/11, empty hand, crafting table, own claim), one
+sentinel at the end of each priority band, registered last in its band:
+
+    end of HIGHEST/HIGH : isCanceled=false useBlock=DEFAULT probeReached=false
+    end of NORMAL       : isCanceled=true  useBlock=DENY    probeReached=true
+    mayUse : mayInteract=true probeReached=true useBlock=DENY -> refused
+
+No other mod cancelled the probe: the cancel and the `DENY` both came from our own
+listener at NORMAL.
+
 Forge only, in `//? if forge` blocks. Fabric and NeoForge are not changed; they may
 need the same check.
 
