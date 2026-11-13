@@ -607,7 +607,6 @@ global.bmc4GardeTeleport = (joueur, refus) => {
 // ------------------------------------------------------------
 const TOUJOURS_OUVERTS = ['minecraft:doors', 'minecraft:trapdoors', 'minecraft:fence_gates',
   'minecraft:buttons', 'minecraft:pressure_plates', 'ftbchunks:interact_whitelist']
-const dernierRefusCoffre = {}
 let pseudosParUuid = null
 let pseudosLus = 0
 
@@ -655,30 +654,139 @@ function coffreInterdit(server, joueur, bloc) {
   return String(equipe.getProperty(TeamProperties.DISPLAY_NAME))
 }
 
-BlockEvents.rightClicked(event => {
-  let joueur = event.getPlayer()
-  if (joueur == null) return
-  let server = joueur.getServer()
-  let faction = null
-  try {
-    faction = coffreInterdit(server, joueur, event.getBlock())
-  } catch (e) {
-    journal('coffres', e)
-    faction = '?'
+// ------------------------------------------------------------
+//  BMC-107 : deux chemins, une règle.
+//
+//  KubeJS ne passe pas BlockEvents.rightClicked aux scripts quand l'objet
+//  en main est en recharge (perle de l'Ender, bouclier…) :
+//  KubeJSBlockEventHandler.rightClick (jar 2001.6.5-build.26) teste
+//  player.getCooldowns().isOnCooldown(item) et rend PASS sans rien poster.
+//  Le second chemin est l'écouteur Forge de
+//  startup_scripts/bmc4_coffres_recharge.js (PlayerInteractEvent
+//  $RightClickBlock, priorité NORMAL), qui appelle global.bmc4GardeCoffre,
+//  définie ici : même coffreInterdit, même message, même délai d'un message
+//  par seconde. `global` est le même HashMap Java pour les scripts de
+//  démarrage et les scripts serveur (BuiltinKubeJSPlugin.GLOBAL) : un
+//  /reload redéfinit la fonction, l'écouteur lit la nouvelle au clic suivant.
+//
+//  Sans recharge, les deux chemins voient le même clic : celui de KubeJS
+//  d'abord (Architectury, priorité HIGH). S'il refuse, l'événement est annulé
+//  et Forge ne le passe plus à l'écouteur NORMAL (receiveCanceled faux). S'il
+//  autorise, l'écouteur repose la question : la décision du même clic (même
+//  joueur, même bloc, moins de MEME_CLIC_MS) est reprise sans nouveau calcul
+//  ni nouveau message. Forge lance aussi un événement par main : la seconde
+//  main reprend la même décision.
+//
+//  event.cancel() de KubeJS lève EventExit (EventJS.cancel(Object), jar
+//  2001.6.5) : rien ne s'exécute après. Le message part donc AVANT
+//  l'annulation (avant BMC-107, il venait après et ne partait jamais).
+// ------------------------------------------------------------
+// <logique-coffres> : sans appel Java, testée hors jeu par
+// quetes/tests/garde-coffres.test.mjs (node --test).
+const MEME_CLIC_MS = 50
+const REFUS_COFFRE_MS = 1000
+
+// o.interdit(joueur, bloc) : null si permis, sinon le nom de la faction (peut lever)
+// o.cle(joueur) : l'UUID en texte ; o.lieu(bloc) : la position en texte
+// o.maintenant() : millisecondes ; o.dire(joueur, faction) : le message ('?' = erreur)
+// o.journal(cle, erreur) : une ligne dans le journal
+// Rend une fonction (joueur, bloc) => true si l'ouverture est refusée. Elle ne lève jamais.
+function bmc4GardeCoffres(o) {
+  const dernierRefus = {}     // UUID -> instant du dernier message
+  const derniereDecision = {} // UUID -> { lieu, quand, faction }
+  return (joueur, bloc) => {
+    let cle = null
+    let quand = 0
+    let faction = null
+    let memeClic = false
+    try {
+      cle = o.cle(joueur)
+      quand = o.maintenant()
+      let lieu = o.lieu(bloc)
+      let d = derniereDecision[cle]
+      memeClic = d != null && d.lieu == lieu && quand - d.quand >= 0 && quand - d.quand < MEME_CLIC_MS
+      if (memeClic) faction = d.faction
+      else {
+        try {
+          faction = o.interdit(joueur, bloc)
+        } catch (e) {
+          o.journal('coffres', e)
+          faction = '?'
+        }
+        derniereDecision[cle] = { lieu: lieu, quand: quand, faction: faction }
+      }
+    } catch (e) {
+      // Le joueur, l'heure ou le bloc ne se lisent pas : refus. Sans clé (UUID
+      // illisible), pas de message : le délai d'un message par seconde est par joueur.
+      try { o.journal('coffres', e) } catch (e2) { }
+      if (cle == null) return true
+      faction = '?'
+      memeClic = false
+    }
+    if (faction == null) return false
+    if (!memeClic && (dernierRefus[cle] == null || quand - dernierRefus[cle] >= REFUS_COFFRE_MS)) {
+      dernierRefus[cle] = quand
+      try {
+        o.dire(joueur, faction)
+      } catch (e) {
+        try { o.journal('message des coffres', e) } catch (e2) { }
+      }
+    }
+    return true
   }
-  if (faction == null) return
-  event.cancel()
-  let cle = String(ACCES.uuid(joueur))
-  if (Date.now() - (dernierRefusCoffre[cle] || 0) < 1000) return
-  dernierRefusCoffre[cle] = Date.now()
-  try {
+}
+// </logique-coffres>
+
+const gardeCoffres = bmc4GardeCoffres({
+  interdit: (joueur, bloc) => coffreInterdit(joueur.getServer(), joueur, bloc),
+  cle: joueur => String(ACCES.uuid(joueur)),
+  lieu: bloc => (bloc == null ? '?' : String(bloc.getPos())),
+  maintenant: () => Date.now(),
+  journal: journal,
+  dire: (joueur, faction) => {
+    let server = joueur.getServer()
     if (faction == '?') dire(server, ACCES.nom(joueur), 'Ouvrir ce bloc', 'la garde ne répond pas.', 'Préviens le staff.')
     else dire(server, ACCES.nom(joueur), 'Ouvrir ce bloc', 'il est dans le claim de ' + faction + '.',
       'Les coffres des autres factions ne s\'ouvrent que pendant un raid entre vos deux factions. Portes, boutons et leviers restent utilisables.')
-  } catch (e) {
-    journal('message des coffres', e)
-  }
+  },
 })
+
+// Chemin 1 : KubeJS (sans recharge). BlockRightClickedEventJS.getBlock() =
+// new BlockContainerJS(player.level(), pos).
+BlockEvents.rightClicked(event => {
+  let refuse = true
+  try {
+    let joueur = event.getPlayer()
+    if (joueur == null) refuse = false
+    else {
+      let bloc = null
+      try {
+        bloc = event.getBlock()
+      } catch (e) {
+        journal('coffres', e)
+      }
+      refuse = gardeCoffres(joueur, bloc)
+    }
+  } catch (e) {
+    journal('coffres', e)
+  }
+  if (refuse) event.cancel()
+})
+
+// Chemin 2 : appelé par startup_scripts/bmc4_coffres_recharge.js avec le joueur
+// et le BlockPos de l'événement Forge. Le bloc est construit comme KubeJS le fait
+// (getLevel().getBlock(pos) = LevelKJS.kjs$getBlock(BlockPos)). Rend true si refusé.
+global.bmc4GardeCoffre = (joueur, pos) => {
+  let bloc
+  try {
+    bloc = joueur.getLevel().getBlock(pos)
+  } catch (e) {
+    journal('coffres (recharge)', e)
+    bloc = null
+  }
+  // Un bloc illisible (null) : coffreInterdit lève, la règle refuse avec « la garde ne répond pas ».
+  return gardeCoffres(joueur, bloc) == true
+}
 
 // ------------------------------------------------------------
 //  Le combat : un coup pris d'une créature ou d'un joueur, ou donné.
